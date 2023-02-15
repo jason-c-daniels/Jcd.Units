@@ -1,0 +1,43 @@
+﻿Quantity Name,Unit Name,Unit Symbol,Uses Prefixes,Base Unit,Coefficient,Offset,Sort Index
+Duration,second,s,True,second,1,0,0
+Duration,minute,min,False,second,60,0,1
+Duration,hour,hr,False,minute,60,0,2
+Duration,day,dy,False,hour,24,0,3
+Duration,week,wk,False,day,7,0,4
+Duration,year,yr,False,day,365.2525,0,5
+Duration,decade,dec.,False,year,10,0,6
+Duration,century,cent.,False,decade,10,0,7
+Duration,millennium,kyr,False,century,10,0,8
+Duration,million years,Myr,False,millennium,1000,0,9
+Duration,billion years,Gyr,False,million years,1000,0,10
+Duration,trillion years,Tyr,False,billion years,1000,0,11
+Duration,quadrillion years,Pyr,False,trillion years,1000,0,12
+Duration,sextillion years,Zyr,False,quadrillion years,1000,0,13
+Duration,septillion years,Yyr,False,sextillion years,1000,0,14
+Duration,planck-time,tP,False,yoctosecond,5.39121E-20,0,0
+Length,meter,m,True,meter,1,0,0
+Mass,gram,g,True,gram,1,0,0
+Electrical Current,ampere,A,True,ampere,1,0,0
+Temperature,celcius,°C,False,celcius,1,0,0
+Temperature,kelvin,°K,False,celcius,1,-273.15,1
+Amount,mole,mol,True,mole,1,0,0
+Luminous Intensity,candela,cd,True,candela,1,0,0
+Force,newton,N,True,newton,1,0,0
+Frequency,hertz,Hz,True,hertz,1,0,0
+Pressure,pascal,Pa,True,pascal,1,0,0
+Energy,joule,J,True,joule,1,0,0
+Power,watt,W,True,watt,1,0,0
+Electrical Charge,coulomb,C,True,coulomb,1,0,0
+Electrical Potential,volt,V,True,volt,1,0,0
+Capacitance,farad,F,True,farad,1,0,0
+Resistance,ohm,Ω,True,ohm,1,0,0
+Electrical Conductance,siemens,S,True,siemens,1,0,0
+Magnetic Flux,weber,Wb,True,weber,1,0,0
+Magnetic Flux Density,tesla,T,True,tesla,1,0,0
+Inductance,henry,H,True,henry,1,0,0
+Luminous Flux,lumen,lm,True,lumen,1,0,0
+Illuminance,lux,lx,True,lux,1,0,0
+Radioactive Decay,becquerel,Bq,True,becquerel,1,0,0
+Radiation Absorbed Dose,gray,Gy,True,gray,1,0,0
+Radiation Equivalent Dose,sievert,sv,True,sievert,1,0,0
+Catalytic Activity,katal,kat,True,katal,1,0,0

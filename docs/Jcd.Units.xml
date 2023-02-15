@@ -4,15 +4,122 @@
         <name>Jcd.Units</name>
     </assembly>
     <members>
-        <member name="T:Jcd.Units.Class1">
-            <summary>
-            TODO: Add some documentation as you write your code.
-            </summary>
-        </member>
         <member name="T:Jcd.Units.NamespaceDoc">
             <summary>
             Provides TODO: A description of what this namespace provides.
             </summary>
+        </member>
+        <member name="T:Jcd.Units.Quantity`1">
+            <summary>
+                Represents a quantity with an associated unit of measure.
+            </summary>
+            <param name="RawValue">The numeric portion, without associated unit of measure</param>
+            <param name="Units">The unit of measure.</param>
+            <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.#ctor(System.Double,`0)">
+            <summary>
+                Represents a quantity with an associated unit of measure.
+            </summary>
+            <param name="RawValue">The numeric portion, without associated unit of measure</param>
+            <param name="Units">The unit of measure.</param>
+            <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.RawValue">
+            <summary>The numeric portion, without associated unit of measure</summary>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.Units">
+            <summary>The unit of measure.</summary>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.To(`0)">
+            <summary>
+                Converts the quantity from its current unit of measure to the target unit of measure.
+            </summary>
+            <param name="targetUnit">The target unit of measure</param>
+            <returns>The new quantity represented as the new unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_UnaryPlus(Jcd.Units.Quantity{`0})">
+            <summary>
+                Performs a standard unary "+" operation.
+            </summary>
+            <param name="q">The <c>Quantity</c> to operate on.</param>
+            <returns>The <c>Quantity</c></returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_UnaryNegation(Jcd.Units.Quantity{`0})">
+            <summary>
+                Performs standard unary negation on the <c>RawValue</c> component and returns a new <c>Quantity</c>.
+            </summary>
+            <param name="q">The quantity to perform the operation on.</param>
+            <returns>The negated form of the <c>Quantity</c></returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Addition(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+            <summary>
+            Adds two quantities, selecting the larger unit of measure as the common representation.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand operand</param>
+            <returns>The sum of the two quantities in the common unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Subtraction(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+            <summary>
+            Performs subtraction on two quantities, converting to the larger of the two units of measure.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand operand.</param>
+            <returns>The result of the subtraction.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Multiply(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+            <summary>
+            Performs multiplication on two quantities, converting to the larger of the two units of measure.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand operand.</param>
+            <returns>The product of the two operands.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Division(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+            <summary>
+            Performs division on two quantities, converting to the larger of the two units of measure.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand operand.</param>
+            <returns>The result of the division.</returns>
+            <exception cref="T:System.DivideByZeroException">When <c>y</c> is zero.</exception>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Addition(Jcd.Units.Quantity{`0},System.Double)">
+            <summary>
+            Performs addition on a <c>Quantity</c> (left-hand operand) and a double.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand, <c>double</c>, operand.</param>
+            <returns>The result of the addition.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Subtraction(Jcd.Units.Quantity{`0},System.Double)">
+            <summary>
+            Performs subtraction on a <c>Quantity</c> (left-hand operand) and a double.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand, <c>double</c>, operand.</param>
+            <returns>The result of the subtraction.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.FromBaseUnitValue``1(``0,System.Double)">
+            <summary>
+            Given a raw value, convert TO the fundamental base unit representation FROM the non-base unit representation of
+            the value. (e.g. 100mm becomes 0.1 as meters are the base unit)
+            </summary>
+            <param name="unitOfMeasure">The unit of measure</param>
+            <param name="value">the denormalized value.</param>
+            <typeparam name="TUnits">The type of unit</typeparam>
+            <returns>The normalized value</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ToBaseUnitValue``1(``0,System.Double)">
+            <summary>
+            Given a raw value, convert FROM the fundamental base unit representation TO the non-base value. (e.g. 0.1
+            becomes 100mm as meters are the base unit and 0.1m is 100mm )
+            </summary>
+            <param name="unitOfMeasure">The unit of measure</param>
+            <param name="value">the normalized value.</param>
+            <typeparam name="TUnits">The type of unit</typeparam>
+            <returns>The denormalized value</returns>
         </member>
     </members>
 </doc>

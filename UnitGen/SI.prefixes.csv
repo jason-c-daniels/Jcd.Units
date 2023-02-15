@@ -1,0 +1,22 @@
+﻿Prefix,Symbol,Coefficient,Sort Index
+yotta,Y,1.0E+24,20
+zetta,Z,1.0E+21,19
+exa,E,1.0E+18,18
+peta,P,1.0E+15,17
+tera,T,1.0E+12,16
+giga,G,1.0E+9,15
+mega,M,1.0E+6,14
+kilo,k,1.0E+3,13
+hecto,h,1.0E+2,12
+deka,da,1.0E+1,11
+,,1.0E+0,0
+deci,d,1.0E-1,1
+centi,c,1.0E-2,2
+milli,m,1.0E-3,3
+micro,μ,1.0E-6,4
+nano,n,1.0E-9,5
+pico,p,1.0E-12,6
+femto,f,1.0E-15,7
+atto,a,1.0E-18,8
+zepto,z,1.0E-21,9
+yocto,y,1.0E-24,10
