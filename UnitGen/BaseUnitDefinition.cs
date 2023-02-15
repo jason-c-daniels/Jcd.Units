@@ -4,6 +4,7 @@ namespace UnitGen;
 
 public record BaseUnitDefinition
 (
+    string System,
     string QuantityName, 
     string UnitName, 
     string UnitSymbol, 

@@ -65,7 +65,7 @@ public record Temperature(string Name, string Abbreviation, double Coefficient=1
     #region Predefined Temperatures
     
     public static Temperature Celcius = new ("Celcius", "°C",1,0);
-    public static Temperature Kelvin = new ("kelvin", "°K", Celcius,1,-273.15);
+    public static Temperature Kelvin = new ("Kelvin", "°K", Celcius,1,-273.15);
     public static Temperature Fahrenheit = new ("Fahrenheit", "°F",5.0/9.0,-32.0);
     public static Temperature Rankine = new ("Rankine", "°R",Celcius,5.0/9.0, -491.67);
     public static Temperature Delisle = new ("Delisle", "°De",Celcius,1.5,100.0);

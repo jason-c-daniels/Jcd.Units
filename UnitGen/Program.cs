@@ -9,24 +9,24 @@ using CsvHelper.Configuration;
 using UnitGen;
 using UnitGen.Resources;
 
-var siBaseUnits = ReadData<BaseUnitDefinition>("SI.baseunits.csv");
-var siPrefixes = ReadData<SiPrefix>("SI.prefixes.csv");
+var units = ReadData<BaseUnitDefinition>("units.csv");
+var prefixes = ReadData<SiPrefix>("prefixes.csv");
 
 var unitsWithPrefixes = 
     (
-        from prefix in siPrefixes
-        from baseUnit in siBaseUnits
-        where baseUnit.UsesPrefixes
+        from prefix in prefixes
+        from unit in units
+        where unit.UsesPrefixes
         select new UnitDefinition
         (
-            "SI",
-            baseUnit.QuantityName,
-            $"{prefix.Prefix}{baseUnit.UnitName}",
-            $"{prefix.Symbol}{baseUnit.UnitSymbol}",
-            baseUnit.BaseUnit,
+            unit.System,
+            unit.QuantityName,
+            $"{prefix.Prefix}{unit.UnitName}",
+            $"{prefix.Symbol}{unit.UnitSymbol}",
+            unit.BaseUnit,
             prefix.Coefficient,
             "0",
-            prefix.SortIndex
+            prefix.SortIndex+unit.SortIndex
         )
     )
     .OrderBy(x=>x.QuantityName)
@@ -35,18 +35,18 @@ var unitsWithPrefixes =
 
 var unitsWithoutPrefixes = 
     (
-        from baseUnit in siBaseUnits
-        where !baseUnit.UsesPrefixes
+        from unit in units
+        where !unit.UsesPrefixes
         select new UnitDefinition
         (
-            "SI",
-            baseUnit.QuantityName,
-            $"{baseUnit.UnitName}",
-            $"{baseUnit.UnitSymbol}",
-            baseUnit.BaseUnit,
-            baseUnit.Coefficient,
-            baseUnit.Offset,
-            baseUnit.SortIndex+21
+            unit.System,
+            unit.QuantityName,
+            $"{unit.UnitName}",
+            $"{unit.UnitSymbol}",
+            unit.BaseUnit,
+            unit.Coefficient,
+            unit.Offset,
+            unit.SortIndex+500
         )
     )
     .OrderBy(x=>x.QuantityName)

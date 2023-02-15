@@ -1,0 +1,26 @@
+﻿Prefix,Symbol,Coefficient,Sort Index
+quetta,Q,1.0E+30,24
+ronna,R,1.0E+27,23
+yotta,Y,1.0E+24,22
+zetta,Z,1.0E+21,21
+exa,E,1.0E+18,20
+peta,P,1.0E+15,19
+tera,T,1.0E+12,18
+giga,G,1.0E+9,17
+mega,M,1.0E+6,16
+kilo,k,1.0E+3,15
+hecto,h,1.0E+2,14
+deka,da,1.0E+1,13
+,,1.0,0
+deci,d,1.0E-1,1
+centi,c,1.0E-2,2
+milli,m,1.0E-3,3
+micro,μ,1.0E-6,4
+nano,n,1.0E-9,5
+pico,p,1.0E-12,6
+femto,f,1.0E-15,7
+atto,a,1.0E-18,8
+zepto,z,1.0E-21,9
+yocto,y,1.0E-24,10
+ronto,r,1.0E-27,11
+quecto,q,1.0E-30,12

@@ -43,7 +43,7 @@
 
     public override int GetHashCode()
     {
-        return HashCode.Combine(Coefficient, Offset);
+        return HashCode.Combine(Coefficient, Offset, typeof($UnitType$));
     }
     
     #endregion
@@ -84,7 +84,7 @@
 
     #endregion
     
-    #region Predefined $UnitType$s
+    #region Predefined $UnitType$ Units
     
 </value>
     </data>
