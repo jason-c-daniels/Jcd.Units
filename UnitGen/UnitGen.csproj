@@ -19,8 +19,7 @@
     <ItemGroup>
       <PackageReference Include="CsvHelper" Version="30.0.1" />
     </ItemGroup>
-
-
+    
     <ItemGroup>
       <Compile Update="Resources\Templates.Designer.cs">
         <DesignTime>True</DesignTime>
@@ -28,17 +27,19 @@
         <DependentUpon>Templates.resx</DependentUpon>
       </Compile>
     </ItemGroup>
-
-
+    
     <ItemGroup>
-      <None Remove="prefixes.csv" />
       <Content Include="prefixes.csv">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
-      <None Remove="units.csv" />
       <Content Include="units.csv">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <None Remove="Resources\Unit.template" />
+      <EmbeddedResource Include="Resources\UnitType.template" />
     </ItemGroup>
 
 </Project>

@@ -3,22 +3,46 @@ using System.Diagnostics;
 
 namespace Jcd.Units;
 
-public record Duration(string Name, string Abbreviation, double Coefficient=1, double Offset=0) 
+/// <summary>
+/// Constructs a unit measuring a specified <c>Duration</c>
+/// </summary>
+/// <param name="Name">The name of this unit</param>
+/// <param name="Symbol">The symbol or abbreviation to represent the <c>Duration</c></param>
+/// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+/// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+public record struct Duration(string Name, string Symbol, double Coefficient=1, double Offset=0) 
     : IUnitOfMeasure<Duration>
 {
-    public Duration(string Name, string Abbreviation, Duration baseUnit, double Coefficient, double Offset = 0) 
-        : this(Name,Abbreviation,baseUnit.Coefficient*Coefficient,baseUnit.Coefficient*baseUnit.Offset+Offset)
+    /// <summary>
+    /// Constructs a unit measuring a specified <c>Duration</c> using another Duration as a reference.
+    /// </summary>
+    /// <param name="name">The name of this unit</param>
+    /// <param name="symbol">The symbol or abbreviation to represent the <c>Duration</c></param>
+    /// <param name="baseUnit">The unit to use as a base</param>
+    /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+    /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
+    public Duration(string name, string symbol, Duration baseUnit, double coefficient, double offset = 0) 
+        : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
     {
         Debug.WriteLine($"{this}");
     }
     
     #region Equality members
 
-    public virtual bool Equals(Duration? other)
+    /// <summary>
+    /// Compares this <c>Duration</c> to another one for equality.
+    /// </summary>
+    /// <param name="other">The other <c>Duration</c> to compare against.</param>
+    /// <returns>true if equivalent, false otherwise.</returns>
+    public bool Equals(Duration other)
     {
         return Coefficient.Equals(other.Coefficient) && Offset.Equals(other.Offset);
     }
 
+    /// <summary>
+    /// Computes the hash code for this <c>Duration</c>
+    /// </summary>
+    /// <returns>The computed hashcode.</returns>
     public override int GetHashCode()
     {
         return HashCode.Combine(Coefficient, Offset, typeof(Duration));
@@ -28,33 +52,68 @@ public record Duration(string Name, string Abbreviation, double Coefficient=1, d
 
     #region Relational members
 
+    /// <summary>
+    /// Performs a relative comparison between this <c>Duration</c> and another one.
+    /// </summary>
+    /// <param name="other">The <c>Duration</c> to compare against.</param>
+    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
     public int CompareTo(Duration other)
     {
         var factorComparison = Coefficient.CompareTo(other.Coefficient);
         return factorComparison != 0 ? factorComparison : Offset.CompareTo(other.Offset);
     }
 
+    /// <summary>
+    /// Performs a relative comparison between this <c>Duration</c> and another one.
+    /// </summary>
+    /// <param name="obj">The <c>Duration</c> to compare against.</param>
+    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+    /// <exception cref="ArgumentException">When the passed in object is not a <c>Duration</c></exception>
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1;
         return obj is Duration other ? CompareTo(other) : throw new ArgumentException($"Object must be of type {nameof(Duration)}");
     }
 
+    /// <summary>
+    /// Compares two <c>Duration</c> instances to determine if the left one is less than the right one. 
+    /// </summary>
+    /// <param name="left">The left <c>Duration</c></param>
+    /// <param name="right">The right <c>Duration</c></param>
+    /// <returns>true if left is &lt; right; false otherwise.</returns>
     public static bool operator <(Duration left, Duration right)
     {
         return left.CompareTo(right) < 0;
     }
 
+    /// <summary>
+    /// Compares two <c>Duration</c> instances to determine if the left one is greater than the right one. 
+    /// </summary>
+    /// <param name="left">The left <c>Duration</c></param>
+    /// <param name="right">The right <c>Duration</c></param>
+    /// <returns>true if left is &gt; right; false otherwise.</returns>
     public static bool operator >(Duration left, Duration right)
     {
         return left.CompareTo(right) > 0;
     }
 
+    /// <summary>
+    /// Compares two <c>Duration</c> instances to determine if the left one is less than or equal to the right one. 
+    /// </summary>
+    /// <param name="left">The left <c>Duration</c></param>
+    /// <param name="right">The right <c>Duration</c></param>
+    /// <returns>true if left is &lt;= right; false otherwise.</returns>
     public static bool operator <=(Duration left, Duration right)
     {
         return left.CompareTo(right) <= 0;
     }
 
+    /// <summary>
+    /// Compares two <c>Duration</c> instances to determine if the left one is greater than or equal to the right one. 
+    /// </summary>
+    /// <param name="left">The left <c>Duration</c></param>
+    /// <param name="right">The right <c>Duration</c></param>
+    /// <returns>true if left is &gt;= right; false otherwise.</returns>
     public static bool operator >=(Duration left, Duration right)
     {
         return left.CompareTo(right) >= 0;
@@ -62,34 +121,4 @@ public record Duration(string Name, string Abbreviation, double Coefficient=1, d
 
     #endregion
     
-    #region Predefined Durations
-    
-    public static Duration Second = new ("second", "s",1,0);
-    public static Duration Decisecond = new ("decisecond", "ds",Second,1.0/10.0);
-    public static Duration Centisecond = new ("centisecond", "cs",Decisecond,1.0/10.0);
-    public static Duration Millisecond = new ("millisecond", "ms",Centisecond,1.0/10.0);
-    public static Duration Microsecond = new ("microsecond", "μs",Millisecond,1.0/1000.0);
-    public static Duration Nanosecond = new ("nanosecond", "ns",Microsecond,1.0/1000.0);
-    public static Duration Picosecond = new ("picosecond", "ps",Nanosecond,1.0/1000.0);
-    public static Duration Femtosecond = new ("femtosecond", "fs",Picosecond,1.0/1000.0);
-    public static Duration Attosecond = new ("attosecond", "as",Femtosecond,1.0/1000.0);
-    public static Duration Zeptosecond = new ("zeposecond", "zs",Attosecond,1.0/1000.0);
-    public static Duration Yoctosecond = new ("yoctosecond", "ys",Zeptosecond,1.0/1000.0);
-    public static Duration PlanckTime = new ("planck-time", "tP", Yoctosecond, 5.39121E-20);
-    public static Duration Minute = new ("minute(s)", "min",Second,60);
-    public static Duration Hour = new ("hour(s)", "hr",Minute,60);
-    public static Duration Day = new ("day(s)", "dy",Hour,24);
-    public static Duration Week = new ("week(s)", "wk",Day,7);
-    public static Duration Year = new ("year(s)", "yr",Day,365.2525);
-    public static Duration Decade = new ("decade(s)", "dec.",Year,10);
-    public static Duration Century = new ("century", "cent.",Decade,10);
-    public static Duration Millennium = new ("millennium", "ky",Century,10);
-    public static Duration MillionYears = new ("million years", "Myr",Millennium,1000);
-    public static Duration BillionYears = new ("billion years", "Gyr",MillionYears,1000);
-    public static Duration TrillionYears = new ("trillion years", "Tyr",BillionYears,1000);
-    public static Duration QuadrillionYears = new ("quadrillion years", "Pyr",TrillionYears,1000);
-    public static Duration SextillionYears = new ("sextillion years", "Zyr",QuadrillionYears,1000);
-    public static Duration SeptillionYears = new ("septillion years", "Yyr",SextillionYears,1000);    
-
-    #endregion
 }

@@ -3,18 +3,18 @@ using System.Diagnostics;
 
 namespace Jcd.Units;
 
-public partial record Length(string Name, string Abbreviation, double Coefficient=1.0, double Offset=0) 
+public record struct Length(string Name, string Symbol, double Coefficient=1.0, double Offset=0) 
     : IUnitOfMeasure<Length>
 {
-    public Length(string Name, string Abbreviation, Length baseUnit, double Coefficient=1.0, double Offset = 0) 
-        : this(Name,Abbreviation,baseUnit.Coefficient*Coefficient,baseUnit.Coefficient*baseUnit.Offset+Offset)
+    public Length(string Name, string Symbol, Length baseUnit, double Coefficient=1.0, double Offset = 0) 
+        : this(Name,Symbol,baseUnit.Coefficient*Coefficient,baseUnit.Coefficient*baseUnit.Offset+Offset)
     {
         Debug.WriteLine($"{this}");
     }
     
     #region Equality members
 
-    public virtual bool Equals(Length? other)
+    public bool Equals(Length other)
     {
         return Coefficient.Equals(other.Coefficient) && Offset.Equals(other.Offset);
     }

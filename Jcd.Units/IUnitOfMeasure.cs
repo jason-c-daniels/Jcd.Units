@@ -7,7 +7,7 @@ public interface IUnitOfMeasure<TUnits>
       IComparable
 {
     string Name { get; }
-    string Abbreviation { get; }
+    string Symbol { get; }
     double Coefficient { get; }
     double Offset { get; }
 }

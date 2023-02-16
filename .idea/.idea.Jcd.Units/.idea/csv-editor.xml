@@ -10,14 +10,28 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\UnitGen\SI.prefixes.csv">
+        <entry key="\UnitGen\SI.units.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\UnitGen\SI.units.csv">
+        <entry key="\UnitGen\amounts.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\UnitGen\prefixes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\UnitGen\units.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

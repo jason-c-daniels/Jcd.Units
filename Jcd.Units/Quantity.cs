@@ -28,7 +28,7 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
 
     public override string ToString()
     {
-        return $"{RawValue:n} {Units.Abbreviation}";
+        return $"{RawValue:n} {Units.Symbol}";
     }
 
     #endregion

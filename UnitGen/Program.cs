@@ -1,16 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//var siPrefixes =
 
 using System.Globalization;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using CsvHelper;
 using CsvHelper.Configuration;
 using UnitGen;
+using UnitGen.CodeGenerators;
 using UnitGen.Resources;
 
 var units = ReadData<BaseUnitDefinition>("units.csv");
-var prefixes = ReadData<SiPrefix>("prefixes.csv");
+var prefixes = ReadData<PrefixDefinition>("prefixes.csv");
 
 var unitsWithPrefixes = 
     (
@@ -20,17 +21,22 @@ var unitsWithPrefixes =
         select new UnitDefinition
         (
             unit.System,
-            unit.QuantityName,
+            unit.UnitType,
             $"{prefix.Prefix}{unit.UnitName}",
             $"{prefix.Symbol}{unit.UnitSymbol}",
-            unit.BaseUnit,
-            prefix.Coefficient,
+            prefix.IsBasePrefix 
+                ? unit.BaseUnit
+                : $"{prefix.BasePrefix}{unit.UnitName}",
+            prefix.IsBasePrefix 
+                ? unit.Coefficient 
+                : prefix.Coefficient,
             "0",
-            prefix.SortIndex+unit.SortIndex
+            unit.SortIndex,
+            prefix.SortIndex
         )
     )
-    .OrderBy(x=>x.QuantityName)
-    .ThenBy(x=>x.SortIndex)
+    .OrderBy(x=>x.UnitType)
+    .ThenBy(x=>x.UnitSortIndex)
     .ToList();
 
 var unitsWithoutPrefixes = 
@@ -40,37 +46,48 @@ var unitsWithoutPrefixes =
         select new UnitDefinition
         (
             unit.System,
-            unit.QuantityName,
+            unit.UnitType,
             $"{unit.UnitName}",
             $"{unit.UnitSymbol}",
             unit.BaseUnit,
             unit.Coefficient,
             unit.Offset,
-            unit.SortIndex+500
+            unit.SortIndex,
+            0
         )
     )
-    .OrderBy(x=>x.QuantityName)
+    .OrderBy(x=>x.UnitType)
     .ThenBy(x=>x.Name)
     .ToList();
 
 var allUnits = unitsWithPrefixes.Concat(unitsWithoutPrefixes)
     .OrderBy(x=>x.System)
-    .ThenBy(x=>x.QuantityName)
+    .ThenBy(x=>x.UnitType)
     .ThenByDescending(x=>x.IsBaseUnit)
-    .ThenBy(x=>x.SortIndex)
+    .ThenBy(x=>x.UnitSortIndex)
+    .ThenBy(x=>x.PrefixSortIndex)
     .ThenBy(x=>x.Name)
     .ToList();
 
-var previousTypeName = string.Empty;
-foreach (var unit in allUnits)
+var allUnitTypes=(from unit in allUnits select unit.UnitType).Distinct();
+var utg = new UnitTypeGenerator();
+foreach (var unitType in allUnitTypes)
 {
-    var typeName = MakeCodeName(unit.QuantityName);
-    var unitType = MakeCodeName(unit.Name);
-    EmitType(previousTypeName, typeName);
-    EmitUnit(typeName, unitType, unit);
-    previousTypeName = typeName;
+    var unitTypeName = unitType.MakeCodeName();
+    Console.WriteLine($"/// File: {unitTypeName}.cs");
+    Console.WriteLine(utg.Generate(unitTypeName));
 }
-EmitType(previousTypeName, string.Empty);
+
+var groupings =
+    from unit in allUnits
+    group unit by unit.System
+    into systemGroup
+    from unitTypes in (
+        from unit in systemGroup
+        group unit by unit.UnitType
+    )
+    group unitTypes by systemGroup.Key;
+
 
 int i = 0;
 
@@ -85,8 +102,6 @@ IList<T> ReadData<T>(string pathToFile)
     using var csv = new CsvReader(reader, config);
     return csv.GetRecords<T>().ToList();
 }
-
-string MakeCodeName(string text) => CultureInfo.CurrentCulture.TextInfo.ToTitleCase(Regex.Replace(text, @"\p{P}", " ")).Replace(" ","");
 
 void EmitType(string previousType, string typeName)
 {
@@ -105,16 +120,15 @@ void EmitType(string previousType, string typeName)
     }
 }
 
-void EmitUnit(string typeName, string unitType, UnitDefinition unit)
+string EmitUnit(string typeName, string unitType, UnitDefinition unit)
 {
-    var template=unit.IsBaseUnit ? Templates.BaseUnitEntry : Templates.DerivedUnitEntry;
-    var entry = template
+    var template= unit.IsBaseUnit ? Templates.BaseUnitEntry : Templates.DerivedUnitEntry;
+   return template
         .Replace("$TypeName$", typeName)
         .Replace("$UnitType$", unitType)
         .Replace("$UnitName$", unit.Name)
         .Replace("$Symbol$", unit.Symbol)
-        .Replace("$BaseUnit$", MakeCodeName(unit.BaseUnit))
-        .Replace("$Coefficient$", unit.Coefficient)
+        .Replace("$BaseUnit$", unit.BaseUnit.MakeCodeName())
+        .Replace("$Coefficient$", unit.UnitCoefficient)
         .Replace("$Offset$", unit.Offset);
-    Console.WriteLine(entry);
 }
