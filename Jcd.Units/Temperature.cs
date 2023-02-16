@@ -1,60 +1,118 @@
-using System;
-using System.Diagnostics;
+﻿using System;
 
 namespace Jcd.Units;
 
-public record struct Temperature(string Name, string Symbol, double Coefficient=1, double Offset=0) 
+/// <summary>
+/// Constructs a unit measuring a specified <c>Temperature</c>
+/// </summary>
+/// <param name="Name">The name of this unit</param>
+/// <param name="Symbol">The symbol or abbreviation to represent the <c>Temperature</c></param>
+/// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+/// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+public record struct Temperature(string Name, string Symbol, double Coefficient=1, double Offset=0)
     : IUnitOfMeasure<Temperature>
 {
-    public Temperature(string Name, string Symbol, Temperature baseUnit, double Coefficient, double Offset = 0) 
-        : this(Name,Symbol,baseUnit.Coefficient*Coefficient,baseUnit.Coefficient*baseUnit.Offset+Offset)
+    /// <summary>
+    /// Constructs a unit measuring a specified <c>Temperature</c> using another Temperature as a reference.
+    /// </summary>
+    /// <param name="name">The name of this unit</param>
+    /// <param name="symbol">The symbol or abbreviation to represent the <c>Temperature</c></param>
+    /// <param name="baseUnit">The unit to use as a base</param>
+    /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+    /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
+    public Temperature(string name, string symbol, Temperature baseUnit, double coefficient, double offset = 0)
+        : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
     {
-        Debug.WriteLine($"{this}");
+
     }
-    
+
     #region Equality members
 
+    /// <summary>
+    /// Compares this <c>Temperature</c> to another one for equality.
+    /// </summary>
+    /// <param name="other">The other <c>Temperature</c> to compare against.</param>
+    /// <returns>true if equivalent, false otherwise.</returns>
     public bool Equals(Temperature other)
     {
         return Coefficient.Equals(other.Coefficient) && Offset.Equals(other.Offset);
     }
 
+    /// <summary>
+    /// Computes the hash code for this <c>Temperature</c>
+    /// </summary>
+    /// <returns>The computed hashcode.</returns>
     public override int GetHashCode()
     {
-        return HashCode.Combine(Coefficient, Offset);
+        return HashCode.Combine(Coefficient, Offset, typeof(Temperature));
     }
-    
+
     #endregion
 
     #region Relational members
 
+    /// <summary>
+    /// Performs a relative comparison between this <c>Temperature</c> and another one.
+    /// </summary>
+    /// <param name="other">The <c>Temperature</c> to compare against.</param>
+    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
     public int CompareTo(Temperature other)
     {
         var factorComparison = Coefficient.CompareTo(other.Coefficient);
         return factorComparison != 0 ? factorComparison : Offset.CompareTo(other.Offset);
     }
 
+    /// <summary>
+    /// Performs a relative comparison between this <c>Temperature</c> and another one.
+    /// </summary>
+    /// <param name="obj">The <c>Temperature</c> to compare against.</param>
+    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+    /// <exception cref="ArgumentException">When the passed in object is not a <c>Temperature</c></exception>
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1;
         return obj is Temperature other ? CompareTo(other) : throw new ArgumentException($"Object must be of type {nameof(Temperature)}");
     }
 
+    /// <summary>
+    /// Compares two <c>Temperature</c> instances to determine if the left one is less than the right one.
+    /// </summary>
+    /// <param name="left">The left <c>Temperature</c></param>
+    /// <param name="right">The right <c>Temperature</c></param>
+    /// <returns>true if left is &lt; right; false otherwise.</returns>
     public static bool operator <(Temperature left, Temperature right)
     {
         return left.CompareTo(right) < 0;
     }
 
+    /// <summary>
+    /// Compares two <c>Temperature</c> instances to determine if the left one is greater than the right one.
+    /// </summary>
+    /// <param name="left">The left <c>Temperature</c></param>
+    /// <param name="right">The right <c>Temperature</c></param>
+    /// <returns>true if left is &gt; right; false otherwise.</returns>
     public static bool operator >(Temperature left, Temperature right)
     {
         return left.CompareTo(right) > 0;
     }
 
+    /// <summary>
+    /// Compares two <c>Temperature</c> instances to determine if the left one is less than or equal to the right one.
+    /// </summary>
+    /// <param name="left">The left <c>Temperature</c></param>
+    /// <param name="right">The right <c>Temperature</c></param>
+    /// <returns>true if left is &lt;= right; false otherwise.</returns>
     public static bool operator <=(Temperature left, Temperature right)
     {
         return left.CompareTo(right) <= 0;
     }
 
+    /// <summary>
+    /// Compares two <c>Temperature</c> instances to determine if the left one is greater than or equal to the right one.
+    /// </summary>
+    /// <param name="left">The left <c>Temperature</c></param>
+    /// <param name="right">The right <c>Temperature</c></param>
+    /// <returns>true if left is &gt;= right; false otherwise.</returns>
     public static bool operator >=(Temperature left, Temperature right)
     {
         return left.CompareTo(right) >= 0;

@@ -1,5 +1,4 @@
 using System;
-using System.Diagnostics;
 
 namespace Jcd.Units;
 
@@ -10,7 +9,7 @@ namespace Jcd.Units;
 /// <param name="Symbol">The symbol or abbreviation to represent the <c>Duration</c></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record struct Duration(string Name, string Symbol, double Coefficient=1, double Offset=0) 
+public record struct Duration(string Name, string Symbol, double Coefficient=1, double Offset=0)
     : IUnitOfMeasure<Duration>
 {
     /// <summary>
@@ -21,12 +20,12 @@ public record struct Duration(string Name, string Symbol, double Coefficient=1, 
     /// <param name="baseUnit">The unit to use as a base</param>
     /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
     /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
-    public Duration(string name, string symbol, Duration baseUnit, double coefficient, double offset = 0) 
+    public Duration(string name, string symbol, Duration baseUnit, double coefficient, double offset = 0)
         : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
     {
-        Debug.WriteLine($"{this}");
+
     }
-    
+
     #region Equality members
 
     /// <summary>
@@ -47,7 +46,7 @@ public record struct Duration(string Name, string Symbol, double Coefficient=1, 
     {
         return HashCode.Combine(Coefficient, Offset, typeof(Duration));
     }
-    
+
     #endregion
 
     #region Relational members
@@ -76,7 +75,7 @@ public record struct Duration(string Name, string Symbol, double Coefficient=1, 
     }
 
     /// <summary>
-    /// Compares two <c>Duration</c> instances to determine if the left one is less than the right one. 
+    /// Compares two <c>Duration</c> instances to determine if the left one is less than the right one.
     /// </summary>
     /// <param name="left">The left <c>Duration</c></param>
     /// <param name="right">The right <c>Duration</c></param>
@@ -87,7 +86,7 @@ public record struct Duration(string Name, string Symbol, double Coefficient=1, 
     }
 
     /// <summary>
-    /// Compares two <c>Duration</c> instances to determine if the left one is greater than the right one. 
+    /// Compares two <c>Duration</c> instances to determine if the left one is greater than the right one.
     /// </summary>
     /// <param name="left">The left <c>Duration</c></param>
     /// <param name="right">The right <c>Duration</c></param>
@@ -98,7 +97,7 @@ public record struct Duration(string Name, string Symbol, double Coefficient=1, 
     }
 
     /// <summary>
-    /// Compares two <c>Duration</c> instances to determine if the left one is less than or equal to the right one. 
+    /// Compares two <c>Duration</c> instances to determine if the left one is less than or equal to the right one.
     /// </summary>
     /// <param name="left">The left <c>Duration</c></param>
     /// <param name="right">The right <c>Duration</c></param>
@@ -109,7 +108,7 @@ public record struct Duration(string Name, string Symbol, double Coefficient=1, 
     }
 
     /// <summary>
-    /// Compares two <c>Duration</c> instances to determine if the left one is greater than or equal to the right one. 
+    /// Compares two <c>Duration</c> instances to determine if the left one is greater than or equal to the right one.
     /// </summary>
     /// <param name="left">The left <c>Duration</c></param>
     /// <param name="right">The right <c>Duration</c></param>
@@ -120,5 +119,4 @@ public record struct Duration(string Name, string Symbol, double Coefficient=1, 
     }
 
     #endregion
-    
 }
