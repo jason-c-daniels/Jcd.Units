@@ -1,0 +1,5 @@
+﻿Name,Description,Has Subnamespace,Subnamespace
+SI,International System of Units,True,SI
+US Customary,United States customary units,True,USCustomary
+Imperial,British Imperial,True,Imperial
+,Default,False,

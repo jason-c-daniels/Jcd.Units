@@ -7,7 +7,7 @@ public class UnitTypeGenerator
 
     public UnitTypeGenerator()
     {
-        unitTypeTemplate = ResourceHelper.ReadStringResource("UnitType.template");
+        unitTypeTemplate = EmbeddedResource.ReadString("UnitType.template");
     }
     public string Generate(string unitTypeName, string baseNamespace="Jcd.Units")
     {

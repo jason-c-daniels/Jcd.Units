@@ -1,0 +1,6 @@
+﻿Name,Unit Type Name,Enumeration Name,Description
+Amount,Amount,Amounts,"An arbitrary quantity, number or value of something."
+Capacitance,Capacitance,Capacitances,The ability of a system to store an electric charge.
+Catalytic Activity,CatalyticActivity,CatalyticActivities,The increase in rate of a chemical reaction caused by the presence of a catalyst.
+Duration,Duration,Durations,A measurement of a length of time.
+Electrical Charge,ElectricalCharge,ElectricalCharges,

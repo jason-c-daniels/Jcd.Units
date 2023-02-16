@@ -1,0 +1,53 @@
+﻿System,Unit Type,Unit Name,Unit Symbol,Uses Prefixes,Base Unit System,Base Unit,Coefficient,Offset,Sort Index
+,Duration,second,s,True,,second,1,0,0
+,Duration,minute,min,False,,second,60,0,1
+,Duration,hour,hr,False,,minute,60,0,2
+,Duration,day,dy,False,,hour,24,0,3
+,Duration,week,wk,False,,day,7,0,4
+,Duration,year,yr,False,,day,365.2525,0,5
+,Duration,decade,dec.,False,,year,10,0,6
+,Duration,century,cent.,False,,decade,10,0,7
+,Duration,millennium,kyr,False,,century,10,0,8
+,Duration,million years,Myr,False,,millennium,1000,0,9
+,Duration,billion years,Gyr,False,,million years,1000,0,10
+,Duration,trillion years,Tyr,False,,billion years,1000,0,11
+,Duration,quadrillion years,Pyr,False,,trillion years,1000,0,12
+,Duration,sextillion years,Zyr,False,,quadrillion years,1000,0,13
+,Duration,septillion years,Yyr,False,,sextillion years,1000,0,14
+,Duration,planck-time,tP,False,,yoctosecond,5.39121E-20,0,15
+SI,Length,meter,m,True,SI,meter,1,0,0
+Astronomy,Length,light-year,ly,True,SI,meter,9_460_730_472_580_800,0,1
+Astronomy,Length,parsec,pc,True,Astronomy,light-year,3.2615637769757,0,2
+Astronomy,Length,astronomical unit,AU,False,Astronomy,kilometer,149597870.691,0,3
+SI,Mass,gram,g,True,SI,gram,1,0,0
+SI,Electrical Current,ampere,A,True,SI,ampere,1,0,0
+SI,Temperature,celcius,°C,False,SI,celcius,1,0,1
+SI,Temperature,kelvin,°K,False,SI,celcius,1,-273.15,1
+US Customary,Temperature,fahrenheit,°F,False,SI,celcius,5.0/9.0,32.0,2
+,Temperature,rankine,°R,False,SI,celcius,5.0/9.0,-491.67,3
+,Temperature,delisle,°De,False,SI,celcius,1.5,100,4
+,Temperature,newton,°N,False,SI,celcius,33.0/100.0,0,5
+,Temperature,réaumur,°Ré,False,SI,celcius,4.0/5.0,0,6
+,Temperature,rømer,°Rø,False,SI,celcius,0.52500,-7.5,7
+,Amount,count,ct.,False,,count,1,0,0
+SI,Amount,mole,mol,True,,count,6.02214076E+23,0,1
+SI,Luminous Intensity,candela,cd,True,SI,candela,1,0,0
+SI,Force,newton,N,True,SI,newton,1,0,0
+SI,Frequency,hertz,Hz,True,SI,hertz,1,0,0
+SI,Pressure,pascal,Pa,True,SI,pascal,1,0,0
+SI,Energy,joule,J,True,SI,joule,1,0,0
+SI,Power,watt,W,True,SI,watt,1,0,0
+SI,Electrical Charge,coulomb,C,True,SI,coulomb,1,0,0
+SI,Electrical Potential,volt,V,True,SI,volt,1,0,0
+SI,Capacitance,farad,F,True,SI,farad,1,0,0
+SI,Resistance,ohm,Ω,True,SI,ohm,1,0,0
+SI,Electrical Conductance,siemens,S,True,SI,siemens,1,0,0
+SI,Magnetic Flux,weber,Wb,True,SI,weber,1,0,0
+SI,Magnetic Flux Density,tesla,T,True,SI,tesla,1,0,0
+SI,Inductance,henry,H,True,SI,henry,1,0,0
+SI,Luminous Flux,lumen,lm,True,SI,lumen,1,0,0
+SI,Illuminance,lux,lx,True,SI,lux,1,0,0
+SI,Radioactive Decay,becquerel,Bq,True,SI,becquerel,1,0,0
+SI,Radiation Absorbed Dose,gray,Gy,True,SI,gray,1,0,0
+SI,Radiation Equivalent Dose,sievert,sv,True,SI,sievert,1,0,0
+SI,Catalytic Activity,katal,kat,True,SI,katal,1,0,0

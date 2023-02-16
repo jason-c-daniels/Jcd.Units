@@ -9,7 +9,2134 @@
             Provides TODO: A description of what this namespace provides.
             </summary>
         </member>
-        <member name="T:Jcd.Units.Quantity`1">
+        <member name="T:Jcd.Units.UnitOfMeasureExtensions">
+            <summary>
+            Extension methods that convert raw values to and from fundamental
+            (Coefficient=1, Offset=0) unit of measure representations.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.FromBaseUnitValue``1(``0,System.Double)">
+            <summary>
+            Given a raw value, convert FROM the fundamental base unit representation
+            TO the non-base value. (e.g. 0.1  becomes 100mm as meters are the base
+            unit and 0.1m is 100mm )
+            </summary>
+            <param name="targetUnit">The unit of measure to convert TO</param>
+            <param name="value">the normalized value.</param>
+            <typeparam name="TUnitType">The type of unit of measure (e.g. Length)</typeparam>
+            <returns>The denormalized value</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ToBaseUnitValue``1(``0,System.Double)">
+            <summary>
+            Given a raw value, convert TO the fundamental base unit representation
+            FROM the non-base unit representation of  the value. (e.g. 100mm becomes
+            0.1 as meters are the base unit)
+            </summary>
+            <param name="sourceUnit">The unit of measure to convert FROM</param>
+            <param name="value">the denormalized value.</param>
+            <typeparam name="TUnitType">The type of unit of measure (e.g. Length)</typeparam>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Amount">
+            <summary>
+            Constructs a unit measuring a specified <c>Amount</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Amount</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Amount</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Amount</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Amount.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Amount.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Amount</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Amount.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Amount.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Amount,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Amount</c> using another Amount as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Amount</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.Equals(Jcd.Units.UnitTypes.Amount)">
+            <summary>
+            Compares this <c>Amount</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Amount</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Amount</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.CompareTo(Jcd.Units.UnitTypes.Amount)">
+            <summary>
+            Performs a relative comparison between this <c>Amount</c> and another one.
+            </summary>
+            <param name="other">The <c>Amount</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Amount</c> and another one.
+            </summary>
+            <param name="obj">The <c>Amount</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Amount</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.op_LessThan(Jcd.Units.UnitTypes.Amount,Jcd.Units.UnitTypes.Amount)">
+            <summary>
+            Compares two <c>Amount</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Amount</c></param>
+            <param name="right">The right <c>Amount</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.op_GreaterThan(Jcd.Units.UnitTypes.Amount,Jcd.Units.UnitTypes.Amount)">
+            <summary>
+            Compares two <c>Amount</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Amount</c></param>
+            <param name="right">The right <c>Amount</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.op_LessThanOrEqual(Jcd.Units.UnitTypes.Amount,Jcd.Units.UnitTypes.Amount)">
+            <summary>
+            Compares two <c>Amount</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Amount</c></param>
+            <param name="right">The right <c>Amount</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Amount.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Amount,Jcd.Units.UnitTypes.Amount)">
+            <summary>
+            Compares two <c>Amount</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Amount</c></param>
+            <param name="right">The right <c>Amount</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Capacitance">
+            <summary>
+            Constructs a unit measuring a specified <c>Capacitance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Capacitance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Capacitance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Capacitance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Capacitance.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Capacitance.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Capacitance</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Capacitance.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Capacitance.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Capacitance,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Capacitance</c> using another Capacitance as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Capacitance</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.Equals(Jcd.Units.UnitTypes.Capacitance)">
+            <summary>
+            Compares this <c>Capacitance</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Capacitance</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Capacitance</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.CompareTo(Jcd.Units.UnitTypes.Capacitance)">
+            <summary>
+            Performs a relative comparison between this <c>Capacitance</c> and another one.
+            </summary>
+            <param name="other">The <c>Capacitance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Capacitance</c> and another one.
+            </summary>
+            <param name="obj">The <c>Capacitance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Capacitance</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.op_LessThan(Jcd.Units.UnitTypes.Capacitance,Jcd.Units.UnitTypes.Capacitance)">
+            <summary>
+            Compares two <c>Capacitance</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Capacitance</c></param>
+            <param name="right">The right <c>Capacitance</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.op_GreaterThan(Jcd.Units.UnitTypes.Capacitance,Jcd.Units.UnitTypes.Capacitance)">
+            <summary>
+            Compares two <c>Capacitance</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Capacitance</c></param>
+            <param name="right">The right <c>Capacitance</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.op_LessThanOrEqual(Jcd.Units.UnitTypes.Capacitance,Jcd.Units.UnitTypes.Capacitance)">
+            <summary>
+            Compares two <c>Capacitance</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Capacitance</c></param>
+            <param name="right">The right <c>Capacitance</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Capacitance,Jcd.Units.UnitTypes.Capacitance)">
+            <summary>
+            Compares two <c>Capacitance</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Capacitance</c></param>
+            <param name="right">The right <c>Capacitance</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.CatalyticActivity">
+            <summary>
+            Constructs a unit measuring a specified <c>CatalyticActivity</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>CatalyticActivity</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>CatalyticActivity</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>CatalyticActivity</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.CatalyticActivity.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.CatalyticActivity.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>CatalyticActivity</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.CatalyticActivity.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.CatalyticActivity.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.CatalyticActivity,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>CatalyticActivity</c> using another CatalyticActivity as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>CatalyticActivity</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.Equals(Jcd.Units.UnitTypes.CatalyticActivity)">
+            <summary>
+            Compares this <c>CatalyticActivity</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>CatalyticActivity</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>CatalyticActivity</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.CompareTo(Jcd.Units.UnitTypes.CatalyticActivity)">
+            <summary>
+            Performs a relative comparison between this <c>CatalyticActivity</c> and another one.
+            </summary>
+            <param name="other">The <c>CatalyticActivity</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>CatalyticActivity</c> and another one.
+            </summary>
+            <param name="obj">The <c>CatalyticActivity</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>CatalyticActivity</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.op_LessThan(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity)">
+            <summary>
+            Compares two <c>CatalyticActivity</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>CatalyticActivity</c></param>
+            <param name="right">The right <c>CatalyticActivity</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.op_GreaterThan(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity)">
+            <summary>
+            Compares two <c>CatalyticActivity</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>CatalyticActivity</c></param>
+            <param name="right">The right <c>CatalyticActivity</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.op_LessThanOrEqual(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity)">
+            <summary>
+            Compares two <c>CatalyticActivity</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>CatalyticActivity</c></param>
+            <param name="right">The right <c>CatalyticActivity</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity)">
+            <summary>
+            Compares two <c>CatalyticActivity</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>CatalyticActivity</c></param>
+            <param name="right">The right <c>CatalyticActivity</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Duration">
+            <summary>
+            Constructs a unit measuring a specified <c>Duration</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Duration</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Duration</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Duration</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Duration.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Duration.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Duration</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Duration.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Duration.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Duration,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Duration</c> using another Duration as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Duration</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.Equals(Jcd.Units.UnitTypes.Duration)">
+            <summary>
+            Compares this <c>Duration</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Duration</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Duration</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.CompareTo(Jcd.Units.UnitTypes.Duration)">
+            <summary>
+            Performs a relative comparison between this <c>Duration</c> and another one.
+            </summary>
+            <param name="other">The <c>Duration</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Duration</c> and another one.
+            </summary>
+            <param name="obj">The <c>Duration</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Duration</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.op_LessThan(Jcd.Units.UnitTypes.Duration,Jcd.Units.UnitTypes.Duration)">
+            <summary>
+            Compares two <c>Duration</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Duration</c></param>
+            <param name="right">The right <c>Duration</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.op_GreaterThan(Jcd.Units.UnitTypes.Duration,Jcd.Units.UnitTypes.Duration)">
+            <summary>
+            Compares two <c>Duration</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Duration</c></param>
+            <param name="right">The right <c>Duration</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.op_LessThanOrEqual(Jcd.Units.UnitTypes.Duration,Jcd.Units.UnitTypes.Duration)">
+            <summary>
+            Compares two <c>Duration</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Duration</c></param>
+            <param name="right">The right <c>Duration</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Duration.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Duration,Jcd.Units.UnitTypes.Duration)">
+            <summary>
+            Compares two <c>Duration</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Duration</c></param>
+            <param name="right">The right <c>Duration</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.ElectricalCharge">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalCharge</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalCharge</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalCharge</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalCharge</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalCharge.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalCharge.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>ElectricalCharge</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalCharge.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalCharge.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalCharge,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalCharge</c> using another ElectricalCharge as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>ElectricalCharge</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.Equals(Jcd.Units.UnitTypes.ElectricalCharge)">
+            <summary>
+            Compares this <c>ElectricalCharge</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>ElectricalCharge</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>ElectricalCharge</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.CompareTo(Jcd.Units.UnitTypes.ElectricalCharge)">
+            <summary>
+            Performs a relative comparison between this <c>ElectricalCharge</c> and another one.
+            </summary>
+            <param name="other">The <c>ElectricalCharge</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>ElectricalCharge</c> and another one.
+            </summary>
+            <param name="obj">The <c>ElectricalCharge</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>ElectricalCharge</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.op_LessThan(Jcd.Units.UnitTypes.ElectricalCharge,Jcd.Units.UnitTypes.ElectricalCharge)">
+            <summary>
+            Compares two <c>ElectricalCharge</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalCharge</c></param>
+            <param name="right">The right <c>ElectricalCharge</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.op_GreaterThan(Jcd.Units.UnitTypes.ElectricalCharge,Jcd.Units.UnitTypes.ElectricalCharge)">
+            <summary>
+            Compares two <c>ElectricalCharge</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalCharge</c></param>
+            <param name="right">The right <c>ElectricalCharge</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.op_LessThanOrEqual(Jcd.Units.UnitTypes.ElectricalCharge,Jcd.Units.UnitTypes.ElectricalCharge)">
+            <summary>
+            Compares two <c>ElectricalCharge</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalCharge</c></param>
+            <param name="right">The right <c>ElectricalCharge</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.ElectricalCharge,Jcd.Units.UnitTypes.ElectricalCharge)">
+            <summary>
+            Compares two <c>ElectricalCharge</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalCharge</c></param>
+            <param name="right">The right <c>ElectricalCharge</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.ElectricalConductance">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalConductance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalConductance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalConductance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalConductance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalConductance.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalConductance.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>ElectricalConductance</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalConductance.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalConductance.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalConductance,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalConductance</c> using another ElectricalConductance as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>ElectricalConductance</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.Equals(Jcd.Units.UnitTypes.ElectricalConductance)">
+            <summary>
+            Compares this <c>ElectricalConductance</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>ElectricalConductance</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>ElectricalConductance</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.CompareTo(Jcd.Units.UnitTypes.ElectricalConductance)">
+            <summary>
+            Performs a relative comparison between this <c>ElectricalConductance</c> and another one.
+            </summary>
+            <param name="other">The <c>ElectricalConductance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>ElectricalConductance</c> and another one.
+            </summary>
+            <param name="obj">The <c>ElectricalConductance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>ElectricalConductance</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.op_LessThan(Jcd.Units.UnitTypes.ElectricalConductance,Jcd.Units.UnitTypes.ElectricalConductance)">
+            <summary>
+            Compares two <c>ElectricalConductance</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalConductance</c></param>
+            <param name="right">The right <c>ElectricalConductance</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.op_GreaterThan(Jcd.Units.UnitTypes.ElectricalConductance,Jcd.Units.UnitTypes.ElectricalConductance)">
+            <summary>
+            Compares two <c>ElectricalConductance</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalConductance</c></param>
+            <param name="right">The right <c>ElectricalConductance</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.op_LessThanOrEqual(Jcd.Units.UnitTypes.ElectricalConductance,Jcd.Units.UnitTypes.ElectricalConductance)">
+            <summary>
+            Compares two <c>ElectricalConductance</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalConductance</c></param>
+            <param name="right">The right <c>ElectricalConductance</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.ElectricalConductance,Jcd.Units.UnitTypes.ElectricalConductance)">
+            <summary>
+            Compares two <c>ElectricalConductance</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalConductance</c></param>
+            <param name="right">The right <c>ElectricalConductance</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.ElectricalCurrent">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalCurrent</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalCurrent</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalCurrent</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalCurrent</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalCurrent.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalCurrent.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>ElectricalCurrent</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalCurrent.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalCurrent.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalCurrent,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalCurrent</c> using another ElectricalCurrent as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>ElectricalCurrent</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.Equals(Jcd.Units.UnitTypes.ElectricalCurrent)">
+            <summary>
+            Compares this <c>ElectricalCurrent</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>ElectricalCurrent</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>ElectricalCurrent</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.CompareTo(Jcd.Units.UnitTypes.ElectricalCurrent)">
+            <summary>
+            Performs a relative comparison between this <c>ElectricalCurrent</c> and another one.
+            </summary>
+            <param name="other">The <c>ElectricalCurrent</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>ElectricalCurrent</c> and another one.
+            </summary>
+            <param name="obj">The <c>ElectricalCurrent</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>ElectricalCurrent</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.op_LessThan(Jcd.Units.UnitTypes.ElectricalCurrent,Jcd.Units.UnitTypes.ElectricalCurrent)">
+            <summary>
+            Compares two <c>ElectricalCurrent</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalCurrent</c></param>
+            <param name="right">The right <c>ElectricalCurrent</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.op_GreaterThan(Jcd.Units.UnitTypes.ElectricalCurrent,Jcd.Units.UnitTypes.ElectricalCurrent)">
+            <summary>
+            Compares two <c>ElectricalCurrent</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalCurrent</c></param>
+            <param name="right">The right <c>ElectricalCurrent</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.op_LessThanOrEqual(Jcd.Units.UnitTypes.ElectricalCurrent,Jcd.Units.UnitTypes.ElectricalCurrent)">
+            <summary>
+            Compares two <c>ElectricalCurrent</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalCurrent</c></param>
+            <param name="right">The right <c>ElectricalCurrent</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.ElectricalCurrent,Jcd.Units.UnitTypes.ElectricalCurrent)">
+            <summary>
+            Compares two <c>ElectricalCurrent</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalCurrent</c></param>
+            <param name="right">The right <c>ElectricalCurrent</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.ElectricalPotential">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalPotential</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalPotential</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalPotential</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalPotential</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalPotential.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalPotential.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>ElectricalPotential</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalPotential.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.ElectricalPotential.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalPotential,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>ElectricalPotential</c> using another ElectricalPotential as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>ElectricalPotential</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.Equals(Jcd.Units.UnitTypes.ElectricalPotential)">
+            <summary>
+            Compares this <c>ElectricalPotential</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>ElectricalPotential</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>ElectricalPotential</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.CompareTo(Jcd.Units.UnitTypes.ElectricalPotential)">
+            <summary>
+            Performs a relative comparison between this <c>ElectricalPotential</c> and another one.
+            </summary>
+            <param name="other">The <c>ElectricalPotential</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>ElectricalPotential</c> and another one.
+            </summary>
+            <param name="obj">The <c>ElectricalPotential</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>ElectricalPotential</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.op_LessThan(Jcd.Units.UnitTypes.ElectricalPotential,Jcd.Units.UnitTypes.ElectricalPotential)">
+            <summary>
+            Compares two <c>ElectricalPotential</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalPotential</c></param>
+            <param name="right">The right <c>ElectricalPotential</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.op_GreaterThan(Jcd.Units.UnitTypes.ElectricalPotential,Jcd.Units.UnitTypes.ElectricalPotential)">
+            <summary>
+            Compares two <c>ElectricalPotential</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalPotential</c></param>
+            <param name="right">The right <c>ElectricalPotential</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.op_LessThanOrEqual(Jcd.Units.UnitTypes.ElectricalPotential,Jcd.Units.UnitTypes.ElectricalPotential)">
+            <summary>
+            Compares two <c>ElectricalPotential</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalPotential</c></param>
+            <param name="right">The right <c>ElectricalPotential</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.ElectricalPotential,Jcd.Units.UnitTypes.ElectricalPotential)">
+            <summary>
+            Compares two <c>ElectricalPotential</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>ElectricalPotential</c></param>
+            <param name="right">The right <c>ElectricalPotential</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Energy">
+            <summary>
+            Constructs a unit measuring a specified <c>Energy</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Energy</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Energy</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Energy</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Energy.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Energy.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Energy</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Energy.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Energy.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Energy,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Energy</c> using another Energy as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Energy</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.Equals(Jcd.Units.UnitTypes.Energy)">
+            <summary>
+            Compares this <c>Energy</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Energy</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Energy</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.CompareTo(Jcd.Units.UnitTypes.Energy)">
+            <summary>
+            Performs a relative comparison between this <c>Energy</c> and another one.
+            </summary>
+            <param name="other">The <c>Energy</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Energy</c> and another one.
+            </summary>
+            <param name="obj">The <c>Energy</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Energy</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.op_LessThan(Jcd.Units.UnitTypes.Energy,Jcd.Units.UnitTypes.Energy)">
+            <summary>
+            Compares two <c>Energy</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Energy</c></param>
+            <param name="right">The right <c>Energy</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.op_GreaterThan(Jcd.Units.UnitTypes.Energy,Jcd.Units.UnitTypes.Energy)">
+            <summary>
+            Compares two <c>Energy</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Energy</c></param>
+            <param name="right">The right <c>Energy</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.op_LessThanOrEqual(Jcd.Units.UnitTypes.Energy,Jcd.Units.UnitTypes.Energy)">
+            <summary>
+            Compares two <c>Energy</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Energy</c></param>
+            <param name="right">The right <c>Energy</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Energy.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Energy,Jcd.Units.UnitTypes.Energy)">
+            <summary>
+            Compares two <c>Energy</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Energy</c></param>
+            <param name="right">The right <c>Energy</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Force">
+            <summary>
+            Constructs a unit measuring a specified <c>Force</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Force</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Force</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Force</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Force.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Force.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Force</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Force.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Force.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Force,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Force</c> using another Force as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Force</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.Equals(Jcd.Units.UnitTypes.Force)">
+            <summary>
+            Compares this <c>Force</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Force</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Force</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.CompareTo(Jcd.Units.UnitTypes.Force)">
+            <summary>
+            Performs a relative comparison between this <c>Force</c> and another one.
+            </summary>
+            <param name="other">The <c>Force</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Force</c> and another one.
+            </summary>
+            <param name="obj">The <c>Force</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Force</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.op_LessThan(Jcd.Units.UnitTypes.Force,Jcd.Units.UnitTypes.Force)">
+            <summary>
+            Compares two <c>Force</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Force</c></param>
+            <param name="right">The right <c>Force</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.op_GreaterThan(Jcd.Units.UnitTypes.Force,Jcd.Units.UnitTypes.Force)">
+            <summary>
+            Compares two <c>Force</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Force</c></param>
+            <param name="right">The right <c>Force</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.op_LessThanOrEqual(Jcd.Units.UnitTypes.Force,Jcd.Units.UnitTypes.Force)">
+            <summary>
+            Compares two <c>Force</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Force</c></param>
+            <param name="right">The right <c>Force</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Force.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Force,Jcd.Units.UnitTypes.Force)">
+            <summary>
+            Compares two <c>Force</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Force</c></param>
+            <param name="right">The right <c>Force</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Frequency">
+            <summary>
+            Constructs a unit measuring a specified <c>Frequency</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Frequency</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Frequency</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Frequency</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Frequency.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Frequency.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Frequency</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Frequency.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Frequency.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Frequency,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Frequency</c> using another Frequency as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Frequency</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.Equals(Jcd.Units.UnitTypes.Frequency)">
+            <summary>
+            Compares this <c>Frequency</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Frequency</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Frequency</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.CompareTo(Jcd.Units.UnitTypes.Frequency)">
+            <summary>
+            Performs a relative comparison between this <c>Frequency</c> and another one.
+            </summary>
+            <param name="other">The <c>Frequency</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Frequency</c> and another one.
+            </summary>
+            <param name="obj">The <c>Frequency</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Frequency</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.op_LessThan(Jcd.Units.UnitTypes.Frequency,Jcd.Units.UnitTypes.Frequency)">
+            <summary>
+            Compares two <c>Frequency</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Frequency</c></param>
+            <param name="right">The right <c>Frequency</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.op_GreaterThan(Jcd.Units.UnitTypes.Frequency,Jcd.Units.UnitTypes.Frequency)">
+            <summary>
+            Compares two <c>Frequency</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Frequency</c></param>
+            <param name="right">The right <c>Frequency</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.op_LessThanOrEqual(Jcd.Units.UnitTypes.Frequency,Jcd.Units.UnitTypes.Frequency)">
+            <summary>
+            Compares two <c>Frequency</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Frequency</c></param>
+            <param name="right">The right <c>Frequency</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Frequency.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Frequency,Jcd.Units.UnitTypes.Frequency)">
+            <summary>
+            Compares two <c>Frequency</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Frequency</c></param>
+            <param name="right">The right <c>Frequency</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Illuminance">
+            <summary>
+            Constructs a unit measuring a specified <c>Illuminance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Illuminance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Illuminance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Illuminance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Illuminance.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Illuminance.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Illuminance</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Illuminance.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Illuminance.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Illuminance,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Illuminance</c> using another Illuminance as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Illuminance</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.Equals(Jcd.Units.UnitTypes.Illuminance)">
+            <summary>
+            Compares this <c>Illuminance</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Illuminance</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Illuminance</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.CompareTo(Jcd.Units.UnitTypes.Illuminance)">
+            <summary>
+            Performs a relative comparison between this <c>Illuminance</c> and another one.
+            </summary>
+            <param name="other">The <c>Illuminance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Illuminance</c> and another one.
+            </summary>
+            <param name="obj">The <c>Illuminance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Illuminance</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.op_LessThan(Jcd.Units.UnitTypes.Illuminance,Jcd.Units.UnitTypes.Illuminance)">
+            <summary>
+            Compares two <c>Illuminance</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Illuminance</c></param>
+            <param name="right">The right <c>Illuminance</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.op_GreaterThan(Jcd.Units.UnitTypes.Illuminance,Jcd.Units.UnitTypes.Illuminance)">
+            <summary>
+            Compares two <c>Illuminance</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Illuminance</c></param>
+            <param name="right">The right <c>Illuminance</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.op_LessThanOrEqual(Jcd.Units.UnitTypes.Illuminance,Jcd.Units.UnitTypes.Illuminance)">
+            <summary>
+            Compares two <c>Illuminance</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Illuminance</c></param>
+            <param name="right">The right <c>Illuminance</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Illuminance,Jcd.Units.UnitTypes.Illuminance)">
+            <summary>
+            Compares two <c>Illuminance</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Illuminance</c></param>
+            <param name="right">The right <c>Illuminance</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Inductance">
+            <summary>
+            Constructs a unit measuring a specified <c>Inductance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Inductance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Inductance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Inductance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Inductance.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Inductance.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Inductance</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Inductance.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Inductance.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Inductance,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Inductance</c> using another Inductance as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Inductance</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.Equals(Jcd.Units.UnitTypes.Inductance)">
+            <summary>
+            Compares this <c>Inductance</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Inductance</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Inductance</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.CompareTo(Jcd.Units.UnitTypes.Inductance)">
+            <summary>
+            Performs a relative comparison between this <c>Inductance</c> and another one.
+            </summary>
+            <param name="other">The <c>Inductance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Inductance</c> and another one.
+            </summary>
+            <param name="obj">The <c>Inductance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Inductance</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.op_LessThan(Jcd.Units.UnitTypes.Inductance,Jcd.Units.UnitTypes.Inductance)">
+            <summary>
+            Compares two <c>Inductance</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Inductance</c></param>
+            <param name="right">The right <c>Inductance</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.op_GreaterThan(Jcd.Units.UnitTypes.Inductance,Jcd.Units.UnitTypes.Inductance)">
+            <summary>
+            Compares two <c>Inductance</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Inductance</c></param>
+            <param name="right">The right <c>Inductance</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.op_LessThanOrEqual(Jcd.Units.UnitTypes.Inductance,Jcd.Units.UnitTypes.Inductance)">
+            <summary>
+            Compares two <c>Inductance</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Inductance</c></param>
+            <param name="right">The right <c>Inductance</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Inductance.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Inductance,Jcd.Units.UnitTypes.Inductance)">
+            <summary>
+            Compares two <c>Inductance</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Inductance</c></param>
+            <param name="right">The right <c>Inductance</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Length">
+            <summary>
+            Constructs a unit measuring a specified <c>Length</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Length</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Length</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Length</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Length.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Length.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Length</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Length.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Length.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Length,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Length</c> using another Length as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Length</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.Equals(Jcd.Units.UnitTypes.Length)">
+            <summary>
+            Compares this <c>Length</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Length</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Length</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.CompareTo(Jcd.Units.UnitTypes.Length)">
+            <summary>
+            Performs a relative comparison between this <c>Length</c> and another one.
+            </summary>
+            <param name="other">The <c>Length</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Length</c> and another one.
+            </summary>
+            <param name="obj">The <c>Length</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Length</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.op_LessThan(Jcd.Units.UnitTypes.Length,Jcd.Units.UnitTypes.Length)">
+            <summary>
+            Compares two <c>Length</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Length</c></param>
+            <param name="right">The right <c>Length</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.op_GreaterThan(Jcd.Units.UnitTypes.Length,Jcd.Units.UnitTypes.Length)">
+            <summary>
+            Compares two <c>Length</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Length</c></param>
+            <param name="right">The right <c>Length</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.op_LessThanOrEqual(Jcd.Units.UnitTypes.Length,Jcd.Units.UnitTypes.Length)">
+            <summary>
+            Compares two <c>Length</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Length</c></param>
+            <param name="right">The right <c>Length</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Length.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Length,Jcd.Units.UnitTypes.Length)">
+            <summary>
+            Compares two <c>Length</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Length</c></param>
+            <param name="right">The right <c>Length</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.LuminousFlux">
+            <summary>
+            Constructs a unit measuring a specified <c>LuminousFlux</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>LuminousFlux</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>LuminousFlux</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>LuminousFlux</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.LuminousFlux.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.LuminousFlux.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>LuminousFlux</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.LuminousFlux.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.LuminousFlux.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.#ctor(System.String,System.String,Jcd.Units.UnitTypes.LuminousFlux,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>LuminousFlux</c> using another LuminousFlux as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>LuminousFlux</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.Equals(Jcd.Units.UnitTypes.LuminousFlux)">
+            <summary>
+            Compares this <c>LuminousFlux</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>LuminousFlux</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>LuminousFlux</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.CompareTo(Jcd.Units.UnitTypes.LuminousFlux)">
+            <summary>
+            Performs a relative comparison between this <c>LuminousFlux</c> and another one.
+            </summary>
+            <param name="other">The <c>LuminousFlux</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>LuminousFlux</c> and another one.
+            </summary>
+            <param name="obj">The <c>LuminousFlux</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>LuminousFlux</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.op_LessThan(Jcd.Units.UnitTypes.LuminousFlux,Jcd.Units.UnitTypes.LuminousFlux)">
+            <summary>
+            Compares two <c>LuminousFlux</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>LuminousFlux</c></param>
+            <param name="right">The right <c>LuminousFlux</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.op_GreaterThan(Jcd.Units.UnitTypes.LuminousFlux,Jcd.Units.UnitTypes.LuminousFlux)">
+            <summary>
+            Compares two <c>LuminousFlux</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>LuminousFlux</c></param>
+            <param name="right">The right <c>LuminousFlux</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.op_LessThanOrEqual(Jcd.Units.UnitTypes.LuminousFlux,Jcd.Units.UnitTypes.LuminousFlux)">
+            <summary>
+            Compares two <c>LuminousFlux</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>LuminousFlux</c></param>
+            <param name="right">The right <c>LuminousFlux</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.LuminousFlux,Jcd.Units.UnitTypes.LuminousFlux)">
+            <summary>
+            Compares two <c>LuminousFlux</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>LuminousFlux</c></param>
+            <param name="right">The right <c>LuminousFlux</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.LuminousIntensity">
+            <summary>
+            Constructs a unit measuring a specified <c>LuminousIntensity</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>LuminousIntensity</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>LuminousIntensity</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>LuminousIntensity</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.LuminousIntensity.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.LuminousIntensity.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>LuminousIntensity</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.LuminousIntensity.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.LuminousIntensity.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.LuminousIntensity,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>LuminousIntensity</c> using another LuminousIntensity as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>LuminousIntensity</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.Equals(Jcd.Units.UnitTypes.LuminousIntensity)">
+            <summary>
+            Compares this <c>LuminousIntensity</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>LuminousIntensity</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>LuminousIntensity</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.CompareTo(Jcd.Units.UnitTypes.LuminousIntensity)">
+            <summary>
+            Performs a relative comparison between this <c>LuminousIntensity</c> and another one.
+            </summary>
+            <param name="other">The <c>LuminousIntensity</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>LuminousIntensity</c> and another one.
+            </summary>
+            <param name="obj">The <c>LuminousIntensity</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>LuminousIntensity</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.op_LessThan(Jcd.Units.UnitTypes.LuminousIntensity,Jcd.Units.UnitTypes.LuminousIntensity)">
+            <summary>
+            Compares two <c>LuminousIntensity</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>LuminousIntensity</c></param>
+            <param name="right">The right <c>LuminousIntensity</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.op_GreaterThan(Jcd.Units.UnitTypes.LuminousIntensity,Jcd.Units.UnitTypes.LuminousIntensity)">
+            <summary>
+            Compares two <c>LuminousIntensity</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>LuminousIntensity</c></param>
+            <param name="right">The right <c>LuminousIntensity</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.op_LessThanOrEqual(Jcd.Units.UnitTypes.LuminousIntensity,Jcd.Units.UnitTypes.LuminousIntensity)">
+            <summary>
+            Compares two <c>LuminousIntensity</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>LuminousIntensity</c></param>
+            <param name="right">The right <c>LuminousIntensity</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.LuminousIntensity,Jcd.Units.UnitTypes.LuminousIntensity)">
+            <summary>
+            Compares two <c>LuminousIntensity</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>LuminousIntensity</c></param>
+            <param name="right">The right <c>LuminousIntensity</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.MagneticFlux">
+            <summary>
+            Constructs a unit measuring a specified <c>MagneticFlux</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>MagneticFlux</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>MagneticFlux</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>MagneticFlux</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.MagneticFlux.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.MagneticFlux.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>MagneticFlux</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.MagneticFlux.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.MagneticFlux.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.#ctor(System.String,System.String,Jcd.Units.UnitTypes.MagneticFlux,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>MagneticFlux</c> using another MagneticFlux as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>MagneticFlux</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.Equals(Jcd.Units.UnitTypes.MagneticFlux)">
+            <summary>
+            Compares this <c>MagneticFlux</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>MagneticFlux</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>MagneticFlux</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.CompareTo(Jcd.Units.UnitTypes.MagneticFlux)">
+            <summary>
+            Performs a relative comparison between this <c>MagneticFlux</c> and another one.
+            </summary>
+            <param name="other">The <c>MagneticFlux</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>MagneticFlux</c> and another one.
+            </summary>
+            <param name="obj">The <c>MagneticFlux</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>MagneticFlux</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.op_LessThan(Jcd.Units.UnitTypes.MagneticFlux,Jcd.Units.UnitTypes.MagneticFlux)">
+            <summary>
+            Compares two <c>MagneticFlux</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>MagneticFlux</c></param>
+            <param name="right">The right <c>MagneticFlux</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.op_GreaterThan(Jcd.Units.UnitTypes.MagneticFlux,Jcd.Units.UnitTypes.MagneticFlux)">
+            <summary>
+            Compares two <c>MagneticFlux</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>MagneticFlux</c></param>
+            <param name="right">The right <c>MagneticFlux</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.op_LessThanOrEqual(Jcd.Units.UnitTypes.MagneticFlux,Jcd.Units.UnitTypes.MagneticFlux)">
+            <summary>
+            Compares two <c>MagneticFlux</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>MagneticFlux</c></param>
+            <param name="right">The right <c>MagneticFlux</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.MagneticFlux,Jcd.Units.UnitTypes.MagneticFlux)">
+            <summary>
+            Compares two <c>MagneticFlux</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>MagneticFlux</c></param>
+            <param name="right">The right <c>MagneticFlux</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.MagneticFluxDensity">
+            <summary>
+            Constructs a unit measuring a specified <c>MagneticFluxDensity</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>MagneticFluxDensity</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>MagneticFluxDensity</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>MagneticFluxDensity</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.MagneticFluxDensity.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.MagneticFluxDensity.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>MagneticFluxDensity</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.MagneticFluxDensity.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.MagneticFluxDensity.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.MagneticFluxDensity,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>MagneticFluxDensity</c> using another MagneticFluxDensity as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>MagneticFluxDensity</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.Equals(Jcd.Units.UnitTypes.MagneticFluxDensity)">
+            <summary>
+            Compares this <c>MagneticFluxDensity</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>MagneticFluxDensity</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>MagneticFluxDensity</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.CompareTo(Jcd.Units.UnitTypes.MagneticFluxDensity)">
+            <summary>
+            Performs a relative comparison between this <c>MagneticFluxDensity</c> and another one.
+            </summary>
+            <param name="other">The <c>MagneticFluxDensity</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>MagneticFluxDensity</c> and another one.
+            </summary>
+            <param name="obj">The <c>MagneticFluxDensity</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>MagneticFluxDensity</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.op_LessThan(Jcd.Units.UnitTypes.MagneticFluxDensity,Jcd.Units.UnitTypes.MagneticFluxDensity)">
+            <summary>
+            Compares two <c>MagneticFluxDensity</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>MagneticFluxDensity</c></param>
+            <param name="right">The right <c>MagneticFluxDensity</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.op_GreaterThan(Jcd.Units.UnitTypes.MagneticFluxDensity,Jcd.Units.UnitTypes.MagneticFluxDensity)">
+            <summary>
+            Compares two <c>MagneticFluxDensity</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>MagneticFluxDensity</c></param>
+            <param name="right">The right <c>MagneticFluxDensity</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.op_LessThanOrEqual(Jcd.Units.UnitTypes.MagneticFluxDensity,Jcd.Units.UnitTypes.MagneticFluxDensity)">
+            <summary>
+            Compares two <c>MagneticFluxDensity</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>MagneticFluxDensity</c></param>
+            <param name="right">The right <c>MagneticFluxDensity</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.MagneticFluxDensity,Jcd.Units.UnitTypes.MagneticFluxDensity)">
+            <summary>
+            Compares two <c>MagneticFluxDensity</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>MagneticFluxDensity</c></param>
+            <param name="right">The right <c>MagneticFluxDensity</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Mass">
+            <summary>
+            Constructs a unit measuring a specified <c>Mass</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Mass</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Mass</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Mass</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Mass.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Mass.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Mass</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Mass.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Mass.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Mass,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Mass</c> using another Mass as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Mass</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.Equals(Jcd.Units.UnitTypes.Mass)">
+            <summary>
+            Compares this <c>Mass</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Mass</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Mass</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.CompareTo(Jcd.Units.UnitTypes.Mass)">
+            <summary>
+            Performs a relative comparison between this <c>Mass</c> and another one.
+            </summary>
+            <param name="other">The <c>Mass</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Mass</c> and another one.
+            </summary>
+            <param name="obj">The <c>Mass</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Mass</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.op_LessThan(Jcd.Units.UnitTypes.Mass,Jcd.Units.UnitTypes.Mass)">
+            <summary>
+            Compares two <c>Mass</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Mass</c></param>
+            <param name="right">The right <c>Mass</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.op_GreaterThan(Jcd.Units.UnitTypes.Mass,Jcd.Units.UnitTypes.Mass)">
+            <summary>
+            Compares two <c>Mass</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Mass</c></param>
+            <param name="right">The right <c>Mass</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.op_LessThanOrEqual(Jcd.Units.UnitTypes.Mass,Jcd.Units.UnitTypes.Mass)">
+            <summary>
+            Compares two <c>Mass</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Mass</c></param>
+            <param name="right">The right <c>Mass</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Mass.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Mass,Jcd.Units.UnitTypes.Mass)">
+            <summary>
+            Compares two <c>Mass</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Mass</c></param>
+            <param name="right">The right <c>Mass</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Power">
+            <summary>
+            Constructs a unit measuring a specified <c>Power</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Power</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Power</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Power</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Power.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Power.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Power</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Power.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Power.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Power,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Power</c> using another Power as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Power</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.Equals(Jcd.Units.UnitTypes.Power)">
+            <summary>
+            Compares this <c>Power</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Power</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Power</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.CompareTo(Jcd.Units.UnitTypes.Power)">
+            <summary>
+            Performs a relative comparison between this <c>Power</c> and another one.
+            </summary>
+            <param name="other">The <c>Power</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Power</c> and another one.
+            </summary>
+            <param name="obj">The <c>Power</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Power</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.op_LessThan(Jcd.Units.UnitTypes.Power,Jcd.Units.UnitTypes.Power)">
+            <summary>
+            Compares two <c>Power</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Power</c></param>
+            <param name="right">The right <c>Power</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.op_GreaterThan(Jcd.Units.UnitTypes.Power,Jcd.Units.UnitTypes.Power)">
+            <summary>
+            Compares two <c>Power</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Power</c></param>
+            <param name="right">The right <c>Power</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.op_LessThanOrEqual(Jcd.Units.UnitTypes.Power,Jcd.Units.UnitTypes.Power)">
+            <summary>
+            Compares two <c>Power</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Power</c></param>
+            <param name="right">The right <c>Power</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Power.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Power,Jcd.Units.UnitTypes.Power)">
+            <summary>
+            Compares two <c>Power</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Power</c></param>
+            <param name="right">The right <c>Power</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Pressure">
+            <summary>
+            Constructs a unit measuring a specified <c>Pressure</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Pressure</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Pressure</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Pressure</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Pressure.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Pressure.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Pressure</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Pressure.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Pressure.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Pressure,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Pressure</c> using another Pressure as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Pressure</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.Equals(Jcd.Units.UnitTypes.Pressure)">
+            <summary>
+            Compares this <c>Pressure</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Pressure</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Pressure</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.CompareTo(Jcd.Units.UnitTypes.Pressure)">
+            <summary>
+            Performs a relative comparison between this <c>Pressure</c> and another one.
+            </summary>
+            <param name="other">The <c>Pressure</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Pressure</c> and another one.
+            </summary>
+            <param name="obj">The <c>Pressure</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Pressure</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.op_LessThan(Jcd.Units.UnitTypes.Pressure,Jcd.Units.UnitTypes.Pressure)">
+            <summary>
+            Compares two <c>Pressure</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Pressure</c></param>
+            <param name="right">The right <c>Pressure</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.op_GreaterThan(Jcd.Units.UnitTypes.Pressure,Jcd.Units.UnitTypes.Pressure)">
+            <summary>
+            Compares two <c>Pressure</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Pressure</c></param>
+            <param name="right">The right <c>Pressure</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.op_LessThanOrEqual(Jcd.Units.UnitTypes.Pressure,Jcd.Units.UnitTypes.Pressure)">
+            <summary>
+            Compares two <c>Pressure</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Pressure</c></param>
+            <param name="right">The right <c>Pressure</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Pressure.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Pressure,Jcd.Units.UnitTypes.Pressure)">
+            <summary>
+            Compares two <c>Pressure</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Pressure</c></param>
+            <param name="right">The right <c>Pressure</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Quantity`1">
             <summary>
                 Represents a quantity with an associated unit of measure.
             </summary>
@@ -17,7 +2144,7 @@
             <param name="Units">The unit of measure.</param>
             <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.#ctor(System.Double,`0)">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.#ctor(System.Double,`0)">
             <summary>
                 Represents a quantity with an associated unit of measure.
             </summary>
@@ -25,34 +2152,34 @@
             <param name="Units">The unit of measure.</param>
             <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
         </member>
-        <member name="P:Jcd.Units.Quantity`1.RawValue">
+        <member name="P:Jcd.Units.UnitTypes.Quantity`1.RawValue">
             <summary>The numeric portion, without associated unit of measure</summary>
         </member>
-        <member name="P:Jcd.Units.Quantity`1.Units">
+        <member name="P:Jcd.Units.UnitTypes.Quantity`1.Units">
             <summary>The unit of measure.</summary>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.To(`0)">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.To(`0)">
             <summary>
                 Converts the quantity from its current unit of measure to the target unit of measure.
             </summary>
             <param name="targetUnit">The target unit of measure</param>
             <returns>The new quantity represented as the new unit of measure.</returns>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.op_UnaryPlus(Jcd.Units.Quantity{`0})">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_UnaryPlus(Jcd.Units.UnitTypes.Quantity{`0})">
             <summary>
                 Performs a standard unary "+" operation.
             </summary>
             <param name="q">The <c>Quantity</c> to operate on.</param>
             <returns>The <c>Quantity</c></returns>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.op_UnaryNegation(Jcd.Units.Quantity{`0})">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_UnaryNegation(Jcd.Units.UnitTypes.Quantity{`0})">
             <summary>
                 Performs standard unary negation on the <c>RawValue</c> component and returns a new <c>Quantity</c>.
             </summary>
             <param name="q">The quantity to perform the operation on.</param>
             <returns>The negated form of the <c>Quantity</c></returns>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.op_Addition(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Addition(Jcd.Units.UnitTypes.Quantity{`0},Jcd.Units.UnitTypes.Quantity{`0})">
             <summary>
             Adds two quantities, selecting the larger unit of measure as the common representation.
             </summary>
@@ -60,7 +2187,7 @@
             <param name="y">The right hand operand</param>
             <returns>The sum of the two quantities in the common unit of measure.</returns>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.op_Subtraction(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Subtraction(Jcd.Units.UnitTypes.Quantity{`0},Jcd.Units.UnitTypes.Quantity{`0})">
             <summary>
             Performs subtraction on two quantities, converting to the larger of the two units of measure.
             </summary>
@@ -68,7 +2195,7 @@
             <param name="y">The right hand operand.</param>
             <returns>The result of the subtraction.</returns>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.op_Multiply(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Multiply(Jcd.Units.UnitTypes.Quantity{`0},Jcd.Units.UnitTypes.Quantity{`0})">
             <summary>
             Performs multiplication on two quantities, converting to the larger of the two units of measure.
             </summary>
@@ -76,7 +2203,7 @@
             <param name="y">The right hand operand.</param>
             <returns>The product of the two operands.</returns>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.op_Division(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Division(Jcd.Units.UnitTypes.Quantity{`0},Jcd.Units.UnitTypes.Quantity{`0})">
             <summary>
             Performs division on two quantities, converting to the larger of the two units of measure.
             </summary>
@@ -85,7 +2212,7 @@
             <returns>The result of the division.</returns>
             <exception cref="T:System.DivideByZeroException">When <c>y</c> is zero.</exception>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.op_Addition(Jcd.Units.Quantity{`0},System.Double)">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Addition(Jcd.Units.UnitTypes.Quantity{`0},System.Double)">
             <summary>
             Performs addition on a <c>Quantity</c> (left-hand operand) and a double.
             </summary>
@@ -93,7 +2220,7 @@
             <param name="y">The right hand, <c>double</c>, operand.</param>
             <returns>The result of the addition.</returns>
         </member>
-        <member name="M:Jcd.Units.Quantity`1.op_Subtraction(Jcd.Units.Quantity{`0},System.Double)">
+        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Subtraction(Jcd.Units.UnitTypes.Quantity{`0},System.Double)">
             <summary>
             Performs subtraction on a <c>Quantity</c> (left-hand operand) and a double.
             </summary>
@@ -101,25 +2228,505 @@
             <param name="y">The right hand, <c>double</c>, operand.</param>
             <returns>The result of the subtraction.</returns>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.FromBaseUnitValue``1(``0,System.Double)">
+        <member name="T:Jcd.Units.UnitTypes.RadiationAbsorbedDose">
             <summary>
-            Given a raw value, convert TO the fundamental base unit representation FROM the non-base unit representation of
-            the value. (e.g. 100mm becomes 0.1 as meters are the base unit)
+            Constructs a unit measuring a specified <c>RadiationAbsorbedDose</c>
             </summary>
-            <param name="unitOfMeasure">The unit of measure</param>
-            <param name="value">the denormalized value.</param>
-            <typeparam name="TUnits">The type of unit</typeparam>
-            <returns>The normalized value</returns>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>RadiationAbsorbedDose</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ToBaseUnitValue``1(``0,System.Double)">
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.#ctor(System.String,System.String,System.Double,System.Double)">
             <summary>
-            Given a raw value, convert FROM the fundamental base unit representation TO the non-base value. (e.g. 0.1
-            becomes 100mm as meters are the base unit and 0.1m is 100mm )
+            Constructs a unit measuring a specified <c>RadiationAbsorbedDose</c>
             </summary>
-            <param name="unitOfMeasure">The unit of measure</param>
-            <param name="value">the normalized value.</param>
-            <typeparam name="TUnits">The type of unit</typeparam>
-            <returns>The denormalized value</returns>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>RadiationAbsorbedDose</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadiationAbsorbedDose.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadiationAbsorbedDose.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>RadiationAbsorbedDose</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadiationAbsorbedDose.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadiationAbsorbedDose.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadiationAbsorbedDose,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>RadiationAbsorbedDose</c> using another RadiationAbsorbedDose as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>RadiationAbsorbedDose</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.Equals(Jcd.Units.UnitTypes.RadiationAbsorbedDose)">
+            <summary>
+            Compares this <c>RadiationAbsorbedDose</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>RadiationAbsorbedDose</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>RadiationAbsorbedDose</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.CompareTo(Jcd.Units.UnitTypes.RadiationAbsorbedDose)">
+            <summary>
+            Performs a relative comparison between this <c>RadiationAbsorbedDose</c> and another one.
+            </summary>
+            <param name="other">The <c>RadiationAbsorbedDose</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>RadiationAbsorbedDose</c> and another one.
+            </summary>
+            <param name="obj">The <c>RadiationAbsorbedDose</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>RadiationAbsorbedDose</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.op_LessThan(Jcd.Units.UnitTypes.RadiationAbsorbedDose,Jcd.Units.UnitTypes.RadiationAbsorbedDose)">
+            <summary>
+            Compares two <c>RadiationAbsorbedDose</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>RadiationAbsorbedDose</c></param>
+            <param name="right">The right <c>RadiationAbsorbedDose</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.op_GreaterThan(Jcd.Units.UnitTypes.RadiationAbsorbedDose,Jcd.Units.UnitTypes.RadiationAbsorbedDose)">
+            <summary>
+            Compares two <c>RadiationAbsorbedDose</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>RadiationAbsorbedDose</c></param>
+            <param name="right">The right <c>RadiationAbsorbedDose</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.op_LessThanOrEqual(Jcd.Units.UnitTypes.RadiationAbsorbedDose,Jcd.Units.UnitTypes.RadiationAbsorbedDose)">
+            <summary>
+            Compares two <c>RadiationAbsorbedDose</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>RadiationAbsorbedDose</c></param>
+            <param name="right">The right <c>RadiationAbsorbedDose</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.RadiationAbsorbedDose,Jcd.Units.UnitTypes.RadiationAbsorbedDose)">
+            <summary>
+            Compares two <c>RadiationAbsorbedDose</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>RadiationAbsorbedDose</c></param>
+            <param name="right">The right <c>RadiationAbsorbedDose</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.RadiationEquivalentDose">
+            <summary>
+            Constructs a unit measuring a specified <c>RadiationEquivalentDose</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>RadiationEquivalentDose</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>RadiationEquivalentDose</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>RadiationEquivalentDose</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadiationEquivalentDose.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadiationEquivalentDose.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>RadiationEquivalentDose</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadiationEquivalentDose.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadiationEquivalentDose.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadiationEquivalentDose,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>RadiationEquivalentDose</c> using another RadiationEquivalentDose as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>RadiationEquivalentDose</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.Equals(Jcd.Units.UnitTypes.RadiationEquivalentDose)">
+            <summary>
+            Compares this <c>RadiationEquivalentDose</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>RadiationEquivalentDose</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>RadiationEquivalentDose</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.CompareTo(Jcd.Units.UnitTypes.RadiationEquivalentDose)">
+            <summary>
+            Performs a relative comparison between this <c>RadiationEquivalentDose</c> and another one.
+            </summary>
+            <param name="other">The <c>RadiationEquivalentDose</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>RadiationEquivalentDose</c> and another one.
+            </summary>
+            <param name="obj">The <c>RadiationEquivalentDose</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>RadiationEquivalentDose</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.op_LessThan(Jcd.Units.UnitTypes.RadiationEquivalentDose,Jcd.Units.UnitTypes.RadiationEquivalentDose)">
+            <summary>
+            Compares two <c>RadiationEquivalentDose</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>RadiationEquivalentDose</c></param>
+            <param name="right">The right <c>RadiationEquivalentDose</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.op_GreaterThan(Jcd.Units.UnitTypes.RadiationEquivalentDose,Jcd.Units.UnitTypes.RadiationEquivalentDose)">
+            <summary>
+            Compares two <c>RadiationEquivalentDose</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>RadiationEquivalentDose</c></param>
+            <param name="right">The right <c>RadiationEquivalentDose</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.op_LessThanOrEqual(Jcd.Units.UnitTypes.RadiationEquivalentDose,Jcd.Units.UnitTypes.RadiationEquivalentDose)">
+            <summary>
+            Compares two <c>RadiationEquivalentDose</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>RadiationEquivalentDose</c></param>
+            <param name="right">The right <c>RadiationEquivalentDose</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.RadiationEquivalentDose,Jcd.Units.UnitTypes.RadiationEquivalentDose)">
+            <summary>
+            Compares two <c>RadiationEquivalentDose</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>RadiationEquivalentDose</c></param>
+            <param name="right">The right <c>RadiationEquivalentDose</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.RadioactiveDecay">
+            <summary>
+            Constructs a unit measuring a specified <c>RadioactiveDecay</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>RadioactiveDecay</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>RadioactiveDecay</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>RadioactiveDecay</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadioactiveDecay.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadioactiveDecay.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>RadioactiveDecay</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadioactiveDecay.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.RadioactiveDecay.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadioactiveDecay,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>RadioactiveDecay</c> using another RadioactiveDecay as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>RadioactiveDecay</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.Equals(Jcd.Units.UnitTypes.RadioactiveDecay)">
+            <summary>
+            Compares this <c>RadioactiveDecay</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>RadioactiveDecay</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>RadioactiveDecay</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.CompareTo(Jcd.Units.UnitTypes.RadioactiveDecay)">
+            <summary>
+            Performs a relative comparison between this <c>RadioactiveDecay</c> and another one.
+            </summary>
+            <param name="other">The <c>RadioactiveDecay</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>RadioactiveDecay</c> and another one.
+            </summary>
+            <param name="obj">The <c>RadioactiveDecay</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>RadioactiveDecay</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.op_LessThan(Jcd.Units.UnitTypes.RadioactiveDecay,Jcd.Units.UnitTypes.RadioactiveDecay)">
+            <summary>
+            Compares two <c>RadioactiveDecay</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>RadioactiveDecay</c></param>
+            <param name="right">The right <c>RadioactiveDecay</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.op_GreaterThan(Jcd.Units.UnitTypes.RadioactiveDecay,Jcd.Units.UnitTypes.RadioactiveDecay)">
+            <summary>
+            Compares two <c>RadioactiveDecay</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>RadioactiveDecay</c></param>
+            <param name="right">The right <c>RadioactiveDecay</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.op_LessThanOrEqual(Jcd.Units.UnitTypes.RadioactiveDecay,Jcd.Units.UnitTypes.RadioactiveDecay)">
+            <summary>
+            Compares two <c>RadioactiveDecay</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>RadioactiveDecay</c></param>
+            <param name="right">The right <c>RadioactiveDecay</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.RadioactiveDecay,Jcd.Units.UnitTypes.RadioactiveDecay)">
+            <summary>
+            Compares two <c>RadioactiveDecay</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>RadioactiveDecay</c></param>
+            <param name="right">The right <c>RadioactiveDecay</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Resistance">
+            <summary>
+            Constructs a unit measuring a specified <c>Resistance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Resistance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Resistance</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Resistance</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Resistance.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Resistance.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Resistance</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Resistance.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Resistance.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Resistance,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Resistance</c> using another Resistance as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Resistance</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.Equals(Jcd.Units.UnitTypes.Resistance)">
+            <summary>
+            Compares this <c>Resistance</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Resistance</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Resistance</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.CompareTo(Jcd.Units.UnitTypes.Resistance)">
+            <summary>
+            Performs a relative comparison between this <c>Resistance</c> and another one.
+            </summary>
+            <param name="other">The <c>Resistance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Resistance</c> and another one.
+            </summary>
+            <param name="obj">The <c>Resistance</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Resistance</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.op_LessThan(Jcd.Units.UnitTypes.Resistance,Jcd.Units.UnitTypes.Resistance)">
+            <summary>
+            Compares two <c>Resistance</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Resistance</c></param>
+            <param name="right">The right <c>Resistance</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.op_GreaterThan(Jcd.Units.UnitTypes.Resistance,Jcd.Units.UnitTypes.Resistance)">
+            <summary>
+            Compares two <c>Resistance</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Resistance</c></param>
+            <param name="right">The right <c>Resistance</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.op_LessThanOrEqual(Jcd.Units.UnitTypes.Resistance,Jcd.Units.UnitTypes.Resistance)">
+            <summary>
+            Compares two <c>Resistance</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Resistance</c></param>
+            <param name="right">The right <c>Resistance</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Resistance.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Resistance,Jcd.Units.UnitTypes.Resistance)">
+            <summary>
+            Compares two <c>Resistance</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Resistance</c></param>
+            <param name="right">The right <c>Resistance</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Temperature">
+            <summary>
+            Constructs a unit measuring a specified <c>Temperature</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Temperature</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Temperature</c>
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <c>Temperature</c></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Temperature.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Temperature.Symbol">
+            <summary>The symbol or abbreviation to represent the <c>Temperature</c></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Temperature.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitTypes.Temperature.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Temperature,System.Double,System.Double)">
+            <summary>
+            Constructs a unit measuring a specified <c>Temperature</c> using another Temperature as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <c>Temperature</c></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+            <param name="offset">The offset from the <c>baseUnit</c>.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.Equals(Jcd.Units.UnitTypes.Temperature)">
+            <summary>
+            Compares this <c>Temperature</c> to another one for equality.
+            </summary>
+            <param name="other">The other <c>Temperature</c> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.GetHashCode">
+            <summary>
+            Computes the hash code for this <c>Temperature</c>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.CompareTo(Jcd.Units.UnitTypes.Temperature)">
+            <summary>
+            Performs a relative comparison between this <c>Temperature</c> and another one.
+            </summary>
+            <param name="other">The <c>Temperature</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <c>Temperature</c> and another one.
+            </summary>
+            <param name="obj">The <c>Temperature</c> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <c>Temperature</c></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.op_LessThan(Jcd.Units.UnitTypes.Temperature,Jcd.Units.UnitTypes.Temperature)">
+            <summary>
+            Compares two <c>Temperature</c> instances to determine if the left one is less than the right one.
+            </summary>
+            <param name="left">The left <c>Temperature</c></param>
+            <param name="right">The right <c>Temperature</c></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.op_GreaterThan(Jcd.Units.UnitTypes.Temperature,Jcd.Units.UnitTypes.Temperature)">
+            <summary>
+            Compares two <c>Temperature</c> instances to determine if the left one is greater than the right one.
+            </summary>
+            <param name="left">The left <c>Temperature</c></param>
+            <param name="right">The right <c>Temperature</c></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.op_LessThanOrEqual(Jcd.Units.UnitTypes.Temperature,Jcd.Units.UnitTypes.Temperature)">
+            <summary>
+            Compares two <c>Temperature</c> instances to determine if the left one is less than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Temperature</c></param>
+            <param name="right">The right <c>Temperature</c></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Temperature.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Temperature,Jcd.Units.UnitTypes.Temperature)">
+            <summary>
+            Compares two <c>Temperature</c> instances to determine if the left one is greater than or equal to the right one.
+            </summary>
+            <param name="left">The left <c>Temperature</c></param>
+            <param name="right">The right <c>Temperature</c></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
         </member>
     </members>
 </doc>

@@ -14,6 +14,10 @@
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Templates.Designer.cs</LastGenOutput>
       </EmbeddedResource>
+      <None Remove="Data\UnitType.csv" />
+      <EmbeddedResource Include="Data\UnitTypes.csv" />
+      <None Remove="Data\system.csv" />
+      <EmbeddedResource Include="Data\Systems.csv" />
     </ItemGroup>
 
     <ItemGroup>
@@ -29,17 +33,17 @@
     </ItemGroup>
     
     <ItemGroup>
-      <Content Include="prefixes.csv">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
-      <Content Include="units.csv">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </Content>
+      <None Remove="Resources\Unit.template" />
+      <EmbeddedResource Include="Resources\UnitType.template" />
     </ItemGroup>
     
     <ItemGroup>
-      <None Remove="Resources\Unit.template" />
-      <EmbeddedResource Include="Resources\UnitType.template" />
+      <None Remove="Data\prefixes.csv" />
+      <EmbeddedResource Include="Data\Prefixes.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="Data\units.csv" />
+      <EmbeddedResource Include="Data\Units.csv" />
     </ItemGroup>
 
 </Project>

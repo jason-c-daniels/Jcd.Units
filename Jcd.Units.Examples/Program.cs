@@ -1,41 +1,39 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Jcd.Units;
+using Jcd.Units.UnitsOfMeasure;
+using Jcd.Units.UnitsOfMeasure.SI;
+using Jcd.Units.UnitTypes;
 
-using SI=Jcd.Units.SI;
-using Imperial=Jcd.Units.Imperial;
-using USSurvey=Jcd.Units.USSurvey;
-using USCustomary=Jcd.Units.USCustomary;
-using Astronomy=Jcd.Units.Astronomy;
-
+var allDurations = Durations.GetAll().ToList();
 Console.WriteLine("Hello, World!");
 var oneSec = 1d.As(Durations.Second);
 var oneSecInMs = oneSec.To(Durations.Millisecond);
 
-var meterQuantity = 1d.As(SI.Lengths.Meter);
-var kmQuantity=meterQuantity.To(SI.Lengths.Kilometer);
+var meterQuantity = 1d.As(Lengths.Meter);
+var kmQuantity=meterQuantity.To(Lengths.Kilometer);
 var twoM= (meterQuantity + kmQuantity);
-var twoMInInches = twoM.To(Imperial.Lengths.Inch); // two meters in inches.
-var oneInch = 1.As(Imperial.Lengths.Inch);
-var oneInchInTwips = oneInch.To(Imperial.Lengths.Twip);
-var oneParsec = 1.As(Astronomy.Lengths.Parsec);
-var oneParsecInKm = oneParsec.To(SI.Lengths.Kilometer);
-var oneLy = 1.As(Astronomy.Lengths.LightYear);
-var oneParsecInLy = oneParsec.To(Astronomy.Lengths.LightYear);
-var oneLyInKm = oneLy.To(SI.Lengths.Kilometer);
-var oneLyInM = oneLy.To(SI.Lengths.Meter);
-var oneLyInKm2 = oneLyInM.To(SI.Lengths.Kilometer);
-var oneLyInMm = oneLy.To(SI.Lengths.Millimeter);
-var oneUSInch = 1.As(USCustomary.Lengths.Inch);
-var oneInchInPt = oneUSInch.To(USCustomary.Lengths.Point);
-var oneLink = 1.As(USSurvey.Lengths.Link);
-var oneLinkAsInches = oneLink.To(USCustomary.Lengths.Inch);
-var oneLinkAsCm = oneLink.To(SI.Lengths.Centimeter);
-var oneSurveyFoot = 1.As(USSurvey.Lengths.Foot);
-var oneSurveyFootAsCm = oneSurveyFoot.To(SI.Lengths.Centimeter);
-var oneSurveyFootAsFoot = oneSurveyFoot.To(USCustomary.Lengths.Foot);
-var oneRod = 1.As(USSurvey.Lengths.Rod);
-var oneRodInLinks = oneRod.To(USSurvey.Lengths.Link);
+var twoMInInches = twoM.To(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch); // two meters in inches.
+var oneInch = 1.As(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch);
+var oneInchInTwips = oneInch.To(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Twip);
+var oneParsec = 1.As(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.Parsec);
+var oneParsecInKm = oneParsec.To(Lengths.Kilometer);
+var oneLy = 1.As(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.LightYear);
+var oneParsecInLy = oneParsec.To(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.LightYear);
+var oneLyInKm = oneLy.To(Lengths.Kilometer);
+var oneLyInM = oneLy.To(Lengths.Meter);
+var oneLyInKm2 = oneLyInM.To(Lengths.Kilometer);
+var oneLyInMm = oneLy.To(Lengths.Millimeter);
+var oneUSInch = 1.As(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Inch);
+var oneInchInPt = oneUSInch.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Point);
+var oneLink = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
+var oneLinkAsInches = oneLink.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Inch);
+var oneLinkAsCm = oneLink.To(Lengths.Centimeter);
+var oneSurveyFoot = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Foot);
+var oneSurveyFootAsCm = oneSurveyFoot.To(Lengths.Centimeter);
+var oneSurveyFootAsFoot = oneSurveyFoot.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Foot);
+var oneRod = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Rod);
+var oneRodInLinks = oneRod.To(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
 
 var meqkm= meterQuantity == kmQuantity;
 var twoMGtMq = twoM > meterQuantity;

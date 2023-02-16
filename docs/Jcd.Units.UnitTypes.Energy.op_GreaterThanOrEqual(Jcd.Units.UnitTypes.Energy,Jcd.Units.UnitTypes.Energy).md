@@ -1,0 +1,27 @@
+#### [Jcd.Units](index.md 'index')
+### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')
+
+## Energy.operator >=(Energy, Energy) Operator
+
+Compares two `Energy` instances to determine if the left one is greater than or equal to the right one.
+
+```csharp
+public static bool operator >=(Jcd.Units.UnitTypes.Energy left, Jcd.Units.UnitTypes.Energy right);
+```
+#### Parameters
+
+<a name='Jcd.Units.UnitTypes.Energy.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Energy,Jcd.Units.UnitTypes.Energy).left'></a>
+
+`left` [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')
+
+The left `Energy`
+
+<a name='Jcd.Units.UnitTypes.Energy.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Energy,Jcd.Units.UnitTypes.Energy).right'></a>
+
+`right` [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')
+
+The right `Energy`
+
+#### Returns
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
+true if left is >= right; false otherwise.

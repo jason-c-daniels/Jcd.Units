@@ -8,10 +8,17 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using UnitGen;
 using UnitGen.CodeGenerators;
+using UnitGen.Data;
 using UnitGen.Resources;
+using PrefixDefinition = UnitGen.PrefixDefinition;
 
-var units = ReadData<BaseUnitDefinition>("units.csv");
-var prefixes = ReadData<PrefixDefinition>("prefixes.csv");
+var prefixRepo = new PrefixRepository();
+var unitRepo = new UnitRepository();
+var unitTypeRepo = new UnitTypeRepository();
+
+var unitTypes = unitTypeRepo.GetAll();
+var units = unitRepo.GetAll();//ReadData<BaseUnitDefinition>("Data/units.csv");
+var prefixes = prefixRepo.GetAll();//ReadData<PrefixDefinition>("Data/prefixes.csv");
 
 var unitsWithPrefixes = 
     (
@@ -82,11 +89,11 @@ var groupings =
     from unit in allUnits
     group unit by unit.System
     into systemGroup
-    from unitTypes in (
+    from unitType in (
         from unit in systemGroup
         group unit by unit.UnitType
     )
-    group unitTypes by systemGroup.Key;
+    group unitType by systemGroup.Key;
 
 
 int i = 0;
