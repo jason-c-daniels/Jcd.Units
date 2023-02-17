@@ -19,16 +19,7 @@ var unitTypes = (
         select unitDef.UnitType)
     .Distinct();
 
-var utg = new UnitTypeGenerator();
-
-var unitTypesDir = Path.Combine(jcdUnitsDir, "UnitTypes");
-// generate the individual unit type files in UnitTypes (in the current / output directory)
-foreach(var ut in unitTypes)
-{
-    Console.WriteLine($"Generating {ut.UnitTypeName}.cs in '{unitTypesDir}'");
-    Console.WriteLine($"--------------------------------------------------------");
-    Console.WriteLine(utg.Generate(ut));
-}
+var unitTypesDir = GenerateUnitTypes(jcdUnitsDir, unitTypes);
 
 var unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
 
@@ -109,6 +100,25 @@ string? FindDirectory(string targetDir)
     }
 
     return testDir != null ? Path.Combine(testDir,targetDir) : null;
+}
+
+string GenerateUnitTypes(string s, IEnumerable<UnitType> enumerable)
+{
+    var unitTypesDir = Path.Combine(s, "UnitTypes");
+    var utg = new UnitTypeGenerator();
+// generate the individual unit type files in UnitTypes (in the output directory)
+    foreach (var ut in enumerable)
+    {
+        var unitTypeFileName = $"{ut.UnitTypeName}.cs";
+        var unitTypeFilePath = Path.Combine(unitTypesDir,unitTypeFileName);
+        Console.WriteLine($"Generating {unitTypeFileName} in '{unitTypesDir}'");
+        if (File.Exists(unitTypeFilePath))
+            Console.WriteLine($"{unitTypeFilePath} already exists. Overwriting.");
+        Console.WriteLine($"--------------------------------------------------------");
+        Console.WriteLine(utg.Generate(ut));
+    }
+
+    return unitTypesDir;
 }
 /*
 var prefixRepo = new PrefixRepository();
