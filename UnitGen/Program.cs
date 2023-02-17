@@ -1,17 +1,116 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
-using System.Globalization;
-using System.Reflection;
-using System.Text.RegularExpressions;
-using CsvHelper;
-using CsvHelper.Configuration;
-using UnitGen;
+﻿using System.Reflection;
+using System.Text;
 using UnitGen.CodeGenerators;
 using UnitGen.Data;
-using UnitGen.Resources;
-using PrefixDefinition = UnitGen.PrefixDefinition;
 
+var jcdUnitsDir = FindDirectory("Jcd.Units");
+var jcdUnitsTestsDir = FindDirectory("Jcd.Units.Tests");
+
+if (jcdUnitsDir == null || jcdUnitsTestsDir == null)
+{
+    Console.Error.WriteLine("One or more essential directories could not be found. ABORTING.");
+    return -1;
+}
+
+var unitDefRepo = new UnitDefinitionRepository();
+var unitDefs = unitDefRepo.GetAll();
+var unitTypes = (
+        from unitDef in unitDefs 
+        select unitDef.UnitType)
+    .Distinct();
+
+var utg = new UnitTypeGenerator();
+
+var unitTypesDir = Path.Combine(jcdUnitsDir, "UnitTypes");
+// generate the individual unit type files in UnitTypes (in the current / output directory)
+foreach(var ut in unitTypes)
+{
+    Console.WriteLine($"Generating {ut.UnitTypeName}.cs in '{unitTypesDir}'");
+    Console.WriteLine($"--------------------------------------------------------");
+    Console.WriteLine(utg.Generate(ut));
+}
+
+var unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
+
+CreateDirectoryIfNeeded(unitsOfMeasureDir);
+CreateDirectoryIfNeeded(unitTypesDir);
+
+var groupings =
+    from unit in unitDefs
+    group unit by unit.System.Name
+    into systemGroup
+    from unitType in (
+        from unit in systemGroup
+        group unit by unit.UnitType.Name
+    )
+    group unitType by systemGroup.Key;
+
+foreach (var systemGrouping in groupings)
+{
+    var namespaceName=systemGrouping.Key.MakeSymbolName();
+    // TODO: Make subdir
+    if (namespaceName.Trim().Length > 0)
+    {
+        CreateDirectoryIfNeeded(Path.Combine(unitsOfMeasureDir,namespaceName));
+    }
+
+    var uomWithNamespaceDir = string.IsNullOrWhiteSpace(namespaceName)
+        ? unitsOfMeasureDir
+        : Path.Combine(unitsOfMeasureDir, namespaceName);
+    
+    CreateDirectoryIfNeeded(uomWithNamespaceDir);
+    
+    foreach (var unitTypeGrouping in systemGrouping)
+    {
+        var ut = unitTypeGrouping.First().UnitType;
+        var enumerationName = ut.EnumerationName;
+        var enumerationFileName = $"{enumerationName}.cs";
+        var enumerationsFilePath = Path.Combine(uomWithNamespaceDir,enumerationFileName);
+        
+        Console.WriteLine();
+        Console.WriteLine($"Generating: {enumerationsFilePath}");
+        if (File.Exists(enumerationsFilePath))
+            Console.WriteLine($"{enumerationFileName} already exists. Overwriting.");
+        Console.WriteLine($"--------------------------------------------------------");
+        var sbUnits = new StringBuilder();
+        foreach (var unitDefinition in unitTypeGrouping)
+        {
+            Console.WriteLine($"Generating: {unitDefinition.Prefix.Name}{unitDefinition.Unit.UnitName}");
+            // sbUnits.AppendLine(utg.Generate(unitDefinition));
+        }
+        // var fileContent=utg.GenerateEnumeration(unitTypeEnumerationName,sbUnits.ToString());
+        // File.WriteAllText(enumerationsFilePath,fileContent);
+    }
+}
+
+int i = 9;
+
+return 0;
+
+void CreateDirectoryIfNeeded(string targetDir)
+{
+    if (!Directory.Exists(targetDir))
+    {
+        Console.WriteLine($"Creating {targetDir}.");
+        //Directory.CreateDirectory(targetDir);
+    }
+}
+
+string? FindDirectory(string targetDir)
+{
+    var startupDir = Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location);
+    var testDir = startupDir;
+    while (testDir != null && !Directory.Exists(Path.Combine(testDir, targetDir)))
+        testDir = Path.GetDirectoryName(testDir);
+
+    if (testDir == null)
+    {
+        Console.Error.WriteLine($"Could not locate {targetDir} folder.");
+    }
+
+    return testDir != null ? Path.Combine(testDir,targetDir) : null;
+}
+/*
 var prefixRepo = new PrefixRepository();
 var unitRepo = new UnitRepository();
 var unitTypeRepo = new UnitTypeRepository();
@@ -29,7 +128,7 @@ var unitsWithPrefixes =
         (
             unit.System,
             unit.UnitType,
-            $"{prefix.Prefix}{unit.UnitName}",
+            $"{prefix.Name}{unit.UnitName}",
             $"{prefix.Symbol}{unit.UnitSymbol}",
             prefix.IsBasePrefix 
                 ? unit.BaseUnit
@@ -80,7 +179,7 @@ var allUnitTypes=(from unit in allUnits select unit.UnitType).Distinct();
 var utg = new UnitTypeGenerator();
 foreach (var unitType in allUnitTypes)
 {
-    var unitTypeName = unitType.MakeCodeName();
+    var unitTypeName = unitType.MakeSymbolName();
     Console.WriteLine($"/// File: {unitTypeName}.cs");
     Console.WriteLine(utg.Generate(unitTypeName));
 }
@@ -135,7 +234,8 @@ string EmitUnit(string typeName, string unitType, UnitDefinition unit)
         .Replace("$UnitType$", unitType)
         .Replace("$UnitName$", unit.Name)
         .Replace("$Symbol$", unit.Symbol)
-        .Replace("$BaseUnit$", unit.BaseUnit.MakeCodeName())
+        .Replace("$BaseUnit$", unit.BaseUnit.MakeSymbolName())
         .Replace("$Coefficient$", unit.UnitCoefficient)
         .Replace("$Offset$", unit.Offset);
 }
+*/

@@ -25,7 +25,6 @@
 | [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') | Constructs a unit measuring a specified `Mass` |
 | [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') | Constructs a unit measuring a specified `Power` |
 | [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') | Constructs a unit measuring a specified `Pressure` |
-| [Quantity&lt;TUnits&gt;](Jcd.Units.UnitTypes.Quantity_TUnits_.md 'Jcd.Units.UnitTypes.Quantity<TUnits>') | Represents a quantity with an associated unit of measure. |
 | [RadiationAbsorbedDose](Jcd.Units.UnitTypes.RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose') | Constructs a unit measuring a specified `RadiationAbsorbedDose` |
 | [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') | Constructs a unit measuring a specified `RadiationEquivalentDose` |
 | [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') | Constructs a unit measuring a specified `RadioactiveDecay` |

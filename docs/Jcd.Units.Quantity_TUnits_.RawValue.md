@@ -1,5 +1,5 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Quantity&lt;TUnits&gt;](Jcd.Units.UnitTypes.Quantity_TUnits_.md 'Jcd.Units.UnitTypes.Quantity<TUnits>')
+### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')
 
 ## Quantity<TUnits>.RawValue Property
 

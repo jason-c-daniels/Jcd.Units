@@ -1,13 +1,13 @@
 ﻿namespace UnitGen.Data;
 
-public record PrefixDefinition
+public record Prefix
 (
-    string Prefix,
+    string Name,
     string Symbol,
     string BasePrefix,
     string Coefficient,
     int SortIndex
 )
 {
-    public bool IsBasePrefix => string.IsNullOrWhiteSpace(Prefix);
+    public bool IsBasePrefix => string.IsNullOrWhiteSpace(Name);
 }

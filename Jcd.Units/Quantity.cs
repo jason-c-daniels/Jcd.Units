@@ -1,6 +1,6 @@
 using System;
 
-namespace Jcd.Units.UnitTypes;
+namespace Jcd.Units;
 
 /// <summary>
 ///     Represents a quantity with an associated unit of measure.

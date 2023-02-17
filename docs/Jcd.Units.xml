@@ -9,6 +9,98 @@
             Provides TODO: A description of what this namespace provides.
             </summary>
         </member>
+        <member name="T:Jcd.Units.Quantity`1">
+            <summary>
+                Represents a quantity with an associated unit of measure.
+            </summary>
+            <param name="RawValue">The numeric portion, without associated unit of measure</param>
+            <param name="Units">The unit of measure.</param>
+            <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.#ctor(System.Double,`0)">
+            <summary>
+                Represents a quantity with an associated unit of measure.
+            </summary>
+            <param name="RawValue">The numeric portion, without associated unit of measure</param>
+            <param name="Units">The unit of measure.</param>
+            <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.RawValue">
+            <summary>The numeric portion, without associated unit of measure</summary>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.Units">
+            <summary>The unit of measure.</summary>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.To(`0)">
+            <summary>
+                Converts the quantity from its current unit of measure to the target unit of measure.
+            </summary>
+            <param name="targetUnit">The target unit of measure</param>
+            <returns>The new quantity represented as the new unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_UnaryPlus(Jcd.Units.Quantity{`0})">
+            <summary>
+                Performs a standard unary "+" operation.
+            </summary>
+            <param name="q">The <c>Quantity</c> to operate on.</param>
+            <returns>The <c>Quantity</c></returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_UnaryNegation(Jcd.Units.Quantity{`0})">
+            <summary>
+                Performs standard unary negation on the <c>RawValue</c> component and returns a new <c>Quantity</c>.
+            </summary>
+            <param name="q">The quantity to perform the operation on.</param>
+            <returns>The negated form of the <c>Quantity</c></returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Addition(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+            <summary>
+            Adds two quantities, selecting the larger unit of measure as the common representation.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand operand</param>
+            <returns>The sum of the two quantities in the common unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Subtraction(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+            <summary>
+            Performs subtraction on two quantities, converting to the larger of the two units of measure.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand operand.</param>
+            <returns>The result of the subtraction.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Multiply(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+            <summary>
+            Performs multiplication on two quantities, converting to the larger of the two units of measure.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand operand.</param>
+            <returns>The product of the two operands.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Division(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
+            <summary>
+            Performs division on two quantities, converting to the larger of the two units of measure.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand operand.</param>
+            <returns>The result of the division.</returns>
+            <exception cref="T:System.DivideByZeroException">When <c>y</c> is zero.</exception>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Addition(Jcd.Units.Quantity{`0},System.Double)">
+            <summary>
+            Performs addition on a <c>Quantity</c> (left-hand operand) and a double.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand, <c>double</c>, operand.</param>
+            <returns>The result of the addition.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.op_Subtraction(Jcd.Units.Quantity{`0},System.Double)">
+            <summary>
+            Performs subtraction on a <c>Quantity</c> (left-hand operand) and a double.
+            </summary>
+            <param name="x">The left hand operand</param>
+            <param name="y">The right hand, <c>double</c>, operand.</param>
+            <returns>The result of the subtraction.</returns>
+        </member>
         <member name="T:Jcd.Units.UnitOfMeasureExtensions">
             <summary>
             Extension methods that convert raw values to and from fundamental
@@ -2135,98 +2227,6 @@
             <param name="left">The left <c>Pressure</c></param>
             <param name="right">The right <c>Pressure</c></param>
             <returns>true if left is &gt;= right; false otherwise.</returns>
-        </member>
-        <member name="T:Jcd.Units.UnitTypes.Quantity`1">
-            <summary>
-                Represents a quantity with an associated unit of measure.
-            </summary>
-            <param name="RawValue">The numeric portion, without associated unit of measure</param>
-            <param name="Units">The unit of measure.</param>
-            <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.#ctor(System.Double,`0)">
-            <summary>
-                Represents a quantity with an associated unit of measure.
-            </summary>
-            <param name="RawValue">The numeric portion, without associated unit of measure</param>
-            <param name="Units">The unit of measure.</param>
-            <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
-        </member>
-        <member name="P:Jcd.Units.UnitTypes.Quantity`1.RawValue">
-            <summary>The numeric portion, without associated unit of measure</summary>
-        </member>
-        <member name="P:Jcd.Units.UnitTypes.Quantity`1.Units">
-            <summary>The unit of measure.</summary>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.To(`0)">
-            <summary>
-                Converts the quantity from its current unit of measure to the target unit of measure.
-            </summary>
-            <param name="targetUnit">The target unit of measure</param>
-            <returns>The new quantity represented as the new unit of measure.</returns>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_UnaryPlus(Jcd.Units.UnitTypes.Quantity{`0})">
-            <summary>
-                Performs a standard unary "+" operation.
-            </summary>
-            <param name="q">The <c>Quantity</c> to operate on.</param>
-            <returns>The <c>Quantity</c></returns>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_UnaryNegation(Jcd.Units.UnitTypes.Quantity{`0})">
-            <summary>
-                Performs standard unary negation on the <c>RawValue</c> component and returns a new <c>Quantity</c>.
-            </summary>
-            <param name="q">The quantity to perform the operation on.</param>
-            <returns>The negated form of the <c>Quantity</c></returns>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Addition(Jcd.Units.UnitTypes.Quantity{`0},Jcd.Units.UnitTypes.Quantity{`0})">
-            <summary>
-            Adds two quantities, selecting the larger unit of measure as the common representation.
-            </summary>
-            <param name="x">The left hand operand</param>
-            <param name="y">The right hand operand</param>
-            <returns>The sum of the two quantities in the common unit of measure.</returns>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Subtraction(Jcd.Units.UnitTypes.Quantity{`0},Jcd.Units.UnitTypes.Quantity{`0})">
-            <summary>
-            Performs subtraction on two quantities, converting to the larger of the two units of measure.
-            </summary>
-            <param name="x">The left hand operand</param>
-            <param name="y">The right hand operand.</param>
-            <returns>The result of the subtraction.</returns>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Multiply(Jcd.Units.UnitTypes.Quantity{`0},Jcd.Units.UnitTypes.Quantity{`0})">
-            <summary>
-            Performs multiplication on two quantities, converting to the larger of the two units of measure.
-            </summary>
-            <param name="x">The left hand operand</param>
-            <param name="y">The right hand operand.</param>
-            <returns>The product of the two operands.</returns>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Division(Jcd.Units.UnitTypes.Quantity{`0},Jcd.Units.UnitTypes.Quantity{`0})">
-            <summary>
-            Performs division on two quantities, converting to the larger of the two units of measure.
-            </summary>
-            <param name="x">The left hand operand</param>
-            <param name="y">The right hand operand.</param>
-            <returns>The result of the division.</returns>
-            <exception cref="T:System.DivideByZeroException">When <c>y</c> is zero.</exception>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Addition(Jcd.Units.UnitTypes.Quantity{`0},System.Double)">
-            <summary>
-            Performs addition on a <c>Quantity</c> (left-hand operand) and a double.
-            </summary>
-            <param name="x">The left hand operand</param>
-            <param name="y">The right hand, <c>double</c>, operand.</param>
-            <returns>The result of the addition.</returns>
-        </member>
-        <member name="M:Jcd.Units.UnitTypes.Quantity`1.op_Subtraction(Jcd.Units.UnitTypes.Quantity{`0},System.Double)">
-            <summary>
-            Performs subtraction on a <c>Quantity</c> (left-hand operand) and a double.
-            </summary>
-            <param name="x">The left hand operand</param>
-            <param name="y">The right hand, <c>double</c>, operand.</param>
-            <returns>The result of the subtraction.</returns>
         </member>
         <member name="T:Jcd.Units.UnitTypes.RadiationAbsorbedDose">
             <summary>

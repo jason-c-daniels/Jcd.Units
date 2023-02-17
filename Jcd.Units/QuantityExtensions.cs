@@ -1,4 +1,4 @@
-namespace Jcd.Units.UnitTypes;
+namespace Jcd.Units;
 
 public static class QuantityExtensions
 {
