@@ -12,6 +12,7 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     IComparable<Quantity<TUnits>>,
     IComparable where TUnits : IUnitOfMeasure<TUnits>
 {
+
     /// <summary>
     /// Converts the quantity from its current unit of measure to the target unit of measure.
     /// </summary>
