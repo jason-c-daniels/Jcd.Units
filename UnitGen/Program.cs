@@ -14,20 +14,16 @@ if (jcdUnitsDir == null || jcdUnitsTestsDir == null)
     return -1;
 }
 
+var unitTypesDir = Path.Combine(jcdUnitsDir, "UnitTypes");
+var unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
+
 var unitDefRepo = new UnitDefinitionRepository();
-var gen = new SourceCodeGenerator(unitDefRepo.SystemRepo.GetAll());
 
 var unitDefs = unitDefRepo.GetAll();
 var unitTypes = (
         from unitDef in unitDefs 
         select unitDef.UnitType)
     .Distinct();
-var unitTypesDir = GenerateUnitTypes(jcdUnitsDir, unitTypes,gen);
-
-var unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
-
-CreateDirectoryIfNeeded(unitsOfMeasureDir);
-CreateDirectoryIfNeeded(unitTypesDir);
 
 var groupings =
     from unit in unitDefs
@@ -38,6 +34,10 @@ var groupings =
         group unit by unit.UnitType.Name
     )
     group unitType by systemGroup.Key;
+
+var gen = new SourceCodeGenerator(unitDefRepo.SystemRepo.GetAll());
+GenerateUnitTypes(unitTypesDir, unitTypes,gen);
+CreateDirectoryIfNeeded(unitsOfMeasureDir);
 
 foreach (var systemGrouping in groupings)
 {
@@ -61,10 +61,11 @@ foreach (var systemGrouping in groupings)
         var enumerationsFilePath = Path.Combine(uomWithNamespaceDir,enumerationFileName);
         
         Console.WriteLine();
-        Console.WriteLine($"Generating: {enumerationsFilePath}");
-        if (File.Exists(enumerationsFilePath))
-            Console.WriteLine($"{enumerationFileName} already exists. Overwriting.");
         Console.WriteLine($"--------------------------------------------------------");
+        Console.Write($"Generating: {enumerationsFilePath}. ");
+        if (File.Exists(enumerationsFilePath))
+            Console.Write($"File already exists, overwriting.");
+        Console.WriteLine();
         var sortedGrouping = unitTypeGrouping
                 .OrderBy(u => u.System.Name)
                 .ThenBy(u => u.UnitType.Name)
@@ -88,8 +89,6 @@ foreach (var systemGrouping in groupings)
 #endif
     }
 }
-
-int i = 9;
 
 return 0;
 
@@ -117,20 +116,19 @@ string? FindDirectory(string targetDir)
     return testDir != null ? Path.Combine(testDir,targetDir) : null;
 }
 
-string GenerateUnitTypes(string s, IEnumerable<UnitType> enumerable, SourceCodeGenerator gen)
+string GenerateUnitTypes(string unitTypesDir, IEnumerable<UnitType> enumerable, SourceCodeGenerator gen)
 {
-    var unitTypesDir = Path.Combine(s, "UnitTypes");
     CreateDirectoryIfNeeded(unitTypesDir);
 // generate the individual unit type files in UnitTypes (in the output directory)
     foreach (var ut in enumerable)
     {
         var unitTypeFileName = $"{ut.UnitTypeName}.cs";
         var unitTypeFilePath = Path.Combine(unitTypesDir,unitTypeFileName);
-        Console.WriteLine($"Generating {unitTypeFileName} in '{unitTypesDir}'");
-        if (File.Exists(unitTypeFilePath))
-            Console.WriteLine($"{unitTypeFilePath} already exists. Overwriting.");
-        Console.WriteLine($"--------------------------------------------------------");
         var fileContent = gen.GenerateUnitType(ut);
+        Console.Write($"Generating {unitTypeFileName} in '{unitTypesDir}'");
+        if (File.Exists(unitTypeFilePath))
+            Console.Write($". File already exists, overwriting.");
+        Console.WriteLine();
 #if WRITE_TO_CONSOLE
         Console.WriteLine(fileContent);
 #else
