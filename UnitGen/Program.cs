@@ -10,7 +10,14 @@ var jcdUnitsTestsDir = FindDirectory("Jcd.Units.Tests");
 
 if (jcdUnitsDir == null || jcdUnitsTestsDir == null)
 {
-    Console.Error.WriteLine("One or more essential directories could not be found. ABORTING.");
+    if (jcdUnitsDir == null) Console.Error.WriteLine("Directory: Jcd.Units could not be found.");
+    if (jcdUnitsTestsDir == null) Console.Error.WriteLine("Directory: Jcd.Units.Tests could not be found.");
+    
+    Console.Error.WriteLine("Is gen-unit.exe in the correct directory (Any under the Jcd.Units solution directory)?");
+    Console.Error.WriteLine("One or more essential directories could not be found.");
+    Console.Error.WriteLine("ABORTING!");
+    Console.WriteLine("Press ANY KEY to continue.");
+    Console.ReadKey();
     return -1;
 }
 
