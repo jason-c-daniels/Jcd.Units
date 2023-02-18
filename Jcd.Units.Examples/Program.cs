@@ -2,7 +2,7 @@
 
 using Jcd.Units;
 using Jcd.Units.UnitsOfMeasure;
-using Jcd.Units.UnitsOfMeasure.SI;
+using SI=Jcd.Units.UnitsOfMeasure.SI;
 using Jcd.Units.UnitTypes;
 
 var allDurations = Durations.GetAll().ToList();
@@ -10,43 +10,43 @@ Console.WriteLine("Hello, World!");
 var oneSec = 1d.As(Durations.Second);
 var oneSecInMs = oneSec.To(Durations.Millisecond);
 
-var meterQuantity = 1d.As(Lengths.Meter);
-var kmQuantity=meterQuantity.To(Lengths.Kilometer);
+var meterQuantity = 1d.As(SI.Lengths.Meter);
+var kmQuantity=meterQuantity.To(SI.Lengths.Kilometer);
 var twoM= (meterQuantity + kmQuantity);
 var twoMInInches = twoM.To(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch); // two meters in inches.
 var oneInch = 1.As(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch);
 var oneInchInTwips = oneInch.To(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Twip);
 var oneParsec = 1.As(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.Parsec);
-var oneParsecInKm = oneParsec.To(Lengths.Kilometer);
+var oneParsecInKm = oneParsec.To(SI.Lengths.Kilometer);
 var oneLy = 1.As(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.LightYear);
 var oneParsecInLy = oneParsec.To(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.LightYear);
-var oneLyInKm = oneLy.To(Lengths.Kilometer);
-var oneLyInM = oneLy.To(Lengths.Meter);
-var oneLyInKm2 = oneLyInM.To(Lengths.Kilometer);
-var oneLyInMm = oneLy.To(Lengths.Millimeter);
+var oneLyInKm = oneLy.To(SI.Lengths.Kilometer);
+var oneLyInM = oneLy.To(SI.Lengths.Meter);
+var oneLyInKm2 = oneLyInM.To(SI.Lengths.Kilometer);
+var oneLyInMm = oneLy.To(SI.Lengths.Millimeter);
 var oneUSInch = 1.As(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Inch);
 var oneInchInPt = oneUSInch.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Point);
 var oneLink = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
 var oneLinkAsInches = oneLink.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Inch);
-var oneLinkAsCm = oneLink.To(Lengths.Centimeter);
+var oneLinkAsCm = oneLink.To(SI.Lengths.Centimeter);
 var oneSurveyFoot = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Foot);
-var oneSurveyFootAsCm = oneSurveyFoot.To(Lengths.Centimeter);
+var oneSurveyFootAsCm = oneSurveyFoot.To(SI.Lengths.Centimeter);
 var oneSurveyFootAsFoot = oneSurveyFoot.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Foot);
 var oneRod = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Rod);
 var oneRodInLinks = oneRod.To(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
 
 var meqkm= meterQuantity == kmQuantity;
 var twoMGtMq = twoM > meterQuantity;
-var tempC = 0d.As(Temperatures.Celcius);
-var tempC1 = 1d.As(Temperatures.Celcius);
-var tempC5 = 5d.As(Temperatures.Celcius);
+var tempC = 0d.As(SI.Temperatures.Celcius);
+var tempC1 = 1d.As(SI.Temperatures.Celcius);
+var tempC5 = 5d.As(SI.Temperatures.Celcius);
 var tempF = tempC.To(Temperatures.Fahrenheit);
 var tempF1 = tempC1.To(Temperatures.Fahrenheit);
 var tempF5 = tempC5.To(Temperatures.Fahrenheit);
-var tempC_2 = tempF.To(Temperatures.Celcius);
-var tempK = tempF.To(Temperatures.Kelvin);
-var tempK1 = tempF1.To(Temperatures.Kelvin);
-var tempK5 = tempF5.To(Temperatures.Kelvin);
+var tempC_2 = tempF.To(SI.Temperatures.Celcius);
+var tempK = tempF.To(SI.Temperatures.Kelvin);
+var tempK1 = tempF1.To(SI.Temperatures.Kelvin);
+var tempK5 = tempF5.To(SI.Temperatures.Kelvin);
 var tempR = tempF.To(Temperatures.Rankine);
 var tempR1 = tempF1.To(Temperatures.Rankine);
 var tempR5 = tempF5.To(Temperatures.Rankine);

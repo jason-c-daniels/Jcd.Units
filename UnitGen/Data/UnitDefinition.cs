@@ -27,7 +27,7 @@ public record UnitDefinition
     public string BaseUnitName => Prefix.IsBasePrefix 
         ? Unit.BaseUnit
         : $"{Prefix.BasePrefix}{Unit.UnitName}"
-        ;
+    ;
     public string Symbol => IsBaseUnit ? Unit.UnitSymbol : $"{Prefix.Symbol}{Unit.UnitSymbol}";
-    public string Subnamespace => System.HasSubnamespace ? System.Subnamespace : "";
+    public string Subnamespace => System.HasSubnamespace ? $".{System.Subnamespace}" : "";
 }

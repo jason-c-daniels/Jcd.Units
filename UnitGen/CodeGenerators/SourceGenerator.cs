@@ -5,6 +5,7 @@ namespace UnitGen.CodeGenerators;
 public class SourceCodeGenerator
 {
     private const string DefaultBaseNamespace = "Jcd.Units.UnitTypes";
+    private const string DefaultUnitOfMeasureNamespace = "Jcd.Units.UnitsOfMeasure";
     private string unitTypeTemplate;
     private string baseUnitTemplate;
     private string derivedUnitTemplate;
@@ -43,7 +44,7 @@ public class SourceCodeGenerator
             ;
     }
     
-    public string GenerateEnumeration(UnitDefinition unitDef, string units, string baseNamespace=DefaultBaseNamespace)
+    public string GenerateEnumeration(UnitDefinition unitDef, string units, string baseNamespace=DefaultUnitOfMeasureNamespace)
     {
         return enumerationTemplate
             .Replace("$BaseNamespace$", baseNamespace)

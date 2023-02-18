@@ -77,10 +77,10 @@ foreach (var systemGrouping in groupings)
             Console.WriteLine($"Generating: {unitDefinition.Prefix.Name}{unitDefinition.Unit.UnitName}");
             sbUnits.AppendLine(gen.GenerateUnit(unitDefinition));
         }
-        //Console.WriteLine(sbUnits.ToString());
+
         var fileContent=gen.GenerateEnumeration(sortedGrouping[0],sbUnits.ToString());
         Console.WriteLine(fileContent);
-        // File.WriteAllText(enumerationsFilePath,fileContent);
+        //File.WriteAllText(enumerationsFilePath,fileContent);
     }
 }
 
@@ -93,7 +93,7 @@ void CreateDirectoryIfNeeded(string targetDir)
     if (!Directory.Exists(targetDir))
     {
         Console.WriteLine($"Creating {targetDir}.");
-        //Directory.CreateDirectory(targetDir);
+        Directory.CreateDirectory(targetDir);
     }
 }
 
@@ -115,6 +115,7 @@ string? FindDirectory(string targetDir)
 string GenerateUnitTypes(string s, IEnumerable<UnitType> enumerable, SourceCodeGenerator gen)
 {
     var unitTypesDir = Path.Combine(s, "UnitTypes");
+    CreateDirectoryIfNeeded(unitTypesDir);
 // generate the individual unit type files in UnitTypes (in the output directory)
     foreach (var ut in enumerable)
     {
