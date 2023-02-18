@@ -2,19 +2,20 @@
 
 public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 {
-    private SystemRepository _systemRepo=new SystemRepository();
-    private UnitTypeRepository _unitTypeRepo=new UnitTypeRepository();
-    private PrefixRepository _prefixRepo=new PrefixRepository();
-    private UnitRepository _unitRepo=new UnitRepository();
+    public SystemRepository SystemRepo { get; } = new SystemRepository();
+    public UnitTypeRepository UnitTypeRepo { get; } = new UnitTypeRepository();
+    public PrefixRepository PrefixRepo { get; } = new PrefixRepository();
+    public UnitRepository UnitRepo { get; } = new UnitRepository();
+
     public UnitDefinitionRepository()
     {
     }
     public IList<UnitDefinition> GetAll()
     {
-        var systems = _systemRepo.GetAll();
-        var unitTypes = _unitTypeRepo.GetAll();
-        var prefixes = _prefixRepo.GetAll();
-        var units = _unitRepo.GetAll();
+        var systems = SystemRepo.GetAll();
+        var unitTypes = UnitTypeRepo.GetAll();
+        var prefixes = PrefixRepo.GetAll();
+        var units = UnitRepo.GetAll();
 
         var unitsWithSIPrefixes =
             from prefix in prefixes
@@ -36,10 +37,10 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
             .Concat(unitsWithouSIPrefixes)
             .Distinct()
             .OrderBy(u=>u.System.Name)
-            .ThenBy(u=>u.UnitType.Name)
-            .ThenBy(u=>u.IsBaseUnit)
+            .ThenByDescending(u=>u.IsBaseUnit)
             .ThenBy(u=>u.Unit.SortIndex)
             .ThenBy(u=>u.Prefix.SortIndex)
+            .ThenBy(u=>u.UnitType.Name)
             .ToList();
     }
 }

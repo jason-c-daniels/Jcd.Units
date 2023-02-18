@@ -13,13 +13,14 @@ if (jcdUnitsDir == null || jcdUnitsTestsDir == null)
 }
 
 var unitDefRepo = new UnitDefinitionRepository();
+var gen = new SourceCodeGenerator(unitDefRepo.SystemRepo.GetAll());
+
 var unitDefs = unitDefRepo.GetAll();
 var unitTypes = (
         from unitDef in unitDefs 
         select unitDef.UnitType)
     .Distinct();
-
-var unitTypesDir = GenerateUnitTypes(jcdUnitsDir, unitTypes);
+var unitTypesDir = GenerateUnitTypes(jcdUnitsDir, unitTypes,gen);
 
 var unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
 
@@ -39,7 +40,6 @@ var groupings =
 foreach (var systemGrouping in groupings)
 {
     var namespaceName=systemGrouping.Key.MakeSymbolName();
-    // TODO: Make subdir
     if (namespaceName.Trim().Length > 0)
     {
         CreateDirectoryIfNeeded(Path.Combine(unitsOfMeasureDir,namespaceName));
@@ -63,13 +63,23 @@ foreach (var systemGrouping in groupings)
         if (File.Exists(enumerationsFilePath))
             Console.WriteLine($"{enumerationFileName} already exists. Overwriting.");
         Console.WriteLine($"--------------------------------------------------------");
+        var sortedGrouping = unitTypeGrouping
+                .OrderBy(u => u.System.Name)
+                .ThenBy(u => u.UnitType.Name)
+                .ThenByDescending(u => u.IsBaseUnit)
+                .ThenBy(u => u.Unit.SortIndex)
+                .ThenBy(u => u.Prefix.SortIndex)
+                .ToList()
+            ;
         var sbUnits = new StringBuilder();
-        foreach (var unitDefinition in unitTypeGrouping)
+        foreach (var unitDefinition in sortedGrouping)
         {
             Console.WriteLine($"Generating: {unitDefinition.Prefix.Name}{unitDefinition.Unit.UnitName}");
-            // sbUnits.AppendLine(utg.Generate(unitDefinition));
+            sbUnits.AppendLine(gen.GenerateUnit(unitDefinition));
         }
-        // var fileContent=utg.GenerateEnumeration(unitTypeEnumerationName,sbUnits.ToString());
+        //Console.WriteLine(sbUnits.ToString());
+        var fileContent=gen.GenerateEnumeration(sortedGrouping[0],sbUnits.ToString());
+        Console.WriteLine(fileContent);
         // File.WriteAllText(enumerationsFilePath,fileContent);
     }
 }
@@ -102,10 +112,9 @@ string? FindDirectory(string targetDir)
     return testDir != null ? Path.Combine(testDir,targetDir) : null;
 }
 
-string GenerateUnitTypes(string s, IEnumerable<UnitType> enumerable)
+string GenerateUnitTypes(string s, IEnumerable<UnitType> enumerable, SourceCodeGenerator gen)
 {
     var unitTypesDir = Path.Combine(s, "UnitTypes");
-    var utg = new UnitTypeGenerator();
 // generate the individual unit type files in UnitTypes (in the output directory)
     foreach (var ut in enumerable)
     {
@@ -115,7 +124,9 @@ string GenerateUnitTypes(string s, IEnumerable<UnitType> enumerable)
         if (File.Exists(unitTypeFilePath))
             Console.WriteLine($"{unitTypeFilePath} already exists. Overwriting.");
         Console.WriteLine($"--------------------------------------------------------");
-        Console.WriteLine(utg.Generate(ut));
+        var fileContent = gen.GenerateUnitType(ut);
+        Console.WriteLine(fileContent);
+        //File.WriteAllText(unitTypeFilePath, fileContent);
     }
 
     return unitTypesDir;

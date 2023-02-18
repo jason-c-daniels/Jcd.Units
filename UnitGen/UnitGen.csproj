@@ -14,10 +14,22 @@
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Templates.Designer.cs</LastGenOutput>
       </EmbeddedResource>
-      <None Remove="Data\UnitType.csv" />
-      <EmbeddedResource Include="Data\UnitTypes.csv" />
-      <None Remove="Data\system.csv" />
+      <None Remove="Resources\BaseUnit.template" />
+      <EmbeddedResource Include="Resources\BaseUnit.template" />
+      <None Remove="Resources\DerivedUnit.template" />
+      <EmbeddedResource Include="Resources\DerivedUnit.template" />
+      <None Remove="Resources\Enumeration.template" />
+      <EmbeddedResource Include="Resources\Enumeration.template" />
+      <None Remove="Resources\UnitType.template" />
+      <EmbeddedResource Include="Resources\UnitType.template" />
+      <None Remove="Data\Prefixes.csv" />
+      <EmbeddedResource Include="Data\Prefixes.csv" />
+      <None Remove="Data\Systems.csv" />
       <EmbeddedResource Include="Data\Systems.csv" />
+      <None Remove="Data\Units.csv" />
+      <EmbeddedResource Include="Data\Units.csv" />
+      <None Remove="Data\UnitTypes.csv" />
+      <EmbeddedResource Include="Data\UnitTypes.csv" />
     </ItemGroup>
 
     <ItemGroup>
@@ -30,20 +42,6 @@
         <AutoGen>True</AutoGen>
         <DependentUpon>Templates.resx</DependentUpon>
       </Compile>
-    </ItemGroup>
-    
-    <ItemGroup>
-      <None Remove="Resources\Unit.template" />
-      <EmbeddedResource Include="Resources\UnitType.template" />
-    </ItemGroup>
-    
-    <ItemGroup>
-      <None Remove="Data\prefixes.csv" />
-      <EmbeddedResource Include="Data\Prefixes.csv">
-        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      </EmbeddedResource>
-      <None Remove="Data\units.csv" />
-      <EmbeddedResource Include="Data\Units.csv" />
     </ItemGroup>
 
 </Project>

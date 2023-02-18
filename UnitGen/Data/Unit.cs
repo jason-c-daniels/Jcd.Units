@@ -1,4 +1,6 @@
-﻿namespace UnitGen.Data;
+﻿using UnitGen.CodeGenerators;
+
+namespace UnitGen.Data;
 
 public record Unit
 (
@@ -7,6 +9,7 @@ public record Unit
     string UnitName,
     string UnitSymbol,
     bool UsesPrefixes,
+    string BaseUnitSystem,
     string BaseUnit,
     string Coefficient,
     string Offset,
@@ -14,4 +17,7 @@ public record Unit
 )
 {
     public bool IsBaseUnit => string.Compare(UnitName, BaseUnit, StringComparison.InvariantCultureIgnoreCase) == 0;
+    public bool IsDerivedUnit => !IsBaseUnit;
+    public bool HasBaseUnitSubnamespace => System != BaseUnitSystem && IsDerivedUnit;
+    public string BaseUnitSubnamespace => HasBaseUnitSubnamespace ? $"{BaseUnitSystem.MakeSymbolName()}" : "";
 }

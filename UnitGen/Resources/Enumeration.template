@@ -1,0 +1,8 @@
+﻿using Jcd.Units.UnitTypes;
+
+namespace $BaseNamespace$$Subnamespace$;
+
+public class $Enumeration$ : Enumeration<$Enumeration$,$UnitType$>
+{
+$Units$
+}
