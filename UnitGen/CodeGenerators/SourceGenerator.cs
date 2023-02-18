@@ -6,31 +6,31 @@ public class SourceCodeGenerator
 {
     private const string DefaultBaseNamespace = "Jcd.Units.UnitTypes";
     private const string DefaultUnitOfMeasureNamespace = "Jcd.Units.UnitsOfMeasure";
-    private string unitTypeTemplate;
-    private string baseUnitTemplate;
-    private string derivedUnitTemplate;
-    private string enumerationTemplate;
-    private Dictionary<string, Data.System> systemLookup;
+    private readonly string? _unitTypeTemplate;
+    private readonly string? _baseUnitTemplate;
+    private readonly string? _derivedUnitTemplate;
+    private readonly string? _enumerationTemplate;
+    private Dictionary<string, Data.System> _systemLookup;
 
     public SourceCodeGenerator(IEnumerable<Data.System> systems)
     {
-        unitTypeTemplate = EmbeddedResource.ReadString("UnitType.template");
-        baseUnitTemplate = EmbeddedResource.ReadString("BaseUnit.template");
-        derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template");
-        enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template");
-        systemLookup = systems.ToDictionary(x => x.Name);
+        _unitTypeTemplate = EmbeddedResource.ReadString("UnitType.template");
+        _baseUnitTemplate = EmbeddedResource.ReadString("BaseUnit.template");
+        _derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template");
+        _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template");
+        _systemLookup = systems.ToDictionary(x => x.Name);
     }
 
     public string GenerateUnitType(UnitType unitType, string baseNamespace=DefaultBaseNamespace)
     {
-        return unitTypeTemplate
+        return _unitTypeTemplate
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$UnitTypeName$",unitType.UnitTypeName);
     }
 
     public string GenerateUnit(UnitDefinition unitDef, string baseNamespace = DefaultBaseNamespace)
     {
-        var template = unitDef.IsBaseUnit ? baseUnitTemplate : derivedUnitTemplate;
+        var template = unitDef.IsBaseUnit ? _baseUnitTemplate : _derivedUnitTemplate;
         return template
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$UnitType.TypeName$",unitDef.UnitType.UnitTypeName)
@@ -46,7 +46,7 @@ public class SourceCodeGenerator
     
     public string GenerateEnumeration(UnitDefinition unitDef, string units, string baseNamespace=DefaultUnitOfMeasureNamespace)
     {
-        return enumerationTemplate
+        return _enumerationTemplate
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$Enumeration$",unitDef.UnitType.EnumerationName)
             .Replace("$UnitType$",unitDef.UnitType.UnitTypeName)

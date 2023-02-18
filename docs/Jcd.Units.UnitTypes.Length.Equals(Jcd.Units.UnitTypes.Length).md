@@ -3,7 +3,7 @@
 
 ## Length.Equals(Length) Method
 
-Compares this `Length` to another one for equality.
+Compares this [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Length other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Length other);
 
 `other` [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length')
 
-The other `Length` to compare against.
+The other [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

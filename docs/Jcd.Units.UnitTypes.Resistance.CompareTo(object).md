@@ -3,7 +3,7 @@
 
 ## Resistance.CompareTo(object) Method
 
-Performs a relative comparison between this `Resistance` and another one.
+Performs a relative comparison between this [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') and another one.
 
 ```csharp
 public int CompareTo(object? obj);
@@ -14,7 +14,7 @@ public int CompareTo(object? obj);
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
-The `Resistance` to compare against.
+The [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
@@ -23,4 +23,4 @@ The `Resistance` to compare against.
 #### Exceptions
 
 [System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')  
-When the passed in object is not a `Resistance`
+When the passed in object is not a [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance')

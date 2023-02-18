@@ -3,7 +3,7 @@
 
 ## ElectricalConductance.GetHashCode() Method
 
-Computes the hash code for this `ElectricalConductance`
+Computes the hash code for this [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
 ```csharp
 public override int GetHashCode();

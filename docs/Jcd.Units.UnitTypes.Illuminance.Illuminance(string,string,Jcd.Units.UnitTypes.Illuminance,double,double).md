@@ -3,7 +3,7 @@
 
 ## Illuminance(string, string, Illuminance, double, double) Constructor
 
-Constructs a unit measuring a specified `Illuminance` using another Illuminance as a reference.
+Constructs a unit measuring a specified [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') using another Illuminance as a reference.
 
 ```csharp
 public Illuminance(string name, string symbol, Jcd.Units.UnitTypes.Illuminance baseUnit, double coefficient, double offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Illuminance`
+The symbol or abbreviation to represent the [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
 
 <a name='Jcd.Units.UnitTypes.Illuminance.Illuminance(string,string,Jcd.Units.UnitTypes.Illuminance,double,double).baseUnit'></a>
 

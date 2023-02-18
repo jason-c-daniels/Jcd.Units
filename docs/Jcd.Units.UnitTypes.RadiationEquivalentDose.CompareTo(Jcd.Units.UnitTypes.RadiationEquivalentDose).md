@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose.CompareTo(RadiationEquivalentDose) Method
 
-Performs a relative comparison between this `RadiationEquivalentDose` and another one.
+Performs a relative comparison between this [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.RadiationEquivalentDose other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.RadiationEquivalentDose other);
 
 `other` [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
-The `RadiationEquivalentDose` to compare against.
+The [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

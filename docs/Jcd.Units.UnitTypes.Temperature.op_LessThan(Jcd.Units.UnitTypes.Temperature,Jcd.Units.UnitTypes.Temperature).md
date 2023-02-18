@@ -3,7 +3,7 @@
 
 ## Temperature.operator <(Temperature, Temperature) Operator
 
-Compares two `Temperature` instances to determine if the left one is less than the right one.
+Compares two [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') instances to determine if the left one is less than the right one.
 
 ```csharp
 public static bool operator <(Jcd.Units.UnitTypes.Temperature left, Jcd.Units.UnitTypes.Temperature right);
@@ -14,13 +14,13 @@ public static bool operator <(Jcd.Units.UnitTypes.Temperature left, Jcd.Units.Un
 
 `left` [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
-The left `Temperature`
+The left [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
 <a name='Jcd.Units.UnitTypes.Temperature.op_LessThan(Jcd.Units.UnitTypes.Temperature,Jcd.Units.UnitTypes.Temperature).right'></a>
 
 `right` [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
-The right `Temperature`
+The right [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

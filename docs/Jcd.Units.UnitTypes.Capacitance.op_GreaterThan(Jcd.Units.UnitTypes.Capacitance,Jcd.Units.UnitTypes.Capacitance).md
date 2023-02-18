@@ -3,7 +3,7 @@
 
 ## Capacitance.operator >(Capacitance, Capacitance) Operator
 
-Compares two `Capacitance` instances to determine if the left one is greater than the right one.
+Compares two [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') instances to determine if the left one is greater than the right one.
 
 ```csharp
 public static bool operator >(Jcd.Units.UnitTypes.Capacitance left, Jcd.Units.UnitTypes.Capacitance right);
@@ -14,13 +14,13 @@ public static bool operator >(Jcd.Units.UnitTypes.Capacitance left, Jcd.Units.Un
 
 `left` [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
-The left `Capacitance`
+The left [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
 <a name='Jcd.Units.UnitTypes.Capacitance.op_GreaterThan(Jcd.Units.UnitTypes.Capacitance,Jcd.Units.UnitTypes.Capacitance).right'></a>
 
 `right` [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
-The right `Capacitance`
+The right [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

@@ -3,7 +3,7 @@
 
 ## Illuminance.Symbol Property
 
-The symbol or abbreviation to represent the `Illuminance`
+The symbol or abbreviation to represent the [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
 
 ```csharp
 public string Symbol { get; set; }

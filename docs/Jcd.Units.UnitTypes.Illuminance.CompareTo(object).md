@@ -3,7 +3,7 @@
 
 ## Illuminance.CompareTo(object) Method
 
-Performs a relative comparison between this `Illuminance` and another one.
+Performs a relative comparison between this [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') and another one.
 
 ```csharp
 public int CompareTo(object? obj);
@@ -14,7 +14,7 @@ public int CompareTo(object? obj);
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
-The `Illuminance` to compare against.
+The [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
@@ -23,4 +23,4 @@ The `Illuminance` to compare against.
 #### Exceptions
 
 [System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')  
-When the passed in object is not a `Illuminance`
+When the passed in object is not a [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')

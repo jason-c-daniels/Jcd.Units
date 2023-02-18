@@ -3,7 +3,7 @@
 
 ## Energy.Symbol Property
 
-The symbol or abbreviation to represent the `Energy`
+The symbol or abbreviation to represent the [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')
 
 ```csharp
 public string Symbol { get; set; }

@@ -3,7 +3,7 @@
 
 ## LuminousIntensity(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `LuminousIntensity`
+Constructs a unit measuring a specified [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
 ```csharp
 public LuminousIntensity(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `LuminousIntensity`
+The symbol or abbreviation to represent the [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
 <a name='Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,double,double).Coefficient'></a>
 

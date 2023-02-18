@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose.GetHashCode() Method
 
-Computes the hash code for this `RadiationEquivalentDose`
+Computes the hash code for this [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
 ```csharp
 public override int GetHashCode();

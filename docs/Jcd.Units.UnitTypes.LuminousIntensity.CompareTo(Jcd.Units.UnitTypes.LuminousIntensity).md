@@ -3,7 +3,7 @@
 
 ## LuminousIntensity.CompareTo(LuminousIntensity) Method
 
-Performs a relative comparison between this `LuminousIntensity` and another one.
+Performs a relative comparison between this [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.LuminousIntensity other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.LuminousIntensity other);
 
 `other` [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
-The `LuminousIntensity` to compare against.
+The [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

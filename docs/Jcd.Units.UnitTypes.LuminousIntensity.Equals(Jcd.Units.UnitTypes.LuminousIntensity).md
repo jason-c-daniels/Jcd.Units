@@ -3,7 +3,7 @@
 
 ## LuminousIntensity.Equals(LuminousIntensity) Method
 
-Compares this `LuminousIntensity` to another one for equality.
+Compares this [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.LuminousIntensity other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.LuminousIntensity other);
 
 `other` [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
-The other `LuminousIntensity` to compare against.
+The other [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

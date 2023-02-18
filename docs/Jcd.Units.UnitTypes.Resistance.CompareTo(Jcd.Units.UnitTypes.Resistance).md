@@ -3,7 +3,7 @@
 
 ## Resistance.CompareTo(Resistance) Method
 
-Performs a relative comparison between this `Resistance` and another one.
+Performs a relative comparison between this [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Resistance other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Resistance other);
 
 `other` [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance')
 
-The `Resistance` to compare against.
+The [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

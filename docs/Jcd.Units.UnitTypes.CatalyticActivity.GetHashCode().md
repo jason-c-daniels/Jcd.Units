@@ -3,7 +3,7 @@
 
 ## CatalyticActivity.GetHashCode() Method
 
-Computes the hash code for this `CatalyticActivity`
+Computes the hash code for this [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
 ```csharp
 public override int GetHashCode();

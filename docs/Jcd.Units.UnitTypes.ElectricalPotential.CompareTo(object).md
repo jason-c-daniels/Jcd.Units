@@ -3,7 +3,7 @@
 
 ## ElectricalPotential.CompareTo(object) Method
 
-Performs a relative comparison between this `ElectricalPotential` and another one.
+Performs a relative comparison between this [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') and another one.
 
 ```csharp
 public int CompareTo(object? obj);
@@ -14,7 +14,7 @@ public int CompareTo(object? obj);
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
-The `ElectricalPotential` to compare against.
+The [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
@@ -23,4 +23,4 @@ The `ElectricalPotential` to compare against.
 #### Exceptions
 
 [System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')  
-When the passed in object is not a `ElectricalPotential`
+When the passed in object is not a [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')

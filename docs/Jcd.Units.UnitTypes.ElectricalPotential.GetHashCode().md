@@ -3,7 +3,7 @@
 
 ## ElectricalPotential.GetHashCode() Method
 
-Computes the hash code for this `ElectricalPotential`
+Computes the hash code for this [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
 
 ```csharp
 public override int GetHashCode();

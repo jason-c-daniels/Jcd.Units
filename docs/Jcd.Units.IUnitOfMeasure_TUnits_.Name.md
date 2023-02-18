@@ -3,7 +3,7 @@
 
 ## IUnitOfMeasure<TUnits>.Name Property
 
-The friendly name of the unit of measure. (e.g. Ronnasecond)
+The friendly name of the unit of measure. (e.g. millisecond)
 
 ```csharp
 string Name { get; }

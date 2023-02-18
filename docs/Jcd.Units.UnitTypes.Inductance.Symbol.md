@@ -3,7 +3,7 @@
 
 ## Inductance.Symbol Property
 
-The symbol or abbreviation to represent the `Inductance`
+The symbol or abbreviation to represent the [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
 ```csharp
 public string Symbol { get; set; }

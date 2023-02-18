@@ -3,7 +3,7 @@
 
 ## Temperature.GetHashCode() Method
 
-Computes the hash code for this `Temperature`
+Computes the hash code for this [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
 ```csharp
 public override int GetHashCode();

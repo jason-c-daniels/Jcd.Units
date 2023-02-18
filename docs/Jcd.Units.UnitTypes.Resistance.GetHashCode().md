@@ -3,7 +3,7 @@
 
 ## Resistance.GetHashCode() Method
 
-Computes the hash code for this `Resistance`
+Computes the hash code for this [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance')
 
 ```csharp
 public override int GetHashCode();

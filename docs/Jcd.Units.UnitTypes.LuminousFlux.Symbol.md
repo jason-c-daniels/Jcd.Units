@@ -3,7 +3,7 @@
 
 ## LuminousFlux.Symbol Property
 
-The symbol or abbreviation to represent the `LuminousFlux`
+The symbol or abbreviation to represent the [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
 
 ```csharp
 public string Symbol { get; set; }

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `RadiationEquivalentDose`
+Constructs a unit measuring a specified [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
 ```csharp
 public RadiationEquivalentDose(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `RadiationEquivalentDose`
+The symbol or abbreviation to represent the [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
 <a name='Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string,string,double,double).Coefficient'></a>
 

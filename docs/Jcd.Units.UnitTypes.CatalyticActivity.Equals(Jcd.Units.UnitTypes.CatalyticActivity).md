@@ -3,7 +3,7 @@
 
 ## CatalyticActivity.Equals(CatalyticActivity) Method
 
-Compares this `CatalyticActivity` to another one for equality.
+Compares this [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.CatalyticActivity other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.CatalyticActivity other);
 
 `other` [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
-The other `CatalyticActivity` to compare against.
+The other [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

@@ -3,7 +3,7 @@
 
 ## ElectricalCharge.GetHashCode() Method
 
-Computes the hash code for this `ElectricalCharge`
+Computes the hash code for this [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
 ```csharp
 public override int GetHashCode();

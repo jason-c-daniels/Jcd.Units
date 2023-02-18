@@ -3,7 +3,7 @@
 
 ## CatalyticActivity.operator >=(CatalyticActivity, CatalyticActivity) Operator
 
-Compares two `CatalyticActivity` instances to determine if the left one is greater than or equal to the right one.
+Compares two [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') instances to determine if the left one is greater than or equal to the right one.
 
 ```csharp
 public static bool operator >=(Jcd.Units.UnitTypes.CatalyticActivity left, Jcd.Units.UnitTypes.CatalyticActivity right);
@@ -14,13 +14,13 @@ public static bool operator >=(Jcd.Units.UnitTypes.CatalyticActivity left, Jcd.U
 
 `left` [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
-The left `CatalyticActivity`
+The left [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
 <a name='Jcd.Units.UnitTypes.CatalyticActivity.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity).right'></a>
 
 `right` [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
-The right `CatalyticActivity`
+The right [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

@@ -3,7 +3,7 @@
 
 ## Mass.Symbol Property
 
-The symbol or abbreviation to represent the `Mass`
+The symbol or abbreviation to represent the [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
 ```csharp
 public string Symbol { get; set; }

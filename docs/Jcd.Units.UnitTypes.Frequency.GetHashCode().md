@@ -3,7 +3,7 @@
 
 ## Frequency.GetHashCode() Method
 
-Computes the hash code for this `Frequency`
+Computes the hash code for this [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
 ```csharp
 public override int GetHashCode();

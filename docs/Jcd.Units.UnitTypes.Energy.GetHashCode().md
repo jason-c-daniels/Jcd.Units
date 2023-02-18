@@ -3,7 +3,7 @@
 
 ## Energy.GetHashCode() Method
 
-Computes the hash code for this `Energy`
+Computes the hash code for this [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')
 
 ```csharp
 public override int GetHashCode();

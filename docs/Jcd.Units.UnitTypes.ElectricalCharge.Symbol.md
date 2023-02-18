@@ -3,7 +3,7 @@
 
 ## ElectricalCharge.Symbol Property
 
-The symbol or abbreviation to represent the `ElectricalCharge`
+The symbol or abbreviation to represent the [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
 ```csharp
 public string Symbol { get; set; }

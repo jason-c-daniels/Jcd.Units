@@ -3,7 +3,7 @@
 
 ## Duration.operator <=(Duration, Duration) Operator
 
-Compares two `Duration` instances to determine if the left one is less than or equal to the right one.
+Compares two [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') instances to determine if the left one is less than or equal to the right one.
 
 ```csharp
 public static bool operator <=(Jcd.Units.UnitTypes.Duration left, Jcd.Units.UnitTypes.Duration right);
@@ -14,13 +14,13 @@ public static bool operator <=(Jcd.Units.UnitTypes.Duration left, Jcd.Units.Unit
 
 `left` [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
 
-The left `Duration`
+The left [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
 
 <a name='Jcd.Units.UnitTypes.Duration.op_LessThanOrEqual(Jcd.Units.UnitTypes.Duration,Jcd.Units.UnitTypes.Duration).right'></a>
 
 `right` [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
 
-The right `Duration`
+The right [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

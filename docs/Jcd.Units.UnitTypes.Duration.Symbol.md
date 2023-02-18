@@ -3,7 +3,7 @@
 
 ## Duration.Symbol Property
 
-The symbol or abbreviation to represent the `Duration`
+The symbol or abbreviation to represent the [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
 
 ```csharp
 public string Symbol { get; set; }

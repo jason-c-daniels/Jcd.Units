@@ -3,7 +3,7 @@
 
 ## Inductance.CompareTo(Inductance) Method
 
-Performs a relative comparison between this `Inductance` and another one.
+Performs a relative comparison between this [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Inductance other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Inductance other);
 
 `other` [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
-The `Inductance` to compare against.
+The [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

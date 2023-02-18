@@ -3,7 +3,7 @@
 
 ## LuminousIntensity.GetHashCode() Method
 
-Computes the hash code for this `LuminousIntensity`
+Computes the hash code for this [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
 ```csharp
 public override int GetHashCode();

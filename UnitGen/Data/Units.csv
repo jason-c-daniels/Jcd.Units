@@ -2,7 +2,7 @@ System,Unit Type,Unit Name,Unit Symbol,Uses Prefixes,Base Unit System,Base Unit,
 Astronomy,Length,light-year,ly,True,SI,meter,9_460_730_472_580_800,0,1
 Astronomy,Length,light-second,l-sec,False,SI,meter,299_792_458,0,2
 Astronomy,Length,light-minute,l-min,False,Astronomy,light-second,60,0,3
-Astronomy,Length,astronomical unit,AU,False,Astronomy,kilometer,149597870.691,0,4
+Astronomy,Length,astronomical unit,AU,False,SI,kilometer,149597870.691,0,4
 Astronomy,Length,light-hour,l-hr,False,Astronomy,light-minute,60,0,5
 Astronomy,Length,light-day,l-dy,False,Astronomy,light-hour,24,0,6
 Astronomy,Length,light-week,l-wk,False,Astronomy,light-day,7,0,7

@@ -3,7 +3,7 @@
 
 ## ElectricalCharge.CompareTo(ElectricalCharge) Method
 
-Performs a relative comparison between this `ElectricalCharge` and another one.
+Performs a relative comparison between this [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.ElectricalCharge other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.ElectricalCharge other);
 
 `other` [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
-The `ElectricalCharge` to compare against.
+The [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

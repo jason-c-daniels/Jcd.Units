@@ -3,7 +3,7 @@
 
 ## Length.GetHashCode() Method
 
-Computes the hash code for this `Length`
+Computes the hash code for this [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length')
 
 ```csharp
 public override int GetHashCode();

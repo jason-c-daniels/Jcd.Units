@@ -3,7 +3,7 @@
 
 ## Length.Symbol Property
 
-The symbol or abbreviation to represent the `Length`
+The symbol or abbreviation to represent the [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length')
 
 ```csharp
 public string Symbol { get; set; }

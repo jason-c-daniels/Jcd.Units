@@ -3,7 +3,7 @@
 
 ## Frequency.Symbol Property
 
-The symbol or abbreviation to represent the `Frequency`
+The symbol or abbreviation to represent the [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
 ```csharp
 public string Symbol { get; set; }

@@ -3,7 +3,7 @@
 
 ## MagneticFlux.GetHashCode() Method
 
-Computes the hash code for this `MagneticFlux`
+Computes the hash code for this [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
 
 ```csharp
 public override int GetHashCode();

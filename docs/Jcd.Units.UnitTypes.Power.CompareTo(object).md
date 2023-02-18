@@ -3,7 +3,7 @@
 
 ## Power.CompareTo(object) Method
 
-Performs a relative comparison between this `Power` and another one.
+Performs a relative comparison between this [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') and another one.
 
 ```csharp
 public int CompareTo(object? obj);
@@ -14,7 +14,7 @@ public int CompareTo(object? obj);
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
-The `Power` to compare against.
+The [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
@@ -23,4 +23,4 @@ The `Power` to compare against.
 #### Exceptions
 
 [System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')  
-When the passed in object is not a `Power`
+When the passed in object is not a [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power')

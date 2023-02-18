@@ -3,7 +3,7 @@
 
 ## ElectricalCharge(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `ElectricalCharge`
+Constructs a unit measuring a specified [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
 ```csharp
 public ElectricalCharge(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `ElectricalCharge`
+The symbol or abbreviation to represent the [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
 <a name='Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string,string,double,double).Coefficient'></a>
 

@@ -3,7 +3,7 @@
 
 ## Force.GetHashCode() Method
 
-Computes the hash code for this `Force`
+Computes the hash code for this [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force')
 
 ```csharp
 public override int GetHashCode();

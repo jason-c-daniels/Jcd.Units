@@ -3,7 +3,7 @@
 
 ## Length(string, string, Length, double, double) Constructor
 
-Constructs a unit measuring a specified `Length` using another Length as a reference.
+Constructs a unit measuring a specified [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') using another Length as a reference.
 
 ```csharp
 public Length(string name, string symbol, Jcd.Units.UnitTypes.Length baseUnit, double coefficient, double offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Length`
+The symbol or abbreviation to represent the [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length')
 
 <a name='Jcd.Units.UnitTypes.Length.Length(string,string,Jcd.Units.UnitTypes.Length,double,double).baseUnit'></a>
 

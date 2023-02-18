@@ -3,7 +3,7 @@
 
 ## Force.Equals(Force) Method
 
-Compares this `Force` to another one for equality.
+Compares this [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Force other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Force other);
 
 `other` [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force')
 
-The other `Force` to compare against.
+The other [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

@@ -3,7 +3,7 @@
 
 ## Duration.GetHashCode() Method
 
-Computes the hash code for this `Duration`
+Computes the hash code for this [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
 
 ```csharp
 public override int GetHashCode();

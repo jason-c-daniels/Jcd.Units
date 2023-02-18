@@ -3,7 +3,7 @@
 
 ## Length.CompareTo(Length) Method
 
-Performs a relative comparison between this `Length` and another one.
+Performs a relative comparison between this [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Length other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Length other);
 
 `other` [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length')
 
-The `Length` to compare against.
+The [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

@@ -3,7 +3,7 @@
 
 ## Temperature(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `Temperature`
+Constructs a unit measuring a specified [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
 ```csharp
 public Temperature(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Temperature`
+The symbol or abbreviation to represent the [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
 <a name='Jcd.Units.UnitTypes.Temperature.Temperature(string,string,double,double).Coefficient'></a>
 

@@ -3,7 +3,7 @@
 
 ## Mass.GetHashCode() Method
 
-Computes the hash code for this `Mass`
+Computes the hash code for this [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
 ```csharp
 public override int GetHashCode();

@@ -3,7 +3,7 @@
 
 ## Capacitance(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `Capacitance`
+Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
 ```csharp
 public Capacitance(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Capacitance`
+The symbol or abbreviation to represent the [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
 <a name='Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,double,double).Coefficient'></a>
 

@@ -3,7 +3,7 @@
 
 ## ElectricalCurrent.CompareTo(ElectricalCurrent) Method
 
-Performs a relative comparison between this `ElectricalCurrent` and another one.
+Performs a relative comparison between this [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.ElectricalCurrent other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.ElectricalCurrent other);
 
 `other` [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
-The `ElectricalCurrent` to compare against.
+The [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

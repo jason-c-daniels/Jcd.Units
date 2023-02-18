@@ -3,7 +3,7 @@
 
 ## Resistance(string, string, Resistance, double, double) Constructor
 
-Constructs a unit measuring a specified `Resistance` using another Resistance as a reference.
+Constructs a unit measuring a specified [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') using another Resistance as a reference.
 
 ```csharp
 public Resistance(string name, string symbol, Jcd.Units.UnitTypes.Resistance baseUnit, double coefficient, double offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Resistance`
+The symbol or abbreviation to represent the [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance')
 
 <a name='Jcd.Units.UnitTypes.Resistance.Resistance(string,string,Jcd.Units.UnitTypes.Resistance,double,double).baseUnit'></a>
 

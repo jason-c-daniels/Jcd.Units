@@ -3,7 +3,7 @@
 
 ## Frequency.CompareTo(Frequency) Method
 
-Performs a relative comparison between this `Frequency` and another one.
+Performs a relative comparison between this [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Frequency other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Frequency other);
 
 `other` [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
-The `Frequency` to compare against.
+The [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

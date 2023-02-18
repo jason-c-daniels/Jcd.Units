@@ -3,7 +3,7 @@
 
 ## MagneticFlux(string, string, MagneticFlux, double, double) Constructor
 
-Constructs a unit measuring a specified `MagneticFlux` using another MagneticFlux as a reference.
+Constructs a unit measuring a specified [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') using another MagneticFlux as a reference.
 
 ```csharp
 public MagneticFlux(string name, string symbol, Jcd.Units.UnitTypes.MagneticFlux baseUnit, double coefficient, double offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `MagneticFlux`
+The symbol or abbreviation to represent the [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
 
 <a name='Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string,string,Jcd.Units.UnitTypes.MagneticFlux,double,double).baseUnit'></a>
 

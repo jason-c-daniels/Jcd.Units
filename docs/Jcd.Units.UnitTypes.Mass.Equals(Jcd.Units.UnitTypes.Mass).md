@@ -3,7 +3,7 @@
 
 ## Mass.Equals(Mass) Method
 
-Compares this `Mass` to another one for equality.
+Compares this [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Mass other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Mass other);
 
 `other` [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
-The other `Mass` to compare against.
+The other [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

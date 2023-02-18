@@ -3,7 +3,7 @@
 
 ## LuminousFlux.Equals(LuminousFlux) Method
 
-Compares this `LuminousFlux` to another one for equality.
+Compares this [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.LuminousFlux other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.LuminousFlux other);
 
 `other` [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
 
-The other `LuminousFlux` to compare against.
+The other [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

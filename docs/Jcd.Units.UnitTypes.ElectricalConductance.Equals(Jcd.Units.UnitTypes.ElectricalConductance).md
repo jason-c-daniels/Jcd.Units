@@ -3,7 +3,7 @@
 
 ## ElectricalConductance.Equals(ElectricalConductance) Method
 
-Compares this `ElectricalConductance` to another one for equality.
+Compares this [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.ElectricalConductance other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.ElectricalConductance other);
 
 `other` [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
-The other `ElectricalConductance` to compare against.
+The other [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

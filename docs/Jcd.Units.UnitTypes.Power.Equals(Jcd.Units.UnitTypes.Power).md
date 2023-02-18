@@ -3,7 +3,7 @@
 
 ## Power.Equals(Power) Method
 
-Compares this `Power` to another one for equality.
+Compares this [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Power other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Power other);
 
 `other` [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power')
 
-The other `Power` to compare against.
+The other [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

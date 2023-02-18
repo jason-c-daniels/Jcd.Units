@@ -3,7 +3,7 @@
 
 ## Inductance.Equals(Inductance) Method
 
-Compares this `Inductance` to another one for equality.
+Compares this [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Inductance other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Inductance other);
 
 `other` [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
-The other `Inductance` to compare against.
+The other [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

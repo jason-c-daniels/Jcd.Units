@@ -3,7 +3,7 @@
 
 ## Mass.operator <(Mass, Mass) Operator
 
-Compares two `Mass` instances to determine if the left one is less than the right one.
+Compares two [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') instances to determine if the left one is less than the right one.
 
 ```csharp
 public static bool operator <(Jcd.Units.UnitTypes.Mass left, Jcd.Units.UnitTypes.Mass right);
@@ -14,13 +14,13 @@ public static bool operator <(Jcd.Units.UnitTypes.Mass left, Jcd.Units.UnitTypes
 
 `left` [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
-The left `Mass`
+The left [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
 <a name='Jcd.Units.UnitTypes.Mass.op_LessThan(Jcd.Units.UnitTypes.Mass,Jcd.Units.UnitTypes.Mass).right'></a>
 
 `right` [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
-The right `Mass`
+The right [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

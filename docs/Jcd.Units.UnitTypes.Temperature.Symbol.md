@@ -3,7 +3,7 @@
 
 ## Temperature.Symbol Property
 
-The symbol or abbreviation to represent the `Temperature`
+The symbol or abbreviation to represent the [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
 ```csharp
 public string Symbol { get; set; }

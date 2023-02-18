@@ -3,7 +3,7 @@
 
 ## Inductance(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `Inductance`
+Constructs a unit measuring a specified [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
 ```csharp
 public Inductance(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Inductance`
+The symbol or abbreviation to represent the [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
 <a name='Jcd.Units.UnitTypes.Inductance.Inductance(string,string,double,double).Coefficient'></a>
 

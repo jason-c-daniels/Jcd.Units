@@ -3,7 +3,7 @@
 
 ## Capacitance.GetHashCode() Method
 
-Computes the hash code for this `Capacitance`
+Computes the hash code for this [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
 ```csharp
 public override int GetHashCode();

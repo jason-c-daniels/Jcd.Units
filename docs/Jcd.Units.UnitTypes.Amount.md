@@ -6,7 +6,7 @@
 Constructs a unit measuring a specified [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
 ```csharp
-public struct Amount :
+public readonly struct Amount :
 Jcd.Units.IUnitOfMeasure<Jcd.Units.UnitTypes.Amount>
 ```
 

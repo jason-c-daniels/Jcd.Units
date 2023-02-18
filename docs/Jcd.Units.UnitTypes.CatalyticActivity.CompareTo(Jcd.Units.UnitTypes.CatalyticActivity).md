@@ -3,7 +3,7 @@
 
 ## CatalyticActivity.CompareTo(CatalyticActivity) Method
 
-Performs a relative comparison between this `CatalyticActivity` and another one.
+Performs a relative comparison between this [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.CatalyticActivity other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.CatalyticActivity other);
 
 `other` [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
-The `CatalyticActivity` to compare against.
+The [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

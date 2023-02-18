@@ -3,7 +3,7 @@
 
 ## MagneticFlux.operator <=(MagneticFlux, MagneticFlux) Operator
 
-Compares two `MagneticFlux` instances to determine if the left one is less than or equal to the right one.
+Compares two [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') instances to determine if the left one is less than or equal to the right one.
 
 ```csharp
 public static bool operator <=(Jcd.Units.UnitTypes.MagneticFlux left, Jcd.Units.UnitTypes.MagneticFlux right);
@@ -14,13 +14,13 @@ public static bool operator <=(Jcd.Units.UnitTypes.MagneticFlux left, Jcd.Units.
 
 `left` [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
 
-The left `MagneticFlux`
+The left [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
 
 <a name='Jcd.Units.UnitTypes.MagneticFlux.op_LessThanOrEqual(Jcd.Units.UnitTypes.MagneticFlux,Jcd.Units.UnitTypes.MagneticFlux).right'></a>
 
 `right` [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
 
-The right `MagneticFlux`
+The right [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

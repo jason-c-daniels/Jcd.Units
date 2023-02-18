@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose.Equals(RadiationEquivalentDose) Method
 
-Compares this `RadiationEquivalentDose` to another one for equality.
+Compares this [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.RadiationEquivalentDose other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.RadiationEquivalentDose other);
 
 `other` [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
-The other `RadiationEquivalentDose` to compare against.
+The other [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

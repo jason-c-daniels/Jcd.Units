@@ -3,7 +3,7 @@
 
 ## RadioactiveDecay.Symbol Property
 
-The symbol or abbreviation to represent the `RadioactiveDecay`
+The symbol or abbreviation to represent the [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
 
 ```csharp
 public string Symbol { get; set; }

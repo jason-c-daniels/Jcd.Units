@@ -3,7 +3,7 @@
 
 ## ElectricalConductance.operator <(ElectricalConductance, ElectricalConductance) Operator
 
-Compares two `ElectricalConductance` instances to determine if the left one is less than the right one.
+Compares two [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') instances to determine if the left one is less than the right one.
 
 ```csharp
 public static bool operator <(Jcd.Units.UnitTypes.ElectricalConductance left, Jcd.Units.UnitTypes.ElectricalConductance right);
@@ -14,13 +14,13 @@ public static bool operator <(Jcd.Units.UnitTypes.ElectricalConductance left, Jc
 
 `left` [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
-The left `ElectricalConductance`
+The left [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
 <a name='Jcd.Units.UnitTypes.ElectricalConductance.op_LessThan(Jcd.Units.UnitTypes.ElectricalConductance,Jcd.Units.UnitTypes.ElectricalConductance).right'></a>
 
 `right` [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
-The right `ElectricalConductance`
+The right [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

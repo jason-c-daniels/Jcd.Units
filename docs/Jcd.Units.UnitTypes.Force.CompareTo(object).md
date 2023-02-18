@@ -3,7 +3,7 @@
 
 ## Force.CompareTo(object) Method
 
-Performs a relative comparison between this `Force` and another one.
+Performs a relative comparison between this [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') and another one.
 
 ```csharp
 public int CompareTo(object? obj);
@@ -14,7 +14,7 @@ public int CompareTo(object? obj);
 
 `obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
-The `Force` to compare against.
+The [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
@@ -23,4 +23,4 @@ The `Force` to compare against.
 #### Exceptions
 
 [System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')  
-When the passed in object is not a `Force`
+When the passed in object is not a [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force')

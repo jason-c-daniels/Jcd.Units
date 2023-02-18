@@ -3,7 +3,7 @@
 
 ## Inductance.operator >=(Inductance, Inductance) Operator
 
-Compares two `Inductance` instances to determine if the left one is greater than or equal to the right one.
+Compares two [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') instances to determine if the left one is greater than or equal to the right one.
 
 ```csharp
 public static bool operator >=(Jcd.Units.UnitTypes.Inductance left, Jcd.Units.UnitTypes.Inductance right);
@@ -14,13 +14,13 @@ public static bool operator >=(Jcd.Units.UnitTypes.Inductance left, Jcd.Units.Un
 
 `left` [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
-The left `Inductance`
+The left [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
 <a name='Jcd.Units.UnitTypes.Inductance.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Inductance,Jcd.Units.UnitTypes.Inductance).right'></a>
 
 `right` [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
-The right `Inductance`
+The right [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecay(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `RadioactiveDecay`
+Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
 
 ```csharp
 public RadioactiveDecay(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `RadioactiveDecay`
+The symbol or abbreviation to represent the [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
 
 <a name='Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string,string,double,double).Coefficient'></a>
 

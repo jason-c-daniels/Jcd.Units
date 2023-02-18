@@ -3,7 +3,7 @@
 
 ## Force(string, string, Force, double, double) Constructor
 
-Constructs a unit measuring a specified `Force` using another Force as a reference.
+Constructs a unit measuring a specified [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') using another Force as a reference.
 
 ```csharp
 public Force(string name, string symbol, Jcd.Units.UnitTypes.Force baseUnit, double coefficient, double offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Force`
+The symbol or abbreviation to represent the [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force')
 
 <a name='Jcd.Units.UnitTypes.Force.Force(string,string,Jcd.Units.UnitTypes.Force,double,double).baseUnit'></a>
 

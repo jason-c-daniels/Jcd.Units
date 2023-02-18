@@ -3,7 +3,7 @@
 
 ## Temperature.CompareTo(Temperature) Method
 
-Performs a relative comparison between this `Temperature` and another one.
+Performs a relative comparison between this [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Temperature other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Temperature other);
 
 `other` [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
-The `Temperature` to compare against.
+The [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

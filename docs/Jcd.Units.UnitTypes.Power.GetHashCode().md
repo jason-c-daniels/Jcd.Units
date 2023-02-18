@@ -3,7 +3,7 @@
 
 ## Power.GetHashCode() Method
 
-Computes the hash code for this `Power`
+Computes the hash code for this [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power')
 
 ```csharp
 public override int GetHashCode();

@@ -3,7 +3,7 @@
 
 ## LuminousFlux.GetHashCode() Method
 
-Computes the hash code for this `LuminousFlux`
+Computes the hash code for this [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
 
 ```csharp
 public override int GetHashCode();

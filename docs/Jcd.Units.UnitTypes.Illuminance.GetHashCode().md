@@ -3,7 +3,7 @@
 
 ## Illuminance.GetHashCode() Method
 
-Computes the hash code for this `Illuminance`
+Computes the hash code for this [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
 
 ```csharp
 public override int GetHashCode();

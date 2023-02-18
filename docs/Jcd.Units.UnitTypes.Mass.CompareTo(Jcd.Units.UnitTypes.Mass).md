@@ -3,7 +3,7 @@
 
 ## Mass.CompareTo(Mass) Method
 
-Performs a relative comparison between this `Mass` and another one.
+Performs a relative comparison between this [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Mass other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Mass other);
 
 `other` [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
-The `Mass` to compare against.
+The [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

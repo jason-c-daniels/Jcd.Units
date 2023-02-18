@@ -3,7 +3,7 @@
 
 ## Temperature.Equals(Temperature) Method
 
-Compares this `Temperature` to another one for equality.
+Compares this [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Temperature other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Temperature other);
 
 `other` [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
-The other `Temperature` to compare against.
+The other [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

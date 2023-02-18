@@ -3,7 +3,7 @@
 
 ## Pressure.Symbol Property
 
-The symbol or abbreviation to represent the `Pressure`
+The symbol or abbreviation to represent the [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure')
 
 ```csharp
 public string Symbol { get; set; }

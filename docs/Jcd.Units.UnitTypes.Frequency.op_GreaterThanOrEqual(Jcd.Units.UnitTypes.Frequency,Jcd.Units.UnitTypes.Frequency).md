@@ -3,7 +3,7 @@
 
 ## Frequency.operator >=(Frequency, Frequency) Operator
 
-Compares two `Frequency` instances to determine if the left one is greater than or equal to the right one.
+Compares two [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') instances to determine if the left one is greater than or equal to the right one.
 
 ```csharp
 public static bool operator >=(Jcd.Units.UnitTypes.Frequency left, Jcd.Units.UnitTypes.Frequency right);
@@ -14,13 +14,13 @@ public static bool operator >=(Jcd.Units.UnitTypes.Frequency left, Jcd.Units.Uni
 
 `left` [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
-The left `Frequency`
+The left [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
 <a name='Jcd.Units.UnitTypes.Frequency.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.Frequency,Jcd.Units.UnitTypes.Frequency).right'></a>
 
 `right` [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
-The right `Frequency`
+The right [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

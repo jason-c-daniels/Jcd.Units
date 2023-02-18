@@ -3,7 +3,7 @@
 
 ## ElectricalCharge.Equals(ElectricalCharge) Method
 
-Compares this `ElectricalCharge` to another one for equality.
+Compares this [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.ElectricalCharge other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.ElectricalCharge other);
 
 `other` [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
-The other `ElectricalCharge` to compare against.
+The other [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

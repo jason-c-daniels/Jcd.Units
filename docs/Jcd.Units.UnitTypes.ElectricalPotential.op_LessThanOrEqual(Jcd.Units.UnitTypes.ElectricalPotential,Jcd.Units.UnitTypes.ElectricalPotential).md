@@ -3,7 +3,7 @@
 
 ## ElectricalPotential.operator <=(ElectricalPotential, ElectricalPotential) Operator
 
-Compares two `ElectricalPotential` instances to determine if the left one is less than or equal to the right one.
+Compares two [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') instances to determine if the left one is less than or equal to the right one.
 
 ```csharp
 public static bool operator <=(Jcd.Units.UnitTypes.ElectricalPotential left, Jcd.Units.UnitTypes.ElectricalPotential right);
@@ -14,13 +14,13 @@ public static bool operator <=(Jcd.Units.UnitTypes.ElectricalPotential left, Jcd
 
 `left` [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
 
-The left `ElectricalPotential`
+The left [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
 
 <a name='Jcd.Units.UnitTypes.ElectricalPotential.op_LessThanOrEqual(Jcd.Units.UnitTypes.ElectricalPotential,Jcd.Units.UnitTypes.ElectricalPotential).right'></a>
 
 `right` [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
 
-The right `ElectricalPotential`
+The right [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

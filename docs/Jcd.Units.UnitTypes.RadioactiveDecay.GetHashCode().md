@@ -3,7 +3,7 @@
 
 ## RadioactiveDecay.GetHashCode() Method
 
-Computes the hash code for this `RadioactiveDecay`
+Computes the hash code for this [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
 
 ```csharp
 public override int GetHashCode();

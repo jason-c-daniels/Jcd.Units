@@ -1,4 +1,4 @@
-﻿#define WRITE_TO_CONSOLE
+﻿//#define WRITE_TO_CONSOLE
 
 using System.Reflection;
 using System.Text;

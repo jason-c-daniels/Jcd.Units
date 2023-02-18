@@ -3,7 +3,7 @@
 
 ## Capacitance.Equals(Capacitance) Method
 
-Compares this `Capacitance` to another one for equality.
+Compares this [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Capacitance other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Capacitance other);
 
 `other` [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
-The other `Capacitance` to compare against.
+The other [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

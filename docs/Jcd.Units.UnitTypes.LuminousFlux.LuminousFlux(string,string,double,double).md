@@ -3,7 +3,7 @@
 
 ## LuminousFlux(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `LuminousFlux`
+Constructs a unit measuring a specified [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
 
 ```csharp
 public LuminousFlux(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `LuminousFlux`
+The symbol or abbreviation to represent the [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
 
 <a name='Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string,string,double,double).Coefficient'></a>
 

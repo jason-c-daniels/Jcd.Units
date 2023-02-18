@@ -3,7 +3,7 @@
 
 ## Frequency(string, string, Frequency, double, double) Constructor
 
-Constructs a unit measuring a specified `Frequency` using another Frequency as a reference.
+Constructs a unit measuring a specified [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another Frequency as a reference.
 
 ```csharp
 public Frequency(string name, string symbol, Jcd.Units.UnitTypes.Frequency baseUnit, double coefficient, double offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Frequency`
+The symbol or abbreviation to represent the [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
 
 <a name='Jcd.Units.UnitTypes.Frequency.Frequency(string,string,Jcd.Units.UnitTypes.Frequency,double,double).baseUnit'></a>
 

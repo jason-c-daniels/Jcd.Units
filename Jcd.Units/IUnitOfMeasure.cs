@@ -10,12 +10,12 @@ namespace Jcd.Units;
 /// By ensuring that all units of measure provide their own type to the interface
 /// we guarantee compile time detection of certain classes of errors.
 /// </remarks>
-public interface IUnitOfMeasure<TUnits>
+public interface IUnitOfMeasure<in TUnits>
     : IComparable<TUnits>,
       IComparable
 {
     /// <summary>
-    /// The friendly name of the unit of measure. (e.g. Ronnasecond)
+    /// The friendly name of the unit of measure. (e.g. millisecond)
     /// </summary>
     string Name { get; }
     

@@ -3,7 +3,7 @@
 
 ## ElectricalCurrent.Equals(ElectricalCurrent) Method
 
-Compares this `ElectricalCurrent` to another one for equality.
+Compares this [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.ElectricalCurrent other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.ElectricalCurrent other);
 
 `other` [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
-The other `ElectricalCurrent` to compare against.
+The other [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

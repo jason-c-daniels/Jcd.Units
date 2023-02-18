@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensity.CompareTo(MagneticFluxDensity) Method
 
-Performs a relative comparison between this `MagneticFluxDensity` and another one.
+Performs a relative comparison between this [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.MagneticFluxDensity other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.MagneticFluxDensity other);
 
 `other` [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')
 
-The `MagneticFluxDensity` to compare against.
+The [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

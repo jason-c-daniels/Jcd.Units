@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDose(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `RadiationAbsorbedDose`
+Constructs a unit measuring a specified [RadiationAbsorbedDose](Jcd.Units.UnitTypes.RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose')
 
 ```csharp
 public RadiationAbsorbedDose(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `RadiationAbsorbedDose`
+The symbol or abbreviation to represent the [RadiationAbsorbedDose](Jcd.Units.UnitTypes.RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose')
 
 <a name='Jcd.Units.UnitTypes.RadiationAbsorbedDose.RadiationAbsorbedDose(string,string,double,double).Coefficient'></a>
 

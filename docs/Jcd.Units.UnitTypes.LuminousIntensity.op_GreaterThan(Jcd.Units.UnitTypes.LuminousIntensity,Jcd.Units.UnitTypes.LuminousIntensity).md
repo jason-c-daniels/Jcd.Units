@@ -3,7 +3,7 @@
 
 ## LuminousIntensity.operator >(LuminousIntensity, LuminousIntensity) Operator
 
-Compares two `LuminousIntensity` instances to determine if the left one is greater than the right one.
+Compares two [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') instances to determine if the left one is greater than the right one.
 
 ```csharp
 public static bool operator >(Jcd.Units.UnitTypes.LuminousIntensity left, Jcd.Units.UnitTypes.LuminousIntensity right);
@@ -14,13 +14,13 @@ public static bool operator >(Jcd.Units.UnitTypes.LuminousIntensity left, Jcd.Un
 
 `left` [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
-The left `LuminousIntensity`
+The left [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
 <a name='Jcd.Units.UnitTypes.LuminousIntensity.op_GreaterThan(Jcd.Units.UnitTypes.LuminousIntensity,Jcd.Units.UnitTypes.LuminousIntensity).right'></a>
 
 `right` [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
-The right `LuminousIntensity`
+The right [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

@@ -3,7 +3,7 @@
 
 ## ElectricalConductance.CompareTo(ElectricalConductance) Method
 
-Performs a relative comparison between this `ElectricalConductance` and another one.
+Performs a relative comparison between this [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.ElectricalConductance other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.ElectricalConductance other);
 
 `other` [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
-The `ElectricalConductance` to compare against.
+The [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

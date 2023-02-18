@@ -3,7 +3,7 @@
 
 ## Capacitance.Symbol Property
 
-The symbol or abbreviation to represent the `Capacitance`
+The symbol or abbreviation to represent the [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
 ```csharp
 public string Symbol { get; set; }

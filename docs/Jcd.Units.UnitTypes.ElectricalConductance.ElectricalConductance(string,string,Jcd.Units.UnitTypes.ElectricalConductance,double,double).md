@@ -3,7 +3,7 @@
 
 ## ElectricalConductance(string, string, ElectricalConductance, double, double) Constructor
 
-Constructs a unit measuring a specified `ElectricalConductance` using another ElectricalConductance as a reference.
+Constructs a unit measuring a specified [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') using another ElectricalConductance as a reference.
 
 ```csharp
 public ElectricalConductance(string name, string symbol, Jcd.Units.UnitTypes.ElectricalConductance baseUnit, double coefficient, double offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `ElectricalConductance`
+The symbol or abbreviation to represent the [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
 <a name='Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double).baseUnit'></a>
 

@@ -3,7 +3,7 @@
 
 ## Power.Symbol Property
 
-The symbol or abbreviation to represent the `Power`
+The symbol or abbreviation to represent the [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power')
 
 ```csharp
 public string Symbol { get; set; }

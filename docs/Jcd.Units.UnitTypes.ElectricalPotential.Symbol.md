@@ -3,7 +3,7 @@
 
 ## ElectricalPotential.Symbol Property
 
-The symbol or abbreviation to represent the `ElectricalPotential`
+The symbol or abbreviation to represent the [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
 
 ```csharp
 public string Symbol { get; set; }

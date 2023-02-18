@@ -3,7 +3,7 @@
 
 ## LuminousIntensity.Symbol Property
 
-The symbol or abbreviation to represent the `LuminousIntensity`
+The symbol or abbreviation to represent the [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
 
 ```csharp
 public string Symbol { get; set; }

@@ -3,7 +3,7 @@
 
 ## ElectricalPotential.Equals(ElectricalPotential) Method
 
-Compares this `ElectricalPotential` to another one for equality.
+Compares this [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.ElectricalPotential other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.ElectricalPotential other);
 
 `other` [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
 
-The other `ElectricalPotential` to compare against.
+The other [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

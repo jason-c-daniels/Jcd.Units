@@ -3,7 +3,7 @@
 
 ## Resistance.Symbol Property
 
-The symbol or abbreviation to represent the `Resistance`
+The symbol or abbreviation to represent the [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance')
 
 ```csharp
 public string Symbol { get; set; }

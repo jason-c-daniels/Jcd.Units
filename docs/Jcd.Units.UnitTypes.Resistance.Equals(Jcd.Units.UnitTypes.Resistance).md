@@ -3,7 +3,7 @@
 
 ## Resistance.Equals(Resistance) Method
 
-Compares this `Resistance` to another one for equality.
+Compares this [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Resistance other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Resistance other);
 
 `other` [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance')
 
-The other `Resistance` to compare against.
+The other [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

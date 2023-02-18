@@ -3,7 +3,7 @@
 
 ## Capacitance.CompareTo(Capacitance) Method
 
-Performs a relative comparison between this `Capacitance` and another one.
+Performs a relative comparison between this [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Capacitance other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Capacitance other);
 
 `other` [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
 
-The `Capacitance` to compare against.
+The [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

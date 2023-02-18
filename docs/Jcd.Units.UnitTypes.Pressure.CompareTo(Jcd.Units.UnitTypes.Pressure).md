@@ -3,7 +3,7 @@
 
 ## Pressure.CompareTo(Pressure) Method
 
-Performs a relative comparison between this `Pressure` and another one.
+Performs a relative comparison between this [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Pressure other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Pressure other);
 
 `other` [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure')
 
-The `Pressure` to compare against.
+The [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

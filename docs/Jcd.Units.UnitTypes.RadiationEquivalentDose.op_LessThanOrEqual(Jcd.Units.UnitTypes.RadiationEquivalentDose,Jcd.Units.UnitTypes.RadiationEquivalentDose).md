@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose.operator <=(RadiationEquivalentDose, RadiationEquivalentDose) Operator
 
-Compares two `RadiationEquivalentDose` instances to determine if the left one is less than or equal to the right one.
+Compares two [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') instances to determine if the left one is less than or equal to the right one.
 
 ```csharp
 public static bool operator <=(Jcd.Units.UnitTypes.RadiationEquivalentDose left, Jcd.Units.UnitTypes.RadiationEquivalentDose right);
@@ -14,13 +14,13 @@ public static bool operator <=(Jcd.Units.UnitTypes.RadiationEquivalentDose left,
 
 `left` [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
-The left `RadiationEquivalentDose`
+The left [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
 <a name='Jcd.Units.UnitTypes.RadiationEquivalentDose.op_LessThanOrEqual(Jcd.Units.UnitTypes.RadiationEquivalentDose,Jcd.Units.UnitTypes.RadiationEquivalentDose).right'></a>
 
 `right` [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
-The right `RadiationEquivalentDose`
+The right [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

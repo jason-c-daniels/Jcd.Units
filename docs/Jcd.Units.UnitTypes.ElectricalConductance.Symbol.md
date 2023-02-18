@@ -3,7 +3,7 @@
 
 ## ElectricalConductance.Symbol Property
 
-The symbol or abbreviation to represent the `ElectricalConductance`
+The symbol or abbreviation to represent the [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
 
 ```csharp
 public string Symbol { get; set; }

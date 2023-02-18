@@ -6,7 +6,7 @@
 The interface defining what every unit of measure must support.
 
 ```csharp
-public interface IUnitOfMeasure<TUnits>
+public interface IUnitOfMeasure<in TUnits>
 ```
 #### Type parameters
 
@@ -51,6 +51,6 @@ we guarantee compile time detection of certain classes of errors.
 | Properties | |
 | :--- | :--- |
 | [Coefficient](Jcd.Units.IUnitOfMeasure_TUnits_.Coefficient.md 'Jcd.Units.IUnitOfMeasure<TUnits>.Coefficient') | The Coefficient relative to the fundamental unit for derived units.<br/>This is 1.0 for fundamental units. This should never be 0.<br/>(divide by zero errors will occur.) |
-| [Name](Jcd.Units.IUnitOfMeasure_TUnits_.Name.md 'Jcd.Units.IUnitOfMeasure<TUnits>.Name') | The friendly name of the unit of measure. (e.g. Ronnasecond) |
+| [Name](Jcd.Units.IUnitOfMeasure_TUnits_.Name.md 'Jcd.Units.IUnitOfMeasure<TUnits>.Name') | The friendly name of the unit of measure. (e.g. millisecond) |
 | [Offset](Jcd.Units.IUnitOfMeasure_TUnits_.Offset.md 'Jcd.Units.IUnitOfMeasure<TUnits>.Offset') | This is the offset from the fundamental unit. |
 | [Symbol](Jcd.Units.IUnitOfMeasure_TUnits_.Symbol.md 'Jcd.Units.IUnitOfMeasure<TUnits>.Symbol') | The symbolic short representation.<br/>NOTE: THIS SHOULD BE ONLY LETTERS AND SYMBOLS, NOT AN EQUATION. |

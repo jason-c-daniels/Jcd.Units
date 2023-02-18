@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensity.GetHashCode() Method
 
-Computes the hash code for this `MagneticFluxDensity`
+Computes the hash code for this [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')
 
 ```csharp
 public override int GetHashCode();

@@ -3,7 +3,7 @@
 
 ## CatalyticActivity.Symbol Property
 
-The symbol or abbreviation to represent the `CatalyticActivity`
+The symbol or abbreviation to represent the [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
 ```csharp
 public string Symbol { get; set; }

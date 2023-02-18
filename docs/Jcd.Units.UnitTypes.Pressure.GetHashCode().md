@@ -3,7 +3,7 @@
 
 ## Pressure.GetHashCode() Method
 
-Computes the hash code for this `Pressure`
+Computes the hash code for this [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure')
 
 ```csharp
 public override int GetHashCode();

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecay.CompareTo(RadioactiveDecay) Method
 
-Performs a relative comparison between this `RadioactiveDecay` and another one.
+Performs a relative comparison between this [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.RadioactiveDecay other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.RadioactiveDecay other);
 
 `other` [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
 
-The `RadioactiveDecay` to compare against.
+The [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensity.Equals(MagneticFluxDensity) Method
 
-Compares this `MagneticFluxDensity` to another one for equality.
+Compares this [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.MagneticFluxDensity other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.MagneticFluxDensity other);
 
 `other` [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')
 
-The other `MagneticFluxDensity` to compare against.
+The other [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

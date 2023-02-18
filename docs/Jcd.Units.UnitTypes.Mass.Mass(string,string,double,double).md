@@ -3,7 +3,7 @@
 
 ## Mass(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified `Mass`
+Constructs a unit measuring a specified [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
 ```csharp
 public Mass(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `Symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Mass`
+The symbol or abbreviation to represent the [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
 
 <a name='Jcd.Units.UnitTypes.Mass.Mass(string,string,double,double).Coefficient'></a>
 

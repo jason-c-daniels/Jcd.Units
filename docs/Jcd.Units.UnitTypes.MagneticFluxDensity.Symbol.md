@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensity.Symbol Property
 
-The symbol or abbreviation to represent the `MagneticFluxDensity`
+The symbol or abbreviation to represent the [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')
 
 ```csharp
 public string Symbol { get; set; }

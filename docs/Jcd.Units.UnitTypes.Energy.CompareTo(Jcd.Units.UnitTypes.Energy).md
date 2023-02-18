@@ -3,7 +3,7 @@
 
 ## Energy.CompareTo(Energy) Method
 
-Performs a relative comparison between this `Energy` and another one.
+Performs a relative comparison between this [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Energy other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Energy other);
 
 `other` [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')
 
-The `Energy` to compare against.
+The [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

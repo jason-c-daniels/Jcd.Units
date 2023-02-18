@@ -3,7 +3,7 @@
 
 ## Illuminance.operator <=(Illuminance, Illuminance) Operator
 
-Compares two `Illuminance` instances to determine if the left one is less than or equal to the right one.
+Compares two [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') instances to determine if the left one is less than or equal to the right one.
 
 ```csharp
 public static bool operator <=(Jcd.Units.UnitTypes.Illuminance left, Jcd.Units.UnitTypes.Illuminance right);
@@ -14,13 +14,13 @@ public static bool operator <=(Jcd.Units.UnitTypes.Illuminance left, Jcd.Units.U
 
 `left` [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
 
-The left `Illuminance`
+The left [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
 
 <a name='Jcd.Units.UnitTypes.Illuminance.op_LessThanOrEqual(Jcd.Units.UnitTypes.Illuminance,Jcd.Units.UnitTypes.Illuminance).right'></a>
 
 `right` [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
 
-The right `Illuminance`
+The right [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

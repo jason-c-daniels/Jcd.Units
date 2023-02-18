@@ -3,7 +3,7 @@
 
 ## RadioactiveDecay.Equals(RadioactiveDecay) Method
 
-Compares this `RadioactiveDecay` to another one for equality.
+Compares this [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.RadioactiveDecay other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.RadioactiveDecay other);
 
 `other` [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
 
-The other `RadioactiveDecay` to compare against.
+The other [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

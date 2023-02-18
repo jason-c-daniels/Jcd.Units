@@ -3,7 +3,7 @@
 
 ## Inductance.GetHashCode() Method
 
-Computes the hash code for this `Inductance`
+Computes the hash code for this [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance')
 
 ```csharp
 public override int GetHashCode();

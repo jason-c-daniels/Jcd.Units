@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose.Symbol Property
 
-The symbol or abbreviation to represent the `RadiationEquivalentDose`
+The symbol or abbreviation to represent the [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
 
 ```csharp
 public string Symbol { get; set; }

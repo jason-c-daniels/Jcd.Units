@@ -3,7 +3,7 @@
 
 ## MagneticFlux.Equals(MagneticFlux) Method
 
-Compares this `MagneticFlux` to another one for equality.
+Compares this [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.MagneticFlux other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.MagneticFlux other);
 
 `other` [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
 
-The other `MagneticFlux` to compare against.
+The other [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

@@ -3,7 +3,7 @@
 
 ## Duration.CompareTo(Duration) Method
 
-Performs a relative comparison between this `Duration` and another one.
+Performs a relative comparison between this [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Duration other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Duration other);
 
 `other` [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
 
-The `Duration` to compare against.
+The [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

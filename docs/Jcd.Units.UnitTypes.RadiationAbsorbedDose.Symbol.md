@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDose.Symbol Property
 
-The symbol or abbreviation to represent the `RadiationAbsorbedDose`
+The symbol or abbreviation to represent the [RadiationAbsorbedDose](Jcd.Units.UnitTypes.RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose')
 
 ```csharp
 public string Symbol { get; set; }

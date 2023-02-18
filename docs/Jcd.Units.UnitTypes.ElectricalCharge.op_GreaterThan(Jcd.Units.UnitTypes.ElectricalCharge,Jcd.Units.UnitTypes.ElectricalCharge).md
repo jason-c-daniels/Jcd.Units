@@ -3,7 +3,7 @@
 
 ## ElectricalCharge.operator >(ElectricalCharge, ElectricalCharge) Operator
 
-Compares two `ElectricalCharge` instances to determine if the left one is greater than the right one.
+Compares two [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') instances to determine if the left one is greater than the right one.
 
 ```csharp
 public static bool operator >(Jcd.Units.UnitTypes.ElectricalCharge left, Jcd.Units.UnitTypes.ElectricalCharge right);
@@ -14,13 +14,13 @@ public static bool operator >(Jcd.Units.UnitTypes.ElectricalCharge left, Jcd.Uni
 
 `left` [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
-The left `ElectricalCharge`
+The left [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
 <a name='Jcd.Units.UnitTypes.ElectricalCharge.op_GreaterThan(Jcd.Units.UnitTypes.ElectricalCharge,Jcd.Units.UnitTypes.ElectricalCharge).right'></a>
 
 `right` [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
-The right `ElectricalCharge`
+The right [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

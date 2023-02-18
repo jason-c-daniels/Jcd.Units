@@ -3,7 +3,7 @@
 
 ## Illuminance.Equals(Illuminance) Method
 
-Compares this `Illuminance` to another one for equality.
+Compares this [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Illuminance other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Illuminance other);
 
 `other` [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
 
-The other `Illuminance` to compare against.
+The other [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

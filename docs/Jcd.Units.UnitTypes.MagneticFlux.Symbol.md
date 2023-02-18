@@ -3,7 +3,7 @@
 
 ## MagneticFlux.Symbol Property
 
-The symbol or abbreviation to represent the `MagneticFlux`
+The symbol or abbreviation to represent the [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
 
 ```csharp
 public string Symbol { get; set; }

@@ -3,7 +3,7 @@
 
 ## ElectricalCurrent.operator >=(ElectricalCurrent, ElectricalCurrent) Operator
 
-Compares two `ElectricalCurrent` instances to determine if the left one is greater than or equal to the right one.
+Compares two [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') instances to determine if the left one is greater than or equal to the right one.
 
 ```csharp
 public static bool operator >=(Jcd.Units.UnitTypes.ElectricalCurrent left, Jcd.Units.UnitTypes.ElectricalCurrent right);
@@ -14,13 +14,13 @@ public static bool operator >=(Jcd.Units.UnitTypes.ElectricalCurrent left, Jcd.U
 
 `left` [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
-The left `ElectricalCurrent`
+The left [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
 <a name='Jcd.Units.UnitTypes.ElectricalCurrent.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.ElectricalCurrent,Jcd.Units.UnitTypes.ElectricalCurrent).right'></a>
 
 `right` [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
-The right `ElectricalCurrent`
+The right [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

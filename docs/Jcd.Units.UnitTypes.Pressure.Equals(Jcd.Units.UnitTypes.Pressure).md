@@ -3,7 +3,7 @@
 
 ## Pressure.Equals(Pressure) Method
 
-Compares this `Pressure` to another one for equality.
+Compares this [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Pressure other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Pressure other);
 
 `other` [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure')
 
-The other `Pressure` to compare against.
+The other [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

@@ -3,7 +3,7 @@
 
 ## ElectricalCurrent.Symbol Property
 
-The symbol or abbreviation to represent the `ElectricalCurrent`
+The symbol or abbreviation to represent the [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
 ```csharp
 public string Symbol { get; set; }
