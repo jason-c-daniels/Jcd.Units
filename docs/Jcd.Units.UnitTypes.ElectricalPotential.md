@@ -10,7 +10,7 @@ public struct ElectricalPotential :
 Jcd.Units.IUnitOfMeasure<Jcd.Units.UnitTypes.ElectricalPotential>
 ```
 
-Implements [Jcd.Units.IUnitOfMeasure&lt;](https://docs.microsoft.com/en-us/dotnet/api/Jcd.Units.IUnitOfMeasure-1 'Jcd.Units.IUnitOfMeasure`1')[ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/Jcd.Units.IUnitOfMeasure-1 'Jcd.Units.IUnitOfMeasure`1')
+Implements [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')[ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')[&gt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')
 
 | Constructors | |
 | :--- | :--- |

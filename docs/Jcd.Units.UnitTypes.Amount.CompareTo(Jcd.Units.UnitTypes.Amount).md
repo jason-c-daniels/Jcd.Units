@@ -3,7 +3,7 @@
 
 ## Amount.CompareTo(Amount) Method
 
-Performs a relative comparison between this `Amount` and another one.
+Performs a relative comparison between this [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') and another one.
 
 ```csharp
 public int CompareTo(Jcd.Units.UnitTypes.Amount other);
@@ -14,7 +14,7 @@ public int CompareTo(Jcd.Units.UnitTypes.Amount other);
 
 `other` [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
-The `Amount` to compare against.
+The [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') to compare against.
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  

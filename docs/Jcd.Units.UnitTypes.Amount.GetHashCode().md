@@ -3,7 +3,7 @@
 
 ## Amount.GetHashCode() Method
 
-Computes the hash code for this `Amount`
+Computes the hash code for this [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
 ```csharp
 public override int GetHashCode();

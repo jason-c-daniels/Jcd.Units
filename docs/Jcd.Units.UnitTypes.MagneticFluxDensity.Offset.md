@@ -9,7 +9,7 @@ The offset used when computing values going to and from the base unit's represen
 public double Offset { get; set; }
 ```
 
-Implements [Offset](https://docs.microsoft.com/en-us/dotnet/api/Jcd.Units.IUnitOfMeasure-1.Offset 'Jcd.Units.IUnitOfMeasure`1.Offset')
+Implements [Offset](Jcd.Units.IUnitOfMeasure_TUnits_.Offset.md 'Jcd.Units.IUnitOfMeasure<TUnits>.Offset')
 
 #### Property Value
 [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')

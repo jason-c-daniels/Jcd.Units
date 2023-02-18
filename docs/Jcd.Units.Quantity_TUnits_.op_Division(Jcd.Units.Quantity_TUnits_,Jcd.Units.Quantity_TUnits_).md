@@ -29,4 +29,4 @@ The result of the division.
 #### Exceptions
 
 [System.DivideByZeroException](https://docs.microsoft.com/en-us/dotnet/api/System.DivideByZeroException 'System.DivideByZeroException')  
-When `y` is zero.
+When [y](Jcd.Units.Quantity_TUnits_.op_Division(Jcd.Units.Quantity_TUnits_,Jcd.Units.Quantity_TUnits_).md#Jcd.Units.Quantity_TUnits_.op_Division(Jcd.Units.Quantity_TUnits_,Jcd.Units.Quantity_TUnits_).y 'Jcd.Units.Quantity<TUnits>.op_Division(Jcd.Units.Quantity<TUnits>, Jcd.Units.Quantity<TUnits>).y') is zero.

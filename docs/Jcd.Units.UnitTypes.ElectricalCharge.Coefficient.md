@@ -9,7 +9,7 @@ The unit's coefficient relative to the ultimate base unit's representation.
 public double Coefficient { get; set; }
 ```
 
-Implements [Coefficient](https://docs.microsoft.com/en-us/dotnet/api/Jcd.Units.IUnitOfMeasure-1.Coefficient 'Jcd.Units.IUnitOfMeasure`1.Coefficient')
+Implements [Coefficient](Jcd.Units.IUnitOfMeasure_TUnits_.Coefficient.md 'Jcd.Units.IUnitOfMeasure<TUnits>.Coefficient')
 
 #### Property Value
 [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')

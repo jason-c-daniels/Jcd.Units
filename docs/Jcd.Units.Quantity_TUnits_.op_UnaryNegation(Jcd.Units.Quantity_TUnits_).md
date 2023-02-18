@@ -3,7 +3,8 @@
 
 ## Quantity<TUnits>.operator -(Quantity<TUnits>) Operator
 
-Performs standard unary negation on the `RawValue` component and returns a new `Quantity`.
+Performs standard unary negation on the [RawValue](Jcd.Units.Quantity_TUnits_.RawValue.md 'Jcd.Units.Quantity<TUnits>.RawValue') component and  
+returns a new [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>').
 
 ```csharp
 public static Jcd.Units.Quantity<TUnits> operator -(Jcd.Units.Quantity<TUnits> q);
@@ -14,8 +15,8 @@ public static Jcd.Units.Quantity<TUnits> operator -(Jcd.Units.Quantity<TUnits> q
 
 `q` [Jcd.Units.Quantity&lt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')[TUnits](Jcd.Units.Quantity_TUnits_.md#Jcd.Units.Quantity_TUnits_.TUnits 'Jcd.Units.Quantity<TUnits>.TUnits')[&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')
 
-The quantity to perform the operation on.
+The quantity to perform the negation on.
 
 #### Returns
 [Jcd.Units.Quantity&lt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')[TUnits](Jcd.Units.Quantity_TUnits_.md#Jcd.Units.Quantity_TUnits_.TUnits 'Jcd.Units.Quantity<TUnits>.TUnits')[&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')  
-The negated form of the `Quantity`
+The negated form of the [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')

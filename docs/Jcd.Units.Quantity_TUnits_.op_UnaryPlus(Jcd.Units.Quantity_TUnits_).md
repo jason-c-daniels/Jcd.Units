@@ -14,8 +14,8 @@ public static Jcd.Units.Quantity<TUnits> operator +(Jcd.Units.Quantity<TUnits> q
 
 `q` [Jcd.Units.Quantity&lt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')[TUnits](Jcd.Units.Quantity_TUnits_.md#Jcd.Units.Quantity_TUnits_.TUnits 'Jcd.Units.Quantity<TUnits>.TUnits')[&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')
 
-The `Quantity` to operate on.
+The [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>') to operate on.
 
 #### Returns
 [Jcd.Units.Quantity&lt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')[TUnits](Jcd.Units.Quantity_TUnits_.md#Jcd.Units.Quantity_TUnits_.TUnits 'Jcd.Units.Quantity<TUnits>.TUnits')[&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')  
-The `Quantity`
+The [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')

@@ -3,7 +3,7 @@ using System;
 namespace Jcd.Units;
 
 /// <summary>
-///     Represents a quantity with an associated unit of measure.
+/// Represents a quantity with an associated unit of measure.
 /// </summary>
 /// <param name="RawValue">The numeric portion, without associated unit of measure</param>
 /// <param name="Units">The unit of measure.</param>
@@ -13,7 +13,7 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     IComparable where TUnits : IUnitOfMeasure<TUnits>
 {
     /// <summary>
-    ///     Converts the quantity from its current unit of measure to the target unit of measure.
+    /// Converts the quantity from its current unit of measure to the target unit of measure.
     /// </summary>
     /// <param name="targetUnit">The target unit of measure</param>
     /// <returns>The new quantity represented as the new unit of measure.</returns>
@@ -26,6 +26,10 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
 
     #region Overrides of ValueType
 
+    /// <summary>
+    /// Formats a string with the quantity value followed by the symbol.
+    /// </summary>
+    /// <returns>The formatted string.</returns>
     public override string ToString()
     {
         return $"{RawValue:n} {Units.Symbol}";
@@ -36,20 +40,21 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     #region Quantity to Quantity arithmetic operators.
 
     /// <summary>
-    ///     Performs a standard unary "+" operation.
+    /// Performs a standard unary "+" operation.
     /// </summary>
-    /// <param name="q">The <c>Quantity</c> to operate on.</param>
-    /// <returns>The <c>Quantity</c></returns>
+    /// <param name="q">The <see cref="Quantity{TUnits}"/> to operate on.</param>
+    /// <returns>The <see cref="Quantity{TUnits}"/></returns>
     public static Quantity<TUnits> operator +(Quantity<TUnits> q)
     {
         return q;
     }
 
     /// <summary>
-    ///     Performs standard unary negation on the <c>RawValue</c> component and returns a new <c>Quantity</c>.
+    /// Performs standard unary negation on the <see cref="RawValue"/> component and
+    /// returns a new <see cref="Quantity{TUnits}"/>.
     /// </summary>
-    /// <param name="q">The quantity to perform the operation on.</param>
-    /// <returns>The negated form of the <c>Quantity</c></returns>
+    /// <param name="q">The quantity to perform the negation on.</param>
+    /// <returns>The negated form of the <see cref="Quantity{TUnits}"/></returns>
     public static Quantity<TUnits> operator -(Quantity<TUnits> q)
     {
         return q with { RawValue = -q.RawValue };
@@ -103,7 +108,7 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     /// <param name="x">The left hand operand</param>
     /// <param name="y">The right hand operand.</param>
     /// <returns>The result of the division.</returns>
-    /// <exception cref="DivideByZeroException">When <c>y</c> is zero.</exception>
+    /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
     public static Quantity<TUnits> operator /(Quantity<TUnits> x, Quantity<TUnits> y)
     {
         if (y.RawValue == 0) throw new DivideByZeroException();
@@ -118,32 +123,45 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     #region Quantity to double artithmetic operators.
 
     /// <summary>
-    /// Performs addition on a <c>Quantity</c> (left-hand operand) and a double.
+    /// Performs addition on a double and a <see cref="Quantity{TUnits}"/>.
     /// </summary>
-    /// <param name="x">The left hand operand</param>
-    /// <param name="y">The right hand, <c>double</c>, operand.</param>
-    /// <returns>The result of the addition.</returns>
+    /// <param name="x">The <see cref="Quantity{TUnits}"/> operand.</param>
+    /// <param name="y">The double operand.</param>
+    /// <returns>a <see cref="Quantity{TUnits}"/> of the results of the operation in the original unit of measure.</returns>
     public static Quantity<TUnits> operator +(Quantity<TUnits> x, double y)
     {
         return x with { RawValue = x.RawValue + y };
     }
 
     /// <summary>
-    /// Performs subtraction on a <c>Quantity</c> (left-hand operand) and a double.
+    /// Performs subtraction on a double and a <see cref="Quantity{TUnits}"/>.
     /// </summary>
-    /// <param name="x">The left hand operand</param>
-    /// <param name="y">The right hand, <c>double</c>, operand.</param>
-    /// <returns>The result of the subtraction.</returns>
+    /// <param name="x">The <see cref="Quantity{TUnits}"/> operand.</param>
+    /// <param name="y">The double operand.</param>
+    /// <returns>a <see cref="Quantity{TUnits}"/> of the results of the operation in the original unit of measure.</returns>
     public static Quantity<TUnits> operator -(Quantity<TUnits> x, double y)
     {
         return x with { RawValue = x.RawValue - y };
     }
 
+    /// <summary>
+    /// Performs multiplication on a double and a <see cref="Quantity{TUnits}"/>.
+    /// </summary>
+    /// <param name="x">The <see cref="Quantity{TUnits}"/> operand.</param>
+    /// <param name="y">The double operand.</param>
+    /// <returns>a <see cref="Quantity{TUnits}"/> of the results of the operation in the original unit of measure.</returns>
     public static Quantity<TUnits> operator *(Quantity<TUnits> x, double y)
     {
         return x with { RawValue = x.RawValue * y };
     }
 
+    /// <summary>
+    /// Performs division on a double and a <see cref="Quantity{TUnits}"/>.
+    /// </summary>
+    /// <param name="x">The <see cref="Quantity{TUnits}"/> operand.</param>
+    /// <param name="y">The double operand.</param>
+    /// <returns>a <see cref="Quantity{TUnits}"/> of the results of the operation in the original unit of measure.</returns>
+    /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
     public static Quantity<TUnits> operator /(Quantity<TUnits> x, double y)
     {
         if (y == 0) throw new DivideByZeroException();
@@ -154,21 +172,46 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
 
     #region double to Quantity arithmetic operators.
 
+    /// <summary>
+    /// Performs addition on a double and a <see cref="Quantity{TUnits}"/>.
+    /// </summary>
+    /// <param name="x">The double operand</param>
+    /// <param name="y">The <see cref="Quantity{TUnits}"/> operand.</param>
+    /// <returns>a <see cref="Quantity{TUnits}"/> of the results of the operation in the original unit of measure.</returns>
     public static Quantity<TUnits> operator +(double x, Quantity<TUnits> y)
     {
         return y with { RawValue = x + y.RawValue };
     }
 
+    /// <summary>
+    /// Performs subtraction on a double and a <see cref="Quantity{TUnits}"/>.
+    /// </summary>
+    /// <param name="x">The double operand</param>
+    /// <param name="y">The <see cref="Quantity{TUnits}"/> operand.</param>
+    /// <returns>a <see cref="Quantity{TUnits}"/> of the results of the operation in the original unit of measure.</returns>
     public static Quantity<TUnits> operator -(double x, Quantity<TUnits> y)
     {
         return y with { RawValue = x - y.RawValue };
     }
 
+    /// <summary>
+    /// Performs multiplication on a double and a <see cref="Quantity{TUnits}"/>.
+    /// </summary>
+    /// <param name="x">The double operand</param>
+    /// <param name="y">The <see cref="Quantity{TUnits}"/> operand.</param>
+    /// <returns>a <see cref="Quantity{TUnits}"/> of the results of the operation in the original unit of measure.</returns>
     public static Quantity<TUnits> operator *(double x, Quantity<TUnits> y)
     {
         return y with { RawValue = x * y.RawValue };
     }
 
+    /// <summary>
+    /// Performs division on a double and a <see cref="Quantity{TUnits}"/>.
+    /// </summary>
+    /// <param name="x">The double operand</param>
+    /// <param name="y">The <see cref="Quantity{TUnits}"/> operand.</param>
+    /// <returns>a <see cref="Quantity{TUnits}"/> of the results of the operation in the original unit of measure.</returns>
+    /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
     public static Quantity<TUnits> operator /(double x, Quantity<TUnits> y)
     {
         if (y.RawValue == 0) throw new DivideByZeroException();
@@ -179,24 +222,47 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
 
     #region Equality members
 
+    /// <summary>
+    /// Compares this instance to another <see cref="Quantity{TUnits}"/> instance for equality.
+    /// </summary>
+    /// <param name="other">The other instance to compare against.</param>
+    /// <returns>True if equivalent. False otherwise.</returns>
     public bool Equals(Quantity<TUnits> other)
     {
         return Units.ToBaseUnitValue(RawValue) == other.Units.ToBaseUnitValue(other.RawValue);
     }
 
+    /// <summary>
+    /// Computes a hashcode for the quantity. So that numeric equivalence is maintained
+    /// regardless of precise unit of measure is used, the hashcode is calculated on
+    /// the base unit representation. TUnits is included in the hashcode to ensure
+    /// that differing units do not compare the same.
+    /// </summary>
+    /// <returns>The calculated hashcode.</returns>
     public override int GetHashCode()
     {
-        return Units.ToBaseUnitValue(RawValue).GetHashCode();
+        return HashCode.Combine(Units.ToBaseUnitValue(RawValue), typeof(Quantity<TUnits>));
     }
 
     #endregion
 
     #region Relational members
+    
+    /// <summary>
+    /// Compares this instance to another <see cref="Quantity{TUnits}"/> instance for relative value.
+    /// </summary>
+    /// <param name="other">The other instance to compare against.</param>
+    /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
 
     public int CompareTo(Quantity<TUnits> other)
     {
         return Units.ToBaseUnitValue(RawValue).CompareTo(other.Units.ToBaseUnitValue(other.RawValue));
     }
+    /// <summary>
+    /// Compares this instance to another <see cref="Quantity{TUnits}"/> instance for relative value.
+    /// </summary>
+    /// <param name="obj">The other instance to compare against.</param>
+    /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
 
     public int CompareTo(object? obj)
     {
@@ -206,21 +272,45 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
             : throw new ArgumentException($"Object must be of type {nameof(Quantity<TUnits>)}");
     }
 
+    /// <summary>
+    /// Performs a less than comparison between two <see cref="Quantity{TUnits}"/> instances.
+    /// </summary>
+    /// <param name="left">the left hand operand</param>
+    /// <param name="right">the right hand operand</param>
+    /// <returns>true if <paramref name="left"/> is strictly less than <paramref name="right"/>; false otherwise.</returns>
     public static bool operator <(Quantity<TUnits> left, Quantity<TUnits> right)
     {
         return left.CompareTo(right) < 0;
     }
 
+    /// <summary>
+    /// Performs a greater than comparison between two <see cref="Quantity{TUnits}"/> instances.
+    /// </summary>
+    /// <param name="left">the left hand operand</param>
+    /// <param name="right">the right hand operand</param>
+    /// <returns>true if <paramref name="left"/> is strictly greater than <paramref name="right"/>; false otherwise.</returns>
     public static bool operator >(Quantity<TUnits> left, Quantity<TUnits> right)
     {
         return left.CompareTo(right) > 0;
     }
 
+    /// <summary>
+    /// Performs a less than or equals comparison between two <see cref="Quantity{TUnits}"/> instances.
+    /// </summary>
+    /// <param name="left">the left hand operand</param>
+    /// <param name="right">the right hand operand</param>
+    /// <returns>true if <paramref name="left"/> is less than or equal to <paramref name="right"/>; false otherwise.</returns>
     public static bool operator <=(Quantity<TUnits> left, Quantity<TUnits> right)
     {
         return left.CompareTo(right) <= 0;
     }
 
+    /// <summary>
+    /// Performs a greater than or equals comparison between two <see cref="Quantity{TUnits}"/> instances.
+    /// </summary>
+    /// <param name="left">the left hand operand</param>
+    /// <param name="right">the right hand operand</param>
+    /// <returns>true if <paramref name="left"/> is greater than or equal to <paramref name="right"/>; false otherwise.</returns>
     public static bool operator >=(Quantity<TUnits> left, Quantity<TUnits> right)
     {
         return left.CompareTo(right) >= 0;

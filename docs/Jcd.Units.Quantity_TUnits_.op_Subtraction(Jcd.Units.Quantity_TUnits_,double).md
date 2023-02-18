@@ -3,7 +3,7 @@
 
 ## Quantity<TUnits>.operator -(Quantity<TUnits>, double) Operator
 
-Performs subtraction on a `Quantity` (left-hand operand) and a double.
+Performs subtraction on a double and a [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>').
 
 ```csharp
 public static Jcd.Units.Quantity<TUnits> operator -(Jcd.Units.Quantity<TUnits> x, double y);
@@ -14,14 +14,14 @@ public static Jcd.Units.Quantity<TUnits> operator -(Jcd.Units.Quantity<TUnits> x
 
 `x` [Jcd.Units.Quantity&lt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')[TUnits](Jcd.Units.Quantity_TUnits_.md#Jcd.Units.Quantity_TUnits_.TUnits 'Jcd.Units.Quantity<TUnits>.TUnits')[&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')
 
-The left hand operand
+The [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>') operand.
 
 <a name='Jcd.Units.Quantity_TUnits_.op_Subtraction(Jcd.Units.Quantity_TUnits_,double).y'></a>
 
 `y` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The right hand, `double`, operand.
+The double operand.
 
 #### Returns
 [Jcd.Units.Quantity&lt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')[TUnits](Jcd.Units.Quantity_TUnits_.md#Jcd.Units.Quantity_TUnits_.TUnits 'Jcd.Units.Quantity<TUnits>.TUnits')[&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')  
-The result of the subtraction.
+a [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>') of the results of the operation in the original unit of measure.

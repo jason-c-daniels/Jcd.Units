@@ -9,7 +9,7 @@ The name of this unit
 public string Name { get; set; }
 ```
 
-Implements [Name](https://docs.microsoft.com/en-us/dotnet/api/Jcd.Units.IUnitOfMeasure-1.Name 'Jcd.Units.IUnitOfMeasure`1.Name')
+Implements [Name](Jcd.Units.IUnitOfMeasure_TUnits_.Name.md 'Jcd.Units.IUnitOfMeasure<TUnits>.Name')
 
 #### Property Value
 [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')

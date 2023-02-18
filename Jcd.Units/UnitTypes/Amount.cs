@@ -3,20 +3,20 @@
 namespace Jcd.Units.UnitTypes;
 
 /// <summary>
-/// Constructs a unit measuring a specified <c>Amount</c>
+/// Constructs a unit measuring a specified <see cref="Amount"/>
 /// </summary>
 /// <param name="Name">The name of this unit</param>
-/// <param name="Symbol">The symbol or abbreviation to represent the <c>Amount</c></param>
+/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="Amount"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
 public record struct Amount(string Name, string Symbol, double Coefficient=1, double Offset=0)
     : IUnitOfMeasure<Amount>
 {
     /// <summary>
-    /// Constructs a unit measuring a specified <c>Amount</c> using another Amount as a reference.
+    /// Constructs a unit measuring a specified <see cref="Amount"/> using another Amount as a reference.
     /// </summary>
     /// <param name="name">The name of this unit</param>
-    /// <param name="symbol">The symbol or abbreviation to represent the <c>Amount</c></param>
+    /// <param name="symbol">The symbol or abbreviation to represent the <see cref="Amount"/></param>
     /// <param name="baseUnit">The unit to use as a base</param>
     /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
     /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
@@ -29,9 +29,9 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     #region Equality members
 
     /// <summary>
-    /// Compares this <c>Amount</c> to another one for equality.
+    /// Compares this <see cref="Amount"/> to another one for equality.
     /// </summary>
-    /// <param name="other">The other <c>Amount</c> to compare against.</param>
+    /// <param name="other">The other <see cref="Amount"/> to compare against.</param>
     /// <returns>true if equivalent, false otherwise.</returns>
     public bool Equals(Amount other)
     {
@@ -39,7 +39,7 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Computes the hash code for this <c>Amount</c>
+    /// Computes the hash code for this <see cref="Amount"/>
     /// </summary>
     /// <returns>The computed hashcode.</returns>
     public override int GetHashCode()
@@ -52,9 +52,9 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     #region Relational members
 
     /// <summary>
-    /// Performs a relative comparison between this <c>Amount</c> and another one.
+    /// Performs a relative comparison between this <see cref="Amount"/> and another one.
     /// </summary>
-    /// <param name="other">The <c>Amount</c> to compare against.</param>
+    /// <param name="other">The <see cref="Amount"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
     public int CompareTo(Amount other)
     {
@@ -63,11 +63,11 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Performs a relative comparison between this <c>Amount</c> and another one.
+    /// Performs a relative comparison between this <see cref="Amount"/> and another one.
     /// </summary>
-    /// <param name="obj">The <c>Amount</c> to compare against.</param>
+    /// <param name="obj">The <see cref="Amount"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    /// <exception cref="ArgumentException">When the passed in object is not a <c>Amount</c></exception>
+    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="Amount"/></exception>
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1;
@@ -75,10 +75,10 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Compares two <c>Amount</c> instances to determine if the left one is less than the right one.
+    /// Compares two <see cref="Amount"/> instances to determine if the left one is less than the right one.
     /// </summary>
-    /// <param name="left">The left <c>Amount</c></param>
-    /// <param name="right">The right <c>Amount</c></param>
+    /// <param name="left">The left <see cref="Amount"/></param>
+    /// <param name="right">The right <see cref="Amount"/></param>
     /// <returns>true if left is &lt; right; false otherwise.</returns>
     public static bool operator <(Amount left, Amount right)
     {
@@ -86,10 +86,10 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Compares two <c>Amount</c> instances to determine if the left one is greater than the right one.
+    /// Compares two <see cref="Amount"/> instances to determine if the left one is greater than the right one.
     /// </summary>
-    /// <param name="left">The left <c>Amount</c></param>
-    /// <param name="right">The right <c>Amount</c></param>
+    /// <param name="left">The left <see cref="Amount"/></param>
+    /// <param name="right">The right <see cref="Amount"/></param>
     /// <returns>true if left is &gt; right; false otherwise.</returns>
     public static bool operator >(Amount left, Amount right)
     {
@@ -97,10 +97,10 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Compares two <c>Amount</c> instances to determine if the left one is less than or equal to the right one.
+    /// Compares two <see cref="Amount"/> instances to determine if the left one is less than or equal to the right one.
     /// </summary>
-    /// <param name="left">The left <c>Amount</c></param>
-    /// <param name="right">The right <c>Amount</c></param>
+    /// <param name="left">The left <see cref="Amount"/></param>
+    /// <param name="right">The right <see cref="Amount"/></param>
     /// <returns>true if left is &lt;= right; false otherwise.</returns>
     public static bool operator <=(Amount left, Amount right)
     {
@@ -108,10 +108,10 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Compares two <c>Amount</c> instances to determine if the left one is greater than or equal to the right one.
+    /// Compares two <see cref="Amount"/> instances to determine if the left one is greater than or equal to the right one.
     /// </summary>
-    /// <param name="left">The left <c>Amount</c></param>
-    /// <param name="right">The right <c>Amount</c></param>
+    /// <param name="left">The left <see cref="Amount"/></param>
+    /// <param name="right">The right <see cref="Amount"/></param>
     /// <returns>true if left is &gt;= right; false otherwise.</returns>
     public static bool operator >=(Amount left, Amount right)
     {

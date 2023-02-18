@@ -3,7 +3,7 @@
 
 ## Amount(string, string, Amount, double, double) Constructor
 
-Constructs a unit measuring a specified `Amount` using another Amount as a reference.
+Constructs a unit measuring a specified [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') using another Amount as a reference.
 
 ```csharp
 public Amount(string name, string symbol, Jcd.Units.UnitTypes.Amount baseUnit, double coefficient, double offset=0.0);
@@ -20,7 +20,7 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the `Amount`
+The symbol or abbreviation to represent the [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
 <a name='Jcd.Units.UnitTypes.Amount.Amount(string,string,Jcd.Units.UnitTypes.Amount,double,double).baseUnit'></a>
 

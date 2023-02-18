@@ -3,7 +3,7 @@
 
 ## Amount.Equals(Amount) Method
 
-Compares this `Amount` to another one for equality.
+Compares this [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') to another one for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.UnitTypes.Amount other);
@@ -14,7 +14,7 @@ public bool Equals(Jcd.Units.UnitTypes.Amount other);
 
 `other` [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
-The other `Amount` to compare against.
+The other [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') to compare against.
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

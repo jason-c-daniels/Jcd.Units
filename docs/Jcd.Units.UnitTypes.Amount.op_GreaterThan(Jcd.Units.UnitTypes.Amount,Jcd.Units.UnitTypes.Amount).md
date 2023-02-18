@@ -3,7 +3,7 @@
 
 ## Amount.operator >(Amount, Amount) Operator
 
-Compares two `Amount` instances to determine if the left one is greater than the right one.
+Compares two [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') instances to determine if the left one is greater than the right one.
 
 ```csharp
 public static bool operator >(Jcd.Units.UnitTypes.Amount left, Jcd.Units.UnitTypes.Amount right);
@@ -14,13 +14,13 @@ public static bool operator >(Jcd.Units.UnitTypes.Amount left, Jcd.Units.UnitTyp
 
 `left` [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
-The left `Amount`
+The left [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
 <a name='Jcd.Units.UnitTypes.Amount.op_GreaterThan(Jcd.Units.UnitTypes.Amount,Jcd.Units.UnitTypes.Amount).right'></a>
 
 `right` [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
-The right `Amount`
+The right [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  

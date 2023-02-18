@@ -4,7 +4,7 @@
 
 | Structs | |
 | :--- | :--- |
-| [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') | Constructs a unit measuring a specified `Amount` |
+| [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') | Constructs a unit measuring a specified [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') |
 | [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | Constructs a unit measuring a specified `Capacitance` |
 | [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') | Constructs a unit measuring a specified `CatalyticActivity` |
 | [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') | Constructs a unit measuring a specified `Duration` |
