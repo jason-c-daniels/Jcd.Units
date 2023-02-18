@@ -10,10 +10,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="Resources\Templates.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
-        <LastGenOutput>Templates.Designer.cs</LastGenOutput>
-      </EmbeddedResource>
       <None Remove="Resources\BaseUnit.template" />
       <EmbeddedResource Include="Resources\BaseUnit.template" />
       <None Remove="Resources\DerivedUnit.template" />
@@ -34,14 +30,6 @@
 
     <ItemGroup>
       <PackageReference Include="CsvHelper" Version="30.0.1" />
-    </ItemGroup>
-    
-    <ItemGroup>
-      <Compile Update="Resources\Templates.Designer.cs">
-        <DesignTime>True</DesignTime>
-        <AutoGen>True</AutoGen>
-        <DependentUpon>Templates.resx</DependentUpon>
-      </Compile>
     </ItemGroup>
 
 </Project>
