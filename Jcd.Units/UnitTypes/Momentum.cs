@@ -1,4 +1,4 @@
-namespace Jcd.Units.UnitTypes;
+﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
 /// A measurement of the product of the mass and velocity of an object.

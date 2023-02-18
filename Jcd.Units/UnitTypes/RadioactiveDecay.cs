@@ -1,4 +1,4 @@
-namespace Jcd.Units.UnitTypes;
+﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
 /// A measurement of the number of atomic nuclei that decay per unit time.

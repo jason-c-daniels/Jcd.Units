@@ -1,4 +1,4 @@
-using Jcd.Units.UnitTypes;
+﻿using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.Astronomy;
 

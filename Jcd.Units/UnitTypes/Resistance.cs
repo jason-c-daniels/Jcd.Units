@@ -1,4 +1,4 @@
-namespace Jcd.Units.UnitTypes;
+﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
 /// A measurement of the opposition to current flow in an electrical circuit.

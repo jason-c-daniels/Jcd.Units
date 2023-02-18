@@ -1,4 +1,4 @@
-namespace Jcd.Units.UnitTypes;
+﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
 /// A measurement of the ability of a system to store an electric charge.

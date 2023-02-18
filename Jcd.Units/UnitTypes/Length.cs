@@ -1,4 +1,4 @@
-namespace Jcd.Units.UnitTypes;
+﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
 /// A measure of a unit of distance.

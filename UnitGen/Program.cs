@@ -84,7 +84,7 @@ foreach (var systemGrouping in groupings)
 #if WRITE_TO_CONSOLE
         Console.WriteLine(fileContent);
 #else        
-        File.WriteAllText(enumerationsFilePath,fileContent);
+        File.WriteAllText(enumerationsFilePath,fileContent, Encoding.UTF8);
 #endif
     }
 }
@@ -134,7 +134,7 @@ string GenerateUnitTypes(string s, IEnumerable<UnitType> enumerable, SourceCodeG
 #if WRITE_TO_CONSOLE
         Console.WriteLine(fileContent);
 #else
-        File.WriteAllText(unitTypeFilePath, fileContent);
+        File.WriteAllText(unitTypeFilePath, fileContent, Encoding.UTF8);
 #endif
     }
 

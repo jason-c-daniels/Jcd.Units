@@ -1,4 +1,4 @@
-namespace Jcd.Units.UnitTypes;
+﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
 /// A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the magnetic flux.

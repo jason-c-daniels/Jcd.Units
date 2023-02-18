@@ -1,4 +1,4 @@
-namespace Jcd.Units.UnitTypes;
+﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
 /// A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle.
