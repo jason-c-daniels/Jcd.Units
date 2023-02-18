@@ -9,7 +9,7 @@ namespace $BaseNamespace$;
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="$UnitTypeName$"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record struct $UnitTypeName$(string Name, string Symbol, double Coefficient=1, double Offset=0) 
+public readonly record struct $UnitTypeName$(string Name, string Symbol, double Coefficient=1, double Offset=0) 
     : IUnitOfMeasure<$UnitTypeName$>
 {
     /// <summary>
