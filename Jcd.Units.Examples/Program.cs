@@ -1,12 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Jcd.Units;
-using Jcd.Units.Examples;
 using Jcd.Units.UnitsOfMeasure;
+using Jcd.Units.UnitTypes;
 using SI=Jcd.Units.UnitsOfMeasure.SI;
 using USCustomary=Jcd.Units.UnitsOfMeasure.USCustomary;
 using USSurvey=Jcd.Units.UnitsOfMeasure.USSurvey;
-using Jcd.Units.UnitTypes;
+using Imperial=Jcd.Units.UnitsOfMeasure.Imperial;
 
 var allDurations = Durations.GetAll().ToList();
 Console.WriteLine("Hello, World!");
@@ -16,9 +16,9 @@ var oneSecInMs = oneSec.To(Durations.Millisecond);
 var meterQuantity = 1d.As(SI.Lengths.Meter);
 var kmQuantity=meterQuantity.To(SI.Lengths.Kilometer);
 var twoM= (meterQuantity + kmQuantity);
-var twoMInInches = twoM.To(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch); // two meters in inches.
-var oneInch = 1.As(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch);
-var oneInchInTwips = oneInch.To(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Twip);
+var twoMInInches = twoM.To(Imperial.Lengths.Inch); // two meters in inches.
+var oneInch = 1.As(Imperial.Lengths.Inch);
+var oneInchInTwips = oneInch.To(Imperial.Lengths.Twip);
 var oneParsec = 1.As(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.Parsec);
 var oneParsecInKm = oneParsec.To(SI.Lengths.Kilometer);
 var oneLy = 1.As(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.LightYear);
@@ -27,16 +27,16 @@ var oneLyInKm = oneLy.To(SI.Lengths.Kilometer);
 var oneLyInM = oneLy.To(SI.Lengths.Meter);
 var oneLyInKm2 = oneLyInM.To(SI.Lengths.Kilometer);
 var oneLyInMm = oneLy.To(SI.Lengths.Millimeter);
-var oneUSInch = 1.As(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Inch);
-var oneInchInPt = oneUSInch.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Point);
-var oneLink = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
-var oneLinkAsInches = oneLink.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Inch);
+var oneUSInch = 1.As(USCustomary.Lengths.Inch);
+var oneInchInPt = oneUSInch.To(USCustomary.Lengths.Point);
+var oneLink = 1.As(USSurvey.Lengths.Link);
+var oneLinkAsInches = oneLink.To(USCustomary.Lengths.Inch);
 var oneLinkAsCm = oneLink.To(SI.Lengths.Centimeter);
 //var oneSurveyFoot = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Foot);
 //var oneSurveyFootAsCm = oneSurveyFoot.To(SI.Lengths.Centimeter);
 //var oneSurveyFootAsFoot = oneSurveyFoot.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Foot);
-var oneRod = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Rod);
-var oneRodInLinks = oneRod.To(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
+var oneRod = 1.As(USSurvey.Lengths.Rod);
+var oneRodInLinks = oneRod.To(USSurvey.Lengths.Link);
 
 var meqkm= meterQuantity == kmQuantity;
 var twoMGtMq = twoM > meterQuantity;
@@ -66,7 +66,6 @@ var tempDe = tempF.To(Temperatures.DegreesDelisle);
 var tempDe1 = tempF1.To(Temperatures.DegreesDelisle);
 var tempDe5 = tempF5.To(Temperatures.DegreesDelisle);
 
-
 int j = 0;
 /*
 var tempDe = 0d.As(Temperatures.DegreesRømer);
@@ -94,17 +93,17 @@ var tempC5 = (3+tempDe).To(Temperatures.DegreesCelcius);
 // if, in the example case of the length, you wanted square feet you'd first convert to feet, then multiply, then convert to square feet
 var i = 0;
 
-var T1 = new Jcd.Units.Examples.Temperature("degrees Celcius","deg. C",1,0);
-var T2 = new Jcd.Units.Examples.Temperature("degrees Fahrenheit","deg. F",T1,5.0/9.0,-32);
+var T1 = new Temperature("degrees Celcius","deg. C",1,0);
+var T2 = new Temperature("degrees Fahrenheit","deg. F",T1,5.0/9.0,-32);
 var x = -T2.Offset;
-var T3 = new Jcd.Units.Examples.Temperature("degrees C+32", "deg. C+32", T2, 1.0/T2.Coefficient, -((x-x*T2.Coefficient)/T2.Coefficient));
-var T4 = new Jcd.Units.Examples.Temperature("degrees Celcius (also)", "deg. C*", T3, 1.0,32);
+var T3 = new Temperature("degrees C+32", "deg. C+32", T2, 1.0/T2.Coefficient, -((x-x*T2.Coefficient)/T2.Coefficient));
+var T4 = new Temperature("degrees Celcius (also)", "deg. C*", T3, 1.0,32);
 var qt1 = 1d.As(T1);
 var qt2 = qt1.To(T2);
 var qt3_1 = qt2.To(T3);
 var qt3_2 = qt1.To(T3);
 
-if (null >= T1)
+if (T4 == T1)
 {
     Console.WriteLine("It works!");
 }

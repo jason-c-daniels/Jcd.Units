@@ -38,4 +38,4 @@ The coefficient relative to the `baseUnit`
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the `baseUnit`.
+The offset from the [baseUnit](Jcd.Units.UnitTypes.Frequency.Frequency(string,string,Jcd.Units.UnitTypes.Frequency,double,double).md#Jcd.Units.UnitTypes.Frequency.Frequency(string,string,Jcd.Units.UnitTypes.Frequency,double,double).baseUnit 'Jcd.Units.UnitTypes.Frequency.Frequency(string, string, Jcd.Units.UnitTypes.Frequency, double, double).baseUnit').

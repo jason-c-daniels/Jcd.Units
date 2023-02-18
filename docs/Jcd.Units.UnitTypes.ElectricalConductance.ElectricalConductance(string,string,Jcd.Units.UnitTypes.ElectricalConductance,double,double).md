@@ -38,4 +38,4 @@ The coefficient relative to the `baseUnit`
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the `baseUnit`.
+The offset from the [baseUnit](Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double).md#Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double).baseUnit 'Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string, string, Jcd.Units.UnitTypes.ElectricalConductance, double, double).baseUnit').

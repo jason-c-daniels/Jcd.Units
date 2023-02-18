@@ -1,39 +1,17 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes')
 
-## RadioactiveDecay Struct
+## RadioactiveDecay Class
 
 Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
 
 ```csharp
-public readonly struct RadioactiveDecay :
-Jcd.Units.IUnitOfMeasure<Jcd.Units.UnitTypes.RadioactiveDecay>
+public class RadioactiveDecay : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.RadioactiveDecay>
 ```
 
-Implements [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')[RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')[&gt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](Jcd.Units.UnitOfMeasure_TUnits_.md 'Jcd.Units.UnitOfMeasure<TUnits>')[RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')[&gt;](Jcd.Units.UnitOfMeasure_TUnits_.md 'Jcd.Units.UnitOfMeasure<TUnits>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; RadioactiveDecay
 
 | Constructors | |
 | :--- | :--- |
 | [RadioactiveDecay(string, string, double, double)](Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string,string,double,double).md 'Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string, string, double, double)') | Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') |
 | [RadioactiveDecay(string, string, RadioactiveDecay, double, double)](Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string,string,Jcd.Units.UnitTypes.RadioactiveDecay,double,double).md 'Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string, string, Jcd.Units.UnitTypes.RadioactiveDecay, double, double)') | Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') using another RadioactiveDecay as a reference. |
-
-| Properties | |
-| :--- | :--- |
-| [Coefficient](Jcd.Units.UnitTypes.RadioactiveDecay.Coefficient.md 'Jcd.Units.UnitTypes.RadioactiveDecay.Coefficient') | The unit's coefficient relative to the ultimate base unit's representation. |
-| [Name](Jcd.Units.UnitTypes.RadioactiveDecay.Name.md 'Jcd.Units.UnitTypes.RadioactiveDecay.Name') | The name of this unit |
-| [Offset](Jcd.Units.UnitTypes.RadioactiveDecay.Offset.md 'Jcd.Units.UnitTypes.RadioactiveDecay.Offset') | The offset used when computing values going to and from the base unit's representation. |
-| [Symbol](Jcd.Units.UnitTypes.RadioactiveDecay.Symbol.md 'Jcd.Units.UnitTypes.RadioactiveDecay.Symbol') | The symbol or abbreviation to represent the [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') |
-
-| Methods | |
-| :--- | :--- |
-| [CompareTo(RadioactiveDecay)](Jcd.Units.UnitTypes.RadioactiveDecay.CompareTo(Jcd.Units.UnitTypes.RadioactiveDecay).md 'Jcd.Units.UnitTypes.RadioactiveDecay.CompareTo(Jcd.Units.UnitTypes.RadioactiveDecay)') | Performs a relative comparison between this [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') and another one. |
-| [CompareTo(object)](Jcd.Units.UnitTypes.RadioactiveDecay.CompareTo(object).md 'Jcd.Units.UnitTypes.RadioactiveDecay.CompareTo(object)') | Performs a relative comparison between this [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') and another one. |
-| [Equals(RadioactiveDecay)](Jcd.Units.UnitTypes.RadioactiveDecay.Equals(Jcd.Units.UnitTypes.RadioactiveDecay).md 'Jcd.Units.UnitTypes.RadioactiveDecay.Equals(Jcd.Units.UnitTypes.RadioactiveDecay)') | Compares this [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') to another one for equality. |
-| [GetHashCode()](Jcd.Units.UnitTypes.RadioactiveDecay.GetHashCode().md 'Jcd.Units.UnitTypes.RadioactiveDecay.GetHashCode()') | Computes the hash code for this [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') |
-
-| Operators | |
-| :--- | :--- |
-| [operator &gt;(RadioactiveDecay, RadioactiveDecay)](Jcd.Units.UnitTypes.RadioactiveDecay.op_GreaterThan(Jcd.Units.UnitTypes.RadioactiveDecay,Jcd.Units.UnitTypes.RadioactiveDecay).md 'Jcd.Units.UnitTypes.RadioactiveDecay.op_GreaterThan(Jcd.Units.UnitTypes.RadioactiveDecay, Jcd.Units.UnitTypes.RadioactiveDecay)') | Compares two [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') instances to determine if the left one is greater than the right one. |
-| [operator &gt;=(RadioactiveDecay, RadioactiveDecay)](Jcd.Units.UnitTypes.RadioactiveDecay.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.RadioactiveDecay,Jcd.Units.UnitTypes.RadioactiveDecay).md 'Jcd.Units.UnitTypes.RadioactiveDecay.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.RadioactiveDecay, Jcd.Units.UnitTypes.RadioactiveDecay)') | Compares two [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') instances to determine if the left one is greater than or equal to the right one. |
-| [operator &lt;(RadioactiveDecay, RadioactiveDecay)](Jcd.Units.UnitTypes.RadioactiveDecay.op_LessThan(Jcd.Units.UnitTypes.RadioactiveDecay,Jcd.Units.UnitTypes.RadioactiveDecay).md 'Jcd.Units.UnitTypes.RadioactiveDecay.op_LessThan(Jcd.Units.UnitTypes.RadioactiveDecay, Jcd.Units.UnitTypes.RadioactiveDecay)') | Compares two [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') instances to determine if the left one is less than the right one. |
-| [operator &lt;=(RadioactiveDecay, RadioactiveDecay)](Jcd.Units.UnitTypes.RadioactiveDecay.op_LessThanOrEqual(Jcd.Units.UnitTypes.RadioactiveDecay,Jcd.Units.UnitTypes.RadioactiveDecay).md 'Jcd.Units.UnitTypes.RadioactiveDecay.op_LessThanOrEqual(Jcd.Units.UnitTypes.RadioactiveDecay, Jcd.Units.UnitTypes.RadioactiveDecay)') | Compares two [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') instances to determine if the left one is less than or equal to the right one. |

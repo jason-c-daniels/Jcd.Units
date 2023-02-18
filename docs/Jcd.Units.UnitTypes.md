@@ -2,7 +2,7 @@
 
 ## Jcd.Units.UnitTypes Namespace
 
-| Structs | |
+| Classes | |
 | :--- | :--- |
 | [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') | Constructs a unit measuring a specified [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') |
 | [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') |

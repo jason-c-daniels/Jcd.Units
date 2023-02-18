@@ -1,39 +1,17 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes')
 
-## CatalyticActivity Struct
+## CatalyticActivity Class
 
 Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
 
 ```csharp
-public readonly struct CatalyticActivity :
-Jcd.Units.IUnitOfMeasure<Jcd.Units.UnitTypes.CatalyticActivity>
+public class CatalyticActivity : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.CatalyticActivity>
 ```
 
-Implements [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')[CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')[&gt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](Jcd.Units.UnitOfMeasure_TUnits_.md 'Jcd.Units.UnitOfMeasure<TUnits>')[CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')[&gt;](Jcd.Units.UnitOfMeasure_TUnits_.md 'Jcd.Units.UnitOfMeasure<TUnits>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; CatalyticActivity
 
 | Constructors | |
 | :--- | :--- |
 | [CatalyticActivity(string, string, double, double)](Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string,string,double,double).md 'Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string, string, double, double)') | Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') |
 | [CatalyticActivity(string, string, CatalyticActivity, double, double)](Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string,string,Jcd.Units.UnitTypes.CatalyticActivity,double,double).md 'Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string, string, Jcd.Units.UnitTypes.CatalyticActivity, double, double)') | Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another CatalyticActivity as a reference. |
-
-| Properties | |
-| :--- | :--- |
-| [Coefficient](Jcd.Units.UnitTypes.CatalyticActivity.Coefficient.md 'Jcd.Units.UnitTypes.CatalyticActivity.Coefficient') | The unit's coefficient relative to the ultimate base unit's representation. |
-| [Name](Jcd.Units.UnitTypes.CatalyticActivity.Name.md 'Jcd.Units.UnitTypes.CatalyticActivity.Name') | The name of this unit |
-| [Offset](Jcd.Units.UnitTypes.CatalyticActivity.Offset.md 'Jcd.Units.UnitTypes.CatalyticActivity.Offset') | The offset used when computing values going to and from the base unit's representation. |
-| [Symbol](Jcd.Units.UnitTypes.CatalyticActivity.Symbol.md 'Jcd.Units.UnitTypes.CatalyticActivity.Symbol') | The symbol or abbreviation to represent the [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') |
-
-| Methods | |
-| :--- | :--- |
-| [CompareTo(CatalyticActivity)](Jcd.Units.UnitTypes.CatalyticActivity.CompareTo(Jcd.Units.UnitTypes.CatalyticActivity).md 'Jcd.Units.UnitTypes.CatalyticActivity.CompareTo(Jcd.Units.UnitTypes.CatalyticActivity)') | Performs a relative comparison between this [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') and another one. |
-| [CompareTo(object)](Jcd.Units.UnitTypes.CatalyticActivity.CompareTo(object).md 'Jcd.Units.UnitTypes.CatalyticActivity.CompareTo(object)') | Performs a relative comparison between this [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') and another one. |
-| [Equals(CatalyticActivity)](Jcd.Units.UnitTypes.CatalyticActivity.Equals(Jcd.Units.UnitTypes.CatalyticActivity).md 'Jcd.Units.UnitTypes.CatalyticActivity.Equals(Jcd.Units.UnitTypes.CatalyticActivity)') | Compares this [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') to another one for equality. |
-| [GetHashCode()](Jcd.Units.UnitTypes.CatalyticActivity.GetHashCode().md 'Jcd.Units.UnitTypes.CatalyticActivity.GetHashCode()') | Computes the hash code for this [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') |
-
-| Operators | |
-| :--- | :--- |
-| [operator &gt;(CatalyticActivity, CatalyticActivity)](Jcd.Units.UnitTypes.CatalyticActivity.op_GreaterThan(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity).md 'Jcd.Units.UnitTypes.CatalyticActivity.op_GreaterThan(Jcd.Units.UnitTypes.CatalyticActivity, Jcd.Units.UnitTypes.CatalyticActivity)') | Compares two [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') instances to determine if the left one is greater than the right one. |
-| [operator &gt;=(CatalyticActivity, CatalyticActivity)](Jcd.Units.UnitTypes.CatalyticActivity.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity).md 'Jcd.Units.UnitTypes.CatalyticActivity.op_GreaterThanOrEqual(Jcd.Units.UnitTypes.CatalyticActivity, Jcd.Units.UnitTypes.CatalyticActivity)') | Compares two [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') instances to determine if the left one is greater than or equal to the right one. |
-| [operator &lt;(CatalyticActivity, CatalyticActivity)](Jcd.Units.UnitTypes.CatalyticActivity.op_LessThan(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity).md 'Jcd.Units.UnitTypes.CatalyticActivity.op_LessThan(Jcd.Units.UnitTypes.CatalyticActivity, Jcd.Units.UnitTypes.CatalyticActivity)') | Compares two [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') instances to determine if the left one is less than the right one. |
-| [operator &lt;=(CatalyticActivity, CatalyticActivity)](Jcd.Units.UnitTypes.CatalyticActivity.op_LessThanOrEqual(Jcd.Units.UnitTypes.CatalyticActivity,Jcd.Units.UnitTypes.CatalyticActivity).md 'Jcd.Units.UnitTypes.CatalyticActivity.op_LessThanOrEqual(Jcd.Units.UnitTypes.CatalyticActivity, Jcd.Units.UnitTypes.CatalyticActivity)') | Compares two [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') instances to determine if the left one is less than or equal to the right one. |

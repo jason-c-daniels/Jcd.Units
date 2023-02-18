@@ -38,4 +38,4 @@ The coefficient relative to the `baseUnit`
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the `baseUnit`.
+The offset from the [baseUnit](Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string,string,Jcd.Units.UnitTypes.RadiationEquivalentDose,double,double).md#Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string,string,Jcd.Units.UnitTypes.RadiationEquivalentDose,double,double).baseUnit 'Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string, string, Jcd.Units.UnitTypes.RadiationEquivalentDose, double, double).baseUnit').

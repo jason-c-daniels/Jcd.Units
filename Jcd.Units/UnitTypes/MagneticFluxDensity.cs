@@ -2,6 +2,8 @@ using System;
 
 namespace Jcd.Units.UnitTypes;
 
+
+
 /// <summary>
 /// Constructs a unit measuring a specified <see cref="MagneticFluxDensity"/>
 /// </summary>
@@ -9,8 +11,8 @@ namespace Jcd.Units.UnitTypes;
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="MagneticFluxDensity"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public readonly record struct MagneticFluxDensity(string Name, string Symbol, double Coefficient=1, double Offset=0) 
-    : IUnitOfMeasure<MagneticFluxDensity>
+public record MagneticFluxDensity(string Name, string Symbol, double Coefficient=1, double Offset=0) 
+    : UnitOfMeasure<MagneticFluxDensity>(Name,Symbol,Coefficient,Offset)
 {
     /// <summary>
     /// Constructs a unit measuring a specified <see cref="MagneticFluxDensity"/> using another MagneticFluxDensity as a reference.
@@ -19,104 +21,10 @@ public readonly record struct MagneticFluxDensity(string Name, string Symbol, do
     /// <param name="symbol">The symbol or abbreviation to represent the <see cref="MagneticFluxDensity"/></param>
     /// <param name="baseUnit">The unit to use as a base</param>
     /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
-    /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
+    /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
     public MagneticFluxDensity(string name, string symbol, MagneticFluxDensity baseUnit, double coefficient, double offset = 0) 
-        : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
+        : this(name,symbol,baseUnit.ComputeFundamentalCoefficient(coefficient),baseUnit.ComputeFundamentalOffset(offset))
     {
-
+        
     }
-    
-    #region Equality members
-
-    /// <summary>
-    /// Compares this <see cref="MagneticFluxDensity"/> to another one for equality.
-    /// </summary>
-    /// <param name="other">The other <see cref="MagneticFluxDensity"/> to compare against.</param>
-    /// <returns>true if equivalent, false otherwise.</returns>
-    public bool Equals(MagneticFluxDensity other)
-    {
-        return Coefficient.Equals(other.Coefficient) && Offset.Equals(other.Offset);
-    }
-
-    /// <summary>
-    /// Computes the hash code for this <see cref="MagneticFluxDensity"/>
-    /// </summary>
-    /// <returns>The computed hashcode.</returns>
-    public override int GetHashCode()
-    {
-        return HashCode.Combine(Coefficient, Offset, typeof(MagneticFluxDensity));
-    }
-    
-    #endregion
-
-    #region Relational members
-
-    /// <summary>
-    /// Performs a relative comparison between this <see cref="MagneticFluxDensity"/> and another one.
-    /// </summary>
-    /// <param name="other">The <see cref="MagneticFluxDensity"/> to compare against.</param>
-    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    public int CompareTo(MagneticFluxDensity other)
-    {
-        var factorComparison = Coefficient.CompareTo(other.Coefficient);
-        return factorComparison != 0 ? factorComparison : Offset.CompareTo(other.Offset);
-    }
-
-    /// <summary>
-    /// Performs a relative comparison between this <see cref="MagneticFluxDensity"/> and another one.
-    /// </summary>
-    /// <param name="obj">The <see cref="MagneticFluxDensity"/> to compare against.</param>
-    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="MagneticFluxDensity"/></exception>
-    public int CompareTo(object? obj)
-    {
-        if (ReferenceEquals(null, obj)) return 1;
-        return obj is MagneticFluxDensity other ? CompareTo(other) : throw new ArgumentException($"Object must be of type {nameof(MagneticFluxDensity)}");
-    }
-
-    /// <summary>
-    /// Compares two <see cref="MagneticFluxDensity"/> instances to determine if the left one is less than the right one. 
-    /// </summary>
-    /// <param name="left">The left <see cref="MagneticFluxDensity"/></param>
-    /// <param name="right">The right <see cref="MagneticFluxDensity"/></param>
-    /// <returns>true if left is &lt; right; false otherwise.</returns>
-    public static bool operator <(MagneticFluxDensity left, MagneticFluxDensity right)
-    {
-        return left.CompareTo(right) < 0;
-    }
-
-    /// <summary>
-    /// Compares two <see cref="MagneticFluxDensity"/> instances to determine if the left one is greater than the right one. 
-    /// </summary>
-    /// <param name="left">The left <see cref="MagneticFluxDensity"/></param>
-    /// <param name="right">The right <see cref="MagneticFluxDensity"/></param>
-    /// <returns>true if left is &gt; right; false otherwise.</returns>
-    public static bool operator >(MagneticFluxDensity left, MagneticFluxDensity right)
-    {
-        return left.CompareTo(right) > 0;
-    }
-
-    /// <summary>
-    /// Compares two <see cref="MagneticFluxDensity"/> instances to determine if the left one is less than or equal to the right one. 
-    /// </summary>
-    /// <param name="left">The left <see cref="MagneticFluxDensity"/></param>
-    /// <param name="right">The right <see cref="MagneticFluxDensity"/></param>
-    /// <returns>true if left is &lt;= right; false otherwise.</returns>
-    public static bool operator <=(MagneticFluxDensity left, MagneticFluxDensity right)
-    {
-        return left.CompareTo(right) <= 0;
-    }
-
-    /// <summary>
-    /// Compares two <see cref="MagneticFluxDensity"/> instances to determine if the left one is greater than or equal to the right one. 
-    /// </summary>
-    /// <param name="left">The left <see cref="MagneticFluxDensity"/></param>
-    /// <param name="right">The right <see cref="MagneticFluxDensity"/></param>
-    /// <returns>true if left is &gt;= right; false otherwise.</returns>
-    public static bool operator >=(MagneticFluxDensity left, MagneticFluxDensity right)
-    {
-        return left.CompareTo(right) >= 0;
-    }
-
-    #endregion
 }
