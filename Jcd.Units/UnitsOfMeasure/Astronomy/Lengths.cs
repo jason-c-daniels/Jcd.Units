@@ -29,12 +29,12 @@ public class Lengths : Enumeration<Lengths,Length>
     public static readonly Length YottalightYear = new ("yottalight-year", "Yly", ZettalightYear, 1000,0);
     public static readonly Length RonnalightYear = new ("ronnalight-year", "Rly", YottalightYear, 1000,0);
     public static readonly Length QuettalightYear = new ("quettalight-year", "Qly", RonnalightYear, 1000,0);
-    public static readonly Length LightSecond = new ("light-second", "l-sec", SI.Lengths.Meter, 299_792_458,0);
-    public static readonly Length LightMinute = new ("light-minute", "l-min", LightSecond, 60,0);
+    public static readonly Length LightSecond = new ("light-second", "ls", SI.Lengths.Meter, 299_792_458,0);
+    public static readonly Length LightMinute = new ("light-minute", "lm", LightSecond, 60,0);
     public static readonly Length AstronomicalUnit = new ("astronomical unit", "AU", SI.Lengths.Kilometer, 149597870.691,0);
-    public static readonly Length LightHour = new ("light-hour", "l-hr", LightMinute, 60,0);
-    public static readonly Length LightDay = new ("light-day", "l-dy", LightHour, 24,0);
-    public static readonly Length LightWeek = new ("light-week", "l-wk", LightDay, 7,0);
+    public static readonly Length LightHour = new ("light-hour", "lh", LightMinute, 60,0);
+    public static readonly Length LightDay = new ("light-day", "ld", LightHour, 24,0);
+    public static readonly Length LightWeek = new ("light-week", "lw", LightDay, 7,0);
     public static readonly Length Parsec = new ("parsec", "pc", LightYear, 3.2615637769757,0);
     public static readonly Length Deciparsec = new ("deciparsec", "dpc", Parsec, 1.0/10.0,0);
     public static readonly Length Centiparsec = new ("centiparsec", "cpc", Deciparsec, 1.0/10.0,0);

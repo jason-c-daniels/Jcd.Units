@@ -1,11 +1,11 @@
 System,Unit Type,Unit Name,Unit Symbol,Uses Prefixes,Base Unit System,Base Unit,Coefficient,Offset,Sort Index
 Astronomy,Length,light-year,ly,True,SI,meter,9_460_730_472_580_800,0,1
-Astronomy,Length,light-second,l-sec,False,SI,meter,299_792_458,0,2
-Astronomy,Length,light-minute,l-min,False,Astronomy,light-second,60,0,3
+Astronomy,Length,light-second,ls,False,SI,meter,299_792_458,0,2
+Astronomy,Length,light-minute,lm,False,Astronomy,light-second,60,0,3
 Astronomy,Length,astronomical unit,AU,False,SI,kilometer,149597870.691,0,4
-Astronomy,Length,light-hour,l-hr,False,Astronomy,light-minute,60,0,5
-Astronomy,Length,light-day,l-dy,False,Astronomy,light-hour,24,0,6
-Astronomy,Length,light-week,l-wk,False,Astronomy,light-day,7,0,7
+Astronomy,Length,light-hour,lh,False,Astronomy,light-minute,60,0,5
+Astronomy,Length,light-day,ld,False,Astronomy,light-hour,24,0,6
+Astronomy,Length,light-week,lw,False,Astronomy,light-day,7,0,7
 Astronomy,Length,parsec,pc,True,Astronomy,light-year,3.2615637769757,0,8
 Imperial,Length,inch,in.,False,SI,centimeter,2.54,0,0
 Imperial,Length,foot,ft.,False,Imperial,inch,12,0,1
@@ -45,8 +45,8 @@ SI,Radiation Absorbed Dose,gray,Gy,True,SI,gray,1,0,0
 SI,Radiation Equivalent Dose,sievert,sv,True,SI,sievert,1,0,0
 SI,Radioactive Decay,becquerel,Bq,True,SI,becquerel,1,0,0
 SI,Resistance,ohm,Ω,True,SI,ohm,1,0,0
-SI,Temperature,celcius,°C,False,SI,celcius,1,0,0
-SI,Temperature,kelvin,°K,False,SI,celcius,1,-273.15,1
+SI,Temperature,degrees celcius,°C,False,SI,degrees celcius,1,0,0
+SI,Temperature,degrees kelvin,°K,False,SI,degrees celcius,1,-273.15,1
 US Customary,Length,inch,in,False,SI,centimeter,2.54,0,0
 US Customary,Length,mil,mil,False,US Customary,inch,1.0/1000.0,0,1
 US Customary,Length,point,p,False,US Customary,inch,1.0/72.0,0,2
@@ -59,7 +59,7 @@ US Customary,Length,league,le,False,US Customary,mile,3,0,8
 US Customary,Length,fathom,ftm,False,US Customary,yard,2,0,9
 US Customary,Length,cable,cb,False,US Customary,fathom,120,0,10
 US Customary,Length,nautical mile,nmi,False,SI,meter,1852,0,11
-US Customary,Temperature,fahrenheit,°F,False,SI,celcius,5.0/9.0,32,2
+US Customary,Temperature,degrees fahrenheit,°F,False,SI,degrees celcius,5.0/9.0,32,2
 US Survey,Length,link,li,False,SI,meter,0.20116,0,0
 US Survey,Length,rod,rd,False,SI,meter,5.0292,0,1
 US Survey,Length,chain,ch,False,SI,meter,20.1168,0,2
@@ -82,8 +82,8 @@ US Survey,Length,league,lea,False,SI,meter,4828.032,0,4
 ,Duration,sextillion years,Zyr,False,,quadrillion years,1000,0,13
 ,Duration,septillion years,Yyr,False,,sextillion years,1000,0,14
 ,Duration,planck-time,tP,False,,yoctosecond,5.39121E-20,0,15
-,Temperature,rankine,°R,False,SI,celcius,5.0/9.0,-491.67,1
-,Temperature,delisle,°De,False,SI,celcius,1.5,100,2
-,Temperature,newton,°N,False,SI,celcius,33.0/100.0,0,3
-,Temperature,réaumur,°Ré,False,SI,celcius,4.0/5.0,0,4
-,Temperature,rømer,°Rø,False,SI,celcius,0.525,-7.5,5
+,Temperature,degrees rankine,°R,False,SI,degrees celcius,5.0/9.0,-491.67,1
+,Temperature,degrees delisle,°De,False,SI,degrees celcius,1.5,100,2
+,Temperature,degrees newton,°N,False,SI,degrees celcius,33.0/100.0,0,3
+,Temperature,degrees réaumur,°Ré,False,SI,degrees celcius,4.0/5.0,0,4
+,Temperature,degrees rømer,°Rø,False,SI,degrees celcius,0.525,-7.5,5
