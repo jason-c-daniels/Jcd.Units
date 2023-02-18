@@ -345,6 +345,96 @@
             <typeparam name="TUnits">The type of the unit of measure.</typeparam>
             <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
         </member>
+        <member name="T:Jcd.Units.UnitOfMeasure`1">
+            <summary>
+            Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,System.Double,System.Double)">
+            <summary>
+            Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
+            </summary>
+            <param name="Name">The name of this unit</param>
+            <param name="Symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.Name">
+            <summary>The name of this unit</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.Symbol">
+            <summary>The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1"/></summary>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.Coefficient">
+            <summary>The unit's coefficient relative to the ultimate base unit's representation.</summary>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.Offset">
+            <summary>The offset used when computing values going to and from the base unit's representation.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.Equals(Jcd.Units.UnitOfMeasure{`0})">
+            <summary>
+            Compares this <see cref="T:Jcd.Units.UnitOfMeasure`1"/> to another one for equality.
+            </summary>
+            <param name="other">The other <see cref="T:Jcd.Units.UnitOfMeasure`1"/> to compare against.</param>
+            <returns>true if equivalent, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.GetHashCode">
+            <summary>
+            Computes the hash code for this <see cref="T:Jcd.Units.UnitOfMeasure`1"/>
+            </summary>
+            <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.CompareTo(Jcd.Units.UnitOfMeasure{`0})">
+            <summary>
+            Performs a relative comparison between this <see cref="T:Jcd.Units.UnitOfMeasure`1"/> and another one.
+            </summary>
+            <param name="other">The <see cref="T:Jcd.Units.UnitOfMeasure`1"/> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.CompareTo(System.Object)">
+            <summary>
+            Performs a relative comparison between this <see cref="T:Jcd.Units.UnitOfMeasure`1"/> and another one.
+            </summary>
+            <param name="obj">The <see cref="T:Jcd.Units.UnitOfMeasure`1"/> to compare against.</param>
+            <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+            <exception cref="T:System.ArgumentException">When the passed in object is not a <see cref="T:Jcd.Units.UnitOfMeasure`1"/></exception>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.op_LessThan(Jcd.Units.UnitOfMeasure{`0},Jcd.Units.UnitOfMeasure{`0})">
+            <summary>
+            Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1"/> instances to determine if the left one is less than the right one. 
+            </summary>
+            <param name="left">The left <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <returns>true if left is &lt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.op_GreaterThan(Jcd.Units.UnitOfMeasure{`0},Jcd.Units.UnitOfMeasure{`0})">
+            <summary>
+            Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1"/> instances to determine if the left one is greater than the right one. 
+            </summary>
+            <param name="left">The left <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <returns>true if left is &gt; right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.op_LessThanOrEqual(Jcd.Units.UnitOfMeasure{`0},Jcd.Units.UnitOfMeasure{`0})">
+            <summary>
+            Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1"/> instances to determine if the left one is less than or equal to the right one. 
+            </summary>
+            <param name="left">The left <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <returns>true if left is &lt;= right; false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.op_GreaterThanOrEqual(Jcd.Units.UnitOfMeasure{`0},Jcd.Units.UnitOfMeasure{`0})">
+            <summary>
+            Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1"/> instances to determine if the left one is greater than or equal to the right one. 
+            </summary>
+            <param name="left">The left <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <returns>true if left is &gt;= right; false otherwise.</returns>
+        </member>
         <member name="T:Jcd.Units.UnitOfMeasureExtensions">
             <summary>
             Extension methods that convert raw values to and from fundamental
@@ -371,6 +461,26 @@
             <param name="sourceUnit">The unit of measure to convert FROM</param>
             <param name="value">the denormalized value.</param>
             <typeparam name="TUnitType">The type of unit of measure (e.g. Length)</typeparam>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient``1(Jcd.Units.IUnitOfMeasure{``0},System.Double)">
+            <summary>
+            Given a <paramref name="baseUnit"/> and a coefficient, calculate the equivalent
+            coefficient for the fundamental unit of measure. (i.e. the one with Coeff = 1 and Offset = 0) 
+            </summary>
+            <param name="baseUnit">The base unit of measure to use.</param>
+            <param name="coefficient">The coefficient to normalize.</param>
+            <typeparam name="TUnitType">The unit of measure type.</typeparam>
+            <returns>The coefficient for the fundamental unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalOffset``1(Jcd.Units.IUnitOfMeasure{``0},System.Double)">
+            <summary>
+            Given a <paramref name="baseUnit"/> and an offset, calculate the equivalent
+            offset for the fundamental unit of measure. (i.e. the one with Coeff = 1 and Offset = 0) 
+            </summary>
+            <param name="baseUnit">The base unit of measure to use.</param>
+            <param name="offset">The offset to normalize.</param>
+            <typeparam name="TUnitType">The unit of measure type.</typeparam>
+            <returns>The offset for the fundamental unit of measure.</returns>
         </member>
         <member name="T:Jcd.Units.UnitTypes.Amount">
             <summary>

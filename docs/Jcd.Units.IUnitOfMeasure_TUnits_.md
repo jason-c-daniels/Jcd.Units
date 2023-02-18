@@ -17,6 +17,7 @@ public interface IUnitOfMeasure<in TUnits>
 The type deriving from [IUnitOfMeasure&lt;TUnits&gt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')
 
 Derived  
+&#8627; [UnitOfMeasure&lt;TUnits&gt;](Jcd.Units.UnitOfMeasure_TUnits_.md 'Jcd.Units.UnitOfMeasure<TUnits>')  
 &#8627; [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')  
 &#8627; [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')  
 &#8627; [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')  

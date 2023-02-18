@@ -8,6 +8,7 @@ Provides TODO: A description of what this namespace provides.
 | :--- | :--- |
 | [Enumeration&lt;TEnumeration,T&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') | The base of all DDD-style enumerations in this library. |
 | [QuantityExtensions](Jcd.Units.QuantityExtensions.md 'Jcd.Units.QuantityExtensions') | Some extension methods to make creating quantities using units of measures,<br/>and converting among units of measure easier. |
+| [UnitOfMeasure&lt;TUnits&gt;](Jcd.Units.UnitOfMeasure_TUnits_.md 'Jcd.Units.UnitOfMeasure<TUnits>') | Base type to simplify creating a unit of measure. This type provides relational and equivalence operations. |
 | [UnitOfMeasureExtensions](Jcd.Units.UnitOfMeasureExtensions.md 'Jcd.Units.UnitOfMeasureExtensions') | Extension methods that convert raw values to and from fundamental<br/>(Coefficient=1, Offset=0) unit of measure representations. |
 
 | Structs | |

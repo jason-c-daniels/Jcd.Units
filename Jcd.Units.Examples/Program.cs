@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Jcd.Units;
+using Jcd.Units.Examples;
 using Jcd.Units.UnitsOfMeasure;
 using SI=Jcd.Units.UnitsOfMeasure.SI;
 using USCustomary=Jcd.Units.UnitsOfMeasure.USCustomary;
@@ -92,3 +93,20 @@ var tempC5 = (3+tempDe).To(Temperatures.DegreesCelcius);
 // NOTE: You're responsible for selecting the correct unit of measure.
 // if, in the example case of the length, you wanted square feet you'd first convert to feet, then multiply, then convert to square feet
 var i = 0;
+
+var T1 = new Jcd.Units.Examples.Temperature("degrees Celcius","deg. C",1,0);
+var T2 = new Jcd.Units.Examples.Temperature("degrees Fahrenheit","deg. F",T1,5.0/9.0,-32);
+var x = -T2.Offset;
+var T3 = new Jcd.Units.Examples.Temperature("degrees C+32", "deg. C+32", T2, 1.0/T2.Coefficient, -((x-x*T2.Coefficient)/T2.Coefficient));
+var T4 = new Jcd.Units.Examples.Temperature("degrees Celcius (also)", "deg. C*", T3, 1.0,32);
+var qt1 = 1d.As(T1);
+var qt2 = qt1.To(T2);
+var qt3_1 = qt2.To(T3);
+var qt3_2 = qt1.To(T3);
+
+if (null >= T1)
+{
+    Console.WriteLine("It works!");
+}
+
+int xx = 99;

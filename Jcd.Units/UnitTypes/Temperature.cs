@@ -21,7 +21,7 @@ public readonly record struct Temperature(string Name, string Symbol, double Coe
     /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
     /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
     public Temperature(string name, string symbol, Temperature baseUnit, double coefficient, double offset = 0) 
-        : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
+        : this(name,symbol,baseUnit.ComputeFundamentalCoefficient(coefficient),baseUnit.ComputeFundamentalOffset(offset))
     {
 
     }
