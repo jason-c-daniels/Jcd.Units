@@ -1,5 +1,7 @@
 ﻿Name,Description,Has Subnamespace,Subnamespace
 SI,International System of Units,True,SI
 US Customary,United States Customary Units,True,USCustomary
-Imperial,British Imperial,True,Imperial
-,Default,False,
+Imperial,British Imperial Units,True,Imperial
+,Default / Uncategorized,False,
+Imperial Maritime,British Imperial Maritime Units,True,ImperialMaritime
+US Survey,United States Survey Units,True,USSurvey

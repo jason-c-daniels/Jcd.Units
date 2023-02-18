@@ -1,4 +1,71 @@
-﻿System,Unit Type,Unit Name,Unit Symbol,Uses Prefixes,Base Unit System,Base Unit,Coefficient,Offset,Sort Index
+System,Unit Type,Unit Name,Unit Symbol,Uses Prefixes,Base Unit System,Base Unit,Coefficient,Offset,Sort Index
+Astronomy,Length,light-year,ly,True,SI,meter,9_460_730_472_580_800,0,1
+Astronomy,Length,light-second,l-sec,False,SI,meter,299_792_458,0,2
+Astronomy,Length,light-minute,l-min,False,Astronomy,light-second,60,0,3
+Astronomy,Length,astronomical unit,AU,False,Astronomy,kilometer,149597870.691,0,4
+Astronomy,Length,light-hour,l-hr,False,Astronomy,light-minute,60,0,5
+Astronomy,Length,light-day,l-dy,False,Astronomy,light-hour,24,0,6
+Astronomy,Length,light-week,l-wk,False,Astronomy,light-day,7,0,7
+Astronomy,Length,parsec,pc,True,Astronomy,light-year,3.2615637769757,0,8
+Imperial,Length,inch,in.,False,SI,centimeter,2.54,0,0
+Imperial,Length,foot,ft.,False,Imperial,inch,12,0,1
+Imperial,Length,twip,twip,False,Imperial,foot,1/17280,0,2
+Imperial,Length,thou,th,False,Imperial,foot,1/12000,0,3
+Imperial,Length,barleycorn,barleycorn,False,Imperial,foot,1/36,0,4
+Imperial,Length,hand,hh,False,Imperial,inch,4,0,5
+Imperial,Length,yard,yd,False,Imperial,foot,3,0,6
+Imperial,Length,chain,ch,False,Imperial,yard,22,0,7
+Imperial,Length,furlong,fur,False,Imperial,chain,10,0,8
+Imperial,Length,mile,mi,False,Imperial,furlong,8,0,9
+Imperial,Length,league,lea,False,Imperial,mile,3,0,10
+Imperial,Length,fathom,ftm,False,Imperial,foot,6,0,11
+Imperial,Length,cable,cable,False,Imperial,fathom,100,0,12
+Imperial,Length,nautical mile,nmi,False,Imperial,cable,10,0,13
+SI,Amount,mole,mol,True,,count,6.02214076E+23,0,1
+SI,Capacitance,farad,F,True,SI,farad,1,0,0
+SI,Catalytic Activity,katal,kat,True,SI,katal,1,0,0
+SI,Electrical Charge,coulomb,C,True,SI,coulomb,1,0,0
+SI,Electrical Conductance,siemens,S,True,SI,siemens,1,0,0
+SI,Electrical Current,ampere,A,True,SI,ampere,1,0,0
+SI,Electrical Potential,volt,V,True,SI,volt,1,0,0
+SI,Energy,joule,J,True,SI,joule,1,0,0
+SI,Force,newton,N,True,SI,newton,1,0,0
+SI,Frequency,hertz,Hz,True,SI,hertz,1,0,0
+SI,Illuminance,lux,lx,True,SI,lux,1,0,0
+SI,Inductance,henry,H,True,SI,henry,1,0,0
+SI,Length,meter,m,True,SI,meter,1,0,0
+SI,Luminous Flux,lumen,lm,True,SI,lumen,1,0,0
+SI,Luminous Intensity,candela,cd,True,SI,candela,1,0,0
+SI,Magnetic Flux,weber,Wb,True,SI,weber,1,0,0
+SI,Magnetic Flux Density,tesla,T,True,SI,tesla,1,0,0
+SI,Mass,gram,g,True,SI,gram,1,0,0
+SI,Power,watt,W,True,SI,watt,1,0,0
+SI,Pressure,pascal,Pa,True,SI,pascal,1,0,0
+SI,Radiation Absorbed Dose,gray,Gy,True,SI,gray,1,0,0
+SI,Radiation Equivalent Dose,sievert,sv,True,SI,sievert,1,0,0
+SI,Radioactive Decay,becquerel,Bq,True,SI,becquerel,1,0,0
+SI,Resistance,ohm,Ω,True,SI,ohm,1,0,0
+SI,Temperature,celcius,°C,False,SI,celcius,1,0,0
+SI,Temperature,kelvin,°K,False,SI,celcius,1,-273.15,1
+US Customary,Length,inch,in,False,SI,centimeter,2.54,0,0
+US Customary,Length,mil,mil,False,US Customary,inch,1.0/1000.0,0,1
+US Customary,Length,point,p,False,US Customary,inch,1.0/72.0,0,2
+US Customary,Length,twip,twip,False,US Customary,point,1.0/20.0,0,3
+US Customary,Length,pica,P,False,US Customary,point,12,0,4
+US Customary,Length,foot,ft,False,US Customary,inch,12,0,5
+US Customary,Length,yard,yd,False,US Customary,foot,3,0,6
+US Customary,Length,mile,mi,False,US Customary,yard,1760,0,7
+US Customary,Length,league,le,False,US Customary,mile,3,0,8
+US Customary,Length,fathom,ftm,False,US Customary,yard,2,0,9
+US Customary,Length,cable,cb,False,US Customary,fathom,120,0,10
+US Customary,Length,nautical mile,nmi,False,SI,meter,1852,0,11
+US Customary,Temperature,fahrenheit,°F,False,SI,celcius,5.0/9.0,32,2
+US Survey,Length,link,li,False,SI,meter,0.20116,0,0
+US Survey,Length,rod,rd,False,SI,meter,5.0292,0,1
+US Survey,Length,chain,ch,False,SI,meter,20.1168,0,2
+US Survey,Length,furlong,fur,False,SI,meter,201.168,0,3
+US Survey,Length,league,lea,False,SI,meter,4828.032,0,4
+,Amount,count,ct.,False,,count,1,0,0
 ,Duration,second,s,True,,second,1,0,0
 ,Duration,minute,min,False,,second,60,0,1
 ,Duration,hour,hr,False,,minute,60,0,2
@@ -15,39 +82,8 @@
 ,Duration,sextillion years,Zyr,False,,quadrillion years,1000,0,13
 ,Duration,septillion years,Yyr,False,,sextillion years,1000,0,14
 ,Duration,planck-time,tP,False,,yoctosecond,5.39121E-20,0,15
-SI,Length,meter,m,True,SI,meter,1,0,0
-Astronomy,Length,light-year,ly,True,SI,meter,9_460_730_472_580_800,0,1
-Astronomy,Length,parsec,pc,True,Astronomy,light-year,3.2615637769757,0,2
-Astronomy,Length,astronomical unit,AU,False,Astronomy,kilometer,149597870.691,0,3
-SI,Mass,gram,g,True,SI,gram,1,0,0
-SI,Electrical Current,ampere,A,True,SI,ampere,1,0,0
-SI,Temperature,celcius,°C,False,SI,celcius,1,0,1
-SI,Temperature,kelvin,°K,False,SI,celcius,1,-273.15,1
-US Customary,Temperature,fahrenheit,°F,False,SI,celcius,5.0/9.0,32.0,2
-,Temperature,rankine,°R,False,SI,celcius,5.0/9.0,-491.67,3
-,Temperature,delisle,°De,False,SI,celcius,1.5,100,4
-,Temperature,newton,°N,False,SI,celcius,33.0/100.0,0,5
-,Temperature,réaumur,°Ré,False,SI,celcius,4.0/5.0,0,6
-,Temperature,rømer,°Rø,False,SI,celcius,0.52500,-7.5,7
-,Amount,count,ct.,False,,count,1,0,0
-SI,Amount,mole,mol,True,,count,6.02214076E+23,0,1
-SI,Luminous Intensity,candela,cd,True,SI,candela,1,0,0
-SI,Force,newton,N,True,SI,newton,1,0,0
-SI,Frequency,hertz,Hz,True,SI,hertz,1,0,0
-SI,Pressure,pascal,Pa,True,SI,pascal,1,0,0
-SI,Energy,joule,J,True,SI,joule,1,0,0
-SI,Power,watt,W,True,SI,watt,1,0,0
-SI,Electrical Charge,coulomb,C,True,SI,coulomb,1,0,0
-SI,Electrical Potential,volt,V,True,SI,volt,1,0,0
-SI,Capacitance,farad,F,True,SI,farad,1,0,0
-SI,Resistance,ohm,Ω,True,SI,ohm,1,0,0
-SI,Electrical Conductance,siemens,S,True,SI,siemens,1,0,0
-SI,Magnetic Flux,weber,Wb,True,SI,weber,1,0,0
-SI,Magnetic Flux Density,tesla,T,True,SI,tesla,1,0,0
-SI,Inductance,henry,H,True,SI,henry,1,0,0
-SI,Luminous Flux,lumen,lm,True,SI,lumen,1,0,0
-SI,Illuminance,lux,lx,True,SI,lux,1,0,0
-SI,Radioactive Decay,becquerel,Bq,True,SI,becquerel,1,0,0
-SI,Radiation Absorbed Dose,gray,Gy,True,SI,gray,1,0,0
-SI,Radiation Equivalent Dose,sievert,sv,True,SI,sievert,1,0,0
-SI,Catalytic Activity,katal,kat,True,SI,katal,1,0,0
+,Temperature,rankine,°R,False,SI,celcius,5.0/9.0,-491.67,1
+,Temperature,delisle,°De,False,SI,celcius,1.5,100,2
+,Temperature,newton,°N,False,SI,celcius,33.0/100.0,0,3
+,Temperature,réaumur,°Ré,False,SI,celcius,4.0/5.0,0,4
+,Temperature,rømer,°Rø,False,SI,celcius,0.525,-7.5,5

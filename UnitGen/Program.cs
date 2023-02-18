@@ -1,4 +1,6 @@
-﻿using System.Reflection;
+﻿#define WRITE_TO_CONSOLE
+
+using System.Reflection;
 using System.Text;
 using UnitGen.CodeGenerators;
 using UnitGen.Data;
@@ -79,8 +81,11 @@ foreach (var systemGrouping in groupings)
         }
 
         var fileContent=gen.GenerateEnumeration(sortedGrouping[0],sbUnits.ToString());
+#if WRITE_TO_CONSOLE
         Console.WriteLine(fileContent);
-        //File.WriteAllText(enumerationsFilePath,fileContent);
+#else        
+        File.WriteAllText(enumerationsFilePath,fileContent);
+#endif
     }
 }
 
@@ -126,8 +131,11 @@ string GenerateUnitTypes(string s, IEnumerable<UnitType> enumerable, SourceCodeG
             Console.WriteLine($"{unitTypeFilePath} already exists. Overwriting.");
         Console.WriteLine($"--------------------------------------------------------");
         var fileContent = gen.GenerateUnitType(ut);
+#if WRITE_TO_CONSOLE
         Console.WriteLine(fileContent);
-        //File.WriteAllText(unitTypeFilePath, fileContent);
+#else
+        File.WriteAllText(unitTypeFilePath, fileContent);
+#endif
     }
 
     return unitTypesDir;
