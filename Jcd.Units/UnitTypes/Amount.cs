@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Jcd.Units.UnitTypes;
 
@@ -9,7 +9,7 @@ namespace Jcd.Units.UnitTypes;
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="Amount"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record struct Amount(string Name, string Symbol, double Coefficient=1, double Offset=0)
+public readonly record struct Amount(string Name, string Symbol, double Coefficient=1, double Offset=0) 
     : IUnitOfMeasure<Amount>
 {
     /// <summary>
@@ -20,12 +20,12 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     /// <param name="baseUnit">The unit to use as a base</param>
     /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
     /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
-    public Amount(string name, string symbol, Amount baseUnit, double coefficient, double offset = 0)
+    public Amount(string name, string symbol, Amount baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
     {
 
     }
-
+    
     #region Equality members
 
     /// <summary>
@@ -46,7 +46,7 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     {
         return HashCode.Combine(Coefficient, Offset, typeof(Amount));
     }
-
+    
     #endregion
 
     #region Relational members
@@ -75,7 +75,7 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Compares two <see cref="Amount"/> instances to determine if the left one is less than the right one.
+    /// Compares two <see cref="Amount"/> instances to determine if the left one is less than the right one. 
     /// </summary>
     /// <param name="left">The left <see cref="Amount"/></param>
     /// <param name="right">The right <see cref="Amount"/></param>
@@ -86,7 +86,7 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Compares two <see cref="Amount"/> instances to determine if the left one is greater than the right one.
+    /// Compares two <see cref="Amount"/> instances to determine if the left one is greater than the right one. 
     /// </summary>
     /// <param name="left">The left <see cref="Amount"/></param>
     /// <param name="right">The right <see cref="Amount"/></param>
@@ -97,7 +97,7 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Compares two <see cref="Amount"/> instances to determine if the left one is less than or equal to the right one.
+    /// Compares two <see cref="Amount"/> instances to determine if the left one is less than or equal to the right one. 
     /// </summary>
     /// <param name="left">The left <see cref="Amount"/></param>
     /// <param name="right">The right <see cref="Amount"/></param>
@@ -108,7 +108,7 @@ public record struct Amount(string Name, string Symbol, double Coefficient=1, do
     }
 
     /// <summary>
-    /// Compares two <see cref="Amount"/> instances to determine if the left one is greater than or equal to the right one.
+    /// Compares two <see cref="Amount"/> instances to determine if the left one is greater than or equal to the right one. 
     /// </summary>
     /// <param name="left">The left <see cref="Amount"/></param>
     /// <param name="right">The right <see cref="Amount"/></param>

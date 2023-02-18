@@ -1,6 +1,6 @@
-﻿using Jcd.Units.UnitTypes;
+using Jcd.Units.UnitTypes;
 
-namespace Jcd.Units.UnitTypes;
+namespace Jcd.Units.UnitsOfMeasure;
 
 public class Durations : Enumeration<Durations,Duration>
 {
@@ -8,7 +8,7 @@ public class Durations : Enumeration<Durations,Duration>
     public static readonly Duration Decisecond = new ("decisecond", "ds", Second, 1.0/10.0,0);
     public static readonly Duration Centisecond = new ("centisecond", "cs", Decisecond, 1.0/10.0,0);
     public static readonly Duration Millisecond = new ("millisecond", "ms", Centisecond, 1.0/10.0,0);
-    public static readonly Duration Microsecond = new ("microsecond", "µs", Millisecond, 1.0/1000.0,0);
+    public static readonly Duration Microsecond = new ("microsecond", "μs", Millisecond, 1.0/1000.0,0);
     public static readonly Duration Nanosecond = new ("nanosecond", "ns", Microsecond, 1.0/1000.0,0);
     public static readonly Duration Picosecond = new ("picosecond", "ps", Nanosecond, 1.0/1000.0,0);
     public static readonly Duration Femtosecond = new ("femtosecond", "fs", Picosecond, 1.0/1000.0,0);

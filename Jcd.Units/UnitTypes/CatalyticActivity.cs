@@ -1,37 +1,37 @@
-﻿using System;
+using System;
 
 namespace Jcd.Units.UnitTypes;
 
 /// <summary>
-/// Constructs a unit measuring a specified <c>CatalyticActivity</c>
+/// Constructs a unit measuring a specified <see cref="CatalyticActivity"/>
 /// </summary>
 /// <param name="Name">The name of this unit</param>
-/// <param name="Symbol">The symbol or abbreviation to represent the <c>CatalyticActivity</c></param>
+/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="CatalyticActivity"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record struct CatalyticActivity(string Name, string Symbol, double Coefficient=1, double Offset=0)
+public readonly record struct CatalyticActivity(string Name, string Symbol, double Coefficient=1, double Offset=0) 
     : IUnitOfMeasure<CatalyticActivity>
 {
     /// <summary>
-    /// Constructs a unit measuring a specified <c>CatalyticActivity</c> using another CatalyticActivity as a reference.
+    /// Constructs a unit measuring a specified <see cref="CatalyticActivity"/> using another CatalyticActivity as a reference.
     /// </summary>
     /// <param name="name">The name of this unit</param>
-    /// <param name="symbol">The symbol or abbreviation to represent the <c>CatalyticActivity</c></param>
+    /// <param name="symbol">The symbol or abbreviation to represent the <see cref="CatalyticActivity"/></param>
     /// <param name="baseUnit">The unit to use as a base</param>
     /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
     /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
-    public CatalyticActivity(string name, string symbol, CatalyticActivity baseUnit, double coefficient, double offset = 0)
+    public CatalyticActivity(string name, string symbol, CatalyticActivity baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
     {
 
     }
-
+    
     #region Equality members
 
     /// <summary>
-    /// Compares this <c>CatalyticActivity</c> to another one for equality.
+    /// Compares this <see cref="CatalyticActivity"/> to another one for equality.
     /// </summary>
-    /// <param name="other">The other <c>CatalyticActivity</c> to compare against.</param>
+    /// <param name="other">The other <see cref="CatalyticActivity"/> to compare against.</param>
     /// <returns>true if equivalent, false otherwise.</returns>
     public bool Equals(CatalyticActivity other)
     {
@@ -39,22 +39,22 @@ public record struct CatalyticActivity(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Computes the hash code for this <c>CatalyticActivity</c>
+    /// Computes the hash code for this <see cref="CatalyticActivity"/>
     /// </summary>
     /// <returns>The computed hashcode.</returns>
     public override int GetHashCode()
     {
         return HashCode.Combine(Coefficient, Offset, typeof(CatalyticActivity));
     }
-
+    
     #endregion
 
     #region Relational members
 
     /// <summary>
-    /// Performs a relative comparison between this <c>CatalyticActivity</c> and another one.
+    /// Performs a relative comparison between this <see cref="CatalyticActivity"/> and another one.
     /// </summary>
-    /// <param name="other">The <c>CatalyticActivity</c> to compare against.</param>
+    /// <param name="other">The <see cref="CatalyticActivity"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
     public int CompareTo(CatalyticActivity other)
     {
@@ -63,11 +63,11 @@ public record struct CatalyticActivity(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Performs a relative comparison between this <c>CatalyticActivity</c> and another one.
+    /// Performs a relative comparison between this <see cref="CatalyticActivity"/> and another one.
     /// </summary>
-    /// <param name="obj">The <c>CatalyticActivity</c> to compare against.</param>
+    /// <param name="obj">The <see cref="CatalyticActivity"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    /// <exception cref="ArgumentException">When the passed in object is not a <c>CatalyticActivity</c></exception>
+    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="CatalyticActivity"/></exception>
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1;
@@ -75,10 +75,10 @@ public record struct CatalyticActivity(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Compares two <c>CatalyticActivity</c> instances to determine if the left one is less than the right one.
+    /// Compares two <see cref="CatalyticActivity"/> instances to determine if the left one is less than the right one. 
     /// </summary>
-    /// <param name="left">The left <c>CatalyticActivity</c></param>
-    /// <param name="right">The right <c>CatalyticActivity</c></param>
+    /// <param name="left">The left <see cref="CatalyticActivity"/></param>
+    /// <param name="right">The right <see cref="CatalyticActivity"/></param>
     /// <returns>true if left is &lt; right; false otherwise.</returns>
     public static bool operator <(CatalyticActivity left, CatalyticActivity right)
     {
@@ -86,10 +86,10 @@ public record struct CatalyticActivity(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Compares two <c>CatalyticActivity</c> instances to determine if the left one is greater than the right one.
+    /// Compares two <see cref="CatalyticActivity"/> instances to determine if the left one is greater than the right one. 
     /// </summary>
-    /// <param name="left">The left <c>CatalyticActivity</c></param>
-    /// <param name="right">The right <c>CatalyticActivity</c></param>
+    /// <param name="left">The left <see cref="CatalyticActivity"/></param>
+    /// <param name="right">The right <see cref="CatalyticActivity"/></param>
     /// <returns>true if left is &gt; right; false otherwise.</returns>
     public static bool operator >(CatalyticActivity left, CatalyticActivity right)
     {
@@ -97,10 +97,10 @@ public record struct CatalyticActivity(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Compares two <c>CatalyticActivity</c> instances to determine if the left one is less than or equal to the right one.
+    /// Compares two <see cref="CatalyticActivity"/> instances to determine if the left one is less than or equal to the right one. 
     /// </summary>
-    /// <param name="left">The left <c>CatalyticActivity</c></param>
-    /// <param name="right">The right <c>CatalyticActivity</c></param>
+    /// <param name="left">The left <see cref="CatalyticActivity"/></param>
+    /// <param name="right">The right <see cref="CatalyticActivity"/></param>
     /// <returns>true if left is &lt;= right; false otherwise.</returns>
     public static bool operator <=(CatalyticActivity left, CatalyticActivity right)
     {
@@ -108,10 +108,10 @@ public record struct CatalyticActivity(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Compares two <c>CatalyticActivity</c> instances to determine if the left one is greater than or equal to the right one.
+    /// Compares two <see cref="CatalyticActivity"/> instances to determine if the left one is greater than or equal to the right one. 
     /// </summary>
-    /// <param name="left">The left <c>CatalyticActivity</c></param>
-    /// <param name="right">The right <c>CatalyticActivity</c></param>
+    /// <param name="left">The left <see cref="CatalyticActivity"/></param>
+    /// <param name="right">The right <see cref="CatalyticActivity"/></param>
     /// <returns>true if left is &gt;= right; false otherwise.</returns>
     public static bool operator >=(CatalyticActivity left, CatalyticActivity right)
     {

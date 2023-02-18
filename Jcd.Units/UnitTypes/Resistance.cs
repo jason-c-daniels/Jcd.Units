@@ -1,37 +1,37 @@
-﻿using System;
+using System;
 
 namespace Jcd.Units.UnitTypes;
 
 /// <summary>
-/// Constructs a unit measuring a specified <c>Resistance</c>
+/// Constructs a unit measuring a specified <see cref="Resistance"/>
 /// </summary>
 /// <param name="Name">The name of this unit</param>
-/// <param name="Symbol">The symbol or abbreviation to represent the <c>Resistance</c></param>
+/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="Resistance"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record struct Resistance(string Name, string Symbol, double Coefficient=1, double Offset=0)
+public readonly record struct Resistance(string Name, string Symbol, double Coefficient=1, double Offset=0) 
     : IUnitOfMeasure<Resistance>
 {
     /// <summary>
-    /// Constructs a unit measuring a specified <c>Resistance</c> using another Resistance as a reference.
+    /// Constructs a unit measuring a specified <see cref="Resistance"/> using another Resistance as a reference.
     /// </summary>
     /// <param name="name">The name of this unit</param>
-    /// <param name="symbol">The symbol or abbreviation to represent the <c>Resistance</c></param>
+    /// <param name="symbol">The symbol or abbreviation to represent the <see cref="Resistance"/></param>
     /// <param name="baseUnit">The unit to use as a base</param>
     /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
     /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
-    public Resistance(string name, string symbol, Resistance baseUnit, double coefficient, double offset = 0)
+    public Resistance(string name, string symbol, Resistance baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
     {
 
     }
-
+    
     #region Equality members
 
     /// <summary>
-    /// Compares this <c>Resistance</c> to another one for equality.
+    /// Compares this <see cref="Resistance"/> to another one for equality.
     /// </summary>
-    /// <param name="other">The other <c>Resistance</c> to compare against.</param>
+    /// <param name="other">The other <see cref="Resistance"/> to compare against.</param>
     /// <returns>true if equivalent, false otherwise.</returns>
     public bool Equals(Resistance other)
     {
@@ -39,22 +39,22 @@ public record struct Resistance(string Name, string Symbol, double Coefficient=1
     }
 
     /// <summary>
-    /// Computes the hash code for this <c>Resistance</c>
+    /// Computes the hash code for this <see cref="Resistance"/>
     /// </summary>
     /// <returns>The computed hashcode.</returns>
     public override int GetHashCode()
     {
         return HashCode.Combine(Coefficient, Offset, typeof(Resistance));
     }
-
+    
     #endregion
 
     #region Relational members
 
     /// <summary>
-    /// Performs a relative comparison between this <c>Resistance</c> and another one.
+    /// Performs a relative comparison between this <see cref="Resistance"/> and another one.
     /// </summary>
-    /// <param name="other">The <c>Resistance</c> to compare against.</param>
+    /// <param name="other">The <see cref="Resistance"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
     public int CompareTo(Resistance other)
     {
@@ -63,11 +63,11 @@ public record struct Resistance(string Name, string Symbol, double Coefficient=1
     }
 
     /// <summary>
-    /// Performs a relative comparison between this <c>Resistance</c> and another one.
+    /// Performs a relative comparison between this <see cref="Resistance"/> and another one.
     /// </summary>
-    /// <param name="obj">The <c>Resistance</c> to compare against.</param>
+    /// <param name="obj">The <see cref="Resistance"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    /// <exception cref="ArgumentException">When the passed in object is not a <c>Resistance</c></exception>
+    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="Resistance"/></exception>
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1;
@@ -75,10 +75,10 @@ public record struct Resistance(string Name, string Symbol, double Coefficient=1
     }
 
     /// <summary>
-    /// Compares two <c>Resistance</c> instances to determine if the left one is less than the right one.
+    /// Compares two <see cref="Resistance"/> instances to determine if the left one is less than the right one. 
     /// </summary>
-    /// <param name="left">The left <c>Resistance</c></param>
-    /// <param name="right">The right <c>Resistance</c></param>
+    /// <param name="left">The left <see cref="Resistance"/></param>
+    /// <param name="right">The right <see cref="Resistance"/></param>
     /// <returns>true if left is &lt; right; false otherwise.</returns>
     public static bool operator <(Resistance left, Resistance right)
     {
@@ -86,10 +86,10 @@ public record struct Resistance(string Name, string Symbol, double Coefficient=1
     }
 
     /// <summary>
-    /// Compares two <c>Resistance</c> instances to determine if the left one is greater than the right one.
+    /// Compares two <see cref="Resistance"/> instances to determine if the left one is greater than the right one. 
     /// </summary>
-    /// <param name="left">The left <c>Resistance</c></param>
-    /// <param name="right">The right <c>Resistance</c></param>
+    /// <param name="left">The left <see cref="Resistance"/></param>
+    /// <param name="right">The right <see cref="Resistance"/></param>
     /// <returns>true if left is &gt; right; false otherwise.</returns>
     public static bool operator >(Resistance left, Resistance right)
     {
@@ -97,10 +97,10 @@ public record struct Resistance(string Name, string Symbol, double Coefficient=1
     }
 
     /// <summary>
-    /// Compares two <c>Resistance</c> instances to determine if the left one is less than or equal to the right one.
+    /// Compares two <see cref="Resistance"/> instances to determine if the left one is less than or equal to the right one. 
     /// </summary>
-    /// <param name="left">The left <c>Resistance</c></param>
-    /// <param name="right">The right <c>Resistance</c></param>
+    /// <param name="left">The left <see cref="Resistance"/></param>
+    /// <param name="right">The right <see cref="Resistance"/></param>
     /// <returns>true if left is &lt;= right; false otherwise.</returns>
     public static bool operator <=(Resistance left, Resistance right)
     {
@@ -108,10 +108,10 @@ public record struct Resistance(string Name, string Symbol, double Coefficient=1
     }
 
     /// <summary>
-    /// Compares two <c>Resistance</c> instances to determine if the left one is greater than or equal to the right one.
+    /// Compares two <see cref="Resistance"/> instances to determine if the left one is greater than or equal to the right one. 
     /// </summary>
-    /// <param name="left">The left <c>Resistance</c></param>
-    /// <param name="right">The right <c>Resistance</c></param>
+    /// <param name="left">The left <see cref="Resistance"/></param>
+    /// <param name="right">The right <see cref="Resistance"/></param>
     /// <returns>true if left is &gt;= right; false otherwise.</returns>
     public static bool operator >=(Resistance left, Resistance right)
     {

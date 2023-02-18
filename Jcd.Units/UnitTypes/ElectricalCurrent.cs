@@ -1,37 +1,37 @@
-﻿using System;
+using System;
 
 namespace Jcd.Units.UnitTypes;
 
 /// <summary>
-/// Constructs a unit measuring a specified <c>ElectricalCurrent</c>
+/// Constructs a unit measuring a specified <see cref="ElectricalCurrent"/>
 /// </summary>
 /// <param name="Name">The name of this unit</param>
-/// <param name="Symbol">The symbol or abbreviation to represent the <c>ElectricalCurrent</c></param>
+/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="ElectricalCurrent"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record struct ElectricalCurrent(string Name, string Symbol, double Coefficient=1, double Offset=0)
+public readonly record struct ElectricalCurrent(string Name, string Symbol, double Coefficient=1, double Offset=0) 
     : IUnitOfMeasure<ElectricalCurrent>
 {
     /// <summary>
-    /// Constructs a unit measuring a specified <c>ElectricalCurrent</c> using another ElectricalCurrent as a reference.
+    /// Constructs a unit measuring a specified <see cref="ElectricalCurrent"/> using another ElectricalCurrent as a reference.
     /// </summary>
     /// <param name="name">The name of this unit</param>
-    /// <param name="symbol">The symbol or abbreviation to represent the <c>ElectricalCurrent</c></param>
+    /// <param name="symbol">The symbol or abbreviation to represent the <see cref="ElectricalCurrent"/></param>
     /// <param name="baseUnit">The unit to use as a base</param>
     /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
     /// <param name="offset">The offset from the <c>baseUnit</c>.</param>
-    public ElectricalCurrent(string name, string symbol, ElectricalCurrent baseUnit, double coefficient, double offset = 0)
+    public ElectricalCurrent(string name, string symbol, ElectricalCurrent baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,baseUnit.Coefficient*coefficient,baseUnit.Coefficient*baseUnit.Offset+offset)
     {
 
     }
-
+    
     #region Equality members
 
     /// <summary>
-    /// Compares this <c>ElectricalCurrent</c> to another one for equality.
+    /// Compares this <see cref="ElectricalCurrent"/> to another one for equality.
     /// </summary>
-    /// <param name="other">The other <c>ElectricalCurrent</c> to compare against.</param>
+    /// <param name="other">The other <see cref="ElectricalCurrent"/> to compare against.</param>
     /// <returns>true if equivalent, false otherwise.</returns>
     public bool Equals(ElectricalCurrent other)
     {
@@ -39,22 +39,22 @@ public record struct ElectricalCurrent(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Computes the hash code for this <c>ElectricalCurrent</c>
+    /// Computes the hash code for this <see cref="ElectricalCurrent"/>
     /// </summary>
     /// <returns>The computed hashcode.</returns>
     public override int GetHashCode()
     {
         return HashCode.Combine(Coefficient, Offset, typeof(ElectricalCurrent));
     }
-
+    
     #endregion
 
     #region Relational members
 
     /// <summary>
-    /// Performs a relative comparison between this <c>ElectricalCurrent</c> and another one.
+    /// Performs a relative comparison between this <see cref="ElectricalCurrent"/> and another one.
     /// </summary>
-    /// <param name="other">The <c>ElectricalCurrent</c> to compare against.</param>
+    /// <param name="other">The <see cref="ElectricalCurrent"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
     public int CompareTo(ElectricalCurrent other)
     {
@@ -63,11 +63,11 @@ public record struct ElectricalCurrent(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Performs a relative comparison between this <c>ElectricalCurrent</c> and another one.
+    /// Performs a relative comparison between this <see cref="ElectricalCurrent"/> and another one.
     /// </summary>
-    /// <param name="obj">The <c>ElectricalCurrent</c> to compare against.</param>
+    /// <param name="obj">The <see cref="ElectricalCurrent"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    /// <exception cref="ArgumentException">When the passed in object is not a <c>ElectricalCurrent</c></exception>
+    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="ElectricalCurrent"/></exception>
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1;
@@ -75,10 +75,10 @@ public record struct ElectricalCurrent(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Compares two <c>ElectricalCurrent</c> instances to determine if the left one is less than the right one.
+    /// Compares two <see cref="ElectricalCurrent"/> instances to determine if the left one is less than the right one. 
     /// </summary>
-    /// <param name="left">The left <c>ElectricalCurrent</c></param>
-    /// <param name="right">The right <c>ElectricalCurrent</c></param>
+    /// <param name="left">The left <see cref="ElectricalCurrent"/></param>
+    /// <param name="right">The right <see cref="ElectricalCurrent"/></param>
     /// <returns>true if left is &lt; right; false otherwise.</returns>
     public static bool operator <(ElectricalCurrent left, ElectricalCurrent right)
     {
@@ -86,10 +86,10 @@ public record struct ElectricalCurrent(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Compares two <c>ElectricalCurrent</c> instances to determine if the left one is greater than the right one.
+    /// Compares two <see cref="ElectricalCurrent"/> instances to determine if the left one is greater than the right one. 
     /// </summary>
-    /// <param name="left">The left <c>ElectricalCurrent</c></param>
-    /// <param name="right">The right <c>ElectricalCurrent</c></param>
+    /// <param name="left">The left <see cref="ElectricalCurrent"/></param>
+    /// <param name="right">The right <see cref="ElectricalCurrent"/></param>
     /// <returns>true if left is &gt; right; false otherwise.</returns>
     public static bool operator >(ElectricalCurrent left, ElectricalCurrent right)
     {
@@ -97,10 +97,10 @@ public record struct ElectricalCurrent(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Compares two <c>ElectricalCurrent</c> instances to determine if the left one is less than or equal to the right one.
+    /// Compares two <see cref="ElectricalCurrent"/> instances to determine if the left one is less than or equal to the right one. 
     /// </summary>
-    /// <param name="left">The left <c>ElectricalCurrent</c></param>
-    /// <param name="right">The right <c>ElectricalCurrent</c></param>
+    /// <param name="left">The left <see cref="ElectricalCurrent"/></param>
+    /// <param name="right">The right <see cref="ElectricalCurrent"/></param>
     /// <returns>true if left is &lt;= right; false otherwise.</returns>
     public static bool operator <=(ElectricalCurrent left, ElectricalCurrent right)
     {
@@ -108,10 +108,10 @@ public record struct ElectricalCurrent(string Name, string Symbol, double Coeffi
     }
 
     /// <summary>
-    /// Compares two <c>ElectricalCurrent</c> instances to determine if the left one is greater than or equal to the right one.
+    /// Compares two <see cref="ElectricalCurrent"/> instances to determine if the left one is greater than or equal to the right one. 
     /// </summary>
-    /// <param name="left">The left <c>ElectricalCurrent</c></param>
-    /// <param name="right">The right <c>ElectricalCurrent</c></param>
+    /// <param name="left">The left <see cref="ElectricalCurrent"/></param>
+    /// <param name="right">The right <see cref="ElectricalCurrent"/></param>
     /// <returns>true if left is &gt;= right; false otherwise.</returns>
     public static bool operator >=(ElectricalCurrent left, ElectricalCurrent right)
     {

@@ -3,6 +3,8 @@
 using Jcd.Units;
 using Jcd.Units.UnitsOfMeasure;
 using SI=Jcd.Units.UnitsOfMeasure.SI;
+using USCustomary=Jcd.Units.UnitsOfMeasure.USCustomary;
+using USSurvey=Jcd.Units.UnitsOfMeasure.USSurvey;
 using Jcd.Units.UnitTypes;
 
 var allDurations = Durations.GetAll().ToList();
@@ -29,9 +31,9 @@ var oneInchInPt = oneUSInch.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Poin
 var oneLink = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
 var oneLinkAsInches = oneLink.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Inch);
 var oneLinkAsCm = oneLink.To(SI.Lengths.Centimeter);
-var oneSurveyFoot = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Foot);
-var oneSurveyFootAsCm = oneSurveyFoot.To(SI.Lengths.Centimeter);
-var oneSurveyFootAsFoot = oneSurveyFoot.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Foot);
+//var oneSurveyFoot = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Foot);
+//var oneSurveyFootAsCm = oneSurveyFoot.To(SI.Lengths.Centimeter);
+//var oneSurveyFootAsFoot = oneSurveyFoot.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Foot);
 var oneRod = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Rod);
 var oneRodInLinks = oneRod.To(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
 
@@ -40,9 +42,9 @@ var twoMGtMq = twoM > meterQuantity;
 var tempC = 0d.As(SI.Temperatures.Celcius);
 var tempC1 = 1d.As(SI.Temperatures.Celcius);
 var tempC5 = 5d.As(SI.Temperatures.Celcius);
-var tempF = tempC.To(Temperatures.Fahrenheit);
-var tempF1 = tempC1.To(Temperatures.Fahrenheit);
-var tempF5 = tempC5.To(Temperatures.Fahrenheit);
+var tempF = tempC.To(USCustomary.Temperatures.Fahrenheit);
+var tempF1 = tempC1.To(USCustomary.Temperatures.Fahrenheit);
+var tempF5 = tempC5.To(USCustomary.Temperatures.Fahrenheit);
 var tempC_2 = tempF.To(SI.Temperatures.Celcius);
 var tempK = tempF.To(SI.Temperatures.Kelvin);
 var tempK1 = tempF1.To(SI.Temperatures.Kelvin);
