@@ -3,7 +3,7 @@
 
 ## LuminousIntensity Class
 
-Constructs a unit measuring a specified [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
+A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle.
 
 ```csharp
 public class LuminousIntensity : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.LuminousIntensity>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [LuminousIntensity(string, string, double, double)](Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,double,double).md 'Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string, string, double, double)') | Constructs a unit measuring a specified [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') |
-| [LuminousIntensity(string, string, LuminousIntensity, double, double)](Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,Jcd.Units.UnitTypes.LuminousIntensity,double,double).md 'Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string, string, Jcd.Units.UnitTypes.LuminousIntensity, double, double)') | Constructs a unit measuring a specified [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') using another LuminousIntensity as a reference. |
+| [LuminousIntensity(string, string, double, double)](Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,double,double).md 'Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string, string, double, double)') | A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle. |
+| [LuminousIntensity(string, string, LuminousIntensity, double, double)](Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,Jcd.Units.UnitTypes.LuminousIntensity,double,double).md 'Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string, string, Jcd.Units.UnitTypes.LuminousIntensity, double, double)') | Constructs a unit measuring a specified [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') using another [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') as a reference. |

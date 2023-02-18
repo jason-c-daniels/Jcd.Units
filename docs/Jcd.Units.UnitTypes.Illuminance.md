@@ -3,7 +3,7 @@
 
 ## Illuminance Class
 
-Constructs a unit measuring a specified [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance')
+A measurement of the amount of luminous flux per unit area.
 
 ```csharp
 public class Illuminance : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Illuminance>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Illuminance(string, string, double, double)](Jcd.Units.UnitTypes.Illuminance.Illuminance(string,string,double,double).md 'Jcd.Units.UnitTypes.Illuminance.Illuminance(string, string, double, double)') | Constructs a unit measuring a specified [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') |
-| [Illuminance(string, string, Illuminance, double, double)](Jcd.Units.UnitTypes.Illuminance.Illuminance(string,string,Jcd.Units.UnitTypes.Illuminance,double,double).md 'Jcd.Units.UnitTypes.Illuminance.Illuminance(string, string, Jcd.Units.UnitTypes.Illuminance, double, double)') | Constructs a unit measuring a specified [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') using another Illuminance as a reference. |
+| [Illuminance(string, string, double, double)](Jcd.Units.UnitTypes.Illuminance.Illuminance(string,string,double,double).md 'Jcd.Units.UnitTypes.Illuminance.Illuminance(string, string, double, double)') | A measurement of the amount of luminous flux per unit area. |
+| [Illuminance(string, string, Illuminance, double, double)](Jcd.Units.UnitTypes.Illuminance.Illuminance(string,string,Jcd.Units.UnitTypes.Illuminance,double,double).md 'Jcd.Units.UnitTypes.Illuminance.Illuminance(string, string, Jcd.Units.UnitTypes.Illuminance, double, double)') | Constructs a unit measuring a specified [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') using another [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') as a reference. |

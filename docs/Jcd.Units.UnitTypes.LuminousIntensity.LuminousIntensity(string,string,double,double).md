@@ -3,7 +3,7 @@
 
 ## LuminousIntensity(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
+A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle.
 
 ```csharp
 public LuminousIntensity(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -14,7 +14,7 @@ public LuminousIntensity(string Name, string Symbol, double Coefficient=1.0, dou
 
 `Name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of this unit
+The name of this unit of measure.
 
 <a name='Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,double,double).Symbol'></a>
 

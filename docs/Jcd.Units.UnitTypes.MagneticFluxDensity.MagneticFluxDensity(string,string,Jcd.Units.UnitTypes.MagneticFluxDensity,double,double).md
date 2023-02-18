@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensity(string, string, MagneticFluxDensity, double, double) Constructor
 
-Constructs a unit measuring a specified [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') using another MagneticFluxDensity as a reference.
+Constructs a unit measuring a specified [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') using another [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') as a reference.
 
 ```csharp
 public MagneticFluxDensity(string name, string symbol, Jcd.Units.UnitTypes.MagneticFluxDensity baseUnit, double coefficient, double offset=0.0);

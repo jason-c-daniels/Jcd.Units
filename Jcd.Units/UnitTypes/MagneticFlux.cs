@@ -5,9 +5,9 @@ namespace Jcd.Units.UnitTypes;
 
 
 /// <summary>
-/// Constructs a unit measuring a specified <see cref="MagneticFlux"/>
+/// A measurement of the total magnetic field which passes through a given area.
 /// </summary>
-/// <param name="Name">The name of this unit</param>
+/// <param name="Name">The name of this unit of measure.</param>
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="MagneticFlux"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
@@ -15,7 +15,7 @@ public record MagneticFlux(string Name, string Symbol, double Coefficient=1, dou
     : UnitOfMeasure<MagneticFlux>(Name,Symbol,Coefficient,Offset)
 {
     /// <summary>
-    /// Constructs a unit measuring a specified <see cref="MagneticFlux"/> using another MagneticFlux as a reference.
+    /// Constructs a unit measuring a specified <see cref="MagneticFlux"/> using another <see cref="MagneticFlux"/> as a reference.
     /// </summary>
     /// <param name="name">The name of this unit</param>
     /// <param name="symbol">The symbol or abbreviation to represent the <see cref="MagneticFlux"/></param>

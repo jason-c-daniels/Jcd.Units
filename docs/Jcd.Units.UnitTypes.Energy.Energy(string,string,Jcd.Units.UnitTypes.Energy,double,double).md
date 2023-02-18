@@ -3,7 +3,7 @@
 
 ## Energy(string, string, Energy, double, double) Constructor
 
-Constructs a unit measuring a specified [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') using another Energy as a reference.
+Constructs a unit measuring a specified [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') using another [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') as a reference.
 
 ```csharp
 public Energy(string name, string symbol, Jcd.Units.UnitTypes.Energy baseUnit, double coefficient, double offset=0.0);

@@ -4,29 +4,30 @@
 
 | Classes | |
 | :--- | :--- |
-| [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') | Constructs a unit measuring a specified [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') |
-| [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') |
-| [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') | Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') |
-| [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') | Constructs a unit measuring a specified [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') |
-| [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') | Constructs a unit measuring a specified [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') |
-| [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') | Constructs a unit measuring a specified [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') |
-| [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') | Constructs a unit measuring a specified [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') |
-| [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') | Constructs a unit measuring a specified [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') |
-| [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') | Constructs a unit measuring a specified [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') |
-| [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') | Constructs a unit measuring a specified [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') |
-| [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') | Constructs a unit measuring a specified [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') |
-| [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') | Constructs a unit measuring a specified [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') |
-| [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') | Constructs a unit measuring a specified [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') |
-| [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') | Constructs a unit measuring a specified [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') |
-| [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') | Constructs a unit measuring a specified [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') |
-| [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') | Constructs a unit measuring a specified [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') |
-| [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') | Constructs a unit measuring a specified [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') |
-| [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') | Constructs a unit measuring a specified [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') |
-| [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') | Constructs a unit measuring a specified [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') |
-| [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') | Constructs a unit measuring a specified [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') |
-| [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') | Constructs a unit measuring a specified [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') |
-| [RadiationAbsorbedDose](Jcd.Units.UnitTypes.RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose') | Constructs a unit measuring a specified [RadiationAbsorbedDose](Jcd.Units.UnitTypes.RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose') |
-| [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') | Constructs a unit measuring a specified [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') |
-| [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') | Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') |
-| [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') | Constructs a unit measuring a specified [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') |
-| [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') | Constructs a unit measuring a specified [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') |
+| [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') | A measurement of an arbitrary quantity, number or value of something. |
+| [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | A measurement of the ability of a system to store an electric charge. |
+| [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') | A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst. |
+| [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') | A measurement of a length of time. |
+| [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') | A measurement of the amount of electricity that a current carries for a given unit of time. |
+| [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') | A measurement of the ease with which an electric current passes through matter. It's the reciprocal of electrical resistance. |
+| [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') | A measurement of the flow of electricity in a circuit. |
+| [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') | A measurement of the amount of work energy needed to move a unit of an electric charge from a reference point to a specific point. |
+| [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') | A measurement of the ability to exert a force causing displacement of an object. |
+| [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') | A measurement of the rate of change of momentum. |
+| [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') | A measurement of the number of waves that pass a fixed point in unit time. |
+| [Illuminance](Jcd.Units.UnitTypes.Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') | A measurement of the amount of luminous flux per unit area. |
+| [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') | A measurement of the property of an electric conductor or circuit that causes an electromotive force to be generated by a change in the current flow. |
+| [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') | A measure of a unit of distance. |
+| [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') | A measure of the perceived power of light. |
+| [LuminousIntensity](Jcd.Units.UnitTypes.LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity') | A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle. |
+| [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') | A measurement of the total magnetic field which passes through a given area. |
+| [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') | A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the magnetic flux. |
+| [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') | A measurement of how much a particle or object resists change in its direction or speed when a force is applied. |
+| [Momentum](Jcd.Units.UnitTypes.Momentum.md 'Jcd.Units.UnitTypes.Momentum') | A measurement of the product of the mass and velocity of an object. |
+| [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') | A measurement of the rate at which energy is transferred or converted. |
+| [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') | A measurement of a force per unit area. |
+| [RadiationAbsorbedDose](Jcd.Units.UnitTypes.RadiationAbsorbedDose.md 'Jcd.Units.UnitTypes.RadiationAbsorbedDose') | A measurement of the amount of radiation absorbed by an object or person. |
+| [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') | A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing radiation. |
+| [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') | A measurement of the number of atomic nuclei that decay per unit time. |
+| [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') | A measurement of the opposition to current flow in an electrical circuit. |
+| [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') | A measurement of the energy contained in the motion and vibration of an object's molecules. |

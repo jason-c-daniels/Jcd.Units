@@ -3,7 +3,7 @@
 
 ## Frequency(string, string, Frequency, double, double) Constructor
 
-Constructs a unit measuring a specified [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another Frequency as a reference.
+Constructs a unit measuring a specified [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') as a reference.
 
 ```csharp
 public Frequency(string name, string symbol, Jcd.Units.UnitTypes.Frequency baseUnit, double coefficient, double offset=0.0);

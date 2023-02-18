@@ -3,7 +3,7 @@
 
 ## Temperature(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
+A measurement of the energy contained in the motion and vibration of an object's molecules.
 
 ```csharp
 public Temperature(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -14,7 +14,7 @@ public Temperature(string Name, string Symbol, double Coefficient=1.0, double Of
 
 `Name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of this unit
+The name of this unit of measure.
 
 <a name='Jcd.Units.UnitTypes.Temperature.Temperature(string,string,double,double).Symbol'></a>
 

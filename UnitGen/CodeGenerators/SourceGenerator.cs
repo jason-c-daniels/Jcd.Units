@@ -21,10 +21,11 @@ public class SourceCodeGenerator
         _systemLookup = systems.ToDictionary(x => x.Name);
     }
 
-    public string GenerateUnitType(UnitType unitType, string baseNamespace=DefaultBaseNamespace)
+    public string GenerateUnitType(UnitType unitType, string baseNamespace = DefaultBaseNamespace)
     {
         return _unitTypeTemplate
             .Replace("$BaseNamespace$", baseNamespace)
+            .Replace("$Description$",unitType.Description)
             .Replace("$UnitTypeName$",unitType.UnitTypeName);
     }
 

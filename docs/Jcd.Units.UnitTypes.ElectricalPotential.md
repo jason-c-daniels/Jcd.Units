@@ -3,7 +3,7 @@
 
 ## ElectricalPotential Class
 
-Constructs a unit measuring a specified [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential')
+A measurement of the amount of work energy needed to move a unit of an electric charge from a reference point to a specific point.
 
 ```csharp
 public class ElectricalPotential : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.ElectricalPotential>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [ElectricalPotential(string, string, double, double)](Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string,string,double,double).md 'Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string, string, double, double)') | Constructs a unit measuring a specified [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') |
-| [ElectricalPotential(string, string, ElectricalPotential, double, double)](Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string,string,Jcd.Units.UnitTypes.ElectricalPotential,double,double).md 'Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string, string, Jcd.Units.UnitTypes.ElectricalPotential, double, double)') | Constructs a unit measuring a specified [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another ElectricalPotential as a reference. |
+| [ElectricalPotential(string, string, double, double)](Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string,string,double,double).md 'Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string, string, double, double)') | A measurement of the amount of work energy needed to move a unit of an electric charge from a reference point to a specific point. |
+| [ElectricalPotential(string, string, ElectricalPotential, double, double)](Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string,string,Jcd.Units.UnitTypes.ElectricalPotential,double,double).md 'Jcd.Units.UnitTypes.ElectricalPotential.ElectricalPotential(string, string, Jcd.Units.UnitTypes.ElectricalPotential, double, double)') | Constructs a unit measuring a specified [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') as a reference. |

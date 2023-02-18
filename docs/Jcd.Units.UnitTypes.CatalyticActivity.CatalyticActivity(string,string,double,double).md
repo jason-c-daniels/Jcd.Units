@@ -3,7 +3,7 @@
 
 ## CatalyticActivity(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
+A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst.
 
 ```csharp
 public CatalyticActivity(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -14,7 +14,7 @@ public CatalyticActivity(string Name, string Symbol, double Coefficient=1.0, dou
 
 `Name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of this unit
+The name of this unit of measure.
 
 <a name='Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string,string,double,double).Symbol'></a>
 

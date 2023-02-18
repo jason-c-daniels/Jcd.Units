@@ -3,7 +3,7 @@
 
 ## Frequency Class
 
-Constructs a unit measuring a specified [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency')
+A measurement of the number of waves that pass a fixed point in unit time.
 
 ```csharp
 public class Frequency : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Frequency>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Frequency(string, string, double, double)](Jcd.Units.UnitTypes.Frequency.Frequency(string,string,double,double).md 'Jcd.Units.UnitTypes.Frequency.Frequency(string, string, double, double)') | Constructs a unit measuring a specified [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') |
-| [Frequency(string, string, Frequency, double, double)](Jcd.Units.UnitTypes.Frequency.Frequency(string,string,Jcd.Units.UnitTypes.Frequency,double,double).md 'Jcd.Units.UnitTypes.Frequency.Frequency(string, string, Jcd.Units.UnitTypes.Frequency, double, double)') | Constructs a unit measuring a specified [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another Frequency as a reference. |
+| [Frequency(string, string, double, double)](Jcd.Units.UnitTypes.Frequency.Frequency(string,string,double,double).md 'Jcd.Units.UnitTypes.Frequency.Frequency(string, string, double, double)') | A measurement of the number of waves that pass a fixed point in unit time. |
+| [Frequency(string, string, Frequency, double, double)](Jcd.Units.UnitTypes.Frequency.Frequency(string,string,Jcd.Units.UnitTypes.Frequency,double,double).md 'Jcd.Units.UnitTypes.Frequency.Frequency(string, string, Jcd.Units.UnitTypes.Frequency, double, double)') | Constructs a unit measuring a specified [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') using another [Frequency](Jcd.Units.UnitTypes.Frequency.md 'Jcd.Units.UnitTypes.Frequency') as a reference. |

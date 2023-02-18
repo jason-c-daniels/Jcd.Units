@@ -3,7 +3,7 @@
 
 ## Capacitance Class
 
-Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
+A measurement of the ability of a system to store an electric charge.
 
 ```csharp
 public class Capacitance : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Capacitance>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Capacitance(string, string, double, double)](Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,double,double).md 'Jcd.Units.UnitTypes.Capacitance.Capacitance(string, string, double, double)') | Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') |
-| [Capacitance(string, string, Capacitance, double, double)](Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,Jcd.Units.UnitTypes.Capacitance,double,double).md 'Jcd.Units.UnitTypes.Capacitance.Capacitance(string, string, Jcd.Units.UnitTypes.Capacitance, double, double)') | Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') using another Capacitance as a reference. |
+| [Capacitance(string, string, double, double)](Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,double,double).md 'Jcd.Units.UnitTypes.Capacitance.Capacitance(string, string, double, double)') | A measurement of the ability of a system to store an electric charge. |
+| [Capacitance(string, string, Capacitance, double, double)](Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,Jcd.Units.UnitTypes.Capacitance,double,double).md 'Jcd.Units.UnitTypes.Capacitance.Capacitance(string, string, Jcd.Units.UnitTypes.Capacitance, double, double)') | Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') using another [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') as a reference. |

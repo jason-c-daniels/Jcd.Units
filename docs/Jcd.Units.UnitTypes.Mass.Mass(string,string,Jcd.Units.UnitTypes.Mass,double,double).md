@@ -3,7 +3,7 @@
 
 ## Mass(string, string, Mass, double, double) Constructor
 
-Constructs a unit measuring a specified [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') using another Mass as a reference.
+Constructs a unit measuring a specified [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') using another [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') as a reference.
 
 ```csharp
 public Mass(string name, string symbol, Jcd.Units.UnitTypes.Mass baseUnit, double coefficient, double offset=0.0);

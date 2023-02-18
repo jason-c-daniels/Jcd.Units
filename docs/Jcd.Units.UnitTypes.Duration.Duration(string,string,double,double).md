@@ -3,7 +3,7 @@
 
 ## Duration(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
+A measurement of a length of time.
 
 ```csharp
 public Duration(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -14,7 +14,7 @@ public Duration(string Name, string Symbol, double Coefficient=1.0, double Offse
 
 `Name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of this unit
+The name of this unit of measure.
 
 <a name='Jcd.Units.UnitTypes.Duration.Duration(string,string,double,double).Symbol'></a>
 

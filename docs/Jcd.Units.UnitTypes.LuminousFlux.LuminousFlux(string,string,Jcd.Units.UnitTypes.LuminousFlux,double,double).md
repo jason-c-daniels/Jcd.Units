@@ -3,7 +3,7 @@
 
 ## LuminousFlux(string, string, LuminousFlux, double, double) Constructor
 
-Constructs a unit measuring a specified [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') using another LuminousFlux as a reference.
+Constructs a unit measuring a specified [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') using another [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') as a reference.
 
 ```csharp
 public LuminousFlux(string name, string symbol, Jcd.Units.UnitTypes.LuminousFlux baseUnit, double coefficient, double offset=0.0);

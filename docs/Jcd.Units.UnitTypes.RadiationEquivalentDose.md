@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDose Class
 
-Constructs a unit measuring a specified [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
+A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing radiation.
 
 ```csharp
 public class RadiationEquivalentDose : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.RadiationEquivalentDose>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [RadiationEquivalentDose(string, string, double, double)](Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string,string,double,double).md 'Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string, string, double, double)') | Constructs a unit measuring a specified [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') |
-| [RadiationEquivalentDose(string, string, RadiationEquivalentDose, double, double)](Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string,string,Jcd.Units.UnitTypes.RadiationEquivalentDose,double,double).md 'Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string, string, Jcd.Units.UnitTypes.RadiationEquivalentDose, double, double)') | Constructs a unit measuring a specified [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') using another RadiationEquivalentDose as a reference. |
+| [RadiationEquivalentDose(string, string, double, double)](Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string,string,double,double).md 'Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string, string, double, double)') | A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing radiation. |
+| [RadiationEquivalentDose(string, string, RadiationEquivalentDose, double, double)](Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string,string,Jcd.Units.UnitTypes.RadiationEquivalentDose,double,double).md 'Jcd.Units.UnitTypes.RadiationEquivalentDose.RadiationEquivalentDose(string, string, Jcd.Units.UnitTypes.RadiationEquivalentDose, double, double)') | Constructs a unit measuring a specified [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') using another [RadiationEquivalentDose](Jcd.Units.UnitTypes.RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') as a reference. |

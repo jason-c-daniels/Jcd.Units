@@ -3,7 +3,7 @@
 
 ## ElectricalCharge Class
 
-Constructs a unit measuring a specified [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
+A measurement of the amount of electricity that a current carries for a given unit of time.
 
 ```csharp
 public class ElectricalCharge : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.ElectricalCharge>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [ElectricalCharge(string, string, double, double)](Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string,string,double,double).md 'Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string, string, double, double)') | Constructs a unit measuring a specified [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') |
-| [ElectricalCharge(string, string, ElectricalCharge, double, double)](Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string,string,Jcd.Units.UnitTypes.ElectricalCharge,double,double).md 'Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string, string, Jcd.Units.UnitTypes.ElectricalCharge, double, double)') | Constructs a unit measuring a specified [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') using another ElectricalCharge as a reference. |
+| [ElectricalCharge(string, string, double, double)](Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string,string,double,double).md 'Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string, string, double, double)') | A measurement of the amount of electricity that a current carries for a given unit of time. |
+| [ElectricalCharge(string, string, ElectricalCharge, double, double)](Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string,string,Jcd.Units.UnitTypes.ElectricalCharge,double,double).md 'Jcd.Units.UnitTypes.ElectricalCharge.ElectricalCharge(string, string, Jcd.Units.UnitTypes.ElectricalCharge, double, double)') | Constructs a unit measuring a specified [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') using another [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') as a reference. |

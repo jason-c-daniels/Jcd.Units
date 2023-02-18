@@ -3,7 +3,7 @@
 
 ## Inductance(string, string, Inductance, double, double) Constructor
 
-Constructs a unit measuring a specified [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another Inductance as a reference.
+Constructs a unit measuring a specified [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Jcd.Units.UnitTypes.Inductance.md 'Jcd.Units.UnitTypes.Inductance') as a reference.
 
 ```csharp
 public Inductance(string name, string symbol, Jcd.Units.UnitTypes.Inductance baseUnit, double coefficient, double offset=0.0);

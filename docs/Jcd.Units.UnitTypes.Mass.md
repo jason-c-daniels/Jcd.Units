@@ -3,7 +3,7 @@
 
 ## Mass Class
 
-Constructs a unit measuring a specified [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')
+A measurement of how much a particle or object resists change in its direction or speed when a force is applied.
 
 ```csharp
 public class Mass : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Mass>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Mass(string, string, double, double)](Jcd.Units.UnitTypes.Mass.Mass(string,string,double,double).md 'Jcd.Units.UnitTypes.Mass.Mass(string, string, double, double)') | Constructs a unit measuring a specified [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') |
-| [Mass(string, string, Mass, double, double)](Jcd.Units.UnitTypes.Mass.Mass(string,string,Jcd.Units.UnitTypes.Mass,double,double).md 'Jcd.Units.UnitTypes.Mass.Mass(string, string, Jcd.Units.UnitTypes.Mass, double, double)') | Constructs a unit measuring a specified [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') using another Mass as a reference. |
+| [Mass(string, string, double, double)](Jcd.Units.UnitTypes.Mass.Mass(string,string,double,double).md 'Jcd.Units.UnitTypes.Mass.Mass(string, string, double, double)') | A measurement of how much a particle or object resists change in its direction or speed when a force is applied. |
+| [Mass(string, string, Mass, double, double)](Jcd.Units.UnitTypes.Mass.Mass(string,string,Jcd.Units.UnitTypes.Mass,double,double).md 'Jcd.Units.UnitTypes.Mass.Mass(string, string, Jcd.Units.UnitTypes.Mass, double, double)') | Constructs a unit measuring a specified [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') using another [Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass') as a reference. |

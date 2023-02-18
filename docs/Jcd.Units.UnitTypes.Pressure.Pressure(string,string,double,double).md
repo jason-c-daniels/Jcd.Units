@@ -3,7 +3,7 @@
 
 ## Pressure(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure')
+A measurement of a force per unit area.
 
 ```csharp
 public Pressure(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -14,7 +14,7 @@ public Pressure(string Name, string Symbol, double Coefficient=1.0, double Offse
 
 `Name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of this unit
+The name of this unit of measure.
 
 <a name='Jcd.Units.UnitTypes.Pressure.Pressure(string,string,double,double).Symbol'></a>
 

@@ -3,7 +3,7 @@
 
 ## Length(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length')
+A measure of a unit of distance.
 
 ```csharp
 public Length(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -14,7 +14,7 @@ public Length(string Name, string Symbol, double Coefficient=1.0, double Offset=
 
 `Name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of this unit
+The name of this unit of measure.
 
 <a name='Jcd.Units.UnitTypes.Length.Length(string,string,double,double).Symbol'></a>
 

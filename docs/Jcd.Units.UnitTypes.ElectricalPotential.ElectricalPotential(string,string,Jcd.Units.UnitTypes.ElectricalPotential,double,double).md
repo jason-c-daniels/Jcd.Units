@@ -3,7 +3,7 @@
 
 ## ElectricalPotential(string, string, ElectricalPotential, double, double) Constructor
 
-Constructs a unit measuring a specified [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another ElectricalPotential as a reference.
+Constructs a unit measuring a specified [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') using another [ElectricalPotential](Jcd.Units.UnitTypes.ElectricalPotential.md 'Jcd.Units.UnitTypes.ElectricalPotential') as a reference.
 
 ```csharp
 public ElectricalPotential(string name, string symbol, Jcd.Units.UnitTypes.ElectricalPotential baseUnit, double coefficient, double offset=0.0);

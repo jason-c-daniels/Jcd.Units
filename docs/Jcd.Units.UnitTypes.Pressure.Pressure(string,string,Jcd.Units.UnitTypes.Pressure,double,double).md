@@ -3,7 +3,7 @@
 
 ## Pressure(string, string, Pressure, double, double) Constructor
 
-Constructs a unit measuring a specified [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another Pressure as a reference.
+Constructs a unit measuring a specified [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Jcd.Units.UnitTypes.Pressure.md 'Jcd.Units.UnitTypes.Pressure') as a reference.
 
 ```csharp
 public Pressure(string name, string symbol, Jcd.Units.UnitTypes.Pressure baseUnit, double coefficient, double offset=0.0);

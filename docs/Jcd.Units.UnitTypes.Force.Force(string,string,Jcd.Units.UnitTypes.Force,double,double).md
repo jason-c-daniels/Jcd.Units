@@ -3,7 +3,7 @@
 
 ## Force(string, string, Force, double, double) Constructor
 
-Constructs a unit measuring a specified [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') using another Force as a reference.
+Constructs a unit measuring a specified [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') using another [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') as a reference.
 
 ```csharp
 public Force(string name, string symbol, Jcd.Units.UnitTypes.Force baseUnit, double coefficient, double offset=0.0);

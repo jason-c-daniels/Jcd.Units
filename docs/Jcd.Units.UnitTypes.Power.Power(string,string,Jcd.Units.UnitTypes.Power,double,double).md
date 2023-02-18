@@ -3,7 +3,7 @@
 
 ## Power(string, string, Power, double, double) Constructor
 
-Constructs a unit measuring a specified [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') using another Power as a reference.
+Constructs a unit measuring a specified [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') using another [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') as a reference.
 
 ```csharp
 public Power(string name, string symbol, Jcd.Units.UnitTypes.Power baseUnit, double coefficient, double offset=0.0);

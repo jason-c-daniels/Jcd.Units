@@ -3,7 +3,7 @@
 
 ## Duration(string, string, Duration, double, double) Constructor
 
-Constructs a unit measuring a specified [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') using another Duration as a reference.
+Constructs a unit measuring a specified [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') as a reference.
 
 ```csharp
 public Duration(string name, string symbol, Jcd.Units.UnitTypes.Duration baseUnit, double coefficient, double offset=0.0);

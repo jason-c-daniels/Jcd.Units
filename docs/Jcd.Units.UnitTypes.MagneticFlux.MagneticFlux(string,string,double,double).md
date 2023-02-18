@@ -3,7 +3,7 @@
 
 ## MagneticFlux(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
+A measurement of the total magnetic field which passes through a given area.
 
 ```csharp
 public MagneticFlux(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -14,7 +14,7 @@ public MagneticFlux(string Name, string Symbol, double Coefficient=1.0, double O
 
 `Name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of this unit
+The name of this unit of measure.
 
 <a name='Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string,string,double,double).Symbol'></a>
 

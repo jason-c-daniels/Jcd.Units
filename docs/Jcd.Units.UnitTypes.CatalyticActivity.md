@@ -3,7 +3,7 @@
 
 ## CatalyticActivity Class
 
-Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')
+A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst.
 
 ```csharp
 public class CatalyticActivity : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.CatalyticActivity>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [CatalyticActivity(string, string, double, double)](Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string,string,double,double).md 'Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string, string, double, double)') | Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') |
-| [CatalyticActivity(string, string, CatalyticActivity, double, double)](Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string,string,Jcd.Units.UnitTypes.CatalyticActivity,double,double).md 'Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string, string, Jcd.Units.UnitTypes.CatalyticActivity, double, double)') | Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another CatalyticActivity as a reference. |
+| [CatalyticActivity(string, string, double, double)](Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string,string,double,double).md 'Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string, string, double, double)') | A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst. |
+| [CatalyticActivity(string, string, CatalyticActivity, double, double)](Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string,string,Jcd.Units.UnitTypes.CatalyticActivity,double,double).md 'Jcd.Units.UnitTypes.CatalyticActivity.CatalyticActivity(string, string, Jcd.Units.UnitTypes.CatalyticActivity, double, double)') | Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') as a reference. |

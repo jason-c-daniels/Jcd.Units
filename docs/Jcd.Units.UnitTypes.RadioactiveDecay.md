@@ -3,7 +3,7 @@
 
 ## RadioactiveDecay Class
 
-Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')
+A measurement of the number of atomic nuclei that decay per unit time.
 
 ```csharp
 public class RadioactiveDecay : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.RadioactiveDecay>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [RadioactiveDecay(string, string, double, double)](Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string,string,double,double).md 'Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string, string, double, double)') | Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') |
-| [RadioactiveDecay(string, string, RadioactiveDecay, double, double)](Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string,string,Jcd.Units.UnitTypes.RadioactiveDecay,double,double).md 'Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string, string, Jcd.Units.UnitTypes.RadioactiveDecay, double, double)') | Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') using another RadioactiveDecay as a reference. |
+| [RadioactiveDecay(string, string, double, double)](Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string,string,double,double).md 'Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string, string, double, double)') | A measurement of the number of atomic nuclei that decay per unit time. |
+| [RadioactiveDecay(string, string, RadioactiveDecay, double, double)](Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string,string,Jcd.Units.UnitTypes.RadioactiveDecay,double,double).md 'Jcd.Units.UnitTypes.RadioactiveDecay.RadioactiveDecay(string, string, Jcd.Units.UnitTypes.RadioactiveDecay, double, double)') | Constructs a unit measuring a specified [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') using another [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') as a reference. |

@@ -3,7 +3,7 @@
 
 ## Duration Class
 
-Constructs a unit measuring a specified [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')
+A measurement of a length of time.
 
 ```csharp
 public class Duration : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Duration>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Duration(string, string, double, double)](Jcd.Units.UnitTypes.Duration.Duration(string,string,double,double).md 'Jcd.Units.UnitTypes.Duration.Duration(string, string, double, double)') | Constructs a unit measuring a specified [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') |
-| [Duration(string, string, Duration, double, double)](Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double).md 'Jcd.Units.UnitTypes.Duration.Duration(string, string, Jcd.Units.UnitTypes.Duration, double, double)') | Constructs a unit measuring a specified [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') using another Duration as a reference. |
+| [Duration(string, string, double, double)](Jcd.Units.UnitTypes.Duration.Duration(string,string,double,double).md 'Jcd.Units.UnitTypes.Duration.Duration(string, string, double, double)') | A measurement of a length of time. |
+| [Duration(string, string, Duration, double, double)](Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double).md 'Jcd.Units.UnitTypes.Duration.Duration(string, string, Jcd.Units.UnitTypes.Duration, double, double)') | Constructs a unit measuring a specified [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') as a reference. |

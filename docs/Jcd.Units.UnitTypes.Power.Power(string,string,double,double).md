@@ -3,7 +3,7 @@
 
 ## Power(string, string, double, double) Constructor
 
-Constructs a unit measuring a specified [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power')
+A measurement of the rate at which energy is transferred or converted.
 
 ```csharp
 public Power(string Name, string Symbol, double Coefficient=1.0, double Offset=0.0);
@@ -14,7 +14,7 @@ public Power(string Name, string Symbol, double Coefficient=1.0, double Offset=0
 
 `Name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The name of this unit
+The name of this unit of measure.
 
 <a name='Jcd.Units.UnitTypes.Power.Power(string,string,double,double).Symbol'></a>
 

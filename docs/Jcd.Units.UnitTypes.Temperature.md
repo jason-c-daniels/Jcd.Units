@@ -3,7 +3,7 @@
 
 ## Temperature Class
 
-Constructs a unit measuring a specified [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
+A measurement of the energy contained in the motion and vibration of an object's molecules.
 
 ```csharp
 public class Temperature : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Temperature>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Temperature(string, string, double, double)](Jcd.Units.UnitTypes.Temperature.Temperature(string,string,double,double).md 'Jcd.Units.UnitTypes.Temperature.Temperature(string, string, double, double)') | Constructs a unit measuring a specified [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') |
-| [Temperature(string, string, Temperature, double, double)](Jcd.Units.UnitTypes.Temperature.Temperature(string,string,Jcd.Units.UnitTypes.Temperature,double,double).md 'Jcd.Units.UnitTypes.Temperature.Temperature(string, string, Jcd.Units.UnitTypes.Temperature, double, double)') | Constructs a unit measuring a specified [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') using another Temperature as a reference. |
+| [Temperature(string, string, double, double)](Jcd.Units.UnitTypes.Temperature.Temperature(string,string,double,double).md 'Jcd.Units.UnitTypes.Temperature.Temperature(string, string, double, double)') | A measurement of the energy contained in the motion and vibration of an object's molecules. |
+| [Temperature(string, string, Temperature, double, double)](Jcd.Units.UnitTypes.Temperature.Temperature(string,string,Jcd.Units.UnitTypes.Temperature,double,double).md 'Jcd.Units.UnitTypes.Temperature.Temperature(string, string, Jcd.Units.UnitTypes.Temperature, double, double)') | Constructs a unit measuring a specified [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') using another [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') as a reference. |

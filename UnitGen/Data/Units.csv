@@ -29,6 +29,8 @@ SI,Electrical Conductance,siemens,S,True,SI,siemens,1,0,0
 SI,Electrical Current,ampere,A,True,SI,ampere,1,0,0
 SI,Electrical Potential,volt,V,True,SI,volt,1,0,0
 SI,Energy,joule,J,True,SI,joule,1,0,0
+SI,Energy,calorie,c,True,SI,joule,4.184,0,1
+SI,Energy,Calorie (Food),C,False,SI,calorie,1000,0,2
 SI,Force,newton,N,True,SI,newton,1,0,0
 SI,Frequency,hertz,Hz,True,SI,hertz,1,0,0
 SI,Illuminance,lux,lx,True,SI,lux,1,0,0
@@ -39,6 +41,7 @@ SI,Luminous Intensity,candela,cd,True,SI,candela,1,0,0
 SI,Magnetic Flux,weber,Wb,True,SI,weber,1,0,0
 SI,Magnetic Flux Density,tesla,T,True,SI,tesla,1,0,0
 SI,Mass,gram,g,True,SI,gram,1,0,0
+SI,Momentum,newton-second,N⋅s,True,SI,newton-second,1,0,0
 SI,Power,watt,W,True,SI,watt,1,0,0
 SI,Pressure,pascal,Pa,True,SI,pascal,1,0,0
 SI,Radiation Absorbed Dose,gray,Gy,True,SI,gray,1,0,0

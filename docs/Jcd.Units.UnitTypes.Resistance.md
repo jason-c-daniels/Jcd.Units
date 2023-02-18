@@ -3,7 +3,7 @@
 
 ## Resistance Class
 
-Constructs a unit measuring a specified [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance')
+A measurement of the opposition to current flow in an electrical circuit.
 
 ```csharp
 public class Resistance : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Resistance>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Resistance(string, string, double, double)](Jcd.Units.UnitTypes.Resistance.Resistance(string,string,double,double).md 'Jcd.Units.UnitTypes.Resistance.Resistance(string, string, double, double)') | Constructs a unit measuring a specified [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') |
-| [Resistance(string, string, Resistance, double, double)](Jcd.Units.UnitTypes.Resistance.Resistance(string,string,Jcd.Units.UnitTypes.Resistance,double,double).md 'Jcd.Units.UnitTypes.Resistance.Resistance(string, string, Jcd.Units.UnitTypes.Resistance, double, double)') | Constructs a unit measuring a specified [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') using another Resistance as a reference. |
+| [Resistance(string, string, double, double)](Jcd.Units.UnitTypes.Resistance.Resistance(string,string,double,double).md 'Jcd.Units.UnitTypes.Resistance.Resistance(string, string, double, double)') | A measurement of the opposition to current flow in an electrical circuit. |
+| [Resistance(string, string, Resistance, double, double)](Jcd.Units.UnitTypes.Resistance.Resistance(string,string,Jcd.Units.UnitTypes.Resistance,double,double).md 'Jcd.Units.UnitTypes.Resistance.Resistance(string, string, Jcd.Units.UnitTypes.Resistance, double, double)') | Constructs a unit measuring a specified [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') using another [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') as a reference. |

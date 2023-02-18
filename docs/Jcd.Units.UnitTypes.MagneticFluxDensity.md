@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensity Class
 
-Constructs a unit measuring a specified [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity')
+A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the magnetic flux.
 
 ```csharp
 public class MagneticFluxDensity : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.MagneticFluxDensity>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [MagneticFluxDensity(string, string, double, double)](Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string,string,double,double).md 'Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string, string, double, double)') | Constructs a unit measuring a specified [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') |
-| [MagneticFluxDensity(string, string, MagneticFluxDensity, double, double)](Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string,string,Jcd.Units.UnitTypes.MagneticFluxDensity,double,double).md 'Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string, string, Jcd.Units.UnitTypes.MagneticFluxDensity, double, double)') | Constructs a unit measuring a specified [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') using another MagneticFluxDensity as a reference. |
+| [MagneticFluxDensity(string, string, double, double)](Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string,string,double,double).md 'Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string, string, double, double)') | A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the magnetic flux. |
+| [MagneticFluxDensity(string, string, MagneticFluxDensity, double, double)](Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string,string,Jcd.Units.UnitTypes.MagneticFluxDensity,double,double).md 'Jcd.Units.UnitTypes.MagneticFluxDensity.MagneticFluxDensity(string, string, Jcd.Units.UnitTypes.MagneticFluxDensity, double, double)') | Constructs a unit measuring a specified [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') using another [MagneticFluxDensity](Jcd.Units.UnitTypes.MagneticFluxDensity.md 'Jcd.Units.UnitTypes.MagneticFluxDensity') as a reference. |

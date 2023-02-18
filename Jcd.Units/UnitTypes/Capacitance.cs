@@ -5,9 +5,9 @@ namespace Jcd.Units.UnitTypes;
 
 
 /// <summary>
-/// Constructs a unit measuring a specified <see cref="Capacitance"/>
+/// A measurement of the ability of a system to store an electric charge.
 /// </summary>
-/// <param name="Name">The name of this unit</param>
+/// <param name="Name">The name of this unit of measure.</param>
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="Capacitance"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
@@ -15,7 +15,7 @@ public record Capacitance(string Name, string Symbol, double Coefficient=1, doub
     : UnitOfMeasure<Capacitance>(Name,Symbol,Coefficient,Offset)
 {
     /// <summary>
-    /// Constructs a unit measuring a specified <see cref="Capacitance"/> using another Capacitance as a reference.
+    /// Constructs a unit measuring a specified <see cref="Capacitance"/> using another <see cref="Capacitance"/> as a reference.
     /// </summary>
     /// <param name="name">The name of this unit</param>
     /// <param name="symbol">The symbol or abbreviation to represent the <see cref="Capacitance"/></param>

@@ -3,7 +3,7 @@
 
 ## Energy Class
 
-Constructs a unit measuring a specified [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')
+A measurement of the ability to exert a force causing displacement of an object.
 
 ```csharp
 public class Energy : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Energy>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Energy(string, string, double, double)](Jcd.Units.UnitTypes.Energy.Energy(string,string,double,double).md 'Jcd.Units.UnitTypes.Energy.Energy(string, string, double, double)') | Constructs a unit measuring a specified [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') |
-| [Energy(string, string, Energy, double, double)](Jcd.Units.UnitTypes.Energy.Energy(string,string,Jcd.Units.UnitTypes.Energy,double,double).md 'Jcd.Units.UnitTypes.Energy.Energy(string, string, Jcd.Units.UnitTypes.Energy, double, double)') | Constructs a unit measuring a specified [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') using another Energy as a reference. |
+| [Energy(string, string, double, double)](Jcd.Units.UnitTypes.Energy.Energy(string,string,double,double).md 'Jcd.Units.UnitTypes.Energy.Energy(string, string, double, double)') | A measurement of the ability to exert a force causing displacement of an object. |
+| [Energy(string, string, Energy, double, double)](Jcd.Units.UnitTypes.Energy.Energy(string,string,Jcd.Units.UnitTypes.Energy,double,double).md 'Jcd.Units.UnitTypes.Energy.Energy(string, string, Jcd.Units.UnitTypes.Energy, double, double)') | Constructs a unit measuring a specified [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') using another [Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy') as a reference. |

@@ -5,9 +5,9 @@ namespace $BaseNamespace$;
 
 
 /// <summary>
-/// Constructs a unit measuring a specified <see cref="$UnitTypeName$"/>
+/// $Description$
 /// </summary>
-/// <param name="Name">The name of this unit</param>
+/// <param name="Name">The name of this unit of measure.</param>
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="$UnitTypeName$"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
@@ -15,7 +15,7 @@ public record $UnitTypeName$(string Name, string Symbol, double Coefficient=1, d
     : UnitOfMeasure<$UnitTypeName$>(Name,Symbol,Coefficient,Offset)
 {
     /// <summary>
-    /// Constructs a unit measuring a specified <see cref="$UnitTypeName$"/> using another $UnitTypeName$ as a reference.
+    /// Constructs a unit measuring a specified <see cref="$UnitTypeName$"/> using another <see cref="$UnitTypeName$"/> as a reference.
     /// </summary>
     /// <param name="name">The name of this unit</param>
     /// <param name="symbol">The symbol or abbreviation to represent the <see cref="$UnitTypeName$"/></param>

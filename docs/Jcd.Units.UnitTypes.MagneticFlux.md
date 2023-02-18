@@ -3,7 +3,7 @@
 
 ## MagneticFlux Class
 
-Constructs a unit measuring a specified [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux')
+A measurement of the total magnetic field which passes through a given area.
 
 ```csharp
 public class MagneticFlux : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.MagneticFlux>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [MagneticFlux(string, string, double, double)](Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string,string,double,double).md 'Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string, string, double, double)') | Constructs a unit measuring a specified [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') |
-| [MagneticFlux(string, string, MagneticFlux, double, double)](Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string,string,Jcd.Units.UnitTypes.MagneticFlux,double,double).md 'Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string, string, Jcd.Units.UnitTypes.MagneticFlux, double, double)') | Constructs a unit measuring a specified [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') using another MagneticFlux as a reference. |
+| [MagneticFlux(string, string, double, double)](Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string,string,double,double).md 'Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string, string, double, double)') | A measurement of the total magnetic field which passes through a given area. |
+| [MagneticFlux(string, string, MagneticFlux, double, double)](Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string,string,Jcd.Units.UnitTypes.MagneticFlux,double,double).md 'Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string, string, Jcd.Units.UnitTypes.MagneticFlux, double, double)') | Constructs a unit measuring a specified [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') using another [MagneticFlux](Jcd.Units.UnitTypes.MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') as a reference. |

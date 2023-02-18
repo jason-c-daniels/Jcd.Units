@@ -3,7 +3,7 @@
 
 ## ElectricalConductance Class
 
-Constructs a unit measuring a specified [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
+A measurement of the ease with which an electric current passes through matter. It's the reciprocal of electrical resistance.
 
 ```csharp
 public class ElectricalConductance : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.ElectricalConductance>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [ElectricalConductance(string, string, double, double)](Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,double,double).md 'Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string, string, double, double)') | Constructs a unit measuring a specified [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') |
-| [ElectricalConductance(string, string, ElectricalConductance, double, double)](Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double).md 'Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string, string, Jcd.Units.UnitTypes.ElectricalConductance, double, double)') | Constructs a unit measuring a specified [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') using another ElectricalConductance as a reference. |
+| [ElectricalConductance(string, string, double, double)](Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,double,double).md 'Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string, string, double, double)') | A measurement of the ease with which an electric current passes through matter. It's the reciprocal of electrical resistance. |
+| [ElectricalConductance(string, string, ElectricalConductance, double, double)](Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double).md 'Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string, string, Jcd.Units.UnitTypes.ElectricalConductance, double, double)') | Constructs a unit measuring a specified [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') using another [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') as a reference. |

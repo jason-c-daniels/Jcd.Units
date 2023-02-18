@@ -3,7 +3,7 @@
 
 ## Capacitance(string, string, Capacitance, double, double) Constructor
 
-Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') using another Capacitance as a reference.
+Constructs a unit measuring a specified [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') using another [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') as a reference.
 
 ```csharp
 public Capacitance(string name, string symbol, Jcd.Units.UnitTypes.Capacitance baseUnit, double coefficient, double offset=0.0);

@@ -3,7 +3,7 @@
 
 ## CatalyticActivity(string, string, CatalyticActivity, double, double) Constructor
 
-Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another CatalyticActivity as a reference.
+Constructs a unit measuring a specified [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') using another [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') as a reference.
 
 ```csharp
 public CatalyticActivity(string name, string symbol, Jcd.Units.UnitTypes.CatalyticActivity baseUnit, double coefficient, double offset=0.0);

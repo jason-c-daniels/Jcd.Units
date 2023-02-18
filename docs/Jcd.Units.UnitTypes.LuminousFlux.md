@@ -3,7 +3,7 @@
 
 ## LuminousFlux Class
 
-Constructs a unit measuring a specified [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
+A measure of the perceived power of light.
 
 ```csharp
 public class LuminousFlux : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.LuminousFlux>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [LuminousFlux(string, string, double, double)](Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string,string,double,double).md 'Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string, string, double, double)') | Constructs a unit measuring a specified [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') |
-| [LuminousFlux(string, string, LuminousFlux, double, double)](Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string,string,Jcd.Units.UnitTypes.LuminousFlux,double,double).md 'Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string, string, Jcd.Units.UnitTypes.LuminousFlux, double, double)') | Constructs a unit measuring a specified [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') using another LuminousFlux as a reference. |
+| [LuminousFlux(string, string, double, double)](Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string,string,double,double).md 'Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string, string, double, double)') | A measure of the perceived power of light. |
+| [LuminousFlux(string, string, LuminousFlux, double, double)](Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string,string,Jcd.Units.UnitTypes.LuminousFlux,double,double).md 'Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string, string, Jcd.Units.UnitTypes.LuminousFlux, double, double)') | Constructs a unit measuring a specified [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') using another [LuminousFlux](Jcd.Units.UnitTypes.LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') as a reference. |

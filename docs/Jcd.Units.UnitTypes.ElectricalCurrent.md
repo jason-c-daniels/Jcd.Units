@@ -3,7 +3,7 @@
 
 ## ElectricalCurrent Class
 
-Constructs a unit measuring a specified [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
+A measurement of the flow of electricity in a circuit.
 
 ```csharp
 public class ElectricalCurrent : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.ElectricalCurrent>
@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [ElectricalCurrent(string, string, double, double)](Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,double,double).md 'Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string, string, double, double)') | Constructs a unit measuring a specified [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') |
-| [ElectricalCurrent(string, string, ElectricalCurrent, double, double)](Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double).md 'Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string, string, Jcd.Units.UnitTypes.ElectricalCurrent, double, double)') | Constructs a unit measuring a specified [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') using another ElectricalCurrent as a reference. |
+| [ElectricalCurrent(string, string, double, double)](Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,double,double).md 'Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string, string, double, double)') | A measurement of the flow of electricity in a circuit. |
+| [ElectricalCurrent(string, string, ElectricalCurrent, double, double)](Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double).md 'Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string, string, Jcd.Units.UnitTypes.ElectricalCurrent, double, double)') | Constructs a unit measuring a specified [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') using another [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') as a reference. |

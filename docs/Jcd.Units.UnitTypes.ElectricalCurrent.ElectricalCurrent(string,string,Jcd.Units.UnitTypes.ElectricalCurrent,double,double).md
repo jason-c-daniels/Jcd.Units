@@ -3,7 +3,7 @@
 
 ## ElectricalCurrent(string, string, ElectricalCurrent, double, double) Constructor
 
-Constructs a unit measuring a specified [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') using another ElectricalCurrent as a reference.
+Constructs a unit measuring a specified [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') using another [ElectricalCurrent](Jcd.Units.UnitTypes.ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') as a reference.
 
 ```csharp
 public ElectricalCurrent(string name, string symbol, Jcd.Units.UnitTypes.ElectricalCurrent baseUnit, double coefficient, double offset=0.0);
