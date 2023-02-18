@@ -6,9 +6,9 @@ public class Lengths : Enumeration<Lengths,Length>
 {
     public static readonly Length Inch = new ("inch", "in.", SI.Lengths.Centimeter, 2.54,0);
     public static readonly Length Foot = new ("foot", "ft.", Inch, 12,0);
-    public static readonly Length Twip = new ("twip", "twip", Foot, 1/17280,0);
-    public static readonly Length Thou = new ("thou", "th", Foot, 1/12000,0);
-    public static readonly Length Barleycorn = new ("barleycorn", "barleycorn", Foot, 1/36,0);
+    public static readonly Length Twip = new ("twip", "twip", Foot, 1.0/17280.0,0);
+    public static readonly Length Thou = new ("thou", "th", Foot, 1.0/12000.0,0);
+    public static readonly Length Barleycorn = new ("barleycorn", "barleycorn", Foot, 1.0/36.0,0);
     public static readonly Length Hand = new ("hand", "hh", Inch, 4,0);
     public static readonly Length Yard = new ("yard", "yd", Foot, 3,0);
     public static readonly Length Chain = new ("chain", "ch", Yard, 22,0);

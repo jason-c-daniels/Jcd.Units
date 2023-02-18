@@ -9,9 +9,9 @@ Astronomy,Length,light-week,l-wk,False,Astronomy,light-day,7,0,7
 Astronomy,Length,parsec,pc,True,Astronomy,light-year,3.2615637769757,0,8
 Imperial,Length,inch,in.,False,SI,centimeter,2.54,0,0
 Imperial,Length,foot,ft.,False,Imperial,inch,12,0,1
-Imperial,Length,twip,twip,False,Imperial,foot,1/17280,0,2
-Imperial,Length,thou,th,False,Imperial,foot,1/12000,0,3
-Imperial,Length,barleycorn,barleycorn,False,Imperial,foot,1/36,0,4
+Imperial,Length,twip,twip,False,Imperial,foot,1.0/17280.0,0,2
+Imperial,Length,thou,th,False,Imperial,foot,1.0/12000.0,0,3
+Imperial,Length,barleycorn,barleycorn,False,Imperial,foot,1.0/36.0,0,4
 Imperial,Length,hand,hh,False,Imperial,inch,4,0,5
 Imperial,Length,yard,yd,False,Imperial,foot,3,0,6
 Imperial,Length,chain,ch,False,Imperial,yard,22,0,7
