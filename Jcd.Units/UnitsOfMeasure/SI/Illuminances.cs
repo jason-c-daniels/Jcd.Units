@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Illuminance.
+/// </summary>
 public class Illuminances : Enumeration<Illuminances,Illuminance>
 {
     public static readonly Illuminance Lux = new ("lux", "lx");

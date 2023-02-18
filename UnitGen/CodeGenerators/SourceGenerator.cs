@@ -49,8 +49,10 @@ public class SourceCodeGenerator
     {
         return _enumerationTemplate
             .Replace("$BaseNamespace$", baseNamespace)
+            .Replace("$System.Description$", unitDef.System.Description)
             .Replace("$Enumeration$",unitDef.UnitType.EnumerationName)
-            .Replace("$UnitType$",unitDef.UnitType.UnitTypeName)
+            .Replace("$UnitType.Name$",unitDef.UnitType.Name)
+            .Replace("$UnitType.TypeName$",unitDef.UnitType.UnitTypeName)
             .Replace("$Subnamespace$",unitDef.Subnamespace)
             .Replace("$Units$",units.TrimEnd())
             ;

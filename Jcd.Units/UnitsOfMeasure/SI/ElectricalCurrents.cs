@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Electrical Current.
+/// </summary>
 public class ElectricalCurrents : Enumeration<ElectricalCurrents,ElectricalCurrent>
 {
     public static readonly ElectricalCurrent Ampere = new ("ampere", "A");

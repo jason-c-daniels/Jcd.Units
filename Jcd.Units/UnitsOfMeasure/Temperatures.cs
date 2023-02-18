@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure;
 
+/// <summary>
+/// Uncategorized Units for measuring Temperature.
+/// </summary>
 public class Temperatures : Enumeration<Temperatures,Temperature>
 {
     public static readonly Temperature DegreesRankine = new ("degrees rankine", "°R", SI.Temperatures.DegreesCelcius, 5.0/9.0,-491.67);

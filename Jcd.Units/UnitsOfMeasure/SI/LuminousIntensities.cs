@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Luminous Intensity.
+/// </summary>
 public class LuminousIntensities : Enumeration<LuminousIntensities,LuminousIntensity>
 {
     public static readonly LuminousIntensity Candela = new ("candela", "cd");

@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Amount.
+/// </summary>
 public class Amounts : Enumeration<Amounts,Amount>
 {
     public static readonly Amount Mole = new ("mole", "mol", UnitsOfMeasure.Amounts.Count, 6.02214076E+23,0);

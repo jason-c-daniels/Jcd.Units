@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Magnetic Flux Density.
+/// </summary>
 public class MagneticFluxDensities : Enumeration<MagneticFluxDensities,MagneticFluxDensity>
 {
     public static readonly MagneticFluxDensity Tesla = new ("tesla", "T");

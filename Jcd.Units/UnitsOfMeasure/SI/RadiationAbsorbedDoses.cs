@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Radiation Absorbed Dose.
+/// </summary>
 public class RadiationAbsorbedDoses : Enumeration<RadiationAbsorbedDoses,RadiationAbsorbedDose>
 {
     public static readonly RadiationAbsorbedDose Gray = new ("gray", "Gy");

@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.Imperial;
 
+/// <summary>
+/// British Imperial Units for measuring Length.
+/// </summary>
 public class Lengths : Enumeration<Lengths,Length>
 {
     public static readonly Length Inch = new ("inch", "in.", SI.Lengths.Centimeter, 2.54,0);

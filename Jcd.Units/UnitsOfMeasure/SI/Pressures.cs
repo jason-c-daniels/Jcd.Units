@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Pressure.
+/// </summary>
 public class Pressures : Enumeration<Pressures,Pressure>
 {
     public static readonly Pressure Pascal = new ("pascal", "Pa");

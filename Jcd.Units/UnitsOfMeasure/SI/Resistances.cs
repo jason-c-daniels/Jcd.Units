@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Resistance.
+/// </summary>
 public class Resistances : Enumeration<Resistances,Resistance>
 {
     public static readonly Resistance Ohm = new ("ohm", "Ω");

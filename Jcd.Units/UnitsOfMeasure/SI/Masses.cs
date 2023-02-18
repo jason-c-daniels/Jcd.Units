@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Mass.
+/// </summary>
 public class Masses : Enumeration<Masses,Mass>
 {
     public static readonly Mass Gram = new ("gram", "g");

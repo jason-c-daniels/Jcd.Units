@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Frequency.
+/// </summary>
 public class Frequencies : Enumeration<Frequencies,Frequency>
 {
     public static readonly Frequency Hertz = new ("hertz", "Hz");

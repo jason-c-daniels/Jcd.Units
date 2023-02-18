@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Luminous Flux.
+/// </summary>
 public class LuminousFluxes : Enumeration<LuminousFluxes,LuminousFlux>
 {
     public static readonly LuminousFlux Lumen = new ("lumen", "lm");

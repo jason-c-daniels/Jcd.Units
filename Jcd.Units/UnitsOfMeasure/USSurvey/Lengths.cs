@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.USSurvey;
 
+/// <summary>
+/// United States Survey Units for measuring Length.
+/// </summary>
 public class Lengths : Enumeration<Lengths,Length>
 {
     public static readonly Length Link = new ("link", "li", SI.Lengths.Meter, 0.20116,0);

@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Electrical Charge.
+/// </summary>
 public class ElectricalCharges : Enumeration<ElectricalCharges,ElectricalCharge>
 {
     public static readonly ElectricalCharge Coulomb = new ("coulomb", "C");

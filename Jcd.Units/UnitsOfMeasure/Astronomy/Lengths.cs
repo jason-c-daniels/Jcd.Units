@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.Astronomy;
 
+/// <summary>
+/// Astronomical Units for measuring Length.
+/// </summary>
 public class Lengths : Enumeration<Lengths,Length>
 {
     public static readonly Length LightYear = new ("light-year", "ly", SI.Lengths.Meter, 9_460_730_472_580_800,0);

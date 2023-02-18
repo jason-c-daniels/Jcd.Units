@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Force.
+/// </summary>
 public class Forces : Enumeration<Forces,Force>
 {
     public static readonly Force Newton = new ("newton", "N");

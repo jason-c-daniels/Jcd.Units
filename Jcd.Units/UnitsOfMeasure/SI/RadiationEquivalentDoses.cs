@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Radiation Equivalent Dose.
+/// </summary>
 public class RadiationEquivalentDoses : Enumeration<RadiationEquivalentDoses,RadiationEquivalentDose>
 {
     public static readonly RadiationEquivalentDose Sievert = new ("sievert", "sv");

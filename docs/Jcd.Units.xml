@@ -482,6 +482,176 @@
             <typeparam name="TUnitType">The unit of measure type.</typeparam>
             <returns>The offset for the fundamental unit of measure.</returns>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Amounts">
+            <summary>
+            Uncategorized Units for measuring Amount.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Astronomy.Lengths">
+            <summary>
+            Astronomical Units for measuring Length.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Durations">
+            <summary>
+            Uncategorized Units for measuring Duration.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.Lengths">
+            <summary>
+            British Imperial Units for measuring Length.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Amounts">
+            <summary>
+            International System of Units for measuring Amount.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Capacitances">
+            <summary>
+            International System of Units for measuring Capacitance.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities">
+            <summary>
+            International System of Units for measuring Catalytic Activity.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges">
+            <summary>
+            International System of Units for measuring Electrical Charge.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances">
+            <summary>
+            International System of Units for measuring Electrical Conductance.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.ElectricalCurrents">
+            <summary>
+            International System of Units for measuring Electrical Current.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.ElectricalPotentials">
+            <summary>
+            International System of Units for measuring Electrical Potential.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Energies">
+            <summary>
+            International System of Units for measuring Energy.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Forces">
+            <summary>
+            International System of Units for measuring Force.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Frequencies">
+            <summary>
+            International System of Units for measuring Frequency.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Illuminances">
+            <summary>
+            International System of Units for measuring Illuminance.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Inductances">
+            <summary>
+            International System of Units for measuring Inductance.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Lengths">
+            <summary>
+            International System of Units for measuring Length.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.LuminousFluxes">
+            <summary>
+            International System of Units for measuring Luminous Flux.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities">
+            <summary>
+            International System of Units for measuring Luminous Intensity.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities">
+            <summary>
+            International System of Units for measuring Magnetic Flux Density.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes">
+            <summary>
+            International System of Units for measuring Magnetic Flux.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Masses">
+            <summary>
+            International System of Units for measuring Mass.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Momentums">
+            <summary>
+            International System of Units for measuring Momentum.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Powers">
+            <summary>
+            International System of Units for measuring Power.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Pressures">
+            <summary>
+            International System of Units for measuring Pressure.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.RadiationAbsorbedDoses">
+            <summary>
+            International System of Units for measuring Radiation Absorbed Dose.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses">
+            <summary>
+            International System of Units for measuring Radiation Equivalent Dose.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays">
+            <summary>
+            International System of Units for measuring Radioactive Decay.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Resistances">
+            <summary>
+            International System of Units for measuring Resistance.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Temperatures">
+            <summary>
+            International System of Units for measuring Temperature.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Temperatures">
+            <summary>
+            Uncategorized Units for measuring Temperature.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Lengths">
+            <summary>
+            United States Customary Units for measuring Length.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures">
+            <summary>
+            United States Customary Units for measuring Temperature.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USSurvey.Lengths">
+            <summary>
+            United States Survey Units for measuring Length.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitTypes.Amount">
             <summary>
             A measurement of an arbitrary quantity, number or value of something.

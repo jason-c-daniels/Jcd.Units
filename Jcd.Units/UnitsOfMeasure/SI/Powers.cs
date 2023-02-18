@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Power.
+/// </summary>
 public class Powers : Enumeration<Powers,Power>
 {
     public static readonly Power Watt = new ("watt", "W");

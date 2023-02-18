@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure;
 
+/// <summary>
+/// Uncategorized Units for measuring Duration.
+/// </summary>
 public class Durations : Enumeration<Durations,Duration>
 {
     public static readonly Duration Second = new ("second", "s");

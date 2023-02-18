@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Length.
+/// </summary>
 public class Lengths : Enumeration<Lengths,Length>
 {
     public static readonly Length Meter = new ("meter", "m");

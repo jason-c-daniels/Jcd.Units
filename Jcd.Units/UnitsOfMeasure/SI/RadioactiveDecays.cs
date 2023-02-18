@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Radioactive Decay.
+/// </summary>
 public class RadioactiveDecays : Enumeration<RadioactiveDecays,RadioactiveDecay>
 {
     public static readonly RadioactiveDecay Becquerel = new ("becquerel", "Bq");

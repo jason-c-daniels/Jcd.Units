@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Catalytic Activity.
+/// </summary>
 public class CatalyticActivities : Enumeration<CatalyticActivities,CatalyticActivity>
 {
     public static readonly CatalyticActivity Katal = new ("katal", "kat");

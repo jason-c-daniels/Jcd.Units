@@ -2,7 +2,7 @@
 SI,International System of Units,True,SI
 US Customary,United States Customary Units,True,USCustomary
 Imperial,British Imperial Units,True,Imperial
-,Default / Uncategorized,False,
+,Uncategorized Units,False,
 Imperial Maritime,British Imperial Maritime Units,True,ImperialMaritime
 US Survey,United States Survey Units,True,USSurvey
-Astronomy,Units common to astronomy,True,Astronomy
+Astronomy,Astronomical Units,True,Astronomy

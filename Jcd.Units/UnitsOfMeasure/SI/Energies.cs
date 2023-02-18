@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Energy.
+/// </summary>
 public class Energies : Enumeration<Energies,Energy>
 {
     public static readonly Energy Joule = new ("joule", "J");

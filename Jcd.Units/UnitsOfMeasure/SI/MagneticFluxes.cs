@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Magnetic Flux.
+/// </summary>
 public class MagneticFluxes : Enumeration<MagneticFluxes,MagneticFlux>
 {
     public static readonly MagneticFlux Weber = new ("weber", "Wb");

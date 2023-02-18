@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Capacitance.
+/// </summary>
 public class Capacitances : Enumeration<Capacitances,Capacitance>
 {
     public static readonly Capacitance Farad = new ("farad", "F");

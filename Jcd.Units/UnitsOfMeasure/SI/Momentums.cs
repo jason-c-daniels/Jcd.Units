@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Momentum.
+/// </summary>
 public class Momentums : Enumeration<Momentums,Momentum>
 {
     public static readonly Momentum NewtonSecond = new ("newton-second", "N⋅s");

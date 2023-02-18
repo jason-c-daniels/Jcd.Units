@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Inductance.
+/// </summary>
 public class Inductances : Enumeration<Inductances,Inductance>
 {
     public static readonly Inductance Henry = new ("henry", "H");

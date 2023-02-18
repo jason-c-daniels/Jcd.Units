@@ -2,6 +2,9 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.UnitsOfMeasure.SI;
 
+/// <summary>
+/// International System of Units for measuring Electrical Conductance.
+/// </summary>
 public class ElectricalConductances : Enumeration<ElectricalConductances,ElectricalConductance>
 {
     public static readonly ElectricalConductance Siemens = new ("siemens", "S");
