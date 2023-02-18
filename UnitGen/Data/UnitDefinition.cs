@@ -13,12 +13,14 @@ public record UnitDefinition
     public bool IsBaseUnit => Unit.IsBaseUnit && Prefix.IsBasePrefix;
     public string UnitVarName => $"{UnitName}".MakeSymbolName();
 
-    public string BaseUnitNamespacePrefix => 
-        Unit.HasBaseUnitSubnamespace
-            ? string.IsNullOrWhiteSpace(Unit.BaseUnitSubnamespace)
-                ? $"{UnitType.EnumerationName}."
-                : $"{Unit.BaseUnitSubnamespace}.{UnitType.EnumerationName}."
-            : "";
+    public string BaseUnitNamespacePrefix { get {
+            return Unit.HasBaseUnitSubnamespace && Prefix.IsBasePrefix
+                ? string.IsNullOrWhiteSpace(Unit.BaseUnitSubnamespace)
+                    ? $"UnitsOfMeasure.{UnitType.EnumerationName}."
+                    : $"{Unit.BaseUnitSubnamespace}.{UnitType.EnumerationName}."
+                : "";
+        }
+    }
     public string Coefficient => Prefix.IsBasePrefix ? Unit.Coefficient : Prefix.Coefficient;
     public string Offset => Unit.Offset;
 
@@ -29,5 +31,8 @@ public record UnitDefinition
         : $"{Prefix.BasePrefix}{Unit.UnitName}"
     ;
     public string Symbol => IsBaseUnit ? Unit.UnitSymbol : $"{Prefix.Symbol}{Unit.UnitSymbol}";
-    public string Subnamespace => System.HasSubnamespace ? $".{System.Subnamespace}" : "";
+    public string Subnamespace => System.HasSubnamespace 
+        ? 
+        $".{System.Subnamespace}" 
+        : "";
 }
