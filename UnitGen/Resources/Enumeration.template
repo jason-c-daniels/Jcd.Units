@@ -7,6 +7,7 @@ namespace $BaseNamespace$$Subnamespace$;
 /// </summary>
 public class $Enumeration$ : Enumeration<$Enumeration$,$UnitType.TypeName$>
 {
+
 $Units$
 
 }

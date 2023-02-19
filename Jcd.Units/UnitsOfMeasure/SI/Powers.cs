@@ -8,104 +8,128 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Powers : Enumeration<Powers,Power>
 {
 
+
     /// <summary>
-    /// Units of a watt.
+    /// A(n) watt.
     /// </summary>
     public static readonly Power Watt = new ("watt", "W");
     /// <summary>
-    /// Units of a deciwatt. It's defined in terms of a(n) SI watt.
+    /// A(n) deciwatt. It's defined in terms of a(n) watt.
     /// </summary>
     public static readonly Power Deciwatt = new ("deciwatt", "dW", Watt, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a centiwatt. It's defined in terms of a(n) SI deciwatt.
+    /// A(n) centiwatt. It's defined in terms of a(n) deciwatt.
     /// </summary>
     public static readonly Power Centiwatt = new ("centiwatt", "cW", Deciwatt, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a milliwatt. It's defined in terms of a(n) SI centiwatt.
+    /// A(n) milliwatt. It's defined in terms of a(n) centiwatt.
     /// </summary>
     public static readonly Power Milliwatt = new ("milliwatt", "mW", Centiwatt, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a microwatt. It's defined in terms of a(n) SI milliwatt.
+    /// A(n) microwatt. It's defined in terms of a(n) milliwatt.
     /// </summary>
     public static readonly Power Microwatt = new ("microwatt", "μW", Milliwatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a nanowatt. It's defined in terms of a(n) SI microwatt.
+    /// A(n) nanowatt. It's defined in terms of a(n) microwatt.
     /// </summary>
     public static readonly Power Nanowatt = new ("nanowatt", "nW", Microwatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a picowatt. It's defined in terms of a(n) SI nanowatt.
+    /// A(n) picowatt. It's defined in terms of a(n) nanowatt.
     /// </summary>
     public static readonly Power Picowatt = new ("picowatt", "pW", Nanowatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a femtowatt. It's defined in terms of a(n) SI picowatt.
+    /// A(n) femtowatt. It's defined in terms of a(n) picowatt.
     /// </summary>
     public static readonly Power Femtowatt = new ("femtowatt", "fW", Picowatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a attowatt. It's defined in terms of a(n) SI femtowatt.
+    /// A(n) attowatt. It's defined in terms of a(n) femtowatt.
     /// </summary>
     public static readonly Power Attowatt = new ("attowatt", "aW", Femtowatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a zeptowatt. It's defined in terms of a(n) SI attowatt.
+    /// A(n) zeptowatt. It's defined in terms of a(n) attowatt.
     /// </summary>
     public static readonly Power Zeptowatt = new ("zeptowatt", "zW", Attowatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a yoctowatt. It's defined in terms of a(n) SI zeptowatt.
+    /// A(n) yoctowatt. It's defined in terms of a(n) zeptowatt.
     /// </summary>
     public static readonly Power Yoctowatt = new ("yoctowatt", "yW", Zeptowatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a rontowatt. It's defined in terms of a(n) SI yoctowatt.
+    /// A(n) rontowatt. It's defined in terms of a(n) yoctowatt.
     /// </summary>
     public static readonly Power Rontowatt = new ("rontowatt", "rW", Yoctowatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a quectowatt. It's defined in terms of a(n) SI rontowatt.
+    /// A(n) quectowatt. It's defined in terms of a(n) rontowatt.
     /// </summary>
     public static readonly Power Quectowatt = new ("quectowatt", "qW", Rontowatt, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a dekawatt. It's defined in terms of a(n) SI watt.
+    /// A(n) dekawatt. It's defined in terms of a(n) watt.
     /// </summary>
     public static readonly Power Dekawatt = new ("dekawatt", "daW", Watt, 10,0);
+    
     /// <summary>
-    /// Units of a hectowatt. It's defined in terms of a(n) SI dekawatt.
+    /// A(n) hectowatt. It's defined in terms of a(n) dekawatt.
     /// </summary>
     public static readonly Power Hectowatt = new ("hectowatt", "hW", Dekawatt, 10,0);
+    
     /// <summary>
-    /// Units of a kilowatt. It's defined in terms of a(n) SI hectowatt.
+    /// A(n) kilowatt. It's defined in terms of a(n) hectowatt.
     /// </summary>
     public static readonly Power Kilowatt = new ("kilowatt", "kW", Hectowatt, 10,0);
+    
     /// <summary>
-    /// Units of a megawatt. It's defined in terms of a(n) SI kilowatt.
+    /// A(n) megawatt. It's defined in terms of a(n) kilowatt.
     /// </summary>
     public static readonly Power Megawatt = new ("megawatt", "MW", Kilowatt, 1000,0);
+    
     /// <summary>
-    /// Units of a gigawatt. It's defined in terms of a(n) SI megawatt.
+    /// A(n) gigawatt. It's defined in terms of a(n) megawatt.
     /// </summary>
     public static readonly Power Gigawatt = new ("gigawatt", "GW", Megawatt, 1000,0);
+    
     /// <summary>
-    /// Units of a terawatt. It's defined in terms of a(n) SI gigawatt.
+    /// A(n) terawatt. It's defined in terms of a(n) gigawatt.
     /// </summary>
     public static readonly Power Terawatt = new ("terawatt", "TW", Gigawatt, 1000,0);
+    
     /// <summary>
-    /// Units of a petawatt. It's defined in terms of a(n) SI terawatt.
+    /// A(n) petawatt. It's defined in terms of a(n) terawatt.
     /// </summary>
     public static readonly Power Petawatt = new ("petawatt", "PW", Terawatt, 1000,0);
+    
     /// <summary>
-    /// Units of a exawatt. It's defined in terms of a(n) SI petawatt.
+    /// A(n) exawatt. It's defined in terms of a(n) petawatt.
     /// </summary>
     public static readonly Power Exawatt = new ("exawatt", "EW", Petawatt, 1000,0);
+    
     /// <summary>
-    /// Units of a zettawatt. It's defined in terms of a(n) SI exawatt.
+    /// A(n) zettawatt. It's defined in terms of a(n) exawatt.
     /// </summary>
     public static readonly Power Zettawatt = new ("zettawatt", "ZW", Exawatt, 1000,0);
+    
     /// <summary>
-    /// Units of a yottawatt. It's defined in terms of a(n) SI zettawatt.
+    /// A(n) yottawatt. It's defined in terms of a(n) zettawatt.
     /// </summary>
     public static readonly Power Yottawatt = new ("yottawatt", "YW", Zettawatt, 1000,0);
+    
     /// <summary>
-    /// Units of a ronnawatt. It's defined in terms of a(n) SI yottawatt.
+    /// A(n) ronnawatt. It's defined in terms of a(n) yottawatt.
     /// </summary>
     public static readonly Power Ronnawatt = new ("ronnawatt", "RW", Yottawatt, 1000,0);
+    
     /// <summary>
-    /// Units of a quettawatt. It's defined in terms of a(n) SI ronnawatt.
+    /// A(n) quettawatt. It's defined in terms of a(n) ronnawatt.
     /// </summary>
     public static readonly Power Quettawatt = new ("quettawatt", "QW", Ronnawatt, 1000,0);
 

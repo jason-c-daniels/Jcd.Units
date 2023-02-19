@@ -8,104 +8,128 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class RadiationAbsorbedDoses : Enumeration<RadiationAbsorbedDoses,RadiationAbsorbedDose>
 {
 
+
     /// <summary>
-    /// Units of a gray.
+    /// A(n) gray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Gray = new ("gray", "Gy");
     /// <summary>
-    /// Units of a decigray. It's defined in terms of a(n) SI gray.
+    /// A(n) decigray. It's defined in terms of a(n) gray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Decigray = new ("decigray", "dGy", Gray, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a centigray. It's defined in terms of a(n) SI decigray.
+    /// A(n) centigray. It's defined in terms of a(n) decigray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Centigray = new ("centigray", "cGy", Decigray, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a milligray. It's defined in terms of a(n) SI centigray.
+    /// A(n) milligray. It's defined in terms of a(n) centigray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Milligray = new ("milligray", "mGy", Centigray, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a microgray. It's defined in terms of a(n) SI milligray.
+    /// A(n) microgray. It's defined in terms of a(n) milligray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Microgray = new ("microgray", "μGy", Milligray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a nanogray. It's defined in terms of a(n) SI microgray.
+    /// A(n) nanogray. It's defined in terms of a(n) microgray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Nanogray = new ("nanogray", "nGy", Microgray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a picogray. It's defined in terms of a(n) SI nanogray.
+    /// A(n) picogray. It's defined in terms of a(n) nanogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Picogray = new ("picogray", "pGy", Nanogray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a femtogray. It's defined in terms of a(n) SI picogray.
+    /// A(n) femtogray. It's defined in terms of a(n) picogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Femtogray = new ("femtogray", "fGy", Picogray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a attogray. It's defined in terms of a(n) SI femtogray.
+    /// A(n) attogray. It's defined in terms of a(n) femtogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Attogray = new ("attogray", "aGy", Femtogray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a zeptogray. It's defined in terms of a(n) SI attogray.
+    /// A(n) zeptogray. It's defined in terms of a(n) attogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Zeptogray = new ("zeptogray", "zGy", Attogray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a yoctogray. It's defined in terms of a(n) SI zeptogray.
+    /// A(n) yoctogray. It's defined in terms of a(n) zeptogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Yoctogray = new ("yoctogray", "yGy", Zeptogray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a rontogray. It's defined in terms of a(n) SI yoctogray.
+    /// A(n) rontogray. It's defined in terms of a(n) yoctogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Rontogray = new ("rontogray", "rGy", Yoctogray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a quectogray. It's defined in terms of a(n) SI rontogray.
+    /// A(n) quectogray. It's defined in terms of a(n) rontogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Quectogray = new ("quectogray", "qGy", Rontogray, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a dekagray. It's defined in terms of a(n) SI gray.
+    /// A(n) dekagray. It's defined in terms of a(n) gray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Dekagray = new ("dekagray", "daGy", Gray, 10,0);
+    
     /// <summary>
-    /// Units of a hectogray. It's defined in terms of a(n) SI dekagray.
+    /// A(n) hectogray. It's defined in terms of a(n) dekagray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Hectogray = new ("hectogray", "hGy", Dekagray, 10,0);
+    
     /// <summary>
-    /// Units of a kilogray. It's defined in terms of a(n) SI hectogray.
+    /// A(n) kilogray. It's defined in terms of a(n) hectogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Kilogray = new ("kilogray", "kGy", Hectogray, 10,0);
+    
     /// <summary>
-    /// Units of a megagray. It's defined in terms of a(n) SI kilogray.
+    /// A(n) megagray. It's defined in terms of a(n) kilogray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Megagray = new ("megagray", "MGy", Kilogray, 1000,0);
+    
     /// <summary>
-    /// Units of a gigagray. It's defined in terms of a(n) SI megagray.
+    /// A(n) gigagray. It's defined in terms of a(n) megagray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Gigagray = new ("gigagray", "GGy", Megagray, 1000,0);
+    
     /// <summary>
-    /// Units of a teragray. It's defined in terms of a(n) SI gigagray.
+    /// A(n) teragray. It's defined in terms of a(n) gigagray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Teragray = new ("teragray", "TGy", Gigagray, 1000,0);
+    
     /// <summary>
-    /// Units of a petagray. It's defined in terms of a(n) SI teragray.
+    /// A(n) petagray. It's defined in terms of a(n) teragray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Petagray = new ("petagray", "PGy", Teragray, 1000,0);
+    
     /// <summary>
-    /// Units of a exagray. It's defined in terms of a(n) SI petagray.
+    /// A(n) exagray. It's defined in terms of a(n) petagray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Exagray = new ("exagray", "EGy", Petagray, 1000,0);
+    
     /// <summary>
-    /// Units of a zettagray. It's defined in terms of a(n) SI exagray.
+    /// A(n) zettagray. It's defined in terms of a(n) exagray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Zettagray = new ("zettagray", "ZGy", Exagray, 1000,0);
+    
     /// <summary>
-    /// Units of a yottagray. It's defined in terms of a(n) SI zettagray.
+    /// A(n) yottagray. It's defined in terms of a(n) zettagray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Yottagray = new ("yottagray", "YGy", Zettagray, 1000,0);
+    
     /// <summary>
-    /// Units of a ronnagray. It's defined in terms of a(n) SI yottagray.
+    /// A(n) ronnagray. It's defined in terms of a(n) yottagray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Ronnagray = new ("ronnagray", "RGy", Yottagray, 1000,0);
+    
     /// <summary>
-    /// Units of a quettagray. It's defined in terms of a(n) SI ronnagray.
+    /// A(n) quettagray. It's defined in terms of a(n) ronnagray.
     /// </summary>
     public static readonly RadiationAbsorbedDose Quettagray = new ("quettagray", "QGy", Ronnagray, 1000,0);
 

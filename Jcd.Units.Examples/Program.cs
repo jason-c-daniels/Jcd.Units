@@ -2,6 +2,7 @@
 
 using Jcd.Units;
 using Jcd.Units.UnitsOfMeasure;
+using Jcd.Units.UnitsOfMeasure.Astronomical;
 using Jcd.Units.UnitTypes;
 using SI=Jcd.Units.UnitsOfMeasure.SI;
 using USCustomary=Jcd.Units.UnitsOfMeasure.USCustomary;
@@ -19,10 +20,10 @@ var twoM= (meterQuantity + kmQuantity);
 var twoMInInches = twoM.To(Imperial.Lengths.Inch); // two meters in inches.
 var oneInch = 1.As(Imperial.Lengths.Inch);
 var oneInchInTwips = oneInch.To(Imperial.Lengths.Twip);
-var oneParsec = 1.As(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.Parsec);
+var oneParsec = 1.As(Lengths.Parsec);
 var oneParsecInKm = oneParsec.To(SI.Lengths.Kilometer);
-var oneLy = 1.As(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.LightYear);
-var oneParsecInLy = oneParsec.To(Jcd.Units.UnitsOfMeasure.Astronomy.Lengths.LightYear);
+var oneLy = 1.As(Lengths.LightYear);
+var oneParsecInLy = oneParsec.To(Lengths.LightYear);
 var oneLyInKm = oneLy.To(SI.Lengths.Kilometer);
 var oneLyInM = oneLy.To(SI.Lengths.Meter);
 var oneLyInKm2 = oneLyInM.To(SI.Lengths.Kilometer);

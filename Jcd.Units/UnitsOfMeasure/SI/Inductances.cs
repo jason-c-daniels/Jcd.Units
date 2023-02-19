@@ -8,104 +8,128 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Inductances : Enumeration<Inductances,Inductance>
 {
 
+
     /// <summary>
-    /// Units of a henry.
+    /// A(n) henry.
     /// </summary>
     public static readonly Inductance Henry = new ("henry", "H");
     /// <summary>
-    /// Units of a decihenry. It's defined in terms of a(n) SI henry.
+    /// A(n) decihenry. It's defined in terms of a(n) henry.
     /// </summary>
     public static readonly Inductance Decihenry = new ("decihenry", "dH", Henry, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a centihenry. It's defined in terms of a(n) SI decihenry.
+    /// A(n) centihenry. It's defined in terms of a(n) decihenry.
     /// </summary>
     public static readonly Inductance Centihenry = new ("centihenry", "cH", Decihenry, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a millihenry. It's defined in terms of a(n) SI centihenry.
+    /// A(n) millihenry. It's defined in terms of a(n) centihenry.
     /// </summary>
     public static readonly Inductance Millihenry = new ("millihenry", "mH", Centihenry, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a microhenry. It's defined in terms of a(n) SI millihenry.
+    /// A(n) microhenry. It's defined in terms of a(n) millihenry.
     /// </summary>
     public static readonly Inductance Microhenry = new ("microhenry", "μH", Millihenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a nanohenry. It's defined in terms of a(n) SI microhenry.
+    /// A(n) nanohenry. It's defined in terms of a(n) microhenry.
     /// </summary>
     public static readonly Inductance Nanohenry = new ("nanohenry", "nH", Microhenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a picohenry. It's defined in terms of a(n) SI nanohenry.
+    /// A(n) picohenry. It's defined in terms of a(n) nanohenry.
     /// </summary>
     public static readonly Inductance Picohenry = new ("picohenry", "pH", Nanohenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a femtohenry. It's defined in terms of a(n) SI picohenry.
+    /// A(n) femtohenry. It's defined in terms of a(n) picohenry.
     /// </summary>
     public static readonly Inductance Femtohenry = new ("femtohenry", "fH", Picohenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a attohenry. It's defined in terms of a(n) SI femtohenry.
+    /// A(n) attohenry. It's defined in terms of a(n) femtohenry.
     /// </summary>
     public static readonly Inductance Attohenry = new ("attohenry", "aH", Femtohenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a zeptohenry. It's defined in terms of a(n) SI attohenry.
+    /// A(n) zeptohenry. It's defined in terms of a(n) attohenry.
     /// </summary>
     public static readonly Inductance Zeptohenry = new ("zeptohenry", "zH", Attohenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a yoctohenry. It's defined in terms of a(n) SI zeptohenry.
+    /// A(n) yoctohenry. It's defined in terms of a(n) zeptohenry.
     /// </summary>
     public static readonly Inductance Yoctohenry = new ("yoctohenry", "yH", Zeptohenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a rontohenry. It's defined in terms of a(n) SI yoctohenry.
+    /// A(n) rontohenry. It's defined in terms of a(n) yoctohenry.
     /// </summary>
     public static readonly Inductance Rontohenry = new ("rontohenry", "rH", Yoctohenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a quectohenry. It's defined in terms of a(n) SI rontohenry.
+    /// A(n) quectohenry. It's defined in terms of a(n) rontohenry.
     /// </summary>
     public static readonly Inductance Quectohenry = new ("quectohenry", "qH", Rontohenry, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a dekahenry. It's defined in terms of a(n) SI henry.
+    /// A(n) dekahenry. It's defined in terms of a(n) henry.
     /// </summary>
     public static readonly Inductance Dekahenry = new ("dekahenry", "daH", Henry, 10,0);
+    
     /// <summary>
-    /// Units of a hectohenry. It's defined in terms of a(n) SI dekahenry.
+    /// A(n) hectohenry. It's defined in terms of a(n) dekahenry.
     /// </summary>
     public static readonly Inductance Hectohenry = new ("hectohenry", "hH", Dekahenry, 10,0);
+    
     /// <summary>
-    /// Units of a kilohenry. It's defined in terms of a(n) SI hectohenry.
+    /// A(n) kilohenry. It's defined in terms of a(n) hectohenry.
     /// </summary>
     public static readonly Inductance Kilohenry = new ("kilohenry", "kH", Hectohenry, 10,0);
+    
     /// <summary>
-    /// Units of a megahenry. It's defined in terms of a(n) SI kilohenry.
+    /// A(n) megahenry. It's defined in terms of a(n) kilohenry.
     /// </summary>
     public static readonly Inductance Megahenry = new ("megahenry", "MH", Kilohenry, 1000,0);
+    
     /// <summary>
-    /// Units of a gigahenry. It's defined in terms of a(n) SI megahenry.
+    /// A(n) gigahenry. It's defined in terms of a(n) megahenry.
     /// </summary>
     public static readonly Inductance Gigahenry = new ("gigahenry", "GH", Megahenry, 1000,0);
+    
     /// <summary>
-    /// Units of a terahenry. It's defined in terms of a(n) SI gigahenry.
+    /// A(n) terahenry. It's defined in terms of a(n) gigahenry.
     /// </summary>
     public static readonly Inductance Terahenry = new ("terahenry", "TH", Gigahenry, 1000,0);
+    
     /// <summary>
-    /// Units of a petahenry. It's defined in terms of a(n) SI terahenry.
+    /// A(n) petahenry. It's defined in terms of a(n) terahenry.
     /// </summary>
     public static readonly Inductance Petahenry = new ("petahenry", "PH", Terahenry, 1000,0);
+    
     /// <summary>
-    /// Units of a exahenry. It's defined in terms of a(n) SI petahenry.
+    /// A(n) exahenry. It's defined in terms of a(n) petahenry.
     /// </summary>
     public static readonly Inductance Exahenry = new ("exahenry", "EH", Petahenry, 1000,0);
+    
     /// <summary>
-    /// Units of a zettahenry. It's defined in terms of a(n) SI exahenry.
+    /// A(n) zettahenry. It's defined in terms of a(n) exahenry.
     /// </summary>
     public static readonly Inductance Zettahenry = new ("zettahenry", "ZH", Exahenry, 1000,0);
+    
     /// <summary>
-    /// Units of a yottahenry. It's defined in terms of a(n) SI zettahenry.
+    /// A(n) yottahenry. It's defined in terms of a(n) zettahenry.
     /// </summary>
     public static readonly Inductance Yottahenry = new ("yottahenry", "YH", Zettahenry, 1000,0);
+    
     /// <summary>
-    /// Units of a ronnahenry. It's defined in terms of a(n) SI yottahenry.
+    /// A(n) ronnahenry. It's defined in terms of a(n) yottahenry.
     /// </summary>
     public static readonly Inductance Ronnahenry = new ("ronnahenry", "RH", Yottahenry, 1000,0);
+    
     /// <summary>
-    /// Units of a quettahenry. It's defined in terms of a(n) SI ronnahenry.
+    /// A(n) quettahenry. It's defined in terms of a(n) ronnahenry.
     /// </summary>
     public static readonly Inductance Quettahenry = new ("quettahenry", "QH", Ronnahenry, 1000,0);
 

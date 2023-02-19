@@ -8,104 +8,128 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class LuminousFluxes : Enumeration<LuminousFluxes,LuminousFlux>
 {
 
+
     /// <summary>
-    /// Units of a lumen.
+    /// A(n) lumen.
     /// </summary>
     public static readonly LuminousFlux Lumen = new ("lumen", "lm");
     /// <summary>
-    /// Units of a decilumen. It's defined in terms of a(n) SI lumen.
+    /// A(n) decilumen. It's defined in terms of a(n) lumen.
     /// </summary>
     public static readonly LuminousFlux Decilumen = new ("decilumen", "dlm", Lumen, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a centilumen. It's defined in terms of a(n) SI decilumen.
+    /// A(n) centilumen. It's defined in terms of a(n) decilumen.
     /// </summary>
     public static readonly LuminousFlux Centilumen = new ("centilumen", "clm", Decilumen, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a millilumen. It's defined in terms of a(n) SI centilumen.
+    /// A(n) millilumen. It's defined in terms of a(n) centilumen.
     /// </summary>
     public static readonly LuminousFlux Millilumen = new ("millilumen", "mlm", Centilumen, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a microlumen. It's defined in terms of a(n) SI millilumen.
+    /// A(n) microlumen. It's defined in terms of a(n) millilumen.
     /// </summary>
     public static readonly LuminousFlux Microlumen = new ("microlumen", "μlm", Millilumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a nanolumen. It's defined in terms of a(n) SI microlumen.
+    /// A(n) nanolumen. It's defined in terms of a(n) microlumen.
     /// </summary>
     public static readonly LuminousFlux Nanolumen = new ("nanolumen", "nlm", Microlumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a picolumen. It's defined in terms of a(n) SI nanolumen.
+    /// A(n) picolumen. It's defined in terms of a(n) nanolumen.
     /// </summary>
     public static readonly LuminousFlux Picolumen = new ("picolumen", "plm", Nanolumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a femtolumen. It's defined in terms of a(n) SI picolumen.
+    /// A(n) femtolumen. It's defined in terms of a(n) picolumen.
     /// </summary>
     public static readonly LuminousFlux Femtolumen = new ("femtolumen", "flm", Picolumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a attolumen. It's defined in terms of a(n) SI femtolumen.
+    /// A(n) attolumen. It's defined in terms of a(n) femtolumen.
     /// </summary>
     public static readonly LuminousFlux Attolumen = new ("attolumen", "alm", Femtolumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a zeptolumen. It's defined in terms of a(n) SI attolumen.
+    /// A(n) zeptolumen. It's defined in terms of a(n) attolumen.
     /// </summary>
     public static readonly LuminousFlux Zeptolumen = new ("zeptolumen", "zlm", Attolumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a yoctolumen. It's defined in terms of a(n) SI zeptolumen.
+    /// A(n) yoctolumen. It's defined in terms of a(n) zeptolumen.
     /// </summary>
     public static readonly LuminousFlux Yoctolumen = new ("yoctolumen", "ylm", Zeptolumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a rontolumen. It's defined in terms of a(n) SI yoctolumen.
+    /// A(n) rontolumen. It's defined in terms of a(n) yoctolumen.
     /// </summary>
     public static readonly LuminousFlux Rontolumen = new ("rontolumen", "rlm", Yoctolumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a quectolumen. It's defined in terms of a(n) SI rontolumen.
+    /// A(n) quectolumen. It's defined in terms of a(n) rontolumen.
     /// </summary>
     public static readonly LuminousFlux Quectolumen = new ("quectolumen", "qlm", Rontolumen, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a dekalumen. It's defined in terms of a(n) SI lumen.
+    /// A(n) dekalumen. It's defined in terms of a(n) lumen.
     /// </summary>
     public static readonly LuminousFlux Dekalumen = new ("dekalumen", "dalm", Lumen, 10,0);
+    
     /// <summary>
-    /// Units of a hectolumen. It's defined in terms of a(n) SI dekalumen.
+    /// A(n) hectolumen. It's defined in terms of a(n) dekalumen.
     /// </summary>
     public static readonly LuminousFlux Hectolumen = new ("hectolumen", "hlm", Dekalumen, 10,0);
+    
     /// <summary>
-    /// Units of a kilolumen. It's defined in terms of a(n) SI hectolumen.
+    /// A(n) kilolumen. It's defined in terms of a(n) hectolumen.
     /// </summary>
     public static readonly LuminousFlux Kilolumen = new ("kilolumen", "klm", Hectolumen, 10,0);
+    
     /// <summary>
-    /// Units of a megalumen. It's defined in terms of a(n) SI kilolumen.
+    /// A(n) megalumen. It's defined in terms of a(n) kilolumen.
     /// </summary>
     public static readonly LuminousFlux Megalumen = new ("megalumen", "Mlm", Kilolumen, 1000,0);
+    
     /// <summary>
-    /// Units of a gigalumen. It's defined in terms of a(n) SI megalumen.
+    /// A(n) gigalumen. It's defined in terms of a(n) megalumen.
     /// </summary>
     public static readonly LuminousFlux Gigalumen = new ("gigalumen", "Glm", Megalumen, 1000,0);
+    
     /// <summary>
-    /// Units of a teralumen. It's defined in terms of a(n) SI gigalumen.
+    /// A(n) teralumen. It's defined in terms of a(n) gigalumen.
     /// </summary>
     public static readonly LuminousFlux Teralumen = new ("teralumen", "Tlm", Gigalumen, 1000,0);
+    
     /// <summary>
-    /// Units of a petalumen. It's defined in terms of a(n) SI teralumen.
+    /// A(n) petalumen. It's defined in terms of a(n) teralumen.
     /// </summary>
     public static readonly LuminousFlux Petalumen = new ("petalumen", "Plm", Teralumen, 1000,0);
+    
     /// <summary>
-    /// Units of a exalumen. It's defined in terms of a(n) SI petalumen.
+    /// A(n) exalumen. It's defined in terms of a(n) petalumen.
     /// </summary>
     public static readonly LuminousFlux Exalumen = new ("exalumen", "Elm", Petalumen, 1000,0);
+    
     /// <summary>
-    /// Units of a zettalumen. It's defined in terms of a(n) SI exalumen.
+    /// A(n) zettalumen. It's defined in terms of a(n) exalumen.
     /// </summary>
     public static readonly LuminousFlux Zettalumen = new ("zettalumen", "Zlm", Exalumen, 1000,0);
+    
     /// <summary>
-    /// Units of a yottalumen. It's defined in terms of a(n) SI zettalumen.
+    /// A(n) yottalumen. It's defined in terms of a(n) zettalumen.
     /// </summary>
     public static readonly LuminousFlux Yottalumen = new ("yottalumen", "Ylm", Zettalumen, 1000,0);
+    
     /// <summary>
-    /// Units of a ronnalumen. It's defined in terms of a(n) SI yottalumen.
+    /// A(n) ronnalumen. It's defined in terms of a(n) yottalumen.
     /// </summary>
     public static readonly LuminousFlux Ronnalumen = new ("ronnalumen", "Rlm", Yottalumen, 1000,0);
+    
     /// <summary>
-    /// Units of a quettalumen. It's defined in terms of a(n) SI ronnalumen.
+    /// A(n) quettalumen. It's defined in terms of a(n) ronnalumen.
     /// </summary>
     public static readonly LuminousFlux Quettalumen = new ("quettalumen", "Qlm", Ronnalumen, 1000,0);
 

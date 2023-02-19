@@ -8,104 +8,128 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Masses : Enumeration<Masses,Mass>
 {
 
+
     /// <summary>
-    /// Units of a gram.
+    /// A(n) gram.
     /// </summary>
     public static readonly Mass Gram = new ("gram", "g");
     /// <summary>
-    /// Units of a decigram. It's defined in terms of a(n) SI gram.
+    /// A(n) decigram. It's defined in terms of a(n) gram.
     /// </summary>
     public static readonly Mass Decigram = new ("decigram", "dg", Gram, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a centigram. It's defined in terms of a(n) SI decigram.
+    /// A(n) centigram. It's defined in terms of a(n) decigram.
     /// </summary>
     public static readonly Mass Centigram = new ("centigram", "cg", Decigram, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a milligram. It's defined in terms of a(n) SI centigram.
+    /// A(n) milligram. It's defined in terms of a(n) centigram.
     /// </summary>
     public static readonly Mass Milligram = new ("milligram", "mg", Centigram, 1.0/10.0,0);
+    
     /// <summary>
-    /// Units of a microgram. It's defined in terms of a(n) SI milligram.
+    /// A(n) microgram. It's defined in terms of a(n) milligram.
     /// </summary>
     public static readonly Mass Microgram = new ("microgram", "μg", Milligram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a nanogram. It's defined in terms of a(n) SI microgram.
+    /// A(n) nanogram. It's defined in terms of a(n) microgram.
     /// </summary>
     public static readonly Mass Nanogram = new ("nanogram", "ng", Microgram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a picogram. It's defined in terms of a(n) SI nanogram.
+    /// A(n) picogram. It's defined in terms of a(n) nanogram.
     /// </summary>
     public static readonly Mass Picogram = new ("picogram", "pg", Nanogram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a femtogram. It's defined in terms of a(n) SI picogram.
+    /// A(n) femtogram. It's defined in terms of a(n) picogram.
     /// </summary>
     public static readonly Mass Femtogram = new ("femtogram", "fg", Picogram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a attogram. It's defined in terms of a(n) SI femtogram.
+    /// A(n) attogram. It's defined in terms of a(n) femtogram.
     /// </summary>
     public static readonly Mass Attogram = new ("attogram", "ag", Femtogram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a zeptogram. It's defined in terms of a(n) SI attogram.
+    /// A(n) zeptogram. It's defined in terms of a(n) attogram.
     /// </summary>
     public static readonly Mass Zeptogram = new ("zeptogram", "zg", Attogram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a yoctogram. It's defined in terms of a(n) SI zeptogram.
+    /// A(n) yoctogram. It's defined in terms of a(n) zeptogram.
     /// </summary>
     public static readonly Mass Yoctogram = new ("yoctogram", "yg", Zeptogram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a rontogram. It's defined in terms of a(n) SI yoctogram.
+    /// A(n) rontogram. It's defined in terms of a(n) yoctogram.
     /// </summary>
     public static readonly Mass Rontogram = new ("rontogram", "rg", Yoctogram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a quectogram. It's defined in terms of a(n) SI rontogram.
+    /// A(n) quectogram. It's defined in terms of a(n) rontogram.
     /// </summary>
     public static readonly Mass Quectogram = new ("quectogram", "qg", Rontogram, 1.0/1000.0,0);
+    
     /// <summary>
-    /// Units of a dekagram. It's defined in terms of a(n) SI gram.
+    /// A(n) dekagram. It's defined in terms of a(n) gram.
     /// </summary>
     public static readonly Mass Dekagram = new ("dekagram", "dag", Gram, 10,0);
+    
     /// <summary>
-    /// Units of a hectogram. It's defined in terms of a(n) SI dekagram.
+    /// A(n) hectogram. It's defined in terms of a(n) dekagram.
     /// </summary>
     public static readonly Mass Hectogram = new ("hectogram", "hg", Dekagram, 10,0);
+    
     /// <summary>
-    /// Units of a kilogram. It's defined in terms of a(n) SI hectogram.
+    /// A(n) kilogram. It's defined in terms of a(n) hectogram.
     /// </summary>
     public static readonly Mass Kilogram = new ("kilogram", "kg", Hectogram, 10,0);
+    
     /// <summary>
-    /// Units of a megagram. It's defined in terms of a(n) SI kilogram.
+    /// A(n) megagram. It's defined in terms of a(n) kilogram.
     /// </summary>
     public static readonly Mass Megagram = new ("megagram", "Mg", Kilogram, 1000,0);
+    
     /// <summary>
-    /// Units of a gigagram. It's defined in terms of a(n) SI megagram.
+    /// A(n) gigagram. It's defined in terms of a(n) megagram.
     /// </summary>
     public static readonly Mass Gigagram = new ("gigagram", "Gg", Megagram, 1000,0);
+    
     /// <summary>
-    /// Units of a teragram. It's defined in terms of a(n) SI gigagram.
+    /// A(n) teragram. It's defined in terms of a(n) gigagram.
     /// </summary>
     public static readonly Mass Teragram = new ("teragram", "Tg", Gigagram, 1000,0);
+    
     /// <summary>
-    /// Units of a petagram. It's defined in terms of a(n) SI teragram.
+    /// A(n) petagram. It's defined in terms of a(n) teragram.
     /// </summary>
     public static readonly Mass Petagram = new ("petagram", "Pg", Teragram, 1000,0);
+    
     /// <summary>
-    /// Units of a exagram. It's defined in terms of a(n) SI petagram.
+    /// A(n) exagram. It's defined in terms of a(n) petagram.
     /// </summary>
     public static readonly Mass Exagram = new ("exagram", "Eg", Petagram, 1000,0);
+    
     /// <summary>
-    /// Units of a zettagram. It's defined in terms of a(n) SI exagram.
+    /// A(n) zettagram. It's defined in terms of a(n) exagram.
     /// </summary>
     public static readonly Mass Zettagram = new ("zettagram", "Zg", Exagram, 1000,0);
+    
     /// <summary>
-    /// Units of a yottagram. It's defined in terms of a(n) SI zettagram.
+    /// A(n) yottagram. It's defined in terms of a(n) zettagram.
     /// </summary>
     public static readonly Mass Yottagram = new ("yottagram", "Yg", Zettagram, 1000,0);
+    
     /// <summary>
-    /// Units of a ronnagram. It's defined in terms of a(n) SI yottagram.
+    /// A(n) ronnagram. It's defined in terms of a(n) yottagram.
     /// </summary>
     public static readonly Mass Ronnagram = new ("ronnagram", "Rg", Yottagram, 1000,0);
+    
     /// <summary>
-    /// Units of a quettagram. It's defined in terms of a(n) SI ronnagram.
+    /// A(n) quettagram. It's defined in terms of a(n) ronnagram.
     /// </summary>
     public static readonly Mass Quettagram = new ("quettagram", "Qg", Ronnagram, 1000,0);
 

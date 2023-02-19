@@ -32,6 +32,11 @@ public class SourceCodeGenerator
     public string GenerateUnit(UnitDefinition unitDef, string baseNamespace = DefaultBaseNamespace)
     {
         var template = unitDef.IsBaseUnit ? _baseUnitTemplate : _derivedUnitTemplate;
+
+        var baseSystem = _systemLookup[unitDef.Unit.BaseUnitSystem];
+        var baseSystemName = string.IsNullOrWhiteSpace(unitDef.BaseUnitNamespacePrefix)
+            ? string.Empty
+            : $"{baseSystem.Name} ";
         return template
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$UnitType.TypeName$",unitDef.UnitType.UnitTypeName)
@@ -39,7 +44,7 @@ public class SourceCodeGenerator
             .Replace("$Unit.Name$",unitDef.UnitName)
             .Replace("$BaseUnitNamespacePrefix$", unitDef.BaseUnitNamespacePrefix)
             .Replace("$BaseUnit.Name$",unitDef.BaseUnitName)
-            .Replace("$BaseUnit.System$",unitDef.Unit.BaseUnitSystem)
+            .Replace("$BaseUnit.System$",baseSystemName)
             .Replace("$BaseUnit$",unitDef.BaseUnitName.MakeSymbolName())
             .Replace("$Symbol$",unitDef.Symbol)
             .Replace("$Coefficient$",unitDef.Coefficient)

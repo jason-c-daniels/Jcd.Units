@@ -1,12 +1,12 @@
 System,Unit Type,Unit Name,Unit Symbol,Uses Prefixes,Base Unit System,Base Unit,Coefficient,Offset,Sort Index
-Astronomy,Length,light-year,ly,True,SI,meter,9_460_730_472_580_800,0,1
-Astronomy,Length,light-second,ls,False,SI,meter,299_792_458,0,2
-Astronomy,Length,light-minute,lm,False,Astronomy,light-second,60,0,3
-Astronomy,Length,astronomical unit,AU,False,SI,kilometer,149597870.691,0,4
-Astronomy,Length,light-hour,lh,False,Astronomy,light-minute,60,0,5
-Astronomy,Length,light-day,ld,False,Astronomy,light-hour,24,0,6
-Astronomy,Length,light-week,lw,False,Astronomy,light-day,7,0,7
-Astronomy,Length,parsec,pc,True,Astronomy,light-year,3.2615637769757,0,8
+Astronomical,Length,light-year,ly,True,SI,meter,9_460_730_472_580_800,0,1
+Astronomical,Length,light-second,ls,False,SI,meter,299_792_458,0,2
+Astronomical,Length,light-minute,lm,False,Astronomical,light-second,60,0,3
+Astronomical,Length,astronomical unit,AU,False,SI,kilometer,149597870.691,0,4
+Astronomical,Length,light-hour,lh,False,Astronomical,light-minute,60,0,5
+Astronomical,Length,light-day,ld,False,Astronomical,light-hour,24,0,6
+Astronomical,Length,light-week,lw,False,Astronomical,light-day,7,0,7
+Astronomical,Length,parsec,pc,True,Astronomical,light-year,3.2615637769757,0,8
 Imperial,Length,inch,in.,False,SI,centimeter,2.54,0,0
 Imperial,Length,foot,ft.,False,Imperial,inch,12,0,1
 Imperial,Length,twip,twip,False,Imperial,foot,1.0/17280.0,0,2
