@@ -3,7 +3,7 @@
 
 ## Powers.Nanowatt Field
 
-Units of a nanowatt. It's defined in terms of a(n) SI microwatt.
+A(n) nanowatt. It's defined in terms of a(n) microwatt.
 
 ```csharp
 public static readonly Power Nanowatt;

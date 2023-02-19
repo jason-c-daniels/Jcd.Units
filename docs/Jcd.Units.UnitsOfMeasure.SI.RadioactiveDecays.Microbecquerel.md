@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Microbecquerel Field
 
-Units of a microbecquerel. It's defined in terms of a(n) SI millibecquerel.
+A(n) microbecquerel. It's defined in terms of a(n) millibecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Microbecquerel;

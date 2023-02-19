@@ -3,7 +3,7 @@
 
 ## Lengths.Foot Field
 
-Units of a foot. It's defined in terms of a(n) Imperial inch.
+A(n) foot. It's defined in terms of a(n) inch.
 
 ```csharp
 public static readonly Length Foot;

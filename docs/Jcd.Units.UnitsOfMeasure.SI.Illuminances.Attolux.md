@@ -3,7 +3,7 @@
 
 ## Illuminances.Attolux Field
 
-Units of a attolux. It's defined in terms of a(n) SI femtolux.
+A(n) attolux. It's defined in terms of a(n) femtolux.
 
 ```csharp
 public static readonly Illuminance Attolux;

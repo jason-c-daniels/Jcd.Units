@@ -3,7 +3,7 @@
 
 ## Durations.MillionYears Field
 
-Units of a million years. It's defined in terms of a(n)  millennium.
+A(n) million years. It's defined in terms of a(n) millennium.
 
 ```csharp
 public static readonly Duration MillionYears;

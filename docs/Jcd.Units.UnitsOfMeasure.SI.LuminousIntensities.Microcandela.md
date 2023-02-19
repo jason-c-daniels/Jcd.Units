@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Microcandela Field
 
-Units of a microcandela. It's defined in terms of a(n) SI millicandela.
+A(n) microcandela. It's defined in terms of a(n) millicandela.
 
 ```csharp
 public static readonly LuminousIntensity Microcandela;

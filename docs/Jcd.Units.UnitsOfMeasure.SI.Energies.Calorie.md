@@ -3,7 +3,7 @@
 
 ## Energies.Calorie Field
 
-Units of a calorie. It's defined in terms of a(n) SI joule.
+A(n) calorie. It's defined in terms of a(n) joule.
 
 ```csharp
 public static readonly Energy Calorie;

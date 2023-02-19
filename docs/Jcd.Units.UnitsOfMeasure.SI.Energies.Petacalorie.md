@@ -3,7 +3,7 @@
 
 ## Energies.Petacalorie Field
 
-Units of a petacalorie. It's defined in terms of a(n) SI teracalorie.
+A(n) petacalorie. It's defined in terms of a(n) teracalorie.
 
 ```csharp
 public static readonly Energy Petacalorie;

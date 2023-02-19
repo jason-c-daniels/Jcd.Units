@@ -3,7 +3,7 @@
 
 ## Lengths.Hand Field
 
-Units of a hand. It's defined in terms of a(n) Imperial inch.
+A(n) hand. It's defined in terms of a(n) inch.
 
 ```csharp
 public static readonly Length Hand;

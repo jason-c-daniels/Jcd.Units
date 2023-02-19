@@ -3,7 +3,7 @@
 
 ## Capacitances.Microfarad Field
 
-Units of a microfarad. It's defined in terms of a(n) SI millifarad.
+A(n) microfarad. It's defined in terms of a(n) millifarad.
 
 ```csharp
 public static readonly Capacitance Microfarad;

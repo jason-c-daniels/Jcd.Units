@@ -3,7 +3,7 @@
 
 ## Energies.Ronnajoule Field
 
-Units of a ronnajoule. It's defined in terms of a(n) SI yottajoule.
+A(n) ronnajoule. It's defined in terms of a(n) yottajoule.
 
 ```csharp
 public static readonly Energy Ronnajoule;

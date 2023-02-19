@@ -3,7 +3,7 @@
 
 ## Forces.Newton Field
 
-Units of a newton.
+A(n) newton.
 
 ```csharp
 public static readonly Force Newton;

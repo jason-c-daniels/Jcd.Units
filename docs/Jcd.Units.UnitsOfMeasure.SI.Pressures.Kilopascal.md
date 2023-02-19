@@ -3,7 +3,7 @@
 
 ## Pressures.Kilopascal Field
 
-Units of a kilopascal. It's defined in terms of a(n) SI hectopascal.
+A(n) kilopascal. It's defined in terms of a(n) hectopascal.
 
 ```csharp
 public static readonly Pressure Kilopascal;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Rontogray Field
 
-Units of a rontogray. It's defined in terms of a(n) SI yoctogray.
+A(n) rontogray. It's defined in terms of a(n) yoctogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Rontogray;

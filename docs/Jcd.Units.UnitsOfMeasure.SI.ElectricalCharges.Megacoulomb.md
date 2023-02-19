@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Megacoulomb Field
 
-Units of a megacoulomb. It's defined in terms of a(n) SI kilocoulomb.
+A(n) megacoulomb. It's defined in terms of a(n) kilocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Megacoulomb;

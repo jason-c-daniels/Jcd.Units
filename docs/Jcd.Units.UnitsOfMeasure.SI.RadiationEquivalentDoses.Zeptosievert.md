@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Zeptosievert Field
 
-Units of a zeptosievert. It's defined in terms of a(n) SI attosievert.
+A(n) zeptosievert. It's defined in terms of a(n) attosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Zeptosievert;

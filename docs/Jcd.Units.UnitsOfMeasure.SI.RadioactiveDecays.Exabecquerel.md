@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Exabecquerel Field
 
-Units of a exabecquerel. It's defined in terms of a(n) SI petabecquerel.
+A(n) exabecquerel. It's defined in terms of a(n) petabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Exabecquerel;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Kilosiemens Field
 
-Units of a kilosiemens. It's defined in terms of a(n) SI hectosiemens.
+A(n) kilosiemens. It's defined in terms of a(n) hectosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Kilosiemens;

@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Dekalumen Field
 
-Units of a dekalumen. It's defined in terms of a(n) SI lumen.
+A(n) dekalumen. It's defined in terms of a(n) lumen.
 
 ```csharp
 public static readonly LuminousFlux Dekalumen;

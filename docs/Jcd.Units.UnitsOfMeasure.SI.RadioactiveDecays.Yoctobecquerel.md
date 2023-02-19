@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Yoctobecquerel Field
 
-Units of a yoctobecquerel. It's defined in terms of a(n) SI zeptobecquerel.
+A(n) yoctobecquerel. It's defined in terms of a(n) zeptobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Yoctobecquerel;

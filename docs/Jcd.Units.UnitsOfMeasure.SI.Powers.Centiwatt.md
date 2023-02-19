@@ -3,7 +3,7 @@
 
 ## Powers.Centiwatt Field
 
-Units of a centiwatt. It's defined in terms of a(n) SI deciwatt.
+A(n) centiwatt. It's defined in terms of a(n) deciwatt.
 
 ```csharp
 public static readonly Power Centiwatt;

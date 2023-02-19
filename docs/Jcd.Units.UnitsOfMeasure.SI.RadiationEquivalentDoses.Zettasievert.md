@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Zettasievert Field
 
-Units of a zettasievert. It's defined in terms of a(n) SI exasievert.
+A(n) zettasievert. It's defined in terms of a(n) exasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Zettasievert;

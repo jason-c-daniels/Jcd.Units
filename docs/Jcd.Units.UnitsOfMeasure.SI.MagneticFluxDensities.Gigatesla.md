@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Gigatesla Field
 
-Units of a gigatesla. It's defined in terms of a(n) SI megatesla.
+A(n) gigatesla. It's defined in terms of a(n) megatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Gigatesla;

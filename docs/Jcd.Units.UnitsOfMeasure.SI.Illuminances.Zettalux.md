@@ -3,7 +3,7 @@
 
 ## Illuminances.Zettalux Field
 
-Units of a zettalux. It's defined in terms of a(n) SI exalux.
+A(n) zettalux. It's defined in terms of a(n) exalux.
 
 ```csharp
 public static readonly Illuminance Zettalux;

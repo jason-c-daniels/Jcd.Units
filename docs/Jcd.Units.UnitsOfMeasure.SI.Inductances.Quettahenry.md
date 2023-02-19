@@ -3,7 +3,7 @@
 
 ## Inductances.Quettahenry Field
 
-Units of a quettahenry. It's defined in terms of a(n) SI ronnahenry.
+A(n) quettahenry. It's defined in terms of a(n) ronnahenry.
 
 ```csharp
 public static readonly Inductance Quettahenry;

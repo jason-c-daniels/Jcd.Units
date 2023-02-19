@@ -3,7 +3,7 @@
 
 ## Durations.Quettasecond Field
 
-Units of a quettasecond. It's defined in terms of a(n)  ronnasecond.
+A(n) quettasecond. It's defined in terms of a(n) ronnasecond.
 
 ```csharp
 public static readonly Duration Quettasecond;

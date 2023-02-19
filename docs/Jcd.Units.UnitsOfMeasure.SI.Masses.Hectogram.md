@@ -3,7 +3,7 @@
 
 ## Masses.Hectogram Field
 
-Units of a hectogram. It's defined in terms of a(n) SI dekagram.
+A(n) hectogram. It's defined in terms of a(n) dekagram.
 
 ```csharp
 public static readonly Mass Hectogram;

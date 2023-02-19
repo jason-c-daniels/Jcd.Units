@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesNewton Field
 
-Units of a degrees newton. It's defined in terms of a(n) SI degrees celcius.
+A(n) degrees newton. It's defined in terms of a(n) SI degrees celcius.
 
 ```csharp
 public static readonly Temperature DegreesNewton;

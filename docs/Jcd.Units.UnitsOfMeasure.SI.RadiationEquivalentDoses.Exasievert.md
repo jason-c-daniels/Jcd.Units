@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Exasievert Field
 
-Units of a exasievert. It's defined in terms of a(n) SI petasievert.
+A(n) exasievert. It's defined in terms of a(n) petasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Exasievert;

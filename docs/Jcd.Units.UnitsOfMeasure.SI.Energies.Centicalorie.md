@@ -3,7 +3,7 @@
 
 ## Energies.Centicalorie Field
 
-Units of a centicalorie. It's defined in terms of a(n) SI decicalorie.
+A(n) centicalorie. It's defined in terms of a(n) decicalorie.
 
 ```csharp
 public static readonly Energy Centicalorie;

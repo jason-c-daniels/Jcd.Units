@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Ronnabecquerel Field
 
-Units of a ronnabecquerel. It's defined in terms of a(n) SI yottabecquerel.
+A(n) ronnabecquerel. It's defined in terms of a(n) yottabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Ronnabecquerel;

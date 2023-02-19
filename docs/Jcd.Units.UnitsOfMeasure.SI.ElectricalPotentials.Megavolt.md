@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Megavolt Field
 
-Units of a megavolt. It's defined in terms of a(n) SI kilovolt.
+A(n) megavolt. It's defined in terms of a(n) kilovolt.
 
 ```csharp
 public static readonly ElectricalPotential Megavolt;

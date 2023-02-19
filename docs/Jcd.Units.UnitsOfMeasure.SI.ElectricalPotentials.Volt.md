@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Volt Field
 
-Units of a volt.
+A(n) volt.
 
 ```csharp
 public static readonly ElectricalPotential Volt;

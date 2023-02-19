@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Megagray Field
 
-Units of a megagray. It's defined in terms of a(n) SI kilogray.
+A(n) megagray. It's defined in terms of a(n) kilogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Megagray;

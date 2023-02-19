@@ -3,7 +3,7 @@
 
 ## Capacitances.Nanofarad Field
 
-Units of a nanofarad. It's defined in terms of a(n) SI microfarad.
+A(n) nanofarad. It's defined in terms of a(n) microfarad.
 
 ```csharp
 public static readonly Capacitance Nanofarad;

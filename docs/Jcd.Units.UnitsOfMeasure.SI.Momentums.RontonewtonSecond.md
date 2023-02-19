@@ -3,7 +3,7 @@
 
 ## Momentums.RontonewtonSecond Field
 
-Units of a rontonewton-second. It's defined in terms of a(n) SI yoctonewton-second.
+A(n) rontonewton-second. It's defined in terms of a(n) yoctonewton-second.
 
 ```csharp
 public static readonly Momentum RontonewtonSecond;

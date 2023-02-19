@@ -3,7 +3,7 @@
 
 ## Masses.Megagram Field
 
-Units of a megagram. It's defined in terms of a(n) SI kilogram.
+A(n) megagram. It's defined in terms of a(n) kilogram.
 
 ```csharp
 public static readonly Mass Megagram;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Gray Field
 
-Units of a gray.
+A(n) gray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Gray;

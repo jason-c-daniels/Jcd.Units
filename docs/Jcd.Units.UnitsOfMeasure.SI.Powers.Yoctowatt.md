@@ -3,7 +3,7 @@
 
 ## Powers.Yoctowatt Field
 
-Units of a yoctowatt. It's defined in terms of a(n) SI zeptowatt.
+A(n) yoctowatt. It's defined in terms of a(n) zeptowatt.
 
 ```csharp
 public static readonly Power Yoctowatt;

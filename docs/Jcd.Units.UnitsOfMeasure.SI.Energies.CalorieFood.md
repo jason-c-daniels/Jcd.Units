@@ -3,7 +3,7 @@
 
 ## Energies.CalorieFood Field
 
-Units of a Calorie (Food). It's defined in terms of a(n) SI calorie.
+A(n) Calorie (Food). It's defined in terms of a(n) calorie.
 
 ```csharp
 public static readonly Energy CalorieFood;

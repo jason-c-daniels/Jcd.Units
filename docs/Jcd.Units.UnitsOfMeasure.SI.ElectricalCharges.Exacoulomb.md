@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Exacoulomb Field
 
-Units of a exacoulomb. It's defined in terms of a(n) SI petacoulomb.
+A(n) exacoulomb. It's defined in terms of a(n) petacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Exacoulomb;

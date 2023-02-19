@@ -3,7 +3,7 @@
 
 ## Pressures.Nanopascal Field
 
-Units of a nanopascal. It's defined in terms of a(n) SI micropascal.
+A(n) nanopascal. It's defined in terms of a(n) micropascal.
 
 ```csharp
 public static readonly Pressure Nanopascal;

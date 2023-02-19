@@ -3,7 +3,7 @@
 
 ## Momentums.DecinewtonSecond Field
 
-Units of a decinewton-second. It's defined in terms of a(n) SI newton-second.
+A(n) decinewton-second. It's defined in terms of a(n) newton-second.
 
 ```csharp
 public static readonly Momentum DecinewtonSecond;

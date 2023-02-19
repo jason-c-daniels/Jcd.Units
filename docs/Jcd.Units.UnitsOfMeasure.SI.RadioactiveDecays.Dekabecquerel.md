@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Dekabecquerel Field
 
-Units of a dekabecquerel. It's defined in terms of a(n) SI becquerel.
+A(n) dekabecquerel. It's defined in terms of a(n) becquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Dekabecquerel;

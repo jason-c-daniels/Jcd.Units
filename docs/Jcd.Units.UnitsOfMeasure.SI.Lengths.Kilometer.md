@@ -3,7 +3,7 @@
 
 ## Lengths.Kilometer Field
 
-Units of a kilometer. It's defined in terms of a(n) SI hectometer.
+A(n) kilometer. It's defined in terms of a(n) hectometer.
 
 ```csharp
 public static readonly Length Kilometer;

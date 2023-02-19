@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Zeptosiemens Field
 
-Units of a zeptosiemens. It's defined in terms of a(n) SI attosiemens.
+A(n) zeptosiemens. It's defined in terms of a(n) attosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Zeptosiemens;

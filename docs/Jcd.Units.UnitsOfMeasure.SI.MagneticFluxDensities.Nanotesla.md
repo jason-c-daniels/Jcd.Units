@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Nanotesla Field
 
-Units of a nanotesla. It's defined in terms of a(n) SI microtesla.
+A(n) nanotesla. It's defined in terms of a(n) microtesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Nanotesla;

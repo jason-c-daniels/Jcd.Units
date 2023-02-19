@@ -3,7 +3,7 @@
 
 ## Illuminances.Kilolux Field
 
-Units of a kilolux. It's defined in terms of a(n) SI hectolux.
+A(n) kilolux. It's defined in terms of a(n) hectolux.
 
 ```csharp
 public static readonly Illuminance Kilolux;

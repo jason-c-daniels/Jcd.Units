@@ -3,7 +3,7 @@
 
 ## Illuminances.Gigalux Field
 
-Units of a gigalux. It's defined in terms of a(n) SI megalux.
+A(n) gigalux. It's defined in terms of a(n) megalux.
 
 ```csharp
 public static readonly Illuminance Gigalux;

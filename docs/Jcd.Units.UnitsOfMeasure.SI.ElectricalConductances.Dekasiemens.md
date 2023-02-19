@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Dekasiemens Field
 
-Units of a dekasiemens. It's defined in terms of a(n) SI siemens.
+A(n) dekasiemens. It's defined in terms of a(n) siemens.
 
 ```csharp
 public static readonly ElectricalConductance Dekasiemens;

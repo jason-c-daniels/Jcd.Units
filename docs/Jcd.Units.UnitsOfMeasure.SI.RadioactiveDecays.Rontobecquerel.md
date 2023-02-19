@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Rontobecquerel Field
 
-Units of a rontobecquerel. It's defined in terms of a(n) SI yoctobecquerel.
+A(n) rontobecquerel. It's defined in terms of a(n) yoctobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Rontobecquerel;

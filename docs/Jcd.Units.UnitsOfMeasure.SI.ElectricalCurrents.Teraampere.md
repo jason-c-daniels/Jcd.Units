@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Teraampere Field
 
-Units of a teraampere. It's defined in terms of a(n) SI gigaampere.
+A(n) teraampere. It's defined in terms of a(n) gigaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Teraampere;

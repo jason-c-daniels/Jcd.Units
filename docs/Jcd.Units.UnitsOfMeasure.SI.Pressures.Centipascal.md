@@ -3,7 +3,7 @@
 
 ## Pressures.Centipascal Field
 
-Units of a centipascal. It's defined in terms of a(n) SI decipascal.
+A(n) centipascal. It's defined in terms of a(n) decipascal.
 
 ```csharp
 public static readonly Pressure Centipascal;

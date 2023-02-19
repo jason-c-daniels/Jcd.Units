@@ -3,7 +3,7 @@
 
 ## Forces.Femtonewton Field
 
-Units of a femtonewton. It's defined in terms of a(n) SI piconewton.
+A(n) femtonewton. It's defined in terms of a(n) piconewton.
 
 ```csharp
 public static readonly Force Femtonewton;

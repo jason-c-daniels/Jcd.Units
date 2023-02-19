@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Millicoulomb Field
 
-Units of a millicoulomb. It's defined in terms of a(n) SI centicoulomb.
+A(n) millicoulomb. It's defined in terms of a(n) centicoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Millicoulomb;

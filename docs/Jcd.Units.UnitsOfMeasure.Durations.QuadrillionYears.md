@@ -3,7 +3,7 @@
 
 ## Durations.QuadrillionYears Field
 
-Units of a quadrillion years. It's defined in terms of a(n)  trillion years.
+A(n) quadrillion years. It's defined in terms of a(n) trillion years.
 
 ```csharp
 public static readonly Duration QuadrillionYears;

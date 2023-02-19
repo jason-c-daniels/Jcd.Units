@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Decisievert Field
 
-Units of a decisievert. It's defined in terms of a(n) SI sievert.
+A(n) decisievert. It's defined in terms of a(n) sievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Decisievert;

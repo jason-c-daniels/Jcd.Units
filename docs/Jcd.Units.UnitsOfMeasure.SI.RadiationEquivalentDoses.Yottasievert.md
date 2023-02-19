@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Yottasievert Field
 
-Units of a yottasievert. It's defined in terms of a(n) SI zettasievert.
+A(n) yottasievert. It's defined in terms of a(n) zettasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Yottasievert;

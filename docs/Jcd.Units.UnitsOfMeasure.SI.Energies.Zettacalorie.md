@@ -3,7 +3,7 @@
 
 ## Energies.Zettacalorie Field
 
-Units of a zettacalorie. It's defined in terms of a(n) SI exacalorie.
+A(n) zettacalorie. It's defined in terms of a(n) exacalorie.
 
 ```csharp
 public static readonly Energy Zettacalorie;

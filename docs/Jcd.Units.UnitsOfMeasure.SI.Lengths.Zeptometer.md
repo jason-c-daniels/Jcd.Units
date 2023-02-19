@@ -3,7 +3,7 @@
 
 ## Lengths.Zeptometer Field
 
-Units of a zeptometer. It's defined in terms of a(n) SI attometer.
+A(n) zeptometer. It's defined in terms of a(n) attometer.
 
 ```csharp
 public static readonly Length Zeptometer;

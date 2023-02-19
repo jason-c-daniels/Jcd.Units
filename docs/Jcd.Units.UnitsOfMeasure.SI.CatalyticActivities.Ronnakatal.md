@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Ronnakatal Field
 
-Units of a ronnakatal. It's defined in terms of a(n) SI yottakatal.
+A(n) ronnakatal. It's defined in terms of a(n) yottakatal.
 
 ```csharp
 public static readonly CatalyticActivity Ronnakatal;

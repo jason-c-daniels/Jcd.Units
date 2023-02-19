@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Milligray Field
 
-Units of a milligray. It's defined in terms of a(n) SI centigray.
+A(n) milligray. It's defined in terms of a(n) centigray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Milligray;

@@ -3,7 +3,7 @@
 
 ## Pressures.Dekapascal Field
 
-Units of a dekapascal. It's defined in terms of a(n) SI pascal.
+A(n) dekapascal. It's defined in terms of a(n) pascal.
 
 ```csharp
 public static readonly Pressure Dekapascal;

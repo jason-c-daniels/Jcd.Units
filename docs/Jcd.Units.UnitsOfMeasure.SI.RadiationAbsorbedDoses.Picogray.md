@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Picogray Field
 
-Units of a picogray. It's defined in terms of a(n) SI nanogray.
+A(n) picogray. It's defined in terms of a(n) nanogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Picogray;

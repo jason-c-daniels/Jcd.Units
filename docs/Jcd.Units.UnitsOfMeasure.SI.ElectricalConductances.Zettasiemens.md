@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Zettasiemens Field
 
-Units of a zettasiemens. It's defined in terms of a(n) SI exasiemens.
+A(n) zettasiemens. It's defined in terms of a(n) exasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Zettasiemens;

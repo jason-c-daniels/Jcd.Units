@@ -3,7 +3,7 @@
 
 ## Pressures.Yottapascal Field
 
-Units of a yottapascal. It's defined in terms of a(n) SI zettapascal.
+A(n) yottapascal. It's defined in terms of a(n) zettapascal.
 
 ```csharp
 public static readonly Pressure Yottapascal;

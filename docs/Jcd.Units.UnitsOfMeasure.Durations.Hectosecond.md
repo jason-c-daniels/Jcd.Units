@@ -3,7 +3,7 @@
 
 ## Durations.Hectosecond Field
 
-Units of a hectosecond. It's defined in terms of a(n)  dekasecond.
+A(n) hectosecond. It's defined in terms of a(n) dekasecond.
 
 ```csharp
 public static readonly Duration Hectosecond;

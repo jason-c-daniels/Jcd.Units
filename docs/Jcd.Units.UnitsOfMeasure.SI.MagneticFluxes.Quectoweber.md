@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Quectoweber Field
 
-Units of a quectoweber. It's defined in terms of a(n) SI rontoweber.
+A(n) quectoweber. It's defined in terms of a(n) rontoweber.
 
 ```csharp
 public static readonly MagneticFlux Quectoweber;

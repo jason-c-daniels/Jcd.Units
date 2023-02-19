@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Kilotesla Field
 
-Units of a kilotesla. It's defined in terms of a(n) SI hectotesla.
+A(n) kilotesla. It's defined in terms of a(n) hectotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Kilotesla;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Attosievert Field
 
-Units of a attosievert. It's defined in terms of a(n) SI femtosievert.
+A(n) attosievert. It's defined in terms of a(n) femtosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Attosievert;

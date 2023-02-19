@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Quectocoulomb Field
 
-Units of a quectocoulomb. It's defined in terms of a(n) SI rontocoulomb.
+A(n) quectocoulomb. It's defined in terms of a(n) rontocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Quectocoulomb;

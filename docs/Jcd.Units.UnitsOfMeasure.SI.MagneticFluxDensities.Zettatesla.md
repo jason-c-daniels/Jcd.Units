@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Zettatesla Field
 
-Units of a zettatesla. It's defined in terms of a(n) SI exatesla.
+A(n) zettatesla. It's defined in terms of a(n) exatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Zettatesla;

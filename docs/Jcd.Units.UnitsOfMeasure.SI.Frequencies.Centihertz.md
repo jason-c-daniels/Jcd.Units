@@ -3,7 +3,7 @@
 
 ## Frequencies.Centihertz Field
 
-Units of a centihertz. It's defined in terms of a(n) SI decihertz.
+A(n) centihertz. It's defined in terms of a(n) decihertz.
 
 ```csharp
 public static readonly Frequency Centihertz;

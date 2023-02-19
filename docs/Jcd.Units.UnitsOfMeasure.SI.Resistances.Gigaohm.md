@@ -3,7 +3,7 @@
 
 ## Resistances.Gigaohm Field
 
-Units of a gigaohm. It's defined in terms of a(n) SI megaohm.
+A(n) gigaohm. It's defined in terms of a(n) megaohm.
 
 ```csharp
 public static readonly Resistance Gigaohm;

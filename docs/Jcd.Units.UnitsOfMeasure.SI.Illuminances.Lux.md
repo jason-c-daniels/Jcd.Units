@@ -3,7 +3,7 @@
 
 ## Illuminances.Lux Field
 
-Units of a lux.
+A(n) lux.
 
 ```csharp
 public static readonly Illuminance Lux;

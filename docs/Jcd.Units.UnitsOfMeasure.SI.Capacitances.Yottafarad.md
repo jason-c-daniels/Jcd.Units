@@ -3,7 +3,7 @@
 
 ## Capacitances.Yottafarad Field
 
-Units of a yottafarad. It's defined in terms of a(n) SI zettafarad.
+A(n) yottafarad. It's defined in terms of a(n) zettafarad.
 
 ```csharp
 public static readonly Capacitance Yottafarad;

@@ -3,7 +3,7 @@
 
 ## Lengths.Barleycorn Field
 
-Units of a barleycorn. It's defined in terms of a(n) Imperial foot.
+A(n) barleycorn. It's defined in terms of a(n) foot.
 
 ```csharp
 public static readonly Length Barleycorn;

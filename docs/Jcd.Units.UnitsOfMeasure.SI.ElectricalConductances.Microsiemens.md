@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Microsiemens Field
 
-Units of a microsiemens. It's defined in terms of a(n) SI millisiemens.
+A(n) microsiemens. It's defined in terms of a(n) millisiemens.
 
 ```csharp
 public static readonly ElectricalConductance Microsiemens;

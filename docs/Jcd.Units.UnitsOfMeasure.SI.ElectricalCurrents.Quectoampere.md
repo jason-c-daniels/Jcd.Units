@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Quectoampere Field
 
-Units of a quectoampere. It's defined in terms of a(n) SI rontoampere.
+A(n) quectoampere. It's defined in terms of a(n) rontoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Quectoampere;

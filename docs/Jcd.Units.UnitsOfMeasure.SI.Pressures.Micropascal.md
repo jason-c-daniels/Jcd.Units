@@ -3,7 +3,7 @@
 
 ## Pressures.Micropascal Field
 
-Units of a micropascal. It's defined in terms of a(n) SI millipascal.
+A(n) micropascal. It's defined in terms of a(n) millipascal.
 
 ```csharp
 public static readonly Pressure Micropascal;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Picosievert Field
 
-Units of a picosievert. It's defined in terms of a(n) SI nanosievert.
+A(n) picosievert. It's defined in terms of a(n) nanosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Picosievert;

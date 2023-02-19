@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Petakatal Field
 
-Units of a petakatal. It's defined in terms of a(n) SI terakatal.
+A(n) petakatal. It's defined in terms of a(n) terakatal.
 
 ```csharp
 public static readonly CatalyticActivity Petakatal;

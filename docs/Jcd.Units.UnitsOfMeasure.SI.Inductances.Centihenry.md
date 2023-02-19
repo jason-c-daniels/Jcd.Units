@@ -3,7 +3,7 @@
 
 ## Inductances.Centihenry Field
 
-Units of a centihenry. It's defined in terms of a(n) SI decihenry.
+A(n) centihenry. It's defined in terms of a(n) decihenry.
 
 ```csharp
 public static readonly Inductance Centihenry;

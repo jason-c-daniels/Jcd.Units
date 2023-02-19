@@ -3,7 +3,7 @@
 
 ## Illuminances.Rontolux Field
 
-Units of a rontolux. It's defined in terms of a(n) SI yoctolux.
+A(n) rontolux. It's defined in terms of a(n) yoctolux.
 
 ```csharp
 public static readonly Illuminance Rontolux;

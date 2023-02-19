@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Yottagray Field
 
-Units of a yottagray. It's defined in terms of a(n) SI zettagray.
+A(n) yottagray. It's defined in terms of a(n) zettagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Yottagray;

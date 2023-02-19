@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Coulomb Field
 
-Units of a coulomb.
+A(n) coulomb.
 
 ```csharp
 public static readonly ElectricalCharge Coulomb;

@@ -3,7 +3,7 @@
 
 ## Forces.Micronewton Field
 
-Units of a micronewton. It's defined in terms of a(n) SI millinewton.
+A(n) micronewton. It's defined in terms of a(n) millinewton.
 
 ```csharp
 public static readonly Force Micronewton;

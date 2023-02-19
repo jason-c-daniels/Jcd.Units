@@ -3,7 +3,7 @@
 
 ## Resistances.Quettaohm Field
 
-Units of a quettaohm. It's defined in terms of a(n) SI ronnaohm.
+A(n) quettaohm. It's defined in terms of a(n) ronnaohm.
 
 ```csharp
 public static readonly Resistance Quettaohm;

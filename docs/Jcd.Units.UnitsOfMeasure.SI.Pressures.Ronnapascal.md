@@ -3,7 +3,7 @@
 
 ## Pressures.Ronnapascal Field
 
-Units of a ronnapascal. It's defined in terms of a(n) SI yottapascal.
+A(n) ronnapascal. It's defined in terms of a(n) yottapascal.
 
 ```csharp
 public static readonly Pressure Ronnapascal;

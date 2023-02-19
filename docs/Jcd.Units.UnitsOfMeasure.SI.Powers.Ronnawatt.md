@@ -3,7 +3,7 @@
 
 ## Powers.Ronnawatt Field
 
-Units of a ronnawatt. It's defined in terms of a(n) SI yottawatt.
+A(n) ronnawatt. It's defined in terms of a(n) yottawatt.
 
 ```csharp
 public static readonly Power Ronnawatt;

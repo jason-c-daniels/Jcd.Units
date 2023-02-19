@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Microvolt Field
 
-Units of a microvolt. It's defined in terms of a(n) SI millivolt.
+A(n) microvolt. It's defined in terms of a(n) millivolt.
 
 ```csharp
 public static readonly ElectricalPotential Microvolt;

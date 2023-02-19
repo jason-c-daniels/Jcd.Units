@@ -3,7 +3,7 @@
 
 ## Resistances.Centiohm Field
 
-Units of a centiohm. It's defined in terms of a(n) SI deciohm.
+A(n) centiohm. It's defined in terms of a(n) deciohm.
 
 ```csharp
 public static readonly Resistance Centiohm;

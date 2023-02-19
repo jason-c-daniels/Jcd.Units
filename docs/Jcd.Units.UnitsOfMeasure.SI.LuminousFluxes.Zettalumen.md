@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Zettalumen Field
 
-Units of a zettalumen. It's defined in terms of a(n) SI exalumen.
+A(n) zettalumen. It's defined in terms of a(n) exalumen.
 
 ```csharp
 public static readonly LuminousFlux Zettalumen;

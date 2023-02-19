@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Lumen Field
 
-Units of a lumen.
+A(n) lumen.
 
 ```csharp
 public static readonly LuminousFlux Lumen;

@@ -3,7 +3,7 @@
 
 ## Illuminances.Teralux Field
 
-Units of a teralux. It's defined in terms of a(n) SI gigalux.
+A(n) teralux. It's defined in terms of a(n) gigalux.
 
 ```csharp
 public static readonly Illuminance Teralux;

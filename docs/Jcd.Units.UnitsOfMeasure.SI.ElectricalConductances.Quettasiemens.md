@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Quettasiemens Field
 
-Units of a quettasiemens. It's defined in terms of a(n) SI ronnasiemens.
+A(n) quettasiemens. It's defined in terms of a(n) ronnasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Quettasiemens;

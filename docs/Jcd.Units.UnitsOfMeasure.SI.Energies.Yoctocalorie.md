@@ -3,7 +3,7 @@
 
 ## Energies.Yoctocalorie Field
 
-Units of a yoctocalorie. It's defined in terms of a(n) SI zeptocalorie.
+A(n) yoctocalorie. It's defined in terms of a(n) zeptocalorie.
 
 ```csharp
 public static readonly Energy Yoctocalorie;

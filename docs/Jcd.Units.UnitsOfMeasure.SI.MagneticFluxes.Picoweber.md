@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Picoweber Field
 
-Units of a picoweber. It's defined in terms of a(n) SI nanoweber.
+A(n) picoweber. It's defined in terms of a(n) nanoweber.
 
 ```csharp
 public static readonly MagneticFlux Picoweber;

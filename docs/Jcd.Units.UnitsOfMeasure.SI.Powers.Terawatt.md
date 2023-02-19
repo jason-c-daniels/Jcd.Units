@@ -3,7 +3,7 @@
 
 ## Powers.Terawatt Field
 
-Units of a terawatt. It's defined in terms of a(n) SI gigawatt.
+A(n) terawatt. It's defined in terms of a(n) gigawatt.
 
 ```csharp
 public static readonly Power Terawatt;

@@ -3,7 +3,7 @@
 
 ## Capacitances.Kilofarad Field
 
-Units of a kilofarad. It's defined in terms of a(n) SI hectofarad.
+A(n) kilofarad. It's defined in terms of a(n) hectofarad.
 
 ```csharp
 public static readonly Capacitance Kilofarad;

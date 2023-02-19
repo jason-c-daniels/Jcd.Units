@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Rontovolt Field
 
-Units of a rontovolt. It's defined in terms of a(n) SI yoctovolt.
+A(n) rontovolt. It's defined in terms of a(n) yoctovolt.
 
 ```csharp
 public static readonly ElectricalPotential Rontovolt;

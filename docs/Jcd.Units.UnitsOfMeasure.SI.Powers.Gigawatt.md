@@ -3,7 +3,7 @@
 
 ## Powers.Gigawatt Field
 
-Units of a gigawatt. It's defined in terms of a(n) SI megawatt.
+A(n) gigawatt. It's defined in terms of a(n) megawatt.
 
 ```csharp
 public static readonly Power Gigawatt;

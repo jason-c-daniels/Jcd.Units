@@ -3,7 +3,7 @@
 
 ## Durations.Second Field
 
-Units of a second.
+A(n) second.
 
 ```csharp
 public static readonly Duration Second;

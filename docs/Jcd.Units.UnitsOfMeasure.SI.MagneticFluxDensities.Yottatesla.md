@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Yottatesla Field
 
-Units of a yottatesla. It's defined in terms of a(n) SI zettatesla.
+A(n) yottatesla. It's defined in terms of a(n) zettatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Yottatesla;

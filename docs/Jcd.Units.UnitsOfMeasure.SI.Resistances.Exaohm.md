@@ -3,7 +3,7 @@
 
 ## Resistances.Exaohm Field
 
-Units of a exaohm. It's defined in terms of a(n) SI petaohm.
+A(n) exaohm. It's defined in terms of a(n) petaohm.
 
 ```csharp
 public static readonly Resistance Exaohm;

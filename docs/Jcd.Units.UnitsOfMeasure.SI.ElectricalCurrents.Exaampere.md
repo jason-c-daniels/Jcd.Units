@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Exaampere Field
 
-Units of a exaampere. It's defined in terms of a(n) SI petaampere.
+A(n) exaampere. It's defined in terms of a(n) petaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Exaampere;

@@ -3,7 +3,7 @@
 
 ## Amounts.Rontomole Field
 
-Units of a rontomole. It's defined in terms of a(n)  yoctomole.
+A(n) rontomole. It's defined in terms of a(n) yoctomole.
 
 ```csharp
 public static readonly Amount Rontomole;

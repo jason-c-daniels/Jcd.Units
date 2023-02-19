@@ -3,7 +3,7 @@
 
 ## Capacitances.Quettafarad Field
 
-Units of a quettafarad. It's defined in terms of a(n) SI ronnafarad.
+A(n) quettafarad. It's defined in terms of a(n) ronnafarad.
 
 ```csharp
 public static readonly Capacitance Quettafarad;

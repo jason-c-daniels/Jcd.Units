@@ -3,7 +3,7 @@
 
 ## Pressures.Megapascal Field
 
-Units of a megapascal. It's defined in terms of a(n) SI kilopascal.
+A(n) megapascal. It's defined in terms of a(n) kilopascal.
 
 ```csharp
 public static readonly Pressure Megapascal;

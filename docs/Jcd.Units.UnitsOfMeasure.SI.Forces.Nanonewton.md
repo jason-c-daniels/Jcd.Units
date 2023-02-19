@@ -3,7 +3,7 @@
 
 ## Forces.Nanonewton Field
 
-Units of a nanonewton. It's defined in terms of a(n) SI micronewton.
+A(n) nanonewton. It's defined in terms of a(n) micronewton.
 
 ```csharp
 public static readonly Force Nanonewton;

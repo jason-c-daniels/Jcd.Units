@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Gigaampere Field
 
-Units of a gigaampere. It's defined in terms of a(n) SI megaampere.
+A(n) gigaampere. It's defined in terms of a(n) megaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Gigaampere;

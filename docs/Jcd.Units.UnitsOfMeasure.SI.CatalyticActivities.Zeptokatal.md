@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Zeptokatal Field
 
-Units of a zeptokatal. It's defined in terms of a(n) SI attokatal.
+A(n) zeptokatal. It's defined in terms of a(n) attokatal.
 
 ```csharp
 public static readonly CatalyticActivity Zeptokatal;

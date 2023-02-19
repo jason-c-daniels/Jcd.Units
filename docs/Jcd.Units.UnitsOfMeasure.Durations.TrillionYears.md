@@ -3,7 +3,7 @@
 
 ## Durations.TrillionYears Field
 
-Units of a trillion years. It's defined in terms of a(n)  billion years.
+A(n) trillion years. It's defined in terms of a(n) billion years.
 
 ```csharp
 public static readonly Duration TrillionYears;

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Becquerel Field
 
-Units of a becquerel.
+A(n) becquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Becquerel;

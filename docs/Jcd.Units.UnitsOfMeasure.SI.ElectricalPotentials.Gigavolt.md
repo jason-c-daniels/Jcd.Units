@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Gigavolt Field
 
-Units of a gigavolt. It's defined in terms of a(n) SI megavolt.
+A(n) gigavolt. It's defined in terms of a(n) megavolt.
 
 ```csharp
 public static readonly ElectricalPotential Gigavolt;

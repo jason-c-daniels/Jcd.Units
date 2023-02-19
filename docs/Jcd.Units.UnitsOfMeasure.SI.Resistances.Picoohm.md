@@ -3,7 +3,7 @@
 
 ## Resistances.Picoohm Field
 
-Units of a picoohm. It's defined in terms of a(n) SI nanoohm.
+A(n) picoohm. It's defined in terms of a(n) nanoohm.
 
 ```csharp
 public static readonly Resistance Picoohm;

@@ -3,7 +3,7 @@
 
 ## Durations.Hour Field
 
-Units of a hour. It's defined in terms of a(n)  minute.
+A(n) hour. It's defined in terms of a(n) minute.
 
 ```csharp
 public static readonly Duration Hour;

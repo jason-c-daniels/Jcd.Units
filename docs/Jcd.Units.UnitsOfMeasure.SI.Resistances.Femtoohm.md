@@ -3,7 +3,7 @@
 
 ## Resistances.Femtoohm Field
 
-Units of a femtoohm. It's defined in terms of a(n) SI picoohm.
+A(n) femtoohm. It's defined in terms of a(n) picoohm.
 
 ```csharp
 public static readonly Resistance Femtoohm;

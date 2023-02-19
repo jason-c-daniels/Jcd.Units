@@ -3,7 +3,7 @@
 
 ## Capacitances.Farad Field
 
-Units of a farad.
+A(n) farad.
 
 ```csharp
 public static readonly Capacitance Farad;

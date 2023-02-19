@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Megalumen Field
 
-Units of a megalumen. It's defined in terms of a(n) SI kilolumen.
+A(n) megalumen. It's defined in terms of a(n) kilolumen.
 
 ```csharp
 public static readonly LuminousFlux Megalumen;

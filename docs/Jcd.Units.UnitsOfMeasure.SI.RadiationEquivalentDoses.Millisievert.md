@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Millisievert Field
 
-Units of a millisievert. It's defined in terms of a(n) SI centisievert.
+A(n) millisievert. It's defined in terms of a(n) centisievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Millisievert;

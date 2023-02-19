@@ -3,7 +3,7 @@
 
 ## Capacitances.Zeptofarad Field
 
-Units of a zeptofarad. It's defined in terms of a(n) SI attofarad.
+A(n) zeptofarad. It's defined in terms of a(n) attofarad.
 
 ```csharp
 public static readonly Capacitance Zeptofarad;

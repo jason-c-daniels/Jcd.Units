@@ -3,7 +3,7 @@
 
 ## Illuminances.Quettalux Field
 
-Units of a quettalux. It's defined in terms of a(n) SI ronnalux.
+A(n) quettalux. It's defined in terms of a(n) ronnalux.
 
 ```csharp
 public static readonly Illuminance Quettalux;

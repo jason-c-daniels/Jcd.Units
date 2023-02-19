@@ -3,7 +3,7 @@
 
 ## Energies.Hectojoule Field
 
-Units of a hectojoule. It's defined in terms of a(n) SI dekajoule.
+A(n) hectojoule. It's defined in terms of a(n) dekajoule.
 
 ```csharp
 public static readonly Energy Hectojoule;

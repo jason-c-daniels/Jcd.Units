@@ -3,7 +3,7 @@
 
 ## Forces.Yottanewton Field
 
-Units of a yottanewton. It's defined in terms of a(n) SI zettanewton.
+A(n) yottanewton. It's defined in terms of a(n) zettanewton.
 
 ```csharp
 public static readonly Force Yottanewton;

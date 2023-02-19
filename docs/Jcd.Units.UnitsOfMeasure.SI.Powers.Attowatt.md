@@ -3,7 +3,7 @@
 
 ## Powers.Attowatt Field
 
-Units of a attowatt. It's defined in terms of a(n) SI femtowatt.
+A(n) attowatt. It's defined in terms of a(n) femtowatt.
 
 ```csharp
 public static readonly Power Attowatt;

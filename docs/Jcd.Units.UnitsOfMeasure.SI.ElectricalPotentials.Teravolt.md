@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Teravolt Field
 
-Units of a teravolt. It's defined in terms of a(n) SI gigavolt.
+A(n) teravolt. It's defined in terms of a(n) gigavolt.
 
 ```csharp
 public static readonly ElectricalPotential Teravolt;

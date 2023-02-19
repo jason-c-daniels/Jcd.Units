@@ -3,7 +3,7 @@
 
 ## Frequencies.Femtohertz Field
 
-Units of a femtohertz. It's defined in terms of a(n) SI picohertz.
+A(n) femtohertz. It's defined in terms of a(n) picohertz.
 
 ```csharp
 public static readonly Frequency Femtohertz;

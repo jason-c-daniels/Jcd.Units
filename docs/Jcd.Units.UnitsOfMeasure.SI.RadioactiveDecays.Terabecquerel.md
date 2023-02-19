@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Terabecquerel Field
 
-Units of a terabecquerel. It's defined in terms of a(n) SI gigabecquerel.
+A(n) terabecquerel. It's defined in terms of a(n) gigabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Terabecquerel;

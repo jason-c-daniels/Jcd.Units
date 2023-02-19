@@ -3,7 +3,7 @@
 
 ## Amounts.Millimole Field
 
-Units of a millimole. It's defined in terms of a(n)  centimole.
+A(n) millimole. It's defined in terms of a(n) centimole.
 
 ```csharp
 public static readonly Amount Millimole;

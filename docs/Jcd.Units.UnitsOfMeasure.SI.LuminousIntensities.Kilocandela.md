@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Kilocandela Field
 
-Units of a kilocandela. It's defined in terms of a(n) SI hectocandela.
+A(n) kilocandela. It's defined in terms of a(n) hectocandela.
 
 ```csharp
 public static readonly LuminousIntensity Kilocandela;

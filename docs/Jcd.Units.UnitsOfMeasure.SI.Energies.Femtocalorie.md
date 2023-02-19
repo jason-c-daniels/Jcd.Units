@@ -3,7 +3,7 @@
 
 ## Energies.Femtocalorie Field
 
-Units of a femtocalorie. It's defined in terms of a(n) SI picocalorie.
+A(n) femtocalorie. It's defined in terms of a(n) picocalorie.
 
 ```csharp
 public static readonly Energy Femtocalorie;

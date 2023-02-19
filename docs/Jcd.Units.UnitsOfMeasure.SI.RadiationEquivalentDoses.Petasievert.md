@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Petasievert Field
 
-Units of a petasievert. It's defined in terms of a(n) SI terasievert.
+A(n) petasievert. It's defined in terms of a(n) terasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Petasievert;

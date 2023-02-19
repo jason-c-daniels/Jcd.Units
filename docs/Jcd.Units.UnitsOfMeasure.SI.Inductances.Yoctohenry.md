@@ -3,7 +3,7 @@
 
 ## Inductances.Yoctohenry Field
 
-Units of a yoctohenry. It's defined in terms of a(n) SI zeptohenry.
+A(n) yoctohenry. It's defined in terms of a(n) zeptohenry.
 
 ```csharp
 public static readonly Inductance Yoctohenry;

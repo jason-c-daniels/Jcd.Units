@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Exacandela Field
 
-Units of a exacandela. It's defined in terms of a(n) SI petacandela.
+A(n) exacandela. It's defined in terms of a(n) petacandela.
 
 ```csharp
 public static readonly LuminousIntensity Exacandela;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Yoctoweber Field
 
-Units of a yoctoweber. It's defined in terms of a(n) SI zeptoweber.
+A(n) yoctoweber. It's defined in terms of a(n) zeptoweber.
 
 ```csharp
 public static readonly MagneticFlux Yoctoweber;

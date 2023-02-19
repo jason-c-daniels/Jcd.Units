@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Ampere Field
 
-Units of a ampere.
+A(n) ampere.
 
 ```csharp
 public static readonly ElectricalCurrent Ampere;

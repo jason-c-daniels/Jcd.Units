@@ -3,7 +3,7 @@
 
 ## Durations.Nanosecond Field
 
-Units of a nanosecond. It's defined in terms of a(n)  microsecond.
+A(n) nanosecond. It's defined in terms of a(n) microsecond.
 
 ```csharp
 public static readonly Duration Nanosecond;

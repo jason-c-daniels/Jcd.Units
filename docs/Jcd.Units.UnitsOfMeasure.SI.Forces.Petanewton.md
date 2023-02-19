@@ -3,7 +3,7 @@
 
 ## Forces.Petanewton Field
 
-Units of a petanewton. It's defined in terms of a(n) SI teranewton.
+A(n) petanewton. It's defined in terms of a(n) teranewton.
 
 ```csharp
 public static readonly Force Petanewton;

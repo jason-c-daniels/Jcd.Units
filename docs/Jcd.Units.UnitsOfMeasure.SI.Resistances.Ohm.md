@@ -3,7 +3,7 @@
 
 ## Resistances.Ohm Field
 
-Units of a ohm.
+A(n) ohm.
 
 ```csharp
 public static readonly Resistance Ohm;

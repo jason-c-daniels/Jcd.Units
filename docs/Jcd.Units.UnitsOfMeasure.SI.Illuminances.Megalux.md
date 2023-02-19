@@ -3,7 +3,7 @@
 
 ## Illuminances.Megalux Field
 
-Units of a megalux. It's defined in terms of a(n) SI kilolux.
+A(n) megalux. It's defined in terms of a(n) kilolux.
 
 ```csharp
 public static readonly Illuminance Megalux;

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Gigabecquerel Field
 
-Units of a gigabecquerel. It's defined in terms of a(n) SI megabecquerel.
+A(n) gigabecquerel. It's defined in terms of a(n) megabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Gigabecquerel;

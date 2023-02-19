@@ -3,7 +3,7 @@
 
 ## Energies.Yoctojoule Field
 
-Units of a yoctojoule. It's defined in terms of a(n) SI zeptojoule.
+A(n) yoctojoule. It's defined in terms of a(n) zeptojoule.
 
 ```csharp
 public static readonly Energy Yoctojoule;

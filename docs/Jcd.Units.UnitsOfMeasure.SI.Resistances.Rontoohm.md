@@ -3,7 +3,7 @@
 
 ## Resistances.Rontoohm Field
 
-Units of a rontoohm. It's defined in terms of a(n) SI yoctoohm.
+A(n) rontoohm. It's defined in terms of a(n) yoctoohm.
 
 ```csharp
 public static readonly Resistance Rontoohm;

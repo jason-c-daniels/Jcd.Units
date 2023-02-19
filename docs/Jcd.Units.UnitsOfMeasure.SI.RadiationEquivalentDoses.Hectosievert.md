@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Hectosievert Field
 
-Units of a hectosievert. It's defined in terms of a(n) SI dekasievert.
+A(n) hectosievert. It's defined in terms of a(n) dekasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Hectosievert;

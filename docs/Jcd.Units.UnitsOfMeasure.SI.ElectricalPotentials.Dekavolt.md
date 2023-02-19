@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Dekavolt Field
 
-Units of a dekavolt. It's defined in terms of a(n) SI volt.
+A(n) dekavolt. It's defined in terms of a(n) volt.
 
 ```csharp
 public static readonly ElectricalPotential Dekavolt;

@@ -3,7 +3,7 @@
 
 ## Lengths.Exameter Field
 
-Units of a exameter. It's defined in terms of a(n) SI petameter.
+A(n) exameter. It's defined in terms of a(n) petameter.
 
 ```csharp
 public static readonly Length Exameter;

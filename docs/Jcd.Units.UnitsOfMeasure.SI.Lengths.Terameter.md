@@ -3,7 +3,7 @@
 
 ## Lengths.Terameter Field
 
-Units of a terameter. It's defined in terms of a(n) SI gigameter.
+A(n) terameter. It's defined in terms of a(n) gigameter.
 
 ```csharp
 public static readonly Length Terameter;

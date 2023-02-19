@@ -3,7 +3,7 @@
 
 ## Masses.Gram Field
 
-Units of a gram.
+A(n) gram.
 
 ```csharp
 public static readonly Mass Gram;

@@ -3,7 +3,7 @@
 
 ## Lengths.Twip Field
 
-Units of a twip. It's defined in terms of a(n) Imperial foot.
+A(n) twip. It's defined in terms of a(n) foot.
 
 ```csharp
 public static readonly Length Twip;

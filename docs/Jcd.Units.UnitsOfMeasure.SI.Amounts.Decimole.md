@@ -3,7 +3,7 @@
 
 ## Amounts.Decimole Field
 
-Units of a decimole. It's defined in terms of a(n)  mole.
+A(n) decimole. It's defined in terms of a(n) mole.
 
 ```csharp
 public static readonly Amount Decimole;

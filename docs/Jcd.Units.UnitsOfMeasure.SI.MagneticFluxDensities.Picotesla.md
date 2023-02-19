@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Picotesla Field
 
-Units of a picotesla. It's defined in terms of a(n) SI nanotesla.
+A(n) picotesla. It's defined in terms of a(n) nanotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Picotesla;

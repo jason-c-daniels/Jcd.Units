@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Rontoampere Field
 
-Units of a rontoampere. It's defined in terms of a(n) SI yoctoampere.
+A(n) rontoampere. It's defined in terms of a(n) yoctoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Rontoampere;

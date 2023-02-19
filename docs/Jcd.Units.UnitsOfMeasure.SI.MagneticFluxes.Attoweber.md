@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Attoweber Field
 
-Units of a attoweber. It's defined in terms of a(n) SI femtoweber.
+A(n) attoweber. It's defined in terms of a(n) femtoweber.
 
 ```csharp
 public static readonly MagneticFlux Attoweber;

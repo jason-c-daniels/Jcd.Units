@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Nanoweber Field
 
-Units of a nanoweber. It's defined in terms of a(n) SI microweber.
+A(n) nanoweber. It's defined in terms of a(n) microweber.
 
 ```csharp
 public static readonly MagneticFlux Nanoweber;

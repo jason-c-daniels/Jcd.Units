@@ -3,7 +3,7 @@
 
 ## Pressures.Picopascal Field
 
-Units of a picopascal. It's defined in terms of a(n) SI nanopascal.
+A(n) picopascal. It's defined in terms of a(n) nanopascal.
 
 ```csharp
 public static readonly Pressure Picopascal;

@@ -3,7 +3,7 @@
 
 ## Durations.Week Field
 
-Units of a week. It's defined in terms of a(n)  day.
+A(n) week. It's defined in terms of a(n) day.
 
 ```csharp
 public static readonly Duration Week;

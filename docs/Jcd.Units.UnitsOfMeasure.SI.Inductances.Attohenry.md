@@ -3,7 +3,7 @@
 
 ## Inductances.Attohenry Field
 
-Units of a attohenry. It's defined in terms of a(n) SI femtohenry.
+A(n) attohenry. It's defined in terms of a(n) femtohenry.
 
 ```csharp
 public static readonly Inductance Attohenry;

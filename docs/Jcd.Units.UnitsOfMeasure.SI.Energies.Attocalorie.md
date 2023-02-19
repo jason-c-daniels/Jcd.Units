@@ -3,7 +3,7 @@
 
 ## Energies.Attocalorie Field
 
-Units of a attocalorie. It's defined in terms of a(n) SI femtocalorie.
+A(n) attocalorie. It's defined in terms of a(n) femtocalorie.
 
 ```csharp
 public static readonly Energy Attocalorie;

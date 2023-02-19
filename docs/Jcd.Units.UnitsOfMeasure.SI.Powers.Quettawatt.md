@@ -3,7 +3,7 @@
 
 ## Powers.Quettawatt Field
 
-Units of a quettawatt. It's defined in terms of a(n) SI ronnawatt.
+A(n) quettawatt. It's defined in terms of a(n) ronnawatt.
 
 ```csharp
 public static readonly Power Quettawatt;

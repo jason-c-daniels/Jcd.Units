@@ -3,7 +3,7 @@
 
 ## Frequencies.Ronnahertz Field
 
-Units of a ronnahertz. It's defined in terms of a(n) SI yottahertz.
+A(n) ronnahertz. It's defined in terms of a(n) yottahertz.
 
 ```csharp
 public static readonly Frequency Ronnahertz;

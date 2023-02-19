@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Petavolt Field
 
-Units of a petavolt. It's defined in terms of a(n) SI teravolt.
+A(n) petavolt. It's defined in terms of a(n) teravolt.
 
 ```csharp
 public static readonly ElectricalPotential Petavolt;

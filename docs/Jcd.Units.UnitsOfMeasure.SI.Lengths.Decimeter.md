@@ -3,7 +3,7 @@
 
 ## Lengths.Decimeter Field
 
-Units of a decimeter. It's defined in terms of a(n) SI meter.
+A(n) decimeter. It's defined in terms of a(n) meter.
 
 ```csharp
 public static readonly Length Decimeter;

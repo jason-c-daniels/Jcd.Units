@@ -3,7 +3,7 @@
 
 ## Energies.Millijoule Field
 
-Units of a millijoule. It's defined in terms of a(n) SI centijoule.
+A(n) millijoule. It's defined in terms of a(n) centijoule.
 
 ```csharp
 public static readonly Energy Millijoule;

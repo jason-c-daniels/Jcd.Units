@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Rontosievert Field
 
-Units of a rontosievert. It's defined in terms of a(n) SI yoctosievert.
+A(n) rontosievert. It's defined in terms of a(n) yoctosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Rontosievert;

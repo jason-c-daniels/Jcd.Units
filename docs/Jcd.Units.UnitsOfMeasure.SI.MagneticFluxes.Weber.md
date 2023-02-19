@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Weber Field
 
-Units of a weber.
+A(n) weber.
 
 ```csharp
 public static readonly MagneticFlux Weber;

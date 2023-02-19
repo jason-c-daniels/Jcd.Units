@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Attokatal Field
 
-Units of a attokatal. It's defined in terms of a(n) SI femtokatal.
+A(n) attokatal. It's defined in terms of a(n) femtokatal.
 
 ```csharp
 public static readonly CatalyticActivity Attokatal;

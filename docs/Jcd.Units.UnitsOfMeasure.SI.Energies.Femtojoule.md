@@ -3,7 +3,7 @@
 
 ## Energies.Femtojoule Field
 
-Units of a femtojoule. It's defined in terms of a(n) SI picojoule.
+A(n) femtojoule. It's defined in terms of a(n) picojoule.
 
 ```csharp
 public static readonly Energy Femtojoule;

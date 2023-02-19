@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Petatesla Field
 
-Units of a petatesla. It's defined in terms of a(n) SI teratesla.
+A(n) petatesla. It's defined in terms of a(n) teratesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Petatesla;

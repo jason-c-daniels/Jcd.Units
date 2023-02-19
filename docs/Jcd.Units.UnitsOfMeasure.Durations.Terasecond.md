@@ -3,7 +3,7 @@
 
 ## Durations.Terasecond Field
 
-Units of a terasecond. It's defined in terms of a(n)  gigasecond.
+A(n) terasecond. It's defined in terms of a(n) gigasecond.
 
 ```csharp
 public static readonly Duration Terasecond;

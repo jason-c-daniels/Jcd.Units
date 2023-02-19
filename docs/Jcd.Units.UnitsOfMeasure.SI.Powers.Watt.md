@@ -3,7 +3,7 @@
 
 ## Powers.Watt Field
 
-Units of a watt.
+A(n) watt.
 
 ```csharp
 public static readonly Power Watt;

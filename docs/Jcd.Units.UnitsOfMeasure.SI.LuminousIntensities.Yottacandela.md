@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Yottacandela Field
 
-Units of a yottacandela. It's defined in terms of a(n) SI zettacandela.
+A(n) yottacandela. It's defined in terms of a(n) zettacandela.
 
 ```csharp
 public static readonly LuminousIntensity Yottacandela;

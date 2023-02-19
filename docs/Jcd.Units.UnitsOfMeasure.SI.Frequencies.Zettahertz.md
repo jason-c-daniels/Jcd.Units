@@ -3,7 +3,7 @@
 
 ## Frequencies.Zettahertz Field
 
-Units of a zettahertz. It's defined in terms of a(n) SI exahertz.
+A(n) zettahertz. It's defined in terms of a(n) exahertz.
 
 ```csharp
 public static readonly Frequency Zettahertz;

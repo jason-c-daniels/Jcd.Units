@@ -3,7 +3,7 @@
 
 ## Lengths.Attometer Field
 
-Units of a attometer. It's defined in terms of a(n) SI femtometer.
+A(n) attometer. It's defined in terms of a(n) femtometer.
 
 ```csharp
 public static readonly Length Attometer;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Megasiemens Field
 
-Units of a megasiemens. It's defined in terms of a(n) SI kilosiemens.
+A(n) megasiemens. It's defined in terms of a(n) kilosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Megasiemens;

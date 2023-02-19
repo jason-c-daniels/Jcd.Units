@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Microweber Field
 
-Units of a microweber. It's defined in terms of a(n) SI milliweber.
+A(n) microweber. It's defined in terms of a(n) milliweber.
 
 ```csharp
 public static readonly MagneticFlux Microweber;

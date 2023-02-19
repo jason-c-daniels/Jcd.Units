@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Teragray Field
 
-Units of a teragray. It's defined in terms of a(n) SI gigagray.
+A(n) teragray. It's defined in terms of a(n) gigagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Teragray;

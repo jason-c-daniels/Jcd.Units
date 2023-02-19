@@ -3,7 +3,7 @@
 
 ## Powers.Hectowatt Field
 
-Units of a hectowatt. It's defined in terms of a(n) SI dekawatt.
+A(n) hectowatt. It's defined in terms of a(n) dekawatt.
 
 ```csharp
 public static readonly Power Hectowatt;

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Millibecquerel Field
 
-Units of a millibecquerel. It's defined in terms of a(n) SI centibecquerel.
+A(n) millibecquerel. It's defined in terms of a(n) centibecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Millibecquerel;

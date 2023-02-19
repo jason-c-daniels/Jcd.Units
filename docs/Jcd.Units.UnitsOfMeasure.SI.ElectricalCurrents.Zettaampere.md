@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Zettaampere Field
 
-Units of a zettaampere. It's defined in terms of a(n) SI exaampere.
+A(n) zettaampere. It's defined in terms of a(n) exaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Zettaampere;

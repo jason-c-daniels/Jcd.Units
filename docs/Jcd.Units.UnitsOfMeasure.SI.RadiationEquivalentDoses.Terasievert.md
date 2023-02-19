@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Terasievert Field
 
-Units of a terasievert. It's defined in terms of a(n) SI gigasievert.
+A(n) terasievert. It's defined in terms of a(n) gigasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Terasievert;

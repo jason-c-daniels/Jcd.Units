@@ -3,7 +3,7 @@
 
 ## Lengths.Yottameter Field
 
-Units of a yottameter. It's defined in terms of a(n) SI zettameter.
+A(n) yottameter. It's defined in terms of a(n) zettameter.
 
 ```csharp
 public static readonly Length Yottameter;

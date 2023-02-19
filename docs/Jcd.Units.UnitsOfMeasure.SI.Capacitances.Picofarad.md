@@ -3,7 +3,7 @@
 
 ## Capacitances.Picofarad Field
 
-Units of a picofarad. It's defined in terms of a(n) SI nanofarad.
+A(n) picofarad. It's defined in terms of a(n) nanofarad.
 
 ```csharp
 public static readonly Capacitance Picofarad;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Yoctosiemens Field
 
-Units of a yoctosiemens. It's defined in terms of a(n) SI zeptosiemens.
+A(n) yoctosiemens. It's defined in terms of a(n) zeptosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Yoctosiemens;

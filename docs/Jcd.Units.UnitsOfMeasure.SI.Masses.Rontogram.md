@@ -3,7 +3,7 @@
 
 ## Masses.Rontogram Field
 
-Units of a rontogram. It's defined in terms of a(n) SI yoctogram.
+A(n) rontogram. It's defined in terms of a(n) yoctogram.
 
 ```csharp
 public static readonly Mass Rontogram;

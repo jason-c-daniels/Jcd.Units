@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Hectosiemens Field
 
-Units of a hectosiemens. It's defined in terms of a(n) SI dekasiemens.
+A(n) hectosiemens. It's defined in terms of a(n) dekasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Hectosiemens;

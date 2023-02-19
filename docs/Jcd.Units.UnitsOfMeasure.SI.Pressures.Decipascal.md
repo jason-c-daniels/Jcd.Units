@@ -3,7 +3,7 @@
 
 ## Pressures.Decipascal Field
 
-Units of a decipascal. It's defined in terms of a(n) SI pascal.
+A(n) decipascal. It's defined in terms of a(n) pascal.
 
 ```csharp
 public static readonly Pressure Decipascal;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Tesla Field
 
-Units of a tesla.
+A(n) tesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Tesla;

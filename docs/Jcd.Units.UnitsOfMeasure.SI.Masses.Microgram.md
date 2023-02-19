@@ -3,7 +3,7 @@
 
 ## Masses.Microgram Field
 
-Units of a microgram. It's defined in terms of a(n) SI milligram.
+A(n) microgram. It's defined in terms of a(n) milligram.
 
 ```csharp
 public static readonly Mass Microgram;

@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Quettacandela Field
 
-Units of a quettacandela. It's defined in terms of a(n) SI ronnacandela.
+A(n) quettacandela. It's defined in terms of a(n) ronnacandela.
 
 ```csharp
 public static readonly LuminousIntensity Quettacandela;

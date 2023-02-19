@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Hectoampere Field
 
-Units of a hectoampere. It's defined in terms of a(n) SI dekaampere.
+A(n) hectoampere. It's defined in terms of a(n) dekaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Hectoampere;

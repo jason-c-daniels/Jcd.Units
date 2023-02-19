@@ -3,7 +3,7 @@
 
 ## Powers.Picowatt Field
 
-Units of a picowatt. It's defined in terms of a(n) SI nanowatt.
+A(n) picowatt. It's defined in terms of a(n) nanowatt.
 
 ```csharp
 public static readonly Power Picowatt;

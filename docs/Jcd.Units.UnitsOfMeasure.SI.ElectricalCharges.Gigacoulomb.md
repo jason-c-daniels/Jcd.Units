@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Gigacoulomb Field
 
-Units of a gigacoulomb. It's defined in terms of a(n) SI megacoulomb.
+A(n) gigacoulomb. It's defined in terms of a(n) megacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Gigacoulomb;

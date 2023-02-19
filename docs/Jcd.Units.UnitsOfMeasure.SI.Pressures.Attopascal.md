@@ -3,7 +3,7 @@
 
 ## Pressures.Attopascal Field
 
-Units of a attopascal. It's defined in terms of a(n) SI femtopascal.
+A(n) attopascal. It's defined in terms of a(n) femtopascal.
 
 ```csharp
 public static readonly Pressure Attopascal;

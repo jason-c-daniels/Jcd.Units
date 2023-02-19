@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Hectolumen Field
 
-Units of a hectolumen. It's defined in terms of a(n) SI dekalumen.
+A(n) hectolumen. It's defined in terms of a(n) dekalumen.
 
 ```csharp
 public static readonly LuminousFlux Hectolumen;

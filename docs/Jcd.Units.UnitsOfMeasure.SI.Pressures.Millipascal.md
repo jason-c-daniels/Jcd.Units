@@ -3,7 +3,7 @@
 
 ## Pressures.Millipascal Field
 
-Units of a millipascal. It's defined in terms of a(n) SI centipascal.
+A(n) millipascal. It's defined in terms of a(n) centipascal.
 
 ```csharp
 public static readonly Pressure Millipascal;

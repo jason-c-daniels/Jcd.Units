@@ -3,7 +3,7 @@
 
 ## Energies.Kilocalorie Field
 
-Units of a kilocalorie. It's defined in terms of a(n) SI hectocalorie.
+A(n) kilocalorie. It's defined in terms of a(n) hectocalorie.
 
 ```csharp
 public static readonly Energy Kilocalorie;

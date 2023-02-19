@@ -3,7 +3,7 @@
 
 ## Inductances.Henry Field
 
-Units of a henry.
+A(n) henry.
 
 ```csharp
 public static readonly Inductance Henry;

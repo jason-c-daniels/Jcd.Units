@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Yoctoampere Field
 
-Units of a yoctoampere. It's defined in terms of a(n) SI zeptoampere.
+A(n) yoctoampere. It's defined in terms of a(n) zeptoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Yoctoampere;

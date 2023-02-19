@@ -3,7 +3,7 @@
 
 ## Resistances.Attoohm Field
 
-Units of a attoohm. It's defined in terms of a(n) SI femtoohm.
+A(n) attoohm. It's defined in terms of a(n) femtoohm.
 
 ```csharp
 public static readonly Resistance Attoohm;

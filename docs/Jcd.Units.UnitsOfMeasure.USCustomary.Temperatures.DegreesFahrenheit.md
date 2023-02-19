@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesFahrenheit Field
 
-Units of a degrees fahrenheit. It's defined in terms of a(n) SI degrees celcius.
+A(n) degrees fahrenheit. It's defined in terms of a(n) SI degrees celcius.
 
 ```csharp
 public static readonly Temperature DegreesFahrenheit;

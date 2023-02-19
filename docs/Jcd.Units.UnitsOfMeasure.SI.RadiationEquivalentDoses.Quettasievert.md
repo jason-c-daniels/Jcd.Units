@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Quettasievert Field
 
-Units of a quettasievert. It's defined in terms of a(n) SI ronnasievert.
+A(n) quettasievert. It's defined in terms of a(n) ronnasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Quettasievert;

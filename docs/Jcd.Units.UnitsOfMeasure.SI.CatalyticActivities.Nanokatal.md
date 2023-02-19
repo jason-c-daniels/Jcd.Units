@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Nanokatal Field
 
-Units of a nanokatal. It's defined in terms of a(n) SI microkatal.
+A(n) nanokatal. It's defined in terms of a(n) microkatal.
 
 ```csharp
 public static readonly CatalyticActivity Nanokatal;

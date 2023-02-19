@@ -3,7 +3,7 @@
 
 ## Energies.Yottajoule Field
 
-Units of a yottajoule. It's defined in terms of a(n) SI zettajoule.
+A(n) yottajoule. It's defined in terms of a(n) zettajoule.
 
 ```csharp
 public static readonly Energy Yottajoule;

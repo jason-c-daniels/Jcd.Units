@@ -3,7 +3,7 @@
 
 ## Masses.Zeptogram Field
 
-Units of a zeptogram. It's defined in terms of a(n) SI attogram.
+A(n) zeptogram. It's defined in terms of a(n) attogram.
 
 ```csharp
 public static readonly Mass Zeptogram;

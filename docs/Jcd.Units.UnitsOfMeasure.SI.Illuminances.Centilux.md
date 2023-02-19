@@ -3,7 +3,7 @@
 
 ## Illuminances.Centilux Field
 
-Units of a centilux. It's defined in terms of a(n) SI decilux.
+A(n) centilux. It's defined in terms of a(n) decilux.
 
 ```csharp
 public static readonly Illuminance Centilux;

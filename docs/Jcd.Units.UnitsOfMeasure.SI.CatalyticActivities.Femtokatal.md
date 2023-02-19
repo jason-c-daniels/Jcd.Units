@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Femtokatal Field
 
-Units of a femtokatal. It's defined in terms of a(n) SI picokatal.
+A(n) femtokatal. It's defined in terms of a(n) picokatal.
 
 ```csharp
 public static readonly CatalyticActivity Femtokatal;

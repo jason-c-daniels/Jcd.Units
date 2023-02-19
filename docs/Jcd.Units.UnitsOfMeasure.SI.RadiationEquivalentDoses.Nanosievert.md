@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Nanosievert Field
 
-Units of a nanosievert. It's defined in terms of a(n) SI microsievert.
+A(n) nanosievert. It's defined in terms of a(n) microsievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Nanosievert;

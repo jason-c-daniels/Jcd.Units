@@ -3,7 +3,7 @@
 
 ## Inductances.Yottahenry Field
 
-Units of a yottahenry. It's defined in terms of a(n) SI zettahenry.
+A(n) yottahenry. It's defined in terms of a(n) zettahenry.
 
 ```csharp
 public static readonly Inductance Yottahenry;

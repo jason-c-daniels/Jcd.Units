@@ -3,7 +3,7 @@
 
 ## Momentums.AttonewtonSecond Field
 
-Units of a attonewton-second. It's defined in terms of a(n) SI femtonewton-second.
+A(n) attonewton-second. It's defined in terms of a(n) femtonewton-second.
 
 ```csharp
 public static readonly Momentum AttonewtonSecond;

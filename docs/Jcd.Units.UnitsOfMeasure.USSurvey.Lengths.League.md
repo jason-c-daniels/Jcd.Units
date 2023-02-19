@@ -3,7 +3,7 @@
 
 ## Lengths.League Field
 
-Units of a league. It's defined in terms of a(n) SI meter.
+A(n) league. It's defined in terms of a(n) SI meter.
 
 ```csharp
 public static readonly Length League;

@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Zeptolumen Field
 
-Units of a zeptolumen. It's defined in terms of a(n) SI attolumen.
+A(n) zeptolumen. It's defined in terms of a(n) attolumen.
 
 ```csharp
 public static readonly LuminousFlux Zeptolumen;

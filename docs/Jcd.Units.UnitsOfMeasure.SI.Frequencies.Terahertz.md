@@ -3,7 +3,7 @@
 
 ## Frequencies.Terahertz Field
 
-Units of a terahertz. It's defined in terms of a(n) SI gigahertz.
+A(n) terahertz. It's defined in terms of a(n) gigahertz.
 
 ```csharp
 public static readonly Frequency Terahertz;

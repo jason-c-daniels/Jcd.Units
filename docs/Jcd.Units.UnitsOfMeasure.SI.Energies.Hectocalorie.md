@@ -3,7 +3,7 @@
 
 ## Energies.Hectocalorie Field
 
-Units of a hectocalorie. It's defined in terms of a(n) SI dekacalorie.
+A(n) hectocalorie. It's defined in terms of a(n) dekacalorie.
 
 ```csharp
 public static readonly Energy Hectocalorie;

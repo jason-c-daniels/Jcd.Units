@@ -3,7 +3,7 @@
 
 ## Lengths.Hectometer Field
 
-Units of a hectometer. It's defined in terms of a(n) SI dekameter.
+A(n) hectometer. It's defined in terms of a(n) dekameter.
 
 ```csharp
 public static readonly Length Hectometer;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Terakatal Field
 
-Units of a terakatal. It's defined in terms of a(n) SI gigakatal.
+A(n) terakatal. It's defined in terms of a(n) gigakatal.
 
 ```csharp
 public static readonly CatalyticActivity Terakatal;

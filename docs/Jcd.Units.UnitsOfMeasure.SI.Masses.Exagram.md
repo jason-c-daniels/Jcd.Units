@@ -3,7 +3,7 @@
 
 ## Masses.Exagram Field
 
-Units of a exagram. It's defined in terms of a(n) SI petagram.
+A(n) exagram. It's defined in terms of a(n) petagram.
 
 ```csharp
 public static readonly Mass Exagram;

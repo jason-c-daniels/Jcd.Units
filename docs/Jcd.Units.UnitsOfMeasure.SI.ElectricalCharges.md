@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Attocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Attocoulomb') | Units of a attocoulomb. It's defined in terms of a(n) SI femtocoulomb. |
-| [Centicoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Centicoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Centicoulomb') | Units of a centicoulomb. It's defined in terms of a(n) SI decicoulomb. |
-| [Coulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Coulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Coulomb') | Units of a coulomb. |
-| [Decicoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Decicoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Decicoulomb') | Units of a decicoulomb. It's defined in terms of a(n) SI coulomb. |
-| [Dekacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Dekacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Dekacoulomb') | Units of a dekacoulomb. It's defined in terms of a(n) SI coulomb. |
-| [Exacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Exacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Exacoulomb') | Units of a exacoulomb. It's defined in terms of a(n) SI petacoulomb. |
-| [Femtocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Femtocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Femtocoulomb') | Units of a femtocoulomb. It's defined in terms of a(n) SI picocoulomb. |
-| [Gigacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Gigacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Gigacoulomb') | Units of a gigacoulomb. It's defined in terms of a(n) SI megacoulomb. |
-| [Hectocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Hectocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Hectocoulomb') | Units of a hectocoulomb. It's defined in terms of a(n) SI dekacoulomb. |
-| [Kilocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Kilocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Kilocoulomb') | Units of a kilocoulomb. It's defined in terms of a(n) SI hectocoulomb. |
-| [Megacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Megacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Megacoulomb') | Units of a megacoulomb. It's defined in terms of a(n) SI kilocoulomb. |
-| [Microcoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Microcoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Microcoulomb') | Units of a microcoulomb. It's defined in terms of a(n) SI millicoulomb. |
-| [Millicoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Millicoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Millicoulomb') | Units of a millicoulomb. It's defined in terms of a(n) SI centicoulomb. |
-| [Nanocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Nanocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Nanocoulomb') | Units of a nanocoulomb. It's defined in terms of a(n) SI microcoulomb. |
-| [Petacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Petacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Petacoulomb') | Units of a petacoulomb. It's defined in terms of a(n) SI teracoulomb. |
-| [Picocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Picocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Picocoulomb') | Units of a picocoulomb. It's defined in terms of a(n) SI nanocoulomb. |
-| [Quectocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Quectocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Quectocoulomb') | Units of a quectocoulomb. It's defined in terms of a(n) SI rontocoulomb. |
-| [Quettacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Quettacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Quettacoulomb') | Units of a quettacoulomb. It's defined in terms of a(n) SI ronnacoulomb. |
-| [Ronnacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Ronnacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Ronnacoulomb') | Units of a ronnacoulomb. It's defined in terms of a(n) SI yottacoulomb. |
-| [Rontocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Rontocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Rontocoulomb') | Units of a rontocoulomb. It's defined in terms of a(n) SI yoctocoulomb. |
-| [Teracoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Teracoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Teracoulomb') | Units of a teracoulomb. It's defined in terms of a(n) SI gigacoulomb. |
-| [Yoctocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Yoctocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Yoctocoulomb') | Units of a yoctocoulomb. It's defined in terms of a(n) SI zeptocoulomb. |
-| [Yottacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Yottacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Yottacoulomb') | Units of a yottacoulomb. It's defined in terms of a(n) SI zettacoulomb. |
-| [Zeptocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Zeptocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Zeptocoulomb') | Units of a zeptocoulomb. It's defined in terms of a(n) SI attocoulomb. |
-| [Zettacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Zettacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Zettacoulomb') | Units of a zettacoulomb. It's defined in terms of a(n) SI exacoulomb. |
+| [Attocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Attocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Attocoulomb') | A(n) attocoulomb. It's defined in terms of a(n) femtocoulomb. |
+| [Centicoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Centicoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Centicoulomb') | A(n) centicoulomb. It's defined in terms of a(n) decicoulomb. |
+| [Coulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Coulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Coulomb') | A(n) coulomb. |
+| [Decicoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Decicoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Decicoulomb') | A(n) decicoulomb. It's defined in terms of a(n) coulomb. |
+| [Dekacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Dekacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Dekacoulomb') | A(n) dekacoulomb. It's defined in terms of a(n) coulomb. |
+| [Exacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Exacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Exacoulomb') | A(n) exacoulomb. It's defined in terms of a(n) petacoulomb. |
+| [Femtocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Femtocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Femtocoulomb') | A(n) femtocoulomb. It's defined in terms of a(n) picocoulomb. |
+| [Gigacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Gigacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Gigacoulomb') | A(n) gigacoulomb. It's defined in terms of a(n) megacoulomb. |
+| [Hectocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Hectocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Hectocoulomb') | A(n) hectocoulomb. It's defined in terms of a(n) dekacoulomb. |
+| [Kilocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Kilocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Kilocoulomb') | A(n) kilocoulomb. It's defined in terms of a(n) hectocoulomb. |
+| [Megacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Megacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Megacoulomb') | A(n) megacoulomb. It's defined in terms of a(n) kilocoulomb. |
+| [Microcoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Microcoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Microcoulomb') | A(n) microcoulomb. It's defined in terms of a(n) millicoulomb. |
+| [Millicoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Millicoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Millicoulomb') | A(n) millicoulomb. It's defined in terms of a(n) centicoulomb. |
+| [Nanocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Nanocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Nanocoulomb') | A(n) nanocoulomb. It's defined in terms of a(n) microcoulomb. |
+| [Petacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Petacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Petacoulomb') | A(n) petacoulomb. It's defined in terms of a(n) teracoulomb. |
+| [Picocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Picocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Picocoulomb') | A(n) picocoulomb. It's defined in terms of a(n) nanocoulomb. |
+| [Quectocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Quectocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Quectocoulomb') | A(n) quectocoulomb. It's defined in terms of a(n) rontocoulomb. |
+| [Quettacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Quettacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Quettacoulomb') | A(n) quettacoulomb. It's defined in terms of a(n) ronnacoulomb. |
+| [Ronnacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Ronnacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Ronnacoulomb') | A(n) ronnacoulomb. It's defined in terms of a(n) yottacoulomb. |
+| [Rontocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Rontocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Rontocoulomb') | A(n) rontocoulomb. It's defined in terms of a(n) yoctocoulomb. |
+| [Teracoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Teracoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Teracoulomb') | A(n) teracoulomb. It's defined in terms of a(n) gigacoulomb. |
+| [Yoctocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Yoctocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Yoctocoulomb') | A(n) yoctocoulomb. It's defined in terms of a(n) zeptocoulomb. |
+| [Yottacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Yottacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Yottacoulomb') | A(n) yottacoulomb. It's defined in terms of a(n) zettacoulomb. |
+| [Zeptocoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Zeptocoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Zeptocoulomb') | A(n) zeptocoulomb. It's defined in terms of a(n) attocoulomb. |
+| [Zettacoulomb](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Zettacoulomb.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.Zettacoulomb') | A(n) zettacoulomb. It's defined in terms of a(n) exacoulomb. |

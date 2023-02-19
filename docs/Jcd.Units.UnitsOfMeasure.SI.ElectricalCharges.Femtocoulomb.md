@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Femtocoulomb Field
 
-Units of a femtocoulomb. It's defined in terms of a(n) SI picocoulomb.
+A(n) femtocoulomb. It's defined in terms of a(n) picocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Femtocoulomb;

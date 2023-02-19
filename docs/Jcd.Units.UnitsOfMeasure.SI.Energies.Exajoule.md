@@ -3,7 +3,7 @@
 
 ## Energies.Exajoule Field
 
-Units of a exajoule. It's defined in terms of a(n) SI petajoule.
+A(n) exajoule. It's defined in terms of a(n) petajoule.
 
 ```csharp
 public static readonly Energy Exajoule;

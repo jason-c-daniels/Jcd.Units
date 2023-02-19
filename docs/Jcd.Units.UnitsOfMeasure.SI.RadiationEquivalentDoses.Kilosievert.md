@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Kilosievert Field
 
-Units of a kilosievert. It's defined in terms of a(n) SI hectosievert.
+A(n) kilosievert. It's defined in terms of a(n) hectosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Kilosievert;

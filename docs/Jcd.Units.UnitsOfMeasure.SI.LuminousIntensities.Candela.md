@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Candela Field
 
-Units of a candela.
+A(n) candela.
 
 ```csharp
 public static readonly LuminousIntensity Candela;

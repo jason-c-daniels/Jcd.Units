@@ -3,7 +3,7 @@
 
 ## Lengths.Yard Field
 
-Units of a yard. It's defined in terms of a(n) Imperial foot.
+A(n) yard. It's defined in terms of a(n) foot.
 
 ```csharp
 public static readonly Length Yard;

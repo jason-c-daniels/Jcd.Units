@@ -3,7 +3,7 @@
 
 ## Capacitances.Petafarad Field
 
-Units of a petafarad. It's defined in terms of a(n) SI terafarad.
+A(n) petafarad. It's defined in terms of a(n) terafarad.
 
 ```csharp
 public static readonly Capacitance Petafarad;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Femtosievert Field
 
-Units of a femtosievert. It's defined in terms of a(n) SI picosievert.
+A(n) femtosievert. It's defined in terms of a(n) picosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Femtosievert;

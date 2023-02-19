@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Megaampere Field
 
-Units of a megaampere. It's defined in terms of a(n) SI kiloampere.
+A(n) megaampere. It's defined in terms of a(n) kiloampere.
 
 ```csharp
 public static readonly ElectricalCurrent Megaampere;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Yoctotesla Field
 
-Units of a yoctotesla. It's defined in terms of a(n) SI zeptotesla.
+A(n) yoctotesla. It's defined in terms of a(n) zeptotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Yoctotesla;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Attogray Field
 
-Units of a attogray. It's defined in terms of a(n) SI femtogray.
+A(n) attogray. It's defined in terms of a(n) femtogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Attogray;

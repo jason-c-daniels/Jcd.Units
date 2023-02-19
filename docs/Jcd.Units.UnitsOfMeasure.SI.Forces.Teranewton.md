@@ -3,7 +3,7 @@
 
 ## Forces.Teranewton Field
 
-Units of a teranewton. It's defined in terms of a(n) SI giganewton.
+A(n) teranewton. It's defined in terms of a(n) giganewton.
 
 ```csharp
 public static readonly Force Teranewton;

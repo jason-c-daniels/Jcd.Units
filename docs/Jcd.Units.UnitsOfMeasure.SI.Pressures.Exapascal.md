@@ -3,7 +3,7 @@
 
 ## Pressures.Exapascal Field
 
-Units of a exapascal. It's defined in terms of a(n) SI petapascal.
+A(n) exapascal. It's defined in terms of a(n) petapascal.
 
 ```csharp
 public static readonly Pressure Exapascal;

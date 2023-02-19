@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Petaampere Field
 
-Units of a petaampere. It's defined in terms of a(n) SI teraampere.
+A(n) petaampere. It's defined in terms of a(n) teraampere.
 
 ```csharp
 public static readonly ElectricalCurrent Petaampere;

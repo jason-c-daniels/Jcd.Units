@@ -3,7 +3,7 @@
 
 ## Inductances.Dekahenry Field
 
-Units of a dekahenry. It's defined in terms of a(n) SI henry.
+A(n) dekahenry. It's defined in terms of a(n) henry.
 
 ```csharp
 public static readonly Inductance Dekahenry;

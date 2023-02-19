@@ -3,7 +3,7 @@
 
 ## Momentums.YoctonewtonSecond Field
 
-Units of a yoctonewton-second. It's defined in terms of a(n) SI zeptonewton-second.
+A(n) yoctonewton-second. It's defined in terms of a(n) zeptonewton-second.
 
 ```csharp
 public static readonly Momentum YoctonewtonSecond;

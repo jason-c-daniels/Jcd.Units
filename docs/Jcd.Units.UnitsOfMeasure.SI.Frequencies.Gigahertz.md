@@ -3,7 +3,7 @@
 
 ## Frequencies.Gigahertz Field
 
-Units of a gigahertz. It's defined in terms of a(n) SI megahertz.
+A(n) gigahertz. It's defined in terms of a(n) megahertz.
 
 ```csharp
 public static readonly Frequency Gigahertz;

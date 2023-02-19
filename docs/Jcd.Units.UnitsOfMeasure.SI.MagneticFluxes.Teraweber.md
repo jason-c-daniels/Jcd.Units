@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Teraweber Field
 
-Units of a teraweber. It's defined in terms of a(n) SI gigaweber.
+A(n) teraweber. It's defined in terms of a(n) gigaweber.
 
 ```csharp
 public static readonly MagneticFlux Teraweber;

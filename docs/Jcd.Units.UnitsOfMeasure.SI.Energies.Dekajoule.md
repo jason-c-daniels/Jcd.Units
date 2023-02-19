@@ -3,7 +3,7 @@
 
 ## Energies.Dekajoule Field
 
-Units of a dekajoule. It's defined in terms of a(n) SI joule.
+A(n) dekajoule. It's defined in terms of a(n) joule.
 
 ```csharp
 public static readonly Energy Dekajoule;

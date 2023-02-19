@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Dekaampere Field
 
-Units of a dekaampere. It's defined in terms of a(n) SI ampere.
+A(n) dekaampere. It's defined in terms of a(n) ampere.
 
 ```csharp
 public static readonly ElectricalCurrent Dekaampere;

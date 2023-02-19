@@ -3,7 +3,7 @@
 
 ## Energies.Gigacalorie Field
 
-Units of a gigacalorie. It's defined in terms of a(n) SI megacalorie.
+A(n) gigacalorie. It's defined in terms of a(n) megacalorie.
 
 ```csharp
 public static readonly Energy Gigacalorie;

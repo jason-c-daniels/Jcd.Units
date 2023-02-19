@@ -3,7 +3,7 @@
 
 ## Lengths.NauticalMile Field
 
-Units of a nautical mile. It's defined in terms of a(n) Imperial cable.
+A(n) nautical mile. It's defined in terms of a(n) cable.
 
 ```csharp
 public static readonly Length NauticalMile;

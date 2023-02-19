@@ -3,7 +3,7 @@
 
 ## Pressures.Hectopascal Field
 
-Units of a hectopascal. It's defined in terms of a(n) SI dekapascal.
+A(n) hectopascal. It's defined in terms of a(n) dekapascal.
 
 ```csharp
 public static readonly Pressure Hectopascal;

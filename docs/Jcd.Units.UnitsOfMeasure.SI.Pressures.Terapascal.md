@@ -3,7 +3,7 @@
 
 ## Pressures.Terapascal Field
 
-Units of a terapascal. It's defined in terms of a(n) SI gigapascal.
+A(n) terapascal. It's defined in terms of a(n) gigapascal.
 
 ```csharp
 public static readonly Pressure Terapascal;

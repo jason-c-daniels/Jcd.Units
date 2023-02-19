@@ -3,7 +3,7 @@
 
 ## Capacitances.Gigafarad Field
 
-Units of a gigafarad. It's defined in terms of a(n) SI megafarad.
+A(n) gigafarad. It's defined in terms of a(n) megafarad.
 
 ```csharp
 public static readonly Capacitance Gigafarad;

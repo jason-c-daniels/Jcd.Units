@@ -3,7 +3,7 @@
 
 ## Lengths.Megameter Field
 
-Units of a megameter. It's defined in terms of a(n) SI kilometer.
+A(n) megameter. It's defined in terms of a(n) kilometer.
 
 ```csharp
 public static readonly Length Megameter;

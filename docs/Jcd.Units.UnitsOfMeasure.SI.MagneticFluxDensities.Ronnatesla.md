@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Ronnatesla Field
 
-Units of a ronnatesla. It's defined in terms of a(n) SI yottatesla.
+A(n) ronnatesla. It's defined in terms of a(n) yottatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Ronnatesla;

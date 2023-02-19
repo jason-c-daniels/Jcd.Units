@@ -3,7 +3,7 @@
 
 ## Durations.Petasecond Field
 
-Units of a petasecond. It's defined in terms of a(n)  terasecond.
+A(n) petasecond. It's defined in terms of a(n) terasecond.
 
 ```csharp
 public static readonly Duration Petasecond;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Quettavolt Field
 
-Units of a quettavolt. It's defined in terms of a(n) SI ronnavolt.
+A(n) quettavolt. It's defined in terms of a(n) ronnavolt.
 
 ```csharp
 public static readonly ElectricalPotential Quettavolt;

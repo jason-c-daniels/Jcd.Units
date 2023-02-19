@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Decivolt Field
 
-Units of a decivolt. It's defined in terms of a(n) SI volt.
+A(n) decivolt. It's defined in terms of a(n) volt.
 
 ```csharp
 public static readonly ElectricalPotential Decivolt;

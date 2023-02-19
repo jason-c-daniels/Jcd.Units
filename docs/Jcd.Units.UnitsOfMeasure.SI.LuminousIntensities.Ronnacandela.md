@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Ronnacandela Field
 
-Units of a ronnacandela. It's defined in terms of a(n) SI yottacandela.
+A(n) ronnacandela. It's defined in terms of a(n) yottacandela.
 
 ```csharp
 public static readonly LuminousIntensity Ronnacandela;

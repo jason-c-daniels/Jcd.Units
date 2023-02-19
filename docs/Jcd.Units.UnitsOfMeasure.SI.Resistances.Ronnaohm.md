@@ -3,7 +3,7 @@
 
 ## Resistances.Ronnaohm Field
 
-Units of a ronnaohm. It's defined in terms of a(n) SI yottaohm.
+A(n) ronnaohm. It's defined in terms of a(n) yottaohm.
 
 ```csharp
 public static readonly Resistance Ronnaohm;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Gigasievert Field
 
-Units of a gigasievert. It's defined in terms of a(n) SI megasievert.
+A(n) gigasievert. It's defined in terms of a(n) megasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Gigasievert;

@@ -3,7 +3,7 @@
 
 ## Powers.Exawatt Field
 
-Units of a exawatt. It's defined in terms of a(n) SI petawatt.
+A(n) exawatt. It's defined in terms of a(n) petawatt.
 
 ```csharp
 public static readonly Power Exawatt;

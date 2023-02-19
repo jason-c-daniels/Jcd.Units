@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Yoctolumen Field
 
-Units of a yoctolumen. It's defined in terms of a(n) SI zeptolumen.
+A(n) yoctolumen. It's defined in terms of a(n) zeptolumen.
 
 ```csharp
 public static readonly LuminousFlux Yoctolumen;

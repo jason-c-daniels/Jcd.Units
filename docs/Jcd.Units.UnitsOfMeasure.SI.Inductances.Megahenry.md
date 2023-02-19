@@ -3,7 +3,7 @@
 
 ## Inductances.Megahenry Field
 
-Units of a megahenry. It's defined in terms of a(n) SI kilohenry.
+A(n) megahenry. It's defined in terms of a(n) kilohenry.
 
 ```csharp
 public static readonly Inductance Megahenry;

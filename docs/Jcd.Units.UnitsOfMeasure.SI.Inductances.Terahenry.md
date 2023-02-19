@@ -3,7 +3,7 @@
 
 ## Inductances.Terahenry Field
 
-Units of a terahenry. It's defined in terms of a(n) SI gigahenry.
+A(n) terahenry. It's defined in terms of a(n) gigahenry.
 
 ```csharp
 public static readonly Inductance Terahenry;

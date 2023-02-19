@@ -3,7 +3,7 @@
 
 ## Illuminances.Exalux Field
 
-Units of a exalux. It's defined in terms of a(n) SI petalux.
+A(n) exalux. It's defined in terms of a(n) petalux.
 
 ```csharp
 public static readonly Illuminance Exalux;

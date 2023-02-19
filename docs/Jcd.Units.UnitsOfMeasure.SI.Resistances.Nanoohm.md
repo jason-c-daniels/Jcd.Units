@@ -3,7 +3,7 @@
 
 ## Resistances.Nanoohm Field
 
-Units of a nanoohm. It's defined in terms of a(n) SI microohm.
+A(n) nanoohm. It's defined in terms of a(n) microohm.
 
 ```csharp
 public static readonly Resistance Nanoohm;

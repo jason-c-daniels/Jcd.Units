@@ -3,7 +3,7 @@
 
 ## Masses.Quettagram Field
 
-Units of a quettagram. It's defined in terms of a(n) SI ronnagram.
+A(n) quettagram. It's defined in terms of a(n) ronnagram.
 
 ```csharp
 public static readonly Mass Quettagram;

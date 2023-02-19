@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Ronnaweber Field
 
-Units of a ronnaweber. It's defined in terms of a(n) SI yottaweber.
+A(n) ronnaweber. It's defined in terms of a(n) yottaweber.
 
 ```csharp
 public static readonly MagneticFlux Ronnaweber;

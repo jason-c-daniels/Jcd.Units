@@ -3,7 +3,7 @@
 
 ## Momentums.NewtonSecond Field
 
-Units of a newton-second.
+A(n) newton-second.
 
 ```csharp
 public static readonly Momentum NewtonSecond;

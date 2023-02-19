@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Zeptoampere Field
 
-Units of a zeptoampere. It's defined in terms of a(n) SI attoampere.
+A(n) zeptoampere. It's defined in terms of a(n) attoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Zeptoampere;

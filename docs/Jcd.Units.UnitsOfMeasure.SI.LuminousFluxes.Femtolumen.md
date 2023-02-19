@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Femtolumen Field
 
-Units of a femtolumen. It's defined in terms of a(n) SI picolumen.
+A(n) femtolumen. It's defined in terms of a(n) picolumen.
 
 ```csharp
 public static readonly LuminousFlux Femtolumen;

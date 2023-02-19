@@ -3,7 +3,7 @@
 
 ## Energies.Quectojoule Field
 
-Units of a quectojoule. It's defined in terms of a(n) SI rontojoule.
+A(n) quectojoule. It's defined in terms of a(n) rontojoule.
 
 ```csharp
 public static readonly Energy Quectojoule;

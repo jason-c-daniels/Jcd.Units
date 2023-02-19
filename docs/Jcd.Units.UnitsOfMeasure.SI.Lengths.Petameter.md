@@ -3,7 +3,7 @@
 
 ## Lengths.Petameter Field
 
-Units of a petameter. It's defined in terms of a(n) SI terameter.
+A(n) petameter. It's defined in terms of a(n) terameter.
 
 ```csharp
 public static readonly Length Petameter;

@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Yottacoulomb Field
 
-Units of a yottacoulomb. It's defined in terms of a(n) SI zettacoulomb.
+A(n) yottacoulomb. It's defined in terms of a(n) zettacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Yottacoulomb;

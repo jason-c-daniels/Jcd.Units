@@ -3,7 +3,7 @@
 
 ## Forces.Giganewton Field
 
-Units of a giganewton. It's defined in terms of a(n) SI meganewton.
+A(n) giganewton. It's defined in terms of a(n) meganewton.
 
 ```csharp
 public static readonly Force Giganewton;

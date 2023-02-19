@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Ronnasiemens Field
 
-Units of a ronnasiemens. It's defined in terms of a(n) SI yottasiemens.
+A(n) ronnasiemens. It's defined in terms of a(n) yottasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Ronnasiemens;

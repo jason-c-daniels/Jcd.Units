@@ -3,7 +3,7 @@
 
 ## Powers.Megawatt Field
 
-Units of a megawatt. It's defined in terms of a(n) SI kilowatt.
+A(n) megawatt. It's defined in terms of a(n) kilowatt.
 
 ```csharp
 public static readonly Power Megawatt;

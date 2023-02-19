@@ -3,7 +3,7 @@
 
 ## Pressures.Rontopascal Field
 
-Units of a rontopascal. It's defined in terms of a(n) SI yoctopascal.
+A(n) rontopascal. It's defined in terms of a(n) yoctopascal.
 
 ```csharp
 public static readonly Pressure Rontopascal;

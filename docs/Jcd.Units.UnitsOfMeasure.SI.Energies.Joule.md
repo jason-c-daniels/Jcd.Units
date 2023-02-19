@@ -3,7 +3,7 @@
 
 ## Energies.Joule Field
 
-Units of a joule.
+A(n) joule.
 
 ```csharp
 public static readonly Energy Joule;

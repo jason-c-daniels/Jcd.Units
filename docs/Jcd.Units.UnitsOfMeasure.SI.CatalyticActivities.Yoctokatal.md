@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Yoctokatal Field
 
-Units of a yoctokatal. It's defined in terms of a(n) SI zeptokatal.
+A(n) yoctokatal. It's defined in terms of a(n) zeptokatal.
 
 ```csharp
 public static readonly CatalyticActivity Yoctokatal;

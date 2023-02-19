@@ -3,7 +3,7 @@
 
 ## Energies.Picocalorie Field
 
-Units of a picocalorie. It's defined in terms of a(n) SI nanocalorie.
+A(n) picocalorie. It's defined in terms of a(n) nanocalorie.
 
 ```csharp
 public static readonly Energy Picocalorie;

@@ -3,7 +3,7 @@
 
 ## Resistances.Yoctoohm Field
 
-Units of a yoctoohm. It's defined in terms of a(n) SI zeptoohm.
+A(n) yoctoohm. It's defined in terms of a(n) zeptoohm.
 
 ```csharp
 public static readonly Resistance Yoctoohm;

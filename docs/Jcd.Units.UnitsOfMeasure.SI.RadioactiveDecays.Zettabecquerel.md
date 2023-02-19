@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Zettabecquerel Field
 
-Units of a zettabecquerel. It's defined in terms of a(n) SI exabecquerel.
+A(n) zettabecquerel. It's defined in terms of a(n) exabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Zettabecquerel;

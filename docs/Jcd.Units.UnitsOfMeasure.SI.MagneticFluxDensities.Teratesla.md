@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Teratesla Field
 
-Units of a teratesla. It's defined in terms of a(n) SI gigatesla.
+A(n) teratesla. It's defined in terms of a(n) gigatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Teratesla;

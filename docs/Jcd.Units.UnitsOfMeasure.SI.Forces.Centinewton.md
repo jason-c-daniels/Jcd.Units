@@ -3,7 +3,7 @@
 
 ## Forces.Centinewton Field
 
-Units of a centinewton. It's defined in terms of a(n) SI decinewton.
+A(n) centinewton. It's defined in terms of a(n) decinewton.
 
 ```csharp
 public static readonly Force Centinewton;

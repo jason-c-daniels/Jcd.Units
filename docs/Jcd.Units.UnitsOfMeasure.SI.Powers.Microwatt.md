@@ -3,7 +3,7 @@
 
 ## Powers.Microwatt Field
 
-Units of a microwatt. It's defined in terms of a(n) SI milliwatt.
+A(n) microwatt. It's defined in terms of a(n) milliwatt.
 
 ```csharp
 public static readonly Power Microwatt;

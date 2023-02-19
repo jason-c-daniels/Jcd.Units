@@ -3,7 +3,7 @@
 
 ## Inductances.Millihenry Field
 
-Units of a millihenry. It's defined in terms of a(n) SI centihenry.
+A(n) millihenry. It's defined in terms of a(n) centihenry.
 
 ```csharp
 public static readonly Inductance Millihenry;

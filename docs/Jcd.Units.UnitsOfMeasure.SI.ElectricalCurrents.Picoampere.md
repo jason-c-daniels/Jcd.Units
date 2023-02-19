@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Picoampere Field
 
-Units of a picoampere. It's defined in terms of a(n) SI nanoampere.
+A(n) picoampere. It's defined in terms of a(n) nanoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Picoampere;

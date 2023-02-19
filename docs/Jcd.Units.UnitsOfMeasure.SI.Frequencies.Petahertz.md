@@ -3,7 +3,7 @@
 
 ## Frequencies.Petahertz Field
 
-Units of a petahertz. It's defined in terms of a(n) SI terahertz.
+A(n) petahertz. It's defined in terms of a(n) terahertz.
 
 ```csharp
 public static readonly Frequency Petahertz;

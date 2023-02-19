@@ -3,7 +3,7 @@
 
 ## Inductances.Petahenry Field
 
-Units of a petahenry. It's defined in terms of a(n) SI terahenry.
+A(n) petahenry. It's defined in terms of a(n) terahenry.
 
 ```csharp
 public static readonly Inductance Petahenry;

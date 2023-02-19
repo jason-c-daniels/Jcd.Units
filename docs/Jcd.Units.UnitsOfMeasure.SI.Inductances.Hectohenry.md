@@ -3,7 +3,7 @@
 
 ## Inductances.Hectohenry Field
 
-Units of a hectohenry. It's defined in terms of a(n) SI dekahenry.
+A(n) hectohenry. It's defined in terms of a(n) dekahenry.
 
 ```csharp
 public static readonly Inductance Hectohenry;

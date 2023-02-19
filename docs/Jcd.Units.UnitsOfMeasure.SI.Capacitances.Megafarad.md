@@ -3,7 +3,7 @@
 
 ## Capacitances.Megafarad Field
 
-Units of a megafarad. It's defined in terms of a(n) SI kilofarad.
+A(n) megafarad. It's defined in terms of a(n) kilofarad.
 
 ```csharp
 public static readonly Capacitance Megafarad;

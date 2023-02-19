@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Petabecquerel Field
 
-Units of a petabecquerel. It's defined in terms of a(n) SI terabecquerel.
+A(n) petabecquerel. It's defined in terms of a(n) terabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Petabecquerel;

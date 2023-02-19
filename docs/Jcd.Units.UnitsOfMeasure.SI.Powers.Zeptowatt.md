@@ -3,7 +3,7 @@
 
 ## Powers.Zeptowatt Field
 
-Units of a zeptowatt. It's defined in terms of a(n) SI attowatt.
+A(n) zeptowatt. It's defined in terms of a(n) attowatt.
 
 ```csharp
 public static readonly Power Zeptowatt;

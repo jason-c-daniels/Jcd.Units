@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Zeptocoulomb Field
 
-Units of a zeptocoulomb. It's defined in terms of a(n) SI attocoulomb.
+A(n) zeptocoulomb. It's defined in terms of a(n) attocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Zeptocoulomb;

@@ -3,7 +3,7 @@
 
 ## Frequencies.Hertz Field
 
-Units of a hertz.
+A(n) hertz.
 
 ```csharp
 public static readonly Frequency Hertz;

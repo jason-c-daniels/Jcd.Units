@@ -3,7 +3,7 @@
 
 ## Lengths.Millimeter Field
 
-Units of a millimeter. It's defined in terms of a(n) SI centimeter.
+A(n) millimeter. It's defined in terms of a(n) centimeter.
 
 ```csharp
 public static readonly Length Millimeter;

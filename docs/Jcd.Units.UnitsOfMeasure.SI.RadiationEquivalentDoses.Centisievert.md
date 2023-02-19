@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Centisievert Field
 
-Units of a centisievert. It's defined in terms of a(n) SI decisievert.
+A(n) centisievert. It's defined in terms of a(n) decisievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Centisievert;

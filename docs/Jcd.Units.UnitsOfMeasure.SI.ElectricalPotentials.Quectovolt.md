@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Quectovolt Field
 
-Units of a quectovolt. It's defined in terms of a(n) SI rontovolt.
+A(n) quectovolt. It's defined in terms of a(n) rontovolt.
 
 ```csharp
 public static readonly ElectricalPotential Quectovolt;

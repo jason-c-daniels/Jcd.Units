@@ -3,7 +3,7 @@
 
 ## Frequencies.Hectohertz Field
 
-Units of a hectohertz. It's defined in terms of a(n) SI dekahertz.
+A(n) hectohertz. It's defined in terms of a(n) dekahertz.
 
 ```csharp
 public static readonly Frequency Hectohertz;

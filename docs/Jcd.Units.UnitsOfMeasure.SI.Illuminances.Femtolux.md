@@ -3,7 +3,7 @@
 
 ## Illuminances.Femtolux Field
 
-Units of a femtolux. It's defined in terms of a(n) SI picolux.
+A(n) femtolux. It's defined in terms of a(n) picolux.
 
 ```csharp
 public static readonly Illuminance Femtolux;

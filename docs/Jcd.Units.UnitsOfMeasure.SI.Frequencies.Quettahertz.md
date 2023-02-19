@@ -3,7 +3,7 @@
 
 ## Frequencies.Quettahertz Field
 
-Units of a quettahertz. It's defined in terms of a(n) SI ronnahertz.
+A(n) quettahertz. It's defined in terms of a(n) ronnahertz.
 
 ```csharp
 public static readonly Frequency Quettahertz;

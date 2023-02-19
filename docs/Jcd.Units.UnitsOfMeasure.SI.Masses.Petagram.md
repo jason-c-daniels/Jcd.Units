@@ -3,7 +3,7 @@
 
 ## Masses.Petagram Field
 
-Units of a petagram. It's defined in terms of a(n) SI teragram.
+A(n) petagram. It's defined in terms of a(n) teragram.
 
 ```csharp
 public static readonly Mass Petagram;

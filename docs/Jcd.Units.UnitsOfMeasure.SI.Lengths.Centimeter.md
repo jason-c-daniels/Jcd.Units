@@ -3,7 +3,7 @@
 
 ## Lengths.Centimeter Field
 
-Units of a centimeter. It's defined in terms of a(n) SI decimeter.
+A(n) centimeter. It's defined in terms of a(n) decimeter.
 
 ```csharp
 public static readonly Length Centimeter;

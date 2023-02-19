@@ -3,7 +3,7 @@
 
 ## Capacitances.Femtofarad Field
 
-Units of a femtofarad. It's defined in terms of a(n) SI picofarad.
+A(n) femtofarad. It's defined in terms of a(n) picofarad.
 
 ```csharp
 public static readonly Capacitance Femtofarad;

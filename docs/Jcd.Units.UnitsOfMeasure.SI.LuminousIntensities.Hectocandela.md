@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Hectocandela Field
 
-Units of a hectocandela. It's defined in terms of a(n) SI dekacandela.
+A(n) hectocandela. It's defined in terms of a(n) dekacandela.
 
 ```csharp
 public static readonly LuminousIntensity Hectocandela;

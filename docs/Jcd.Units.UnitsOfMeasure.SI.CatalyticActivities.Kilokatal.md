@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Kilokatal Field
 
-Units of a kilokatal. It's defined in terms of a(n) SI hectokatal.
+A(n) kilokatal. It's defined in terms of a(n) hectokatal.
 
 ```csharp
 public static readonly CatalyticActivity Kilokatal;

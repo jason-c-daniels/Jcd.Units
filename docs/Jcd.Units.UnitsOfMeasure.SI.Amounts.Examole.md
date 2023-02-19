@@ -3,7 +3,7 @@
 
 ## Amounts.Examole Field
 
-Units of a examole. It's defined in terms of a(n)  petamole.
+A(n) examole. It's defined in terms of a(n) petamole.
 
 ```csharp
 public static readonly Amount Examole;

@@ -3,7 +3,7 @@
 
 ## Resistances.Zeptoohm Field
 
-Units of a zeptoohm. It's defined in terms of a(n) SI attoohm.
+A(n) zeptoohm. It's defined in terms of a(n) attoohm.
 
 ```csharp
 public static readonly Resistance Zeptoohm;

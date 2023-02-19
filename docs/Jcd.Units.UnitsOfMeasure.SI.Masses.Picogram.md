@@ -3,7 +3,7 @@
 
 ## Masses.Picogram Field
 
-Units of a picogram. It's defined in terms of a(n) SI nanogram.
+A(n) picogram. It's defined in terms of a(n) nanogram.
 
 ```csharp
 public static readonly Mass Picogram;

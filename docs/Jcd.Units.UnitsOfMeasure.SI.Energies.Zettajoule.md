@@ -3,7 +3,7 @@
 
 ## Energies.Zettajoule Field
 
-Units of a zettajoule. It's defined in terms of a(n) SI exajoule.
+A(n) zettajoule. It's defined in terms of a(n) exajoule.
 
 ```csharp
 public static readonly Energy Zettajoule;

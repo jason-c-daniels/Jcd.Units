@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Zeptoweber Field
 
-Units of a zeptoweber. It's defined in terms of a(n) SI attoweber.
+A(n) zeptoweber. It's defined in terms of a(n) attoweber.
 
 ```csharp
 public static readonly MagneticFlux Zeptoweber;

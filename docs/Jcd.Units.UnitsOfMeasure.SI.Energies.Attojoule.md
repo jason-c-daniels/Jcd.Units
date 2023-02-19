@@ -3,7 +3,7 @@
 
 ## Energies.Attojoule Field
 
-Units of a attojoule. It's defined in terms of a(n) SI femtojoule.
+A(n) attojoule. It's defined in terms of a(n) femtojoule.
 
 ```csharp
 public static readonly Energy Attojoule;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Katal Field
 
-Units of a katal.
+A(n) katal.
 
 ```csharp
 public static readonly CatalyticActivity Katal;

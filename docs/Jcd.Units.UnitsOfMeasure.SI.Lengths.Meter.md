@@ -3,7 +3,7 @@
 
 ## Lengths.Meter Field
 
-Units of a meter.
+A(n) meter.
 
 ```csharp
 public static readonly Length Meter;

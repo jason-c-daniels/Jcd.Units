@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Ronnacoulomb Field
 
-Units of a ronnacoulomb. It's defined in terms of a(n) SI yottacoulomb.
+A(n) ronnacoulomb. It's defined in terms of a(n) yottacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Ronnacoulomb;

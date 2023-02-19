@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Centiampere Field
 
-Units of a centiampere. It's defined in terms of a(n) SI deciampere.
+A(n) centiampere. It's defined in terms of a(n) deciampere.
 
 ```csharp
 public static readonly ElectricalCurrent Centiampere;

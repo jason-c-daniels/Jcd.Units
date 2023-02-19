@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Nanogray Field
 
-Units of a nanogray. It's defined in terms of a(n) SI microgray.
+A(n) nanogray. It's defined in terms of a(n) microgray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Nanogray;

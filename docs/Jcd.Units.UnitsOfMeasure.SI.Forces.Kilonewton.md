@@ -3,7 +3,7 @@
 
 ## Forces.Kilonewton Field
 
-Units of a kilonewton. It's defined in terms of a(n) SI hectonewton.
+A(n) kilonewton. It's defined in terms of a(n) hectonewton.
 
 ```csharp
 public static readonly Force Kilonewton;

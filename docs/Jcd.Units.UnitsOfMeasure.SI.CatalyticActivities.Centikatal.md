@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Centikatal Field
 
-Units of a centikatal. It's defined in terms of a(n) SI decikatal.
+A(n) centikatal. It's defined in terms of a(n) decikatal.
 
 ```csharp
 public static readonly CatalyticActivity Centikatal;

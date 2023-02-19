@@ -3,7 +3,7 @@
 
 ## Energies.Megajoule Field
 
-Units of a megajoule. It's defined in terms of a(n) SI kilojoule.
+A(n) megajoule. It's defined in terms of a(n) kilojoule.
 
 ```csharp
 public static readonly Energy Megajoule;

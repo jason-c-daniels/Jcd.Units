@@ -3,7 +3,7 @@
 
 ## Lengths.Femtometer Field
 
-Units of a femtometer. It's defined in terms of a(n) SI picometer.
+A(n) femtometer. It's defined in terms of a(n) picometer.
 
 ```csharp
 public static readonly Length Femtometer;

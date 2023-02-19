@@ -3,7 +3,7 @@
 
 ## Illuminances.Nanolux Field
 
-Units of a nanolux. It's defined in terms of a(n) SI microlux.
+A(n) nanolux. It's defined in terms of a(n) microlux.
 
 ```csharp
 public static readonly Illuminance Nanolux;

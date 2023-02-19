@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Hectotesla Field
 
-Units of a hectotesla. It's defined in terms of a(n) SI dekatesla.
+A(n) hectotesla. It's defined in terms of a(n) dekatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Hectotesla;

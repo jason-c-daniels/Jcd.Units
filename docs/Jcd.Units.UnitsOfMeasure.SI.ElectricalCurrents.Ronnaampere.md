@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Ronnaampere Field
 
-Units of a ronnaampere. It's defined in terms of a(n) SI yottaampere.
+A(n) ronnaampere. It's defined in terms of a(n) yottaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Ronnaampere;

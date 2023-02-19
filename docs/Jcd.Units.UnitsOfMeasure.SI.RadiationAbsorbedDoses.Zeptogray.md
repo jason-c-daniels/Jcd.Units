@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Zeptogray Field
 
-Units of a zeptogray. It's defined in terms of a(n) SI attogray.
+A(n) zeptogray. It's defined in terms of a(n) attogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Zeptogray;

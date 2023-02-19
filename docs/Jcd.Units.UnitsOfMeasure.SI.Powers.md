@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Attowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Attowatt') | Units of a attowatt. It's defined in terms of a(n) SI femtowatt. |
-| [Centiwatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Centiwatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Centiwatt') | Units of a centiwatt. It's defined in terms of a(n) SI deciwatt. |
-| [Deciwatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Deciwatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Deciwatt') | Units of a deciwatt. It's defined in terms of a(n) SI watt. |
-| [Dekawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Dekawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Dekawatt') | Units of a dekawatt. It's defined in terms of a(n) SI watt. |
-| [Exawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Exawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Exawatt') | Units of a exawatt. It's defined in terms of a(n) SI petawatt. |
-| [Femtowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Femtowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Femtowatt') | Units of a femtowatt. It's defined in terms of a(n) SI picowatt. |
-| [Gigawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Gigawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Gigawatt') | Units of a gigawatt. It's defined in terms of a(n) SI megawatt. |
-| [Hectowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Hectowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Hectowatt') | Units of a hectowatt. It's defined in terms of a(n) SI dekawatt. |
-| [Kilowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Kilowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Kilowatt') | Units of a kilowatt. It's defined in terms of a(n) SI hectowatt. |
-| [Megawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Megawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Megawatt') | Units of a megawatt. It's defined in terms of a(n) SI kilowatt. |
-| [Microwatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Microwatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Microwatt') | Units of a microwatt. It's defined in terms of a(n) SI milliwatt. |
-| [Milliwatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Milliwatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Milliwatt') | Units of a milliwatt. It's defined in terms of a(n) SI centiwatt. |
-| [Nanowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Nanowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Nanowatt') | Units of a nanowatt. It's defined in terms of a(n) SI microwatt. |
-| [Petawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Petawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Petawatt') | Units of a petawatt. It's defined in terms of a(n) SI terawatt. |
-| [Picowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Picowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Picowatt') | Units of a picowatt. It's defined in terms of a(n) SI nanowatt. |
-| [Quectowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Quectowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Quectowatt') | Units of a quectowatt. It's defined in terms of a(n) SI rontowatt. |
-| [Quettawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Quettawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Quettawatt') | Units of a quettawatt. It's defined in terms of a(n) SI ronnawatt. |
-| [Ronnawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Ronnawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Ronnawatt') | Units of a ronnawatt. It's defined in terms of a(n) SI yottawatt. |
-| [Rontowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Rontowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Rontowatt') | Units of a rontowatt. It's defined in terms of a(n) SI yoctowatt. |
-| [Terawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Terawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Terawatt') | Units of a terawatt. It's defined in terms of a(n) SI gigawatt. |
-| [Watt](Jcd.Units.UnitsOfMeasure.SI.Powers.Watt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Watt') | Units of a watt. |
-| [Yoctowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Yoctowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Yoctowatt') | Units of a yoctowatt. It's defined in terms of a(n) SI zeptowatt. |
-| [Yottawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Yottawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Yottawatt') | Units of a yottawatt. It's defined in terms of a(n) SI zettawatt. |
-| [Zeptowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Zeptowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Zeptowatt') | Units of a zeptowatt. It's defined in terms of a(n) SI attowatt. |
-| [Zettawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Zettawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Zettawatt') | Units of a zettawatt. It's defined in terms of a(n) SI exawatt. |
+| [Attowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Attowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Attowatt') | A(n) attowatt. It's defined in terms of a(n) femtowatt. |
+| [Centiwatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Centiwatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Centiwatt') | A(n) centiwatt. It's defined in terms of a(n) deciwatt. |
+| [Deciwatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Deciwatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Deciwatt') | A(n) deciwatt. It's defined in terms of a(n) watt. |
+| [Dekawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Dekawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Dekawatt') | A(n) dekawatt. It's defined in terms of a(n) watt. |
+| [Exawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Exawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Exawatt') | A(n) exawatt. It's defined in terms of a(n) petawatt. |
+| [Femtowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Femtowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Femtowatt') | A(n) femtowatt. It's defined in terms of a(n) picowatt. |
+| [Gigawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Gigawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Gigawatt') | A(n) gigawatt. It's defined in terms of a(n) megawatt. |
+| [Hectowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Hectowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Hectowatt') | A(n) hectowatt. It's defined in terms of a(n) dekawatt. |
+| [Kilowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Kilowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Kilowatt') | A(n) kilowatt. It's defined in terms of a(n) hectowatt. |
+| [Megawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Megawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Megawatt') | A(n) megawatt. It's defined in terms of a(n) kilowatt. |
+| [Microwatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Microwatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Microwatt') | A(n) microwatt. It's defined in terms of a(n) milliwatt. |
+| [Milliwatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Milliwatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Milliwatt') | A(n) milliwatt. It's defined in terms of a(n) centiwatt. |
+| [Nanowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Nanowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Nanowatt') | A(n) nanowatt. It's defined in terms of a(n) microwatt. |
+| [Petawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Petawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Petawatt') | A(n) petawatt. It's defined in terms of a(n) terawatt. |
+| [Picowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Picowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Picowatt') | A(n) picowatt. It's defined in terms of a(n) nanowatt. |
+| [Quectowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Quectowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Quectowatt') | A(n) quectowatt. It's defined in terms of a(n) rontowatt. |
+| [Quettawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Quettawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Quettawatt') | A(n) quettawatt. It's defined in terms of a(n) ronnawatt. |
+| [Ronnawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Ronnawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Ronnawatt') | A(n) ronnawatt. It's defined in terms of a(n) yottawatt. |
+| [Rontowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Rontowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Rontowatt') | A(n) rontowatt. It's defined in terms of a(n) yoctowatt. |
+| [Terawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Terawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Terawatt') | A(n) terawatt. It's defined in terms of a(n) gigawatt. |
+| [Watt](Jcd.Units.UnitsOfMeasure.SI.Powers.Watt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Watt') | A(n) watt. |
+| [Yoctowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Yoctowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Yoctowatt') | A(n) yoctowatt. It's defined in terms of a(n) zeptowatt. |
+| [Yottawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Yottawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Yottawatt') | A(n) yottawatt. It's defined in terms of a(n) zettawatt. |
+| [Zeptowatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Zeptowatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Zeptowatt') | A(n) zeptowatt. It's defined in terms of a(n) attowatt. |
+| [Zettawatt](Jcd.Units.UnitsOfMeasure.SI.Powers.Zettawatt.md 'Jcd.Units.UnitsOfMeasure.SI.Powers.Zettawatt') | A(n) zettawatt. It's defined in terms of a(n) exawatt. |

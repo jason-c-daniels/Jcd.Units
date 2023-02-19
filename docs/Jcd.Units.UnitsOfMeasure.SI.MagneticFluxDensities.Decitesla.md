@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Decitesla Field
 
-Units of a decitesla. It's defined in terms of a(n) SI tesla.
+A(n) decitesla. It's defined in terms of a(n) tesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Decitesla;

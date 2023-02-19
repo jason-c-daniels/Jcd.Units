@@ -3,7 +3,7 @@
 
 ## Lengths.Fathom Field
 
-Units of a fathom. It's defined in terms of a(n) US Customary yard.
+A(n) fathom. It's defined in terms of a(n) yard.
 
 ```csharp
 public static readonly Length Fathom;

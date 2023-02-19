@@ -3,7 +3,7 @@
 
 ## Durations.Femtosecond Field
 
-Units of a femtosecond. It's defined in terms of a(n)  picosecond.
+A(n) femtosecond. It's defined in terms of a(n) picosecond.
 
 ```csharp
 public static readonly Duration Femtosecond;

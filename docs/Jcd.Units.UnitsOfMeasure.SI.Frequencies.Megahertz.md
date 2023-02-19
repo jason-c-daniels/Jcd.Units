@@ -3,7 +3,7 @@
 
 ## Frequencies.Megahertz Field
 
-Units of a megahertz. It's defined in terms of a(n) SI kilohertz.
+A(n) megahertz. It's defined in terms of a(n) kilohertz.
 
 ```csharp
 public static readonly Frequency Megahertz;

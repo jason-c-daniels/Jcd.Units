@@ -3,7 +3,7 @@
 
 ## Momentums.KilonewtonSecond Field
 
-Units of a kilonewton-second. It's defined in terms of a(n) SI hectonewton-second.
+A(n) kilonewton-second. It's defined in terms of a(n) hectonewton-second.
 
 ```csharp
 public static readonly Momentum KilonewtonSecond;

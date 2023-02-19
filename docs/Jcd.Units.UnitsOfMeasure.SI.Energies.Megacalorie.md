@@ -3,7 +3,7 @@
 
 ## Energies.Megacalorie Field
 
-Units of a megacalorie. It's defined in terms of a(n) SI kilocalorie.
+A(n) megacalorie. It's defined in terms of a(n) kilocalorie.
 
 ```csharp
 public static readonly Energy Megacalorie;

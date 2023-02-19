@@ -3,7 +3,7 @@
 
 ## Lengths.Pica Field
 
-Units of a pica. It's defined in terms of a(n) US Customary point.
+A(n) pica. It's defined in terms of a(n) point.
 
 ```csharp
 public static readonly Length Pica;

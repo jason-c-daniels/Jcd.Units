@@ -3,7 +3,7 @@
 
 ## Illuminances.Picolux Field
 
-Units of a picolux. It's defined in terms of a(n) SI nanolux.
+A(n) picolux. It's defined in terms of a(n) nanolux.
 
 ```csharp
 public static readonly Illuminance Picolux;

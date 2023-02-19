@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Teracoulomb Field
 
-Units of a teracoulomb. It's defined in terms of a(n) SI gigacoulomb.
+A(n) teracoulomb. It's defined in terms of a(n) gigacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Teracoulomb;

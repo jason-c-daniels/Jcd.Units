@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Decicandela Field
 
-Units of a decicandela. It's defined in terms of a(n) SI candela.
+A(n) decicandela. It's defined in terms of a(n) candela.
 
 ```csharp
 public static readonly LuminousIntensity Decicandela;

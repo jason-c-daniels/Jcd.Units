@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Nanolumen Field
 
-Units of a nanolumen. It's defined in terms of a(n) SI microlumen.
+A(n) nanolumen. It's defined in terms of a(n) microlumen.
 
 ```csharp
 public static readonly LuminousFlux Nanolumen;

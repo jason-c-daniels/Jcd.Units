@@ -3,7 +3,7 @@
 
 ## Inductances.Kilohenry Field
 
-Units of a kilohenry. It's defined in terms of a(n) SI hectohenry.
+A(n) kilohenry. It's defined in terms of a(n) hectohenry.
 
 ```csharp
 public static readonly Inductance Kilohenry;

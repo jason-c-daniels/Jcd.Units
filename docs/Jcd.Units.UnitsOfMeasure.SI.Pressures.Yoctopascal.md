@@ -3,7 +3,7 @@
 
 ## Pressures.Yoctopascal Field
 
-Units of a yoctopascal. It's defined in terms of a(n) SI zeptopascal.
+A(n) yoctopascal. It's defined in terms of a(n) zeptopascal.
 
 ```csharp
 public static readonly Pressure Yoctopascal;

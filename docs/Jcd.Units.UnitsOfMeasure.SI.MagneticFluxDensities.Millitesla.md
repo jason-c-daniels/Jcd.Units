@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Millitesla Field
 
-Units of a millitesla. It's defined in terms of a(n) SI centitesla.
+A(n) millitesla. It's defined in terms of a(n) centitesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Millitesla;

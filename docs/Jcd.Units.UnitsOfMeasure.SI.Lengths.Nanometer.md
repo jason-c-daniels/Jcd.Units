@@ -3,7 +3,7 @@
 
 ## Lengths.Nanometer Field
 
-Units of a nanometer. It's defined in terms of a(n) SI micrometer.
+A(n) nanometer. It's defined in terms of a(n) micrometer.
 
 ```csharp
 public static readonly Length Nanometer;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Hectovolt Field
 
-Units of a hectovolt. It's defined in terms of a(n) SI dekavolt.
+A(n) hectovolt. It's defined in terms of a(n) dekavolt.
 
 ```csharp
 public static readonly ElectricalPotential Hectovolt;

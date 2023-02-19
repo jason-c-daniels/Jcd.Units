@@ -3,7 +3,7 @@
 
 ## Durations.Day Field
 
-Units of a day. It's defined in terms of a(n)  hour.
+A(n) day. It's defined in terms of a(n) hour.
 
 ```csharp
 public static readonly Duration Day;

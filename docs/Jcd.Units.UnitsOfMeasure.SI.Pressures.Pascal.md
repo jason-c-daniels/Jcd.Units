@@ -3,7 +3,7 @@
 
 ## Pressures.Pascal Field
 
-Units of a pascal.
+A(n) pascal.
 
 ```csharp
 public static readonly Pressure Pascal;

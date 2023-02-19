@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Decisiemens Field
 
-Units of a decisiemens. It's defined in terms of a(n) SI siemens.
+A(n) decisiemens. It's defined in terms of a(n) siemens.
 
 ```csharp
 public static readonly ElectricalConductance Decisiemens;

@@ -3,7 +3,7 @@
 
 ## Inductances.Nanohenry Field
 
-Units of a nanohenry. It's defined in terms of a(n) SI microhenry.
+A(n) nanohenry. It's defined in terms of a(n) microhenry.
 
 ```csharp
 public static readonly Inductance Nanohenry;

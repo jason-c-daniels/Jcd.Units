@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Terasiemens Field
 
-Units of a terasiemens. It's defined in terms of a(n) SI gigasiemens.
+A(n) terasiemens. It's defined in terms of a(n) gigasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Terasiemens;

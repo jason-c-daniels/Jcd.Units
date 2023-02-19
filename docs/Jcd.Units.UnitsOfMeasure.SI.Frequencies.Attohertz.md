@@ -3,7 +3,7 @@
 
 ## Frequencies.Attohertz Field
 
-Units of a attohertz. It's defined in terms of a(n) SI femtohertz.
+A(n) attohertz. It's defined in terms of a(n) femtohertz.
 
 ```csharp
 public static readonly Frequency Attohertz;

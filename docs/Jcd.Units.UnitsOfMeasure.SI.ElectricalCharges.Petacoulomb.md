@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Petacoulomb Field
 
-Units of a petacoulomb. It's defined in terms of a(n) SI teracoulomb.
+A(n) petacoulomb. It's defined in terms of a(n) teracoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Petacoulomb;

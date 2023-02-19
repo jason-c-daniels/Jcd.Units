@@ -3,7 +3,7 @@
 
 ## Durations.Ronnasecond Field
 
-Units of a ronnasecond. It's defined in terms of a(n)  yottasecond.
+A(n) ronnasecond. It's defined in terms of a(n) yottasecond.
 
 ```csharp
 public static readonly Duration Ronnasecond;

@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Centilumen Field
 
-Units of a centilumen. It's defined in terms of a(n) SI decilumen.
+A(n) centilumen. It's defined in terms of a(n) decilumen.
 
 ```csharp
 public static readonly LuminousFlux Centilumen;

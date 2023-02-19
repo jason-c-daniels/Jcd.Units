@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Zettagray Field
 
-Units of a zettagray. It's defined in terms of a(n) SI exagray.
+A(n) zettagray. It's defined in terms of a(n) exagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Zettagray;

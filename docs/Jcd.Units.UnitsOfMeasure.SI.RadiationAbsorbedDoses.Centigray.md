@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Centigray Field
 
-Units of a centigray. It's defined in terms of a(n) SI decigray.
+A(n) centigray. It's defined in terms of a(n) decigray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Centigray;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Quettagray Field
 
-Units of a quettagray. It's defined in terms of a(n) SI ronnagray.
+A(n) quettagray. It's defined in terms of a(n) ronnagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Quettagray;

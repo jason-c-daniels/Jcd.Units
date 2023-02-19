@@ -3,7 +3,7 @@
 
 ## Inductances.Zettahenry Field
 
-Units of a zettahenry. It's defined in terms of a(n) SI exahenry.
+A(n) zettahenry. It's defined in terms of a(n) exahenry.
 
 ```csharp
 public static readonly Inductance Zettahenry;

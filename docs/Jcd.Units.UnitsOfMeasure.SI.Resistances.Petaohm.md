@@ -3,7 +3,7 @@
 
 ## Resistances.Petaohm Field
 
-Units of a petaohm. It's defined in terms of a(n) SI teraohm.
+A(n) petaohm. It's defined in terms of a(n) teraohm.
 
 ```csharp
 public static readonly Resistance Petaohm;

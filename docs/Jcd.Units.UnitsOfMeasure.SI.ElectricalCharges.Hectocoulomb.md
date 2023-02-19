@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Hectocoulomb Field
 
-Units of a hectocoulomb. It's defined in terms of a(n) SI dekacoulomb.
+A(n) hectocoulomb. It's defined in terms of a(n) dekacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Hectocoulomb;

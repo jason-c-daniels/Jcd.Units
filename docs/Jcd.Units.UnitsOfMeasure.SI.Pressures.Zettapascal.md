@@ -3,7 +3,7 @@
 
 ## Pressures.Zettapascal Field
 
-Units of a zettapascal. It's defined in terms of a(n) SI exapascal.
+A(n) zettapascal. It's defined in terms of a(n) exapascal.
 
 ```csharp
 public static readonly Pressure Zettapascal;

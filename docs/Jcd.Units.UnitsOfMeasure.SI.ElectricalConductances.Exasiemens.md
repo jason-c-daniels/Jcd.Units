@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Exasiemens Field
 
-Units of a exasiemens. It's defined in terms of a(n) SI petasiemens.
+A(n) exasiemens. It's defined in terms of a(n) petasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Exasiemens;

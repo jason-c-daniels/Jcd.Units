@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Centivolt Field
 
-Units of a centivolt. It's defined in terms of a(n) SI decivolt.
+A(n) centivolt. It's defined in terms of a(n) decivolt.
 
 ```csharp
 public static readonly ElectricalPotential Centivolt;

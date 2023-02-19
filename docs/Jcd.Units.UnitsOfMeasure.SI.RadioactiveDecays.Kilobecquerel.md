@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Kilobecquerel Field
 
-Units of a kilobecquerel. It's defined in terms of a(n) SI hectobecquerel.
+A(n) kilobecquerel. It's defined in terms of a(n) hectobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Kilobecquerel;

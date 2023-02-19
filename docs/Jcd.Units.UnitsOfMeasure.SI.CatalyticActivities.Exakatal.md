@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Exakatal Field
 
-Units of a exakatal. It's defined in terms of a(n) SI petakatal.
+A(n) exakatal. It's defined in terms of a(n) petakatal.
 
 ```csharp
 public static readonly CatalyticActivity Exakatal;

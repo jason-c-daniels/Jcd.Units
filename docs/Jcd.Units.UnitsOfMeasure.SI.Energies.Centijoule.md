@@ -3,7 +3,7 @@
 
 ## Energies.Centijoule Field
 
-Units of a centijoule. It's defined in terms of a(n) SI decijoule.
+A(n) centijoule. It's defined in terms of a(n) decijoule.
 
 ```csharp
 public static readonly Energy Centijoule;

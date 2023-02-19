@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Microlumen Field
 
-Units of a microlumen. It's defined in terms of a(n) SI millilumen.
+A(n) microlumen. It's defined in terms of a(n) millilumen.
 
 ```csharp
 public static readonly LuminousFlux Microlumen;

@@ -3,7 +3,7 @@
 
 ## Illuminances.Hectolux Field
 
-Units of a hectolux. It's defined in terms of a(n) SI dekalux.
+A(n) hectolux. It's defined in terms of a(n) dekalux.
 
 ```csharp
 public static readonly Illuminance Hectolux;

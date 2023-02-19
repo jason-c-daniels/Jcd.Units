@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Teracandela Field
 
-Units of a teracandela. It's defined in terms of a(n) SI gigacandela.
+A(n) teracandela. It's defined in terms of a(n) gigacandela.
 
 ```csharp
 public static readonly LuminousIntensity Teracandela;

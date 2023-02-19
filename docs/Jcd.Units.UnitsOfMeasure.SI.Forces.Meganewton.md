@@ -3,7 +3,7 @@
 
 ## Forces.Meganewton Field
 
-Units of a meganewton. It's defined in terms of a(n) SI kilonewton.
+A(n) meganewton. It's defined in terms of a(n) kilonewton.
 
 ```csharp
 public static readonly Force Meganewton;

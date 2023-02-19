@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Zeptobecquerel Field
 
-Units of a zeptobecquerel. It's defined in terms of a(n) SI attobecquerel.
+A(n) zeptobecquerel. It's defined in terms of a(n) attobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Zeptobecquerel;

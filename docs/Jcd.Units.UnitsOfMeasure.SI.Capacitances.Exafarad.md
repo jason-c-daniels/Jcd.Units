@@ -3,7 +3,7 @@
 
 ## Capacitances.Exafarad Field
 
-Units of a exafarad. It's defined in terms of a(n) SI petafarad.
+A(n) exafarad. It's defined in terms of a(n) petafarad.
 
 ```csharp
 public static readonly Capacitance Exafarad;

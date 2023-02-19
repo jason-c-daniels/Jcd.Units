@@ -3,7 +3,7 @@
 
 ## Forces.Zeptonewton Field
 
-Units of a zeptonewton. It's defined in terms of a(n) SI attonewton.
+A(n) zeptonewton. It's defined in terms of a(n) attonewton.
 
 ```csharp
 public static readonly Force Zeptonewton;

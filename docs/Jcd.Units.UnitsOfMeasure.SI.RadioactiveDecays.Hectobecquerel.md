@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Hectobecquerel Field
 
-Units of a hectobecquerel. It's defined in terms of a(n) SI dekabecquerel.
+A(n) hectobecquerel. It's defined in terms of a(n) dekabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Hectobecquerel;

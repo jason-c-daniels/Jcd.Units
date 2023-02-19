@@ -3,7 +3,7 @@
 
 ## Amounts.Zeptomole Field
 
-Units of a zeptomole. It's defined in terms of a(n)  attomole.
+A(n) zeptomole. It's defined in terms of a(n) attomole.
 
 ```csharp
 public static readonly Amount Zeptomole;

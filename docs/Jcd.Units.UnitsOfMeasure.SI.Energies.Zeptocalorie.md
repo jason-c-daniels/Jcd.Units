@@ -3,7 +3,7 @@
 
 ## Energies.Zeptocalorie Field
 
-Units of a zeptocalorie. It's defined in terms of a(n) SI attocalorie.
+A(n) zeptocalorie. It's defined in terms of a(n) attocalorie.
 
 ```csharp
 public static readonly Energy Zeptocalorie;

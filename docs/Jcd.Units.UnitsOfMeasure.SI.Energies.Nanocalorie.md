@@ -3,7 +3,7 @@
 
 ## Energies.Nanocalorie Field
 
-Units of a nanocalorie. It's defined in terms of a(n) SI microcalorie.
+A(n) nanocalorie. It's defined in terms of a(n) microcalorie.
 
 ```csharp
 public static readonly Energy Nanocalorie;

@@ -3,7 +3,7 @@
 
 ## Frequencies.Kilohertz Field
 
-Units of a kilohertz. It's defined in terms of a(n) SI hectohertz.
+A(n) kilohertz. It's defined in terms of a(n) hectohertz.
 
 ```csharp
 public static readonly Frequency Kilohertz;

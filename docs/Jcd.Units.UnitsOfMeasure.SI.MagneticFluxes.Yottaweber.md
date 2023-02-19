@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Yottaweber Field
 
-Units of a yottaweber. It's defined in terms of a(n) SI zettaweber.
+A(n) yottaweber. It's defined in terms of a(n) zettaweber.
 
 ```csharp
 public static readonly MagneticFlux Yottaweber;

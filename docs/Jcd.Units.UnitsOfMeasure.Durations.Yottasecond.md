@@ -3,7 +3,7 @@
 
 ## Durations.Yottasecond Field
 
-Units of a yottasecond. It's defined in terms of a(n)  zettasecond.
+A(n) yottasecond. It's defined in terms of a(n) zettasecond.
 
 ```csharp
 public static readonly Duration Yottasecond;

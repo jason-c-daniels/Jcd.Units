@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Exavolt Field
 
-Units of a exavolt. It's defined in terms of a(n) SI petavolt.
+A(n) exavolt. It's defined in terms of a(n) petavolt.
 
 ```csharp
 public static readonly ElectricalPotential Exavolt;

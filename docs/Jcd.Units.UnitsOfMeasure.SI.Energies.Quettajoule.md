@@ -3,7 +3,7 @@
 
 ## Energies.Quettajoule Field
 
-Units of a quettajoule. It's defined in terms of a(n) SI ronnajoule.
+A(n) quettajoule. It's defined in terms of a(n) ronnajoule.
 
 ```csharp
 public static readonly Energy Quettajoule;

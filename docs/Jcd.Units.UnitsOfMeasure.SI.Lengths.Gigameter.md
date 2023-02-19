@@ -3,7 +3,7 @@
 
 ## Lengths.Gigameter Field
 
-Units of a gigameter. It's defined in terms of a(n) SI megameter.
+A(n) gigameter. It's defined in terms of a(n) megameter.
 
 ```csharp
 public static readonly Length Gigameter;

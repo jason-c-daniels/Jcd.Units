@@ -3,7 +3,7 @@
 
 ## Pressures.Petapascal Field
 
-Units of a petapascal. It's defined in terms of a(n) SI terapascal.
+A(n) petapascal. It's defined in terms of a(n) terapascal.
 
 ```csharp
 public static readonly Pressure Petapascal;

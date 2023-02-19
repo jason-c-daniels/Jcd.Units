@@ -3,7 +3,7 @@
 
 ## Resistances.Kiloohm Field
 
-Units of a kiloohm. It's defined in terms of a(n) SI hectoohm.
+A(n) kiloohm. It's defined in terms of a(n) hectoohm.
 
 ```csharp
 public static readonly Resistance Kiloohm;

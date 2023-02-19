@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Yottalumen Field
 
-Units of a yottalumen. It's defined in terms of a(n) SI zettalumen.
+A(n) yottalumen. It's defined in terms of a(n) zettalumen.
 
 ```csharp
 public static readonly LuminousFlux Yottalumen;

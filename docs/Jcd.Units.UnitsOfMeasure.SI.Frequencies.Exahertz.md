@@ -3,7 +3,7 @@
 
 ## Frequencies.Exahertz Field
 
-Units of a exahertz. It's defined in terms of a(n) SI petahertz.
+A(n) exahertz. It's defined in terms of a(n) petahertz.
 
 ```csharp
 public static readonly Frequency Exahertz;

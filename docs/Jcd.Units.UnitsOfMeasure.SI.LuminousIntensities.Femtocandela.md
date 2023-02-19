@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Femtocandela Field
 
-Units of a femtocandela. It's defined in terms of a(n) SI picocandela.
+A(n) femtocandela. It's defined in terms of a(n) picocandela.
 
 ```csharp
 public static readonly LuminousIntensity Femtocandela;

@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Quectolumen Field
 
-Units of a quectolumen. It's defined in terms of a(n) SI rontolumen.
+A(n) quectolumen. It's defined in terms of a(n) rontolumen.
 
 ```csharp
 public static readonly LuminousFlux Quectolumen;

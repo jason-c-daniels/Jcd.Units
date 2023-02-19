@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Kilocoulomb Field
 
-Units of a kilocoulomb. It's defined in terms of a(n) SI hectocoulomb.
+A(n) kilocoulomb. It's defined in terms of a(n) hectocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Kilocoulomb;

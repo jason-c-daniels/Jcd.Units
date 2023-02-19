@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Nanosiemens Field
 
-Units of a nanosiemens. It's defined in terms of a(n) SI microsiemens.
+A(n) nanosiemens. It's defined in terms of a(n) microsiemens.
 
 ```csharp
 public static readonly ElectricalConductance Nanosiemens;

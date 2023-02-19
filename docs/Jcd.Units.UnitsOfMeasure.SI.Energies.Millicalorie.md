@@ -3,7 +3,7 @@
 
 ## Energies.Millicalorie Field
 
-Units of a millicalorie. It's defined in terms of a(n) SI centicalorie.
+A(n) millicalorie. It's defined in terms of a(n) centicalorie.
 
 ```csharp
 public static readonly Energy Millicalorie;

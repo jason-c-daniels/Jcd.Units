@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Zeptovolt Field
 
-Units of a zeptovolt. It's defined in terms of a(n) SI attovolt.
+A(n) zeptovolt. It's defined in terms of a(n) attovolt.
 
 ```csharp
 public static readonly ElectricalPotential Zeptovolt;

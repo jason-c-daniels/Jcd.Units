@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Attolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Attolux') | Units of a attolux. It's defined in terms of a(n) SI femtolux. |
-| [Centilux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Centilux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Centilux') | Units of a centilux. It's defined in terms of a(n) SI decilux. |
-| [Decilux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Decilux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Decilux') | Units of a decilux. It's defined in terms of a(n) SI lux. |
-| [Dekalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Dekalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Dekalux') | Units of a dekalux. It's defined in terms of a(n) SI lux. |
-| [Exalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Exalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Exalux') | Units of a exalux. It's defined in terms of a(n) SI petalux. |
-| [Femtolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Femtolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Femtolux') | Units of a femtolux. It's defined in terms of a(n) SI picolux. |
-| [Gigalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Gigalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Gigalux') | Units of a gigalux. It's defined in terms of a(n) SI megalux. |
-| [Hectolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Hectolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Hectolux') | Units of a hectolux. It's defined in terms of a(n) SI dekalux. |
-| [Kilolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Kilolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Kilolux') | Units of a kilolux. It's defined in terms of a(n) SI hectolux. |
-| [Lux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Lux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Lux') | Units of a lux. |
-| [Megalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Megalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Megalux') | Units of a megalux. It's defined in terms of a(n) SI kilolux. |
-| [Microlux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Microlux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Microlux') | Units of a microlux. It's defined in terms of a(n) SI millilux. |
-| [Millilux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Millilux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Millilux') | Units of a millilux. It's defined in terms of a(n) SI centilux. |
-| [Nanolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Nanolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Nanolux') | Units of a nanolux. It's defined in terms of a(n) SI microlux. |
-| [Petalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Petalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Petalux') | Units of a petalux. It's defined in terms of a(n) SI teralux. |
-| [Picolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Picolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Picolux') | Units of a picolux. It's defined in terms of a(n) SI nanolux. |
-| [Quectolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Quectolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Quectolux') | Units of a quectolux. It's defined in terms of a(n) SI rontolux. |
-| [Quettalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Quettalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Quettalux') | Units of a quettalux. It's defined in terms of a(n) SI ronnalux. |
-| [Ronnalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Ronnalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Ronnalux') | Units of a ronnalux. It's defined in terms of a(n) SI yottalux. |
-| [Rontolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Rontolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Rontolux') | Units of a rontolux. It's defined in terms of a(n) SI yoctolux. |
-| [Teralux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Teralux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Teralux') | Units of a teralux. It's defined in terms of a(n) SI gigalux. |
-| [Yoctolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Yoctolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Yoctolux') | Units of a yoctolux. It's defined in terms of a(n) SI zeptolux. |
-| [Yottalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Yottalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Yottalux') | Units of a yottalux. It's defined in terms of a(n) SI zettalux. |
-| [Zeptolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Zeptolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Zeptolux') | Units of a zeptolux. It's defined in terms of a(n) SI attolux. |
-| [Zettalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Zettalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Zettalux') | Units of a zettalux. It's defined in terms of a(n) SI exalux. |
+| [Attolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Attolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Attolux') | A(n) attolux. It's defined in terms of a(n) femtolux. |
+| [Centilux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Centilux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Centilux') | A(n) centilux. It's defined in terms of a(n) decilux. |
+| [Decilux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Decilux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Decilux') | A(n) decilux. It's defined in terms of a(n) lux. |
+| [Dekalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Dekalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Dekalux') | A(n) dekalux. It's defined in terms of a(n) lux. |
+| [Exalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Exalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Exalux') | A(n) exalux. It's defined in terms of a(n) petalux. |
+| [Femtolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Femtolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Femtolux') | A(n) femtolux. It's defined in terms of a(n) picolux. |
+| [Gigalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Gigalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Gigalux') | A(n) gigalux. It's defined in terms of a(n) megalux. |
+| [Hectolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Hectolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Hectolux') | A(n) hectolux. It's defined in terms of a(n) dekalux. |
+| [Kilolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Kilolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Kilolux') | A(n) kilolux. It's defined in terms of a(n) hectolux. |
+| [Lux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Lux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Lux') | A(n) lux. |
+| [Megalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Megalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Megalux') | A(n) megalux. It's defined in terms of a(n) kilolux. |
+| [Microlux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Microlux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Microlux') | A(n) microlux. It's defined in terms of a(n) millilux. |
+| [Millilux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Millilux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Millilux') | A(n) millilux. It's defined in terms of a(n) centilux. |
+| [Nanolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Nanolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Nanolux') | A(n) nanolux. It's defined in terms of a(n) microlux. |
+| [Petalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Petalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Petalux') | A(n) petalux. It's defined in terms of a(n) teralux. |
+| [Picolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Picolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Picolux') | A(n) picolux. It's defined in terms of a(n) nanolux. |
+| [Quectolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Quectolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Quectolux') | A(n) quectolux. It's defined in terms of a(n) rontolux. |
+| [Quettalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Quettalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Quettalux') | A(n) quettalux. It's defined in terms of a(n) ronnalux. |
+| [Ronnalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Ronnalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Ronnalux') | A(n) ronnalux. It's defined in terms of a(n) yottalux. |
+| [Rontolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Rontolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Rontolux') | A(n) rontolux. It's defined in terms of a(n) yoctolux. |
+| [Teralux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Teralux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Teralux') | A(n) teralux. It's defined in terms of a(n) gigalux. |
+| [Yoctolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Yoctolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Yoctolux') | A(n) yoctolux. It's defined in terms of a(n) zeptolux. |
+| [Yottalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Yottalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Yottalux') | A(n) yottalux. It's defined in terms of a(n) zettalux. |
+| [Zeptolux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Zeptolux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Zeptolux') | A(n) zeptolux. It's defined in terms of a(n) attolux. |
+| [Zettalux](Jcd.Units.UnitsOfMeasure.SI.Illuminances.Zettalux.md 'Jcd.Units.UnitsOfMeasure.SI.Illuminances.Zettalux') | A(n) zettalux. It's defined in terms of a(n) exalux. |

@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Microcoulomb Field
 
-Units of a microcoulomb. It's defined in terms of a(n) SI millicoulomb.
+A(n) microcoulomb. It's defined in terms of a(n) millicoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Microcoulomb;

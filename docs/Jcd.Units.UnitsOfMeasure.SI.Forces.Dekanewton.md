@@ -3,7 +3,7 @@
 
 ## Forces.Dekanewton Field
 
-Units of a dekanewton. It's defined in terms of a(n) SI newton.
+A(n) dekanewton. It's defined in terms of a(n) newton.
 
 ```csharp
 public static readonly Force Dekanewton;

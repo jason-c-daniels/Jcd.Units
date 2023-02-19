@@ -3,7 +3,7 @@
 
 ## Capacitances.Hectofarad Field
 
-Units of a hectofarad. It's defined in terms of a(n) SI dekafarad.
+A(n) hectofarad. It's defined in terms of a(n) dekafarad.
 
 ```csharp
 public static readonly Capacitance Hectofarad;

@@ -3,7 +3,7 @@
 
 ## Powers.Kilowatt Field
 
-Units of a kilowatt. It's defined in terms of a(n) SI hectowatt.
+A(n) kilowatt. It's defined in terms of a(n) hectowatt.
 
 ```csharp
 public static readonly Power Kilowatt;

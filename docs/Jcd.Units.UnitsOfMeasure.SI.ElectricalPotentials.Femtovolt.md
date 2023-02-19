@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Femtovolt Field
 
-Units of a femtovolt. It's defined in terms of a(n) SI picovolt.
+A(n) femtovolt. It's defined in terms of a(n) picovolt.
 
 ```csharp
 public static readonly ElectricalPotential Femtovolt;

@@ -3,7 +3,7 @@
 
 ## Pressures.Gigapascal Field
 
-Units of a gigapascal. It's defined in terms of a(n) SI megapascal.
+A(n) gigapascal. It's defined in terms of a(n) megapascal.
 
 ```csharp
 public static readonly Pressure Gigapascal;

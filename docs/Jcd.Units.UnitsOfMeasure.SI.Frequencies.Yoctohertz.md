@@ -3,7 +3,7 @@
 
 ## Frequencies.Yoctohertz Field
 
-Units of a yoctohertz. It's defined in terms of a(n) SI zeptohertz.
+A(n) yoctohertz. It's defined in terms of a(n) zeptohertz.
 
 ```csharp
 public static readonly Frequency Yoctohertz;

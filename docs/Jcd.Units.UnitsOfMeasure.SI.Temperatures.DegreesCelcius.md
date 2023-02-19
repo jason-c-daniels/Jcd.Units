@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesCelcius Field
 
-Units of a degrees celcius.
+A(n) degrees celcius.
 
 ```csharp
 public static readonly Temperature DegreesCelcius;

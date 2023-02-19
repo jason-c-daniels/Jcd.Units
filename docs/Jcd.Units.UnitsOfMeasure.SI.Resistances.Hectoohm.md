@@ -3,7 +3,7 @@
 
 ## Resistances.Hectoohm Field
 
-Units of a hectoohm. It's defined in terms of a(n) SI dekaohm.
+A(n) hectoohm. It's defined in terms of a(n) dekaohm.
 
 ```csharp
 public static readonly Resistance Hectoohm;

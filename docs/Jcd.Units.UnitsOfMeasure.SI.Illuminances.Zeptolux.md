@@ -3,7 +3,7 @@
 
 ## Illuminances.Zeptolux Field
 
-Units of a zeptolux. It's defined in terms of a(n) SI attolux.
+A(n) zeptolux. It's defined in terms of a(n) attolux.
 
 ```csharp
 public static readonly Illuminance Zeptolux;

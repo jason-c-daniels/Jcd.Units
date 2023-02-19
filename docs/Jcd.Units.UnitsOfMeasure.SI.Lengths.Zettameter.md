@@ -3,7 +3,7 @@
 
 ## Lengths.Zettameter Field
 
-Units of a zettameter. It's defined in terms of a(n) SI exameter.
+A(n) zettameter. It's defined in terms of a(n) exameter.
 
 ```csharp
 public static readonly Length Zettameter;

@@ -3,7 +3,7 @@
 
 ## Pressures.Quettapascal Field
 
-Units of a quettapascal. It's defined in terms of a(n) SI ronnapascal.
+A(n) quettapascal. It's defined in terms of a(n) ronnapascal.
 
 ```csharp
 public static readonly Pressure Quettapascal;

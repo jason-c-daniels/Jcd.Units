@@ -3,7 +3,7 @@
 
 ## Inductances.Gigahenry Field
 
-Units of a gigahenry. It's defined in terms of a(n) SI megahenry.
+A(n) gigahenry. It's defined in terms of a(n) megahenry.
 
 ```csharp
 public static readonly Inductance Gigahenry;

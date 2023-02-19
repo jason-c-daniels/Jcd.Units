@@ -3,7 +3,7 @@
 
 ## Lengths.Point Field
 
-Units of a point. It's defined in terms of a(n) US Customary inch.
+A(n) point. It's defined in terms of a(n) inch.
 
 ```csharp
 public static readonly Length Point;

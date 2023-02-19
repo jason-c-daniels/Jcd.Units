@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Gigakatal Field
 
-Units of a gigakatal. It's defined in terms of a(n) SI megakatal.
+A(n) gigakatal. It's defined in terms of a(n) megakatal.
 
 ```csharp
 public static readonly CatalyticActivity Gigakatal;

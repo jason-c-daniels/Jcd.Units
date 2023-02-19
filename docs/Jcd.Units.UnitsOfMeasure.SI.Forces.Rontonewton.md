@@ -3,7 +3,7 @@
 
 ## Forces.Rontonewton Field
 
-Units of a rontonewton. It's defined in terms of a(n) SI yoctonewton.
+A(n) rontonewton. It's defined in terms of a(n) yoctonewton.
 
 ```csharp
 public static readonly Force Rontonewton;

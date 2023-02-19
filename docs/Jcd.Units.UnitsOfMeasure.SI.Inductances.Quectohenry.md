@@ -3,7 +3,7 @@
 
 ## Inductances.Quectohenry Field
 
-Units of a quectohenry. It's defined in terms of a(n) SI rontohenry.
+A(n) quectohenry. It's defined in terms of a(n) rontohenry.
 
 ```csharp
 public static readonly Inductance Quectohenry;

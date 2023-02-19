@@ -3,7 +3,7 @@
 
 ## Energies.Gigajoule Field
 
-Units of a gigajoule. It's defined in terms of a(n) SI megajoule.
+A(n) gigajoule. It's defined in terms of a(n) megajoule.
 
 ```csharp
 public static readonly Energy Gigajoule;

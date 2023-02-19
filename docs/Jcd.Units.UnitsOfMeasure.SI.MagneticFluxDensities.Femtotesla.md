@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Femtotesla Field
 
-Units of a femtotesla. It's defined in terms of a(n) SI picotesla.
+A(n) femtotesla. It's defined in terms of a(n) picotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Femtotesla;

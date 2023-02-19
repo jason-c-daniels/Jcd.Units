@@ -3,7 +3,7 @@
 
 ## Momentums.FemtonewtonSecond Field
 
-Units of a femtonewton-second. It's defined in terms of a(n) SI piconewton-second.
+A(n) femtonewton-second. It's defined in terms of a(n) piconewton-second.
 
 ```csharp
 public static readonly Momentum FemtonewtonSecond;

@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Picolumen Field
 
-Units of a picolumen. It's defined in terms of a(n) SI nanolumen.
+A(n) picolumen. It's defined in terms of a(n) nanolumen.
 
 ```csharp
 public static readonly LuminousFlux Picolumen;

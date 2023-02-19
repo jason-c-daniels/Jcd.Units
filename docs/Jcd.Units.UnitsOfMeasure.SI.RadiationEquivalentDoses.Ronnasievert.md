@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Ronnasievert Field
 
-Units of a ronnasievert. It's defined in terms of a(n) SI yottasievert.
+A(n) ronnasievert. It's defined in terms of a(n) yottasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Ronnasievert;

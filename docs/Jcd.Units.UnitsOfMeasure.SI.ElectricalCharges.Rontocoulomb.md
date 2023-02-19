@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Rontocoulomb Field
 
-Units of a rontocoulomb. It's defined in terms of a(n) SI yoctocoulomb.
+A(n) rontocoulomb. It's defined in terms of a(n) yoctocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Rontocoulomb;

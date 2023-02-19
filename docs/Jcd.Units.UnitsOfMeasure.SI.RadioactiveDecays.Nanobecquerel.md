@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Nanobecquerel Field
 
-Units of a nanobecquerel. It's defined in terms of a(n) SI microbecquerel.
+A(n) nanobecquerel. It's defined in terms of a(n) microbecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Nanobecquerel;

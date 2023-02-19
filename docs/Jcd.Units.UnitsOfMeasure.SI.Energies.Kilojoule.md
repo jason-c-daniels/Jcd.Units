@@ -3,7 +3,7 @@
 
 ## Energies.Kilojoule Field
 
-Units of a kilojoule. It's defined in terms of a(n) SI hectojoule.
+A(n) kilojoule. It's defined in terms of a(n) hectojoule.
 
 ```csharp
 public static readonly Energy Kilojoule;

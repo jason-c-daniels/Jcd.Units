@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Yottasiemens Field
 
-Units of a yottasiemens. It's defined in terms of a(n) SI zettasiemens.
+A(n) yottasiemens. It's defined in terms of a(n) zettasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Yottasiemens;

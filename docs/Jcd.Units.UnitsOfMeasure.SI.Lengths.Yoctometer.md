@@ -3,7 +3,7 @@
 
 ## Lengths.Yoctometer Field
 
-Units of a yoctometer. It's defined in terms of a(n) SI zeptometer.
+A(n) yoctometer. It's defined in terms of a(n) zeptometer.
 
 ```csharp
 public static readonly Length Yoctometer;

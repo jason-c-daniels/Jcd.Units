@@ -3,7 +3,7 @@
 
 ## Inductances.Rontohenry Field
 
-Units of a rontohenry. It's defined in terms of a(n) SI yoctohenry.
+A(n) rontohenry. It's defined in terms of a(n) yoctohenry.
 
 ```csharp
 public static readonly Inductance Rontohenry;

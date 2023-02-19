@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Rontosiemens Field
 
-Units of a rontosiemens. It's defined in terms of a(n) SI yoctosiemens.
+A(n) rontosiemens. It's defined in terms of a(n) yoctosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Rontosiemens;

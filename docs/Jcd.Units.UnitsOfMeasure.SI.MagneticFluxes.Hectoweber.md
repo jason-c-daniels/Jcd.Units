@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Hectoweber Field
 
-Units of a hectoweber. It's defined in terms of a(n) SI dekaweber.
+A(n) hectoweber. It's defined in terms of a(n) dekaweber.
 
 ```csharp
 public static readonly MagneticFlux Hectoweber;

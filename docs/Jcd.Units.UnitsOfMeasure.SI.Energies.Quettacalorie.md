@@ -3,7 +3,7 @@
 
 ## Energies.Quettacalorie Field
 
-Units of a quettacalorie. It's defined in terms of a(n) SI ronnacalorie.
+A(n) quettacalorie. It's defined in terms of a(n) ronnacalorie.
 
 ```csharp
 public static readonly Energy Quettacalorie;

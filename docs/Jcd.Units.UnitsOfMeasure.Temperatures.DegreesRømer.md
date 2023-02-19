@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesRømer Field
 
-Units of a degrees rømer. It's defined in terms of a(n) SI degrees celcius.
+A(n) degrees rømer. It's defined in terms of a(n) SI degrees celcius.
 
 ```csharp
 public static readonly Temperature DegreesRømer;

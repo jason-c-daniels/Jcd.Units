@@ -3,7 +3,7 @@
 
 ## Masses.Teragram Field
 
-Units of a teragram. It's defined in terms of a(n) SI gigagram.
+A(n) teragram. It's defined in terms of a(n) gigagram.
 
 ```csharp
 public static readonly Mass Teragram;

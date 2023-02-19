@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Siemens Field
 
-Units of a siemens.
+A(n) siemens.
 
 ```csharp
 public static readonly ElectricalConductance Siemens;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Nanovolt Field
 
-Units of a nanovolt. It's defined in terms of a(n) SI microvolt.
+A(n) nanovolt. It's defined in terms of a(n) microvolt.
 
 ```csharp
 public static readonly ElectricalPotential Nanovolt;

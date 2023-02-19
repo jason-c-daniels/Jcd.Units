@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Ronnalumen Field
 
-Units of a ronnalumen. It's defined in terms of a(n) SI yottalumen.
+A(n) ronnalumen. It's defined in terms of a(n) yottalumen.
 
 ```csharp
 public static readonly LuminousFlux Ronnalumen;

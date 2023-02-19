@@ -3,7 +3,7 @@
 
 ## Pressures.Femtopascal Field
 
-Units of a femtopascal. It's defined in terms of a(n) SI picopascal.
+A(n) femtopascal. It's defined in terms of a(n) picopascal.
 
 ```csharp
 public static readonly Pressure Femtopascal;

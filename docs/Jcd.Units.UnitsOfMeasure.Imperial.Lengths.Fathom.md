@@ -3,7 +3,7 @@
 
 ## Lengths.Fathom Field
 
-Units of a fathom. It's defined in terms of a(n) Imperial foot.
+A(n) fathom. It's defined in terms of a(n) foot.
 
 ```csharp
 public static readonly Length Fathom;

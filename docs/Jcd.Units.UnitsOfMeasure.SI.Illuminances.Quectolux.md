@@ -3,7 +3,7 @@
 
 ## Illuminances.Quectolux Field
 
-Units of a quectolux. It's defined in terms of a(n) SI rontolux.
+A(n) quectolux. It's defined in terms of a(n) rontolux.
 
 ```csharp
 public static readonly Illuminance Quectolux;

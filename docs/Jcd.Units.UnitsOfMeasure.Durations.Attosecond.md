@@ -3,7 +3,7 @@
 
 ## Durations.Attosecond Field
 
-Units of a attosecond. It's defined in terms of a(n)  femtosecond.
+A(n) attosecond. It's defined in terms of a(n) femtosecond.
 
 ```csharp
 public static readonly Duration Attosecond;

@@ -3,7 +3,7 @@
 
 ## Lengths.Ronnameter Field
 
-Units of a ronnameter. It's defined in terms of a(n) SI yottameter.
+A(n) ronnameter. It's defined in terms of a(n) yottameter.
 
 ```csharp
 public static readonly Length Ronnameter;

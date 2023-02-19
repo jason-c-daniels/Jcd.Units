@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Zettacandela Field
 
-Units of a zettacandela. It's defined in terms of a(n) SI exacandela.
+A(n) zettacandela. It's defined in terms of a(n) exacandela.
 
 ```csharp
 public static readonly LuminousIntensity Zettacandela;

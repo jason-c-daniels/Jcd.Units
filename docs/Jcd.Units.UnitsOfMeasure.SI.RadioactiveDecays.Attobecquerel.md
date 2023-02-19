@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Attobecquerel Field
 
-Units of a attobecquerel. It's defined in terms of a(n) SI femtobecquerel.
+A(n) attobecquerel. It's defined in terms of a(n) femtobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Attobecquerel;

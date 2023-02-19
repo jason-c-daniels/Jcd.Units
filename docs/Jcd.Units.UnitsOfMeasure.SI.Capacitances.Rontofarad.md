@@ -3,7 +3,7 @@
 
 ## Capacitances.Rontofarad Field
 
-Units of a rontofarad. It's defined in terms of a(n) SI yoctofarad.
+A(n) rontofarad. It's defined in terms of a(n) yoctofarad.
 
 ```csharp
 public static readonly Capacitance Rontofarad;

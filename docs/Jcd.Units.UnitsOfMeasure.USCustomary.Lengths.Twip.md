@@ -3,7 +3,7 @@
 
 ## Lengths.Twip Field
 
-Units of a twip. It's defined in terms of a(n) US Customary point.
+A(n) twip. It's defined in terms of a(n) point.
 
 ```csharp
 public static readonly Length Twip;

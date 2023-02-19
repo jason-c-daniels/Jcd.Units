@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Attoampere Field
 
-Units of a attoampere. It's defined in terms of a(n) SI femtoampere.
+A(n) attoampere. It's defined in terms of a(n) femtoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Attoampere;

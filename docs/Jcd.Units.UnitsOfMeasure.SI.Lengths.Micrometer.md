@@ -3,7 +3,7 @@
 
 ## Lengths.Micrometer Field
 
-Units of a micrometer. It's defined in terms of a(n) SI millimeter.
+A(n) micrometer. It's defined in terms of a(n) millimeter.
 
 ```csharp
 public static readonly Length Micrometer;

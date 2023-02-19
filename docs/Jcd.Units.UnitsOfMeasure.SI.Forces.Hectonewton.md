@@ -3,7 +3,7 @@
 
 ## Forces.Hectonewton Field
 
-Units of a hectonewton. It's defined in terms of a(n) SI dekanewton.
+A(n) hectonewton. It's defined in terms of a(n) dekanewton.
 
 ```csharp
 public static readonly Force Hectonewton;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Quectokatal Field
 
-Units of a quectokatal. It's defined in terms of a(n) SI rontokatal.
+A(n) quectokatal. It's defined in terms of a(n) rontokatal.
 
 ```csharp
 public static readonly CatalyticActivity Quectokatal;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Picovolt Field
 
-Units of a picovolt. It's defined in terms of a(n) SI nanovolt.
+A(n) picovolt. It's defined in terms of a(n) nanovolt.
 
 ```csharp
 public static readonly ElectricalPotential Picovolt;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Picosiemens Field
 
-Units of a picosiemens. It's defined in terms of a(n) SI nanosiemens.
+A(n) picosiemens. It's defined in terms of a(n) nanosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Picosiemens;

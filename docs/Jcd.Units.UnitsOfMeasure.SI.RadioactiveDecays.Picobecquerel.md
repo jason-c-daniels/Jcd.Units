@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Picobecquerel Field
 
-Units of a picobecquerel. It's defined in terms of a(n) SI nanobecquerel.
+A(n) picobecquerel. It's defined in terms of a(n) nanobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Picobecquerel;

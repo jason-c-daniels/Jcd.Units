@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Microkatal Field
 
-Units of a microkatal. It's defined in terms of a(n) SI millikatal.
+A(n) microkatal. It's defined in terms of a(n) millikatal.
 
 ```csharp
 public static readonly CatalyticActivity Microkatal;

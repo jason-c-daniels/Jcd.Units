@@ -3,7 +3,7 @@
 
 ## Forces.Exanewton Field
 
-Units of a exanewton. It's defined in terms of a(n) SI petanewton.
+A(n) exanewton. It's defined in terms of a(n) petanewton.
 
 ```csharp
 public static readonly Force Exanewton;

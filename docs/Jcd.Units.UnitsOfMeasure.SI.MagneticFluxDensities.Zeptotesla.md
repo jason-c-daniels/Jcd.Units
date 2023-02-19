@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Zeptotesla Field
 
-Units of a zeptotesla. It's defined in terms of a(n) SI attotesla.
+A(n) zeptotesla. It's defined in terms of a(n) attotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Zeptotesla;

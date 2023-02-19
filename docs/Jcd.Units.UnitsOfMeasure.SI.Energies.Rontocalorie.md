@@ -3,7 +3,7 @@
 
 ## Energies.Rontocalorie Field
 
-Units of a rontocalorie. It's defined in terms of a(n) SI yoctocalorie.
+A(n) rontocalorie. It's defined in terms of a(n) yoctocalorie.
 
 ```csharp
 public static readonly Energy Rontocalorie;

@@ -3,7 +3,7 @@
 
 ## Masses.Zettagram Field
 
-Units of a zettagram. It's defined in terms of a(n) SI exagram.
+A(n) zettagram. It's defined in terms of a(n) exagram.
 
 ```csharp
 public static readonly Mass Zettagram;

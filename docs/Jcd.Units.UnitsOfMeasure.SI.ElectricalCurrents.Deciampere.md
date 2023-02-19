@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Deciampere Field
 
-Units of a deciampere. It's defined in terms of a(n) SI ampere.
+A(n) deciampere. It's defined in terms of a(n) ampere.
 
 ```csharp
 public static readonly ElectricalCurrent Deciampere;

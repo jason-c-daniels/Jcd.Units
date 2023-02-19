@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Deciweber Field
 
-Units of a deciweber. It's defined in terms of a(n) SI weber.
+A(n) deciweber. It's defined in terms of a(n) weber.
 
 ```csharp
 public static readonly MagneticFlux Deciweber;

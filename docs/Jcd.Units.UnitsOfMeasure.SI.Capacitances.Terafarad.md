@@ -3,7 +3,7 @@
 
 ## Capacitances.Terafarad Field
 
-Units of a terafarad. It's defined in terms of a(n) SI gigafarad.
+A(n) terafarad. It's defined in terms of a(n) gigafarad.
 
 ```csharp
 public static readonly Capacitance Terafarad;

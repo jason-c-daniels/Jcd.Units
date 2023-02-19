@@ -3,7 +3,7 @@
 
 ## Lengths.League Field
 
-Units of a league. It's defined in terms of a(n) US Customary mile.
+A(n) league. It's defined in terms of a(n) mile.
 
 ```csharp
 public static readonly Length League;

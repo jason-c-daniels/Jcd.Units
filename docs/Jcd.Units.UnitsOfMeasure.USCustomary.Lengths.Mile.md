@@ -3,7 +3,7 @@
 
 ## Lengths.Mile Field
 
-Units of a mile. It's defined in terms of a(n) US Customary yard.
+A(n) mile. It's defined in terms of a(n) yard.
 
 ```csharp
 public static readonly Length Mile;

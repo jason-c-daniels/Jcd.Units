@@ -3,7 +3,7 @@
 
 ## Inductances.Zeptohenry Field
 
-Units of a zeptohenry. It's defined in terms of a(n) SI attohenry.
+A(n) zeptohenry. It's defined in terms of a(n) attohenry.
 
 ```csharp
 public static readonly Inductance Zeptohenry;

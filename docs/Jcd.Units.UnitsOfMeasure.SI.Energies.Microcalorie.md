@@ -3,7 +3,7 @@
 
 ## Energies.Microcalorie Field
 
-Units of a microcalorie. It's defined in terms of a(n) SI millicalorie.
+A(n) microcalorie. It's defined in terms of a(n) millicalorie.
 
 ```csharp
 public static readonly Energy Microcalorie;

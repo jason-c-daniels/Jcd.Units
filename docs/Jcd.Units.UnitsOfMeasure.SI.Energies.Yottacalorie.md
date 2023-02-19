@@ -3,7 +3,7 @@
 
 ## Energies.Yottacalorie Field
 
-Units of a yottacalorie. It's defined in terms of a(n) SI zettacalorie.
+A(n) yottacalorie. It's defined in terms of a(n) zettacalorie.
 
 ```csharp
 public static readonly Energy Yottacalorie;

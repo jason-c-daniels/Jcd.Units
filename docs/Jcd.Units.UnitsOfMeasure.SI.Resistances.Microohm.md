@@ -3,7 +3,7 @@
 
 ## Resistances.Microohm Field
 
-Units of a microohm. It's defined in terms of a(n) SI milliohm.
+A(n) microohm. It's defined in terms of a(n) milliohm.
 
 ```csharp
 public static readonly Resistance Microohm;

@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Attocandela Field
 
-Units of a attocandela. It's defined in terms of a(n) SI femtocandela.
+A(n) attocandela. It's defined in terms of a(n) femtocandela.
 
 ```csharp
 public static readonly LuminousIntensity Attocandela;

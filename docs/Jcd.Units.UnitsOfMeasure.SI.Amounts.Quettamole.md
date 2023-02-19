@@ -3,7 +3,7 @@
 
 ## Amounts.Quettamole Field
 
-Units of a quettamole. It's defined in terms of a(n)  ronnamole.
+A(n) quettamole. It's defined in terms of a(n) ronnamole.
 
 ```csharp
 public static readonly Amount Quettamole;

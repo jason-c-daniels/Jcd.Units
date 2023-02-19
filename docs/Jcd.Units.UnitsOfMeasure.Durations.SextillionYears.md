@@ -3,7 +3,7 @@
 
 ## Durations.SextillionYears Field
 
-Units of a sextillion years. It's defined in terms of a(n)  quadrillion years.
+A(n) sextillion years. It's defined in terms of a(n) quadrillion years.
 
 ```csharp
 public static readonly Duration SextillionYears;

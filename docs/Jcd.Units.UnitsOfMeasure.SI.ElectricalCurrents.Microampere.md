@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Microampere Field
 
-Units of a microampere. It's defined in terms of a(n) SI milliampere.
+A(n) microampere. It's defined in terms of a(n) milliampere.
 
 ```csharp
 public static readonly ElectricalCurrent Microampere;

@@ -3,7 +3,7 @@
 
 ## Frequencies.Rontohertz Field
 
-Units of a rontohertz. It's defined in terms of a(n) SI yoctohertz.
+A(n) rontohertz. It's defined in terms of a(n) yoctohertz.
 
 ```csharp
 public static readonly Frequency Rontohertz;

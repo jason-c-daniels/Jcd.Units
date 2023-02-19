@@ -3,7 +3,7 @@
 
 ## Forces.Decinewton Field
 
-Units of a decinewton. It's defined in terms of a(n) SI newton.
+A(n) decinewton. It's defined in terms of a(n) newton.
 
 ```csharp
 public static readonly Force Decinewton;

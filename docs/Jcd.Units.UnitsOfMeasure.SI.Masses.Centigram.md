@@ -3,7 +3,7 @@
 
 ## Masses.Centigram Field
 
-Units of a centigram. It's defined in terms of a(n) SI decigram.
+A(n) centigram. It's defined in terms of a(n) decigram.
 
 ```csharp
 public static readonly Mass Centigram;

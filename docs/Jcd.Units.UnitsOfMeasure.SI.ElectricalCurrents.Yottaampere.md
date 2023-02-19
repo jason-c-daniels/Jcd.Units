@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Yottaampere Field
 
-Units of a yottaampere. It's defined in terms of a(n) SI zettaampere.
+A(n) yottaampere. It's defined in terms of a(n) zettaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Yottaampere;

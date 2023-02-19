@@ -3,7 +3,7 @@
 
 ## Energies.Teracalorie Field
 
-Units of a teracalorie. It's defined in terms of a(n) SI gigacalorie.
+A(n) teracalorie. It's defined in terms of a(n) gigacalorie.
 
 ```csharp
 public static readonly Energy Teracalorie;

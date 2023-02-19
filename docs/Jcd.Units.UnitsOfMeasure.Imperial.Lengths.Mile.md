@@ -3,7 +3,7 @@
 
 ## Lengths.Mile Field
 
-Units of a mile. It's defined in terms of a(n) Imperial furlong.
+A(n) mile. It's defined in terms of a(n) furlong.
 
 ```csharp
 public static readonly Length Mile;

@@ -3,7 +3,7 @@
 
 ## Energies.Terajoule Field
 
-Units of a terajoule. It's defined in terms of a(n) SI gigajoule.
+A(n) terajoule. It's defined in terms of a(n) gigajoule.
 
 ```csharp
 public static readonly Energy Terajoule;

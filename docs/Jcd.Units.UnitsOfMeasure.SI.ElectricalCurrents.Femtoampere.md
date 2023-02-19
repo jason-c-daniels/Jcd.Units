@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Femtoampere Field
 
-Units of a femtoampere. It's defined in terms of a(n) SI picoampere.
+A(n) femtoampere. It's defined in terms of a(n) picoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Femtoampere;

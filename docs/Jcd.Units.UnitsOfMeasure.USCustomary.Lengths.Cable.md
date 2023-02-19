@@ -3,7 +3,7 @@
 
 ## Lengths.Cable Field
 
-Units of a cable. It's defined in terms of a(n) US Customary fathom.
+A(n) cable. It's defined in terms of a(n) fathom.
 
 ```csharp
 public static readonly Length Cable;

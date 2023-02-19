@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Picocoulomb Field
 
-Units of a picocoulomb. It's defined in terms of a(n) SI nanocoulomb.
+A(n) picocoulomb. It's defined in terms of a(n) nanocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Picocoulomb;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Zettavolt Field
 
-Units of a zettavolt. It's defined in terms of a(n) SI exavolt.
+A(n) zettavolt. It's defined in terms of a(n) exavolt.
 
 ```csharp
 public static readonly ElectricalPotential Zettavolt;

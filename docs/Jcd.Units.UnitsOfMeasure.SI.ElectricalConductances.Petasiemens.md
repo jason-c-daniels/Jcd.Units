@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Petasiemens Field
 
-Units of a petasiemens. It's defined in terms of a(n) SI terasiemens.
+A(n) petasiemens. It's defined in terms of a(n) terasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Petasiemens;

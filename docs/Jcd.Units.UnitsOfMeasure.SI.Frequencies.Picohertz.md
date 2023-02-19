@@ -3,7 +3,7 @@
 
 ## Frequencies.Picohertz Field
 
-Units of a picohertz. It's defined in terms of a(n) SI nanohertz.
+A(n) picohertz. It's defined in terms of a(n) nanohertz.
 
 ```csharp
 public static readonly Frequency Picohertz;

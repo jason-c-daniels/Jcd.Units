@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Quettaampere Field
 
-Units of a quettaampere. It's defined in terms of a(n) SI ronnaampere.
+A(n) quettaampere. It's defined in terms of a(n) ronnaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Quettaampere;

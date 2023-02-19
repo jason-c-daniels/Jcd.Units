@@ -3,7 +3,7 @@
 
 ## Forces.Yoctonewton Field
 
-Units of a yoctonewton. It's defined in terms of a(n) SI zeptonewton.
+A(n) yoctonewton. It's defined in terms of a(n) zeptonewton.
 
 ```csharp
 public static readonly Force Yoctonewton;

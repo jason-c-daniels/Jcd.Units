@@ -3,7 +3,7 @@
 
 ## Masses.Kilogram Field
 
-Units of a kilogram. It's defined in terms of a(n) SI hectogram.
+A(n) kilogram. It's defined in terms of a(n) hectogram.
 
 ```csharp
 public static readonly Mass Kilogram;

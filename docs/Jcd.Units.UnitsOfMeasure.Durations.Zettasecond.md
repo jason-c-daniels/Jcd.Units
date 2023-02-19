@@ -3,7 +3,7 @@
 
 ## Durations.Zettasecond Field
 
-Units of a zettasecond. It's defined in terms of a(n)  exasecond.
+A(n) zettasecond. It's defined in terms of a(n) exasecond.
 
 ```csharp
 public static readonly Duration Zettasecond;

@@ -3,7 +3,7 @@
 
 ## Energies.Petajoule Field
 
-Units of a petajoule. It's defined in terms of a(n) SI terajoule.
+A(n) petajoule. It's defined in terms of a(n) terajoule.
 
 ```csharp
 public static readonly Energy Petajoule;

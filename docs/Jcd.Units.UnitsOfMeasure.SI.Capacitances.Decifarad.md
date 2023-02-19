@@ -3,7 +3,7 @@
 
 ## Capacitances.Decifarad Field
 
-Units of a decifarad. It's defined in terms of a(n) SI farad.
+A(n) decifarad. It's defined in terms of a(n) farad.
 
 ```csharp
 public static readonly Capacitance Decifarad;

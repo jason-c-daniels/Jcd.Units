@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Attolumen Field
 
-Units of a attolumen. It's defined in terms of a(n) SI femtolumen.
+A(n) attolumen. It's defined in terms of a(n) femtolumen.
 
 ```csharp
 public static readonly LuminousFlux Attolumen;

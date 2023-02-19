@@ -3,7 +3,7 @@
 
 ## Powers.Femtowatt Field
 
-Units of a femtowatt. It's defined in terms of a(n) SI picowatt.
+A(n) femtowatt. It's defined in terms of a(n) picowatt.
 
 ```csharp
 public static readonly Power Femtowatt;

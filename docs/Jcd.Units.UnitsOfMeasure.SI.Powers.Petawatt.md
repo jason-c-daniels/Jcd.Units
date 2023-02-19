@@ -3,7 +3,7 @@
 
 ## Powers.Petawatt Field
 
-Units of a petawatt. It's defined in terms of a(n) SI terawatt.
+A(n) petawatt. It's defined in terms of a(n) terawatt.
 
 ```csharp
 public static readonly Power Petawatt;

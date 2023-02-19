@@ -3,7 +3,7 @@
 
 ## Masses.Gigagram Field
 
-Units of a gigagram. It's defined in terms of a(n) SI megagram.
+A(n) gigagram. It's defined in terms of a(n) megagram.
 
 ```csharp
 public static readonly Mass Gigagram;

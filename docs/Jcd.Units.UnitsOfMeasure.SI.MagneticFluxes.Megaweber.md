@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Megaweber Field
 
-Units of a megaweber. It's defined in terms of a(n) SI kiloweber.
+A(n) megaweber. It's defined in terms of a(n) kiloweber.
 
 ```csharp
 public static readonly MagneticFlux Megaweber;

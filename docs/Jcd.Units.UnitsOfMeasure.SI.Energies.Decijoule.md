@@ -3,7 +3,7 @@
 
 ## Energies.Decijoule Field
 
-Units of a decijoule. It's defined in terms of a(n) SI joule.
+A(n) decijoule. It's defined in terms of a(n) joule.
 
 ```csharp
 public static readonly Energy Decijoule;

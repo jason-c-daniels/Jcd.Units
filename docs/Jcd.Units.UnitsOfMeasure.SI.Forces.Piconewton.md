@@ -3,7 +3,7 @@
 
 ## Forces.Piconewton Field
 
-Units of a piconewton. It's defined in terms of a(n) SI nanonewton.
+A(n) piconewton. It's defined in terms of a(n) nanonewton.
 
 ```csharp
 public static readonly Force Piconewton;

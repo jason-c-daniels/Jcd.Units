@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Centitesla Field
 
-Units of a centitesla. It's defined in terms of a(n) SI decitesla.
+A(n) centitesla. It's defined in terms of a(n) decitesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Centitesla;

@@ -3,7 +3,7 @@
 
 ## Lengths.Picometer Field
 
-Units of a picometer. It's defined in terms of a(n) SI nanometer.
+A(n) picometer. It's defined in terms of a(n) nanometer.
 
 ```csharp
 public static readonly Length Picometer;

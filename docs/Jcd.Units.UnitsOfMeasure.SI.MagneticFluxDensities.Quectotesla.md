@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Quectotesla Field
 
-Units of a quectotesla. It's defined in terms of a(n) SI rontotesla.
+A(n) quectotesla. It's defined in terms of a(n) rontotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Quectotesla;

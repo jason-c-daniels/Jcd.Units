@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Decigray Field
 
-Units of a decigray. It's defined in terms of a(n) SI gray.
+A(n) decigray. It's defined in terms of a(n) gray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Decigray;

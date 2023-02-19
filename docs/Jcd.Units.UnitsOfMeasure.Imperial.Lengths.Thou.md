@@ -3,7 +3,7 @@
 
 ## Lengths.Thou Field
 
-Units of a thou. It's defined in terms of a(n) Imperial foot.
+A(n) thou. It's defined in terms of a(n) foot.
 
 ```csharp
 public static readonly Length Thou;

@@ -3,7 +3,7 @@
 
 ## Energies.Rontojoule Field
 
-Units of a rontojoule. It's defined in terms of a(n) SI yoctojoule.
+A(n) rontojoule. It's defined in terms of a(n) yoctojoule.
 
 ```csharp
 public static readonly Energy Rontojoule;

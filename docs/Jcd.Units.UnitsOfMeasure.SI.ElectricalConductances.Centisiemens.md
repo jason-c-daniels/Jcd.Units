@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Centisiemens Field
 
-Units of a centisiemens. It's defined in terms of a(n) SI decisiemens.
+A(n) centisiemens. It's defined in terms of a(n) decisiemens.
 
 ```csharp
 public static readonly ElectricalConductance Centisiemens;

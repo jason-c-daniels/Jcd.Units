@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Rontolumen Field
 
-Units of a rontolumen. It's defined in terms of a(n) SI yoctolumen.
+A(n) rontolumen. It's defined in terms of a(n) yoctolumen.
 
 ```csharp
 public static readonly LuminousFlux Rontolumen;

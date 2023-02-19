@@ -3,7 +3,7 @@
 
 ## Energies.Exacalorie Field
 
-Units of a exacalorie. It's defined in terms of a(n) SI petacalorie.
+A(n) exacalorie. It's defined in terms of a(n) petacalorie.
 
 ```csharp
 public static readonly Energy Exacalorie;

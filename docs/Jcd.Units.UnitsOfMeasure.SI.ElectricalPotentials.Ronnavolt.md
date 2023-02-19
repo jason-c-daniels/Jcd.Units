@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Ronnavolt Field
 
-Units of a ronnavolt. It's defined in terms of a(n) SI yottavolt.
+A(n) ronnavolt. It's defined in terms of a(n) yottavolt.
 
 ```csharp
 public static readonly ElectricalPotential Ronnavolt;

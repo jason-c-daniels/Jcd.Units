@@ -3,7 +3,7 @@
 
 ## Masses.Femtogram Field
 
-Units of a femtogram. It's defined in terms of a(n) SI picogram.
+A(n) femtogram. It's defined in terms of a(n) picogram.
 
 ```csharp
 public static readonly Mass Femtogram;

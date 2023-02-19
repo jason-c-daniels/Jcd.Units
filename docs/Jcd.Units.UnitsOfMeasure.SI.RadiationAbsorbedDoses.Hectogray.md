@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Hectogray Field
 
-Units of a hectogray. It's defined in terms of a(n) SI dekagray.
+A(n) hectogray. It's defined in terms of a(n) dekagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Hectogray;

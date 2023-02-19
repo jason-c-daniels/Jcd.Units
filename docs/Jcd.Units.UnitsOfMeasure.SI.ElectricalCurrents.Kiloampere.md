@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Kiloampere Field
 
-Units of a kiloampere. It's defined in terms of a(n) SI hectoampere.
+A(n) kiloampere. It's defined in terms of a(n) hectoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Kiloampere;

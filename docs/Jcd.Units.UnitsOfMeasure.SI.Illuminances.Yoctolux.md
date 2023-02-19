@@ -3,7 +3,7 @@
 
 ## Illuminances.Yoctolux Field
 
-Units of a yoctolux. It's defined in terms of a(n) SI zeptolux.
+A(n) yoctolux. It's defined in terms of a(n) zeptolux.
 
 ```csharp
 public static readonly Illuminance Yoctolux;

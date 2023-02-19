@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Femtobecquerel Field
 
-Units of a femtobecquerel. It's defined in terms of a(n) SI picobecquerel.
+A(n) femtobecquerel. It's defined in terms of a(n) picobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Femtobecquerel;

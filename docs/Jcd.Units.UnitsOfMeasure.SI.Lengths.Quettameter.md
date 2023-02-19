@@ -3,7 +3,7 @@
 
 ## Lengths.Quettameter Field
 
-Units of a quettameter. It's defined in terms of a(n) SI ronnameter.
+A(n) quettameter. It's defined in terms of a(n) ronnameter.
 
 ```csharp
 public static readonly Length Quettameter;

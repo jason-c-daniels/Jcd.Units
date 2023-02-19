@@ -3,7 +3,7 @@
 
 ## Capacitances.Millifarad Field
 
-Units of a millifarad. It's defined in terms of a(n) SI centifarad.
+A(n) millifarad. It's defined in terms of a(n) centifarad.
 
 ```csharp
 public static readonly Capacitance Millifarad;

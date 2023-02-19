@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Petagray Field
 
-Units of a petagray. It's defined in terms of a(n) SI teragray.
+A(n) petagray. It's defined in terms of a(n) teragray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Petagray;

@@ -3,7 +3,7 @@
 
 ## Masses.Quectogram Field
 
-Units of a quectogram. It's defined in terms of a(n) SI rontogram.
+A(n) quectogram. It's defined in terms of a(n) rontogram.
 
 ```csharp
 public static readonly Mass Quectogram;

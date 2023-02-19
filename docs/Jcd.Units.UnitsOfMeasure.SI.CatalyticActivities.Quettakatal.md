@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Quettakatal Field
 
-Units of a quettakatal. It's defined in terms of a(n) SI ronnakatal.
+A(n) quettakatal. It's defined in terms of a(n) ronnakatal.
 
 ```csharp
 public static readonly CatalyticActivity Quettakatal;

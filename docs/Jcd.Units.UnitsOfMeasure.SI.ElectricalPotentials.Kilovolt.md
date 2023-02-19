@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Kilovolt Field
 
-Units of a kilovolt. It's defined in terms of a(n) SI hectovolt.
+A(n) kilovolt. It's defined in terms of a(n) hectovolt.
 
 ```csharp
 public static readonly ElectricalPotential Kilovolt;

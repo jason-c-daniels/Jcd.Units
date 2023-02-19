@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Sievert Field
 
-Units of a sievert.
+A(n) sievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Sievert;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Hectokatal Field
 
-Units of a hectokatal. It's defined in terms of a(n) SI dekakatal.
+A(n) hectokatal. It's defined in terms of a(n) dekakatal.
 
 ```csharp
 public static readonly CatalyticActivity Hectokatal;

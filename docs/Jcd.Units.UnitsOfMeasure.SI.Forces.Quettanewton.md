@@ -3,7 +3,7 @@
 
 ## Forces.Quettanewton Field
 
-Units of a quettanewton. It's defined in terms of a(n) SI ronnanewton.
+A(n) quettanewton. It's defined in terms of a(n) ronnanewton.
 
 ```csharp
 public static readonly Force Quettanewton;

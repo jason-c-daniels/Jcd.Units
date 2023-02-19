@@ -3,7 +3,7 @@
 
 ## Energies.Ronnacalorie Field
 
-Units of a ronnacalorie. It's defined in terms of a(n) SI yottacalorie.
+A(n) ronnacalorie. It's defined in terms of a(n) yottacalorie.
 
 ```csharp
 public static readonly Energy Ronnacalorie;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Yottavolt Field
 
-Units of a yottavolt. It's defined in terms of a(n) SI zettavolt.
+A(n) yottavolt. It's defined in terms of a(n) zettavolt.
 
 ```csharp
 public static readonly ElectricalPotential Yottavolt;

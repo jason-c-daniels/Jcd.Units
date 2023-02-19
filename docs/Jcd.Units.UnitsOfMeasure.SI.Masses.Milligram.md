@@ -3,7 +3,7 @@
 
 ## Masses.Milligram Field
 
-Units of a milligram. It's defined in terms of a(n) SI centigram.
+A(n) milligram. It's defined in terms of a(n) centigram.
 
 ```csharp
 public static readonly Mass Milligram;

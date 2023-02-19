@@ -3,7 +3,7 @@
 
 ## Amounts.Nanomole Field
 
-Units of a nanomole. It's defined in terms of a(n)  micromole.
+A(n) nanomole. It's defined in terms of a(n) micromole.
 
 ```csharp
 public static readonly Amount Nanomole;

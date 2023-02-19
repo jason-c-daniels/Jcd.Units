@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Femtosiemens Field
 
-Units of a femtosiemens. It's defined in terms of a(n) SI picosiemens.
+A(n) femtosiemens. It's defined in terms of a(n) picosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Femtosiemens;

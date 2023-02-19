@@ -3,7 +3,7 @@
 
 ## Capacitances.Attofarad Field
 
-Units of a attofarad. It's defined in terms of a(n) SI femtofarad.
+A(n) attofarad. It's defined in terms of a(n) femtofarad.
 
 ```csharp
 public static readonly Capacitance Attofarad;

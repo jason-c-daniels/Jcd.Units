@@ -3,7 +3,7 @@
 
 ## Inductances.Femtohenry Field
 
-Units of a femtohenry. It's defined in terms of a(n) SI picohenry.
+A(n) femtohenry. It's defined in terms of a(n) picohenry.
 
 ```csharp
 public static readonly Inductance Femtohenry;

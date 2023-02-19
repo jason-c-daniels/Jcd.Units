@@ -3,7 +3,7 @@
 
 ## Pressures.Zeptopascal Field
 
-Units of a zeptopascal. It's defined in terms of a(n) SI attopascal.
+A(n) zeptopascal. It's defined in terms of a(n) attopascal.
 
 ```csharp
 public static readonly Pressure Zeptopascal;

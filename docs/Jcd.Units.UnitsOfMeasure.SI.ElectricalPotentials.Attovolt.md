@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Attovolt Field
 
-Units of a attovolt. It's defined in terms of a(n) SI femtovolt.
+A(n) attovolt. It's defined in terms of a(n) femtovolt.
 
 ```csharp
 public static readonly ElectricalPotential Attovolt;

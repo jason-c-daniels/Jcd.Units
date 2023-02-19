@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Decicoulomb Field
 
-Units of a decicoulomb. It's defined in terms of a(n) SI coulomb.
+A(n) decicoulomb. It's defined in terms of a(n) coulomb.
 
 ```csharp
 public static readonly ElectricalCharge Decicoulomb;

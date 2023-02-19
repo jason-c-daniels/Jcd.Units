@@ -3,7 +3,7 @@
 
 ## Frequencies.Nanohertz Field
 
-Units of a nanohertz. It's defined in terms of a(n) SI microhertz.
+A(n) nanohertz. It's defined in terms of a(n) microhertz.
 
 ```csharp
 public static readonly Frequency Nanohertz;

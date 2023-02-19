@@ -3,7 +3,7 @@
 
 ## Illuminances.Millilux Field
 
-Units of a millilux. It's defined in terms of a(n) SI centilux.
+A(n) millilux. It's defined in terms of a(n) centilux.
 
 ```csharp
 public static readonly Illuminance Millilux;

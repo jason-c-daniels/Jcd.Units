@@ -3,7 +3,7 @@
 
 ## Masses.Decigram Field
 
-Units of a decigram. It's defined in terms of a(n) SI gram.
+A(n) decigram. It's defined in terms of a(n) gram.
 
 ```csharp
 public static readonly Mass Decigram;

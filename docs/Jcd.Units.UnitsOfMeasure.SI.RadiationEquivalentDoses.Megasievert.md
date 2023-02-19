@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Megasievert Field
 
-Units of a megasievert. It's defined in terms of a(n) SI kilosievert.
+A(n) megasievert. It's defined in terms of a(n) kilosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Megasievert;

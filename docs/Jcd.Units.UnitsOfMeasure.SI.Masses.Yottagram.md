@@ -3,7 +3,7 @@
 
 ## Masses.Yottagram Field
 
-Units of a yottagram. It's defined in terms of a(n) SI zettagram.
+A(n) yottagram. It's defined in terms of a(n) zettagram.
 
 ```csharp
 public static readonly Mass Yottagram;

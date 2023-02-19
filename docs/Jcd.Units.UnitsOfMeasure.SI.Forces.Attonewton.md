@@ -3,7 +3,7 @@
 
 ## Forces.Attonewton Field
 
-Units of a attonewton. It's defined in terms of a(n) SI femtonewton.
+A(n) attonewton. It's defined in terms of a(n) femtonewton.
 
 ```csharp
 public static readonly Force Attonewton;

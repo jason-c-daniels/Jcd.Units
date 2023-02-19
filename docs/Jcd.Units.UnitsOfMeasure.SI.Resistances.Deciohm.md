@@ -3,7 +3,7 @@
 
 ## Resistances.Deciohm Field
 
-Units of a deciohm. It's defined in terms of a(n) SI ohm.
+A(n) deciohm. It's defined in terms of a(n) ohm.
 
 ```csharp
 public static readonly Resistance Deciohm;

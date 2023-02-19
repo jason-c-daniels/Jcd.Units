@@ -3,7 +3,7 @@
 
 ## Capacitances.Ronnafarad Field
 
-Units of a ronnafarad. It's defined in terms of a(n) SI yottafarad.
+A(n) ronnafarad. It's defined in terms of a(n) yottafarad.
 
 ```csharp
 public static readonly Capacitance Ronnafarad;

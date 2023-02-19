@@ -3,7 +3,7 @@
 
 ## Masses.Yoctogram Field
 
-Units of a yoctogram. It's defined in terms of a(n) SI zeptogram.
+A(n) yoctogram. It's defined in terms of a(n) zeptogram.
 
 ```csharp
 public static readonly Mass Yoctogram;

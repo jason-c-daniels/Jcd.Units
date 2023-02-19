@@ -3,7 +3,7 @@
 
 ## Masses.Ronnagram Field
 
-Units of a ronnagram. It's defined in terms of a(n) SI yottagram.
+A(n) ronnagram. It's defined in terms of a(n) yottagram.
 
 ```csharp
 public static readonly Mass Ronnagram;

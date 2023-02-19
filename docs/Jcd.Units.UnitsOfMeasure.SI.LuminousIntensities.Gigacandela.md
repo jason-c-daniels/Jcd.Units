@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Gigacandela Field
 
-Units of a gigacandela. It's defined in terms of a(n) SI megacandela.
+A(n) gigacandela. It's defined in terms of a(n) megacandela.
 
 ```csharp
 public static readonly LuminousIntensity Gigacandela;

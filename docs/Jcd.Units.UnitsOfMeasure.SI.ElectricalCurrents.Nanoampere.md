@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Nanoampere Field
 
-Units of a nanoampere. It's defined in terms of a(n) SI microampere.
+A(n) nanoampere. It's defined in terms of a(n) microampere.
 
 ```csharp
 public static readonly ElectricalCurrent Nanoampere;

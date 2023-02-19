@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Milliweber Field
 
-Units of a milliweber. It's defined in terms of a(n) SI centiweber.
+A(n) milliweber. It's defined in terms of a(n) centiweber.
 
 ```csharp
 public static readonly MagneticFlux Milliweber;

@@ -3,7 +3,7 @@
 
 ## Momentums.ZettanewtonSecond Field
 
-Units of a zettanewton-second. It's defined in terms of a(n) SI exanewton-second.
+A(n) zettanewton-second. It's defined in terms of a(n) exanewton-second.
 
 ```csharp
 public static readonly Momentum ZettanewtonSecond;

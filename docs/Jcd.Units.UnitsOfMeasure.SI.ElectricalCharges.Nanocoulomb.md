@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Nanocoulomb Field
 
-Units of a nanocoulomb. It's defined in terms of a(n) SI microcoulomb.
+A(n) nanocoulomb. It's defined in terms of a(n) microcoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Nanocoulomb;

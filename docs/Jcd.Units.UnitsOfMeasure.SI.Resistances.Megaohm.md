@@ -3,7 +3,7 @@
 
 ## Resistances.Megaohm Field
 
-Units of a megaohm. It's defined in terms of a(n) SI kiloohm.
+A(n) megaohm. It's defined in terms of a(n) kiloohm.
 
 ```csharp
 public static readonly Resistance Megaohm;

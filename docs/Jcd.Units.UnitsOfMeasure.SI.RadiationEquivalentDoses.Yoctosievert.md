@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Yoctosievert Field
 
-Units of a yoctosievert. It's defined in terms of a(n) SI zeptosievert.
+A(n) yoctosievert. It's defined in terms of a(n) zeptosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Yoctosievert;

@@ -3,7 +3,7 @@
 
 ## Energies.Nanojoule Field
 
-Units of a nanojoule. It's defined in terms of a(n) SI microjoule.
+A(n) nanojoule. It's defined in terms of a(n) microjoule.
 
 ```csharp
 public static readonly Energy Nanojoule;

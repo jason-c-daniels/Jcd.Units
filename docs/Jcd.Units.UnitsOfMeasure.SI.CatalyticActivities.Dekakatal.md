@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Dekakatal Field
 
-Units of a dekakatal. It's defined in terms of a(n) SI katal.
+A(n) dekakatal. It's defined in terms of a(n) katal.
 
 ```csharp
 public static readonly CatalyticActivity Dekakatal;

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Centibecquerel Field
 
-Units of a centibecquerel. It's defined in terms of a(n) SI decibecquerel.
+A(n) centibecquerel. It's defined in terms of a(n) decibecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Centibecquerel;

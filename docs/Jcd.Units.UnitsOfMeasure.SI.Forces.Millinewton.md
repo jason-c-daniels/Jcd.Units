@@ -3,7 +3,7 @@
 
 ## Forces.Millinewton Field
 
-Units of a millinewton. It's defined in terms of a(n) SI centinewton.
+A(n) millinewton. It's defined in terms of a(n) centinewton.
 
 ```csharp
 public static readonly Force Millinewton;

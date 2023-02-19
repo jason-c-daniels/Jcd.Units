@@ -3,7 +3,7 @@
 
 ## Lengths.Inch Field
 
-Units of a inch. It's defined in terms of a(n) SI centimeter.
+A(n) inch. It's defined in terms of a(n) SI centimeter.
 
 ```csharp
 public static readonly Length Inch;

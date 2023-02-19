@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Attosiemens Field
 
-Units of a attosiemens. It's defined in terms of a(n) SI femtosiemens.
+A(n) attosiemens. It's defined in terms of a(n) femtosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Attosiemens;

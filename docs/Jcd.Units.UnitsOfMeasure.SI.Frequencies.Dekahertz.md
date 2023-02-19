@@ -3,7 +3,7 @@
 
 ## Frequencies.Dekahertz Field
 
-Units of a dekahertz. It's defined in terms of a(n) SI hertz.
+A(n) dekahertz. It's defined in terms of a(n) hertz.
 
 ```csharp
 public static readonly Frequency Dekahertz;

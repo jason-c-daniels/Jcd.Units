@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Megabecquerel Field
 
-Units of a megabecquerel. It's defined in terms of a(n) SI kilobecquerel.
+A(n) megabecquerel. It's defined in terms of a(n) kilobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Megabecquerel;

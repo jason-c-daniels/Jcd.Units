@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Kilogray Field
 
-Units of a kilogray. It's defined in terms of a(n) SI hectogray.
+A(n) kilogray. It's defined in terms of a(n) hectogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Kilogray;

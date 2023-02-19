@@ -3,7 +3,7 @@
 
 ## Masses.Attogram Field
 
-Units of a attogram. It's defined in terms of a(n) SI femtogram.
+A(n) attogram. It's defined in terms of a(n) femtogram.
 
 ```csharp
 public static readonly Mass Attogram;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Exagray Field
 
-Units of a exagray. It's defined in terms of a(n) SI petagray.
+A(n) exagray. It's defined in terms of a(n) petagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Exagray;

@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Gigalumen Field
 
-Units of a gigalumen. It's defined in terms of a(n) SI megalumen.
+A(n) gigalumen. It's defined in terms of a(n) megalumen.
 
 ```csharp
 public static readonly LuminousFlux Gigalumen;

@@ -3,7 +3,7 @@
 
 ## Amounts.Ronnamole Field
 
-Units of a ronnamole. It's defined in terms of a(n)  yottamole.
+A(n) ronnamole. It's defined in terms of a(n) yottamole.
 
 ```csharp
 public static readonly Amount Ronnamole;

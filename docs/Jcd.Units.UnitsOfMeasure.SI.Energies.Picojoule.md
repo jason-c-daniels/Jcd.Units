@@ -3,7 +3,7 @@
 
 ## Energies.Picojoule Field
 
-Units of a picojoule. It's defined in terms of a(n) SI nanojoule.
+A(n) picojoule. It's defined in terms of a(n) nanojoule.
 
 ```csharp
 public static readonly Energy Picojoule;
