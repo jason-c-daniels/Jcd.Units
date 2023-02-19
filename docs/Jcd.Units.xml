@@ -777,6 +777,11 @@
             A(n) quettaparsec. It's defined in terms of a(n) ronnaparsec.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.NamespaceDoc">
+            <summary>
+            Provides units of measure for various Astronomical unit types.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Durations">
             <summary>
             Uncategorized Units for measuring Duration.
@@ -1055,6 +1060,16 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Lengths.NauticalMile">
             <summary>
             A(n) nautical mile. It's defined in terms of a(n) cable.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.NamespaceDoc">
+            <summary>
+            Provides units of measure for various Imperial unit types.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.NamespaceDoc">
+            <summary>
+            Provides units of measure for various unit types.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.SI.Amounts">
@@ -3657,6 +3672,11 @@
             A(n) quettanewton-second. It's defined in terms of a(n) ronnanewton-second.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.NamespaceDoc">
+            <summary>
+            Provides units of measure for various SI unit types.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.SI.Powers">
             <summary>
             International System of Units for measuring Power.
@@ -4547,6 +4567,11 @@
             A(n) nautical mile. It's defined in terms of a(n) SI meter.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.NamespaceDoc">
+            <summary>
+            Provides units of measure for various US Customary unit types.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures">
             <summary>
             United States Customary Units for measuring Temperature.
@@ -4585,6 +4610,11 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.League">
             <summary>
             A(n) league. It's defined in terms of a(n) SI meter.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USSurvey.NamespaceDoc">
+            <summary>
+            Provides units of measure for various US Survey unit types.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitTypes.Amount">
@@ -5146,6 +5176,12 @@
             <param name="baseUnit">The unit to use as a base</param>
             <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.NamespaceDoc">
+            <summary>
+            Provides classes to aid in creating various types of units of measure
+            for use with <see cref="T:Jcd.Units.Quantity`1"/>
+            </summary>
         </member>
         <member name="T:Jcd.Units.UnitTypes.Power">
             <summary>

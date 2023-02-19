@@ -2,6 +2,8 @@
 
 ## Jcd.Units.UnitsOfMeasure.SI Namespace
 
+Provides units of measure for various SI unit types.
+
 | Classes | |
 | :--- | :--- |
 | [Amounts](Jcd.Units.UnitsOfMeasure.SI.Amounts.md 'Jcd.Units.UnitsOfMeasure.SI.Amounts') | International System of Units for measuring Amount. |

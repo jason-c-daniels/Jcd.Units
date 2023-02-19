@@ -2,6 +2,8 @@
 
 ## Jcd.Units.UnitsOfMeasure Namespace
 
+Provides units of measure for various unit types.
+
 | Classes | |
 | :--- | :--- |
 | [Amounts](Jcd.Units.UnitsOfMeasure.Amounts.md 'Jcd.Units.UnitsOfMeasure.Amounts') | Uncategorized Units for measuring Amount. |

@@ -10,6 +10,8 @@ public class SourceCodeGenerator
     private readonly string? _baseUnitTemplate;
     private readonly string? _derivedUnitTemplate;
     private readonly string? _enumerationTemplate;
+    private readonly string? _namespaceDocTemplate;
+    
     private Dictionary<string, Data.System> _systemLookup;
 
     public SourceCodeGenerator(IEnumerable<Data.System> systems)
@@ -18,6 +20,8 @@ public class SourceCodeGenerator
         _baseUnitTemplate = EmbeddedResource.ReadString("BaseUnit.template");
         _derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template");
         _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template");
+        _namespaceDocTemplate = EmbeddedResource.ReadString("UnitOfMeasure.NamespaceDoc.template");
+        
         _systemLookup = systems.ToDictionary(x => x.Name);
     }
 
@@ -62,6 +66,16 @@ public class SourceCodeGenerator
             .Replace("$UnitType.TypeName$",unitDef.UnitType.UnitTypeName)
             .Replace("$Subnamespace$",unitDef.Subnamespace)
             .Replace("$Units$",units.TrimEnd())
+            ;
+    }
+
+    public string GenerateUnitOfMeasureNamespaceDoc(string systemName, string subnamespaceName, string baseNamespace = DefaultUnitOfMeasureNamespace)
+    {
+        systemName = string.IsNullOrWhiteSpace(systemName) ? systemName : $"{systemName} ";
+        return _namespaceDocTemplate
+                .Replace("$BaseNamespace$", baseNamespace)
+                .Replace("$Subnamespace$",subnamespaceName)
+                .Replace("$System.Name$", systemName)
             ;
     }
 }

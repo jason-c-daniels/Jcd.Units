@@ -1,0 +1,6 @@
+﻿namespace $BaseNamespace$$Subnamespace$;
+
+/// <summary>
+/// Provides units of measure for various $System.Name$unit types.
+/// </summary>
+internal class NamespaceDoc { }

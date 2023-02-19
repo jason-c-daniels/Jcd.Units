@@ -2,6 +2,9 @@
 
 ## Jcd.Units.UnitTypes Namespace
 
+Provides classes to aid in creating various types of units of measure  
+for use with [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')
+
 | Classes | |
 | :--- | :--- |
 | [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') | A measurement of an arbitrary quantity, number or value of something. |
