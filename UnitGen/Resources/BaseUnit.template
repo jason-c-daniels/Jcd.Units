@@ -1,1 +1,5 @@
-﻿    public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$");
+﻿
+    /// <summary>
+    /// Units of a $Unit.Name$.
+    /// </summary>
+    public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$");

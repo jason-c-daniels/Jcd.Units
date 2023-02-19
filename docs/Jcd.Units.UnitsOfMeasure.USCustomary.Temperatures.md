@@ -10,3 +10,7 @@ public class Temperatures : Jcd.Units.Enumeration<Jcd.Units.UnitsOfMeasure.USCus
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Temperatures](Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; Temperatures
+
+| Fields | |
+| :--- | :--- |
+| [DegreesFahrenheit](Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.DegreesFahrenheit.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.DegreesFahrenheit') | Units of a degrees fahrenheit. It's defined in terms of a(n) SI degrees celcius. |

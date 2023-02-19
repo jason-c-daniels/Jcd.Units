@@ -38,6 +38,8 @@ public class SourceCodeGenerator
             .Replace("$Unit.Unit$",unitDef.UnitVarName)
             .Replace("$Unit.Name$",unitDef.UnitName)
             .Replace("$BaseUnitNamespacePrefix$", unitDef.BaseUnitNamespacePrefix)
+            .Replace("$BaseUnit.Name$",unitDef.BaseUnitName)
+            .Replace("$BaseUnit.System$",unitDef.Unit.BaseUnitSystem)
             .Replace("$BaseUnit$",unitDef.BaseUnitName.MakeSymbolName())
             .Replace("$Symbol$",unitDef.Symbol)
             .Replace("$Coefficient$",unitDef.Coefficient)

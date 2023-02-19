@@ -1,1 +1,4 @@
-﻿    public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$", $BaseUnitNamespacePrefix$$BaseUnit$, $Coefficient$,$Offset$);
+﻿    /// <summary>
+    /// Units of a $Unit.Name$. It's defined in terms of a(n) $BaseUnit.System$ $BaseUnit.Name$.
+    /// </summary>
+    public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$", $BaseUnitNamespacePrefix$$BaseUnit$, $Coefficient$,$Offset$);

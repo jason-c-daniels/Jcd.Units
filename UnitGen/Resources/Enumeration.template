@@ -8,4 +8,5 @@ namespace $BaseNamespace$$Subnamespace$;
 public class $Enumeration$ : Enumeration<$Enumeration$,$UnitType.TypeName$>
 {
 $Units$
+
 }

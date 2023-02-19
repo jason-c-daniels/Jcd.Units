@@ -1,0 +1,13 @@
+#### [Jcd.Units](index.md 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[CatalyticActivities](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities')
+
+## CatalyticActivities.Quectokatal Field
+
+Units of a quectokatal. It's defined in terms of a(n) SI rontokatal.
+
+```csharp
+public static readonly CatalyticActivity Quectokatal;
+```
+
+#### Field Value
+[CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')

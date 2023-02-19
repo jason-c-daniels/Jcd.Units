@@ -7,5 +7,10 @@ namespace Jcd.Units.UnitsOfMeasure;
 /// </summary>
 public class Amounts : Enumeration<Amounts,Amount>
 {
+
+    /// <summary>
+    /// Units of a count.
+    /// </summary>
     public static readonly Amount Count = new ("count", "ct.");
+
 }
