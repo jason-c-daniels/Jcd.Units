@@ -1,4 +1,6 @@
-﻿namespace UnitGen.Data;
+﻿using UnitGen.Models;
+
+namespace UnitGen.Repositories;
 
 public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 {
@@ -6,12 +8,12 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
     public UnitTypeRepository UnitTypeRepo { get; } = new UnitTypeRepository();
     public PrefixRepository PrefixRepo { get; } = new PrefixRepository();
     public UnitRepository UnitRepo { get; } = new UnitRepository();
+    private IReadOnlyList<UnitDefinition>? _unitDefs = null;
 
-    public UnitDefinitionRepository()
+    
+    public IReadOnlyList<UnitDefinition> GetAll()
     {
-    }
-    public IList<UnitDefinition> GetAll()
-    {
+        if (_unitDefs != null) return _unitDefs;
         var systems = SystemRepo.GetAll();
         var unitTypes = UnitTypeRepo.GetAll();
         var prefixes = PrefixRepo.GetAll();
@@ -33,7 +35,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
             where !unit.UsesPrefixes
             select new UnitDefinition(system,unitType,noPrefix,unit);
 
-        return unitsWithSIPrefixes
+        return _unitDefs=unitsWithSIPrefixes
             .Concat(unitsWithouSIPrefixes)
             .Distinct()
             .OrderBy(u=>u.System.Name)
@@ -43,4 +45,18 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
             .ThenBy(u=>u.UnitType.Name)
             .ToList();
     }
+
+    public IReadOnlyList<UnitType> GetUsedUnitTypes() =>
+         (from unitDef in GetAll() select unitDef.UnitType).Distinct().ToList();
+
+    public IEnumerable<IGrouping<string, IGrouping<string, UnitDefinition>>> 
+        GetSystemToUnitTypeToUnitDefinitionGroupings() =>
+            from unit in GetAll()
+            group unit by unit.System.Name
+            into systemGroup
+            from unitType in (
+                from unit in systemGroup
+                group unit by unit.UnitType.Name
+            )
+            group unitType by systemGroup.Key;
 }

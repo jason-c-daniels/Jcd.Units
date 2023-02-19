@@ -3,26 +3,26 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using UnitGen.Resources;
 
-namespace UnitGen.Data;
+namespace UnitGen.Repositories;
 
 public abstract class ReadOnlyCsvRepository<T> : IReadOnlyRepository<T>
 {
-    public abstract IList<T> GetAll();
+    public abstract IReadOnlyList<T> GetAll();
 
-    protected IList<T> ReadFromFile(string pathToFile)
+    protected IReadOnlyList<T> ReadFromFile(string pathToFile)
     {
         using var reader = new StreamReader(pathToFile);
         return ReadFrom(reader);
     }
     
-    protected IList<T> ReadFromEmbeddedResource(string resourceName)
+    protected IReadOnlyList<T> ReadFromEmbeddedResource(string resourceName)
     {
         using var stream = EmbeddedResource.GetStream(resourceName);
         using var reader = new StreamReader(stream);
         return ReadFrom(reader);
     }
 
-    private static IList<T> ReadFrom(TextReader reader)
+    private static IReadOnlyList<T> ReadFrom(TextReader reader)
     {
         var config = new CsvConfiguration(CultureInfo.InvariantCulture)
         {

@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace UnitGen.CodeGenerators;
+namespace UnitGen.Services;
 
 public static class CodeGenHelper
 {

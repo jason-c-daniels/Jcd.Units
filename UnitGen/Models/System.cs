@@ -1,4 +1,4 @@
-﻿namespace UnitGen.Data;
+﻿namespace UnitGen.Models;
 
 public record System
 (

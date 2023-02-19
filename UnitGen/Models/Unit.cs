@@ -1,6 +1,6 @@
-﻿using UnitGen.CodeGenerators;
+﻿using UnitGen.Services;
 
-namespace UnitGen.Data;
+namespace UnitGen.Models;
 
 public record Unit
 (

@@ -1,6 +1,7 @@
-﻿using UnitGen.Data;
+﻿using UnitGen.Models;
 using UnitGen.Resources;
-namespace UnitGen.CodeGenerators;
+
+namespace UnitGen.Services;
 
 public class SourceCodeGenerator
 {
@@ -12,9 +13,9 @@ public class SourceCodeGenerator
     private readonly string? _enumerationTemplate;
     private readonly string? _namespaceDocTemplate;
     
-    private Dictionary<string, Data.System> _systemLookup;
+    private Dictionary<string, Models.System> _systemLookup;
 
-    public SourceCodeGenerator(IEnumerable<Data.System> systems)
+    public SourceCodeGenerator(IEnumerable<Models.System> systems)
     {
         _unitTypeTemplate = EmbeddedResource.ReadString("UnitType.template");
         _baseUnitTemplate = EmbeddedResource.ReadString("BaseUnit.template");
@@ -78,4 +79,7 @@ public class SourceCodeGenerator
                 .Replace("$System.Name$", systemName)
             ;
     }
+    
+    
+    
 }

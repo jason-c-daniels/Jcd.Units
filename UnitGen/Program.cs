@@ -1,50 +1,28 @@
 ﻿//#define WRITE_TO_CONSOLE
 
-using System.Reflection;
 using System.Text;
-using UnitGen.CodeGenerators;
-using UnitGen.Data;
+using UnitGen.Models;
+using UnitGen.Repositories;
+using UnitGen.Services;
+using FSS=UnitGen.Services.FileSystemService;
 
-var jcdUnitsDir = FindDirectory("Jcd.Units");
-var jcdUnitsTestsDir = FindDirectory("Jcd.Units.Tests");
-
-if (jcdUnitsDir == null || jcdUnitsTestsDir == null)
-{
-    if (jcdUnitsDir == null) Console.Error.WriteLine("Directory: Jcd.Units could not be found.");
-    if (jcdUnitsTestsDir == null) Console.Error.WriteLine("Directory: Jcd.Units.Tests could not be found.");
-    
-    Console.Error.WriteLine("Is gen-unit.exe in the correct directory (Any under the Jcd.Units solution directory)?");
-    Console.Error.WriteLine("One or more essential directories could not be found.");
-    Console.Error.WriteLine("ABORTING!");
-    Console.WriteLine("Press ANY KEY to continue.");
-    Console.ReadKey();
-    return -1;
-}
+if (EssentialDirectoriesAreMissing(out var jcdUnitsDir, out var jcdUnitsTestsDir)) 
+    return -1; // abort the app. We can't run.
 
 var unitTypesDir = Path.Combine(jcdUnitsDir, "UnitTypes");
 var unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
 
 var unitDefRepo = new UnitDefinitionRepository();
-
 var unitDefs = unitDefRepo.GetAll();
-var unitTypes = (
-        from unitDef in unitDefs 
-        select unitDef.UnitType)
-    .Distinct();
 
-var groupings =
-    from unit in unitDefs
-    group unit by unit.System.Name
-    into systemGroup
-    from unitType in (
-        from unit in systemGroup
-        group unit by unit.UnitType.Name
-    )
-    group unitType by systemGroup.Key;
+var unitTypes = unitDefRepo.GetUsedUnitTypes();
+
+var groupings = unitDefRepo.GetSystemToUnitTypeToUnitDefinitionGroupings();
 
 var gen = new SourceCodeGenerator(unitDefRepo.SystemRepo.GetAll());
-GenerateUnitTypes(unitTypesDir, unitTypes,gen);
-CreateDirectoryIfNeeded(unitsOfMeasureDir);
+
+GenerateUnitTypes(unitTypesDir, unitTypes, gen);
+FSS.CreateDirectoryIfNeeded(unitsOfMeasureDir);
 
 foreach (var systemGrouping in groupings)
 {
@@ -52,20 +30,20 @@ foreach (var systemGrouping in groupings)
     var systemUnitsFolder = Path.Combine(unitsOfMeasureDir, namespaceName);
     if (namespaceName.Trim().Length > 0)
     {
-        CreateDirectoryIfNeeded(systemUnitsFolder);
+        FSS.CreateDirectoryIfNeeded(systemUnitsFolder);
     }
 
     var subnamespaceName = string.IsNullOrWhiteSpace(namespaceName) ? string.Empty : $".{namespaceName}";
     var namespaceDocFileContent=gen.GenerateUnitOfMeasureNamespaceDoc(systemGrouping.Key,subnamespaceName);
     var namespaceDocPath = Path.Combine(systemUnitsFolder,"NamespaceDoc.cs");
     
-    WriteFileContent(namespaceDocPath,namespaceDocFileContent);
+    FSS.WriteFileContent(namespaceDocPath,namespaceDocFileContent);
     
     var uomWithNamespaceDir = string.IsNullOrWhiteSpace(namespaceName)
         ? unitsOfMeasureDir
         : Path.Combine(unitsOfMeasureDir, namespaceName);
     
-    CreateDirectoryIfNeeded(uomWithNamespaceDir);
+    FSS.CreateDirectoryIfNeeded(uomWithNamespaceDir);
     
     foreach (var unitTypeGrouping in systemGrouping)
     {
@@ -93,61 +71,50 @@ foreach (var systemGrouping in groupings)
         }
 
         var enumerationFileContent=gen.GenerateEnumeration(sortedGrouping[0],sbUnits.ToString());
-        WriteFileContent(enumerationsFilePath,enumerationFileContent);
+        FSS.WriteFileContent(enumerationsFilePath,enumerationFileContent);
     }
 }
 
 return 0;
 
-void WriteFileContent(string filePath, string fileContent)
+void GenerateUnitTypes(string unitTypesDirPath, IEnumerable<UnitType> enumerable, SourceCodeGenerator gen)
 {
-    Console.Write($"Generating: {filePath}. ");
-    if (File.Exists(filePath))
-        Console.Write($"File already exists, overwriting.");
-    Console.WriteLine();
-
-#if WRITE_TO_CONSOLE
-    Console.WriteLine(fileContent);
-#else        
-    File.WriteAllText(filePath,fileContent, Encoding.UTF8);
-#endif
-}
-
-void CreateDirectoryIfNeeded(string targetDir)
-{
-    if (!Directory.Exists(targetDir))
-    {
-        Console.WriteLine($"Creating {targetDir}.");
-        Directory.CreateDirectory(targetDir);
-    }
-}
-
-string? FindDirectory(string targetDir)
-{
-    var startupDir = Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location);
-    var testDir = startupDir;
-    while (testDir != null && !Directory.Exists(Path.Combine(testDir, targetDir)))
-        testDir = Path.GetDirectoryName(testDir);
-
-    if (testDir == null)
-    {
-        Console.Error.WriteLine($"Could not locate {targetDir} folder.");
-    }
-
-    return testDir != null ? Path.Combine(testDir,targetDir) : null;
-}
-
-string GenerateUnitTypes(string unitTypesDir, IEnumerable<UnitType> enumerable, SourceCodeGenerator gen)
-{
-    CreateDirectoryIfNeeded(unitTypesDir);
+    FSS.CreateDirectoryIfNeeded(unitTypesDirPath);
 
     // generate the individual unit type files in UnitTypes (in the output directory)
     foreach (var ut in enumerable)
     {
         var unitTypeFileName = $"{ut.UnitTypeName}.cs";
-        var unitTypeFilePath = Path.Combine(unitTypesDir,unitTypeFileName);
+        var unitTypeFilePath = Path.Combine(unitTypesDirPath,unitTypeFileName);
         var fileContent = gen.GenerateUnitType(ut);
-        WriteFileContent(unitTypeFilePath,fileContent);
+        FSS.WriteFileContent(unitTypeFilePath,fileContent);
     }
-    return unitTypesDir;
+}
+
+bool EssentialDirectoriesAreMissing(out string jcdUnitsDirResult, out string jcdUnitsTestsDirResult)
+{
+    var jcdUnitsDirTest = FSS.FindDirectory("Jcd.Units");
+    var jcdUnitsTestsDirTest = FSS.FindDirectory("Jcd.Units.Tests");
+
+    if (jcdUnitsDirTest != null && jcdUnitsTestsDirTest != null)
+    {
+        (jcdUnitsDirResult, jcdUnitsTestsDirResult) = (jcdUnitsDirTest, jcdUnitsTestsDirTest);
+        return false;
+    }
+
+    if (jcdUnitsDirTest == null)
+        Console.Error.WriteLine("Directory: Jcd.Units could not be found.");
+    
+    if (jcdUnitsTestsDirTest == null)
+        Console.Error.WriteLine("Directory: Jcd.Units.Tests could not be found.");
+
+    jcdUnitsDirResult = jcdUnitsTestsDirResult = string.Empty; // this shuts the compiler up.
+
+    Console.Error.WriteLine("Is gen-unit.exe in the correct directory (Any under the Jcd.Units solution directory)?");
+    Console.Error.WriteLine("One or more essential directories could not be found.");
+    Console.Error.WriteLine("ABORTING!");
+    Console.WriteLine();
+    Console.WriteLine("Press ANY KEY to continue.");
+    Console.ReadKey();
+    return true;
 }
