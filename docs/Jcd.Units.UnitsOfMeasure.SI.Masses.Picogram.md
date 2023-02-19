@@ -3,7 +3,7 @@
 
 ## Masses.Picogram Field
 
-A(n) picogram. It's defined in terms of a(n) nanogram.
+A(n) picogram. Defined in terms of a(n) nanogram.
 
 ```csharp
 public static readonly Mass Picogram;

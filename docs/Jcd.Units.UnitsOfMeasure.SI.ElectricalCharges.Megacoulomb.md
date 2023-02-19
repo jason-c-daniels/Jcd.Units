@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Megacoulomb Field
 
-A(n) megacoulomb. It's defined in terms of a(n) kilocoulomb.
+A(n) megacoulomb. Defined in terms of a(n) kilocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Megacoulomb;

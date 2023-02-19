@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Centisievert Field
 
-A(n) centisievert. It's defined in terms of a(n) decisievert.
+A(n) centisievert. Defined in terms of a(n) decisievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Centisievert;

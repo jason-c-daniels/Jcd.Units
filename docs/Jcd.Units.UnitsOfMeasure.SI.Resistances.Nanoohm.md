@@ -3,7 +3,7 @@
 
 ## Resistances.Nanoohm Field
 
-A(n) nanoohm. It's defined in terms of a(n) microohm.
+A(n) nanoohm. Defined in terms of a(n) microohm.
 
 ```csharp
 public static readonly Resistance Nanoohm;

@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Yoctocoulomb Field
 
-A(n) yoctocoulomb. It's defined in terms of a(n) zeptocoulomb.
+A(n) yoctocoulomb. Defined in terms of a(n) zeptocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Yoctocoulomb;

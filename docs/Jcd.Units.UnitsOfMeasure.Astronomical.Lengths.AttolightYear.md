@@ -3,7 +3,7 @@
 
 ## Lengths.AttolightYear Field
 
-A(n) attolight-year. It's defined in terms of a(n) femtolight-year.
+A(n) attolight-year. Defined in terms of a(n) femtolight-year.
 
 ```csharp
 public static readonly Length AttolightYear;

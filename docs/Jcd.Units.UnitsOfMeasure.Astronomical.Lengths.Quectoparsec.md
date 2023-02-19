@@ -3,7 +3,7 @@
 
 ## Lengths.Quectoparsec Field
 
-A(n) quectoparsec. It's defined in terms of a(n) rontoparsec.
+A(n) quectoparsec. Defined in terms of a(n) rontoparsec.
 
 ```csharp
 public static readonly Length Quectoparsec;

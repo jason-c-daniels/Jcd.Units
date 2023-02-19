@@ -3,7 +3,7 @@
 
 ## Forces.Hectonewton Field
 
-A(n) hectonewton. It's defined in terms of a(n) dekanewton.
+A(n) hectonewton. Defined in terms of a(n) dekanewton.
 
 ```csharp
 public static readonly Force Hectonewton;

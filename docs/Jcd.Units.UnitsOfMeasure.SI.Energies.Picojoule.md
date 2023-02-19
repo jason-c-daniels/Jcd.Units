@@ -3,7 +3,7 @@
 
 ## Energies.Picojoule Field
 
-A(n) picojoule. It's defined in terms of a(n) nanojoule.
+A(n) picojoule. Defined in terms of a(n) nanojoule.
 
 ```csharp
 public static readonly Energy Picojoule;

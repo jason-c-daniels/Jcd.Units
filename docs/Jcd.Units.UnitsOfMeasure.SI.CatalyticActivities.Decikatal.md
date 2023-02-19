@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Decikatal Field
 
-A(n) decikatal. It's defined in terms of a(n) katal.
+A(n) decikatal. Defined in terms of a(n) katal.
 
 ```csharp
 public static readonly CatalyticActivity Decikatal;

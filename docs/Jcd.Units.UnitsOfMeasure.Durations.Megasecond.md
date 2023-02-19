@@ -3,7 +3,7 @@
 
 ## Durations.Megasecond Field
 
-A(n) megasecond. It's defined in terms of a(n) kilosecond.
+A(n) megasecond. Defined in terms of a(n) kilosecond.
 
 ```csharp
 public static readonly Duration Megasecond;

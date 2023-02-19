@@ -3,7 +3,7 @@
 
 ## Frequencies.Exahertz Field
 
-A(n) exahertz. It's defined in terms of a(n) petahertz.
+A(n) exahertz. Defined in terms of a(n) petahertz.
 
 ```csharp
 public static readonly Frequency Exahertz;

@@ -3,7 +3,7 @@
 
 ## Momentums.ExanewtonSecond Field
 
-A(n) exanewton-second. It's defined in terms of a(n) petanewton-second.
+A(n) exanewton-second. Defined in terms of a(n) petanewton-second.
 
 ```csharp
 public static readonly Momentum ExanewtonSecond;

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Yoctobecquerel Field
 
-A(n) yoctobecquerel. It's defined in terms of a(n) zeptobecquerel.
+A(n) yoctobecquerel. Defined in terms of a(n) zeptobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Yoctobecquerel;

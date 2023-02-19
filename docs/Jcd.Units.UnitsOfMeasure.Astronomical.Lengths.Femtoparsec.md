@@ -3,7 +3,7 @@
 
 ## Lengths.Femtoparsec Field
 
-A(n) femtoparsec. It's defined in terms of a(n) picoparsec.
+A(n) femtoparsec. Defined in terms of a(n) picoparsec.
 
 ```csharp
 public static readonly Length Femtoparsec;

@@ -3,7 +3,7 @@
 
 ## Masses.Rontogram Field
 
-A(n) rontogram. It's defined in terms of a(n) yoctogram.
+A(n) rontogram. Defined in terms of a(n) yoctogram.
 
 ```csharp
 public static readonly Mass Rontogram;

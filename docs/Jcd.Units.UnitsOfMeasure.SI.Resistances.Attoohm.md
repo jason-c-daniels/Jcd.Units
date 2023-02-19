@@ -3,7 +3,7 @@
 
 ## Resistances.Attoohm Field
 
-A(n) attoohm. It's defined in terms of a(n) femtoohm.
+A(n) attoohm. Defined in terms of a(n) femtoohm.
 
 ```csharp
 public static readonly Resistance Attoohm;

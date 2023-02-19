@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Hectogray Field
 
-A(n) hectogray. It's defined in terms of a(n) dekagray.
+A(n) hectogray. Defined in terms of a(n) dekagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Hectogray;

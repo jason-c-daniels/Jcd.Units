@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Nanocoulomb Field
 
-A(n) nanocoulomb. It's defined in terms of a(n) microcoulomb.
+A(n) nanocoulomb. Defined in terms of a(n) microcoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Nanocoulomb;

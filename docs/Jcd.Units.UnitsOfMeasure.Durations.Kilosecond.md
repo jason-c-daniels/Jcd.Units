@@ -3,7 +3,7 @@
 
 ## Durations.Kilosecond Field
 
-A(n) kilosecond. It's defined in terms of a(n) hectosecond.
+A(n) kilosecond. Defined in terms of a(n) hectosecond.
 
 ```csharp
 public static readonly Duration Kilosecond;

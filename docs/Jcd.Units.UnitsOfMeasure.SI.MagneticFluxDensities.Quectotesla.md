@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Quectotesla Field
 
-A(n) quectotesla. It's defined in terms of a(n) rontotesla.
+A(n) quectotesla. Defined in terms of a(n) rontotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Quectotesla;

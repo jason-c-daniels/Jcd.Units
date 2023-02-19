@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Megabecquerel Field
 
-A(n) megabecquerel. It's defined in terms of a(n) kilobecquerel.
+A(n) megabecquerel. Defined in terms of a(n) kilobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Megabecquerel;

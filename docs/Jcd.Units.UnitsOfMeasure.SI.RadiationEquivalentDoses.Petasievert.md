@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Petasievert Field
 
-A(n) petasievert. It's defined in terms of a(n) terasievert.
+A(n) petasievert. Defined in terms of a(n) terasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Petasievert;

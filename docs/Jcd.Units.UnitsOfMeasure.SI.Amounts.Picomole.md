@@ -3,7 +3,7 @@
 
 ## Amounts.Picomole Field
 
-A(n) picomole. It's defined in terms of a(n) nanomole.
+A(n) picomole. Defined in terms of a(n) nanomole.
 
 ```csharp
 public static readonly Amount Picomole;

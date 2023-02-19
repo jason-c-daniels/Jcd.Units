@@ -3,7 +3,7 @@
 
 ## Masses.Nanogram Field
 
-A(n) nanogram. It's defined in terms of a(n) microgram.
+A(n) nanogram. Defined in terms of a(n) microgram.
 
 ```csharp
 public static readonly Mass Nanogram;

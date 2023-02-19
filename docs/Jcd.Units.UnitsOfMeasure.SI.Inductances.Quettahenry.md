@@ -3,7 +3,7 @@
 
 ## Inductances.Quettahenry Field
 
-A(n) quettahenry. It's defined in terms of a(n) ronnahenry.
+A(n) quettahenry. Defined in terms of a(n) ronnahenry.
 
 ```csharp
 public static readonly Inductance Quettahenry;

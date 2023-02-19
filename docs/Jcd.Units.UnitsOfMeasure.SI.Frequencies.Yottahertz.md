@@ -3,7 +3,7 @@
 
 ## Frequencies.Yottahertz Field
 
-A(n) yottahertz. It's defined in terms of a(n) zettahertz.
+A(n) yottahertz. Defined in terms of a(n) zettahertz.
 
 ```csharp
 public static readonly Frequency Yottahertz;

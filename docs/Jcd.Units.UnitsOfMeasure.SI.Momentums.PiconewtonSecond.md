@@ -3,7 +3,7 @@
 
 ## Momentums.PiconewtonSecond Field
 
-A(n) piconewton-second. It's defined in terms of a(n) nanonewton-second.
+A(n) piconewton-second. Defined in terms of a(n) nanonewton-second.
 
 ```csharp
 public static readonly Momentum PiconewtonSecond;

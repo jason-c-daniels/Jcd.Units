@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Kilolumen Field
 
-A(n) kilolumen. It's defined in terms of a(n) hectolumen.
+A(n) kilolumen. Defined in terms of a(n) hectolumen.
 
 ```csharp
 public static readonly LuminousFlux Kilolumen;

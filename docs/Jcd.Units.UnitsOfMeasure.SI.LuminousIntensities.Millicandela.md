@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Millicandela Field
 
-A(n) millicandela. It's defined in terms of a(n) centicandela.
+A(n) millicandela. Defined in terms of a(n) centicandela.
 
 ```csharp
 public static readonly LuminousIntensity Millicandela;

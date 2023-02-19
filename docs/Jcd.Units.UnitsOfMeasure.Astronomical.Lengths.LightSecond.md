@@ -3,7 +3,7 @@
 
 ## Lengths.LightSecond Field
 
-A(n) light-second. It's defined in terms of a(n) SI meter.
+A(n) light-second. Defined in terms of a(n) SI meter.
 
 ```csharp
 public static readonly Length LightSecond;

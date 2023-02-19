@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Millicoulomb Field
 
-A(n) millicoulomb. It's defined in terms of a(n) centicoulomb.
+A(n) millicoulomb. Defined in terms of a(n) centicoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Millicoulomb;

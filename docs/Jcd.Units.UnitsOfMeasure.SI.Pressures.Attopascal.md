@@ -3,7 +3,7 @@
 
 ## Pressures.Attopascal Field
 
-A(n) attopascal. It's defined in terms of a(n) femtopascal.
+A(n) attopascal. Defined in terms of a(n) femtopascal.
 
 ```csharp
 public static readonly Pressure Attopascal;

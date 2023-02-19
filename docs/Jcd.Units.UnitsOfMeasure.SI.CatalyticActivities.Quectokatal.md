@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Quectokatal Field
 
-A(n) quectokatal. It's defined in terms of a(n) rontokatal.
+A(n) quectokatal. Defined in terms of a(n) rontokatal.
 
 ```csharp
 public static readonly CatalyticActivity Quectokatal;

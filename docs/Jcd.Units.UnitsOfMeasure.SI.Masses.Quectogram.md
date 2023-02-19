@@ -3,7 +3,7 @@
 
 ## Masses.Quectogram Field
 
-A(n) quectogram. It's defined in terms of a(n) rontogram.
+A(n) quectogram. Defined in terms of a(n) rontogram.
 
 ```csharp
 public static readonly Mass Quectogram;

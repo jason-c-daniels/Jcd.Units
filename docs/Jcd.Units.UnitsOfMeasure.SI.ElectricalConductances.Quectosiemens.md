@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Quectosiemens Field
 
-A(n) quectosiemens. It's defined in terms of a(n) rontosiemens.
+A(n) quectosiemens. Defined in terms of a(n) rontosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Quectosiemens;

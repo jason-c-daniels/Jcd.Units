@@ -3,7 +3,7 @@
 
 ## Inductances.Zeptohenry Field
 
-A(n) zeptohenry. It's defined in terms of a(n) attohenry.
+A(n) zeptohenry. Defined in terms of a(n) attohenry.
 
 ```csharp
 public static readonly Inductance Zeptohenry;

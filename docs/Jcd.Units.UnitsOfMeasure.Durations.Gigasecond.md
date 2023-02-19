@@ -3,7 +3,7 @@
 
 ## Durations.Gigasecond Field
 
-A(n) gigasecond. It's defined in terms of a(n) megasecond.
+A(n) gigasecond. Defined in terms of a(n) megasecond.
 
 ```csharp
 public static readonly Duration Gigasecond;

@@ -3,7 +3,7 @@
 
 ## Energies.Petajoule Field
 
-A(n) petajoule. It's defined in terms of a(n) terajoule.
+A(n) petajoule. Defined in terms of a(n) terajoule.
 
 ```csharp
 public static readonly Energy Petajoule;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Kilovolt Field
 
-A(n) kilovolt. It's defined in terms of a(n) hectovolt.
+A(n) kilovolt. Defined in terms of a(n) hectovolt.
 
 ```csharp
 public static readonly ElectricalPotential Kilovolt;

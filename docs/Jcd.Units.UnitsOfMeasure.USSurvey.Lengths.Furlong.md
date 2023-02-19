@@ -3,7 +3,7 @@
 
 ## Lengths.Furlong Field
 
-A(n) furlong. It's defined in terms of a(n) SI meter.
+A(n) furlong. Defined in terms of a(n) SI meter.
 
 ```csharp
 public static readonly Length Furlong;

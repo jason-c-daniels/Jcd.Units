@@ -3,7 +3,7 @@
 
 ## Pressures.Zettapascal Field
 
-A(n) zettapascal. It's defined in terms of a(n) exapascal.
+A(n) zettapascal. Defined in terms of a(n) exapascal.
 
 ```csharp
 public static readonly Pressure Zettapascal;

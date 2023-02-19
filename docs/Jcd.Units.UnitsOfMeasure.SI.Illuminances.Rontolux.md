@@ -3,7 +3,7 @@
 
 ## Illuminances.Rontolux Field
 
-A(n) rontolux. It's defined in terms of a(n) yoctolux.
+A(n) rontolux. Defined in terms of a(n) yoctolux.
 
 ```csharp
 public static readonly Illuminance Rontolux;

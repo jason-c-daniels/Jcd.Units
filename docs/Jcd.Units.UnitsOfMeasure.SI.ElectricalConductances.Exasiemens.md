@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Exasiemens Field
 
-A(n) exasiemens. It's defined in terms of a(n) petasiemens.
+A(n) exasiemens. Defined in terms of a(n) petasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Exasiemens;

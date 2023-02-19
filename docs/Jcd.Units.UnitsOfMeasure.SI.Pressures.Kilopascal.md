@@ -3,7 +3,7 @@
 
 ## Pressures.Kilopascal Field
 
-A(n) kilopascal. It's defined in terms of a(n) hectopascal.
+A(n) kilopascal. Defined in terms of a(n) hectopascal.
 
 ```csharp
 public static readonly Pressure Kilopascal;

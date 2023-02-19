@@ -3,7 +3,7 @@
 
 ## Lengths.Deciparsec Field
 
-A(n) deciparsec. It's defined in terms of a(n) parsec.
+A(n) deciparsec. Defined in terms of a(n) parsec.
 
 ```csharp
 public static readonly Length Deciparsec;

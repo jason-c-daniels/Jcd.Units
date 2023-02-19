@@ -3,7 +3,7 @@
 
 ## Energies.Kilojoule Field
 
-A(n) kilojoule. It's defined in terms of a(n) hectojoule.
+A(n) kilojoule. Defined in terms of a(n) hectojoule.
 
 ```csharp
 public static readonly Energy Kilojoule;

@@ -3,7 +3,7 @@
 
 ## Lengths.Milliparsec Field
 
-A(n) milliparsec. It's defined in terms of a(n) centiparsec.
+A(n) milliparsec. Defined in terms of a(n) centiparsec.
 
 ```csharp
 public static readonly Length Milliparsec;

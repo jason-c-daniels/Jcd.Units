@@ -3,7 +3,7 @@
 
 ## Amounts.Yoctomole Field
 
-A(n) yoctomole. It's defined in terms of a(n) zeptomole.
+A(n) yoctomole. Defined in terms of a(n) zeptomole.
 
 ```csharp
 public static readonly Amount Yoctomole;

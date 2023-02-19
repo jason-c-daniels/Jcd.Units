@@ -3,7 +3,7 @@
 
 ## Resistances.Quettaohm Field
 
-A(n) quettaohm. It's defined in terms of a(n) ronnaohm.
+A(n) quettaohm. Defined in terms of a(n) ronnaohm.
 
 ```csharp
 public static readonly Resistance Quettaohm;

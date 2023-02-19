@@ -3,7 +3,7 @@
 
 ## Lengths.Foot Field
 
-A(n) foot. It's defined in terms of a(n) inch.
+A(n) foot. Defined in terms of a(n) inch.
 
 ```csharp
 public static readonly Length Foot;

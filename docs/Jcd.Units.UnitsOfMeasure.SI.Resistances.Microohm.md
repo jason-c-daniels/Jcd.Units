@@ -3,7 +3,7 @@
 
 ## Resistances.Microohm Field
 
-A(n) microohm. It's defined in terms of a(n) milliohm.
+A(n) microohm. Defined in terms of a(n) milliohm.
 
 ```csharp
 public static readonly Resistance Microohm;

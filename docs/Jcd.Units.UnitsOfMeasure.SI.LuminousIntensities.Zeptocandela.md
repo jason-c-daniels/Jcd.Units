@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Zeptocandela Field
 
-A(n) zeptocandela. It's defined in terms of a(n) attocandela.
+A(n) zeptocandela. Defined in terms of a(n) attocandela.
 
 ```csharp
 public static readonly LuminousIntensity Zeptocandela;

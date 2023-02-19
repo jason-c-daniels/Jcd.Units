@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Centisiemens Field
 
-A(n) centisiemens. It's defined in terms of a(n) decisiemens.
+A(n) centisiemens. Defined in terms of a(n) decisiemens.
 
 ```csharp
 public static readonly ElectricalConductance Centisiemens;

@@ -3,7 +3,7 @@
 
 ## Lengths.CentilightYear Field
 
-A(n) centilight-year. It's defined in terms of a(n) decilight-year.
+A(n) centilight-year. Defined in terms of a(n) decilight-year.
 
 ```csharp
 public static readonly Length CentilightYear;

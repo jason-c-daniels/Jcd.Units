@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Picoampere Field
 
-A(n) picoampere. It's defined in terms of a(n) nanoampere.
+A(n) picoampere. Defined in terms of a(n) nanoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Picoampere;

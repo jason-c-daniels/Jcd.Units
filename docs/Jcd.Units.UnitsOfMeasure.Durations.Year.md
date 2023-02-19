@@ -3,7 +3,7 @@
 
 ## Durations.Year Field
 
-A(n) year. It's defined in terms of a(n) day.
+A(n) year. Defined in terms of a(n) day.
 
 ```csharp
 public static readonly Duration Year;

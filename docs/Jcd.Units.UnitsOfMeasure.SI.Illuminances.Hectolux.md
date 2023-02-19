@@ -3,7 +3,7 @@
 
 ## Illuminances.Hectolux Field
 
-A(n) hectolux. It's defined in terms of a(n) dekalux.
+A(n) hectolux. Defined in terms of a(n) dekalux.
 
 ```csharp
 public static readonly Illuminance Hectolux;

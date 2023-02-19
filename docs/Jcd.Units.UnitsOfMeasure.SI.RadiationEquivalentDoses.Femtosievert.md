@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Femtosievert Field
 
-A(n) femtosievert. It's defined in terms of a(n) picosievert.
+A(n) femtosievert. Defined in terms of a(n) picosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Femtosievert;

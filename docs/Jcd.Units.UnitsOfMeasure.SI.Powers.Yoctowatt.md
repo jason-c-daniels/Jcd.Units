@@ -3,7 +3,7 @@
 
 ## Powers.Yoctowatt Field
 
-A(n) yoctowatt. It's defined in terms of a(n) zeptowatt.
+A(n) yoctowatt. Defined in terms of a(n) zeptowatt.
 
 ```csharp
 public static readonly Power Yoctowatt;

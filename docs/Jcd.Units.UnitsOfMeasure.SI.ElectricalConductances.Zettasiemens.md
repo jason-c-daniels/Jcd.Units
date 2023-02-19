@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Zettasiemens Field
 
-A(n) zettasiemens. It's defined in terms of a(n) exasiemens.
+A(n) zettasiemens. Defined in terms of a(n) exasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Zettasiemens;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Femtotesla Field
 
-A(n) femtotesla. It's defined in terms of a(n) picotesla.
+A(n) femtotesla. Defined in terms of a(n) picotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Femtotesla;

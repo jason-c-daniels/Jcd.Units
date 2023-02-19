@@ -3,7 +3,7 @@
 
 ## Illuminances.Zeptolux Field
 
-A(n) zeptolux. It's defined in terms of a(n) attolux.
+A(n) zeptolux. Defined in terms of a(n) attolux.
 
 ```csharp
 public static readonly Illuminance Zeptolux;

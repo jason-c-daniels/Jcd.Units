@@ -3,7 +3,7 @@
 
 ## Energies.Rontojoule Field
 
-A(n) rontojoule. It's defined in terms of a(n) yoctojoule.
+A(n) rontojoule. Defined in terms of a(n) yoctojoule.
 
 ```csharp
 public static readonly Energy Rontojoule;

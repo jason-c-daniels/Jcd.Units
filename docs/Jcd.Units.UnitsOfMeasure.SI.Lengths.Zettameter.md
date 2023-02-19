@@ -3,7 +3,7 @@
 
 ## Lengths.Zettameter Field
 
-A(n) zettameter. It's defined in terms of a(n) exameter.
+A(n) zettameter. Defined in terms of a(n) exameter.
 
 ```csharp
 public static readonly Length Zettameter;

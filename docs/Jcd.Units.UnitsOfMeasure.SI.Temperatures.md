@@ -14,4 +14,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | Fields | |
 | :--- | :--- |
 | [DegreesCelcius](Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesCelcius.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesCelcius') | A(n) degrees celcius. |
-| [DegreesKelvin](Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesKelvin.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesKelvin') | A(n) degrees kelvin. It's defined in terms of a(n) degrees celcius. |
+| [DegreesKelvin](Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesKelvin.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesKelvin') | A(n) degrees kelvin. Defined in terms of a(n) degrees celcius. |

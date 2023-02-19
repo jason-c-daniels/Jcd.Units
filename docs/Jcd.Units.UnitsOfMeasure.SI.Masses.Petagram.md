@@ -3,7 +3,7 @@
 
 ## Masses.Petagram Field
 
-A(n) petagram. It's defined in terms of a(n) teragram.
+A(n) petagram. Defined in terms of a(n) teragram.
 
 ```csharp
 public static readonly Mass Petagram;

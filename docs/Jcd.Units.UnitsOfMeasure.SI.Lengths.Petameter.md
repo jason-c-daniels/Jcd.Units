@@ -3,7 +3,7 @@
 
 ## Lengths.Petameter Field
 
-A(n) petameter. It's defined in terms of a(n) terameter.
+A(n) petameter. Defined in terms of a(n) terameter.
 
 ```csharp
 public static readonly Length Petameter;

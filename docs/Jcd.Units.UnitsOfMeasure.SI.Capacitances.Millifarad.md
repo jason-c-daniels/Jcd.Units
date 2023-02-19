@@ -3,7 +3,7 @@
 
 ## Capacitances.Millifarad Field
 
-A(n) millifarad. It's defined in terms of a(n) centifarad.
+A(n) millifarad. Defined in terms of a(n) centifarad.
 
 ```csharp
 public static readonly Capacitance Millifarad;

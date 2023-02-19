@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Zeptosiemens Field
 
-A(n) zeptosiemens. It's defined in terms of a(n) attosiemens.
+A(n) zeptosiemens. Defined in terms of a(n) attosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Zeptosiemens;

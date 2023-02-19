@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Zettaweber Field
 
-A(n) zettaweber. It's defined in terms of a(n) exaweber.
+A(n) zettaweber. Defined in terms of a(n) exaweber.
 
 ```csharp
 public static readonly MagneticFlux Zettaweber;

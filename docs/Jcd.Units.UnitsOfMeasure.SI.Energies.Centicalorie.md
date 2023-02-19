@@ -3,7 +3,7 @@
 
 ## Energies.Centicalorie Field
 
-A(n) centicalorie. It's defined in terms of a(n) decicalorie.
+A(n) centicalorie. Defined in terms of a(n) decicalorie.
 
 ```csharp
 public static readonly Energy Centicalorie;

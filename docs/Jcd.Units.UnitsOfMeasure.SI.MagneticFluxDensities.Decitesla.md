@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Decitesla Field
 
-A(n) decitesla. It's defined in terms of a(n) tesla.
+A(n) decitesla. Defined in terms of a(n) tesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Decitesla;

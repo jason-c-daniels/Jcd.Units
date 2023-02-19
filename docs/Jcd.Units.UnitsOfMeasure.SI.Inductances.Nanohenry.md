@@ -3,7 +3,7 @@
 
 ## Inductances.Nanohenry Field
 
-A(n) nanohenry. It's defined in terms of a(n) microhenry.
+A(n) nanohenry. Defined in terms of a(n) microhenry.
 
 ```csharp
 public static readonly Inductance Nanohenry;

@@ -3,7 +3,7 @@
 
 ## Energies.Zeptojoule Field
 
-A(n) zeptojoule. It's defined in terms of a(n) attojoule.
+A(n) zeptojoule. Defined in terms of a(n) attojoule.
 
 ```csharp
 public static readonly Energy Zeptojoule;

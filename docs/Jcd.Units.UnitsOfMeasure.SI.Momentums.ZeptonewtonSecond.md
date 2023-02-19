@@ -3,7 +3,7 @@
 
 ## Momentums.ZeptonewtonSecond Field
 
-A(n) zeptonewton-second. It's defined in terms of a(n) attonewton-second.
+A(n) zeptonewton-second. Defined in terms of a(n) attonewton-second.
 
 ```csharp
 public static readonly Momentum ZeptonewtonSecond;

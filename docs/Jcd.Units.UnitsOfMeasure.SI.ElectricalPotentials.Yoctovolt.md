@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Yoctovolt Field
 
-A(n) yoctovolt. It's defined in terms of a(n) zeptovolt.
+A(n) yoctovolt. Defined in terms of a(n) zeptovolt.
 
 ```csharp
 public static readonly ElectricalPotential Yoctovolt;

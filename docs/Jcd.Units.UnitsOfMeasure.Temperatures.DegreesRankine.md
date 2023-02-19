@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesRankine Field
 
-A(n) degrees rankine. It's defined in terms of a(n) SI degrees celcius.
+A(n) degrees rankine. Defined in terms of a(n) SI degrees celcius.
 
 ```csharp
 public static readonly Temperature DegreesRankine;

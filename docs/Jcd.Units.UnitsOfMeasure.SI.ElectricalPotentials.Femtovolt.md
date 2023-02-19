@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Femtovolt Field
 
-A(n) femtovolt. It's defined in terms of a(n) picovolt.
+A(n) femtovolt. Defined in terms of a(n) picovolt.
 
 ```csharp
 public static readonly ElectricalPotential Femtovolt;

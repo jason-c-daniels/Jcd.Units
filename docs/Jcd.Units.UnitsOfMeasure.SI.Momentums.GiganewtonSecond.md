@@ -3,7 +3,7 @@
 
 ## Momentums.GiganewtonSecond Field
 
-A(n) giganewton-second. It's defined in terms of a(n) meganewton-second.
+A(n) giganewton-second. Defined in terms of a(n) meganewton-second.
 
 ```csharp
 public static readonly Momentum GiganewtonSecond;

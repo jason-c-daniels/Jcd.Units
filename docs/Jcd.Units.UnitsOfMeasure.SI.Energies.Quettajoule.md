@@ -3,7 +3,7 @@
 
 ## Energies.Quettajoule Field
 
-A(n) quettajoule. It's defined in terms of a(n) ronnajoule.
+A(n) quettajoule. Defined in terms of a(n) ronnajoule.
 
 ```csharp
 public static readonly Energy Quettajoule;

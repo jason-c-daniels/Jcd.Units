@@ -3,7 +3,7 @@
 
 ## Energies.Teracalorie Field
 
-A(n) teracalorie. It's defined in terms of a(n) gigacalorie.
+A(n) teracalorie. Defined in terms of a(n) gigacalorie.
 
 ```csharp
 public static readonly Energy Teracalorie;

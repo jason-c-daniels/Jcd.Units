@@ -3,7 +3,7 @@
 
 ## Energies.Quettacalorie Field
 
-A(n) quettacalorie. It's defined in terms of a(n) ronnacalorie.
+A(n) quettacalorie. Defined in terms of a(n) ronnacalorie.
 
 ```csharp
 public static readonly Energy Quettacalorie;

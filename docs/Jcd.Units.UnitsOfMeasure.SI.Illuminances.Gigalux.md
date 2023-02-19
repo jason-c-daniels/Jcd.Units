@@ -3,7 +3,7 @@
 
 ## Illuminances.Gigalux Field
 
-A(n) gigalux. It's defined in terms of a(n) megalux.
+A(n) gigalux. Defined in terms of a(n) megalux.
 
 ```csharp
 public static readonly Illuminance Gigalux;

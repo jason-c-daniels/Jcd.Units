@@ -3,7 +3,7 @@
 
 ## Illuminances.Exalux Field
 
-A(n) exalux. It's defined in terms of a(n) petalux.
+A(n) exalux. Defined in terms of a(n) petalux.
 
 ```csharp
 public static readonly Illuminance Exalux;

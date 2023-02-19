@@ -3,7 +3,7 @@
 
 ## Capacitances.Attofarad Field
 
-A(n) attofarad. It's defined in terms of a(n) femtofarad.
+A(n) attofarad. Defined in terms of a(n) femtofarad.
 
 ```csharp
 public static readonly Capacitance Attofarad;

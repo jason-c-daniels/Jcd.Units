@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Zettagray Field
 
-A(n) zettagray. It's defined in terms of a(n) exagray.
+A(n) zettagray. Defined in terms of a(n) exagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Zettagray;

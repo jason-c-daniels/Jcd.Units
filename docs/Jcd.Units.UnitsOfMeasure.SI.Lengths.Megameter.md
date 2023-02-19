@@ -3,7 +3,7 @@
 
 ## Lengths.Megameter Field
 
-A(n) megameter. It's defined in terms of a(n) kilometer.
+A(n) megameter. Defined in terms of a(n) kilometer.
 
 ```csharp
 public static readonly Length Megameter;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Attotesla Field
 
-A(n) attotesla. It's defined in terms of a(n) femtotesla.
+A(n) attotesla. Defined in terms of a(n) femtotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Attotesla;

@@ -3,7 +3,7 @@
 
 ## Resistances.Dekaohm Field
 
-A(n) dekaohm. It's defined in terms of a(n) ohm.
+A(n) dekaohm. Defined in terms of a(n) ohm.
 
 ```csharp
 public static readonly Resistance Dekaohm;

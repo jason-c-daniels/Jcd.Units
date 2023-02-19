@@ -3,7 +3,7 @@
 
 ## Lengths.Exameter Field
 
-A(n) exameter. It's defined in terms of a(n) petameter.
+A(n) exameter. Defined in terms of a(n) petameter.
 
 ```csharp
 public static readonly Length Exameter;

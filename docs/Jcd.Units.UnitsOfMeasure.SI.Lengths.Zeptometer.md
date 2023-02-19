@@ -3,7 +3,7 @@
 
 ## Lengths.Zeptometer Field
 
-A(n) zeptometer. It's defined in terms of a(n) attometer.
+A(n) zeptometer. Defined in terms of a(n) attometer.
 
 ```csharp
 public static readonly Length Zeptometer;

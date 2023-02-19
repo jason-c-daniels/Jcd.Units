@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Centigray Field
 
-A(n) centigray. It's defined in terms of a(n) decigray.
+A(n) centigray. Defined in terms of a(n) decigray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Centigray;

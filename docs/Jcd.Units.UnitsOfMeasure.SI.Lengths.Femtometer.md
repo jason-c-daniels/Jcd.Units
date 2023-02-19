@@ -3,7 +3,7 @@
 
 ## Lengths.Femtometer Field
 
-A(n) femtometer. It's defined in terms of a(n) picometer.
+A(n) femtometer. Defined in terms of a(n) picometer.
 
 ```csharp
 public static readonly Length Femtometer;

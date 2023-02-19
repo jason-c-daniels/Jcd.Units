@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Ronnasiemens Field
 
-A(n) ronnasiemens. It's defined in terms of a(n) yottasiemens.
+A(n) ronnasiemens. Defined in terms of a(n) yottasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Ronnasiemens;

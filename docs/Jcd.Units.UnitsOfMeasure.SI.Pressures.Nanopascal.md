@@ -3,7 +3,7 @@
 
 ## Pressures.Nanopascal Field
 
-A(n) nanopascal. It's defined in terms of a(n) micropascal.
+A(n) nanopascal. Defined in terms of a(n) micropascal.
 
 ```csharp
 public static readonly Pressure Nanopascal;

@@ -3,7 +3,7 @@
 
 ## Forces.Giganewton Field
 
-A(n) giganewton. It's defined in terms of a(n) meganewton.
+A(n) giganewton. Defined in terms of a(n) meganewton.
 
 ```csharp
 public static readonly Force Giganewton;

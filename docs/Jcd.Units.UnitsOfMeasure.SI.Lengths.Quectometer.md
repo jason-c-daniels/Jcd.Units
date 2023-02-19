@@ -3,7 +3,7 @@
 
 ## Lengths.Quectometer Field
 
-A(n) quectometer. It's defined in terms of a(n) rontometer.
+A(n) quectometer. Defined in terms of a(n) rontometer.
 
 ```csharp
 public static readonly Length Quectometer;

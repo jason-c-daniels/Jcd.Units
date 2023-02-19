@@ -3,7 +3,7 @@
 
 ## Masses.Gigagram Field
 
-A(n) gigagram. It's defined in terms of a(n) megagram.
+A(n) gigagram. Defined in terms of a(n) megagram.
 
 ```csharp
 public static readonly Mass Gigagram;

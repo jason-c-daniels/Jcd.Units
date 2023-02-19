@@ -3,7 +3,7 @@
 
 ## Masses.Zettagram Field
 
-A(n) zettagram. It's defined in terms of a(n) exagram.
+A(n) zettagram. Defined in terms of a(n) exagram.
 
 ```csharp
 public static readonly Mass Zettagram;

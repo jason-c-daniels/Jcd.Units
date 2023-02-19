@@ -3,7 +3,7 @@
 
 ## Capacitances.Centifarad Field
 
-A(n) centifarad. It's defined in terms of a(n) decifarad.
+A(n) centifarad. Defined in terms of a(n) decifarad.
 
 ```csharp
 public static readonly Capacitance Centifarad;

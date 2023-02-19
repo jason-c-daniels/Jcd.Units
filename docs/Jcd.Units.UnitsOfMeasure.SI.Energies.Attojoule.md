@@ -3,7 +3,7 @@
 
 ## Energies.Attojoule Field
 
-A(n) attojoule. It's defined in terms of a(n) femtojoule.
+A(n) attojoule. Defined in terms of a(n) femtojoule.
 
 ```csharp
 public static readonly Energy Attojoule;

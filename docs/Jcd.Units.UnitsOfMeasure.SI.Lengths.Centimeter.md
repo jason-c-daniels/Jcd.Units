@@ -3,7 +3,7 @@
 
 ## Lengths.Centimeter Field
 
-A(n) centimeter. It's defined in terms of a(n) decimeter.
+A(n) centimeter. Defined in terms of a(n) decimeter.
 
 ```csharp
 public static readonly Length Centimeter;

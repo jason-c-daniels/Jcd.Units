@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Megagray Field
 
-A(n) megagray. It's defined in terms of a(n) kilogray.
+A(n) megagray. Defined in terms of a(n) kilogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Megagray;

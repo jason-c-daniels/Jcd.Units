@@ -3,7 +3,7 @@
 
 ## Lengths.Centiparsec Field
 
-A(n) centiparsec. It's defined in terms of a(n) deciparsec.
+A(n) centiparsec. Defined in terms of a(n) deciparsec.
 
 ```csharp
 public static readonly Length Centiparsec;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Femtokatal Field
 
-A(n) femtokatal. It's defined in terms of a(n) picokatal.
+A(n) femtokatal. Defined in terms of a(n) picokatal.
 
 ```csharp
 public static readonly CatalyticActivity Femtokatal;

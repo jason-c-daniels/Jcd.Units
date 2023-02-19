@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Millisiemens Field
 
-A(n) millisiemens. It's defined in terms of a(n) centisiemens.
+A(n) millisiemens. Defined in terms of a(n) centisiemens.
 
 ```csharp
 public static readonly ElectricalConductance Millisiemens;

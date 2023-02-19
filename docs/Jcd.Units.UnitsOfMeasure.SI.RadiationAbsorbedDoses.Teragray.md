@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Teragray Field
 
-A(n) teragray. It's defined in terms of a(n) gigagray.
+A(n) teragray. Defined in terms of a(n) gigagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Teragray;

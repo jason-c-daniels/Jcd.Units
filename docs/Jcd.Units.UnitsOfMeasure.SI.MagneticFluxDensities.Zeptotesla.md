@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Zeptotesla Field
 
-A(n) zeptotesla. It's defined in terms of a(n) attotesla.
+A(n) zeptotesla. Defined in terms of a(n) attotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Zeptotesla;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Zettasievert Field
 
-A(n) zettasievert. It's defined in terms of a(n) exasievert.
+A(n) zettasievert. Defined in terms of a(n) exasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Zettasievert;

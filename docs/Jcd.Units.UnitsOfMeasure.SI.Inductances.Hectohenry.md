@@ -3,7 +3,7 @@
 
 ## Inductances.Hectohenry Field
 
-A(n) hectohenry. It's defined in terms of a(n) dekahenry.
+A(n) hectohenry. Defined in terms of a(n) dekahenry.
 
 ```csharp
 public static readonly Inductance Hectohenry;

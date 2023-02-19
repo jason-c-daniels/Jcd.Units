@@ -3,7 +3,7 @@
 
 ## Masses.Hectogram Field
 
-A(n) hectogram. It's defined in terms of a(n) dekagram.
+A(n) hectogram. Defined in terms of a(n) dekagram.
 
 ```csharp
 public static readonly Mass Hectogram;

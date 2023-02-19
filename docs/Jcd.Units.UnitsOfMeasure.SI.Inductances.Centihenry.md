@@ -3,7 +3,7 @@
 
 ## Inductances.Centihenry Field
 
-A(n) centihenry. It's defined in terms of a(n) decihenry.
+A(n) centihenry. Defined in terms of a(n) decihenry.
 
 ```csharp
 public static readonly Inductance Centihenry;

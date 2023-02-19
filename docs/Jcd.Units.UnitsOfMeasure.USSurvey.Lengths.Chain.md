@@ -3,7 +3,7 @@
 
 ## Lengths.Chain Field
 
-A(n) chain. It's defined in terms of a(n) SI meter.
+A(n) chain. Defined in terms of a(n) SI meter.
 
 ```csharp
 public static readonly Length Chain;

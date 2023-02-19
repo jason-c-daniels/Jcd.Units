@@ -3,7 +3,7 @@
 
 ## Resistances.Picoohm Field
 
-A(n) picoohm. It's defined in terms of a(n) nanoohm.
+A(n) picoohm. Defined in terms of a(n) nanoohm.
 
 ```csharp
 public static readonly Resistance Picoohm;

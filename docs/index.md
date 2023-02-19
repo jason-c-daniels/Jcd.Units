@@ -4,7 +4,7 @@
 
 | Namespaces | |
 | :--- | :--- |
-| [Jcd.Units](Jcd.Units.md 'Jcd.Units') | Provides TODO: A description of what this namespace provides. |
+| [Jcd.Units](Jcd.Units.md 'Jcd.Units') | Provides a quantity type ([Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')) and various simple [UnitOfMeasure&lt;TUnits&gt;](Jcd.Units.UnitOfMeasure_TUnits_.md 'Jcd.Units.UnitOfMeasure<TUnits>')<br/>implementations to facilitate relatively type and unit of measure safe arithmetic. |
 | [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure.md 'Jcd.Units.UnitsOfMeasure') | Provides units of measure for various unit types. |
 | [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical.md 'Jcd.Units.UnitsOfMeasure.Astronomical') | Provides units of measure for various Astronomical unit types. |
 | [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial') | Provides units of measure for various Imperial unit types. |

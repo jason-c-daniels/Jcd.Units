@@ -3,7 +3,7 @@
 
 ## Lengths.Dekameter Field
 
-A(n) dekameter. It's defined in terms of a(n) meter.
+A(n) dekameter. Defined in terms of a(n) meter.
 
 ```csharp
 public static readonly Length Dekameter;

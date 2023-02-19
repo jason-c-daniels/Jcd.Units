@@ -3,7 +3,7 @@
 
 ## Powers.Rontowatt Field
 
-A(n) rontowatt. It's defined in terms of a(n) yoctowatt.
+A(n) rontowatt. Defined in terms of a(n) yoctowatt.
 
 ```csharp
 public static readonly Power Rontowatt;

@@ -3,7 +3,7 @@
 
 ## Energies.Femtojoule Field
 
-A(n) femtojoule. It's defined in terms of a(n) picojoule.
+A(n) femtojoule. Defined in terms of a(n) picojoule.
 
 ```csharp
 public static readonly Energy Femtojoule;

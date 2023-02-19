@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Ronnatesla Field
 
-A(n) ronnatesla. It's defined in terms of a(n) yottatesla.
+A(n) ronnatesla. Defined in terms of a(n) yottatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Ronnatesla;

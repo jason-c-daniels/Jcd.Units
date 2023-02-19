@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Gigasiemens Field
 
-A(n) gigasiemens. It's defined in terms of a(n) megasiemens.
+A(n) gigasiemens. Defined in terms of a(n) megasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Gigasiemens;

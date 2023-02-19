@@ -3,7 +3,7 @@
 
 ## Lengths.LightWeek Field
 
-A(n) light-week. It's defined in terms of a(n) light-day.
+A(n) light-week. Defined in terms of a(n) light-day.
 
 ```csharp
 public static readonly Length LightWeek;

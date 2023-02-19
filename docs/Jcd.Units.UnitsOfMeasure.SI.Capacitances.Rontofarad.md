@@ -3,7 +3,7 @@
 
 ## Capacitances.Rontofarad Field
 
-A(n) rontofarad. It's defined in terms of a(n) yoctofarad.
+A(n) rontofarad. Defined in terms of a(n) yoctofarad.
 
 ```csharp
 public static readonly Capacitance Rontofarad;

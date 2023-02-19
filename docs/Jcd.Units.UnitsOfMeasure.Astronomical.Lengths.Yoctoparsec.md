@@ -3,7 +3,7 @@
 
 ## Lengths.Yoctoparsec Field
 
-A(n) yoctoparsec. It's defined in terms of a(n) zeptoparsec.
+A(n) yoctoparsec. Defined in terms of a(n) zeptoparsec.
 
 ```csharp
 public static readonly Length Yoctoparsec;

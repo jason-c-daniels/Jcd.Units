@@ -3,7 +3,7 @@
 
 ## Frequencies.Nanohertz Field
 
-A(n) nanohertz. It's defined in terms of a(n) microhertz.
+A(n) nanohertz. Defined in terms of a(n) microhertz.
 
 ```csharp
 public static readonly Frequency Nanohertz;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Centivolt Field
 
-A(n) centivolt. It's defined in terms of a(n) decivolt.
+A(n) centivolt. Defined in terms of a(n) decivolt.
 
 ```csharp
 public static readonly ElectricalPotential Centivolt;

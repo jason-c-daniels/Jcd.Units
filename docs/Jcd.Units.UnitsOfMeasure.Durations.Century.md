@@ -3,7 +3,7 @@
 
 ## Durations.Century Field
 
-A(n) century. It's defined in terms of a(n) decade.
+A(n) century. Defined in terms of a(n) decade.
 
 ```csharp
 public static readonly Duration Century;

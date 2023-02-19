@@ -3,7 +3,7 @@
 
 ## Frequencies.Microhertz Field
 
-A(n) microhertz. It's defined in terms of a(n) millihertz.
+A(n) microhertz. Defined in terms of a(n) millihertz.
 
 ```csharp
 public static readonly Frequency Microhertz;

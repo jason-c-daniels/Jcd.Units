@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Microampere Field
 
-A(n) microampere. It's defined in terms of a(n) milliampere.
+A(n) microampere. Defined in terms of a(n) milliampere.
 
 ```csharp
 public static readonly ElectricalCurrent Microampere;

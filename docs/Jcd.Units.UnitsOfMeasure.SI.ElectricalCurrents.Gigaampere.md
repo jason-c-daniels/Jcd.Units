@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Gigaampere Field
 
-A(n) gigaampere. It's defined in terms of a(n) megaampere.
+A(n) gigaampere. Defined in terms of a(n) megaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Gigaampere;

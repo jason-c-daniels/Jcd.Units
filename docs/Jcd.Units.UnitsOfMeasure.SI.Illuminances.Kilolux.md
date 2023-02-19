@@ -3,7 +3,7 @@
 
 ## Illuminances.Kilolux Field
 
-A(n) kilolux. It's defined in terms of a(n) hectolux.
+A(n) kilolux. Defined in terms of a(n) hectolux.
 
 ```csharp
 public static readonly Illuminance Kilolux;

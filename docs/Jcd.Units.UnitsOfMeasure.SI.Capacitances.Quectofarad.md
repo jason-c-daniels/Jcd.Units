@@ -3,7 +3,7 @@
 
 ## Capacitances.Quectofarad Field
 
-A(n) quectofarad. It's defined in terms of a(n) rontofarad.
+A(n) quectofarad. Defined in terms of a(n) rontofarad.
 
 ```csharp
 public static readonly Capacitance Quectofarad;

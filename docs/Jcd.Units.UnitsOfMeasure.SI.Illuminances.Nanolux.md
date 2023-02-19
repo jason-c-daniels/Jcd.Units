@@ -3,7 +3,7 @@
 
 ## Illuminances.Nanolux Field
 
-A(n) nanolux. It's defined in terms of a(n) microlux.
+A(n) nanolux. Defined in terms of a(n) microlux.
 
 ```csharp
 public static readonly Illuminance Nanolux;

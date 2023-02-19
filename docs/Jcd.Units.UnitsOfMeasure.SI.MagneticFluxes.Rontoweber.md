@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Rontoweber Field
 
-A(n) rontoweber. It's defined in terms of a(n) yoctoweber.
+A(n) rontoweber. Defined in terms of a(n) yoctoweber.
 
 ```csharp
 public static readonly MagneticFlux Rontoweber;

@@ -3,7 +3,7 @@
 
 ## Durations.Centisecond Field
 
-A(n) centisecond. It's defined in terms of a(n) decisecond.
+A(n) centisecond. Defined in terms of a(n) decisecond.
 
 ```csharp
 public static readonly Duration Centisecond;

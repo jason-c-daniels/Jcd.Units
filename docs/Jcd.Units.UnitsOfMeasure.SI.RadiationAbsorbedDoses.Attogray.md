@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Attogray Field
 
-A(n) attogray. It's defined in terms of a(n) femtogray.
+A(n) attogray. Defined in terms of a(n) femtogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Attogray;

@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Quectocoulomb Field
 
-A(n) quectocoulomb. It's defined in terms of a(n) rontocoulomb.
+A(n) quectocoulomb. Defined in terms of a(n) rontocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Quectocoulomb;

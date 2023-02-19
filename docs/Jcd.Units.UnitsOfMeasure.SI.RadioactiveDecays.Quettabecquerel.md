@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Quettabecquerel Field
 
-A(n) quettabecquerel. It's defined in terms of a(n) ronnabecquerel.
+A(n) quettabecquerel. Defined in terms of a(n) ronnabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Quettabecquerel;

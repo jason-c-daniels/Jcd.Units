@@ -3,7 +3,7 @@
 
 ## Lengths.Zeptoparsec Field
 
-A(n) zeptoparsec. It's defined in terms of a(n) attoparsec.
+A(n) zeptoparsec. Defined in terms of a(n) attoparsec.
 
 ```csharp
 public static readonly Length Zeptoparsec;

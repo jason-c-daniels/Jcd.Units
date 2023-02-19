@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Rontolumen Field
 
-A(n) rontolumen. It's defined in terms of a(n) yoctolumen.
+A(n) rontolumen. Defined in terms of a(n) yoctolumen.
 
 ```csharp
 public static readonly LuminousFlux Rontolumen;

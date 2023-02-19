@@ -3,7 +3,7 @@
 
 ## Pressures.Centipascal Field
 
-A(n) centipascal. It's defined in terms of a(n) decipascal.
+A(n) centipascal. Defined in terms of a(n) decipascal.
 
 ```csharp
 public static readonly Pressure Centipascal;

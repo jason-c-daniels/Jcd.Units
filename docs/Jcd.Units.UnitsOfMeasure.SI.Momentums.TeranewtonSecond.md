@@ -3,7 +3,7 @@
 
 ## Momentums.TeranewtonSecond Field
 
-A(n) teranewton-second. It's defined in terms of a(n) giganewton-second.
+A(n) teranewton-second. Defined in terms of a(n) giganewton-second.
 
 ```csharp
 public static readonly Momentum TeranewtonSecond;

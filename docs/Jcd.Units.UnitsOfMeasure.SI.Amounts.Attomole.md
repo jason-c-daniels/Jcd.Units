@@ -3,7 +3,7 @@
 
 ## Amounts.Attomole Field
 
-A(n) attomole. It's defined in terms of a(n) femtomole.
+A(n) attomole. Defined in terms of a(n) femtomole.
 
 ```csharp
 public static readonly Amount Attomole;

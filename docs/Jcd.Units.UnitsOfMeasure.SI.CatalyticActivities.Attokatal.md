@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Attokatal Field
 
-A(n) attokatal. It's defined in terms of a(n) femtokatal.
+A(n) attokatal. Defined in terms of a(n) femtokatal.
 
 ```csharp
 public static readonly CatalyticActivity Attokatal;

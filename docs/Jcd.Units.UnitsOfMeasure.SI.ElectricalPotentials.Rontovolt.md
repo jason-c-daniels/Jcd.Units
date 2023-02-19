@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Rontovolt Field
 
-A(n) rontovolt. It's defined in terms of a(n) yoctovolt.
+A(n) rontovolt. Defined in terms of a(n) yoctovolt.
 
 ```csharp
 public static readonly ElectricalPotential Rontovolt;

@@ -3,7 +3,7 @@
 
 ## Forces.Ronnanewton Field
 
-A(n) ronnanewton. It's defined in terms of a(n) yottanewton.
+A(n) ronnanewton. Defined in terms of a(n) yottanewton.
 
 ```csharp
 public static readonly Force Ronnanewton;

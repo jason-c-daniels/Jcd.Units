@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Yottasiemens Field
 
-A(n) yottasiemens. It's defined in terms of a(n) zettasiemens.
+A(n) yottasiemens. Defined in terms of a(n) zettasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Yottasiemens;

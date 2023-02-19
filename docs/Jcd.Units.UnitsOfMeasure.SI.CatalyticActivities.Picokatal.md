@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Picokatal Field
 
-A(n) picokatal. It's defined in terms of a(n) nanokatal.
+A(n) picokatal. Defined in terms of a(n) nanokatal.
 
 ```csharp
 public static readonly CatalyticActivity Picokatal;

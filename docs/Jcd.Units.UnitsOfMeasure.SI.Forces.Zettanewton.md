@@ -3,7 +3,7 @@
 
 ## Forces.Zettanewton Field
 
-A(n) zettanewton. It's defined in terms of a(n) exanewton.
+A(n) zettanewton. Defined in terms of a(n) exanewton.
 
 ```csharp
 public static readonly Force Zettanewton;

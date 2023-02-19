@@ -3,7 +3,7 @@
 
 ## Powers.Centiwatt Field
 
-A(n) centiwatt. It's defined in terms of a(n) deciwatt.
+A(n) centiwatt. Defined in terms of a(n) deciwatt.
 
 ```csharp
 public static readonly Power Centiwatt;

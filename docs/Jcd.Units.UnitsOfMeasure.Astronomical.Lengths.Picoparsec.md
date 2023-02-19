@@ -3,7 +3,7 @@
 
 ## Lengths.Picoparsec Field
 
-A(n) picoparsec. It's defined in terms of a(n) nanoparsec.
+A(n) picoparsec. Defined in terms of a(n) nanoparsec.
 
 ```csharp
 public static readonly Length Picoparsec;

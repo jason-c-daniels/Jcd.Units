@@ -3,7 +3,7 @@
 
 ## Masses.Exagram Field
 
-A(n) exagram. It's defined in terms of a(n) petagram.
+A(n) exagram. Defined in terms of a(n) petagram.
 
 ```csharp
 public static readonly Mass Exagram;

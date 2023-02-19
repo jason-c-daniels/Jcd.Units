@@ -3,7 +3,7 @@
 
 ## Lengths.RonnalightYear Field
 
-A(n) ronnalight-year. It's defined in terms of a(n) yottalight-year.
+A(n) ronnalight-year. Defined in terms of a(n) yottalight-year.
 
 ```csharp
 public static readonly Length RonnalightYear;

@@ -3,7 +3,7 @@
 
 ## Lengths.Parsec Field
 
-A(n) parsec. It's defined in terms of a(n) light-year.
+A(n) parsec. Defined in terms of a(n) light-year.
 
 ```csharp
 public static readonly Length Parsec;

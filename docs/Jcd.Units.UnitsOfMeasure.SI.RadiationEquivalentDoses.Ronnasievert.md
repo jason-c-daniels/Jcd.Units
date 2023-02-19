@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Ronnasievert Field
 
-A(n) ronnasievert. It's defined in terms of a(n) yottasievert.
+A(n) ronnasievert. Defined in terms of a(n) yottasievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Ronnasievert;

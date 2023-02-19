@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Quettalumen Field
 
-A(n) quettalumen. It's defined in terms of a(n) ronnalumen.
+A(n) quettalumen. Defined in terms of a(n) ronnalumen.
 
 ```csharp
 public static readonly LuminousFlux Quettalumen;

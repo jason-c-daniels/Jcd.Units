@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Zeptoweber Field
 
-A(n) zeptoweber. It's defined in terms of a(n) attoweber.
+A(n) zeptoweber. Defined in terms of a(n) attoweber.
 
 ```csharp
 public static readonly MagneticFlux Zeptoweber;

@@ -3,7 +3,7 @@
 
 ## Energies.Picocalorie Field
 
-A(n) picocalorie. It's defined in terms of a(n) nanocalorie.
+A(n) picocalorie. Defined in terms of a(n) nanocalorie.
 
 ```csharp
 public static readonly Energy Picocalorie;

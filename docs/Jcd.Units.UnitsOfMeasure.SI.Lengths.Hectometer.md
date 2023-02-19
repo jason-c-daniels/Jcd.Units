@@ -3,7 +3,7 @@
 
 ## Lengths.Hectometer Field
 
-A(n) hectometer. It's defined in terms of a(n) dekameter.
+A(n) hectometer. Defined in terms of a(n) dekameter.
 
 ```csharp
 public static readonly Length Hectometer;

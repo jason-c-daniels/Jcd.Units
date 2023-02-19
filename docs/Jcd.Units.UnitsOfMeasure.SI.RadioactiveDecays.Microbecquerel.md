@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Microbecquerel Field
 
-A(n) microbecquerel. It's defined in terms of a(n) millibecquerel.
+A(n) microbecquerel. Defined in terms of a(n) millibecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Microbecquerel;

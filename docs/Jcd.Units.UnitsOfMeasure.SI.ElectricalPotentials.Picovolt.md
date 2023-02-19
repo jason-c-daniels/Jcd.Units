@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Picovolt Field
 
-A(n) picovolt. It's defined in terms of a(n) nanovolt.
+A(n) picovolt. Defined in terms of a(n) nanovolt.
 
 ```csharp
 public static readonly ElectricalPotential Picovolt;

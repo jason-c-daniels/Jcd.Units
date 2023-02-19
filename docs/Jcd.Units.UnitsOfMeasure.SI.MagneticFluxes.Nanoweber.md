@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Nanoweber Field
 
-A(n) nanoweber. It's defined in terms of a(n) microweber.
+A(n) nanoweber. Defined in terms of a(n) microweber.
 
 ```csharp
 public static readonly MagneticFlux Nanoweber;

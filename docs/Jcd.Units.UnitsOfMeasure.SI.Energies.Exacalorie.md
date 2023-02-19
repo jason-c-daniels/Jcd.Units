@@ -3,7 +3,7 @@
 
 ## Energies.Exacalorie Field
 
-A(n) exacalorie. It's defined in terms of a(n) petacalorie.
+A(n) exacalorie. Defined in terms of a(n) petacalorie.
 
 ```csharp
 public static readonly Energy Exacalorie;

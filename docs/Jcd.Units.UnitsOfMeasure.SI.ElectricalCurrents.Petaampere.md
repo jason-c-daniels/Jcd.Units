@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Petaampere Field
 
-A(n) petaampere. It's defined in terms of a(n) teraampere.
+A(n) petaampere. Defined in terms of a(n) teraampere.
 
 ```csharp
 public static readonly ElectricalCurrent Petaampere;

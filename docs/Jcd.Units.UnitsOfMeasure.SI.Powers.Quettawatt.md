@@ -3,7 +3,7 @@
 
 ## Powers.Quettawatt Field
 
-A(n) quettawatt. It's defined in terms of a(n) ronnawatt.
+A(n) quettawatt. Defined in terms of a(n) ronnawatt.
 
 ```csharp
 public static readonly Power Quettawatt;

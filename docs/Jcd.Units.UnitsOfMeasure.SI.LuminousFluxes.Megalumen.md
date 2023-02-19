@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Megalumen Field
 
-A(n) megalumen. It's defined in terms of a(n) kilolumen.
+A(n) megalumen. Defined in terms of a(n) kilolumen.
 
 ```csharp
 public static readonly LuminousFlux Megalumen;

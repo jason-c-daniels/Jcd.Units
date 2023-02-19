@@ -3,7 +3,7 @@
 
 ## Durations.Quectosecond Field
 
-A(n) quectosecond. It's defined in terms of a(n) rontosecond.
+A(n) quectosecond. Defined in terms of a(n) rontosecond.
 
 ```csharp
 public static readonly Duration Quectosecond;

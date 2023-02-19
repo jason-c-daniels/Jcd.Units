@@ -3,7 +3,7 @@
 
 ## Resistances.Megaohm Field
 
-A(n) megaohm. It's defined in terms of a(n) kiloohm.
+A(n) megaohm. Defined in terms of a(n) kiloohm.
 
 ```csharp
 public static readonly Resistance Megaohm;

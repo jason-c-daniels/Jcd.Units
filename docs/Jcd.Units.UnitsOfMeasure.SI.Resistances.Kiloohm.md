@@ -3,7 +3,7 @@
 
 ## Resistances.Kiloohm Field
 
-A(n) kiloohm. It's defined in terms of a(n) hectoohm.
+A(n) kiloohm. Defined in terms of a(n) hectoohm.
 
 ```csharp
 public static readonly Resistance Kiloohm;

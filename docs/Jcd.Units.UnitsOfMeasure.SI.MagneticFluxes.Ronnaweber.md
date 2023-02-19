@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Ronnaweber Field
 
-A(n) ronnaweber. It's defined in terms of a(n) yottaweber.
+A(n) ronnaweber. Defined in terms of a(n) yottaweber.
 
 ```csharp
 public static readonly MagneticFlux Ronnaweber;

@@ -3,7 +3,7 @@
 
 ## Momentums.MicronewtonSecond Field
 
-A(n) micronewton-second. It's defined in terms of a(n) millinewton-second.
+A(n) micronewton-second. Defined in terms of a(n) millinewton-second.
 
 ```csharp
 public static readonly Momentum MicronewtonSecond;

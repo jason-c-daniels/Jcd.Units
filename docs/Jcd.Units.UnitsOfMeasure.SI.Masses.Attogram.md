@@ -3,7 +3,7 @@
 
 ## Masses.Attogram Field
 
-A(n) attogram. It's defined in terms of a(n) femtogram.
+A(n) attogram. Defined in terms of a(n) femtogram.
 
 ```csharp
 public static readonly Mass Attogram;

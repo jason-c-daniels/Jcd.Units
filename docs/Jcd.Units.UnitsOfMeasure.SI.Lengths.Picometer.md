@@ -3,7 +3,7 @@
 
 ## Lengths.Picometer Field
 
-A(n) picometer. It's defined in terms of a(n) nanometer.
+A(n) picometer. Defined in terms of a(n) nanometer.
 
 ```csharp
 public static readonly Length Picometer;

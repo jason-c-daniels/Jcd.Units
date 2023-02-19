@@ -3,7 +3,7 @@
 
 ## Powers.Femtowatt Field
 
-A(n) femtowatt. It's defined in terms of a(n) picowatt.
+A(n) femtowatt. Defined in terms of a(n) picowatt.
 
 ```csharp
 public static readonly Power Femtowatt;

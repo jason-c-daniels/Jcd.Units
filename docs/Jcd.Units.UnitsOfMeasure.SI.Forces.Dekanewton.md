@@ -3,7 +3,7 @@
 
 ## Forces.Dekanewton Field
 
-A(n) dekanewton. It's defined in terms of a(n) newton.
+A(n) dekanewton. Defined in terms of a(n) newton.
 
 ```csharp
 public static readonly Force Dekanewton;

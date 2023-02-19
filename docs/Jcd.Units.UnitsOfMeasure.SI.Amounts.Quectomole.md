@@ -3,7 +3,7 @@
 
 ## Amounts.Quectomole Field
 
-A(n) quectomole. It's defined in terms of a(n) rontomole.
+A(n) quectomole. Defined in terms of a(n) rontomole.
 
 ```csharp
 public static readonly Amount Quectomole;

@@ -3,7 +3,7 @@
 
 ## Amounts.Petamole Field
 
-A(n) petamole. It's defined in terms of a(n) teramole.
+A(n) petamole. Defined in terms of a(n) teramole.
 
 ```csharp
 public static readonly Amount Petamole;

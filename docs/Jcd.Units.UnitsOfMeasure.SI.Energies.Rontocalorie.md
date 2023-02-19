@@ -3,7 +3,7 @@
 
 ## Energies.Rontocalorie Field
 
-A(n) rontocalorie. It's defined in terms of a(n) yoctocalorie.
+A(n) rontocalorie. Defined in terms of a(n) yoctocalorie.
 
 ```csharp
 public static readonly Energy Rontocalorie;

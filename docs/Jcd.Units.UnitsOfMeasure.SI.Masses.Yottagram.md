@@ -3,7 +3,7 @@
 
 ## Masses.Yottagram Field
 
-A(n) yottagram. It's defined in terms of a(n) zettagram.
+A(n) yottagram. Defined in terms of a(n) zettagram.
 
 ```csharp
 public static readonly Mass Yottagram;

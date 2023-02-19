@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Femtogray Field
 
-A(n) femtogray. It's defined in terms of a(n) picogray.
+A(n) femtogray. Defined in terms of a(n) picogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Femtogray;

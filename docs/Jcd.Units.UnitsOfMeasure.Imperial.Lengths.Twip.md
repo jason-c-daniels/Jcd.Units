@@ -3,7 +3,7 @@
 
 ## Lengths.Twip Field
 
-A(n) twip. It's defined in terms of a(n) foot.
+A(n) twip. Defined in terms of a(n) foot.
 
 ```csharp
 public static readonly Length Twip;

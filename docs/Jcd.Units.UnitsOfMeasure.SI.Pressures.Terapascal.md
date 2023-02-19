@@ -3,7 +3,7 @@
 
 ## Pressures.Terapascal Field
 
-A(n) terapascal. It's defined in terms of a(n) gigapascal.
+A(n) terapascal. Defined in terms of a(n) gigapascal.
 
 ```csharp
 public static readonly Pressure Terapascal;

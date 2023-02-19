@@ -3,7 +3,7 @@
 
 ## Energies.Megajoule Field
 
-A(n) megajoule. It's defined in terms of a(n) kilojoule.
+A(n) megajoule. Defined in terms of a(n) kilojoule.
 
 ```csharp
 public static readonly Energy Megajoule;

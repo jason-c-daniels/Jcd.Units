@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Nanovolt Field
 
-A(n) nanovolt. It's defined in terms of a(n) microvolt.
+A(n) nanovolt. Defined in terms of a(n) microvolt.
 
 ```csharp
 public static readonly ElectricalPotential Nanovolt;

@@ -3,7 +3,7 @@
 
 ## Resistances.Yoctoohm Field
 
-A(n) yoctoohm. It's defined in terms of a(n) zeptoohm.
+A(n) yoctoohm. Defined in terms of a(n) zeptoohm.
 
 ```csharp
 public static readonly Resistance Yoctoohm;

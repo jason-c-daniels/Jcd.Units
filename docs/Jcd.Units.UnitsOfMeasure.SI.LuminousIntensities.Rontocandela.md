@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Rontocandela Field
 
-A(n) rontocandela. It's defined in terms of a(n) yoctocandela.
+A(n) rontocandela. Defined in terms of a(n) yoctocandela.
 
 ```csharp
 public static readonly LuminousIntensity Rontocandela;

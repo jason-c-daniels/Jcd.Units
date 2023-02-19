@@ -3,7 +3,7 @@
 
 ## Lengths.Thou Field
 
-A(n) thou. It's defined in terms of a(n) foot.
+A(n) thou. Defined in terms of a(n) foot.
 
 ```csharp
 public static readonly Length Thou;

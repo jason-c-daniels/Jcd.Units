@@ -3,7 +3,7 @@
 
 ## Capacitances.Picofarad Field
 
-A(n) picofarad. It's defined in terms of a(n) nanofarad.
+A(n) picofarad. Defined in terms of a(n) nanofarad.
 
 ```csharp
 public static readonly Capacitance Picofarad;

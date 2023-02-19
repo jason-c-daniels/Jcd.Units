@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Gigavolt Field
 
-A(n) gigavolt. It's defined in terms of a(n) megavolt.
+A(n) gigavolt. Defined in terms of a(n) megavolt.
 
 ```csharp
 public static readonly ElectricalPotential Gigavolt;

@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Attokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Attokatal') | A(n) attokatal. It's defined in terms of a(n) femtokatal. |
-| [Centikatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Centikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Centikatal') | A(n) centikatal. It's defined in terms of a(n) decikatal. |
-| [Decikatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Decikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Decikatal') | A(n) decikatal. It's defined in terms of a(n) katal. |
-| [Dekakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Dekakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Dekakatal') | A(n) dekakatal. It's defined in terms of a(n) katal. |
-| [Exakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Exakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Exakatal') | A(n) exakatal. It's defined in terms of a(n) petakatal. |
-| [Femtokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Femtokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Femtokatal') | A(n) femtokatal. It's defined in terms of a(n) picokatal. |
-| [Gigakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Gigakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Gigakatal') | A(n) gigakatal. It's defined in terms of a(n) megakatal. |
-| [Hectokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Hectokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Hectokatal') | A(n) hectokatal. It's defined in terms of a(n) dekakatal. |
+| [Attokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Attokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Attokatal') | A(n) attokatal. Defined in terms of a(n) femtokatal. |
+| [Centikatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Centikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Centikatal') | A(n) centikatal. Defined in terms of a(n) decikatal. |
+| [Decikatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Decikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Decikatal') | A(n) decikatal. Defined in terms of a(n) katal. |
+| [Dekakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Dekakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Dekakatal') | A(n) dekakatal. Defined in terms of a(n) katal. |
+| [Exakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Exakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Exakatal') | A(n) exakatal. Defined in terms of a(n) petakatal. |
+| [Femtokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Femtokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Femtokatal') | A(n) femtokatal. Defined in terms of a(n) picokatal. |
+| [Gigakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Gigakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Gigakatal') | A(n) gigakatal. Defined in terms of a(n) megakatal. |
+| [Hectokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Hectokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Hectokatal') | A(n) hectokatal. Defined in terms of a(n) dekakatal. |
 | [Katal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Katal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Katal') | A(n) katal. |
-| [Kilokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Kilokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Kilokatal') | A(n) kilokatal. It's defined in terms of a(n) hectokatal. |
-| [Megakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Megakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Megakatal') | A(n) megakatal. It's defined in terms of a(n) kilokatal. |
-| [Microkatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Microkatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Microkatal') | A(n) microkatal. It's defined in terms of a(n) millikatal. |
-| [Millikatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Millikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Millikatal') | A(n) millikatal. It's defined in terms of a(n) centikatal. |
-| [Nanokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Nanokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Nanokatal') | A(n) nanokatal. It's defined in terms of a(n) microkatal. |
-| [Petakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Petakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Petakatal') | A(n) petakatal. It's defined in terms of a(n) terakatal. |
-| [Picokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Picokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Picokatal') | A(n) picokatal. It's defined in terms of a(n) nanokatal. |
-| [Quectokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quectokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quectokatal') | A(n) quectokatal. It's defined in terms of a(n) rontokatal. |
-| [Quettakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quettakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quettakatal') | A(n) quettakatal. It's defined in terms of a(n) ronnakatal. |
-| [Ronnakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Ronnakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Ronnakatal') | A(n) ronnakatal. It's defined in terms of a(n) yottakatal. |
-| [Rontokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Rontokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Rontokatal') | A(n) rontokatal. It's defined in terms of a(n) yoctokatal. |
-| [Terakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Terakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Terakatal') | A(n) terakatal. It's defined in terms of a(n) gigakatal. |
-| [Yoctokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yoctokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yoctokatal') | A(n) yoctokatal. It's defined in terms of a(n) zeptokatal. |
-| [Yottakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yottakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yottakatal') | A(n) yottakatal. It's defined in terms of a(n) zettakatal. |
-| [Zeptokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zeptokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zeptokatal') | A(n) zeptokatal. It's defined in terms of a(n) attokatal. |
-| [Zettakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zettakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zettakatal') | A(n) zettakatal. It's defined in terms of a(n) exakatal. |
+| [Kilokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Kilokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Kilokatal') | A(n) kilokatal. Defined in terms of a(n) hectokatal. |
+| [Megakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Megakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Megakatal') | A(n) megakatal. Defined in terms of a(n) kilokatal. |
+| [Microkatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Microkatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Microkatal') | A(n) microkatal. Defined in terms of a(n) millikatal. |
+| [Millikatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Millikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Millikatal') | A(n) millikatal. Defined in terms of a(n) centikatal. |
+| [Nanokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Nanokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Nanokatal') | A(n) nanokatal. Defined in terms of a(n) microkatal. |
+| [Petakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Petakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Petakatal') | A(n) petakatal. Defined in terms of a(n) terakatal. |
+| [Picokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Picokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Picokatal') | A(n) picokatal. Defined in terms of a(n) nanokatal. |
+| [Quectokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quectokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quectokatal') | A(n) quectokatal. Defined in terms of a(n) rontokatal. |
+| [Quettakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quettakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quettakatal') | A(n) quettakatal. Defined in terms of a(n) ronnakatal. |
+| [Ronnakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Ronnakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Ronnakatal') | A(n) ronnakatal. Defined in terms of a(n) yottakatal. |
+| [Rontokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Rontokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Rontokatal') | A(n) rontokatal. Defined in terms of a(n) yoctokatal. |
+| [Terakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Terakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Terakatal') | A(n) terakatal. Defined in terms of a(n) gigakatal. |
+| [Yoctokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yoctokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yoctokatal') | A(n) yoctokatal. Defined in terms of a(n) zeptokatal. |
+| [Yottakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yottakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yottakatal') | A(n) yottakatal. Defined in terms of a(n) zettakatal. |
+| [Zeptokatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zeptokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zeptokatal') | A(n) zeptokatal. Defined in terms of a(n) attokatal. |
+| [Zettakatal](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zettakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zettakatal') | A(n) zettakatal. Defined in terms of a(n) exakatal. |

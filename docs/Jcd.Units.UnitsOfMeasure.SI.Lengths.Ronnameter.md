@@ -3,7 +3,7 @@
 
 ## Lengths.Ronnameter Field
 
-A(n) ronnameter. It's defined in terms of a(n) yottameter.
+A(n) ronnameter. Defined in terms of a(n) yottameter.
 
 ```csharp
 public static readonly Length Ronnameter;

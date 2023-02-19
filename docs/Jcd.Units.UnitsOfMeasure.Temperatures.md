@@ -13,8 +13,8 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [DegreesDelisle](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle') | A(n) degrees delisle. It's defined in terms of a(n) SI degrees celcius. |
-| [DegreesNewton](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton') | A(n) degrees newton. It's defined in terms of a(n) SI degrees celcius. |
-| [DegreesRankine](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRankine.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRankine') | A(n) degrees rankine. It's defined in terms of a(n) SI degrees celcius. |
-| [DegreesRéaumur](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur') | A(n) degrees réaumur. It's defined in terms of a(n) SI degrees celcius. |
-| [DegreesRømer](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer') | A(n) degrees rømer. It's defined in terms of a(n) SI degrees celcius. |
+| [DegreesDelisle](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle') | A(n) degrees delisle. Defined in terms of a(n) SI degrees celcius. |
+| [DegreesNewton](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton') | A(n) degrees newton. Defined in terms of a(n) SI degrees celcius. |
+| [DegreesRankine](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRankine.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRankine') | A(n) degrees rankine. Defined in terms of a(n) SI degrees celcius. |
+| [DegreesRéaumur](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur') | A(n) degrees réaumur. Defined in terms of a(n) SI degrees celcius. |
+| [DegreesRømer](Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer.md 'Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer') | A(n) degrees rømer. Defined in terms of a(n) SI degrees celcius. |

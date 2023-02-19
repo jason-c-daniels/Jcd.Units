@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Megakatal Field
 
-A(n) megakatal. It's defined in terms of a(n) kilokatal.
+A(n) megakatal. Defined in terms of a(n) kilokatal.
 
 ```csharp
 public static readonly CatalyticActivity Megakatal;

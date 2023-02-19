@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Zettacoulomb Field
 
-A(n) zettacoulomb. It's defined in terms of a(n) exacoulomb.
+A(n) zettacoulomb. Defined in terms of a(n) exacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Zettacoulomb;

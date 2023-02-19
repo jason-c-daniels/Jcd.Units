@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [DegreesFahrenheit](Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.DegreesFahrenheit.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.DegreesFahrenheit') | A(n) degrees fahrenheit. It's defined in terms of a(n) SI degrees celcius. |
+| [DegreesFahrenheit](Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.DegreesFahrenheit.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.DegreesFahrenheit') | A(n) degrees fahrenheit. Defined in terms of a(n) SI degrees celcius. |

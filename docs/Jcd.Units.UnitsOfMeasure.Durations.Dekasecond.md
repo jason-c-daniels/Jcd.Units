@@ -3,7 +3,7 @@
 
 ## Durations.Dekasecond Field
 
-A(n) dekasecond. It's defined in terms of a(n) second.
+A(n) dekasecond. Defined in terms of a(n) second.
 
 ```csharp
 public static readonly Duration Dekasecond;

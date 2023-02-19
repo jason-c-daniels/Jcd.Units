@@ -3,7 +3,7 @@
 
 ## Powers.Microwatt Field
 
-A(n) microwatt. It's defined in terms of a(n) milliwatt.
+A(n) microwatt. Defined in terms of a(n) milliwatt.
 
 ```csharp
 public static readonly Power Microwatt;

@@ -3,7 +3,7 @@
 
 ## Inductances.Zettahenry Field
 
-A(n) zettahenry. It's defined in terms of a(n) exahenry.
+A(n) zettahenry. Defined in terms of a(n) exahenry.
 
 ```csharp
 public static readonly Inductance Zettahenry;

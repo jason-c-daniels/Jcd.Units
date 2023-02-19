@@ -3,7 +3,7 @@
 
 ## Lengths.MicrolightYear Field
 
-A(n) microlight-year. It's defined in terms of a(n) millilight-year.
+A(n) microlight-year. Defined in terms of a(n) millilight-year.
 
 ```csharp
 public static readonly Length MicrolightYear;

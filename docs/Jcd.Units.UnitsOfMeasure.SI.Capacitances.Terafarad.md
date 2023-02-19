@@ -3,7 +3,7 @@
 
 ## Capacitances.Terafarad Field
 
-A(n) terafarad. It's defined in terms of a(n) gigafarad.
+A(n) terafarad. Defined in terms of a(n) gigafarad.
 
 ```csharp
 public static readonly Capacitance Terafarad;

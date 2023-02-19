@@ -3,7 +3,7 @@
 
 ## Lengths.ZeptolightYear Field
 
-A(n) zeptolight-year. It's defined in terms of a(n) attolight-year.
+A(n) zeptolight-year. Defined in terms of a(n) attolight-year.
 
 ```csharp
 public static readonly Length ZeptolightYear;

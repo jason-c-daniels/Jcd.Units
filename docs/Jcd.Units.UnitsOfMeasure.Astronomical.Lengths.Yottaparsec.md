@@ -3,7 +3,7 @@
 
 ## Lengths.Yottaparsec Field
 
-A(n) yottaparsec. It's defined in terms of a(n) zettaparsec.
+A(n) yottaparsec. Defined in terms of a(n) zettaparsec.
 
 ```csharp
 public static readonly Length Yottaparsec;

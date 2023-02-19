@@ -3,7 +3,7 @@
 
 ## Energies.Hectocalorie Field
 
-A(n) hectocalorie. It's defined in terms of a(n) dekacalorie.
+A(n) hectocalorie. Defined in terms of a(n) dekacalorie.
 
 ```csharp
 public static readonly Energy Hectocalorie;

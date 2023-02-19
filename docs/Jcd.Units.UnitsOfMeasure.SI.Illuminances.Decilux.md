@@ -3,7 +3,7 @@
 
 ## Illuminances.Decilux Field
 
-A(n) decilux. It's defined in terms of a(n) lux.
+A(n) decilux. Defined in terms of a(n) lux.
 
 ```csharp
 public static readonly Illuminance Decilux;

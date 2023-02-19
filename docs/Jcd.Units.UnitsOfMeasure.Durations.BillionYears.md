@@ -3,7 +3,7 @@
 
 ## Durations.BillionYears Field
 
-A(n) billion years. It's defined in terms of a(n) million years.
+A(n) billion years. Defined in terms of a(n) million years.
 
 ```csharp
 public static readonly Duration BillionYears;

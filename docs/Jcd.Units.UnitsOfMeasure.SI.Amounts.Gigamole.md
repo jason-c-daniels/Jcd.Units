@@ -3,7 +3,7 @@
 
 ## Amounts.Gigamole Field
 
-A(n) gigamole. It's defined in terms of a(n) megamole.
+A(n) gigamole. Defined in terms of a(n) megamole.
 
 ```csharp
 public static readonly Amount Gigamole;

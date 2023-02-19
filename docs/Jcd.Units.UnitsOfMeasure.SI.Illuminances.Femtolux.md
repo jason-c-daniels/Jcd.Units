@@ -3,7 +3,7 @@
 
 ## Illuminances.Femtolux Field
 
-A(n) femtolux. It's defined in terms of a(n) picolux.
+A(n) femtolux. Defined in terms of a(n) picolux.
 
 ```csharp
 public static readonly Illuminance Femtolux;

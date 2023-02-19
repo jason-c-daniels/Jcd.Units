@@ -3,7 +3,7 @@
 
 ## Energies.Terajoule Field
 
-A(n) terajoule. It's defined in terms of a(n) gigajoule.
+A(n) terajoule. Defined in terms of a(n) gigajoule.
 
 ```csharp
 public static readonly Energy Terajoule;

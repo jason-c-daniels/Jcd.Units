@@ -3,7 +3,7 @@
 
 ## Amounts.Zettamole Field
 
-A(n) zettamole. It's defined in terms of a(n) examole.
+A(n) zettamole. Defined in terms of a(n) examole.
 
 ```csharp
 public static readonly Amount Zettamole;

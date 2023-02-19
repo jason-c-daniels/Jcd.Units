@@ -2,7 +2,13 @@
 
 ## Jcd.Units Namespace
 
-Provides TODO: A description of what this namespace provides.
+Provides a quantity type ([Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')) and various simple [UnitOfMeasure&lt;TUnits&gt;](Jcd.Units.UnitOfMeasure_TUnits_.md 'Jcd.Units.UnitOfMeasure<TUnits>')  
+implementations to facilitate relatively type and unit of measure safe arithmetic.
+
+### Remarks
+NOTE: This system does not automatically create quantities with derived units during  
+multiplication and division. You must take care to change units and unit types  
+as necessary during computations.
 
 | Classes | |
 | :--- | :--- |

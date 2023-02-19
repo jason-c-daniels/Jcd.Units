@@ -3,7 +3,7 @@
 
 ## Durations.Exasecond Field
 
-A(n) exasecond. It's defined in terms of a(n) petasecond.
+A(n) exasecond. Defined in terms of a(n) petasecond.
 
 ```csharp
 public static readonly Duration Exasecond;

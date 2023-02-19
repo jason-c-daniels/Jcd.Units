@@ -3,7 +3,7 @@
 
 ## Lengths.YoctolightYear Field
 
-A(n) yoctolight-year. It's defined in terms of a(n) zeptolight-year.
+A(n) yoctolight-year. Defined in terms of a(n) zeptolight-year.
 
 ```csharp
 public static readonly Length YoctolightYear;

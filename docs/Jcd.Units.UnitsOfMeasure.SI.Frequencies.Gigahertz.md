@@ -3,7 +3,7 @@
 
 ## Frequencies.Gigahertz Field
 
-A(n) gigahertz. It's defined in terms of a(n) megahertz.
+A(n) gigahertz. Defined in terms of a(n) megahertz.
 
 ```csharp
 public static readonly Frequency Gigahertz;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Petagray Field
 
-A(n) petagray. It's defined in terms of a(n) teragray.
+A(n) petagray. Defined in terms of a(n) teragray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Petagray;

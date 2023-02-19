@@ -3,7 +3,7 @@
 
 ## Forces.Millinewton Field
 
-A(n) millinewton. It's defined in terms of a(n) centinewton.
+A(n) millinewton. Defined in terms of a(n) centinewton.
 
 ```csharp
 public static readonly Force Millinewton;

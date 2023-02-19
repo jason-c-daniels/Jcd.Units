@@ -3,7 +3,7 @@
 
 ## Capacitances.Yoctofarad Field
 
-A(n) yoctofarad. It's defined in terms of a(n) zeptofarad.
+A(n) yoctofarad. Defined in terms of a(n) zeptofarad.
 
 ```csharp
 public static readonly Capacitance Yoctofarad;

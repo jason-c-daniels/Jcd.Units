@@ -3,7 +3,7 @@
 
 ## Lengths.Kilometer Field
 
-A(n) kilometer. It's defined in terms of a(n) hectometer.
+A(n) kilometer. Defined in terms of a(n) hectometer.
 
 ```csharp
 public static readonly Length Kilometer;

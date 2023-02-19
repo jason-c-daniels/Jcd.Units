@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Yoctoampere Field
 
-A(n) yoctoampere. It's defined in terms of a(n) zeptoampere.
+A(n) yoctoampere. Defined in terms of a(n) zeptoampere.
 
 ```csharp
 public static readonly ElectricalCurrent Yoctoampere;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Dekavolt Field
 
-A(n) dekavolt. It's defined in terms of a(n) volt.
+A(n) dekavolt. Defined in terms of a(n) volt.
 
 ```csharp
 public static readonly ElectricalPotential Dekavolt;

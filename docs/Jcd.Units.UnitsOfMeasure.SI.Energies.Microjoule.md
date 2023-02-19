@@ -3,7 +3,7 @@
 
 ## Energies.Microjoule Field
 
-A(n) microjoule. It's defined in terms of a(n) millijoule.
+A(n) microjoule. Defined in terms of a(n) millijoule.
 
 ```csharp
 public static readonly Energy Microjoule;

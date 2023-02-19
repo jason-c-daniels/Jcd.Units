@@ -3,7 +3,7 @@
 
 ## Lengths.QuectolightYear Field
 
-A(n) quectolight-year. It's defined in terms of a(n) rontolight-year.
+A(n) quectolight-year. Defined in terms of a(n) rontolight-year.
 
 ```csharp
 public static readonly Length QuectolightYear;

@@ -3,7 +3,7 @@
 
 ## Lengths.PicolightYear Field
 
-A(n) picolight-year. It's defined in terms of a(n) nanolight-year.
+A(n) picolight-year. Defined in terms of a(n) nanolight-year.
 
 ```csharp
 public static readonly Length PicolightYear;

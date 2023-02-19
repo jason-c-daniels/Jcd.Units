@@ -3,7 +3,7 @@
 
 ## Lengths.Millimeter Field
 
-A(n) millimeter. It's defined in terms of a(n) centimeter.
+A(n) millimeter. Defined in terms of a(n) centimeter.
 
 ```csharp
 public static readonly Length Millimeter;

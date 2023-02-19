@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Kilocoulomb Field
 
-A(n) kilocoulomb. It's defined in terms of a(n) hectocoulomb.
+A(n) kilocoulomb. Defined in terms of a(n) hectocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Kilocoulomb;

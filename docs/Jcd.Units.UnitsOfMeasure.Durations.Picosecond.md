@@ -3,7 +3,7 @@
 
 ## Durations.Picosecond Field
 
-A(n) picosecond. It's defined in terms of a(n) nanosecond.
+A(n) picosecond. Defined in terms of a(n) nanosecond.
 
 ```csharp
 public static readonly Duration Picosecond;

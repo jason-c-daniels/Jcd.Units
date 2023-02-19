@@ -3,7 +3,7 @@
 
 ## Lengths.Micrometer Field
 
-A(n) micrometer. It's defined in terms of a(n) millimeter.
+A(n) micrometer. Defined in terms of a(n) millimeter.
 
 ```csharp
 public static readonly Length Micrometer;

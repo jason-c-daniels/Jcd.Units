@@ -3,7 +3,7 @@
 
 ## Powers.Exawatt Field
 
-A(n) exawatt. It's defined in terms of a(n) petawatt.
+A(n) exawatt. Defined in terms of a(n) petawatt.
 
 ```csharp
 public static readonly Power Exawatt;

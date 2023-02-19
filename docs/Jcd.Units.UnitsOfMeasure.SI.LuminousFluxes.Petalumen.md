@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Petalumen Field
 
-A(n) petalumen. It's defined in terms of a(n) teralumen.
+A(n) petalumen. Defined in terms of a(n) teralumen.
 
 ```csharp
 public static readonly LuminousFlux Petalumen;

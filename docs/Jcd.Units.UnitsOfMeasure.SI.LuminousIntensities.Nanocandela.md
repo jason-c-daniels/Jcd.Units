@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Nanocandela Field
 
-A(n) nanocandela. It's defined in terms of a(n) microcandela.
+A(n) nanocandela. Defined in terms of a(n) microcandela.
 
 ```csharp
 public static readonly LuminousIntensity Nanocandela;

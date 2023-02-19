@@ -3,7 +3,7 @@
 
 ## Lengths.DekalightYear Field
 
-A(n) dekalight-year. It's defined in terms of a(n) light-year.
+A(n) dekalight-year. Defined in terms of a(n) light-year.
 
 ```csharp
 public static readonly Length DekalightYear;

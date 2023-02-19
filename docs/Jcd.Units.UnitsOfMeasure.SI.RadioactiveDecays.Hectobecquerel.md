@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Hectobecquerel Field
 
-A(n) hectobecquerel. It's defined in terms of a(n) dekabecquerel.
+A(n) hectobecquerel. Defined in terms of a(n) dekabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Hectobecquerel;

@@ -3,7 +3,7 @@
 
 ## Forces.Quectonewton Field
 
-A(n) quectonewton. It's defined in terms of a(n) rontonewton.
+A(n) quectonewton. Defined in terms of a(n) rontonewton.
 
 ```csharp
 public static readonly Force Quectonewton;

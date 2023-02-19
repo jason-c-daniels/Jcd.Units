@@ -3,7 +3,7 @@
 
 ## Forces.Yoctonewton Field
 
-A(n) yoctonewton. It's defined in terms of a(n) zeptonewton.
+A(n) yoctonewton. Defined in terms of a(n) zeptonewton.
 
 ```csharp
 public static readonly Force Yoctonewton;

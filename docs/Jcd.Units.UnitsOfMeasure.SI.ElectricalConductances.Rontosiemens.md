@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Rontosiemens Field
 
-A(n) rontosiemens. It's defined in terms of a(n) yoctosiemens.
+A(n) rontosiemens. Defined in terms of a(n) yoctosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Rontosiemens;

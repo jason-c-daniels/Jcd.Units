@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Yottagray Field
 
-A(n) yottagray. It's defined in terms of a(n) zettagray.
+A(n) yottagray. Defined in terms of a(n) zettagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Yottagray;

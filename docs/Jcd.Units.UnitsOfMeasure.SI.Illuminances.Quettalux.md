@@ -3,7 +3,7 @@
 
 ## Illuminances.Quettalux Field
 
-A(n) quettalux. It's defined in terms of a(n) ronnalux.
+A(n) quettalux. Defined in terms of a(n) ronnalux.
 
 ```csharp
 public static readonly Illuminance Quettalux;

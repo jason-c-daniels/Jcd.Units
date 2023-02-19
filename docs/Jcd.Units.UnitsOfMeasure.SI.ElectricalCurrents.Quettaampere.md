@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Quettaampere Field
 
-A(n) quettaampere. It's defined in terms of a(n) ronnaampere.
+A(n) quettaampere. Defined in terms of a(n) ronnaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Quettaampere;

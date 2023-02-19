@@ -3,7 +3,7 @@
 
 ## Lengths.Rontoparsec Field
 
-A(n) rontoparsec. It's defined in terms of a(n) yoctoparsec.
+A(n) rontoparsec. Defined in terms of a(n) yoctoparsec.
 
 ```csharp
 public static readonly Length Rontoparsec;

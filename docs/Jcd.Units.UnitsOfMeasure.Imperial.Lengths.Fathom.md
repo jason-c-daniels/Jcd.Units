@@ -3,7 +3,7 @@
 
 ## Lengths.Fathom Field
 
-A(n) fathom. It's defined in terms of a(n) foot.
+A(n) fathom. Defined in terms of a(n) foot.
 
 ```csharp
 public static readonly Length Fathom;

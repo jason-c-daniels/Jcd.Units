@@ -3,7 +3,7 @@
 
 ## Inductances.Attohenry Field
 
-A(n) attohenry. It's defined in terms of a(n) femtohenry.
+A(n) attohenry. Defined in terms of a(n) femtohenry.
 
 ```csharp
 public static readonly Inductance Attohenry;

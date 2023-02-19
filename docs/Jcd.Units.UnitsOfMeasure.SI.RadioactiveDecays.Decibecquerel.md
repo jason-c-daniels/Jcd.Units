@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Decibecquerel Field
 
-A(n) decibecquerel. It's defined in terms of a(n) becquerel.
+A(n) decibecquerel. Defined in terms of a(n) becquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Decibecquerel;

@@ -3,7 +3,7 @@
 
 ## Energies.Zeptocalorie Field
 
-A(n) zeptocalorie. It's defined in terms of a(n) attocalorie.
+A(n) zeptocalorie. Defined in terms of a(n) attocalorie.
 
 ```csharp
 public static readonly Energy Zeptocalorie;

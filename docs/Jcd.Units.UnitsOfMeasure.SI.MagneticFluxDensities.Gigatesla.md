@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Gigatesla Field
 
-A(n) gigatesla. It's defined in terms of a(n) megatesla.
+A(n) gigatesla. Defined in terms of a(n) megatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Gigatesla;

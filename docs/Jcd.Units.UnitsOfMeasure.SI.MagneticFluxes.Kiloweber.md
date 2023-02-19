@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Kiloweber Field
 
-A(n) kiloweber. It's defined in terms of a(n) hectoweber.
+A(n) kiloweber. Defined in terms of a(n) hectoweber.
 
 ```csharp
 public static readonly MagneticFlux Kiloweber;

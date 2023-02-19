@@ -3,7 +3,7 @@
 
 ## Lengths.League Field
 
-A(n) league. It's defined in terms of a(n) mile.
+A(n) league. Defined in terms of a(n) mile.
 
 ```csharp
 public static readonly Length League;

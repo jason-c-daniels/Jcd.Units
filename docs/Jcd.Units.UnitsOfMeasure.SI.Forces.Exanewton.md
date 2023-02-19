@@ -3,7 +3,7 @@
 
 ## Forces.Exanewton Field
 
-A(n) exanewton. It's defined in terms of a(n) petanewton.
+A(n) exanewton. Defined in terms of a(n) petanewton.
 
 ```csharp
 public static readonly Force Exanewton;

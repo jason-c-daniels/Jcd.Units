@@ -3,7 +3,7 @@
 
 ## Momentums.DekanewtonSecond Field
 
-A(n) dekanewton-second. It's defined in terms of a(n) newton-second.
+A(n) dekanewton-second. Defined in terms of a(n) newton-second.
 
 ```csharp
 public static readonly Momentum DekanewtonSecond;

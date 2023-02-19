@@ -3,7 +3,7 @@
 
 ## Lengths.Hectoparsec Field
 
-A(n) hectoparsec. It's defined in terms of a(n) dekaparsec.
+A(n) hectoparsec. Defined in terms of a(n) dekaparsec.
 
 ```csharp
 public static readonly Length Hectoparsec;
