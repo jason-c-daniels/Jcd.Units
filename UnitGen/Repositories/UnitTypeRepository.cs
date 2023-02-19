@@ -4,7 +4,7 @@ namespace UnitGen.Repositories;
 
 public class UnitTypeRepository : ReadOnlyCsvRepository<UnitType>
 {
-    public override IReadOnlyList<UnitType> GetAll()
+    protected override IReadOnlyList<UnitType> ReadAll()
     {
         return ReadFromEmbeddedResource("UnitTypes.csv");
     }

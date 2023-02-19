@@ -7,7 +7,10 @@ namespace UnitGen.Repositories;
 
 public abstract class ReadOnlyCsvRepository<T> : IReadOnlyRepository<T>
 {
-    public abstract IReadOnlyList<T> GetAll();
+    private IReadOnlyList<T>? _allItems = null;
+    public virtual IReadOnlyList<T> GetAll() => _allItems = ReadAll();
+
+    protected abstract IReadOnlyList<T> ReadAll();
 
     protected IReadOnlyList<T> ReadFromFile(string pathToFile)
     {

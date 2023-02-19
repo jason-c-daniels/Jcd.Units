@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+pushd "$SCRIPT_DIR/UnitGen"
+dotnet build
+dotnet run
+cd ../Jcd.Units
+dotnet build
+popd

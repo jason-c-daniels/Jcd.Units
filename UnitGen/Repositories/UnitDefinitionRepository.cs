@@ -4,16 +4,16 @@ namespace UnitGen.Repositories;
 
 public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 {
-    public SystemRepository SystemRepo { get; } = new SystemRepository();
-    public UnitTypeRepository UnitTypeRepo { get; } = new UnitTypeRepository();
-    public PrefixRepository PrefixRepo { get; } = new PrefixRepository();
-    public UnitRepository UnitRepo { get; } = new UnitRepository();
-    private IReadOnlyList<UnitDefinition>? _unitDefs = null;
-
+    public SystemRepository SystemRepo { get; } = new();
+    public UnitTypeRepository UnitTypeRepo { get; } = new();
+    public PrefixRepository PrefixRepo { get; } = new();
+    public UnitRepository UnitRepo { get; } = new();
+    
+    private IReadOnlyList<UnitDefinition>? _allItems = null;
     
     public IReadOnlyList<UnitDefinition> GetAll()
     {
-        if (_unitDefs != null) return _unitDefs;
+        if (_allItems != null) return _allItems;
         var systems = SystemRepo.GetAll();
         var unitTypes = UnitTypeRepo.GetAll();
         var prefixes = PrefixRepo.GetAll();
@@ -35,7 +35,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
             where !unit.UsesPrefixes
             select new UnitDefinition(system,unitType,noPrefix,unit);
 
-        return _unitDefs=unitsWithSIPrefixes
+        return _allItems=unitsWithSIPrefixes
             .Concat(unitsWithouSIPrefixes)
             .Distinct()
             .OrderBy(u=>u.System.Name)

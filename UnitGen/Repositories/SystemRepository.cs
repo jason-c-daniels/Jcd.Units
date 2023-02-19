@@ -2,7 +2,7 @@
 
 public class SystemRepository : ReadOnlyCsvRepository<Models.System>
 {
-    public override IReadOnlyList<Models.System> GetAll()
+    protected override IReadOnlyList<Models.System> ReadAll()
     {
         return ReadFromEmbeddedResource("Systems.csv");
     }

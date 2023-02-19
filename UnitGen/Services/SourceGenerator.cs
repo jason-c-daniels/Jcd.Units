@@ -1,5 +1,7 @@
-﻿using UnitGen.Models;
+﻿using System.Text;
+using UnitGen.Models;
 using UnitGen.Resources;
+using FSS=UnitGen.Services.FileSystemService;
 
 namespace UnitGen.Services;
 
@@ -17,11 +19,11 @@ public class SourceCodeGenerator
 
     public SourceCodeGenerator(IEnumerable<Models.System> systems)
     {
-        _unitTypeTemplate = EmbeddedResource.ReadString("UnitType.template");
-        _baseUnitTemplate = EmbeddedResource.ReadString("BaseUnit.template");
-        _derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template");
-        _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template");
-        _namespaceDocTemplate = EmbeddedResource.ReadString("UnitOfMeasure.NamespaceDoc.template");
+        _unitTypeTemplate = EmbeddedResource.ReadString("UnitType.template") ?? throw new ArgumentNullException("UnitType.template");
+        _baseUnitTemplate = EmbeddedResource.ReadString("BaseUnit.template") ?? throw new ArgumentNullException("BaseUnit.template");
+        _derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template") ?? throw new ArgumentNullException("DerivedUnit.template");
+        _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template") ?? throw new ArgumentNullException("Enumeration.template");
+        _namespaceDocTemplate = EmbeddedResource.ReadString("UnitOfMeasure.NamespaceDoc.template") ?? throw new ArgumentNullException("UnitOfMeasure.NamespaceDoc.template");
         
         _systemLookup = systems.ToDictionary(x => x.Name);
     }
@@ -80,6 +82,74 @@ public class SourceCodeGenerator
             ;
     }
     
-    
+    public void CreateUnitTypeFiles(string unitTypesDirPath, IEnumerable<UnitType> enumerable)
+    {
+        FSS.CreateDirectoryIfNeeded(unitTypesDirPath);
+
+        // generate the individual unit type files in UnitTypes (in the output directory)
+        foreach (var ut in enumerable)
+        {
+            var unitTypeFileName = $"{ut.UnitTypeName}.cs";
+            var unitTypeFilePath = Path.Combine(unitTypesDirPath, unitTypeFileName);
+            var fileContent = GenerateUnitType(ut);
+            FSS.WriteFileContent(unitTypeFilePath, fileContent);
+        }
+    }
+
+    public void CreateUnitOfMeasureFiles(string unitsOfMeasurePath, IEnumerable<IGrouping<string, IGrouping<string, UnitDefinition>>> groupings1)
+    {
+        FSS.CreateDirectoryIfNeeded(unitsOfMeasurePath);
+        foreach (var systemGrouping in groupings1)
+        {
+            var namespaceName = systemGrouping.Key.MakeSymbolName();
+            var systemUnitsFolder = Path.Combine(unitsOfMeasurePath, namespaceName);
+            if (namespaceName.Trim().Length > 0)
+            {
+                FSS.CreateDirectoryIfNeeded(systemUnitsFolder);
+            }
+
+            var subnamespaceName = string.IsNullOrWhiteSpace(namespaceName) ? string.Empty : $".{namespaceName}";
+            var namespaceDocFileContent =
+                GenerateUnitOfMeasureNamespaceDoc(systemGrouping.Key, subnamespaceName);
+            var namespaceDocPath = Path.Combine(systemUnitsFolder, "NamespaceDoc.cs");
+
+            FSS.WriteFileContent(namespaceDocPath, namespaceDocFileContent);
+
+            var uomWithNamespaceDir = string.IsNullOrWhiteSpace(namespaceName)
+                ? unitsOfMeasurePath
+                : Path.Combine(unitsOfMeasurePath, namespaceName);
+
+            FSS.CreateDirectoryIfNeeded(uomWithNamespaceDir);
+
+            foreach (var unitTypeGrouping in systemGrouping)
+            {
+                var ut = unitTypeGrouping.First().UnitType;
+                var enumerationName = ut.EnumerationName;
+                var enumerationFileName = $"{enumerationName}.cs";
+                var enumerationsFilePath = Path.Combine(uomWithNamespaceDir, enumerationFileName);
+
+                Console.WriteLine();
+                Console.WriteLine($"--------------------------------------------------------");
+
+                var sortedGrouping = unitTypeGrouping
+                        .OrderBy(u => u.System.Name)
+                        .ThenBy(u => u.UnitType.Name)
+                        .ThenByDescending(u => u.IsBaseUnit)
+                        .ThenBy(u => u.Unit.SortIndex)
+                        .ThenBy(u => u.Prefix.SortIndex)
+                        .ToList()
+                    ;
+                var sbUnits = new StringBuilder();
+                foreach (var unitDefinition in sortedGrouping)
+                {
+                    Console.WriteLine($"Generating: {unitDefinition.Prefix.Name}{unitDefinition.Unit.UnitName}");
+                    sbUnits.AppendLine(GenerateUnit(unitDefinition));
+                }
+
+                var enumerationFileContent = GenerateEnumeration(sortedGrouping[0], sbUnits.ToString());
+                FSS.WriteFileContent(enumerationsFilePath, enumerationFileContent);
+            }
+        }
+    }
     
 }

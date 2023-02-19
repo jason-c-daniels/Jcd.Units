@@ -4,7 +4,7 @@ namespace UnitGen.Repositories;
 
 public class PrefixRepository : ReadOnlyCsvRepository<Prefix>
 {
-    public override IReadOnlyList<Prefix> GetAll()
+    protected override IReadOnlyList<Prefix> ReadAll()
     {
         return ReadFromEmbeddedResource("Prefixes.csv");
     }
