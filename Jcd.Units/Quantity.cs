@@ -38,7 +38,7 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
 
     #endregion
 
-    #region Quantity to Quantity arithmetic operators.
+    #region Quantity to Quantity and unary Quantity arithmetic operators.
 
     /// <summary>
     /// Performs a standard unary "+" operation.
@@ -49,9 +49,9 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     {
         return q;
     }
-
+    
     /// <summary>
-    /// Performs standard unary negation on the <see cref="RawValue"/> component and
+    /// Performs unary negation on the <see cref="RawValue"/> component and
     /// returns a new <see cref="Quantity{TUnits}"/>.
     /// </summary>
     /// <param name="q">The quantity to perform the negation on.</param>
@@ -60,7 +60,27 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     {
         return q with { RawValue = -q.RawValue };
     }
+    
+    /// <summary>
+    /// Performs a unary increment operation.
+    /// </summary>
+    /// <param name="q">The <see cref="Quantity{TUnits}"/> to operate on.</param>
+    /// <returns>The <see cref="Quantity{TUnits}"/></returns>
+    public static Quantity<TUnits> operator ++(Quantity<TUnits> q)
+    {
+        return q with { RawValue = q.RawValue + 1 };
+    }
 
+    /// <summary>
+    /// Performs a unary decrement operation.
+    /// </summary>
+    /// <param name="q">The <see cref="Quantity{TUnits}"/> to operate on.</param>
+    /// <returns>The <see cref="Quantity{TUnits}"/></returns>
+    public static Quantity<TUnits> operator --(Quantity<TUnits> q)
+    {
+        return q with { RawValue = q.RawValue - 1 };
+    }
+    
     /// <summary>
     /// Adds two quantities, selecting the larger unit of measure as the common representation.
     /// </summary>
