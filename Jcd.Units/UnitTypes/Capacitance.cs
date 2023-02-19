@@ -16,7 +16,7 @@ public record Capacitance(string Name, string Symbol, double Coefficient=1, doub
     /// <param name="name">The name of this unit</param>
     /// <param name="symbol">The symbol or abbreviation to represent the <see cref="Capacitance" /></param>
     /// <param name="baseUnit">The unit to use as a base</param>
-    /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+    /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
     /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
     public Capacitance(string name, string symbol, Capacitance baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,baseUnit.ComputeFundamentalCoefficient(coefficient),baseUnit.ComputeFundamentalOffset(offset))

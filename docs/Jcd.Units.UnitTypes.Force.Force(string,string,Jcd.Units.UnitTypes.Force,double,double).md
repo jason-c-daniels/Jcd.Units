@@ -32,7 +32,7 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the `baseUnit`
+The coefficient relative to the [baseUnit](Jcd.Units.UnitTypes.Force.Force(string,string,Jcd.Units.UnitTypes.Force,double,double).md#Jcd.Units.UnitTypes.Force.Force(string,string,Jcd.Units.UnitTypes.Force,double,double).baseUnit 'Jcd.Units.UnitTypes.Force.Force(string, string, Jcd.Units.UnitTypes.Force, double, double).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.Force.Force(string,string,Jcd.Units.UnitTypes.Force,double,double).offset'></a>
 

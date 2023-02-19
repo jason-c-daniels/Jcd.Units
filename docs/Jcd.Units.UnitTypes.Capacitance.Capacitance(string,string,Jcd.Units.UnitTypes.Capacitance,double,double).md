@@ -32,7 +32,7 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the `baseUnit`
+The coefficient relative to the [baseUnit](Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,Jcd.Units.UnitTypes.Capacitance,double,double).md#Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,Jcd.Units.UnitTypes.Capacitance,double,double).baseUnit 'Jcd.Units.UnitTypes.Capacitance.Capacitance(string, string, Jcd.Units.UnitTypes.Capacitance, double, double).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.Capacitance.Capacitance(string,string,Jcd.Units.UnitTypes.Capacitance,double,double).offset'></a>
 

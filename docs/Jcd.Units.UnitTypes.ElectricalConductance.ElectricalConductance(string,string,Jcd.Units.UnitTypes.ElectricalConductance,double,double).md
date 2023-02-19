@@ -32,7 +32,7 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the `baseUnit`
+The coefficient relative to the [baseUnit](Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double).md#Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double).baseUnit 'Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string, string, Jcd.Units.UnitTypes.ElectricalConductance, double, double).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.ElectricalConductance.ElectricalConductance(string,string,Jcd.Units.UnitTypes.ElectricalConductance,double,double).offset'></a>
 

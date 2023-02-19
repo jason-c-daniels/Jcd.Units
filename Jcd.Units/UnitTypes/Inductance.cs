@@ -16,7 +16,7 @@ public record Inductance(string Name, string Symbol, double Coefficient=1, doubl
     /// <param name="name">The name of this unit</param>
     /// <param name="symbol">The symbol or abbreviation to represent the <see cref="Inductance" /></param>
     /// <param name="baseUnit">The unit to use as a base</param>
-    /// <param name="coefficient">The coefficient relative to the <c>baseUnit</c></param>
+    /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
     /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
     public Inductance(string name, string symbol, Inductance baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,baseUnit.ComputeFundamentalCoefficient(coefficient),baseUnit.ComputeFundamentalOffset(offset))

@@ -32,7 +32,7 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the `baseUnit`
+The coefficient relative to the [baseUnit](Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,Jcd.Units.UnitTypes.LuminousIntensity,double,double).md#Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,Jcd.Units.UnitTypes.LuminousIntensity,double,double).baseUnit 'Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string, string, Jcd.Units.UnitTypes.LuminousIntensity, double, double).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.LuminousIntensity.LuminousIntensity(string,string,Jcd.Units.UnitTypes.LuminousIntensity,double,double).offset'></a>
 
