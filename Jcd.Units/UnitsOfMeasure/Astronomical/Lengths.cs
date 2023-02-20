@@ -1,4 +1,5 @@
 ﻿using Jcd.Units.UnitTypes;
+// ReSharper disable RedundantArgumentDefaultValue
 
 namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 
