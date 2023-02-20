@@ -1,5 +1,4 @@
 ﻿using UnitGen.Repositories;
-using UnitGen.Resources;
 
 namespace UnitGen.Services;
 

@@ -1,5 +1,9 @@
 ﻿using Jcd.Units.UnitTypes;
 // ReSharper disable RedundantArgumentDefaultValue
+// ReSharper disable MemberCanBePrivate.Global
+// ReSharper disable UnusedMember.Global
+// ReSharper disable ClassNeverInstantiated.Global
+
 
 namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 

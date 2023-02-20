@@ -1,3 +1,4 @@
+// ReSharper disable UnusedType.Global
 namespace Jcd.Units;
 
 /// <summary>

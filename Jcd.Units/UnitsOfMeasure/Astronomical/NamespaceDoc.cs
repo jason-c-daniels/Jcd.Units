@@ -1,4 +1,6 @@
-﻿namespace Jcd.Units.UnitsOfMeasure.Astronomical;
+﻿// ReSharper disable ClassNeverInstantiated.Global
+
+namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 
 /// <summary>
 /// Provides units of measure for various Astronomical unit types.

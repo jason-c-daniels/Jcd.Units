@@ -1,5 +1,8 @@
-﻿namespace UnitGen.Models;
+﻿using JetBrains.Annotations;
 
+namespace UnitGen.Models;
+
+[UsedImplicitly]
 public record Prefix
 (
     string Name,

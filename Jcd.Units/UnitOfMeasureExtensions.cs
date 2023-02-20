@@ -37,7 +37,7 @@ public static class UnitOfMeasureExtensions
     
     /// <summary>
     /// Given a <paramref name="baseUnit"/> and a coefficient, calculate the equivalent
-    /// coefficient for the fundamental unit of measure. (i.e. the one with Coeff = 1 and Offset = 0) 
+    /// coefficient for the fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0) 
     /// </summary>
     /// <param name="baseUnit">The base unit of measure to use.</param>
     /// <param name="coefficient">The coefficient to normalize.</param>

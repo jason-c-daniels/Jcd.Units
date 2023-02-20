@@ -4,7 +4,7 @@
 ## UnitOfMeasureExtensions.ComputeFundamentalCoefficient<TUnitType>(this IUnitOfMeasure<TUnitType>, double) Method
 
 Given a [baseUnit](Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient_TUnitType_(thisJcd.Units.IUnitOfMeasure_TUnitType_,double).md#Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient_TUnitType_(thisJcd.Units.IUnitOfMeasure_TUnitType_,double).baseUnit 'Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient<TUnitType>(this Jcd.Units.IUnitOfMeasure<TUnitType>, double).baseUnit') and a coefficient, calculate the equivalent  
-coefficient for the fundamental unit of measure. (i.e. the one with Coeff = 1 and Offset = 0)
+coefficient for the fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0)
 
 ```csharp
 public static double ComputeFundamentalCoefficient<TUnitType>(this Jcd.Units.IUnitOfMeasure<TUnitType> baseUnit, double coefficient);

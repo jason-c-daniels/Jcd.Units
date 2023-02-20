@@ -27,16 +27,19 @@ public class SourceCodeGenerator
         _unitDefRepo = unitDefRepo;
         _unitTypesDir = Path.Combine(jcdUnitsDir, "UnitTypes");
         _unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
+
+        // ReSharper disable NotResolvedInText
         _unitTypeTemplate = EmbeddedResource.ReadString("UnitType.template") ?? throw new ArgumentNullException("UnitType.template");
         _baseUnitTemplate = EmbeddedResource.ReadString("BaseUnit.template") ?? throw new ArgumentNullException("BaseUnit.template");
         _derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template") ?? throw new ArgumentNullException("DerivedUnit.template");
         _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template") ?? throw new ArgumentNullException("Enumeration.template");
         _namespaceDocTemplate = EmbeddedResource.ReadString("UnitOfMeasure.NamespaceDoc.template") ?? throw new ArgumentNullException("UnitOfMeasure.NamespaceDoc.template");
+        // ReSharper restore NotResolvedInText
         
         _systemLookup = unitDefRepo.SystemRepo.GetAll().ToDictionary(x => x.Name);
     }
-    
-    public string GenerateUnitType(UnitType unitType, string baseNamespace = DefaultBaseNamespace)
+
+    private string GenerateUnitType(UnitType unitType, string baseNamespace = DefaultBaseNamespace)
     {
         return _unitTypeTemplate!
             .Replace("$BaseNamespace$", baseNamespace)
@@ -44,7 +47,7 @@ public class SourceCodeGenerator
             .Replace("$UnitTypeName$",unitType.UnitTypeName);
     }
 
-    public string GenerateUnit(UnitDefinition unitDef, string baseNamespace = DefaultBaseNamespace)
+    private string GenerateUnit(UnitDefinition unitDef, string baseNamespace = DefaultBaseNamespace)
     {
         var template = unitDef.IsBaseUnit ? _baseUnitTemplate : _derivedUnitTemplate;
 
@@ -66,8 +69,8 @@ public class SourceCodeGenerator
             .Replace("$Offset$",unitDef.Offset)
             ;
     }
-    
-    public string GenerateEnumeration(UnitDefinition unitDef, string units, string baseNamespace=DefaultUnitOfMeasureNamespace)
+
+    private string GenerateEnumeration(UnitDefinition unitDef, string units, string baseNamespace=DefaultUnitOfMeasureNamespace)
     {
         return _enumerationTemplate!
             .Replace("$BaseNamespace$", baseNamespace)
@@ -80,7 +83,7 @@ public class SourceCodeGenerator
             ;
     }
 
-    public string GenerateUnitOfMeasureNamespaceDoc(string systemName, string subnamespaceName, string baseNamespace = DefaultUnitOfMeasureNamespace)
+    private string GenerateUnitOfMeasureNamespaceDoc(string systemName, string subnamespaceName, string baseNamespace = DefaultUnitOfMeasureNamespace)
     {
         systemName = string.IsNullOrWhiteSpace(systemName) ? systemName : $"{systemName} ";
         return _namespaceDocTemplate!
@@ -139,7 +142,7 @@ public class SourceCodeGenerator
                 var enumerationsFilePath = Path.Combine(uomWithNamespaceDir, enumerationFileName);
 
                 Console.WriteLine();
-                Console.WriteLine($"--------------------------------------------------------");
+                Console.WriteLine("--------------------------------------------------------");
 
                 var sortedGrouping = unitTypeGrouping
                         .OrderBy(u => u.System.Name)

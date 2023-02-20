@@ -9,7 +9,7 @@ public static class FileSystemService
     {
         Console.Write($"Generating: {filePath}. ");
         if (File.Exists(filePath))
-            Console.Write($"File already exists, overwriting.");
+            Console.Write("File already exists, overwriting.");
         Console.WriteLine();
 
 #if WRITE_TO_CONSOLE
@@ -21,11 +21,9 @@ public static class FileSystemService
 
     public static void CreateDirectoryIfNeeded(string targetDir)
     {
-        if (!Directory.Exists(targetDir))
-        {
-            Console.WriteLine($"Creating {targetDir}.");
-            Directory.CreateDirectory(targetDir);
-        }
+        if (Directory.Exists(targetDir)) return;
+        Console.WriteLine($"Creating {targetDir}.");
+        Directory.CreateDirectory(targetDir);
     }
 
     public static string? FindDirectory(string targetDir)

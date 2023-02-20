@@ -1,15 +1,18 @@
 ﻿using UnitGen.Models;
+// ReSharper disable ArrangeRedundantParentheses
 
 namespace UnitGen.Repositories;
 
 public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 {
+    // ReSharper disable MemberCanBePrivate.Global
     public SystemRepository SystemRepo { get; } = new();
     public UnitTypeRepository UnitTypeRepo { get; } = new();
     public PrefixRepository PrefixRepo { get; } = new();
     public UnitRepository UnitRepo { get; } = new();
+    // ReSharper restore MemberCanBePrivate.Global
     
-    private IReadOnlyList<UnitDefinition>? _allItems = null;
+    private IReadOnlyList<UnitDefinition>? _allItems;
     
     public IReadOnlyList<UnitDefinition> GetAll()
     {
@@ -19,7 +22,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
         var prefixes = PrefixRepo.GetAll();
         var units = UnitRepo.GetAll();
 
-        var unitsWithSIPrefixes =
+        var unitsWithSiPrefixes =
             from prefix in prefixes
             from unit in units
             join system in systems on unit.System equals system.Name
@@ -28,15 +31,15 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
             select new UnitDefinition(system,unitType,prefix,unit);
 
         var noPrefix = new Prefix("", "", "", "1.0", 0);
-        var unitsWithouSIPrefixes =
+        var unitsWithoutSiPrefixes =
             from unit in units
             join system in systems on unit.System equals system.Name
             join unitType in unitTypes on unit.UnitType equals unitType.Name
             where !unit.UsesPrefixes
             select new UnitDefinition(system,unitType,noPrefix,unit);
 
-        return _allItems=unitsWithSIPrefixes
-            .Concat(unitsWithouSIPrefixes)
+        return _allItems=unitsWithSiPrefixes
+            .Concat(unitsWithoutSiPrefixes)
             .Distinct()
             .OrderBy(u=>u.System.Name)
             .ThenByDescending(u=>u.IsBaseUnit)
@@ -46,6 +49,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
             .ToList();
     }
 
+    // ReSharper disable once ReturnTypeCanBeEnumerable.Global
     public IReadOnlyList<UnitType> GetUsedUnitTypes() =>
          (from unitDef in GetAll() select unitDef.UnitType).Distinct().ToList();
 

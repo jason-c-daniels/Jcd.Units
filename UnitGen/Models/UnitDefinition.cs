@@ -1,7 +1,9 @@
-﻿using UnitGen.Services;
+﻿using JetBrains.Annotations;
+using UnitGen.Services;
 
 namespace UnitGen.Models;
 
+[UsedImplicitly]
 public record UnitDefinition
 (
     System System,
@@ -13,14 +15,13 @@ public record UnitDefinition
     public bool IsBaseUnit => Unit.IsBaseUnit && Prefix.IsBasePrefix;
     public string UnitVarName => $"{UnitName}".MakeSymbolName();
 
-    public string BaseUnitNamespacePrefix { get {
-            return Unit.HasBaseUnitSubnamespace && Prefix.IsBasePrefix
-                ? string.IsNullOrWhiteSpace(Unit.BaseUnitSubnamespace)
-                    ? $"UnitsOfMeasure.{UnitType.EnumerationName}."
-                    : $"{Unit.BaseUnitSubnamespace}.{UnitType.EnumerationName}."
-                : "";
-        }
-    }
+    public string BaseUnitNamespacePrefix =>
+        Unit.HasBaseUnitSubnamespace && Prefix.IsBasePrefix
+            ? string.IsNullOrWhiteSpace(Unit.BaseUnitSubnamespace)
+                ? $"UnitsOfMeasure.{UnitType.EnumerationName}."
+                : $"{Unit.BaseUnitSubnamespace}.{UnitType.EnumerationName}."
+            : "";
+
     public string Coefficient => Prefix.IsBasePrefix ? Unit.Coefficient : Prefix.Coefficient;
     public string Offset => Unit.Offset;
 

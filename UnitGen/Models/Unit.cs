@@ -1,7 +1,9 @@
-﻿using UnitGen.Services;
+﻿using JetBrains.Annotations;
+using UnitGen.Services;
 
 namespace UnitGen.Models;
 
+[UsedImplicitly]
 public record Unit
 (
     string System,
@@ -17,6 +19,7 @@ public record Unit
 )
 {
     public bool IsBaseUnit => string.Compare(UnitName, BaseUnit, StringComparison.InvariantCultureIgnoreCase) == 0;
+    // ReSharper disable once MemberCanBePrivate.Global
     public bool IsDerivedUnit => !IsBaseUnit;
     public bool HasBaseUnitSubnamespace => System != BaseUnitSystem && IsDerivedUnit;
     public string BaseUnitSubnamespace => HasBaseUnitSubnamespace ? $"{BaseUnitSystem.MakeSymbolName()}" : "";

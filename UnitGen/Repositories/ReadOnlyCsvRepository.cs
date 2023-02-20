@@ -7,11 +7,17 @@ namespace UnitGen.Repositories;
 
 public abstract class ReadOnlyCsvRepository<T> : IReadOnlyRepository<T>
 {
-    private IReadOnlyList<T>? _allItems = null;
-    public virtual IReadOnlyList<T> GetAll() => _allItems = ReadAll();
+    // ReSharper disable once NotAccessedField.Local
+    private IReadOnlyList<T>? _allItems;
+    public virtual IReadOnlyList<T> GetAll()
+    {
+        if (_allItems == null) return _allItems = ReadAll();
+        return _allItems;
+    }
 
     protected abstract IReadOnlyList<T> ReadAll();
 
+    // ReSharper disable once UnusedMember.Global
     protected IReadOnlyList<T> ReadFromFile(string pathToFile)
     {
         using var reader = new StreamReader(pathToFile);

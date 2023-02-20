@@ -1,4 +1,6 @@
-﻿namespace Jcd.Units.UnitsOfMeasure.USCustomary;
+﻿// ReSharper disable ClassNeverInstantiated.Global
+
+namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 
 /// <summary>
 /// Provides units of measure for various US Customary unit types.

@@ -1,4 +1,6 @@
 ﻿using System.Reflection;
+// ReSharper disable MemberCanBePrivate.Global
+// ReSharper disable UnusedMember.Global
 
 namespace UnitGen.Resources;
 
