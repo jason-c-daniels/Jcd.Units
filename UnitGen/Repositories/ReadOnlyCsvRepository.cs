@@ -21,7 +21,7 @@ public abstract class ReadOnlyCsvRepository<T> : IReadOnlyRepository<T>
     protected IReadOnlyList<T> ReadFromEmbeddedResource(string resourceName)
     {
         using var stream = EmbeddedResource.GetStream(resourceName);
-        using var reader = new StreamReader(stream);
+        using var reader = new StreamReader(stream!);
         return ReadFrom(reader);
     }
 

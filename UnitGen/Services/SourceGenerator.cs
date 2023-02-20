@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using UnitGen.Models;
+using UnitGen.Repositories;
 using UnitGen.Resources;
 using FSS=UnitGen.Services.FileSystemService;
 
@@ -9,28 +10,35 @@ public class SourceCodeGenerator
 {
     private const string DefaultBaseNamespace = "Jcd.Units.UnitTypes";
     private const string DefaultUnitOfMeasureNamespace = "Jcd.Units.UnitsOfMeasure";
+
+    private readonly UnitDefinitionRepository _unitDefRepo;
+    private readonly string _unitTypesDir;
+    private readonly string _unitsOfMeasureDir;
     private readonly string? _unitTypeTemplate;
     private readonly string? _baseUnitTemplate;
     private readonly string? _derivedUnitTemplate;
     private readonly string? _enumerationTemplate;
     private readonly string? _namespaceDocTemplate;
-    
-    private Dictionary<string, Models.System> _systemLookup;
+    private readonly Dictionary<string, Models.System> _systemLookup;
 
-    public SourceCodeGenerator(IEnumerable<Models.System> systems)
+    public SourceCodeGenerator(UnitDefinitionRepository unitDefRepo, string jcdUnitsDir)
     {
+
+        _unitDefRepo = unitDefRepo;
+        _unitTypesDir = Path.Combine(jcdUnitsDir, "UnitTypes");
+        _unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
         _unitTypeTemplate = EmbeddedResource.ReadString("UnitType.template") ?? throw new ArgumentNullException("UnitType.template");
         _baseUnitTemplate = EmbeddedResource.ReadString("BaseUnit.template") ?? throw new ArgumentNullException("BaseUnit.template");
         _derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template") ?? throw new ArgumentNullException("DerivedUnit.template");
         _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template") ?? throw new ArgumentNullException("Enumeration.template");
         _namespaceDocTemplate = EmbeddedResource.ReadString("UnitOfMeasure.NamespaceDoc.template") ?? throw new ArgumentNullException("UnitOfMeasure.NamespaceDoc.template");
         
-        _systemLookup = systems.ToDictionary(x => x.Name);
+        _systemLookup = unitDefRepo.SystemRepo.GetAll().ToDictionary(x => x.Name);
     }
-
+    
     public string GenerateUnitType(UnitType unitType, string baseNamespace = DefaultBaseNamespace)
     {
-        return _unitTypeTemplate
+        return _unitTypeTemplate!
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$Description$",unitType.Description)
             .Replace("$UnitTypeName$",unitType.UnitTypeName);
@@ -44,7 +52,7 @@ public class SourceCodeGenerator
         var baseSystemName = string.IsNullOrWhiteSpace(unitDef.BaseUnitNamespacePrefix)
             ? string.Empty
             : $"{baseSystem.Name} ";
-        return template
+        return template!
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$UnitType.TypeName$",unitDef.UnitType.UnitTypeName)
             .Replace("$Unit.Unit$",unitDef.UnitVarName)
@@ -61,7 +69,7 @@ public class SourceCodeGenerator
     
     public string GenerateEnumeration(UnitDefinition unitDef, string units, string baseNamespace=DefaultUnitOfMeasureNamespace)
     {
-        return _enumerationTemplate
+        return _enumerationTemplate!
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$System.Description$", unitDef.System.Description)
             .Replace("$Enumeration$",unitDef.UnitType.EnumerationName)
@@ -75,34 +83,36 @@ public class SourceCodeGenerator
     public string GenerateUnitOfMeasureNamespaceDoc(string systemName, string subnamespaceName, string baseNamespace = DefaultUnitOfMeasureNamespace)
     {
         systemName = string.IsNullOrWhiteSpace(systemName) ? systemName : $"{systemName} ";
-        return _namespaceDocTemplate
+        return _namespaceDocTemplate!
                 .Replace("$BaseNamespace$", baseNamespace)
                 .Replace("$Subnamespace$",subnamespaceName)
                 .Replace("$System.Name$", systemName)
             ;
     }
     
-    public void CreateUnitTypeFiles(string unitTypesDirPath, IEnumerable<UnitType> enumerable)
+    public void CreateUnitTypeFiles()
     {
-        FSS.CreateDirectoryIfNeeded(unitTypesDirPath);
+        var unitDefs = _unitDefRepo.GetUsedUnitTypes();
+        FSS.CreateDirectoryIfNeeded(_unitTypesDir);
 
         // generate the individual unit type files in UnitTypes (in the output directory)
-        foreach (var ut in enumerable)
+        foreach (var ut in unitDefs)
         {
             var unitTypeFileName = $"{ut.UnitTypeName}.cs";
-            var unitTypeFilePath = Path.Combine(unitTypesDirPath, unitTypeFileName);
+            var unitTypeFilePath = Path.Combine(_unitTypesDir, unitTypeFileName);
             var fileContent = GenerateUnitType(ut);
             FSS.WriteFileContent(unitTypeFilePath, fileContent);
         }
     }
 
-    public void CreateUnitOfMeasureFiles(string unitsOfMeasurePath, IEnumerable<IGrouping<string, IGrouping<string, UnitDefinition>>> groupings1)
+    public void CreateUnitOfMeasureFiles()
     {
-        FSS.CreateDirectoryIfNeeded(unitsOfMeasurePath);
-        foreach (var systemGrouping in groupings1)
+        var systemGroupings = _unitDefRepo.GetSystemToUnitTypeToUnitDefinitionGroupings();
+        FSS.CreateDirectoryIfNeeded(_unitsOfMeasureDir);
+        foreach (var systemGrouping in systemGroupings)
         {
             var namespaceName = systemGrouping.Key.MakeSymbolName();
-            var systemUnitsFolder = Path.Combine(unitsOfMeasurePath, namespaceName);
+            var systemUnitsFolder = Path.Combine(_unitsOfMeasureDir, namespaceName);
             if (namespaceName.Trim().Length > 0)
             {
                 FSS.CreateDirectoryIfNeeded(systemUnitsFolder);
@@ -116,8 +126,8 @@ public class SourceCodeGenerator
             FSS.WriteFileContent(namespaceDocPath, namespaceDocFileContent);
 
             var uomWithNamespaceDir = string.IsNullOrWhiteSpace(namespaceName)
-                ? unitsOfMeasurePath
-                : Path.Combine(unitsOfMeasurePath, namespaceName);
+                ? _unitsOfMeasureDir
+                : Path.Combine(_unitsOfMeasureDir, namespaceName);
 
             FSS.CreateDirectoryIfNeeded(uomWithNamespaceDir);
 

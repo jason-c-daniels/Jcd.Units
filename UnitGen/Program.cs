@@ -5,21 +5,17 @@ using FSS=UnitGen.Services.FileSystemService;
 if (EssentialDirectoriesAreMissing(out var jcdUnitsDir, out var jcdUnitsTestsDir)) 
     return -1; // abort the app. We can't run.
 
-var unitTypesDir = Path.Combine(jcdUnitsDir, "UnitTypes");
-var unitsOfMeasureDir = Path.Combine(jcdUnitsDir, "UnitsOfMeasure");
-
 var unitDefRepo = new UnitDefinitionRepository();
 
-var unitTypes = unitDefRepo.GetUsedUnitTypes();
-
-var groupings = unitDefRepo.GetSystemToUnitTypeToUnitDefinitionGroupings();
-
-var sourceGen = new SourceCodeGenerator(unitDefRepo.SystemRepo.GetAll());
+var sourceGen = new SourceCodeGenerator(unitDefRepo,jcdUnitsDir);
+var testGen = new TestGenerator(unitDefRepo,jcdUnitsTestsDir);
 
 try
 {
-    sourceGen.CreateUnitTypeFiles(unitTypesDir, unitTypes);
-    sourceGen.CreateUnitOfMeasureFiles(unitsOfMeasureDir, groupings);
+    sourceGen.CreateUnitTypeFiles();
+    testGen.CreateUnitTypeTests();    
+    sourceGen.CreateUnitOfMeasureFiles();
+    testGen.CreateUnitOfMeasureTests();
 }
 catch (Exception ex)
 {
