@@ -8,11 +8,11 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Temperatures : Enumeration<Temperatures,Temperature>
 {
 
-
     /// <summary>
     /// A(n) degrees celcius.
     /// </summary>
     public static readonly Temperature DegreesCelcius = new ("degrees celcius", "°C");
+
     /// <summary>
     /// A(n) degrees kelvin. Defined in terms of a(n) degrees celcius.
     /// </summary>

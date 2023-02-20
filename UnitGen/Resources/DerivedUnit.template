@@ -1,5 +1,5 @@
-﻿    /// <summary>
+﻿
+    /// <summary>
     /// A(n) $Unit.Name$. Defined in terms of a(n) $BaseUnit.System$$BaseUnit.Name$.
     /// </summary>
     public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$", $BaseUnitNamespacePrefix$$BaseUnit$, $Coefficient$,$Offset$);
-    

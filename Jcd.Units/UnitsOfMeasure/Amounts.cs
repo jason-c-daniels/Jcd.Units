@@ -8,7 +8,6 @@ namespace Jcd.Units.UnitsOfMeasure;
 public class Amounts : Enumeration<Amounts,Amount>
 {
 
-
     /// <summary>
     /// A(n) count.
     /// </summary>

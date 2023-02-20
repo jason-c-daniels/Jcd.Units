@@ -12,22 +12,22 @@ public class Temperatures : Enumeration<Temperatures,Temperature>
     /// A(n) degrees rankine. Defined in terms of a(n) SI degrees celcius.
     /// </summary>
     public static readonly Temperature DegreesRankine = new ("degrees rankine", "°R", SI.Temperatures.DegreesCelcius, 5.0/9.0,-491.67);
-    
+
     /// <summary>
     /// A(n) degrees delisle. Defined in terms of a(n) SI degrees celcius.
     /// </summary>
     public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelcius, 1.0/1.5,100);
-    
+
     /// <summary>
     /// A(n) degrees newton. Defined in terms of a(n) SI degrees celcius.
     /// </summary>
     public static readonly Temperature DegreesNewton = new ("degrees newton", "°N", SI.Temperatures.DegreesCelcius, 100.0/33.0,0);
-    
+
     /// <summary>
     /// A(n) degrees réaumur. Defined in terms of a(n) SI degrees celcius.
     /// </summary>
     public static readonly Temperature DegreesRéaumur = new ("degrees réaumur", "°Ré", SI.Temperatures.DegreesCelcius, 5.0/4.0,0);
-    
+
     /// <summary>
     /// A(n) degrees rømer. Defined in terms of a(n) SI degrees celcius.
     /// </summary>
