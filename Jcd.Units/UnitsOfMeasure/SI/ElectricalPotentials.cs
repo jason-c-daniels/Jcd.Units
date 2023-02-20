@@ -3,6 +3,7 @@
 // ReSharper disable MemberCanBePrivate.Global
 // ReSharper disable UnusedMember.Global
 // ReSharper disable ClassNeverInstantiated.Global
+// ReSharper disable UnusedType.Global
 
 
 namespace Jcd.Units.UnitsOfMeasure.SI;

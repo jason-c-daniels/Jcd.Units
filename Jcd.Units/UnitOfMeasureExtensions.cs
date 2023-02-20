@@ -18,6 +18,7 @@ public static class UnitOfMeasureExtensions
     public static double FromBaseUnitValue<TUnitType>(this TUnitType targetUnit, double value)
         where TUnitType : IUnitOfMeasure<TUnitType>
     {
+        // ReSharper disable once ArrangeRedundantParentheses
         return (value / targetUnit.Coefficient)  - targetUnit.Offset;
     }
 
