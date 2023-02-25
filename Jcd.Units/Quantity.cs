@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Jcd.Units;
 
@@ -12,6 +13,19 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     IComparable<Quantity<TUnits>>,
     IComparable where TUnits : IUnitOfMeasure<TUnits>
 {
+    private readonly IValueComparer<double> _comparer=StandardDoubleComparer.Standard;
+    
+    /// <summary>
+    /// Represents a quantity with an associated unit of measure.
+    /// </summary>
+    /// <param name="rawValue">The numeric portion, without associated unit of measure</param>
+    /// <param name="units">The unit of measure.</param>
+    /// <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
+    public Quantity(double rawValue, TUnits units, IValueComparer<double>? baseUnitComparer = null) :
+        this(rawValue,units)
+    {
+        _comparer = baseUnitComparer ?? StandardDoubleComparer.Standard;
+    }
 
     /// <summary>
     /// Converts the quantity from its current unit of measure to the target unit of measure.
@@ -132,7 +146,6 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
     public static Quantity<TUnits> operator /(Quantity<TUnits> x, Quantity<TUnits> y)
     {
-        if (y.RawValue == 0) throw new DivideByZeroException();
         if (x.Units.CompareTo(y.Units) == 0) return x / y.RawValue;
         var targetUnit = x.Units.CompareTo(y.Units) > 0 ? x.Units : y.Units;
         if (x.Units.CompareTo(targetUnit) == 0) return x / y.To(targetUnit).RawValue;
@@ -185,7 +198,6 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
     public static Quantity<TUnits> operator /(Quantity<TUnits> x, double y)
     {
-        if (y == 0) throw new DivideByZeroException();
         return x with { RawValue = x.RawValue / y };
     }
 
@@ -235,7 +247,6 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
     public static Quantity<TUnits> operator /(double x, Quantity<TUnits> y)
     {
-        if (y.RawValue == 0) throw new DivideByZeroException();
         return y with { RawValue = x / y.RawValue };
     }
 
@@ -246,11 +257,15 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     /// <summary>
     /// Compares this instance to another <see cref="Quantity{TUnits}"/> instance for equality.
     /// </summary>
+    /// <remarks>
+    /// Both quantities are converted to the double representation of the ultimate base unit of
+    /// measure before comparison.
+    /// </remarks>
     /// <param name="other">The other instance to compare against.</param>
     /// <returns>True if equivalent. False otherwise.</returns>
     public bool Equals(Quantity<TUnits> other)
     {
-        return Units.ToBaseUnitValue(RawValue) == other.Units.ToBaseUnitValue(other.RawValue);
+        return _comparer.Equals(Units.ToBaseUnitValue(RawValue),Units.ToBaseUnitValue(other.RawValue));
     }
 
     /// <summary>
@@ -262,7 +277,7 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     /// <returns>The calculated hashcode.</returns>
     public override int GetHashCode()
     {
-        return HashCode.Combine(Units.ToBaseUnitValue(RawValue), typeof(Quantity<TUnits>));
+        return HashCode.Combine(_comparer.GetHashCode(Units.ToBaseUnitValue(RawValue)), typeof(Quantity<TUnits>));
     }
 
     #endregion
@@ -274,17 +289,17 @@ public readonly record struct Quantity<TUnits>(double RawValue, TUnits Units) :
     /// </summary>
     /// <param name="other">The other instance to compare against.</param>
     /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
-
     public int CompareTo(Quantity<TUnits> other)
     {
-        return Units.ToBaseUnitValue(RawValue).CompareTo(other.Units.ToBaseUnitValue(other.RawValue));
+        return _comparer.Compare(Units.ToBaseUnitValue(RawValue), other.Units.ToBaseUnitValue(other.RawValue));
+        //Units.ToBaseUnitValue(RawValue).CompareTo(other.Units.ToBaseUnitValue(other.RawValue));
     }
+    
     /// <summary>
     /// Compares this instance to another <see cref="Quantity{TUnits}"/> instance for relative value.
     /// </summary>
     /// <param name="obj">The other instance to compare against.</param>
     /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
-
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1;
