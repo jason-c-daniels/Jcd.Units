@@ -6,13 +6,13 @@ namespace Jcd.Units;
 /// <summary>
 /// The interface defining what every unit of measure must support.
 /// </summary>
-/// <typeparam name="TUnits">The type deriving from <see cref="IUnitOfMeasure{TUnits}"/></typeparam>
+/// <typeparam name="TUnit">The type deriving from <see cref="IUnitOfMeasure{TUnit}"/></typeparam>
 /// <remarks>
 /// By ensuring that all units of measure provide their own type to the interface
 /// we guarantee compile time detection of certain classes of errors.
 /// </remarks>
-public interface IUnitOfMeasure<in TUnits>
-    : IComparable<TUnits>,
+public interface IUnitOfMeasure<in TUnit>
+    : IComparable<TUnit>,
       IComparable
 {
     /// <summary>
@@ -22,7 +22,6 @@ public interface IUnitOfMeasure<in TUnits>
     
     /// <summary>
     /// The symbolic short representation.
-    /// NOTE: THIS SHOULD BE ONLY LETTERS AND SYMBOLS, NOT AN EQUATION.
     /// </summary>
     string Symbol { get; }
     

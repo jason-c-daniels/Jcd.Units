@@ -6,32 +6,32 @@ namespace Jcd.Units;
 /// Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
 /// </summary>
 /// <param name="Name">The name of this unit</param>
-/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnits}"/></param>
+/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public abstract record UnitOfMeasure<TUnits>(string Name, string Symbol, double Coefficient=1, double Offset=0) 
-    : IUnitOfMeasure<UnitOfMeasure<TUnits>>
+public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double Coefficient=1, double Offset=0) 
+    : IUnitOfMeasure<UnitOfMeasure<TUnit>>
 {
     #region Equality members
 
     /// <summary>
-    /// Compares this <see cref="UnitOfMeasure{TUnits}"/> to another one for equality.
+    /// Compares this <see cref="UnitOfMeasure{TUnit}"/> to another one for equality.
     /// </summary>
-    /// <param name="other">The other <see cref="UnitOfMeasure{TUnits}"/> to compare against.</param>
+    /// <param name="other">The other <see cref="UnitOfMeasure{TUnit}"/> to compare against.</param>
     /// <returns>true if equivalent, false otherwise.</returns>
-    public virtual bool Equals(UnitOfMeasure<TUnits>? other)
+    public virtual bool Equals(UnitOfMeasure<TUnit>? other)
     {
         if (other is null) return false;
         return Coefficient.Equals(other.Coefficient) && Offset.Equals(other.Offset);
     }
 
     /// <summary>
-    /// Computes the hash code for this <see cref="UnitOfMeasure{TUnits}"/>
+    /// Computes the hash code for this <see cref="UnitOfMeasure{TUnit}"/>
     /// </summary>
     /// <returns>The computed hashcode.</returns>
     public override int GetHashCode()
     {
-        return HashCode.Combine(Coefficient, Offset, typeof(UnitOfMeasure<TUnits>));
+        return HashCode.Combine(Coefficient, Offset, typeof(UnitOfMeasure<TUnit>));
     }
     
     #endregion
@@ -39,11 +39,11 @@ public abstract record UnitOfMeasure<TUnits>(string Name, string Symbol, double 
     #region Relational members
 
     /// <summary>
-    /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnits}"/> and another one.
+    /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnit}"/> and another one.
     /// </summary>
-    /// <param name="other">The <see cref="UnitOfMeasure{TUnits}"/> to compare against.</param>
+    /// <param name="other">The <see cref="UnitOfMeasure{TUnit}"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    public int CompareTo(UnitOfMeasure<TUnits>? other)
+    public int CompareTo(UnitOfMeasure<TUnit>? other)
     {
         if (other is null) return 1; // sort nulls first.
         var factorComparison = Coefficient.CompareTo(other.Coefficient);
@@ -51,24 +51,24 @@ public abstract record UnitOfMeasure<TUnits>(string Name, string Symbol, double 
     }
 
     /// <summary>
-    /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnits}"/> and another one.
+    /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnit}"/> and another one.
     /// </summary>
-    /// <param name="obj">The <see cref="UnitOfMeasure{TUnits}"/> to compare against.</param>
+    /// <param name="obj">The <see cref="UnitOfMeasure{TUnit}"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="UnitOfMeasure{TUnits}"/></exception>
+    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="UnitOfMeasure{TUnit}"/></exception>
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1; // sort nulls first.
-        return obj is UnitOfMeasure<TUnits> other ? CompareTo(other) : throw new ArgumentException($"Object must be of type {nameof(UnitOfMeasure<TUnits>)}");
+        return obj is UnitOfMeasure<TUnit> other ? CompareTo(other) : throw new ArgumentException($"Object must be of type {nameof(UnitOfMeasure<TUnit>)}");
     }
 
     /// <summary>
-    /// Compares two <see cref="UnitOfMeasure{TUnits}"/> instances to determine if the left one is less than the right one. 
+    /// Compares two <see cref="UnitOfMeasure{TUnit}"/> instances to determine if the left one is less than the right one. 
     /// </summary>
-    /// <param name="left">The left <see cref="UnitOfMeasure{TUnits}"/></param>
-    /// <param name="right">The right <see cref="UnitOfMeasure{TUnits}"/></param>
+    /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}"/></param>
+    /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}"/></param>
     /// <returns>true if left is &lt; right; false otherwise.</returns>
-    public static bool operator <(UnitOfMeasure<TUnits>? left, UnitOfMeasure<TUnits>? right)
+    public static bool operator <(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
     {
         if (ReferenceEquals(left, right)) return false; // if they're the same instance or both are null.
         if (ReferenceEquals(null, right)) return false; // relationally, nulls do not compare, return false.
@@ -77,12 +77,12 @@ public abstract record UnitOfMeasure<TUnits>(string Name, string Symbol, double 
     }
 
     /// <summary>
-    /// Compares two <see cref="UnitOfMeasure{TUnits}"/> instances to determine if the left one is greater than the right one. 
+    /// Compares two <see cref="UnitOfMeasure{TUnit}"/> instances to determine if the left one is greater than the right one. 
     /// </summary>
-    /// <param name="left">The left <see cref="UnitOfMeasure{TUnits}"/></param>
-    /// <param name="right">The right <see cref="UnitOfMeasure{TUnits}"/></param>
+    /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}"/></param>
+    /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}"/></param>
     /// <returns>true if left is &gt; right; false otherwise.</returns>
-    public static bool operator >(UnitOfMeasure<TUnits>? left, UnitOfMeasure<TUnits>? right)
+    public static bool operator >(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
     {
         if (ReferenceEquals(left, right)) return false; // if they're the same instance or both are null.
         if (ReferenceEquals(null, right)) return false; // relationally, nulls do not compare, return false.
@@ -91,12 +91,12 @@ public abstract record UnitOfMeasure<TUnits>(string Name, string Symbol, double 
     }
 
     /// <summary>
-    /// Compares two <see cref="UnitOfMeasure{TUnits}"/> instances to determine if the left one is less than or equal to the right one. 
+    /// Compares two <see cref="UnitOfMeasure{TUnit}"/> instances to determine if the left one is less than or equal to the right one. 
     /// </summary>
-    /// <param name="left">The left <see cref="UnitOfMeasure{TUnits}"/></param>
-    /// <param name="right">The right <see cref="UnitOfMeasure{TUnits}"/></param>
+    /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}"/></param>
+    /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}"/></param>
     /// <returns>true if left is &lt;= right; false otherwise.</returns>
-    public static bool operator <=(UnitOfMeasure<TUnits>? left, UnitOfMeasure<TUnits>? right)
+    public static bool operator <=(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
     {
         if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
         if (ReferenceEquals(left, right)) return true; // if they're the same instance.
@@ -106,12 +106,12 @@ public abstract record UnitOfMeasure<TUnits>(string Name, string Symbol, double 
     }
 
     /// <summary>
-    /// Compares two <see cref="UnitOfMeasure{TUnits}"/> instances to determine if the left one is greater than or equal to the right one. 
+    /// Compares two <see cref="UnitOfMeasure{TUnit}"/> instances to determine if the left one is greater than or equal to the right one. 
     /// </summary>
-    /// <param name="left">The left <see cref="UnitOfMeasure{TUnits}"/></param>
-    /// <param name="right">The right <see cref="UnitOfMeasure{TUnits}"/></param>
+    /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}"/></param>
+    /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}"/></param>
     /// <returns>true if left is &gt;= right; false otherwise.</returns>
-    public static bool operator >=(UnitOfMeasure<TUnits>? left, UnitOfMeasure<TUnits>? right)
+    public static bool operator >=(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
     {
         if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
         if (ReferenceEquals(left, right)) return false; // if they're the same instance.
