@@ -19,7 +19,9 @@ public record Illuminance(string Name, string Symbol, double Coefficient=1, doub
     /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
     /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
     public Illuminance(string name, string symbol, Illuminance baseUnit, double coefficient, double offset = 0) 
-        : this(name,symbol,baseUnit.ComputeFundamentalCoefficient(coefficient),baseUnit.ComputeFundamentalOffset(offset))
+        : this(name,symbol,coefficient,offset)
     {
+	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
+        Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }
 }

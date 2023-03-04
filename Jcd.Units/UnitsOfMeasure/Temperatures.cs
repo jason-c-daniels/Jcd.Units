@@ -22,7 +22,7 @@ public class Temperatures : Enumeration<Temperatures,Temperature>
     /// <summary>
     /// A(n) degrees delisle. Defined in terms of a(n) SI degrees celcius.
     /// </summary>
-    public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelcius, 1.0/1.5,100);
+    public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelcius, 3.0/2.0,-150);
 
     /// <summary>
     /// A(n) degrees newton. Defined in terms of a(n) SI degrees celcius.

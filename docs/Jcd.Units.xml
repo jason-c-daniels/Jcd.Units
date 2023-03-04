@@ -4,6 +4,58 @@
         <name>Jcd.Units</name>
     </assembly>
     <members>
+        <member name="T:Jcd.Units.BitwiseDoubleComparer">
+            <summary>
+            Performs standard, compiler provided, comparison operations against two doubles.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.BitwiseDoubleComparer.Compare(System.Double,System.Double)">
+            <summary>
+            Compares two doubles by the compiler provided default. This carries with it all the concerns
+            of doing raw double comparisons. This is provided as a default mechanism to kickstart
+            operations. You should really implement and use your own comparer as per your application's needs.
+            </summary>
+            <remarks>
+            <see href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/">Comparing Floating Point Numbers 2012 Edition</see>
+            by Bruce Dawson for a summary of considerations when comparing doubles and why this really isn't the class
+            to use for production code. 
+            </remarks>
+            <param name="x">The left hand operand</param>
+            <param name="y">the right hand operand</param>
+            <returns>-1 if <paramref name="x"/> is less than <paramref name="y"/>, 0 if they're equal and 1 if <paramref name="x"/> is greater than <paramref name="y"/></returns>
+        </member>
+        <member name="F:Jcd.Units.BitwiseDoubleComparer.Standard">
+            <summary>
+            The default instance. Use this instead of constantly creating new ones. It's easier
+            on the garbage collector.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.BitwiseDoubleComparer.Equals(System.Double,System.Double)">
+            <summary>
+            Compares two doubles for equality.
+            </summary>
+            <param name="x">A value to compare.</param>
+            <param name="y">A value to compare.</param>
+            <returns>true if both are equal, false otherwise.</returns>
+        </member>
+        <member name="M:Jcd.Units.BitwiseDoubleComparer.GetHashCode(System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="T:Jcd.Units.DoubleComparer">
+            <summary>
+            Provides both default and registrable ways of comparing doubles used within this subsystem.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.DoubleComparer.Quantity">
+            <summary>
+            The registered double comparer used by Quantities, by default. 
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.DoubleComparer.UnitOfMeasure">
+            <summary>
+            The registered double comparer used by UnitOfMeasure instances, by default.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.Enumeration`2">
             <summary>
             The base of all DDD-style enumerations in this library.
@@ -22,7 +74,7 @@
             <summary>
             The interface defining what every unit of measure must support.
             </summary>
-            <typeparam name="TUnits">The type deriving from <see cref="T:Jcd.Units.IUnitOfMeasure`1"/></typeparam>
+            <typeparam name="TUnit">The type deriving from <see cref="T:Jcd.Units.IUnitOfMeasure`1"/></typeparam>
             <remarks>
             By ensuring that all units of measure provide their own type to the interface
             we guarantee compile time detection of certain classes of errors.
@@ -36,7 +88,6 @@
         <member name="P:Jcd.Units.IUnitOfMeasure`1.Symbol">
             <summary>
             The symbolic short representation.
-            NOTE: THIS SHOULD BE ONLY LETTERS AND SYMBOLS, NOT AN EQUATION.
             </summary>
         </member>
         <member name="P:Jcd.Units.IUnitOfMeasure`1.Coefficient">
@@ -51,6 +102,12 @@
             This is the offset from the fundamental unit.
             </summary>
         </member>
+        <member name="T:Jcd.Units.IValueComparer`1">
+            <summary>
+            Defines the interface needed to perform value comparisons within a quantity type. 
+            </summary>
+            <typeparam name="T">The datatype being compared</typeparam>
+        </member>
         <member name="T:Jcd.Units.NamespaceDoc">
             <summary>
             Provides a quantity type (<see cref="T:Jcd.Units.Quantity`1"/>) and various simple <see cref="T:Jcd.Units.UnitOfMeasure`1"/>
@@ -62,27 +119,119 @@
             as necessary during computations.
             </remarks>
         </member>
+        <member name="T:Jcd.Units.NumericExtensions">
+            <summary>
+            Some extension methods to make creating quantities using units of measures,
+            and converting among units of measure easier.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Double,``0)">
+            <summary>
+            Converts a <see cref="T:System.Double"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Double"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Single,``0)">
+            <summary>
+            Converts a <see cref="T:System.Single"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Single"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Int32,``0)">
+            <summary>
+            Converts an <see cref="T:System.Int32"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Int32"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.UInt32,``0)">
+            <summary>
+            Converts a <see cref="T:System.UInt32"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.UInt32"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Int16,``0)">
+            <summary>
+            Converts a <see cref="T:System.Int16"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Int16"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.UInt16,``0)">
+            <summary>
+            Converts a <see cref="T:System.UInt16"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.UInt16"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.SByte,``0)">
+            <summary>
+            Converts an <see cref="T:System.SByte"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.SByte"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Byte,``0)">
+            <summary>
+            Converts a <see cref="T:System.Byte"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Byte"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
         <member name="T:Jcd.Units.Quantity`1">
             <summary>
             Represents a quantity with an associated unit of measure.
             </summary>
             <param name="RawValue">The numeric portion, without associated unit of measure</param>
-            <param name="Units">The unit of measure.</param>
-            <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
+            <param name="Unit">The unit of measure.</param>
+            <typeparam name="TUnit">The data type of the unit of measure. It must derive from <see cref="T:Jcd.Units.UnitOfMeasure`1"/></typeparam>
         </member>
         <member name="M:Jcd.Units.Quantity`1.#ctor(System.Double,`0)">
             <summary>
             Represents a quantity with an associated unit of measure.
             </summary>
             <param name="RawValue">The numeric portion, without associated unit of measure</param>
-            <param name="Units">The unit of measure.</param>
-            <typeparam name="TUnits">The data type of the unit of measure.</typeparam>
+            <param name="Unit">The unit of measure.</param>
+            <typeparam name="TUnit">The data type of the unit of measure. It must derive from <see cref="T:Jcd.Units.UnitOfMeasure`1"/></typeparam>
         </member>
         <member name="P:Jcd.Units.Quantity`1.RawValue">
             <summary>The numeric portion, without associated unit of measure</summary>
         </member>
-        <member name="P:Jcd.Units.Quantity`1.Units">
+        <member name="P:Jcd.Units.Quantity`1.Unit">
             <summary>The unit of measure.</summary>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.DefaultDoubleComparer">
+            <summary>
+            Sets the <see cref="T:Jcd.Units.IValueComparer`1"/> used by quantities for the particular unit of
+            measure type. (e.g. lengths.) 
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.#ctor(System.Double,`0,Jcd.Units.IValueComparer{System.Double})">
+            <summary>
+            Represents a quantity with an associated unit of measure.
+            </summary>
+            <param name="rawValue">The numeric portion, without associated unit of measure</param>
+            <param name="unit">The unit of measure.</param>
+            <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
         </member>
         <member name="M:Jcd.Units.Quantity`1.To(`0)">
             <summary>
@@ -229,6 +378,10 @@
             <summary>
             Compares this instance to another <see cref="T:Jcd.Units.Quantity`1"/> instance for equality.
             </summary>
+            <remarks>
+            The quantity with the smaller unit of measure is converted to the double representation of
+            the larger unit of measure before comparison.
+            </remarks>
             <param name="other">The other instance to compare against.</param>
             <returns>True if equivalent. False otherwise.</returns>
         </member>
@@ -236,7 +389,7 @@
             <summary>
             Computes a hashcode for the quantity. So that numeric equivalence is maintained
             regardless of precise unit of measure is used, the hashcode is calculated on
-            the base unit representation. TUnits is included in the hashcode to ensure
+            the base unit representation. TUnit is included in the hashcode to ensure
             that differing units do not compare the same.
             </summary>
             <returns>The calculated hashcode.</returns>
@@ -245,6 +398,10 @@
             <summary>
             Compares this instance to another <see cref="T:Jcd.Units.Quantity`1"/> instance for relative value.
             </summary>
+            <remarks>
+            The quantity with the smaller unit of measure is converted to the double representation of
+            the larger unit of measure before comparison.
+            </remarks>
             <param name="other">The other instance to compare against.</param>
             <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
         </member>
@@ -287,84 +444,6 @@
             <param name="right">the right hand operand</param>
             <returns>true if <paramref name="left"/> is greater than or equal to <paramref name="right"/>; false otherwise.</returns>
         </member>
-        <member name="T:Jcd.Units.QuantityExtensions">
-            <summary>
-            Some extension methods to make creating quantities using units of measures,
-            and converting among units of measure easier.
-            </summary>
-        </member>
-        <member name="M:Jcd.Units.QuantityExtensions.As``1(System.Double,``0)">
-            <summary>
-            Converts a <see cref="T:System.Double"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Double"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnits">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.QuantityExtensions.As``1(System.Single,``0)">
-            <summary>
-            Converts a <see cref="T:System.Single"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Single"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnits">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.QuantityExtensions.As``1(System.Int32,``0)">
-            <summary>
-            Converts an <see cref="T:System.Int32"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Int32"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnits">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.QuantityExtensions.As``1(System.UInt32,``0)">
-            <summary>
-            Converts a <see cref="T:System.UInt32"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.UInt32"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnits">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.QuantityExtensions.As``1(System.Int16,``0)">
-            <summary>
-            Converts a <see cref="T:System.Int16"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Int16"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnits">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.QuantityExtensions.As``1(System.UInt16,``0)">
-            <summary>
-            Converts a <see cref="T:System.UInt16"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.UInt16"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnits">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.QuantityExtensions.As``1(System.SByte,``0)">
-            <summary>
-            Converts an <see cref="T:System.SByte"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.SByte"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnits">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.QuantityExtensions.As``1(System.Byte,``0)">
-            <summary>
-            Converts a <see cref="T:System.Byte"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Byte"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnits">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
         <member name="T:Jcd.Units.UnitOfMeasure`1">
             <summary>
             Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
@@ -395,6 +474,22 @@
         <member name="P:Jcd.Units.UnitOfMeasure`1.Offset">
             <summary>The offset used when computing values going to and from the base unit's representation.</summary>
         </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.DefaultDoubleComparer">
+            <summary>
+            Sets the <see cref="T:Jcd.Units.IValueComparer`1"/> used by units of measure for this particular unit of
+            measure type. (e.g. lengths.) 
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+            <summary>
+            Constructs a <see cref="T:Jcd.Units.UnitOfMeasure`1" /> with optional <see cref="T:Jcd.Units.IValueComparer`1"/>
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
+            <param name="coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+            <param name="offset">The offset used when computing values going to and from the base unit's representation.</param>
+            <param name="comparer">The <see cref="T:Jcd.Units.IValueComparer`1"/> to use in double comparisons.</param>
+        </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.Equals(Jcd.Units.UnitOfMeasure{`0})">
             <summary>
             Compares this <see cref="T:Jcd.Units.UnitOfMeasure`1"/> to another one for equality.
@@ -407,6 +502,9 @@
             Computes the hash code for this <see cref="T:Jcd.Units.UnitOfMeasure`1"/>
             </summary>
             <returns>The computed hashcode.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.ToString">
+            <inheritdoc />
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.CompareTo(Jcd.Units.UnitOfMeasure{`0})">
             <summary>
@@ -492,13 +590,14 @@
             <typeparam name="TUnitType">The unit of measure type.</typeparam>
             <returns>The coefficient for the fundamental unit of measure.</returns>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalOffset``1(Jcd.Units.IUnitOfMeasure{``0},System.Double)">
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalOffset``1(Jcd.Units.IUnitOfMeasure{``0},System.Double,System.Double)">
             <summary>
             Given a <paramref name="baseUnit"/> and an offset, calculate the equivalent
             offset for the fundamental unit of measure. (i.e. the one with Coeff = 1 and Offset = 0) 
             </summary>
             <param name="baseUnit">The base unit of measure to use.</param>
             <param name="offset">The offset to normalize.</param>
+            <param name="fundamentalCoefficient">The coefficient for converting to the fundamental unit of measure.</param>
             <typeparam name="TUnitType">The unit of measure type.</typeparam>
             <returns>The offset for the fundamental unit of measure.</returns>
         </member>

@@ -12,6 +12,29 @@ namespace Jcd.Units;
 public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double Coefficient=1, double Offset=0) 
     : IUnitOfMeasure<UnitOfMeasure<TUnit>>
 {
+    /// <summary>
+    /// Sets the <see cref="IValueComparer{Double}"/> used by units of measure for this particular unit of
+    /// measure type. (e.g. lengths.) 
+    /// </summary>
+    // ReSharper disable once StaticMemberInGenericType
+    public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
+    
+    private readonly IValueComparer<double>? _comparer;
+
+    /// <summary>
+    /// Constructs a <see cref="UnitOfMeasure{TUnit}" /> with optional <see cref="IValueComparer{Double}"/>
+    /// </summary>
+    /// <param name="name">The name of this unit</param>
+    /// <param name="symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}"/></param>
+    /// <param name="coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
+    /// <param name="offset">The offset used when computing values going to and from the base unit's representation.</param>
+    /// <param name="comparer">The <see cref="IValueComparer{Double}"/> to use in double comparisons.</param>
+    public UnitOfMeasure(string name, string symbol, double coefficient = 1, double offset = 0,
+        IValueComparer<double>? comparer = null) : this(name,symbol,coefficient,offset)
+    {
+        _comparer = comparer;
+    }
+    
     #region Equality members
 
     /// <summary>
@@ -22,7 +45,9 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
     public virtual bool Equals(UnitOfMeasure<TUnit>? other)
     {
         if (other is null) return false;
-        return Coefficient.Equals(other.Coefficient) && Offset.Equals(other.Offset);
+        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+        
+        return comparer.Equals(Coefficient,other.Coefficient) && comparer.Equals(Offset,other.Offset);
     }
 
     /// <summary>
@@ -31,9 +56,19 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
     /// <returns>The computed hashcode.</returns>
     public override int GetHashCode()
     {
-        return HashCode.Combine(Coefficient, Offset, typeof(UnitOfMeasure<TUnit>));
+        // ReSharper disable once NonReadonlyMemberInGetHashCode
+        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+        
+        return HashCode.Combine(comparer.GetHashCode(Coefficient), comparer.GetHashCode(Offset), typeof(UnitOfMeasure<TUnit>));
     }
-    
+
+    /// <inheritdoc />
+    public sealed override string ToString()
+    {
+        var sign = Offset >= 0 ? '+' : '-';
+        return $"{Name}({Symbol})[= <fundamental-unit> × {Coefficient} {sign} {Math.Abs(Offset)}]";
+    }
+
     #endregion
 
     #region Relational members
@@ -46,8 +81,9 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
     public int CompareTo(UnitOfMeasure<TUnit>? other)
     {
         if (other is null) return 1; // sort nulls first.
-        var factorComparison = Coefficient.CompareTo(other.Coefficient);
-        return factorComparison != 0 ? factorComparison : Offset.CompareTo(other.Offset);
+        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+        var factorComparison = comparer.Compare(Coefficient,other.Coefficient);
+        return factorComparison != 0 ? factorComparison : comparer.Compare(Offset,other.Offset);
     }
 
     /// <summary>

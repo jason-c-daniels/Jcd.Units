@@ -19,7 +19,9 @@ public record Force(string Name, string Symbol, double Coefficient=1, double Off
     /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
     /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
     public Force(string name, string symbol, Force baseUnit, double coefficient, double offset = 0) 
-        : this(name,symbol,baseUnit.ComputeFundamentalCoefficient(coefficient),baseUnit.ComputeFundamentalOffset(offset))
+        : this(name,symbol,coefficient,offset)
     {
+	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
+        Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }
 }

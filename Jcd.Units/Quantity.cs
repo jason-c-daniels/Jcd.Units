@@ -12,7 +12,14 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     IComparable<Quantity<TUnit>>,
     IComparable where TUnit : UnitOfMeasure<TUnit>
 {
-    private readonly IValueComparer<double> _comparer=StandardDoubleComparer.Standard;
+    /// <summary>
+    /// Sets the <see cref="IValueComparer{Double}"/> used by quantities for the particular unit of
+    /// measure type. (e.g. lengths.) 
+    /// </summary>
+    // ReSharper disable once StaticMemberInGenericType
+    public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
+
+    private readonly IValueComparer<double>? _comparer=null;
     
     /// <summary>
     /// Represents a quantity with an associated unit of measure.
@@ -23,7 +30,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     public Quantity(double rawValue, TUnit unit, IValueComparer<double>? baseUnitComparer = null) :
         this(rawValue,unit)
     {
-        _comparer = baseUnitComparer ?? StandardDoubleComparer.Standard;
+        _comparer = baseUnitComparer;
     }
 
     /// <summary>
@@ -264,10 +271,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <returns>True if equivalent. False otherwise.</returns>
     public bool Equals(Quantity<TUnit> other)
     {
+        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.Quantity;
         var targetUnit = Unit >= other.Unit ? Unit : other.Unit;
         var ownValue = Unit == targetUnit ? RawValue : To(targetUnit).RawValue;
         var otherValue = other.Unit == targetUnit ? other.RawValue : other.To(targetUnit).RawValue;
-        return _comparer.Equals(ownValue,otherValue);
+        return comparer.Equals(ownValue,otherValue);
     }
 
     /// <summary>
@@ -279,7 +287,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <returns>The calculated hashcode.</returns>
     public override int GetHashCode()
     {
-        return HashCode.Combine(_comparer.GetHashCode(Unit.ToBaseUnitValue(RawValue)), typeof(Quantity<TUnit>));
+        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.Quantity;
+        return HashCode.Combine(comparer.GetHashCode(Unit.ToBaseUnitValue(RawValue)), typeof(Quantity<TUnit>));
     }
 
     #endregion
@@ -297,10 +306,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
     public int CompareTo(Quantity<TUnit> other)
     {
+        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.Quantity;
         var targetUnit = Unit >= other.Unit ? Unit : other.Unit;
         var ownValue = Unit == targetUnit ? RawValue : To(targetUnit).RawValue;
         var otherValue = other.Unit == targetUnit ? other.RawValue : other.To(targetUnit).RawValue;
-        return _comparer.Compare(ownValue,otherValue);
+        return comparer.Compare(ownValue,otherValue);
     }
     
     /// <summary>

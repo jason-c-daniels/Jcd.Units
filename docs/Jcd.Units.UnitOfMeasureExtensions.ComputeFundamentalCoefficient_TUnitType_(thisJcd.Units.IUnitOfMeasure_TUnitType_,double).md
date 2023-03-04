@@ -20,7 +20,7 @@ The unit of measure type.
 
 <a name='Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient_TUnitType_(thisJcd.Units.IUnitOfMeasure_TUnitType_,double).baseUnit'></a>
 
-`baseUnit` [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')[TUnitType](Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient_TUnitType_(thisJcd.Units.IUnitOfMeasure_TUnitType_,double).md#Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient_TUnitType_(thisJcd.Units.IUnitOfMeasure_TUnitType_,double).TUnitType 'Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient<TUnitType>(this Jcd.Units.IUnitOfMeasure<TUnitType>, double).TUnitType')[&gt;](Jcd.Units.IUnitOfMeasure_TUnits_.md 'Jcd.Units.IUnitOfMeasure<TUnits>')
+`baseUnit` [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')[TUnitType](Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient_TUnitType_(thisJcd.Units.IUnitOfMeasure_TUnitType_,double).md#Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient_TUnitType_(thisJcd.Units.IUnitOfMeasure_TUnitType_,double).TUnitType 'Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient<TUnitType>(this Jcd.Units.IUnitOfMeasure<TUnitType>, double).TUnitType')[&gt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')
 
 The base unit of measure to use.
 

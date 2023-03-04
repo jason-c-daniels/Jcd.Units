@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System;
 using Jcd.Units;
 using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitsOfMeasure.Astronomical;
@@ -8,6 +9,14 @@ using SI=Jcd.Units.UnitsOfMeasure.SI;
 using USCustomary=Jcd.Units.UnitsOfMeasure.USCustomary;
 using USSurvey=Jcd.Units.UnitsOfMeasure.USSurvey;
 using Imperial=Jcd.Units.UnitsOfMeasure.Imperial;
+
+var Kilokelvin = new Temperature("Kilokelvin", "°kK", SI.Temperatures.DegreesKelvin, 1000.0);//SI.Temperatures.DegreesCelcius,1000,SI.Temperatures.DegreesKelvin.Offset);
+var Millikelvin = new Temperature("millikelvin", "°mK", SI.Temperatures.DegreesKelvin, 1.0 / 1000.0);//,SI.Temperatures.DegreesKelvin.Offset);
+var OneMillikelvinT = 1.As(Millikelvin);
+var OneKilokelvinT = 1.As(Kilokelvin);
+var OneThousandKelvinT = OneKilokelvinT.To(SI.Temperatures.DegreesKelvin);
+var OneThousandKelvinAndOneMillikelvinT = OneThousandKelvinT + OneMillikelvinT;
+
 
 var allDurations = Durations.GetAll().ToList();
 Console.WriteLine("Hello, World!");
@@ -94,19 +103,89 @@ var tempC5 = (3+tempDe).To(Temperatures.DegreesCelcius);
 // if, in the example case of the length, you wanted square feet you'd first convert to feet, then multiply, then convert to square feet
 var i = 0;
 
-var T1 = new Temperature("degrees Celcius","deg. C",1,0);
+var T1 = new Temperature("degrees Celcius","C",1,0);
 var T2 = new Temperature("degrees Fahrenheit","deg. F",T1,5.0/9.0,-32);
 var x = -T2.Offset;
-var T3 = new Temperature("degrees C+32", "deg. C+32", T2, 1.0/T2.Coefficient, -((x-x*T2.Coefficient)/T2.Coefficient));
-var T4 = new Temperature("degrees Celcius (also)", "deg. C*", T3, 1.0,32);
+var T3 = new Temperature("degrees C+32", "C+32", T2, 1.0/T2.Coefficient, -((x-x*T2.Coefficient)/T2.Coefficient));
+var T4 = new Temperature("degrees Celcius (also)", "C*", T3, 1.0,32);
 var qt1 = 1d.As(T1);
 var qt2 = qt1.To(T2);
 var qt3_1 = qt2.To(T3);
 var qt3_2 = qt1.To(T3);
 
-if (T4 == T1)
-{
-    Console.WriteLine("It works!");
-}
+Console.WriteLine();
+Console.WriteLine("Unit of Measure comparisons with the default (Bitwise) double comparer");
+Console.WriteLine($"{T1} < {T2} : {T1 < T2}");
+Console.WriteLine($"{T1} > {T2} : {T1 > T2}");
+Console.WriteLine($"{T1} < {T3} : {T1 < T3}");
+Console.WriteLine($"{T1} > {T3} : {T1 > T3}");
+Console.WriteLine($"{T1} == {T4} : {T1 == T4}");
+
 
 int xx = 99;
+// now try overriding unit of measure comparers.
+Temperature.DefaultDoubleComparer = new Int64ConversionComparer(100); // preserve 2 decimal digits.
+Console.WriteLine();
+Console.WriteLine("Unit of Measure comparisons after : Temperature.DefaultDoubleComparer = new Int64ConversionComparer(100);");
+Console.WriteLine($"{T1} < {T2} : {T1 < T2}");
+Console.WriteLine($"{T1} > {T2} : {T1 > T2}");
+Console.WriteLine($"{T1} < {T3} : {T1 < T3}");
+Console.WriteLine($"{T1} > {T3} : {T1 > T3}");
+Console.WriteLine($"{T1} == {T4} : {T1 == T4}");
+/*
+var Kilokelvin = new Temperature("Kilokelvin", "°kK", SI.Temperatures.DegreesKelvin, 1000.0);//SI.Temperatures.DegreesCelcius,1000,SI.Temperatures.DegreesKelvin.Offset);
+var Millikelvin = new Temperature("millikelvin", "°mK", SI.Temperatures.DegreesCelcius, 1.0 / 1000.0);//,SI.Temperatures.DegreesKelvin.Offset);
+var OneMillikelvinT = 1.As(Millikelvin);
+var OneKilokelvinT = 1.As(Kilokelvin);
+var OneThousandKelvinT = OneKilokelvinT.To(SI.Temperatures.DegreesKelvin);
+var OneThousandKelvinAndOneMillikelvinT = OneThousandKelvinT + OneMillikelvinT;
+*/
+
+Console.WriteLine();
+Console.WriteLine("Compare temp quantities with default comparer");
+Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinT} : {OneKilokelvinT == OneThousandKelvinT}");
+Console.WriteLine($"{OneThousandKelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneThousandKelvinT == OneThousandKelvinAndOneMillikelvinT}");
+Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}");
+
+Quantity<Temperature>.DefaultDoubleComparer = new Int64ConversionComparer(100);
+
+Console.WriteLine();
+Console.WriteLine("Compare temp quantities after Quantity<Temperature>.DefaultDoubleComparer = new Int64ConversionComparer(100);");
+Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinT} : {OneKilokelvinT == OneThousandKelvinT}");
+Console.WriteLine($"{OneThousandKelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneThousandKelvinT == OneThousandKelvinAndOneMillikelvinT}");
+Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}");
+
+
+i = 100;
+
+class Int64ConversionComparer : IValueComparer<double>
+{
+    /// <summary>
+    /// The amount to multiple the doubles by before conversion and comparison.
+    /// </summary>
+    public int Factor { get; }
+    public Int64ConversionComparer(int factor=1)
+    {
+        Factor = factor;
+    }
+    
+    public int Compare(double x, double y)
+    {
+        var xi64 = ToInt64(x);
+        var yi64 = ToInt64(y);
+        return xi64.CompareTo(yi64);
+    }
+
+    public bool Equals(double x, double y)
+    {
+        return Compare(x, y) == 0;
+    }
+
+    long ToInt64(double dbl) => Convert.ToInt64(dbl*Factor);
+    
+    public int GetHashCode(double val)
+    {
+        var vi64 = ToInt64(val);
+        return vi64.GetHashCode();
+    }
+}

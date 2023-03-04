@@ -19,7 +19,9 @@ public record Mass(string Name, string Symbol, double Coefficient=1, double Offs
     /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
     /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
     public Mass(string name, string symbol, Mass baseUnit, double coefficient, double offset = 0) 
-        : this(name,symbol,baseUnit.ComputeFundamentalCoefficient(coefficient),baseUnit.ComputeFundamentalOffset(offset))
+        : this(name,symbol,coefficient,offset)
     {
+	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
+        Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }
 }

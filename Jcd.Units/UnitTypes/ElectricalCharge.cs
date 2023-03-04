@@ -19,7 +19,9 @@ public record ElectricalCharge(string Name, string Symbol, double Coefficient=1,
     /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
     /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
     public ElectricalCharge(string name, string symbol, ElectricalCharge baseUnit, double coefficient, double offset = 0) 
-        : this(name,symbol,baseUnit.ComputeFundamentalCoefficient(coefficient),baseUnit.ComputeFundamentalOffset(offset))
+        : this(name,symbol,coefficient,offset)
     {
+	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
+        Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }
 }

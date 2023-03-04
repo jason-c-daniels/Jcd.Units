@@ -3,7 +3,7 @@
 ## Jcd.Units.UnitTypes Namespace
 
 Provides classes to aid in creating various types of units of measure  
-for use with [Quantity&lt;TUnits&gt;](Jcd.Units.Quantity_TUnits_.md 'Jcd.Units.Quantity<TUnits>')
+for use with [Quantity&lt;TUnit&gt;](Jcd.Units.Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 
 | Classes | |
 | :--- | :--- |
