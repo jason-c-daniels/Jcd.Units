@@ -19,6 +19,10 @@ public abstract record UnitOfMeasure<TUnit>(
     : IUnitOfMeasure<TUnit>
 where TUnit : UnitOfMeasure<TUnit>
 {
+    private readonly IValueComparer<double>? _comparer;
+    private readonly TUnit? _fundamentalUnit;
+    private readonly TUnit? _baseUnit;
+
     /// <summary>
     /// Sets the <see cref="IValueComparer{Double}"/> used by units of measure for this particular unit of
     /// measure type. (e.g. lengths.) 
@@ -26,11 +30,6 @@ where TUnit : UnitOfMeasure<TUnit>
     // ReSharper disable once StaticMemberInGenericType
     public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
     
-    private readonly IValueComparer<double>? _comparer;
-
-    private readonly TUnit? _fundamentalUnit;
-    private readonly TUnit? _baseUnit;
-
     /// <summary>
     /// The unit of measure all others are represented in terms of.
     /// </summary>
