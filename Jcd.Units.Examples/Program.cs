@@ -227,9 +227,9 @@ void TimeQuantityMath(int iterations)
     var q2 = q1.To(F);
     var q3 = q2.To(degRa);
     var sw = new Stopwatch();
-    var coeff = 2.0;
+    const double coeff = 2.0;
     sw.Start();
-    for (int i = 0; i < iterations; i++)
+    for (var i = 0; i < iterations; i++)
     {
         q1 = i.As(C);
         q2 = 3*q1 - 7;
