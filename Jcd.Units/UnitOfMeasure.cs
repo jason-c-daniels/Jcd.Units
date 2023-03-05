@@ -83,11 +83,11 @@ where TUnit : UnitOfMeasure<TUnit>
     public virtual bool Equals(UnitOfMeasure<TUnit>? other)
     {
         if (other is null) return false;
-        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+        var comparer = GetComparer();
         
         return comparer.Equals(Coefficient,other.Coefficient) && comparer.Equals(Offset,other.Offset);
     }
-
+    
     /// <summary>
     /// Computes the hash code for this <see cref="UnitOfMeasure{TUnit}"/>
     /// </summary>
@@ -95,7 +95,7 @@ where TUnit : UnitOfMeasure<TUnit>
     public override int GetHashCode()
     {
         // ReSharper disable once NonReadonlyMemberInGetHashCode
-        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+        var comparer = GetComparer();
         
         return HashCode.Combine(comparer.GetHashCode(Coefficient), comparer.GetHashCode(Offset), typeof(UnitOfMeasure<TUnit>));
     }
@@ -212,6 +212,8 @@ where TUnit : UnitOfMeasure<TUnit>
 
     #endregion
     
+    #region Conversion Methods
+    
     /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
     public double FromBaseUnitValue(double normalizedValue) 
         => (normalizedValue / Coefficient)  - Offset;
@@ -227,4 +229,10 @@ where TUnit : UnitOfMeasure<TUnit>
     /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
     public double ComputeFundamentalOffset(double fundamentalCoefficient, double offset) 
         => IsFundamentalUnit ? offset : ToBaseUnitValue(offset)/fundamentalCoefficient;
+
+    #endregion
+
+    private IValueComparer<double> GetComparer() 
+        => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+
 }

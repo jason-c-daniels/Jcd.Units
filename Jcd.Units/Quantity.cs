@@ -51,10 +51,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// Formats a string with the quantity value followed by the symbol.
     /// </summary>
     /// <returns>The formatted string.</returns>
-    public override string ToString()
-    {
-        return $"{RawValue:n} {Unit.Symbol}";
-    }
+    public override string ToString() => $"{RawValue:n} {Unit.Symbol}";
 
     #endregion
 
@@ -65,42 +62,34 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// </summary>
     /// <param name="q">The <see cref="Quantity{TUnit}"/> to operate on.</param>
     /// <returns>The <see cref="Quantity{TUnit}"/></returns>
-    public static Quantity<TUnit> operator +(Quantity<TUnit> q)
-    {
-        return q;
-    }
-    
+    public static Quantity<TUnit> operator +(Quantity<TUnit> q) 
+        => q;
+
     /// <summary>
     /// Performs unary negation on the <see cref="RawValue"/> component and
     /// returns a new <see cref="Quantity{TUnit}"/>.
     /// </summary>
     /// <param name="q">The quantity to perform the negation on.</param>
     /// <returns>The negated form of the <see cref="Quantity{TUnit}"/></returns>
-    public static Quantity<TUnit> operator -(Quantity<TUnit> q)
-    {
-        return q with { RawValue = -q.RawValue };
-    }
-    
+    public static Quantity<TUnit> operator -(Quantity<TUnit> q) 
+        => q with { RawValue = -q.RawValue };
+
     /// <summary>
     /// Performs a unary increment operation.
     /// </summary>
     /// <param name="q">The <see cref="Quantity{TUnit}"/> to operate on.</param>
     /// <returns>The <see cref="Quantity{TUnit}"/></returns>
-    public static Quantity<TUnit> operator ++(Quantity<TUnit> q)
-    {
-        return q with { RawValue = q.RawValue + 1 };
-    }
+    public static Quantity<TUnit> operator ++(Quantity<TUnit> q) 
+        => q with { RawValue = q.RawValue + 1 };
 
     /// <summary>
     /// Performs a unary decrement operation.
     /// </summary>
     /// <param name="q">The <see cref="Quantity{TUnit}"/> to operate on.</param>
     /// <returns>The <see cref="Quantity{TUnit}"/></returns>
-    public static Quantity<TUnit> operator --(Quantity<TUnit> q)
-    {
-        return q with { RawValue = q.RawValue - 1 };
-    }
-    
+    public static Quantity<TUnit> operator --(Quantity<TUnit> q) 
+        => q with { RawValue = q.RawValue - 1 };
+
     /// <summary>
     /// Adds two quantities, selecting the larger unit of measure as the common representation.
     /// </summary>
@@ -168,10 +157,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <param name="x">The <see cref="Quantity{TUnit}"/> operand.</param>
     /// <param name="y">The double operand.</param>
     /// <returns>a <see cref="Quantity{TUnit}"/> of the results of the operation in the original unit of measure.</returns>
-    public static Quantity<TUnit> operator +(Quantity<TUnit> x, double y)
-    {
-        return x with { RawValue = x.RawValue + y };
-    }
+    public static Quantity<TUnit> operator +(Quantity<TUnit> x, double y) 
+        => x with { RawValue = x.RawValue + y };
 
     /// <summary>
     /// Performs subtraction on a double and a <see cref="Quantity{TUnit}"/>.
@@ -179,10 +166,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <param name="x">The <see cref="Quantity{TUnit}"/> operand.</param>
     /// <param name="y">The double operand.</param>
     /// <returns>a <see cref="Quantity{TUnit}"/> of the results of the operation in the original unit of measure.</returns>
-    public static Quantity<TUnit> operator -(Quantity<TUnit> x, double y)
-    {
-        return x with { RawValue = x.RawValue - y };
-    }
+    public static Quantity<TUnit> operator -(Quantity<TUnit> x, double y) 
+        => x with { RawValue = x.RawValue - y };
 
     /// <summary>
     /// Performs multiplication on a double and a <see cref="Quantity{TUnit}"/>.
@@ -190,10 +175,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <param name="x">The <see cref="Quantity{TUnit}"/> operand.</param>
     /// <param name="y">The double operand.</param>
     /// <returns>a <see cref="Quantity{TUnit}"/> of the results of the operation in the original unit of measure.</returns>
-    public static Quantity<TUnit> operator *(Quantity<TUnit> x, double y)
-    {
-        return x with { RawValue = x.RawValue * y };
-    }
+    public static Quantity<TUnit> operator *(Quantity<TUnit> x, double y) 
+        => x with { RawValue = x.RawValue * y };
 
     /// <summary>
     /// Performs division on a double and a <see cref="Quantity{TUnit}"/>.
@@ -202,10 +185,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <param name="y">The double operand.</param>
     /// <returns>a <see cref="Quantity{TUnit}"/> of the results of the operation in the original unit of measure.</returns>
     /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
-    public static Quantity<TUnit> operator /(Quantity<TUnit> x, double y)
-    {
-        return x with { RawValue = x.RawValue / y };
-    }
+    public static Quantity<TUnit> operator /(Quantity<TUnit> x, double y) 
+        => x with { RawValue = x.RawValue / y };
 
     #endregion
 
@@ -217,10 +198,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <param name="x">The double operand</param>
     /// <param name="y">The <see cref="Quantity{TUnit}"/> operand.</param>
     /// <returns>a <see cref="Quantity{TUnit}"/> of the results of the operation in the original unit of measure.</returns>
-    public static Quantity<TUnit> operator +(double x, Quantity<TUnit> y)
-    {
-        return y with { RawValue = x + y.RawValue };
-    }
+    public static Quantity<TUnit> operator +(double x, Quantity<TUnit> y) 
+        => y with { RawValue = x + y.RawValue };
 
     /// <summary>
     /// Performs subtraction on a double and a <see cref="Quantity{TUnit}"/>.
@@ -228,10 +207,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <param name="x">The double operand</param>
     /// <param name="y">The <see cref="Quantity{TUnit}"/> operand.</param>
     /// <returns>a <see cref="Quantity{TUnit}"/> of the results of the operation in the original unit of measure.</returns>
-    public static Quantity<TUnit> operator -(double x, Quantity<TUnit> y)
-    {
-        return y with { RawValue = x - y.RawValue };
-    }
+    public static Quantity<TUnit> operator -(double x, Quantity<TUnit> y) 
+        => y with { RawValue = x - y.RawValue };
 
     /// <summary>
     /// Performs multiplication on a double and a <see cref="Quantity{TUnit}"/>.
@@ -239,10 +216,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <param name="x">The double operand</param>
     /// <param name="y">The <see cref="Quantity{TUnit}"/> operand.</param>
     /// <returns>a <see cref="Quantity{TUnit}"/> of the results of the operation in the original unit of measure.</returns>
-    public static Quantity<TUnit> operator *(double x, Quantity<TUnit> y)
-    {
-        return y with { RawValue = x * y.RawValue };
-    }
+    public static Quantity<TUnit> operator *(double x, Quantity<TUnit> y) 
+        => y with { RawValue = x * y.RawValue };
 
     /// <summary>
     /// Performs division on a double and a <see cref="Quantity{TUnit}"/>.
@@ -251,10 +226,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <param name="y">The <see cref="Quantity{TUnit}"/> operand.</param>
     /// <returns>a <see cref="Quantity{TUnit}"/> of the results of the operation in the original unit of measure.</returns>
     /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
-    public static Quantity<TUnit> operator /(double x, Quantity<TUnit> y)
-    {
-        return y with { RawValue = x / y.RawValue };
-    }
+    public static Quantity<TUnit> operator /(double x, Quantity<TUnit> y) 
+        => y with { RawValue = x / y.RawValue };
 
     #endregion
 
@@ -271,7 +244,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <returns>True if equivalent. False otherwise.</returns>
     public bool Equals(Quantity<TUnit> other)
     {
-        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.Quantity;
+        var comparer = GetComparer();
         var targetUnit = Unit >= other.Unit ? Unit : other.Unit;
         var ownValue = Unit == targetUnit ? RawValue : To(targetUnit).RawValue;
         var otherValue = other.Unit == targetUnit ? other.RawValue : other.To(targetUnit).RawValue;
@@ -287,7 +260,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <returns>The calculated hashcode.</returns>
     public override int GetHashCode()
     {
-        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.Quantity;
+        var comparer = GetComparer();
         return HashCode.Combine(comparer.GetHashCode(Unit.ToBaseUnitValue(RawValue)), typeof(Quantity<TUnit>));
     }
 
@@ -306,7 +279,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
     public int CompareTo(Quantity<TUnit> other)
     {
-        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.Quantity;
+        var comparer = GetComparer();
         var targetUnit = Unit >= other.Unit ? Unit : other.Unit;
         var ownValue = Unit == targetUnit ? RawValue : To(targetUnit).RawValue;
         var otherValue = other.Unit == targetUnit ? other.RawValue : other.To(targetUnit).RawValue;
@@ -371,4 +344,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     }
 
     #endregion
+    
+    private IValueComparer<double> GetComparer() 
+        => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.Quantity;
+
 }
