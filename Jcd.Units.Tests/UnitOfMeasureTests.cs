@@ -1,24 +1,26 @@
 using Jcd.Units.Tests.TestHarnesses;
+using Moq;
+
 // ReSharper disable EqualExpressionComparison
 
 namespace Jcd.Units.Tests;
 
 public class UnitOfMeasureTests
 {
-    
+    private static object _syncRoot = new ();
     const string BaseUnitName = "buName";
     const string BaseUnitSymbol = "bu";
-    static UnitOfMeasure1 BaseUnit = new UnitOfMeasure1(BaseUnitName, BaseUnitSymbol);
+    static UnitOfMeasure1 BaseUnit = new (BaseUnitName, BaseUnitSymbol);
 
     const string DerivedUnit1Name = "duName1";
     const string DerivedUnit1Symbol = "du1";
     private const double Du1C = 2.0;
     private const double Du1O = 3.0;
-    static UnitOfMeasure1 DerivedUnit1 = new UnitOfMeasure1(DerivedUnit1Name, DerivedUnit1Symbol,BaseUnit,Du1C,Du1O);
+    static UnitOfMeasure1 DerivedUnit1 = new (DerivedUnit1Name, DerivedUnit1Symbol,BaseUnit,Du1C,Du1O);
     
     const string DerivedUnit2Name = "duName2";
     const string DerivedUnit2Symbol = "du2";
-    static UnitOfMeasure1 DerivedUnit2 = new UnitOfMeasure1(DerivedUnit2Name, DerivedUnit2Symbol,BaseUnit,-2,0);
+    static UnitOfMeasure1 DerivedUnit2 = new (DerivedUnit2Name, DerivedUnit2Symbol,BaseUnit,-2,0);
 
     [Theory]
     [InlineData("Derived Unit 1","du1",2d,2d)]
@@ -162,5 +164,124 @@ public class UnitOfMeasureTests
         var hc2 = DerivedUnit1.GetHashCode();
         Assert.Equal(hc2,hc1);
     }
-    
+
+    [Theory]
+    [InlineData(-1000000d)]
+    [InlineData(-1000d)]
+    [InlineData(-100d)]
+    [InlineData(-10d)]
+    [InlineData(-1d)]
+    [InlineData(-1d/10d)]
+    [InlineData(-1d/100d)]
+    [InlineData(-1d/1000d)]
+    [InlineData(-1d/1000000d)]
+    [InlineData(0d)]
+    [InlineData(1d/1000000d)]
+    [InlineData(1d/1000d)]
+    [InlineData(1d/100d)]
+    [InlineData(1d/10d)]
+    [InlineData(1d)]
+    [InlineData(10d)]
+    [InlineData(100d)]
+    [InlineData(1000d)]
+    [InlineData(1000000d)]
+    public void FromBaseUnitValue_Returns_The_Expected_Value(double normalizedValue)
+    {
+        var expectedValue=(normalizedValue / DerivedUnit1.Coefficient)  - DerivedUnit1.Offset;
+        Assert.Equal(expectedValue,DerivedUnit1.FromBaseUnitValue(normalizedValue));        
+    }
+
+    [Theory]
+    [InlineData(-1000000d)]
+    [InlineData(-1000d)]
+    [InlineData(-100d)]
+    [InlineData(-10d)]
+    [InlineData(-1d)]
+    [InlineData(-1d/10d)]
+    [InlineData(-1d/100d)]
+    [InlineData(-1d/1000d)]
+    [InlineData(-1d/1000000d)]
+    [InlineData(0d)]
+    [InlineData(1d/1000000d)]
+    [InlineData(1d/1000d)]
+    [InlineData(1d/100d)]
+    [InlineData(1d/10d)]
+    [InlineData(1d)]
+    [InlineData(10d)]
+    [InlineData(100d)]
+    [InlineData(1000d)]
+    [InlineData(1000000d)]
+    public void ToBaseUnitValue_Returns_The_Expected_Value(double denormalizedValue)
+    {
+        var expectedValue=(denormalizedValue + DerivedUnit1.Offset) * DerivedUnit1.Coefficient;
+        Assert.Equal(expectedValue,DerivedUnit1.ToBaseUnitValue(denormalizedValue));        
+    }
+
+    [Fact]
+    public void Custom_Global_DoubleComparer_Used_For_Comparisons()
+    {
+        lock (_syncRoot) // this is to prevent multiple threads from stepping on each other.
+        {
+            // Setup
+            var mockUomComparer = new Mock<IValueComparer<double>>();
+            mockUomComparer.Setup(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y));
+            mockUomComparer.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
+
+            var mockQuantityComparer = new Mock<IValueComparer<double>>();
+            mockQuantityComparer.Setup(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y));
+            mockQuantityComparer.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
+            
+            UnitOfMeasure1.DefaultDoubleComparer = null; // ensure the global is being used.
+            DoubleComparer.UnitOfMeasure = mockUomComparer.Object;
+            DoubleComparer.Quantity = mockQuantityComparer.Object;
+
+            // act
+            var comparison = DerivedUnit2.CompareTo(DerivedUnit1);
+            var equals = DerivedUnit1.Equals(DerivedUnit2);
+
+            // verify
+            mockUomComparer.Verify(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()), Times.AtLeastOnce);
+            mockUomComparer.Verify(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()), Times.AtLeastOnce);
+            mockQuantityComparer.Verify(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()), Times.Never);
+            mockQuantityComparer.Verify(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()), Times.Never);
+        }
+    }
+
+    [Fact]
+    public void Custom_TypeSpecific_DoubleComparer_Used_For_Comparisons()
+    {
+        lock (_syncRoot) // this is to prevent multiple threads from stepping on each other.
+        {
+            // Setup
+            var mockUomComparer1 = new Mock<IValueComparer<double>>();
+            mockUomComparer1.Setup(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y));
+            mockUomComparer1.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
+
+            var mockUomComparer2 = new Mock<IValueComparer<double>>();
+            mockUomComparer2.Setup(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y));
+            mockUomComparer2.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
+
+            UnitOfMeasure1.DefaultDoubleComparer = mockUomComparer1.Object;
+            DoubleComparer.UnitOfMeasure = mockUomComparer2.Object;
+            DoubleComparer.Quantity = new BitwiseDoubleComparer();
+
+            // act
+            var comparison = DerivedUnit2.CompareTo(DerivedUnit1);
+            var equals = DerivedUnit1.Equals(DerivedUnit2);
+
+            // verify
+            mockUomComparer1.Verify(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()), Times.AtLeastOnce);
+            mockUomComparer1.Verify(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()), Times.AtLeastOnce);
+            mockUomComparer2.Verify(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()), Times.Never);
+            mockUomComparer2.Verify(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()), Times.Never);
+        }
+    }
 }

@@ -1,17 +1,30 @@
-﻿namespace Jcd.Units;
+﻿using System;
+
+namespace Jcd.Units;
 
 /// <summary>
 /// Provides both default and registrable ways of comparing doubles used within this subsystem.
 /// </summary>
 public static class DoubleComparer
 {
+    static IValueComparer<double> _quantity = new BitwiseDoubleComparer();
+    static IValueComparer<double> _unitOfMeasure = new BitwiseDoubleComparer();
+
     /// <summary>
     /// The registered double comparer used by Quantities, by default. 
     /// </summary>
-    public static IValueComparer<double> Quantity      { get; set; } = new BitwiseDoubleComparer();
-    
+    public static IValueComparer<double> Quantity
+    {
+        get => _quantity;
+        set => _quantity = value ?? throw new ArgumentNullException(nameof(value));
+    }
+
     /// <summary>
     /// The registered double comparer used by UnitOfMeasure instances, by default.
     /// </summary>
-    public static IValueComparer<double> UnitOfMeasure { get; set; } = new BitwiseDoubleComparer();
+    public static IValueComparer<double> UnitOfMeasure
+    {
+        get => _unitOfMeasure;
+        set => _unitOfMeasure = value ?? throw new ArgumentNullException(nameof(value));
+    }
 }

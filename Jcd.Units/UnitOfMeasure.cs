@@ -19,7 +19,7 @@ public abstract record UnitOfMeasure<TUnit>(
     : IUnitOfMeasure<TUnit>
 where TUnit : UnitOfMeasure<TUnit>
 {
-    private readonly IValueComparer<double>? _comparer;
+    private IValueComparer<double>? _comparer;
     private readonly TUnit? _fundamentalUnit;
     private readonly TUnit? _baseUnit;
 
@@ -52,26 +52,20 @@ where TUnit : UnitOfMeasure<TUnit>
     /// Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
     /// </summary>
     public bool IsFundamentalUnit => _baseUnit is null;
-    
+
     /// <summary>
-    /// Constructs a <see cref="UnitOfMeasure{TUnit}" /> with optional <see cref="IValueComparer{Double}"/>
+    /// The <see cref="IValueComparer{T}"/> used for comparisons: where <c>T</c> is a <see cref="Double"/>.
     /// </summary>
-    /// <param name="name">The name of this unit</param>
-    /// <param name="symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}"/></param>
-    /// <param name="coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
-    /// <param name="offset">The offset used when computing values going to and from the base unit's representation.</param>
-    /// <param name="comparer">The <see cref="IValueComparer{Double}"/> to use in double comparisons.</param>
-    protected UnitOfMeasure(
-        string name, 
-        string symbol,
-        double coefficient = 1, 
-        double offset = 0,
-        IValueComparer<double>? comparer = null
-        ) : this(name,symbol,coefficient,offset)
+    /// <remarks>
+    /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}"/>
+    /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
+    /// </remarks>
+    public IValueComparer<double>? Comparer
     {
-        _comparer = comparer;
+        get => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+        set => _comparer = value;
     }
-    
+
     #region Equality members
 
     /// <summary>
@@ -82,8 +76,7 @@ where TUnit : UnitOfMeasure<TUnit>
     public virtual bool Equals(UnitOfMeasure<TUnit>? other)
     {
         if (other is null) return false;
-        var comparer = GetComparer();
-        
+        var comparer = Comparer;
         return comparer.Equals(Coefficient,other.Coefficient) && comparer.Equals(Offset,other.Offset);
     }
     
@@ -94,7 +87,7 @@ where TUnit : UnitOfMeasure<TUnit>
     public override int GetHashCode()
     {
         // ReSharper disable once NonReadonlyMemberInGetHashCode
-        var comparer = GetComparer();
+        var comparer = Comparer;
         return HashCode.Combine(comparer.GetHashCode(Coefficient), comparer.GetHashCode(Offset), typeof(TUnit));
     }
 
@@ -132,7 +125,7 @@ where TUnit : UnitOfMeasure<TUnit>
     public int CompareTo(TUnit? other)
     {
         if (other is null) return 1; // sort nulls first.
-        var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+        var comparer = Comparer;
         var factorComparison = comparer.Compare(Coefficient,other.Coefficient);
         var result= factorComparison != 0 ? factorComparison : comparer.Compare(Offset,other.Offset);
         return result;
@@ -229,8 +222,5 @@ where TUnit : UnitOfMeasure<TUnit>
         => IsFundamentalUnit ? offset : ToBaseUnitValue(offset)/fundamentalCoefficient;
 
     #endregion
-
-    private IValueComparer<double> GetComparer() 
-        => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
-
+    
 }
