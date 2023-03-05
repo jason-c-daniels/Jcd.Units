@@ -322,6 +322,22 @@
             </summary>
             <returns>The formatted string.</returns>
         </member>
+        <member name="M:Jcd.Units.Quantity`1.ToString(System.String)">
+            <summary>
+            Outputs the number formatted according to the <paramref name="format"/>
+            with unit symbol.
+            </summary>
+            <param name="format">The format to apply to the number portion</param>
+            <returns>The formatted value.</returns>
+        </member>
+        <member name="M:Jcd.Units.Quantity`1.ToString(System.String,System.IFormatProvider)">
+            <summary>
+            Formats the value of the current instance using the specified format.
+            </summary>
+            <param name="format">The format to use. Null or empty string uses the default.</param>
+            <param name="provider">The provider to use to format the value. Null uses the current locale.</param>
+            <returns></returns>
+        </member>
         <member name="M:Jcd.Units.Quantity`1.op_UnaryPlus(Jcd.Units.Quantity{`0})">
             <summary>
             Performs a standard unary "+" operation.

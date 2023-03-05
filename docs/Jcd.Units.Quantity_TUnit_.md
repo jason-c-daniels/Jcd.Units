@@ -6,7 +6,8 @@
 Represents a quantity with an associated unit of measure.
 
 ```csharp
-public readonly struct Quantity<TUnit>
+public readonly struct Quantity<TUnit> :
+System.IFormattable
     where TUnit : Jcd.Units.UnitOfMeasure<TUnit>
 ```
 #### Type parameters
@@ -16,6 +17,8 @@ public readonly struct Quantity<TUnit>
 `TUnit`
 
 The data type of the unit of measure. It must derive from [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+
+Implements [System.IFormattable](https://docs.microsoft.com/en-us/dotnet/api/System.IFormattable 'System.IFormattable')
 
 | Constructors | |
 | :--- | :--- |
@@ -36,6 +39,8 @@ The data type of the unit of measure. It must derive from [UnitOfMeasure&lt;TUni
 | [GetHashCode()](Jcd.Units.Quantity_TUnit_.GetHashCode().md 'Jcd.Units.Quantity<TUnit>.GetHashCode()') | Computes a hashcode for the quantity. So that numeric equivalence is maintained<br/>regardless of precise unit of measure is used, the hashcode is calculated on<br/>the base unit representation. TUnit is included in the hashcode to ensure<br/>that differing units do not compare the same. |
 | [To(TUnit)](Jcd.Units.Quantity_TUnit_.To(TUnit).md 'Jcd.Units.Quantity<TUnit>.To(TUnit)') | Converts the quantity from its current unit of measure to the target unit of measure. |
 | [ToString()](Jcd.Units.Quantity_TUnit_.ToString().md 'Jcd.Units.Quantity<TUnit>.ToString()') | Formats a string with the quantity value followed by the symbol. |
+| [ToString(string, IFormatProvider)](Jcd.Units.Quantity_TUnit_.ToString(string,IFormatProvider).md 'Jcd.Units.Quantity<TUnit>.ToString(string, IFormatProvider)') | Formats the value of the current instance using the specified format. |
+| [ToString(string)](Jcd.Units.Quantity_TUnit_.ToString(string).md 'Jcd.Units.Quantity<TUnit>.ToString(string)') | Outputs the number formatted according to the [format](Jcd.Units.Quantity_TUnit_.ToString(string).md#Jcd.Units.Quantity_TUnit_.ToString(string).format 'Jcd.Units.Quantity<TUnit>.ToString(string).format')<br/>with unit symbol. |
 
 | Operators | |
 | :--- | :--- |

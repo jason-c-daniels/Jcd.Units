@@ -1,4 +1,6 @@
 using System;
+using System.Globalization;
+using System.Text;
 
 namespace Jcd.Units;
 
@@ -10,7 +12,9 @@ namespace Jcd.Units;
 /// <typeparam name="TUnit">The data type of the unit of measure. It must derive from <see cref="UnitOfMeasure{TUnit}"/></typeparam>
 public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     IComparable<Quantity<TUnit>>,
-    IComparable where TUnit : UnitOfMeasure<TUnit>
+    IFormattable,
+    IComparable 
+    where TUnit : UnitOfMeasure<TUnit>
 {
     /// <summary>
     /// Sets the <see cref="IValueComparer{Double}"/> used by quantities for the particular unit of
@@ -51,8 +55,34 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
     /// Formats a string with the quantity value followed by the symbol.
     /// </summary>
     /// <returns>The formatted string.</returns>
-    public override string ToString() => $"{RawValue:n} {Unit.Symbol}";
+    public override string ToString() => 
+        ToString("n", CultureInfo.CurrentCulture);//$"{RawValue:n} {Unit.Symbol}";
 
+    /// <summary>
+    /// Outputs the number formatted according to the <paramref name="format"/>
+    /// with unit symbol.
+    /// </summary>
+    /// <param name="format">The format to apply to the number portion</param>
+    /// <returns>The formatted value.</returns>
+    public string ToString(string format) 
+        => ToString(format, CultureInfo.CurrentCulture);
+    
+    /// <summary>
+    /// Formats the value of the current instance using the specified format.
+    /// </summary>
+    /// <param name="format">The format to use. Null or empty string uses the default.</param>
+    /// <param name="provider">The provider to use to format the value. Null uses the current locale.</param>
+    /// <returns></returns>
+    public string ToString(string? format, IFormatProvider? provider)
+    {
+        if (String.IsNullOrEmpty(format)) format = "n";
+        if (provider == null) provider = CultureInfo.CurrentCulture;
+
+        var sb = new StringBuilder();
+        sb.Append(RawValue.ToString(format,provider));
+        sb.Append($" {Unit.Symbol}");
+        return sb.ToString();
+    }
     #endregion
 
     #region Quantity to Quantity and unary Quantity arithmetic operators.
