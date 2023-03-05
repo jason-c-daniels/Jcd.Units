@@ -214,9 +214,9 @@ void TimeConversions(int iterations)
     var durPer = (dur / count).To(Durations.Nanosecond);
     var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue * dur.To(Durations.Second).RawValue;
     var cpuCyclesPer = totalCpuCycles / count;
-    Console.WriteLine($"{count:n0} conversion took {dur} total time.");
-    Console.WriteLine($"{durPer:n6} elapsed per conversion.");
-    Console.WriteLine($"{totalCpuCycles:n0} total CPU cycles.");
+    Console.WriteLine($"{count:n0} conversions took {dur:n3} total time.");
+    Console.WriteLine($"{durPer:n3} elapsed per conversion.");
+    Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
     Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per conversion.");
     var q4 = q3.To(Temperatures.DegreesRéaumur);
 }
@@ -242,9 +242,9 @@ void TimeQuantityMath(int iterations)
     var durPer = (dur / count).To(Durations.Nanosecond);
     var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue * dur.To(Durations.Second).RawValue;
     var cpuCyclesPer = totalCpuCycles / count;
-    Console.WriteLine($"{count:n0} simple Quantity<T> equations took {dur} total time.");
-    Console.WriteLine($"{durPer:n6} elapsed per equation.");
-    Console.WriteLine($"{totalCpuCycles:n0} total CPU cycles.");
+    Console.WriteLine($"{count:n0} simple Quantity<T> equations took {dur:n3} total time.");
+    Console.WriteLine($"{durPer:n3} elapsed per equation.");
+    Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
     Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per equation.");
     var q4 = q3.To(Temperatures.DegreesRéaumur);
 }
