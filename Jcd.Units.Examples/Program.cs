@@ -12,6 +12,7 @@ using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 // ReSharper disable UnusedVariable
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
+// ReSharper disable HeuristicUnreachableCode
 #pragma warning disable CS0162
 #pragma warning disable CS0219
 

@@ -196,12 +196,6 @@
         <member name="P:Jcd.Units.Quantity`1.Unit">
             <summary>The unit of measure.</summary>
         </member>
-        <member name="P:Jcd.Units.Quantity`1.DefaultDoubleComparer">
-            <summary>
-            Sets the <see cref="T:Jcd.Units.IValueComparer`1"/> used by quantities for the particular unit of
-            measure type. (e.g. lengths.) 
-            </summary>
-        </member>
         <member name="M:Jcd.Units.Quantity`1.#ctor(System.Double,`0,Jcd.Units.IValueComparer{System.Double})">
             <summary>
             Represents a quantity with an associated unit of measure.
@@ -209,6 +203,21 @@
             <param name="rawValue">The numeric portion, without associated unit of measure</param>
             <param name="unit">The unit of measure.</param>
             <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.DefaultDoubleComparer">
+            <summary>
+            Sets the <see cref="T:Jcd.Units.IValueComparer`1"/> used by quantities for the particular unit of
+            measure type. (e.g. lengths.) 
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.Comparer">
+            <summary>
+            The <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons: where <c>T</c> is a <see cref="T:System.Double"/>.
+            </summary>
+            <remarks>
+            If not assigned during initialization, this returns <see cref="T:Jcd.Units.UnitOfMeasure`1"/>
+            type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
+            </remarks>
         </member>
         <member name="M:Jcd.Units.Quantity`1.To(`0)">
             <summary>
@@ -577,6 +586,15 @@
             measure type. (e.g. lengths.) 
             </summary>
         </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.Comparer">
+            <summary>
+            The <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons: where <c>T</c> is a <see cref="T:System.Double"/>.
+            </summary>
+            <remarks>
+            If not assigned during initialization, this returns <see cref="T:Jcd.Units.UnitOfMeasure`1"/>
+            type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
+            </remarks>
+        </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.FundamentalUnit">
             <summary>
             The unit of measure all others are represented in terms of.
@@ -591,15 +609,6 @@
             <summary>
             Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
             </summary>
-        </member>
-        <member name="P:Jcd.Units.UnitOfMeasure`1.Comparer">
-            <summary>
-            The <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons: where <c>T</c> is a <see cref="T:System.Double"/>.
-            </summary>
-            <remarks>
-            If not assigned during initialization, this returns <see cref="T:Jcd.Units.UnitOfMeasure`1"/>
-            type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
-            </remarks>
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.Equals(Jcd.Units.UnitOfMeasure{`0})">
             <summary>

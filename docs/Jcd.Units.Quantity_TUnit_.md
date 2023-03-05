@@ -27,6 +27,7 @@ Implements [System.IFormattable](https://docs.microsoft.com/en-us/dotnet/api/Sys
 
 | Properties | |
 | :--- | :--- |
+| [Comparer](Jcd.Units.Quantity_TUnit_.Comparer.md 'Jcd.Units.Quantity<TUnit>.Comparer') | The [IValueComparer&lt;T&gt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons: where `T` is a [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double'). |
 | [DefaultDoubleComparer](Jcd.Units.Quantity_TUnit_.DefaultDoubleComparer.md 'Jcd.Units.Quantity<TUnit>.DefaultDoubleComparer') | Sets the [IValueComparer&lt;T&gt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used by quantities for the particular unit of<br/>measure type. (e.g. lengths.) |
 | [RawValue](Jcd.Units.Quantity_TUnit_.RawValue.md 'Jcd.Units.Quantity<TUnit>.RawValue') | The numeric portion, without associated unit of measure |
 | [Unit](Jcd.Units.Quantity_TUnit_.Unit.md 'Jcd.Units.Quantity<TUnit>.Unit') | The unit of measure. |
