@@ -14,7 +14,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Methods | |
 | :--- | :--- |
-| [As(this TimeSpan, Duration)](Jcd.Units.NumericExtensions.As(thisTimeSpan,Jcd.Units.UnitTypes.Duration).md 'Jcd.Units.NumericExtensions.As(this TimeSpan, Jcd.Units.UnitTypes.Duration)') | Converts a TimeSpan to a Duration represented as the specified unit of measure. |
+| [As(this TimeSpan, Duration)](Jcd.Units.NumericExtensions.As(thisTimeSpan,Jcd.Units.UnitTypes.Duration).md 'Jcd.Units.NumericExtensions.As(this TimeSpan, Jcd.Units.UnitTypes.Duration)') | Converts a [System.TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/System.TimeSpan 'System.TimeSpan') to a [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') represented as the specified unit of time. |
 | [As&lt;TUnit&gt;(this byte, TUnit)](Jcd.Units.NumericExtensions.As_TUnit_(thisbyte,TUnit).md 'Jcd.Units.NumericExtensions.As<TUnit>(this byte, TUnit)') | Converts a [System.Byte](https://docs.microsoft.com/en-us/dotnet/api/System.Byte 'System.Byte') into a quantity using the specified unit of measure. |
 | [As&lt;TUnit&gt;(this double, TUnit)](Jcd.Units.NumericExtensions.As_TUnit_(thisdouble,TUnit).md 'Jcd.Units.NumericExtensions.As<TUnit>(this double, TUnit)') | Converts a [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double') into a quantity using the specified unit of measure. |
 | [As&lt;TUnit&gt;(this float, TUnit)](Jcd.Units.NumericExtensions.As_TUnit_(thisfloat,TUnit).md 'Jcd.Units.NumericExtensions.As<TUnit>(this float, TUnit)') | Converts a [System.Single](https://docs.microsoft.com/en-us/dotnet/api/System.Single 'System.Single') into a quantity using the specified unit of measure. |

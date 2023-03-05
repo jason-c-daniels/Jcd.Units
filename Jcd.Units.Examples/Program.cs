@@ -36,6 +36,10 @@ var ré = Temperatures.DegreesRéaumur;
 var rø = Temperatures.DegreesRømer;
 var de = Temperatures.DegreesDelisle;
 
+var timeOfDay = DateTime.UtcNow.TimeOfDay.As(Durations.PlanckTime);
+var s = timeOfDay.ToString("E5");
+var durr = 1.As(Durations.SeptillionYears);
+var sdurr = durr.To(Durations.PlanckTime).ToString("e3");
 var Kilokelvin = new Temperature("Kilokelvin", "°kK", K, 1000.0);
 var Millikelvin = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0);
 var OneMillikelvinT = 1.As(Millikelvin);

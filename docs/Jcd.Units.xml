@@ -267,7 +267,7 @@
         </member>
         <member name="M:Jcd.Units.NumericExtensions.As(System.TimeSpan,Jcd.Units.UnitTypes.Duration)">
             <summary>
-            Converts a TimeSpan to a Duration represented as the specified unit of measure.
+            Converts a <see cref="T:System.TimeSpan"/> to a <see cref="T:Jcd.Units.UnitTypes.Duration"/> represented as the specified unit of time.
             </summary>
             <param name="timeSpan">The <see cref="T:System.TimeSpan"/> to convert.</param>
             <param name="timeUnit">The <see cref="T:Jcd.Units.UnitTypes.Duration"/> unit of measure to convert to.</param>

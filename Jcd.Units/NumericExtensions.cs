@@ -144,7 +144,7 @@ public static class NumericExtensions
     }
 
     /// <summary>
-    /// Converts a TimeSpan to a Duration represented as the specified unit of measure.
+    /// Converts a <see cref="TimeSpan"/> to a <see cref="Duration"/> represented as the specified unit of time.
     /// </summary>
     /// <param name="timeSpan">The <see cref="TimeSpan"/> to convert.</param>
     /// <param name="timeUnit">The <see cref="Duration"/> unit of measure to convert to.</param>

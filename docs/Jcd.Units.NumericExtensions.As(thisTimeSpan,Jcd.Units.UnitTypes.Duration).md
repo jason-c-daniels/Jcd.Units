@@ -3,7 +3,7 @@
 
 ## NumericExtensions.As(this TimeSpan, Duration) Method
 
-Converts a TimeSpan to a Duration represented as the specified unit of measure.
+Converts a [System.TimeSpan](https://docs.microsoft.com/en-us/dotnet/api/System.TimeSpan 'System.TimeSpan') to a [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') represented as the specified unit of time.
 
 ```csharp
 public static Jcd.Units.Quantity<Jcd.Units.UnitTypes.Duration> As(this TimeSpan timeSpan, Jcd.Units.UnitTypes.Duration timeUnit);
