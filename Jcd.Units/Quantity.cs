@@ -28,6 +28,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="rawValue">The numeric portion, without associated unit of measure</param>
    /// <param name="unit">The unit of measure.</param>
    /// <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
+   // ReSharper disable once UnusedMember.Global
    public Quantity(double rawValue, TUnit unit, IValueComparer<double>? baseUnitComparer = null) :
             this(rawValue, unit)
    {
@@ -43,6 +44,17 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
 
    /// <summary>
+   /// The <see cref="IValueComparer{T}"/> used for comparisons: where <c>T</c> is a <see cref="double"/>.
+   /// </summary>
+   /// <remarks>
+   /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}"/>
+   /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
+   /// </remarks>
+   // ReSharper disable once MemberCanBeProtected.Global
+   // ReSharper disable once MemberCanBePrivate.Global
+   public IValueComparer<double>? Comparer => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+
+   /// <summary>
    /// Converts the quantity from its current unit of measure to the target unit of measure.
    /// </summary>
    /// <param name="targetUnit">The target unit of measure</param>
@@ -54,10 +66,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
 
       return new Quantity<TUnit>(dnv, targetUnit);
    }
-
-   private IValueComparer<double> GetComparer()
-      => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.Quantity;
-
+   
    #region Overrides of ValueType
 
    /// <summary>
@@ -85,7 +94,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    public string ToString(string? format, IFormatProvider? provider)
    {
       if (string.IsNullOrEmpty(format)) format = "n";
-      if (provider == null) provider           = CultureInfo.CurrentCulture;
+      provider ??= CultureInfo.CurrentCulture;
 
       var sb = new StringBuilder();
       sb.Append(RawValue.ToString(format, provider));
@@ -325,7 +334,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>True if equivalent. False otherwise.</returns>
    public bool Equals(Quantity<TUnit> other)
    {
-      var comparer   = GetComparer();
+      var comparer   = Comparer!;
       var targetUnit = Unit >= other.Unit ? Unit : other.Unit;
 
       var ownValue = Unit == targetUnit
@@ -350,7 +359,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>The calculated hashcode.</returns>
    public override int GetHashCode()
    {
-      var comparer = GetComparer();
+      var comparer = Comparer!;
 
       return HashCode.Combine(comparer.GetHashCode(Unit.ToBaseUnitValue(RawValue)), typeof(Quantity<TUnit>));
    }
@@ -370,7 +379,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
    public int CompareTo(Quantity<TUnit> other)
    {
-      var comparer   = GetComparer();
+      var comparer   = Comparer!;
       var targetUnit = Unit >= other.Unit ? Unit : other.Unit;
 
       var ownValue = Unit == targetUnit

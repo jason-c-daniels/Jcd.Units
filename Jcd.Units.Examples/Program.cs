@@ -9,6 +9,11 @@ using Jcd.Units.UnitsOfMeasure.SI;
 using Jcd.Units.UnitTypes;
 
 using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
+// ReSharper disable UnusedVariable
+// ReSharper disable InconsistentNaming
+// ReSharper disable IdentifierTypo
+#pragma warning disable CS0162
+#pragma warning disable CS0219
 
 #endregion
 
@@ -252,13 +257,14 @@ i = 100;
 
 void TimeConversions(int iterations)
 {
-   var q1    = 100.As(C);
-   var q2    = q1.To(F);
-   var q3    = q2.To(degRa);
-   var sw    = new Stopwatch();
-   var coeff = 2.0;
+   var          q1    = 100.As(C);
+   var          q2    = q1.To(F);
+   var          q3    = q2.To(degRa);
+   var          sw    = new Stopwatch();
+   const double coeff = 2.0;
    sw.Start();
 
+   // ReSharper disable once VariableHidesOuterVariable
    for (var i = 0; i < iterations; i++)
    {
       q1 = i.As(C);
@@ -293,6 +299,7 @@ void TimeQuantityMath(int iterations)
    const double coeff = 2.0;
    sw.Start();
 
+   // ReSharper disable once VariableHidesOuterVariable
    for (var i = 0; i < iterations; i++)
    {
       q1 = i.As(C);

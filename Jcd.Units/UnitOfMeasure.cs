@@ -43,9 +43,11 @@ public abstract record UnitOfMeasure<TUnit>
    /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}"/>
    /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
    /// </remarks>
+   // ReSharper disable once MemberCanBeProtected.Global
    public IValueComparer<double>? Comparer
    {
       get => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+      // ReSharper disable once PropertyCanBeMadeInitOnly.Global
       set => _comparer = value;
    }
 
@@ -83,7 +85,7 @@ public abstract record UnitOfMeasure<TUnit>
    {
       if (other is null) return false;
 
-      var comparer = Comparer;
+      var comparer = Comparer!;
 
       return comparer.Equals(Coefficient, other.Coefficient) && comparer.Equals(Offset, other.Offset);
    }
@@ -95,7 +97,7 @@ public abstract record UnitOfMeasure<TUnit>
    public override int GetHashCode()
    {
       // ReSharper disable once NonReadonlyMemberInGetHashCode
-      var comparer = Comparer;
+      var comparer = Comparer!;
 
       return HashCode.Combine(comparer.GetHashCode(Coefficient), comparer.GetHashCode(Offset), typeof(TUnit));
    }
@@ -106,21 +108,20 @@ public abstract record UnitOfMeasure<TUnit>
       var sb = new StringBuilder();
       sb.Append($"{Name} ({Symbol})");
 
-      if (!ReferenceEquals(this, FundamentalUnit))
+      if (ReferenceEquals(this, FundamentalUnit)) return sb.ToString();
+
+      sb.Append($" [= {FundamentalUnit.Symbol}");
+
+      // ReSharper disable once CompareOfFloatsByEqualityOperator
+      if (Coefficient != 1.0 || Offset == 0.0) sb.Append($" × {1.0 / Coefficient:n3}");
+
+      if (Offset != 0.0)
       {
-         sb.Append($" [= {FundamentalUnit.Symbol}");
-
-         // ReSharper disable once CompareOfFloatsByEqualityOperator
-         if (Coefficient != 1.0 || Offset == 0.0) sb.Append($" × {1.0 / Coefficient:n3}");
-
-         if (Offset != 0.0)
-         {
-            var sign = Offset <= 0 ? '+' : '-';
-            sb.Append($" {sign} {Math.Abs(Offset):n3}");
-         }
-
-         sb.Append(']');
+         var sign = Offset <= 0 ? '+' : '-';
+         sb.Append($" {sign} {Math.Abs(Offset):n3}");
       }
+
+      sb.Append(']');
 
       return sb.ToString();
    }
@@ -138,7 +139,7 @@ public abstract record UnitOfMeasure<TUnit>
    {
       if (other is null) return 1; // sort nulls first.
 
-      var comparer         = Comparer;
+      var comparer         = Comparer!;
       var factorComparison = comparer.Compare(Coefficient, other.Coefficient);
       var result           = factorComparison != 0 ? factorComparison : comparer.Compare(Offset, other.Offset);
 

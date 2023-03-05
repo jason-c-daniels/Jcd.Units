@@ -1,4 +1,5 @@
-﻿namespace Jcd.Units.Examples;
+﻿// ReSharper disable MemberCanBePrivate.Global
+namespace Jcd.Units.Examples;
 
 /// <summary>
 /// An implementation of <see cref="IValueComparer{T}"/> for doubles, which

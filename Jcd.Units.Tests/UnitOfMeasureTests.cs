@@ -3,6 +3,9 @@
 using Jcd.Units.Tests.TestHarnesses;
 
 using Moq;
+// ReSharper disable UnusedVariable
+// ReSharper disable HeapView.BoxingAllocation
+#pragma warning disable CS8600
 
 #endregion
 
@@ -22,7 +25,7 @@ public class UnitOfMeasureTests
 
    private const string DerivedUnit2Name = "duName2";
    private const string DerivedUnit2Symbol = "du2";
-   private static readonly object _syncRoot = new ();
+   private static readonly object SyncRoot = new ();
    private static readonly UnitOfMeasure1 BaseUnit = new (BaseUnitName, BaseUnitSymbol);
 
    private static readonly UnitOfMeasure1
@@ -177,7 +180,7 @@ public class UnitOfMeasureTests
    }
 
    [Fact]
-   public void TwoUnits_With_Same_Coefficient_And_Offest_Hash_To_The_Same_Value()
+   public void TwoUnits_With_Same_Coefficient_And_Offset_Hash_To_The_Same_Value()
    {
       var hc1 = new UnitOfMeasure1("new1", "n1", DerivedUnit1.BaseUnit, Du1C, Du1O).GetHashCode();
       var hc2 = DerivedUnit1.GetHashCode();
@@ -239,7 +242,7 @@ public class UnitOfMeasureTests
    [Fact]
    public void Custom_Global_DoubleComparer_Used_For_Comparisons()
    {
-      lock (_syncRoot) // this is to prevent multiple threads from stepping on each other.
+      lock (SyncRoot) // this is to prevent multiple threads from stepping on each other.
       {
          // Setup
          var mockUomComparer = new Mock<IValueComparer<double>>();
@@ -277,7 +280,7 @@ public class UnitOfMeasureTests
    [Fact]
    public void Custom_TypeSpecific_DoubleComparer_Used_For_Comparisons()
    {
-      lock (_syncRoot) // this is to prevent multiple threads from stepping on each other.
+      lock (SyncRoot) // this is to prevent multiple threads from stepping on each other.
       {
          // Setup
          var mockUomComparer1 = new Mock<IValueComparer<double>>();
@@ -315,7 +318,7 @@ public class UnitOfMeasureTests
    [Fact]
    public void Custom_Instance_Specific_DoubleComparer_Used_For_Comparisons()
    {
-      lock (_syncRoot) // this is to prevent multiple threads from stepping on each other.
+      lock (SyncRoot) // this is to prevent multiple threads from stepping on each other.
       {
          // Setup
          var mockUomComparer1 = new Mock<IValueComparer<double>>();
