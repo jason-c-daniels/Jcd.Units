@@ -189,18 +189,27 @@ void TimeConversions(int iterations)
     var q1 = 100.As(C);
     var q2 = q1.To(F);
     var q3 = q2.To(degRa);
-    var sw = Stopwatch.StartNew();
+    var sw = new Stopwatch();
+    var coeff = 2.0;
+    var cpuFreq = 3.0.As(SI.Frequencies.Gigahertz).To(SI.Frequencies.Hertz);
+    sw.Start();
     for (int i = 0; i < iterations; i++)
     {
-        
+        q1 = i.As(C);    
         q2 = q1.To(F);
         q3 = q2.To(degRa);
     }
     sw.Stop();
+    //sw.Stop();
+    var count = (coeff * iterations);
     var dur = sw.ElapsedMilliseconds.As(Durations.Millisecond).To(Durations.Microsecond);
-    var durPer = (dur / (2.0 * iterations)).To(Durations.Nanosecond);
-    Console.WriteLine($"{2 * iterations} conversion took {dur} total time.");
+    var durPer = (dur / count).To(Durations.Nanosecond);
+    var totalCpuCycles = cpuFreq.RawValue * dur.To(Durations.Second).RawValue;
+    var cpuCyclesPer = totalCpuCycles / count;
+    Console.WriteLine($"{count} conversion took {dur} total time.");
     Console.WriteLine($"{durPer} elapsed per conversion.");
+    Console.WriteLine($"{totalCpuCycles:n0} total CPU cycles.");
+    Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per conversion.");
     var q4 = q3.To(Temperatures.DegreesRéaumur);
 }
 
