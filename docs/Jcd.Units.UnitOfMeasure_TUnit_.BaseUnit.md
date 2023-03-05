@@ -6,8 +6,10 @@
 The unit of measure this one was defined in terms of.
 
 ```csharp
-public Jcd.Units.UnitOfMeasure<TUnit> BaseUnit { get; set; }
+public TUnit BaseUnit { get; set; }
 ```
 
+Implements [BaseUnit](Jcd.Units.IUnitOfMeasure_TUnit_.BaseUnit.md 'Jcd.Units.IUnitOfMeasure<TUnit>.BaseUnit')
+
 #### Property Value
-[Jcd.Units.UnitOfMeasure&lt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[TUnit](Jcd.Units.UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+[TUnit](Jcd.Units.UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')

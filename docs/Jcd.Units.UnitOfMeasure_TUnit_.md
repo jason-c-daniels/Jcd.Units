@@ -7,8 +7,8 @@ Base type to simplify creating a unit of measure. This type provides relational 
 
 ```csharp
 public abstract class UnitOfMeasure<TUnit> :
-Jcd.Units.IUnitOfMeasure<Jcd.Units.UnitOfMeasure<TUnit>>
-    where TUnit : Jcd.Units.IUnitOfMeasure<TUnit>
+Jcd.Units.IUnitOfMeasure<TUnit>
+    where TUnit : Jcd.Units.UnitOfMeasure<TUnit>
 ```
 #### Type parameters
 
@@ -47,7 +47,7 @@ Derived
 &#8627; [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance')  
 &#8627; [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature')
 
-Implements [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')[Jcd.Units.UnitOfMeasure&lt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[TUnit](Jcd.Units.UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[&gt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')
+Implements [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')[TUnit](Jcd.Units.UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')
 
 | Constructors | |
 | :--- | :--- |
@@ -67,10 +67,14 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jc
 
 | Methods | |
 | :--- | :--- |
-| [CompareTo(UnitOfMeasure&lt;TUnit&gt;)](Jcd.Units.UnitOfMeasure_TUnit_.CompareTo(Jcd.Units.UnitOfMeasure_TUnit_).md 'Jcd.Units.UnitOfMeasure<TUnit>.CompareTo(Jcd.Units.UnitOfMeasure<TUnit>)') | Performs a relative comparison between this [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') and another one. |
 | [CompareTo(object)](Jcd.Units.UnitOfMeasure_TUnit_.CompareTo(object).md 'Jcd.Units.UnitOfMeasure<TUnit>.CompareTo(object)') | Performs a relative comparison between this [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') and another one. |
+| [CompareTo(TUnit)](Jcd.Units.UnitOfMeasure_TUnit_.CompareTo(TUnit).md 'Jcd.Units.UnitOfMeasure<TUnit>.CompareTo(TUnit)') | Performs a relative comparison between this [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') and another one. |
+| [ComputeFundamentalCoefficient(double)](Jcd.Units.UnitOfMeasure_TUnit_.ComputeFundamentalCoefficient(double).md 'Jcd.Units.UnitOfMeasure<TUnit>.ComputeFundamentalCoefficient(double)') | The interface defining what every unit of measure must support. |
+| [ComputeFundamentalOffset(double, double)](Jcd.Units.UnitOfMeasure_TUnit_.ComputeFundamentalOffset(double,double).md 'Jcd.Units.UnitOfMeasure<TUnit>.ComputeFundamentalOffset(double, double)') | The interface defining what every unit of measure must support. |
 | [Equals(UnitOfMeasure&lt;TUnit&gt;)](Jcd.Units.UnitOfMeasure_TUnit_.Equals(Jcd.Units.UnitOfMeasure_TUnit_).md 'Jcd.Units.UnitOfMeasure<TUnit>.Equals(Jcd.Units.UnitOfMeasure<TUnit>)') | Compares this [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') to another one for equality. |
+| [FromBaseUnitValue(double)](Jcd.Units.UnitOfMeasure_TUnit_.FromBaseUnitValue(double).md 'Jcd.Units.UnitOfMeasure<TUnit>.FromBaseUnitValue(double)') | The interface defining what every unit of measure must support. |
 | [GetHashCode()](Jcd.Units.UnitOfMeasure_TUnit_.GetHashCode().md 'Jcd.Units.UnitOfMeasure<TUnit>.GetHashCode()') | Computes the hash code for this [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') |
+| [ToBaseUnitValue(double)](Jcd.Units.UnitOfMeasure_TUnit_.ToBaseUnitValue(double).md 'Jcd.Units.UnitOfMeasure<TUnit>.ToBaseUnitValue(double)') | The interface defining what every unit of measure must support. |
 
 | Operators | |
 | :--- | :--- |

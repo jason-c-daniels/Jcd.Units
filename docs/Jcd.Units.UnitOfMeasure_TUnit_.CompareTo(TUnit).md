@@ -1,18 +1,18 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
-## UnitOfMeasure<TUnit>.CompareTo(UnitOfMeasure<TUnit>) Method
+## UnitOfMeasure<TUnit>.CompareTo(TUnit) Method
 
 Performs a relative comparison between this [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') and another one.
 
 ```csharp
-public int CompareTo(Jcd.Units.UnitOfMeasure<TUnit>? other);
+public int CompareTo(TUnit? other);
 ```
 #### Parameters
 
-<a name='Jcd.Units.UnitOfMeasure_TUnit_.CompareTo(Jcd.Units.UnitOfMeasure_TUnit_).other'></a>
+<a name='Jcd.Units.UnitOfMeasure_TUnit_.CompareTo(TUnit).other'></a>
 
-`other` [Jcd.Units.UnitOfMeasure&lt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[TUnit](Jcd.Units.UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+`other` [TUnit](Jcd.Units.UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')
 
 The [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') to compare against.
 

@@ -16,8 +16,8 @@ public abstract record UnitOfMeasure<TUnit>(
         double Coefficient=1, 
         double Offset=0
         ) 
-    : IUnitOfMeasure<UnitOfMeasure<TUnit>>
-where TUnit : IUnitOfMeasure<TUnit>
+    : IUnitOfMeasure<TUnit>
+where TUnit : UnitOfMeasure<TUnit>
 {
     /// <summary>
     /// Sets the <see cref="IValueComparer{Double}"/> used by units of measure for this particular unit of
@@ -28,31 +28,31 @@ where TUnit : IUnitOfMeasure<TUnit>
     
     private readonly IValueComparer<double>? _comparer;
 
-    private UnitOfMeasure<TUnit>? _fundamentalUnit;
-    private UnitOfMeasure<TUnit>? _baseUnit;
+    private TUnit? _fundamentalUnit;
+    private TUnit? _baseUnit;
 
     /// <summary>
     /// The unit of measure all others are represented in terms of.
     /// </summary>
-    public UnitOfMeasure<TUnit> FundamentalUnit
+    public TUnit FundamentalUnit
     {
-        get => _fundamentalUnit ?? this;
+        get => _fundamentalUnit ?? (TUnit)this;
         protected init => _fundamentalUnit = value;
     }
 
     /// <summary>
     /// The unit of measure this one was defined in terms of.
     /// </summary>
-    public UnitOfMeasure<TUnit> BaseUnit
+    public TUnit BaseUnit
     {
-        get => _baseUnit ?? this;
+        get => _baseUnit ?? (TUnit)this;
         protected set => _baseUnit = value;
     }
 
     /// <summary>
     /// Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
     /// </summary>
-    public bool IsFundamentalUnit => ReferenceEquals(BaseUnit, this);
+    public bool IsFundamentalUnit => CompareTo(BaseUnit)==0;
     
     /// <summary>
     /// Constructs a <see cref="UnitOfMeasure{TUnit}" /> with optional <see cref="IValueComparer{Double}"/>
@@ -131,12 +131,13 @@ where TUnit : IUnitOfMeasure<TUnit>
     /// </summary>
     /// <param name="other">The <see cref="UnitOfMeasure{TUnit}"/> to compare against.</param>
     /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-    public int CompareTo(UnitOfMeasure<TUnit>? other)
+    public int CompareTo(TUnit? other)
     {
         if (other is null) return 1; // sort nulls first.
         var comparer = _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
         var factorComparison = comparer.Compare(Coefficient,other.Coefficient);
-        return factorComparison != 0 ? factorComparison : comparer.Compare(Offset,other.Offset);
+        var result= factorComparison != 0 ? factorComparison : comparer.Compare(Offset,other.Offset);
+        return result;
     }
 
     /// <summary>
@@ -148,7 +149,7 @@ where TUnit : IUnitOfMeasure<TUnit>
     public int CompareTo(object? obj)
     {
         if (ReferenceEquals(null, obj)) return 1; // sort nulls first.
-        return obj is UnitOfMeasure<TUnit> other ? CompareTo(other) : throw new ArgumentException($"Object must be of type {nameof(UnitOfMeasure<TUnit>)}");
+        return obj is TUnit other ? CompareTo(other) : throw new ArgumentException($"Object must be of type {nameof(UnitOfMeasure<TUnit>)}");
     }
 
     /// <summary>
@@ -210,4 +211,20 @@ where TUnit : IUnitOfMeasure<TUnit>
     }
 
     #endregion
+    
+    /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
+    public double FromBaseUnitValue(double normalizedValue) 
+        => (normalizedValue / Coefficient)  - Offset;
+
+    /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
+    public double ToBaseUnitValue( double denormalizedValue) 
+        => (denormalizedValue + Offset) * Coefficient;
+    
+    /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
+    public double ComputeFundamentalCoefficient(double coefficient) 
+        => Coefficient * coefficient;
+
+    /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
+    public double ComputeFundamentalOffset(double fundamentalCoefficient, double offset) 
+        => IsFundamentalUnit ? offset : ToBaseUnitValue(offset)/fundamentalCoefficient;
 }

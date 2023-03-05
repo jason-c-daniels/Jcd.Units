@@ -10,28 +10,35 @@ using USCustomary=Jcd.Units.UnitsOfMeasure.USCustomary;
 using USSurvey=Jcd.Units.UnitsOfMeasure.USSurvey;
 using Imperial=Jcd.Units.UnitsOfMeasure.Imperial;
 
-var Kilokelvin = new Temperature("Kilokelvin", "°kK", SI.Temperatures.DegreesKelvin, 1000.0);//SI.Temperatures.DegreesCelcius,1000,SI.Temperatures.DegreesKelvin.Offset);
-var Millikelvin = new Temperature("millikelvin", "°mK", SI.Temperatures.DegreesKelvin, 1.0 / 1000.0);//,SI.Temperatures.DegreesKelvin.Offset);
+var K = SI.Temperatures.DegreesKelvin;
+var C = SI.Temperatures.DegreesCelcius;
+var F = USCustomary.Temperatures.DegreesFahrenheit;
+
+var Kilokelvin = new Temperature("Kilokelvin", "°kK", K, 1000.0);
+var Millikelvin = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0);
 var OneMillikelvinT = 1.As(Millikelvin);
 var OneKilokelvinT = 1.As(Kilokelvin);
-var OneThousandKelvinT = OneKilokelvinT.To(SI.Temperatures.DegreesKelvin);
+var OneThousandKelvinT = OneKilokelvinT.To(K);
 var OneThousandKelvinAndOneMillikelvinT = OneThousandKelvinT + OneMillikelvinT;
-var R2 = new Temperature("R2", "°Rø",SI.Temperatures.DegreesCelcius,21.0/40.0,-7.5);
-var zeroC = 0d.As(SI.Temperatures.DegreesCelcius);
+var R2 = new Temperature("R2", "°Rø",C,0.525,-7.5);
+var zeroC = 0d.As(C);
 var zcinR2 = zeroC.To(R2);
-
-
 
 var allDurations = Durations.GetAll().ToList();
 Console.WriteLine("Hello, World!");
 var oneSec = 1d.As(Durations.Second);
 var oneSecInMs = oneSec.To(Durations.Millisecond);
 
-var meterQuantity = 1d.As(SI.Lengths.Meter);
-var kmQuantity=meterQuantity.To(SI.Lengths.Kilometer);
+var km = SI.Lengths.Kilometer;
+var m = SI.Lengths.Meter;
+var cm = SI.Lengths.Centimeter;
+var inch=Imperial.Lengths.Inch;
+
+var meterQuantity = 1d.As(m);
+var kmQuantity=meterQuantity.To(km);
 var twoM= (meterQuantity + kmQuantity);
-var twoMInInches = twoM.To(Imperial.Lengths.Inch); // two meters in inches.
-var oneInch = 1.As(Imperial.Lengths.Inch);
+var twoMInInches = twoM.To(inch); // two meters in inches.
+var oneInch = 1.As(inch);
 var oneInchInTwips = oneInch.To(Imperial.Lengths.Twip);
 var oneParsec = 1.As(Lengths.Parsec);
 var oneParsecInKm = oneParsec.To(SI.Lengths.Kilometer);
@@ -41,11 +48,11 @@ var oneLyInKm = oneLy.To(SI.Lengths.Kilometer);
 var oneLyInM = oneLy.To(SI.Lengths.Meter);
 var oneLyInKm2 = oneLyInM.To(SI.Lengths.Kilometer);
 var oneLyInMm = oneLy.To(SI.Lengths.Millimeter);
-var oneUSInch = 1.As(USCustomary.Lengths.Inch);
+var oneUSInch = 1.As(inch);
 var oneInchInPt = oneUSInch.To(USCustomary.Lengths.Point);
 var oneLink = 1.As(USSurvey.Lengths.Link);
-var oneLinkAsInches = oneLink.To(USCustomary.Lengths.Inch);
-var oneLinkAsCm = oneLink.To(SI.Lengths.Centimeter);
+var oneLinkAsInches = oneLink.To(inch);
+var oneLinkAsCm = oneLink.To(cm);
 //var oneSurveyFoot = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Foot);
 //var oneSurveyFootAsCm = oneSurveyFoot.To(SI.Lengths.Centimeter);
 //var oneSurveyFootAsFoot = oneSurveyFoot.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Foot);
@@ -54,31 +61,38 @@ var oneRodInLinks = oneRod.To(USSurvey.Lengths.Link);
 
 var meqkm= meterQuantity == kmQuantity;
 var twoMGtMq = twoM > meterQuantity;
-var tempC = 0d.As(SI.Temperatures.DegreesCelcius);
-var tempC1 = 1d.As(SI.Temperatures.DegreesCelcius);
-var tempC5 = 5d.As(SI.Temperatures.DegreesCelcius);
-var tempF = tempC.To(USCustomary.Temperatures.DegreesFahrenheit);
-var tempF1 = tempC1.To(USCustomary.Temperatures.DegreesFahrenheit);
-var tempF5 = tempC5.To(USCustomary.Temperatures.DegreesFahrenheit);
-var tempC_2 = tempF.To(SI.Temperatures.DegreesCelcius);
-var tempK = tempF.To(SI.Temperatures.DegreesKelvin);
-var tempK1 = tempF1.To(SI.Temperatures.DegreesKelvin);
-var tempK5 = tempF5.To(SI.Temperatures.DegreesKelvin);
-var tempR = tempF.To(Temperatures.DegreesRankine);
-var tempR1 = tempF1.To(Temperatures.DegreesRankine);
-var tempR5 = tempF5.To(Temperatures.DegreesRankine);
-var tempN = tempF.To(Temperatures.DegreesNewton);
-var tempN1 = tempF1.To(Temperatures.DegreesNewton);
-var tempN5 = tempF5.To(Temperatures.DegreesNewton);
-var tempRe = tempF.To(Temperatures.DegreesRéaumur);
-var tempRe1 = tempF1.To(Temperatures.DegreesRéaumur);
-var tempRe5 = tempF5.To(Temperatures.DegreesRéaumur);
-var tempRo = tempC.To(Temperatures.DegreesRømer);
-var tempRo1 = tempC1.To(Temperatures.DegreesRømer);
-var tempRo5 = tempC5.To(Temperatures.DegreesRømer);
-var tempDe = tempF.To(Temperatures.DegreesDelisle);
-var tempDe1 = tempF1.To(Temperatures.DegreesDelisle);
-var tempDe5 = tempF5.To(Temperatures.DegreesDelisle);
+var tempC = 0d.As(C);
+var tempC1 = 1d.As(C);
+var tempC5 = 5d.As(C);
+var tempF = tempC.To(F);
+var tempF1 = tempC1.To(F);
+var tempF5 = tempC5.To(F);
+var tempC_2 = tempF.To(C);
+var tempK = tempF.To(K);
+var tempK1 = tempF1.To(K);
+var tempK5 = tempF5.To(K);
+
+var degRa = Temperatures.DegreesRankine;
+var degN = Temperatures.DegreesNewton;
+var ré = Temperatures.DegreesRéaumur;
+var rø = Temperatures.DegreesRømer;
+var de = Temperatures.DegreesDelisle;
+
+var tempR = tempF.To(degRa);
+var tempR1 = tempF1.To(degRa);
+var tempR5 = tempF5.To(degRa);
+var tempN = tempF.To(degN);
+var tempN1 = tempF1.To(degN);
+var tempN5 = tempF5.To(degN);
+var tempRe = tempF.To(ré);
+var tempRe1 = tempF1.To(ré);
+var tempRe5 = tempF5.To(ré);
+var tempRo = tempC.To(rø);
+var tempRo1 = tempC1.To(rø);
+var tempRo5 = tempC5.To(rø);
+var tempDe = tempF.To(de);
+var tempDe1 = tempF1.To(de);
+var tempDe5 = tempF5.To(de);
 
 int j = 0;
 /*

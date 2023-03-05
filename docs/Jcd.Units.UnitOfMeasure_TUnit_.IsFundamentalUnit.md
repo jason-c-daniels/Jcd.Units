@@ -9,5 +9,7 @@ Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, 
 public bool IsFundamentalUnit { get; }
 ```
 
+Implements [IsFundamentalUnit](Jcd.Units.IUnitOfMeasure_TUnit_.IsFundamentalUnit.md 'Jcd.Units.IUnitOfMeasure<TUnit>.IsFundamentalUnit')
+
 #### Property Value
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')

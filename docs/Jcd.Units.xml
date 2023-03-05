@@ -102,6 +102,56 @@
             This is the offset from the fundamental unit.
             </summary>
         </member>
+        <member name="P:Jcd.Units.IUnitOfMeasure`1.FundamentalUnit">
+            <summary>
+            The unit of measure all others are represented in terms of.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.IUnitOfMeasure`1.BaseUnit">
+            <summary>
+            The unit of measure this one was defined in terms of.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.IUnitOfMeasure`1.IsFundamentalUnit">
+            <summary>
+            Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.IUnitOfMeasure`1.FromBaseUnitValue(System.Double)">
+            <summary>
+            Given a raw value, convert FROM the fundamental (normalized) base unit representation
+            TO the non-base value. (e.g. 0.1  becomes 100mm as meters are the base
+            unit and 0.1m is 100mm )
+            </summary>
+            <param name="normalizedValue">the normalized value.</param>
+            <returns>The denormalized value</returns>
+        </member>
+        <member name="M:Jcd.Units.IUnitOfMeasure`1.ToBaseUnitValue(System.Double)">
+            <summary>
+            Given a raw value, convert TO the fundamental base unit representation
+            FROM the non-base unit representation of  the value. (e.g. 100mm becomes
+            0.1 as meters are the base unit)
+            </summary>
+            <param name="denormalizedValue">the denormalized value.</param>
+        </member>
+        <member name="M:Jcd.Units.IUnitOfMeasure`1.ComputeFundamentalCoefficient(System.Double)">
+            <summary>
+            Given a coefficient, calculate the equivalent coefficient for the
+            fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0) 
+            </summary>
+            <param name="coefficient">The coefficient to normalize.</param>
+            <returns>The coefficient for the fundamental unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.IUnitOfMeasure`1.ComputeFundamentalOffset(System.Double,System.Double)">
+            <summary>
+            Given an offset and the coefficient for converting to the fundamental unit
+            of measure, calculate the equivalent offset for the fundamental unit of measure.
+            (i.e. the one with Coeff = 1 and Offset = 0) 
+            </summary>
+            <param name="offset">The offset to normalize.</param>
+            <param name="fundamentalCoefficient">The coefficient for converting to the fundamental unit of measure.</param>
+            <returns>The offset for the fundamental unit of measure.</returns>
+        </member>
         <member name="T:Jcd.Units.IValueComparer`1">
             <summary>
             Defines the interface needed to perform value comparisons within a quantity type. 
@@ -521,7 +571,7 @@
         <member name="M:Jcd.Units.UnitOfMeasure`1.ToString">
             <inheritdoc />
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasure`1.CompareTo(Jcd.Units.UnitOfMeasure{`0})">
+        <member name="M:Jcd.Units.UnitOfMeasure`1.CompareTo(`0)">
             <summary>
             Performs a relative comparison between this <see cref="T:Jcd.Units.UnitOfMeasure`1"/> and another one.
             </summary>
@@ -568,53 +618,17 @@
             <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
             <returns>true if left is &gt;= right; false otherwise.</returns>
         </member>
-        <member name="T:Jcd.Units.UnitOfMeasureExtensions">
-            <summary>
-            Extension methods that convert raw values to and from fundamental
-            (Coefficient=1, Offset=0) unit of measure representations.
-            </summary>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.FromBaseUnitValue(System.Double)">
+            <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1"/> 
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.FromBaseUnitValue``1(``0,System.Double)">
-            <summary>
-            Given a raw value, convert FROM the fundamental base unit representation
-            TO the non-base value. (e.g. 0.1  becomes 100mm as meters are the base
-            unit and 0.1m is 100mm )
-            </summary>
-            <param name="targetUnit">The unit of measure to convert TO</param>
-            <param name="value">the normalized value.</param>
-            <typeparam name="TUnitType">The type of unit of measure (e.g. Length)</typeparam>
-            <returns>The denormalized value</returns>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.ToBaseUnitValue(System.Double)">
+            <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1"/> 
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ToBaseUnitValue``1(``0,System.Double)">
-            <summary>
-            Given a raw value, convert TO the fundamental base unit representation
-            FROM the non-base unit representation of  the value. (e.g. 100mm becomes
-            0.1 as meters are the base unit)
-            </summary>
-            <param name="sourceUnit">The unit of measure to convert FROM</param>
-            <param name="value">the denormalized value.</param>
-            <typeparam name="TUnitType">The type of unit of measure (e.g. Length)</typeparam>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.ComputeFundamentalCoefficient(System.Double)">
+            <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1"/> 
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient``1(``0,System.Double)">
-            <summary>
-            Given a <paramref name="baseUnit"/> and a coefficient, calculate the equivalent
-            coefficient for the fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0) 
-            </summary>
-            <param name="baseUnit">The base unit of measure to use.</param>
-            <param name="coefficient">The coefficient to normalize.</param>
-            <typeparam name="TUnitType">The unit of measure type.</typeparam>
-            <returns>The coefficient for the fundamental unit of measure.</returns>
-        </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalOffset``1(``0,System.Double,System.Double)">
-            <summary>
-            Given a <paramref name="baseUnit"/> and an offset, calculate the equivalent
-            offset for the fundamental unit of measure. (i.e. the one with Coeff = 1 and Offset = 0) 
-            </summary>
-            <param name="baseUnit">The base unit of measure to use.</param>
-            <param name="offset">The offset to normalize.</param>
-            <param name="fundamentalCoefficient">The coefficient for converting to the fundamental unit of measure.</param>
-            <typeparam name="TUnitType">The unit of measure type.</typeparam>
-            <returns>The offset for the fundamental unit of measure.</returns>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.ComputeFundamentalOffset(System.Double,System.Double)">
+            <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1"/> 
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Amounts">
             <summary>
