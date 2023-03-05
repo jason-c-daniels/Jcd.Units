@@ -51,13 +51,13 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jc
 
 | Constructors | |
 | :--- | :--- |
-| [UnitOfMeasure(string, string, double, double, IValueComparer&lt;double&gt;)](Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,double,double,Jcd.Units.IValueComparer_double_).md 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') with optional [IValueComparer&lt;T&gt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') |
 | [UnitOfMeasure(string, string, double, double)](Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,double,double).md 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, double, double)') | Base type to simplify creating a unit of measure. This type provides relational and equivalence operations. |
 
 | Properties | |
 | :--- | :--- |
 | [BaseUnit](Jcd.Units.UnitOfMeasure_TUnit_.BaseUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.BaseUnit') | The unit of measure this one was defined in terms of. |
 | [Coefficient](Jcd.Units.UnitOfMeasure_TUnit_.Coefficient.md 'Jcd.Units.UnitOfMeasure<TUnit>.Coefficient') | The unit's coefficient relative to the ultimate base unit's representation. |
+| [Comparer](Jcd.Units.UnitOfMeasure_TUnit_.Comparer.md 'Jcd.Units.UnitOfMeasure<TUnit>.Comparer') | The [IValueComparer&lt;T&gt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons: where `T` is a [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double'). |
 | [DefaultDoubleComparer](Jcd.Units.UnitOfMeasure_TUnit_.DefaultDoubleComparer.md 'Jcd.Units.UnitOfMeasure<TUnit>.DefaultDoubleComparer') | Sets the [IValueComparer&lt;T&gt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used by units of measure for this particular unit of<br/>measure type. (e.g. lengths.) |
 | [FundamentalUnit](Jcd.Units.UnitOfMeasure_TUnit_.FundamentalUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.FundamentalUnit') | The unit of measure all others are represented in terms of. |
 | [IsFundamentalUnit](Jcd.Units.UnitOfMeasure_TUnit_.IsFundamentalUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.IsFundamentalUnit') | Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0) |

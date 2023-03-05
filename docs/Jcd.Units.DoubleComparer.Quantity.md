@@ -6,7 +6,7 @@
 The registered double comparer used by Quantities, by default.
 
 ```csharp
-public static Jcd.Units.IValueComparer<double> Quantity { get; set; }
+public static Jcd.Units.IValueComparer<double>? Quantity { get; set; }
 ```
 
 #### Property Value

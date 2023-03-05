@@ -6,7 +6,7 @@
 The registered double comparer used by UnitOfMeasure instances, by default.
 
 ```csharp
-public static Jcd.Units.IValueComparer<double> UnitOfMeasure { get; set; }
+public static Jcd.Units.IValueComparer<double>? UnitOfMeasure { get; set; }
 ```
 
 #### Property Value

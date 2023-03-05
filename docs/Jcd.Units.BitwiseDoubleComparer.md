@@ -1,22 +1,20 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units')
 
-## BitwiseDoubleComparer Class
+## BitwiseDoubleComparer Struct
 
 Performs standard, compiler provided, comparison operations against two doubles.
 
 ```csharp
-public class BitwiseDoubleComparer :
+public struct BitwiseDoubleComparer :
 Jcd.Units.IValueComparer<double>
 ```
-
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.Collections.Generic.IComparer](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IComparer 'System.Collections.Generic.IComparer') &#129106; [System.Collections.Generic.IEqualityComparer](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEqualityComparer 'System.Collections.Generic.IEqualityComparer') &#129106; BitwiseDoubleComparer
 
 Implements [Jcd.Units.IValueComparer&lt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
 
 | Fields | |
 | :--- | :--- |
-| [Standard](Jcd.Units.BitwiseDoubleComparer.Standard.md 'Jcd.Units.BitwiseDoubleComparer.Standard') | The default instance. Use this instead of constantly creating new ones. It's easier<br/>on the garbage collector. |
+| [Default](Jcd.Units.BitwiseDoubleComparer.Default.md 'Jcd.Units.BitwiseDoubleComparer.Default') | The default instance. Use this instead of constantly creating new ones. It's easier<br/>on the garbage collector. |
 
 | Methods | |
 | :--- | :--- |

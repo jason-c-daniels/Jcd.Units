@@ -20,11 +20,9 @@ public static class NumericExtensions
     /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this double rawValue, TUnit unitOfMeasure)
-        where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
-    
+        where TUnit : UnitOfMeasure<TUnit> 
+        => new (rawValue, unitOfMeasure);
+
     /// <summary>
     /// Converts a <see cref="float"/> into a quantity using the specified unit of measure.
     /// </summary>
@@ -33,10 +31,8 @@ public static class NumericExtensions
     /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this float rawValue, TUnit unitOfMeasure)
-        where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
+        where TUnit : UnitOfMeasure<TUnit> 
+        => new (rawValue, unitOfMeasure);
 
     /// <summary>
     /// Converts an <see cref="long"/> into a quantity using the specified unit of measure.
@@ -46,10 +42,8 @@ public static class NumericExtensions
     /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this long rawValue, TUnit unitOfMeasure)
-        where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
+        where TUnit : UnitOfMeasure<TUnit> 
+        => new (rawValue, unitOfMeasure);
 
     /// <summary>
     /// Converts a <see cref="ulong"/> into a quantity using the specified unit of measure.
@@ -59,12 +53,9 @@ public static class NumericExtensions
     /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this ulong rawValue, TUnit unitOfMeasure)
-        where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
+        where TUnit : UnitOfMeasure<TUnit> 
+        => new (rawValue, unitOfMeasure);
 
-    
     /// <summary>
     /// Converts an <see cref="int"/> into a quantity using the specified unit of measure.
     /// </summary>
@@ -74,9 +65,7 @@ public static class NumericExtensions
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this int rawValue, TUnit unitOfMeasure)
         where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
+        => new (rawValue, unitOfMeasure);
 
     /// <summary>
     /// Converts a <see cref="uint"/> into a quantity using the specified unit of measure.
@@ -86,10 +75,8 @@ public static class NumericExtensions
     /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this uint rawValue, TUnit unitOfMeasure)
-        where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
+        where TUnit : UnitOfMeasure<TUnit> 
+        => new (rawValue, unitOfMeasure);
 
     /// <summary>
     /// Converts a <see cref="short"/> into a quantity using the specified unit of measure.
@@ -99,10 +86,8 @@ public static class NumericExtensions
     /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this short rawValue, TUnit unitOfMeasure)
-        where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
+        where TUnit : UnitOfMeasure<TUnit> 
+        => new (rawValue, unitOfMeasure);
 
     /// <summary>
     /// Converts a <see cref="ushort"/> into a quantity using the specified unit of measure.
@@ -113,10 +98,8 @@ public static class NumericExtensions
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this ushort rawValue, TUnit unitOfMeasure)
         where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
-    
+        => new (rawValue, unitOfMeasure);
+
     /// <summary>
     /// Converts an <see cref="sbyte"/> into a quantity using the specified unit of measure.
     /// </summary>
@@ -125,11 +108,9 @@ public static class NumericExtensions
     /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this sbyte rawValue, TUnit unitOfMeasure)
-        where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
-    
+        where TUnit : UnitOfMeasure<TUnit> 
+        => new (rawValue, unitOfMeasure);
+
     /// <summary>
     /// Converts a <see cref="byte"/> into a quantity using the specified unit of measure.
     /// </summary>
@@ -138,10 +119,8 @@ public static class NumericExtensions
     /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
     /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
     public static Quantity<TUnit> As<TUnit>(this byte rawValue, TUnit unitOfMeasure)
-        where TUnit : UnitOfMeasure<TUnit>
-    {
-        return new Quantity<TUnit>(rawValue, unitOfMeasure);
-    }
+        where TUnit : UnitOfMeasure<TUnit> 
+        => new (rawValue, unitOfMeasure);
 
     /// <summary>
     /// Converts a <see cref="TimeSpan"/> to a <see cref="Duration"/> represented as the specified unit of time.
@@ -149,8 +128,7 @@ public static class NumericExtensions
     /// <param name="timeSpan">The <see cref="TimeSpan"/> to convert.</param>
     /// <param name="timeUnit">The <see cref="Duration"/> unit of measure to convert to.</param>
     /// <returns></returns>
-    public static Quantity<Duration> As(this TimeSpan timeSpan, Duration timeUnit)
-    {
-        return timeSpan.TotalMilliseconds.As(Durations.Millisecond).To(timeUnit);
-    }
+    public static Quantity<Duration> As(this TimeSpan timeSpan, Duration timeUnit) 
+        => timeSpan.TotalMilliseconds.As(Durations.Millisecond).To(timeUnit);
+    
 }

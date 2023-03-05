@@ -271,12 +271,46 @@ public class UnitOfMeasureTests
 
             UnitOfMeasure1.DefaultDoubleComparer = mockUomComparer1.Object;
             DoubleComparer.UnitOfMeasure = mockUomComparer2.Object;
-            DoubleComparer.Quantity = new BitwiseDoubleComparer();
+            DoubleComparer.Quantity = BitwiseDoubleComparer.Default;
 
             // act
             var comparison = DerivedUnit2.CompareTo(DerivedUnit1);
             var equals = DerivedUnit1.Equals(DerivedUnit2);
 
+            // verify
+            mockUomComparer1.Verify(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()), Times.AtLeastOnce);
+            mockUomComparer1.Verify(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()), Times.AtLeastOnce);
+            mockUomComparer2.Verify(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()), Times.Never);
+            mockUomComparer2.Verify(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()), Times.Never);
+        }
+    }
+    
+    [Fact]
+    public void Custom_Instance_Specific_DoubleComparer_Used_For_Comparisons()
+    {
+        lock (_syncRoot) // this is to prevent multiple threads from stepping on each other.
+        {
+            // Setup
+            var mockUomComparer1 = new Mock<IValueComparer<double>>();
+            mockUomComparer1.Setup(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y));
+            mockUomComparer1.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
+
+            var mockUomComparer2 = new Mock<IValueComparer<double>>();
+            mockUomComparer2.Setup(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y));
+            mockUomComparer2.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
+                .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
+
+            UnitOfMeasure1.DefaultDoubleComparer = mockUomComparer2.Object;
+            DoubleComparer.UnitOfMeasure = mockUomComparer2.Object;
+            DoubleComparer.Quantity = mockUomComparer2.Object;
+            var myUnit = new UnitOfMeasure1("M1", "m1", BaseUnit, 10, -1,mockUomComparer1.Object);
+            // act
+            var comparison = myUnit.CompareTo(DerivedUnit1);
+            var equals = myUnit.Equals(DerivedUnit2);
+            
             // verify
             mockUomComparer1.Verify(m => m.Compare(It.IsAny<double>(), It.IsAny<double>()), Times.AtLeastOnce);
             mockUomComparer1.Verify(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()), Times.AtLeastOnce);

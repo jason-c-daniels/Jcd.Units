@@ -11,9 +11,9 @@ namespace Jcd.Units;
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
 public abstract record UnitOfMeasure<TUnit>(
-        string Name, 
+        string Name,
         string Symbol,
-        double Coefficient=1, 
+        double Coefficient=1,
         double Offset=0
         ) 
     : IUnitOfMeasure<TUnit>

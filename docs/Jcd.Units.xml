@@ -24,7 +24,7 @@
             <param name="y">the right hand operand</param>
             <returns>-1 if <paramref name="x"/> is less than <paramref name="y"/>, 0 if they're equal and 1 if <paramref name="x"/> is greater than <paramref name="y"/></returns>
         </member>
-        <member name="F:Jcd.Units.BitwiseDoubleComparer.Standard">
+        <member name="F:Jcd.Units.BitwiseDoubleComparer.Default">
             <summary>
             The default instance. Use this instead of constantly creating new ones. It's easier
             on the garbage collector.
@@ -154,9 +154,14 @@
         </member>
         <member name="T:Jcd.Units.IValueComparer`1">
             <summary>
-            Defines the interface needed to perform value comparisons within a quantity type. 
+            Defines the interface needed to perform value comparisons within a quantity or UnitOfMeasure type.
             </summary>
             <typeparam name="T">The datatype being compared</typeparam>
+            <remarks>
+            This type is used to provide stable hash codes (i.e. hash codes that are identical for values
+            that the implementation compares as equivalent.) and comparison implementations to provide
+            application defined comparison operations. It's most useful for <see cref="T:System.Single"/>, <see cref="T:System.Double"/> and custom data types.
+            </remarks>
         </member>
         <member name="T:Jcd.Units.NamespaceDoc">
             <summary>
@@ -587,15 +592,14 @@
             Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="P:Jcd.Units.UnitOfMeasure`1.Comparer">
             <summary>
-            Constructs a <see cref="T:Jcd.Units.UnitOfMeasure`1" /> with optional <see cref="T:Jcd.Units.IValueComparer`1"/>
+            The <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons: where <c>T</c> is a <see cref="T:System.Double"/>.
             </summary>
-            <param name="name">The name of this unit</param>
-            <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1"/></param>
-            <param name="coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
-            <param name="offset">The offset used when computing values going to and from the base unit's representation.</param>
-            <param name="comparer">The <see cref="T:Jcd.Units.IValueComparer`1"/> to use in double comparisons.</param>
+            <remarks>
+            If not assigned during initialization, this returns <see cref="T:Jcd.Units.UnitOfMeasure`1"/>
+            type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
+            </remarks>
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.Equals(Jcd.Units.UnitOfMeasure{`0})">
             <summary>

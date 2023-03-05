@@ -7,13 +7,13 @@ namespace Jcd.Units;
 /// </summary>
 public static class DoubleComparer
 {
-    static IValueComparer<double> _quantity = new BitwiseDoubleComparer();
-    static IValueComparer<double> _unitOfMeasure = new BitwiseDoubleComparer();
+    static IValueComparer<double> _quantity = BitwiseDoubleComparer.Default;
+    static IValueComparer<double> _unitOfMeasure = BitwiseDoubleComparer.Default;
 
     /// <summary>
     /// The registered double comparer used by Quantities, by default. 
     /// </summary>
-    public static IValueComparer<double> Quantity
+    public static IValueComparer<double>? Quantity
     {
         get => _quantity;
         set => _quantity = value ?? throw new ArgumentNullException(nameof(value));
@@ -22,7 +22,7 @@ public static class DoubleComparer
     /// <summary>
     /// The registered double comparer used by UnitOfMeasure instances, by default.
     /// </summary>
-    public static IValueComparer<double> UnitOfMeasure
+    public static IValueComparer<double>? UnitOfMeasure
     {
         get => _unitOfMeasure;
         set => _unitOfMeasure = value ?? throw new ArgumentNullException(nameof(value));

@@ -3,6 +3,7 @@
 using System;
 using System.Diagnostics;
 using Jcd.Units;
+using Jcd.Units.Examples;
 using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitsOfMeasure.Astronomical;
 using Jcd.Units.UnitTypes;
@@ -40,6 +41,10 @@ var timeOfDay = DateTime.UtcNow.TimeOfDay.As(Durations.PlanckTime);
 var s = timeOfDay.ToString("E5");
 var durr = 1.As(Durations.SeptillionYears);
 var sdurr = durr.To(Durations.PlanckTime).ToString("e3");
+
+var pS = 1.As(Durations.Second).To(Durations.PlanckTime);
+var pSs = $"{pS:n0}";
+
 var Kilokelvin = new Temperature("Kilokelvin", "°kK", K, 1000.0);
 var Millikelvin = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0);
 var OneMillikelvinT = 1.As(Millikelvin);
@@ -189,7 +194,7 @@ Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinT} : {OneKilokelvinT =
 Console.WriteLine($"{OneThousandKelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneThousandKelvinT == OneThousandKelvinAndOneMillikelvinT}");
 Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}");
 
-Quantity<Temperature>.DefaultDoubleComparer = new Int64ConversionComparer(100);
+Quantity<Temperature>.DefaultDoubleComparer = new Int64ConversionComparer(100); // compare equivalence up to two digits after the decimal point.
 
 Console.WriteLine();
 Console.WriteLine("Compare temp quantities after Quantity<Temperature>.DefaultDoubleComparer = new Int64ConversionComparer(100);");
@@ -260,36 +265,3 @@ void TimeQuantityMath(int iterations)
     Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per equation.");
     var q4 = q3.To(Temperatures.DegreesRéaumur);
 }
-
-class Int64ConversionComparer : IValueComparer<double>
-{
-    /// <summary>
-    /// The amount to multiple the doubles by before conversion and comparison.
-    /// </summary>
-    public int Factor { get; }
-    public Int64ConversionComparer(int factor=1)
-    {
-        Factor = factor;
-    }
-    
-    public int Compare(double x, double y)
-    {
-        var xi64 = ToInt64(x);
-        var yi64 = ToInt64(y);
-        return xi64.CompareTo(yi64);
-    }
-
-    public bool Equals(double x, double y)
-    {
-        return Compare(x, y) == 0;
-    }
-
-    long ToInt64(double dbl) => Convert.ToInt64(dbl*Factor);
-    
-    public int GetHashCode(double val)
-    {
-        var vi64 = ToInt64(val);
-        return vi64.GetHashCode();
-    }
-}
-
