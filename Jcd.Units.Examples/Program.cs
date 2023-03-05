@@ -236,7 +236,7 @@ void TimeQuantityMath(int iterations)
         q3 = 4.0/q2 + 111;
     }
     sw.Stop();
-    //sw.Stop();
+
     var count = (coeff * iterations);
     var dur = sw.Elapsed.As(Durations.Microsecond);
     var durPer = (dur / count).To(Durations.Nanosecond);
