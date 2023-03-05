@@ -24,6 +24,9 @@ var R2 = new Temperature("R2", "°Rø",C,0.525,-7.5);
 var zeroC = 0d.As(C);
 var zcinR2 = zeroC.To(R2);
 
+var dnc = R2.FromBaseUnitValue(K.Offset);
+
+
 var allDurations = Durations.GetAll().ToList();
 Console.WriteLine("Hello, World!");
 var oneSec = 1d.As(Durations.Second);

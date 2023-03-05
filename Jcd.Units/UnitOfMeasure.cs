@@ -52,7 +52,7 @@ where TUnit : UnitOfMeasure<TUnit>
     /// <summary>
     /// Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
     /// </summary>
-    public bool IsFundamentalUnit => CompareTo(BaseUnit)==0;
+    public bool IsFundamentalUnit => _baseUnit is null;
     
     /// <summary>
     /// Constructs a <see cref="UnitOfMeasure{TUnit}" /> with optional <see cref="IValueComparer{Double}"/>
