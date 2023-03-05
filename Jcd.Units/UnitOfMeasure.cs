@@ -96,7 +96,7 @@ where TUnit : UnitOfMeasure<TUnit>
         // ReSharper disable once NonReadonlyMemberInGetHashCode
         var comparer = GetComparer();
         
-        return HashCode.Combine(comparer.GetHashCode(Coefficient), comparer.GetHashCode(Offset), typeof(UnitOfMeasure<TUnit>));
+        return HashCode.Combine(comparer.GetHashCode(Coefficient), comparer.GetHashCode(Offset), typeof(TUnit));
     }
 
     /// <inheritdoc />
@@ -203,7 +203,7 @@ where TUnit : UnitOfMeasure<TUnit>
     public static bool operator >=(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
     {
         if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
-        if (ReferenceEquals(left, right)) return false; // if they're the same instance.
+        if (ReferenceEquals(left, right)) return true; // if they're the same instance.
         if (ReferenceEquals(null, right)) return false; // relationally, nulls do not compare, return false.
         if (ReferenceEquals(null, left)) return false; // relationally, nulls do not compare, return false.
         return left.CompareTo(right) >= 0;
