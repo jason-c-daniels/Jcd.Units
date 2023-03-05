@@ -28,8 +28,8 @@ where TUnit : UnitOfMeasure<TUnit>
     
     private readonly IValueComparer<double>? _comparer;
 
-    private TUnit? _fundamentalUnit;
-    private TUnit? _baseUnit;
+    private readonly TUnit? _fundamentalUnit;
+    private readonly TUnit? _baseUnit;
 
     /// <summary>
     /// The unit of measure all others are represented in terms of.
@@ -46,7 +46,7 @@ where TUnit : UnitOfMeasure<TUnit>
     public TUnit BaseUnit
     {
         get => _baseUnit ?? (TUnit)this;
-        protected set => _baseUnit = value;
+        protected init => _baseUnit = value;
     }
 
     /// <summary>
