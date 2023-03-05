@@ -214,4 +214,9 @@ public class Durations : Enumeration<Durations,Duration>
     /// </summary>
     public static readonly Duration PlanckTime = new ("planck-time", "tP", Yoctosecond, 5.39121E-20,0);
 
+    /// <summary>
+    /// A(n) tick. Defined in terms of a(n) nanosecond.
+    /// </summary>
+    public static readonly Duration Tick = new ("tick", "tick", Nanosecond, 100,0);
+
 }

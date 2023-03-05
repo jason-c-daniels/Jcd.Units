@@ -46,6 +46,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [SeptillionYears](Jcd.Units.UnitsOfMeasure.Durations.SeptillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SeptillionYears') | A(n) septillion years. Defined in terms of a(n) sextillion years. |
 | [SextillionYears](Jcd.Units.UnitsOfMeasure.Durations.SextillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SextillionYears') | A(n) sextillion years. Defined in terms of a(n) quadrillion years. |
 | [Terasecond](Jcd.Units.UnitsOfMeasure.Durations.Terasecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Terasecond') | A(n) terasecond. Defined in terms of a(n) gigasecond. |
+| [Tick](Jcd.Units.UnitsOfMeasure.Durations.Tick.md 'Jcd.Units.UnitsOfMeasure.Durations.Tick') | A(n) tick. Defined in terms of a(n) nanosecond. |
 | [TrillionYears](Jcd.Units.UnitsOfMeasure.Durations.TrillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.TrillionYears') | A(n) trillion years. Defined in terms of a(n) billion years. |
 | [Week](Jcd.Units.UnitsOfMeasure.Durations.Week.md 'Jcd.Units.UnitsOfMeasure.Durations.Week') | A(n) week. Defined in terms of a(n) day. |
 | [Year](Jcd.Units.UnitsOfMeasure.Durations.Year.md 'Jcd.Units.UnitsOfMeasure.Durations.Year') | A(n) year. Defined in terms of a(n) day. |

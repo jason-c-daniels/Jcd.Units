@@ -1,4 +1,9 @@
 // ReSharper disable UnusedMember.Global
+
+using System;
+using Jcd.Units.UnitsOfMeasure;
+using Jcd.Units.UnitTypes;
+
 namespace Jcd.Units;
 
 /// <summary>
@@ -136,5 +141,16 @@ public static class NumericExtensions
         where TUnit : UnitOfMeasure<TUnit>
     {
         return new Quantity<TUnit>(rawValue, unitOfMeasure);
+    }
+
+    /// <summary>
+    /// Converts a TimeSpan to a Duration represented as the specified unit of measure.
+    /// </summary>
+    /// <param name="timeSpan">The <see cref="TimeSpan"/> to convert.</param>
+    /// <param name="timeUnit">The <see cref="Duration"/> unit of measure to convert to.</param>
+    /// <returns></returns>
+    public static Quantity<Duration> As(this TimeSpan timeSpan, Duration timeUnit)
+    {
+        return timeSpan.TotalMilliseconds.As(Durations.Millisecond).To(timeUnit);
     }
 }

@@ -11,7 +11,14 @@ using USCustomary=Jcd.Units.UnitsOfMeasure.USCustomary;
 using USSurvey=Jcd.Units.UnitsOfMeasure.USSurvey;
 using Imperial=Jcd.Units.UnitsOfMeasure.Imperial;
 
+var GHz = SI.Frequencies.Gigahertz;
+var Hz = SI.Frequencies.Hertz;
 
+// NB: replace this with the correct Hz for your system.
+var CPU_FREQ_IN_HZ = 3.0.As(GHz).To(Hz);
+
+var oneTick = 1.As(Durations.Tick);
+var oneTickInNs = oneTick.To(Durations.Nanosecond);
 var K = SI.Temperatures.DegreesKelvin;
 var C = SI.Temperatures.DegreesCelcius;
 var F = USCustomary.Temperatures.DegreesFahrenheit;
@@ -21,9 +28,6 @@ var ré = Temperatures.DegreesRéaumur;
 var rø = Temperatures.DegreesRømer;
 var de = Temperatures.DegreesDelisle;
 
-
-TimeConversions(1_000_000);
-return 0;
 var Kilokelvin = new Temperature("Kilokelvin", "°kK", K, 1000.0);
 var Millikelvin = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0);
 var OneMillikelvinT = 1.As(Millikelvin);
@@ -181,6 +185,11 @@ Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinT} : {OneKilokelvinT =
 Console.WriteLine($"{OneThousandKelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneThousandKelvinT == OneThousandKelvinAndOneMillikelvinT}");
 Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}");
 
+Console.WriteLine();
+TimeConversions(500_000_000);
+Console.WriteLine();
+TimeQuantityMath(500_000_000);
+return 0;
 
 i = 100;
 
@@ -191,7 +200,6 @@ void TimeConversions(int iterations)
     var q3 = q2.To(degRa);
     var sw = new Stopwatch();
     var coeff = 2.0;
-    var cpuFreq = 3.0.As(SI.Frequencies.Gigahertz).To(SI.Frequencies.Hertz);
     sw.Start();
     for (int i = 0; i < iterations; i++)
     {
@@ -202,14 +210,42 @@ void TimeConversions(int iterations)
     sw.Stop();
     //sw.Stop();
     var count = (coeff * iterations);
-    var dur = sw.ElapsedMilliseconds.As(Durations.Millisecond).To(Durations.Microsecond);
+    var dur = sw.Elapsed.As(Durations.Microsecond);
     var durPer = (dur / count).To(Durations.Nanosecond);
-    var totalCpuCycles = cpuFreq.RawValue * dur.To(Durations.Second).RawValue;
+    var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue * dur.To(Durations.Second).RawValue;
     var cpuCyclesPer = totalCpuCycles / count;
-    Console.WriteLine($"{count} conversion took {dur} total time.");
+    Console.WriteLine($"{count:n0} conversion took {dur} total time.");
     Console.WriteLine($"{durPer} elapsed per conversion.");
     Console.WriteLine($"{totalCpuCycles:n0} total CPU cycles.");
     Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per conversion.");
+    var q4 = q3.To(Temperatures.DegreesRéaumur);
+}
+
+void TimeQuantityMath(int iterations)
+{
+    var q1 = 100.As(C);
+    var q2 = q1.To(F);
+    var q3 = q2.To(degRa);
+    var sw = new Stopwatch();
+    var coeff = 2.0;
+    sw.Start();
+    for (int i = 0; i < iterations; i++)
+    {
+        q1 = i.As(C);
+        q2 = 3*q1 - 7;
+        q3 = 4.0/q2 + 111;
+    }
+    sw.Stop();
+    //sw.Stop();
+    var count = (coeff * iterations);
+    var dur = sw.Elapsed.As(Durations.Microsecond);
+    var durPer = (dur / count).To(Durations.Nanosecond);
+    var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue * dur.To(Durations.Second).RawValue;
+    var cpuCyclesPer = totalCpuCycles / count;
+    Console.WriteLine($"{count:n0} simple Quantity<T> equations took {dur} total time.");
+    Console.WriteLine($"{durPer} elapsed per equation.");
+    Console.WriteLine($"{totalCpuCycles:n0} total CPU cycles.");
+    Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per equation.");
     var q4 = q3.To(Temperatures.DegreesRéaumur);
 }
 

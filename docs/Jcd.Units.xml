@@ -265,6 +265,14 @@
             <typeparam name="TUnit">The type of the unit of measure.</typeparam>
             <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
         </member>
+        <member name="M:Jcd.Units.NumericExtensions.As(System.TimeSpan,Jcd.Units.UnitTypes.Duration)">
+            <summary>
+            Converts a TimeSpan to a Duration represented as the specified unit of measure.
+            </summary>
+            <param name="timeSpan">The <see cref="T:System.TimeSpan"/> to convert.</param>
+            <param name="timeUnit">The <see cref="T:Jcd.Units.UnitTypes.Duration"/> unit of measure to convert to.</param>
+            <returns></returns>
+        </member>
         <member name="T:Jcd.Units.Quantity`1">
             <summary>
             Represents a quantity with an associated unit of measure.
@@ -1156,6 +1164,11 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Durations.PlanckTime">
             <summary>
             A(n) planck-time. Defined in terms of a(n) yoctosecond.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Tick">
+            <summary>
+            A(n) tick. Defined in terms of a(n) nanosecond.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.Lengths">
