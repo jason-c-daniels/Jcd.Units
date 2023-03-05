@@ -16,6 +16,10 @@ var OneMillikelvinT = 1.As(Millikelvin);
 var OneKilokelvinT = 1.As(Kilokelvin);
 var OneThousandKelvinT = OneKilokelvinT.To(SI.Temperatures.DegreesKelvin);
 var OneThousandKelvinAndOneMillikelvinT = OneThousandKelvinT + OneMillikelvinT;
+var R2 = new Temperature("R2", "°Rø",SI.Temperatures.DegreesCelcius,21.0/40.0,-7.5);
+var zeroC = 0d.As(SI.Temperatures.DegreesCelcius);
+var zcinR2 = zeroC.To(R2);
+
 
 
 var allDurations = Durations.GetAll().ToList();

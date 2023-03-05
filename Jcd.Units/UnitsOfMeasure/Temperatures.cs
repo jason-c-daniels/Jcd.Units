@@ -15,14 +15,14 @@ public class Temperatures : Enumeration<Temperatures,Temperature>
 {
 
     /// <summary>
-    /// A(n) degrees rankine. Defined in terms of a(n) SI degrees celcius.
+    /// A(n) degrees rankine. Defined in terms of a(n) SI degrees kelvin.
     /// </summary>
-    public static readonly Temperature DegreesRankine = new ("degrees rankine", "°R", SI.Temperatures.DegreesCelcius, 5.0/9.0,-491.67);
+    public static readonly Temperature DegreesRankine = new ("degrees rankine", "°R", SI.Temperatures.DegreesKelvin, 5.0/9.0,0);
 
     /// <summary>
     /// A(n) degrees delisle. Defined in terms of a(n) SI degrees celcius.
     /// </summary>
-    public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelcius, 3.0/2.0,-150);
+    public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelcius, 1.0/1.5,100);
 
     /// <summary>
     /// A(n) degrees newton. Defined in terms of a(n) SI degrees celcius.
@@ -37,6 +37,6 @@ public class Temperatures : Enumeration<Temperatures,Temperature>
     /// <summary>
     /// A(n) degrees rømer. Defined in terms of a(n) SI degrees celcius.
     /// </summary>
-    public static readonly Temperature DegreesRømer = new ("degrees rømer", "°Rø", SI.Temperatures.DegreesCelcius, 1000.0/525.0,-7.5);
+    public static readonly Temperature DegreesRømer = new ("degrees rømer", "°Rø", SI.Temperatures.DegreesCelcius, 40.0/21.0,-7.5);
 
 }

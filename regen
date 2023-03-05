@@ -6,4 +6,6 @@ dotnet build
 dotnet run
 cd ../Jcd.Units
 dotnet build
+cd ../Jcd.Units.Examples
+dotnet build
 popd

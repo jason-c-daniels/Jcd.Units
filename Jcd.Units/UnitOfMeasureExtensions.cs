@@ -44,8 +44,9 @@ public static class UnitOfMeasureExtensions
     /// <param name="coefficient">The coefficient to normalize.</param>
     /// <typeparam name="TUnitType">The unit of measure type.</typeparam>
     /// <returns>The coefficient for the fundamental unit of measure.</returns>
-    public static double ComputeFundamentalCoefficient<TUnitType>(this IUnitOfMeasure<TUnitType> baseUnit, double coefficient) =>
-        baseUnit.Coefficient * coefficient;
+    public static double ComputeFundamentalCoefficient<TUnitType>(this TUnitType baseUnit, double coefficient) 
+        where TUnitType : IUnitOfMeasure<TUnitType>
+        => baseUnit.Coefficient * coefficient;
 /*
     /// <summary>
     /// Given a <paramref name="baseUnit"/> and an offset, calculate the equivalent
@@ -68,6 +69,10 @@ public static class UnitOfMeasureExtensions
     /// <param name="fundamentalCoefficient">The coefficient for converting to the fundamental unit of measure.</param>
     /// <typeparam name="TUnitType">The unit of measure type.</typeparam>
     /// <returns>The offset for the fundamental unit of measure.</returns>
-    public static double ComputeFundamentalOffset<TUnitType>(this IUnitOfMeasure<TUnitType> baseUnit, double fundamentalCoefficient, double offset)
-        => (baseUnit.Offset / fundamentalCoefficient) + (offset / fundamentalCoefficient);
+    public static double ComputeFundamentalOffset<TUnitType>(this TUnitType baseUnit,
+            double fundamentalCoefficient, double offset)
+        where TUnitType : IUnitOfMeasure<TUnitType>
+    {
+        return baseUnit.Offset == 0.0 && baseUnit.Coefficient == 1.0 ? offset : baseUnit.ToBaseUnitValue(offset)/fundamentalCoefficient;
+    }
 }

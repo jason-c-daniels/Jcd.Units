@@ -85,8 +85,8 @@ US Survey,Length,league,lea,False,SI,meter,4828.032,0,4
 ,Duration,sextillion years,Zyr,False,,quadrillion years,1000,0,13
 ,Duration,septillion years,Yyr,False,,sextillion years,1000,0,14
 ,Duration,planck-time,tP,False,,yoctosecond,5.39121E-20,0,15
-,Temperature,degrees rankine,°R,False,SI,degrees celcius,5.0/9.0,-491.67,1
-,Temperature,degrees delisle,°De,False,SI,degrees celcius,3.0/2.0,-150,2
+,Temperature,degrees rankine,°R,False,SI,degrees kelvin,5.0/9.0,0,1
+,Temperature,degrees delisle,°De,False,SI,degrees celcius,1.0/1.5,100,2
 ,Temperature,degrees newton,°N,False,SI,degrees celcius,100.0/33.0,0,3
 ,Temperature,degrees réaumur,°Ré,False,SI,degrees celcius,5.0/4.0,0,4
-,Temperature,degrees rømer,°Rø,False,SI,degrees celcius,1000.0/525.0,-7.5,5
+,Temperature,degrees rømer,°Rø,False,SI,degrees celcius,40.0/21.0,-7.5,5

@@ -580,7 +580,7 @@
             <param name="value">the denormalized value.</param>
             <typeparam name="TUnitType">The type of unit of measure (e.g. Length)</typeparam>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient``1(Jcd.Units.IUnitOfMeasure{``0},System.Double)">
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalCoefficient``1(``0,System.Double)">
             <summary>
             Given a <paramref name="baseUnit"/> and a coefficient, calculate the equivalent
             coefficient for the fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0) 
@@ -590,7 +590,7 @@
             <typeparam name="TUnitType">The unit of measure type.</typeparam>
             <returns>The coefficient for the fundamental unit of measure.</returns>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalOffset``1(Jcd.Units.IUnitOfMeasure{``0},System.Double,System.Double)">
+        <member name="M:Jcd.Units.UnitOfMeasureExtensions.ComputeFundamentalOffset``1(``0,System.Double,System.Double)">
             <summary>
             Given a <paramref name="baseUnit"/> and an offset, calculate the equivalent
             offset for the fundamental unit of measure. (i.e. the one with Coeff = 1 and Offset = 0) 
@@ -4598,7 +4598,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRankine">
             <summary>
-            A(n) degrees rankine. Defined in terms of a(n) SI degrees celcius.
+            A(n) degrees rankine. Defined in terms of a(n) SI degrees kelvin.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle">
