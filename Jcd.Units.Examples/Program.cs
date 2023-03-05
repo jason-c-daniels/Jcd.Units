@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System;
+using System.Diagnostics;
 using Jcd.Units;
 using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitsOfMeasure.Astronomical;
@@ -10,10 +11,19 @@ using USCustomary=Jcd.Units.UnitsOfMeasure.USCustomary;
 using USSurvey=Jcd.Units.UnitsOfMeasure.USSurvey;
 using Imperial=Jcd.Units.UnitsOfMeasure.Imperial;
 
+
 var K = SI.Temperatures.DegreesKelvin;
 var C = SI.Temperatures.DegreesCelcius;
 var F = USCustomary.Temperatures.DegreesFahrenheit;
+var degRa = Temperatures.DegreesRankine;
+var degN = Temperatures.DegreesNewton;
+var ré = Temperatures.DegreesRéaumur;
+var rø = Temperatures.DegreesRømer;
+var de = Temperatures.DegreesDelisle;
 
+
+TimeConversions(1_000_000);
+return 0;
 var Kilokelvin = new Temperature("Kilokelvin", "°kK", K, 1000.0);
 var Millikelvin = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0);
 var OneMillikelvinT = 1.As(Millikelvin);
@@ -75,11 +85,6 @@ var tempK = tempF.To(K);
 var tempK1 = tempF1.To(K);
 var tempK5 = tempF5.To(K);
 
-var degRa = Temperatures.DegreesRankine;
-var degN = Temperatures.DegreesNewton;
-var ré = Temperatures.DegreesRéaumur;
-var rø = Temperatures.DegreesRømer;
-var de = Temperatures.DegreesDelisle;
 
 var tempR = tempF.To(degRa);
 var tempR1 = tempF1.To(degRa);
@@ -179,6 +184,26 @@ Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinAndOneMillikelvinT} : 
 
 i = 100;
 
+void TimeConversions(int iterations)
+{
+    var q1 = 100.As(C);
+    var q2 = q1.To(F);
+    var q3 = q2.To(degRa);
+    var sw = Stopwatch.StartNew();
+    for (int i = 0; i < iterations; i++)
+    {
+        
+        q2 = q1.To(F);
+        q3 = q2.To(degRa);
+    }
+    sw.Stop();
+    var dur = sw.ElapsedMilliseconds.As(Durations.Millisecond).To(Durations.Microsecond);
+    var durPer = (dur / (2.0 * iterations)).To(Durations.Nanosecond);
+    Console.WriteLine($"{2 * iterations} conversion took {dur} total time.");
+    Console.WriteLine($"{durPer} elapsed per conversion.");
+    var q4 = q3.To(Temperatures.DegreesRéaumur);
+}
+
 class Int64ConversionComparer : IValueComparer<double>
 {
     /// <summary>
@@ -210,3 +235,4 @@ class Int64ConversionComparer : IValueComparer<double>
         return vi64.GetHashCode();
     }
 }
+

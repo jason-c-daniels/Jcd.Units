@@ -32,6 +32,33 @@ public static class NumericExtensions
     {
         return new Quantity<TUnit>(rawValue, unitOfMeasure);
     }
+
+    /// <summary>
+    /// Converts an <see cref="long"/> into a quantity using the specified unit of measure.
+    /// </summary>
+    /// <param name="rawValue">The <see cref="long"/> to convert.</param>
+    /// <param name="unitOfMeasure">The unit of measure to use.</param>
+    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+    /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
+    public static Quantity<TUnit> As<TUnit>(this long rawValue, TUnit unitOfMeasure)
+        where TUnit : UnitOfMeasure<TUnit>
+    {
+        return new Quantity<TUnit>(rawValue, unitOfMeasure);
+    }
+
+    /// <summary>
+    /// Converts a <see cref="ulong"/> into a quantity using the specified unit of measure.
+    /// </summary>
+    /// <param name="rawValue">The <see cref="ulong"/> to convert.</param>
+    /// <param name="unitOfMeasure">The unit of measure to use.</param>
+    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+    /// <returns>A new <see cref="Quantity{TUnit}"/> instance.</returns>
+    public static Quantity<TUnit> As<TUnit>(this ulong rawValue, TUnit unitOfMeasure)
+        where TUnit : UnitOfMeasure<TUnit>
+    {
+        return new Quantity<TUnit>(rawValue, unitOfMeasure);
+    }
+
     
     /// <summary>
     /// Converts an <see cref="int"/> into a quantity using the specified unit of measure.

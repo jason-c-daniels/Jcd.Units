@@ -193,6 +193,24 @@
             <typeparam name="TUnit">The type of the unit of measure.</typeparam>
             <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
         </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Int64,``0)">
+            <summary>
+            Converts an <see cref="T:System.Int64"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Int64"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.NumericExtensions.As``1(System.UInt64,``0)">
+            <summary>
+            Converts a <see cref="T:System.UInt64"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.UInt64"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
         <member name="M:Jcd.Units.NumericExtensions.As``1(System.Int32,``0)">
             <summary>
             Converts an <see cref="T:System.Int32"/> into a quantity using the specified unit of measure.
