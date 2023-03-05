@@ -95,7 +95,6 @@ where TUnit : UnitOfMeasure<TUnit>
     {
         // ReSharper disable once NonReadonlyMemberInGetHashCode
         var comparer = GetComparer();
-        
         return HashCode.Combine(comparer.GetHashCode(Coefficient), comparer.GetHashCode(Offset), typeof(TUnit));
     }
 
@@ -106,7 +105,6 @@ where TUnit : UnitOfMeasure<TUnit>
         sb.Append($"{Name} ({Symbol})");
         if (!ReferenceEquals(this, FundamentalUnit))
         {
-
             sb.Append($" [= {FundamentalUnit.Symbol}");
             // ReSharper disable once CompareOfFloatsByEqualityOperator
             if (Coefficient != 1.0 || Offset == 0.0) sb.Append($" × {(1.0 / Coefficient):n3}");
@@ -118,6 +116,7 @@ where TUnit : UnitOfMeasure<TUnit>
 
             sb.Append(']');
         }
+        
         return sb.ToString();
     }
 
