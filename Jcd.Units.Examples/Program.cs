@@ -16,7 +16,15 @@ var Hz = SI.Frequencies.Hertz;
 
 // NB: replace this with the correct GHz for your system.
 var CPU_FREQ_IN_HZ = 3.0.As(GHz).To(Hz);
-
+const int ITERATIONS =
+#if DEBUG
+        100_000
+#else
+        500_000_000
+#endif
+    ;
+var durs = Durations.GetAll().ToDictionary(x => x.Symbol);
+var ms = durs["ms"];
 var oneTick = 1.As(Durations.Tick);
 var oneTickInNs = oneTick.To(Durations.Nanosecond);
 var K = SI.Temperatures.DegreesKelvin;
@@ -186,9 +194,9 @@ Console.WriteLine($"{OneThousandKelvinT} == {OneThousandKelvinAndOneMillikelvinT
 Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}");
 
 Console.WriteLine();
-TimeConversions(500_000_000);
+TimeConversions(ITERATIONS);
 Console.WriteLine();
-TimeQuantityMath(500_000_000);
+TimeQuantityMath(ITERATIONS);
 return 0;
 
 i = 100;
