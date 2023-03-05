@@ -14,7 +14,7 @@ using Imperial=Jcd.Units.UnitsOfMeasure.Imperial;
 var GHz = SI.Frequencies.Gigahertz;
 var Hz = SI.Frequencies.Hertz;
 
-// NB: replace this with the correct Hz for your system.
+// NB: replace this with the correct GHz for your system.
 var CPU_FREQ_IN_HZ = 3.0.As(GHz).To(Hz);
 
 var oneTick = 1.As(Durations.Tick);
