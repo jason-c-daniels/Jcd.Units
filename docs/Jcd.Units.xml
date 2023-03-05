@@ -174,110 +174,6 @@
             as necessary during computations.
             </remarks>
         </member>
-        <member name="T:Jcd.Units.NumericExtensions">
-            <summary>
-            Some extension methods to make creating quantities using units of measures,
-            and converting among units of measure easier.
-            </summary>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Double,``0)">
-            <summary>
-            Converts a <see cref="T:System.Double"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Double"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Single,``0)">
-            <summary>
-            Converts a <see cref="T:System.Single"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Single"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Int64,``0)">
-            <summary>
-            Converts an <see cref="T:System.Int64"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Int64"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.UInt64,``0)">
-            <summary>
-            Converts a <see cref="T:System.UInt64"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.UInt64"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Int32,``0)">
-            <summary>
-            Converts an <see cref="T:System.Int32"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Int32"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.UInt32,``0)">
-            <summary>
-            Converts a <see cref="T:System.UInt32"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.UInt32"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Int16,``0)">
-            <summary>
-            Converts a <see cref="T:System.Int16"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Int16"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.UInt16,``0)">
-            <summary>
-            Converts a <see cref="T:System.UInt16"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.UInt16"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.SByte,``0)">
-            <summary>
-            Converts an <see cref="T:System.SByte"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.SByte"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As``1(System.Byte,``0)">
-            <summary>
-            Converts a <see cref="T:System.Byte"/> into a quantity using the specified unit of measure.
-            </summary>
-            <param name="rawValue">The <see cref="T:System.Byte"/> to convert.</param>
-            <param name="unitOfMeasure">The unit of measure to use.</param>
-            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
-            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
-        </member>
-        <member name="M:Jcd.Units.NumericExtensions.As(System.TimeSpan,Jcd.Units.UnitTypes.Duration)">
-            <summary>
-            Converts a <see cref="T:System.TimeSpan"/> to a <see cref="T:Jcd.Units.UnitTypes.Duration"/> represented as the specified unit of time.
-            </summary>
-            <param name="timeSpan">The <see cref="T:System.TimeSpan"/> to convert.</param>
-            <param name="timeUnit">The <see cref="T:Jcd.Units.UnitTypes.Duration"/> unit of measure to convert to.</param>
-            <returns></returns>
-        </member>
         <member name="T:Jcd.Units.Quantity`1">
             <summary>
             Represents a quantity with an associated unit of measure.
@@ -540,6 +436,110 @@
             <param name="left">the left hand operand</param>
             <param name="right">the right hand operand</param>
             <returns>true if <paramref name="left"/> is greater than or equal to <paramref name="right"/>; false otherwise.</returns>
+        </member>
+        <member name="T:Jcd.Units.QuantityFactoryExtensions">
+            <summary>
+            Some extension methods to make creating quantities using units of measures,
+            and converting among units of measure easier.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Double,``0)">
+            <summary>
+            Converts a <see cref="T:System.Double"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Double"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Single,``0)">
+            <summary>
+            Converts a <see cref="T:System.Single"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Single"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Int64,``0)">
+            <summary>
+            Converts an <see cref="T:System.Int64"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Int64"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.UInt64,``0)">
+            <summary>
+            Converts a <see cref="T:System.UInt64"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.UInt64"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Int32,``0)">
+            <summary>
+            Converts an <see cref="T:System.Int32"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Int32"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.UInt32,``0)">
+            <summary>
+            Converts a <see cref="T:System.UInt32"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.UInt32"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Int16,``0)">
+            <summary>
+            Converts a <see cref="T:System.Int16"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Int16"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.UInt16,``0)">
+            <summary>
+            Converts a <see cref="T:System.UInt16"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.UInt16"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.SByte,``0)">
+            <summary>
+            Converts an <see cref="T:System.SByte"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.SByte"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Byte,``0)">
+            <summary>
+            Converts a <see cref="T:System.Byte"/> into a quantity using the specified unit of measure.
+            </summary>
+            <param name="rawValue">The <see cref="T:System.Byte"/> to convert.</param>
+            <param name="unitOfMeasure">The unit of measure to use.</param>
+            <typeparam name="TUnit">The type of the unit of measure.</typeparam>
+            <returns>A new <see cref="T:Jcd.Units.Quantity`1"/> instance.</returns>
+        </member>
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.As(System.TimeSpan,Jcd.Units.UnitTypes.Duration)">
+            <summary>
+            Converts a <see cref="T:System.TimeSpan"/> to a <see cref="T:Jcd.Units.UnitTypes.Duration"/> represented as the specified unit of time.
+            </summary>
+            <param name="timeSpan">The <see cref="T:System.TimeSpan"/> to convert.</param>
+            <param name="timeUnit">The <see cref="T:Jcd.Units.UnitTypes.Duration"/> unit of measure to convert to.</param>
+            <returns></returns>
         </member>
         <member name="T:Jcd.Units.UnitOfMeasure`1">
             <summary>

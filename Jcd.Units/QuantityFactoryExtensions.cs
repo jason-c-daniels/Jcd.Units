@@ -10,7 +10,7 @@ namespace Jcd.Units;
 /// Some extension methods to make creating quantities using units of measures,
 /// and converting among units of measure easier.
 /// </summary>
-public static class NumericExtensions
+public static class QuantityFactoryExtensions
 {
     /// <summary>
     /// Converts a <see cref="double"/> into a quantity using the specified unit of measure.
