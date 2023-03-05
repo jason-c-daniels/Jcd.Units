@@ -7,23 +7,23 @@
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="Illuminance" /></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record Illuminance(string Name, string Symbol, double Coefficient=1, double Offset=0) 
-    : UnitOfMeasure<Illuminance>(Name,Symbol,Coefficient,Offset)
+public record Illuminance(string Name, string Symbol, double Coefficient = 1, double Offset = 0)
+         : UnitOfMeasure<Illuminance>(Name, Symbol, Coefficient, Offset)
 {
-    /// <summary>
-    /// Constructs a unit measuring a specified <see cref="Illuminance" /> using another <see cref="Illuminance" /> as a reference.
-    /// </summary>
-    /// <param name="name">The name of this unit</param>
-    /// <param name="symbol">The symbol or abbreviation to represent the <see cref="Illuminance" /></param>
-    /// <param name="baseUnit">The unit to use as a base</param>
-    /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
-    /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
-    public Illuminance(string name, string symbol, Illuminance baseUnit, double coefficient, double offset = 0) 
-        : this(name,symbol,coefficient,offset)
-    {
-        BaseUnit = baseUnit;
-        FundamentalUnit = baseUnit.FundamentalUnit;
-	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
-        Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
-    }
+   /// <summary>
+   /// Constructs a unit measuring a specified <see cref="Illuminance" /> using another <see cref="Illuminance" /> as a reference.
+   /// </summary>
+   /// <param name="name">The name of this unit</param>
+   /// <param name="symbol">The symbol or abbreviation to represent the <see cref="Illuminance" /></param>
+   /// <param name="baseUnit">The unit to use as a base</param>
+   /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
+   /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
+   public Illuminance(string name, string symbol, Illuminance baseUnit, double coefficient, double offset = 0)
+            : this(name, symbol, coefficient, offset)
+   {
+      BaseUnit        = baseUnit;
+      FundamentalUnit = baseUnit.FundamentalUnit;
+      Coefficient     = baseUnit.ComputeFundamentalCoefficient(coefficient);
+      Offset          = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
+   }
 }

@@ -1,4 +1,8 @@
-﻿using System.Collections.Generic;
+﻿#region
+
+using System.Collections.Generic;
+
+#endregion
 
 namespace Jcd.Units;
 
@@ -11,9 +15,6 @@ namespace Jcd.Units;
 /// that the implementation compares as equivalent.) and comparison implementations to provide
 /// application defined comparison operations. It's most useful for <see cref="float"/>, <see cref="double"/> and custom data types.
 /// </remarks>
-public interface IValueComparer<in T> : 
-    IComparer<T>, 
-    IEqualityComparer<T>
-{
-    
-}
+public interface IValueComparer<in T> :
+         IComparer<T>
+       , IEqualityComparer<T> { }

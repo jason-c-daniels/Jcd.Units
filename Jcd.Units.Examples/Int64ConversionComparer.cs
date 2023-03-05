@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Jcd.Units.Examples;
+﻿namespace Jcd.Units.Examples;
 
 /// <summary>
 /// An implementation of <see cref="IValueComparer{T}"/> for doubles, which
@@ -18,60 +16,60 @@ namespace Jcd.Units.Examples;
 /// </remarks>
 public class Int64ConversionComparer : IValueComparer<double>
 {
-    /// <summary>
-    /// The amount to multiply by before conversion and comparison.
-    /// </summary>
-    public double Factor { get; }
-    
-    /// <summary>
-    /// Constructs an <see cref="Int64ConversionComparer"/> instance with the given multiplication factor.
-    /// </summary>
-    /// <param name="factor">The multiplication factor</param>
-    public Int64ConversionComparer(double factor=1.0)
-    {
-        Factor = factor;
-    }
-    
-    /// <summary>
-    /// Performs the relational comparison on the params after converting to their <see cref="Int64"/> post-multiplication representation. 
-    /// </summary>
-    /// <param name="x">The left hand operand to compare.</param>
-    /// <param name="y">The right hand operand to compare.</param>
-    /// <returns>-1 if x &lt; y; 1 if x &gt; y; 0 if equivalent.</returns>
-    public int Compare(double x, double y)
-    {
-        var xi64 = ToInt64(x);
-        var yi64 = ToInt64(y);
-        return xi64.CompareTo(yi64);
-    }
+   /// <summary>
+   /// Constructs an <see cref="Int64ConversionComparer"/> instance with the given multiplication factor.
+   /// </summary>
+   /// <param name="factor">The multiplication factor</param>
+   public Int64ConversionComparer(double factor = 1.0)
+   {
+      Factor = factor;
+   }
 
-    /// <summary>
-    /// Performs the equivalence comparison on the params after converting to their <see cref="Int64"/> post-multiplication representation. 
-    /// </summary>
-    /// <param name="x">The left hand operand to compare.</param>
-    /// <param name="y">The right hand operand to compare.</param>
-    /// <returns>-1 if x &lt; y; 1 if x &gt; y; 0 if equivalent.</returns>
-    public bool Equals(double x, double y)
-    {
-        return Compare(x, y) == 0;
-    }
+   /// <summary>
+   /// The amount to multiply by before conversion and comparison.
+   /// </summary>
+   public double Factor { get; }
 
-    /// <summary>
-    /// Multiplies a value by the factor, then converts to an <see cref="Int64"/>
-    /// </summary>
-    /// <param name="dbl">the value to convert.</param>
-    /// <returns>The multiplied and converted value.</returns>
-    public long ToInt64(double dbl) => Convert.ToInt64(dbl*Factor);
-    
-    /// <summary>
-    /// Creates a stable hash code for a value based on the <see cref="Factor"/> used for
-    /// conversion and comparison.
-    /// </summary>
-    /// <param name="val">The value to create a hash code for.</param>
-    /// <returns>The hash code.</returns>
-    public int GetHashCode(double val)
-    {
-        var vi64 = ToInt64(val);
-        return vi64.GetHashCode();
-    }
+   /// <summary>
+   /// Performs the relational comparison on the params after converting to their <see cref="Int64"/> post-multiplication representation. 
+   /// </summary>
+   /// <param name="x">The left hand operand to compare.</param>
+   /// <param name="y">The right hand operand to compare.</param>
+   /// <returns>-1 if x &lt; y; 1 if x &gt; y; 0 if equivalent.</returns>
+   public int Compare(double x, double y)
+   {
+      var xi64 = ToInt64(x);
+      var yi64 = ToInt64(y);
+
+      return xi64.CompareTo(yi64);
+   }
+
+   /// <summary>
+   /// Performs the equivalence comparison on the params after converting to their <see cref="Int64"/> post-multiplication representation. 
+   /// </summary>
+   /// <param name="x">The left hand operand to compare.</param>
+   /// <param name="y">The right hand operand to compare.</param>
+   /// <returns>-1 if x &lt; y; 1 if x &gt; y; 0 if equivalent.</returns>
+   public bool Equals(double x, double y)
+      => Compare(x, y) == 0;
+
+   /// <summary>
+   /// Creates a stable hash code for a value based on the <see cref="Factor"/> used for
+   /// conversion and comparison.
+   /// </summary>
+   /// <param name="val">The value to create a hash code for.</param>
+   /// <returns>The hash code.</returns>
+   public int GetHashCode(double val)
+   {
+      var vi64 = ToInt64(val);
+
+      return vi64.GetHashCode();
+   }
+
+   /// <summary>
+   /// Multiplies a value by the factor, then converts to an <see cref="Int64"/>
+   /// </summary>
+   /// <param name="dbl">the value to convert.</param>
+   /// <returns>The multiplied and converted value.</returns>
+   public long ToInt64(double dbl) => Convert.ToInt64(dbl * Factor);
 }

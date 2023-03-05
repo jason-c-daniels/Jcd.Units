@@ -2,6 +2,6 @@
 
 public interface IReadOnlyRepository<out T>
 {
-    // ReSharper disable once UnusedMemberInSuper.Global
-    IReadOnlyList<T> GetAll();
+   // ReSharper disable once UnusedMemberInSuper.Global
+   IReadOnlyList<T> GetAll();
 }
