@@ -21,6 +21,8 @@ public record ElectricalPotential(string Name, string Symbol, double Coefficient
     public ElectricalPotential(string name, string symbol, ElectricalPotential baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

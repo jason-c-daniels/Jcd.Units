@@ -8,6 +8,7 @@ Base type to simplify creating a unit of measure. This type provides relational 
 ```csharp
 public abstract class UnitOfMeasure<TUnit> :
 Jcd.Units.IUnitOfMeasure<Jcd.Units.UnitOfMeasure<TUnit>>
+    where TUnit : Jcd.Units.IUnitOfMeasure<TUnit>
 ```
 #### Type parameters
 
@@ -55,8 +56,11 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](Jcd.Units.IUnitOfMeasure_TUnit_.md 'Jc
 
 | Properties | |
 | :--- | :--- |
+| [BaseUnit](Jcd.Units.UnitOfMeasure_TUnit_.BaseUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.BaseUnit') | The unit of measure this one was defined in terms of. |
 | [Coefficient](Jcd.Units.UnitOfMeasure_TUnit_.Coefficient.md 'Jcd.Units.UnitOfMeasure<TUnit>.Coefficient') | The unit's coefficient relative to the ultimate base unit's representation. |
 | [DefaultDoubleComparer](Jcd.Units.UnitOfMeasure_TUnit_.DefaultDoubleComparer.md 'Jcd.Units.UnitOfMeasure<TUnit>.DefaultDoubleComparer') | Sets the [IValueComparer&lt;T&gt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used by units of measure for this particular unit of<br/>measure type. (e.g. lengths.) |
+| [FundamentalUnit](Jcd.Units.UnitOfMeasure_TUnit_.FundamentalUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.FundamentalUnit') | The unit of measure all others are represented in terms of. |
+| [IsFundamentalUnit](Jcd.Units.UnitOfMeasure_TUnit_.IsFundamentalUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.IsFundamentalUnit') | Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0) |
 | [Name](Jcd.Units.UnitOfMeasure_TUnit_.Name.md 'Jcd.Units.UnitOfMeasure<TUnit>.Name') | The name of this unit |
 | [Offset](Jcd.Units.UnitOfMeasure_TUnit_.Offset.md 'Jcd.Units.UnitOfMeasure<TUnit>.Offset') | The offset used when computing values going to and from the base unit's representation. |
 | [Symbol](Jcd.Units.UnitOfMeasure_TUnit_.Symbol.md 'Jcd.Units.UnitOfMeasure<TUnit>.Symbol') | The symbol or abbreviation to represent the [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') |

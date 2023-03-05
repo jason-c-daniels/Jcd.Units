@@ -21,6 +21,8 @@ public record ElectricalConductance(string Name, string Symbol, double Coefficie
     public ElectricalConductance(string name, string symbol, ElectricalConductance baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

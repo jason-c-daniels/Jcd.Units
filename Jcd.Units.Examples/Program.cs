@@ -107,8 +107,8 @@ var tempC5 = (3+tempDe).To(Temperatures.DegreesCelcius);
 // if, in the example case of the length, you wanted square feet you'd first convert to feet, then multiply, then convert to square feet
 var i = 0;
 
-var T1 = new Temperature("degrees Celcius","C",1,0);
-var T2 = new Temperature("degrees Fahrenheit","deg. F",T1,5.0/9.0,-32);
+var T1 = new Temperature("degrees Celcius*","deg. C*",1,0);
+var T2 = new Temperature("degrees Fahrenheit*","deg. F*",T1,5.0/9.0,-32);
 var x = -T2.Offset;
 var T3 = new Temperature("degrees C+32", "C+32", T2, 1.0/T2.Coefficient, -((x-x*T2.Coefficient)/T2.Coefficient));
 var T4 = new Temperature("degrees Celcius (also)", "C*", T3, 1.0,32);

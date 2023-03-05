@@ -480,6 +480,21 @@
             measure type. (e.g. lengths.) 
             </summary>
         </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.FundamentalUnit">
+            <summary>
+            The unit of measure all others are represented in terms of.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.BaseUnit">
+            <summary>
+            The unit of measure this one was defined in terms of.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.IsFundamentalUnit">
+            <summary>
+            Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
+            </summary>
+        </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
             <summary>
             Constructs a <see cref="T:Jcd.Units.UnitOfMeasure`1" /> with optional <see cref="T:Jcd.Units.IValueComparer`1"/>
@@ -609,6 +624,11 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Amounts.Count">
             <summary>
             A(n) count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Amounts.Quantity">
+            <summary>
+            A(n) quantity. Defined in terms of a(n) count.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths">

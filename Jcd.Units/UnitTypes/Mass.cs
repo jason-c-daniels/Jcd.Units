@@ -21,6 +21,8 @@ public record Mass(string Name, string Symbol, double Coefficient=1, double Offs
     public Mass(string name, string symbol, Mass baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

@@ -21,6 +21,8 @@ public record Capacitance(string Name, string Symbol, double Coefficient=1, doub
     public Capacitance(string name, string symbol, Capacitance baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

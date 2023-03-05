@@ -19,4 +19,9 @@ public class Amounts : Enumeration<Amounts,Amount>
     /// </summary>
     public static readonly Amount Count = new ("count", "ct.");
 
+    /// <summary>
+    /// A(n) quantity. Defined in terms of a(n) count.
+    /// </summary>
+    public static readonly Amount Quantity = new ("quantity", "qty.", Count, 1,0);
+
 }

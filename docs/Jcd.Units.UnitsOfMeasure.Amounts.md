@@ -14,3 +14,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | Fields | |
 | :--- | :--- |
 | [Count](Jcd.Units.UnitsOfMeasure.Amounts.Count.md 'Jcd.Units.UnitsOfMeasure.Amounts.Count') | A(n) count. |
+| [Quantity](Jcd.Units.UnitsOfMeasure.Amounts.Quantity.md 'Jcd.Units.UnitsOfMeasure.Amounts.Quantity') | A(n) quantity. Defined in terms of a(n) count. |

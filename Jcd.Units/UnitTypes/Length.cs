@@ -21,6 +21,8 @@ public record Length(string Name, string Symbol, double Coefficient=1, double Of
     public Length(string name, string symbol, Length baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

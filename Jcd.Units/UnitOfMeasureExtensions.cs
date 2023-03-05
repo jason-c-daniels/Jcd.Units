@@ -47,18 +47,6 @@ public static class UnitOfMeasureExtensions
     public static double ComputeFundamentalCoefficient<TUnitType>(this TUnitType baseUnit, double coefficient) 
         where TUnitType : IUnitOfMeasure<TUnitType>
         => baseUnit.Coefficient * coefficient;
-/*
-    /// <summary>
-    /// Given a <paramref name="baseUnit"/> and an offset, calculate the equivalent
-    /// offset for the fundamental unit of measure. (i.e. the one with Coeff = 1 and Offset = 0) 
-    /// </summary>
-    /// <param name="baseUnit">The base unit of measure to use.</param>
-    /// <param name="offset">The offset to normalize.</param>
-    /// <typeparam name="TUnitType">The unit of measure type.</typeparam>
-    /// <returns>The offset for the fundamental unit of measure.</returns>
-    public static double ComputeFundamentalOffset<TUnitType>(this IUnitOfMeasure<TUnitType> baseUnit, double offset) =>
-        baseUnit.Coefficient * baseUnit.Offset + baseUnit.Coefficient * offset;
-*/
 
     /// <summary>
     /// Given a <paramref name="baseUnit"/> and an offset, calculate the equivalent

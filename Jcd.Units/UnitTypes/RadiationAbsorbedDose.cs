@@ -21,6 +21,8 @@ public record RadiationAbsorbedDose(string Name, string Symbol, double Coefficie
     public RadiationAbsorbedDose(string name, string symbol, RadiationAbsorbedDose baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

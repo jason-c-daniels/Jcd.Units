@@ -6,7 +6,7 @@
 Constructs a [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') with optional [IValueComparer&lt;T&gt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
 
 ```csharp
-public UnitOfMeasure(string name, string symbol, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
+protected UnitOfMeasure(string name, string symbol, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
 ```
 #### Parameters
 

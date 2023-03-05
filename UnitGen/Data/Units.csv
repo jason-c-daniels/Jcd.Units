@@ -69,6 +69,7 @@ US Survey,Length,chain,ch,False,SI,meter,20.1168,0,2
 US Survey,Length,furlong,fur,False,SI,meter,201.168,0,3
 US Survey,Length,league,lea,False,SI,meter,4828.032,0,4
 ,Amount,count,ct.,False,,count,1,0,0
+,Amount,quantity,qty.,False,,count,1,0,0
 ,Duration,second,s,True,,second,1,0,0
 ,Duration,minute,min,False,,second,60,0,1
 ,Duration,hour,hr,False,,minute,60,0,2

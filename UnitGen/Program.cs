@@ -44,7 +44,7 @@ bool EssentialDirectoriesAreMissing(out string jcdUnitsDirResult, out string jcd
 
     jcdUnitsDirResult = jcdUnitsTestsDirResult = string.Empty; // this shuts the compiler up.
 
-    Console.Error.WriteLine("Is gen-unit.exe in the correct directory (Any under the Jcd.Units solution directory)?");
+    Console.Error.WriteLine("Is unit-gen.exe in the correct directory (Any under the Jcd.Units solution directory)?");
     Console.Error.WriteLine("One or more essential directories could not be found.");
     Console.Error.WriteLine("ABORTING!");
     Console.WriteLine();

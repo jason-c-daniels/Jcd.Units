@@ -21,6 +21,8 @@ public record ElectricalCurrent(string Name, string Symbol, double Coefficient=1
     public ElectricalCurrent(string name, string symbol, ElectricalCurrent baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

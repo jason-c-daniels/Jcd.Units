@@ -21,6 +21,8 @@ public record RadiationEquivalentDose(string Name, string Symbol, double Coeffic
     public RadiationEquivalentDose(string name, string symbol, RadiationEquivalentDose baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

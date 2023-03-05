@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Jcd.Units;
 
@@ -9,8 +10,14 @@ namespace Jcd.Units;
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}"/></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double Coefficient=1, double Offset=0) 
+public abstract record UnitOfMeasure<TUnit>(
+        string Name, 
+        string Symbol,
+        double Coefficient=1, 
+        double Offset=0
+        ) 
     : IUnitOfMeasure<UnitOfMeasure<TUnit>>
+where TUnit : IUnitOfMeasure<TUnit>
 {
     /// <summary>
     /// Sets the <see cref="IValueComparer{Double}"/> used by units of measure for this particular unit of
@@ -21,6 +28,32 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
     
     private readonly IValueComparer<double>? _comparer;
 
+    private UnitOfMeasure<TUnit>? _fundamentalUnit;
+    private UnitOfMeasure<TUnit>? _baseUnit;
+
+    /// <summary>
+    /// The unit of measure all others are represented in terms of.
+    /// </summary>
+    public UnitOfMeasure<TUnit> FundamentalUnit
+    {
+        get => _fundamentalUnit ?? this;
+        protected init => _fundamentalUnit = value;
+    }
+
+    /// <summary>
+    /// The unit of measure this one was defined in terms of.
+    /// </summary>
+    public UnitOfMeasure<TUnit> BaseUnit
+    {
+        get => _baseUnit ?? this;
+        protected set => _baseUnit = value;
+    }
+
+    /// <summary>
+    /// Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
+    /// </summary>
+    public bool IsFundamentalUnit => ReferenceEquals(BaseUnit, this);
+    
     /// <summary>
     /// Constructs a <see cref="UnitOfMeasure{TUnit}" /> with optional <see cref="IValueComparer{Double}"/>
     /// </summary>
@@ -29,8 +62,13 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
     /// <param name="coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
     /// <param name="offset">The offset used when computing values going to and from the base unit's representation.</param>
     /// <param name="comparer">The <see cref="IValueComparer{Double}"/> to use in double comparisons.</param>
-    public UnitOfMeasure(string name, string symbol, double coefficient = 1, double offset = 0,
-        IValueComparer<double>? comparer = null) : this(name,symbol,coefficient,offset)
+    protected UnitOfMeasure(
+        string name, 
+        string symbol,
+        double coefficient = 1, 
+        double offset = 0,
+        IValueComparer<double>? comparer = null
+        ) : this(name,symbol,coefficient,offset)
     {
         _comparer = comparer;
     }
@@ -65,8 +103,23 @@ public abstract record UnitOfMeasure<TUnit>(string Name, string Symbol, double C
     /// <inheritdoc />
     public sealed override string ToString()
     {
-        var sign = Offset >= 0 ? '+' : '-';
-        return $"{Name}({Symbol})[= <fundamental-unit> × {Coefficient} {sign} {Math.Abs(Offset)}]";
+        var sb = new StringBuilder();
+        sb.Append($"{Name} ({Symbol})");
+        if (!ReferenceEquals(this, FundamentalUnit))
+        {
+
+            sb.Append($" [= {FundamentalUnit.Symbol}");
+            // ReSharper disable once CompareOfFloatsByEqualityOperator
+            if (Coefficient != 1.0 || Offset == 0.0) sb.Append($" × {(1.0 / Coefficient):n3}");
+            if (Offset != 0.0)
+            {
+                var sign = Offset <= 0 ? '+' : '-';
+                sb.Append($" {sign} {Math.Abs(Offset):n3}");
+            }
+
+            sb.Append(']');
+        }
+        return sb.ToString();
     }
 
     #endregion

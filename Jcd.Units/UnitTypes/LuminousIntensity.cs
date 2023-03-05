@@ -21,6 +21,8 @@ public record LuminousIntensity(string Name, string Symbol, double Coefficient=1
     public LuminousIntensity(string name, string symbol, LuminousIntensity baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }

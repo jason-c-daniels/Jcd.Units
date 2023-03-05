@@ -21,6 +21,8 @@ public record LuminousFlux(string Name, string Symbol, double Coefficient=1, dou
     public LuminousFlux(string name, string symbol, LuminousFlux baseUnit, double coefficient, double offset = 0) 
         : this(name,symbol,coefficient,offset)
     {
+        BaseUnit = baseUnit;
+        FundamentalUnit = baseUnit.FundamentalUnit;
 	    Coefficient = baseUnit.ComputeFundamentalCoefficient(coefficient);
         Offset = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
     }
