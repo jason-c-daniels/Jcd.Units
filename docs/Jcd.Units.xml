@@ -1180,14 +1180,29 @@
             A(n) quadrillion years. Defined in terms of a(n) trillion years.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.QuintillionYears">
+            <summary>
+            A(n) quintillion years. Defined in terms of a(n) quadrillion years.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Durations.SextillionYears">
             <summary>
-            A(n) sextillion years. Defined in terms of a(n) quadrillion years.
+            A(n) sextillion years. Defined in terms of a(n) quintillion years.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Durations.SeptillionYears">
             <summary>
             A(n) septillion years. Defined in terms of a(n) sextillion years.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.OctillionYears">
+            <summary>
+            A(n) octillion years. Defined in terms of a(n) septillion years.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.NonillionYears">
+            <summary>
+            A(n) nonillion years. Defined in terms of a(n) octillion years.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Durations.PlanckTime">

@@ -1,12 +1,12 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure.md 'Jcd.Units.UnitsOfMeasure').[Durations](Jcd.Units.UnitsOfMeasure.Durations.md 'Jcd.Units.UnitsOfMeasure.Durations')
 
-## Durations.SextillionYears Field
+## Durations.OctillionYears Field
 
-A(n) sextillion years. Defined in terms of a(n) quintillion years.
+A(n) octillion years. Defined in terms of a(n) septillion years.
 
 ```csharp
-public static readonly Duration SextillionYears;
+public static readonly Duration OctillionYears;
 ```
 
 #### Field Value

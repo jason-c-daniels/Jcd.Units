@@ -34,17 +34,20 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Millisecond](Jcd.Units.UnitsOfMeasure.Durations.Millisecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Millisecond') | A(n) millisecond. Defined in terms of a(n) centisecond. |
 | [Minute](Jcd.Units.UnitsOfMeasure.Durations.Minute.md 'Jcd.Units.UnitsOfMeasure.Durations.Minute') | A(n) minute. Defined in terms of a(n) second. |
 | [Nanosecond](Jcd.Units.UnitsOfMeasure.Durations.Nanosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Nanosecond') | A(n) nanosecond. Defined in terms of a(n) microsecond. |
+| [NonillionYears](Jcd.Units.UnitsOfMeasure.Durations.NonillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.NonillionYears') | A(n) nonillion years. Defined in terms of a(n) octillion years. |
+| [OctillionYears](Jcd.Units.UnitsOfMeasure.Durations.OctillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.OctillionYears') | A(n) octillion years. Defined in terms of a(n) septillion years. |
 | [Petasecond](Jcd.Units.UnitsOfMeasure.Durations.Petasecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Petasecond') | A(n) petasecond. Defined in terms of a(n) terasecond. |
 | [Picosecond](Jcd.Units.UnitsOfMeasure.Durations.Picosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Picosecond') | A(n) picosecond. Defined in terms of a(n) nanosecond. |
 | [PlanckTime](Jcd.Units.UnitsOfMeasure.Durations.PlanckTime.md 'Jcd.Units.UnitsOfMeasure.Durations.PlanckTime') | A(n) planck-time. Defined in terms of a(n) yoctosecond. |
 | [QuadrillionYears](Jcd.Units.UnitsOfMeasure.Durations.QuadrillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.QuadrillionYears') | A(n) quadrillion years. Defined in terms of a(n) trillion years. |
 | [Quectosecond](Jcd.Units.UnitsOfMeasure.Durations.Quectosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Quectosecond') | A(n) quectosecond. Defined in terms of a(n) rontosecond. |
 | [Quettasecond](Jcd.Units.UnitsOfMeasure.Durations.Quettasecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Quettasecond') | A(n) quettasecond. Defined in terms of a(n) ronnasecond. |
+| [QuintillionYears](Jcd.Units.UnitsOfMeasure.Durations.QuintillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.QuintillionYears') | A(n) quintillion years. Defined in terms of a(n) quadrillion years. |
 | [Ronnasecond](Jcd.Units.UnitsOfMeasure.Durations.Ronnasecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Ronnasecond') | A(n) ronnasecond. Defined in terms of a(n) yottasecond. |
 | [Rontosecond](Jcd.Units.UnitsOfMeasure.Durations.Rontosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Rontosecond') | A(n) rontosecond. Defined in terms of a(n) yoctosecond. |
 | [Second](Jcd.Units.UnitsOfMeasure.Durations.Second.md 'Jcd.Units.UnitsOfMeasure.Durations.Second') | A(n) second. |
 | [SeptillionYears](Jcd.Units.UnitsOfMeasure.Durations.SeptillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SeptillionYears') | A(n) septillion years. Defined in terms of a(n) sextillion years. |
-| [SextillionYears](Jcd.Units.UnitsOfMeasure.Durations.SextillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SextillionYears') | A(n) sextillion years. Defined in terms of a(n) quadrillion years. |
+| [SextillionYears](Jcd.Units.UnitsOfMeasure.Durations.SextillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SextillionYears') | A(n) sextillion years. Defined in terms of a(n) quintillion years. |
 | [Terasecond](Jcd.Units.UnitsOfMeasure.Durations.Terasecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Terasecond') | A(n) terasecond. Defined in terms of a(n) gigasecond. |
 | [Tick](Jcd.Units.UnitsOfMeasure.Durations.Tick.md 'Jcd.Units.UnitsOfMeasure.Durations.Tick') | A(n) tick. Defined in terms of a(n) nanosecond. |
 | [TrillionYears](Jcd.Units.UnitsOfMeasure.Durations.TrillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.TrillionYears') | A(n) trillion years. Defined in terms of a(n) billion years. |

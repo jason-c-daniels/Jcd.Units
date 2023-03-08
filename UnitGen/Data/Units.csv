@@ -83,10 +83,13 @@ US Survey,Length,league,lea,False,SI,meter,4828.032,0,4
 ,Duration,billion years,Gyr,False,,million years,1000,0,10
 ,Duration,trillion years,Tyr,False,,billion years,1000,0,11
 ,Duration,quadrillion years,Pyr,False,,trillion years,1000,0,12
-,Duration,sextillion years,Zyr,False,,quadrillion years,1000,0,13
-,Duration,septillion years,Yyr,False,,sextillion years,1000,0,14
-,Duration,planck-time,tP,False,,yoctosecond,5.39121E-20,0,15
-,Duration,tick,tick,False,,nanosecond,100,0,16
+,Duration,quintillion years,Eyr,False,,quadrillion years,1000,0,13
+,Duration,sextillion years,Zyr,False,,quintillion years,1000,0,14
+,Duration,septillion years,Yyr,False,,sextillion years,1000,0,15
+,Duration,octillion years,Ryr,False,,septillion years,1000,0,16
+,Duration,nonillion years,Qyr,False,,octillion years,1000,0,16
+,Duration,planck-time,tP,False,,yoctosecond,5.39121E-20,0,17
+,Duration,tick,tick,False,,nanosecond,100,0,25
 ,Temperature,degrees rankine,°R,False,SI,degrees kelvin,5.0/9.0,0,1
 ,Temperature,degrees delisle,°De,False,SI,degrees celcius,1.0/1.5,100,2
 ,Temperature,degrees newton,°N,False,SI,degrees celcius,100.0/33.0,0,3
