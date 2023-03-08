@@ -21,5 +21,5 @@ The other instance to compare against.
 -1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.
 
 ### Remarks
-The quantity with the smaller unit of measure is converted to the double representation of  
-the larger unit of measure before comparison.
+The quantity with the smaller unit of measure is converted to the larger unit of measure  
+before comparison.

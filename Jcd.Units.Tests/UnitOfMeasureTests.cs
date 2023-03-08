@@ -3,6 +3,7 @@
 using Jcd.Units.Tests.TestHarnesses;
 
 using Moq;
+
 // ReSharper disable UnusedVariable
 // ReSharper disable HeapView.BoxingAllocation
 #pragma warning disable CS8600
@@ -32,27 +33,6 @@ public class UnitOfMeasureTests
             DerivedUnit1 = new (DerivedUnit1Name, DerivedUnit1Symbol, BaseUnit, Du1C, Du1O);
 
    private static readonly UnitOfMeasure1 DerivedUnit2 = new (DerivedUnit2Name, DerivedUnit2Symbol, BaseUnit, -2);
-
-   [Theory]
-   [InlineData("Derived Unit 1", "du1", 2d, 2d)]
-   [InlineData("Derived Unit 2", "du2", 3.2d, 1.5d)]
-   public void Constructor_Sets_Properties_To_Expected_Values
-            (string name, string symbol, double coefficient, double offset)
-   {
-      const string buName   = "buName";
-      const string buSymbol = "bu";
-      var          bu       = new UnitOfMeasure1(buName, buSymbol);
-      Assert.Equal(buName, bu.Name);
-      Assert.Equal(buSymbol, bu.Symbol);
-      Assert.Equal(1.0, bu.Coefficient);
-      Assert.Equal(0.0, bu.Offset);
-
-      var du = new UnitOfMeasure1(name, symbol, bu, coefficient, offset);
-      Assert.Equal(name, du.Name);
-      Assert.Equal(symbol, du.Symbol);
-      Assert.Equal(coefficient, du.Coefficient);
-      Assert.Equal(offset, du.Offset);
-   }
 
    [Theory]
    [InlineData("Derived Alternate Base", "dab", 1d, 0d, true)]
@@ -109,10 +89,11 @@ public class UnitOfMeasureTests
    public void LessThan_Operator_Returns_Expected_Value
             (string name, string symbol, double coefficient, double offset, bool expectedResult)
    {
-      var du = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
+      var du  = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
+      var du1 = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
       Assert.Equal(expectedResult, du   < BaseUnit);
       Assert.False((UnitOfMeasure1)null < null);
-      Assert.False(du                   < du);
+      Assert.False(du                   < du1);
       Assert.False(null                 < du);
       Assert.False(du                   < null);
    }
@@ -124,10 +105,11 @@ public class UnitOfMeasureTests
    public void LessThan_Or_Equals_Operator_Returns_Expected_Value
             (string name, string symbol, double coefficient, double offset, bool expectedResult)
    {
-      var du = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
+      var du  = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
+      var du1 = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
       Assert.Equal(expectedResult, du   <= BaseUnit);
       Assert.False((UnitOfMeasure1)null <= null);
-      Assert.True(du                    <= du);
+      Assert.True(du                    <= du1);
       Assert.False(null                 <= du);
       Assert.False(du                   <= null);
    }
@@ -139,10 +121,11 @@ public class UnitOfMeasureTests
    public void GreaterThan_Operator_Returns_Expected_Value
             (string name, string symbol, double coefficient, double offset, bool expectedResult)
    {
-      var du = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
+      var du  = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
+      var du1 = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
       Assert.Equal(expectedResult, du   > BaseUnit);
       Assert.False((UnitOfMeasure1)null > null);
-      Assert.False(du                   > du);
+      Assert.False(du                   > du1);
       Assert.False(null                 > du);
       Assert.False(du                   > null);
    }
@@ -154,10 +137,11 @@ public class UnitOfMeasureTests
    public void GreaterThan_Or_Equals_Operator_Returns_Expected_Value
             (string name, string symbol, double coefficient, double offset, bool expectedResult)
    {
-      var du = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
+      var du  = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
+      var du1 = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
       Assert.Equal(expectedResult, du   >= BaseUnit);
       Assert.False((UnitOfMeasure1)null >= null);
-      Assert.True(du                    >= du);
+      Assert.True(du                    >= du1);
       Assert.False(null                 >= du);
       Assert.False(du                   >= null);
    }
@@ -353,4 +337,51 @@ public class UnitOfMeasureTests
          mockUomComparer2.Verify(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()), Times.Never);
       }
    }
+
+   #region Constructor Tests
+
+   [Theory]
+   [InlineData("Derived Unit 1", "du1", 2d, 2d)]
+   [InlineData("Derived Unit 2", "du2", 3.2d, 1.5d)]
+   public void Default_Constructor_Sets_Properties_To_Expected_Values
+            (string name, string symbol, double coefficient, double offset)
+   {
+      const string buName   = "buName";
+      const string buSymbol = "bu";
+      var          bu       = new UnitOfMeasure1(buName, buSymbol);
+      Assert.Equal(buName, bu.Name);
+      Assert.Equal(buSymbol, bu.Symbol);
+      Assert.Equal(1.0, bu.Coefficient);
+      Assert.Equal(0.0, bu.Offset);
+
+      var du = new UnitOfMeasure1(name, symbol, bu, coefficient, offset);
+      Assert.Equal(name, du.Name);
+      Assert.Equal(symbol, du.Symbol);
+      Assert.Equal(coefficient, du.Coefficient);
+      Assert.Equal(offset, du.Offset);
+   }
+
+   [Theory]
+   [InlineData("Derived Unit 1", "du1", 2d, 2d)]
+   [InlineData("Derived Unit 2", "du2", 3.2d, 1.5d)]
+   public void Comparer_Constructor_Sets_Properties_To_Expected_Values
+            (string name, string symbol, double coefficient, double offset)
+   {
+      const string buName = "buName";
+      const string buSymbol = "bu";
+      var          bu = new UnitOfMeasure1(buName, buSymbol, null, 1, 0, Int64ConversionComparer.SixDecimalPlaces);
+      Assert.Equal(buName, bu.Name);
+      Assert.Equal(buSymbol, bu.Symbol);
+      Assert.Equal(1.0, bu.Coefficient);
+      Assert.Equal(0.0, bu.Offset);
+
+      var du = new UnitOfMeasure1(name, symbol, bu, coefficient, offset, Int64ConversionComparer.SixDecimalPlaces);
+      Assert.Equal(name, du.Name);
+      Assert.Equal(symbol, du.Symbol);
+      Assert.Equal(coefficient, du.Coefficient);
+      Assert.Equal(offset, du.Offset);
+      Assert.Equal(Int64ConversionComparer.SixDecimalPlaces, du.Comparer);
+   }
+
+   #endregion
 }

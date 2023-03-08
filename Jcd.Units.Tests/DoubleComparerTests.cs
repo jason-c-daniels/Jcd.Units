@@ -1,4 +1,5 @@
 ﻿// ReSharper disable HeapView.BoxingAllocation
+
 namespace Jcd.Units.Tests;
 
 public class DoubleComparerTests

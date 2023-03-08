@@ -111,7 +111,9 @@ public class SourceCodeGenerator
 
    public void CreateUnitTypeFiles()
    {
-      var unitDefs = _unitDefRepo.GetUsedUnitTypes().ToList();
+      var unitDefs = _unitDefRepo.GetUsedUnitTypes()
+                                 .ToList();
+
       FSS.CreateDirectoryIfNeeded(_unitTypesDir);
 
       // generate the individual unit type files in UnitTypes (in the output directory)
@@ -126,7 +128,9 @@ public class SourceCodeGenerator
 
    public void CreateUnitOfMeasureFiles()
    {
-      var systemGroupings = _unitDefRepo.GetSystemToUnitTypeToUnitDefinitionGroupings().ToList();
+      var systemGroupings = _unitDefRepo.GetSystemToUnitTypeToUnitDefinitionGroupings()
+                                        .ToList();
+
       FSS.CreateDirectoryIfNeeded(_unitsOfMeasureDir);
 
       foreach (var systemGrouping in systemGroupings)
@@ -153,6 +157,7 @@ public class SourceCodeGenerator
 
          FSS.CreateDirectoryIfNeeded(uomWithNamespaceDir);
          var unitTypeGroupings = systemGrouping.ToList();
+
          foreach (var unitTypeGrouping in unitTypeGroupings)
          {
             var ut = unitTypeGrouping.First()

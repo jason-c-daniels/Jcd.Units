@@ -7,8 +7,8 @@
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure1" /></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record UnitOfMeasure1(string Name, string Symbol, double Coefficient = 1, double Offset = 0)
-         : UnitOfMeasure<UnitOfMeasure1>(Name, Symbol, Coefficient, Offset)
+public record UnitOfMeasure1
+         : UnitOfMeasure<UnitOfMeasure1> //(Name, Symbol, Coefficient, Offset)
 {
    /// <summary>
    /// Constructs a unit measuring a specified <see cref="UnitOfMeasure1" /> using another <see cref="UnitOfMeasure1" /> as a reference.
@@ -23,17 +23,19 @@ public record UnitOfMeasure1(string Name, string Symbol, double Coefficient = 1,
             (
             string name
           , string symbol
-          , UnitOfMeasure1 baseUnit
-          , double coefficient
+          , UnitOfMeasure1? baseUnit = null
+          , double coefficient = 1.0
           , double offset = 0
           , IValueComparer<double>? comparer = null
             )
-            : this(name, symbol, coefficient, offset)
+            : base(name, symbol, coefficient, offset)
    {
-      BaseUnit        = baseUnit;
-      FundamentalUnit = baseUnit.FundamentalUnit;
-      Coefficient     = baseUnit.ComputeFundamentalCoefficient(coefficient);
-      Offset          = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
+      Name            = name;
+      Symbol          = symbol;
+      BaseUnit        = baseUnit!;
+      FundamentalUnit = baseUnit?.FundamentalUnit!;
+      Coefficient     = baseUnit?.ComputeFundamentalCoefficient(coefficient)    ?? 1.0;
+      Offset          = baseUnit?.ComputeFundamentalOffset(Coefficient, offset) ?? 0;
       Comparer        = comparer;
    }
 }

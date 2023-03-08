@@ -1,6 +1,6 @@
 ﻿// ReSharper disable MemberCanBePrivate.Global
 
-namespace Jcd.Units.Examples;
+namespace Jcd.Units.Tests;
 
 /// <summary>
 /// An implementation of <see cref="IValueComparer{T}"/> for doubles, which
@@ -18,6 +18,28 @@ namespace Jcd.Units.Examples;
 /// </remarks>
 public class Int64ConversionComparer : IValueComparer<double>
 {
+   /// <summary>
+   /// The default, and particularly useless, comparer. It uses a Factor of 1.
+   /// This means it's functionally identical to a binary comparison, only with
+   /// more steps and CPU cycles consumed.
+   /// </summary>
+   public static Int64ConversionComparer Default = new ();
+
+   /// <summary>
+   /// Compares to three decimal places (base 10).
+   /// </summary>
+   public static Int64ConversionComparer ThreeDecimalPlaces = new (1000);
+
+   /// <summary>
+   /// Compares to six places (base 10).
+   /// </summary>
+   public static Int64ConversionComparer SixDecimalPlaces = new (1000 * 1000);
+
+   /// <summary>
+   /// Compares to nine decimal places (base 10).
+   /// </summary>
+   public static Int64ConversionComparer NineDecimalPlaces = new (1000 * 1000);
+
    /// <summary>
    /// Constructs an <see cref="Int64ConversionComparer"/> instance with the given multiplication factor.
    /// </summary>

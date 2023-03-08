@@ -43,11 +43,13 @@ public abstract record UnitOfMeasure<TUnit>
    /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}"/>
    /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
    /// </remarks>
+
    // ReSharper disable once MemberCanBeProtected.Global
    public IValueComparer<double>? Comparer
    {
       get => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
-      // ReSharper disable once PropertyCanBeMadeInitOnly.Global
+
+      // ReSharper disable once PropertyCanBeMadeInitOnly.Global, MemberCanBeProtected.Global 
       set => _comparer = value;
    }
 

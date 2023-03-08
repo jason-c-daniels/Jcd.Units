@@ -28,6 +28,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="rawValue">The numeric portion, without associated unit of measure</param>
    /// <param name="unit">The unit of measure.</param>
    /// <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
+
    // ReSharper disable once UnusedMember.Global
    public Quantity(double rawValue, TUnit unit, IValueComparer<double>? baseUnitComparer = null) :
             this(rawValue, unit)
@@ -50,6 +51,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}"/>
    /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
    /// </remarks>
+
    // ReSharper disable once MemberCanBeProtected.Global
    // ReSharper disable once MemberCanBePrivate.Global
    public IValueComparer<double>? Comparer => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
@@ -66,7 +68,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
 
       return new Quantity<TUnit>(dnv, targetUnit);
    }
-   
+
    #region Overrides of ValueType
 
    /// <summary>
@@ -74,7 +76,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <returns>The formatted string.</returns>
    public override string ToString() =>
-            ToString("n", CultureInfo.CurrentCulture); //$"{RawValue:n} {Unit.Symbol}";
+            ToString("n", CultureInfo.CurrentCulture);
 
    /// <summary>
    /// Outputs the number formatted according to the <paramref name="format"/>
@@ -333,22 +335,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="other">The other instance to compare against.</param>
    /// <returns>True if equivalent. False otherwise.</returns>
    public bool Equals(Quantity<TUnit> other)
-   {
-      var comparer   = Comparer!;
-      var targetUnit = Unit >= other.Unit ? Unit : other.Unit;
-
-      var ownValue = Unit == targetUnit
-               ? RawValue
-               : To(targetUnit)
-                       .RawValue;
-
-      var otherValue = other.Unit == targetUnit
-               ? other.RawValue
-               : other.To(targetUnit)
-                      .RawValue;
-
-      return comparer.Equals(ownValue, otherValue);
-   }
+      => CompareTo(other) == 0;
 
    /// <summary>
    /// Computes a hashcode for the quantity. So that numeric equivalence is maintained
@@ -358,11 +345,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <returns>The calculated hashcode.</returns>
    public override int GetHashCode()
-   {
-      var comparer = Comparer!;
-
-      return HashCode.Combine(comparer.GetHashCode(Unit.ToBaseUnitValue(RawValue)), typeof(Quantity<TUnit>));
-   }
+      => Comparer!.GetHashCode(
+                               To(Unit.FundamentalUnit)
+                                       .RawValue
+                              )
+       ^ HashCode.Combine(typeof(Quantity<TUnit>));
 
    #endregion
 
@@ -372,8 +359,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// Compares this instance to another <see cref="Quantity{TUnit}"/> instance for relative value.
    /// </summary>
    /// <remarks>
-   /// The quantity with the smaller unit of measure is converted to the double representation of
-   /// the larger unit of measure before comparison.
+   /// The quantity with the smaller unit of measure is converted to the larger unit of measure
+   /// before comparison.
    /// </remarks>
    /// <param name="other">The other instance to compare against.</param>
    /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>

@@ -401,8 +401,8 @@
             Compares this instance to another <see cref="T:Jcd.Units.Quantity`1"/> instance for relative value.
             </summary>
             <remarks>
-            The quantity with the smaller unit of measure is converted to the double representation of
-            the larger unit of measure before comparison.
+            The quantity with the smaller unit of measure is converted to the larger unit of measure
+            before comparison.
             </remarks>
             <param name="other">The other instance to compare against.</param>
             <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>

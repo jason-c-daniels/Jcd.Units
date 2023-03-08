@@ -9,6 +9,7 @@ using Jcd.Units.UnitsOfMeasure.SI;
 using Jcd.Units.UnitTypes;
 
 using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
+
 // ReSharper disable UnusedVariable
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
@@ -18,8 +19,13 @@ using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 
 #endregion
 
-var GHz = Frequencies.Gigahertz;
-var Hz  = Frequencies.Hertz;
+// define/reference the units in use in this program
+var GHz  = Frequencies.Gigahertz;
+var Hz   = Frequencies.Hertz;
+var km   = Lengths.Kilometer;
+var m    = Lengths.Meter;
+var cm   = Lengths.Centimeter;
+var inch = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch;
 
 // NB: replace this with the correct GHz for your system.
 var CPU_FREQ_IN_HZ = 3.0.As(GHz)
@@ -32,6 +38,17 @@ const int ITERATIONS =
         500_000_000
 #endif
          ;
+
+var externalCounter = 0;
+
+// this, as strange as it is *might* be valid, but I wouldn't be upset at a compiler error.
+for (var iii = 0;;)
+{
+   // do something
+   externalCounter++;
+
+   if (externalCounter > 100) break;
+}
 
 var durs = Durations.GetAll()
                     .ToDictionary(x => x.Symbol);
@@ -55,10 +72,21 @@ var durr      = 1.As(Durations.SeptillionYears);
 var sdurr = durr.To(Durations.PlanckTime)
                 .ToString("e3");
 
-var pS = 1.As(Durations.Second)
-          .To(Durations.PlanckTime);
+var tP  = Durations.PlanckTime;
+var sec = Durations.Second;
 
-var pSs = $"{pS:n0}";
+// create a duration of 1 second and express in planck-time units.
+var tP1s = 1.As(sec)
+            .To(tP);
+
+var tPs_string = $"{tP1s:n0}";
+
+var l1 = 1.As(Lengths.Kilometer);
+var l2 = l1 * 2;
+
+// Create an area from two lengths.
+// var sqkm=Areas.SquareKilometer;
+// var A  = (l1.To(km) * l2.To(km)).RawValue.As(sqkm);
 
 var Kilokelvin                          = new Temperature("Kilokelvin", "°kK", K, 1000.0);
 var Millikelvin                         = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0);
@@ -78,11 +106,6 @@ var allDurations = Durations.GetAll()
 Console.WriteLine("Hello, World!");
 var oneSec     = 1d.As(Durations.Second);
 var oneSecInMs = oneSec.To(Durations.Millisecond);
-
-var km   = Lengths.Kilometer;
-var m    = Lengths.Meter;
-var cm   = Lengths.Centimeter;
-var inch = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch;
 
 var meterQuantity   = 1d.As(m);
 var kmQuantity      = meterQuantity.To(km);
