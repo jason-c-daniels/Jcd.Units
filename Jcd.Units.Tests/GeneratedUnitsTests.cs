@@ -36,6 +36,7 @@ public class GeneratedUnitsTests
                      && baseType.GetGenericTypeDefinition() == typeof(Enumeration<,>)
                   select type;
 
+         // ReSharper disable once HeapView.ObjectAllocation.Possible
          foreach (var enumerationType in enumerationTypes)
          {
             // bind the GetAll method.
