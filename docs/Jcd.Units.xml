@@ -996,6 +996,96 @@
             A(n) quettaparsec. Defined in terms of a(n) ronnaparsec.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthRadius">
+            <summary>
+            A(n) earth radius. Defined in terms of a(n) SI kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarRadius">
+            <summary>
+            A(n) lunar radius. Defined in terms of a(n) SI kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsRadius">
+            <summary>
+            A(n) mars radius. Defined in terms of a(n) SI kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarRadius">
+            <summary>
+            A(n) solar radius. Defined in terms of a(n) SI kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthDiameter">
+            <summary>
+            A(n) earth diameter. Defined in terms of a(n) earth radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarDiameter">
+            <summary>
+            A(n) lunar diameter. Defined in terms of a(n) lunar radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsDiameter">
+            <summary>
+            A(n) mars diameter. Defined in terms of a(n) mars radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarDiameter">
+            <summary>
+            A(n) solar diameter. Defined in terms of a(n) solar radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthCircumference">
+            <summary>
+            A(n) earth circumference. Defined in terms of a(n) earth diameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarCircumference">
+            <summary>
+            A(n) lunar circumference. Defined in terms of a(n) lunar diameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsCircumference">
+            <summary>
+            A(n) mars circumference. Defined in terms of a(n) mars diameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarCircumference">
+            <summary>
+            A(n) solar circumference. Defined in terms of a(n) solar diameter.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.Masses">
+            <summary>
+            Astronomical Units for measuring Mass.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Masses.EarthMass">
+            <summary>
+            A(n) earth mass. Defined in terms of a(n) SI kilogram.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JupiterMass">
+            <summary>
+            A(n) jupiter mass. Defined in terms of a(n) SI kilogram.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass">
+            <summary>
+            A(n) lunar mass. Defined in terms of a(n) SI kilogram.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Masses.MarsMass">
+            <summary>
+            A(n) mars mass. Defined in terms of a(n) SI kilogram.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Masses.SolarMass">
+            <summary>
+            A(n) solar mass. Defined in terms of a(n) SI kilogram.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.NamespaceDoc">
             <summary>
             Provides units of measure for various Astronomical unit types.

@@ -302,4 +302,88 @@ public class Lengths : Enumeration<Lengths, Length>
    /// A(n) quettaparsec. Defined in terms of a(n) ronnaparsec.
    /// </summary>
    public static readonly Length Quettaparsec = new ("quettaparsec", "Qpc", Ronnaparsec, 1000, 0);
+
+   /// <summary>
+   /// A(n) earth radius. Defined in terms of a(n) SI kilometer.
+   /// </summary>
+   public static readonly Length EarthRadius = new ("earth radius", "R(⊕)", SI.Lengths.Kilometer, 6_371, 0);
+
+   /// <summary>
+   /// A(n) lunar radius. Defined in terms of a(n) SI kilometer.
+   /// </summary>
+   public static readonly Length LunarRadius = new ("lunar radius", "R(L)", SI.Lengths.Kilometer, 1_737.4, 0);
+
+   /// <summary>
+   /// A(n) mars radius. Defined in terms of a(n) SI kilometer.
+   /// </summary>
+   public static readonly Length MarsRadius = new ("mars radius", "R(♂)", SI.Lengths.Kilometer, 3_389.5, 0);
+
+   /// <summary>
+   /// A(n) solar radius. Defined in terms of a(n) SI kilometer.
+   /// </summary>
+   public static readonly Length SolarRadius = new ("solar radius", "R(☉)", SI.Lengths.Kilometer, 695_700, 0);
+
+   /// <summary>
+   /// A(n) earth diameter. Defined in terms of a(n) earth radius.
+   /// </summary>
+   public static readonly Length EarthDiameter = new ("earth diameter", "D(⊕)", EarthRadius, 2.0, 0);
+
+   /// <summary>
+   /// A(n) lunar diameter. Defined in terms of a(n) lunar radius.
+   /// </summary>
+   public static readonly Length LunarDiameter = new ("lunar diameter", "D(L)", LunarRadius, 2.0, 0);
+
+   /// <summary>
+   /// A(n) mars diameter. Defined in terms of a(n) mars radius.
+   /// </summary>
+   public static readonly Length MarsDiameter = new ("mars diameter", "D(♂)", MarsRadius, 2.0, 0);
+
+   /// <summary>
+   /// A(n) solar diameter. Defined in terms of a(n) solar radius.
+   /// </summary>
+   public static readonly Length SolarDiameter = new ("solar diameter", "D(☉)", SolarRadius, 2.0, 0);
+
+   /// <summary>
+   /// A(n) earth circumference. Defined in terms of a(n) earth diameter.
+   /// </summary>
+   public static readonly Length EarthCircumference = new (
+                                                           "earth circumference"
+                                                         , "C(⊕)"
+                                                         , EarthDiameter
+                                                         , 3.14159_26535_89793_23846
+                                                         , 0
+                                                          );
+
+   /// <summary>
+   /// A(n) lunar circumference. Defined in terms of a(n) lunar diameter.
+   /// </summary>
+   public static readonly Length LunarCircumference = new (
+                                                           "lunar circumference"
+                                                         , "C(L)"
+                                                         , LunarDiameter
+                                                         , 3.14159_26535_89793_23846
+                                                         , 0
+                                                          );
+
+   /// <summary>
+   /// A(n) mars circumference. Defined in terms of a(n) mars diameter.
+   /// </summary>
+   public static readonly Length MarsCircumference = new (
+                                                          "mars circumference"
+                                                        , "C(♂)"
+                                                        , MarsDiameter
+                                                        , 3.14159_26535_89793_23846
+                                                        , 0
+                                                         );
+
+   /// <summary>
+   /// A(n) solar circumference. Defined in terms of a(n) solar diameter.
+   /// </summary>
+   public static readonly Length SolarCircumference = new (
+                                                           "solar circumference"
+                                                         , "C(☉)"
+                                                         , SolarDiameter
+                                                         , 3.14159_26535_89793_23846
+                                                         , 0
+                                                          );
 }

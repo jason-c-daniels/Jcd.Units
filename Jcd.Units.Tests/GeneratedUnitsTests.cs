@@ -9,17 +9,8 @@ namespace Jcd.Units.Tests;
 
 public class GeneratedUnitsTests
 {
-   [Theory]
-   [MemberData(nameof(EnumerationsTypesAndUnitOfMeasureInstances))]
-   public void All_Enumerations_GetAll_Returns_NonEmpty_Collections(Type enumerationType, IEnumerable unitsOfMeasure)
-   {
-      Assert.NotNull(enumerationType);
-      Assert.NotNull(unitsOfMeasure);
-      Assert.NotEmpty(unitsOfMeasure);
-   }
-
    /// <summary>
-   /// Use reflection to 
+   /// Use reflection to call GetAll on all <see cref="Enumeration{TEnumeration,T}"/> derived types.
    /// </summary>
    public static IEnumerable<object[]> EnumerationsTypesAndUnitOfMeasureInstances
    {
@@ -49,5 +40,14 @@ public class GeneratedUnitsTests
             yield return new object[] { enumerationType, results! };
          }
       }
+   }
+
+   [Theory]
+   [MemberData(nameof(EnumerationsTypesAndUnitOfMeasureInstances))]
+   public void All_Enumerations_GetAll_Returns_NonEmpty_Collections(Type enumerationType, IEnumerable unitsOfMeasure)
+   {
+      Assert.NotNull(enumerationType);
+      Assert.NotNull(unitsOfMeasure);
+      Assert.NotEmpty(unitsOfMeasure);
    }
 }

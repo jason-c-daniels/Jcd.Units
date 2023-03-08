@@ -8,4 +8,7 @@ cd ../Jcd.Units
 dotnet build
 cd ../Jcd.Units.Examples
 dotnet build
+cd ../Jcd.Units.Tests
+dotnet build
+dotnet test
 popd

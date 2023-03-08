@@ -28,6 +28,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 Derived  
 &#8627; [Amounts](Jcd.Units.UnitsOfMeasure.Amounts.md 'Jcd.Units.UnitsOfMeasure.Amounts')  
 &#8627; [Lengths](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths')  
+&#8627; [Masses](Jcd.Units.UnitsOfMeasure.Astronomical.Masses.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses')  
 &#8627; [Durations](Jcd.Units.UnitsOfMeasure.Durations.md 'Jcd.Units.UnitsOfMeasure.Durations')  
 &#8627; [Lengths](Jcd.Units.UnitsOfMeasure.Imperial.Lengths.md 'Jcd.Units.UnitsOfMeasure.Imperial.Lengths')  
 &#8627; [Amounts](Jcd.Units.UnitsOfMeasure.SI.Amounts.md 'Jcd.Units.UnitsOfMeasure.SI.Amounts')  
