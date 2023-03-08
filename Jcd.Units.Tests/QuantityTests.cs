@@ -2,8 +2,6 @@
 
 using Jcd.Units.Tests.TestHarnesses;
 
-using Moq;
-
 #endregion
 
 namespace Jcd.Units.Tests;

@@ -2,8 +2,6 @@
 
 using Jcd.Units.Tests.TestHarnesses;
 
-using Moq;
-
 // ReSharper disable UnusedVariable
 // ReSharper disable HeapView.BoxingAllocation
 #pragma warning disable CS8600
