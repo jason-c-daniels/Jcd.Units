@@ -13,5 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Power(string, string, double, double)](Jcd.Units.UnitTypes.Power.Power(string,string,double,double).md 'Jcd.Units.UnitTypes.Power.Power(string, string, double, double)') | A measurement of the rate at which energy is transferred or converted. |
-| [Power(string, string, Power, double, double)](Jcd.Units.UnitTypes.Power.Power(string,string,Jcd.Units.UnitTypes.Power,double,double).md 'Jcd.Units.UnitTypes.Power.Power(string, string, Jcd.Units.UnitTypes.Power, double, double)') | Constructs a unit measuring a specified [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') using another [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') as a reference. |
+| [Power(string, string, Power, double, double, IValueComparer&lt;double&gt;)](Jcd.Units.UnitTypes.Power.Power(string,string,Jcd.Units.UnitTypes.Power,double,double,Jcd.Units.IValueComparer_double_).md 'Jcd.Units.UnitTypes.Power.Power(string, string, Jcd.Units.UnitTypes.Power, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') using another [Power](Jcd.Units.UnitTypes.Power.md 'Jcd.Units.UnitTypes.Power') as a reference. |

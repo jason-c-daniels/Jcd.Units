@@ -5,7 +5,6 @@
 // ReSharper disable ClassNeverInstantiated.Global
 // ReSharper disable UnusedType.Global
 
-
 namespace $BaseNamespace$$Subnamespace$;
 
 /// <summary>

@@ -10,6 +10,8 @@ using Jcd.Units.UnitTypes;
 
 using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 
+// ReSharper disable CommentTypo
+
 // ReSharper disable UnusedVariable
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo

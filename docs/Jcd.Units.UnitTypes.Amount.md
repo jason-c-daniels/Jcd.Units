@@ -13,5 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Amount(string, string, double, double)](Jcd.Units.UnitTypes.Amount.Amount(string,string,double,double).md 'Jcd.Units.UnitTypes.Amount.Amount(string, string, double, double)') | A measurement of an arbitrary quantity, number or value of something. |
-| [Amount(string, string, Amount, double, double)](Jcd.Units.UnitTypes.Amount.Amount(string,string,Jcd.Units.UnitTypes.Amount,double,double).md 'Jcd.Units.UnitTypes.Amount.Amount(string, string, Jcd.Units.UnitTypes.Amount, double, double)') | Constructs a unit measuring a specified [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') using another [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') as a reference. |
+| [Amount(string, string, Amount, double, double, IValueComparer&lt;double&gt;)](Jcd.Units.UnitTypes.Amount.Amount(string,string,Jcd.Units.UnitTypes.Amount,double,double,Jcd.Units.IValueComparer_double_).md 'Jcd.Units.UnitTypes.Amount.Amount(string, string, Jcd.Units.UnitTypes.Amount, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') using another [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') as a reference. |

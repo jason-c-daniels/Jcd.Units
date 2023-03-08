@@ -109,9 +109,13 @@ public class UnitOfMeasureTests
       var du1 = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
       Assert.Equal(expectedResult, du   <= BaseUnit);
       Assert.False((UnitOfMeasure1)null <= null);
-      Assert.True(du                    <= du1);
-      Assert.False(null                 <= du);
-      Assert.False(du                   <= null);
+
+      // prevent compiler from griping about comparing to self. This is intentional
+#pragma warning disable 1718
+      Assert.True(du <= du);
+#pragma warning restore 1718
+      Assert.False(null <= du);
+      Assert.False(du   <= null);
    }
 
    [Theory]
@@ -141,9 +145,13 @@ public class UnitOfMeasureTests
       var du1 = new UnitOfMeasure1(name, symbol, BaseUnit, coefficient, offset);
       Assert.Equal(expectedResult, du   >= BaseUnit);
       Assert.False((UnitOfMeasure1)null >= null);
-      Assert.True(du                    >= du1);
-      Assert.False(null                 >= du);
-      Assert.False(du                   >= null);
+
+      // prevent compiler from griping about comparing to self. This is intentional
+#pragma warning disable 1718
+      Assert.True(du >= du);
+#pragma warning restore 1718
+      Assert.False(null >= du);
+      Assert.False(du   >= null);
    }
 
    [Fact]

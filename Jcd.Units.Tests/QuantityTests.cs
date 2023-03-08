@@ -583,8 +583,12 @@ public class QuantityTests
 
       Assert.Equal(expectedValue, x.CompareTo(y));
       Assert.Equal(-1 * expectedValue, y.CompareTo(x));
+
+      // ReSharper disable HeapView.BoxingAllocation
       Assert.Equal(expectedValue, x.CompareTo((object)y));
       Assert.Equal(-1 * expectedValue, y.CompareTo((object)x));
+
+      // ReSharper restore HeapView.BoxingAllocation
    }
 
    [Theory]

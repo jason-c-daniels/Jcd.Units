@@ -3,6 +3,8 @@
 using System;
 using System.Text;
 
+// ReSharper disable MemberCanBePrivate.Global
+
 #endregion
 
 namespace Jcd.Units;
@@ -27,6 +29,35 @@ public abstract record UnitOfMeasure<TUnit>
    private readonly TUnit? _baseUnit;
    private readonly TUnit? _fundamentalUnit;
    private IValueComparer<double>? _comparer;
+
+   /// <summary>
+   /// Constructs a unit of measure using another <see cref="UnitOfMeasure{TUnit}" /> as a base.
+   /// </summary>
+   /// <param name="name">The name of this unit</param>
+   /// <param name="symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}" /></param>
+   /// <param name="baseUnit">The unit to use as a base</param>
+   /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
+   /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
+   /// <param name="comparer">The instance specific <see cref="IValueComparer{T}"/> used for comparisons.</param>
+   protected UnitOfMeasure
+            (
+            string name
+          , string symbol
+          , TUnit? baseUnit = null
+          , double coefficient = 1.0
+          , double offset = 0
+          , IValueComparer<double>? comparer = null
+            )
+            : this(name, symbol, coefficient, offset)
+   {
+      Name            = name;
+      Symbol          = symbol;
+      BaseUnit        = baseUnit!;
+      FundamentalUnit = baseUnit?.FundamentalUnit!;
+      Coefficient     = baseUnit?.ComputeFundamentalCoefficient(coefficient)    ?? 1.0;
+      Offset          = baseUnit?.ComputeFundamentalOffset(Coefficient, offset) ?? 0;
+      Comparer        = comparer;
+   }
 
    /// <summary>
    /// Sets the <see cref="IValueComparer{Double}"/> used by units of measure for this particular unit of

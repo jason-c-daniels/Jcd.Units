@@ -3,12 +3,7 @@
 /// <summary>
 /// A measurement of the total magnetic field which passes through a given area.
 /// </summary>
-/// <param name="Name">The name of this unit of measure.</param>
-/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="MagneticFlux" /></param>
-/// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
-/// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record MagneticFlux(string Name, string Symbol, double Coefficient = 1, double Offset = 0)
-         : UnitOfMeasure<MagneticFlux>(Name, Symbol, Coefficient, Offset)
+public record MagneticFlux : UnitOfMeasure<MagneticFlux>
 {
    /// <summary>
    /// Constructs a unit measuring a specified <see cref="MagneticFlux" /> using another <see cref="MagneticFlux" /> as a reference.
@@ -18,12 +13,15 @@ public record MagneticFlux(string Name, string Symbol, double Coefficient = 1, d
    /// <param name="baseUnit">The unit to use as a base</param>
    /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
    /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
-   public MagneticFlux(string name, string symbol, MagneticFlux baseUnit, double coefficient, double offset = 0)
-            : this(name, symbol, coefficient, offset)
-   {
-      BaseUnit        = baseUnit;
-      FundamentalUnit = baseUnit.FundamentalUnit;
-      Coefficient     = baseUnit.ComputeFundamentalCoefficient(coefficient);
-      Offset          = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
-   }
+   /// <param name="comparer">The instance specific <see cref="IValueComparer{T}"/> used for comparisons.</param>
+   public MagneticFlux
+            (
+            string name
+          , string symbol
+          , MagneticFlux? baseUnit = null
+          , double coefficient = 1.0
+          , double offset = 0
+          , IValueComparer<double>? comparer = null
+            )
+            : base(name, symbol, baseUnit, coefficient, offset, comparer) { }
 }

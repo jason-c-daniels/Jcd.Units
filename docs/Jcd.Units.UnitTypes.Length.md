@@ -13,5 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Length(string, string, double, double)](Jcd.Units.UnitTypes.Length.Length(string,string,double,double).md 'Jcd.Units.UnitTypes.Length.Length(string, string, double, double)') | A measure of a unit of distance. |
-| [Length(string, string, Length, double, double)](Jcd.Units.UnitTypes.Length.Length(string,string,Jcd.Units.UnitTypes.Length,double,double).md 'Jcd.Units.UnitTypes.Length.Length(string, string, Jcd.Units.UnitTypes.Length, double, double)') | Constructs a unit measuring a specified [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') using another [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') as a reference. |
+| [Length(string, string, Length, double, double, IValueComparer&lt;double&gt;)](Jcd.Units.UnitTypes.Length.Length(string,string,Jcd.Units.UnitTypes.Length,double,double,Jcd.Units.IValueComparer_double_).md 'Jcd.Units.UnitTypes.Length.Length(string, string, Jcd.Units.UnitTypes.Length, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') using another [Length](Jcd.Units.UnitTypes.Length.md 'Jcd.Units.UnitTypes.Length') as a reference. |

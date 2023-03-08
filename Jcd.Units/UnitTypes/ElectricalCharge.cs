@@ -3,12 +3,7 @@
 /// <summary>
 /// A measurement of the amount of electricity that a current carries for a given unit of time.
 /// </summary>
-/// <param name="Name">The name of this unit of measure.</param>
-/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="ElectricalCharge" /></param>
-/// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
-/// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
-public record ElectricalCharge(string Name, string Symbol, double Coefficient = 1, double Offset = 0)
-         : UnitOfMeasure<ElectricalCharge>(Name, Symbol, Coefficient, Offset)
+public record ElectricalCharge : UnitOfMeasure<ElectricalCharge>
 {
    /// <summary>
    /// Constructs a unit measuring a specified <see cref="ElectricalCharge" /> using another <see cref="ElectricalCharge" /> as a reference.
@@ -18,12 +13,15 @@ public record ElectricalCharge(string Name, string Symbol, double Coefficient = 
    /// <param name="baseUnit">The unit to use as a base</param>
    /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
    /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
-   public ElectricalCharge(string name, string symbol, ElectricalCharge baseUnit, double coefficient, double offset = 0)
-            : this(name, symbol, coefficient, offset)
-   {
-      BaseUnit        = baseUnit;
-      FundamentalUnit = baseUnit.FundamentalUnit;
-      Coefficient     = baseUnit.ComputeFundamentalCoefficient(coefficient);
-      Offset          = baseUnit.ComputeFundamentalOffset(Coefficient, offset);
-   }
+   /// <param name="comparer">The instance specific <see cref="IValueComparer{T}"/> used for comparisons.</param>
+   public ElectricalCharge
+            (
+            string name
+          , string symbol
+          , ElectricalCharge? baseUnit = null
+          , double coefficient = 1.0
+          , double offset = 0
+          , IValueComparer<double>? comparer = null
+            )
+            : base(name, symbol, baseUnit, coefficient, offset, comparer) { }
 }

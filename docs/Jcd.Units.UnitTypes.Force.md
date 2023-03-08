@@ -13,5 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Force(string, string, double, double)](Jcd.Units.UnitTypes.Force.Force(string,string,double,double).md 'Jcd.Units.UnitTypes.Force.Force(string, string, double, double)') | A measurement of the rate of change of momentum. |
-| [Force(string, string, Force, double, double)](Jcd.Units.UnitTypes.Force.Force(string,string,Jcd.Units.UnitTypes.Force,double,double).md 'Jcd.Units.UnitTypes.Force.Force(string, string, Jcd.Units.UnitTypes.Force, double, double)') | Constructs a unit measuring a specified [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') using another [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') as a reference. |
+| [Force(string, string, Force, double, double, IValueComparer&lt;double&gt;)](Jcd.Units.UnitTypes.Force.Force(string,string,Jcd.Units.UnitTypes.Force,double,double,Jcd.Units.IValueComparer_double_).md 'Jcd.Units.UnitTypes.Force.Force(string, string, Jcd.Units.UnitTypes.Force, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') using another [Force](Jcd.Units.UnitTypes.Force.md 'Jcd.Units.UnitTypes.Force') as a reference. |
