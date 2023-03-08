@@ -9,6 +9,7 @@ using Jcd.Units.UnitsOfMeasure.SI;
 using Jcd.Units.UnitTypes;
 
 using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
+using US = Jcd.Units.UnitsOfMeasure.USCustomary;
 
 // ReSharper disable CommentTypo
 
@@ -30,14 +31,14 @@ var cm   = Lengths.Centimeter;
 var inch = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch;
 
 // NB: replace this with the correct GHz for your system.
-var CPU_FREQ_IN_HZ = 3.0.As(GHz)
-                        .To(Hz);
+var CPU_FREQ       = 3.0.As(GHz);
+var CPU_FREQ_IN_HZ = CPU_FREQ.To(Hz);
 
 const int ITERATIONS =
 #if DEBUG
                   100_000
 #else
-        500_000_000
+                  500_000_000
 #endif
          ;
 
@@ -60,7 +61,7 @@ var oneTick     = 1.As(Durations.Tick);
 var oneTickInNs = oneTick.To(Durations.Nanosecond);
 var K           = Temperatures.DegreesKelvin;
 var C           = Temperatures.DegreesCelcius;
-var F           = Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.DegreesFahrenheit;
+var F           = US.Temperatures.DegreesFahrenheit;
 var degRa       = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRankine;
 var degN        = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton;
 var ré          = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur;
@@ -124,14 +125,14 @@ var oneLyInM        = oneLy.To(Lengths.Meter);
 var oneLyInKm2      = oneLyInM.To(Lengths.Kilometer);
 var oneLyInMm       = oneLy.To(Lengths.Millimeter);
 var oneUSInch       = 1.As(inch);
-var oneInchInPt     = oneUSInch.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Point);
+var oneInchInPt     = oneUSInch.To(US.Lengths.Point);
 var oneLink         = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
 var oneLinkAsInches = oneLink.To(inch);
 var oneLinkAsCm     = oneLink.To(cm);
 
-//var oneSurveyFoot = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Foot);
+//var oneSurveyFoot = 1.As(USSurvey.Lengths.Foot);
 //var oneSurveyFootAsCm = oneSurveyFoot.To(SI.Lengths.Centimeter);
-//var oneSurveyFootAsFoot = oneSurveyFoot.To(Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.Foot);
+//var oneSurveyFootAsFoot = oneSurveyFoot.To(US.Lengths.Foot);
 var oneRod        = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Rod);
 var oneRodInLinks = oneRod.To(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
 
@@ -309,7 +310,7 @@ void TimeConversions(int iterations)
                            .RawValue;
 
    var cpuCyclesPer = totalCpuCycles / count;
-   Console.WriteLine($"{count:n0} conversions took {dur:n3} total time.");
+   Console.WriteLine($"{count:n0} conversions took {dur:n3} total time on a {CPU_FREQ} processor.");
    Console.WriteLine($"{durPer:n3} elapsed per conversion.");
    Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
    Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per conversion.");
@@ -336,17 +337,16 @@ void TimeQuantityMath(int iterations)
    sw.Stop();
 
    var count  = coeff * iterations;
-   var dur    = sw.Elapsed.As(Durations.Microsecond);
-   var durPer = (dur / count).To(Durations.Nanosecond);
+   var dur    = sw.Elapsed.As(Durations.Nanosecond);
+   var durPer = dur / count;
 
    var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue
                       * dur.To(Durations.Second)
                            .RawValue;
 
    var cpuCyclesPer = totalCpuCycles / count;
-   Console.WriteLine($"{count:n0} simple Quantity<T> equations took {dur:n3} total time.");
+   Console.WriteLine($"{count:n0} simple Quantity<T> equations took {dur:n3} total time on a {CPU_FREQ} processor.");
    Console.WriteLine($"{durPer:n3} elapsed per equation.");
    Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
    Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per equation.");
-   var q4 = q3.To(Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur);
 }
