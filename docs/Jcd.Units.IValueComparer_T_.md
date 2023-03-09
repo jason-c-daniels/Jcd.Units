@@ -17,7 +17,7 @@ public interface IValueComparer<in T>
 The datatype being compared
 
 Derived  
-&#8627; [BitwiseDoubleComparer](Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.md 'Jcd.Units.DoubleComparisons.BitwiseDoubleComparer')
+&#8627; [BitwiseDoubleComparer](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.md 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer')
 
 ### Remarks
 This type is used to provide stable hash codes (i.e. hash codes that are identical for values  

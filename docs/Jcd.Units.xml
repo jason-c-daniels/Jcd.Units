@@ -4,12 +4,12 @@
         <name>Jcd.Units</name>
     </assembly>
     <members>
-        <member name="T:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer">
+        <member name="T:Jcd.Units.DoubleComparison.BitwiseDoubleComparer">
             <summary>
             Performs standard, compiler provided, comparison operations against two doubles.
             </summary>
         </member>
-        <member name="M:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.Compare(System.Double,System.Double)">
+        <member name="M:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(System.Double,System.Double)">
             <summary>
             Compares two doubles by the compiler provided default. This carries with it all the concerns
             of doing raw double comparisons. This is provided as a default mechanism to kickstart
@@ -24,13 +24,13 @@
             <param name="y">the right hand operand</param>
             <returns>-1 if <paramref name="x"/> is less than <paramref name="y"/>, 0 if they're equal and 1 if <paramref name="x"/> is greater than <paramref name="y"/></returns>
         </member>
-        <member name="F:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.Default">
+        <member name="F:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Default">
             <summary>
             The default instance. Use this instead of constantly creating new ones. It's easier
             on the garbage collector.
             </summary>
         </member>
-        <member name="M:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.Equals(System.Double,System.Double)">
+        <member name="M:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Equals(System.Double,System.Double)">
             <summary>
             Compares two doubles for equality.
             </summary>
@@ -38,12 +38,12 @@
             <param name="y">A value to compare.</param>
             <returns>true if both are equal, false otherwise.</returns>
         </member>
-        <member name="M:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.GetHashCode(System.Double)">
+        <member name="M:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.GetHashCode(System.Double)">
             <inheritdoc />
         </member>
-        <member name="T:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy">
+        <member name="T:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy">
             <summary>
-            Provides global fallback double comparison strategies used by <see cref="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.Quantity"/> and <see cref="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.UnitOfMeasure"/>.
+            Provides global fallback double comparison strategies used by <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity"/> and <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure"/>.
             </summary>
             <remarks>
             For performance reasons the properties within are not thread safe.
@@ -51,12 +51,12 @@
             Your comparison results may be very unstable, even with proper thread synchronization.
             </remarks>
         </member>
-        <member name="F:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.Default">
+        <member name="F:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Default">
             <summary>
             The default (bitwise) double comparer. You really should use something else.
             </summary>
         </member>
-        <member name="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.Quantity">
+        <member name="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity">
             <summary>
             The registered double comparer used by Quantities, by default. 
             </summary>
@@ -64,9 +64,9 @@
             This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
             </remarks>
         </member>
-        <member name="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.UnitOfMeasure">
+        <member name="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure">
             <summary>
-            The globally registered double comparer used for comparing <see cref="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.UnitOfMeasure"/> instances. It's unlikely that you will actually need to set this to anything other than the default (bitwise comparison)
+            The globally registered double comparer used for comparing <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure"/> instances. It's unlikely that you will actually need to set this to anything other than the default (bitwise comparison)
             </summary>
             <remarks>
             This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
@@ -219,7 +219,6 @@
             <param name="rawValue">The numeric portion, without associated unit of measure</param>
             <param name="unit">The unit of measure.</param>
             <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
-            <param name="comparisonUnitSelector">Selects the unit of measure to use for comparisons.</param>
         </member>
         <member name="P:Jcd.Units.Quantity`1.DefaultDoubleComparer">
             <summary>
@@ -748,7 +747,7 @@
             </summary>
             <remarks>
             NOTES:
-            1. Before changing this consider if this will impact the DoubleComparers you have registered (either in <see cref="T:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy"/>'s <c>Quantity</c> property, or instance level registrations.
+            1. Before changing this consider if this will impact the DoubleComparers you have registered (either in <see cref="T:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy"/>'s <c>Quantity</c> property, or instance level registrations.
             (i.e. if the operands are converted to a unit with greater or fewer digits after the decimal point, your comparisons may not return the expected results. Always do trial runs first to ensure the expected behavior.)
             
             2. This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.

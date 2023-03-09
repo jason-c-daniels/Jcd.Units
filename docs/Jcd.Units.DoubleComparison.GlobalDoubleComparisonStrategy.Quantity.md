@@ -1,5 +1,5 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units.DoubleComparisons](Jcd.Units.DoubleComparisons.md 'Jcd.Units.DoubleComparisons').[GlobalDoubleComparisonStrategy](Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.md 'Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy')
+### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[GlobalDoubleComparisonStrategy](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy')
 
 ## GlobalDoubleComparisonStrategy.Quantity Property
 

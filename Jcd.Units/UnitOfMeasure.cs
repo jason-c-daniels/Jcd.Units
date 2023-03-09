@@ -6,6 +6,12 @@
 
 #endregion
 
+#region
+
+using Jcd.Units.DoubleComparison;
+
+#endregion
+
 namespace Jcd.Units;
 
 /// <summary>

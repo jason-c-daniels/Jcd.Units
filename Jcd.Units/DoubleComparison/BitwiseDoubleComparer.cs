@@ -1,4 +1,4 @@
-﻿namespace Jcd.Units.DoubleComparisons;
+﻿namespace Jcd.Units.DoubleComparison;
 
 /// <summary>
 /// Performs standard, compiler provided, comparison operations against two doubles.

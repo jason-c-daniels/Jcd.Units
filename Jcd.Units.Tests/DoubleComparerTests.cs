@@ -2,7 +2,7 @@
 
 #region
 
-using Jcd.Units.DoubleComparisons;
+using Jcd.Units.DoubleComparison;
 
 #endregion
 

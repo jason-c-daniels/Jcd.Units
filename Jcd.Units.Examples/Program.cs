@@ -26,14 +26,14 @@ var GHz  = Frequencies.Gigahertz;
 var Hz   = Frequencies.Hertz;
 
 // NB: replace this with the correct GHz for your system.
-var CPU_FREQ       = 3.0.As(GHz);
+var CPU_FREQ       = 3.4.As(GHz);
 var CPU_FREQ_IN_HZ = CPU_FREQ.To(Hz);
 
 const int ITERATIONS =
 #if DEBUG
-                  500_000
+                  50_000
 #else
-                  500_000 //_000
+                  500_000_000
 #endif
          ;
 
@@ -45,13 +45,8 @@ var degN  = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton;
 var ré    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur;
 var rø    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer;
 var de    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle;
-         ;
-Console.WriteLine();
-TimeConversions(ITERATIONS);
-Console.WriteLine();
-TimeQuantityMath(ITERATIONS);
+         
 
-return 0;
 
 var km     = Lengths.Kilometer;
 var m      = Lengths.Meter;
@@ -283,6 +278,10 @@ Console.WriteLine(
                   $"{OneKilokelvinT:n3} == {OneThousandKelvinAndOneMillikelvinT:n3} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}"
                  );
 
+Console.WriteLine();
+TimeConversions(ITERATIONS);
+Console.WriteLine();
+TimeQuantityMath(ITERATIONS);
 return 0;
 
 i = 100;
@@ -342,8 +341,8 @@ void TimeQuantityMath(int iterations)
    sw.Stop();
 
    var count  = coeff * iterations;
-   var dur    = sw.Elapsed.As(Durations.Nanosecond);
-   var durPer = dur / count;
+   var dur    = sw.Elapsed.As(Durations.Microsecond);
+   var durPer = (dur / count).To(Durations.Nanosecond);
 
    var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue
                       * dur.To(Durations.Second)

@@ -1,4 +1,10 @@
-﻿namespace Jcd.Units.UnitSelection;
+﻿#region
+
+using Jcd.Units.DoubleComparison;
+
+#endregion
+
+namespace Jcd.Units.UnitSelection;
 
 /// <summary>
 /// Globally registered 

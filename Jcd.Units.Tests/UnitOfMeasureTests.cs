@@ -1,6 +1,6 @@
 #region
 
-using Jcd.Units.DoubleComparisons;
+using Jcd.Units.DoubleComparison;
 using Jcd.Units.Tests.TestHarnesses;
 
 // ReSharper disable UnusedVariable

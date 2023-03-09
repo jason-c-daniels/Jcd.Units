@@ -1,9 +1,9 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units.DoubleComparisons](Jcd.Units.DoubleComparisons.md 'Jcd.Units.DoubleComparisons').[GlobalDoubleComparisonStrategy](Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.md 'Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy')
+### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[GlobalDoubleComparisonStrategy](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy')
 
 ## GlobalDoubleComparisonStrategy.UnitOfMeasure Property
 
-The globally registered double comparer used for comparing [UnitOfMeasure](Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.UnitOfMeasure') instances. It's unlikely that you will actually need to set this to anything other than the default (bitwise comparison)
+The globally registered double comparer used for comparing [UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure') instances. It's unlikely that you will actually need to set this to anything other than the default (bitwise comparison)
 
 ```csharp
 public static Jcd.Units.IValueComparer<double>? UnitOfMeasure { get; set; }

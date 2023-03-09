@@ -1,6 +1,6 @@
 ﻿// ReSharper disable HeapView.BoxingAllocation
 
-namespace Jcd.Units.DoubleComparisons;
+namespace Jcd.Units.DoubleComparison;
 
 /// <summary>
 /// Provides global fallback double comparison strategies used by <see cref="Quantity"/> and <see cref="UnitOfMeasure"/>.

@@ -2,6 +2,8 @@
 
 using System.Globalization;
 
+using Jcd.Units.DoubleComparison;
+
 // ReSharper disable StaticMemberInGenericType
 
 #endregion
@@ -31,7 +33,6 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="rawValue">The numeric portion, without associated unit of measure</param>
    /// <param name="unit">The unit of measure.</param>
    /// <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
-   /// <param name="comparisonUnitSelector">Selects the unit of measure to use for comparisons.</param>
    public Quantity
             (
             double rawValue
@@ -87,7 +88,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>The new quantity represented as the new unit of measure.</returns>
    public Quantity<TUnit> To(TUnit targetUnit)
    {
-      if (Unit == targetUnit) return this;
+      if (ReferenceEquals(Unit, targetUnit)) return this;
       var nv  = Unit.ToBaseUnitValue(RawValue);
       var dnv = targetUnit.FromBaseUnitValue(nv);
 
