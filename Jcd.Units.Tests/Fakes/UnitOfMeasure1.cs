@@ -1,8 +1,4 @@
-﻿#region
-
-#endregion
-
-namespace Jcd.Units.Tests.TestHarnesses;
+﻿namespace Jcd.Units.Tests.Fakes;
 
 /// <summary>
 /// A test harness for validating 

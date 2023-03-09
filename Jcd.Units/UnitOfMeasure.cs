@@ -1,13 +1,5 @@
 ﻿#region
 
-
-
-// ReSharper disable MemberCanBePrivate.Global
-
-#endregion
-
-#region
-
 using Jcd.Units.DoubleComparison;
 
 #endregion

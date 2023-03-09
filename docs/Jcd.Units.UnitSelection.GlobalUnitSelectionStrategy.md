@@ -11,6 +11,10 @@ public static class GlobalUnitSelectionStrategy
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; GlobalUnitSelectionStrategy
 
+| Fields | |
+| :--- | :--- |
+| [Default](Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.Default.md 'Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.Default') | The default strategy used in selecting a unit of measure for comparison and/or arithmetic operations. |
+
 | Properties | |
 | :--- | :--- |
 | [ForArithmetic](Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.ForArithmetic.md 'Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.ForArithmetic') | The globally registered Unit of Measure selection strategy used for arithmetic operators.<br/>Results will be returned in the unit of measure selected by this unit selection strategy.<br/>By default this is the [SelectLargerUnit](Jcd.Units.UnitSelection.SelectLargerUnit.md 'Jcd.Units.UnitSelection.SelectLargerUnit') implementation. |

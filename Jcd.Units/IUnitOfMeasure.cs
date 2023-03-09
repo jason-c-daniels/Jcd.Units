@@ -1,11 +1,3 @@
-#region
-
-
-
-// ReSharper disable UnusedMemberInSuper.Global
-
-#endregion
-
 // ReSharper disable UnusedMember.Global
 
 namespace Jcd.Units;

@@ -10,6 +10,7 @@ using Jcd.Units.UnitTypes;
 
 using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 using US = Jcd.Units.UnitsOfMeasure.USCustomary;
+
 // ReSharper disable CommentTypo
 
 // ReSharper disable UnusedVariable
@@ -22,8 +23,8 @@ using US = Jcd.Units.UnitsOfMeasure.USCustomary;
 #endregion
 
 // define/reference the units in use in this program
-var GHz  = Frequencies.Gigahertz;
-var Hz   = Frequencies.Hertz;
+var GHz = Frequencies.Gigahertz;
+var Hz  = Frequencies.Hertz;
 
 // NB: replace this with the correct GHz for your system.
 var CPU_FREQ       = 3.4.As(GHz);
@@ -45,8 +46,6 @@ var degN  = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton;
 var ré    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur;
 var rø    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer;
 var de    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle;
-         
-
 
 var km     = Lengths.Kilometer;
 var m      = Lengths.Meter;
@@ -54,7 +53,6 @@ var cm     = Lengths.Centimeter;
 var biInch = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch;
 var usInch = US.Lengths.Inch;
 var usPt   = US.Lengths.Point;
-
 
 var durs = Durations.GetAll()
                     .ToDictionary(x => x.Symbol);
@@ -282,6 +280,7 @@ Console.WriteLine();
 TimeConversions(ITERATIONS);
 Console.WriteLine();
 TimeQuantityMath(ITERATIONS);
+
 return 0;
 
 i = 100;

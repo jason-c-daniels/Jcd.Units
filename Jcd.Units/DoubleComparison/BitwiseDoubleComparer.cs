@@ -25,7 +25,7 @@ public struct BitwiseDoubleComparer : IValueComparer<double>
    /// The default instance. Use this instead of constantly creating new ones. It's easier
    /// on the garbage collector.
    /// </summary>
-   public static readonly BitwiseDoubleComparer Default = new ();
+   public static readonly BitwiseDoubleComparer Instance = new ();
 
    /// <summary>
    /// Compares two doubles for equality.

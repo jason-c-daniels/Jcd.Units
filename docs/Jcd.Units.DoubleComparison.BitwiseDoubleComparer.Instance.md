@@ -1,13 +1,13 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[BitwiseDoubleComparer](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.md 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer')
 
-## BitwiseDoubleComparer.Default Field
+## BitwiseDoubleComparer.Instance Field
 
 The default instance. Use this instead of constantly creating new ones. It's easier  
 on the garbage collector.
 
 ```csharp
-public static readonly BitwiseDoubleComparer Default;
+public static readonly BitwiseDoubleComparer Instance;
 ```
 
 #### Field Value

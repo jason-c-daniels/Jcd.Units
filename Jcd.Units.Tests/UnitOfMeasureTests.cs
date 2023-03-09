@@ -1,7 +1,7 @@
 #region
 
 using Jcd.Units.DoubleComparison;
-using Jcd.Units.Tests.TestHarnesses;
+using Jcd.Units.Tests.Fakes;
 
 // ReSharper disable UnusedVariable
 // ReSharper disable HeapView.BoxingAllocation
@@ -292,7 +292,7 @@ public class UnitOfMeasureTests
 
          UnitOfMeasure1.DefaultDoubleComparer         = mockUomComparer1.Object;
          GlobalDoubleComparisonStrategy.UnitOfMeasure = mockUomComparer2.Object;
-         GlobalDoubleComparisonStrategy.Quantity      = BitwiseDoubleComparer.Default;
+         GlobalDoubleComparisonStrategy.Quantity      = BitwiseDoubleComparer.Instance;
 
          // act
          var comparison = DerivedUnit2.CompareTo(DerivedUnit1);

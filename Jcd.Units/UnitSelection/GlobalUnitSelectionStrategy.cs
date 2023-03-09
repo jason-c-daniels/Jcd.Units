@@ -11,8 +11,13 @@ namespace Jcd.Units.UnitSelection;
 /// </summary>
 public static class GlobalUnitSelectionStrategy
 {
-   private static IUnitSelectionStrategy _forArithmetic = SelectLargerUnit.Instance;
-   private static IUnitSelectionStrategy _forComparison = SelectLargerUnit.Instance;
+   /// <summary>
+   /// The default strategy used in selecting a unit of measure for comparison and/or arithmetic operations.
+   /// </summary>
+   public static readonly IUnitSelectionStrategy Default = SelectLargerUnit.Instance;
+
+   private static IUnitSelectionStrategy _forArithmetic = Default;
+   private static IUnitSelectionStrategy _forComparison = Default;
 
    /// <summary>
    /// The globally registered Unit of Measure selection strategy used for arithmetic operators.

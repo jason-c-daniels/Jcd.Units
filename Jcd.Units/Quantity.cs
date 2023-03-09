@@ -22,10 +22,9 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
        , IComparable
          where TUnit : UnitOfMeasure<TUnit>
 {
-   private readonly IValueComparer<double>? _comparer = null;
-
    private static IUnitSelectionStrategy? _comparisonUnitSelector = null;
    private static IUnitSelectionStrategy? _arithmeticUnitSelector = null;
+   private readonly IValueComparer<double>? _comparer = null;
 
    /// <summary>
    /// Represents a quantity with an associated unit of measure.
@@ -69,7 +68,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
       get => _arithmeticUnitSelector ?? GlobalUnitSelectionStrategy.ForArithmetic;
       set => _arithmeticUnitSelector = value;
    }
-   
+
    /// <summary>
    /// The <see cref="IValueComparer{T}"/> used for comparisons: where <c>T</c> is a <see cref="double"/>.
    /// </summary>
@@ -80,7 +79,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    public IValueComparer<double>? Comparer => _comparer
                                            ?? DefaultDoubleComparer
                                            ?? GlobalDoubleComparisonStrategy.UnitOfMeasure;
-   
+
    /// <summary>
    /// Converts the quantity from its current unit of measure to the target unit of measure.
    /// </summary>
@@ -89,6 +88,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    public Quantity<TUnit> To(TUnit targetUnit)
    {
       if (ReferenceEquals(Unit, targetUnit)) return this;
+
       var nv  = Unit.ToBaseUnitValue(RawValue);
       var dnv = targetUnit.FromBaseUnitValue(nv);
 
@@ -180,7 +180,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
 
       return x.To(targetUnit)
               .RawValue
-           + y.To(targetUnit);   
+           + y.To(targetUnit);
    }
 
    /// <summary>
@@ -195,7 +195,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
 
       return x.To(targetUnit)
               .RawValue
-           - y.To(targetUnit);   
+           - y.To(targetUnit);
    }
 
    /// <summary>
@@ -210,7 +210,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
 
       return x.To(targetUnit)
               .RawValue
-           * y.To(targetUnit);   
+           * y.To(targetUnit);
    }
 
    /// <summary>
@@ -226,7 +226,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
 
       return x.To(targetUnit)
               .RawValue
-           / y.To(targetUnit);   
+           / y.To(targetUnit);
    }
 
    #endregion

@@ -4,9 +4,9 @@ using Jcd.Units.DoubleComparison;
 
 #endregion
 
-namespace Jcd.Units.Tests;
+namespace Jcd.Units.Tests.DoubleComparison;
 
-public class BitwiseDoubleComparerTests
+public class DoubleComparerTests
 {
    [Theory]
    [InlineData(0.0, 0.1, -1)]
@@ -14,7 +14,7 @@ public class BitwiseDoubleComparerTests
    [InlineData(0.1, 0.0, 1)]
    public void Compare_Returns_Expected_Value(double x, double y, int expected)
    {
-      var cmp = BitwiseDoubleComparer.Default;
+      var cmp = BitwiseDoubleComparer.Instance;
       Assert.Equal(expected, cmp.Compare(x, y));
    }
 
@@ -24,7 +24,7 @@ public class BitwiseDoubleComparerTests
    [InlineData(0.1, 0.0, false)]
    public void Equals_Returns_Expected_Value(double x, double y, bool expected)
    {
-      var cmp = BitwiseDoubleComparer.Default;
+      var cmp = BitwiseDoubleComparer.Instance;
       Assert.Equal(expected, cmp.Equals(x, y));
    }
 
@@ -34,7 +34,7 @@ public class BitwiseDoubleComparerTests
    [InlineData(0.1)]
    public void GetHashCode_Returns_Expected_Value(double x)
    {
-      var cmp = BitwiseDoubleComparer.Default;
+      var cmp = BitwiseDoubleComparer.Instance;
       Assert.Equal(x.GetHashCode(), cmp.GetHashCode(x));
    }
 }

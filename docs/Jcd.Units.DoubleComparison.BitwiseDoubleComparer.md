@@ -14,7 +14,7 @@ Implements [Jcd.Units.IValueComparer&lt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Un
 
 | Fields | |
 | :--- | :--- |
-| [Default](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Default.md 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Default') | The default instance. Use this instead of constantly creating new ones. It's easier<br/>on the garbage collector. |
+| [Instance](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Instance.md 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Instance') | The default instance. Use this instead of constantly creating new ones. It's easier<br/>on the garbage collector. |
 
 | Methods | |
 | :--- | :--- |

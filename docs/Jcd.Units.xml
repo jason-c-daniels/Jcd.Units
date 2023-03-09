@@ -24,7 +24,7 @@
             <param name="y">the right hand operand</param>
             <returns>-1 if <paramref name="x"/> is less than <paramref name="y"/>, 0 if they're equal and 1 if <paramref name="x"/> is greater than <paramref name="y"/></returns>
         </member>
-        <member name="F:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Default">
+        <member name="F:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Instance">
             <summary>
             The default instance. Use this instead of constantly creating new ones. It's easier
             on the garbage collector.
@@ -727,6 +727,11 @@
         <member name="T:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy">
             <summary>
             Globally registered 
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.Default">
+            <summary>
+            The default strategy used in selecting a unit of measure for comparison and/or arithmetic operations.
             </summary>
         </member>
         <member name="P:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.ForArithmetic">

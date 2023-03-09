@@ -12,6 +12,11 @@ namespace Jcd.Units.UnitSelection;
 public sealed class SelectLeftUnit : IUnitSelectionStrategy
 {
    /// <summary>
+   /// The default (and only) instance of this <see cref="IUnitSelectionStrategy"/>.
+   /// </summary>
+   public static readonly SelectLeftUnit Instance = new ();
+
+   /// <summary>
    /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance"/> enforcing GC friendliness.)
    /// </summary>
    private SelectLeftUnit() { }
@@ -27,9 +32,4 @@ public sealed class SelectLeftUnit : IUnitSelectionStrategy
    public TUnit SelectUnit<TUnit>(TUnit left, TUnit right)
             where TUnit : IUnitOfMeasure<TUnit>
       => left;
-
-   /// <summary>
-   /// The default (and only) instance of this <see cref="IUnitSelectionStrategy"/>.
-   /// </summary>
-   public static readonly SelectLeftUnit Instance = new ();
 }

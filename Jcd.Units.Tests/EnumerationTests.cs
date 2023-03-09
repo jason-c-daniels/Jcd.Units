@@ -1,6 +1,6 @@
 ﻿#region
 
-using Jcd.Units.Tests.TestHarnesses;
+using Jcd.Units.Tests.Fakes;
 
 #endregion
 
