@@ -1,7 +1,6 @@
 ﻿#region
 
-using System;
-using System.Text;
+
 
 // ReSharper disable MemberCanBePrivate.Global
 
@@ -78,7 +77,7 @@ public abstract record UnitOfMeasure<TUnit>
    // ReSharper disable once MemberCanBeProtected.Global
    public IValueComparer<double>? Comparer
    {
-      get => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
+      get => _comparer ?? DefaultDoubleComparer ?? GlobalDoubleComparisonStrategy.UnitOfMeasure;
 
       // ReSharper disable once PropertyCanBeMadeInitOnly.Global, MemberCanBeProtected.Global 
       set => _comparer = value;

@@ -5,6 +5,8 @@
 | Namespaces | |
 | :--- | :--- |
 | [Jcd.Units](Jcd.Units.md 'Jcd.Units') | Provides a quantity type ([Quantity&lt;TUnit&gt;](Jcd.Units.Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')) and various simple [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')<br/>implementations to facilitate relatively type and unit of measure safe arithmetic. |
+| [Jcd.Units.DoubleComparisons](Jcd.Units.DoubleComparisons.md 'Jcd.Units.DoubleComparisons') | |
+| [Jcd.Units.UnitSelection](Jcd.Units.UnitSelection.md 'Jcd.Units.UnitSelection') | |
 | [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure.md 'Jcd.Units.UnitsOfMeasure') | Provides units of measure for various unit types. |
 | [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical.md 'Jcd.Units.UnitsOfMeasure.Astronomical') | Provides units of measure for various Astronomical unit types. |
 | [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial') | Provides units of measure for various Imperial unit types. |

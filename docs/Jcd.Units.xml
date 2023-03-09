@@ -4,12 +4,12 @@
         <name>Jcd.Units</name>
     </assembly>
     <members>
-        <member name="T:Jcd.Units.BitwiseDoubleComparer">
+        <member name="T:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer">
             <summary>
             Performs standard, compiler provided, comparison operations against two doubles.
             </summary>
         </member>
-        <member name="M:Jcd.Units.BitwiseDoubleComparer.Compare(System.Double,System.Double)">
+        <member name="M:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.Compare(System.Double,System.Double)">
             <summary>
             Compares two doubles by the compiler provided default. This carries with it all the concerns
             of doing raw double comparisons. This is provided as a default mechanism to kickstart
@@ -24,13 +24,13 @@
             <param name="y">the right hand operand</param>
             <returns>-1 if <paramref name="x"/> is less than <paramref name="y"/>, 0 if they're equal and 1 if <paramref name="x"/> is greater than <paramref name="y"/></returns>
         </member>
-        <member name="F:Jcd.Units.BitwiseDoubleComparer.Default">
+        <member name="F:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.Default">
             <summary>
             The default instance. Use this instead of constantly creating new ones. It's easier
             on the garbage collector.
             </summary>
         </member>
-        <member name="M:Jcd.Units.BitwiseDoubleComparer.Equals(System.Double,System.Double)">
+        <member name="M:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.Equals(System.Double,System.Double)">
             <summary>
             Compares two doubles for equality.
             </summary>
@@ -38,23 +38,39 @@
             <param name="y">A value to compare.</param>
             <returns>true if both are equal, false otherwise.</returns>
         </member>
-        <member name="M:Jcd.Units.BitwiseDoubleComparer.GetHashCode(System.Double)">
+        <member name="M:Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.GetHashCode(System.Double)">
             <inheritdoc />
         </member>
-        <member name="T:Jcd.Units.DoubleComparer">
+        <member name="T:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy">
             <summary>
-            Provides both default and registrable ways of comparing doubles used within this subsystem.
+            Provides global fallback double comparison strategies used by <see cref="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.Quantity"/> and <see cref="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.UnitOfMeasure"/>.
+            </summary>
+            <remarks>
+            For performance reasons the properties within are not thread safe.
+            As well it's a bad practice to set these frequently in separate threads.
+            Your comparison results may be very unstable, even with proper thread synchronization.
+            </remarks>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.Default">
+            <summary>
+            The default (bitwise) double comparer. You really should use something else.
             </summary>
         </member>
-        <member name="P:Jcd.Units.DoubleComparer.Quantity">
+        <member name="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.Quantity">
             <summary>
             The registered double comparer used by Quantities, by default. 
             </summary>
+            <remarks>
+            This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
+            </remarks>
         </member>
-        <member name="P:Jcd.Units.DoubleComparer.UnitOfMeasure">
+        <member name="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.UnitOfMeasure">
             <summary>
-            The registered double comparer used by UnitOfMeasure instances, by default.
+            The globally registered double comparer used for comparing <see cref="P:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy.UnitOfMeasure"/> instances. It's unlikely that you will actually need to set this to anything other than the default (bitwise comparison)
             </summary>
+            <remarks>
+            This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
+            </remarks>
         </member>
         <member name="T:Jcd.Units.Enumeration`2">
             <summary>
@@ -154,14 +170,14 @@
         </member>
         <member name="T:Jcd.Units.IValueComparer`1">
             <summary>
-            Defines the interface needed to perform value comparisons within a quantity or UnitOfMeasure type.
+            Defines a marker interface used to enforce providing both relational (CompareTo) and equality comparisons on a given type.
             </summary>
             <typeparam name="T">The datatype being compared</typeparam>
             <remarks>
             This type is used to provide stable hash codes (i.e. hash codes that are identical for values
             that the implementation compares as equivalent.) and comparison implementations to provide
             application defined comparison operations. It's most useful for <see cref="T:System.Single"/>, <see cref="T:System.Double"/> and custom data types.
-            </remarks>
+            </remarks> 
         </member>
         <member name="T:Jcd.Units.NamespaceDoc">
             <summary>
@@ -203,11 +219,24 @@
             <param name="rawValue">The numeric portion, without associated unit of measure</param>
             <param name="unit">The unit of measure.</param>
             <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
+            <param name="comparisonUnitSelector">Selects the unit of measure to use for comparisons.</param>
         </member>
         <member name="P:Jcd.Units.Quantity`1.DefaultDoubleComparer">
             <summary>
-            Sets the <see cref="T:Jcd.Units.IValueComparer`1"/> used by quantities for the particular unit of
-            measure type. (e.g. lengths.) 
+            Sets the default <see cref="T:Jcd.Units.IValueComparer`1"/> used by quantities for the particular unit of
+            measure type. (e.g. lengths.)
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.ComparisonUnitSelector">
+            <summary>
+            The <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/> used by quantities of the particular unit of
+            measure type (e.g. lengths) to select which unit of measure will be used to perform comparisons.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.Quantity`1.ArithmeticUnitSelector">
+            <summary>
+            The <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/> used by quantities of the particular unit of
+            measure type (e.g. lengths) to select which unit of measure will be returned from arithmetic operations.
             </summary>
         </member>
         <member name="P:Jcd.Units.Quantity`1.Comparer">
@@ -389,10 +418,10 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.GetHashCode">
             <summary>
-            Computes a hashcode for the quantity. So that numeric equivalence is maintained
+            Computes a hashcode for the quantity, so that numeric equivalence is maintained
             regardless of precise unit of measure is used, the hashcode is calculated on
-            the base unit representation. TUnit is included in the hashcode to ensure
-            that differing units do not compare the same.
+            the fundamental unit representation. TUnit is included in the hashcode to ensure
+            that differing units do not hash the same.
             </summary>
             <returns>The calculated hashcode.</returns>
         </member>
@@ -695,6 +724,169 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.ComputeFundamentalOffset(System.Double,System.Double)">
             <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1"/> 
+        </member>
+        <member name="T:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy">
+            <summary>
+            Globally registered 
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.ForArithmetic">
+            <summary>
+            The globally registered Unit of Measure selection strategy used for arithmetic operators.
+            Results will be returned in the unit of measure selected by this unit selection strategy.
+            By default this is the <see cref="T:Jcd.Units.UnitSelection.SelectLargerUnit"/> implementation.
+            </summary>
+            <remarks>
+            This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
+            </remarks>
+        </member>
+        <member name="P:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.ForComparison">
+            <summary>
+            The globally registered Unit of Measure selection strategy used for comparison operators.
+            Operands will be compared in the units selected by this unit selection strategy.
+            By default this is the <see cref="T:Jcd.Units.UnitSelection.SelectLargerUnit"/> implementation.
+            </summary>
+            <remarks>
+            NOTES:
+            1. Before changing this consider if this will impact the DoubleComparers you have registered (either in <see cref="T:Jcd.Units.DoubleComparisons.GlobalDoubleComparisonStrategy"/>'s <c>Quantity</c> property, or instance level registrations.
+            (i.e. if the operands are converted to a unit with greater or fewer digits after the decimal point, your comparisons may not return the expected results. Always do trial runs first to ensure the expected behavior.)
+            
+            2. This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
+            </remarks>
+        </member>
+        <member name="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy">
+            <summary>
+            Defines the interface for selecting between two units of measure.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit``1(``0,``0)">
+            <summary>
+            Given two units of measure, return the one indicated by the strategy.
+            </summary>
+            <param name="left">The first unit of measure to consider.</param>
+            <param name="right">The second unit of measure to consider.</param>
+            <returns>The unit selected</returns>
+            <typeparam name="TUnit">The concrete <see cref="T:Jcd.Units.UnitOfMeasure`1"/> type.</typeparam>
+        </member>
+        <member name="T:Jcd.Units.UnitSelection.SelectFundamentalUnit">
+            <summary>
+            Selects the fundamental unit of measure. This should be the same for both so unit1 is used.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectFundamentalUnit.#ctor">
+            <summary>
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance"/> enforcing GC friendliness.)
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectFundamentalUnit.SelectUnit``1(``0,``0)">
+            <summary>
+            Selects the fundamental unit of measure. This should be the same for both so unit1 is used.
+            </summary>
+            <param name="left">The first unit to consider</param>
+            <param name="right">The second unit to consider.</param>
+            <typeparam name="TUnit">The unit of measure type.</typeparam>
+            <returns>The larger unit of measure.</returns>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitSelection.SelectLargerUnit">
+            <summary>
+            Selects the larger of two units of measure.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectLargerUnit.#ctor">
+            <summary>
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectLargerUnit.Instance"/> enforcing GC friendliness.)
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit``1(``0,``0)">
+            <summary>
+            Selects the larger of two units of measure.
+            </summary>
+            <param name="left">The first unit to consider</param>
+            <param name="right">The second unit to consider.</param>
+            <typeparam name="TUnit">The unit of measure type.</typeparam>
+            <returns>The larger unit of measure.</returns>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectLargerUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitSelection.SelectLeftUnit">
+            <summary>
+            Selects the left hand side of two units of measure.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectLeftUnit.#ctor">
+            <summary>
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectLeftUnit.Instance"/> enforcing GC friendliness.)
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectLeftUnit.SelectUnit``1(``0,``0)">
+            <summary>
+            Selects the left hand side of two units of measure.
+            </summary>
+            <param name="left">The first unit to consider</param>
+            <param name="right">The second unit to consider.</param>
+            <typeparam name="TUnit">The unit of measure type.</typeparam>
+            <returns>The larger unit of measure.</returns>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectLeftUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitSelection.SelectRightUnit">
+            <summary>
+            Selects the right hand side of two units of measure.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectRightUnit.#ctor">
+            <summary>
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectRightUnit.Instance"/> enforcing GC friendliness.)
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectRightUnit.SelectUnit``1(``0,``0)">
+            <summary>
+            Selects the right hand side of two units of measure.
+            </summary>
+            <param name="left">The first unit to consider</param>
+            <param name="right">The second unit to consider.</param>
+            <typeparam name="TUnit">The unit of measure type.</typeparam>
+            <returns>The larger unit of measure.</returns>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectRightUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitSelection.SelectSmallerUnit">
+            <summary>
+            Selects the smaller of two units of measure.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectSmallerUnit.#ctor">
+            <summary>
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectSmallerUnit.Instance"/> enforcing GC friendliness.)
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitSelection.SelectSmallerUnit.SelectUnit``1(``0,``0)">
+            <summary>
+            Selects the smaller of two units of measure.
+            </summary>
+            <param name="left">The first unit to consider</param>
+            <param name="right">The second unit to consider.</param>
+            <typeparam name="TUnit">The unit of measure type.</typeparam>
+            <returns>The larger unit of measure.</returns>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectSmallerUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
+            </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Amounts">
             <summary>

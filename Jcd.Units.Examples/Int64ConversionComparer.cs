@@ -1,5 +1,9 @@
 ﻿// ReSharper disable MemberCanBePrivate.Global
 
+#region
+
+#endregion
+
 namespace Jcd.Units.Examples;
 
 /// <summary>

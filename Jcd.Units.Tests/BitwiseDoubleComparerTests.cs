@@ -1,4 +1,10 @@
-﻿namespace Jcd.Units.Tests;
+﻿#region
+
+using Jcd.Units.DoubleComparisons;
+
+#endregion
+
+namespace Jcd.Units.Tests;
 
 public class BitwiseDoubleComparerTests
 {

@@ -3,10 +3,10 @@
 
 ## Quantity<TUnit>.GetHashCode() Method
 
-Computes a hashcode for the quantity. So that numeric equivalence is maintained  
+Computes a hashcode for the quantity, so that numeric equivalence is maintained  
 regardless of precise unit of measure is used, the hashcode is calculated on  
-the base unit representation. TUnit is included in the hashcode to ensure  
-that differing units do not compare the same.
+the fundamental unit representation. TUnit is included in the hashcode to ensure  
+that differing units do not hash the same.
 
 ```csharp
 public override int GetHashCode();

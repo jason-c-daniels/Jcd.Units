@@ -1,5 +1,6 @@
 ﻿#region
 
+using Jcd.Units.DoubleComparisons;
 using Jcd.Units.Tests.TestHarnesses;
 
 #endregion
@@ -8,6 +9,13 @@ namespace Jcd.Units.Tests;
 
 public class QuantityTests
 {
+   public QuantityTests()
+   {
+      GlobalDoubleComparisonStrategy.Quantity         = GlobalDoubleComparisonStrategy.Default;
+      Quantity<UnitOfMeasure1>.DefaultDoubleComparer  = null;
+      Quantity<UnitOfMeasure1>.ComparisonUnitSelector = null;
+   }
+
    #region Constructor Tests
 
    [Theory]
@@ -544,13 +552,15 @@ public class QuantityTests
    {
       // NOTE: the comparer used compares up to 6 decimal places by first multiplying by 1,000,000 then converting to an Int64.
       // keep the InlineData in a range that's actually convertible.
-      UnitOfMeasure1.DefaultDoubleComparer = SixDecimalPlacesComparer;
+      Quantity<UnitOfMeasure1>.DefaultDoubleComparer = SixDecimalPlacesComparer;
       var xUnitOfMeasure = MyUnitsOfMeasureDictionary[xUnit];
       var yUnitOfMeasure = MyUnitsOfMeasureDictionary[yUnit];
       var x              = xValue.As(xUnitOfMeasure);
       var y              = yValue.As(yUnitOfMeasure);
 
-      Assert.Equal(expectEqualHashCodes, x.GetHashCode() == y.GetHashCode());
+      var hc1 = x.GetHashCode();
+      var hc2 = y.GetHashCode();
+      Assert.Equal(expectEqualHashCodes, hc1 == hc2);
    }
 
    #endregion

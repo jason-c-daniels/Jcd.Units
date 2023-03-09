@@ -1,4 +1,8 @@
-﻿namespace Jcd.Units.Tests.TestHarnesses;
+﻿#region
+
+#endregion
+
+namespace Jcd.Units.Tests.TestHarnesses;
 
 /// <summary>
 /// A test harness for validating 

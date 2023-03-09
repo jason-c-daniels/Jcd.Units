@@ -2,6 +2,10 @@
 
 // ReSharper disable UnusedMember.Global
 
+#region
+
+#endregion
+
 namespace Jcd.Units.Tests;
 
 /// <summary>

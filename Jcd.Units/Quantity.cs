@@ -1,8 +1,8 @@
 #region
 
-using System;
 using System.Globalization;
-using System.Text;
+
+// ReSharper disable StaticMemberInGenericType
 
 #endregion
 
@@ -22,28 +22,53 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
 {
    private readonly IValueComparer<double>? _comparer = null;
 
+   private static IUnitSelectionStrategy? _comparisonUnitSelector = null;
+   private static IUnitSelectionStrategy? _arithmeticUnitSelector = null;
+
    /// <summary>
    /// Represents a quantity with an associated unit of measure.
    /// </summary>
    /// <param name="rawValue">The numeric portion, without associated unit of measure</param>
    /// <param name="unit">The unit of measure.</param>
    /// <param name="baseUnitComparer">Compares two doubles represented as doubles in the base unit of measure.</param>
-
-   // ReSharper disable once UnusedMember.Global
-   public Quantity(double rawValue, TUnit unit, IValueComparer<double>? baseUnitComparer = null) :
+   /// <param name="comparisonUnitSelector">Selects the unit of measure to use for comparisons.</param>
+   public Quantity
+            (
+            double rawValue
+          , TUnit unit
+          , IValueComparer<double>? baseUnitComparer = null
+            ) :
             this(rawValue, unit)
    {
       _comparer = baseUnitComparer;
    }
 
    /// <summary>
-   /// Sets the <see cref="IValueComparer{Double}"/> used by quantities for the particular unit of
-   /// measure type. (e.g. lengths.) 
+   /// Sets the default <see cref="IValueComparer{Double}"/> used by quantities for the particular unit of
+   /// measure type. (e.g. lengths.)
    /// </summary>
-
-   // ReSharper disable once StaticMemberInGenericType
    public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
 
+   /// <summary>
+   /// The <see cref="IUnitSelectionStrategy"/> used by quantities of the particular unit of
+   /// measure type (e.g. lengths) to select which unit of measure will be used to perform comparisons.
+   /// </summary>
+   public static IUnitSelectionStrategy? ComparisonUnitSelector
+   {
+      get => _comparisonUnitSelector ?? GlobalUnitSelectionStrategy.ForComparison;
+      set => _comparisonUnitSelector = value;
+   }
+
+   /// <summary>
+   /// The <see cref="IUnitSelectionStrategy"/> used by quantities of the particular unit of
+   /// measure type (e.g. lengths) to select which unit of measure will be returned from arithmetic operations.
+   /// </summary>
+   public static IUnitSelectionStrategy? ArithmeticUnitSelector
+   {
+      get => _arithmeticUnitSelector ?? GlobalUnitSelectionStrategy.ForArithmetic;
+      set => _arithmeticUnitSelector = value;
+   }
+   
    /// <summary>
    /// The <see cref="IValueComparer{T}"/> used for comparisons: where <c>T</c> is a <see cref="double"/>.
    /// </summary>
@@ -51,11 +76,10 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}"/>
    /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
    /// </remarks>
-
-   // ReSharper disable once MemberCanBeProtected.Global
-   // ReSharper disable once MemberCanBePrivate.Global
-   public IValueComparer<double>? Comparer => _comparer ?? DefaultDoubleComparer ?? DoubleComparer.UnitOfMeasure;
-
+   public IValueComparer<double>? Comparer => _comparer
+                                           ?? DefaultDoubleComparer
+                                           ?? GlobalDoubleComparisonStrategy.UnitOfMeasure;
+   
    /// <summary>
    /// Converts the quantity from its current unit of measure to the target unit of measure.
    /// </summary>
@@ -63,10 +87,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>The new quantity represented as the new unit of measure.</returns>
    public Quantity<TUnit> To(TUnit targetUnit)
    {
+      if (Unit == targetUnit) return this;
       var nv  = Unit.ToBaseUnitValue(RawValue);
       var dnv = targetUnit.FromBaseUnitValue(nv);
 
-      return new Quantity<TUnit>(dnv, targetUnit);
+      return new Quantity<TUnit>(dnv, targetUnit, _comparer);
    }
 
    #region Overrides of ValueType
@@ -150,20 +175,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>The sum of the two quantities in the common unit of measure.</returns>
    public static Quantity<TUnit> operator +(Quantity<TUnit> x, Quantity<TUnit> y)
    {
-      if (x.Unit.CompareTo(y.Unit) == 0) return x + y.RawValue;
-
-      var targetUnit = x.Unit.CompareTo(y.Unit) > 0 ? x.Unit : y.Unit;
-
-      if (x.Unit.CompareTo(targetUnit) == 0)
-      {
-         return x
-              + y.To(targetUnit)
-                 .RawValue;
-      }
+      var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
 
       return x.To(targetUnit)
               .RawValue
-           + y;
+           + y.To(targetUnit);   
    }
 
    /// <summary>
@@ -174,20 +190,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>The result of the subtraction.</returns>
    public static Quantity<TUnit> operator -(Quantity<TUnit> x, Quantity<TUnit> y)
    {
-      if (x.Unit.CompareTo(y.Unit) == 0) return x - y.RawValue;
-
-      var targetUnit = x.Unit.CompareTo(y.Unit) > 0 ? x.Unit : y.Unit;
-
-      if (x.Unit.CompareTo(targetUnit) == 0)
-      {
-         return x
-              - y.To(targetUnit)
-                 .RawValue;
-      }
+      var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
 
       return x.To(targetUnit)
               .RawValue
-           - y;
+           - y.To(targetUnit);   
    }
 
    /// <summary>
@@ -198,20 +205,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>The product of the two operands.</returns>
    public static Quantity<TUnit> operator *(Quantity<TUnit> x, Quantity<TUnit> y)
    {
-      if (x.Unit.CompareTo(y.Unit) == 0) return x * y.RawValue;
-
-      var targetUnit = x.Unit.CompareTo(y.Unit) > 0 ? x.Unit : y.Unit;
-
-      if (x.Unit.CompareTo(targetUnit) == 0)
-      {
-         return x
-              * y.To(targetUnit)
-                 .RawValue;
-      }
+      var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
 
       return x.To(targetUnit)
               .RawValue
-           * y;
+           * y.To(targetUnit);   
    }
 
    /// <summary>
@@ -223,20 +221,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <exception cref="DivideByZeroException">When <paramref name="y"/> is zero.</exception>
    public static Quantity<TUnit> operator /(Quantity<TUnit> x, Quantity<TUnit> y)
    {
-      if (x.Unit.CompareTo(y.Unit) == 0) return x / y.RawValue;
-
-      var targetUnit = x.Unit.CompareTo(y.Unit) > 0 ? x.Unit : y.Unit;
-
-      if (x.Unit.CompareTo(targetUnit) == 0)
-      {
-         return x
-              / y.To(targetUnit)
-                 .RawValue;
-      }
+      var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
 
       return x.To(targetUnit)
               .RawValue
-           / y;
+           / y.To(targetUnit);   
    }
 
    #endregion
@@ -338,18 +327,22 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
       => CompareTo(other) == 0;
 
    /// <summary>
-   /// Computes a hashcode for the quantity. So that numeric equivalence is maintained
+   /// Computes a hashcode for the quantity, so that numeric equivalence is maintained
    /// regardless of precise unit of measure is used, the hashcode is calculated on
-   /// the base unit representation. TUnit is included in the hashcode to ensure
-   /// that differing units do not compare the same.
+   /// the fundamental unit representation. TUnit is included in the hashcode to ensure
+   /// that differing units do not hash the same.
    /// </summary>
    /// <returns>The calculated hashcode.</returns>
    public override int GetHashCode()
-      => Comparer!.GetHashCode(
-                               To(Unit.FundamentalUnit)
-                                       .RawValue
-                              )
-       ^ HashCode.Combine(typeof(Quantity<TUnit>));
+   {
+      var dbl = To(Unit.FundamentalUnit)
+              .RawValue;
+
+      var hc1 = Comparer!.GetHashCode(dbl);
+      var hc2 = HashCode.Combine(typeof(Quantity<TUnit>));
+
+      return hc1 ^ hc2;
+   }
 
    #endregion
 
@@ -367,19 +360,14 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    public int CompareTo(Quantity<TUnit> other)
    {
       var comparer   = Comparer!;
-      var targetUnit = Unit >= other.Unit ? Unit : other.Unit;
+      var targetUnit = ComparisonUnitSelector!.SelectUnit(Unit, other.Unit);
 
-      var ownValue = Unit == targetUnit
-               ? RawValue
-               : To(targetUnit)
-                       .RawValue;
-
-      var otherValue = other.Unit == targetUnit
-               ? other.RawValue
-               : other.To(targetUnit)
-                      .RawValue;
-
-      return comparer.Compare(ownValue, otherValue);
+      return comparer.Compare(
+                              To(targetUnit)
+                                      .RawValue
+                            , other.To(targetUnit)
+                                   .RawValue
+                             );
    }
 
    /// <summary>

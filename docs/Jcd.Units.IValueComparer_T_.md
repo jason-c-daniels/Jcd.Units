@@ -3,7 +3,7 @@
 
 ## IValueComparer<T> Interface
 
-Defines the interface needed to perform value comparisons within a quantity or UnitOfMeasure type.
+Defines a marker interface used to enforce providing both relational (CompareTo) and equality comparisons on a given type.
 
 ```csharp
 public interface IValueComparer<in T>
@@ -17,7 +17,7 @@ public interface IValueComparer<in T>
 The datatype being compared
 
 Derived  
-&#8627; [BitwiseDoubleComparer](Jcd.Units.BitwiseDoubleComparer.md 'Jcd.Units.BitwiseDoubleComparer')
+&#8627; [BitwiseDoubleComparer](Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.md 'Jcd.Units.DoubleComparisons.BitwiseDoubleComparer')
 
 ### Remarks
 This type is used to provide stable hash codes (i.e. hash codes that are identical for values  

@@ -10,7 +10,6 @@ using Jcd.Units.UnitTypes;
 
 using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 using US = Jcd.Units.UnitsOfMeasure.USCustomary;
-
 // ReSharper disable CommentTypo
 
 // ReSharper disable UnusedVariable
@@ -32,11 +31,27 @@ var CPU_FREQ_IN_HZ = CPU_FREQ.To(Hz);
 
 const int ITERATIONS =
 #if DEBUG
-                  100_000
+                  500_000
 #else
-                  500_000_000
+                  500_000 //_000
 #endif
          ;
+
+var K     = Temperatures.DegreesKelvin;
+var C     = Temperatures.DegreesCelcius;
+var F     = US.Temperatures.DegreesFahrenheit;
+var degRa = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRankine;
+var degN  = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton;
+var ré    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur;
+var rø    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer;
+var de    = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle;
+         ;
+Console.WriteLine();
+TimeConversions(ITERATIONS);
+Console.WriteLine();
+TimeQuantityMath(ITERATIONS);
+
+return 0;
 
 var km     = Lengths.Kilometer;
 var m      = Lengths.Meter;
@@ -52,14 +67,6 @@ var durs = Durations.GetAll()
 var ms          = durs["ms"];
 var oneTick     = 1.As(Durations.Tick);
 var oneTickInNs = oneTick.To(Durations.Nanosecond);
-var K           = Temperatures.DegreesKelvin;
-var C           = Temperatures.DegreesCelcius;
-var F           = US.Temperatures.DegreesFahrenheit;
-var degRa       = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRankine;
-var degN        = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton;
-var ré          = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur;
-var rø          = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer;
-var de          = Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle;
 
 var timeOfDay = DateTime.UtcNow.TimeOfDay.As(Durations.PlanckTime);
 var s         = timeOfDay.ToString("E5");
@@ -275,11 +282,6 @@ Console.WriteLine(
 Console.WriteLine(
                   $"{OneKilokelvinT:n3} == {OneThousandKelvinAndOneMillikelvinT:n3} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}"
                  );
-
-Console.WriteLine();
-TimeConversions(ITERATIONS);
-Console.WriteLine();
-TimeQuantityMath(ITERATIONS);
 
 return 0;
 

@@ -1,5 +1,6 @@
 #region
 
+using Jcd.Units.DoubleComparisons;
 using Jcd.Units.Tests.TestHarnesses;
 
 // ReSharper disable UnusedVariable
@@ -251,9 +252,9 @@ public class UnitOfMeasureTests
          mockQuantityComparer.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
                              .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
 
-         UnitOfMeasure1.DefaultDoubleComparer = null; // ensure the global is being used.
-         DoubleComparer.UnitOfMeasure         = mockUomComparer.Object;
-         DoubleComparer.Quantity              = mockQuantityComparer.Object;
+         UnitOfMeasure1.DefaultDoubleComparer         = null; // ensure the global is being used.
+         GlobalDoubleComparisonStrategy.UnitOfMeasure = mockUomComparer.Object;
+         GlobalDoubleComparisonStrategy.Quantity      = mockQuantityComparer.Object;
 
          // act
          var comparison = DerivedUnit2.CompareTo(DerivedUnit1);
@@ -289,9 +290,9 @@ public class UnitOfMeasureTests
          mockUomComparer2.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
                          .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
 
-         UnitOfMeasure1.DefaultDoubleComparer = mockUomComparer1.Object;
-         DoubleComparer.UnitOfMeasure         = mockUomComparer2.Object;
-         DoubleComparer.Quantity              = BitwiseDoubleComparer.Default;
+         UnitOfMeasure1.DefaultDoubleComparer         = mockUomComparer1.Object;
+         GlobalDoubleComparisonStrategy.UnitOfMeasure = mockUomComparer2.Object;
+         GlobalDoubleComparisonStrategy.Quantity      = BitwiseDoubleComparer.Default;
 
          // act
          var comparison = DerivedUnit2.CompareTo(DerivedUnit1);
@@ -327,9 +328,9 @@ public class UnitOfMeasureTests
          mockUomComparer2.Setup(m => m.Equals(It.IsAny<double>(), It.IsAny<double>()))
                          .Returns<double, double>((x, y) => x.CompareTo(y) == 0);
 
-         UnitOfMeasure1.DefaultDoubleComparer = mockUomComparer2.Object;
-         DoubleComparer.UnitOfMeasure         = mockUomComparer2.Object;
-         DoubleComparer.Quantity              = mockUomComparer2.Object;
+         UnitOfMeasure1.DefaultDoubleComparer         = mockUomComparer2.Object;
+         GlobalDoubleComparisonStrategy.UnitOfMeasure = mockUomComparer2.Object;
+         GlobalDoubleComparisonStrategy.Quantity      = mockUomComparer2.Object;
          var myUnit = new UnitOfMeasure1("M1", "m1", BaseUnit, 10, -1, mockUomComparer1.Object);
 
          // act

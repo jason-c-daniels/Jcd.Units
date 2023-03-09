@@ -1,5 +1,5 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[BitwiseDoubleComparer](Jcd.Units.BitwiseDoubleComparer.md 'Jcd.Units.BitwiseDoubleComparer')
+### [Jcd.Units.DoubleComparisons](Jcd.Units.DoubleComparisons.md 'Jcd.Units.DoubleComparisons').[BitwiseDoubleComparer](Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.md 'Jcd.Units.DoubleComparisons.BitwiseDoubleComparer')
 
 ## BitwiseDoubleComparer.Equals(double, double) Method
 
@@ -10,13 +10,13 @@ public bool Equals(double x, double y);
 ```
 #### Parameters
 
-<a name='Jcd.Units.BitwiseDoubleComparer.Equals(double,double).x'></a>
+<a name='Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.Equals(double,double).x'></a>
 
 `x` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
 A value to compare.
 
-<a name='Jcd.Units.BitwiseDoubleComparer.Equals(double,double).y'></a>
+<a name='Jcd.Units.DoubleComparisons.BitwiseDoubleComparer.Equals(double,double).y'></a>
 
 `y` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 

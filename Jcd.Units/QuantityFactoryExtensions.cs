@@ -2,8 +2,6 @@
 
 #region
 
-using System;
-
 using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitTypes;
 
