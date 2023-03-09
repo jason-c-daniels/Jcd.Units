@@ -25,10 +25,6 @@ using US = Jcd.Units.UnitsOfMeasure.USCustomary;
 // define/reference the units in use in this program
 var GHz  = Frequencies.Gigahertz;
 var Hz   = Frequencies.Hertz;
-var km   = Lengths.Kilometer;
-var m    = Lengths.Meter;
-var cm   = Lengths.Centimeter;
-var inch = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch;
 
 // NB: replace this with the correct GHz for your system.
 var CPU_FREQ       = 3.0.As(GHz);
@@ -42,16 +38,13 @@ const int ITERATIONS =
 #endif
          ;
 
-var externalCounter = 0;
+var km     = Lengths.Kilometer;
+var m      = Lengths.Meter;
+var cm     = Lengths.Centimeter;
+var biInch = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Inch;
+var usInch = US.Lengths.Inch;
+var usPt   = US.Lengths.Point;
 
-// this, as strange as it is *might* be valid, but I wouldn't be upset at a compiler error.
-for (var iii = 0;;)
-{
-   // do something
-   externalCounter++;
-
-   if (externalCounter > 100) break;
-}
 
 var durs = Durations.GetAll()
                     .ToDictionary(x => x.Symbol);
@@ -90,6 +83,12 @@ var l2 = l1 * 2;
 // Create an area from two lengths.
 // var sqkm=Areas.SquareKilometer;
 // var A  = (l1.To(km) * l2.To(km)).RawValue.As(sqkm);
+var twip       = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Twip;
+var parsec     = Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Parsec;
+var ly         = Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightYear;
+var mm         = Lengths.Millimeter;
+var surveyLink = Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link;
+var surveyRod  = Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Rod;
 
 var Kilokelvin                          = new Temperature("Kilokelvin", "°kK", K, 1000.0);
 var Millikelvin                         = new Temperature("millikelvin", "°mK", K, 1.0 / 1000.0);
@@ -107,34 +106,38 @@ var allDurations = Durations.GetAll()
                             .ToList();
 
 Console.WriteLine("Hello, World!");
-var oneSec     = 1d.As(Durations.Second);
-var oneSecInMs = oneSec.To(Durations.Millisecond);
+var answer = usInch == biInch ? "Yes!" : "Nope!?!";
+Console.WriteLine($"Is one US {usInch} the same as one British Imperial {biInch}? {answer}");
+
+var oneSec     = 1d.As(sec);
+var oneSecInMs = oneSec.To(ms);
 
 var meterQuantity   = 1d.As(m);
 var kmQuantity      = meterQuantity.To(km);
 var twoM            = meterQuantity + kmQuantity;
-var twoMInInches    = twoM.To(inch); // two meters in inches.
-var oneInch         = 1.As(inch);
-var oneInchInTwips  = oneInch.To(Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Twip);
-var oneParsec       = 1.As(Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Parsec);
-var oneParsecInKm   = oneParsec.To(Lengths.Kilometer);
-var oneLy           = 1.As(Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightYear);
-var oneParsecInLy   = oneParsec.To(Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightYear);
-var oneLyInKm       = oneLy.To(Lengths.Kilometer);
-var oneLyInM        = oneLy.To(Lengths.Meter);
-var oneLyInKm2      = oneLyInM.To(Lengths.Kilometer);
-var oneLyInMm       = oneLy.To(Lengths.Millimeter);
-var oneUSInch       = 1.As(inch);
-var oneInchInPt     = oneUSInch.To(US.Lengths.Point);
-var oneLink         = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
-var oneLinkAsInches = oneLink.To(inch);
+var twoMInInches    = twoM.To(biInch); // two meters in inches.
+var oneInch         = 1.As(biInch);
+var oneInchInTwips  = oneInch.To(twip);
+var oneParsec       = 1.As(parsec);
+var oneParsecInKm   = oneParsec.To(km);
+var oneLy           = 1.As(ly);
+var oneParsecInLy   = oneParsec.To(ly);
+var oneLyInKm       = oneLy.To(km);
+var oneLyInM        = oneLy.To(m);
+var oneLyInKm2      = oneLyInM.To(km);
+var oneLyInMm       = oneLy.To(mm);
+var oneUSInch       = 1.As(biInch);
+var oneInchInPt     = oneUSInch.To(usPt);
+var oneLink         = 1.As(surveyLink);
+var oneLinkAsInches = oneLink.To(biInch);
 var oneLinkAsCm     = oneLink.To(cm);
 
 //var oneSurveyFoot = 1.As(USSurvey.Lengths.Foot);
 //var oneSurveyFootAsCm = oneSurveyFoot.To(SI.Lengths.Centimeter);
 //var oneSurveyFootAsFoot = oneSurveyFoot.To(US.Lengths.Foot);
-var oneRod        = 1.As(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Rod);
-var oneRodInLinks = oneRod.To(Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.Link);
+
+var oneRod        = 1.As(surveyRod);
+var oneRodInLinks = oneRod.To(surveyLink);
 
 var meqkm    = meterQuantity == kmQuantity;
 var twoMGtMq = twoM          > meterQuantity;
@@ -244,14 +247,14 @@ var OneThousandKelvinAndOneMillikelvinT = OneThousandKelvinT + OneMillikelvinT;
 
 Console.WriteLine();
 Console.WriteLine("Compare temp quantities with default comparer");
-Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinT} : {OneKilokelvinT == OneThousandKelvinT}");
+Console.WriteLine($"{OneKilokelvinT:n3} == {OneThousandKelvinT:n3} : {OneKilokelvinT == OneThousandKelvinT}");
 
 Console.WriteLine(
-                  $"{OneThousandKelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneThousandKelvinT == OneThousandKelvinAndOneMillikelvinT}"
+                  $"{OneThousandKelvinT:n3} == {OneThousandKelvinAndOneMillikelvinT:n3} : {OneThousandKelvinT == OneThousandKelvinAndOneMillikelvinT}"
                  );
 
 Console.WriteLine(
-                  $"{OneKilokelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}"
+                  $"{OneKilokelvinT:n3} == {OneThousandKelvinAndOneMillikelvinT:n3} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}"
                  );
 
 Quantity<Temperature>.DefaultDoubleComparer =
@@ -260,17 +263,17 @@ Quantity<Temperature>.DefaultDoubleComparer =
 Console.WriteLine();
 
 Console.WriteLine(
-                  "Compare temp quantities after Quantity<Temperature>.DefaultDoubleComparer = new Int64ConversionComparer(100);"
+                  "Compare temp quantities after Quantity<Temperature>.DefaultDoubleComparer = new Int64ConversionComparer(100); (equal to 2 decimal places once in a common unit representation)"
                  );
 
-Console.WriteLine($"{OneKilokelvinT} == {OneThousandKelvinT} : {OneKilokelvinT == OneThousandKelvinT}");
+Console.WriteLine($"{OneKilokelvinT:n3} == {OneThousandKelvinT:n3} : {OneKilokelvinT == OneThousandKelvinT}");
 
 Console.WriteLine(
-                  $"{OneThousandKelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneThousandKelvinT == OneThousandKelvinAndOneMillikelvinT}"
+                  $"{OneThousandKelvinT:n3} == {OneThousandKelvinAndOneMillikelvinT:n3} : {OneThousandKelvinT == OneThousandKelvinAndOneMillikelvinT}"
                  );
 
 Console.WriteLine(
-                  $"{OneKilokelvinT} == {OneThousandKelvinAndOneMillikelvinT} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}"
+                  $"{OneKilokelvinT:n3} == {OneThousandKelvinAndOneMillikelvinT:n3} : {OneKilokelvinT == OneThousandKelvinAndOneMillikelvinT}"
                  );
 
 Console.WriteLine();
@@ -314,7 +317,7 @@ void TimeConversions(int iterations)
    Console.WriteLine($"{durPer:n3} elapsed per conversion.");
    Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
    Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per conversion.");
-   var q4 = q3.To(Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur);
+   var q4 = q3.To(ré); // this prevents the compiler from optimizing away the second assignment
 }
 
 void TimeQuantityMath(int iterations)
@@ -349,4 +352,5 @@ void TimeQuantityMath(int iterations)
    Console.WriteLine($"{durPer:n3} elapsed per equation.");
    Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
    Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per equation.");
+   var q4 = q3.To(ré); // this prevents the compiler from optimizing away the second equation
 }
