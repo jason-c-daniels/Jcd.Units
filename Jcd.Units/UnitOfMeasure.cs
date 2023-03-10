@@ -2,6 +2,8 @@
 
 using Jcd.Units.DoubleComparison;
 
+// ReSharper disable MemberCanBePrivate.Global
+
 #endregion
 
 namespace Jcd.Units;
@@ -184,7 +186,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="UnitOfMeasure{TUnit}"/></exception>
    public int CompareTo(object? obj)
    {
-      if (ReferenceEquals(null, obj)) return 1; // sort nulls first.
+      if (obj is null) return 1; // sort nulls first.
 
       return obj is TUnit other
                ? CompareTo(other)
@@ -199,9 +201,10 @@ public abstract record UnitOfMeasure<TUnit>
    /// <returns>true if left is &lt; right; false otherwise.</returns>
    public static bool operator <(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
-      if (ReferenceEquals(left, right)) return false; // if they're the same instance or both are null.
-      if (ReferenceEquals(null, right)) return false; // relationally, nulls do not compare, return false.
-      if (ReferenceEquals(null, left)) return false;  // relationally, nulls do not compare, return false.
+      if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
+      if (ReferenceEquals(left, right)) return false;  // if they're the same instance or both are null.
+      if (right is null) return false;                 // relationally, nulls do not compare, return false.
+      if (left is null) return false;                  // relationally, nulls do not compare, return false.
 
       return left.CompareTo(right) < 0;
    }
@@ -214,9 +217,10 @@ public abstract record UnitOfMeasure<TUnit>
    /// <returns>true if left is &gt; right; false otherwise.</returns>
    public static bool operator >(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
-      if (ReferenceEquals(left, right)) return false; // if they're the same instance or both are null.
-      if (ReferenceEquals(null, right)) return false; // relationally, nulls do not compare, return false.
-      if (ReferenceEquals(null, left)) return false;  // relationally, nulls do not compare, return false.
+      if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
+      if (ReferenceEquals(left, right)) return false;  // if they're the same instance or both are null.
+      if (right is null) return false;                 // relationally, nulls do not compare, return false.
+      if (left is null) return false;                  // relationally, nulls do not compare, return false.
 
       return left.CompareTo(right) > 0;
    }
@@ -231,8 +235,8 @@ public abstract record UnitOfMeasure<TUnit>
    {
       if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
       if (ReferenceEquals(left, right)) return true;   // if they're the same instance.
-      if (ReferenceEquals(null, right)) return false;  // relationally, nulls do not compare, return false.
-      if (ReferenceEquals(null, left)) return false;   // relationally, nulls do not compare, return false.
+      if (right is null) return false;                 // relationally, nulls do not compare, return false.
+      if (left is null) return false;                  // relationally, nulls do not compare, return false.
 
       return left.CompareTo(right) <= 0;
    }
@@ -247,8 +251,8 @@ public abstract record UnitOfMeasure<TUnit>
    {
       if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
       if (ReferenceEquals(left, right)) return true;   // if they're the same instance.
-      if (ReferenceEquals(null, right)) return false;  // relationally, nulls do not compare, return false.
-      if (ReferenceEquals(null, left)) return false;   // relationally, nulls do not compare, return false.
+      if (right is null) return false;                 // relationally, nulls do not compare, return false.
+      if (left is null) return false;                  // relationally, nulls do not compare, return false.
 
       return left.CompareTo(right) >= 0;
    }

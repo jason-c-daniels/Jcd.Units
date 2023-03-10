@@ -1,4 +1,4 @@
-﻿namespace Jcd.Units.Tests.Fakes;
+﻿namespace Jcd.Units.Tests._Fakes;
 
 // ReSharper disable once ClassNeverInstantiated.Global
 public class UnitOfMeasure1Units : Enumeration<UnitOfMeasure1Units, UnitOfMeasure1>

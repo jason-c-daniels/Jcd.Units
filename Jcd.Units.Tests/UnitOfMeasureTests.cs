@@ -1,7 +1,7 @@
 #region
 
 using Jcd.Units.DoubleComparison;
-using Jcd.Units.Tests.Fakes;
+using Jcd.Units.Tests._Fakes;
 
 // ReSharper disable UnusedVariable
 // ReSharper disable HeapView.BoxingAllocation
@@ -13,7 +13,7 @@ using Jcd.Units.Tests.Fakes;
 
 namespace Jcd.Units.Tests;
 
-public class UnitOfMeasureTests
+public class UnitOfMeasureTests : TestBase
 {
    private const string BaseUnitName = "buName";
    private const string BaseUnitSymbol = "bu";
@@ -94,6 +94,7 @@ public class UnitOfMeasureTests
       Assert.False((UnitOfMeasure1)null < null);
       Assert.False(du                   < du1);
       Assert.False(null                 < du);
+      Assert.False(du                   < du);
       Assert.False(du                   < null);
    }
 
@@ -129,6 +130,7 @@ public class UnitOfMeasureTests
       Assert.Equal(expectedResult, du   > BaseUnit);
       Assert.False((UnitOfMeasure1)null > null);
       Assert.False(du                   > du1);
+      Assert.False(du                   > du);
       Assert.False(null                 > du);
       Assert.False(du                   > null);
    }

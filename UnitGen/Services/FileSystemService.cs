@@ -38,11 +38,11 @@ public static class FileSystemService
       var startupDir = Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location);
       var testDir    = startupDir;
 
-      while (testDir != null && !Directory.Exists(Path.Combine(testDir, targetDir)))
+      while (testDir is not null && !Directory.Exists(Path.Combine(testDir, targetDir)))
          testDir = Path.GetDirectoryName(testDir);
 
-      if (testDir == null) Console.Error.WriteLine($"Could not locate {targetDir} folder.");
+      if (testDir is null) Console.Error.WriteLine($"Could not locate {targetDir} folder.");
 
-      return testDir != null ? Path.Combine(testDir, targetDir) : null;
+      return testDir is not null ? Path.Combine(testDir, targetDir) : null;
    }
 }

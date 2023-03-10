@@ -12,7 +12,7 @@ as necessary during computations.
 
 | Classes | |
 | :--- | :--- |
-| [Enumeration&lt;TEnumeration,T&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') | The base of all DDD-style enumerations in this library. |
+| [Enumeration&lt;TEnumeration,T&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') | The base of all unit of measure enumerations in this library. |
 | [QuantityFactoryExtensions](Jcd.Units.QuantityFactoryExtensions.md 'Jcd.Units.QuantityFactoryExtensions') | Some extension methods to make creating quantities using units of measures,<br/>and converting among units of measure easier. |
 | [UnitOfMeasure&lt;TUnit&gt;](Jcd.Units.UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') | Base type to simplify creating a unit of measure. This type provides relational and equivalence operations. |
 

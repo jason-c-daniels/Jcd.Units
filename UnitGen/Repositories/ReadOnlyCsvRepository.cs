@@ -18,7 +18,7 @@ public abstract class ReadOnlyCsvRepository<T> : IReadOnlyRepository<T>
 
    public virtual IReadOnlyList<T> GetAll()
    {
-      if (_allItems == null) return _allItems = ReadAll();
+      if (_allItems is null) return _allItems = ReadAll();
 
       return _allItems;
    }

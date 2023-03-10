@@ -6,7 +6,7 @@
 
 #endregion
 
-namespace Jcd.Units.Tests;
+namespace Jcd.Units.Tests._Fakes;
 
 /// <summary>
 /// An implementation of <see cref="IValueComparer{T}"/> for doubles, which

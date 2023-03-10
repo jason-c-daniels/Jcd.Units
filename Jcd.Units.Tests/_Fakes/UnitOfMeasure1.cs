@@ -1,4 +1,5 @@
-﻿namespace Jcd.Units.Tests.Fakes;
+﻿namespace Jcd.Units.Tests._Fakes;
+#pragma warning disable CA1067
 
 /// <summary>
 /// A test harness for validating 
@@ -26,3 +27,5 @@ public record UnitOfMeasure1
             )
             : base(name, symbol, baseUnit, coefficient, offset, comparer) { }
 }
+
+#pragma warning enable CA1067

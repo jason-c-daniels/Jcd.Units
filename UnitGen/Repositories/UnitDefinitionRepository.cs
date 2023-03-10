@@ -14,7 +14,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 
    public IReadOnlyList<UnitDefinition> GetAll()
    {
-      if (_allItems != null) return _allItems;
+      if (_allItems is not null) return _allItems;
 
       var systems   = SystemRepo.GetAll();
       var unitTypes = UnitTypeRepo.GetAll();

@@ -3,7 +3,7 @@
 /// <summary>
 /// Performs standard, compiler provided, comparison operations against two doubles.
 /// </summary>
-public struct BitwiseDoubleComparer : IValueComparer<double>
+public readonly struct BitwiseDoubleComparer : IValueComparer<double>
 {
    /// <summary>
    /// Compares two doubles by the compiler provided default. This carries with it all the concerns

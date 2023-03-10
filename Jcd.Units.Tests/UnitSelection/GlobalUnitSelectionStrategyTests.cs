@@ -8,14 +8,8 @@ using Jcd.Units.UnitSelection;
 
 namespace Jcd.Units.Tests.UnitSelection;
 
-public class GlobalUnitSelectionStrategyTests
+public class GlobalUnitSelectionStrategyTests : TestBase
 {
-   public GlobalUnitSelectionStrategyTests()
-   {
-      GlobalUnitSelectionStrategy.ForArithmetic = SelectLargerUnit.Instance;
-      GlobalUnitSelectionStrategy.ForComparison = SelectLargerUnit.Instance;
-   }
-
    [Fact]
    public void ForArithmetic_Get_SelectLargerUnit_Instance_When_Not_Set()
    {

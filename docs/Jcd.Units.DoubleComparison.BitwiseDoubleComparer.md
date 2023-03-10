@@ -6,7 +6,7 @@
 Performs standard, compiler provided, comparison operations against two doubles.
 
 ```csharp
-public struct BitwiseDoubleComparer :
+public readonly struct BitwiseDoubleComparer :
 Jcd.Units.IValueComparer<double>
 ```
 

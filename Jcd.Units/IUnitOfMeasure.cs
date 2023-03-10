@@ -1,5 +1,7 @@
 // ReSharper disable UnusedMember.Global
 
+// ReSharper disable UnusedMemberInSuper.Global
+
 namespace Jcd.Units;
 
 /// <summary>

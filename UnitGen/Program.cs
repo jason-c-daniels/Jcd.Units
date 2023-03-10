@@ -32,14 +32,14 @@ bool EssentialDirectoriesAreMissing(out string jcdUnitsDirResult)
 {
    var jcdUnitsDirTest = FSS.FindDirectory("Jcd.Units");
 
-   if (jcdUnitsDirTest != null)
+   if (jcdUnitsDirTest is not null)
    {
       jcdUnitsDirResult = jcdUnitsDirTest;
 
       return false;
    }
 
-   if (jcdUnitsDirTest == null)
+   if (jcdUnitsDirTest is null)
       Console.Error.WriteLine("Directory: Jcd.Units could not be found.");
 
    jcdUnitsDirResult = string.Empty; // this shuts the compiler up.

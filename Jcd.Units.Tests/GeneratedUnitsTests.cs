@@ -7,7 +7,7 @@ using System.Reflection;
 
 namespace Jcd.Units.Tests;
 
-public class GeneratedUnitsTests
+public class GeneratedUnitsTests : TestBase
 {
    /// <summary>
    /// Use reflection to call GetAll on all <see cref="Enumeration{TEnumeration,T}"/> derived types.

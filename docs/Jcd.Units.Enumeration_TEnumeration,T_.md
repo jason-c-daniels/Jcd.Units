@@ -3,11 +3,11 @@
 
 ## Enumeration<TEnumeration,T> Class
 
-The base of all DDD-style enumerations in this library.
+The base of all unit of measure enumerations in this library.
 
 ```csharp
 public class Enumeration<TEnumeration,T>
-    where T : IEquatable<T>
+    where T : IEquatable<T>, Jcd.Units.IUnitOfMeasure<T>
 ```
 #### Type parameters
 
@@ -61,6 +61,11 @@ Derived
 &#8627; [Lengths](Jcd.Units.UnitsOfMeasure.USCustomary.Lengths.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Lengths')  
 &#8627; [Temperatures](Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures')  
 &#8627; [Lengths](Jcd.Units.UnitsOfMeasure.USSurvey.Lengths.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Lengths')
+
+| Properties | |
+| :--- | :--- |
+| [ByName](Jcd.Units.Enumeration_TEnumeration,T_.ByName.md 'Jcd.Units.Enumeration<TEnumeration,T>.ByName') | Looks up an enumerated unit of measure by name. |
+| [BySymbol](Jcd.Units.Enumeration_TEnumeration,T_.BySymbol.md 'Jcd.Units.Enumeration<TEnumeration,T>.BySymbol') | Looks up an enumerated unit of measure by symbol. |
 
 | Methods | |
 | :--- | :--- |

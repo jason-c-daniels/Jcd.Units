@@ -8,14 +8,8 @@ using Jcd.Units.DoubleComparison;
 
 namespace Jcd.Units.Tests.DoubleComparison;
 
-public class GlobalDoubleComparisonStrategyTests
+public class GlobalDoubleComparisonStrategyTests : TestBase
 {
-   public GlobalDoubleComparisonStrategyTests()
-   {
-      GlobalDoubleComparisonStrategy.Quantity      = BitwiseDoubleComparer.Instance;
-      GlobalDoubleComparisonStrategy.UnitOfMeasure = BitwiseDoubleComparer.Instance;
-   }
-
    [Fact]
    public void Quantity_Get_Returns_BitwiseDoubleComparer_When_Not_Set()
    {

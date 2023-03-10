@@ -2,6 +2,8 @@
 
 using Jcd.Units.DoubleComparison;
 
+// ReSharper disable MemberCanBePrivate.Global
+
 #endregion
 
 namespace Jcd.Units.UnitSelection;

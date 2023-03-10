@@ -19,7 +19,7 @@ public static class EmbeddedResource
    {
       using var stream = assembly.GetStream(resourceName);
 
-      if (stream == null) return null;
+      if (stream is null) return null;
 
       using var reader = new StreamReader(stream);
 
@@ -34,7 +34,7 @@ public static class EmbeddedResource
    {
       using var stream = assembly.GetStream(resourceName);
 
-      if (stream == null) return null;
+      if (stream is null) return null;
 
       using var reader = new BinaryReader(stream);
 

@@ -41,6 +41,93 @@
         <member name="M:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.GetHashCode(System.Double)">
             <inheritdoc />
         </member>
+        <member name="T:Jcd.Units.DoubleComparison.BuiltInRoundingComparer">
+            <summary>
+            Rounds two values then compares them using the builtin Round method of <see cref="T:System.Math"/>
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.WholeNumber">
+            <summary>
+            A Rounds to a whole number using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.OneDecimalPlace">
+            <summary>
+            A 1 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.TwoDecimalPlaces">
+            <summary>
+            A 2 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.ThreeDecimalPlaces">
+            <summary>
+            A 3 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FourDecimalPlaces">
+            <summary>
+            A 4 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FiveDecimalPlaces">
+            <summary>
+            A 5 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.SixDecimalPlaces">
+            <summary>
+            A 6 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.NineDecimalPlaces">
+            <summary>
+            A 9 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.TenDecimalPlaces">
+            <summary>
+            A 10 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FifteenDecimalPlaces">
+            <summary>
+            A 15 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven"/> as the midpoint rounding method.
+            This is the maximum number of valid .
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.Default">
+            <summary>
+            An alias for <see cref="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FifteenDecimalPlaces"/>
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.DecimalPlaces">
+            <summary>
+            The number of decimal places to round to.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.RoundingMethod">
+            <summary>
+            The rounding method to employ.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.#ctor(System.Int32,System.MidpointRounding)">
+            <summary>
+            Constructs an instance of <see cref="T:Jcd.Units.DoubleComparison.BuiltInRoundingComparer"/> from number of decimal places and a rounding method.
+            </summary>
+            <param name="decimalPlaces">The number of decimal places to round to.</param>
+            <param name="roundingMethod">The rounding method to use.</param>
+        </member>
+        <member name="M:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.Compare(System.Double,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.Equals(System.Double,System.Double)">
+            <inheritdoc />
+        </member>
+        <member name="M:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.GetHashCode(System.Double)">
+            <inheritdoc />
+        </member>
         <member name="T:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy">
             <summary>
             Provides global fallback double comparison strategies used by <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity"/> and <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure"/>.
@@ -74,10 +161,20 @@
         </member>
         <member name="T:Jcd.Units.Enumeration`2">
             <summary>
-            The base of all DDD-style enumerations in this library.
+            The base of all unit of measure enumerations in this library.
             </summary>
             <typeparam name="TEnumeration">The enumeration type.</typeparam>
             <typeparam name="T">The type of the enumerated members.</typeparam>
+        </member>
+        <member name="P:Jcd.Units.Enumeration`2.ByName">
+            <summary>
+            Looks up an enumerated unit of measure by name.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.Enumeration`2.BySymbol">
+            <summary>
+            Looks up an enumerated unit of measure by symbol.
+            </summary>
         </member>
         <member name="M:Jcd.Units.Enumeration`2.GetAll">
             <summary>
@@ -777,6 +874,11 @@
             Selects the fundamental unit of measure. This should be the same for both so unit1 is used.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
+            </summary>
+        </member>
         <member name="M:Jcd.Units.UnitSelection.SelectFundamentalUnit.#ctor">
             <summary>
             Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance"/> enforcing GC friendliness.)
@@ -791,14 +893,14 @@
             <typeparam name="TUnit">The unit of measure type.</typeparam>
             <returns>The larger unit of measure.</returns>
         </member>
-        <member name="F:Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance">
-            <summary>
-            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
-            </summary>
-        </member>
         <member name="T:Jcd.Units.UnitSelection.SelectLargerUnit">
             <summary>
             Selects the larger of two units of measure.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectLargerUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectLargerUnit.#ctor">
@@ -815,14 +917,14 @@
             <typeparam name="TUnit">The unit of measure type.</typeparam>
             <returns>The larger unit of measure.</returns>
         </member>
-        <member name="F:Jcd.Units.UnitSelection.SelectLargerUnit.Instance">
-            <summary>
-            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
-            </summary>
-        </member>
         <member name="T:Jcd.Units.UnitSelection.SelectLeftUnit">
             <summary>
             Selects the left hand side of two units of measure.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectLeftUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectLeftUnit.#ctor">
@@ -839,14 +941,14 @@
             <typeparam name="TUnit">The unit of measure type.</typeparam>
             <returns>The larger unit of measure.</returns>
         </member>
-        <member name="F:Jcd.Units.UnitSelection.SelectLeftUnit.Instance">
-            <summary>
-            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
-            </summary>
-        </member>
         <member name="T:Jcd.Units.UnitSelection.SelectRightUnit">
             <summary>
             Selects the right hand side of two units of measure.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectRightUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectRightUnit.#ctor">
@@ -863,14 +965,14 @@
             <typeparam name="TUnit">The unit of measure type.</typeparam>
             <returns>The larger unit of measure.</returns>
         </member>
-        <member name="F:Jcd.Units.UnitSelection.SelectRightUnit.Instance">
-            <summary>
-            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
-            </summary>
-        </member>
         <member name="T:Jcd.Units.UnitSelection.SelectSmallerUnit">
             <summary>
             Selects the smaller of two units of measure.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitSelection.SelectSmallerUnit.Instance">
+            <summary>
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectSmallerUnit.#ctor">
@@ -886,11 +988,6 @@
             <param name="right">The second unit to consider.</param>
             <typeparam name="TUnit">The unit of measure type.</typeparam>
             <returns>The larger unit of measure.</returns>
-        </member>
-        <member name="F:Jcd.Units.UnitSelection.SelectSmallerUnit.Instance">
-            <summary>
-            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy"/>.
-            </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Amounts">
             <summary>

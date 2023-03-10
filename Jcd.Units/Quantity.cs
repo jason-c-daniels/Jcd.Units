@@ -4,6 +4,8 @@ using System.Globalization;
 
 using Jcd.Units.DoubleComparison;
 
+// ReSharper disable MemberCanBePrivate.Global
+
 // ReSharper disable StaticMemberInGenericType
 
 #endregion
@@ -378,7 +380,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
    public int CompareTo(object? obj)
    {
-      if (ReferenceEquals(null, obj)) return 1;
+      if (obj is null) return 1;
 
       return obj is Quantity<TUnit> other
                ? CompareTo(other)
