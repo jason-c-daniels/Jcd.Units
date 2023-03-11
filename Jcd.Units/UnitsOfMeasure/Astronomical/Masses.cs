@@ -23,9 +23,9 @@ public class Masses : Enumeration<Masses, Mass>
    public static readonly Mass EarthMass = new ("earth mass", "M(⊕)", SI.Masses.Kilogram, 5.9722E+24, 0);
 
    /// <summary>
-   /// A(n) jupiter mass. Defined in terms of a(n) SI kilogram.
+   /// A(n) jovian mass. Defined in terms of a(n) SI kilogram.
    /// </summary>
-   public static readonly Mass JupiterMass = new ("jupiter mass", "M(J)", SI.Masses.Kilogram, 1.89813E+27, 0);
+   public static readonly Mass JovianMass = new ("jovian mass", "M(J)", SI.Masses.Kilogram, 1.89813E+27, 0);
 
    /// <summary>
    /// A(n) lunar mass. Defined in terms of a(n) SI kilogram.

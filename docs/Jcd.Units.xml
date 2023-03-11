@@ -1294,6 +1294,11 @@
             A(n) earth radius. Defined in terms of a(n) SI kilometer.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianRadius">
+            <summary>
+            A(n) jovian radius. Defined in terms of a(n) SI kilometer.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarRadius">
             <summary>
             A(n) lunar radius. Defined in terms of a(n) SI kilometer.
@@ -1314,6 +1319,11 @@
             A(n) earth diameter. Defined in terms of a(n) earth radius.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianDiameter">
+            <summary>
+            A(n) jovian diameter. Defined in terms of a(n) jovian radius.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarDiameter">
             <summary>
             A(n) lunar diameter. Defined in terms of a(n) lunar radius.
@@ -1332,6 +1342,11 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthCircumference">
             <summary>
             A(n) earth circumference. Defined in terms of a(n) earth diameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianCircumference">
+            <summary>
+            A(n) jovian circumference. Defined in terms of a(n) jovian diameter.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarCircumference">
@@ -1359,9 +1374,9 @@
             A(n) earth mass. Defined in terms of a(n) SI kilogram.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JupiterMass">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JovianMass">
             <summary>
-            A(n) jupiter mass. Defined in terms of a(n) SI kilogram.
+            A(n) jovian mass. Defined in terms of a(n) SI kilogram.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass">

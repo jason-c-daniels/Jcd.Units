@@ -33,6 +33,9 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Gigaparsec](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Gigaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Gigaparsec') | A(n) gigaparsec. Defined in terms of a(n) megaparsec. |
 | [HectolightYear](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.HectolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.HectolightYear') | A(n) hectolight-year. Defined in terms of a(n) dekalight-year. |
 | [Hectoparsec](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Hectoparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Hectoparsec') | A(n) hectoparsec. Defined in terms of a(n) dekaparsec. |
+| [JovianCircumference](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianCircumference') | A(n) jovian circumference. Defined in terms of a(n) jovian diameter. |
+| [JovianDiameter](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianDiameter') | A(n) jovian diameter. Defined in terms of a(n) jovian radius. |
+| [JovianRadius](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianRadius') | A(n) jovian radius. Defined in terms of a(n) SI kilometer. |
 | [KilolightYear](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.KilolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.KilolightYear') | A(n) kilolight-year. Defined in terms of a(n) hectolight-year. |
 | [Kiloparsec](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Kiloparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Kiloparsec') | A(n) kiloparsec. Defined in terms of a(n) hectoparsec. |
 | [LightDay](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightDay.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightDay') | A(n) light-day. Defined in terms of a(n) light-hour. |

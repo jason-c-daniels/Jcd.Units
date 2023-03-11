@@ -18,7 +18,7 @@ Astronomical,Length,lunar diameter,D(L),False,Astronomical,lunar radius,2.0,0,16
 Astronomical,Length,mars diameter,D(♂),False,Astronomical,mars radius,2.0,0,17
 Astronomical,Length,solar diameter,D(☉),False,Astronomical,solar radius,2.0,0,18
 Astronomical,Length,earth circumference,C(⊕),False,Astronomical,earth diameter,3.14159_26535_89793_23846,0,19
-Astronomical,Length,lunar circumference,C(J),False,Astronomical,jovian diameter,3.14159_26535_89793_23846,0,20
+Astronomical,Length,jovian circumference,C(J),False,Astronomical,jovian diameter,3.14159_26535_89793_23846,0,20
 Astronomical,Length,lunar circumference,C(L),False,Astronomical,lunar diameter,3.14159_26535_89793_23846,0,21
 Astronomical,Length,mars circumference,C(♂),False,Astronomical,mars diameter,3.14159_26535_89793_23846,0,22
 Astronomical,Length,solar circumference,C(☉),False,Astronomical,solar diameter,3.14159_26535_89793_23846,0,23

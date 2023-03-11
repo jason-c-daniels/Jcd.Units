@@ -309,6 +309,11 @@ public class Lengths : Enumeration<Lengths, Length>
    public static readonly Length EarthRadius = new ("earth radius", "R(⊕)", SI.Lengths.Kilometer, 6_371, 0);
 
    /// <summary>
+   /// A(n) jovian radius. Defined in terms of a(n) SI kilometer.
+   /// </summary>
+   public static readonly Length JovianRadius = new ("jovian radius", "R(J)", SI.Lengths.Kilometer, 69_911, 0);
+
+   /// <summary>
    /// A(n) lunar radius. Defined in terms of a(n) SI kilometer.
    /// </summary>
    public static readonly Length LunarRadius = new ("lunar radius", "R(L)", SI.Lengths.Kilometer, 1_737.4, 0);
@@ -327,6 +332,11 @@ public class Lengths : Enumeration<Lengths, Length>
    /// A(n) earth diameter. Defined in terms of a(n) earth radius.
    /// </summary>
    public static readonly Length EarthDiameter = new ("earth diameter", "D(⊕)", EarthRadius, 2.0, 0);
+
+   /// <summary>
+   /// A(n) jovian diameter. Defined in terms of a(n) jovian radius.
+   /// </summary>
+   public static readonly Length JovianDiameter = new ("jovian diameter", "D(J)", JovianRadius, 2.0, 0);
 
    /// <summary>
    /// A(n) lunar diameter. Defined in terms of a(n) lunar radius.
@@ -353,6 +363,17 @@ public class Lengths : Enumeration<Lengths, Length>
                                                          , 3.14159_26535_89793_23846
                                                          , 0
                                                           );
+
+   /// <summary>
+   /// A(n) jovian circumference. Defined in terms of a(n) jovian diameter.
+   /// </summary>
+   public static readonly Length JovianCircumference = new (
+                                                            "jovian circumference"
+                                                          , "C(J)"
+                                                          , JovianDiameter
+                                                          , 3.14159_26535_89793_23846
+                                                          , 0
+                                                           );
 
    /// <summary>
    /// A(n) lunar circumference. Defined in terms of a(n) lunar diameter.

@@ -14,7 +14,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | Fields | |
 | :--- | :--- |
 | [EarthMass](Jcd.Units.UnitsOfMeasure.Astronomical.Masses.EarthMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.EarthMass') | A(n) earth mass. Defined in terms of a(n) SI kilogram. |
-| [JupiterMass](Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JupiterMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JupiterMass') | A(n) jupiter mass. Defined in terms of a(n) SI kilogram. |
+| [JovianMass](Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JovianMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JovianMass') | A(n) jovian mass. Defined in terms of a(n) SI kilogram. |
 | [LunarMass](Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass') | A(n) lunar mass. Defined in terms of a(n) SI kilogram. |
 | [MarsMass](Jcd.Units.UnitsOfMeasure.Astronomical.Masses.MarsMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.MarsMass') | A(n) mars mass. Defined in terms of a(n) SI kilogram. |
 | [SolarMass](Jcd.Units.UnitsOfMeasure.Astronomical.Masses.SolarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.SolarMass') | A(n) solar mass. Defined in terms of a(n) SI kilogram. |
