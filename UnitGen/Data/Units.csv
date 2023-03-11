@@ -8,19 +8,22 @@ Astronomical,Length,light-day,ld,False,Astronomical,light-hour,24,0,6
 Astronomical,Length,light-week,lw,False,Astronomical,light-day,7,0,7
 Astronomical,Length,parsec,pc,True,Astronomical,light-year,3.2615637769757,0,8
 Astronomical,Length,earth radius,R(⊕),False,SI,kilometer,6_371,0,9
-Astronomical,Length,lunar radius,R(L),False,SI,kilometer,1_737.4,0,10
-Astronomical,Length,mars radius,R(♂),False,SI,kilometer,3_389.5,0,11
-Astronomical,Length,solar radius,R(☉),False,SI,kilometer,695_700,0,12
-Astronomical,Length,earth diameter,D(⊕),False,Astronomical,earth radius,2.0,0,13
-Astronomical,Length,lunar diameter,D(L),False,Astronomical,lunar radius,2.0,0,14
-Astronomical,Length,mars diameter,D(♂),False,Astronomical,mars radius,2.0,0,15
-Astronomical,Length,solar diameter,D(☉),False,Astronomical,solar radius,2.0,0,16
-Astronomical,Length,earth circumference,C(⊕),False,Astronomical,earth diameter,3.14159_26535_89793_23846,0,17
-Astronomical,Length,lunar circumference,C(L),False,Astronomical,lunar diameter,3.14159_26535_89793_23846,0,18
-Astronomical,Length,mars circumference,C(♂),False,Astronomical,mars diameter,3.14159_26535_89793_23846,0,19
-Astronomical,Length,solar circumference,C(☉),False,Astronomical,solar diameter,3.14159_26535_89793_23846,0,20
+Astronomical,Length,jovian radius,R(J),False,SI,kilometer,69_911,0,10
+Astronomical,Length,lunar radius,R(L),False,SI,kilometer,1_737.4,0,11
+Astronomical,Length,mars radius,R(♂),False,SI,kilometer,3_389.5,0,12
+Astronomical,Length,solar radius,R(☉),False,SI,kilometer,695_700,0,13
+Astronomical,Length,earth diameter,D(⊕),False,Astronomical,earth radius,2.0,0,14
+Astronomical,Length,jovian diameter,D(J),False,Astronomical,jovian radius,2.0,0,15
+Astronomical,Length,lunar diameter,D(L),False,Astronomical,lunar radius,2.0,0,16
+Astronomical,Length,mars diameter,D(♂),False,Astronomical,mars radius,2.0,0,17
+Astronomical,Length,solar diameter,D(☉),False,Astronomical,solar radius,2.0,0,18
+Astronomical,Length,earth circumference,C(⊕),False,Astronomical,earth diameter,3.14159_26535_89793_23846,0,19
+Astronomical,Length,lunar circumference,C(J),False,Astronomical,jovian diameter,3.14159_26535_89793_23846,0,20
+Astronomical,Length,lunar circumference,C(L),False,Astronomical,lunar diameter,3.14159_26535_89793_23846,0,21
+Astronomical,Length,mars circumference,C(♂),False,Astronomical,mars diameter,3.14159_26535_89793_23846,0,22
+Astronomical,Length,solar circumference,C(☉),False,Astronomical,solar diameter,3.14159_26535_89793_23846,0,23
 Astronomical,Mass,earth mass,M(⊕),False,SI,kilogram,5.9722E+24,0,1
-Astronomical,Mass,jupiter mass,M(J),False,SI,kilogram,1.89813E+27,0,2
+Astronomical,Mass,jovian mass,M(J),False,SI,kilogram,1.89813E+27,0,2
 Astronomical,Mass,lunar mass,M(L),False,SI,kilogram,7.35E+22,0,3
 Astronomical,Mass,mars mass,M(♂),False,SI,kilogram,6.39E+23,0,4
 Astronomical,Mass,solar mass,M(☉),False,SI,kilogram,1.989E+30,0,5

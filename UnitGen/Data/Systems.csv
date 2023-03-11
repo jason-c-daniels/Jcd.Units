@@ -6,3 +6,5 @@ Imperial,British Imperial Units,True,Imperial
 Imperial Maritime,British Imperial Maritime Units,True,ImperialMaritime
 US Survey,United States Survey Units,True,USSurvey
 Astronomical,Astronomical Units,True,Astronomical
+US Esoteric,"Strange units of measure the US Media uses when trying, and failing, to make things more relatable.",True,USEsoteric
+UK Esoteric,"Strange units of measure the UK Media uses when trying, and failing, to make things more relatable.",True,UKEsoteric
