@@ -87,5 +87,5 @@ public interface IUnitOfMeasure<TUnit>
    /// <param name="offset">The offset to normalize.</param>
    /// <param name="fundamentalCoefficient">The coefficient for converting to the fundamental unit of measure.</param>
    /// <returns>The offset for the fundamental unit of measure.</returns>
-   public double ComputeFundamentalOffset(double fundamentalCoefficient, double offset);
+   double ComputeFundamentalOffset(double fundamentalCoefficient, double offset);
 }
