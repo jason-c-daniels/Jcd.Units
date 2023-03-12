@@ -46,5 +46,7 @@ public class SystemInfo
    }
 
    private Quantity<Frequency> GetCurrentClockSpeed(CPU cpu)
-      => cpu.CurrentClockSpeed.As(cpu.CurrentClockSpeed > 1000 ? Frequencies.Gigahertz : Frequencies.Hertz);
+      => cpu.CurrentClockSpeed > 1000
+               ? (cpu.CurrentClockSpeed / 1000d).As(Frequencies.Gigahertz)
+               : cpu.CurrentClockSpeed.As(Frequencies.Megahertz);
 }
