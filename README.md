@@ -55,7 +55,7 @@ prevents this.
 ### Core Types
 
 The two core classes provided are `UnitOfMeasure<TDerived>` and `Quantity<TUnit>`.
-In both cases `TDerived` is the type derived off of `UnitOfMeasure`.
+In both cases `TUnit` is the type derived off of `UnitOfMeasure`.
 This idiomatic method of coding, in part, provides the foundation for the arithmetic
 and relational type safety. The rest is defined in
 
