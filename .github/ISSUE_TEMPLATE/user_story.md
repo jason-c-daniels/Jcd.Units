@@ -3,11 +3,10 @@ name: User Story
 about: This template provides a basic structure for user stories.
 
 ---
-*The title should be a concise summary of the nature of the story, **NOT the story itself. All sections are required. ***
+_The title should be a concise summary of the nature of the story, **NOT the story itself. All sections are required. **_
 
 ### User Story
-As a ROLE-GOES-HERE, I want to SOME-ACTION-OR-SHORT-LIST-OF-ACTIONS, so I can THE-END-GOAL-OF-THE-ACTIONS
-
+As a ROLE-GOES-HERE, I want to SOME-ACTION-OR-SHORT-LIST-OF-ACTIONS, so that THE-END-GOAL-OF-THE-ACTIONS
 
 ### Acceptance Criteria
 Create a checked list of things that demonstrate this user story is satisfied.
