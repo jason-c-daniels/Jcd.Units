@@ -29,4 +29,4 @@ public record UnitOfMeasure1
             : base(name, symbol, baseUnit, coefficient, offset, comparer) { }
 }
 
-#pragma warning enable CA1067
+#pragma warning restore CA1067

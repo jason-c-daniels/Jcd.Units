@@ -6,6 +6,7 @@ using Jcd.Units.Tests._Fakes;
 // ReSharper disable UnusedVariable
 // ReSharper disable HeapView.BoxingAllocation
 #pragma warning disable CS8600
+#pragma warning disable CS1718
 
 #endregion
 

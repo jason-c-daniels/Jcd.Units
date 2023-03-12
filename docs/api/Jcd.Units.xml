@@ -6,39 +6,37 @@
     <members>
         <member name="T:Jcd.Units.DoubleComparison.BitwiseDoubleComparer">
             <summary>
-               Performs standard, compiler provided, comparison operations against two doubles.
+            Performs standard, compiler provided, comparison operations against two doubles.
             </summary>
         </member>
         <member name="M:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(System.Double,System.Double)">
             <summary>
-               Compares two doubles by the compiler provided default. This carries with it all the concerns
-               of doing raw double comparisons. This is provided as a default mechanism to kickstart
-               operations. You should really implement and use your own comparer as per your application's needs.
+            Compares two doubles by the compiler provided default. This carries with it all the concerns
+            of doing raw double comparisons. This is provided as a default mechanism to kickstart
+            operations. You should really implement and use your own comparer as per your application's needs.
             </summary>
             <remarks>
-               <see href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/">
-                  Comparing
-                  Floating Point Numbers 2012 Edition
-               </see>
-               by Bruce Dawson for a summary of considerations when comparing doubles and why this really isn't the class
-               to use for production code.
+            <see href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/">Comparing Floating Point Numbers 2012 Edition</see>
+            by Bruce Dawson for a summary of considerations when comparing doubles and why this really isn't the class
+            to use for production code.
             </remarks>
             <param name="x">The left hand operand</param>
             <param name="y">the right hand operand</param>
             <returns>
-               -1 if <paramref name="x" /> is less than <paramref name="y" />, 0 if they're equal and 1 if
-               <paramref name="x" /> is greater than <paramref name="y" />
+            -1 if <paramref name="x" /> is less than <paramref name="y" />,
+            0 if they're equal
+            1 if <paramref name="x" /> is greater than <paramref name="y" />
             </returns>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Instance">
             <summary>
-               The default instance. Use this instead of constantly creating new ones. It's easier
-               on the garbage collector.
+            The default instance. Use this instead of constantly creating new ones. It's easier
+            on the garbage collector.
             </summary>
         </member>
         <member name="M:Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Equals(System.Double,System.Double)">
             <summary>
-               Compares two doubles for equality.
+            Compares two doubles for equality.
             </summary>
             <param name="x">A value to compare.</param>
             <param name="y">A value to compare.</param>
@@ -49,79 +47,79 @@
         </member>
         <member name="T:Jcd.Units.DoubleComparison.BuiltInRoundingComparer">
             <summary>
-               Rounds two values then compares them using the builtin Round method of <see cref="T:System.Math" />
+            Rounds two values then compares them using the builtin Round method of <see cref="T:System.Math" />
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.WholeNumber">
             <summary>
-               A Rounds to a whole number using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A Rounds to a whole number using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.OneDecimalPlace">
             <summary>
-               A 1 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A 1 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.TwoDecimalPlaces">
             <summary>
-               A 2 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A 2 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.ThreeDecimalPlaces">
             <summary>
-               A 3 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A 3 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FourDecimalPlaces">
             <summary>
-               A 4 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A 4 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FiveDecimalPlaces">
             <summary>
-               A 5 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A 5 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.SixDecimalPlaces">
             <summary>
-               A 6 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A 6 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.NineDecimalPlaces">
             <summary>
-               A 9 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A 9 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.TenDecimalPlaces">
             <summary>
-               A 10 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            A 10 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FifteenDecimalPlaces">
             <summary>
-               A 15 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
-               This is the maximum number of valid .
+            A 15 decimal place rounding comparer, using <see cref="F:System.MidpointRounding.ToEven" /> as the midpoint rounding method.
+            This is the maximum number of valid .
             </summary>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.Default">
             <summary>
-               An alias for <see cref="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FifteenDecimalPlaces" />
+            An alias for <see cref="F:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.FifteenDecimalPlaces" />
             </summary>
         </member>
         <member name="P:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.DecimalPlaces">
             <summary>
-               The number of decimal places to round to.
+            The number of decimal places to round to.
             </summary>
         </member>
         <member name="P:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.RoundingMethod">
             <summary>
-               The rounding method to employ.
+            The rounding method to employ.
             </summary>
         </member>
         <member name="M:Jcd.Units.DoubleComparison.BuiltInRoundingComparer.#ctor(System.Int32,System.MidpointRounding)">
             <summary>
-               Constructs an instance of <see cref="T:Jcd.Units.DoubleComparison.BuiltInRoundingComparer" /> from number of decimal places and a rounding
-               method.
+            Constructs an instance of <see cref="T:Jcd.Units.DoubleComparison.BuiltInRoundingComparer" /> from number of decimal places and a rounding
+            method.
             </summary>
             <param name="decimalPlaces">The number of decimal places to round to.</param>
             <param name="roundingMethod">The rounding method to use.</param>
@@ -137,152 +135,152 @@
         </member>
         <member name="T:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy">
             <summary>
-               Provides global fallback double comparison strategies used by <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity" /> and
-               <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure" />.
+            Provides global fallback double comparison strategies used by <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity" /> and
+            <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure" />.
             </summary>
             <remarks>
-               For performance reasons the properties within are not thread safe.
-               As well it's a bad practice to set these frequently in separate threads.
-               Your comparison results may be very unstable, even with proper thread synchronization.
+            For performance reasons the properties within are not thread safe.
+            As well it's a bad practice to set these frequently in separate threads.
+            Your comparison results may be very unstable, even with proper thread synchronization.
             </remarks>
         </member>
         <member name="F:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Default">
             <summary>
-               The default (bitwise) double comparer. You really should use something else.
+            The default (bitwise) double comparer. You really should use something else.
             </summary>
         </member>
         <member name="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity">
             <summary>
-               The registered double comparer used by Quantities, by default.
+            The registered double comparer used by Quantities, by default.
             </summary>
             <remarks>
-               This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
-               outside of your application's startup code.
+            This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
+            outside of your application's startup code.
             </remarks>
         </member>
         <member name="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure">
             <summary>
-               The globally registered double comparer used for comparing <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure" /> instances. It's unlikely
-               that you will actually need to set this to anything other than the default (bitwise comparison)
+            The globally registered double comparer used for comparing <see cref="P:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure" /> instances. It's unlikely
+            that you will actually need to set this to anything other than the default (bitwise comparison)
             </summary>
             <remarks>
-               This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
-               outside of your application's startup code.
+            This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
+            outside of your application's startup code.
             </remarks>
         </member>
         <member name="T:Jcd.Units.Enumeration`2">
             <summary>
-               The base of all unit of measure enumerations in this library.
+            The base of all unit of measure enumerations in this library.
             </summary>
             <typeparam name="TEnumeration">The enumeration type.</typeparam>
             <typeparam name="T">The type of the enumerated members.</typeparam>
         </member>
         <member name="P:Jcd.Units.Enumeration`2.ByName">
             <summary>
-               Looks up an enumerated unit of measure by name.
+            Looks up an enumerated unit of measure by name.
             </summary>
         </member>
         <member name="P:Jcd.Units.Enumeration`2.BySymbol">
             <summary>
-               Looks up an enumerated unit of measure by symbol.
+            Looks up an enumerated unit of measure by symbol.
             </summary>
         </member>
         <member name="T:Jcd.Units.EnumerationBase`2">
             <summary>
-               The base of all unit of measure enumerations in this library.
+            The base of all unit of measure enumerations in this library.
             </summary>
             <typeparam name="TEnumeration">The enumeration type.</typeparam>
             <typeparam name="T">The type of the enumerated members.</typeparam>
         </member>
         <member name="F:Jcd.Units.EnumerationBase`2.All">
             <summary>
-               All enumerated elements. Populated in static constructor.
+            All enumerated elements. Populated in static constructor.
             </summary>
         </member>
         <member name="M:Jcd.Units.EnumerationBase`2.GetAll">
             <summary>
-               Retrieves all public static properties of type <typeparamref name="T" />
-               on the derived enumeration <typeparamref name="TEnumeration" />
+            Retrieves all public static properties of type <typeparamref name="T" />
+            on the derived enumeration <typeparamref name="TEnumeration" />
             </summary>
             <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1" /> for all detected members.</returns>
         </member>
         <member name="T:Jcd.Units.IUnitOfMeasure`1">
             <summary>
-               The interface defining what every unit of measure must support.
+            The interface defining what every unit of measure must support.
             </summary>
             <typeparam name="TUnit">The type deriving from <see cref="T:Jcd.Units.IUnitOfMeasure`1" /></typeparam>
             <remarks>
-               By ensuring that all units of measure provide their own type to the interface
-               we guarantee compile time detection of certain classes of errors.
+            By ensuring that all units of measure provide their own type to the interface
+            we guarantee compile time detection of certain classes of errors.
             </remarks>
         </member>
         <member name="P:Jcd.Units.IUnitOfMeasure`1.Name">
             <summary>
-               The friendly name of the unit of measure. (e.g. millisecond)
+            The friendly name of the unit of measure. (e.g. millisecond)
             </summary>
         </member>
         <member name="P:Jcd.Units.IUnitOfMeasure`1.Symbol">
             <summary>
-               The symbolic short representation.
+            The symbolic short representation.
             </summary>
         </member>
         <member name="P:Jcd.Units.IUnitOfMeasure`1.Coefficient">
             <summary>
-               The Coefficient relative to the fundamental unit for derived units.
-               This is 1.0 for fundamental units. This should never be 0.
-               (divide by zero errors will occur.)
+            The Coefficient relative to the fundamental unit for derived units.
+            This is 1.0 for fundamental units. This should never be 0.
+            (divide by zero errors will occur.)
             </summary>
         </member>
         <member name="P:Jcd.Units.IUnitOfMeasure`1.Offset">
             <summary>
-               This is the offset from the fundamental unit.
+            This is the offset from the fundamental unit.
             </summary>
         </member>
         <member name="P:Jcd.Units.IUnitOfMeasure`1.FundamentalUnit">
             <summary>
-               The unit of measure all others are represented in terms of.
+            The unit of measure all others are represented in terms of.
             </summary>
         </member>
         <member name="P:Jcd.Units.IUnitOfMeasure`1.BaseUnit">
             <summary>
-               The unit of measure this one was defined in terms of.
+            The unit of measure this one was defined in terms of.
             </summary>
         </member>
         <member name="P:Jcd.Units.IUnitOfMeasure`1.IsFundamentalUnit">
             <summary>
-               Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
+            Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
             </summary>
         </member>
         <member name="M:Jcd.Units.IUnitOfMeasure`1.FromBaseUnitValue(System.Double)">
             <summary>
-               Given a raw value, convert FROM the fundamental (normalized) base unit representation
-               TO the non-base value. (e.g. 0.1  becomes 100mm as meters are the base
-               unit and 0.1m is 100mm )
+            Given a raw value, convert FROM the fundamental (normalized) base unit representation
+            TO the non-base value. (e.g. 0.1  becomes 100mm as meters are the base
+            unit and 0.1m is 100mm )
             </summary>
             <param name="normalizedValue">the normalized value.</param>
             <returns>The denormalized value</returns>
         </member>
         <member name="M:Jcd.Units.IUnitOfMeasure`1.ToBaseUnitValue(System.Double)">
             <summary>
-               Given a raw value, convert TO the fundamental base unit representation
-               FROM the non-base unit representation of  the value. (e.g. 100mm becomes
-               0.1 as meters are the base unit)
+            Given a raw value, convert TO the fundamental base unit representation
+            FROM the non-base unit representation of  the value. (e.g. 100mm becomes
+            0.1 as meters are the base unit)
             </summary>
             <param name="denormalizedValue">the denormalized value.</param>
         </member>
         <member name="M:Jcd.Units.IUnitOfMeasure`1.ComputeFundamentalCoefficient(System.Double)">
             <summary>
-               Given a coefficient, calculate the equivalent coefficient for the
-               fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0)
+            Given a coefficient, calculate the equivalent coefficient for the
+            fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0)
             </summary>
             <param name="coefficient">The coefficient to normalize.</param>
             <returns>The coefficient for the fundamental unit of measure.</returns>
         </member>
         <member name="M:Jcd.Units.IUnitOfMeasure`1.ComputeFundamentalOffset(System.Double,System.Double)">
             <summary>
-               Given an offset and the coefficient for converting to the fundamental unit
-               of measure, calculate the equivalent offset for the fundamental unit of measure.
-               (i.e. the one with Coeff = 1 and Offset = 0)
+            Given an offset and the coefficient for converting to the fundamental unit
+            of measure, calculate the equivalent offset for the fundamental unit of measure.
+            (i.e. the one with Coeff = 1 and Offset = 0)
             </summary>
             <param name="offset">The offset to normalize.</param>
             <param name="fundamentalCoefficient">The coefficient for converting to the fundamental unit of measure.</param>
@@ -290,46 +288,46 @@
         </member>
         <member name="T:Jcd.Units.IValueComparer`1">
             <summary>
-               Defines a marker interface used to enforce providing both relational (CompareTo) and equality comparisons on a given
-               type.
+            Defines a marker interface used to enforce providing both relational (CompareTo) and equality comparisons on a given
+            type.
             </summary>
             <typeparam name="T">The datatype being compared</typeparam>
             <remarks>
-               This type is used to provide stable hash codes (i.e. hash codes that are identical for values
-               that the implementation compares as equivalent.) and comparison implementations to provide
-               application defined comparison operations. It's most useful for <see cref="T:System.Single" />, <see cref="T:System.Double" /> and
-               custom data types.
+            This type is used to provide stable hash codes (i.e. hash codes that are identical for values
+            that the implementation compares as equivalent.) and comparison implementations to provide
+            application defined comparison operations. It's most useful for <see cref="T:System.Single" />, <see cref="T:System.Double" /> and
+            custom data types.
             </remarks>
         </member>
         <member name="T:Jcd.Units.NamespaceDoc">
             <summary>
-               Provides a quantity type (<see cref="T:Jcd.Units.Quantity`1" />) and various simple <see cref="T:Jcd.Units.UnitOfMeasure`1" />
-               implementations to facilitate relatively type and unit of measure safe arithmetic.
+            Provides a quantity type (<see cref="T:Jcd.Units.Quantity`1" />) and various simple <see cref="T:Jcd.Units.UnitOfMeasure`1" />
+            implementations to facilitate relatively type and unit of measure safe arithmetic.
             </summary>
             <remarks>
-               NOTE: This system does not automatically create quantities with derived units during
-               multiplication and division. You must take care to change units and unit types
-               as necessary during computations.
+            NOTE: This system does not automatically create quantities with derived units during
+            multiplication and division. You must take care to change units and unit types
+            as necessary during computations.
             </remarks>
         </member>
         <member name="T:Jcd.Units.Quantity`1">
             <summary>
-               Represents a quantity with an associated unit of measure.
+            Represents a quantity with an associated unit of measure.
             </summary>
             <param name="RawValue">The numeric portion, without associated unit of measure</param>
             <param name="Unit">The unit of measure.</param>
             <typeparam name="TUnit">
-               The data type of the unit of measure. It must derive from <see cref="T:Jcd.Units.UnitOfMeasure`1" />
+            The data type of the unit of measure. It must derive from <see cref="T:Jcd.Units.UnitOfMeasure`1" />
             </typeparam>
         </member>
         <member name="M:Jcd.Units.Quantity`1.#ctor(System.Double,`0)">
             <summary>
-               Represents a quantity with an associated unit of measure.
+            Represents a quantity with an associated unit of measure.
             </summary>
             <param name="RawValue">The numeric portion, without associated unit of measure</param>
             <param name="Unit">The unit of measure.</param>
             <typeparam name="TUnit">
-               The data type of the unit of measure. It must derive from <see cref="T:Jcd.Units.UnitOfMeasure`1" />
+            The data type of the unit of measure. It must derive from <see cref="T:Jcd.Units.UnitOfMeasure`1" />
             </typeparam>
         </member>
         <member name="P:Jcd.Units.Quantity`1.RawValue">
@@ -340,7 +338,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.#ctor(System.Double,`0,Jcd.Units.IValueComparer{System.Double})">
             <summary>
-               Represents a quantity with an associated unit of measure.
+            Represents a quantity with an associated unit of measure.
             </summary>
             <param name="rawValue">The numeric portion, without associated unit of measure</param>
             <param name="unit">The unit of measure.</param>
@@ -348,62 +346,62 @@
         </member>
         <member name="P:Jcd.Units.Quantity`1.DefaultDoubleComparer">
             <summary>
-               Sets the default <see cref="T:Jcd.Units.IValueComparer`1" /> used by quantities for the particular unit of
-               measure type. (e.g. lengths.)
+            Sets the default <see cref="T:Jcd.Units.IValueComparer`1" /> used by quantities for the particular unit of
+            measure type. (e.g. lengths.)
             </summary>
         </member>
         <member name="P:Jcd.Units.Quantity`1.ComparisonUnitSelector">
             <summary>
-               The <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" /> used by quantities of the particular unit of
-               measure type (e.g. lengths) to select which unit of measure will be used to perform comparisons.
+            The <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" /> used by quantities of the particular unit of
+            measure type (e.g. lengths) to select which unit of measure will be used to perform comparisons.
             </summary>
         </member>
         <member name="P:Jcd.Units.Quantity`1.ArithmeticUnitSelector">
             <summary>
-               The <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" /> used by quantities of the particular unit of
-               measure type (e.g. lengths) to select which unit of measure will be returned from arithmetic operations.
+            The <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" /> used by quantities of the particular unit of
+            measure type (e.g. lengths) to select which unit of measure will be returned from arithmetic operations.
             </summary>
         </member>
         <member name="P:Jcd.Units.Quantity`1.Comparer">
             <summary>
-               The <see cref="T:Jcd.Units.IValueComparer`1" /> used for comparisons: where <c>T</c> is a <see cref="T:System.Double" />.
+            The <see cref="T:Jcd.Units.IValueComparer`1" /> used for comparisons: where <c>T</c> is a <see cref="T:System.Double" />.
             </summary>
             <remarks>
-               If not assigned during initialization, this returns <see cref="T:Jcd.Units.UnitOfMeasure`1" />
-               type specific comparison (e.g. Temperatures) or and the globally configured comparer.
+            If not assigned during initialization, this returns <see cref="T:Jcd.Units.UnitOfMeasure`1" />
+            type specific comparison (e.g. Temperatures) or and the globally configured comparer.
             </remarks>
         </member>
         <member name="M:Jcd.Units.Quantity`1.To(`0)">
             <summary>
-               Converts the quantity from its current unit of measure to the target unit of measure.
+            Converts the quantity from its current unit of measure to the target unit of measure.
             </summary>
             <param name="targetUnit">The target unit of measure</param>
             <returns>The new quantity represented as the new unit of measure.</returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Explicit(Jcd.Units.Quantity{`0})~System.Double">
             <summary>
-               Explicit cast conversion to double.
+            Explicit cast conversion to double.
             </summary>
             <param name="q">The quantity to convert.</param>
             <returns>The raw double representation without any unit of measure.</returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.ToString">
             <summary>
-               Formats a string with the quantity value followed by the symbol.
+            Formats a string with the quantity value followed by the symbol.
             </summary>
             <returns>The formatted string.</returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.ToString(System.String)">
             <summary>
-               Outputs the number formatted according to the <paramref name="format" />
-               with unit symbol.
+            Outputs the number formatted according to the <paramref name="format" />
+            with unit symbol.
             </summary>
             <param name="format">The format to apply to the number portion</param>
             <returns>The formatted value.</returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.ToString(System.String,System.IFormatProvider)">
             <summary>
-               Formats the value of the current instance using the specified format.
+            Formats the value of the current instance using the specified format.
             </summary>
             <param name="format">The format to use. Null or empty string uses the default.</param>
             <param name="provider">The provider to use to format the value. Null uses the current locale.</param>
@@ -411,36 +409,36 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_UnaryPlus(Jcd.Units.Quantity{`0})">
             <summary>
-               Performs a standard unary "+" operation.
+            Performs a standard unary "+" operation.
             </summary>
             <param name="q">The <see cref="T:Jcd.Units.Quantity`1" /> to operate on.</param>
             <returns>The <see cref="T:Jcd.Units.Quantity`1" /></returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_UnaryNegation(Jcd.Units.Quantity{`0})">
             <summary>
-               Performs unary negation on the <see cref="P:Jcd.Units.Quantity`1.RawValue" /> component and
-               returns a new <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs unary negation on the <see cref="P:Jcd.Units.Quantity`1.RawValue" /> component and
+            returns a new <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="q">The quantity to perform the negation on.</param>
             <returns>The negated form of the <see cref="T:Jcd.Units.Quantity`1" /></returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Increment(Jcd.Units.Quantity{`0})">
             <summary>
-               Performs a unary increment operation.
+            Performs a unary increment operation.
             </summary>
             <param name="q">The <see cref="T:Jcd.Units.Quantity`1" /> to operate on.</param>
             <returns>The <see cref="T:Jcd.Units.Quantity`1" /></returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Decrement(Jcd.Units.Quantity{`0})">
             <summary>
-               Performs a unary decrement operation.
+            Performs a unary decrement operation.
             </summary>
             <param name="q">The <see cref="T:Jcd.Units.Quantity`1" /> to operate on.</param>
             <returns>The <see cref="T:Jcd.Units.Quantity`1" /></returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Addition(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
             <summary>
-               Adds two quantities, selecting the larger unit of measure as the common representation.
+            Adds two quantities, selecting the larger unit of measure as the common representation.
             </summary>
             <param name="x">The left hand operand</param>
             <param name="y">The right hand operand</param>
@@ -448,7 +446,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Subtraction(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
             <summary>
-               Performs subtraction on two quantities, converting to the larger of the two units of measure.
+            Performs subtraction on two quantities, converting to the larger of the two units of measure.
             </summary>
             <param name="x">The left hand operand</param>
             <param name="y">The right hand operand.</param>
@@ -456,7 +454,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Multiply(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
             <summary>
-               Performs multiplication on two quantities, converting to the larger of the two units of measure.
+            Performs multiplication on two quantities, converting to the larger of the two units of measure.
             </summary>
             <param name="x">The left hand operand</param>
             <param name="y">The right hand operand.</param>
@@ -464,7 +462,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Division(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
             <summary>
-               Performs division on two quantities, converting to the larger of the two units of measure.
+            Performs division on two quantities, converting to the larger of the two units of measure.
             </summary>
             <param name="x">The left hand operand</param>
             <param name="y">The right hand operand.</param>
@@ -473,7 +471,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Addition(Jcd.Units.Quantity{`0},System.Double)">
             <summary>
-               Performs addition on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs addition on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="x">The <see cref="T:Jcd.Units.Quantity`1" /> operand.</param>
             <param name="y">The double operand.</param>
@@ -481,7 +479,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Subtraction(Jcd.Units.Quantity{`0},System.Double)">
             <summary>
-               Performs subtraction on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs subtraction on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="x">The <see cref="T:Jcd.Units.Quantity`1" /> operand.</param>
             <param name="y">The double operand.</param>
@@ -489,7 +487,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Multiply(Jcd.Units.Quantity{`0},System.Double)">
             <summary>
-               Performs multiplication on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs multiplication on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="x">The <see cref="T:Jcd.Units.Quantity`1" /> operand.</param>
             <param name="y">The double operand.</param>
@@ -497,7 +495,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Division(Jcd.Units.Quantity{`0},System.Double)">
             <summary>
-               Performs division on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs division on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="x">The <see cref="T:Jcd.Units.Quantity`1" /> operand.</param>
             <param name="y">The double operand.</param>
@@ -506,7 +504,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Addition(System.Double,Jcd.Units.Quantity{`0})">
             <summary>
-               Performs addition on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs addition on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="x">The double operand</param>
             <param name="y">The <see cref="T:Jcd.Units.Quantity`1" /> operand.</param>
@@ -514,7 +512,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Subtraction(System.Double,Jcd.Units.Quantity{`0})">
             <summary>
-               Performs subtraction on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs subtraction on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="x">The double operand</param>
             <param name="y">The <see cref="T:Jcd.Units.Quantity`1" /> operand.</param>
@@ -522,7 +520,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Multiply(System.Double,Jcd.Units.Quantity{`0})">
             <summary>
-               Performs multiplication on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs multiplication on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="x">The double operand</param>
             <param name="y">The <see cref="T:Jcd.Units.Quantity`1" /> operand.</param>
@@ -530,7 +528,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_Division(System.Double,Jcd.Units.Quantity{`0})">
             <summary>
-               Performs division on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
+            Performs division on a double and a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="x">The double operand</param>
             <param name="y">The <see cref="T:Jcd.Units.Quantity`1" /> operand.</param>
@@ -539,45 +537,45 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.Equals(Jcd.Units.Quantity{`0})">
             <summary>
-               Compares this instance to another <see cref="T:Jcd.Units.Quantity`1" /> instance for equality.
+            Compares this instance to another <see cref="T:Jcd.Units.Quantity`1" /> instance for equality.
             </summary>
             <remarks>
-               The quantity with the smaller unit of measure is converted to the double representation of
-               the larger unit of measure before comparison.
+            The quantity with the smaller unit of measure is converted to the double representation of
+            the larger unit of measure before comparison.
             </remarks>
             <param name="other">The other instance to compare against.</param>
             <returns>True if equivalent. False otherwise.</returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.GetHashCode">
             <summary>
-               Computes a hashcode for the quantity, so that numeric equivalence is maintained
-               regardless of precise unit of measure is used, the hashcode is calculated on
-               the fundamental unit representation. TUnit is included in the hashcode to ensure
-               that differing units do not hash the same.
+            Computes a hashcode for the quantity, so that numeric equivalence is maintained
+            regardless of precise unit of measure is used, the hashcode is calculated on
+            the fundamental unit representation. TUnit is included in the hashcode to ensure
+            that differing units do not hash the same.
             </summary>
             <returns>The calculated hashcode.</returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.CompareTo(Jcd.Units.Quantity{`0})">
             <summary>
-               Compares this instance to another <see cref="T:Jcd.Units.Quantity`1" /> instance for relative value.
+            Compares this instance to another <see cref="T:Jcd.Units.Quantity`1" /> instance for relative value.
             </summary>
             <remarks>
-               The quantity with the smaller unit of measure is converted to the larger unit of measure
-               before comparison.
+            The quantity with the smaller unit of measure is converted to the larger unit of measure
+            before comparison.
             </remarks>
             <param name="other">The other instance to compare against.</param>
             <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.CompareTo(System.Object)">
             <summary>
-               Compares this instance to another <see cref="T:Jcd.Units.Quantity`1" /> instance for relative value.
+            Compares this instance to another <see cref="T:Jcd.Units.Quantity`1" /> instance for relative value.
             </summary>
             <param name="obj">The other instance to compare against.</param>
             <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_LessThan(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
             <summary>
-               Performs a less than comparison between two <see cref="T:Jcd.Units.Quantity`1" /> instances.
+            Performs a less than comparison between two <see cref="T:Jcd.Units.Quantity`1" /> instances.
             </summary>
             <param name="left">the left hand operand</param>
             <param name="right">the right hand operand</param>
@@ -585,7 +583,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_GreaterThan(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
             <summary>
-               Performs a greater than comparison between two <see cref="T:Jcd.Units.Quantity`1" /> instances.
+            Performs a greater than comparison between two <see cref="T:Jcd.Units.Quantity`1" /> instances.
             </summary>
             <param name="left">the left hand operand</param>
             <param name="right">the right hand operand</param>
@@ -593,7 +591,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_LessThanOrEqual(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
             <summary>
-               Performs a less than or equals comparison between two <see cref="T:Jcd.Units.Quantity`1" /> instances.
+            Performs a less than or equals comparison between two <see cref="T:Jcd.Units.Quantity`1" /> instances.
             </summary>
             <param name="left">the left hand operand</param>
             <param name="right">the right hand operand</param>
@@ -601,7 +599,7 @@
         </member>
         <member name="M:Jcd.Units.Quantity`1.op_GreaterThanOrEqual(Jcd.Units.Quantity{`0},Jcd.Units.Quantity{`0})">
             <summary>
-               Performs a greater than or equals comparison between two <see cref="T:Jcd.Units.Quantity`1" /> instances.
+            Performs a greater than or equals comparison between two <see cref="T:Jcd.Units.Quantity`1" /> instances.
             </summary>
             <param name="left">the left hand operand</param>
             <param name="right">the right hand operand</param>
@@ -609,13 +607,13 @@
         </member>
         <member name="T:Jcd.Units.QuantityFactoryExtensions">
             <summary>
-               Some extension methods to make creating quantities using units of measures,
-               and converting among units of measure easier.
+            Some extension methods to make creating quantities using units of measures,
+            and converting among units of measure easier.
             </summary>
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Double,``0)">
             <summary>
-               Converts a <see cref="T:System.Double" /> into a quantity using the specified unit of measure.
+            Converts a <see cref="T:System.Double" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.Double" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -624,7 +622,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Single,``0)">
             <summary>
-               Converts a <see cref="T:System.Single" /> into a quantity using the specified unit of measure.
+            Converts a <see cref="T:System.Single" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.Single" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -633,7 +631,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Int64,``0)">
             <summary>
-               Converts an <see cref="T:System.Int64" /> into a quantity using the specified unit of measure.
+            Converts an <see cref="T:System.Int64" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.Int64" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -642,7 +640,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.UInt64,``0)">
             <summary>
-               Converts a <see cref="T:System.UInt64" /> into a quantity using the specified unit of measure.
+            Converts a <see cref="T:System.UInt64" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.UInt64" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -651,7 +649,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Int32,``0)">
             <summary>
-               Converts an <see cref="T:System.Int32" /> into a quantity using the specified unit of measure.
+            Converts an <see cref="T:System.Int32" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.Int32" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -660,7 +658,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.UInt32,``0)">
             <summary>
-               Converts a <see cref="T:System.UInt32" /> into a quantity using the specified unit of measure.
+            Converts a <see cref="T:System.UInt32" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.UInt32" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -669,7 +667,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Int16,``0)">
             <summary>
-               Converts a <see cref="T:System.Int16" /> into a quantity using the specified unit of measure.
+            Converts a <see cref="T:System.Int16" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.Int16" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -678,7 +676,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.UInt16,``0)">
             <summary>
-               Converts a <see cref="T:System.UInt16" /> into a quantity using the specified unit of measure.
+            Converts a <see cref="T:System.UInt16" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.UInt16" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -687,7 +685,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.SByte,``0)">
             <summary>
-               Converts an <see cref="T:System.SByte" /> into a quantity using the specified unit of measure.
+            Converts an <see cref="T:System.SByte" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.SByte" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -696,7 +694,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``1(System.Byte,``0)">
             <summary>
-               Converts a <see cref="T:System.Byte" /> into a quantity using the specified unit of measure.
+            Converts a <see cref="T:System.Byte" /> into a quantity using the specified unit of measure.
             </summary>
             <param name="rawValue">The <see cref="T:System.Byte" /> to convert.</param>
             <param name="unitOfMeasure">The unit of measure to use.</param>
@@ -705,8 +703,8 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As``2(Jcd.Units.Quantity{``0},``1)">
             <summary>
-               Converts an existing <see cref="T:Jcd.Units.Quantity`1" /> into a new quantity replacing the existing units of measure with
-               the the specified unit of measure, WITHOUT CONVERSION.
+            Converts an existing <see cref="T:Jcd.Units.Quantity`1" /> into a new quantity replacing the existing units of measure with
+            the the specified unit of measure, WITHOUT CONVERSION.
             </summary>
             <param name="quantity">The <see cref="T:Jcd.Units.Quantity`1" /> to convert.</param>
             <param name="unitOfMeasure">The new unit of measure to use.</param>
@@ -716,7 +714,7 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.As(System.TimeSpan,Jcd.Units.UnitTypes.Duration)">
             <summary>
-               Converts a <see cref="T:System.TimeSpan" /> to a <see cref="T:Jcd.Units.UnitTypes.Duration" /> represented as the specified unit of time.
+            Converts a <see cref="T:System.TimeSpan" /> to a <see cref="T:Jcd.Units.UnitTypes.Duration" /> represented as the specified unit of time.
             </summary>
             <param name="timeSpan">The <see cref="T:System.TimeSpan" /> to convert.</param>
             <param name="timeUnit">The <see cref="T:Jcd.Units.UnitTypes.Duration" /> unit of measure to convert to.</param>
@@ -724,20 +722,20 @@
         </member>
         <member name="M:Jcd.Units.QuantityFactoryExtensions.ToTimeSpan(Jcd.Units.Quantity{Jcd.Units.UnitTypes.Duration})">
             <summary>
-               Converts a <see cref="T:Jcd.Units.UnitTypes.Duration" /> to a <see cref="T:System.TimeSpan" />
+            Converts a <see cref="T:Jcd.Units.UnitTypes.Duration" /> to a <see cref="T:System.TimeSpan" />
             </summary>
             <param name="duration">The <see cref="T:Jcd.Units.UnitTypes.Duration" /> to convert.</param>
             <returns>The <see cref="T:System.TimeSpan" /> representation of the <see cref="T:Jcd.Units.UnitTypes.Duration" /> </returns>
         </member>
         <member name="T:Jcd.Units.QMath">
             <summary>
-               Provides static common mathematical functions performed on instances of <see cref="T:Jcd.Units.Quantity`1" />.
-               This parallels and uses many of the <see cref="T:System.Math" /> implementations.
+            Provides static common mathematical functions performed on instances of <see cref="T:Jcd.Units.Quantity`1" />.
+            This parallels and uses many of the <see cref="T:System.Math" /> implementations.
             </summary>
         </member>
         <member name="M:Jcd.Units.QMath.Abs``1(Jcd.Units.Quantity{``0})">
             <summary>
-               Returns the absolute value of a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.
+            Returns the absolute value of a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.
             </summary>
             <param name="quantity">The quantity</param>
             <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
@@ -745,7 +743,7 @@
         </member>
         <member name="T:Jcd.Units.UnitOfMeasure`1">
             <summary>
-               Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
+            Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
             </summary>
             <param name="Name">The name of this unit</param>
             <param name="Symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
@@ -754,7 +752,7 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,System.Double,System.Double)">
             <summary>
-               Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
+            Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
             </summary>
             <param name="Name">The name of this unit</param>
             <param name="Symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
@@ -775,7 +773,7 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,`0,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
             <summary>
-               Constructs a unit of measure using another <see cref="T:Jcd.Units.UnitOfMeasure`1" /> as a base.
+            Constructs a unit of measure using another <see cref="T:Jcd.Units.UnitOfMeasure`1" /> as a base.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
@@ -786,44 +784,44 @@
         </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.DefaultDoubleComparer">
             <summary>
-               Sets the <see cref="T:Jcd.Units.IValueComparer`1" /> used by units of measure for this particular unit of
-               measure type. (e.g. lengths.)
+            Sets the <see cref="T:Jcd.Units.IValueComparer`1" /> used by units of measure for this particular unit of
+            measure type. (e.g. lengths.)
             </summary>
         </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.Comparer">
             <summary>
-               The <see cref="T:Jcd.Units.IValueComparer`1" /> used for comparisons: where <c>T</c> is a <see cref="T:System.Double" />.
+            The <see cref="T:Jcd.Units.IValueComparer`1" /> used for comparisons: where <c>T</c> is a <see cref="T:System.Double" />.
             </summary>
             <remarks>
-               If not assigned during initialization, this returns <see cref="T:Jcd.Units.UnitOfMeasure`1" />
-               type specific comparison (e.g. Temperatures) or and the globally configured comparer.
+            If not assigned during initialization, this returns <see cref="T:Jcd.Units.UnitOfMeasure`1" />
+            type specific comparison (e.g. Temperatures) or and the globally configured comparer.
             </remarks>
         </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.FundamentalUnit">
             <summary>
-               The unit of measure all others are represented in terms of.
+            The unit of measure all others are represented in terms of.
             </summary>
         </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.BaseUnit">
             <summary>
-               The unit of measure this one was defined in terms of.
+            The unit of measure this one was defined in terms of.
             </summary>
         </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.IsFundamentalUnit">
             <summary>
-               Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
+            Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.Equals(Jcd.Units.UnitOfMeasure{`0})">
             <summary>
-               Compares this <see cref="T:Jcd.Units.UnitOfMeasure`1" /> to another one for equality.
+            Compares this <see cref="T:Jcd.Units.UnitOfMeasure`1" /> to another one for equality.
             </summary>
             <param name="other">The other <see cref="T:Jcd.Units.UnitOfMeasure`1" /> to compare against.</param>
             <returns>true if equivalent, false otherwise.</returns>
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.GetHashCode">
             <summary>
-               Computes the hash code for this <see cref="T:Jcd.Units.UnitOfMeasure`1" />
+            Computes the hash code for this <see cref="T:Jcd.Units.UnitOfMeasure`1" />
             </summary>
             <returns>The computed hashcode.</returns>
         </member>
@@ -832,14 +830,14 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.CompareTo(`0)">
             <summary>
-               Performs a relative comparison between this <see cref="T:Jcd.Units.UnitOfMeasure`1" /> and another one.
+            Performs a relative comparison between this <see cref="T:Jcd.Units.UnitOfMeasure`1" /> and another one.
             </summary>
             <param name="other">The <see cref="T:Jcd.Units.UnitOfMeasure`1" /> to compare against.</param>
             <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.CompareTo(System.Object)">
             <summary>
-               Performs a relative comparison between this <see cref="T:Jcd.Units.UnitOfMeasure`1" /> and another one.
+            Performs a relative comparison between this <see cref="T:Jcd.Units.UnitOfMeasure`1" /> and another one.
             </summary>
             <param name="obj">The <see cref="T:Jcd.Units.UnitOfMeasure`1" /> to compare against.</param>
             <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
@@ -847,7 +845,7 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.op_LessThan(Jcd.Units.UnitOfMeasure{`0},Jcd.Units.UnitOfMeasure{`0})">
             <summary>
-               Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1" /> instances to determine if the left one is less than the right one.
+            Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1" /> instances to determine if the left one is less than the right one.
             </summary>
             <param name="left">The left <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
             <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
@@ -855,8 +853,8 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.op_GreaterThan(Jcd.Units.UnitOfMeasure{`0},Jcd.Units.UnitOfMeasure{`0})">
             <summary>
-               Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1" /> instances to determine if the left one is greater than the right
-               one.
+            Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1" /> instances to determine if the left one is greater than the right
+            one.
             </summary>
             <param name="left">The left <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
             <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
@@ -864,8 +862,8 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.op_LessThanOrEqual(Jcd.Units.UnitOfMeasure{`0},Jcd.Units.UnitOfMeasure{`0})">
             <summary>
-               Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1" /> instances to determine if the left one is less than or equal to the
-               right one.
+            Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1" /> instances to determine if the left one is less than or equal to the
+            right one.
             </summary>
             <param name="left">The left <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
             <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
@@ -873,8 +871,8 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.op_GreaterThanOrEqual(Jcd.Units.UnitOfMeasure{`0},Jcd.Units.UnitOfMeasure{`0})">
             <summary>
-               Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1" /> instances to determine if the left one is greater than or equal to
-               the right one.
+            Compares two <see cref="T:Jcd.Units.UnitOfMeasure`1" /> instances to determine if the left one is greater than or equal to
+            the right one.
             </summary>
             <param name="left">The left <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
             <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
@@ -894,49 +892,49 @@
         </member>
         <member name="T:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy">
             <summary>
-               Globally registered
+            Globally registered
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.Default">
             <summary>
-               The default strategy used in selecting a unit of measure for comparison and/or arithmetic operations.
+            The default strategy used in selecting a unit of measure for comparison and/or arithmetic operations.
             </summary>
         </member>
         <member name="P:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.ForArithmetic">
             <summary>
-               The globally registered Unit of Measure selection strategy used for arithmetic operators.
-               Results will be returned in the unit of measure selected by this unit selection strategy.
-               By default this is the <see cref="T:Jcd.Units.UnitSelection.SelectLargerUnit" /> implementation.
+            The globally registered Unit of Measure selection strategy used for arithmetic operators.
+            Results will be returned in the unit of measure selected by this unit selection strategy.
+            By default this is the <see cref="T:Jcd.Units.UnitSelection.SelectLargerUnit" /> implementation.
             </summary>
             <remarks>
-               This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
-               outside of your application's startup code.
+            This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
+            outside of your application's startup code.
             </remarks>
         </member>
         <member name="P:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy.ForComparison">
             <summary>
-               The globally registered Unit of Measure selection strategy used for comparison operators.
-               Operands will be compared in the units selected by this unit selection strategy.
-               By default this is the <see cref="T:Jcd.Units.UnitSelection.SelectLargerUnit" /> implementation.
+            The globally registered Unit of Measure selection strategy used for comparison operators.
+            Operands will be compared in the units selected by this unit selection strategy.
+            By default this is the <see cref="T:Jcd.Units.UnitSelection.SelectLargerUnit" /> implementation.
             </summary>
             <remarks>
-               NOTES:
-               1. Before changing this consider if this will impact the DoubleComparers you have registered (either in
-               <see cref="T:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy" />'s <c>Quantity</c> property, or instance level registrations.
-               (i.e. if the operands are converted to a unit with greater or fewer digits after the decimal point, your comparisons
-               may not return the expected results. Always do trial runs first to ensure the expected behavior.)
-               2. This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
-               outside of your application's startup code.
+            NOTES:
+            1. Before changing this consider if this will impact the DoubleComparers you have registered (either in
+            <see cref="T:Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy" />'s <c>Quantity</c> property, or instance level registrations.
+            (i.e. if the operands are converted to a unit with greater or fewer digits after the decimal point, your comparisons
+            may not return the expected results. Always do trial runs first to ensure the expected behavior.)
+            2. This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
+            outside of your application's startup code.
             </remarks>
         </member>
         <member name="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy">
             <summary>
-               Defines the interface for selecting between two units of measure.
+            Defines the interface for selecting between two units of measure.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit``1(``0,``0)">
             <summary>
-               Given two units of measure, return the one indicated by the strategy.
+            Given two units of measure, return the one indicated by the strategy.
             </summary>
             <param name="left">The first unit of measure to consider.</param>
             <param name="right">The second unit of measure to consider.</param>
@@ -945,23 +943,23 @@
         </member>
         <member name="T:Jcd.Units.UnitSelection.SelectFundamentalUnit">
             <summary>
-               Selects the fundamental unit of measure. This should be the same for both so unit1 is used.
+            Selects the fundamental unit of measure. This should be the same for both so unit1 is used.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance">
             <summary>
-               The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectFundamentalUnit.#ctor">
             <summary>
-               Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance" /> enforcing GC
-               friendliness.)
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance" /> enforcing GC
+            friendliness.)
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectFundamentalUnit.SelectUnit``1(``0,``0)">
             <summary>
-               Selects the fundamental unit of measure. This should be the same for both so unit1 is used.
+            Selects the fundamental unit of measure. This should be the same for both so unit1 is used.
             </summary>
             <param name="left">The first unit to consider</param>
             <param name="right">The second unit to consider.</param>
@@ -970,23 +968,23 @@
         </member>
         <member name="T:Jcd.Units.UnitSelection.SelectLargerUnit">
             <summary>
-               Selects the larger of two units of measure.
+            Selects the larger of two units of measure.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitSelection.SelectLargerUnit.Instance">
             <summary>
-               The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectLargerUnit.#ctor">
             <summary>
-               Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectLargerUnit.Instance" /> enforcing GC
-               friendliness.)
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectLargerUnit.Instance" /> enforcing GC
+            friendliness.)
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit``1(``0,``0)">
             <summary>
-               Selects the larger of two units of measure.
+            Selects the larger of two units of measure.
             </summary>
             <param name="left">The first unit to consider</param>
             <param name="right">The second unit to consider.</param>
@@ -995,23 +993,23 @@
         </member>
         <member name="T:Jcd.Units.UnitSelection.SelectLeftUnit">
             <summary>
-               Selects the left hand side of two units of measure.
+            Selects the left hand side of two units of measure.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitSelection.SelectLeftUnit.Instance">
             <summary>
-               The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectLeftUnit.#ctor">
             <summary>
-               Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectLeftUnit.Instance" /> enforcing GC
-               friendliness.)
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectLeftUnit.Instance" /> enforcing GC
+            friendliness.)
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectLeftUnit.SelectUnit``1(``0,``0)">
             <summary>
-               Selects the left hand side of two units of measure.
+            Selects the left hand side of two units of measure.
             </summary>
             <param name="left">The first unit to consider</param>
             <param name="right">The second unit to consider.</param>
@@ -1020,23 +1018,23 @@
         </member>
         <member name="T:Jcd.Units.UnitSelection.SelectRightUnit">
             <summary>
-               Selects the right hand side of two units of measure.
+            Selects the right hand side of two units of measure.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitSelection.SelectRightUnit.Instance">
             <summary>
-               The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectRightUnit.#ctor">
             <summary>
-               Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectRightUnit.Instance" /> enforcing GC
-               friendliness.)
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectRightUnit.Instance" /> enforcing GC
+            friendliness.)
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectRightUnit.SelectUnit``1(``0,``0)">
             <summary>
-               Selects the right hand side of two units of measure.
+            Selects the right hand side of two units of measure.
             </summary>
             <param name="left">The first unit to consider</param>
             <param name="right">The second unit to consider.</param>
@@ -1045,23 +1043,23 @@
         </member>
         <member name="T:Jcd.Units.UnitSelection.SelectSmallerUnit">
             <summary>
-               Selects the smaller of two units of measure.
+            Selects the smaller of two units of measure.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitSelection.SelectSmallerUnit.Instance">
             <summary>
-               The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
+            The default (and only) instance of this <see cref="T:Jcd.Units.UnitSelection.IUnitSelectionStrategy" />.
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectSmallerUnit.#ctor">
             <summary>
-               Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectSmallerUnit.Instance" /> enforcing GC
-               friendliness.)
+            Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="F:Jcd.Units.UnitSelection.SelectSmallerUnit.Instance" /> enforcing GC
+            friendliness.)
             </summary>
         </member>
         <member name="M:Jcd.Units.UnitSelection.SelectSmallerUnit.SelectUnit``1(``0,``0)">
             <summary>
-               Selects the smaller of two units of measure.
+            Selects the smaller of two units of measure.
             </summary>
             <param name="left">The first unit to consider</param>
             <param name="right">The second unit to consider.</param>
@@ -5691,8 +5689,8 @@
         </member>
         <member name="T:Jcd.Units.UnitTypes.NamespaceDoc">
             <summary>
-               Provides classes to aid in creating various types of units of measure
-               for use with <see cref="T:Jcd.Units.Quantity`1" />
+            Provides classes to aid in creating various types of units of measure
+            for use with <see cref="T:Jcd.Units.Quantity`1" />
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitTypes.Power">

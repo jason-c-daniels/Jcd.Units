@@ -52,11 +52,11 @@
    </ItemGroup>
 
    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-      <DocumentationFile>..\docs\Jcd.Units.xml</DocumentationFile>
+      <DocumentationFile>..\docs\api\Jcd.Units.xml</DocumentationFile>
    </PropertyGroup>
 
    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-      <DocumentationFile>..\docs\Jcd.Units.xml</DocumentationFile>
+      <DocumentationFile>..\docs\api\Jcd.Units.xml</DocumentationFile>
    </PropertyGroup>
 
 </Project>
