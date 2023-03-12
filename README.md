@@ -57,10 +57,8 @@ prevents this.
 The two core classes provided are `UnitOfMeasure<TDerived>` and `Quantity<TUnit>`.
 In both cases `TUnit` is the type derived off of `UnitOfMeasure`.
 This idiomatic method of coding, in part, provides the foundation for the arithmetic
-and relational type safety. The rest is defined in
-
-`Quantity<TUnit>` can perform arithmetic operations on itself and against `doubles`.
-A `Quantity<TUnit>` is always the result.
+and relational type safety. The rest is defined in `Quantity<TUnit>`, which can perform
+arithmetic operations on itself and against `doubles`. A `Quantity<TUnit>` is always the result.
 
 ### Ease of Use Methods and Extensions
 
@@ -79,9 +77,14 @@ using Jcd.Units.UnitsOfMeasure;
 // capture the units for readability
 var second = Durations.Second;
 var ms = Durations.Millisecond;
+var min = Durations.Minute;
 
 var oneSecond = 1.As(second); // oneSecond is of type Quantity<Duration> with a RawValue of 1.00d, and a Unit of Second 
 var oneSInMs = oneSecond.To(ms); // oneSInMs is of type Quantity<Duration> with a RawValue of 1,000.00d and a Unit of Millisecond
+
+var ts = oneSInMs.ToTimeStamp(); // convert the milliseconds to a TimeStamp
+var minDur = ts.As(min); // convert the TimeStamp to its minutes representation.
+
 ```
 
 ## Feature Limitations
