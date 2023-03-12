@@ -14,4 +14,4 @@ A clear and concise description of how you want it to happen.
 A clear and concise description of any alternative solutions or features you've considered.
 
 ### Additional context (OPTIONAL)
-Add any other context or screenshots about the feature request here.
+Add any other information about the feature or the reason it's being requested goes here.
