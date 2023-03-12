@@ -15,12 +15,13 @@ namespace Jcd.Units.UnitSelection;
 public sealed class SelectFundamentalUnit : IUnitSelectionStrategy
 {
    /// <summary>
-   /// The default (and only) instance of this <see cref="IUnitSelectionStrategy"/>.
+   /// The default (and only) instance of this <see cref="IUnitSelectionStrategy" />.
    /// </summary>
    public static readonly SelectFundamentalUnit Instance = new ();
 
    /// <summary>
-   /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance"/> enforcing GC friendliness.)
+   /// Prevent others from instantiating it because I'm mean. (Forces the use of <see cref="Instance" /> enforcing GC
+   /// friendliness.)
    /// </summary>
    private SelectFundamentalUnit() { }
 

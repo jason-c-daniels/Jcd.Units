@@ -3,7 +3,8 @@
 
 ## IValueComparer<T> Interface
 
-Defines a marker interface used to enforce providing both relational (CompareTo) and equality comparisons on a given type.
+Defines a marker interface used to enforce providing both relational (CompareTo) and equality comparisons on a given  
+type.
 
 ```csharp
 public interface IValueComparer<in T>
@@ -23,4 +24,5 @@ Derived
 ### Remarks
 This type is used to provide stable hash codes (i.e. hash codes that are identical for values  
 that the implementation compares as equivalent.) and comparison implementations to provide  
-application defined comparison operations. It's most useful for [System.Single](https://docs.microsoft.com/en-us/dotnet/api/System.Single 'System.Single'), [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double') and custom data types.
+application defined comparison operations. It's most useful for [System.Single](https://docs.microsoft.com/en-us/dotnet/api/System.Single 'System.Single'), [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double') and  
+custom data types.

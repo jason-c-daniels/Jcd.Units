@@ -2,6 +2,7 @@
 Amount,Amount,Amounts,"A measurement of an arbitrary quantity, number or value of something."
 Area,Area,Areas,"A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object,...etc."
 Acceleration,Acceleration,Accelerations,"A measurement of rate at which velocity changes with time, in terms of both speed and direction."
+Angle,Angle,Angles,A measurement of the space between two intersecting lines or surfaces at or close to the point where they meet.
 Capacitance,Capacitance,Capacitances,A measurement of the ability of a system to store an electric charge.
 Catalytic Activity,CatalyticActivity,CatalyticActivities,A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst.
 Duration,Duration,Durations,A measurement of a length of time.

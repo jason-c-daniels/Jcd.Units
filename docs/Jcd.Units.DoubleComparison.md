@@ -4,7 +4,7 @@
 
 | Classes | |
 | :--- | :--- |
-| [GlobalDoubleComparisonStrategy](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy') | Provides global fallback double comparison strategies used by [Quantity](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity') and [UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure'). |
+| [GlobalDoubleComparisonStrategy](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy') | Provides global fallback double comparison strategies used by [Quantity](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity') and<br/>[UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure'). |
 
 | Structs | |
 | :--- | :--- |

@@ -15,4 +15,5 @@ public static Jcd.Units.UnitSelection.IUnitSelectionStrategy ForArithmetic { get
 [IUnitSelectionStrategy](Jcd.Units.UnitSelection.IUnitSelectionStrategy.md 'Jcd.Units.UnitSelection.IUnitSelectionStrategy')
 
 ### Remarks
-This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
+This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it  
+outside of your application's startup code.

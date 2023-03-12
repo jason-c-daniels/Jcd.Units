@@ -1,7 +1,11 @@
 ﻿#region
 
+using Jcd.Units.DoubleComparison;
 using Jcd.Units.Tests._Fakes;
 using Jcd.Units.UnitsOfMeasure;
+using Jcd.Units.UnitsOfMeasure.SI;
+
+using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 
 #endregion
 
@@ -201,11 +205,37 @@ public class QuantityFactoryExtensionsTests
 
    [Theory]
    [InlineData(1000d)]
+   [InlineData(1000d / 3)]
+   [InlineData(3333d / 3.3)]
+   [InlineData(22d   / 7d)]
+   public void As_Replace_Length_With_Temperature_Returns_Expected_Value(double value)
+   {
+      var l = value.As(Lengths.Attometer);
+      var t = l.As(Temperatures.DegreesKelvin);
+
+      Assert.Equal(value, (double)t);
+      Assert.Equal(Temperatures.DegreesKelvin, t.Unit);
+   }
+
+   [Theory]
+   [InlineData(1000d)]
+   [InlineData(1000d / 3d)]
    public void TimeSpan_As_Duration_Returns_Expected_Value(double expectedTotalMilliseconds)
    {
       var ts = new TimeSpan((long)expectedTotalMilliseconds * 10000);
       var q  = ts.As(Durations.Millisecond);
 
       Assert.Equal(ts.TotalMilliseconds, q.RawValue);
+   }
+
+   [Theory]
+   [InlineData(1000d)]
+   [InlineData(1000d / 3d)]
+   public void Duration_ToTimeSpan_Returns_Expected_Value(double expectedTotalMilliseconds)
+   {
+      var q        = expectedTotalMilliseconds.As(Durations.Millisecond);
+      var ts       = q.ToTimeSpan(); //new TimeSpan((long)expectedTotalMilliseconds * 10000);
+      var comparer = new BuiltInRoundingComparer(4);
+      Assert.Equal(q.RawValue, ts.TotalMilliseconds, comparer);
    }
 }

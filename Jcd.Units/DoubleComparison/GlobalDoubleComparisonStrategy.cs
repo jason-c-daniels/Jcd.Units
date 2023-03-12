@@ -3,7 +3,8 @@
 namespace Jcd.Units.DoubleComparison;
 
 /// <summary>
-/// Provides global fallback double comparison strategies used by <see cref="Quantity"/> and <see cref="UnitOfMeasure"/>.
+/// Provides global fallback double comparison strategies used by <see cref="Quantity" /> and
+/// <see cref="UnitOfMeasure" />.
 /// </summary>
 /// <remarks>
 /// For performance reasons the properties within are not thread safe.
@@ -22,10 +23,11 @@ public static class GlobalDoubleComparisonStrategy
    private static IValueComparer<double> _unitOfMeasure = Default;
 
    /// <summary>
-   /// The registered double comparer used by Quantities, by default. 
+   /// The registered double comparer used by Quantities, by default.
    /// </summary>
    /// <remarks>
-   /// This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
+   /// This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
+   /// outside of your application's startup code.
    /// </remarks>
    public static IValueComparer<double>? Quantity
    {
@@ -34,10 +36,12 @@ public static class GlobalDoubleComparisonStrategy
    }
 
    /// <summary>
-   /// The globally registered double comparer used for comparing <see cref="UnitOfMeasure"/> instances. It's unlikely that you will actually need to set this to anything other than the default (bitwise comparison)
+   /// The globally registered double comparer used for comparing <see cref="UnitOfMeasure" /> instances. It's unlikely
+   /// that you will actually need to set this to anything other than the default (bitwise comparison)
    /// </summary>
    /// <remarks>
-   /// This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it outside of your application's startup code.
+   /// This is not a thread safe property. Synchronize your code around setting/getting this if you plan on setting it
+   /// outside of your application's startup code.
    /// </remarks>
    public static IValueComparer<double>? UnitOfMeasure
    {

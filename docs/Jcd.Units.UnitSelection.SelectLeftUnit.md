@@ -16,7 +16,7 @@ Implements [IUnitSelectionStrategy](Jcd.Units.UnitSelection.IUnitSelectionStrate
 
 | Constructors | |
 | :--- | :--- |
-| [SelectLeftUnit()](Jcd.Units.UnitSelection.SelectLeftUnit.SelectLeftUnit().md 'Jcd.Units.UnitSelection.SelectLeftUnit.SelectLeftUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](Jcd.Units.UnitSelection.SelectLeftUnit.Instance.md 'Jcd.Units.UnitSelection.SelectLeftUnit.Instance') enforcing GC friendliness.) |
+| [SelectLeftUnit()](Jcd.Units.UnitSelection.SelectLeftUnit.SelectLeftUnit().md 'Jcd.Units.UnitSelection.SelectLeftUnit.SelectLeftUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](Jcd.Units.UnitSelection.SelectLeftUnit.Instance.md 'Jcd.Units.UnitSelection.SelectLeftUnit.Instance') enforcing GC<br/>friendliness.) |
 
 | Fields | |
 | :--- | :--- |

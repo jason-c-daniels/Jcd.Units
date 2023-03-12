@@ -6,7 +6,7 @@
 The base of all unit of measure enumerations in this library.
 
 ```csharp
-public class Enumeration<TEnumeration,T>
+public class Enumeration<TEnumeration,T> : Jcd.Units.EnumerationBase<TEnumeration, T>
     where T : IEquatable<T>, Jcd.Units.IUnitOfMeasure<T>
 ```
 #### Type parameters
@@ -23,15 +23,17 @@ The enumeration type.
 
 The type of the enumerated members.
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; Enumeration<TEnumeration,T>
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.EnumerationBase&lt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[TEnumeration](Jcd.Units.Enumeration_TEnumeration,T_.md#Jcd.Units.Enumeration_TEnumeration,T_.TEnumeration 'Jcd.Units.Enumeration<TEnumeration,T>.TEnumeration')[,](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[T](Jcd.Units.Enumeration_TEnumeration,T_.md#Jcd.Units.Enumeration_TEnumeration,T_.T 'Jcd.Units.Enumeration<TEnumeration,T>.T')[&gt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>') &#129106; Enumeration<TEnumeration,T>
 
 Derived  
 &#8627; [Amounts](Jcd.Units.UnitsOfMeasure.Amounts.md 'Jcd.Units.UnitsOfMeasure.Amounts')  
+&#8627; [Angles](Jcd.Units.UnitsOfMeasure.Angles.md 'Jcd.Units.UnitsOfMeasure.Angles')  
 &#8627; [Lengths](Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths')  
 &#8627; [Masses](Jcd.Units.UnitsOfMeasure.Astronomical.Masses.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses')  
 &#8627; [Durations](Jcd.Units.UnitsOfMeasure.Durations.md 'Jcd.Units.UnitsOfMeasure.Durations')  
 &#8627; [Lengths](Jcd.Units.UnitsOfMeasure.Imperial.Lengths.md 'Jcd.Units.UnitsOfMeasure.Imperial.Lengths')  
 &#8627; [Amounts](Jcd.Units.UnitsOfMeasure.SI.Amounts.md 'Jcd.Units.UnitsOfMeasure.SI.Amounts')  
+&#8627; [Angles](Jcd.Units.UnitsOfMeasure.SI.Angles.md 'Jcd.Units.UnitsOfMeasure.SI.Angles')  
 &#8627; [Capacitances](Jcd.Units.UnitsOfMeasure.SI.Capacitances.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances')  
 &#8627; [CatalyticActivities](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities')  
 &#8627; [ElectricalCharges](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges')  
@@ -66,7 +68,3 @@ Derived
 | :--- | :--- |
 | [ByName](Jcd.Units.Enumeration_TEnumeration,T_.ByName.md 'Jcd.Units.Enumeration<TEnumeration,T>.ByName') | Looks up an enumerated unit of measure by name. |
 | [BySymbol](Jcd.Units.Enumeration_TEnumeration,T_.BySymbol.md 'Jcd.Units.Enumeration<TEnumeration,T>.BySymbol') | Looks up an enumerated unit of measure by symbol. |
-
-| Methods | |
-| :--- | :--- |
-| [GetAll()](Jcd.Units.Enumeration_TEnumeration,T_.GetAll().md 'Jcd.Units.Enumeration<TEnumeration,T>.GetAll()') | Retrieves all public static properties of type [T](Jcd.Units.Enumeration_TEnumeration,T_.md#Jcd.Units.Enumeration_TEnumeration,T_.T 'Jcd.Units.Enumeration<TEnumeration,T>.T')<br/>on the derived enumeration [TEnumeration](Jcd.Units.Enumeration_TEnumeration,T_.md#Jcd.Units.Enumeration_TEnumeration,T_.TEnumeration 'Jcd.Units.Enumeration<TEnumeration,T>.TEnumeration') |

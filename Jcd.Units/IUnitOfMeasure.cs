@@ -7,7 +7,7 @@ namespace Jcd.Units;
 /// <summary>
 /// The interface defining what every unit of measure must support.
 /// </summary>
-/// <typeparam name="TUnit">The type deriving from <see cref="IUnitOfMeasure{TUnit}"/></typeparam>
+/// <typeparam name="TUnit">The type deriving from <see cref="IUnitOfMeasure{TUnit}" /></typeparam>
 /// <remarks>
 /// By ensuring that all units of measure provide their own type to the interface
 /// we guarantee compile time detection of certain classes of errors.
@@ -73,7 +73,7 @@ public interface IUnitOfMeasure<TUnit>
 
    /// <summary>
    /// Given a coefficient, calculate the equivalent coefficient for the
-   /// fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0) 
+   /// fundamental unit of measure. (i.e. the one with Coeff. = 1 and Offset = 0)
    /// </summary>
    /// <param name="coefficient">The coefficient to normalize.</param>
    /// <returns>The coefficient for the fundamental unit of measure.</returns>
@@ -82,7 +82,7 @@ public interface IUnitOfMeasure<TUnit>
    /// <summary>
    /// Given an offset and the coefficient for converting to the fundamental unit
    /// of measure, calculate the equivalent offset for the fundamental unit of measure.
-   /// (i.e. the one with Coeff = 1 and Offset = 0) 
+   /// (i.e. the one with Coeff = 1 and Offset = 0)
    /// </summary>
    /// <param name="offset">The offset to normalize.</param>
    /// <param name="fundamentalCoefficient">The coefficient for converting to the fundamental unit of measure.</param>

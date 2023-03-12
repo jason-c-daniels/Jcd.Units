@@ -1,11 +1,8 @@
 ﻿#region
 
-using System.Diagnostics;
-
 using Jcd.Units;
-using Jcd.Units.DoubleComparison;
 using Jcd.Units.Examples;
-using Jcd.Units.UnitSelection;
+using Jcd.Units.Examples.Perf;
 using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitsOfMeasure.SI;
 using Jcd.Units.UnitTypes;
@@ -28,24 +25,17 @@ using US = Jcd.Units.UnitsOfMeasure.USCustomary;
 
 #endregion
 
-var foo = Math.Round(5555.0d, 0, MidpointRounding.ToEven);
-
-// define/reference the units in use in this program
-var GHz = Frequencies.Gigahertz;
-var Hz  = Frequencies.Hertz;
-
-// NB: replace this with the correct GHz for your system.
-var CPU_FREQ       = 3.4.As(GHz);
-var CPU_FREQ_IN_HZ = CPU_FREQ.To(Hz);
-
 const int ITERATIONS =
 #if DEBUG
-                  50_000
+                  100_000
 #else
                   1_000_000
 #endif
          ;
 
+var sysInfo = SystemInfo.Instance;
+
+var cpuFreq = sysInfo.CurrentCPUFrequency;
 var siTemps = Temperatures.BySymbol;
 var temps   = Jcd.Units.UnitsOfMeasure.Temperatures.BySymbol;
 
@@ -57,12 +47,18 @@ var degN  = temps["°N"];
 var ré    = temps["°Ré"];
 var rø    = temps["°Rø"];
 var de    = temps["°De"];
+var t1    = 10.As(C);
 
-RunPerformanceTests(false);
-RunPerformanceTests();
+var perfRunner = PerformanceTestRunner.Instance;
 
-//TimeConversions(ITERATIONS);
-//TimeQuantityComparisonOnSameUnits(ITERATIONS);
+// execute all of the tests without reporting results to get the code JITed.
+// this yield best case performance. Will need to add an option to ensure its fully JITed
+
+for (var zx = 0; zx < 2; zx++)
+   perfRunner.RunAllTests(false);
+
+perfRunner.RunAllTests();
+
 return 0;
 
 var km     = Lengths.Kilometer;
@@ -295,249 +291,3 @@ Console.WriteLine(
                  );
 
 return 0;
-
-i = 100;
-
-void TimeConversions(int iterations, bool report = true)
-{
-   var          q1    = 100.As(C);
-   var          q2    = q1.To(F);
-   var          q3    = q2.To(degRa);
-   var          sw    = new Stopwatch();
-   const double coeff = 2.0;
-   sw.Start();
-
-   // ReSharper disable once VariableHidesOuterVariable
-   for (var i = 0; i < iterations; i++)
-   {
-      q1 = i.As(C);
-      q2 = q1.To(F);
-      q3 = q2.To(degRa);
-   }
-
-   sw.Stop();
-
-   var count  = coeff * iterations;
-   var dur    = sw.Elapsed.As(Durations.Microsecond);
-   var durPer = (dur / count).To(Durations.Nanosecond);
-
-   var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue
-                      * dur.To(Durations.Second)
-                           .RawValue;
-
-   var cpuCyclesPer = totalCpuCycles / count;
-
-   if (!report) return;
-
-   Console.WriteLine($"{count:n0} conversions took {dur:n3} total time on a {CPU_FREQ} processor.");
-   Console.WriteLine($"{durPer:n3} elapsed per conversion.");
-   Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
-   Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per conversion.");
-   var q4 = q3.To(ré); // this prevents the compiler from optimizing away the second assignment
-}
-
-void TimeQuantityMath(int iterations, bool report = true)
-{
-   var          q1    = 100.As(C);
-   var          q2    = q1.To(F);
-   var          q3    = q2.To(degRa);
-   var          sw    = new Stopwatch();
-   const double coeff = 2.0;
-   sw.Start();
-
-   // ReSharper disable once VariableHidesOuterVariable
-   for (var i = 0; i < iterations; i++)
-   {
-      q1 = i.As(C);
-      q2 = 3   * q1 - 7;
-      q3 = 4.0 / q2 + 111;
-   }
-
-   sw.Stop();
-
-   var count  = coeff * iterations;
-   var dur    = sw.Elapsed.As(Durations.Microsecond);
-   var durPer = (dur / count).To(Durations.Nanosecond);
-
-   var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue
-                      * dur.To(Durations.Second)
-                           .RawValue;
-
-   var cpuCyclesPer = totalCpuCycles / count;
-
-   if (!report) return;
-
-   Console.WriteLine($"{count:n0} simple Quantity<T> equations took {dur:n3} total time on a {CPU_FREQ} processor.");
-   Console.WriteLine($"{durPer:n3} elapsed per equation.");
-   Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
-   Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per equation.");
-   var q4 = q3.To(ré); // this prevents the compiler from optimizing away the second equation
-}
-
-void TimeQuantityComparisonOnDifferentUnits(int iterations, bool report = true)
-{
-   var q1 = 100.As(C);
-   var q2 = q1.To(F);
-   var q3 = q2.To(degRa) + 1;
-   var r1 = false;
-   var r2 = false;
-
-   var          sw    = new Stopwatch();
-   const double coeff = 2.0;
-   sw.Start();
-
-   // ReSharper disable once VariableHidesOuterVariable
-   for (var i = 0; i < iterations; i++)
-   {
-      r1 = q1 == q2;
-      r2 = q2 == q3;
-   }
-
-   sw.Stop();
-   var count  = coeff * iterations;
-   var dur    = sw.Elapsed.As(Durations.Microsecond);
-   var durPer = (dur / count).To(Durations.Nanosecond);
-
-   var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue
-                      * dur.To(Durations.Second)
-                           .RawValue;
-
-   var cpuCyclesPer = totalCpuCycles / count;
-
-   if (!report) return;
-
-   Console.WriteLine(
-                     $"{count:n0} simple Quantity<T> comparison on different units took {dur:n3} total time on a {CPU_FREQ} processor."
-                    );
-
-   Console.WriteLine($"{durPer:n3} elapsed per comparison on different units.");
-   Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
-   Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per comparison on different units.");
-   var q4 = q3.To(ré); // this prevents the compiler from optimizing away the second equation
-   var r3 = r2 ^ r1;
-}
-
-void TimeQuantityComparisonOnSameUnits(int iterations, bool report = true)
-{
-   var q1 = 100.As(C);
-   var q2 = q1 + 0;
-   var q3 = q2 + 1;
-   var r1 = false;
-   var r2 = false;
-
-   var          sw    = new Stopwatch();
-   const double coeff = 2.0;
-   sw.Start();
-
-   // ReSharper disable once VariableHidesOuterVariable
-   for (var i = 0; i < iterations; i++)
-   {
-      r1 = q1 == q2;
-      r2 = q2 == q3;
-   }
-
-   sw.Stop();
-   var count  = coeff * iterations;
-   var dur    = sw.Elapsed.As(Durations.Microsecond);
-   var durPer = (dur / count).To(Durations.Nanosecond);
-
-   var totalCpuCycles = CPU_FREQ_IN_HZ.RawValue
-                      * dur.To(Durations.Second)
-                           .RawValue;
-
-   var cpuCyclesPer = totalCpuCycles / count;
-
-   if (!report) return;
-
-   Console.WriteLine(
-                     $"{count:n0} simple Quantity<T> comparison on like units took {dur:n3} total time on a {CPU_FREQ} processor."
-                    );
-
-   Console.WriteLine($"{durPer:n3} elapsed per comparison on like units.");
-   Console.WriteLine($"{totalCpuCycles:n1} total CPU cycles.");
-   Console.WriteLine($"{cpuCyclesPer:n1} CPU cycles per comparison on like units.");
-   var q4 = q3.To(ré); // this prevents the compiler from optimizing away the second equation
-   var r3 = r2 ^ r1;
-}
-
-void ConfigureSettings
-         (
-         IValueComparer<double>? globalUnitofMeasureComparer = null
-       , IValueComparer<double>? globalQuantityComparer = null
-       , IUnitSelectionStrategy? globalMathUnitSelectionStrategy = null
-       , IUnitSelectionStrategy? globalComparisonUnitSelectionStrategy = null
-       , IValueComparer<double>? quantityDoubleComparer = null
-       , SelectLargerUnit? quantityMathUnitSelector = null
-       , SelectLargerUnit? quantityComparisonUnitSelector = null
-         )
-{
-   GlobalDoubleComparisonStrategy.UnitOfMeasure = globalUnitofMeasureComparer ?? GlobalDoubleComparisonStrategy.Default;
-   GlobalDoubleComparisonStrategy.Quantity = globalQuantityComparer ?? GlobalDoubleComparisonStrategy.Default;
-   GlobalUnitSelectionStrategy.ForArithmetic = globalMathUnitSelectionStrategy ?? GlobalUnitSelectionStrategy.Default;
-
-   GlobalUnitSelectionStrategy.ForComparison =
-            globalComparisonUnitSelectionStrategy ?? GlobalUnitSelectionStrategy.Default;
-
-   Quantity<Temperature>.DefaultDoubleComparer  = quantityDoubleComparer;
-   Quantity<Temperature>.ArithmeticUnitSelector = quantityMathUnitSelector;
-   Quantity<Temperature>.ComparisonUnitSelector = quantityComparisonUnitSelector;
-}
-
-void RunPerfSet(string message, bool report = true)
-{
-   if (report)
-   {
-      Console.WriteLine();
-      Console.WriteLine("--------------------------------------------------------------------------");
-      Console.WriteLine($"{message}");
-      Console.WriteLine("--------------------------------------------------------------------------");
-      Console.WriteLine();
-   }
-
-   TimeConversions(ITERATIONS, report);
-   if (report) Console.WriteLine();
-   TimeQuantityMath(ITERATIONS, report);
-   if (report) Console.WriteLine();
-   TimeQuantityComparisonOnDifferentUnits(ITERATIONS, report);
-   if (report) Console.WriteLine();
-   TimeQuantityComparisonOnSameUnits(ITERATIONS, report);
-}
-
-void RunPerformanceTests(bool report = true)
-{
-   ConfigureSettings();
-   RunPerfSet("Performance with default comparers and unit selection strategies", report);
-
-   ConfigureSettings(BuiltInRoundingComparer.FifteenDecimalPlaces, BuiltInRoundingComparer.FifteenDecimalPlaces);
-   RunPerfSet("Performance with rounding comparer to 15 decimal places and default unit selection strategies", report);
-
-   ConfigureSettings(BuiltInRoundingComparer.FiveDecimalPlaces, BuiltInRoundingComparer.FiveDecimalPlaces);
-   RunPerfSet("Performance with rounding comparer to 5 decimal places and default unit selection strategies", report);
-
-   ConfigureSettings(
-                     BuiltInRoundingComparer.FiveDecimalPlaces
-                   , BuiltInRoundingComparer.FiveDecimalPlaces
-                   , SelectLeftUnit.Instance
-                   , SelectLeftUnit.Instance
-                    );
-
-   RunPerfSet(
-              "Performance with rounding comparer to 5 decimal places and select left unit selection strategies"
-            , report
-             );
-
-   ConfigureSettings(
-                     BuiltInRoundingComparer.FifteenDecimalPlaces
-                   , BuiltInRoundingComparer.FifteenDecimalPlaces
-                   , SelectLeftUnit.Instance
-                   , SelectLeftUnit.Instance
-                    );
-
-   RunPerfSet(
-              "Performance with rounding comparer to 15 decimal places and select left unit selection strategies"
-            , report
-             );
-
-   ConfigureSettings(null, null, SelectLeftUnit.Instance, SelectLeftUnit.Instance);
-   RunPerfSet("Performance with binary comparer and select left unit selection strategies", report);
-}

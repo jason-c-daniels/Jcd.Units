@@ -13,11 +13,15 @@ public readonly struct BitwiseDoubleComparer : IValueComparer<double>
    /// <remarks>
    /// <see href="https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/">Comparing Floating Point Numbers 2012 Edition</see>
    /// by Bruce Dawson for a summary of considerations when comparing doubles and why this really isn't the class
-   /// to use for production code. 
+   /// to use for production code.
    /// </remarks>
    /// <param name="x">The left hand operand</param>
    /// <param name="y">the right hand operand</param>
-   /// <returns>-1 if <paramref name="x"/> is less than <paramref name="y"/>, 0 if they're equal and 1 if <paramref name="x"/> is greater than <paramref name="y"/></returns>
+   /// <returns>
+   /// -1 if <paramref name="x" /> is less than <paramref name="y" />,
+   /// 0 if they're equal
+   /// 1 if <paramref name="x" /> is greater than <paramref name="y" />
+   /// </returns>
    public int Compare(double x, double y)
       => x.CompareTo(y);
 

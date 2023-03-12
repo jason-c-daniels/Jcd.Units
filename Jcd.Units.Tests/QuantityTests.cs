@@ -39,6 +39,22 @@ public class QuantityTests : TestBase
 
    #endregion
 
+   #region Explicit Conversion Tests
+
+   [Theory]
+   [InlineData(1d           * 5)]
+   [InlineData(1.3d         * 10)]
+   [InlineData(2.3d         * 100)]
+   [InlineData(1 / 3d       * 500)]
+   [InlineData(11.33333333d * 1000)]
+   public void Explicit_Conversion_Returns_Expected_Value(double expectedValue)
+   {
+      var q = expectedValue.As(Temperatures.DegreesKelvin);
+      Assert.Equal(expectedValue, (double)q);
+   }
+
+   #endregion
+
    #region Unary operator tests
 
    [Theory]

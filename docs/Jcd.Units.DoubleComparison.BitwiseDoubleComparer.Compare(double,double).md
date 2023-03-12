@@ -26,9 +26,13 @@ the right hand operand
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
--1 if [x](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).md#Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).x 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double, double).x') is less than [y](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).md#Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).y 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double, double).y'), 0 if they're equal and 1 if [x](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).md#Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).x 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double, double).x') is greater than [y](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).md#Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).y 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double, double).y')
+-1 if [x](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).md#Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).x 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double, double).x') is less than [y](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).md#Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).y 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double, double).y'), 0 if they're equal and 1 if  
+[x](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).md#Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).x 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double, double).x') is greater than [y](Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).md#Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double,double).y 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer.Compare(double, double).y')
 
 ### Remarks
-[Comparing Floating Point Numbers 2012 Edition](https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/ 'https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/')  
-            by Bruce Dawson for a summary of considerations when comparing doubles and why this really isn't the class  
-            to use for production code.
+[
+                  Comparing
+                  Floating Point Numbers 2012 Edition
+               ](https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/ 'https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/')  
+               by Bruce Dawson for a summary of considerations when comparing doubles and why this really isn't the class  
+               to use for production code.

@@ -13,7 +13,7 @@ public interface IUnitSelectionStrategy
    /// <param name="left">The first unit of measure to consider.</param>
    /// <param name="right">The second unit of measure to consider.</param>
    /// <returns>The unit selected</returns>
-   /// <typeparam name="TUnit">The concrete <see cref="UnitOfMeasure{TUnit}"/> type.</typeparam>
+   /// <typeparam name="TUnit">The concrete <see cref="UnitOfMeasure{TUnit}" /> type.</typeparam>
    TUnit SelectUnit<TUnit>(TUnit left, TUnit right)
             where TUnit : IUnitOfMeasure<TUnit>;
 }

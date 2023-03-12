@@ -12,7 +12,7 @@ namespace Jcd.Units;
 /// Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
 /// </summary>
 /// <param name="Name">The name of this unit</param>
-/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}"/></param>
+/// <param name="Symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}" /></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
 public abstract record UnitOfMeasure<TUnit>
@@ -35,9 +35,9 @@ public abstract record UnitOfMeasure<TUnit>
    /// <param name="name">The name of this unit</param>
    /// <param name="symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <param name="baseUnit">The unit to use as a base</param>
-   /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
-   /// <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
-   /// <param name="comparer">The instance specific <see cref="IValueComparer{T}"/> used for comparisons.</param>
+   /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit" /></param>
+   /// <param name="offset">The offset from the <paramref name="baseUnit" />.</param>
+   /// <param name="comparer">The instance specific <see cref="IValueComparer{T}" /> used for comparisons.</param>
    protected UnitOfMeasure
             (
             string name
@@ -59,19 +59,19 @@ public abstract record UnitOfMeasure<TUnit>
    }
 
    /// <summary>
-   /// Sets the <see cref="IValueComparer{Double}"/> used by units of measure for this particular unit of
-   /// measure type. (e.g. lengths.) 
+   /// Sets the <see cref="IValueComparer{Double}" /> used by units of measure for this particular unit of
+   /// measure type. (e.g. lengths.)
    /// </summary>
 
    // ReSharper disable once StaticMemberInGenericType
    public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
 
    /// <summary>
-   /// The <see cref="IValueComparer{T}"/> used for comparisons: where <c>T</c> is a <see cref="double"/>.
+   /// The <see cref="IValueComparer{T}" /> used for comparisons: where <c>T</c> is a <see cref="double" />.
    /// </summary>
    /// <remarks>
-   /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}"/>
-   /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.  
+   /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}" />
+   /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.
    /// </remarks>
 
    // ReSharper disable once MemberCanBeProtected.Global
@@ -109,9 +109,9 @@ public abstract record UnitOfMeasure<TUnit>
    #region Equality members
 
    /// <summary>
-   /// Compares this <see cref="UnitOfMeasure{TUnit}"/> to another one for equality.
+   /// Compares this <see cref="UnitOfMeasure{TUnit}" /> to another one for equality.
    /// </summary>
-   /// <param name="other">The other <see cref="UnitOfMeasure{TUnit}"/> to compare against.</param>
+   /// <param name="other">The other <see cref="UnitOfMeasure{TUnit}" /> to compare against.</param>
    /// <returns>true if equivalent, false otherwise.</returns>
    public virtual bool Equals(UnitOfMeasure<TUnit>? other)
    {
@@ -123,7 +123,7 @@ public abstract record UnitOfMeasure<TUnit>
    }
 
    /// <summary>
-   /// Computes the hash code for this <see cref="UnitOfMeasure{TUnit}"/>
+   /// Computes the hash code for this <see cref="UnitOfMeasure{TUnit}" />
    /// </summary>
    /// <returns>The computed hashcode.</returns>
    public override int GetHashCode()
@@ -163,9 +163,9 @@ public abstract record UnitOfMeasure<TUnit>
    #region Relational members
 
    /// <summary>
-   /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnit}"/> and another one.
+   /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnit}" /> and another one.
    /// </summary>
-   /// <param name="other">The <see cref="UnitOfMeasure{TUnit}"/> to compare against.</param>
+   /// <param name="other">The <see cref="UnitOfMeasure{TUnit}" /> to compare against.</param>
    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
    public int CompareTo(TUnit? other)
    {
@@ -179,11 +179,11 @@ public abstract record UnitOfMeasure<TUnit>
    }
 
    /// <summary>
-   /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnit}"/> and another one.
+   /// Performs a relative comparison between this <see cref="UnitOfMeasure{TUnit}" /> and another one.
    /// </summary>
-   /// <param name="obj">The <see cref="UnitOfMeasure{TUnit}"/> to compare against.</param>
+   /// <param name="obj">The <see cref="UnitOfMeasure{TUnit}" /> to compare against.</param>
    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
-   /// <exception cref="ArgumentException">When the passed in object is not a <see cref="UnitOfMeasure{TUnit}"/></exception>
+   /// <exception cref="ArgumentException">When the passed in object is not a <see cref="UnitOfMeasure{TUnit}" /></exception>
    public int CompareTo(object? obj)
    {
       if (obj is null) return 1; // sort nulls first.
@@ -194,10 +194,10 @@ public abstract record UnitOfMeasure<TUnit>
    }
 
    /// <summary>
-   /// Compares two <see cref="UnitOfMeasure{TUnit}"/> instances to determine if the left one is less than the right one. 
+   /// Compares two <see cref="UnitOfMeasure{TUnit}" /> instances to determine if the left one is less than the right one.
    /// </summary>
-   /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}"/></param>
-   /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}"/></param>
+   /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}" /></param>
+   /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <returns>true if left is &lt; right; false otherwise.</returns>
    public static bool operator <(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
@@ -210,10 +210,11 @@ public abstract record UnitOfMeasure<TUnit>
    }
 
    /// <summary>
-   /// Compares two <see cref="UnitOfMeasure{TUnit}"/> instances to determine if the left one is greater than the right one. 
+   /// Compares two <see cref="UnitOfMeasure{TUnit}" /> instances to determine if the left one is greater than the right
+   /// one.
    /// </summary>
-   /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}"/></param>
-   /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}"/></param>
+   /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}" /></param>
+   /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <returns>true if left is &gt; right; false otherwise.</returns>
    public static bool operator >(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
@@ -226,10 +227,11 @@ public abstract record UnitOfMeasure<TUnit>
    }
 
    /// <summary>
-   /// Compares two <see cref="UnitOfMeasure{TUnit}"/> instances to determine if the left one is less than or equal to the right one. 
+   /// Compares two <see cref="UnitOfMeasure{TUnit}" /> instances to determine if the left one is less than or equal to the
+   /// right one.
    /// </summary>
-   /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}"/></param>
-   /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}"/></param>
+   /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}" /></param>
+   /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <returns>true if left is &lt;= right; false otherwise.</returns>
    public static bool operator <=(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
@@ -242,10 +244,11 @@ public abstract record UnitOfMeasure<TUnit>
    }
 
    /// <summary>
-   /// Compares two <see cref="UnitOfMeasure{TUnit}"/> instances to determine if the left one is greater than or equal to the right one. 
+   /// Compares two <see cref="UnitOfMeasure{TUnit}" /> instances to determine if the left one is greater than or equal to
+   /// the right one.
    /// </summary>
-   /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}"/></param>
-   /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}"/></param>
+   /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}" /></param>
+   /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <returns>true if left is &gt;= right; false otherwise.</returns>
    public static bool operator >=(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
@@ -261,19 +264,19 @@ public abstract record UnitOfMeasure<TUnit>
 
    #region Conversion Methods
 
-   /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
+   /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double FromBaseUnitValue(double normalizedValue)
       => normalizedValue / Coefficient - Offset;
 
-   /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
+   /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double ToBaseUnitValue(double denormalizedValue)
       => (denormalizedValue + Offset) * Coefficient;
 
-   /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
+   /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double ComputeFundamentalCoefficient(double coefficient)
       => Coefficient * coefficient;
 
-   /// <inheritdoc cref="IUnitOfMeasure{TUnit}"/> 
+   /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double ComputeFundamentalOffset(double fundamentalCoefficient, double offset)
       => IsFundamentalUnit ? offset : ToBaseUnitValue(offset) / fundamentalCoefficient;
 

@@ -9,18 +9,19 @@
 namespace Jcd.Units.Tests._Fakes;
 
 /// <summary>
-/// An implementation of <see cref="IValueComparer{T}"/> for doubles, which
-/// first multiplies the underlying value by provided <see cref="Factor"/>,
-/// then converts to an <see cref="Int64"/> before performing a comparison.
+/// An implementation of <see cref="IValueComparer{T}" /> for doubles, which
+/// first multiplies the underlying value by provided <see cref="Factor" />,
+/// then converts to an <see cref="Int64" /> before performing a comparison.
 /// </summary>
 /// <remarks>
 /// This is a demonstration type to help guide implementation of custom comparison strategies.
-/// It's remarkably limited. Only values that are convertible to an <see cref="Int64"/>, after the base value
-/// is multiplied by the <see cref="Factor"/>, can be compared. An exception is thrown for values out of
-/// that range. As demonstrated below a stable <see cref="GetHashCode"/> must be implemented. (i.e. values that compare
+/// It's remarkably limited. Only values that are convertible to an <see cref="Int64" />, after the base value
+/// is multiplied by the <see cref="Factor" />, can be compared. An exception is thrown for values out of
+/// that range. As demonstrated below a stable <see cref="GetHashCode" /> must be implemented. (i.e. values that compare
 /// as equal must return the same hashcode even for values with bitwise differences.)
-/// Before using this type in production code you need to guarantee that all doubles passed in are convertible to an <see cref="Int64"/>,
-/// after multiplying by the <see cref="Factor"/>if this can't be guaranteed, do not use this class in production code.
+/// Before using this type in production code you need to guarantee that all doubles passed in are convertible to an
+/// <see cref="Int64" />,
+/// after multiplying by the <see cref="Factor" />if this can't be guaranteed, do not use this class in production code.
 /// </remarks>
 public class Int64ConversionComparer : IValueComparer<double>
 {
@@ -47,7 +48,7 @@ public class Int64ConversionComparer : IValueComparer<double>
    public static readonly Int64ConversionComparer NineDecimalPlaces = new (1000 * 1000);
 
    /// <summary>
-   /// Constructs an <see cref="Int64ConversionComparer"/> instance with the given multiplication factor.
+   /// Constructs an <see cref="Int64ConversionComparer" /> instance with the given multiplication factor.
    /// </summary>
    /// <param name="factor">The multiplication factor</param>
    public Int64ConversionComparer(double factor = 1.0)
@@ -61,7 +62,8 @@ public class Int64ConversionComparer : IValueComparer<double>
    public double Factor { get; }
 
    /// <summary>
-   /// Performs the relational comparison on the params after converting to their <see cref="Int64"/> post-multiplication representation. 
+   /// Performs the relational comparison on the params after converting to their <see cref="Int64" /> post-multiplication
+   /// representation.
    /// </summary>
    /// <param name="x">The left hand operand to compare.</param>
    /// <param name="y">The right hand operand to compare.</param>
@@ -75,7 +77,8 @@ public class Int64ConversionComparer : IValueComparer<double>
    }
 
    /// <summary>
-   /// Performs the equivalence comparison on the params after converting to their <see cref="Int64"/> post-multiplication representation. 
+   /// Performs the equivalence comparison on the params after converting to their <see cref="Int64" /> post-multiplication
+   /// representation.
    /// </summary>
    /// <param name="x">The left hand operand to compare.</param>
    /// <param name="y">The right hand operand to compare.</param>
@@ -84,7 +87,7 @@ public class Int64ConversionComparer : IValueComparer<double>
       => Compare(x, y) == 0;
 
    /// <summary>
-   /// Creates a stable hash code for a value based on the <see cref="Factor"/> used for
+   /// Creates a stable hash code for a value based on the <see cref="Factor" /> used for
    /// conversion and comparison.
    /// </summary>
    /// <param name="val">The value to create a hash code for.</param>
@@ -97,7 +100,7 @@ public class Int64ConversionComparer : IValueComparer<double>
    }
 
    /// <summary>
-   /// Multiplies a value by the factor, then converts to an <see cref="Int64"/>
+   /// Multiplies a value by the factor, then converts to an <see cref="Int64" />
    /// </summary>
    /// <param name="dbl">the value to convert.</param>
    /// <returns>The multiplied and converted value.</returns>

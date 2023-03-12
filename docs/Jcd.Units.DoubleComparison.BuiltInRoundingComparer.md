@@ -14,7 +14,7 @@ Implements [Jcd.Units.IValueComparer&lt;](Jcd.Units.IValueComparer_T_.md 'Jcd.Un
 
 | Constructors | |
 | :--- | :--- |
-| [BuiltInRoundingComparer(int, MidpointRounding)](Jcd.Units.DoubleComparison.BuiltInRoundingComparer.BuiltInRoundingComparer(int,MidpointRounding).md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer.BuiltInRoundingComparer(int, MidpointRounding)') | Constructs an instance of [BuiltInRoundingComparer](Jcd.Units.DoubleComparison.BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding method. |
+| [BuiltInRoundingComparer(int, MidpointRounding)](Jcd.Units.DoubleComparison.BuiltInRoundingComparer.BuiltInRoundingComparer(int,MidpointRounding).md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer.BuiltInRoundingComparer(int, MidpointRounding)') | Constructs an instance of [BuiltInRoundingComparer](Jcd.Units.DoubleComparison.BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding<br/>method. |
 
 | Fields | |
 | :--- | :--- |

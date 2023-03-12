@@ -8,6 +8,7 @@ for use with [Quantity&lt;TUnit&gt;](Jcd.Units.Quantity_TUnit_.md 'Jcd.Units.Qua
 | Classes | |
 | :--- | :--- |
 | [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') | A measurement of an arbitrary quantity, number or value of something. |
+| [Angle](Jcd.Units.UnitTypes.Angle.md 'Jcd.Units.UnitTypes.Angle') | A measurement of the space between two intersecting lines or surfaces at or close to the point where they meet. |
 | [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | A measurement of the ability of a system to store an electric charge. |
 | [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') | A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst. |
 | [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') | A measurement of a length of time. |

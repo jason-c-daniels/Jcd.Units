@@ -3,7 +3,8 @@
 
 ## GlobalDoubleComparisonStrategy Class
 
-Provides global fallback double comparison strategies used by [Quantity](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity') and [UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure').
+Provides global fallback double comparison strategies used by [Quantity](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity') and  
+[UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure').
 
 ```csharp
 public static class GlobalDoubleComparisonStrategy
@@ -23,4 +24,4 @@ Your comparison results may be very unstable, even with proper thread synchroniz
 | Properties | |
 | :--- | :--- |
 | [Quantity](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.Quantity') | The registered double comparer used by Quantities, by default. |
-| [UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure') | The globally registered double comparer used for comparing [UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure') instances. It's unlikely that you will actually need to set this to anything other than the default (bitwise comparison) |
+| [UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure') | The globally registered double comparer used for comparing [UnitOfMeasure](Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure.md 'Jcd.Units.DoubleComparison.GlobalDoubleComparisonStrategy.UnitOfMeasure') instances. It's unlikely<br/>that you will actually need to set this to anything other than the default (bitwise comparison) |

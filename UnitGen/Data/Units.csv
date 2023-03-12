@@ -90,6 +90,8 @@ US Survey,Length,furlong,fur,False,SI,meter,201.168,0,3
 US Survey,Length,league,lea,False,SI,meter,4828.032,0,4
 ,Amount,count,ct.,False,,count,1,0,0
 ,Amount,quantity,qty.,False,,count,1,0,1
+SI,Angle,radians,rad,False,SI,radians,1,0,0
+,Angle,degrees,°,False,SI,radians,(180/Math.PI),0,1
 ,Duration,second,s,True,,second,1,0,0
 ,Duration,minute,min,False,,second,60,0,1
 ,Duration,hour,hr,False,,minute,60,0,2
