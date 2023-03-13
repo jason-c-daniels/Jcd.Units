@@ -213,6 +213,46 @@ if (mutatedLength == exactLength)
 }
 ```
 
+### Conversion Among Unit Types
+
+Given the limitations and context sensitivity of when one discards or changes the unit of measure
+applied to a number, four are three things to be aware of.
+
+1. Changing unit of measure is the same as `.RawValue.As(NewUnit)`.
+2. No reference to the old unit of measure is maintained.
+3. Derive units of measure still abide by the `Coeffifient` + `Offset` conversions with the same unit type.
+4. When calculating something like Area, ensure the quantities are in the requisite units of measure
+   as needed by the destination unit of measure. So for calculating a rate as m/s, first convert the
+   Length quantity to meters, and the Duration quantity to seconds, then perform the division, then
+   apply the new unit of measure.
+
+#### Example: Computing Area, Volume, and Rate
+
+```csharp
+using Jcd.Units;
+using Jcd.Units.UnitsOfMeasure;
+using Jcd.Units.UnitsOfMeasure.SI;
+
+/// capture the units for readability.
+var m = Lengths.Meter;
+var dm = Lengths.Decimeter;
+var cm = Lengths.Centimeter;
+var ms = Durations.Millisecond;
+var s = Durations.Second;
+
+var l1 = 10.As(cm);
+var l2 = 20.As(dm);
+var l3 = 30.As(m);
+
+// DON'T do this if you need to convert to area.
+var area = (l1*l2).ReplaceUnit(Areas.SquareCentimeter); // Which unit was actually selected? The default is the larger unit!
+
+// Convert l2 to cm instead.
+var area2 = (l1 * l2.To(cm)).ReplaceUnit(Areas.SquareCentimeter); 
+
+
+```
+
 ## Badges
 
 [![GitHub](https://img.shields.io/github/license/jason-c-daniels/Jcd.Units)](https://github.com/jason-c-daniels/Jcd.Units/blob/main/LICENSE)

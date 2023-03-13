@@ -53,13 +53,13 @@ var perfRunner = PerformanceTestRunner.Instance;
 
 // execute all of the tests without reporting results to get the code JITed.
 // this yield best case performance. Will need to add an option to ensure its fully JITed
-
 for (var zx = 0; zx < 2; zx++)
    perfRunner.RunAllTests(false);
 
 perfRunner.RunAllTests();
 
 return 0;
+
 
 var km     = Lengths.Kilometer;
 var m      = Lengths.Meter;
@@ -72,6 +72,12 @@ var durs = Durations.GetAll()
                     .ToDictionary(x => x.Symbol);
 
 var ms          = durs["ms"];
+
+var onemeter = 1.As(m);
+var onems    = 1.As(ms);
+
+// var rate     = (onemeter / (double)onems.To(Durations.Second)).As(Velocities.MetersPerSecond);
+
 var oneTick     = 1.As(Durations.Tick);
 var oneTickInNs = oneTick.To(Durations.Nanosecond);
 
@@ -94,9 +100,10 @@ var tPs_string = $"{tP1s:n0}";
 var l1 = 1.As(Lengths.Kilometer);
 var l2 = l1 * 2;
 
+
 // Create an area from two lengths.
 // var sqkm=Areas.SquareKilometer;
-// var A  = (l1.To(km) * l2.To(km)).RawValue.As(sqkm);
+// var A  = (l1.To(km) * l2.To(km)).As(sqkm);
 var twip       = Jcd.Units.UnitsOfMeasure.Imperial.Lengths.Twip;
 var parsec     = Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Parsec;
 var ly         = Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightYear;

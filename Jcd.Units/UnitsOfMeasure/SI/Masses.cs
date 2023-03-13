@@ -141,4 +141,9 @@ public class Masses : Enumeration<Masses, Mass>
    /// A(n) quettagram. Defined in terms of a(n) ronnagram.
    /// </summary>
    public static readonly Mass Quettagram = new ("quettagram", "Qg", Ronnagram, 1000, 0);
+
+   /// <summary>
+   /// A(n) metric ton. Defined in terms of a(n) megagram.
+   /// </summary>
+   public static readonly Mass MetricTon = new ("metric ton", "mT", Megagram, 1, 0);
 }

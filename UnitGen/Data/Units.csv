@@ -61,6 +61,7 @@ SI,Luminous Intensity,candela,cd,True,SI,candela,1,0,0
 SI,Magnetic Flux,weber,Wb,True,SI,weber,1,0,0
 SI,Magnetic Flux Density,tesla,T,True,SI,tesla,1,0,0
 SI,Mass,gram,g,True,SI,gram,1,0,0
+SI,Mass,metric ton,mT,False,SI,megagram,1,0,1
 SI,Momentum,newton-second,N⋅s,True,SI,newton-second,1,0,0
 SI,Power,watt,W,True,SI,watt,1,0,0
 SI,Pressure,pascal,Pa,True,SI,pascal,1,0,0

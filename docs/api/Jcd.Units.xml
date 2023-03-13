@@ -701,7 +701,7 @@
             <typeparam name="TUnit">The type of the unit of measure.</typeparam>
             <returns>A new <see cref="T:Jcd.Units.Quantity`1" /> instance.</returns>
         </member>
-        <member name="M:Jcd.Units.QuantityFactoryExtensions.As``2(Jcd.Units.Quantity{``0},``1)">
+        <member name="M:Jcd.Units.QuantityFactoryExtensions.ReplaceUnit``2(Jcd.Units.Quantity{``0},``1)">
             <summary>
             Converts an existing <see cref="T:Jcd.Units.Quantity`1" /> into a new quantity replacing the existing units of measure with
             the the specified unit of measure, WITHOUT CONVERSION.
@@ -4274,6 +4274,11 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.SI.Masses.Quettagram">
             <summary>
             A(n) quettagram. Defined in terms of a(n) ronnagram.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Masses.MetricTon">
+            <summary>
+            A(n) metric ton. Defined in terms of a(n) megagram.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.SI.Momentums">

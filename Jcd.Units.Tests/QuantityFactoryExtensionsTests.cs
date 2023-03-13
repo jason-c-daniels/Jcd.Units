@@ -208,10 +208,10 @@ public class QuantityFactoryExtensionsTests
    [InlineData(1000d / 3)]
    [InlineData(3333d / 3.3)]
    [InlineData(22d   / 7d)]
-   public void As_Replace_Length_With_Temperature_Returns_Expected_Value(double value)
+   public void ReplaceUnit_On_Length_With_Temperature_Returns_Expected_Value(double value)
    {
       var l = value.As(Lengths.Attometer);
-      var t = l.As(Temperatures.DegreesKelvin);
+      var t = l.ReplaceUnit(Temperatures.DegreesKelvin);
 
       Assert.Equal(value, (double)t);
       Assert.Equal(Temperatures.DegreesKelvin, t.Unit);

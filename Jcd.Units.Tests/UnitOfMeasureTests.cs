@@ -112,9 +112,7 @@ public class UnitOfMeasureTests : TestBase
       Assert.False((UnitOfMeasure1)null <= null);
 
       // prevent compiler from griping about comparing to self. This is intentional
-#pragma warning disable 1718
       Assert.True(du <= du);
-#pragma warning restore 1718
       Assert.False(null <= du);
       Assert.False(du   <= null);
    }
@@ -149,9 +147,7 @@ public class UnitOfMeasureTests : TestBase
       Assert.False((UnitOfMeasure1)null >= null);
 
       // prevent compiler from griping about comparing to self. This is intentional
-#pragma warning disable 1718
       Assert.True(du >= du);
-#pragma warning restore 1718
       Assert.False(null >= du);
       Assert.False(du   >= null);
    }

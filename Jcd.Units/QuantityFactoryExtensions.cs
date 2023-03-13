@@ -134,7 +134,7 @@ public static class QuantityFactoryExtensions
    /// <typeparam name="TUnit">The type of unit of measure for the source quantity.</typeparam>
    /// <typeparam name="TNewUnit">The type of the new unit of measure for the new quantity.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
-   public static Quantity<TNewUnit> As<TUnit, TNewUnit>(this Quantity<TUnit> quantity, TNewUnit unitOfMeasure)
+   public static Quantity<TNewUnit> ReplaceUnit<TUnit, TNewUnit>(this Quantity<TUnit> quantity, TNewUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
             where TNewUnit : UnitOfMeasure<TNewUnit>
       => quantity.RawValue.As(unitOfMeasure);

@@ -24,6 +24,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Hectogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Hectogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Hectogram') | A(n) hectogram. Defined in terms of a(n) dekagram. |
 | [Kilogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Kilogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Kilogram') | A(n) kilogram. Defined in terms of a(n) hectogram. |
 | [Megagram](Jcd.Units.UnitsOfMeasure.SI.Masses.Megagram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Megagram') | A(n) megagram. Defined in terms of a(n) kilogram. |
+| [MetricTon](Jcd.Units.UnitsOfMeasure.SI.Masses.MetricTon.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.MetricTon') | A(n) metric ton. Defined in terms of a(n) megagram. |
 | [Microgram](Jcd.Units.UnitsOfMeasure.SI.Masses.Microgram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Microgram') | A(n) microgram. Defined in terms of a(n) milligram. |
 | [Milligram](Jcd.Units.UnitsOfMeasure.SI.Masses.Milligram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Milligram') | A(n) milligram. Defined in terms of a(n) centigram. |
 | [Nanogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Nanogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Nanogram') | A(n) nanogram. Defined in terms of a(n) microgram. |
