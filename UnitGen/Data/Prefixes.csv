@@ -1,26 +1,80 @@
-﻿Name,Symbol,Base Prefix,Coefficient,Sort Index
-quetta,Q,ronna,1000,24
-ronna,R,yotta,1000,23
-yotta,Y,zetta,1000,22
-zetta,Z,exa,1000,21
-exa,E,peta,1000,20
-peta,P,tera,1000,19
-tera,T,giga,1000,18
-giga,G,mega,1000,17
-mega,M,kilo,1000,16
-kilo,k,hecto,10,15
-hecto,h,deka,10,14
-deka,da,,10,13
-,,,1.0,0
-deci,d,,1.0/10.0,1
-centi,c,deci,1.0/10.0,2
-milli,m,centi,1.0/10.0,3
-micro,μ,milli,1.0/1000.0,4
-nano,n,micro,1.0/1000.0,5
-pico,p,nano,1.0/1000.0,6
-femto,f,pico,1.0/1000.0,7
-atto,a,femto,1.0/1000.0,8
-zepto,z,atto,1.0/1000.0,9
-yocto,y,zepto,1.0/1000.0,10
-ronto,r,yocto,1.0/1000.0,11
-quecto,q,ronto,1.0/1000.0,12
+"Scale","Name","Space After Prefix","Symbol","Base Prefix","Coefficient","Relative Exponent","Sort Index"
+"SI","quetta","False","Q","ronna","1000","3","24"
+"SI","ronna","False","R","yotta","1000","3","23"
+"SI","yotta","False","Y","zetta","1000","3","22"
+"SI","zetta","False","Z","exa","1000","3","21"
+"SI","exa","False","E","peta","1000","3","20"
+"SI","peta","False","P","tera","1000","3","19"
+"SI","tera","False","T","giga","1000","3","18"
+"SI","giga","False","G","mega","1000","3","17"
+"SI","mega","False","M","kilo","1000","3","16"
+"SI","kilo","False","k","hecto","10","1","15"
+"SI","hecto","False","h","deka","10","1","14"
+"SI","deka","False","da",,"10","1","13"
+"SI",,"False",,,"1","0","0"
+"SI","deci","False","d",,"1.0/10.0","-1","1"
+"SI","centi","False","c","deci","1.0/10.0","-1","2"
+"SI","milli","False","m","centi","1.0/10.0","-1","3"
+"SI","micro","False","μ","milli","1.0/1000.0","-3","4"
+"SI","nano","False","n","micro","1.0/1000.0","-3","5"
+"SI","pico","False","p","nano","1.0/1000.0","-3","6"
+"SI","femto","False","f","pico","1.0/1000.0","-3","7"
+"SI","atto","False","a","femto","1.0/1000.0","-3","8"
+"SI","zepto","False","z","atto","1.0/1000.0","-3","9"
+"SI","yocto","False","y","zepto","1.0/1000.0","-3","10"
+"SI","ronto","False","r","yocto","1.0/1000.0","-3","11"
+"SI","quecto","False","q","ronto","1.0/1000.0","-3","12"
+"Short Scale","decillion","True",,"nonillion","1000","3","26"
+"Short Scale","nonillion","True",,"octillion","1000","3","25"
+"Short Scale","octillion","True",,"septillion","1000","3","24"
+"Short Scale","septillion","True",,"sextillion","1000","3","23"
+"Short Scale","sextillion","True",,"quintillion","1000","3","22"
+"Short Scale","quintillion","True",,"quadrillion","1000","3","21"
+"Short Scale","quadrillion","True",,"trillion","1000","3","20"
+"Short Scale","trillion","True",,"billion","1000","3","19"
+"Short Scale","billion","True",,"million","1000","3","18"
+"Short Scale","million","True",,"thousand","1000","3","17"
+"Short Scale","thousand","True",,"hundred","10","1","16"
+"Short Scale","hundred","True",,"ten","10","1","15"
+"Short Scale","ten","True",,,"10","1","14"
+"Short Scale",,"False",,,"1","0","0"
+"Short Scale","tenth","True",,,"1.0/10.0","-1","1"
+"Short Scale","hundredth","True",,"tenth","1.0/10.0","-1","2"
+"Short Scale","thousandth","True",,"hundredth","1.0/10.0","-1","3"
+"Short Scale","millionth","True",,"thousandth","1.0/1000.0","-3","4"
+"Short Scale","billionth","True",,"millionth","1.0/1000.0","-3","5"
+"Short Scale","trillionth","True",,"billionth","1.0/1000.0","-3","6"
+"Short Scale","quadrillionth","True",,"trillionth","1.0/1000.0","-3","7"
+"Short Scale","quintillionth","True",,"quadrillionth","1.0/1000.0","-3","8"
+"Short Scale","sextillionth","True",,"quintillionth","1.0/1000.0","-3","9"
+"Short Scale","septillionth","True",,"sextillionth","1.0/1000.0","-3","10"
+"Short Scale","octillionth","True",,"septillionth","1.0/1000.0","-3","11"
+"Short Scale","nonillionth","True",,"octillionth","1.0/1000.0","-3","12"
+"Short Scale","decillionth","True",,"nonillionth","1.0/1000.0","-3","13"
+"Long Scale","decillion","True",,"nonillion","1_000_000","6","26"
+"Long Scale","nonillion","True",,"octillion","1_000_000","6","25"
+"Long Scale","octillion","True",,"septillion","1_000_000","6","24"
+"Long Scale","septillion","True",,"sextillion","1_000_000","6","23"
+"Long Scale","sextillion","True",,"quintillion","1_000_000","6","22"
+"Long Scale","quintillion","True",,"quadrillion","1_000_000","6","21"
+"Long Scale","quadrillion","True",,"trillion","1_000_000","6","20"
+"Long Scale","trillion","True",,"billion","1_000_000","6","19"
+"Long Scale","billion","True",,"million","1_000_000","6","18"
+"Long Scale","million","True",,"thousand","1000","3","17"
+"Long Scale","thousand","True",,"hundred","10","1","16"
+"Long Scale","hundred","True",,"ten","10","1","15"
+"Long Scale","ten","True",,,"10","1","14"
+"Long Scale",,"False",,,"1","0","0"
+"Long Scale","tenth","True",,,"1.0/10.0","-1","1"
+"Long Scale","hundredth","True",,"tenth","1.0/10.0","-1","2"
+"Long Scale","thousandth","True",,"hundredth","1.0/10.0","-1","3"
+"Long Scale","millionth","True",,"thousandth","1.0/1000.0","-3","4"
+"Long Scale","billionth","True",,"millionth","1.0/1_000_000.0","-6","5"
+"Long Scale","trillionth","True",,"billionth","1.0/1_000_000.0","-6","6"
+"Long Scale","quadrillionth","True",,"trillionth","1.0/1_000_000.0","-6","7"
+"Long Scale","quintillionth","True",,"quadrillionth","1.0/1_000_000.0","-6","8"
+"Long Scale","sextillionth","True",,"quintillionth","1.0/1_000_000.0","-6","9"
+"Long Scale","septillionth","True",,"sextillionth","1.0/1_000_000.0","-6","10"
+"Long Scale","octillionth","True",,"septillionth","1.0/1_000_000.0","-6","11"
+"Long Scale","nonillionth","True",,"octillionth","1.0/1_000_000.0","-6","12"
+"Long Scale","decillionth","True",,"nonillionth","1.0/1_000_000.0","-6","13"

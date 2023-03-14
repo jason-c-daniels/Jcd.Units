@@ -1086,9 +1086,19 @@
             Uncategorized Units for measuring Angle.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Angles.Degrees">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Angles.Degree">
             <summary>
-            A(n) degrees. Defined in terms of a(n) SI radians.
+            A(n) degree. Defined in terms of a(n) SI radian.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Angles.ArcMinute">
+            <summary>
+            A(n) arc minute. Defined in terms of a(n) degree.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Angles.ArcSecond">
+            <summary>
+            A(n) arc second. Defined in terms of a(n) arc minute.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths">
@@ -1099,66 +1109,6 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightYear">
             <summary>
             A(n) light-year. Defined in terms of a(n) SI meter.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.DecilightYear">
-            <summary>
-            A(n) decilight-year. Defined in terms of a(n) light-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.CentilightYear">
-            <summary>
-            A(n) centilight-year. Defined in terms of a(n) decilight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MillilightYear">
-            <summary>
-            A(n) millilight-year. Defined in terms of a(n) centilight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MicrolightYear">
-            <summary>
-            A(n) microlight-year. Defined in terms of a(n) millilight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.NanolightYear">
-            <summary>
-            A(n) nanolight-year. Defined in terms of a(n) microlight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.PicolightYear">
-            <summary>
-            A(n) picolight-year. Defined in terms of a(n) nanolight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.FemtolightYear">
-            <summary>
-            A(n) femtolight-year. Defined in terms of a(n) picolight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.AttolightYear">
-            <summary>
-            A(n) attolight-year. Defined in terms of a(n) femtolight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.ZeptolightYear">
-            <summary>
-            A(n) zeptolight-year. Defined in terms of a(n) attolight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.YoctolightYear">
-            <summary>
-            A(n) yoctolight-year. Defined in terms of a(n) zeptolight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.RontolightYear">
-            <summary>
-            A(n) rontolight-year. Defined in terms of a(n) yoctolight-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.QuectolightYear">
-            <summary>
-            A(n) quectolight-year. Defined in terms of a(n) rontolight-year.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.DekalightYear">
@@ -1254,66 +1204,6 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Parsec">
             <summary>
             A(n) parsec. Defined in terms of a(n) light-year.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Deciparsec">
-            <summary>
-            A(n) deciparsec. Defined in terms of a(n) parsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Centiparsec">
-            <summary>
-            A(n) centiparsec. Defined in terms of a(n) deciparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Milliparsec">
-            <summary>
-            A(n) milliparsec. Defined in terms of a(n) centiparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Microparsec">
-            <summary>
-            A(n) microparsec. Defined in terms of a(n) milliparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Nanoparsec">
-            <summary>
-            A(n) nanoparsec. Defined in terms of a(n) microparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Picoparsec">
-            <summary>
-            A(n) picoparsec. Defined in terms of a(n) nanoparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Femtoparsec">
-            <summary>
-            A(n) femtoparsec. Defined in terms of a(n) picoparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Attoparsec">
-            <summary>
-            A(n) attoparsec. Defined in terms of a(n) femtoparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Zeptoparsec">
-            <summary>
-            A(n) zeptoparsec. Defined in terms of a(n) attoparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Yoctoparsec">
-            <summary>
-            A(n) yoctoparsec. Defined in terms of a(n) zeptoparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Rontoparsec">
-            <summary>
-            A(n) rontoparsec. Defined in terms of a(n) yoctoparsec.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Quectoparsec">
-            <summary>
-            A(n) quectoparsec. Defined in terms of a(n) rontoparsec.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Dekaparsec">
@@ -1556,66 +1446,6 @@
             A(n) quectosecond. Defined in terms of a(n) rontosecond.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Dekasecond">
-            <summary>
-            A(n) dekasecond. Defined in terms of a(n) second.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Hectosecond">
-            <summary>
-            A(n) hectosecond. Defined in terms of a(n) dekasecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Kilosecond">
-            <summary>
-            A(n) kilosecond. Defined in terms of a(n) hectosecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Megasecond">
-            <summary>
-            A(n) megasecond. Defined in terms of a(n) kilosecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Gigasecond">
-            <summary>
-            A(n) gigasecond. Defined in terms of a(n) megasecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Terasecond">
-            <summary>
-            A(n) terasecond. Defined in terms of a(n) gigasecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Petasecond">
-            <summary>
-            A(n) petasecond. Defined in terms of a(n) terasecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Exasecond">
-            <summary>
-            A(n) exasecond. Defined in terms of a(n) petasecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Zettasecond">
-            <summary>
-            A(n) zettasecond. Defined in terms of a(n) exasecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Yottasecond">
-            <summary>
-            A(n) yottasecond. Defined in terms of a(n) zettasecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Ronnasecond">
-            <summary>
-            A(n) ronnasecond. Defined in terms of a(n) yottasecond.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Quettasecond">
-            <summary>
-            A(n) quettasecond. Defined in terms of a(n) ronnasecond.
-            </summary>
-        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Minute">
             <summary>
             A(n) minute. Defined in terms of a(n) second.
@@ -1701,14 +1531,164 @@
             A(n) nonillion years. Defined in terms of a(n) octillion years.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Durations.DecillionYears">
+            <summary>
+            A(n) decillion years. Defined in terms of a(n) nonillion years.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Durations.PlanckTime">
             <summary>
-            A(n) planck-time. Defined in terms of a(n) yoctosecond.
+            A(n) planck-time. Defined in terms of a(n) microsecond.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Durations.Tick">
             <summary>
             A(n) tick. Defined in terms of a(n) nanosecond.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.Amounts">
+            <summary>
+            British Imperial Units for measuring Amount.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Count">
+            <summary>
+            A(n) count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TenCount">
+            <summary>
+            A(n) ten count. Defined in terms of a(n)  count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.HundredCount">
+            <summary>
+            A(n) hundred count. Defined in terms of a(n) ten count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.ThousandCount">
+            <summary>
+            A(n) thousand count. Defined in terms of a(n) hundred count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.MillionCount">
+            <summary>
+            A(n) million count. Defined in terms of a(n) thousand count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionCount">
+            <summary>
+            A(n) billion count. Defined in terms of a(n) million count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TrillionCount">
+            <summary>
+            A(n) trillion count. Defined in terms of a(n) billion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuadrillionCount">
+            <summary>
+            A(n) quadrillion count. Defined in terms of a(n) trillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuintillionCount">
+            <summary>
+            A(n) quintillion count. Defined in terms of a(n) quadrillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SextillionCount">
+            <summary>
+            A(n) sextillion count. Defined in terms of a(n) quintillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SeptillionCount">
+            <summary>
+            A(n) septillion count. Defined in terms of a(n) sextillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.OctillionCount">
+            <summary>
+            A(n) octillion count. Defined in terms of a(n) septillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.NonillionCount">
+            <summary>
+            A(n) nonillion count. Defined in terms of a(n) octillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionCount">
+            <summary>
+            A(n) decillion count. Defined in terms of a(n) nonillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Quantity">
+            <summary>
+            A(n) quantity. Defined in terms of a(n)  count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TenQuantity">
+            <summary>
+            A(n) ten quantity. Defined in terms of a(n)  quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.HundredQuantity">
+            <summary>
+            A(n) hundred quantity. Defined in terms of a(n) ten quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.ThousandQuantity">
+            <summary>
+            A(n) thousand quantity. Defined in terms of a(n) hundred quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.MillionQuantity">
+            <summary>
+            A(n) million quantity. Defined in terms of a(n) thousand quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionQuantity">
+            <summary>
+            A(n) billion quantity. Defined in terms of a(n) million quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TrillionQuantity">
+            <summary>
+            A(n) trillion quantity. Defined in terms of a(n) billion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuadrillionQuantity">
+            <summary>
+            A(n) quadrillion quantity. Defined in terms of a(n) trillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuintillionQuantity">
+            <summary>
+            A(n) quintillion quantity. Defined in terms of a(n) quadrillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SextillionQuantity">
+            <summary>
+            A(n) sextillion quantity. Defined in terms of a(n) quintillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SeptillionQuantity">
+            <summary>
+            A(n) septillion quantity. Defined in terms of a(n) sextillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.OctillionQuantity">
+            <summary>
+            A(n) octillion quantity. Defined in terms of a(n) septillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.NonillionQuantity">
+            <summary>
+            A(n) nonillion quantity. Defined in terms of a(n) octillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionQuantity">
+            <summary>
+            A(n) decillion quantity. Defined in terms of a(n) nonillion quantity.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.Lengths">
@@ -1931,9 +1911,9 @@
             International System of Units for measuring Angle.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Angles.Radians">
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Angles.Radian">
             <summary>
-            A(n) radians.
+            A(n) radian.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.SI.Capacitances">
@@ -5239,6 +5219,151 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer">
             <summary>
             A(n) degrees rømer. Defined in terms of a(n) SI degrees celcius.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts">
+            <summary>
+            United States Customary Units for measuring Amount.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.Count">
+            <summary>
+            A(n) count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.TenCount">
+            <summary>
+            A(n) ten count. Defined in terms of a(n)  count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.HundredCount">
+            <summary>
+            A(n) hundred count. Defined in terms of a(n) ten count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.ThousandCount">
+            <summary>
+            A(n) thousand count. Defined in terms of a(n) hundred count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.MillionCount">
+            <summary>
+            A(n) million count. Defined in terms of a(n) thousand count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.BillionCount">
+            <summary>
+            A(n) billion count. Defined in terms of a(n) million count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.TrillionCount">
+            <summary>
+            A(n) trillion count. Defined in terms of a(n) billion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.QuadrillionCount">
+            <summary>
+            A(n) quadrillion count. Defined in terms of a(n) trillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.QuintillionCount">
+            <summary>
+            A(n) quintillion count. Defined in terms of a(n) quadrillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.SextillionCount">
+            <summary>
+            A(n) sextillion count. Defined in terms of a(n) quintillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.SeptillionCount">
+            <summary>
+            A(n) septillion count. Defined in terms of a(n) sextillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.OctillionCount">
+            <summary>
+            A(n) octillion count. Defined in terms of a(n) septillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.NonillionCount">
+            <summary>
+            A(n) nonillion count. Defined in terms of a(n) octillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.DecillionCount">
+            <summary>
+            A(n) decillion count. Defined in terms of a(n) nonillion count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.Quantity">
+            <summary>
+            A(n) quantity. Defined in terms of a(n)  count.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.TenQuantity">
+            <summary>
+            A(n) ten quantity. Defined in terms of a(n)  quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.HundredQuantity">
+            <summary>
+            A(n) hundred quantity. Defined in terms of a(n) ten quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.ThousandQuantity">
+            <summary>
+            A(n) thousand quantity. Defined in terms of a(n) hundred quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.MillionQuantity">
+            <summary>
+            A(n) million quantity. Defined in terms of a(n) thousand quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.BillionQuantity">
+            <summary>
+            A(n) billion quantity. Defined in terms of a(n) million quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.TrillionQuantity">
+            <summary>
+            A(n) trillion quantity. Defined in terms of a(n) billion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.QuadrillionQuantity">
+            <summary>
+            A(n) quadrillion quantity. Defined in terms of a(n) trillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.QuintillionQuantity">
+            <summary>
+            A(n) quintillion quantity. Defined in terms of a(n) quadrillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.SextillionQuantity">
+            <summary>
+            A(n) sextillion quantity. Defined in terms of a(n) quintillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.SeptillionQuantity">
+            <summary>
+            A(n) septillion quantity. Defined in terms of a(n) sextillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.OctillionQuantity">
+            <summary>
+            A(n) octillion quantity. Defined in terms of a(n) septillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.NonillionQuantity">
+            <summary>
+            A(n) nonillion quantity. Defined in terms of a(n) octillion quantity.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Amounts.DecillionQuantity">
+            <summary>
+            A(n) decillion quantity. Defined in terms of a(n) nonillion quantity.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Lengths">

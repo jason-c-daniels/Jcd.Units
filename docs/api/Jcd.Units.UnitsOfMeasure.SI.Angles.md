@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Radians](Jcd.Units.UnitsOfMeasure.SI.Angles.Radians.md 'Jcd.Units.UnitsOfMeasure.SI.Angles.Radians') | A(n) radians. |
+| [Radian](Jcd.Units.UnitsOfMeasure.SI.Angles.Radian.md 'Jcd.Units.UnitsOfMeasure.SI.Angles.Radian') | A(n) radian. |

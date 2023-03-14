@@ -21,15 +21,25 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
       var prefixes  = PrefixRepo.GetAll();
       var units     = UnitRepo.GetAll();
 
-      var unitsWithSiPrefixes =
-               from prefix in prefixes
+      var unitsWithPrefixes =
                from unit in units
+               join prefix in prefixes on unit.PrefixScale equals prefix.Scale
                join system in systems on unit.System equals system.Name
                join unitType in unitTypes on unit.UnitType equals unitType.Name
                where unit.UsesPrefixes
+                  && (
+                              unit.PrefixExponentsToInclude.ToLower() == "all" // all explicitly listed
+                           || unit.PrefixExponentsToInclude.ToLower() == "any" // any explicitly listed
+                           || string.IsNullOrWhiteSpace(
+                                                        unit.PrefixExponentsToInclude
+                                                       ) // no value is the same as all or any
+                           || prefix.IsBasePrefix
+                           || (unit.PrefixExponentsToInclude.ToLower() == "positive" && prefix.IsPositiveExponent)
+                           || (unit.PrefixExponentsToInclude.ToLower() == "negative" && prefix.IsNegativeExponent)
+                     )
                select new UnitDefinition(system, unitType, prefix, unit);
 
-      var noPrefix = new Prefix("", "", "", "1.0", 0);
+      var noPrefix = new Prefix("", "", false, "", "", "1.0", 0, 0);
 
       var unitsWithoutSiPrefixes =
                from unit in units
@@ -38,7 +48,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                where !unit.UsesPrefixes
                select new UnitDefinition(system, unitType, noPrefix, unit);
 
-      return _allItems = unitsWithSiPrefixes
+      return _allItems = unitsWithPrefixes
                         .Concat(unitsWithoutSiPrefixes)
                         .Distinct()
                         .OrderBy(u => u.System.Name)

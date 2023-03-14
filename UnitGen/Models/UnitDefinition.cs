@@ -30,13 +30,14 @@ public record UnitDefinition
    public string Coefficient => Prefix.IsBasePrefix ? Unit.Coefficient : Prefix.Coefficient;
    public string Offset => Unit.Offset;
 
-   public string UnitName => IsBaseUnit ? Unit.UnitName : $"{Prefix.Name}{Unit.UnitName}";
+   public string PrefixSeparator => Prefix.SpaceAfterPrefix && !Prefix.IsBasePrefix ? " " : "";
+   public string UnitName => IsBaseUnit ? Unit.UnitName : $"{Prefix.Name}{PrefixSeparator}{Unit.UnitName}";
 
    public string BaseUnitName => Prefix.IsBasePrefix
             ? Unit.BaseUnit
-            : $"{Prefix.BasePrefix}{Unit.UnitName}";
+            : $"{Prefix.BasePrefix}{PrefixSeparator}{Unit.UnitName}";
 
-   public string Symbol => IsBaseUnit ? Unit.UnitSymbol : $"{Prefix.Symbol}{Unit.UnitSymbol}";
+   public string Symbol => IsBaseUnit ? Unit.UnitSymbol : $"{Prefix.EffectiveSymbol}{Unit.UnitSymbol}";
 
    public string Subnamespace => System.HasSubnamespace
             ? $".{System.Subnamespace}"

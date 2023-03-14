@@ -1,120 +1,127 @@
-System,Unit Type,Unit Name,Unit Symbol,Uses Prefixes,Base Unit System,Base Unit,Coefficient,Offset,Sort Index
-Astronomical,Length,light-year,ly,True,SI,meter,9_460_730_472_580_800,0,1
-Astronomical,Length,light-second,ls,False,SI,meter,299_792_458,0,2
-Astronomical,Length,light-minute,lm,False,Astronomical,light-second,60,0,3
-Astronomical,Length,astronomical unit,AU,False,SI,kilometer,149597870.691,0,4
-Astronomical,Length,light-hour,lh,False,Astronomical,light-minute,60,0,5
-Astronomical,Length,light-day,ld,False,Astronomical,light-hour,24,0,6
-Astronomical,Length,light-week,lw,False,Astronomical,light-day,7,0,7
-Astronomical,Length,parsec,pc,True,Astronomical,light-year,3.2615637769757,0,8
-Astronomical,Length,earth radius,R(⊕),False,SI,kilometer,6_371,0,9
-Astronomical,Length,jovian radius,R(J),False,SI,kilometer,69_911,0,10
-Astronomical,Length,lunar radius,R(L),False,SI,kilometer,1_737.4,0,11
-Astronomical,Length,mars radius,R(♂),False,SI,kilometer,3_389.5,0,12
-Astronomical,Length,solar radius,R(☉),False,SI,kilometer,695_700,0,13
-Astronomical,Length,earth diameter,D(⊕),False,Astronomical,earth radius,2.0,0,14
-Astronomical,Length,jovian diameter,D(J),False,Astronomical,jovian radius,2.0,0,15
-Astronomical,Length,lunar diameter,D(L),False,Astronomical,lunar radius,2.0,0,16
-Astronomical,Length,mars diameter,D(♂),False,Astronomical,mars radius,2.0,0,17
-Astronomical,Length,solar diameter,D(☉),False,Astronomical,solar radius,2.0,0,18
-Astronomical,Length,earth circumference,C(⊕),False,Astronomical,earth diameter,3.14159_26535_89793_23846,0,19
-Astronomical,Length,jovian circumference,C(J),False,Astronomical,jovian diameter,3.14159_26535_89793_23846,0,20
-Astronomical,Length,lunar circumference,C(L),False,Astronomical,lunar diameter,3.14159_26535_89793_23846,0,21
-Astronomical,Length,mars circumference,C(♂),False,Astronomical,mars diameter,3.14159_26535_89793_23846,0,22
-Astronomical,Length,solar circumference,C(☉),False,Astronomical,solar diameter,3.14159_26535_89793_23846,0,23
-Astronomical,Mass,earth mass,M(⊕),False,SI,kilogram,5.9722E+24,0,1
-Astronomical,Mass,jovian mass,M(J),False,SI,kilogram,1.89813E+27,0,2
-Astronomical,Mass,lunar mass,M(L),False,SI,kilogram,7.35E+22,0,3
-Astronomical,Mass,mars mass,M(♂),False,SI,kilogram,6.39E+23,0,4
-Astronomical,Mass,solar mass,M(☉),False,SI,kilogram,1.989E+30,0,5
-Imperial,Length,inch,in.,False,SI,centimeter,2.54,0,0
-Imperial,Length,foot,ft.,False,Imperial,inch,12,0,1
-Imperial,Length,twip,twip,False,Imperial,foot,1.0/17280.0,0,2
-Imperial,Length,thou,th,False,Imperial,foot,1.0/12000.0,0,3
-Imperial,Length,barleycorn,barleycorn,False,Imperial,foot,1.0/36.0,0,4
-Imperial,Length,hand,hh,False,Imperial,inch,4,0,5
-Imperial,Length,yard,yd,False,Imperial,foot,3,0,6
-Imperial,Length,chain,ch,False,Imperial,yard,22,0,7
-Imperial,Length,furlong,fur,False,Imperial,chain,10,0,8
-Imperial,Length,mile,mi,False,Imperial,furlong,8,0,9
-Imperial,Length,league,lea,False,Imperial,mile,3,0,10
-Imperial,Length,fathom,ftm,False,Imperial,foot,6,0,11
-Imperial,Length,cable,cable,False,Imperial,fathom,100,0,12
-Imperial,Length,nautical mile,nmi,False,Imperial,cable,10,0,13
-SI,Amount,mole,mol,True,,count,6.02214076E+23,0,1
-SI,Capacitance,farad,F,True,SI,farad,1,0,0
-SI,Catalytic Activity,katal,kat,True,SI,katal,1,0,0
-SI,Electrical Charge,coulomb,C,True,SI,coulomb,1,0,0
-SI,Electrical Conductance,siemens,S,True,SI,siemens,1,0,0
-SI,Electrical Current,ampere,A,True,SI,ampere,1,0,0
-SI,Electrical Potential,volt,V,True,SI,volt,1,0,0
-SI,Energy,joule,J,True,SI,joule,1,0,0
-SI,Energy,calorie,c,True,SI,joule,4.184,0,1
-SI,Energy,Calorie (Food),C,False,SI,calorie,1000,0,2
-SI,Force,newton,N,True,SI,newton,1,0,0
-SI,Frequency,hertz,Hz,True,SI,hertz,1,0,0
-SI,Illuminance,lux,lx,True,SI,lux,1,0,0
-SI,Inductance,henry,H,True,SI,henry,1,0,0
-SI,Length,meter,m,True,SI,meter,1,0,0
-SI,Luminous Flux,lumen,lm,True,SI,lumen,1,0,0
-SI,Luminous Intensity,candela,cd,True,SI,candela,1,0,0
-SI,Magnetic Flux,weber,Wb,True,SI,weber,1,0,0
-SI,Magnetic Flux Density,tesla,T,True,SI,tesla,1,0,0
-SI,Mass,gram,g,True,SI,gram,1,0,0
-SI,Mass,metric ton,mT,False,SI,megagram,1,0,1
-SI,Momentum,newton-second,N⋅s,True,SI,newton-second,1,0,0
-SI,Power,watt,W,True,SI,watt,1,0,0
-SI,Pressure,pascal,Pa,True,SI,pascal,1,0,0
-SI,Radiation Absorbed Dose,gray,Gy,True,SI,gray,1,0,0
-SI,Radiation Equivalent Dose,sievert,sv,True,SI,sievert,1,0,0
-SI,Radioactive Decay,becquerel,Bq,True,SI,becquerel,1,0,0
-SI,Resistance,ohm,Ω,True,SI,ohm,1,0,0
-SI,Temperature,degrees celcius,°C,False,SI,degrees celcius,1,0,0
-SI,Temperature,degrees kelvin,°K,False,SI,degrees celcius,1,-273.15,1
-US Customary,Length,inch,in,False,SI,centimeter,2.54,0,0
-US Customary,Length,mil,mil,False,US Customary,inch,1.0/1000.0,0,1
-US Customary,Length,point,p,False,US Customary,inch,1.0/72.0,0,2
-US Customary,Length,twip,twip,False,US Customary,point,1.0/20.0,0,3
-US Customary,Length,pica,P,False,US Customary,point,12,0,4
-US Customary,Length,foot,ft,False,US Customary,inch,12,0,5
-US Customary,Length,yard,yd,False,US Customary,foot,3,0,6
-US Customary,Length,mile,mi,False,US Customary,yard,1760,0,7
-US Customary,Length,league,le,False,US Customary,mile,3,0,8
-US Customary,Length,fathom,ftm,False,US Customary,yard,2,0,9
-US Customary,Length,cable,cb,False,US Customary,fathom,120,0,10
-US Customary,Length,nautical mile,nmi,False,SI,meter,1852,0,11
-US Customary,Temperature,degrees fahrenheit,°F,False,SI,degrees celcius,5.0/9.0,-32,2
-US Survey,Length,link,li,False,SI,meter,0.20116,0,0
-US Survey,Length,rod,rd,False,SI,meter,5.0292,0,1
-US Survey,Length,chain,ch,False,SI,meter,20.1168,0,2
-US Survey,Length,furlong,fur,False,SI,meter,201.168,0,3
-US Survey,Length,league,lea,False,SI,meter,4828.032,0,4
-,Amount,count,ct.,False,,count,1,0,0
-,Amount,quantity,qty.,False,,count,1,0,1
-SI,Angle,radians,rad,False,SI,radians,1,0,0
-,Angle,degrees,°,False,SI,radians,(180/Math.PI),0,1
-,Duration,second,s,True,,second,1,0,0
-,Duration,minute,min,False,,second,60,0,1
-,Duration,hour,hr,False,,minute,60,0,2
-,Duration,day,dy,False,,hour,24,0,3
-,Duration,week,wk,False,,day,7,0,4
-,Duration,year,yr,False,,day,365.2525,0,5
-,Duration,decade,dec.,False,,year,10,0,6
-,Duration,century,cent.,False,,decade,10,0,7
-,Duration,millennium,kyr,False,,century,10,0,8
-,Duration,million years,Myr,False,,millennium,1000,0,9
-,Duration,billion years,Gyr,False,,million years,1000,0,10
-,Duration,trillion years,Tyr,False,,billion years,1000,0,11
-,Duration,quadrillion years,Pyr,False,,trillion years,1000,0,12
-,Duration,quintillion years,Eyr,False,,quadrillion years,1000,0,13
-,Duration,sextillion years,Zyr,False,,quintillion years,1000,0,14
-,Duration,septillion years,Yyr,False,,sextillion years,1000,0,15
-,Duration,octillion years,Ryr,False,,septillion years,1000,0,16
-,Duration,nonillion years,Qyr,False,,octillion years,1000,0,17
-,Duration,planck-time,tP,False,,yoctosecond,5.39121E-20,0,18
-,Duration,tick,tick,False,,nanosecond,100,0,25
-,Temperature,degrees rankine,°R,False,SI,degrees kelvin,5.0/9.0,0,1
-,Temperature,degrees delisle,°De,False,SI,degrees celcius,1.0/1.5,100,2
-,Temperature,degrees newton,°N,False,SI,degrees celcius,100.0/33.0,0,3
-,Temperature,degrees réaumur,°Ré,False,SI,degrees celcius,5.0/4.0,0,4
-,Temperature,degrees rømer,°Rø,False,SI,degrees celcius,40.0/21.0,-7.5,5
+"System","Unit Type","Unit Name","Unit Symbol","Uses Prefixes","Prefix Scale","Prefix Exponents To Include","Base Unit System","Base Unit","Coefficient","Offset","Sort Index"
+"Astronomical","Length","light-year","ly","True","SI","Positive","SI","meter","9_460_730_472_580_800","0","1"
+"Astronomical","Length","light-second","ls","False",,,"SI","meter","299_792_458","0","2"
+"Astronomical","Length","light-minute","lm","False",,,"Astronomical","light-second","60","0","3"
+"Astronomical","Length","astronomical unit","AU","False",,,"SI","kilometer","149597870.691","0","4"
+"Astronomical","Length","light-hour","lh","False",,,"Astronomical","light-minute","60","0","5"
+"Astronomical","Length","light-day","ld","False",,,"Astronomical","light-hour","24","0","6"
+"Astronomical","Length","light-week","lw","False",,,"Astronomical","light-day","7","0","7"
+"Astronomical","Length","parsec","pc","True","SI","Positive","Astronomical","light-year","3.2615637769757","0","8"
+"Astronomical","Length","earth radius","R(⊕)","False",,,"SI","kilometer","6_371","0","9"
+"Astronomical","Length","jovian radius","R(J)","False",,,"SI","kilometer","69_911","0","10"
+"Astronomical","Length","lunar radius","R(L)","False",,,"SI","kilometer","1_737.4","0","11"
+"Astronomical","Length","mars radius","R(♂)","False",,,"SI","kilometer","3_389.5","0","12"
+"Astronomical","Length","solar radius","R(☉)","False",,,"SI","kilometer","695_700","0","13"
+"Astronomical","Length","earth diameter","D(⊕)","False",,,"Astronomical","earth radius","2","0","14"
+"Astronomical","Length","jovian diameter","D(J)","False",,,"Astronomical","jovian radius","2","0","15"
+"Astronomical","Length","lunar diameter","D(L)","False",,,"Astronomical","lunar radius","2","0","16"
+"Astronomical","Length","mars diameter","D(♂)","False",,,"Astronomical","mars radius","2","0","17"
+"Astronomical","Length","solar diameter","D(☉)","False",,,"Astronomical","solar radius","2","0","18"
+"Astronomical","Length","earth circumference","C(⊕)","False",,,"Astronomical","earth diameter","3.14159_26535_89793_23846","0","19"
+"Astronomical","Length","jovian circumference","C(J)","False",,,"Astronomical","jovian diameter","3.14159_26535_89793_23846","0","20"
+"Astronomical","Length","lunar circumference","C(L)","False",,,"Astronomical","lunar diameter","3.14159_26535_89793_23846","0","21"
+"Astronomical","Length","mars circumference","C(♂)","False",,,"Astronomical","mars diameter","3.14159_26535_89793_23846","0","22"
+"Astronomical","Length","solar circumference","C(☉)","False",,,"Astronomical","solar diameter","3.14159_26535_89793_23846","0","23"
+"Astronomical","Mass","earth mass","M(⊕)","False",,,"SI","kilogram","5.9722E+24","0","1"
+"Astronomical","Mass","jovian mass","M(J)","False",,,"SI","kilogram","1.89813E+27","0","2"
+"Astronomical","Mass","lunar mass","M(L)","False",,,"SI","kilogram","7.35E+22","0","3"
+"Astronomical","Mass","mars mass","M(♂)","False",,,"SI","kilogram","6.39E+23","0","4"
+"Astronomical","Mass","solar mass","M(☉)","False",,,"SI","kilogram","1.989E+30","0","5"
+"Imperial","Length","inch","in.","False",,,"SI","centimeter","2.54","0","0"
+"Imperial","Length","foot","ft.","False",,,"Imperial","inch","12","0","1"
+"Imperial","Length","twip","twip","False",,,"Imperial","foot","1.0/17280.0","0","2"
+"Imperial","Length","thou","th","False",,,"Imperial","foot","1.0/12000.0","0","3"
+"Imperial","Length","barleycorn","barleycorn","False",,,"Imperial","foot","1.0/36.0","0","4"
+"Imperial","Length","hand","hh","False",,,"Imperial","inch","4","0","5"
+"Imperial","Length","yard","yd","False",,,"Imperial","foot","3","0","6"
+"Imperial","Length","chain","ch","False",,,"Imperial","yard","22","0","7"
+"Imperial","Length","furlong","fur","False",,,"Imperial","chain","10","0","8"
+"Imperial","Length","mile","mi","False",,,"Imperial","furlong","8","0","9"
+"Imperial","Length","league","lea","False",,,"Imperial","mile","3","0","10"
+"Imperial","Length","fathom","ftm","False",,,"Imperial","foot","6","0","11"
+"Imperial","Length","cable","cable","False",,,"Imperial","fathom","100","0","12"
+"Imperial","Length","nautical mile","nmi","False",,,"Imperial","cable","10","0","13"
+"SI","Amount","mole","mol","True","SI","All",,"count","6.02214076E+23","0","1"
+"SI","Capacitance","farad","F","True","SI","All","SI","farad","1","0","0"
+"SI","Catalytic Activity","katal","kat","True","SI","All","SI","katal","1","0","0"
+"SI","Electrical Charge","coulomb","C","True","SI","All","SI","coulomb","1","0","0"
+"SI","Electrical Conductance","siemens","S","True","SI","All","SI","siemens","1","0","0"
+"SI","Electrical Current","ampere","A","True","SI","All","SI","ampere","1","0","0"
+"SI","Electrical Potential","volt","V","True","SI","All","SI","volt","1","0","0"
+"SI","Energy","joule","J","True","SI","All","SI","joule","1","0","0"
+"SI","Energy","calorie","c","True","SI","All","SI","joule","4.184","0","1"
+"SI","Energy","Calorie (Food)","C","False",,,"SI","calorie","1000","0","2"
+"SI","Force","newton","N","True","SI","All","SI","newton","1","0","0"
+"SI","Frequency","hertz","Hz","True","SI","All","SI","hertz","1","0","0"
+"SI","Illuminance","lux","lx","True","SI","All","SI","lux","1","0","0"
+"SI","Inductance","henry","H","True","SI","All","SI","henry","1","0","0"
+"SI","Length","meter","m","True","SI","All","SI","meter","1","0","0"
+"SI","Luminous Flux","lumen","lm","True","SI","All","SI","lumen","1","0","0"
+"SI","Luminous Intensity","candela","cd","True","SI","All","SI","candela","1","0","0"
+"SI","Magnetic Flux","weber","Wb","True","SI","All","SI","weber","1","0","0"
+"SI","Magnetic Flux Density","tesla","T","True","SI","All","SI","tesla","1","0","0"
+"SI","Mass","gram","g","True","SI","All","SI","gram","1","0","0"
+"SI","Mass","metric ton","mt","False",,,"SI","megagram","1","0","1"
+"SI","Momentum","newton-second","N⋅s","True","SI","All","SI","newton-second","1","0","0"
+"SI","Power","watt","W","True","SI","All","SI","watt","1","0","0"
+"SI","Pressure","pascal","Pa","True","SI","All","SI","pascal","1","0","0"
+"SI","Radiation Absorbed Dose","gray","Gy","True","SI","All","SI","gray","1","0","0"
+"SI","Radiation Equivalent Dose","sievert","sv","True","SI","All","SI","sievert","1","0","0"
+"SI","Radioactive Decay","becquerel","Bq","True","SI","All","SI","becquerel","1","0","0"
+"SI","Resistance","ohm","Ω","True","SI","All","SI","ohm","1","0","0"
+"SI","Temperature","degrees celcius","°C","False",,,"SI","degrees celcius","1","0","0"
+"SI","Temperature","degrees kelvin","°K","False",,,"SI","degrees celcius","1","-273.15","1"
+"US Customary","Length","inch","in","False",,,"SI","centimeter","2.54","0","0"
+"US Customary","Length","mil","mil","False",,,"US Customary","inch","1.0/1000.0","0","1"
+"US Customary","Length","point","p","False",,,"US Customary","inch","1.0/72.0","0","2"
+"US Customary","Length","twip","twip","False",,,"US Customary","point","1.0/20.0","0","3"
+"US Customary","Length","pica","P","False",,,"US Customary","point","12","0","4"
+"US Customary","Length","foot","ft","False",,,"US Customary","inch","12","0","5"
+"US Customary","Length","yard","yd","False",,,"US Customary","foot","3","0","6"
+"US Customary","Length","mile","mi","False",,,"US Customary","yard","1760","0","7"
+"US Customary","Length","league","le","False",,,"US Customary","mile","3","0","8"
+"US Customary","Length","fathom","ftm","False",,,"US Customary","yard","2","0","9"
+"US Customary","Length","cable","cb","False",,,"US Customary","fathom","120","0","10"
+"US Customary","Length","nautical mile","nmi","False",,,"SI","meter","1852","0","11"
+"US Customary","Temperature","degrees fahrenheit","°F","False",,,"SI","degrees celcius","5.0/9.0","-32","2"
+"US Survey","Length","link","li","False",,,"SI","meter","0.20116","0","0"
+"US Survey","Length","rod","rd","False",,,"SI","meter","5.0292","0","1"
+"US Survey","Length","chain","ch","False",,,"SI","meter","20.1168","0","2"
+"US Survey","Length","furlong","fur","False",,,"SI","meter","201.168","0","3"
+"US Survey","Length","league","lea","False",,,"SI","meter","4828.032","0","4"
+,"Amount","count","ct.","False",,,,"count","1","0","0"
+,"Amount","quantity","qty.","False",,,,"count","1","0","1"
+"US Customary","Amount","count","ct.","True","Short Scale","Positive",,"count","1","0","0"
+"US Customary","Amount","quantity","qty.","True","Short Scale","Positive",,"count","1","0","1"
+"Imperial","Amount","count","ct.","True","Long Scale","Positive",,"count","1","0","0"
+"Imperial","Amount","quantity","qty.","True","Long Scale","Positive",,"count","1","0","1"
+"SI","Angle","radian","rad","False",,,"SI","radian","1","0","0"
+,"Angle","degree","°","False",,,"SI","radian","(180.0/Math.PI)","0","1"
+,"Angle","arc minute","′","False",,,,"degree","1.0/60.0","0","2"
+,"Angle","arc second","″","False",,,,"arc minute","1.0/60.0","0","3"
+,"Duration","second","s","True","SI","Negative",,"second","1","0","0"
+,"Duration","minute","min","False",,,,"second","60","0","1"
+,"Duration","hour","hr","False",,,,"minute","60","0","2"
+,"Duration","day","dy","False",,,,"hour","24","0","3"
+,"Duration","week","wk","False",,,,"day","7","0","4"
+,"Duration","year","yr","False",,,,"day","365.2525","0","5"
+,"Duration","decade","dec.","False",,,,"year","10","0","6"
+,"Duration","century","cent.","False",,,,"decade","10","0","7"
+,"Duration","millennium","kyr","False",,,,"century","10","0","8"
+,"Duration","million years","Myr","False",,,,"millennium","1000","0","9"
+,"Duration","billion years","Gyr","False",,,,"million years","1000","0","10"
+,"Duration","trillion years","Tyr","False",,,,"billion years","1000","0","11"
+,"Duration","quadrillion years","Pyr","False",,,,"trillion years","1000","0","12"
+,"Duration","quintillion years","Eyr","False",,,,"quadrillion years","1000","0","13"
+,"Duration","sextillion years","Zyr","False",,,,"quintillion years","1000","0","14"
+,"Duration","septillion years","Yyr","False",,,,"sextillion years","1000","0","15"
+,"Duration","octillion years","Ryr","False",,,,"septillion years","1000","0","16"
+,"Duration","nonillion years","Qyr","False",,,,"octillion years","1000","0","17"
+,"Duration","decillion years","decillion yr","False",,,,"nonillion years","1000","0","18"
+,"Duration","planck-time","t(P)","False",,,,"microsecond","5.391247E-38","0","19"
+,"Duration","tick","tick","False",,,,"nanosecond","100","0","25"
+,"Temperature","degrees rankine","°R","False",,,"SI","degrees kelvin","5.0/9.0","0","1"
+,"Temperature","degrees delisle","°De","False",,,"SI","degrees celcius","1.0/1.5","100","2"
+,"Temperature","degrees newton","°N","False",,,"SI","degrees celcius","100.0/33.0","0","3"
+,"Temperature","degrees réaumur","°Ré","False",,,"SI","degrees celcius","5.0/4.0","0","4"
+,"Temperature","degrees rømer","°Rø","False",,,"SI","degrees celcius","40.0/21.0","-7.5","5"

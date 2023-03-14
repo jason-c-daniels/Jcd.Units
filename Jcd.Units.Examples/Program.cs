@@ -60,7 +60,6 @@ perfRunner.RunAllTests();
 
 return 0;
 
-
 var km     = Lengths.Kilometer;
 var m      = Lengths.Meter;
 var cm     = Lengths.Centimeter;
@@ -71,7 +70,7 @@ var usPt   = US.Lengths.Point;
 var durs = Durations.GetAll()
                     .ToDictionary(x => x.Symbol);
 
-var ms          = durs["ms"];
+var ms = durs["ms"];
 
 var onemeter = 1.As(m);
 var onems    = 1.As(ms);
@@ -99,7 +98,6 @@ var tPs_string = $"{tP1s:n0}";
 
 var l1 = 1.As(Lengths.Kilometer);
 var l2 = l1 * 2;
-
 
 // Create an area from two lengths.
 // var sqkm=Areas.SquareKilometer;

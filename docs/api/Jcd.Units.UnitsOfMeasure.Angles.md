@@ -13,4 +13,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Degrees](Jcd.Units.UnitsOfMeasure.Angles.Degrees.md 'Jcd.Units.UnitsOfMeasure.Angles.Degrees') | A(n) degrees. Defined in terms of a(n) SI radians. |
+| [ArcMinute](Jcd.Units.UnitsOfMeasure.Angles.ArcMinute.md 'Jcd.Units.UnitsOfMeasure.Angles.ArcMinute') | A(n) arc minute. Defined in terms of a(n) degree. |
+| [ArcSecond](Jcd.Units.UnitsOfMeasure.Angles.ArcSecond.md 'Jcd.Units.UnitsOfMeasure.Angles.ArcSecond') | A(n) arc second. Defined in terms of a(n) arc minute. |
+| [Degree](Jcd.Units.UnitsOfMeasure.Angles.Degree.md 'Jcd.Units.UnitsOfMeasure.Angles.Degree') | A(n) degree. Defined in terms of a(n) SI radian. |

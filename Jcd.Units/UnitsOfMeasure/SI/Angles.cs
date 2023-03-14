@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Angles : Enumeration<Angles, Angle>
 {
    /// <summary>
-   /// A(n) radians.
+   /// A(n) radian.
    /// </summary>
-   public static readonly Angle Radians = new ("radians", "rad");
+   public static readonly Angle Radian = new ("radian", "rad");
 }

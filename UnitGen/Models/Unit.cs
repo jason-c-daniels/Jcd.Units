@@ -16,6 +16,8 @@ public record Unit
        , string UnitName
        , string UnitSymbol
        , bool UsesPrefixes
+       , string PrefixScale
+       , string PrefixExponentsToInclude
        , string BaseUnitSystem
        , string BaseUnit
        , string Coefficient

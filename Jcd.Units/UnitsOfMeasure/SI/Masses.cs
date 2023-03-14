@@ -145,5 +145,5 @@ public class Masses : Enumeration<Masses, Mass>
    /// <summary>
    /// A(n) metric ton. Defined in terms of a(n) megagram.
    /// </summary>
-   public static readonly Mass MetricTon = new ("metric ton", "mT", Megagram, 1, 0);
+   public static readonly Mass MetricTon = new ("metric ton", "mt", Megagram, 1, 0);
 }

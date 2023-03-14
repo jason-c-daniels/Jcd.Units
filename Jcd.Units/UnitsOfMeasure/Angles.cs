@@ -18,7 +18,17 @@ namespace Jcd.Units.UnitsOfMeasure;
 public class Angles : Enumeration<Angles, Angle>
 {
    /// <summary>
-   /// A(n) degrees. Defined in terms of a(n) SI radians.
+   /// A(n) degree. Defined in terms of a(n) SI radian.
    /// </summary>
-   public static readonly Angle Degrees = new ("degrees", "°", SI.Angles.Radians, 180 / Math.PI, 0);
+   public static readonly Angle Degree = new ("degree", "°", SI.Angles.Radian, 180.0 / Math.PI, 0);
+
+   /// <summary>
+   /// A(n) arc minute. Defined in terms of a(n) degree.
+   /// </summary>
+   public static readonly Angle ArcMinute = new ("arc minute", "′", Degree, 1.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) arc second. Defined in terms of a(n) arc minute.
+   /// </summary>
+   public static readonly Angle ArcSecond = new ("arc second", "″", ArcMinute, 1.0 / 60.0, 0);
 }

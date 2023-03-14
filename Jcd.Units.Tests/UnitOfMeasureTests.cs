@@ -112,7 +112,7 @@ public class UnitOfMeasureTests : TestBase
       Assert.False((UnitOfMeasure1)null <= null);
 
       // prevent compiler from griping about comparing to self. This is intentional
-      Assert.True(du <= du);
+      Assert.True(du    <= du);
       Assert.False(null <= du);
       Assert.False(du   <= null);
    }
@@ -147,7 +147,7 @@ public class UnitOfMeasureTests : TestBase
       Assert.False((UnitOfMeasure1)null >= null);
 
       // prevent compiler from griping about comparing to self. This is intentional
-      Assert.True(du >= du);
+      Assert.True(du    >= du);
       Assert.False(null >= du);
       Assert.False(du   >= null);
    }

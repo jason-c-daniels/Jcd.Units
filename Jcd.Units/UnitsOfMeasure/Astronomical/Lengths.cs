@@ -23,66 +23,6 @@ public class Lengths : Enumeration<Lengths, Length>
    public static readonly Length LightYear = new ("light-year", "ly", SI.Lengths.Meter, 9_460_730_472_580_800, 0);
 
    /// <summary>
-   /// A(n) decilight-year. Defined in terms of a(n) light-year.
-   /// </summary>
-   public static readonly Length DecilightYear = new ("decilight-year", "dly", LightYear, 1.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) centilight-year. Defined in terms of a(n) decilight-year.
-   /// </summary>
-   public static readonly Length CentilightYear = new ("centilight-year", "cly", DecilightYear, 1.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) millilight-year. Defined in terms of a(n) centilight-year.
-   /// </summary>
-   public static readonly Length MillilightYear = new ("millilight-year", "mly", CentilightYear, 1.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) microlight-year. Defined in terms of a(n) millilight-year.
-   /// </summary>
-   public static readonly Length MicrolightYear = new ("microlight-year", "μly", MillilightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) nanolight-year. Defined in terms of a(n) microlight-year.
-   /// </summary>
-   public static readonly Length NanolightYear = new ("nanolight-year", "nly", MicrolightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) picolight-year. Defined in terms of a(n) nanolight-year.
-   /// </summary>
-   public static readonly Length PicolightYear = new ("picolight-year", "ply", NanolightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) femtolight-year. Defined in terms of a(n) picolight-year.
-   /// </summary>
-   public static readonly Length FemtolightYear = new ("femtolight-year", "fly", PicolightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) attolight-year. Defined in terms of a(n) femtolight-year.
-   /// </summary>
-   public static readonly Length AttolightYear = new ("attolight-year", "aly", FemtolightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) zeptolight-year. Defined in terms of a(n) attolight-year.
-   /// </summary>
-   public static readonly Length ZeptolightYear = new ("zeptolight-year", "zly", AttolightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) yoctolight-year. Defined in terms of a(n) zeptolight-year.
-   /// </summary>
-   public static readonly Length YoctolightYear = new ("yoctolight-year", "yly", ZeptolightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) rontolight-year. Defined in terms of a(n) yoctolight-year.
-   /// </summary>
-   public static readonly Length RontolightYear = new ("rontolight-year", "rly", YoctolightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) quectolight-year. Defined in terms of a(n) rontolight-year.
-   /// </summary>
-   public static readonly Length QuectolightYear = new ("quectolight-year", "qly", RontolightYear, 1.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) dekalight-year. Defined in terms of a(n) light-year.
    /// </summary>
    public static readonly Length DekalightYear = new ("dekalight-year", "daly", LightYear, 10, 0);
@@ -184,66 +124,6 @@ public class Lengths : Enumeration<Lengths, Length>
    public static readonly Length Parsec = new ("parsec", "pc", LightYear, 3.2615637769757, 0);
 
    /// <summary>
-   /// A(n) deciparsec. Defined in terms of a(n) parsec.
-   /// </summary>
-   public static readonly Length Deciparsec = new ("deciparsec", "dpc", Parsec, 1.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) centiparsec. Defined in terms of a(n) deciparsec.
-   /// </summary>
-   public static readonly Length Centiparsec = new ("centiparsec", "cpc", Deciparsec, 1.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) milliparsec. Defined in terms of a(n) centiparsec.
-   /// </summary>
-   public static readonly Length Milliparsec = new ("milliparsec", "mpc", Centiparsec, 1.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) microparsec. Defined in terms of a(n) milliparsec.
-   /// </summary>
-   public static readonly Length Microparsec = new ("microparsec", "μpc", Milliparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) nanoparsec. Defined in terms of a(n) microparsec.
-   /// </summary>
-   public static readonly Length Nanoparsec = new ("nanoparsec", "npc", Microparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) picoparsec. Defined in terms of a(n) nanoparsec.
-   /// </summary>
-   public static readonly Length Picoparsec = new ("picoparsec", "ppc", Nanoparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) femtoparsec. Defined in terms of a(n) picoparsec.
-   /// </summary>
-   public static readonly Length Femtoparsec = new ("femtoparsec", "fpc", Picoparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) attoparsec. Defined in terms of a(n) femtoparsec.
-   /// </summary>
-   public static readonly Length Attoparsec = new ("attoparsec", "apc", Femtoparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) zeptoparsec. Defined in terms of a(n) attoparsec.
-   /// </summary>
-   public static readonly Length Zeptoparsec = new ("zeptoparsec", "zpc", Attoparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) yoctoparsec. Defined in terms of a(n) zeptoparsec.
-   /// </summary>
-   public static readonly Length Yoctoparsec = new ("yoctoparsec", "ypc", Zeptoparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) rontoparsec. Defined in terms of a(n) yoctoparsec.
-   /// </summary>
-   public static readonly Length Rontoparsec = new ("rontoparsec", "rpc", Yoctoparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) quectoparsec. Defined in terms of a(n) rontoparsec.
-   /// </summary>
-   public static readonly Length Quectoparsec = new ("quectoparsec", "qpc", Rontoparsec, 1.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) dekaparsec. Defined in terms of a(n) parsec.
    /// </summary>
    public static readonly Length Dekaparsec = new ("dekaparsec", "dapc", Parsec, 10, 0);
@@ -331,27 +211,27 @@ public class Lengths : Enumeration<Lengths, Length>
    /// <summary>
    /// A(n) earth diameter. Defined in terms of a(n) earth radius.
    /// </summary>
-   public static readonly Length EarthDiameter = new ("earth diameter", "D(⊕)", EarthRadius, 2.0, 0);
+   public static readonly Length EarthDiameter = new ("earth diameter", "D(⊕)", EarthRadius, 2, 0);
 
    /// <summary>
    /// A(n) jovian diameter. Defined in terms of a(n) jovian radius.
    /// </summary>
-   public static readonly Length JovianDiameter = new ("jovian diameter", "D(J)", JovianRadius, 2.0, 0);
+   public static readonly Length JovianDiameter = new ("jovian diameter", "D(J)", JovianRadius, 2, 0);
 
    /// <summary>
    /// A(n) lunar diameter. Defined in terms of a(n) lunar radius.
    /// </summary>
-   public static readonly Length LunarDiameter = new ("lunar diameter", "D(L)", LunarRadius, 2.0, 0);
+   public static readonly Length LunarDiameter = new ("lunar diameter", "D(L)", LunarRadius, 2, 0);
 
    /// <summary>
    /// A(n) mars diameter. Defined in terms of a(n) mars radius.
    /// </summary>
-   public static readonly Length MarsDiameter = new ("mars diameter", "D(♂)", MarsRadius, 2.0, 0);
+   public static readonly Length MarsDiameter = new ("mars diameter", "D(♂)", MarsRadius, 2, 0);
 
    /// <summary>
    /// A(n) solar diameter. Defined in terms of a(n) solar radius.
    /// </summary>
-   public static readonly Length SolarDiameter = new ("solar diameter", "D(☉)", SolarRadius, 2.0, 0);
+   public static readonly Length SolarDiameter = new ("solar diameter", "D(☉)", SolarRadius, 2, 0);
 
    /// <summary>
    /// A(n) earth circumference. Defined in terms of a(n) earth diameter.
