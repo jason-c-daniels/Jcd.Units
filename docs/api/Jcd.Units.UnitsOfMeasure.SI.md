@@ -8,6 +8,7 @@ Provides units of measure for various SI unit types.
 | :--- | :--- |
 | [Amounts](Jcd.Units.UnitsOfMeasure.SI.Amounts.md 'Jcd.Units.UnitsOfMeasure.SI.Amounts') | International System of Units for measuring Amount. |
 | [Angles](Jcd.Units.UnitsOfMeasure.SI.Angles.md 'Jcd.Units.UnitsOfMeasure.SI.Angles') | International System of Units for measuring Angle. |
+| [Areas](Jcd.Units.UnitsOfMeasure.SI.Areas.md 'Jcd.Units.UnitsOfMeasure.SI.Areas') | International System of Units for measuring Area. |
 | [Capacitances](Jcd.Units.UnitsOfMeasure.SI.Capacitances.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances') | International System of Units for measuring Capacitance. |
 | [CatalyticActivities](Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities') | International System of Units for measuring Catalytic Activity. |
 | [ElectricalCharges](Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges') | International System of Units for measuring Electrical Charge. |
@@ -33,3 +34,4 @@ Provides units of measure for various SI unit types.
 | [RadioactiveDecays](Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays') | International System of Units for measuring Radioactive Decay. |
 | [Resistances](Jcd.Units.UnitsOfMeasure.SI.Resistances.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances') | International System of Units for measuring Resistance. |
 | [Temperatures](Jcd.Units.UnitsOfMeasure.SI.Temperatures.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures') | International System of Units for measuring Temperature. |
+| [Volumes](Jcd.Units.UnitsOfMeasure.SI.Volumes.md 'Jcd.Units.UnitsOfMeasure.SI.Volumes') | International System of Units for measuring Volume. |

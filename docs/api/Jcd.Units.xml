@@ -1101,6 +1101,61 @@
             A(n) arc second. Defined in terms of a(n) arc minute.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.Areas">
+            <summary>
+            Astronomical Units for measuring Area.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareAstronomicalUnit">
+            <summary>
+            A(n) square astronomical unit. Defined in terms of a(n) SI square kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthRadius">
+            <summary>
+            A(n) square earth radius. Defined in terms of a(n) SI square kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarRadius">
+            <summary>
+            A(n) square lunar radius. Defined in terms of a(n) SI square kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsRadius">
+            <summary>
+            A(n) square mars radius. Defined in terms of a(n) SI square kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthDiameter">
+            <summary>
+            A(n) square earth diameter. Defined in terms of a(n) square earth radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarDiameter">
+            <summary>
+            A(n) square lunar diameter. Defined in terms of a(n) square lunar radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsDiameter">
+            <summary>
+            A(n) square mars diameter. Defined in terms of a(n) square mars radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthCircumference">
+            <summary>
+            A(n) square earth circumference. Defined in terms of a(n) square earth diameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarCircumference">
+            <summary>
+            A(n) square lunar circumference. Defined in terms of a(n) square lunar diameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsCircumference">
+            <summary>
+            A(n) square mars circumference. Defined in terms of a(n) square mars diameter.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.Lengths">
             <summary>
             Astronomical Units for measuring Length.
@@ -1374,6 +1429,61 @@
         <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.NamespaceDoc">
             <summary>
             Provides units of measure for various Astronomical unit types.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes">
+            <summary>
+            Astronomical Units for measuring Volume.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicAstronomicalUnit">
+            <summary>
+            A(n) cubic astronomical unit. Defined in terms of a(n) SI cubic kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicEarthRadius">
+            <summary>
+            A(n) cubic earth radius. Defined in terms of a(n) SI cubic kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLunarRadius">
+            <summary>
+            A(n) cubic lunar radius. Defined in terms of a(n) SI cubic kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicMarsRadius">
+            <summary>
+            A(n) cubic mars radius. Defined in terms of a(n) SI cubic kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicEarthDiameter">
+            <summary>
+            A(n) cubic earth diameter. Defined in terms of a(n) cubic earth radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLunarDiameter">
+            <summary>
+            A(n) cubic lunar diameter. Defined in terms of a(n) cubic lunar radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicMarsDiameter">
+            <summary>
+            A(n) cubic mars diameter. Defined in terms of a(n) cubic mars radius.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicEarthCircumference">
+            <summary>
+            A(n) cubic earth circumference. Defined in terms of a(n) cubic earth diameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicLunarCircumference">
+            <summary>
+            A(n) cubic lunar circumference. Defined in terms of a(n) cubic lunar diameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicMarsCircumference">
+            <summary>
+            A(n) cubic mars circumference. Defined in terms of a(n) cubic mars diameter.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Durations">
@@ -1691,6 +1801,81 @@
             A(n) decillion quantity. Defined in terms of a(n) nonillion quantity.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.Areas">
+            <summary>
+            British Imperial Units for measuring Area.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareInch">
+            <summary>
+            A(n) square inch. Defined in terms of a(n) SI square centimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareFoot">
+            <summary>
+            A(n) square foot. Defined in terms of a(n) square inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareTwip">
+            <summary>
+            A(n) square twip. Defined in terms of a(n) square foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareThou">
+            <summary>
+            A(n) square thou. Defined in terms of a(n) square foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareBarleycorn">
+            <summary>
+            A(n) square barleycorn. Defined in terms of a(n) square foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareHand">
+            <summary>
+            A(n) square hand. Defined in terms of a(n) square inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareYard">
+            <summary>
+            A(n) square yard. Defined in terms of a(n) square foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareChain">
+            <summary>
+            A(n) square chain. Defined in terms of a(n) square yard.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareFurlong">
+            <summary>
+            A(n) square furlong. Defined in terms of a(n) square chain.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareMile">
+            <summary>
+            A(n) square mile. Defined in terms of a(n) square furlong.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareLeague">
+            <summary>
+            A(n) square league. Defined in terms of a(n) square mile.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareFathom">
+            <summary>
+            A(n) square fathom. Defined in terms of a(n) square foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareCable">
+            <summary>
+            A(n) square cable. Defined in terms of a(n) square fathom.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareNauticalMile">
+            <summary>
+            A(n) square nautical mile. Defined in terms of a(n) square cable.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.Lengths">
             <summary>
             British Imperial Units for measuring Length.
@@ -1769,6 +1954,81 @@
         <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.NamespaceDoc">
             <summary>
             Provides units of measure for various Imperial unit types.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.Volumes">
+            <summary>
+            British Imperial Units for measuring Volume.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicInch">
+            <summary>
+            A(n) cubic inch. Defined in terms of a(n) SI cubic centimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicFoot">
+            <summary>
+            A(n) cubic foot. Defined in terms of a(n) cubic inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicTwip">
+            <summary>
+            A(n) cubic twip. Defined in terms of a(n) cubic foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicThou">
+            <summary>
+            A(n) cubic thou. Defined in terms of a(n) cubic foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicBarleycorn">
+            <summary>
+            A(n) cubic barleycorn. Defined in terms of a(n) cubic foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicHand">
+            <summary>
+            A(n) cubic hand. Defined in terms of a(n) cubic inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicYard">
+            <summary>
+            A(n) cubic yard. Defined in terms of a(n) cubic foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicChain">
+            <summary>
+            A(n) cubic chain. Defined in terms of a(n) cubic yard.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicFurlong">
+            <summary>
+            A(n) cubic furlong. Defined in terms of a(n) cubic chain.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicMile">
+            <summary>
+            A(n) cubic mile. Defined in terms of a(n) cubic furlong.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicLeague">
+            <summary>
+            A(n) cubic league. Defined in terms of a(n) cubic mile.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicFathom">
+            <summary>
+            A(n) cubic fathom. Defined in terms of a(n) cubic foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicCable">
+            <summary>
+            A(n) cubic cable. Defined in terms of a(n) cubic fathom.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicNauticalMile">
+            <summary>
+            A(n) cubic nautical mile. Defined in terms of a(n) cubic cable.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.NamespaceDoc">
@@ -1914,6 +2174,136 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.SI.Angles.Radian">
             <summary>
             A(n) radian.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Areas">
+            <summary>
+            International System of Units for measuring Area.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareMeter">
+            <summary>
+            A(n) square meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareQuettameter">
+            <summary>
+            A(n) square quettameter. Defined in terms of a(n) square ronnameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareRonnameter">
+            <summary>
+            A(n) square ronnameter. Defined in terms of a(n) square yottameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareYottameter">
+            <summary>
+            A(n) square yottameter. Defined in terms of a(n) square zettameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareZettameter">
+            <summary>
+            A(n) square zettameter. Defined in terms of a(n) square exameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareExameter">
+            <summary>
+            A(n) square exameter. Defined in terms of a(n) square petameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquarePetameter">
+            <summary>
+            A(n) square petameter. Defined in terms of a(n) square terameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareTerameter">
+            <summary>
+            A(n) square terameter. Defined in terms of a(n) square gigameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareGigameter">
+            <summary>
+            A(n) square gigameter. Defined in terms of a(n) square megameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareMegameter">
+            <summary>
+            A(n) square megameter. Defined in terms of a(n) square kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareKilometer">
+            <summary>
+            A(n) square kilometer. Defined in terms of a(n) square hectometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareHectometer">
+            <summary>
+            A(n) square hectometer. Defined in terms of a(n) square dekameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareDekameter">
+            <summary>
+            A(n) square dekameter. Defined in terms of a(n) square meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareDecimeter">
+            <summary>
+            A(n) square decimeter. Defined in terms of a(n) square meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareCentimeter">
+            <summary>
+            A(n) square centimeter. Defined in terms of a(n) square decimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareMillimeter">
+            <summary>
+            A(n) square millimeter. Defined in terms of a(n) square centimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareMicrometer">
+            <summary>
+            A(n) square micrometer. Defined in terms of a(n) square millimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareNanometer">
+            <summary>
+            A(n) square nanometer. Defined in terms of a(n) square micrometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquarePicometer">
+            <summary>
+            A(n) square picometer. Defined in terms of a(n) square nanometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareFemtometer">
+            <summary>
+            A(n) square femtometer. Defined in terms of a(n) square picometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareAttometer">
+            <summary>
+            A(n) square attometer. Defined in terms of a(n) square femtometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareZeptometer">
+            <summary>
+            A(n) square zeptometer. Defined in terms of a(n) square attometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareYoctometer">
+            <summary>
+            A(n) square yoctometer. Defined in terms of a(n) square zeptometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareRontometer">
+            <summary>
+            A(n) square rontometer. Defined in terms of a(n) square yoctometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Areas.SquareQuectometer">
+            <summary>
+            A(n) square quectometer. Defined in terms of a(n) square rontometer.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.SI.Capacitances">
@@ -5191,6 +5581,136 @@
             A(n) degrees kelvin. Defined in terms of a(n) degrees celcius.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.SI.Volumes">
+            <summary>
+            International System of Units for measuring Volume.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicMeter">
+            <summary>
+            A(n) cubic meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicQuettameter">
+            <summary>
+            A(n) cubic quettameter. Defined in terms of a(n) cubic ronnameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicRonnameter">
+            <summary>
+            A(n) cubic ronnameter. Defined in terms of a(n) cubic yottameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicYottameter">
+            <summary>
+            A(n) cubic yottameter. Defined in terms of a(n) cubic zettameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicZettameter">
+            <summary>
+            A(n) cubic zettameter. Defined in terms of a(n) cubic exameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicExameter">
+            <summary>
+            A(n) cubic exameter. Defined in terms of a(n) cubic petameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicPetameter">
+            <summary>
+            A(n) cubic petameter. Defined in terms of a(n) cubic terameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicTerameter">
+            <summary>
+            A(n) cubic terameter. Defined in terms of a(n) cubic gigameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicGigameter">
+            <summary>
+            A(n) cubic gigameter. Defined in terms of a(n) cubic megameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicMegameter">
+            <summary>
+            A(n) cubic megameter. Defined in terms of a(n) cubic kilometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicKilometer">
+            <summary>
+            A(n) cubic kilometer. Defined in terms of a(n) cubic hectometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicHectometer">
+            <summary>
+            A(n) cubic hectometer. Defined in terms of a(n) cubic dekameter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicDekameter">
+            <summary>
+            A(n) cubic dekameter. Defined in terms of a(n) cubic meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicDecimeter">
+            <summary>
+            A(n) cubic decimeter. Defined in terms of a(n) cubic meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicCentimeter">
+            <summary>
+            A(n) cubic centimeter. Defined in terms of a(n) cubic decimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicMillimeter">
+            <summary>
+            A(n) cubic millimeter. Defined in terms of a(n) cubic centimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicMicrometer">
+            <summary>
+            A(n) cubic micrometer. Defined in terms of a(n) cubic millimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicNanometer">
+            <summary>
+            A(n) cubic nanometer. Defined in terms of a(n) cubic micrometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicPicometer">
+            <summary>
+            A(n) cubic picometer. Defined in terms of a(n) cubic nanometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicFemtometer">
+            <summary>
+            A(n) cubic femtometer. Defined in terms of a(n) cubic picometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicAttometer">
+            <summary>
+            A(n) cubic attometer. Defined in terms of a(n) cubic femtometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicZeptometer">
+            <summary>
+            A(n) cubic zeptometer. Defined in terms of a(n) cubic attometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicYoctometer">
+            <summary>
+            A(n) cubic yoctometer. Defined in terms of a(n) cubic zeptometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicRontometer">
+            <summary>
+            A(n) cubic rontometer. Defined in terms of a(n) cubic yoctometer.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.CubicQuectometer">
+            <summary>
+            A(n) cubic quectometer. Defined in terms of a(n) cubic rontometer.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Temperatures">
             <summary>
             Uncategorized Units for measuring Temperature.
@@ -5366,6 +5886,71 @@
             A(n) decillion quantity. Defined in terms of a(n) nonillion quantity.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Areas">
+            <summary>
+            United States Customary Units for measuring Area.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareInch">
+            <summary>
+            A(n) square inch. Defined in terms of a(n) SI square centimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareMil">
+            <summary>
+            A(n) square mil. Defined in terms of a(n) square inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquarePoint">
+            <summary>
+            A(n) square point. Defined in terms of a(n) square inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareTwip">
+            <summary>
+            A(n) square twip. Defined in terms of a(n) square point.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquarePica">
+            <summary>
+            A(n) square pica. Defined in terms of a(n) square point.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareFoot">
+            <summary>
+            A(n) square foot. Defined in terms of a(n) square inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareYard">
+            <summary>
+            A(n) square yard. Defined in terms of a(n) square foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareMile">
+            <summary>
+            A(n) square mile. Defined in terms of a(n) square yard.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareLeague">
+            <summary>
+            A(n) square league. Defined in terms of a(n) square mile.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareFathom">
+            <summary>
+            A(n) square fathom. Defined in terms of a(n) square yard.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareCable">
+            <summary>
+            A(n) square cable. Defined in terms of a(n) square fathom.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Areas.SquareNauticalMile">
+            <summary>
+            A(n) square nautical mile. Defined in terms of a(n) SI square meter.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Lengths">
             <summary>
             United States Customary Units for measuring Length.
@@ -5446,6 +6031,101 @@
             A(n) degrees fahrenheit. Defined in terms of a(n) SI degrees celcius.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes">
+            <summary>
+            United States Customary Units for measuring Volume.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicInch">
+            <summary>
+            A(n) cubic inch. Defined in terms of a(n) SI cubic centimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicMil">
+            <summary>
+            A(n) cubic mil. Defined in terms of a(n) cubic inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicPoint">
+            <summary>
+            A(n) cubic point. Defined in terms of a(n) cubic inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicTwip">
+            <summary>
+            A(n) cubic twip. Defined in terms of a(n) cubic point.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicPica">
+            <summary>
+            A(n) cubic pica. Defined in terms of a(n) cubic point.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicFoot">
+            <summary>
+            A(n) cubic foot. Defined in terms of a(n) cubic inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicYard">
+            <summary>
+            A(n) cubic yard. Defined in terms of a(n) cubic foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicMile">
+            <summary>
+            A(n) cubic mile. Defined in terms of a(n) cubic yard.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicLeague">
+            <summary>
+            A(n) cubic league. Defined in terms of a(n) cubic mile.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicFathom">
+            <summary>
+            A(n) cubic fathom. Defined in terms of a(n) cubic yard.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicCable">
+            <summary>
+            A(n) cubic cable. Defined in terms of a(n) cubic fathom.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Volumes.CubicNauticalMile">
+            <summary>
+            A(n) cubic nautical mile. Defined in terms of a(n) SI cubic meter.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USSurvey.Areas">
+            <summary>
+            United States Survey Units for measuring Area.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Areas.SquareLink">
+            <summary>
+            A(n) square link. Defined in terms of a(n) SI square meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Areas.SquareRod">
+            <summary>
+            A(n) square rod. Defined in terms of a(n) SI square meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Areas.SquareChain">
+            <summary>
+            A(n) square chain. Defined in terms of a(n) SI square meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Areas.SquareFurlong">
+            <summary>
+            A(n) square furlong. Defined in terms of a(n) SI square meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Areas.SquareLeague">
+            <summary>
+            A(n) square league. Defined in terms of a(n) SI square meter.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.USSurvey.Lengths">
             <summary>
             United States Survey Units for measuring Length.
@@ -5481,6 +6161,36 @@
             Provides units of measure for various US Survey unit types.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.USSurvey.Volumes">
+            <summary>
+            United States Survey Units for measuring Volume.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.CubicLink">
+            <summary>
+            A(n) cubic link. Defined in terms of a(n) SI cubic meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.CubicRod">
+            <summary>
+            A(n) cubic rod. Defined in terms of a(n) SI cubic meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.CubicChain">
+            <summary>
+            A(n) cubic chain. Defined in terms of a(n) SI cubic meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.CubicFurlong">
+            <summary>
+            A(n) cubic furlong. Defined in terms of a(n) SI cubic meter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.CubicLeague">
+            <summary>
+            A(n) cubic league. Defined in terms of a(n) SI cubic meter.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitTypes.Amount">
             <summary>
             A measurement of an arbitrary quantity, number or value of something.
@@ -5508,6 +6218,22 @@
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Angle" /></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
+            <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
+            <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Area">
+            <summary>
+            A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object,...etc.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Area.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Area,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+            <summary>
+            Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Area" /> using another <see cref="T:Jcd.Units.UnitTypes.Area" /> as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Area" /></param>
             <param name="baseUnit">The unit to use as a base</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
@@ -5930,6 +6656,22 @@
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Temperature" /></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
+            <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
+            <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.Volume">
+            <summary>
+            A measurement of the amount of three dimensional space occupied by an object.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Volume.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Volume,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+            <summary>
+            Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Volume" /> using another <see cref="T:Jcd.Units.UnitTypes.Volume" /> as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Volume" /></param>
             <param name="baseUnit">The unit to use as a base</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>

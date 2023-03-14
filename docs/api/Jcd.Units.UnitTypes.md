@@ -9,6 +9,7 @@ for use with [Quantity&lt;TUnit&gt;](Jcd.Units.Quantity_TUnit_.md 'Jcd.Units.Qua
 | :--- | :--- |
 | [Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount') | A measurement of an arbitrary quantity, number or value of something. |
 | [Angle](Jcd.Units.UnitTypes.Angle.md 'Jcd.Units.UnitTypes.Angle') | A measurement of the space between two intersecting lines or surfaces at or close to the point where they meet. |
+| [Area](Jcd.Units.UnitTypes.Area.md 'Jcd.Units.UnitTypes.Area') | A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object,...etc. |
 | [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | A measurement of the ability of a system to store an electric charge. |
 | [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') | A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst. |
 | [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') | A measurement of a length of time. |
@@ -35,3 +36,4 @@ for use with [Quantity&lt;TUnit&gt;](Jcd.Units.Quantity_TUnit_.md 'Jcd.Units.Qua
 | [RadioactiveDecay](Jcd.Units.UnitTypes.RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') | A measurement of the number of atomic nuclei that decay per unit time. |
 | [Resistance](Jcd.Units.UnitTypes.Resistance.md 'Jcd.Units.UnitTypes.Resistance') | A measurement of the opposition to current flow in an electrical circuit. |
 | [Temperature](Jcd.Units.UnitTypes.Temperature.md 'Jcd.Units.UnitTypes.Temperature') | A measurement of the energy contained in the motion and vibration of an object's molecules. |
+| [Volume](Jcd.Units.UnitTypes.Volume.md 'Jcd.Units.UnitTypes.Volume') | A measurement of the amount of three dimensional space occupied by an object. |
