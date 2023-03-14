@@ -85,60 +85,60 @@ public class Forces : Enumeration<Forces, Force>
    /// <summary>
    /// A(n) dekanewton. Defined in terms of a(n) newton.
    /// </summary>
-   public static readonly Force Dekanewton = new ("dekanewton", "daN", Newton, 10, 0);
+   public static readonly Force Dekanewton = new ("dekanewton", "daN", Newton, 10.0, 0);
 
    /// <summary>
    /// A(n) hectonewton. Defined in terms of a(n) dekanewton.
    /// </summary>
-   public static readonly Force Hectonewton = new ("hectonewton", "hN", Dekanewton, 10, 0);
+   public static readonly Force Hectonewton = new ("hectonewton", "hN", Dekanewton, 10.0, 0);
 
    /// <summary>
    /// A(n) kilonewton. Defined in terms of a(n) hectonewton.
    /// </summary>
-   public static readonly Force Kilonewton = new ("kilonewton", "kN", Hectonewton, 10, 0);
+   public static readonly Force Kilonewton = new ("kilonewton", "kN", Hectonewton, 10.0, 0);
 
    /// <summary>
    /// A(n) meganewton. Defined in terms of a(n) kilonewton.
    /// </summary>
-   public static readonly Force Meganewton = new ("meganewton", "MN", Kilonewton, 1000, 0);
+   public static readonly Force Meganewton = new ("meganewton", "MN", Kilonewton, 1000.0, 0);
 
    /// <summary>
    /// A(n) giganewton. Defined in terms of a(n) meganewton.
    /// </summary>
-   public static readonly Force Giganewton = new ("giganewton", "GN", Meganewton, 1000, 0);
+   public static readonly Force Giganewton = new ("giganewton", "GN", Meganewton, 1000.0, 0);
 
    /// <summary>
    /// A(n) teranewton. Defined in terms of a(n) giganewton.
    /// </summary>
-   public static readonly Force Teranewton = new ("teranewton", "TN", Giganewton, 1000, 0);
+   public static readonly Force Teranewton = new ("teranewton", "TN", Giganewton, 1000.0, 0);
 
    /// <summary>
    /// A(n) petanewton. Defined in terms of a(n) teranewton.
    /// </summary>
-   public static readonly Force Petanewton = new ("petanewton", "PN", Teranewton, 1000, 0);
+   public static readonly Force Petanewton = new ("petanewton", "PN", Teranewton, 1000.0, 0);
 
    /// <summary>
    /// A(n) exanewton. Defined in terms of a(n) petanewton.
    /// </summary>
-   public static readonly Force Exanewton = new ("exanewton", "EN", Petanewton, 1000, 0);
+   public static readonly Force Exanewton = new ("exanewton", "EN", Petanewton, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettanewton. Defined in terms of a(n) exanewton.
    /// </summary>
-   public static readonly Force Zettanewton = new ("zettanewton", "ZN", Exanewton, 1000, 0);
+   public static readonly Force Zettanewton = new ("zettanewton", "ZN", Exanewton, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottanewton. Defined in terms of a(n) zettanewton.
    /// </summary>
-   public static readonly Force Yottanewton = new ("yottanewton", "YN", Zettanewton, 1000, 0);
+   public static readonly Force Yottanewton = new ("yottanewton", "YN", Zettanewton, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnanewton. Defined in terms of a(n) yottanewton.
    /// </summary>
-   public static readonly Force Ronnanewton = new ("ronnanewton", "RN", Yottanewton, 1000, 0);
+   public static readonly Force Ronnanewton = new ("ronnanewton", "RN", Yottanewton, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettanewton. Defined in terms of a(n) ronnanewton.
    /// </summary>
-   public static readonly Force Quettanewton = new ("quettanewton", "QN", Ronnanewton, 1000, 0);
+   public static readonly Force Quettanewton = new ("quettanewton", "QN", Ronnanewton, 1000.0, 0);
 }

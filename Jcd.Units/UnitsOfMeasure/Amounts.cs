@@ -25,5 +25,5 @@ public class Amounts : Enumeration<Amounts, Amount>
    /// <summary>
    /// A(n) quantity. Defined in terms of a(n) count.
    /// </summary>
-   public static readonly Amount Quantity = new ("quantity", "qty.", Count, 1, 0);
+   public static readonly Amount Quantity = new ("quantity", "qty.", Count, 1.0, 0);
 }

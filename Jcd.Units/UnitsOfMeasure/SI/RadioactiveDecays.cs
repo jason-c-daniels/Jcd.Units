@@ -124,60 +124,60 @@ public class RadioactiveDecays : Enumeration<RadioactiveDecays, RadioactiveDecay
    /// <summary>
    /// A(n) dekabecquerel. Defined in terms of a(n) becquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Dekabecquerel = new ("dekabecquerel", "daBq", Becquerel, 10, 0);
+   public static readonly RadioactiveDecay Dekabecquerel = new ("dekabecquerel", "daBq", Becquerel, 10.0, 0);
 
    /// <summary>
    /// A(n) hectobecquerel. Defined in terms of a(n) dekabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Hectobecquerel = new ("hectobecquerel", "hBq", Dekabecquerel, 10, 0);
+   public static readonly RadioactiveDecay Hectobecquerel = new ("hectobecquerel", "hBq", Dekabecquerel, 10.0, 0);
 
    /// <summary>
    /// A(n) kilobecquerel. Defined in terms of a(n) hectobecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Kilobecquerel = new ("kilobecquerel", "kBq", Hectobecquerel, 10, 0);
+   public static readonly RadioactiveDecay Kilobecquerel = new ("kilobecquerel", "kBq", Hectobecquerel, 10.0, 0);
 
    /// <summary>
    /// A(n) megabecquerel. Defined in terms of a(n) kilobecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Megabecquerel = new ("megabecquerel", "MBq", Kilobecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Megabecquerel = new ("megabecquerel", "MBq", Kilobecquerel, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigabecquerel. Defined in terms of a(n) megabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Gigabecquerel = new ("gigabecquerel", "GBq", Megabecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Gigabecquerel = new ("gigabecquerel", "GBq", Megabecquerel, 1000.0, 0);
 
    /// <summary>
    /// A(n) terabecquerel. Defined in terms of a(n) gigabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Terabecquerel = new ("terabecquerel", "TBq", Gigabecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Terabecquerel = new ("terabecquerel", "TBq", Gigabecquerel, 1000.0, 0);
 
    /// <summary>
    /// A(n) petabecquerel. Defined in terms of a(n) terabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Petabecquerel = new ("petabecquerel", "PBq", Terabecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Petabecquerel = new ("petabecquerel", "PBq", Terabecquerel, 1000.0, 0);
 
    /// <summary>
    /// A(n) exabecquerel. Defined in terms of a(n) petabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Exabecquerel = new ("exabecquerel", "EBq", Petabecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Exabecquerel = new ("exabecquerel", "EBq", Petabecquerel, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettabecquerel. Defined in terms of a(n) exabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Zettabecquerel = new ("zettabecquerel", "ZBq", Exabecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Zettabecquerel = new ("zettabecquerel", "ZBq", Exabecquerel, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottabecquerel. Defined in terms of a(n) zettabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Yottabecquerel = new ("yottabecquerel", "YBq", Zettabecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Yottabecquerel = new ("yottabecquerel", "YBq", Zettabecquerel, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnabecquerel. Defined in terms of a(n) yottabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Ronnabecquerel = new ("ronnabecquerel", "RBq", Yottabecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Ronnabecquerel = new ("ronnabecquerel", "RBq", Yottabecquerel, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettabecquerel. Defined in terms of a(n) ronnabecquerel.
    /// </summary>
-   public static readonly RadioactiveDecay Quettabecquerel = new ("quettabecquerel", "QBq", Ronnabecquerel, 1000, 0);
+   public static readonly RadioactiveDecay Quettabecquerel = new ("quettabecquerel", "QBq", Ronnabecquerel, 1000.0, 0);
 }

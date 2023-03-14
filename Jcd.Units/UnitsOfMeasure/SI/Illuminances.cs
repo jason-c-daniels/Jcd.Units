@@ -85,60 +85,60 @@ public class Illuminances : Enumeration<Illuminances, Illuminance>
    /// <summary>
    /// A(n) dekalux. Defined in terms of a(n) lux.
    /// </summary>
-   public static readonly Illuminance Dekalux = new ("dekalux", "dalx", Lux, 10, 0);
+   public static readonly Illuminance Dekalux = new ("dekalux", "dalx", Lux, 10.0, 0);
 
    /// <summary>
    /// A(n) hectolux. Defined in terms of a(n) dekalux.
    /// </summary>
-   public static readonly Illuminance Hectolux = new ("hectolux", "hlx", Dekalux, 10, 0);
+   public static readonly Illuminance Hectolux = new ("hectolux", "hlx", Dekalux, 10.0, 0);
 
    /// <summary>
    /// A(n) kilolux. Defined in terms of a(n) hectolux.
    /// </summary>
-   public static readonly Illuminance Kilolux = new ("kilolux", "klx", Hectolux, 10, 0);
+   public static readonly Illuminance Kilolux = new ("kilolux", "klx", Hectolux, 10.0, 0);
 
    /// <summary>
    /// A(n) megalux. Defined in terms of a(n) kilolux.
    /// </summary>
-   public static readonly Illuminance Megalux = new ("megalux", "Mlx", Kilolux, 1000, 0);
+   public static readonly Illuminance Megalux = new ("megalux", "Mlx", Kilolux, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigalux. Defined in terms of a(n) megalux.
    /// </summary>
-   public static readonly Illuminance Gigalux = new ("gigalux", "Glx", Megalux, 1000, 0);
+   public static readonly Illuminance Gigalux = new ("gigalux", "Glx", Megalux, 1000.0, 0);
 
    /// <summary>
    /// A(n) teralux. Defined in terms of a(n) gigalux.
    /// </summary>
-   public static readonly Illuminance Teralux = new ("teralux", "Tlx", Gigalux, 1000, 0);
+   public static readonly Illuminance Teralux = new ("teralux", "Tlx", Gigalux, 1000.0, 0);
 
    /// <summary>
    /// A(n) petalux. Defined in terms of a(n) teralux.
    /// </summary>
-   public static readonly Illuminance Petalux = new ("petalux", "Plx", Teralux, 1000, 0);
+   public static readonly Illuminance Petalux = new ("petalux", "Plx", Teralux, 1000.0, 0);
 
    /// <summary>
    /// A(n) exalux. Defined in terms of a(n) petalux.
    /// </summary>
-   public static readonly Illuminance Exalux = new ("exalux", "Elx", Petalux, 1000, 0);
+   public static readonly Illuminance Exalux = new ("exalux", "Elx", Petalux, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettalux. Defined in terms of a(n) exalux.
    /// </summary>
-   public static readonly Illuminance Zettalux = new ("zettalux", "Zlx", Exalux, 1000, 0);
+   public static readonly Illuminance Zettalux = new ("zettalux", "Zlx", Exalux, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottalux. Defined in terms of a(n) zettalux.
    /// </summary>
-   public static readonly Illuminance Yottalux = new ("yottalux", "Ylx", Zettalux, 1000, 0);
+   public static readonly Illuminance Yottalux = new ("yottalux", "Ylx", Zettalux, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnalux. Defined in terms of a(n) yottalux.
    /// </summary>
-   public static readonly Illuminance Ronnalux = new ("ronnalux", "Rlx", Yottalux, 1000, 0);
+   public static readonly Illuminance Ronnalux = new ("ronnalux", "Rlx", Yottalux, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettalux. Defined in terms of a(n) ronnalux.
    /// </summary>
-   public static readonly Illuminance Quettalux = new ("quettalux", "Qlx", Ronnalux, 1000, 0);
+   public static readonly Illuminance Quettalux = new ("quettalux", "Qlx", Ronnalux, 1000.0, 0);
 }

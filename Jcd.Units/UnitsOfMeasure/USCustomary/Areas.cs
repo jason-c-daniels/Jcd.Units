@@ -40,37 +40,37 @@ public class Areas : Enumeration<Areas, Area>
    /// <summary>
    /// A(n) square pica. Defined in terms of a(n) square point.
    /// </summary>
-   public static readonly Area SquarePica = new ("square pica", "P^2", SquarePoint, 12 * 12, 0);
+   public static readonly Area SquarePica = new ("square pica", "P^2", SquarePoint, 12.0 * 12.0, 0);
 
    /// <summary>
    /// A(n) square foot. Defined in terms of a(n) square inch.
    /// </summary>
-   public static readonly Area SquareFoot = new ("square foot", "ft^2", SquareInch, 12 * 12, 0);
+   public static readonly Area SquareFoot = new ("square foot", "ft^2", SquareInch, 12.0 * 12.0, 0);
 
    /// <summary>
    /// A(n) square yard. Defined in terms of a(n) square foot.
    /// </summary>
-   public static readonly Area SquareYard = new ("square yard", "yd^2", SquareFoot, 3 * 3, 0);
+   public static readonly Area SquareYard = new ("square yard", "yd^2", SquareFoot, 3.0 * 3.0, 0);
 
    /// <summary>
    /// A(n) square mile. Defined in terms of a(n) square yard.
    /// </summary>
-   public static readonly Area SquareMile = new ("square mile", "mi^2", SquareYard, 1760 * 1760, 0);
+   public static readonly Area SquareMile = new ("square mile", "mi^2", SquareYard, 1760.0 * 1760.0, 0);
 
    /// <summary>
    /// A(n) square league. Defined in terms of a(n) square mile.
    /// </summary>
-   public static readonly Area SquareLeague = new ("square league", "le^2", SquareMile, 3 * 3, 0);
+   public static readonly Area SquareLeague = new ("square league", "le^2", SquareMile, 3.0 * 3.0, 0);
 
    /// <summary>
    /// A(n) square fathom. Defined in terms of a(n) square yard.
    /// </summary>
-   public static readonly Area SquareFathom = new ("square fathom", "ftm^2", SquareYard, 2 * 2, 0);
+   public static readonly Area SquareFathom = new ("square fathom", "ftm^2", SquareYard, 2.0 * 2.0, 0);
 
    /// <summary>
    /// A(n) square cable. Defined in terms of a(n) square fathom.
    /// </summary>
-   public static readonly Area SquareCable = new ("square cable", "cb^2", SquareFathom, 120 * 120, 0);
+   public static readonly Area SquareCable = new ("square cable", "cb^2", SquareFathom, 120.0 * 120.0, 0);
 
    /// <summary>
    /// A(n) square nautical mile. Defined in terms of a(n) SI square meter.
@@ -79,7 +79,7 @@ public class Areas : Enumeration<Areas, Area>
                                                          "square nautical mile"
                                                        , "nmi^2"
                                                        , SI.Areas.SquareMeter
-                                                       , 1852 * 1852
+                                                       , 1852.0 * 1852.0
                                                        , 0
                                                         );
 }

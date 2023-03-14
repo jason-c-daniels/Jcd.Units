@@ -24,6 +24,7 @@ Derived
 &#8627; [Area](Jcd.Units.UnitTypes.Area.md 'Jcd.Units.UnitTypes.Area')  
 &#8627; [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')  
 &#8627; [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity')  
+&#8627; [Density](Jcd.Units.UnitTypes.Density.md 'Jcd.Units.UnitTypes.Density')  
 &#8627; [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration')  
 &#8627; [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')  
 &#8627; [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')  

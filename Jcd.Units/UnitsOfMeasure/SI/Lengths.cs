@@ -85,60 +85,60 @@ public class Lengths : Enumeration<Lengths, Length>
    /// <summary>
    /// A(n) dekameter. Defined in terms of a(n) meter.
    /// </summary>
-   public static readonly Length Dekameter = new ("dekameter", "dam", Meter, 10, 0);
+   public static readonly Length Dekameter = new ("dekameter", "dam", Meter, 10.0, 0);
 
    /// <summary>
    /// A(n) hectometer. Defined in terms of a(n) dekameter.
    /// </summary>
-   public static readonly Length Hectometer = new ("hectometer", "hm", Dekameter, 10, 0);
+   public static readonly Length Hectometer = new ("hectometer", "hm", Dekameter, 10.0, 0);
 
    /// <summary>
    /// A(n) kilometer. Defined in terms of a(n) hectometer.
    /// </summary>
-   public static readonly Length Kilometer = new ("kilometer", "km", Hectometer, 10, 0);
+   public static readonly Length Kilometer = new ("kilometer", "km", Hectometer, 10.0, 0);
 
    /// <summary>
    /// A(n) megameter. Defined in terms of a(n) kilometer.
    /// </summary>
-   public static readonly Length Megameter = new ("megameter", "Mm", Kilometer, 1000, 0);
+   public static readonly Length Megameter = new ("megameter", "Mm", Kilometer, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigameter. Defined in terms of a(n) megameter.
    /// </summary>
-   public static readonly Length Gigameter = new ("gigameter", "Gm", Megameter, 1000, 0);
+   public static readonly Length Gigameter = new ("gigameter", "Gm", Megameter, 1000.0, 0);
 
    /// <summary>
    /// A(n) terameter. Defined in terms of a(n) gigameter.
    /// </summary>
-   public static readonly Length Terameter = new ("terameter", "Tm", Gigameter, 1000, 0);
+   public static readonly Length Terameter = new ("terameter", "Tm", Gigameter, 1000.0, 0);
 
    /// <summary>
    /// A(n) petameter. Defined in terms of a(n) terameter.
    /// </summary>
-   public static readonly Length Petameter = new ("petameter", "Pm", Terameter, 1000, 0);
+   public static readonly Length Petameter = new ("petameter", "Pm", Terameter, 1000.0, 0);
 
    /// <summary>
    /// A(n) exameter. Defined in terms of a(n) petameter.
    /// </summary>
-   public static readonly Length Exameter = new ("exameter", "Em", Petameter, 1000, 0);
+   public static readonly Length Exameter = new ("exameter", "Em", Petameter, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettameter. Defined in terms of a(n) exameter.
    /// </summary>
-   public static readonly Length Zettameter = new ("zettameter", "Zm", Exameter, 1000, 0);
+   public static readonly Length Zettameter = new ("zettameter", "Zm", Exameter, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottameter. Defined in terms of a(n) zettameter.
    /// </summary>
-   public static readonly Length Yottameter = new ("yottameter", "Ym", Zettameter, 1000, 0);
+   public static readonly Length Yottameter = new ("yottameter", "Ym", Zettameter, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnameter. Defined in terms of a(n) yottameter.
    /// </summary>
-   public static readonly Length Ronnameter = new ("ronnameter", "Rm", Yottameter, 1000, 0);
+   public static readonly Length Ronnameter = new ("ronnameter", "Rm", Yottameter, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettameter. Defined in terms of a(n) ronnameter.
    /// </summary>
-   public static readonly Length Quettameter = new ("quettameter", "Qm", Ronnameter, 1000, 0);
+   public static readonly Length Quettameter = new ("quettameter", "Qm", Ronnameter, 1000.0, 0);
 }

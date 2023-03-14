@@ -25,6 +25,6 @@ public class Temperatures : Enumeration<Temperatures, Temperature>
                                                              , "°F"
                                                              , SI.Temperatures.DegreesCelcius
                                                              , 5.0 / 9.0
-                                                             , -32
+                                                             , -32.0
                                                               );
 }

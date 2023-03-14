@@ -85,60 +85,60 @@ public class RadiationAbsorbedDoses : Enumeration<RadiationAbsorbedDoses, Radiat
    /// <summary>
    /// A(n) dekagray. Defined in terms of a(n) gray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Dekagray = new ("dekagray", "daGy", Gray, 10, 0);
+   public static readonly RadiationAbsorbedDose Dekagray = new ("dekagray", "daGy", Gray, 10.0, 0);
 
    /// <summary>
    /// A(n) hectogray. Defined in terms of a(n) dekagray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Hectogray = new ("hectogray", "hGy", Dekagray, 10, 0);
+   public static readonly RadiationAbsorbedDose Hectogray = new ("hectogray", "hGy", Dekagray, 10.0, 0);
 
    /// <summary>
    /// A(n) kilogray. Defined in terms of a(n) hectogray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Kilogray = new ("kilogray", "kGy", Hectogray, 10, 0);
+   public static readonly RadiationAbsorbedDose Kilogray = new ("kilogray", "kGy", Hectogray, 10.0, 0);
 
    /// <summary>
    /// A(n) megagray. Defined in terms of a(n) kilogray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Megagray = new ("megagray", "MGy", Kilogray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Megagray = new ("megagray", "MGy", Kilogray, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigagray. Defined in terms of a(n) megagray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Gigagray = new ("gigagray", "GGy", Megagray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Gigagray = new ("gigagray", "GGy", Megagray, 1000.0, 0);
 
    /// <summary>
    /// A(n) teragray. Defined in terms of a(n) gigagray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Teragray = new ("teragray", "TGy", Gigagray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Teragray = new ("teragray", "TGy", Gigagray, 1000.0, 0);
 
    /// <summary>
    /// A(n) petagray. Defined in terms of a(n) teragray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Petagray = new ("petagray", "PGy", Teragray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Petagray = new ("petagray", "PGy", Teragray, 1000.0, 0);
 
    /// <summary>
    /// A(n) exagray. Defined in terms of a(n) petagray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Exagray = new ("exagray", "EGy", Petagray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Exagray = new ("exagray", "EGy", Petagray, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettagray. Defined in terms of a(n) exagray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Zettagray = new ("zettagray", "ZGy", Exagray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Zettagray = new ("zettagray", "ZGy", Exagray, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottagray. Defined in terms of a(n) zettagray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Yottagray = new ("yottagray", "YGy", Zettagray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Yottagray = new ("yottagray", "YGy", Zettagray, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnagray. Defined in terms of a(n) yottagray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Ronnagray = new ("ronnagray", "RGy", Yottagray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Ronnagray = new ("ronnagray", "RGy", Yottagray, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettagray. Defined in terms of a(n) ronnagray.
    /// </summary>
-   public static readonly RadiationAbsorbedDose Quettagray = new ("quettagray", "QGy", Ronnagray, 1000, 0);
+   public static readonly RadiationAbsorbedDose Quettagray = new ("quettagray", "QGy", Ronnagray, 1000.0, 0);
 }

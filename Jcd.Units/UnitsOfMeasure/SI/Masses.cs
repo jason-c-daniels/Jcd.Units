@@ -85,65 +85,65 @@ public class Masses : Enumeration<Masses, Mass>
    /// <summary>
    /// A(n) dekagram. Defined in terms of a(n) gram.
    /// </summary>
-   public static readonly Mass Dekagram = new ("dekagram", "dag", Gram, 10, 0);
+   public static readonly Mass Dekagram = new ("dekagram", "dag", Gram, 10.0, 0);
 
    /// <summary>
    /// A(n) hectogram. Defined in terms of a(n) dekagram.
    /// </summary>
-   public static readonly Mass Hectogram = new ("hectogram", "hg", Dekagram, 10, 0);
+   public static readonly Mass Hectogram = new ("hectogram", "hg", Dekagram, 10.0, 0);
 
    /// <summary>
    /// A(n) kilogram. Defined in terms of a(n) hectogram.
    /// </summary>
-   public static readonly Mass Kilogram = new ("kilogram", "kg", Hectogram, 10, 0);
+   public static readonly Mass Kilogram = new ("kilogram", "kg", Hectogram, 10.0, 0);
 
    /// <summary>
    /// A(n) megagram. Defined in terms of a(n) kilogram.
    /// </summary>
-   public static readonly Mass Megagram = new ("megagram", "Mg", Kilogram, 1000, 0);
+   public static readonly Mass Megagram = new ("megagram", "Mg", Kilogram, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigagram. Defined in terms of a(n) megagram.
    /// </summary>
-   public static readonly Mass Gigagram = new ("gigagram", "Gg", Megagram, 1000, 0);
+   public static readonly Mass Gigagram = new ("gigagram", "Gg", Megagram, 1000.0, 0);
 
    /// <summary>
    /// A(n) teragram. Defined in terms of a(n) gigagram.
    /// </summary>
-   public static readonly Mass Teragram = new ("teragram", "Tg", Gigagram, 1000, 0);
+   public static readonly Mass Teragram = new ("teragram", "Tg", Gigagram, 1000.0, 0);
 
    /// <summary>
    /// A(n) petagram. Defined in terms of a(n) teragram.
    /// </summary>
-   public static readonly Mass Petagram = new ("petagram", "Pg", Teragram, 1000, 0);
+   public static readonly Mass Petagram = new ("petagram", "Pg", Teragram, 1000.0, 0);
 
    /// <summary>
    /// A(n) exagram. Defined in terms of a(n) petagram.
    /// </summary>
-   public static readonly Mass Exagram = new ("exagram", "Eg", Petagram, 1000, 0);
+   public static readonly Mass Exagram = new ("exagram", "Eg", Petagram, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettagram. Defined in terms of a(n) exagram.
    /// </summary>
-   public static readonly Mass Zettagram = new ("zettagram", "Zg", Exagram, 1000, 0);
+   public static readonly Mass Zettagram = new ("zettagram", "Zg", Exagram, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottagram. Defined in terms of a(n) zettagram.
    /// </summary>
-   public static readonly Mass Yottagram = new ("yottagram", "Yg", Zettagram, 1000, 0);
+   public static readonly Mass Yottagram = new ("yottagram", "Yg", Zettagram, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnagram. Defined in terms of a(n) yottagram.
    /// </summary>
-   public static readonly Mass Ronnagram = new ("ronnagram", "Rg", Yottagram, 1000, 0);
+   public static readonly Mass Ronnagram = new ("ronnagram", "Rg", Yottagram, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettagram. Defined in terms of a(n) ronnagram.
    /// </summary>
-   public static readonly Mass Quettagram = new ("quettagram", "Qg", Ronnagram, 1000, 0);
+   public static readonly Mass Quettagram = new ("quettagram", "Qg", Ronnagram, 1000.0, 0);
 
    /// <summary>
    /// A(n) metric ton. Defined in terms of a(n) megagram.
    /// </summary>
-   public static readonly Mass MetricTon = new ("metric ton", "mt", Megagram, 1, 0);
+   public static readonly Mass MetricTon = new ("metric ton", "mt", Megagram, 1.0, 0);
 }

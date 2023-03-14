@@ -85,60 +85,60 @@ public class Amounts : Enumeration<Amounts, Amount>
    /// <summary>
    /// A(n) dekamole. Defined in terms of a(n) mole.
    /// </summary>
-   public static readonly Amount Dekamole = new ("dekamole", "damol", Mole, 10, 0);
+   public static readonly Amount Dekamole = new ("dekamole", "damol", Mole, 10.0, 0);
 
    /// <summary>
    /// A(n) hectomole. Defined in terms of a(n) dekamole.
    /// </summary>
-   public static readonly Amount Hectomole = new ("hectomole", "hmol", Dekamole, 10, 0);
+   public static readonly Amount Hectomole = new ("hectomole", "hmol", Dekamole, 10.0, 0);
 
    /// <summary>
    /// A(n) kilomole. Defined in terms of a(n) hectomole.
    /// </summary>
-   public static readonly Amount Kilomole = new ("kilomole", "kmol", Hectomole, 10, 0);
+   public static readonly Amount Kilomole = new ("kilomole", "kmol", Hectomole, 10.0, 0);
 
    /// <summary>
    /// A(n) megamole. Defined in terms of a(n) kilomole.
    /// </summary>
-   public static readonly Amount Megamole = new ("megamole", "Mmol", Kilomole, 1000, 0);
+   public static readonly Amount Megamole = new ("megamole", "Mmol", Kilomole, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigamole. Defined in terms of a(n) megamole.
    /// </summary>
-   public static readonly Amount Gigamole = new ("gigamole", "Gmol", Megamole, 1000, 0);
+   public static readonly Amount Gigamole = new ("gigamole", "Gmol", Megamole, 1000.0, 0);
 
    /// <summary>
    /// A(n) teramole. Defined in terms of a(n) gigamole.
    /// </summary>
-   public static readonly Amount Teramole = new ("teramole", "Tmol", Gigamole, 1000, 0);
+   public static readonly Amount Teramole = new ("teramole", "Tmol", Gigamole, 1000.0, 0);
 
    /// <summary>
    /// A(n) petamole. Defined in terms of a(n) teramole.
    /// </summary>
-   public static readonly Amount Petamole = new ("petamole", "Pmol", Teramole, 1000, 0);
+   public static readonly Amount Petamole = new ("petamole", "Pmol", Teramole, 1000.0, 0);
 
    /// <summary>
    /// A(n) examole. Defined in terms of a(n) petamole.
    /// </summary>
-   public static readonly Amount Examole = new ("examole", "Emol", Petamole, 1000, 0);
+   public static readonly Amount Examole = new ("examole", "Emol", Petamole, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettamole. Defined in terms of a(n) examole.
    /// </summary>
-   public static readonly Amount Zettamole = new ("zettamole", "Zmol", Examole, 1000, 0);
+   public static readonly Amount Zettamole = new ("zettamole", "Zmol", Examole, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottamole. Defined in terms of a(n) zettamole.
    /// </summary>
-   public static readonly Amount Yottamole = new ("yottamole", "Ymol", Zettamole, 1000, 0);
+   public static readonly Amount Yottamole = new ("yottamole", "Ymol", Zettamole, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnamole. Defined in terms of a(n) yottamole.
    /// </summary>
-   public static readonly Amount Ronnamole = new ("ronnamole", "Rmol", Yottamole, 1000, 0);
+   public static readonly Amount Ronnamole = new ("ronnamole", "Rmol", Yottamole, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettamole. Defined in terms of a(n) ronnamole.
    /// </summary>
-   public static readonly Amount Quettamole = new ("quettamole", "Qmol", Ronnamole, 1000, 0);
+   public static readonly Amount Quettamole = new ("quettamole", "Qmol", Ronnamole, 1000.0, 0);
 }

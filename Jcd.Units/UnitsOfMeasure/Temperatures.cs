@@ -36,7 +36,7 @@ public class Temperatures : Enumeration<Temperatures, Temperature>
                                                           , "°De"
                                                           , SI.Temperatures.DegreesCelcius
                                                           , 1.0 / 1.5
-                                                          , 100
+                                                          , 100.0
                                                            );
 
    /// <summary>

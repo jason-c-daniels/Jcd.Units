@@ -85,60 +85,60 @@ public class Capacitances : Enumeration<Capacitances, Capacitance>
    /// <summary>
    /// A(n) dekafarad. Defined in terms of a(n) farad.
    /// </summary>
-   public static readonly Capacitance Dekafarad = new ("dekafarad", "daF", Farad, 10, 0);
+   public static readonly Capacitance Dekafarad = new ("dekafarad", "daF", Farad, 10.0, 0);
 
    /// <summary>
    /// A(n) hectofarad. Defined in terms of a(n) dekafarad.
    /// </summary>
-   public static readonly Capacitance Hectofarad = new ("hectofarad", "hF", Dekafarad, 10, 0);
+   public static readonly Capacitance Hectofarad = new ("hectofarad", "hF", Dekafarad, 10.0, 0);
 
    /// <summary>
    /// A(n) kilofarad. Defined in terms of a(n) hectofarad.
    /// </summary>
-   public static readonly Capacitance Kilofarad = new ("kilofarad", "kF", Hectofarad, 10, 0);
+   public static readonly Capacitance Kilofarad = new ("kilofarad", "kF", Hectofarad, 10.0, 0);
 
    /// <summary>
    /// A(n) megafarad. Defined in terms of a(n) kilofarad.
    /// </summary>
-   public static readonly Capacitance Megafarad = new ("megafarad", "MF", Kilofarad, 1000, 0);
+   public static readonly Capacitance Megafarad = new ("megafarad", "MF", Kilofarad, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigafarad. Defined in terms of a(n) megafarad.
    /// </summary>
-   public static readonly Capacitance Gigafarad = new ("gigafarad", "GF", Megafarad, 1000, 0);
+   public static readonly Capacitance Gigafarad = new ("gigafarad", "GF", Megafarad, 1000.0, 0);
 
    /// <summary>
    /// A(n) terafarad. Defined in terms of a(n) gigafarad.
    /// </summary>
-   public static readonly Capacitance Terafarad = new ("terafarad", "TF", Gigafarad, 1000, 0);
+   public static readonly Capacitance Terafarad = new ("terafarad", "TF", Gigafarad, 1000.0, 0);
 
    /// <summary>
    /// A(n) petafarad. Defined in terms of a(n) terafarad.
    /// </summary>
-   public static readonly Capacitance Petafarad = new ("petafarad", "PF", Terafarad, 1000, 0);
+   public static readonly Capacitance Petafarad = new ("petafarad", "PF", Terafarad, 1000.0, 0);
 
    /// <summary>
    /// A(n) exafarad. Defined in terms of a(n) petafarad.
    /// </summary>
-   public static readonly Capacitance Exafarad = new ("exafarad", "EF", Petafarad, 1000, 0);
+   public static readonly Capacitance Exafarad = new ("exafarad", "EF", Petafarad, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettafarad. Defined in terms of a(n) exafarad.
    /// </summary>
-   public static readonly Capacitance Zettafarad = new ("zettafarad", "ZF", Exafarad, 1000, 0);
+   public static readonly Capacitance Zettafarad = new ("zettafarad", "ZF", Exafarad, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottafarad. Defined in terms of a(n) zettafarad.
    /// </summary>
-   public static readonly Capacitance Yottafarad = new ("yottafarad", "YF", Zettafarad, 1000, 0);
+   public static readonly Capacitance Yottafarad = new ("yottafarad", "YF", Zettafarad, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnafarad. Defined in terms of a(n) yottafarad.
    /// </summary>
-   public static readonly Capacitance Ronnafarad = new ("ronnafarad", "RF", Yottafarad, 1000, 0);
+   public static readonly Capacitance Ronnafarad = new ("ronnafarad", "RF", Yottafarad, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettafarad. Defined in terms of a(n) ronnafarad.
    /// </summary>
-   public static readonly Capacitance Quettafarad = new ("quettafarad", "QF", Ronnafarad, 1000, 0);
+   public static readonly Capacitance Quettafarad = new ("quettafarad", "QF", Ronnafarad, 1000.0, 0);
 }

@@ -45,45 +45,45 @@ public class Lengths : Enumeration<Lengths, Length>
    /// <summary>
    /// A(n) hand. Defined in terms of a(n) inch.
    /// </summary>
-   public static readonly Length Hand = new ("hand", "hh", Inch, 4, 0);
+   public static readonly Length Hand = new ("hand", "hh", Inch, 4.0, 0);
 
    /// <summary>
    /// A(n) yard. Defined in terms of a(n) foot.
    /// </summary>
-   public static readonly Length Yard = new ("yard", "yd", Foot, 3, 0);
+   public static readonly Length Yard = new ("yard", "yd", Foot, 3.0, 0);
 
    /// <summary>
    /// A(n) chain. Defined in terms of a(n) yard.
    /// </summary>
-   public static readonly Length Chain = new ("chain", "ch", Yard, 22, 0);
+   public static readonly Length Chain = new ("chain", "ch", Yard, 22.0, 0);
 
    /// <summary>
    /// A(n) furlong. Defined in terms of a(n) chain.
    /// </summary>
-   public static readonly Length Furlong = new ("furlong", "fur", Chain, 10, 0);
+   public static readonly Length Furlong = new ("furlong", "fur", Chain, 10.0, 0);
 
    /// <summary>
    /// A(n) mile. Defined in terms of a(n) furlong.
    /// </summary>
-   public static readonly Length Mile = new ("mile", "mi", Furlong, 8, 0);
+   public static readonly Length Mile = new ("mile", "mi", Furlong, 8.0, 0);
 
    /// <summary>
    /// A(n) league. Defined in terms of a(n) mile.
    /// </summary>
-   public static readonly Length League = new ("league", "lea", Mile, 3, 0);
+   public static readonly Length League = new ("league", "lea", Mile, 3.0, 0);
 
    /// <summary>
    /// A(n) fathom. Defined in terms of a(n) foot.
    /// </summary>
-   public static readonly Length Fathom = new ("fathom", "ftm", Foot, 6, 0);
+   public static readonly Length Fathom = new ("fathom", "ftm", Foot, 6.0, 0);
 
    /// <summary>
    /// A(n) cable. Defined in terms of a(n) fathom.
    /// </summary>
-   public static readonly Length Cable = new ("cable", "cable", Fathom, 100, 0);
+   public static readonly Length Cable = new ("cable", "cable", Fathom, 100.0, 0);
 
    /// <summary>
    /// A(n) nautical mile. Defined in terms of a(n) cable.
    /// </summary>
-   public static readonly Length NauticalMile = new ("nautical mile", "nmi", Cable, 10, 0);
+   public static readonly Length NauticalMile = new ("nautical mile", "nmi", Cable, 10.0, 0);
 }

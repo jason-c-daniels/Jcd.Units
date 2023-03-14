@@ -85,60 +85,60 @@ public class ElectricalPotentials : Enumeration<ElectricalPotentials, Electrical
    /// <summary>
    /// A(n) dekavolt. Defined in terms of a(n) volt.
    /// </summary>
-   public static readonly ElectricalPotential Dekavolt = new ("dekavolt", "daV", Volt, 10, 0);
+   public static readonly ElectricalPotential Dekavolt = new ("dekavolt", "daV", Volt, 10.0, 0);
 
    /// <summary>
    /// A(n) hectovolt. Defined in terms of a(n) dekavolt.
    /// </summary>
-   public static readonly ElectricalPotential Hectovolt = new ("hectovolt", "hV", Dekavolt, 10, 0);
+   public static readonly ElectricalPotential Hectovolt = new ("hectovolt", "hV", Dekavolt, 10.0, 0);
 
    /// <summary>
    /// A(n) kilovolt. Defined in terms of a(n) hectovolt.
    /// </summary>
-   public static readonly ElectricalPotential Kilovolt = new ("kilovolt", "kV", Hectovolt, 10, 0);
+   public static readonly ElectricalPotential Kilovolt = new ("kilovolt", "kV", Hectovolt, 10.0, 0);
 
    /// <summary>
    /// A(n) megavolt. Defined in terms of a(n) kilovolt.
    /// </summary>
-   public static readonly ElectricalPotential Megavolt = new ("megavolt", "MV", Kilovolt, 1000, 0);
+   public static readonly ElectricalPotential Megavolt = new ("megavolt", "MV", Kilovolt, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigavolt. Defined in terms of a(n) megavolt.
    /// </summary>
-   public static readonly ElectricalPotential Gigavolt = new ("gigavolt", "GV", Megavolt, 1000, 0);
+   public static readonly ElectricalPotential Gigavolt = new ("gigavolt", "GV", Megavolt, 1000.0, 0);
 
    /// <summary>
    /// A(n) teravolt. Defined in terms of a(n) gigavolt.
    /// </summary>
-   public static readonly ElectricalPotential Teravolt = new ("teravolt", "TV", Gigavolt, 1000, 0);
+   public static readonly ElectricalPotential Teravolt = new ("teravolt", "TV", Gigavolt, 1000.0, 0);
 
    /// <summary>
    /// A(n) petavolt. Defined in terms of a(n) teravolt.
    /// </summary>
-   public static readonly ElectricalPotential Petavolt = new ("petavolt", "PV", Teravolt, 1000, 0);
+   public static readonly ElectricalPotential Petavolt = new ("petavolt", "PV", Teravolt, 1000.0, 0);
 
    /// <summary>
    /// A(n) exavolt. Defined in terms of a(n) petavolt.
    /// </summary>
-   public static readonly ElectricalPotential Exavolt = new ("exavolt", "EV", Petavolt, 1000, 0);
+   public static readonly ElectricalPotential Exavolt = new ("exavolt", "EV", Petavolt, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettavolt. Defined in terms of a(n) exavolt.
    /// </summary>
-   public static readonly ElectricalPotential Zettavolt = new ("zettavolt", "ZV", Exavolt, 1000, 0);
+   public static readonly ElectricalPotential Zettavolt = new ("zettavolt", "ZV", Exavolt, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottavolt. Defined in terms of a(n) zettavolt.
    /// </summary>
-   public static readonly ElectricalPotential Yottavolt = new ("yottavolt", "YV", Zettavolt, 1000, 0);
+   public static readonly ElectricalPotential Yottavolt = new ("yottavolt", "YV", Zettavolt, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnavolt. Defined in terms of a(n) yottavolt.
    /// </summary>
-   public static readonly ElectricalPotential Ronnavolt = new ("ronnavolt", "RV", Yottavolt, 1000, 0);
+   public static readonly ElectricalPotential Ronnavolt = new ("ronnavolt", "RV", Yottavolt, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettavolt. Defined in terms of a(n) ronnavolt.
    /// </summary>
-   public static readonly ElectricalPotential Quettavolt = new ("quettavolt", "QV", Ronnavolt, 1000, 0);
+   public static readonly ElectricalPotential Quettavolt = new ("quettavolt", "QV", Ronnavolt, 1000.0, 0);
 }

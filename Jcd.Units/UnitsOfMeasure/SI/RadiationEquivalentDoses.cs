@@ -136,60 +136,60 @@ public class RadiationEquivalentDoses : Enumeration<RadiationEquivalentDoses, Ra
    /// <summary>
    /// A(n) dekasievert. Defined in terms of a(n) sievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Dekasievert = new ("dekasievert", "dasv", Sievert, 10, 0);
+   public static readonly RadiationEquivalentDose Dekasievert = new ("dekasievert", "dasv", Sievert, 10.0, 0);
 
    /// <summary>
    /// A(n) hectosievert. Defined in terms of a(n) dekasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Hectosievert = new ("hectosievert", "hsv", Dekasievert, 10, 0);
+   public static readonly RadiationEquivalentDose Hectosievert = new ("hectosievert", "hsv", Dekasievert, 10.0, 0);
 
    /// <summary>
    /// A(n) kilosievert. Defined in terms of a(n) hectosievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Kilosievert = new ("kilosievert", "ksv", Hectosievert, 10, 0);
+   public static readonly RadiationEquivalentDose Kilosievert = new ("kilosievert", "ksv", Hectosievert, 10.0, 0);
 
    /// <summary>
    /// A(n) megasievert. Defined in terms of a(n) kilosievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Megasievert = new ("megasievert", "Msv", Kilosievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Megasievert = new ("megasievert", "Msv", Kilosievert, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigasievert. Defined in terms of a(n) megasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Gigasievert = new ("gigasievert", "Gsv", Megasievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Gigasievert = new ("gigasievert", "Gsv", Megasievert, 1000.0, 0);
 
    /// <summary>
    /// A(n) terasievert. Defined in terms of a(n) gigasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Terasievert = new ("terasievert", "Tsv", Gigasievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Terasievert = new ("terasievert", "Tsv", Gigasievert, 1000.0, 0);
 
    /// <summary>
    /// A(n) petasievert. Defined in terms of a(n) terasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Petasievert = new ("petasievert", "Psv", Terasievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Petasievert = new ("petasievert", "Psv", Terasievert, 1000.0, 0);
 
    /// <summary>
    /// A(n) exasievert. Defined in terms of a(n) petasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Exasievert = new ("exasievert", "Esv", Petasievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Exasievert = new ("exasievert", "Esv", Petasievert, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettasievert. Defined in terms of a(n) exasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Zettasievert = new ("zettasievert", "Zsv", Exasievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Zettasievert = new ("zettasievert", "Zsv", Exasievert, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottasievert. Defined in terms of a(n) zettasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Yottasievert = new ("yottasievert", "Ysv", Zettasievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Yottasievert = new ("yottasievert", "Ysv", Zettasievert, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnasievert. Defined in terms of a(n) yottasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Ronnasievert = new ("ronnasievert", "Rsv", Yottasievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Ronnasievert = new ("ronnasievert", "Rsv", Yottasievert, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettasievert. Defined in terms of a(n) ronnasievert.
    /// </summary>
-   public static readonly RadiationEquivalentDose Quettasievert = new ("quettasievert", "Qsv", Ronnasievert, 1000, 0);
+   public static readonly RadiationEquivalentDose Quettasievert = new ("quettasievert", "Qsv", Ronnasievert, 1000.0, 0);
 }

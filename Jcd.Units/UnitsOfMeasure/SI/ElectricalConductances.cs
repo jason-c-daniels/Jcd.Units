@@ -94,60 +94,60 @@ public class ElectricalConductances : Enumeration<ElectricalConductances, Electr
    /// <summary>
    /// A(n) dekasiemens. Defined in terms of a(n) siemens.
    /// </summary>
-   public static readonly ElectricalConductance Dekasiemens = new ("dekasiemens", "daS", Siemens, 10, 0);
+   public static readonly ElectricalConductance Dekasiemens = new ("dekasiemens", "daS", Siemens, 10.0, 0);
 
    /// <summary>
    /// A(n) hectosiemens. Defined in terms of a(n) dekasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Hectosiemens = new ("hectosiemens", "hS", Dekasiemens, 10, 0);
+   public static readonly ElectricalConductance Hectosiemens = new ("hectosiemens", "hS", Dekasiemens, 10.0, 0);
 
    /// <summary>
    /// A(n) kilosiemens. Defined in terms of a(n) hectosiemens.
    /// </summary>
-   public static readonly ElectricalConductance Kilosiemens = new ("kilosiemens", "kS", Hectosiemens, 10, 0);
+   public static readonly ElectricalConductance Kilosiemens = new ("kilosiemens", "kS", Hectosiemens, 10.0, 0);
 
    /// <summary>
    /// A(n) megasiemens. Defined in terms of a(n) kilosiemens.
    /// </summary>
-   public static readonly ElectricalConductance Megasiemens = new ("megasiemens", "MS", Kilosiemens, 1000, 0);
+   public static readonly ElectricalConductance Megasiemens = new ("megasiemens", "MS", Kilosiemens, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigasiemens. Defined in terms of a(n) megasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Gigasiemens = new ("gigasiemens", "GS", Megasiemens, 1000, 0);
+   public static readonly ElectricalConductance Gigasiemens = new ("gigasiemens", "GS", Megasiemens, 1000.0, 0);
 
    /// <summary>
    /// A(n) terasiemens. Defined in terms of a(n) gigasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Terasiemens = new ("terasiemens", "TS", Gigasiemens, 1000, 0);
+   public static readonly ElectricalConductance Terasiemens = new ("terasiemens", "TS", Gigasiemens, 1000.0, 0);
 
    /// <summary>
    /// A(n) petasiemens. Defined in terms of a(n) terasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Petasiemens = new ("petasiemens", "PS", Terasiemens, 1000, 0);
+   public static readonly ElectricalConductance Petasiemens = new ("petasiemens", "PS", Terasiemens, 1000.0, 0);
 
    /// <summary>
    /// A(n) exasiemens. Defined in terms of a(n) petasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Exasiemens = new ("exasiemens", "ES", Petasiemens, 1000, 0);
+   public static readonly ElectricalConductance Exasiemens = new ("exasiemens", "ES", Petasiemens, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettasiemens. Defined in terms of a(n) exasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Zettasiemens = new ("zettasiemens", "ZS", Exasiemens, 1000, 0);
+   public static readonly ElectricalConductance Zettasiemens = new ("zettasiemens", "ZS", Exasiemens, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottasiemens. Defined in terms of a(n) zettasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Yottasiemens = new ("yottasiemens", "YS", Zettasiemens, 1000, 0);
+   public static readonly ElectricalConductance Yottasiemens = new ("yottasiemens", "YS", Zettasiemens, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnasiemens. Defined in terms of a(n) yottasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Ronnasiemens = new ("ronnasiemens", "RS", Yottasiemens, 1000, 0);
+   public static readonly ElectricalConductance Ronnasiemens = new ("ronnasiemens", "RS", Yottasiemens, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettasiemens. Defined in terms of a(n) ronnasiemens.
    /// </summary>
-   public static readonly ElectricalConductance Quettasiemens = new ("quettasiemens", "QS", Ronnasiemens, 1000, 0);
+   public static readonly ElectricalConductance Quettasiemens = new ("quettasiemens", "QS", Ronnasiemens, 1000.0, 0);
 }

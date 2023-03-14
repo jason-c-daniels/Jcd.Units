@@ -85,60 +85,60 @@ public class Pressures : Enumeration<Pressures, Pressure>
    /// <summary>
    /// A(n) dekapascal. Defined in terms of a(n) pascal.
    /// </summary>
-   public static readonly Pressure Dekapascal = new ("dekapascal", "daPa", Pascal, 10, 0);
+   public static readonly Pressure Dekapascal = new ("dekapascal", "daPa", Pascal, 10.0, 0);
 
    /// <summary>
    /// A(n) hectopascal. Defined in terms of a(n) dekapascal.
    /// </summary>
-   public static readonly Pressure Hectopascal = new ("hectopascal", "hPa", Dekapascal, 10, 0);
+   public static readonly Pressure Hectopascal = new ("hectopascal", "hPa", Dekapascal, 10.0, 0);
 
    /// <summary>
    /// A(n) kilopascal. Defined in terms of a(n) hectopascal.
    /// </summary>
-   public static readonly Pressure Kilopascal = new ("kilopascal", "kPa", Hectopascal, 10, 0);
+   public static readonly Pressure Kilopascal = new ("kilopascal", "kPa", Hectopascal, 10.0, 0);
 
    /// <summary>
    /// A(n) megapascal. Defined in terms of a(n) kilopascal.
    /// </summary>
-   public static readonly Pressure Megapascal = new ("megapascal", "MPa", Kilopascal, 1000, 0);
+   public static readonly Pressure Megapascal = new ("megapascal", "MPa", Kilopascal, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigapascal. Defined in terms of a(n) megapascal.
    /// </summary>
-   public static readonly Pressure Gigapascal = new ("gigapascal", "GPa", Megapascal, 1000, 0);
+   public static readonly Pressure Gigapascal = new ("gigapascal", "GPa", Megapascal, 1000.0, 0);
 
    /// <summary>
    /// A(n) terapascal. Defined in terms of a(n) gigapascal.
    /// </summary>
-   public static readonly Pressure Terapascal = new ("terapascal", "TPa", Gigapascal, 1000, 0);
+   public static readonly Pressure Terapascal = new ("terapascal", "TPa", Gigapascal, 1000.0, 0);
 
    /// <summary>
    /// A(n) petapascal. Defined in terms of a(n) terapascal.
    /// </summary>
-   public static readonly Pressure Petapascal = new ("petapascal", "PPa", Terapascal, 1000, 0);
+   public static readonly Pressure Petapascal = new ("petapascal", "PPa", Terapascal, 1000.0, 0);
 
    /// <summary>
    /// A(n) exapascal. Defined in terms of a(n) petapascal.
    /// </summary>
-   public static readonly Pressure Exapascal = new ("exapascal", "EPa", Petapascal, 1000, 0);
+   public static readonly Pressure Exapascal = new ("exapascal", "EPa", Petapascal, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettapascal. Defined in terms of a(n) exapascal.
    /// </summary>
-   public static readonly Pressure Zettapascal = new ("zettapascal", "ZPa", Exapascal, 1000, 0);
+   public static readonly Pressure Zettapascal = new ("zettapascal", "ZPa", Exapascal, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottapascal. Defined in terms of a(n) zettapascal.
    /// </summary>
-   public static readonly Pressure Yottapascal = new ("yottapascal", "YPa", Zettapascal, 1000, 0);
+   public static readonly Pressure Yottapascal = new ("yottapascal", "YPa", Zettapascal, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnapascal. Defined in terms of a(n) yottapascal.
    /// </summary>
-   public static readonly Pressure Ronnapascal = new ("ronnapascal", "RPa", Yottapascal, 1000, 0);
+   public static readonly Pressure Ronnapascal = new ("ronnapascal", "RPa", Yottapascal, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettapascal. Defined in terms of a(n) ronnapascal.
    /// </summary>
-   public static readonly Pressure Quettapascal = new ("quettapascal", "QPa", Ronnapascal, 1000, 0);
+   public static readonly Pressure Quettapascal = new ("quettapascal", "QPa", Ronnapascal, 1000.0, 0);
 }

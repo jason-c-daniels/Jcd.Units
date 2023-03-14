@@ -12,6 +12,7 @@ for use with [Quantity&lt;TUnit&gt;](Jcd.Units.Quantity_TUnit_.md 'Jcd.Units.Qua
 | [Area](Jcd.Units.UnitTypes.Area.md 'Jcd.Units.UnitTypes.Area') | A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object,...etc. |
 | [Capacitance](Jcd.Units.UnitTypes.Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | A measurement of the ability of a system to store an electric charge. |
 | [CatalyticActivity](Jcd.Units.UnitTypes.CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') | A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst. |
+| [Density](Jcd.Units.UnitTypes.Density.md 'Jcd.Units.UnitTypes.Density') | A measurement of mass per unit of volume. |
 | [Duration](Jcd.Units.UnitTypes.Duration.md 'Jcd.Units.UnitTypes.Duration') | A measurement of a length of time. |
 | [ElectricalCharge](Jcd.Units.UnitTypes.ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge') | A measurement of the amount of electricity that a current carries for a given unit of time. |
 | [ElectricalConductance](Jcd.Units.UnitTypes.ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance') | A measurement of the ease with which an electric current passes through matter. It's the reciprocal of electrical resistance. |

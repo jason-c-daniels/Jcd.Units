@@ -85,60 +85,60 @@ public class ElectricalCurrents : Enumeration<ElectricalCurrents, ElectricalCurr
    /// <summary>
    /// A(n) dekaampere. Defined in terms of a(n) ampere.
    /// </summary>
-   public static readonly ElectricalCurrent Dekaampere = new ("dekaampere", "daA", Ampere, 10, 0);
+   public static readonly ElectricalCurrent Dekaampere = new ("dekaampere", "daA", Ampere, 10.0, 0);
 
    /// <summary>
    /// A(n) hectoampere. Defined in terms of a(n) dekaampere.
    /// </summary>
-   public static readonly ElectricalCurrent Hectoampere = new ("hectoampere", "hA", Dekaampere, 10, 0);
+   public static readonly ElectricalCurrent Hectoampere = new ("hectoampere", "hA", Dekaampere, 10.0, 0);
 
    /// <summary>
    /// A(n) kiloampere. Defined in terms of a(n) hectoampere.
    /// </summary>
-   public static readonly ElectricalCurrent Kiloampere = new ("kiloampere", "kA", Hectoampere, 10, 0);
+   public static readonly ElectricalCurrent Kiloampere = new ("kiloampere", "kA", Hectoampere, 10.0, 0);
 
    /// <summary>
    /// A(n) megaampere. Defined in terms of a(n) kiloampere.
    /// </summary>
-   public static readonly ElectricalCurrent Megaampere = new ("megaampere", "MA", Kiloampere, 1000, 0);
+   public static readonly ElectricalCurrent Megaampere = new ("megaampere", "MA", Kiloampere, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigaampere. Defined in terms of a(n) megaampere.
    /// </summary>
-   public static readonly ElectricalCurrent Gigaampere = new ("gigaampere", "GA", Megaampere, 1000, 0);
+   public static readonly ElectricalCurrent Gigaampere = new ("gigaampere", "GA", Megaampere, 1000.0, 0);
 
    /// <summary>
    /// A(n) teraampere. Defined in terms of a(n) gigaampere.
    /// </summary>
-   public static readonly ElectricalCurrent Teraampere = new ("teraampere", "TA", Gigaampere, 1000, 0);
+   public static readonly ElectricalCurrent Teraampere = new ("teraampere", "TA", Gigaampere, 1000.0, 0);
 
    /// <summary>
    /// A(n) petaampere. Defined in terms of a(n) teraampere.
    /// </summary>
-   public static readonly ElectricalCurrent Petaampere = new ("petaampere", "PA", Teraampere, 1000, 0);
+   public static readonly ElectricalCurrent Petaampere = new ("petaampere", "PA", Teraampere, 1000.0, 0);
 
    /// <summary>
    /// A(n) exaampere. Defined in terms of a(n) petaampere.
    /// </summary>
-   public static readonly ElectricalCurrent Exaampere = new ("exaampere", "EA", Petaampere, 1000, 0);
+   public static readonly ElectricalCurrent Exaampere = new ("exaampere", "EA", Petaampere, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettaampere. Defined in terms of a(n) exaampere.
    /// </summary>
-   public static readonly ElectricalCurrent Zettaampere = new ("zettaampere", "ZA", Exaampere, 1000, 0);
+   public static readonly ElectricalCurrent Zettaampere = new ("zettaampere", "ZA", Exaampere, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottaampere. Defined in terms of a(n) zettaampere.
    /// </summary>
-   public static readonly ElectricalCurrent Yottaampere = new ("yottaampere", "YA", Zettaampere, 1000, 0);
+   public static readonly ElectricalCurrent Yottaampere = new ("yottaampere", "YA", Zettaampere, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnaampere. Defined in terms of a(n) yottaampere.
    /// </summary>
-   public static readonly ElectricalCurrent Ronnaampere = new ("ronnaampere", "RA", Yottaampere, 1000, 0);
+   public static readonly ElectricalCurrent Ronnaampere = new ("ronnaampere", "RA", Yottaampere, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettaampere. Defined in terms of a(n) ronnaampere.
    /// </summary>
-   public static readonly ElectricalCurrent Quettaampere = new ("quettaampere", "QA", Ronnaampere, 1000, 0);
+   public static readonly ElectricalCurrent Quettaampere = new ("quettaampere", "QA", Ronnaampere, 1000.0, 0);
 }

@@ -85,62 +85,62 @@ public class Energies : Enumeration<Energies, Energy>
    /// <summary>
    /// A(n) dekajoule. Defined in terms of a(n) joule.
    /// </summary>
-   public static readonly Energy Dekajoule = new ("dekajoule", "daJ", Joule, 10, 0);
+   public static readonly Energy Dekajoule = new ("dekajoule", "daJ", Joule, 10.0, 0);
 
    /// <summary>
    /// A(n) hectojoule. Defined in terms of a(n) dekajoule.
    /// </summary>
-   public static readonly Energy Hectojoule = new ("hectojoule", "hJ", Dekajoule, 10, 0);
+   public static readonly Energy Hectojoule = new ("hectojoule", "hJ", Dekajoule, 10.0, 0);
 
    /// <summary>
    /// A(n) kilojoule. Defined in terms of a(n) hectojoule.
    /// </summary>
-   public static readonly Energy Kilojoule = new ("kilojoule", "kJ", Hectojoule, 10, 0);
+   public static readonly Energy Kilojoule = new ("kilojoule", "kJ", Hectojoule, 10.0, 0);
 
    /// <summary>
    /// A(n) megajoule. Defined in terms of a(n) kilojoule.
    /// </summary>
-   public static readonly Energy Megajoule = new ("megajoule", "MJ", Kilojoule, 1000, 0);
+   public static readonly Energy Megajoule = new ("megajoule", "MJ", Kilojoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigajoule. Defined in terms of a(n) megajoule.
    /// </summary>
-   public static readonly Energy Gigajoule = new ("gigajoule", "GJ", Megajoule, 1000, 0);
+   public static readonly Energy Gigajoule = new ("gigajoule", "GJ", Megajoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) terajoule. Defined in terms of a(n) gigajoule.
    /// </summary>
-   public static readonly Energy Terajoule = new ("terajoule", "TJ", Gigajoule, 1000, 0);
+   public static readonly Energy Terajoule = new ("terajoule", "TJ", Gigajoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) petajoule. Defined in terms of a(n) terajoule.
    /// </summary>
-   public static readonly Energy Petajoule = new ("petajoule", "PJ", Terajoule, 1000, 0);
+   public static readonly Energy Petajoule = new ("petajoule", "PJ", Terajoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) exajoule. Defined in terms of a(n) petajoule.
    /// </summary>
-   public static readonly Energy Exajoule = new ("exajoule", "EJ", Petajoule, 1000, 0);
+   public static readonly Energy Exajoule = new ("exajoule", "EJ", Petajoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettajoule. Defined in terms of a(n) exajoule.
    /// </summary>
-   public static readonly Energy Zettajoule = new ("zettajoule", "ZJ", Exajoule, 1000, 0);
+   public static readonly Energy Zettajoule = new ("zettajoule", "ZJ", Exajoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottajoule. Defined in terms of a(n) zettajoule.
    /// </summary>
-   public static readonly Energy Yottajoule = new ("yottajoule", "YJ", Zettajoule, 1000, 0);
+   public static readonly Energy Yottajoule = new ("yottajoule", "YJ", Zettajoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnajoule. Defined in terms of a(n) yottajoule.
    /// </summary>
-   public static readonly Energy Ronnajoule = new ("ronnajoule", "RJ", Yottajoule, 1000, 0);
+   public static readonly Energy Ronnajoule = new ("ronnajoule", "RJ", Yottajoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettajoule. Defined in terms of a(n) ronnajoule.
    /// </summary>
-   public static readonly Energy Quettajoule = new ("quettajoule", "QJ", Ronnajoule, 1000, 0);
+   public static readonly Energy Quettajoule = new ("quettajoule", "QJ", Ronnajoule, 1000.0, 0);
 
    /// <summary>
    /// A(n) calorie. Defined in terms of a(n) joule.
@@ -210,65 +210,65 @@ public class Energies : Enumeration<Energies, Energy>
    /// <summary>
    /// A(n) dekacalorie. Defined in terms of a(n) calorie.
    /// </summary>
-   public static readonly Energy Dekacalorie = new ("dekacalorie", "dac", Calorie, 10, 0);
+   public static readonly Energy Dekacalorie = new ("dekacalorie", "dac", Calorie, 10.0, 0);
 
    /// <summary>
    /// A(n) hectocalorie. Defined in terms of a(n) dekacalorie.
    /// </summary>
-   public static readonly Energy Hectocalorie = new ("hectocalorie", "hc", Dekacalorie, 10, 0);
+   public static readonly Energy Hectocalorie = new ("hectocalorie", "hc", Dekacalorie, 10.0, 0);
 
    /// <summary>
    /// A(n) kilocalorie. Defined in terms of a(n) hectocalorie.
    /// </summary>
-   public static readonly Energy Kilocalorie = new ("kilocalorie", "kc", Hectocalorie, 10, 0);
+   public static readonly Energy Kilocalorie = new ("kilocalorie", "kc", Hectocalorie, 10.0, 0);
 
    /// <summary>
    /// A(n) megacalorie. Defined in terms of a(n) kilocalorie.
    /// </summary>
-   public static readonly Energy Megacalorie = new ("megacalorie", "Mc", Kilocalorie, 1000, 0);
+   public static readonly Energy Megacalorie = new ("megacalorie", "Mc", Kilocalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigacalorie. Defined in terms of a(n) megacalorie.
    /// </summary>
-   public static readonly Energy Gigacalorie = new ("gigacalorie", "Gc", Megacalorie, 1000, 0);
+   public static readonly Energy Gigacalorie = new ("gigacalorie", "Gc", Megacalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) teracalorie. Defined in terms of a(n) gigacalorie.
    /// </summary>
-   public static readonly Energy Teracalorie = new ("teracalorie", "Tc", Gigacalorie, 1000, 0);
+   public static readonly Energy Teracalorie = new ("teracalorie", "Tc", Gigacalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) petacalorie. Defined in terms of a(n) teracalorie.
    /// </summary>
-   public static readonly Energy Petacalorie = new ("petacalorie", "Pc", Teracalorie, 1000, 0);
+   public static readonly Energy Petacalorie = new ("petacalorie", "Pc", Teracalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) exacalorie. Defined in terms of a(n) petacalorie.
    /// </summary>
-   public static readonly Energy Exacalorie = new ("exacalorie", "Ec", Petacalorie, 1000, 0);
+   public static readonly Energy Exacalorie = new ("exacalorie", "Ec", Petacalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettacalorie. Defined in terms of a(n) exacalorie.
    /// </summary>
-   public static readonly Energy Zettacalorie = new ("zettacalorie", "Zc", Exacalorie, 1000, 0);
+   public static readonly Energy Zettacalorie = new ("zettacalorie", "Zc", Exacalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottacalorie. Defined in terms of a(n) zettacalorie.
    /// </summary>
-   public static readonly Energy Yottacalorie = new ("yottacalorie", "Yc", Zettacalorie, 1000, 0);
+   public static readonly Energy Yottacalorie = new ("yottacalorie", "Yc", Zettacalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnacalorie. Defined in terms of a(n) yottacalorie.
    /// </summary>
-   public static readonly Energy Ronnacalorie = new ("ronnacalorie", "Rc", Yottacalorie, 1000, 0);
+   public static readonly Energy Ronnacalorie = new ("ronnacalorie", "Rc", Yottacalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettacalorie. Defined in terms of a(n) ronnacalorie.
    /// </summary>
-   public static readonly Energy Quettacalorie = new ("quettacalorie", "Qc", Ronnacalorie, 1000, 0);
+   public static readonly Energy Quettacalorie = new ("quettacalorie", "Qc", Ronnacalorie, 1000.0, 0);
 
    /// <summary>
    /// A(n) Calorie (Food). Defined in terms of a(n) calorie.
    /// </summary>
-   public static readonly Energy CalorieFood = new ("Calorie (Food)", "C", Calorie, 1000, 0);
+   public static readonly Energy CalorieFood = new ("Calorie (Food)", "C", Calorie, 1000.0, 0);
 }

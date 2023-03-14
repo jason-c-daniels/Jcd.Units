@@ -85,60 +85,60 @@ public class ElectricalCharges : Enumeration<ElectricalCharges, ElectricalCharge
    /// <summary>
    /// A(n) dekacoulomb. Defined in terms of a(n) coulomb.
    /// </summary>
-   public static readonly ElectricalCharge Dekacoulomb = new ("dekacoulomb", "daC", Coulomb, 10, 0);
+   public static readonly ElectricalCharge Dekacoulomb = new ("dekacoulomb", "daC", Coulomb, 10.0, 0);
 
    /// <summary>
    /// A(n) hectocoulomb. Defined in terms of a(n) dekacoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Hectocoulomb = new ("hectocoulomb", "hC", Dekacoulomb, 10, 0);
+   public static readonly ElectricalCharge Hectocoulomb = new ("hectocoulomb", "hC", Dekacoulomb, 10.0, 0);
 
    /// <summary>
    /// A(n) kilocoulomb. Defined in terms of a(n) hectocoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Kilocoulomb = new ("kilocoulomb", "kC", Hectocoulomb, 10, 0);
+   public static readonly ElectricalCharge Kilocoulomb = new ("kilocoulomb", "kC", Hectocoulomb, 10.0, 0);
 
    /// <summary>
    /// A(n) megacoulomb. Defined in terms of a(n) kilocoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Megacoulomb = new ("megacoulomb", "MC", Kilocoulomb, 1000, 0);
+   public static readonly ElectricalCharge Megacoulomb = new ("megacoulomb", "MC", Kilocoulomb, 1000.0, 0);
 
    /// <summary>
    /// A(n) gigacoulomb. Defined in terms of a(n) megacoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Gigacoulomb = new ("gigacoulomb", "GC", Megacoulomb, 1000, 0);
+   public static readonly ElectricalCharge Gigacoulomb = new ("gigacoulomb", "GC", Megacoulomb, 1000.0, 0);
 
    /// <summary>
    /// A(n) teracoulomb. Defined in terms of a(n) gigacoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Teracoulomb = new ("teracoulomb", "TC", Gigacoulomb, 1000, 0);
+   public static readonly ElectricalCharge Teracoulomb = new ("teracoulomb", "TC", Gigacoulomb, 1000.0, 0);
 
    /// <summary>
    /// A(n) petacoulomb. Defined in terms of a(n) teracoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Petacoulomb = new ("petacoulomb", "PC", Teracoulomb, 1000, 0);
+   public static readonly ElectricalCharge Petacoulomb = new ("petacoulomb", "PC", Teracoulomb, 1000.0, 0);
 
    /// <summary>
    /// A(n) exacoulomb. Defined in terms of a(n) petacoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Exacoulomb = new ("exacoulomb", "EC", Petacoulomb, 1000, 0);
+   public static readonly ElectricalCharge Exacoulomb = new ("exacoulomb", "EC", Petacoulomb, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettacoulomb. Defined in terms of a(n) exacoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Zettacoulomb = new ("zettacoulomb", "ZC", Exacoulomb, 1000, 0);
+   public static readonly ElectricalCharge Zettacoulomb = new ("zettacoulomb", "ZC", Exacoulomb, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottacoulomb. Defined in terms of a(n) zettacoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Yottacoulomb = new ("yottacoulomb", "YC", Zettacoulomb, 1000, 0);
+   public static readonly ElectricalCharge Yottacoulomb = new ("yottacoulomb", "YC", Zettacoulomb, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnacoulomb. Defined in terms of a(n) yottacoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Ronnacoulomb = new ("ronnacoulomb", "RC", Yottacoulomb, 1000, 0);
+   public static readonly ElectricalCharge Ronnacoulomb = new ("ronnacoulomb", "RC", Yottacoulomb, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettacoulomb. Defined in terms of a(n) ronnacoulomb.
    /// </summary>
-   public static readonly ElectricalCharge Quettacoulomb = new ("quettacoulomb", "QC", Ronnacoulomb, 1000, 0);
+   public static readonly ElectricalCharge Quettacoulomb = new ("quettacoulomb", "QC", Ronnacoulomb, 1000.0, 0);
 }

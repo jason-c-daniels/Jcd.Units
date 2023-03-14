@@ -151,60 +151,66 @@ public class Momentums : Enumeration<Momentums, Momentum>
    /// <summary>
    /// A(n) dekanewton-second. Defined in terms of a(n) newton-second.
    /// </summary>
-   public static readonly Momentum DekanewtonSecond = new ("dekanewton-second", "daN⋅s", NewtonSecond, 10, 0);
+   public static readonly Momentum DekanewtonSecond = new ("dekanewton-second", "daN⋅s", NewtonSecond, 10.0, 0);
 
    /// <summary>
    /// A(n) hectonewton-second. Defined in terms of a(n) dekanewton-second.
    /// </summary>
-   public static readonly Momentum HectonewtonSecond = new ("hectonewton-second", "hN⋅s", DekanewtonSecond, 10, 0);
+   public static readonly Momentum HectonewtonSecond = new ("hectonewton-second", "hN⋅s", DekanewtonSecond, 10.0, 0);
 
    /// <summary>
    /// A(n) kilonewton-second. Defined in terms of a(n) hectonewton-second.
    /// </summary>
-   public static readonly Momentum KilonewtonSecond = new ("kilonewton-second", "kN⋅s", HectonewtonSecond, 10, 0);
+   public static readonly Momentum KilonewtonSecond = new ("kilonewton-second", "kN⋅s", HectonewtonSecond, 10.0, 0);
 
    /// <summary>
    /// A(n) meganewton-second. Defined in terms of a(n) kilonewton-second.
    /// </summary>
-   public static readonly Momentum MeganewtonSecond = new ("meganewton-second", "MN⋅s", KilonewtonSecond, 1000, 0);
+   public static readonly Momentum MeganewtonSecond = new ("meganewton-second", "MN⋅s", KilonewtonSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) giganewton-second. Defined in terms of a(n) meganewton-second.
    /// </summary>
-   public static readonly Momentum GiganewtonSecond = new ("giganewton-second", "GN⋅s", MeganewtonSecond, 1000, 0);
+   public static readonly Momentum GiganewtonSecond = new ("giganewton-second", "GN⋅s", MeganewtonSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) teranewton-second. Defined in terms of a(n) giganewton-second.
    /// </summary>
-   public static readonly Momentum TeranewtonSecond = new ("teranewton-second", "TN⋅s", GiganewtonSecond, 1000, 0);
+   public static readonly Momentum TeranewtonSecond = new ("teranewton-second", "TN⋅s", GiganewtonSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) petanewton-second. Defined in terms of a(n) teranewton-second.
    /// </summary>
-   public static readonly Momentum PetanewtonSecond = new ("petanewton-second", "PN⋅s", TeranewtonSecond, 1000, 0);
+   public static readonly Momentum PetanewtonSecond = new ("petanewton-second", "PN⋅s", TeranewtonSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) exanewton-second. Defined in terms of a(n) petanewton-second.
    /// </summary>
-   public static readonly Momentum ExanewtonSecond = new ("exanewton-second", "EN⋅s", PetanewtonSecond, 1000, 0);
+   public static readonly Momentum ExanewtonSecond = new ("exanewton-second", "EN⋅s", PetanewtonSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) zettanewton-second. Defined in terms of a(n) exanewton-second.
    /// </summary>
-   public static readonly Momentum ZettanewtonSecond = new ("zettanewton-second", "ZN⋅s", ExanewtonSecond, 1000, 0);
+   public static readonly Momentum ZettanewtonSecond = new ("zettanewton-second", "ZN⋅s", ExanewtonSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) yottanewton-second. Defined in terms of a(n) zettanewton-second.
    /// </summary>
-   public static readonly Momentum YottanewtonSecond = new ("yottanewton-second", "YN⋅s", ZettanewtonSecond, 1000, 0);
+   public static readonly Momentum YottanewtonSecond = new ("yottanewton-second", "YN⋅s", ZettanewtonSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) ronnanewton-second. Defined in terms of a(n) yottanewton-second.
    /// </summary>
-   public static readonly Momentum RonnanewtonSecond = new ("ronnanewton-second", "RN⋅s", YottanewtonSecond, 1000, 0);
+   public static readonly Momentum RonnanewtonSecond = new ("ronnanewton-second", "RN⋅s", YottanewtonSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) quettanewton-second. Defined in terms of a(n) ronnanewton-second.
    /// </summary>
-   public static readonly Momentum QuettanewtonSecond = new ("quettanewton-second", "QN⋅s", RonnanewtonSecond, 1000, 0);
+   public static readonly Momentum QuettanewtonSecond = new (
+                                                             "quettanewton-second"
+                                                           , "QN⋅s"
+                                                           , RonnanewtonSecond
+                                                           , 1000.0
+                                                           , 0
+                                                            );
 }

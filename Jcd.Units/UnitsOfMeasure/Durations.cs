@@ -85,22 +85,22 @@ public class Durations : Enumeration<Durations, Duration>
    /// <summary>
    /// A(n) minute. Defined in terms of a(n) second.
    /// </summary>
-   public static readonly Duration Minute = new ("minute", "min", Second, 60, 0);
+   public static readonly Duration Minute = new ("minute", "min", Second, 60.0, 0);
 
    /// <summary>
    /// A(n) hour. Defined in terms of a(n) minute.
    /// </summary>
-   public static readonly Duration Hour = new ("hour", "hr", Minute, 60, 0);
+   public static readonly Duration Hour = new ("hour", "hr", Minute, 60.0, 0);
 
    /// <summary>
    /// A(n) day. Defined in terms of a(n) hour.
    /// </summary>
-   public static readonly Duration Day = new ("day", "dy", Hour, 24, 0);
+   public static readonly Duration Day = new ("day", "dy", Hour, 24.0, 0);
 
    /// <summary>
    /// A(n) week. Defined in terms of a(n) day.
    /// </summary>
-   public static readonly Duration Week = new ("week", "wk", Day, 7, 0);
+   public static readonly Duration Week = new ("week", "wk", Day, 7.0, 0);
 
    /// <summary>
    /// A(n) year. Defined in terms of a(n) day.
@@ -110,67 +110,67 @@ public class Durations : Enumeration<Durations, Duration>
    /// <summary>
    /// A(n) decade. Defined in terms of a(n) year.
    /// </summary>
-   public static readonly Duration Decade = new ("decade", "dec.", Year, 10, 0);
+   public static readonly Duration Decade = new ("decade", "dec.", Year, 10.0, 0);
 
    /// <summary>
    /// A(n) century. Defined in terms of a(n) decade.
    /// </summary>
-   public static readonly Duration Century = new ("century", "cent.", Decade, 10, 0);
+   public static readonly Duration Century = new ("century", "cent.", Decade, 10.0, 0);
 
    /// <summary>
    /// A(n) millennium. Defined in terms of a(n) century.
    /// </summary>
-   public static readonly Duration Millennium = new ("millennium", "kyr", Century, 10, 0);
+   public static readonly Duration Millennium = new ("millennium", "kyr", Century, 10.0, 0);
 
    /// <summary>
    /// A(n) million years. Defined in terms of a(n) millennium.
    /// </summary>
-   public static readonly Duration MillionYears = new ("million years", "Myr", Millennium, 1000, 0);
+   public static readonly Duration MillionYears = new ("million years", "Myr", Millennium, 1000.0, 0);
 
    /// <summary>
    /// A(n) billion years. Defined in terms of a(n) million years.
    /// </summary>
-   public static readonly Duration BillionYears = new ("billion years", "Gyr", MillionYears, 1000, 0);
+   public static readonly Duration BillionYears = new ("billion years", "Gyr", MillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) trillion years. Defined in terms of a(n) billion years.
    /// </summary>
-   public static readonly Duration TrillionYears = new ("trillion years", "Tyr", BillionYears, 1000, 0);
+   public static readonly Duration TrillionYears = new ("trillion years", "Tyr", BillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) quadrillion years. Defined in terms of a(n) trillion years.
    /// </summary>
-   public static readonly Duration QuadrillionYears = new ("quadrillion years", "Pyr", TrillionYears, 1000, 0);
+   public static readonly Duration QuadrillionYears = new ("quadrillion years", "Pyr", TrillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) quintillion years. Defined in terms of a(n) quadrillion years.
    /// </summary>
-   public static readonly Duration QuintillionYears = new ("quintillion years", "Eyr", QuadrillionYears, 1000, 0);
+   public static readonly Duration QuintillionYears = new ("quintillion years", "Eyr", QuadrillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) sextillion years. Defined in terms of a(n) quintillion years.
    /// </summary>
-   public static readonly Duration SextillionYears = new ("sextillion years", "Zyr", QuintillionYears, 1000, 0);
+   public static readonly Duration SextillionYears = new ("sextillion years", "Zyr", QuintillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) septillion years. Defined in terms of a(n) sextillion years.
    /// </summary>
-   public static readonly Duration SeptillionYears = new ("septillion years", "Yyr", SextillionYears, 1000, 0);
+   public static readonly Duration SeptillionYears = new ("septillion years", "Yyr", SextillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) octillion years. Defined in terms of a(n) septillion years.
    /// </summary>
-   public static readonly Duration OctillionYears = new ("octillion years", "Ryr", SeptillionYears, 1000, 0);
+   public static readonly Duration OctillionYears = new ("octillion years", "Ryr", SeptillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) nonillion years. Defined in terms of a(n) octillion years.
    /// </summary>
-   public static readonly Duration NonillionYears = new ("nonillion years", "Qyr", OctillionYears, 1000, 0);
+   public static readonly Duration NonillionYears = new ("nonillion years", "Qyr", OctillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) decillion years. Defined in terms of a(n) nonillion years.
    /// </summary>
-   public static readonly Duration DecillionYears = new ("decillion years", "decillion yr", NonillionYears, 1000, 0);
+   public static readonly Duration DecillionYears = new ("decillion years", "decillion yr", NonillionYears, 1000.0, 0);
 
    /// <summary>
    /// A(n) planck-time. Defined in terms of a(n) microsecond.
@@ -180,5 +180,5 @@ public class Durations : Enumeration<Durations, Duration>
    /// <summary>
    /// A(n) tick. Defined in terms of a(n) nanosecond.
    /// </summary>
-   public static readonly Duration Tick = new ("tick", "tick", Nanosecond, 100, 0);
+   public static readonly Duration Tick = new ("tick", "tick", Nanosecond, 100.0, 0);
 }

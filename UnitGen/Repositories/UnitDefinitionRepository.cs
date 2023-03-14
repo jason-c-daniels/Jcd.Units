@@ -12,10 +12,10 @@ namespace UnitGen.Repositories;
 
 public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 {
+   private readonly Prefix _noPrefix = new ("", "", false, "", "", "1.0", 0, 0);
    private IReadOnlyList<UnitDefinition>? _allItems;
 
    private IImmutableDictionary<string, UnitType> _unitTypesByName;
-   private readonly Prefix _noPrefix = new ("", "", false, "", "", "1.0", 0, 0);
 
    public IReadOnlyList<UnitDefinition> GetAll()
    {
@@ -69,10 +69,28 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                         .ToImmutableList();
    }
 
+   // ReSharper disable once ReturnTypeCanBeEnumerable.Global
+   public IReadOnlyList<UnitType> GetUsedUnitTypes() =>
+            (from unitDef in GetAll() select unitDef.UnitType).Distinct()
+                                                              .ToList();
+
+   public IEnumerable<IGrouping<string, IGrouping<string, UnitDefinition>>>
+            GetSystemToUnitTypeToUnitDefinitionGroupings() =>
+            from unit in GetAll()
+            group unit by unit.System.Name
+            into systemGroup
+            from unitType in (
+                     from unit in systemGroup
+                     group unit by unit.UnitType.Name
+            )
+            group unitType by systemGroup.Key;
+
+   #region Unit Generation Logic
+
    private IReadOnlyList<UnitDefinition> GenerateUnits(ImmutableList<UnitDefinition> definedUnits)
    {
       var lengths = definedUnits.Where(
-                                       u => u.UnitType.Name == "Length"
+                                       u => u.UnitType.Name == "Length" /*
                                          && !u.UnitName.ToLower()
                                               .Contains("light-")
                                          && !u.UnitName.ToLower()
@@ -80,7 +98,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                                          && !u.UnitName.ToLower()
                                               .Contains("solar")
                                          && !u.UnitName.ToLower()
-                                              .Contains("parsec")
+                                              .Contains("parsec")*/
                                       )
                                 .ToImmutableList();
 
@@ -90,7 +108,13 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
       var volumes = GenerateVolumes(lengths)
               .ToImmutableList();
 
+      var masses = definedUnits.Where(x => x.UnitType.Name == "Mass")
+                               .ToImmutableList();
+
+      var densities = GenerateDensities(masses, volumes);
+
       return areas.Concat(volumes)
+                  .Concat(densities)
                   .ToImmutableList();
    }
 
@@ -109,12 +133,13 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                                  , $"{length.Symbol}^2"
                                  , length.Unit.PrefixScale
                                  , length.Unit.PrefixExponentsToInclude
-                                 , length.Unit.BaseUnitSystem
+                                 , length.Prefix.IsBasePrefix ? length.Unit.BaseUnitSystem : length.System.Name
                                  , $"square {length.BaseUnitName}"
                                  , $"({length.Coefficient})*({length.Coefficient})"
+
+                                   // TODO: Find a way to convert this.
                                  , "0"
-                                 , // TODO: Find a way to convert this.
-                                   length.Unit.SortIndex
+                                 , length.Unit.SortIndex * 1000 + length.Prefix.SortIndex
                                   )
                       };
 
@@ -136,33 +161,88 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                                  , $"{length.Symbol}^3"
                                  , length.Unit.PrefixScale
                                  , length.Unit.PrefixExponentsToInclude
-                                 , length.Unit.BaseUnitSystem
+                                 , length.Prefix.IsBasePrefix ? length.Unit.BaseUnitSystem : length.System.Name
                                  , $"cubic {length.BaseUnitName}"
-                                 , $"({length.Coefficient})*({length.Coefficient})"
+                                 , $"({length.Coefficient})*({length.Coefficient})*({length.Coefficient})"
+
+                                   // TODO: Find a way to convert this.
                                  , "0"
-                                 , // TODO: Find a way to convert this.
-                                   length.Unit.SortIndex
+                                 , length.Unit.SortIndex * 1000 + length.Prefix.SortIndex
                                   )
                       };
 
       return volumes.ToImmutableList();
    }
 
-   // ReSharper disable once ReturnTypeCanBeEnumerable.Global
-   public IReadOnlyList<UnitType> GetUsedUnitTypes() =>
-            (from unitDef in GetAll() select unitDef.UnitType).Distinct()
-                                                              .ToList();
+   private IReadOnlyList<UnitDefinition> GenerateDensities
+            (IReadOnlyList<UnitDefinition> masses, IReadOnlyList<UnitDefinition> volumes)
+   {
+      var density = _unitTypesByName["Density"];
 
-   public IEnumerable<IGrouping<string, IGrouping<string, UnitDefinition>>>
-            GetSystemToUnitTypeToUnitDefinitionGroupings() =>
-            from unit in GetAll()
-            group unit by unit.System.Name
-            into systemGroup
-            from unitType in (
-                     from unit in systemGroup
-                     group unit by unit.UnitType.Name
-            )
-            group unitType by systemGroup.Key;
+      var densitiesInSI = (
+               from mass in masses
+               join volume in volumes on mass.System equals volume.System
+               where mass.System.Name == "SI" && volume.System.Name == "SI"
+               select volume with
+                      {
+                               Prefix = _noPrefix, UnitType = density, Unit = new Unit(
+                                   volume.System.Name
+                                 , density.Name
+                                 , $"{mass.UnitName} per {volume.UnitName}"
+                                 , $"{mass.Symbol}/{volume.Symbol}"
+                                 , volume.Unit.PrefixScale
+                                 , volume.Unit.PrefixExponentsToInclude
+                                 , volume.Unit.BaseUnitSystem
+                                 , $"{mass.BaseUnitName} per {volume.BaseUnitName}"
+                                 , $"({mass.Coefficient})/({volume.Coefficient})"
+
+                                   // TODO: Find a way to convert this.
+                                 , "0"
+                                 , (mass.Unit.SortIndex * 1000 + mass.Prefix.SortIndex) * 1000
+                                 + (volume.Unit.SortIndex * 1000 + volume.Prefix.SortIndex)
+                                  )
+                      }).ToImmutableList();
+
+      var allDensities = (
+                        from mass in masses
+                        from volume in volumes //.on mass.System equals volume.System
+                        select volume with
+                               {
+                                        Prefix = _noPrefix, UnitType = density, Unit = new Unit(
+                                            volume.System.Name
+                                          , density.Name
+                                          , $"{mass.UnitName} per {volume.UnitName}"
+                                          , $"{mass.Symbol}/{volume.Symbol}"
+                                          , volume.Unit.PrefixScale
+                                          , volume.Unit.PrefixExponentsToInclude
+                                          , volume.Unit.BaseUnitSystem
+                                          , $"{mass.BaseUnitName} per {volume.BaseUnitName}"
+                                          , $"({mass.Coefficient})/({volume.Coefficient})"
+
+                                            // TODO: Find a way to convert this.
+                                          , "0"
+                                          , (mass.Unit.SortIndex * 1000 + mass.Prefix.SortIndex) * 1000
+                                          + (volume.Unit.SortIndex * 1000 + volume.Prefix.SortIndex)
+                                           )
+                               })
+              .ToImmutableList();
+
+      var baseDensities =
+               from baseDensity in allDensities
+               join derivedDensity in allDensities
+                        on baseDensity.UnitName equals derivedDensity.BaseUnitName
+               select baseDensity;
+
+      var densities = densitiesInSI
+
+               //.Concat(baseDensities)
+               //.DistinctBy(x => x.UnitName.GetHashCode() ^ x.System.GetHashCode())
+              .ToImmutableList();
+
+      return densities;
+   }
+
+   #endregion
 
    // ReSharper disable MemberCanBePrivate.Global
    public SystemRepository SystemRepo { get; } = new ();

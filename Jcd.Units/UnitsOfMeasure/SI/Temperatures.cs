@@ -25,5 +25,5 @@ public class Temperatures : Enumeration<Temperatures, Temperature>
    /// <summary>
    /// A(n) degrees kelvin. Defined in terms of a(n) degrees celcius.
    /// </summary>
-   public static readonly Temperature DegreesKelvin = new ("degrees kelvin", "°K", DegreesCelcius, 1, -273.15);
+   public static readonly Temperature DegreesKelvin = new ("degrees kelvin", "°K", DegreesCelcius, 1.0, -273.15);
 }
