@@ -15,7 +15,6 @@ public record Unit
        , string UnitType
        , string UnitName
        , string UnitSymbol
-       , bool UsesPrefixes
        , string PrefixScale
        , string PrefixExponentsToInclude
        , string BaseUnitSystem
@@ -26,6 +25,8 @@ public record Unit
          )
 {
    public bool IsBaseUnit => string.Compare(UnitName, BaseUnit, StringComparison.InvariantCultureIgnoreCase) == 0;
+
+   public bool UsesPrefixes => !string.IsNullOrWhiteSpace(PrefixScale);
 
    // ReSharper disable once MemberCanBePrivate.Global
    public bool IsDerivedUnit => !IsBaseUnit;
