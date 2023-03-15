@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicMegameter Field
 
-A(n) hectogram per cubic megameter. Defined in terms of a(n) dekagram per cubic kilometer.
+A(n) hectogram per cubic megameter. Defined in terms of a(n) kilogram per cubic kilometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicMegameter;

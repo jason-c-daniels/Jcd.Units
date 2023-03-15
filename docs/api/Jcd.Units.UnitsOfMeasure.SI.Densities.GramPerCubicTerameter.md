@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicTerameter Field
 
-A(n) gram per cubic terameter. Defined in terms of a(n) gram per cubic gigameter.
+A(n) gram per cubic terameter. Defined in terms of a(n) dekagram per cubic gigameter.
 
 ```csharp
 public static readonly Density GramPerCubicTerameter;

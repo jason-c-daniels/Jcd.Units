@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicFemtometer Field
 
-A(n) hectogram per cubic femtometer. Defined in terms of a(n) dekagram per cubic picometer.
+A(n) hectogram per cubic femtometer. Defined in terms of a(n) kilogram per cubic picometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicFemtometer;

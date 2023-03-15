@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicYoctometer Field
 
-A(n) gram per cubic yoctometer. Defined in terms of a(n) gram per cubic zeptometer.
+A(n) gram per cubic yoctometer. Defined in terms of a(n) dekagram per cubic zeptometer.
 
 ```csharp
 public static readonly Density GramPerCubicYoctometer;

@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicMeter Field
 
-A(n) kilogram per cubic meter. Defined in terms of a(n) hectogram per cubic meter.
+A(n) kilogram per cubic meter.
 
 ```csharp
 public static readonly Density KilogramPerCubicMeter;

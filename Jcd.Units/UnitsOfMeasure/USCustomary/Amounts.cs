@@ -18,9 +18,9 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Amounts : Enumeration<Amounts, Amount>
 {
    /// <summary>
-   /// A(n) count.
+   /// A(n) count. Defined in terms of a(n)  count.
    /// </summary>
-   public static readonly Amount Count = new ("count", "ct.");
+   public static readonly Amount Count = new ("count", "ct.", UnitsOfMeasure.Amounts.Count, 1.0, 0);
 
    /// <summary>
    /// A(n) ten count. Defined in terms of a(n)  count.

@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicTerameter Field
 
-A(n) hectogram per cubic terameter. Defined in terms of a(n) dekagram per cubic gigameter.
+A(n) hectogram per cubic terameter. Defined in terms of a(n) kilogram per cubic gigameter.
 
 ```csharp
 public static readonly Density HectogramPerCubicTerameter;

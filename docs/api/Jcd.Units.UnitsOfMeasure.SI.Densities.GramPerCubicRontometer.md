@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicRontometer Field
 
-A(n) gram per cubic rontometer. Defined in terms of a(n) gram per cubic yoctometer.
+A(n) gram per cubic rontometer. Defined in terms of a(n) dekagram per cubic yoctometer.
 
 ```csharp
 public static readonly Density GramPerCubicRontometer;

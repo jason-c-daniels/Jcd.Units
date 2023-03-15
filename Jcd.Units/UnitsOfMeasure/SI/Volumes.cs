@@ -23,11 +23,6 @@ public class Volumes : Enumeration<Volumes, Volume>
    public static readonly Volume CubicMeter = new ("cubic meter", "m^3");
 
    /// <summary>
-   /// A(n) liter. Defined in terms of a(n) cubic decimeter.
-   /// </summary>
-   public static readonly Volume Liter = new ("liter", "L", CubicDecimeter, 1.0, 0);
-
-   /// <summary>
    /// A(n) cubic decimeter. Defined in terms of a(n) cubic meter.
    /// </summary>
    public static readonly Volume CubicDecimeter = new (
@@ -284,4 +279,9 @@ public class Volumes : Enumeration<Volumes, Volume>
                                                        , 1000.0 * 1000.0 * 1000.0
                                                        , 0
                                                         );
+
+   /// <summary>
+   /// A(n) liter. Defined in terms of a(n) cubic decimeter.
+   /// </summary>
+   public static readonly Volume Liter = new ("liter", "L", CubicDecimeter, 1.0, 0);
 }

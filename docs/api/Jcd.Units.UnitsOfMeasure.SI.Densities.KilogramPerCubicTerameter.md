@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicTerameter Field
 
-A(n) kilogram per cubic terameter. Defined in terms of a(n) hectogram per cubic gigameter.
+A(n) kilogram per cubic terameter. Defined in terms of a(n) kilogram per cubic gigameter.
 
 ```csharp
 public static readonly Density KilogramPerCubicTerameter;

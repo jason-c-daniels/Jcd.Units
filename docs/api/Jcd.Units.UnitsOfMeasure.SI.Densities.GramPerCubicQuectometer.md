@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicQuectometer Field
 
-A(n) gram per cubic quectometer. Defined in terms of a(n) gram per cubic rontometer.
+A(n) gram per cubic quectometer. Defined in terms of a(n) dekagram per cubic rontometer.
 
 ```csharp
 public static readonly Density GramPerCubicQuectometer;

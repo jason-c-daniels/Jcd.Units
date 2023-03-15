@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicZeptometer Field
 
-A(n) gram per cubic zeptometer. Defined in terms of a(n) gram per cubic attometer.
+A(n) gram per cubic zeptometer. Defined in terms of a(n) dekagram per cubic attometer.
 
 ```csharp
 public static readonly Density GramPerCubicZeptometer;

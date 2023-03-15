@@ -24,8 +24,6 @@ public class EnumerationBase<TEnumeration, T>
 
    static EnumerationBase()
    {
-      var t = typeof(T);
-
       var fields = typeof(TEnumeration).GetFields(
                                                   BindingFlags.Public
                                                 | BindingFlags.Static
@@ -45,5 +43,7 @@ public class EnumerationBase<TEnumeration, T>
    /// on the derived enumeration <typeparamref name="TEnumeration" />
    /// </summary>
    /// <returns>An <see cref="IEnumerable{T}" /> for all detected members.</returns>
+
+   // ReSharper disable once HeapView.BoxingAllocation
    public static IEnumerable<T> GetAll() => All;
 }

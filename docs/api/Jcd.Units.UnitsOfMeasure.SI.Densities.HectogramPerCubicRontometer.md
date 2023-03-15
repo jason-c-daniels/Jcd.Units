@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicRontometer Field
 
-A(n) hectogram per cubic rontometer. Defined in terms of a(n) dekagram per cubic yoctometer.
+A(n) hectogram per cubic rontometer. Defined in terms of a(n) kilogram per cubic yoctometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicRontometer;

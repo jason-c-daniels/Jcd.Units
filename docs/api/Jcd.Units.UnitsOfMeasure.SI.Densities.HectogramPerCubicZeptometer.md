@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicZeptometer Field
 
-A(n) hectogram per cubic zeptometer. Defined in terms of a(n) dekagram per cubic attometer.
+A(n) hectogram per cubic zeptometer. Defined in terms of a(n) kilogram per cubic attometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicZeptometer;

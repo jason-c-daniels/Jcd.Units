@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicQuettameter Field
 
-A(n) hectogram per cubic quettameter. Defined in terms of a(n) dekagram per cubic ronnameter.
+A(n) hectogram per cubic quettameter. Defined in terms of a(n) kilogram per cubic ronnameter.
 
 ```csharp
 public static readonly Density HectogramPerCubicQuettameter;

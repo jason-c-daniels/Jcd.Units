@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicExameter Field
 
-A(n) kilogram per cubic exameter. Defined in terms of a(n) hectogram per cubic petameter.
+A(n) kilogram per cubic exameter. Defined in terms of a(n) kilogram per cubic petameter.
 
 ```csharp
 public static readonly Density KilogramPerCubicExameter;

@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicRontometer Field
 
-A(n) kilogram per cubic rontometer. Defined in terms of a(n) hectogram per cubic yoctometer.
+A(n) kilogram per cubic rontometer. Defined in terms of a(n) kilogram per cubic yoctometer.
 
 ```csharp
 public static readonly Density KilogramPerCubicRontometer;

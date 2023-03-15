@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicGigameter Field
 
-A(n) kilogram per cubic gigameter. Defined in terms of a(n) hectogram per cubic megameter.
+A(n) kilogram per cubic gigameter. Defined in terms of a(n) kilogram per cubic megameter.
 
 ```csharp
 public static readonly Density KilogramPerCubicGigameter;

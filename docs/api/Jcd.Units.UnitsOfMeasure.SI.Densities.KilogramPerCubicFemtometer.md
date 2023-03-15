@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicFemtometer Field
 
-A(n) kilogram per cubic femtometer. Defined in terms of a(n) hectogram per cubic picometer.
+A(n) kilogram per cubic femtometer. Defined in terms of a(n) kilogram per cubic picometer.
 
 ```csharp
 public static readonly Density KilogramPerCubicFemtometer;

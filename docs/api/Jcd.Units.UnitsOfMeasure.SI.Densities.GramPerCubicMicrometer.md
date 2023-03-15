@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicMicrometer Field
 
-A(n) gram per cubic micrometer. Defined in terms of a(n) gram per cubic millimeter.
+A(n) gram per cubic micrometer. Defined in terms of a(n) dekagram per cubic millimeter.
 
 ```csharp
 public static readonly Density GramPerCubicMicrometer;

@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicCentimeter Field
 
-A(n) dekagram per cubic centimeter. Defined in terms of a(n) gram per cubic decimeter.
+A(n) dekagram per cubic centimeter. Defined in terms of a(n) hectogram per cubic decimeter.
 
 ```csharp
 public static readonly Density DekagramPerCubicCentimeter;

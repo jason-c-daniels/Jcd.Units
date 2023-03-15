@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicYoctometer Field
 
-A(n) kilogram per cubic yoctometer. Defined in terms of a(n) hectogram per cubic zeptometer.
+A(n) kilogram per cubic yoctometer. Defined in terms of a(n) kilogram per cubic zeptometer.
 
 ```csharp
 public static readonly Density KilogramPerCubicYoctometer;

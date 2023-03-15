@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicPetameter Field
 
-A(n) dekagram per cubic petameter. Defined in terms of a(n) gram per cubic terameter.
+A(n) dekagram per cubic petameter. Defined in terms of a(n) hectogram per cubic terameter.
 
 ```csharp
 public static readonly Density DekagramPerCubicPetameter;

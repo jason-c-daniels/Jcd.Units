@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicNanometer Field
 
-A(n) hectogram per cubic nanometer. Defined in terms of a(n) dekagram per cubic micrometer.
+A(n) hectogram per cubic nanometer. Defined in terms of a(n) kilogram per cubic micrometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicNanometer;

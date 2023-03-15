@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicYoctometer Field
 
-A(n) hectogram per cubic yoctometer. Defined in terms of a(n) dekagram per cubic zeptometer.
+A(n) hectogram per cubic yoctometer. Defined in terms of a(n) kilogram per cubic zeptometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicYoctometer;

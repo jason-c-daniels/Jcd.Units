@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicExameter Field
 
-A(n) hectogram per cubic exameter. Defined in terms of a(n) dekagram per cubic petameter.
+A(n) hectogram per cubic exameter. Defined in terms of a(n) kilogram per cubic petameter.
 
 ```csharp
 public static readonly Density HectogramPerCubicExameter;

@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicNanometer Field
 
-A(n) kilogram per cubic nanometer. Defined in terms of a(n) hectogram per cubic micrometer.
+A(n) kilogram per cubic nanometer. Defined in terms of a(n) kilogram per cubic micrometer.
 
 ```csharp
 public static readonly Density KilogramPerCubicNanometer;

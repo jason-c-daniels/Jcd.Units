@@ -15,7 +15,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | :--- | :--- |
 | [BillionCount](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionCount') | A(n) billion count. Defined in terms of a(n) million count. |
 | [BillionQuantity](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionQuantity') | A(n) billion quantity. Defined in terms of a(n) million quantity. |
-| [Count](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Count.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Count') | A(n) count. |
+| [Count](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Count.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Count') | A(n) count. Defined in terms of a(n)  count. |
 | [DecillionCount](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionCount') | A(n) decillion count. Defined in terms of a(n) nonillion count. |
 | [DecillionQuantity](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionQuantity') | A(n) decillion quantity. Defined in terms of a(n) nonillion quantity. |
 | [HundredCount](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.HundredCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.HundredCount') | A(n) hundred count. Defined in terms of a(n) ten count. |

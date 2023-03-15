@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicHectometer Field
 
-A(n) gram per cubic hectometer. Defined in terms of a(n) gram per cubic dekameter.
+A(n) gram per cubic hectometer. Defined in terms of a(n) dekagram per cubic dekameter.
 
 ```csharp
 public static readonly Density GramPerCubicHectometer;

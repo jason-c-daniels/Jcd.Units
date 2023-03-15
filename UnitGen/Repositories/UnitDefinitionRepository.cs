@@ -15,7 +15,8 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
    private readonly Prefix _noPrefix = new ("", "", false, "", "", "1.0", 0, 0);
    private IReadOnlyList<UnitDefinition>? _allItems;
 
-   private IImmutableDictionary<string, UnitType> _unitTypesByName;
+   private IImmutableDictionary<string, UnitType> _unitTypesByName =
+            new Dictionary<string, UnitType>().ToImmutableDictionary();
 
    public IReadOnlyList<UnitDefinition> GetAll()
    {
@@ -45,7 +46,24 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                      )
                select new UnitDefinition(system, unitType, prefix, unit);
 
-      var unitsWithoutSiPrefixes =
+      /*
+            var us=unitsWithPrefixes
+                  .Where(x=>x.Unit.UnitName =="gram" || x.Unit.UnitName == "meter")
+                  .OrderBy(u => u.System.Name)
+                                    .ThenByDescending(u => u.UnitType.Name)
+                                    .ThenByDescending(u => u.IsBaseUnit)
+                                    .ThenBy(u => u.Unit.SortIndex)
+                                    .ThenBy(u => u.Prefix.SortIndex)
+                                    .ToImmutableList();
+      
+                     
+            foreach (var unit in us)
+            {
+               Console.Write($"{unit.System.Name}.{unit.UnitType.EnumerationName}.{unit.UnitName.MakeSymbolName()}");
+               Console.WriteLine($" = ({unit.BaseUnitNamespacePrefix}{unit.BaseUnitName.MakeSymbolName()}) * {unit.Coefficient} + {unit.Offset}");
+            }
+            */
+      var unitsWithoutPrefixes =
                from unit in units
                join system in systems on unit.System equals system.Name
                join unitType in unitTypes on unit.UnitType equals unitType.Name
@@ -53,7 +71,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                select new UnitDefinition(system, unitType, _noPrefix, unit);
 
       var definedUnits = unitsWithPrefixes
-                        .Concat(unitsWithoutSiPrefixes)
+                        .Concat(unitsWithoutPrefixes)
                         .ToImmutableList();
 
       var generatedUnits = GenerateUnits(definedUnits);
@@ -89,17 +107,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 
    private IReadOnlyList<UnitDefinition> GenerateUnits(ImmutableList<UnitDefinition> definedUnits)
    {
-      var lengths = definedUnits.Where(
-                                       u => u.UnitType.Name == "Length" /*
-                                         && !u.UnitName.ToLower()
-                                              .Contains("light-")
-                                         && !u.UnitName.ToLower()
-                                              .Contains("jovian")
-                                         && !u.UnitName.ToLower()
-                                              .Contains("solar")
-                                         && !u.UnitName.ToLower()
-                                              .Contains("parsec")*/
-                                      )
+      var lengths = definedUnits.Where(u => u.UnitType.Name == "Length")
                                 .ToImmutableList();
 
       var areas = GenerateAreas(lengths)
@@ -139,7 +147,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 
                                    // TODO: Find a way to convert this.
                                  , "0"
-                                 , length.Unit.SortIndex * 1000 + length.Prefix.SortIndex
+                                 , (length.Unit.SortIndex + 1) * (length.Prefix.SortIndex + 1)
                                   )
                       };
 
@@ -167,7 +175,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 
                                    // TODO: Find a way to convert this.
                                  , "0"
-                                 , length.Unit.SortIndex * 1000 + length.Prefix.SortIndex
+                                 , (length.Unit.SortIndex + 1) * (length.Prefix.SortIndex + 1)
                                   )
                       };
 
@@ -180,28 +188,31 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
       var density = _unitTypesByName["Density"];
 
       var densitiesInSI = (
-               from mass in masses
-               join volume in volumes on mass.System equals volume.System
-               where mass.System.Name == "SI" && volume.System.Name == "SI"
-               select volume with
-                      {
-                               Prefix = _noPrefix, UnitType = density, Unit = new Unit(
-                                   volume.System.Name
-                                 , density.Name
-                                 , $"{mass.UnitName} per {volume.UnitName}"
-                                 , $"{mass.Symbol}/{volume.Symbol}"
-                                 , volume.Unit.PrefixScale
-                                 , volume.Unit.PrefixExponentsToInclude
-                                 , volume.Unit.BaseUnitSystem
-                                 , $"{mass.BaseUnitName} per {volume.BaseUnitName}"
-                                 , $"({mass.Coefficient})/({volume.Coefficient})"
+                        from mass in masses
+                        join volume in volumes on mass.System equals volume.System
+                        where mass.System.Name == "SI" && volume.System.Name == "SI"
+                        select volume with
+                               {
+                                        Prefix = _noPrefix, UnitType = density, Unit = new Unit(
+                                            volume.System.Name
+                                          , density.Name
+                                          , $"{mass.UnitName} per {volume.UnitName}"
+                                          , $"{mass.Symbol}/{volume.Symbol}"
+                                          , volume.Unit.PrefixScale
+                                          , volume.Unit.PrefixExponentsToInclude
+                                          , volume.Unit.BaseUnitSystem
+                                          , $"{mass.BaseUnitName} per {volume.BaseUnitName}"
+                                          , $"({mass.Coefficient})/({volume.Coefficient})"
 
-                                   // TODO: Find a way to convert this.
-                                 , "0"
-                                 , (mass.Unit.SortIndex * 1000 + mass.Prefix.SortIndex) * 1000
-                                 + (volume.Unit.SortIndex * 1000 + volume.Prefix.SortIndex)
-                                  )
-                      }).ToImmutableList();
+                                            // TODO: Find a way to convert this.
+                                          , "0"
+                                          , (mass.Unit.SortIndex   + 1)
+                                          * (mass.Prefix.SortIndex + 1)
+                                          * (volume.Unit.SortIndex + 1)
+                                          + volume.Prefix.SortIndex
+                                           )
+                               })
+              .ToImmutableList();
 
       var allDensities = (
                         from mass in masses
@@ -221,8 +232,10 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 
                                             // TODO: Find a way to convert this.
                                           , "0"
-                                          , (mass.Unit.SortIndex * 1000 + mass.Prefix.SortIndex) * 1000
-                                          + (volume.Unit.SortIndex * 1000 + volume.Prefix.SortIndex)
+                                          , (mass.Unit.SortIndex   + 1)
+                                          * (mass.Prefix.SortIndex + 1)
+                                          * (volume.Unit.SortIndex + 1)
+                                          + volume.Prefix.SortIndex
                                            )
                                })
               .ToImmutableList();

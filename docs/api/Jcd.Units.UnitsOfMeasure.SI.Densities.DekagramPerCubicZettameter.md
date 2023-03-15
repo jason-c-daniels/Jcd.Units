@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicZettameter Field
 
-A(n) dekagram per cubic zettameter. Defined in terms of a(n) gram per cubic exameter.
+A(n) dekagram per cubic zettameter. Defined in terms of a(n) hectogram per cubic exameter.
 
 ```csharp
 public static readonly Density DekagramPerCubicZettameter;

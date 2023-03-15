@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicQuectometer Field
 
-A(n) hectogram per cubic quectometer. Defined in terms of a(n) dekagram per cubic rontometer.
+A(n) hectogram per cubic quectometer. Defined in terms of a(n) kilogram per cubic rontometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicQuectometer;

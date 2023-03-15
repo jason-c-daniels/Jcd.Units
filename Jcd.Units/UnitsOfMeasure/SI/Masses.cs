@@ -18,9 +18,24 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Masses : Enumeration<Masses, Mass>
 {
    /// <summary>
-   /// A(n) gram.
+   /// A(n) kilogram.
    /// </summary>
-   public static readonly Mass Gram = new ("gram", "g");
+   public static readonly Mass Kilogram = new ("kilogram", "kg");
+
+   /// <summary>
+   /// A(n) hectogram. Defined in terms of a(n) kilogram.
+   /// </summary>
+   public static readonly Mass Hectogram = new ("hectogram", "hg", Kilogram, 1.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) dekagram. Defined in terms of a(n) hectogram.
+   /// </summary>
+   public static readonly Mass Dekagram = new ("dekagram", "dag", Hectogram, 1.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) gram. Defined in terms of a(n) dekagram.
+   /// </summary>
+   public static readonly Mass Gram = new ("gram", "g", Dekagram, 1.0 / 10.0, 0);
 
    /// <summary>
    /// A(n) decigram. Defined in terms of a(n) gram.
@@ -81,21 +96,6 @@ public class Masses : Enumeration<Masses, Mass>
    /// A(n) quectogram. Defined in terms of a(n) rontogram.
    /// </summary>
    public static readonly Mass Quectogram = new ("quectogram", "qg", Rontogram, 1.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) dekagram. Defined in terms of a(n) gram.
-   /// </summary>
-   public static readonly Mass Dekagram = new ("dekagram", "dag", Gram, 10.0, 0);
-
-   /// <summary>
-   /// A(n) hectogram. Defined in terms of a(n) dekagram.
-   /// </summary>
-   public static readonly Mass Hectogram = new ("hectogram", "hg", Dekagram, 10.0, 0);
-
-   /// <summary>
-   /// A(n) kilogram. Defined in terms of a(n) hectogram.
-   /// </summary>
-   public static readonly Mass Kilogram = new ("kilogram", "kg", Hectogram, 10.0, 0);
 
    /// <summary>
    /// A(n) megagram. Defined in terms of a(n) kilogram.

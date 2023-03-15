@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicZettameter Field
 
-A(n) kilogram per cubic zettameter. Defined in terms of a(n) hectogram per cubic exameter.
+A(n) kilogram per cubic zettameter. Defined in terms of a(n) kilogram per cubic exameter.
 
 ```csharp
 public static readonly Density KilogramPerCubicZettameter;

@@ -35,9 +35,11 @@ const int ITERATIONS =
 
 var sysInfo = SystemInfo.Instance;
 
-var cpuFreq = sysInfo.CurrentCPUFrequency;
-var siTemps = Temperatures.BySymbol;
-var temps   = Jcd.Units.UnitsOfMeasure.Temperatures.BySymbol;
+var cpuFreq   = sysInfo.CurrentCPUFrequency;
+var siTemps   = Temperatures.BySymbol;
+var temps     = Jcd.Units.UnitsOfMeasure.Temperatures.BySymbol;
+var siMasses  = Masses.BySymbol;
+var uscMasses = US.Masses.BySymbol;
 
 var K     = siTemps["°K"];
 var C     = Temperatures.DegreesCelcius;
@@ -48,6 +50,18 @@ var ré    = temps["°Ré"];
 var rø    = temps["°Rø"];
 var de    = temps["°De"];
 var t1    = 10.As(C);
+
+var kg = siMasses["kg"];
+var g  = siMasses["g"];
+var dr = uscMasses["dr"];
+var gr = uscMasses["gr"];
+var oz = uscMasses["oz"];
+var lb = uscMasses["lb"];
+
+var oneKg         = 1.As(kg);
+var oneKgInGrams  = oneKg.To(g);
+var oneKgInPounds = oneKg.To(lb);
+var skinInLb      = $"{oneKgInPounds:n10}";
 
 var perfRunner = PerformanceTestRunner.Instance;
 

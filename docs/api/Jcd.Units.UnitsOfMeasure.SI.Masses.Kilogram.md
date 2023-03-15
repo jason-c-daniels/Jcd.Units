@@ -3,7 +3,7 @@
 
 ## Masses.Kilogram Field
 
-A(n) kilogram. Defined in terms of a(n) hectogram.
+A(n) kilogram.
 
 ```csharp
 public static readonly Mass Kilogram;

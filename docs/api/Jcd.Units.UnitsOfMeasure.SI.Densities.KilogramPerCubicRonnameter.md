@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicRonnameter Field
 
-A(n) kilogram per cubic ronnameter. Defined in terms of a(n) hectogram per cubic yottameter.
+A(n) kilogram per cubic ronnameter. Defined in terms of a(n) kilogram per cubic yottameter.
 
 ```csharp
 public static readonly Density KilogramPerCubicRonnameter;

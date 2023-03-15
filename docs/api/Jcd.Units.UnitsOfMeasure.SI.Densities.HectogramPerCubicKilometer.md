@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicKilometer Field
 
-A(n) hectogram per cubic kilometer. Defined in terms of a(n) dekagram per cubic hectometer.
+A(n) hectogram per cubic kilometer. Defined in terms of a(n) kilogram per cubic hectometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicKilometer;

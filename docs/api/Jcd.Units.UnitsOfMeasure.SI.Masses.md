@@ -16,13 +16,13 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Attogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Attogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Attogram') | A(n) attogram. Defined in terms of a(n) femtogram. |
 | [Centigram](Jcd.Units.UnitsOfMeasure.SI.Masses.Centigram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Centigram') | A(n) centigram. Defined in terms of a(n) decigram. |
 | [Decigram](Jcd.Units.UnitsOfMeasure.SI.Masses.Decigram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Decigram') | A(n) decigram. Defined in terms of a(n) gram. |
-| [Dekagram](Jcd.Units.UnitsOfMeasure.SI.Masses.Dekagram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Dekagram') | A(n) dekagram. Defined in terms of a(n) gram. |
+| [Dekagram](Jcd.Units.UnitsOfMeasure.SI.Masses.Dekagram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Dekagram') | A(n) dekagram. Defined in terms of a(n) hectogram. |
 | [Exagram](Jcd.Units.UnitsOfMeasure.SI.Masses.Exagram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Exagram') | A(n) exagram. Defined in terms of a(n) petagram. |
 | [Femtogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Femtogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Femtogram') | A(n) femtogram. Defined in terms of a(n) picogram. |
 | [Gigagram](Jcd.Units.UnitsOfMeasure.SI.Masses.Gigagram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Gigagram') | A(n) gigagram. Defined in terms of a(n) megagram. |
-| [Gram](Jcd.Units.UnitsOfMeasure.SI.Masses.Gram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Gram') | A(n) gram. |
-| [Hectogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Hectogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Hectogram') | A(n) hectogram. Defined in terms of a(n) dekagram. |
-| [Kilogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Kilogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Kilogram') | A(n) kilogram. Defined in terms of a(n) hectogram. |
+| [Gram](Jcd.Units.UnitsOfMeasure.SI.Masses.Gram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Gram') | A(n) gram. Defined in terms of a(n) dekagram. |
+| [Hectogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Hectogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Hectogram') | A(n) hectogram. Defined in terms of a(n) kilogram. |
+| [Kilogram](Jcd.Units.UnitsOfMeasure.SI.Masses.Kilogram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Kilogram') | A(n) kilogram. |
 | [Megagram](Jcd.Units.UnitsOfMeasure.SI.Masses.Megagram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Megagram') | A(n) megagram. Defined in terms of a(n) kilogram. |
 | [MetricTon](Jcd.Units.UnitsOfMeasure.SI.Masses.MetricTon.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.MetricTon') | A(n) metric ton. Defined in terms of a(n) megagram. |
 | [Microgram](Jcd.Units.UnitsOfMeasure.SI.Masses.Microgram.md 'Jcd.Units.UnitsOfMeasure.SI.Masses.Microgram') | A(n) microgram. Defined in terms of a(n) milligram. |
