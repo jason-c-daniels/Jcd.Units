@@ -3,7 +3,7 @@
 using System.Collections;
 using System.Reflection;
 
-using Jcd.Units.Tests._Extensions;
+using Jcd.Reflection;
 
 #endregion
 
@@ -18,21 +18,13 @@ public class GeneratedUnitsTests : TestBase
    {
       get
       {
-         var enumerationTypes = Assembly.GetAssembly(typeof(Enumeration<,>))
-                                        .GetImplementationTypes(typeof(Enumeration<,>));
+         var enumerationTypes =
+                  Assembly.GetAssembly(typeof(Enumeration<,>))
+                          .FindImplementationsOf(typeof(Enumeration<,>));
 
          return
                   from enumeration in enumerationTypes
-                  select new[]
-                         {
-                                  enumeration
-                                , enumeration.CallMethod(
-                                                         "GetAll"
-                                                       , BindingFlags.Public
-                                                       | BindingFlags.Static
-                                                       | BindingFlags.FlattenHierarchy
-                                                        )
-                         };
+                  select new[] { enumeration, enumeration.Invoke("GetAll") };
       }
    }
 

@@ -26,11 +26,11 @@ using US = Jcd.Units.UnitsOfMeasure.USCustomary;
 #endregion
 
 const int ITERATIONS =
-#if DEBUG
+                  #if DEBUG
                   100_000
-#else
+         #else
                   1_000_000
-#endif
+         #endif
          ;
 
 var sysInfo = SystemInfo.Instance;

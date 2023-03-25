@@ -15,11 +15,11 @@ namespace Jcd.Units.Examples.Perf;
 public class PerformanceTestRunner
 {
    private const int Iterations =
-#if DEBUG
+                     #if DEBUG
                      250_000
-#else
+            #else
                      250_000
-#endif
+            #endif
             ;
 
    public static readonly PerformanceTestRunner Instance = new ();

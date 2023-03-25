@@ -23,7 +23,6 @@
       </PackageReference>
    </ItemGroup>
 
-
    <PropertyGroup>
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <Title>Jcd.Units</Title>
