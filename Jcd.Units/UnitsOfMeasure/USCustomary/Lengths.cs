@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 /// <summary>
 /// United States Customary Units for measuring Length.
 /// </summary>
-public class Lengths : Enumeration<Lengths, Length>
+public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
 {
    /// <summary>
    /// A(n) inch. Defined in terms of a(n) SI centimeter.

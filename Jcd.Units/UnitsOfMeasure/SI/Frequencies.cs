@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Frequency.
 /// </summary>
-public class Frequencies : Enumeration<Frequencies, Frequency>
+public class Frequencies : UnitOfMeasureEnumeration<Frequencies, Frequency>
 {
    /// <summary>
    /// A(n) hertz.

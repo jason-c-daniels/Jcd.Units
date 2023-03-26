@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure;
 /// <summary>
 /// Uncategorized Units for measuring Amount.
 /// </summary>
-public class Amounts : Enumeration<Amounts, Amount>
+public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
 {
    /// <summary>
    /// A(n) count.

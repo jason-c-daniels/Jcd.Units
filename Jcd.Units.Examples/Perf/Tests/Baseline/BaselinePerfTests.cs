@@ -1,6 +1,6 @@
 ﻿namespace Jcd.Units.Examples.Perf.Tests.Baseline;
 
-internal class BaselinePerfTests : EnumerationBase<BaselinePerfTests, IPerfTest>
+internal class BaselinePerfTests : Enumeration<BaselinePerfTests, IPerfTest>
 {
    public static readonly IPerfTest DoubleAdditionPerfTest = new DoubleAdditionPerfTest();
    public static readonly IPerfTest DoubleSubtractionPerfTest = new DoubleSubtractionPerfTest();

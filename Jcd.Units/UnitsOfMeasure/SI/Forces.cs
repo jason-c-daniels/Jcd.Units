@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Force.
 /// </summary>
-public class Forces : Enumeration<Forces, Force>
+public class Forces : UnitOfMeasureEnumeration<Forces, Force>
 {
    /// <summary>
    /// A(n) newton.

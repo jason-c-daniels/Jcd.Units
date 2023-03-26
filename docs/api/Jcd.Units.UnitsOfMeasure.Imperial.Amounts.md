@@ -6,10 +6,10 @@
 British Imperial Units for measuring Amount.
 
 ```csharp
-public class Amounts : Jcd.Units.Enumeration<Jcd.Units.UnitsOfMeasure.Imperial.Amounts, Jcd.Units.UnitTypes.Amount>
+public class Amounts : Jcd.Units.UnitOfMeasureEnumeration<Jcd.Units.UnitsOfMeasure.Imperial.Amounts, Jcd.Units.UnitTypes.Amount>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.EnumerationBase&lt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Amounts](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts')[,](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')[&gt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Amounts](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; Amounts
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Amounts](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; [Jcd.Units.UnitOfMeasureEnumeration&lt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Amounts](Jcd.Units.UnitsOfMeasure.Imperial.Amounts.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts')[,](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Amount](Jcd.Units.UnitTypes.Amount.md 'Jcd.Units.UnitTypes.Amount')[&gt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>') &#129106; Amounts
 
 | Fields | |
 | :--- | :--- |

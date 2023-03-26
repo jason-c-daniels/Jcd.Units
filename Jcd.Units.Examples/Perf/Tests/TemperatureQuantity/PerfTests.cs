@@ -1,6 +1,6 @@
 ﻿namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
 
-internal class PerfTests : EnumerationBase<PerfTests, IPerfTest>
+internal class PerfTests : Enumeration<PerfTests, IPerfTest>
 {
    public static readonly IPerfTest As = new AsPerfTest();
    public static readonly IPerfTest Conversion = new ConversionPerfTest();

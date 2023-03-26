@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Momentum.
 /// </summary>
-public class Momentums : Enumeration<Momentums, Momentum>
+public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
 {
    /// <summary>
    /// A(n) newton-second.

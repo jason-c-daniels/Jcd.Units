@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure;
 /// <summary>
 /// Uncategorized Units for measuring Temperature.
 /// </summary>
-public class Temperatures : Enumeration<Temperatures, Temperature>
+public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
 {
    /// <summary>
    /// A(n) degrees rankine. Defined in terms of a(n) SI degrees kelvin.

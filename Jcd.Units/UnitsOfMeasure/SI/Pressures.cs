@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Pressure.
 /// </summary>
-public class Pressures : Enumeration<Pressures, Pressure>
+public class Pressures : UnitOfMeasureEnumeration<Pressures, Pressure>
 {
    /// <summary>
    /// A(n) pascal.

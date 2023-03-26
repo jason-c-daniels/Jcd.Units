@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Capacitance.
 /// </summary>
-public class Capacitances : Enumeration<Capacitances, Capacitance>
+public class Capacitances : UnitOfMeasureEnumeration<Capacitances, Capacitance>
 {
    /// <summary>
    /// A(n) farad.

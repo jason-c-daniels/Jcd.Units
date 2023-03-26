@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Electrical Charge.
 /// </summary>
-public class ElectricalCharges : Enumeration<ElectricalCharges, ElectricalCharge>
+public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, ElectricalCharge>
 {
    /// <summary>
    /// A(n) coulomb.

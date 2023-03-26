@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 /// <summary>
 /// United States Customary Units for measuring Amount.
 /// </summary>
-public class Amounts : Enumeration<Amounts, Amount>
+public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
 {
    /// <summary>
    /// A(n) count. Defined in terms of a(n)  count.

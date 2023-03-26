@@ -6,10 +6,10 @@
 International System of Units for measuring Energy.
 
 ```csharp
-public class Energies : Jcd.Units.Enumeration<Jcd.Units.UnitsOfMeasure.SI.Energies, Jcd.Units.UnitTypes.Energy>
+public class Energies : Jcd.Units.UnitOfMeasureEnumeration<Jcd.Units.UnitsOfMeasure.SI.Energies, Jcd.Units.UnitTypes.Energy>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.EnumerationBase&lt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Energies](Jcd.Units.UnitsOfMeasure.SI.Energies.md 'Jcd.Units.UnitsOfMeasure.SI.Energies')[,](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')[&gt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Energies](Jcd.Units.UnitsOfMeasure.SI.Energies.md 'Jcd.Units.UnitsOfMeasure.SI.Energies')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; Energies
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Energies](Jcd.Units.UnitsOfMeasure.SI.Energies.md 'Jcd.Units.UnitsOfMeasure.SI.Energies')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; [Jcd.Units.UnitOfMeasureEnumeration&lt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Energies](Jcd.Units.UnitsOfMeasure.SI.Energies.md 'Jcd.Units.UnitsOfMeasure.SI.Energies')[,](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Energy](Jcd.Units.UnitTypes.Energy.md 'Jcd.Units.UnitTypes.Energy')[&gt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>') &#129106; Energies
 
 | Fields | |
 | :--- | :--- |

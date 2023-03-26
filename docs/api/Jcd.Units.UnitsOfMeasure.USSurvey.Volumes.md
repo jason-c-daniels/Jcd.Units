@@ -6,10 +6,10 @@
 United States Survey Units for measuring Volume.
 
 ```csharp
-public class Volumes : Jcd.Units.Enumeration<Jcd.Units.UnitsOfMeasure.USSurvey.Volumes, Jcd.Units.UnitTypes.Volume>
+public class Volumes : Jcd.Units.UnitOfMeasureEnumeration<Jcd.Units.UnitsOfMeasure.USSurvey.Volumes, Jcd.Units.UnitTypes.Volume>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.EnumerationBase&lt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Volumes](Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Volumes')[,](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Volume](Jcd.Units.UnitTypes.Volume.md 'Jcd.Units.UnitTypes.Volume')[&gt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Volumes](Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Volumes')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Volume](Jcd.Units.UnitTypes.Volume.md 'Jcd.Units.UnitTypes.Volume')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; Volumes
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Volumes](Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Volumes')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Volume](Jcd.Units.UnitTypes.Volume.md 'Jcd.Units.UnitTypes.Volume')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; [Jcd.Units.UnitOfMeasureEnumeration&lt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Volumes](Jcd.Units.UnitsOfMeasure.USSurvey.Volumes.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Volumes')[,](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Volume](Jcd.Units.UnitTypes.Volume.md 'Jcd.Units.UnitTypes.Volume')[&gt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>') &#129106; Volumes
 
 | Fields | |
 | :--- | :--- |

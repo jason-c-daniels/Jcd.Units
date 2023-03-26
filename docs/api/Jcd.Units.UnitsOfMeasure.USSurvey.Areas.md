@@ -6,10 +6,10 @@
 United States Survey Units for measuring Area.
 
 ```csharp
-public class Areas : Jcd.Units.Enumeration<Jcd.Units.UnitsOfMeasure.USSurvey.Areas, Jcd.Units.UnitTypes.Area>
+public class Areas : Jcd.Units.UnitOfMeasureEnumeration<Jcd.Units.UnitsOfMeasure.USSurvey.Areas, Jcd.Units.UnitTypes.Area>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.EnumerationBase&lt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Areas](Jcd.Units.UnitsOfMeasure.USSurvey.Areas.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Areas')[,](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Area](Jcd.Units.UnitTypes.Area.md 'Jcd.Units.UnitTypes.Area')[&gt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Areas](Jcd.Units.UnitsOfMeasure.USSurvey.Areas.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Areas')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Area](Jcd.Units.UnitTypes.Area.md 'Jcd.Units.UnitTypes.Area')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; Areas
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Areas](Jcd.Units.UnitsOfMeasure.USSurvey.Areas.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Areas')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Area](Jcd.Units.UnitTypes.Area.md 'Jcd.Units.UnitTypes.Area')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; [Jcd.Units.UnitOfMeasureEnumeration&lt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Areas](Jcd.Units.UnitsOfMeasure.USSurvey.Areas.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Areas')[,](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Area](Jcd.Units.UnitTypes.Area.md 'Jcd.Units.UnitTypes.Area')[&gt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>') &#129106; Areas
 
 | Fields | |
 | :--- | :--- |

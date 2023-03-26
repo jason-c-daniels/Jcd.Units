@@ -5,7 +5,7 @@ namespace Jcd.Units.Tests._Fakes;
 /// <summary>
 /// A collection of fake units of measure along with a dictionary to allow lookup by symbol.
 /// </summary>
-internal class TestUnitProvider : Enumeration<TestUnitProvider, UnitOfMeasure1>
+internal class TestUnitProvider : UnitOfMeasureEnumeration<TestUnitProvider, UnitOfMeasure1>
 {
    public static readonly UnitOfMeasure1 DerivedUnitX10 = new (
                                                                "DerivedUnitX10"

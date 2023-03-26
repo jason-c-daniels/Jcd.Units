@@ -1,7 +1,7 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[EnumerationBase&lt;TEnumeration,T&gt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')
+### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Enumeration&lt;TEnumeration,T&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')
 
-## EnumerationBase<TEnumeration,T>.All Field
+## Enumeration<TEnumeration,T>.All Field
 
 All enumerated elements. Populated in static constructor.
 

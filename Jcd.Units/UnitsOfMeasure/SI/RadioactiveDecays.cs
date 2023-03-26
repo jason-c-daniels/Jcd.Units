@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Radioactive Decay.
 /// </summary>
-public class RadioactiveDecays : Enumeration<RadioactiveDecays, RadioactiveDecay>
+public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, RadioactiveDecay>
 {
    /// <summary>
    /// A(n) becquerel.

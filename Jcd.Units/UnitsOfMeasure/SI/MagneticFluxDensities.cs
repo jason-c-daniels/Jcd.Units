@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Magnetic Flux Density.
 /// </summary>
-public class MagneticFluxDensities : Enumeration<MagneticFluxDensities, MagneticFluxDensity>
+public class MagneticFluxDensities : UnitOfMeasureEnumeration<MagneticFluxDensities, MagneticFluxDensity>
 {
    /// <summary>
    /// A(n) tesla.

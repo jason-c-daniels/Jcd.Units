@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Temperature.
 /// </summary>
-public class Temperatures : Enumeration<Temperatures, Temperature>
+public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
 {
    /// <summary>
    /// A(n) degrees celcius.

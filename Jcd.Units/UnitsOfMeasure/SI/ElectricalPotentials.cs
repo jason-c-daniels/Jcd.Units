@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Electrical Potential.
 /// </summary>
-public class ElectricalPotentials : Enumeration<ElectricalPotentials, ElectricalPotential>
+public class ElectricalPotentials : UnitOfMeasureEnumeration<ElectricalPotentials, ElectricalPotential>
 {
    /// <summary>
    /// A(n) volt.

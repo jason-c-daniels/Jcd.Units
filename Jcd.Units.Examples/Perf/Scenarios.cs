@@ -8,7 +8,7 @@ using Jcd.Units.UnitTypes;
 
 namespace Jcd.Units.Examples.Perf;
 
-public class Scenarios : EnumerationBase<Scenarios, Scenario>
+public class Scenarios : Enumeration<Scenarios, Scenario>
 {
    public static readonly Scenario DefaultSettings = new (
                                                           "Using all default settings"

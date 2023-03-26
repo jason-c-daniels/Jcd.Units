@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Illuminance.
 /// </summary>
-public class Illuminances : Enumeration<Illuminances, Illuminance>
+public class Illuminances : UnitOfMeasureEnumeration<Illuminances, Illuminance>
 {
    /// <summary>
    /// A(n) lux.

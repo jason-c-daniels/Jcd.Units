@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Mass.
 /// </summary>
-public class Masses : Enumeration<Masses, Mass>
+public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
 {
    /// <summary>
    /// A(n) kilogram.

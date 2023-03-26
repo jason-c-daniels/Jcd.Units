@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Luminous Intensity.
 /// </summary>
-public class LuminousIntensities : Enumeration<LuminousIntensities, LuminousIntensity>
+public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities, LuminousIntensity>
 {
    /// <summary>
    /// A(n) candela.

@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Density.
 /// </summary>
-public class Densities : Enumeration<Densities, Density>
+public class Densities : UnitOfMeasureEnumeration<Densities, Density>
 {
    /// <summary>
    /// A(n) kilogram per cubic meter.

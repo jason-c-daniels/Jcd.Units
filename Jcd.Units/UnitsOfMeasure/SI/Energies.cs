@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Energy.
 /// </summary>
-public class Energies : Enumeration<Energies, Energy>
+public class Energies : UnitOfMeasureEnumeration<Energies, Energy>
 {
    /// <summary>
    /// A(n) joule.

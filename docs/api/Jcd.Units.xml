@@ -175,29 +175,12 @@
             <typeparam name="TEnumeration">The enumeration type.</typeparam>
             <typeparam name="T">The type of the enumerated members.</typeparam>
         </member>
-        <member name="P:Jcd.Units.Enumeration`2.ByName">
-            <summary>
-            Looks up an enumerated unit of measure by name.
-            </summary>
-        </member>
-        <member name="P:Jcd.Units.Enumeration`2.BySymbol">
-            <summary>
-            Looks up an enumerated unit of measure by symbol.
-            </summary>
-        </member>
-        <member name="T:Jcd.Units.EnumerationBase`2">
-            <summary>
-            The base of all unit of measure enumerations in this library.
-            </summary>
-            <typeparam name="TEnumeration">The enumeration type.</typeparam>
-            <typeparam name="T">The type of the enumerated members.</typeparam>
-        </member>
-        <member name="F:Jcd.Units.EnumerationBase`2.All">
+        <member name="F:Jcd.Units.Enumeration`2.All">
             <summary>
             All enumerated elements. Populated in static constructor.
             </summary>
         </member>
-        <member name="M:Jcd.Units.EnumerationBase`2.GetAll">
+        <member name="M:Jcd.Units.Enumeration`2.GetAll">
             <summary>
             Retrieves all public static properties of type <typeparamref name="T" />
             on the derived enumeration <typeparamref name="TEnumeration" />
@@ -889,6 +872,23 @@
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.ComputeFundamentalOffset(System.Double,System.Double)">
             <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1" />
+        </member>
+        <member name="T:Jcd.Units.UnitOfMeasureEnumeration`2">
+            <summary>
+            The base of all unit of measure enumerations in this library.
+            </summary>
+            <typeparam name="TEnumeration">The enumeration type.</typeparam>
+            <typeparam name="T">The type of the enumerated members.</typeparam>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasureEnumeration`2.ByName">
+            <summary>
+            Looks up an enumerated unit of measure by name.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasureEnumeration`2.BySymbol">
+            <summary>
+            Looks up an enumerated unit of measure by symbol.
+            </summary>
         </member>
         <member name="T:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy">
             <summary>

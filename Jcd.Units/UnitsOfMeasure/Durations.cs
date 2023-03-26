@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure;
 /// <summary>
 /// Uncategorized Units for measuring Duration.
 /// </summary>
-public class Durations : Enumeration<Durations, Duration>
+public class Durations : UnitOfMeasureEnumeration<Durations, Duration>
 {
    /// <summary>
    /// A(n) second.

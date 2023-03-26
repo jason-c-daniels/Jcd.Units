@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Angle.
 /// </summary>
-public class Angles : Enumeration<Angles, Angle>
+public class Angles : UnitOfMeasureEnumeration<Angles, Angle>
 {
    /// <summary>
    /// A(n) radian.

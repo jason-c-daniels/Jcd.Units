@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 /// <summary>
 /// Astronomical Units for measuring Mass.
 /// </summary>
-public class Masses : Enumeration<Masses, Mass>
+public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
 {
    /// <summary>
    /// A(n) earth mass. Defined in terms of a(n) SI kilogram.

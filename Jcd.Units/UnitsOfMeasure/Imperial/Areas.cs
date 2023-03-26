@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.Imperial;
 /// <summary>
 /// British Imperial Units for measuring Area.
 /// </summary>
-public class Areas : Enumeration<Areas, Area>
+public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
    /// A(n) square inch. Defined in terms of a(n) SI square centimeter.

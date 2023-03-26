@@ -1,7 +1,7 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Enumeration&lt;TEnumeration,T&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')
+### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasureEnumeration&lt;TEnumeration,T&gt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')
 
-## Enumeration<TEnumeration,T>.BySymbol Property
+## UnitOfMeasureEnumeration<TEnumeration,T>.BySymbol Property
 
 Looks up an enumerated unit of measure by symbol.
 

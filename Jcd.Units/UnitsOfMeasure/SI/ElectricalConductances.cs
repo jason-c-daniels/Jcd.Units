@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Electrical Conductance.
 /// </summary>
-public class ElectricalConductances : Enumeration<ElectricalConductances, ElectricalConductance>
+public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConductances, ElectricalConductance>
 {
    /// <summary>
    /// A(n) siemens.

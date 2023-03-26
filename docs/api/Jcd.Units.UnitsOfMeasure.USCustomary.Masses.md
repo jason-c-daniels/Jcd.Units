@@ -6,10 +6,10 @@
 United States Customary Units for measuring Mass.
 
 ```csharp
-public class Masses : Jcd.Units.Enumeration<Jcd.Units.UnitsOfMeasure.USCustomary.Masses, Jcd.Units.UnitTypes.Mass>
+public class Masses : Jcd.Units.UnitOfMeasureEnumeration<Jcd.Units.UnitsOfMeasure.USCustomary.Masses, Jcd.Units.UnitTypes.Mass>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.EnumerationBase&lt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Masses](Jcd.Units.UnitsOfMeasure.USCustomary.Masses.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Masses')[,](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')[&gt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Masses](Jcd.Units.UnitsOfMeasure.USCustomary.Masses.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Masses')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; Masses
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Masses](Jcd.Units.UnitsOfMeasure.USCustomary.Masses.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Masses')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; [Jcd.Units.UnitOfMeasureEnumeration&lt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Masses](Jcd.Units.UnitsOfMeasure.USCustomary.Masses.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Masses')[,](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Mass](Jcd.Units.UnitTypes.Mass.md 'Jcd.Units.UnitTypes.Mass')[&gt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>') &#129106; Masses
 
 | Fields | |
 | :--- | :--- |

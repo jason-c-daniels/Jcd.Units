@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 /// <summary>
 /// Astronomical Units for measuring Volume.
 /// </summary>
-public class Volumes : Enumeration<Volumes, Volume>
+public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
    /// A(n) cubic light-year. Defined in terms of a(n) SI cubic meter.

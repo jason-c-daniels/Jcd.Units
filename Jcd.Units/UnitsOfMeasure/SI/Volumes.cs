@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Volume.
 /// </summary>
-public class Volumes : Enumeration<Volumes, Volume>
+public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
    /// A(n) cubic meter.

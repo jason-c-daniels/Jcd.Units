@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Resistance.
 /// </summary>
-public class Resistances : Enumeration<Resistances, Resistance>
+public class Resistances : UnitOfMeasureEnumeration<Resistances, Resistance>
 {
    /// <summary>
    /// A(n) ohm.

@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Electrical Current.
 /// </summary>
-public class ElectricalCurrents : Enumeration<ElectricalCurrents, ElectricalCurrent>
+public class ElectricalCurrents : UnitOfMeasureEnumeration<ElectricalCurrents, ElectricalCurrent>
 {
    /// <summary>
    /// A(n) ampere.

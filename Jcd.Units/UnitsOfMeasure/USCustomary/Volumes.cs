@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 /// <summary>
 /// United States Customary Units for measuring Volume.
 /// </summary>
-public class Volumes : Enumeration<Volumes, Volume>
+public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
    /// A(n) cubic inch. Defined in terms of a(n) SI cubic centimeter.

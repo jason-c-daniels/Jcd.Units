@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 /// <summary>
 /// Astronomical Units for measuring Area.
 /// </summary>
-public class Areas : Enumeration<Areas, Area>
+public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
    /// A(n) square light-year. Defined in terms of a(n) SI square meter.

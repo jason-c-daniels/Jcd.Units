@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Amount.
 /// </summary>
-public class Amounts : Enumeration<Amounts, Amount>
+public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
 {
    /// <summary>
    /// A(n) mole. Defined in terms of a(n)  count.

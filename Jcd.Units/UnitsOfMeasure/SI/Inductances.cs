@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Inductance.
 /// </summary>
-public class Inductances : Enumeration<Inductances, Inductance>
+public class Inductances : UnitOfMeasureEnumeration<Inductances, Inductance>
 {
    /// <summary>
    /// A(n) henry.

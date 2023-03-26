@@ -6,10 +6,10 @@
 International System of Units for measuring Density.
 
 ```csharp
-public class Densities : Jcd.Units.Enumeration<Jcd.Units.UnitsOfMeasure.SI.Densities, Jcd.Units.UnitTypes.Density>
+public class Densities : Jcd.Units.UnitOfMeasureEnumeration<Jcd.Units.UnitsOfMeasure.SI.Densities, Jcd.Units.UnitTypes.Density>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.EnumerationBase&lt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Densities](Jcd.Units.UnitsOfMeasure.SI.Densities.md 'Jcd.Units.UnitsOfMeasure.SI.Densities')[,](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>')[Density](Jcd.Units.UnitTypes.Density.md 'Jcd.Units.UnitTypes.Density')[&gt;](Jcd.Units.EnumerationBase_TEnumeration,T_.md 'Jcd.Units.EnumerationBase<TEnumeration,T>') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Densities](Jcd.Units.UnitsOfMeasure.SI.Densities.md 'Jcd.Units.UnitsOfMeasure.SI.Densities')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Density](Jcd.Units.UnitTypes.Density.md 'Jcd.Units.UnitTypes.Density')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; Densities
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Densities](Jcd.Units.UnitsOfMeasure.SI.Densities.md 'Jcd.Units.UnitsOfMeasure.SI.Densities')[,](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Density](Jcd.Units.UnitTypes.Density.md 'Jcd.Units.UnitTypes.Density')[&gt;](Jcd.Units.Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; [Jcd.Units.UnitOfMeasureEnumeration&lt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Densities](Jcd.Units.UnitsOfMeasure.SI.Densities.md 'Jcd.Units.UnitsOfMeasure.SI.Densities')[,](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Density](Jcd.Units.UnitTypes.Density.md 'Jcd.Units.UnitTypes.Density')[&gt;](Jcd.Units.UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>') &#129106; Densities
 
 | Fields | |
 | :--- | :--- |

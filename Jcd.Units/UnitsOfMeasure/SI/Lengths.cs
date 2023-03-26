@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Length.
 /// </summary>
-public class Lengths : Enumeration<Lengths, Length>
+public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
 {
    /// <summary>
    /// A(n) meter.

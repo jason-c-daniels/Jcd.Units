@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Luminous Flux.
 /// </summary>
-public class LuminousFluxes : Enumeration<LuminousFluxes, LuminousFlux>
+public class LuminousFluxes : UnitOfMeasureEnumeration<LuminousFluxes, LuminousFlux>
 {
    /// <summary>
    /// A(n) lumen.

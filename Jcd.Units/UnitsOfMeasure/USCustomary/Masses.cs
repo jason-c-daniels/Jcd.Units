@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 /// <summary>
 /// United States Customary Units for measuring Mass.
 /// </summary>
-public class Masses : Enumeration<Masses, Mass>
+public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
 {
    /// <summary>
    /// A(n) grain. Defined in terms of a(n) SI milligram.

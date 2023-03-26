@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Power.
 /// </summary>
-public class Powers : Enumeration<Powers, Power>
+public class Powers : UnitOfMeasureEnumeration<Powers, Power>
 {
    /// <summary>
    /// A(n) watt.

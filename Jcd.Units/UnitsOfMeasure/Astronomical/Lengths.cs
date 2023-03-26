@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 /// <summary>
 /// Astronomical Units for measuring Length.
 /// </summary>
-public class Lengths : Enumeration<Lengths, Length>
+public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
 {
    /// <summary>
    /// A(n) light-year. Defined in terms of a(n) SI meter.

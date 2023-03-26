@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Area.
 /// </summary>
-public class Areas : Enumeration<Areas, Area>
+public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
    /// A(n) square meter.

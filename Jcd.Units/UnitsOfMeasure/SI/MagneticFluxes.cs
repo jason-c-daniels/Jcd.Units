@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Magnetic Flux.
 /// </summary>
-public class MagneticFluxes : Enumeration<MagneticFluxes, MagneticFlux>
+public class MagneticFluxes : UnitOfMeasureEnumeration<MagneticFluxes, MagneticFlux>
 {
    /// <summary>
    /// A(n) weber.

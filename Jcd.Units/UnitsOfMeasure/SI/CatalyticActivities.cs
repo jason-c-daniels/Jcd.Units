@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Catalytic Activity.
 /// </summary>
-public class CatalyticActivities : Enumeration<CatalyticActivities, CatalyticActivity>
+public class CatalyticActivities : UnitOfMeasureEnumeration<CatalyticActivities, CatalyticActivity>
 {
    /// <summary>
    /// A(n) katal.

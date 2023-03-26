@@ -1,9 +1,9 @@
 ﻿#region
 
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
-
-// ReSharper disable MemberCanBeProtected.Global
+using System.Reflection;
 
 #endregion
 
@@ -14,23 +14,36 @@ namespace Jcd.Units;
 /// </summary>
 /// <typeparam name="TEnumeration">The enumeration type.</typeparam>
 /// <typeparam name="T">The type of the enumerated members.</typeparam>
-public class Enumeration<TEnumeration, T> : EnumerationBase<TEnumeration, T>
+public class Enumeration<TEnumeration, T>
          where T : IEquatable<T>
-       , IUnitOfMeasure<T>
 {
+   /// <summary>
+   /// All enumerated elements. Populated in static constructor.
+   /// </summary>
+   protected static readonly ImmutableArray<T> All;
+
    static Enumeration()
    {
-      ByName   = All.ToDictionary(u => u.Name);
-      BySymbol = All.ToDictionary(u => u.Symbol);
+      var fields = typeof(TEnumeration).GetFields(
+                                                  BindingFlags.Public
+                                                | BindingFlags.Static
+                                                | BindingFlags.DeclaredOnly
+                                                 );
+
+      All = fields
+           .Where(f => f.FieldType == typeof(T))
+           .Select(f => f.GetValue(null))
+           .Cast<T>()
+           .ToImmutableArray()
+               ;
    }
 
    /// <summary>
-   /// Looks up an enumerated unit of measure by name.
+   /// Retrieves all public static properties of type <typeparamref name="T" />
+   /// on the derived enumeration <typeparamref name="TEnumeration" />
    /// </summary>
-   public static IReadOnlyDictionary<string, T> ByName { get; }
+   /// <returns>An <see cref="IEnumerable{T}" /> for all detected members.</returns>
 
-   /// <summary>
-   /// Looks up an enumerated unit of measure by symbol.
-   /// </summary>
-   public static IReadOnlyDictionary<string, T> BySymbol { get; }
+   // ReSharper disable once HeapView.BoxingAllocation
+   public static IEnumerable<T> GetAll() => All;
 }

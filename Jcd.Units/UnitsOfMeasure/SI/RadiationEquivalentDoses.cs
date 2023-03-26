@@ -15,7 +15,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Radiation Equivalent Dose.
 /// </summary>
-public class RadiationEquivalentDoses : Enumeration<RadiationEquivalentDoses, RadiationEquivalentDose>
+public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquivalentDoses, RadiationEquivalentDose>
 {
    /// <summary>
    /// A(n) sievert.
