@@ -3,6 +3,8 @@
 using System.Reflection;
 using System.Text;
 
+// ReSharper disable HeapView.ObjectAllocation
+
 #endregion
 
 namespace UnitGen.Services;

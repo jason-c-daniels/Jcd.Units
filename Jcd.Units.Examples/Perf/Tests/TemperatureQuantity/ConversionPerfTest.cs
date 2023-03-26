@@ -6,9 +6,9 @@ internal record ConversionPerfTest() : TemperaturePerfTest("Quantity<T> Unit Con
    {
       for (var i = 0; i < iterations; i++)
       {
-         q1 = i.As(C);
-         q2 = q1.To(F);
-         q3 = q2.To(Ra);
+         Quantity1 = i.As(C);
+         Quantity2 = Quantity1.To(F);
+         Quantity3 = Quantity2.To(Ra);
       }
 
       return 2 * iterations;

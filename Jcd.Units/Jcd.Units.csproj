@@ -12,7 +12,7 @@
 
    <PropertyGroup>
       <TargetFramework>net6.0</TargetFramework>
-      <LangVersion>10</LangVersion>
+      <LangVersion>latest</LangVersion>
       <Nullable>enable</Nullable>
    </PropertyGroup>
 
@@ -28,10 +28,10 @@
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <Title>Jcd.Units</Title>
       <Authors>Jason C. Daniels</Authors>
-      <Description>Provides unit of measure and quantity support.</Description>
-      <Copyright>2022</Copyright>
+      <Description>Provides unit of measure and quantity classes.</Description>
+      <Copyright>2023</Copyright>
       <PackageProjectUrl>https://github.com/jason-c-daniels/Jcd.Units</PackageProjectUrl>
-      <PackageLicenseUrl>https://github.com/jason-c-daniels/Jcd.Units/blob/main/LICENSE</PackageLicenseUrl>
+      <PackageLicense>MIT</PackageLicense>
       <RepositoryUrl>https://github.com/jason-c-daniels/Jcd.Units</RepositoryUrl>
       <RepositoryType>GitHub</RepositoryType>
       <PackageVersion>0.0.1</PackageVersion>
@@ -47,7 +47,7 @@
 
    <ItemGroup>
       <None Include="..\README.md" Pack="true" PackagePath="\"/>
-      <None Include="..\LICENSE" Pack="false" PackagePath="\"/>
+      <None Include="..\LICENSE" Pack="true" PackagePath="\"/>
       <None Include="..\nuget.config" Pack="false" PackagePath="\"/>
    </ItemGroup>
 

@@ -4,6 +4,8 @@ using System.Collections.Immutable;
 
 using UnitGen.Models;
 
+// ReSharper disable HeapView.ObjectAllocation
+
 #endregion
 
 namespace UnitGen.Repositories;

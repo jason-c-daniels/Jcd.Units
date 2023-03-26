@@ -4,6 +4,12 @@ using System.Collections.Immutable;
 
 using UnitGen.Models;
 
+// ReSharper disable HeapView.ObjectAllocation
+// ReSharper disable InconsistentNaming
+// ReSharper disable HeapView.DelegateAllocation
+// ReSharper disable HeapView.ClosureAllocation
+// ReSharper disable ReturnTypeCanBeEnumerable.Local
+
 #endregion
 
 // ReSharper disable ArrangeRedundantParentheses
@@ -130,6 +136,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
    {
       var area = _unitTypesByName["Area"];
 
+      // ReSharper disable once HeapView.DelegateAllocation
       var areas =
                from length in lengths
                select length with
@@ -240,6 +247,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                                })
               .ToImmutableList();
 
+      // ReSharper disable once UnusedVariable
       var baseDensities =
                from baseDensity in allDensities
                join derivedDensity in allDensities

@@ -1,5 +1,6 @@
 ﻿#region
 
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 using UnitGen.Models;
@@ -8,10 +9,13 @@ using UnitGen.Resources;
 
 using FSS = UnitGen.Services.FileSystemService;
 
+// ReSharper disable HeapView.ObjectAllocation
+
 #endregion
 
 namespace UnitGen.Services;
 
+[SuppressMessage("Usage", "CA2208:Instantiate argument exceptions correctly")]
 public class SourceCodeGenerator
 {
    private const string DefaultBaseNamespace = "Jcd.Units.UnitTypes";

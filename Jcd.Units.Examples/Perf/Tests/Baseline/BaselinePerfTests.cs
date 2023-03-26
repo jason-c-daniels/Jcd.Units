@@ -1,4 +1,7 @@
-﻿namespace Jcd.Units.Examples.Perf.Tests.Baseline;
+﻿// ReSharper disable UnusedMember.Global
+// ReSharper disable ClassNeverInstantiated.Global
+
+namespace Jcd.Units.Examples.Perf.Tests.Baseline;
 
 internal class BaselinePerfTests : Enumeration<BaselinePerfTests, IPerfTest>
 {

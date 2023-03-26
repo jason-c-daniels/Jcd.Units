@@ -1,4 +1,7 @@
-﻿namespace Jcd.Units;
+﻿// ReSharper disable UnusedType.Global
+// ReSharper disable UnusedMember.Global
+
+namespace Jcd.Units;
 
 /// <summary>
 /// Provides static common mathematical functions performed on instances of <see cref="Quantity{TUnit}" />.

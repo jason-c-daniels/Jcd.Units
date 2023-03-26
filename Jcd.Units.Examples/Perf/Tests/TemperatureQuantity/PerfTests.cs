@@ -1,4 +1,7 @@
-﻿namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
+﻿// ReSharper disable UnusedMember.Global
+// ReSharper disable ClassNeverInstantiated.Global
+
+namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
 
 internal class PerfTests : Enumeration<PerfTests, IPerfTest>
 {

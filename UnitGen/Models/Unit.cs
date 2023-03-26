@@ -4,6 +4,8 @@ using JetBrains.Annotations;
 
 using UnitGen.Services;
 
+// ReSharper disable MemberCanBePrivate.Global
+
 #endregion
 
 namespace UnitGen.Models;

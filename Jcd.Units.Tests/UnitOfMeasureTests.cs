@@ -3,6 +3,7 @@
 using Jcd.Units.DoubleComparison;
 using Jcd.Units.Tests._Fakes;
 
+// ReSharper disable HeapView.ObjectAllocation
 // ReSharper disable UnusedVariable
 // ReSharper disable HeapView.BoxingAllocation
 #pragma warning disable CS8600

@@ -8,11 +8,11 @@ internal record MixedArithmeticDoubleOperationsPerfTest() : TemperaturePerfTest(
    {
       for (var i = 0; i < iterations; i++)
       {
-         q1 =  i.As(F);
-         q2 =  3d * q1;
-         q2 -= 7d;
-         q3 =  q2 / 4.0;
-         q3 += 13d;
+         Quantity1 =  i.As(F);
+         Quantity2 =  3d * Quantity1;
+         Quantity2 -= 7d;
+         Quantity3 =  Quantity2 / 4.0;
+         Quantity3 += 13d;
       }
 
       return 4 * iterations;

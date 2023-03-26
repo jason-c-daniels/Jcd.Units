@@ -1,4 +1,7 @@
-﻿namespace Jcd.Units.Examples.Perf.Tests.Baseline;
+﻿// ReSharper disable CompareOfFloatsByEqualityOperator
+// ReSharper disable NotAccessedField.Local
+
+namespace Jcd.Units.Examples.Perf.Tests.Baseline;
 
 internal record BuiltinDoubleComparisonPerfTest() : DoublePerfTest("Builtin Double Comparison")
 {
@@ -7,16 +10,16 @@ internal record BuiltinDoubleComparisonPerfTest() : DoublePerfTest("Builtin Doub
 
    public override void Setup()
    {
-      d1 = 1d        / 3d;
-      d2 = 1.000015d / 3d;
+      Value1 = 1d        / 3d;
+      Value2 = 1.000015d / 3d;
    }
 
    public override int Execute(int iterations = 1)
    {
       for (var i = 0; i < iterations; i++)
       {
-         _r1 = d1 == d2;
-         _r2 = d2 == d1;
+         _r1 = Value1 == Value2;
+         _r2 = Value2 == Value1;
       }
 
       return 2 * iterations;

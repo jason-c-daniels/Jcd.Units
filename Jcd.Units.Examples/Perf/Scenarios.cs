@@ -4,6 +4,11 @@ using Jcd.Units.DoubleComparison;
 using Jcd.Units.UnitSelection;
 using Jcd.Units.UnitTypes;
 
+// ReSharper disable UnusedMember.Global
+// ReSharper disable HeapView.BoxingAllocation
+// ReSharper disable UnusedMember.Local
+// ReSharper disable ClassNeverInstantiated.Global
+
 #endregion
 
 namespace Jcd.Units.Examples.Perf;

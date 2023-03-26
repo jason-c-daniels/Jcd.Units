@@ -4,6 +4,8 @@ using JetBrains.Annotations;
 
 using UnitGen.Services;
 
+// ReSharper disable MemberCanBePrivate.Global
+
 #endregion
 
 namespace UnitGen.Models;
@@ -35,7 +37,7 @@ public record UnitDefinition
    public string Coefficient => Prefix.IsBasePrefix ? Unit.Coefficient : Prefix.Coefficient;
    public string Offset => Unit.Offset;
 
-   public string PrefixSeparator => Prefix.SpaceAfterPrefix && !Prefix.IsBasePrefix ? " " : "";
+   public string PrefixSeparator => Prefix is { SpaceAfterPrefix: true, IsBasePrefix: false } ? " " : "";
    public string UnitName => $"{Prefix.Name}{PrefixSeparator}{Unit.UnitName}";
 
    public string BaseUnitName => IsBaseUnit

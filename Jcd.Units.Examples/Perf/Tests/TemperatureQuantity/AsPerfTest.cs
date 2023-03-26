@@ -6,9 +6,9 @@ internal record AsPerfTest() : TemperaturePerfTest("<type>.As(T)")
    {
       for (var i = 0; i < iterations; i++)
       {
-         q1 = i.As(C);
-         q2 = ((double)i).As(F);
-         q3 = ((float)i).As(F);
+         Quantity1 = i.As(C);
+         Quantity2 = ((double)i).As(F);
+         Quantity3 = ((float)i).As(F);
       }
 
       return 3 * iterations;

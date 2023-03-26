@@ -6,7 +6,7 @@
 The base of all unit of measure enumerations in this library.
 
 ```csharp
-public class UnitOfMeasureEnumeration<TEnumeration,T> : Jcd.Units.Enumeration<TEnumeration, T>
+public abstract class UnitOfMeasureEnumeration<TEnumeration,T> : Jcd.Units.Enumeration<TEnumeration, T>
     where T : IEquatable<T>, Jcd.Units.IUnitOfMeasure<T>
 ```
 #### Type parameters

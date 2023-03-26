@@ -1,6 +1,7 @@
 ﻿#region
 
 using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 
 using Jcd.Units.Examples.Perf.Tests;
 using Jcd.Units.Examples.Perf.Tests.Baseline;
@@ -8,10 +9,16 @@ using Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
 using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitsOfMeasure.SI;
 
+// ReSharper disable HeapView.ObjectAllocation.Possible
+// ReSharper disable HeapView.DelegateAllocation
+// ReSharper disable MemberCanBeMadeStatic.Global
+// ReSharper disable MemberCanBePrivate.Global
+
 #endregion
 
 namespace Jcd.Units.Examples.Perf;
 
+[SuppressMessage("Performance", "CA1822:Mark members as static")]
 public class PerformanceTestRunner
 {
    private const int Iterations =

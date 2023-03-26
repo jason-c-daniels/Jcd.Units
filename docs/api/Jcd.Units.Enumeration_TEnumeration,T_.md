@@ -6,7 +6,7 @@
 The base of all unit of measure enumerations in this library.
 
 ```csharp
-public class Enumeration<TEnumeration,T>
+public abstract class Enumeration<TEnumeration,T>
     where T : IEquatable<T>
 ```
 #### Type parameters

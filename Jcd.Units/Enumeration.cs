@@ -14,7 +14,7 @@ namespace Jcd.Units;
 /// </summary>
 /// <typeparam name="TEnumeration">The enumeration type.</typeparam>
 /// <typeparam name="T">The type of the enumerated members.</typeparam>
-public class Enumeration<TEnumeration, T>
+public abstract class Enumeration<TEnumeration, T>
          where T : IEquatable<T>
 {
    /// <summary>

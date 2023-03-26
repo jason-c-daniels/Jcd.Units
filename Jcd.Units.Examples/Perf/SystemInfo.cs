@@ -11,15 +11,15 @@ namespace Jcd.Units.Examples.Perf;
 
 public class SystemInfo
 {
-   private readonly Frequency GHz = Frequencies.Gigahertz;
-   private readonly IHardwareInfo HardwareInfo;
-   private readonly Frequency MHz = Frequencies.Megahertz;
+   private static readonly Frequency GHz = Frequencies.Gigahertz;
+   private readonly IHardwareInfo _hardwareInfo;
+   private static readonly Frequency MHz = Frequencies.Megahertz;
 
    private SystemInfo()
    {
-      HardwareInfo = new HardwareInfo(false);
-      HardwareInfo.RefreshCPUList(false);
-      CPU = HardwareInfo.CpuList.First();
+      _hardwareInfo = new HardwareInfo(false);
+      _hardwareInfo.RefreshCPUList(false);
+      CPU = _hardwareInfo.CpuList.First();
 
       MaximumCPUFrequency = CPU.MaxClockSpeed.As(MHz)
                                .To(GHz);
@@ -38,14 +38,14 @@ public class SystemInfo
    // ReSharper disable once InconsistentNaming
    public Quantity<Frequency> CurrentCPUFrequency { get; private set; }
 
-   public void RefreshInfo(bool refreshHardwareInfo = false)
+   public void RefreshInfo()
    {
-      HardwareInfo.RefreshCPUList(false);
-      CPU                 = HardwareInfo.CpuList.First();
+      _hardwareInfo.RefreshCPUList(false);
+      CPU                 = _hardwareInfo.CpuList.First();
       CurrentCPUFrequency = GetCurrentClockSpeed(CPU);
    }
 
-   private Quantity<Frequency> GetCurrentClockSpeed(CPU cpu)
+   private static Quantity<Frequency> GetCurrentClockSpeed(CPU cpu)
       => cpu.CurrentClockSpeed > 1000
                ? (cpu.CurrentClockSpeed / 1000d).As(Frequencies.Gigahertz)
                : cpu.CurrentClockSpeed.As(Frequencies.Megahertz);

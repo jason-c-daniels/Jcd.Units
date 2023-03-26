@@ -8,9 +8,9 @@ internal record MultiplyByDoubleOperationsPerfTest() : TemperaturePerfTest(
    {
       for (var i = 0; i < iterations; i++)
       {
-         q1 = i.As(Ra);
-         q2 = 3  * q1;
-         q3 = q2 * 7;
+         Quantity1 = i.As(Ra);
+         Quantity2 = 3         * Quantity1;
+         Quantity3 = Quantity2 * 7;
       }
 
       return 2 * iterations;
