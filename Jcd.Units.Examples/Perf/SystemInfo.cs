@@ -12,8 +12,8 @@ namespace Jcd.Units.Examples.Perf;
 public class SystemInfo
 {
    private static readonly Frequency GHz = Frequencies.Gigahertz;
-   private readonly IHardwareInfo _hardwareInfo;
    private static readonly Frequency MHz = Frequencies.Megahertz;
+   private readonly IHardwareInfo _hardwareInfo;
 
    private SystemInfo()
    {

@@ -5,7 +5,6 @@ using System.Globalization;
 using Jcd.Units.DoubleComparison;
 
 // ReSharper disable MemberCanBePrivate.Global
-
 // ReSharper disable StaticMemberInGenericType
 
 #endregion

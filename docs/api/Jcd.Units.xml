@@ -282,6 +282,262 @@
             custom data types.
             </remarks>
         </member>
+        <member name="T:Jcd.Units.MathQ">
+            <summary>
+            Provides common logarithmic, mathematical and trigonometric functions <see cref="T:Jcd.Units.Quantity`1" /> instances.
+            This parallels and uses many of the <see cref="T:System.Math" /> implementations.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Abs``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the absolute value of a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.
+            </summary>
+            <param name="quantity">The quantity</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>the absolute value of a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Ceiling``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the smallest integral value greater than or equal to the numeric component of the <see cref="T:Jcd.Units.Quantity`1" />.
+            </summary>
+            <param name="quantity">The quantity</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>the ceiling of the <see cref="T:Jcd.Units.Quantity`1" /> expressed in the same unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Clamp``1(Jcd.Units.Quantity{``0},Jcd.Units.Quantity{``0},Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the smallest integral value that is greater than or equal to the specified decimal number in a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.
+            </summary>
+            <param name="value">The quantity to clamp</param>
+            <param name="min">The minimum value.</param>
+            <param name="max">The maximum value.</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>the ceiling for the <see cref="T:Jcd.Units.Quantity`1" />.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Floor``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the largest integral value less than or equal to the numeric component of the <see cref="T:Jcd.Units.Quantity`1" />.
+            </summary>
+            <param name="quantity">The quantity</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>the floor of the <see cref="T:Jcd.Units.Quantity`1" /> expressed in the same unit of measure.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Max``1(Jcd.Units.Quantity{``0},Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the larger of two <see cref="T:Jcd.Units.Quantity`1" /> instances.
+            </summary>
+            <param name="value1">The first value to compare.</param>
+            <param name="value2">The second value to compare.</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The larger of two specified <see cref="T:Jcd.Units.Quantity`1" /> instances.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Min``1(Jcd.Units.Quantity{``0},Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the smaller of two <see cref="T:Jcd.Units.Quantity`1" /> instances.
+            </summary>
+            <param name="value1">The first value to compare.</param>
+            <param name="value2">The second value to compare.</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The smaller of two specified <see cref="T:Jcd.Units.Quantity`1" /> instances.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Round``1(Jcd.Units.Quantity{``0},System.Int32,System.MidpointRounding)">
+            <summary>
+            Rounds a quantity's numeric component to a specified number of digits using the specified rounding mode.
+            </summary>
+            <param name="quantity">The quantity</param>
+            <param name="digits">The number of decimal places to round to. (Default is zero.)</param>
+            <param name="mode">The rounding mode to use (default is ToEven)</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The <see cref="T:Jcd.Units.Quantity`1" /> rounded to the specified number of digits.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Truncate``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Calculates the integral part of a quantity's numeric component.
+            </summary>
+            <param name="quantity">The quantity</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The <see cref="T:Jcd.Units.Quantity`1" /> rounded to the specified number of digits.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Cbrt``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the cube root of a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.
+            </summary>
+            <param name="quantity">The quantity</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>the cube root of a <see cref="T:Jcd.Units.Quantity`1" />.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Exp``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns <c>e</c> raised to the specified power as a <see cref="T:Jcd.Units.Quantity`1" />.
+            </summary>
+            <param name="quantity">The power for <c>e</c></param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns><c>e</c> raised to the specified power a <see cref="T:Jcd.Units.Quantity`1" />.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Log``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the natural (base e) logarithm of the numeric component of a <see cref="T:Jcd.Units.Quantity`1" />.
+            </summary>
+            <param name="quantity">The number whose logarithm is to be found</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The natural (base e) logarithm of a the numeric component of a <see cref="T:Jcd.Units.Quantity`1" />.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Log``1(Jcd.Units.Quantity{``0},System.Double)">
+            <summary>
+            Returns the logarithm of a the numeric component of a <see cref="T:Jcd.Units.Quantity`1" /> in a specified base.
+            </summary>
+            <param name="quantity">The number whose logarithm is to be found</param>
+            <param name="base">The numeric base of the logarithm.</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The logarithm of a the numeric component of a <see cref="T:Jcd.Units.Quantity`1" /> in a specified base.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Log10``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the base 10 logarithm of a the numeric component of a <see cref="T:Jcd.Units.Quantity`1" />.
+            </summary>
+            <param name="quantity">The number whose logarithm is to be found</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The base 10 logarithm of a the numeric component of a <see cref="T:Jcd.Units.Quantity`1" />.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Log2``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the base 2 logarithm of a the numeric component of a <see cref="T:Jcd.Units.Quantity`1" />.
+            </summary>
+            <param name="quantity">The number whose logarithm is to be found</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The base 2 logarithm of a the numeric component of a <see cref="T:Jcd.Units.Quantity`1" />.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Pow``1(Jcd.Units.Quantity{``0},System.Double)">
+            <summary>
+            Returns the <see cref="T:Jcd.Units.Quantity`1" /> raised to the specified power.
+            </summary>
+            <param name="quantity">The value to raise to the power specified by <paramref name="exponent"/></param>
+            <param name="exponent">A number specifying the power.</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The <see cref="T:Jcd.Units.Quantity`1" /> raised to the specified power.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Sign``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns an integer indicating the sign of the numeric component of the quantity.
+            </summary>
+            <param name="quantity">The number whose sign is to be returned.</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>0 if the numeric component is zero; -1 if the numeric component is less than zero; 1 if the numeric component is greater than 0.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Sqrt``1(Jcd.Units.Quantity{``0})">
+            <summary>
+            Returns the square root of the numeric component of the quantity.
+            </summary>
+            <param name="quantity">The number whose sign is to be returned.</param>
+            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
+            <returns>The square root of the numeric component of the quantity.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Acos(System.Double,Jcd.Units.UnitTypes.Angle)">
+            <summary>
+            Returns the angle whose cosine is the specified number.
+            </summary>
+            <param name="value">the number to perform the inverse cosine function on.</param>
+            <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
+            <returns>The angle whose cosine is the specified number.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Acosh(System.Double,Jcd.Units.UnitTypes.Angle)">
+            <summary>
+            Returns the angle whose hyperbolic cosine is the specified number.
+            </summary>
+            <param name="value">A number representing a hyperbolic cosine.</param>
+            <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
+            <returns>The angle whose hyperbolic cosine is the specified number.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Asin(System.Double,Jcd.Units.UnitTypes.Angle)">
+            <summary>
+            Returns the angle whose sine is the specified number.
+            </summary>
+            <param name="value">the number to perform the inverse sine function on.</param>
+            <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
+            <returns>The angle whose sine is the specified number.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Asinh(System.Double,Jcd.Units.UnitTypes.Angle)">
+            <summary>
+            Returns the angle whose hyperbolic sine is the specified number.
+            </summary>
+            <param name="value">the number to perform the inverse hyperbolic sine function on.</param>
+            <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
+            <returns>The angle whose hyperbolic sine is the specified number.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Atan(System.Double,Jcd.Units.UnitTypes.Angle)">
+            <summary>
+            Returns the angle whose tangent is the specified number.
+            </summary>
+            <param name="value">the number to perform the inverse tangent function on.</param>
+            <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
+            <returns>The angle whose inverse tangent is the specified number.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Atan2(System.Double,System.Double,Jcd.Units.UnitTypes.Angle)">
+            <summary>
+            Returns the angle whose tangent is the specified number.
+            </summary>
+            <param name="y">the y coordinate of a point.</param>
+            <param name="x">the x coordinate of a point.</param>
+            <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
+            <returns>The angle whose inverse tangent is the specified number.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Atanh(System.Double,Jcd.Units.UnitTypes.Angle)">
+            <summary>
+            Returns the angle whose hyperbolic tangent is the specified number.
+            </summary>
+            <param name="value">the number to perform the inverse hyperbolic sine function on.</param>
+            <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
+            <returns>The angle whose hyperbolic tangent is the specified number.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Cos(Jcd.Units.Quantity{Jcd.Units.UnitTypes.Angle})">
+            <summary>
+            Returns the cosine of the specified angle.
+            </summary>
+            <param name="angle">The angle, in any unit of measure for <see cref="T:Jcd.Units.UnitsOfMeasure.SI.Angles"/>.</param>
+            <returns>The cosine of the specified angle.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Cosh(Jcd.Units.Quantity{Jcd.Units.UnitTypes.Angle})">
+            <summary>
+            Returns the hyperbolic cosine of the specified angle.
+            </summary>
+            <param name="angle">The angle, in any unit of measure for <see cref="T:Jcd.Units.UnitsOfMeasure.SI.Angles"/>.</param>
+            <returns>The hyperbolic cosine of the specified angle.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Sin(Jcd.Units.Quantity{Jcd.Units.UnitTypes.Angle})">
+            <summary>
+            Returns the sine of the specified angle.
+            </summary>
+            <param name="angle">The angle, in any unit of measure for <see cref="T:Jcd.Units.UnitsOfMeasure.SI.Angles"/>.</param>
+            <returns>The sine of the specified angle.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Sinh(Jcd.Units.Quantity{Jcd.Units.UnitTypes.Angle})">
+            <summary>
+            Returns the hyperbolic sine of the specified angle.
+            </summary>
+            <param name="angle">The angle, in any unit of measure for <see cref="T:Jcd.Units.UnitsOfMeasure.SI.Angles"/>.</param>
+            <returns>The hyperbolic sine of the specified angle.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.SinCos(Jcd.Units.Quantity{Jcd.Units.UnitTypes.Angle})">
+            <summary>
+            Returns the hyperbolic sine of the specified angle.
+            </summary>
+            <param name="angle">The angle, in any unit of measure for <see cref="T:Jcd.Units.UnitsOfMeasure.SI.Angles"/>.</param>
+            <returns>The hyperbolic sine of the specified angle.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Tan(Jcd.Units.Quantity{Jcd.Units.UnitTypes.Angle})">
+            <summary>
+            Returns the tangent of the specified angle.
+            </summary>
+            <param name="angle">The angle, in any unit of measure for <see cref="T:Jcd.Units.UnitsOfMeasure.SI.Angles"/>.</param>
+            <returns>The tangent of the specified angle.</returns>
+        </member>
+        <member name="M:Jcd.Units.MathQ.Tanh(Jcd.Units.Quantity{Jcd.Units.UnitTypes.Angle})">
+            <summary>
+            Returns the hyperbolic tangent of the specified angle.
+            </summary>
+            <param name="angle">The angle, in any unit of measure for <see cref="T:Jcd.Units.UnitsOfMeasure.SI.Angles"/>.</param>
+            <returns>The hyperbolic tangent of the specified angle.</returns>
+        </member>
         <member name="T:Jcd.Units.NamespaceDoc">
             <summary>
             Provides a quantity type (<see cref="T:Jcd.Units.Quantity`1" />) and various simple <see cref="T:Jcd.Units.UnitOfMeasure`1" />
@@ -709,20 +965,6 @@
             </summary>
             <param name="duration">The <see cref="T:Jcd.Units.UnitTypes.Duration" /> to convert.</param>
             <returns>The <see cref="T:System.TimeSpan" /> representation of the <see cref="T:Jcd.Units.UnitTypes.Duration" /> </returns>
-        </member>
-        <member name="T:Jcd.Units.QMath">
-            <summary>
-            Provides static common mathematical functions performed on instances of <see cref="T:Jcd.Units.Quantity`1" />.
-            This parallels and uses many of the <see cref="T:System.Math" /> implementations.
-            </summary>
-        </member>
-        <member name="M:Jcd.Units.QMath.Abs``1(Jcd.Units.Quantity{``0})">
-            <summary>
-            Returns the absolute value of a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.
-            </summary>
-            <param name="quantity">The quantity</param>
-            <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
-            <returns>the absolute value of a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.</returns>
         </member>
         <member name="T:Jcd.Units.UnitOfMeasure`1">
             <summary>

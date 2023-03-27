@@ -1,0 +1,13 @@
+#### [Jcd.Units](index.md 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[LuminousFluxes](LuminousFluxes.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousFluxes')
+
+## LuminousFluxes.Millilumen Field
+
+A(n) millilumen. Defined in terms of a(n) centilumen.
+
+```csharp
+public static readonly LuminousFlux Millilumen;
+```
+
+#### Field Value
+[LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')

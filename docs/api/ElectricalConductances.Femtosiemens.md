@@ -1,0 +1,13 @@
+#### [Jcd.Units](index.md 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[ElectricalConductances](ElectricalConductances.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances')
+
+## ElectricalConductances.Femtosiemens Field
+
+A(n) femtosiemens. Defined in terms of a(n) picosiemens.
+
+```csharp
+public static readonly ElectricalConductance Femtosiemens;
+```
+
+#### Field Value
+[ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
