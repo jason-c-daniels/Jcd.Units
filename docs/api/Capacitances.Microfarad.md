@@ -3,7 +3,7 @@
 
 ## Capacitances.Microfarad Field
 
-A(n) microfarad. Defined in terms of a(n) millifarad.
+A(n) microfarad. Defined as: (1.0/1000.0) × millifarad + (0).
 
 ```csharp
 public static readonly Capacitance Microfarad;

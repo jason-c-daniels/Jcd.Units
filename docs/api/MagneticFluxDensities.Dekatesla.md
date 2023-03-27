@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Dekatesla Field
 
-A(n) dekatesla. Defined in terms of a(n) tesla.
+A(n) dekatesla. Defined as: (10.0) × tesla + (0).
 
 ```csharp
 public static readonly MagneticFluxDensity Dekatesla;

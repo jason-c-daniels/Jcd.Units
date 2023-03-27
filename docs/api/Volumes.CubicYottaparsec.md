@@ -3,7 +3,7 @@
 
 ## Volumes.CubicYottaparsec Field
 
-A(n) cubic yottaparsec. Defined in terms of a(n) cubic zettaparsec.
+A(n) cubic yottaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic zettaparsec + (0).
 
 ```csharp
 public static readonly Volume CubicYottaparsec;

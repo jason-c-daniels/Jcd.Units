@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicZettameter Field
 
-A(n) petagram per cubic zettameter. Defined in terms of a(n) teragram per cubic exameter.
+A(n) petagram per cubic zettameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × teragram per cubic exameter + (0).
 
 ```csharp
 public static readonly Density PetagramPerCubicZettameter;

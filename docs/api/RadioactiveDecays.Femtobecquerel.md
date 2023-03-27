@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Femtobecquerel Field
 
-A(n) femtobecquerel. Defined in terms of a(n) picobecquerel.
+A(n) femtobecquerel. Defined as: (1.0/1000.0) × picobecquerel + (0).
 
 ```csharp
 public static readonly RadioactiveDecay Femtobecquerel;

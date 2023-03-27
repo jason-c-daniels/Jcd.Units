@@ -3,7 +3,7 @@
 
 ## Powers.Gigawatt Field
 
-A(n) gigawatt. Defined in terms of a(n) megawatt.
+A(n) gigawatt. Defined as: (1000.0) × megawatt + (0).
 
 ```csharp
 public static readonly Power Gigawatt;

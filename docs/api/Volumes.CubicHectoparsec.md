@@ -3,7 +3,7 @@
 
 ## Volumes.CubicHectoparsec Field
 
-A(n) cubic hectoparsec. Defined in terms of a(n) cubic dekaparsec.
+A(n) cubic hectoparsec. Defined as: ((10.0)*(10.0)*(10.0)) × cubic dekaparsec + (0).
 
 ```csharp
 public static readonly Volume CubicHectoparsec;

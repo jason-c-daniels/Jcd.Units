@@ -13,31 +13,31 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [BillionCount](Amounts.BillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionCount') | A(n) billion count. Defined in terms of a(n) million count. |
-| [BillionQuantity](Amounts.BillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionQuantity') | A(n) billion quantity. Defined in terms of a(n) million quantity. |
-| [Count](Amounts.Count.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Count') | A(n) count. Defined in terms of a(n)  count. |
-| [DecillionCount](Amounts.DecillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionCount') | A(n) decillion count. Defined in terms of a(n) nonillion count. |
-| [DecillionQuantity](Amounts.DecillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionQuantity') | A(n) decillion quantity. Defined in terms of a(n) nonillion quantity. |
-| [HundredCount](Amounts.HundredCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.HundredCount') | A(n) hundred count. Defined in terms of a(n) ten count. |
-| [HundredQuantity](Amounts.HundredQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.HundredQuantity') | A(n) hundred quantity. Defined in terms of a(n) ten quantity. |
-| [MillionCount](Amounts.MillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.MillionCount') | A(n) million count. Defined in terms of a(n) thousand count. |
-| [MillionQuantity](Amounts.MillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.MillionQuantity') | A(n) million quantity. Defined in terms of a(n) thousand quantity. |
-| [NonillionCount](Amounts.NonillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.NonillionCount') | A(n) nonillion count. Defined in terms of a(n) octillion count. |
-| [NonillionQuantity](Amounts.NonillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.NonillionQuantity') | A(n) nonillion quantity. Defined in terms of a(n) octillion quantity. |
-| [OctillionCount](Amounts.OctillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.OctillionCount') | A(n) octillion count. Defined in terms of a(n) septillion count. |
-| [OctillionQuantity](Amounts.OctillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.OctillionQuantity') | A(n) octillion quantity. Defined in terms of a(n) septillion quantity. |
-| [QuadrillionCount](Amounts.QuadrillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuadrillionCount') | A(n) quadrillion count. Defined in terms of a(n) trillion count. |
-| [QuadrillionQuantity](Amounts.QuadrillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuadrillionQuantity') | A(n) quadrillion quantity. Defined in terms of a(n) trillion quantity. |
-| [Quantity](Amounts.Quantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Quantity') | A(n) quantity. Defined in terms of a(n)  count. |
-| [QuintillionCount](Amounts.QuintillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuintillionCount') | A(n) quintillion count. Defined in terms of a(n) quadrillion count. |
-| [QuintillionQuantity](Amounts.QuintillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuintillionQuantity') | A(n) quintillion quantity. Defined in terms of a(n) quadrillion quantity. |
-| [SeptillionCount](Amounts.SeptillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SeptillionCount') | A(n) septillion count. Defined in terms of a(n) sextillion count. |
-| [SeptillionQuantity](Amounts.SeptillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SeptillionQuantity') | A(n) septillion quantity. Defined in terms of a(n) sextillion quantity. |
-| [SextillionCount](Amounts.SextillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SextillionCount') | A(n) sextillion count. Defined in terms of a(n) quintillion count. |
-| [SextillionQuantity](Amounts.SextillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SextillionQuantity') | A(n) sextillion quantity. Defined in terms of a(n) quintillion quantity. |
-| [TenCount](Amounts.TenCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TenCount') | A(n) ten count. Defined in terms of a(n)  count. |
-| [TenQuantity](Amounts.TenQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TenQuantity') | A(n) ten quantity. Defined in terms of a(n)  quantity. |
-| [ThousandCount](Amounts.ThousandCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.ThousandCount') | A(n) thousand count. Defined in terms of a(n) hundred count. |
-| [ThousandQuantity](Amounts.ThousandQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.ThousandQuantity') | A(n) thousand quantity. Defined in terms of a(n) hundred quantity. |
-| [TrillionCount](Amounts.TrillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TrillionCount') | A(n) trillion count. Defined in terms of a(n) billion count. |
-| [TrillionQuantity](Amounts.TrillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TrillionQuantity') | A(n) trillion quantity. Defined in terms of a(n) billion quantity. |
+| [BillionCount](Amounts.BillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionCount') | A(n) billion count. Defined as: (1_000_000.0) × million count + (0). |
+| [BillionQuantity](Amounts.BillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.BillionQuantity') | A(n) billion quantity. Defined as: (1_000_000.0) × million quantity + (0). |
+| [Count](Amounts.Count.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Count') | A(n) count. Defined as: (1.0) ×  count + (0). |
+| [DecillionCount](Amounts.DecillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionCount') | A(n) decillion count. Defined as: (1_000_000.0) × nonillion count + (0). |
+| [DecillionQuantity](Amounts.DecillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.DecillionQuantity') | A(n) decillion quantity. Defined as: (1_000_000.0) × nonillion quantity + (0). |
+| [HundredCount](Amounts.HundredCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.HundredCount') | A(n) hundred count. Defined as: (10.0) × ten count + (0). |
+| [HundredQuantity](Amounts.HundredQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.HundredQuantity') | A(n) hundred quantity. Defined as: (10.0) × ten quantity + (0). |
+| [MillionCount](Amounts.MillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.MillionCount') | A(n) million count. Defined as: (1000.0) × thousand count + (0). |
+| [MillionQuantity](Amounts.MillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.MillionQuantity') | A(n) million quantity. Defined as: (1000.0) × thousand quantity + (0). |
+| [NonillionCount](Amounts.NonillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.NonillionCount') | A(n) nonillion count. Defined as: (1_000_000.0) × octillion count + (0). |
+| [NonillionQuantity](Amounts.NonillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.NonillionQuantity') | A(n) nonillion quantity. Defined as: (1_000_000.0) × octillion quantity + (0). |
+| [OctillionCount](Amounts.OctillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.OctillionCount') | A(n) octillion count. Defined as: (1_000_000.0) × septillion count + (0). |
+| [OctillionQuantity](Amounts.OctillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.OctillionQuantity') | A(n) octillion quantity. Defined as: (1_000_000.0) × septillion quantity + (0). |
+| [QuadrillionCount](Amounts.QuadrillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuadrillionCount') | A(n) quadrillion count. Defined as: (1_000_000.0) × trillion count + (0). |
+| [QuadrillionQuantity](Amounts.QuadrillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuadrillionQuantity') | A(n) quadrillion quantity. Defined as: (1_000_000.0) × trillion quantity + (0). |
+| [Quantity](Amounts.Quantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.Quantity') | A(n) quantity. Defined as: (1.0) ×  count + (0). |
+| [QuintillionCount](Amounts.QuintillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuintillionCount') | A(n) quintillion count. Defined as: (1_000_000.0) × quadrillion count + (0). |
+| [QuintillionQuantity](Amounts.QuintillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.QuintillionQuantity') | A(n) quintillion quantity. Defined as: (1_000_000.0) × quadrillion quantity + (0). |
+| [SeptillionCount](Amounts.SeptillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SeptillionCount') | A(n) septillion count. Defined as: (1_000_000.0) × sextillion count + (0). |
+| [SeptillionQuantity](Amounts.SeptillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SeptillionQuantity') | A(n) septillion quantity. Defined as: (1_000_000.0) × sextillion quantity + (0). |
+| [SextillionCount](Amounts.SextillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SextillionCount') | A(n) sextillion count. Defined as: (1_000_000.0) × quintillion count + (0). |
+| [SextillionQuantity](Amounts.SextillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.SextillionQuantity') | A(n) sextillion quantity. Defined as: (1_000_000.0) × quintillion quantity + (0). |
+| [TenCount](Amounts.TenCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TenCount') | A(n) ten count. Defined as: (10.0) ×  count + (0). |
+| [TenQuantity](Amounts.TenQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TenQuantity') | A(n) ten quantity. Defined as: (10.0) ×  quantity + (0). |
+| [ThousandCount](Amounts.ThousandCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.ThousandCount') | A(n) thousand count. Defined as: (10.0) × hundred count + (0). |
+| [ThousandQuantity](Amounts.ThousandQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.ThousandQuantity') | A(n) thousand quantity. Defined as: (10.0) × hundred quantity + (0). |
+| [TrillionCount](Amounts.TrillionCount.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TrillionCount') | A(n) trillion count. Defined as: (1_000_000.0) × billion count + (0). |
+| [TrillionQuantity](Amounts.TrillionQuantity.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts.TrillionQuantity') | A(n) trillion quantity. Defined as: (1_000_000.0) × billion quantity + (0). |

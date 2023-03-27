@@ -3,7 +3,7 @@
 
 ## Forces.Kilonewton Field
 
-A(n) kilonewton. Defined in terms of a(n) hectonewton.
+A(n) kilonewton. Defined as: (10.0) × hectonewton + (0).
 
 ```csharp
 public static readonly Force Kilonewton;

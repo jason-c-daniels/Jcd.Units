@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLightHour Field
 
-A(n) cubic light-hour. Defined in terms of a(n) cubic light-minute.
+A(n) cubic light-hour. Defined as: ((60.0)*(60.0)*(60.0)) × cubic light-minute + (0).
 
 ```csharp
 public static readonly Volume CubicLightHour;

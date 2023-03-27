@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Yottaweber Field
 
-A(n) yottaweber. Defined in terms of a(n) zettaweber.
+A(n) yottaweber. Defined as: (1000.0) × zettaweber + (0).
 
 ```csharp
 public static readonly MagneticFlux Yottaweber;

@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicZeptometer Field
 
-A(n) picogram per cubic zeptometer. Defined in terms of a(n) nanogram per cubic attometer.
+A(n) picogram per cubic zeptometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × nanogram per cubic attometer + (0).
 
 ```csharp
 public static readonly Density PicogramPerCubicZeptometer;

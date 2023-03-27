@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Petacoulomb Field
 
-A(n) petacoulomb. Defined in terms of a(n) teracoulomb.
+A(n) petacoulomb. Defined as: (1000.0) × teracoulomb + (0).
 
 ```csharp
 public static readonly ElectricalCharge Petacoulomb;

@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicRonnameter Field
 
-A(n) hectogram per cubic ronnameter. Defined in terms of a(n) kilogram per cubic yottameter.
+A(n) hectogram per cubic ronnameter. Defined as: ((1.0/10.0)/((1000.0)*(1000.0)*(1000.0))) × kilogram per cubic yottameter + (0).
 
 ```csharp
 public static readonly Density HectogramPerCubicRonnameter;

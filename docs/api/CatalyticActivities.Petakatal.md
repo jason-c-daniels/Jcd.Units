@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Petakatal Field
 
-A(n) petakatal. Defined in terms of a(n) terakatal.
+A(n) petakatal. Defined as: (1000.0) × terakatal + (0).
 
 ```csharp
 public static readonly CatalyticActivity Petakatal;

@@ -3,7 +3,7 @@
 
 ## Powers.Hectowatt Field
 
-A(n) hectowatt. Defined in terms of a(n) dekawatt.
+A(n) hectowatt. Defined as: (10.0) × dekawatt + (0).
 
 ```csharp
 public static readonly Power Hectowatt;

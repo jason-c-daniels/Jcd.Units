@@ -3,7 +3,7 @@
 
 ## Volumes.CubicKiloparsec Field
 
-A(n) cubic kiloparsec. Defined in terms of a(n) cubic hectoparsec.
+A(n) cubic kiloparsec. Defined as: ((10.0)*(10.0)*(10.0)) × cubic hectoparsec + (0).
 
 ```csharp
 public static readonly Volume CubicKiloparsec;

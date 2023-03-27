@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Teracandela Field
 
-A(n) teracandela. Defined in terms of a(n) gigacandela.
+A(n) teracandela. Defined as: (1000.0) × gigacandela + (0).
 
 ```csharp
 public static readonly LuminousIntensity Teracandela;

@@ -3,7 +3,7 @@
 
 ## Volumes.Liter Field
 
-A(n) liter. Defined in terms of a(n) cubic decimeter.
+A(n) liter. Defined as: (1.0) × cubic decimeter + (0).
 
 ```csharp
 public static readonly Volume Liter;

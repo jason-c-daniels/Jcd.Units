@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicZettameter Field
 
-A(n) centigram per cubic zettameter. Defined in terms of a(n) decigram per cubic exameter.
+A(n) centigram per cubic zettameter. Defined as: ((1.0/10.0)/((1000.0)*(1000.0)*(1000.0))) × decigram per cubic exameter + (0).
 
 ```csharp
 public static readonly Density CentigramPerCubicZettameter;

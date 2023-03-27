@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Decicoulomb Field
 
-A(n) decicoulomb. Defined in terms of a(n) coulomb.
+A(n) decicoulomb. Defined as: (1.0/10.0) × coulomb + (0).
 
 ```csharp
 public static readonly ElectricalCharge Decicoulomb;

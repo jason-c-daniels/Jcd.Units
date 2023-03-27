@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicPetameter Field
 
-A(n) kilogram per cubic petameter. Defined in terms of a(n) kilogram per cubic terameter.
+A(n) kilogram per cubic petameter. Defined as: ((1.0)/((1000.0)*(1000.0)*(1000.0))) × kilogram per cubic terameter + (0).
 
 ```csharp
 public static readonly Density KilogramPerCubicPetameter;

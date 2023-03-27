@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Nanosievert Field
 
-A(n) nanosievert. Defined in terms of a(n) microsievert.
+A(n) nanosievert. Defined as: (1.0/1000.0) × microsievert + (0).
 
 ```csharp
 public static readonly RadiationEquivalentDose Nanosievert;

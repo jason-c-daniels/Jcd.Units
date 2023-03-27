@@ -3,7 +3,7 @@
 
 ## Areas.SquareDekalightYear Field
 
-A(n) square dekalight-year. Defined in terms of a(n) square light-year.
+A(n) square dekalight-year. Defined as: ((10.0)*(10.0)) × square light-year + (0).
 
 ```csharp
 public static readonly Area SquareDekalightYear;

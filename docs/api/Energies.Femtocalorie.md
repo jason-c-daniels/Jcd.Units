@@ -3,7 +3,7 @@
 
 ## Energies.Femtocalorie Field
 
-A(n) femtocalorie. Defined in terms of a(n) picocalorie.
+A(n) femtocalorie. Defined as: (1.0/1000.0) × picocalorie + (0).
 
 ```csharp
 public static readonly Energy Femtocalorie;

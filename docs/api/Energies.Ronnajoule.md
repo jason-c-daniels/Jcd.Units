@@ -3,7 +3,7 @@
 
 ## Energies.Ronnajoule Field
 
-A(n) ronnajoule. Defined in terms of a(n) yottajoule.
+A(n) ronnajoule. Defined as: (1000.0) × yottajoule + (0).
 
 ```csharp
 public static readonly Energy Ronnajoule;

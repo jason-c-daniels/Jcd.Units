@@ -3,7 +3,7 @@
 
 ## Forces.Attonewton Field
 
-A(n) attonewton. Defined in terms of a(n) femtonewton.
+A(n) attonewton. Defined as: (1.0/1000.0) × femtonewton + (0).
 
 ```csharp
 public static readonly Force Attonewton;

@@ -3,7 +3,7 @@
 
 ## Masses.Ronnagram Field
 
-A(n) ronnagram. Defined in terms of a(n) yottagram.
+A(n) ronnagram. Defined as: (1000.0) × yottagram + (0).
 
 ```csharp
 public static readonly Mass Ronnagram;

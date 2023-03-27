@@ -3,7 +3,7 @@
 
 ## Energies.Decijoule Field
 
-A(n) decijoule. Defined in terms of a(n) joule.
+A(n) decijoule. Defined as: (1.0/10.0) × joule + (0).
 
 ```csharp
 public static readonly Energy Decijoule;

@@ -3,7 +3,7 @@
 
 ## Forces.Quettanewton Field
 
-A(n) quettanewton. Defined in terms of a(n) ronnanewton.
+A(n) quettanewton. Defined as: (1000.0) × ronnanewton + (0).
 
 ```csharp
 public static readonly Force Quettanewton;

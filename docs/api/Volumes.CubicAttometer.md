@@ -3,7 +3,7 @@
 
 ## Volumes.CubicAttometer Field
 
-A(n) cubic attometer. Defined in terms of a(n) cubic femtometer.
+A(n) cubic attometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × cubic femtometer + (0).
 
 ```csharp
 public static readonly Volume CubicAttometer;

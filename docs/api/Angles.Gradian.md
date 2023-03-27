@@ -3,7 +3,7 @@
 
 ## Angles.Gradian Field
 
-A(n) gradian. Defined in terms of a(n) SI radian.
+A(n) gradian. Defined as: ((Math.PI/200.0)) × SI radian + (0).
 
 ```csharp
 public static readonly Angle Gradian;

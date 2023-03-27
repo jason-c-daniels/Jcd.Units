@@ -3,7 +3,7 @@
 
 ## Volumes.CubicQuettaparsec Field
 
-A(n) cubic quettaparsec. Defined in terms of a(n) cubic ronnaparsec.
+A(n) cubic quettaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic ronnaparsec + (0).
 
 ```csharp
 public static readonly Volume CubicQuettaparsec;

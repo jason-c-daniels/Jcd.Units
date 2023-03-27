@@ -3,7 +3,7 @@
 
 ## Amounts.Teramole Field
 
-A(n) teramole. Defined in terms of a(n) gigamole.
+A(n) teramole. Defined as: (1000.0) × gigamole + (0).
 
 ```csharp
 public static readonly Amount Teramole;

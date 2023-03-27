@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicMicrometer Field
 
-A(n) petagram per cubic micrometer. Defined in terms of a(n) teragram per cubic millimeter.
+A(n) petagram per cubic micrometer. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × teragram per cubic millimeter + (0).
 
 ```csharp
 public static readonly Density PetagramPerCubicMicrometer;

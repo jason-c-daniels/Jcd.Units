@@ -3,7 +3,7 @@
 
 ## Masses.Megagram Field
 
-A(n) megagram. Defined in terms of a(n) kilogram.
+A(n) megagram. Defined as: (1000.0) × kilogram + (0).
 
 ```csharp
 public static readonly Mass Megagram;

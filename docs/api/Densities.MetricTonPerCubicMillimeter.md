@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicMillimeter Field
 
-A(n) metric ton per cubic millimeter. Defined in terms of a(n) megagram per cubic centimeter.
+A(n) metric ton per cubic millimeter. Defined as: ((1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))) × megagram per cubic centimeter + (0).
 
 ```csharp
 public static readonly Density MetricTonPerCubicMillimeter;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMicrometer Field
 
-A(n) cubic micrometer. Defined in terms of a(n) cubic millimeter.
+A(n) cubic micrometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × cubic millimeter + (0).
 
 ```csharp
 public static readonly Volume CubicMicrometer;

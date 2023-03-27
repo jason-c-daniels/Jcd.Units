@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicPetameter Field
 
-A(n) ronnagram per cubic petameter. Defined in terms of a(n) yottagram per cubic terameter.
+A(n) ronnagram per cubic petameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × yottagram per cubic terameter + (0).
 
 ```csharp
 public static readonly Density RonnagramPerCubicPetameter;

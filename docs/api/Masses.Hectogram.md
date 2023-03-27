@@ -3,7 +3,7 @@
 
 ## Masses.Hectogram Field
 
-A(n) hectogram. Defined in terms of a(n) kilogram.
+A(n) hectogram. Defined as: (1.0/10.0) × kilogram + (0).
 
 ```csharp
 public static readonly Mass Hectogram;

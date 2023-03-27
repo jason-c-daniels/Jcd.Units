@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicRontometer Field
 
-A(n) nanogram per cubic rontometer. Defined in terms of a(n) microgram per cubic yoctometer.
+A(n) nanogram per cubic rontometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × microgram per cubic yoctometer + (0).
 
 ```csharp
 public static readonly Density NanogramPerCubicRontometer;

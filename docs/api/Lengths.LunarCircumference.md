@@ -3,7 +3,7 @@
 
 ## Lengths.LunarCircumference Field
 
-A(n) lunar circumference. Defined in terms of a(n) lunar diameter.
+A(n) lunar circumference. Defined as: (Math.PI) × lunar diameter + (0).
 
 ```csharp
 public static readonly Length LunarCircumference;

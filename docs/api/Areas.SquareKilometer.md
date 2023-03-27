@@ -3,7 +3,7 @@
 
 ## Areas.SquareKilometer Field
 
-A(n) square kilometer. Defined in terms of a(n) square hectometer.
+A(n) square kilometer. Defined as: ((10.0)*(10.0)) × square hectometer + (0).
 
 ```csharp
 public static readonly Area SquareKilometer;

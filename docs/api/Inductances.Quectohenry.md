@@ -3,7 +3,7 @@
 
 ## Inductances.Quectohenry Field
 
-A(n) quectohenry. Defined in terms of a(n) rontohenry.
+A(n) quectohenry. Defined as: (1.0/1000.0) × rontohenry + (0).
 
 ```csharp
 public static readonly Inductance Quectohenry;

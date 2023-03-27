@@ -3,7 +3,7 @@
 
 ## Resistances.Rontoohm Field
 
-A(n) rontoohm. Defined in terms of a(n) yoctoohm.
+A(n) rontoohm. Defined as: (1.0/1000.0) × yoctoohm + (0).
 
 ```csharp
 public static readonly Resistance Rontoohm;

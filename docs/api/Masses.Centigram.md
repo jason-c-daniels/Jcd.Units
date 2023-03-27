@@ -3,7 +3,7 @@
 
 ## Masses.Centigram Field
 
-A(n) centigram. Defined in terms of a(n) decigram.
+A(n) centigram. Defined as: (1.0/10.0) × decigram + (0).
 
 ```csharp
 public static readonly Mass Centigram;

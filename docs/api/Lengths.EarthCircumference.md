@@ -3,7 +3,7 @@
 
 ## Lengths.EarthCircumference Field
 
-A(n) earth circumference. Defined in terms of a(n) earth diameter.
+A(n) earth circumference. Defined as: (Math.PI) × earth diameter + (0).
 
 ```csharp
 public static readonly Length EarthCircumference;

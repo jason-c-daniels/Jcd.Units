@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Ronnavolt Field
 
-A(n) ronnavolt. Defined in terms of a(n) yottavolt.
+A(n) ronnavolt. Defined as: (1000.0) × yottavolt + (0).
 
 ```csharp
 public static readonly ElectricalPotential Ronnavolt;

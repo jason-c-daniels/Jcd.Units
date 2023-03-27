@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicCentimeter Field
 
-A(n) zeptogram per cubic centimeter. Defined in terms of a(n) attogram per cubic decimeter.
+A(n) zeptogram per cubic centimeter. Defined as: ((1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))) × attogram per cubic decimeter + (0).
 
 ```csharp
 public static readonly Density ZeptogramPerCubicCentimeter;

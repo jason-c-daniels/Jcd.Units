@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicHectometer Field
 
-A(n) milligram per cubic hectometer. Defined in terms of a(n) centigram per cubic dekameter.
+A(n) milligram per cubic hectometer. Defined as: ((1.0/10.0)/((10.0)*(10.0)*(10.0))) × centigram per cubic dekameter + (0).
 
 ```csharp
 public static readonly Density MilligramPerCubicHectometer;

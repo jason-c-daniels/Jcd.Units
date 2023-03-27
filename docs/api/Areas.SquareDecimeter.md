@@ -3,7 +3,7 @@
 
 ## Areas.SquareDecimeter Field
 
-A(n) square decimeter. Defined in terms of a(n) square meter.
+A(n) square decimeter. Defined as: ((1.0/10.0)*(1.0/10.0)) × square meter + (0).
 
 ```csharp
 public static readonly Area SquareDecimeter;

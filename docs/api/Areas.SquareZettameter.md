@@ -3,7 +3,7 @@
 
 ## Areas.SquareZettameter Field
 
-A(n) square zettameter. Defined in terms of a(n) square exameter.
+A(n) square zettameter. Defined as: ((1000.0)*(1000.0)) × square exameter + (0).
 
 ```csharp
 public static readonly Area SquareZettameter;

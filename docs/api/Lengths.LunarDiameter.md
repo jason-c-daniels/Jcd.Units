@@ -3,7 +3,7 @@
 
 ## Lengths.LunarDiameter Field
 
-A(n) lunar diameter. Defined in terms of a(n) lunar radius.
+A(n) lunar diameter. Defined as: (2.0) × lunar radius + (0).
 
 ```csharp
 public static readonly Length LunarDiameter;

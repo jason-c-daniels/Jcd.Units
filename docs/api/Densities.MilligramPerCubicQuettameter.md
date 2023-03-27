@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicQuettameter Field
 
-A(n) milligram per cubic quettameter. Defined in terms of a(n) centigram per cubic ronnameter.
+A(n) milligram per cubic quettameter. Defined as: ((1.0/10.0)/((1000.0)*(1000.0)*(1000.0))) × centigram per cubic ronnameter + (0).
 
 ```csharp
 public static readonly Density MilligramPerCubicQuettameter;

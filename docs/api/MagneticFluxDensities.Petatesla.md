@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Petatesla Field
 
-A(n) petatesla. Defined in terms of a(n) teratesla.
+A(n) petatesla. Defined as: (1000.0) × teratesla + (0).
 
 ```csharp
 public static readonly MagneticFluxDensity Petatesla;

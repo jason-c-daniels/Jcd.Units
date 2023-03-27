@@ -3,7 +3,7 @@
 
 ## Amounts.OctillionQuantity Field
 
-A(n) octillion quantity. Defined in terms of a(n) septillion quantity.
+A(n) octillion quantity. Defined as: (1_000_000.0) × septillion quantity + (0).
 
 ```csharp
 public static readonly Amount OctillionQuantity;

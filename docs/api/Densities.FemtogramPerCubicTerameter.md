@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicTerameter Field
 
-A(n) femtogram per cubic terameter. Defined in terms of a(n) picogram per cubic gigameter.
+A(n) femtogram per cubic terameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × picogram per cubic gigameter + (0).
 
 ```csharp
 public static readonly Density FemtogramPerCubicTerameter;

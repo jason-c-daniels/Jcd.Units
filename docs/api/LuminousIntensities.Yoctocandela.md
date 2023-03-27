@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Yoctocandela Field
 
-A(n) yoctocandela. Defined in terms of a(n) zeptocandela.
+A(n) yoctocandela. Defined as: (1.0/1000.0) × zeptocandela + (0).
 
 ```csharp
 public static readonly LuminousIntensity Yoctocandela;

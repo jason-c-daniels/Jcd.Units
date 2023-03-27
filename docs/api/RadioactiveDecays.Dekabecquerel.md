@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Dekabecquerel Field
 
-A(n) dekabecquerel. Defined in terms of a(n) becquerel.
+A(n) dekabecquerel. Defined as: (10.0) × becquerel + (0).
 
 ```csharp
 public static readonly RadioactiveDecay Dekabecquerel;

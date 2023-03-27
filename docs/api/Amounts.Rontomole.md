@@ -3,7 +3,7 @@
 
 ## Amounts.Rontomole Field
 
-A(n) rontomole. Defined in terms of a(n) yoctomole.
+A(n) rontomole. Defined as: (1.0/1000.0) × yoctomole + (0).
 
 ```csharp
 public static readonly Amount Rontomole;

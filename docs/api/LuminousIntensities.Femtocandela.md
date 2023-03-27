@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Femtocandela Field
 
-A(n) femtocandela. Defined in terms of a(n) picocandela.
+A(n) femtocandela. Defined as: (1.0/1000.0) × picocandela + (0).
 
 ```csharp
 public static readonly LuminousIntensity Femtocandela;

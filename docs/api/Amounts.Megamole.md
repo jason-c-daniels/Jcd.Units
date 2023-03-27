@@ -3,7 +3,7 @@
 
 ## Amounts.Megamole Field
 
-A(n) megamole. Defined in terms of a(n) kilomole.
+A(n) megamole. Defined as: (1000.0) × kilomole + (0).
 
 ```csharp
 public static readonly Amount Megamole;

@@ -3,7 +3,7 @@
 
 ## Energies.Yottacalorie Field
 
-A(n) yottacalorie. Defined in terms of a(n) zettacalorie.
+A(n) yottacalorie. Defined as: (1000.0) × zettacalorie + (0).
 
 ```csharp
 public static readonly Energy Yottacalorie;

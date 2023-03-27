@@ -3,7 +3,7 @@
 
 ## Volumes.CubicExalightYear Field
 
-A(n) cubic exalight-year. Defined in terms of a(n) cubic petalight-year.
+A(n) cubic exalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic petalight-year + (0).
 
 ```csharp
 public static readonly Volume CubicExalightYear;

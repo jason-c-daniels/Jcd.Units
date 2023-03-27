@@ -3,7 +3,7 @@
 
 ## Lengths.Decimeter Field
 
-A(n) decimeter. Defined in terms of a(n) meter.
+A(n) decimeter. Defined as: (1.0/10.0) × meter + (0).
 
 ```csharp
 public static readonly Length Decimeter;

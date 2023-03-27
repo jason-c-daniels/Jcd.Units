@@ -3,7 +3,7 @@
 
 ## Masses.JovianMass Field
 
-A(n) jovian mass. Defined in terms of a(n) SI kilogram.
+A(n) jovian mass. Defined as: (1.89813E+27) × SI kilogram + (0).
 
 ```csharp
 public static readonly Mass JovianMass;

@@ -3,7 +3,7 @@
 
 ## Areas.SquareJovianRadius Field
 
-A(n) square jovian radius. Defined in terms of a(n) SI square kilometer.
+A(n) square jovian radius. Defined as: ((69_911.0)*(69_911.0)) × SI square kilometer + (0).
 
 ```csharp
 public static readonly Area SquareJovianRadius;

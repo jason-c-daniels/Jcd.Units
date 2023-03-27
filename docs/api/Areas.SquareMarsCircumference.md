@@ -3,7 +3,7 @@
 
 ## Areas.SquareMarsCircumference Field
 
-A(n) square mars circumference. Defined in terms of a(n) square mars diameter.
+A(n) square mars circumference. Defined as: ((Math.PI)*(Math.PI)) × square mars diameter + (0).
 
 ```csharp
 public static readonly Area SquareMarsCircumference;

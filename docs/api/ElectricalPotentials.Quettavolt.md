@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Quettavolt Field
 
-A(n) quettavolt. Defined in terms of a(n) ronnavolt.
+A(n) quettavolt. Defined as: (1000.0) × ronnavolt + (0).
 
 ```csharp
 public static readonly ElectricalPotential Quettavolt;

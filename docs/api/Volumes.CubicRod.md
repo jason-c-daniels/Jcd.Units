@@ -3,7 +3,7 @@
 
 ## Volumes.CubicRod Field
 
-A(n) cubic rod. Defined in terms of a(n) SI cubic meter.
+A(n) cubic rod. Defined as: ((5.0292)*(5.0292)*(5.0292)) × SI cubic meter + (0).
 
 ```csharp
 public static readonly Volume CubicRod;

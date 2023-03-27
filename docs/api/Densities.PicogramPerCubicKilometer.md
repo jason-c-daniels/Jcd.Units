@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicKilometer Field
 
-A(n) picogram per cubic kilometer. Defined in terms of a(n) nanogram per cubic hectometer.
+A(n) picogram per cubic kilometer. Defined as: ((1.0/1000.0)/((10.0)*(10.0)*(10.0))) × nanogram per cubic hectometer + (0).
 
 ```csharp
 public static readonly Density PicogramPerCubicKilometer;

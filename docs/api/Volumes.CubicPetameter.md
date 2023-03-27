@@ -3,7 +3,7 @@
 
 ## Volumes.CubicPetameter Field
 
-A(n) cubic petameter. Defined in terms of a(n) cubic terameter.
+A(n) cubic petameter. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic terameter + (0).
 
 ```csharp
 public static readonly Volume CubicPetameter;

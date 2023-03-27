@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLightYear Field
 
-A(n) cubic light-year. Defined in terms of a(n) SI cubic meter.
+A(n) cubic light-year. Defined as: ((9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)) × SI cubic meter + (0).
 
 ```csharp
 public static readonly Volume CubicLightYear;

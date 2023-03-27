@@ -3,7 +3,7 @@
 
 ## Masses.Pound Field
 
-A(n) pound. Defined in terms of a(n) ounce.
+A(n) pound. Defined as: (16.0) × ounce + (0).
 
 ```csharp
 public static readonly Mass Pound;

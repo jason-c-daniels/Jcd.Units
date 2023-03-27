@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicYoctometer Field
 
-A(n) metric ton per cubic yoctometer. Defined in terms of a(n) megagram per cubic zeptometer.
+A(n) metric ton per cubic yoctometer. Defined as: ((1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × megagram per cubic zeptometer + (0).
 
 ```csharp
 public static readonly Density MetricTonPerCubicYoctometer;

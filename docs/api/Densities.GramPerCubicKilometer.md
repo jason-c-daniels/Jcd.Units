@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicKilometer Field
 
-A(n) gram per cubic kilometer. Defined in terms of a(n) dekagram per cubic hectometer.
+A(n) gram per cubic kilometer. Defined as: ((1.0/10.0)/((10.0)*(10.0)*(10.0))) × dekagram per cubic hectometer + (0).
 
 ```csharp
 public static readonly Density GramPerCubicKilometer;

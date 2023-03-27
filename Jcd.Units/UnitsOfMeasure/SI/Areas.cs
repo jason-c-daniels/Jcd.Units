@@ -23,7 +23,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    public static readonly Area SquareMeter = new ("square meter", "m²");
 
    /// <summary>
-   /// A(n) square decimeter. Defined in terms of a(n) square meter.
+   /// A(n) square decimeter. Defined as: ((1.0/10.0)*(1.0/10.0)) × square meter + (0).
    /// </summary>
    public static readonly Area SquareDecimeter = new (
                                                       "square decimeter"
@@ -34,7 +34,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                      );
 
    /// <summary>
-   /// A(n) square centimeter. Defined in terms of a(n) square decimeter.
+   /// A(n) square centimeter. Defined as: ((1.0/10.0)*(1.0/10.0)) × square decimeter + (0).
    /// </summary>
    public static readonly Area SquareCentimeter = new (
                                                        "square centimeter"
@@ -45,7 +45,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square millimeter. Defined in terms of a(n) square centimeter.
+   /// A(n) square millimeter. Defined as: ((1.0/10.0)*(1.0/10.0)) × square centimeter + (0).
    /// </summary>
    public static readonly Area SquareMillimeter = new (
                                                        "square millimeter"
@@ -56,7 +56,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square micrometer. Defined in terms of a(n) square millimeter.
+   /// A(n) square micrometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square millimeter + (0).
    /// </summary>
    public static readonly Area SquareMicrometer = new (
                                                        "square micrometer"
@@ -67,7 +67,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square nanometer. Defined in terms of a(n) square micrometer.
+   /// A(n) square nanometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square micrometer + (0).
    /// </summary>
    public static readonly Area SquareNanometer = new (
                                                       "square nanometer"
@@ -78,7 +78,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                      );
 
    /// <summary>
-   /// A(n) square picometer. Defined in terms of a(n) square nanometer.
+   /// A(n) square picometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square nanometer + (0).
    /// </summary>
    public static readonly Area SquarePicometer = new (
                                                       "square picometer"
@@ -89,7 +89,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                      );
 
    /// <summary>
-   /// A(n) square femtometer. Defined in terms of a(n) square picometer.
+   /// A(n) square femtometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square picometer + (0).
    /// </summary>
    public static readonly Area SquareFemtometer = new (
                                                        "square femtometer"
@@ -100,7 +100,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square attometer. Defined in terms of a(n) square femtometer.
+   /// A(n) square attometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square femtometer + (0).
    /// </summary>
    public static readonly Area SquareAttometer = new (
                                                       "square attometer"
@@ -111,7 +111,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                      );
 
    /// <summary>
-   /// A(n) square zeptometer. Defined in terms of a(n) square attometer.
+   /// A(n) square zeptometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square attometer + (0).
    /// </summary>
    public static readonly Area SquareZeptometer = new (
                                                        "square zeptometer"
@@ -122,7 +122,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square yoctometer. Defined in terms of a(n) square zeptometer.
+   /// A(n) square yoctometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square zeptometer + (0).
    /// </summary>
    public static readonly Area SquareYoctometer = new (
                                                        "square yoctometer"
@@ -133,7 +133,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square rontometer. Defined in terms of a(n) square yoctometer.
+   /// A(n) square rontometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square yoctometer + (0).
    /// </summary>
    public static readonly Area SquareRontometer = new (
                                                        "square rontometer"
@@ -144,7 +144,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square quectometer. Defined in terms of a(n) square rontometer.
+   /// A(n) square quectometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square rontometer + (0).
    /// </summary>
    public static readonly Area SquareQuectometer = new (
                                                         "square quectometer"
@@ -155,52 +155,52 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// A(n) square dekameter. Defined in terms of a(n) square meter.
+   /// A(n) square dekameter. Defined as: ((10.0)*(10.0)) × square meter + (0).
    /// </summary>
    public static readonly Area SquareDekameter = new ("square dekameter", "dam²", SquareMeter, 10.0 * 10.0, 0);
 
    /// <summary>
-   /// A(n) square hectometer. Defined in terms of a(n) square dekameter.
+   /// A(n) square hectometer. Defined as: ((10.0)*(10.0)) × square dekameter + (0).
    /// </summary>
    public static readonly Area SquareHectometer = new ("square hectometer", "hm²", SquareDekameter, 10.0 * 10.0, 0);
 
    /// <summary>
-   /// A(n) square kilometer. Defined in terms of a(n) square hectometer.
+   /// A(n) square kilometer. Defined as: ((10.0)*(10.0)) × square hectometer + (0).
    /// </summary>
    public static readonly Area SquareKilometer = new ("square kilometer", "km²", SquareHectometer, 10.0 * 10.0, 0);
 
    /// <summary>
-   /// A(n) square megameter. Defined in terms of a(n) square kilometer.
+   /// A(n) square megameter. Defined as: ((1000.0)*(1000.0)) × square kilometer + (0).
    /// </summary>
    public static readonly Area SquareMegameter = new ("square megameter", "Mm²", SquareKilometer, 1000.0 * 1000.0, 0);
 
    /// <summary>
-   /// A(n) square gigameter. Defined in terms of a(n) square megameter.
+   /// A(n) square gigameter. Defined as: ((1000.0)*(1000.0)) × square megameter + (0).
    /// </summary>
    public static readonly Area SquareGigameter = new ("square gigameter", "Gm²", SquareMegameter, 1000.0 * 1000.0, 0);
 
    /// <summary>
-   /// A(n) square terameter. Defined in terms of a(n) square gigameter.
+   /// A(n) square terameter. Defined as: ((1000.0)*(1000.0)) × square gigameter + (0).
    /// </summary>
    public static readonly Area SquareTerameter = new ("square terameter", "Tm²", SquareGigameter, 1000.0 * 1000.0, 0);
 
    /// <summary>
-   /// A(n) square petameter. Defined in terms of a(n) square terameter.
+   /// A(n) square petameter. Defined as: ((1000.0)*(1000.0)) × square terameter + (0).
    /// </summary>
    public static readonly Area SquarePetameter = new ("square petameter", "Pm²", SquareTerameter, 1000.0 * 1000.0, 0);
 
    /// <summary>
-   /// A(n) square exameter. Defined in terms of a(n) square petameter.
+   /// A(n) square exameter. Defined as: ((1000.0)*(1000.0)) × square petameter + (0).
    /// </summary>
    public static readonly Area SquareExameter = new ("square exameter", "Em²", SquarePetameter, 1000.0 * 1000.0, 0);
 
    /// <summary>
-   /// A(n) square zettameter. Defined in terms of a(n) square exameter.
+   /// A(n) square zettameter. Defined as: ((1000.0)*(1000.0)) × square exameter + (0).
    /// </summary>
    public static readonly Area SquareZettameter = new ("square zettameter", "Zm²", SquareExameter, 1000.0 * 1000.0, 0);
 
    /// <summary>
-   /// A(n) square yottameter. Defined in terms of a(n) square zettameter.
+   /// A(n) square yottameter. Defined as: ((1000.0)*(1000.0)) × square zettameter + (0).
    /// </summary>
    public static readonly Area SquareYottameter = new (
                                                        "square yottameter"
@@ -211,7 +211,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square ronnameter. Defined in terms of a(n) square yottameter.
+   /// A(n) square ronnameter. Defined as: ((1000.0)*(1000.0)) × square yottameter + (0).
    /// </summary>
    public static readonly Area SquareRonnameter = new (
                                                        "square ronnameter"
@@ -222,7 +222,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// A(n) square quettameter. Defined in terms of a(n) square ronnameter.
+   /// A(n) square quettameter. Defined as: ((1000.0)*(1000.0)) × square ronnameter + (0).
    /// </summary>
    public static readonly Area SquareQuettameter = new (
                                                         "square quettameter"

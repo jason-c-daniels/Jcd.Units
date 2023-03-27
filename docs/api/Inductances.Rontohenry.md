@@ -3,7 +3,7 @@
 
 ## Inductances.Rontohenry Field
 
-A(n) rontohenry. Defined in terms of a(n) yoctohenry.
+A(n) rontohenry. Defined as: (1.0/1000.0) × yoctohenry + (0).
 
 ```csharp
 public static readonly Inductance Rontohenry;

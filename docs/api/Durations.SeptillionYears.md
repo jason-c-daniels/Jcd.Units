@@ -3,7 +3,7 @@
 
 ## Durations.SeptillionYears Field
 
-A(n) septillion years. Defined in terms of a(n) sextillion years.
+A(n) septillion years. Defined as: (1000.0) × sextillion years + (0).
 
 ```csharp
 public static readonly Duration SeptillionYears;

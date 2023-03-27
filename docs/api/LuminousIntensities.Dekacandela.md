@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Dekacandela Field
 
-A(n) dekacandela. Defined in terms of a(n) candela.
+A(n) dekacandela. Defined as: (10.0) × candela + (0).
 
 ```csharp
 public static readonly LuminousIntensity Dekacandela;

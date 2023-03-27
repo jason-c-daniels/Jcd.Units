@@ -3,7 +3,7 @@
 
 ## Frequencies.Rontohertz Field
 
-A(n) rontohertz. Defined in terms of a(n) yoctohertz.
+A(n) rontohertz. Defined as: (1.0/1000.0) × yoctohertz + (0).
 
 ```csharp
 public static readonly Frequency Rontohertz;

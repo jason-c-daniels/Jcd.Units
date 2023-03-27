@@ -3,7 +3,7 @@
 
 ## Momentums.HectonewtonSecond Field
 
-A(n) hectonewton-second. Defined in terms of a(n) dekanewton-second.
+A(n) hectonewton-second. Defined as: (10.0) × dekanewton-second + (0).
 
 ```csharp
 public static readonly Momentum HectonewtonSecond;

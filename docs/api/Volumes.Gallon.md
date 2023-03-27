@@ -3,7 +3,7 @@
 
 ## Volumes.Gallon Field
 
-A(n) gallon. Defined in terms of a(n) quart.
+A(n) gallon. Defined as: (4.0) × quart + (0).
 
 ```csharp
 public static readonly Volume Gallon;

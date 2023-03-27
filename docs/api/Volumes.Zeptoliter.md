@@ -3,7 +3,7 @@
 
 ## Volumes.Zeptoliter Field
 
-A(n) zeptoliter. Defined in terms of a(n) attoliter.
+A(n) zeptoliter. Defined as: (1.0/1000.0) × attoliter + (0).
 
 ```csharp
 public static readonly Volume Zeptoliter;

@@ -3,7 +3,7 @@
 
 ## Pressures.Micropascal Field
 
-A(n) micropascal. Defined in terms of a(n) millipascal.
+A(n) micropascal. Defined as: (1.0/1000.0) × millipascal + (0).
 
 ```csharp
 public static readonly Pressure Micropascal;

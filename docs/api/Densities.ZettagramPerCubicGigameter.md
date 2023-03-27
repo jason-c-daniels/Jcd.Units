@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicGigameter Field
 
-A(n) zettagram per cubic gigameter. Defined in terms of a(n) exagram per cubic megameter.
+A(n) zettagram per cubic gigameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × exagram per cubic megameter + (0).
 
 ```csharp
 public static readonly Density ZettagramPerCubicGigameter;

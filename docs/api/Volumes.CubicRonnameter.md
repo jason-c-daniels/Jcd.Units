@@ -3,7 +3,7 @@
 
 ## Volumes.CubicRonnameter Field
 
-A(n) cubic ronnameter. Defined in terms of a(n) cubic yottameter.
+A(n) cubic ronnameter. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic yottameter + (0).
 
 ```csharp
 public static readonly Volume CubicRonnameter;

@@ -3,7 +3,7 @@
 
 ## Energies.Ronnacalorie Field
 
-A(n) ronnacalorie. Defined in terms of a(n) yottacalorie.
+A(n) ronnacalorie. Defined as: (1000.0) × yottacalorie + (0).
 
 ```csharp
 public static readonly Energy Ronnacalorie;

@@ -3,7 +3,7 @@
 
 ## Volumes.Bushel Field
 
-A(n) bushel. Defined in terms of a(n) gallon.
+A(n) bushel. Defined as: (8.0) × gallon + (0).
 
 ```csharp
 public static readonly Volume Bushel;

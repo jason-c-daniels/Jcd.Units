@@ -3,7 +3,7 @@
 
 ## Lengths.Attometer Field
 
-A(n) attometer. Defined in terms of a(n) femtometer.
+A(n) attometer. Defined as: (1.0/1000.0) × femtometer + (0).
 
 ```csharp
 public static readonly Length Attometer;

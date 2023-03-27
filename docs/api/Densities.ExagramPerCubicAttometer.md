@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicAttometer Field
 
-A(n) exagram per cubic attometer. Defined in terms of a(n) petagram per cubic femtometer.
+A(n) exagram per cubic attometer. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × petagram per cubic femtometer + (0).
 
 ```csharp
 public static readonly Density ExagramPerCubicAttometer;

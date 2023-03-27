@@ -3,7 +3,7 @@
 
 ## Lengths.Gigameter Field
 
-A(n) gigameter. Defined in terms of a(n) megameter.
+A(n) gigameter. Defined as: (1000.0) × megameter + (0).
 
 ```csharp
 public static readonly Length Gigameter;

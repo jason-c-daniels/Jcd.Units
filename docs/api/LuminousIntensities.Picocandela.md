@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Picocandela Field
 
-A(n) picocandela. Defined in terms of a(n) nanocandela.
+A(n) picocandela. Defined as: (1.0/1000.0) × nanocandela + (0).
 
 ```csharp
 public static readonly LuminousIntensity Picocandela;

@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicTerameter Field
 
-A(n) microgram per cubic terameter. Defined in terms of a(n) milligram per cubic gigameter.
+A(n) microgram per cubic terameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × milligram per cubic gigameter + (0).
 
 ```csharp
 public static readonly Density MicrogramPerCubicTerameter;

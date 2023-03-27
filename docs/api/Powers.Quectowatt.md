@@ -3,7 +3,7 @@
 
 ## Powers.Quectowatt Field
 
-A(n) quectowatt. Defined in terms of a(n) rontowatt.
+A(n) quectowatt. Defined as: (1.0/1000.0) × rontowatt + (0).
 
 ```csharp
 public static readonly Power Quectowatt;

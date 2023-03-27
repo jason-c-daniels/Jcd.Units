@@ -3,7 +3,7 @@
 
 ## Energies.Petacalorie Field
 
-A(n) petacalorie. Defined in terms of a(n) teracalorie.
+A(n) petacalorie. Defined as: (1000.0) × teracalorie + (0).
 
 ```csharp
 public static readonly Energy Petacalorie;

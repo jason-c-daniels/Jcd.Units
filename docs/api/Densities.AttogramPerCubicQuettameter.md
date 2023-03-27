@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicQuettameter Field
 
-A(n) attogram per cubic quettameter. Defined in terms of a(n) femtogram per cubic ronnameter.
+A(n) attogram per cubic quettameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × femtogram per cubic ronnameter + (0).
 
 ```csharp
 public static readonly Density AttogramPerCubicQuettameter;

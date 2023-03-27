@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicMeter Field
 
-A(n) centigram per cubic meter. Defined in terms of a(n) decigram per cubic meter.
+A(n) centigram per cubic meter. Defined as: ((1.0/10.0)/((1.0)*(1.0)*(1.0))) × decigram per cubic meter + (0).
 
 ```csharp
 public static readonly Density CentigramPerCubicMeter;

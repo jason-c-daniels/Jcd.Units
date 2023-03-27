@@ -3,7 +3,7 @@
 
 ## Energies.Dekacalorie Field
 
-A(n) dekacalorie. Defined in terms of a(n) calorie.
+A(n) dekacalorie. Defined as: (10.0) × calorie + (0).
 
 ```csharp
 public static readonly Energy Dekacalorie;

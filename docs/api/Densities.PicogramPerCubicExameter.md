@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicExameter Field
 
-A(n) picogram per cubic exameter. Defined in terms of a(n) nanogram per cubic petameter.
+A(n) picogram per cubic exameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × nanogram per cubic petameter + (0).
 
 ```csharp
 public static readonly Density PicogramPerCubicExameter;

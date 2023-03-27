@@ -3,7 +3,7 @@
 
 ## Volumes.Picoliter Field
 
-A(n) picoliter. Defined in terms of a(n) nanoliter.
+A(n) picoliter. Defined as: (1.0/1000.0) × nanoliter + (0).
 
 ```csharp
 public static readonly Volume Picoliter;

@@ -3,7 +3,7 @@
 
 ## Illuminances.Petalux Field
 
-A(n) petalux. Defined in terms of a(n) teralux.
+A(n) petalux. Defined as: (1000.0) × teralux + (0).
 
 ```csharp
 public static readonly Illuminance Petalux;

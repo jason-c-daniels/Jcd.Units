@@ -3,7 +3,7 @@
 
 ## Amounts.QuadrillionCount Field
 
-A(n) quadrillion count. Defined in terms of a(n) trillion count.
+A(n) quadrillion count. Defined as: (1_000_000.0) × trillion count + (0).
 
 ```csharp
 public static readonly Amount QuadrillionCount;

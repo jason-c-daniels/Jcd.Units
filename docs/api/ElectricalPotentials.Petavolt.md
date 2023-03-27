@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Petavolt Field
 
-A(n) petavolt. Defined in terms of a(n) teravolt.
+A(n) petavolt. Defined as: (1000.0) × teravolt + (0).
 
 ```csharp
 public static readonly ElectricalPotential Petavolt;

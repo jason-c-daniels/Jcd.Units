@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Exalumen Field
 
-A(n) exalumen. Defined in terms of a(n) petalumen.
+A(n) exalumen. Defined as: (1000.0) × petalumen + (0).
 
 ```csharp
 public static readonly LuminousFlux Exalumen;

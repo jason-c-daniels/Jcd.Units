@@ -3,7 +3,7 @@
 
 ## Energies.Attocalorie Field
 
-A(n) attocalorie. Defined in terms of a(n) femtocalorie.
+A(n) attocalorie. Defined as: (1.0/1000.0) × femtocalorie + (0).
 
 ```csharp
 public static readonly Energy Attocalorie;

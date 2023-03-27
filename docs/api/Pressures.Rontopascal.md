@@ -3,7 +3,7 @@
 
 ## Pressures.Rontopascal Field
 
-A(n) rontopascal. Defined in terms of a(n) yoctopascal.
+A(n) rontopascal. Defined as: (1.0/1000.0) × yoctopascal + (0).
 
 ```csharp
 public static readonly Pressure Rontopascal;

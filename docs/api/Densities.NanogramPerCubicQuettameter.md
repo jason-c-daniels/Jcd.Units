@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicQuettameter Field
 
-A(n) nanogram per cubic quettameter. Defined in terms of a(n) microgram per cubic ronnameter.
+A(n) nanogram per cubic quettameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × microgram per cubic ronnameter + (0).
 
 ```csharp
 public static readonly Density NanogramPerCubicQuettameter;

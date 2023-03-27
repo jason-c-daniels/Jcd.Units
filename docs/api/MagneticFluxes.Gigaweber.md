@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Gigaweber Field
 
-A(n) gigaweber. Defined in terms of a(n) megaweber.
+A(n) gigaweber. Defined as: (1000.0) × megaweber + (0).
 
 ```csharp
 public static readonly MagneticFlux Gigaweber;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Kilosievert Field
 
-A(n) kilosievert. Defined in terms of a(n) hectosievert.
+A(n) kilosievert. Defined as: (10.0) × hectosievert + (0).
 
 ```csharp
 public static readonly RadiationEquivalentDose Kilosievert;

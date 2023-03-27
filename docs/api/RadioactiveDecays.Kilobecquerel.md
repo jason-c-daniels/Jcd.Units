@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Kilobecquerel Field
 
-A(n) kilobecquerel. Defined in terms of a(n) hectobecquerel.
+A(n) kilobecquerel. Defined as: (10.0) × hectobecquerel + (0).
 
 ```csharp
 public static readonly RadioactiveDecay Kilobecquerel;

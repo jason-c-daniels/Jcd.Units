@@ -3,7 +3,7 @@
 
 ## Pressures.Exapascal Field
 
-A(n) exapascal. Defined in terms of a(n) petapascal.
+A(n) exapascal. Defined as: (1000.0) × petapascal + (0).
 
 ```csharp
 public static readonly Pressure Exapascal;

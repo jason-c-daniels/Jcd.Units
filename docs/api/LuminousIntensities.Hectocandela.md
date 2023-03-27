@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Hectocandela Field
 
-A(n) hectocandela. Defined in terms of a(n) dekacandela.
+A(n) hectocandela. Defined as: (10.0) × dekacandela + (0).
 
 ```csharp
 public static readonly LuminousIntensity Hectocandela;

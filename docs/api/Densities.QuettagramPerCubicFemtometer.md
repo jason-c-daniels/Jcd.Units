@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicFemtometer Field
 
-A(n) quettagram per cubic femtometer. Defined in terms of a(n) ronnagram per cubic picometer.
+A(n) quettagram per cubic femtometer. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × ronnagram per cubic picometer + (0).
 
 ```csharp
 public static readonly Density QuettagramPerCubicFemtometer;

@@ -3,7 +3,7 @@
 
 ## Capacitances.Megafarad Field
 
-A(n) megafarad. Defined in terms of a(n) kilofarad.
+A(n) megafarad. Defined as: (1000.0) × kilofarad + (0).
 
 ```csharp
 public static readonly Capacitance Megafarad;

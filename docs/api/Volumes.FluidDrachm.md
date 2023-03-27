@@ -3,7 +3,7 @@
 
 ## Volumes.FluidDrachm Field
 
-A(n) fluid drachm. Defined in terms of a(n) fluid scruple.
+A(n) fluid drachm. Defined as: (3.0) × fluid scruple + (0).
 
 ```csharp
 public static readonly Volume FluidDrachm;

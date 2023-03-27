@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Attoweber Field
 
-A(n) attoweber. Defined in terms of a(n) femtoweber.
+A(n) attoweber. Defined as: (1.0/1000.0) × femtoweber + (0).
 
 ```csharp
 public static readonly MagneticFlux Attoweber;

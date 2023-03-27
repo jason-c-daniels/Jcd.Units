@@ -3,7 +3,7 @@
 
 ## Illuminances.Quectolux Field
 
-A(n) quectolux. Defined in terms of a(n) rontolux.
+A(n) quectolux. Defined as: (1.0/1000.0) × rontolux + (0).
 
 ```csharp
 public static readonly Illuminance Quectolux;

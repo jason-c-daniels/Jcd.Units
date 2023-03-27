@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Kilotesla Field
 
-A(n) kilotesla. Defined in terms of a(n) hectotesla.
+A(n) kilotesla. Defined as: (10.0) × hectotesla + (0).
 
 ```csharp
 public static readonly MagneticFluxDensity Kilotesla;

@@ -3,7 +3,7 @@
 
 ## Lengths.Megaparsec Field
 
-A(n) megaparsec. Defined in terms of a(n) kiloparsec.
+A(n) megaparsec. Defined as: (1000.0) × kiloparsec + (0).
 
 ```csharp
 public static readonly Length Megaparsec;

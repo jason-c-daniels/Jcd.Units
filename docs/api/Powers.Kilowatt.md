@@ -3,7 +3,7 @@
 
 ## Powers.Kilowatt Field
 
-A(n) kilowatt. Defined in terms of a(n) hectowatt.
+A(n) kilowatt. Defined as: (10.0) × hectowatt + (0).
 
 ```csharp
 public static readonly Power Kilowatt;

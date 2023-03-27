@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicCentimeter Field
 
-A(n) hectogram per cubic centimeter. Defined in terms of a(n) kilogram per cubic decimeter.
+A(n) hectogram per cubic centimeter. Defined as: ((1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))) × kilogram per cubic decimeter + (0).
 
 ```csharp
 public static readonly Density HectogramPerCubicCentimeter;

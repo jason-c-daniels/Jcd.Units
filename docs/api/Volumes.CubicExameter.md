@@ -3,7 +3,7 @@
 
 ## Volumes.CubicExameter Field
 
-A(n) cubic exameter. Defined in terms of a(n) cubic petameter.
+A(n) cubic exameter. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic petameter + (0).
 
 ```csharp
 public static readonly Volume CubicExameter;

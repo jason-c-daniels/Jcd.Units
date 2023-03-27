@@ -3,7 +3,7 @@
 
 ## Lengths.Rod Field
 
-A(n) rod. Defined in terms of a(n) SI meter.
+A(n) rod. Defined as: (5.0292) × SI meter + (0).
 
 ```csharp
 public static readonly Length Rod;

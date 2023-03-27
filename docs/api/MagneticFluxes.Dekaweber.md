@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Dekaweber Field
 
-A(n) dekaweber. Defined in terms of a(n) weber.
+A(n) dekaweber. Defined as: (10.0) × weber + (0).
 
 ```csharp
 public static readonly MagneticFlux Dekaweber;

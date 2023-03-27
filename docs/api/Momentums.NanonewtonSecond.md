@@ -3,7 +3,7 @@
 
 ## Momentums.NanonewtonSecond Field
 
-A(n) nanonewton-second. Defined in terms of a(n) micronewton-second.
+A(n) nanonewton-second. Defined as: (1.0/1000.0) × micronewton-second + (0).
 
 ```csharp
 public static readonly Momentum NanonewtonSecond;

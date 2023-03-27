@@ -3,7 +3,7 @@
 
 ## Masses.MarsMass Field
 
-A(n) mars mass. Defined in terms of a(n) SI kilogram.
+A(n) mars mass. Defined as: (6.39E+23) × SI kilogram + (0).
 
 ```csharp
 public static readonly Mass MarsMass;

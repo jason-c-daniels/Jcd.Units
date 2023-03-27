@@ -3,7 +3,7 @@
 
 ## Areas.SquareQuettaparsec Field
 
-A(n) square quettaparsec. Defined in terms of a(n) square ronnaparsec.
+A(n) square quettaparsec. Defined as: ((1000.0)*(1000.0)) × square ronnaparsec + (0).
 
 ```csharp
 public static readonly Area SquareQuettaparsec;

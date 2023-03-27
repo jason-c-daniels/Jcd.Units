@@ -3,7 +3,7 @@
 
 ## Lengths.Hand Field
 
-A(n) hand. Defined in terms of a(n) inch.
+A(n) hand. Defined as: (4.0) × inch + (0).
 
 ```csharp
 public static readonly Length Hand;

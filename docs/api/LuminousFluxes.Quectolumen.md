@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Quectolumen Field
 
-A(n) quectolumen. Defined in terms of a(n) rontolumen.
+A(n) quectolumen. Defined as: (1.0/1000.0) × rontolumen + (0).
 
 ```csharp
 public static readonly LuminousFlux Quectolumen;

@@ -3,7 +3,7 @@
 
 ## Masses.MetricTon Field
 
-A(n) metric ton. Defined in terms of a(n) megagram.
+A(n) metric ton. Defined as: (1.0) × megagram + (0).
 
 ```csharp
 public static readonly Mass MetricTon;

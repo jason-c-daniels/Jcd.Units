@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Deciampere Field
 
-A(n) deciampere. Defined in terms of a(n) ampere.
+A(n) deciampere. Defined as: (1.0/10.0) × ampere + (0).
 
 ```csharp
 public static readonly ElectricalCurrent Deciampere;

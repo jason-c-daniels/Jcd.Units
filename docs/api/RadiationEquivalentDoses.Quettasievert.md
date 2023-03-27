@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Quettasievert Field
 
-A(n) quettasievert. Defined in terms of a(n) ronnasievert.
+A(n) quettasievert. Defined as: (1000.0) × ronnasievert + (0).
 
 ```csharp
 public static readonly RadiationEquivalentDose Quettasievert;

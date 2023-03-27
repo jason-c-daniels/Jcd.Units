@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicAttometer Field
 
-A(n) zettagram per cubic attometer. Defined in terms of a(n) exagram per cubic femtometer.
+A(n) zettagram per cubic attometer. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × exagram per cubic femtometer + (0).
 
 ```csharp
 public static readonly Density ZettagramPerCubicAttometer;

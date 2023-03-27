@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attohertz](Frequencies.Attohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Attohertz') | A(n) attohertz. Defined in terms of a(n) femtohertz. |
-| [Centihertz](Frequencies.Centihertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Centihertz') | A(n) centihertz. Defined in terms of a(n) decihertz. |
-| [Decihertz](Frequencies.Decihertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Decihertz') | A(n) decihertz. Defined in terms of a(n) hertz. |
-| [Dekahertz](Frequencies.Dekahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Dekahertz') | A(n) dekahertz. Defined in terms of a(n) hertz. |
-| [Exahertz](Frequencies.Exahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Exahertz') | A(n) exahertz. Defined in terms of a(n) petahertz. |
-| [Femtohertz](Frequencies.Femtohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Femtohertz') | A(n) femtohertz. Defined in terms of a(n) picohertz. |
-| [Gigahertz](Frequencies.Gigahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Gigahertz') | A(n) gigahertz. Defined in terms of a(n) megahertz. |
-| [Hectohertz](Frequencies.Hectohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Hectohertz') | A(n) hectohertz. Defined in terms of a(n) dekahertz. |
+| [Attohertz](Frequencies.Attohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Attohertz') | A(n) attohertz. Defined as: (1.0/1000.0) × femtohertz + (0). |
+| [Centihertz](Frequencies.Centihertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Centihertz') | A(n) centihertz. Defined as: (1.0/10.0) × decihertz + (0). |
+| [Decihertz](Frequencies.Decihertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Decihertz') | A(n) decihertz. Defined as: (1.0/10.0) × hertz + (0). |
+| [Dekahertz](Frequencies.Dekahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Dekahertz') | A(n) dekahertz. Defined as: (10.0) × hertz + (0). |
+| [Exahertz](Frequencies.Exahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Exahertz') | A(n) exahertz. Defined as: (1000.0) × petahertz + (0). |
+| [Femtohertz](Frequencies.Femtohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Femtohertz') | A(n) femtohertz. Defined as: (1.0/1000.0) × picohertz + (0). |
+| [Gigahertz](Frequencies.Gigahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Gigahertz') | A(n) gigahertz. Defined as: (1000.0) × megahertz + (0). |
+| [Hectohertz](Frequencies.Hectohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Hectohertz') | A(n) hectohertz. Defined as: (10.0) × dekahertz + (0). |
 | [Hertz](Frequencies.Hertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Hertz') | A(n) hertz. |
-| [Kilohertz](Frequencies.Kilohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Kilohertz') | A(n) kilohertz. Defined in terms of a(n) hectohertz. |
-| [Megahertz](Frequencies.Megahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Megahertz') | A(n) megahertz. Defined in terms of a(n) kilohertz. |
-| [Microhertz](Frequencies.Microhertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Microhertz') | A(n) microhertz. Defined in terms of a(n) millihertz. |
-| [Millihertz](Frequencies.Millihertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Millihertz') | A(n) millihertz. Defined in terms of a(n) centihertz. |
-| [Nanohertz](Frequencies.Nanohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Nanohertz') | A(n) nanohertz. Defined in terms of a(n) microhertz. |
-| [Petahertz](Frequencies.Petahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Petahertz') | A(n) petahertz. Defined in terms of a(n) terahertz. |
-| [Picohertz](Frequencies.Picohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Picohertz') | A(n) picohertz. Defined in terms of a(n) nanohertz. |
-| [Quectohertz](Frequencies.Quectohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Quectohertz') | A(n) quectohertz. Defined in terms of a(n) rontohertz. |
-| [Quettahertz](Frequencies.Quettahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Quettahertz') | A(n) quettahertz. Defined in terms of a(n) ronnahertz. |
-| [Ronnahertz](Frequencies.Ronnahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Ronnahertz') | A(n) ronnahertz. Defined in terms of a(n) yottahertz. |
-| [Rontohertz](Frequencies.Rontohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Rontohertz') | A(n) rontohertz. Defined in terms of a(n) yoctohertz. |
-| [Terahertz](Frequencies.Terahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Terahertz') | A(n) terahertz. Defined in terms of a(n) gigahertz. |
-| [Yoctohertz](Frequencies.Yoctohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Yoctohertz') | A(n) yoctohertz. Defined in terms of a(n) zeptohertz. |
-| [Yottahertz](Frequencies.Yottahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Yottahertz') | A(n) yottahertz. Defined in terms of a(n) zettahertz. |
-| [Zeptohertz](Frequencies.Zeptohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Zeptohertz') | A(n) zeptohertz. Defined in terms of a(n) attohertz. |
-| [Zettahertz](Frequencies.Zettahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Zettahertz') | A(n) zettahertz. Defined in terms of a(n) exahertz. |
+| [Kilohertz](Frequencies.Kilohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Kilohertz') | A(n) kilohertz. Defined as: (10.0) × hectohertz + (0). |
+| [Megahertz](Frequencies.Megahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Megahertz') | A(n) megahertz. Defined as: (1000.0) × kilohertz + (0). |
+| [Microhertz](Frequencies.Microhertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Microhertz') | A(n) microhertz. Defined as: (1.0/1000.0) × millihertz + (0). |
+| [Millihertz](Frequencies.Millihertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Millihertz') | A(n) millihertz. Defined as: (1.0/10.0) × centihertz + (0). |
+| [Nanohertz](Frequencies.Nanohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Nanohertz') | A(n) nanohertz. Defined as: (1.0/1000.0) × microhertz + (0). |
+| [Petahertz](Frequencies.Petahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Petahertz') | A(n) petahertz. Defined as: (1000.0) × terahertz + (0). |
+| [Picohertz](Frequencies.Picohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Picohertz') | A(n) picohertz. Defined as: (1.0/1000.0) × nanohertz + (0). |
+| [Quectohertz](Frequencies.Quectohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Quectohertz') | A(n) quectohertz. Defined as: (1.0/1000.0) × rontohertz + (0). |
+| [Quettahertz](Frequencies.Quettahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Quettahertz') | A(n) quettahertz. Defined as: (1000.0) × ronnahertz + (0). |
+| [Ronnahertz](Frequencies.Ronnahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Ronnahertz') | A(n) ronnahertz. Defined as: (1000.0) × yottahertz + (0). |
+| [Rontohertz](Frequencies.Rontohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Rontohertz') | A(n) rontohertz. Defined as: (1.0/1000.0) × yoctohertz + (0). |
+| [Terahertz](Frequencies.Terahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Terahertz') | A(n) terahertz. Defined as: (1000.0) × gigahertz + (0). |
+| [Yoctohertz](Frequencies.Yoctohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Yoctohertz') | A(n) yoctohertz. Defined as: (1.0/1000.0) × zeptohertz + (0). |
+| [Yottahertz](Frequencies.Yottahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Yottahertz') | A(n) yottahertz. Defined as: (1000.0) × zettahertz + (0). |
+| [Zeptohertz](Frequencies.Zeptohertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Zeptohertz') | A(n) zeptohertz. Defined as: (1.0/1000.0) × attohertz + (0). |
+| [Zettahertz](Frequencies.Zettahertz.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies.Zettahertz') | A(n) zettahertz. Defined as: (1000.0) × exahertz + (0). |

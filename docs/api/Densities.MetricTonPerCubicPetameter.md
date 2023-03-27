@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicPetameter Field
 
-A(n) metric ton per cubic petameter. Defined in terms of a(n) megagram per cubic terameter.
+A(n) metric ton per cubic petameter. Defined as: ((1.0)/((1000.0)*(1000.0)*(1000.0))) × megagram per cubic terameter + (0).
 
 ```csharp
 public static readonly Density MetricTonPerCubicPetameter;

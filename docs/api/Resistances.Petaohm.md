@@ -3,7 +3,7 @@
 
 ## Resistances.Petaohm Field
 
-A(n) petaohm. Defined in terms of a(n) teraohm.
+A(n) petaohm. Defined as: (1000.0) × teraohm + (0).
 
 ```csharp
 public static readonly Resistance Petaohm;

@@ -3,7 +3,7 @@
 
 ## Forces.Piconewton Field
 
-A(n) piconewton. Defined in terms of a(n) nanonewton.
+A(n) piconewton. Defined as: (1.0/1000.0) × nanonewton + (0).
 
 ```csharp
 public static readonly Force Piconewton;

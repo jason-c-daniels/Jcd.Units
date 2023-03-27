@@ -3,7 +3,7 @@
 
 ## Lengths.AstronomicalUnit Field
 
-A(n) astronomical unit. Defined in terms of a(n) SI kilometer.
+A(n) astronomical unit. Defined as: (149597870.691) × SI kilometer + (0).
 
 ```csharp
 public static readonly Length AstronomicalUnit;

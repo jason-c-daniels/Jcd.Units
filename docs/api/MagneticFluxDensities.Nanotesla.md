@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Nanotesla Field
 
-A(n) nanotesla. Defined in terms of a(n) microtesla.
+A(n) nanotesla. Defined as: (1.0/1000.0) × microtesla + (0).
 
 ```csharp
 public static readonly MagneticFluxDensity Nanotesla;

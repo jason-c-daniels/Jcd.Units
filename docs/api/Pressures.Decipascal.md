@@ -3,7 +3,7 @@
 
 ## Pressures.Decipascal Field
 
-A(n) decipascal. Defined in terms of a(n) pascal.
+A(n) decipascal. Defined as: (1.0/10.0) × pascal + (0).
 
 ```csharp
 public static readonly Pressure Decipascal;

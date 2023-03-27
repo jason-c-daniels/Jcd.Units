@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Microgray Field
 
-A(n) microgray. Defined in terms of a(n) milligray.
+A(n) microgray. Defined as: (1.0/1000.0) × milligray + (0).
 
 ```csharp
 public static readonly RadiationAbsorbedDose Microgray;

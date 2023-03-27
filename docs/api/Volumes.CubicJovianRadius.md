@@ -3,7 +3,7 @@
 
 ## Volumes.CubicJovianRadius Field
 
-A(n) cubic jovian radius. Defined in terms of a(n) SI cubic kilometer.
+A(n) cubic jovian radius. Defined as: ((69_911.0)*(69_911.0)*(69_911.0)) × SI cubic kilometer + (0).
 
 ```csharp
 public static readonly Volume CubicJovianRadius;

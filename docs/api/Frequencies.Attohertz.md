@@ -3,7 +3,7 @@
 
 ## Frequencies.Attohertz Field
 
-A(n) attohertz. Defined in terms of a(n) femtohertz.
+A(n) attohertz. Defined as: (1.0/1000.0) × femtohertz + (0).
 
 ```csharp
 public static readonly Frequency Attohertz;

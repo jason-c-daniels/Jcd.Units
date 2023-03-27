@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicKilometer Field
 
-A(n) gigagram per cubic kilometer. Defined in terms of a(n) megagram per cubic hectometer.
+A(n) gigagram per cubic kilometer. Defined as: ((1000.0)/((10.0)*(10.0)*(10.0))) × megagram per cubic hectometer + (0).
 
 ```csharp
 public static readonly Density GigagramPerCubicKilometer;

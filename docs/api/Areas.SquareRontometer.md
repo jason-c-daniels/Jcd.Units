@@ -3,7 +3,7 @@
 
 ## Areas.SquareRontometer Field
 
-A(n) square rontometer. Defined in terms of a(n) square yoctometer.
+A(n) square rontometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square yoctometer + (0).
 
 ```csharp
 public static readonly Area SquareRontometer;

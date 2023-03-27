@@ -3,7 +3,7 @@
 
 ## Frequencies.Terahertz Field
 
-A(n) terahertz. Defined in terms of a(n) gigahertz.
+A(n) terahertz. Defined as: (1000.0) × gigahertz + (0).
 
 ```csharp
 public static readonly Frequency Terahertz;

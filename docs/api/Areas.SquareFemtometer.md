@@ -3,7 +3,7 @@
 
 ## Areas.SquareFemtometer Field
 
-A(n) square femtometer. Defined in terms of a(n) square picometer.
+A(n) square femtometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square picometer + (0).
 
 ```csharp
 public static readonly Area SquareFemtometer;

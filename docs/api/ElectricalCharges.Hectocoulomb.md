@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Hectocoulomb Field
 
-A(n) hectocoulomb. Defined in terms of a(n) dekacoulomb.
+A(n) hectocoulomb. Defined as: (10.0) × dekacoulomb + (0).
 
 ```csharp
 public static readonly ElectricalCharge Hectocoulomb;

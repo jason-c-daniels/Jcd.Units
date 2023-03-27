@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesFahrenheit Field
 
-A(n) degrees fahrenheit. Defined in terms of a(n) SI degrees celcius.
+A(n) degrees fahrenheit. Defined as: (5.0/9.0) × SI degrees celcius + (-32.0).
 
 ```csharp
 public static readonly Temperature DegreesFahrenheit;

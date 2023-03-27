@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Kilokatal Field
 
-A(n) kilokatal. Defined in terms of a(n) hectokatal.
+A(n) kilokatal. Defined as: (10.0) × hectokatal + (0).
 
 ```csharp
 public static readonly CatalyticActivity Kilokatal;

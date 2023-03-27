@@ -3,7 +3,7 @@
 
 ## Energies.Calorie Field
 
-A(n) calorie. Defined in terms of a(n) joule.
+A(n) calorie. Defined as: (4.184) × joule + (0).
 
 ```csharp
 public static readonly Energy Calorie;

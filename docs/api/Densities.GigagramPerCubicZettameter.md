@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicZettameter Field
 
-A(n) gigagram per cubic zettameter. Defined in terms of a(n) megagram per cubic exameter.
+A(n) gigagram per cubic zettameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × megagram per cubic exameter + (0).
 
 ```csharp
 public static readonly Density GigagramPerCubicZettameter;

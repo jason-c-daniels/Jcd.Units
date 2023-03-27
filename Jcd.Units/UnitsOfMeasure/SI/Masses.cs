@@ -23,127 +23,127 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
    public static readonly Mass Kilogram = new ("kilogram", "kg");
 
    /// <summary>
-   /// A(n) hectogram. Defined in terms of a(n) kilogram.
+   /// A(n) hectogram. Defined as: (1.0/10.0) × kilogram + (0).
    /// </summary>
    public static readonly Mass Hectogram = new ("hectogram", "hg", Kilogram, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) dekagram. Defined in terms of a(n) hectogram.
+   /// A(n) dekagram. Defined as: (1.0/10.0) × hectogram + (0).
    /// </summary>
    public static readonly Mass Dekagram = new ("dekagram", "dag", Hectogram, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) gram. Defined in terms of a(n) dekagram.
+   /// A(n) gram. Defined as: (1.0/10.0) × dekagram + (0).
    /// </summary>
    public static readonly Mass Gram = new ("gram", "g", Dekagram, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) decigram. Defined in terms of a(n) gram.
+   /// A(n) decigram. Defined as: (1.0/10.0) × gram + (0).
    /// </summary>
    public static readonly Mass Decigram = new ("decigram", "dg", Gram, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) centigram. Defined in terms of a(n) decigram.
+   /// A(n) centigram. Defined as: (1.0/10.0) × decigram + (0).
    /// </summary>
    public static readonly Mass Centigram = new ("centigram", "cg", Decigram, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) milligram. Defined in terms of a(n) centigram.
+   /// A(n) milligram. Defined as: (1.0/10.0) × centigram + (0).
    /// </summary>
    public static readonly Mass Milligram = new ("milligram", "mg", Centigram, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) microgram. Defined in terms of a(n) milligram.
+   /// A(n) microgram. Defined as: (1.0/1000.0) × milligram + (0).
    /// </summary>
    public static readonly Mass Microgram = new ("microgram", "μg", Milligram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) nanogram. Defined in terms of a(n) microgram.
+   /// A(n) nanogram. Defined as: (1.0/1000.0) × microgram + (0).
    /// </summary>
    public static readonly Mass Nanogram = new ("nanogram", "ng", Microgram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) picogram. Defined in terms of a(n) nanogram.
+   /// A(n) picogram. Defined as: (1.0/1000.0) × nanogram + (0).
    /// </summary>
    public static readonly Mass Picogram = new ("picogram", "pg", Nanogram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) femtogram. Defined in terms of a(n) picogram.
+   /// A(n) femtogram. Defined as: (1.0/1000.0) × picogram + (0).
    /// </summary>
    public static readonly Mass Femtogram = new ("femtogram", "fg", Picogram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) attogram. Defined in terms of a(n) femtogram.
+   /// A(n) attogram. Defined as: (1.0/1000.0) × femtogram + (0).
    /// </summary>
    public static readonly Mass Attogram = new ("attogram", "ag", Femtogram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) zeptogram. Defined in terms of a(n) attogram.
+   /// A(n) zeptogram. Defined as: (1.0/1000.0) × attogram + (0).
    /// </summary>
    public static readonly Mass Zeptogram = new ("zeptogram", "zg", Attogram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) yoctogram. Defined in terms of a(n) zeptogram.
+   /// A(n) yoctogram. Defined as: (1.0/1000.0) × zeptogram + (0).
    /// </summary>
    public static readonly Mass Yoctogram = new ("yoctogram", "yg", Zeptogram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) rontogram. Defined in terms of a(n) yoctogram.
+   /// A(n) rontogram. Defined as: (1.0/1000.0) × yoctogram + (0).
    /// </summary>
    public static readonly Mass Rontogram = new ("rontogram", "rg", Yoctogram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) quectogram. Defined in terms of a(n) rontogram.
+   /// A(n) quectogram. Defined as: (1.0/1000.0) × rontogram + (0).
    /// </summary>
    public static readonly Mass Quectogram = new ("quectogram", "qg", Rontogram, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) megagram. Defined in terms of a(n) kilogram.
+   /// A(n) megagram. Defined as: (1000.0) × kilogram + (0).
    /// </summary>
    public static readonly Mass Megagram = new ("megagram", "Mg", Kilogram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) gigagram. Defined in terms of a(n) megagram.
+   /// A(n) gigagram. Defined as: (1000.0) × megagram + (0).
    /// </summary>
    public static readonly Mass Gigagram = new ("gigagram", "Gg", Megagram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) teragram. Defined in terms of a(n) gigagram.
+   /// A(n) teragram. Defined as: (1000.0) × gigagram + (0).
    /// </summary>
    public static readonly Mass Teragram = new ("teragram", "Tg", Gigagram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) petagram. Defined in terms of a(n) teragram.
+   /// A(n) petagram. Defined as: (1000.0) × teragram + (0).
    /// </summary>
    public static readonly Mass Petagram = new ("petagram", "Pg", Teragram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) exagram. Defined in terms of a(n) petagram.
+   /// A(n) exagram. Defined as: (1000.0) × petagram + (0).
    /// </summary>
    public static readonly Mass Exagram = new ("exagram", "Eg", Petagram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) zettagram. Defined in terms of a(n) exagram.
+   /// A(n) zettagram. Defined as: (1000.0) × exagram + (0).
    /// </summary>
    public static readonly Mass Zettagram = new ("zettagram", "Zg", Exagram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) yottagram. Defined in terms of a(n) zettagram.
+   /// A(n) yottagram. Defined as: (1000.0) × zettagram + (0).
    /// </summary>
    public static readonly Mass Yottagram = new ("yottagram", "Yg", Zettagram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) ronnagram. Defined in terms of a(n) yottagram.
+   /// A(n) ronnagram. Defined as: (1000.0) × yottagram + (0).
    /// </summary>
    public static readonly Mass Ronnagram = new ("ronnagram", "Rg", Yottagram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) quettagram. Defined in terms of a(n) ronnagram.
+   /// A(n) quettagram. Defined as: (1000.0) × ronnagram + (0).
    /// </summary>
    public static readonly Mass Quettagram = new ("quettagram", "Qg", Ronnagram, 1000.0, 0);
 
    /// <summary>
-   /// A(n) metric ton. Defined in terms of a(n) megagram.
+   /// A(n) metric ton. Defined as: (1.0) × megagram + (0).
    /// </summary>
    public static readonly Mass MetricTon = new ("metric ton", "mt", Megagram, 1.0, 0);
 }

@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicTerameter Field
 
-A(n) zettagram per cubic terameter. Defined in terms of a(n) exagram per cubic gigameter.
+A(n) zettagram per cubic terameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × exagram per cubic gigameter + (0).
 
 ```csharp
 public static readonly Density ZettagramPerCubicTerameter;

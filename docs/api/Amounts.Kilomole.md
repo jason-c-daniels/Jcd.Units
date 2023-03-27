@@ -3,7 +3,7 @@
 
 ## Amounts.Kilomole Field
 
-A(n) kilomole. Defined in terms of a(n) hectomole.
+A(n) kilomole. Defined as: (10.0) × hectomole + (0).
 
 ```csharp
 public static readonly Amount Kilomole;

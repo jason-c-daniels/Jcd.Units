@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Hectokatal Field
 
-A(n) hectokatal. Defined in terms of a(n) dekakatal.
+A(n) hectokatal. Defined as: (10.0) × dekakatal + (0).
 
 ```csharp
 public static readonly CatalyticActivity Hectokatal;

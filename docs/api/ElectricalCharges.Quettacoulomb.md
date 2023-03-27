@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Quettacoulomb Field
 
-A(n) quettacoulomb. Defined in terms of a(n) ronnacoulomb.
+A(n) quettacoulomb. Defined as: (1000.0) × ronnacoulomb + (0).
 
 ```csharp
 public static readonly ElectricalCharge Quettacoulomb;

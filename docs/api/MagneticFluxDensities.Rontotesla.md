@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Rontotesla Field
 
-A(n) rontotesla. Defined in terms of a(n) yoctotesla.
+A(n) rontotesla. Defined as: (1.0/1000.0) × yoctotesla + (0).
 
 ```csharp
 public static readonly MagneticFluxDensity Rontotesla;

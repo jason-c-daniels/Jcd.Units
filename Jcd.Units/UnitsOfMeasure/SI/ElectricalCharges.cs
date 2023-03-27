@@ -23,122 +23,122 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
    public static readonly ElectricalCharge Coulomb = new ("coulomb", "C");
 
    /// <summary>
-   /// A(n) decicoulomb. Defined in terms of a(n) coulomb.
+   /// A(n) decicoulomb. Defined as: (1.0/10.0) × coulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Decicoulomb = new ("decicoulomb", "dC", Coulomb, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) centicoulomb. Defined in terms of a(n) decicoulomb.
+   /// A(n) centicoulomb. Defined as: (1.0/10.0) × decicoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Centicoulomb = new ("centicoulomb", "cC", Decicoulomb, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) millicoulomb. Defined in terms of a(n) centicoulomb.
+   /// A(n) millicoulomb. Defined as: (1.0/10.0) × centicoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Millicoulomb = new ("millicoulomb", "mC", Centicoulomb, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) microcoulomb. Defined in terms of a(n) millicoulomb.
+   /// A(n) microcoulomb. Defined as: (1.0/1000.0) × millicoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Microcoulomb = new ("microcoulomb", "μC", Millicoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) nanocoulomb. Defined in terms of a(n) microcoulomb.
+   /// A(n) nanocoulomb. Defined as: (1.0/1000.0) × microcoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Nanocoulomb = new ("nanocoulomb", "nC", Microcoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) picocoulomb. Defined in terms of a(n) nanocoulomb.
+   /// A(n) picocoulomb. Defined as: (1.0/1000.0) × nanocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Picocoulomb = new ("picocoulomb", "pC", Nanocoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) femtocoulomb. Defined in terms of a(n) picocoulomb.
+   /// A(n) femtocoulomb. Defined as: (1.0/1000.0) × picocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Femtocoulomb = new ("femtocoulomb", "fC", Picocoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) attocoulomb. Defined in terms of a(n) femtocoulomb.
+   /// A(n) attocoulomb. Defined as: (1.0/1000.0) × femtocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Attocoulomb = new ("attocoulomb", "aC", Femtocoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) zeptocoulomb. Defined in terms of a(n) attocoulomb.
+   /// A(n) zeptocoulomb. Defined as: (1.0/1000.0) × attocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Zeptocoulomb = new ("zeptocoulomb", "zC", Attocoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) yoctocoulomb. Defined in terms of a(n) zeptocoulomb.
+   /// A(n) yoctocoulomb. Defined as: (1.0/1000.0) × zeptocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Yoctocoulomb = new ("yoctocoulomb", "yC", Zeptocoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) rontocoulomb. Defined in terms of a(n) yoctocoulomb.
+   /// A(n) rontocoulomb. Defined as: (1.0/1000.0) × yoctocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Rontocoulomb = new ("rontocoulomb", "rC", Yoctocoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) quectocoulomb. Defined in terms of a(n) rontocoulomb.
+   /// A(n) quectocoulomb. Defined as: (1.0/1000.0) × rontocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Quectocoulomb = new ("quectocoulomb", "qC", Rontocoulomb, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) dekacoulomb. Defined in terms of a(n) coulomb.
+   /// A(n) dekacoulomb. Defined as: (10.0) × coulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Dekacoulomb = new ("dekacoulomb", "daC", Coulomb, 10.0, 0);
 
    /// <summary>
-   /// A(n) hectocoulomb. Defined in terms of a(n) dekacoulomb.
+   /// A(n) hectocoulomb. Defined as: (10.0) × dekacoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Hectocoulomb = new ("hectocoulomb", "hC", Dekacoulomb, 10.0, 0);
 
    /// <summary>
-   /// A(n) kilocoulomb. Defined in terms of a(n) hectocoulomb.
+   /// A(n) kilocoulomb. Defined as: (10.0) × hectocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Kilocoulomb = new ("kilocoulomb", "kC", Hectocoulomb, 10.0, 0);
 
    /// <summary>
-   /// A(n) megacoulomb. Defined in terms of a(n) kilocoulomb.
+   /// A(n) megacoulomb. Defined as: (1000.0) × kilocoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Megacoulomb = new ("megacoulomb", "MC", Kilocoulomb, 1000.0, 0);
 
    /// <summary>
-   /// A(n) gigacoulomb. Defined in terms of a(n) megacoulomb.
+   /// A(n) gigacoulomb. Defined as: (1000.0) × megacoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Gigacoulomb = new ("gigacoulomb", "GC", Megacoulomb, 1000.0, 0);
 
    /// <summary>
-   /// A(n) teracoulomb. Defined in terms of a(n) gigacoulomb.
+   /// A(n) teracoulomb. Defined as: (1000.0) × gigacoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Teracoulomb = new ("teracoulomb", "TC", Gigacoulomb, 1000.0, 0);
 
    /// <summary>
-   /// A(n) petacoulomb. Defined in terms of a(n) teracoulomb.
+   /// A(n) petacoulomb. Defined as: (1000.0) × teracoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Petacoulomb = new ("petacoulomb", "PC", Teracoulomb, 1000.0, 0);
 
    /// <summary>
-   /// A(n) exacoulomb. Defined in terms of a(n) petacoulomb.
+   /// A(n) exacoulomb. Defined as: (1000.0) × petacoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Exacoulomb = new ("exacoulomb", "EC", Petacoulomb, 1000.0, 0);
 
    /// <summary>
-   /// A(n) zettacoulomb. Defined in terms of a(n) exacoulomb.
+   /// A(n) zettacoulomb. Defined as: (1000.0) × exacoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Zettacoulomb = new ("zettacoulomb", "ZC", Exacoulomb, 1000.0, 0);
 
    /// <summary>
-   /// A(n) yottacoulomb. Defined in terms of a(n) zettacoulomb.
+   /// A(n) yottacoulomb. Defined as: (1000.0) × zettacoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Yottacoulomb = new ("yottacoulomb", "YC", Zettacoulomb, 1000.0, 0);
 
    /// <summary>
-   /// A(n) ronnacoulomb. Defined in terms of a(n) yottacoulomb.
+   /// A(n) ronnacoulomb. Defined as: (1000.0) × yottacoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Ronnacoulomb = new ("ronnacoulomb", "RC", Yottacoulomb, 1000.0, 0);
 
    /// <summary>
-   /// A(n) quettacoulomb. Defined in terms of a(n) ronnacoulomb.
+   /// A(n) quettacoulomb. Defined as: (1000.0) × ronnacoulomb + (0).
    /// </summary>
    public static readonly ElectricalCharge Quettacoulomb = new ("quettacoulomb", "QC", Ronnacoulomb, 1000.0, 0);
 }

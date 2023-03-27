@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicKilometer Field
 
-A(n) milligram per cubic kilometer. Defined in terms of a(n) centigram per cubic hectometer.
+A(n) milligram per cubic kilometer. Defined as: ((1.0/10.0)/((10.0)*(10.0)*(10.0))) × centigram per cubic hectometer + (0).
 
 ```csharp
 public static readonly Density MilligramPerCubicKilometer;

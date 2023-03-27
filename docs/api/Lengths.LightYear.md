@@ -3,7 +3,7 @@
 
 ## Lengths.LightYear Field
 
-A(n) light-year. Defined in terms of a(n) SI meter.
+A(n) light-year. Defined as: (9_460_730_472_580_800.0) × SI meter + (0).
 
 ```csharp
 public static readonly Length LightYear;

@@ -3,7 +3,7 @@
 
 ## Volumes.Ronnaliter Field
 
-A(n) ronnaliter. Defined in terms of a(n) yottaliter.
+A(n) ronnaliter. Defined as: (1000.0) × yottaliter + (0).
 
 ```csharp
 public static readonly Volume Ronnaliter;

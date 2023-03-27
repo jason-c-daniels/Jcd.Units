@@ -3,7 +3,7 @@
 
 ## Amounts.Centimole Field
 
-A(n) centimole. Defined in terms of a(n) decimole.
+A(n) centimole. Defined as: (1.0/10.0) × decimole + (0).
 
 ```csharp
 public static readonly Amount Centimole;

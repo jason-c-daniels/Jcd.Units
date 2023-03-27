@@ -3,7 +3,7 @@
 
 ## Resistances.Hectoohm Field
 
-A(n) hectoohm. Defined in terms of a(n) dekaohm.
+A(n) hectoohm. Defined as: (10.0) × dekaohm + (0).
 
 ```csharp
 public static readonly Resistance Hectoohm;

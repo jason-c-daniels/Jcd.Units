@@ -3,7 +3,7 @@
 
 ## Volumes.Quarter Field
 
-A(n) quarter. Defined in terms of a(n) bushel.
+A(n) quarter. Defined as: (8.0) × bushel + (0).
 
 ```csharp
 public static readonly Volume Quarter;

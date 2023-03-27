@@ -3,7 +3,7 @@
 
 ## Inductances.Dekahenry Field
 
-A(n) dekahenry. Defined in terms of a(n) henry.
+A(n) dekahenry. Defined as: (10.0) × henry + (0).
 
 ```csharp
 public static readonly Inductance Dekahenry;

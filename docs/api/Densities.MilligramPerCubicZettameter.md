@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicZettameter Field
 
-A(n) milligram per cubic zettameter. Defined in terms of a(n) centigram per cubic exameter.
+A(n) milligram per cubic zettameter. Defined as: ((1.0/10.0)/((1000.0)*(1000.0)*(1000.0))) × centigram per cubic exameter + (0).
 
 ```csharp
 public static readonly Density MilligramPerCubicZettameter;

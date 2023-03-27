@@ -3,7 +3,7 @@
 
 ## Powers.Terawatt Field
 
-A(n) terawatt. Defined in terms of a(n) gigawatt.
+A(n) terawatt. Defined as: (1000.0) × gigawatt + (0).
 
 ```csharp
 public static readonly Power Terawatt;

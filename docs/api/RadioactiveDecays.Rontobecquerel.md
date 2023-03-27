@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Rontobecquerel Field
 
-A(n) rontobecquerel. Defined in terms of a(n) yoctobecquerel.
+A(n) rontobecquerel. Defined as: (1.0/1000.0) × yoctobecquerel + (0).
 
 ```csharp
 public static readonly RadioactiveDecay Rontobecquerel;

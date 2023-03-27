@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMillimeter Field
 
-A(n) cubic millimeter. Defined in terms of a(n) cubic centimeter.
+A(n) cubic millimeter. Defined as: ((1.0/10.0)*(1.0/10.0)*(1.0/10.0)) × cubic centimeter + (0).
 
 ```csharp
 public static readonly Volume CubicMillimeter;

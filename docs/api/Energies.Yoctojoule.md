@@ -3,7 +3,7 @@
 
 ## Energies.Yoctojoule Field
 
-A(n) yoctojoule. Defined in terms of a(n) zeptojoule.
+A(n) yoctojoule. Defined as: (1.0/1000.0) × zeptojoule + (0).
 
 ```csharp
 public static readonly Energy Yoctojoule;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Rontokatal Field
 
-A(n) rontokatal. Defined in terms of a(n) yoctokatal.
+A(n) rontokatal. Defined as: (1.0/1000.0) × yoctokatal + (0).
 
 ```csharp
 public static readonly CatalyticActivity Rontokatal;

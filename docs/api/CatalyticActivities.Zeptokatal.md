@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Zeptokatal Field
 
-A(n) zeptokatal. Defined in terms of a(n) attokatal.
+A(n) zeptokatal. Defined as: (1.0/1000.0) × attokatal + (0).
 
 ```csharp
 public static readonly CatalyticActivity Zeptokatal;

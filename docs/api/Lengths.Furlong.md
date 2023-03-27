@@ -3,7 +3,7 @@
 
 ## Lengths.Furlong Field
 
-A(n) furlong. Defined in terms of a(n) chain.
+A(n) furlong. Defined as: (10.0) × chain + (0).
 
 ```csharp
 public static readonly Length Furlong;

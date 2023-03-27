@@ -3,7 +3,7 @@
 
 ## Amounts.BillionQuantity Field
 
-A(n) billion quantity. Defined in terms of a(n) million quantity.
+A(n) billion quantity. Defined as: (1_000_000.0) × million quantity + (0).
 
 ```csharp
 public static readonly Amount BillionQuantity;

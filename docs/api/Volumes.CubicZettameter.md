@@ -3,7 +3,7 @@
 
 ## Volumes.CubicZettameter Field
 
-A(n) cubic zettameter. Defined in terms of a(n) cubic exameter.
+A(n) cubic zettameter. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic exameter + (0).
 
 ```csharp
 public static readonly Volume CubicZettameter;

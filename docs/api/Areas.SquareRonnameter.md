@@ -3,7 +3,7 @@
 
 ## Areas.SquareRonnameter Field
 
-A(n) square ronnameter. Defined in terms of a(n) square yottameter.
+A(n) square ronnameter. Defined as: ((1000.0)*(1000.0)) × square yottameter + (0).
 
 ```csharp
 public static readonly Area SquareRonnameter;

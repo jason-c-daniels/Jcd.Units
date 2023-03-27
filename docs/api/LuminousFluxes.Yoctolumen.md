@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Yoctolumen Field
 
-A(n) yoctolumen. Defined in terms of a(n) zeptolumen.
+A(n) yoctolumen. Defined as: (1.0/1000.0) × zeptolumen + (0).
 
 ```csharp
 public static readonly LuminousFlux Yoctolumen;

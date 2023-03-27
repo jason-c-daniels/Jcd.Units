@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicNanometer Field
 
-A(n) quettagram per cubic nanometer. Defined in terms of a(n) ronnagram per cubic micrometer.
+A(n) quettagram per cubic nanometer. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × ronnagram per cubic micrometer + (0).
 
 ```csharp
 public static readonly Density QuettagramPerCubicNanometer;

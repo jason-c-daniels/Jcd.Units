@@ -3,7 +3,7 @@
 
 ## Areas.SquareTerameter Field
 
-A(n) square terameter. Defined in terms of a(n) square gigameter.
+A(n) square terameter. Defined as: ((1000.0)*(1000.0)) × square gigameter + (0).
 
 ```csharp
 public static readonly Area SquareTerameter;

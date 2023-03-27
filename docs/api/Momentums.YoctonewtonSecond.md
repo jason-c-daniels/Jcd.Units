@@ -3,7 +3,7 @@
 
 ## Momentums.YoctonewtonSecond Field
 
-A(n) yoctonewton-second. Defined in terms of a(n) zeptonewton-second.
+A(n) yoctonewton-second. Defined as: (1.0/1000.0) × zeptonewton-second + (0).
 
 ```csharp
 public static readonly Momentum YoctonewtonSecond;

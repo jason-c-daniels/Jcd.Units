@@ -3,7 +3,7 @@
 
 ## Pressures.Ronnapascal Field
 
-A(n) ronnapascal. Defined in terms of a(n) yottapascal.
+A(n) ronnapascal. Defined as: (1000.0) × yottapascal + (0).
 
 ```csharp
 public static readonly Pressure Ronnapascal;

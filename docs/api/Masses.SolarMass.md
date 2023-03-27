@@ -3,7 +3,7 @@
 
 ## Masses.SolarMass Field
 
-A(n) solar mass. Defined in terms of a(n) SI kilogram.
+A(n) solar mass. Defined as: (1.989E+30) × SI kilogram + (0).
 
 ```csharp
 public static readonly Mass SolarMass;

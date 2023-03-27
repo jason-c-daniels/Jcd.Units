@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure;
 public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
 {
    /// <summary>
-   /// A(n) degrees rankine. Defined in terms of a(n) SI degrees kelvin.
+   /// A(n) degrees rankine. Defined as: (5.0/9.0) × SI degrees kelvin + (0).
    /// </summary>
    public static readonly Temperature DegreesRankine = new (
                                                             "degrees rankine"
@@ -29,7 +29,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                            );
 
    /// <summary>
-   /// A(n) degrees delisle. Defined in terms of a(n) SI degrees celcius.
+   /// A(n) degrees delisle. Defined as: (1.0/1.5) × SI degrees celcius + (100.0).
    /// </summary>
    public static readonly Temperature DegreesDelisle = new (
                                                             "degrees delisle"
@@ -40,7 +40,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                            );
 
    /// <summary>
-   /// A(n) degrees newton. Defined in terms of a(n) SI degrees celcius.
+   /// A(n) degrees newton. Defined as: (100.0/33.0) × SI degrees celcius + (0).
    /// </summary>
    public static readonly Temperature DegreesNewton = new (
                                                            "degrees newton"
@@ -51,7 +51,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                           );
 
    /// <summary>
-   /// A(n) degrees réaumur. Defined in terms of a(n) SI degrees celcius.
+   /// A(n) degrees réaumur. Defined as: (5.0/4.0) × SI degrees celcius + (0).
    /// </summary>
    public static readonly Temperature DegreesRéaumur = new (
                                                             "degrees réaumur"
@@ -62,7 +62,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                            );
 
    /// <summary>
-   /// A(n) degrees rømer. Defined in terms of a(n) SI degrees celcius.
+   /// A(n) degrees rømer. Defined as: (40.0/21.0) × SI degrees celcius + (-7.5).
    /// </summary>
    public static readonly Temperature DegreesRømer = new (
                                                           "degrees rømer"

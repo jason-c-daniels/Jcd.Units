@@ -3,7 +3,7 @@
 
 ## Volumes.Centiliter Field
 
-A(n) centiliter. Defined in terms of a(n) deciliter.
+A(n) centiliter. Defined as: (1.0/10.0) × deciliter + (0).
 
 ```csharp
 public static readonly Volume Centiliter;

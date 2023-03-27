@@ -3,7 +3,7 @@
 
 ## Durations.Millennium Field
 
-A(n) millennium. Defined in terms of a(n) century.
+A(n) millennium. Defined as: (10.0) × century + (0).
 
 ```csharp
 public static readonly Duration Millennium;

@@ -3,7 +3,7 @@
 
 ## Areas.SquareSolarCircumference Field
 
-A(n) square solar circumference. Defined in terms of a(n) square solar diameter.
+A(n) square solar circumference. Defined as: ((Math.PI)*(Math.PI)) × square solar diameter + (0).
 
 ```csharp
 public static readonly Area SquareSolarCircumference;

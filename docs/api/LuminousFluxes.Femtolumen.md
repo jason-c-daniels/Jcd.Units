@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Femtolumen Field
 
-A(n) femtolumen. Defined in terms of a(n) picolumen.
+A(n) femtolumen. Defined as: (1.0/1000.0) × picolumen + (0).
 
 ```csharp
 public static readonly LuminousFlux Femtolumen;

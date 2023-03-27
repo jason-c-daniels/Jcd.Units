@@ -3,7 +3,7 @@
 
 ## Areas.SquareMarsDiameter Field
 
-A(n) square mars diameter. Defined in terms of a(n) square mars radius.
+A(n) square mars diameter. Defined as: ((2.0)*(2.0)) × square mars radius + (0).
 
 ```csharp
 public static readonly Area SquareMarsDiameter;

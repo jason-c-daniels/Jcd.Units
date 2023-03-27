@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicKilometer Field
 
-A(n) petagram per cubic kilometer. Defined in terms of a(n) teragram per cubic hectometer.
+A(n) petagram per cubic kilometer. Defined as: ((1000.0)/((10.0)*(10.0)*(10.0))) × teragram per cubic hectometer + (0).
 
 ```csharp
 public static readonly Density PetagramPerCubicKilometer;

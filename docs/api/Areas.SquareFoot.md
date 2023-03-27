@@ -3,7 +3,7 @@
 
 ## Areas.SquareFoot Field
 
-A(n) square foot. Defined in terms of a(n) square inch.
+A(n) square foot. Defined as: ((12)*(12)) × square inch + (0).
 
 ```csharp
 public static readonly Area SquareFoot;

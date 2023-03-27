@@ -3,7 +3,7 @@
 
 ## Areas.Perch Field
 
-A(n) perch. Defined in terms of a(n) square foot.
+A(n) perch. Defined as: (272.25) × square foot + (0).
 
 ```csharp
 public static readonly Area Perch;

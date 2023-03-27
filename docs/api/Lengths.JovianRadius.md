@@ -3,7 +3,7 @@
 
 ## Lengths.JovianRadius Field
 
-A(n) jovian radius. Defined in terms of a(n) SI kilometer.
+A(n) jovian radius. Defined as: (69_911.0) × SI kilometer + (0).
 
 ```csharp
 public static readonly Length JovianRadius;

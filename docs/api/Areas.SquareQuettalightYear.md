@@ -3,7 +3,7 @@
 
 ## Areas.SquareQuettalightYear Field
 
-A(n) square quettalight-year. Defined in terms of a(n) square ronnalight-year.
+A(n) square quettalight-year. Defined as: ((1000.0)*(1000.0)) × square ronnalight-year + (0).
 
 ```csharp
 public static readonly Area SquareQuettalightYear;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicFemtometer Field
 
-A(n) cubic femtometer. Defined in terms of a(n) cubic picometer.
+A(n) cubic femtometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × cubic picometer + (0).
 
 ```csharp
 public static readonly Volume CubicFemtometer;

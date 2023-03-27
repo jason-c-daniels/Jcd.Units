@@ -3,7 +3,7 @@
 
 ## Powers.Milliwatt Field
 
-A(n) milliwatt. Defined in terms of a(n) centiwatt.
+A(n) milliwatt. Defined as: (1.0/10.0) × centiwatt + (0).
 
 ```csharp
 public static readonly Power Milliwatt;

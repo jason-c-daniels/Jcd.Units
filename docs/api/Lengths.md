@@ -13,50 +13,51 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [AstronomicalUnit](Lengths.AstronomicalUnit.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.AstronomicalUnit') | A(n) astronomical unit. Defined in terms of a(n) SI kilometer. |
-| [DekalightYear](Lengths.DekalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.DekalightYear') | A(n) dekalight-year. Defined in terms of a(n) light-year. |
-| [Dekaparsec](Lengths.Dekaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Dekaparsec') | A(n) dekaparsec. Defined in terms of a(n) parsec. |
-| [EarthCircumference](Lengths.EarthCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthCircumference') | A(n) earth circumference. Defined in terms of a(n) earth diameter. |
-| [EarthDiameter](Lengths.EarthDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthDiameter') | A(n) earth diameter. Defined in terms of a(n) earth radius. |
-| [EarthRadius](Lengths.EarthRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthRadius') | A(n) earth radius. Defined in terms of a(n) SI kilometer. |
-| [ExalightYear](Lengths.ExalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.ExalightYear') | A(n) exalight-year. Defined in terms of a(n) petalight-year. |
-| [Exaparsec](Lengths.Exaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Exaparsec') | A(n) exaparsec. Defined in terms of a(n) petaparsec. |
-| [GigalightYear](Lengths.GigalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.GigalightYear') | A(n) gigalight-year. Defined in terms of a(n) megalight-year. |
-| [Gigaparsec](Lengths.Gigaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Gigaparsec') | A(n) gigaparsec. Defined in terms of a(n) megaparsec. |
-| [HectolightYear](Lengths.HectolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.HectolightYear') | A(n) hectolight-year. Defined in terms of a(n) dekalight-year. |
-| [Hectoparsec](Lengths.Hectoparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Hectoparsec') | A(n) hectoparsec. Defined in terms of a(n) dekaparsec. |
-| [JovianCircumference](Lengths.JovianCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianCircumference') | A(n) jovian circumference. Defined in terms of a(n) jovian diameter. |
-| [JovianDiameter](Lengths.JovianDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianDiameter') | A(n) jovian diameter. Defined in terms of a(n) jovian radius. |
-| [JovianRadius](Lengths.JovianRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianRadius') | A(n) jovian radius. Defined in terms of a(n) SI kilometer. |
-| [KilolightYear](Lengths.KilolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.KilolightYear') | A(n) kilolight-year. Defined in terms of a(n) hectolight-year. |
-| [Kiloparsec](Lengths.Kiloparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Kiloparsec') | A(n) kiloparsec. Defined in terms of a(n) hectoparsec. |
-| [LightDay](Lengths.LightDay.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightDay') | A(n) light-day. Defined in terms of a(n) light-hour. |
-| [LightHour](Lengths.LightHour.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightHour') | A(n) light-hour. Defined in terms of a(n) light-minute. |
-| [LightMinute](Lengths.LightMinute.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightMinute') | A(n) light-minute. Defined in terms of a(n) light-second. |
-| [LightSecond](Lengths.LightSecond.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightSecond') | A(n) light-second. Defined in terms of a(n) SI meter. |
-| [LightWeek](Lengths.LightWeek.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightWeek') | A(n) light-week. Defined in terms of a(n) light-day. |
-| [LightYear](Lengths.LightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightYear') | A(n) light-year. Defined in terms of a(n) SI meter. |
-| [LunarCircumference](Lengths.LunarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarCircumference') | A(n) lunar circumference. Defined in terms of a(n) lunar diameter. |
-| [LunarDiameter](Lengths.LunarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarDiameter') | A(n) lunar diameter. Defined in terms of a(n) lunar radius. |
-| [LunarRadius](Lengths.LunarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarRadius') | A(n) lunar radius. Defined in terms of a(n) SI kilometer. |
-| [MarsCircumference](Lengths.MarsCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsCircumference') | A(n) mars circumference. Defined in terms of a(n) mars diameter. |
-| [MarsDiameter](Lengths.MarsDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsDiameter') | A(n) mars diameter. Defined in terms of a(n) mars radius. |
-| [MarsRadius](Lengths.MarsRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsRadius') | A(n) mars radius. Defined in terms of a(n) SI kilometer. |
-| [MegalightYear](Lengths.MegalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MegalightYear') | A(n) megalight-year. Defined in terms of a(n) kilolight-year. |
-| [Megaparsec](Lengths.Megaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Megaparsec') | A(n) megaparsec. Defined in terms of a(n) kiloparsec. |
-| [Parsec](Lengths.Parsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Parsec') | A(n) parsec. Defined in terms of a(n) light-year. |
-| [PetalightYear](Lengths.PetalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.PetalightYear') | A(n) petalight-year. Defined in terms of a(n) teralight-year. |
-| [Petaparsec](Lengths.Petaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Petaparsec') | A(n) petaparsec. Defined in terms of a(n) teraparsec. |
-| [QuettalightYear](Lengths.QuettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.QuettalightYear') | A(n) quettalight-year. Defined in terms of a(n) ronnalight-year. |
-| [Quettaparsec](Lengths.Quettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Quettaparsec') | A(n) quettaparsec. Defined in terms of a(n) ronnaparsec. |
-| [RonnalightYear](Lengths.RonnalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.RonnalightYear') | A(n) ronnalight-year. Defined in terms of a(n) yottalight-year. |
-| [Ronnaparsec](Lengths.Ronnaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Ronnaparsec') | A(n) ronnaparsec. Defined in terms of a(n) yottaparsec. |
-| [SolarCircumference](Lengths.SolarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarCircumference') | A(n) solar circumference. Defined in terms of a(n) solar diameter. |
-| [SolarDiameter](Lengths.SolarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarDiameter') | A(n) solar diameter. Defined in terms of a(n) solar radius. |
-| [SolarRadius](Lengths.SolarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarRadius') | A(n) solar radius. Defined in terms of a(n) SI kilometer. |
-| [TeralightYear](Lengths.TeralightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.TeralightYear') | A(n) teralight-year. Defined in terms of a(n) gigalight-year. |
-| [Teraparsec](Lengths.Teraparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Teraparsec') | A(n) teraparsec. Defined in terms of a(n) gigaparsec. |
-| [YottalightYear](Lengths.YottalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.YottalightYear') | A(n) yottalight-year. Defined in terms of a(n) zettalight-year. |
-| [Yottaparsec](Lengths.Yottaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Yottaparsec') | A(n) yottaparsec. Defined in terms of a(n) zettaparsec. |
-| [ZettalightYear](Lengths.ZettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.ZettalightYear') | A(n) zettalight-year. Defined in terms of a(n) exalight-year. |
-| [Zettaparsec](Lengths.Zettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Zettaparsec') | A(n) zettaparsec. Defined in terms of a(n) exaparsec. |
+| [AstronomicalUnit](Lengths.AstronomicalUnit.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.AstronomicalUnit') | A(n) astronomical unit. Defined as: (149597870.691) × SI kilometer + (0). |
+| [DekalightYear](Lengths.DekalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.DekalightYear') | A(n) dekalight-year. Defined as: (10.0) × light-year + (0). |
+| [Dekaparsec](Lengths.Dekaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Dekaparsec') | A(n) dekaparsec. Defined as: (10.0) × parsec + (0). |
+| [EarthCircumference](Lengths.EarthCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthCircumference') | A(n) earth circumference. Defined as: (Math.PI) × earth diameter + (0). |
+| [EarthDiameter](Lengths.EarthDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthDiameter') | A(n) earth diameter. Defined as: (2.0) × earth radius + (0). |
+| [EarthRadius](Lengths.EarthRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.EarthRadius') | A(n) earth radius. Defined as: (6_371.0) × SI kilometer + (0). |
+| [ExalightYear](Lengths.ExalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.ExalightYear') | A(n) exalight-year. Defined as: (1000.0) × petalight-year + (0). |
+| [Exaparsec](Lengths.Exaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Exaparsec') | A(n) exaparsec. Defined as: (1000.0) × petaparsec + (0). |
+| [GigalightYear](Lengths.GigalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.GigalightYear') | A(n) gigalight-year. Defined as: (1000.0) × megalight-year + (0). |
+| [Gigaparsec](Lengths.Gigaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Gigaparsec') | A(n) gigaparsec. Defined as: (1000.0) × megaparsec + (0). |
+| [HectolightYear](Lengths.HectolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.HectolightYear') | A(n) hectolight-year. Defined as: (10.0) × dekalight-year + (0). |
+| [Hectoparsec](Lengths.Hectoparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Hectoparsec') | A(n) hectoparsec. Defined as: (10.0) × dekaparsec + (0). |
+| [JovianCircumference](Lengths.JovianCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianCircumference') | A(n) jovian circumference. Defined as: (Math.PI) × jovian diameter + (0). |
+| [JovianDiameter](Lengths.JovianDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianDiameter') | A(n) jovian diameter. Defined as: (2.0) × jovian radius + (0). |
+| [JovianRadius](Lengths.JovianRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.JovianRadius') | A(n) jovian radius. Defined as: (69_911.0) × SI kilometer + (0). |
+| [KilolightYear](Lengths.KilolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.KilolightYear') | A(n) kilolight-year. Defined as: (10.0) × hectolight-year + (0). |
+| [Kiloparsec](Lengths.Kiloparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Kiloparsec') | A(n) kiloparsec. Defined as: (10.0) × hectoparsec + (0). |
+| [LightDay](Lengths.LightDay.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightDay') | A(n) light-day. Defined as: (24.0) × light-hour + (0). |
+| [LightHour](Lengths.LightHour.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightHour') | A(n) light-hour. Defined as: (60.0) × light-minute + (0). |
+| [LightMinute](Lengths.LightMinute.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightMinute') | A(n) light-minute. Defined as: (60.0) × light-second + (0). |
+| [LightSecond](Lengths.LightSecond.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightSecond') | A(n) light-second. Defined as: (299_792_458.0) × SI meter + (0). |
+| [LightWeek](Lengths.LightWeek.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightWeek') | A(n) light-week. Defined as: (7.0) × light-day + (0). |
+| [LightYear](Lengths.LightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LightYear') | A(n) light-year. Defined as: (9_460_730_472_580_800.0) × SI meter + (0). |
+| [LunarCircumference](Lengths.LunarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarCircumference') | A(n) lunar circumference. Defined as: (Math.PI) × lunar diameter + (0). |
+| [LunarDiameter](Lengths.LunarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarDiameter') | A(n) lunar diameter. Defined as: (2.0) × lunar radius + (0). |
+| [LunarRadius](Lengths.LunarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.LunarRadius') | A(n) lunar radius. Defined as: (1_737.4) × SI kilometer + (0). |
+| [MarsCircumference](Lengths.MarsCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsCircumference') | A(n) mars circumference. Defined as: (Math.PI) × mars diameter + (0). |
+| [MarsDiameter](Lengths.MarsDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsDiameter') | A(n) mars diameter. Defined as: (2.0) × mars radius + (0). |
+| [MarsRadius](Lengths.MarsRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MarsRadius') | A(n) mars radius. Defined as: (3_389.5) × SI kilometer + (0). |
+| [MegalightYear](Lengths.MegalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.MegalightYear') | A(n) megalight-year. Defined as: (1000.0) × kilolight-year + (0). |
+| [Megaparsec](Lengths.Megaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Megaparsec') | A(n) megaparsec. Defined as: (1000.0) × kiloparsec + (0). |
+| [Parsec](Lengths.Parsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Parsec') | A(n) parsec. Defined as: (3.2615637769757) × light-year + (0). |
+| [PetalightYear](Lengths.PetalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.PetalightYear') | A(n) petalight-year. Defined as: (1000.0) × teralight-year + (0). |
+| [Petaparsec](Lengths.Petaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Petaparsec') | A(n) petaparsec. Defined as: (1000.0) × teraparsec + (0). |
+| [PlanckLength](Lengths.PlanckLength.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.PlanckLength') | A(n) Planck-length. Defined as: (1.616255E-35) × SI meter + (0). |
+| [QuettalightYear](Lengths.QuettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.QuettalightYear') | A(n) quettalight-year. Defined as: (1000.0) × ronnalight-year + (0). |
+| [Quettaparsec](Lengths.Quettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Quettaparsec') | A(n) quettaparsec. Defined as: (1000.0) × ronnaparsec + (0). |
+| [RonnalightYear](Lengths.RonnalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.RonnalightYear') | A(n) ronnalight-year. Defined as: (1000.0) × yottalight-year + (0). |
+| [Ronnaparsec](Lengths.Ronnaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Ronnaparsec') | A(n) ronnaparsec. Defined as: (1000.0) × yottaparsec + (0). |
+| [SolarCircumference](Lengths.SolarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarCircumference') | A(n) solar circumference. Defined as: (Math.PI) × solar diameter + (0). |
+| [SolarDiameter](Lengths.SolarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarDiameter') | A(n) solar diameter. Defined as: (2.0) × solar radius + (0). |
+| [SolarRadius](Lengths.SolarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.SolarRadius') | A(n) solar radius. Defined as: (695_700.0) × SI kilometer + (0). |
+| [TeralightYear](Lengths.TeralightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.TeralightYear') | A(n) teralight-year. Defined as: (1000.0) × gigalight-year + (0). |
+| [Teraparsec](Lengths.Teraparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Teraparsec') | A(n) teraparsec. Defined as: (1000.0) × gigaparsec + (0). |
+| [YottalightYear](Lengths.YottalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.YottalightYear') | A(n) yottalight-year. Defined as: (1000.0) × zettalight-year + (0). |
+| [Yottaparsec](Lengths.Yottaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Yottaparsec') | A(n) yottaparsec. Defined as: (1000.0) × zettaparsec + (0). |
+| [ZettalightYear](Lengths.ZettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.ZettalightYear') | A(n) zettalight-year. Defined as: (1000.0) × exalight-year + (0). |
+| [Zettaparsec](Lengths.Zettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Zettaparsec') | A(n) zettaparsec. Defined as: (1000.0) × exaparsec + (0). |

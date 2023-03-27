@@ -3,7 +3,7 @@
 
 ## Areas.SquareLink Field
 
-A(n) square link. Defined in terms of a(n) SI square meter.
+A(n) square link. Defined as: ((0.20116)*(0.20116)) × SI square meter + (0).
 
 ```csharp
 public static readonly Area SquareLink;

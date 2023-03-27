@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicRonnameter Field
 
-A(n) centigram per cubic ronnameter. Defined in terms of a(n) decigram per cubic yottameter.
+A(n) centigram per cubic ronnameter. Defined as: ((1.0/10.0)/((1000.0)*(1000.0)*(1000.0))) × decigram per cubic yottameter + (0).
 
 ```csharp
 public static readonly Density CentigramPerCubicRonnameter;

@@ -3,7 +3,7 @@
 
 ## Frequencies.Dekahertz Field
 
-A(n) dekahertz. Defined in terms of a(n) hertz.
+A(n) dekahertz. Defined as: (10.0) × hertz + (0).
 
 ```csharp
 public static readonly Frequency Dekahertz;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Quettakatal Field
 
-A(n) quettakatal. Defined in terms of a(n) ronnakatal.
+A(n) quettakatal. Defined as: (1000.0) × ronnakatal + (0).
 
 ```csharp
 public static readonly CatalyticActivity Quettakatal;

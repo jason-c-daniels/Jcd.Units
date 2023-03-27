@@ -3,7 +3,7 @@
 
 ## Resistances.Femtoohm Field
 
-A(n) femtoohm. Defined in terms of a(n) picoohm.
+A(n) femtoohm. Defined as: (1.0/1000.0) × picoohm + (0).
 
 ```csharp
 public static readonly Resistance Femtoohm;

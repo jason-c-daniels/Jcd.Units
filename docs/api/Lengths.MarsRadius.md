@@ -3,7 +3,7 @@
 
 ## Lengths.MarsRadius Field
 
-A(n) mars radius. Defined in terms of a(n) SI kilometer.
+A(n) mars radius. Defined as: (3_389.5) × SI kilometer + (0).
 
 ```csharp
 public static readonly Length MarsRadius;

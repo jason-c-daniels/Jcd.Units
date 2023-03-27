@@ -3,7 +3,7 @@
 
 ## Frequencies.Quettahertz Field
 
-A(n) quettahertz. Defined in terms of a(n) ronnahertz.
+A(n) quettahertz. Defined as: (1000.0) × ronnahertz + (0).
 
 ```csharp
 public static readonly Frequency Quettahertz;

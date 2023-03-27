@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Exabecquerel Field
 
-A(n) exabecquerel. Defined in terms of a(n) petabecquerel.
+A(n) exabecquerel. Defined as: (1000.0) × petabecquerel + (0).
 
 ```csharp
 public static readonly RadioactiveDecay Exabecquerel;

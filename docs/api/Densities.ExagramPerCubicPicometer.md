@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicPicometer Field
 
-A(n) exagram per cubic picometer. Defined in terms of a(n) petagram per cubic nanometer.
+A(n) exagram per cubic picometer. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × petagram per cubic nanometer + (0).
 
 ```csharp
 public static readonly Density ExagramPerCubicPicometer;

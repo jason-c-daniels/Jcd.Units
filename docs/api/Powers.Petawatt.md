@@ -3,7 +3,7 @@
 
 ## Powers.Petawatt Field
 
-A(n) petawatt. Defined in terms of a(n) terawatt.
+A(n) petawatt. Defined as: (1000.0) × terawatt + (0).
 
 ```csharp
 public static readonly Power Petawatt;

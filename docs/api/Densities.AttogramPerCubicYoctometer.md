@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicYoctometer Field
 
-A(n) attogram per cubic yoctometer. Defined in terms of a(n) femtogram per cubic zeptometer.
+A(n) attogram per cubic yoctometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × femtogram per cubic zeptometer + (0).
 
 ```csharp
 public static readonly Density AttogramPerCubicYoctometer;

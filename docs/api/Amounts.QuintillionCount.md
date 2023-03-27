@@ -3,7 +3,7 @@
 
 ## Amounts.QuintillionCount Field
 
-A(n) quintillion count. Defined in terms of a(n) quadrillion count.
+A(n) quintillion count. Defined as: (1_000_000.0) × quadrillion count + (0).
 
 ```csharp
 public static readonly Amount QuintillionCount;

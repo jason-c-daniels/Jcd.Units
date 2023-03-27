@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Zettalumen Field
 
-A(n) zettalumen. Defined in terms of a(n) exalumen.
+A(n) zettalumen. Defined as: (1000.0) × exalumen + (0).
 
 ```csharp
 public static readonly LuminousFlux Zettalumen;

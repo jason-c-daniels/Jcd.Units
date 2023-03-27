@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Femtocoulomb Field
 
-A(n) femtocoulomb. Defined in terms of a(n) picocoulomb.
+A(n) femtocoulomb. Defined as: (1.0/1000.0) × picocoulomb + (0).
 
 ```csharp
 public static readonly ElectricalCharge Femtocoulomb;

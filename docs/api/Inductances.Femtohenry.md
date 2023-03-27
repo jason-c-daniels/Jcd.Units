@@ -3,7 +3,7 @@
 
 ## Inductances.Femtohenry Field
 
-A(n) femtohenry. Defined in terms of a(n) picohenry.
+A(n) femtohenry. Defined as: (1.0/1000.0) × picohenry + (0).
 
 ```csharp
 public static readonly Inductance Femtohenry;

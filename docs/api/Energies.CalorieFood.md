@@ -3,7 +3,7 @@
 
 ## Energies.CalorieFood Field
 
-A(n) Calorie (Food). Defined in terms of a(n) calorie.
+A(n) Calorie (Food). Defined as: (1000.0) × calorie + (0).
 
 ```csharp
 public static readonly Energy CalorieFood;

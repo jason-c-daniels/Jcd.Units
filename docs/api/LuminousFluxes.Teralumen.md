@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Teralumen Field
 
-A(n) teralumen. Defined in terms of a(n) gigalumen.
+A(n) teralumen. Defined as: (1000.0) × gigalumen + (0).
 
 ```csharp
 public static readonly LuminousFlux Teralumen;

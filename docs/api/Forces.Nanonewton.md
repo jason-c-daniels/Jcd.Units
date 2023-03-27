@@ -3,7 +3,7 @@
 
 ## Forces.Nanonewton Field
 
-A(n) nanonewton. Defined in terms of a(n) micronewton.
+A(n) nanonewton. Defined as: (1.0/1000.0) × micronewton + (0).
 
 ```csharp
 public static readonly Force Nanonewton;

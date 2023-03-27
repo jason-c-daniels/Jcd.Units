@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Yoctosiemens Field
 
-A(n) yoctosiemens. Defined in terms of a(n) zeptosiemens.
+A(n) yoctosiemens. Defined as: (1.0/1000.0) × zeptosiemens + (0).
 
 ```csharp
 public static readonly ElectricalConductance Yoctosiemens;

@@ -3,7 +3,7 @@
 
 ## Areas.SquareTwip Field
 
-A(n) square twip. Defined in terms of a(n) square foot.
+A(n) square twip. Defined as: ((1.0/17280.0)*(1.0/17280.0)) × square foot + (0).
 
 ```csharp
 public static readonly Area SquareTwip;

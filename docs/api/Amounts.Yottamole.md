@@ -3,7 +3,7 @@
 
 ## Amounts.Yottamole Field
 
-A(n) yottamole. Defined in terms of a(n) zettamole.
+A(n) yottamole. Defined as: (1000.0) × zettamole + (0).
 
 ```csharp
 public static readonly Amount Yottamole;

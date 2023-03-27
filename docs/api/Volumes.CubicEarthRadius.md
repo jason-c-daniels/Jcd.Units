@@ -3,7 +3,7 @@
 
 ## Volumes.CubicEarthRadius Field
 
-A(n) cubic earth radius. Defined in terms of a(n) SI cubic kilometer.
+A(n) cubic earth radius. Defined as: ((6_371.0)*(6_371.0)*(6_371.0)) × SI cubic kilometer + (0).
 
 ```csharp
 public static readonly Volume CubicEarthRadius;

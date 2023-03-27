@@ -3,7 +3,7 @@
 
 ## Volumes.CubicInch Field
 
-A(n) cubic inch. Defined in terms of a(n) SI cubic centimeter.
+A(n) cubic inch. Defined as: ((2.54)*(2.54)*(2.54)) × SI cubic centimeter + (0).
 
 ```csharp
 public static readonly Volume CubicInch;

@@ -3,7 +3,7 @@
 
 ## Amounts.Millimole Field
 
-A(n) millimole. Defined in terms of a(n) centimole.
+A(n) millimole. Defined as: (1.0/10.0) × centimole + (0).
 
 ```csharp
 public static readonly Amount Millimole;

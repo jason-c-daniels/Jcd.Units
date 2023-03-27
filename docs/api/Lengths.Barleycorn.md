@@ -3,7 +3,7 @@
 
 ## Lengths.Barleycorn Field
 
-A(n) barleycorn. Defined in terms of a(n) foot.
+A(n) barleycorn. Defined as: (1.0/36.0) × foot + (0).
 
 ```csharp
 public static readonly Length Barleycorn;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Exasievert Field
 
-A(n) exasievert. Defined in terms of a(n) petasievert.
+A(n) exasievert. Defined as: (1000.0) × petasievert + (0).
 
 ```csharp
 public static readonly RadiationEquivalentDose Exasievert;

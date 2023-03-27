@@ -3,7 +3,7 @@
 
 ## Masses.Femtogram Field
 
-A(n) femtogram. Defined in terms of a(n) picogram.
+A(n) femtogram. Defined as: (1.0/1000.0) × picogram + (0).
 
 ```csharp
 public static readonly Mass Femtogram;

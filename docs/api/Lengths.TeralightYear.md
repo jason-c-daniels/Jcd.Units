@@ -3,7 +3,7 @@
 
 ## Lengths.TeralightYear Field
 
-A(n) teralight-year. Defined in terms of a(n) gigalight-year.
+A(n) teralight-year. Defined as: (1000.0) × gigalight-year + (0).
 
 ```csharp
 public static readonly Length TeralightYear;

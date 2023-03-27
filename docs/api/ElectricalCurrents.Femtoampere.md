@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Femtoampere Field
 
-A(n) femtoampere. Defined in terms of a(n) picoampere.
+A(n) femtoampere. Defined as: (1.0/1000.0) × picoampere + (0).
 
 ```csharp
 public static readonly ElectricalCurrent Femtoampere;

@@ -3,7 +3,7 @@
 
 ## Lengths.Twip Field
 
-A(n) twip. Defined in terms of a(n) foot.
+A(n) twip. Defined as: (1.0/17280.0) × foot + (0).
 
 ```csharp
 public static readonly Length Twip;

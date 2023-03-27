@@ -3,7 +3,7 @@
 
 ## Lengths.Yottameter Field
 
-A(n) yottameter. Defined in terms of a(n) zettameter.
+A(n) yottameter. Defined as: (1000.0) × zettameter + (0).
 
 ```csharp
 public static readonly Length Yottameter;

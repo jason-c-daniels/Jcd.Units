@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicZeptometer Field
 
-A(n) nanogram per cubic zeptometer. Defined in terms of a(n) microgram per cubic attometer.
+A(n) nanogram per cubic zeptometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × microgram per cubic attometer + (0).
 
 ```csharp
 public static readonly Density NanogramPerCubicZeptometer;

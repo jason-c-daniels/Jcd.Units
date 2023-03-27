@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Gigacoulomb Field
 
-A(n) gigacoulomb. Defined in terms of a(n) megacoulomb.
+A(n) gigacoulomb. Defined as: (1000.0) × megacoulomb + (0).
 
 ```csharp
 public static readonly ElectricalCharge Gigacoulomb;

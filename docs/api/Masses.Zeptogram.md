@@ -3,7 +3,7 @@
 
 ## Masses.Zeptogram Field
 
-A(n) zeptogram. Defined in terms of a(n) attogram.
+A(n) zeptogram. Defined as: (1.0/1000.0) × attogram + (0).
 
 ```csharp
 public static readonly Mass Zeptogram;

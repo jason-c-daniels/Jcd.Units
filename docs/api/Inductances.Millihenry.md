@@ -3,7 +3,7 @@
 
 ## Inductances.Millihenry Field
 
-A(n) millihenry. Defined in terms of a(n) centihenry.
+A(n) millihenry. Defined as: (1.0/10.0) × centihenry + (0).
 
 ```csharp
 public static readonly Inductance Millihenry;

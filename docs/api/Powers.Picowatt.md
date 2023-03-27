@@ -3,7 +3,7 @@
 
 ## Powers.Picowatt Field
 
-A(n) picowatt. Defined in terms of a(n) nanowatt.
+A(n) picowatt. Defined as: (1.0/1000.0) × nanowatt + (0).
 
 ```csharp
 public static readonly Power Picowatt;

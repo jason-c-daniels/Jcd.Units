@@ -3,7 +3,7 @@
 
 ## Volumes.CubicChain Field
 
-A(n) cubic chain. Defined in terms of a(n) cubic yard.
+A(n) cubic chain. Defined as: ((22.0)*(22.0)*(22.0)) × cubic yard + (0).
 
 ```csharp
 public static readonly Volume CubicChain;

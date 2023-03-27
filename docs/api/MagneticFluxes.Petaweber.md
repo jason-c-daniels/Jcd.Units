@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Petaweber Field
 
-A(n) petaweber. Defined in terms of a(n) teraweber.
+A(n) petaweber. Defined as: (1000.0) × teraweber + (0).
 
 ```csharp
 public static readonly MagneticFlux Petaweber;

@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicRontometer Field
 
-A(n) rontogram per cubic rontometer. Defined in terms of a(n) yoctogram per cubic yoctometer.
+A(n) rontogram per cubic rontometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × yoctogram per cubic yoctometer + (0).
 
 ```csharp
 public static readonly Density RontogramPerCubicRontometer;

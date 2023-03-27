@@ -3,7 +3,7 @@
 
 ## Amounts.Quettamole Field
 
-A(n) quettamole. Defined in terms of a(n) ronnamole.
+A(n) quettamole. Defined as: (1000.0) × ronnamole + (0).
 
 ```csharp
 public static readonly Amount Quettamole;

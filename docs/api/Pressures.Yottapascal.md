@@ -3,7 +3,7 @@
 
 ## Pressures.Yottapascal Field
 
-A(n) yottapascal. Defined in terms of a(n) zettapascal.
+A(n) yottapascal. Defined as: (1000.0) × zettapascal + (0).
 
 ```csharp
 public static readonly Pressure Yottapascal;

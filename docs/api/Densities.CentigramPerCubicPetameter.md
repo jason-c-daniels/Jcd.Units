@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicPetameter Field
 
-A(n) centigram per cubic petameter. Defined in terms of a(n) decigram per cubic terameter.
+A(n) centigram per cubic petameter. Defined as: ((1.0/10.0)/((1000.0)*(1000.0)*(1000.0))) × decigram per cubic terameter + (0).
 
 ```csharp
 public static readonly Density CentigramPerCubicPetameter;

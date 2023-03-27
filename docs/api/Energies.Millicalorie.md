@@ -3,7 +3,7 @@
 
 ## Energies.Millicalorie Field
 
-A(n) millicalorie. Defined in terms of a(n) centicalorie.
+A(n) millicalorie. Defined as: (1.0/10.0) × centicalorie + (0).
 
 ```csharp
 public static readonly Energy Millicalorie;

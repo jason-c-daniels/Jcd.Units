@@ -3,7 +3,7 @@
 
 ## Forces.Femtonewton Field
 
-A(n) femtonewton. Defined in terms of a(n) piconewton.
+A(n) femtonewton. Defined as: (1.0/1000.0) × piconewton + (0).
 
 ```csharp
 public static readonly Force Femtonewton;

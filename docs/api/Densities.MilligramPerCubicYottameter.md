@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicYottameter Field
 
-A(n) milligram per cubic yottameter. Defined in terms of a(n) centigram per cubic zettameter.
+A(n) milligram per cubic yottameter. Defined as: ((1.0/10.0)/((1000.0)*(1000.0)*(1000.0))) × centigram per cubic zettameter + (0).
 
 ```csharp
 public static readonly Density MilligramPerCubicYottameter;

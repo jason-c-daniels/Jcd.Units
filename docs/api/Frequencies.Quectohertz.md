@@ -3,7 +3,7 @@
 
 ## Frequencies.Quectohertz Field
 
-A(n) quectohertz. Defined in terms of a(n) rontohertz.
+A(n) quectohertz. Defined as: (1.0/1000.0) × rontohertz + (0).
 
 ```csharp
 public static readonly Frequency Quectohertz;
