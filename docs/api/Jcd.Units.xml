@@ -1343,6 +1343,11 @@
             A(n) arc second. Defined in terms of a(n) arc minute.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Angles.Gradian">
+            <summary>
+            A(n) gradian. Defined in terms of a(n) SI radian.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Astronomical.Areas">
             <summary>
             Astronomical Units for measuring Area.

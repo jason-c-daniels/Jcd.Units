@@ -8,7 +8,9 @@ cd ..
 jb cleanupcode --profile="Custom: Full Cleanup w/o Summary Comments" Jcd.Units.sln
 cd ./Jcd.Units
 dotnet build
-cd ../Jcd.Units.Examples
+cd ..
+jb cleanupcode --profile="Custom: Full Cleanup w/o Summary Comments" Jcd.Units.sln
+cd Jcd.Units.Examples
 dotnet build
 cd ../Jcd.Units.Tests
 dotnet build

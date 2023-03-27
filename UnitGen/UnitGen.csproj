@@ -38,6 +38,7 @@
       <EmbeddedResource Include="Data\UnitTypes.csv"/>
       <None Remove="Resources\UnitOfMeasure.NamespaceDoc.template"/>
       <EmbeddedResource Include="Resources\UnitOfMeasure.NamespaceDoc.template"/>
+      <None Remove="Data\.~lock.Units.csv#"/>
    </ItemGroup>
 
    <ItemGroup>

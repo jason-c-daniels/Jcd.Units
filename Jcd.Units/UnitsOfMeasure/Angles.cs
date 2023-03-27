@@ -31,4 +31,9 @@ public class Angles : UnitOfMeasureEnumeration<Angles, Angle>
    /// A(n) arc second. Defined in terms of a(n) arc minute.
    /// </summary>
    public static readonly Angle ArcSecond = new ("arc second", "″", ArcMinute, 1.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) gradian. Defined in terms of a(n) SI radian.
+   /// </summary>
+   public static readonly Angle Gradian = new ("gradian", "ᵍ", SI.Angles.Radian, Math.PI / 200.0, 0);
 }
