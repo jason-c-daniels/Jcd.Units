@@ -110,7 +110,7 @@ public class MathQTests
       Assert.Equal(unitX, r.Unit);
       Assert.Equal(Math.Clamp(x, min, max), (double)r);
    }
-   
+
    #endregion
 
    #region Exponents, Logarithms, Powers, Sign, and Roots
@@ -643,7 +643,7 @@ public class MathQTests
    }
 
    #endregion
-   
+
    #region MemberData providers
 
    /// <summary>
@@ -747,6 +747,6 @@ public class MathQTests
                   select new object[] { number, unit, digits, method };
       }
    }
-   
+
    #endregion
 }

@@ -2643,9 +2643,9 @@
             A(n) cubic inch. Defined in terms of a(n) SI cubic centimeter.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Gill">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidOunce">
             <summary>
-            A(n) gill. Defined in terms of a(n) fluid ounce.
+            A(n) fluid ounce. Defined in terms of a(n) SI milliliter.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicFoot">
@@ -2653,9 +2653,9 @@
             A(n) cubic foot. Defined in terms of a(n) cubic inch.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Pint">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Gill">
             <summary>
-            A(n) pint. Defined in terms of a(n) fluid ounce.
+            A(n) gill. Defined in terms of a(n) fluid ounce.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicTwip">
@@ -2663,9 +2663,9 @@
             A(n) cubic twip. Defined in terms of a(n) cubic foot.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Quart">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Pint">
             <summary>
-            A(n) quart. Defined in terms of a(n) pint.
+            A(n) pint. Defined in terms of a(n) fluid ounce.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicThou">
@@ -2673,9 +2673,9 @@
             A(n) cubic thou. Defined in terms of a(n) cubic foot.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Gallon">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Quart">
             <summary>
-            A(n) gallon. Defined in terms of a(n) quart.
+            A(n) quart. Defined in terms of a(n) pint.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicBarleycorn">
@@ -2683,9 +2683,9 @@
             A(n) cubic barleycorn. Defined in terms of a(n) cubic foot.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Bushel">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Gallon">
             <summary>
-            A(n) bushel. Defined in terms of a(n) gallon.
+            A(n) gallon. Defined in terms of a(n) quart.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicHand">
@@ -2693,9 +2693,9 @@
             A(n) cubic hand. Defined in terms of a(n) cubic inch.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Quarter">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Bushel">
             <summary>
-            A(n) quarter. Defined in terms of a(n) bushel.
+            A(n) bushel. Defined in terms of a(n) gallon.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicYard">
@@ -2703,9 +2703,9 @@
             A(n) cubic yard. Defined in terms of a(n) cubic foot.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Minim">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Quarter">
             <summary>
-            A(n) minim. Defined in terms of a(n) pint.
+            A(n) quarter. Defined in terms of a(n) bushel.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicChain">
@@ -2713,9 +2713,9 @@
             A(n) cubic chain. Defined in terms of a(n) cubic yard.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidScruple">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Minim">
             <summary>
-            A(n) fluid scruple. Defined in terms of a(n) minim.
+            A(n) minim. Defined in terms of a(n) pint.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicFurlong">
@@ -2723,14 +2723,19 @@
             A(n) cubic furlong. Defined in terms of a(n) cubic chain.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidDrachm">
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidScruple">
             <summary>
-            A(n) fluid drachm. Defined in terms of a(n) fluid scruple.
+            A(n) fluid scruple. Defined in terms of a(n) minim.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicMile">
             <summary>
             A(n) cubic mile. Defined in terms of a(n) cubic furlong.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidDrachm">
+            <summary>
+            A(n) fluid drachm. Defined in terms of a(n) fluid scruple.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicLeague">
@@ -2751,11 +2756,6 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicNauticalMile">
             <summary>
             A(n) cubic nautical mile. Defined in terms of a(n) cubic cable.
-            </summary>
-        </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidOunce">
-            <summary>
-            A(n) fluid ounce. Defined in terms of a(n) SI milliliter.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.NamespaceDoc">
