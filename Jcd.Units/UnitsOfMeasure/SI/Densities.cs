@@ -20,14 +20,14 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// <summary>
    /// A(n) kilogram per cubic meter.
    /// </summary>
-   public static readonly Density KilogramPerCubicMeter = new ("kilogram per cubic meter", "kg/m^3");
+   public static readonly Density KilogramPerCubicMeter = new ("kilogram per cubic meter", "kg/m³");
 
    /// <summary>
    /// A(n) kilogram per cubic decimeter. Defined in terms of a(n) kilogram per cubic meter.
    /// </summary>
    public static readonly Density KilogramPerCubicDecimeter = new (
                                                                    "kilogram per cubic decimeter"
-                                                                 , "kg/dm^3"
+                                                                 , "kg/dm³"
                                                                  , KilogramPerCubicMeter
                                                                  , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                  , 0
@@ -38,7 +38,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicCentimeter = new (
                                                                     "kilogram per cubic centimeter"
-                                                                  , "kg/cm^3"
+                                                                  , "kg/cm³"
                                                                   , KilogramPerCubicDecimeter
                                                                   , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -49,7 +49,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicMeter = new (
                                                                 "hectogram per cubic meter"
-                                                              , "hg/m^3"
+                                                              , "hg/m³"
                                                               , KilogramPerCubicMeter
                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -60,7 +60,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicMillimeter = new (
                                                                     "kilogram per cubic millimeter"
-                                                                  , "kg/mm^3"
+                                                                  , "kg/mm³"
                                                                   , KilogramPerCubicCentimeter
                                                                   , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -71,7 +71,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicMicrometer = new (
                                                                     "kilogram per cubic micrometer"
-                                                                  , "kg/μm^3"
+                                                                  , "kg/μm³"
                                                                   , KilogramPerCubicMillimeter
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -83,7 +83,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicDecimeter = new (
                                                                     "hectogram per cubic decimeter"
-                                                                  , "hg/dm^3"
+                                                                  , "hg/dm³"
                                                                   , KilogramPerCubicMeter
                                                                   , 1.0
                                                                   / 10.0
@@ -96,7 +96,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicMeter = new (
                                                                "dekagram per cubic meter"
-                                                             , "dag/m^3"
+                                                             , "dag/m³"
                                                              , HectogramPerCubicMeter
                                                              , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -107,7 +107,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicNanometer = new (
                                                                    "kilogram per cubic nanometer"
-                                                                 , "kg/nm^3"
+                                                                 , "kg/nm³"
                                                                  , KilogramPerCubicMicrometer
                                                                  , 1.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -119,7 +119,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicPicometer = new (
                                                                    "kilogram per cubic picometer"
-                                                                 , "kg/pm^3"
+                                                                 , "kg/pm³"
                                                                  , KilogramPerCubicNanometer
                                                                  , 1.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -131,7 +131,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicCentimeter = new (
                                                                      "hectogram per cubic centimeter"
-                                                                   , "hg/cm^3"
+                                                                   , "hg/cm³"
                                                                    , KilogramPerCubicDecimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -144,7 +144,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicMeter = new (
                                                            "gram per cubic meter"
-                                                         , "g/m^3"
+                                                         , "g/m³"
                                                          , DekagramPerCubicMeter
                                                          , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
                                                          , 0
@@ -155,7 +155,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicFemtometer = new (
                                                                     "kilogram per cubic femtometer"
-                                                                  , "kg/fm^3"
+                                                                  , "kg/fm³"
                                                                   , KilogramPerCubicPicometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -167,7 +167,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicDecimeter = new (
                                                                    "dekagram per cubic decimeter"
-                                                                 , "dag/dm^3"
+                                                                 , "dag/dm³"
                                                                  , HectogramPerCubicMeter
                                                                  , 1.0
                                                                  / 10.0
@@ -180,7 +180,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicAttometer = new (
                                                                    "kilogram per cubic attometer"
-                                                                 , "kg/am^3"
+                                                                 , "kg/am³"
                                                                  , KilogramPerCubicFemtometer
                                                                  , 1.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -192,7 +192,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicMillimeter = new (
                                                                      "hectogram per cubic millimeter"
-                                                                   , "hg/mm^3"
+                                                                   , "hg/mm³"
                                                                    , KilogramPerCubicCentimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -205,7 +205,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicMeter = new (
                                                                "decigram per cubic meter"
-                                                             , "dg/m^3"
+                                                             , "dg/m³"
                                                              , GramPerCubicMeter
                                                              , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -216,7 +216,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicZeptometer = new (
                                                                     "kilogram per cubic zeptometer"
-                                                                  , "kg/zm^3"
+                                                                  , "kg/zm³"
                                                                   , KilogramPerCubicAttometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -228,7 +228,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicYoctometer = new (
                                                                     "kilogram per cubic yoctometer"
-                                                                  , "kg/ym^3"
+                                                                  , "kg/ym³"
                                                                   , KilogramPerCubicZeptometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -240,7 +240,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicMicrometer = new (
                                                                      "hectogram per cubic micrometer"
-                                                                   , "hg/μm^3"
+                                                                   , "hg/μm³"
                                                                    , KilogramPerCubicMillimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -253,7 +253,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicCentimeter = new (
                                                                     "dekagram per cubic centimeter"
-                                                                  , "dag/cm^3"
+                                                                  , "dag/cm³"
                                                                   , HectogramPerCubicDecimeter
                                                                   , 1.0
                                                                   / 10.0
@@ -266,7 +266,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicDecimeter = new (
                                                                "gram per cubic decimeter"
-                                                             , "g/dm^3"
+                                                             , "g/dm³"
                                                              , DekagramPerCubicMeter
                                                              , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                              , 0
@@ -277,7 +277,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicMeter = new (
                                                                 "centigram per cubic meter"
-                                                              , "cg/m^3"
+                                                              , "cg/m³"
                                                               , DecigramPerCubicMeter
                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -288,7 +288,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicRontometer = new (
                                                                     "kilogram per cubic rontometer"
-                                                                  , "kg/rm^3"
+                                                                  , "kg/rm³"
                                                                   , KilogramPerCubicYoctometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -300,7 +300,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicQuectometer = new (
                                                                      "kilogram per cubic quectometer"
-                                                                   , "kg/qm^3"
+                                                                   , "kg/qm³"
                                                                    , KilogramPerCubicRontometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -312,7 +312,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicNanometer = new (
                                                                     "hectogram per cubic nanometer"
-                                                                  , "hg/nm^3"
+                                                                  , "hg/nm³"
                                                                   , KilogramPerCubicMicrometer
                                                                   , 1.0
                                                                   / 10.0
@@ -325,7 +325,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicMeter = new (
                                                                 "milligram per cubic meter"
-                                                              , "mg/m^3"
+                                                              , "mg/m³"
                                                               , CentigramPerCubicMeter
                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -336,7 +336,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicDekameter = new (
                                                                    "kilogram per cubic dekameter"
-                                                                 , "kg/dam^3"
+                                                                 , "kg/dam³"
                                                                  , KilogramPerCubicMeter
                                                                  , 1.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -347,7 +347,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicMillimeter = new (
                                                                     "dekagram per cubic millimeter"
-                                                                  , "dag/mm^3"
+                                                                  , "dag/mm³"
                                                                   , HectogramPerCubicCentimeter
                                                                   , 1.0
                                                                   / 10.0
@@ -360,7 +360,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicDecimeter = new (
                                                                    "decigram per cubic decimeter"
-                                                                 , "dg/dm^3"
+                                                                 , "dg/dm³"
                                                                  , GramPerCubicMeter
                                                                  , 1.0
                                                                  / 10.0
@@ -373,7 +373,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicHectometer = new (
                                                                     "kilogram per cubic hectometer"
-                                                                  , "kg/hm^3"
+                                                                  , "kg/hm³"
                                                                   , KilogramPerCubicDekameter
                                                                   , 1.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -384,7 +384,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicPicometer = new (
                                                                     "hectogram per cubic picometer"
-                                                                  , "hg/pm^3"
+                                                                  , "hg/pm³"
                                                                   , KilogramPerCubicNanometer
                                                                   , 1.0
                                                                   / 10.0
@@ -397,7 +397,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicCentimeter = new (
                                                                 "gram per cubic centimeter"
-                                                              , "g/cm^3"
+                                                              , "g/cm³"
                                                               , DekagramPerCubicDecimeter
                                                               , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                               , 0
@@ -408,7 +408,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicMeter = new (
                                                                 "microgram per cubic meter"
-                                                              , "μg/m^3"
+                                                              , "μg/m³"
                                                               , MilligramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -419,7 +419,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicKilometer = new (
                                                                    "kilogram per cubic kilometer"
-                                                                 , "kg/km^3"
+                                                                 , "kg/km³"
                                                                  , KilogramPerCubicHectometer
                                                                  , 1.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -430,7 +430,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicMegameter = new (
                                                                    "kilogram per cubic megameter"
-                                                                 , "kg/Mm^3"
+                                                                 , "kg/Mm³"
                                                                  , KilogramPerCubicKilometer
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -441,7 +441,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicFemtometer = new (
                                                                      "hectogram per cubic femtometer"
-                                                                   , "hg/fm^3"
+                                                                   , "hg/fm³"
                                                                    , KilogramPerCubicPicometer
                                                                    , 1.0
                                                                    / 10.0
@@ -454,7 +454,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicMicrometer = new (
                                                                     "dekagram per cubic micrometer"
-                                                                  , "dag/μm^3"
+                                                                  , "dag/μm³"
                                                                   , HectogramPerCubicMillimeter
                                                                   , 1.0
                                                                   / 10.0
@@ -467,7 +467,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicDecimeter = new (
                                                                     "centigram per cubic decimeter"
-                                                                  , "cg/dm^3"
+                                                                  , "cg/dm³"
                                                                   , DecigramPerCubicMeter
                                                                   , 1.0
                                                                   / 10.0
@@ -480,7 +480,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicMeter = new (
                                                                "nanogram per cubic meter"
-                                                             , "ng/m^3"
+                                                             , "ng/m³"
                                                              , MicrogramPerCubicMeter
                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -491,7 +491,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicGigameter = new (
                                                                    "kilogram per cubic gigameter"
-                                                                 , "kg/Gm^3"
+                                                                 , "kg/Gm³"
                                                                  , KilogramPerCubicMegameter
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -502,7 +502,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicTerameter = new (
                                                                    "kilogram per cubic terameter"
-                                                                 , "kg/Tm^3"
+                                                                 , "kg/Tm³"
                                                                  , KilogramPerCubicGigameter
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -513,7 +513,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicAttometer = new (
                                                                     "hectogram per cubic attometer"
-                                                                  , "hg/am^3"
+                                                                  , "hg/am³"
                                                                   , KilogramPerCubicFemtometer
                                                                   , 1.0
                                                                   / 10.0
@@ -526,7 +526,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicMillimeter = new (
                                                                 "gram per cubic millimeter"
-                                                              , "g/mm^3"
+                                                              , "g/mm³"
                                                               , DekagramPerCubicCentimeter
                                                               , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                               , 0
@@ -537,7 +537,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicCentimeter = new (
                                                                     "decigram per cubic centimeter"
-                                                                  , "dg/cm^3"
+                                                                  , "dg/cm³"
                                                                   , GramPerCubicDecimeter
                                                                   , 1.0
                                                                   / 10.0
@@ -550,7 +550,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicMeter = new (
                                                                "picogram per cubic meter"
-                                                             , "pg/m^3"
+                                                             , "pg/m³"
                                                              , NanogramPerCubicMeter
                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -561,7 +561,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicPetameter = new (
                                                                    "kilogram per cubic petameter"
-                                                                 , "kg/Pm^3"
+                                                                 , "kg/Pm³"
                                                                  , KilogramPerCubicTerameter
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -572,7 +572,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicNanometer = new (
                                                                    "dekagram per cubic nanometer"
-                                                                 , "dag/nm^3"
+                                                                 , "dag/nm³"
                                                                  , HectogramPerCubicMicrometer
                                                                  , 1.0
                                                                  / 10.0
@@ -585,7 +585,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicDecimeter = new (
                                                                     "milligram per cubic decimeter"
-                                                                  , "mg/dm^3"
+                                                                  , "mg/dm³"
                                                                   , CentigramPerCubicMeter
                                                                   , 1.0
                                                                   / 10.0
@@ -598,7 +598,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicExameter = new (
                                                                   "kilogram per cubic exameter"
-                                                                , "kg/Em^3"
+                                                                , "kg/Em³"
                                                                 , KilogramPerCubicPetameter
                                                                 , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -609,7 +609,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicZeptometer = new (
                                                                      "hectogram per cubic zeptometer"
-                                                                   , "hg/zm^3"
+                                                                   , "hg/zm³"
                                                                    , KilogramPerCubicAttometer
                                                                    , 1.0
                                                                    / 10.0
@@ -622,7 +622,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicMeter = new (
                                                                 "femtogram per cubic meter"
-                                                              , "fg/m^3"
+                                                              , "fg/m³"
                                                               , PicogramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -633,7 +633,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicZettameter = new (
                                                                     "kilogram per cubic zettameter"
-                                                                  , "kg/Zm^3"
+                                                                  , "kg/Zm³"
                                                                   , KilogramPerCubicExameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -644,7 +644,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicYottameter = new (
                                                                     "kilogram per cubic yottameter"
-                                                                  , "kg/Ym^3"
+                                                                  , "kg/Ym³"
                                                                   , KilogramPerCubicZettameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -655,7 +655,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicYoctometer = new (
                                                                      "hectogram per cubic yoctometer"
-                                                                   , "hg/ym^3"
+                                                                   , "hg/ym³"
                                                                    , KilogramPerCubicZeptometer
                                                                    , 1.0
                                                                    / 10.0
@@ -668,7 +668,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicPicometer = new (
                                                                    "dekagram per cubic picometer"
-                                                                 , "dag/pm^3"
+                                                                 , "dag/pm³"
                                                                  , HectogramPerCubicNanometer
                                                                  , 1.0
                                                                  / 10.0
@@ -681,7 +681,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicMicrometer = new (
                                                                 "gram per cubic micrometer"
-                                                              , "g/μm^3"
+                                                              , "g/μm³"
                                                               , DekagramPerCubicMillimeter
                                                               , 1.0
                                                               / 10.0
@@ -694,7 +694,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicCentimeter = new (
                                                                      "centigram per cubic centimeter"
-                                                                   , "cg/cm^3"
+                                                                   , "cg/cm³"
                                                                    , DecigramPerCubicDecimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -707,7 +707,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicDecimeter = new (
                                                                     "microgram per cubic decimeter"
-                                                                  , "μg/dm^3"
+                                                                  , "μg/dm³"
                                                                   , MilligramPerCubicMeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -720,7 +720,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicMeter = new (
                                                                "attogram per cubic meter"
-                                                             , "ag/m^3"
+                                                             , "ag/m³"
                                                              , FemtogramPerCubicMeter
                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -731,7 +731,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicRonnameter = new (
                                                                     "kilogram per cubic ronnameter"
-                                                                  , "kg/Rm^3"
+                                                                  , "kg/Rm³"
                                                                   , KilogramPerCubicYottameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -742,7 +742,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicMillimeter = new (
                                                                     "decigram per cubic millimeter"
-                                                                  , "dg/mm^3"
+                                                                  , "dg/mm³"
                                                                   , GramPerCubicCentimeter
                                                                   , 1.0
                                                                   / 10.0
@@ -755,7 +755,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density KilogramPerCubicQuettameter = new (
                                                                      "kilogram per cubic quettameter"
-                                                                   , "kg/Qm^3"
+                                                                   , "kg/Qm³"
                                                                    , KilogramPerCubicRonnameter
                                                                    , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -766,7 +766,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicRontometer = new (
                                                                      "hectogram per cubic rontometer"
-                                                                   , "hg/rm^3"
+                                                                   , "hg/rm³"
                                                                    , KilogramPerCubicYoctometer
                                                                    , 1.0
                                                                    / 10.0
@@ -779,7 +779,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicMeter = new (
                                                                 "zeptogram per cubic meter"
-                                                              , "zg/m^3"
+                                                              , "zg/m³"
                                                               , AttogramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -790,7 +790,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicFemtometer = new (
                                                                     "dekagram per cubic femtometer"
-                                                                  , "dag/fm^3"
+                                                                  , "dag/fm³"
                                                                   , HectogramPerCubicPicometer
                                                                   , 1.0
                                                                   / 10.0
@@ -803,7 +803,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicDecimeter = new (
                                                                    "nanogram per cubic decimeter"
-                                                                 , "ng/dm^3"
+                                                                 , "ng/dm³"
                                                                  , MicrogramPerCubicMeter
                                                                  , 1.0
                                                                  / 1000.0
@@ -816,7 +816,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicQuectometer = new (
                                                                       "hectogram per cubic quectometer"
-                                                                    , "hg/qm^3"
+                                                                    , "hg/qm³"
                                                                     , KilogramPerCubicRontometer
                                                                     , 1.0
                                                                     / 10.0
@@ -829,7 +829,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicNanometer = new (
                                                                "gram per cubic nanometer"
-                                                             , "g/nm^3"
+                                                             , "g/nm³"
                                                              , DekagramPerCubicMicrometer
                                                              , 1.0
                                                              / 10.0
@@ -842,7 +842,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicCentimeter = new (
                                                                      "milligram per cubic centimeter"
-                                                                   , "mg/cm^3"
+                                                                   , "mg/cm³"
                                                                    , CentigramPerCubicDecimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -855,7 +855,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicMeter = new (
                                                                 "yoctogram per cubic meter"
-                                                              , "yg/m^3"
+                                                              , "yg/m³"
                                                               , ZeptogramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -866,7 +866,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicDekameter = new (
                                                                     "hectogram per cubic dekameter"
-                                                                  , "hg/dam^3"
+                                                                  , "hg/dam³"
                                                                   , KilogramPerCubicMeter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -877,7 +877,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicAttometer = new (
                                                                    "dekagram per cubic attometer"
-                                                                 , "dag/am^3"
+                                                                 , "dag/am³"
                                                                  , HectogramPerCubicFemtometer
                                                                  , 1.0
                                                                  / 10.0
@@ -890,7 +890,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicMicrometer = new (
                                                                     "decigram per cubic micrometer"
-                                                                  , "dg/μm^3"
+                                                                  , "dg/μm³"
                                                                   , GramPerCubicMillimeter
                                                                   , 1.0
                                                                   / 10.0
@@ -903,7 +903,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicMillimeter = new (
                                                                      "centigram per cubic millimeter"
-                                                                   , "cg/mm^3"
+                                                                   , "cg/mm³"
                                                                    , DecigramPerCubicCentimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -916,7 +916,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicDecimeter = new (
                                                                    "picogram per cubic decimeter"
-                                                                 , "pg/dm^3"
+                                                                 , "pg/dm³"
                                                                  , NanogramPerCubicMeter
                                                                  , 1.0
                                                                  / 1000.0
@@ -929,7 +929,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicMeter = new (
                                                                 "rontogram per cubic meter"
-                                                              , "rg/m^3"
+                                                              , "rg/m³"
                                                               , YoctogramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -940,7 +940,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicHectometer = new (
                                                                      "hectogram per cubic hectometer"
-                                                                   , "hg/hm^3"
+                                                                   , "hg/hm³"
                                                                    , KilogramPerCubicDekameter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -951,7 +951,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicPicometer = new (
                                                                "gram per cubic picometer"
-                                                             , "g/pm^3"
+                                                             , "g/pm³"
                                                              , DekagramPerCubicNanometer
                                                              , 1.0
                                                              / 10.0
@@ -964,7 +964,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicCentimeter = new (
                                                                      "microgram per cubic centimeter"
-                                                                   , "μg/cm^3"
+                                                                   , "μg/cm³"
                                                                    , MilligramPerCubicDecimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -977,7 +977,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicMeter = new (
                                                                  "quectogram per cubic meter"
-                                                               , "qg/m^3"
+                                                               , "qg/m³"
                                                                , RontogramPerCubicMeter
                                                                , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
                                                                , 0
@@ -988,7 +988,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicZeptometer = new (
                                                                     "dekagram per cubic zeptometer"
-                                                                  , "dag/zm^3"
+                                                                  , "dag/zm³"
                                                                   , HectogramPerCubicAttometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1001,7 +1001,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicDecimeter = new (
                                                                     "femtogram per cubic decimeter"
-                                                                  , "fg/dm^3"
+                                                                  , "fg/dm³"
                                                                   , PicogramPerCubicMeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1014,7 +1014,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicMeter = new (
                                                                "megagram per cubic meter"
-                                                             , "Mg/m^3"
+                                                             , "Mg/m³"
                                                              , KilogramPerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -1025,7 +1025,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicKilometer = new (
                                                                     "hectogram per cubic kilometer"
-                                                                  , "hg/km^3"
+                                                                  , "hg/km³"
                                                                   , KilogramPerCubicHectometer
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -1036,7 +1036,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicNanometer = new (
                                                                    "decigram per cubic nanometer"
-                                                                 , "dg/nm^3"
+                                                                 , "dg/nm³"
                                                                  , GramPerCubicMicrometer
                                                                  , 1.0
                                                                  / 10.0
@@ -1049,7 +1049,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicMillimeter = new (
                                                                      "milligram per cubic millimeter"
-                                                                   , "mg/mm^3"
+                                                                   , "mg/mm³"
                                                                    , CentigramPerCubicCentimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -1062,7 +1062,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicMeter = new (
                                                                "gigagram per cubic meter"
-                                                             , "Gg/m^3"
+                                                             , "Gg/m³"
                                                              , MegagramPerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -1073,7 +1073,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicMegameter = new (
                                                                     "hectogram per cubic megameter"
-                                                                  , "hg/Mm^3"
+                                                                  , "hg/Mm³"
                                                                   , KilogramPerCubicKilometer
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -1084,7 +1084,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicYoctometer = new (
                                                                     "dekagram per cubic yoctometer"
-                                                                  , "dag/ym^3"
+                                                                  , "dag/ym³"
                                                                   , HectogramPerCubicZeptometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1097,7 +1097,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicFemtometer = new (
                                                                 "gram per cubic femtometer"
-                                                              , "g/fm^3"
+                                                              , "g/fm³"
                                                               , DekagramPerCubicPicometer
                                                               , 1.0
                                                               / 10.0
@@ -1110,7 +1110,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicMicrometer = new (
                                                                      "centigram per cubic micrometer"
-                                                                   , "cg/μm^3"
+                                                                   , "cg/μm³"
                                                                    , DecigramPerCubicMillimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -1123,7 +1123,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicCentimeter = new (
                                                                     "nanogram per cubic centimeter"
-                                                                  , "ng/cm^3"
+                                                                  , "ng/cm³"
                                                                   , MicrogramPerCubicDecimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1136,7 +1136,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicDecimeter = new (
                                                                    "attogram per cubic decimeter"
-                                                                 , "ag/dm^3"
+                                                                 , "ag/dm³"
                                                                  , FemtogramPerCubicMeter
                                                                  , 1.0
                                                                  / 1000.0
@@ -1149,7 +1149,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicMeter = new (
                                                                "teragram per cubic meter"
-                                                             , "Tg/m^3"
+                                                             , "Tg/m³"
                                                              , GigagramPerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -1160,7 +1160,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicGigameter = new (
                                                                     "hectogram per cubic gigameter"
-                                                                  , "hg/Gm^3"
+                                                                  , "hg/Gm³"
                                                                   , KilogramPerCubicMegameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -1171,7 +1171,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicRontometer = new (
                                                                     "dekagram per cubic rontometer"
-                                                                  , "dag/rm^3"
+                                                                  , "dag/rm³"
                                                                   , HectogramPerCubicYoctometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1184,7 +1184,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicDecimeter = new (
                                                                     "zeptogram per cubic decimeter"
-                                                                  , "zg/dm^3"
+                                                                  , "zg/dm³"
                                                                   , AttogramPerCubicMeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1197,7 +1197,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicMeter = new (
                                                                "petagram per cubic meter"
-                                                             , "Pg/m^3"
+                                                             , "Pg/m³"
                                                              , TeragramPerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
                                                              , 0
@@ -1208,7 +1208,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicTerameter = new (
                                                                     "hectogram per cubic terameter"
-                                                                  , "hg/Tm^3"
+                                                                  , "hg/Tm³"
                                                                   , KilogramPerCubicGigameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -1219,7 +1219,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicAttometer = new (
                                                                "gram per cubic attometer"
-                                                             , "g/am^3"
+                                                             , "g/am³"
                                                              , DekagramPerCubicFemtometer
                                                              , 1.0
                                                              / 10.0
@@ -1232,7 +1232,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicPicometer = new (
                                                                    "decigram per cubic picometer"
-                                                                 , "dg/pm^3"
+                                                                 , "dg/pm³"
                                                                  , GramPerCubicNanometer
                                                                  , 1.0
                                                                  / 10.0
@@ -1245,7 +1245,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicMillimeter = new (
                                                                      "microgram per cubic millimeter"
-                                                                   , "μg/mm^3"
+                                                                   , "μg/mm³"
                                                                    , MilligramPerCubicCentimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -1258,7 +1258,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicCentimeter = new (
                                                                     "picogram per cubic centimeter"
-                                                                  , "pg/cm^3"
+                                                                  , "pg/cm³"
                                                                   , NanogramPerCubicDecimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1271,7 +1271,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicMeter = new (
                                                               "exagram per cubic meter"
-                                                            , "Eg/m^3"
+                                                            , "Eg/m³"
                                                             , PetagramPerCubicMeter
                                                             , 1000.0 / (1.0 * 1.0 * 1.0)
                                                             , 0
@@ -1282,7 +1282,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicPetameter = new (
                                                                     "hectogram per cubic petameter"
-                                                                  , "hg/Pm^3"
+                                                                  , "hg/Pm³"
                                                                   , KilogramPerCubicTerameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -1293,7 +1293,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicQuectometer = new (
                                                                      "dekagram per cubic quectometer"
-                                                                   , "dag/qm^3"
+                                                                   , "dag/qm³"
                                                                    , HectogramPerCubicRontometer
                                                                    , 1.0
                                                                    / 10.0
@@ -1306,7 +1306,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicNanometer = new (
                                                                     "centigram per cubic nanometer"
-                                                                  , "cg/nm^3"
+                                                                  , "cg/nm³"
                                                                   , DecigramPerCubicMicrometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1319,7 +1319,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicMicrometer = new (
                                                                      "milligram per cubic micrometer"
-                                                                   , "mg/μm^3"
+                                                                   , "mg/μm³"
                                                                    , CentigramPerCubicMillimeter
                                                                    , 1.0
                                                                    / 10.0
@@ -1332,7 +1332,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicDecimeter = new (
                                                                     "yoctogram per cubic decimeter"
-                                                                  , "yg/dm^3"
+                                                                  , "yg/dm³"
                                                                   , ZeptogramPerCubicMeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1345,7 +1345,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicMeter = new (
                                                                 "zettagram per cubic meter"
-                                                              , "Zg/m^3"
+                                                              , "Zg/m³"
                                                               , ExagramPerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -1356,7 +1356,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicExameter = new (
                                                                    "hectogram per cubic exameter"
-                                                                 , "hg/Em^3"
+                                                                 , "hg/Em³"
                                                                  , KilogramPerCubicPetameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -1367,7 +1367,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicZeptometer = new (
                                                                 "gram per cubic zeptometer"
-                                                              , "g/zm^3"
+                                                              , "g/zm³"
                                                               , DekagramPerCubicAttometer
                                                               , 1.0
                                                               / 10.0
@@ -1380,7 +1380,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicCentimeter = new (
                                                                      "femtogram per cubic centimeter"
-                                                                   , "fg/cm^3"
+                                                                   , "fg/cm³"
                                                                    , PicogramPerCubicDecimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -1393,7 +1393,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicDekameter = new (
                                                                    "dekagram per cubic dekameter"
-                                                                 , "dag/dam^3"
+                                                                 , "dag/dam³"
                                                                  , HectogramPerCubicMeter
                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -1404,7 +1404,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicFemtometer = new (
                                                                     "decigram per cubic femtometer"
-                                                                  , "dg/fm^3"
+                                                                  , "dg/fm³"
                                                                   , GramPerCubicPicometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1417,7 +1417,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicMillimeter = new (
                                                                     "nanogram per cubic millimeter"
-                                                                  , "ng/mm^3"
+                                                                  , "ng/mm³"
                                                                   , MicrogramPerCubicCentimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1430,7 +1430,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicDecimeter = new (
                                                                     "rontogram per cubic decimeter"
-                                                                  , "rg/dm^3"
+                                                                  , "rg/dm³"
                                                                   , YoctogramPerCubicMeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1443,7 +1443,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicMeter = new (
                                                                 "yottagram per cubic meter"
-                                                              , "Yg/m^3"
+                                                              , "Yg/m³"
                                                               , ZettagramPerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -1454,7 +1454,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicZettameter = new (
                                                                      "hectogram per cubic zettameter"
-                                                                   , "hg/Zm^3"
+                                                                   , "hg/Zm³"
                                                                    , KilogramPerCubicExameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -1465,7 +1465,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicMeter = new (
                                                                 "ronnagram per cubic meter"
-                                                              , "Rg/m^3"
+                                                              , "Rg/m³"
                                                               , YottagramPerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -1476,7 +1476,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicYottameter = new (
                                                                      "hectogram per cubic yottameter"
-                                                                   , "hg/Ym^3"
+                                                                   , "hg/Ym³"
                                                                    , KilogramPerCubicZettameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -1487,7 +1487,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicHectometer = new (
                                                                     "dekagram per cubic hectometer"
-                                                                  , "dag/hm^3"
+                                                                  , "dag/hm³"
                                                                   , HectogramPerCubicDekameter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -1498,7 +1498,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicYoctometer = new (
                                                                 "gram per cubic yoctometer"
-                                                              , "g/ym^3"
+                                                              , "g/ym³"
                                                               , DekagramPerCubicZeptometer
                                                               , 1.0
                                                               / 10.0
@@ -1511,7 +1511,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicPicometer = new (
                                                                     "centigram per cubic picometer"
-                                                                  , "cg/pm^3"
+                                                                  , "cg/pm³"
                                                                   , DecigramPerCubicNanometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1524,7 +1524,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicMicrometer = new (
                                                                      "microgram per cubic micrometer"
-                                                                   , "μg/μm^3"
+                                                                   , "μg/μm³"
                                                                    , MilligramPerCubicMillimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -1537,7 +1537,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicCentimeter = new (
                                                                     "attogram per cubic centimeter"
-                                                                  , "ag/cm^3"
+                                                                  , "ag/cm³"
                                                                   , FemtogramPerCubicDecimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1550,7 +1550,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicDecimeter = new (
                                                                      "quectogram per cubic decimeter"
-                                                                   , "qg/dm^3"
+                                                                   , "qg/dm³"
                                                                    , RontogramPerCubicMeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -1563,7 +1563,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicNanometer = new (
                                                                     "milligram per cubic nanometer"
-                                                                  , "mg/nm^3"
+                                                                  , "mg/nm³"
                                                                   , CentigramPerCubicMicrometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1576,7 +1576,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicMeter = new (
                                                                  "quettagram per cubic meter"
-                                                               , "Qg/m^3"
+                                                               , "Qg/m³"
                                                                , RonnagramPerCubicMeter
                                                                , 1000.0 / (1.0 * 1.0 * 1.0)
                                                                , 0
@@ -1587,7 +1587,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicRonnameter = new (
                                                                      "hectogram per cubic ronnameter"
-                                                                   , "hg/Rm^3"
+                                                                   , "hg/Rm³"
                                                                    , KilogramPerCubicYottameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -1598,7 +1598,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicAttometer = new (
                                                                    "decigram per cubic attometer"
-                                                                 , "dg/am^3"
+                                                                 , "dg/am³"
                                                                  , GramPerCubicFemtometer
                                                                  , 1.0
                                                                  / 10.0
@@ -1611,7 +1611,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicMillimeter = new (
                                                                     "picogram per cubic millimeter"
-                                                                  , "pg/mm^3"
+                                                                  , "pg/mm³"
                                                                   , NanogramPerCubicCentimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1624,7 +1624,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicDecimeter = new (
                                                                    "megagram per cubic decimeter"
-                                                                 , "Mg/dm^3"
+                                                                 , "Mg/dm³"
                                                                  , KilogramPerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                  , 0
@@ -1635,7 +1635,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicKilometer = new (
                                                                    "dekagram per cubic kilometer"
-                                                                 , "dag/km^3"
+                                                                 , "dag/km³"
                                                                  , HectogramPerCubicHectometer
                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -1646,7 +1646,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density HectogramPerCubicQuettameter = new (
                                                                       "hectogram per cubic quettameter"
-                                                                    , "hg/Qm^3"
+                                                                    , "hg/Qm³"
                                                                     , KilogramPerCubicRonnameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -1657,7 +1657,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicRontometer = new (
                                                                 "gram per cubic rontometer"
-                                                              , "g/rm^3"
+                                                              , "g/rm³"
                                                               , DekagramPerCubicYoctometer
                                                               , 1.0
                                                               / 10.0
@@ -1670,7 +1670,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicCentimeter = new (
                                                                      "zeptogram per cubic centimeter"
-                                                                   , "zg/cm^3"
+                                                                   , "zg/cm³"
                                                                    , AttogramPerCubicDecimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -1683,7 +1683,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicDecimeter = new (
                                                                    "gigagram per cubic decimeter"
-                                                                 , "Gg/dm^3"
+                                                                 , "Gg/dm³"
                                                                  , MegagramPerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                  , 0
@@ -1694,7 +1694,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicMegameter = new (
                                                                    "dekagram per cubic megameter"
-                                                                 , "dag/Mm^3"
+                                                                 , "dag/Mm³"
                                                                  , HectogramPerCubicKilometer
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -1705,7 +1705,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicFemtometer = new (
                                                                      "centigram per cubic femtometer"
-                                                                   , "cg/fm^3"
+                                                                   , "cg/fm³"
                                                                    , DecigramPerCubicPicometer
                                                                    , 1.0
                                                                    / 10.0
@@ -1718,7 +1718,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicMicrometer = new (
                                                                     "nanogram per cubic micrometer"
-                                                                  , "ng/μm^3"
+                                                                  , "ng/μm³"
                                                                   , MicrogramPerCubicMillimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1731,7 +1731,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicZeptometer = new (
                                                                     "decigram per cubic zeptometer"
-                                                                  , "dg/zm^3"
+                                                                  , "dg/zm³"
                                                                   , GramPerCubicAttometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1744,7 +1744,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicMillimeter = new (
                                                                      "femtogram per cubic millimeter"
-                                                                   , "fg/mm^3"
+                                                                   , "fg/mm³"
                                                                    , PicogramPerCubicCentimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -1757,7 +1757,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicQuectometer = new (
                                                                  "gram per cubic quectometer"
-                                                               , "g/qm^3"
+                                                               , "g/qm³"
                                                                , DekagramPerCubicRontometer
                                                                , 1.0
                                                                / 10.0
@@ -1770,7 +1770,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicPicometer = new (
                                                                     "milligram per cubic picometer"
-                                                                  , "mg/pm^3"
+                                                                  , "mg/pm³"
                                                                   , CentigramPerCubicNanometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1783,7 +1783,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicNanometer = new (
                                                                     "microgram per cubic nanometer"
-                                                                  , "μg/nm^3"
+                                                                  , "μg/nm³"
                                                                   , MilligramPerCubicMicrometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -1796,7 +1796,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicCentimeter = new (
                                                                      "yoctogram per cubic centimeter"
-                                                                   , "yg/cm^3"
+                                                                   , "yg/cm³"
                                                                    , ZeptogramPerCubicDecimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -1809,7 +1809,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicDecimeter = new (
                                                                    "teragram per cubic decimeter"
-                                                                 , "Tg/dm^3"
+                                                                 , "Tg/dm³"
                                                                  , GigagramPerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                  , 0
@@ -1820,7 +1820,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicGigameter = new (
                                                                    "dekagram per cubic gigameter"
-                                                                 , "dag/Gm^3"
+                                                                 , "dag/Gm³"
                                                                  , HectogramPerCubicMegameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -1831,7 +1831,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicDecimeter = new (
                                                                    "petagram per cubic decimeter"
-                                                                 , "Pg/dm^3"
+                                                                 , "Pg/dm³"
                                                                  , TeragramPerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                  , 0
@@ -1842,7 +1842,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicTerameter = new (
                                                                    "dekagram per cubic terameter"
-                                                                 , "dag/Tm^3"
+                                                                 , "dag/Tm³"
                                                                  , HectogramPerCubicGigameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -1853,7 +1853,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicDekameter = new (
                                                                "gram per cubic dekameter"
-                                                             , "g/dam^3"
+                                                             , "g/dam³"
                                                              , DekagramPerCubicMeter
                                                              , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                              , 0
@@ -1864,7 +1864,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicYoctometer = new (
                                                                     "decigram per cubic yoctometer"
-                                                                  , "dg/ym^3"
+                                                                  , "dg/ym³"
                                                                   , GramPerCubicZeptometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1877,7 +1877,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicAttometer = new (
                                                                     "centigram per cubic attometer"
-                                                                  , "cg/am^3"
+                                                                  , "cg/am³"
                                                                   , DecigramPerCubicFemtometer
                                                                   , 1.0
                                                                   / 10.0
@@ -1890,7 +1890,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicMicrometer = new (
                                                                     "picogram per cubic micrometer"
-                                                                  , "pg/μm^3"
+                                                                  , "pg/μm³"
                                                                   , NanogramPerCubicMillimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1903,7 +1903,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicMillimeter = new (
                                                                     "attogram per cubic millimeter"
-                                                                  , "ag/mm^3"
+                                                                  , "ag/mm³"
                                                                   , FemtogramPerCubicCentimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -1916,7 +1916,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicCentimeter = new (
                                                                      "rontogram per cubic centimeter"
-                                                                   , "rg/cm^3"
+                                                                   , "rg/cm³"
                                                                    , YoctogramPerCubicDecimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -1929,7 +1929,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicDecimeter = new (
                                                                   "exagram per cubic decimeter"
-                                                                , "Eg/dm^3"
+                                                                , "Eg/dm³"
                                                                 , PetagramPerCubicMeter
                                                                 , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                 , 0
@@ -1940,7 +1940,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicPetameter = new (
                                                                    "dekagram per cubic petameter"
-                                                                 , "dag/Pm^3"
+                                                                 , "dag/Pm³"
                                                                  , HectogramPerCubicTerameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -1951,7 +1951,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicFemtometer = new (
                                                                      "milligram per cubic femtometer"
-                                                                   , "mg/fm^3"
+                                                                   , "mg/fm³"
                                                                    , CentigramPerCubicPicometer
                                                                    , 1.0
                                                                    / 10.0
@@ -1964,7 +1964,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicNanometer = new (
                                                                    "nanogram per cubic nanometer"
-                                                                 , "ng/nm^3"
+                                                                 , "ng/nm³"
                                                                  , MicrogramPerCubicMicrometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -1977,7 +1977,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicHectometer = new (
                                                                 "gram per cubic hectometer"
-                                                              , "g/hm^3"
+                                                              , "g/hm³"
                                                               , DekagramPerCubicDekameter
                                                               , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                               , 0
@@ -1988,7 +1988,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicPicometer = new (
                                                                     "microgram per cubic picometer"
-                                                                  , "μg/pm^3"
+                                                                  , "μg/pm³"
                                                                   , MilligramPerCubicNanometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2001,7 +2001,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicCentimeter = new (
                                                                       "quectogram per cubic centimeter"
-                                                                    , "qg/cm^3"
+                                                                    , "qg/cm³"
                                                                     , RontogramPerCubicDecimeter
                                                                     , 1.0
                                                                     / 1000.0
@@ -2014,7 +2014,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicRontometer = new (
                                                                     "decigram per cubic rontometer"
-                                                                  , "dg/rm^3"
+                                                                  , "dg/rm³"
                                                                   , GramPerCubicYoctometer
                                                                   , 1.0
                                                                   / 10.0
@@ -2027,7 +2027,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicMillimeter = new (
                                                                      "zeptogram per cubic millimeter"
-                                                                   , "zg/mm^3"
+                                                                   , "zg/mm³"
                                                                    , AttogramPerCubicCentimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -2040,7 +2040,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicDecimeter = new (
                                                                     "zettagram per cubic decimeter"
-                                                                  , "Zg/dm^3"
+                                                                  , "Zg/dm³"
                                                                   , ExagramPerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2051,7 +2051,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicExameter = new (
                                                                   "dekagram per cubic exameter"
-                                                                , "dag/Em^3"
+                                                                , "dag/Em³"
                                                                 , HectogramPerCubicPetameter
                                                                 , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -2062,7 +2062,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicZeptometer = new (
                                                                      "centigram per cubic zeptometer"
-                                                                   , "cg/zm^3"
+                                                                   , "cg/zm³"
                                                                    , DecigramPerCubicAttometer
                                                                    , 1.0
                                                                    / 10.0
@@ -2075,7 +2075,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicMicrometer = new (
                                                                      "femtogram per cubic micrometer"
-                                                                   , "fg/μm^3"
+                                                                   , "fg/μm³"
                                                                    , PicogramPerCubicMillimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -2088,7 +2088,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicCentimeter = new (
                                                                     "megagram per cubic centimeter"
-                                                                  , "Mg/cm^3"
+                                                                  , "Mg/cm³"
                                                                   , KilogramPerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2099,7 +2099,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicKilometer = new (
                                                                "gram per cubic kilometer"
-                                                             , "g/km^3"
+                                                             , "g/km³"
                                                              , DekagramPerCubicHectometer
                                                              , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                              , 0
@@ -2110,7 +2110,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicDecimeter = new (
                                                                     "yottagram per cubic decimeter"
-                                                                  , "Yg/dm^3"
+                                                                  , "Yg/dm³"
                                                                   , ZettagramPerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2121,7 +2121,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicZettameter = new (
                                                                     "dekagram per cubic zettameter"
-                                                                  , "dag/Zm^3"
+                                                                  , "dag/Zm³"
                                                                   , HectogramPerCubicExameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -2132,7 +2132,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicQuectometer = new (
                                                                      "decigram per cubic quectometer"
-                                                                   , "dg/qm^3"
+                                                                   , "dg/qm³"
                                                                    , GramPerCubicRontometer
                                                                    , 1.0
                                                                    / 10.0
@@ -2145,7 +2145,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicAttometer = new (
                                                                     "milligram per cubic attometer"
-                                                                  , "mg/am^3"
+                                                                  , "mg/am³"
                                                                   , CentigramPerCubicFemtometer
                                                                   , 1.0
                                                                   / 10.0
@@ -2158,7 +2158,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicNanometer = new (
                                                                    "picogram per cubic nanometer"
-                                                                 , "pg/nm^3"
+                                                                 , "pg/nm³"
                                                                  , NanogramPerCubicMicrometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -2171,7 +2171,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicMillimeter = new (
                                                                      "yoctogram per cubic millimeter"
-                                                                   , "yg/mm^3"
+                                                                   , "yg/mm³"
                                                                    , ZeptogramPerCubicCentimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -2184,7 +2184,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicDecimeter = new (
                                                                     "ronnagram per cubic decimeter"
-                                                                  , "Rg/dm^3"
+                                                                  , "Rg/dm³"
                                                                   , YottagramPerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2195,7 +2195,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicCentimeter = new (
                                                                     "gigagram per cubic centimeter"
-                                                                  , "Gg/cm^3"
+                                                                  , "Gg/cm³"
                                                                   , MegagramPerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2206,7 +2206,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicYottameter = new (
                                                                     "dekagram per cubic yottameter"
-                                                                  , "dag/Ym^3"
+                                                                  , "dag/Ym³"
                                                                   , HectogramPerCubicZettameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -2217,7 +2217,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicMegameter = new (
                                                                "gram per cubic megameter"
-                                                             , "g/Mm^3"
+                                                             , "g/Mm³"
                                                              , DekagramPerCubicKilometer
                                                              , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                              , 0
@@ -2228,7 +2228,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicYoctometer = new (
                                                                      "centigram per cubic yoctometer"
-                                                                   , "cg/ym^3"
+                                                                   , "cg/ym³"
                                                                    , DecigramPerCubicZeptometer
                                                                    , 1.0
                                                                    / 10.0
@@ -2241,7 +2241,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicFemtometer = new (
                                                                      "microgram per cubic femtometer"
-                                                                   , "μg/fm^3"
+                                                                   , "μg/fm³"
                                                                    , MilligramPerCubicPicometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -2254,7 +2254,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicPicometer = new (
                                                                    "nanogram per cubic picometer"
-                                                                 , "ng/pm^3"
+                                                                 , "ng/pm³"
                                                                  , MicrogramPerCubicNanometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -2267,7 +2267,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicMicrometer = new (
                                                                     "attogram per cubic micrometer"
-                                                                  , "ag/μm^3"
+                                                                  , "ag/μm³"
                                                                   , FemtogramPerCubicMillimeter
                                                                   , 1.0
                                                                   / 1000.0
@@ -2280,7 +2280,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicDecimeter = new (
                                                                      "quettagram per cubic decimeter"
-                                                                   , "Qg/dm^3"
+                                                                   , "Qg/dm³"
                                                                    , RonnagramPerCubicMeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -2291,7 +2291,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicRonnameter = new (
                                                                     "dekagram per cubic ronnameter"
-                                                                  , "dag/Rm^3"
+                                                                  , "dag/Rm³"
                                                                   , HectogramPerCubicYottameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -2302,7 +2302,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicDekameter = new (
                                                                    "decigram per cubic dekameter"
-                                                                 , "dg/dam^3"
+                                                                 , "dg/dam³"
                                                                  , GramPerCubicMeter
                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -2313,7 +2313,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicMillimeter = new (
                                                                      "rontogram per cubic millimeter"
-                                                                   , "rg/mm^3"
+                                                                   , "rg/mm³"
                                                                    , YoctogramPerCubicCentimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -2326,7 +2326,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicCentimeter = new (
                                                                     "teragram per cubic centimeter"
-                                                                  , "Tg/cm^3"
+                                                                  , "Tg/cm³"
                                                                   , GigagramPerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2337,7 +2337,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicGigameter = new (
                                                                "gram per cubic gigameter"
-                                                             , "g/Gm^3"
+                                                             , "g/Gm³"
                                                              , DekagramPerCubicMegameter
                                                              , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                              , 0
@@ -2348,7 +2348,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicZeptometer = new (
                                                                      "milligram per cubic zeptometer"
-                                                                   , "mg/zm^3"
+                                                                   , "mg/zm³"
                                                                    , CentigramPerCubicAttometer
                                                                    , 1.0
                                                                    / 10.0
@@ -2361,7 +2361,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicNanometer = new (
                                                                     "femtogram per cubic nanometer"
-                                                                  , "fg/nm^3"
+                                                                  , "fg/nm³"
                                                                   , PicogramPerCubicMicrometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2374,7 +2374,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DekagramPerCubicQuettameter = new (
                                                                      "dekagram per cubic quettameter"
-                                                                   , "dag/Qm^3"
+                                                                   , "dag/Qm³"
                                                                    , HectogramPerCubicRonnameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -2385,7 +2385,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicRontometer = new (
                                                                      "centigram per cubic rontometer"
-                                                                   , "cg/rm^3"
+                                                                   , "cg/rm³"
                                                                    , DecigramPerCubicYoctometer
                                                                    , 1.0
                                                                    / 10.0
@@ -2398,7 +2398,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicMicrometer = new (
                                                                      "zeptogram per cubic micrometer"
-                                                                   , "zg/μm^3"
+                                                                   , "zg/μm³"
                                                                    , AttogramPerCubicMillimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -2411,7 +2411,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicCentimeter = new (
                                                                     "petagram per cubic centimeter"
-                                                                  , "Pg/cm^3"
+                                                                  , "Pg/cm³"
                                                                   , TeragramPerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2422,7 +2422,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicTerameter = new (
                                                                "gram per cubic terameter"
-                                                             , "g/Tm^3"
+                                                             , "g/Tm³"
                                                              , DekagramPerCubicGigameter
                                                              , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                              , 0
@@ -2433,7 +2433,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicHectometer = new (
                                                                     "decigram per cubic hectometer"
-                                                                  , "dg/hm^3"
+                                                                  , "dg/hm³"
                                                                   , GramPerCubicDekameter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -2444,7 +2444,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicAttometer = new (
                                                                     "microgram per cubic attometer"
-                                                                  , "μg/am^3"
+                                                                  , "μg/am³"
                                                                   , MilligramPerCubicFemtometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2457,7 +2457,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicPicometer = new (
                                                                    "picogram per cubic picometer"
-                                                                 , "pg/pm^3"
+                                                                 , "pg/pm³"
                                                                  , NanogramPerCubicNanometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -2470,7 +2470,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicMillimeter = new (
                                                                       "quectogram per cubic millimeter"
-                                                                    , "qg/mm^3"
+                                                                    , "qg/mm³"
                                                                     , RontogramPerCubicCentimeter
                                                                     , 1.0
                                                                     / 1000.0
@@ -2483,7 +2483,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicFemtometer = new (
                                                                     "nanogram per cubic femtometer"
-                                                                  , "ng/fm^3"
+                                                                  , "ng/fm³"
                                                                   , MicrogramPerCubicPicometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2496,7 +2496,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicCentimeter = new (
                                                                    "exagram per cubic centimeter"
-                                                                 , "Eg/cm^3"
+                                                                 , "Eg/cm³"
                                                                  , PetagramPerCubicDecimeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                  , 0
@@ -2507,7 +2507,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicPetameter = new (
                                                                "gram per cubic petameter"
-                                                             , "g/Pm^3"
+                                                             , "g/Pm³"
                                                              , DekagramPerCubicTerameter
                                                              , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                              , 0
@@ -2518,7 +2518,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicQuectometer = new (
                                                                       "centigram per cubic quectometer"
-                                                                    , "cg/qm^3"
+                                                                    , "cg/qm³"
                                                                     , DecigramPerCubicRontometer
                                                                     , 1.0
                                                                     / 10.0
@@ -2531,7 +2531,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicYoctometer = new (
                                                                      "milligram per cubic yoctometer"
-                                                                   , "mg/ym^3"
+                                                                   , "mg/ym³"
                                                                    , CentigramPerCubicZeptometer
                                                                    , 1.0
                                                                    / 10.0
@@ -2544,7 +2544,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicNanometer = new (
                                                                    "attogram per cubic nanometer"
-                                                                 , "ag/nm^3"
+                                                                 , "ag/nm³"
                                                                  , FemtogramPerCubicMicrometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -2557,7 +2557,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicMicrometer = new (
                                                                      "yoctogram per cubic micrometer"
-                                                                   , "yg/μm^3"
+                                                                   , "yg/μm³"
                                                                    , ZeptogramPerCubicMillimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -2570,7 +2570,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicMillimeter = new (
                                                                     "megagram per cubic millimeter"
-                                                                  , "Mg/mm^3"
+                                                                  , "Mg/mm³"
                                                                   , KilogramPerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2581,7 +2581,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicKilometer = new (
                                                                    "decigram per cubic kilometer"
-                                                                 , "dg/km^3"
+                                                                 , "dg/km³"
                                                                  , GramPerCubicHectometer
                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -2592,7 +2592,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicCentimeter = new (
                                                                      "zettagram per cubic centimeter"
-                                                                   , "Zg/cm^3"
+                                                                   , "Zg/cm³"
                                                                    , ExagramPerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -2603,7 +2603,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicExameter = new (
                                                               "gram per cubic exameter"
-                                                            , "g/Em^3"
+                                                            , "g/Em³"
                                                             , DekagramPerCubicPetameter
                                                             , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                             , 0
@@ -2614,7 +2614,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicZeptometer = new (
                                                                      "microgram per cubic zeptometer"
-                                                                   , "μg/zm^3"
+                                                                   , "μg/zm³"
                                                                    , MilligramPerCubicAttometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -2627,7 +2627,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicPicometer = new (
                                                                     "femtogram per cubic picometer"
-                                                                  , "fg/pm^3"
+                                                                  , "fg/pm³"
                                                                   , PicogramPerCubicNanometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2640,7 +2640,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicMillimeter = new (
                                                                     "gigagram per cubic millimeter"
-                                                                  , "Gg/mm^3"
+                                                                  , "Gg/mm³"
                                                                   , MegagramPerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2651,7 +2651,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicMegameter = new (
                                                                    "decigram per cubic megameter"
-                                                                 , "dg/Mm^3"
+                                                                 , "dg/Mm³"
                                                                  , GramPerCubicKilometer
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -2662,7 +2662,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicDekameter = new (
                                                                     "centigram per cubic dekameter"
-                                                                  , "cg/dam^3"
+                                                                  , "cg/dam³"
                                                                   , DecigramPerCubicMeter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -2673,7 +2673,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicAttometer = new (
                                                                    "nanogram per cubic attometer"
-                                                                 , "ng/am^3"
+                                                                 , "ng/am³"
                                                                  , MicrogramPerCubicFemtometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -2686,7 +2686,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicFemtometer = new (
                                                                     "picogram per cubic femtometer"
-                                                                  , "pg/fm^3"
+                                                                  , "pg/fm³"
                                                                   , NanogramPerCubicPicometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2699,7 +2699,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicMicrometer = new (
                                                                      "rontogram per cubic micrometer"
-                                                                   , "rg/μm^3"
+                                                                   , "rg/μm³"
                                                                    , YoctogramPerCubicMillimeter
                                                                    , 1.0
                                                                    / 1000.0
@@ -2712,7 +2712,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicRontometer = new (
                                                                      "milligram per cubic rontometer"
-                                                                   , "mg/rm^3"
+                                                                   , "mg/rm³"
                                                                    , CentigramPerCubicYoctometer
                                                                    , 1.0
                                                                    / 10.0
@@ -2725,7 +2725,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicNanometer = new (
                                                                     "zeptogram per cubic nanometer"
-                                                                  , "zg/nm^3"
+                                                                  , "zg/nm³"
                                                                   , AttogramPerCubicMicrometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2738,7 +2738,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicCentimeter = new (
                                                                      "yottagram per cubic centimeter"
-                                                                   , "Yg/cm^3"
+                                                                   , "Yg/cm³"
                                                                    , ZettagramPerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -2749,7 +2749,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicZettameter = new (
                                                                 "gram per cubic zettameter"
-                                                              , "g/Zm^3"
+                                                              , "g/Zm³"
                                                               , DekagramPerCubicExameter
                                                               , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                               , 0
@@ -2760,7 +2760,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicMillimeter = new (
                                                                     "teragram per cubic millimeter"
-                                                                  , "Tg/mm^3"
+                                                                  , "Tg/mm³"
                                                                   , GigagramPerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2771,7 +2771,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicGigameter = new (
                                                                    "decigram per cubic gigameter"
-                                                                 , "dg/Gm^3"
+                                                                 , "dg/Gm³"
                                                                  , GramPerCubicMegameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -2782,7 +2782,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicCentimeter = new (
                                                                      "ronnagram per cubic centimeter"
-                                                                   , "Rg/cm^3"
+                                                                   , "Rg/cm³"
                                                                    , YottagramPerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -2793,7 +2793,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicYottameter = new (
                                                                 "gram per cubic yottameter"
-                                                              , "g/Ym^3"
+                                                              , "g/Ym³"
                                                               , DekagramPerCubicZettameter
                                                               , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                               , 0
@@ -2804,7 +2804,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicHectometer = new (
                                                                      "centigram per cubic hectometer"
-                                                                   , "cg/hm^3"
+                                                                   , "cg/hm³"
                                                                    , DecigramPerCubicDekameter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -2815,7 +2815,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicYoctometer = new (
                                                                      "microgram per cubic yoctometer"
-                                                                   , "μg/ym^3"
+                                                                   , "μg/ym³"
                                                                    , MilligramPerCubicZeptometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -2828,7 +2828,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicPicometer = new (
                                                                    "attogram per cubic picometer"
-                                                                 , "ag/pm^3"
+                                                                 , "ag/pm³"
                                                                  , FemtogramPerCubicNanometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -2841,7 +2841,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicMicrometer = new (
                                                                       "quectogram per cubic micrometer"
-                                                                    , "qg/μm^3"
+                                                                    , "qg/μm³"
                                                                     , RontogramPerCubicMillimeter
                                                                     , 1.0
                                                                     / 1000.0
@@ -2854,7 +2854,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicQuectometer = new (
                                                                       "milligram per cubic quectometer"
-                                                                    , "mg/qm^3"
+                                                                    , "mg/qm³"
                                                                     , CentigramPerCubicRontometer
                                                                     , 1.0
                                                                     / 10.0
@@ -2867,7 +2867,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicNanometer = new (
                                                                     "yoctogram per cubic nanometer"
-                                                                  , "yg/nm^3"
+                                                                  , "yg/nm³"
                                                                   , ZeptogramPerCubicMicrometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2880,7 +2880,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicZeptometer = new (
                                                                     "nanogram per cubic zeptometer"
-                                                                  , "ng/zm^3"
+                                                                  , "ng/zm³"
                                                                   , MicrogramPerCubicAttometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -2893,7 +2893,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicFemtometer = new (
                                                                      "femtogram per cubic femtometer"
-                                                                   , "fg/fm^3"
+                                                                   , "fg/fm³"
                                                                    , PicogramPerCubicPicometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -2906,7 +2906,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicCentimeter = new (
                                                                       "quettagram per cubic centimeter"
-                                                                    , "Qg/cm^3"
+                                                                    , "Qg/cm³"
                                                                     , RonnagramPerCubicDecimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
@@ -2918,7 +2918,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicMillimeter = new (
                                                                     "petagram per cubic millimeter"
-                                                                  , "Pg/mm^3"
+                                                                  , "Pg/mm³"
                                                                   , TeragramPerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -2929,7 +2929,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicRonnameter = new (
                                                                 "gram per cubic ronnameter"
-                                                              , "g/Rm^3"
+                                                              , "g/Rm³"
                                                               , DekagramPerCubicYottameter
                                                               , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                               , 0
@@ -2940,7 +2940,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicTerameter = new (
                                                                    "decigram per cubic terameter"
-                                                                 , "dg/Tm^3"
+                                                                 , "dg/Tm³"
                                                                  , GramPerCubicGigameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -2951,7 +2951,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicAttometer = new (
                                                                    "picogram per cubic attometer"
-                                                                 , "pg/am^3"
+                                                                 , "pg/am³"
                                                                  , NanogramPerCubicFemtometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -2964,7 +2964,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicMicrometer = new (
                                                                     "megagram per cubic micrometer"
-                                                                  , "Mg/μm^3"
+                                                                  , "Mg/μm³"
                                                                   , KilogramPerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -2976,7 +2976,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicKilometer = new (
                                                                     "centigram per cubic kilometer"
-                                                                  , "cg/km^3"
+                                                                  , "cg/km³"
                                                                   , DecigramPerCubicHectometer
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -2987,7 +2987,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GramPerCubicQuettameter = new (
                                                                  "gram per cubic quettameter"
-                                                               , "g/Qm^3"
+                                                               , "g/Qm³"
                                                                , DekagramPerCubicRonnameter
                                                                , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                , 0
@@ -2998,7 +2998,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicRontometer = new (
                                                                      "microgram per cubic rontometer"
-                                                                   , "μg/rm^3"
+                                                                   , "μg/rm³"
                                                                    , MilligramPerCubicYoctometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3011,7 +3011,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicPicometer = new (
                                                                     "zeptogram per cubic picometer"
-                                                                  , "zg/pm^3"
+                                                                  , "zg/pm³"
                                                                   , AttogramPerCubicNanometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3024,7 +3024,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicMillimeter = new (
                                                                    "exagram per cubic millimeter"
-                                                                 , "Eg/mm^3"
+                                                                 , "Eg/mm³"
                                                                  , PetagramPerCubicCentimeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                  , 0
@@ -3035,7 +3035,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicPetameter = new (
                                                                    "decigram per cubic petameter"
-                                                                 , "dg/Pm^3"
+                                                                 , "dg/Pm³"
                                                                  , GramPerCubicTerameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -3046,7 +3046,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicDekameter = new (
                                                                     "milligram per cubic dekameter"
-                                                                  , "mg/dam^3"
+                                                                  , "mg/dam³"
                                                                   , CentigramPerCubicMeter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -3057,7 +3057,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicNanometer = new (
                                                                     "rontogram per cubic nanometer"
-                                                                  , "rg/nm^3"
+                                                                  , "rg/nm³"
                                                                   , YoctogramPerCubicMicrometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3070,7 +3070,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicMicrometer = new (
                                                                     "gigagram per cubic micrometer"
-                                                                  , "Gg/μm^3"
+                                                                  , "Gg/μm³"
                                                                   , MegagramPerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3082,7 +3082,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicMegameter = new (
                                                                     "centigram per cubic megameter"
-                                                                  , "cg/Mm^3"
+                                                                  , "cg/Mm³"
                                                                   , DecigramPerCubicKilometer
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3093,7 +3093,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicYoctometer = new (
                                                                     "nanogram per cubic yoctometer"
-                                                                  , "ng/ym^3"
+                                                                  , "ng/ym³"
                                                                   , MicrogramPerCubicZeptometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3106,7 +3106,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicFemtometer = new (
                                                                     "attogram per cubic femtometer"
-                                                                  , "ag/fm^3"
+                                                                  , "ag/fm³"
                                                                   , FemtogramPerCubicPicometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3119,7 +3119,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicMillimeter = new (
                                                                      "zettagram per cubic millimeter"
-                                                                   , "Zg/mm^3"
+                                                                   , "Zg/mm³"
                                                                    , ExagramPerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -3130,7 +3130,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicExameter = new (
                                                                   "decigram per cubic exameter"
-                                                                , "dg/Em^3"
+                                                                , "dg/Em³"
                                                                 , GramPerCubicPetameter
                                                                 , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -3141,7 +3141,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicZeptometer = new (
                                                                     "picogram per cubic zeptometer"
-                                                                  , "pg/zm^3"
+                                                                  , "pg/zm³"
                                                                   , NanogramPerCubicAttometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3154,7 +3154,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicAttometer = new (
                                                                     "femtogram per cubic attometer"
-                                                                  , "fg/am^3"
+                                                                  , "fg/am³"
                                                                   , PicogramPerCubicFemtometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3167,7 +3167,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicHectometer = new (
                                                                      "milligram per cubic hectometer"
-                                                                   , "mg/hm^3"
+                                                                   , "mg/hm³"
                                                                    , CentigramPerCubicDekameter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -3178,7 +3178,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicQuectometer = new (
                                                                       "microgram per cubic quectometer"
-                                                                    , "μg/qm^3"
+                                                                    , "μg/qm³"
                                                                     , MilligramPerCubicRontometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -3191,7 +3191,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicPicometer = new (
                                                                     "yoctogram per cubic picometer"
-                                                                  , "yg/pm^3"
+                                                                  , "yg/pm³"
                                                                   , ZeptogramPerCubicNanometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3204,7 +3204,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicNanometer = new (
                                                                      "quectogram per cubic nanometer"
-                                                                   , "qg/nm^3"
+                                                                   , "qg/nm³"
                                                                    , RontogramPerCubicMicrometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3217,7 +3217,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicMicrometer = new (
                                                                     "teragram per cubic micrometer"
-                                                                  , "Tg/μm^3"
+                                                                  , "Tg/μm³"
                                                                   , GigagramPerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3229,7 +3229,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicGigameter = new (
                                                                     "centigram per cubic gigameter"
-                                                                  , "cg/Gm^3"
+                                                                  , "cg/Gm³"
                                                                   , DecigramPerCubicMegameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3240,7 +3240,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicMillimeter = new (
                                                                      "yottagram per cubic millimeter"
-                                                                   , "Yg/mm^3"
+                                                                   , "Yg/mm³"
                                                                    , ZettagramPerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -3251,7 +3251,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicZettameter = new (
                                                                     "decigram per cubic zettameter"
-                                                                  , "dg/Zm^3"
+                                                                  , "dg/Zm³"
                                                                   , GramPerCubicExameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3262,7 +3262,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicRontometer = new (
                                                                     "nanogram per cubic rontometer"
-                                                                  , "ng/rm^3"
+                                                                  , "ng/rm³"
                                                                   , MicrogramPerCubicYoctometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3275,7 +3275,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicFemtometer = new (
                                                                      "zeptogram per cubic femtometer"
-                                                                   , "zg/fm^3"
+                                                                   , "zg/fm³"
                                                                    , AttogramPerCubicPicometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3288,7 +3288,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicNanometer = new (
                                                                    "megagram per cubic nanometer"
-                                                                 , "Mg/nm^3"
+                                                                 , "Mg/nm³"
                                                                  , KilogramPerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3300,7 +3300,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicKilometer = new (
                                                                     "milligram per cubic kilometer"
-                                                                  , "mg/km^3"
+                                                                  , "mg/km³"
                                                                   , CentigramPerCubicHectometer
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -3311,7 +3311,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicMillimeter = new (
                                                                      "ronnagram per cubic millimeter"
-                                                                   , "Rg/mm^3"
+                                                                   , "Rg/mm³"
                                                                    , YottagramPerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -3322,7 +3322,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicMicrometer = new (
                                                                     "petagram per cubic micrometer"
-                                                                  , "Pg/μm^3"
+                                                                  , "Pg/μm³"
                                                                   , TeragramPerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3334,7 +3334,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicYottameter = new (
                                                                     "decigram per cubic yottameter"
-                                                                  , "dg/Ym^3"
+                                                                  , "dg/Ym³"
                                                                   , GramPerCubicZettameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3345,7 +3345,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicTerameter = new (
                                                                     "centigram per cubic terameter"
-                                                                  , "cg/Tm^3"
+                                                                  , "cg/Tm³"
                                                                   , DecigramPerCubicGigameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3356,7 +3356,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicDekameter = new (
                                                                     "microgram per cubic dekameter"
-                                                                  , "μg/dam^3"
+                                                                  , "μg/dam³"
                                                                   , MilligramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -3367,7 +3367,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicYoctometer = new (
                                                                     "picogram per cubic yoctometer"
-                                                                  , "pg/ym^3"
+                                                                  , "pg/ym³"
                                                                   , NanogramPerCubicZeptometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3380,7 +3380,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicAttometer = new (
                                                                    "attogram per cubic attometer"
-                                                                 , "ag/am^3"
+                                                                 , "ag/am³"
                                                                  , FemtogramPerCubicFemtometer
                                                                  , 1.0
                                                                  / 1000.0
@@ -3393,7 +3393,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicPicometer = new (
                                                                     "rontogram per cubic picometer"
-                                                                  , "rg/pm^3"
+                                                                  , "rg/pm³"
                                                                   , YoctogramPerCubicNanometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3406,7 +3406,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicZeptometer = new (
                                                                      "femtogram per cubic zeptometer"
-                                                                   , "fg/zm^3"
+                                                                   , "fg/zm³"
                                                                    , PicogramPerCubicAttometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3419,7 +3419,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicMillimeter = new (
                                                                       "quettagram per cubic millimeter"
-                                                                    , "Qg/mm^3"
+                                                                    , "Qg/mm³"
                                                                     , RonnagramPerCubicCentimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
@@ -3431,7 +3431,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicRonnameter = new (
                                                                     "decigram per cubic ronnameter"
-                                                                  , "dg/Rm^3"
+                                                                  , "dg/Rm³"
                                                                   , GramPerCubicYottameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3442,7 +3442,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicMicrometer = new (
                                                                    "exagram per cubic micrometer"
-                                                                 , "Eg/μm^3"
+                                                                 , "Eg/μm³"
                                                                  , PetagramPerCubicMillimeter
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3454,7 +3454,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicNanometer = new (
                                                                    "gigagram per cubic nanometer"
-                                                                 , "Gg/nm^3"
+                                                                 , "Gg/nm³"
                                                                  , MegagramPerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3466,7 +3466,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicPetameter = new (
                                                                     "centigram per cubic petameter"
-                                                                  , "cg/Pm^3"
+                                                                  , "cg/Pm³"
                                                                   , DecigramPerCubicTerameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3477,7 +3477,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicMegameter = new (
                                                                     "milligram per cubic megameter"
-                                                                  , "mg/Mm^3"
+                                                                  , "mg/Mm³"
                                                                   , CentigramPerCubicKilometer
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3488,7 +3488,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicQuectometer = new (
                                                                      "nanogram per cubic quectometer"
-                                                                   , "ng/qm^3"
+                                                                   , "ng/qm³"
                                                                    , MicrogramPerCubicRontometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3501,7 +3501,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicFemtometer = new (
                                                                      "yoctogram per cubic femtometer"
-                                                                   , "yg/fm^3"
+                                                                   , "yg/fm³"
                                                                    , ZeptogramPerCubicPicometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3514,7 +3514,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicHectometer = new (
                                                                      "microgram per cubic hectometer"
-                                                                   , "μg/hm^3"
+                                                                   , "μg/hm³"
                                                                    , MilligramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -3525,7 +3525,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicPicometer = new (
                                                                      "quectogram per cubic picometer"
-                                                                   , "qg/pm^3"
+                                                                   , "qg/pm³"
                                                                    , RontogramPerCubicNanometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3538,7 +3538,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density DecigramPerCubicQuettameter = new (
                                                                      "decigram per cubic quettameter"
-                                                                   , "dg/Qm^3"
+                                                                   , "dg/Qm³"
                                                                    , GramPerCubicRonnameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -3549,7 +3549,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicRontometer = new (
                                                                     "picogram per cubic rontometer"
-                                                                  , "pg/rm^3"
+                                                                  , "pg/rm³"
                                                                   , NanogramPerCubicYoctometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3562,7 +3562,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicAttometer = new (
                                                                     "zeptogram per cubic attometer"
-                                                                  , "zg/am^3"
+                                                                  , "zg/am³"
                                                                   , AttogramPerCubicFemtometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3575,7 +3575,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicMicrometer = new (
                                                                      "zettagram per cubic micrometer"
-                                                                   , "Zg/μm^3"
+                                                                   , "Zg/μm³"
                                                                    , ExagramPerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3587,7 +3587,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicExameter = new (
                                                                    "centigram per cubic exameter"
-                                                                 , "cg/Em^3"
+                                                                 , "cg/Em³"
                                                                  , DecigramPerCubicPetameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -3598,7 +3598,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicYoctometer = new (
                                                                      "femtogram per cubic yoctometer"
-                                                                   , "fg/ym^3"
+                                                                   , "fg/ym³"
                                                                    , PicogramPerCubicZeptometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3611,7 +3611,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicZeptometer = new (
                                                                     "attogram per cubic zeptometer"
-                                                                  , "ag/zm^3"
+                                                                  , "ag/zm³"
                                                                   , FemtogramPerCubicAttometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3624,7 +3624,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicNanometer = new (
                                                                    "teragram per cubic nanometer"
-                                                                 , "Tg/nm^3"
+                                                                 , "Tg/nm³"
                                                                  , GigagramPerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3636,7 +3636,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicGigameter = new (
                                                                     "milligram per cubic gigameter"
-                                                                  , "mg/Gm^3"
+                                                                  , "mg/Gm³"
                                                                   , CentigramPerCubicMegameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3647,7 +3647,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicDekameter = new (
                                                                    "nanogram per cubic dekameter"
-                                                                 , "ng/dam^3"
+                                                                 , "ng/dam³"
                                                                  , MicrogramPerCubicMeter
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -3658,7 +3658,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicFemtometer = new (
                                                                      "rontogram per cubic femtometer"
-                                                                   , "rg/fm^3"
+                                                                   , "rg/fm³"
                                                                    , YoctogramPerCubicPicometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3671,7 +3671,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicPicometer = new (
                                                                    "megagram per cubic picometer"
-                                                                 , "Mg/pm^3"
+                                                                 , "Mg/pm³"
                                                                  , KilogramPerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3683,7 +3683,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicKilometer = new (
                                                                     "microgram per cubic kilometer"
-                                                                  , "μg/km^3"
+                                                                  , "μg/km³"
                                                                   , MilligramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -3694,7 +3694,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicMicrometer = new (
                                                                      "yottagram per cubic micrometer"
-                                                                   , "Yg/μm^3"
+                                                                   , "Yg/μm³"
                                                                    , ZettagramPerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3706,7 +3706,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicZettameter = new (
                                                                      "centigram per cubic zettameter"
-                                                                   , "cg/Zm^3"
+                                                                   , "cg/Zm³"
                                                                    , DecigramPerCubicExameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -3717,7 +3717,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicNanometer = new (
                                                                    "petagram per cubic nanometer"
-                                                                 , "Pg/nm^3"
+                                                                 , "Pg/nm³"
                                                                  , TeragramPerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3729,7 +3729,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicTerameter = new (
                                                                     "milligram per cubic terameter"
-                                                                  , "mg/Tm^3"
+                                                                  , "mg/Tm³"
                                                                   , CentigramPerCubicGigameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3740,7 +3740,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicQuectometer = new (
                                                                      "picogram per cubic quectometer"
-                                                                   , "pg/qm^3"
+                                                                   , "pg/qm³"
                                                                    , NanogramPerCubicRontometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3753,7 +3753,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicAttometer = new (
                                                                     "yoctogram per cubic attometer"
-                                                                  , "yg/am^3"
+                                                                  , "yg/am³"
                                                                   , ZeptogramPerCubicFemtometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3766,7 +3766,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicRontometer = new (
                                                                      "femtogram per cubic rontometer"
-                                                                   , "fg/rm^3"
+                                                                   , "fg/rm³"
                                                                    , PicogramPerCubicYoctometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3779,7 +3779,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicZeptometer = new (
                                                                      "zeptogram per cubic zeptometer"
-                                                                   , "zg/zm^3"
+                                                                   , "zg/zm³"
                                                                    , AttogramPerCubicAttometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -3792,7 +3792,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicMicrometer = new (
                                                                      "ronnagram per cubic micrometer"
-                                                                   , "Rg/μm^3"
+                                                                   , "Rg/μm³"
                                                                    , YottagramPerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3804,7 +3804,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicPicometer = new (
                                                                    "gigagram per cubic picometer"
-                                                                 , "Gg/pm^3"
+                                                                 , "Gg/pm³"
                                                                  , MegagramPerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3816,7 +3816,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicYottameter = new (
                                                                      "centigram per cubic yottameter"
-                                                                   , "cg/Ym^3"
+                                                                   , "cg/Ym³"
                                                                    , DecigramPerCubicZettameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -3827,7 +3827,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicMegameter = new (
                                                                     "microgram per cubic megameter"
-                                                                  , "μg/Mm^3"
+                                                                  , "μg/Mm³"
                                                                   , MilligramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3838,7 +3838,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicHectometer = new (
                                                                     "nanogram per cubic hectometer"
-                                                                  , "ng/hm^3"
+                                                                  , "ng/hm³"
                                                                   , MicrogramPerCubicDekameter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -3849,7 +3849,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicYoctometer = new (
                                                                     "attogram per cubic yoctometer"
-                                                                  , "ag/ym^3"
+                                                                  , "ag/ym³"
                                                                   , FemtogramPerCubicZeptometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3862,7 +3862,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicFemtometer = new (
                                                                       "quectogram per cubic femtometer"
-                                                                    , "qg/fm^3"
+                                                                    , "qg/fm³"
                                                                     , RontogramPerCubicPicometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -3875,7 +3875,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicNanometer = new (
                                                                   "exagram per cubic nanometer"
-                                                                , "Eg/nm^3"
+                                                                , "Eg/nm³"
                                                                 , PetagramPerCubicMicrometer
                                                                 , 1000.0
                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3887,7 +3887,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicPetameter = new (
                                                                     "milligram per cubic petameter"
-                                                                  , "mg/Pm^3"
+                                                                  , "mg/Pm³"
                                                                   , CentigramPerCubicTerameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3898,7 +3898,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicMicrometer = new (
                                                                       "quettagram per cubic micrometer"
-                                                                    , "Qg/μm^3"
+                                                                    , "Qg/μm³"
                                                                     , RonnagramPerCubicMillimeter
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3910,7 +3910,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicRonnameter = new (
                                                                      "centigram per cubic ronnameter"
-                                                                   , "cg/Rm^3"
+                                                                   , "cg/Rm³"
                                                                    , DecigramPerCubicYottameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -3921,7 +3921,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicDekameter = new (
                                                                    "picogram per cubic dekameter"
-                                                                 , "pg/dam^3"
+                                                                 , "pg/dam³"
                                                                  , NanogramPerCubicMeter
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -3932,7 +3932,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicAttometer = new (
                                                                     "rontogram per cubic attometer"
-                                                                  , "rg/am^3"
+                                                                  , "rg/am³"
                                                                   , YoctogramPerCubicFemtometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -3945,7 +3945,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicPicometer = new (
                                                                    "teragram per cubic picometer"
-                                                                 , "Tg/pm^3"
+                                                                 , "Tg/pm³"
                                                                  , GigagramPerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3957,7 +3957,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicGigameter = new (
                                                                     "microgram per cubic gigameter"
-                                                                  , "μg/Gm^3"
+                                                                  , "μg/Gm³"
                                                                   , MilligramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -3968,7 +3968,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicFemtometer = new (
                                                                     "megagram per cubic femtometer"
-                                                                  , "Mg/fm^3"
+                                                                  , "Mg/fm³"
                                                                   , KilogramPerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -3980,7 +3980,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicKilometer = new (
                                                                    "nanogram per cubic kilometer"
-                                                                 , "ng/km^3"
+                                                                 , "ng/km³"
                                                                  , MicrogramPerCubicHectometer
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -3991,7 +3991,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicNanometer = new (
                                                                     "zettagram per cubic nanometer"
-                                                                  , "Zg/nm^3"
+                                                                  , "Zg/nm³"
                                                                   , ExagramPerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4003,7 +4003,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicExameter = new (
                                                                    "milligram per cubic exameter"
-                                                                 , "mg/Em^3"
+                                                                 , "mg/Em³"
                                                                  , CentigramPerCubicPetameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4014,7 +4014,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicQuectometer = new (
                                                                       "femtogram per cubic quectometer"
-                                                                    , "fg/qm^3"
+                                                                    , "fg/qm³"
                                                                     , PicogramPerCubicRontometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -4027,7 +4027,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicZeptometer = new (
                                                                      "yoctogram per cubic zeptometer"
-                                                                   , "yg/zm^3"
+                                                                   , "yg/zm³"
                                                                    , ZeptogramPerCubicAttometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4040,7 +4040,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density CentigramPerCubicQuettameter = new (
                                                                       "centigram per cubic quettameter"
-                                                                    , "cg/Qm^3"
+                                                                    , "cg/Qm³"
                                                                     , DecigramPerCubicRonnameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -4051,7 +4051,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicRontometer = new (
                                                                     "attogram per cubic rontometer"
-                                                                  , "ag/rm^3"
+                                                                  , "ag/rm³"
                                                                   , FemtogramPerCubicYoctometer
                                                                   , 1.0
                                                                   / 1000.0
@@ -4064,7 +4064,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicYoctometer = new (
                                                                      "zeptogram per cubic yoctometer"
-                                                                   , "zg/ym^3"
+                                                                   , "zg/ym³"
                                                                    , AttogramPerCubicZeptometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4077,7 +4077,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicPicometer = new (
                                                                    "petagram per cubic picometer"
-                                                                 , "Pg/pm^3"
+                                                                 , "Pg/pm³"
                                                                  , TeragramPerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4089,7 +4089,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicTerameter = new (
                                                                     "microgram per cubic terameter"
-                                                                  , "μg/Tm^3"
+                                                                  , "μg/Tm³"
                                                                   , MilligramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -4100,7 +4100,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicHectometer = new (
                                                                     "picogram per cubic hectometer"
-                                                                  , "pg/hm^3"
+                                                                  , "pg/hm³"
                                                                   , NanogramPerCubicDekameter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -4111,7 +4111,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicAttometer = new (
                                                                      "quectogram per cubic attometer"
-                                                                   , "qg/am^3"
+                                                                   , "qg/am³"
                                                                    , RontogramPerCubicFemtometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4124,7 +4124,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicNanometer = new (
                                                                     "yottagram per cubic nanometer"
-                                                                  , "Yg/nm^3"
+                                                                  , "Yg/nm³"
                                                                   , ZettagramPerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4136,7 +4136,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicZettameter = new (
                                                                      "milligram per cubic zettameter"
-                                                                   , "mg/Zm^3"
+                                                                   , "mg/Zm³"
                                                                    , CentigramPerCubicExameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -4147,7 +4147,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicFemtometer = new (
                                                                     "gigagram per cubic femtometer"
-                                                                  , "Gg/fm^3"
+                                                                  , "Gg/fm³"
                                                                   , MegagramPerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4159,7 +4159,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicMegameter = new (
                                                                    "nanogram per cubic megameter"
-                                                                 , "ng/Mm^3"
+                                                                 , "ng/Mm³"
                                                                  , MicrogramPerCubicKilometer
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4170,7 +4170,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicDekameter = new (
                                                                     "femtogram per cubic dekameter"
-                                                                  , "fg/dam^3"
+                                                                  , "fg/dam³"
                                                                   , PicogramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -4181,7 +4181,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicZeptometer = new (
                                                                      "rontogram per cubic zeptometer"
-                                                                   , "rg/zm^3"
+                                                                   , "rg/zm³"
                                                                    , YoctogramPerCubicAttometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4194,7 +4194,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicNanometer = new (
                                                                     "ronnagram per cubic nanometer"
-                                                                  , "Rg/nm^3"
+                                                                  , "Rg/nm³"
                                                                   , YottagramPerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4206,7 +4206,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicPicometer = new (
                                                                   "exagram per cubic picometer"
-                                                                , "Eg/pm^3"
+                                                                , "Eg/pm³"
                                                                 , PetagramPerCubicNanometer
                                                                 , 1000.0
                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4218,7 +4218,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicYottameter = new (
                                                                      "milligram per cubic yottameter"
-                                                                   , "mg/Ym^3"
+                                                                   , "mg/Ym³"
                                                                    , CentigramPerCubicZettameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -4229,7 +4229,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicPetameter = new (
                                                                     "microgram per cubic petameter"
-                                                                  , "μg/Pm^3"
+                                                                  , "μg/Pm³"
                                                                   , MilligramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -4240,7 +4240,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicQuectometer = new (
                                                                      "attogram per cubic quectometer"
-                                                                   , "ag/qm^3"
+                                                                   , "ag/qm³"
                                                                    , FemtogramPerCubicRontometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4253,7 +4253,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicYoctometer = new (
                                                                      "yoctogram per cubic yoctometer"
-                                                                   , "yg/ym^3"
+                                                                   , "yg/ym³"
                                                                    , ZeptogramPerCubicZeptometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4266,7 +4266,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicRontometer = new (
                                                                      "zeptogram per cubic rontometer"
-                                                                   , "zg/rm^3"
+                                                                   , "zg/rm³"
                                                                    , AttogramPerCubicYoctometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4279,7 +4279,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicAttometer = new (
                                                                    "megagram per cubic attometer"
-                                                                 , "Mg/am^3"
+                                                                 , "Mg/am³"
                                                                  , KilogramPerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4291,7 +4291,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicKilometer = new (
                                                                    "picogram per cubic kilometer"
-                                                                 , "pg/km^3"
+                                                                 , "pg/km³"
                                                                  , NanogramPerCubicHectometer
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -4302,7 +4302,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicFemtometer = new (
                                                                     "teragram per cubic femtometer"
-                                                                  , "Tg/fm^3"
+                                                                  , "Tg/fm³"
                                                                   , GigagramPerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4314,7 +4314,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicGigameter = new (
                                                                    "nanogram per cubic gigameter"
-                                                                 , "ng/Gm^3"
+                                                                 , "ng/Gm³"
                                                                  , MicrogramPerCubicMegameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4325,7 +4325,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicNanometer = new (
                                                                      "quettagram per cubic nanometer"
-                                                                   , "Qg/nm^3"
+                                                                   , "Qg/nm³"
                                                                    , RonnagramPerCubicMicrometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4337,7 +4337,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicRonnameter = new (
                                                                      "milligram per cubic ronnameter"
-                                                                   , "mg/Rm^3"
+                                                                   , "mg/Rm³"
                                                                    , CentigramPerCubicYottameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -4348,7 +4348,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicPicometer = new (
                                                                     "zettagram per cubic picometer"
-                                                                  , "Zg/pm^3"
+                                                                  , "Zg/pm³"
                                                                   , ExagramPerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4360,7 +4360,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicExameter = new (
                                                                    "microgram per cubic exameter"
-                                                                 , "μg/Em^3"
+                                                                 , "μg/Em³"
                                                                  , MilligramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4371,7 +4371,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicHectometer = new (
                                                                      "femtogram per cubic hectometer"
-                                                                   , "fg/hm^3"
+                                                                   , "fg/hm³"
                                                                    , PicogramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -4382,7 +4382,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicZeptometer = new (
                                                                       "quectogram per cubic zeptometer"
-                                                                    , "qg/zm^3"
+                                                                    , "qg/zm³"
                                                                     , RontogramPerCubicAttometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -4395,7 +4395,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicFemtometer = new (
                                                                     "petagram per cubic femtometer"
-                                                                  , "Pg/fm^3"
+                                                                  , "Pg/fm³"
                                                                   , TeragramPerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4407,7 +4407,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicAttometer = new (
                                                                    "gigagram per cubic attometer"
-                                                                 , "Gg/am^3"
+                                                                 , "Gg/am³"
                                                                  , MegagramPerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4419,7 +4419,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicTerameter = new (
                                                                    "nanogram per cubic terameter"
-                                                                 , "ng/Tm^3"
+                                                                 , "ng/Tm³"
                                                                  , MicrogramPerCubicGigameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4430,7 +4430,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicMegameter = new (
                                                                    "picogram per cubic megameter"
-                                                                 , "pg/Mm^3"
+                                                                 , "pg/Mm³"
                                                                  , NanogramPerCubicKilometer
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4441,7 +4441,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicDekameter = new (
                                                                    "attogram per cubic dekameter"
-                                                                 , "ag/dam^3"
+                                                                 , "ag/dam³"
                                                                  , FemtogramPerCubicMeter
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -4452,7 +4452,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicYoctometer = new (
                                                                      "rontogram per cubic yoctometer"
-                                                                   , "rg/ym^3"
+                                                                   , "rg/ym³"
                                                                    , YoctogramPerCubicZeptometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4465,7 +4465,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MilligramPerCubicQuettameter = new (
                                                                       "milligram per cubic quettameter"
-                                                                    , "mg/Qm^3"
+                                                                    , "mg/Qm³"
                                                                     , CentigramPerCubicRonnameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -4476,7 +4476,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicQuectometer = new (
                                                                       "zeptogram per cubic quectometer"
-                                                                    , "zg/qm^3"
+                                                                    , "zg/qm³"
                                                                     , AttogramPerCubicRontometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -4489,7 +4489,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicRontometer = new (
                                                                      "yoctogram per cubic rontometer"
-                                                                   , "yg/rm^3"
+                                                                   , "yg/rm³"
                                                                    , ZeptogramPerCubicYoctometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4502,7 +4502,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicPicometer = new (
                                                                     "yottagram per cubic picometer"
-                                                                  , "Yg/pm^3"
+                                                                  , "Yg/pm³"
                                                                   , ZettagramPerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4514,7 +4514,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicZettameter = new (
                                                                      "microgram per cubic zettameter"
-                                                                   , "μg/Zm^3"
+                                                                   , "μg/Zm³"
                                                                    , MilligramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -4525,7 +4525,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicZeptometer = new (
                                                                     "megagram per cubic zeptometer"
-                                                                  , "Mg/zm^3"
+                                                                  , "Mg/zm³"
                                                                   , KilogramPerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4537,7 +4537,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicKilometer = new (
                                                                     "femtogram per cubic kilometer"
-                                                                  , "fg/km^3"
+                                                                  , "fg/km³"
                                                                   , PicogramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -4548,7 +4548,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicFemtometer = new (
                                                                    "exagram per cubic femtometer"
-                                                                 , "Eg/fm^3"
+                                                                 , "Eg/fm³"
                                                                  , PetagramPerCubicPicometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4560,7 +4560,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicPetameter = new (
                                                                    "nanogram per cubic petameter"
-                                                                 , "ng/Pm^3"
+                                                                 , "ng/Pm³"
                                                                  , MicrogramPerCubicTerameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4571,7 +4571,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicAttometer = new (
                                                                    "teragram per cubic attometer"
-                                                                 , "Tg/am^3"
+                                                                 , "Tg/am³"
                                                                  , GigagramPerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4583,7 +4583,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicGigameter = new (
                                                                    "picogram per cubic gigameter"
-                                                                 , "pg/Gm^3"
+                                                                 , "pg/Gm³"
                                                                  , NanogramPerCubicMegameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4594,7 +4594,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicPicometer = new (
                                                                     "ronnagram per cubic picometer"
-                                                                  , "Rg/pm^3"
+                                                                  , "Rg/pm³"
                                                                   , YottagramPerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4606,7 +4606,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicYottameter = new (
                                                                      "microgram per cubic yottameter"
-                                                                   , "μg/Ym^3"
+                                                                   , "μg/Ym³"
                                                                    , MilligramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -4617,7 +4617,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicHectometer = new (
                                                                     "attogram per cubic hectometer"
-                                                                  , "ag/hm^3"
+                                                                  , "ag/hm³"
                                                                   , FemtogramPerCubicDekameter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -4628,7 +4628,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicYoctometer = new (
                                                                       "quectogram per cubic yoctometer"
-                                                                    , "qg/ym^3"
+                                                                    , "qg/ym³"
                                                                     , RontogramPerCubicZeptometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -4641,7 +4641,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicDekameter = new (
                                                                     "zeptogram per cubic dekameter"
-                                                                  , "zg/dam^3"
+                                                                  , "zg/dam³"
                                                                   , AttogramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -4652,7 +4652,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicRontometer = new (
                                                                      "rontogram per cubic rontometer"
-                                                                   , "rg/rm^3"
+                                                                   , "rg/rm³"
                                                                    , YoctogramPerCubicYoctometer
                                                                    , 1.0
                                                                    / 1000.0
@@ -4665,7 +4665,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicQuectometer = new (
                                                                       "yoctogram per cubic quectometer"
-                                                                    , "yg/qm^3"
+                                                                    , "yg/qm³"
                                                                     , ZeptogramPerCubicRontometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -4678,7 +4678,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicFemtometer = new (
                                                                      "zettagram per cubic femtometer"
-                                                                   , "Zg/fm^3"
+                                                                   , "Zg/fm³"
                                                                    , ExagramPerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4690,7 +4690,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicZeptometer = new (
                                                                     "gigagram per cubic zeptometer"
-                                                                  , "Gg/zm^3"
+                                                                  , "Gg/zm³"
                                                                   , MegagramPerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4702,7 +4702,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicExameter = new (
                                                                   "nanogram per cubic exameter"
-                                                                , "ng/Em^3"
+                                                                , "ng/Em³"
                                                                 , MicrogramPerCubicPetameter
                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -4713,7 +4713,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicMegameter = new (
                                                                     "femtogram per cubic megameter"
-                                                                  , "fg/Mm^3"
+                                                                  , "fg/Mm³"
                                                                   , PicogramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -4724,7 +4724,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicPicometer = new (
                                                                      "quettagram per cubic picometer"
-                                                                   , "Qg/pm^3"
+                                                                   , "Qg/pm³"
                                                                    , RonnagramPerCubicNanometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4736,7 +4736,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicAttometer = new (
                                                                    "petagram per cubic attometer"
-                                                                 , "Pg/am^3"
+                                                                 , "Pg/am³"
                                                                  , TeragramPerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4748,7 +4748,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicRonnameter = new (
                                                                      "microgram per cubic ronnameter"
-                                                                   , "μg/Rm^3"
+                                                                   , "μg/Rm³"
                                                                    , MilligramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -4759,7 +4759,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicTerameter = new (
                                                                    "picogram per cubic terameter"
-                                                                 , "pg/Tm^3"
+                                                                 , "pg/Tm³"
                                                                  , NanogramPerCubicGigameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4770,7 +4770,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicYoctometer = new (
                                                                     "megagram per cubic yoctometer"
-                                                                  , "Mg/ym^3"
+                                                                  , "Mg/ym³"
                                                                   , KilogramPerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4782,7 +4782,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicKilometer = new (
                                                                    "attogram per cubic kilometer"
-                                                                 , "ag/km^3"
+                                                                 , "ag/km³"
                                                                  , FemtogramPerCubicHectometer
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -4793,7 +4793,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicFemtometer = new (
                                                                      "yottagram per cubic femtometer"
-                                                                   , "Yg/fm^3"
+                                                                   , "Yg/fm³"
                                                                    , ZettagramPerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4805,7 +4805,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicZettameter = new (
                                                                     "nanogram per cubic zettameter"
-                                                                  , "ng/Zm^3"
+                                                                  , "ng/Zm³"
                                                                   , MicrogramPerCubicExameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -4816,7 +4816,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MicrogramPerCubicQuettameter = new (
                                                                       "microgram per cubic quettameter"
-                                                                    , "μg/Qm^3"
+                                                                    , "μg/Qm³"
                                                                     , MilligramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -4827,7 +4827,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicHectometer = new (
                                                                      "zeptogram per cubic hectometer"
-                                                                   , "zg/hm^3"
+                                                                   , "zg/hm³"
                                                                    , AttogramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -4838,7 +4838,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicRontometer = new (
                                                                       "quectogram per cubic rontometer"
-                                                                    , "qg/rm^3"
+                                                                    , "qg/rm³"
                                                                     , RontogramPerCubicYoctometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -4851,7 +4851,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicZeptometer = new (
                                                                     "teragram per cubic zeptometer"
-                                                                  , "Tg/zm^3"
+                                                                  , "Tg/zm³"
                                                                   , GigagramPerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4863,7 +4863,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicGigameter = new (
                                                                     "femtogram per cubic gigameter"
-                                                                  , "fg/Gm^3"
+                                                                  , "fg/Gm³"
                                                                   , PicogramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -4874,7 +4874,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicAttometer = new (
                                                                   "exagram per cubic attometer"
-                                                                , "Eg/am^3"
+                                                                , "Eg/am³"
                                                                 , PetagramPerCubicFemtometer
                                                                 , 1000.0
                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4886,7 +4886,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicPetameter = new (
                                                                    "picogram per cubic petameter"
-                                                                 , "pg/Pm^3"
+                                                                 , "pg/Pm³"
                                                                  , NanogramPerCubicTerameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4897,7 +4897,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicDekameter = new (
                                                                     "yoctogram per cubic dekameter"
-                                                                  , "yg/dam^3"
+                                                                  , "yg/dam³"
                                                                   , ZeptogramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -4908,7 +4908,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicQuectometer = new (
                                                                       "rontogram per cubic quectometer"
-                                                                    , "rg/qm^3"
+                                                                    , "rg/qm³"
                                                                     , YoctogramPerCubicRontometer
                                                                     , 1.0
                                                                     / 1000.0
@@ -4921,7 +4921,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicFemtometer = new (
                                                                      "ronnagram per cubic femtometer"
-                                                                   , "Rg/fm^3"
+                                                                   , "Rg/fm³"
                                                                    , YottagramPerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4933,7 +4933,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicYoctometer = new (
                                                                     "gigagram per cubic yoctometer"
-                                                                  , "Gg/ym^3"
+                                                                  , "Gg/ym³"
                                                                   , MegagramPerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4945,7 +4945,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicYottameter = new (
                                                                     "nanogram per cubic yottameter"
-                                                                  , "ng/Ym^3"
+                                                                  , "ng/Ym³"
                                                                   , MicrogramPerCubicZettameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -4956,7 +4956,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicMegameter = new (
                                                                    "attogram per cubic megameter"
-                                                                 , "ag/Mm^3"
+                                                                 , "ag/Mm³"
                                                                  , FemtogramPerCubicKilometer
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -4967,7 +4967,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicAttometer = new (
                                                                     "zettagram per cubic attometer"
-                                                                  , "Zg/am^3"
+                                                                  , "Zg/am³"
                                                                   , ExagramPerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4979,7 +4979,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicZeptometer = new (
                                                                     "petagram per cubic zeptometer"
-                                                                  , "Pg/zm^3"
+                                                                  , "Pg/zm³"
                                                                   , TeragramPerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -4991,7 +4991,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicExameter = new (
                                                                   "picogram per cubic exameter"
-                                                                , "pg/Em^3"
+                                                                , "pg/Em³"
                                                                 , NanogramPerCubicPetameter
                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -5002,7 +5002,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicTerameter = new (
                                                                     "femtogram per cubic terameter"
-                                                                  , "fg/Tm^3"
+                                                                  , "fg/Tm³"
                                                                   , PicogramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5013,7 +5013,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicRontometer = new (
                                                                     "megagram per cubic rontometer"
-                                                                  , "Mg/rm^3"
+                                                                  , "Mg/rm³"
                                                                   , KilogramPerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5025,7 +5025,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicKilometer = new (
                                                                     "zeptogram per cubic kilometer"
-                                                                  , "zg/km^3"
+                                                                  , "zg/km³"
                                                                   , AttogramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -5036,7 +5036,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicHectometer = new (
                                                                      "yoctogram per cubic hectometer"
-                                                                   , "yg/hm^3"
+                                                                   , "yg/hm³"
                                                                    , ZeptogramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -5047,7 +5047,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicQuectometer = new (
                                                                        "quectogram per cubic quectometer"
-                                                                     , "qg/qm^3"
+                                                                     , "qg/qm³"
                                                                      , RontogramPerCubicRontometer
                                                                      , 1.0
                                                                      / 1000.0
@@ -5060,7 +5060,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicFemtometer = new (
                                                                       "quettagram per cubic femtometer"
-                                                                    , "Qg/fm^3"
+                                                                    , "Qg/fm³"
                                                                     , RonnagramPerCubicPicometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5072,7 +5072,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicRonnameter = new (
                                                                     "nanogram per cubic ronnameter"
-                                                                  , "ng/Rm^3"
+                                                                  , "ng/Rm³"
                                                                   , MicrogramPerCubicYottameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5083,7 +5083,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicDekameter = new (
                                                                     "rontogram per cubic dekameter"
-                                                                  , "rg/dam^3"
+                                                                  , "rg/dam³"
                                                                   , YoctogramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -5094,7 +5094,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicYoctometer = new (
                                                                     "teragram per cubic yoctometer"
-                                                                  , "Tg/ym^3"
+                                                                  , "Tg/ym³"
                                                                   , GigagramPerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5106,7 +5106,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicGigameter = new (
                                                                    "attogram per cubic gigameter"
-                                                                 , "ag/Gm^3"
+                                                                 , "ag/Gm³"
                                                                  , FemtogramPerCubicMegameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -5117,7 +5117,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicAttometer = new (
                                                                     "yottagram per cubic attometer"
-                                                                  , "Yg/am^3"
+                                                                  , "Yg/am³"
                                                                   , ZettagramPerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5129,7 +5129,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicZettameter = new (
                                                                     "picogram per cubic zettameter"
-                                                                  , "pg/Zm^3"
+                                                                  , "pg/Zm³"
                                                                   , NanogramPerCubicExameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5140,7 +5140,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicZeptometer = new (
                                                                    "exagram per cubic zeptometer"
-                                                                 , "Eg/zm^3"
+                                                                 , "Eg/zm³"
                                                                  , PetagramPerCubicAttometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5152,7 +5152,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicPetameter = new (
                                                                     "femtogram per cubic petameter"
-                                                                  , "fg/Pm^3"
+                                                                  , "fg/Pm³"
                                                                   , PicogramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5163,7 +5163,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicRontometer = new (
                                                                     "gigagram per cubic rontometer"
-                                                                  , "Gg/rm^3"
+                                                                  , "Gg/rm³"
                                                                   , MegagramPerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5175,7 +5175,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density NanogramPerCubicQuettameter = new (
                                                                      "nanogram per cubic quettameter"
-                                                                   , "ng/Qm^3"
+                                                                   , "ng/Qm³"
                                                                    , MicrogramPerCubicRonnameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5186,7 +5186,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicMegameter = new (
                                                                     "zeptogram per cubic megameter"
-                                                                  , "zg/Mm^3"
+                                                                  , "zg/Mm³"
                                                                   , AttogramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5197,7 +5197,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicQuectometer = new (
                                                                      "megagram per cubic quectometer"
-                                                                   , "Mg/qm^3"
+                                                                   , "Mg/qm³"
                                                                    , KilogramPerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5209,7 +5209,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicKilometer = new (
                                                                     "yoctogram per cubic kilometer"
-                                                                  , "yg/km^3"
+                                                                  , "yg/km³"
                                                                   , ZeptogramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -5220,7 +5220,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicAttometer = new (
                                                                     "ronnagram per cubic attometer"
-                                                                  , "Rg/am^3"
+                                                                  , "Rg/am³"
                                                                   , YottagramPerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5232,7 +5232,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicYoctometer = new (
                                                                     "petagram per cubic yoctometer"
-                                                                  , "Pg/ym^3"
+                                                                  , "Pg/ym³"
                                                                   , TeragramPerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5244,7 +5244,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicYottameter = new (
                                                                     "picogram per cubic yottameter"
-                                                                  , "pg/Ym^3"
+                                                                  , "pg/Ym³"
                                                                   , NanogramPerCubicZettameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5255,7 +5255,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicTerameter = new (
                                                                    "attogram per cubic terameter"
-                                                                 , "ag/Tm^3"
+                                                                 , "ag/Tm³"
                                                                  , FemtogramPerCubicGigameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -5266,7 +5266,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicHectometer = new (
                                                                      "rontogram per cubic hectometer"
-                                                                   , "rg/hm^3"
+                                                                   , "rg/hm³"
                                                                    , YoctogramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -5277,7 +5277,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicDekameter = new (
                                                                      "quectogram per cubic dekameter"
-                                                                   , "qg/dam^3"
+                                                                   , "qg/dam³"
                                                                    , RontogramPerCubicMeter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -5288,7 +5288,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicZeptometer = new (
                                                                      "zettagram per cubic zeptometer"
-                                                                   , "Zg/zm^3"
+                                                                   , "Zg/zm³"
                                                                    , ExagramPerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5300,7 +5300,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicExameter = new (
                                                                    "femtogram per cubic exameter"
-                                                                 , "fg/Em^3"
+                                                                 , "fg/Em³"
                                                                  , PicogramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -5311,7 +5311,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicRontometer = new (
                                                                     "teragram per cubic rontometer"
-                                                                  , "Tg/rm^3"
+                                                                  , "Tg/rm³"
                                                                   , GigagramPerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5323,7 +5323,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicGigameter = new (
                                                                     "zeptogram per cubic gigameter"
-                                                                  , "zg/Gm^3"
+                                                                  , "zg/Gm³"
                                                                   , AttogramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5334,7 +5334,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicAttometer = new (
                                                                      "quettagram per cubic attometer"
-                                                                   , "Qg/am^3"
+                                                                   , "Qg/am³"
                                                                    , RonnagramPerCubicFemtometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5346,7 +5346,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicRonnameter = new (
                                                                     "picogram per cubic ronnameter"
-                                                                  , "pg/Rm^3"
+                                                                  , "pg/Rm³"
                                                                   , NanogramPerCubicYottameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5357,7 +5357,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicYoctometer = new (
                                                                    "exagram per cubic yoctometer"
-                                                                 , "Eg/ym^3"
+                                                                 , "Eg/ym³"
                                                                  , PetagramPerCubicZeptometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5369,7 +5369,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicQuectometer = new (
                                                                      "gigagram per cubic quectometer"
-                                                                   , "Gg/qm^3"
+                                                                   , "Gg/qm³"
                                                                    , MegagramPerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5381,7 +5381,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicPetameter = new (
                                                                    "attogram per cubic petameter"
-                                                                 , "ag/Pm^3"
+                                                                 , "ag/Pm³"
                                                                  , FemtogramPerCubicTerameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -5392,7 +5392,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicMegameter = new (
                                                                     "yoctogram per cubic megameter"
-                                                                  , "yg/Mm^3"
+                                                                  , "yg/Mm³"
                                                                   , ZeptogramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5403,7 +5403,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicZeptometer = new (
                                                                      "yottagram per cubic zeptometer"
-                                                                   , "Yg/zm^3"
+                                                                   , "Yg/zm³"
                                                                    , ZettagramPerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5415,7 +5415,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicZettameter = new (
                                                                      "femtogram per cubic zettameter"
-                                                                   , "fg/Zm^3"
+                                                                   , "fg/Zm³"
                                                                    , PicogramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5426,7 +5426,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicDekameter = new (
                                                                    "megagram per cubic dekameter"
-                                                                 , "Mg/dam^3"
+                                                                 , "Mg/dam³"
                                                                  , KilogramPerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -5437,7 +5437,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicKilometer = new (
                                                                     "rontogram per cubic kilometer"
-                                                                  , "rg/km^3"
+                                                                  , "rg/km³"
                                                                   , YoctogramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -5448,7 +5448,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicHectometer = new (
                                                                       "quectogram per cubic hectometer"
-                                                                    , "qg/hm^3"
+                                                                    , "qg/hm³"
                                                                     , RontogramPerCubicDekameter
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                     , 0
@@ -5459,7 +5459,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicRontometer = new (
                                                                     "petagram per cubic rontometer"
-                                                                  , "Pg/rm^3"
+                                                                  , "Pg/rm³"
                                                                   , TeragramPerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5471,7 +5471,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PicogramPerCubicQuettameter = new (
                                                                      "picogram per cubic quettameter"
-                                                                   , "pg/Qm^3"
+                                                                   , "pg/Qm³"
                                                                    , NanogramPerCubicRonnameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5482,7 +5482,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicTerameter = new (
                                                                     "zeptogram per cubic terameter"
-                                                                  , "zg/Tm^3"
+                                                                  , "zg/Tm³"
                                                                   , AttogramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5493,7 +5493,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicZeptometer = new (
                                                                      "ronnagram per cubic zeptometer"
-                                                                   , "Rg/zm^3"
+                                                                   , "Rg/zm³"
                                                                    , YottagramPerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5505,7 +5505,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicYoctometer = new (
                                                                      "zettagram per cubic yoctometer"
-                                                                   , "Zg/ym^3"
+                                                                   , "Zg/ym³"
                                                                    , ExagramPerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5517,7 +5517,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicYottameter = new (
                                                                      "femtogram per cubic yottameter"
-                                                                   , "fg/Ym^3"
+                                                                   , "fg/Ym³"
                                                                    , PicogramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5528,7 +5528,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicExameter = new (
                                                                   "attogram per cubic exameter"
-                                                                , "ag/Em^3"
+                                                                , "ag/Em³"
                                                                 , FemtogramPerCubicPetameter
                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -5539,7 +5539,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicQuectometer = new (
                                                                      "teragram per cubic quectometer"
-                                                                   , "Tg/qm^3"
+                                                                   , "Tg/qm³"
                                                                    , GigagramPerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5551,7 +5551,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicGigameter = new (
                                                                     "yoctogram per cubic gigameter"
-                                                                  , "yg/Gm^3"
+                                                                  , "yg/Gm³"
                                                                   , ZeptogramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5562,7 +5562,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicDekameter = new (
                                                                    "gigagram per cubic dekameter"
-                                                                 , "Gg/dam^3"
+                                                                 , "Gg/dam³"
                                                                  , MegagramPerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -5573,7 +5573,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicMegameter = new (
                                                                     "rontogram per cubic megameter"
-                                                                  , "rg/Mm^3"
+                                                                  , "rg/Mm³"
                                                                   , YoctogramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5584,7 +5584,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicHectometer = new (
                                                                     "megagram per cubic hectometer"
-                                                                  , "Mg/hm^3"
+                                                                  , "Mg/hm³"
                                                                   , KilogramPerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -5595,7 +5595,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicKilometer = new (
                                                                      "quectogram per cubic kilometer"
-                                                                   , "qg/km^3"
+                                                                   , "qg/km³"
                                                                    , RontogramPerCubicHectometer
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -5606,7 +5606,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicRontometer = new (
                                                                    "exagram per cubic rontometer"
-                                                                 , "Eg/rm^3"
+                                                                 , "Eg/rm³"
                                                                  , PetagramPerCubicYoctometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5618,7 +5618,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicPetameter = new (
                                                                     "zeptogram per cubic petameter"
-                                                                  , "zg/Pm^3"
+                                                                  , "zg/Pm³"
                                                                   , AttogramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5629,7 +5629,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicZeptometer = new (
                                                                       "quettagram per cubic zeptometer"
-                                                                    , "Qg/zm^3"
+                                                                    , "Qg/zm³"
                                                                     , RonnagramPerCubicAttometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5641,7 +5641,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicRonnameter = new (
                                                                      "femtogram per cubic ronnameter"
-                                                                   , "fg/Rm^3"
+                                                                   , "fg/Rm³"
                                                                    , PicogramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5652,7 +5652,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicYoctometer = new (
                                                                      "yottagram per cubic yoctometer"
-                                                                   , "Yg/ym^3"
+                                                                   , "Yg/ym³"
                                                                    , ZettagramPerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5664,7 +5664,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicZettameter = new (
                                                                     "attogram per cubic zettameter"
-                                                                  , "ag/Zm^3"
+                                                                  , "ag/Zm³"
                                                                   , FemtogramPerCubicExameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5675,7 +5675,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicQuectometer = new (
                                                                      "petagram per cubic quectometer"
-                                                                   , "Pg/qm^3"
+                                                                   , "Pg/qm³"
                                                                    , TeragramPerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5687,7 +5687,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicTerameter = new (
                                                                     "yoctogram per cubic terameter"
-                                                                  , "yg/Tm^3"
+                                                                  , "yg/Tm³"
                                                                   , ZeptogramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5698,7 +5698,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicDekameter = new (
                                                                    "teragram per cubic dekameter"
-                                                                 , "Tg/dam^3"
+                                                                 , "Tg/dam³"
                                                                  , GigagramPerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -5709,7 +5709,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicGigameter = new (
                                                                     "rontogram per cubic gigameter"
-                                                                  , "rg/Gm^3"
+                                                                  , "rg/Gm³"
                                                                   , YoctogramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5720,7 +5720,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicRontometer = new (
                                                                      "zettagram per cubic rontometer"
-                                                                   , "Zg/rm^3"
+                                                                   , "Zg/rm³"
                                                                    , ExagramPerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5732,7 +5732,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density FemtogramPerCubicQuettameter = new (
                                                                       "femtogram per cubic quettameter"
-                                                                    , "fg/Qm^3"
+                                                                    , "fg/Qm³"
                                                                     , PicogramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -5743,7 +5743,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicExameter = new (
                                                                    "zeptogram per cubic exameter"
-                                                                 , "zg/Em^3"
+                                                                 , "zg/Em³"
                                                                  , AttogramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -5754,7 +5754,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicYoctometer = new (
                                                                      "ronnagram per cubic yoctometer"
-                                                                   , "Rg/ym^3"
+                                                                   , "Rg/ym³"
                                                                    , YottagramPerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5766,7 +5766,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicHectometer = new (
                                                                     "gigagram per cubic hectometer"
-                                                                  , "Gg/hm^3"
+                                                                  , "Gg/hm³"
                                                                   , MegagramPerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -5777,7 +5777,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicYottameter = new (
                                                                     "attogram per cubic yottameter"
-                                                                  , "ag/Ym^3"
+                                                                  , "ag/Ym³"
                                                                   , FemtogramPerCubicZettameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5788,7 +5788,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicMegameter = new (
                                                                      "quectogram per cubic megameter"
-                                                                   , "qg/Mm^3"
+                                                                   , "qg/Mm³"
                                                                    , RontogramPerCubicKilometer
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5799,7 +5799,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicKilometer = new (
                                                                    "megagram per cubic kilometer"
-                                                                 , "Mg/km^3"
+                                                                 , "Mg/km³"
                                                                  , KilogramPerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -5810,7 +5810,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicQuectometer = new (
                                                                     "exagram per cubic quectometer"
-                                                                  , "Eg/qm^3"
+                                                                  , "Eg/qm³"
                                                                   , PetagramPerCubicRontometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5822,7 +5822,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicPetameter = new (
                                                                     "yoctogram per cubic petameter"
-                                                                  , "yg/Pm^3"
+                                                                  , "yg/Pm³"
                                                                   , ZeptogramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5833,7 +5833,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicRontometer = new (
                                                                      "yottagram per cubic rontometer"
-                                                                   , "Yg/rm^3"
+                                                                   , "Yg/rm³"
                                                                    , ZettagramPerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5845,7 +5845,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicZettameter = new (
                                                                      "zeptogram per cubic zettameter"
-                                                                   , "zg/Zm^3"
+                                                                   , "zg/Zm³"
                                                                    , AttogramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5856,7 +5856,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicYoctometer = new (
                                                                       "quettagram per cubic yoctometer"
-                                                                    , "Qg/ym^3"
+                                                                    , "Qg/ym³"
                                                                     , RonnagramPerCubicZeptometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5868,7 +5868,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicDekameter = new (
                                                                    "petagram per cubic dekameter"
-                                                                 , "Pg/dam^3"
+                                                                 , "Pg/dam³"
                                                                  , TeragramPerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -5879,7 +5879,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicRonnameter = new (
                                                                     "attogram per cubic ronnameter"
-                                                                  , "ag/Rm^3"
+                                                                  , "ag/Rm³"
                                                                   , FemtogramPerCubicYottameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5890,7 +5890,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicTerameter = new (
                                                                     "rontogram per cubic terameter"
-                                                                  , "rg/Tm^3"
+                                                                  , "rg/Tm³"
                                                                   , YoctogramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -5901,7 +5901,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicHectometer = new (
                                                                     "teragram per cubic hectometer"
-                                                                  , "Tg/hm^3"
+                                                                  , "Tg/hm³"
                                                                   , GigagramPerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -5912,7 +5912,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicGigameter = new (
                                                                      "quectogram per cubic gigameter"
-                                                                   , "qg/Gm^3"
+                                                                   , "qg/Gm³"
                                                                    , RontogramPerCubicMegameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5923,7 +5923,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicKilometer = new (
                                                                    "gigagram per cubic kilometer"
-                                                                 , "Gg/km^3"
+                                                                 , "Gg/km³"
                                                                  , MegagramPerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -5934,7 +5934,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicMegameter = new (
                                                                    "megagram per cubic megameter"
-                                                                 , "Mg/Mm^3"
+                                                                 , "Mg/Mm³"
                                                                  , KilogramPerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -5945,7 +5945,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicQuectometer = new (
                                                                       "zettagram per cubic quectometer"
-                                                                    , "Zg/qm^3"
+                                                                    , "Zg/qm³"
                                                                     , ExagramPerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5957,7 +5957,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicExameter = new (
                                                                    "yoctogram per cubic exameter"
-                                                                 , "yg/Em^3"
+                                                                 , "yg/Em³"
                                                                  , ZeptogramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -5968,7 +5968,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicRontometer = new (
                                                                      "ronnagram per cubic rontometer"
-                                                                   , "Rg/rm^3"
+                                                                   , "Rg/rm³"
                                                                    , YottagramPerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -5980,7 +5980,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density AttogramPerCubicQuettameter = new (
                                                                      "attogram per cubic quettameter"
-                                                                   , "ag/Qm^3"
+                                                                   , "ag/Qm³"
                                                                    , FemtogramPerCubicRonnameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -5991,7 +5991,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicYottameter = new (
                                                                      "zeptogram per cubic yottameter"
-                                                                   , "zg/Ym^3"
+                                                                   , "zg/Ym³"
                                                                    , AttogramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6002,7 +6002,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicDekameter = new (
                                                                   "exagram per cubic dekameter"
-                                                                , "Eg/dam^3"
+                                                                , "Eg/dam³"
                                                                 , PetagramPerCubicMeter
                                                                 , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                 , 0
@@ -6013,7 +6013,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicPetameter = new (
                                                                     "rontogram per cubic petameter"
-                                                                  , "rg/Pm^3"
+                                                                  , "rg/Pm³"
                                                                   , YoctogramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6024,7 +6024,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicHectometer = new (
                                                                     "petagram per cubic hectometer"
-                                                                  , "Pg/hm^3"
+                                                                  , "Pg/hm³"
                                                                   , TeragramPerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -6035,7 +6035,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicTerameter = new (
                                                                      "quectogram per cubic terameter"
-                                                                   , "qg/Tm^3"
+                                                                   , "qg/Tm³"
                                                                    , RontogramPerCubicGigameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6046,7 +6046,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicQuectometer = new (
                                                                       "yottagram per cubic quectometer"
-                                                                    , "Yg/qm^3"
+                                                                    , "Yg/qm³"
                                                                     , ZettagramPerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -6058,7 +6058,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicZettameter = new (
                                                                      "yoctogram per cubic zettameter"
-                                                                   , "yg/Zm^3"
+                                                                   , "yg/Zm³"
                                                                    , ZeptogramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6069,7 +6069,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicKilometer = new (
                                                                    "teragram per cubic kilometer"
-                                                                 , "Tg/km^3"
+                                                                 , "Tg/km³"
                                                                  , GigagramPerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -6080,7 +6080,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicGigameter = new (
                                                                    "megagram per cubic gigameter"
-                                                                 , "Mg/Gm^3"
+                                                                 , "Mg/Gm³"
                                                                  , KilogramPerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6091,7 +6091,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicMegameter = new (
                                                                    "gigagram per cubic megameter"
-                                                                 , "Gg/Mm^3"
+                                                                 , "Gg/Mm³"
                                                                  , MegagramPerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6102,7 +6102,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicRontometer = new (
                                                                       "quettagram per cubic rontometer"
-                                                                    , "Qg/rm^3"
+                                                                    , "Qg/rm³"
                                                                     , RonnagramPerCubicYoctometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -6114,7 +6114,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicRonnameter = new (
                                                                      "zeptogram per cubic ronnameter"
-                                                                   , "zg/Rm^3"
+                                                                   , "zg/Rm³"
                                                                    , AttogramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6125,7 +6125,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicDekameter = new (
                                                                     "zettagram per cubic dekameter"
-                                                                  , "Zg/dam^3"
+                                                                  , "Zg/dam³"
                                                                   , ExagramPerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -6136,7 +6136,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicExameter = new (
                                                                    "rontogram per cubic exameter"
-                                                                 , "rg/Em^3"
+                                                                 , "rg/Em³"
                                                                  , YoctogramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6147,7 +6147,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicQuectometer = new (
                                                                       "ronnagram per cubic quectometer"
-                                                                    , "Rg/qm^3"
+                                                                    , "Rg/qm³"
                                                                     , YottagramPerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -6159,7 +6159,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicHectometer = new (
                                                                    "exagram per cubic hectometer"
-                                                                 , "Eg/hm^3"
+                                                                 , "Eg/hm³"
                                                                  , PetagramPerCubicDekameter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -6170,7 +6170,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicYottameter = new (
                                                                      "yoctogram per cubic yottameter"
-                                                                   , "yg/Ym^3"
+                                                                   , "yg/Ym³"
                                                                    , ZeptogramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6181,7 +6181,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicPetameter = new (
                                                                      "quectogram per cubic petameter"
-                                                                   , "qg/Pm^3"
+                                                                   , "qg/Pm³"
                                                                    , RontogramPerCubicTerameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6192,7 +6192,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZeptogramPerCubicQuettameter = new (
                                                                       "zeptogram per cubic quettameter"
-                                                                    , "zg/Qm^3"
+                                                                    , "zg/Qm³"
                                                                     , AttogramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -6203,7 +6203,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicKilometer = new (
                                                                    "petagram per cubic kilometer"
-                                                                 , "Pg/km^3"
+                                                                 , "Pg/km³"
                                                                  , TeragramPerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                  , 0
@@ -6214,7 +6214,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicTerameter = new (
                                                                    "megagram per cubic terameter"
-                                                                 , "Mg/Tm^3"
+                                                                 , "Mg/Tm³"
                                                                  , KilogramPerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6225,7 +6225,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicMegameter = new (
                                                                    "teragram per cubic megameter"
-                                                                 , "Tg/Mm^3"
+                                                                 , "Tg/Mm³"
                                                                  , GigagramPerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6236,7 +6236,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicGigameter = new (
                                                                    "gigagram per cubic gigameter"
-                                                                 , "Gg/Gm^3"
+                                                                 , "Gg/Gm³"
                                                                  , MegagramPerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6247,7 +6247,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicDekameter = new (
                                                                     "yottagram per cubic dekameter"
-                                                                  , "Yg/dam^3"
+                                                                  , "Yg/dam³"
                                                                   , ZettagramPerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -6258,7 +6258,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicZettameter = new (
                                                                      "rontogram per cubic zettameter"
-                                                                   , "rg/Zm^3"
+                                                                   , "rg/Zm³"
                                                                    , YoctogramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6269,7 +6269,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicQuectometer = new (
                                                                        "quettagram per cubic quectometer"
-                                                                     , "Qg/qm^3"
+                                                                     , "Qg/qm³"
                                                                      , RonnagramPerCubicRontometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -6281,7 +6281,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicRonnameter = new (
                                                                      "yoctogram per cubic ronnameter"
-                                                                   , "yg/Rm^3"
+                                                                   , "yg/Rm³"
                                                                    , ZeptogramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6292,7 +6292,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicHectometer = new (
                                                                      "zettagram per cubic hectometer"
-                                                                   , "Zg/hm^3"
+                                                                   , "Zg/hm³"
                                                                    , ExagramPerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -6303,7 +6303,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicExameter = new (
                                                                     "quectogram per cubic exameter"
-                                                                  , "qg/Em^3"
+                                                                  , "qg/Em³"
                                                                   , RontogramPerCubicPetameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6314,7 +6314,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicKilometer = new (
                                                                   "exagram per cubic kilometer"
-                                                                , "Eg/km^3"
+                                                                , "Eg/km³"
                                                                 , PetagramPerCubicHectometer
                                                                 , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                 , 0
@@ -6325,7 +6325,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicPetameter = new (
                                                                    "megagram per cubic petameter"
-                                                                 , "Mg/Pm^3"
+                                                                 , "Mg/Pm³"
                                                                  , KilogramPerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6336,7 +6336,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicDekameter = new (
                                                                     "ronnagram per cubic dekameter"
-                                                                  , "Rg/dam^3"
+                                                                  , "Rg/dam³"
                                                                   , YottagramPerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -6347,7 +6347,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicMegameter = new (
                                                                    "petagram per cubic megameter"
-                                                                 , "Pg/Mm^3"
+                                                                 , "Pg/Mm³"
                                                                  , TeragramPerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6358,7 +6358,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicTerameter = new (
                                                                    "gigagram per cubic terameter"
-                                                                 , "Gg/Tm^3"
+                                                                 , "Gg/Tm³"
                                                                  , MegagramPerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6369,7 +6369,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicYottameter = new (
                                                                      "rontogram per cubic yottameter"
-                                                                   , "rg/Ym^3"
+                                                                   , "rg/Ym³"
                                                                    , YoctogramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6380,7 +6380,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicGigameter = new (
                                                                    "teragram per cubic gigameter"
-                                                                 , "Tg/Gm^3"
+                                                                 , "Tg/Gm³"
                                                                  , GigagramPerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6391,7 +6391,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YoctogramPerCubicQuettameter = new (
                                                                       "yoctogram per cubic quettameter"
-                                                                    , "yg/Qm^3"
+                                                                    , "yg/Qm³"
                                                                     , ZeptogramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -6402,7 +6402,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicHectometer = new (
                                                                      "yottagram per cubic hectometer"
-                                                                   , "Yg/hm^3"
+                                                                   , "Yg/hm³"
                                                                    , ZettagramPerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -6413,7 +6413,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicZettameter = new (
                                                                       "quectogram per cubic zettameter"
-                                                                    , "qg/Zm^3"
+                                                                    , "qg/Zm³"
                                                                     , RontogramPerCubicExameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -6424,7 +6424,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicKilometer = new (
                                                                     "zettagram per cubic kilometer"
-                                                                  , "Zg/km^3"
+                                                                  , "Zg/km³"
                                                                   , ExagramPerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -6435,7 +6435,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicExameter = new (
                                                                   "megagram per cubic exameter"
-                                                                , "Mg/Em^3"
+                                                                , "Mg/Em³"
                                                                 , KilogramPerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -6446,7 +6446,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicDekameter = new (
                                                                      "quettagram per cubic dekameter"
-                                                                   , "Qg/dam^3"
+                                                                   , "Qg/dam³"
                                                                    , RonnagramPerCubicMeter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -6457,7 +6457,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicRonnameter = new (
                                                                      "rontogram per cubic ronnameter"
-                                                                   , "rg/Rm^3"
+                                                                   , "rg/Rm³"
                                                                    , YoctogramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6468,7 +6468,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicMegameter = new (
                                                                   "exagram per cubic megameter"
-                                                                , "Eg/Mm^3"
+                                                                , "Eg/Mm³"
                                                                 , PetagramPerCubicKilometer
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -6479,7 +6479,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicPetameter = new (
                                                                    "gigagram per cubic petameter"
-                                                                 , "Gg/Pm^3"
+                                                                 , "Gg/Pm³"
                                                                  , MegagramPerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6490,7 +6490,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicGigameter = new (
                                                                    "petagram per cubic gigameter"
-                                                                 , "Pg/Gm^3"
+                                                                 , "Pg/Gm³"
                                                                  , TeragramPerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6501,7 +6501,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicTerameter = new (
                                                                    "teragram per cubic terameter"
-                                                                 , "Tg/Tm^3"
+                                                                 , "Tg/Tm³"
                                                                  , GigagramPerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6512,7 +6512,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicHectometer = new (
                                                                      "ronnagram per cubic hectometer"
-                                                                   , "Rg/hm^3"
+                                                                   , "Rg/hm³"
                                                                    , YottagramPerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -6523,7 +6523,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicYottameter = new (
                                                                       "quectogram per cubic yottameter"
-                                                                    , "qg/Ym^3"
+                                                                    , "qg/Ym³"
                                                                     , RontogramPerCubicZettameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -6534,7 +6534,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RontogramPerCubicQuettameter = new (
                                                                       "rontogram per cubic quettameter"
-                                                                    , "rg/Qm^3"
+                                                                    , "rg/Qm³"
                                                                     , YoctogramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -6545,7 +6545,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicKilometer = new (
                                                                     "yottagram per cubic kilometer"
-                                                                  , "Yg/km^3"
+                                                                  , "Yg/km³"
                                                                   , ZettagramPerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -6556,7 +6556,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicZettameter = new (
                                                                     "megagram per cubic zettameter"
-                                                                  , "Mg/Zm^3"
+                                                                  , "Mg/Zm³"
                                                                   , KilogramPerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6567,7 +6567,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicMegameter = new (
                                                                     "zettagram per cubic megameter"
-                                                                  , "Zg/Mm^3"
+                                                                  , "Zg/Mm³"
                                                                   , ExagramPerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6578,7 +6578,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicExameter = new (
                                                                   "gigagram per cubic exameter"
-                                                                , "Gg/Em^3"
+                                                                , "Gg/Em³"
                                                                 , MegagramPerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -6589,7 +6589,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicGigameter = new (
                                                                   "exagram per cubic gigameter"
-                                                                , "Eg/Gm^3"
+                                                                , "Eg/Gm³"
                                                                 , PetagramPerCubicMegameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -6600,7 +6600,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicPetameter = new (
                                                                    "teragram per cubic petameter"
-                                                                 , "Tg/Pm^3"
+                                                                 , "Tg/Pm³"
                                                                  , GigagramPerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6611,7 +6611,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicHectometer = new (
                                                                       "quettagram per cubic hectometer"
-                                                                    , "Qg/hm^3"
+                                                                    , "Qg/hm³"
                                                                     , RonnagramPerCubicDekameter
                                                                     , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                     , 0
@@ -6622,7 +6622,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicTerameter = new (
                                                                    "petagram per cubic terameter"
-                                                                 , "Pg/Tm^3"
+                                                                 , "Pg/Tm³"
                                                                  , TeragramPerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6633,7 +6633,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicRonnameter = new (
                                                                       "quectogram per cubic ronnameter"
-                                                                    , "qg/Rm^3"
+                                                                    , "qg/Rm³"
                                                                     , RontogramPerCubicYottameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -6644,7 +6644,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicKilometer = new (
                                                                     "ronnagram per cubic kilometer"
-                                                                  , "Rg/km^3"
+                                                                  , "Rg/km³"
                                                                   , YottagramPerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -6655,7 +6655,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicYottameter = new (
                                                                     "megagram per cubic yottameter"
-                                                                  , "Mg/Ym^3"
+                                                                  , "Mg/Ym³"
                                                                   , KilogramPerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6666,7 +6666,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicMegameter = new (
                                                                     "yottagram per cubic megameter"
-                                                                  , "Yg/Mm^3"
+                                                                  , "Yg/Mm³"
                                                                   , ZettagramPerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6677,7 +6677,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicZettameter = new (
                                                                     "gigagram per cubic zettameter"
-                                                                  , "Gg/Zm^3"
+                                                                  , "Gg/Zm³"
                                                                   , MegagramPerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6688,7 +6688,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuectogramPerCubicQuettameter = new (
                                                                        "quectogram per cubic quettameter"
-                                                                     , "qg/Qm^3"
+                                                                     , "qg/Qm³"
                                                                      , RontogramPerCubicRonnameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                      , 0
@@ -6699,7 +6699,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicGigameter = new (
                                                                     "zettagram per cubic gigameter"
-                                                                  , "Zg/Gm^3"
+                                                                  , "Zg/Gm³"
                                                                   , ExagramPerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6710,7 +6710,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicExameter = new (
                                                                   "teragram per cubic exameter"
-                                                                , "Tg/Em^3"
+                                                                , "Tg/Em³"
                                                                 , GigagramPerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -6721,7 +6721,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicTerameter = new (
                                                                   "exagram per cubic terameter"
-                                                                , "Eg/Tm^3"
+                                                                , "Eg/Tm³"
                                                                 , PetagramPerCubicGigameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -6732,7 +6732,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicPetameter = new (
                                                                    "petagram per cubic petameter"
-                                                                 , "Pg/Pm^3"
+                                                                 , "Pg/Pm³"
                                                                  , TeragramPerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -6743,7 +6743,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicKilometer = new (
                                                                      "quettagram per cubic kilometer"
-                                                                   , "Qg/km^3"
+                                                                   , "Qg/km³"
                                                                    , RonnagramPerCubicHectometer
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -6754,7 +6754,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicRonnameter = new (
                                                                     "megagram per cubic ronnameter"
-                                                                  , "Mg/Rm^3"
+                                                                  , "Mg/Rm³"
                                                                   , KilogramPerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6765,7 +6765,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicMegameter = new (
                                                                     "ronnagram per cubic megameter"
-                                                                  , "Rg/Mm^3"
+                                                                  , "Rg/Mm³"
                                                                   , YottagramPerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6776,7 +6776,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicYottameter = new (
                                                                     "gigagram per cubic yottameter"
-                                                                  , "Gg/Ym^3"
+                                                                  , "Gg/Ym³"
                                                                   , MegagramPerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6787,7 +6787,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicGigameter = new (
                                                                     "yottagram per cubic gigameter"
-                                                                  , "Yg/Gm^3"
+                                                                  , "Yg/Gm³"
                                                                   , ZettagramPerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6798,7 +6798,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicZettameter = new (
                                                                     "teragram per cubic zettameter"
-                                                                  , "Tg/Zm^3"
+                                                                  , "Tg/Zm³"
                                                                   , GigagramPerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6809,7 +6809,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicTerameter = new (
                                                                     "zettagram per cubic terameter"
-                                                                  , "Zg/Tm^3"
+                                                                  , "Zg/Tm³"
                                                                   , ExagramPerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6820,7 +6820,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicExameter = new (
                                                                   "petagram per cubic exameter"
-                                                                , "Pg/Em^3"
+                                                                , "Pg/Em³"
                                                                 , TeragramPerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -6831,7 +6831,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicPetameter = new (
                                                                   "exagram per cubic petameter"
-                                                                , "Eg/Pm^3"
+                                                                , "Eg/Pm³"
                                                                 , PetagramPerCubicTerameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                 , 0
@@ -6842,7 +6842,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MegagramPerCubicQuettameter = new (
                                                                      "megagram per cubic quettameter"
-                                                                   , "Mg/Qm^3"
+                                                                   , "Mg/Qm³"
                                                                    , KilogramPerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6853,7 +6853,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicMegameter = new (
                                                                      "quettagram per cubic megameter"
-                                                                   , "Qg/Mm^3"
+                                                                   , "Qg/Mm³"
                                                                    , RonnagramPerCubicKilometer
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6864,7 +6864,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicRonnameter = new (
                                                                     "gigagram per cubic ronnameter"
-                                                                  , "Gg/Rm^3"
+                                                                  , "Gg/Rm³"
                                                                   , MegagramPerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6875,7 +6875,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicGigameter = new (
                                                                     "ronnagram per cubic gigameter"
-                                                                  , "Rg/Gm^3"
+                                                                  , "Rg/Gm³"
                                                                   , YottagramPerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6886,7 +6886,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicYottameter = new (
                                                                     "teragram per cubic yottameter"
-                                                                  , "Tg/Ym^3"
+                                                                  , "Tg/Ym³"
                                                                   , GigagramPerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6897,7 +6897,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicTerameter = new (
                                                                     "yottagram per cubic terameter"
-                                                                  , "Yg/Tm^3"
+                                                                  , "Yg/Tm³"
                                                                   , ZettagramPerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6908,7 +6908,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicZettameter = new (
                                                                     "petagram per cubic zettameter"
-                                                                  , "Pg/Zm^3"
+                                                                  , "Pg/Zm³"
                                                                   , TeragramPerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6919,7 +6919,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicPetameter = new (
                                                                     "zettagram per cubic petameter"
-                                                                  , "Zg/Pm^3"
+                                                                  , "Zg/Pm³"
                                                                   , ExagramPerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6930,7 +6930,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicExameter = new (
                                                                  "exagram per cubic exameter"
-                                                               , "Eg/Em^3"
+                                                               , "Eg/Em³"
                                                                , PetagramPerCubicPetameter
                                                                , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                , 0
@@ -6941,7 +6941,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density GigagramPerCubicQuettameter = new (
                                                                      "gigagram per cubic quettameter"
-                                                                   , "Gg/Qm^3"
+                                                                   , "Gg/Qm³"
                                                                    , MegagramPerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6952,7 +6952,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicGigameter = new (
                                                                      "quettagram per cubic gigameter"
-                                                                   , "Qg/Gm^3"
+                                                                   , "Qg/Gm³"
                                                                    , RonnagramPerCubicMegameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -6963,7 +6963,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicRonnameter = new (
                                                                     "teragram per cubic ronnameter"
-                                                                  , "Tg/Rm^3"
+                                                                  , "Tg/Rm³"
                                                                   , GigagramPerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6974,7 +6974,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicTerameter = new (
                                                                     "ronnagram per cubic terameter"
-                                                                  , "Rg/Tm^3"
+                                                                  , "Rg/Tm³"
                                                                   , YottagramPerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6985,7 +6985,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicYottameter = new (
                                                                     "petagram per cubic yottameter"
-                                                                  , "Pg/Ym^3"
+                                                                  , "Pg/Ym³"
                                                                   , TeragramPerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -6996,7 +6996,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicPetameter = new (
                                                                     "yottagram per cubic petameter"
-                                                                  , "Yg/Pm^3"
+                                                                  , "Yg/Pm³"
                                                                   , ZettagramPerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7007,7 +7007,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicZettameter = new (
                                                                    "exagram per cubic zettameter"
-                                                                 , "Eg/Zm^3"
+                                                                 , "Eg/Zm³"
                                                                  , PetagramPerCubicExameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -7018,7 +7018,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicExameter = new (
                                                                    "zettagram per cubic exameter"
-                                                                 , "Zg/Em^3"
+                                                                 , "Zg/Em³"
                                                                  , ExagramPerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -7029,7 +7029,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density TeragramPerCubicQuettameter = new (
                                                                      "teragram per cubic quettameter"
-                                                                   , "Tg/Qm^3"
+                                                                   , "Tg/Qm³"
                                                                    , GigagramPerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7040,7 +7040,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicTerameter = new (
                                                                      "quettagram per cubic terameter"
-                                                                   , "Qg/Tm^3"
+                                                                   , "Qg/Tm³"
                                                                    , RonnagramPerCubicGigameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7051,7 +7051,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicRonnameter = new (
                                                                     "petagram per cubic ronnameter"
-                                                                  , "Pg/Rm^3"
+                                                                  , "Pg/Rm³"
                                                                   , TeragramPerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7062,7 +7062,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicPetameter = new (
                                                                     "ronnagram per cubic petameter"
-                                                                  , "Rg/Pm^3"
+                                                                  , "Rg/Pm³"
                                                                   , YottagramPerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7073,7 +7073,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicYottameter = new (
                                                                    "exagram per cubic yottameter"
-                                                                 , "Eg/Ym^3"
+                                                                 , "Eg/Ym³"
                                                                  , PetagramPerCubicZettameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -7084,7 +7084,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicExameter = new (
                                                                    "yottagram per cubic exameter"
-                                                                 , "Yg/Em^3"
+                                                                 , "Yg/Em³"
                                                                  , ZettagramPerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -7095,7 +7095,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicZettameter = new (
                                                                      "zettagram per cubic zettameter"
-                                                                   , "Zg/Zm^3"
+                                                                   , "Zg/Zm³"
                                                                    , ExagramPerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7106,7 +7106,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density PetagramPerCubicQuettameter = new (
                                                                      "petagram per cubic quettameter"
-                                                                   , "Pg/Qm^3"
+                                                                   , "Pg/Qm³"
                                                                    , TeragramPerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7117,7 +7117,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicPetameter = new (
                                                                      "quettagram per cubic petameter"
-                                                                   , "Qg/Pm^3"
+                                                                   , "Qg/Pm³"
                                                                    , RonnagramPerCubicTerameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7128,7 +7128,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicRonnameter = new (
                                                                    "exagram per cubic ronnameter"
-                                                                 , "Eg/Rm^3"
+                                                                 , "Eg/Rm³"
                                                                  , PetagramPerCubicYottameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -7139,7 +7139,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicExameter = new (
                                                                    "ronnagram per cubic exameter"
-                                                                 , "Rg/Em^3"
+                                                                 , "Rg/Em³"
                                                                  , YottagramPerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -7150,7 +7150,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicYottameter = new (
                                                                      "zettagram per cubic yottameter"
-                                                                   , "Zg/Ym^3"
+                                                                   , "Zg/Ym³"
                                                                    , ExagramPerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7161,7 +7161,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicZettameter = new (
                                                                      "yottagram per cubic zettameter"
-                                                                   , "Yg/Zm^3"
+                                                                   , "Yg/Zm³"
                                                                    , ZettagramPerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7172,7 +7172,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ExagramPerCubicQuettameter = new (
                                                                     "exagram per cubic quettameter"
-                                                                  , "Eg/Qm^3"
+                                                                  , "Eg/Qm³"
                                                                   , PetagramPerCubicRonnameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7183,7 +7183,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicExameter = new (
                                                                     "quettagram per cubic exameter"
-                                                                  , "Qg/Em^3"
+                                                                  , "Qg/Em³"
                                                                   , RonnagramPerCubicPetameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7194,7 +7194,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicRonnameter = new (
                                                                      "zettagram per cubic ronnameter"
-                                                                   , "Zg/Rm^3"
+                                                                   , "Zg/Rm³"
                                                                    , ExagramPerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7205,7 +7205,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicZettameter = new (
                                                                      "ronnagram per cubic zettameter"
-                                                                   , "Rg/Zm^3"
+                                                                   , "Rg/Zm³"
                                                                    , YottagramPerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7216,7 +7216,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicYottameter = new (
                                                                      "yottagram per cubic yottameter"
-                                                                   , "Yg/Ym^3"
+                                                                   , "Yg/Ym³"
                                                                    , ZettagramPerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7227,7 +7227,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density ZettagramPerCubicQuettameter = new (
                                                                       "zettagram per cubic quettameter"
-                                                                    , "Zg/Qm^3"
+                                                                    , "Zg/Qm³"
                                                                     , ExagramPerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -7238,7 +7238,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicZettameter = new (
                                                                       "quettagram per cubic zettameter"
-                                                                    , "Qg/Zm^3"
+                                                                    , "Qg/Zm³"
                                                                     , RonnagramPerCubicExameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -7249,7 +7249,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicRonnameter = new (
                                                                      "yottagram per cubic ronnameter"
-                                                                   , "Yg/Rm^3"
+                                                                   , "Yg/Rm³"
                                                                    , ZettagramPerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7260,7 +7260,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicYottameter = new (
                                                                      "ronnagram per cubic yottameter"
-                                                                   , "Rg/Ym^3"
+                                                                   , "Rg/Ym³"
                                                                    , YottagramPerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7271,7 +7271,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density YottagramPerCubicQuettameter = new (
                                                                       "yottagram per cubic quettameter"
-                                                                    , "Yg/Qm^3"
+                                                                    , "Yg/Qm³"
                                                                     , ZettagramPerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -7282,7 +7282,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicYottameter = new (
                                                                       "quettagram per cubic yottameter"
-                                                                    , "Qg/Ym^3"
+                                                                    , "Qg/Ym³"
                                                                     , RonnagramPerCubicZettameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -7293,7 +7293,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicRonnameter = new (
                                                                      "ronnagram per cubic ronnameter"
-                                                                   , "Rg/Rm^3"
+                                                                   , "Rg/Rm³"
                                                                    , YottagramPerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7304,7 +7304,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density RonnagramPerCubicQuettameter = new (
                                                                       "ronnagram per cubic quettameter"
-                                                                    , "Rg/Qm^3"
+                                                                    , "Rg/Qm³"
                                                                     , YottagramPerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -7315,7 +7315,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicRonnameter = new (
                                                                       "quettagram per cubic ronnameter"
-                                                                    , "Qg/Rm^3"
+                                                                    , "Qg/Rm³"
                                                                     , RonnagramPerCubicYottameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0
@@ -7326,7 +7326,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density QuettagramPerCubicQuettameter = new (
                                                                        "quettagram per cubic quettameter"
-                                                                     , "Qg/Qm^3"
+                                                                     , "Qg/Qm³"
                                                                      , RonnagramPerCubicRonnameter
                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
                                                                      , 0
@@ -7337,7 +7337,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicMeter = new (
                                                                 "metric ton per cubic meter"
-                                                              , "mt/m^3"
+                                                              , "mt/m³"
                                                               , MegagramPerCubicMeter
                                                               , 1.0 / (1.0 * 1.0 * 1.0)
                                                               , 0
@@ -7348,7 +7348,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicDecimeter = new (
                                                                     "metric ton per cubic decimeter"
-                                                                  , "mt/dm^3"
+                                                                  , "mt/dm³"
                                                                   , MegagramPerCubicMeter
                                                                   , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                   , 0
@@ -7359,7 +7359,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicCentimeter = new (
                                                                      "metric ton per cubic centimeter"
-                                                                   , "mt/cm^3"
+                                                                   , "mt/cm³"
                                                                    , MegagramPerCubicDecimeter
                                                                    , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -7370,7 +7370,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicMillimeter = new (
                                                                      "metric ton per cubic millimeter"
-                                                                   , "mt/mm^3"
+                                                                   , "mt/mm³"
                                                                    , MegagramPerCubicCentimeter
                                                                    , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                    , 0
@@ -7381,7 +7381,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicMicrometer = new (
                                                                      "metric ton per cubic micrometer"
-                                                                   , "mt/μm^3"
+                                                                   , "mt/μm³"
                                                                    , MegagramPerCubicMillimeter
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7393,7 +7393,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicNanometer = new (
                                                                     "metric ton per cubic nanometer"
-                                                                  , "mt/nm^3"
+                                                                  , "mt/nm³"
                                                                   , MegagramPerCubicMicrometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7405,7 +7405,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicPicometer = new (
                                                                     "metric ton per cubic picometer"
-                                                                  , "mt/pm^3"
+                                                                  , "mt/pm³"
                                                                   , MegagramPerCubicNanometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7417,7 +7417,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicFemtometer = new (
                                                                      "metric ton per cubic femtometer"
-                                                                   , "mt/fm^3"
+                                                                   , "mt/fm³"
                                                                    , MegagramPerCubicPicometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7429,7 +7429,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicAttometer = new (
                                                                     "metric ton per cubic attometer"
-                                                                  , "mt/am^3"
+                                                                  , "mt/am³"
                                                                   , MegagramPerCubicFemtometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7441,7 +7441,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicZeptometer = new (
                                                                      "metric ton per cubic zeptometer"
-                                                                   , "mt/zm^3"
+                                                                   , "mt/zm³"
                                                                    , MegagramPerCubicAttometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7453,7 +7453,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicYoctometer = new (
                                                                      "metric ton per cubic yoctometer"
-                                                                   , "mt/ym^3"
+                                                                   , "mt/ym³"
                                                                    , MegagramPerCubicZeptometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7465,7 +7465,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicRontometer = new (
                                                                      "metric ton per cubic rontometer"
-                                                                   , "mt/rm^3"
+                                                                   , "mt/rm³"
                                                                    , MegagramPerCubicYoctometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7477,7 +7477,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicQuectometer = new (
                                                                       "metric ton per cubic quectometer"
-                                                                    , "mt/qm^3"
+                                                                    , "mt/qm³"
                                                                     , MegagramPerCubicRontometer
                                                                     , 1.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
@@ -7489,7 +7489,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicDekameter = new (
                                                                     "metric ton per cubic dekameter"
-                                                                  , "mt/dam^3"
+                                                                  , "mt/dam³"
                                                                   , MegagramPerCubicMeter
                                                                   , 1.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -7500,7 +7500,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicHectometer = new (
                                                                      "metric ton per cubic hectometer"
-                                                                   , "mt/hm^3"
+                                                                   , "mt/hm³"
                                                                    , MegagramPerCubicDekameter
                                                                    , 1.0 / (10.0 * 10.0 * 10.0)
                                                                    , 0
@@ -7511,7 +7511,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicKilometer = new (
                                                                     "metric ton per cubic kilometer"
-                                                                  , "mt/km^3"
+                                                                  , "mt/km³"
                                                                   , MegagramPerCubicHectometer
                                                                   , 1.0 / (10.0 * 10.0 * 10.0)
                                                                   , 0
@@ -7522,7 +7522,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicMegameter = new (
                                                                     "metric ton per cubic megameter"
-                                                                  , "mt/Mm^3"
+                                                                  , "mt/Mm³"
                                                                   , MegagramPerCubicKilometer
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7533,7 +7533,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicGigameter = new (
                                                                     "metric ton per cubic gigameter"
-                                                                  , "mt/Gm^3"
+                                                                  , "mt/Gm³"
                                                                   , MegagramPerCubicMegameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7544,7 +7544,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicTerameter = new (
                                                                     "metric ton per cubic terameter"
-                                                                  , "mt/Tm^3"
+                                                                  , "mt/Tm³"
                                                                   , MegagramPerCubicGigameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7555,7 +7555,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicPetameter = new (
                                                                     "metric ton per cubic petameter"
-                                                                  , "mt/Pm^3"
+                                                                  , "mt/Pm³"
                                                                   , MegagramPerCubicTerameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                   , 0
@@ -7566,7 +7566,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicExameter = new (
                                                                    "metric ton per cubic exameter"
-                                                                 , "mt/Em^3"
+                                                                 , "mt/Em³"
                                                                  , MegagramPerCubicPetameter
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                  , 0
@@ -7577,7 +7577,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicZettameter = new (
                                                                      "metric ton per cubic zettameter"
-                                                                   , "mt/Zm^3"
+                                                                   , "mt/Zm³"
                                                                    , MegagramPerCubicExameter
                                                                    , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7588,7 +7588,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicYottameter = new (
                                                                      "metric ton per cubic yottameter"
-                                                                   , "mt/Ym^3"
+                                                                   , "mt/Ym³"
                                                                    , MegagramPerCubicZettameter
                                                                    , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7599,7 +7599,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicRonnameter = new (
                                                                      "metric ton per cubic ronnameter"
-                                                                   , "mt/Rm^3"
+                                                                   , "mt/Rm³"
                                                                    , MegagramPerCubicYottameter
                                                                    , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    , 0
@@ -7610,7 +7610,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// </summary>
    public static readonly Density MetricTonPerCubicQuettameter = new (
                                                                       "metric ton per cubic quettameter"
-                                                                    , "mt/Qm^3"
+                                                                    , "mt/Qm³"
                                                                     , MegagramPerCubicRonnameter
                                                                     , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                     , 0

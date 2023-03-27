@@ -145,7 +145,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                                    length.System.Name
                                  , area.Name
                                  , $"square {length.UnitName}"
-                                 , $"{length.Symbol}^2"
+                                 , $"{length.Symbol}²"
                                  , length.Unit.PrefixScale
                                  , length.Unit.PrefixExponentsToInclude
                                  , length.Prefix.IsBasePrefix ? length.Unit.BaseUnitSystem : length.System.Name
@@ -173,7 +173,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                                    length.System.Name
                                  , volume.Name
                                  , $"cubic {length.UnitName}"
-                                 , $"{length.Symbol}^3"
+                                 , $"{length.Symbol}³"
                                  , length.Unit.PrefixScale
                                  , length.Unit.PrefixExponentsToInclude
                                  , length.Prefix.IsBasePrefix ? length.Unit.BaseUnitSystem : length.System.Name

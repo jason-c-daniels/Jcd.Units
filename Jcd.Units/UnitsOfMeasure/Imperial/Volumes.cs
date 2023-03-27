@@ -22,7 +22,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicInch = new (
                                                   "cubic inch"
-                                                , "in.^3"
+                                                , "in.³"
                                                 , SI.Volumes.CubicCentimeter
                                                 , 2.54 * 2.54 * 2.54
                                                 , 0
@@ -36,7 +36,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic foot. Defined in terms of a(n) cubic inch.
    /// </summary>
-   public static readonly Volume CubicFoot = new ("cubic foot", "ft.^3", CubicInch, 12 * 12 * 12, 0);
+   public static readonly Volume CubicFoot = new ("cubic foot", "ft.³", CubicInch, 12 * 12 * 12, 0);
 
    /// <summary>
    /// A(n) pint. Defined in terms of a(n) fluid ounce.
@@ -48,7 +48,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicTwip = new (
                                                   "cubic twip"
-                                                , "twip^3"
+                                                , "twip³"
                                                 , CubicFoot
                                                 , 1.0 / 17280.0 * (1.0 / 17280.0) * (1.0 / 17280.0)
                                                 , 0
@@ -64,7 +64,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicThou = new (
                                                   "cubic thou"
-                                                , "th^3"
+                                                , "th³"
                                                 , CubicFoot
                                                 , 1.0 / 12000.0 * (1.0 / 12000.0) * (1.0 / 12000.0)
                                                 , 0
@@ -80,7 +80,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicBarleycorn = new (
                                                         "cubic barleycorn"
-                                                      , "barleycorn^3"
+                                                      , "barleycorn³"
                                                       , CubicFoot
                                                       , 1.0 / 36.0 * (1.0 / 36.0) * (1.0 / 36.0)
                                                       , 0
@@ -94,7 +94,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic hand. Defined in terms of a(n) cubic inch.
    /// </summary>
-   public static readonly Volume CubicHand = new ("cubic hand", "hh^3", CubicInch, 4.0 * 4.0 * 4.0, 0);
+   public static readonly Volume CubicHand = new ("cubic hand", "hh³", CubicInch, 4.0 * 4.0 * 4.0, 0);
 
    /// <summary>
    /// A(n) quarter. Defined in terms of a(n) bushel.
@@ -104,7 +104,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic yard. Defined in terms of a(n) cubic foot.
    /// </summary>
-   public static readonly Volume CubicYard = new ("cubic yard", "yd^3", CubicFoot, 3.0 * 3.0 * 3.0, 0);
+   public static readonly Volume CubicYard = new ("cubic yard", "yd³", CubicFoot, 3.0 * 3.0 * 3.0, 0);
 
    /// <summary>
    /// A(n) minim. Defined in terms of a(n) pint.
@@ -114,7 +114,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic chain. Defined in terms of a(n) cubic yard.
    /// </summary>
-   public static readonly Volume CubicChain = new ("cubic chain", "ch^3", CubicYard, 22.0 * 22.0 * 22.0, 0);
+   public static readonly Volume CubicChain = new ("cubic chain", "ch³", CubicYard, 22.0 * 22.0 * 22.0, 0);
 
    /// <summary>
    /// A(n) fluid scruple. Defined in terms of a(n) minim.
@@ -124,7 +124,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic furlong. Defined in terms of a(n) cubic chain.
    /// </summary>
-   public static readonly Volume CubicFurlong = new ("cubic furlong", "fur^3", CubicChain, 10.0 * 10.0 * 10.0, 0);
+   public static readonly Volume CubicFurlong = new ("cubic furlong", "fur³", CubicChain, 10.0 * 10.0 * 10.0, 0);
 
    /// <summary>
    /// A(n) fluid drachm. Defined in terms of a(n) fluid scruple.
@@ -134,29 +134,29 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic mile. Defined in terms of a(n) cubic furlong.
    /// </summary>
-   public static readonly Volume CubicMile = new ("cubic mile", "mi^3", CubicFurlong, 8.0 * 8.0 * 8.0, 0);
+   public static readonly Volume CubicMile = new ("cubic mile", "mi³", CubicFurlong, 8.0 * 8.0 * 8.0, 0);
 
    /// <summary>
    /// A(n) cubic league. Defined in terms of a(n) cubic mile.
    /// </summary>
-   public static readonly Volume CubicLeague = new ("cubic league", "lea^3", CubicMile, 3.0 * 3.0 * 3.0, 0);
+   public static readonly Volume CubicLeague = new ("cubic league", "lea³", CubicMile, 3.0 * 3.0 * 3.0, 0);
 
    /// <summary>
    /// A(n) cubic fathom. Defined in terms of a(n) cubic foot.
    /// </summary>
-   public static readonly Volume CubicFathom = new ("cubic fathom", "ftm^3", CubicFoot, 6.0 * 6.0 * 6.0, 0);
+   public static readonly Volume CubicFathom = new ("cubic fathom", "ftm³", CubicFoot, 6.0 * 6.0 * 6.0, 0);
 
    /// <summary>
    /// A(n) cubic cable. Defined in terms of a(n) cubic fathom.
    /// </summary>
-   public static readonly Volume CubicCable = new ("cubic cable", "cable^3", CubicFathom, 100.0 * 100.0 * 100.0, 0);
+   public static readonly Volume CubicCable = new ("cubic cable", "cable³", CubicFathom, 100.0 * 100.0 * 100.0, 0);
 
    /// <summary>
    /// A(n) cubic nautical mile. Defined in terms of a(n) cubic cable.
    /// </summary>
    public static readonly Volume CubicNauticalMile = new (
                                                           "cubic nautical mile"
-                                                        , "nmi^3"
+                                                        , "nmi³"
                                                         , CubicCable
                                                         , 10.0 * 10.0 * 10.0
                                                         , 0

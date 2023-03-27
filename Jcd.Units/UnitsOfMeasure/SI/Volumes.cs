@@ -20,14 +20,14 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic meter.
    /// </summary>
-   public static readonly Volume CubicMeter = new ("cubic meter", "m^3");
+   public static readonly Volume CubicMeter = new ("cubic meter", "m³");
 
    /// <summary>
    /// A(n) cubic decimeter. Defined in terms of a(n) cubic meter.
    /// </summary>
    public static readonly Volume CubicDecimeter = new (
                                                        "cubic decimeter"
-                                                     , "dm^3"
+                                                     , "dm³"
                                                      , CubicMeter
                                                      , 1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0)
                                                      , 0
@@ -38,7 +38,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicCentimeter = new (
                                                         "cubic centimeter"
-                                                      , "cm^3"
+                                                      , "cm³"
                                                       , CubicDecimeter
                                                       , 1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0)
                                                       , 0
@@ -49,7 +49,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicMillimeter = new (
                                                         "cubic millimeter"
-                                                      , "mm^3"
+                                                      , "mm³"
                                                       , CubicCentimeter
                                                       , 1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0)
                                                       , 0
@@ -60,7 +60,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicMicrometer = new (
                                                         "cubic micrometer"
-                                                      , "μm^3"
+                                                      , "μm³"
                                                       , CubicMillimeter
                                                       , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                       , 0
@@ -71,7 +71,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicNanometer = new (
                                                        "cubic nanometer"
-                                                     , "nm^3"
+                                                     , "nm³"
                                                      , CubicMicrometer
                                                      , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                      , 0
@@ -82,7 +82,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicPicometer = new (
                                                        "cubic picometer"
-                                                     , "pm^3"
+                                                     , "pm³"
                                                      , CubicNanometer
                                                      , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                      , 0
@@ -93,7 +93,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicFemtometer = new (
                                                         "cubic femtometer"
-                                                      , "fm^3"
+                                                      , "fm³"
                                                       , CubicPicometer
                                                       , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                       , 0
@@ -104,7 +104,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicAttometer = new (
                                                        "cubic attometer"
-                                                     , "am^3"
+                                                     , "am³"
                                                      , CubicFemtometer
                                                      , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                      , 0
@@ -115,7 +115,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicZeptometer = new (
                                                         "cubic zeptometer"
-                                                      , "zm^3"
+                                                      , "zm³"
                                                       , CubicAttometer
                                                       , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                       , 0
@@ -126,7 +126,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicYoctometer = new (
                                                         "cubic yoctometer"
-                                                      , "ym^3"
+                                                      , "ym³"
                                                       , CubicZeptometer
                                                       , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                       , 0
@@ -137,7 +137,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicRontometer = new (
                                                         "cubic rontometer"
-                                                      , "rm^3"
+                                                      , "rm³"
                                                       , CubicYoctometer
                                                       , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                       , 0
@@ -148,7 +148,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicQuectometer = new (
                                                          "cubic quectometer"
-                                                       , "qm^3"
+                                                       , "qm³"
                                                        , CubicRontometer
                                                        , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
                                                        , 0
@@ -157,14 +157,14 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic dekameter. Defined in terms of a(n) cubic meter.
    /// </summary>
-   public static readonly Volume CubicDekameter = new ("cubic dekameter", "dam^3", CubicMeter, 10.0 * 10.0 * 10.0, 0);
+   public static readonly Volume CubicDekameter = new ("cubic dekameter", "dam³", CubicMeter, 10.0 * 10.0 * 10.0, 0);
 
    /// <summary>
    /// A(n) cubic hectometer. Defined in terms of a(n) cubic dekameter.
    /// </summary>
    public static readonly Volume CubicHectometer = new (
                                                         "cubic hectometer"
-                                                      , "hm^3"
+                                                      , "hm³"
                                                       , CubicDekameter
                                                       , 10.0 * 10.0 * 10.0
                                                       , 0
@@ -175,7 +175,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicKilometer = new (
                                                        "cubic kilometer"
-                                                     , "km^3"
+                                                     , "km³"
                                                      , CubicHectometer
                                                      , 10.0 * 10.0 * 10.0
                                                      , 0
@@ -186,7 +186,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicMegameter = new (
                                                        "cubic megameter"
-                                                     , "Mm^3"
+                                                     , "Mm³"
                                                      , CubicKilometer
                                                      , 1000.0 * 1000.0 * 1000.0
                                                      , 0
@@ -197,7 +197,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicGigameter = new (
                                                        "cubic gigameter"
-                                                     , "Gm^3"
+                                                     , "Gm³"
                                                      , CubicMegameter
                                                      , 1000.0 * 1000.0 * 1000.0
                                                      , 0
@@ -208,7 +208,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicTerameter = new (
                                                        "cubic terameter"
-                                                     , "Tm^3"
+                                                     , "Tm³"
                                                      , CubicGigameter
                                                      , 1000.0 * 1000.0 * 1000.0
                                                      , 0
@@ -219,7 +219,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicPetameter = new (
                                                        "cubic petameter"
-                                                     , "Pm^3"
+                                                     , "Pm³"
                                                      , CubicTerameter
                                                      , 1000.0 * 1000.0 * 1000.0
                                                      , 0
@@ -230,7 +230,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicExameter = new (
                                                       "cubic exameter"
-                                                    , "Em^3"
+                                                    , "Em³"
                                                     , CubicPetameter
                                                     , 1000.0 * 1000.0 * 1000.0
                                                     , 0
@@ -241,7 +241,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicZettameter = new (
                                                         "cubic zettameter"
-                                                      , "Zm^3"
+                                                      , "Zm³"
                                                       , CubicExameter
                                                       , 1000.0 * 1000.0 * 1000.0
                                                       , 0
@@ -252,7 +252,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicYottameter = new (
                                                         "cubic yottameter"
-                                                      , "Ym^3"
+                                                      , "Ym³"
                                                       , CubicZettameter
                                                       , 1000.0 * 1000.0 * 1000.0
                                                       , 0
@@ -263,7 +263,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicRonnameter = new (
                                                         "cubic ronnameter"
-                                                      , "Rm^3"
+                                                      , "Rm³"
                                                       , CubicYottameter
                                                       , 1000.0 * 1000.0 * 1000.0
                                                       , 0
@@ -274,7 +274,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicQuettameter = new (
                                                          "cubic quettameter"
-                                                       , "Qm^3"
+                                                       , "Qm³"
                                                        , CubicRonnameter
                                                        , 1000.0 * 1000.0 * 1000.0
                                                        , 0

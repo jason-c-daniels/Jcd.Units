@@ -20,24 +20,24 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    /// <summary>
    /// A(n) square link. Defined in terms of a(n) SI square meter.
    /// </summary>
-   public static readonly Area SquareLink = new ("square link", "li^2", SI.Areas.SquareMeter, 0.20116 * 0.20116, 0);
+   public static readonly Area SquareLink = new ("square link", "li²", SI.Areas.SquareMeter, 0.20116 * 0.20116, 0);
 
    /// <summary>
    /// A(n) square rod. Defined in terms of a(n) SI square meter.
    /// </summary>
-   public static readonly Area SquareRod = new ("square rod", "rd^2", SI.Areas.SquareMeter, 5.0292 * 5.0292, 0);
+   public static readonly Area SquareRod = new ("square rod", "rd²", SI.Areas.SquareMeter, 5.0292 * 5.0292, 0);
 
    /// <summary>
    /// A(n) square chain. Defined in terms of a(n) SI square meter.
    /// </summary>
-   public static readonly Area SquareChain = new ("square chain", "ch^2", SI.Areas.SquareMeter, 20.1168 * 20.1168, 0);
+   public static readonly Area SquareChain = new ("square chain", "ch²", SI.Areas.SquareMeter, 20.1168 * 20.1168, 0);
 
    /// <summary>
    /// A(n) square furlong. Defined in terms of a(n) SI square meter.
    /// </summary>
    public static readonly Area SquareFurlong = new (
                                                     "square furlong"
-                                                  , "fur^2"
+                                                  , "fur²"
                                                   , SI.Areas.SquareMeter
                                                   , 201.168 * 201.168
                                                   , 0
@@ -48,7 +48,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    /// </summary>
    public static readonly Area SquareLeague = new (
                                                    "square league"
-                                                 , "lea^2"
+                                                 , "lea²"
                                                  , SI.Areas.SquareMeter
                                                  , 4828.032 * 4828.032
                                                  , 0

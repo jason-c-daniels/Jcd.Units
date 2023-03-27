@@ -22,7 +22,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLink = new (
                                                   "cubic link"
-                                                , "li^3"
+                                                , "li³"
                                                 , SI.Volumes.CubicMeter
                                                 , 0.20116 * 0.20116 * 0.20116
                                                 , 0
@@ -33,7 +33,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicRod = new (
                                                  "cubic rod"
-                                               , "rd^3"
+                                               , "rd³"
                                                , SI.Volumes.CubicMeter
                                                , 5.0292 * 5.0292 * 5.0292
                                                , 0
@@ -44,7 +44,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicChain = new (
                                                    "cubic chain"
-                                                 , "ch^3"
+                                                 , "ch³"
                                                  , SI.Volumes.CubicMeter
                                                  , 20.1168 * 20.1168 * 20.1168
                                                  , 0
@@ -55,7 +55,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicFurlong = new (
                                                      "cubic furlong"
-                                                   , "fur^3"
+                                                   , "fur³"
                                                    , SI.Volumes.CubicMeter
                                                    , 201.168 * 201.168 * 201.168
                                                    , 0
@@ -66,7 +66,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLeague = new (
                                                     "cubic league"
-                                                  , "lea^3"
+                                                  , "lea³"
                                                   , SI.Volumes.CubicMeter
                                                   , 4828.032 * 4828.032 * 4828.032
                                                   , 0

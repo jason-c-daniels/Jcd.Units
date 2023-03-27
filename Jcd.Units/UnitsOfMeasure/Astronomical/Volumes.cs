@@ -22,7 +22,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLightYear = new (
                                                        "cubic light-year"
-                                                     , "ly^3"
+                                                     , "ly³"
                                                      , SI.Volumes.CubicMeter
                                                      , 9_460_730_472_580_800.0
                                                      * 9_460_730_472_580_800.0
@@ -35,7 +35,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLightSecond = new (
                                                          "cubic light-second"
-                                                       , "ls^3"
+                                                       , "ls³"
                                                        , SI.Volumes.CubicMeter
                                                        , 299_792_458.0 * 299_792_458.0 * 299_792_458.0
                                                        , 0
@@ -46,7 +46,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLightMinute = new (
                                                          "cubic light-minute"
-                                                       , "lm^3"
+                                                       , "lm³"
                                                        , CubicLightSecond
                                                        , 60.0 * 60.0 * 60.0
                                                        , 0
@@ -57,7 +57,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicAstronomicalUnit = new (
                                                               "cubic astronomical unit"
-                                                            , "AU^3"
+                                                            , "AU³"
                                                             , SI.Volumes.CubicKilometer
                                                             , 149597870.691 * 149597870.691 * 149597870.691
                                                             , 0
@@ -68,7 +68,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLightHour = new (
                                                        "cubic light-hour"
-                                                     , "lh^3"
+                                                     , "lh³"
                                                      , CubicLightMinute
                                                      , 60.0 * 60.0 * 60.0
                                                      , 0
@@ -77,19 +77,19 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic light-day. Defined in terms of a(n) cubic light-hour.
    /// </summary>
-   public static readonly Volume CubicLightDay = new ("cubic light-day", "ld^3", CubicLightHour, 24.0 * 24.0 * 24.0, 0);
+   public static readonly Volume CubicLightDay = new ("cubic light-day", "ld³", CubicLightHour, 24.0 * 24.0 * 24.0, 0);
 
    /// <summary>
    /// A(n) cubic light-week. Defined in terms of a(n) cubic light-day.
    /// </summary>
-   public static readonly Volume CubicLightWeek = new ("cubic light-week", "lw^3", CubicLightDay, 7.0 * 7.0 * 7.0, 0);
+   public static readonly Volume CubicLightWeek = new ("cubic light-week", "lw³", CubicLightDay, 7.0 * 7.0 * 7.0, 0);
 
    /// <summary>
    /// A(n) cubic parsec. Defined in terms of a(n) cubic light-year.
    /// </summary>
    public static readonly Volume CubicParsec = new (
                                                     "cubic parsec"
-                                                  , "pc^3"
+                                                  , "pc³"
                                                   , CubicLightYear
                                                   , 3.2615637769757 * 3.2615637769757 * 3.2615637769757
                                                   , 0
@@ -100,7 +100,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicEarthRadius = new (
                                                          "cubic earth radius"
-                                                       , "R(⊕)^3"
+                                                       , "R(⊕)³"
                                                        , SI.Volumes.CubicKilometer
                                                        , 6_371.0 * 6_371.0 * 6_371.0
                                                        , 0
@@ -111,7 +111,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicJovianRadius = new (
                                                           "cubic jovian radius"
-                                                        , "R(J)^3"
+                                                        , "R(J)³"
                                                         , SI.Volumes.CubicKilometer
                                                         , 69_911.0 * 69_911.0 * 69_911.0
                                                         , 0
@@ -122,7 +122,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLunarRadius = new (
                                                          "cubic lunar radius"
-                                                       , "R(L)^3"
+                                                       , "R(L)³"
                                                        , SI.Volumes.CubicKilometer
                                                        , 1_737.4 * 1_737.4 * 1_737.4
                                                        , 0
@@ -133,7 +133,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicMarsRadius = new (
                                                         "cubic mars radius"
-                                                      , "R(♂)^3"
+                                                      , "R(♂)³"
                                                       , SI.Volumes.CubicKilometer
                                                       , 3_389.5 * 3_389.5 * 3_389.5
                                                       , 0
@@ -144,7 +144,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicSolarRadius = new (
                                                          "cubic solar radius"
-                                                       , "R(☉)^3"
+                                                       , "R(☉)³"
                                                        , SI.Volumes.CubicKilometer
                                                        , 695_700.0 * 695_700.0 * 695_700.0
                                                        , 0
@@ -155,7 +155,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicEarthDiameter = new (
                                                            "cubic earth diameter"
-                                                         , "D(⊕)^3"
+                                                         , "D(⊕)³"
                                                          , CubicEarthRadius
                                                          , 2.0 * 2.0 * 2.0
                                                          , 0
@@ -166,7 +166,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicDekalightYear = new (
                                                            "cubic dekalight-year"
-                                                         , "daly^3"
+                                                         , "daly³"
                                                          , CubicLightYear
                                                          , 10.0 * 10.0 * 10.0
                                                          , 0
@@ -177,7 +177,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicJovianDiameter = new (
                                                             "cubic jovian diameter"
-                                                          , "D(J)^3"
+                                                          , "D(J)³"
                                                           , CubicJovianRadius
                                                           , 2.0 * 2.0 * 2.0
                                                           , 0
@@ -188,7 +188,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicHectolightYear = new (
                                                             "cubic hectolight-year"
-                                                          , "hly^3"
+                                                          , "hly³"
                                                           , CubicDekalightYear
                                                           , 10.0 * 10.0 * 10.0
                                                           , 0
@@ -199,7 +199,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLunarDiameter = new (
                                                            "cubic lunar diameter"
-                                                         , "D(L)^3"
+                                                         , "D(L)³"
                                                          , CubicLunarRadius
                                                          , 2.0 * 2.0 * 2.0
                                                          , 0
@@ -210,7 +210,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicKilolightYear = new (
                                                            "cubic kilolight-year"
-                                                         , "kly^3"
+                                                         , "kly³"
                                                          , CubicHectolightYear
                                                          , 10.0 * 10.0 * 10.0
                                                          , 0
@@ -221,7 +221,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicMarsDiameter = new (
                                                           "cubic mars diameter"
-                                                        , "D(♂)^3"
+                                                        , "D(♂)³"
                                                         , CubicMarsRadius
                                                         , 2.0 * 2.0 * 2.0
                                                         , 0
@@ -232,7 +232,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicMegalightYear = new (
                                                            "cubic megalight-year"
-                                                         , "Mly^3"
+                                                         , "Mly³"
                                                          , CubicKilolightYear
                                                          , 1000.0 * 1000.0 * 1000.0
                                                          , 0
@@ -243,7 +243,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicSolarDiameter = new (
                                                            "cubic solar diameter"
-                                                         , "D(☉)^3"
+                                                         , "D(☉)³"
                                                          , CubicSolarRadius
                                                          , 2.0 * 2.0 * 2.0
                                                          , 0
@@ -254,7 +254,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicGigalightYear = new (
                                                            "cubic gigalight-year"
-                                                         , "Gly^3"
+                                                         , "Gly³"
                                                          , CubicMegalightYear
                                                          , 1000.0 * 1000.0 * 1000.0
                                                          , 0
@@ -265,7 +265,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicEarthCircumference = new (
                                                                 "cubic earth circumference"
-                                                              , "C(⊕)^3"
+                                                              , "C(⊕)³"
                                                               , CubicEarthDiameter
                                                               , Math.PI * Math.PI * Math.PI
                                                               , 0
@@ -276,7 +276,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicTeralightYear = new (
                                                            "cubic teralight-year"
-                                                         , "Tly^3"
+                                                         , "Tly³"
                                                          , CubicGigalightYear
                                                          , 1000.0 * 1000.0 * 1000.0
                                                          , 0
@@ -287,7 +287,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicJovianCircumference = new (
                                                                  "cubic jovian circumference"
-                                                               , "C(J)^3"
+                                                               , "C(J)³"
                                                                , CubicJovianDiameter
                                                                , Math.PI * Math.PI * Math.PI
                                                                , 0
@@ -298,7 +298,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicPetalightYear = new (
                                                            "cubic petalight-year"
-                                                         , "Ply^3"
+                                                         , "Ply³"
                                                          , CubicTeralightYear
                                                          , 1000.0 * 1000.0 * 1000.0
                                                          , 0
@@ -309,7 +309,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicLunarCircumference = new (
                                                                 "cubic lunar circumference"
-                                                              , "C(L)^3"
+                                                              , "C(L)³"
                                                               , CubicLunarDiameter
                                                               , Math.PI * Math.PI * Math.PI
                                                               , 0
@@ -320,7 +320,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicExalightYear = new (
                                                           "cubic exalight-year"
-                                                        , "Ely^3"
+                                                        , "Ely³"
                                                         , CubicPetalightYear
                                                         , 1000.0 * 1000.0 * 1000.0
                                                         , 0
@@ -331,7 +331,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicMarsCircumference = new (
                                                                "cubic mars circumference"
-                                                             , "C(♂)^3"
+                                                             , "C(♂)³"
                                                              , CubicMarsDiameter
                                                              , Math.PI * Math.PI * Math.PI
                                                              , 0
@@ -342,7 +342,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicZettalightYear = new (
                                                             "cubic zettalight-year"
-                                                          , "Zly^3"
+                                                          , "Zly³"
                                                           , CubicExalightYear
                                                           , 1000.0 * 1000.0 * 1000.0
                                                           , 0
@@ -353,7 +353,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicSolarCircumference = new (
                                                                 "cubic solar circumference"
-                                                              , "C(☉)^3"
+                                                              , "C(☉)³"
                                                               , CubicSolarDiameter
                                                               , Math.PI * Math.PI * Math.PI
                                                               , 0
@@ -364,7 +364,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicYottalightYear = new (
                                                             "cubic yottalight-year"
-                                                          , "Yly^3"
+                                                          , "Yly³"
                                                           , CubicZettalightYear
                                                           , 1000.0 * 1000.0 * 1000.0
                                                           , 0
@@ -375,7 +375,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicRonnalightYear = new (
                                                             "cubic ronnalight-year"
-                                                          , "Rly^3"
+                                                          , "Rly³"
                                                           , CubicYottalightYear
                                                           , 1000.0 * 1000.0 * 1000.0
                                                           , 0
@@ -386,7 +386,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicQuettalightYear = new (
                                                              "cubic quettalight-year"
-                                                           , "Qly^3"
+                                                           , "Qly³"
                                                            , CubicRonnalightYear
                                                            , 1000.0 * 1000.0 * 1000.0
                                                            , 0
@@ -397,7 +397,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicDekaparsec = new (
                                                         "cubic dekaparsec"
-                                                      , "dapc^3"
+                                                      , "dapc³"
                                                       , CubicParsec
                                                       , 10.0 * 10.0 * 10.0
                                                       , 0
@@ -408,7 +408,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicHectoparsec = new (
                                                          "cubic hectoparsec"
-                                                       , "hpc^3"
+                                                       , "hpc³"
                                                        , CubicDekaparsec
                                                        , 10.0 * 10.0 * 10.0
                                                        , 0
@@ -419,7 +419,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicKiloparsec = new (
                                                         "cubic kiloparsec"
-                                                      , "kpc^3"
+                                                      , "kpc³"
                                                       , CubicHectoparsec
                                                       , 10.0 * 10.0 * 10.0
                                                       , 0
@@ -430,7 +430,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicMegaparsec = new (
                                                         "cubic megaparsec"
-                                                      , "Mpc^3"
+                                                      , "Mpc³"
                                                       , CubicKiloparsec
                                                       , 1000.0 * 1000.0 * 1000.0
                                                       , 0
@@ -441,7 +441,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicGigaparsec = new (
                                                         "cubic gigaparsec"
-                                                      , "Gpc^3"
+                                                      , "Gpc³"
                                                       , CubicMegaparsec
                                                       , 1000.0 * 1000.0 * 1000.0
                                                       , 0
@@ -452,7 +452,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicTeraparsec = new (
                                                         "cubic teraparsec"
-                                                      , "Tpc^3"
+                                                      , "Tpc³"
                                                       , CubicGigaparsec
                                                       , 1000.0 * 1000.0 * 1000.0
                                                       , 0
@@ -463,7 +463,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicPetaparsec = new (
                                                         "cubic petaparsec"
-                                                      , "Ppc^3"
+                                                      , "Ppc³"
                                                       , CubicTeraparsec
                                                       , 1000.0 * 1000.0 * 1000.0
                                                       , 0
@@ -474,7 +474,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicExaparsec = new (
                                                        "cubic exaparsec"
-                                                     , "Epc^3"
+                                                     , "Epc³"
                                                      , CubicPetaparsec
                                                      , 1000.0 * 1000.0 * 1000.0
                                                      , 0
@@ -485,7 +485,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicZettaparsec = new (
                                                          "cubic zettaparsec"
-                                                       , "Zpc^3"
+                                                       , "Zpc³"
                                                        , CubicExaparsec
                                                        , 1000.0 * 1000.0 * 1000.0
                                                        , 0
@@ -496,7 +496,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicYottaparsec = new (
                                                          "cubic yottaparsec"
-                                                       , "Ypc^3"
+                                                       , "Ypc³"
                                                        , CubicZettaparsec
                                                        , 1000.0 * 1000.0 * 1000.0
                                                        , 0
@@ -507,7 +507,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicRonnaparsec = new (
                                                          "cubic ronnaparsec"
-                                                       , "Rpc^3"
+                                                       , "Rpc³"
                                                        , CubicYottaparsec
                                                        , 1000.0 * 1000.0 * 1000.0
                                                        , 0
@@ -518,7 +518,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicQuettaparsec = new (
                                                           "cubic quettaparsec"
-                                                        , "Qpc^3"
+                                                        , "Qpc³"
                                                         , CubicRonnaparsec
                                                         , 1000.0 * 1000.0 * 1000.0
                                                         , 0
