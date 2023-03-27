@@ -306,7 +306,7 @@
         </member>
         <member name="M:Jcd.Units.MathQ.Clamp``1(Jcd.Units.Quantity{``0},Jcd.Units.Quantity{``0},Jcd.Units.Quantity{``0})">
             <summary>
-            Returns the smallest integral value that is greater than or equal to the specified decimal number in a <see cref="T:Jcd.Units.Quantity`1" /> as a new Quantity with the source unit of measure.
+            Returns the smallest value that is greater than or equal to the numeric component of a <see cref="T:Jcd.Units.Quantity`1" />.
             </summary>
             <param name="value">The quantity to clamp</param>
             <param name="min">The minimum value.</param>

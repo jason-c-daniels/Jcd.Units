@@ -41,7 +41,7 @@ public static class MathQ
              .As(quantity.Unit);
 
    /// <summary>
-   /// Returns the smallest integral value that is greater than or equal to the specified decimal number in a <see cref="Quantity{TUnit}" /> as a new Quantity with the source unit of measure.
+   /// Returns the smallest value that is greater than or equal to the numeric component of a <see cref="Quantity{TUnit}" />.
    /// </summary>
    /// <param name="value">The quantity to clamp</param>
    /// <param name="min">The minimum value.</param>

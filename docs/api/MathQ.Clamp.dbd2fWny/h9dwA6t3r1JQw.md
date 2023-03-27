@@ -3,7 +3,7 @@
 
 ## MathQ.Clamp<TUnit>(Quantity<TUnit>, Quantity<TUnit>, Quantity<TUnit>) Method
 
-Returns the smallest integral value that is greater than or equal to the specified decimal number in a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') as a new Quantity with the source unit of measure.
+Returns the smallest value that is greater than or equal to the numeric component of a [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>').
 
 ```csharp
 public static Jcd.Units.Quantity<TUnit> Clamp<TUnit>(Jcd.Units.Quantity<TUnit> value, Jcd.Units.Quantity<TUnit> min, Jcd.Units.Quantity<TUnit> max)
