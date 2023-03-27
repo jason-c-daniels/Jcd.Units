@@ -1,9 +1,9 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.USCustomary](Jcd.Units.UnitsOfMeasure.USCustomary.md 'Jcd.Units.UnitsOfMeasure.USCustomary').[Masses](Masses.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Masses')
+### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial').[Masses](Masses.md 'Jcd.Units.UnitsOfMeasure.Imperial.Masses')
 
 ## Masses.Ounce Field
 
-A(n) ounce. Defined in terms of a(n) dram.
+A(n) ounce. Defined in terms of a(n) drachm.
 
 ```csharp
 public static readonly Mass Ounce;

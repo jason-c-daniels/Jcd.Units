@@ -2423,14 +2423,29 @@
             A(n) square inch. Defined in terms of a(n) SI square centimeter.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.Perch">
+            <summary>
+            A(n) perch. Defined in terms of a(n) square foot.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareFoot">
             <summary>
             A(n) square foot. Defined in terms of a(n) square inch.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.Rood">
+            <summary>
+            A(n) rood. Defined in terms of a(n) perch.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareTwip">
             <summary>
             A(n) square twip. Defined in terms of a(n) square foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.Acre">
+            <summary>
+            A(n) acre. Defined in terms of a(n) rood.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Areas.SquareThou">
@@ -2563,6 +2578,51 @@
             A(n) nautical mile. Defined in terms of a(n) cable.
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.Masses">
+            <summary>
+            British Imperial Units for measuring Mass.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Masses.Grain">
+            <summary>
+            A(n) grain. Defined in terms of a(n) SI milligram.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Masses.Drachm">
+            <summary>
+            A(n) drachm. Defined in terms of a(n) SI gram.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Masses.Ounce">
+            <summary>
+            A(n) ounce. Defined in terms of a(n) drachm.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Masses.Pound">
+            <summary>
+            A(n) pound. Defined in terms of a(n) ounce.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Masses.Stone">
+            <summary>
+            A(n) stone. Defined in terms of a(n) pound.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Masses.Quarter">
+            <summary>
+            A(n) quarter. Defined in terms of a(n) stone.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Masses.Hundredweight">
+            <summary>
+            A(n) hundredweight. Defined in terms of a(n) quarter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Masses.Ton">
+            <summary>
+            A(n) ton. Defined in terms of a(n) hundredweight.
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Imperial.NamespaceDoc">
             <summary>
             Provides units of measure for various Imperial unit types.
@@ -2578,9 +2638,19 @@
             A(n) cubic inch. Defined in terms of a(n) SI cubic centimeter.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Gill">
+            <summary>
+            A(n) gill. Defined in terms of a(n) fluid ounce.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicFoot">
             <summary>
             A(n) cubic foot. Defined in terms of a(n) cubic inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Pint">
+            <summary>
+            A(n) pint. Defined in terms of a(n) fluid ounce.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicTwip">
@@ -2588,9 +2658,19 @@
             A(n) cubic twip. Defined in terms of a(n) cubic foot.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Quart">
+            <summary>
+            A(n) quart. Defined in terms of a(n) pint.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicThou">
             <summary>
             A(n) cubic thou. Defined in terms of a(n) cubic foot.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Gallon">
+            <summary>
+            A(n) gallon. Defined in terms of a(n) quart.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicBarleycorn">
@@ -2598,9 +2678,19 @@
             A(n) cubic barleycorn. Defined in terms of a(n) cubic foot.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Bushel">
+            <summary>
+            A(n) bushel. Defined in terms of a(n) gallon.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicHand">
             <summary>
             A(n) cubic hand. Defined in terms of a(n) cubic inch.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Quarter">
+            <summary>
+            A(n) quarter. Defined in terms of a(n) bushel.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicYard">
@@ -2608,14 +2698,29 @@
             A(n) cubic yard. Defined in terms of a(n) cubic foot.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.Minim">
+            <summary>
+            A(n) minim. Defined in terms of a(n) pint.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicChain">
             <summary>
             A(n) cubic chain. Defined in terms of a(n) cubic yard.
             </summary>
         </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidScruple">
+            <summary>
+            A(n) fluid scruple. Defined in terms of a(n) minim.
+            </summary>
+        </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicFurlong">
             <summary>
             A(n) cubic furlong. Defined in terms of a(n) cubic chain.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidDrachm">
+            <summary>
+            A(n) fluid drachm. Defined in terms of a(n) fluid scruple.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicMile">
@@ -2641,6 +2746,11 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.CubicNauticalMile">
             <summary>
             A(n) cubic nautical mile. Defined in terms of a(n) cubic cable.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.Imperial.Volumes.FluidOunce">
+            <summary>
+            A(n) fluid ounce. Defined in terms of a(n) SI milliliter.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.NamespaceDoc">
@@ -9581,6 +9691,126 @@
         <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Liter">
             <summary>
             A(n) liter. Defined in terms of a(n) cubic decimeter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Deciliter">
+            <summary>
+            A(n) deciliter. Defined in terms of a(n) liter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Centiliter">
+            <summary>
+            A(n) centiliter. Defined in terms of a(n) deciliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Milliliter">
+            <summary>
+            A(n) milliliter. Defined in terms of a(n) centiliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Microliter">
+            <summary>
+            A(n) microliter. Defined in terms of a(n) milliliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Nanoliter">
+            <summary>
+            A(n) nanoliter. Defined in terms of a(n) microliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Picoliter">
+            <summary>
+            A(n) picoliter. Defined in terms of a(n) nanoliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Femtoliter">
+            <summary>
+            A(n) femtoliter. Defined in terms of a(n) picoliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Attoliter">
+            <summary>
+            A(n) attoliter. Defined in terms of a(n) femtoliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Zeptoliter">
+            <summary>
+            A(n) zeptoliter. Defined in terms of a(n) attoliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Yoctoliter">
+            <summary>
+            A(n) yoctoliter. Defined in terms of a(n) zeptoliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Rontoliter">
+            <summary>
+            A(n) rontoliter. Defined in terms of a(n) yoctoliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Quectoliter">
+            <summary>
+            A(n) quectoliter. Defined in terms of a(n) rontoliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Dekaliter">
+            <summary>
+            A(n) dekaliter. Defined in terms of a(n) liter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Hectoliter">
+            <summary>
+            A(n) hectoliter. Defined in terms of a(n) dekaliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Kiloliter">
+            <summary>
+            A(n) kiloliter. Defined in terms of a(n) hectoliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Megaliter">
+            <summary>
+            A(n) megaliter. Defined in terms of a(n) kiloliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Gigaliter">
+            <summary>
+            A(n) gigaliter. Defined in terms of a(n) megaliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Teraliter">
+            <summary>
+            A(n) teraliter. Defined in terms of a(n) gigaliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Petaliter">
+            <summary>
+            A(n) petaliter. Defined in terms of a(n) teraliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Exaliter">
+            <summary>
+            A(n) exaliter. Defined in terms of a(n) petaliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Zettaliter">
+            <summary>
+            A(n) zettaliter. Defined in terms of a(n) exaliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Yottaliter">
+            <summary>
+            A(n) yottaliter. Defined in terms of a(n) zettaliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Ronnaliter">
+            <summary>
+            A(n) ronnaliter. Defined in terms of a(n) yottaliter.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Volumes.Quettaliter">
+            <summary>
+            A(n) quettaliter. Defined in terms of a(n) ronnaliter.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Temperatures">

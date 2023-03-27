@@ -29,7 +29,7 @@ using US = Jcd.Units.UnitsOfMeasure.USCustomary;
 const int ITERATIONS =
                   #if DEBUG
                   100_000
-         #else
+                  #else
                   1_000_000
          #endif
          ;

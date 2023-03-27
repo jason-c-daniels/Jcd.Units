@@ -23,9 +23,19 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    public static readonly Area SquareInch = new ("square inch", "in.^2", SI.Areas.SquareCentimeter, 2.54 * 2.54, 0);
 
    /// <summary>
+   /// A(n) perch. Defined in terms of a(n) square foot.
+   /// </summary>
+   public static readonly Area Perch = new ("perch", "perch", SquareFoot, 272.25, 0);
+
+   /// <summary>
    /// A(n) square foot. Defined in terms of a(n) square inch.
    /// </summary>
    public static readonly Area SquareFoot = new ("square foot", "ft.^2", SquareInch, 12 * 12, 0);
+
+   /// <summary>
+   /// A(n) rood. Defined in terms of a(n) perch.
+   /// </summary>
+   public static readonly Area Rood = new ("rood", "rood", Perch, 40.0, 0);
 
    /// <summary>
    /// A(n) square twip. Defined in terms of a(n) square foot.
@@ -37,6 +47,11 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                , 1.0 / 17280.0 * (1.0 / 17280.0)
                                                , 0
                                                 );
+
+   /// <summary>
+   /// A(n) acre. Defined in terms of a(n) rood.
+   /// </summary>
+   public static readonly Area Acre = new ("acre", "acre", Rood, 4.0, 0);
 
    /// <summary>
    /// A(n) square thou. Defined in terms of a(n) square foot.

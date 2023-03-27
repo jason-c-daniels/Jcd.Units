@@ -1,12 +1,12 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial').[Masses](Masses.md 'Jcd.Units.UnitsOfMeasure.Imperial.Masses')
 
-## Masses.Ton Field
+## Masses.Drachm Field
 
-A(n) ton. Defined in terms of a(n) hundredweight.
+A(n) drachm. Defined in terms of a(n) SI gram.
 
 ```csharp
-public static readonly Mass Ton;
+public static readonly Mass Drachm;
 ```
 
 #### Field Value

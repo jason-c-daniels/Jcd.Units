@@ -1,6 +1,4 @@
-﻿// ReSharper disable UnusedType.Global
-
-namespace Jcd.Units.UnitTypes;
+﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
 /// A measurement of mass per unit of volume.

@@ -10,7 +10,7 @@ namespace $BaseNamespace$$Subnamespace$;
 /// <summary>
 /// $System.Description$ for measuring $UnitType.Name$.
 /// </summary>
-public class $Enumeration$ : Enumeration<$Enumeration$,$UnitType.TypeName$>
+public class $Enumeration$ : UnitOfMeasureEnumeration<$Enumeration$,$UnitType.TypeName$>
 {
 $Units$
 

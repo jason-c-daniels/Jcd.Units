@@ -1,12 +1,12 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial').[Masses](Masses.md 'Jcd.Units.UnitsOfMeasure.Imperial.Masses')
 
-## Masses.Ton Field
+## Masses.Quarter Field
 
-A(n) ton. Defined in terms of a(n) hundredweight.
+A(n) quarter. Defined in terms of a(n) stone.
 
 ```csharp
-public static readonly Mass Ton;
+public static readonly Mass Quarter;
 ```
 
 #### Field Value

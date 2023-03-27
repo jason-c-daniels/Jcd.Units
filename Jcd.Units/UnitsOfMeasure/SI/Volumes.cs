@@ -284,4 +284,124 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// A(n) liter. Defined in terms of a(n) cubic decimeter.
    /// </summary>
    public static readonly Volume Liter = new ("liter", "L", CubicDecimeter, 1.0, 0);
+
+   /// <summary>
+   /// A(n) deciliter. Defined in terms of a(n) liter.
+   /// </summary>
+   public static readonly Volume Deciliter = new ("deciliter", "dL", Liter, 1.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) centiliter. Defined in terms of a(n) deciliter.
+   /// </summary>
+   public static readonly Volume Centiliter = new ("centiliter", "cL", Deciliter, 1.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) milliliter. Defined in terms of a(n) centiliter.
+   /// </summary>
+   public static readonly Volume Milliliter = new ("milliliter", "mL", Centiliter, 1.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) microliter. Defined in terms of a(n) milliliter.
+   /// </summary>
+   public static readonly Volume Microliter = new ("microliter", "μL", Milliliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) nanoliter. Defined in terms of a(n) microliter.
+   /// </summary>
+   public static readonly Volume Nanoliter = new ("nanoliter", "nL", Microliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) picoliter. Defined in terms of a(n) nanoliter.
+   /// </summary>
+   public static readonly Volume Picoliter = new ("picoliter", "pL", Nanoliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) femtoliter. Defined in terms of a(n) picoliter.
+   /// </summary>
+   public static readonly Volume Femtoliter = new ("femtoliter", "fL", Picoliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) attoliter. Defined in terms of a(n) femtoliter.
+   /// </summary>
+   public static readonly Volume Attoliter = new ("attoliter", "aL", Femtoliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) zeptoliter. Defined in terms of a(n) attoliter.
+   /// </summary>
+   public static readonly Volume Zeptoliter = new ("zeptoliter", "zL", Attoliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) yoctoliter. Defined in terms of a(n) zeptoliter.
+   /// </summary>
+   public static readonly Volume Yoctoliter = new ("yoctoliter", "yL", Zeptoliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) rontoliter. Defined in terms of a(n) yoctoliter.
+   /// </summary>
+   public static readonly Volume Rontoliter = new ("rontoliter", "rL", Yoctoliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) quectoliter. Defined in terms of a(n) rontoliter.
+   /// </summary>
+   public static readonly Volume Quectoliter = new ("quectoliter", "qL", Rontoliter, 1.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) dekaliter. Defined in terms of a(n) liter.
+   /// </summary>
+   public static readonly Volume Dekaliter = new ("dekaliter", "daL", Liter, 10.0, 0);
+
+   /// <summary>
+   /// A(n) hectoliter. Defined in terms of a(n) dekaliter.
+   /// </summary>
+   public static readonly Volume Hectoliter = new ("hectoliter", "hL", Dekaliter, 10.0, 0);
+
+   /// <summary>
+   /// A(n) kiloliter. Defined in terms of a(n) hectoliter.
+   /// </summary>
+   public static readonly Volume Kiloliter = new ("kiloliter", "kL", Hectoliter, 10.0, 0);
+
+   /// <summary>
+   /// A(n) megaliter. Defined in terms of a(n) kiloliter.
+   /// </summary>
+   public static readonly Volume Megaliter = new ("megaliter", "ML", Kiloliter, 1000.0, 0);
+
+   /// <summary>
+   /// A(n) gigaliter. Defined in terms of a(n) megaliter.
+   /// </summary>
+   public static readonly Volume Gigaliter = new ("gigaliter", "GL", Megaliter, 1000.0, 0);
+
+   /// <summary>
+   /// A(n) teraliter. Defined in terms of a(n) gigaliter.
+   /// </summary>
+   public static readonly Volume Teraliter = new ("teraliter", "TL", Gigaliter, 1000.0, 0);
+
+   /// <summary>
+   /// A(n) petaliter. Defined in terms of a(n) teraliter.
+   /// </summary>
+   public static readonly Volume Petaliter = new ("petaliter", "PL", Teraliter, 1000.0, 0);
+
+   /// <summary>
+   /// A(n) exaliter. Defined in terms of a(n) petaliter.
+   /// </summary>
+   public static readonly Volume Exaliter = new ("exaliter", "EL", Petaliter, 1000.0, 0);
+
+   /// <summary>
+   /// A(n) zettaliter. Defined in terms of a(n) exaliter.
+   /// </summary>
+   public static readonly Volume Zettaliter = new ("zettaliter", "ZL", Exaliter, 1000.0, 0);
+
+   /// <summary>
+   /// A(n) yottaliter. Defined in terms of a(n) zettaliter.
+   /// </summary>
+   public static readonly Volume Yottaliter = new ("yottaliter", "YL", Zettaliter, 1000.0, 0);
+
+   /// <summary>
+   /// A(n) ronnaliter. Defined in terms of a(n) yottaliter.
+   /// </summary>
+   public static readonly Volume Ronnaliter = new ("ronnaliter", "RL", Yottaliter, 1000.0, 0);
+
+   /// <summary>
+   /// A(n) quettaliter. Defined in terms of a(n) ronnaliter.
+   /// </summary>
+   public static readonly Volume Quettaliter = new ("quettaliter", "QL", Ronnaliter, 1000.0, 0);
 }
