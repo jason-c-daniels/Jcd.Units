@@ -1,7 +1,10 @@
 ﻿#region
 
-using Jcd.Units.UnitsOfMeasure.USCustomary;
+using Jcd.Units.DoubleComparison;
+using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitTypes;
+
+using Amounts = Jcd.Units.UnitsOfMeasure.USCustomary.Amounts;
 
 #endregion
 
@@ -63,8 +66,8 @@ public class MathQTests
    }
 
    [Theory]
-   [MemberData(nameof(NumberPairsAndUnitPairs))]
-   public void Min_Returns_Expected_Value_In_Expected_Units(double x, double y, Amount unit1, Amount unit2)
+   [MemberData(nameof(NumberAndUnitPairs))]
+   public void Min_Returns_Expected_Quantity(double x, double y, Amount unit1, Amount unit2)
    {
       var qx = x.As(unit1);
       var qy = y.As(unit2);
@@ -73,8 +76,8 @@ public class MathQTests
    }
 
    [Theory]
-   [MemberData(nameof(NumberPairsAndUnitPairs))]
-   public void Max_Returns_Expected_Value_In_Expected_Units(double x, double y, Amount unit1, Amount unit2)
+   [MemberData(nameof(NumberAndUnitPairs))]
+   public void Max_Returns_Expected_Quantity(double x, double y, Amount unit1, Amount unit2)
    {
       var qx = x.As(unit1);
       var qy = y.As(unit2);
@@ -82,6 +85,32 @@ public class MathQTests
       Assert.Equal(qx >= qy ? qx : qy, r);
    }
 
+   [Theory]
+   [MemberData(nameof(NumberAndUnitTrios))]
+   public void Clamp_Returns_Expected_Value_In_Expected_Units
+            (double x, double y, double z, Amount unitX, Amount unitY, Amount unitZ)
+   {
+      // ReSharper disable IdentifierTypo
+      var qx = x.As(unitX);
+      var qy = y.As(unitY);
+      var qz = z.As(unitZ);
+
+      var qy1  = qy;
+      var qz1  = qz;
+      var qmin = MathQ.Min(qy1, qz1);
+      var qmax = MathQ.Max(qy1, qz1);
+
+      // ReSharper restore IdentifierTypo
+
+      var min = (double)qmin.To(qx.Unit);
+      var max = (double)qmax.To(qx.Unit);
+
+      var r = MathQ.Clamp(qx, qmin, qmax);
+
+      Assert.Equal(unitX, r.Unit);
+      Assert.Equal(Math.Clamp(x, min, max), (double)r);
+   }
+   
    #endregion
 
    #region Exponents, Logarithms, Powers, Sign, and Roots
@@ -177,6 +206,444 @@ public class MathQTests
 
    #endregion
 
+   #region Trigonometry Functions
+
+   [Theory]
+   [InlineData(0d)]
+   [InlineData(359d)]
+   [InlineData(360d)]
+   [InlineData(180d)]
+   [InlineData(45d)]
+   [InlineData(275d)]
+   public void Cos_Returns_Expected_Value(double angleInDegrees)
+   {
+      var degree        = angleInDegrees.As(Angles.Degree);
+      var arcsecond     = degree.To(Angles.ArcSecond);
+      var arcminute     = degree.To(Angles.Degree);
+      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var angleInRadian = (double)radian;
+      Assert.Equal(Math.Cos(angleInRadian), MathQ.Cos(radian));
+      Assert.Equal(Math.Cos(angleInRadian), MathQ.Cos(degree));
+      Assert.Equal(Math.Cos(angleInRadian), MathQ.Cos(arcsecond));
+      Assert.Equal(Math.Cos(angleInRadian), MathQ.Cos(arcminute));
+   }
+
+   [Theory]
+   [InlineData(0d)]
+   [InlineData(359d)]
+   [InlineData(360d)]
+   [InlineData(180d)]
+   [InlineData(45d)]
+   [InlineData(275d)]
+   public void Sin_Returns_Expected_Value(double angleInDegrees)
+   {
+      var degree        = angleInDegrees.As(Angles.Degree);
+      var arcsecond     = degree.To(Angles.ArcSecond);
+      var arcminute     = degree.To(Angles.Degree);
+      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var angleInRadian = (double)radian;
+      Assert.Equal(Math.Sin(angleInRadian), MathQ.Sin(radian));
+      Assert.Equal(Math.Sin(angleInRadian), MathQ.Sin(degree));
+      Assert.Equal(Math.Sin(angleInRadian), MathQ.Sin(arcsecond));
+      Assert.Equal(Math.Sin(angleInRadian), MathQ.Sin(arcminute));
+   }
+
+   [Theory]
+   [InlineData(0d)]
+   [InlineData(359d)]
+   [InlineData(360d)]
+   [InlineData(180d)]
+   [InlineData(45d)]
+   [InlineData(275d)]
+   public void Tan_Returns_Expected_Value(double angleInDegrees)
+   {
+      var degree        = angleInDegrees.As(Angles.Degree);
+      var arcsecond     = degree.To(Angles.ArcSecond);
+      var arcminute     = degree.To(Angles.Degree);
+      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var angleInRadian = (double)radian;
+      Assert.Equal(Math.Tan(angleInRadian), MathQ.Tan(radian));
+      Assert.Equal(Math.Tan(angleInRadian), MathQ.Tan(degree));
+      Assert.Equal(Math.Tan(angleInRadian), MathQ.Tan(arcsecond));
+      Assert.Equal(Math.Tan(angleInRadian), MathQ.Tan(arcminute));
+   }
+
+   [Theory]
+   [InlineData(0d)]
+   [InlineData(359d)]
+   [InlineData(360d)]
+   [InlineData(180d)]
+   [InlineData(45d)]
+   [InlineData(275d)]
+   public void Cosh_Returns_Expected_Value(double angleInDegrees)
+   {
+      var degree        = angleInDegrees.As(Angles.Degree);
+      var arcsecond     = degree.To(Angles.ArcSecond);
+      var arcminute     = degree.To(Angles.Degree);
+      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var angleInRadian = (double)radian;
+      Assert.Equal(Math.Cosh(angleInRadian), MathQ.Cosh(radian));
+      Assert.Equal(Math.Cosh(angleInRadian), MathQ.Cosh(degree));
+      Assert.Equal(Math.Cosh(angleInRadian), MathQ.Cosh(arcsecond));
+      Assert.Equal(Math.Cosh(angleInRadian), MathQ.Cosh(arcminute));
+   }
+
+   [Theory]
+   [InlineData(0d)]
+   [InlineData(359d)]
+   [InlineData(360d)]
+   [InlineData(180d)]
+   [InlineData(45d)]
+   [InlineData(275d)]
+   public void Sinh_Returns_Expected_Value(double angleInDegrees)
+   {
+      var degree        = angleInDegrees.As(Angles.Degree);
+      var arcsecond     = degree.To(Angles.ArcSecond);
+      var arcminute     = degree.To(Angles.Degree);
+      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var angleInRadian = (double)radian;
+      Assert.Equal(Math.Sinh(angleInRadian), MathQ.Sinh(radian));
+      Assert.Equal(Math.Sinh(angleInRadian), MathQ.Sinh(degree));
+      Assert.Equal(Math.Sinh(angleInRadian), MathQ.Sinh(arcsecond));
+      Assert.Equal(Math.Sinh(angleInRadian), MathQ.Sinh(arcminute));
+   }
+
+   [Theory]
+   [InlineData(0d)]
+   [InlineData(359d)]
+   [InlineData(360d)]
+   [InlineData(180d)]
+   [InlineData(45d)]
+   [InlineData(275d)]
+   public void Tanh_Returns_Expected_Value(double angleInDegrees)
+   {
+      var degree        = angleInDegrees.As(Angles.Degree);
+      var arcsecond     = degree.To(Angles.ArcSecond);
+      var arcminute     = degree.To(Angles.Degree);
+      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var angleInRadian = (double)radian;
+      Assert.Equal(Math.Tanh(angleInRadian), MathQ.Tanh(radian));
+      Assert.Equal(Math.Tanh(angleInRadian), MathQ.Tanh(degree));
+      Assert.Equal(Math.Tanh(angleInRadian), MathQ.Tanh(arcsecond));
+      Assert.Equal(Math.Tanh(angleInRadian), MathQ.Tanh(arcminute));
+   }
+
+   [Theory]
+   [InlineData(0d)]
+   [InlineData(359d)]
+   [InlineData(360d)]
+   [InlineData(180d)]
+   [InlineData(45d)]
+   [InlineData(275d)]
+   public void SinCos_Returns_Expected_Value(double angleInDegrees)
+   {
+      var degree        = angleInDegrees.As(Angles.Degree);
+      var arcsecond     = degree.To(Angles.ArcSecond);
+      var arcminute     = degree.To(Angles.Degree);
+      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var angleInRadian = (double)radian;
+      Assert.Equal(Math.SinCos(angleInRadian), MathQ.SinCos(radian));
+      Assert.Equal(Math.SinCos(angleInRadian), MathQ.SinCos(degree));
+      Assert.Equal(Math.SinCos(angleInRadian), MathQ.SinCos(arcsecond));
+      Assert.Equal(Math.SinCos(angleInRadian), MathQ.SinCos(arcminute));
+   }
+
+   [Theory]
+   [InlineData(1.0d)]
+   [InlineData(0.5d)]
+   [InlineData(0.3d)]
+   [InlineData(-0.3d)]
+   [InlineData(-0.5d)]
+   [InlineData(-1.0d)]
+   public void Acos_Returns_Expected_Value(double cos)
+   {
+      var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
+      Assert.Equal(Math.Acos(cos), (double)MathQ.Acos(cos), comparer);
+      Assert.Equal(Math.Acos(cos), (double)MathQ.Acos(cos, UnitsOfMeasure.SI.Angles.Radian), comparer);
+
+      Assert.Equal(
+                   Math.Acos(cos)
+                 , (double)MathQ.Acos(cos, Angles.Degree)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Acos(cos)
+                 , (double)MathQ.Acos(cos, Angles.ArcSecond)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Acos(cos)
+                 , (double)MathQ.Acos(cos, Angles.ArcMinute)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Acos(cos)
+                 , (double)MathQ.Acos(cos, Angles.Gradian)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+   }
+
+   [Theory]
+   [InlineData(1.0d)]
+   [InlineData(0.5d)]
+   [InlineData(0.3d)]
+   [InlineData(-0.3d)]
+   [InlineData(-0.5d)]
+   [InlineData(-1.0d)]
+   public void Asin_Returns_Expected_Value(double sin)
+   {
+      var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
+      Assert.Equal(Math.Asin(sin), (double)MathQ.Asin(sin), comparer);
+      Assert.Equal(Math.Asin(sin), (double)MathQ.Asin(sin, UnitsOfMeasure.SI.Angles.Radian), comparer);
+
+      Assert.Equal(
+                   Math.Asin(sin)
+                 , (double)MathQ.Asin(sin, Angles.Degree)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Asin(sin)
+                 , (double)MathQ.Asin(sin, Angles.ArcSecond)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Asin(sin)
+                 , (double)MathQ.Asin(sin, Angles.ArcMinute)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Asin(sin)
+                 , (double)MathQ.Asin(sin, Angles.Gradian)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+   }
+
+   [Theory]
+   [InlineData(1.0d)]
+   [InlineData(0.5d)]
+   [InlineData(0.3d)]
+   [InlineData(-0.3d)]
+   [InlineData(-0.5d)]
+   [InlineData(-1.0d)]
+   public void Atan_Returns_Expected_Value(double tan)
+   {
+      var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
+      Assert.Equal(Math.Atan(tan), (double)MathQ.Atan(tan), comparer);
+      Assert.Equal(Math.Atan(tan), (double)MathQ.Atan(tan, UnitsOfMeasure.SI.Angles.Radian), comparer);
+
+      Assert.Equal(
+                   Math.Atan(tan)
+                 , (double)MathQ.Atan(tan, Angles.Degree)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atan(tan)
+                 , (double)MathQ.Atan(tan, Angles.ArcSecond)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atan(tan)
+                 , (double)MathQ.Atan(tan, Angles.ArcMinute)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atan(tan)
+                 , (double)MathQ.Atan(tan, Angles.Gradian)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+   }
+
+   [Theory]
+   [InlineData(1.0d, 1.5d)]
+   [InlineData(0.5d, 200d)]
+   [InlineData(0.3d, -3.5d)]
+   [InlineData(-25.3d, 75d)]
+   [InlineData(-13.5d, 32d)]
+   [InlineData(-1.0d, 13d)]
+   public void Atan2_Returns_Expected_Value(double x, double y)
+   {
+      var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
+      Assert.Equal(Math.Atan2(x, y), (double)MathQ.Atan2(x, y), comparer);
+      Assert.Equal(Math.Atan2(x, y), (double)MathQ.Atan2(x, y, UnitsOfMeasure.SI.Angles.Radian), comparer);
+
+      Assert.Equal(
+                   Math.Atan2(x, y)
+                 , (double)MathQ.Atan2(x, y, Angles.Degree)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atan2(x, y)
+                 , (double)MathQ.Atan2(x, y, Angles.ArcSecond)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atan2(x, y)
+                 , (double)MathQ.Atan2(x, y, Angles.ArcMinute)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atan2(x, y)
+                 , (double)MathQ.Atan2(x, y, Angles.Gradian)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+   }
+
+   [Theory]
+   [InlineData(1.1d)]
+   [InlineData(11111110.5d)]
+   [InlineData(111111110.3d)]
+   [InlineData(110.3d)]
+   [InlineData(110.5d)]
+   [InlineData(111.0d)]
+   public void Acosh_Returns_Expected_Value(double tan)
+   {
+      var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
+      Assert.Equal(Math.Acosh(tan), (double)MathQ.Acosh(tan), comparer);
+      Assert.Equal(Math.Acosh(tan), (double)MathQ.Acosh(tan, UnitsOfMeasure.SI.Angles.Radian), comparer);
+
+      Assert.Equal(
+                   Math.Acosh(tan)
+                 , (double)MathQ.Acosh(tan, Angles.Degree)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Acosh(tan)
+                 , (double)MathQ.Acosh(tan, Angles.ArcSecond)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Acosh(tan)
+                 , (double)MathQ.Acosh(tan, Angles.ArcMinute)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Acosh(tan)
+                 , (double)MathQ.Acosh(tan, Angles.Gradian)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+   }
+
+   [Theory]
+   [InlineData(1.1d)]
+   [InlineData(11111110.5d)]
+   [InlineData(111111110.3d)]
+   [InlineData(110.3d)]
+   [InlineData(110.5d)]
+   [InlineData(111.0d)]
+   public void Asinh_Returns_Expected_Value(double tan)
+   {
+      var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
+      Assert.Equal(Math.Asinh(tan), (double)MathQ.Asinh(tan), comparer);
+      Assert.Equal(Math.Asinh(tan), (double)MathQ.Asinh(tan, UnitsOfMeasure.SI.Angles.Radian), comparer);
+
+      Assert.Equal(
+                   Math.Asinh(tan)
+                 , (double)MathQ.Asinh(tan, Angles.Degree)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Asinh(tan)
+                 , (double)MathQ.Asinh(tan, Angles.ArcSecond)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Asinh(tan)
+                 , (double)MathQ.Asinh(tan, Angles.ArcMinute)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Asinh(tan)
+                 , (double)MathQ.Asinh(tan, Angles.Gradian)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+   }
+
+   [Theory]
+   [InlineData(1.0d)]
+   [InlineData(0.5d)]
+   [InlineData(0.3d)]
+   [InlineData(-0.3d)]
+   [InlineData(-0.5d)]
+   [InlineData(-1.0d)]
+   public void Atanh_Returns_Expected_Value(double tan)
+   {
+      var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
+      Assert.Equal(Math.Atanh(tan), (double)MathQ.Atanh(tan), comparer);
+      Assert.Equal(Math.Atanh(tan), (double)MathQ.Atanh(tan, UnitsOfMeasure.SI.Angles.Radian), comparer);
+
+      Assert.Equal(
+                   Math.Atanh(tan)
+                 , (double)MathQ.Atanh(tan, Angles.Degree)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atanh(tan)
+                 , (double)MathQ.Atanh(tan, Angles.ArcSecond)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atanh(tan)
+                 , (double)MathQ.Atanh(tan, Angles.ArcMinute)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+
+      Assert.Equal(
+                   Math.Atanh(tan)
+                 , (double)MathQ.Atanh(tan, Angles.Gradian)
+                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                 , comparer
+                  );
+   }
+
+   #endregion
+   
    #region MemberData providers
 
    /// <summary>
@@ -216,9 +683,9 @@ public class MathQTests
    }
 
    /// <summary>
-   /// returns a set of Amount units and number pairs
+   /// returns a set of Amount units and number pairs (number1, number2, unit1, unit 2)
    /// </summary>
-   public static IEnumerable<object[]> NumberPairsAndUnitPairs
+   public static IEnumerable<object[]> NumberAndUnitPairs
    {
       get
       {
@@ -235,7 +702,28 @@ public class MathQTests
    }
 
    /// <summary>
-   /// returns a set of Amount units and number pairs
+   /// returns a set of Amount units and number trios (number1, number2, number3, unit1, unit2, unit3)
+   /// </summary>
+   public static IEnumerable<object[]> NumberAndUnitTrios
+   {
+      get
+      {
+         var units   = new[] { Amounts.Count, Amounts.TenCount };
+         var numbers = new[] { 1.2, 31.6, -3.7, -3.5 };
+
+         return
+                  from number1 in numbers
+                  from number2 in numbers
+                  from number3 in numbers
+                  from unit1 in units
+                  from unit2 in units
+                  from unit3 in units
+                  select new object[] { number1, number2, number3, unit1, unit2, unit3 };
+      }
+   }
+
+   /// <summary>
+   /// returns a set of value, Amounts units, number of digits to round to, and rounding method.
    /// </summary>
    public static IEnumerable<object[]> RoundingParams
    {
@@ -259,6 +747,6 @@ public class MathQTests
                   select new object[] { number, unit, digits, method };
       }
    }
-
+   
    #endregion
 }
