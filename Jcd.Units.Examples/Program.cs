@@ -26,13 +26,11 @@ using US = Jcd.Units.UnitsOfMeasure.USCustomary;
 
 #endregion
 
-const int ITERATIONS =
-                  #if DEBUG
-                  100_000
-                  #else
-                  1_000_000
-         #endif
-         ;
+#if DEBUG
+const int ITERATIONS = 100_000;
+#else
+const int ITERATIONS = 1_000_000;
+#endif
 
 var sysInfo = SystemInfo.Instance;
 
@@ -51,6 +49,9 @@ var ré    = temps["°Ré"];
 var rø    = temps["°Rø"];
 var de    = temps["°De"];
 var t1    = 10.As(C);
+
+var tenDe    = 10.As(de);
+var tenDeInR = tenDe.To(degRa);
 
 var kg = siMasses["kg"];
 var g  = siMasses["g"];
