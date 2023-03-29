@@ -18,11 +18,17 @@ namespace UnitGen.Repositories;
 
 public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 {
+   #region Fields
+   
    private readonly Prefix _noPrefix = new ("", "", false, "", "", "1.0", 0, 0);
    private IReadOnlyList<UnitDefinition>? _allItems;
 
    private IImmutableDictionary<string, UnitType> _unitTypesByName =
             new Dictionary<string, UnitType>().ToImmutableDictionary();
+
+   #endregion
+   
+   #region Unit Generation Logic
 
    public IReadOnlyList<UnitDefinition> GetAll()
    {
@@ -108,8 +114,6 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                      group unit by unit.UnitType.Name
             )
             group unitType by systemGroup.Key;
-
-   #region Unit Generation Logic
 
    private IReadOnlyList<UnitDefinition> GenerateUnits(ImmutableList<UnitDefinition> definedUnits)
    {
@@ -265,6 +269,8 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 
    #endregion
 
+   #region Aggregate Repository instances.
+   
    // ReSharper disable MemberCanBePrivate.Global
    public SystemRepository SystemRepo { get; } = new ();
    public UnitTypeRepository UnitTypeRepo { get; } = new ();
@@ -272,4 +278,6 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
    public UnitRepository UnitRepo { get; } = new ();
 
    // ReSharper restore MemberCanBePrivate.Global
+
+   #endregion
 }
