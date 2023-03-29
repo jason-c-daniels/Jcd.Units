@@ -7,9 +7,10 @@ for use with [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUni
 
 | Classes | |
 | :--- | :--- |
+| [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration') | A measurement of rate at which velocity changes with time, in terms of both speed and direction. |
 | [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount') | A measurement of an arbitrary quantity, number or value of something. |
 | [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle') | A measurement of the space between two intersecting lines or surfaces at or close to the point where they meet. |
-| [Area](Area.md 'Jcd.Units.UnitTypes.Area') | A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object,...etc. |
+| [Area](Area.md 'Jcd.Units.UnitTypes.Area') | A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object...etc. |
 | [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') | A measurement of the ability of a system to store an electric charge. |
 | [CatalyticActivity](CatalyticActivity.md 'Jcd.Units.UnitTypes.CatalyticActivity') | A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst. |
 | [Density](Density.md 'Jcd.Units.UnitTypes.Density') | A measurement of mass per unit of volume. |
@@ -37,4 +38,5 @@ for use with [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUni
 | [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') | A measurement of the number of atomic nuclei that decay per unit time. |
 | [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') | A measurement of the opposition to current flow in an electrical circuit. |
 | [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') | A measurement of the energy contained in the motion and vibration of an object's molecules. |
+| [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') | A measurement of the rate and direction of motion of an object. |
 | [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume') | A measurement of the amount of three dimensional space occupied by an object. |

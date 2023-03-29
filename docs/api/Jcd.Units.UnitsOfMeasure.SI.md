@@ -6,6 +6,7 @@ Provides units of measure for various SI unit types.
 
 | Classes | |
 | :--- | :--- |
+| [Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.SI.Accelerations') | International System of Units for measuring Acceleration. |
 | [Amounts](Amounts.md 'Jcd.Units.UnitsOfMeasure.SI.Amounts') | International System of Units for measuring Amount. |
 | [Angles](Angles.md 'Jcd.Units.UnitsOfMeasure.SI.Angles') | International System of Units for measuring Angle. |
 | [Areas](Areas.md 'Jcd.Units.UnitsOfMeasure.SI.Areas') | International System of Units for measuring Area. |
@@ -35,4 +36,5 @@ Provides units of measure for various SI unit types.
 | [RadioactiveDecays](RadioactiveDecays.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays') | International System of Units for measuring Radioactive Decay. |
 | [Resistances](Resistances.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances') | International System of Units for measuring Resistance. |
 | [Temperatures](Temperatures.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures') | International System of Units for measuring Temperature. |
+| [Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.SI.Velocities') | International System of Units for measuring Velocity. |
 | [Volumes](Volumes.md 'Jcd.Units.UnitsOfMeasure.SI.Volumes') | International System of Units for measuring Volume. |

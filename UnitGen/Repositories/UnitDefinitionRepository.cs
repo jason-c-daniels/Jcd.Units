@@ -19,7 +19,7 @@ namespace UnitGen.Repositories;
 public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
 {
    #region Fields
-   
+
    private readonly Prefix _noPrefix = new ("", "", false, "", "", "1.0", 0, 0);
    private IReadOnlyList<UnitDefinition>? _allItems;
 
@@ -27,7 +27,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
             new Dictionary<string, UnitType>().ToImmutableDictionary();
 
    #endregion
-   
+
    #region Unit Generation Logic
 
    public IReadOnlyList<UnitDefinition> GetAll()
@@ -58,23 +58,6 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
                      )
                select new UnitDefinition(system, unitType, prefix, unit);
 
-      /*
-            var us=unitsWithPrefixes
-                  .Where(x=>x.Unit.UnitName =="gram" || x.Unit.UnitName == "meter")
-                  .OrderBy(u => u.System.Name)
-                                    .ThenByDescending(u => u.UnitType.Name)
-                                    .ThenByDescending(u => u.IsBaseUnit)
-                                    .ThenBy(u => u.Unit.SortIndex)
-                                    .ThenBy(u => u.Prefix.SortIndex)
-                                    .ToImmutableList();
-      
-                     
-            foreach (var unit in us)
-            {
-               Console.Write($"{unit.System.Name}.{unit.UnitType.EnumerationName}.{unit.UnitName.MakeSymbolName()}");
-               Console.WriteLine($" = ({unit.BaseUnitNamespacePrefix}{unit.BaseUnitName.MakeSymbolName()}) * {unit.Coefficient} + {unit.Offset}");
-            }
-            */
       var unitsWithoutPrefixes =
                from unit in units
                join system in systems on unit.System equals system.Name
@@ -120,6 +103,9 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
       var lengths = definedUnits.Where(u => u.UnitType.Name == "Length")
                                 .ToImmutableList();
 
+      var durations = definedUnits.Where(u => u.UnitType.Name == "Duration")
+                                  .ToImmutableList();
+
       var areas = GenerateAreas(lengths)
               .ToImmutableList();
 
@@ -129,11 +115,89 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
       var masses = definedUnits.Where(x => x.UnitType.Name == "Mass")
                                .ToImmutableList();
 
+      var velocities = GenerateVelocities(lengths, durations)
+              .ToImmutableList();
+
+      var accelerations = GenerateAccelerations(lengths, durations)
+              .ToImmutableList();
+
       var densities = GenerateDensities(masses, volumes);
 
       return areas.Concat(volumes)
                   .Concat(densities)
+                  .Concat(velocities)
+                  .Concat(accelerations)
                   .ToImmutableList();
+   }
+
+   private IReadOnlyList<UnitDefinition> GenerateVelocities
+            (ImmutableList<UnitDefinition> lengths, ImmutableList<UnitDefinition> durations)
+   {
+      var velocity = _unitTypesByName["Velocity"];
+
+      var velocities = (
+                        from length in lengths
+                        from duration in durations //on length.System equals duration.System
+                        where length.System.Name != "Astronomical"
+                        select length with
+                               {
+                                        Prefix = _noPrefix, UnitType = velocity, Unit = new Unit(
+                                            length.System.Name
+                                          , velocity.Name
+                                          , $"{length.UnitName} per {duration.UnitName}"
+                                          , $"{length.Symbol}/{duration.Symbol}"
+                                          , length.Unit.PrefixScale
+                                          , length.Unit.PrefixExponentsToInclude
+                                          , length.Unit.BaseUnitSystem
+                                          , $"{length.BaseUnitName} per {duration.BaseUnitName}"
+                                          , $"({length.Coefficient})/({duration.Coefficient})"
+
+                                            // TODO: Find a way to convert this.
+                                          , "0"
+                                          , (length.Unit.SortIndex   + 1)
+                                          * (length.Prefix.SortIndex + 1)
+                                          * (duration.Unit.SortIndex + 1)
+                                          + duration.Prefix.SortIndex
+                                           )
+                               })
+              .ToImmutableList();
+
+      return velocities;
+   }
+
+   private IReadOnlyList<UnitDefinition> GenerateAccelerations
+            (ImmutableList<UnitDefinition> lengths, ImmutableList<UnitDefinition> durations)
+   {
+      var acceleration = _unitTypesByName["Acceleration"];
+
+      var accelerations = (
+                        from length in lengths
+                        from duration in durations //on length.System equals duration.System
+                        where length.System.Name != "Astronomical"
+                        select length with
+                               {
+                                        Prefix = _noPrefix, UnitType = acceleration, Unit = new Unit(
+                                            length.System.Name
+                                          , acceleration.Name
+                                          , $"{length.UnitName} per square {duration.UnitName}"
+                                          , $"{length.Symbol}/{duration.Symbol}²"
+                                          , length.Unit.PrefixScale
+                                          , length.Unit.PrefixExponentsToInclude
+                                          , length.Unit.BaseUnitSystem
+                                          , $"{length.BaseUnitName} per square {duration.BaseUnitName}"
+                                          , $"({length.Coefficient})/(({duration.Coefficient})*({duration.Coefficient}))"
+
+                                            // TODO: Find a way to convert this.
+                                          , "0"
+                                          , (length.Unit.SortIndex   + 1)
+                                          * (length.Prefix.SortIndex + 1)
+                                          * (duration.Unit.SortIndex + 1)
+                                          + duration.Prefix.SortIndex
+                                           )
+                               })
+              .ToImmutableList();
+
+      return accelerations;
    }
 
    private IReadOnlyList<UnitDefinition> GenerateAreas(IEnumerable<UnitDefinition> lengths)
@@ -270,7 +334,7 @@ public class UnitDefinitionRepository : IReadOnlyRepository<UnitDefinition>
    #endregion
 
    #region Aggregate Repository instances.
-   
+
    // ReSharper disable MemberCanBePrivate.Global
    public SystemRepository SystemRepo { get; } = new ();
    public UnitTypeRepository UnitTypeRepo { get; } = new ();

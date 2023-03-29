@@ -1,7 +1,7 @@
 ﻿namespace Jcd.Units.UnitTypes;
 
 /// <summary>
-/// A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object,...etc.
+/// A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object...etc.
 /// </summary>
 public record Area : UnitOfMeasure<Area>
 {

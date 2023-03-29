@@ -19,6 +19,7 @@ Jcd.Units.IUnitOfMeasure<TUnit>
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; UnitOfMeasure<TUnit>
 
 Derived  
+&#8627; [Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')  
 &#8627; [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount')  
 &#8627; [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')  
 &#8627; [Area](Area.md 'Jcd.Units.UnitTypes.Area')  
@@ -49,6 +50,7 @@ Derived
 &#8627; [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')  
 &#8627; [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance')  
 &#8627; [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')  
+&#8627; [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')  
 &#8627; [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
 
 Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')[TUnit](UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')[&gt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')
