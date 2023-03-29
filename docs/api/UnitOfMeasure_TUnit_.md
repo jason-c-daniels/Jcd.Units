@@ -77,9 +77,9 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IU
 | [ComputeFundamentalCoefficient(double)](UnitOfMeasure_TUnit_.ComputeFundamentalCoefficient.i9JNe6R2i806zQq6EPKlHg.md 'Jcd.Units.UnitOfMeasure<TUnit>.ComputeFundamentalCoefficient(double)') | The interface defining what every unit of measure must support. |
 | [ComputeFundamentalOffset(double, double)](UnitOfMeasure_TUnit_.ComputeFundamentalOffset.onPwvgdKY+MelX1jCfClKQ.md 'Jcd.Units.UnitOfMeasure<TUnit>.ComputeFundamentalOffset(double, double)') | The interface defining what every unit of measure must support. |
 | [Equals(UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.Equals.monYQT5ijeXp2ozD2hvWHQ.md 'Jcd.Units.UnitOfMeasure<TUnit>.Equals(Jcd.Units.UnitOfMeasure<TUnit>)') | Compares this [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') to another one for equality. |
-| [FromBaseUnitValue(double)](UnitOfMeasure_TUnit_.FromBaseUnitValue.7yrrxltzuCvpB58/Pn//mA.md 'Jcd.Units.UnitOfMeasure<TUnit>.FromBaseUnitValue(double)') | The interface defining what every unit of measure must support. |
+| [FromFundamentalUnitValue(double)](UnitOfMeasure_TUnit_.FromFundamentalUnitValue.ela1GaQ7m9Ds+0Gsp3NEqw.md 'Jcd.Units.UnitOfMeasure<TUnit>.FromFundamentalUnitValue(double)') | The interface defining what every unit of measure must support. |
 | [GetHashCode()](UnitOfMeasure_TUnit_.GetHashCode().md 'Jcd.Units.UnitOfMeasure<TUnit>.GetHashCode()') | Computes the hash code for this [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') |
-| [ToBaseUnitValue(double)](UnitOfMeasure_TUnit_.ToBaseUnitValue.JJnJIAnHEsisPlvhRLyiVA.md 'Jcd.Units.UnitOfMeasure<TUnit>.ToBaseUnitValue(double)') | The interface defining what every unit of measure must support. |
+| [ToFundamentalUnitValue(double)](UnitOfMeasure_TUnit_.ToFundamentalUnitValue.c+pdNRz/zLxbsbCTxAGJcQ.md 'Jcd.Units.UnitOfMeasure<TUnit>.ToFundamentalUnitValue(double)') | The interface defining what every unit of measure must support. |
 
 | Operators | |
 | :--- | :--- |

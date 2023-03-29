@@ -29,14 +29,14 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                            );
 
    /// <summary>
-   /// A(n) degrees delisle. Defined as: (1.0/1.5) × SI degrees celcius + (100.0).
+   /// A(n) degrees delisle. Defined as: (-2d/3d) × SI degrees celcius + (-150).
    /// </summary>
    public static readonly Temperature DegreesDelisle = new (
                                                             "degrees delisle"
                                                           , "°De"
                                                           , SI.Temperatures.DegreesCelcius
-                                                          , 1.0 / 1.5
-                                                          , 100.0
+                                                          , -2d / 3d
+                                                          , -150
                                                            );
 
    /// <summary>

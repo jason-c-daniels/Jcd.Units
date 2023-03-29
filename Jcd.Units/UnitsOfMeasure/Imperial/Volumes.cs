@@ -22,7 +22,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// </summary>
    public static readonly Volume CubicInch = new (
                                                   "cubic inch"
-                                                , "in.³"
+                                                , "in³"
                                                 , SI.Volumes.CubicCentimeter
                                                 , 2.54 * 2.54 * 2.54
                                                 , 0
@@ -36,7 +36,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    /// <summary>
    /// A(n) cubic foot. Defined as: ((12)*(12)*(12)) × cubic inch + (0).
    /// </summary>
-   public static readonly Volume CubicFoot = new ("cubic foot", "ft.³", CubicInch, 12 * 12 * 12, 0);
+   public static readonly Volume CubicFoot = new ("cubic foot", "ft³", CubicInch, 12 * 12 * 12, 0);
 
    /// <summary>
    /// A(n) gill. Defined as: (5.0) × fluid ounce + (0).

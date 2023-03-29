@@ -1,20 +1,20 @@
 #### [Jcd.Units](index.md 'index')
 ### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
 
-## UnitOfMeasure<TUnit>.ToBaseUnitValue(double) Method
+## UnitOfMeasure<TUnit>.FromFundamentalUnitValue(double) Method
 
 The interface defining what every unit of measure must support.
 
 ```csharp
-public double ToBaseUnitValue(double denormalizedValue);
+public double FromFundamentalUnitValue(double normalizedValue);
 ```
 #### Parameters
 
-<a name='Jcd.Units.UnitOfMeasure_TUnit_.ToBaseUnitValue(double).denormalizedValue'></a>
+<a name='Jcd.Units.UnitOfMeasure_TUnit_.FromFundamentalUnitValue(double).normalizedValue'></a>
 
-`denormalizedValue` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
+`normalizedValue` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-Implements [ToBaseUnitValue(double)](IUnitOfMeasure_TUnit_.ToBaseUnitValue.AoUnH4c156SzlVMNQp+dMw.md 'Jcd.Units.IUnitOfMeasure<TUnit>.ToBaseUnitValue(double)')
+Implements [FromFundamentalUnitValue(double)](IUnitOfMeasure_TUnit_.FromFundamentalUnitValue.HjMaJtc3CT4c+JTAgOGaqg.md 'Jcd.Units.IUnitOfMeasure<TUnit>.FromFundamentalUnitValue(double)')
 
 #### Returns
 [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')

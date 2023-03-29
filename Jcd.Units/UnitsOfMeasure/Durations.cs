@@ -110,12 +110,12 @@ public class Durations : UnitOfMeasureEnumeration<Durations, Duration>
    /// <summary>
    /// A(n) decade. Defined as: (10.0) × year + (0).
    /// </summary>
-   public static readonly Duration Decade = new ("decade", "dec.", Year, 10.0, 0);
+   public static readonly Duration Decade = new ("decade", "decade", Year, 10.0, 0);
 
    /// <summary>
    /// A(n) century. Defined as: (10.0) × decade + (0).
    /// </summary>
-   public static readonly Duration Century = new ("century", "cent.", Decade, 10.0, 0);
+   public static readonly Duration Century = new ("century", "century", Decade, 10.0, 0);
 
    /// <summary>
    /// A(n) millennium. Defined as: (10.0) × century + (0).

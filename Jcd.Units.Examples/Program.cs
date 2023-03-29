@@ -31,17 +31,21 @@ const int ITERATIONS = 100_000;
 const int ITERATIONS = 1_000_000;
 #endif
 
-var tt1 = new Temperature("C", "C");
-var tt2 = new Temperature("T2", "T2", tt1, 10, 5);
-var tt3 = new Temperature("F", "F", tt1, 9d / 5d, -32d);
-var tt4 = new Temperature("T4", "T4", tt1, 0, -273.15);
+var tC  = new Temperature("C", "C");
+var tt2 = new Temperature("T2", "T2", tC, 10, 5);
+var tt3 = new Temperature("F", "F", tC, 5d / 9d, -32d);
+var tK  = new Temperature("K", "K", tC, 1, -273.15);
+var tkK = new Temperature("kK", "kK", tK, 1000d);
+var tde = new Temperature("de", "de", tC, -2d / 3d, -150);
 
-var qtt1    = 200.As(tt1);
-var qtt1As2 = qtt1.To(tt2);
-var qtt1As3 = qtt1.To(tt3);
-var qtt1As4 = qtt1.To(tt4); 
-
-
+var qtt1         = 200.As(tC);
+var qtt1As2      = qtt1.To(tt2);
+var qtt1As3      = qtt1.To(tt3);
+var qtt1As4      = qtt1.To(tK);
+var qkK          = 1.As(tkK);
+var qkKInK       = qkK.To(tK);
+var oneThousandC = 1000.As(tC);
+var oneKCinK     = oneThousandC.To(tK);
 
 var sysInfo = SystemInfo.Instance;
 

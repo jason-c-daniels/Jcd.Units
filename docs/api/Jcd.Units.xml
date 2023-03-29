@@ -234,7 +234,7 @@
             Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
             </summary>
         </member>
-        <member name="M:Jcd.Units.IUnitOfMeasure`1.FromBaseUnitValue(System.Double)">
+        <member name="M:Jcd.Units.IUnitOfMeasure`1.FromFundamentalUnitValue(System.Double)">
             <summary>
             Given a raw value, convert FROM the fundamental (normalized) base unit representation
             TO the non-base value. (e.g. 0.1  becomes 100mm as meters are the base
@@ -243,7 +243,7 @@
             <param name="normalizedValue">the normalized value.</param>
             <returns>The denormalized value</returns>
         </member>
-        <member name="M:Jcd.Units.IUnitOfMeasure`1.ToBaseUnitValue(System.Double)">
+        <member name="M:Jcd.Units.IUnitOfMeasure`1.ToFundamentalUnitValue(System.Double)">
             <summary>
             Given a raw value, convert TO the fundamental base unit representation
             FROM the non-base unit representation of  the value. (e.g. 100mm becomes
@@ -1103,10 +1103,10 @@
             <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
             <returns>true if left is &gt;= right; false otherwise.</returns>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasure`1.FromBaseUnitValue(System.Double)">
+        <member name="M:Jcd.Units.UnitOfMeasure`1.FromFundamentalUnitValue(System.Double)">
             <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1" />
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasure`1.ToBaseUnitValue(System.Double)">
+        <member name="M:Jcd.Units.UnitOfMeasure`1.ToFundamentalUnitValue(System.Double)">
             <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1" />
         </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.ComputeFundamentalCoefficient(System.Double)">
@@ -9900,7 +9900,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle">
             <summary>
-            A(n) degrees delisle. Defined as: (1.0/1.5) × SI degrees celcius + (100.0).
+            A(n) degrees delisle. Defined as: (-2d/3d) × SI degrees celcius + (-150).
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton">

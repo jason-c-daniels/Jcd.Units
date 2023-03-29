@@ -20,7 +20,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    /// <summary>
    /// A(n) square inch. Defined as: ((2.54)*(2.54)) × SI square centimeter + (0).
    /// </summary>
-   public static readonly Area SquareInch = new ("square inch", "in.²", SI.Areas.SquareCentimeter, 2.54 * 2.54, 0);
+   public static readonly Area SquareInch = new ("square inch", "in²", SI.Areas.SquareCentimeter, 2.54 * 2.54, 0);
 
    /// <summary>
    /// A(n) perch. Defined as: (272.25) × square foot + (0).
@@ -30,7 +30,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    /// <summary>
    /// A(n) square foot. Defined as: ((12)*(12)) × square inch + (0).
    /// </summary>
-   public static readonly Area SquareFoot = new ("square foot", "ft.²", SquareInch, 12 * 12, 0);
+   public static readonly Area SquareFoot = new ("square foot", "ft²", SquareInch, 12 * 12, 0);
 
    /// <summary>
    /// A(n) rood. Defined as: (40.0) × perch + (0).

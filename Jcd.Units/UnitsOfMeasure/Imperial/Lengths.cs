@@ -20,12 +20,12 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
    /// <summary>
    /// A(n) inch. Defined as: (2.54) × SI centimeter + (0).
    /// </summary>
-   public static readonly Length Inch = new ("inch", "in.", SI.Lengths.Centimeter, 2.54, 0);
+   public static readonly Length Inch = new ("inch", "in", SI.Lengths.Centimeter, 2.54, 0);
 
    /// <summary>
    /// A(n) foot. Defined as: (12) × inch + (0).
    /// </summary>
-   public static readonly Length Foot = new ("foot", "ft.", Inch, 12, 0);
+   public static readonly Length Foot = new ("foot", "ft", Inch, 12, 0);
 
    /// <summary>
    /// A(n) twip. Defined as: (1.0/17280.0) × foot + (0).
