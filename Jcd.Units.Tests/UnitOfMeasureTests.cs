@@ -201,7 +201,7 @@ public class UnitOfMeasureTests : TestBase
    public void FromBaseUnitValue_Returns_The_Expected_Value(double normalizedValue)
    {
       var expectedValue = normalizedValue / DerivedUnit1.Coefficient - DerivedUnit1.Offset;
-      Assert.Equal(expectedValue, DerivedUnit1.FromBaseUnitValue(normalizedValue));
+      Assert.Equal(expectedValue, DerivedUnit1.FromFundamentalUnitValue(normalizedValue));
    }
 
    [Theory]
@@ -227,7 +227,7 @@ public class UnitOfMeasureTests : TestBase
    public void ToBaseUnitValue_Returns_The_Expected_Value(double denormalizedValue)
    {
       var expectedValue = (denormalizedValue + DerivedUnit1.Offset) * DerivedUnit1.Coefficient;
-      Assert.Equal(expectedValue, DerivedUnit1.ToBaseUnitValue(denormalizedValue));
+      Assert.Equal(expectedValue, DerivedUnit1.ToFundamentalUnitValue(denormalizedValue));
    }
 
    [Fact]

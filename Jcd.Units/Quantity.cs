@@ -92,8 +92,8 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    {
       if (ReferenceEquals(Unit, targetUnit)) return this;
 
-      var nv  = Unit.ToBaseUnitValue(RawValue);
-      var dnv = targetUnit.FromBaseUnitValue(nv);
+      var nv  = Unit.ToFundamentalUnitValue(RawValue);
+      var dnv = targetUnit.FromFundamentalUnitValue(nv);
 
       return new Quantity<TUnit>(dnv, targetUnit, _comparer);
    }

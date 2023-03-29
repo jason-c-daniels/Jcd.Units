@@ -265,11 +265,11 @@ public abstract record UnitOfMeasure<TUnit>
    #region Conversion Methods
 
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
-   public double FromBaseUnitValue(double normalizedValue)
+   public double FromFundamentalUnitValue(double normalizedValue)
       => normalizedValue / Coefficient - Offset;
 
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
-   public double ToBaseUnitValue(double denormalizedValue)
+   public double ToFundamentalUnitValue(double denormalizedValue)
       => (denormalizedValue + Offset) * Coefficient;
 
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
@@ -278,7 +278,7 @@ public abstract record UnitOfMeasure<TUnit>
 
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double ComputeFundamentalOffset(double fundamentalCoefficient, double offset)
-      => IsFundamentalUnit ? offset : ToBaseUnitValue(offset) / fundamentalCoefficient;
+      => IsFundamentalUnit ? offset : ToFundamentalUnitValue(offset) / fundamentalCoefficient;
 
    #endregion
 }

@@ -147,7 +147,7 @@ var R2                                  = new Temperature("R2", "°Rø", C, 0.52
 var zeroC                               = 0d.As(C);
 var zcinR2                              = zeroC.To(R2);
 
-var dnc = R2.FromBaseUnitValue(K.Offset);
+var dnc = R2.FromFundamentalUnitValue(K.Offset);
 
 var allDurations = Durations.GetAll()
                             .ToList();
