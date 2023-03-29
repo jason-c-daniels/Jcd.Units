@@ -1,0 +1,13 @@
+#### [Jcd.Units](index.md 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.SI.Velocities')
+
+## Velocities.DekameterPerCentisecond Field
+
+A(n) dekameter per centisecond. Defined as: ((10.0)/(1.0/10.0)) × meter per decisecond + (0).
+
+```csharp
+public static readonly Velocity DekameterPerCentisecond;
+```
+
+#### Field Value
+[Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
