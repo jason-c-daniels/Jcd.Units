@@ -1,6 +1,7 @@
 #region
 
 using System.Globalization;
+using System.Runtime.CompilerServices;
 
 using Jcd.Units.DoubleComparison;
 
@@ -88,12 +89,13 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <param name="targetUnit">The target unit of measure</param>
    /// <returns>The new quantity represented as the new unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public Quantity<TUnit> To(TUnit targetUnit)
    {
       if (ReferenceEquals(Unit, targetUnit)) return this;
 
-      var nv  = Unit.ToFundamentalUnitValue(RawValue);
-      var dnv = targetUnit.FromFundamentalUnitValue(nv);
+      var nv  = Unit.IsFundamentalUnit ? RawValue : Unit.ToFundamentalUnitValue(RawValue);
+      var dnv = targetUnit.IsFundamentalUnit ? nv : targetUnit.FromFundamentalUnitValue(nv);
 
       return new Quantity<TUnit>(dnv, targetUnit, _comparer);
    }
@@ -105,6 +107,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <param name="q">The quantity to convert.</param>
    /// <returns>The raw double representation without any unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static explicit operator double(Quantity<TUnit> q) => q.RawValue;
 
    #endregion
@@ -115,6 +118,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// Formats a string with the quantity value followed by the symbol.
    /// </summary>
    /// <returns>The formatted string.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public override string ToString() =>
             ToString("n", CultureInfo.CurrentCulture);
 
@@ -124,6 +128,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <param name="format">The format to apply to the number portion</param>
    /// <returns>The formatted value.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public string ToString(string format)
       => ToString(format, CultureInfo.CurrentCulture);
 
@@ -133,6 +138,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="format">The format to use. Null or empty string uses the default.</param>
    /// <param name="provider">The provider to use to format the value. Null uses the current locale.</param>
    /// <returns></returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public string ToString(string? format, IFormatProvider? provider)
    {
       if (string.IsNullOrEmpty(format)) format = "n";
@@ -154,6 +160,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <param name="q">The <see cref="Quantity{TUnit}" /> to operate on.</param>
    /// <returns>The <see cref="Quantity{TUnit}" /></returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator +(Quantity<TUnit> q)
       => q;
 
@@ -163,6 +170,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <param name="q">The quantity to perform the negation on.</param>
    /// <returns>The negated form of the <see cref="Quantity{TUnit}" /></returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator -(Quantity<TUnit> q)
       => q with { RawValue = -q.RawValue };
 
@@ -171,6 +179,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <param name="q">The <see cref="Quantity{TUnit}" /> to operate on.</param>
    /// <returns>The <see cref="Quantity{TUnit}" /></returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator ++(Quantity<TUnit> q)
       => q with { RawValue = q.RawValue + 1 };
 
@@ -179,6 +188,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <param name="q">The <see cref="Quantity{TUnit}" /> to operate on.</param>
    /// <returns>The <see cref="Quantity{TUnit}" /></returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator --(Quantity<TUnit> q)
       => q with { RawValue = q.RawValue - 1 };
 
@@ -188,8 +198,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The left hand operand</param>
    /// <param name="y">The right hand operand</param>
    /// <returns>The sum of the two quantities in the common unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator +(Quantity<TUnit> x, Quantity<TUnit> y)
    {
+      if (x.Unit == y.Unit) return x with { RawValue = x.RawValue + y.RawValue };
+
       var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
 
       return x.To(targetUnit)
@@ -203,8 +216,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The left hand operand</param>
    /// <param name="y">The right hand operand.</param>
    /// <returns>The result of the subtraction.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator -(Quantity<TUnit> x, Quantity<TUnit> y)
    {
+      if (x.Unit == y.Unit) return x with { RawValue = x.RawValue - y.RawValue };
+
       var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
 
       return x.To(targetUnit)
@@ -218,8 +234,11 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The left hand operand</param>
    /// <param name="y">The right hand operand.</param>
    /// <returns>The product of the two operands.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator *(Quantity<TUnit> x, Quantity<TUnit> y)
    {
+      if (x.Unit == y.Unit) return x with { RawValue = x.RawValue * y.RawValue };
+
       var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
 
       return x.To(targetUnit)
@@ -234,9 +253,12 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="y">The right hand operand.</param>
    /// <returns>The result of the division.</returns>
    /// <exception cref="DivideByZeroException">When <paramref name="y" /> is zero.</exception>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator /(Quantity<TUnit> x, Quantity<TUnit> y)
    {
       var targetUnit = ArithmeticUnitSelector!.SelectUnit(x.Unit, y.Unit);
+
+      if (x.Unit == y.Unit) return x with { RawValue = x.RawValue / y.RawValue };
 
       return x.To(targetUnit)
               .RawValue
@@ -253,6 +275,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The <see cref="Quantity{TUnit}" /> operand.</param>
    /// <param name="y">The double operand.</param>
    /// <returns>a <see cref="Quantity{TUnit}" /> of the results of the operation in the original unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator +(Quantity<TUnit> x, double y)
       => x with { RawValue = x.RawValue + y };
 
@@ -262,6 +285,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The <see cref="Quantity{TUnit}" /> operand.</param>
    /// <param name="y">The double operand.</param>
    /// <returns>a <see cref="Quantity{TUnit}" /> of the results of the operation in the original unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator -(Quantity<TUnit> x, double y)
       => x with { RawValue = x.RawValue - y };
 
@@ -271,6 +295,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The <see cref="Quantity{TUnit}" /> operand.</param>
    /// <param name="y">The double operand.</param>
    /// <returns>a <see cref="Quantity{TUnit}" /> of the results of the operation in the original unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator *(Quantity<TUnit> x, double y)
       => x with { RawValue = x.RawValue * y };
 
@@ -281,6 +306,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="y">The double operand.</param>
    /// <returns>a <see cref="Quantity{TUnit}" /> of the results of the operation in the original unit of measure.</returns>
    /// <exception cref="DivideByZeroException">When <paramref name="y" /> is zero.</exception>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator /(Quantity<TUnit> x, double y)
       => x with { RawValue = x.RawValue / y };
 
@@ -294,6 +320,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The double operand</param>
    /// <param name="y">The <see cref="Quantity{TUnit}" /> operand.</param>
    /// <returns>a <see cref="Quantity{TUnit}" /> of the results of the operation in the original unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator +(double x, Quantity<TUnit> y)
       => y with { RawValue = x + y.RawValue };
 
@@ -303,6 +330,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The double operand</param>
    /// <param name="y">The <see cref="Quantity{TUnit}" /> operand.</param>
    /// <returns>a <see cref="Quantity{TUnit}" /> of the results of the operation in the original unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator -(double x, Quantity<TUnit> y)
       => y with { RawValue = x - y.RawValue };
 
@@ -312,6 +340,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="x">The double operand</param>
    /// <param name="y">The <see cref="Quantity{TUnit}" /> operand.</param>
    /// <returns>a <see cref="Quantity{TUnit}" /> of the results of the operation in the original unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator *(double x, Quantity<TUnit> y)
       => y with { RawValue = x * y.RawValue };
 
@@ -322,6 +351,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="y">The <see cref="Quantity{TUnit}" /> operand.</param>
    /// <returns>a <see cref="Quantity{TUnit}" /> of the results of the operation in the original unit of measure.</returns>
    /// <exception cref="DivideByZeroException">When <paramref name="y" /> is zero.</exception>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> operator /(double x, Quantity<TUnit> y)
       => y with { RawValue = x / y.RawValue };
 
@@ -338,6 +368,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </remarks>
    /// <param name="other">The other instance to compare against.</param>
    /// <returns>True if equivalent. False otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public bool Equals(Quantity<TUnit> other)
       => CompareTo(other) == 0;
 
@@ -348,6 +379,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// that differing units do not hash the same.
    /// </summary>
    /// <returns>The calculated hashcode.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public override int GetHashCode()
    {
       var dbl = To(Unit.FundamentalUnit)
@@ -372,9 +404,13 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </remarks>
    /// <param name="other">The other instance to compare against.</param>
    /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public int CompareTo(Quantity<TUnit> other)
    {
-      var comparer   = Comparer!;
+      var comparer = Comparer!;
+
+      if (Unit == other.Unit) return comparer.Compare(RawValue, other.RawValue);
+
       var targetUnit = ComparisonUnitSelector!.SelectUnit(Unit, other.Unit);
 
       return comparer.Compare(
@@ -390,6 +426,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// </summary>
    /// <param name="obj">The other instance to compare against.</param>
    /// <returns>-1 if this instance is less than the other; 1 if this instance is greater than the other; 0 if equivalent.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public int CompareTo(object? obj)
    {
       if (obj is null) return 1;
@@ -405,6 +442,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="left">the left hand operand</param>
    /// <param name="right">the right hand operand</param>
    /// <returns>true if <paramref name="left" /> is strictly less than <paramref name="right" />; false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static bool operator <(Quantity<TUnit> left, Quantity<TUnit> right)
       => left.CompareTo(right) < 0;
 
@@ -414,6 +452,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="left">the left hand operand</param>
    /// <param name="right">the right hand operand</param>
    /// <returns>true if <paramref name="left" /> is strictly greater than <paramref name="right" />; false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static bool operator >(Quantity<TUnit> left, Quantity<TUnit> right)
       => left.CompareTo(right) > 0;
 
@@ -423,6 +462,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="left">the left hand operand</param>
    /// <param name="right">the right hand operand</param>
    /// <returns>true if <paramref name="left" /> is less than or equal to <paramref name="right" />; false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static bool operator <=(Quantity<TUnit> left, Quantity<TUnit> right)
       => left.CompareTo(right) <= 0;
 
@@ -432,6 +472,7 @@ public readonly record struct Quantity<TUnit>(double RawValue, TUnit Unit) :
    /// <param name="left">the left hand operand</param>
    /// <param name="right">the right hand operand</param>
    /// <returns>true if <paramref name="left" /> is greater than or equal to <paramref name="right" />; false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static bool operator >=(Quantity<TUnit> left, Quantity<TUnit> right)
       => left.CompareTo(right) >= 0;
 

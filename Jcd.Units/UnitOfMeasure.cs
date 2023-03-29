@@ -1,5 +1,7 @@
 ﻿#region
 
+using System.Runtime.CompilerServices;
+
 using Jcd.Units.DoubleComparison;
 
 // ReSharper disable MemberCanBePrivate.Global
@@ -27,6 +29,8 @@ public abstract record UnitOfMeasure<TUnit>
 {
    private readonly TUnit? _baseUnit;
    private readonly TUnit? _fundamentalUnit;
+
+   private readonly double _inverseCoefficient = 1;
    private IValueComparer<double>? _comparer;
 
    /// <summary>
@@ -49,13 +53,14 @@ public abstract record UnitOfMeasure<TUnit>
             )
             : this(name, symbol, coefficient, offset)
    {
-      Name            = name;
-      Symbol          = symbol;
-      BaseUnit        = baseUnit!;
-      FundamentalUnit = baseUnit?.FundamentalUnit!;
-      Coefficient     = baseUnit?.ComputeFundamentalCoefficient(coefficient)    ?? 1.0;
-      Offset          = baseUnit?.ComputeFundamentalOffset(Coefficient, offset) ?? 0;
-      Comparer        = comparer;
+      Name                = name;
+      Symbol              = symbol;
+      BaseUnit            = baseUnit!;
+      FundamentalUnit     = baseUnit?.FundamentalUnit!;
+      Coefficient         = baseUnit?.ComputeFundamentalCoefficient(coefficient) ?? 1.0;
+      _inverseCoefficient = 1d / Coefficient;
+      Offset              = baseUnit?.ComputeFundamentalOffset(Coefficient, offset) ?? 0;
+      Comparer            = comparer;
    }
 
    /// <summary>
@@ -113,6 +118,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// </summary>
    /// <param name="other">The other <see cref="UnitOfMeasure{TUnit}" /> to compare against.</param>
    /// <returns>true if equivalent, false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public virtual bool Equals(UnitOfMeasure<TUnit>? other)
    {
       if (other is null) return false;
@@ -126,6 +132,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// Computes the hash code for this <see cref="UnitOfMeasure{TUnit}" />
    /// </summary>
    /// <returns>The computed hashcode.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public override int GetHashCode()
    {
       // ReSharper disable once NonReadonlyMemberInGetHashCode
@@ -167,6 +174,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// </summary>
    /// <param name="other">The <see cref="UnitOfMeasure{TUnit}" /> to compare against.</param>
    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public int CompareTo(TUnit? other)
    {
       if (other is null) return 1; // sort nulls first.
@@ -184,6 +192,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// <param name="obj">The <see cref="UnitOfMeasure{TUnit}" /> to compare against.</param>
    /// <returns>-1 if less than; 1 if greater than; 0 if equals.</returns>
    /// <exception cref="ArgumentException">When the passed in object is not a <see cref="UnitOfMeasure{TUnit}" /></exception>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public int CompareTo(object? obj)
    {
       if (obj is null) return 1; // sort nulls first.
@@ -199,6 +208,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <returns>true if left is &lt; right; false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static bool operator <(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
       if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
@@ -216,6 +226,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <returns>true if left is &gt; right; false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static bool operator >(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
       if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
@@ -233,6 +244,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <returns>true if left is &lt;= right; false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static bool operator <=(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
       if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
@@ -250,6 +262,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// <param name="left">The left <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <param name="right">The right <see cref="UnitOfMeasure{TUnit}" /></param>
    /// <returns>true if left is &gt;= right; false otherwise.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static bool operator >=(UnitOfMeasure<TUnit>? left, UnitOfMeasure<TUnit>? right)
    {
       if (left is null && right is null) return false; // relationally, nulls do not compare, return false. 
@@ -265,16 +278,18 @@ public abstract record UnitOfMeasure<TUnit>
    #region Conversion Methods
 
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public double FromFundamentalUnitValue(double normalizedValue)
-      => normalizedValue / Coefficient - Offset;
+      => normalizedValue * _inverseCoefficient - Offset;
 
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public double ToFundamentalUnitValue(double denormalizedValue)
       => (denormalizedValue + Offset) * Coefficient;
 
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double ComputeFundamentalCoefficient(double coefficient)
-      => Coefficient * coefficient;
+      => IsFundamentalUnit ? coefficient : Coefficient * coefficient;
 
    /// <inheritdoc cref="IUnitOfMeasure{TUnit}" />
    public double ComputeFundamentalOffset(double fundamentalCoefficient, double offset)

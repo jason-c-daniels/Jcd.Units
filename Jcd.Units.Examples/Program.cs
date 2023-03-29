@@ -33,7 +33,7 @@ const int ITERATIONS = 1_000_000;
 
 var tC  = new Temperature("C", "C");
 var tt2 = new Temperature("T2", "T2", tC, 10, 5);
-var tt3 = new Temperature("F", "F", tC, 5d / 9d, -32d);
+var tt3 = new Temperature("F", "F", tC, 5d / 9d, -32);
 var tK  = new Temperature("K", "K", tC, 1, -273.15);
 var tkK = new Temperature("kK", "kK", tK, 1000d);
 var tde = new Temperature("de", "de", tC, -2d / 3d, -150);

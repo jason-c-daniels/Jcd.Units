@@ -24,8 +24,8 @@ public class PerformanceTestRunner
    private const int Iterations =
                      #if DEBUG
                      250_000
-            #else
-                     250_000
+                     #else
+                     1_250_000
             #endif
             ;
 

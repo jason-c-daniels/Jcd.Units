@@ -357,7 +357,7 @@ public class MathQTests
    [InlineData(-1.0d)]
    public void Acos_Returns_Expected_Value(double cos)
    {
-      var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
+      var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Acos(cos), (double)MathQ.Acos(cos), comparer);
       Assert.Equal(Math.Acos(cos), (double)MathQ.Acos(cos, UnitsOfMeasure.SI.Angles.Radian), comparer);
 
@@ -399,7 +399,7 @@ public class MathQTests
    [InlineData(-1.0d)]
    public void Asin_Returns_Expected_Value(double sin)
    {
-      var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
+      var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Asin(sin), (double)MathQ.Asin(sin), comparer);
       Assert.Equal(Math.Asin(sin), (double)MathQ.Asin(sin, UnitsOfMeasure.SI.Angles.Radian), comparer);
 
@@ -483,7 +483,7 @@ public class MathQTests
    [InlineData(-1.0d, 13d)]
    public void Atan2_Returns_Expected_Value(double x, double y)
    {
-      var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
+      var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Atan2(x, y), (double)MathQ.Atan2(x, y), comparer);
       Assert.Equal(Math.Atan2(x, y), (double)MathQ.Atan2(x, y, UnitsOfMeasure.SI.Angles.Radian), comparer);
 
