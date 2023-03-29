@@ -3,6 +3,8 @@
 
 #region
 
+using System.Runtime.CompilerServices;
+
 using Jcd.Units.UnitsOfMeasure.SI;
 using Jcd.Units.UnitTypes;
 
@@ -24,6 +26,7 @@ public static class MathQ
    /// <param name="quantity">The quantity</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>the absolute value of a <see cref="Quantity{TUnit}" /> as a new Quantity with the source unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Abs<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Abs(quantity.RawValue)
@@ -35,6 +38,7 @@ public static class MathQ
    /// <param name="quantity">The quantity</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>the ceiling of the <see cref="Quantity{TUnit}" /> expressed in the same unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Ceiling<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Ceiling(quantity.RawValue)
@@ -48,6 +52,7 @@ public static class MathQ
    /// <param name="max">The maximum value.</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>the ceiling for the <see cref="Quantity{TUnit}" />.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Clamp<TUnit>(Quantity<TUnit> value, Quantity<TUnit> min, Quantity<TUnit> max)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Clamp((double)value, (double)min.To(value.Unit), (double)max.To(value.Unit))
@@ -59,6 +64,7 @@ public static class MathQ
    /// <param name="quantity">The quantity</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>the floor of the <see cref="Quantity{TUnit}" /> expressed in the same unit of measure.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Floor<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Floor(quantity.RawValue)
@@ -71,6 +77,7 @@ public static class MathQ
    /// <param name="value2">The second value to compare.</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The larger of two specified <see cref="Quantity{TUnit}" /> instances.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Max<TUnit>(Quantity<TUnit> value1, Quantity<TUnit> value2)
             where TUnit : UnitOfMeasure<TUnit>
       => value1 >= value2 ? value1 : value2;
@@ -82,6 +89,7 @@ public static class MathQ
    /// <param name="value2">The second value to compare.</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The smaller of two specified <see cref="Quantity{TUnit}" /> instances.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Min<TUnit>(Quantity<TUnit> value1, Quantity<TUnit> value2)
             where TUnit : UnitOfMeasure<TUnit>
       => value1 <= value2 ? value1 : value2;
@@ -94,6 +102,7 @@ public static class MathQ
    /// <param name="mode">The rounding mode to use (default is ToEven)</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The <see cref="Quantity{TUnit}" /> rounded to the specified number of digits.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Round<TUnit>
             (Quantity<TUnit> quantity, int digits = 0, MidpointRounding mode = MidpointRounding.ToEven)
             where TUnit : UnitOfMeasure<TUnit>
@@ -106,6 +115,7 @@ public static class MathQ
    /// <param name="quantity">The quantity</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The <see cref="Quantity{TUnit}" /> rounded to the specified number of digits.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Truncate<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Truncate(quantity.RawValue)
@@ -121,6 +131,7 @@ public static class MathQ
    /// <param name="quantity">The quantity</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>the cube root of a <see cref="Quantity{TUnit}" />.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Cbrt<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Cbrt(quantity.RawValue)
@@ -132,6 +143,7 @@ public static class MathQ
    /// <param name="quantity">The power for <c>e</c></param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns><c>e</c> raised to the specified power a <see cref="Quantity{TUnit}" />.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Exp<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Exp(quantity.RawValue)
@@ -143,6 +155,7 @@ public static class MathQ
    /// <param name="quantity">The number whose logarithm is to be found</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The natural (base e) logarithm of a the numeric component of a <see cref="Quantity{TUnit}" />.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Log<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Log(quantity.RawValue)
@@ -155,6 +168,7 @@ public static class MathQ
    /// <param name="base">The numeric base of the logarithm.</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The logarithm of a the numeric component of a <see cref="Quantity{TUnit}" /> in a specified base.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Log<TUnit>(Quantity<TUnit> quantity, double @base)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Log(quantity.RawValue, @base)
@@ -166,6 +180,7 @@ public static class MathQ
    /// <param name="quantity">The number whose logarithm is to be found</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The base 10 logarithm of a the numeric component of a <see cref="Quantity{TUnit}" />.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Log10<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Log10(quantity.RawValue)
@@ -177,6 +192,7 @@ public static class MathQ
    /// <param name="quantity">The number whose logarithm is to be found</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The base 2 logarithm of a the numeric component of a <see cref="Quantity{TUnit}" />.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Log2<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Log2(quantity.RawValue)
@@ -189,6 +205,7 @@ public static class MathQ
    /// <param name="exponent">A number specifying the power.</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The <see cref="Quantity{TUnit}" /> raised to the specified power.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Pow<TUnit>(Quantity<TUnit> quantity, double exponent)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Pow(quantity.RawValue, exponent)
@@ -200,6 +217,7 @@ public static class MathQ
    /// <param name="quantity">The number whose sign is to be returned.</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>0 if the numeric component is zero; -1 if the numeric component is less than zero; 1 if the numeric component is greater than 0.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static int Sign<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Sign(quantity.RawValue);
@@ -210,6 +228,7 @@ public static class MathQ
    /// <param name="quantity">The number whose sign is to be returned.</param>
    /// <typeparam name="TUnit">The type of unit of measure. (e.g. temperature)</typeparam>
    /// <returns>The square root of the numeric component of the quantity.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> Sqrt<TUnit>(Quantity<TUnit> quantity)
             where TUnit : UnitOfMeasure<TUnit>
       => Math.Sqrt(quantity.RawValue)
@@ -225,6 +244,7 @@ public static class MathQ
    /// <param name="value">the number to perform the inverse cosine function on.</param>
    /// <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
    /// <returns>The angle whose cosine is the specified number.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<Angle> Acos(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Acos(value)
@@ -239,6 +259,7 @@ public static class MathQ
    /// <param name="value">A number representing a hyperbolic cosine.</param>
    /// <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
    /// <returns>The angle whose hyperbolic cosine is the specified number.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<Angle> Acosh(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Acosh(value)
@@ -253,6 +274,7 @@ public static class MathQ
    /// <param name="value">the number to perform the inverse sine function on.</param>
    /// <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
    /// <returns>The angle whose sine is the specified number.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<Angle> Asin(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Asin(value)
@@ -267,6 +289,7 @@ public static class MathQ
    /// <param name="value">the number to perform the inverse hyperbolic sine function on.</param>
    /// <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
    /// <returns>The angle whose hyperbolic sine is the specified number.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<Angle> Asinh(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Asinh(value)
@@ -281,6 +304,7 @@ public static class MathQ
    /// <param name="value">the number to perform the inverse tangent function on.</param>
    /// <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
    /// <returns>The angle whose inverse tangent is the specified number.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<Angle> Atan(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Atan(value)
@@ -296,6 +320,7 @@ public static class MathQ
    /// <param name="x">the x coordinate of a point.</param>
    /// <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
    /// <returns>The angle whose inverse tangent is the specified number.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<Angle> Atan2(double y, double x, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Atan2(y, x)
@@ -310,6 +335,7 @@ public static class MathQ
    /// <param name="value">the number to perform the inverse hyperbolic sine function on.</param>
    /// <param name="outputUnitOfMeasure">The optional, requested output unit of measure.</param>
    /// <returns>The angle whose hyperbolic tangent is the specified number.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<Angle> Atanh(double value, Angle? outputUnitOfMeasure = null)
    {
       var degreesRadians = Math.Atanh(value)
@@ -323,6 +349,7 @@ public static class MathQ
    /// </summary>
    /// <param name="angle">The angle, in any unit of measure for <see cref="Angles"/>.</param>
    /// <returns>The cosine of the specified angle.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static double Cos(Quantity<Angle> angle)
    {
       var rv = (double)(angle.Unit == Angles.Radian ? angle : angle.To(Angles.Radian));
@@ -335,6 +362,7 @@ public static class MathQ
    /// </summary>
    /// <param name="angle">The angle, in any unit of measure for <see cref="Angles"/>.</param>
    /// <returns>The hyperbolic cosine of the specified angle.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static double Cosh(Quantity<Angle> angle)
    {
       var rv = (double)(angle.Unit == Angles.Radian ? angle : angle.To(Angles.Radian));
@@ -347,6 +375,7 @@ public static class MathQ
    /// </summary>
    /// <param name="angle">The angle, in any unit of measure for <see cref="Angles"/>.</param>
    /// <returns>The sine of the specified angle.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static double Sin(Quantity<Angle> angle)
    {
       var rv = (double)(angle.Unit == Angles.Radian ? angle : angle.To(Angles.Radian));
@@ -359,6 +388,7 @@ public static class MathQ
    /// </summary>
    /// <param name="angle">The angle, in any unit of measure for <see cref="Angles"/>.</param>
    /// <returns>The hyperbolic sine of the specified angle.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static double Sinh(Quantity<Angle> angle)
    {
       var rv = (double)(angle.Unit == Angles.Radian ? angle : angle.To(Angles.Radian));
@@ -371,6 +401,7 @@ public static class MathQ
    /// </summary>
    /// <param name="angle">The angle, in any unit of measure for <see cref="Angles"/>.</param>
    /// <returns>The hyperbolic sine of the specified angle.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static (double Sin, double Cos) SinCos(Quantity<Angle> angle)
    {
       var rv = (double)(angle.Unit == Angles.Radian ? angle : angle.To(Angles.Radian));
@@ -383,6 +414,7 @@ public static class MathQ
    /// </summary>
    /// <param name="angle">The angle, in any unit of measure for <see cref="Angles"/>.</param>
    /// <returns>The tangent of the specified angle.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static double Tan(Quantity<Angle> angle)
    {
       var rv = (double)(angle.Unit == Angles.Radian ? angle : angle.To(Angles.Radian));
@@ -395,6 +427,7 @@ public static class MathQ
    /// </summary>
    /// <param name="angle">The angle, in any unit of measure for <see cref="Angles"/>.</param>
    /// <returns>The hyperbolic tangent of the specified angle.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static double Tanh(Quantity<Angle> angle)
    {
       var rv = (double)(angle.Unit == Angles.Radian ? angle : angle.To(Angles.Radian));
