@@ -9,6 +9,7 @@
 | [Jcd.Units.UnitSelection](Jcd.Units.UnitSelection.md 'Jcd.Units.UnitSelection') | |
 | [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure.md 'Jcd.Units.UnitsOfMeasure') | Provides units of measure for various unit types. |
 | [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical.md 'Jcd.Units.UnitsOfMeasure.Astronomical') | Provides units of measure for various Astronomical unit types. |
+| [Jcd.Units.UnitsOfMeasure.DataCapacity](Jcd.Units.UnitsOfMeasure.DataCapacity.md 'Jcd.Units.UnitsOfMeasure.DataCapacity') | |
 | [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial') | Provides units of measure for various Imperial unit types. |
 | [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI') | Provides units of measure for various SI unit types. |
 | [Jcd.Units.UnitsOfMeasure.USCustomary](Jcd.Units.UnitsOfMeasure.USCustomary.md 'Jcd.Units.UnitsOfMeasure.USCustomary') | Provides units of measure for various US Customary unit types. |

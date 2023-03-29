@@ -37,6 +37,8 @@ for use with [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUni
 | [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose') | A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing radiation. |
 | [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay') | A measurement of the number of atomic nuclei that decay per unit time. |
 | [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance') | A measurement of the opposition to current flow in an electrical circuit. |
+| [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage') | A measurement of data storage. |
 | [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') | A measurement of the energy contained in the motion and vibration of an object's molecules. |
+| [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') | A measurement of the rate at which data is transferred. |
 | [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') | A measurement of the rate and direction of motion of an object. |
 | [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume') | A measurement of the amount of three dimensional space occupied by an object. |

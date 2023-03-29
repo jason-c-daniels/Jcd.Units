@@ -2173,6 +2173,651 @@
             A(n) cubic quettaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic ronnaparsec + (0).
             </summary>
         </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.Data.NamespaceDoc">
+            <summary>
+            Provides units of measure for various Data unit types.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits">
+            <summary>
+            Units used to measure Data for measuring Storage.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Bit">
+            <summary>
+            A(n) bit.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Kilobit">
+            <summary>
+            A(n) kilobit. Defined as: (10.0) × bit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Megabit">
+            <summary>
+            A(n) megabit. Defined as: (1000.0) × kilobit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Gigabit">
+            <summary>
+            A(n) gigabit. Defined as: (1000.0) × megabit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Terabit">
+            <summary>
+            A(n) terabit. Defined as: (1000.0) × gigabit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Petabit">
+            <summary>
+            A(n) petabit. Defined as: (1000.0) × terabit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Exabit">
+            <summary>
+            A(n) exabit. Defined as: (1000.0) × petabit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Zettabit">
+            <summary>
+            A(n) zettabit. Defined as: (1000.0) × exabit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Yottabit">
+            <summary>
+            A(n) yottabit. Defined as: (1000.0) × zettabit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Ronnabit">
+            <summary>
+            A(n) ronnabit. Defined as: (1000.0) × yottabit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Quettabit">
+            <summary>
+            A(n) quettabit. Defined as: (1000.0) × ronnabit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Kebibit">
+            <summary>
+            A(n) kebibit. Defined as: (1024.0) × bit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Mebibit">
+            <summary>
+            A(n) mebibit. Defined as: (1024.0) × kebibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Gibibit">
+            <summary>
+            A(n) gibibit. Defined as: (1024.0) × mebibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Tebibit">
+            <summary>
+            A(n) tebibit. Defined as: (1024.0) × gibibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Pebibit">
+            <summary>
+            A(n) pebibit. Defined as: (1024.0) × tebibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Exbibit">
+            <summary>
+            A(n) exbibit. Defined as: (1024.0) × pebibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Zebibit">
+            <summary>
+            A(n) zebibit. Defined as: (1024.0) × exbibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Yobibit">
+            <summary>
+            A(n) yobibit. Defined as: (1024.0) × zebibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Robibit">
+            <summary>
+            A(n) robibit. Defined as: (1024.0) × yobibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Quebibit">
+            <summary>
+            A(n) quebibit. Defined as: (1024.0) × robibit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Nybble">
+            <summary>
+            A(n) nybble. Defined as: (4d) × bit + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Kilonybble">
+            <summary>
+            A(n) kilonybble. Defined as: (10.0) × nybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Meganybble">
+            <summary>
+            A(n) meganybble. Defined as: (1000.0) × kilonybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Giganybble">
+            <summary>
+            A(n) giganybble. Defined as: (1000.0) × meganybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Teranybble">
+            <summary>
+            A(n) teranybble. Defined as: (1000.0) × giganybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Petanybble">
+            <summary>
+            A(n) petanybble. Defined as: (1000.0) × teranybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Exanybble">
+            <summary>
+            A(n) exanybble. Defined as: (1000.0) × petanybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Zettanybble">
+            <summary>
+            A(n) zettanybble. Defined as: (1000.0) × exanybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Yottanybble">
+            <summary>
+            A(n) yottanybble. Defined as: (1000.0) × zettanybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Ronnanybble">
+            <summary>
+            A(n) ronnanybble. Defined as: (1000.0) × yottanybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Quettanybble">
+            <summary>
+            A(n) quettanybble. Defined as: (1000.0) × ronnanybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Kebinybble">
+            <summary>
+            A(n) kebinybble. Defined as: (1024.0) × nybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Mebinybble">
+            <summary>
+            A(n) mebinybble. Defined as: (1024.0) × kebinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Gibinybble">
+            <summary>
+            A(n) gibinybble. Defined as: (1024.0) × mebinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Tebinybble">
+            <summary>
+            A(n) tebinybble. Defined as: (1024.0) × gibinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Pebinybble">
+            <summary>
+            A(n) pebinybble. Defined as: (1024.0) × tebinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Exbinybble">
+            <summary>
+            A(n) exbinybble. Defined as: (1024.0) × pebinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Zebinybble">
+            <summary>
+            A(n) zebinybble. Defined as: (1024.0) × exbinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Yobinybble">
+            <summary>
+            A(n) yobinybble. Defined as: (1024.0) × zebinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Robinybble">
+            <summary>
+            A(n) robinybble. Defined as: (1024.0) × yobinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Quebinybble">
+            <summary>
+            A(n) quebinybble. Defined as: (1024.0) × robinybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Byte">
+            <summary>
+            A(n) byte. Defined as: (2d) × nybble + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Kilobyte">
+            <summary>
+            A(n) kilobyte. Defined as: (10.0) × byte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Megabyte">
+            <summary>
+            A(n) megabyte. Defined as: (1000.0) × kilobyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Gigabyte">
+            <summary>
+            A(n) gigabyte. Defined as: (1000.0) × megabyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Terabyte">
+            <summary>
+            A(n) terabyte. Defined as: (1000.0) × gigabyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Petabyte">
+            <summary>
+            A(n) petabyte. Defined as: (1000.0) × terabyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Exabyte">
+            <summary>
+            A(n) exabyte. Defined as: (1000.0) × petabyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Zettabyte">
+            <summary>
+            A(n) zettabyte. Defined as: (1000.0) × exabyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Yottabyte">
+            <summary>
+            A(n) yottabyte. Defined as: (1000.0) × zettabyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Ronnabyte">
+            <summary>
+            A(n) ronnabyte. Defined as: (1000.0) × yottabyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Quettabyte">
+            <summary>
+            A(n) quettabyte. Defined as: (1000.0) × ronnabyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Kebibyte">
+            <summary>
+            A(n) kebibyte. Defined as: (1024.0) × byte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Mebibyte">
+            <summary>
+            A(n) mebibyte. Defined as: (1024.0) × kebibyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Gibibyte">
+            <summary>
+            A(n) gibibyte. Defined as: (1024.0) × mebibyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Tebibyte">
+            <summary>
+            A(n) tebibyte. Defined as: (1024.0) × gibibyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Pebibyte">
+            <summary>
+            A(n) pebibyte. Defined as: (1024.0) × tebibyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Exbibyte">
+            <summary>
+            A(n) exbibyte. Defined as: (1024.0) × pebibyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Zebibyte">
+            <summary>
+            A(n) zebibyte. Defined as: (1024.0) × exbibyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Yobibyte">
+            <summary>
+            A(n) yobibyte. Defined as: (1024.0) × zebibyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Robibyte">
+            <summary>
+            A(n) robibyte. Defined as: (1024.0) × yobibyte + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits.Quebibyte">
+            <summary>
+            A(n) quebibyte. Defined as: (1024.0) × robibyte + (0).
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates">
+            <summary>
+            Units used to measure Data for measuring Transfer Rate.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.BitsPerSecond">
+            <summary>
+            A(n) bits per second.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.KilobitsPerSecond">
+            <summary>
+            A(n) kilobits per second. Defined as: (10.0) × bits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.MegabitsPerSecond">
+            <summary>
+            A(n) megabits per second. Defined as: (1000.0) × kilobits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.GigabitsPerSecond">
+            <summary>
+            A(n) gigabits per second. Defined as: (1000.0) × megabits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.TerabitsPerSecond">
+            <summary>
+            A(n) terabits per second. Defined as: (1000.0) × gigabits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.PetabitsPerSecond">
+            <summary>
+            A(n) petabits per second. Defined as: (1000.0) × terabits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ExabitsPerSecond">
+            <summary>
+            A(n) exabits per second. Defined as: (1000.0) × petabits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ZettabitsPerSecond">
+            <summary>
+            A(n) zettabits per second. Defined as: (1000.0) × exabits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.YottabitsPerSecond">
+            <summary>
+            A(n) yottabits per second. Defined as: (1000.0) × zettabits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.RonnabitsPerSecond">
+            <summary>
+            A(n) ronnabits per second. Defined as: (1000.0) × yottabits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.QuettabitsPerSecond">
+            <summary>
+            A(n) quettabits per second. Defined as: (1000.0) × ronnabits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.KebibitsPerSecond">
+            <summary>
+            A(n) kebibits per second. Defined as: (1024.0) × bits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.MebibitsPerSecond">
+            <summary>
+            A(n) mebibits per second. Defined as: (1024.0) × kebibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.GibibitsPerSecond">
+            <summary>
+            A(n) gibibits per second. Defined as: (1024.0) × mebibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.TebibitsPerSecond">
+            <summary>
+            A(n) tebibits per second. Defined as: (1024.0) × gibibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.PebibitsPerSecond">
+            <summary>
+            A(n) pebibits per second. Defined as: (1024.0) × tebibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ExbibitsPerSecond">
+            <summary>
+            A(n) exbibits per second. Defined as: (1024.0) × pebibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ZebibitsPerSecond">
+            <summary>
+            A(n) zebibits per second. Defined as: (1024.0) × exbibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.YobibitsPerSecond">
+            <summary>
+            A(n) yobibits per second. Defined as: (1024.0) × zebibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.RobibitsPerSecond">
+            <summary>
+            A(n) robibits per second. Defined as: (1024.0) × yobibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.QuebibitsPerSecond">
+            <summary>
+            A(n) quebibits per second. Defined as: (1024.0) × robibits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.NybblesPerSecond">
+            <summary>
+            A(n) nybbles per second. Defined as: (4d) × bits per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.KilonybblesPerSecond">
+            <summary>
+            A(n) kilonybbles per second. Defined as: (10.0) × nybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.MeganybblesPerSecond">
+            <summary>
+            A(n) meganybbles per second. Defined as: (1000.0) × kilonybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.GiganybblesPerSecond">
+            <summary>
+            A(n) giganybbles per second. Defined as: (1000.0) × meganybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.TeranybblesPerSecond">
+            <summary>
+            A(n) teranybbles per second. Defined as: (1000.0) × giganybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.PetanybblesPerSecond">
+            <summary>
+            A(n) petanybbles per second. Defined as: (1000.0) × teranybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ExanybblesPerSecond">
+            <summary>
+            A(n) exanybbles per second. Defined as: (1000.0) × petanybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ZettanybblesPerSecond">
+            <summary>
+            A(n) zettanybbles per second. Defined as: (1000.0) × exanybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.YottanybblesPerSecond">
+            <summary>
+            A(n) yottanybbles per second. Defined as: (1000.0) × zettanybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.RonnanybblesPerSecond">
+            <summary>
+            A(n) ronnanybbles per second. Defined as: (1000.0) × yottanybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.QuettanybblesPerSecond">
+            <summary>
+            A(n) quettanybbles per second. Defined as: (1000.0) × ronnanybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.KebinybblesPerSecond">
+            <summary>
+            A(n) kebinybbles per second. Defined as: (1024.0) × nybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.MebinybblesPerSecond">
+            <summary>
+            A(n) mebinybbles per second. Defined as: (1024.0) × kebinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.GibinybblesPerSecond">
+            <summary>
+            A(n) gibinybbles per second. Defined as: (1024.0) × mebinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.TebinybblesPerSecond">
+            <summary>
+            A(n) tebinybbles per second. Defined as: (1024.0) × gibinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.PebinybblesPerSecond">
+            <summary>
+            A(n) pebinybbles per second. Defined as: (1024.0) × tebinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ExbinybblesPerSecond">
+            <summary>
+            A(n) exbinybbles per second. Defined as: (1024.0) × pebinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ZebinybblesPerSecond">
+            <summary>
+            A(n) zebinybbles per second. Defined as: (1024.0) × exbinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.YobinybblesPerSecond">
+            <summary>
+            A(n) yobinybbles per second. Defined as: (1024.0) × zebinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.RobinybblesPerSecond">
+            <summary>
+            A(n) robinybbles per second. Defined as: (1024.0) × yobinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.QuebinybblesPerSecond">
+            <summary>
+            A(n) quebinybbles per second. Defined as: (1024.0) × robinybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.BytesPerSecond">
+            <summary>
+            A(n) bytes per second. Defined as: (2d) × nybbles per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.KilobytesPerSecond">
+            <summary>
+            A(n) kilobytes per second. Defined as: (10.0) × bytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.MegabytesPerSecond">
+            <summary>
+            A(n) megabytes per second. Defined as: (1000.0) × kilobytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.GigabytesPerSecond">
+            <summary>
+            A(n) gigabytes per second. Defined as: (1000.0) × megabytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.TerabytesPerSecond">
+            <summary>
+            A(n) terabytes per second. Defined as: (1000.0) × gigabytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.PetabytesPerSecond">
+            <summary>
+            A(n) petabytes per second. Defined as: (1000.0) × terabytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ExabytesPerSecond">
+            <summary>
+            A(n) exabytes per second. Defined as: (1000.0) × petabytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ZettabytesPerSecond">
+            <summary>
+            A(n) zettabytes per second. Defined as: (1000.0) × exabytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.YottabytesPerSecond">
+            <summary>
+            A(n) yottabytes per second. Defined as: (1000.0) × zettabytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.RonnabytesPerSecond">
+            <summary>
+            A(n) ronnabytes per second. Defined as: (1000.0) × yottabytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.QuettabytesPerSecond">
+            <summary>
+            A(n) quettabytes per second. Defined as: (1000.0) × ronnabytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.KebibytesPerSecond">
+            <summary>
+            A(n) kebibytes per second. Defined as: (1024.0) × bytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.MebibytesPerSecond">
+            <summary>
+            A(n) mebibytes per second. Defined as: (1024.0) × kebibytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.GibibytesPerSecond">
+            <summary>
+            A(n) gibibytes per second. Defined as: (1024.0) × mebibytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.TebibytesPerSecond">
+            <summary>
+            A(n) tebibytes per second. Defined as: (1024.0) × gibibytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.PebibytesPerSecond">
+            <summary>
+            A(n) pebibytes per second. Defined as: (1024.0) × tebibytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ExbibytesPerSecond">
+            <summary>
+            A(n) exbibytes per second. Defined as: (1024.0) × pebibytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.ZebibytesPerSecond">
+            <summary>
+            A(n) zebibytes per second. Defined as: (1024.0) × exbibytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.YobibytesPerSecond">
+            <summary>
+            A(n) yobibytes per second. Defined as: (1024.0) × zebibytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.RobibytesPerSecond">
+            <summary>
+            A(n) robibytes per second. Defined as: (1024.0) × yobibytes per second + (0).
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates.QuebibytesPerSecond">
+            <summary>
+            A(n) quebibytes per second. Defined as: (1024.0) × robibytes per second + (0).
+            </summary>
+        </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.Durations">
             <summary>
             Uncategorized Units for measuring Duration.
@@ -29424,6 +30069,22 @@
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
         </member>
+        <member name="T:Jcd.Units.UnitTypes.Storage">
+            <summary>
+            A measurement of data storage.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.Storage.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Storage,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+            <summary>
+            Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Storage" /> using another <see cref="T:Jcd.Units.UnitTypes.Storage" /> as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Storage" /></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
+            <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
+            <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
+        </member>
         <member name="T:Jcd.Units.UnitTypes.Temperature">
             <summary>
             A measurement of the energy contained in the motion and vibration of an object's molecules.
@@ -29435,6 +30096,22 @@
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Temperature" /></param>
+            <param name="baseUnit">The unit to use as a base</param>
+            <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
+            <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
+            <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
+        </member>
+        <member name="T:Jcd.Units.UnitTypes.TransferRate">
+            <summary>
+            A measurement of the rate at which data is transferred.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitTypes.TransferRate.#ctor(System.String,System.String,Jcd.Units.UnitTypes.TransferRate,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+            <summary>
+            Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.TransferRate" /> using another <see cref="T:Jcd.Units.UnitTypes.TransferRate" /> as a reference.
+            </summary>
+            <param name="name">The name of this unit</param>
+            <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.TransferRate" /></param>
             <param name="baseUnit">The unit to use as a base</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>

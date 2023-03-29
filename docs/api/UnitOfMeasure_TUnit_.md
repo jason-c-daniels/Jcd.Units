@@ -49,7 +49,9 @@ Derived
 &#8627; [RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')  
 &#8627; [RadioactiveDecay](RadioactiveDecay.md 'Jcd.Units.UnitTypes.RadioactiveDecay')  
 &#8627; [Resistance](Resistance.md 'Jcd.Units.UnitTypes.Resistance')  
+&#8627; [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage')  
 &#8627; [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')  
+&#8627; [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate')  
 &#8627; [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')  
 &#8627; [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
 

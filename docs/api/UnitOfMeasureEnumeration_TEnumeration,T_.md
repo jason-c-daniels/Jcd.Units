@@ -37,6 +37,8 @@ Derived
 &#8627; [Momentums](Momentums.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Momentums')  
 &#8627; [Temperatures](Temperatures.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Temperatures')  
 &#8627; [Volumes](Volumes.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes')  
+&#8627; [StorageUnits](StorageUnits.md 'Jcd.Units.UnitsOfMeasure.DataCapacity.StorageUnits')  
+&#8627; [TransferRates](TransferRates.md 'Jcd.Units.UnitsOfMeasure.DataCapacity.TransferRates')  
 &#8627; [Durations](Durations.md 'Jcd.Units.UnitsOfMeasure.Durations')  
 &#8627; [Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.Imperial.Accelerations')  
 &#8627; [Amounts](Amounts.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts')  
