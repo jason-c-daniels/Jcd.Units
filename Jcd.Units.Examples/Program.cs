@@ -14,13 +14,12 @@ using US = Jcd.Units.UnitsOfMeasure.USCustomary;
 // ReSharper disable HeapView.BoxingAllocation
 // ReSharper disable RedundantAssignment
 // ReSharper disable SuggestBaseTypeForParameter
-
 // ReSharper disable CommentTypo
-
 // ReSharper disable UnusedVariable
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable HeuristicUnreachableCode  
+
 #pragma warning disable CS0162
 #pragma warning disable CS0219
 
@@ -31,6 +30,18 @@ const int ITERATIONS = 100_000;
 #else
 const int ITERATIONS = 1_000_000;
 #endif
+
+var tt1 = new Temperature("C", "C");
+var tt2 = new Temperature("T2", "T2", tt1, 10, 5);
+var tt3 = new Temperature("F", "F", tt1, 9d / 5d, -32d);
+var tt4 = new Temperature("T4", "T4", tt1, 0, -273.15);
+
+var qtt1    = 200.As(tt1);
+var qtt1As2 = qtt1.To(tt2);
+var qtt1As3 = qtt1.To(tt3);
+var qtt1As4 = qtt1.To(tt4); 
+
+
 
 var sysInfo = SystemInfo.Instance;
 
@@ -67,6 +78,7 @@ var skinInLb      = $"{oneKgInPounds:n10}";
 
 var perfRunner = PerformanceTestRunner.Instance;
 
+// var ε₀ = 1;
 // execute all of the tests without reporting results to get the code JITed.
 // this yield best case performance. Will need to add an option to ensure its fully JITed
 for (var zx = 0; zx < 2; zx++)
