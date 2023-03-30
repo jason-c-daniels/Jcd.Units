@@ -30,9 +30,9 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [KebibitsPerSecond](TransferRates.KebibitsPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KebibitsPerSecond') | A(n) kebibits per second. Defined as: (1024.0) × bits per second + (0). |
 | [KebibytesPerSecond](TransferRates.KebibytesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KebibytesPerSecond') | A(n) kebibytes per second. Defined as: (1024.0) × bytes per second + (0). |
 | [KebinybblesPerSecond](TransferRates.KebinybblesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KebinybblesPerSecond') | A(n) kebinybbles per second. Defined as: (1024.0) × nybbles per second + (0). |
-| [KilobitsPerSecond](TransferRates.KilobitsPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilobitsPerSecond') | A(n) kilobits per second. Defined as: (10.0) × bits per second + (0). |
-| [KilobytesPerSecond](TransferRates.KilobytesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilobytesPerSecond') | A(n) kilobytes per second. Defined as: (10.0) × bytes per second + (0). |
-| [KilonybblesPerSecond](TransferRates.KilonybblesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilonybblesPerSecond') | A(n) kilonybbles per second. Defined as: (10.0) × nybbles per second + (0). |
+| [KilobitsPerSecond](TransferRates.KilobitsPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilobitsPerSecond') | A(n) kilobits per second. Defined as: (1000.0) × bits per second + (0). |
+| [KilobytesPerSecond](TransferRates.KilobytesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilobytesPerSecond') | A(n) kilobytes per second. Defined as: (1000.0) × bytes per second + (0). |
+| [KilonybblesPerSecond](TransferRates.KilonybblesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilonybblesPerSecond') | A(n) kilonybbles per second. Defined as: (1000.0) × nybbles per second + (0). |
 | [MebibitsPerSecond](TransferRates.MebibitsPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.MebibitsPerSecond') | A(n) mebibits per second. Defined as: (1024.0) × kebibits per second + (0). |
 | [MebibytesPerSecond](TransferRates.MebibytesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.MebibytesPerSecond') | A(n) mebibytes per second. Defined as: (1024.0) × kebibytes per second + (0). |
 | [MebinybblesPerSecond](TransferRates.MebinybblesPerSecond.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates.MebinybblesPerSecond') | A(n) mebinybbles per second. Defined as: (1024.0) × kebinybbles per second + (0). |

@@ -23,9 +23,9 @@ public class StorageUnits : UnitOfMeasureEnumeration<StorageUnits, Storage>
    public static readonly Storage Bit = new ("bit", "b");
 
    /// <summary>
-   /// A(n) kilobit. Defined as: (10.0) × bit + (0).
+   /// A(n) kilobit. Defined as: (1000.0) × bit + (0).
    /// </summary>
-   public static readonly Storage Kilobit = new ("kilobit", "Kb", Bit, 10.0, 0);
+   public static readonly Storage Kilobit = new ("kilobit", "Kb", Bit, 1000.0, 0);
 
    /// <summary>
    /// A(n) megabit. Defined as: (1000.0) × kilobit + (0).
@@ -128,9 +128,9 @@ public class StorageUnits : UnitOfMeasureEnumeration<StorageUnits, Storage>
    public static readonly Storage Nybble = new ("nybble", "n", Bit, 4d, 0);
 
    /// <summary>
-   /// A(n) kilonybble. Defined as: (10.0) × nybble + (0).
+   /// A(n) kilonybble. Defined as: (1000.0) × nybble + (0).
    /// </summary>
-   public static readonly Storage Kilonybble = new ("kilonybble", "Kn", Nybble, 10.0, 0);
+   public static readonly Storage Kilonybble = new ("kilonybble", "Kn", Nybble, 1000.0, 0);
 
    /// <summary>
    /// A(n) meganybble. Defined as: (1000.0) × kilonybble + (0).
@@ -233,9 +233,9 @@ public class StorageUnits : UnitOfMeasureEnumeration<StorageUnits, Storage>
    public static readonly Storage Byte = new ("byte", "B", Nybble, 2d, 0);
 
    /// <summary>
-   /// A(n) kilobyte. Defined as: (10.0) × byte + (0).
+   /// A(n) kilobyte. Defined as: (1000.0) × byte + (0).
    /// </summary>
-   public static readonly Storage Kilobyte = new ("kilobyte", "KB", Byte, 10.0, 0);
+   public static readonly Storage Kilobyte = new ("kilobyte", "KB", Byte, 1000.0, 0);
 
    /// <summary>
    /// A(n) megabyte. Defined as: (1000.0) × kilobyte + (0).

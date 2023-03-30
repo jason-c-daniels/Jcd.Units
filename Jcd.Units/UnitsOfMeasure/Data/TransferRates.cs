@@ -23,9 +23,10 @@ public class TransferRates : UnitOfMeasureEnumeration<TransferRates, TransferRat
    public static readonly TransferRate BitsPerSecond = new ("bits per second", "b/s");
 
    /// <summary>
-   /// A(n) kilobits per second. Defined as: (10.0) × bits per second + (0).
+   /// A(n) kilobits per second. Defined as: (1000.0) × bits per second + (0).
    /// </summary>
-   public static readonly TransferRate KilobitsPerSecond = new ("kilobits per second", "Kb/s", BitsPerSecond, 10.0, 0);
+   public static readonly TransferRate
+            KilobitsPerSecond = new ("kilobits per second", "Kb/s", BitsPerSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) megabits per second. Defined as: (1000.0) × kilobits per second + (0).
@@ -217,10 +218,10 @@ public class TransferRates : UnitOfMeasureEnumeration<TransferRates, TransferRat
    public static readonly TransferRate NybblesPerSecond = new ("nybbles per second", "n/s", BitsPerSecond, 4d, 0);
 
    /// <summary>
-   /// A(n) kilonybbles per second. Defined as: (10.0) × nybbles per second + (0).
+   /// A(n) kilonybbles per second. Defined as: (1000.0) × nybbles per second + (0).
    /// </summary>
    public static readonly TransferRate KilonybblesPerSecond =
-            new ("kilonybbles per second", "Kn/s", NybblesPerSecond, 10.0, 0);
+            new ("kilonybbles per second", "Kn/s", NybblesPerSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) meganybbles per second. Defined as: (1000.0) × kilonybbles per second + (0).
@@ -342,10 +343,10 @@ public class TransferRates : UnitOfMeasureEnumeration<TransferRates, TransferRat
    public static readonly TransferRate BytesPerSecond = new ("bytes per second", "B/s", NybblesPerSecond, 2d, 0);
 
    /// <summary>
-   /// A(n) kilobytes per second. Defined as: (10.0) × bytes per second + (0).
+   /// A(n) kilobytes per second. Defined as: (1000.0) × bytes per second + (0).
    /// </summary>
    public static readonly TransferRate KilobytesPerSecond =
-            new ("kilobytes per second", "KB/s", BytesPerSecond, 10.0, 0);
+            new ("kilobytes per second", "KB/s", BytesPerSecond, 1000.0, 0);
 
    /// <summary>
    /// A(n) megabytes per second. Defined as: (1000.0) × kilobytes per second + (0).

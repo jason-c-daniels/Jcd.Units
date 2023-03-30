@@ -30,9 +30,9 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Kebibit](StorageUnits.Kebibit.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kebibit') | A(n) kebibit. Defined as: (1024.0) × bit + (0). |
 | [Kebibyte](StorageUnits.Kebibyte.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kebibyte') | A(n) kebibyte. Defined as: (1024.0) × byte + (0). |
 | [Kebinybble](StorageUnits.Kebinybble.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kebinybble') | A(n) kebinybble. Defined as: (1024.0) × nybble + (0). |
-| [Kilobit](StorageUnits.Kilobit.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilobit') | A(n) kilobit. Defined as: (10.0) × bit + (0). |
-| [Kilobyte](StorageUnits.Kilobyte.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilobyte') | A(n) kilobyte. Defined as: (10.0) × byte + (0). |
-| [Kilonybble](StorageUnits.Kilonybble.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilonybble') | A(n) kilonybble. Defined as: (10.0) × nybble + (0). |
+| [Kilobit](StorageUnits.Kilobit.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilobit') | A(n) kilobit. Defined as: (1000.0) × bit + (0). |
+| [Kilobyte](StorageUnits.Kilobyte.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilobyte') | A(n) kilobyte. Defined as: (1000.0) × byte + (0). |
+| [Kilonybble](StorageUnits.Kilonybble.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilonybble') | A(n) kilonybble. Defined as: (1000.0) × nybble + (0). |
 | [Mebibit](StorageUnits.Mebibit.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Mebibit') | A(n) mebibit. Defined as: (1024.0) × kebibit + (0). |
 | [Mebibyte](StorageUnits.Mebibyte.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Mebibyte') | A(n) mebibyte. Defined as: (1024.0) × kebibyte + (0). |
 | [Mebinybble](StorageUnits.Mebinybble.md 'Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Mebinybble') | A(n) mebinybble. Defined as: (1024.0) × kebinybble + (0). |

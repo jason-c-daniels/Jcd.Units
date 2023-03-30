@@ -2190,7 +2190,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilobit">
             <summary>
-            A(n) kilobit. Defined as: (10.0) × bit + (0).
+            A(n) kilobit. Defined as: (1000.0) × bit + (0).
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Megabit">
@@ -2295,7 +2295,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilonybble">
             <summary>
-            A(n) kilonybble. Defined as: (10.0) × nybble + (0).
+            A(n) kilonybble. Defined as: (1000.0) × nybble + (0).
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Meganybble">
@@ -2400,7 +2400,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Kilobyte">
             <summary>
-            A(n) kilobyte. Defined as: (10.0) × byte + (0).
+            A(n) kilobyte. Defined as: (1000.0) × byte + (0).
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.StorageUnits.Megabyte">
@@ -2510,7 +2510,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilobitsPerSecond">
             <summary>
-            A(n) kilobits per second. Defined as: (10.0) × bits per second + (0).
+            A(n) kilobits per second. Defined as: (1000.0) × bits per second + (0).
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.TransferRates.MegabitsPerSecond">
@@ -2615,7 +2615,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilonybblesPerSecond">
             <summary>
-            A(n) kilonybbles per second. Defined as: (10.0) × nybbles per second + (0).
+            A(n) kilonybbles per second. Defined as: (1000.0) × nybbles per second + (0).
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.TransferRates.MeganybblesPerSecond">
@@ -2720,7 +2720,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.TransferRates.KilobytesPerSecond">
             <summary>
-            A(n) kilobytes per second. Defined as: (10.0) × bytes per second + (0).
+            A(n) kilobytes per second. Defined as: (1000.0) × bytes per second + (0).
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Data.TransferRates.MegabytesPerSecond">

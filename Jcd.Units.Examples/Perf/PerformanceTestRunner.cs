@@ -7,6 +7,7 @@ using Jcd.Units.Examples.Perf.Tests;
 using Jcd.Units.Examples.Perf.Tests.Baseline;
 using Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
 using Jcd.Units.UnitsOfMeasure;
+using Jcd.Units.UnitsOfMeasure.Data;
 using Jcd.Units.UnitsOfMeasure.SI;
 
 // ReSharper disable HeapView.ObjectAllocation.Possible
@@ -49,8 +50,15 @@ public class PerformanceTestRunner
          Console.WriteLine($"  Socket: {cpu.SocketDesignation}");
          Console.WriteLine($"  Number of Cores: {cpu.NumberOfCores}");
          Console.WriteLine($"  Number of Logical Processors : {cpu.NumberOfLogicalProcessors}");
-         Console.WriteLine($"  L2 Cache Size: {cpu.L2CacheSize}");
-         Console.WriteLine($"  L3 Cache Size: {cpu.L3CacheSize}");
+
+         Console.WriteLine(
+                           $"  L2 Cache Size: {cpu.L2CacheSize.As(StorageUnits.Kilobyte).To(StorageUnits.Mebibyte):n2}"
+                          );
+
+         Console.WriteLine(
+                           $"  L3 Cache Size: {cpu.L3CacheSize.As(StorageUnits.Kilobyte).To(StorageUnits.Mebibyte):n2}"
+                          );
+
          Console.WriteLine($"  Virtualization Firmware Enabled: {cpu.VirtualizationFirmwareEnabled}");
          Console.WriteLine();
          Console.WriteLine("Scenarios:");
