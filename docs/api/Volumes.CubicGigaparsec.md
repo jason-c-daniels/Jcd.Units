@@ -3,7 +3,7 @@
 
 ## Volumes.CubicGigaparsec Field
 
-A(n) cubic gigaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic megaparsec + (0).
+A(n) cubic gigaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic megaparsec.
 
 ```csharp
 public static readonly Volume CubicGigaparsec;

@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerAttosecond Field
 
-A(n) gigameter per attosecond. Defined as: ((1000.0)/(1.0/1000.0)) × megameter per femtosecond + (0).
+A(n) gigameter per attosecond. Defined as: (1000.0)/(1.0/1000.0) × megameter per femtosecond.
 
 ```csharp
 public static readonly Velocity GigameterPerAttosecond;

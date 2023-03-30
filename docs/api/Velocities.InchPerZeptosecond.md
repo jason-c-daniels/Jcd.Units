@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerZeptosecond Field
 
-A(n) inch per zeptosecond. Defined as: ((2.54)/(1.0/1000.0)) × SI centimeter per attosecond + (0).
+A(n) inch per zeptosecond. Defined as: (2.54)/(1.0/1000.0) × SI centimeter per attosecond.
 
 ```csharp
 public static readonly Velocity InchPerZeptosecond;

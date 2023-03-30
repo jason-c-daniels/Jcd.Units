@@ -3,7 +3,7 @@
 
 ## Lengths.SolarRadius Field
 
-A(n) solar radius. Defined as: (695_700.0) × SI kilometer + (0).
+A(n) solar radius. Defined as: 695_700.0 × SI kilometer.
 
 ```csharp
 public static readonly Length SolarRadius;

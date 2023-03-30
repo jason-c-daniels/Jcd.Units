@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareDecade Field
 
-A(n) twip per square decade. Defined as: ((1.0/17280.0)/((10.0)*(10.0))) × foot per square year + (0).
+A(n) twip per square decade. Defined as: (1.0/17280.0)/((10.0)*(10.0)) × foot per square year.
 
 ```csharp
 public static readonly Acceleration TwipPerSquareDecade;

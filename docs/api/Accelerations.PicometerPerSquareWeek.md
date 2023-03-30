@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareWeek Field
 
-A(n) picometer per square week. Defined as: ((1.0/1000.0)/((7.0)*(7.0))) × nanometer per square day + (0).
+A(n) picometer per square week. Defined as: (1.0/1000.0)/((7.0)*(7.0)) × nanometer per square day.
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareWeek;

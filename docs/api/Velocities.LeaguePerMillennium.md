@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerMillennium Field
 
-A(n) league per millennium. Defined as: ((3.0)/(10.0)) × mile per century + (0).
+A(n) league per millennium. Defined as: (3.0)/(10.0) × mile per century.
 
 ```csharp
 public static readonly Velocity LeaguePerMillennium;

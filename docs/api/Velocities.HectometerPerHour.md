@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerHour Field
 
-A(n) hectometer per hour. Defined as: ((10.0)/(60.0)) × dekameter per minute + (0).
+A(n) hectometer per hour. Defined as: (10.0)/(60.0) × dekameter per minute.
 
 ```csharp
 public static readonly Velocity HectometerPerHour;

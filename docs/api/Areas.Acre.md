@@ -3,7 +3,7 @@
 
 ## Areas.Acre Field
 
-A(n) acre. Defined as: (4.0) × rood + (0).
+A(n) acre. Defined as: 4.0 × rood.
 
 ```csharp
 public static readonly Area Acre;

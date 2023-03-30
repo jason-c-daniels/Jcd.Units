@@ -3,7 +3,7 @@
 
 ## Forces.Teranewton Field
 
-A(n) teranewton. Defined as: (1000.0) × giganewton + (0).
+A(n) teranewton. Defined as: 1000.0 × giganewton.
 
 ```csharp
 public static readonly Force Teranewton;

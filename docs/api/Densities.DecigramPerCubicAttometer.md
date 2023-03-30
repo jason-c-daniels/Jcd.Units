@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicAttometer Field
 
-A(n) decigram per cubic attometer. Defined as: ((1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × gram per cubic femtometer + (0).
+A(n) decigram per cubic attometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × gram per cubic femtometer.
 
 ```csharp
 public static readonly Density DecigramPerCubicAttometer;

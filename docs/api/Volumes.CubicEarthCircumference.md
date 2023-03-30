@@ -3,7 +3,7 @@
 
 ## Volumes.CubicEarthCircumference Field
 
-A(n) cubic earth circumference. Defined as: ((Math.PI)*(Math.PI)*(Math.PI)) × cubic earth diameter + (0).
+A(n) cubic earth circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic earth diameter.
 
 ```csharp
 public static readonly Volume CubicEarthCircumference;

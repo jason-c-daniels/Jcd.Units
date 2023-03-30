@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerPlanckTime Field
 
-A(n) barleycorn per planck-time. Defined as: ((1.0/36.0)/(5.391247E-38)) × foot per microsecond + (0).
+A(n) barleycorn per planck-time. Defined as: (1.0/36.0)/(5.391247E-38) × foot per microsecond.
 
 ```csharp
 public static readonly Velocity BarleycornPerPlanckTime;

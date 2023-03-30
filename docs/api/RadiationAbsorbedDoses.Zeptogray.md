@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Zeptogray Field
 
-A(n) zeptogray. Defined as: (1.0/1000.0) × attogray + (0).
+A(n) zeptogray. Defined as: 1.0/1000.0 × attogray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Zeptogray;

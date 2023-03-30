@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareWeek Field
 
-A(n) barleycorn per square week. Defined as: ((1.0/36.0)/((7.0)*(7.0))) × foot per square day + (0).
+A(n) barleycorn per square week. Defined as: (1.0/36.0)/((7.0)*(7.0)) × foot per square day.
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareWeek;

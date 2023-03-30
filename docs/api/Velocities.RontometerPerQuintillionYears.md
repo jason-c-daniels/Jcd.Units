@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerQuintillionYears Field
 
-A(n) rontometer per quintillion years. Defined as: ((1.0/1000.0)/(1000.0)) × yoctometer per quadrillion years + (0).
+A(n) rontometer per quintillion years. Defined as: (1.0/1000.0)/(1000.0) × yoctometer per quadrillion years.
 
 ```csharp
 public static readonly Velocity RontometerPerQuintillionYears;

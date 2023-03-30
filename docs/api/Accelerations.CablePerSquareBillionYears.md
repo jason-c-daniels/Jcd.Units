@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareBillionYears Field
 
-A(n) cable per square billion years. Defined as: ((100.0)/((1000.0)*(1000.0))) × fathom per square million years + (0).
+A(n) cable per square billion years. Defined as: (100.0)/((1000.0)*(1000.0)) × fathom per square million years.
 
 ```csharp
 public static readonly Acceleration CablePerSquareBillionYears;

@@ -3,7 +3,7 @@
 
 ## Volumes.Zettaliter Field
 
-A(n) zettaliter. Defined as: (1000.0) × exaliter + (0).
+A(n) zettaliter. Defined as: 1000.0 × exaliter.
 
 ```csharp
 public static readonly Volume Zettaliter;

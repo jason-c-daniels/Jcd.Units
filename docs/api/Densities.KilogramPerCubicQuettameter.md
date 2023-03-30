@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicQuettameter Field
 
-A(n) kilogram per cubic quettameter. Defined as: ((1.0)/((1000.0)*(1000.0)*(1000.0))) × kilogram per cubic ronnameter + (0).
+A(n) kilogram per cubic quettameter. Defined as: (1.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic ronnameter.
 
 ```csharp
 public static readonly Density KilogramPerCubicQuettameter;

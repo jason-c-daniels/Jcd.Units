@@ -3,7 +3,7 @@
 
 ## Areas.SquareExalightYear Field
 
-A(n) square exalight-year. Defined as: ((1000.0)*(1000.0)) × square petalight-year + (0).
+A(n) square exalight-year. Defined as: (1000.0)*(1000.0) × square petalight-year.
 
 ```csharp
 public static readonly Area SquareExalightYear;

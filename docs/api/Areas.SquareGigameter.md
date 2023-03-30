@@ -3,7 +3,7 @@
 
 ## Areas.SquareGigameter Field
 
-A(n) square gigameter. Defined as: ((1000.0)*(1000.0)) × square megameter + (0).
+A(n) square gigameter. Defined as: (1000.0)*(1000.0) × square megameter.
 
 ```csharp
 public static readonly Area SquareGigameter;

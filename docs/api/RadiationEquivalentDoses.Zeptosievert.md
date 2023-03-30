@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Zeptosievert Field
 
-A(n) zeptosievert. Defined as: (1.0/1000.0) × attosievert + (0).
+A(n) zeptosievert. Defined as: 1.0/1000.0 × attosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Zeptosievert;

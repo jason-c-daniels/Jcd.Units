@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerMillennium Field
 
-A(n) furlong per millennium. Defined as: ((10.0)/(10.0)) × chain per century + (0).
+A(n) furlong per millennium. Defined as: (10.0)/(10.0) × chain per century.
 
 ```csharp
 public static readonly Velocity FurlongPerMillennium;

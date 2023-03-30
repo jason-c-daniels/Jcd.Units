@@ -3,7 +3,7 @@
 
 ## Illuminances.Ronnalux Field
 
-A(n) ronnalux. Defined as: (1000.0) × yottalux + (0).
+A(n) ronnalux. Defined as: 1000.0 × yottalux.
 
 ```csharp
 public static readonly Illuminance Ronnalux;

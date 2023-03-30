@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerPicosecond Field
 
-A(n) rod per picosecond. Defined as: ((5.0292)/(1.0/1000.0)) × SI meter per nanosecond + (0).
+A(n) rod per picosecond. Defined as: (5.0292)/(1.0/1000.0) × SI meter per nanosecond.
 
 ```csharp
 public static readonly Velocity RodPerPicosecond;

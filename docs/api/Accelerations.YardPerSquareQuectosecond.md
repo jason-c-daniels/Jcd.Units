@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareQuectosecond Field
 
-A(n) yard per square quectosecond. Defined as: ((3.0)/((1.0/1000.0)*(1.0/1000.0))) × foot per square rontosecond + (0).
+A(n) yard per square quectosecond. Defined as: (3.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square rontosecond.
 
 ```csharp
 public static readonly Acceleration YardPerSquareQuectosecond;

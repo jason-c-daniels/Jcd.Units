@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicGigameter Field
 
-A(n) exagram per cubic gigameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × petagram per cubic megameter + (0).
+A(n) exagram per cubic gigameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × petagram per cubic megameter.
 
 ```csharp
 public static readonly Density ExagramPerCubicGigameter;

@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareTick Field
 
-A(n) rod per square tick. Defined as: ((5.0292)/((100.0)*(100.0))) × SI meter per square nanosecond + (0).
+A(n) rod per square tick. Defined as: (5.0292)/((100.0)*(100.0)) × SI meter per square nanosecond.
 
 ```csharp
 public static readonly Acceleration RodPerSquareTick;

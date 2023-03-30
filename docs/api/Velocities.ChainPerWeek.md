@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerWeek Field
 
-A(n) chain per week. Defined as: ((22.0)/(7.0)) × yard per day + (0).
+A(n) chain per week. Defined as: (22.0)/(7.0) × yard per day.
 
 ```csharp
 public static readonly Velocity ChainPerWeek;

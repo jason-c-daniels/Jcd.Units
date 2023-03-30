@@ -3,7 +3,7 @@
 
 ## Volumes.CubicPoint Field
 
-A(n) cubic point. Defined as: ((1.0/72.0)*(1.0/72.0)*(1.0/72.0)) × cubic inch + (0).
+A(n) cubic point. Defined as: (1.0/72.0)*(1.0/72.0)*(1.0/72.0) × cubic inch.
 
 ```csharp
 public static readonly Volume CubicPoint;

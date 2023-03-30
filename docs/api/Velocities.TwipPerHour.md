@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerHour Field
 
-A(n) twip per hour. Defined as: ((1.0/17280.0)/(60.0)) × foot per minute + (0).
+A(n) twip per hour. Defined as: (1.0/17280.0)/(60.0) × foot per minute.
 
 ```csharp
 public static readonly Velocity TwipPerHour;

@@ -3,7 +3,7 @@
 
 ## Illuminances.Megalux Field
 
-A(n) megalux. Defined as: (1000.0) × kilolux + (0).
+A(n) megalux. Defined as: 1000.0 × kilolux.
 
 ```csharp
 public static readonly Illuminance Megalux;

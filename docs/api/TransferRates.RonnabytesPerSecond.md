@@ -3,7 +3,7 @@
 
 ## TransferRates.RonnabytesPerSecond Field
 
-A(n) ronnabytes per second. Defined as: (1000.0) × yottabytes per second + (0).
+A(n) ronnabytes per second. Defined as: 1000.0 × yottabytes per second.
 
 ```csharp
 public static readonly TransferRate RonnabytesPerSecond;

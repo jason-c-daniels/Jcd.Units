@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareYear Field
 
-A(n) foot per square year. Defined as: ((12)/((365.2525)*(365.2525))) × inch per square day + (0).
+A(n) foot per square year. Defined as: (12)/((365.2525)*(365.2525)) × inch per square day.
 
 ```csharp
 public static readonly Acceleration FootPerSquareYear;

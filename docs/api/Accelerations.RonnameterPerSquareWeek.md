@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareWeek Field
 
-A(n) ronnameter per square week. Defined as: ((1000.0)/((7.0)*(7.0))) × yottameter per square day + (0).
+A(n) ronnameter per square week. Defined as: (1000.0)/((7.0)*(7.0)) × yottameter per square day.
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareWeek;

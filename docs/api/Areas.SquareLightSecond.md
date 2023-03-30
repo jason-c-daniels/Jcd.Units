@@ -3,7 +3,7 @@
 
 ## Areas.SquareLightSecond Field
 
-A(n) square light-second. Defined as: ((299_792_458.0)*(299_792_458.0)) × SI square meter + (0).
+A(n) square light-second. Defined as: (299_792_458.0)*(299_792_458.0) × SI square meter.
 
 ```csharp
 public static readonly Area SquareLightSecond;

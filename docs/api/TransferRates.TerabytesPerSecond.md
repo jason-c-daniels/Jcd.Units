@@ -3,7 +3,7 @@
 
 ## TransferRates.TerabytesPerSecond Field
 
-A(n) terabytes per second. Defined as: (1000.0) × gigabytes per second + (0).
+A(n) terabytes per second. Defined as: 1000.0 × gigabytes per second.
 
 ```csharp
 public static readonly TransferRate TerabytesPerSecond;

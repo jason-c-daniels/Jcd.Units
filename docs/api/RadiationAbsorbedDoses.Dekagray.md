@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Dekagray Field
 
-A(n) dekagray. Defined as: (10.0) × gray + (0).
+A(n) dekagray. Defined as: 10.0 × gray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Dekagray;

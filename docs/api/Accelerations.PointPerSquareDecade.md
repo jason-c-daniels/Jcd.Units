@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareDecade Field
 
-A(n) point per square decade. Defined as: ((1.0/72.0)/((10.0)*(10.0))) × inch per square year + (0).
+A(n) point per square decade. Defined as: (1.0/72.0)/((10.0)*(10.0)) × inch per square year.
 
 ```csharp
 public static readonly Acceleration PointPerSquareDecade;

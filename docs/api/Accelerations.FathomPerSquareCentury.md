@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareCentury Field
 
-A(n) fathom per square century. Defined as: ((6.0)/((10.0)*(10.0))) × foot per square decade + (0).
+A(n) fathom per square century. Defined as: (6.0)/((10.0)*(10.0)) × foot per square decade.
 
 ```csharp
 public static readonly Acceleration FathomPerSquareCentury;

@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareYear Field
 
-A(n) centimeter per square year. Defined as: ((1.0/10.0)/((365.2525)*(365.2525))) × decimeter per square day + (0).
+A(n) centimeter per square year. Defined as: (1.0/10.0)/((365.2525)*(365.2525)) × decimeter per square day.
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareYear;

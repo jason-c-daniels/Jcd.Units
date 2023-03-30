@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerWeek Field
 
-A(n) megameter per week. Defined as: ((1000.0)/(7.0)) × kilometer per day + (0).
+A(n) megameter per week. Defined as: (1000.0)/(7.0) × kilometer per day.
 
 ```csharp
 public static readonly Velocity MegameterPerWeek;

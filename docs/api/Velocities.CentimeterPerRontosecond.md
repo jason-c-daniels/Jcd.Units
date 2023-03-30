@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerRontosecond Field
 
-A(n) centimeter per rontosecond. Defined as: ((1.0/10.0)/(1.0/1000.0)) × decimeter per yoctosecond + (0).
+A(n) centimeter per rontosecond. Defined as: (1.0/10.0)/(1.0/1000.0) × decimeter per yoctosecond.
 
 ```csharp
 public static readonly Velocity CentimeterPerRontosecond;

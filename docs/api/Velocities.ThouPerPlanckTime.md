@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerPlanckTime Field
 
-A(n) thou per planck-time. Defined as: ((1.0/12000.0)/(5.391247E-38)) × foot per microsecond + (0).
+A(n) thou per planck-time. Defined as: (1.0/12000.0)/(5.391247E-38) × foot per microsecond.
 
 ```csharp
 public static readonly Velocity ThouPerPlanckTime;

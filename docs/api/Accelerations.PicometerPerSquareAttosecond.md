@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareAttosecond Field
 
-A(n) picometer per square attosecond. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))) × nanometer per square femtosecond + (0).
+A(n) picometer per square attosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × nanometer per square femtosecond.
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareAttosecond;

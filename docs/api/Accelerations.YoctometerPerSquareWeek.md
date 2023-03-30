@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareWeek Field
 
-A(n) yoctometer per square week. Defined as: ((1.0/1000.0)/((7.0)*(7.0))) × zeptometer per square day + (0).
+A(n) yoctometer per square week. Defined as: (1.0/1000.0)/((7.0)*(7.0)) × zeptometer per square day.
 
 ```csharp
 public static readonly Acceleration YoctometerPerSquareWeek;

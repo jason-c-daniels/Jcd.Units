@@ -3,7 +3,7 @@
 
 ## Resistances.Gigaohm Field
 
-A(n) gigaohm. Defined as: (1000.0) × megaohm + (0).
+A(n) gigaohm. Defined as: 1000.0 × megaohm.
 
 ```csharp
 public static readonly Resistance Gigaohm;

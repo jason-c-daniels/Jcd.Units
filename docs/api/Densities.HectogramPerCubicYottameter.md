@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicYottameter Field
 
-A(n) hectogram per cubic yottameter. Defined as: ((1.0/10.0)/((1000.0)*(1000.0)*(1000.0))) × kilogram per cubic zettameter + (0).
+A(n) hectogram per cubic yottameter. Defined as: (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic zettameter.
 
 ```csharp
 public static readonly Density HectogramPerCubicYottameter;

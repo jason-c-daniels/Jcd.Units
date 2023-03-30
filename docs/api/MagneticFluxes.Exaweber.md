@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Exaweber Field
 
-A(n) exaweber. Defined as: (1000.0) × petaweber + (0).
+A(n) exaweber. Defined as: 1000.0 × petaweber.
 
 ```csharp
 public static readonly MagneticFlux Exaweber;

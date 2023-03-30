@@ -3,7 +3,7 @@
 
 ## TransferRates.ExabitsPerSecond Field
 
-A(n) exabits per second. Defined as: (1000.0) × petabits per second + (0).
+A(n) exabits per second. Defined as: 1000.0 × petabits per second.
 
 ```csharp
 public static readonly TransferRate ExabitsPerSecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquarePicosecond Field
 
-A(n) link per square picosecond. Defined as: ((0.20116)/((1.0/1000.0)*(1.0/1000.0))) × SI meter per square nanosecond + (0).
+A(n) link per square picosecond. Defined as: (0.20116)/((1.0/1000.0)*(1.0/1000.0)) × SI meter per square nanosecond.
 
 ```csharp
 public static readonly Acceleration LinkPerSquarePicosecond;

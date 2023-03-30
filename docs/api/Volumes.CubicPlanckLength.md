@@ -3,7 +3,7 @@
 
 ## Volumes.CubicPlanckLength Field
 
-A(n) cubic Planck-length. Defined as: ((1.616255E-35)*(1.616255E-35)*(1.616255E-35)) × SI cubic meter + (0).
+A(n) cubic Planck-length. Defined as: (1.616255E-35)*(1.616255E-35)*(1.616255E-35) × SI cubic meter.
 
 ```csharp
 public static readonly Volume CubicPlanckLength;

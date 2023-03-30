@@ -3,7 +3,7 @@
 
 ## Areas.SquareMegalightYear Field
 
-A(n) square megalight-year. Defined as: ((1000.0)*(1000.0)) × square kilolight-year + (0).
+A(n) square megalight-year. Defined as: (1000.0)*(1000.0) × square kilolight-year.
 
 ```csharp
 public static readonly Area SquareMegalightYear;

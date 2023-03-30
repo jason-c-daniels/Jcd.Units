@@ -3,7 +3,7 @@
 
 ## TransferRates.TebibitsPerSecond Field
 
-A(n) tebibits per second. Defined as: (1024.0) × gibibits per second + (0).
+A(n) tebibits per second. Defined as: 1024.0 × gibibits per second.
 
 ```csharp
 public static readonly TransferRate TebibitsPerSecond;

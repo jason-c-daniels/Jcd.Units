@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Decisievert Field
 
-A(n) decisievert. Defined as: (1.0/10.0) × sievert + (0).
+A(n) decisievert. Defined as: 1.0/10.0 × sievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Decisievert;

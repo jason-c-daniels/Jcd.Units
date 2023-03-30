@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerDay Field
 
-A(n) kilometer per day. Defined as: ((10.0)/(24.0)) × hectometer per hour + (0).
+A(n) kilometer per day. Defined as: (10.0)/(24.0) × hectometer per hour.
 
 ```csharp
 public static readonly Velocity KilometerPerDay;

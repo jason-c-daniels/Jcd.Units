@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Femtosievert Field
 
-A(n) femtosievert. Defined as: (1.0/1000.0) × picosievert + (0).
+A(n) femtosievert. Defined as: 1.0/1000.0 × picosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Femtosievert;

@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareRontosecond Field
 
-A(n) fathom per square rontosecond. Defined as: ((6.0)/((1.0/1000.0)*(1.0/1000.0))) × foot per square yoctosecond + (0).
+A(n) fathom per square rontosecond. Defined as: (6.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square yoctosecond.
 
 ```csharp
 public static readonly Acceleration FathomPerSquareRontosecond;

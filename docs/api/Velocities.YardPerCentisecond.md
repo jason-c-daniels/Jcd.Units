@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerCentisecond Field
 
-A(n) yard per centisecond. Defined as: ((3.0)/(1.0/10.0)) × foot per decisecond + (0).
+A(n) yard per centisecond. Defined as: (3.0)/(1.0/10.0) × foot per decisecond.
 
 ```csharp
 public static readonly Velocity YardPerCentisecond;

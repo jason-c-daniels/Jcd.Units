@@ -3,7 +3,7 @@
 
 ## Volumes.CubicRonnaparsec Field
 
-A(n) cubic ronnaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic yottaparsec + (0).
+A(n) cubic ronnaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic yottaparsec.
 
 ```csharp
 public static readonly Volume CubicRonnaparsec;

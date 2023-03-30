@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerSeptillionYears Field
 
-A(n) foot per septillion years. Defined as: ((12)/(1000.0)) × inch per sextillion years + (0).
+A(n) foot per septillion years. Defined as: (12)/(1000.0) × inch per sextillion years.
 
 ```csharp
 public static readonly Velocity FootPerSeptillionYears;

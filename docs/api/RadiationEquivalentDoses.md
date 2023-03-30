@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attosievert](RadiationEquivalentDoses.Attosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Attosievert') | A(n) attosievert. Defined as: (1.0/1000.0) × femtosievert + (0). |
-| [Centisievert](RadiationEquivalentDoses.Centisievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Centisievert') | A(n) centisievert. Defined as: (1.0/10.0) × decisievert + (0). |
-| [Decisievert](RadiationEquivalentDoses.Decisievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Decisievert') | A(n) decisievert. Defined as: (1.0/10.0) × sievert + (0). |
-| [Dekasievert](RadiationEquivalentDoses.Dekasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Dekasievert') | A(n) dekasievert. Defined as: (10.0) × sievert + (0). |
-| [Exasievert](RadiationEquivalentDoses.Exasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Exasievert') | A(n) exasievert. Defined as: (1000.0) × petasievert + (0). |
-| [Femtosievert](RadiationEquivalentDoses.Femtosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Femtosievert') | A(n) femtosievert. Defined as: (1.0/1000.0) × picosievert + (0). |
-| [Gigasievert](RadiationEquivalentDoses.Gigasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Gigasievert') | A(n) gigasievert. Defined as: (1000.0) × megasievert + (0). |
-| [Hectosievert](RadiationEquivalentDoses.Hectosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Hectosievert') | A(n) hectosievert. Defined as: (10.0) × dekasievert + (0). |
-| [Kilosievert](RadiationEquivalentDoses.Kilosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Kilosievert') | A(n) kilosievert. Defined as: (10.0) × hectosievert + (0). |
-| [Megasievert](RadiationEquivalentDoses.Megasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Megasievert') | A(n) megasievert. Defined as: (1000.0) × kilosievert + (0). |
-| [Microsievert](RadiationEquivalentDoses.Microsievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Microsievert') | A(n) microsievert. Defined as: (1.0/1000.0) × millisievert + (0). |
-| [Millisievert](RadiationEquivalentDoses.Millisievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Millisievert') | A(n) millisievert. Defined as: (1.0/10.0) × centisievert + (0). |
-| [Nanosievert](RadiationEquivalentDoses.Nanosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Nanosievert') | A(n) nanosievert. Defined as: (1.0/1000.0) × microsievert + (0). |
-| [Petasievert](RadiationEquivalentDoses.Petasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Petasievert') | A(n) petasievert. Defined as: (1000.0) × terasievert + (0). |
-| [Picosievert](RadiationEquivalentDoses.Picosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Picosievert') | A(n) picosievert. Defined as: (1.0/1000.0) × nanosievert + (0). |
-| [Quectosievert](RadiationEquivalentDoses.Quectosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Quectosievert') | A(n) quectosievert. Defined as: (1.0/1000.0) × rontosievert + (0). |
-| [Quettasievert](RadiationEquivalentDoses.Quettasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Quettasievert') | A(n) quettasievert. Defined as: (1000.0) × ronnasievert + (0). |
-| [Ronnasievert](RadiationEquivalentDoses.Ronnasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Ronnasievert') | A(n) ronnasievert. Defined as: (1000.0) × yottasievert + (0). |
-| [Rontosievert](RadiationEquivalentDoses.Rontosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Rontosievert') | A(n) rontosievert. Defined as: (1.0/1000.0) × yoctosievert + (0). |
+| [Attosievert](RadiationEquivalentDoses.Attosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Attosievert') | A(n) attosievert. Defined as: 1.0/1000.0 × femtosievert. |
+| [Centisievert](RadiationEquivalentDoses.Centisievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Centisievert') | A(n) centisievert. Defined as: 1.0/10.0 × decisievert. |
+| [Decisievert](RadiationEquivalentDoses.Decisievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Decisievert') | A(n) decisievert. Defined as: 1.0/10.0 × sievert. |
+| [Dekasievert](RadiationEquivalentDoses.Dekasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Dekasievert') | A(n) dekasievert. Defined as: 10.0 × sievert. |
+| [Exasievert](RadiationEquivalentDoses.Exasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Exasievert') | A(n) exasievert. Defined as: 1000.0 × petasievert. |
+| [Femtosievert](RadiationEquivalentDoses.Femtosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Femtosievert') | A(n) femtosievert. Defined as: 1.0/1000.0 × picosievert. |
+| [Gigasievert](RadiationEquivalentDoses.Gigasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Gigasievert') | A(n) gigasievert. Defined as: 1000.0 × megasievert. |
+| [Hectosievert](RadiationEquivalentDoses.Hectosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Hectosievert') | A(n) hectosievert. Defined as: 10.0 × dekasievert. |
+| [Kilosievert](RadiationEquivalentDoses.Kilosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Kilosievert') | A(n) kilosievert. Defined as: 10.0 × hectosievert. |
+| [Megasievert](RadiationEquivalentDoses.Megasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Megasievert') | A(n) megasievert. Defined as: 1000.0 × kilosievert. |
+| [Microsievert](RadiationEquivalentDoses.Microsievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Microsievert') | A(n) microsievert. Defined as: 1.0/1000.0 × millisievert. |
+| [Millisievert](RadiationEquivalentDoses.Millisievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Millisievert') | A(n) millisievert. Defined as: 1.0/10.0 × centisievert. |
+| [Nanosievert](RadiationEquivalentDoses.Nanosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Nanosievert') | A(n) nanosievert. Defined as: 1.0/1000.0 × microsievert. |
+| [Petasievert](RadiationEquivalentDoses.Petasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Petasievert') | A(n) petasievert. Defined as: 1000.0 × terasievert. |
+| [Picosievert](RadiationEquivalentDoses.Picosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Picosievert') | A(n) picosievert. Defined as: 1.0/1000.0 × nanosievert. |
+| [Quectosievert](RadiationEquivalentDoses.Quectosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Quectosievert') | A(n) quectosievert. Defined as: 1.0/1000.0 × rontosievert. |
+| [Quettasievert](RadiationEquivalentDoses.Quettasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Quettasievert') | A(n) quettasievert. Defined as: 1000.0 × ronnasievert. |
+| [Ronnasievert](RadiationEquivalentDoses.Ronnasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Ronnasievert') | A(n) ronnasievert. Defined as: 1000.0 × yottasievert. |
+| [Rontosievert](RadiationEquivalentDoses.Rontosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Rontosievert') | A(n) rontosievert. Defined as: 1.0/1000.0 × yoctosievert. |
 | [Sievert](RadiationEquivalentDoses.Sievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Sievert') | A(n) sievert. |
-| [Terasievert](RadiationEquivalentDoses.Terasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Terasievert') | A(n) terasievert. Defined as: (1000.0) × gigasievert + (0). |
-| [Yoctosievert](RadiationEquivalentDoses.Yoctosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Yoctosievert') | A(n) yoctosievert. Defined as: (1.0/1000.0) × zeptosievert + (0). |
-| [Yottasievert](RadiationEquivalentDoses.Yottasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Yottasievert') | A(n) yottasievert. Defined as: (1000.0) × zettasievert + (0). |
-| [Zeptosievert](RadiationEquivalentDoses.Zeptosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Zeptosievert') | A(n) zeptosievert. Defined as: (1.0/1000.0) × attosievert + (0). |
-| [Zettasievert](RadiationEquivalentDoses.Zettasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Zettasievert') | A(n) zettasievert. Defined as: (1000.0) × exasievert + (0). |
+| [Terasievert](RadiationEquivalentDoses.Terasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Terasievert') | A(n) terasievert. Defined as: 1000.0 × gigasievert. |
+| [Yoctosievert](RadiationEquivalentDoses.Yoctosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Yoctosievert') | A(n) yoctosievert. Defined as: 1.0/1000.0 × zeptosievert. |
+| [Yottasievert](RadiationEquivalentDoses.Yottasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Yottasievert') | A(n) yottasievert. Defined as: 1000.0 × zettasievert. |
+| [Zeptosievert](RadiationEquivalentDoses.Zeptosievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Zeptosievert') | A(n) zeptosievert. Defined as: 1.0/1000.0 × attosievert. |
+| [Zettasievert](RadiationEquivalentDoses.Zettasievert.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses.Zettasievert') | A(n) zettasievert. Defined as: 1000.0 × exasievert. |

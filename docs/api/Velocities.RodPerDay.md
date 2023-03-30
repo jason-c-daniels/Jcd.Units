@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerDay Field
 
-A(n) rod per day. Defined as: ((5.0292)/(24.0)) × SI meter per hour + (0).
+A(n) rod per day. Defined as: (5.0292)/(24.0) × SI meter per hour.
 
 ```csharp
 public static readonly Velocity RodPerDay;

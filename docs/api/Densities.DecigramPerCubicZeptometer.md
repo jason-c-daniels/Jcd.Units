@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicZeptometer Field
 
-A(n) decigram per cubic zeptometer. Defined as: ((1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × gram per cubic attometer + (0).
+A(n) decigram per cubic zeptometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × gram per cubic attometer.
 
 ```csharp
 public static readonly Density DecigramPerCubicZeptometer;

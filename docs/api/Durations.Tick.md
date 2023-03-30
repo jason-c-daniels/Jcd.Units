@@ -3,7 +3,7 @@
 
 ## Durations.Tick Field
 
-A(n) tick. Defined as: (100.0) × nanosecond + (0).
+A(n) tick. Defined as: 100.0 × nanosecond.
 
 ```csharp
 public static readonly Duration Tick;

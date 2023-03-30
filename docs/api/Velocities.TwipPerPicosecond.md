@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerPicosecond Field
 
-A(n) twip per picosecond. Defined as: ((1.0/17280.0)/(1.0/1000.0)) × foot per nanosecond + (0).
+A(n) twip per picosecond. Defined as: (1.0/17280.0)/(1.0/1000.0) × foot per nanosecond.
 
 ```csharp
 public static readonly Velocity TwipPerPicosecond;

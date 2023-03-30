@@ -3,7 +3,7 @@
 
 ## StorageUnits.Quettabit Field
 
-A(n) quettabit. Defined as: (1000.0) × ronnabit + (0).
+A(n) quettabit. Defined as: 1000.0 × ronnabit.
 
 ```csharp
 public static readonly Storage Quettabit;

@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Picolumen Field
 
-A(n) picolumen. Defined as: (1.0/1000.0) × nanolumen + (0).
+A(n) picolumen. Defined as: 1.0/1000.0 × nanolumen.
 
 ```csharp
 public static readonly LuminousFlux Picolumen;

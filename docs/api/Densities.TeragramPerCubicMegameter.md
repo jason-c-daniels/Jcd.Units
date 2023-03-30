@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicMegameter Field
 
-A(n) teragram per cubic megameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × gigagram per cubic kilometer + (0).
+A(n) teragram per cubic megameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × gigagram per cubic kilometer.
 
 ```csharp
 public static readonly Density TeragramPerCubicMegameter;

@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareMillionYears Field
 
-A(n) inch per square million years. Defined as: ((2.54)/((1000.0)*(1000.0))) × SI centimeter per square millennium + (0).
+A(n) inch per square million years. Defined as: (2.54)/((1000.0)*(1000.0)) × SI centimeter per square millennium.
 
 ```csharp
 public static readonly Acceleration InchPerSquareMillionYears;

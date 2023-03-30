@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesNewton Field
 
-A(n) degrees newton. Defined as: (100.0/33.0) × SI degrees celcius + (0).
+A(n) degrees newton. Defined as: 100.0/33.0 × SI degrees celcius.
 
 ```csharp
 public static readonly Temperature DegreesNewton;

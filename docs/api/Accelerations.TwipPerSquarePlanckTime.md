@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquarePlanckTime Field
 
-A(n) twip per square planck-time. Defined as: ((1.0/17280.0)/((5.391247E-38)*(5.391247E-38))) × foot per square microsecond + (0).
+A(n) twip per square planck-time. Defined as: (1.0/17280.0)/((5.391247E-38)*(5.391247E-38)) × foot per square microsecond.
 
 ```csharp
 public static readonly Acceleration TwipPerSquarePlanckTime;

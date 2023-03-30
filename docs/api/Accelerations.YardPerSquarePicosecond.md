@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquarePicosecond Field
 
-A(n) yard per square picosecond. Defined as: ((3.0)/((1.0/1000.0)*(1.0/1000.0))) × foot per square nanosecond + (0).
+A(n) yard per square picosecond. Defined as: (3.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square nanosecond.
 
 ```csharp
 public static readonly Acceleration YardPerSquarePicosecond;

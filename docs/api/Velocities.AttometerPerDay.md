@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerDay Field
 
-A(n) attometer per day. Defined as: ((1.0/1000.0)/(24.0)) × femtometer per hour + (0).
+A(n) attometer per day. Defined as: (1.0/1000.0)/(24.0) × femtometer per hour.
 
 ```csharp
 public static readonly Velocity AttometerPerDay;

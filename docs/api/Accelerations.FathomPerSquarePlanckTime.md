@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquarePlanckTime Field
 
-A(n) fathom per square planck-time. Defined as: ((6.0)/((5.391247E-38)*(5.391247E-38))) × foot per square microsecond + (0).
+A(n) fathom per square planck-time. Defined as: (6.0)/((5.391247E-38)*(5.391247E-38)) × foot per square microsecond.
 
 ```csharp
 public static readonly Acceleration FathomPerSquarePlanckTime;

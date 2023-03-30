@@ -3,7 +3,7 @@
 
 ## Powers.Femtowatt Field
 
-A(n) femtowatt. Defined as: (1.0/1000.0) × picowatt + (0).
+A(n) femtowatt. Defined as: 1.0/1000.0 × picowatt.
 
 ```csharp
 public static readonly Power Femtowatt;

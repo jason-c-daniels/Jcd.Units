@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareQuintillionYears Field
 
-A(n) inch per square quintillion years. Defined as: ((2.54)/((1000.0)*(1000.0))) × SI centimeter per square quadrillion years + (0).
+A(n) inch per square quintillion years. Defined as: (2.54)/((1000.0)*(1000.0)) × SI centimeter per square quadrillion years.
 
 ```csharp
 public static readonly Acceleration InchPerSquareQuintillionYears;

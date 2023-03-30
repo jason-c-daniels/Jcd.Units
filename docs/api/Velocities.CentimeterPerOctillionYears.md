@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerOctillionYears Field
 
-A(n) centimeter per octillion years. Defined as: ((1.0/10.0)/(1000.0)) × decimeter per septillion years + (0).
+A(n) centimeter per octillion years. Defined as: (1.0/10.0)/(1000.0) × decimeter per septillion years.
 
 ```csharp
 public static readonly Velocity CentimeterPerOctillionYears;

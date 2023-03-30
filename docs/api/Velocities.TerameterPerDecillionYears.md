@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerDecillionYears Field
 
-A(n) terameter per decillion years. Defined as: ((1000.0)/(1000.0)) × gigameter per nonillion years + (0).
+A(n) terameter per decillion years. Defined as: (1000.0)/(1000.0) × gigameter per nonillion years.
 
 ```csharp
 public static readonly Velocity TerameterPerDecillionYears;

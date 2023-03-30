@@ -3,7 +3,7 @@
 
 ## Volumes.CubicDekalightYear Field
 
-A(n) cubic dekalight-year. Defined as: ((10.0)*(10.0)*(10.0)) × cubic light-year + (0).
+A(n) cubic dekalight-year. Defined as: (10.0)*(10.0)*(10.0) × cubic light-year.
 
 ```csharp
 public static readonly Volume CubicDekalightYear;

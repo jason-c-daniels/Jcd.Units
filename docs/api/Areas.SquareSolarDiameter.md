@@ -3,7 +3,7 @@
 
 ## Areas.SquareSolarDiameter Field
 
-A(n) square solar diameter. Defined as: ((2.0)*(2.0)) × square solar radius + (0).
+A(n) square solar diameter. Defined as: (2.0)*(2.0) × square solar radius.
 
 ```csharp
 public static readonly Area SquareSolarDiameter;

@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerMillennium Field
 
-A(n) petameter per millennium. Defined as: ((1000.0)/(10.0)) × terameter per century + (0).
+A(n) petameter per millennium. Defined as: (1000.0)/(10.0) × terameter per century.
 
 ```csharp
 public static readonly Velocity PetameterPerMillennium;

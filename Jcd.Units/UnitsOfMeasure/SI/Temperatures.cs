@@ -23,7 +23,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
    public static readonly Temperature DegreesCelcius = new ("degrees celcius", "°C");
 
    /// <summary>
-   /// A(n) degrees kelvin. Defined as: (1.0) × degrees celcius + (-273.15).
+   /// A(n) degrees kelvin. Defined as: (1.0 + -273.15) × degrees celcius.
    /// </summary>
    public static readonly Temperature DegreesKelvin = new ("degrees kelvin", "°K", DegreesCelcius, 1.0, -273.15);
 }

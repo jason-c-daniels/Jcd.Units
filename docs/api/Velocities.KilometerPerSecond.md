@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerSecond Field
 
-A(n) kilometer per second. Defined as: ((10.0)/(1.0)) × hectometer per second + (0).
+A(n) kilometer per second. Defined as: (10.0)/(1.0) × hectometer per second.
 
 ```csharp
 public static readonly Velocity KilometerPerSecond;

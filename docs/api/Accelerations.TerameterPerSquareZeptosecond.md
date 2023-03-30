@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareZeptosecond Field
 
-A(n) terameter per square zeptosecond. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0))) × gigameter per square attosecond + (0).
+A(n) terameter per square zeptosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × gigameter per square attosecond.
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareZeptosecond;

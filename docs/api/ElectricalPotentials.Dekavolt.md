@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Dekavolt Field
 
-A(n) dekavolt. Defined as: (10.0) × volt + (0).
+A(n) dekavolt. Defined as: 10.0 × volt.
 
 ```csharp
 public static readonly ElectricalPotential Dekavolt;

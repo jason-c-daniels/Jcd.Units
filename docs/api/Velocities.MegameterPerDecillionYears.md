@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerDecillionYears Field
 
-A(n) megameter per decillion years. Defined as: ((1000.0)/(1000.0)) × kilometer per nonillion years + (0).
+A(n) megameter per decillion years. Defined as: (1000.0)/(1000.0) × kilometer per nonillion years.
 
 ```csharp
 public static readonly Velocity MegameterPerDecillionYears;

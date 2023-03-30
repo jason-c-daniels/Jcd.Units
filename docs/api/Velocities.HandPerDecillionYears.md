@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerDecillionYears Field
 
-A(n) hand per decillion years. Defined as: ((4.0)/(1000.0)) × inch per nonillion years + (0).
+A(n) hand per decillion years. Defined as: (4.0)/(1000.0) × inch per nonillion years.
 
 ```csharp
 public static readonly Velocity HandPerDecillionYears;

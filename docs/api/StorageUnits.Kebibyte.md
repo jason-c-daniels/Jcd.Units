@@ -3,7 +3,7 @@
 
 ## StorageUnits.Kebibyte Field
 
-A(n) kebibyte. Defined as: (1024.0) × byte + (0).
+A(n) kebibyte. Defined as: 1024.0 × byte.
 
 ```csharp
 public static readonly Storage Kebibyte;

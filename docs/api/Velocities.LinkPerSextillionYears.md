@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerSextillionYears Field
 
-A(n) link per sextillion years. Defined as: ((0.20116)/(1000.0)) × SI meter per quintillion years + (0).
+A(n) link per sextillion years. Defined as: (0.20116)/(1000.0) × SI meter per quintillion years.
 
 ```csharp
 public static readonly Velocity LinkPerSextillionYears;

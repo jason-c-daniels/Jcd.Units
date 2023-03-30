@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerBillionYears Field
 
-A(n) nautical mile per billion years. Defined as: ((10.0)/(1000.0)) × cable per million years + (0).
+A(n) nautical mile per billion years. Defined as: (10.0)/(1000.0) × cable per million years.
 
 ```csharp
 public static readonly Velocity NauticalMilePerBillionYears;

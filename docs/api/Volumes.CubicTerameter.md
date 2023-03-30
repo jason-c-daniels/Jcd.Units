@@ -3,7 +3,7 @@
 
 ## Volumes.CubicTerameter Field
 
-A(n) cubic terameter. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic gigameter + (0).
+A(n) cubic terameter. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic gigameter.
 
 ```csharp
 public static readonly Volume CubicTerameter;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicParsec Field
 
-A(n) cubic parsec. Defined as: ((3.2615637769757)*(3.2615637769757)*(3.2615637769757)) × cubic light-year + (0).
+A(n) cubic parsec. Defined as: (3.2615637769757)*(3.2615637769757)*(3.2615637769757) × cubic light-year.
 
 ```csharp
 public static readonly Volume CubicParsec;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareDay Field
 
-A(n) zeptometer per square day. Defined as: ((1.0/1000.0)/((24.0)*(24.0))) × attometer per square hour + (0).
+A(n) zeptometer per square day. Defined as: (1.0/1000.0)/((24.0)*(24.0)) × attometer per square hour.
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquareDay;

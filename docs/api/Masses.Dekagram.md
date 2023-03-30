@@ -3,7 +3,7 @@
 
 ## Masses.Dekagram Field
 
-A(n) dekagram. Defined as: (1.0/10.0) × hectogram + (0).
+A(n) dekagram. Defined as: 1.0/10.0 × hectogram.
 
 ```csharp
 public static readonly Mass Dekagram;

@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerTick Field
 
-A(n) fathom per tick. Defined as: ((6.0)/(100.0)) × foot per nanosecond + (0).
+A(n) fathom per tick. Defined as: (6.0)/(100.0) × foot per nanosecond.
 
 ```csharp
 public static readonly Velocity FathomPerTick;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareWeek Field
 
-A(n) chain per square week. Defined as: ((22.0)/((7.0)*(7.0))) × yard per square day + (0).
+A(n) chain per square week. Defined as: (22.0)/((7.0)*(7.0)) × yard per square day.
 
 ```csharp
 public static readonly Acceleration ChainPerSquareWeek;

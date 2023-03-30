@@ -3,7 +3,7 @@
 
 ## Momentums.AttonewtonSecond Field
 
-A(n) attonewton-second. Defined as: (1.0/1000.0) × femtonewton-second + (0).
+A(n) attonewton-second. Defined as: 1.0/1000.0 × femtonewton-second.
 
 ```csharp
 public static readonly Momentum AttonewtonSecond;

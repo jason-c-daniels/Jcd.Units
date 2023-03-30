@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerHour Field
 
-A(n) mil per hour. Defined as: ((1.0/1000.0)/(60.0)) × inch per minute + (0).
+A(n) mil per hour. Defined as: (1.0/1000.0)/(60.0) × inch per minute.
 
 ```csharp
 public static readonly Velocity MilPerHour;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Zettakatal Field
 
-A(n) zettakatal. Defined as: (1000.0) × exakatal + (0).
+A(n) zettakatal. Defined as: 1000.0 × exakatal.
 
 ```csharp
 public static readonly CatalyticActivity Zettakatal;

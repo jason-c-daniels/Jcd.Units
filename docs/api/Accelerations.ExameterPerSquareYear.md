@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareYear Field
 
-A(n) exameter per square year. Defined as: ((1000.0)/((365.2525)*(365.2525))) × petameter per square day + (0).
+A(n) exameter per square year. Defined as: (1000.0)/((365.2525)*(365.2525)) × petameter per square day.
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareYear;

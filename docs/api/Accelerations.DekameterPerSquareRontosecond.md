@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareRontosecond Field
 
-A(n) dekameter per square rontosecond. Defined as: ((10.0)/((1.0/1000.0)*(1.0/1000.0))) × meter per square yoctosecond + (0).
+A(n) dekameter per square rontosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × meter per square yoctosecond.
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareRontosecond;

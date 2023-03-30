@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerAttosecond Field
 
-A(n) inch per attosecond. Defined as: ((2.54)/(1.0/1000.0)) × SI centimeter per femtosecond + (0).
+A(n) inch per attosecond. Defined as: (2.54)/(1.0/1000.0) × SI centimeter per femtosecond.
 
 ```csharp
 public static readonly Velocity InchPerAttosecond;

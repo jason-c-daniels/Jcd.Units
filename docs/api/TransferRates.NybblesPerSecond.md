@@ -3,7 +3,7 @@
 
 ## TransferRates.NybblesPerSecond Field
 
-A(n) nybbles per second. Defined as: (4d) × bits per second + (0).
+A(n) nybbles per second. Defined as: 4d × bits per second.
 
 ```csharp
 public static readonly TransferRate NybblesPerSecond;

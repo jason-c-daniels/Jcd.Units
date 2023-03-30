@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquarePlanckTime Field
 
-A(n) exameter per square planck-time. Defined as: ((1000.0)/((5.391247E-38)*(5.391247E-38))) × petameter per square microsecond + (0).
+A(n) exameter per square planck-time. Defined as: (1000.0)/((5.391247E-38)*(5.391247E-38)) × petameter per square microsecond.
 
 ```csharp
 public static readonly Acceleration ExameterPerSquarePlanckTime;

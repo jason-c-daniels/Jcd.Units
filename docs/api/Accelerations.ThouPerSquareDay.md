@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareDay Field
 
-A(n) thou per square day. Defined as: ((1.0/12000.0)/((24.0)*(24.0))) × foot per square hour + (0).
+A(n) thou per square day. Defined as: (1.0/12000.0)/((24.0)*(24.0)) × foot per square hour.
 
 ```csharp
 public static readonly Acceleration ThouPerSquareDay;

@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareMillionYears Field
 
-A(n) foot per square million years. Defined as: ((12)/((1000.0)*(1000.0))) × inch per square millennium + (0).
+A(n) foot per square million years. Defined as: (12)/((1000.0)*(1000.0)) × inch per square millennium.
 
 ```csharp
 public static readonly Acceleration FootPerSquareMillionYears;

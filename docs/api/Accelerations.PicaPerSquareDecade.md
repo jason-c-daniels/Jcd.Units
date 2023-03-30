@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareDecade Field
 
-A(n) pica per square decade. Defined as: ((12.0)/((10.0)*(10.0))) × point per square year + (0).
+A(n) pica per square decade. Defined as: (12.0)/((10.0)*(10.0)) × point per square year.
 
 ```csharp
 public static readonly Acceleration PicaPerSquareDecade;

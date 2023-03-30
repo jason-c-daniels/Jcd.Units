@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareWeek Field
 
-A(n) hand per square week. Defined as: ((4.0)/((7.0)*(7.0))) × inch per square day + (0).
+A(n) hand per square week. Defined as: (4.0)/((7.0)*(7.0)) × inch per square day.
 
 ```csharp
 public static readonly Acceleration HandPerSquareWeek;

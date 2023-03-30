@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareDecade Field
 
-A(n) zettameter per square decade. Defined as: ((1000.0)/((10.0)*(10.0))) × exameter per square year + (0).
+A(n) zettameter per square decade. Defined as: (1000.0)/((10.0)*(10.0)) × exameter per square year.
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquareDecade;

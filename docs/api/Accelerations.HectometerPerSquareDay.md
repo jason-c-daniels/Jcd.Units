@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareDay Field
 
-A(n) hectometer per square day. Defined as: ((10.0)/((24.0)*(24.0))) × dekameter per square hour + (0).
+A(n) hectometer per square day. Defined as: (10.0)/((24.0)*(24.0)) × dekameter per square hour.
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareDay;

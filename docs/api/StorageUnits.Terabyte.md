@@ -3,7 +3,7 @@
 
 ## StorageUnits.Terabyte Field
 
-A(n) terabyte. Defined as: (1000.0) × gigabyte + (0).
+A(n) terabyte. Defined as: 1000.0 × gigabyte.
 
 ```csharp
 public static readonly Storage Terabyte;

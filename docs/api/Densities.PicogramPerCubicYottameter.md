@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicYottameter Field
 
-A(n) picogram per cubic yottameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × nanogram per cubic zettameter + (0).
+A(n) picogram per cubic yottameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × nanogram per cubic zettameter.
 
 ```csharp
 public static readonly Density PicogramPerCubicYottameter;

@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquarePicosecond Field
 
-A(n) terameter per square picosecond. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0))) × gigameter per square nanosecond + (0).
+A(n) terameter per square picosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × gigameter per square nanosecond.
 
 ```csharp
 public static readonly Acceleration TerameterPerSquarePicosecond;

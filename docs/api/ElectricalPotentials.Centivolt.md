@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Centivolt Field
 
-A(n) centivolt. Defined as: (1.0/10.0) × decivolt + (0).
+A(n) centivolt. Defined as: 1.0/10.0 × decivolt.
 
 ```csharp
 public static readonly ElectricalPotential Centivolt;

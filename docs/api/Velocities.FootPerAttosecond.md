@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerAttosecond Field
 
-A(n) foot per attosecond. Defined as: ((12)/(1.0/1000.0)) × inch per femtosecond + (0).
+A(n) foot per attosecond. Defined as: (12)/(1.0/1000.0) × inch per femtosecond.
 
 ```csharp
 public static readonly Velocity FootPerAttosecond;

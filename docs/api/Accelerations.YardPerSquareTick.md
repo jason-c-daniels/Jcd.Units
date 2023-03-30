@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareTick Field
 
-A(n) yard per square tick. Defined as: ((3.0)/((100.0)*(100.0))) × foot per square nanosecond + (0).
+A(n) yard per square tick. Defined as: (3.0)/((100.0)*(100.0)) × foot per square nanosecond.
 
 ```csharp
 public static readonly Acceleration YardPerSquareTick;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareOctillionYears Field
 
-A(n) chain per square octillion years. Defined as: ((22.0)/((1000.0)*(1000.0))) × yard per square septillion years + (0).
+A(n) chain per square octillion years. Defined as: (22.0)/((1000.0)*(1000.0)) × yard per square septillion years.
 
 ```csharp
 public static readonly Acceleration ChainPerSquareOctillionYears;

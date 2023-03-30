@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerPlanckTime Field
 
-A(n) inch per planck-time. Defined as: ((2.54)/(5.391247E-38)) × SI centimeter per microsecond + (0).
+A(n) inch per planck-time. Defined as: (2.54)/(5.391247E-38) × SI centimeter per microsecond.
 
 ```csharp
 public static readonly Velocity InchPerPlanckTime;

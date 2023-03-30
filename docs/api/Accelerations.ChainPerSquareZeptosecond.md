@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareZeptosecond Field
 
-A(n) chain per square zeptosecond. Defined as: ((22.0)/((1.0/1000.0)*(1.0/1000.0))) × yard per square attosecond + (0).
+A(n) chain per square zeptosecond. Defined as: (22.0)/((1.0/1000.0)*(1.0/1000.0)) × yard per square attosecond.
 
 ```csharp
 public static readonly Acceleration ChainPerSquareZeptosecond;

@@ -3,7 +3,7 @@
 
 ## Lengths.YottalightYear Field
 
-A(n) yottalight-year. Defined as: (1000.0) × zettalight-year + (0).
+A(n) yottalight-year. Defined as: 1000.0 × zettalight-year.
 
 ```csharp
 public static readonly Length YottalightYear;

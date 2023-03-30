@@ -3,7 +3,7 @@
 
 ## Powers.Centiwatt Field
 
-A(n) centiwatt. Defined as: (1.0/10.0) × deciwatt + (0).
+A(n) centiwatt. Defined as: 1.0/10.0 × deciwatt.
 
 ```csharp
 public static readonly Power Centiwatt;

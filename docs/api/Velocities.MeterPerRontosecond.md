@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerRontosecond Field
 
-A(n) meter per rontosecond. Defined as: ((1.0)/(1.0/1000.0)) × meter per yoctosecond + (0).
+A(n) meter per rontosecond. Defined as: (1.0)/(1.0/1000.0) × meter per yoctosecond.
 
 ```csharp
 public static readonly Velocity MeterPerRontosecond;

@@ -3,7 +3,7 @@
 
 ## Lengths.Zettameter Field
 
-A(n) zettameter. Defined as: (1000.0) × exameter + (0).
+A(n) zettameter. Defined as: 1000.0 × exameter.
 
 ```csharp
 public static readonly Length Zettameter;

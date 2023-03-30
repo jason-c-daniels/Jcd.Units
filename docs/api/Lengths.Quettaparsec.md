@@ -3,7 +3,7 @@
 
 ## Lengths.Quettaparsec Field
 
-A(n) quettaparsec. Defined as: (1000.0) × ronnaparsec + (0).
+A(n) quettaparsec. Defined as: 1000.0 × ronnaparsec.
 
 ```csharp
 public static readonly Length Quettaparsec;

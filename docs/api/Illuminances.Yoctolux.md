@@ -3,7 +3,7 @@
 
 ## Illuminances.Yoctolux Field
 
-A(n) yoctolux. Defined as: (1.0/1000.0) × zeptolux + (0).
+A(n) yoctolux. Defined as: 1.0/1000.0 × zeptolux.
 
 ```csharp
 public static readonly Illuminance Yoctolux;

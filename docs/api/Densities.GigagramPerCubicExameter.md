@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicExameter Field
 
-A(n) gigagram per cubic exameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × megagram per cubic petameter + (0).
+A(n) gigagram per cubic exameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × megagram per cubic petameter.
 
 ```csharp
 public static readonly Density GigagramPerCubicExameter;

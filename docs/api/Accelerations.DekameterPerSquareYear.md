@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareYear Field
 
-A(n) dekameter per square year. Defined as: ((10.0)/((365.2525)*(365.2525))) × meter per square day + (0).
+A(n) dekameter per square year. Defined as: (10.0)/((365.2525)*(365.2525)) × meter per square day.
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareYear;

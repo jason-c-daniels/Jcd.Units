@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerBillionYears Field
 
-A(n) furlong per billion years. Defined as: ((10.0)/(1000.0)) × chain per million years + (0).
+A(n) furlong per billion years. Defined as: (10.0)/(1000.0) × chain per million years.
 
 ```csharp
 public static readonly Velocity FurlongPerBillionYears;

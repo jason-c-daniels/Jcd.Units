@@ -3,7 +3,7 @@
 
 ## Durations.Picosecond Field
 
-A(n) picosecond. Defined as: (1.0/1000.0) × nanosecond + (0).
+A(n) picosecond. Defined as: 1.0/1000.0 × nanosecond.
 
 ```csharp
 public static readonly Duration Picosecond;

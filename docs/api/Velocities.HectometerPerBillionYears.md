@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerBillionYears Field
 
-A(n) hectometer per billion years. Defined as: ((10.0)/(1000.0)) × dekameter per million years + (0).
+A(n) hectometer per billion years. Defined as: (10.0)/(1000.0) × dekameter per million years.
 
 ```csharp
 public static readonly Velocity HectometerPerBillionYears;

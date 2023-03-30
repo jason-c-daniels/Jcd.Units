@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareHour Field
 
-A(n) nautical mile per square hour. Defined as: ((10.0)/((60.0)*(60.0))) × cable per square minute + (0).
+A(n) nautical mile per square hour. Defined as: (10.0)/((60.0)*(60.0)) × cable per square minute.
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareHour;

@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicYoctometer Field
 
-A(n) nanogram per cubic yoctometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × microgram per cubic zeptometer + (0).
+A(n) nanogram per cubic yoctometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × microgram per cubic zeptometer.
 
 ```csharp
 public static readonly Density NanogramPerCubicYoctometer;

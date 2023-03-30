@@ -25,6 +25,7 @@
       <None Remove="Resources\DerivedUnit.template"/>
       <EmbeddedResource Include="Resources\DerivedUnit.template"/>
       <None Remove="Resources\Enumeration.template"/>
+      <EmbeddedResource Include="Resources\DerivedUnitWithOffset.template"/>
       <EmbeddedResource Include="Resources\Enumeration.template"/>
       <None Remove="Resources\UnitType.template"/>
       <EmbeddedResource Include="Resources\UnitType.template"/>

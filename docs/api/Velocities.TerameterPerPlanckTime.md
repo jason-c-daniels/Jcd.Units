@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerPlanckTime Field
 
-A(n) terameter per planck-time. Defined as: ((1000.0)/(5.391247E-38)) × gigameter per microsecond + (0).
+A(n) terameter per planck-time. Defined as: (1000.0)/(5.391247E-38) × gigameter per microsecond.
 
 ```csharp
 public static readonly Velocity TerameterPerPlanckTime;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareMillionYears Field
 
-A(n) chain per square million years. Defined as: ((22.0)/((1000.0)*(1000.0))) × yard per square millennium + (0).
+A(n) chain per square million years. Defined as: (22.0)/((1000.0)*(1000.0)) × yard per square millennium.
 
 ```csharp
 public static readonly Acceleration ChainPerSquareMillionYears;

@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Forces : UnitOfMeasureEnumeration<Forces, Force>
 {
    /// <summary>
-   /// A(n) planck-force. Defined as: (1.2103E+44) × SI newton + (0).
+   /// A(n) planck-force. Defined as: 1.2103E+44 × SI newton.
    /// </summary>
    public static readonly Force PlanckForce = new ("planck-force", "Fₚ", SI.Forces.Newton, 1.2103E+44, 0);
 }

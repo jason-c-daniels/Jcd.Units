@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Hectosiemens Field
 
-A(n) hectosiemens. Defined as: (10.0) × dekasiemens + (0).
+A(n) hectosiemens. Defined as: 10.0 × dekasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Hectosiemens;

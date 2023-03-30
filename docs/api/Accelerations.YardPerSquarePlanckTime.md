@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquarePlanckTime Field
 
-A(n) yard per square planck-time. Defined as: ((3.0)/((5.391247E-38)*(5.391247E-38))) × foot per square microsecond + (0).
+A(n) yard per square planck-time. Defined as: (3.0)/((5.391247E-38)*(5.391247E-38)) × foot per square microsecond.
 
 ```csharp
 public static readonly Acceleration YardPerSquarePlanckTime;

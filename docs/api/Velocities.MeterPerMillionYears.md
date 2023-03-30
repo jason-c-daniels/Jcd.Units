@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerMillionYears Field
 
-A(n) meter per million years. Defined as: ((1.0)/(1000.0)) × meter per millennium + (0).
+A(n) meter per million years. Defined as: (1.0)/(1000.0) × meter per millennium.
 
 ```csharp
 public static readonly Velocity MeterPerMillionYears;

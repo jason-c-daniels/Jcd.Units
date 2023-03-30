@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareHour Field
 
-A(n) picometer per square hour. Defined as: ((1.0/1000.0)/((60.0)*(60.0))) × nanometer per square minute + (0).
+A(n) picometer per square hour. Defined as: (1.0/1000.0)/((60.0)*(60.0)) × nanometer per square minute.
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareHour;

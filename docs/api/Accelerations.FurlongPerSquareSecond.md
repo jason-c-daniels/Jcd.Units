@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareSecond Field
 
-A(n) furlong per square second. Defined as: ((10.0)/((1.0)*(1.0))) × chain per square second + (0).
+A(n) furlong per square second. Defined as: (10.0)/((1.0)*(1.0)) × chain per square second.
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareSecond;

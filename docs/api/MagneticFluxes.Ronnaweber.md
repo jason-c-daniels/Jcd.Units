@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Ronnaweber Field
 
-A(n) ronnaweber. Defined as: (1000.0) × yottaweber + (0).
+A(n) ronnaweber. Defined as: 1000.0 × yottaweber.
 
 ```csharp
 public static readonly MagneticFlux Ronnaweber;

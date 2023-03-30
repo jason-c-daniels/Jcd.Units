@@ -3,7 +3,7 @@
 
 ## Durations.QuintillionYears Field
 
-A(n) quintillion years. Defined as: (1000.0) × quadrillion years + (0).
+A(n) quintillion years. Defined as: 1000.0 × quadrillion years.
 
 ```csharp
 public static readonly Duration QuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerQuintillionYears Field
 
-A(n) yoctometer per quintillion years. Defined as: ((1.0/1000.0)/(1000.0)) × zeptometer per quadrillion years + (0).
+A(n) yoctometer per quintillion years. Defined as: (1.0/1000.0)/(1000.0) × zeptometer per quadrillion years.
 
 ```csharp
 public static readonly Velocity YoctometerPerQuintillionYears;

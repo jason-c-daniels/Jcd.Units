@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerQuadrillionYears Field
 
-A(n) picometer per quadrillion years. Defined as: ((1.0/1000.0)/(1000.0)) × nanometer per trillion years + (0).
+A(n) picometer per quadrillion years. Defined as: (1.0/1000.0)/(1000.0) × nanometer per trillion years.
 
 ```csharp
 public static readonly Velocity PicometerPerQuadrillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerCentury Field
 
-A(n) mile per century. Defined as: ((8.0)/(10.0)) × furlong per decade + (0).
+A(n) mile per century. Defined as: (8.0)/(10.0) × furlong per decade.
 
 ```csharp
 public static readonly Velocity MilePerCentury;

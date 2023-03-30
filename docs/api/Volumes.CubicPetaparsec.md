@@ -3,7 +3,7 @@
 
 ## Volumes.CubicPetaparsec Field
 
-A(n) cubic petaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic teraparsec + (0).
+A(n) cubic petaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic teraparsec.
 
 ```csharp
 public static readonly Volume CubicPetaparsec;

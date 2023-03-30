@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Yottasiemens Field
 
-A(n) yottasiemens. Defined as: (1000.0) × zettasiemens + (0).
+A(n) yottasiemens. Defined as: 1000.0 × zettasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Yottasiemens;

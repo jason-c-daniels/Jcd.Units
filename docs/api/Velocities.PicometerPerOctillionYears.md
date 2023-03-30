@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerOctillionYears Field
 
-A(n) picometer per octillion years. Defined as: ((1.0/1000.0)/(1000.0)) × nanometer per septillion years + (0).
+A(n) picometer per octillion years. Defined as: (1.0/1000.0)/(1000.0) × nanometer per septillion years.
 
 ```csharp
 public static readonly Velocity PicometerPerOctillionYears;

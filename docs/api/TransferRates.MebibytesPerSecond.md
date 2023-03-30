@@ -3,7 +3,7 @@
 
 ## TransferRates.MebibytesPerSecond Field
 
-A(n) mebibytes per second. Defined as: (1024.0) × kebibytes per second + (0).
+A(n) mebibytes per second. Defined as: 1024.0 × kebibytes per second.
 
 ```csharp
 public static readonly TransferRate MebibytesPerSecond;

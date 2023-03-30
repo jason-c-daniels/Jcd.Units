@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareDecade Field
 
-A(n) foot per square decade. Defined as: ((12)/((10.0)*(10.0))) × inch per square year + (0).
+A(n) foot per square decade. Defined as: (12)/((10.0)*(10.0)) × inch per square year.
 
 ```csharp
 public static readonly Acceleration FootPerSquareDecade;

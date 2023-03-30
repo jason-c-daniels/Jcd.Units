@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerSeptillionYears Field
 
-A(n) gigameter per septillion years. Defined as: ((1000.0)/(1000.0)) × megameter per sextillion years + (0).
+A(n) gigameter per septillion years. Defined as: (1000.0)/(1000.0) × megameter per sextillion years.
 
 ```csharp
 public static readonly Velocity GigameterPerSeptillionYears;

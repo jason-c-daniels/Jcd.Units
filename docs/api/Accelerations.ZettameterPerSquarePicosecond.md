@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquarePicosecond Field
 
-A(n) zettameter per square picosecond. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0))) × exameter per square nanosecond + (0).
+A(n) zettameter per square picosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × exameter per square nanosecond.
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquarePicosecond;

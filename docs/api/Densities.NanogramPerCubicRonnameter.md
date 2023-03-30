@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicRonnameter Field
 
-A(n) nanogram per cubic ronnameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × microgram per cubic yottameter + (0).
+A(n) nanogram per cubic ronnameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × microgram per cubic yottameter.
 
 ```csharp
 public static readonly Density NanogramPerCubicRonnameter;

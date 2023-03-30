@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerQuectosecond Field
 
-A(n) chain per quectosecond. Defined as: ((22.0)/(1.0/1000.0)) × yard per rontosecond + (0).
+A(n) chain per quectosecond. Defined as: (22.0)/(1.0/1000.0) × yard per rontosecond.
 
 ```csharp
 public static readonly Velocity ChainPerQuectosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareTrillionYears Field
 
-A(n) picometer per square trillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × nanometer per square billion years + (0).
+A(n) picometer per square trillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × nanometer per square billion years.
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareTrillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareDay Field
 
-A(n) chain per square day. Defined as: ((22.0)/((24.0)*(24.0))) × yard per square hour + (0).
+A(n) chain per square day. Defined as: (22.0)/((24.0)*(24.0)) × yard per square hour.
 
 ```csharp
 public static readonly Acceleration ChainPerSquareDay;

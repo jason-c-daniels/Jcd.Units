@@ -3,7 +3,7 @@
 
 ## Illuminances.Zettalux Field
 
-A(n) zettalux. Defined as: (1000.0) × exalux + (0).
+A(n) zettalux. Defined as: 1000.0 × exalux.
 
 ```csharp
 public static readonly Illuminance Zettalux;

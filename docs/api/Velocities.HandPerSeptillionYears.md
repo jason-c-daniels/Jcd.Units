@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerSeptillionYears Field
 
-A(n) hand per septillion years. Defined as: ((4.0)/(1000.0)) × inch per sextillion years + (0).
+A(n) hand per septillion years. Defined as: (4.0)/(1000.0) × inch per sextillion years.
 
 ```csharp
 public static readonly Velocity HandPerSeptillionYears;

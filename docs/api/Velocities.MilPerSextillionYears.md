@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerSextillionYears Field
 
-A(n) mil per sextillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per quintillion years + (0).
+A(n) mil per sextillion years. Defined as: (1.0/1000.0)/(1000.0) × inch per quintillion years.
 
 ```csharp
 public static readonly Velocity MilPerSextillionYears;

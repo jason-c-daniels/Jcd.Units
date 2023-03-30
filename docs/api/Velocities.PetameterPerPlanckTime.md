@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerPlanckTime Field
 
-A(n) petameter per planck-time. Defined as: ((1000.0)/(5.391247E-38)) × terameter per microsecond + (0).
+A(n) petameter per planck-time. Defined as: (1000.0)/(5.391247E-38) × terameter per microsecond.
 
 ```csharp
 public static readonly Velocity PetameterPerPlanckTime;

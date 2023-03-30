@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Millibecquerel Field
 
-A(n) millibecquerel. Defined as: (1.0/10.0) × centibecquerel + (0).
+A(n) millibecquerel. Defined as: 1.0/10.0 × centibecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Millibecquerel;

@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerNanosecond Field
 
-A(n) millimeter per nanosecond. Defined as: ((1.0/10.0)/(1.0/1000.0)) × centimeter per microsecond + (0).
+A(n) millimeter per nanosecond. Defined as: (1.0/10.0)/(1.0/1000.0) × centimeter per microsecond.
 
 ```csharp
 public static readonly Velocity MillimeterPerNanosecond;

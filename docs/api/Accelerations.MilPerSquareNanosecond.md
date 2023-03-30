@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareNanosecond Field
 
-A(n) mil per square nanosecond. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))) × inch per square microsecond + (0).
+A(n) mil per square nanosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × inch per square microsecond.
 
 ```csharp
 public static readonly Acceleration MilPerSquareNanosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareMinute Field
 
-A(n) gigameter per square minute. Defined as: ((1000.0)/((60.0)*(60.0))) × megameter per square second + (0).
+A(n) gigameter per square minute. Defined as: (1000.0)/((60.0)*(60.0)) × megameter per square second.
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareMinute;

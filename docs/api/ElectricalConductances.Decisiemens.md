@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Decisiemens Field
 
-A(n) decisiemens. Defined as: (1.0/10.0) × siemens + (0).
+A(n) decisiemens. Defined as: 1.0/10.0 × siemens.
 
 ```csharp
 public static readonly ElectricalConductance Decisiemens;

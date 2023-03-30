@@ -3,7 +3,7 @@
 
 ## Illuminances.Microlux Field
 
-A(n) microlux. Defined as: (1.0/1000.0) × millilux + (0).
+A(n) microlux. Defined as: 1.0/1000.0 × millilux.
 
 ```csharp
 public static readonly Illuminance Microlux;

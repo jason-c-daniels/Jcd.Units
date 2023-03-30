@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareQuadrillionYears Field
 
-A(n) centimeter per square quadrillion years. Defined as: ((1.0/10.0)/((1000.0)*(1000.0))) × decimeter per square trillion years + (0).
+A(n) centimeter per square quadrillion years. Defined as: (1.0/10.0)/((1000.0)*(1000.0)) × decimeter per square trillion years.
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareQuadrillionYears;

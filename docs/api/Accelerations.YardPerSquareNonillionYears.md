@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareNonillionYears Field
 
-A(n) yard per square nonillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square octillion years + (0).
+A(n) yard per square nonillion years. Defined as: (3.0)/((1000.0)*(1000.0)) × foot per square octillion years.
 
 ```csharp
 public static readonly Acceleration YardPerSquareNonillionYears;

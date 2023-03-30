@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerYear Field
 
-A(n) fathom per year. Defined as: ((6.0)/(365.2525)) × foot per day + (0).
+A(n) fathom per year. Defined as: (6.0)/(365.2525) × foot per day.
 
 ```csharp
 public static readonly Velocity FathomPerYear;

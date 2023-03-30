@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicExameter Field
 
-A(n) kilogram per cubic exameter. Defined as: ((1.0)/((1000.0)*(1000.0)*(1000.0))) × kilogram per cubic petameter + (0).
+A(n) kilogram per cubic exameter. Defined as: (1.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic petameter.
 
 ```csharp
 public static readonly Density KilogramPerCubicExameter;

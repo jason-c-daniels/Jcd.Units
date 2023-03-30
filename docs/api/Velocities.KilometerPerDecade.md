@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerDecade Field
 
-A(n) kilometer per decade. Defined as: ((10.0)/(10.0)) × hectometer per year + (0).
+A(n) kilometer per decade. Defined as: (10.0)/(10.0) × hectometer per year.
 
 ```csharp
 public static readonly Velocity KilometerPerDecade;

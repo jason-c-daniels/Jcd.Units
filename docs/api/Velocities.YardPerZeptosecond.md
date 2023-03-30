@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerZeptosecond Field
 
-A(n) yard per zeptosecond. Defined as: ((3.0)/(1.0/1000.0)) × foot per attosecond + (0).
+A(n) yard per zeptosecond. Defined as: (3.0)/(1.0/1000.0) × foot per attosecond.
 
 ```csharp
 public static readonly Velocity YardPerZeptosecond;

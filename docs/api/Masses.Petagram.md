@@ -3,7 +3,7 @@
 
 ## Masses.Petagram Field
 
-A(n) petagram. Defined as: (1000.0) × teragram + (0).
+A(n) petagram. Defined as: 1000.0 × teragram.
 
 ```csharp
 public static readonly Mass Petagram;

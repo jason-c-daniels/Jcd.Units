@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicHectometer Field
 
-A(n) gigagram per cubic hectometer. Defined as: ((1000.0)/((10.0)*(10.0)*(10.0))) × megagram per cubic dekameter + (0).
+A(n) gigagram per cubic hectometer. Defined as: (1000.0)/((10.0)*(10.0)*(10.0)) × megagram per cubic dekameter.
 
 ```csharp
 public static readonly Density GigagramPerCubicHectometer;

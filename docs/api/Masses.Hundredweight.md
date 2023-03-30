@@ -3,7 +3,7 @@
 
 ## Masses.Hundredweight Field
 
-A(n) hundredweight. Defined as: (4.0) × quarter + (0).
+A(n) hundredweight. Defined as: 4.0 × quarter.
 
 ```csharp
 public static readonly Mass Hundredweight;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Femtosiemens Field
 
-A(n) femtosiemens. Defined as: (1.0/1000.0) × picosiemens + (0).
+A(n) femtosiemens. Defined as: 1.0/1000.0 × picosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Femtosiemens;

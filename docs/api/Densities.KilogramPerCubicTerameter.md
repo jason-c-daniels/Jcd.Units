@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicTerameter Field
 
-A(n) kilogram per cubic terameter. Defined as: ((1.0)/((1000.0)*(1000.0)*(1000.0))) × kilogram per cubic gigameter + (0).
+A(n) kilogram per cubic terameter. Defined as: (1.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic gigameter.
 
 ```csharp
 public static readonly Density KilogramPerCubicTerameter;

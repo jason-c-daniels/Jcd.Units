@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareQuectosecond Field
 
-A(n) link per square quectosecond. Defined as: ((0.20116)/((1.0/1000.0)*(1.0/1000.0))) × SI meter per square rontosecond + (0).
+A(n) link per square quectosecond. Defined as: (0.20116)/((1.0/1000.0)*(1.0/1000.0)) × SI meter per square rontosecond.
 
 ```csharp
 public static readonly Acceleration LinkPerSquareQuectosecond;

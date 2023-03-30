@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerQuectosecond Field
 
-A(n) picometer per quectosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × nanometer per rontosecond + (0).
+A(n) picometer per quectosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × nanometer per rontosecond.
 
 ```csharp
 public static readonly Velocity PicometerPerQuectosecond;

@@ -3,7 +3,7 @@
 
 ## TransferRates.GiganybblesPerSecond Field
 
-A(n) giganybbles per second. Defined as: (1000.0) × meganybbles per second + (0).
+A(n) giganybbles per second. Defined as: 1000.0 × meganybbles per second.
 
 ```csharp
 public static readonly TransferRate GiganybblesPerSecond;

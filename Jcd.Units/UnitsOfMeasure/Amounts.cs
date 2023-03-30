@@ -23,7 +23,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
    public static readonly Amount Count = new ("count", "ct.");
 
    /// <summary>
-   /// A(n) quantity. Defined as: (1.0) × count + (0).
+   /// A(n) quantity. Defined as: 1.0 × count.
    /// </summary>
    public static readonly Amount Quantity = new ("quantity", "qty.", Count, 1.0, 0);
 }

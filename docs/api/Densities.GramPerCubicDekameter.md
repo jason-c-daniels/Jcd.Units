@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicDekameter Field
 
-A(n) gram per cubic dekameter. Defined as: ((1.0/10.0)/((10.0)*(10.0)*(10.0))) × dekagram per cubic meter + (0).
+A(n) gram per cubic dekameter. Defined as: (1.0/10.0)/((10.0)*(10.0)*(10.0)) × dekagram per cubic meter.
 
 ```csharp
 public static readonly Density GramPerCubicDekameter;

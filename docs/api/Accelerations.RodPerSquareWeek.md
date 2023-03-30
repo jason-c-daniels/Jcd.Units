@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareWeek Field
 
-A(n) rod per square week. Defined as: ((5.0292)/((7.0)*(7.0))) × SI meter per square day + (0).
+A(n) rod per square week. Defined as: (5.0292)/((7.0)*(7.0)) × SI meter per square day.
 
 ```csharp
 public static readonly Acceleration RodPerSquareWeek;

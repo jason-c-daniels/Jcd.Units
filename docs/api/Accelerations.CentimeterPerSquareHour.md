@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareHour Field
 
-A(n) centimeter per square hour. Defined as: ((1.0/10.0)/((60.0)*(60.0))) × decimeter per square minute + (0).
+A(n) centimeter per square hour. Defined as: (1.0/10.0)/((60.0)*(60.0)) × decimeter per square minute.
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareHour;

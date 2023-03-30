@@ -3,7 +3,7 @@
 
 ## Energies.Centijoule Field
 
-A(n) centijoule. Defined as: (1.0/10.0) × decijoule + (0).
+A(n) centijoule. Defined as: 1.0/10.0 × decijoule.
 
 ```csharp
 public static readonly Energy Centijoule;

@@ -3,7 +3,7 @@
 
 ## Lengths.EarthDiameter Field
 
-A(n) earth diameter. Defined as: (2.0) × earth radius + (0).
+A(n) earth diameter. Defined as: 2.0 × earth radius.
 
 ```csharp
 public static readonly Length EarthDiameter;

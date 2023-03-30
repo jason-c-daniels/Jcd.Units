@@ -3,7 +3,7 @@
 
 ## Volumes.Megaliter Field
 
-A(n) megaliter. Defined as: (1000.0) × kiloliter + (0).
+A(n) megaliter. Defined as: 1000.0 × kiloliter.
 
 ```csharp
 public static readonly Volume Megaliter;

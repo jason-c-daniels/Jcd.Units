@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareAttosecond Field
 
-A(n) barleycorn per square attosecond. Defined as: ((1.0/36.0)/((1.0/1000.0)*(1.0/1000.0))) × foot per square femtosecond + (0).
+A(n) barleycorn per square attosecond. Defined as: (1.0/36.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square femtosecond.
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareAttosecond;

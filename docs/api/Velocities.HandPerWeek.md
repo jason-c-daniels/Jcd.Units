@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerWeek Field
 
-A(n) hand per week. Defined as: ((4.0)/(7.0)) × inch per day + (0).
+A(n) hand per week. Defined as: (4.0)/(7.0) × inch per day.
 
 ```csharp
 public static readonly Velocity HandPerWeek;

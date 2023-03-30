@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerZeptosecond Field
 
-A(n) chain per zeptosecond. Defined as: ((22.0)/(1.0/1000.0)) × yard per attosecond + (0).
+A(n) chain per zeptosecond. Defined as: (22.0)/(1.0/1000.0) × yard per attosecond.
 
 ```csharp
 public static readonly Velocity ChainPerZeptosecond;

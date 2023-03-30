@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquarePlanckTime Field
 
-A(n) kilometer per square planck-time. Defined as: ((10.0)/((5.391247E-38)*(5.391247E-38))) × hectometer per square microsecond + (0).
+A(n) kilometer per square planck-time. Defined as: (10.0)/((5.391247E-38)*(5.391247E-38)) × hectometer per square microsecond.
 
 ```csharp
 public static readonly Acceleration KilometerPerSquarePlanckTime;

@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerBillionYears Field
 
-A(n) cable per billion years. Defined as: ((100.0)/(1000.0)) × fathom per million years + (0).
+A(n) cable per billion years. Defined as: (100.0)/(1000.0) × fathom per million years.
 
 ```csharp
 public static readonly Velocity CablePerBillionYears;

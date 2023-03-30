@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareDecillionYears Field
 
-A(n) micrometer per square decillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × millimeter per square nonillion years + (0).
+A(n) micrometer per square decillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × millimeter per square nonillion years.
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareDecillionYears;

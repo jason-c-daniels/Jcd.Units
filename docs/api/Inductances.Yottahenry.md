@@ -3,7 +3,7 @@
 
 ## Inductances.Yottahenry Field
 
-A(n) yottahenry. Defined as: (1000.0) × zettahenry + (0).
+A(n) yottahenry. Defined as: 1000.0 × zettahenry.
 
 ```csharp
 public static readonly Inductance Yottahenry;

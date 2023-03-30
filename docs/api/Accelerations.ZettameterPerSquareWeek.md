@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareWeek Field
 
-A(n) zettameter per square week. Defined as: ((1000.0)/((7.0)*(7.0))) × exameter per square day + (0).
+A(n) zettameter per square week. Defined as: (1000.0)/((7.0)*(7.0)) × exameter per square day.
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquareWeek;

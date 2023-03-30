@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Microkatal Field
 
-A(n) microkatal. Defined as: (1.0/1000.0) × millikatal + (0).
+A(n) microkatal. Defined as: 1.0/1000.0 × millikatal.
 
 ```csharp
 public static readonly CatalyticActivity Microkatal;

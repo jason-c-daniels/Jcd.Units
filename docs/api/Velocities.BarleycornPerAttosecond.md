@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerAttosecond Field
 
-A(n) barleycorn per attosecond. Defined as: ((1.0/36.0)/(1.0/1000.0)) × foot per femtosecond + (0).
+A(n) barleycorn per attosecond. Defined as: (1.0/36.0)/(1.0/1000.0) × foot per femtosecond.
 
 ```csharp
 public static readonly Velocity BarleycornPerAttosecond;

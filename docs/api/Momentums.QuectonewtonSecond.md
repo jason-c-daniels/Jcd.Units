@@ -3,7 +3,7 @@
 
 ## Momentums.QuectonewtonSecond Field
 
-A(n) quectonewton-second. Defined as: (1.0/1000.0) × rontonewton-second + (0).
+A(n) quectonewton-second. Defined as: 1.0/1000.0 × rontonewton-second.
 
 ```csharp
 public static readonly Momentum QuectonewtonSecond;

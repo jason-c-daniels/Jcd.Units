@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerDay Field
 
-A(n) quettameter per day. Defined as: ((1000.0)/(24.0)) × ronnameter per hour + (0).
+A(n) quettameter per day. Defined as: (1000.0)/(24.0) × ronnameter per hour.
 
 ```csharp
 public static readonly Velocity QuettameterPerDay;

@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Millicandela Field
 
-A(n) millicandela. Defined as: (1.0/10.0) × centicandela + (0).
+A(n) millicandela. Defined as: 1.0/10.0 × centicandela.
 
 ```csharp
 public static readonly LuminousIntensity Millicandela;

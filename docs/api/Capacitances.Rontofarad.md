@@ -3,7 +3,7 @@
 
 ## Capacitances.Rontofarad Field
 
-A(n) rontofarad. Defined as: (1.0/1000.0) × yoctofarad + (0).
+A(n) rontofarad. Defined as: 1.0/1000.0 × yoctofarad.
 
 ```csharp
 public static readonly Capacitance Rontofarad;

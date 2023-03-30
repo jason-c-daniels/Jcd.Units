@@ -22,6 +22,7 @@ public class SourceCodeGenerator
    private const string DefaultUnitOfMeasureNamespace = "Jcd.Units.UnitsOfMeasure";
    private readonly string? _baseUnitTemplate;
    private readonly string? _derivedUnitTemplate;
+   private readonly string? _derivedUnitWithOffsetTemplate;
    private readonly string? _enumerationTemplate;
    private readonly string? _namespaceDocTemplate;
    private readonly Dictionary<string, Models.System> _systemLookup;
@@ -47,6 +48,9 @@ public class SourceCodeGenerator
       _derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template")
                           ?? throw new ArgumentNullException("DerivedUnit.template");
 
+      _derivedUnitWithOffsetTemplate = EmbeddedResource.ReadString("DerivedUnitWithOffset.template")
+                                    ?? throw new ArgumentNullException("DerivedUnitWithOffset.template");
+
       _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template")
                           ?? throw new ArgumentNullException("Enumeration.template");
 
@@ -68,6 +72,8 @@ public class SourceCodeGenerator
    private string GenerateUnit(UnitDefinition unitDef, string baseNamespace = DefaultBaseNamespace)
    {
       var template = unitDef.IsBaseUnit ? _baseUnitTemplate : _derivedUnitTemplate;
+
+      if (!double.TryParse(unitDef.Offset, out var offset) || offset != 0.0) template = _derivedUnitWithOffsetTemplate;
 
       var baseSystem = _systemLookup[unitDef.Unit.BaseUnitSystem];
 

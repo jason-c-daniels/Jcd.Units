@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicPicometer Field
 
-A(n) ronnagram per cubic picometer. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × yottagram per cubic nanometer + (0).
+A(n) ronnagram per cubic picometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × yottagram per cubic nanometer.
 
 ```csharp
 public static readonly Density RonnagramPerCubicPicometer;

@@ -180,7 +180,7 @@ For example the following code will execute and give the standard (sometimes une
 from built-in double comparison.
 
 ```csharp
-var exactLength = 111.1.As(Lengths.Meter);
+var exactLength = (111.1).As(Lengths.Meter);
 var userProvidedLength = GetValueFromUser(Lengths.Meter); // fake method.
 
 // do some math on it. Increase by 1/3rd.
@@ -201,7 +201,7 @@ using Jcd.Units.DoubleComparison;
 // adding this one line and the using statement above, now fixes the comparison issue.
 GlobalDoubleComparisonStrategy.Quantity = BuiltInRoundingComparer.FifteenDecimalPlaces;
 
-var exactLength = 111.1.As(Lengths.Meter);
+var exactLength = (111.1).As(Lengths.Meter);
 var userProvidedLength = GetValueFromUser(Lengths.Meter); // fake method.
 
 // do some math on it. Increase by 1/3rd.

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Quectosiemens Field
 
-A(n) quectosiemens. Defined as: (1.0/1000.0) × rontosiemens + (0).
+A(n) quectosiemens. Defined as: 1.0/1000.0 × rontosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Quectosiemens;

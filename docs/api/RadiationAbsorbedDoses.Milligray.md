@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Milligray Field
 
-A(n) milligray. Defined as: (1.0/10.0) × centigray + (0).
+A(n) milligray. Defined as: 1.0/10.0 × centigray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Milligray;

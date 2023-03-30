@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareTick Field
 
-A(n) cable per square tick. Defined as: ((100.0)/((100.0)*(100.0))) × fathom per square nanosecond + (0).
+A(n) cable per square tick. Defined as: (100.0)/((100.0)*(100.0)) × fathom per square nanosecond.
 
 ```csharp
 public static readonly Acceleration CablePerSquareTick;

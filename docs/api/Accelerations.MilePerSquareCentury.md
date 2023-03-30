@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareCentury Field
 
-A(n) mile per square century. Defined as: ((8.0)/((10.0)*(10.0))) × furlong per square decade + (0).
+A(n) mile per square century. Defined as: (8.0)/((10.0)*(10.0)) × furlong per square decade.
 
 ```csharp
 public static readonly Acceleration MilePerSquareCentury;

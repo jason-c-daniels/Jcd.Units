@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Rontolumen Field
 
-A(n) rontolumen. Defined as: (1.0/1000.0) × yoctolumen + (0).
+A(n) rontolumen. Defined as: 1.0/1000.0 × yoctolumen.
 
 ```csharp
 public static readonly LuminousFlux Rontolumen;

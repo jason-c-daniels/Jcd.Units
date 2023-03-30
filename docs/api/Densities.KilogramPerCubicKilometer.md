@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicKilometer Field
 
-A(n) kilogram per cubic kilometer. Defined as: ((1.0)/((10.0)*(10.0)*(10.0))) × kilogram per cubic hectometer + (0).
+A(n) kilogram per cubic kilometer. Defined as: (1.0)/((10.0)*(10.0)*(10.0)) × kilogram per cubic hectometer.
 
 ```csharp
 public static readonly Density KilogramPerCubicKilometer;

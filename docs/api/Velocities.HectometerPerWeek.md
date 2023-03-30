@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerWeek Field
 
-A(n) hectometer per week. Defined as: ((10.0)/(7.0)) × dekameter per day + (0).
+A(n) hectometer per week. Defined as: (10.0)/(7.0) × dekameter per day.
 
 ```csharp
 public static readonly Velocity HectometerPerWeek;

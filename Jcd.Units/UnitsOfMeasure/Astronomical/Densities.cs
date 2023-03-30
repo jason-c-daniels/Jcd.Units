@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Densities : UnitOfMeasureEnumeration<Densities, Density>
 {
    /// <summary>
-   /// A(n) planck-density. Defined as: (5.1550E+96) × SI kilogram per cubic meter + (0).
+   /// A(n) planck-density. Defined as: 5.1550E+96 × SI kilogram per cubic meter.
    /// </summary>
    public static readonly Density PlanckDensity = new (
                                                        "planck-density"

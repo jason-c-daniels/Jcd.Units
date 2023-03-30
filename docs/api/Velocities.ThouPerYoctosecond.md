@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerYoctosecond Field
 
-A(n) thou per yoctosecond. Defined as: ((1.0/12000.0)/(1.0/1000.0)) × foot per zeptosecond + (0).
+A(n) thou per yoctosecond. Defined as: (1.0/12000.0)/(1.0/1000.0) × foot per zeptosecond.
 
 ```csharp
 public static readonly Velocity ThouPerYoctosecond;

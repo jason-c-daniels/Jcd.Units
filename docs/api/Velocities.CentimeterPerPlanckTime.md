@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerPlanckTime Field
 
-A(n) centimeter per planck-time. Defined as: ((1.0/10.0)/(5.391247E-38)) × decimeter per microsecond + (0).
+A(n) centimeter per planck-time. Defined as: (1.0/10.0)/(5.391247E-38) × decimeter per microsecond.
 
 ```csharp
 public static readonly Velocity CentimeterPerPlanckTime;

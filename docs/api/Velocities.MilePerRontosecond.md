@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerRontosecond Field
 
-A(n) mile per rontosecond. Defined as: ((8.0)/(1.0/1000.0)) × furlong per yoctosecond + (0).
+A(n) mile per rontosecond. Defined as: (8.0)/(1.0/1000.0) × furlong per yoctosecond.
 
 ```csharp
 public static readonly Velocity MilePerRontosecond;

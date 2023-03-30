@@ -3,7 +3,7 @@
 
 ## Lengths.LightHour Field
 
-A(n) light-hour. Defined as: (60.0) × light-minute + (0).
+A(n) light-hour. Defined as: 60.0 × light-minute.
 
 ```csharp
 public static readonly Length LightHour;

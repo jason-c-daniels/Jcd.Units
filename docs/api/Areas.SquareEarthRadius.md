@@ -3,7 +3,7 @@
 
 ## Areas.SquareEarthRadius Field
 
-A(n) square earth radius. Defined as: ((6_371.0)*(6_371.0)) × SI square kilometer + (0).
+A(n) square earth radius. Defined as: (6_371.0)*(6_371.0) × SI square kilometer.
 
 ```csharp
 public static readonly Area SquareEarthRadius;

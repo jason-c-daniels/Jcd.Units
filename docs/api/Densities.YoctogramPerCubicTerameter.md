@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicTerameter Field
 
-A(n) yoctogram per cubic terameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × zeptogram per cubic gigameter + (0).
+A(n) yoctogram per cubic terameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × zeptogram per cubic gigameter.
 
 ```csharp
 public static readonly Density YoctogramPerCubicTerameter;

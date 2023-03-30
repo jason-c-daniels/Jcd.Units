@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareCentisecond Field
 
-A(n) point per square centisecond. Defined as: ((1.0/72.0)/((1.0/10.0)*(1.0/10.0))) × inch per square decisecond + (0).
+A(n) point per square centisecond. Defined as: (1.0/72.0)/((1.0/10.0)*(1.0/10.0)) × inch per square decisecond.
 
 ```csharp
 public static readonly Acceleration PointPerSquareCentisecond;

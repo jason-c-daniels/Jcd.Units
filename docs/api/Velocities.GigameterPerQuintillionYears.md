@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerQuintillionYears Field
 
-A(n) gigameter per quintillion years. Defined as: ((1000.0)/(1000.0)) × megameter per quadrillion years + (0).
+A(n) gigameter per quintillion years. Defined as: (1000.0)/(1000.0) × megameter per quadrillion years.
 
 ```csharp
 public static readonly Velocity GigameterPerQuintillionYears;

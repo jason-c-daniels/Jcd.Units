@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareNanosecond Field
 
-A(n) petameter per square nanosecond. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0))) × terameter per square microsecond + (0).
+A(n) petameter per square nanosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × terameter per square microsecond.
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareNanosecond;

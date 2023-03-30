@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareQuectosecond Field
 
-A(n) inch per square quectosecond. Defined as: ((2.54)/((1.0/1000.0)*(1.0/1000.0))) × SI centimeter per square rontosecond + (0).
+A(n) inch per square quectosecond. Defined as: (2.54)/((1.0/1000.0)*(1.0/1000.0)) × SI centimeter per square rontosecond.
 
 ```csharp
 public static readonly Acceleration InchPerSquareQuectosecond;

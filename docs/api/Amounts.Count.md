@@ -3,7 +3,7 @@
 
 ## Amounts.Count Field
 
-A(n) count. Defined as: (1.0) ×  count + (0).
+A(n) count. Defined as: 1.0 ×  count.
 
 ```csharp
 public static readonly Amount Count;

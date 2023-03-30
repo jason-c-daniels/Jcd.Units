@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquarePlanckTime Field
 
-A(n) gigameter per square planck-time. Defined as: ((1000.0)/((5.391247E-38)*(5.391247E-38))) × megameter per square microsecond + (0).
+A(n) gigameter per square planck-time. Defined as: (1000.0)/((5.391247E-38)*(5.391247E-38)) × megameter per square microsecond.
 
 ```csharp
 public static readonly Acceleration GigameterPerSquarePlanckTime;

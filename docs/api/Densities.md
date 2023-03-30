@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [PlanckDensity](Densities.PlanckDensity.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Densities.PlanckDensity') | A(n) planck-density. Defined as: (5.1550E+96) × SI kilogram per cubic meter + (0). |
+| [PlanckDensity](Densities.PlanckDensity.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Densities.PlanckDensity') | A(n) planck-density. Defined as: 5.1550E+96 × SI kilogram per cubic meter. |

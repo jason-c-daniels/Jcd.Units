@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareSeptillionYears Field
 
-A(n) millimeter per square septillion years. Defined as: ((1.0/10.0)/((1000.0)*(1000.0))) × centimeter per square sextillion years + (0).
+A(n) millimeter per square septillion years. Defined as: (1.0/10.0)/((1000.0)*(1000.0)) × centimeter per square sextillion years.
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareSeptillionYears;

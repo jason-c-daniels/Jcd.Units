@@ -3,7 +3,7 @@
 
 ## Inductances.Microhenry Field
 
-A(n) microhenry. Defined as: (1.0/1000.0) × millihenry + (0).
+A(n) microhenry. Defined as: 1.0/1000.0 × millihenry.
 
 ```csharp
 public static readonly Inductance Microhenry;

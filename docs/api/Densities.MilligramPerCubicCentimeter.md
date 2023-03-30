@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicCentimeter Field
 
-A(n) milligram per cubic centimeter. Defined as: ((1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))) × centigram per cubic decimeter + (0).
+A(n) milligram per cubic centimeter. Defined as: (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)) × centigram per cubic decimeter.
 
 ```csharp
 public static readonly Density MilligramPerCubicCentimeter;

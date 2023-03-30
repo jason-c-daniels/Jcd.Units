@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerDecisecond Field
 
-A(n) chain per decisecond. Defined as: ((22.0)/(1.0/10.0)) × yard per second + (0).
+A(n) chain per decisecond. Defined as: (22.0)/(1.0/10.0) × yard per second.
 
 ```csharp
 public static readonly Velocity ChainPerDecisecond;

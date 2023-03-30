@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicHectometer Field
 
-A(n) centigram per cubic hectometer. Defined as: ((1.0/10.0)/((10.0)*(10.0)*(10.0))) × decigram per cubic dekameter + (0).
+A(n) centigram per cubic hectometer. Defined as: (1.0/10.0)/((10.0)*(10.0)*(10.0)) × decigram per cubic dekameter.
 
 ```csharp
 public static readonly Density CentigramPerCubicHectometer;

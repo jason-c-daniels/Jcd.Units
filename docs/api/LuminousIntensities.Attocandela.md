@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Attocandela Field
 
-A(n) attocandela. Defined as: (1.0/1000.0) × femtocandela + (0).
+A(n) attocandela. Defined as: 1.0/1000.0 × femtocandela.
 
 ```csharp
 public static readonly LuminousIntensity Attocandela;

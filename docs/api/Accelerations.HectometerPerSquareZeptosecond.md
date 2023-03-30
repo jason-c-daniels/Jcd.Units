@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareZeptosecond Field
 
-A(n) hectometer per square zeptosecond. Defined as: ((10.0)/((1.0/1000.0)*(1.0/1000.0))) × dekameter per square attosecond + (0).
+A(n) hectometer per square zeptosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × dekameter per square attosecond.
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareZeptosecond;

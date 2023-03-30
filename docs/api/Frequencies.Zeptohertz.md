@@ -3,7 +3,7 @@
 
 ## Frequencies.Zeptohertz Field
 
-A(n) zeptohertz. Defined as: (1.0/1000.0) × attohertz + (0).
+A(n) zeptohertz. Defined as: 1.0/1000.0 × attohertz.
 
 ```csharp
 public static readonly Frequency Zeptohertz;

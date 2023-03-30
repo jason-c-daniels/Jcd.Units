@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Ronnasiemens Field
 
-A(n) ronnasiemens. Defined as: (1000.0) × yottasiemens + (0).
+A(n) ronnasiemens. Defined as: 1000.0 × yottasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Ronnasiemens;

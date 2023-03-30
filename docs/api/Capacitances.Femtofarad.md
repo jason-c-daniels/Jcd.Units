@@ -3,7 +3,7 @@
 
 ## Capacitances.Femtofarad Field
 
-A(n) femtofarad. Defined as: (1.0/1000.0) × picofarad + (0).
+A(n) femtofarad. Defined as: 1.0/1000.0 × picofarad.
 
 ```csharp
 public static readonly Capacitance Femtofarad;

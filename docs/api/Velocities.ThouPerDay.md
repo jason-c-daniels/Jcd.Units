@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerDay Field
 
-A(n) thou per day. Defined as: ((1.0/12000.0)/(24.0)) × foot per hour + (0).
+A(n) thou per day. Defined as: (1.0/12000.0)/(24.0) × foot per hour.
 
 ```csharp
 public static readonly Velocity ThouPerDay;

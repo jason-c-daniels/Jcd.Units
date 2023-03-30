@@ -3,7 +3,7 @@
 
 ## Volumes.Minim Field
 
-A(n) minim. Defined as: (1.0/9600.0) × pint + (0).
+A(n) minim. Defined as: 1.0/9600.0 × pint.
 
 ```csharp
 public static readonly Volume Minim;

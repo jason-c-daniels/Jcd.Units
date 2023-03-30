@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareYear Field
 
-A(n) micrometer per square year. Defined as: ((1.0/1000.0)/((365.2525)*(365.2525))) × millimeter per square day + (0).
+A(n) micrometer per square year. Defined as: (1.0/1000.0)/((365.2525)*(365.2525)) × millimeter per square day.
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareYear;

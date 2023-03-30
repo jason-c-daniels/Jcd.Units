@@ -3,7 +3,7 @@
 
 ## StorageUnits.Robibit Field
 
-A(n) robibit. Defined as: (1024.0) × yobibit + (0).
+A(n) robibit. Defined as: 1024.0 × yobibit.
 
 ```csharp
 public static readonly Storage Robibit;

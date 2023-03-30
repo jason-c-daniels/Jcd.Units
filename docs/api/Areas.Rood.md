@@ -3,7 +3,7 @@
 
 ## Areas.Rood Field
 
-A(n) rood. Defined as: (40.0) × perch + (0).
+A(n) rood. Defined as: 40.0 × perch.
 
 ```csharp
 public static readonly Area Rood;

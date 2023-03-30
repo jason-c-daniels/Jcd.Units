@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerZeptosecond Field
 
-A(n) pica per zeptosecond. Defined as: ((12.0)/(1.0/1000.0)) × point per attosecond + (0).
+A(n) pica per zeptosecond. Defined as: (12.0)/(1.0/1000.0) × point per attosecond.
 
 ```csharp
 public static readonly Velocity PicaPerZeptosecond;

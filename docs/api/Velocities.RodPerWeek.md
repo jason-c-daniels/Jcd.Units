@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerWeek Field
 
-A(n) rod per week. Defined as: ((5.0292)/(7.0)) × SI meter per day + (0).
+A(n) rod per week. Defined as: (5.0292)/(7.0) × SI meter per day.
 
 ```csharp
 public static readonly Velocity RodPerWeek;

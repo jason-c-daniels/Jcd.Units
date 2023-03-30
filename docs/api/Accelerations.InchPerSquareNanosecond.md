@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareNanosecond Field
 
-A(n) inch per square nanosecond. Defined as: ((2.54)/((1.0/1000.0)*(1.0/1000.0))) × SI centimeter per square microsecond + (0).
+A(n) inch per square nanosecond. Defined as: (2.54)/((1.0/1000.0)*(1.0/1000.0)) × SI centimeter per square microsecond.
 
 ```csharp
 public static readonly Acceleration InchPerSquareNanosecond;

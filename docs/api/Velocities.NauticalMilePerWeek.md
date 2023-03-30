@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerWeek Field
 
-A(n) nautical mile per week. Defined as: ((10.0)/(7.0)) × cable per day + (0).
+A(n) nautical mile per week. Defined as: (10.0)/(7.0) × cable per day.
 
 ```csharp
 public static readonly Velocity NauticalMilePerWeek;

@@ -3,7 +3,7 @@
 
 ## Energies.Exajoule Field
 
-A(n) exajoule. Defined as: (1000.0) × petajoule + (0).
+A(n) exajoule. Defined as: 1000.0 × petajoule.
 
 ```csharp
 public static readonly Energy Exajoule;

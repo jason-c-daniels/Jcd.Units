@@ -3,7 +3,7 @@
 
 ## Inductances.Yoctohenry Field
 
-A(n) yoctohenry. Defined as: (1.0/1000.0) × zeptohenry + (0).
+A(n) yoctohenry. Defined as: 1.0/1000.0 × zeptohenry.
 
 ```csharp
 public static readonly Inductance Yoctohenry;

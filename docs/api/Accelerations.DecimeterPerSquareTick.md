@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareTick Field
 
-A(n) decimeter per square tick. Defined as: ((1.0/10.0)/((100.0)*(100.0))) × meter per square nanosecond + (0).
+A(n) decimeter per square tick. Defined as: (1.0/10.0)/((100.0)*(100.0)) × meter per square nanosecond.
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquareTick;

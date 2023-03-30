@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareYear Field
 
-A(n) chain per square year. Defined as: ((22.0)/((365.2525)*(365.2525))) × yard per square day + (0).
+A(n) chain per square year. Defined as: (22.0)/((365.2525)*(365.2525)) × yard per square day.
 
 ```csharp
 public static readonly Acceleration ChainPerSquareYear;

@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerTrillionYears Field
 
-A(n) rontometer per trillion years. Defined as: ((1.0/1000.0)/(1000.0)) × yoctometer per billion years + (0).
+A(n) rontometer per trillion years. Defined as: (1.0/1000.0)/(1000.0) × yoctometer per billion years.
 
 ```csharp
 public static readonly Velocity RontometerPerTrillionYears;

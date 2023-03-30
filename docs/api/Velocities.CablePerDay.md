@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerDay Field
 
-A(n) cable per day. Defined as: ((100.0)/(24.0)) × fathom per hour + (0).
+A(n) cable per day. Defined as: (100.0)/(24.0) × fathom per hour.
 
 ```csharp
 public static readonly Velocity CablePerDay;

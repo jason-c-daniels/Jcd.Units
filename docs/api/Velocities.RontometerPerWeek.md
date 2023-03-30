@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerWeek Field
 
-A(n) rontometer per week. Defined as: ((1.0/1000.0)/(7.0)) × yoctometer per day + (0).
+A(n) rontometer per week. Defined as: (1.0/1000.0)/(7.0) × yoctometer per day.
 
 ```csharp
 public static readonly Velocity RontometerPerWeek;

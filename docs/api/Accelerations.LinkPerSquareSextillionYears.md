@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareSextillionYears Field
 
-A(n) link per square sextillion years. Defined as: ((0.20116)/((1000.0)*(1000.0))) × SI meter per square quintillion years + (0).
+A(n) link per square sextillion years. Defined as: (0.20116)/((1000.0)*(1000.0)) × SI meter per square quintillion years.
 
 ```csharp
 public static readonly Acceleration LinkPerSquareSextillionYears;

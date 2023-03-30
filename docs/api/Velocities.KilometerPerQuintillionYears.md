@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerQuintillionYears Field
 
-A(n) kilometer per quintillion years. Defined as: ((10.0)/(1000.0)) × hectometer per quadrillion years + (0).
+A(n) kilometer per quintillion years. Defined as: (10.0)/(1000.0) × hectometer per quadrillion years.
 
 ```csharp
 public static readonly Velocity KilometerPerQuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerDecillionYears Field
 
-A(n) rod per decillion years. Defined as: ((5.0292)/(1000.0)) × SI meter per nonillion years + (0).
+A(n) rod per decillion years. Defined as: (5.0292)/(1000.0) × SI meter per nonillion years.
 
 ```csharp
 public static readonly Velocity RodPerDecillionYears;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicCable Field
 
-A(n) cubic cable. Defined as: ((100.0)*(100.0)*(100.0)) × cubic fathom + (0).
+A(n) cubic cable. Defined as: (100.0)*(100.0)*(100.0) × cubic fathom.
 
 ```csharp
 public static readonly Volume CubicCable;

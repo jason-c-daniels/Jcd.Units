@@ -3,7 +3,7 @@
 
 ## Amounts.Yoctomole Field
 
-A(n) yoctomole. Defined as: (1.0/1000.0) × zeptomole + (0).
+A(n) yoctomole. Defined as: 1.0/1000.0 × zeptomole.
 
 ```csharp
 public static readonly Amount Yoctomole;

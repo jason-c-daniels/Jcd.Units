@@ -3,7 +3,7 @@
 
 ## Areas.SquareJovianDiameter Field
 
-A(n) square jovian diameter. Defined as: ((2.0)*(2.0)) × square jovian radius + (0).
+A(n) square jovian diameter. Defined as: (2.0)*(2.0) × square jovian radius.
 
 ```csharp
 public static readonly Area SquareJovianDiameter;

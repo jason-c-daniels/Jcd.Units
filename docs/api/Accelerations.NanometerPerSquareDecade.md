@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareDecade Field
 
-A(n) nanometer per square decade. Defined as: ((1.0/1000.0)/((10.0)*(10.0))) × micrometer per square year + (0).
+A(n) nanometer per square decade. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × micrometer per square year.
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareDecade;

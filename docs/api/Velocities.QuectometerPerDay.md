@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerDay Field
 
-A(n) quectometer per day. Defined as: ((1.0/1000.0)/(24.0)) × rontometer per hour + (0).
+A(n) quectometer per day. Defined as: (1.0/1000.0)/(24.0) × rontometer per hour.
 
 ```csharp
 public static readonly Velocity QuectometerPerDay;

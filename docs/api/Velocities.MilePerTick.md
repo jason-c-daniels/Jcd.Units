@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerTick Field
 
-A(n) mile per tick. Defined as: ((8.0)/(100.0)) × furlong per nanosecond + (0).
+A(n) mile per tick. Defined as: (8.0)/(100.0) × furlong per nanosecond.
 
 ```csharp
 public static readonly Velocity MilePerTick;

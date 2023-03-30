@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareYoctosecond Field
 
-A(n) gigameter per square yoctosecond. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0))) × megameter per square zeptosecond + (0).
+A(n) gigameter per square yoctosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × megameter per square zeptosecond.
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareYoctosecond;

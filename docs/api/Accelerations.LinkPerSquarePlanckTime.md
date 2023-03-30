@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquarePlanckTime Field
 
-A(n) link per square planck-time. Defined as: ((0.20116)/((5.391247E-38)*(5.391247E-38))) × SI meter per square microsecond + (0).
+A(n) link per square planck-time. Defined as: (0.20116)/((5.391247E-38)*(5.391247E-38)) × SI meter per square microsecond.
 
 ```csharp
 public static readonly Acceleration LinkPerSquarePlanckTime;

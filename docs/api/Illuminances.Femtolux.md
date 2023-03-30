@@ -3,7 +3,7 @@
 
 ## Illuminances.Femtolux Field
 
-A(n) femtolux. Defined as: (1.0/1000.0) × picolux + (0).
+A(n) femtolux. Defined as: 1.0/1000.0 × picolux.
 
 ```csharp
 public static readonly Illuminance Femtolux;

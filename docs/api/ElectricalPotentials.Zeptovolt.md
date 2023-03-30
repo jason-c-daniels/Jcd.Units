@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Zeptovolt Field
 
-A(n) zeptovolt. Defined as: (1.0/1000.0) × attovolt + (0).
+A(n) zeptovolt. Defined as: 1.0/1000.0 × attovolt.
 
 ```csharp
 public static readonly ElectricalPotential Zeptovolt;

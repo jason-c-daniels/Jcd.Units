@@ -3,7 +3,7 @@
 
 ## Masses.Attogram Field
 
-A(n) attogram. Defined as: (1.0/1000.0) × femtogram + (0).
+A(n) attogram. Defined as: 1.0/1000.0 × femtogram.
 
 ```csharp
 public static readonly Mass Attogram;

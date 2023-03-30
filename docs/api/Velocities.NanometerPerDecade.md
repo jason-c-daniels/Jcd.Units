@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerDecade Field
 
-A(n) nanometer per decade. Defined as: ((1.0/1000.0)/(10.0)) × micrometer per year + (0).
+A(n) nanometer per decade. Defined as: (1.0/1000.0)/(10.0) × micrometer per year.
 
 ```csharp
 public static readonly Velocity NanometerPerDecade;

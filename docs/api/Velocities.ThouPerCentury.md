@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerCentury Field
 
-A(n) thou per century. Defined as: ((1.0/12000.0)/(10.0)) × foot per decade + (0).
+A(n) thou per century. Defined as: (1.0/12000.0)/(10.0) × foot per decade.
 
 ```csharp
 public static readonly Velocity ThouPerCentury;

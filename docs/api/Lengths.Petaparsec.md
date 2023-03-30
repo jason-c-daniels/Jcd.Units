@@ -3,7 +3,7 @@
 
 ## Lengths.Petaparsec Field
 
-A(n) petaparsec. Defined as: (1000.0) × teraparsec + (0).
+A(n) petaparsec. Defined as: 1000.0 × teraparsec.
 
 ```csharp
 public static readonly Length Petaparsec;

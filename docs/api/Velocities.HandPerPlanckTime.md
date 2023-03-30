@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerPlanckTime Field
 
-A(n) hand per planck-time. Defined as: ((4.0)/(5.391247E-38)) × inch per microsecond + (0).
+A(n) hand per planck-time. Defined as: (4.0)/(5.391247E-38) × inch per microsecond.
 
 ```csharp
 public static readonly Velocity HandPerPlanckTime;

@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Zeptolumen Field
 
-A(n) zeptolumen. Defined as: (1.0/1000.0) × attolumen + (0).
+A(n) zeptolumen. Defined as: 1.0/1000.0 × attolumen.
 
 ```csharp
 public static readonly LuminousFlux Zeptolumen;

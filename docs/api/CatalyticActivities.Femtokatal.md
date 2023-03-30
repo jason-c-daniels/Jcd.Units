@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Femtokatal Field
 
-A(n) femtokatal. Defined as: (1.0/1000.0) × picokatal + (0).
+A(n) femtokatal. Defined as: 1.0/1000.0 × picokatal.
 
 ```csharp
 public static readonly CatalyticActivity Femtokatal;

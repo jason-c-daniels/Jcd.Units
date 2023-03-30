@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerQuadrillionYears Field
 
-A(n) foot per quadrillion years. Defined as: ((12)/(1000.0)) × inch per trillion years + (0).
+A(n) foot per quadrillion years. Defined as: (12)/(1000.0) × inch per trillion years.
 
 ```csharp
 public static readonly Velocity FootPerQuadrillionYears;

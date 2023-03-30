@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerHour Field
 
-A(n) centimeter per hour. Defined as: ((1.0/10.0)/(60.0)) × decimeter per minute + (0).
+A(n) centimeter per hour. Defined as: (1.0/10.0)/(60.0) × decimeter per minute.
 
 ```csharp
 public static readonly Velocity CentimeterPerHour;

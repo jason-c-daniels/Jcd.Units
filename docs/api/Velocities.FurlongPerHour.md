@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerHour Field
 
-A(n) furlong per hour. Defined as: ((10.0)/(60.0)) × chain per minute + (0).
+A(n) furlong per hour. Defined as: (10.0)/(60.0) × chain per minute.
 
 ```csharp
 public static readonly Velocity FurlongPerHour;

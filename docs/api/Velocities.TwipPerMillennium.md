@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerMillennium Field
 
-A(n) twip per millennium. Defined as: ((1.0/17280.0)/(10.0)) × foot per century + (0).
+A(n) twip per millennium. Defined as: (1.0/17280.0)/(10.0) × foot per century.
 
 ```csharp
 public static readonly Velocity TwipPerMillennium;

@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerWeek Field
 
-A(n) zeptometer per week. Defined as: ((1.0/1000.0)/(7.0)) × attometer per day + (0).
+A(n) zeptometer per week. Defined as: (1.0/1000.0)/(7.0) × attometer per day.
 
 ```csharp
 public static readonly Velocity ZeptometerPerWeek;

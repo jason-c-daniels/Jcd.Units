@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerDecade Field
 
-A(n) chain per decade. Defined as: ((22.0)/(10.0)) × yard per year + (0).
+A(n) chain per decade. Defined as: (22.0)/(10.0) × yard per year.
 
 ```csharp
 public static readonly Velocity ChainPerDecade;

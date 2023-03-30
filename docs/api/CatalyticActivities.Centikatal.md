@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Centikatal Field
 
-A(n) centikatal. Defined as: (1.0/10.0) × decikatal + (0).
+A(n) centikatal. Defined as: 1.0/10.0 × decikatal.
 
 ```csharp
 public static readonly CatalyticActivity Centikatal;

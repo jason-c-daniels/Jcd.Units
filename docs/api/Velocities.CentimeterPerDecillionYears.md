@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerDecillionYears Field
 
-A(n) centimeter per decillion years. Defined as: ((1.0/10.0)/(1000.0)) × decimeter per nonillion years + (0).
+A(n) centimeter per decillion years. Defined as: (1.0/10.0)/(1000.0) × decimeter per nonillion years.
 
 ```csharp
 public static readonly Velocity CentimeterPerDecillionYears;

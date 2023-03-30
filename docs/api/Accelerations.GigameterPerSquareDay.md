@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareDay Field
 
-A(n) gigameter per square day. Defined as: ((1000.0)/((24.0)*(24.0))) × megameter per square hour + (0).
+A(n) gigameter per square day. Defined as: (1000.0)/((24.0)*(24.0)) × megameter per square hour.
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareDay;

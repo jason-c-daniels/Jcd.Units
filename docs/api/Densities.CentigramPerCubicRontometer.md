@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicRontometer Field
 
-A(n) centigram per cubic rontometer. Defined as: ((1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × decigram per cubic yoctometer + (0).
+A(n) centigram per cubic rontometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × decigram per cubic yoctometer.
 
 ```csharp
 public static readonly Density CentigramPerCubicRontometer;

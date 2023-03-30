@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerMinute Field
 
-A(n) millimeter per minute. Defined as: ((1.0/10.0)/(60.0)) × centimeter per second + (0).
+A(n) millimeter per minute. Defined as: (1.0/10.0)/(60.0) × centimeter per second.
 
 ```csharp
 public static readonly Velocity MillimeterPerMinute;

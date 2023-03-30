@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerDay Field
 
-A(n) yard per day. Defined as: ((3.0)/(24.0)) × foot per hour + (0).
+A(n) yard per day. Defined as: (3.0)/(24.0) × foot per hour.
 
 ```csharp
 public static readonly Velocity YardPerDay;

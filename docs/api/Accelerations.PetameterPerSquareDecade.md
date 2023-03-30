@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareDecade Field
 
-A(n) petameter per square decade. Defined as: ((1000.0)/((10.0)*(10.0))) × terameter per square year + (0).
+A(n) petameter per square decade. Defined as: (1000.0)/((10.0)*(10.0)) × terameter per square year.
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareDecade;

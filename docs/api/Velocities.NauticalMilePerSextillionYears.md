@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerSextillionYears Field
 
-A(n) nautical mile per sextillion years. Defined as: ((10.0)/(1000.0)) × cable per quintillion years + (0).
+A(n) nautical mile per sextillion years. Defined as: (10.0)/(1000.0) × cable per quintillion years.
 
 ```csharp
 public static readonly Velocity NauticalMilePerSextillionYears;

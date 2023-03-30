@@ -3,7 +3,7 @@
 
 ## TransferRates.ExbibitsPerSecond Field
 
-A(n) exbibits per second. Defined as: (1024.0) × pebibits per second + (0).
+A(n) exbibits per second. Defined as: 1024.0 × pebibits per second.
 
 ```csharp
 public static readonly TransferRate ExbibitsPerSecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerHour Field
 
-A(n) yard per hour. Defined as: ((3.0)/(60.0)) × foot per minute + (0).
+A(n) yard per hour. Defined as: (3.0)/(60.0) × foot per minute.
 
 ```csharp
 public static readonly Velocity YardPerHour;

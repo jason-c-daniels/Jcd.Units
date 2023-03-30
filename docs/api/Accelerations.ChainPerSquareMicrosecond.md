@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareMicrosecond Field
 
-A(n) chain per square microsecond. Defined as: ((22.0)/((1.0/1000.0)*(1.0/1000.0))) × yard per square millisecond + (0).
+A(n) chain per square microsecond. Defined as: (22.0)/((1.0/1000.0)*(1.0/1000.0)) × yard per square millisecond.
 
 ```csharp
 public static readonly Acceleration ChainPerSquareMicrosecond;

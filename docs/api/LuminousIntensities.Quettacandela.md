@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Quettacandela Field
 
-A(n) quettacandela. Defined as: (1000.0) × ronnacandela + (0).
+A(n) quettacandela. Defined as: 1000.0 × ronnacandela.
 
 ```csharp
 public static readonly LuminousIntensity Quettacandela;

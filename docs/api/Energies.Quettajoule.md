@@ -3,7 +3,7 @@
 
 ## Energies.Quettajoule Field
 
-A(n) quettajoule. Defined as: (1000.0) × ronnajoule + (0).
+A(n) quettajoule. Defined as: 1000.0 × ronnajoule.
 
 ```csharp
 public static readonly Energy Quettajoule;

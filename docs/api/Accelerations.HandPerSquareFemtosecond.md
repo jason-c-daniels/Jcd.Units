@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareFemtosecond Field
 
-A(n) hand per square femtosecond. Defined as: ((4.0)/((1.0/1000.0)*(1.0/1000.0))) × inch per square picosecond + (0).
+A(n) hand per square femtosecond. Defined as: (4.0)/((1.0/1000.0)*(1.0/1000.0)) × inch per square picosecond.
 
 ```csharp
 public static readonly Acceleration HandPerSquareFemtosecond;

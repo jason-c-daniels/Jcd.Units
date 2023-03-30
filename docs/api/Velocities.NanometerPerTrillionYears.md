@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerTrillionYears Field
 
-A(n) nanometer per trillion years. Defined as: ((1.0/1000.0)/(1000.0)) × micrometer per billion years + (0).
+A(n) nanometer per trillion years. Defined as: (1.0/1000.0)/(1000.0) × micrometer per billion years.
 
 ```csharp
 public static readonly Velocity NanometerPerTrillionYears;

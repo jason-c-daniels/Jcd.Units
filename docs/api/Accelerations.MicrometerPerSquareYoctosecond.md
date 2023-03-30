@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareYoctosecond Field
 
-A(n) micrometer per square yoctosecond. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))) × millimeter per square zeptosecond + (0).
+A(n) micrometer per square yoctosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × millimeter per square zeptosecond.
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareYoctosecond;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Exagray Field
 
-A(n) exagray. Defined as: (1000.0) × petagray + (0).
+A(n) exagray. Defined as: 1000.0 × petagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Exagray;

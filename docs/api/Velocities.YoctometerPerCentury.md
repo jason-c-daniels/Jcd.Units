@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerCentury Field
 
-A(n) yoctometer per century. Defined as: ((1.0/1000.0)/(10.0)) × zeptometer per decade + (0).
+A(n) yoctometer per century. Defined as: (1.0/1000.0)/(10.0) × zeptometer per decade.
 
 ```csharp
 public static readonly Velocity YoctometerPerCentury;

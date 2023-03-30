@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerDecisecond Field
 
-A(n) meter per decisecond. Defined as: ((1.0)/(1.0/10.0)) × meter per second + (0).
+A(n) meter per decisecond. Defined as: (1.0)/(1.0/10.0) × meter per second.
 
 ```csharp
 public static readonly Velocity MeterPerDecisecond;

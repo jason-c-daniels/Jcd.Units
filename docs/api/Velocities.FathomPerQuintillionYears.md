@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerQuintillionYears Field
 
-A(n) fathom per quintillion years. Defined as: ((6.0)/(1000.0)) × foot per quadrillion years + (0).
+A(n) fathom per quintillion years. Defined as: (6.0)/(1000.0) × foot per quadrillion years.
 
 ```csharp
 public static readonly Velocity FathomPerQuintillionYears;

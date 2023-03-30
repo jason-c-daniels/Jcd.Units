@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Hectotesla Field
 
-A(n) hectotesla. Defined as: (10.0) × dekatesla + (0).
+A(n) hectotesla. Defined as: 10.0 × dekatesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Hectotesla;

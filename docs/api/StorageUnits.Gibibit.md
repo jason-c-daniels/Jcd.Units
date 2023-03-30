@@ -3,7 +3,7 @@
 
 ## StorageUnits.Gibibit Field
 
-A(n) gibibit. Defined as: (1024.0) × mebibit + (0).
+A(n) gibibit. Defined as: 1024.0 × mebibit.
 
 ```csharp
 public static readonly Storage Gibibit;

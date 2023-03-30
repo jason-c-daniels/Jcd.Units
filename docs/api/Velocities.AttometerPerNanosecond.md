@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerNanosecond Field
 
-A(n) attometer per nanosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × femtometer per microsecond + (0).
+A(n) attometer per nanosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × femtometer per microsecond.
 
 ```csharp
 public static readonly Velocity AttometerPerNanosecond;

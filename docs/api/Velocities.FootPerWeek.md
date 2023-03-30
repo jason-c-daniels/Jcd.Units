@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerWeek Field
 
-A(n) foot per week. Defined as: ((12)/(7.0)) × inch per day + (0).
+A(n) foot per week. Defined as: (12)/(7.0) × inch per day.
 
 ```csharp
 public static readonly Velocity FootPerWeek;

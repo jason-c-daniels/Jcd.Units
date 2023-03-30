@@ -3,7 +3,7 @@
 
 ## Lengths.SolarCircumference Field
 
-A(n) solar circumference. Defined as: (Math.PI) × solar diameter + (0).
+A(n) solar circumference. Defined as: Math.PI × solar diameter.
 
 ```csharp
 public static readonly Length SolarCircumference;

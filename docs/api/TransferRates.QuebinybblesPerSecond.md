@@ -3,7 +3,7 @@
 
 ## TransferRates.QuebinybblesPerSecond Field
 
-A(n) quebinybbles per second. Defined as: (1024.0) × robinybbles per second + (0).
+A(n) quebinybbles per second. Defined as: 1024.0 × robinybbles per second.
 
 ```csharp
 public static readonly TransferRate QuebinybblesPerSecond;

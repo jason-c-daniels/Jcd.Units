@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquarePicosecond Field
 
-A(n) chain per square picosecond. Defined as: ((22.0)/((1.0/1000.0)*(1.0/1000.0))) × yard per square nanosecond + (0).
+A(n) chain per square picosecond. Defined as: (22.0)/((1.0/1000.0)*(1.0/1000.0)) × yard per square nanosecond.
 
 ```csharp
 public static readonly Acceleration ChainPerSquarePicosecond;

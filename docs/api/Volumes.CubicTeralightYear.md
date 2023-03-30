@@ -3,7 +3,7 @@
 
 ## Volumes.CubicTeralightYear Field
 
-A(n) cubic teralight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic gigalight-year + (0).
+A(n) cubic teralight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic gigalight-year.
 
 ```csharp
 public static readonly Volume CubicTeralightYear;

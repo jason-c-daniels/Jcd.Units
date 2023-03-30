@@ -3,7 +3,7 @@
 
 ## TransferRates.YobibytesPerSecond Field
 
-A(n) yobibytes per second. Defined as: (1024.0) × zebibytes per second + (0).
+A(n) yobibytes per second. Defined as: 1024.0 × zebibytes per second.
 
 ```csharp
 public static readonly TransferRate YobibytesPerSecond;

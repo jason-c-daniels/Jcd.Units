@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareYear Field
 
-A(n) hand per square year. Defined as: ((4.0)/((365.2525)*(365.2525))) × inch per square day + (0).
+A(n) hand per square year. Defined as: (4.0)/((365.2525)*(365.2525)) × inch per square day.
 
 ```csharp
 public static readonly Acceleration HandPerSquareYear;

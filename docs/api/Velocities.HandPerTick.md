@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerTick Field
 
-A(n) hand per tick. Defined as: ((4.0)/(100.0)) × inch per nanosecond + (0).
+A(n) hand per tick. Defined as: (4.0)/(100.0) × inch per nanosecond.
 
 ```csharp
 public static readonly Velocity HandPerTick;

@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Centicoulomb Field
 
-A(n) centicoulomb. Defined as: (1.0/10.0) × decicoulomb + (0).
+A(n) centicoulomb. Defined as: 1.0/10.0 × decicoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Centicoulomb;

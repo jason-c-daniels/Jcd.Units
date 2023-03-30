@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerAttosecond Field
 
-A(n) link per attosecond. Defined as: ((0.20116)/(1.0/1000.0)) × SI meter per femtosecond + (0).
+A(n) link per attosecond. Defined as: (0.20116)/(1.0/1000.0) × SI meter per femtosecond.
 
 ```csharp
 public static readonly Velocity LinkPerAttosecond;

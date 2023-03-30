@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerPlanckTime Field
 
-A(n) rod per planck-time. Defined as: ((5.0292)/(5.391247E-38)) × SI meter per microsecond + (0).
+A(n) rod per planck-time. Defined as: (5.0292)/(5.391247E-38) × SI meter per microsecond.
 
 ```csharp
 public static readonly Velocity RodPerPlanckTime;

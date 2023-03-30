@@ -3,7 +3,7 @@
 
 ## Illuminances.Centilux Field
 
-A(n) centilux. Defined as: (1.0/10.0) × decilux + (0).
+A(n) centilux. Defined as: 1.0/10.0 × decilux.
 
 ```csharp
 public static readonly Illuminance Centilux;

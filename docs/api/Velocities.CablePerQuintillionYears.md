@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerQuintillionYears Field
 
-A(n) cable per quintillion years. Defined as: ((100.0)/(1000.0)) × fathom per quadrillion years + (0).
+A(n) cable per quintillion years. Defined as: (100.0)/(1000.0) × fathom per quadrillion years.
 
 ```csharp
 public static readonly Velocity CablePerQuintillionYears;

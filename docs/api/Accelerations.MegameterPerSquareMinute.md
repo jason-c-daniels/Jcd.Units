@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareMinute Field
 
-A(n) megameter per square minute. Defined as: ((1000.0)/((60.0)*(60.0))) × kilometer per square second + (0).
+A(n) megameter per square minute. Defined as: (1000.0)/((60.0)*(60.0)) × kilometer per square second.
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareMinute;

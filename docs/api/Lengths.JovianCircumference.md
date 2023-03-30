@@ -3,7 +3,7 @@
 
 ## Lengths.JovianCircumference Field
 
-A(n) jovian circumference. Defined as: (Math.PI) × jovian diameter + (0).
+A(n) jovian circumference. Defined as: Math.PI × jovian diameter.
 
 ```csharp
 public static readonly Length JovianCircumference;

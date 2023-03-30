@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLeague Field
 
-A(n) cubic league. Defined as: ((3.0)*(3.0)*(3.0)) × cubic mile + (0).
+A(n) cubic league. Defined as: (3.0)*(3.0)*(3.0) × cubic mile.
 
 ```csharp
 public static readonly Volume CubicLeague;

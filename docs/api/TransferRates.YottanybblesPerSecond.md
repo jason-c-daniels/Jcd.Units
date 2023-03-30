@@ -3,7 +3,7 @@
 
 ## TransferRates.YottanybblesPerSecond Field
 
-A(n) yottanybbles per second. Defined as: (1000.0) × zettanybbles per second + (0).
+A(n) yottanybbles per second. Defined as: 1000.0 × zettanybbles per second.
 
 ```csharp
 public static readonly TransferRate YottanybblesPerSecond;

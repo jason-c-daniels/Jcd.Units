@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareWeek Field
 
-A(n) meter per square week. Defined as: ((1.0)/((7.0)*(7.0))) × meter per square day + (0).
+A(n) meter per square week. Defined as: (1.0)/((7.0)*(7.0)) × meter per square day.
 
 ```csharp
 public static readonly Acceleration MeterPerSquareWeek;

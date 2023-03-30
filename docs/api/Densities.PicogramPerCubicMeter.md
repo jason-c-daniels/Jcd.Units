@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicMeter Field
 
-A(n) picogram per cubic meter. Defined as: ((1.0/1000.0)/((1.0)*(1.0)*(1.0))) × nanogram per cubic meter + (0).
+A(n) picogram per cubic meter. Defined as: (1.0/1000.0)/((1.0)*(1.0)*(1.0)) × nanogram per cubic meter.
 
 ```csharp
 public static readonly Density PicogramPerCubicMeter;

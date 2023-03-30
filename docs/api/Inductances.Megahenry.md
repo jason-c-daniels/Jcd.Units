@@ -3,7 +3,7 @@
 
 ## Inductances.Megahenry Field
 
-A(n) megahenry. Defined as: (1000.0) × kilohenry + (0).
+A(n) megahenry. Defined as: 1000.0 × kilohenry.
 
 ```csharp
 public static readonly Inductance Megahenry;

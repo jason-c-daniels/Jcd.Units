@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerDay Field
 
-A(n) inch per day. Defined as: ((2.54)/(24.0)) × SI centimeter per hour + (0).
+A(n) inch per day. Defined as: (2.54)/(24.0) × SI centimeter per hour.
 
 ```csharp
 public static readonly Velocity InchPerDay;

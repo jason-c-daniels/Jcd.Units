@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareDay Field
 
-A(n) petameter per square day. Defined as: ((1000.0)/((24.0)*(24.0))) × terameter per square hour + (0).
+A(n) petameter per square day. Defined as: (1000.0)/((24.0)*(24.0)) × terameter per square hour.
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareDay;

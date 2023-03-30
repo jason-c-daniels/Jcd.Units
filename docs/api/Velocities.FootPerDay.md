@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerDay Field
 
-A(n) foot per day. Defined as: ((12)/(24.0)) × inch per hour + (0).
+A(n) foot per day. Defined as: (12)/(24.0) × inch per hour.
 
 ```csharp
 public static readonly Velocity FootPerDay;

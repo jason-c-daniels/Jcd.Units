@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerTick Field
 
-A(n) barleycorn per tick. Defined as: ((1.0/36.0)/(100.0)) × foot per nanosecond + (0).
+A(n) barleycorn per tick. Defined as: (1.0/36.0)/(100.0) × foot per nanosecond.
 
 ```csharp
 public static readonly Velocity BarleycornPerTick;

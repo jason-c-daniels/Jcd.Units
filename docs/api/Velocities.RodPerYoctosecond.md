@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerYoctosecond Field
 
-A(n) rod per yoctosecond. Defined as: ((5.0292)/(1.0/1000.0)) × SI meter per zeptosecond + (0).
+A(n) rod per yoctosecond. Defined as: (5.0292)/(1.0/1000.0) × SI meter per zeptosecond.
 
 ```csharp
 public static readonly Velocity RodPerYoctosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareDay Field
 
-A(n) micrometer per square day. Defined as: ((1.0/1000.0)/((24.0)*(24.0))) × millimeter per square hour + (0).
+A(n) micrometer per square day. Defined as: (1.0/1000.0)/((24.0)*(24.0)) × millimeter per square hour.
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareDay;

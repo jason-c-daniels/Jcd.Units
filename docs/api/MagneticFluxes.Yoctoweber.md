@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Yoctoweber Field
 
-A(n) yoctoweber. Defined as: (1.0/1000.0) × zeptoweber + (0).
+A(n) yoctoweber. Defined as: 1.0/1000.0 × zeptoweber.
 
 ```csharp
 public static readonly MagneticFlux Yoctoweber;

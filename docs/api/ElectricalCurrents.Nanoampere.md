@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Nanoampere Field
 
-A(n) nanoampere. Defined as: (1.0/1000.0) × microampere + (0).
+A(n) nanoampere. Defined as: 1.0/1000.0 × microampere.
 
 ```csharp
 public static readonly ElectricalCurrent Nanoampere;

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Ronnabecquerel Field
 
-A(n) ronnabecquerel. Defined as: (1000.0) × yottabecquerel + (0).
+A(n) ronnabecquerel. Defined as: 1000.0 × yottabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Ronnabecquerel;

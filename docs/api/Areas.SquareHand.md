@@ -3,7 +3,7 @@
 
 ## Areas.SquareHand Field
 
-A(n) square hand. Defined as: ((4.0)*(4.0)) × square inch + (0).
+A(n) square hand. Defined as: (4.0)*(4.0) × square inch.
 
 ```csharp
 public static readonly Area SquareHand;

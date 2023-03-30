@@ -3,7 +3,7 @@
 
 ## Lengths.LightSecond Field
 
-A(n) light-second. Defined as: (299_792_458.0) × SI meter + (0).
+A(n) light-second. Defined as: 299_792_458.0 × SI meter.
 
 ```csharp
 public static readonly Length LightSecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerCentury Field
 
-A(n) megameter per century. Defined as: ((1000.0)/(10.0)) × kilometer per decade + (0).
+A(n) megameter per century. Defined as: (1000.0)/(10.0) × kilometer per decade.
 
 ```csharp
 public static readonly Velocity MegameterPerCentury;

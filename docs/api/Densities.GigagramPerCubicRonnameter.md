@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicRonnameter Field
 
-A(n) gigagram per cubic ronnameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × megagram per cubic yottameter + (0).
+A(n) gigagram per cubic ronnameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × megagram per cubic yottameter.
 
 ```csharp
 public static readonly Density GigagramPerCubicRonnameter;

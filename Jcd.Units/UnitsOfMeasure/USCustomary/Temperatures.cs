@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
 {
    /// <summary>
-   /// A(n) degrees fahrenheit. Defined as: (5.0/9.0) × SI degrees celcius + (-32.0).
+   /// A(n) degrees fahrenheit. Defined as: (5.0/9.0 + -32.0) × SI degrees celcius.
    /// </summary>
    public static readonly Temperature DegreesFahrenheit = new (
                                                                "degrees fahrenheit"

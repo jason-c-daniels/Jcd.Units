@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Nanogray Field
 
-A(n) nanogray. Defined as: (1.0/1000.0) × microgray + (0).
+A(n) nanogray. Defined as: 1.0/1000.0 × microgray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Nanogray;

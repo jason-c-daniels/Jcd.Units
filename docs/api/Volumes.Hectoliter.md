@@ -3,7 +3,7 @@
 
 ## Volumes.Hectoliter Field
 
-A(n) hectoliter. Defined as: (10.0) × dekaliter + (0).
+A(n) hectoliter. Defined as: 10.0 × dekaliter.
 
 ```csharp
 public static readonly Volume Hectoliter;

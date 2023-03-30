@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareMillennium Field
 
-A(n) pica per square millennium. Defined as: ((12.0)/((10.0)*(10.0))) × point per square century + (0).
+A(n) pica per square millennium. Defined as: (12.0)/((10.0)*(10.0)) × point per square century.
 
 ```csharp
 public static readonly Acceleration PicaPerSquareMillennium;

@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerPlanckTime Field
 
-A(n) megameter per planck-time. Defined as: ((1000.0)/(5.391247E-38)) × kilometer per microsecond + (0).
+A(n) megameter per planck-time. Defined as: (1000.0)/(5.391247E-38) × kilometer per microsecond.
 
 ```csharp
 public static readonly Velocity MegameterPerPlanckTime;

@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerYear Field
 
-A(n) link per year. Defined as: ((0.20116)/(365.2525)) × SI meter per day + (0).
+A(n) link per year. Defined as: (0.20116)/(365.2525) × SI meter per day.
 
 ```csharp
 public static readonly Velocity LinkPerYear;

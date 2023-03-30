@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareWeek Field
 
-A(n) inch per square week. Defined as: ((2.54)/((7.0)*(7.0))) × SI centimeter per square day + (0).
+A(n) inch per square week. Defined as: (2.54)/((7.0)*(7.0)) × SI centimeter per square day.
 
 ```csharp
 public static readonly Acceleration InchPerSquareWeek;

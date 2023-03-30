@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerRontosecond Field
 
-A(n) fathom per rontosecond. Defined as: ((6.0)/(1.0/1000.0)) × foot per yoctosecond + (0).
+A(n) fathom per rontosecond. Defined as: (6.0)/(1.0/1000.0) × foot per yoctosecond.
 
 ```csharp
 public static readonly Velocity FathomPerRontosecond;

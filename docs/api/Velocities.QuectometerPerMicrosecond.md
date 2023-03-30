@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerMicrosecond Field
 
-A(n) quectometer per microsecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × rontometer per millisecond + (0).
+A(n) quectometer per microsecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × rontometer per millisecond.
 
 ```csharp
 public static readonly Velocity QuectometerPerMicrosecond;

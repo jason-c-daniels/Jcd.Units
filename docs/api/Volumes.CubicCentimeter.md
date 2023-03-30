@@ -3,7 +3,7 @@
 
 ## Volumes.CubicCentimeter Field
 
-A(n) cubic centimeter. Defined as: ((1.0/10.0)*(1.0/10.0)*(1.0/10.0)) × cubic decimeter + (0).
+A(n) cubic centimeter. Defined as: (1.0/10.0)*(1.0/10.0)*(1.0/10.0) × cubic decimeter.
 
 ```csharp
 public static readonly Volume CubicCentimeter;

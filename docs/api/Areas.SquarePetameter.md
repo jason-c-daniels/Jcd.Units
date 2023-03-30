@@ -3,7 +3,7 @@
 
 ## Areas.SquarePetameter Field
 
-A(n) square petameter. Defined as: ((1000.0)*(1000.0)) × square terameter + (0).
+A(n) square petameter. Defined as: (1000.0)*(1000.0) × square terameter.
 
 ```csharp
 public static readonly Area SquarePetameter;

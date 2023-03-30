@@ -3,7 +3,7 @@
 
 ## Amounts.Mole Field
 
-A(n) mole. Defined as: (6.02214076E+23) ×  count + (0).
+A(n) mole. Defined as: 6.02214076E+23 ×  count.
 
 ```csharp
 public static readonly Amount Mole;

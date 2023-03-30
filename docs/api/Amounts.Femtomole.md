@@ -3,7 +3,7 @@
 
 ## Amounts.Femtomole Field
 
-A(n) femtomole. Defined as: (1.0/1000.0) × picomole + (0).
+A(n) femtomole. Defined as: 1.0/1000.0 × picomole.
 
 ```csharp
 public static readonly Amount Femtomole;

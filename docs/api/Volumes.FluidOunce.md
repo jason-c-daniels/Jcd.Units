@@ -3,7 +3,7 @@
 
 ## Volumes.FluidOunce Field
 
-A(n) fluid ounce. Defined as: (28.4130625) × SI milliliter + (0).
+A(n) fluid ounce. Defined as: 28.4130625 × SI milliliter.
 
 ```csharp
 public static readonly Volume FluidOunce;

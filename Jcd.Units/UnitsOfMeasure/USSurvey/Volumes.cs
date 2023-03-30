@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USSurvey;
 public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
-   /// A(n) cubic link. Defined as: ((0.20116)*(0.20116)*(0.20116)) × SI cubic meter + (0).
+   /// A(n) cubic link. Defined as: (0.20116)*(0.20116)*(0.20116) × SI cubic meter.
    /// </summary>
    public static readonly Volume CubicLink = new (
                                                   "cubic link"
@@ -29,7 +29,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// A(n) cubic rod. Defined as: ((5.0292)*(5.0292)*(5.0292)) × SI cubic meter + (0).
+   /// A(n) cubic rod. Defined as: (5.0292)*(5.0292)*(5.0292) × SI cubic meter.
    /// </summary>
    public static readonly Volume CubicRod = new (
                                                  "cubic rod"
@@ -40,7 +40,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                 );
 
    /// <summary>
-   /// A(n) cubic chain. Defined as: ((20.1168)*(20.1168)*(20.1168)) × SI cubic meter + (0).
+   /// A(n) cubic chain. Defined as: (20.1168)*(20.1168)*(20.1168) × SI cubic meter.
    /// </summary>
    public static readonly Volume CubicChain = new (
                                                    "cubic chain"
@@ -51,7 +51,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   );
 
    /// <summary>
-   /// A(n) cubic furlong. Defined as: ((201.168)*(201.168)*(201.168)) × SI cubic meter + (0).
+   /// A(n) cubic furlong. Defined as: (201.168)*(201.168)*(201.168) × SI cubic meter.
    /// </summary>
    public static readonly Volume CubicFurlong = new (
                                                      "cubic furlong"
@@ -62,7 +62,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                     );
 
    /// <summary>
-   /// A(n) cubic league. Defined as: ((4828.032)*(4828.032)*(4828.032)) × SI cubic meter + (0).
+   /// A(n) cubic league. Defined as: (4828.032)*(4828.032)*(4828.032) × SI cubic meter.
    /// </summary>
    public static readonly Volume CubicLeague = new (
                                                     "cubic league"

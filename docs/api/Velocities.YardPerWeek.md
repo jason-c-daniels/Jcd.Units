@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerWeek Field
 
-A(n) yard per week. Defined as: ((3.0)/(7.0)) × foot per day + (0).
+A(n) yard per week. Defined as: (3.0)/(7.0) × foot per day.
 
 ```csharp
 public static readonly Velocity YardPerWeek;

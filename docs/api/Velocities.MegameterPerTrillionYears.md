@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerTrillionYears Field
 
-A(n) megameter per trillion years. Defined as: ((1000.0)/(1000.0)) × kilometer per billion years + (0).
+A(n) megameter per trillion years. Defined as: (1000.0)/(1000.0) × kilometer per billion years.
 
 ```csharp
 public static readonly Velocity MegameterPerTrillionYears;

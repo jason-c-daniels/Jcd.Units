@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareZeptosecond Field
 
-A(n) rod per square zeptosecond. Defined as: ((5.0292)/((1.0/1000.0)*(1.0/1000.0))) × SI meter per square attosecond + (0).
+A(n) rod per square zeptosecond. Defined as: (5.0292)/((1.0/1000.0)*(1.0/1000.0)) × SI meter per square attosecond.
 
 ```csharp
 public static readonly Acceleration RodPerSquareZeptosecond;

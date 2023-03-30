@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerDecillionYears Field
 
-A(n) attometer per decillion years. Defined as: ((1.0/1000.0)/(1000.0)) × femtometer per nonillion years + (0).
+A(n) attometer per decillion years. Defined as: (1.0/1000.0)/(1000.0) × femtometer per nonillion years.
 
 ```csharp
 public static readonly Velocity AttometerPerDecillionYears;

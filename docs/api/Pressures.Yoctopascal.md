@@ -3,7 +3,7 @@
 
 ## Pressures.Yoctopascal Field
 
-A(n) yoctopascal. Defined as: (1.0/1000.0) × zeptopascal + (0).
+A(n) yoctopascal. Defined as: 1.0/1000.0 × zeptopascal.
 
 ```csharp
 public static readonly Pressure Yoctopascal;

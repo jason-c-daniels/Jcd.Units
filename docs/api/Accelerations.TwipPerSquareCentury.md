@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareCentury Field
 
-A(n) twip per square century. Defined as: ((1.0/17280.0)/((10.0)*(10.0))) × foot per square decade + (0).
+A(n) twip per square century. Defined as: (1.0/17280.0)/((10.0)*(10.0)) × foot per square decade.
 
 ```csharp
 public static readonly Acceleration TwipPerSquareCentury;

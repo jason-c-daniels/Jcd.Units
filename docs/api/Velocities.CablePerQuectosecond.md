@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerQuectosecond Field
 
-A(n) cable per quectosecond. Defined as: ((100.0)/(1.0/1000.0)) × fathom per rontosecond + (0).
+A(n) cable per quectosecond. Defined as: (100.0)/(1.0/1000.0) × fathom per rontosecond.
 
 ```csharp
 public static readonly Velocity CablePerQuectosecond;

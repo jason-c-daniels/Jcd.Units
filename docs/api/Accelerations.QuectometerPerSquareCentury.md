@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareCentury Field
 
-A(n) quectometer per square century. Defined as: ((1.0/1000.0)/((10.0)*(10.0))) × rontometer per square decade + (0).
+A(n) quectometer per square century. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × rontometer per square decade.
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareCentury;

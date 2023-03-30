@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerYear Field
 
-A(n) yottameter per year. Defined as: ((1000.0)/(365.2525)) × zettameter per day + (0).
+A(n) yottameter per year. Defined as: (1000.0)/(365.2525) × zettameter per day.
 
 ```csharp
 public static readonly Velocity YottameterPerYear;

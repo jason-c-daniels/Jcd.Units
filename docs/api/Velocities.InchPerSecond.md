@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerSecond Field
 
-A(n) inch per second. Defined as: ((2.54)/(1.0)) × SI centimeter per second + (0).
+A(n) inch per second. Defined as: (2.54)/(1.0) × SI centimeter per second.
 
 ```csharp
 public static readonly Velocity InchPerSecond;

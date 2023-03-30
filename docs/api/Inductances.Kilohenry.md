@@ -3,7 +3,7 @@
 
 ## Inductances.Kilohenry Field
 
-A(n) kilohenry. Defined as: (10.0) × hectohenry + (0).
+A(n) kilohenry. Defined as: 10.0 × hectohenry.
 
 ```csharp
 public static readonly Inductance Kilohenry;

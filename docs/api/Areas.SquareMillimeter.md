@@ -3,7 +3,7 @@
 
 ## Areas.SquareMillimeter Field
 
-A(n) square millimeter. Defined as: ((1.0/10.0)*(1.0/10.0)) × square centimeter + (0).
+A(n) square millimeter. Defined as: (1.0/10.0)*(1.0/10.0) × square centimeter.
 
 ```csharp
 public static readonly Area SquareMillimeter;

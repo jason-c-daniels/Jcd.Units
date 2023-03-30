@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerDecade Field
 
-A(n) inch per decade. Defined as: ((2.54)/(10.0)) × SI centimeter per year + (0).
+A(n) inch per decade. Defined as: (2.54)/(10.0) × SI centimeter per year.
 
 ```csharp
 public static readonly Velocity InchPerDecade;

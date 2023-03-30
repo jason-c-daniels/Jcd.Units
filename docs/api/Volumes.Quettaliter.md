@@ -3,7 +3,7 @@
 
 ## Volumes.Quettaliter Field
 
-A(n) quettaliter. Defined as: (1000.0) × ronnaliter + (0).
+A(n) quettaliter. Defined as: 1000.0 × ronnaliter.
 
 ```csharp
 public static readonly Volume Quettaliter;

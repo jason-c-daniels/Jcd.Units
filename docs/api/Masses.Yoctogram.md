@@ -3,7 +3,7 @@
 
 ## Masses.Yoctogram Field
 
-A(n) yoctogram. Defined as: (1.0/1000.0) × zeptogram + (0).
+A(n) yoctogram. Defined as: 1.0/1000.0 × zeptogram.
 
 ```csharp
 public static readonly Mass Yoctogram;

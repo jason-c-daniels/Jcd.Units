@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Rontosiemens Field
 
-A(n) rontosiemens. Defined as: (1.0/1000.0) × yoctosiemens + (0).
+A(n) rontosiemens. Defined as: 1.0/1000.0 × yoctosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Rontosiemens;

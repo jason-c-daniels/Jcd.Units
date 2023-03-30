@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerWeek Field
 
-A(n) mil per week. Defined as: ((1.0/1000.0)/(7.0)) × inch per day + (0).
+A(n) mil per week. Defined as: (1.0/1000.0)/(7.0) × inch per day.
 
 ```csharp
 public static readonly Velocity MilPerWeek;

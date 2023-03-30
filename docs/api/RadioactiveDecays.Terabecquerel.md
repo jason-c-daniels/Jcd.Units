@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Terabecquerel Field
 
-A(n) terabecquerel. Defined as: (1000.0) × gigabecquerel + (0).
+A(n) terabecquerel. Defined as: 1000.0 × gigabecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Terabecquerel;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Zeptosiemens Field
 
-A(n) zeptosiemens. Defined as: (1.0/1000.0) × attosiemens + (0).
+A(n) zeptosiemens. Defined as: 1.0/1000.0 × attosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Zeptosiemens;

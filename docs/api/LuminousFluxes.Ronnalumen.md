@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Ronnalumen Field
 
-A(n) ronnalumen. Defined as: (1000.0) × yottalumen + (0).
+A(n) ronnalumen. Defined as: 1000.0 × yottalumen.
 
 ```csharp
 public static readonly LuminousFlux Ronnalumen;

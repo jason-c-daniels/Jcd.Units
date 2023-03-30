@@ -3,7 +3,7 @@
 
 ## Masses.LongHundredweight Field
 
-A(n) long hundredweight. Defined as: (112.0) × pound + (0).
+A(n) long hundredweight. Defined as: 112.0 × pound.
 
 ```csharp
 public static readonly Mass LongHundredweight;

@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareRontosecond Field
 
-A(n) cable per square rontosecond. Defined as: ((100.0)/((1.0/1000.0)*(1.0/1000.0))) × fathom per square yoctosecond + (0).
+A(n) cable per square rontosecond. Defined as: (100.0)/((1.0/1000.0)*(1.0/1000.0)) × fathom per square yoctosecond.
 
 ```csharp
 public static readonly Acceleration CablePerSquareRontosecond;

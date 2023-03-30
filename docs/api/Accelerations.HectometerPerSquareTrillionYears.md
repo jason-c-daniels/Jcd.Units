@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareTrillionYears Field
 
-A(n) hectometer per square trillion years. Defined as: ((10.0)/((1000.0)*(1000.0))) × dekameter per square billion years + (0).
+A(n) hectometer per square trillion years. Defined as: (10.0)/((1000.0)*(1000.0)) × dekameter per square billion years.
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareTrillionYears;

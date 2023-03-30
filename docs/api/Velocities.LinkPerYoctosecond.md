@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerYoctosecond Field
 
-A(n) link per yoctosecond. Defined as: ((0.20116)/(1.0/1000.0)) × SI meter per zeptosecond + (0).
+A(n) link per yoctosecond. Defined as: (0.20116)/(1.0/1000.0) × SI meter per zeptosecond.
 
 ```csharp
 public static readonly Velocity LinkPerYoctosecond;

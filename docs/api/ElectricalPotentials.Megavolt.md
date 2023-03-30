@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Megavolt Field
 
-A(n) megavolt. Defined as: (1000.0) × kilovolt + (0).
+A(n) megavolt. Defined as: 1000.0 × kilovolt.
 
 ```csharp
 public static readonly ElectricalPotential Megavolt;

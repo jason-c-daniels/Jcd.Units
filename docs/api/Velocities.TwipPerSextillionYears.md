@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerSextillionYears Field
 
-A(n) twip per sextillion years. Defined as: ((1.0/17280.0)/(1000.0)) × foot per quintillion years + (0).
+A(n) twip per sextillion years. Defined as: (1.0/17280.0)/(1000.0) × foot per quintillion years.
 
 ```csharp
 public static readonly Velocity TwipPerSextillionYears;

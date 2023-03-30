@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerAttosecond Field
 
-A(n) petameter per attosecond. Defined as: ((1000.0)/(1.0/1000.0)) × terameter per femtosecond + (0).
+A(n) petameter per attosecond. Defined as: (1000.0)/(1.0/1000.0) × terameter per femtosecond.
 
 ```csharp
 public static readonly Velocity PetameterPerAttosecond;

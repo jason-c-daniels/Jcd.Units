@@ -3,7 +3,7 @@
 
 ## Powers.Megawatt Field
 
-A(n) megawatt. Defined as: (1000.0) × kilowatt + (0).
+A(n) megawatt. Defined as: 1000.0 × kilowatt.
 
 ```csharp
 public static readonly Power Megawatt;

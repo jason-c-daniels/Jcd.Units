@@ -3,7 +3,7 @@
 
 ## Capacitances.Attofarad Field
 
-A(n) attofarad. Defined as: (1.0/1000.0) × femtofarad + (0).
+A(n) attofarad. Defined as: 1.0/1000.0 × femtofarad.
 
 ```csharp
 public static readonly Capacitance Attofarad;

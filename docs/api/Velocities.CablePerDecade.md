@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerDecade Field
 
-A(n) cable per decade. Defined as: ((100.0)/(10.0)) × fathom per year + (0).
+A(n) cable per decade. Defined as: (100.0)/(10.0) × fathom per year.
 
 ```csharp
 public static readonly Velocity CablePerDecade;

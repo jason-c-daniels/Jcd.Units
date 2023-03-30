@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerDay Field
 
-A(n) mile per day. Defined as: ((8.0)/(24.0)) × furlong per hour + (0).
+A(n) mile per day. Defined as: (8.0)/(24.0) × furlong per hour.
 
 ```csharp
 public static readonly Velocity MilePerDay;

@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerYoctosecond Field
 
-A(n) picometer per yoctosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × nanometer per zeptosecond + (0).
+A(n) picometer per yoctosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × nanometer per zeptosecond.
 
 ```csharp
 public static readonly Velocity PicometerPerYoctosecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerQuectosecond Field
 
-A(n) barleycorn per quectosecond. Defined as: ((1.0/36.0)/(1.0/1000.0)) × foot per rontosecond + (0).
+A(n) barleycorn per quectosecond. Defined as: (1.0/36.0)/(1.0/1000.0) × foot per rontosecond.
 
 ```csharp
 public static readonly Velocity BarleycornPerQuectosecond;

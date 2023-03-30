@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicCentimeter Field
 
-A(n) centigram per cubic centimeter. Defined as: ((1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))) × decigram per cubic decimeter + (0).
+A(n) centigram per cubic centimeter. Defined as: (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)) × decigram per cubic decimeter.
 
 ```csharp
 public static readonly Density CentigramPerCubicCentimeter;

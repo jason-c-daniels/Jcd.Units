@@ -3,7 +3,7 @@
 
 ## Momentums.PlanckMomentum Field
 
-A(n) planck-momentum. Defined as: (6.5249) × SI newton-second + (0).
+A(n) planck-momentum. Defined as: 6.5249 × SI newton-second.
 
 ```csharp
 public static readonly Momentum PlanckMomentum;

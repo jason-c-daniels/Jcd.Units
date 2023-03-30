@@ -3,7 +3,7 @@
 
 ## Illuminances.Teralux Field
 
-A(n) teralux. Defined as: (1000.0) × gigalux + (0).
+A(n) teralux. Defined as: 1000.0 × gigalux.
 
 ```csharp
 public static readonly Illuminance Teralux;

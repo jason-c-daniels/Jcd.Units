@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicFemtometer Field
 
-A(n) nanogram per cubic femtometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × microgram per cubic picometer + (0).
+A(n) nanogram per cubic femtometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × microgram per cubic picometer.
 
 ```csharp
 public static readonly Density NanogramPerCubicFemtometer;

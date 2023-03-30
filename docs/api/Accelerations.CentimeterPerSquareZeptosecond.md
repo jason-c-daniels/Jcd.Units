@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareZeptosecond Field
 
-A(n) centimeter per square zeptosecond. Defined as: ((1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))) × decimeter per square attosecond + (0).
+A(n) centimeter per square zeptosecond. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)) × decimeter per square attosecond.
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareZeptosecond;

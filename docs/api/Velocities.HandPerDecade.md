@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerDecade Field
 
-A(n) hand per decade. Defined as: ((4.0)/(10.0)) × inch per year + (0).
+A(n) hand per decade. Defined as: (4.0)/(10.0) × inch per year.
 
 ```csharp
 public static readonly Velocity HandPerDecade;

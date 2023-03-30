@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerWeek Field
 
-A(n) barleycorn per week. Defined as: ((1.0/36.0)/(7.0)) × foot per day + (0).
+A(n) barleycorn per week. Defined as: (1.0/36.0)/(7.0) × foot per day.
 
 ```csharp
 public static readonly Velocity BarleycornPerWeek;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareDay Field
 
-A(n) picometer per square day. Defined as: ((1.0/1000.0)/((24.0)*(24.0))) × nanometer per square hour + (0).
+A(n) picometer per square day. Defined as: (1.0/1000.0)/((24.0)*(24.0)) × nanometer per square hour.
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareDay;

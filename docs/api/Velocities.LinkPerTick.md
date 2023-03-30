@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerTick Field
 
-A(n) link per tick. Defined as: ((0.20116)/(100.0)) × SI meter per nanosecond + (0).
+A(n) link per tick. Defined as: (0.20116)/(100.0) × SI meter per nanosecond.
 
 ```csharp
 public static readonly Velocity LinkPerTick;

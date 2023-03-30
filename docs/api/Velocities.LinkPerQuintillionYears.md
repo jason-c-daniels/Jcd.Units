@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerQuintillionYears Field
 
-A(n) link per quintillion years. Defined as: ((0.20116)/(1000.0)) × SI meter per quadrillion years + (0).
+A(n) link per quintillion years. Defined as: (0.20116)/(1000.0) × SI meter per quadrillion years.
 
 ```csharp
 public static readonly Velocity LinkPerQuintillionYears;

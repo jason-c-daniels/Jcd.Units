@@ -3,7 +3,7 @@
 
 ## Lengths.Kilometer Field
 
-A(n) kilometer. Defined as: (10.0) × hectometer + (0).
+A(n) kilometer. Defined as: 10.0 × hectometer.
 
 ```csharp
 public static readonly Length Kilometer;

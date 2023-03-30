@@ -3,7 +3,7 @@
 
 ## Amounts.Hectomole Field
 
-A(n) hectomole. Defined as: (10.0) × dekamole + (0).
+A(n) hectomole. Defined as: 10.0 × dekamole.
 
 ```csharp
 public static readonly Amount Hectomole;

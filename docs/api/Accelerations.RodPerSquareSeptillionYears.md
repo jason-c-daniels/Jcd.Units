@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareSeptillionYears Field
 
-A(n) rod per square septillion years. Defined as: ((5.0292)/((1000.0)*(1000.0))) × SI meter per square sextillion years + (0).
+A(n) rod per square septillion years. Defined as: (5.0292)/((1000.0)*(1000.0)) × SI meter per square sextillion years.
 
 ```csharp
 public static readonly Acceleration RodPerSquareSeptillionYears;

@@ -3,7 +3,7 @@
 
 ## Areas.SquareMarsRadius Field
 
-A(n) square mars radius. Defined as: ((3_389.5)*(3_389.5)) × SI square kilometer + (0).
+A(n) square mars radius. Defined as: (3_389.5)*(3_389.5) × SI square kilometer.
 
 ```csharp
 public static readonly Area SquareMarsRadius;

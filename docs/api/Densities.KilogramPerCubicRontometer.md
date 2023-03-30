@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicRontometer Field
 
-A(n) kilogram per cubic rontometer. Defined as: ((1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × kilogram per cubic yoctometer + (0).
+A(n) kilogram per cubic rontometer. Defined as: (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × kilogram per cubic yoctometer.
 
 ```csharp
 public static readonly Density KilogramPerCubicRontometer;

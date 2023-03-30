@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareOctillionYears Field
 
-A(n) quectometer per square octillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × rontometer per square septillion years + (0).
+A(n) quectometer per square octillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × rontometer per square septillion years.
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareOctillionYears;

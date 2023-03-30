@@ -3,7 +3,7 @@
 
 ## Lengths.Mile Field
 
-A(n) mile. Defined as: (8.0) × furlong + (0).
+A(n) mile. Defined as: 8.0 × furlong.
 
 ```csharp
 public static readonly Length Mile;

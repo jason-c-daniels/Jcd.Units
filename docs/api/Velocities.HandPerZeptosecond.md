@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerZeptosecond Field
 
-A(n) hand per zeptosecond. Defined as: ((4.0)/(1.0/1000.0)) × inch per attosecond + (0).
+A(n) hand per zeptosecond. Defined as: (4.0)/(1.0/1000.0) × inch per attosecond.
 
 ```csharp
 public static readonly Velocity HandPerZeptosecond;

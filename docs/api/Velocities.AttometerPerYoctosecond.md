@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerYoctosecond Field
 
-A(n) attometer per yoctosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × femtometer per zeptosecond + (0).
+A(n) attometer per yoctosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × femtometer per zeptosecond.
 
 ```csharp
 public static readonly Velocity AttometerPerYoctosecond;

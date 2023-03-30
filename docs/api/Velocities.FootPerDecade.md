@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerDecade Field
 
-A(n) foot per decade. Defined as: ((12)/(10.0)) × inch per year + (0).
+A(n) foot per decade. Defined as: (12)/(10.0) × inch per year.
 
 ```csharp
 public static readonly Velocity FootPerDecade;

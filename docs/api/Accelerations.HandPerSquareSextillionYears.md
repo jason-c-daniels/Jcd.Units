@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareSextillionYears Field
 
-A(n) hand per square sextillion years. Defined as: ((4.0)/((1000.0)*(1000.0))) × inch per square quintillion years + (0).
+A(n) hand per square sextillion years. Defined as: (4.0)/((1000.0)*(1000.0)) × inch per square quintillion years.
 
 ```csharp
 public static readonly Acceleration HandPerSquareSextillionYears;

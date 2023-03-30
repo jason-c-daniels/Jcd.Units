@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerYoctosecond Field
 
-A(n) nautical mile per yoctosecond. Defined as: ((10.0)/(1.0/1000.0)) × cable per zeptosecond + (0).
+A(n) nautical mile per yoctosecond. Defined as: (10.0)/(1.0/1000.0) × cable per zeptosecond.
 
 ```csharp
 public static readonly Velocity NauticalMilePerYoctosecond;

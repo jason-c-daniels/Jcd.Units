@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareNonillionYears Field
 
-A(n) decimeter per square nonillion years. Defined as: ((1.0/10.0)/((1000.0)*(1000.0))) × meter per square octillion years + (0).
+A(n) decimeter per square nonillion years. Defined as: (1.0/10.0)/((1000.0)*(1000.0)) × meter per square octillion years.
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquareNonillionYears;

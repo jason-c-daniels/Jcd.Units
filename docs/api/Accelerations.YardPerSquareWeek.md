@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareWeek Field
 
-A(n) yard per square week. Defined as: ((3.0)/((7.0)*(7.0))) × foot per square day + (0).
+A(n) yard per square week. Defined as: (3.0)/((7.0)*(7.0)) × foot per square day.
 
 ```csharp
 public static readonly Acceleration YardPerSquareWeek;

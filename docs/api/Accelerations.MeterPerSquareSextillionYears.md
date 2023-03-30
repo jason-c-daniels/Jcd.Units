@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareSextillionYears Field
 
-A(n) meter per square sextillion years. Defined as: ((1.0)/((1000.0)*(1000.0))) × meter per square quintillion years + (0).
+A(n) meter per square sextillion years. Defined as: (1.0)/((1000.0)*(1000.0)) × meter per square quintillion years.
 
 ```csharp
 public static readonly Acceleration MeterPerSquareSextillionYears;

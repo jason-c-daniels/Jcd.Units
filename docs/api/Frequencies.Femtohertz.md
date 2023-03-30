@@ -3,7 +3,7 @@
 
 ## Frequencies.Femtohertz Field
 
-A(n) femtohertz. Defined as: (1.0/1000.0) × picohertz + (0).
+A(n) femtohertz. Defined as: 1.0/1000.0 × picohertz.
 
 ```csharp
 public static readonly Frequency Femtohertz;

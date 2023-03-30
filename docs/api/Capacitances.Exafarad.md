@@ -3,7 +3,7 @@
 
 ## Capacitances.Exafarad Field
 
-A(n) exafarad. Defined as: (1000.0) × petafarad + (0).
+A(n) exafarad. Defined as: 1000.0 × petafarad.
 
 ```csharp
 public static readonly Capacitance Exafarad;

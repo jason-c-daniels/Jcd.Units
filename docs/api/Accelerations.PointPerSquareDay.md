@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareDay Field
 
-A(n) point per square day. Defined as: ((1.0/72.0)/((24.0)*(24.0))) × inch per square hour + (0).
+A(n) point per square day. Defined as: (1.0/72.0)/((24.0)*(24.0)) × inch per square hour.
 
 ```csharp
 public static readonly Acceleration PointPerSquareDay;

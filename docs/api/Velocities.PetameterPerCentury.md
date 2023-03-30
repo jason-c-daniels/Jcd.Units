@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerCentury Field
 
-A(n) petameter per century. Defined as: ((1000.0)/(10.0)) × terameter per decade + (0).
+A(n) petameter per century. Defined as: (1000.0)/(10.0) × terameter per decade.
 
 ```csharp
 public static readonly Velocity PetameterPerCentury;

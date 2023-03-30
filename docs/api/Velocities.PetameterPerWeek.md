@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerWeek Field
 
-A(n) petameter per week. Defined as: ((1000.0)/(7.0)) × terameter per day + (0).
+A(n) petameter per week. Defined as: (1000.0)/(7.0) × terameter per day.
 
 ```csharp
 public static readonly Velocity PetameterPerWeek;

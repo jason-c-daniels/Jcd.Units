@@ -23,23 +23,23 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
    public static readonly RadioactiveDecay Becquerel = new ("becquerel", "Bq");
 
    /// <summary>
-   /// A(n) decibecquerel. Defined as: (1.0/10.0) × becquerel + (0).
+   /// A(n) decibecquerel. Defined as: 1.0/10.0 × becquerel.
    /// </summary>
    public static readonly RadioactiveDecay Decibecquerel = new ("decibecquerel", "dBq", Becquerel, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) centibecquerel. Defined as: (1.0/10.0) × decibecquerel + (0).
+   /// A(n) centibecquerel. Defined as: 1.0/10.0 × decibecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Centibecquerel = new ("centibecquerel", "cBq", Decibecquerel, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) millibecquerel. Defined as: (1.0/10.0) × centibecquerel + (0).
+   /// A(n) millibecquerel. Defined as: 1.0/10.0 × centibecquerel.
    /// </summary>
    public static readonly RadioactiveDecay
             Millibecquerel = new ("millibecquerel", "mBq", Centibecquerel, 1.0 / 10.0, 0);
 
    /// <summary>
-   /// A(n) microbecquerel. Defined as: (1.0/1000.0) × millibecquerel + (0).
+   /// A(n) microbecquerel. Defined as: 1.0/1000.0 × millibecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Microbecquerel = new (
                                                                  "microbecquerel"
@@ -50,18 +50,18 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// A(n) nanobecquerel. Defined as: (1.0/1000.0) × microbecquerel + (0).
+   /// A(n) nanobecquerel. Defined as: 1.0/1000.0 × microbecquerel.
    /// </summary>
    public static readonly RadioactiveDecay
             Nanobecquerel = new ("nanobecquerel", "nBq", Microbecquerel, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) picobecquerel. Defined as: (1.0/1000.0) × nanobecquerel + (0).
+   /// A(n) picobecquerel. Defined as: 1.0/1000.0 × nanobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Picobecquerel = new ("picobecquerel", "pBq", Nanobecquerel, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) femtobecquerel. Defined as: (1.0/1000.0) × picobecquerel + (0).
+   /// A(n) femtobecquerel. Defined as: 1.0/1000.0 × picobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Femtobecquerel = new (
                                                                  "femtobecquerel"
@@ -72,13 +72,13 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// A(n) attobecquerel. Defined as: (1.0/1000.0) × femtobecquerel + (0).
+   /// A(n) attobecquerel. Defined as: 1.0/1000.0 × femtobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay
             Attobecquerel = new ("attobecquerel", "aBq", Femtobecquerel, 1.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) zeptobecquerel. Defined as: (1.0/1000.0) × attobecquerel + (0).
+   /// A(n) zeptobecquerel. Defined as: 1.0/1000.0 × attobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Zeptobecquerel = new (
                                                                  "zeptobecquerel"
@@ -89,7 +89,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// A(n) yoctobecquerel. Defined as: (1.0/1000.0) × zeptobecquerel + (0).
+   /// A(n) yoctobecquerel. Defined as: 1.0/1000.0 × zeptobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Yoctobecquerel = new (
                                                                  "yoctobecquerel"
@@ -100,7 +100,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// A(n) rontobecquerel. Defined as: (1.0/1000.0) × yoctobecquerel + (0).
+   /// A(n) rontobecquerel. Defined as: 1.0/1000.0 × yoctobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Rontobecquerel = new (
                                                                  "rontobecquerel"
@@ -111,7 +111,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// A(n) quectobecquerel. Defined as: (1.0/1000.0) × rontobecquerel + (0).
+   /// A(n) quectobecquerel. Defined as: 1.0/1000.0 × rontobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Quectobecquerel = new (
                                                                   "quectobecquerel"
@@ -122,62 +122,62 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                  );
 
    /// <summary>
-   /// A(n) dekabecquerel. Defined as: (10.0) × becquerel + (0).
+   /// A(n) dekabecquerel. Defined as: 10.0 × becquerel.
    /// </summary>
    public static readonly RadioactiveDecay Dekabecquerel = new ("dekabecquerel", "daBq", Becquerel, 10.0, 0);
 
    /// <summary>
-   /// A(n) hectobecquerel. Defined as: (10.0) × dekabecquerel + (0).
+   /// A(n) hectobecquerel. Defined as: 10.0 × dekabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Hectobecquerel = new ("hectobecquerel", "hBq", Dekabecquerel, 10.0, 0);
 
    /// <summary>
-   /// A(n) kilobecquerel. Defined as: (10.0) × hectobecquerel + (0).
+   /// A(n) kilobecquerel. Defined as: 10.0 × hectobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Kilobecquerel = new ("kilobecquerel", "kBq", Hectobecquerel, 10.0, 0);
 
    /// <summary>
-   /// A(n) megabecquerel. Defined as: (1000.0) × kilobecquerel + (0).
+   /// A(n) megabecquerel. Defined as: 1000.0 × kilobecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Megabecquerel = new ("megabecquerel", "MBq", Kilobecquerel, 1000.0, 0);
 
    /// <summary>
-   /// A(n) gigabecquerel. Defined as: (1000.0) × megabecquerel + (0).
+   /// A(n) gigabecquerel. Defined as: 1000.0 × megabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Gigabecquerel = new ("gigabecquerel", "GBq", Megabecquerel, 1000.0, 0);
 
    /// <summary>
-   /// A(n) terabecquerel. Defined as: (1000.0) × gigabecquerel + (0).
+   /// A(n) terabecquerel. Defined as: 1000.0 × gigabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Terabecquerel = new ("terabecquerel", "TBq", Gigabecquerel, 1000.0, 0);
 
    /// <summary>
-   /// A(n) petabecquerel. Defined as: (1000.0) × terabecquerel + (0).
+   /// A(n) petabecquerel. Defined as: 1000.0 × terabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Petabecquerel = new ("petabecquerel", "PBq", Terabecquerel, 1000.0, 0);
 
    /// <summary>
-   /// A(n) exabecquerel. Defined as: (1000.0) × petabecquerel + (0).
+   /// A(n) exabecquerel. Defined as: 1000.0 × petabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Exabecquerel = new ("exabecquerel", "EBq", Petabecquerel, 1000.0, 0);
 
    /// <summary>
-   /// A(n) zettabecquerel. Defined as: (1000.0) × exabecquerel + (0).
+   /// A(n) zettabecquerel. Defined as: 1000.0 × exabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Zettabecquerel = new ("zettabecquerel", "ZBq", Exabecquerel, 1000.0, 0);
 
    /// <summary>
-   /// A(n) yottabecquerel. Defined as: (1000.0) × zettabecquerel + (0).
+   /// A(n) yottabecquerel. Defined as: 1000.0 × zettabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Yottabecquerel = new ("yottabecquerel", "YBq", Zettabecquerel, 1000.0, 0);
 
    /// <summary>
-   /// A(n) ronnabecquerel. Defined as: (1000.0) × yottabecquerel + (0).
+   /// A(n) ronnabecquerel. Defined as: 1000.0 × yottabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Ronnabecquerel = new ("ronnabecquerel", "RBq", Yottabecquerel, 1000.0, 0);
 
    /// <summary>
-   /// A(n) quettabecquerel. Defined as: (1000.0) × ronnabecquerel + (0).
+   /// A(n) quettabecquerel. Defined as: 1000.0 × ronnabecquerel.
    /// </summary>
    public static readonly RadioactiveDecay Quettabecquerel = new ("quettabecquerel", "QBq", Ronnabecquerel, 1000.0, 0);
 }

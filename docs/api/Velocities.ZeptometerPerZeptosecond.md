@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerZeptosecond Field
 
-A(n) zeptometer per zeptosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × attometer per attosecond + (0).
+A(n) zeptometer per zeptosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × attometer per attosecond.
 
 ```csharp
 public static readonly Velocity ZeptometerPerZeptosecond;

@@ -3,7 +3,7 @@
 
 ## TransferRates.PebibytesPerSecond Field
 
-A(n) pebibytes per second. Defined as: (1024.0) × tebibytes per second + (0).
+A(n) pebibytes per second. Defined as: 1024.0 × tebibytes per second.
 
 ```csharp
 public static readonly TransferRate PebibytesPerSecond;

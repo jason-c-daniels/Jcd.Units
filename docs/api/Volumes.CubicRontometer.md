@@ -3,7 +3,7 @@
 
 ## Volumes.CubicRontometer Field
 
-A(n) cubic rontometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × cubic yoctometer + (0).
+A(n) cubic rontometer. Defined as: (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0) × cubic yoctometer.
 
 ```csharp
 public static readonly Volume CubicRontometer;

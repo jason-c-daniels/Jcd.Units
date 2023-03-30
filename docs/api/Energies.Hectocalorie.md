@@ -3,7 +3,7 @@
 
 ## Energies.Hectocalorie Field
 
-A(n) hectocalorie. Defined as: (10.0) × dekacalorie + (0).
+A(n) hectocalorie. Defined as: 10.0 × dekacalorie.
 
 ```csharp
 public static readonly Energy Hectocalorie;

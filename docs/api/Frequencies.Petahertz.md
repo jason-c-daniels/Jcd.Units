@@ -3,7 +3,7 @@
 
 ## Frequencies.Petahertz Field
 
-A(n) petahertz. Defined as: (1000.0) × terahertz + (0).
+A(n) petahertz. Defined as: 1000.0 × terahertz.
 
 ```csharp
 public static readonly Frequency Petahertz;

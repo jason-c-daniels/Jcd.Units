@@ -3,7 +3,7 @@
 
 ## Pressures.Nanopascal Field
 
-A(n) nanopascal. Defined as: (1.0/1000.0) × micropascal + (0).
+A(n) nanopascal. Defined as: 1.0/1000.0 × micropascal.
 
 ```csharp
 public static readonly Pressure Nanopascal;

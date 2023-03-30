@@ -3,7 +3,7 @@
 
 ## TransferRates.ExanybblesPerSecond Field
 
-A(n) exanybbles per second. Defined as: (1000.0) × petanybbles per second + (0).
+A(n) exanybbles per second. Defined as: 1000.0 × petanybbles per second.
 
 ```csharp
 public static readonly TransferRate ExanybblesPerSecond;

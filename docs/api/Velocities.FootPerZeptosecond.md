@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerZeptosecond Field
 
-A(n) foot per zeptosecond. Defined as: ((12)/(1.0/1000.0)) × inch per attosecond + (0).
+A(n) foot per zeptosecond. Defined as: (12)/(1.0/1000.0) × inch per attosecond.
 
 ```csharp
 public static readonly Velocity FootPerZeptosecond;

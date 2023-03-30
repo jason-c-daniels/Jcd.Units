@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerSextillionYears Field
 
-A(n) furlong per sextillion years. Defined as: ((10.0)/(1000.0)) × chain per quintillion years + (0).
+A(n) furlong per sextillion years. Defined as: (10.0)/(1000.0) × chain per quintillion years.
 
 ```csharp
 public static readonly Velocity FurlongPerSextillionYears;

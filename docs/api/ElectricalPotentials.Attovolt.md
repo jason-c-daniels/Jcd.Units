@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Attovolt Field
 
-A(n) attovolt. Defined as: (1.0/1000.0) × femtovolt + (0).
+A(n) attovolt. Defined as: 1.0/1000.0 × femtovolt.
 
 ```csharp
 public static readonly ElectricalPotential Attovolt;

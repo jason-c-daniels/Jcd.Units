@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Hectoweber Field
 
-A(n) hectoweber. Defined as: (10.0) × dekaweber + (0).
+A(n) hectoweber. Defined as: 10.0 × dekaweber.
 
 ```csharp
 public static readonly MagneticFlux Hectoweber;

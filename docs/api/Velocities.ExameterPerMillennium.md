@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerMillennium Field
 
-A(n) exameter per millennium. Defined as: ((1000.0)/(10.0)) × petameter per century + (0).
+A(n) exameter per millennium. Defined as: (1000.0)/(10.0) × petameter per century.
 
 ```csharp
 public static readonly Velocity ExameterPerMillennium;

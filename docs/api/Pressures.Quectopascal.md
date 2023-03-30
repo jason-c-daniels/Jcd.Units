@@ -3,7 +3,7 @@
 
 ## Pressures.Quectopascal Field
 
-A(n) quectopascal. Defined as: (1.0/1000.0) × rontopascal + (0).
+A(n) quectopascal. Defined as: 1.0/1000.0 × rontopascal.
 
 ```csharp
 public static readonly Pressure Quectopascal;

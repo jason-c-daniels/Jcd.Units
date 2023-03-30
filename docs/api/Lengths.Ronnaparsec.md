@@ -3,7 +3,7 @@
 
 ## Lengths.Ronnaparsec Field
 
-A(n) ronnaparsec. Defined as: (1000.0) × yottaparsec + (0).
+A(n) ronnaparsec. Defined as: 1000.0 × yottaparsec.
 
 ```csharp
 public static readonly Length Ronnaparsec;

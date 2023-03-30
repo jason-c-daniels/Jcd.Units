@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerYear Field
 
-A(n) hand per year. Defined as: ((4.0)/(365.2525)) × inch per day + (0).
+A(n) hand per year. Defined as: (4.0)/(365.2525) × inch per day.
 
 ```csharp
 public static readonly Velocity HandPerYear;

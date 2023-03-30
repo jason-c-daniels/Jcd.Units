@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerPlanckTime Field
 
-A(n) zettameter per planck-time. Defined as: ((1000.0)/(5.391247E-38)) × exameter per microsecond + (0).
+A(n) zettameter per planck-time. Defined as: (1000.0)/(5.391247E-38) × exameter per microsecond.
 
 ```csharp
 public static readonly Velocity ZettameterPerPlanckTime;

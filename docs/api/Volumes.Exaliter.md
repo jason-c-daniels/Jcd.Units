@@ -3,7 +3,7 @@
 
 ## Volumes.Exaliter Field
 
-A(n) exaliter. Defined as: (1000.0) × petaliter + (0).
+A(n) exaliter. Defined as: 1000.0 × petaliter.
 
 ```csharp
 public static readonly Volume Exaliter;

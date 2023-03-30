@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareSeptillionYears Field
 
-A(n) mile per square septillion years. Defined as: ((8.0)/((1000.0)*(1000.0))) × furlong per square sextillion years + (0).
+A(n) mile per square septillion years. Defined as: (8.0)/((1000.0)*(1000.0)) × furlong per square sextillion years.
 
 ```csharp
 public static readonly Acceleration MilePerSquareSeptillionYears;

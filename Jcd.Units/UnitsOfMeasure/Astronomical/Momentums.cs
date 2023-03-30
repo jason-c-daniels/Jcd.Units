@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
 {
    /// <summary>
-   /// A(n) planck-momentum. Defined as: (6.5249) × SI newton-second + (0).
+   /// A(n) planck-momentum. Defined as: 6.5249 × SI newton-second.
    /// </summary>
    public static readonly Momentum PlanckMomentum = new (
                                                          "planck-momentum"

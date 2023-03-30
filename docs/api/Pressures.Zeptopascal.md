@@ -3,7 +3,7 @@
 
 ## Pressures.Zeptopascal Field
 
-A(n) zeptopascal. Defined as: (1.0/1000.0) × attopascal + (0).
+A(n) zeptopascal. Defined as: 1.0/1000.0 × attopascal.
 
 ```csharp
 public static readonly Pressure Zeptopascal;

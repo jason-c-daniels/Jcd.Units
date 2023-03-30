@@ -3,7 +3,7 @@
 
 ## Volumes.Petaliter Field
 
-A(n) petaliter. Defined as: (1000.0) × teraliter + (0).
+A(n) petaliter. Defined as: 1000.0 × teraliter.
 
 ```csharp
 public static readonly Volume Petaliter;

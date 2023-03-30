@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerYear Field
 
-A(n) cable per year. Defined as: ((100.0)/(365.2525)) × fathom per day + (0).
+A(n) cable per year. Defined as: (100.0)/(365.2525) × fathom per day.
 
 ```csharp
 public static readonly Velocity CablePerYear;

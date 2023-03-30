@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareWeek Field
 
-A(n) twip per square week. Defined as: ((1.0/17280.0)/((7.0)*(7.0))) × foot per square day + (0).
+A(n) twip per square week. Defined as: (1.0/17280.0)/((7.0)*(7.0)) × foot per square day.
 
 ```csharp
 public static readonly Acceleration TwipPerSquareWeek;

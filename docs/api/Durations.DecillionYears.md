@@ -3,7 +3,7 @@
 
 ## Durations.DecillionYears Field
 
-A(n) decillion years. Defined as: (1000.0) × nonillion years + (0).
+A(n) decillion years. Defined as: 1000.0 × nonillion years.
 
 ```csharp
 public static readonly Duration DecillionYears;

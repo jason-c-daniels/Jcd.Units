@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerZeptosecond Field
 
-A(n) yottameter per zeptosecond. Defined as: ((1000.0)/(1.0/1000.0)) × zettameter per attosecond + (0).
+A(n) yottameter per zeptosecond. Defined as: (1000.0)/(1.0/1000.0) × zettameter per attosecond.
 
 ```csharp
 public static readonly Velocity YottameterPerZeptosecond;

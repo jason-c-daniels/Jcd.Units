@@ -3,7 +3,7 @@
 
 ## Lengths.ExalightYear Field
 
-A(n) exalight-year. Defined as: (1000.0) × petalight-year + (0).
+A(n) exalight-year. Defined as: 1000.0 × petalight-year.
 
 ```csharp
 public static readonly Length ExalightYear;

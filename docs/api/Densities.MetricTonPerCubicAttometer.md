@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicAttometer Field
 
-A(n) metric ton per cubic attometer. Defined as: ((1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × megagram per cubic femtometer + (0).
+A(n) metric ton per cubic attometer. Defined as: (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × megagram per cubic femtometer.
 
 ```csharp
 public static readonly Density MetricTonPerCubicAttometer;

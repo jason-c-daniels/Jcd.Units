@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerHour Field
 
-A(n) zettameter per hour. Defined as: ((1000.0)/(60.0)) × exameter per minute + (0).
+A(n) zettameter per hour. Defined as: (1000.0)/(60.0) × exameter per minute.
 
 ```csharp
 public static readonly Velocity ZettameterPerHour;

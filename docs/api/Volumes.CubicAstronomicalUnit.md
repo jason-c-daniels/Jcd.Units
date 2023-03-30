@@ -3,7 +3,7 @@
 
 ## Volumes.CubicAstronomicalUnit Field
 
-A(n) cubic astronomical unit. Defined as: ((149597870.691)*(149597870.691)*(149597870.691)) × SI cubic kilometer + (0).
+A(n) cubic astronomical unit. Defined as: (149597870.691)*(149597870.691)*(149597870.691) × SI cubic kilometer.
 
 ```csharp
 public static readonly Volume CubicAstronomicalUnit;

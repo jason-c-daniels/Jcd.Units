@@ -3,7 +3,7 @@
 
 ## Lengths.Gigaparsec Field
 
-A(n) gigaparsec. Defined as: (1000.0) × megaparsec + (0).
+A(n) gigaparsec. Defined as: 1000.0 × megaparsec.
 
 ```csharp
 public static readonly Length Gigaparsec;

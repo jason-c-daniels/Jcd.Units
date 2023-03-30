@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerDay Field
 
-A(n) rontometer per day. Defined as: ((1.0/1000.0)/(24.0)) × yoctometer per hour + (0).
+A(n) rontometer per day. Defined as: (1.0/1000.0)/(24.0) × yoctometer per hour.
 
 ```csharp
 public static readonly Velocity RontometerPerDay;

@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerOctillionYears Field
 
-A(n) league per octillion years. Defined as: ((3.0)/(1000.0)) × mile per septillion years + (0).
+A(n) league per octillion years. Defined as: (3.0)/(1000.0) × mile per septillion years.
 
 ```csharp
 public static readonly Velocity LeaguePerOctillionYears;

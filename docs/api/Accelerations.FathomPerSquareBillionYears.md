@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareBillionYears Field
 
-A(n) fathom per square billion years. Defined as: ((6.0)/((1000.0)*(1000.0))) × foot per square million years + (0).
+A(n) fathom per square billion years. Defined as: (6.0)/((1000.0)*(1000.0)) × foot per square million years.
 
 ```csharp
 public static readonly Acceleration FathomPerSquareBillionYears;

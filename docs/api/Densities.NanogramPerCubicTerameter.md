@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicTerameter Field
 
-A(n) nanogram per cubic terameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × microgram per cubic gigameter + (0).
+A(n) nanogram per cubic terameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × microgram per cubic gigameter.
 
 ```csharp
 public static readonly Density NanogramPerCubicTerameter;

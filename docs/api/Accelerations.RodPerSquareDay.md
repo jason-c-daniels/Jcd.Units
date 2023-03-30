@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareDay Field
 
-A(n) rod per square day. Defined as: ((5.0292)/((24.0)*(24.0))) × SI meter per square hour + (0).
+A(n) rod per square day. Defined as: (5.0292)/((24.0)*(24.0)) × SI meter per square hour.
 
 ```csharp
 public static readonly Acceleration RodPerSquareDay;

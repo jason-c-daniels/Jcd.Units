@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Centiampere Field
 
-A(n) centiampere. Defined as: (1.0/10.0) × deciampere + (0).
+A(n) centiampere. Defined as: 1.0/10.0 × deciampere.
 
 ```csharp
 public static readonly ElectricalCurrent Centiampere;

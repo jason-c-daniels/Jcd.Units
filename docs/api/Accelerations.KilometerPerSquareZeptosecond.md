@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareZeptosecond Field
 
-A(n) kilometer per square zeptosecond. Defined as: ((10.0)/((1.0/1000.0)*(1.0/1000.0))) × hectometer per square attosecond + (0).
+A(n) kilometer per square zeptosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × hectometer per square attosecond.
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareZeptosecond;

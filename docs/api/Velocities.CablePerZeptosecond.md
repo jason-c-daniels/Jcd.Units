@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerZeptosecond Field
 
-A(n) cable per zeptosecond. Defined as: ((100.0)/(1.0/1000.0)) × fathom per attosecond + (0).
+A(n) cable per zeptosecond. Defined as: (100.0)/(1.0/1000.0) × fathom per attosecond.
 
 ```csharp
 public static readonly Velocity CablePerZeptosecond;

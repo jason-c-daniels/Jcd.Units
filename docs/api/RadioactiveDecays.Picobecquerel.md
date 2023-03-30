@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Picobecquerel Field
 
-A(n) picobecquerel. Defined as: (1.0/1000.0) × nanobecquerel + (0).
+A(n) picobecquerel. Defined as: 1.0/1000.0 × nanobecquerel.
 
 ```csharp
 public static readonly RadioactiveDecay Picobecquerel;

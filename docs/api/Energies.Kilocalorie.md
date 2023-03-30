@@ -3,7 +3,7 @@
 
 ## Energies.Kilocalorie Field
 
-A(n) kilocalorie. Defined as: (10.0) × hectocalorie + (0).
+A(n) kilocalorie. Defined as: 10.0 × hectocalorie.
 
 ```csharp
 public static readonly Energy Kilocalorie;

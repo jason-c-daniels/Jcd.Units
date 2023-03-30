@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareYear Field
 
-A(n) league per square year. Defined as: ((3.0)/((365.2525)*(365.2525))) × mile per square day + (0).
+A(n) league per square year. Defined as: (3.0)/((365.2525)*(365.2525)) × mile per square day.
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareYear;

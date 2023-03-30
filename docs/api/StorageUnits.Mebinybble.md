@@ -3,7 +3,7 @@
 
 ## StorageUnits.Mebinybble Field
 
-A(n) mebinybble. Defined as: (1024.0) × kebinybble + (0).
+A(n) mebinybble. Defined as: 1024.0 × kebinybble.
 
 ```csharp
 public static readonly Storage Mebinybble;

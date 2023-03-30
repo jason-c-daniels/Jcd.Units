@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerSextillionYears Field
 
-A(n) fathom per sextillion years. Defined as: ((6.0)/(1000.0)) × foot per quintillion years + (0).
+A(n) fathom per sextillion years. Defined as: (6.0)/(1000.0) × foot per quintillion years.
 
 ```csharp
 public static readonly Velocity FathomPerSextillionYears;

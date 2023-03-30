@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerMillisecond Field
 
-A(n) chain per millisecond. Defined as: ((22.0)/(1.0/10.0)) × yard per centisecond + (0).
+A(n) chain per millisecond. Defined as: (22.0)/(1.0/10.0) × yard per centisecond.
 
 ```csharp
 public static readonly Velocity ChainPerMillisecond;

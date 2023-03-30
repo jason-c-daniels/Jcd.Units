@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareHour Field
 
-A(n) foot per square hour. Defined as: ((12)/((60.0)*(60.0))) × inch per square minute + (0).
+A(n) foot per square hour. Defined as: (12)/((60.0)*(60.0)) × inch per square minute.
 
 ```csharp
 public static readonly Acceleration FootPerSquareHour;

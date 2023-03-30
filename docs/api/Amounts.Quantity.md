@@ -3,7 +3,7 @@
 
 ## Amounts.Quantity Field
 
-A(n) quantity. Defined as: (1.0) ×  count + (0).
+A(n) quantity. Defined as: 1.0 ×  count.
 
 ```csharp
 public static readonly Amount Quantity;

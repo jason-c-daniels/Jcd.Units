@@ -3,7 +3,7 @@
 
 ## StorageUnits.Ronnabit Field
 
-A(n) ronnabit. Defined as: (1000.0) × yottabit + (0).
+A(n) ronnabit. Defined as: 1000.0 × yottabit.
 
 ```csharp
 public static readonly Storage Ronnabit;

@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerFemtosecond Field
 
-A(n) megameter per femtosecond. Defined as: ((1000.0)/(1.0/1000.0)) × kilometer per picosecond + (0).
+A(n) megameter per femtosecond. Defined as: (1000.0)/(1.0/1000.0) × kilometer per picosecond.
 
 ```csharp
 public static readonly Velocity MegameterPerFemtosecond;

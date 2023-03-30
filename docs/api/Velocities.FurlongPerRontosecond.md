@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerRontosecond Field
 
-A(n) furlong per rontosecond. Defined as: ((10.0)/(1.0/1000.0)) × chain per yoctosecond + (0).
+A(n) furlong per rontosecond. Defined as: (10.0)/(1.0/1000.0) × chain per yoctosecond.
 
 ```csharp
 public static readonly Velocity FurlongPerRontosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareCentury Field
 
-A(n) hectometer per square century. Defined as: ((10.0)/((10.0)*(10.0))) × dekameter per square decade + (0).
+A(n) hectometer per square century. Defined as: (10.0)/((10.0)*(10.0)) × dekameter per square decade.
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareCentury;

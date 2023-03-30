@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Megasiemens Field
 
-A(n) megasiemens. Defined as: (1000.0) × kilosiemens + (0).
+A(n) megasiemens. Defined as: 1000.0 × kilosiemens.
 
 ```csharp
 public static readonly ElectricalConductance Megasiemens;

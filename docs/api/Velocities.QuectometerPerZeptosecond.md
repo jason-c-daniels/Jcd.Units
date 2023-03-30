@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerZeptosecond Field
 
-A(n) quectometer per zeptosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × rontometer per attosecond + (0).
+A(n) quectometer per zeptosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × rontometer per attosecond.
 
 ```csharp
 public static readonly Velocity QuectometerPerZeptosecond;

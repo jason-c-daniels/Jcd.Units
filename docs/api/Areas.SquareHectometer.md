@@ -3,7 +3,7 @@
 
 ## Areas.SquareHectometer Field
 
-A(n) square hectometer. Defined as: ((10.0)*(10.0)) × square dekameter + (0).
+A(n) square hectometer. Defined as: (10.0)*(10.0) × square dekameter.
 
 ```csharp
 public static readonly Area SquareHectometer;

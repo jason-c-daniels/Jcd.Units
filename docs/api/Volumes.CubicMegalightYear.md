@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMegalightYear Field
 
-A(n) cubic megalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic kilolight-year + (0).
+A(n) cubic megalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic kilolight-year.
 
 ```csharp
 public static readonly Volume CubicMegalightYear;

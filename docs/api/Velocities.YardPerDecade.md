@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerDecade Field
 
-A(n) yard per decade. Defined as: ((3.0)/(10.0)) × foot per year + (0).
+A(n) yard per decade. Defined as: (3.0)/(10.0) × foot per year.
 
 ```csharp
 public static readonly Velocity YardPerDecade;

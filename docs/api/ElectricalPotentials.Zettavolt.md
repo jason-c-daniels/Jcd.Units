@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Zettavolt Field
 
-A(n) zettavolt. Defined as: (1000.0) × exavolt + (0).
+A(n) zettavolt. Defined as: 1000.0 × exavolt.
 
 ```csharp
 public static readonly ElectricalPotential Zettavolt;

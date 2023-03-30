@@ -3,7 +3,7 @@
 
 ## Areas.SquareQuectometer Field
 
-A(n) square quectometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square rontometer + (0).
+A(n) square quectometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square rontometer.
 
 ```csharp
 public static readonly Area SquareQuectometer;

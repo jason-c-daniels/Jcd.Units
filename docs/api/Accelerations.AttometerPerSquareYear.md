@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareYear Field
 
-A(n) attometer per square year. Defined as: ((1.0/1000.0)/((365.2525)*(365.2525))) × femtometer per square day + (0).
+A(n) attometer per square year. Defined as: (1.0/1000.0)/((365.2525)*(365.2525)) × femtometer per square day.
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareYear;

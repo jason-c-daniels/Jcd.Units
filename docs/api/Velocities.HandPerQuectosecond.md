@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerQuectosecond Field
 
-A(n) hand per quectosecond. Defined as: ((4.0)/(1.0/1000.0)) × inch per rontosecond + (0).
+A(n) hand per quectosecond. Defined as: (4.0)/(1.0/1000.0) × inch per rontosecond.
 
 ```csharp
 public static readonly Velocity HandPerQuectosecond;

@@ -3,7 +3,7 @@
 
 ## Lengths.Yoctometer Field
 
-A(n) yoctometer. Defined as: (1.0/1000.0) × zeptometer + (0).
+A(n) yoctometer. Defined as: 1.0/1000.0 × zeptometer.
 
 ```csharp
 public static readonly Length Yoctometer;

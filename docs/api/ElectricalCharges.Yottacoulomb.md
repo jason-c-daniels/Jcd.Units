@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Yottacoulomb Field
 
-A(n) yottacoulomb. Defined as: (1000.0) × zettacoulomb + (0).
+A(n) yottacoulomb. Defined as: 1000.0 × zettacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Yottacoulomb;

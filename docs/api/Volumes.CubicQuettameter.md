@@ -3,7 +3,7 @@
 
 ## Volumes.CubicQuettameter Field
 
-A(n) cubic quettameter. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic ronnameter + (0).
+A(n) cubic quettameter. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic ronnameter.
 
 ```csharp
 public static readonly Volume CubicQuettameter;

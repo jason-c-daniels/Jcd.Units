@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Zettasiemens Field
 
-A(n) zettasiemens. Defined as: (1000.0) × exasiemens + (0).
+A(n) zettasiemens. Defined as: 1000.0 × exasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Zettasiemens;

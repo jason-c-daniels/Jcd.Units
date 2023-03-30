@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerDecade Field
 
-A(n) gigameter per decade. Defined as: ((1000.0)/(10.0)) × megameter per year + (0).
+A(n) gigameter per decade. Defined as: (1000.0)/(10.0) × megameter per year.
 
 ```csharp
 public static readonly Velocity GigameterPerDecade;

@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareFemtosecond Field
 
-A(n) hectometer per square femtosecond. Defined as: ((10.0)/((1.0/1000.0)*(1.0/1000.0))) × dekameter per square picosecond + (0).
+A(n) hectometer per square femtosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × dekameter per square picosecond.
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareFemtosecond;

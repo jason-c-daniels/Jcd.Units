@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Millilumen Field
 
-A(n) millilumen. Defined as: (1.0/10.0) × centilumen + (0).
+A(n) millilumen. Defined as: 1.0/10.0 × centilumen.
 
 ```csharp
 public static readonly LuminousFlux Millilumen;

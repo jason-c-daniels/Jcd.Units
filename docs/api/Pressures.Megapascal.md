@@ -3,7 +3,7 @@
 
 ## Pressures.Megapascal Field
 
-A(n) megapascal. Defined as: (1000.0) × kilopascal + (0).
+A(n) megapascal. Defined as: 1000.0 × kilopascal.
 
 ```csharp
 public static readonly Pressure Megapascal;

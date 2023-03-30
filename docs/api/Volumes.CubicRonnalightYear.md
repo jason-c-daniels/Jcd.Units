@@ -3,7 +3,7 @@
 
 ## Volumes.CubicRonnalightYear Field
 
-A(n) cubic ronnalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic yottalight-year + (0).
+A(n) cubic ronnalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic yottalight-year.
 
 ```csharp
 public static readonly Volume CubicRonnalightYear;

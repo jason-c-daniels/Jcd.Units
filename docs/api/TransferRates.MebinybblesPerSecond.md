@@ -3,7 +3,7 @@
 
 ## TransferRates.MebinybblesPerSecond Field
 
-A(n) mebinybbles per second. Defined as: (1024.0) × kebinybbles per second + (0).
+A(n) mebinybbles per second. Defined as: 1024.0 × kebinybbles per second.
 
 ```csharp
 public static readonly TransferRate MebinybblesPerSecond;

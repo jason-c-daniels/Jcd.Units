@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerCentisecond Field
 
-A(n) yottameter per centisecond. Defined as: ((1000.0)/(1.0/10.0)) × zettameter per decisecond + (0).
+A(n) yottameter per centisecond. Defined as: (1000.0)/(1.0/10.0) × zettameter per decisecond.
 
 ```csharp
 public static readonly Velocity YottameterPerCentisecond;

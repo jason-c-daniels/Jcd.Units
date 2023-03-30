@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareDecillionYears Field
 
-A(n) exameter per square decillion years. Defined as: ((1000.0)/((1000.0)*(1000.0))) × petameter per square nonillion years + (0).
+A(n) exameter per square decillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × petameter per square nonillion years.
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareDecillionYears;

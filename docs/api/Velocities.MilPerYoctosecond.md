@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerYoctosecond Field
 
-A(n) mil per yoctosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × inch per zeptosecond + (0).
+A(n) mil per yoctosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × inch per zeptosecond.
 
 ```csharp
 public static readonly Velocity MilPerYoctosecond;

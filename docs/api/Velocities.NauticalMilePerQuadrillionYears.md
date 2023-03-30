@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerQuadrillionYears Field
 
-A(n) nautical mile per quadrillion years. Defined as: ((10.0)/(1000.0)) × cable per trillion years + (0).
+A(n) nautical mile per quadrillion years. Defined as: (10.0)/(1000.0) × cable per trillion years.
 
 ```csharp
 public static readonly Velocity NauticalMilePerQuadrillionYears;

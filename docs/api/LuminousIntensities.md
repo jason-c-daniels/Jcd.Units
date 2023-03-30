@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attocandela](LuminousIntensities.Attocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Attocandela') | A(n) attocandela. Defined as: (1.0/1000.0) × femtocandela + (0). |
+| [Attocandela](LuminousIntensities.Attocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Attocandela') | A(n) attocandela. Defined as: 1.0/1000.0 × femtocandela. |
 | [Candela](LuminousIntensities.Candela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Candela') | A(n) candela. |
-| [Centicandela](LuminousIntensities.Centicandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Centicandela') | A(n) centicandela. Defined as: (1.0/10.0) × decicandela + (0). |
-| [Decicandela](LuminousIntensities.Decicandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Decicandela') | A(n) decicandela. Defined as: (1.0/10.0) × candela + (0). |
-| [Dekacandela](LuminousIntensities.Dekacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Dekacandela') | A(n) dekacandela. Defined as: (10.0) × candela + (0). |
-| [Exacandela](LuminousIntensities.Exacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Exacandela') | A(n) exacandela. Defined as: (1000.0) × petacandela + (0). |
-| [Femtocandela](LuminousIntensities.Femtocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Femtocandela') | A(n) femtocandela. Defined as: (1.0/1000.0) × picocandela + (0). |
-| [Gigacandela](LuminousIntensities.Gigacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Gigacandela') | A(n) gigacandela. Defined as: (1000.0) × megacandela + (0). |
-| [Hectocandela](LuminousIntensities.Hectocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Hectocandela') | A(n) hectocandela. Defined as: (10.0) × dekacandela + (0). |
-| [Kilocandela](LuminousIntensities.Kilocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Kilocandela') | A(n) kilocandela. Defined as: (10.0) × hectocandela + (0). |
-| [Megacandela](LuminousIntensities.Megacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Megacandela') | A(n) megacandela. Defined as: (1000.0) × kilocandela + (0). |
-| [Microcandela](LuminousIntensities.Microcandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Microcandela') | A(n) microcandela. Defined as: (1.0/1000.0) × millicandela + (0). |
-| [Millicandela](LuminousIntensities.Millicandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Millicandela') | A(n) millicandela. Defined as: (1.0/10.0) × centicandela + (0). |
-| [Nanocandela](LuminousIntensities.Nanocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Nanocandela') | A(n) nanocandela. Defined as: (1.0/1000.0) × microcandela + (0). |
-| [Petacandela](LuminousIntensities.Petacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Petacandela') | A(n) petacandela. Defined as: (1000.0) × teracandela + (0). |
-| [Picocandela](LuminousIntensities.Picocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Picocandela') | A(n) picocandela. Defined as: (1.0/1000.0) × nanocandela + (0). |
-| [Quectocandela](LuminousIntensities.Quectocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Quectocandela') | A(n) quectocandela. Defined as: (1.0/1000.0) × rontocandela + (0). |
-| [Quettacandela](LuminousIntensities.Quettacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Quettacandela') | A(n) quettacandela. Defined as: (1000.0) × ronnacandela + (0). |
-| [Ronnacandela](LuminousIntensities.Ronnacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Ronnacandela') | A(n) ronnacandela. Defined as: (1000.0) × yottacandela + (0). |
-| [Rontocandela](LuminousIntensities.Rontocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Rontocandela') | A(n) rontocandela. Defined as: (1.0/1000.0) × yoctocandela + (0). |
-| [Teracandela](LuminousIntensities.Teracandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Teracandela') | A(n) teracandela. Defined as: (1000.0) × gigacandela + (0). |
-| [Yoctocandela](LuminousIntensities.Yoctocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Yoctocandela') | A(n) yoctocandela. Defined as: (1.0/1000.0) × zeptocandela + (0). |
-| [Yottacandela](LuminousIntensities.Yottacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Yottacandela') | A(n) yottacandela. Defined as: (1000.0) × zettacandela + (0). |
-| [Zeptocandela](LuminousIntensities.Zeptocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Zeptocandela') | A(n) zeptocandela. Defined as: (1.0/1000.0) × attocandela + (0). |
-| [Zettacandela](LuminousIntensities.Zettacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Zettacandela') | A(n) zettacandela. Defined as: (1000.0) × exacandela + (0). |
+| [Centicandela](LuminousIntensities.Centicandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Centicandela') | A(n) centicandela. Defined as: 1.0/10.0 × decicandela. |
+| [Decicandela](LuminousIntensities.Decicandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Decicandela') | A(n) decicandela. Defined as: 1.0/10.0 × candela. |
+| [Dekacandela](LuminousIntensities.Dekacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Dekacandela') | A(n) dekacandela. Defined as: 10.0 × candela. |
+| [Exacandela](LuminousIntensities.Exacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Exacandela') | A(n) exacandela. Defined as: 1000.0 × petacandela. |
+| [Femtocandela](LuminousIntensities.Femtocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Femtocandela') | A(n) femtocandela. Defined as: 1.0/1000.0 × picocandela. |
+| [Gigacandela](LuminousIntensities.Gigacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Gigacandela') | A(n) gigacandela. Defined as: 1000.0 × megacandela. |
+| [Hectocandela](LuminousIntensities.Hectocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Hectocandela') | A(n) hectocandela. Defined as: 10.0 × dekacandela. |
+| [Kilocandela](LuminousIntensities.Kilocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Kilocandela') | A(n) kilocandela. Defined as: 10.0 × hectocandela. |
+| [Megacandela](LuminousIntensities.Megacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Megacandela') | A(n) megacandela. Defined as: 1000.0 × kilocandela. |
+| [Microcandela](LuminousIntensities.Microcandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Microcandela') | A(n) microcandela. Defined as: 1.0/1000.0 × millicandela. |
+| [Millicandela](LuminousIntensities.Millicandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Millicandela') | A(n) millicandela. Defined as: 1.0/10.0 × centicandela. |
+| [Nanocandela](LuminousIntensities.Nanocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Nanocandela') | A(n) nanocandela. Defined as: 1.0/1000.0 × microcandela. |
+| [Petacandela](LuminousIntensities.Petacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Petacandela') | A(n) petacandela. Defined as: 1000.0 × teracandela. |
+| [Picocandela](LuminousIntensities.Picocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Picocandela') | A(n) picocandela. Defined as: 1.0/1000.0 × nanocandela. |
+| [Quectocandela](LuminousIntensities.Quectocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Quectocandela') | A(n) quectocandela. Defined as: 1.0/1000.0 × rontocandela. |
+| [Quettacandela](LuminousIntensities.Quettacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Quettacandela') | A(n) quettacandela. Defined as: 1000.0 × ronnacandela. |
+| [Ronnacandela](LuminousIntensities.Ronnacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Ronnacandela') | A(n) ronnacandela. Defined as: 1000.0 × yottacandela. |
+| [Rontocandela](LuminousIntensities.Rontocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Rontocandela') | A(n) rontocandela. Defined as: 1.0/1000.0 × yoctocandela. |
+| [Teracandela](LuminousIntensities.Teracandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Teracandela') | A(n) teracandela. Defined as: 1000.0 × gigacandela. |
+| [Yoctocandela](LuminousIntensities.Yoctocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Yoctocandela') | A(n) yoctocandela. Defined as: 1.0/1000.0 × zeptocandela. |
+| [Yottacandela](LuminousIntensities.Yottacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Yottacandela') | A(n) yottacandela. Defined as: 1000.0 × zettacandela. |
+| [Zeptocandela](LuminousIntensities.Zeptocandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Zeptocandela') | A(n) zeptocandela. Defined as: 1.0/1000.0 × attocandela. |
+| [Zettacandela](LuminousIntensities.Zettacandela.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities.Zettacandela') | A(n) zettacandela. Defined as: 1000.0 × exacandela. |

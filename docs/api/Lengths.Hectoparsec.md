@@ -3,7 +3,7 @@
 
 ## Lengths.Hectoparsec Field
 
-A(n) hectoparsec. Defined as: (10.0) × dekaparsec + (0).
+A(n) hectoparsec. Defined as: 10.0 × dekaparsec.
 
 ```csharp
 public static readonly Length Hectoparsec;

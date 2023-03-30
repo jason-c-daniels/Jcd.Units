@@ -3,7 +3,7 @@
 
 ## Durations.Rontosecond Field
 
-A(n) rontosecond. Defined as: (1.0/1000.0) × yoctosecond + (0).
+A(n) rontosecond. Defined as: 1.0/1000.0 × yoctosecond.
 
 ```csharp
 public static readonly Duration Rontosecond;

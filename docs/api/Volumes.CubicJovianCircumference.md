@@ -3,7 +3,7 @@
 
 ## Volumes.CubicJovianCircumference Field
 
-A(n) cubic jovian circumference. Defined as: ((Math.PI)*(Math.PI)*(Math.PI)) × cubic jovian diameter + (0).
+A(n) cubic jovian circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic jovian diameter.
 
 ```csharp
 public static readonly Volume CubicJovianCircumference;

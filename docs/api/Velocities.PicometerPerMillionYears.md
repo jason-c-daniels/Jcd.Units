@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerMillionYears Field
 
-A(n) picometer per million years. Defined as: ((1.0/1000.0)/(1000.0)) × nanometer per millennium + (0).
+A(n) picometer per million years. Defined as: (1.0/1000.0)/(1000.0) × nanometer per millennium.
 
 ```csharp
 public static readonly Velocity PicometerPerMillionYears;

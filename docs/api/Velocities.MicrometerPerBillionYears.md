@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerBillionYears Field
 
-A(n) micrometer per billion years. Defined as: ((1.0/1000.0)/(1000.0)) × millimeter per million years + (0).
+A(n) micrometer per billion years. Defined as: (1.0/1000.0)/(1000.0) × millimeter per million years.
 
 ```csharp
 public static readonly Velocity MicrometerPerBillionYears;

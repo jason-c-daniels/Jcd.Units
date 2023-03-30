@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerYear Field
 
-A(n) exameter per year. Defined as: ((1000.0)/(365.2525)) × petameter per day + (0).
+A(n) exameter per year. Defined as: (1000.0)/(365.2525) × petameter per day.
 
 ```csharp
 public static readonly Velocity ExameterPerYear;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquarePlanckTime Field
 
-A(n) point per square planck-time. Defined as: ((1.0/72.0)/((5.391247E-38)*(5.391247E-38))) × inch per square microsecond + (0).
+A(n) point per square planck-time. Defined as: (1.0/72.0)/((5.391247E-38)*(5.391247E-38)) × inch per square microsecond.
 
 ```csharp
 public static readonly Acceleration PointPerSquarePlanckTime;

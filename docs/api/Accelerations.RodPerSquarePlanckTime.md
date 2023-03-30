@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquarePlanckTime Field
 
-A(n) rod per square planck-time. Defined as: ((5.0292)/((5.391247E-38)*(5.391247E-38))) × SI meter per square microsecond + (0).
+A(n) rod per square planck-time. Defined as: (5.0292)/((5.391247E-38)*(5.391247E-38)) × SI meter per square microsecond.
 
 ```csharp
 public static readonly Acceleration RodPerSquarePlanckTime;

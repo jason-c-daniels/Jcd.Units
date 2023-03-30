@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerTick Field
 
-A(n) exameter per tick. Defined as: ((1000.0)/(100.0)) × petameter per nanosecond + (0).
+A(n) exameter per tick. Defined as: (1000.0)/(100.0) × petameter per nanosecond.
 
 ```csharp
 public static readonly Velocity ExameterPerTick;

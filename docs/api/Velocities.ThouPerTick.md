@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerTick Field
 
-A(n) thou per tick. Defined as: ((1.0/12000.0)/(100.0)) × foot per nanosecond + (0).
+A(n) thou per tick. Defined as: (1.0/12000.0)/(100.0) × foot per nanosecond.
 
 ```csharp
 public static readonly Velocity ThouPerTick;

@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerPlanckTime Field
 
-A(n) link per planck-time. Defined as: ((0.20116)/(5.391247E-38)) × SI meter per microsecond + (0).
+A(n) link per planck-time. Defined as: (0.20116)/(5.391247E-38) × SI meter per microsecond.
 
 ```csharp
 public static readonly Velocity LinkPerPlanckTime;

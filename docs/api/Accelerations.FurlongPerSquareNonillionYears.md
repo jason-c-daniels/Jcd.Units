@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareNonillionYears Field
 
-A(n) furlong per square nonillion years. Defined as: ((10.0)/((1000.0)*(1000.0))) × chain per square octillion years + (0).
+A(n) furlong per square nonillion years. Defined as: (10.0)/((1000.0)*(1000.0)) × chain per square octillion years.
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareNonillionYears;

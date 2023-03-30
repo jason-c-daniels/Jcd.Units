@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicExameter Field
 
-A(n) microgram per cubic exameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × milligram per cubic petameter + (0).
+A(n) microgram per cubic exameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × milligram per cubic petameter.
 
 ```csharp
 public static readonly Density MicrogramPerCubicExameter;

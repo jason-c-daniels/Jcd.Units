@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareNonillionYears Field
 
-A(n) mil per square nonillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square octillion years + (0).
+A(n) mil per square nonillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × inch per square octillion years.
 
 ```csharp
 public static readonly Acceleration MilPerSquareNonillionYears;

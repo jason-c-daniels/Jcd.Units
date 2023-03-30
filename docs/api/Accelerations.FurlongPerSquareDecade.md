@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareDecade Field
 
-A(n) furlong per square decade. Defined as: ((10.0)/((10.0)*(10.0))) × chain per square year + (0).
+A(n) furlong per square decade. Defined as: (10.0)/((10.0)*(10.0)) × chain per square year.
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareDecade;

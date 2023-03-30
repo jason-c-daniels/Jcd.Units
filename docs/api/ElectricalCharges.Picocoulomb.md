@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Picocoulomb Field
 
-A(n) picocoulomb. Defined as: (1.0/1000.0) × nanocoulomb + (0).
+A(n) picocoulomb. Defined as: 1.0/1000.0 × nanocoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Picocoulomb;

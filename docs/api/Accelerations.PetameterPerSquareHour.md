@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareHour Field
 
-A(n) petameter per square hour. Defined as: ((1000.0)/((60.0)*(60.0))) × terameter per square minute + (0).
+A(n) petameter per square hour. Defined as: (1000.0)/((60.0)*(60.0)) × terameter per square minute.
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareHour;

@@ -13,36 +13,36 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attosecond](Durations.Attosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Attosecond') | A(n) attosecond. Defined as: (1.0/1000.0) × femtosecond + (0). |
-| [BillionYears](Durations.BillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.BillionYears') | A(n) billion years. Defined as: (1000.0) × million years + (0). |
-| [Centisecond](Durations.Centisecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Centisecond') | A(n) centisecond. Defined as: (1.0/10.0) × decisecond + (0). |
-| [Century](Durations.Century.md 'Jcd.Units.UnitsOfMeasure.Durations.Century') | A(n) century. Defined as: (10.0) × decade + (0). |
-| [Day](Durations.Day.md 'Jcd.Units.UnitsOfMeasure.Durations.Day') | A(n) day. Defined as: (24.0) × hour + (0). |
-| [Decade](Durations.Decade.md 'Jcd.Units.UnitsOfMeasure.Durations.Decade') | A(n) decade. Defined as: (10.0) × year + (0). |
-| [DecillionYears](Durations.DecillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.DecillionYears') | A(n) decillion years. Defined as: (1000.0) × nonillion years + (0). |
-| [Decisecond](Durations.Decisecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Decisecond') | A(n) decisecond. Defined as: (1.0/10.0) × second + (0). |
-| [Femtosecond](Durations.Femtosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Femtosecond') | A(n) femtosecond. Defined as: (1.0/1000.0) × picosecond + (0). |
-| [Hour](Durations.Hour.md 'Jcd.Units.UnitsOfMeasure.Durations.Hour') | A(n) hour. Defined as: (60.0) × minute + (0). |
-| [Microsecond](Durations.Microsecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Microsecond') | A(n) microsecond. Defined as: (1.0/1000.0) × millisecond + (0). |
-| [Millennium](Durations.Millennium.md 'Jcd.Units.UnitsOfMeasure.Durations.Millennium') | A(n) millennium. Defined as: (10.0) × century + (0). |
-| [MillionYears](Durations.MillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.MillionYears') | A(n) million years. Defined as: (1000.0) × millennium + (0). |
-| [Millisecond](Durations.Millisecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Millisecond') | A(n) millisecond. Defined as: (1.0/10.0) × centisecond + (0). |
-| [Minute](Durations.Minute.md 'Jcd.Units.UnitsOfMeasure.Durations.Minute') | A(n) minute. Defined as: (60.0) × second + (0). |
-| [Nanosecond](Durations.Nanosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Nanosecond') | A(n) nanosecond. Defined as: (1.0/1000.0) × microsecond + (0). |
-| [NonillionYears](Durations.NonillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.NonillionYears') | A(n) nonillion years. Defined as: (1000.0) × octillion years + (0). |
-| [OctillionYears](Durations.OctillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.OctillionYears') | A(n) octillion years. Defined as: (1000.0) × septillion years + (0). |
-| [Picosecond](Durations.Picosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Picosecond') | A(n) picosecond. Defined as: (1.0/1000.0) × nanosecond + (0). |
-| [PlanckTime](Durations.PlanckTime.md 'Jcd.Units.UnitsOfMeasure.Durations.PlanckTime') | A(n) planck-time. Defined as: (5.391247E-38) × microsecond + (0). |
-| [QuadrillionYears](Durations.QuadrillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.QuadrillionYears') | A(n) quadrillion years. Defined as: (1000.0) × trillion years + (0). |
-| [Quectosecond](Durations.Quectosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Quectosecond') | A(n) quectosecond. Defined as: (1.0/1000.0) × rontosecond + (0). |
-| [QuintillionYears](Durations.QuintillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.QuintillionYears') | A(n) quintillion years. Defined as: (1000.0) × quadrillion years + (0). |
-| [Rontosecond](Durations.Rontosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Rontosecond') | A(n) rontosecond. Defined as: (1.0/1000.0) × yoctosecond + (0). |
+| [Attosecond](Durations.Attosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Attosecond') | A(n) attosecond. Defined as: 1.0/1000.0 × femtosecond. |
+| [BillionYears](Durations.BillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.BillionYears') | A(n) billion years. Defined as: 1000.0 × million years. |
+| [Centisecond](Durations.Centisecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Centisecond') | A(n) centisecond. Defined as: 1.0/10.0 × decisecond. |
+| [Century](Durations.Century.md 'Jcd.Units.UnitsOfMeasure.Durations.Century') | A(n) century. Defined as: 10.0 × decade. |
+| [Day](Durations.Day.md 'Jcd.Units.UnitsOfMeasure.Durations.Day') | A(n) day. Defined as: 24.0 × hour. |
+| [Decade](Durations.Decade.md 'Jcd.Units.UnitsOfMeasure.Durations.Decade') | A(n) decade. Defined as: 10.0 × year. |
+| [DecillionYears](Durations.DecillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.DecillionYears') | A(n) decillion years. Defined as: 1000.0 × nonillion years. |
+| [Decisecond](Durations.Decisecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Decisecond') | A(n) decisecond. Defined as: 1.0/10.0 × second. |
+| [Femtosecond](Durations.Femtosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Femtosecond') | A(n) femtosecond. Defined as: 1.0/1000.0 × picosecond. |
+| [Hour](Durations.Hour.md 'Jcd.Units.UnitsOfMeasure.Durations.Hour') | A(n) hour. Defined as: 60.0 × minute. |
+| [Microsecond](Durations.Microsecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Microsecond') | A(n) microsecond. Defined as: 1.0/1000.0 × millisecond. |
+| [Millennium](Durations.Millennium.md 'Jcd.Units.UnitsOfMeasure.Durations.Millennium') | A(n) millennium. Defined as: 10.0 × century. |
+| [MillionYears](Durations.MillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.MillionYears') | A(n) million years. Defined as: 1000.0 × millennium. |
+| [Millisecond](Durations.Millisecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Millisecond') | A(n) millisecond. Defined as: 1.0/10.0 × centisecond. |
+| [Minute](Durations.Minute.md 'Jcd.Units.UnitsOfMeasure.Durations.Minute') | A(n) minute. Defined as: 60.0 × second. |
+| [Nanosecond](Durations.Nanosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Nanosecond') | A(n) nanosecond. Defined as: 1.0/1000.0 × microsecond. |
+| [NonillionYears](Durations.NonillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.NonillionYears') | A(n) nonillion years. Defined as: 1000.0 × octillion years. |
+| [OctillionYears](Durations.OctillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.OctillionYears') | A(n) octillion years. Defined as: 1000.0 × septillion years. |
+| [Picosecond](Durations.Picosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Picosecond') | A(n) picosecond. Defined as: 1.0/1000.0 × nanosecond. |
+| [PlanckTime](Durations.PlanckTime.md 'Jcd.Units.UnitsOfMeasure.Durations.PlanckTime') | A(n) planck-time. Defined as: 5.391247E-38 × microsecond. |
+| [QuadrillionYears](Durations.QuadrillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.QuadrillionYears') | A(n) quadrillion years. Defined as: 1000.0 × trillion years. |
+| [Quectosecond](Durations.Quectosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Quectosecond') | A(n) quectosecond. Defined as: 1.0/1000.0 × rontosecond. |
+| [QuintillionYears](Durations.QuintillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.QuintillionYears') | A(n) quintillion years. Defined as: 1000.0 × quadrillion years. |
+| [Rontosecond](Durations.Rontosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Rontosecond') | A(n) rontosecond. Defined as: 1.0/1000.0 × yoctosecond. |
 | [Second](Durations.Second.md 'Jcd.Units.UnitsOfMeasure.Durations.Second') | A(n) second. |
-| [SeptillionYears](Durations.SeptillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SeptillionYears') | A(n) septillion years. Defined as: (1000.0) × sextillion years + (0). |
-| [SextillionYears](Durations.SextillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SextillionYears') | A(n) sextillion years. Defined as: (1000.0) × quintillion years + (0). |
-| [Tick](Durations.Tick.md 'Jcd.Units.UnitsOfMeasure.Durations.Tick') | A(n) tick. Defined as: (100.0) × nanosecond + (0). |
-| [TrillionYears](Durations.TrillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.TrillionYears') | A(n) trillion years. Defined as: (1000.0) × billion years + (0). |
-| [Week](Durations.Week.md 'Jcd.Units.UnitsOfMeasure.Durations.Week') | A(n) week. Defined as: (7.0) × day + (0). |
-| [Year](Durations.Year.md 'Jcd.Units.UnitsOfMeasure.Durations.Year') | A(n) year. Defined as: (365.2525) × day + (0). |
-| [Yoctosecond](Durations.Yoctosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Yoctosecond') | A(n) yoctosecond. Defined as: (1.0/1000.0) × zeptosecond + (0). |
-| [Zeptosecond](Durations.Zeptosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Zeptosecond') | A(n) zeptosecond. Defined as: (1.0/1000.0) × attosecond + (0). |
+| [SeptillionYears](Durations.SeptillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SeptillionYears') | A(n) septillion years. Defined as: 1000.0 × sextillion years. |
+| [SextillionYears](Durations.SextillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.SextillionYears') | A(n) sextillion years. Defined as: 1000.0 × quintillion years. |
+| [Tick](Durations.Tick.md 'Jcd.Units.UnitsOfMeasure.Durations.Tick') | A(n) tick. Defined as: 100.0 × nanosecond. |
+| [TrillionYears](Durations.TrillionYears.md 'Jcd.Units.UnitsOfMeasure.Durations.TrillionYears') | A(n) trillion years. Defined as: 1000.0 × billion years. |
+| [Week](Durations.Week.md 'Jcd.Units.UnitsOfMeasure.Durations.Week') | A(n) week. Defined as: 7.0 × day. |
+| [Year](Durations.Year.md 'Jcd.Units.UnitsOfMeasure.Durations.Year') | A(n) year. Defined as: 365.2525 × day. |
+| [Yoctosecond](Durations.Yoctosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Yoctosecond') | A(n) yoctosecond. Defined as: 1.0/1000.0 × zeptosecond. |
+| [Zeptosecond](Durations.Zeptosecond.md 'Jcd.Units.UnitsOfMeasure.Durations.Zeptosecond') | A(n) zeptosecond. Defined as: 1.0/1000.0 × attosecond. |

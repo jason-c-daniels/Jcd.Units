@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareMillionYears Field
 
-A(n) rod per square million years. Defined as: ((5.0292)/((1000.0)*(1000.0))) × SI meter per square millennium + (0).
+A(n) rod per square million years. Defined as: (5.0292)/((1000.0)*(1000.0)) × SI meter per square millennium.
 
 ```csharp
 public static readonly Acceleration RodPerSquareMillionYears;

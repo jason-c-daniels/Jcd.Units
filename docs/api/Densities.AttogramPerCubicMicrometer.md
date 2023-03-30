@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicMicrometer Field
 
-A(n) attogram per cubic micrometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × femtogram per cubic millimeter + (0).
+A(n) attogram per cubic micrometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × femtogram per cubic millimeter.
 
 ```csharp
 public static readonly Density AttogramPerCubicMicrometer;

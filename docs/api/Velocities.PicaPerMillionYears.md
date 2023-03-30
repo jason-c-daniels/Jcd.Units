@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerMillionYears Field
 
-A(n) pica per million years. Defined as: ((12.0)/(1000.0)) × point per millennium + (0).
+A(n) pica per million years. Defined as: (12.0)/(1000.0) × point per millennium.
 
 ```csharp
 public static readonly Velocity PicaPerMillionYears;

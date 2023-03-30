@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareSextillionYears Field
 
-A(n) picometer per square sextillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × nanometer per square quintillion years + (0).
+A(n) picometer per square sextillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × nanometer per square quintillion years.
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareSextillionYears;

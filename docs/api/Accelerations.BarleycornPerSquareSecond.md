@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareSecond Field
 
-A(n) barleycorn per square second. Defined as: ((1.0/36.0)/((1.0)*(1.0))) × foot per square second + (0).
+A(n) barleycorn per square second. Defined as: (1.0/36.0)/((1.0)*(1.0)) × foot per square second.
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareSecond;

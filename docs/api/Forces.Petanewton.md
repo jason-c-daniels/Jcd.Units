@@ -3,7 +3,7 @@
 
 ## Forces.Petanewton Field
 
-A(n) petanewton. Defined as: (1000.0) × teranewton + (0).
+A(n) petanewton. Defined as: 1000.0 × teranewton.
 
 ```csharp
 public static readonly Force Petanewton;

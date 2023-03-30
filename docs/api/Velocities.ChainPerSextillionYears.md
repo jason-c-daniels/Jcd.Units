@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerSextillionYears Field
 
-A(n) chain per sextillion years. Defined as: ((22.0)/(1000.0)) × yard per quintillion years + (0).
+A(n) chain per sextillion years. Defined as: (22.0)/(1000.0) × yard per quintillion years.
 
 ```csharp
 public static readonly Velocity ChainPerSextillionYears;

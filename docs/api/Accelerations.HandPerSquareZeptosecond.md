@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareZeptosecond Field
 
-A(n) hand per square zeptosecond. Defined as: ((4.0)/((1.0/1000.0)*(1.0/1000.0))) × inch per square attosecond + (0).
+A(n) hand per square zeptosecond. Defined as: (4.0)/((1.0/1000.0)*(1.0/1000.0)) × inch per square attosecond.
 
 ```csharp
 public static readonly Acceleration HandPerSquareZeptosecond;

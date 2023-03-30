@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerMillennium Field
 
-A(n) point per millennium. Defined as: ((1.0/72.0)/(10.0)) × inch per century + (0).
+A(n) point per millennium. Defined as: (1.0/72.0)/(10.0) × inch per century.
 
 ```csharp
 public static readonly Velocity PointPerMillennium;

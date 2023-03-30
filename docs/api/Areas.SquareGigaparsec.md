@@ -3,7 +3,7 @@
 
 ## Areas.SquareGigaparsec Field
 
-A(n) square gigaparsec. Defined as: ((1000.0)*(1000.0)) × square megaparsec + (0).
+A(n) square gigaparsec. Defined as: (1000.0)*(1000.0) × square megaparsec.
 
 ```csharp
 public static readonly Area SquareGigaparsec;

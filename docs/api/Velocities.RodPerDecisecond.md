@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerDecisecond Field
 
-A(n) rod per decisecond. Defined as: ((5.0292)/(1.0/10.0)) × SI meter per second + (0).
+A(n) rod per decisecond. Defined as: (5.0292)/(1.0/10.0) × SI meter per second.
 
 ```csharp
 public static readonly Velocity RodPerDecisecond;

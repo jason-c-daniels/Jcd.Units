@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareDecillionYears Field
 
-A(n) quettameter per square decillion years. Defined as: ((1000.0)/((1000.0)*(1000.0))) × ronnameter per square nonillion years + (0).
+A(n) quettameter per square decillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × ronnameter per square nonillion years.
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareDecillionYears;

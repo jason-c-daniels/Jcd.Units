@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareOctillionYears Field
 
-A(n) rontometer per square octillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × yoctometer per square septillion years + (0).
+A(n) rontometer per square octillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × yoctometer per square septillion years.
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareOctillionYears;

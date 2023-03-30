@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerPlanckTime Field
 
-A(n) decimeter per planck-time. Defined as: ((1.0/10.0)/(5.391247E-38)) × meter per microsecond + (0).
+A(n) decimeter per planck-time. Defined as: (1.0/10.0)/(5.391247E-38) × meter per microsecond.
 
 ```csharp
 public static readonly Velocity DecimeterPerPlanckTime;

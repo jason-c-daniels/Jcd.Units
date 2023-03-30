@@ -3,7 +3,7 @@
 
 ## Volumes.Microliter Field
 
-A(n) microliter. Defined as: (1.0/1000.0) × milliliter + (0).
+A(n) microliter. Defined as: 1.0/1000.0 × milliliter.
 
 ```csharp
 public static readonly Volume Microliter;

@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerDecade Field
 
-A(n) picometer per decade. Defined as: ((1.0/1000.0)/(10.0)) × nanometer per year + (0).
+A(n) picometer per decade. Defined as: (1.0/1000.0)/(10.0) × nanometer per year.
 
 ```csharp
 public static readonly Velocity PicometerPerDecade;

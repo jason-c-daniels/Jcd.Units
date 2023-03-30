@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerTrillionYears Field
 
-A(n) quettameter per trillion years. Defined as: ((1000.0)/(1000.0)) × ronnameter per billion years + (0).
+A(n) quettameter per trillion years. Defined as: (1000.0)/(1000.0) × ronnameter per billion years.
 
 ```csharp
 public static readonly Velocity QuettameterPerTrillionYears;

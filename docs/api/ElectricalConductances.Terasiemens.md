@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Terasiemens Field
 
-A(n) terasiemens. Defined as: (1000.0) × gigasiemens + (0).
+A(n) terasiemens. Defined as: 1000.0 × gigasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Terasiemens;

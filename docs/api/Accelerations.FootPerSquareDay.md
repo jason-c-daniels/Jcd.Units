@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareDay Field
 
-A(n) foot per square day. Defined as: ((12)/((24.0)*(24.0))) × inch per square hour + (0).
+A(n) foot per square day. Defined as: (12)/((24.0)*(24.0)) × inch per square hour.
 
 ```csharp
 public static readonly Acceleration FootPerSquareDay;

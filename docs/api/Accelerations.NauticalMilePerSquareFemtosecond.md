@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareFemtosecond Field
 
-A(n) nautical mile per square femtosecond. Defined as: ((10.0)/((1.0/1000.0)*(1.0/1000.0))) × cable per square picosecond + (0).
+A(n) nautical mile per square femtosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × cable per square picosecond.
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareFemtosecond;

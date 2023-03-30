@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerMillisecond Field
 
-A(n) gigameter per millisecond. Defined as: ((1000.0)/(1.0/10.0)) × megameter per centisecond + (0).
+A(n) gigameter per millisecond. Defined as: (1000.0)/(1.0/10.0) × megameter per centisecond.
 
 ```csharp
 public static readonly Velocity GigameterPerMillisecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerMillennium Field
 
-A(n) mile per millennium. Defined as: ((8.0)/(10.0)) × furlong per century + (0).
+A(n) mile per millennium. Defined as: (8.0)/(10.0) × furlong per century.
 
 ```csharp
 public static readonly Velocity MilePerMillennium;

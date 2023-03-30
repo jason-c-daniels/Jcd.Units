@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareCentury Field
 
-A(n) exameter per square century. Defined as: ((1000.0)/((10.0)*(10.0))) × petameter per square decade + (0).
+A(n) exameter per square century. Defined as: (1000.0)/((10.0)*(10.0)) × petameter per square decade.
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareCentury;

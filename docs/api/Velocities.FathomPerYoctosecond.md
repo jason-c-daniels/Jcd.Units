@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerYoctosecond Field
 
-A(n) fathom per yoctosecond. Defined as: ((6.0)/(1.0/1000.0)) × foot per zeptosecond + (0).
+A(n) fathom per yoctosecond. Defined as: (6.0)/(1.0/1000.0) × foot per zeptosecond.
 
 ```csharp
 public static readonly Velocity FathomPerYoctosecond;

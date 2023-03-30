@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareTick Field
 
-A(n) inch per square tick. Defined as: ((2.54)/((100.0)*(100.0))) × SI centimeter per square nanosecond + (0).
+A(n) inch per square tick. Defined as: (2.54)/((100.0)*(100.0)) × SI centimeter per square nanosecond.
 
 ```csharp
 public static readonly Acceleration InchPerSquareTick;

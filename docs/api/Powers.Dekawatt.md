@@ -3,7 +3,7 @@
 
 ## Powers.Dekawatt Field
 
-A(n) dekawatt. Defined as: (10.0) × watt + (0).
+A(n) dekawatt. Defined as: 10.0 × watt.
 
 ```csharp
 public static readonly Power Dekawatt;

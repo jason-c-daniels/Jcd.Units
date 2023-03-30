@@ -3,7 +3,7 @@
 
 ## Lengths.Zettaparsec Field
 
-A(n) zettaparsec. Defined as: (1000.0) × exaparsec + (0).
+A(n) zettaparsec. Defined as: 1000.0 × exaparsec.
 
 ```csharp
 public static readonly Length Zettaparsec;

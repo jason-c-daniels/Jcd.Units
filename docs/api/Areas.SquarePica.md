@@ -3,7 +3,7 @@
 
 ## Areas.SquarePica Field
 
-A(n) square pica. Defined as: ((12.0)*(12.0)) × square point + (0).
+A(n) square pica. Defined as: (12.0)*(12.0) × square point.
 
 ```csharp
 public static readonly Area SquarePica;

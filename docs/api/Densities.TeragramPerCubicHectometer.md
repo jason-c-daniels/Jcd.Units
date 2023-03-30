@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicHectometer Field
 
-A(n) teragram per cubic hectometer. Defined as: ((1000.0)/((10.0)*(10.0)*(10.0))) × gigagram per cubic dekameter + (0).
+A(n) teragram per cubic hectometer. Defined as: (1000.0)/((10.0)*(10.0)*(10.0)) × gigagram per cubic dekameter.
 
 ```csharp
 public static readonly Density TeragramPerCubicHectometer;

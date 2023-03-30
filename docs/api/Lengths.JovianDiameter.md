@@ -3,7 +3,7 @@
 
 ## Lengths.JovianDiameter Field
 
-A(n) jovian diameter. Defined as: (2.0) × jovian radius + (0).
+A(n) jovian diameter. Defined as: 2.0 × jovian radius.
 
 ```csharp
 public static readonly Length JovianDiameter;

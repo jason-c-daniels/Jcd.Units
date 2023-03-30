@@ -3,7 +3,7 @@
 
 ## Forces.Decinewton Field
 
-A(n) decinewton. Defined as: (1.0/10.0) × newton + (0).
+A(n) decinewton. Defined as: 1.0/10.0 × newton.
 
 ```csharp
 public static readonly Force Decinewton;

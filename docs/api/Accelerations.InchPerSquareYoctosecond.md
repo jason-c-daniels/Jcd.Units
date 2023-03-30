@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareYoctosecond Field
 
-A(n) inch per square yoctosecond. Defined as: ((2.54)/((1.0/1000.0)*(1.0/1000.0))) × SI centimeter per square zeptosecond + (0).
+A(n) inch per square yoctosecond. Defined as: (2.54)/((1.0/1000.0)*(1.0/1000.0)) × SI centimeter per square zeptosecond.
 
 ```csharp
 public static readonly Acceleration InchPerSquareYoctosecond;

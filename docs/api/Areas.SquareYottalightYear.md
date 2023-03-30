@@ -3,7 +3,7 @@
 
 ## Areas.SquareYottalightYear Field
 
-A(n) square yottalight-year. Defined as: ((1000.0)*(1000.0)) × square zettalight-year + (0).
+A(n) square yottalight-year. Defined as: (1000.0)*(1000.0) × square zettalight-year.
 
 ```csharp
 public static readonly Area SquareYottalightYear;

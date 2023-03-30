@@ -3,7 +3,7 @@
 
 ## TransferRates.KebibitsPerSecond Field
 
-A(n) kebibits per second. Defined as: (1024.0) × bits per second + (0).
+A(n) kebibits per second. Defined as: 1024.0 × bits per second.
 
 ```csharp
 public static readonly TransferRate KebibitsPerSecond;

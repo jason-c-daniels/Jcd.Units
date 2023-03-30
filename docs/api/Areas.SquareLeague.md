@@ -3,7 +3,7 @@
 
 ## Areas.SquareLeague Field
 
-A(n) square league. Defined as: ((3.0)*(3.0)) × square mile + (0).
+A(n) square league. Defined as: (3.0)*(3.0) × square mile.
 
 ```csharp
 public static readonly Area SquareLeague;

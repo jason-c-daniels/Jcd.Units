@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerNanosecond Field
 
-A(n) gigameter per nanosecond. Defined as: ((1000.0)/(1.0/1000.0)) × megameter per microsecond + (0).
+A(n) gigameter per nanosecond. Defined as: (1000.0)/(1.0/1000.0) × megameter per microsecond.
 
 ```csharp
 public static readonly Velocity GigameterPerNanosecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerPlanckTime Field
 
-A(n) cable per planck-time. Defined as: ((100.0)/(5.391247E-38)) × fathom per microsecond + (0).
+A(n) cable per planck-time. Defined as: (100.0)/(5.391247E-38) × fathom per microsecond.
 
 ```csharp
 public static readonly Velocity CablePerPlanckTime;

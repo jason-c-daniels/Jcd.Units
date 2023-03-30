@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Dekasiemens Field
 
-A(n) dekasiemens. Defined as: (10.0) × siemens + (0).
+A(n) dekasiemens. Defined as: 10.0 × siemens.
 
 ```csharp
 public static readonly ElectricalConductance Dekasiemens;

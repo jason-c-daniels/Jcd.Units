@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareZeptosecond Field
 
-A(n) inch per square zeptosecond. Defined as: ((2.54)/((1.0/1000.0)*(1.0/1000.0))) × SI centimeter per square attosecond + (0).
+A(n) inch per square zeptosecond. Defined as: (2.54)/((1.0/1000.0)*(1.0/1000.0)) × SI centimeter per square attosecond.
 
 ```csharp
 public static readonly Acceleration InchPerSquareZeptosecond;

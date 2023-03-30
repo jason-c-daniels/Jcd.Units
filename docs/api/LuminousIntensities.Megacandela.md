@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Megacandela Field
 
-A(n) megacandela. Defined as: (1000.0) × kilocandela + (0).
+A(n) megacandela. Defined as: 1000.0 × kilocandela.
 
 ```csharp
 public static readonly LuminousIntensity Megacandela;

@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquarePlanckTime Field
 
-A(n) centimeter per square planck-time. Defined as: ((1.0/10.0)/((5.391247E-38)*(5.391247E-38))) × decimeter per square microsecond + (0).
+A(n) centimeter per square planck-time. Defined as: (1.0/10.0)/((5.391247E-38)*(5.391247E-38)) × decimeter per square microsecond.
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquarePlanckTime;

@@ -3,7 +3,7 @@
 
 ## Resistances.Exaohm Field
 
-A(n) exaohm. Defined as: (1000.0) × petaohm + (0).
+A(n) exaohm. Defined as: 1000.0 × petaohm.
 
 ```csharp
 public static readonly Resistance Exaohm;

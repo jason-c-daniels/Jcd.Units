@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicZeptometer Field
 
-A(n) gigagram per cubic zeptometer. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × megagram per cubic attometer + (0).
+A(n) gigagram per cubic zeptometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × megagram per cubic attometer.
 
 ```csharp
 public static readonly Density GigagramPerCubicZeptometer;

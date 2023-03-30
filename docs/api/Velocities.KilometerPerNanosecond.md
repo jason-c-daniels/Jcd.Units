@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerNanosecond Field
 
-A(n) kilometer per nanosecond. Defined as: ((10.0)/(1.0/1000.0)) × hectometer per microsecond + (0).
+A(n) kilometer per nanosecond. Defined as: (10.0)/(1.0/1000.0) × hectometer per microsecond.
 
 ```csharp
 public static readonly Velocity KilometerPerNanosecond;

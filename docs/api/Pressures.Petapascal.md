@@ -3,7 +3,7 @@
 
 ## Pressures.Petapascal Field
 
-A(n) petapascal. Defined as: (1000.0) × terapascal + (0).
+A(n) petapascal. Defined as: 1000.0 × terapascal.
 
 ```csharp
 public static readonly Pressure Petapascal;

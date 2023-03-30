@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesKelvin Field
 
-A(n) degrees kelvin. Defined as: (1.0) × degrees celcius + (-273.15).
+A(n) degrees kelvin. Defined as: (1.0 + -273.15) × degrees celcius.
 
 ```csharp
 public static readonly Temperature DegreesKelvin;

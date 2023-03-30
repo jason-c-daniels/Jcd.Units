@@ -3,7 +3,7 @@
 
 ## TransferRates.ZettabytesPerSecond Field
 
-A(n) zettabytes per second. Defined as: (1000.0) × exabytes per second + (0).
+A(n) zettabytes per second. Defined as: 1000.0 × exabytes per second.
 
 ```csharp
 public static readonly TransferRate ZettabytesPerSecond;

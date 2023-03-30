@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareMillennium Field
 
-A(n) barleycorn per square millennium. Defined as: ((1.0/36.0)/((10.0)*(10.0))) × foot per square century + (0).
+A(n) barleycorn per square millennium. Defined as: (1.0/36.0)/((10.0)*(10.0)) × foot per square century.
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareMillennium;

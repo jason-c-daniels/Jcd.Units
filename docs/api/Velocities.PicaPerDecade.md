@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerDecade Field
 
-A(n) pica per decade. Defined as: ((12.0)/(10.0)) × point per year + (0).
+A(n) pica per decade. Defined as: (12.0)/(10.0) × point per year.
 
 ```csharp
 public static readonly Velocity PicaPerDecade;

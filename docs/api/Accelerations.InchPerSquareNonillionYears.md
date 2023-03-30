@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareNonillionYears Field
 
-A(n) inch per square nonillion years. Defined as: ((2.54)/((1000.0)*(1000.0))) × SI centimeter per square octillion years + (0).
+A(n) inch per square nonillion years. Defined as: (2.54)/((1000.0)*(1000.0)) × SI centimeter per square octillion years.
 
 ```csharp
 public static readonly Acceleration InchPerSquareNonillionYears;

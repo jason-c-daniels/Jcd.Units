@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerWeek Field
 
-A(n) inch per week. Defined as: ((2.54)/(7.0)) × SI centimeter per day + (0).
+A(n) inch per week. Defined as: (2.54)/(7.0) × SI centimeter per day.
 
 ```csharp
 public static readonly Velocity InchPerWeek;

@@ -3,7 +3,7 @@
 
 ## Amounts.Petamole Field
 
-A(n) petamole. Defined as: (1000.0) × teramole + (0).
+A(n) petamole. Defined as: 1000.0 × teramole.
 
 ```csharp
 public static readonly Amount Petamole;

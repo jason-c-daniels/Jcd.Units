@@ -3,7 +3,7 @@
 
 ## Lengths.Teraparsec Field
 
-A(n) teraparsec. Defined as: (1000.0) × gigaparsec + (0).
+A(n) teraparsec. Defined as: 1000.0 × gigaparsec.
 
 ```csharp
 public static readonly Length Teraparsec;

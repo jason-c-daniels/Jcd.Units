@@ -3,7 +3,7 @@
 
 ## Volumes.CubicFathom Field
 
-A(n) cubic fathom. Defined as: ((6.0)*(6.0)*(6.0)) × cubic foot + (0).
+A(n) cubic fathom. Defined as: (6.0)*(6.0)*(6.0) × cubic foot.
 
 ```csharp
 public static readonly Volume CubicFathom;

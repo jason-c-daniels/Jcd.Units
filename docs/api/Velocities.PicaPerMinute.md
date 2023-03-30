@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerMinute Field
 
-A(n) pica per minute. Defined as: ((12.0)/(60.0)) × point per second + (0).
+A(n) pica per minute. Defined as: (12.0)/(60.0) × point per second.
 
 ```csharp
 public static readonly Velocity PicaPerMinute;

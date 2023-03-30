@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerTick Field
 
-A(n) mil per tick. Defined as: ((1.0/1000.0)/(100.0)) × inch per nanosecond + (0).
+A(n) mil per tick. Defined as: (1.0/1000.0)/(100.0) × inch per nanosecond.
 
 ```csharp
 public static readonly Velocity MilPerTick;

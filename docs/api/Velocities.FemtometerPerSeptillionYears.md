@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerSeptillionYears Field
 
-A(n) femtometer per septillion years. Defined as: ((1.0/1000.0)/(1000.0)) × picometer per sextillion years + (0).
+A(n) femtometer per septillion years. Defined as: (1.0/1000.0)/(1000.0) × picometer per sextillion years.
 
 ```csharp
 public static readonly Velocity FemtometerPerSeptillionYears;

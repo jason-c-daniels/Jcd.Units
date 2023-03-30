@@ -3,7 +3,7 @@
 
 ## Energies.PlanckEnergy Field
 
-A(n) planck-energy. Defined as: (1.9561E+9) × SI joule + (0).
+A(n) planck-energy. Defined as: 1.9561E+9 × SI joule.
 
 ```csharp
 public static readonly Energy PlanckEnergy;

@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerBillionYears Field
 
-A(n) inch per billion years. Defined as: ((2.54)/(1000.0)) × SI centimeter per million years + (0).
+A(n) inch per billion years. Defined as: (2.54)/(1000.0) × SI centimeter per million years.
 
 ```csharp
 public static readonly Velocity InchPerBillionYears;

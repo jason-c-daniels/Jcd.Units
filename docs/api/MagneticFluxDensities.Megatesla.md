@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Megatesla Field
 
-A(n) megatesla. Defined as: (1000.0) × kilotesla + (0).
+A(n) megatesla. Defined as: 1000.0 × kilotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Megatesla;

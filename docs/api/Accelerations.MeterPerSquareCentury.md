@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareCentury Field
 
-A(n) meter per square century. Defined as: ((1.0)/((10.0)*(10.0))) × meter per square decade + (0).
+A(n) meter per square century. Defined as: (1.0)/((10.0)*(10.0)) × meter per square decade.
 
 ```csharp
 public static readonly Acceleration MeterPerSquareCentury;

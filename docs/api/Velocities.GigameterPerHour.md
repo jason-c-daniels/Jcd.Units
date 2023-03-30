@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerHour Field
 
-A(n) gigameter per hour. Defined as: ((1000.0)/(60.0)) × megameter per minute + (0).
+A(n) gigameter per hour. Defined as: (1000.0)/(60.0) × megameter per minute.
 
 ```csharp
 public static readonly Velocity GigameterPerHour;

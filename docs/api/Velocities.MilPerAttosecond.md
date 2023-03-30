@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerAttosecond Field
 
-A(n) mil per attosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × inch per femtosecond + (0).
+A(n) mil per attosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × inch per femtosecond.
 
 ```csharp
 public static readonly Velocity MilPerAttosecond;

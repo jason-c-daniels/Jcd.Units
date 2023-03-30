@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquarePicosecond Field
 
-A(n) femtometer per square picosecond. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))) × picometer per square nanosecond + (0).
+A(n) femtometer per square picosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × picometer per square nanosecond.
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquarePicosecond;

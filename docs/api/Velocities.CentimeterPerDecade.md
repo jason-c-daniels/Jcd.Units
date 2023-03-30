@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerDecade Field
 
-A(n) centimeter per decade. Defined as: ((1.0/10.0)/(10.0)) × decimeter per year + (0).
+A(n) centimeter per decade. Defined as: (1.0/10.0)/(10.0) × decimeter per year.
 
 ```csharp
 public static readonly Velocity CentimeterPerDecade;

@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerDay Field
 
-A(n) millimeter per day. Defined as: ((1.0/10.0)/(24.0)) × centimeter per hour + (0).
+A(n) millimeter per day. Defined as: (1.0/10.0)/(24.0) × centimeter per hour.
 
 ```csharp
 public static readonly Velocity MillimeterPerDay;

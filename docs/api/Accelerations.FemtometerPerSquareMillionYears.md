@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareMillionYears Field
 
-A(n) femtometer per square million years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × picometer per square millennium + (0).
+A(n) femtometer per square million years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × picometer per square millennium.
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquareMillionYears;

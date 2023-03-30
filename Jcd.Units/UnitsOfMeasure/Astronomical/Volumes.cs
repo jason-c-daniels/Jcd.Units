@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
-   /// A(n) cubic light-year. Defined as: ((9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)) × SI cubic meter + (0).
+   /// A(n) cubic light-year. Defined as: (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)*(9_460_730_472_580_800.0) × SI cubic meter.
    /// </summary>
    public static readonly Volume CubicLightYear = new (
                                                        "cubic light-year"
@@ -31,7 +31,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// A(n) cubic light-second. Defined as: ((299_792_458.0)*(299_792_458.0)*(299_792_458.0)) × SI cubic meter + (0).
+   /// A(n) cubic light-second. Defined as: (299_792_458.0)*(299_792_458.0)*(299_792_458.0) × SI cubic meter.
    /// </summary>
    public static readonly Volume CubicLightSecond = new (
                                                          "cubic light-second"
@@ -42,7 +42,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic light-minute. Defined as: ((60.0)*(60.0)*(60.0)) × cubic light-second + (0).
+   /// A(n) cubic light-minute. Defined as: (60.0)*(60.0)*(60.0) × cubic light-second.
    /// </summary>
    public static readonly Volume CubicLightMinute = new (
                                                          "cubic light-minute"
@@ -53,7 +53,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic astronomical unit. Defined as: ((149597870.691)*(149597870.691)*(149597870.691)) × SI cubic kilometer + (0).
+   /// A(n) cubic astronomical unit. Defined as: (149597870.691)*(149597870.691)*(149597870.691) × SI cubic kilometer.
    /// </summary>
    public static readonly Volume CubicAstronomicalUnit = new (
                                                               "cubic astronomical unit"
@@ -64,7 +64,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                              );
 
    /// <summary>
-   /// A(n) cubic light-hour. Defined as: ((60.0)*(60.0)*(60.0)) × cubic light-minute + (0).
+   /// A(n) cubic light-hour. Defined as: (60.0)*(60.0)*(60.0) × cubic light-minute.
    /// </summary>
    public static readonly Volume CubicLightHour = new (
                                                        "cubic light-hour"
@@ -75,17 +75,17 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// A(n) cubic light-day. Defined as: ((24.0)*(24.0)*(24.0)) × cubic light-hour + (0).
+   /// A(n) cubic light-day. Defined as: (24.0)*(24.0)*(24.0) × cubic light-hour.
    /// </summary>
    public static readonly Volume CubicLightDay = new ("cubic light-day", "ld³", CubicLightHour, 24.0 * 24.0 * 24.0, 0);
 
    /// <summary>
-   /// A(n) cubic light-week. Defined as: ((7.0)*(7.0)*(7.0)) × cubic light-day + (0).
+   /// A(n) cubic light-week. Defined as: (7.0)*(7.0)*(7.0) × cubic light-day.
    /// </summary>
    public static readonly Volume CubicLightWeek = new ("cubic light-week", "lw³", CubicLightDay, 7.0 * 7.0 * 7.0, 0);
 
    /// <summary>
-   /// A(n) cubic parsec. Defined as: ((3.2615637769757)*(3.2615637769757)*(3.2615637769757)) × cubic light-year + (0).
+   /// A(n) cubic parsec. Defined as: (3.2615637769757)*(3.2615637769757)*(3.2615637769757) × cubic light-year.
    /// </summary>
    public static readonly Volume CubicParsec = new (
                                                     "cubic parsec"
@@ -96,7 +96,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                    );
 
    /// <summary>
-   /// A(n) cubic earth radius. Defined as: ((6_371.0)*(6_371.0)*(6_371.0)) × SI cubic kilometer + (0).
+   /// A(n) cubic earth radius. Defined as: (6_371.0)*(6_371.0)*(6_371.0) × SI cubic kilometer.
    /// </summary>
    public static readonly Volume CubicEarthRadius = new (
                                                          "cubic earth radius"
@@ -107,7 +107,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic jovian radius. Defined as: ((69_911.0)*(69_911.0)*(69_911.0)) × SI cubic kilometer + (0).
+   /// A(n) cubic jovian radius. Defined as: (69_911.0)*(69_911.0)*(69_911.0) × SI cubic kilometer.
    /// </summary>
    public static readonly Volume CubicJovianRadius = new (
                                                           "cubic jovian radius"
@@ -118,7 +118,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          );
 
    /// <summary>
-   /// A(n) cubic lunar radius. Defined as: ((1_737.4)*(1_737.4)*(1_737.4)) × SI cubic kilometer + (0).
+   /// A(n) cubic lunar radius. Defined as: (1_737.4)*(1_737.4)*(1_737.4) × SI cubic kilometer.
    /// </summary>
    public static readonly Volume CubicLunarRadius = new (
                                                          "cubic lunar radius"
@@ -129,7 +129,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic mars radius. Defined as: ((3_389.5)*(3_389.5)*(3_389.5)) × SI cubic kilometer + (0).
+   /// A(n) cubic mars radius. Defined as: (3_389.5)*(3_389.5)*(3_389.5) × SI cubic kilometer.
    /// </summary>
    public static readonly Volume CubicMarsRadius = new (
                                                         "cubic mars radius"
@@ -140,7 +140,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// A(n) cubic solar radius. Defined as: ((695_700.0)*(695_700.0)*(695_700.0)) × SI cubic kilometer + (0).
+   /// A(n) cubic solar radius. Defined as: (695_700.0)*(695_700.0)*(695_700.0) × SI cubic kilometer.
    /// </summary>
    public static readonly Volume CubicSolarRadius = new (
                                                          "cubic solar radius"
@@ -151,7 +151,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic earth diameter. Defined as: ((2.0)*(2.0)*(2.0)) × cubic earth radius + (0).
+   /// A(n) cubic earth diameter. Defined as: (2.0)*(2.0)*(2.0) × cubic earth radius.
    /// </summary>
    public static readonly Volume CubicEarthDiameter = new (
                                                            "cubic earth diameter"
@@ -162,7 +162,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic dekalight-year. Defined as: ((10.0)*(10.0)*(10.0)) × cubic light-year + (0).
+   /// A(n) cubic dekalight-year. Defined as: (10.0)*(10.0)*(10.0) × cubic light-year.
    /// </summary>
    public static readonly Volume CubicDekalightYear = new (
                                                            "cubic dekalight-year"
@@ -173,7 +173,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic jovian diameter. Defined as: ((2.0)*(2.0)*(2.0)) × cubic jovian radius + (0).
+   /// A(n) cubic jovian diameter. Defined as: (2.0)*(2.0)*(2.0) × cubic jovian radius.
    /// </summary>
    public static readonly Volume CubicJovianDiameter = new (
                                                             "cubic jovian diameter"
@@ -184,7 +184,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                            );
 
    /// <summary>
-   /// A(n) cubic hectolight-year. Defined as: ((10.0)*(10.0)*(10.0)) × cubic dekalight-year + (0).
+   /// A(n) cubic hectolight-year. Defined as: (10.0)*(10.0)*(10.0) × cubic dekalight-year.
    /// </summary>
    public static readonly Volume CubicHectolightYear = new (
                                                             "cubic hectolight-year"
@@ -195,7 +195,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                            );
 
    /// <summary>
-   /// A(n) cubic lunar diameter. Defined as: ((2.0)*(2.0)*(2.0)) × cubic lunar radius + (0).
+   /// A(n) cubic lunar diameter. Defined as: (2.0)*(2.0)*(2.0) × cubic lunar radius.
    /// </summary>
    public static readonly Volume CubicLunarDiameter = new (
                                                            "cubic lunar diameter"
@@ -206,7 +206,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic kilolight-year. Defined as: ((10.0)*(10.0)*(10.0)) × cubic hectolight-year + (0).
+   /// A(n) cubic kilolight-year. Defined as: (10.0)*(10.0)*(10.0) × cubic hectolight-year.
    /// </summary>
    public static readonly Volume CubicKilolightYear = new (
                                                            "cubic kilolight-year"
@@ -217,7 +217,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic mars diameter. Defined as: ((2.0)*(2.0)*(2.0)) × cubic mars radius + (0).
+   /// A(n) cubic mars diameter. Defined as: (2.0)*(2.0)*(2.0) × cubic mars radius.
    /// </summary>
    public static readonly Volume CubicMarsDiameter = new (
                                                           "cubic mars diameter"
@@ -228,7 +228,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          );
 
    /// <summary>
-   /// A(n) cubic megalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic kilolight-year + (0).
+   /// A(n) cubic megalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic kilolight-year.
    /// </summary>
    public static readonly Volume CubicMegalightYear = new (
                                                            "cubic megalight-year"
@@ -239,7 +239,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic solar diameter. Defined as: ((2.0)*(2.0)*(2.0)) × cubic solar radius + (0).
+   /// A(n) cubic solar diameter. Defined as: (2.0)*(2.0)*(2.0) × cubic solar radius.
    /// </summary>
    public static readonly Volume CubicSolarDiameter = new (
                                                            "cubic solar diameter"
@@ -250,7 +250,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic gigalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic megalight-year + (0).
+   /// A(n) cubic gigalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic megalight-year.
    /// </summary>
    public static readonly Volume CubicGigalightYear = new (
                                                            "cubic gigalight-year"
@@ -261,7 +261,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic earth circumference. Defined as: ((Math.PI)*(Math.PI)*(Math.PI)) × cubic earth diameter + (0).
+   /// A(n) cubic earth circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic earth diameter.
    /// </summary>
    public static readonly Volume CubicEarthCircumference = new (
                                                                 "cubic earth circumference"
@@ -272,7 +272,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                                );
 
    /// <summary>
-   /// A(n) cubic teralight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic gigalight-year + (0).
+   /// A(n) cubic teralight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic gigalight-year.
    /// </summary>
    public static readonly Volume CubicTeralightYear = new (
                                                            "cubic teralight-year"
@@ -283,7 +283,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic jovian circumference. Defined as: ((Math.PI)*(Math.PI)*(Math.PI)) × cubic jovian diameter + (0).
+   /// A(n) cubic jovian circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic jovian diameter.
    /// </summary>
    public static readonly Volume CubicJovianCircumference = new (
                                                                  "cubic jovian circumference"
@@ -294,7 +294,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                                 );
 
    /// <summary>
-   /// A(n) cubic petalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic teralight-year + (0).
+   /// A(n) cubic petalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic teralight-year.
    /// </summary>
    public static readonly Volume CubicPetalightYear = new (
                                                            "cubic petalight-year"
@@ -305,7 +305,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           );
 
    /// <summary>
-   /// A(n) cubic lunar circumference. Defined as: ((Math.PI)*(Math.PI)*(Math.PI)) × cubic lunar diameter + (0).
+   /// A(n) cubic lunar circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic lunar diameter.
    /// </summary>
    public static readonly Volume CubicLunarCircumference = new (
                                                                 "cubic lunar circumference"
@@ -316,7 +316,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                                );
 
    /// <summary>
-   /// A(n) cubic exalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic petalight-year + (0).
+   /// A(n) cubic exalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic petalight-year.
    /// </summary>
    public static readonly Volume CubicExalightYear = new (
                                                           "cubic exalight-year"
@@ -327,7 +327,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          );
 
    /// <summary>
-   /// A(n) cubic mars circumference. Defined as: ((Math.PI)*(Math.PI)*(Math.PI)) × cubic mars diameter + (0).
+   /// A(n) cubic mars circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic mars diameter.
    /// </summary>
    public static readonly Volume CubicMarsCircumference = new (
                                                                "cubic mars circumference"
@@ -338,7 +338,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                               );
 
    /// <summary>
-   /// A(n) cubic zettalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic exalight-year + (0).
+   /// A(n) cubic zettalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic exalight-year.
    /// </summary>
    public static readonly Volume CubicZettalightYear = new (
                                                             "cubic zettalight-year"
@@ -349,7 +349,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                            );
 
    /// <summary>
-   /// A(n) cubic solar circumference. Defined as: ((Math.PI)*(Math.PI)*(Math.PI)) × cubic solar diameter + (0).
+   /// A(n) cubic solar circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic solar diameter.
    /// </summary>
    public static readonly Volume CubicSolarCircumference = new (
                                                                 "cubic solar circumference"
@@ -360,7 +360,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                                );
 
    /// <summary>
-   /// A(n) cubic yottalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic zettalight-year + (0).
+   /// A(n) cubic yottalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic zettalight-year.
    /// </summary>
    public static readonly Volume CubicYottalightYear = new (
                                                             "cubic yottalight-year"
@@ -371,7 +371,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                            );
 
    /// <summary>
-   /// A(n) cubic Planck-length. Defined as: ((1.616255E-35)*(1.616255E-35)*(1.616255E-35)) × SI cubic meter + (0).
+   /// A(n) cubic Planck-length. Defined as: (1.616255E-35)*(1.616255E-35)*(1.616255E-35) × SI cubic meter.
    /// </summary>
    public static readonly Volume CubicPlanckLength = new (
                                                           "cubic Planck-length"
@@ -382,7 +382,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          );
 
    /// <summary>
-   /// A(n) cubic ronnalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic yottalight-year + (0).
+   /// A(n) cubic ronnalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic yottalight-year.
    /// </summary>
    public static readonly Volume CubicRonnalightYear = new (
                                                             "cubic ronnalight-year"
@@ -393,7 +393,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                            );
 
    /// <summary>
-   /// A(n) cubic quettalight-year. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic ronnalight-year + (0).
+   /// A(n) cubic quettalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic ronnalight-year.
    /// </summary>
    public static readonly Volume CubicQuettalightYear = new (
                                                              "cubic quettalight-year"
@@ -404,7 +404,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                             );
 
    /// <summary>
-   /// A(n) cubic dekaparsec. Defined as: ((10.0)*(10.0)*(10.0)) × cubic parsec + (0).
+   /// A(n) cubic dekaparsec. Defined as: (10.0)*(10.0)*(10.0) × cubic parsec.
    /// </summary>
    public static readonly Volume CubicDekaparsec = new (
                                                         "cubic dekaparsec"
@@ -415,7 +415,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// A(n) cubic hectoparsec. Defined as: ((10.0)*(10.0)*(10.0)) × cubic dekaparsec + (0).
+   /// A(n) cubic hectoparsec. Defined as: (10.0)*(10.0)*(10.0) × cubic dekaparsec.
    /// </summary>
    public static readonly Volume CubicHectoparsec = new (
                                                          "cubic hectoparsec"
@@ -426,7 +426,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic kiloparsec. Defined as: ((10.0)*(10.0)*(10.0)) × cubic hectoparsec + (0).
+   /// A(n) cubic kiloparsec. Defined as: (10.0)*(10.0)*(10.0) × cubic hectoparsec.
    /// </summary>
    public static readonly Volume CubicKiloparsec = new (
                                                         "cubic kiloparsec"
@@ -437,7 +437,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// A(n) cubic megaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic kiloparsec + (0).
+   /// A(n) cubic megaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic kiloparsec.
    /// </summary>
    public static readonly Volume CubicMegaparsec = new (
                                                         "cubic megaparsec"
@@ -448,7 +448,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// A(n) cubic gigaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic megaparsec + (0).
+   /// A(n) cubic gigaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic megaparsec.
    /// </summary>
    public static readonly Volume CubicGigaparsec = new (
                                                         "cubic gigaparsec"
@@ -459,7 +459,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// A(n) cubic teraparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic gigaparsec + (0).
+   /// A(n) cubic teraparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic gigaparsec.
    /// </summary>
    public static readonly Volume CubicTeraparsec = new (
                                                         "cubic teraparsec"
@@ -470,7 +470,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// A(n) cubic petaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic teraparsec + (0).
+   /// A(n) cubic petaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic teraparsec.
    /// </summary>
    public static readonly Volume CubicPetaparsec = new (
                                                         "cubic petaparsec"
@@ -481,7 +481,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// A(n) cubic exaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic petaparsec + (0).
+   /// A(n) cubic exaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic petaparsec.
    /// </summary>
    public static readonly Volume CubicExaparsec = new (
                                                        "cubic exaparsec"
@@ -492,7 +492,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// A(n) cubic zettaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic exaparsec + (0).
+   /// A(n) cubic zettaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic exaparsec.
    /// </summary>
    public static readonly Volume CubicZettaparsec = new (
                                                          "cubic zettaparsec"
@@ -503,7 +503,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic yottaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic zettaparsec + (0).
+   /// A(n) cubic yottaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic zettaparsec.
    /// </summary>
    public static readonly Volume CubicYottaparsec = new (
                                                          "cubic yottaparsec"
@@ -514,7 +514,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic ronnaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic yottaparsec + (0).
+   /// A(n) cubic ronnaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic yottaparsec.
    /// </summary>
    public static readonly Volume CubicRonnaparsec = new (
                                                          "cubic ronnaparsec"
@@ -525,7 +525,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// A(n) cubic quettaparsec. Defined as: ((1000.0)*(1000.0)*(1000.0)) × cubic ronnaparsec + (0).
+   /// A(n) cubic quettaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic ronnaparsec.
    /// </summary>
    public static readonly Volume CubicQuettaparsec = new (
                                                           "cubic quettaparsec"

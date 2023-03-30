@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Teraampere Field
 
-A(n) teraampere. Defined as: (1000.0) × gigaampere + (0).
+A(n) teraampere. Defined as: 1000.0 × gigaampere.
 
 ```csharp
 public static readonly ElectricalCurrent Teraampere;

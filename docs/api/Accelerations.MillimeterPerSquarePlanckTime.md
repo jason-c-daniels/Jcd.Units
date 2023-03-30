@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquarePlanckTime Field
 
-A(n) millimeter per square planck-time. Defined as: ((1.0/10.0)/((5.391247E-38)*(5.391247E-38))) × centimeter per square microsecond + (0).
+A(n) millimeter per square planck-time. Defined as: (1.0/10.0)/((5.391247E-38)*(5.391247E-38)) × centimeter per square microsecond.
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquarePlanckTime;

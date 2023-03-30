@@ -3,7 +3,7 @@
 
 ## Energies.Gigacalorie Field
 
-A(n) gigacalorie. Defined as: (1000.0) × megacalorie + (0).
+A(n) gigacalorie. Defined as: 1000.0 × megacalorie.
 
 ```csharp
 public static readonly Energy Gigacalorie;

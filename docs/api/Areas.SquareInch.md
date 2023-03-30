@@ -3,7 +3,7 @@
 
 ## Areas.SquareInch Field
 
-A(n) square inch. Defined as: ((2.54)*(2.54)) × SI square centimeter + (0).
+A(n) square inch. Defined as: (2.54)*(2.54) × SI square centimeter.
 
 ```csharp
 public static readonly Area SquareInch;

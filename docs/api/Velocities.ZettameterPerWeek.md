@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerWeek Field
 
-A(n) zettameter per week. Defined as: ((1000.0)/(7.0)) × exameter per day + (0).
+A(n) zettameter per week. Defined as: (1000.0)/(7.0) × exameter per day.
 
 ```csharp
 public static readonly Velocity ZettameterPerWeek;

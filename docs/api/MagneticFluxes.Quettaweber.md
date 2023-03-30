@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Quettaweber Field
 
-A(n) quettaweber. Defined as: (1000.0) × ronnaweber + (0).
+A(n) quettaweber. Defined as: 1000.0 × ronnaweber.
 
 ```csharp
 public static readonly MagneticFlux Quettaweber;

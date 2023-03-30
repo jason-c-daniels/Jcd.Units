@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Teracoulomb Field
 
-A(n) teracoulomb. Defined as: (1000.0) × gigacoulomb + (0).
+A(n) teracoulomb. Defined as: 1000.0 × gigacoulomb.
 
 ```csharp
 public static readonly ElectricalCharge Teracoulomb;

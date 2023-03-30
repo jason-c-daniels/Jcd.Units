@@ -3,7 +3,7 @@
 
 ## Areas.SquareMicrometer Field
 
-A(n) square micrometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)) × square millimeter + (0).
+A(n) square micrometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square millimeter.
 
 ```csharp
 public static readonly Area SquareMicrometer;

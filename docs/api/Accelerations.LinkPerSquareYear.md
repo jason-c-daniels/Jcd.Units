@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareYear Field
 
-A(n) link per square year. Defined as: ((0.20116)/((365.2525)*(365.2525))) × SI meter per square day + (0).
+A(n) link per square year. Defined as: (0.20116)/((365.2525)*(365.2525)) × SI meter per square day.
 
 ```csharp
 public static readonly Acceleration LinkPerSquareYear;

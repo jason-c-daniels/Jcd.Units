@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Petasiemens Field
 
-A(n) petasiemens. Defined as: (1000.0) × terasiemens + (0).
+A(n) petasiemens. Defined as: 1000.0 × terasiemens.
 
 ```csharp
 public static readonly ElectricalConductance Petasiemens;

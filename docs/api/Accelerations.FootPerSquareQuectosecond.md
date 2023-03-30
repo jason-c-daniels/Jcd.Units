@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareQuectosecond Field
 
-A(n) foot per square quectosecond. Defined as: ((12)/((1.0/1000.0)*(1.0/1000.0))) × inch per square rontosecond + (0).
+A(n) foot per square quectosecond. Defined as: (12)/((1.0/1000.0)*(1.0/1000.0)) × inch per square rontosecond.
 
 ```csharp
 public static readonly Acceleration FootPerSquareQuectosecond;

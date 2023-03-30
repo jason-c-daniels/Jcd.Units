@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerZeptosecond Field
 
-A(n) gigameter per zeptosecond. Defined as: ((1000.0)/(1.0/1000.0)) × megameter per attosecond + (0).
+A(n) gigameter per zeptosecond. Defined as: (1000.0)/(1.0/1000.0) × megameter per attosecond.
 
 ```csharp
 public static readonly Velocity GigameterPerZeptosecond;

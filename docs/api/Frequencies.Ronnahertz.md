@@ -3,7 +3,7 @@
 
 ## Frequencies.Ronnahertz Field
 
-A(n) ronnahertz. Defined as: (1000.0) × yottahertz + (0).
+A(n) ronnahertz. Defined as: 1000.0 × yottahertz.
 
 ```csharp
 public static readonly Frequency Ronnahertz;

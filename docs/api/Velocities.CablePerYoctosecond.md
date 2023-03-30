@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerYoctosecond Field
 
-A(n) cable per yoctosecond. Defined as: ((100.0)/(1.0/1000.0)) × fathom per zeptosecond + (0).
+A(n) cable per yoctosecond. Defined as: (100.0)/(1.0/1000.0) × fathom per zeptosecond.
 
 ```csharp
 public static readonly Velocity CablePerYoctosecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerDay Field
 
-A(n) yottameter per day. Defined as: ((1000.0)/(24.0)) × zettameter per hour + (0).
+A(n) yottameter per day. Defined as: (1000.0)/(24.0) × zettameter per hour.
 
 ```csharp
 public static readonly Velocity YottameterPerDay;

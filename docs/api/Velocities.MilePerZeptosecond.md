@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerZeptosecond Field
 
-A(n) mile per zeptosecond. Defined as: ((8.0)/(1.0/1000.0)) × furlong per attosecond + (0).
+A(n) mile per zeptosecond. Defined as: (8.0)/(1.0/1000.0) × furlong per attosecond.
 
 ```csharp
 public static readonly Velocity MilePerZeptosecond;

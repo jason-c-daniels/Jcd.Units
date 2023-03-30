@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerDay Field
 
-A(n) decimeter per day. Defined as: ((1.0/10.0)/(24.0)) × meter per hour + (0).
+A(n) decimeter per day. Defined as: (1.0/10.0)/(24.0) × meter per hour.
 
 ```csharp
 public static readonly Velocity DecimeterPerDay;

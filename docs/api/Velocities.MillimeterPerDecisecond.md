@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerDecisecond Field
 
-A(n) millimeter per decisecond. Defined as: ((1.0/10.0)/(1.0/10.0)) × centimeter per second + (0).
+A(n) millimeter per decisecond. Defined as: (1.0/10.0)/(1.0/10.0) × centimeter per second.
 
 ```csharp
 public static readonly Velocity MillimeterPerDecisecond;

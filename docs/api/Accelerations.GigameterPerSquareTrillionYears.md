@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareTrillionYears Field
 
-A(n) gigameter per square trillion years. Defined as: ((1000.0)/((1000.0)*(1000.0))) × megameter per square billion years + (0).
+A(n) gigameter per square trillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × megameter per square billion years.
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareTrillionYears;

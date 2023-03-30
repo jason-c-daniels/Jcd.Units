@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerWeek Field
 
-A(n) attometer per week. Defined as: ((1.0/1000.0)/(7.0)) × femtometer per day + (0).
+A(n) attometer per week. Defined as: (1.0/1000.0)/(7.0) × femtometer per day.
 
 ```csharp
 public static readonly Velocity AttometerPerWeek;

@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerTrillionYears Field
 
-A(n) rod per trillion years. Defined as: ((5.0292)/(1000.0)) × SI meter per billion years + (0).
+A(n) rod per trillion years. Defined as: (5.0292)/(1000.0) × SI meter per billion years.
 
 ```csharp
 public static readonly Velocity RodPerTrillionYears;

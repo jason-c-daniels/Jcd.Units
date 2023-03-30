@@ -3,7 +3,7 @@
 
 ## Densities.PlanckDensity Field
 
-A(n) planck-density. Defined as: (5.1550E+96) × SI kilogram per cubic meter + (0).
+A(n) planck-density. Defined as: 5.1550E+96 × SI kilogram per cubic meter.
 
 ```csharp
 public static readonly Density PlanckDensity;

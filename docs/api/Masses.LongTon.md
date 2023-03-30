@@ -3,7 +3,7 @@
 
 ## Masses.LongTon Field
 
-A(n) long ton. Defined as: (20.0) × long hundredweight + (0).
+A(n) long ton. Defined as: 20.0 × long hundredweight.
 
 ```csharp
 public static readonly Mass LongTon;

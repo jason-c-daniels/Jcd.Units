@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareZeptosecond Field
 
-A(n) gigameter per square zeptosecond. Defined as: ((1000.0)/((1.0/1000.0)*(1.0/1000.0))) × megameter per square attosecond + (0).
+A(n) gigameter per square zeptosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × megameter per square attosecond.
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareZeptosecond;

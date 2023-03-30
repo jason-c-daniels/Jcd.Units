@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerPicosecond Field
 
-A(n) foot per picosecond. Defined as: ((12)/(1.0/1000.0)) × inch per nanosecond + (0).
+A(n) foot per picosecond. Defined as: (12)/(1.0/1000.0) × inch per nanosecond.
 
 ```csharp
 public static readonly Velocity FootPerPicosecond;

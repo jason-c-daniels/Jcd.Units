@@ -3,7 +3,7 @@
 
 ## Durations.Decade Field
 
-A(n) decade. Defined as: (10.0) × year + (0).
+A(n) decade. Defined as: 10.0 × year.
 
 ```csharp
 public static readonly Duration Decade;

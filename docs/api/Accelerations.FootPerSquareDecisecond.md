@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareDecisecond Field
 
-A(n) foot per square decisecond. Defined as: ((12)/((1.0/10.0)*(1.0/10.0))) × inch per square second + (0).
+A(n) foot per square decisecond. Defined as: (12)/((1.0/10.0)*(1.0/10.0)) × inch per square second.
 
 ```csharp
 public static readonly Acceleration FootPerSquareDecisecond;

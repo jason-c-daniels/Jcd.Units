@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerTrillionYears Field
 
-A(n) fathom per trillion years. Defined as: ((6.0)/(1000.0)) × foot per billion years + (0).
+A(n) fathom per trillion years. Defined as: (6.0)/(1000.0) × foot per billion years.
 
 ```csharp
 public static readonly Velocity FathomPerTrillionYears;

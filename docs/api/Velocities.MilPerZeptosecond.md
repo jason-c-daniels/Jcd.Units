@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerZeptosecond Field
 
-A(n) mil per zeptosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × inch per attosecond + (0).
+A(n) mil per zeptosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × inch per attosecond.
 
 ```csharp
 public static readonly Velocity MilPerZeptosecond;

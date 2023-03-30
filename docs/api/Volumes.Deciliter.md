@@ -3,7 +3,7 @@
 
 ## Volumes.Deciliter Field
 
-A(n) deciliter. Defined as: (1.0/10.0) × liter + (0).
+A(n) deciliter. Defined as: 1.0/10.0 × liter.
 
 ```csharp
 public static readonly Volume Deciliter;

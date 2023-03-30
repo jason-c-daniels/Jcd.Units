@@ -3,7 +3,7 @@
 
 ## Lengths.MarsDiameter Field
 
-A(n) mars diameter. Defined as: (2.0) × mars radius + (0).
+A(n) mars diameter. Defined as: 2.0 × mars radius.
 
 ```csharp
 public static readonly Length MarsDiameter;

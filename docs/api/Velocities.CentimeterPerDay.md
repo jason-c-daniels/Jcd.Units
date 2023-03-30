@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerDay Field
 
-A(n) centimeter per day. Defined as: ((1.0/10.0)/(24.0)) × decimeter per hour + (0).
+A(n) centimeter per day. Defined as: (1.0/10.0)/(24.0) × decimeter per hour.
 
 ```csharp
 public static readonly Velocity CentimeterPerDay;

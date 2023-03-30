@@ -3,7 +3,7 @@
 
 ## Areas.SquareHectolightYear Field
 
-A(n) square hectolight-year. Defined as: ((10.0)*(10.0)) × square dekalight-year + (0).
+A(n) square hectolight-year. Defined as: (10.0)*(10.0) × square dekalight-year.
 
 ```csharp
 public static readonly Area SquareHectolightYear;

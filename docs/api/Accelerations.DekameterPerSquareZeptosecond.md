@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareZeptosecond Field
 
-A(n) dekameter per square zeptosecond. Defined as: ((10.0)/((1.0/1000.0)*(1.0/1000.0))) × meter per square attosecond + (0).
+A(n) dekameter per square zeptosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × meter per square attosecond.
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareZeptosecond;

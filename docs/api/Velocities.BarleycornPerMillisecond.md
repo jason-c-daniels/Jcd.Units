@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerMillisecond Field
 
-A(n) barleycorn per millisecond. Defined as: ((1.0/36.0)/(1.0/10.0)) × foot per centisecond + (0).
+A(n) barleycorn per millisecond. Defined as: (1.0/36.0)/(1.0/10.0) × foot per centisecond.
 
 ```csharp
 public static readonly Velocity BarleycornPerMillisecond;

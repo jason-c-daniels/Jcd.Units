@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Quettagray Field
 
-A(n) quettagray. Defined as: (1000.0) × ronnagray + (0).
+A(n) quettagray. Defined as: 1000.0 × ronnagray.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Quettagray;

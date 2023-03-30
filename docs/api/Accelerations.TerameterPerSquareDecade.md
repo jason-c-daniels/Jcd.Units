@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareDecade Field
 
-A(n) terameter per square decade. Defined as: ((1000.0)/((10.0)*(10.0))) × gigameter per square year + (0).
+A(n) terameter per square decade. Defined as: (1000.0)/((10.0)*(10.0)) × gigameter per square year.
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareDecade;

@@ -3,7 +3,7 @@
 
 ## Durations.Zeptosecond Field
 
-A(n) zeptosecond. Defined as: (1.0/1000.0) × attosecond + (0).
+A(n) zeptosecond. Defined as: 1.0/1000.0 × attosecond.
 
 ```csharp
 public static readonly Duration Zeptosecond;

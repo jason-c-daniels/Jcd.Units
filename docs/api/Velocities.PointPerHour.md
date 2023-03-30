@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerHour Field
 
-A(n) point per hour. Defined as: ((1.0/72.0)/(60.0)) × inch per minute + (0).
+A(n) point per hour. Defined as: (1.0/72.0)/(60.0) × inch per minute.
 
 ```csharp
 public static readonly Velocity PointPerHour;

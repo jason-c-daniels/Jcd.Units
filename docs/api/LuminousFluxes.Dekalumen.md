@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Dekalumen Field
 
-A(n) dekalumen. Defined as: (10.0) × lumen + (0).
+A(n) dekalumen. Defined as: 10.0 × lumen.
 
 ```csharp
 public static readonly LuminousFlux Dekalumen;

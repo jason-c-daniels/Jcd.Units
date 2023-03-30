@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquarePlanckTime Field
 
-A(n) hand per square planck-time. Defined as: ((4.0)/((5.391247E-38)*(5.391247E-38))) × inch per square microsecond + (0).
+A(n) hand per square planck-time. Defined as: (4.0)/((5.391247E-38)*(5.391247E-38)) × inch per square microsecond.
 
 ```csharp
 public static readonly Acceleration HandPerSquarePlanckTime;

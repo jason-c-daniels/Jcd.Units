@@ -3,7 +3,7 @@
 
 ## StorageUnits.Kebinybble Field
 
-A(n) kebinybble. Defined as: (1024.0) × nybble + (0).
+A(n) kebinybble. Defined as: 1024.0 × nybble.
 
 ```csharp
 public static readonly Storage Kebinybble;

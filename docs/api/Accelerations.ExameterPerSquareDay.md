@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareDay Field
 
-A(n) exameter per square day. Defined as: ((1000.0)/((24.0)*(24.0))) × petameter per square hour + (0).
+A(n) exameter per square day. Defined as: (1000.0)/((24.0)*(24.0)) × petameter per square hour.
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareDay;

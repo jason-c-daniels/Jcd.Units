@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerWeek Field
 
-A(n) furlong per week. Defined as: ((10.0)/(7.0)) × chain per day + (0).
+A(n) furlong per week. Defined as: (10.0)/(7.0) × chain per day.
 
 ```csharp
 public static readonly Velocity FurlongPerWeek;

@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicAttometer Field
 
-A(n) hectogram per cubic attometer. Defined as: ((1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × kilogram per cubic femtometer + (0).
+A(n) hectogram per cubic attometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × kilogram per cubic femtometer.
 
 ```csharp
 public static readonly Density HectogramPerCubicAttometer;

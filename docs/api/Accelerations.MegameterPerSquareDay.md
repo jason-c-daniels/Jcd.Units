@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareDay Field
 
-A(n) megameter per square day. Defined as: ((1000.0)/((24.0)*(24.0))) × kilometer per square hour + (0).
+A(n) megameter per square day. Defined as: (1000.0)/((24.0)*(24.0)) × kilometer per square hour.
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareDay;

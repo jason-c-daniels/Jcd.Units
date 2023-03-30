@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Yoctokatal Field
 
-A(n) yoctokatal. Defined as: (1.0/1000.0) × zeptokatal + (0).
+A(n) yoctokatal. Defined as: 1.0/1000.0 × zeptokatal.
 
 ```csharp
 public static readonly CatalyticActivity Yoctokatal;

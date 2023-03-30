@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerDay Field
 
-A(n) fathom per day. Defined as: ((6.0)/(24.0)) × foot per hour + (0).
+A(n) fathom per day. Defined as: (6.0)/(24.0) × foot per hour.
 
 ```csharp
 public static readonly Velocity FathomPerDay;

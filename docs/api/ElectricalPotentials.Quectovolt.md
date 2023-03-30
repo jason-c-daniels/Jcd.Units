@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Quectovolt Field
 
-A(n) quectovolt. Defined as: (1.0/1000.0) × rontovolt + (0).
+A(n) quectovolt. Defined as: 1.0/1000.0 × rontovolt.
 
 ```csharp
 public static readonly ElectricalPotential Quectovolt;

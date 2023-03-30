@@ -3,7 +3,7 @@
 
 ## Lengths.Yard Field
 
-A(n) yard. Defined as: (3.0) × foot + (0).
+A(n) yard. Defined as: 3.0 × foot.
 
 ```csharp
 public static readonly Length Yard;

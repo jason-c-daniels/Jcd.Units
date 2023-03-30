@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerQuectosecond Field
 
-A(n) petameter per quectosecond. Defined as: ((1000.0)/(1.0/1000.0)) × terameter per rontosecond + (0).
+A(n) petameter per quectosecond. Defined as: (1000.0)/(1.0/1000.0) × terameter per rontosecond.
 
 ```csharp
 public static readonly Velocity PetameterPerQuectosecond;

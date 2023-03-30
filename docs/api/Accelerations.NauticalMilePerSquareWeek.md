@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareWeek Field
 
-A(n) nautical mile per square week. Defined as: ((10.0)/((7.0)*(7.0))) × cable per square day + (0).
+A(n) nautical mile per square week. Defined as: (10.0)/((7.0)*(7.0)) × cable per square day.
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareWeek;

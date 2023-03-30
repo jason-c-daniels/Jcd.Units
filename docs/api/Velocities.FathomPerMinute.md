@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerMinute Field
 
-A(n) fathom per minute. Defined as: ((6.0)/(60.0)) × foot per second + (0).
+A(n) fathom per minute. Defined as: (6.0)/(60.0) × foot per second.
 
 ```csharp
 public static readonly Velocity FathomPerMinute;

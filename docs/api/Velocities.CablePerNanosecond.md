@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerNanosecond Field
 
-A(n) cable per nanosecond. Defined as: ((100.0)/(1.0/1000.0)) × fathom per microsecond + (0).
+A(n) cable per nanosecond. Defined as: (100.0)/(1.0/1000.0) × fathom per microsecond.
 
 ```csharp
 public static readonly Velocity CablePerNanosecond;

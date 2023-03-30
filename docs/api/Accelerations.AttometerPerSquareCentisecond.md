@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareCentisecond Field
 
-A(n) attometer per square centisecond. Defined as: ((1.0/1000.0)/((1.0/10.0)*(1.0/10.0))) × femtometer per square decisecond + (0).
+A(n) attometer per square centisecond. Defined as: (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)) × femtometer per square decisecond.
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareCentisecond;

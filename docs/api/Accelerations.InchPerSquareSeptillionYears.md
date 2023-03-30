@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareSeptillionYears Field
 
-A(n) inch per square septillion years. Defined as: ((2.54)/((1000.0)*(1000.0))) × SI centimeter per square sextillion years + (0).
+A(n) inch per square septillion years. Defined as: (2.54)/((1000.0)*(1000.0)) × SI centimeter per square sextillion years.
 
 ```csharp
 public static readonly Acceleration InchPerSquareSeptillionYears;

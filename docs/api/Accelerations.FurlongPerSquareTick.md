@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareTick Field
 
-A(n) furlong per square tick. Defined as: ((10.0)/((100.0)*(100.0))) × chain per square nanosecond + (0).
+A(n) furlong per square tick. Defined as: (10.0)/((100.0)*(100.0)) × chain per square nanosecond.
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareTick;

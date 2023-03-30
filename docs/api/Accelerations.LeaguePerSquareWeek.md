@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareWeek Field
 
-A(n) league per square week. Defined as: ((3.0)/((7.0)*(7.0))) × mile per square day + (0).
+A(n) league per square week. Defined as: (3.0)/((7.0)*(7.0)) × mile per square day.
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareWeek;

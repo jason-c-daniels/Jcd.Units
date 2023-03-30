@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerMillennium Field
 
-A(n) thou per millennium. Defined as: ((1.0/12000.0)/(10.0)) × foot per century + (0).
+A(n) thou per millennium. Defined as: (1.0/12000.0)/(10.0) × foot per century.
 
 ```csharp
 public static readonly Velocity ThouPerMillennium;

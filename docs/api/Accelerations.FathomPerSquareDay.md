@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareDay Field
 
-A(n) fathom per square day. Defined as: ((6.0)/((24.0)*(24.0))) × foot per square hour + (0).
+A(n) fathom per square day. Defined as: (6.0)/((24.0)*(24.0)) × foot per square hour.
 
 ```csharp
 public static readonly Acceleration FathomPerSquareDay;

@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerCentury Field
 
-A(n) inch per century. Defined as: ((2.54)/(10.0)) × SI centimeter per decade + (0).
+A(n) inch per century. Defined as: (2.54)/(10.0) × SI centimeter per decade.
 
 ```csharp
 public static readonly Velocity InchPerCentury;

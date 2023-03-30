@@ -3,7 +3,7 @@
 
 ## Lengths.Terameter Field
 
-A(n) terameter. Defined as: (1000.0) × gigameter + (0).
+A(n) terameter. Defined as: 1000.0 × gigameter.
 
 ```csharp
 public static readonly Length Terameter;

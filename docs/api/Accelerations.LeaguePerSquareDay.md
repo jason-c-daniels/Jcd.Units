@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareDay Field
 
-A(n) league per square day. Defined as: ((3.0)/((24.0)*(24.0))) × mile per square hour + (0).
+A(n) league per square day. Defined as: (3.0)/((24.0)*(24.0)) × mile per square hour.
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareDay;

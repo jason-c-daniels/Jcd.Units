@@ -3,7 +3,7 @@
 
 ## Momentums.RonnanewtonSecond Field
 
-A(n) ronnanewton-second. Defined as: (1000.0) × yottanewton-second + (0).
+A(n) ronnanewton-second. Defined as: 1000.0 × yottanewton-second.
 
 ```csharp
 public static readonly Momentum RonnanewtonSecond;

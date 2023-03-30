@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerMillennium Field
 
-A(n) centimeter per millennium. Defined as: ((1.0/10.0)/(10.0)) × decimeter per century + (0).
+A(n) centimeter per millennium. Defined as: (1.0/10.0)/(10.0) × decimeter per century.
 
 ```csharp
 public static readonly Velocity CentimeterPerMillennium;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquarePlanckTime Field
 
-A(n) picometer per square planck-time. Defined as: ((1.0/1000.0)/((5.391247E-38)*(5.391247E-38))) × nanometer per square microsecond + (0).
+A(n) picometer per square planck-time. Defined as: (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)) × nanometer per square microsecond.
 
 ```csharp
 public static readonly Acceleration PicometerPerSquarePlanckTime;

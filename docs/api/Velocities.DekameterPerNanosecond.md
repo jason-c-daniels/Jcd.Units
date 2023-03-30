@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerNanosecond Field
 
-A(n) dekameter per nanosecond. Defined as: ((10.0)/(1.0/1000.0)) × meter per microsecond + (0).
+A(n) dekameter per nanosecond. Defined as: (10.0)/(1.0/1000.0) × meter per microsecond.
 
 ```csharp
 public static readonly Velocity DekameterPerNanosecond;

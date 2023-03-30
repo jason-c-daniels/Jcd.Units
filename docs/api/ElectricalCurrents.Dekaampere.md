@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Dekaampere Field
 
-A(n) dekaampere. Defined as: (10.0) × ampere + (0).
+A(n) dekaampere. Defined as: 10.0 × ampere.
 
 ```csharp
 public static readonly ElectricalCurrent Dekaampere;

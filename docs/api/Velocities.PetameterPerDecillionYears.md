@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerDecillionYears Field
 
-A(n) petameter per decillion years. Defined as: ((1000.0)/(1000.0)) × terameter per nonillion years + (0).
+A(n) petameter per decillion years. Defined as: (1000.0)/(1000.0) × terameter per nonillion years.
 
 ```csharp
 public static readonly Velocity PetameterPerDecillionYears;

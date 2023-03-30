@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareMillennium Field
 
-A(n) centimeter per square millennium. Defined as: ((1.0/10.0)/((10.0)*(10.0))) × decimeter per square century + (0).
+A(n) centimeter per square millennium. Defined as: (1.0/10.0)/((10.0)*(10.0)) × decimeter per square century.
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareMillennium;

@@ -3,7 +3,7 @@
 
 ## Areas.SquareNauticalMile Field
 
-A(n) square nautical mile. Defined as: ((10.0)*(10.0)) × square cable + (0).
+A(n) square nautical mile. Defined as: (10.0)*(10.0) × square cable.
 
 ```csharp
 public static readonly Area SquareNauticalMile;

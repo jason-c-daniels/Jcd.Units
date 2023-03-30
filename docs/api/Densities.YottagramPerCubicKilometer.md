@@ -3,7 +3,7 @@
 
 ## Densities.YottagramPerCubicKilometer Field
 
-A(n) yottagram per cubic kilometer. Defined as: ((1000.0)/((10.0)*(10.0)*(10.0))) × zettagram per cubic hectometer + (0).
+A(n) yottagram per cubic kilometer. Defined as: (1000.0)/((10.0)*(10.0)*(10.0)) × zettagram per cubic hectometer.
 
 ```csharp
 public static readonly Density YottagramPerCubicKilometer;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Quectotesla Field
 
-A(n) quectotesla. Defined as: (1.0/1000.0) × rontotesla + (0).
+A(n) quectotesla. Defined as: 1.0/1000.0 × rontotesla.
 
 ```csharp
 public static readonly MagneticFluxDensity Quectotesla;

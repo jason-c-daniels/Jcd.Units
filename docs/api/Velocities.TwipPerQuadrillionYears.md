@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerQuadrillionYears Field
 
-A(n) twip per quadrillion years. Defined as: ((1.0/17280.0)/(1000.0)) × foot per trillion years + (0).
+A(n) twip per quadrillion years. Defined as: (1.0/17280.0)/(1000.0) × foot per trillion years.
 
 ```csharp
 public static readonly Velocity TwipPerQuadrillionYears;

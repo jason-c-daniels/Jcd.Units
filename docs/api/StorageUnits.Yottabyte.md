@@ -3,7 +3,7 @@
 
 ## StorageUnits.Yottabyte Field
 
-A(n) yottabyte. Defined as: (1000.0) × zettabyte + (0).
+A(n) yottabyte. Defined as: 1000.0 × zettabyte.
 
 ```csharp
 public static readonly Storage Yottabyte;

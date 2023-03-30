@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerCentisecond Field
 
-A(n) yoctometer per centisecond. Defined as: ((1.0/1000.0)/(1.0/10.0)) × zeptometer per decisecond + (0).
+A(n) yoctometer per centisecond. Defined as: (1.0/1000.0)/(1.0/10.0) × zeptometer per decisecond.
 
 ```csharp
 public static readonly Velocity YoctometerPerCentisecond;

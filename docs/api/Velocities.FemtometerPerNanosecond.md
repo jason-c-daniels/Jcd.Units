@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerNanosecond Field
 
-A(n) femtometer per nanosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × picometer per microsecond + (0).
+A(n) femtometer per nanosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × picometer per microsecond.
 
 ```csharp
 public static readonly Velocity FemtometerPerNanosecond;

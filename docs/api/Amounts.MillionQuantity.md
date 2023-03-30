@@ -3,7 +3,7 @@
 
 ## Amounts.MillionQuantity Field
 
-A(n) million quantity. Defined as: (1000.0) × thousand quantity + (0).
+A(n) million quantity. Defined as: 1000.0 × thousand quantity.
 
 ```csharp
 public static readonly Amount MillionQuantity;

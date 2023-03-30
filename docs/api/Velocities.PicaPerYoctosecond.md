@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerYoctosecond Field
 
-A(n) pica per yoctosecond. Defined as: ((12.0)/(1.0/1000.0)) × point per zeptosecond + (0).
+A(n) pica per yoctosecond. Defined as: (12.0)/(1.0/1000.0) × point per zeptosecond.
 
 ```csharp
 public static readonly Velocity PicaPerYoctosecond;

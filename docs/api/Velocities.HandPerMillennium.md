@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerMillennium Field
 
-A(n) hand per millennium. Defined as: ((4.0)/(10.0)) × inch per century + (0).
+A(n) hand per millennium. Defined as: (4.0)/(10.0) × inch per century.
 
 ```csharp
 public static readonly Velocity HandPerMillennium;

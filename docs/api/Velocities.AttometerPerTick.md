@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerTick Field
 
-A(n) attometer per tick. Defined as: ((1.0/1000.0)/(100.0)) × femtometer per nanosecond + (0).
+A(n) attometer per tick. Defined as: (1.0/1000.0)/(100.0) × femtometer per nanosecond.
 
 ```csharp
 public static readonly Velocity AttometerPerTick;

@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerSeptillionYears Field
 
-A(n) pica per septillion years. Defined as: ((12.0)/(1000.0)) × point per sextillion years + (0).
+A(n) pica per septillion years. Defined as: (12.0)/(1000.0) × point per sextillion years.
 
 ```csharp
 public static readonly Velocity PicaPerSeptillionYears;

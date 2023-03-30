@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerDay Field
 
-A(n) meter per day. Defined as: ((1.0)/(24.0)) × meter per hour + (0).
+A(n) meter per day. Defined as: (1.0)/(24.0) × meter per hour.
 
 ```csharp
 public static readonly Velocity MeterPerDay;

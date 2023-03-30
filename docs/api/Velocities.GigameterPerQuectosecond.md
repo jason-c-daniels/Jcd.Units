@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerQuectosecond Field
 
-A(n) gigameter per quectosecond. Defined as: ((1000.0)/(1.0/1000.0)) × megameter per rontosecond + (0).
+A(n) gigameter per quectosecond. Defined as: (1000.0)/(1.0/1000.0) × megameter per rontosecond.
 
 ```csharp
 public static readonly Velocity GigameterPerQuectosecond;

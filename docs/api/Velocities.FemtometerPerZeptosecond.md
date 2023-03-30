@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerZeptosecond Field
 
-A(n) femtometer per zeptosecond. Defined as: ((1.0/1000.0)/(1.0/1000.0)) × picometer per attosecond + (0).
+A(n) femtometer per zeptosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × picometer per attosecond.
 
 ```csharp
 public static readonly Velocity FemtometerPerZeptosecond;

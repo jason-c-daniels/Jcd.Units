@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicQuettameter Field
 
-A(n) megagram per cubic quettameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × kilogram per cubic ronnameter + (0).
+A(n) megagram per cubic quettameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic ronnameter.
 
 ```csharp
 public static readonly Density MegagramPerCubicQuettameter;

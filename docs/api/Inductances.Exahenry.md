@@ -3,7 +3,7 @@
 
 ## Inductances.Exahenry Field
 
-A(n) exahenry. Defined as: (1000.0) × petahenry + (0).
+A(n) exahenry. Defined as: 1000.0 × petahenry.
 
 ```csharp
 public static readonly Inductance Exahenry;

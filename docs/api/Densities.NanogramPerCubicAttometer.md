@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicAttometer Field
 
-A(n) nanogram per cubic attometer. Defined as: ((1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))) × microgram per cubic femtometer + (0).
+A(n) nanogram per cubic attometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × microgram per cubic femtometer.
 
 ```csharp
 public static readonly Density NanogramPerCubicAttometer;

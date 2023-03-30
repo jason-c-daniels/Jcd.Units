@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerMillennium Field
 
-A(n) gigameter per millennium. Defined as: ((1000.0)/(10.0)) × megameter per century + (0).
+A(n) gigameter per millennium. Defined as: (1000.0)/(10.0) × megameter per century.
 
 ```csharp
 public static readonly Velocity GigameterPerMillennium;

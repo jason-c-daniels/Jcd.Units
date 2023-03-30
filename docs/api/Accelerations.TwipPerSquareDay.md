@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareDay Field
 
-A(n) twip per square day. Defined as: ((1.0/17280.0)/((24.0)*(24.0))) × foot per square hour + (0).
+A(n) twip per square day. Defined as: (1.0/17280.0)/((24.0)*(24.0)) × foot per square hour.
 
 ```csharp
 public static readonly Acceleration TwipPerSquareDay;

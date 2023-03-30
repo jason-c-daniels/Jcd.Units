@@ -3,7 +3,7 @@
 
 ## Momentums.DecinewtonSecond Field
 
-A(n) decinewton-second. Defined as: (1.0/10.0) × newton-second + (0).
+A(n) decinewton-second. Defined as: 1.0/10.0 × newton-second.
 
 ```csharp
 public static readonly Momentum DecinewtonSecond;

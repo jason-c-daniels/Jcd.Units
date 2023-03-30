@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerMillennium Field
 
-A(n) yottameter per millennium. Defined as: ((1000.0)/(10.0)) × zettameter per century + (0).
+A(n) yottameter per millennium. Defined as: (1000.0)/(10.0) × zettameter per century.
 
 ```csharp
 public static readonly Velocity YottameterPerMillennium;

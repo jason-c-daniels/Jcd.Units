@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Petaampere Field
 
-A(n) petaampere. Defined as: (1000.0) × teraampere + (0).
+A(n) petaampere. Defined as: 1000.0 × teraampere.
 
 ```csharp
 public static readonly ElectricalCurrent Petaampere;

@@ -3,7 +3,7 @@
 
 ## Durations.Femtosecond Field
 
-A(n) femtosecond. Defined as: (1.0/1000.0) × picosecond + (0).
+A(n) femtosecond. Defined as: 1.0/1000.0 × picosecond.
 
 ```csharp
 public static readonly Duration Femtosecond;

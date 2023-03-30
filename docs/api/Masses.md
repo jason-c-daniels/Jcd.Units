@@ -13,9 +13,9 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [EarthMass](Masses.EarthMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.EarthMass') | A(n) earth mass. Defined as: (5.9722E+24) × SI kilogram + (0). |
-| [JovianMass](Masses.JovianMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JovianMass') | A(n) jovian mass. Defined as: (1.89813E+27) × SI kilogram + (0). |
-| [LunarMass](Masses.LunarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass') | A(n) lunar mass. Defined as: (7.35E+22) × SI kilogram + (0). |
-| [MarsMass](Masses.MarsMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.MarsMass') | A(n) mars mass. Defined as: (6.39E+23) × SI kilogram + (0). |
-| [PlanckMass](Masses.PlanckMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.PlanckMass') | A(n) planck-mass. Defined as: (2.176434E-8) × SI kilogram + (0). |
-| [SolarMass](Masses.SolarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.SolarMass') | A(n) solar mass. Defined as: (1.989E+30) × SI kilogram + (0). |
+| [EarthMass](Masses.EarthMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.EarthMass') | A(n) earth mass. Defined as: 5.9722E+24 × SI kilogram. |
+| [JovianMass](Masses.JovianMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JovianMass') | A(n) jovian mass. Defined as: 1.89813E+27 × SI kilogram. |
+| [LunarMass](Masses.LunarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass') | A(n) lunar mass. Defined as: 7.35E+22 × SI kilogram. |
+| [MarsMass](Masses.MarsMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.MarsMass') | A(n) mars mass. Defined as: 6.39E+23 × SI kilogram. |
+| [PlanckMass](Masses.PlanckMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.PlanckMass') | A(n) planck-mass. Defined as: 2.176434E-8 × SI kilogram. |
+| [SolarMass](Masses.SolarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.SolarMass') | A(n) solar mass. Defined as: 1.989E+30 × SI kilogram. |

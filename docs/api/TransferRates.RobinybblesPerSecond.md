@@ -3,7 +3,7 @@
 
 ## TransferRates.RobinybblesPerSecond Field
 
-A(n) robinybbles per second. Defined as: (1024.0) × yobinybbles per second + (0).
+A(n) robinybbles per second. Defined as: 1024.0 × yobinybbles per second.
 
 ```csharp
 public static readonly TransferRate RobinybblesPerSecond;

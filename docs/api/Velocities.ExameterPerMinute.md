@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerMinute Field
 
-A(n) exameter per minute. Defined as: ((1000.0)/(60.0)) × petameter per second + (0).
+A(n) exameter per minute. Defined as: (1000.0)/(60.0) × petameter per second.
 
 ```csharp
 public static readonly Velocity ExameterPerMinute;

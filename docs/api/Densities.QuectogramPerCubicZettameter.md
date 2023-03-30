@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicZettameter Field
 
-A(n) quectogram per cubic zettameter. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))) × rontogram per cubic exameter + (0).
+A(n) quectogram per cubic zettameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × rontogram per cubic exameter.
 
 ```csharp
 public static readonly Density QuectogramPerCubicZettameter;

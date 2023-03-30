@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareYear Field
 
-A(n) yard per square year. Defined as: ((3.0)/((365.2525)*(365.2525))) × foot per square day + (0).
+A(n) yard per square year. Defined as: (3.0)/((365.2525)*(365.2525)) × foot per square day.
 
 ```csharp
 public static readonly Acceleration YardPerSquareYear;

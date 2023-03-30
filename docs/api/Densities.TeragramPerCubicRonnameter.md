@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicRonnameter Field
 
-A(n) teragram per cubic ronnameter. Defined as: ((1000.0)/((1000.0)*(1000.0)*(1000.0))) × gigagram per cubic yottameter + (0).
+A(n) teragram per cubic ronnameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × gigagram per cubic yottameter.
 
 ```csharp
 public static readonly Density TeragramPerCubicRonnameter;

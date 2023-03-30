@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerBillionYears Field
 
-A(n) terameter per billion years. Defined as: ((1000.0)/(1000.0)) × gigameter per million years + (0).
+A(n) terameter per billion years. Defined as: (1000.0)/(1000.0) × gigameter per million years.
 
 ```csharp
 public static readonly Velocity TerameterPerBillionYears;

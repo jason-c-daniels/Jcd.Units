@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareHour Field
 
-A(n) hand per square hour. Defined as: ((4.0)/((60.0)*(60.0))) × inch per square minute + (0).
+A(n) hand per square hour. Defined as: (4.0)/((60.0)*(60.0)) × inch per square minute.
 
 ```csharp
 public static readonly Acceleration HandPerSquareHour;

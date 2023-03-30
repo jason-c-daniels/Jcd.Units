@@ -3,7 +3,7 @@
 
 ## Resistances.Ronnaohm Field
 
-A(n) ronnaohm. Defined as: (1000.0) × yottaohm + (0).
+A(n) ronnaohm. Defined as: 1000.0 × yottaohm.
 
 ```csharp
 public static readonly Resistance Ronnaohm;

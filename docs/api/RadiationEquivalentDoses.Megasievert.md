@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Megasievert Field
 
-A(n) megasievert. Defined as: (1000.0) × kilosievert + (0).
+A(n) megasievert. Defined as: 1000.0 × kilosievert.
 
 ```csharp
 public static readonly RadiationEquivalentDose Megasievert;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicZeptometer Field
 
-A(n) cubic zeptometer. Defined as: ((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × cubic attometer + (0).
+A(n) cubic zeptometer. Defined as: (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0) × cubic attometer.
 
 ```csharp
 public static readonly Volume CubicZeptometer;

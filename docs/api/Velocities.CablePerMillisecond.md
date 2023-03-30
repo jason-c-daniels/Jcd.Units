@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerMillisecond Field
 
-A(n) cable per millisecond. Defined as: ((100.0)/(1.0/10.0)) × fathom per centisecond + (0).
+A(n) cable per millisecond. Defined as: (100.0)/(1.0/10.0) × fathom per centisecond.
 
 ```csharp
 public static readonly Velocity CablePerMillisecond;

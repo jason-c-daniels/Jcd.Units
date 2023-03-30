@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerTick Field
 
-A(n) league per tick. Defined as: ((3.0)/(100.0)) × mile per nanosecond + (0).
+A(n) league per tick. Defined as: (3.0)/(100.0) × mile per nanosecond.
 
 ```csharp
 public static readonly Velocity LeaguePerTick;

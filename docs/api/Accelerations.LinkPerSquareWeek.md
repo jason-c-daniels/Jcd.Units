@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareWeek Field
 
-A(n) link per square week. Defined as: ((0.20116)/((7.0)*(7.0))) × SI meter per square day + (0).
+A(n) link per square week. Defined as: (0.20116)/((7.0)*(7.0)) × SI meter per square day.
 
 ```csharp
 public static readonly Acceleration LinkPerSquareWeek;

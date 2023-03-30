@@ -3,7 +3,7 @@
 
 ## Capacitances.Dekafarad Field
 
-A(n) dekafarad. Defined as: (10.0) × farad + (0).
+A(n) dekafarad. Defined as: 10.0 × farad.
 
 ```csharp
 public static readonly Capacitance Dekafarad;

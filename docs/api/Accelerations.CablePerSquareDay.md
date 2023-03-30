@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareDay Field
 
-A(n) cable per square day. Defined as: ((100.0)/((24.0)*(24.0))) × fathom per square hour + (0).
+A(n) cable per square day. Defined as: (100.0)/((24.0)*(24.0)) × fathom per square hour.
 
 ```csharp
 public static readonly Acceleration CablePerSquareDay;

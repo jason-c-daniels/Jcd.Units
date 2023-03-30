@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerBillionYears Field
 
-A(n) exameter per billion years. Defined as: ((1000.0)/(1000.0)) × petameter per million years + (0).
+A(n) exameter per billion years. Defined as: (1000.0)/(1000.0) × petameter per million years.
 
 ```csharp
 public static readonly Velocity ExameterPerBillionYears;
