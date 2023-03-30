@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerRontosecond Field
 
-A(n) kilometer per rontosecond. Defined as: (10.0)/(1.0/1000.0) × hectometer per yoctosecond.
+kilometer per rontosecond, defined as: hectometer per yoctosecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity KilometerPerRontosecond;

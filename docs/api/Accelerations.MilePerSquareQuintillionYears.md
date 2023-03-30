@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareQuintillionYears Field
 
-A(n) mile per square quintillion years. Defined as: (8.0)/((1000.0)*(1000.0)) × furlong per square quadrillion years.
+mile per square quintillion years, defined as: furlong per square quadrillion years × (8.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MilePerSquareQuintillionYears;

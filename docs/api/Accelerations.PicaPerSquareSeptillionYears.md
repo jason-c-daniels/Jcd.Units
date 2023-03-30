@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareSeptillionYears Field
 
-A(n) pica per square septillion years. Defined as: (12.0)/((1000.0)*(1000.0)) × point per square sextillion years.
+pica per square septillion years, defined as: point per square sextillion years × (12.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration PicaPerSquareSeptillionYears;

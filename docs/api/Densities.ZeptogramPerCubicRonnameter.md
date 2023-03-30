@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicRonnameter Field
 
-A(n) zeptogram per cubic ronnameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × attogram per cubic yottameter.
+zeptogram per cubic ronnameter, defined as: attogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density ZeptogramPerCubicRonnameter;

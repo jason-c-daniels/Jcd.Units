@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareTick Field
 
-A(n) zettameter per square tick. Defined as: (1000.0)/((100.0)*(100.0)) × exameter per square nanosecond.
+zettameter per square tick, defined as: exameter per square nanosecond × (1000.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquareTick;

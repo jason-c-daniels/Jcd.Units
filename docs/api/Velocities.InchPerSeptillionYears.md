@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerSeptillionYears Field
 
-A(n) inch per septillion years. Defined as: (2.54)/(1000.0) × SI centimeter per sextillion years.
+inch per septillion years, defined as: SI centimeter per sextillion years × (2.54)/(1000.0)
 
 ```csharp
 public static readonly Velocity InchPerSeptillionYears;

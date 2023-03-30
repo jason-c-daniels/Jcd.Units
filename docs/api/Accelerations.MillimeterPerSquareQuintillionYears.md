@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareQuintillionYears Field
 
-A(n) millimeter per square quintillion years. Defined as: (1.0/10.0)/((1000.0)*(1000.0)) × centimeter per square quadrillion years.
+millimeter per square quintillion years, defined as: centimeter per square quadrillion years × (1.0/10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareQuintillionYears;

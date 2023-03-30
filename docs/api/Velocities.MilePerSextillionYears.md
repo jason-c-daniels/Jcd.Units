@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerSextillionYears Field
 
-A(n) mile per sextillion years. Defined as: (8.0)/(1000.0) × furlong per quintillion years.
+mile per sextillion years, defined as: furlong per quintillion years × (8.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MilePerSextillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareBillionYears Field
 
-A(n) mil per square billion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × inch per square million years.
+mil per square billion years, defined as: inch per square million years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MilPerSquareBillionYears;

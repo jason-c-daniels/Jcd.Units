@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareNonillionYears Field
 
-A(n) micrometer per square nonillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × millimeter per square octillion years.
+micrometer per square nonillion years, defined as: millimeter per square octillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareNonillionYears;

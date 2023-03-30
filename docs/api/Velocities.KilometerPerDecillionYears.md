@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerDecillionYears Field
 
-A(n) kilometer per decillion years. Defined as: (10.0)/(1000.0) × hectometer per nonillion years.
+kilometer per decillion years, defined as: hectometer per nonillion years × (10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity KilometerPerDecillionYears;

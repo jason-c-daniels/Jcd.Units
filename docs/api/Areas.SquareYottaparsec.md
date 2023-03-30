@@ -3,7 +3,7 @@
 
 ## Areas.SquareYottaparsec Field
 
-A(n) square yottaparsec. Defined as: (1000.0)*(1000.0) × square zettaparsec.
+square yottaparsec, defined as: square zettaparsec × (1000.0)*(1000.0)
 
 ```csharp
 public static readonly Area SquareYottaparsec;

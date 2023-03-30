@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Nanosiemens Field
 
-A(n) nanosiemens. Defined as: 1.0/1000.0 × microsiemens.
+nanosiemens, defined as: microsiemens × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalConductance Nanosiemens;

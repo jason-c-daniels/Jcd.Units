@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerQuintillionYears Field
 
-A(n) millimeter per quintillion years. Defined as: (1.0/10.0)/(1000.0) × centimeter per quadrillion years.
+millimeter per quintillion years, defined as: centimeter per quadrillion years × (1.0/10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MillimeterPerQuintillionYears;

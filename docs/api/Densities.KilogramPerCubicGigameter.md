@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicGigameter Field
 
-A(n) kilogram per cubic gigameter. Defined as: (1.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic megameter.
+kilogram per cubic gigameter, defined as: kilogram per cubic megameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density KilogramPerCubicGigameter;

@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerQuintillionYears Field
 
-A(n) femtometer per quintillion years. Defined as: (1.0/1000.0)/(1000.0) × picometer per quadrillion years.
+femtometer per quintillion years, defined as: picometer per quadrillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity FemtometerPerQuintillionYears;

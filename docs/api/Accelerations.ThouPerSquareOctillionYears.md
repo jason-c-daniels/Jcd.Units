@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareOctillionYears Field
 
-A(n) thou per square octillion years. Defined as: (1.0/12000.0)/((1000.0)*(1000.0)) × foot per square septillion years.
+thou per square octillion years, defined as: foot per square septillion years × (1.0/12000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareOctillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquarePicosecond Field
 
-A(n) kilometer per square picosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × hectometer per square nanosecond.
+kilometer per square picosecond, defined as: hectometer per square nanosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquarePicosecond;

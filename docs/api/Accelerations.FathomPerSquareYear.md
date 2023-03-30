@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareYear Field
 
-A(n) fathom per square year. Defined as: (6.0)/((365.2525)*(365.2525)) × foot per square day.
+fathom per square year, defined as: foot per square day × (6.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration FathomPerSquareYear;

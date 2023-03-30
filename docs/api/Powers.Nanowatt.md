@@ -3,7 +3,7 @@
 
 ## Powers.Nanowatt Field
 
-A(n) nanowatt. Defined as: 1.0/1000.0 × microwatt.
+nanowatt, defined as: microwatt × 1.0/1000.0
 
 ```csharp
 public static readonly Power Nanowatt;

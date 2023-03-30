@@ -3,7 +3,7 @@
 
 ## StorageUnits.Zettanybble Field
 
-A(n) zettanybble. Defined as: 1000.0 × exanybble.
+zettanybble, defined as: exanybble × 1000.0
 
 ```csharp
 public static readonly Storage Zettanybble;

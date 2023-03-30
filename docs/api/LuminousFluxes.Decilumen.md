@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Decilumen Field
 
-A(n) decilumen. Defined as: 1.0/10.0 × lumen.
+decilumen, defined as: lumen × 1.0/10.0
 
 ```csharp
 public static readonly LuminousFlux Decilumen;

@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareWeek Field
 
-A(n) rontometer per square week. Defined as: (1.0/1000.0)/((7.0)*(7.0)) × yoctometer per square day.
+rontometer per square week, defined as: yoctometer per square day × (1.0/1000.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareWeek;

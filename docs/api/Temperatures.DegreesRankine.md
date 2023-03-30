@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesRankine Field
 
-A(n) degrees rankine. Defined as: 5.0/9.0 × SI degrees kelvin.
+degrees rankine, defined as: SI degrees kelvin × 5.0/9.0
 
 ```csharp
 public static readonly Temperature DegreesRankine;

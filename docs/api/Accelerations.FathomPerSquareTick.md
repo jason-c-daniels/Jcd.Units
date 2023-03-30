@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareTick Field
 
-A(n) fathom per square tick. Defined as: (6.0)/((100.0)*(100.0)) × foot per square nanosecond.
+fathom per square tick, defined as: foot per square nanosecond × (6.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration FathomPerSquareTick;

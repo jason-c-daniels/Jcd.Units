@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareZeptosecond Field
 
-A(n) meter per square zeptosecond. Defined as: (1.0)/((1.0/1000.0)*(1.0/1000.0)) × meter per square attosecond.
+meter per square zeptosecond, defined as: meter per square attosecond × (1.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MeterPerSquareZeptosecond;

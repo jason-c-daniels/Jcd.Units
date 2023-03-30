@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLightSecond Field
 
-A(n) cubic light-second. Defined as: (299_792_458.0)*(299_792_458.0)*(299_792_458.0) × SI cubic meter.
+cubic light-second, defined as: SI cubic meter × (299_792_458.0)*(299_792_458.0)*(299_792_458.0)
 
 ```csharp
 public static readonly Volume CubicLightSecond;

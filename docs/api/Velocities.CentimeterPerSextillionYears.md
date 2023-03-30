@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerSextillionYears Field
 
-A(n) centimeter per sextillion years. Defined as: (1.0/10.0)/(1000.0) × decimeter per quintillion years.
+centimeter per sextillion years, defined as: decimeter per quintillion years × (1.0/10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity CentimeterPerSextillionYears;

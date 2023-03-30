@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerSextillionYears Field
 
-A(n) exameter per sextillion years. Defined as: (1000.0)/(1000.0) × petameter per quintillion years.
+exameter per sextillion years, defined as: petameter per quintillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity ExameterPerSextillionYears;

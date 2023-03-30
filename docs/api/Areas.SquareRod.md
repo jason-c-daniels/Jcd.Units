@@ -3,7 +3,7 @@
 
 ## Areas.SquareRod Field
 
-A(n) square rod. Defined as: (5.0292)*(5.0292) × SI square meter.
+square rod, defined as: SI square meter × (5.0292)*(5.0292)
 
 ```csharp
 public static readonly Area SquareRod;

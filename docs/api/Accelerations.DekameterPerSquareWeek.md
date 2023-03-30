@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareWeek Field
 
-A(n) dekameter per square week. Defined as: (10.0)/((7.0)*(7.0)) × meter per square day.
+dekameter per square week, defined as: meter per square day × (10.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareWeek;

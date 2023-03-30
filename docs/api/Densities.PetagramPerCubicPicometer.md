@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicPicometer Field
 
-A(n) petagram per cubic picometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × teragram per cubic nanometer.
+petagram per cubic picometer, defined as: teragram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density PetagramPerCubicPicometer;

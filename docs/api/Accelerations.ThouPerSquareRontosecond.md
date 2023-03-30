@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareRontosecond Field
 
-A(n) thou per square rontosecond. Defined as: (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square yoctosecond.
+thou per square rontosecond, defined as: foot per square yoctosecond × (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareRontosecond;

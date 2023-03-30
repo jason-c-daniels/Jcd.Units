@@ -3,7 +3,7 @@
 
 ## Areas.SquareMile Field
 
-A(n) square mile. Defined as: (8.0)*(8.0) × square furlong.
+square mile, defined as: square furlong × (8.0)*(8.0)
 
 ```csharp
 public static readonly Area SquareMile;

@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerQuectosecond Field
 
-A(n) dekameter per quectosecond. Defined as: (10.0)/(1.0/1000.0) × meter per rontosecond.
+dekameter per quectosecond, defined as: meter per rontosecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity DekameterPerQuectosecond;

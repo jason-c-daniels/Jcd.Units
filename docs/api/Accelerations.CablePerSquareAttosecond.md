@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareAttosecond Field
 
-A(n) cable per square attosecond. Defined as: (100.0)/((1.0/1000.0)*(1.0/1000.0)) × fathom per square femtosecond.
+cable per square attosecond, defined as: fathom per square femtosecond × (100.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration CablePerSquareAttosecond;

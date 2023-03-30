@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerMillennium Field
 
-A(n) pica per millennium. Defined as: (12.0)/(10.0) × point per century.
+pica per millennium, defined as: point per century × (12.0)/(10.0)
 
 ```csharp
 public static readonly Velocity PicaPerMillennium;

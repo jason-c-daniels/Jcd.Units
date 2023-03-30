@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerQuadrillionYears Field
 
-A(n) chain per quadrillion years. Defined as: (22.0)/(1000.0) × yard per trillion years.
+chain per quadrillion years, defined as: yard per trillion years × (22.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity ChainPerQuadrillionYears;

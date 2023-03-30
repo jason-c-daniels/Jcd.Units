@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareMicrosecond Field
 
-A(n) yoctometer per square microsecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × zeptometer per square millisecond.
+yoctometer per square microsecond, defined as: zeptometer per square millisecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration YoctometerPerSquareMicrosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareTrillionYears Field
 
-A(n) link per square trillion years. Defined as: (0.20116)/((1000.0)*(1000.0)) × SI meter per square billion years.
+link per square trillion years, defined as: SI meter per square billion years × (0.20116)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration LinkPerSquareTrillionYears;

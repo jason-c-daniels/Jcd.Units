@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMarsRadius Field
 
-A(n) cubic mars radius. Defined as: (3_389.5)*(3_389.5)*(3_389.5) × SI cubic kilometer.
+cubic mars radius, defined as: SI cubic kilometer × (3_389.5)*(3_389.5)*(3_389.5)
 
 ```csharp
 public static readonly Volume CubicMarsRadius;

@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerPlanckTime Field
 
-A(n) nanometer per planck-time. Defined as: (1.0/1000.0)/(5.391247E-38) × micrometer per microsecond.
+nanometer per planck-time, defined as: micrometer per microsecond × (1.0/1000.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity NanometerPerPlanckTime;

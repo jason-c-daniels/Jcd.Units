@@ -3,7 +3,7 @@
 
 ## Capacitances.Nanofarad Field
 
-A(n) nanofarad. Defined as: 1.0/1000.0 × microfarad.
+nanofarad, defined as: microfarad × 1.0/1000.0
 
 ```csharp
 public static readonly Capacitance Nanofarad;

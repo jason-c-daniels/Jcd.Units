@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerSextillionYears Field
 
-A(n) point per sextillion years. Defined as: (1.0/72.0)/(1000.0) × inch per quintillion years.
+point per sextillion years, defined as: inch per quintillion years × (1.0/72.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity PointPerSextillionYears;

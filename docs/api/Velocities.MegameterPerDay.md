@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerDay Field
 
-A(n) megameter per day. Defined as: (1000.0)/(24.0) × kilometer per hour.
+megameter per day, defined as: kilometer per hour × (1000.0)/(24.0)
 
 ```csharp
 public static readonly Velocity MegameterPerDay;

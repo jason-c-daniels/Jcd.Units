@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareDay Field
 
-A(n) decimeter per square day. Defined as: (1.0/10.0)/((24.0)*(24.0)) × meter per square hour.
+decimeter per square day, defined as: meter per square hour × (1.0/10.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquareDay;

@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerAttosecond Field
 
-A(n) dekameter per attosecond. Defined as: (10.0)/(1.0/1000.0) × meter per femtosecond.
+dekameter per attosecond, defined as: meter per femtosecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity DekameterPerAttosecond;

@@ -18,127 +18,127 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class LuminousFluxes : UnitOfMeasureEnumeration<LuminousFluxes, LuminousFlux>
 {
    /// <summary>
-   /// A(n) lumen.
+   /// lumen, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly LuminousFlux Lumen = new ("lumen", "lm");
 
    /// <summary>
-   /// A(n) decilumen. Defined as: 1.0/10.0 × lumen.
+   /// decilumen, defined as: lumen × 1.0/10.0
    /// </summary>
-   public static readonly LuminousFlux Decilumen = new ("decilumen", "dlm", Lumen, 1.0 / 10.0, 0);
+   public static readonly LuminousFlux Decilumen = new ("decilumen", "dlm", Lumen, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) centilumen. Defined as: 1.0/10.0 × decilumen.
+   /// centilumen, defined as: decilumen × 1.0/10.0
    /// </summary>
-   public static readonly LuminousFlux Centilumen = new ("centilumen", "clm", Decilumen, 1.0 / 10.0, 0);
+   public static readonly LuminousFlux Centilumen = new ("centilumen", "clm", Decilumen, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) millilumen. Defined as: 1.0/10.0 × centilumen.
+   /// millilumen, defined as: centilumen × 1.0/10.0
    /// </summary>
-   public static readonly LuminousFlux Millilumen = new ("millilumen", "mlm", Centilumen, 1.0 / 10.0, 0);
+   public static readonly LuminousFlux Millilumen = new ("millilumen", "mlm", Centilumen, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) microlumen. Defined as: 1.0/1000.0 × millilumen.
+   /// microlumen, defined as: millilumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Microlumen = new ("microlumen", "μlm", Millilumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Microlumen = new ("microlumen", "μlm", Millilumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) nanolumen. Defined as: 1.0/1000.0 × microlumen.
+   /// nanolumen, defined as: microlumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Nanolumen = new ("nanolumen", "nlm", Microlumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Nanolumen = new ("nanolumen", "nlm", Microlumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) picolumen. Defined as: 1.0/1000.0 × nanolumen.
+   /// picolumen, defined as: nanolumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Picolumen = new ("picolumen", "plm", Nanolumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Picolumen = new ("picolumen", "plm", Nanolumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) femtolumen. Defined as: 1.0/1000.0 × picolumen.
+   /// femtolumen, defined as: picolumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Femtolumen = new ("femtolumen", "flm", Picolumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Femtolumen = new ("femtolumen", "flm", Picolumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) attolumen. Defined as: 1.0/1000.0 × femtolumen.
+   /// attolumen, defined as: femtolumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Attolumen = new ("attolumen", "alm", Femtolumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Attolumen = new ("attolumen", "alm", Femtolumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) zeptolumen. Defined as: 1.0/1000.0 × attolumen.
+   /// zeptolumen, defined as: attolumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Zeptolumen = new ("zeptolumen", "zlm", Attolumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Zeptolumen = new ("zeptolumen", "zlm", Attolumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) yoctolumen. Defined as: 1.0/1000.0 × zeptolumen.
+   /// yoctolumen, defined as: zeptolumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Yoctolumen = new ("yoctolumen", "ylm", Zeptolumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Yoctolumen = new ("yoctolumen", "ylm", Zeptolumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) rontolumen. Defined as: 1.0/1000.0 × yoctolumen.
+   /// rontolumen, defined as: yoctolumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Rontolumen = new ("rontolumen", "rlm", Yoctolumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Rontolumen = new ("rontolumen", "rlm", Yoctolumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) quectolumen. Defined as: 1.0/1000.0 × rontolumen.
+   /// quectolumen, defined as: rontolumen × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousFlux Quectolumen = new ("quectolumen", "qlm", Rontolumen, 1.0 / 1000.0, 0);
+   public static readonly LuminousFlux Quectolumen = new ("quectolumen", "qlm", Rontolumen, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) dekalumen. Defined as: 10.0 × lumen.
+   /// dekalumen, defined as: lumen × 10.0
    /// </summary>
-   public static readonly LuminousFlux Dekalumen = new ("dekalumen", "dalm", Lumen, 10.0, 0);
+   public static readonly LuminousFlux Dekalumen = new ("dekalumen", "dalm", Lumen, 10.0);
 
    /// <summary>
-   /// A(n) hectolumen. Defined as: 10.0 × dekalumen.
+   /// hectolumen, defined as: dekalumen × 10.0
    /// </summary>
-   public static readonly LuminousFlux Hectolumen = new ("hectolumen", "hlm", Dekalumen, 10.0, 0);
+   public static readonly LuminousFlux Hectolumen = new ("hectolumen", "hlm", Dekalumen, 10.0);
 
    /// <summary>
-   /// A(n) kilolumen. Defined as: 10.0 × hectolumen.
+   /// kilolumen, defined as: hectolumen × 10.0
    /// </summary>
-   public static readonly LuminousFlux Kilolumen = new ("kilolumen", "klm", Hectolumen, 10.0, 0);
+   public static readonly LuminousFlux Kilolumen = new ("kilolumen", "klm", Hectolumen, 10.0);
 
    /// <summary>
-   /// A(n) megalumen. Defined as: 1000.0 × kilolumen.
+   /// megalumen, defined as: kilolumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Megalumen = new ("megalumen", "Mlm", Kilolumen, 1000.0, 0);
+   public static readonly LuminousFlux Megalumen = new ("megalumen", "Mlm", Kilolumen, 1000.0);
 
    /// <summary>
-   /// A(n) gigalumen. Defined as: 1000.0 × megalumen.
+   /// gigalumen, defined as: megalumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Gigalumen = new ("gigalumen", "Glm", Megalumen, 1000.0, 0);
+   public static readonly LuminousFlux Gigalumen = new ("gigalumen", "Glm", Megalumen, 1000.0);
 
    /// <summary>
-   /// A(n) teralumen. Defined as: 1000.0 × gigalumen.
+   /// teralumen, defined as: gigalumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Teralumen = new ("teralumen", "Tlm", Gigalumen, 1000.0, 0);
+   public static readonly LuminousFlux Teralumen = new ("teralumen", "Tlm", Gigalumen, 1000.0);
 
    /// <summary>
-   /// A(n) petalumen. Defined as: 1000.0 × teralumen.
+   /// petalumen, defined as: teralumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Petalumen = new ("petalumen", "Plm", Teralumen, 1000.0, 0);
+   public static readonly LuminousFlux Petalumen = new ("petalumen", "Plm", Teralumen, 1000.0);
 
    /// <summary>
-   /// A(n) exalumen. Defined as: 1000.0 × petalumen.
+   /// exalumen, defined as: petalumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Exalumen = new ("exalumen", "Elm", Petalumen, 1000.0, 0);
+   public static readonly LuminousFlux Exalumen = new ("exalumen", "Elm", Petalumen, 1000.0);
 
    /// <summary>
-   /// A(n) zettalumen. Defined as: 1000.0 × exalumen.
+   /// zettalumen, defined as: exalumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Zettalumen = new ("zettalumen", "Zlm", Exalumen, 1000.0, 0);
+   public static readonly LuminousFlux Zettalumen = new ("zettalumen", "Zlm", Exalumen, 1000.0);
 
    /// <summary>
-   /// A(n) yottalumen. Defined as: 1000.0 × zettalumen.
+   /// yottalumen, defined as: zettalumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Yottalumen = new ("yottalumen", "Ylm", Zettalumen, 1000.0, 0);
+   public static readonly LuminousFlux Yottalumen = new ("yottalumen", "Ylm", Zettalumen, 1000.0);
 
    /// <summary>
-   /// A(n) ronnalumen. Defined as: 1000.0 × yottalumen.
+   /// ronnalumen, defined as: yottalumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Ronnalumen = new ("ronnalumen", "Rlm", Yottalumen, 1000.0, 0);
+   public static readonly LuminousFlux Ronnalumen = new ("ronnalumen", "Rlm", Yottalumen, 1000.0);
 
    /// <summary>
-   /// A(n) quettalumen. Defined as: 1000.0 × ronnalumen.
+   /// quettalumen, defined as: ronnalumen × 1000.0
    /// </summary>
-   public static readonly LuminousFlux Quettalumen = new ("quettalumen", "Qlm", Ronnalumen, 1000.0, 0);
+   public static readonly LuminousFlux Quettalumen = new ("quettalumen", "Qlm", Ronnalumen, 1000.0);
 }

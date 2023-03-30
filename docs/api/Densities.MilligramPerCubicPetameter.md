@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicPetameter Field
 
-A(n) milligram per cubic petameter. Defined as: (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)) × centigram per cubic terameter.
+milligram per cubic petameter, defined as: centigram per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density MilligramPerCubicPetameter;

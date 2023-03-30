@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerTrillionYears Field
 
-A(n) gigameter per trillion years. Defined as: (1000.0)/(1000.0) × megameter per billion years.
+gigameter per trillion years, defined as: megameter per billion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity GigameterPerTrillionYears;

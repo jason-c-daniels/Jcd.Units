@@ -3,7 +3,7 @@
 
 ## Capacitances.Quettafarad Field
 
-A(n) quettafarad. Defined as: 1000.0 × ronnafarad.
+quettafarad, defined as: ronnafarad × 1000.0
 
 ```csharp
 public static readonly Capacitance Quettafarad;

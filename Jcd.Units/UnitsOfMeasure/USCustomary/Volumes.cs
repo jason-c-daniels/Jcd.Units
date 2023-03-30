@@ -18,92 +18,82 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
-   /// A(n) cubic inch. Defined as: (2.54)*(2.54)*(2.54) × SI cubic centimeter.
+   /// cubic inch, defined as: SI cubic centimeter × (2.54)*(2.54)*(2.54)
    /// </summary>
-   public static readonly Volume CubicInch = new (
-                                                  "cubic inch"
-                                                , "in³"
-                                                , SI.Volumes.CubicCentimeter
-                                                , 2.54 * 2.54 * 2.54
-                                                , 0
-                                                 );
+   public static readonly Volume CubicInch = new ("cubic inch", "in³", SI.Volumes.CubicCentimeter, 2.54 * 2.54 * 2.54);
 
    /// <summary>
-   /// A(n) cubic mil. Defined as: (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0) × cubic inch.
+   /// cubic mil, defined as: cubic inch × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Volume CubicMil = new (
                                                  "cubic mil"
                                                , "mil³"
                                                , CubicInch
                                                , 1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0)
-                                               , 0
                                                 );
 
    /// <summary>
-   /// A(n) cubic point. Defined as: (1.0/72.0)*(1.0/72.0)*(1.0/72.0) × cubic inch.
+   /// cubic point, defined as: cubic inch × (1.0/72.0)*(1.0/72.0)*(1.0/72.0)
    /// </summary>
    public static readonly Volume CubicPoint = new (
                                                    "cubic point"
                                                  , "p³"
                                                  , CubicInch
                                                  , 1.0 / 72.0 * (1.0 / 72.0) * (1.0 / 72.0)
-                                                 , 0
                                                   );
 
    /// <summary>
-   /// A(n) cubic twip. Defined as: (1.0/20.0)*(1.0/20.0)*(1.0/20.0) × cubic point.
+   /// cubic twip, defined as: cubic point × (1.0/20.0)*(1.0/20.0)*(1.0/20.0)
    /// </summary>
    public static readonly Volume CubicTwip = new (
                                                   "cubic twip"
                                                 , "twip³"
                                                 , CubicPoint
                                                 , 1.0 / 20.0 * (1.0 / 20.0) * (1.0 / 20.0)
-                                                , 0
                                                  );
 
    /// <summary>
-   /// A(n) cubic pica. Defined as: (12.0)*(12.0)*(12.0) × cubic point.
+   /// cubic pica, defined as: cubic point × (12.0)*(12.0)*(12.0)
    /// </summary>
-   public static readonly Volume CubicPica = new ("cubic pica", "P³", CubicPoint, 12.0 * 12.0 * 12.0, 0);
+   public static readonly Volume CubicPica = new ("cubic pica", "P³", CubicPoint, 12.0 * 12.0 * 12.0);
 
    /// <summary>
-   /// A(n) cubic foot. Defined as: (12.0)*(12.0)*(12.0) × cubic inch.
+   /// cubic foot, defined as: cubic inch × (12.0)*(12.0)*(12.0)
    /// </summary>
-   public static readonly Volume CubicFoot = new ("cubic foot", "ft³", CubicInch, 12.0 * 12.0 * 12.0, 0);
+   public static readonly Volume CubicFoot = new ("cubic foot", "ft³", CubicInch, 12.0 * 12.0 * 12.0);
 
    /// <summary>
-   /// A(n) cubic yard. Defined as: (3.0)*(3.0)*(3.0) × cubic foot.
+   /// cubic yard, defined as: cubic foot × (3.0)*(3.0)*(3.0)
    /// </summary>
-   public static readonly Volume CubicYard = new ("cubic yard", "yd³", CubicFoot, 3.0 * 3.0 * 3.0, 0);
+   public static readonly Volume CubicYard = new ("cubic yard", "yd³", CubicFoot, 3.0 * 3.0 * 3.0);
 
    /// <summary>
-   /// A(n) cubic mile. Defined as: (1760.0)*(1760.0)*(1760.0) × cubic yard.
+   /// cubic mile, defined as: cubic yard × (1760.0)*(1760.0)*(1760.0)
    /// </summary>
-   public static readonly Volume CubicMile = new ("cubic mile", "mi³", CubicYard, 1760.0 * 1760.0 * 1760.0, 0);
+   public static readonly Volume CubicMile = new ("cubic mile", "mi³", CubicYard, 1760.0 * 1760.0 * 1760.0);
 
    /// <summary>
-   /// A(n) cubic league. Defined as: (3.0)*(3.0)*(3.0) × cubic mile.
+   /// cubic league, defined as: cubic mile × (3.0)*(3.0)*(3.0)
    /// </summary>
-   public static readonly Volume CubicLeague = new ("cubic league", "le³", CubicMile, 3.0 * 3.0 * 3.0, 0);
+   public static readonly Volume CubicLeague = new ("cubic league", "le³", CubicMile, 3.0 * 3.0 * 3.0);
 
    /// <summary>
-   /// A(n) cubic fathom. Defined as: (2.0)*(2.0)*(2.0) × cubic yard.
+   /// cubic fathom, defined as: cubic yard × (2.0)*(2.0)*(2.0)
    /// </summary>
-   public static readonly Volume CubicFathom = new ("cubic fathom", "ftm³", CubicYard, 2.0 * 2.0 * 2.0, 0);
+   public static readonly Volume CubicFathom = new ("cubic fathom", "ftm³", CubicYard, 2.0 * 2.0 * 2.0);
 
    /// <summary>
-   /// A(n) cubic cable. Defined as: (120.0)*(120.0)*(120.0) × cubic fathom.
+   /// cubic cable, defined as: cubic fathom × (120.0)*(120.0)*(120.0)
    /// </summary>
-   public static readonly Volume CubicCable = new ("cubic cable", "cb³", CubicFathom, 120.0 * 120.0 * 120.0, 0);
+   public static readonly Volume CubicCable = new ("cubic cable", "cb³", CubicFathom, 120.0 * 120.0 * 120.0);
 
    /// <summary>
-   /// A(n) cubic nautical mile. Defined as: (1852.0)*(1852.0)*(1852.0) × SI cubic meter.
+   /// cubic nautical mile, defined as: SI cubic meter × (1852.0)*(1852.0)*(1852.0)
    /// </summary>
    public static readonly Volume CubicNauticalMile = new (
                                                           "cubic nautical mile"
                                                         , "nmi³"
                                                         , SI.Volumes.CubicMeter
                                                         , 1852.0 * 1852.0 * 1852.0
-                                                        , 0
                                                          );
 }

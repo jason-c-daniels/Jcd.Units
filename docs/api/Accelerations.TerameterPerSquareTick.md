@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareTick Field
 
-A(n) terameter per square tick. Defined as: (1000.0)/((100.0)*(100.0)) × gigameter per square nanosecond.
+terameter per square tick, defined as: gigameter per square nanosecond × (1000.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareTick;

@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareDecillionYears Field
 
-A(n) fathom per square decillion years. Defined as: (6.0)/((1000.0)*(1000.0)) × foot per square nonillion years.
+fathom per square decillion years, defined as: foot per square nonillion years × (6.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration FathomPerSquareDecillionYears;

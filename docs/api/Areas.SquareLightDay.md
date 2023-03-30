@@ -3,7 +3,7 @@
 
 ## Areas.SquareLightDay Field
 
-A(n) square light-day. Defined as: (24.0)*(24.0) × square light-hour.
+square light-day, defined as: square light-hour × (24.0)*(24.0)
 
 ```csharp
 public static readonly Area SquareLightDay;

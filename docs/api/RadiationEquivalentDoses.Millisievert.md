@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Millisievert Field
 
-A(n) millisievert. Defined as: 1.0/10.0 × centisievert.
+millisievert, defined as: centisievert × 1.0/10.0
 
 ```csharp
 public static readonly RadiationEquivalentDose Millisievert;

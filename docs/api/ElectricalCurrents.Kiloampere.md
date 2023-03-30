@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Kiloampere Field
 
-A(n) kiloampere. Defined as: 10.0 × hectoampere.
+kiloampere, defined as: hectoampere × 10.0
 
 ```csharp
 public static readonly ElectricalCurrent Kiloampere;

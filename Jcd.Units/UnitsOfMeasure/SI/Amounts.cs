@@ -18,127 +18,127 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
 {
    /// <summary>
-   /// A(n) mole. Defined as: 6.02214076E+23 ×  count.
+   /// mole, defined as:  count × 6.02214076E+23
    /// </summary>
-   public static readonly Amount Mole = new ("mole", "mol", UnitsOfMeasure.Amounts.Count, 6.02214076E+23, 0);
+   public static readonly Amount Mole = new ("mole", "mol", UnitsOfMeasure.Amounts.Count, 6.02214076E+23);
 
    /// <summary>
-   /// A(n) decimole. Defined as: 1.0/10.0 × mole.
+   /// decimole, defined as: mole × 1.0/10.0
    /// </summary>
-   public static readonly Amount Decimole = new ("decimole", "dmol", Mole, 1.0 / 10.0, 0);
+   public static readonly Amount Decimole = new ("decimole", "dmol", Mole, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) centimole. Defined as: 1.0/10.0 × decimole.
+   /// centimole, defined as: decimole × 1.0/10.0
    /// </summary>
-   public static readonly Amount Centimole = new ("centimole", "cmol", Decimole, 1.0 / 10.0, 0);
+   public static readonly Amount Centimole = new ("centimole", "cmol", Decimole, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) millimole. Defined as: 1.0/10.0 × centimole.
+   /// millimole, defined as: centimole × 1.0/10.0
    /// </summary>
-   public static readonly Amount Millimole = new ("millimole", "mmol", Centimole, 1.0 / 10.0, 0);
+   public static readonly Amount Millimole = new ("millimole", "mmol", Centimole, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) micromole. Defined as: 1.0/1000.0 × millimole.
+   /// micromole, defined as: millimole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Micromole = new ("micromole", "μmol", Millimole, 1.0 / 1000.0, 0);
+   public static readonly Amount Micromole = new ("micromole", "μmol", Millimole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) nanomole. Defined as: 1.0/1000.0 × micromole.
+   /// nanomole, defined as: micromole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Nanomole = new ("nanomole", "nmol", Micromole, 1.0 / 1000.0, 0);
+   public static readonly Amount Nanomole = new ("nanomole", "nmol", Micromole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) picomole. Defined as: 1.0/1000.0 × nanomole.
+   /// picomole, defined as: nanomole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Picomole = new ("picomole", "pmol", Nanomole, 1.0 / 1000.0, 0);
+   public static readonly Amount Picomole = new ("picomole", "pmol", Nanomole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) femtomole. Defined as: 1.0/1000.0 × picomole.
+   /// femtomole, defined as: picomole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Femtomole = new ("femtomole", "fmol", Picomole, 1.0 / 1000.0, 0);
+   public static readonly Amount Femtomole = new ("femtomole", "fmol", Picomole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) attomole. Defined as: 1.0/1000.0 × femtomole.
+   /// attomole, defined as: femtomole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Attomole = new ("attomole", "amol", Femtomole, 1.0 / 1000.0, 0);
+   public static readonly Amount Attomole = new ("attomole", "amol", Femtomole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) zeptomole. Defined as: 1.0/1000.0 × attomole.
+   /// zeptomole, defined as: attomole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Zeptomole = new ("zeptomole", "zmol", Attomole, 1.0 / 1000.0, 0);
+   public static readonly Amount Zeptomole = new ("zeptomole", "zmol", Attomole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) yoctomole. Defined as: 1.0/1000.0 × zeptomole.
+   /// yoctomole, defined as: zeptomole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Yoctomole = new ("yoctomole", "ymol", Zeptomole, 1.0 / 1000.0, 0);
+   public static readonly Amount Yoctomole = new ("yoctomole", "ymol", Zeptomole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) rontomole. Defined as: 1.0/1000.0 × yoctomole.
+   /// rontomole, defined as: yoctomole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Rontomole = new ("rontomole", "rmol", Yoctomole, 1.0 / 1000.0, 0);
+   public static readonly Amount Rontomole = new ("rontomole", "rmol", Yoctomole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) quectomole. Defined as: 1.0/1000.0 × rontomole.
+   /// quectomole, defined as: rontomole × 1.0/1000.0
    /// </summary>
-   public static readonly Amount Quectomole = new ("quectomole", "qmol", Rontomole, 1.0 / 1000.0, 0);
+   public static readonly Amount Quectomole = new ("quectomole", "qmol", Rontomole, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) dekamole. Defined as: 10.0 × mole.
+   /// dekamole, defined as: mole × 10.0
    /// </summary>
-   public static readonly Amount Dekamole = new ("dekamole", "damol", Mole, 10.0, 0);
+   public static readonly Amount Dekamole = new ("dekamole", "damol", Mole, 10.0);
 
    /// <summary>
-   /// A(n) hectomole. Defined as: 10.0 × dekamole.
+   /// hectomole, defined as: dekamole × 10.0
    /// </summary>
-   public static readonly Amount Hectomole = new ("hectomole", "hmol", Dekamole, 10.0, 0);
+   public static readonly Amount Hectomole = new ("hectomole", "hmol", Dekamole, 10.0);
 
    /// <summary>
-   /// A(n) kilomole. Defined as: 10.0 × hectomole.
+   /// kilomole, defined as: hectomole × 10.0
    /// </summary>
-   public static readonly Amount Kilomole = new ("kilomole", "kmol", Hectomole, 10.0, 0);
+   public static readonly Amount Kilomole = new ("kilomole", "kmol", Hectomole, 10.0);
 
    /// <summary>
-   /// A(n) megamole. Defined as: 1000.0 × kilomole.
+   /// megamole, defined as: kilomole × 1000.0
    /// </summary>
-   public static readonly Amount Megamole = new ("megamole", "Mmol", Kilomole, 1000.0, 0);
+   public static readonly Amount Megamole = new ("megamole", "Mmol", Kilomole, 1000.0);
 
    /// <summary>
-   /// A(n) gigamole. Defined as: 1000.0 × megamole.
+   /// gigamole, defined as: megamole × 1000.0
    /// </summary>
-   public static readonly Amount Gigamole = new ("gigamole", "Gmol", Megamole, 1000.0, 0);
+   public static readonly Amount Gigamole = new ("gigamole", "Gmol", Megamole, 1000.0);
 
    /// <summary>
-   /// A(n) teramole. Defined as: 1000.0 × gigamole.
+   /// teramole, defined as: gigamole × 1000.0
    /// </summary>
-   public static readonly Amount Teramole = new ("teramole", "Tmol", Gigamole, 1000.0, 0);
+   public static readonly Amount Teramole = new ("teramole", "Tmol", Gigamole, 1000.0);
 
    /// <summary>
-   /// A(n) petamole. Defined as: 1000.0 × teramole.
+   /// petamole, defined as: teramole × 1000.0
    /// </summary>
-   public static readonly Amount Petamole = new ("petamole", "Pmol", Teramole, 1000.0, 0);
+   public static readonly Amount Petamole = new ("petamole", "Pmol", Teramole, 1000.0);
 
    /// <summary>
-   /// A(n) examole. Defined as: 1000.0 × petamole.
+   /// examole, defined as: petamole × 1000.0
    /// </summary>
-   public static readonly Amount Examole = new ("examole", "Emol", Petamole, 1000.0, 0);
+   public static readonly Amount Examole = new ("examole", "Emol", Petamole, 1000.0);
 
    /// <summary>
-   /// A(n) zettamole. Defined as: 1000.0 × examole.
+   /// zettamole, defined as: examole × 1000.0
    /// </summary>
-   public static readonly Amount Zettamole = new ("zettamole", "Zmol", Examole, 1000.0, 0);
+   public static readonly Amount Zettamole = new ("zettamole", "Zmol", Examole, 1000.0);
 
    /// <summary>
-   /// A(n) yottamole. Defined as: 1000.0 × zettamole.
+   /// yottamole, defined as: zettamole × 1000.0
    /// </summary>
-   public static readonly Amount Yottamole = new ("yottamole", "Ymol", Zettamole, 1000.0, 0);
+   public static readonly Amount Yottamole = new ("yottamole", "Ymol", Zettamole, 1000.0);
 
    /// <summary>
-   /// A(n) ronnamole. Defined as: 1000.0 × yottamole.
+   /// ronnamole, defined as: yottamole × 1000.0
    /// </summary>
-   public static readonly Amount Ronnamole = new ("ronnamole", "Rmol", Yottamole, 1000.0, 0);
+   public static readonly Amount Ronnamole = new ("ronnamole", "Rmol", Yottamole, 1000.0);
 
    /// <summary>
-   /// A(n) quettamole. Defined as: 1000.0 × ronnamole.
+   /// quettamole, defined as: ronnamole × 1000.0
    /// </summary>
-   public static readonly Amount Quettamole = new ("quettamole", "Qmol", Ronnamole, 1000.0, 0);
+   public static readonly Amount Quettamole = new ("quettamole", "Qmol", Ronnamole, 1000.0);
 }

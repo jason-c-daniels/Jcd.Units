@@ -3,7 +3,7 @@
 
 ## Masses.Decigram Field
 
-A(n) decigram. Defined as: 1.0/10.0 × gram.
+decigram, defined as: gram × 1.0/10.0
 
 ```csharp
 public static readonly Mass Decigram;

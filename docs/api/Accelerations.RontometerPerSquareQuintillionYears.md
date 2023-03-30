@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareQuintillionYears Field
 
-A(n) rontometer per square quintillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × yoctometer per square quadrillion years.
+rontometer per square quintillion years, defined as: yoctometer per square quadrillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareQuintillionYears;

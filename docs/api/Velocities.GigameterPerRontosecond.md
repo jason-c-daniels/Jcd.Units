@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerRontosecond Field
 
-A(n) gigameter per rontosecond. Defined as: (1000.0)/(1.0/1000.0) × megameter per yoctosecond.
+gigameter per rontosecond, defined as: megameter per yoctosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity GigameterPerRontosecond;

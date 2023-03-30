@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicKilometer Field
 
-A(n) femtogram per cubic kilometer. Defined as: (1.0/1000.0)/((10.0)*(10.0)*(10.0)) × picogram per cubic hectometer.
+femtogram per cubic kilometer, defined as: picogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density FemtogramPerCubicKilometer;

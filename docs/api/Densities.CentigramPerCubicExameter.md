@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicExameter Field
 
-A(n) centigram per cubic exameter. Defined as: (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)) × decigram per cubic petameter.
+centigram per cubic exameter, defined as: decigram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density CentigramPerCubicExameter;

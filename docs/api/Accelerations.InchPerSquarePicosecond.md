@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquarePicosecond Field
 
-A(n) inch per square picosecond. Defined as: (2.54)/((1.0/1000.0)*(1.0/1000.0)) × SI centimeter per square nanosecond.
+inch per square picosecond, defined as: SI centimeter per square nanosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration InchPerSquarePicosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareNonillionYears Field
 
-A(n) rod per square nonillion years. Defined as: (5.0292)/((1000.0)*(1000.0)) × SI meter per square octillion years.
+rod per square nonillion years, defined as: SI meter per square octillion years × (5.0292)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration RodPerSquareNonillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareCentury Field
 
-A(n) thou per square century. Defined as: (1.0/12000.0)/((10.0)*(10.0)) × foot per square decade.
+thou per square century, defined as: foot per square decade × (1.0/12000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareCentury;

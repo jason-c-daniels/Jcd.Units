@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerDecade Field
 
-A(n) ronnameter per decade. Defined as: (1000.0)/(10.0) × yottameter per year.
+ronnameter per decade, defined as: yottameter per year × (1000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity RonnameterPerDecade;

@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerYoctosecond Field
 
-A(n) gigameter per yoctosecond. Defined as: (1000.0)/(1.0/1000.0) × megameter per zeptosecond.
+gigameter per yoctosecond, defined as: megameter per zeptosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity GigameterPerYoctosecond;

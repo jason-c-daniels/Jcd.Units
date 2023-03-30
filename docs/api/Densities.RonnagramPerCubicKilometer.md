@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicKilometer Field
 
-A(n) ronnagram per cubic kilometer. Defined as: (1000.0)/((10.0)*(10.0)*(10.0)) × yottagram per cubic hectometer.
+ronnagram per cubic kilometer, defined as: yottagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density RonnagramPerCubicKilometer;

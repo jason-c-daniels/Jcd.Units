@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerSeptillionYears Field
 
-A(n) petameter per septillion years. Defined as: (1000.0)/(1000.0) × terameter per sextillion years.
+petameter per septillion years, defined as: terameter per sextillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity PetameterPerSeptillionYears;

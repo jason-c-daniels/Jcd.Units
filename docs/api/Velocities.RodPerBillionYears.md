@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerBillionYears Field
 
-A(n) rod per billion years. Defined as: (5.0292)/(1000.0) × SI meter per million years.
+rod per billion years, defined as: SI meter per million years × (5.0292)/(1000.0)
 
 ```csharp
 public static readonly Velocity RodPerBillionYears;

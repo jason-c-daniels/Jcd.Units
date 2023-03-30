@@ -3,7 +3,7 @@
 
 ## TransferRates.GigabytesPerSecond Field
 
-A(n) gigabytes per second. Defined as: 1000.0 × megabytes per second.
+gigabytes per second, defined as: megabytes per second × 1000.0
 
 ```csharp
 public static readonly TransferRate GigabytesPerSecond;

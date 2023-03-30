@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Quectocoulomb Field
 
-A(n) quectocoulomb. Defined as: 1.0/1000.0 × rontocoulomb.
+quectocoulomb, defined as: rontocoulomb × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalCharge Quectocoulomb;

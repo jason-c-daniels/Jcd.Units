@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquarePlanckTime Field
 
-A(n) foot per square planck-time. Defined as: (12)/((5.391247E-38)*(5.391247E-38)) × inch per square microsecond.
+foot per square planck-time, defined as: inch per square microsecond × (12)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration FootPerSquarePlanckTime;

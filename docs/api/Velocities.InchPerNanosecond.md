@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerNanosecond Field
 
-A(n) inch per nanosecond. Defined as: (2.54)/(1.0/1000.0) × SI centimeter per microsecond.
+inch per nanosecond, defined as: SI centimeter per microsecond × (2.54)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity InchPerNanosecond;

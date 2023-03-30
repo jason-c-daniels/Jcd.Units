@@ -3,7 +3,7 @@
 
 ## Masses.Zettagram Field
 
-A(n) zettagram. Defined as: 1000.0 × exagram.
+zettagram, defined as: exagram × 1000.0
 
 ```csharp
 public static readonly Mass Zettagram;

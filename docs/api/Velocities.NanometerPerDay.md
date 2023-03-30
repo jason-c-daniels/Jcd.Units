@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerDay Field
 
-A(n) nanometer per day. Defined as: (1.0/1000.0)/(24.0) × micrometer per hour.
+nanometer per day, defined as: micrometer per hour × (1.0/1000.0)/(24.0)
 
 ```csharp
 public static readonly Velocity NanometerPerDay;

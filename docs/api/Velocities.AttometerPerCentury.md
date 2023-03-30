@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerCentury Field
 
-A(n) attometer per century. Defined as: (1.0/1000.0)/(10.0) × femtometer per decade.
+attometer per century, defined as: femtometer per decade × (1.0/1000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity AttometerPerCentury;

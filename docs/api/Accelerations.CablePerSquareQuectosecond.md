@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareQuectosecond Field
 
-A(n) cable per square quectosecond. Defined as: (100.0)/((1.0/1000.0)*(1.0/1000.0)) × fathom per square rontosecond.
+cable per square quectosecond, defined as: fathom per square rontosecond × (100.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration CablePerSquareQuectosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareDecillionYears Field
 
-A(n) point per square decillion years. Defined as: (1.0/72.0)/((1000.0)*(1000.0)) × inch per square nonillion years.
+point per square decillion years, defined as: inch per square nonillion years × (1.0/72.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration PointPerSquareDecillionYears;

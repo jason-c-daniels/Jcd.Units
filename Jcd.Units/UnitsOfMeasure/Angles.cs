@@ -18,22 +18,22 @@ namespace Jcd.Units.UnitsOfMeasure;
 public class Angles : UnitOfMeasureEnumeration<Angles, Angle>
 {
    /// <summary>
-   /// A(n) degree. Defined as: (180.0/Math.PI) × SI radian.
+   /// degree, defined as: SI radian × (180.0/Math.PI)
    /// </summary>
-   public static readonly Angle Degree = new ("degree", "°", SI.Angles.Radian, 180.0 / Math.PI, 0);
+   public static readonly Angle Degree = new ("degree", "°", SI.Angles.Radian, 180.0 / Math.PI);
 
    /// <summary>
-   /// A(n) arc minute. Defined as: 1.0/60.0 × degree.
+   /// arc minute, defined as: degree × 1.0/60.0
    /// </summary>
-   public static readonly Angle ArcMinute = new ("arc minute", "′", Degree, 1.0 / 60.0, 0);
+   public static readonly Angle ArcMinute = new ("arc minute", "′", Degree, 1.0 / 60.0);
 
    /// <summary>
-   /// A(n) arc second. Defined as: 1.0/60.0 × arc minute.
+   /// arc second, defined as: arc minute × 1.0/60.0
    /// </summary>
-   public static readonly Angle ArcSecond = new ("arc second", "″", ArcMinute, 1.0 / 60.0, 0);
+   public static readonly Angle ArcSecond = new ("arc second", "″", ArcMinute, 1.0 / 60.0);
 
    /// <summary>
-   /// A(n) gradian. Defined as: (Math.PI/200.0) × SI radian.
+   /// gradian, defined as: SI radian × (Math.PI/200.0)
    /// </summary>
-   public static readonly Angle Gradian = new ("gradian", "ᵍ", SI.Angles.Radian, Math.PI / 200.0, 0);
+   public static readonly Angle Gradian = new ("gradian", "ᵍ", SI.Angles.Radian, Math.PI / 200.0);
 }

@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareYear Field
 
-A(n) twip per square year. Defined as: (1.0/17280.0)/((365.2525)*(365.2525)) × foot per square day.
+twip per square year, defined as: foot per square day × (1.0/17280.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration TwipPerSquareYear;

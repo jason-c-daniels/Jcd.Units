@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareWeek Field
 
-A(n) point per square week. Defined as: (1.0/72.0)/((7.0)*(7.0)) × inch per square day.
+point per square week, defined as: inch per square day × (1.0/72.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration PointPerSquareWeek;

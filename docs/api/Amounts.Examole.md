@@ -3,7 +3,7 @@
 
 ## Amounts.Examole Field
 
-A(n) examole. Defined as: 1000.0 × petamole.
+examole, defined as: petamole × 1000.0
 
 ```csharp
 public static readonly Amount Examole;

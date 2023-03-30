@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerCentury Field
 
-A(n) dekameter per century. Defined as: (10.0)/(10.0) × meter per decade.
+dekameter per century, defined as: meter per decade × (10.0)/(10.0)
 
 ```csharp
 public static readonly Velocity DekameterPerCentury;

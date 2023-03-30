@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareYoctosecond Field
 
-A(n) attometer per square yoctosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × femtometer per square zeptosecond.
+attometer per square yoctosecond, defined as: femtometer per square zeptosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareYoctosecond;

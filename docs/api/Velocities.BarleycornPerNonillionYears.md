@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerNonillionYears Field
 
-A(n) barleycorn per nonillion years. Defined as: (1.0/36.0)/(1000.0) × foot per octillion years.
+barleycorn per nonillion years, defined as: foot per octillion years × (1.0/36.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity BarleycornPerNonillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareCentury Field
 
-A(n) nautical mile per square century. Defined as: (10.0)/((10.0)*(10.0)) × cable per square decade.
+nautical mile per square century, defined as: cable per square decade × (10.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareCentury;

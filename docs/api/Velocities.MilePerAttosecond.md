@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerAttosecond Field
 
-A(n) mile per attosecond. Defined as: (8.0)/(1.0/1000.0) × furlong per femtosecond.
+mile per attosecond, defined as: furlong per femtosecond × (8.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity MilePerAttosecond;

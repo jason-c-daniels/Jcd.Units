@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerNonillionYears Field
 
-A(n) rontometer per nonillion years. Defined as: (1.0/1000.0)/(1000.0) × yoctometer per octillion years.
+rontometer per nonillion years, defined as: yoctometer per octillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity RontometerPerNonillionYears;

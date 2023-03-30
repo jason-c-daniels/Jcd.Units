@@ -3,7 +3,7 @@
 
 ## Areas.SquareDekameter Field
 
-A(n) square dekameter. Defined as: (10.0)*(10.0) × square meter.
+square dekameter, defined as: square meter × (10.0)*(10.0)
 
 ```csharp
 public static readonly Area SquareDekameter;

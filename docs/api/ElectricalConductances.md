@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attosiemens](ElectricalConductances.Attosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Attosiemens') | A(n) attosiemens. Defined as: 1.0/1000.0 × femtosiemens. |
-| [Centisiemens](ElectricalConductances.Centisiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Centisiemens') | A(n) centisiemens. Defined as: 1.0/10.0 × decisiemens. |
-| [Decisiemens](ElectricalConductances.Decisiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Decisiemens') | A(n) decisiemens. Defined as: 1.0/10.0 × siemens. |
-| [Dekasiemens](ElectricalConductances.Dekasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Dekasiemens') | A(n) dekasiemens. Defined as: 10.0 × siemens. |
-| [Exasiemens](ElectricalConductances.Exasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Exasiemens') | A(n) exasiemens. Defined as: 1000.0 × petasiemens. |
-| [Femtosiemens](ElectricalConductances.Femtosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Femtosiemens') | A(n) femtosiemens. Defined as: 1.0/1000.0 × picosiemens. |
-| [Gigasiemens](ElectricalConductances.Gigasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Gigasiemens') | A(n) gigasiemens. Defined as: 1000.0 × megasiemens. |
-| [Hectosiemens](ElectricalConductances.Hectosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Hectosiemens') | A(n) hectosiemens. Defined as: 10.0 × dekasiemens. |
-| [Kilosiemens](ElectricalConductances.Kilosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Kilosiemens') | A(n) kilosiemens. Defined as: 10.0 × hectosiemens. |
-| [Megasiemens](ElectricalConductances.Megasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Megasiemens') | A(n) megasiemens. Defined as: 1000.0 × kilosiemens. |
-| [Microsiemens](ElectricalConductances.Microsiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Microsiemens') | A(n) microsiemens. Defined as: 1.0/1000.0 × millisiemens. |
-| [Millisiemens](ElectricalConductances.Millisiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Millisiemens') | A(n) millisiemens. Defined as: 1.0/10.0 × centisiemens. |
-| [Nanosiemens](ElectricalConductances.Nanosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Nanosiemens') | A(n) nanosiemens. Defined as: 1.0/1000.0 × microsiemens. |
-| [Petasiemens](ElectricalConductances.Petasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Petasiemens') | A(n) petasiemens. Defined as: 1000.0 × terasiemens. |
-| [Picosiemens](ElectricalConductances.Picosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Picosiemens') | A(n) picosiemens. Defined as: 1.0/1000.0 × nanosiemens. |
-| [Quectosiemens](ElectricalConductances.Quectosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Quectosiemens') | A(n) quectosiemens. Defined as: 1.0/1000.0 × rontosiemens. |
-| [Quettasiemens](ElectricalConductances.Quettasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Quettasiemens') | A(n) quettasiemens. Defined as: 1000.0 × ronnasiemens. |
-| [Ronnasiemens](ElectricalConductances.Ronnasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Ronnasiemens') | A(n) ronnasiemens. Defined as: 1000.0 × yottasiemens. |
-| [Rontosiemens](ElectricalConductances.Rontosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Rontosiemens') | A(n) rontosiemens. Defined as: 1.0/1000.0 × yoctosiemens. |
-| [Siemens](ElectricalConductances.Siemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Siemens') | A(n) siemens. |
-| [Terasiemens](ElectricalConductances.Terasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Terasiemens') | A(n) terasiemens. Defined as: 1000.0 × gigasiemens. |
-| [Yoctosiemens](ElectricalConductances.Yoctosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Yoctosiemens') | A(n) yoctosiemens. Defined as: 1.0/1000.0 × zeptosiemens. |
-| [Yottasiemens](ElectricalConductances.Yottasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Yottasiemens') | A(n) yottasiemens. Defined as: 1000.0 × zettasiemens. |
-| [Zeptosiemens](ElectricalConductances.Zeptosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Zeptosiemens') | A(n) zeptosiemens. Defined as: 1.0/1000.0 × attosiemens. |
-| [Zettasiemens](ElectricalConductances.Zettasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Zettasiemens') | A(n) zettasiemens. Defined as: 1000.0 × exasiemens. |
+| [Attosiemens](ElectricalConductances.Attosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Attosiemens') | attosiemens, defined as: femtosiemens × 1.0/1000.0 |
+| [Centisiemens](ElectricalConductances.Centisiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Centisiemens') | centisiemens, defined as: decisiemens × 1.0/10.0 |
+| [Decisiemens](ElectricalConductances.Decisiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Decisiemens') | decisiemens, defined as: siemens × 1.0/10.0 |
+| [Dekasiemens](ElectricalConductances.Dekasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Dekasiemens') | dekasiemens, defined as: siemens × 10.0 |
+| [Exasiemens](ElectricalConductances.Exasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Exasiemens') | exasiemens, defined as: petasiemens × 1000.0 |
+| [Femtosiemens](ElectricalConductances.Femtosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Femtosiemens') | femtosiemens, defined as: picosiemens × 1.0/1000.0 |
+| [Gigasiemens](ElectricalConductances.Gigasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Gigasiemens') | gigasiemens, defined as: megasiemens × 1000.0 |
+| [Hectosiemens](ElectricalConductances.Hectosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Hectosiemens') | hectosiemens, defined as: dekasiemens × 10.0 |
+| [Kilosiemens](ElectricalConductances.Kilosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Kilosiemens') | kilosiemens, defined as: hectosiemens × 10.0 |
+| [Megasiemens](ElectricalConductances.Megasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Megasiemens') | megasiemens, defined as: kilosiemens × 1000.0 |
+| [Microsiemens](ElectricalConductances.Microsiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Microsiemens') | microsiemens, defined as: millisiemens × 1.0/1000.0 |
+| [Millisiemens](ElectricalConductances.Millisiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Millisiemens') | millisiemens, defined as: centisiemens × 1.0/10.0 |
+| [Nanosiemens](ElectricalConductances.Nanosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Nanosiemens') | nanosiemens, defined as: microsiemens × 1.0/1000.0 |
+| [Petasiemens](ElectricalConductances.Petasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Petasiemens') | petasiemens, defined as: terasiemens × 1000.0 |
+| [Picosiemens](ElectricalConductances.Picosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Picosiemens') | picosiemens, defined as: nanosiemens × 1.0/1000.0 |
+| [Quectosiemens](ElectricalConductances.Quectosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Quectosiemens') | quectosiemens, defined as: rontosiemens × 1.0/1000.0 |
+| [Quettasiemens](ElectricalConductances.Quettasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Quettasiemens') | quettasiemens, defined as: ronnasiemens × 1000.0 |
+| [Ronnasiemens](ElectricalConductances.Ronnasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Ronnasiemens') | ronnasiemens, defined as: yottasiemens × 1000.0 |
+| [Rontosiemens](ElectricalConductances.Rontosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Rontosiemens') | rontosiemens, defined as: yoctosiemens × 1.0/1000.0 |
+| [Siemens](ElectricalConductances.Siemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Siemens') | siemens, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
+| [Terasiemens](ElectricalConductances.Terasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Terasiemens') | terasiemens, defined as: gigasiemens × 1000.0 |
+| [Yoctosiemens](ElectricalConductances.Yoctosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Yoctosiemens') | yoctosiemens, defined as: zeptosiemens × 1.0/1000.0 |
+| [Yottasiemens](ElectricalConductances.Yottasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Yottasiemens') | yottasiemens, defined as: zettasiemens × 1000.0 |
+| [Zeptosiemens](ElectricalConductances.Zeptosiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Zeptosiemens') | zeptosiemens, defined as: attosiemens × 1.0/1000.0 |
+| [Zettasiemens](ElectricalConductances.Zettasiemens.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances.Zettasiemens') | zettasiemens, defined as: exasiemens × 1000.0 |

@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareCentury Field
 
-A(n) centimeter per square century. Defined as: (1.0/10.0)/((10.0)*(10.0)) × decimeter per square decade.
+centimeter per square century, defined as: decimeter per square decade × (1.0/10.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareCentury;

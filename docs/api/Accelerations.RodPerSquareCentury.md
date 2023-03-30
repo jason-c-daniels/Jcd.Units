@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareCentury Field
 
-A(n) rod per square century. Defined as: (5.0292)/((10.0)*(10.0)) × SI meter per square decade.
+rod per square century, defined as: SI meter per square decade × (5.0292)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration RodPerSquareCentury;

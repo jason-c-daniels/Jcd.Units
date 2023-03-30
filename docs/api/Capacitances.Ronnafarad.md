@@ -3,7 +3,7 @@
 
 ## Capacitances.Ronnafarad Field
 
-A(n) ronnafarad. Defined as: 1000.0 × yottafarad.
+ronnafarad, defined as: yottafarad × 1000.0
 
 ```csharp
 public static readonly Capacitance Ronnafarad;

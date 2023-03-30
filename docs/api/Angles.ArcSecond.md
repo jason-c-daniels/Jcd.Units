@@ -3,7 +3,7 @@
 
 ## Angles.ArcSecond Field
 
-A(n) arc second. Defined as: 1.0/60.0 × arc minute.
+arc second, defined as: arc minute × 1.0/60.0
 
 ```csharp
 public static readonly Angle ArcSecond;

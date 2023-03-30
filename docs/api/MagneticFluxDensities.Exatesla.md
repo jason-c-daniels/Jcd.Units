@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Exatesla Field
 
-A(n) exatesla. Defined as: 1000.0 × petatesla.
+exatesla, defined as: petatesla × 1000.0
 
 ```csharp
 public static readonly MagneticFluxDensity Exatesla;

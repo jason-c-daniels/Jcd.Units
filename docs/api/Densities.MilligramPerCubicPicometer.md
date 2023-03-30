@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicPicometer Field
 
-A(n) milligram per cubic picometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × centigram per cubic nanometer.
+milligram per cubic picometer, defined as: centigram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density MilligramPerCubicPicometer;

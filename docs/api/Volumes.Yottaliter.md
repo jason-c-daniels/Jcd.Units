@@ -3,7 +3,7 @@
 
 ## Volumes.Yottaliter Field
 
-A(n) yottaliter. Defined as: 1000.0 × zettaliter.
+yottaliter, defined as: zettaliter × 1000.0
 
 ```csharp
 public static readonly Volume Yottaliter;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicZettaparsec Field
 
-A(n) cubic zettaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic exaparsec.
+cubic zettaparsec, defined as: cubic exaparsec × (1000.0)*(1000.0)*(1000.0)
 
 ```csharp
 public static readonly Volume CubicZettaparsec;

@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerQuintillionYears Field
 
-A(n) zettameter per quintillion years. Defined as: (1000.0)/(1000.0) × exameter per quadrillion years.
+zettameter per quintillion years, defined as: exameter per quadrillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity ZettameterPerQuintillionYears;

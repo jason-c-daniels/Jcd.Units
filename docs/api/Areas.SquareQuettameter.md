@@ -3,7 +3,7 @@
 
 ## Areas.SquareQuettameter Field
 
-A(n) square quettameter. Defined as: (1000.0)*(1000.0) × square ronnameter.
+square quettameter, defined as: square ronnameter × (1000.0)*(1000.0)
 
 ```csharp
 public static readonly Area SquareQuettameter;

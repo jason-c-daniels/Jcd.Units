@@ -3,7 +3,7 @@
 
 ## Volumes.CubicKilolightYear Field
 
-A(n) cubic kilolight-year. Defined as: (10.0)*(10.0)*(10.0) × cubic hectolight-year.
+cubic kilolight-year, defined as: cubic hectolight-year × (10.0)*(10.0)*(10.0)
 
 ```csharp
 public static readonly Volume CubicKilolightYear;

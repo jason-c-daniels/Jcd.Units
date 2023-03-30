@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerYoctosecond Field
 
-A(n) foot per yoctosecond. Defined as: (12)/(1.0/1000.0) × inch per zeptosecond.
+foot per yoctosecond, defined as: inch per zeptosecond × (12)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity FootPerYoctosecond;

@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Energies : UnitOfMeasureEnumeration<Energies, Energy>
 {
    /// <summary>
-   /// A(n) planck-energy. Defined as: 1.9561E+9 × SI joule.
+   /// planck-energy, defined as: SI joule × 1.9561E+9
    /// </summary>
-   public static readonly Energy PlanckEnergy = new ("planck-energy", "Eₚ", SI.Energies.Joule, 1.9561E+9, 0);
+   public static readonly Energy PlanckEnergy = new ("planck-energy", "Eₚ", SI.Energies.Joule, 1.9561E+9);
 }

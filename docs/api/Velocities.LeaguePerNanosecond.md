@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerNanosecond Field
 
-A(n) league per nanosecond. Defined as: (3.0)/(1.0/1000.0) × mile per microsecond.
+league per nanosecond, defined as: mile per microsecond × (3.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity LeaguePerNanosecond;

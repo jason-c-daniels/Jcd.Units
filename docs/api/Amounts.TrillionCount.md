@@ -3,7 +3,7 @@
 
 ## Amounts.TrillionCount Field
 
-A(n) trillion count. Defined as: 1_000_000.0 × billion count.
+trillion count, defined as: billion count × 1_000_000.0
 
 ```csharp
 public static readonly Amount TrillionCount;

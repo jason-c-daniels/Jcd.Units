@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicHectometer Field
 
-A(n) petagram per cubic hectometer. Defined as: (1000.0)/((10.0)*(10.0)*(10.0)) × teragram per cubic dekameter.
+petagram per cubic hectometer, defined as: teragram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density PetagramPerCubicHectometer;

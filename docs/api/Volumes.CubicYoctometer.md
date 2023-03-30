@@ -3,7 +3,7 @@
 
 ## Volumes.CubicYoctometer Field
 
-A(n) cubic yoctometer. Defined as: (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0) × cubic zeptometer.
+cubic yoctometer, defined as: cubic zeptometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
 
 ```csharp
 public static readonly Volume CubicYoctometer;

@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicMeter Field
 
-A(n) dekagram per cubic meter. Defined as: (1.0/10.0)/((1.0)*(1.0)*(1.0)) × hectogram per cubic meter.
+dekagram per cubic meter, defined as: hectogram per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
 
 ```csharp
 public static readonly Density DekagramPerCubicMeter;

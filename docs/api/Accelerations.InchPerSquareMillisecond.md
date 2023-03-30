@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareMillisecond Field
 
-A(n) inch per square millisecond. Defined as: (2.54)/((1.0/10.0)*(1.0/10.0)) × SI centimeter per square centisecond.
+inch per square millisecond, defined as: SI centimeter per square centisecond × (2.54)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration InchPerSquareMillisecond;

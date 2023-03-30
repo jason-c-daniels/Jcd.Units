@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareQuectosecond Field
 
-A(n) exameter per square quectosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × petameter per square rontosecond.
+exameter per square quectosecond, defined as: petameter per square rontosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareQuectosecond;

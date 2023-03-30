@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicGigameter Field
 
-A(n) ronnagram per cubic gigameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × yottagram per cubic megameter.
+ronnagram per cubic gigameter, defined as: yottagram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density RonnagramPerCubicGigameter;

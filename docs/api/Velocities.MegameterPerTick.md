@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerTick Field
 
-A(n) megameter per tick. Defined as: (1000.0)/(100.0) × kilometer per nanosecond.
+megameter per tick, defined as: kilometer per nanosecond × (1000.0)/(100.0)
 
 ```csharp
 public static readonly Velocity MegameterPerTick;

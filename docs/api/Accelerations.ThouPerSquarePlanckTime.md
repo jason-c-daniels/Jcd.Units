@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquarePlanckTime Field
 
-A(n) thou per square planck-time. Defined as: (1.0/12000.0)/((5.391247E-38)*(5.391247E-38)) × foot per square microsecond.
+thou per square planck-time, defined as: foot per square microsecond × (1.0/12000.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration ThouPerSquarePlanckTime;

@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerYoctosecond Field
 
-A(n) hectometer per yoctosecond. Defined as: (10.0)/(1.0/1000.0) × dekameter per zeptosecond.
+hectometer per yoctosecond, defined as: dekameter per zeptosecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity HectometerPerYoctosecond;

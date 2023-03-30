@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerMinute Field
 
-A(n) petameter per minute. Defined as: (1000.0)/(60.0) × terameter per second.
+petameter per minute, defined as: terameter per second × (1000.0)/(60.0)
 
 ```csharp
 public static readonly Velocity PetameterPerMinute;

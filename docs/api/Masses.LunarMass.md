@@ -3,7 +3,7 @@
 
 ## Masses.LunarMass Field
 
-A(n) lunar mass. Defined as: 7.35E+22 × SI kilogram.
+lunar mass, defined as: SI kilogram × 7.35E+22
 
 ```csharp
 public static readonly Mass LunarMass;

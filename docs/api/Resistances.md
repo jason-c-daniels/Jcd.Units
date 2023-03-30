@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attoohm](Resistances.Attoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Attoohm') | A(n) attoohm. Defined as: 1.0/1000.0 × femtoohm. |
-| [Centiohm](Resistances.Centiohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Centiohm') | A(n) centiohm. Defined as: 1.0/10.0 × deciohm. |
-| [Deciohm](Resistances.Deciohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Deciohm') | A(n) deciohm. Defined as: 1.0/10.0 × ohm. |
-| [Dekaohm](Resistances.Dekaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Dekaohm') | A(n) dekaohm. Defined as: 10.0 × ohm. |
-| [Exaohm](Resistances.Exaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Exaohm') | A(n) exaohm. Defined as: 1000.0 × petaohm. |
-| [Femtoohm](Resistances.Femtoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Femtoohm') | A(n) femtoohm. Defined as: 1.0/1000.0 × picoohm. |
-| [Gigaohm](Resistances.Gigaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Gigaohm') | A(n) gigaohm. Defined as: 1000.0 × megaohm. |
-| [Hectoohm](Resistances.Hectoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Hectoohm') | A(n) hectoohm. Defined as: 10.0 × dekaohm. |
-| [Kiloohm](Resistances.Kiloohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Kiloohm') | A(n) kiloohm. Defined as: 10.0 × hectoohm. |
-| [Megaohm](Resistances.Megaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Megaohm') | A(n) megaohm. Defined as: 1000.0 × kiloohm. |
-| [Microohm](Resistances.Microohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Microohm') | A(n) microohm. Defined as: 1.0/1000.0 × milliohm. |
-| [Milliohm](Resistances.Milliohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Milliohm') | A(n) milliohm. Defined as: 1.0/10.0 × centiohm. |
-| [Nanoohm](Resistances.Nanoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Nanoohm') | A(n) nanoohm. Defined as: 1.0/1000.0 × microohm. |
-| [Ohm](Resistances.Ohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Ohm') | A(n) ohm. |
-| [Petaohm](Resistances.Petaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Petaohm') | A(n) petaohm. Defined as: 1000.0 × teraohm. |
-| [Picoohm](Resistances.Picoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Picoohm') | A(n) picoohm. Defined as: 1.0/1000.0 × nanoohm. |
-| [Quectoohm](Resistances.Quectoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Quectoohm') | A(n) quectoohm. Defined as: 1.0/1000.0 × rontoohm. |
-| [Quettaohm](Resistances.Quettaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Quettaohm') | A(n) quettaohm. Defined as: 1000.0 × ronnaohm. |
-| [Ronnaohm](Resistances.Ronnaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Ronnaohm') | A(n) ronnaohm. Defined as: 1000.0 × yottaohm. |
-| [Rontoohm](Resistances.Rontoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Rontoohm') | A(n) rontoohm. Defined as: 1.0/1000.0 × yoctoohm. |
-| [Teraohm](Resistances.Teraohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Teraohm') | A(n) teraohm. Defined as: 1000.0 × gigaohm. |
-| [Yoctoohm](Resistances.Yoctoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Yoctoohm') | A(n) yoctoohm. Defined as: 1.0/1000.0 × zeptoohm. |
-| [Yottaohm](Resistances.Yottaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Yottaohm') | A(n) yottaohm. Defined as: 1000.0 × zettaohm. |
-| [Zeptoohm](Resistances.Zeptoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Zeptoohm') | A(n) zeptoohm. Defined as: 1.0/1000.0 × attoohm. |
-| [Zettaohm](Resistances.Zettaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Zettaohm') | A(n) zettaohm. Defined as: 1000.0 × exaohm. |
+| [Attoohm](Resistances.Attoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Attoohm') | attoohm, defined as: femtoohm × 1.0/1000.0 |
+| [Centiohm](Resistances.Centiohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Centiohm') | centiohm, defined as: deciohm × 1.0/10.0 |
+| [Deciohm](Resistances.Deciohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Deciohm') | deciohm, defined as: ohm × 1.0/10.0 |
+| [Dekaohm](Resistances.Dekaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Dekaohm') | dekaohm, defined as: ohm × 10.0 |
+| [Exaohm](Resistances.Exaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Exaohm') | exaohm, defined as: petaohm × 1000.0 |
+| [Femtoohm](Resistances.Femtoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Femtoohm') | femtoohm, defined as: picoohm × 1.0/1000.0 |
+| [Gigaohm](Resistances.Gigaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Gigaohm') | gigaohm, defined as: megaohm × 1000.0 |
+| [Hectoohm](Resistances.Hectoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Hectoohm') | hectoohm, defined as: dekaohm × 10.0 |
+| [Kiloohm](Resistances.Kiloohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Kiloohm') | kiloohm, defined as: hectoohm × 10.0 |
+| [Megaohm](Resistances.Megaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Megaohm') | megaohm, defined as: kiloohm × 1000.0 |
+| [Microohm](Resistances.Microohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Microohm') | microohm, defined as: milliohm × 1.0/1000.0 |
+| [Milliohm](Resistances.Milliohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Milliohm') | milliohm, defined as: centiohm × 1.0/10.0 |
+| [Nanoohm](Resistances.Nanoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Nanoohm') | nanoohm, defined as: microohm × 1.0/1000.0 |
+| [Ohm](Resistances.Ohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Ohm') | ohm, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
+| [Petaohm](Resistances.Petaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Petaohm') | petaohm, defined as: teraohm × 1000.0 |
+| [Picoohm](Resistances.Picoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Picoohm') | picoohm, defined as: nanoohm × 1.0/1000.0 |
+| [Quectoohm](Resistances.Quectoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Quectoohm') | quectoohm, defined as: rontoohm × 1.0/1000.0 |
+| [Quettaohm](Resistances.Quettaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Quettaohm') | quettaohm, defined as: ronnaohm × 1000.0 |
+| [Ronnaohm](Resistances.Ronnaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Ronnaohm') | ronnaohm, defined as: yottaohm × 1000.0 |
+| [Rontoohm](Resistances.Rontoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Rontoohm') | rontoohm, defined as: yoctoohm × 1.0/1000.0 |
+| [Teraohm](Resistances.Teraohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Teraohm') | teraohm, defined as: gigaohm × 1000.0 |
+| [Yoctoohm](Resistances.Yoctoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Yoctoohm') | yoctoohm, defined as: zeptoohm × 1.0/1000.0 |
+| [Yottaohm](Resistances.Yottaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Yottaohm') | yottaohm, defined as: zettaohm × 1000.0 |
+| [Zeptoohm](Resistances.Zeptoohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Zeptoohm') | zeptoohm, defined as: attoohm × 1.0/1000.0 |
+| [Zettaohm](Resistances.Zettaohm.md 'Jcd.Units.UnitsOfMeasure.SI.Resistances.Zettaohm') | zettaohm, defined as: exaohm × 1000.0 |

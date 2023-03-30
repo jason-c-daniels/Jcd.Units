@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquarePlanckTime Field
 
-A(n) chain per square planck-time. Defined as: (22.0)/((5.391247E-38)*(5.391247E-38)) × yard per square microsecond.
+chain per square planck-time, defined as: yard per square microsecond × (22.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration ChainPerSquarePlanckTime;

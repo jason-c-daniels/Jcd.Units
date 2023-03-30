@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerAttosecond Field
 
-A(n) point per attosecond. Defined as: (1.0/72.0)/(1.0/1000.0) × inch per femtosecond.
+point per attosecond, defined as: inch per femtosecond × (1.0/72.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity PointPerAttosecond;

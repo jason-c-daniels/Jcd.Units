@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareZeptosecond Field
 
-A(n) exameter per square zeptosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × petameter per square attosecond.
+exameter per square zeptosecond, defined as: petameter per square attosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareZeptosecond;

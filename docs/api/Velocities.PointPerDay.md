@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerDay Field
 
-A(n) point per day. Defined as: (1.0/72.0)/(24.0) × inch per hour.
+point per day, defined as: inch per hour × (1.0/72.0)/(24.0)
 
 ```csharp
 public static readonly Velocity PointPerDay;

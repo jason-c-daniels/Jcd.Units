@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareYear Field
 
-A(n) rod per square year. Defined as: (5.0292)/((365.2525)*(365.2525)) × SI meter per square day.
+rod per square year, defined as: SI meter per square day × (5.0292)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration RodPerSquareYear;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Dekasievert Field
 
-A(n) dekasievert. Defined as: 10.0 × sievert.
+dekasievert, defined as: sievert × 10.0
 
 ```csharp
 public static readonly RadiationEquivalentDose Dekasievert;

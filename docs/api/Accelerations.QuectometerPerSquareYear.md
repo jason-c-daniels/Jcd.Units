@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareYear Field
 
-A(n) quectometer per square year. Defined as: (1.0/1000.0)/((365.2525)*(365.2525)) × rontometer per square day.
+quectometer per square year, defined as: rontometer per square day × (1.0/1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareYear;

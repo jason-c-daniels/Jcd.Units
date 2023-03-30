@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareMillennium Field
 
-A(n) point per square millennium. Defined as: (1.0/72.0)/((10.0)*(10.0)) × inch per square century.
+point per square millennium, defined as: inch per square century × (1.0/72.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration PointPerSquareMillennium;

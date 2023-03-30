@@ -3,7 +3,7 @@
 
 ## Volumes.CubicNauticalMile Field
 
-A(n) cubic nautical mile. Defined as: (10.0)*(10.0)*(10.0) × cubic cable.
+cubic nautical mile, defined as: cubic cable × (10.0)*(10.0)*(10.0)
 
 ```csharp
 public static readonly Volume CubicNauticalMile;

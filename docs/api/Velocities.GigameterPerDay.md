@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerDay Field
 
-A(n) gigameter per day. Defined as: (1000.0)/(24.0) × megameter per hour.
+gigameter per day, defined as: megameter per hour × (1000.0)/(24.0)
 
 ```csharp
 public static readonly Velocity GigameterPerDay;

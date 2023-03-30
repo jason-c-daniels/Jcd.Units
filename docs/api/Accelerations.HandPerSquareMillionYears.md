@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareMillionYears Field
 
-A(n) hand per square million years. Defined as: (4.0)/((1000.0)*(1000.0)) × inch per square millennium.
+hand per square million years, defined as: inch per square millennium × (4.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration HandPerSquareMillionYears;

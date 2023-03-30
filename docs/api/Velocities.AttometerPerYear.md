@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerYear Field
 
-A(n) attometer per year. Defined as: (1.0/1000.0)/(365.2525) × femtometer per day.
+attometer per year, defined as: femtometer per day × (1.0/1000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity AttometerPerYear;

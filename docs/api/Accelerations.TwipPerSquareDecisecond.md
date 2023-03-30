@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareDecisecond Field
 
-A(n) twip per square decisecond. Defined as: (1.0/17280.0)/((1.0/10.0)*(1.0/10.0)) × foot per square second.
+twip per square decisecond, defined as: foot per square second × (1.0/17280.0)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration TwipPerSquareDecisecond;

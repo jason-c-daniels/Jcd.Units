@@ -18,178 +18,131 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquivalentDoses, RadiationEquivalentDose>
 {
    /// <summary>
-   /// A(n) sievert.
+   /// sievert, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly RadiationEquivalentDose Sievert = new ("sievert", "sv");
 
    /// <summary>
-   /// A(n) decisievert. Defined as: 1.0/10.0 × sievert.
+   /// decisievert, defined as: sievert × 1.0/10.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Decisievert = new ("decisievert", "dsv", Sievert, 1.0 / 10.0, 0);
+   public static readonly RadiationEquivalentDose Decisievert = new ("decisievert", "dsv", Sievert, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) centisievert. Defined as: 1.0/10.0 × decisievert.
+   /// centisievert, defined as: decisievert × 1.0/10.0
    /// </summary>
-   public static readonly RadiationEquivalentDose
-            Centisievert = new ("centisievert", "csv", Decisievert, 1.0 / 10.0, 0);
+   public static readonly RadiationEquivalentDose Centisievert = new ("centisievert", "csv", Decisievert, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) millisievert. Defined as: 1.0/10.0 × centisievert.
+   /// millisievert, defined as: centisievert × 1.0/10.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Millisievert = new (
-                                                                      "millisievert"
-                                                                    , "msv"
-                                                                    , Centisievert
-                                                                    , 1.0 / 10.0
-                                                                    , 0
-                                                                     );
+   public static readonly RadiationEquivalentDose Millisievert = new ("millisievert", "msv", Centisievert, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) microsievert. Defined as: 1.0/1000.0 × millisievert.
-   /// </summary>
-   public static readonly RadiationEquivalentDose Microsievert = new (
-                                                                      "microsievert"
-                                                                    , "μsv"
-                                                                    , Millisievert
-                                                                    , 1.0 / 1000.0
-                                                                    , 0
-                                                                     );
-
-   /// <summary>
-   /// A(n) nanosievert. Defined as: 1.0/1000.0 × microsievert.
-   /// </summary>
-   public static readonly RadiationEquivalentDose Nanosievert = new (
-                                                                     "nanosievert"
-                                                                   , "nsv"
-                                                                   , Microsievert
-                                                                   , 1.0 / 1000.0
-                                                                   , 0
-                                                                    );
-
-   /// <summary>
-   /// A(n) picosievert. Defined as: 1.0/1000.0 × nanosievert.
+   /// microsievert, defined as: millisievert × 1.0/1000.0
    /// </summary>
    public static readonly RadiationEquivalentDose
-            Picosievert = new ("picosievert", "psv", Nanosievert, 1.0 / 1000.0, 0);
+            Microsievert = new ("microsievert", "μsv", Millisievert, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) femtosievert. Defined as: 1.0/1000.0 × picosievert.
+   /// nanosievert, defined as: microsievert × 1.0/1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Femtosievert = new (
-                                                                      "femtosievert"
-                                                                    , "fsv"
-                                                                    , Picosievert
-                                                                    , 1.0 / 1000.0
-                                                                    , 0
-                                                                     );
+   public static readonly RadiationEquivalentDose Nanosievert = new ("nanosievert", "nsv", Microsievert, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) attosievert. Defined as: 1.0/1000.0 × femtosievert.
+   /// picosievert, defined as: nanosievert × 1.0/1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Attosievert = new (
-                                                                     "attosievert"
-                                                                   , "asv"
-                                                                   , Femtosievert
-                                                                   , 1.0 / 1000.0
-                                                                   , 0
-                                                                    );
+   public static readonly RadiationEquivalentDose Picosievert = new ("picosievert", "psv", Nanosievert, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) zeptosievert. Defined as: 1.0/1000.0 × attosievert.
+   /// femtosievert, defined as: picosievert × 1.0/1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Zeptosievert = new (
-                                                                      "zeptosievert"
-                                                                    , "zsv"
-                                                                    , Attosievert
-                                                                    , 1.0 / 1000.0
-                                                                    , 0
-                                                                     );
+   public static readonly RadiationEquivalentDose Femtosievert = new ("femtosievert", "fsv", Picosievert, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) yoctosievert. Defined as: 1.0/1000.0 × zeptosievert.
+   /// attosievert, defined as: femtosievert × 1.0/1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Yoctosievert = new (
-                                                                      "yoctosievert"
-                                                                    , "ysv"
-                                                                    , Zeptosievert
-                                                                    , 1.0 / 1000.0
-                                                                    , 0
-                                                                     );
+   public static readonly RadiationEquivalentDose Attosievert = new ("attosievert", "asv", Femtosievert, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) rontosievert. Defined as: 1.0/1000.0 × yoctosievert.
+   /// zeptosievert, defined as: attosievert × 1.0/1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Rontosievert = new (
-                                                                      "rontosievert"
-                                                                    , "rsv"
-                                                                    , Yoctosievert
-                                                                    , 1.0 / 1000.0
-                                                                    , 0
-                                                                     );
+   public static readonly RadiationEquivalentDose Zeptosievert = new ("zeptosievert", "zsv", Attosievert, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) quectosievert. Defined as: 1.0/1000.0 × rontosievert.
+   /// yoctosievert, defined as: zeptosievert × 1.0/1000.0
+   /// </summary>
+   public static readonly RadiationEquivalentDose
+            Yoctosievert = new ("yoctosievert", "ysv", Zeptosievert, 1.0 / 1000.0);
+
+   /// <summary>
+   /// rontosievert, defined as: yoctosievert × 1.0/1000.0
+   /// </summary>
+   public static readonly RadiationEquivalentDose
+            Rontosievert = new ("rontosievert", "rsv", Yoctosievert, 1.0 / 1000.0);
+
+   /// <summary>
+   /// quectosievert, defined as: rontosievert × 1.0/1000.0
    /// </summary>
    public static readonly RadiationEquivalentDose Quectosievert =
-            new ("quectosievert", "qsv", Rontosievert, 1.0 / 1000.0, 0);
+            new ("quectosievert", "qsv", Rontosievert, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) dekasievert. Defined as: 10.0 × sievert.
+   /// dekasievert, defined as: sievert × 10.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Dekasievert = new ("dekasievert", "dasv", Sievert, 10.0, 0);
+   public static readonly RadiationEquivalentDose Dekasievert = new ("dekasievert", "dasv", Sievert, 10.0);
 
    /// <summary>
-   /// A(n) hectosievert. Defined as: 10.0 × dekasievert.
+   /// hectosievert, defined as: dekasievert × 10.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Hectosievert = new ("hectosievert", "hsv", Dekasievert, 10.0, 0);
+   public static readonly RadiationEquivalentDose Hectosievert = new ("hectosievert", "hsv", Dekasievert, 10.0);
 
    /// <summary>
-   /// A(n) kilosievert. Defined as: 10.0 × hectosievert.
+   /// kilosievert, defined as: hectosievert × 10.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Kilosievert = new ("kilosievert", "ksv", Hectosievert, 10.0, 0);
+   public static readonly RadiationEquivalentDose Kilosievert = new ("kilosievert", "ksv", Hectosievert, 10.0);
 
    /// <summary>
-   /// A(n) megasievert. Defined as: 1000.0 × kilosievert.
+   /// megasievert, defined as: kilosievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Megasievert = new ("megasievert", "Msv", Kilosievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Megasievert = new ("megasievert", "Msv", Kilosievert, 1000.0);
 
    /// <summary>
-   /// A(n) gigasievert. Defined as: 1000.0 × megasievert.
+   /// gigasievert, defined as: megasievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Gigasievert = new ("gigasievert", "Gsv", Megasievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Gigasievert = new ("gigasievert", "Gsv", Megasievert, 1000.0);
 
    /// <summary>
-   /// A(n) terasievert. Defined as: 1000.0 × gigasievert.
+   /// terasievert, defined as: gigasievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Terasievert = new ("terasievert", "Tsv", Gigasievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Terasievert = new ("terasievert", "Tsv", Gigasievert, 1000.0);
 
    /// <summary>
-   /// A(n) petasievert. Defined as: 1000.0 × terasievert.
+   /// petasievert, defined as: terasievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Petasievert = new ("petasievert", "Psv", Terasievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Petasievert = new ("petasievert", "Psv", Terasievert, 1000.0);
 
    /// <summary>
-   /// A(n) exasievert. Defined as: 1000.0 × petasievert.
+   /// exasievert, defined as: petasievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Exasievert = new ("exasievert", "Esv", Petasievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Exasievert = new ("exasievert", "Esv", Petasievert, 1000.0);
 
    /// <summary>
-   /// A(n) zettasievert. Defined as: 1000.0 × exasievert.
+   /// zettasievert, defined as: exasievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Zettasievert = new ("zettasievert", "Zsv", Exasievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Zettasievert = new ("zettasievert", "Zsv", Exasievert, 1000.0);
 
    /// <summary>
-   /// A(n) yottasievert. Defined as: 1000.0 × zettasievert.
+   /// yottasievert, defined as: zettasievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Yottasievert = new ("yottasievert", "Ysv", Zettasievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Yottasievert = new ("yottasievert", "Ysv", Zettasievert, 1000.0);
 
    /// <summary>
-   /// A(n) ronnasievert. Defined as: 1000.0 × yottasievert.
+   /// ronnasievert, defined as: yottasievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Ronnasievert = new ("ronnasievert", "Rsv", Yottasievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Ronnasievert = new ("ronnasievert", "Rsv", Yottasievert, 1000.0);
 
    /// <summary>
-   /// A(n) quettasievert. Defined as: 1000.0 × ronnasievert.
+   /// quettasievert, defined as: ronnasievert × 1000.0
    /// </summary>
-   public static readonly RadiationEquivalentDose Quettasievert = new ("quettasievert", "Qsv", Ronnasievert, 1000.0, 0);
+   public static readonly RadiationEquivalentDose Quettasievert = new ("quettasievert", "Qsv", Ronnasievert, 1000.0);
 }

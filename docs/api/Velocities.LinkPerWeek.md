@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerWeek Field
 
-A(n) link per week. Defined as: (0.20116)/(7.0) × SI meter per day.
+link per week, defined as: SI meter per day × (0.20116)/(7.0)
 
 ```csharp
 public static readonly Velocity LinkPerWeek;

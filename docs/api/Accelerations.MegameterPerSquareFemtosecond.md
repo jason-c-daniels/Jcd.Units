@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareFemtosecond Field
 
-A(n) megameter per square femtosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × kilometer per square picosecond.
+megameter per square femtosecond, defined as: kilometer per square picosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareFemtosecond;

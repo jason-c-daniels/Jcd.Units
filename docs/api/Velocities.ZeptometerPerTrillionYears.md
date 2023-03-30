@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerTrillionYears Field
 
-A(n) zeptometer per trillion years. Defined as: (1.0/1000.0)/(1000.0) × attometer per billion years.
+zeptometer per trillion years, defined as: attometer per billion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity ZeptometerPerTrillionYears;

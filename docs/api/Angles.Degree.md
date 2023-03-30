@@ -3,7 +3,7 @@
 
 ## Angles.Degree Field
 
-A(n) degree. Defined as: (180.0/Math.PI) × SI radian.
+degree, defined as: SI radian × (180.0/Math.PI)
 
 ```csharp
 public static readonly Angle Degree;

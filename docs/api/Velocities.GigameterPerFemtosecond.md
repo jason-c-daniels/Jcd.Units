@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerFemtosecond Field
 
-A(n) gigameter per femtosecond. Defined as: (1000.0)/(1.0/1000.0) × megameter per picosecond.
+gigameter per femtosecond, defined as: megameter per picosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity GigameterPerFemtosecond;

@@ -3,7 +3,7 @@
 
 ## StorageUnits.Kilobyte Field
 
-A(n) kilobyte. Defined as: 1000.0 × byte.
+kilobyte, defined as: byte × 1000.0
 
 ```csharp
 public static readonly Storage Kilobyte;

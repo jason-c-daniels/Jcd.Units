@@ -3,7 +3,7 @@
 
 ## Masses.Dram Field
 
-A(n) dram. Defined as: 27.34375 × grain.
+dram, defined as: grain × 27.34375
 
 ```csharp
 public static readonly Mass Dram;

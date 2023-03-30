@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerTrillionYears Field
 
-A(n) chain per trillion years. Defined as: (22.0)/(1000.0) × yard per billion years.
+chain per trillion years, defined as: yard per billion years × (22.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity ChainPerTrillionYears;

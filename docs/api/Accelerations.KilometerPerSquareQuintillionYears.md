@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareQuintillionYears Field
 
-A(n) kilometer per square quintillion years. Defined as: (10.0)/((1000.0)*(1000.0)) × hectometer per square quadrillion years.
+kilometer per square quintillion years, defined as: hectometer per square quadrillion years × (10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareQuintillionYears;

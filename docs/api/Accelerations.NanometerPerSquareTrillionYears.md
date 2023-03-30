@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareTrillionYears Field
 
-A(n) nanometer per square trillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × micrometer per square billion years.
+nanometer per square trillion years, defined as: micrometer per square billion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareTrillionYears;

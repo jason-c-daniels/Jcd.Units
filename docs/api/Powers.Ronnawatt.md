@@ -3,7 +3,7 @@
 
 ## Powers.Ronnawatt Field
 
-A(n) ronnawatt. Defined as: 1000.0 × yottawatt.
+ronnawatt, defined as: yottawatt × 1000.0
 
 ```csharp
 public static readonly Power Ronnawatt;

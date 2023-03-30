@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareHour Field
 
-A(n) exameter per square hour. Defined as: (1000.0)/((60.0)*(60.0)) × petameter per square minute.
+exameter per square hour, defined as: petameter per square minute × (1000.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareHour;

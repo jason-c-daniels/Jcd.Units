@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerYoctosecond Field
 
-A(n) centimeter per yoctosecond. Defined as: (1.0/10.0)/(1.0/1000.0) × decimeter per zeptosecond.
+centimeter per yoctosecond, defined as: decimeter per zeptosecond × (1.0/10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity CentimeterPerYoctosecond;

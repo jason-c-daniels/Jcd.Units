@@ -3,7 +3,7 @@
 
 ## Volumes.Rontoliter Field
 
-A(n) rontoliter. Defined as: 1.0/1000.0 × yoctoliter.
+rontoliter, defined as: yoctoliter × 1.0/1000.0
 
 ```csharp
 public static readonly Volume Rontoliter;

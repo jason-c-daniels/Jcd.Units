@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicFemtometer Field
 
-A(n) zettagram per cubic femtometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × exagram per cubic picometer.
+zettagram per cubic femtometer, defined as: exagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density ZettagramPerCubicFemtometer;

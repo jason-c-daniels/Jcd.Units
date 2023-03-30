@@ -3,7 +3,7 @@
 
 ## Masses.Rontogram Field
 
-A(n) rontogram. Defined as: 1.0/1000.0 × yoctogram.
+rontogram, defined as: yoctogram × 1.0/1000.0
 
 ```csharp
 public static readonly Mass Rontogram;

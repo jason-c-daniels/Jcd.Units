@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareNonillionYears Field
 
-A(n) nautical mile per square nonillion years. Defined as: (10.0)/((1000.0)*(1000.0)) × cable per square octillion years.
+nautical mile per square nonillion years, defined as: cable per square octillion years × (10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareNonillionYears;

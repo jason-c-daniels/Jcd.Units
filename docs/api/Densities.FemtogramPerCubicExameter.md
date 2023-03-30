@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicExameter Field
 
-A(n) femtogram per cubic exameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × picogram per cubic petameter.
+femtogram per cubic exameter, defined as: picogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density FemtogramPerCubicExameter;

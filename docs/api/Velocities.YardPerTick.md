@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerTick Field
 
-A(n) yard per tick. Defined as: (3.0)/(100.0) × foot per nanosecond.
+yard per tick, defined as: foot per nanosecond × (3.0)/(100.0)
 
 ```csharp
 public static readonly Velocity YardPerTick;

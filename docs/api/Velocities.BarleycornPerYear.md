@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerYear Field
 
-A(n) barleycorn per year. Defined as: (1.0/36.0)/(365.2525) × foot per day.
+barleycorn per year, defined as: foot per day × (1.0/36.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity BarleycornPerYear;

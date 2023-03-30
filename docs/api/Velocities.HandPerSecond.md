@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerSecond Field
 
-A(n) hand per second. Defined as: (4.0)/(1.0) × inch per second.
+hand per second, defined as: inch per second × (4.0)/(1.0)
 
 ```csharp
 public static readonly Velocity HandPerSecond;

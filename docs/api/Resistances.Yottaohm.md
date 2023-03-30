@@ -3,7 +3,7 @@
 
 ## Resistances.Yottaohm Field
 
-A(n) yottaohm. Defined as: 1000.0 × zettaohm.
+yottaohm, defined as: zettaohm × 1000.0
 
 ```csharp
 public static readonly Resistance Yottaohm;

@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerZeptosecond Field
 
-A(n) thou per zeptosecond. Defined as: (1.0/12000.0)/(1.0/1000.0) × foot per attosecond.
+thou per zeptosecond, defined as: foot per attosecond × (1.0/12000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ThouPerZeptosecond;

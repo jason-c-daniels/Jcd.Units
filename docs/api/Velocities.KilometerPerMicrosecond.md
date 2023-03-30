@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerMicrosecond Field
 
-A(n) kilometer per microsecond. Defined as: (10.0)/(1.0/1000.0) × hectometer per millisecond.
+kilometer per microsecond, defined as: hectometer per millisecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity KilometerPerMicrosecond;

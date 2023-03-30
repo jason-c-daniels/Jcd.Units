@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerZeptosecond Field
 
-A(n) ronnameter per zeptosecond. Defined as: (1000.0)/(1.0/1000.0) × yottameter per attosecond.
+ronnameter per zeptosecond, defined as: yottameter per attosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity RonnameterPerZeptosecond;

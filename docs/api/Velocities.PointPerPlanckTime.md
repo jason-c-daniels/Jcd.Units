@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerPlanckTime Field
 
-A(n) point per planck-time. Defined as: (1.0/72.0)/(5.391247E-38) × inch per microsecond.
+point per planck-time, defined as: inch per microsecond × (1.0/72.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity PointPerPlanckTime;

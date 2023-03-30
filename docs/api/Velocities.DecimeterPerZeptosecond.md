@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerZeptosecond Field
 
-A(n) decimeter per zeptosecond. Defined as: (1.0/10.0)/(1.0/1000.0) × meter per attosecond.
+decimeter per zeptosecond, defined as: meter per attosecond × (1.0/10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity DecimeterPerZeptosecond;

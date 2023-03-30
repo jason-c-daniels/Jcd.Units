@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicRontometer Field
 
-A(n) metric ton per cubic rontometer. Defined as: (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × megagram per cubic yoctometer.
+metric ton per cubic rontometer, defined as: megagram per cubic yoctometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density MetricTonPerCubicRontometer;

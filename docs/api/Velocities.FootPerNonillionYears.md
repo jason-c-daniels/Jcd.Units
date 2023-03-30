@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerNonillionYears Field
 
-A(n) foot per nonillion years. Defined as: (12)/(1000.0) × inch per octillion years.
+foot per nonillion years, defined as: inch per octillion years × (12)/(1000.0)
 
 ```csharp
 public static readonly Velocity FootPerNonillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareDay Field
 
-A(n) mil per square day. Defined as: (1.0/1000.0)/((24.0)*(24.0)) × inch per square hour.
+mil per square day, defined as: inch per square hour × (1.0/1000.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration MilPerSquareDay;

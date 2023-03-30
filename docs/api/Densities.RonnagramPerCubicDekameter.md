@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicDekameter Field
 
-A(n) ronnagram per cubic dekameter. Defined as: (1000.0)/((10.0)*(10.0)*(10.0)) × yottagram per cubic meter.
+ronnagram per cubic dekameter, defined as: yottagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density RonnagramPerCubicDekameter;

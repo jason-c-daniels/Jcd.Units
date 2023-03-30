@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareCentury Field
 
-A(n) decimeter per square century. Defined as: (1.0/10.0)/((10.0)*(10.0)) × meter per square decade.
+decimeter per square century, defined as: meter per square decade × (1.0/10.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquareCentury;

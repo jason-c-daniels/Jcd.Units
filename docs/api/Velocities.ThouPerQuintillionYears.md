@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerQuintillionYears Field
 
-A(n) thou per quintillion years. Defined as: (1.0/12000.0)/(1000.0) × foot per quadrillion years.
+thou per quintillion years, defined as: foot per quadrillion years × (1.0/12000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity ThouPerQuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Lengths.Zeptometer Field
 
-A(n) zeptometer. Defined as: 1.0/1000.0 × attometer.
+zeptometer, defined as: attometer × 1.0/1000.0
 
 ```csharp
 public static readonly Length Zeptometer;

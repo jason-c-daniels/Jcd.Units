@@ -3,7 +3,7 @@
 
 ## Volumes.CubicFoot Field
 
-A(n) cubic foot. Defined as: (12)*(12)*(12) × cubic inch.
+cubic foot, defined as: cubic inch × (12)*(12)*(12)
 
 ```csharp
 public static readonly Volume CubicFoot;

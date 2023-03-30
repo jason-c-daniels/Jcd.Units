@@ -3,7 +3,7 @@
 
 ## Lengths.LightDay Field
 
-A(n) light-day. Defined as: 24.0 × light-hour.
+light-day, defined as: light-hour × 24.0
 
 ```csharp
 public static readonly Length LightDay;

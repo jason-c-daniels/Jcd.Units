@@ -3,7 +3,7 @@
 
 ## Forces.Dekanewton Field
 
-A(n) dekanewton. Defined as: 10.0 × newton.
+dekanewton, defined as: newton × 10.0
 
 ```csharp
 public static readonly Force Dekanewton;

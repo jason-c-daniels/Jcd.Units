@@ -3,7 +3,7 @@
 
 ## Masses.Drachm Field
 
-A(n) drachm. Defined as: 1.7718451953125 × SI gram.
+drachm, defined as: SI gram × 1.7718451953125
 
 ```csharp
 public static readonly Mass Drachm;

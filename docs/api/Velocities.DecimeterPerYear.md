@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerYear Field
 
-A(n) decimeter per year. Defined as: (1.0/10.0)/(365.2525) × meter per day.
+decimeter per year, defined as: meter per day × (1.0/10.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity DecimeterPerYear;

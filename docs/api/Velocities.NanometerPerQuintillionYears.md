@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerQuintillionYears Field
 
-A(n) nanometer per quintillion years. Defined as: (1.0/1000.0)/(1000.0) × micrometer per quadrillion years.
+nanometer per quintillion years, defined as: micrometer per quadrillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity NanometerPerQuintillionYears;

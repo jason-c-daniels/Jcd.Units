@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareZeptosecond Field
 
-A(n) furlong per square zeptosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × chain per square attosecond.
+furlong per square zeptosecond, defined as: chain per square attosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareZeptosecond;

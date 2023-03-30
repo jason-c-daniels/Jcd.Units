@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareOctillionYears Field
 
-A(n) terameter per square octillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × gigameter per square septillion years.
+terameter per square octillion years, defined as: gigameter per square septillion years × (1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareOctillionYears;

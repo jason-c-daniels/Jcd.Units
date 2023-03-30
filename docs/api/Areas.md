@@ -13,51 +13,51 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [SquareAstronomicalUnit](Areas.SquareAstronomicalUnit.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareAstronomicalUnit') | A(n) square astronomical unit. Defined as: (149597870.691)*(149597870.691) × SI square kilometer. |
-| [SquareDekalightYear](Areas.SquareDekalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareDekalightYear') | A(n) square dekalight-year. Defined as: (10.0)*(10.0) × square light-year. |
-| [SquareDekaparsec](Areas.SquareDekaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareDekaparsec') | A(n) square dekaparsec. Defined as: (10.0)*(10.0) × square parsec. |
-| [SquareEarthCircumference](Areas.SquareEarthCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthCircumference') | A(n) square earth circumference. Defined as: (Math.PI)*(Math.PI) × square earth diameter. |
-| [SquareEarthDiameter](Areas.SquareEarthDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthDiameter') | A(n) square earth diameter. Defined as: (2.0)*(2.0) × square earth radius. |
-| [SquareEarthRadius](Areas.SquareEarthRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthRadius') | A(n) square earth radius. Defined as: (6_371.0)*(6_371.0) × SI square kilometer. |
-| [SquareExalightYear](Areas.SquareExalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareExalightYear') | A(n) square exalight-year. Defined as: (1000.0)*(1000.0) × square petalight-year. |
-| [SquareExaparsec](Areas.SquareExaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareExaparsec') | A(n) square exaparsec. Defined as: (1000.0)*(1000.0) × square petaparsec. |
-| [SquareGigalightYear](Areas.SquareGigalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareGigalightYear') | A(n) square gigalight-year. Defined as: (1000.0)*(1000.0) × square megalight-year. |
-| [SquareGigaparsec](Areas.SquareGigaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareGigaparsec') | A(n) square gigaparsec. Defined as: (1000.0)*(1000.0) × square megaparsec. |
-| [SquareHectolightYear](Areas.SquareHectolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareHectolightYear') | A(n) square hectolight-year. Defined as: (10.0)*(10.0) × square dekalight-year. |
-| [SquareHectoparsec](Areas.SquareHectoparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareHectoparsec') | A(n) square hectoparsec. Defined as: (10.0)*(10.0) × square dekaparsec. |
-| [SquareJovianCircumference](Areas.SquareJovianCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareJovianCircumference') | A(n) square jovian circumference. Defined as: (Math.PI)*(Math.PI) × square jovian diameter. |
-| [SquareJovianDiameter](Areas.SquareJovianDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareJovianDiameter') | A(n) square jovian diameter. Defined as: (2.0)*(2.0) × square jovian radius. |
-| [SquareJovianRadius](Areas.SquareJovianRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareJovianRadius') | A(n) square jovian radius. Defined as: (69_911.0)*(69_911.0) × SI square kilometer. |
-| [SquareKilolightYear](Areas.SquareKilolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareKilolightYear') | A(n) square kilolight-year. Defined as: (10.0)*(10.0) × square hectolight-year. |
-| [SquareKiloparsec](Areas.SquareKiloparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareKiloparsec') | A(n) square kiloparsec. Defined as: (10.0)*(10.0) × square hectoparsec. |
-| [SquareLightDay](Areas.SquareLightDay.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightDay') | A(n) square light-day. Defined as: (24.0)*(24.0) × square light-hour. |
-| [SquareLightHour](Areas.SquareLightHour.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightHour') | A(n) square light-hour. Defined as: (60.0)*(60.0) × square light-minute. |
-| [SquareLightMinute](Areas.SquareLightMinute.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightMinute') | A(n) square light-minute. Defined as: (60.0)*(60.0) × square light-second. |
-| [SquareLightSecond](Areas.SquareLightSecond.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightSecond') | A(n) square light-second. Defined as: (299_792_458.0)*(299_792_458.0) × SI square meter. |
-| [SquareLightWeek](Areas.SquareLightWeek.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightWeek') | A(n) square light-week. Defined as: (7.0)*(7.0) × square light-day. |
-| [SquareLightYear](Areas.SquareLightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightYear') | A(n) square light-year. Defined as: (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0) × SI square meter. |
-| [SquareLunarCircumference](Areas.SquareLunarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarCircumference') | A(n) square lunar circumference. Defined as: (Math.PI)*(Math.PI) × square lunar diameter. |
-| [SquareLunarDiameter](Areas.SquareLunarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarDiameter') | A(n) square lunar diameter. Defined as: (2.0)*(2.0) × square lunar radius. |
-| [SquareLunarRadius](Areas.SquareLunarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarRadius') | A(n) square lunar radius. Defined as: (1_737.4)*(1_737.4) × SI square kilometer. |
-| [SquareMarsCircumference](Areas.SquareMarsCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsCircumference') | A(n) square mars circumference. Defined as: (Math.PI)*(Math.PI) × square mars diameter. |
-| [SquareMarsDiameter](Areas.SquareMarsDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsDiameter') | A(n) square mars diameter. Defined as: (2.0)*(2.0) × square mars radius. |
-| [SquareMarsRadius](Areas.SquareMarsRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsRadius') | A(n) square mars radius. Defined as: (3_389.5)*(3_389.5) × SI square kilometer. |
-| [SquareMegalightYear](Areas.SquareMegalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMegalightYear') | A(n) square megalight-year. Defined as: (1000.0)*(1000.0) × square kilolight-year. |
-| [SquareMegaparsec](Areas.SquareMegaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMegaparsec') | A(n) square megaparsec. Defined as: (1000.0)*(1000.0) × square kiloparsec. |
-| [SquareParsec](Areas.SquareParsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareParsec') | A(n) square parsec. Defined as: (3.2615637769757)*(3.2615637769757) × square light-year. |
-| [SquarePetalightYear](Areas.SquarePetalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePetalightYear') | A(n) square petalight-year. Defined as: (1000.0)*(1000.0) × square teralight-year. |
-| [SquarePetaparsec](Areas.SquarePetaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePetaparsec') | A(n) square petaparsec. Defined as: (1000.0)*(1000.0) × square teraparsec. |
-| [SquarePlanckLength](Areas.SquarePlanckLength.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePlanckLength') | A(n) square Planck-length. Defined as: (1.616255E-35)*(1.616255E-35) × SI square meter. |
-| [SquareQuettalightYear](Areas.SquareQuettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareQuettalightYear') | A(n) square quettalight-year. Defined as: (1000.0)*(1000.0) × square ronnalight-year. |
-| [SquareQuettaparsec](Areas.SquareQuettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareQuettaparsec') | A(n) square quettaparsec. Defined as: (1000.0)*(1000.0) × square ronnaparsec. |
-| [SquareRonnalightYear](Areas.SquareRonnalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareRonnalightYear') | A(n) square ronnalight-year. Defined as: (1000.0)*(1000.0) × square yottalight-year. |
-| [SquareRonnaparsec](Areas.SquareRonnaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareRonnaparsec') | A(n) square ronnaparsec. Defined as: (1000.0)*(1000.0) × square yottaparsec. |
-| [SquareSolarCircumference](Areas.SquareSolarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareSolarCircumference') | A(n) square solar circumference. Defined as: (Math.PI)*(Math.PI) × square solar diameter. |
-| [SquareSolarDiameter](Areas.SquareSolarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareSolarDiameter') | A(n) square solar diameter. Defined as: (2.0)*(2.0) × square solar radius. |
-| [SquareSolarRadius](Areas.SquareSolarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareSolarRadius') | A(n) square solar radius. Defined as: (695_700.0)*(695_700.0) × SI square kilometer. |
-| [SquareTeralightYear](Areas.SquareTeralightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareTeralightYear') | A(n) square teralight-year. Defined as: (1000.0)*(1000.0) × square gigalight-year. |
-| [SquareTeraparsec](Areas.SquareTeraparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareTeraparsec') | A(n) square teraparsec. Defined as: (1000.0)*(1000.0) × square gigaparsec. |
-| [SquareYottalightYear](Areas.SquareYottalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareYottalightYear') | A(n) square yottalight-year. Defined as: (1000.0)*(1000.0) × square zettalight-year. |
-| [SquareYottaparsec](Areas.SquareYottaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareYottaparsec') | A(n) square yottaparsec. Defined as: (1000.0)*(1000.0) × square zettaparsec. |
-| [SquareZettalightYear](Areas.SquareZettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareZettalightYear') | A(n) square zettalight-year. Defined as: (1000.0)*(1000.0) × square exalight-year. |
-| [SquareZettaparsec](Areas.SquareZettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareZettaparsec') | A(n) square zettaparsec. Defined as: (1000.0)*(1000.0) × square exaparsec. |
+| [SquareAstronomicalUnit](Areas.SquareAstronomicalUnit.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareAstronomicalUnit') | square astronomical unit, defined as: SI square kilometer × (149597870.691)*(149597870.691) |
+| [SquareDekalightYear](Areas.SquareDekalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareDekalightYear') | square dekalight-year, defined as: square light-year × (10.0)*(10.0) |
+| [SquareDekaparsec](Areas.SquareDekaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareDekaparsec') | square dekaparsec, defined as: square parsec × (10.0)*(10.0) |
+| [SquareEarthCircumference](Areas.SquareEarthCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthCircumference') | square earth circumference, defined as: square earth diameter × (Math.PI)*(Math.PI) |
+| [SquareEarthDiameter](Areas.SquareEarthDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthDiameter') | square earth diameter, defined as: square earth radius × (2.0)*(2.0) |
+| [SquareEarthRadius](Areas.SquareEarthRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareEarthRadius') | square earth radius, defined as: SI square kilometer × (6_371.0)*(6_371.0) |
+| [SquareExalightYear](Areas.SquareExalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareExalightYear') | square exalight-year, defined as: square petalight-year × (1000.0)*(1000.0) |
+| [SquareExaparsec](Areas.SquareExaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareExaparsec') | square exaparsec, defined as: square petaparsec × (1000.0)*(1000.0) |
+| [SquareGigalightYear](Areas.SquareGigalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareGigalightYear') | square gigalight-year, defined as: square megalight-year × (1000.0)*(1000.0) |
+| [SquareGigaparsec](Areas.SquareGigaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareGigaparsec') | square gigaparsec, defined as: square megaparsec × (1000.0)*(1000.0) |
+| [SquareHectolightYear](Areas.SquareHectolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareHectolightYear') | square hectolight-year, defined as: square dekalight-year × (10.0)*(10.0) |
+| [SquareHectoparsec](Areas.SquareHectoparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareHectoparsec') | square hectoparsec, defined as: square dekaparsec × (10.0)*(10.0) |
+| [SquareJovianCircumference](Areas.SquareJovianCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareJovianCircumference') | square jovian circumference, defined as: square jovian diameter × (Math.PI)*(Math.PI) |
+| [SquareJovianDiameter](Areas.SquareJovianDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareJovianDiameter') | square jovian diameter, defined as: square jovian radius × (2.0)*(2.0) |
+| [SquareJovianRadius](Areas.SquareJovianRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareJovianRadius') | square jovian radius, defined as: SI square kilometer × (69_911.0)*(69_911.0) |
+| [SquareKilolightYear](Areas.SquareKilolightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareKilolightYear') | square kilolight-year, defined as: square hectolight-year × (10.0)*(10.0) |
+| [SquareKiloparsec](Areas.SquareKiloparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareKiloparsec') | square kiloparsec, defined as: square hectoparsec × (10.0)*(10.0) |
+| [SquareLightDay](Areas.SquareLightDay.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightDay') | square light-day, defined as: square light-hour × (24.0)*(24.0) |
+| [SquareLightHour](Areas.SquareLightHour.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightHour') | square light-hour, defined as: square light-minute × (60.0)*(60.0) |
+| [SquareLightMinute](Areas.SquareLightMinute.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightMinute') | square light-minute, defined as: square light-second × (60.0)*(60.0) |
+| [SquareLightSecond](Areas.SquareLightSecond.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightSecond') | square light-second, defined as: SI square meter × (299_792_458.0)*(299_792_458.0) |
+| [SquareLightWeek](Areas.SquareLightWeek.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightWeek') | square light-week, defined as: square light-day × (7.0)*(7.0) |
+| [SquareLightYear](Areas.SquareLightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLightYear') | square light-year, defined as: SI square meter × (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0) |
+| [SquareLunarCircumference](Areas.SquareLunarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarCircumference') | square lunar circumference, defined as: square lunar diameter × (Math.PI)*(Math.PI) |
+| [SquareLunarDiameter](Areas.SquareLunarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarDiameter') | square lunar diameter, defined as: square lunar radius × (2.0)*(2.0) |
+| [SquareLunarRadius](Areas.SquareLunarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareLunarRadius') | square lunar radius, defined as: SI square kilometer × (1_737.4)*(1_737.4) |
+| [SquareMarsCircumference](Areas.SquareMarsCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsCircumference') | square mars circumference, defined as: square mars diameter × (Math.PI)*(Math.PI) |
+| [SquareMarsDiameter](Areas.SquareMarsDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsDiameter') | square mars diameter, defined as: square mars radius × (2.0)*(2.0) |
+| [SquareMarsRadius](Areas.SquareMarsRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMarsRadius') | square mars radius, defined as: SI square kilometer × (3_389.5)*(3_389.5) |
+| [SquareMegalightYear](Areas.SquareMegalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMegalightYear') | square megalight-year, defined as: square kilolight-year × (1000.0)*(1000.0) |
+| [SquareMegaparsec](Areas.SquareMegaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareMegaparsec') | square megaparsec, defined as: square kiloparsec × (1000.0)*(1000.0) |
+| [SquareParsec](Areas.SquareParsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareParsec') | square parsec, defined as: square light-year × (3.2615637769757)*(3.2615637769757) |
+| [SquarePetalightYear](Areas.SquarePetalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePetalightYear') | square petalight-year, defined as: square teralight-year × (1000.0)*(1000.0) |
+| [SquarePetaparsec](Areas.SquarePetaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePetaparsec') | square petaparsec, defined as: square teraparsec × (1000.0)*(1000.0) |
+| [SquarePlanckLength](Areas.SquarePlanckLength.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePlanckLength') | square Planck-length, defined as: SI square meter × (1.616255E-35)*(1.616255E-35) |
+| [SquareQuettalightYear](Areas.SquareQuettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareQuettalightYear') | square quettalight-year, defined as: square ronnalight-year × (1000.0)*(1000.0) |
+| [SquareQuettaparsec](Areas.SquareQuettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareQuettaparsec') | square quettaparsec, defined as: square ronnaparsec × (1000.0)*(1000.0) |
+| [SquareRonnalightYear](Areas.SquareRonnalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareRonnalightYear') | square ronnalight-year, defined as: square yottalight-year × (1000.0)*(1000.0) |
+| [SquareRonnaparsec](Areas.SquareRonnaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareRonnaparsec') | square ronnaparsec, defined as: square yottaparsec × (1000.0)*(1000.0) |
+| [SquareSolarCircumference](Areas.SquareSolarCircumference.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareSolarCircumference') | square solar circumference, defined as: square solar diameter × (Math.PI)*(Math.PI) |
+| [SquareSolarDiameter](Areas.SquareSolarDiameter.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareSolarDiameter') | square solar diameter, defined as: square solar radius × (2.0)*(2.0) |
+| [SquareSolarRadius](Areas.SquareSolarRadius.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareSolarRadius') | square solar radius, defined as: SI square kilometer × (695_700.0)*(695_700.0) |
+| [SquareTeralightYear](Areas.SquareTeralightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareTeralightYear') | square teralight-year, defined as: square gigalight-year × (1000.0)*(1000.0) |
+| [SquareTeraparsec](Areas.SquareTeraparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareTeraparsec') | square teraparsec, defined as: square gigaparsec × (1000.0)*(1000.0) |
+| [SquareYottalightYear](Areas.SquareYottalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareYottalightYear') | square yottalight-year, defined as: square zettalight-year × (1000.0)*(1000.0) |
+| [SquareYottaparsec](Areas.SquareYottaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareYottaparsec') | square yottaparsec, defined as: square zettaparsec × (1000.0)*(1000.0) |
+| [SquareZettalightYear](Areas.SquareZettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareZettalightYear') | square zettalight-year, defined as: square exalight-year × (1000.0)*(1000.0) |
+| [SquareZettaparsec](Areas.SquareZettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareZettaparsec') | square zettaparsec, defined as: square exaparsec × (1000.0)*(1000.0) |

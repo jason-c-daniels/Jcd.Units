@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicGigameter Field
 
-A(n) rontogram per cubic gigameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × yoctogram per cubic megameter.
+rontogram per cubic gigameter, defined as: yoctogram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density RontogramPerCubicGigameter;

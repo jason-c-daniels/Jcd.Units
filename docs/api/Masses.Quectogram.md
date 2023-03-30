@@ -3,7 +3,7 @@
 
 ## Masses.Quectogram Field
 
-A(n) quectogram. Defined as: 1.0/1000.0 × rontogram.
+quectogram, defined as: rontogram × 1.0/1000.0
 
 ```csharp
 public static readonly Mass Quectogram;

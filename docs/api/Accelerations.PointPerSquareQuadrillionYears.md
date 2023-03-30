@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareQuadrillionYears Field
 
-A(n) point per square quadrillion years. Defined as: (1.0/72.0)/((1000.0)*(1000.0)) × inch per square trillion years.
+point per square quadrillion years, defined as: inch per square trillion years × (1.0/72.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration PointPerSquareQuadrillionYears;

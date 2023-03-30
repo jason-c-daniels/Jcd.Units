@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicGigameter Field
 
-A(n) microgram per cubic gigameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × milligram per cubic megameter.
+microgram per cubic gigameter, defined as: milligram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density MicrogramPerCubicGigameter;

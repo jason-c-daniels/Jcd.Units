@@ -3,7 +3,7 @@
 
 ## Energies.Zeptojoule Field
 
-A(n) zeptojoule. Defined as: 1.0/1000.0 × attojoule.
+zeptojoule, defined as: attojoule × 1.0/1000.0
 
 ```csharp
 public static readonly Energy Zeptojoule;

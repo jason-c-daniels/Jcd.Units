@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerPicosecond Field
 
-A(n) exameter per picosecond. Defined as: (1000.0)/(1.0/1000.0) × petameter per nanosecond.
+exameter per picosecond, defined as: petameter per nanosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ExameterPerPicosecond;

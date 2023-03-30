@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerCentury Field
 
-A(n) point per century. Defined as: (1.0/72.0)/(10.0) × inch per decade.
+point per century, defined as: inch per decade × (1.0/72.0)/(10.0)
 
 ```csharp
 public static readonly Velocity PointPerCentury;

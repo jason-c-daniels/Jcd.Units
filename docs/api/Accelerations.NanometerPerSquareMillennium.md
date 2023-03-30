@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareMillennium Field
 
-A(n) nanometer per square millennium. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × micrometer per square century.
+nanometer per square millennium, defined as: micrometer per square century × (1.0/1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareMillennium;

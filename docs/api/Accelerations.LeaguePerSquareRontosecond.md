@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareRontosecond Field
 
-A(n) league per square rontosecond. Defined as: (3.0)/((1.0/1000.0)*(1.0/1000.0)) × mile per square yoctosecond.
+league per square rontosecond, defined as: mile per square yoctosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareRontosecond;

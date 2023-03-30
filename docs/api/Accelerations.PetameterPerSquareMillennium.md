@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareMillennium Field
 
-A(n) petameter per square millennium. Defined as: (1000.0)/((10.0)*(10.0)) × terameter per square century.
+petameter per square millennium, defined as: terameter per square century × (1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareMillennium;

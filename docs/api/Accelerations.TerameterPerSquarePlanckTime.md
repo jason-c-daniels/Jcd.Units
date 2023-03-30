@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquarePlanckTime Field
 
-A(n) terameter per square planck-time. Defined as: (1000.0)/((5.391247E-38)*(5.391247E-38)) × gigameter per square microsecond.
+terameter per square planck-time, defined as: gigameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration TerameterPerSquarePlanckTime;

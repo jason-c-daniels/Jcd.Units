@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerMinute Field
 
-A(n) meter per minute. Defined as: (1.0)/(60.0) × meter per second.
+meter per minute, defined as: meter per second × (1.0)/(60.0)
 
 ```csharp
 public static readonly Velocity MeterPerMinute;

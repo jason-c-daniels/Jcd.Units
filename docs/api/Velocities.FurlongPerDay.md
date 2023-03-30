@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerDay Field
 
-A(n) furlong per day. Defined as: (10.0)/(24.0) × chain per hour.
+furlong per day, defined as: chain per hour × (10.0)/(24.0)
 
 ```csharp
 public static readonly Velocity FurlongPerDay;

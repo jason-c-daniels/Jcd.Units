@@ -3,7 +3,7 @@
 
 ## Volumes.CubicKilometer Field
 
-A(n) cubic kilometer. Defined as: (10.0)*(10.0)*(10.0) × cubic hectometer.
+cubic kilometer, defined as: cubic hectometer × (10.0)*(10.0)*(10.0)
 
 ```csharp
 public static readonly Volume CubicKilometer;

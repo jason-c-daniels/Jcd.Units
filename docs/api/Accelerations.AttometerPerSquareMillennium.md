@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareMillennium Field
 
-A(n) attometer per square millennium. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × femtometer per square century.
+attometer per square millennium, defined as: femtometer per square century × (1.0/1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareMillennium;

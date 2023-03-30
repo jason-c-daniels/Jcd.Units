@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Attokatal Field
 
-A(n) attokatal. Defined as: 1.0/1000.0 × femtokatal.
+attokatal, defined as: femtokatal × 1.0/1000.0
 
 ```csharp
 public static readonly CatalyticActivity Attokatal;

@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerYear Field
 
-A(n) chain per year. Defined as: (22.0)/(365.2525) × yard per day.
+chain per year, defined as: yard per day × (22.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity ChainPerYear;

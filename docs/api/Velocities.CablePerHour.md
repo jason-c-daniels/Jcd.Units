@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerHour Field
 
-A(n) cable per hour. Defined as: (100.0)/(60.0) × fathom per minute.
+cable per hour, defined as: fathom per minute × (100.0)/(60.0)
 
 ```csharp
 public static readonly Velocity CablePerHour;

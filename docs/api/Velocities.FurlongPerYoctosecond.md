@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerYoctosecond Field
 
-A(n) furlong per yoctosecond. Defined as: (10.0)/(1.0/1000.0) × chain per zeptosecond.
+furlong per yoctosecond, defined as: chain per zeptosecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity FurlongPerYoctosecond;

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Dekakatal Field
 
-A(n) dekakatal. Defined as: 10.0 × katal.
+dekakatal, defined as: katal × 10.0
 
 ```csharp
 public static readonly CatalyticActivity Dekakatal;

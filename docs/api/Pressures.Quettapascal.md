@@ -3,7 +3,7 @@
 
 ## Pressures.Quettapascal Field
 
-A(n) quettapascal. Defined as: 1000.0 × ronnapascal.
+quettapascal, defined as: ronnapascal × 1000.0
 
 ```csharp
 public static readonly Pressure Quettapascal;

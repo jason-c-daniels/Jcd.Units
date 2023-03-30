@@ -3,7 +3,7 @@
 
 ## TransferRates.RonnanybblesPerSecond Field
 
-A(n) ronnanybbles per second. Defined as: 1000.0 × yottanybbles per second.
+ronnanybbles per second, defined as: yottanybbles per second × 1000.0
 
 ```csharp
 public static readonly TransferRate RonnanybblesPerSecond;

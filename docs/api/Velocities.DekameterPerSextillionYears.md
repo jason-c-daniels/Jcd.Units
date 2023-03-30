@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerSextillionYears Field
 
-A(n) dekameter per sextillion years. Defined as: (10.0)/(1000.0) × meter per quintillion years.
+dekameter per sextillion years, defined as: meter per quintillion years × (10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity DekameterPerSextillionYears;

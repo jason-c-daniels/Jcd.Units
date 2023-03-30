@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerMillisecond Field
 
-A(n) link per millisecond. Defined as: (0.20116)/(1.0/10.0) × SI meter per centisecond.
+link per millisecond, defined as: SI meter per centisecond × (0.20116)/(1.0/10.0)
 
 ```csharp
 public static readonly Velocity LinkPerMillisecond;

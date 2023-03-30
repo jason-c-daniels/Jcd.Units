@@ -3,7 +3,7 @@
 
 ## Masses.Yottagram Field
 
-A(n) yottagram. Defined as: 1000.0 × zettagram.
+yottagram, defined as: zettagram × 1000.0
 
 ```csharp
 public static readonly Mass Yottagram;

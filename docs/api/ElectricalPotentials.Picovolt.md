@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Picovolt Field
 
-A(n) picovolt. Defined as: 1.0/1000.0 × nanovolt.
+picovolt, defined as: nanovolt × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalPotential Picovolt;

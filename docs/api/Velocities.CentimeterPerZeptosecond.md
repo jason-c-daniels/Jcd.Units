@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerZeptosecond Field
 
-A(n) centimeter per zeptosecond. Defined as: (1.0/10.0)/(1.0/1000.0) × decimeter per attosecond.
+centimeter per zeptosecond, defined as: decimeter per attosecond × (1.0/10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity CentimeterPerZeptosecond;

@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicFemtometer Field
 
-A(n) microgram per cubic femtometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × milligram per cubic picometer.
+microgram per cubic femtometer, defined as: milligram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density MicrogramPerCubicFemtometer;

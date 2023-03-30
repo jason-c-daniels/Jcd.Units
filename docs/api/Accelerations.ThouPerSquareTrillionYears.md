@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareTrillionYears Field
 
-A(n) thou per square trillion years. Defined as: (1.0/12000.0)/((1000.0)*(1000.0)) × foot per square billion years.
+thou per square trillion years, defined as: foot per square billion years × (1.0/12000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareTrillionYears;

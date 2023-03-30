@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareZeptosecond Field
 
-A(n) yard per square zeptosecond. Defined as: (3.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square attosecond.
+yard per square zeptosecond, defined as: foot per square attosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration YardPerSquareZeptosecond;

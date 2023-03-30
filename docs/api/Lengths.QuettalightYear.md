@@ -3,7 +3,7 @@
 
 ## Lengths.QuettalightYear Field
 
-A(n) quettalight-year. Defined as: 1000.0 × ronnalight-year.
+quettalight-year, defined as: ronnalight-year × 1000.0
 
 ```csharp
 public static readonly Length QuettalightYear;

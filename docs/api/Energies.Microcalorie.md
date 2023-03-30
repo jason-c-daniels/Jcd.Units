@@ -3,7 +3,7 @@
 
 ## Energies.Microcalorie Field
 
-A(n) microcalorie. Defined as: 1.0/1000.0 × millicalorie.
+microcalorie, defined as: millicalorie × 1.0/1000.0
 
 ```csharp
 public static readonly Energy Microcalorie;

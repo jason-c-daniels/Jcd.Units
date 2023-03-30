@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerMillisecond Field
 
-A(n) millimeter per millisecond. Defined as: (1.0/10.0)/(1.0/10.0) × centimeter per centisecond.
+millimeter per millisecond, defined as: centimeter per centisecond × (1.0/10.0)/(1.0/10.0)
 
 ```csharp
 public static readonly Velocity MillimeterPerMillisecond;

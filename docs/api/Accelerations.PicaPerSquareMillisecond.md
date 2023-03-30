@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareMillisecond Field
 
-A(n) pica per square millisecond. Defined as: (12.0)/((1.0/10.0)*(1.0/10.0)) × point per square centisecond.
+pica per square millisecond, defined as: point per square centisecond × (12.0)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration PicaPerSquareMillisecond;

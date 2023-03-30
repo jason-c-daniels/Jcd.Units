@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Radian](Angles.Radian.md 'Jcd.Units.UnitsOfMeasure.SI.Angles.Radian') | A(n) radian. |
+| [Radian](Angles.Radian.md 'Jcd.Units.UnitsOfMeasure.SI.Angles.Radian') | radian, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |

@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareYoctosecond Field
 
-A(n) kilometer per square yoctosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × hectometer per square zeptosecond.
+kilometer per square yoctosecond, defined as: hectometer per square zeptosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareYoctosecond;

@@ -3,7 +3,7 @@
 
 ## Energies.Zeptocalorie Field
 
-A(n) zeptocalorie. Defined as: 1.0/1000.0 × attocalorie.
+zeptocalorie, defined as: attocalorie × 1.0/1000.0
 
 ```csharp
 public static readonly Energy Zeptocalorie;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareDecade Field
 
-A(n) mile per square decade. Defined as: (8.0)/((10.0)*(10.0)) × furlong per square year.
+mile per square decade, defined as: furlong per square year × (8.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration MilePerSquareDecade;

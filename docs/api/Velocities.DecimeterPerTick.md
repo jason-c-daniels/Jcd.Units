@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerTick Field
 
-A(n) decimeter per tick. Defined as: (1.0/10.0)/(100.0) × meter per nanosecond.
+decimeter per tick, defined as: meter per nanosecond × (1.0/10.0)/(100.0)
 
 ```csharp
 public static readonly Velocity DecimeterPerTick;

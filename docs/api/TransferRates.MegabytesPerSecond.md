@@ -3,7 +3,7 @@
 
 ## TransferRates.MegabytesPerSecond Field
 
-A(n) megabytes per second. Defined as: 1000.0 × kilobytes per second.
+megabytes per second, defined as: kilobytes per second × 1000.0
 
 ```csharp
 public static readonly TransferRate MegabytesPerSecond;

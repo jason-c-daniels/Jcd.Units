@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareHour Field
 
-A(n) inch per square hour. Defined as: (2.54)/((60.0)*(60.0)) × SI centimeter per square minute.
+inch per square hour, defined as: SI centimeter per square minute × (2.54)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration InchPerSquareHour;

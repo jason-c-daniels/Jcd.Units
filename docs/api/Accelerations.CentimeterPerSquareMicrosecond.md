@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareMicrosecond Field
 
-A(n) centimeter per square microsecond. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)) × decimeter per square millisecond.
+centimeter per square microsecond, defined as: decimeter per square millisecond × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareMicrosecond;

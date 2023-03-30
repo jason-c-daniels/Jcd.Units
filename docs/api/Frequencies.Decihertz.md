@@ -3,7 +3,7 @@
 
 ## Frequencies.Decihertz Field
 
-A(n) decihertz. Defined as: 1.0/10.0 × hertz.
+decihertz, defined as: hertz × 1.0/10.0
 
 ```csharp
 public static readonly Frequency Decihertz;

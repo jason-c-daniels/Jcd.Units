@@ -3,7 +3,7 @@
 
 ## Capacitances.Zeptofarad Field
 
-A(n) zeptofarad. Defined as: 1.0/1000.0 × attofarad.
+zeptofarad, defined as: attofarad × 1.0/1000.0
 
 ```csharp
 public static readonly Capacitance Zeptofarad;

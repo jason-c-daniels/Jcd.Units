@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesRømer Field
 
-A(n) degrees rømer. Defined as: (40.0/21.0 + -7.5) × SI degrees celcius.
+degrees rømer, defined as: (SI degrees celcius + -7.5) × 40.0/21.0.
 
 ```csharp
 public static readonly Temperature DegreesRømer;

@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareDay Field
 
-A(n) kilometer per square day. Defined as: (10.0)/((24.0)*(24.0)) × hectometer per square hour.
+kilometer per square day, defined as: hectometer per square hour × (10.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareDay;

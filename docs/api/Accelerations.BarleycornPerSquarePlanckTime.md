@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquarePlanckTime Field
 
-A(n) barleycorn per square planck-time. Defined as: (1.0/36.0)/((5.391247E-38)*(5.391247E-38)) × foot per square microsecond.
+barleycorn per square planck-time, defined as: foot per square microsecond × (1.0/36.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquarePlanckTime;

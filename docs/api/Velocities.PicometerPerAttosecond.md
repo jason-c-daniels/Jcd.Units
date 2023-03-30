@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerAttosecond Field
 
-A(n) picometer per attosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × nanometer per femtosecond.
+picometer per attosecond, defined as: nanometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity PicometerPerAttosecond;

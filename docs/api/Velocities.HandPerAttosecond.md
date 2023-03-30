@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerAttosecond Field
 
-A(n) hand per attosecond. Defined as: (4.0)/(1.0/1000.0) × inch per femtosecond.
+hand per attosecond, defined as: inch per femtosecond × (4.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity HandPerAttosecond;

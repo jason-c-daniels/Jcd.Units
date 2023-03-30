@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerTick Field
 
-A(n) meter per tick. Defined as: (1.0)/(100.0) × meter per nanosecond.
+meter per tick, defined as: meter per nanosecond × (1.0)/(100.0)
 
 ```csharp
 public static readonly Velocity MeterPerTick;

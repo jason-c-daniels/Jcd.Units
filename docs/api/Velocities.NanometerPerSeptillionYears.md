@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerSeptillionYears Field
 
-A(n) nanometer per septillion years. Defined as: (1.0/1000.0)/(1000.0) × micrometer per sextillion years.
+nanometer per septillion years, defined as: micrometer per sextillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity NanometerPerSeptillionYears;

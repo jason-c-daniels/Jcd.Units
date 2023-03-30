@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerYoctosecond Field
 
-A(n) inch per yoctosecond. Defined as: (2.54)/(1.0/1000.0) × SI centimeter per zeptosecond.
+inch per yoctosecond, defined as: SI centimeter per zeptosecond × (2.54)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity InchPerYoctosecond;

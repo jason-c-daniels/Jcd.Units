@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [PlanckEnergy](Energies.PlanckEnergy.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Energies.PlanckEnergy') | A(n) planck-energy. Defined as: 1.9561E+9 × SI joule. |
+| [PlanckEnergy](Energies.PlanckEnergy.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Energies.PlanckEnergy') | planck-energy, defined as: SI joule × 1.9561E+9 |

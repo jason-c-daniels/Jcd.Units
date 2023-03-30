@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareWeek Field
 
-A(n) nanometer per square week. Defined as: (1.0/1000.0)/((7.0)*(7.0)) × micrometer per square day.
+nanometer per square week, defined as: micrometer per square day × (1.0/1000.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareWeek;

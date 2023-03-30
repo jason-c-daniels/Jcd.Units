@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerDay Field
 
-A(n) league per day. Defined as: (3.0)/(24.0) × mile per hour.
+league per day, defined as: mile per hour × (3.0)/(24.0)
 
 ```csharp
 public static readonly Velocity LeaguePerDay;

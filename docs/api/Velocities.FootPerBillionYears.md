@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerBillionYears Field
 
-A(n) foot per billion years. Defined as: (12)/(1000.0) × inch per million years.
+foot per billion years, defined as: inch per million years × (12)/(1000.0)
 
 ```csharp
 public static readonly Velocity FootPerBillionYears;

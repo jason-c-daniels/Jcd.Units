@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareRontosecond Field
 
-A(n) centimeter per square rontosecond. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)) × decimeter per square yoctosecond.
+centimeter per square rontosecond, defined as: decimeter per square yoctosecond × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareRontosecond;

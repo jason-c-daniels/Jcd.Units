@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareQuadrillionYears Field
 
-A(n) decimeter per square quadrillion years. Defined as: (1.0/10.0)/((1000.0)*(1000.0)) × meter per square trillion years.
+decimeter per square quadrillion years, defined as: meter per square trillion years × (1.0/10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquareQuadrillionYears;

@@ -18,167 +18,167 @@ namespace Jcd.Units.UnitsOfMeasure;
 public class Durations : UnitOfMeasureEnumeration<Durations, Duration>
 {
    /// <summary>
-   /// A(n) second.
+   /// second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Duration Second = new ("second", "s");
 
    /// <summary>
-   /// A(n) decisecond. Defined as: 1.0/10.0 × second.
+   /// decisecond, defined as: second × 1.0/10.0
    /// </summary>
-   public static readonly Duration Decisecond = new ("decisecond", "ds", Second, 1.0 / 10.0, 0);
+   public static readonly Duration Decisecond = new ("decisecond", "ds", Second, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) centisecond. Defined as: 1.0/10.0 × decisecond.
+   /// centisecond, defined as: decisecond × 1.0/10.0
    /// </summary>
-   public static readonly Duration Centisecond = new ("centisecond", "cs", Decisecond, 1.0 / 10.0, 0);
+   public static readonly Duration Centisecond = new ("centisecond", "cs", Decisecond, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) millisecond. Defined as: 1.0/10.0 × centisecond.
+   /// millisecond, defined as: centisecond × 1.0/10.0
    /// </summary>
-   public static readonly Duration Millisecond = new ("millisecond", "ms", Centisecond, 1.0 / 10.0, 0);
+   public static readonly Duration Millisecond = new ("millisecond", "ms", Centisecond, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) microsecond. Defined as: 1.0/1000.0 × millisecond.
+   /// microsecond, defined as: millisecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Microsecond = new ("microsecond", "μs", Millisecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Microsecond = new ("microsecond", "μs", Millisecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) nanosecond. Defined as: 1.0/1000.0 × microsecond.
+   /// nanosecond, defined as: microsecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Nanosecond = new ("nanosecond", "ns", Microsecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Nanosecond = new ("nanosecond", "ns", Microsecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) picosecond. Defined as: 1.0/1000.0 × nanosecond.
+   /// picosecond, defined as: nanosecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Picosecond = new ("picosecond", "ps", Nanosecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Picosecond = new ("picosecond", "ps", Nanosecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) femtosecond. Defined as: 1.0/1000.0 × picosecond.
+   /// femtosecond, defined as: picosecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Femtosecond = new ("femtosecond", "fs", Picosecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Femtosecond = new ("femtosecond", "fs", Picosecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) attosecond. Defined as: 1.0/1000.0 × femtosecond.
+   /// attosecond, defined as: femtosecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Attosecond = new ("attosecond", "as", Femtosecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Attosecond = new ("attosecond", "as", Femtosecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) zeptosecond. Defined as: 1.0/1000.0 × attosecond.
+   /// zeptosecond, defined as: attosecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Zeptosecond = new ("zeptosecond", "zs", Attosecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Zeptosecond = new ("zeptosecond", "zs", Attosecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) yoctosecond. Defined as: 1.0/1000.0 × zeptosecond.
+   /// yoctosecond, defined as: zeptosecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Yoctosecond = new ("yoctosecond", "ys", Zeptosecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Yoctosecond = new ("yoctosecond", "ys", Zeptosecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) rontosecond. Defined as: 1.0/1000.0 × yoctosecond.
+   /// rontosecond, defined as: yoctosecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Rontosecond = new ("rontosecond", "rs", Yoctosecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Rontosecond = new ("rontosecond", "rs", Yoctosecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) quectosecond. Defined as: 1.0/1000.0 × rontosecond.
+   /// quectosecond, defined as: rontosecond × 1.0/1000.0
    /// </summary>
-   public static readonly Duration Quectosecond = new ("quectosecond", "qs", Rontosecond, 1.0 / 1000.0, 0);
+   public static readonly Duration Quectosecond = new ("quectosecond", "qs", Rontosecond, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) minute. Defined as: 60.0 × second.
+   /// minute, defined as: second × 60.0
    /// </summary>
-   public static readonly Duration Minute = new ("minute", "min", Second, 60.0, 0);
+   public static readonly Duration Minute = new ("minute", "min", Second, 60.0);
 
    /// <summary>
-   /// A(n) hour. Defined as: 60.0 × minute.
+   /// hour, defined as: minute × 60.0
    /// </summary>
-   public static readonly Duration Hour = new ("hour", "hr", Minute, 60.0, 0);
+   public static readonly Duration Hour = new ("hour", "hr", Minute, 60.0);
 
    /// <summary>
-   /// A(n) day. Defined as: 24.0 × hour.
+   /// day, defined as: hour × 24.0
    /// </summary>
-   public static readonly Duration Day = new ("day", "dy", Hour, 24.0, 0);
+   public static readonly Duration Day = new ("day", "dy", Hour, 24.0);
 
    /// <summary>
-   /// A(n) week. Defined as: 7.0 × day.
+   /// week, defined as: day × 7.0
    /// </summary>
-   public static readonly Duration Week = new ("week", "wk", Day, 7.0, 0);
+   public static readonly Duration Week = new ("week", "wk", Day, 7.0);
 
    /// <summary>
-   /// A(n) year. Defined as: 365.2525 × day.
+   /// year, defined as: day × 365.2525
    /// </summary>
-   public static readonly Duration Year = new ("year", "yr", Day, 365.2525, 0);
+   public static readonly Duration Year = new ("year", "yr", Day, 365.2525);
 
    /// <summary>
-   /// A(n) decade. Defined as: 10.0 × year.
+   /// decade, defined as: year × 10.0
    /// </summary>
-   public static readonly Duration Decade = new ("decade", "decade", Year, 10.0, 0);
+   public static readonly Duration Decade = new ("decade", "decade", Year, 10.0);
 
    /// <summary>
-   /// A(n) century. Defined as: 10.0 × decade.
+   /// century, defined as: decade × 10.0
    /// </summary>
-   public static readonly Duration Century = new ("century", "century", Decade, 10.0, 0);
+   public static readonly Duration Century = new ("century", "century", Decade, 10.0);
 
    /// <summary>
-   /// A(n) millennium. Defined as: 10.0 × century.
+   /// millennium, defined as: century × 10.0
    /// </summary>
-   public static readonly Duration Millennium = new ("millennium", "kyr", Century, 10.0, 0);
+   public static readonly Duration Millennium = new ("millennium", "kyr", Century, 10.0);
 
    /// <summary>
-   /// A(n) million years. Defined as: 1000.0 × millennium.
+   /// million years, defined as: millennium × 1000.0
    /// </summary>
-   public static readonly Duration MillionYears = new ("million years", "Myr", Millennium, 1000.0, 0);
+   public static readonly Duration MillionYears = new ("million years", "Myr", Millennium, 1000.0);
 
    /// <summary>
-   /// A(n) billion years. Defined as: 1000.0 × million years.
+   /// billion years, defined as: million years × 1000.0
    /// </summary>
-   public static readonly Duration BillionYears = new ("billion years", "Gyr", MillionYears, 1000.0, 0);
+   public static readonly Duration BillionYears = new ("billion years", "Gyr", MillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) trillion years. Defined as: 1000.0 × billion years.
+   /// trillion years, defined as: billion years × 1000.0
    /// </summary>
-   public static readonly Duration TrillionYears = new ("trillion years", "Tyr", BillionYears, 1000.0, 0);
+   public static readonly Duration TrillionYears = new ("trillion years", "Tyr", BillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) quadrillion years. Defined as: 1000.0 × trillion years.
+   /// quadrillion years, defined as: trillion years × 1000.0
    /// </summary>
-   public static readonly Duration QuadrillionYears = new ("quadrillion years", "Pyr", TrillionYears, 1000.0, 0);
+   public static readonly Duration QuadrillionYears = new ("quadrillion years", "Pyr", TrillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) quintillion years. Defined as: 1000.0 × quadrillion years.
+   /// quintillion years, defined as: quadrillion years × 1000.0
    /// </summary>
-   public static readonly Duration QuintillionYears = new ("quintillion years", "Eyr", QuadrillionYears, 1000.0, 0);
+   public static readonly Duration QuintillionYears = new ("quintillion years", "Eyr", QuadrillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) sextillion years. Defined as: 1000.0 × quintillion years.
+   /// sextillion years, defined as: quintillion years × 1000.0
    /// </summary>
-   public static readonly Duration SextillionYears = new ("sextillion years", "Zyr", QuintillionYears, 1000.0, 0);
+   public static readonly Duration SextillionYears = new ("sextillion years", "Zyr", QuintillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) septillion years. Defined as: 1000.0 × sextillion years.
+   /// septillion years, defined as: sextillion years × 1000.0
    /// </summary>
-   public static readonly Duration SeptillionYears = new ("septillion years", "Yyr", SextillionYears, 1000.0, 0);
+   public static readonly Duration SeptillionYears = new ("septillion years", "Yyr", SextillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) octillion years. Defined as: 1000.0 × septillion years.
+   /// octillion years, defined as: septillion years × 1000.0
    /// </summary>
-   public static readonly Duration OctillionYears = new ("octillion years", "Ryr", SeptillionYears, 1000.0, 0);
+   public static readonly Duration OctillionYears = new ("octillion years", "Ryr", SeptillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) nonillion years. Defined as: 1000.0 × octillion years.
+   /// nonillion years, defined as: octillion years × 1000.0
    /// </summary>
-   public static readonly Duration NonillionYears = new ("nonillion years", "Qyr", OctillionYears, 1000.0, 0);
+   public static readonly Duration NonillionYears = new ("nonillion years", "Qyr", OctillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) decillion years. Defined as: 1000.0 × nonillion years.
+   /// decillion years, defined as: nonillion years × 1000.0
    /// </summary>
-   public static readonly Duration DecillionYears = new ("decillion years", "decillion yr", NonillionYears, 1000.0, 0);
+   public static readonly Duration DecillionYears = new ("decillion years", "decillion yr", NonillionYears, 1000.0);
 
    /// <summary>
-   /// A(n) planck-time. Defined as: 5.391247E-38 × microsecond.
+   /// planck-time, defined as: microsecond × 5.391247E-38
    /// </summary>
-   public static readonly Duration PlanckTime = new ("planck-time", "tₚ", Microsecond, 5.391247E-38, 0);
+   public static readonly Duration PlanckTime = new ("planck-time", "tₚ", Microsecond, 5.391247E-38);
 
    /// <summary>
-   /// A(n) tick. Defined as: 100.0 × nanosecond.
+   /// tick, defined as: nanosecond × 100.0
    /// </summary>
-   public static readonly Duration Tick = new ("tick", "tick", Nanosecond, 100.0, 0);
+   public static readonly Duration Tick = new ("tick", "tick", Nanosecond, 100.0);
 }

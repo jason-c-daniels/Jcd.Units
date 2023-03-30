@@ -3,7 +3,7 @@
 
 ## Energies.Dekajoule Field
 
-A(n) dekajoule. Defined as: 10.0 × joule.
+dekajoule, defined as: joule × 10.0
 
 ```csharp
 public static readonly Energy Dekajoule;

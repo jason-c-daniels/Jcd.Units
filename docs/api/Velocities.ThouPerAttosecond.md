@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerAttosecond Field
 
-A(n) thou per attosecond. Defined as: (1.0/12000.0)/(1.0/1000.0) × foot per femtosecond.
+thou per attosecond, defined as: foot per femtosecond × (1.0/12000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ThouPerAttosecond;

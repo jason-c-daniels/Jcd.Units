@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Yottavolt Field
 
-A(n) yottavolt. Defined as: 1000.0 × zettavolt.
+yottavolt, defined as: zettavolt × 1000.0
 
 ```csharp
 public static readonly ElectricalPotential Yottavolt;

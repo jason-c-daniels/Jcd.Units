@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Attosiemens Field
 
-A(n) attosiemens. Defined as: 1.0/1000.0 × femtosiemens.
+attosiemens, defined as: femtosiemens × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalConductance Attosiemens;

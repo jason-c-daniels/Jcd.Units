@@ -3,7 +3,7 @@
 
 ## Lengths.MarsCircumference Field
 
-A(n) mars circumference. Defined as: Math.PI × mars diameter.
+mars circumference, defined as: mars diameter × Math.PI
 
 ```csharp
 public static readonly Length MarsCircumference;

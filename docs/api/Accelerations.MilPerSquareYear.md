@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareYear Field
 
-A(n) mil per square year. Defined as: (1.0/1000.0)/((365.2525)*(365.2525)) × inch per square day.
+mil per square year, defined as: inch per square day × (1.0/1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration MilPerSquareYear;

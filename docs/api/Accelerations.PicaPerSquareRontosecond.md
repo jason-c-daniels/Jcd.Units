@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareRontosecond Field
 
-A(n) pica per square rontosecond. Defined as: (12.0)/((1.0/1000.0)*(1.0/1000.0)) × point per square yoctosecond.
+pica per square rontosecond, defined as: point per square yoctosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration PicaPerSquareRontosecond;

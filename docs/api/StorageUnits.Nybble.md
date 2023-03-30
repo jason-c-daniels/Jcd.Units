@@ -3,7 +3,7 @@
 
 ## StorageUnits.Nybble Field
 
-A(n) nybble. Defined as: 4d × bit.
+nybble, defined as: bit × 4d
 
 ```csharp
 public static readonly Storage Nybble;

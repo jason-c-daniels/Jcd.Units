@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Hectoampere Field
 
-A(n) hectoampere. Defined as: 10.0 × dekaampere.
+hectoampere, defined as: dekaampere × 10.0
 
 ```csharp
 public static readonly ElectricalCurrent Hectoampere;

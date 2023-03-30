@@ -3,7 +3,7 @@
 
 ## StorageUnits.Zebibit Field
 
-A(n) zebibit. Defined as: 1024.0 × exbibit.
+zebibit, defined as: exbibit × 1024.0
 
 ```csharp
 public static readonly Storage Zebibit;

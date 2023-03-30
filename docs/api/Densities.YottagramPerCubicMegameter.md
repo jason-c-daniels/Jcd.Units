@@ -3,7 +3,7 @@
 
 ## Densities.YottagramPerCubicMegameter Field
 
-A(n) yottagram per cubic megameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × zettagram per cubic kilometer.
+yottagram per cubic megameter, defined as: zettagram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density YottagramPerCubicMegameter;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Picosievert Field
 
-A(n) picosievert. Defined as: 1.0/1000.0 × nanosievert.
+picosievert, defined as: nanosievert × 1.0/1000.0
 
 ```csharp
 public static readonly RadiationEquivalentDose Picosievert;

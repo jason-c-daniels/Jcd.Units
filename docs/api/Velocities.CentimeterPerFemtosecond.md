@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerFemtosecond Field
 
-A(n) centimeter per femtosecond. Defined as: (1.0/10.0)/(1.0/1000.0) × decimeter per picosecond.
+centimeter per femtosecond, defined as: decimeter per picosecond × (1.0/10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity CentimeterPerFemtosecond;

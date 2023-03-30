@@ -3,7 +3,7 @@
 
 ## Volumes.CubicPicometer Field
 
-A(n) cubic picometer. Defined as: (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0) × cubic nanometer.
+cubic picometer, defined as: cubic nanometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
 
 ```csharp
 public static readonly Volume CubicPicometer;

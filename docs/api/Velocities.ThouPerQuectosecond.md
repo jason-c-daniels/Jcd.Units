@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerQuectosecond Field
 
-A(n) thou per quectosecond. Defined as: (1.0/12000.0)/(1.0/1000.0) × foot per rontosecond.
+thou per quectosecond, defined as: foot per rontosecond × (1.0/12000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ThouPerQuectosecond;

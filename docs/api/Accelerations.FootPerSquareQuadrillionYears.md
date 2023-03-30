@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareQuadrillionYears Field
 
-A(n) foot per square quadrillion years. Defined as: (12)/((1000.0)*(1000.0)) × inch per square trillion years.
+foot per square quadrillion years, defined as: inch per square trillion years × (12)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration FootPerSquareQuadrillionYears;

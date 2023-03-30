@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicQuettameter Field
 
-A(n) hectogram per cubic quettameter. Defined as: (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic ronnameter.
+hectogram per cubic quettameter, defined as: kilogram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density HectogramPerCubicQuettameter;

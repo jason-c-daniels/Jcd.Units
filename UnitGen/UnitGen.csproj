@@ -20,31 +20,33 @@
    </PropertyGroup>
 
    <ItemGroup>
-      <None Remove="Resources\BaseUnit.template"/>
-      <EmbeddedResource Include="Resources\BaseUnit.template"/>
-      <None Remove="Resources\DerivedUnit.template"/>
-      <EmbeddedResource Include="Resources\DerivedUnit.template"/>
-      <None Remove="Resources\Enumeration.template"/>
-      <EmbeddedResource Include="Resources\DerivedUnitWithOffset.template"/>
-      <EmbeddedResource Include="Resources\Enumeration.template"/>
-      <None Remove="Resources\UnitType.template"/>
-      <EmbeddedResource Include="Resources\UnitType.template"/>
-      <None Remove="Data\Prefixes.csv"/>
-      <EmbeddedResource Include="Data\Prefixes.csv"/>
-      <None Remove="Data\Systems.csv"/>
-      <EmbeddedResource Include="Data\Systems.csv"/>
-      <None Remove="Data\Units.csv"/>
-      <EmbeddedResource Include="Data\Units.csv"/>
-      <None Remove="Data\UnitTypes.csv"/>
-      <EmbeddedResource Include="Data\UnitTypes.csv"/>
-      <None Remove="Resources\UnitOfMeasure.NamespaceDoc.template"/>
-      <EmbeddedResource Include="Resources\UnitOfMeasure.NamespaceDoc.template"/>
-      <None Remove="Data\.~lock.Units.csv#"/>
+      <None Remove="Resources\BaseUnit.template" />
+      <EmbeddedResource Include="Resources\BaseUnit.template" />
+      <None Remove="Resources\DerivedUnit.template" />
+      <EmbeddedResource Include="Resources\DerivedUnit.template" />
+      <None Remove="Resources\Enumeration.template" />
+      <EmbeddedResource Include="Resources\DerivedUnitNoCoefficient.template" />
+      <EmbeddedResource Include="Resources\DerivedUnitSynonym.template" />
+      <EmbeddedResource Include="Resources\DerivedUnitWithOffset.template" />
+      <EmbeddedResource Include="Resources\Enumeration.template" />
+      <None Remove="Resources\UnitType.template" />
+      <EmbeddedResource Include="Resources\UnitType.template" />
+      <None Remove="Data\Prefixes.csv" />
+      <EmbeddedResource Include="Data\Prefixes.csv" />
+      <None Remove="Data\Systems.csv" />
+      <EmbeddedResource Include="Data\Systems.csv" />
+      <None Remove="Data\Units.csv" />
+      <EmbeddedResource Include="Data\Units.csv" />
+      <None Remove="Data\UnitTypes.csv" />
+      <EmbeddedResource Include="Data\UnitTypes.csv" />
+      <None Remove="Resources\UnitOfMeasure.NamespaceDoc.template" />
+      <EmbeddedResource Include="Resources\UnitOfMeasure.NamespaceDoc.template" />
+      <None Remove="Data\.~lock.Units.csv#" />
    </ItemGroup>
 
    <ItemGroup>
-      <PackageReference Include="CsvHelper" Version="30.0.1"/>
-      <PackageReference Include="JetBrains.Annotations" Version="2022.3.1"/>
+      <PackageReference Include="CsvHelper" Version="30.0.1" />
+      <PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
    </ItemGroup>
 
 </Project>

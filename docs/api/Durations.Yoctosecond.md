@@ -3,7 +3,7 @@
 
 ## Durations.Yoctosecond Field
 
-A(n) yoctosecond. Defined as: 1.0/1000.0 × zeptosecond.
+yoctosecond, defined as: zeptosecond × 1.0/1000.0
 
 ```csharp
 public static readonly Duration Yoctosecond;

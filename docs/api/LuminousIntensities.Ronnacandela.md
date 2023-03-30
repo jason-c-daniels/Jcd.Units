@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Ronnacandela Field
 
-A(n) ronnacandela. Defined as: 1000.0 × yottacandela.
+ronnacandela, defined as: yottacandela × 1000.0
 
 ```csharp
 public static readonly LuminousIntensity Ronnacandela;

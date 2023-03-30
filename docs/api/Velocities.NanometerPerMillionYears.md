@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerMillionYears Field
 
-A(n) nanometer per million years. Defined as: (1.0/1000.0)/(1000.0) × micrometer per millennium.
+nanometer per million years, defined as: micrometer per millennium × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity NanometerPerMillionYears;

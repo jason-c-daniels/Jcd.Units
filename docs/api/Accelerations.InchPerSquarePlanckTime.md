@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquarePlanckTime Field
 
-A(n) inch per square planck-time. Defined as: (2.54)/((5.391247E-38)*(5.391247E-38)) × SI centimeter per square microsecond.
+inch per square planck-time, defined as: SI centimeter per square microsecond × (2.54)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration InchPerSquarePlanckTime;

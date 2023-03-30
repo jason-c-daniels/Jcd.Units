@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Attogray Field
 
-A(n) attogray. Defined as: 1.0/1000.0 × femtogray.
+attogray, defined as: femtogray × 1.0/1000.0
 
 ```csharp
 public static readonly RadiationAbsorbedDose Attogray;

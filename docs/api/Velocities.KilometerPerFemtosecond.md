@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerFemtosecond Field
 
-A(n) kilometer per femtosecond. Defined as: (10.0)/(1.0/1000.0) × hectometer per picosecond.
+kilometer per femtosecond, defined as: hectometer per picosecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity KilometerPerFemtosecond;

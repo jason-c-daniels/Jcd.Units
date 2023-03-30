@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerQuectosecond Field
 
-A(n) micrometer per quectosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × millimeter per rontosecond.
+micrometer per quectosecond, defined as: millimeter per rontosecond × (1.0/1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity MicrometerPerQuectosecond;

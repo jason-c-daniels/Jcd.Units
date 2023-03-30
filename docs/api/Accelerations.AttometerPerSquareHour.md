@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareHour Field
 
-A(n) attometer per square hour. Defined as: (1.0/1000.0)/((60.0)*(60.0)) × femtometer per square minute.
+attometer per square hour, defined as: femtometer per square minute × (1.0/1000.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareHour;

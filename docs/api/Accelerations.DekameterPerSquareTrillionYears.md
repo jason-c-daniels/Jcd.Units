@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareTrillionYears Field
 
-A(n) dekameter per square trillion years. Defined as: (10.0)/((1000.0)*(1000.0)) × meter per square billion years.
+dekameter per square trillion years, defined as: meter per square billion years × (10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareTrillionYears;

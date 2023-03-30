@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Ronnaampere Field
 
-A(n) ronnaampere. Defined as: 1000.0 × yottaampere.
+ronnaampere, defined as: yottaampere × 1000.0
 
 ```csharp
 public static readonly ElectricalCurrent Ronnaampere;

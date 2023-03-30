@@ -3,7 +3,7 @@
 
 ## Areas.SquarePlanckLength Field
 
-A(n) square Planck-length. Defined as: (1.616255E-35)*(1.616255E-35) × SI square meter.
+square Planck-length, defined as: SI square meter × (1.616255E-35)*(1.616255E-35)
 
 ```csharp
 public static readonly Area SquarePlanckLength;

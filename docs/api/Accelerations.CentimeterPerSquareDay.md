@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareDay Field
 
-A(n) centimeter per square day. Defined as: (1.0/10.0)/((24.0)*(24.0)) × decimeter per square hour.
+centimeter per square day, defined as: decimeter per square hour × (1.0/10.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareDay;

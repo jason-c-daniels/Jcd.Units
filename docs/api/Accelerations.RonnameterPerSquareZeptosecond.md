@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareZeptosecond Field
 
-A(n) ronnameter per square zeptosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × yottameter per square attosecond.
+ronnameter per square zeptosecond, defined as: yottameter per square attosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareZeptosecond;

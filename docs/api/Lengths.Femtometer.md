@@ -3,7 +3,7 @@
 
 ## Lengths.Femtometer Field
 
-A(n) femtometer. Defined as: 1.0/1000.0 × picometer.
+femtometer, defined as: picometer × 1.0/1000.0
 
 ```csharp
 public static readonly Length Femtometer;

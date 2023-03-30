@@ -3,7 +3,7 @@
 
 ## Volumes.CubicDecimeter Field
 
-A(n) cubic decimeter. Defined as: (1.0/10.0)*(1.0/10.0)*(1.0/10.0) × cubic meter.
+cubic decimeter, defined as: cubic meter × (1.0/10.0)*(1.0/10.0)*(1.0/10.0)
 
 ```csharp
 public static readonly Volume CubicDecimeter;

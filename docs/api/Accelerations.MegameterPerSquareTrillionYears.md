@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareTrillionYears Field
 
-A(n) megameter per square trillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × kilometer per square billion years.
+megameter per square trillion years, defined as: kilometer per square billion years × (1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareTrillionYears;

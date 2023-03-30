@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attotesla](MagneticFluxDensities.Attotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Attotesla') | A(n) attotesla. Defined as: 1.0/1000.0 × femtotesla. |
-| [Centitesla](MagneticFluxDensities.Centitesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Centitesla') | A(n) centitesla. Defined as: 1.0/10.0 × decitesla. |
-| [Decitesla](MagneticFluxDensities.Decitesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Decitesla') | A(n) decitesla. Defined as: 1.0/10.0 × tesla. |
-| [Dekatesla](MagneticFluxDensities.Dekatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Dekatesla') | A(n) dekatesla. Defined as: 10.0 × tesla. |
-| [Exatesla](MagneticFluxDensities.Exatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Exatesla') | A(n) exatesla. Defined as: 1000.0 × petatesla. |
-| [Femtotesla](MagneticFluxDensities.Femtotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Femtotesla') | A(n) femtotesla. Defined as: 1.0/1000.0 × picotesla. |
-| [Gigatesla](MagneticFluxDensities.Gigatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Gigatesla') | A(n) gigatesla. Defined as: 1000.0 × megatesla. |
-| [Hectotesla](MagneticFluxDensities.Hectotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Hectotesla') | A(n) hectotesla. Defined as: 10.0 × dekatesla. |
-| [Kilotesla](MagneticFluxDensities.Kilotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Kilotesla') | A(n) kilotesla. Defined as: 10.0 × hectotesla. |
-| [Megatesla](MagneticFluxDensities.Megatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Megatesla') | A(n) megatesla. Defined as: 1000.0 × kilotesla. |
-| [Microtesla](MagneticFluxDensities.Microtesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Microtesla') | A(n) microtesla. Defined as: 1.0/1000.0 × millitesla. |
-| [Millitesla](MagneticFluxDensities.Millitesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Millitesla') | A(n) millitesla. Defined as: 1.0/10.0 × centitesla. |
-| [Nanotesla](MagneticFluxDensities.Nanotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Nanotesla') | A(n) nanotesla. Defined as: 1.0/1000.0 × microtesla. |
-| [Petatesla](MagneticFluxDensities.Petatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Petatesla') | A(n) petatesla. Defined as: 1000.0 × teratesla. |
-| [Picotesla](MagneticFluxDensities.Picotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Picotesla') | A(n) picotesla. Defined as: 1.0/1000.0 × nanotesla. |
-| [Quectotesla](MagneticFluxDensities.Quectotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Quectotesla') | A(n) quectotesla. Defined as: 1.0/1000.0 × rontotesla. |
-| [Quettatesla](MagneticFluxDensities.Quettatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Quettatesla') | A(n) quettatesla. Defined as: 1000.0 × ronnatesla. |
-| [Ronnatesla](MagneticFluxDensities.Ronnatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Ronnatesla') | A(n) ronnatesla. Defined as: 1000.0 × yottatesla. |
-| [Rontotesla](MagneticFluxDensities.Rontotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Rontotesla') | A(n) rontotesla. Defined as: 1.0/1000.0 × yoctotesla. |
-| [Teratesla](MagneticFluxDensities.Teratesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Teratesla') | A(n) teratesla. Defined as: 1000.0 × gigatesla. |
-| [Tesla](MagneticFluxDensities.Tesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Tesla') | A(n) tesla. |
-| [Yoctotesla](MagneticFluxDensities.Yoctotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Yoctotesla') | A(n) yoctotesla. Defined as: 1.0/1000.0 × zeptotesla. |
-| [Yottatesla](MagneticFluxDensities.Yottatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Yottatesla') | A(n) yottatesla. Defined as: 1000.0 × zettatesla. |
-| [Zeptotesla](MagneticFluxDensities.Zeptotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Zeptotesla') | A(n) zeptotesla. Defined as: 1.0/1000.0 × attotesla. |
-| [Zettatesla](MagneticFluxDensities.Zettatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Zettatesla') | A(n) zettatesla. Defined as: 1000.0 × exatesla. |
+| [Attotesla](MagneticFluxDensities.Attotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Attotesla') | attotesla, defined as: femtotesla × 1.0/1000.0 |
+| [Centitesla](MagneticFluxDensities.Centitesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Centitesla') | centitesla, defined as: decitesla × 1.0/10.0 |
+| [Decitesla](MagneticFluxDensities.Decitesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Decitesla') | decitesla, defined as: tesla × 1.0/10.0 |
+| [Dekatesla](MagneticFluxDensities.Dekatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Dekatesla') | dekatesla, defined as: tesla × 10.0 |
+| [Exatesla](MagneticFluxDensities.Exatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Exatesla') | exatesla, defined as: petatesla × 1000.0 |
+| [Femtotesla](MagneticFluxDensities.Femtotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Femtotesla') | femtotesla, defined as: picotesla × 1.0/1000.0 |
+| [Gigatesla](MagneticFluxDensities.Gigatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Gigatesla') | gigatesla, defined as: megatesla × 1000.0 |
+| [Hectotesla](MagneticFluxDensities.Hectotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Hectotesla') | hectotesla, defined as: dekatesla × 10.0 |
+| [Kilotesla](MagneticFluxDensities.Kilotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Kilotesla') | kilotesla, defined as: hectotesla × 10.0 |
+| [Megatesla](MagneticFluxDensities.Megatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Megatesla') | megatesla, defined as: kilotesla × 1000.0 |
+| [Microtesla](MagneticFluxDensities.Microtesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Microtesla') | microtesla, defined as: millitesla × 1.0/1000.0 |
+| [Millitesla](MagneticFluxDensities.Millitesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Millitesla') | millitesla, defined as: centitesla × 1.0/10.0 |
+| [Nanotesla](MagneticFluxDensities.Nanotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Nanotesla') | nanotesla, defined as: microtesla × 1.0/1000.0 |
+| [Petatesla](MagneticFluxDensities.Petatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Petatesla') | petatesla, defined as: teratesla × 1000.0 |
+| [Picotesla](MagneticFluxDensities.Picotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Picotesla') | picotesla, defined as: nanotesla × 1.0/1000.0 |
+| [Quectotesla](MagneticFluxDensities.Quectotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Quectotesla') | quectotesla, defined as: rontotesla × 1.0/1000.0 |
+| [Quettatesla](MagneticFluxDensities.Quettatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Quettatesla') | quettatesla, defined as: ronnatesla × 1000.0 |
+| [Ronnatesla](MagneticFluxDensities.Ronnatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Ronnatesla') | ronnatesla, defined as: yottatesla × 1000.0 |
+| [Rontotesla](MagneticFluxDensities.Rontotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Rontotesla') | rontotesla, defined as: yoctotesla × 1.0/1000.0 |
+| [Teratesla](MagneticFluxDensities.Teratesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Teratesla') | teratesla, defined as: gigatesla × 1000.0 |
+| [Tesla](MagneticFluxDensities.Tesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Tesla') | tesla, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
+| [Yoctotesla](MagneticFluxDensities.Yoctotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Yoctotesla') | yoctotesla, defined as: zeptotesla × 1.0/1000.0 |
+| [Yottatesla](MagneticFluxDensities.Yottatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Yottatesla') | yottatesla, defined as: zettatesla × 1000.0 |
+| [Zeptotesla](MagneticFluxDensities.Zeptotesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Zeptotesla') | zeptotesla, defined as: attotesla × 1.0/1000.0 |
+| [Zettatesla](MagneticFluxDensities.Zettatesla.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxDensities.Zettatesla') | zettatesla, defined as: exatesla × 1000.0 |

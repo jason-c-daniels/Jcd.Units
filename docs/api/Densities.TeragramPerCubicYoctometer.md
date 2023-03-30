@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicYoctometer Field
 
-A(n) teragram per cubic yoctometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × gigagram per cubic zeptometer.
+teragram per cubic yoctometer, defined as: gigagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density TeragramPerCubicYoctometer;

@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareMillennium Field
 
-A(n) link per square millennium. Defined as: (0.20116)/((10.0)*(10.0)) × SI meter per square century.
+link per square millennium, defined as: SI meter per square century × (0.20116)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration LinkPerSquareMillennium;

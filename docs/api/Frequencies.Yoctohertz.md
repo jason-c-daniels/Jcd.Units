@@ -3,7 +3,7 @@
 
 ## Frequencies.Yoctohertz Field
 
-A(n) yoctohertz. Defined as: 1.0/1000.0 × zeptohertz.
+yoctohertz, defined as: zeptohertz × 1.0/1000.0
 
 ```csharp
 public static readonly Frequency Yoctohertz;

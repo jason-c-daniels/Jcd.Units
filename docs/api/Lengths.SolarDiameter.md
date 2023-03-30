@@ -3,7 +3,7 @@
 
 ## Lengths.SolarDiameter Field
 
-A(n) solar diameter. Defined as: 2.0 × solar radius.
+solar diameter, defined as: solar radius × 2.0
 
 ```csharp
 public static readonly Length SolarDiameter;

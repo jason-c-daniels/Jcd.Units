@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareCentury Field
 
-A(n) yard per square century. Defined as: (3.0)/((10.0)*(10.0)) × foot per square decade.
+yard per square century, defined as: foot per square decade × (3.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration YardPerSquareCentury;

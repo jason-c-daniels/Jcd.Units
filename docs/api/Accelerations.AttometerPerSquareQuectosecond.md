@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareQuectosecond Field
 
-A(n) attometer per square quectosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × femtometer per square rontosecond.
+attometer per square quectosecond, defined as: femtometer per square rontosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareQuectosecond;

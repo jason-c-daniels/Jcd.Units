@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerTrillionYears Field
 
-A(n) picometer per trillion years. Defined as: (1.0/1000.0)/(1000.0) × nanometer per billion years.
+picometer per trillion years, defined as: nanometer per billion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity PicometerPerTrillionYears;

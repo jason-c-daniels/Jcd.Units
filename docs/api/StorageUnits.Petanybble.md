@@ -3,7 +3,7 @@
 
 ## StorageUnits.Petanybble Field
 
-A(n) petanybble. Defined as: 1000.0 × teranybble.
+petanybble, defined as: teranybble × 1000.0
 
 ```csharp
 public static readonly Storage Petanybble;

@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Zettaampere Field
 
-A(n) zettaampere. Defined as: 1000.0 × exaampere.
+zettaampere, defined as: exaampere × 1000.0
 
 ```csharp
 public static readonly ElectricalCurrent Zettaampere;

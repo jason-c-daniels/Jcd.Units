@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareHour Field
 
-A(n) pica per square hour. Defined as: (12.0)/((60.0)*(60.0)) × point per square minute.
+pica per square hour, defined as: point per square minute × (12.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration PicaPerSquareHour;

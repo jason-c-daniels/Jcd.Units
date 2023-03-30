@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerPlanckTime Field
 
-A(n) quettameter per planck-time. Defined as: (1000.0)/(5.391247E-38) × ronnameter per microsecond.
+quettameter per planck-time, defined as: ronnameter per microsecond × (1000.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity QuettameterPerPlanckTime;

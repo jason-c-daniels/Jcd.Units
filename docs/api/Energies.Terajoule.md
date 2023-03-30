@@ -3,7 +3,7 @@
 
 ## Energies.Terajoule Field
 
-A(n) terajoule. Defined as: 1000.0 × gigajoule.
+terajoule, defined as: gigajoule × 1000.0
 
 ```csharp
 public static readonly Energy Terajoule;

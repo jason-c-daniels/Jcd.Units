@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareYear Field
 
-A(n) furlong per square year. Defined as: (10.0)/((365.2525)*(365.2525)) × chain per square day.
+furlong per square year, defined as: chain per square day × (10.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareYear;

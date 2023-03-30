@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerNanosecond Field
 
-A(n) centimeter per nanosecond. Defined as: (1.0/10.0)/(1.0/1000.0) × decimeter per microsecond.
+centimeter per nanosecond, defined as: decimeter per microsecond × (1.0/10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity CentimeterPerNanosecond;

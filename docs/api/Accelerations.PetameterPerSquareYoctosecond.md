@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareYoctosecond Field
 
-A(n) petameter per square yoctosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × terameter per square zeptosecond.
+petameter per square yoctosecond, defined as: terameter per square zeptosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareYoctosecond;

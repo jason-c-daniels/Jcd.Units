@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareYear Field
 
-A(n) cable per square year. Defined as: (100.0)/((365.2525)*(365.2525)) × fathom per square day.
+cable per square year, defined as: fathom per square day × (100.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration CablePerSquareYear;

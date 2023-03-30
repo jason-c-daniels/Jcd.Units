@@ -3,7 +3,7 @@
 
 ## Inductances.Decihenry Field
 
-A(n) decihenry. Defined as: 1.0/10.0 × henry.
+decihenry, defined as: henry × 1.0/10.0
 
 ```csharp
 public static readonly Inductance Decihenry;

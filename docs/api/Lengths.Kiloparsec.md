@@ -3,7 +3,7 @@
 
 ## Lengths.Kiloparsec Field
 
-A(n) kiloparsec. Defined as: 10.0 × hectoparsec.
+kiloparsec, defined as: hectoparsec × 10.0
 
 ```csharp
 public static readonly Length Kiloparsec;

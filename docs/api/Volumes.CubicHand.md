@@ -3,7 +3,7 @@
 
 ## Volumes.CubicHand Field
 
-A(n) cubic hand. Defined as: (4.0)*(4.0)*(4.0) × cubic inch.
+cubic hand, defined as: cubic inch × (4.0)*(4.0)*(4.0)
 
 ```csharp
 public static readonly Volume CubicHand;

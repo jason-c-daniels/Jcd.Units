@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareSextillionYears Field
 
-A(n) point per square sextillion years. Defined as: (1.0/72.0)/((1000.0)*(1000.0)) × inch per square quintillion years.
+point per square sextillion years, defined as: inch per square quintillion years × (1.0/72.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration PointPerSquareSextillionYears;

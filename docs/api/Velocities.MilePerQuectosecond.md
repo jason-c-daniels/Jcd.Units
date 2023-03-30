@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerQuectosecond Field
 
-A(n) mile per quectosecond. Defined as: (8.0)/(1.0/1000.0) × furlong per rontosecond.
+mile per quectosecond, defined as: furlong per rontosecond × (8.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity MilePerQuectosecond;

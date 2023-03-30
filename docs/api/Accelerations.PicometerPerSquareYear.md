@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareYear Field
 
-A(n) picometer per square year. Defined as: (1.0/1000.0)/((365.2525)*(365.2525)) × nanometer per square day.
+picometer per square year, defined as: nanometer per square day × (1.0/1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareYear;

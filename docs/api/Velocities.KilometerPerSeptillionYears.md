@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerSeptillionYears Field
 
-A(n) kilometer per septillion years. Defined as: (10.0)/(1000.0) × hectometer per sextillion years.
+kilometer per septillion years, defined as: hectometer per sextillion years × (10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity KilometerPerSeptillionYears;

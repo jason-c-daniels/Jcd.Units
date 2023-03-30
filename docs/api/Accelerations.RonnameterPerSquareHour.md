@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareHour Field
 
-A(n) ronnameter per square hour. Defined as: (1000.0)/((60.0)*(60.0)) × yottameter per square minute.
+ronnameter per square hour, defined as: yottameter per square minute × (1000.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareHour;

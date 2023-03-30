@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicHectometer Field
 
-A(n) rontogram per cubic hectometer. Defined as: (1.0/1000.0)/((10.0)*(10.0)*(10.0)) × yoctogram per cubic dekameter.
+rontogram per cubic hectometer, defined as: yoctogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density RontogramPerCubicHectometer;

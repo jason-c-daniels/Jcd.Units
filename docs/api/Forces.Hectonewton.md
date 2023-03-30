@@ -3,7 +3,7 @@
 
 ## Forces.Hectonewton Field
 
-A(n) hectonewton. Defined as: 10.0 × dekanewton.
+hectonewton, defined as: dekanewton × 10.0
 
 ```csharp
 public static readonly Force Hectonewton;

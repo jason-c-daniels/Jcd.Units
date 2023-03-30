@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerMicrosecond Field
 
-A(n) thou per microsecond. Defined as: (1.0/12000.0)/(1.0/1000.0) × foot per millisecond.
+thou per microsecond, defined as: foot per millisecond × (1.0/12000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ThouPerMicrosecond;

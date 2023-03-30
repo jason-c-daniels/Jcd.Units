@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerSeptillionYears Field
 
-A(n) meter per septillion years. Defined as: (1.0)/(1000.0) × meter per sextillion years.
+meter per septillion years, defined as: meter per sextillion years × (1.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MeterPerSeptillionYears;

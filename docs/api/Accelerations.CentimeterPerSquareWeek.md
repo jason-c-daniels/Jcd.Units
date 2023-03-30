@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareWeek Field
 
-A(n) centimeter per square week. Defined as: (1.0/10.0)/((7.0)*(7.0)) × decimeter per square day.
+centimeter per square week, defined as: decimeter per square day × (1.0/10.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareWeek;

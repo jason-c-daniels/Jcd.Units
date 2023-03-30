@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerDay Field
 
-A(n) ronnameter per day. Defined as: (1000.0)/(24.0) × yottameter per hour.
+ronnameter per day, defined as: yottameter per hour × (1000.0)/(24.0)
 
 ```csharp
 public static readonly Velocity RonnameterPerDay;

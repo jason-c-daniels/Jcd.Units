@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicYottameter Field
 
-A(n) gigagram per cubic yottameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × megagram per cubic zettameter.
+gigagram per cubic yottameter, defined as: megagram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density GigagramPerCubicYottameter;

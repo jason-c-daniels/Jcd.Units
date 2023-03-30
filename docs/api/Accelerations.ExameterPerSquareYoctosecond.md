@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareYoctosecond Field
 
-A(n) exameter per square yoctosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × petameter per square zeptosecond.
+exameter per square yoctosecond, defined as: petameter per square zeptosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareYoctosecond;

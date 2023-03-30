@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicRonnameter Field
 
-A(n) exagram per cubic ronnameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × petagram per cubic yottameter.
+exagram per cubic ronnameter, defined as: petagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density ExagramPerCubicRonnameter;

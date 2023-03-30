@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Hectosievert Field
 
-A(n) hectosievert. Defined as: 10.0 × dekasievert.
+hectosievert, defined as: dekasievert × 10.0
 
 ```csharp
 public static readonly RadiationEquivalentDose Hectosievert;

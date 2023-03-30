@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Exacoulomb Field
 
-A(n) exacoulomb. Defined as: 1000.0 × petacoulomb.
+exacoulomb, defined as: petacoulomb × 1000.0
 
 ```csharp
 public static readonly ElectricalCharge Exacoulomb;

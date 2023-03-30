@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerQuadrillionYears Field
 
-A(n) yard per quadrillion years. Defined as: (3.0)/(1000.0) × foot per trillion years.
+yard per quadrillion years, defined as: foot per trillion years × (3.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity YardPerQuadrillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerDay Field
 
-A(n) dekameter per day. Defined as: (10.0)/(24.0) × meter per hour.
+dekameter per day, defined as: meter per hour × (10.0)/(24.0)
 
 ```csharp
 public static readonly Velocity DekameterPerDay;

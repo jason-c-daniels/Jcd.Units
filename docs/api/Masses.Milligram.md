@@ -3,7 +3,7 @@
 
 ## Masses.Milligram Field
 
-A(n) milligram. Defined as: 1.0/10.0 × centigram.
+milligram, defined as: centigram × 1.0/10.0
 
 ```csharp
 public static readonly Mass Milligram;

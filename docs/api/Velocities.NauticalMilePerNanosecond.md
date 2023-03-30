@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerNanosecond Field
 
-A(n) nautical mile per nanosecond. Defined as: (10.0)/(1.0/1000.0) × cable per microsecond.
+nautical mile per nanosecond, defined as: cable per microsecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity NauticalMilePerNanosecond;

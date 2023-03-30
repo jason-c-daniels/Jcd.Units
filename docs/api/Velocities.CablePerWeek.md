@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerWeek Field
 
-A(n) cable per week. Defined as: (100.0)/(7.0) × fathom per day.
+cable per week, defined as: fathom per day × (100.0)/(7.0)
 
 ```csharp
 public static readonly Velocity CablePerWeek;

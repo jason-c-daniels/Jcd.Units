@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareDecade Field
 
-A(n) cable per square decade. Defined as: (100.0)/((10.0)*(10.0)) × fathom per square year.
+cable per square decade, defined as: fathom per square year × (100.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration CablePerSquareDecade;

@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerOctillionYears Field
 
-A(n) link per octillion years. Defined as: (0.20116)/(1000.0) × SI meter per septillion years.
+link per octillion years, defined as: SI meter per septillion years × (0.20116)/(1000.0)
 
 ```csharp
 public static readonly Velocity LinkPerOctillionYears;

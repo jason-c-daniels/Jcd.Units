@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerDay Field
 
-A(n) femtometer per day. Defined as: (1.0/1000.0)/(24.0) × picometer per hour.
+femtometer per day, defined as: picometer per hour × (1.0/1000.0)/(24.0)
 
 ```csharp
 public static readonly Velocity FemtometerPerDay;

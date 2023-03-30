@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerQuectosecond Field
 
-A(n) centimeter per quectosecond. Defined as: (1.0/10.0)/(1.0/1000.0) × decimeter per rontosecond.
+centimeter per quectosecond, defined as: decimeter per rontosecond × (1.0/10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity CentimeterPerQuectosecond;

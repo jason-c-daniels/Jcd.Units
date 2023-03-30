@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerSextillionYears Field
 
-A(n) hectometer per sextillion years. Defined as: (10.0)/(1000.0) × dekameter per quintillion years.
+hectometer per sextillion years, defined as: dekameter per quintillion years × (10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity HectometerPerSextillionYears;

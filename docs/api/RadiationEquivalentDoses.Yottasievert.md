@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Yottasievert Field
 
-A(n) yottasievert. Defined as: 1000.0 × zettasievert.
+yottasievert, defined as: zettasievert × 1000.0
 
 ```csharp
 public static readonly RadiationEquivalentDose Yottasievert;

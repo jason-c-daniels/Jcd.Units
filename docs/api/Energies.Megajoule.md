@@ -3,7 +3,7 @@
 
 ## Energies.Megajoule Field
 
-A(n) megajoule. Defined as: 1000.0 × kilojoule.
+megajoule, defined as: kilojoule × 1000.0
 
 ```csharp
 public static readonly Energy Megajoule;

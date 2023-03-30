@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareDecillionYears Field
 
-A(n) foot per square decillion years. Defined as: (12)/((1000.0)*(1000.0)) × inch per square nonillion years.
+foot per square decillion years, defined as: inch per square nonillion years × (12)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration FootPerSquareDecillionYears;

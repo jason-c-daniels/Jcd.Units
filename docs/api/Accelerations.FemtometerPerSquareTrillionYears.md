@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareTrillionYears Field
 
-A(n) femtometer per square trillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × picometer per square billion years.
+femtometer per square trillion years, defined as: picometer per square billion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquareTrillionYears;

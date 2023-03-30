@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerNonillionYears Field
 
-A(n) inch per nonillion years. Defined as: (2.54)/(1000.0) × SI centimeter per octillion years.
+inch per nonillion years, defined as: SI centimeter per octillion years × (2.54)/(1000.0)
 
 ```csharp
 public static readonly Velocity InchPerNonillionYears;

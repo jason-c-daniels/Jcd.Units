@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicDekameter Field
 
-A(n) zettagram per cubic dekameter. Defined as: (1000.0)/((10.0)*(10.0)*(10.0)) × exagram per cubic meter.
+zettagram per cubic dekameter, defined as: exagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density ZettagramPerCubicDekameter;

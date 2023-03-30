@@ -3,7 +3,7 @@
 
 ## Resistances.Milliohm Field
 
-A(n) milliohm. Defined as: 1.0/10.0 × centiohm.
+milliohm, defined as: centiohm × 1.0/10.0
 
 ```csharp
 public static readonly Resistance Milliohm;

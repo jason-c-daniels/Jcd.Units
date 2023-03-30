@@ -3,7 +3,7 @@
 
 ## Durations.Day Field
 
-A(n) day. Defined as: 24.0 × hour.
+day, defined as: hour × 24.0
 
 ```csharp
 public static readonly Duration Day;

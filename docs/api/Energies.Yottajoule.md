@@ -3,7 +3,7 @@
 
 ## Energies.Yottajoule Field
 
-A(n) yottajoule. Defined as: 1000.0 × zettajoule.
+yottajoule, defined as: zettajoule × 1000.0
 
 ```csharp
 public static readonly Energy Yottajoule;

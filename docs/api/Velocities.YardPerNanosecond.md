@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerNanosecond Field
 
-A(n) yard per nanosecond. Defined as: (3.0)/(1.0/1000.0) × foot per microsecond.
+yard per nanosecond, defined as: foot per microsecond × (3.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity YardPerNanosecond;

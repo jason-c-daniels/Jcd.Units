@@ -3,7 +3,7 @@
 
 ## Volumes.Kiloliter Field
 
-A(n) kiloliter. Defined as: 10.0 × hectoliter.
+kiloliter, defined as: hectoliter × 10.0
 
 ```csharp
 public static readonly Volume Kiloliter;

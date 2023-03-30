@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerMinute Field
 
-A(n) twip per minute. Defined as: (1.0/17280.0)/(60.0) × foot per second.
+twip per minute, defined as: foot per second × (1.0/17280.0)/(60.0)
 
 ```csharp
 public static readonly Velocity TwipPerMinute;

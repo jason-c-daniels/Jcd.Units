@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareMinute Field
 
-A(n) zettameter per square minute. Defined as: (1000.0)/((60.0)*(60.0)) × exameter per square second.
+zettameter per square minute, defined as: exameter per square second × (1000.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquareMinute;

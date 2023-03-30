@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareBillionYears Field
 
-A(n) league per square billion years. Defined as: (3.0)/((1000.0)*(1000.0)) × mile per square million years.
+league per square billion years, defined as: mile per square million years × (3.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareBillionYears;

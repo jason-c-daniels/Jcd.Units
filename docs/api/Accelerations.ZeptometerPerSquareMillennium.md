@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareMillennium Field
 
-A(n) zeptometer per square millennium. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × attometer per square century.
+zeptometer per square millennium, defined as: attometer per square century × (1.0/1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquareMillennium;

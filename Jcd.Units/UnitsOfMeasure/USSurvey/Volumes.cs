@@ -18,57 +18,47 @@ namespace Jcd.Units.UnitsOfMeasure.USSurvey;
 public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
-   /// A(n) cubic link. Defined as: (0.20116)*(0.20116)*(0.20116) × SI cubic meter.
+   /// cubic link, defined as: SI cubic meter × (0.20116)*(0.20116)*(0.20116)
    /// </summary>
    public static readonly Volume CubicLink = new (
                                                   "cubic link"
                                                 , "li³"
                                                 , SI.Volumes.CubicMeter
                                                 , 0.20116 * 0.20116 * 0.20116
-                                                , 0
                                                  );
 
    /// <summary>
-   /// A(n) cubic rod. Defined as: (5.0292)*(5.0292)*(5.0292) × SI cubic meter.
+   /// cubic rod, defined as: SI cubic meter × (5.0292)*(5.0292)*(5.0292)
    /// </summary>
-   public static readonly Volume CubicRod = new (
-                                                 "cubic rod"
-                                               , "rd³"
-                                               , SI.Volumes.CubicMeter
-                                               , 5.0292 * 5.0292 * 5.0292
-                                               , 0
-                                                );
+   public static readonly Volume CubicRod = new ("cubic rod", "rd³", SI.Volumes.CubicMeter, 5.0292 * 5.0292 * 5.0292);
 
    /// <summary>
-   /// A(n) cubic chain. Defined as: (20.1168)*(20.1168)*(20.1168) × SI cubic meter.
+   /// cubic chain, defined as: SI cubic meter × (20.1168)*(20.1168)*(20.1168)
    /// </summary>
    public static readonly Volume CubicChain = new (
                                                    "cubic chain"
                                                  , "ch³"
                                                  , SI.Volumes.CubicMeter
                                                  , 20.1168 * 20.1168 * 20.1168
-                                                 , 0
                                                   );
 
    /// <summary>
-   /// A(n) cubic furlong. Defined as: (201.168)*(201.168)*(201.168) × SI cubic meter.
+   /// cubic furlong, defined as: SI cubic meter × (201.168)*(201.168)*(201.168)
    /// </summary>
    public static readonly Volume CubicFurlong = new (
                                                      "cubic furlong"
                                                    , "fur³"
                                                    , SI.Volumes.CubicMeter
                                                    , 201.168 * 201.168 * 201.168
-                                                   , 0
                                                     );
 
    /// <summary>
-   /// A(n) cubic league. Defined as: (4828.032)*(4828.032)*(4828.032) × SI cubic meter.
+   /// cubic league, defined as: SI cubic meter × (4828.032)*(4828.032)*(4828.032)
    /// </summary>
    public static readonly Volume CubicLeague = new (
                                                     "cubic league"
                                                   , "lea³"
                                                   , SI.Volumes.CubicMeter
                                                   , 4828.032 * 4828.032 * 4828.032
-                                                  , 0
                                                    );
 }

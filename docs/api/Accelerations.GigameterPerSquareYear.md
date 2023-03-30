@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareYear Field
 
-A(n) gigameter per square year. Defined as: (1000.0)/((365.2525)*(365.2525)) × megameter per square day.
+gigameter per square year, defined as: megameter per square day × (1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareYear;

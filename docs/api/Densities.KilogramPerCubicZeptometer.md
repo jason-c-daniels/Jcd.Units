@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicZeptometer Field
 
-A(n) kilogram per cubic zeptometer. Defined as: (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × kilogram per cubic attometer.
+kilogram per cubic zeptometer, defined as: kilogram per cubic attometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density KilogramPerCubicZeptometer;

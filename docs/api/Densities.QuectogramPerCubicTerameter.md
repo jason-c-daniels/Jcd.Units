@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicTerameter Field
 
-A(n) quectogram per cubic terameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × rontogram per cubic gigameter.
+quectogram per cubic terameter, defined as: rontogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density QuectogramPerCubicTerameter;

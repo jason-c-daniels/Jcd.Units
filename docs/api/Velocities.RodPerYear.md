@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerYear Field
 
-A(n) rod per year. Defined as: (5.0292)/(365.2525) × SI meter per day.
+rod per year, defined as: SI meter per day × (5.0292)/(365.2525)
 
 ```csharp
 public static readonly Velocity RodPerYear;

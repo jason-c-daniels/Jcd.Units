@@ -18,136 +18,127 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConductances, ElectricalConductance>
 {
    /// <summary>
-   /// A(n) siemens.
+   /// siemens, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly ElectricalConductance Siemens = new ("siemens", "S");
 
    /// <summary>
-   /// A(n) decisiemens. Defined as: 1.0/10.0 × siemens.
+   /// decisiemens, defined as: siemens × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalConductance Decisiemens = new ("decisiemens", "dS", Siemens, 1.0 / 10.0, 0);
+   public static readonly ElectricalConductance Decisiemens = new ("decisiemens", "dS", Siemens, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) centisiemens. Defined as: 1.0/10.0 × decisiemens.
+   /// centisiemens, defined as: decisiemens × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalConductance Centisiemens = new ("centisiemens", "cS", Decisiemens, 1.0 / 10.0, 0);
+   public static readonly ElectricalConductance Centisiemens = new ("centisiemens", "cS", Decisiemens, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) millisiemens. Defined as: 1.0/10.0 × centisiemens.
+   /// millisiemens, defined as: centisiemens × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalConductance Millisiemens = new ("millisiemens", "mS", Centisiemens, 1.0 / 10.0, 0);
+   public static readonly ElectricalConductance Millisiemens = new ("millisiemens", "mS", Centisiemens, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) microsiemens. Defined as: 1.0/1000.0 × millisiemens.
+   /// microsiemens, defined as: millisiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance
-            Microsiemens = new ("microsiemens", "μS", Millisiemens, 1.0 / 1000.0, 0);
+   public static readonly ElectricalConductance Microsiemens = new ("microsiemens", "μS", Millisiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) nanosiemens. Defined as: 1.0/1000.0 × microsiemens.
+   /// nanosiemens, defined as: microsiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance Nanosiemens = new ("nanosiemens", "nS", Microsiemens, 1.0 / 1000.0, 0);
+   public static readonly ElectricalConductance Nanosiemens = new ("nanosiemens", "nS", Microsiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) picosiemens. Defined as: 1.0/1000.0 × nanosiemens.
+   /// picosiemens, defined as: nanosiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance Picosiemens = new ("picosiemens", "pS", Nanosiemens, 1.0 / 1000.0, 0);
+   public static readonly ElectricalConductance Picosiemens = new ("picosiemens", "pS", Nanosiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) femtosiemens. Defined as: 1.0/1000.0 × picosiemens.
+   /// femtosiemens, defined as: picosiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance Femtosiemens = new ("femtosiemens", "fS", Picosiemens, 1.0 / 1000.0, 0);
+   public static readonly ElectricalConductance Femtosiemens = new ("femtosiemens", "fS", Picosiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) attosiemens. Defined as: 1.0/1000.0 × femtosiemens.
+   /// attosiemens, defined as: femtosiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance Attosiemens = new ("attosiemens", "aS", Femtosiemens, 1.0 / 1000.0, 0);
+   public static readonly ElectricalConductance Attosiemens = new ("attosiemens", "aS", Femtosiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) zeptosiemens. Defined as: 1.0/1000.0 × attosiemens.
+   /// zeptosiemens, defined as: attosiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance Zeptosiemens = new ("zeptosiemens", "zS", Attosiemens, 1.0 / 1000.0, 0);
+   public static readonly ElectricalConductance Zeptosiemens = new ("zeptosiemens", "zS", Attosiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) yoctosiemens. Defined as: 1.0/1000.0 × zeptosiemens.
+   /// yoctosiemens, defined as: zeptosiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance
-            Yoctosiemens = new ("yoctosiemens", "yS", Zeptosiemens, 1.0 / 1000.0, 0);
+   public static readonly ElectricalConductance Yoctosiemens = new ("yoctosiemens", "yS", Zeptosiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) rontosiemens. Defined as: 1.0/1000.0 × yoctosiemens.
+   /// rontosiemens, defined as: yoctosiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance
-            Rontosiemens = new ("rontosiemens", "rS", Yoctosiemens, 1.0 / 1000.0, 0);
+   public static readonly ElectricalConductance Rontosiemens = new ("rontosiemens", "rS", Yoctosiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) quectosiemens. Defined as: 1.0/1000.0 × rontosiemens.
+   /// quectosiemens, defined as: rontosiemens × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalConductance Quectosiemens = new (
-                                                                     "quectosiemens"
-                                                                   , "qS"
-                                                                   , Rontosiemens
-                                                                   , 1.0 / 1000.0
-                                                                   , 0
-                                                                    );
+   public static readonly ElectricalConductance Quectosiemens = new ("quectosiemens", "qS", Rontosiemens, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) dekasiemens. Defined as: 10.0 × siemens.
+   /// dekasiemens, defined as: siemens × 10.0
    /// </summary>
-   public static readonly ElectricalConductance Dekasiemens = new ("dekasiemens", "daS", Siemens, 10.0, 0);
+   public static readonly ElectricalConductance Dekasiemens = new ("dekasiemens", "daS", Siemens, 10.0);
 
    /// <summary>
-   /// A(n) hectosiemens. Defined as: 10.0 × dekasiemens.
+   /// hectosiemens, defined as: dekasiemens × 10.0
    /// </summary>
-   public static readonly ElectricalConductance Hectosiemens = new ("hectosiemens", "hS", Dekasiemens, 10.0, 0);
+   public static readonly ElectricalConductance Hectosiemens = new ("hectosiemens", "hS", Dekasiemens, 10.0);
 
    /// <summary>
-   /// A(n) kilosiemens. Defined as: 10.0 × hectosiemens.
+   /// kilosiemens, defined as: hectosiemens × 10.0
    /// </summary>
-   public static readonly ElectricalConductance Kilosiemens = new ("kilosiemens", "kS", Hectosiemens, 10.0, 0);
+   public static readonly ElectricalConductance Kilosiemens = new ("kilosiemens", "kS", Hectosiemens, 10.0);
 
    /// <summary>
-   /// A(n) megasiemens. Defined as: 1000.0 × kilosiemens.
+   /// megasiemens, defined as: kilosiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Megasiemens = new ("megasiemens", "MS", Kilosiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Megasiemens = new ("megasiemens", "MS", Kilosiemens, 1000.0);
 
    /// <summary>
-   /// A(n) gigasiemens. Defined as: 1000.0 × megasiemens.
+   /// gigasiemens, defined as: megasiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Gigasiemens = new ("gigasiemens", "GS", Megasiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Gigasiemens = new ("gigasiemens", "GS", Megasiemens, 1000.0);
 
    /// <summary>
-   /// A(n) terasiemens. Defined as: 1000.0 × gigasiemens.
+   /// terasiemens, defined as: gigasiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Terasiemens = new ("terasiemens", "TS", Gigasiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Terasiemens = new ("terasiemens", "TS", Gigasiemens, 1000.0);
 
    /// <summary>
-   /// A(n) petasiemens. Defined as: 1000.0 × terasiemens.
+   /// petasiemens, defined as: terasiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Petasiemens = new ("petasiemens", "PS", Terasiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Petasiemens = new ("petasiemens", "PS", Terasiemens, 1000.0);
 
    /// <summary>
-   /// A(n) exasiemens. Defined as: 1000.0 × petasiemens.
+   /// exasiemens, defined as: petasiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Exasiemens = new ("exasiemens", "ES", Petasiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Exasiemens = new ("exasiemens", "ES", Petasiemens, 1000.0);
 
    /// <summary>
-   /// A(n) zettasiemens. Defined as: 1000.0 × exasiemens.
+   /// zettasiemens, defined as: exasiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Zettasiemens = new ("zettasiemens", "ZS", Exasiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Zettasiemens = new ("zettasiemens", "ZS", Exasiemens, 1000.0);
 
    /// <summary>
-   /// A(n) yottasiemens. Defined as: 1000.0 × zettasiemens.
+   /// yottasiemens, defined as: zettasiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Yottasiemens = new ("yottasiemens", "YS", Zettasiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Yottasiemens = new ("yottasiemens", "YS", Zettasiemens, 1000.0);
 
    /// <summary>
-   /// A(n) ronnasiemens. Defined as: 1000.0 × yottasiemens.
+   /// ronnasiemens, defined as: yottasiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Ronnasiemens = new ("ronnasiemens", "RS", Yottasiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Ronnasiemens = new ("ronnasiemens", "RS", Yottasiemens, 1000.0);
 
    /// <summary>
-   /// A(n) quettasiemens. Defined as: 1000.0 × ronnasiemens.
+   /// quettasiemens, defined as: ronnasiemens × 1000.0
    /// </summary>
-   public static readonly ElectricalConductance Quettasiemens = new ("quettasiemens", "QS", Ronnasiemens, 1000.0, 0);
+   public static readonly ElectricalConductance Quettasiemens = new ("quettasiemens", "QS", Ronnasiemens, 1000.0);
 }

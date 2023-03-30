@@ -3,7 +3,7 @@
 
 ## StorageUnits.Mebibit Field
 
-A(n) mebibit. Defined as: 1024.0 × kebibit.
+mebibit, defined as: kebibit × 1024.0
 
 ```csharp
 public static readonly Storage Mebibit;

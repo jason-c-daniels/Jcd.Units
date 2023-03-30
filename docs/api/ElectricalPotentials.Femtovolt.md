@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Femtovolt Field
 
-A(n) femtovolt. Defined as: 1.0/1000.0 × picovolt.
+femtovolt, defined as: picovolt × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalPotential Femtovolt;

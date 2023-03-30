@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicZettameter Field
 
-A(n) picogram per cubic zettameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × nanogram per cubic exameter.
+picogram per cubic zettameter, defined as: nanogram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density PicogramPerCubicZettameter;

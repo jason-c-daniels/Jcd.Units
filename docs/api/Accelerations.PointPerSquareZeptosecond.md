@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareZeptosecond Field
 
-A(n) point per square zeptosecond. Defined as: (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)) × inch per square attosecond.
+point per square zeptosecond, defined as: inch per square attosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration PointPerSquareZeptosecond;

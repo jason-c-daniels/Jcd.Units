@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareQuectosecond Field
 
-A(n) kilometer per square quectosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × hectometer per square rontosecond.
+kilometer per square quectosecond, defined as: hectometer per square rontosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareQuectosecond;

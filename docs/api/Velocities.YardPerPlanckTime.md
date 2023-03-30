@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerPlanckTime Field
 
-A(n) yard per planck-time. Defined as: (3.0)/(5.391247E-38) × foot per microsecond.
+yard per planck-time, defined as: foot per microsecond × (3.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity YardPerPlanckTime;

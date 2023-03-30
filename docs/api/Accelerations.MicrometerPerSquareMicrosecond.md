@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareMicrosecond Field
 
-A(n) micrometer per square microsecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × millimeter per square millisecond.
+micrometer per square microsecond, defined as: millimeter per square millisecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareMicrosecond;

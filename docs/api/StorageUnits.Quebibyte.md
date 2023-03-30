@@ -3,7 +3,7 @@
 
 ## StorageUnits.Quebibyte Field
 
-A(n) quebibyte. Defined as: 1024.0 × robibyte.
+quebibyte, defined as: robibyte × 1024.0
 
 ```csharp
 public static readonly Storage Quebibyte;

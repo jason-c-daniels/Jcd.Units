@@ -3,7 +3,7 @@
 
 ## Lengths.KilolightYear Field
 
-A(n) kilolight-year. Defined as: 10.0 × hectolight-year.
+kilolight-year, defined as: hectolight-year × 10.0
 
 ```csharp
 public static readonly Length KilolightYear;

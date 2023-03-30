@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerZeptosecond Field
 
-A(n) rontometer per zeptosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × yoctometer per attosecond.
+rontometer per zeptosecond, defined as: yoctometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity RontometerPerZeptosecond;

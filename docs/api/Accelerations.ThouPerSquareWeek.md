@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareWeek Field
 
-A(n) thou per square week. Defined as: (1.0/12000.0)/((7.0)*(7.0)) × foot per square day.
+thou per square week, defined as: foot per square day × (1.0/12000.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareWeek;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareQuadrillionYears Field
 
-A(n) mil per square quadrillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × inch per square trillion years.
+mil per square quadrillion years, defined as: inch per square trillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MilPerSquareQuadrillionYears;

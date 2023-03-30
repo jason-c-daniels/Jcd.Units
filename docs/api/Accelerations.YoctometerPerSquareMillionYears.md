@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareMillionYears Field
 
-A(n) yoctometer per square million years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × zeptometer per square millennium.
+yoctometer per square million years, defined as: zeptometer per square millennium × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration YoctometerPerSquareMillionYears;

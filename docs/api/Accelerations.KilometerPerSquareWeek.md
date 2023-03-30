@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareWeek Field
 
-A(n) kilometer per square week. Defined as: (10.0)/((7.0)*(7.0)) × hectometer per square day.
+kilometer per square week, defined as: hectometer per square day × (10.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareWeek;

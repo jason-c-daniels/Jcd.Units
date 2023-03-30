@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquarePlanckTime Field
 
-A(n) quectometer per square planck-time. Defined as: (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)) × rontometer per square microsecond.
+quectometer per square planck-time, defined as: rontometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquarePlanckTime;

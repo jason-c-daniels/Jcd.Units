@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareYoctosecond Field
 
-A(n) terameter per square yoctosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × gigameter per square zeptosecond.
+terameter per square yoctosecond, defined as: gigameter per square zeptosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareYoctosecond;

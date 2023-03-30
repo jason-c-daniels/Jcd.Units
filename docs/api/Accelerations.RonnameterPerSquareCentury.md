@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareCentury Field
 
-A(n) ronnameter per square century. Defined as: (1000.0)/((10.0)*(10.0)) × yottameter per square decade.
+ronnameter per square century, defined as: yottameter per square decade × (1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareCentury;

@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicTerameter Field
 
-A(n) attogram per cubic terameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × femtogram per cubic gigameter.
+attogram per cubic terameter, defined as: femtogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density AttogramPerCubicTerameter;

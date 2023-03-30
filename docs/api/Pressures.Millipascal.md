@@ -3,7 +3,7 @@
 
 ## Pressures.Millipascal Field
 
-A(n) millipascal. Defined as: 1.0/10.0 × centipascal.
+millipascal, defined as: centipascal × 1.0/10.0
 
 ```csharp
 public static readonly Pressure Millipascal;

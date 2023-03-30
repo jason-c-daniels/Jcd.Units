@@ -3,7 +3,7 @@
 
 ## StorageUnits.Quettanybble Field
 
-A(n) quettanybble. Defined as: 1000.0 × ronnanybble.
+quettanybble, defined as: ronnanybble × 1000.0
 
 ```csharp
 public static readonly Storage Quettanybble;

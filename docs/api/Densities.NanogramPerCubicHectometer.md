@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicHectometer Field
 
-A(n) nanogram per cubic hectometer. Defined as: (1.0/1000.0)/((10.0)*(10.0)*(10.0)) × microgram per cubic dekameter.
+nanogram per cubic hectometer, defined as: microgram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density NanogramPerCubicHectometer;

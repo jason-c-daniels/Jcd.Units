@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerPlanckTime Field
 
-A(n) hectometer per planck-time. Defined as: (10.0)/(5.391247E-38) × dekameter per microsecond.
+hectometer per planck-time, defined as: dekameter per microsecond × (10.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity HectometerPerPlanckTime;

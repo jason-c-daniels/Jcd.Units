@@ -3,7 +3,7 @@
 
 ## Volumes.CubicNanometer Field
 
-A(n) cubic nanometer. Defined as: (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0) × cubic micrometer.
+cubic nanometer, defined as: cubic micrometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
 
 ```csharp
 public static readonly Volume CubicNanometer;

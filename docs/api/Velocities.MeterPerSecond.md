@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerSecond Field
 
-A(n) meter per second.
+meter per second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
 
 ```csharp
 public static readonly Velocity MeterPerSecond;

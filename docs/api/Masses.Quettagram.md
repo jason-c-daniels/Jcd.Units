@@ -3,7 +3,7 @@
 
 ## Masses.Quettagram Field
 
-A(n) quettagram. Defined as: 1000.0 × ronnagram.
+quettagram, defined as: ronnagram × 1000.0
 
 ```csharp
 public static readonly Mass Quettagram;

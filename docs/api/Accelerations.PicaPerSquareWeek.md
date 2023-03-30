@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareWeek Field
 
-A(n) pica per square week. Defined as: (12.0)/((7.0)*(7.0)) × point per square day.
+pica per square week, defined as: point per square day × (12.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration PicaPerSquareWeek;

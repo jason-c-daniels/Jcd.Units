@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerSecond Field
 
-A(n) micrometer per second. Defined as: (1.0/1000.0)/(1.0) × millimeter per second.
+micrometer per second, defined as: millimeter per second × (1.0/1000.0)/(1.0)
 
 ```csharp
 public static readonly Velocity MicrometerPerSecond;

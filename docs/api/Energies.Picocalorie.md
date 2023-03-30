@@ -3,7 +3,7 @@
 
 ## Energies.Picocalorie Field
 
-A(n) picocalorie. Defined as: 1.0/1000.0 × nanocalorie.
+picocalorie, defined as: nanocalorie × 1.0/1000.0
 
 ```csharp
 public static readonly Energy Picocalorie;

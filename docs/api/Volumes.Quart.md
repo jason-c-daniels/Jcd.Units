@@ -3,7 +3,7 @@
 
 ## Volumes.Quart Field
 
-A(n) quart. Defined as: 2.0 × pint.
+quart, defined as: pint × 2.0
 
 ```csharp
 public static readonly Volume Quart;

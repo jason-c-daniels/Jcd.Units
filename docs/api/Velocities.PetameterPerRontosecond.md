@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerRontosecond Field
 
-A(n) petameter per rontosecond. Defined as: (1000.0)/(1.0/1000.0) × terameter per yoctosecond.
+petameter per rontosecond, defined as: terameter per yoctosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity PetameterPerRontosecond;

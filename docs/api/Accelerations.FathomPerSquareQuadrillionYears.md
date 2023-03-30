@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareQuadrillionYears Field
 
-A(n) fathom per square quadrillion years. Defined as: (6.0)/((1000.0)*(1000.0)) × foot per square trillion years.
+fathom per square quadrillion years, defined as: foot per square trillion years × (6.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration FathomPerSquareQuadrillionYears;

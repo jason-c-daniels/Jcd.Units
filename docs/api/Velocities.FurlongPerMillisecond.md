@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerMillisecond Field
 
-A(n) furlong per millisecond. Defined as: (10.0)/(1.0/10.0) × chain per centisecond.
+furlong per millisecond, defined as: chain per centisecond × (10.0)/(1.0/10.0)
 
 ```csharp
 public static readonly Velocity FurlongPerMillisecond;

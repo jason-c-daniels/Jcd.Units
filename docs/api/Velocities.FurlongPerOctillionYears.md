@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerOctillionYears Field
 
-A(n) furlong per octillion years. Defined as: (10.0)/(1000.0) × chain per septillion years.
+furlong per octillion years, defined as: chain per septillion years × (10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity FurlongPerOctillionYears;

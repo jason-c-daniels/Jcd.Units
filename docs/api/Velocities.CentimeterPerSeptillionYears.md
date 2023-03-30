@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerSeptillionYears Field
 
-A(n) centimeter per septillion years. Defined as: (1.0/10.0)/(1000.0) × decimeter per sextillion years.
+centimeter per septillion years, defined as: decimeter per sextillion years × (1.0/10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity CentimeterPerSeptillionYears;

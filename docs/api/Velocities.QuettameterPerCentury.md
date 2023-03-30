@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerCentury Field
 
-A(n) quettameter per century. Defined as: (1000.0)/(10.0) × ronnameter per decade.
+quettameter per century, defined as: ronnameter per decade × (1000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity QuettameterPerCentury;

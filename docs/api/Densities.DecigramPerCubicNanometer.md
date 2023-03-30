@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicNanometer Field
 
-A(n) decigram per cubic nanometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × gram per cubic micrometer.
+decigram per cubic nanometer, defined as: gram per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density DecigramPerCubicNanometer;

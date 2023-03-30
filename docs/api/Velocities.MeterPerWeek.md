@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerWeek Field
 
-A(n) meter per week. Defined as: (1.0)/(7.0) × meter per day.
+meter per week, defined as: meter per day × (1.0)/(7.0)
 
 ```csharp
 public static readonly Velocity MeterPerWeek;

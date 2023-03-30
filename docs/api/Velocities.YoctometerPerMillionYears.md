@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerMillionYears Field
 
-A(n) yoctometer per million years. Defined as: (1.0/1000.0)/(1000.0) × zeptometer per millennium.
+yoctometer per million years, defined as: zeptometer per millennium × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity YoctometerPerMillionYears;

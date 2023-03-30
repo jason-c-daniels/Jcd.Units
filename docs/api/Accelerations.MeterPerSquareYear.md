@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareYear Field
 
-A(n) meter per square year. Defined as: (1.0)/((365.2525)*(365.2525)) × meter per square day.
+meter per square year, defined as: meter per square day × (1.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration MeterPerSquareYear;

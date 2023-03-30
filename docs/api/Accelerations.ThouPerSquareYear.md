@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareYear Field
 
-A(n) thou per square year. Defined as: (1.0/12000.0)/((365.2525)*(365.2525)) × foot per square day.
+thou per square year, defined as: foot per square day × (1.0/12000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareYear;

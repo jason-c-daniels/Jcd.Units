@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerMillisecond Field
 
-A(n) yard per millisecond. Defined as: (3.0)/(1.0/10.0) × foot per centisecond.
+yard per millisecond, defined as: foot per centisecond × (3.0)/(1.0/10.0)
 
 ```csharp
 public static readonly Velocity YardPerMillisecond;

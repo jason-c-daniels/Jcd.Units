@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicKilometer Field
 
-A(n) nanogram per cubic kilometer. Defined as: (1.0/1000.0)/((10.0)*(10.0)*(10.0)) × microgram per cubic hectometer.
+nanogram per cubic kilometer, defined as: microgram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density NanogramPerCubicKilometer;

@@ -3,7 +3,7 @@
 
 ## Illuminances.Dekalux Field
 
-A(n) dekalux. Defined as: 10.0 × lux.
+dekalux, defined as: lux × 10.0
 
 ```csharp
 public static readonly Illuminance Dekalux;

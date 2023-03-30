@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareYear Field
 
-A(n) petameter per square year. Defined as: (1000.0)/((365.2525)*(365.2525)) × terameter per square day.
+petameter per square year, defined as: terameter per square day × (1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareYear;

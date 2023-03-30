@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareRontosecond Field
 
-A(n) inch per square rontosecond. Defined as: (2.54)/((1.0/1000.0)*(1.0/1000.0)) × SI centimeter per square yoctosecond.
+inch per square rontosecond, defined as: SI centimeter per square yoctosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration InchPerSquareRontosecond;

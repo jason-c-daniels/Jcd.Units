@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareMillionYears Field
 
-A(n) quectometer per square million years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × rontometer per square millennium.
+quectometer per square million years, defined as: rontometer per square millennium × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareMillionYears;

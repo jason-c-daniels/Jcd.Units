@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerSecond Field
 
-A(n) point per second. Defined as: (1.0/72.0)/(1.0) × inch per second.
+point per second, defined as: inch per second × (1.0/72.0)/(1.0)
 
 ```csharp
 public static readonly Velocity PointPerSecond;

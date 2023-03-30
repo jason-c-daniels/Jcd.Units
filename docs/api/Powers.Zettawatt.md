@@ -3,7 +3,7 @@
 
 ## Powers.Zettawatt Field
 
-A(n) zettawatt. Defined as: 1000.0 × exawatt.
+zettawatt, defined as: exawatt × 1000.0
 
 ```csharp
 public static readonly Power Zettawatt;

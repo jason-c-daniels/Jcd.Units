@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Yottalumen Field
 
-A(n) yottalumen. Defined as: 1000.0 × zettalumen.
+yottalumen, defined as: zettalumen × 1000.0
 
 ```csharp
 public static readonly LuminousFlux Yottalumen;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicPica Field
 
-A(n) cubic pica. Defined as: (12.0)*(12.0)*(12.0) × cubic point.
+cubic pica, defined as: cubic point × (12.0)*(12.0)*(12.0)
 
 ```csharp
 public static readonly Volume CubicPica;

@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquarePicosecond Field
 
-A(n) decimeter per square picosecond. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)) × meter per square nanosecond.
+decimeter per square picosecond, defined as: meter per square nanosecond × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquarePicosecond;

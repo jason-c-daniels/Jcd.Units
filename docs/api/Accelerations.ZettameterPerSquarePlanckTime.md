@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquarePlanckTime Field
 
-A(n) zettameter per square planck-time. Defined as: (1000.0)/((5.391247E-38)*(5.391247E-38)) × exameter per square microsecond.
+zettameter per square planck-time, defined as: exameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquarePlanckTime;

@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareYear Field
 
-A(n) nautical mile per square year. Defined as: (10.0)/((365.2525)*(365.2525)) × cable per square day.
+nautical mile per square year, defined as: cable per square day × (10.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareYear;

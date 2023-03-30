@@ -3,7 +3,7 @@
 
 ## Volumes.CubicFurlong Field
 
-A(n) cubic furlong. Defined as: (10.0)*(10.0)*(10.0) × cubic chain.
+cubic furlong, defined as: cubic chain × (10.0)*(10.0)*(10.0)
 
 ```csharp
 public static readonly Volume CubicFurlong;

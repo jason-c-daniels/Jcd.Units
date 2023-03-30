@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerSextillionYears Field
 
-A(n) yard per sextillion years. Defined as: (3.0)/(1000.0) × foot per quintillion years.
+yard per sextillion years, defined as: foot per quintillion years × (3.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity YardPerSextillionYears;

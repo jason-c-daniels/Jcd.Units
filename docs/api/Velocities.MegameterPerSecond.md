@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerSecond Field
 
-A(n) megameter per second. Defined as: (1000.0)/(1.0) × kilometer per second.
+megameter per second, defined as: kilometer per second × (1000.0)/(1.0)
 
 ```csharp
 public static readonly Velocity MegameterPerSecond;

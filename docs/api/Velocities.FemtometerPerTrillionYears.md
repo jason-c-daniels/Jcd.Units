@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerTrillionYears Field
 
-A(n) femtometer per trillion years. Defined as: (1.0/1000.0)/(1000.0) × picometer per billion years.
+femtometer per trillion years, defined as: picometer per billion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity FemtometerPerTrillionYears;

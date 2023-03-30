@@ -3,7 +3,7 @@
 
 ## Volumes.CubicZettalightYear Field
 
-A(n) cubic zettalight-year. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic exalight-year.
+cubic zettalight-year, defined as: cubic exalight-year × (1000.0)*(1000.0)*(1000.0)
 
 ```csharp
 public static readonly Volume CubicZettalightYear;

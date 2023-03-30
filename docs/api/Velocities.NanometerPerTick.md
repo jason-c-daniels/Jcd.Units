@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerTick Field
 
-A(n) nanometer per tick. Defined as: (1.0/1000.0)/(100.0) × micrometer per nanosecond.
+nanometer per tick, defined as: micrometer per nanosecond × (1.0/1000.0)/(100.0)
 
 ```csharp
 public static readonly Velocity NanometerPerTick;

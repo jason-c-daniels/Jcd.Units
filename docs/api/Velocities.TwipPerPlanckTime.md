@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerPlanckTime Field
 
-A(n) twip per planck-time. Defined as: (1.0/17280.0)/(5.391247E-38) × foot per microsecond.
+twip per planck-time, defined as: foot per microsecond × (1.0/17280.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity TwipPerPlanckTime;

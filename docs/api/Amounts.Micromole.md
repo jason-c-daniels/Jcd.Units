@@ -3,7 +3,7 @@
 
 ## Amounts.Micromole Field
 
-A(n) micromole. Defined as: 1.0/1000.0 × millimole.
+micromole, defined as: millimole × 1.0/1000.0
 
 ```csharp
 public static readonly Amount Micromole;

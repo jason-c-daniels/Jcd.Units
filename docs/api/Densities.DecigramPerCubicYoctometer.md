@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicYoctometer Field
 
-A(n) decigram per cubic yoctometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × gram per cubic zeptometer.
+decigram per cubic yoctometer, defined as: gram per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density DecigramPerCubicYoctometer;

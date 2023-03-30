@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerYoctosecond Field
 
-A(n) exameter per yoctosecond. Defined as: (1000.0)/(1.0/1000.0) × petameter per zeptosecond.
+exameter per yoctosecond, defined as: petameter per zeptosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ExameterPerYoctosecond;

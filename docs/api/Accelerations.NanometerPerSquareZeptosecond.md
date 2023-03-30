@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareZeptosecond Field
 
-A(n) nanometer per square zeptosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × micrometer per square attosecond.
+nanometer per square zeptosecond, defined as: micrometer per square attosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareZeptosecond;

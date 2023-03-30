@@ -3,7 +3,7 @@
 
 ## Areas.SquareHectoparsec Field
 
-A(n) square hectoparsec. Defined as: (10.0)*(10.0) × square dekaparsec.
+square hectoparsec, defined as: square dekaparsec × (10.0)*(10.0)
 
 ```csharp
 public static readonly Area SquareHectoparsec;

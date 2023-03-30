@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerSecond Field
 
-A(n) mile per second. Defined as: (8.0)/(1.0) × furlong per second.
+mile per second, defined as: furlong per second × (8.0)/(1.0)
 
 ```csharp
 public static readonly Velocity MilePerSecond;

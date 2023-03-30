@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerPlanckTime Field
 
-A(n) kilometer per planck-time. Defined as: (10.0)/(5.391247E-38) × hectometer per microsecond.
+kilometer per planck-time, defined as: hectometer per microsecond × (10.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity KilometerPerPlanckTime;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMarsCircumference Field
 
-A(n) cubic mars circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic mars diameter.
+cubic mars circumference, defined as: cubic mars diameter × (Math.PI)*(Math.PI)*(Math.PI)
 
 ```csharp
 public static readonly Volume CubicMarsCircumference;

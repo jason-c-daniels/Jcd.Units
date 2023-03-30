@@ -3,7 +3,7 @@
 
 ## Volumes.Teraliter Field
 
-A(n) teraliter. Defined as: 1000.0 × gigaliter.
+teraliter, defined as: gigaliter × 1000.0
 
 ```csharp
 public static readonly Volume Teraliter;

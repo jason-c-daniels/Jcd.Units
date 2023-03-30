@@ -3,7 +3,7 @@
 
 ## StorageUnits.Yobibit Field
 
-A(n) yobibit. Defined as: 1024.0 × zebibit.
+yobibit, defined as: zebibit × 1024.0
 
 ```csharp
 public static readonly Storage Yobibit;

@@ -3,7 +3,7 @@
 
 ## Lengths.Chain Field
 
-A(n) chain. Defined as: 22.0 × yard.
+chain, defined as: yard × 22.0
 
 ```csharp
 public static readonly Length Chain;

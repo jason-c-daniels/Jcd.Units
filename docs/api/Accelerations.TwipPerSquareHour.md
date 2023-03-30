@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareHour Field
 
-A(n) twip per square hour. Defined as: (1.0/17280.0)/((60.0)*(60.0)) × foot per square minute.
+twip per square hour, defined as: foot per square minute × (1.0/17280.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration TwipPerSquareHour;

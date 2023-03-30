@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicRontometer Field
 
-A(n) milligram per cubic rontometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × centigram per cubic yoctometer.
+milligram per cubic rontometer, defined as: centigram per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density MilligramPerCubicRontometer;

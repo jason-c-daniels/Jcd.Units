@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerRontosecond Field
 
-A(n) zettameter per rontosecond. Defined as: (1000.0)/(1.0/1000.0) × exameter per yoctosecond.
+zettameter per rontosecond, defined as: exameter per yoctosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ZettameterPerRontosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareQuintillionYears Field
 
-A(n) zettameter per square quintillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × exameter per square quadrillion years.
+zettameter per square quintillion years, defined as: exameter per square quadrillion years × (1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquareQuintillionYears;

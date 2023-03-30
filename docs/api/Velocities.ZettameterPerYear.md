@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerYear Field
 
-A(n) zettameter per year. Defined as: (1000.0)/(365.2525) × exameter per day.
+zettameter per year, defined as: exameter per day × (1000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity ZettameterPerYear;

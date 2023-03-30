@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerCentury Field
 
-A(n) yard per century. Defined as: (3.0)/(10.0) × foot per decade.
+yard per century, defined as: foot per decade × (3.0)/(10.0)
 
 ```csharp
 public static readonly Velocity YardPerCentury;

@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerCentury Field
 
-A(n) mil per century. Defined as: (1.0/1000.0)/(10.0) × inch per decade.
+mil per century, defined as: inch per decade × (1.0/1000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity MilPerCentury;

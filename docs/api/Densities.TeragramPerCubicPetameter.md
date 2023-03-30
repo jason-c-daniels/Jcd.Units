@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicPetameter Field
 
-A(n) teragram per cubic petameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × gigagram per cubic terameter.
+teragram per cubic petameter, defined as: gigagram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density TeragramPerCubicPetameter;

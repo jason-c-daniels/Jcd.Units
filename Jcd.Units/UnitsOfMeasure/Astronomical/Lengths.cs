@@ -18,248 +18,247 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
 {
    /// <summary>
-   /// A(n) light-year. Defined as: 9_460_730_472_580_800.0 × SI meter.
+   /// light-year, defined as: SI meter × 9_460_730_472_580_800.0
    /// </summary>
-   public static readonly Length LightYear = new ("light-year", "ly", SI.Lengths.Meter, 9_460_730_472_580_800.0, 0);
+   public static readonly Length LightYear = new ("light-year", "ly", SI.Lengths.Meter, 9_460_730_472_580_800.0);
 
    /// <summary>
-   /// A(n) dekalight-year. Defined as: 10.0 × light-year.
+   /// dekalight-year, defined as: light-year × 10.0
    /// </summary>
-   public static readonly Length DekalightYear = new ("dekalight-year", "daly", LightYear, 10.0, 0);
+   public static readonly Length DekalightYear = new ("dekalight-year", "daly", LightYear, 10.0);
 
    /// <summary>
-   /// A(n) hectolight-year. Defined as: 10.0 × dekalight-year.
+   /// hectolight-year, defined as: dekalight-year × 10.0
    /// </summary>
-   public static readonly Length HectolightYear = new ("hectolight-year", "hly", DekalightYear, 10.0, 0);
+   public static readonly Length HectolightYear = new ("hectolight-year", "hly", DekalightYear, 10.0);
 
    /// <summary>
-   /// A(n) kilolight-year. Defined as: 10.0 × hectolight-year.
+   /// kilolight-year, defined as: hectolight-year × 10.0
    /// </summary>
-   public static readonly Length KilolightYear = new ("kilolight-year", "kly", HectolightYear, 10.0, 0);
+   public static readonly Length KilolightYear = new ("kilolight-year", "kly", HectolightYear, 10.0);
 
    /// <summary>
-   /// A(n) megalight-year. Defined as: 1000.0 × kilolight-year.
+   /// megalight-year, defined as: kilolight-year × 1000.0
    /// </summary>
-   public static readonly Length MegalightYear = new ("megalight-year", "Mly", KilolightYear, 1000.0, 0);
+   public static readonly Length MegalightYear = new ("megalight-year", "Mly", KilolightYear, 1000.0);
 
    /// <summary>
-   /// A(n) gigalight-year. Defined as: 1000.0 × megalight-year.
+   /// gigalight-year, defined as: megalight-year × 1000.0
    /// </summary>
-   public static readonly Length GigalightYear = new ("gigalight-year", "Gly", MegalightYear, 1000.0, 0);
+   public static readonly Length GigalightYear = new ("gigalight-year", "Gly", MegalightYear, 1000.0);
 
    /// <summary>
-   /// A(n) teralight-year. Defined as: 1000.0 × gigalight-year.
+   /// teralight-year, defined as: gigalight-year × 1000.0
    /// </summary>
-   public static readonly Length TeralightYear = new ("teralight-year", "Tly", GigalightYear, 1000.0, 0);
+   public static readonly Length TeralightYear = new ("teralight-year", "Tly", GigalightYear, 1000.0);
 
    /// <summary>
-   /// A(n) petalight-year. Defined as: 1000.0 × teralight-year.
+   /// petalight-year, defined as: teralight-year × 1000.0
    /// </summary>
-   public static readonly Length PetalightYear = new ("petalight-year", "Ply", TeralightYear, 1000.0, 0);
+   public static readonly Length PetalightYear = new ("petalight-year", "Ply", TeralightYear, 1000.0);
 
    /// <summary>
-   /// A(n) exalight-year. Defined as: 1000.0 × petalight-year.
+   /// exalight-year, defined as: petalight-year × 1000.0
    /// </summary>
-   public static readonly Length ExalightYear = new ("exalight-year", "Ely", PetalightYear, 1000.0, 0);
+   public static readonly Length ExalightYear = new ("exalight-year", "Ely", PetalightYear, 1000.0);
 
    /// <summary>
-   /// A(n) zettalight-year. Defined as: 1000.0 × exalight-year.
+   /// zettalight-year, defined as: exalight-year × 1000.0
    /// </summary>
-   public static readonly Length ZettalightYear = new ("zettalight-year", "Zly", ExalightYear, 1000.0, 0);
+   public static readonly Length ZettalightYear = new ("zettalight-year", "Zly", ExalightYear, 1000.0);
 
    /// <summary>
-   /// A(n) yottalight-year. Defined as: 1000.0 × zettalight-year.
+   /// yottalight-year, defined as: zettalight-year × 1000.0
    /// </summary>
-   public static readonly Length YottalightYear = new ("yottalight-year", "Yly", ZettalightYear, 1000.0, 0);
+   public static readonly Length YottalightYear = new ("yottalight-year", "Yly", ZettalightYear, 1000.0);
 
    /// <summary>
-   /// A(n) ronnalight-year. Defined as: 1000.0 × yottalight-year.
+   /// ronnalight-year, defined as: yottalight-year × 1000.0
    /// </summary>
-   public static readonly Length RonnalightYear = new ("ronnalight-year", "Rly", YottalightYear, 1000.0, 0);
+   public static readonly Length RonnalightYear = new ("ronnalight-year", "Rly", YottalightYear, 1000.0);
 
    /// <summary>
-   /// A(n) quettalight-year. Defined as: 1000.0 × ronnalight-year.
+   /// quettalight-year, defined as: ronnalight-year × 1000.0
    /// </summary>
-   public static readonly Length QuettalightYear = new ("quettalight-year", "Qly", RonnalightYear, 1000.0, 0);
+   public static readonly Length QuettalightYear = new ("quettalight-year", "Qly", RonnalightYear, 1000.0);
 
    /// <summary>
-   /// A(n) light-second. Defined as: 299_792_458.0 × SI meter.
+   /// light-second, defined as: SI meter × 299_792_458.0
    /// </summary>
-   public static readonly Length LightSecond = new ("light-second", "ls", SI.Lengths.Meter, 299_792_458.0, 0);
+   public static readonly Length LightSecond = new ("light-second", "ls", SI.Lengths.Meter, 299_792_458.0);
 
    /// <summary>
-   /// A(n) light-minute. Defined as: 60.0 × light-second.
+   /// light-minute, defined as: light-second × 60.0
    /// </summary>
-   public static readonly Length LightMinute = new ("light-minute", "lm", LightSecond, 60.0, 0);
+   public static readonly Length LightMinute = new ("light-minute", "lm", LightSecond, 60.0);
 
    /// <summary>
-   /// A(n) astronomical unit. Defined as: 149597870.691 × SI kilometer.
+   /// astronomical unit, defined as: SI kilometer × 149597870.691
    /// </summary>
    public static readonly Length AstronomicalUnit = new (
                                                          "astronomical unit"
                                                        , "AU"
                                                        , SI.Lengths.Kilometer
                                                        , 149597870.691
-                                                       , 0
                                                         );
 
    /// <summary>
-   /// A(n) light-hour. Defined as: 60.0 × light-minute.
+   /// light-hour, defined as: light-minute × 60.0
    /// </summary>
-   public static readonly Length LightHour = new ("light-hour", "lh", LightMinute, 60.0, 0);
+   public static readonly Length LightHour = new ("light-hour", "lh", LightMinute, 60.0);
 
    /// <summary>
-   /// A(n) light-day. Defined as: 24.0 × light-hour.
+   /// light-day, defined as: light-hour × 24.0
    /// </summary>
-   public static readonly Length LightDay = new ("light-day", "ld", LightHour, 24.0, 0);
+   public static readonly Length LightDay = new ("light-day", "ld", LightHour, 24.0);
 
    /// <summary>
-   /// A(n) light-week. Defined as: 7.0 × light-day.
+   /// light-week, defined as: light-day × 7.0
    /// </summary>
-   public static readonly Length LightWeek = new ("light-week", "lw", LightDay, 7.0, 0);
+   public static readonly Length LightWeek = new ("light-week", "lw", LightDay, 7.0);
 
    /// <summary>
-   /// A(n) parsec. Defined as: 3.2615637769757 × light-year.
+   /// parsec, defined as: light-year × 3.2615637769757
    /// </summary>
-   public static readonly Length Parsec = new ("parsec", "pc", LightYear, 3.2615637769757, 0);
+   public static readonly Length Parsec = new ("parsec", "pc", LightYear, 3.2615637769757);
 
    /// <summary>
-   /// A(n) dekaparsec. Defined as: 10.0 × parsec.
+   /// dekaparsec, defined as: parsec × 10.0
    /// </summary>
-   public static readonly Length Dekaparsec = new ("dekaparsec", "dapc", Parsec, 10.0, 0);
+   public static readonly Length Dekaparsec = new ("dekaparsec", "dapc", Parsec, 10.0);
 
    /// <summary>
-   /// A(n) hectoparsec. Defined as: 10.0 × dekaparsec.
+   /// hectoparsec, defined as: dekaparsec × 10.0
    /// </summary>
-   public static readonly Length Hectoparsec = new ("hectoparsec", "hpc", Dekaparsec, 10.0, 0);
+   public static readonly Length Hectoparsec = new ("hectoparsec", "hpc", Dekaparsec, 10.0);
 
    /// <summary>
-   /// A(n) kiloparsec. Defined as: 10.0 × hectoparsec.
+   /// kiloparsec, defined as: hectoparsec × 10.0
    /// </summary>
-   public static readonly Length Kiloparsec = new ("kiloparsec", "kpc", Hectoparsec, 10.0, 0);
+   public static readonly Length Kiloparsec = new ("kiloparsec", "kpc", Hectoparsec, 10.0);
 
    /// <summary>
-   /// A(n) megaparsec. Defined as: 1000.0 × kiloparsec.
+   /// megaparsec, defined as: kiloparsec × 1000.0
    /// </summary>
-   public static readonly Length Megaparsec = new ("megaparsec", "Mpc", Kiloparsec, 1000.0, 0);
+   public static readonly Length Megaparsec = new ("megaparsec", "Mpc", Kiloparsec, 1000.0);
 
    /// <summary>
-   /// A(n) gigaparsec. Defined as: 1000.0 × megaparsec.
+   /// gigaparsec, defined as: megaparsec × 1000.0
    /// </summary>
-   public static readonly Length Gigaparsec = new ("gigaparsec", "Gpc", Megaparsec, 1000.0, 0);
+   public static readonly Length Gigaparsec = new ("gigaparsec", "Gpc", Megaparsec, 1000.0);
 
    /// <summary>
-   /// A(n) teraparsec. Defined as: 1000.0 × gigaparsec.
+   /// teraparsec, defined as: gigaparsec × 1000.0
    /// </summary>
-   public static readonly Length Teraparsec = new ("teraparsec", "Tpc", Gigaparsec, 1000.0, 0);
+   public static readonly Length Teraparsec = new ("teraparsec", "Tpc", Gigaparsec, 1000.0);
 
    /// <summary>
-   /// A(n) petaparsec. Defined as: 1000.0 × teraparsec.
+   /// petaparsec, defined as: teraparsec × 1000.0
    /// </summary>
-   public static readonly Length Petaparsec = new ("petaparsec", "Ppc", Teraparsec, 1000.0, 0);
+   public static readonly Length Petaparsec = new ("petaparsec", "Ppc", Teraparsec, 1000.0);
 
    /// <summary>
-   /// A(n) exaparsec. Defined as: 1000.0 × petaparsec.
+   /// exaparsec, defined as: petaparsec × 1000.0
    /// </summary>
-   public static readonly Length Exaparsec = new ("exaparsec", "Epc", Petaparsec, 1000.0, 0);
+   public static readonly Length Exaparsec = new ("exaparsec", "Epc", Petaparsec, 1000.0);
 
    /// <summary>
-   /// A(n) zettaparsec. Defined as: 1000.0 × exaparsec.
+   /// zettaparsec, defined as: exaparsec × 1000.0
    /// </summary>
-   public static readonly Length Zettaparsec = new ("zettaparsec", "Zpc", Exaparsec, 1000.0, 0);
+   public static readonly Length Zettaparsec = new ("zettaparsec", "Zpc", Exaparsec, 1000.0);
 
    /// <summary>
-   /// A(n) yottaparsec. Defined as: 1000.0 × zettaparsec.
+   /// yottaparsec, defined as: zettaparsec × 1000.0
    /// </summary>
-   public static readonly Length Yottaparsec = new ("yottaparsec", "Ypc", Zettaparsec, 1000.0, 0);
+   public static readonly Length Yottaparsec = new ("yottaparsec", "Ypc", Zettaparsec, 1000.0);
 
    /// <summary>
-   /// A(n) ronnaparsec. Defined as: 1000.0 × yottaparsec.
+   /// ronnaparsec, defined as: yottaparsec × 1000.0
    /// </summary>
-   public static readonly Length Ronnaparsec = new ("ronnaparsec", "Rpc", Yottaparsec, 1000.0, 0);
+   public static readonly Length Ronnaparsec = new ("ronnaparsec", "Rpc", Yottaparsec, 1000.0);
 
    /// <summary>
-   /// A(n) quettaparsec. Defined as: 1000.0 × ronnaparsec.
+   /// quettaparsec, defined as: ronnaparsec × 1000.0
    /// </summary>
-   public static readonly Length Quettaparsec = new ("quettaparsec", "Qpc", Ronnaparsec, 1000.0, 0);
+   public static readonly Length Quettaparsec = new ("quettaparsec", "Qpc", Ronnaparsec, 1000.0);
 
    /// <summary>
-   /// A(n) earth radius. Defined as: 6_371.0 × SI kilometer.
+   /// earth radius, defined as: SI kilometer × 6_371.0
    /// </summary>
-   public static readonly Length EarthRadius = new ("earth radius", "R(⊕)", SI.Lengths.Kilometer, 6_371.0, 0);
+   public static readonly Length EarthRadius = new ("earth radius", "R(⊕)", SI.Lengths.Kilometer, 6_371.0);
 
    /// <summary>
-   /// A(n) jovian radius. Defined as: 69_911.0 × SI kilometer.
+   /// jovian radius, defined as: SI kilometer × 69_911.0
    /// </summary>
-   public static readonly Length JovianRadius = new ("jovian radius", "R(J)", SI.Lengths.Kilometer, 69_911.0, 0);
+   public static readonly Length JovianRadius = new ("jovian radius", "R(J)", SI.Lengths.Kilometer, 69_911.0);
 
    /// <summary>
-   /// A(n) lunar radius. Defined as: 1_737.4 × SI kilometer.
+   /// lunar radius, defined as: SI kilometer × 1_737.4
    /// </summary>
-   public static readonly Length LunarRadius = new ("lunar radius", "R(L)", SI.Lengths.Kilometer, 1_737.4, 0);
+   public static readonly Length LunarRadius = new ("lunar radius", "R(L)", SI.Lengths.Kilometer, 1_737.4);
 
    /// <summary>
-   /// A(n) mars radius. Defined as: 3_389.5 × SI kilometer.
+   /// mars radius, defined as: SI kilometer × 3_389.5
    /// </summary>
-   public static readonly Length MarsRadius = new ("mars radius", "R(♂)", SI.Lengths.Kilometer, 3_389.5, 0);
+   public static readonly Length MarsRadius = new ("mars radius", "R(♂)", SI.Lengths.Kilometer, 3_389.5);
 
    /// <summary>
-   /// A(n) solar radius. Defined as: 695_700.0 × SI kilometer.
+   /// solar radius, defined as: SI kilometer × 695_700.0
    /// </summary>
-   public static readonly Length SolarRadius = new ("solar radius", "R(☉)", SI.Lengths.Kilometer, 695_700.0, 0);
+   public static readonly Length SolarRadius = new ("solar radius", "R(☉)", SI.Lengths.Kilometer, 695_700.0);
 
    /// <summary>
-   /// A(n) earth diameter. Defined as: 2.0 × earth radius.
+   /// earth diameter, defined as: earth radius × 2.0
    /// </summary>
-   public static readonly Length EarthDiameter = new ("earth diameter", "D(⊕)", EarthRadius, 2.0, 0);
+   public static readonly Length EarthDiameter = new ("earth diameter", "D(⊕)", EarthRadius, 2.0);
 
    /// <summary>
-   /// A(n) jovian diameter. Defined as: 2.0 × jovian radius.
+   /// jovian diameter, defined as: jovian radius × 2.0
    /// </summary>
-   public static readonly Length JovianDiameter = new ("jovian diameter", "D(J)", JovianRadius, 2.0, 0);
+   public static readonly Length JovianDiameter = new ("jovian diameter", "D(J)", JovianRadius, 2.0);
 
    /// <summary>
-   /// A(n) lunar diameter. Defined as: 2.0 × lunar radius.
+   /// lunar diameter, defined as: lunar radius × 2.0
    /// </summary>
-   public static readonly Length LunarDiameter = new ("lunar diameter", "D(L)", LunarRadius, 2.0, 0);
+   public static readonly Length LunarDiameter = new ("lunar diameter", "D(L)", LunarRadius, 2.0);
 
    /// <summary>
-   /// A(n) mars diameter. Defined as: 2.0 × mars radius.
+   /// mars diameter, defined as: mars radius × 2.0
    /// </summary>
-   public static readonly Length MarsDiameter = new ("mars diameter", "D(♂)", MarsRadius, 2.0, 0);
+   public static readonly Length MarsDiameter = new ("mars diameter", "D(♂)", MarsRadius, 2.0);
 
    /// <summary>
-   /// A(n) solar diameter. Defined as: 2.0 × solar radius.
+   /// solar diameter, defined as: solar radius × 2.0
    /// </summary>
-   public static readonly Length SolarDiameter = new ("solar diameter", "D(☉)", SolarRadius, 2.0, 0);
+   public static readonly Length SolarDiameter = new ("solar diameter", "D(☉)", SolarRadius, 2.0);
 
    /// <summary>
-   /// A(n) earth circumference. Defined as: Math.PI × earth diameter.
+   /// earth circumference, defined as: earth diameter × Math.PI
    /// </summary>
-   public static readonly Length EarthCircumference = new ("earth circumference", "C(⊕)", EarthDiameter, Math.PI, 0);
+   public static readonly Length EarthCircumference = new ("earth circumference", "C(⊕)", EarthDiameter, Math.PI);
 
    /// <summary>
-   /// A(n) jovian circumference. Defined as: Math.PI × jovian diameter.
+   /// jovian circumference, defined as: jovian diameter × Math.PI
    /// </summary>
-   public static readonly Length JovianCircumference = new ("jovian circumference", "C(J)", JovianDiameter, Math.PI, 0);
+   public static readonly Length JovianCircumference = new ("jovian circumference", "C(J)", JovianDiameter, Math.PI);
 
    /// <summary>
-   /// A(n) lunar circumference. Defined as: Math.PI × lunar diameter.
+   /// lunar circumference, defined as: lunar diameter × Math.PI
    /// </summary>
-   public static readonly Length LunarCircumference = new ("lunar circumference", "C(L)", LunarDiameter, Math.PI, 0);
+   public static readonly Length LunarCircumference = new ("lunar circumference", "C(L)", LunarDiameter, Math.PI);
 
    /// <summary>
-   /// A(n) mars circumference. Defined as: Math.PI × mars diameter.
+   /// mars circumference, defined as: mars diameter × Math.PI
    /// </summary>
-   public static readonly Length MarsCircumference = new ("mars circumference", "C(♂)", MarsDiameter, Math.PI, 0);
+   public static readonly Length MarsCircumference = new ("mars circumference", "C(♂)", MarsDiameter, Math.PI);
 
    /// <summary>
-   /// A(n) solar circumference. Defined as: Math.PI × solar diameter.
+   /// solar circumference, defined as: solar diameter × Math.PI
    /// </summary>
-   public static readonly Length SolarCircumference = new ("solar circumference", "C(☉)", SolarDiameter, Math.PI, 0);
+   public static readonly Length SolarCircumference = new ("solar circumference", "C(☉)", SolarDiameter, Math.PI);
 
    /// <summary>
-   /// A(n) Planck-length. Defined as: 1.616255E-35 × SI meter.
+   /// Planck-length, defined as: SI meter × 1.616255E-35
    /// </summary>
-   public static readonly Length PlanckLength = new ("Planck-length", "ℓₚ", SI.Lengths.Meter, 1.616255E-35, 0);
+   public static readonly Length PlanckLength = new ("Planck-length", "ℓₚ", SI.Lengths.Meter, 1.616255E-35);
 }

@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicQuettameter Field
 
-A(n) yoctogram per cubic quettameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × zeptogram per cubic ronnameter.
+yoctogram per cubic quettameter, defined as: zeptogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density YoctogramPerCubicQuettameter;

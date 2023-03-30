@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareHour Field
 
-A(n) millimeter per square hour. Defined as: (1.0/10.0)/((60.0)*(60.0)) × centimeter per square minute.
+millimeter per square hour, defined as: centimeter per square minute × (1.0/10.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareHour;

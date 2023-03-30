@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerMillionYears Field
 
-A(n) fathom per million years. Defined as: (6.0)/(1000.0) × foot per millennium.
+fathom per million years, defined as: foot per millennium × (6.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity FathomPerMillionYears;

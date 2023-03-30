@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareMinute Field
 
-A(n) foot per square minute. Defined as: (12)/((60.0)*(60.0)) × inch per square second.
+foot per square minute, defined as: inch per square second × (12)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration FootPerSquareMinute;

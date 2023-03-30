@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerOctillionYears Field
 
-A(n) decimeter per octillion years. Defined as: (1.0/10.0)/(1000.0) × meter per septillion years.
+decimeter per octillion years, defined as: meter per septillion years × (1.0/10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity DecimeterPerOctillionYears;

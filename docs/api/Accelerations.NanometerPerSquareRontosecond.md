@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareRontosecond Field
 
-A(n) nanometer per square rontosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × micrometer per square yoctosecond.
+nanometer per square rontosecond, defined as: micrometer per square yoctosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareRontosecond;

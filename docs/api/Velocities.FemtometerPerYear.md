@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerYear Field
 
-A(n) femtometer per year. Defined as: (1.0/1000.0)/(365.2525) × picometer per day.
+femtometer per year, defined as: picometer per day × (1.0/1000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity FemtometerPerYear;

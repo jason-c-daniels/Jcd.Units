@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerSextillionYears Field
 
-A(n) rod per sextillion years. Defined as: (5.0292)/(1000.0) × SI meter per quintillion years.
+rod per sextillion years, defined as: SI meter per quintillion years × (5.0292)/(1000.0)
 
 ```csharp
 public static readonly Velocity RodPerSextillionYears;

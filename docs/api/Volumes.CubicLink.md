@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLink Field
 
-A(n) cubic link. Defined as: (0.20116)*(0.20116)*(0.20116) × SI cubic meter.
+cubic link, defined as: SI cubic meter × (0.20116)*(0.20116)*(0.20116)
 
 ```csharp
 public static readonly Volume CubicLink;

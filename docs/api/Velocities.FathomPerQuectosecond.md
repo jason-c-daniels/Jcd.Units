@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerQuectosecond Field
 
-A(n) fathom per quectosecond. Defined as: (6.0)/(1.0/1000.0) × foot per rontosecond.
+fathom per quectosecond, defined as: foot per rontosecond × (6.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity FathomPerQuectosecond;

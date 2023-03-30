@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicExameter Field
 
-A(n) attogram per cubic exameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × femtogram per cubic petameter.
+attogram per cubic exameter, defined as: femtogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density AttogramPerCubicExameter;

@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerDecade Field
 
-A(n) thou per decade. Defined as: (1.0/12000.0)/(10.0) × foot per year.
+thou per decade, defined as: foot per year × (1.0/12000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity ThouPerDecade;

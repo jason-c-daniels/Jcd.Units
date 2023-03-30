@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareDecade Field
 
-A(n) rontometer per square decade. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × yoctometer per square year.
+rontometer per square decade, defined as: yoctometer per square year × (1.0/1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareDecade;

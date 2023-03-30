@@ -3,7 +3,7 @@
 
 ## StorageUnits.Exabyte Field
 
-A(n) exabyte. Defined as: 1000.0 × petabyte.
+exabyte, defined as: petabyte × 1000.0
 
 ```csharp
 public static readonly Storage Exabyte;

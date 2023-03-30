@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareSecond Field
 
-A(n) league per square second. Defined as: (3.0)/((1.0)*(1.0)) × mile per square second.
+league per square second, defined as: mile per square second × (3.0)/((1.0)*(1.0))
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareSecond;

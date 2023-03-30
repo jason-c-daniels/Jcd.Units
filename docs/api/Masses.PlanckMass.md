@@ -3,7 +3,7 @@
 
 ## Masses.PlanckMass Field
 
-A(n) planck-mass. Defined as: 2.176434E-8 × SI kilogram.
+planck-mass, defined as: SI kilogram × 2.176434E-8
 
 ```csharp
 public static readonly Mass PlanckMass;

@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareMillennium Field
 
-A(n) league per square millennium. Defined as: (3.0)/((10.0)*(10.0)) × mile per square century.
+league per square millennium, defined as: mile per square century × (3.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareMillennium;

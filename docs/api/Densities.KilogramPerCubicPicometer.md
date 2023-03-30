@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicPicometer Field
 
-A(n) kilogram per cubic picometer. Defined as: (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × kilogram per cubic nanometer.
+kilogram per cubic picometer, defined as: kilogram per cubic nanometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density KilogramPerCubicPicometer;

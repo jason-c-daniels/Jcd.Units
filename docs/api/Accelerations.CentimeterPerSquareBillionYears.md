@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareBillionYears Field
 
-A(n) centimeter per square billion years. Defined as: (1.0/10.0)/((1000.0)*(1000.0)) × decimeter per square million years.
+centimeter per square billion years, defined as: decimeter per square million years × (1.0/10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareBillionYears;

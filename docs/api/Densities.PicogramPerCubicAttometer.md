@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicAttometer Field
 
-A(n) picogram per cubic attometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × nanogram per cubic femtometer.
+picogram per cubic attometer, defined as: nanogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density PicogramPerCubicAttometer;

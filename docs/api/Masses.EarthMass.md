@@ -3,7 +3,7 @@
 
 ## Masses.EarthMass Field
 
-A(n) earth mass. Defined as: 5.9722E+24 × SI kilogram.
+earth mass, defined as: SI kilogram × 5.9722E+24
 
 ```csharp
 public static readonly Mass EarthMass;

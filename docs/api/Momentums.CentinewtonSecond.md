@@ -3,7 +3,7 @@
 
 ## Momentums.CentinewtonSecond Field
 
-A(n) centinewton-second. Defined as: 1.0/10.0 × decinewton-second.
+centinewton-second, defined as: decinewton-second × 1.0/10.0
 
 ```csharp
 public static readonly Momentum CentinewtonSecond;

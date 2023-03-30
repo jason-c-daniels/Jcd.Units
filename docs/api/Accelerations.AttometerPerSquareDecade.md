@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareDecade Field
 
-A(n) attometer per square decade. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × femtometer per square year.
+attometer per square decade, defined as: femtometer per square year × (1.0/1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareDecade;

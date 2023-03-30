@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareWeek Field
 
-A(n) megameter per square week. Defined as: (1000.0)/((7.0)*(7.0)) × kilometer per square day.
+megameter per square week, defined as: kilometer per square day × (1000.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareWeek;

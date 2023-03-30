@@ -3,7 +3,7 @@
 
 ## Lengths.Ronnameter Field
 
-A(n) ronnameter. Defined as: 1000.0 × yottameter.
+ronnameter, defined as: yottameter × 1000.0
 
 ```csharp
 public static readonly Length Ronnameter;

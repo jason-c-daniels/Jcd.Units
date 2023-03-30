@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicExameter Field
 
-A(n) quettagram per cubic exameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × ronnagram per cubic petameter.
+quettagram per cubic exameter, defined as: ronnagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density QuettagramPerCubicExameter;

@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareFemtosecond Field
 
-A(n) fathom per square femtosecond. Defined as: (6.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square picosecond.
+fathom per square femtosecond, defined as: foot per square picosecond × (6.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration FathomPerSquareFemtosecond;

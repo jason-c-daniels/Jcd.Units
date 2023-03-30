@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareSeptillionYears Field
 
-A(n) foot per square septillion years. Defined as: (12)/((1000.0)*(1000.0)) × inch per square sextillion years.
+foot per square septillion years, defined as: inch per square sextillion years × (12)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration FootPerSquareSeptillionYears;

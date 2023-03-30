@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicNanometer Field
 
-A(n) milligram per cubic nanometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × centigram per cubic micrometer.
+milligram per cubic nanometer, defined as: centigram per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density MilligramPerCubicNanometer;

@@ -3,7 +3,7 @@
 
 ## Areas.SquareBarleycorn Field
 
-A(n) square barleycorn. Defined as: (1.0/36.0)*(1.0/36.0) × square foot.
+square barleycorn, defined as: square foot × (1.0/36.0)*(1.0/36.0)
 
 ```csharp
 public static readonly Area SquareBarleycorn;

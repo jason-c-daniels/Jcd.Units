@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerQuectosecond Field
 
-A(n) quettameter per quectosecond. Defined as: (1000.0)/(1.0/1000.0) × ronnameter per rontosecond.
+quettameter per quectosecond, defined as: ronnameter per rontosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity QuettameterPerQuectosecond;

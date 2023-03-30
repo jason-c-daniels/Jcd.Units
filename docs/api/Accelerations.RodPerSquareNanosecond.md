@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareNanosecond Field
 
-A(n) rod per square nanosecond. Defined as: (5.0292)/((1.0/1000.0)*(1.0/1000.0)) × SI meter per square microsecond.
+rod per square nanosecond, defined as: SI meter per square microsecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration RodPerSquareNanosecond;

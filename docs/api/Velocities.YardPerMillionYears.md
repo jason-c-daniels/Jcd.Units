@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerMillionYears Field
 
-A(n) yard per million years. Defined as: (3.0)/(1000.0) × foot per millennium.
+yard per million years, defined as: foot per millennium × (3.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity YardPerMillionYears;

@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicExameter Field
 
-A(n) dekagram per cubic exameter. Defined as: (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)) × hectogram per cubic petameter.
+dekagram per cubic exameter, defined as: hectogram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density DekagramPerCubicExameter;

@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerOctillionYears Field
 
-A(n) ronnameter per octillion years. Defined as: (1000.0)/(1000.0) × yottameter per septillion years.
+ronnameter per octillion years, defined as: yottameter per septillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity RonnameterPerOctillionYears;

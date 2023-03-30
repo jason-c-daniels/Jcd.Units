@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerQuadrillionYears Field
 
-A(n) megameter per quadrillion years. Defined as: (1000.0)/(1000.0) × kilometer per trillion years.
+megameter per quadrillion years, defined as: kilometer per trillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MegameterPerQuadrillionYears;

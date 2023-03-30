@@ -3,7 +3,7 @@
 
 ## Inductances.Picohenry Field
 
-A(n) picohenry. Defined as: 1.0/1000.0 × nanohenry.
+picohenry, defined as: nanohenry × 1.0/1000.0
 
 ```csharp
 public static readonly Inductance Picohenry;

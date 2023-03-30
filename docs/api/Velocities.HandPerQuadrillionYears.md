@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerQuadrillionYears Field
 
-A(n) hand per quadrillion years. Defined as: (4.0)/(1000.0) × inch per trillion years.
+hand per quadrillion years, defined as: inch per trillion years × (4.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity HandPerQuadrillionYears;

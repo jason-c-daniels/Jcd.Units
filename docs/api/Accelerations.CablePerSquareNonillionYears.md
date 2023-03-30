@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareNonillionYears Field
 
-A(n) cable per square nonillion years. Defined as: (100.0)/((1000.0)*(1000.0)) × fathom per square octillion years.
+cable per square nonillion years, defined as: fathom per square octillion years × (100.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration CablePerSquareNonillionYears;

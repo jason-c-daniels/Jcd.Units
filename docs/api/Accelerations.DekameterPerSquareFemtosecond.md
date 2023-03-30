@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareFemtosecond Field
 
-A(n) dekameter per square femtosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × meter per square picosecond.
+dekameter per square femtosecond, defined as: meter per square picosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareFemtosecond;

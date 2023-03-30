@@ -3,7 +3,7 @@
 
 ## Amounts.TenCount Field
 
-A(n) ten count. Defined as: 10.0 ×  count.
+ten count, defined as:  count × 10.0
 
 ```csharp
 public static readonly Amount TenCount;

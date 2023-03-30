@@ -3,7 +3,7 @@
 
 ## Volumes.FluidScruple Field
 
-A(n) fluid scruple. Defined as: 20.0 × minim.
+fluid scruple, defined as: minim × 20.0
 
 ```csharp
 public static readonly Volume FluidScruple;

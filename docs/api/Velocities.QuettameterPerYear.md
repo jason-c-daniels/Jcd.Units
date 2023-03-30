@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerYear Field
 
-A(n) quettameter per year. Defined as: (1000.0)/(365.2525) × ronnameter per day.
+quettameter per year, defined as: ronnameter per day × (1000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity QuettameterPerYear;

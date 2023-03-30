@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquarePlanckTime Field
 
-A(n) yoctometer per square planck-time. Defined as: (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)) × zeptometer per square microsecond.
+yoctometer per square planck-time, defined as: zeptometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration YoctometerPerSquarePlanckTime;

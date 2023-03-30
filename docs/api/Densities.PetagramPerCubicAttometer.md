@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicAttometer Field
 
-A(n) petagram per cubic attometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × teragram per cubic femtometer.
+petagram per cubic attometer, defined as: teragram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density PetagramPerCubicAttometer;

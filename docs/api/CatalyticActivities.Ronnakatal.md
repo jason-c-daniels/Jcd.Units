@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Ronnakatal Field
 
-A(n) ronnakatal. Defined as: 1000.0 × yottakatal.
+ronnakatal, defined as: yottakatal × 1000.0
 
 ```csharp
 public static readonly CatalyticActivity Ronnakatal;

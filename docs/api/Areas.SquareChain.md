@@ -3,7 +3,7 @@
 
 ## Areas.SquareChain Field
 
-A(n) square chain. Defined as: (22.0)*(22.0) × square yard.
+square chain, defined as: square yard × (22.0)*(22.0)
 
 ```csharp
 public static readonly Area SquareChain;

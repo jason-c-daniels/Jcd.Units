@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareCentury Field
 
-A(n) gigameter per square century. Defined as: (1000.0)/((10.0)*(10.0)) × megameter per square decade.
+gigameter per square century, defined as: megameter per square decade × (1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareCentury;

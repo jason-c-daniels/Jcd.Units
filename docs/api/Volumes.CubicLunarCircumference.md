@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLunarCircumference Field
 
-A(n) cubic lunar circumference. Defined as: (Math.PI)*(Math.PI)*(Math.PI) × cubic lunar diameter.
+cubic lunar circumference, defined as: cubic lunar diameter × (Math.PI)*(Math.PI)*(Math.PI)
 
 ```csharp
 public static readonly Volume CubicLunarCircumference;

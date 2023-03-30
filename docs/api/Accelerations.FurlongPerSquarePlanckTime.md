@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquarePlanckTime Field
 
-A(n) furlong per square planck-time. Defined as: (10.0)/((5.391247E-38)*(5.391247E-38)) × chain per square microsecond.
+furlong per square planck-time, defined as: chain per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration FurlongPerSquarePlanckTime;

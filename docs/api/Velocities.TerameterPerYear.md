@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerYear Field
 
-A(n) terameter per year. Defined as: (1000.0)/(365.2525) × gigameter per day.
+terameter per year, defined as: gigameter per day × (1000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity TerameterPerYear;

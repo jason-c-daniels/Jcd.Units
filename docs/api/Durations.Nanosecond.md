@@ -3,7 +3,7 @@
 
 ## Durations.Nanosecond Field
 
-A(n) nanosecond. Defined as: 1.0/1000.0 × microsecond.
+nanosecond, defined as: microsecond × 1.0/1000.0
 
 ```csharp
 public static readonly Duration Nanosecond;

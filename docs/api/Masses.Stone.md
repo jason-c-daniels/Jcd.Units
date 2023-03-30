@@ -3,7 +3,7 @@
 
 ## Masses.Stone Field
 
-A(n) stone. Defined as: 14.0 × pound.
+stone, defined as: pound × 14.0
 
 ```csharp
 public static readonly Mass Stone;

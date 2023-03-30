@@ -18,127 +18,127 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Resistances : UnitOfMeasureEnumeration<Resistances, Resistance>
 {
    /// <summary>
-   /// A(n) ohm.
+   /// ohm, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Resistance Ohm = new ("ohm", "Ω");
 
    /// <summary>
-   /// A(n) deciohm. Defined as: 1.0/10.0 × ohm.
+   /// deciohm, defined as: ohm × 1.0/10.0
    /// </summary>
-   public static readonly Resistance Deciohm = new ("deciohm", "dΩ", Ohm, 1.0 / 10.0, 0);
+   public static readonly Resistance Deciohm = new ("deciohm", "dΩ", Ohm, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) centiohm. Defined as: 1.0/10.0 × deciohm.
+   /// centiohm, defined as: deciohm × 1.0/10.0
    /// </summary>
-   public static readonly Resistance Centiohm = new ("centiohm", "cΩ", Deciohm, 1.0 / 10.0, 0);
+   public static readonly Resistance Centiohm = new ("centiohm", "cΩ", Deciohm, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) milliohm. Defined as: 1.0/10.0 × centiohm.
+   /// milliohm, defined as: centiohm × 1.0/10.0
    /// </summary>
-   public static readonly Resistance Milliohm = new ("milliohm", "mΩ", Centiohm, 1.0 / 10.0, 0);
+   public static readonly Resistance Milliohm = new ("milliohm", "mΩ", Centiohm, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) microohm. Defined as: 1.0/1000.0 × milliohm.
+   /// microohm, defined as: milliohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Microohm = new ("microohm", "μΩ", Milliohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Microohm = new ("microohm", "μΩ", Milliohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) nanoohm. Defined as: 1.0/1000.0 × microohm.
+   /// nanoohm, defined as: microohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Nanoohm = new ("nanoohm", "nΩ", Microohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Nanoohm = new ("nanoohm", "nΩ", Microohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) picoohm. Defined as: 1.0/1000.0 × nanoohm.
+   /// picoohm, defined as: nanoohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Picoohm = new ("picoohm", "pΩ", Nanoohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Picoohm = new ("picoohm", "pΩ", Nanoohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) femtoohm. Defined as: 1.0/1000.0 × picoohm.
+   /// femtoohm, defined as: picoohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Femtoohm = new ("femtoohm", "fΩ", Picoohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Femtoohm = new ("femtoohm", "fΩ", Picoohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) attoohm. Defined as: 1.0/1000.0 × femtoohm.
+   /// attoohm, defined as: femtoohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Attoohm = new ("attoohm", "aΩ", Femtoohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Attoohm = new ("attoohm", "aΩ", Femtoohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) zeptoohm. Defined as: 1.0/1000.0 × attoohm.
+   /// zeptoohm, defined as: attoohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Zeptoohm = new ("zeptoohm", "zΩ", Attoohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Zeptoohm = new ("zeptoohm", "zΩ", Attoohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) yoctoohm. Defined as: 1.0/1000.0 × zeptoohm.
+   /// yoctoohm, defined as: zeptoohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Yoctoohm = new ("yoctoohm", "yΩ", Zeptoohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Yoctoohm = new ("yoctoohm", "yΩ", Zeptoohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) rontoohm. Defined as: 1.0/1000.0 × yoctoohm.
+   /// rontoohm, defined as: yoctoohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Rontoohm = new ("rontoohm", "rΩ", Yoctoohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Rontoohm = new ("rontoohm", "rΩ", Yoctoohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) quectoohm. Defined as: 1.0/1000.0 × rontoohm.
+   /// quectoohm, defined as: rontoohm × 1.0/1000.0
    /// </summary>
-   public static readonly Resistance Quectoohm = new ("quectoohm", "qΩ", Rontoohm, 1.0 / 1000.0, 0);
+   public static readonly Resistance Quectoohm = new ("quectoohm", "qΩ", Rontoohm, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) dekaohm. Defined as: 10.0 × ohm.
+   /// dekaohm, defined as: ohm × 10.0
    /// </summary>
-   public static readonly Resistance Dekaohm = new ("dekaohm", "daΩ", Ohm, 10.0, 0);
+   public static readonly Resistance Dekaohm = new ("dekaohm", "daΩ", Ohm, 10.0);
 
    /// <summary>
-   /// A(n) hectoohm. Defined as: 10.0 × dekaohm.
+   /// hectoohm, defined as: dekaohm × 10.0
    /// </summary>
-   public static readonly Resistance Hectoohm = new ("hectoohm", "hΩ", Dekaohm, 10.0, 0);
+   public static readonly Resistance Hectoohm = new ("hectoohm", "hΩ", Dekaohm, 10.0);
 
    /// <summary>
-   /// A(n) kiloohm. Defined as: 10.0 × hectoohm.
+   /// kiloohm, defined as: hectoohm × 10.0
    /// </summary>
-   public static readonly Resistance Kiloohm = new ("kiloohm", "kΩ", Hectoohm, 10.0, 0);
+   public static readonly Resistance Kiloohm = new ("kiloohm", "kΩ", Hectoohm, 10.0);
 
    /// <summary>
-   /// A(n) megaohm. Defined as: 1000.0 × kiloohm.
+   /// megaohm, defined as: kiloohm × 1000.0
    /// </summary>
-   public static readonly Resistance Megaohm = new ("megaohm", "MΩ", Kiloohm, 1000.0, 0);
+   public static readonly Resistance Megaohm = new ("megaohm", "MΩ", Kiloohm, 1000.0);
 
    /// <summary>
-   /// A(n) gigaohm. Defined as: 1000.0 × megaohm.
+   /// gigaohm, defined as: megaohm × 1000.0
    /// </summary>
-   public static readonly Resistance Gigaohm = new ("gigaohm", "GΩ", Megaohm, 1000.0, 0);
+   public static readonly Resistance Gigaohm = new ("gigaohm", "GΩ", Megaohm, 1000.0);
 
    /// <summary>
-   /// A(n) teraohm. Defined as: 1000.0 × gigaohm.
+   /// teraohm, defined as: gigaohm × 1000.0
    /// </summary>
-   public static readonly Resistance Teraohm = new ("teraohm", "TΩ", Gigaohm, 1000.0, 0);
+   public static readonly Resistance Teraohm = new ("teraohm", "TΩ", Gigaohm, 1000.0);
 
    /// <summary>
-   /// A(n) petaohm. Defined as: 1000.0 × teraohm.
+   /// petaohm, defined as: teraohm × 1000.0
    /// </summary>
-   public static readonly Resistance Petaohm = new ("petaohm", "PΩ", Teraohm, 1000.0, 0);
+   public static readonly Resistance Petaohm = new ("petaohm", "PΩ", Teraohm, 1000.0);
 
    /// <summary>
-   /// A(n) exaohm. Defined as: 1000.0 × petaohm.
+   /// exaohm, defined as: petaohm × 1000.0
    /// </summary>
-   public static readonly Resistance Exaohm = new ("exaohm", "EΩ", Petaohm, 1000.0, 0);
+   public static readonly Resistance Exaohm = new ("exaohm", "EΩ", Petaohm, 1000.0);
 
    /// <summary>
-   /// A(n) zettaohm. Defined as: 1000.0 × exaohm.
+   /// zettaohm, defined as: exaohm × 1000.0
    /// </summary>
-   public static readonly Resistance Zettaohm = new ("zettaohm", "ZΩ", Exaohm, 1000.0, 0);
+   public static readonly Resistance Zettaohm = new ("zettaohm", "ZΩ", Exaohm, 1000.0);
 
    /// <summary>
-   /// A(n) yottaohm. Defined as: 1000.0 × zettaohm.
+   /// yottaohm, defined as: zettaohm × 1000.0
    /// </summary>
-   public static readonly Resistance Yottaohm = new ("yottaohm", "YΩ", Zettaohm, 1000.0, 0);
+   public static readonly Resistance Yottaohm = new ("yottaohm", "YΩ", Zettaohm, 1000.0);
 
    /// <summary>
-   /// A(n) ronnaohm. Defined as: 1000.0 × yottaohm.
+   /// ronnaohm, defined as: yottaohm × 1000.0
    /// </summary>
-   public static readonly Resistance Ronnaohm = new ("ronnaohm", "RΩ", Yottaohm, 1000.0, 0);
+   public static readonly Resistance Ronnaohm = new ("ronnaohm", "RΩ", Yottaohm, 1000.0);
 
    /// <summary>
-   /// A(n) quettaohm. Defined as: 1000.0 × ronnaohm.
+   /// quettaohm, defined as: ronnaohm × 1000.0
    /// </summary>
-   public static readonly Resistance Quettaohm = new ("quettaohm", "QΩ", Ronnaohm, 1000.0, 0);
+   public static readonly Resistance Quettaohm = new ("quettaohm", "QΩ", Ronnaohm, 1000.0);
 }

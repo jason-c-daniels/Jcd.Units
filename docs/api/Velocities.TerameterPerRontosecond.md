@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerRontosecond Field
 
-A(n) terameter per rontosecond. Defined as: (1000.0)/(1.0/1000.0) × gigameter per yoctosecond.
+terameter per rontosecond, defined as: gigameter per yoctosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity TerameterPerRontosecond;

@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicExameter Field
 
-A(n) petagram per cubic exameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × teragram per cubic petameter.
+petagram per cubic exameter, defined as: teragram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density PetagramPerCubicExameter;

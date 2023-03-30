@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicRontometer Field
 
-A(n) petagram per cubic rontometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × teragram per cubic yoctometer.
+petagram per cubic rontometer, defined as: teragram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density PetagramPerCubicRontometer;

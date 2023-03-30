@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerYear Field
 
-A(n) millimeter per year. Defined as: (1.0/10.0)/(365.2525) × centimeter per day.
+millimeter per year, defined as: centimeter per day × (1.0/10.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity MillimeterPerYear;

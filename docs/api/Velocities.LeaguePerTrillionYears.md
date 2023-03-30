@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerTrillionYears Field
 
-A(n) league per trillion years. Defined as: (3.0)/(1000.0) × mile per billion years.
+league per trillion years, defined as: mile per billion years × (3.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity LeaguePerTrillionYears;

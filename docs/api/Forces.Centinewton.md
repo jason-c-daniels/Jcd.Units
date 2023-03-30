@@ -3,7 +3,7 @@
 
 ## Forces.Centinewton Field
 
-A(n) centinewton. Defined as: 1.0/10.0 × decinewton.
+centinewton, defined as: decinewton × 1.0/10.0
 
 ```csharp
 public static readonly Force Centinewton;

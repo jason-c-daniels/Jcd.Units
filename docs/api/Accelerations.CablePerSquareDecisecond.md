@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareDecisecond Field
 
-A(n) cable per square decisecond. Defined as: (100.0)/((1.0/10.0)*(1.0/10.0)) × fathom per square second.
+cable per square decisecond, defined as: fathom per square second × (100.0)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration CablePerSquareDecisecond;

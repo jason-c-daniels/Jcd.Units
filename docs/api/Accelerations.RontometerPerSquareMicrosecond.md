@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareMicrosecond Field
 
-A(n) rontometer per square microsecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × yoctometer per square millisecond.
+rontometer per square microsecond, defined as: yoctometer per square millisecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareMicrosecond;

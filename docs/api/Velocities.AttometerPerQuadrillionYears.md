@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerQuadrillionYears Field
 
-A(n) attometer per quadrillion years. Defined as: (1.0/1000.0)/(1000.0) × femtometer per trillion years.
+attometer per quadrillion years, defined as: femtometer per trillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity AttometerPerQuadrillionYears;

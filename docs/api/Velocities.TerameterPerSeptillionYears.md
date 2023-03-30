@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerSeptillionYears Field
 
-A(n) terameter per septillion years. Defined as: (1000.0)/(1000.0) × gigameter per sextillion years.
+terameter per septillion years, defined as: gigameter per sextillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity TerameterPerSeptillionYears;

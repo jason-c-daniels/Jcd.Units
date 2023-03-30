@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerPlanckTime Field
 
-A(n) millimeter per planck-time. Defined as: (1.0/10.0)/(5.391247E-38) × centimeter per microsecond.
+millimeter per planck-time, defined as: centimeter per microsecond × (1.0/10.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity MillimeterPerPlanckTime;

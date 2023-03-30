@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicKilometer Field
 
-A(n) rontogram per cubic kilometer. Defined as: (1.0/1000.0)/((10.0)*(10.0)*(10.0)) × yoctogram per cubic hectometer.
+rontogram per cubic kilometer, defined as: yoctogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density RontogramPerCubicKilometer;

@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicHectometer Field
 
-A(n) picogram per cubic hectometer. Defined as: (1.0/1000.0)/((10.0)*(10.0)*(10.0)) × nanogram per cubic dekameter.
+picogram per cubic hectometer, defined as: nanogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density PicogramPerCubicHectometer;

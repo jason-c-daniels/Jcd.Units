@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerDecade Field
 
-A(n) zeptometer per decade. Defined as: (1.0/1000.0)/(10.0) × attometer per year.
+zeptometer per decade, defined as: attometer per year × (1.0/1000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity ZeptometerPerDecade;

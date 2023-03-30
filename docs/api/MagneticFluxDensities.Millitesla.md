@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Millitesla Field
 
-A(n) millitesla. Defined as: 1.0/10.0 × centitesla.
+millitesla, defined as: centitesla × 1.0/10.0
 
 ```csharp
 public static readonly MagneticFluxDensity Millitesla;

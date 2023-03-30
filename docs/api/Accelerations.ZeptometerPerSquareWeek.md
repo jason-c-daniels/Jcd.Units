@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareWeek Field
 
-A(n) zeptometer per square week. Defined as: (1.0/1000.0)/((7.0)*(7.0)) × attometer per square day.
+zeptometer per square week, defined as: attometer per square day × (1.0/1000.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquareWeek;

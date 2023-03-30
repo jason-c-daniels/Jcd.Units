@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Exacandela Field
 
-A(n) exacandela. Defined as: 1000.0 × petacandela.
+exacandela, defined as: petacandela × 1000.0
 
 ```csharp
 public static readonly LuminousIntensity Exacandela;

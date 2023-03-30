@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerMillennium Field
 
-A(n) chain per millennium. Defined as: (22.0)/(10.0) × yard per century.
+chain per millennium, defined as: yard per century × (22.0)/(10.0)
 
 ```csharp
 public static readonly Velocity ChainPerMillennium;

@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareYoctosecond Field
 
-A(n) dekameter per square yoctosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × meter per square zeptosecond.
+dekameter per square yoctosecond, defined as: meter per square zeptosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareYoctosecond;

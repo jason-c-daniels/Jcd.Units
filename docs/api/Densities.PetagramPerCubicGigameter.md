@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicGigameter Field
 
-A(n) petagram per cubic gigameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × teragram per cubic megameter.
+petagram per cubic gigameter, defined as: teragram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density PetagramPerCubicGigameter;

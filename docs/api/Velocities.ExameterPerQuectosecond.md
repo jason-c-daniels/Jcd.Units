@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerQuectosecond Field
 
-A(n) exameter per quectosecond. Defined as: (1000.0)/(1.0/1000.0) × petameter per rontosecond.
+exameter per quectosecond, defined as: petameter per rontosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ExameterPerQuectosecond;

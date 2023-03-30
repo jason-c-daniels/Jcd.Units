@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerYear Field
 
-A(n) league per year. Defined as: (3.0)/(365.2525) × mile per day.
+league per year, defined as: mile per day × (3.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity LeaguePerYear;

@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerHour Field
 
-A(n) link per hour. Defined as: (0.20116)/(60.0) × SI meter per minute.
+link per hour, defined as: SI meter per minute × (0.20116)/(60.0)
 
 ```csharp
 public static readonly Velocity LinkPerHour;

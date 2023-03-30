@@ -3,7 +3,7 @@
 
 ## StorageUnits.Teranybble Field
 
-A(n) teranybble. Defined as: 1000.0 × giganybble.
+teranybble, defined as: giganybble × 1000.0
 
 ```csharp
 public static readonly Storage Teranybble;

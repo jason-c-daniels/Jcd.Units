@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareSecond Field
 
-A(n) meter per square second.
+meter per square second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
 
 ```csharp
 public static readonly Acceleration MeterPerSquareSecond;

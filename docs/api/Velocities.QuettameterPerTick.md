@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerTick Field
 
-A(n) quettameter per tick. Defined as: (1000.0)/(100.0) × ronnameter per nanosecond.
+quettameter per tick, defined as: ronnameter per nanosecond × (1000.0)/(100.0)
 
 ```csharp
 public static readonly Velocity QuettameterPerTick;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Picogray Field
 
-A(n) picogray. Defined as: 1.0/1000.0 × nanogray.
+picogray, defined as: nanogray × 1.0/1000.0
 
 ```csharp
 public static readonly RadiationAbsorbedDose Picogray;

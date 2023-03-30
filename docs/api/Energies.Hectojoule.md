@@ -3,7 +3,7 @@
 
 ## Energies.Hectojoule Field
 
-A(n) hectojoule. Defined as: 10.0 × dekajoule.
+hectojoule, defined as: dekajoule × 10.0
 
 ```csharp
 public static readonly Energy Hectojoule;

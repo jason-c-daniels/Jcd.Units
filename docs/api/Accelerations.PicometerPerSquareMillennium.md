@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareMillennium Field
 
-A(n) picometer per square millennium. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × nanometer per square century.
+picometer per square millennium, defined as: nanometer per square century × (1.0/1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareMillennium;

@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerYear Field
 
-A(n) kilometer per year. Defined as: (10.0)/(365.2525) × hectometer per day.
+kilometer per year, defined as: hectometer per day × (10.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity KilometerPerYear;

@@ -18,47 +18,47 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
 {
    /// <summary>
-   /// A(n) grain. Defined as: 64.79891 × SI milligram.
+   /// grain, defined as: SI milligram × 64.79891
    /// </summary>
-   public static readonly Mass Grain = new ("grain", "gr", SI.Masses.Milligram, 64.79891, 0);
+   public static readonly Mass Grain = new ("grain", "gr", SI.Masses.Milligram, 64.79891);
 
    /// <summary>
-   /// A(n) dram. Defined as: 27.34375 × grain.
+   /// dram, defined as: grain × 27.34375
    /// </summary>
-   public static readonly Mass Dram = new ("dram", "dr", Grain, 27.34375, 0);
+   public static readonly Mass Dram = new ("dram", "dr", Grain, 27.34375);
 
    /// <summary>
-   /// A(n) ounce. Defined as: 16.0 × dram.
+   /// ounce, defined as: dram × 16.0
    /// </summary>
-   public static readonly Mass Ounce = new ("ounce", "oz", Dram, 16.0, 0);
+   public static readonly Mass Ounce = new ("ounce", "oz", Dram, 16.0);
 
    /// <summary>
-   /// A(n) pound. Defined as: 16.0 × ounce.
+   /// pound, defined as: ounce × 16.0
    /// </summary>
-   public static readonly Mass Pound = new ("pound", "lb", Ounce, 16.0, 0);
+   public static readonly Mass Pound = new ("pound", "lb", Ounce, 16.0);
 
    /// <summary>
-   /// A(n) hundredweight. Defined as: 100.0 × pound.
+   /// hundredweight, defined as: pound × 100.0
    /// </summary>
-   public static readonly Mass Hundredweight = new ("hundredweight", "cwt", Pound, 100.0, 0);
+   public static readonly Mass Hundredweight = new ("hundredweight", "cwt", Pound, 100.0);
 
    /// <summary>
-   /// A(n) long hundredweight. Defined as: 112.0 × pound.
+   /// long hundredweight, defined as: pound × 112.0
    /// </summary>
-   public static readonly Mass LongHundredweight = new ("long hundredweight", "long cwt", Pound, 112.0, 0);
+   public static readonly Mass LongHundredweight = new ("long hundredweight", "long cwt", Pound, 112.0);
 
    /// <summary>
-   /// A(n) short ton. Defined as: 20.0 × hundredweight.
+   /// short ton, defined as: hundredweight × 20.0
    /// </summary>
-   public static readonly Mass ShortTon = new ("short ton", "short ton", Hundredweight, 20.0, 0);
+   public static readonly Mass ShortTon = new ("short ton", "short ton", Hundredweight, 20.0);
 
    /// <summary>
-   /// A(n) ton. Defined as: 1 × short ton.
+   /// ton, a synonym for short ton
    /// </summary>
-   public static readonly Mass Ton = new ("ton", "t", ShortTon, 1, 0);
+   public static readonly Mass Ton = new ("ton", "t", ShortTon);
 
    /// <summary>
-   /// A(n) long ton. Defined as: 20.0 × long hundredweight.
+   /// long ton, defined as: long hundredweight × 20.0
    /// </summary>
-   public static readonly Mass LongTon = new ("long ton", "long ton", LongHundredweight, 20.0, 0);
+   public static readonly Mass LongTon = new ("long ton", "long ton", LongHundredweight, 20.0);
 }

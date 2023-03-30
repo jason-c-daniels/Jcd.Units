@@ -1,5 +1,5 @@
 ﻿
    /// <summary>
-   /// A(n) $Unit.Name$.
+   /// $Unit.Name$, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$");

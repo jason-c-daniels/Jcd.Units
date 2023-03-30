@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerZeptosecond Field
 
-A(n) exameter per zeptosecond. Defined as: (1000.0)/(1.0/1000.0) × petameter per attosecond.
+exameter per zeptosecond, defined as: petameter per attosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ExameterPerZeptosecond;

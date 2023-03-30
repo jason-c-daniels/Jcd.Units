@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Hectolumen Field
 
-A(n) hectolumen. Defined as: 10.0 × dekalumen.
+hectolumen, defined as: dekalumen × 10.0
 
 ```csharp
 public static readonly LuminousFlux Hectolumen;

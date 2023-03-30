@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerWeek Field
 
-A(n) mile per week. Defined as: (8.0)/(7.0) × furlong per day.
+mile per week, defined as: furlong per day × (8.0)/(7.0)
 
 ```csharp
 public static readonly Velocity MilePerWeek;

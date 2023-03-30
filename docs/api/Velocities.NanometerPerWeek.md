@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerWeek Field
 
-A(n) nanometer per week. Defined as: (1.0/1000.0)/(7.0) × micrometer per day.
+nanometer per week, defined as: micrometer per day × (1.0/1000.0)/(7.0)
 
 ```csharp
 public static readonly Velocity NanometerPerWeek;

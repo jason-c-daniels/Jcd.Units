@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerOctillionYears Field
 
-A(n) zeptometer per octillion years. Defined as: (1.0/1000.0)/(1000.0) × attometer per septillion years.
+zeptometer per octillion years, defined as: attometer per septillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity ZeptometerPerOctillionYears;

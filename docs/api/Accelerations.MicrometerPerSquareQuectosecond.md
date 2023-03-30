@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareQuectosecond Field
 
-A(n) micrometer per square quectosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × millimeter per square rontosecond.
+micrometer per square quectosecond, defined as: millimeter per square rontosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareQuectosecond;

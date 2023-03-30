@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareQuadrillionYears Field
 
-A(n) chain per square quadrillion years. Defined as: (22.0)/((1000.0)*(1000.0)) × yard per square trillion years.
+chain per square quadrillion years, defined as: yard per square trillion years × (22.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration ChainPerSquareQuadrillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerAttosecond Field
 
-A(n) rod per attosecond. Defined as: (5.0292)/(1.0/1000.0) × SI meter per femtosecond.
+rod per attosecond, defined as: SI meter per femtosecond × (5.0292)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity RodPerAttosecond;

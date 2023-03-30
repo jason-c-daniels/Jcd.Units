@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareRontosecond Field
 
-A(n) yard per square rontosecond. Defined as: (3.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square yoctosecond.
+yard per square rontosecond, defined as: foot per square yoctosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration YardPerSquareRontosecond;

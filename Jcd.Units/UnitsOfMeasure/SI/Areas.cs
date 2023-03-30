@@ -18,217 +18,187 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
-   /// A(n) square meter.
+   /// square meter, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Area SquareMeter = new ("square meter", "m²");
 
    /// <summary>
-   /// A(n) square decimeter. Defined as: (1.0/10.0)*(1.0/10.0) × square meter.
+   /// square decimeter, defined as: square meter × (1.0/10.0)*(1.0/10.0)
    /// </summary>
    public static readonly Area SquareDecimeter = new (
                                                       "square decimeter"
                                                     , "dm²"
                                                     , SquareMeter
                                                     , 1.0 / 10.0 * (1.0 / 10.0)
-                                                    , 0
                                                      );
 
    /// <summary>
-   /// A(n) square centimeter. Defined as: (1.0/10.0)*(1.0/10.0) × square decimeter.
+   /// square centimeter, defined as: square decimeter × (1.0/10.0)*(1.0/10.0)
    /// </summary>
    public static readonly Area SquareCentimeter = new (
                                                        "square centimeter"
                                                      , "cm²"
                                                      , SquareDecimeter
                                                      , 1.0 / 10.0 * (1.0 / 10.0)
-                                                     , 0
                                                       );
 
    /// <summary>
-   /// A(n) square millimeter. Defined as: (1.0/10.0)*(1.0/10.0) × square centimeter.
+   /// square millimeter, defined as: square centimeter × (1.0/10.0)*(1.0/10.0)
    /// </summary>
    public static readonly Area SquareMillimeter = new (
                                                        "square millimeter"
                                                      , "mm²"
                                                      , SquareCentimeter
                                                      , 1.0 / 10.0 * (1.0 / 10.0)
-                                                     , 0
                                                       );
 
    /// <summary>
-   /// A(n) square micrometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square millimeter.
+   /// square micrometer, defined as: square millimeter × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquareMicrometer = new (
                                                        "square micrometer"
                                                      , "μm²"
                                                      , SquareMillimeter
                                                      , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                     , 0
                                                       );
 
    /// <summary>
-   /// A(n) square nanometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square micrometer.
+   /// square nanometer, defined as: square micrometer × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquareNanometer = new (
                                                       "square nanometer"
                                                     , "nm²"
                                                     , SquareMicrometer
                                                     , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                    , 0
                                                      );
 
    /// <summary>
-   /// A(n) square picometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square nanometer.
+   /// square picometer, defined as: square nanometer × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquarePicometer = new (
                                                       "square picometer"
                                                     , "pm²"
                                                     , SquareNanometer
                                                     , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                    , 0
                                                      );
 
    /// <summary>
-   /// A(n) square femtometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square picometer.
+   /// square femtometer, defined as: square picometer × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquareFemtometer = new (
                                                        "square femtometer"
                                                      , "fm²"
                                                      , SquarePicometer
                                                      , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                     , 0
                                                       );
 
    /// <summary>
-   /// A(n) square attometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square femtometer.
+   /// square attometer, defined as: square femtometer × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquareAttometer = new (
                                                       "square attometer"
                                                     , "am²"
                                                     , SquareFemtometer
                                                     , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                    , 0
                                                      );
 
    /// <summary>
-   /// A(n) square zeptometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square attometer.
+   /// square zeptometer, defined as: square attometer × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquareZeptometer = new (
                                                        "square zeptometer"
                                                      , "zm²"
                                                      , SquareAttometer
                                                      , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                     , 0
                                                       );
 
    /// <summary>
-   /// A(n) square yoctometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square zeptometer.
+   /// square yoctometer, defined as: square zeptometer × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquareYoctometer = new (
                                                        "square yoctometer"
                                                      , "ym²"
                                                      , SquareZeptometer
                                                      , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                     , 0
                                                       );
 
    /// <summary>
-   /// A(n) square rontometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square yoctometer.
+   /// square rontometer, defined as: square yoctometer × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquareRontometer = new (
                                                        "square rontometer"
                                                      , "rm²"
                                                      , SquareYoctometer
                                                      , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                     , 0
                                                       );
 
    /// <summary>
-   /// A(n) square quectometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square rontometer.
+   /// square quectometer, defined as: square rontometer × (1.0/1000.0)*(1.0/1000.0)
    /// </summary>
    public static readonly Area SquareQuectometer = new (
                                                         "square quectometer"
                                                       , "qm²"
                                                       , SquareRontometer
                                                       , 1.0 / 1000.0 * (1.0 / 1000.0)
-                                                      , 0
                                                        );
 
    /// <summary>
-   /// A(n) square dekameter. Defined as: (10.0)*(10.0) × square meter.
+   /// square dekameter, defined as: square meter × (10.0)*(10.0)
    /// </summary>
-   public static readonly Area SquareDekameter = new ("square dekameter", "dam²", SquareMeter, 10.0 * 10.0, 0);
+   public static readonly Area SquareDekameter = new ("square dekameter", "dam²", SquareMeter, 10.0 * 10.0);
 
    /// <summary>
-   /// A(n) square hectometer. Defined as: (10.0)*(10.0) × square dekameter.
+   /// square hectometer, defined as: square dekameter × (10.0)*(10.0)
    /// </summary>
-   public static readonly Area SquareHectometer = new ("square hectometer", "hm²", SquareDekameter, 10.0 * 10.0, 0);
+   public static readonly Area SquareHectometer = new ("square hectometer", "hm²", SquareDekameter, 10.0 * 10.0);
 
    /// <summary>
-   /// A(n) square kilometer. Defined as: (10.0)*(10.0) × square hectometer.
+   /// square kilometer, defined as: square hectometer × (10.0)*(10.0)
    /// </summary>
-   public static readonly Area SquareKilometer = new ("square kilometer", "km²", SquareHectometer, 10.0 * 10.0, 0);
+   public static readonly Area SquareKilometer = new ("square kilometer", "km²", SquareHectometer, 10.0 * 10.0);
 
    /// <summary>
-   /// A(n) square megameter. Defined as: (1000.0)*(1000.0) × square kilometer.
+   /// square megameter, defined as: square kilometer × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareMegameter = new ("square megameter", "Mm²", SquareKilometer, 1000.0 * 1000.0, 0);
+   public static readonly Area SquareMegameter = new ("square megameter", "Mm²", SquareKilometer, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square gigameter. Defined as: (1000.0)*(1000.0) × square megameter.
+   /// square gigameter, defined as: square megameter × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareGigameter = new ("square gigameter", "Gm²", SquareMegameter, 1000.0 * 1000.0, 0);
+   public static readonly Area SquareGigameter = new ("square gigameter", "Gm²", SquareMegameter, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square terameter. Defined as: (1000.0)*(1000.0) × square gigameter.
+   /// square terameter, defined as: square gigameter × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareTerameter = new ("square terameter", "Tm²", SquareGigameter, 1000.0 * 1000.0, 0);
+   public static readonly Area SquareTerameter = new ("square terameter", "Tm²", SquareGigameter, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square petameter. Defined as: (1000.0)*(1000.0) × square terameter.
+   /// square petameter, defined as: square terameter × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquarePetameter = new ("square petameter", "Pm²", SquareTerameter, 1000.0 * 1000.0, 0);
+   public static readonly Area SquarePetameter = new ("square petameter", "Pm²", SquareTerameter, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square exameter. Defined as: (1000.0)*(1000.0) × square petameter.
+   /// square exameter, defined as: square petameter × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareExameter = new ("square exameter", "Em²", SquarePetameter, 1000.0 * 1000.0, 0);
+   public static readonly Area SquareExameter = new ("square exameter", "Em²", SquarePetameter, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square zettameter. Defined as: (1000.0)*(1000.0) × square exameter.
+   /// square zettameter, defined as: square exameter × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareZettameter = new ("square zettameter", "Zm²", SquareExameter, 1000.0 * 1000.0, 0);
+   public static readonly Area SquareZettameter = new ("square zettameter", "Zm²", SquareExameter, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square yottameter. Defined as: (1000.0)*(1000.0) × square zettameter.
+   /// square yottameter, defined as: square zettameter × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareYottameter = new (
-                                                       "square yottameter"
-                                                     , "Ym²"
-                                                     , SquareZettameter
-                                                     , 1000.0 * 1000.0
-                                                     , 0
-                                                      );
+   public static readonly Area SquareYottameter = new ("square yottameter", "Ym²", SquareZettameter, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square ronnameter. Defined as: (1000.0)*(1000.0) × square yottameter.
+   /// square ronnameter, defined as: square yottameter × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareRonnameter = new (
-                                                       "square ronnameter"
-                                                     , "Rm²"
-                                                     , SquareYottameter
-                                                     , 1000.0 * 1000.0
-                                                     , 0
-                                                      );
+   public static readonly Area SquareRonnameter = new ("square ronnameter", "Rm²", SquareYottameter, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square quettameter. Defined as: (1000.0)*(1000.0) × square ronnameter.
+   /// square quettameter, defined as: square ronnameter × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareQuettameter = new (
-                                                        "square quettameter"
-                                                      , "Qm²"
-                                                      , SquareRonnameter
-                                                      , 1000.0 * 1000.0
-                                                      , 0
-                                                       );
+   public static readonly Area SquareQuettameter = new ("square quettameter", "Qm²", SquareRonnameter, 1000.0 * 1000.0);
 }

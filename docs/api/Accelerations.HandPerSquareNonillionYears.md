@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareNonillionYears Field
 
-A(n) hand per square nonillion years. Defined as: (4.0)/((1000.0)*(1000.0)) × inch per square octillion years.
+hand per square nonillion years, defined as: inch per square octillion years × (4.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration HandPerSquareNonillionYears;

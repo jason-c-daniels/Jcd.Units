@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicPicometer Field
 
-A(n) metric ton per cubic picometer. Defined as: (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × megagram per cubic nanometer.
+metric ton per cubic picometer, defined as: megagram per cubic nanometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density MetricTonPerCubicPicometer;

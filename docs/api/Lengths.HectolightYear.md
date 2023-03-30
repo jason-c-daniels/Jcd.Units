@@ -3,7 +3,7 @@
 
 ## Lengths.HectolightYear Field
 
-A(n) hectolight-year. Defined as: 10.0 × dekalight-year.
+hectolight-year, defined as: dekalight-year × 10.0
 
 ```csharp
 public static readonly Length HectolightYear;

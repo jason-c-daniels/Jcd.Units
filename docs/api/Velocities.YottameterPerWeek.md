@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerWeek Field
 
-A(n) yottameter per week. Defined as: (1000.0)/(7.0) × zettameter per day.
+yottameter per week, defined as: zettameter per day × (1000.0)/(7.0)
 
 ```csharp
 public static readonly Velocity YottameterPerWeek;

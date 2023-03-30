@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Gigaampere Field
 
-A(n) gigaampere. Defined as: 1000.0 × megaampere.
+gigaampere, defined as: megaampere × 1000.0
 
 ```csharp
 public static readonly ElectricalCurrent Gigaampere;

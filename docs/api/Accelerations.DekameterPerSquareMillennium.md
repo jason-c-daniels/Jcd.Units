@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareMillennium Field
 
-A(n) dekameter per square millennium. Defined as: (10.0)/((10.0)*(10.0)) × meter per square century.
+dekameter per square millennium, defined as: meter per square century × (10.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareMillennium;

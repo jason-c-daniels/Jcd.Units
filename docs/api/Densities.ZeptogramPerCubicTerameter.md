@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicTerameter Field
 
-A(n) zeptogram per cubic terameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × attogram per cubic gigameter.
+zeptogram per cubic terameter, defined as: attogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density ZeptogramPerCubicTerameter;

@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareDecade Field
 
-A(n) quettameter per square decade. Defined as: (1000.0)/((10.0)*(10.0)) × ronnameter per square year.
+quettameter per square decade, defined as: ronnameter per square year × (1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareDecade;

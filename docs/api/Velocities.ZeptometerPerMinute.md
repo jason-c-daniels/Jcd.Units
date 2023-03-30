@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerMinute Field
 
-A(n) zeptometer per minute. Defined as: (1.0/1000.0)/(60.0) × attometer per second.
+zeptometer per minute, defined as: attometer per second × (1.0/1000.0)/(60.0)
 
 ```csharp
 public static readonly Velocity ZeptometerPerMinute;

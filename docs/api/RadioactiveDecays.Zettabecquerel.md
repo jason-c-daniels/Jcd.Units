@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Zettabecquerel Field
 
-A(n) zettabecquerel. Defined as: 1000.0 × exabecquerel.
+zettabecquerel, defined as: exabecquerel × 1000.0
 
 ```csharp
 public static readonly RadioactiveDecay Zettabecquerel;

@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareTick Field
 
-A(n) barleycorn per square tick. Defined as: (1.0/36.0)/((100.0)*(100.0)) × foot per square nanosecond.
+barleycorn per square tick, defined as: foot per square nanosecond × (1.0/36.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareTick;

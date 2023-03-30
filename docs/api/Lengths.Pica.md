@@ -3,7 +3,7 @@
 
 ## Lengths.Pica Field
 
-A(n) pica. Defined as: 12.0 × point.
+pica, defined as: point × 12.0
 
 ```csharp
 public static readonly Length Pica;

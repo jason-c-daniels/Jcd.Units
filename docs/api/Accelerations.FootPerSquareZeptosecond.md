@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareZeptosecond Field
 
-A(n) foot per square zeptosecond. Defined as: (12)/((1.0/1000.0)*(1.0/1000.0)) × inch per square attosecond.
+foot per square zeptosecond, defined as: inch per square attosecond × (12)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration FootPerSquareZeptosecond;

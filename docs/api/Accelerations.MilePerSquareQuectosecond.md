@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareQuectosecond Field
 
-A(n) mile per square quectosecond. Defined as: (8.0)/((1.0/1000.0)*(1.0/1000.0)) × furlong per square rontosecond.
+mile per square quectosecond, defined as: furlong per square rontosecond × (8.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MilePerSquareQuectosecond;

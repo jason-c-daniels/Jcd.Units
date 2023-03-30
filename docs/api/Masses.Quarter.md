@@ -3,7 +3,7 @@
 
 ## Masses.Quarter Field
 
-A(n) quarter. Defined as: 2.0 × stone.
+quarter, defined as: stone × 2.0
 
 ```csharp
 public static readonly Mass Quarter;

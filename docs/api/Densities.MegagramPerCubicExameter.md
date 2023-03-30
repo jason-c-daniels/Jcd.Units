@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicExameter Field
 
-A(n) megagram per cubic exameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic petameter.
+megagram per cubic exameter, defined as: kilogram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density MegagramPerCubicExameter;

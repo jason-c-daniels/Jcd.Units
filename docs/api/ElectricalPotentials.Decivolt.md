@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Decivolt Field
 
-A(n) decivolt. Defined as: 1.0/10.0 × volt.
+decivolt, defined as: volt × 1.0/10.0
 
 ```csharp
 public static readonly ElectricalPotential Decivolt;

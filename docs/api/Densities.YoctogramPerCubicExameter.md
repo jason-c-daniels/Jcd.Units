@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicExameter Field
 
-A(n) yoctogram per cubic exameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × zeptogram per cubic petameter.
+yoctogram per cubic exameter, defined as: zeptogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density YoctogramPerCubicExameter;

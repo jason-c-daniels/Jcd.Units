@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicKilometer Field
 
-A(n) attogram per cubic kilometer. Defined as: (1.0/1000.0)/((10.0)*(10.0)*(10.0)) × femtogram per cubic hectometer.
+attogram per cubic kilometer, defined as: femtogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density AttogramPerCubicKilometer;

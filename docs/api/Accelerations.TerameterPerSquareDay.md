@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareDay Field
 
-A(n) terameter per square day. Defined as: (1000.0)/((24.0)*(24.0)) × gigameter per square hour.
+terameter per square day, defined as: gigameter per square hour × (1000.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareDay;

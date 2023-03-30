@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Yottaampere Field
 
-A(n) yottaampere. Defined as: 1000.0 × zettaampere.
+yottaampere, defined as: zettaampere × 1000.0
 
 ```csharp
 public static readonly ElectricalCurrent Yottaampere;

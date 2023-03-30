@@ -3,7 +3,7 @@
 
 ## StorageUnits.Exabit Field
 
-A(n) exabit. Defined as: 1000.0 × petabit.
+exabit, defined as: petabit × 1000.0
 
 ```csharp
 public static readonly Storage Exabit;

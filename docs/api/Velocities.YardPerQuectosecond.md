@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerQuectosecond Field
 
-A(n) yard per quectosecond. Defined as: (3.0)/(1.0/1000.0) × foot per rontosecond.
+yard per quectosecond, defined as: foot per rontosecond × (3.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity YardPerQuectosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareQuectosecond Field
 
-A(n) thou per square quectosecond. Defined as: (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square rontosecond.
+thou per square quectosecond, defined as: foot per square rontosecond × (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareQuectosecond;

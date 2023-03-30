@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareTick Field
 
-A(n) rontometer per square tick. Defined as: (1.0/1000.0)/((100.0)*(100.0)) × yoctometer per square nanosecond.
+rontometer per square tick, defined as: yoctometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareTick;

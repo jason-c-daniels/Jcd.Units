@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerYear Field
 
-A(n) nanometer per year. Defined as: (1.0/1000.0)/(365.2525) × micrometer per day.
+nanometer per year, defined as: micrometer per day × (1.0/1000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity NanometerPerYear;

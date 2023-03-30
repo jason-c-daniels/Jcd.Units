@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Zeptoampere Field
 
-A(n) zeptoampere. Defined as: 1.0/1000.0 × attoampere.
+zeptoampere, defined as: attoampere × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalCurrent Zeptoampere;

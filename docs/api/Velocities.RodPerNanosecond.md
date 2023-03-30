@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerNanosecond Field
 
-A(n) rod per nanosecond. Defined as: (5.0292)/(1.0/1000.0) × SI meter per microsecond.
+rod per nanosecond, defined as: SI meter per microsecond × (5.0292)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity RodPerNanosecond;

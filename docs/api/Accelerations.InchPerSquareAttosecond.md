@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareAttosecond Field
 
-A(n) inch per square attosecond. Defined as: (2.54)/((1.0/1000.0)*(1.0/1000.0)) × SI centimeter per square femtosecond.
+inch per square attosecond, defined as: SI centimeter per square femtosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration InchPerSquareAttosecond;

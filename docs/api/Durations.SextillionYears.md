@@ -3,7 +3,7 @@
 
 ## Durations.SextillionYears Field
 
-A(n) sextillion years. Defined as: 1000.0 × quintillion years.
+sextillion years, defined as: quintillion years × 1000.0
 
 ```csharp
 public static readonly Duration SextillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareTick Field
 
-A(n) centimeter per square tick. Defined as: (1.0/10.0)/((100.0)*(100.0)) × decimeter per square nanosecond.
+centimeter per square tick, defined as: decimeter per square nanosecond × (1.0/10.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareTick;

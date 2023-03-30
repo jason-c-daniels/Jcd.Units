@@ -3,7 +3,7 @@
 
 ## Resistances.Centiohm Field
 
-A(n) centiohm. Defined as: 1.0/10.0 × deciohm.
+centiohm, defined as: deciohm × 1.0/10.0
 
 ```csharp
 public static readonly Resistance Centiohm;

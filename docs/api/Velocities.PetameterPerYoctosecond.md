@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerYoctosecond Field
 
-A(n) petameter per yoctosecond. Defined as: (1000.0)/(1.0/1000.0) × terameter per zeptosecond.
+petameter per yoctosecond, defined as: terameter per zeptosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity PetameterPerYoctosecond;

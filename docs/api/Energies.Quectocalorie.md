@@ -3,7 +3,7 @@
 
 ## Energies.Quectocalorie Field
 
-A(n) quectocalorie. Defined as: 1.0/1000.0 × rontocalorie.
+quectocalorie, defined as: rontocalorie × 1.0/1000.0
 
 ```csharp
 public static readonly Energy Quectocalorie;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareQuectosecond Field
 
-A(n) chain per square quectosecond. Defined as: (22.0)/((1.0/1000.0)*(1.0/1000.0)) × yard per square rontosecond.
+chain per square quectosecond, defined as: yard per square rontosecond × (22.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ChainPerSquareQuectosecond;

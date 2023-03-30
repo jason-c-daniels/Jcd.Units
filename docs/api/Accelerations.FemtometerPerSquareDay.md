@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareDay Field
 
-A(n) femtometer per square day. Defined as: (1.0/1000.0)/((24.0)*(24.0)) × picometer per square hour.
+femtometer per square day, defined as: picometer per square hour × (1.0/1000.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquareDay;

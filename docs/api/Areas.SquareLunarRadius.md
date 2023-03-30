@@ -3,7 +3,7 @@
 
 ## Areas.SquareLunarRadius Field
 
-A(n) square lunar radius. Defined as: (1_737.4)*(1_737.4) × SI square kilometer.
+square lunar radius, defined as: SI square kilometer × (1_737.4)*(1_737.4)
 
 ```csharp
 public static readonly Area SquareLunarRadius;

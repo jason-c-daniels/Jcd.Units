@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Yottagray Field
 
-A(n) yottagray. Defined as: 1000.0 × zettagray.
+yottagray, defined as: zettagray × 1000.0
 
 ```csharp
 public static readonly RadiationAbsorbedDose Yottagray;

@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareOctillionYears Field
 
-A(n) league per square octillion years. Defined as: (3.0)/((1000.0)*(1000.0)) × mile per square septillion years.
+league per square octillion years, defined as: mile per square septillion years × (3.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareOctillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerTick Field
 
-A(n) cable per tick. Defined as: (100.0)/(100.0) × fathom per nanosecond.
+cable per tick, defined as: fathom per nanosecond × (100.0)/(100.0)
 
 ```csharp
 public static readonly Velocity CablePerTick;

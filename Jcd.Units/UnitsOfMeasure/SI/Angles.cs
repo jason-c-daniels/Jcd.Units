@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Angles : UnitOfMeasureEnumeration<Angles, Angle>
 {
    /// <summary>
-   /// A(n) radian.
+   /// radian, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Angle Radian = new ("radian", "rad");
 }

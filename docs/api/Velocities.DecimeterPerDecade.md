@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerDecade Field
 
-A(n) decimeter per decade. Defined as: (1.0/10.0)/(10.0) × meter per year.
+decimeter per decade, defined as: meter per year × (1.0/10.0)/(10.0)
 
 ```csharp
 public static readonly Velocity DecimeterPerDecade;

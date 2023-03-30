@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Hectovolt Field
 
-A(n) hectovolt. Defined as: 10.0 × dekavolt.
+hectovolt, defined as: dekavolt × 10.0
 
 ```csharp
 public static readonly ElectricalPotential Hectovolt;

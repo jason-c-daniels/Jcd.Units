@@ -3,7 +3,7 @@
 
 ## Lengths.EarthRadius Field
 
-A(n) earth radius. Defined as: 6_371.0 × SI kilometer.
+earth radius, defined as: SI kilometer × 6_371.0
 
 ```csharp
 public static readonly Length EarthRadius;

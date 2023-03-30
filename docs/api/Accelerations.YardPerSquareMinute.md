@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareMinute Field
 
-A(n) yard per square minute. Defined as: (3.0)/((60.0)*(60.0)) × foot per square second.
+yard per square minute, defined as: foot per square second × (3.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration YardPerSquareMinute;

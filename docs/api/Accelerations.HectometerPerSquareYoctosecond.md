@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareYoctosecond Field
 
-A(n) hectometer per square yoctosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × dekameter per square zeptosecond.
+hectometer per square yoctosecond, defined as: dekameter per square zeptosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareYoctosecond;

@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicMicrometer Field
 
-A(n) nanogram per cubic micrometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × microgram per cubic millimeter.
+nanogram per cubic micrometer, defined as: microgram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density NanogramPerCubicMicrometer;

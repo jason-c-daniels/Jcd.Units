@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareHour Field
 
-A(n) femtometer per square hour. Defined as: (1.0/1000.0)/((60.0)*(60.0)) × picometer per square minute.
+femtometer per square hour, defined as: picometer per square minute × (1.0/1000.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquareHour;

@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerMillennium Field
 
-A(n) link per millennium. Defined as: (0.20116)/(10.0) × SI meter per century.
+link per millennium, defined as: SI meter per century × (0.20116)/(10.0)
 
 ```csharp
 public static readonly Velocity LinkPerMillennium;

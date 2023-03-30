@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareWeek Field
 
-A(n) micrometer per square week. Defined as: (1.0/1000.0)/((7.0)*(7.0)) × millimeter per square day.
+micrometer per square week, defined as: millimeter per square day × (1.0/1000.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareWeek;

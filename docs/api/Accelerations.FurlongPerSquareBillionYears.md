@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareBillionYears Field
 
-A(n) furlong per square billion years. Defined as: (10.0)/((1000.0)*(1000.0)) × chain per square million years.
+furlong per square billion years, defined as: chain per square million years × (10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareBillionYears;

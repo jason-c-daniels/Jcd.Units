@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicMegameter Field
 
-A(n) megagram per cubic megameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × kilogram per cubic kilometer.
+megagram per cubic megameter, defined as: kilogram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density MegagramPerCubicMegameter;

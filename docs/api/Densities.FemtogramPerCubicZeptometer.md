@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicZeptometer Field
 
-A(n) femtogram per cubic zeptometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × picogram per cubic attometer.
+femtogram per cubic zeptometer, defined as: picogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density FemtogramPerCubicZeptometer;

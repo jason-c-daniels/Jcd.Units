@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerQuadrillionYears Field
 
-A(n) micrometer per quadrillion years. Defined as: (1.0/1000.0)/(1000.0) × millimeter per trillion years.
+micrometer per quadrillion years, defined as: millimeter per trillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MicrometerPerQuadrillionYears;

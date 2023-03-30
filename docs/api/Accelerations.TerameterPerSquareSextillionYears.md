@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareSextillionYears Field
 
-A(n) terameter per square sextillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × gigameter per square quintillion years.
+terameter per square sextillion years, defined as: gigameter per square quintillion years × (1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareSextillionYears;

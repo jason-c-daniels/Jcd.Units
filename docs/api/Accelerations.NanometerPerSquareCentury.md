@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareCentury Field
 
-A(n) nanometer per square century. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × micrometer per square decade.
+nanometer per square century, defined as: micrometer per square decade × (1.0/1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareCentury;

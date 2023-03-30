@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareAttosecond Field
 
-A(n) yard per square attosecond. Defined as: (3.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square femtosecond.
+yard per square attosecond, defined as: foot per square femtosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration YardPerSquareAttosecond;

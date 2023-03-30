@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerZeptosecond Field
 
-A(n) meter per zeptosecond. Defined as: (1.0)/(1.0/1000.0) × meter per attosecond.
+meter per zeptosecond, defined as: meter per attosecond × (1.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity MeterPerZeptosecond;

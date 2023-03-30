@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareMillionYears Field
 
-A(n) yard per square million years. Defined as: (3.0)/((1000.0)*(1000.0)) × foot per square millennium.
+yard per square million years, defined as: foot per square millennium × (3.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration YardPerSquareMillionYears;

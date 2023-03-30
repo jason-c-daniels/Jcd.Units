@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerMillisecond Field
 
-A(n) terameter per millisecond. Defined as: (1000.0)/(1.0/10.0) × gigameter per centisecond.
+terameter per millisecond, defined as: gigameter per centisecond × (1000.0)/(1.0/10.0)
 
 ```csharp
 public static readonly Velocity TerameterPerMillisecond;

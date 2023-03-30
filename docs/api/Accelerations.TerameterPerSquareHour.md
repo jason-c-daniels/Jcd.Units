@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareHour Field
 
-A(n) terameter per square hour. Defined as: (1000.0)/((60.0)*(60.0)) × gigameter per square minute.
+terameter per square hour, defined as: gigameter per square minute × (1000.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareHour;

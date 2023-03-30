@@ -3,7 +3,7 @@
 
 ## Lengths.Link Field
 
-A(n) link. Defined as: 0.20116 × SI meter.
+link, defined as: SI meter × 0.20116
 
 ```csharp
 public static readonly Length Link;

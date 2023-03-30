@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerTick Field
 
-A(n) ronnameter per tick. Defined as: (1000.0)/(100.0) × yottameter per nanosecond.
+ronnameter per tick, defined as: yottameter per nanosecond × (1000.0)/(100.0)
 
 ```csharp
 public static readonly Velocity RonnameterPerTick;

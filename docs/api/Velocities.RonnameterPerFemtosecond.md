@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerFemtosecond Field
 
-A(n) ronnameter per femtosecond. Defined as: (1000.0)/(1.0/1000.0) × yottameter per picosecond.
+ronnameter per femtosecond, defined as: yottameter per picosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity RonnameterPerFemtosecond;

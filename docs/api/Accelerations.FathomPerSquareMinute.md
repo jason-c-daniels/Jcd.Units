@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareMinute Field
 
-A(n) fathom per square minute. Defined as: (6.0)/((60.0)*(60.0)) × foot per square second.
+fathom per square minute, defined as: foot per square second × (6.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration FathomPerSquareMinute;

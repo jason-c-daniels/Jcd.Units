@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerCentury Field
 
-A(n) kilometer per century. Defined as: (10.0)/(10.0) × hectometer per decade.
+kilometer per century, defined as: hectometer per decade × (10.0)/(10.0)
 
 ```csharp
 public static readonly Velocity KilometerPerCentury;

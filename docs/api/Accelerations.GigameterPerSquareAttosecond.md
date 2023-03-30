@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareAttosecond Field
 
-A(n) gigameter per square attosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × megameter per square femtosecond.
+gigameter per square attosecond, defined as: megameter per square femtosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareAttosecond;

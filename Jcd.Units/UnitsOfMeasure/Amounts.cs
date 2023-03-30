@@ -18,12 +18,12 @@ namespace Jcd.Units.UnitsOfMeasure;
 public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
 {
    /// <summary>
-   /// A(n) count.
+   /// count, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Amount Count = new ("count", "ct.");
 
    /// <summary>
-   /// A(n) quantity. Defined as: 1.0 × count.
+   /// quantity, a synonym for count
    /// </summary>
-   public static readonly Amount Quantity = new ("quantity", "qty.", Count, 1.0, 0);
+   public static readonly Amount Quantity = new ("quantity", "qty.", Count);
 }

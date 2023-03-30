@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareMinute Field
 
-A(n) meter per square minute. Defined as: (1.0)/((60.0)*(60.0)) × meter per square second.
+meter per square minute, defined as: meter per square second × (1.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration MeterPerSquareMinute;

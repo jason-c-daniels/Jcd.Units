@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareZeptosecond Field
 
-A(n) league per square zeptosecond. Defined as: (3.0)/((1.0/1000.0)*(1.0/1000.0)) × mile per square attosecond.
+league per square zeptosecond, defined as: mile per square attosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareZeptosecond;

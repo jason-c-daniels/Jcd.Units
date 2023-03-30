@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareYoctosecond Field
 
-A(n) mile per square yoctosecond. Defined as: (8.0)/((1.0/1000.0)*(1.0/1000.0)) × furlong per square zeptosecond.
+mile per square yoctosecond, defined as: furlong per square zeptosecond × (8.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MilePerSquareYoctosecond;

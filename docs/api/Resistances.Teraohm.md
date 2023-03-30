@@ -3,7 +3,7 @@
 
 ## Resistances.Teraohm Field
 
-A(n) teraohm. Defined as: 1000.0 × gigaohm.
+teraohm, defined as: gigaohm × 1000.0
 
 ```csharp
 public static readonly Resistance Teraohm;

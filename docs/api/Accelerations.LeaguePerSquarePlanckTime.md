@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquarePlanckTime Field
 
-A(n) league per square planck-time. Defined as: (3.0)/((5.391247E-38)*(5.391247E-38)) × mile per square microsecond.
+league per square planck-time, defined as: mile per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration LeaguePerSquarePlanckTime;

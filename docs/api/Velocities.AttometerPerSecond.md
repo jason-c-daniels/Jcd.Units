@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerSecond Field
 
-A(n) attometer per second. Defined as: (1.0/1000.0)/(1.0) × femtometer per second.
+attometer per second, defined as: femtometer per second × (1.0/1000.0)/(1.0)
 
 ```csharp
 public static readonly Velocity AttometerPerSecond;

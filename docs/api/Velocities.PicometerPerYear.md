@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerYear Field
 
-A(n) picometer per year. Defined as: (1.0/1000.0)/(365.2525) × nanometer per day.
+picometer per year, defined as: nanometer per day × (1.0/1000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity PicometerPerYear;

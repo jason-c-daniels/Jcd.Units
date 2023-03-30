@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareDecillionYears Field
 
-A(n) kilometer per square decillion years. Defined as: (10.0)/((1000.0)*(1000.0)) × hectometer per square nonillion years.
+kilometer per square decillion years, defined as: hectometer per square nonillion years × (10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareDecillionYears;

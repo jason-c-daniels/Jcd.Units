@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareDecillionYears Field
 
-A(n) nanometer per square decillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × micrometer per square nonillion years.
+nanometer per square decillion years, defined as: micrometer per square nonillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareDecillionYears;

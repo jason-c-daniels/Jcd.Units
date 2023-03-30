@@ -3,7 +3,7 @@
 
 ## Areas.SquareAttometer Field
 
-A(n) square attometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square femtometer.
+square attometer, defined as: square femtometer × (1.0/1000.0)*(1.0/1000.0)
 
 ```csharp
 public static readonly Area SquareAttometer;

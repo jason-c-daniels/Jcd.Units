@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerRontosecond Field
 
-A(n) league per rontosecond. Defined as: (3.0)/(1.0/1000.0) × mile per yoctosecond.
+league per rontosecond, defined as: mile per yoctosecond × (3.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity LeaguePerRontosecond;

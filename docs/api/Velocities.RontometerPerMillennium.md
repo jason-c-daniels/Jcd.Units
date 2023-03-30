@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerMillennium Field
 
-A(n) rontometer per millennium. Defined as: (1.0/1000.0)/(10.0) × yoctometer per century.
+rontometer per millennium, defined as: yoctometer per century × (1.0/1000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity RontometerPerMillennium;

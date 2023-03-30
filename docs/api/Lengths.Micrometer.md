@@ -3,7 +3,7 @@
 
 ## Lengths.Micrometer Field
 
-A(n) micrometer. Defined as: 1.0/1000.0 × millimeter.
+micrometer, defined as: millimeter × 1.0/1000.0
 
 ```csharp
 public static readonly Length Micrometer;

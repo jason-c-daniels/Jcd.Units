@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Kilosiemens Field
 
-A(n) kilosiemens. Defined as: 10.0 × hectosiemens.
+kilosiemens, defined as: hectosiemens × 10.0
 
 ```csharp
 public static readonly ElectricalConductance Kilosiemens;

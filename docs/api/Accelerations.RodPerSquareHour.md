@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareHour Field
 
-A(n) rod per square hour. Defined as: (5.0292)/((60.0)*(60.0)) × SI meter per square minute.
+rod per square hour, defined as: SI meter per square minute × (5.0292)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration RodPerSquareHour;

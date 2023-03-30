@@ -18,13 +18,12 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
 {
    /// <summary>
-   /// A(n) planck-temperature. Defined as: 1.416784E+32 × SI degrees kelvin.
+   /// planck-temperature, defined as: SI degrees kelvin × 1.416784E+32
    /// </summary>
    public static readonly Temperature PlanckTemperature = new (
                                                                "planck-temperature"
                                                              , "Tₚ"
                                                              , SI.Temperatures.DegreesKelvin
                                                              , 1.416784E+32
-                                                             , 0
                                                               );
 }

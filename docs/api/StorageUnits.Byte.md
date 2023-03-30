@@ -3,7 +3,7 @@
 
 ## StorageUnits.Byte Field
 
-A(n) byte. Defined as: 2d × nybble.
+byte, defined as: nybble × 2d
 
 ```csharp
 public static readonly Storage Byte;

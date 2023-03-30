@@ -3,7 +3,7 @@
 
 ## Volumes.Milliliter Field
 
-A(n) milliliter. Defined as: 1.0/10.0 × centiliter.
+milliliter, defined as: centiliter × 1.0/10.0
 
 ```csharp
 public static readonly Volume Milliliter;

@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerMillionYears Field
 
-A(n) barleycorn per million years. Defined as: (1.0/36.0)/(1000.0) × foot per millennium.
+barleycorn per million years, defined as: foot per millennium × (1.0/36.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity BarleycornPerMillionYears;

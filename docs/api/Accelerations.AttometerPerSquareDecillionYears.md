@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareDecillionYears Field
 
-A(n) attometer per square decillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × femtometer per square nonillion years.
+attometer per square decillion years, defined as: femtometer per square nonillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareDecillionYears;

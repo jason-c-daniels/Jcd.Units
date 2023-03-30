@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareYear Field
 
-A(n) mile per square year. Defined as: (8.0)/((365.2525)*(365.2525)) × furlong per square day.
+mile per square year, defined as: furlong per square day × (8.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration MilePerSquareYear;

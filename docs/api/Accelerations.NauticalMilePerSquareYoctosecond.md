@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareYoctosecond Field
 
-A(n) nautical mile per square yoctosecond. Defined as: (10.0)/((1.0/1000.0)*(1.0/1000.0)) × cable per square zeptosecond.
+nautical mile per square yoctosecond, defined as: cable per square zeptosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareYoctosecond;

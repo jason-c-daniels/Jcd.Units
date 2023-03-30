@@ -3,7 +3,7 @@
 
 ## Capacitances.Petafarad Field
 
-A(n) petafarad. Defined as: 1000.0 × terafarad.
+petafarad, defined as: terafarad × 1000.0
 
 ```csharp
 public static readonly Capacitance Petafarad;

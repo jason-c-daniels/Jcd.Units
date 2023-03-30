@@ -18,72 +18,72 @@ namespace Jcd.Units.UnitsOfMeasure.Imperial;
 public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
 {
    /// <summary>
-   /// A(n) inch. Defined as: 2.54 × SI centimeter.
+   /// inch, defined as: SI centimeter × 2.54
    /// </summary>
-   public static readonly Length Inch = new ("inch", "in", SI.Lengths.Centimeter, 2.54, 0);
+   public static readonly Length Inch = new ("inch", "in", SI.Lengths.Centimeter, 2.54);
 
    /// <summary>
-   /// A(n) foot. Defined as: 12 × inch.
+   /// foot, defined as: inch × 12
    /// </summary>
-   public static readonly Length Foot = new ("foot", "ft", Inch, 12, 0);
+   public static readonly Length Foot = new ("foot", "ft", Inch, 12);
 
    /// <summary>
-   /// A(n) twip. Defined as: 1.0/17280.0 × foot.
+   /// twip, defined as: foot × 1.0/17280.0
    /// </summary>
-   public static readonly Length Twip = new ("twip", "twip", Foot, 1.0 / 17280.0, 0);
+   public static readonly Length Twip = new ("twip", "twip", Foot, 1.0 / 17280.0);
 
    /// <summary>
-   /// A(n) thou. Defined as: 1.0/12000.0 × foot.
+   /// thou, defined as: foot × 1.0/12000.0
    /// </summary>
-   public static readonly Length Thou = new ("thou", "th", Foot, 1.0 / 12000.0, 0);
+   public static readonly Length Thou = new ("thou", "th", Foot, 1.0 / 12000.0);
 
    /// <summary>
-   /// A(n) barleycorn. Defined as: 1.0/36.0 × foot.
+   /// barleycorn, defined as: foot × 1.0/36.0
    /// </summary>
-   public static readonly Length Barleycorn = new ("barleycorn", "barleycorn", Foot, 1.0 / 36.0, 0);
+   public static readonly Length Barleycorn = new ("barleycorn", "barleycorn", Foot, 1.0 / 36.0);
 
    /// <summary>
-   /// A(n) hand. Defined as: 4.0 × inch.
+   /// hand, defined as: inch × 4.0
    /// </summary>
-   public static readonly Length Hand = new ("hand", "hh", Inch, 4.0, 0);
+   public static readonly Length Hand = new ("hand", "hh", Inch, 4.0);
 
    /// <summary>
-   /// A(n) yard. Defined as: 3.0 × foot.
+   /// yard, defined as: foot × 3.0
    /// </summary>
-   public static readonly Length Yard = new ("yard", "yd", Foot, 3.0, 0);
+   public static readonly Length Yard = new ("yard", "yd", Foot, 3.0);
 
    /// <summary>
-   /// A(n) chain. Defined as: 22.0 × yard.
+   /// chain, defined as: yard × 22.0
    /// </summary>
-   public static readonly Length Chain = new ("chain", "ch", Yard, 22.0, 0);
+   public static readonly Length Chain = new ("chain", "ch", Yard, 22.0);
 
    /// <summary>
-   /// A(n) furlong. Defined as: 10.0 × chain.
+   /// furlong, defined as: chain × 10.0
    /// </summary>
-   public static readonly Length Furlong = new ("furlong", "fur", Chain, 10.0, 0);
+   public static readonly Length Furlong = new ("furlong", "fur", Chain, 10.0);
 
    /// <summary>
-   /// A(n) mile. Defined as: 8.0 × furlong.
+   /// mile, defined as: furlong × 8.0
    /// </summary>
-   public static readonly Length Mile = new ("mile", "mi", Furlong, 8.0, 0);
+   public static readonly Length Mile = new ("mile", "mi", Furlong, 8.0);
 
    /// <summary>
-   /// A(n) league. Defined as: 3.0 × mile.
+   /// league, defined as: mile × 3.0
    /// </summary>
-   public static readonly Length League = new ("league", "lea", Mile, 3.0, 0);
+   public static readonly Length League = new ("league", "lea", Mile, 3.0);
 
    /// <summary>
-   /// A(n) fathom. Defined as: 6.0 × foot.
+   /// fathom, defined as: foot × 6.0
    /// </summary>
-   public static readonly Length Fathom = new ("fathom", "ftm", Foot, 6.0, 0);
+   public static readonly Length Fathom = new ("fathom", "ftm", Foot, 6.0);
 
    /// <summary>
-   /// A(n) cable. Defined as: 100.0 × fathom.
+   /// cable, defined as: fathom × 100.0
    /// </summary>
-   public static readonly Length Cable = new ("cable", "cable", Fathom, 100.0, 0);
+   public static readonly Length Cable = new ("cable", "cable", Fathom, 100.0);
 
    /// <summary>
-   /// A(n) nautical mile. Defined as: 10.0 × cable.
+   /// nautical mile, defined as: cable × 10.0
    /// </summary>
-   public static readonly Length NauticalMile = new ("nautical mile", "nmi", Cable, 10.0, 0);
+   public static readonly Length NauticalMile = new ("nautical mile", "nmi", Cable, 10.0);
 }

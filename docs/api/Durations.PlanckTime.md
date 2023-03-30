@@ -3,7 +3,7 @@
 
 ## Durations.PlanckTime Field
 
-A(n) planck-time. Defined as: 5.391247E-38 × microsecond.
+planck-time, defined as: microsecond × 5.391247E-38
 
 ```csharp
 public static readonly Duration PlanckTime;

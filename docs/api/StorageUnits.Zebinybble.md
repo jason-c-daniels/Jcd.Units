@@ -3,7 +3,7 @@
 
 ## StorageUnits.Zebinybble Field
 
-A(n) zebinybble. Defined as: 1024.0 × exbinybble.
+zebinybble, defined as: exbinybble × 1024.0
 
 ```csharp
 public static readonly Storage Zebinybble;

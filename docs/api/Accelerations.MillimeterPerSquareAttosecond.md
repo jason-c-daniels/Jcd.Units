@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareAttosecond Field
 
-A(n) millimeter per square attosecond. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)) × centimeter per square femtosecond.
+millimeter per square attosecond, defined as: centimeter per square femtosecond × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareAttosecond;

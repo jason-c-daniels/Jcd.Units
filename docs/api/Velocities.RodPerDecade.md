@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerDecade Field
 
-A(n) rod per decade. Defined as: (5.0292)/(10.0) × SI meter per year.
+rod per decade, defined as: SI meter per year × (5.0292)/(10.0)
 
 ```csharp
 public static readonly Velocity RodPerDecade;

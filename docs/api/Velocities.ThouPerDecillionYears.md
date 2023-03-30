@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerDecillionYears Field
 
-A(n) thou per decillion years. Defined as: (1.0/12000.0)/(1000.0) × foot per nonillion years.
+thou per decillion years, defined as: foot per nonillion years × (1.0/12000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity ThouPerDecillionYears;

@@ -3,7 +3,7 @@
 
 ## Lengths.ZettalightYear Field
 
-A(n) zettalight-year. Defined as: 1000.0 × exalight-year.
+zettalight-year, defined as: exalight-year × 1000.0
 
 ```csharp
 public static readonly Length ZettalightYear;

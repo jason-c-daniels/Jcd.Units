@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicYoctometer Field
 
-A(n) petagram per cubic yoctometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × teragram per cubic zeptometer.
+petagram per cubic yoctometer, defined as: teragram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density PetagramPerCubicYoctometer;

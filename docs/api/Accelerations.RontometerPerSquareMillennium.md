@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareMillennium Field
 
-A(n) rontometer per square millennium. Defined as: (1.0/1000.0)/((10.0)*(10.0)) × yoctometer per square century.
+rontometer per square millennium, defined as: yoctometer per square century × (1.0/1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareMillennium;

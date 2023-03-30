@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareDay Field
 
-A(n) meter per square day. Defined as: (1.0)/((24.0)*(24.0)) × meter per square hour.
+meter per square day, defined as: meter per square hour × (1.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration MeterPerSquareDay;

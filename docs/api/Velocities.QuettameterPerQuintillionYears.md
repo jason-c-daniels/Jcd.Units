@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerQuintillionYears Field
 
-A(n) quettameter per quintillion years. Defined as: (1000.0)/(1000.0) × ronnameter per quadrillion years.
+quettameter per quintillion years, defined as: ronnameter per quadrillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity QuettameterPerQuintillionYears;

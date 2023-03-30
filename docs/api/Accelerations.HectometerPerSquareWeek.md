@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareWeek Field
 
-A(n) hectometer per square week. Defined as: (10.0)/((7.0)*(7.0)) × dekameter per square day.
+hectometer per square week, defined as: dekameter per square day × (10.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareWeek;

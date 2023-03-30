@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareNonillionYears Field
 
-A(n) meter per square nonillion years. Defined as: (1.0)/((1000.0)*(1000.0)) × meter per square octillion years.
+meter per square nonillion years, defined as: meter per square octillion years × (1.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MeterPerSquareNonillionYears;

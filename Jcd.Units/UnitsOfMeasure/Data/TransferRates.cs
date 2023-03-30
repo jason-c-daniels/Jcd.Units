@@ -18,452 +18,426 @@ namespace Jcd.Units.UnitsOfMeasure.Data;
 public class TransferRates : UnitOfMeasureEnumeration<TransferRates, TransferRate>
 {
    /// <summary>
-   /// A(n) bits per second.
+   /// bits per second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly TransferRate BitsPerSecond = new ("bits per second", "b/s");
 
    /// <summary>
-   /// A(n) kilobits per second. Defined as: 1000.0 × bits per second.
+   /// kilobits per second, defined as: bits per second × 1000.0
    /// </summary>
-   public static readonly TransferRate
-            KilobitsPerSecond = new ("kilobits per second", "Kb/s", BitsPerSecond, 1000.0, 0);
+   public static readonly TransferRate KilobitsPerSecond = new ("kilobits per second", "Kb/s", BitsPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) megabits per second. Defined as: 1000.0 × kilobits per second.
+   /// megabits per second, defined as: kilobits per second × 1000.0
    /// </summary>
    public static readonly TransferRate MegabitsPerSecond = new (
                                                                 "megabits per second"
                                                               , "Mb/s"
                                                               , KilobitsPerSecond
                                                               , 1000.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) gigabits per second. Defined as: 1000.0 × megabits per second.
+   /// gigabits per second, defined as: megabits per second × 1000.0
    /// </summary>
    public static readonly TransferRate GigabitsPerSecond = new (
                                                                 "gigabits per second"
                                                               , "Gb/s"
                                                               , MegabitsPerSecond
                                                               , 1000.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) terabits per second. Defined as: 1000.0 × gigabits per second.
+   /// terabits per second, defined as: gigabits per second × 1000.0
    /// </summary>
    public static readonly TransferRate TerabitsPerSecond = new (
                                                                 "terabits per second"
                                                               , "Tb/s"
                                                               , GigabitsPerSecond
                                                               , 1000.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) petabits per second. Defined as: 1000.0 × terabits per second.
+   /// petabits per second, defined as: terabits per second × 1000.0
    /// </summary>
    public static readonly TransferRate PetabitsPerSecond = new (
                                                                 "petabits per second"
                                                               , "Pb/s"
                                                               , TerabitsPerSecond
                                                               , 1000.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) exabits per second. Defined as: 1000.0 × petabits per second.
+   /// exabits per second, defined as: petabits per second × 1000.0
    /// </summary>
-   public static readonly TransferRate ExabitsPerSecond = new (
-                                                               "exabits per second"
-                                                             , "Eb/s"
-                                                             , PetabitsPerSecond
-                                                             , 1000.0
-                                                             , 0
-                                                              );
+   public static readonly TransferRate ExabitsPerSecond = new ("exabits per second", "Eb/s", PetabitsPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) zettabits per second. Defined as: 1000.0 × exabits per second.
+   /// zettabits per second, defined as: exabits per second × 1000.0
    /// </summary>
    public static readonly TransferRate ZettabitsPerSecond =
-            new ("zettabits per second", "Zb/s", ExabitsPerSecond, 1000.0, 0);
+            new ("zettabits per second", "Zb/s", ExabitsPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) yottabits per second. Defined as: 1000.0 × zettabits per second.
+   /// yottabits per second, defined as: zettabits per second × 1000.0
    /// </summary>
    public static readonly TransferRate YottabitsPerSecond =
-            new ("yottabits per second", "Yb/s", ZettabitsPerSecond, 1000.0, 0);
+            new ("yottabits per second", "Yb/s", ZettabitsPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) ronnabits per second. Defined as: 1000.0 × yottabits per second.
+   /// ronnabits per second, defined as: yottabits per second × 1000.0
    /// </summary>
    public static readonly TransferRate RonnabitsPerSecond =
-            new ("ronnabits per second", "Rb/s", YottabitsPerSecond, 1000.0, 0);
+            new ("ronnabits per second", "Rb/s", YottabitsPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) quettabits per second. Defined as: 1000.0 × ronnabits per second.
+   /// quettabits per second, defined as: ronnabits per second × 1000.0
    /// </summary>
    public static readonly TransferRate QuettabitsPerSecond =
-            new ("quettabits per second", "Qb/s", RonnabitsPerSecond, 1000.0, 0);
+            new ("quettabits per second", "Qb/s", RonnabitsPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) kebibits per second. Defined as: 1024.0 × bits per second.
+   /// kebibits per second, defined as: bits per second × 1024.0
    /// </summary>
-   public static readonly TransferRate KebibitsPerSecond = new (
-                                                                "kebibits per second"
-                                                              , "Kib/s"
-                                                              , BitsPerSecond
-                                                              , 1024.0
-                                                              , 0
-                                                               );
+   public static readonly TransferRate KebibitsPerSecond = new ("kebibits per second", "Kib/s", BitsPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) mebibits per second. Defined as: 1024.0 × kebibits per second.
+   /// mebibits per second, defined as: kebibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate MebibitsPerSecond = new (
                                                                 "mebibits per second"
                                                               , "Mib/s"
                                                               , KebibitsPerSecond
                                                               , 1024.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) gibibits per second. Defined as: 1024.0 × mebibits per second.
+   /// gibibits per second, defined as: mebibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate GibibitsPerSecond = new (
                                                                 "gibibits per second"
                                                               , "Gib/s"
                                                               , MebibitsPerSecond
                                                               , 1024.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) tebibits per second. Defined as: 1024.0 × gibibits per second.
+   /// tebibits per second, defined as: gibibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate TebibitsPerSecond = new (
                                                                 "tebibits per second"
                                                               , "Tib/s"
                                                               , GibibitsPerSecond
                                                               , 1024.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) pebibits per second. Defined as: 1024.0 × tebibits per second.
+   /// pebibits per second, defined as: tebibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate PebibitsPerSecond = new (
                                                                 "pebibits per second"
                                                               , "Pib/s"
                                                               , TebibitsPerSecond
                                                               , 1024.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) exbibits per second. Defined as: 1024.0 × pebibits per second.
+   /// exbibits per second, defined as: pebibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate ExbibitsPerSecond = new (
                                                                 "exbibits per second"
                                                               , "Eib/s"
                                                               , PebibitsPerSecond
                                                               , 1024.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) zebibits per second. Defined as: 1024.0 × exbibits per second.
+   /// zebibits per second, defined as: exbibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate ZebibitsPerSecond = new (
                                                                 "zebibits per second"
                                                               , "Zib/s"
                                                               , ExbibitsPerSecond
                                                               , 1024.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) yobibits per second. Defined as: 1024.0 × zebibits per second.
+   /// yobibits per second, defined as: zebibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate YobibitsPerSecond = new (
                                                                 "yobibits per second"
                                                               , "Yib/s"
                                                               , ZebibitsPerSecond
                                                               , 1024.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) robibits per second. Defined as: 1024.0 × yobibits per second.
+   /// robibits per second, defined as: yobibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate RobibitsPerSecond = new (
                                                                 "robibits per second"
                                                               , "Rib/s"
                                                               , YobibitsPerSecond
                                                               , 1024.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) quebibits per second. Defined as: 1024.0 × robibits per second.
+   /// quebibits per second, defined as: robibits per second × 1024.0
    /// </summary>
    public static readonly TransferRate QuebibitsPerSecond =
-            new ("quebibits per second", "Qib/s", RobibitsPerSecond, 1024.0, 0);
+            new ("quebibits per second", "Qib/s", RobibitsPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) nybbles per second. Defined as: 4d × bits per second.
+   /// nybbles per second, defined as: bits per second × 4d
    /// </summary>
-   public static readonly TransferRate NybblesPerSecond = new ("nybbles per second", "n/s", BitsPerSecond, 4d, 0);
+   public static readonly TransferRate NybblesPerSecond = new ("nybbles per second", "n/s", BitsPerSecond, 4d);
 
    /// <summary>
-   /// A(n) kilonybbles per second. Defined as: 1000.0 × nybbles per second.
+   /// kilonybbles per second, defined as: nybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate KilonybblesPerSecond =
-            new ("kilonybbles per second", "Kn/s", NybblesPerSecond, 1000.0, 0);
+            new ("kilonybbles per second", "Kn/s", NybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) meganybbles per second. Defined as: 1000.0 × kilonybbles per second.
+   /// meganybbles per second, defined as: kilonybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate MeganybblesPerSecond =
-            new ("meganybbles per second", "Mn/s", KilonybblesPerSecond, 1000.0, 0);
+            new ("meganybbles per second", "Mn/s", KilonybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) giganybbles per second. Defined as: 1000.0 × meganybbles per second.
+   /// giganybbles per second, defined as: meganybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate GiganybblesPerSecond =
-            new ("giganybbles per second", "Gn/s", MeganybblesPerSecond, 1000.0, 0);
+            new ("giganybbles per second", "Gn/s", MeganybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) teranybbles per second. Defined as: 1000.0 × giganybbles per second.
+   /// teranybbles per second, defined as: giganybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate TeranybblesPerSecond =
-            new ("teranybbles per second", "Tn/s", GiganybblesPerSecond, 1000.0, 0);
+            new ("teranybbles per second", "Tn/s", GiganybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) petanybbles per second. Defined as: 1000.0 × teranybbles per second.
+   /// petanybbles per second, defined as: teranybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate PetanybblesPerSecond =
-            new ("petanybbles per second", "Pn/s", TeranybblesPerSecond, 1000.0, 0);
+            new ("petanybbles per second", "Pn/s", TeranybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) exanybbles per second. Defined as: 1000.0 × petanybbles per second.
+   /// exanybbles per second, defined as: petanybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate ExanybblesPerSecond =
-            new ("exanybbles per second", "En/s", PetanybblesPerSecond, 1000.0, 0);
+            new ("exanybbles per second", "En/s", PetanybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) zettanybbles per second. Defined as: 1000.0 × exanybbles per second.
+   /// zettanybbles per second, defined as: exanybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate ZettanybblesPerSecond =
-            new ("zettanybbles per second", "Zn/s", ExanybblesPerSecond, 1000.0, 0);
+            new ("zettanybbles per second", "Zn/s", ExanybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) yottanybbles per second. Defined as: 1000.0 × zettanybbles per second.
+   /// yottanybbles per second, defined as: zettanybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate YottanybblesPerSecond =
-            new ("yottanybbles per second", "Yn/s", ZettanybblesPerSecond, 1000.0, 0);
+            new ("yottanybbles per second", "Yn/s", ZettanybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) ronnanybbles per second. Defined as: 1000.0 × yottanybbles per second.
+   /// ronnanybbles per second, defined as: yottanybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate RonnanybblesPerSecond =
-            new ("ronnanybbles per second", "Rn/s", YottanybblesPerSecond, 1000.0, 0);
+            new ("ronnanybbles per second", "Rn/s", YottanybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) quettanybbles per second. Defined as: 1000.0 × ronnanybbles per second.
+   /// quettanybbles per second, defined as: ronnanybbles per second × 1000.0
    /// </summary>
    public static readonly TransferRate QuettanybblesPerSecond =
-            new ("quettanybbles per second", "Qn/s", RonnanybblesPerSecond, 1000.0, 0);
+            new ("quettanybbles per second", "Qn/s", RonnanybblesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) kebinybbles per second. Defined as: 1024.0 × nybbles per second.
+   /// kebinybbles per second, defined as: nybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate KebinybblesPerSecond =
-            new ("kebinybbles per second", "Kin/s", NybblesPerSecond, 1024.0, 0);
+            new ("kebinybbles per second", "Kin/s", NybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) mebinybbles per second. Defined as: 1024.0 × kebinybbles per second.
+   /// mebinybbles per second, defined as: kebinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate MebinybblesPerSecond =
-            new ("mebinybbles per second", "Min/s", KebinybblesPerSecond, 1024.0, 0);
+            new ("mebinybbles per second", "Min/s", KebinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) gibinybbles per second. Defined as: 1024.0 × mebinybbles per second.
+   /// gibinybbles per second, defined as: mebinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate GibinybblesPerSecond =
-            new ("gibinybbles per second", "Gin/s", MebinybblesPerSecond, 1024.0, 0);
+            new ("gibinybbles per second", "Gin/s", MebinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) tebinybbles per second. Defined as: 1024.0 × gibinybbles per second.
+   /// tebinybbles per second, defined as: gibinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate TebinybblesPerSecond =
-            new ("tebinybbles per second", "Tin/s", GibinybblesPerSecond, 1024.0, 0);
+            new ("tebinybbles per second", "Tin/s", GibinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) pebinybbles per second. Defined as: 1024.0 × tebinybbles per second.
+   /// pebinybbles per second, defined as: tebinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate PebinybblesPerSecond =
-            new ("pebinybbles per second", "Pin/s", TebinybblesPerSecond, 1024.0, 0);
+            new ("pebinybbles per second", "Pin/s", TebinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) exbinybbles per second. Defined as: 1024.0 × pebinybbles per second.
+   /// exbinybbles per second, defined as: pebinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate ExbinybblesPerSecond =
-            new ("exbinybbles per second", "Ein/s", PebinybblesPerSecond, 1024.0, 0);
+            new ("exbinybbles per second", "Ein/s", PebinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) zebinybbles per second. Defined as: 1024.0 × exbinybbles per second.
+   /// zebinybbles per second, defined as: exbinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate ZebinybblesPerSecond =
-            new ("zebinybbles per second", "Zin/s", ExbinybblesPerSecond, 1024.0, 0);
+            new ("zebinybbles per second", "Zin/s", ExbinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) yobinybbles per second. Defined as: 1024.0 × zebinybbles per second.
+   /// yobinybbles per second, defined as: zebinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate YobinybblesPerSecond =
-            new ("yobinybbles per second", "Yin/s", ZebinybblesPerSecond, 1024.0, 0);
+            new ("yobinybbles per second", "Yin/s", ZebinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) robinybbles per second. Defined as: 1024.0 × yobinybbles per second.
+   /// robinybbles per second, defined as: yobinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate RobinybblesPerSecond =
-            new ("robinybbles per second", "Rin/s", YobinybblesPerSecond, 1024.0, 0);
+            new ("robinybbles per second", "Rin/s", YobinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) quebinybbles per second. Defined as: 1024.0 × robinybbles per second.
+   /// quebinybbles per second, defined as: robinybbles per second × 1024.0
    /// </summary>
    public static readonly TransferRate QuebinybblesPerSecond =
-            new ("quebinybbles per second", "Qin/s", RobinybblesPerSecond, 1024.0, 0);
+            new ("quebinybbles per second", "Qin/s", RobinybblesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) bytes per second. Defined as: 2d × nybbles per second.
+   /// bytes per second, defined as: nybbles per second × 2d
    /// </summary>
-   public static readonly TransferRate BytesPerSecond = new ("bytes per second", "B/s", NybblesPerSecond, 2d, 0);
+   public static readonly TransferRate BytesPerSecond = new ("bytes per second", "B/s", NybblesPerSecond, 2d);
 
    /// <summary>
-   /// A(n) kilobytes per second. Defined as: 1000.0 × bytes per second.
+   /// kilobytes per second, defined as: bytes per second × 1000.0
    /// </summary>
-   public static readonly TransferRate KilobytesPerSecond =
-            new ("kilobytes per second", "KB/s", BytesPerSecond, 1000.0, 0);
+   public static readonly TransferRate
+            KilobytesPerSecond = new ("kilobytes per second", "KB/s", BytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) megabytes per second. Defined as: 1000.0 × kilobytes per second.
+   /// megabytes per second, defined as: kilobytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate MegabytesPerSecond =
-            new ("megabytes per second", "MB/s", KilobytesPerSecond, 1000.0, 0);
+            new ("megabytes per second", "MB/s", KilobytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) gigabytes per second. Defined as: 1000.0 × megabytes per second.
+   /// gigabytes per second, defined as: megabytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate GigabytesPerSecond =
-            new ("gigabytes per second", "GB/s", MegabytesPerSecond, 1000.0, 0);
+            new ("gigabytes per second", "GB/s", MegabytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) terabytes per second. Defined as: 1000.0 × gigabytes per second.
+   /// terabytes per second, defined as: gigabytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate TerabytesPerSecond =
-            new ("terabytes per second", "TB/s", GigabytesPerSecond, 1000.0, 0);
+            new ("terabytes per second", "TB/s", GigabytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) petabytes per second. Defined as: 1000.0 × terabytes per second.
+   /// petabytes per second, defined as: terabytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate PetabytesPerSecond =
-            new ("petabytes per second", "PB/s", TerabytesPerSecond, 1000.0, 0);
+            new ("petabytes per second", "PB/s", TerabytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) exabytes per second. Defined as: 1000.0 × petabytes per second.
+   /// exabytes per second, defined as: petabytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate ExabytesPerSecond = new (
                                                                 "exabytes per second"
                                                               , "EB/s"
                                                               , PetabytesPerSecond
                                                               , 1000.0
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) zettabytes per second. Defined as: 1000.0 × exabytes per second.
+   /// zettabytes per second, defined as: exabytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate ZettabytesPerSecond =
-            new ("zettabytes per second", "ZB/s", ExabytesPerSecond, 1000.0, 0);
+            new ("zettabytes per second", "ZB/s", ExabytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) yottabytes per second. Defined as: 1000.0 × zettabytes per second.
+   /// yottabytes per second, defined as: zettabytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate YottabytesPerSecond =
-            new ("yottabytes per second", "YB/s", ZettabytesPerSecond, 1000.0, 0);
+            new ("yottabytes per second", "YB/s", ZettabytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) ronnabytes per second. Defined as: 1000.0 × yottabytes per second.
+   /// ronnabytes per second, defined as: yottabytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate RonnabytesPerSecond =
-            new ("ronnabytes per second", "RB/s", YottabytesPerSecond, 1000.0, 0);
+            new ("ronnabytes per second", "RB/s", YottabytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) quettabytes per second. Defined as: 1000.0 × ronnabytes per second.
+   /// quettabytes per second, defined as: ronnabytes per second × 1000.0
    /// </summary>
    public static readonly TransferRate QuettabytesPerSecond =
-            new ("quettabytes per second", "QB/s", RonnabytesPerSecond, 1000.0, 0);
+            new ("quettabytes per second", "QB/s", RonnabytesPerSecond, 1000.0);
 
    /// <summary>
-   /// A(n) kebibytes per second. Defined as: 1024.0 × bytes per second.
+   /// kebibytes per second, defined as: bytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate KebibytesPerSecond =
-            new ("kebibytes per second", "KiB/s", BytesPerSecond, 1024.0, 0);
+            new ("kebibytes per second", "KiB/s", BytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) mebibytes per second. Defined as: 1024.0 × kebibytes per second.
+   /// mebibytes per second, defined as: kebibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate MebibytesPerSecond =
-            new ("mebibytes per second", "MiB/s", KebibytesPerSecond, 1024.0, 0);
+            new ("mebibytes per second", "MiB/s", KebibytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) gibibytes per second. Defined as: 1024.0 × mebibytes per second.
+   /// gibibytes per second, defined as: mebibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate GibibytesPerSecond =
-            new ("gibibytes per second", "GiB/s", MebibytesPerSecond, 1024.0, 0);
+            new ("gibibytes per second", "GiB/s", MebibytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) tebibytes per second. Defined as: 1024.0 × gibibytes per second.
+   /// tebibytes per second, defined as: gibibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate TebibytesPerSecond =
-            new ("tebibytes per second", "TiB/s", GibibytesPerSecond, 1024.0, 0);
+            new ("tebibytes per second", "TiB/s", GibibytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) pebibytes per second. Defined as: 1024.0 × tebibytes per second.
+   /// pebibytes per second, defined as: tebibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate PebibytesPerSecond =
-            new ("pebibytes per second", "PiB/s", TebibytesPerSecond, 1024.0, 0);
+            new ("pebibytes per second", "PiB/s", TebibytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) exbibytes per second. Defined as: 1024.0 × pebibytes per second.
+   /// exbibytes per second, defined as: pebibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate ExbibytesPerSecond =
-            new ("exbibytes per second", "EiB/s", PebibytesPerSecond, 1024.0, 0);
+            new ("exbibytes per second", "EiB/s", PebibytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) zebibytes per second. Defined as: 1024.0 × exbibytes per second.
+   /// zebibytes per second, defined as: exbibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate ZebibytesPerSecond =
-            new ("zebibytes per second", "ZiB/s", ExbibytesPerSecond, 1024.0, 0);
+            new ("zebibytes per second", "ZiB/s", ExbibytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) yobibytes per second. Defined as: 1024.0 × zebibytes per second.
+   /// yobibytes per second, defined as: zebibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate YobibytesPerSecond =
-            new ("yobibytes per second", "YiB/s", ZebibytesPerSecond, 1024.0, 0);
+            new ("yobibytes per second", "YiB/s", ZebibytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) robibytes per second. Defined as: 1024.0 × yobibytes per second.
+   /// robibytes per second, defined as: yobibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate RobibytesPerSecond =
-            new ("robibytes per second", "RiB/s", YobibytesPerSecond, 1024.0, 0);
+            new ("robibytes per second", "RiB/s", YobibytesPerSecond, 1024.0);
 
    /// <summary>
-   /// A(n) quebibytes per second. Defined as: 1024.0 × robibytes per second.
+   /// quebibytes per second, defined as: robibytes per second × 1024.0
    /// </summary>
    public static readonly TransferRate QuebibytesPerSecond =
-            new ("quebibytes per second", "QiB/s", RobibytesPerSecond, 1024.0, 0);
+            new ("quebibytes per second", "QiB/s", RobibytesPerSecond, 1024.0);
 }

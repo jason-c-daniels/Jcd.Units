@@ -3,7 +3,7 @@
 
 ## Lengths.Quettameter Field
 
-A(n) quettameter. Defined as: 1000.0 × ronnameter.
+quettameter, defined as: ronnameter × 1000.0
 
 ```csharp
 public static readonly Length Quettameter;

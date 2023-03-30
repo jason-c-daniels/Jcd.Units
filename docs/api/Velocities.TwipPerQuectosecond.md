@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerQuectosecond Field
 
-A(n) twip per quectosecond. Defined as: (1.0/17280.0)/(1.0/1000.0) × foot per rontosecond.
+twip per quectosecond, defined as: foot per rontosecond × (1.0/17280.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity TwipPerQuectosecond;

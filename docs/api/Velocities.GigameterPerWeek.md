@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerWeek Field
 
-A(n) gigameter per week. Defined as: (1000.0)/(7.0) × megameter per day.
+gigameter per week, defined as: megameter per day × (1000.0)/(7.0)
 
 ```csharp
 public static readonly Velocity GigameterPerWeek;

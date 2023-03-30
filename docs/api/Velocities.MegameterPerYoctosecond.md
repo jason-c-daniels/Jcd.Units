@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerYoctosecond Field
 
-A(n) megameter per yoctosecond. Defined as: (1000.0)/(1.0/1000.0) × kilometer per zeptosecond.
+megameter per yoctosecond, defined as: kilometer per zeptosecond × (1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity MegameterPerYoctosecond;

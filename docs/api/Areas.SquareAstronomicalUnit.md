@@ -3,7 +3,7 @@
 
 ## Areas.SquareAstronomicalUnit Field
 
-A(n) square astronomical unit. Defined as: (149597870.691)*(149597870.691) × SI square kilometer.
+square astronomical unit, defined as: SI square kilometer × (149597870.691)*(149597870.691)
 
 ```csharp
 public static readonly Area SquareAstronomicalUnit;

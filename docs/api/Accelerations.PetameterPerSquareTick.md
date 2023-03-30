@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareTick Field
 
-A(n) petameter per square tick. Defined as: (1000.0)/((100.0)*(100.0)) × terameter per square nanosecond.
+petameter per square tick, defined as: terameter per square nanosecond × (1000.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareTick;

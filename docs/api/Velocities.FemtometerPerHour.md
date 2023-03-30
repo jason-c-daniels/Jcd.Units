@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerHour Field
 
-A(n) femtometer per hour. Defined as: (1.0/1000.0)/(60.0) × picometer per minute.
+femtometer per hour, defined as: picometer per minute × (1.0/1000.0)/(60.0)
 
 ```csharp
 public static readonly Velocity FemtometerPerHour;

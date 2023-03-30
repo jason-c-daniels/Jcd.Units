@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareDay Field
 
-A(n) mile per square day. Defined as: (8.0)/((24.0)*(24.0)) × furlong per square hour.
+mile per square day, defined as: furlong per square hour × (8.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration MilePerSquareDay;

@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicYoctometer Field
 
-A(n) megagram per cubic yoctometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × kilogram per cubic zeptometer.
+megagram per cubic yoctometer, defined as: kilogram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density MegagramPerCubicYoctometer;

@@ -3,7 +3,7 @@
 
 ## Energies.Yoctocalorie Field
 
-A(n) yoctocalorie. Defined as: 1.0/1000.0 × zeptocalorie.
+yoctocalorie, defined as: zeptocalorie × 1.0/1000.0
 
 ```csharp
 public static readonly Energy Yoctocalorie;

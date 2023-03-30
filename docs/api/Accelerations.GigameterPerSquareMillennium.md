@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareMillennium Field
 
-A(n) gigameter per square millennium. Defined as: (1000.0)/((10.0)*(10.0)) × megameter per square century.
+gigameter per square millennium, defined as: megameter per square century × (1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareMillennium;

@@ -3,7 +3,7 @@
 
 ## TransferRates.KilobitsPerSecond Field
 
-A(n) kilobits per second. Defined as: 1000.0 × bits per second.
+kilobits per second, defined as: bits per second × 1000.0
 
 ```csharp
 public static readonly TransferRate KilobitsPerSecond;

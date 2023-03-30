@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerSeptillionYears Field
 
-A(n) league per septillion years. Defined as: (3.0)/(1000.0) × mile per sextillion years.
+league per septillion years, defined as: mile per sextillion years × (3.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity LeaguePerSeptillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerYear Field
 
-A(n) thou per year. Defined as: (1.0/12000.0)/(365.2525) × foot per day.
+thou per year, defined as: foot per day × (1.0/12000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity ThouPerYear;

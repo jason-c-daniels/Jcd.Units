@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicAttometer Field
 
-A(n) megagram per cubic attometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × kilogram per cubic femtometer.
+megagram per cubic attometer, defined as: kilogram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density MegagramPerCubicAttometer;

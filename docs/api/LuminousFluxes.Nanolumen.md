@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Nanolumen Field
 
-A(n) nanolumen. Defined as: 1.0/1000.0 × microlumen.
+nanolumen, defined as: microlumen × 1.0/1000.0
 
 ```csharp
 public static readonly LuminousFlux Nanolumen;

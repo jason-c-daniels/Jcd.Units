@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerYoctosecond Field
 
-A(n) barleycorn per yoctosecond. Defined as: (1.0/36.0)/(1.0/1000.0) × foot per zeptosecond.
+barleycorn per yoctosecond, defined as: foot per zeptosecond × (1.0/36.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity BarleycornPerYoctosecond;

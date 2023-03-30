@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [PlanckForce](Forces.PlanckForce.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Forces.PlanckForce') | A(n) planck-force. Defined as: 1.2103E+44 × SI newton. |
+| [PlanckForce](Forces.PlanckForce.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Forces.PlanckForce') | planck-force, defined as: SI newton × 1.2103E+44 |

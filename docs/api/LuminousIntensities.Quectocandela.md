@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Quectocandela Field
 
-A(n) quectocandela. Defined as: 1.0/1000.0 × rontocandela.
+quectocandela, defined as: rontocandela × 1.0/1000.0
 
 ```csharp
 public static readonly LuminousIntensity Quectocandela;

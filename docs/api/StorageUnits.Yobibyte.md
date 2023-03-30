@@ -3,7 +3,7 @@
 
 ## StorageUnits.Yobibyte Field
 
-A(n) yobibyte. Defined as: 1024.0 × zebibyte.
+yobibyte, defined as: zebibyte × 1024.0
 
 ```csharp
 public static readonly Storage Yobibyte;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicExaparsec Field
 
-A(n) cubic exaparsec. Defined as: (1000.0)*(1000.0)*(1000.0) × cubic petaparsec.
+cubic exaparsec, defined as: cubic petaparsec × (1000.0)*(1000.0)*(1000.0)
 
 ```csharp
 public static readonly Volume CubicExaparsec;

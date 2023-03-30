@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerOctillionYears Field
 
-A(n) yottameter per octillion years. Defined as: (1000.0)/(1000.0) × zettameter per septillion years.
+yottameter per octillion years, defined as: zettameter per septillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity YottameterPerOctillionYears;

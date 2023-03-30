@@ -3,7 +3,7 @@
 
 ## Pressures.Femtopascal Field
 
-A(n) femtopascal. Defined as: 1.0/1000.0 × picopascal.
+femtopascal, defined as: picopascal × 1.0/1000.0
 
 ```csharp
 public static readonly Pressure Femtopascal;

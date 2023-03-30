@@ -3,7 +3,7 @@
 
 ## Densities.YottagramPerCubicMeter Field
 
-A(n) yottagram per cubic meter. Defined as: (1000.0)/((1.0)*(1.0)*(1.0)) × zettagram per cubic meter.
+yottagram per cubic meter, defined as: zettagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
 
 ```csharp
 public static readonly Density YottagramPerCubicMeter;

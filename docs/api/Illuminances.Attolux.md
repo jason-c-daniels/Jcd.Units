@@ -3,7 +3,7 @@
 
 ## Illuminances.Attolux Field
 
-A(n) attolux. Defined as: 1.0/1000.0 × femtolux.
+attolux, defined as: femtolux × 1.0/1000.0
 
 ```csharp
 public static readonly Illuminance Attolux;

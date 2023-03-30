@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerTick Field
 
-A(n) picometer per tick. Defined as: (1.0/1000.0)/(100.0) × nanometer per nanosecond.
+picometer per tick, defined as: nanometer per nanosecond × (1.0/1000.0)/(100.0)
 
 ```csharp
 public static readonly Velocity PicometerPerTick;

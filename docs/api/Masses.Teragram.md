@@ -3,7 +3,7 @@
 
 ## Masses.Teragram Field
 
-A(n) teragram. Defined as: 1000.0 × gigagram.
+teragram, defined as: gigagram × 1000.0
 
 ```csharp
 public static readonly Mass Teragram;

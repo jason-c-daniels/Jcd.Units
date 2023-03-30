@@ -3,7 +3,7 @@
 
 ## Lengths.Inch Field
 
-A(n) inch. Defined as: 2.54 × SI centimeter.
+inch, defined as: SI centimeter × 2.54
 
 ```csharp
 public static readonly Length Inch;

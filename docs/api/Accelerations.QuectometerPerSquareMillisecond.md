@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareMillisecond Field
 
-A(n) quectometer per square millisecond. Defined as: (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)) × rontometer per square centisecond.
+quectometer per square millisecond, defined as: rontometer per square centisecond × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareMillisecond;

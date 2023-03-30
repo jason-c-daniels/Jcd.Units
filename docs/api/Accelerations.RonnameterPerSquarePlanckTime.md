@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquarePlanckTime Field
 
-A(n) ronnameter per square planck-time. Defined as: (1000.0)/((5.391247E-38)*(5.391247E-38)) × yottameter per square microsecond.
+ronnameter per square planck-time, defined as: yottameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquarePlanckTime;

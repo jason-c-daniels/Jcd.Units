@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerPlanckTime Field
 
-A(n) mile per planck-time. Defined as: (8.0)/(5.391247E-38) × furlong per microsecond.
+mile per planck-time, defined as: furlong per microsecond × (8.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity MilePerPlanckTime;

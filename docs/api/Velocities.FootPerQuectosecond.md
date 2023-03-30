@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerQuectosecond Field
 
-A(n) foot per quectosecond. Defined as: (12)/(1.0/1000.0) × inch per rontosecond.
+foot per quectosecond, defined as: inch per rontosecond × (12)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity FootPerQuectosecond;

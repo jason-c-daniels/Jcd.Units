@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerAttosecond Field
 
-A(n) hectometer per attosecond. Defined as: (10.0)/(1.0/1000.0) × dekameter per femtosecond.
+hectometer per attosecond, defined as: dekameter per femtosecond × (10.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity HectometerPerAttosecond;

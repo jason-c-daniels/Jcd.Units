@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Zettacandela Field
 
-A(n) zettacandela. Defined as: 1000.0 × exacandela.
+zettacandela, defined as: exacandela × 1000.0
 
 ```csharp
 public static readonly LuminousIntensity Zettacandela;

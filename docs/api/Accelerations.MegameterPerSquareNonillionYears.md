@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareNonillionYears Field
 
-A(n) megameter per square nonillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × kilometer per square octillion years.
+megameter per square nonillion years, defined as: kilometer per square octillion years × (1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareNonillionYears;

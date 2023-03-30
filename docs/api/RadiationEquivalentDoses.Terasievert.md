@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Terasievert Field
 
-A(n) terasievert. Defined as: 1000.0 × gigasievert.
+terasievert, defined as: gigasievert × 1000.0
 
 ```csharp
 public static readonly RadiationEquivalentDose Terasievert;

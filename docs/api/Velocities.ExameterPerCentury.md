@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerCentury Field
 
-A(n) exameter per century. Defined as: (1000.0)/(10.0) × petameter per decade.
+exameter per century, defined as: petameter per decade × (1000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity ExameterPerCentury;

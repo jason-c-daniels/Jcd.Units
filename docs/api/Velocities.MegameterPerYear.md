@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerYear Field
 
-A(n) megameter per year. Defined as: (1000.0)/(365.2525) × kilometer per day.
+megameter per year, defined as: kilometer per day × (1000.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity MegameterPerYear;

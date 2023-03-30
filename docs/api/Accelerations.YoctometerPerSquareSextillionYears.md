@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareSextillionYears Field
 
-A(n) yoctometer per square sextillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × zeptometer per square quintillion years.
+yoctometer per square sextillion years, defined as: zeptometer per square quintillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration YoctometerPerSquareSextillionYears;

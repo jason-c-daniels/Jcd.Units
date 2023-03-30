@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareNanosecond Field
 
-A(n) meter per square nanosecond. Defined as: (1.0)/((1.0/1000.0)*(1.0/1000.0)) × meter per square microsecond.
+meter per square nanosecond, defined as: meter per square microsecond × (1.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MeterPerSquareNanosecond;

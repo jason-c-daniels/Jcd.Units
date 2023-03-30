@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerHour Field
 
-A(n) chain per hour. Defined as: (22.0)/(60.0) × yard per minute.
+chain per hour, defined as: yard per minute × (22.0)/(60.0)
 
 ```csharp
 public static readonly Velocity ChainPerHour;

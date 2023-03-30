@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareQuectosecond Field
 
-A(n) nanometer per square quectosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × micrometer per square rontosecond.
+nanometer per square quectosecond, defined as: micrometer per square rontosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareQuectosecond;

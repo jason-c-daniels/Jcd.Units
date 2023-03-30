@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerDay Field
 
-A(n) hand per day. Defined as: (4.0)/(24.0) × inch per hour.
+hand per day, defined as: inch per hour × (4.0)/(24.0)
 
 ```csharp
 public static readonly Velocity HandPerDay;

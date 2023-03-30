@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerWeek Field
 
-A(n) twip per week. Defined as: (1.0/17280.0)/(7.0) × foot per day.
+twip per week, defined as: foot per day × (1.0/17280.0)/(7.0)
 
 ```csharp
 public static readonly Velocity TwipPerWeek;

@@ -3,7 +3,7 @@
 
 ## TransferRates.TebinybblesPerSecond Field
 
-A(n) tebinybbles per second. Defined as: 1024.0 × gibinybbles per second.
+tebinybbles per second, defined as: gibinybbles per second × 1024.0
 
 ```csharp
 public static readonly TransferRate TebinybblesPerSecond;

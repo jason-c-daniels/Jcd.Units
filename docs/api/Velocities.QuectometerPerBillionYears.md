@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerBillionYears Field
 
-A(n) quectometer per billion years. Defined as: (1.0/1000.0)/(1000.0) × rontometer per million years.
+quectometer per billion years, defined as: rontometer per million years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity QuectometerPerBillionYears;

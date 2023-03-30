@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicTerameter Field
 
-A(n) dekagram per cubic terameter. Defined as: (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)) × hectogram per cubic gigameter.
+dekagram per cubic terameter, defined as: hectogram per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density DekagramPerCubicTerameter;

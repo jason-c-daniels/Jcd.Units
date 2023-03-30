@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareMillisecond Field
 
-A(n) exameter per square millisecond. Defined as: (1000.0)/((1.0/10.0)*(1.0/10.0)) × petameter per square centisecond.
+exameter per square millisecond, defined as: petameter per square centisecond × (1000.0)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareMillisecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareWeek Field
 
-A(n) mil per square week. Defined as: (1.0/1000.0)/((7.0)*(7.0)) × inch per square day.
+mil per square week, defined as: inch per square day × (1.0/1000.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration MilPerSquareWeek;

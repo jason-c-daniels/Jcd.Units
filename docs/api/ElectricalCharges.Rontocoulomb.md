@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Rontocoulomb Field
 
-A(n) rontocoulomb. Defined as: 1.0/1000.0 × yoctocoulomb.
+rontocoulomb, defined as: yoctocoulomb × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalCharge Rontocoulomb;

@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareYear Field
 
-A(n) rontometer per square year. Defined as: (1.0/1000.0)/((365.2525)*(365.2525)) × yoctometer per square day.
+rontometer per square year, defined as: yoctometer per square day × (1.0/1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareYear;

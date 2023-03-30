@@ -3,7 +3,7 @@
 
 ## Pressures.Zettapascal Field
 
-A(n) zettapascal. Defined as: 1000.0 × exapascal.
+zettapascal, defined as: exapascal × 1000.0
 
 ```csharp
 public static readonly Pressure Zettapascal;

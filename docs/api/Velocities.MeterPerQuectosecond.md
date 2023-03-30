@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerQuectosecond Field
 
-A(n) meter per quectosecond. Defined as: (1.0)/(1.0/1000.0) × meter per rontosecond.
+meter per quectosecond, defined as: meter per rontosecond × (1.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity MeterPerQuectosecond;

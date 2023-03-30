@@ -3,7 +3,7 @@
 
 ## TransferRates.YottabytesPerSecond Field
 
-A(n) yottabytes per second. Defined as: 1000.0 × zettabytes per second.
+yottabytes per second, defined as: zettabytes per second × 1000.0
 
 ```csharp
 public static readonly TransferRate YottabytesPerSecond;

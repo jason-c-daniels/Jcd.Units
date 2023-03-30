@@ -3,7 +3,7 @@
 
 ## Energies.Rontojoule Field
 
-A(n) rontojoule. Defined as: 1.0/1000.0 × yoctojoule.
+rontojoule, defined as: yoctojoule × 1.0/1000.0
 
 ```csharp
 public static readonly Energy Rontojoule;

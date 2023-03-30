@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerQuadrillionYears Field
 
-A(n) inch per quadrillion years. Defined as: (2.54)/(1000.0) × SI centimeter per trillion years.
+inch per quadrillion years, defined as: SI centimeter per trillion years × (2.54)/(1000.0)
 
 ```csharp
 public static readonly Velocity InchPerQuadrillionYears;

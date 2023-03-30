@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareRontosecond Field
 
-A(n) decimeter per square rontosecond. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)) × meter per square yoctosecond.
+decimeter per square rontosecond, defined as: meter per square yoctosecond × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquareRontosecond;

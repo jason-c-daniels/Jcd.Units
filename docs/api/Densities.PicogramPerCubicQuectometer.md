@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicQuectometer Field
 
-A(n) picogram per cubic quectometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × nanogram per cubic rontometer.
+picogram per cubic quectometer, defined as: nanogram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density PicogramPerCubicQuectometer;

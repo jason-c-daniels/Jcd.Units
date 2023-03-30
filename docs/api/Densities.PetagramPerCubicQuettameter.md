@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicQuettameter Field
 
-A(n) petagram per cubic quettameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × teragram per cubic ronnameter.
+petagram per cubic quettameter, defined as: teragram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density PetagramPerCubicQuettameter;

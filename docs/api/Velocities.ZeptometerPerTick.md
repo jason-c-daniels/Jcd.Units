@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerTick Field
 
-A(n) zeptometer per tick. Defined as: (1.0/1000.0)/(100.0) × attometer per nanosecond.
+zeptometer per tick, defined as: attometer per nanosecond × (1.0/1000.0)/(100.0)
 
 ```csharp
 public static readonly Velocity ZeptometerPerTick;

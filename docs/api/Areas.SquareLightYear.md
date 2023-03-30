@@ -3,7 +3,7 @@
 
 ## Areas.SquareLightYear Field
 
-A(n) square light-year. Defined as: (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0) × SI square meter.
+square light-year, defined as: SI square meter × (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)
 
 ```csharp
 public static readonly Area SquareLightYear;

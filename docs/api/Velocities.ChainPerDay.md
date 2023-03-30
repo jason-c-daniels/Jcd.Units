@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerDay Field
 
-A(n) chain per day. Defined as: (22.0)/(24.0) × yard per hour.
+chain per day, defined as: yard per hour × (22.0)/(24.0)
 
 ```csharp
 public static readonly Velocity ChainPerDay;

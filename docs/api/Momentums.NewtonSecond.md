@@ -3,7 +3,7 @@
 
 ## Momentums.NewtonSecond Field
 
-A(n) newton-second.
+newton-second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
 
 ```csharp
 public static readonly Momentum NewtonSecond;

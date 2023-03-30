@@ -21,6 +21,8 @@ public class SourceCodeGenerator
    private const string DefaultBaseNamespace = "Jcd.Units.UnitTypes";
    private const string DefaultUnitOfMeasureNamespace = "Jcd.Units.UnitsOfMeasure";
    private readonly string? _baseUnitTemplate;
+   private readonly string? _derivedUnitNoCoefficientTemplate;
+   private readonly string? _derivedUnitSynonymTemplate;
    private readonly string? _derivedUnitTemplate;
    private readonly string? _derivedUnitWithOffsetTemplate;
    private readonly string? _enumerationTemplate;
@@ -51,6 +53,12 @@ public class SourceCodeGenerator
       _derivedUnitWithOffsetTemplate = EmbeddedResource.ReadString("DerivedUnitWithOffset.template")
                                     ?? throw new ArgumentNullException("DerivedUnitWithOffset.template");
 
+      _derivedUnitNoCoefficientTemplate = EmbeddedResource.ReadString("DerivedUnitNoCoefficient.template")
+                                       ?? throw new ArgumentNullException("DerivedUnitNoCoefficient.template");
+
+      _derivedUnitSynonymTemplate = EmbeddedResource.ReadString("DerivedUnitSynonym.template")
+                                 ?? throw new ArgumentNullException("DerivedUnitSynonym.template");
+
       _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template")
                           ?? throw new ArgumentNullException("Enumeration.template");
 
@@ -71,9 +79,17 @@ public class SourceCodeGenerator
 
    private string GenerateUnit(UnitDefinition unitDef, string baseNamespace = DefaultBaseNamespace)
    {
-      var template = unitDef.IsBaseUnit ? _baseUnitTemplate : _derivedUnitTemplate;
+      var hasOffset      = !double.TryParse(unitDef.Offset, out var offset)           || offset      != 0.0;
+      var hasCoefficient = !double.TryParse(unitDef.Coefficient, out var coefficient) || coefficient != 1.0;
+      var template       = _baseUnitTemplate;
 
-      if (!double.TryParse(unitDef.Offset, out var offset) || offset != 0.0) template = _derivedUnitWithOffsetTemplate;
+      if (!unitDef.IsBaseUnit)
+      {
+         if (!hasCoefficient      && !hasOffset) template = _derivedUnitSynonymTemplate;
+         else if (!hasCoefficient && hasOffset) template  = _derivedUnitNoCoefficientTemplate;
+         else if (hasCoefficient  && hasOffset) template  = _derivedUnitWithOffsetTemplate;
+         else if (hasCoefficient  && !hasOffset) template = _derivedUnitTemplate;
+      }
 
       var baseSystem = _systemLookup[unitDef.Unit.BaseUnitSystem];
 

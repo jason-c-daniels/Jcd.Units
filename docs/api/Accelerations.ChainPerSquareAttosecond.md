@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareAttosecond Field
 
-A(n) chain per square attosecond. Defined as: (22.0)/((1.0/1000.0)*(1.0/1000.0)) × yard per square femtosecond.
+chain per square attosecond, defined as: yard per square femtosecond × (22.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ChainPerSquareAttosecond;

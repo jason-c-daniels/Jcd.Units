@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicTerameter Field
 
-A(n) picogram per cubic terameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × nanogram per cubic gigameter.
+picogram per cubic terameter, defined as: nanogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density PicogramPerCubicTerameter;

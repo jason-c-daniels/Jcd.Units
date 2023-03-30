@@ -3,7 +3,7 @@
 
 ## Volumes.Nanoliter Field
 
-A(n) nanoliter. Defined as: 1.0/1000.0 × microliter.
+nanoliter, defined as: microliter × 1.0/1000.0
 
 ```csharp
 public static readonly Volume Nanoliter;

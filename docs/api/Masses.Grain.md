@@ -3,7 +3,7 @@
 
 ## Masses.Grain Field
 
-A(n) grain. Defined as: 64.79891 × SI milligram.
+grain, defined as: SI milligram × 64.79891
 
 ```csharp
 public static readonly Mass Grain;

@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerZeptosecond Field
 
-A(n) twip per zeptosecond. Defined as: (1.0/17280.0)/(1.0/1000.0) × foot per attosecond.
+twip per zeptosecond, defined as: foot per attosecond × (1.0/17280.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity TwipPerZeptosecond;

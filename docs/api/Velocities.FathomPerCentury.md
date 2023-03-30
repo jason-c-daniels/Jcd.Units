@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerCentury Field
 
-A(n) fathom per century. Defined as: (6.0)/(10.0) × foot per decade.
+fathom per century, defined as: foot per decade × (6.0)/(10.0)
 
 ```csharp
 public static readonly Velocity FathomPerCentury;

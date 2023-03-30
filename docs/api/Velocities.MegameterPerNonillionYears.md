@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerNonillionYears Field
 
-A(n) megameter per nonillion years. Defined as: (1000.0)/(1000.0) × kilometer per octillion years.
+megameter per nonillion years, defined as: kilometer per octillion years × (1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MegameterPerNonillionYears;

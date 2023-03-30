@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareSeptillionYears Field
 
-A(n) picometer per square septillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × nanometer per square sextillion years.
+picometer per square septillion years, defined as: nanometer per square sextillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareSeptillionYears;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Quettasiemens Field
 
-A(n) quettasiemens. Defined as: 1000.0 × ronnasiemens.
+quettasiemens, defined as: ronnasiemens × 1000.0
 
 ```csharp
 public static readonly ElectricalConductance Quettasiemens;

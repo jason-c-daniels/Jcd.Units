@@ -3,7 +3,7 @@
 
 ## Volumes.CubicQuectometer Field
 
-A(n) cubic quectometer. Defined as: (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0) × cubic rontometer.
+cubic quectometer, defined as: cubic rontometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
 
 ```csharp
 public static readonly Volume CubicQuectometer;

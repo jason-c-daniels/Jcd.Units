@@ -3,7 +3,7 @@
 
 ## Forces.Meganewton Field
 
-A(n) meganewton. Defined as: 1000.0 × kilonewton.
+meganewton, defined as: kilonewton × 1000.0
 
 ```csharp
 public static readonly Force Meganewton;

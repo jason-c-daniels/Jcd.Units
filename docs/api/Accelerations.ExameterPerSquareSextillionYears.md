@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareSextillionYears Field
 
-A(n) exameter per square sextillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × petameter per square quintillion years.
+exameter per square sextillion years, defined as: petameter per square quintillion years × (1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareSextillionYears;

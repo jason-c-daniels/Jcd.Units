@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Attocoulomb Field
 
-A(n) attocoulomb. Defined as: 1.0/1000.0 × femtocoulomb.
+attocoulomb, defined as: femtocoulomb × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalCharge Attocoulomb;

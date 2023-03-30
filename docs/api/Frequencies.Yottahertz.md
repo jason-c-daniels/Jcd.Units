@@ -3,7 +3,7 @@
 
 ## Frequencies.Yottahertz Field
 
-A(n) yottahertz. Defined as: 1000.0 × zettahertz.
+yottahertz, defined as: zettahertz × 1000.0
 
 ```csharp
 public static readonly Frequency Yottahertz;

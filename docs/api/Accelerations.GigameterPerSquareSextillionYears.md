@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareSextillionYears Field
 
-A(n) gigameter per square sextillion years. Defined as: (1000.0)/((1000.0)*(1000.0)) × megameter per square quintillion years.
+gigameter per square sextillion years, defined as: megameter per square quintillion years × (1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareSextillionYears;

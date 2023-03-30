@@ -18,127 +18,127 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Inductances : UnitOfMeasureEnumeration<Inductances, Inductance>
 {
    /// <summary>
-   /// A(n) henry.
+   /// henry, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Inductance Henry = new ("henry", "H");
 
    /// <summary>
-   /// A(n) decihenry. Defined as: 1.0/10.0 × henry.
+   /// decihenry, defined as: henry × 1.0/10.0
    /// </summary>
-   public static readonly Inductance Decihenry = new ("decihenry", "dH", Henry, 1.0 / 10.0, 0);
+   public static readonly Inductance Decihenry = new ("decihenry", "dH", Henry, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) centihenry. Defined as: 1.0/10.0 × decihenry.
+   /// centihenry, defined as: decihenry × 1.0/10.0
    /// </summary>
-   public static readonly Inductance Centihenry = new ("centihenry", "cH", Decihenry, 1.0 / 10.0, 0);
+   public static readonly Inductance Centihenry = new ("centihenry", "cH", Decihenry, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) millihenry. Defined as: 1.0/10.0 × centihenry.
+   /// millihenry, defined as: centihenry × 1.0/10.0
    /// </summary>
-   public static readonly Inductance Millihenry = new ("millihenry", "mH", Centihenry, 1.0 / 10.0, 0);
+   public static readonly Inductance Millihenry = new ("millihenry", "mH", Centihenry, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) microhenry. Defined as: 1.0/1000.0 × millihenry.
+   /// microhenry, defined as: millihenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Microhenry = new ("microhenry", "μH", Millihenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Microhenry = new ("microhenry", "μH", Millihenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) nanohenry. Defined as: 1.0/1000.0 × microhenry.
+   /// nanohenry, defined as: microhenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Nanohenry = new ("nanohenry", "nH", Microhenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Nanohenry = new ("nanohenry", "nH", Microhenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) picohenry. Defined as: 1.0/1000.0 × nanohenry.
+   /// picohenry, defined as: nanohenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Picohenry = new ("picohenry", "pH", Nanohenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Picohenry = new ("picohenry", "pH", Nanohenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) femtohenry. Defined as: 1.0/1000.0 × picohenry.
+   /// femtohenry, defined as: picohenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Femtohenry = new ("femtohenry", "fH", Picohenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Femtohenry = new ("femtohenry", "fH", Picohenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) attohenry. Defined as: 1.0/1000.0 × femtohenry.
+   /// attohenry, defined as: femtohenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Attohenry = new ("attohenry", "aH", Femtohenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Attohenry = new ("attohenry", "aH", Femtohenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) zeptohenry. Defined as: 1.0/1000.0 × attohenry.
+   /// zeptohenry, defined as: attohenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Zeptohenry = new ("zeptohenry", "zH", Attohenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Zeptohenry = new ("zeptohenry", "zH", Attohenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) yoctohenry. Defined as: 1.0/1000.0 × zeptohenry.
+   /// yoctohenry, defined as: zeptohenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Yoctohenry = new ("yoctohenry", "yH", Zeptohenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Yoctohenry = new ("yoctohenry", "yH", Zeptohenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) rontohenry. Defined as: 1.0/1000.0 × yoctohenry.
+   /// rontohenry, defined as: yoctohenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Rontohenry = new ("rontohenry", "rH", Yoctohenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Rontohenry = new ("rontohenry", "rH", Yoctohenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) quectohenry. Defined as: 1.0/1000.0 × rontohenry.
+   /// quectohenry, defined as: rontohenry × 1.0/1000.0
    /// </summary>
-   public static readonly Inductance Quectohenry = new ("quectohenry", "qH", Rontohenry, 1.0 / 1000.0, 0);
+   public static readonly Inductance Quectohenry = new ("quectohenry", "qH", Rontohenry, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) dekahenry. Defined as: 10.0 × henry.
+   /// dekahenry, defined as: henry × 10.0
    /// </summary>
-   public static readonly Inductance Dekahenry = new ("dekahenry", "daH", Henry, 10.0, 0);
+   public static readonly Inductance Dekahenry = new ("dekahenry", "daH", Henry, 10.0);
 
    /// <summary>
-   /// A(n) hectohenry. Defined as: 10.0 × dekahenry.
+   /// hectohenry, defined as: dekahenry × 10.0
    /// </summary>
-   public static readonly Inductance Hectohenry = new ("hectohenry", "hH", Dekahenry, 10.0, 0);
+   public static readonly Inductance Hectohenry = new ("hectohenry", "hH", Dekahenry, 10.0);
 
    /// <summary>
-   /// A(n) kilohenry. Defined as: 10.0 × hectohenry.
+   /// kilohenry, defined as: hectohenry × 10.0
    /// </summary>
-   public static readonly Inductance Kilohenry = new ("kilohenry", "kH", Hectohenry, 10.0, 0);
+   public static readonly Inductance Kilohenry = new ("kilohenry", "kH", Hectohenry, 10.0);
 
    /// <summary>
-   /// A(n) megahenry. Defined as: 1000.0 × kilohenry.
+   /// megahenry, defined as: kilohenry × 1000.0
    /// </summary>
-   public static readonly Inductance Megahenry = new ("megahenry", "MH", Kilohenry, 1000.0, 0);
+   public static readonly Inductance Megahenry = new ("megahenry", "MH", Kilohenry, 1000.0);
 
    /// <summary>
-   /// A(n) gigahenry. Defined as: 1000.0 × megahenry.
+   /// gigahenry, defined as: megahenry × 1000.0
    /// </summary>
-   public static readonly Inductance Gigahenry = new ("gigahenry", "GH", Megahenry, 1000.0, 0);
+   public static readonly Inductance Gigahenry = new ("gigahenry", "GH", Megahenry, 1000.0);
 
    /// <summary>
-   /// A(n) terahenry. Defined as: 1000.0 × gigahenry.
+   /// terahenry, defined as: gigahenry × 1000.0
    /// </summary>
-   public static readonly Inductance Terahenry = new ("terahenry", "TH", Gigahenry, 1000.0, 0);
+   public static readonly Inductance Terahenry = new ("terahenry", "TH", Gigahenry, 1000.0);
 
    /// <summary>
-   /// A(n) petahenry. Defined as: 1000.0 × terahenry.
+   /// petahenry, defined as: terahenry × 1000.0
    /// </summary>
-   public static readonly Inductance Petahenry = new ("petahenry", "PH", Terahenry, 1000.0, 0);
+   public static readonly Inductance Petahenry = new ("petahenry", "PH", Terahenry, 1000.0);
 
    /// <summary>
-   /// A(n) exahenry. Defined as: 1000.0 × petahenry.
+   /// exahenry, defined as: petahenry × 1000.0
    /// </summary>
-   public static readonly Inductance Exahenry = new ("exahenry", "EH", Petahenry, 1000.0, 0);
+   public static readonly Inductance Exahenry = new ("exahenry", "EH", Petahenry, 1000.0);
 
    /// <summary>
-   /// A(n) zettahenry. Defined as: 1000.0 × exahenry.
+   /// zettahenry, defined as: exahenry × 1000.0
    /// </summary>
-   public static readonly Inductance Zettahenry = new ("zettahenry", "ZH", Exahenry, 1000.0, 0);
+   public static readonly Inductance Zettahenry = new ("zettahenry", "ZH", Exahenry, 1000.0);
 
    /// <summary>
-   /// A(n) yottahenry. Defined as: 1000.0 × zettahenry.
+   /// yottahenry, defined as: zettahenry × 1000.0
    /// </summary>
-   public static readonly Inductance Yottahenry = new ("yottahenry", "YH", Zettahenry, 1000.0, 0);
+   public static readonly Inductance Yottahenry = new ("yottahenry", "YH", Zettahenry, 1000.0);
 
    /// <summary>
-   /// A(n) ronnahenry. Defined as: 1000.0 × yottahenry.
+   /// ronnahenry, defined as: yottahenry × 1000.0
    /// </summary>
-   public static readonly Inductance Ronnahenry = new ("ronnahenry", "RH", Yottahenry, 1000.0, 0);
+   public static readonly Inductance Ronnahenry = new ("ronnahenry", "RH", Yottahenry, 1000.0);
 
    /// <summary>
-   /// A(n) quettahenry. Defined as: 1000.0 × ronnahenry.
+   /// quettahenry, defined as: ronnahenry × 1000.0
    /// </summary>
-   public static readonly Inductance Quettahenry = new ("quettahenry", "QH", Ronnahenry, 1000.0, 0);
+   public static readonly Inductance Quettahenry = new ("quettahenry", "QH", Ronnahenry, 1000.0);
 }

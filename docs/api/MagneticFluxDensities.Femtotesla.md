@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Femtotesla Field
 
-A(n) femtotesla. Defined as: 1.0/1000.0 × picotesla.
+femtotesla, defined as: picotesla × 1.0/1000.0
 
 ```csharp
 public static readonly MagneticFluxDensity Femtotesla;

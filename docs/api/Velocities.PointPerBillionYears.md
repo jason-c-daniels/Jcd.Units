@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerBillionYears Field
 
-A(n) point per billion years. Defined as: (1.0/72.0)/(1000.0) × inch per million years.
+point per billion years, defined as: inch per million years × (1.0/72.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity PointPerBillionYears;

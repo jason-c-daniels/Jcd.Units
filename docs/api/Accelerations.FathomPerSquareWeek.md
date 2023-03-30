@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareWeek Field
 
-A(n) fathom per square week. Defined as: (6.0)/((7.0)*(7.0)) × foot per square day.
+fathom per square week, defined as: foot per square day × (6.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration FathomPerSquareWeek;

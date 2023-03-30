@@ -3,7 +3,7 @@
 
 ## Forces.PlanckForce Field
 
-A(n) planck-force. Defined as: 1.2103E+44 × SI newton.
+planck-force, defined as: SI newton × 1.2103E+44
 
 ```csharp
 public static readonly Force PlanckForce;

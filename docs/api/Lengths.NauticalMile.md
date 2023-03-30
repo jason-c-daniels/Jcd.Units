@@ -3,7 +3,7 @@
 
 ## Lengths.NauticalMile Field
 
-A(n) nautical mile. Defined as: 10.0 × cable.
+nautical mile, defined as: cable × 10.0
 
 ```csharp
 public static readonly Length NauticalMile;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareMillennium Field
 
-A(n) millimeter per square millennium. Defined as: (1.0/10.0)/((10.0)*(10.0)) × centimeter per square century.
+millimeter per square millennium, defined as: centimeter per square century × (1.0/10.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareMillennium;

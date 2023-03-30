@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [PlanckMomentum](Momentums.PlanckMomentum.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Momentums.PlanckMomentum') | A(n) planck-momentum. Defined as: 6.5249 × SI newton-second. |
+| [PlanckMomentum](Momentums.PlanckMomentum.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Momentums.PlanckMomentum') | planck-momentum, defined as: SI newton-second × 6.5249 |

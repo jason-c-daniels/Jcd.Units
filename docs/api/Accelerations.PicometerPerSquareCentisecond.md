@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareCentisecond Field
 
-A(n) picometer per square centisecond. Defined as: (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)) × nanometer per square decisecond.
+picometer per square centisecond, defined as: nanometer per square decisecond × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareCentisecond;

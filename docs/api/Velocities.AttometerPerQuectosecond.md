@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerQuectosecond Field
 
-A(n) attometer per quectosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × femtometer per rontosecond.
+attometer per quectosecond, defined as: femtometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity AttometerPerQuectosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareYear Field
 
-A(n) megameter per square year. Defined as: (1000.0)/((365.2525)*(365.2525)) × kilometer per square day.
+megameter per square year, defined as: kilometer per square day × (1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareYear;

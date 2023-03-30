@@ -3,7 +3,7 @@
 
 ## Lengths.PlanckLength Field
 
-A(n) Planck-length. Defined as: 1.616255E-35 × SI meter.
+Planck-length, defined as: SI meter × 1.616255E-35
 
 ```csharp
 public static readonly Length PlanckLength;

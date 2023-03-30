@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attoweber](MagneticFluxes.Attoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Attoweber') | A(n) attoweber. Defined as: 1.0/1000.0 × femtoweber. |
-| [Centiweber](MagneticFluxes.Centiweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Centiweber') | A(n) centiweber. Defined as: 1.0/10.0 × deciweber. |
-| [Deciweber](MagneticFluxes.Deciweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Deciweber') | A(n) deciweber. Defined as: 1.0/10.0 × weber. |
-| [Dekaweber](MagneticFluxes.Dekaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Dekaweber') | A(n) dekaweber. Defined as: 10.0 × weber. |
-| [Exaweber](MagneticFluxes.Exaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Exaweber') | A(n) exaweber. Defined as: 1000.0 × petaweber. |
-| [Femtoweber](MagneticFluxes.Femtoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Femtoweber') | A(n) femtoweber. Defined as: 1.0/1000.0 × picoweber. |
-| [Gigaweber](MagneticFluxes.Gigaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Gigaweber') | A(n) gigaweber. Defined as: 1000.0 × megaweber. |
-| [Hectoweber](MagneticFluxes.Hectoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Hectoweber') | A(n) hectoweber. Defined as: 10.0 × dekaweber. |
-| [Kiloweber](MagneticFluxes.Kiloweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Kiloweber') | A(n) kiloweber. Defined as: 10.0 × hectoweber. |
-| [Megaweber](MagneticFluxes.Megaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Megaweber') | A(n) megaweber. Defined as: 1000.0 × kiloweber. |
-| [Microweber](MagneticFluxes.Microweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Microweber') | A(n) microweber. Defined as: 1.0/1000.0 × milliweber. |
-| [Milliweber](MagneticFluxes.Milliweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Milliweber') | A(n) milliweber. Defined as: 1.0/10.0 × centiweber. |
-| [Nanoweber](MagneticFluxes.Nanoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Nanoweber') | A(n) nanoweber. Defined as: 1.0/1000.0 × microweber. |
-| [Petaweber](MagneticFluxes.Petaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Petaweber') | A(n) petaweber. Defined as: 1000.0 × teraweber. |
-| [Picoweber](MagneticFluxes.Picoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Picoweber') | A(n) picoweber. Defined as: 1.0/1000.0 × nanoweber. |
-| [Quectoweber](MagneticFluxes.Quectoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Quectoweber') | A(n) quectoweber. Defined as: 1.0/1000.0 × rontoweber. |
-| [Quettaweber](MagneticFluxes.Quettaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Quettaweber') | A(n) quettaweber. Defined as: 1000.0 × ronnaweber. |
-| [Ronnaweber](MagneticFluxes.Ronnaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Ronnaweber') | A(n) ronnaweber. Defined as: 1000.0 × yottaweber. |
-| [Rontoweber](MagneticFluxes.Rontoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Rontoweber') | A(n) rontoweber. Defined as: 1.0/1000.0 × yoctoweber. |
-| [Teraweber](MagneticFluxes.Teraweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Teraweber') | A(n) teraweber. Defined as: 1000.0 × gigaweber. |
-| [Weber](MagneticFluxes.Weber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Weber') | A(n) weber. |
-| [Yoctoweber](MagneticFluxes.Yoctoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Yoctoweber') | A(n) yoctoweber. Defined as: 1.0/1000.0 × zeptoweber. |
-| [Yottaweber](MagneticFluxes.Yottaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Yottaweber') | A(n) yottaweber. Defined as: 1000.0 × zettaweber. |
-| [Zeptoweber](MagneticFluxes.Zeptoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Zeptoweber') | A(n) zeptoweber. Defined as: 1.0/1000.0 × attoweber. |
-| [Zettaweber](MagneticFluxes.Zettaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Zettaweber') | A(n) zettaweber. Defined as: 1000.0 × exaweber. |
+| [Attoweber](MagneticFluxes.Attoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Attoweber') | attoweber, defined as: femtoweber × 1.0/1000.0 |
+| [Centiweber](MagneticFluxes.Centiweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Centiweber') | centiweber, defined as: deciweber × 1.0/10.0 |
+| [Deciweber](MagneticFluxes.Deciweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Deciweber') | deciweber, defined as: weber × 1.0/10.0 |
+| [Dekaweber](MagneticFluxes.Dekaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Dekaweber') | dekaweber, defined as: weber × 10.0 |
+| [Exaweber](MagneticFluxes.Exaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Exaweber') | exaweber, defined as: petaweber × 1000.0 |
+| [Femtoweber](MagneticFluxes.Femtoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Femtoweber') | femtoweber, defined as: picoweber × 1.0/1000.0 |
+| [Gigaweber](MagneticFluxes.Gigaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Gigaweber') | gigaweber, defined as: megaweber × 1000.0 |
+| [Hectoweber](MagneticFluxes.Hectoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Hectoweber') | hectoweber, defined as: dekaweber × 10.0 |
+| [Kiloweber](MagneticFluxes.Kiloweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Kiloweber') | kiloweber, defined as: hectoweber × 10.0 |
+| [Megaweber](MagneticFluxes.Megaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Megaweber') | megaweber, defined as: kiloweber × 1000.0 |
+| [Microweber](MagneticFluxes.Microweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Microweber') | microweber, defined as: milliweber × 1.0/1000.0 |
+| [Milliweber](MagneticFluxes.Milliweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Milliweber') | milliweber, defined as: centiweber × 1.0/10.0 |
+| [Nanoweber](MagneticFluxes.Nanoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Nanoweber') | nanoweber, defined as: microweber × 1.0/1000.0 |
+| [Petaweber](MagneticFluxes.Petaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Petaweber') | petaweber, defined as: teraweber × 1000.0 |
+| [Picoweber](MagneticFluxes.Picoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Picoweber') | picoweber, defined as: nanoweber × 1.0/1000.0 |
+| [Quectoweber](MagneticFluxes.Quectoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Quectoweber') | quectoweber, defined as: rontoweber × 1.0/1000.0 |
+| [Quettaweber](MagneticFluxes.Quettaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Quettaweber') | quettaweber, defined as: ronnaweber × 1000.0 |
+| [Ronnaweber](MagneticFluxes.Ronnaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Ronnaweber') | ronnaweber, defined as: yottaweber × 1000.0 |
+| [Rontoweber](MagneticFluxes.Rontoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Rontoweber') | rontoweber, defined as: yoctoweber × 1.0/1000.0 |
+| [Teraweber](MagneticFluxes.Teraweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Teraweber') | teraweber, defined as: gigaweber × 1000.0 |
+| [Weber](MagneticFluxes.Weber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Weber') | weber, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
+| [Yoctoweber](MagneticFluxes.Yoctoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Yoctoweber') | yoctoweber, defined as: zeptoweber × 1.0/1000.0 |
+| [Yottaweber](MagneticFluxes.Yottaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Yottaweber') | yottaweber, defined as: zettaweber × 1000.0 |
+| [Zeptoweber](MagneticFluxes.Zeptoweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Zeptoweber') | zeptoweber, defined as: attoweber × 1.0/1000.0 |
+| [Zettaweber](MagneticFluxes.Zettaweber.md 'Jcd.Units.UnitsOfMeasure.SI.MagneticFluxes.Zettaweber') | zettaweber, defined as: exaweber × 1000.0 |

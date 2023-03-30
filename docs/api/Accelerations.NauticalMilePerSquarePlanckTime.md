@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquarePlanckTime Field
 
-A(n) nautical mile per square planck-time. Defined as: (10.0)/((5.391247E-38)*(5.391247E-38)) × cable per square microsecond.
+nautical mile per square planck-time, defined as: cable per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquarePlanckTime;

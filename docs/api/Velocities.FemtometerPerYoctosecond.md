@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerYoctosecond Field
 
-A(n) femtometer per yoctosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × picometer per zeptosecond.
+femtometer per yoctosecond, defined as: picometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity FemtometerPerYoctosecond;

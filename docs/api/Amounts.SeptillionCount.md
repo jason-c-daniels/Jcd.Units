@@ -3,7 +3,7 @@
 
 ## Amounts.SeptillionCount Field
 
-A(n) septillion count. Defined as: 1_000_000.0 × sextillion count.
+septillion count, defined as: sextillion count × 1_000_000.0
 
 ```csharp
 public static readonly Amount SeptillionCount;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareQuectosecond Field
 
-A(n) pica per square quectosecond. Defined as: (12.0)/((1.0/1000.0)*(1.0/1000.0)) × point per square rontosecond.
+pica per square quectosecond, defined as: point per square rontosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration PicaPerSquareQuectosecond;

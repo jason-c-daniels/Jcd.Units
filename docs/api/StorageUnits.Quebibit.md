@@ -3,7 +3,7 @@
 
 ## StorageUnits.Quebibit Field
 
-A(n) quebibit. Defined as: 1024.0 × robibit.
+quebibit, defined as: robibit × 1024.0
 
 ```csharp
 public static readonly Storage Quebibit;

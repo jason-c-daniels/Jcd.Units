@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareTick Field
 
-A(n) micrometer per square tick. Defined as: (1.0/1000.0)/((100.0)*(100.0)) × millimeter per square nanosecond.
+micrometer per square tick, defined as: millimeter per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareTick;

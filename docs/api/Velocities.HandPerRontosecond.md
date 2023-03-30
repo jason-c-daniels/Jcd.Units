@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerRontosecond Field
 
-A(n) hand per rontosecond. Defined as: (4.0)/(1.0/1000.0) × inch per yoctosecond.
+hand per rontosecond, defined as: inch per yoctosecond × (4.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity HandPerRontosecond;

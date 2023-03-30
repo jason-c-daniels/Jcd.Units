@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicFemtometer Field
 
-A(n) exagram per cubic femtometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × petagram per cubic picometer.
+exagram per cubic femtometer, defined as: petagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density ExagramPerCubicFemtometer;

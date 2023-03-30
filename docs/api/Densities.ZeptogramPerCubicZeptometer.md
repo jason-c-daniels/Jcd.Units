@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicZeptometer Field
 
-A(n) zeptogram per cubic zeptometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × attogram per cubic attometer.
+zeptogram per cubic zeptometer, defined as: attogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density ZeptogramPerCubicZeptometer;

@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareYear Field
 
-A(n) inch per square year. Defined as: (2.54)/((365.2525)*(365.2525)) × SI centimeter per square day.
+inch per square year, defined as: SI centimeter per square day × (2.54)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration InchPerSquareYear;

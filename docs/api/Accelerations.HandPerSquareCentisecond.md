@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareCentisecond Field
 
-A(n) hand per square centisecond. Defined as: (4.0)/((1.0/10.0)*(1.0/10.0)) × inch per square decisecond.
+hand per square centisecond, defined as: inch per square decisecond × (4.0)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration HandPerSquareCentisecond;

@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicNanometer Field
 
-A(n) teragram per cubic nanometer. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × gigagram per cubic micrometer.
+teragram per cubic nanometer, defined as: gigagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density TeragramPerCubicNanometer;

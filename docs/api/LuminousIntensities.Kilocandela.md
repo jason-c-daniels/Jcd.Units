@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Kilocandela Field
 
-A(n) kilocandela. Defined as: 10.0 × hectocandela.
+kilocandela, defined as: hectocandela × 10.0
 
 ```csharp
 public static readonly LuminousIntensity Kilocandela;

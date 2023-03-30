@@ -3,7 +3,7 @@
 
 ## Areas.SquareJovianCircumference Field
 
-A(n) square jovian circumference. Defined as: (Math.PI)*(Math.PI) × square jovian diameter.
+square jovian circumference, defined as: square jovian diameter × (Math.PI)*(Math.PI)
 
 ```csharp
 public static readonly Area SquareJovianCircumference;

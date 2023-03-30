@@ -3,7 +3,7 @@
 
 ## Momentums.PetanewtonSecond Field
 
-A(n) petanewton-second. Defined as: 1000.0 × teranewton-second.
+petanewton-second, defined as: teranewton-second × 1000.0
 
 ```csharp
 public static readonly Momentum PetanewtonSecond;

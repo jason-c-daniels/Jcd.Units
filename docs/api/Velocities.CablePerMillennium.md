@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerMillennium Field
 
-A(n) cable per millennium. Defined as: (100.0)/(10.0) × fathom per century.
+cable per millennium, defined as: fathom per century × (100.0)/(10.0)
 
 ```csharp
 public static readonly Velocity CablePerMillennium;

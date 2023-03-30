@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareFemtosecond Field
 
-A(n) inch per square femtosecond. Defined as: (2.54)/((1.0/1000.0)*(1.0/1000.0)) × SI centimeter per square picosecond.
+inch per square femtosecond, defined as: SI centimeter per square picosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration InchPerSquareFemtosecond;

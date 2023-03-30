@@ -3,7 +3,7 @@
 
 ## Areas.SquareTeraparsec Field
 
-A(n) square teraparsec. Defined as: (1000.0)*(1000.0) × square gigaparsec.
+square teraparsec, defined as: square gigaparsec × (1000.0)*(1000.0)
 
 ```csharp
 public static readonly Area SquareTeraparsec;

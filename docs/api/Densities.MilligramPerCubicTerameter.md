@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicTerameter Field
 
-A(n) milligram per cubic terameter. Defined as: (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)) × centigram per cubic gigameter.
+milligram per cubic terameter, defined as: centigram per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density MilligramPerCubicTerameter;

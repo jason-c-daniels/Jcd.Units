@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [PlanckTemperature](Temperatures.PlanckTemperature.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Temperatures.PlanckTemperature') | A(n) planck-temperature. Defined as: 1.416784E+32 × SI degrees kelvin. |
+| [PlanckTemperature](Temperatures.PlanckTemperature.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Temperatures.PlanckTemperature') | planck-temperature, defined as: SI degrees kelvin × 1.416784E+32 |

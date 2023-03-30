@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerWeek Field
 
-A(n) quectometer per week. Defined as: (1.0/1000.0)/(7.0) × rontometer per day.
+quectometer per week, defined as: rontometer per day × (1.0/1000.0)/(7.0)
 
 ```csharp
 public static readonly Velocity QuectometerPerWeek;

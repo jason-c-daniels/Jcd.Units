@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerDecillionYears Field
 
-A(n) nanometer per decillion years. Defined as: (1.0/1000.0)/(1000.0) × micrometer per nonillion years.
+nanometer per decillion years, defined as: micrometer per nonillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity NanometerPerDecillionYears;

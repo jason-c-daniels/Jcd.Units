@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareTick Field
 
-A(n) foot per square tick. Defined as: (12)/((100.0)*(100.0)) × inch per square nanosecond.
+foot per square tick, defined as: inch per square nanosecond × (12)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration FootPerSquareTick;

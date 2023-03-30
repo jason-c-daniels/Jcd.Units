@@ -18,483 +18,392 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
-   /// A(n) square light-year. Defined as: (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0) × SI square meter.
+   /// square light-year, defined as: SI square meter × (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)
    /// </summary>
    public static readonly Area SquareLightYear = new (
                                                       "square light-year"
                                                     , "ly²"
                                                     , SI.Areas.SquareMeter
                                                     , 9_460_730_472_580_800.0 * 9_460_730_472_580_800.0
-                                                    , 0
                                                      );
 
    /// <summary>
-   /// A(n) square light-second. Defined as: (299_792_458.0)*(299_792_458.0) × SI square meter.
+   /// square light-second, defined as: SI square meter × (299_792_458.0)*(299_792_458.0)
    /// </summary>
    public static readonly Area SquareLightSecond = new (
                                                         "square light-second"
                                                       , "ls²"
                                                       , SI.Areas.SquareMeter
                                                       , 299_792_458.0 * 299_792_458.0
-                                                      , 0
                                                        );
 
    /// <summary>
-   /// A(n) square light-minute. Defined as: (60.0)*(60.0) × square light-second.
+   /// square light-minute, defined as: square light-second × (60.0)*(60.0)
    /// </summary>
-   public static readonly Area SquareLightMinute = new (
-                                                        "square light-minute"
-                                                      , "lm²"
-                                                      , SquareLightSecond
-                                                      , 60.0 * 60.0
-                                                      , 0
-                                                       );
+   public static readonly Area SquareLightMinute = new ("square light-minute", "lm²", SquareLightSecond, 60.0 * 60.0);
 
    /// <summary>
-   /// A(n) square astronomical unit. Defined as: (149597870.691)*(149597870.691) × SI square kilometer.
+   /// square astronomical unit, defined as: SI square kilometer × (149597870.691)*(149597870.691)
    /// </summary>
    public static readonly Area SquareAstronomicalUnit = new (
                                                              "square astronomical unit"
                                                            , "AU²"
                                                            , SI.Areas.SquareKilometer
                                                            , 149597870.691 * 149597870.691
-                                                           , 0
                                                             );
 
    /// <summary>
-   /// A(n) square light-hour. Defined as: (60.0)*(60.0) × square light-minute.
+   /// square light-hour, defined as: square light-minute × (60.0)*(60.0)
    /// </summary>
-   public static readonly Area SquareLightHour = new ("square light-hour", "lh²", SquareLightMinute, 60.0 * 60.0, 0);
+   public static readonly Area SquareLightHour = new ("square light-hour", "lh²", SquareLightMinute, 60.0 * 60.0);
 
    /// <summary>
-   /// A(n) square light-day. Defined as: (24.0)*(24.0) × square light-hour.
+   /// square light-day, defined as: square light-hour × (24.0)*(24.0)
    /// </summary>
-   public static readonly Area SquareLightDay = new ("square light-day", "ld²", SquareLightHour, 24.0 * 24.0, 0);
+   public static readonly Area SquareLightDay = new ("square light-day", "ld²", SquareLightHour, 24.0 * 24.0);
 
    /// <summary>
-   /// A(n) square light-week. Defined as: (7.0)*(7.0) × square light-day.
+   /// square light-week, defined as: square light-day × (7.0)*(7.0)
    /// </summary>
-   public static readonly Area SquareLightWeek = new ("square light-week", "lw²", SquareLightDay, 7.0 * 7.0, 0);
+   public static readonly Area SquareLightWeek = new ("square light-week", "lw²", SquareLightDay, 7.0 * 7.0);
 
    /// <summary>
-   /// A(n) square parsec. Defined as: (3.2615637769757)*(3.2615637769757) × square light-year.
+   /// square parsec, defined as: square light-year × (3.2615637769757)*(3.2615637769757)
    /// </summary>
    public static readonly Area SquareParsec = new (
                                                    "square parsec"
                                                  , "pc²"
                                                  , SquareLightYear
                                                  , 3.2615637769757 * 3.2615637769757
-                                                 , 0
                                                   );
 
    /// <summary>
-   /// A(n) square earth radius. Defined as: (6_371.0)*(6_371.0) × SI square kilometer.
+   /// square earth radius, defined as: SI square kilometer × (6_371.0)*(6_371.0)
    /// </summary>
    public static readonly Area SquareEarthRadius = new (
                                                         "square earth radius"
                                                       , "R(⊕)²"
                                                       , SI.Areas.SquareKilometer
                                                       , 6_371.0 * 6_371.0
-                                                      , 0
                                                        );
 
    /// <summary>
-   /// A(n) square jovian radius. Defined as: (69_911.0)*(69_911.0) × SI square kilometer.
+   /// square jovian radius, defined as: SI square kilometer × (69_911.0)*(69_911.0)
    /// </summary>
    public static readonly Area SquareJovianRadius = new (
                                                          "square jovian radius"
                                                        , "R(J)²"
                                                        , SI.Areas.SquareKilometer
                                                        , 69_911.0 * 69_911.0
-                                                       , 0
                                                         );
 
    /// <summary>
-   /// A(n) square lunar radius. Defined as: (1_737.4)*(1_737.4) × SI square kilometer.
+   /// square lunar radius, defined as: SI square kilometer × (1_737.4)*(1_737.4)
    /// </summary>
    public static readonly Area SquareLunarRadius = new (
                                                         "square lunar radius"
                                                       , "R(L)²"
                                                       , SI.Areas.SquareKilometer
                                                       , 1_737.4 * 1_737.4
-                                                      , 0
                                                        );
 
    /// <summary>
-   /// A(n) square mars radius. Defined as: (3_389.5)*(3_389.5) × SI square kilometer.
+   /// square mars radius, defined as: SI square kilometer × (3_389.5)*(3_389.5)
    /// </summary>
    public static readonly Area SquareMarsRadius = new (
                                                        "square mars radius"
                                                      , "R(♂)²"
                                                      , SI.Areas.SquareKilometer
                                                      , 3_389.5 * 3_389.5
-                                                     , 0
                                                       );
 
    /// <summary>
-   /// A(n) square solar radius. Defined as: (695_700.0)*(695_700.0) × SI square kilometer.
+   /// square solar radius, defined as: SI square kilometer × (695_700.0)*(695_700.0)
    /// </summary>
    public static readonly Area SquareSolarRadius = new (
                                                         "square solar radius"
                                                       , "R(☉)²"
                                                       , SI.Areas.SquareKilometer
                                                       , 695_700.0 * 695_700.0
-                                                      , 0
                                                        );
 
    /// <summary>
-   /// A(n) square earth diameter. Defined as: (2.0)*(2.0) × square earth radius.
+   /// square earth diameter, defined as: square earth radius × (2.0)*(2.0)
    /// </summary>
    public static readonly Area SquareEarthDiameter = new (
                                                           "square earth diameter"
                                                         , "D(⊕)²"
                                                         , SquareEarthRadius
                                                         , 2.0 * 2.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square dekalight-year. Defined as: (10.0)*(10.0) × square light-year.
+   /// square dekalight-year, defined as: square light-year × (10.0)*(10.0)
    /// </summary>
    public static readonly Area SquareDekalightYear = new (
                                                           "square dekalight-year"
                                                         , "daly²"
                                                         , SquareLightYear
                                                         , 10.0 * 10.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square jovian diameter. Defined as: (2.0)*(2.0) × square jovian radius.
+   /// square jovian diameter, defined as: square jovian radius × (2.0)*(2.0)
    /// </summary>
    public static readonly Area SquareJovianDiameter = new (
                                                            "square jovian diameter"
                                                          , "D(J)²"
                                                          , SquareJovianRadius
                                                          , 2.0 * 2.0
-                                                         , 0
                                                           );
 
    /// <summary>
-   /// A(n) square hectolight-year. Defined as: (10.0)*(10.0) × square dekalight-year.
+   /// square hectolight-year, defined as: square dekalight-year × (10.0)*(10.0)
    /// </summary>
    public static readonly Area SquareHectolightYear = new (
                                                            "square hectolight-year"
                                                          , "hly²"
                                                          , SquareDekalightYear
                                                          , 10.0 * 10.0
-                                                         , 0
                                                           );
 
    /// <summary>
-   /// A(n) square lunar diameter. Defined as: (2.0)*(2.0) × square lunar radius.
+   /// square lunar diameter, defined as: square lunar radius × (2.0)*(2.0)
    /// </summary>
    public static readonly Area SquareLunarDiameter = new (
                                                           "square lunar diameter"
                                                         , "D(L)²"
                                                         , SquareLunarRadius
                                                         , 2.0 * 2.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square kilolight-year. Defined as: (10.0)*(10.0) × square hectolight-year.
+   /// square kilolight-year, defined as: square hectolight-year × (10.0)*(10.0)
    /// </summary>
    public static readonly Area SquareKilolightYear = new (
                                                           "square kilolight-year"
                                                         , "kly²"
                                                         , SquareHectolightYear
                                                         , 10.0 * 10.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square mars diameter. Defined as: (2.0)*(2.0) × square mars radius.
+   /// square mars diameter, defined as: square mars radius × (2.0)*(2.0)
    /// </summary>
-   public static readonly Area SquareMarsDiameter = new (
-                                                         "square mars diameter"
-                                                       , "D(♂)²"
-                                                       , SquareMarsRadius
-                                                       , 2.0 * 2.0
-                                                       , 0
-                                                        );
+   public static readonly Area SquareMarsDiameter = new ("square mars diameter", "D(♂)²", SquareMarsRadius, 2.0 * 2.0);
 
    /// <summary>
-   /// A(n) square megalight-year. Defined as: (1000.0)*(1000.0) × square kilolight-year.
+   /// square megalight-year, defined as: square kilolight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareMegalightYear = new (
                                                           "square megalight-year"
                                                         , "Mly²"
                                                         , SquareKilolightYear
                                                         , 1000.0 * 1000.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square solar diameter. Defined as: (2.0)*(2.0) × square solar radius.
+   /// square solar diameter, defined as: square solar radius × (2.0)*(2.0)
    /// </summary>
    public static readonly Area SquareSolarDiameter = new (
                                                           "square solar diameter"
                                                         , "D(☉)²"
                                                         , SquareSolarRadius
                                                         , 2.0 * 2.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square gigalight-year. Defined as: (1000.0)*(1000.0) × square megalight-year.
+   /// square gigalight-year, defined as: square megalight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareGigalightYear = new (
                                                           "square gigalight-year"
                                                         , "Gly²"
                                                         , SquareMegalightYear
                                                         , 1000.0 * 1000.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square earth circumference. Defined as: (Math.PI)*(Math.PI) × square earth diameter.
+   /// square earth circumference, defined as: square earth diameter × (Math.PI)*(Math.PI)
    /// </summary>
-   public static readonly Area SquareEarthCircumference = new (
-                                                               "square earth circumference"
-                                                             , "C(⊕)²"
-                                                             , SquareEarthDiameter
-                                                             , Math.PI * Math.PI
-                                                             , 0
-                                                              );
+   public static readonly Area SquareEarthCircumference =
+            new ("square earth circumference", "C(⊕)²", SquareEarthDiameter, Math.PI * Math.PI);
 
    /// <summary>
-   /// A(n) square teralight-year. Defined as: (1000.0)*(1000.0) × square gigalight-year.
+   /// square teralight-year, defined as: square gigalight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareTeralightYear = new (
                                                           "square teralight-year"
                                                         , "Tly²"
                                                         , SquareGigalightYear
                                                         , 1000.0 * 1000.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square jovian circumference. Defined as: (Math.PI)*(Math.PI) × square jovian diameter.
+   /// square jovian circumference, defined as: square jovian diameter × (Math.PI)*(Math.PI)
    /// </summary>
    public static readonly Area SquareJovianCircumference = new (
                                                                 "square jovian circumference"
                                                               , "C(J)²"
                                                               , SquareJovianDiameter
                                                               , Math.PI * Math.PI
-                                                              , 0
                                                                );
 
    /// <summary>
-   /// A(n) square petalight-year. Defined as: (1000.0)*(1000.0) × square teralight-year.
+   /// square petalight-year, defined as: square teralight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquarePetalightYear = new (
                                                           "square petalight-year"
                                                         , "Ply²"
                                                         , SquareTeralightYear
                                                         , 1000.0 * 1000.0
-                                                        , 0
                                                          );
 
    /// <summary>
-   /// A(n) square lunar circumference. Defined as: (Math.PI)*(Math.PI) × square lunar diameter.
+   /// square lunar circumference, defined as: square lunar diameter × (Math.PI)*(Math.PI)
    /// </summary>
-   public static readonly Area SquareLunarCircumference = new (
-                                                               "square lunar circumference"
-                                                             , "C(L)²"
-                                                             , SquareLunarDiameter
-                                                             , Math.PI * Math.PI
-                                                             , 0
-                                                              );
+   public static readonly Area SquareLunarCircumference =
+            new ("square lunar circumference", "C(L)²", SquareLunarDiameter, Math.PI * Math.PI);
 
    /// <summary>
-   /// A(n) square exalight-year. Defined as: (1000.0)*(1000.0) × square petalight-year.
+   /// square exalight-year, defined as: square petalight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareExalightYear = new (
                                                          "square exalight-year"
                                                        , "Ely²"
                                                        , SquarePetalightYear
                                                        , 1000.0 * 1000.0
-                                                       , 0
                                                         );
 
    /// <summary>
-   /// A(n) square mars circumference. Defined as: (Math.PI)*(Math.PI) × square mars diameter.
+   /// square mars circumference, defined as: square mars diameter × (Math.PI)*(Math.PI)
    /// </summary>
-   public static readonly Area SquareMarsCircumference = new (
-                                                              "square mars circumference"
-                                                            , "C(♂)²"
-                                                            , SquareMarsDiameter
-                                                            , Math.PI * Math.PI
-                                                            , 0
-                                                             );
+   public static readonly Area SquareMarsCircumference =
+            new ("square mars circumference", "C(♂)²", SquareMarsDiameter, Math.PI * Math.PI);
 
    /// <summary>
-   /// A(n) square zettalight-year. Defined as: (1000.0)*(1000.0) × square exalight-year.
+   /// square zettalight-year, defined as: square exalight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareZettalightYear = new (
                                                            "square zettalight-year"
                                                          , "Zly²"
                                                          , SquareExalightYear
                                                          , 1000.0 * 1000.0
-                                                         , 0
                                                           );
 
    /// <summary>
-   /// A(n) square solar circumference. Defined as: (Math.PI)*(Math.PI) × square solar diameter.
+   /// square solar circumference, defined as: square solar diameter × (Math.PI)*(Math.PI)
    /// </summary>
-   public static readonly Area SquareSolarCircumference = new (
-                                                               "square solar circumference"
-                                                             , "C(☉)²"
-                                                             , SquareSolarDiameter
-                                                             , Math.PI * Math.PI
-                                                             , 0
-                                                              );
+   public static readonly Area SquareSolarCircumference =
+            new ("square solar circumference", "C(☉)²", SquareSolarDiameter, Math.PI * Math.PI);
 
    /// <summary>
-   /// A(n) square yottalight-year. Defined as: (1000.0)*(1000.0) × square zettalight-year.
+   /// square yottalight-year, defined as: square zettalight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareYottalightYear = new (
                                                            "square yottalight-year"
                                                          , "Yly²"
                                                          , SquareZettalightYear
                                                          , 1000.0 * 1000.0
-                                                         , 0
                                                           );
 
    /// <summary>
-   /// A(n) square Planck-length. Defined as: (1.616255E-35)*(1.616255E-35) × SI square meter.
+   /// square Planck-length, defined as: SI square meter × (1.616255E-35)*(1.616255E-35)
    /// </summary>
    public static readonly Area SquarePlanckLength = new (
                                                          "square Planck-length"
                                                        , "ℓₚ²"
                                                        , SI.Areas.SquareMeter
                                                        , 1.616255E-35 * 1.616255E-35
-                                                       , 0
                                                         );
 
    /// <summary>
-   /// A(n) square ronnalight-year. Defined as: (1000.0)*(1000.0) × square yottalight-year.
+   /// square ronnalight-year, defined as: square yottalight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareRonnalightYear = new (
                                                            "square ronnalight-year"
                                                          , "Rly²"
                                                          , SquareYottalightYear
                                                          , 1000.0 * 1000.0
-                                                         , 0
                                                           );
 
    /// <summary>
-   /// A(n) square quettalight-year. Defined as: (1000.0)*(1000.0) × square ronnalight-year.
+   /// square quettalight-year, defined as: square ronnalight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareQuettalightYear =
-            new ("square quettalight-year", "Qly²", SquareRonnalightYear, 1000.0 * 1000.0, 0);
+            new ("square quettalight-year", "Qly²", SquareRonnalightYear, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square dekaparsec. Defined as: (10.0)*(10.0) × square parsec.
+   /// square dekaparsec, defined as: square parsec × (10.0)*(10.0)
    /// </summary>
-   public static readonly Area SquareDekaparsec = new ("square dekaparsec", "dapc²", SquareParsec, 10.0 * 10.0, 0);
+   public static readonly Area SquareDekaparsec = new ("square dekaparsec", "dapc²", SquareParsec, 10.0 * 10.0);
 
    /// <summary>
-   /// A(n) square hectoparsec. Defined as: (10.0)*(10.0) × square dekaparsec.
+   /// square hectoparsec, defined as: square dekaparsec × (10.0)*(10.0)
    /// </summary>
-   public static readonly Area SquareHectoparsec = new ("square hectoparsec", "hpc²", SquareDekaparsec, 10.0 * 10.0, 0);
+   public static readonly Area SquareHectoparsec = new ("square hectoparsec", "hpc²", SquareDekaparsec, 10.0 * 10.0);
 
    /// <summary>
-   /// A(n) square kiloparsec. Defined as: (10.0)*(10.0) × square hectoparsec.
+   /// square kiloparsec, defined as: square hectoparsec × (10.0)*(10.0)
    /// </summary>
-   public static readonly Area SquareKiloparsec = new ("square kiloparsec", "kpc²", SquareHectoparsec, 10.0 * 10.0, 0);
+   public static readonly Area SquareKiloparsec = new ("square kiloparsec", "kpc²", SquareHectoparsec, 10.0 * 10.0);
 
    /// <summary>
-   /// A(n) square megaparsec. Defined as: (1000.0)*(1000.0) × square kiloparsec.
+   /// square megaparsec, defined as: square kiloparsec × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareMegaparsec = new (
-                                                       "square megaparsec"
-                                                     , "Mpc²"
-                                                     , SquareKiloparsec
-                                                     , 1000.0 * 1000.0
-                                                     , 0
-                                                      );
+   public static readonly Area SquareMegaparsec = new ("square megaparsec", "Mpc²", SquareKiloparsec, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square gigaparsec. Defined as: (1000.0)*(1000.0) × square megaparsec.
+   /// square gigaparsec, defined as: square megaparsec × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareGigaparsec = new (
-                                                       "square gigaparsec"
-                                                     , "Gpc²"
-                                                     , SquareMegaparsec
-                                                     , 1000.0 * 1000.0
-                                                     , 0
-                                                      );
+   public static readonly Area SquareGigaparsec = new ("square gigaparsec", "Gpc²", SquareMegaparsec, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square teraparsec. Defined as: (1000.0)*(1000.0) × square gigaparsec.
+   /// square teraparsec, defined as: square gigaparsec × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareTeraparsec = new (
-                                                       "square teraparsec"
-                                                     , "Tpc²"
-                                                     , SquareGigaparsec
-                                                     , 1000.0 * 1000.0
-                                                     , 0
-                                                      );
+   public static readonly Area SquareTeraparsec = new ("square teraparsec", "Tpc²", SquareGigaparsec, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square petaparsec. Defined as: (1000.0)*(1000.0) × square teraparsec.
+   /// square petaparsec, defined as: square teraparsec × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquarePetaparsec = new (
-                                                       "square petaparsec"
-                                                     , "Ppc²"
-                                                     , SquareTeraparsec
-                                                     , 1000.0 * 1000.0
-                                                     , 0
-                                                      );
+   public static readonly Area SquarePetaparsec = new ("square petaparsec", "Ppc²", SquareTeraparsec, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square exaparsec. Defined as: (1000.0)*(1000.0) × square petaparsec.
+   /// square exaparsec, defined as: square petaparsec × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareExaparsec = new ("square exaparsec", "Epc²", SquarePetaparsec, 1000.0 * 1000.0, 0);
+   public static readonly Area SquareExaparsec = new ("square exaparsec", "Epc²", SquarePetaparsec, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square zettaparsec. Defined as: (1000.0)*(1000.0) × square exaparsec.
+   /// square zettaparsec, defined as: square exaparsec × (1000.0)*(1000.0)
    /// </summary>
-   public static readonly Area SquareZettaparsec = new (
-                                                        "square zettaparsec"
-                                                      , "Zpc²"
-                                                      , SquareExaparsec
-                                                      , 1000.0 * 1000.0
-                                                      , 0
-                                                       );
+   public static readonly Area SquareZettaparsec = new ("square zettaparsec", "Zpc²", SquareExaparsec, 1000.0 * 1000.0);
 
    /// <summary>
-   /// A(n) square yottaparsec. Defined as: (1000.0)*(1000.0) × square zettaparsec.
+   /// square yottaparsec, defined as: square zettaparsec × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareYottaparsec = new (
                                                         "square yottaparsec"
                                                       , "Ypc²"
                                                       , SquareZettaparsec
                                                       , 1000.0 * 1000.0
-                                                      , 0
                                                        );
 
    /// <summary>
-   /// A(n) square ronnaparsec. Defined as: (1000.0)*(1000.0) × square yottaparsec.
+   /// square ronnaparsec, defined as: square yottaparsec × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareRonnaparsec = new (
                                                         "square ronnaparsec"
                                                       , "Rpc²"
                                                       , SquareYottaparsec
                                                       , 1000.0 * 1000.0
-                                                      , 0
                                                        );
 
    /// <summary>
-   /// A(n) square quettaparsec. Defined as: (1000.0)*(1000.0) × square ronnaparsec.
+   /// square quettaparsec, defined as: square ronnaparsec × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareQuettaparsec = new (
                                                          "square quettaparsec"
                                                        , "Qpc²"
                                                        , SquareRonnaparsec
                                                        , 1000.0 * 1000.0
-                                                       , 0
                                                         );
 }

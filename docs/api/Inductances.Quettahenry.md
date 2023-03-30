@@ -3,7 +3,7 @@
 
 ## Inductances.Quettahenry Field
 
-A(n) quettahenry. Defined as: 1000.0 × ronnahenry.
+quettahenry, defined as: ronnahenry × 1000.0
 
 ```csharp
 public static readonly Inductance Quettahenry;

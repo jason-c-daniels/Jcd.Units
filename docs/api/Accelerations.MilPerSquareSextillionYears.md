@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareSextillionYears Field
 
-A(n) mil per square sextillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × inch per square quintillion years.
+mil per square sextillion years, defined as: inch per square quintillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MilPerSquareSextillionYears;

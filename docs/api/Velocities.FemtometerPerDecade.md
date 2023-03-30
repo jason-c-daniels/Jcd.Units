@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerDecade Field
 
-A(n) femtometer per decade. Defined as: (1.0/1000.0)/(10.0) × picometer per year.
+femtometer per decade, defined as: picometer per year × (1.0/1000.0)/(10.0)
 
 ```csharp
 public static readonly Velocity FemtometerPerDecade;

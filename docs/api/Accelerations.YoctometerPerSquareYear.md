@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareYear Field
 
-A(n) yoctometer per square year. Defined as: (1.0/1000.0)/((365.2525)*(365.2525)) × zeptometer per square day.
+yoctometer per square year, defined as: zeptometer per square day × (1.0/1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration YoctometerPerSquareYear;

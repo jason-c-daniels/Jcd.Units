@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerSecond Field
 
-A(n) centimeter per second. Defined as: (1.0/10.0)/(1.0) × decimeter per second.
+centimeter per second, defined as: decimeter per second × (1.0/10.0)/(1.0)
 
 ```csharp
 public static readonly Velocity CentimeterPerSecond;

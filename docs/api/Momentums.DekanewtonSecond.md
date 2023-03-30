@@ -3,7 +3,7 @@
 
 ## Momentums.DekanewtonSecond Field
 
-A(n) dekanewton-second. Defined as: 10.0 × newton-second.
+dekanewton-second, defined as: newton-second × 10.0
 
 ```csharp
 public static readonly Momentum DekanewtonSecond;

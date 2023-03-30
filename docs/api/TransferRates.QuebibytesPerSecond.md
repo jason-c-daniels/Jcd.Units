@@ -3,7 +3,7 @@
 
 ## TransferRates.QuebibytesPerSecond Field
 
-A(n) quebibytes per second. Defined as: 1024.0 × robibytes per second.
+quebibytes per second, defined as: robibytes per second × 1024.0
 
 ```csharp
 public static readonly TransferRate QuebibytesPerSecond;

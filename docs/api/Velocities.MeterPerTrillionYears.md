@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerTrillionYears Field
 
-A(n) meter per trillion years. Defined as: (1.0)/(1000.0) × meter per billion years.
+meter per trillion years, defined as: meter per billion years × (1.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MeterPerTrillionYears;

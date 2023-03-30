@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareDay Field
 
-A(n) inch per square day. Defined as: (2.54)/((24.0)*(24.0)) × SI centimeter per square hour.
+inch per square day, defined as: SI centimeter per square hour × (2.54)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration InchPerSquareDay;

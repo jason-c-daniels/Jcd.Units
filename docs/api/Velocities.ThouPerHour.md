@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerHour Field
 
-A(n) thou per hour. Defined as: (1.0/12000.0)/(60.0) × foot per minute.
+thou per hour, defined as: foot per minute × (1.0/12000.0)/(60.0)
 
 ```csharp
 public static readonly Velocity ThouPerHour;

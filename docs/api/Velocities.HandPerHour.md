@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerHour Field
 
-A(n) hand per hour. Defined as: (4.0)/(60.0) × inch per minute.
+hand per hour, defined as: inch per minute × (4.0)/(60.0)
 
 ```csharp
 public static readonly Velocity HandPerHour;

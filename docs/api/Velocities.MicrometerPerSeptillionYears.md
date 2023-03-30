@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerSeptillionYears Field
 
-A(n) micrometer per septillion years. Defined as: (1.0/1000.0)/(1000.0) × millimeter per sextillion years.
+micrometer per septillion years, defined as: millimeter per sextillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MicrometerPerSeptillionYears;

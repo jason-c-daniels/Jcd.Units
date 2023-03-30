@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Femtoweber Field
 
-A(n) femtoweber. Defined as: 1.0/1000.0 × picoweber.
+femtoweber, defined as: picoweber × 1.0/1000.0
 
 ```csharp
 public static readonly MagneticFlux Femtoweber;

@@ -3,7 +3,7 @@
 
 ## Energies.Nanojoule Field
 
-A(n) nanojoule. Defined as: 1.0/1000.0 × microjoule.
+nanojoule, defined as: microjoule × 1.0/1000.0
 
 ```csharp
 public static readonly Energy Nanojoule;

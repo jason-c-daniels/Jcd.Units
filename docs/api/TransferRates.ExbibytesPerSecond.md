@@ -3,7 +3,7 @@
 
 ## TransferRates.ExbibytesPerSecond Field
 
-A(n) exbibytes per second. Defined as: 1024.0 × pebibytes per second.
+exbibytes per second, defined as: pebibytes per second × 1024.0
 
 ```csharp
 public static readonly TransferRate ExbibytesPerSecond;

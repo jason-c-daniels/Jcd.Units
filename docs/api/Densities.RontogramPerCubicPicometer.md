@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicPicometer Field
 
-A(n) rontogram per cubic picometer. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × yoctogram per cubic nanometer.
+rontogram per cubic picometer, defined as: yoctogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density RontogramPerCubicPicometer;

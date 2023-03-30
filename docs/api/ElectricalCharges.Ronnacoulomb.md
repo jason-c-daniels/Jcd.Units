@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Ronnacoulomb Field
 
-A(n) ronnacoulomb. Defined as: 1000.0 × yottacoulomb.
+ronnacoulomb, defined as: yottacoulomb × 1000.0
 
 ```csharp
 public static readonly ElectricalCharge Ronnacoulomb;

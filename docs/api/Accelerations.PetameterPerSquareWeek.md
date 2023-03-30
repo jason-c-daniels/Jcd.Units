@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareWeek Field
 
-A(n) petameter per square week. Defined as: (1000.0)/((7.0)*(7.0)) × terameter per square day.
+petameter per square week, defined as: terameter per square day × (1000.0)/((7.0)*(7.0))
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareWeek;

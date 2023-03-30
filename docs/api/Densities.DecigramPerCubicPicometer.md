@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicPicometer Field
 
-A(n) decigram per cubic picometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × gram per cubic nanometer.
+decigram per cubic picometer, defined as: gram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density DecigramPerCubicPicometer;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicTwip Field
 
-A(n) cubic twip. Defined as: (1.0/17280.0)*(1.0/17280.0)*(1.0/17280.0) × cubic foot.
+cubic twip, defined as: cubic foot × (1.0/17280.0)*(1.0/17280.0)*(1.0/17280.0)
 
 ```csharp
 public static readonly Volume CubicTwip;

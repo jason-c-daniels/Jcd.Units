@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicDecimeter Field
 
-A(n) kilogram per cubic decimeter. Defined as: (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)) × kilogram per cubic meter.
+kilogram per cubic decimeter, defined as: kilogram per cubic meter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Density KilogramPerCubicDecimeter;

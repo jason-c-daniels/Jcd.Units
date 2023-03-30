@@ -3,7 +3,7 @@
 
 ## Areas.SquareZeptometer Field
 
-A(n) square zeptometer. Defined as: (1.0/1000.0)*(1.0/1000.0) × square attometer.
+square zeptometer, defined as: square attometer × (1.0/1000.0)*(1.0/1000.0)
 
 ```csharp
 public static readonly Area SquareZeptometer;

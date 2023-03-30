@@ -3,7 +3,7 @@
 
 ## TransferRates.YobinybblesPerSecond Field
 
-A(n) yobinybbles per second. Defined as: 1024.0 × zebinybbles per second.
+yobinybbles per second, defined as: zebinybbles per second × 1024.0
 
 ```csharp
 public static readonly TransferRate YobinybblesPerSecond;

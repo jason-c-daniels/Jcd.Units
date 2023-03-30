@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareRontosecond Field
 
-A(n) megameter per square rontosecond. Defined as: (1000.0)/((1.0/1000.0)*(1.0/1000.0)) × kilometer per square yoctosecond.
+megameter per square rontosecond, defined as: kilometer per square yoctosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareRontosecond;

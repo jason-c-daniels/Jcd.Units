@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicHectometer Field
 
-A(n) exagram per cubic hectometer. Defined as: (1000.0)/((10.0)*(10.0)*(10.0)) × petagram per cubic dekameter.
+exagram per cubic hectometer, defined as: petagram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
 
 ```csharp
 public static readonly Density ExagramPerCubicHectometer;

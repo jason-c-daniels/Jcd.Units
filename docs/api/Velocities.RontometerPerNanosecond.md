@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerNanosecond Field
 
-A(n) rontometer per nanosecond. Defined as: (1.0/1000.0)/(1.0/1000.0) × yoctometer per microsecond.
+rontometer per nanosecond, defined as: yoctometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity RontometerPerNanosecond;

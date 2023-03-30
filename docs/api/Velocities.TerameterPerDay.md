@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerDay Field
 
-A(n) terameter per day. Defined as: (1000.0)/(24.0) × gigameter per hour.
+terameter per day, defined as: gigameter per hour × (1000.0)/(24.0)
 
 ```csharp
 public static readonly Velocity TerameterPerDay;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareMicrosecond Field
 
-A(n) thou per square microsecond. Defined as: (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square millisecond.
+thou per square microsecond, defined as: foot per square millisecond × (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareMicrosecond;

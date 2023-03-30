@@ -3,7 +3,7 @@
 
 ## Frequencies.Microhertz Field
 
-A(n) microhertz. Defined as: 1.0/1000.0 × millihertz.
+microhertz, defined as: millihertz × 1.0/1000.0
 
 ```csharp
 public static readonly Frequency Microhertz;

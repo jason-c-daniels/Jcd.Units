@@ -3,7 +3,7 @@
 
 ## Pressures.Hectopascal Field
 
-A(n) hectopascal. Defined as: 10.0 × dekapascal.
+hectopascal, defined as: dekapascal × 10.0
 
 ```csharp
 public static readonly Pressure Hectopascal;

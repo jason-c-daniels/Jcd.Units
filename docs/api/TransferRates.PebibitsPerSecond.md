@@ -3,7 +3,7 @@
 
 ## TransferRates.PebibitsPerSecond Field
 
-A(n) pebibits per second. Defined as: 1024.0 × tebibits per second.
+pebibits per second, defined as: tebibits per second × 1024.0
 
 ```csharp
 public static readonly TransferRate PebibitsPerSecond;

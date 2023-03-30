@@ -3,7 +3,7 @@
 
 ## StorageUnits.Petabit Field
 
-A(n) petabit. Defined as: 1000.0 × terabit.
+petabit, defined as: terabit × 1000.0
 
 ```csharp
 public static readonly Storage Petabit;

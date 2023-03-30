@@ -3,7 +3,7 @@
 
 ## Durations.Second Field
 
-A(n) second.
+second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
 
 ```csharp
 public static readonly Duration Second;

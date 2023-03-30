@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareZeptosecond Field
 
-A(n) thou per square zeptosecond. Defined as: (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square attosecond.
+thou per square zeptosecond, defined as: foot per square attosecond × (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareZeptosecond;

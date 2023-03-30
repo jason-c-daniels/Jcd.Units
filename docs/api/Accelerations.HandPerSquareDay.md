@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareDay Field
 
-A(n) hand per square day. Defined as: (4.0)/((24.0)*(24.0)) × inch per square hour.
+hand per square day, defined as: inch per square hour × (4.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration HandPerSquareDay;

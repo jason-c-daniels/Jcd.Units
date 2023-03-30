@@ -20,11 +20,11 @@ public static class FileSystemService
 
       Console.WriteLine();
 
-      #if WRITE_TO_CONSOLE
+#if WRITE_TO_CONSOLE
       Console.WriteLine(fileContent);
-      #else
+#else
       File.WriteAllText(filePath, fileContent, Encoding.UTF8);
-      #endif
+#endif
    }
 
    public static void CreateDirectoryIfNeeded(string targetDir)

@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerDecade Field
 
-A(n) nautical mile per decade. Defined as: (10.0)/(10.0) × cable per year.
+nautical mile per decade, defined as: cable per year × (10.0)/(10.0)
 
 ```csharp
 public static readonly Velocity NauticalMilePerDecade;

@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicFemtometer Field
 
-A(n) centigram per cubic femtometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × decigram per cubic picometer.
+centigram per cubic femtometer, defined as: decigram per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density CentigramPerCubicFemtometer;

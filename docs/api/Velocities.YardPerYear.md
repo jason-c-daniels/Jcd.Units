@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerYear Field
 
-A(n) yard per year. Defined as: (3.0)/(365.2525) × foot per day.
+yard per year, defined as: foot per day × (3.0)/(365.2525)
 
 ```csharp
 public static readonly Velocity YardPerYear;

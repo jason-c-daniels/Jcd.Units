@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareNanosecond Field
 
-A(n) thou per square nanosecond. Defined as: (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0)) × foot per square microsecond.
+thou per square nanosecond, defined as: foot per square microsecond × (1.0/12000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration ThouPerSquareNanosecond;

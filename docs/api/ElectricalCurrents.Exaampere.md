@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Exaampere Field
 
-A(n) exaampere. Defined as: 1000.0 × petaampere.
+exaampere, defined as: petaampere × 1000.0
 
 ```csharp
 public static readonly ElectricalCurrent Exaampere;

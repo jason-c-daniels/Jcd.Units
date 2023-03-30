@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerOctillionYears Field
 
-A(n) mil per octillion years. Defined as: (1.0/1000.0)/(1000.0) × inch per septillion years.
+mil per octillion years, defined as: inch per septillion years × (1.0/1000.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity MilPerOctillionYears;

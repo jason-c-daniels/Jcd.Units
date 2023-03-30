@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareTrillionYears Field
 
-A(n) kilometer per square trillion years. Defined as: (10.0)/((1000.0)*(1000.0)) × hectometer per square billion years.
+kilometer per square trillion years, defined as: hectometer per square billion years × (10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareTrillionYears;

@@ -3,7 +3,7 @@
 
 ## Capacitances.Yottafarad Field
 
-A(n) yottafarad. Defined as: 1000.0 × zettafarad.
+yottafarad, defined as: zettafarad × 1000.0
 
 ```csharp
 public static readonly Capacitance Yottafarad;

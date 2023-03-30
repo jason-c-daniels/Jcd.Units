@@ -3,7 +3,7 @@
 
 ## Lengths.GigalightYear Field
 
-A(n) gigalight-year. Defined as: 1000.0 × megalight-year.
+gigalight-year, defined as: megalight-year × 1000.0
 
 ```csharp
 public static readonly Length GigalightYear;

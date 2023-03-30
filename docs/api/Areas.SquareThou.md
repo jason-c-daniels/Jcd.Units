@@ -3,7 +3,7 @@
 
 ## Areas.SquareThou Field
 
-A(n) square thou. Defined as: (1.0/12000.0)*(1.0/12000.0) × square foot.
+square thou, defined as: square foot × (1.0/12000.0)*(1.0/12000.0)
 
 ```csharp
 public static readonly Area SquareThou;

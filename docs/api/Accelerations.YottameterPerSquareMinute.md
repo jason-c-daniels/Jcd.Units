@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareMinute Field
 
-A(n) yottameter per square minute. Defined as: (1000.0)/((60.0)*(60.0)) × zettameter per square second.
+yottameter per square minute, defined as: zettameter per square second × (1000.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration YottameterPerSquareMinute;

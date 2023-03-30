@@ -3,7 +3,7 @@
 
 ## Amounts.SeptillionQuantity Field
 
-A(n) septillion quantity. Defined as: 1_000_000.0 × sextillion quantity.
+septillion quantity, defined as: sextillion quantity × 1_000_000.0
 
 ```csharp
 public static readonly Amount SeptillionQuantity;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareFemtosecond Field
 
-A(n) mil per square femtosecond. Defined as: (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)) × inch per square picosecond.
+mil per square femtosecond, defined as: inch per square picosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration MilPerSquareFemtosecond;

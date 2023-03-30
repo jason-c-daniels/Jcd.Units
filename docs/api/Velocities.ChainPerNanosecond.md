@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerNanosecond Field
 
-A(n) chain per nanosecond. Defined as: (22.0)/(1.0/1000.0) × yard per microsecond.
+chain per nanosecond, defined as: yard per microsecond × (22.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity ChainPerNanosecond;

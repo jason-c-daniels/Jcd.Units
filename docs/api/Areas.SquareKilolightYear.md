@@ -3,7 +3,7 @@
 
 ## Areas.SquareKilolightYear Field
 
-A(n) square kilolight-year. Defined as: (10.0)*(10.0) × square hectolight-year.
+square kilolight-year, defined as: square hectolight-year × (10.0)*(10.0)
 
 ```csharp
 public static readonly Area SquareKilolightYear;

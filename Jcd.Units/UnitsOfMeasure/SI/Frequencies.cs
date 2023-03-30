@@ -18,127 +18,127 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 public class Frequencies : UnitOfMeasureEnumeration<Frequencies, Frequency>
 {
    /// <summary>
-   /// A(n) hertz.
+   /// hertz, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
    public static readonly Frequency Hertz = new ("hertz", "Hz");
 
    /// <summary>
-   /// A(n) decihertz. Defined as: 1.0/10.0 × hertz.
+   /// decihertz, defined as: hertz × 1.0/10.0
    /// </summary>
-   public static readonly Frequency Decihertz = new ("decihertz", "dHz", Hertz, 1.0 / 10.0, 0);
+   public static readonly Frequency Decihertz = new ("decihertz", "dHz", Hertz, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) centihertz. Defined as: 1.0/10.0 × decihertz.
+   /// centihertz, defined as: decihertz × 1.0/10.0
    /// </summary>
-   public static readonly Frequency Centihertz = new ("centihertz", "cHz", Decihertz, 1.0 / 10.0, 0);
+   public static readonly Frequency Centihertz = new ("centihertz", "cHz", Decihertz, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) millihertz. Defined as: 1.0/10.0 × centihertz.
+   /// millihertz, defined as: centihertz × 1.0/10.0
    /// </summary>
-   public static readonly Frequency Millihertz = new ("millihertz", "mHz", Centihertz, 1.0 / 10.0, 0);
+   public static readonly Frequency Millihertz = new ("millihertz", "mHz", Centihertz, 1.0 / 10.0);
 
    /// <summary>
-   /// A(n) microhertz. Defined as: 1.0/1000.0 × millihertz.
+   /// microhertz, defined as: millihertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Microhertz = new ("microhertz", "μHz", Millihertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Microhertz = new ("microhertz", "μHz", Millihertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) nanohertz. Defined as: 1.0/1000.0 × microhertz.
+   /// nanohertz, defined as: microhertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Nanohertz = new ("nanohertz", "nHz", Microhertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Nanohertz = new ("nanohertz", "nHz", Microhertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) picohertz. Defined as: 1.0/1000.0 × nanohertz.
+   /// picohertz, defined as: nanohertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Picohertz = new ("picohertz", "pHz", Nanohertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Picohertz = new ("picohertz", "pHz", Nanohertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) femtohertz. Defined as: 1.0/1000.0 × picohertz.
+   /// femtohertz, defined as: picohertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Femtohertz = new ("femtohertz", "fHz", Picohertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Femtohertz = new ("femtohertz", "fHz", Picohertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) attohertz. Defined as: 1.0/1000.0 × femtohertz.
+   /// attohertz, defined as: femtohertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Attohertz = new ("attohertz", "aHz", Femtohertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Attohertz = new ("attohertz", "aHz", Femtohertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) zeptohertz. Defined as: 1.0/1000.0 × attohertz.
+   /// zeptohertz, defined as: attohertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Zeptohertz = new ("zeptohertz", "zHz", Attohertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Zeptohertz = new ("zeptohertz", "zHz", Attohertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) yoctohertz. Defined as: 1.0/1000.0 × zeptohertz.
+   /// yoctohertz, defined as: zeptohertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Yoctohertz = new ("yoctohertz", "yHz", Zeptohertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Yoctohertz = new ("yoctohertz", "yHz", Zeptohertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) rontohertz. Defined as: 1.0/1000.0 × yoctohertz.
+   /// rontohertz, defined as: yoctohertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Rontohertz = new ("rontohertz", "rHz", Yoctohertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Rontohertz = new ("rontohertz", "rHz", Yoctohertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) quectohertz. Defined as: 1.0/1000.0 × rontohertz.
+   /// quectohertz, defined as: rontohertz × 1.0/1000.0
    /// </summary>
-   public static readonly Frequency Quectohertz = new ("quectohertz", "qHz", Rontohertz, 1.0 / 1000.0, 0);
+   public static readonly Frequency Quectohertz = new ("quectohertz", "qHz", Rontohertz, 1.0 / 1000.0);
 
    /// <summary>
-   /// A(n) dekahertz. Defined as: 10.0 × hertz.
+   /// dekahertz, defined as: hertz × 10.0
    /// </summary>
-   public static readonly Frequency Dekahertz = new ("dekahertz", "daHz", Hertz, 10.0, 0);
+   public static readonly Frequency Dekahertz = new ("dekahertz", "daHz", Hertz, 10.0);
 
    /// <summary>
-   /// A(n) hectohertz. Defined as: 10.0 × dekahertz.
+   /// hectohertz, defined as: dekahertz × 10.0
    /// </summary>
-   public static readonly Frequency Hectohertz = new ("hectohertz", "hHz", Dekahertz, 10.0, 0);
+   public static readonly Frequency Hectohertz = new ("hectohertz", "hHz", Dekahertz, 10.0);
 
    /// <summary>
-   /// A(n) kilohertz. Defined as: 10.0 × hectohertz.
+   /// kilohertz, defined as: hectohertz × 10.0
    /// </summary>
-   public static readonly Frequency Kilohertz = new ("kilohertz", "kHz", Hectohertz, 10.0, 0);
+   public static readonly Frequency Kilohertz = new ("kilohertz", "kHz", Hectohertz, 10.0);
 
    /// <summary>
-   /// A(n) megahertz. Defined as: 1000.0 × kilohertz.
+   /// megahertz, defined as: kilohertz × 1000.0
    /// </summary>
-   public static readonly Frequency Megahertz = new ("megahertz", "MHz", Kilohertz, 1000.0, 0);
+   public static readonly Frequency Megahertz = new ("megahertz", "MHz", Kilohertz, 1000.0);
 
    /// <summary>
-   /// A(n) gigahertz. Defined as: 1000.0 × megahertz.
+   /// gigahertz, defined as: megahertz × 1000.0
    /// </summary>
-   public static readonly Frequency Gigahertz = new ("gigahertz", "GHz", Megahertz, 1000.0, 0);
+   public static readonly Frequency Gigahertz = new ("gigahertz", "GHz", Megahertz, 1000.0);
 
    /// <summary>
-   /// A(n) terahertz. Defined as: 1000.0 × gigahertz.
+   /// terahertz, defined as: gigahertz × 1000.0
    /// </summary>
-   public static readonly Frequency Terahertz = new ("terahertz", "THz", Gigahertz, 1000.0, 0);
+   public static readonly Frequency Terahertz = new ("terahertz", "THz", Gigahertz, 1000.0);
 
    /// <summary>
-   /// A(n) petahertz. Defined as: 1000.0 × terahertz.
+   /// petahertz, defined as: terahertz × 1000.0
    /// </summary>
-   public static readonly Frequency Petahertz = new ("petahertz", "PHz", Terahertz, 1000.0, 0);
+   public static readonly Frequency Petahertz = new ("petahertz", "PHz", Terahertz, 1000.0);
 
    /// <summary>
-   /// A(n) exahertz. Defined as: 1000.0 × petahertz.
+   /// exahertz, defined as: petahertz × 1000.0
    /// </summary>
-   public static readonly Frequency Exahertz = new ("exahertz", "EHz", Petahertz, 1000.0, 0);
+   public static readonly Frequency Exahertz = new ("exahertz", "EHz", Petahertz, 1000.0);
 
    /// <summary>
-   /// A(n) zettahertz. Defined as: 1000.0 × exahertz.
+   /// zettahertz, defined as: exahertz × 1000.0
    /// </summary>
-   public static readonly Frequency Zettahertz = new ("zettahertz", "ZHz", Exahertz, 1000.0, 0);
+   public static readonly Frequency Zettahertz = new ("zettahertz", "ZHz", Exahertz, 1000.0);
 
    /// <summary>
-   /// A(n) yottahertz. Defined as: 1000.0 × zettahertz.
+   /// yottahertz, defined as: zettahertz × 1000.0
    /// </summary>
-   public static readonly Frequency Yottahertz = new ("yottahertz", "YHz", Zettahertz, 1000.0, 0);
+   public static readonly Frequency Yottahertz = new ("yottahertz", "YHz", Zettahertz, 1000.0);
 
    /// <summary>
-   /// A(n) ronnahertz. Defined as: 1000.0 × yottahertz.
+   /// ronnahertz, defined as: yottahertz × 1000.0
    /// </summary>
-   public static readonly Frequency Ronnahertz = new ("ronnahertz", "RHz", Yottahertz, 1000.0, 0);
+   public static readonly Frequency Ronnahertz = new ("ronnahertz", "RHz", Yottahertz, 1000.0);
 
    /// <summary>
-   /// A(n) quettahertz. Defined as: 1000.0 × ronnahertz.
+   /// quettahertz, defined as: ronnahertz × 1000.0
    /// </summary>
-   public static readonly Frequency Quettahertz = new ("quettahertz", "QHz", Ronnahertz, 1000.0, 0);
+   public static readonly Frequency Quettahertz = new ("quettahertz", "QHz", Ronnahertz, 1000.0);
 }

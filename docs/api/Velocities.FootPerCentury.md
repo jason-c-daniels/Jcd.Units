@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerCentury Field
 
-A(n) foot per century. Defined as: (12)/(10.0) × inch per decade.
+foot per century, defined as: inch per decade × (12)/(10.0)
 
 ```csharp
 public static readonly Velocity FootPerCentury;

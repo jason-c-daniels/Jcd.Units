@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicQuectometer Field
 
-A(n) dekagram per cubic quectometer. Defined as: (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)) × hectogram per cubic rontometer.
+dekagram per cubic quectometer, defined as: hectogram per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Density DekagramPerCubicQuectometer;

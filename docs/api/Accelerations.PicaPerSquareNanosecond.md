@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareNanosecond Field
 
-A(n) pica per square nanosecond. Defined as: (12.0)/((1.0/1000.0)*(1.0/1000.0)) × point per square microsecond.
+pica per square nanosecond, defined as: point per square microsecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration PicaPerSquareNanosecond;

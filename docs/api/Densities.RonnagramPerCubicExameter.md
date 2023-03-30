@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicExameter Field
 
-A(n) ronnagram per cubic exameter. Defined as: (1000.0)/((1000.0)*(1000.0)*(1000.0)) × yottagram per cubic petameter.
+ronnagram per cubic exameter, defined as: yottagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density RonnagramPerCubicExameter;

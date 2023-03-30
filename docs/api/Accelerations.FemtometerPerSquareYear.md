@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareYear Field
 
-A(n) femtometer per square year. Defined as: (1.0/1000.0)/((365.2525)*(365.2525)) × picometer per square day.
+femtometer per square year, defined as: picometer per square day × (1.0/1000.0)/((365.2525)*(365.2525))
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquareYear;

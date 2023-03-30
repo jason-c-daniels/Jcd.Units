@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLunarDiameter Field
 
-A(n) cubic lunar diameter. Defined as: (2.0)*(2.0)*(2.0) × cubic lunar radius.
+cubic lunar diameter, defined as: cubic lunar radius × (2.0)*(2.0)*(2.0)
 
 ```csharp
 public static readonly Volume CubicLunarDiameter;

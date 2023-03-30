@@ -3,7 +3,7 @@
 
 ## StorageUnits.Robibyte Field
 
-A(n) robibyte. Defined as: 1024.0 × yobibyte.
+robibyte, defined as: yobibyte × 1024.0
 
 ```csharp
 public static readonly Storage Robibyte;

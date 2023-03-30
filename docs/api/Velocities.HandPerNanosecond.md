@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerNanosecond Field
 
-A(n) hand per nanosecond. Defined as: (4.0)/(1.0/1000.0) × inch per microsecond.
+hand per nanosecond, defined as: inch per microsecond × (4.0)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity HandPerNanosecond;

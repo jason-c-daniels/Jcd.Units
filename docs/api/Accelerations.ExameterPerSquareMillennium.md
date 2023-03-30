@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareMillennium Field
 
-A(n) exameter per square millennium. Defined as: (1000.0)/((10.0)*(10.0)) × petameter per square century.
+exameter per square millennium, defined as: petameter per square century × (1000.0)/((10.0)*(10.0))
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareMillennium;

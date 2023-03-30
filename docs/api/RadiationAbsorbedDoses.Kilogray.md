@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Kilogray Field
 
-A(n) kilogray. Defined as: 10.0 × hectogray.
+kilogray, defined as: hectogray × 10.0
 
 ```csharp
 public static readonly RadiationAbsorbedDose Kilogray;

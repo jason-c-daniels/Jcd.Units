@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareNanosecond Field
 
-A(n) foot per square nanosecond. Defined as: (12)/((1.0/1000.0)*(1.0/1000.0)) × inch per square microsecond.
+foot per square nanosecond, defined as: inch per square microsecond × (12)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration FootPerSquareNanosecond;

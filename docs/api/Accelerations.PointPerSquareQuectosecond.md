@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareQuectosecond Field
 
-A(n) point per square quectosecond. Defined as: (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)) × inch per square rontosecond.
+point per square quectosecond, defined as: inch per square rontosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
 
 ```csharp
 public static readonly Acceleration PointPerSquareQuectosecond;

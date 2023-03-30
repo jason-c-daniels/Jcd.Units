@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareBillionYears Field
 
-A(n) mile per square billion years. Defined as: (8.0)/((1000.0)*(1000.0)) × furlong per square million years.
+mile per square billion years, defined as: furlong per square million years × (8.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration MilePerSquareBillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareTick Field
 
-A(n) hand per square tick. Defined as: (4.0)/((100.0)*(100.0)) × inch per square nanosecond.
+hand per square tick, defined as: inch per square nanosecond × (4.0)/((100.0)*(100.0))
 
 ```csharp
 public static readonly Acceleration HandPerSquareTick;

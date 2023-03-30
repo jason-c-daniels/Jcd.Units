@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerPlanckTime Field
 
-A(n) fathom per planck-time. Defined as: (6.0)/(5.391247E-38) × foot per microsecond.
+fathom per planck-time, defined as: foot per microsecond × (6.0)/(5.391247E-38)
 
 ```csharp
 public static readonly Velocity FathomPerPlanckTime;

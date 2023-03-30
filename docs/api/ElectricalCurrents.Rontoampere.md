@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Rontoampere Field
 
-A(n) rontoampere. Defined as: 1.0/1000.0 × yoctoampere.
+rontoampere, defined as: yoctoampere × 1.0/1000.0
 
 ```csharp
 public static readonly ElectricalCurrent Rontoampere;

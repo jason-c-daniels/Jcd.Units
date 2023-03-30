@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerMillionYears Field
 
-A(n) dekameter per million years. Defined as: (10.0)/(1000.0) × meter per millennium.
+dekameter per million years, defined as: meter per millennium × (10.0)/(1000.0)
 
 ```csharp
 public static readonly Velocity DekameterPerMillionYears;

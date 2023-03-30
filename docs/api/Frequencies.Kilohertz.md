@@ -3,7 +3,7 @@
 
 ## Frequencies.Kilohertz Field
 
-A(n) kilohertz. Defined as: 10.0 × hectohertz.
+kilohertz, defined as: hectohertz × 10.0
 
 ```csharp
 public static readonly Frequency Kilohertz;

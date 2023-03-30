@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicRonnameter Field
 
-A(n) femtogram per cubic ronnameter. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)) × picogram per cubic yottameter.
+femtogram per cubic ronnameter, defined as: picogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
 
 ```csharp
 public static readonly Density FemtogramPerCubicRonnameter;

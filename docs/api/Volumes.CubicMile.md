@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMile Field
 
-A(n) cubic mile. Defined as: (8.0)*(8.0)*(8.0) × cubic furlong.
+cubic mile, defined as: cubic furlong × (8.0)*(8.0)*(8.0)
 
 ```csharp
 public static readonly Volume CubicMile;

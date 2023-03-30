@@ -3,7 +3,7 @@
 
 ## StorageUnits.Kebibit Field
 
-A(n) kebibit. Defined as: 1024.0 × bit.
+kebibit, defined as: bit × 1024.0
 
 ```csharp
 public static readonly Storage Kebibit;

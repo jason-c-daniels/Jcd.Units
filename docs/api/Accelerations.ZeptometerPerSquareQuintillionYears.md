@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareQuintillionYears Field
 
-A(n) zeptometer per square quintillion years. Defined as: (1.0/1000.0)/((1000.0)*(1000.0)) × attometer per square quadrillion years.
+zeptometer per square quintillion years, defined as: attometer per square quadrillion years × (1.0/1000.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquareQuintillionYears;

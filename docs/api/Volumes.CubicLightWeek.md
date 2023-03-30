@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLightWeek Field
 
-A(n) cubic light-week. Defined as: (7.0)*(7.0)*(7.0) × cubic light-day.
+cubic light-week, defined as: cubic light-day × (7.0)*(7.0)*(7.0)
 
 ```csharp
 public static readonly Volume CubicLightWeek;

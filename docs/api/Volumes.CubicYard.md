@@ -3,7 +3,7 @@
 
 ## Volumes.CubicYard Field
 
-A(n) cubic yard. Defined as: (3.0)*(3.0)*(3.0) × cubic foot.
+cubic yard, defined as: cubic foot × (3.0)*(3.0)*(3.0)
 
 ```csharp
 public static readonly Volume CubicYard;

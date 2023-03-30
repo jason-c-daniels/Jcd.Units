@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareHour Field
 
-A(n) quectometer per square hour. Defined as: (1.0/1000.0)/((60.0)*(60.0)) × rontometer per square minute.
+quectometer per square hour, defined as: rontometer per square minute × (1.0/1000.0)/((60.0)*(60.0))
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareHour;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Teravolt Field
 
-A(n) teravolt. Defined as: 1000.0 × gigavolt.
+teravolt, defined as: gigavolt × 1000.0
 
 ```csharp
 public static readonly ElectricalPotential Teravolt;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareDecisecond Field
 
-A(n) mil per square decisecond. Defined as: (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)) × inch per square second.
+mil per square decisecond, defined as: inch per square second × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0))
 
 ```csharp
 public static readonly Acceleration MilPerSquareDecisecond;

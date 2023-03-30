@@ -3,7 +3,7 @@
 
 ## Amounts.TrillionQuantity Field
 
-A(n) trillion quantity. Defined as: 1_000_000.0 × billion quantity.
+trillion quantity, defined as: billion quantity × 1_000_000.0
 
 ```csharp
 public static readonly Amount TrillionQuantity;

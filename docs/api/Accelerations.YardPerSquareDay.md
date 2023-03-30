@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareDay Field
 
-A(n) yard per square day. Defined as: (3.0)/((24.0)*(24.0)) × foot per square hour.
+yard per square day, defined as: foot per square hour × (3.0)/((24.0)*(24.0))
 
 ```csharp
 public static readonly Acceleration YardPerSquareDay;

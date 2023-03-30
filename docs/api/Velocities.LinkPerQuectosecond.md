@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerQuectosecond Field
 
-A(n) link per quectosecond. Defined as: (0.20116)/(1.0/1000.0) × SI meter per rontosecond.
+link per quectosecond, defined as: SI meter per rontosecond × (0.20116)/(1.0/1000.0)
 
 ```csharp
 public static readonly Velocity LinkPerQuectosecond;

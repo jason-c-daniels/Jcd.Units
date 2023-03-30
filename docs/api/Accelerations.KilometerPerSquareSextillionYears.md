@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareSextillionYears Field
 
-A(n) kilometer per square sextillion years. Defined as: (10.0)/((1000.0)*(1000.0)) × hectometer per square quintillion years.
+kilometer per square sextillion years, defined as: hectometer per square quintillion years × (10.0)/((1000.0)*(1000.0))
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareSextillionYears;
