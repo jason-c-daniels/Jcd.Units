@@ -18,67 +18,6 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
 {
    /// <summary>
-   /// A(n) cable per quadrillion years. Defined as: ((120.0)/(1000.0)) × fathom per trillion years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerQuadrillionYears = new (
-                                                                   "cable per quadrillion years"
-                                                                 , "cb/Pyr"
-                                                                 , FathomPerTrillionYears
-                                                                 , 120.0 / 1000.0
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) league per septillion years. Defined as: ((3.0)/(1000.0)) × mile per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerSeptillionYears =
-            new ("league per septillion years", "le/Yyr", MilePerSextillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) pica per century. Defined as: ((12.0)/(10.0)) × point per decade + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerCentury = new (
-                                                         "pica per century"
-                                                       , "P/century"
-                                                       , PointPerDecade
-                                                       , 12.0 / 10.0
-                                                       , 0
-                                                        );
-
-   /// <summary>
-   /// A(n) mile per week. Defined as: ((1760.0)/(7.0)) × yard per day + (0).
-   /// </summary>
-   public static readonly Velocity MilePerWeek = new ("mile per week", "mi/wk", YardPerDay, 1760.0 / 7.0, 0);
-
-   /// <summary>
-   /// A(n) point per sextillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity PointPerSextillionYears = new (
-                                                                  "point per sextillion years"
-                                                                , "p/Zyr"
-                                                                , InchPerQuintillionYears
-                                                                , 1.0 / 72.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) foot per quintillion years. Defined as: ((12.0)/(1000.0)) × inch per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity FootPerQuintillionYears = new (
-                                                                  "foot per quintillion years"
-                                                                , "ft/Eyr"
-                                                                , InchPerQuadrillionYears
-                                                                , 12.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) yard per nonillion years. Defined as: ((3.0)/(1000.0)) × foot per octillion years + (0).
-   /// </summary>
-   public static readonly Velocity YardPerNonillionYears =
-            new ("yard per nonillion years", "yd/Qyr", FootPerOctillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) nautical mile per octillion years. Defined as: ((1852.0)/(1000.0)) × SI meter per septillion years + (0).
    /// </summary>
    public static readonly Velocity NauticalMilePerOctillionYears = new (
@@ -88,61 +27,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       , 1852.0 / 1000.0
                                                                       , 0
                                                                        );
-
-   /// <summary>
-   /// A(n) point per year. Defined as: ((1.0/72.0)/(365.2525)) × inch per day + (0).
-   /// </summary>
-   public static readonly Velocity PointPerYear = new ("point per year", "p/yr", InchPerDay, 1.0 / 72.0 / 365.2525, 0);
-
-   /// <summary>
-   /// A(n) foot per hour. Defined as: ((12.0)/(60.0)) × inch per minute + (0).
-   /// </summary>
-   public static readonly Velocity FootPerHour = new ("foot per hour", "ft/hr", InchPerMinute, 12.0 / 60.0, 0);
-
-   /// <summary>
-   /// A(n) mil per billion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per million years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerBillionYears = new (
-                                                             "mil per billion years"
-                                                           , "mil/Gyr"
-                                                           , InchPerMillionYears
-                                                           , 1.0 / 1000.0 / 1000.0
-                                                           , 0
-                                                            );
-
-   /// <summary>
-   /// A(n) cable per minute. Defined as: ((120.0)/(60.0)) × fathom per second + (0).
-   /// </summary>
-   public static readonly Velocity CablePerMinute = new (
-                                                         "cable per minute"
-                                                       , "cb/min"
-                                                       , FathomPerSecond
-                                                       , 120.0 / 60.0
-                                                       , 0
-                                                        );
-
-   /// <summary>
-   /// A(n) cable per tick. Defined as: ((120.0)/(100.0)) × fathom per nanosecond + (0).
-   /// </summary>
-   public static readonly Velocity CablePerTick = new (
-                                                       "cable per tick"
-                                                     , "cb/tick"
-                                                     , FathomPerNanosecond
-                                                     , 120.0 / 100.0
-                                                     , 0
-                                                      );
-
-   /// <summary>
-   /// A(n) mile per quadrillion years. Defined as: ((1760.0)/(1000.0)) × yard per trillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilePerQuadrillionYears =
-            new ("mile per quadrillion years", "mi/Pyr", YardPerTrillionYears, 1760.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) yard per sextillion years. Defined as: ((3.0)/(1000.0)) × foot per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity YardPerSextillionYears =
-            new ("yard per sextillion years", "yd/Zyr", FootPerQuintillionYears, 3.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) nautical mile per trillion years. Defined as: ((1852.0)/(1000.0)) × SI meter per billion years + (0).
@@ -156,12 +40,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// A(n) yard per trillion years. Defined as: ((3.0)/(1000.0)) × foot per billion years + (0).
-   /// </summary>
-   public static readonly Velocity YardPerTrillionYears =
-            new ("yard per trillion years", "yd/Tyr", FootPerBillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) nautical mile per decade. Defined as: ((1852.0)/(10.0)) × SI meter per year + (0).
    /// </summary>
    public static readonly Velocity NauticalMilePerDecade = new (
@@ -171,28 +49,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , 1852.0 / 10.0
                                                               , 0
                                                                );
-
-   /// <summary>
-   /// A(n) cable per sextillion years. Defined as: ((120.0)/(1000.0)) × fathom per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerSextillionYears = new (
-                                                                  "cable per sextillion years"
-                                                                , "cb/Zyr"
-                                                                , FathomPerQuintillionYears
-                                                                , 120.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) mil per trillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per billion years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerTrillionYears = new (
-                                                              "mil per trillion years"
-                                                            , "mil/Tyr"
-                                                            , InchPerBillionYears
-                                                            , 1.0 / 1000.0 / 1000.0
-                                                            , 0
-                                                             );
 
    /// <summary>
    /// A(n) nautical mile per minute. Defined as: ((1852.0)/(60.0)) × SI meter per second + (0).
@@ -206,202 +62,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// A(n) yard per millennium. Defined as: ((3.0)/(10.0)) × foot per century + (0).
-   /// </summary>
-   public static readonly Velocity YardPerMillennium = new (
-                                                            "yard per millennium"
-                                                          , "yd/kyr"
-                                                          , FootPerCentury
-                                                          , 3.0 / 10.0
-                                                          , 0
-                                                           );
-
-   /// <summary>
-   /// A(n) league per decade. Defined as: ((3.0)/(10.0)) × mile per year + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerDecade = new ("league per decade", "le/decade", MilePerYear, 3.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) pica per quadrillion years. Defined as: ((12.0)/(1000.0)) × point per trillion years + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerQuadrillionYears =
-            new ("pica per quadrillion years", "P/Pyr", PointPerTrillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) twip per octillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per septillion years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerOctillionYears = new (
-                                                                "twip per octillion years"
-                                                              , "twip/Ryr"
-                                                              , PointPerSeptillionYears
-                                                              , 1.0 / 20.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) foot per nonillion years. Defined as: ((12.0)/(1000.0)) × inch per octillion years + (0).
-   /// </summary>
-   public static readonly Velocity FootPerNonillionYears =
-            new ("foot per nonillion years", "ft/Qyr", InchPerOctillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) foot per decade. Defined as: ((12.0)/(10.0)) × inch per year + (0).
-   /// </summary>
-   public static readonly Velocity FootPerDecade = new ("foot per decade", "ft/decade", InchPerYear, 12.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) yard per year. Defined as: ((3.0)/(365.2525)) × foot per day + (0).
-   /// </summary>
-   public static readonly Velocity YardPerYear = new ("yard per year", "yd/yr", FootPerDay, 3.0 / 365.2525, 0);
-
-   /// <summary>
-   /// A(n) twip per billion years. Defined as: ((1.0/20.0)/(1000.0)) × point per million years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerBillionYears = new (
-                                                              "twip per billion years"
-                                                            , "twip/Gyr"
-                                                            , PointPerMillionYears
-                                                            , 1.0 / 20.0 / 1000.0
-                                                            , 0
-                                                             );
-
-   /// <summary>
-   /// A(n) cable per day. Defined as: ((120.0)/(24.0)) × fathom per hour + (0).
-   /// </summary>
-   public static readonly Velocity CablePerDay = new ("cable per day", "cb/dy", FathomPerHour, 120.0 / 24.0, 0);
-
-   /// <summary>
-   /// A(n) point per septillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity PointPerSeptillionYears = new (
-                                                                  "point per septillion years"
-                                                                , "p/Yyr"
-                                                                , InchPerSextillionYears
-                                                                , 1.0 / 72.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) league per quintillion years. Defined as: ((3.0)/(1000.0)) × mile per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerQuintillionYears = new (
-                                                                    "league per quintillion years"
-                                                                  , "le/Eyr"
-                                                                  , MilePerQuadrillionYears
-                                                                  , 3.0 / 1000.0
-                                                                  , 0
-                                                                   );
-
-   /// <summary>
-   /// A(n) twip per week. Defined as: ((1.0/20.0)/(7.0)) × point per day + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerWeek = new ("twip per week", "twip/wk", PointPerDay, 1.0 / 20.0 / 7.0, 0);
-
-   /// <summary>
-   /// A(n) pica per day. Defined as: ((12.0)/(24.0)) × point per hour + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerDay = new ("pica per day", "P/dy", PointPerHour, 12.0 / 24.0, 0);
-
-   /// <summary>
-   /// A(n) point per decade. Defined as: ((1.0/72.0)/(10.0)) × inch per year + (0).
-   /// </summary>
-   public static readonly Velocity PointPerDecade = new (
-                                                         "point per decade"
-                                                       , "p/decade"
-                                                       , InchPerYear
-                                                       , 1.0 / 72.0 / 10.0
-                                                       , 0
-                                                        );
-
-   /// <summary>
-   /// A(n) yard per hour. Defined as: ((3.0)/(60.0)) × foot per minute + (0).
-   /// </summary>
-   public static readonly Velocity YardPerHour = new ("yard per hour", "yd/hr", FootPerMinute, 3.0 / 60.0, 0);
-
-   /// <summary>
-   /// A(n) mil per quadrillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per trillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerQuadrillionYears = new (
-                                                                 "mil per quadrillion years"
-                                                               , "mil/Pyr"
-                                                               , InchPerTrillionYears
-                                                               , 1.0 / 1000.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) mile per century. Defined as: ((1760.0)/(10.0)) × yard per decade + (0).
-   /// </summary>
-   public static readonly Velocity MilePerCentury = new (
-                                                         "mile per century"
-                                                       , "mi/century"
-                                                       , YardPerDecade
-                                                       , 1760.0 / 10.0
-                                                       , 0
-                                                        );
-
-   /// <summary>
-   /// A(n) cable per octillion years. Defined as: ((120.0)/(1000.0)) × fathom per septillion years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerOctillionYears = new (
-                                                                 "cable per octillion years"
-                                                               , "cb/Ryr"
-                                                               , FathomPerSeptillionYears
-                                                               , 120.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) pica per nonillion years. Defined as: ((12.0)/(1000.0)) × point per octillion years + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerNonillionYears =
-            new ("pica per nonillion years", "P/Qyr", PointPerOctillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) mile per septillion years. Defined as: ((1760.0)/(1000.0)) × yard per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilePerSeptillionYears = new (
-                                                                 "mile per septillion years"
-                                                               , "mi/Yyr"
-                                                               , YardPerSextillionYears
-                                                               , 1760.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) mil per quintillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerQuintillionYears = new (
-                                                                 "mil per quintillion years"
-                                                               , "mil/Eyr"
-                                                               , InchPerQuadrillionYears
-                                                               , 1.0 / 1000.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) foot per billion years. Defined as: ((12.0)/(1000.0)) × inch per million years + (0).
-   /// </summary>
-   public static readonly Velocity FootPerBillionYears =
-            new ("foot per billion years", "ft/Gyr", InchPerMillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) cable per year. Defined as: ((120.0)/(365.2525)) × fathom per day + (0).
-   /// </summary>
-   public static readonly Velocity CablePerYear = new ("cable per year", "cb/yr", FathomPerDay, 120.0 / 365.2525, 0);
-
-   /// <summary>
-   /// A(n) point per tick. Defined as: ((1.0/72.0)/(100.0)) × inch per nanosecond + (0).
-   /// </summary>
-   public static readonly Velocity PointPerTick = new (
-                                                       "point per tick"
-                                                     , "p/tick"
-                                                     , InchPerNanosecond
-                                                     , 1.0 / 72.0 / 100.0
-                                                     , 0
-                                                      );
-
-   /// <summary>
    /// A(n) nautical mile per decillion years. Defined as: ((1852.0)/(1000.0)) × SI meter per nonillion years + (0).
    /// </summary>
    public static readonly Velocity NauticalMilePerDecillionYears = new (
@@ -411,33 +71,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       , 1852.0 / 1000.0
                                                                       , 0
                                                                        );
-
-   /// <summary>
-   /// A(n) pica per millennium. Defined as: ((12.0)/(10.0)) × point per century + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerMillennium = new (
-                                                            "pica per millennium"
-                                                          , "P/kyr"
-                                                          , PointPerCentury
-                                                          , 12.0 / 10.0
-                                                          , 0
-                                                           );
-
-   /// <summary>
-   /// A(n) league per week. Defined as: ((3.0)/(7.0)) × mile per day + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerWeek = new ("league per week", "le/wk", MilePerDay, 3.0 / 7.0, 0);
-
-   /// <summary>
-   /// A(n) point per octillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per septillion years + (0).
-   /// </summary>
-   public static readonly Velocity PointPerOctillionYears = new (
-                                                                 "point per octillion years"
-                                                               , "p/Ryr"
-                                                               , InchPerSeptillionYears
-                                                               , 1.0 / 72.0 / 1000.0
-                                                               , 0
-                                                                );
 
    /// <summary>
    /// A(n) nautical mile per quintillion years. Defined as: ((1852.0)/(1000.0)) × SI meter per quadrillion years + (0).
@@ -451,61 +84,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                          );
 
    /// <summary>
-   /// A(n) cable per decillion years. Defined as: ((120.0)/(1000.0)) × fathom per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerDecillionYears = new (
-                                                                 "cable per decillion years"
-                                                               , "cb/decillion yr"
-                                                               , FathomPerNonillionYears
-                                                               , 120.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) point per century. Defined as: ((1.0/72.0)/(10.0)) × inch per decade + (0).
-   /// </summary>
-   public static readonly Velocity PointPerCentury = new (
-                                                          "point per century"
-                                                        , "p/century"
-                                                        , InchPerDecade
-                                                        , 1.0 / 72.0 / 10.0
-                                                        , 0
-                                                         );
-
-   /// <summary>
-   /// A(n) mile per hour. Defined as: ((1760.0)/(60.0)) × yard per minute + (0).
-   /// </summary>
-   public static readonly Velocity MilePerHour = new ("mile per hour", "mi/hr", YardPerMinute, 1760.0 / 60.0, 0);
-
-   /// <summary>
-   /// A(n) mil per sextillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerSextillionYears = new (
-                                                                "mil per sextillion years"
-                                                              , "mil/Zyr"
-                                                              , InchPerQuintillionYears
-                                                              , 1.0 / 1000.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) twip per nonillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per octillion years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerNonillionYears = new (
-                                                                "twip per nonillion years"
-                                                              , "twip/Qyr"
-                                                              , PointPerOctillionYears
-                                                              , 1.0 / 20.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) league per trillion years. Defined as: ((3.0)/(1000.0)) × mile per billion years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerTrillionYears =
-            new ("league per trillion years", "le/Tyr", MilePerBillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) nautical mile per millennium. Defined as: ((1852.0)/(10.0)) × SI meter per century + (0).
    /// </summary>
    public static readonly Velocity NauticalMilePerMillennium = new (
@@ -515,33 +93,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , 1852.0 / 10.0
                                                                   , 0
                                                                    );
-
-   /// <summary>
-   /// A(n) foot per tick. Defined as: ((12.0)/(100.0)) × inch per nanosecond + (0).
-   /// </summary>
-   public static readonly Velocity FootPerTick = new ("foot per tick", "ft/tick", InchPerNanosecond, 12.0 / 100.0, 0);
-
-   /// <summary>
-   /// A(n) fathom per decillion years. Defined as: ((2.0)/(1000.0)) × yard per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerDecillionYears = new (
-                                                                  "fathom per decillion years"
-                                                                , "ftm/decillion yr"
-                                                                , YardPerNonillionYears
-                                                                , 2.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) twip per trillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per billion years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerTrillionYears = new (
-                                                               "twip per trillion years"
-                                                             , "twip/Tyr"
-                                                             , PointPerBillionYears
-                                                             , 1.0 / 20.0 / 1000.0
-                                                             , 0
-                                                              );
 
    /// <summary>
    /// A(n) nautical mile per day. Defined as: ((1852.0)/(24.0)) × SI meter per hour + (0).
@@ -555,251 +106,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// A(n) mile per billion years. Defined as: ((1760.0)/(1000.0)) × yard per million years + (0).
-   /// </summary>
-   public static readonly Velocity MilePerBillionYears =
-            new ("mile per billion years", "mi/Gyr", YardPerMillionYears, 1760.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) cable per century. Defined as: ((120.0)/(10.0)) × fathom per decade + (0).
-   /// </summary>
-   public static readonly Velocity CablePerCentury = new (
-                                                          "cable per century"
-                                                        , "cb/century"
-                                                        , FathomPerDecade
-                                                        , 120.0 / 10.0
-                                                        , 0
-                                                         );
-
-   /// <summary>
-   /// A(n) foot per sextillion years. Defined as: ((12.0)/(1000.0)) × inch per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity FootPerSextillionYears =
-            new ("foot per sextillion years", "ft/Zyr", InchPerQuintillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) fathom per octillion years. Defined as: ((2.0)/(1000.0)) × yard per septillion years + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerOctillionYears =
-            new ("fathom per octillion years", "ftm/Ryr", YardPerSeptillionYears, 2.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) league per decillion years. Defined as: ((3.0)/(1000.0)) × mile per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerDecillionYears = new (
-                                                                  "league per decillion years"
-                                                                , "le/decillion yr"
-                                                                , MilePerNonillionYears
-                                                                , 3.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) twip per year. Defined as: ((1.0/20.0)/(365.2525)) × point per day + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerYear = new (
-                                                      "twip per year"
-                                                    , "twip/yr"
-                                                    , PointPerDay
-                                                    , 1.0 / 20.0 / 365.2525
-                                                    , 0
-                                                     );
-
-   /// <summary>
-   /// A(n) foot per day. Defined as: ((12.0)/(24.0)) × inch per hour + (0).
-   /// </summary>
-   public static readonly Velocity FootPerDay = new ("foot per day", "ft/dy", InchPerHour, 12.0 / 24.0, 0);
-
-   /// <summary>
-   /// A(n) mil per septillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerSeptillionYears = new (
-                                                                "mil per septillion years"
-                                                              , "mil/Yyr"
-                                                              , InchPerSextillionYears
-                                                              , 1.0 / 1000.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) pica per quintillion years. Defined as: ((12.0)/(1000.0)) × point per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerQuintillionYears = new (
-                                                                  "pica per quintillion years"
-                                                                , "P/Eyr"
-                                                                , PointPerQuadrillionYears
-                                                                , 12.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) fathom per sextillion years. Defined as: ((2.0)/(1000.0)) × yard per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerSextillionYears = new (
-                                                                   "fathom per sextillion years"
-                                                                 , "ftm/Zyr"
-                                                                 , YardPerQuintillionYears
-                                                                 , 2.0 / 1000.0
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) mile per decillion years. Defined as: ((1760.0)/(1000.0)) × yard per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilePerDecillionYears = new (
-                                                                "mile per decillion years"
-                                                              , "mi/decillion yr"
-                                                              , YardPerNonillionYears
-                                                              , 1760.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) league per tick. Defined as: ((3.0)/(100.0)) × mile per nanosecond + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerTick = new (
-                                                        "league per tick"
-                                                      , "le/tick"
-                                                      , MilePerNanosecond
-                                                      , 3.0 / 100.0
-                                                      , 0
-                                                       );
-
-   /// <summary>
-   /// A(n) point per nonillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per octillion years + (0).
-   /// </summary>
-   public static readonly Velocity PointPerNonillionYears = new (
-                                                                 "point per nonillion years"
-                                                               , "p/Qyr"
-                                                               , InchPerOctillionYears
-                                                               , 1.0 / 72.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) fathom per quadrillion years. Defined as: ((2.0)/(1000.0)) × yard per trillion years + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerQuadrillionYears =
-            new ("fathom per quadrillion years", "ftm/Pyr", YardPerTrillionYears, 2.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) yard per decillion years. Defined as: ((3.0)/(1000.0)) × foot per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity YardPerDecillionYears = new (
-                                                                "yard per decillion years"
-                                                              , "yd/decillion yr"
-                                                              , FootPerNonillionYears
-                                                              , 3.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) pica per week. Defined as: ((12.0)/(7.0)) × point per day + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerWeek = new ("pica per week", "P/wk", PointPerDay, 12.0 / 7.0, 0);
-
-   /// <summary>
-   /// A(n) point per millennium. Defined as: ((1.0/72.0)/(10.0)) × inch per century + (0).
-   /// </summary>
-   public static readonly Velocity PointPerMillennium = new (
-                                                             "point per millennium"
-                                                           , "p/kyr"
-                                                           , InchPerCentury
-                                                           , 1.0 / 72.0 / 10.0
-                                                           , 0
-                                                            );
-
-   /// <summary>
-   /// A(n) league per hour. Defined as: ((3.0)/(60.0)) × mile per minute + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerHour = new ("league per hour", "le/hr", MilePerMinute, 3.0 / 60.0, 0);
-
-   /// <summary>
-   /// A(n) mil per octillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per septillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerOctillionYears = new (
-                                                               "mil per octillion years"
-                                                             , "mil/Ryr"
-                                                             , InchPerSeptillionYears
-                                                             , 1.0 / 1000.0 / 1000.0
-                                                             , 0
-                                                              );
-
-   /// <summary>
-   /// A(n) fathom per billion years. Defined as: ((2.0)/(1000.0)) × yard per million years + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerBillionYears =
-            new ("fathom per billion years", "ftm/Gyr", YardPerMillionYears, 2.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) cable per million years. Defined as: ((120.0)/(1000.0)) × fathom per millennium + (0).
-   /// </summary>
-   public static readonly Velocity CablePerMillionYears =
-            new ("cable per million years", "cb/Myr", FathomPerMillennium, 120.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) yard per septillion years. Defined as: ((3.0)/(1000.0)) × foot per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity YardPerSeptillionYears =
-            new ("yard per septillion years", "yd/Yyr", FootPerSextillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) foot per decillion years. Defined as: ((12.0)/(1000.0)) × inch per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity FootPerDecillionYears = new (
-                                                                "foot per decillion years"
-                                                              , "ft/decillion yr"
-                                                              , InchPerNonillionYears
-                                                              , 12.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) foot per century. Defined as: ((12.0)/(10.0)) × inch per decade + (0).
-   /// </summary>
-   public static readonly Velocity FootPerCentury = new (
-                                                         "foot per century"
-                                                       , "ft/century"
-                                                       , InchPerDecade
-                                                       , 12.0 / 10.0
-                                                       , 0
-                                                        );
-
-   /// <summary>
-   /// A(n) mile per year. Defined as: ((1760.0)/(365.2525)) × yard per day + (0).
-   /// </summary>
-   public static readonly Velocity MilePerYear = new ("mile per year", "mi/yr", YardPerDay, 1760.0 / 365.2525, 0);
-
-   /// <summary>
-   /// A(n) league per million years. Defined as: ((3.0)/(1000.0)) × mile per millennium + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerMillionYears =
-            new ("league per million years", "le/Myr", MilePerMillennium, 3.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) fathom per millennium. Defined as: ((2.0)/(10.0)) × yard per century + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerMillennium =
-            new ("fathom per millennium", "ftm/kyr", YardPerCentury, 2.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) yard per quadrillion years. Defined as: ((3.0)/(1000.0)) × foot per trillion years + (0).
-   /// </summary>
-   public static readonly Velocity YardPerQuadrillionYears =
-            new ("yard per quadrillion years", "yd/Pyr", FootPerTrillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) pica per decillion years. Defined as: ((12.0)/(1000.0)) × point per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerDecillionYears = new (
-                                                                "pica per decillion years"
-                                                              , "P/decillion yr"
-                                                              , PointPerNonillionYears
-                                                              , 12.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
    /// A(n) nautical mile per tick. Defined as: ((1852.0)/(100.0)) × SI meter per nanosecond + (0).
    /// </summary>
    public static readonly Velocity NauticalMilePerTick = new (
@@ -809,62 +115,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , 1852.0 / 100.0
                                                             , 0
                                                              );
-
-   /// <summary>
-   /// A(n) mil per nonillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per octillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerNonillionYears = new (
-                                                               "mil per nonillion years"
-                                                             , "mil/Qyr"
-                                                             , InchPerOctillionYears
-                                                             , 1.0 / 1000.0 / 1000.0
-                                                             , 0
-                                                              );
-
-   /// <summary>
-   /// A(n) yard per million years. Defined as: ((3.0)/(1000.0)) × foot per millennium + (0).
-   /// </summary>
-   public static readonly Velocity YardPerMillionYears =
-            new ("yard per million years", "yd/Myr", FootPerMillennium, 3.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) fathom per decade. Defined as: ((2.0)/(10.0)) × yard per year + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerDecade = new (
-                                                          "fathom per decade"
-                                                        , "ftm/decade"
-                                                        , YardPerYear
-                                                        , 2.0 / 10.0
-                                                        , 0
-                                                         );
-
-   /// <summary>
-   /// A(n) twip per decillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerDecillionYears = new (
-                                                                "twip per decillion years"
-                                                              , "twip/decillion yr"
-                                                              , PointPerNonillionYears
-                                                              , 1.0 / 20.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) mile per quintillion years. Defined as: ((1760.0)/(1000.0)) × yard per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilePerQuintillionYears = new (
-                                                                  "mile per quintillion years"
-                                                                , "mi/Eyr"
-                                                                , YardPerQuadrillionYears
-                                                                , 1760.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) league per octillion years. Defined as: ((3.0)/(1000.0)) × mile per septillion years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerOctillionYears =
-            new ("league per octillion years", "le/Ryr", MilePerSeptillionYears, 3.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) nautical mile per septillion years. Defined as: ((1852.0)/(1000.0)) × SI meter per sextillion years + (0).
@@ -878,50 +128,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// A(n) yard per decade. Defined as: ((3.0)/(10.0)) × foot per year + (0).
-   /// </summary>
-   public static readonly Velocity YardPerDecade = new ("yard per decade", "yd/decade", FootPerYear, 3.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) pica per million years. Defined as: ((12.0)/(1000.0)) × point per millennium + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerMillionYears =
-            new ("pica per million years", "P/Myr", PointPerMillennium, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) fathom per week. Defined as: ((2.0)/(7.0)) × yard per day + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerWeek = new ("fathom per week", "ftm/wk", YardPerDay, 2.0 / 7.0, 0);
-
-   /// <summary>
-   /// A(n) twip per quadrillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per trillion years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerQuadrillionYears = new (
-                                                                  "twip per quadrillion years"
-                                                                , "twip/Pyr"
-                                                                , PointPerTrillionYears
-                                                                , 1.0 / 20.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) point per decillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity PointPerDecillionYears = new (
-                                                                 "point per decillion years"
-                                                               , "p/decillion yr"
-                                                               , InchPerNonillionYears
-                                                               , 1.0 / 72.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) cable per trillion years. Defined as: ((120.0)/(1000.0)) × fathom per billion years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerTrillionYears =
-            new ("cable per trillion years", "cb/Tyr", FathomPerBillionYears, 120.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) nautical mile per billion years. Defined as: ((1852.0)/(1000.0)) × SI meter per million years + (0).
    /// </summary>
    public static readonly Velocity NauticalMilePerBillionYears = new (
@@ -931,50 +137,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     , 1852.0 / 1000.0
                                                                     , 0
                                                                      );
-
-   /// <summary>
-   /// A(n) twip per decade. Defined as: ((1.0/20.0)/(10.0)) × point per year + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerDecade = new (
-                                                        "twip per decade"
-                                                      , "twip/decade"
-                                                      , PointPerYear
-                                                      , 1.0 / 20.0 / 10.0
-                                                      , 0
-                                                       );
-
-   /// <summary>
-   /// A(n) yard per day. Defined as: ((3.0)/(24.0)) × foot per hour + (0).
-   /// </summary>
-   public static readonly Velocity YardPerDay = new ("yard per day", "yd/dy", FootPerHour, 3.0 / 24.0, 0);
-
-   /// <summary>
-   /// A(n) point per million years. Defined as: ((1.0/72.0)/(1000.0)) × inch per millennium + (0).
-   /// </summary>
-   public static readonly Velocity PointPerMillionYears =
-            new ("point per million years", "p/Myr", InchPerMillennium, 1.0 / 72.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) fathom per hour. Defined as: ((2.0)/(60.0)) × yard per minute + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerHour = new ("fathom per hour", "ftm/hr", YardPerMinute, 2.0 / 60.0, 0);
-
-   /// <summary>
-   /// A(n) mil per decillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per nonillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilPerDecillionYears = new (
-                                                               "mil per decillion years"
-                                                             , "mil/decillion yr"
-                                                             , InchPerNonillionYears
-                                                             , 1.0 / 1000.0 / 1000.0
-                                                             , 0
-                                                              );
-
-   /// <summary>
-   /// A(n) foot per trillion years. Defined as: ((12.0)/(1000.0)) × inch per billion years + (0).
-   /// </summary>
-   public static readonly Velocity FootPerTrillionYears =
-            new ("foot per trillion years", "ft/Tyr", InchPerBillionYears, 12.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) nautical mile per year. Defined as: ((1852.0)/(365.2525)) × SI meter per day + (0).
@@ -2786,45 +1948,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// A(n) mile per millennium. Defined as: ((1760.0)/(10.0)) × yard per century + (0).
-   /// </summary>
-   public static readonly Velocity MilePerMillennium = new (
-                                                            "mile per millennium"
-                                                          , "mi/kyr"
-                                                          , YardPerCentury
-                                                          , 1760.0 / 10.0
-                                                          , 0
-                                                           );
-
-   /// <summary>
-   /// A(n) league per century. Defined as: ((3.0)/(10.0)) × mile per decade + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerCentury = new (
-                                                           "league per century"
-                                                         , "le/century"
-                                                         , MilePerDecade
-                                                         , 3.0 / 10.0
-                                                         , 0
-                                                          );
-
-   /// <summary>
-   /// A(n) pica per sextillion years. Defined as: ((12.0)/(1000.0)) × point per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerSextillionYears =
-            new ("pica per sextillion years", "P/Zyr", PointPerQuintillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) cable per quintillion years. Defined as: ((120.0)/(1000.0)) × fathom per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerQuintillionYears = new (
-                                                                   "cable per quintillion years"
-                                                                 , "cb/Eyr"
-                                                                 , FathomPerQuadrillionYears
-                                                                 , 120.0 / 1000.0
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
    /// A(n) mil per minute. Defined as: ((1.0/1000.0)/(60.0)) × inch per second + (0).
    /// </summary>
    public static readonly Velocity MilPerMinute = new (
@@ -2864,28 +1987,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// A(n) league per sextillion years. Defined as: ((3.0)/(1000.0)) × mile per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerSextillionYears =
-            new ("league per sextillion years", "le/Zyr", MilePerQuintillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) mile per octillion years. Defined as: ((1760.0)/(1000.0)) × yard per septillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilePerOctillionYears = new (
-                                                                "mile per octillion years"
-                                                              , "mi/Ryr"
-                                                              , YardPerSeptillionYears
-                                                              , 1760.0 / 1000.0
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) pica per year. Defined as: ((12.0)/(365.2525)) × point per day + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerYear = new ("pica per year", "P/yr", PointPerDay, 12.0 / 365.2525, 0);
-
-   /// <summary>
    /// A(n) foot per week. Defined as: ((12.0)/(7.0)) × inch per day + (0).
    /// </summary>
    public static readonly Velocity FootPerWeek = new ("foot per week", "ft/wk", InchPerDay, 12.0 / 7.0, 0);
@@ -2900,11 +2001,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , 1.0 / 72.0 / 1000.0
                                                              , 0
                                                               );
-
-   /// <summary>
-   /// A(n) cable per hour. Defined as: ((120.0)/(60.0)) × fathom per minute + (0).
-   /// </summary>
-   public static readonly Velocity CablePerHour = new ("cable per hour", "cb/hr", FathomPerMinute, 120.0 / 60.0, 0);
 
    /// <summary>
    /// A(n) twip per planck-time. Defined as: ((1.0/20.0)/(5.391247E-38)) × point per microsecond + (0).
@@ -2934,17 +2030,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// A(n) twip per quintillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerQuintillionYears = new (
-                                                                  "twip per quintillion years"
-                                                                , "twip/Eyr"
-                                                                , PointPerQuadrillionYears
-                                                                , 1.0 / 20.0 / 1000.0
-                                                                , 0
-                                                                 );
-
-   /// <summary>
    /// A(n) pica per planck-time. Defined as: ((12.0)/(5.391247E-38)) × point per microsecond + (0).
    /// </summary>
    public static readonly Velocity PicaPerPlanckTime = new (
@@ -2954,17 +2039,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , 12.0 / 5.391247E-38
                                                           , 0
                                                            );
-
-   /// <summary>
-   /// A(n) cable per septillion years. Defined as: ((120.0)/(1000.0)) × fathom per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerSeptillionYears = new (
-                                                                  "cable per septillion years"
-                                                                , "cb/Yyr"
-                                                                , FathomPerSextillionYears
-                                                                , 120.0 / 1000.0
-                                                                , 0
-                                                                 );
 
    /// <summary>
    /// A(n) yard per tick. Defined as: ((3.0)/(100.0)) × foot per nanosecond + (0).
@@ -2981,22 +2055,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       , 1852.0 / 1000.0
                                                                       , 0
                                                                        );
-
-   /// <summary>
-   /// A(n) twip per century. Defined as: ((1.0/20.0)/(10.0)) × point per decade + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerCentury = new (
-                                                         "twip per century"
-                                                       , "twip/century"
-                                                       , PointPerDecade
-                                                       , 1.0 / 20.0 / 10.0
-                                                       , 0
-                                                        );
-
-   /// <summary>
-   /// A(n) mile per day. Defined as: ((1760.0)/(24.0)) × yard per hour + (0).
-   /// </summary>
-   public static readonly Velocity MilePerDay = new ("mile per day", "mi/dy", YardPerHour, 1760.0 / 24.0, 0);
 
    /// <summary>
    /// A(n) foot per planck-time. Defined as: ((12.0)/(5.391247E-38)) × inch per microsecond + (0).
@@ -3046,28 +2104,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , 12.0 / 10.0
                                                           , 0
                                                            );
-
-   /// <summary>
-   /// A(n) league per year. Defined as: ((3.0)/(365.2525)) × mile per day + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerYear = new ("league per year", "le/yr", MilePerDay, 3.0 / 365.2525, 0);
-
-   /// <summary>
-   /// A(n) pica per billion years. Defined as: ((12.0)/(1000.0)) × point per million years + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerBillionYears =
-            new ("pica per billion years", "P/Gyr", PointPerMillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) cable per week. Defined as: ((120.0)/(7.0)) × fathom per day + (0).
-   /// </summary>
-   public static readonly Velocity CablePerWeek = new ("cable per week", "cb/wk", FathomPerDay, 120.0 / 7.0, 0);
-
-   /// <summary>
-   /// A(n) mile per trillion years. Defined as: ((1760.0)/(1000.0)) × yard per billion years + (0).
-   /// </summary>
-   public static readonly Velocity MilePerTrillionYears =
-            new ("mile per trillion years", "mi/Tyr", YardPerBillionYears, 1760.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) nautical mile per century. Defined as: ((1852.0)/(10.0)) × SI meter per decade + (0).
@@ -3125,12 +2161,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// A(n) league per quadrillion years. Defined as: ((3.0)/(1000.0)) × mile per trillion years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerQuadrillionYears =
-            new ("league per quadrillion years", "le/Pyr", MilePerTrillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) yard per octillion years. Defined as: ((3.0)/(1000.0)) × foot per septillion years + (0).
    /// </summary>
    public static readonly Velocity YardPerOctillionYears =
@@ -3148,17 +2178,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// A(n) cable per nonillion years. Defined as: ((120.0)/(1000.0)) × fathom per octillion years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerNonillionYears = new (
-                                                                 "cable per nonillion years"
-                                                               , "cb/Qyr"
-                                                               , FathomPerOctillionYears
-                                                               , 120.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
    /// A(n) point per hour. Defined as: ((1.0/72.0)/(60.0)) × inch per minute + (0).
    /// </summary>
    public static readonly Velocity PointPerHour = new ("point per hour", "p/hr", InchPerMinute, 1.0 / 72.0 / 60.0, 0);
@@ -3174,45 +2193,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity PicaPerMinute = new ("pica per minute", "P/min", PointPerSecond, 12.0 / 60.0, 0);
 
    /// <summary>
-   /// A(n) yard per quintillion years. Defined as: ((3.0)/(1000.0)) × foot per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity YardPerQuintillionYears =
-            new ("yard per quintillion years", "yd/Eyr", FootPerQuadrillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) league per planck-time. Defined as: ((3.0)/(5.391247E-38)) × mile per microsecond + (0).
    /// </summary>
    public static readonly Velocity LeaguePerPlanckTime =
             new ("league per planck-time", "le/tₚ", MilePerMicrosecond, 3.0 / 5.391247E-38, 0);
 
    /// <summary>
-   /// A(n) yard per billion years. Defined as: ((3.0)/(1000.0)) × foot per million years + (0).
-   /// </summary>
-   public static readonly Velocity YardPerBillionYears =
-            new ("yard per billion years", "yd/Gyr", FootPerMillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) cable per decade. Defined as: ((120.0)/(10.0)) × fathom per year + (0).
-   /// </summary>
-   public static readonly Velocity CablePerDecade = new (
-                                                         "cable per decade"
-                                                       , "cb/decade"
-                                                       , FathomPerYear
-                                                       , 120.0 / 10.0
-                                                       , 0
-                                                        );
-
-   /// <summary>
    /// A(n) foot per quadrillion years. Defined as: ((12.0)/(1000.0)) × inch per trillion years + (0).
    /// </summary>
    public static readonly Velocity FootPerQuadrillionYears =
             new ("foot per quadrillion years", "ft/Pyr", InchPerTrillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) pica per septillion years. Defined as: ((12.0)/(1000.0)) × point per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerSeptillionYears =
-            new ("pica per septillion years", "P/Yyr", PointPerSextillionYears, 12.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) fathom per planck-time. Defined as: ((2.0)/(5.391247E-38)) × yard per microsecond + (0).
@@ -3229,33 +2219,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// A(n) foot per minute. Defined as: ((12.0)/(60.0)) × inch per second + (0).
    /// </summary>
    public static readonly Velocity FootPerMinute = new ("foot per minute", "ft/min", InchPerSecond, 12.0 / 60.0, 0);
-
-   /// <summary>
-   /// A(n) yard per century. Defined as: ((3.0)/(10.0)) × foot per decade + (0).
-   /// </summary>
-   public static readonly Velocity YardPerCentury = new (
-                                                         "yard per century"
-                                                       , "yd/century"
-                                                       , FootPerDecade
-                                                       , 3.0 / 10.0
-                                                       , 0
-                                                        );
-
-   /// <summary>
-   /// A(n) mile per decade. Defined as: ((1760.0)/(10.0)) × yard per year + (0).
-   /// </summary>
-   public static readonly Velocity MilePerDecade = new ("mile per decade", "mi/decade", YardPerYear, 1760.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) twip per sextillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerSextillionYears = new (
-                                                                 "twip per sextillion years"
-                                                               , "twip/Zyr"
-                                                               , PointPerQuintillionYears
-                                                               , 1.0 / 20.0 / 1000.0
-                                                               , 0
-                                                                );
 
    /// <summary>
    /// A(n) fathom per nonillion years. Defined as: ((2.0)/(1000.0)) × yard per octillion years + (0).
@@ -3275,32 +2238,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// A(n) pica per decade. Defined as: ((12.0)/(10.0)) × point per year + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerDecade = new ("pica per decade", "P/decade", PointPerYear, 12.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) yard per week. Defined as: ((3.0)/(7.0)) × foot per day + (0).
-   /// </summary>
-   public static readonly Velocity YardPerWeek = new ("yard per week", "yd/wk", FootPerDay, 3.0 / 7.0, 0);
-
-   /// <summary>
-   /// A(n) twip per millennium. Defined as: ((1.0/20.0)/(10.0)) × point per century + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerMillennium = new (
-                                                            "twip per millennium"
-                                                          , "twip/kyr"
-                                                          , PointPerCentury
-                                                          , 1.0 / 20.0 / 10.0
-                                                          , 0
-                                                           );
-
-   /// <summary>
-   /// A(n) league per day. Defined as: ((3.0)/(24.0)) × mile per hour + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerDay = new ("league per day", "le/dy", MilePerHour, 3.0 / 24.0, 0);
-
-   /// <summary>
    /// A(n) point per quadrillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per trillion years + (0).
    /// </summary>
    public static readonly Velocity PointPerQuadrillionYears = new (
@@ -3310,23 +2247,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , 1.0 / 72.0 / 1000.0
                                                                  , 0
                                                                   );
-
-   /// <summary>
-   /// A(n) mile per sextillion years. Defined as: ((1760.0)/(1000.0)) × yard per quintillion years + (0).
-   /// </summary>
-   public static readonly Velocity MilePerSextillionYears = new (
-                                                                 "mile per sextillion years"
-                                                               , "mi/Zyr"
-                                                               , YardPerQuintillionYears
-                                                               , 1760.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) fathom per septillion years. Defined as: ((2.0)/(1000.0)) × yard per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerSeptillionYears =
-            new ("fathom per septillion years", "ftm/Yyr", YardPerSextillionYears, 2.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) point per day. Defined as: ((1.0/72.0)/(24.0)) × inch per hour + (0).
@@ -3366,38 +2286,10 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// A(n) league per billion years. Defined as: ((3.0)/(1000.0)) × mile per million years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerBillionYears =
-            new ("league per billion years", "le/Gyr", MilePerMillionYears, 3.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) cable per millennium. Defined as: ((120.0)/(10.0)) × fathom per century + (0).
-   /// </summary>
-   public static readonly Velocity CablePerMillennium = new (
-                                                             "cable per millennium"
-                                                           , "cb/kyr"
-                                                           , FathomPerCentury
-                                                           , 120.0 / 10.0
-                                                           , 0
-                                                            );
-
-   /// <summary>
    /// A(n) foot per octillion years. Defined as: ((12.0)/(1000.0)) × inch per septillion years + (0).
    /// </summary>
    public static readonly Velocity FootPerOctillionYears =
             new ("foot per octillion years", "ft/Ryr", InchPerSeptillionYears, 12.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) fathom per quintillion years. Defined as: ((2.0)/(1000.0)) × yard per quadrillion years + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerQuintillionYears = new (
-                                                                    "fathom per quintillion years"
-                                                                  , "ftm/Eyr"
-                                                                  , YardPerQuadrillionYears
-                                                                  , 2.0 / 1000.0
-                                                                  , 0
-                                                                   );
 
    /// <summary>
    /// A(n) nautical mile per sextillion years. Defined as: ((1852.0)/(1000.0)) × SI meter per quintillion years + (0).
@@ -3427,12 +2319,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// A(n) fathom per trillion years. Defined as: ((2.0)/(1000.0)) × yard per billion years + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerTrillionYears =
-            new ("fathom per trillion years", "ftm/Tyr", YardPerBillionYears, 2.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) nautical mile per million years. Defined as: ((1852.0)/(1000.0)) × SI meter per millennium + (0).
    /// </summary>
    public static readonly Velocity NauticalMilePerMillionYears = new (
@@ -3442,12 +2328,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     , 1852.0 / 1000.0
                                                                     , 0
                                                                      );
-
-   /// <summary>
-   /// A(n) league per nonillion years. Defined as: ((3.0)/(1000.0)) × mile per octillion years + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerNonillionYears =
-            new ("league per nonillion years", "le/Qyr", MilePerOctillionYears, 3.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) mil per century. Defined as: ((1.0/1000.0)/(10.0)) × inch per decade + (0).
@@ -3483,12 +2363,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// A(n) fathom per million years. Defined as: ((2.0)/(1000.0)) × yard per millennium + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerMillionYears =
-            new ("fathom per million years", "ftm/Myr", YardPerMillennium, 2.0 / 1000.0, 0);
-
-   /// <summary>
    /// A(n) point per quintillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per quadrillion years + (0).
    /// </summary>
    public static readonly Velocity PointPerQuintillionYears = new (
@@ -3498,29 +2372,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , 1.0 / 72.0 / 1000.0
                                                                  , 0
                                                                   );
-
-   /// <summary>
-   /// A(n) mile per million years. Defined as: ((1760.0)/(1000.0)) × yard per millennium + (0).
-   /// </summary>
-   public static readonly Velocity MilePerMillionYears =
-            new ("mile per million years", "mi/Myr", YardPerMillennium, 1760.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) fathom per century. Defined as: ((2.0)/(10.0)) × yard per decade + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerCentury = new (
-                                                           "fathom per century"
-                                                         , "ftm/century"
-                                                         , YardPerDecade
-                                                         , 2.0 / 10.0
-                                                         , 0
-                                                          );
-
-   /// <summary>
-   /// A(n) cable per billion years. Defined as: ((120.0)/(1000.0)) × fathom per million years + (0).
-   /// </summary>
-   public static readonly Velocity CablePerBillionYears =
-            new ("cable per billion years", "cb/Gyr", FathomPerMillionYears, 120.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) pica per tick. Defined as: ((12.0)/(100.0)) × point per nanosecond + (0).
@@ -3560,54 +2411,10 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("foot per million years", "ft/Myr", InchPerMillennium, 12.0 / 1000.0, 0);
 
    /// <summary>
-   /// A(n) fathom per year. Defined as: ((2.0)/(365.2525)) × yard per day + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerYear = new ("fathom per year", "ftm/yr", YardPerDay, 2.0 / 365.2525, 0);
-
-   /// <summary>
-   /// A(n) twip per septillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per sextillion years + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerSeptillionYears = new (
-                                                                 "twip per septillion years"
-                                                               , "twip/Yyr"
-                                                               , PointPerSextillionYears
-                                                               , 1.0 / 20.0 / 1000.0
-                                                               , 0
-                                                                );
-
-   /// <summary>
    /// A(n) mile per nonillion years. Defined as: ((1760.0)/(1000.0)) × yard per octillion years + (0).
    /// </summary>
    public static readonly Velocity MilePerNonillionYears =
             new ("mile per nonillion years", "mi/Qyr", YardPerOctillionYears, 1760.0 / 1000.0, 0);
-
-   /// <summary>
-   /// A(n) twip per million years. Defined as: ((1.0/20.0)/(1000.0)) × point per millennium + (0).
-   /// </summary>
-   public static readonly Velocity TwipPerMillionYears = new (
-                                                              "twip per million years"
-                                                            , "twip/Myr"
-                                                            , PointPerMillennium
-                                                            , 1.0 / 20.0 / 1000.0
-                                                            , 0
-                                                             );
-
-   /// <summary>
-   /// A(n) fathom per day. Defined as: ((2.0)/(24.0)) × yard per hour + (0).
-   /// </summary>
-   public static readonly Velocity FathomPerDay = new ("fathom per day", "ftm/dy", YardPerHour, 2.0 / 24.0, 0);
-
-   /// <summary>
-   /// A(n) league per millennium. Defined as: ((3.0)/(10.0)) × mile per century + (0).
-   /// </summary>
-   public static readonly Velocity LeaguePerMillennium =
-            new ("league per millennium", "le/kyr", MilePerCentury, 3.0 / 10.0, 0);
-
-   /// <summary>
-   /// A(n) pica per octillion years. Defined as: ((12.0)/(1000.0)) × point per septillion years + (0).
-   /// </summary>
-   public static readonly Velocity PicaPerOctillionYears =
-            new ("pica per octillion years", "P/Ryr", PointPerSeptillionYears, 12.0 / 1000.0, 0);
 
    /// <summary>
    /// A(n) mile per tick. Defined as: ((1760.0)/(100.0)) × yard per nanosecond + (0).
@@ -3634,4 +2441,1197 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// A(n) fathom per minute. Defined as: ((2.0)/(60.0)) × yard per second + (0).
    /// </summary>
    public static readonly Velocity FathomPerMinute = new ("fathom per minute", "ftm/min", YardPerSecond, 2.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) point per sextillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity PointPerSextillionYears = new (
+                                                                  "point per sextillion years"
+                                                                , "p/Zyr"
+                                                                , InchPerQuintillionYears
+                                                                , 1.0 / 72.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) foot per quintillion years. Defined as: ((12.0)/(1000.0)) × inch per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity FootPerQuintillionYears = new (
+                                                                  "foot per quintillion years"
+                                                                , "ft/Eyr"
+                                                                , InchPerQuadrillionYears
+                                                                , 12.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) yard per nonillion years. Defined as: ((3.0)/(1000.0)) × foot per octillion years + (0).
+   /// </summary>
+   public static readonly Velocity YardPerNonillionYears =
+            new ("yard per nonillion years", "yd/Qyr", FootPerOctillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) point per year. Defined as: ((1.0/72.0)/(365.2525)) × inch per day + (0).
+   /// </summary>
+   public static readonly Velocity PointPerYear = new ("point per year", "p/yr", InchPerDay, 1.0 / 72.0 / 365.2525, 0);
+
+   /// <summary>
+   /// A(n) foot per hour. Defined as: ((12.0)/(60.0)) × inch per minute + (0).
+   /// </summary>
+   public static readonly Velocity FootPerHour = new ("foot per hour", "ft/hr", InchPerMinute, 12.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) mil per billion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per million years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerBillionYears = new (
+                                                             "mil per billion years"
+                                                           , "mil/Gyr"
+                                                           , InchPerMillionYears
+                                                           , 1.0 / 1000.0 / 1000.0
+                                                           , 0
+                                                            );
+
+   /// <summary>
+   /// A(n) cable per minute. Defined as: ((120.0)/(60.0)) × fathom per second + (0).
+   /// </summary>
+   public static readonly Velocity CablePerMinute = new (
+                                                         "cable per minute"
+                                                       , "cb/min"
+                                                       , FathomPerSecond
+                                                       , 120.0 / 60.0
+                                                       , 0
+                                                        );
+
+   /// <summary>
+   /// A(n) cable per tick. Defined as: ((120.0)/(100.0)) × fathom per nanosecond + (0).
+   /// </summary>
+   public static readonly Velocity CablePerTick = new (
+                                                       "cable per tick"
+                                                     , "cb/tick"
+                                                     , FathomPerNanosecond
+                                                     , 120.0 / 100.0
+                                                     , 0
+                                                      );
+
+   /// <summary>
+   /// A(n) yard per sextillion years. Defined as: ((3.0)/(1000.0)) × foot per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity YardPerSextillionYears =
+            new ("yard per sextillion years", "yd/Zyr", FootPerQuintillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) mil per trillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per billion years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerTrillionYears = new (
+                                                              "mil per trillion years"
+                                                            , "mil/Tyr"
+                                                            , InchPerBillionYears
+                                                            , 1.0 / 1000.0 / 1000.0
+                                                            , 0
+                                                             );
+
+   /// <summary>
+   /// A(n) pica per quadrillion years. Defined as: ((12.0)/(1000.0)) × point per trillion years + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerQuadrillionYears =
+            new ("pica per quadrillion years", "P/Pyr", PointPerTrillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) foot per nonillion years. Defined as: ((12.0)/(1000.0)) × inch per octillion years + (0).
+   /// </summary>
+   public static readonly Velocity FootPerNonillionYears =
+            new ("foot per nonillion years", "ft/Qyr", InchPerOctillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) foot per decade. Defined as: ((12.0)/(10.0)) × inch per year + (0).
+   /// </summary>
+   public static readonly Velocity FootPerDecade = new ("foot per decade", "ft/decade", InchPerYear, 12.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) point per septillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity PointPerSeptillionYears = new (
+                                                                  "point per septillion years"
+                                                                , "p/Yyr"
+                                                                , InchPerSextillionYears
+                                                                , 1.0 / 72.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) twip per week. Defined as: ((1.0/20.0)/(7.0)) × point per day + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerWeek = new ("twip per week", "twip/wk", PointPerDay, 1.0 / 20.0 / 7.0, 0);
+
+   /// <summary>
+   /// A(n) pica per day. Defined as: ((12.0)/(24.0)) × point per hour + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerDay = new ("pica per day", "P/dy", PointPerHour, 12.0 / 24.0, 0);
+
+   /// <summary>
+   /// A(n) point per decade. Defined as: ((1.0/72.0)/(10.0)) × inch per year + (0).
+   /// </summary>
+   public static readonly Velocity PointPerDecade = new (
+                                                         "point per decade"
+                                                       , "p/decade"
+                                                       , InchPerYear
+                                                       , 1.0 / 72.0 / 10.0
+                                                       , 0
+                                                        );
+
+   /// <summary>
+   /// A(n) yard per hour. Defined as: ((3.0)/(60.0)) × foot per minute + (0).
+   /// </summary>
+   public static readonly Velocity YardPerHour = new ("yard per hour", "yd/hr", FootPerMinute, 3.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) mil per quadrillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per trillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerQuadrillionYears = new (
+                                                                 "mil per quadrillion years"
+                                                               , "mil/Pyr"
+                                                               , InchPerTrillionYears
+                                                               , 1.0 / 1000.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) mile per septillion years. Defined as: ((1760.0)/(1000.0)) × yard per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilePerSeptillionYears = new (
+                                                                 "mile per septillion years"
+                                                               , "mi/Yyr"
+                                                               , YardPerSextillionYears
+                                                               , 1760.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) mil per quintillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerQuintillionYears = new (
+                                                                 "mil per quintillion years"
+                                                               , "mil/Eyr"
+                                                               , InchPerQuadrillionYears
+                                                               , 1.0 / 1000.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) foot per billion years. Defined as: ((12.0)/(1000.0)) × inch per million years + (0).
+   /// </summary>
+   public static readonly Velocity FootPerBillionYears =
+            new ("foot per billion years", "ft/Gyr", InchPerMillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) point per tick. Defined as: ((1.0/72.0)/(100.0)) × inch per nanosecond + (0).
+   /// </summary>
+   public static readonly Velocity PointPerTick = new (
+                                                       "point per tick"
+                                                     , "p/tick"
+                                                     , InchPerNanosecond
+                                                     , 1.0 / 72.0 / 100.0
+                                                     , 0
+                                                      );
+
+   /// <summary>
+   /// A(n) point per octillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per septillion years + (0).
+   /// </summary>
+   public static readonly Velocity PointPerOctillionYears = new (
+                                                                 "point per octillion years"
+                                                               , "p/Ryr"
+                                                               , InchPerSeptillionYears
+                                                               , 1.0 / 72.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) cable per decillion years. Defined as: ((120.0)/(1000.0)) × fathom per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerDecillionYears = new (
+                                                                 "cable per decillion years"
+                                                               , "cb/decillion yr"
+                                                               , FathomPerNonillionYears
+                                                               , 120.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) point per century. Defined as: ((1.0/72.0)/(10.0)) × inch per decade + (0).
+   /// </summary>
+   public static readonly Velocity PointPerCentury = new (
+                                                          "point per century"
+                                                        , "p/century"
+                                                        , InchPerDecade
+                                                        , 1.0 / 72.0 / 10.0
+                                                        , 0
+                                                         );
+
+   /// <summary>
+   /// A(n) mile per hour. Defined as: ((1760.0)/(60.0)) × yard per minute + (0).
+   /// </summary>
+   public static readonly Velocity MilePerHour = new ("mile per hour", "mi/hr", YardPerMinute, 1760.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) mil per sextillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerSextillionYears = new (
+                                                                "mil per sextillion years"
+                                                              , "mil/Zyr"
+                                                              , InchPerQuintillionYears
+                                                              , 1.0 / 1000.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) twip per nonillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per octillion years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerNonillionYears = new (
+                                                                "twip per nonillion years"
+                                                              , "twip/Qyr"
+                                                              , PointPerOctillionYears
+                                                              , 1.0 / 20.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) foot per tick. Defined as: ((12.0)/(100.0)) × inch per nanosecond + (0).
+   /// </summary>
+   public static readonly Velocity FootPerTick = new ("foot per tick", "ft/tick", InchPerNanosecond, 12.0 / 100.0, 0);
+
+   /// <summary>
+   /// A(n) fathom per decillion years. Defined as: ((2.0)/(1000.0)) × yard per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerDecillionYears = new (
+                                                                  "fathom per decillion years"
+                                                                , "ftm/decillion yr"
+                                                                , YardPerNonillionYears
+                                                                , 2.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) twip per trillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per billion years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerTrillionYears = new (
+                                                               "twip per trillion years"
+                                                             , "twip/Tyr"
+                                                             , PointPerBillionYears
+                                                             , 1.0 / 20.0 / 1000.0
+                                                             , 0
+                                                              );
+
+   /// <summary>
+   /// A(n) foot per sextillion years. Defined as: ((12.0)/(1000.0)) × inch per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity FootPerSextillionYears =
+            new ("foot per sextillion years", "ft/Zyr", InchPerQuintillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) league per decillion years. Defined as: ((3.0)/(1000.0)) × mile per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerDecillionYears = new (
+                                                                  "league per decillion years"
+                                                                , "le/decillion yr"
+                                                                , MilePerNonillionYears
+                                                                , 3.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) twip per year. Defined as: ((1.0/20.0)/(365.2525)) × point per day + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerYear = new (
+                                                      "twip per year"
+                                                    , "twip/yr"
+                                                    , PointPerDay
+                                                    , 1.0 / 20.0 / 365.2525
+                                                    , 0
+                                                     );
+
+   /// <summary>
+   /// A(n) foot per day. Defined as: ((12.0)/(24.0)) × inch per hour + (0).
+   /// </summary>
+   public static readonly Velocity FootPerDay = new ("foot per day", "ft/dy", InchPerHour, 12.0 / 24.0, 0);
+
+   /// <summary>
+   /// A(n) mil per septillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerSeptillionYears = new (
+                                                                "mil per septillion years"
+                                                              , "mil/Yyr"
+                                                              , InchPerSextillionYears
+                                                              , 1.0 / 1000.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) pica per quintillion years. Defined as: ((12.0)/(1000.0)) × point per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerQuintillionYears = new (
+                                                                  "pica per quintillion years"
+                                                                , "P/Eyr"
+                                                                , PointPerQuadrillionYears
+                                                                , 12.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) mile per decillion years. Defined as: ((1760.0)/(1000.0)) × yard per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilePerDecillionYears = new (
+                                                                "mile per decillion years"
+                                                              , "mi/decillion yr"
+                                                              , YardPerNonillionYears
+                                                              , 1760.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) league per tick. Defined as: ((3.0)/(100.0)) × mile per nanosecond + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerTick = new (
+                                                        "league per tick"
+                                                      , "le/tick"
+                                                      , MilePerNanosecond
+                                                      , 3.0 / 100.0
+                                                      , 0
+                                                       );
+
+   /// <summary>
+   /// A(n) point per nonillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per octillion years + (0).
+   /// </summary>
+   public static readonly Velocity PointPerNonillionYears = new (
+                                                                 "point per nonillion years"
+                                                               , "p/Qyr"
+                                                               , InchPerOctillionYears
+                                                               , 1.0 / 72.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) yard per decillion years. Defined as: ((3.0)/(1000.0)) × foot per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity YardPerDecillionYears = new (
+                                                                "yard per decillion years"
+                                                              , "yd/decillion yr"
+                                                              , FootPerNonillionYears
+                                                              , 3.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) pica per week. Defined as: ((12.0)/(7.0)) × point per day + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerWeek = new ("pica per week", "P/wk", PointPerDay, 12.0 / 7.0, 0);
+
+   /// <summary>
+   /// A(n) point per millennium. Defined as: ((1.0/72.0)/(10.0)) × inch per century + (0).
+   /// </summary>
+   public static readonly Velocity PointPerMillennium = new (
+                                                             "point per millennium"
+                                                           , "p/kyr"
+                                                           , InchPerCentury
+                                                           , 1.0 / 72.0 / 10.0
+                                                           , 0
+                                                            );
+
+   /// <summary>
+   /// A(n) league per hour. Defined as: ((3.0)/(60.0)) × mile per minute + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerHour = new ("league per hour", "le/hr", MilePerMinute, 3.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) mil per octillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per septillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerOctillionYears = new (
+                                                               "mil per octillion years"
+                                                             , "mil/Ryr"
+                                                             , InchPerSeptillionYears
+                                                             , 1.0 / 1000.0 / 1000.0
+                                                             , 0
+                                                              );
+
+   /// <summary>
+   /// A(n) yard per septillion years. Defined as: ((3.0)/(1000.0)) × foot per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity YardPerSeptillionYears =
+            new ("yard per septillion years", "yd/Yyr", FootPerSextillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) foot per decillion years. Defined as: ((12.0)/(1000.0)) × inch per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity FootPerDecillionYears = new (
+                                                                "foot per decillion years"
+                                                              , "ft/decillion yr"
+                                                              , InchPerNonillionYears
+                                                              , 12.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) foot per century. Defined as: ((12.0)/(10.0)) × inch per decade + (0).
+   /// </summary>
+   public static readonly Velocity FootPerCentury = new (
+                                                         "foot per century"
+                                                       , "ft/century"
+                                                       , InchPerDecade
+                                                       , 12.0 / 10.0
+                                                       , 0
+                                                        );
+
+   /// <summary>
+   /// A(n) pica per decillion years. Defined as: ((12.0)/(1000.0)) × point per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerDecillionYears = new (
+                                                                "pica per decillion years"
+                                                              , "P/decillion yr"
+                                                              , PointPerNonillionYears
+                                                              , 12.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) mil per nonillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per octillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerNonillionYears = new (
+                                                               "mil per nonillion years"
+                                                             , "mil/Qyr"
+                                                             , InchPerOctillionYears
+                                                             , 1.0 / 1000.0 / 1000.0
+                                                             , 0
+                                                              );
+
+   /// <summary>
+   /// A(n) yard per million years. Defined as: ((3.0)/(1000.0)) × foot per millennium + (0).
+   /// </summary>
+   public static readonly Velocity YardPerMillionYears =
+            new ("yard per million years", "yd/Myr", FootPerMillennium, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) twip per decillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerDecillionYears = new (
+                                                                "twip per decillion years"
+                                                              , "twip/decillion yr"
+                                                              , PointPerNonillionYears
+                                                              , 1.0 / 20.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) league per octillion years. Defined as: ((3.0)/(1000.0)) × mile per septillion years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerOctillionYears =
+            new ("league per octillion years", "le/Ryr", MilePerSeptillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) yard per decade. Defined as: ((3.0)/(10.0)) × foot per year + (0).
+   /// </summary>
+   public static readonly Velocity YardPerDecade = new ("yard per decade", "yd/decade", FootPerYear, 3.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) pica per million years. Defined as: ((12.0)/(1000.0)) × point per millennium + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerMillionYears =
+            new ("pica per million years", "P/Myr", PointPerMillennium, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) twip per quadrillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per trillion years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerQuadrillionYears = new (
+                                                                  "twip per quadrillion years"
+                                                                , "twip/Pyr"
+                                                                , PointPerTrillionYears
+                                                                , 1.0 / 20.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) point per decillion years. Defined as: ((1.0/72.0)/(1000.0)) × inch per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity PointPerDecillionYears = new (
+                                                                 "point per decillion years"
+                                                               , "p/decillion yr"
+                                                               , InchPerNonillionYears
+                                                               , 1.0 / 72.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) twip per decade. Defined as: ((1.0/20.0)/(10.0)) × point per year + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerDecade = new (
+                                                        "twip per decade"
+                                                      , "twip/decade"
+                                                      , PointPerYear
+                                                      , 1.0 / 20.0 / 10.0
+                                                      , 0
+                                                       );
+
+   /// <summary>
+   /// A(n) yard per day. Defined as: ((3.0)/(24.0)) × foot per hour + (0).
+   /// </summary>
+   public static readonly Velocity YardPerDay = new ("yard per day", "yd/dy", FootPerHour, 3.0 / 24.0, 0);
+
+   /// <summary>
+   /// A(n) point per million years. Defined as: ((1.0/72.0)/(1000.0)) × inch per millennium + (0).
+   /// </summary>
+   public static readonly Velocity PointPerMillionYears =
+            new ("point per million years", "p/Myr", InchPerMillennium, 1.0 / 72.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) fathom per hour. Defined as: ((2.0)/(60.0)) × yard per minute + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerHour = new ("fathom per hour", "ftm/hr", YardPerMinute, 2.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) mil per decillion years. Defined as: ((1.0/1000.0)/(1000.0)) × inch per nonillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilPerDecillionYears = new (
+                                                               "mil per decillion years"
+                                                             , "mil/decillion yr"
+                                                             , InchPerNonillionYears
+                                                             , 1.0 / 1000.0 / 1000.0
+                                                             , 0
+                                                              );
+
+   /// <summary>
+   /// A(n) foot per trillion years. Defined as: ((12.0)/(1000.0)) × inch per billion years + (0).
+   /// </summary>
+   public static readonly Velocity FootPerTrillionYears =
+            new ("foot per trillion years", "ft/Tyr", InchPerBillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) pica per sextillion years. Defined as: ((12.0)/(1000.0)) × point per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerSextillionYears =
+            new ("pica per sextillion years", "P/Zyr", PointPerQuintillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) mile per octillion years. Defined as: ((1760.0)/(1000.0)) × yard per septillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilePerOctillionYears = new (
+                                                                "mile per octillion years"
+                                                              , "mi/Ryr"
+                                                              , YardPerSeptillionYears
+                                                              , 1760.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) pica per year. Defined as: ((12.0)/(365.2525)) × point per day + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerYear = new ("pica per year", "P/yr", PointPerDay, 12.0 / 365.2525, 0);
+
+   /// <summary>
+   /// A(n) cable per hour. Defined as: ((120.0)/(60.0)) × fathom per minute + (0).
+   /// </summary>
+   public static readonly Velocity CablePerHour = new ("cable per hour", "cb/hr", FathomPerMinute, 120.0 / 60.0, 0);
+
+   /// <summary>
+   /// A(n) twip per quintillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerQuintillionYears = new (
+                                                                  "twip per quintillion years"
+                                                                , "twip/Eyr"
+                                                                , PointPerQuadrillionYears
+                                                                , 1.0 / 20.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) twip per century. Defined as: ((1.0/20.0)/(10.0)) × point per decade + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerCentury = new (
+                                                         "twip per century"
+                                                       , "twip/century"
+                                                       , PointPerDecade
+                                                       , 1.0 / 20.0 / 10.0
+                                                       , 0
+                                                        );
+
+   /// <summary>
+   /// A(n) mile per day. Defined as: ((1760.0)/(24.0)) × yard per hour + (0).
+   /// </summary>
+   public static readonly Velocity MilePerDay = new ("mile per day", "mi/dy", YardPerHour, 1760.0 / 24.0, 0);
+
+   /// <summary>
+   /// A(n) league per year. Defined as: ((3.0)/(365.2525)) × mile per day + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerYear = new ("league per year", "le/yr", MilePerDay, 3.0 / 365.2525, 0);
+
+   /// <summary>
+   /// A(n) pica per billion years. Defined as: ((12.0)/(1000.0)) × point per million years + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerBillionYears =
+            new ("pica per billion years", "P/Gyr", PointPerMillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) yard per quintillion years. Defined as: ((3.0)/(1000.0)) × foot per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity YardPerQuintillionYears =
+            new ("yard per quintillion years", "yd/Eyr", FootPerQuadrillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) yard per billion years. Defined as: ((3.0)/(1000.0)) × foot per million years + (0).
+   /// </summary>
+   public static readonly Velocity YardPerBillionYears =
+            new ("yard per billion years", "yd/Gyr", FootPerMillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) pica per septillion years. Defined as: ((12.0)/(1000.0)) × point per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerSeptillionYears =
+            new ("pica per septillion years", "P/Yyr", PointPerSextillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) yard per century. Defined as: ((3.0)/(10.0)) × foot per decade + (0).
+   /// </summary>
+   public static readonly Velocity YardPerCentury = new (
+                                                         "yard per century"
+                                                       , "yd/century"
+                                                       , FootPerDecade
+                                                       , 3.0 / 10.0
+                                                       , 0
+                                                        );
+
+   /// <summary>
+   /// A(n) twip per sextillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerSextillionYears = new (
+                                                                 "twip per sextillion years"
+                                                               , "twip/Zyr"
+                                                               , PointPerQuintillionYears
+                                                               , 1.0 / 20.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) pica per decade. Defined as: ((12.0)/(10.0)) × point per year + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerDecade = new ("pica per decade", "P/decade", PointPerYear, 12.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) yard per week. Defined as: ((3.0)/(7.0)) × foot per day + (0).
+   /// </summary>
+   public static readonly Velocity YardPerWeek = new ("yard per week", "yd/wk", FootPerDay, 3.0 / 7.0, 0);
+
+   /// <summary>
+   /// A(n) twip per millennium. Defined as: ((1.0/20.0)/(10.0)) × point per century + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerMillennium = new (
+                                                            "twip per millennium"
+                                                          , "twip/kyr"
+                                                          , PointPerCentury
+                                                          , 1.0 / 20.0 / 10.0
+                                                          , 0
+                                                           );
+
+   /// <summary>
+   /// A(n) league per day. Defined as: ((3.0)/(24.0)) × mile per hour + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerDay = new ("league per day", "le/dy", MilePerHour, 3.0 / 24.0, 0);
+
+   /// <summary>
+   /// A(n) mile per sextillion years. Defined as: ((1760.0)/(1000.0)) × yard per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilePerSextillionYears = new (
+                                                                 "mile per sextillion years"
+                                                               , "mi/Zyr"
+                                                               , YardPerQuintillionYears
+                                                               , 1760.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) fathom per septillion years. Defined as: ((2.0)/(1000.0)) × yard per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerSeptillionYears =
+            new ("fathom per septillion years", "ftm/Yyr", YardPerSextillionYears, 2.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) fathom per trillion years. Defined as: ((2.0)/(1000.0)) × yard per billion years + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerTrillionYears =
+            new ("fathom per trillion years", "ftm/Tyr", YardPerBillionYears, 2.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) league per nonillion years. Defined as: ((3.0)/(1000.0)) × mile per octillion years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerNonillionYears =
+            new ("league per nonillion years", "le/Qyr", MilePerOctillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) fathom per century. Defined as: ((2.0)/(10.0)) × yard per decade + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerCentury = new (
+                                                           "fathom per century"
+                                                         , "ftm/century"
+                                                         , YardPerDecade
+                                                         , 2.0 / 10.0
+                                                         , 0
+                                                          );
+
+   /// <summary>
+   /// A(n) fathom per year. Defined as: ((2.0)/(365.2525)) × yard per day + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerYear = new ("fathom per year", "ftm/yr", YardPerDay, 2.0 / 365.2525, 0);
+
+   /// <summary>
+   /// A(n) twip per septillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerSeptillionYears = new (
+                                                                 "twip per septillion years"
+                                                               , "twip/Yyr"
+                                                               , PointPerSextillionYears
+                                                               , 1.0 / 20.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) twip per million years. Defined as: ((1.0/20.0)/(1000.0)) × point per millennium + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerMillionYears = new (
+                                                              "twip per million years"
+                                                            , "twip/Myr"
+                                                            , PointPerMillennium
+                                                            , 1.0 / 20.0 / 1000.0
+                                                            , 0
+                                                             );
+
+   /// <summary>
+   /// A(n) fathom per day. Defined as: ((2.0)/(24.0)) × yard per hour + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerDay = new ("fathom per day", "ftm/dy", YardPerHour, 2.0 / 24.0, 0);
+
+   /// <summary>
+   /// A(n) pica per octillion years. Defined as: ((12.0)/(1000.0)) × point per septillion years + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerOctillionYears =
+            new ("pica per octillion years", "P/Ryr", PointPerSeptillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) cable per quadrillion years. Defined as: ((120.0)/(1000.0)) × fathom per trillion years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerQuadrillionYears = new (
+                                                                   "cable per quadrillion years"
+                                                                 , "cb/Pyr"
+                                                                 , FathomPerTrillionYears
+                                                                 , 120.0 / 1000.0
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) league per septillion years. Defined as: ((3.0)/(1000.0)) × mile per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerSeptillionYears =
+            new ("league per septillion years", "le/Yyr", MilePerSextillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) pica per century. Defined as: ((12.0)/(10.0)) × point per decade + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerCentury = new (
+                                                         "pica per century"
+                                                       , "P/century"
+                                                       , PointPerDecade
+                                                       , 12.0 / 10.0
+                                                       , 0
+                                                        );
+
+   /// <summary>
+   /// A(n) mile per week. Defined as: ((1760.0)/(7.0)) × yard per day + (0).
+   /// </summary>
+   public static readonly Velocity MilePerWeek = new ("mile per week", "mi/wk", YardPerDay, 1760.0 / 7.0, 0);
+
+   /// <summary>
+   /// A(n) yard per trillion years. Defined as: ((3.0)/(1000.0)) × foot per billion years + (0).
+   /// </summary>
+   public static readonly Velocity YardPerTrillionYears =
+            new ("yard per trillion years", "yd/Tyr", FootPerBillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) yard per millennium. Defined as: ((3.0)/(10.0)) × foot per century + (0).
+   /// </summary>
+   public static readonly Velocity YardPerMillennium = new (
+                                                            "yard per millennium"
+                                                          , "yd/kyr"
+                                                          , FootPerCentury
+                                                          , 3.0 / 10.0
+                                                          , 0
+                                                           );
+
+   /// <summary>
+   /// A(n) twip per octillion years. Defined as: ((1.0/20.0)/(1000.0)) × point per septillion years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerOctillionYears = new (
+                                                                "twip per octillion years"
+                                                              , "twip/Ryr"
+                                                              , PointPerSeptillionYears
+                                                              , 1.0 / 20.0 / 1000.0
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) yard per year. Defined as: ((3.0)/(365.2525)) × foot per day + (0).
+   /// </summary>
+   public static readonly Velocity YardPerYear = new ("yard per year", "yd/yr", FootPerDay, 3.0 / 365.2525, 0);
+
+   /// <summary>
+   /// A(n) twip per billion years. Defined as: ((1.0/20.0)/(1000.0)) × point per million years + (0).
+   /// </summary>
+   public static readonly Velocity TwipPerBillionYears = new (
+                                                              "twip per billion years"
+                                                            , "twip/Gyr"
+                                                            , PointPerMillionYears
+                                                            , 1.0 / 20.0 / 1000.0
+                                                            , 0
+                                                             );
+
+   /// <summary>
+   /// A(n) cable per day. Defined as: ((120.0)/(24.0)) × fathom per hour + (0).
+   /// </summary>
+   public static readonly Velocity CablePerDay = new ("cable per day", "cb/dy", FathomPerHour, 120.0 / 24.0, 0);
+
+   /// <summary>
+   /// A(n) mile per century. Defined as: ((1760.0)/(10.0)) × yard per decade + (0).
+   /// </summary>
+   public static readonly Velocity MilePerCentury = new (
+                                                         "mile per century"
+                                                       , "mi/century"
+                                                       , YardPerDecade
+                                                       , 1760.0 / 10.0
+                                                       , 0
+                                                        );
+
+   /// <summary>
+   /// A(n) cable per octillion years. Defined as: ((120.0)/(1000.0)) × fathom per septillion years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerOctillionYears = new (
+                                                                 "cable per octillion years"
+                                                               , "cb/Ryr"
+                                                               , FathomPerSeptillionYears
+                                                               , 120.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) pica per nonillion years. Defined as: ((12.0)/(1000.0)) × point per octillion years + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerNonillionYears =
+            new ("pica per nonillion years", "P/Qyr", PointPerOctillionYears, 12.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) cable per year. Defined as: ((120.0)/(365.2525)) × fathom per day + (0).
+   /// </summary>
+   public static readonly Velocity CablePerYear = new ("cable per year", "cb/yr", FathomPerDay, 120.0 / 365.2525, 0);
+
+   /// <summary>
+   /// A(n) pica per millennium. Defined as: ((12.0)/(10.0)) × point per century + (0).
+   /// </summary>
+   public static readonly Velocity PicaPerMillennium = new (
+                                                            "pica per millennium"
+                                                          , "P/kyr"
+                                                          , PointPerCentury
+                                                          , 12.0 / 10.0
+                                                          , 0
+                                                           );
+
+   /// <summary>
+   /// A(n) league per week. Defined as: ((3.0)/(7.0)) × mile per day + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerWeek = new ("league per week", "le/wk", MilePerDay, 3.0 / 7.0, 0);
+
+   /// <summary>
+   /// A(n) mile per billion years. Defined as: ((1760.0)/(1000.0)) × yard per million years + (0).
+   /// </summary>
+   public static readonly Velocity MilePerBillionYears =
+            new ("mile per billion years", "mi/Gyr", YardPerMillionYears, 1760.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) fathom per octillion years. Defined as: ((2.0)/(1000.0)) × yard per septillion years + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerOctillionYears =
+            new ("fathom per octillion years", "ftm/Ryr", YardPerSeptillionYears, 2.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) fathom per sextillion years. Defined as: ((2.0)/(1000.0)) × yard per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerSextillionYears = new (
+                                                                   "fathom per sextillion years"
+                                                                 , "ftm/Zyr"
+                                                                 , YardPerQuintillionYears
+                                                                 , 2.0 / 1000.0
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) fathom per quadrillion years. Defined as: ((2.0)/(1000.0)) × yard per trillion years + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerQuadrillionYears =
+            new ("fathom per quadrillion years", "ftm/Pyr", YardPerTrillionYears, 2.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) fathom per billion years. Defined as: ((2.0)/(1000.0)) × yard per million years + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerBillionYears =
+            new ("fathom per billion years", "ftm/Gyr", YardPerMillionYears, 2.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) mile per year. Defined as: ((1760.0)/(365.2525)) × yard per day + (0).
+   /// </summary>
+   public static readonly Velocity MilePerYear = new ("mile per year", "mi/yr", YardPerDay, 1760.0 / 365.2525, 0);
+
+   /// <summary>
+   /// A(n) fathom per millennium. Defined as: ((2.0)/(10.0)) × yard per century + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerMillennium =
+            new ("fathom per millennium", "ftm/kyr", YardPerCentury, 2.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) yard per quadrillion years. Defined as: ((3.0)/(1000.0)) × foot per trillion years + (0).
+   /// </summary>
+   public static readonly Velocity YardPerQuadrillionYears =
+            new ("yard per quadrillion years", "yd/Pyr", FootPerTrillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) fathom per decade. Defined as: ((2.0)/(10.0)) × yard per year + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerDecade = new (
+                                                          "fathom per decade"
+                                                        , "ftm/decade"
+                                                        , YardPerYear
+                                                        , 2.0 / 10.0
+                                                        , 0
+                                                         );
+
+   /// <summary>
+   /// A(n) mile per quintillion years. Defined as: ((1760.0)/(1000.0)) × yard per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilePerQuintillionYears = new (
+                                                                  "mile per quintillion years"
+                                                                , "mi/Eyr"
+                                                                , YardPerQuadrillionYears
+                                                                , 1760.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) fathom per week. Defined as: ((2.0)/(7.0)) × yard per day + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerWeek = new ("fathom per week", "ftm/wk", YardPerDay, 2.0 / 7.0, 0);
+
+   /// <summary>
+   /// A(n) cable per trillion years. Defined as: ((120.0)/(1000.0)) × fathom per billion years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerTrillionYears =
+            new ("cable per trillion years", "cb/Tyr", FathomPerBillionYears, 120.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) mile per millennium. Defined as: ((1760.0)/(10.0)) × yard per century + (0).
+   /// </summary>
+   public static readonly Velocity MilePerMillennium = new (
+                                                            "mile per millennium"
+                                                          , "mi/kyr"
+                                                          , YardPerCentury
+                                                          , 1760.0 / 10.0
+                                                          , 0
+                                                           );
+
+   /// <summary>
+   /// A(n) cable per quintillion years. Defined as: ((120.0)/(1000.0)) × fathom per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerQuintillionYears = new (
+                                                                   "cable per quintillion years"
+                                                                 , "cb/Eyr"
+                                                                 , FathomPerQuadrillionYears
+                                                                 , 120.0 / 1000.0
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) league per sextillion years. Defined as: ((3.0)/(1000.0)) × mile per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerSextillionYears =
+            new ("league per sextillion years", "le/Zyr", MilePerQuintillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) cable per septillion years. Defined as: ((120.0)/(1000.0)) × fathom per sextillion years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerSeptillionYears = new (
+                                                                  "cable per septillion years"
+                                                                , "cb/Yyr"
+                                                                , FathomPerSextillionYears
+                                                                , 120.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) cable per week. Defined as: ((120.0)/(7.0)) × fathom per day + (0).
+   /// </summary>
+   public static readonly Velocity CablePerWeek = new ("cable per week", "cb/wk", FathomPerDay, 120.0 / 7.0, 0);
+
+   /// <summary>
+   /// A(n) mile per trillion years. Defined as: ((1760.0)/(1000.0)) × yard per billion years + (0).
+   /// </summary>
+   public static readonly Velocity MilePerTrillionYears =
+            new ("mile per trillion years", "mi/Tyr", YardPerBillionYears, 1760.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) league per quadrillion years. Defined as: ((3.0)/(1000.0)) × mile per trillion years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerQuadrillionYears =
+            new ("league per quadrillion years", "le/Pyr", MilePerTrillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) cable per nonillion years. Defined as: ((120.0)/(1000.0)) × fathom per octillion years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerNonillionYears = new (
+                                                                 "cable per nonillion years"
+                                                               , "cb/Qyr"
+                                                               , FathomPerOctillionYears
+                                                               , 120.0 / 1000.0
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) cable per decade. Defined as: ((120.0)/(10.0)) × fathom per year + (0).
+   /// </summary>
+   public static readonly Velocity CablePerDecade = new (
+                                                         "cable per decade"
+                                                       , "cb/decade"
+                                                       , FathomPerYear
+                                                       , 120.0 / 10.0
+                                                       , 0
+                                                        );
+
+   /// <summary>
+   /// A(n) mile per decade. Defined as: ((1760.0)/(10.0)) × yard per year + (0).
+   /// </summary>
+   public static readonly Velocity MilePerDecade = new ("mile per decade", "mi/decade", YardPerYear, 1760.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) cable per millennium. Defined as: ((120.0)/(10.0)) × fathom per century + (0).
+   /// </summary>
+   public static readonly Velocity CablePerMillennium = new (
+                                                             "cable per millennium"
+                                                           , "cb/kyr"
+                                                           , FathomPerCentury
+                                                           , 120.0 / 10.0
+                                                           , 0
+                                                            );
+
+   /// <summary>
+   /// A(n) fathom per quintillion years. Defined as: ((2.0)/(1000.0)) × yard per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerQuintillionYears = new (
+                                                                    "fathom per quintillion years"
+                                                                  , "ftm/Eyr"
+                                                                  , YardPerQuadrillionYears
+                                                                  , 2.0 / 1000.0
+                                                                  , 0
+                                                                   );
+
+   /// <summary>
+   /// A(n) fathom per million years. Defined as: ((2.0)/(1000.0)) × yard per millennium + (0).
+   /// </summary>
+   public static readonly Velocity FathomPerMillionYears =
+            new ("fathom per million years", "ftm/Myr", YardPerMillennium, 2.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) mile per million years. Defined as: ((1760.0)/(1000.0)) × yard per millennium + (0).
+   /// </summary>
+   public static readonly Velocity MilePerMillionYears =
+            new ("mile per million years", "mi/Myr", YardPerMillennium, 1760.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) cable per billion years. Defined as: ((120.0)/(1000.0)) × fathom per million years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerBillionYears =
+            new ("cable per billion years", "cb/Gyr", FathomPerMillionYears, 120.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) league per millennium. Defined as: ((3.0)/(10.0)) × mile per century + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerMillennium =
+            new ("league per millennium", "le/kyr", MilePerCentury, 3.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) mile per quadrillion years. Defined as: ((1760.0)/(1000.0)) × yard per trillion years + (0).
+   /// </summary>
+   public static readonly Velocity MilePerQuadrillionYears =
+            new ("mile per quadrillion years", "mi/Pyr", YardPerTrillionYears, 1760.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) cable per sextillion years. Defined as: ((120.0)/(1000.0)) × fathom per quintillion years + (0).
+   /// </summary>
+   public static readonly Velocity CablePerSextillionYears = new (
+                                                                  "cable per sextillion years"
+                                                                , "cb/Zyr"
+                                                                , FathomPerQuintillionYears
+                                                                , 120.0 / 1000.0
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) league per decade. Defined as: ((3.0)/(10.0)) × mile per year + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerDecade = new ("league per decade", "le/decade", MilePerYear, 3.0 / 10.0, 0);
+
+   /// <summary>
+   /// A(n) league per quintillion years. Defined as: ((3.0)/(1000.0)) × mile per quadrillion years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerQuintillionYears = new (
+                                                                    "league per quintillion years"
+                                                                  , "le/Eyr"
+                                                                  , MilePerQuadrillionYears
+                                                                  , 3.0 / 1000.0
+                                                                  , 0
+                                                                   );
+
+   /// <summary>
+   /// A(n) league per trillion years. Defined as: ((3.0)/(1000.0)) × mile per billion years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerTrillionYears =
+            new ("league per trillion years", "le/Tyr", MilePerBillionYears, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) cable per century. Defined as: ((120.0)/(10.0)) × fathom per decade + (0).
+   /// </summary>
+   public static readonly Velocity CablePerCentury = new (
+                                                          "cable per century"
+                                                        , "cb/century"
+                                                        , FathomPerDecade
+                                                        , 120.0 / 10.0
+                                                        , 0
+                                                         );
+
+   /// <summary>
+   /// A(n) cable per million years. Defined as: ((120.0)/(1000.0)) × fathom per millennium + (0).
+   /// </summary>
+   public static readonly Velocity CablePerMillionYears =
+            new ("cable per million years", "cb/Myr", FathomPerMillennium, 120.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) league per million years. Defined as: ((3.0)/(1000.0)) × mile per millennium + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerMillionYears =
+            new ("league per million years", "le/Myr", MilePerMillennium, 3.0 / 1000.0, 0);
+
+   /// <summary>
+   /// A(n) league per century. Defined as: ((3.0)/(10.0)) × mile per decade + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerCentury = new (
+                                                           "league per century"
+                                                         , "le/century"
+                                                         , MilePerDecade
+                                                         , 3.0 / 10.0
+                                                         , 0
+                                                          );
+
+   /// <summary>
+   /// A(n) league per billion years. Defined as: ((3.0)/(1000.0)) × mile per million years + (0).
+   /// </summary>
+   public static readonly Velocity LeaguePerBillionYears =
+            new ("league per billion years", "le/Gyr", MilePerMillionYears, 3.0 / 1000.0, 0);
 }

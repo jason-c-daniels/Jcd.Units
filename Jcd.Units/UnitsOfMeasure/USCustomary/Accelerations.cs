@@ -18,83 +18,6 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleration>
 {
    /// <summary>
-   /// A(n) cable per square quadrillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square trillion years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareQuadrillionYears = new (
-                                                                             "cable per square quadrillion years"
-                                                                           , "cb/Pyr²"
-                                                                           , FathomPerSquareTrillionYears
-                                                                           , 120.0 / (1000.0 * 1000.0)
-                                                                           , 0
-                                                                            );
-
-   /// <summary>
-   /// A(n) league per square septillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareSeptillionYears = new (
-                                                                             "league per square septillion years"
-                                                                           , "le/Yyr²"
-                                                                           , MilePerSquareSextillionYears
-                                                                           , 3.0 / (1000.0 * 1000.0)
-                                                                           , 0
-                                                                            );
-
-   /// <summary>
-   /// A(n) pica per square century. Defined as: ((12.0)/((10.0)*(10.0))) × point per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareCentury = new (
-                                                                   "pica per square century"
-                                                                 , "P/century²"
-                                                                 , PointPerSquareDecade
-                                                                 , 12.0 / (10.0 * 10.0)
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) mile per square week. Defined as: ((1760.0)/((7.0)*(7.0))) × yard per square day + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareWeek = new (
-                                                                "mile per square week"
-                                                              , "mi/wk²"
-                                                              , YardPerSquareDay
-                                                              , 1760.0 / (7.0 * 7.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) point per square sextillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareSextillionYears = new (
-                                                                            "point per square sextillion years"
-                                                                          , "p/Zyr²"
-                                                                          , InchPerSquareQuintillionYears
-                                                                          , 1.0 / 72.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) foot per square quintillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareQuintillionYears = new (
-                                                                            "foot per square quintillion years"
-                                                                          , "ft/Eyr²"
-                                                                          , InchPerSquareQuadrillionYears
-                                                                          , 12.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) yard per square nonillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square octillion years + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareNonillionYears = new (
-                                                                          "yard per square nonillion years"
-                                                                        , "yd/Qyr²"
-                                                                        , FootPerSquareOctillionYears
-                                                                        , 3.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
    /// A(n) nautical mile per square octillion years. Defined as: ((1852.0)/((1000.0)*(1000.0))) × SI meter per square septillion years + (0).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareOctillionYears = new (
@@ -104,83 +27,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , 1852.0 / (1000.0 * 1000.0)
      , 0
       );
-
-   /// <summary>
-   /// A(n) point per square year. Defined as: ((1.0/72.0)/((365.2525)*(365.2525))) × inch per square day + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareYear = new (
-                                                                 "point per square year"
-                                                               , "p/yr²"
-                                                               , InchPerSquareDay
-                                                               , 1.0 / 72.0 / (365.2525 * 365.2525)
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) foot per square hour. Defined as: ((12.0)/((60.0)*(60.0))) × inch per square minute + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareHour = new (
-                                                                "foot per square hour"
-                                                              , "ft/hr²"
-                                                              , InchPerSquareMinute
-                                                              , 12.0 / (60.0 * 60.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) mil per square billion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareBillionYears = new (
-                                                                       "mil per square billion years"
-                                                                     , "mil/Gyr²"
-                                                                     , InchPerSquareMillionYears
-                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                     , 0
-                                                                      );
-
-   /// <summary>
-   /// A(n) cable per square minute. Defined as: ((120.0)/((60.0)*(60.0))) × fathom per square second + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareMinute = new (
-                                                                   "cable per square minute"
-                                                                 , "cb/min²"
-                                                                 , FathomPerSquareSecond
-                                                                 , 120.0 / (60.0 * 60.0)
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) cable per square tick. Defined as: ((120.0)/((100.0)*(100.0))) × fathom per square nanosecond + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareTick = new (
-                                                                 "cable per square tick"
-                                                               , "cb/tick²"
-                                                               , FathomPerSquareNanosecond
-                                                               , 120.0 / (100.0 * 100.0)
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) mile per square quadrillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square trillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareQuadrillionYears = new (
-                                                                            "mile per square quadrillion years"
-                                                                          , "mi/Pyr²"
-                                                                          , YardPerSquareTrillionYears
-                                                                          , 1760.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) yard per square sextillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareSextillionYears = new (
-                                                                           "yard per square sextillion years"
-                                                                         , "yd/Zyr²"
-                                                                         , FootPerSquareQuintillionYears
-                                                                         , 3.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
 
    /// <summary>
    /// A(n) nautical mile per square trillion years. Defined as: ((1852.0)/((1000.0)*(1000.0))) × SI meter per square billion years + (0).
@@ -194,17 +40,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// A(n) yard per square trillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square billion years + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareTrillionYears = new (
-                                                                         "yard per square trillion years"
-                                                                       , "yd/Tyr²"
-                                                                       , FootPerSquareBillionYears
-                                                                       , 3.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
-
-   /// <summary>
    /// A(n) nautical mile per square decade. Defined as: ((1852.0)/((10.0)*(10.0))) × SI meter per square year + (0).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareDecade = new (
@@ -214,28 +49,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , 1852.0 / (10.0 * 10.0)
                                                                         , 0
                                                                          );
-
-   /// <summary>
-   /// A(n) cable per square sextillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareSextillionYears = new (
-                                                                            "cable per square sextillion years"
-                                                                          , "cb/Zyr²"
-                                                                          , FathomPerSquareQuintillionYears
-                                                                          , 120.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) mil per square trillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square billion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareTrillionYears = new (
-                                                                        "mil per square trillion years"
-                                                                      , "mil/Tyr²"
-                                                                      , InchPerSquareBillionYears
-                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
 
    /// <summary>
    /// A(n) nautical mile per square minute. Defined as: ((1852.0)/((60.0)*(60.0))) × SI meter per square second + (0).
@@ -249,270 +62,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// A(n) yard per square millennium. Defined as: ((3.0)/((10.0)*(10.0))) × foot per square century + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareMillennium = new (
-                                                                      "yard per square millennium"
-                                                                    , "yd/kyr²"
-                                                                    , FootPerSquareCentury
-                                                                    , 3.0 / (10.0 * 10.0)
-                                                                    , 0
-                                                                     );
-
-   /// <summary>
-   /// A(n) league per square decade. Defined as: ((3.0)/((10.0)*(10.0))) × mile per square year + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareDecade = new (
-                                                                    "league per square decade"
-                                                                  , "le/decade²"
-                                                                  , MilePerSquareYear
-                                                                  , 3.0 / (10.0 * 10.0)
-                                                                  , 0
-                                                                   );
-
-   /// <summary>
-   /// A(n) pica per square quadrillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square trillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareQuadrillionYears = new (
-                                                                            "pica per square quadrillion years"
-                                                                          , "P/Pyr²"
-                                                                          , PointPerSquareTrillionYears
-                                                                          , 12.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) twip per square octillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square septillion years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareOctillionYears = new (
-                                                                          "twip per square octillion years"
-                                                                        , "twip/Ryr²"
-                                                                        , PointPerSquareSeptillionYears
-                                                                        , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) foot per square nonillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square octillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareNonillionYears = new (
-                                                                          "foot per square nonillion years"
-                                                                        , "ft/Qyr²"
-                                                                        , InchPerSquareOctillionYears
-                                                                        , 12.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) foot per square decade. Defined as: ((12.0)/((10.0)*(10.0))) × inch per square year + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareDecade = new (
-                                                                  "foot per square decade"
-                                                                , "ft/decade²"
-                                                                , InchPerSquareYear
-                                                                , 12.0 / (10.0 * 10.0)
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) yard per square year. Defined as: ((3.0)/((365.2525)*(365.2525))) × foot per square day + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareYear = new (
-                                                                "yard per square year"
-                                                              , "yd/yr²"
-                                                              , FootPerSquareDay
-                                                              , 3.0 / (365.2525 * 365.2525)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) twip per square billion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareBillionYears = new (
-                                                                        "twip per square billion years"
-                                                                      , "twip/Gyr²"
-                                                                      , PointPerSquareMillionYears
-                                                                      , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) cable per square day. Defined as: ((120.0)/((24.0)*(24.0))) × fathom per square hour + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareDay = new (
-                                                                "cable per square day"
-                                                              , "cb/dy²"
-                                                              , FathomPerSquareHour
-                                                              , 120.0 / (24.0 * 24.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) point per square septillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareSeptillionYears = new (
-                                                                            "point per square septillion years"
-                                                                          , "p/Yyr²"
-                                                                          , InchPerSquareSextillionYears
-                                                                          , 1.0 / 72.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) league per square quintillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareQuintillionYears = new (
-                                                                              "league per square quintillion years"
-                                                                            , "le/Eyr²"
-                                                                            , MilePerSquareQuadrillionYears
-                                                                            , 3.0 / (1000.0 * 1000.0)
-                                                                            , 0
-                                                                             );
-
-   /// <summary>
-   /// A(n) twip per square week. Defined as: ((1.0/20.0)/((7.0)*(7.0))) × point per square day + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareWeek = new (
-                                                                "twip per square week"
-                                                              , "twip/wk²"
-                                                              , PointPerSquareDay
-                                                              , 1.0 / 20.0 / (7.0 * 7.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) pica per square day. Defined as: ((12.0)/((24.0)*(24.0))) × point per square hour + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareDay = new (
-                                                               "pica per square day"
-                                                             , "P/dy²"
-                                                             , PointPerSquareHour
-                                                             , 12.0 / (24.0 * 24.0)
-                                                             , 0
-                                                              );
-
-   /// <summary>
-   /// A(n) point per square decade. Defined as: ((1.0/72.0)/((10.0)*(10.0))) × inch per square year + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareDecade = new (
-                                                                   "point per square decade"
-                                                                 , "p/decade²"
-                                                                 , InchPerSquareYear
-                                                                 , 1.0 / 72.0 / (10.0 * 10.0)
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) yard per square hour. Defined as: ((3.0)/((60.0)*(60.0))) × foot per square minute + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareHour = new (
-                                                                "yard per square hour"
-                                                              , "yd/hr²"
-                                                              , FootPerSquareMinute
-                                                              , 3.0 / (60.0 * 60.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) mil per square quadrillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square trillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareQuadrillionYears = new (
-                                                                           "mil per square quadrillion years"
-                                                                         , "mil/Pyr²"
-                                                                         , InchPerSquareTrillionYears
-                                                                         , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) mile per square century. Defined as: ((1760.0)/((10.0)*(10.0))) × yard per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareCentury = new (
-                                                                   "mile per square century"
-                                                                 , "mi/century²"
-                                                                 , YardPerSquareDecade
-                                                                 , 1760.0 / (10.0 * 10.0)
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) cable per square octillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square septillion years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareOctillionYears = new (
-                                                                           "cable per square octillion years"
-                                                                         , "cb/Ryr²"
-                                                                         , FathomPerSquareSeptillionYears
-                                                                         , 120.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) pica per square nonillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square octillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareNonillionYears = new (
-                                                                          "pica per square nonillion years"
-                                                                        , "P/Qyr²"
-                                                                        , PointPerSquareOctillionYears
-                                                                        , 12.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) mile per square septillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareSeptillionYears = new (
-                                                                           "mile per square septillion years"
-                                                                         , "mi/Yyr²"
-                                                                         , YardPerSquareSextillionYears
-                                                                         , 1760.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) mil per square quintillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareQuintillionYears = new (
-                                                                           "mil per square quintillion years"
-                                                                         , "mil/Eyr²"
-                                                                         , InchPerSquareQuadrillionYears
-                                                                         , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) foot per square billion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareBillionYears = new (
-                                                                        "foot per square billion years"
-                                                                      , "ft/Gyr²"
-                                                                      , InchPerSquareMillionYears
-                                                                      , 12.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) cable per square year. Defined as: ((120.0)/((365.2525)*(365.2525))) × fathom per square day + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareYear = new (
-                                                                 "cable per square year"
-                                                               , "cb/yr²"
-                                                               , FathomPerSquareDay
-                                                               , 120.0 / (365.2525 * 365.2525)
-                                                               , 0
-                                                                );
-
-   /// <summary>
-   /// A(n) point per square tick. Defined as: ((1.0/72.0)/((100.0)*(100.0))) × inch per square nanosecond + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareTick = new (
-                                                                 "point per square tick"
-                                                               , "p/tick²"
-                                                               , InchPerSquareNanosecond
-                                                               , 1.0 / 72.0 / (100.0 * 100.0)
-                                                               , 0
-                                                                );
-
-   /// <summary>
    /// A(n) nautical mile per square decillion years. Defined as: ((1852.0)/((1000.0)*(1000.0))) × SI meter per square nonillion years + (0).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareDecillionYears = new (
@@ -522,34 +71,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , 1852.0 / (1000.0 * 1000.0)
      , 0
       );
-
-   /// <summary>
-   /// A(n) pica per square millennium. Defined as: ((12.0)/((10.0)*(10.0))) × point per square century + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareMillennium = new (
-                                                                      "pica per square millennium"
-                                                                    , "P/kyr²"
-                                                                    , PointPerSquareCentury
-                                                                    , 12.0 / (10.0 * 10.0)
-                                                                    , 0
-                                                                     );
-
-   /// <summary>
-   /// A(n) league per square week. Defined as: ((3.0)/((7.0)*(7.0))) × mile per square day + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareWeek =
-            new ("league per square week", "le/wk²", MilePerSquareDay, 3.0 / (7.0 * 7.0), 0);
-
-   /// <summary>
-   /// A(n) point per square octillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square septillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareOctillionYears = new (
-                                                                           "point per square octillion years"
-                                                                         , "p/Ryr²"
-                                                                         , InchPerSquareSeptillionYears
-                                                                         , 1.0 / 72.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
 
    /// <summary>
    /// A(n) nautical mile per square quintillion years. Defined as: ((1852.0)/((1000.0)*(1000.0))) × SI meter per square quadrillion years + (0).
@@ -563,72 +84,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// A(n) cable per square decillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareDecillionYears = new (
-                                                                           "cable per square decillion years"
-                                                                         , "cb/decillion yr²"
-                                                                         , FathomPerSquareNonillionYears
-                                                                         , 120.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) point per square century. Defined as: ((1.0/72.0)/((10.0)*(10.0))) × inch per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareCentury = new (
-                                                                    "point per square century"
-                                                                  , "p/century²"
-                                                                  , InchPerSquareDecade
-                                                                  , 1.0 / 72.0 / (10.0 * 10.0)
-                                                                  , 0
-                                                                   );
-
-   /// <summary>
-   /// A(n) mile per square hour. Defined as: ((1760.0)/((60.0)*(60.0))) × yard per square minute + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareHour = new (
-                                                                "mile per square hour"
-                                                              , "mi/hr²"
-                                                              , YardPerSquareMinute
-                                                              , 1760.0 / (60.0 * 60.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) mil per square sextillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareSextillionYears = new (
-                                                                          "mil per square sextillion years"
-                                                                        , "mil/Zyr²"
-                                                                        , InchPerSquareQuintillionYears
-                                                                        , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) twip per square nonillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square octillion years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareNonillionYears = new (
-                                                                          "twip per square nonillion years"
-                                                                        , "twip/Qyr²"
-                                                                        , PointPerSquareOctillionYears
-                                                                        , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) league per square trillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square billion years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareTrillionYears = new (
-                                                                           "league per square trillion years"
-                                                                         , "le/Tyr²"
-                                                                         , MilePerSquareBillionYears
-                                                                         , 3.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
    /// A(n) nautical mile per square millennium. Defined as: ((1852.0)/((10.0)*(10.0))) × SI meter per square century + (0).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareMillennium = new (
@@ -638,39 +93,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1852.0 / (10.0 * 10.0)
                                                                             , 0
                                                                              );
-
-   /// <summary>
-   /// A(n) foot per square tick. Defined as: ((12.0)/((100.0)*(100.0))) × inch per square nanosecond + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareTick = new (
-                                                                "foot per square tick"
-                                                              , "ft/tick²"
-                                                              , InchPerSquareNanosecond
-                                                              , 12.0 / (100.0 * 100.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) fathom per square decillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareDecillionYears = new (
-                                                                            "fathom per square decillion years"
-                                                                          , "ftm/decillion yr²"
-                                                                          , YardPerSquareNonillionYears
-                                                                          , 2.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) twip per square trillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square billion years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareTrillionYears = new (
-                                                                         "twip per square trillion years"
-                                                                       , "twip/Tyr²"
-                                                                       , PointPerSquareBillionYears
-                                                                       , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
 
    /// <summary>
    /// A(n) nautical mile per square day. Defined as: ((1852.0)/((24.0)*(24.0))) × SI meter per square hour + (0).
@@ -684,320 +106,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// A(n) mile per square billion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareBillionYears = new (
-                                                                        "mile per square billion years"
-                                                                      , "mi/Gyr²"
-                                                                      , YardPerSquareMillionYears
-                                                                      , 1760.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) cable per square century. Defined as: ((120.0)/((10.0)*(10.0))) × fathom per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareCentury = new (
-                                                                    "cable per square century"
-                                                                  , "cb/century²"
-                                                                  , FathomPerSquareDecade
-                                                                  , 120.0 / (10.0 * 10.0)
-                                                                  , 0
-                                                                   );
-
-   /// <summary>
-   /// A(n) foot per square sextillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareSextillionYears = new (
-                                                                           "foot per square sextillion years"
-                                                                         , "ft/Zyr²"
-                                                                         , InchPerSquareQuintillionYears
-                                                                         , 12.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) fathom per square octillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square septillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareOctillionYears = new (
-                                                                            "fathom per square octillion years"
-                                                                          , "ftm/Ryr²"
-                                                                          , YardPerSquareSeptillionYears
-                                                                          , 2.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) league per square decillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareDecillionYears = new (
-                                                                            "league per square decillion years"
-                                                                          , "le/decillion yr²"
-                                                                          , MilePerSquareNonillionYears
-                                                                          , 3.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) twip per square year. Defined as: ((1.0/20.0)/((365.2525)*(365.2525))) × point per square day + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareYear = new (
-                                                                "twip per square year"
-                                                              , "twip/yr²"
-                                                              , PointPerSquareDay
-                                                              , 1.0 / 20.0 / (365.2525 * 365.2525)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) foot per square day. Defined as: ((12.0)/((24.0)*(24.0))) × inch per square hour + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareDay = new (
-                                                               "foot per square day"
-                                                             , "ft/dy²"
-                                                             , InchPerSquareHour
-                                                             , 12.0 / (24.0 * 24.0)
-                                                             , 0
-                                                              );
-
-   /// <summary>
-   /// A(n) mil per square septillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareSeptillionYears = new (
-                                                                          "mil per square septillion years"
-                                                                        , "mil/Yyr²"
-                                                                        , InchPerSquareSextillionYears
-                                                                        , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) pica per square quintillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareQuintillionYears = new (
-                                                                            "pica per square quintillion years"
-                                                                          , "P/Eyr²"
-                                                                          , PointPerSquareQuadrillionYears
-                                                                          , 12.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) fathom per square sextillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareSextillionYears = new (
-                                                                             "fathom per square sextillion years"
-                                                                           , "ftm/Zyr²"
-                                                                           , YardPerSquareQuintillionYears
-                                                                           , 2.0 / (1000.0 * 1000.0)
-                                                                           , 0
-                                                                            );
-
-   /// <summary>
-   /// A(n) mile per square decillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareDecillionYears = new (
-                                                                          "mile per square decillion years"
-                                                                        , "mi/decillion yr²"
-                                                                        , YardPerSquareNonillionYears
-                                                                        , 1760.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) league per square tick. Defined as: ((3.0)/((100.0)*(100.0))) × mile per square nanosecond + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareTick = new (
-                                                                  "league per square tick"
-                                                                , "le/tick²"
-                                                                , MilePerSquareNanosecond
-                                                                , 3.0 / (100.0 * 100.0)
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) point per square nonillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square octillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareNonillionYears = new (
-                                                                           "point per square nonillion years"
-                                                                         , "p/Qyr²"
-                                                                         , InchPerSquareOctillionYears
-                                                                         , 1.0 / 72.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) fathom per square quadrillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square trillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareQuadrillionYears = new (
-                                                                              "fathom per square quadrillion years"
-                                                                            , "ftm/Pyr²"
-                                                                            , YardPerSquareTrillionYears
-                                                                            , 2.0 / (1000.0 * 1000.0)
-                                                                            , 0
-                                                                             );
-
-   /// <summary>
-   /// A(n) yard per square decillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareDecillionYears = new (
-                                                                          "yard per square decillion years"
-                                                                        , "yd/decillion yr²"
-                                                                        , FootPerSquareNonillionYears
-                                                                        , 3.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) pica per square week. Defined as: ((12.0)/((7.0)*(7.0))) × point per square day + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareWeek = new (
-                                                                "pica per square week"
-                                                              , "P/wk²"
-                                                              , PointPerSquareDay
-                                                              , 12.0 / (7.0 * 7.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) point per square millennium. Defined as: ((1.0/72.0)/((10.0)*(10.0))) × inch per square century + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareMillennium = new (
-                                                                       "point per square millennium"
-                                                                     , "p/kyr²"
-                                                                     , InchPerSquareCentury
-                                                                     , 1.0 / 72.0 / (10.0 * 10.0)
-                                                                     , 0
-                                                                      );
-
-   /// <summary>
-   /// A(n) league per square hour. Defined as: ((3.0)/((60.0)*(60.0))) × mile per square minute + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareHour =
-            new ("league per square hour", "le/hr²", MilePerSquareMinute, 3.0 / (60.0 * 60.0), 0);
-
-   /// <summary>
-   /// A(n) mil per square octillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square septillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareOctillionYears = new (
-                                                                         "mil per square octillion years"
-                                                                       , "mil/Ryr²"
-                                                                       , InchPerSquareSeptillionYears
-                                                                       , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
-
-   /// <summary>
-   /// A(n) fathom per square billion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareBillionYears = new (
-                                                                          "fathom per square billion years"
-                                                                        , "ftm/Gyr²"
-                                                                        , YardPerSquareMillionYears
-                                                                        , 2.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) cable per square million years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square millennium + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareMillionYears = new (
-                                                                         "cable per square million years"
-                                                                       , "cb/Myr²"
-                                                                       , FathomPerSquareMillennium
-                                                                       , 120.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
-
-   /// <summary>
-   /// A(n) yard per square septillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareSeptillionYears = new (
-                                                                           "yard per square septillion years"
-                                                                         , "yd/Yyr²"
-                                                                         , FootPerSquareSextillionYears
-                                                                         , 3.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) foot per square decillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareDecillionYears = new (
-                                                                          "foot per square decillion years"
-                                                                        , "ft/decillion yr²"
-                                                                        , InchPerSquareNonillionYears
-                                                                        , 12.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) foot per square century. Defined as: ((12.0)/((10.0)*(10.0))) × inch per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareCentury = new (
-                                                                   "foot per square century"
-                                                                 , "ft/century²"
-                                                                 , InchPerSquareDecade
-                                                                 , 12.0 / (10.0 * 10.0)
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) mile per square year. Defined as: ((1760.0)/((365.2525)*(365.2525))) × yard per square day + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareYear = new (
-                                                                "mile per square year"
-                                                              , "mi/yr²"
-                                                              , YardPerSquareDay
-                                                              , 1760.0 / (365.2525 * 365.2525)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) league per square million years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square millennium + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareMillionYears = new (
-                                                                          "league per square million years"
-                                                                        , "le/Myr²"
-                                                                        , MilePerSquareMillennium
-                                                                        , 3.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) fathom per square millennium. Defined as: ((2.0)/((10.0)*(10.0))) × yard per square century + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareMillennium = new (
-                                                                        "fathom per square millennium"
-                                                                      , "ftm/kyr²"
-                                                                      , YardPerSquareCentury
-                                                                      , 2.0 / (10.0 * 10.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) yard per square quadrillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square trillion years + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareQuadrillionYears = new (
-                                                                            "yard per square quadrillion years"
-                                                                          , "yd/Pyr²"
-                                                                          , FootPerSquareTrillionYears
-                                                                          , 3.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) pica per square decillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareDecillionYears = new (
-                                                                          "pica per square decillion years"
-                                                                        , "P/decillion yr²"
-                                                                        , PointPerSquareNonillionYears
-                                                                        , 12.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
    /// A(n) nautical mile per square tick. Defined as: ((1852.0)/((100.0)*(100.0))) × SI meter per square nanosecond + (0).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareTick = new (
@@ -1007,72 +115,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , 1852.0 / (100.0 * 100.0)
                                                                       , 0
                                                                        );
-
-   /// <summary>
-   /// A(n) mil per square nonillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square octillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareNonillionYears = new (
-                                                                         "mil per square nonillion years"
-                                                                       , "mil/Qyr²"
-                                                                       , InchPerSquareOctillionYears
-                                                                       , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
-
-   /// <summary>
-   /// A(n) yard per square million years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square millennium + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareMillionYears = new (
-                                                                        "yard per square million years"
-                                                                      , "yd/Myr²"
-                                                                      , FootPerSquareMillennium
-                                                                      , 3.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) fathom per square decade. Defined as: ((2.0)/((10.0)*(10.0))) × yard per square year + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareDecade = new (
-                                                                    "fathom per square decade"
-                                                                  , "ftm/decade²"
-                                                                  , YardPerSquareYear
-                                                                  , 2.0 / (10.0 * 10.0)
-                                                                  , 0
-                                                                   );
-
-   /// <summary>
-   /// A(n) twip per square decillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareDecillionYears = new (
-                                                                          "twip per square decillion years"
-                                                                        , "twip/decillion yr²"
-                                                                        , PointPerSquareNonillionYears
-                                                                        , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) mile per square quintillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareQuintillionYears = new (
-                                                                            "mile per square quintillion years"
-                                                                          , "mi/Eyr²"
-                                                                          , YardPerSquareQuadrillionYears
-                                                                          , 1760.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) league per square octillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square septillion years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareOctillionYears = new (
-                                                                            "league per square octillion years"
-                                                                          , "le/Ryr²"
-                                                                          , MilePerSquareSeptillionYears
-                                                                          , 3.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
 
    /// <summary>
    /// A(n) nautical mile per square septillion years. Defined as: ((1852.0)/((1000.0)*(1000.0))) × SI meter per square sextillion years + (0).
@@ -1086,67 +128,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// A(n) yard per square decade. Defined as: ((3.0)/((10.0)*(10.0))) × foot per square year + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareDecade = new (
-                                                                  "yard per square decade"
-                                                                , "yd/decade²"
-                                                                , FootPerSquareYear
-                                                                , 3.0 / (10.0 * 10.0)
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) pica per square million years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square millennium + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareMillionYears = new (
-                                                                        "pica per square million years"
-                                                                      , "P/Myr²"
-                                                                      , PointPerSquareMillennium
-                                                                      , 12.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) fathom per square week. Defined as: ((2.0)/((7.0)*(7.0))) × yard per square day + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareWeek =
-            new ("fathom per square week", "ftm/wk²", YardPerSquareDay, 2.0 / (7.0 * 7.0), 0);
-
-   /// <summary>
-   /// A(n) twip per square quadrillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square trillion years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareQuadrillionYears = new (
-                                                                            "twip per square quadrillion years"
-                                                                          , "twip/Pyr²"
-                                                                          , PointPerSquareTrillionYears
-                                                                          , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
-   /// A(n) point per square decillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareDecillionYears = new (
-                                                                           "point per square decillion years"
-                                                                         , "p/decillion yr²"
-                                                                         , InchPerSquareNonillionYears
-                                                                         , 1.0 / 72.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) cable per square trillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square billion years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareTrillionYears = new (
-                                                                          "cable per square trillion years"
-                                                                        , "cb/Tyr²"
-                                                                        , FathomPerSquareBillionYears
-                                                                        , 120.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
    /// A(n) nautical mile per square billion years. Defined as: ((1852.0)/((1000.0)*(1000.0))) × SI meter per square million years + (0).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareBillionYears = new (
@@ -1157,67 +138,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , 1852.0 / (1000.0 * 1000.0)
                                                                               , 0
                                                                                );
-
-   /// <summary>
-   /// A(n) twip per square decade. Defined as: ((1.0/20.0)/((10.0)*(10.0))) × point per square year + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareDecade = new (
-                                                                  "twip per square decade"
-                                                                , "twip/decade²"
-                                                                , PointPerSquareYear
-                                                                , 1.0 / 20.0 / (10.0 * 10.0)
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) yard per square day. Defined as: ((3.0)/((24.0)*(24.0))) × foot per square hour + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareDay = new (
-                                                               "yard per square day"
-                                                             , "yd/dy²"
-                                                             , FootPerSquareHour
-                                                             , 3.0 / (24.0 * 24.0)
-                                                             , 0
-                                                              );
-
-   /// <summary>
-   /// A(n) point per square million years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square millennium + (0).
-   /// </summary>
-   public static readonly Acceleration PointPerSquareMillionYears = new (
-                                                                         "point per square million years"
-                                                                       , "p/Myr²"
-                                                                       , InchPerSquareMillennium
-                                                                       , 1.0 / 72.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
-
-   /// <summary>
-   /// A(n) fathom per square hour. Defined as: ((2.0)/((60.0)*(60.0))) × yard per square minute + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareHour =
-            new ("fathom per square hour", "ftm/hr²", YardPerSquareMinute, 2.0 / (60.0 * 60.0), 0);
-
-   /// <summary>
-   /// A(n) mil per square decillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square nonillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilPerSquareDecillionYears = new (
-                                                                         "mil per square decillion years"
-                                                                       , "mil/decillion yr²"
-                                                                       , InchPerSquareNonillionYears
-                                                                       , 1.0 / 1000.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
-
-   /// <summary>
-   /// A(n) foot per square trillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square billion years + (0).
-   /// </summary>
-   public static readonly Acceleration FootPerSquareTrillionYears = new (
-                                                                         "foot per square trillion years"
-                                                                       , "ft/Tyr²"
-                                                                       , InchPerSquareBillionYears
-                                                                       , 12.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
 
    /// <summary>
    /// A(n) nautical mile per square year. Defined as: ((1852.0)/((365.2525)*(365.2525))) × SI meter per square day + (0).
@@ -3156,50 +2076,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// A(n) mile per square millennium. Defined as: ((1760.0)/((10.0)*(10.0))) × yard per square century + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareMillennium = new (
-                                                                      "mile per square millennium"
-                                                                    , "mi/kyr²"
-                                                                    , YardPerSquareCentury
-                                                                    , 1760.0 / (10.0 * 10.0)
-                                                                    , 0
-                                                                     );
-
-   /// <summary>
-   /// A(n) league per square century. Defined as: ((3.0)/((10.0)*(10.0))) × mile per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareCentury = new (
-                                                                     "league per square century"
-                                                                   , "le/century²"
-                                                                   , MilePerSquareDecade
-                                                                   , 3.0 / (10.0 * 10.0)
-                                                                   , 0
-                                                                    );
-
-   /// <summary>
-   /// A(n) pica per square sextillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareSextillionYears = new (
-                                                                           "pica per square sextillion years"
-                                                                         , "P/Zyr²"
-                                                                         , PointPerSquareQuintillionYears
-                                                                         , 12.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) cable per square quintillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareQuintillionYears = new (
-                                                                             "cable per square quintillion years"
-                                                                           , "cb/Eyr²"
-                                                                           , FathomPerSquareQuadrillionYears
-                                                                           , 120.0 / (1000.0 * 1000.0)
-                                                                           , 0
-                                                                            );
-
-   /// <summary>
    /// A(n) mil per square minute. Defined as: ((1.0/1000.0)/((60.0)*(60.0))) × inch per square second + (0).
    /// </summary>
    public static readonly Acceleration MilPerSquareMinute = new (
@@ -3244,39 +2120,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// A(n) league per square sextillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareSextillionYears = new (
-                                                                             "league per square sextillion years"
-                                                                           , "le/Zyr²"
-                                                                           , MilePerSquareQuintillionYears
-                                                                           , 3.0 / (1000.0 * 1000.0)
-                                                                           , 0
-                                                                            );
-
-   /// <summary>
-   /// A(n) mile per square octillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square septillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareOctillionYears = new (
-                                                                          "mile per square octillion years"
-                                                                        , "mi/Ryr²"
-                                                                        , YardPerSquareSeptillionYears
-                                                                        , 1760.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) pica per square year. Defined as: ((12.0)/((365.2525)*(365.2525))) × point per square day + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareYear = new (
-                                                                "pica per square year"
-                                                              , "P/yr²"
-                                                              , PointPerSquareDay
-                                                              , 12.0 / (365.2525 * 365.2525)
-                                                              , 0
-                                                               );
-
-   /// <summary>
    /// A(n) foot per square week. Defined as: ((12.0)/((7.0)*(7.0))) × inch per square day + (0).
    /// </summary>
    public static readonly Acceleration FootPerSquareWeek = new (
@@ -3297,17 +2140,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , 1.0 / 72.0 / (1000.0 * 1000.0)
                                                                        , 0
                                                                         );
-
-   /// <summary>
-   /// A(n) cable per square hour. Defined as: ((120.0)/((60.0)*(60.0))) × fathom per square minute + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareHour = new (
-                                                                 "cable per square hour"
-                                                               , "cb/hr²"
-                                                               , FathomPerSquareMinute
-                                                               , 120.0 / (60.0 * 60.0)
-                                                               , 0
-                                                                );
 
    /// <summary>
    /// A(n) twip per square planck-time. Defined as: ((1.0/20.0)/((5.391247E-38)*(5.391247E-38))) × point per square microsecond + (0).
@@ -3343,17 +2175,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// A(n) twip per square quintillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareQuintillionYears = new (
-                                                                            "twip per square quintillion years"
-                                                                          , "twip/Eyr²"
-                                                                          , PointPerSquareQuadrillionYears
-                                                                          , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
    /// A(n) pica per square planck-time. Defined as: ((12.0)/((5.391247E-38)*(5.391247E-38))) × point per square microsecond + (0).
    /// </summary>
    public static readonly Acceleration PicaPerSquarePlanckTime = new (
@@ -3363,17 +2184,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , 12.0 / (5.391247E-38 * 5.391247E-38)
                                                                     , 0
                                                                      );
-
-   /// <summary>
-   /// A(n) cable per square septillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareSeptillionYears = new (
-                                                                            "cable per square septillion years"
-                                                                          , "cb/Yyr²"
-                                                                          , FathomPerSquareSextillionYears
-                                                                          , 120.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
 
    /// <summary>
    /// A(n) yard per square tick. Defined as: ((3.0)/((100.0)*(100.0))) × foot per square nanosecond + (0).
@@ -3396,28 +2206,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , 1852.0 / (1000.0 * 1000.0)
      , 0
       );
-
-   /// <summary>
-   /// A(n) twip per square century. Defined as: ((1.0/20.0)/((10.0)*(10.0))) × point per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareCentury = new (
-                                                                   "twip per square century"
-                                                                 , "twip/century²"
-                                                                 , PointPerSquareDecade
-                                                                 , 1.0 / 20.0 / (10.0 * 10.0)
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) mile per square day. Defined as: ((1760.0)/((24.0)*(24.0))) × yard per square hour + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareDay = new (
-                                                               "mile per square day"
-                                                             , "mi/dy²"
-                                                             , YardPerSquareHour
-                                                             , 1760.0 / (24.0 * 24.0)
-                                                             , 0
-                                                              );
 
    /// <summary>
    /// A(n) foot per square planck-time. Defined as: ((12.0)/((5.391247E-38)*(5.391247E-38))) × inch per square microsecond + (0).
@@ -3475,45 +2263,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// A(n) league per square year. Defined as: ((3.0)/((365.2525)*(365.2525))) × mile per square day + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareYear = new (
-                                                                  "league per square year"
-                                                                , "le/yr²"
-                                                                , MilePerSquareDay
-                                                                , 3.0 / (365.2525 * 365.2525)
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) pica per square billion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareBillionYears = new (
-                                                                        "pica per square billion years"
-                                                                      , "P/Gyr²"
-                                                                      , PointPerSquareMillionYears
-                                                                      , 12.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) cable per square week. Defined as: ((120.0)/((7.0)*(7.0))) × fathom per square day + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareWeek =
-            new ("cable per square week", "cb/wk²", FathomPerSquareDay, 120.0 / (7.0 * 7.0), 0);
-
-   /// <summary>
-   /// A(n) mile per square trillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square billion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareTrillionYears = new (
-                                                                         "mile per square trillion years"
-                                                                       , "mi/Tyr²"
-                                                                       , YardPerSquareBillionYears
-                                                                       , 1760.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
-
-   /// <summary>
    /// A(n) nautical mile per square century. Defined as: ((1852.0)/((10.0)*(10.0))) × SI meter per square decade + (0).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareCentury = new (
@@ -3569,17 +2318,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// A(n) league per square quadrillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square trillion years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareQuadrillionYears = new (
-                                                                              "league per square quadrillion years"
-                                                                            , "le/Pyr²"
-                                                                            , MilePerSquareTrillionYears
-                                                                            , 3.0 / (1000.0 * 1000.0)
-                                                                            , 0
-                                                                             );
-
-   /// <summary>
    /// A(n) yard per square octillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square septillion years + (0).
    /// </summary>
    public static readonly Acceleration YardPerSquareOctillionYears = new (
@@ -3600,17 +2338,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , 1760.0 / (5.391247E-38 * 5.391247E-38)
                                                                     , 0
                                                                      );
-
-   /// <summary>
-   /// A(n) cable per square nonillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square octillion years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareNonillionYears = new (
-                                                                           "cable per square nonillion years"
-                                                                         , "cb/Qyr²"
-                                                                         , FathomPerSquareOctillionYears
-                                                                         , 120.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
 
    /// <summary>
    /// A(n) point per square hour. Defined as: ((1.0/72.0)/((60.0)*(60.0))) × inch per square minute + (0).
@@ -3646,17 +2373,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// A(n) yard per square quintillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareQuintillionYears = new (
-                                                                            "yard per square quintillion years"
-                                                                          , "yd/Eyr²"
-                                                                          , FootPerSquareQuadrillionYears
-                                                                          , 3.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
-
-   /// <summary>
    /// A(n) league per square planck-time. Defined as: ((3.0)/((5.391247E-38)*(5.391247E-38))) × mile per square microsecond + (0).
    /// </summary>
    public static readonly Acceleration LeaguePerSquarePlanckTime = new (
@@ -3668,28 +2384,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// A(n) yard per square billion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareBillionYears = new (
-                                                                        "yard per square billion years"
-                                                                      , "yd/Gyr²"
-                                                                      , FootPerSquareMillionYears
-                                                                      , 3.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) cable per square decade. Defined as: ((120.0)/((10.0)*(10.0))) × fathom per square year + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareDecade = new (
-                                                                   "cable per square decade"
-                                                                 , "cb/decade²"
-                                                                 , FathomPerSquareYear
-                                                                 , 120.0 / (10.0 * 10.0)
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
    /// A(n) foot per square quadrillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square trillion years + (0).
    /// </summary>
    public static readonly Acceleration FootPerSquareQuadrillionYears = new (
@@ -3699,17 +2393,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 12.0 / (1000.0 * 1000.0)
                                                                           , 0
                                                                            );
-
-   /// <summary>
-   /// A(n) pica per square septillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareSeptillionYears = new (
-                                                                           "pica per square septillion years"
-                                                                         , "P/Yyr²"
-                                                                         , PointPerSquareSextillionYears
-                                                                         , 12.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
 
    /// <summary>
    /// A(n) fathom per square planck-time. Defined as: ((2.0)/((5.391247E-38)*(5.391247E-38))) × yard per square microsecond + (0).
@@ -3745,39 +2428,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// A(n) yard per square century. Defined as: ((3.0)/((10.0)*(10.0))) × foot per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareCentury = new (
-                                                                   "yard per square century"
-                                                                 , "yd/century²"
-                                                                 , FootPerSquareDecade
-                                                                 , 3.0 / (10.0 * 10.0)
-                                                                 , 0
-                                                                  );
-
-   /// <summary>
-   /// A(n) mile per square decade. Defined as: ((1760.0)/((10.0)*(10.0))) × yard per square year + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareDecade = new (
-                                                                  "mile per square decade"
-                                                                , "mi/decade²"
-                                                                , YardPerSquareYear
-                                                                , 1760.0 / (10.0 * 10.0)
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) twip per square sextillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareSextillionYears = new (
-                                                                           "twip per square sextillion years"
-                                                                         , "twip/Zyr²"
-                                                                         , PointPerSquareQuintillionYears
-                                                                         , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
    /// A(n) fathom per square nonillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square octillion years + (0).
    /// </summary>
    public static readonly Acceleration FathomPerSquareNonillionYears = new (
@@ -3800,45 +2450,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// A(n) pica per square decade. Defined as: ((12.0)/((10.0)*(10.0))) × point per square year + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareDecade = new (
-                                                                  "pica per square decade"
-                                                                , "P/decade²"
-                                                                , PointPerSquareYear
-                                                                , 12.0 / (10.0 * 10.0)
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) yard per square week. Defined as: ((3.0)/((7.0)*(7.0))) × foot per square day + (0).
-   /// </summary>
-   public static readonly Acceleration YardPerSquareWeek = new (
-                                                                "yard per square week"
-                                                              , "yd/wk²"
-                                                              , FootPerSquareDay
-                                                              , 3.0 / (7.0 * 7.0)
-                                                              , 0
-                                                               );
-
-   /// <summary>
-   /// A(n) twip per square millennium. Defined as: ((1.0/20.0)/((10.0)*(10.0))) × point per square century + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareMillennium = new (
-                                                                      "twip per square millennium"
-                                                                    , "twip/kyr²"
-                                                                    , PointPerSquareCentury
-                                                                    , 1.0 / 20.0 / (10.0 * 10.0)
-                                                                    , 0
-                                                                     );
-
-   /// <summary>
-   /// A(n) league per square day. Defined as: ((3.0)/((24.0)*(24.0))) × mile per square hour + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareDay =
-            new ("league per square day", "le/dy²", MilePerSquareHour, 3.0 / (24.0 * 24.0), 0);
-
-   /// <summary>
    /// A(n) point per square quadrillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square trillion years + (0).
    /// </summary>
    public static readonly Acceleration PointPerSquareQuadrillionYears = new (
@@ -3846,28 +2457,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "p/Pyr²"
                                                                            , InchPerSquareTrillionYears
                                                                            , 1.0 / 72.0 / (1000.0 * 1000.0)
-                                                                           , 0
-                                                                            );
-
-   /// <summary>
-   /// A(n) mile per square sextillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square quintillion years + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareSextillionYears = new (
-                                                                           "mile per square sextillion years"
-                                                                         , "mi/Zyr²"
-                                                                         , YardPerSquareQuintillionYears
-                                                                         , 1760.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
-   /// A(n) fathom per square septillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareSeptillionYears = new (
-                                                                             "fathom per square septillion years"
-                                                                           , "ftm/Yyr²"
-                                                                           , YardPerSquareSextillionYears
-                                                                           , 2.0 / (1000.0 * 1000.0)
                                                                            , 0
                                                                             );
 
@@ -3922,28 +2511,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// A(n) league per square billion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareBillionYears = new (
-                                                                          "league per square billion years"
-                                                                        , "le/Gyr²"
-                                                                        , MilePerSquareMillionYears
-                                                                        , 3.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) cable per square millennium. Defined as: ((120.0)/((10.0)*(10.0))) × fathom per square century + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareMillennium = new (
-                                                                       "cable per square millennium"
-                                                                     , "cb/kyr²"
-                                                                     , FathomPerSquareCentury
-                                                                     , 120.0 / (10.0 * 10.0)
-                                                                     , 0
-                                                                      );
-
-   /// <summary>
    /// A(n) foot per square octillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square septillion years + (0).
    /// </summary>
    public static readonly Acceleration FootPerSquareOctillionYears = new (
@@ -3953,17 +2520,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , 12.0 / (1000.0 * 1000.0)
                                                                         , 0
                                                                          );
-
-   /// <summary>
-   /// A(n) fathom per square quintillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square quadrillion years + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareQuintillionYears = new (
-                                                                              "fathom per square quintillion years"
-                                                                            , "ftm/Eyr²"
-                                                                            , YardPerSquareQuadrillionYears
-                                                                            , 2.0 / (1000.0 * 1000.0)
-                                                                            , 0
-                                                                             );
 
    /// <summary>
    /// A(n) nautical mile per square sextillion years. Defined as: ((1852.0)/((1000.0)*(1000.0))) × SI meter per square quintillion years + (0).
@@ -3999,17 +2555,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// A(n) fathom per square trillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square billion years + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareTrillionYears = new (
-                                                                           "fathom per square trillion years"
-                                                                         , "ftm/Tyr²"
-                                                                         , YardPerSquareBillionYears
-                                                                         , 2.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
    /// A(n) nautical mile per square million years. Defined as: ((1852.0)/((1000.0)*(1000.0))) × SI meter per square millennium + (0).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareMillionYears = new (
@@ -4020,17 +2565,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , 1852.0 / (1000.0 * 1000.0)
                                                                               , 0
                                                                                );
-
-   /// <summary>
-   /// A(n) league per square nonillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square octillion years + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareNonillionYears = new (
-                                                                            "league per square nonillion years"
-                                                                          , "le/Qyr²"
-                                                                          , MilePerSquareOctillionYears
-                                                                          , 3.0 / (1000.0 * 1000.0)
-                                                                          , 0
-                                                                           );
 
    /// <summary>
    /// A(n) mil per square century. Defined as: ((1.0/1000.0)/((10.0)*(10.0))) × inch per square decade + (0).
@@ -4077,17 +2611,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// A(n) fathom per square million years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square millennium + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareMillionYears = new (
-                                                                          "fathom per square million years"
-                                                                        , "ftm/Myr²"
-                                                                        , YardPerSquareMillennium
-                                                                        , 2.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
    /// A(n) point per square quintillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square quadrillion years + (0).
    /// </summary>
    public static readonly Acceleration PointPerSquareQuintillionYears = new (
@@ -4097,39 +2620,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0 / 72.0 / (1000.0 * 1000.0)
                                                                            , 0
                                                                             );
-
-   /// <summary>
-   /// A(n) mile per square million years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square millennium + (0).
-   /// </summary>
-   public static readonly Acceleration MilePerSquareMillionYears = new (
-                                                                        "mile per square million years"
-                                                                      , "mi/Myr²"
-                                                                      , YardPerSquareMillennium
-                                                                      , 1760.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) fathom per square century. Defined as: ((2.0)/((10.0)*(10.0))) × yard per square decade + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareCentury = new (
-                                                                     "fathom per square century"
-                                                                   , "ftm/century²"
-                                                                   , YardPerSquareDecade
-                                                                   , 2.0 / (10.0 * 10.0)
-                                                                   , 0
-                                                                    );
-
-   /// <summary>
-   /// A(n) cable per square billion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square million years + (0).
-   /// </summary>
-   public static readonly Acceleration CablePerSquareBillionYears = new (
-                                                                         "cable per square billion years"
-                                                                       , "cb/Gyr²"
-                                                                       , FathomPerSquareMillionYears
-                                                                       , 120.0 / (1000.0 * 1000.0)
-                                                                       , 0
-                                                                        );
 
    /// <summary>
    /// A(n) pica per square tick. Defined as: ((12.0)/((100.0)*(100.0))) × point per square nanosecond + (0).
@@ -4188,28 +2678,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// A(n) fathom per square year. Defined as: ((2.0)/((365.2525)*(365.2525))) × yard per square day + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareYear = new (
-                                                                  "fathom per square year"
-                                                                , "ftm/yr²"
-                                                                , YardPerSquareDay
-                                                                , 2.0 / (365.2525 * 365.2525)
-                                                                , 0
-                                                                 );
-
-   /// <summary>
-   /// A(n) twip per square septillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square sextillion years + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareSeptillionYears = new (
-                                                                           "twip per square septillion years"
-                                                                         , "twip/Yyr²"
-                                                                         , PointPerSquareSextillionYears
-                                                                         , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                         , 0
-                                                                          );
-
-   /// <summary>
    /// A(n) mile per square nonillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square octillion years + (0).
    /// </summary>
    public static readonly Acceleration MilePerSquareNonillionYears = new (
@@ -4217,45 +2685,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "mi/Qyr²"
                                                                         , YardPerSquareOctillionYears
                                                                         , 1760.0 / (1000.0 * 1000.0)
-                                                                        , 0
-                                                                         );
-
-   /// <summary>
-   /// A(n) twip per square million years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square millennium + (0).
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareMillionYears = new (
-                                                                        "twip per square million years"
-                                                                      , "twip/Myr²"
-                                                                      , PointPerSquareMillennium
-                                                                      , 1.0 / 20.0 / (1000.0 * 1000.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) fathom per square day. Defined as: ((2.0)/((24.0)*(24.0))) × yard per square hour + (0).
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareDay =
-            new ("fathom per square day", "ftm/dy²", YardPerSquareHour, 2.0 / (24.0 * 24.0), 0);
-
-   /// <summary>
-   /// A(n) league per square millennium. Defined as: ((3.0)/((10.0)*(10.0))) × mile per square century + (0).
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareMillennium = new (
-                                                                        "league per square millennium"
-                                                                      , "le/kyr²"
-                                                                      , MilePerSquareCentury
-                                                                      , 3.0 / (10.0 * 10.0)
-                                                                      , 0
-                                                                       );
-
-   /// <summary>
-   /// A(n) pica per square octillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square septillion years + (0).
-   /// </summary>
-   public static readonly Acceleration PicaPerSquareOctillionYears = new (
-                                                                          "pica per square octillion years"
-                                                                        , "P/Ryr²"
-                                                                        , PointPerSquareSeptillionYears
-                                                                        , 12.0 / (1000.0 * 1000.0)
                                                                         , 0
                                                                          );
 
@@ -4302,4 +2731,1575 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , 2.0 / (60.0 * 60.0)
                                                                   , 0
                                                                    );
+
+   /// <summary>
+   /// A(n) point per square sextillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareSextillionYears = new (
+                                                                            "point per square sextillion years"
+                                                                          , "p/Zyr²"
+                                                                          , InchPerSquareQuintillionYears
+                                                                          , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) foot per square quintillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareQuintillionYears = new (
+                                                                            "foot per square quintillion years"
+                                                                          , "ft/Eyr²"
+                                                                          , InchPerSquareQuadrillionYears
+                                                                          , 12.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) yard per square nonillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square octillion years + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareNonillionYears = new (
+                                                                          "yard per square nonillion years"
+                                                                        , "yd/Qyr²"
+                                                                        , FootPerSquareOctillionYears
+                                                                        , 3.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) point per square year. Defined as: ((1.0/72.0)/((365.2525)*(365.2525))) × inch per square day + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareYear = new (
+                                                                 "point per square year"
+                                                               , "p/yr²"
+                                                               , InchPerSquareDay
+                                                               , 1.0 / 72.0 / (365.2525 * 365.2525)
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) foot per square hour. Defined as: ((12.0)/((60.0)*(60.0))) × inch per square minute + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareHour = new (
+                                                                "foot per square hour"
+                                                              , "ft/hr²"
+                                                              , InchPerSquareMinute
+                                                              , 12.0 / (60.0 * 60.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) mil per square billion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareBillionYears = new (
+                                                                       "mil per square billion years"
+                                                                     , "mil/Gyr²"
+                                                                     , InchPerSquareMillionYears
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                     , 0
+                                                                      );
+
+   /// <summary>
+   /// A(n) cable per square minute. Defined as: ((120.0)/((60.0)*(60.0))) × fathom per square second + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareMinute = new (
+                                                                   "cable per square minute"
+                                                                 , "cb/min²"
+                                                                 , FathomPerSquareSecond
+                                                                 , 120.0 / (60.0 * 60.0)
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) cable per square tick. Defined as: ((120.0)/((100.0)*(100.0))) × fathom per square nanosecond + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareTick = new (
+                                                                 "cable per square tick"
+                                                               , "cb/tick²"
+                                                               , FathomPerSquareNanosecond
+                                                               , 120.0 / (100.0 * 100.0)
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) yard per square sextillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareSextillionYears = new (
+                                                                           "yard per square sextillion years"
+                                                                         , "yd/Zyr²"
+                                                                         , FootPerSquareQuintillionYears
+                                                                         , 3.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) mil per square trillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square billion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareTrillionYears = new (
+                                                                        "mil per square trillion years"
+                                                                      , "mil/Tyr²"
+                                                                      , InchPerSquareBillionYears
+                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) pica per square quadrillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square trillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareQuadrillionYears = new (
+                                                                            "pica per square quadrillion years"
+                                                                          , "P/Pyr²"
+                                                                          , PointPerSquareTrillionYears
+                                                                          , 12.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) foot per square nonillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square octillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareNonillionYears = new (
+                                                                          "foot per square nonillion years"
+                                                                        , "ft/Qyr²"
+                                                                        , InchPerSquareOctillionYears
+                                                                        , 12.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) foot per square decade. Defined as: ((12.0)/((10.0)*(10.0))) × inch per square year + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareDecade = new (
+                                                                  "foot per square decade"
+                                                                , "ft/decade²"
+                                                                , InchPerSquareYear
+                                                                , 12.0 / (10.0 * 10.0)
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) point per square septillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareSeptillionYears = new (
+                                                                            "point per square septillion years"
+                                                                          , "p/Yyr²"
+                                                                          , InchPerSquareSextillionYears
+                                                                          , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) twip per square week. Defined as: ((1.0/20.0)/((7.0)*(7.0))) × point per square day + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareWeek = new (
+                                                                "twip per square week"
+                                                              , "twip/wk²"
+                                                              , PointPerSquareDay
+                                                              , 1.0 / 20.0 / (7.0 * 7.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) pica per square day. Defined as: ((12.0)/((24.0)*(24.0))) × point per square hour + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareDay = new (
+                                                               "pica per square day"
+                                                             , "P/dy²"
+                                                             , PointPerSquareHour
+                                                             , 12.0 / (24.0 * 24.0)
+                                                             , 0
+                                                              );
+
+   /// <summary>
+   /// A(n) point per square decade. Defined as: ((1.0/72.0)/((10.0)*(10.0))) × inch per square year + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareDecade = new (
+                                                                   "point per square decade"
+                                                                 , "p/decade²"
+                                                                 , InchPerSquareYear
+                                                                 , 1.0 / 72.0 / (10.0 * 10.0)
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) yard per square hour. Defined as: ((3.0)/((60.0)*(60.0))) × foot per square minute + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareHour = new (
+                                                                "yard per square hour"
+                                                              , "yd/hr²"
+                                                              , FootPerSquareMinute
+                                                              , 3.0 / (60.0 * 60.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) mil per square quadrillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square trillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareQuadrillionYears = new (
+                                                                           "mil per square quadrillion years"
+                                                                         , "mil/Pyr²"
+                                                                         , InchPerSquareTrillionYears
+                                                                         , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) mile per square septillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareSeptillionYears = new (
+                                                                           "mile per square septillion years"
+                                                                         , "mi/Yyr²"
+                                                                         , YardPerSquareSextillionYears
+                                                                         , 1760.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) mil per square quintillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareQuintillionYears = new (
+                                                                           "mil per square quintillion years"
+                                                                         , "mil/Eyr²"
+                                                                         , InchPerSquareQuadrillionYears
+                                                                         , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) foot per square billion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareBillionYears = new (
+                                                                        "foot per square billion years"
+                                                                      , "ft/Gyr²"
+                                                                      , InchPerSquareMillionYears
+                                                                      , 12.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) point per square tick. Defined as: ((1.0/72.0)/((100.0)*(100.0))) × inch per square nanosecond + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareTick = new (
+                                                                 "point per square tick"
+                                                               , "p/tick²"
+                                                               , InchPerSquareNanosecond
+                                                               , 1.0 / 72.0 / (100.0 * 100.0)
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) point per square octillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square septillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareOctillionYears = new (
+                                                                           "point per square octillion years"
+                                                                         , "p/Ryr²"
+                                                                         , InchPerSquareSeptillionYears
+                                                                         , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) cable per square decillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareDecillionYears = new (
+                                                                           "cable per square decillion years"
+                                                                         , "cb/decillion yr²"
+                                                                         , FathomPerSquareNonillionYears
+                                                                         , 120.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) point per square century. Defined as: ((1.0/72.0)/((10.0)*(10.0))) × inch per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareCentury = new (
+                                                                    "point per square century"
+                                                                  , "p/century²"
+                                                                  , InchPerSquareDecade
+                                                                  , 1.0 / 72.0 / (10.0 * 10.0)
+                                                                  , 0
+                                                                   );
+
+   /// <summary>
+   /// A(n) mile per square hour. Defined as: ((1760.0)/((60.0)*(60.0))) × yard per square minute + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareHour = new (
+                                                                "mile per square hour"
+                                                              , "mi/hr²"
+                                                              , YardPerSquareMinute
+                                                              , 1760.0 / (60.0 * 60.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) mil per square sextillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareSextillionYears = new (
+                                                                          "mil per square sextillion years"
+                                                                        , "mil/Zyr²"
+                                                                        , InchPerSquareQuintillionYears
+                                                                        , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) twip per square nonillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square octillion years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareNonillionYears = new (
+                                                                          "twip per square nonillion years"
+                                                                        , "twip/Qyr²"
+                                                                        , PointPerSquareOctillionYears
+                                                                        , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) foot per square tick. Defined as: ((12.0)/((100.0)*(100.0))) × inch per square nanosecond + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareTick = new (
+                                                                "foot per square tick"
+                                                              , "ft/tick²"
+                                                              , InchPerSquareNanosecond
+                                                              , 12.0 / (100.0 * 100.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) fathom per square decillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareDecillionYears = new (
+                                                                            "fathom per square decillion years"
+                                                                          , "ftm/decillion yr²"
+                                                                          , YardPerSquareNonillionYears
+                                                                          , 2.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) twip per square trillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square billion years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareTrillionYears = new (
+                                                                         "twip per square trillion years"
+                                                                       , "twip/Tyr²"
+                                                                       , PointPerSquareBillionYears
+                                                                       , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) foot per square sextillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareSextillionYears = new (
+                                                                           "foot per square sextillion years"
+                                                                         , "ft/Zyr²"
+                                                                         , InchPerSquareQuintillionYears
+                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) league per square decillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareDecillionYears = new (
+                                                                            "league per square decillion years"
+                                                                          , "le/decillion yr²"
+                                                                          , MilePerSquareNonillionYears
+                                                                          , 3.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) twip per square year. Defined as: ((1.0/20.0)/((365.2525)*(365.2525))) × point per square day + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareYear = new (
+                                                                "twip per square year"
+                                                              , "twip/yr²"
+                                                              , PointPerSquareDay
+                                                              , 1.0 / 20.0 / (365.2525 * 365.2525)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) foot per square day. Defined as: ((12.0)/((24.0)*(24.0))) × inch per square hour + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareDay = new (
+                                                               "foot per square day"
+                                                             , "ft/dy²"
+                                                             , InchPerSquareHour
+                                                             , 12.0 / (24.0 * 24.0)
+                                                             , 0
+                                                              );
+
+   /// <summary>
+   /// A(n) mil per square septillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareSeptillionYears = new (
+                                                                          "mil per square septillion years"
+                                                                        , "mil/Yyr²"
+                                                                        , InchPerSquareSextillionYears
+                                                                        , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) pica per square quintillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareQuintillionYears = new (
+                                                                            "pica per square quintillion years"
+                                                                          , "P/Eyr²"
+                                                                          , PointPerSquareQuadrillionYears
+                                                                          , 12.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) mile per square decillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareDecillionYears = new (
+                                                                          "mile per square decillion years"
+                                                                        , "mi/decillion yr²"
+                                                                        , YardPerSquareNonillionYears
+                                                                        , 1760.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) league per square tick. Defined as: ((3.0)/((100.0)*(100.0))) × mile per square nanosecond + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareTick = new (
+                                                                  "league per square tick"
+                                                                , "le/tick²"
+                                                                , MilePerSquareNanosecond
+                                                                , 3.0 / (100.0 * 100.0)
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) point per square nonillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square octillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareNonillionYears = new (
+                                                                           "point per square nonillion years"
+                                                                         , "p/Qyr²"
+                                                                         , InchPerSquareOctillionYears
+                                                                         , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) yard per square decillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareDecillionYears = new (
+                                                                          "yard per square decillion years"
+                                                                        , "yd/decillion yr²"
+                                                                        , FootPerSquareNonillionYears
+                                                                        , 3.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) pica per square week. Defined as: ((12.0)/((7.0)*(7.0))) × point per square day + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareWeek = new (
+                                                                "pica per square week"
+                                                              , "P/wk²"
+                                                              , PointPerSquareDay
+                                                              , 12.0 / (7.0 * 7.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) point per square millennium. Defined as: ((1.0/72.0)/((10.0)*(10.0))) × inch per square century + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareMillennium = new (
+                                                                       "point per square millennium"
+                                                                     , "p/kyr²"
+                                                                     , InchPerSquareCentury
+                                                                     , 1.0 / 72.0 / (10.0 * 10.0)
+                                                                     , 0
+                                                                      );
+
+   /// <summary>
+   /// A(n) league per square hour. Defined as: ((3.0)/((60.0)*(60.0))) × mile per square minute + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareHour =
+            new ("league per square hour", "le/hr²", MilePerSquareMinute, 3.0 / (60.0 * 60.0), 0);
+
+   /// <summary>
+   /// A(n) mil per square octillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square septillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareOctillionYears = new (
+                                                                         "mil per square octillion years"
+                                                                       , "mil/Ryr²"
+                                                                       , InchPerSquareSeptillionYears
+                                                                       , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) yard per square septillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareSeptillionYears = new (
+                                                                           "yard per square septillion years"
+                                                                         , "yd/Yyr²"
+                                                                         , FootPerSquareSextillionYears
+                                                                         , 3.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) foot per square decillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareDecillionYears = new (
+                                                                          "foot per square decillion years"
+                                                                        , "ft/decillion yr²"
+                                                                        , InchPerSquareNonillionYears
+                                                                        , 12.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) foot per square century. Defined as: ((12.0)/((10.0)*(10.0))) × inch per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareCentury = new (
+                                                                   "foot per square century"
+                                                                 , "ft/century²"
+                                                                 , InchPerSquareDecade
+                                                                 , 12.0 / (10.0 * 10.0)
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) pica per square decillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareDecillionYears = new (
+                                                                          "pica per square decillion years"
+                                                                        , "P/decillion yr²"
+                                                                        , PointPerSquareNonillionYears
+                                                                        , 12.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) mil per square nonillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square octillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareNonillionYears = new (
+                                                                         "mil per square nonillion years"
+                                                                       , "mil/Qyr²"
+                                                                       , InchPerSquareOctillionYears
+                                                                       , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) yard per square million years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square millennium + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareMillionYears = new (
+                                                                        "yard per square million years"
+                                                                      , "yd/Myr²"
+                                                                      , FootPerSquareMillennium
+                                                                      , 3.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) twip per square decillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareDecillionYears = new (
+                                                                          "twip per square decillion years"
+                                                                        , "twip/decillion yr²"
+                                                                        , PointPerSquareNonillionYears
+                                                                        , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) league per square octillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square septillion years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareOctillionYears = new (
+                                                                            "league per square octillion years"
+                                                                          , "le/Ryr²"
+                                                                          , MilePerSquareSeptillionYears
+                                                                          , 3.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) yard per square decade. Defined as: ((3.0)/((10.0)*(10.0))) × foot per square year + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareDecade = new (
+                                                                  "yard per square decade"
+                                                                , "yd/decade²"
+                                                                , FootPerSquareYear
+                                                                , 3.0 / (10.0 * 10.0)
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) pica per square million years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square millennium + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareMillionYears = new (
+                                                                        "pica per square million years"
+                                                                      , "P/Myr²"
+                                                                      , PointPerSquareMillennium
+                                                                      , 12.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) twip per square quadrillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square trillion years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareQuadrillionYears = new (
+                                                                            "twip per square quadrillion years"
+                                                                          , "twip/Pyr²"
+                                                                          , PointPerSquareTrillionYears
+                                                                          , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) point per square decillion years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareDecillionYears = new (
+                                                                           "point per square decillion years"
+                                                                         , "p/decillion yr²"
+                                                                         , InchPerSquareNonillionYears
+                                                                         , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) twip per square decade. Defined as: ((1.0/20.0)/((10.0)*(10.0))) × point per square year + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareDecade = new (
+                                                                  "twip per square decade"
+                                                                , "twip/decade²"
+                                                                , PointPerSquareYear
+                                                                , 1.0 / 20.0 / (10.0 * 10.0)
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) yard per square day. Defined as: ((3.0)/((24.0)*(24.0))) × foot per square hour + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareDay = new (
+                                                               "yard per square day"
+                                                             , "yd/dy²"
+                                                             , FootPerSquareHour
+                                                             , 3.0 / (24.0 * 24.0)
+                                                             , 0
+                                                              );
+
+   /// <summary>
+   /// A(n) point per square million years. Defined as: ((1.0/72.0)/((1000.0)*(1000.0))) × inch per square millennium + (0).
+   /// </summary>
+   public static readonly Acceleration PointPerSquareMillionYears = new (
+                                                                         "point per square million years"
+                                                                       , "p/Myr²"
+                                                                       , InchPerSquareMillennium
+                                                                       , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) fathom per square hour. Defined as: ((2.0)/((60.0)*(60.0))) × yard per square minute + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareHour =
+            new ("fathom per square hour", "ftm/hr²", YardPerSquareMinute, 2.0 / (60.0 * 60.0), 0);
+
+   /// <summary>
+   /// A(n) mil per square decillion years. Defined as: ((1.0/1000.0)/((1000.0)*(1000.0))) × inch per square nonillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilPerSquareDecillionYears = new (
+                                                                         "mil per square decillion years"
+                                                                       , "mil/decillion yr²"
+                                                                       , InchPerSquareNonillionYears
+                                                                       , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) foot per square trillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × inch per square billion years + (0).
+   /// </summary>
+   public static readonly Acceleration FootPerSquareTrillionYears = new (
+                                                                         "foot per square trillion years"
+                                                                       , "ft/Tyr²"
+                                                                       , InchPerSquareBillionYears
+                                                                       , 12.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) pica per square sextillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareSextillionYears = new (
+                                                                           "pica per square sextillion years"
+                                                                         , "P/Zyr²"
+                                                                         , PointPerSquareQuintillionYears
+                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) mile per square octillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square septillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareOctillionYears = new (
+                                                                          "mile per square octillion years"
+                                                                        , "mi/Ryr²"
+                                                                        , YardPerSquareSeptillionYears
+                                                                        , 1760.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) pica per square year. Defined as: ((12.0)/((365.2525)*(365.2525))) × point per square day + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareYear = new (
+                                                                "pica per square year"
+                                                              , "P/yr²"
+                                                              , PointPerSquareDay
+                                                              , 12.0 / (365.2525 * 365.2525)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) cable per square hour. Defined as: ((120.0)/((60.0)*(60.0))) × fathom per square minute + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareHour = new (
+                                                                 "cable per square hour"
+                                                               , "cb/hr²"
+                                                               , FathomPerSquareMinute
+                                                               , 120.0 / (60.0 * 60.0)
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) twip per square quintillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareQuintillionYears = new (
+                                                                            "twip per square quintillion years"
+                                                                          , "twip/Eyr²"
+                                                                          , PointPerSquareQuadrillionYears
+                                                                          , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) twip per square century. Defined as: ((1.0/20.0)/((10.0)*(10.0))) × point per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareCentury = new (
+                                                                   "twip per square century"
+                                                                 , "twip/century²"
+                                                                 , PointPerSquareDecade
+                                                                 , 1.0 / 20.0 / (10.0 * 10.0)
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) mile per square day. Defined as: ((1760.0)/((24.0)*(24.0))) × yard per square hour + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareDay = new (
+                                                               "mile per square day"
+                                                             , "mi/dy²"
+                                                             , YardPerSquareHour
+                                                             , 1760.0 / (24.0 * 24.0)
+                                                             , 0
+                                                              );
+
+   /// <summary>
+   /// A(n) league per square year. Defined as: ((3.0)/((365.2525)*(365.2525))) × mile per square day + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareYear = new (
+                                                                  "league per square year"
+                                                                , "le/yr²"
+                                                                , MilePerSquareDay
+                                                                , 3.0 / (365.2525 * 365.2525)
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) pica per square billion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareBillionYears = new (
+                                                                        "pica per square billion years"
+                                                                      , "P/Gyr²"
+                                                                      , PointPerSquareMillionYears
+                                                                      , 12.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) yard per square quintillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareQuintillionYears = new (
+                                                                            "yard per square quintillion years"
+                                                                          , "yd/Eyr²"
+                                                                          , FootPerSquareQuadrillionYears
+                                                                          , 3.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) yard per square billion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareBillionYears = new (
+                                                                        "yard per square billion years"
+                                                                      , "yd/Gyr²"
+                                                                      , FootPerSquareMillionYears
+                                                                      , 3.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) pica per square septillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareSeptillionYears = new (
+                                                                           "pica per square septillion years"
+                                                                         , "P/Yyr²"
+                                                                         , PointPerSquareSextillionYears
+                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) yard per square century. Defined as: ((3.0)/((10.0)*(10.0))) × foot per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareCentury = new (
+                                                                   "yard per square century"
+                                                                 , "yd/century²"
+                                                                 , FootPerSquareDecade
+                                                                 , 3.0 / (10.0 * 10.0)
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) twip per square sextillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareSextillionYears = new (
+                                                                           "twip per square sextillion years"
+                                                                         , "twip/Zyr²"
+                                                                         , PointPerSquareQuintillionYears
+                                                                         , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) pica per square decade. Defined as: ((12.0)/((10.0)*(10.0))) × point per square year + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareDecade = new (
+                                                                  "pica per square decade"
+                                                                , "P/decade²"
+                                                                , PointPerSquareYear
+                                                                , 12.0 / (10.0 * 10.0)
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) yard per square week. Defined as: ((3.0)/((7.0)*(7.0))) × foot per square day + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareWeek = new (
+                                                                "yard per square week"
+                                                              , "yd/wk²"
+                                                              , FootPerSquareDay
+                                                              , 3.0 / (7.0 * 7.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) twip per square millennium. Defined as: ((1.0/20.0)/((10.0)*(10.0))) × point per square century + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareMillennium = new (
+                                                                      "twip per square millennium"
+                                                                    , "twip/kyr²"
+                                                                    , PointPerSquareCentury
+                                                                    , 1.0 / 20.0 / (10.0 * 10.0)
+                                                                    , 0
+                                                                     );
+
+   /// <summary>
+   /// A(n) league per square day. Defined as: ((3.0)/((24.0)*(24.0))) × mile per square hour + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareDay =
+            new ("league per square day", "le/dy²", MilePerSquareHour, 3.0 / (24.0 * 24.0), 0);
+
+   /// <summary>
+   /// A(n) mile per square sextillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareSextillionYears = new (
+                                                                           "mile per square sextillion years"
+                                                                         , "mi/Zyr²"
+                                                                         , YardPerSquareQuintillionYears
+                                                                         , 1760.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) fathom per square septillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareSeptillionYears = new (
+                                                                             "fathom per square septillion years"
+                                                                           , "ftm/Yyr²"
+                                                                           , YardPerSquareSextillionYears
+                                                                           , 2.0 / (1000.0 * 1000.0)
+                                                                           , 0
+                                                                            );
+
+   /// <summary>
+   /// A(n) fathom per square trillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square billion years + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareTrillionYears = new (
+                                                                           "fathom per square trillion years"
+                                                                         , "ftm/Tyr²"
+                                                                         , YardPerSquareBillionYears
+                                                                         , 2.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) league per square nonillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square octillion years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareNonillionYears = new (
+                                                                            "league per square nonillion years"
+                                                                          , "le/Qyr²"
+                                                                          , MilePerSquareOctillionYears
+                                                                          , 3.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) fathom per square century. Defined as: ((2.0)/((10.0)*(10.0))) × yard per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareCentury = new (
+                                                                     "fathom per square century"
+                                                                   , "ftm/century²"
+                                                                   , YardPerSquareDecade
+                                                                   , 2.0 / (10.0 * 10.0)
+                                                                   , 0
+                                                                    );
+
+   /// <summary>
+   /// A(n) fathom per square year. Defined as: ((2.0)/((365.2525)*(365.2525))) × yard per square day + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareYear = new (
+                                                                  "fathom per square year"
+                                                                , "ftm/yr²"
+                                                                , YardPerSquareDay
+                                                                , 2.0 / (365.2525 * 365.2525)
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) twip per square septillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareSeptillionYears = new (
+                                                                           "twip per square septillion years"
+                                                                         , "twip/Yyr²"
+                                                                         , PointPerSquareSextillionYears
+                                                                         , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) twip per square million years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square millennium + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareMillionYears = new (
+                                                                        "twip per square million years"
+                                                                      , "twip/Myr²"
+                                                                      , PointPerSquareMillennium
+                                                                      , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) fathom per square day. Defined as: ((2.0)/((24.0)*(24.0))) × yard per square hour + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareDay =
+            new ("fathom per square day", "ftm/dy²", YardPerSquareHour, 2.0 / (24.0 * 24.0), 0);
+
+   /// <summary>
+   /// A(n) pica per square octillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square septillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareOctillionYears = new (
+                                                                          "pica per square octillion years"
+                                                                        , "P/Ryr²"
+                                                                        , PointPerSquareSeptillionYears
+                                                                        , 12.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) cable per square quadrillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square trillion years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareQuadrillionYears = new (
+                                                                             "cable per square quadrillion years"
+                                                                           , "cb/Pyr²"
+                                                                           , FathomPerSquareTrillionYears
+                                                                           , 120.0 / (1000.0 * 1000.0)
+                                                                           , 0
+                                                                            );
+
+   /// <summary>
+   /// A(n) league per square septillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareSeptillionYears = new (
+                                                                             "league per square septillion years"
+                                                                           , "le/Yyr²"
+                                                                           , MilePerSquareSextillionYears
+                                                                           , 3.0 / (1000.0 * 1000.0)
+                                                                           , 0
+                                                                            );
+
+   /// <summary>
+   /// A(n) pica per square century. Defined as: ((12.0)/((10.0)*(10.0))) × point per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareCentury = new (
+                                                                   "pica per square century"
+                                                                 , "P/century²"
+                                                                 , PointPerSquareDecade
+                                                                 , 12.0 / (10.0 * 10.0)
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) mile per square week. Defined as: ((1760.0)/((7.0)*(7.0))) × yard per square day + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareWeek = new (
+                                                                "mile per square week"
+                                                              , "mi/wk²"
+                                                              , YardPerSquareDay
+                                                              , 1760.0 / (7.0 * 7.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) yard per square trillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square billion years + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareTrillionYears = new (
+                                                                         "yard per square trillion years"
+                                                                       , "yd/Tyr²"
+                                                                       , FootPerSquareBillionYears
+                                                                       , 3.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) yard per square millennium. Defined as: ((3.0)/((10.0)*(10.0))) × foot per square century + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareMillennium = new (
+                                                                      "yard per square millennium"
+                                                                    , "yd/kyr²"
+                                                                    , FootPerSquareCentury
+                                                                    , 3.0 / (10.0 * 10.0)
+                                                                    , 0
+                                                                     );
+
+   /// <summary>
+   /// A(n) twip per square octillion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square septillion years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareOctillionYears = new (
+                                                                          "twip per square octillion years"
+                                                                        , "twip/Ryr²"
+                                                                        , PointPerSquareSeptillionYears
+                                                                        , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) yard per square year. Defined as: ((3.0)/((365.2525)*(365.2525))) × foot per square day + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareYear = new (
+                                                                "yard per square year"
+                                                              , "yd/yr²"
+                                                              , FootPerSquareDay
+                                                              , 3.0 / (365.2525 * 365.2525)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) twip per square billion years. Defined as: ((1.0/20.0)/((1000.0)*(1000.0))) × point per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration TwipPerSquareBillionYears = new (
+                                                                        "twip per square billion years"
+                                                                      , "twip/Gyr²"
+                                                                      , PointPerSquareMillionYears
+                                                                      , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) cable per square day. Defined as: ((120.0)/((24.0)*(24.0))) × fathom per square hour + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareDay = new (
+                                                                "cable per square day"
+                                                              , "cb/dy²"
+                                                              , FathomPerSquareHour
+                                                              , 120.0 / (24.0 * 24.0)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) mile per square century. Defined as: ((1760.0)/((10.0)*(10.0))) × yard per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareCentury = new (
+                                                                   "mile per square century"
+                                                                 , "mi/century²"
+                                                                 , YardPerSquareDecade
+                                                                 , 1760.0 / (10.0 * 10.0)
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) cable per square octillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square septillion years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareOctillionYears = new (
+                                                                           "cable per square octillion years"
+                                                                         , "cb/Ryr²"
+                                                                         , FathomPerSquareSeptillionYears
+                                                                         , 120.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) pica per square nonillion years. Defined as: ((12.0)/((1000.0)*(1000.0))) × point per square octillion years + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareNonillionYears = new (
+                                                                          "pica per square nonillion years"
+                                                                        , "P/Qyr²"
+                                                                        , PointPerSquareOctillionYears
+                                                                        , 12.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) cable per square year. Defined as: ((120.0)/((365.2525)*(365.2525))) × fathom per square day + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareYear = new (
+                                                                 "cable per square year"
+                                                               , "cb/yr²"
+                                                               , FathomPerSquareDay
+                                                               , 120.0 / (365.2525 * 365.2525)
+                                                               , 0
+                                                                );
+
+   /// <summary>
+   /// A(n) pica per square millennium. Defined as: ((12.0)/((10.0)*(10.0))) × point per square century + (0).
+   /// </summary>
+   public static readonly Acceleration PicaPerSquareMillennium = new (
+                                                                      "pica per square millennium"
+                                                                    , "P/kyr²"
+                                                                    , PointPerSquareCentury
+                                                                    , 12.0 / (10.0 * 10.0)
+                                                                    , 0
+                                                                     );
+
+   /// <summary>
+   /// A(n) league per square week. Defined as: ((3.0)/((7.0)*(7.0))) × mile per square day + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareWeek =
+            new ("league per square week", "le/wk²", MilePerSquareDay, 3.0 / (7.0 * 7.0), 0);
+
+   /// <summary>
+   /// A(n) mile per square billion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareBillionYears = new (
+                                                                        "mile per square billion years"
+                                                                      , "mi/Gyr²"
+                                                                      , YardPerSquareMillionYears
+                                                                      , 1760.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) fathom per square octillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square septillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareOctillionYears = new (
+                                                                            "fathom per square octillion years"
+                                                                          , "ftm/Ryr²"
+                                                                          , YardPerSquareSeptillionYears
+                                                                          , 2.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) fathom per square sextillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareSextillionYears = new (
+                                                                             "fathom per square sextillion years"
+                                                                           , "ftm/Zyr²"
+                                                                           , YardPerSquareQuintillionYears
+                                                                           , 2.0 / (1000.0 * 1000.0)
+                                                                           , 0
+                                                                            );
+
+   /// <summary>
+   /// A(n) fathom per square quadrillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square trillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareQuadrillionYears = new (
+                                                                              "fathom per square quadrillion years"
+                                                                            , "ftm/Pyr²"
+                                                                            , YardPerSquareTrillionYears
+                                                                            , 2.0 / (1000.0 * 1000.0)
+                                                                            , 0
+                                                                             );
+
+   /// <summary>
+   /// A(n) fathom per square billion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareBillionYears = new (
+                                                                          "fathom per square billion years"
+                                                                        , "ftm/Gyr²"
+                                                                        , YardPerSquareMillionYears
+                                                                        , 2.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) mile per square year. Defined as: ((1760.0)/((365.2525)*(365.2525))) × yard per square day + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareYear = new (
+                                                                "mile per square year"
+                                                              , "mi/yr²"
+                                                              , YardPerSquareDay
+                                                              , 1760.0 / (365.2525 * 365.2525)
+                                                              , 0
+                                                               );
+
+   /// <summary>
+   /// A(n) fathom per square millennium. Defined as: ((2.0)/((10.0)*(10.0))) × yard per square century + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareMillennium = new (
+                                                                        "fathom per square millennium"
+                                                                      , "ftm/kyr²"
+                                                                      , YardPerSquareCentury
+                                                                      , 2.0 / (10.0 * 10.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) yard per square quadrillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × foot per square trillion years + (0).
+   /// </summary>
+   public static readonly Acceleration YardPerSquareQuadrillionYears = new (
+                                                                            "yard per square quadrillion years"
+                                                                          , "yd/Pyr²"
+                                                                          , FootPerSquareTrillionYears
+                                                                          , 3.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) fathom per square decade. Defined as: ((2.0)/((10.0)*(10.0))) × yard per square year + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareDecade = new (
+                                                                    "fathom per square decade"
+                                                                  , "ftm/decade²"
+                                                                  , YardPerSquareYear
+                                                                  , 2.0 / (10.0 * 10.0)
+                                                                  , 0
+                                                                   );
+
+   /// <summary>
+   /// A(n) mile per square quintillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareQuintillionYears = new (
+                                                                            "mile per square quintillion years"
+                                                                          , "mi/Eyr²"
+                                                                          , YardPerSquareQuadrillionYears
+                                                                          , 1760.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) fathom per square week. Defined as: ((2.0)/((7.0)*(7.0))) × yard per square day + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareWeek =
+            new ("fathom per square week", "ftm/wk²", YardPerSquareDay, 2.0 / (7.0 * 7.0), 0);
+
+   /// <summary>
+   /// A(n) cable per square trillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square billion years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareTrillionYears = new (
+                                                                          "cable per square trillion years"
+                                                                        , "cb/Tyr²"
+                                                                        , FathomPerSquareBillionYears
+                                                                        , 120.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) mile per square millennium. Defined as: ((1760.0)/((10.0)*(10.0))) × yard per square century + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareMillennium = new (
+                                                                      "mile per square millennium"
+                                                                    , "mi/kyr²"
+                                                                    , YardPerSquareCentury
+                                                                    , 1760.0 / (10.0 * 10.0)
+                                                                    , 0
+                                                                     );
+
+   /// <summary>
+   /// A(n) cable per square quintillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareQuintillionYears = new (
+                                                                             "cable per square quintillion years"
+                                                                           , "cb/Eyr²"
+                                                                           , FathomPerSquareQuadrillionYears
+                                                                           , 120.0 / (1000.0 * 1000.0)
+                                                                           , 0
+                                                                            );
+
+   /// <summary>
+   /// A(n) league per square sextillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareSextillionYears = new (
+                                                                             "league per square sextillion years"
+                                                                           , "le/Zyr²"
+                                                                           , MilePerSquareQuintillionYears
+                                                                           , 3.0 / (1000.0 * 1000.0)
+                                                                           , 0
+                                                                            );
+
+   /// <summary>
+   /// A(n) cable per square septillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square sextillion years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareSeptillionYears = new (
+                                                                            "cable per square septillion years"
+                                                                          , "cb/Yyr²"
+                                                                          , FathomPerSquareSextillionYears
+                                                                          , 120.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) cable per square week. Defined as: ((120.0)/((7.0)*(7.0))) × fathom per square day + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareWeek =
+            new ("cable per square week", "cb/wk²", FathomPerSquareDay, 120.0 / (7.0 * 7.0), 0);
+
+   /// <summary>
+   /// A(n) mile per square trillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square billion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareTrillionYears = new (
+                                                                         "mile per square trillion years"
+                                                                       , "mi/Tyr²"
+                                                                       , YardPerSquareBillionYears
+                                                                       , 1760.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) league per square quadrillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square trillion years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareQuadrillionYears = new (
+                                                                              "league per square quadrillion years"
+                                                                            , "le/Pyr²"
+                                                                            , MilePerSquareTrillionYears
+                                                                            , 3.0 / (1000.0 * 1000.0)
+                                                                            , 0
+                                                                             );
+
+   /// <summary>
+   /// A(n) cable per square nonillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square octillion years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareNonillionYears = new (
+                                                                           "cable per square nonillion years"
+                                                                         , "cb/Qyr²"
+                                                                         , FathomPerSquareOctillionYears
+                                                                         , 120.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) cable per square decade. Defined as: ((120.0)/((10.0)*(10.0))) × fathom per square year + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareDecade = new (
+                                                                   "cable per square decade"
+                                                                 , "cb/decade²"
+                                                                 , FathomPerSquareYear
+                                                                 , 120.0 / (10.0 * 10.0)
+                                                                 , 0
+                                                                  );
+
+   /// <summary>
+   /// A(n) mile per square decade. Defined as: ((1760.0)/((10.0)*(10.0))) × yard per square year + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareDecade = new (
+                                                                  "mile per square decade"
+                                                                , "mi/decade²"
+                                                                , YardPerSquareYear
+                                                                , 1760.0 / (10.0 * 10.0)
+                                                                , 0
+                                                                 );
+
+   /// <summary>
+   /// A(n) cable per square millennium. Defined as: ((120.0)/((10.0)*(10.0))) × fathom per square century + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareMillennium = new (
+                                                                       "cable per square millennium"
+                                                                     , "cb/kyr²"
+                                                                     , FathomPerSquareCentury
+                                                                     , 120.0 / (10.0 * 10.0)
+                                                                     , 0
+                                                                      );
+
+   /// <summary>
+   /// A(n) fathom per square quintillion years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareQuintillionYears = new (
+                                                                              "fathom per square quintillion years"
+                                                                            , "ftm/Eyr²"
+                                                                            , YardPerSquareQuadrillionYears
+                                                                            , 2.0 / (1000.0 * 1000.0)
+                                                                            , 0
+                                                                             );
+
+   /// <summary>
+   /// A(n) fathom per square million years. Defined as: ((2.0)/((1000.0)*(1000.0))) × yard per square millennium + (0).
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareMillionYears = new (
+                                                                          "fathom per square million years"
+                                                                        , "ftm/Myr²"
+                                                                        , YardPerSquareMillennium
+                                                                        , 2.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) mile per square million years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square millennium + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareMillionYears = new (
+                                                                        "mile per square million years"
+                                                                      , "mi/Myr²"
+                                                                      , YardPerSquareMillennium
+                                                                      , 1760.0 / (1000.0 * 1000.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) cable per square billion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareBillionYears = new (
+                                                                         "cable per square billion years"
+                                                                       , "cb/Gyr²"
+                                                                       , FathomPerSquareMillionYears
+                                                                       , 120.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) league per square millennium. Defined as: ((3.0)/((10.0)*(10.0))) × mile per square century + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareMillennium = new (
+                                                                        "league per square millennium"
+                                                                      , "le/kyr²"
+                                                                      , MilePerSquareCentury
+                                                                      , 3.0 / (10.0 * 10.0)
+                                                                      , 0
+                                                                       );
+
+   /// <summary>
+   /// A(n) mile per square quadrillion years. Defined as: ((1760.0)/((1000.0)*(1000.0))) × yard per square trillion years + (0).
+   /// </summary>
+   public static readonly Acceleration MilePerSquareQuadrillionYears = new (
+                                                                            "mile per square quadrillion years"
+                                                                          , "mi/Pyr²"
+                                                                          , YardPerSquareTrillionYears
+                                                                          , 1760.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) cable per square sextillion years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square quintillion years + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareSextillionYears = new (
+                                                                            "cable per square sextillion years"
+                                                                          , "cb/Zyr²"
+                                                                          , FathomPerSquareQuintillionYears
+                                                                          , 120.0 / (1000.0 * 1000.0)
+                                                                          , 0
+                                                                           );
+
+   /// <summary>
+   /// A(n) league per square decade. Defined as: ((3.0)/((10.0)*(10.0))) × mile per square year + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareDecade = new (
+                                                                    "league per square decade"
+                                                                  , "le/decade²"
+                                                                  , MilePerSquareYear
+                                                                  , 3.0 / (10.0 * 10.0)
+                                                                  , 0
+                                                                   );
+
+   /// <summary>
+   /// A(n) league per square quintillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square quadrillion years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareQuintillionYears = new (
+                                                                              "league per square quintillion years"
+                                                                            , "le/Eyr²"
+                                                                            , MilePerSquareQuadrillionYears
+                                                                            , 3.0 / (1000.0 * 1000.0)
+                                                                            , 0
+                                                                             );
+
+   /// <summary>
+   /// A(n) league per square trillion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square billion years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareTrillionYears = new (
+                                                                           "league per square trillion years"
+                                                                         , "le/Tyr²"
+                                                                         , MilePerSquareBillionYears
+                                                                         , 3.0 / (1000.0 * 1000.0)
+                                                                         , 0
+                                                                          );
+
+   /// <summary>
+   /// A(n) cable per square century. Defined as: ((120.0)/((10.0)*(10.0))) × fathom per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareCentury = new (
+                                                                    "cable per square century"
+                                                                  , "cb/century²"
+                                                                  , FathomPerSquareDecade
+                                                                  , 120.0 / (10.0 * 10.0)
+                                                                  , 0
+                                                                   );
+
+   /// <summary>
+   /// A(n) cable per square million years. Defined as: ((120.0)/((1000.0)*(1000.0))) × fathom per square millennium + (0).
+   /// </summary>
+   public static readonly Acceleration CablePerSquareMillionYears = new (
+                                                                         "cable per square million years"
+                                                                       , "cb/Myr²"
+                                                                       , FathomPerSquareMillennium
+                                                                       , 120.0 / (1000.0 * 1000.0)
+                                                                       , 0
+                                                                        );
+
+   /// <summary>
+   /// A(n) league per square million years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square millennium + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareMillionYears = new (
+                                                                          "league per square million years"
+                                                                        , "le/Myr²"
+                                                                        , MilePerSquareMillennium
+                                                                        , 3.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
+
+   /// <summary>
+   /// A(n) league per square century. Defined as: ((3.0)/((10.0)*(10.0))) × mile per square decade + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareCentury = new (
+                                                                     "league per square century"
+                                                                   , "le/century²"
+                                                                   , MilePerSquareDecade
+                                                                   , 3.0 / (10.0 * 10.0)
+                                                                   , 0
+                                                                    );
+
+   /// <summary>
+   /// A(n) league per square billion years. Defined as: ((3.0)/((1000.0)*(1000.0))) × mile per square million years + (0).
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquareBillionYears = new (
+                                                                          "league per square billion years"
+                                                                        , "le/Gyr²"
+                                                                        , MilePerSquareMillionYears
+                                                                        , 3.0 / (1000.0 * 1000.0)
+                                                                        , 0
+                                                                         );
 }

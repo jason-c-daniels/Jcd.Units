@@ -163,37 +163,53 @@ public class SourceCodeGenerator
          var unitTypeGroupings = systemGrouping.ToList();
 
          foreach (var unitTypeGrouping in unitTypeGroupings)
-         {
-            var ut = unitTypeGrouping.First()
-                                     .UnitType;
-
-            var enumerationName      = ut.EnumerationName;
-            var enumerationFileName  = $"{enumerationName}.cs";
-            var enumerationsFilePath = Path.Combine(uomWithNamespaceDir, enumerationFileName);
-
-            Console.WriteLine();
-            Console.WriteLine("--------------------------------------------------------");
-
-            var sortedGrouping = unitTypeGrouping
-                                .OrderBy(u => u.System.Name)
-                                .ThenBy(u => u.UnitType.Name)
-                                .ThenByDescending(u => u.IsBaseUnit)
-                                .ThenBy(u => u.Unit.SortIndex)
-                                .ThenBy(u => u.Prefix.SortIndex)
-                                .ToList()
-                     ;
-
-            var sbUnits = new StringBuilder();
-
-            foreach (var unitDefinition in sortedGrouping)
-            {
-               Console.WriteLine($"Generating: {unitDefinition.Prefix.Name}{unitDefinition.Unit.UnitName}");
-               sbUnits.AppendLine(GenerateUnit(unitDefinition));
-            }
-
-            var enumerationFileContent = GenerateEnumeration(sortedGrouping[0], sbUnits.ToString());
-            FSS.WriteFileContent(enumerationsFilePath, enumerationFileContent);
-         }
+            GenerateUnitTypeGrouping(unitTypeGrouping, uomWithNamespaceDir);
       }
+   }
+
+   private void GenerateUnitTypeGrouping(IGrouping<string, UnitDefinition> unitTypeGrouping, string uomWithNamespaceDir)
+   {
+      var ut = unitTypeGrouping.First()
+                               .UnitType;
+
+      var enumerationName      = ut.EnumerationName;
+      var enumerationFileName  = $"{enumerationName}.cs";
+      var enumerationsFilePath = Path.Combine(uomWithNamespaceDir, enumerationFileName);
+
+      Console.WriteLine();
+      Console.WriteLine("--------------------------------------------------------");
+
+      var sortedGrouping = unitTypeGrouping
+                          .OrderBy(u => u.System.Name)
+                          .ThenBy(u => u.UnitType.Name)
+                          .ThenByDescending(u => u.IsBaseUnit)
+                          .ThenBy(u => u.Unit.SortIndex)
+                          .ThenBy(u => u.Prefix.SortIndex)
+                          .ToList()
+               ;
+
+      var sbUnits = new StringBuilder();
+
+      var units     = new Queue<UnitDefinition>(sortedGrouping);
+      var generated = new HashSet<string>();
+
+      while (units.Count > 0)
+      {
+         var unitDefinition = units.Dequeue();
+
+         if (unitDefinition.IsBaseUnit
+          || !unitDefinition.IsSameSystem
+          || generated.Contains(unitDefinition.BaseUnitName))
+         {
+            Console.WriteLine($"Generating: {unitDefinition.Prefix.Name}{unitDefinition.Unit.UnitName}");
+            sbUnits.AppendLine(GenerateUnit(unitDefinition));
+            generated.Add(unitDefinition.UnitName);
+         }
+         else
+            units.Enqueue(unitDefinition);
+      }
+
+      var enumerationFileContent = GenerateEnumeration(sortedGrouping[0], sbUnits.ToString());
+      FSS.WriteFileContent(enumerationsFilePath, enumerationFileContent);
    }
 }

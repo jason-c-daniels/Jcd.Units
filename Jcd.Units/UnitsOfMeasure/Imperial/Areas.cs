@@ -23,19 +23,9 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    public static readonly Area SquareInch = new ("square inch", "in²", SI.Areas.SquareCentimeter, 2.54 * 2.54, 0);
 
    /// <summary>
-   /// A(n) perch. Defined as: (272.25) × square foot + (0).
-   /// </summary>
-   public static readonly Area Perch = new ("perch", "perch", SquareFoot, 272.25, 0);
-
-   /// <summary>
    /// A(n) square foot. Defined as: ((12)*(12)) × square inch + (0).
    /// </summary>
    public static readonly Area SquareFoot = new ("square foot", "ft²", SquareInch, 12 * 12, 0);
-
-   /// <summary>
-   /// A(n) rood. Defined as: (40.0) × perch + (0).
-   /// </summary>
-   public static readonly Area Rood = new ("rood", "rood", Perch, 40.0, 0);
 
    /// <summary>
    /// A(n) square twip. Defined as: ((1.0/17280.0)*(1.0/17280.0)) × square foot + (0).
@@ -47,11 +37,6 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                , 1.0 / 17280.0 * (1.0 / 17280.0)
                                                , 0
                                                 );
-
-   /// <summary>
-   /// A(n) acre. Defined as: (4.0) × rood + (0).
-   /// </summary>
-   public static readonly Area Acre = new ("acre", "acre", Rood, 4.0, 0);
 
    /// <summary>
    /// A(n) square thou. Defined as: ((1.0/12000.0)*(1.0/12000.0)) × square foot + (0).
@@ -113,4 +98,19 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
    /// A(n) square nautical mile. Defined as: ((10.0)*(10.0)) × square cable + (0).
    /// </summary>
    public static readonly Area SquareNauticalMile = new ("square nautical mile", "nmi²", SquareCable, 10.0 * 10.0, 0);
+
+   /// <summary>
+   /// A(n) perch. Defined as: (272.25) × square foot + (0).
+   /// </summary>
+   public static readonly Area Perch = new ("perch", "perch", SquareFoot, 272.25, 0);
+
+   /// <summary>
+   /// A(n) rood. Defined as: (40.0) × perch + (0).
+   /// </summary>
+   public static readonly Area Rood = new ("rood", "rood", Perch, 40.0, 0);
+
+   /// <summary>
+   /// A(n) acre. Defined as: (4.0) × rood + (0).
+   /// </summary>
+   public static readonly Area Acre = new ("acre", "acre", Rood, 4.0, 0);
 }

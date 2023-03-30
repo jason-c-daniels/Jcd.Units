@@ -10,7 +10,7 @@ using Jcd.Units.UnitTypes;
 // ReSharper disable ClassNeverInstantiated.Global
 // ReSharper disable UnusedType.Global
 
-namespace Jcd.Units.UnitsOfMeasure.DataCapacity;
+namespace Jcd.Units.UnitsOfMeasure.Data;
 
 /// <summary>
 /// Units used to measure Data for measuring Transfer Rate.
