@@ -3,7 +3,7 @@
 
 ## Pressures.Kilobar Field
 
-kilobar, defined as: hectobar × 10.0
+kilobar defined such that: hectobar = kbar × 10.0.
 
 ```csharp
 public static readonly Pressure Kilobar;

@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicYoctometer Field
 
-femtogram per cubic yoctometer, defined as: picogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+femtogram per cubic yoctometer defined such that: picogram per cubic zeptometer = fg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density FemtogramPerCubicYoctometer;

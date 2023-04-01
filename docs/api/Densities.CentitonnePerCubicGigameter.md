@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicGigameter Field
 
-centitonne per cubic gigameter, defined as: decitonne per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+centitonne per cubic gigameter defined such that: decitonne per cubic megameter = ct/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density CentitonnePerCubicGigameter;

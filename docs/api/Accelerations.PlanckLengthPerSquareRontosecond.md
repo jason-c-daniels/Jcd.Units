@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareRontosecond Field
 
-planck-length per square rontosecond, defined as: SI meter per square yoctosecond × (1.616255E-35)/((1.0/1000.0)*(1.0/1000.0))
+planck-length per square rontosecond defined such that: SI meter per square yoctosecond = ℓₚ/rs² × (1.616255E-35)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareRontosecond;

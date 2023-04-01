@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerTrillionYears Field
 
-kilometer per trillion years, defined as: hectometer per billion years × (10.0)/(1000.0)
+kilometer per trillion years defined such that: hectometer per billion years = km/Tyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity KilometerPerTrillionYears;

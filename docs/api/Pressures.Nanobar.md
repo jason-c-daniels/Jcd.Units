@@ -3,7 +3,7 @@
 
 ## Pressures.Nanobar Field
 
-nanobar, defined as: microbar × 1.0/1000.0
+nanobar defined such that: microbar = nbar × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Nanobar;

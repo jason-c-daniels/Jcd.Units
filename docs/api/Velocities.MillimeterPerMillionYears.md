@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerMillionYears Field
 
-millimeter per million years, defined as: centimeter per millennium × (1.0/10.0)/(1000.0)
+millimeter per million years defined such that: centimeter per millennium = mm/Myr × (1.0/10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MillimeterPerMillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerPlanckTime Field
 
-chain per planck-time, defined as: yard per microsecond × (22.0)/(5.391247E-38)
+chain per planck-time defined such that: yard per microsecond = ch/tₚ × (22.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity ChainPerPlanckTime;

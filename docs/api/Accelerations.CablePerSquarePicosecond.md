@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquarePicosecond Field
 
-cable per square picosecond, defined as: fathom per square nanosecond × (100.0)/((1.0/1000.0)*(1.0/1000.0))
+cable per square picosecond defined such that: fathom per square nanosecond = cable/ps² × (100.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration CablePerSquarePicosecond;

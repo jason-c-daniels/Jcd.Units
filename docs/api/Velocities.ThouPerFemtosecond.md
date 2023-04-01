@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerFemtosecond Field
 
-thou per femtosecond, defined as: foot per picosecond × (1.0/12000.0)/(1.0/1000.0)
+thou per femtosecond defined such that: foot per picosecond = th/fs × (1.0/12000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ThouPerFemtosecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerOctillionYears Field
 
-hectometer per octillion years, defined as: dekameter per septillion years × (10.0)/(1000.0)
+hectometer per octillion years defined such that: dekameter per septillion years = hm/Ryr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity HectometerPerOctillionYears;

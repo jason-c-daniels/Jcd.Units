@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerYear Field
 
-attometer per year, defined as: femtometer per day × (1.0/1000.0)/(365.2525)
+attometer per year defined such that: femtometer per day = am/yr × (1.0/1000.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity AttometerPerYear;

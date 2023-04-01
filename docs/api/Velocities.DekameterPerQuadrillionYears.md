@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerQuadrillionYears Field
 
-dekameter per quadrillion years, defined as: meter per trillion years × (10.0)/(1000.0)
+dekameter per quadrillion years defined such that: meter per trillion years = dam/Pyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity DekameterPerQuadrillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareHour Field
 
-foot per square hour, defined as: inch per square minute × (12)/((60.0)*(60.0))
+foot per square hour defined such that: inch per square minute = ft/hr² × (12)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration FootPerSquareHour;

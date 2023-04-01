@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Hectokatal Field
 
-hectokatal, defined as: dekakatal × 10.0
+hectokatal defined such that: dekakatal = hkat × 10.0.
 
 ```csharp
 public static readonly CatalyticActivity Hectokatal;

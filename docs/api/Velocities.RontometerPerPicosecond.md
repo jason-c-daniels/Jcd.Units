@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerPicosecond Field
 
-rontometer per picosecond, defined as: yoctometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+rontometer per picosecond defined such that: yoctometer per nanosecond = rm/ps × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity RontometerPerPicosecond;

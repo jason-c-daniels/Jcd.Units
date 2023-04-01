@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attofarad](Capacitances.Attofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Attofarad') | attofarad, defined as: femtofarad × 1.0/1000.0 |
-| [Centifarad](Capacitances.Centifarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Centifarad') | centifarad, defined as: decifarad × 1.0/10.0 |
-| [Decifarad](Capacitances.Decifarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Decifarad') | decifarad, defined as: farad × 1.0/10.0 |
-| [Dekafarad](Capacitances.Dekafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Dekafarad') | dekafarad, defined as: farad × 10.0 |
-| [Exafarad](Capacitances.Exafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Exafarad') | exafarad, defined as: petafarad × 1000.0 |
+| [Attofarad](Capacitances.Attofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Attofarad') | attofarad defined such that: femtofarad = aF × 1.0/1000.0. |
+| [Centifarad](Capacitances.Centifarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Centifarad') | centifarad defined such that: decifarad = cF × 1.0/10.0. |
+| [Decifarad](Capacitances.Decifarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Decifarad') | decifarad defined such that: farad = dF × 1.0/10.0. |
+| [Dekafarad](Capacitances.Dekafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Dekafarad') | dekafarad defined such that: farad = daF × 10.0. |
+| [Exafarad](Capacitances.Exafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Exafarad') | exafarad defined such that: petafarad = EF × 1000.0. |
 | [Farad](Capacitances.Farad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Farad') | farad, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
-| [Femtofarad](Capacitances.Femtofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Femtofarad') | femtofarad, defined as: picofarad × 1.0/1000.0 |
-| [Gigafarad](Capacitances.Gigafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Gigafarad') | gigafarad, defined as: megafarad × 1000.0 |
-| [Hectofarad](Capacitances.Hectofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Hectofarad') | hectofarad, defined as: dekafarad × 10.0 |
-| [Kilofarad](Capacitances.Kilofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Kilofarad') | kilofarad, defined as: hectofarad × 10.0 |
-| [Megafarad](Capacitances.Megafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Megafarad') | megafarad, defined as: kilofarad × 1000.0 |
-| [Microfarad](Capacitances.Microfarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Microfarad') | microfarad, defined as: millifarad × 1.0/1000.0 |
-| [Millifarad](Capacitances.Millifarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Millifarad') | millifarad, defined as: centifarad × 1.0/10.0 |
-| [Nanofarad](Capacitances.Nanofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Nanofarad') | nanofarad, defined as: microfarad × 1.0/1000.0 |
-| [Petafarad](Capacitances.Petafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Petafarad') | petafarad, defined as: terafarad × 1000.0 |
-| [Picofarad](Capacitances.Picofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Picofarad') | picofarad, defined as: nanofarad × 1.0/1000.0 |
-| [Quectofarad](Capacitances.Quectofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Quectofarad') | quectofarad, defined as: rontofarad × 1.0/1000.0 |
-| [Quettafarad](Capacitances.Quettafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Quettafarad') | quettafarad, defined as: ronnafarad × 1000.0 |
-| [Ronnafarad](Capacitances.Ronnafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Ronnafarad') | ronnafarad, defined as: yottafarad × 1000.0 |
-| [Rontofarad](Capacitances.Rontofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Rontofarad') | rontofarad, defined as: yoctofarad × 1.0/1000.0 |
-| [Terafarad](Capacitances.Terafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Terafarad') | terafarad, defined as: gigafarad × 1000.0 |
-| [Yoctofarad](Capacitances.Yoctofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Yoctofarad') | yoctofarad, defined as: zeptofarad × 1.0/1000.0 |
-| [Yottafarad](Capacitances.Yottafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Yottafarad') | yottafarad, defined as: zettafarad × 1000.0 |
-| [Zeptofarad](Capacitances.Zeptofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Zeptofarad') | zeptofarad, defined as: attofarad × 1.0/1000.0 |
-| [Zettafarad](Capacitances.Zettafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Zettafarad') | zettafarad, defined as: exafarad × 1000.0 |
+| [Femtofarad](Capacitances.Femtofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Femtofarad') | femtofarad defined such that: picofarad = fF × 1.0/1000.0. |
+| [Gigafarad](Capacitances.Gigafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Gigafarad') | gigafarad defined such that: megafarad = GF × 1000.0. |
+| [Hectofarad](Capacitances.Hectofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Hectofarad') | hectofarad defined such that: dekafarad = hF × 10.0. |
+| [Kilofarad](Capacitances.Kilofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Kilofarad') | kilofarad defined such that: hectofarad = kF × 10.0. |
+| [Megafarad](Capacitances.Megafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Megafarad') | megafarad defined such that: kilofarad = MF × 1000.0. |
+| [Microfarad](Capacitances.Microfarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Microfarad') | microfarad defined such that: millifarad = μF × 1.0/1000.0. |
+| [Millifarad](Capacitances.Millifarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Millifarad') | millifarad defined such that: centifarad = mF × 1.0/10.0. |
+| [Nanofarad](Capacitances.Nanofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Nanofarad') | nanofarad defined such that: microfarad = nF × 1.0/1000.0. |
+| [Petafarad](Capacitances.Petafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Petafarad') | petafarad defined such that: terafarad = PF × 1000.0. |
+| [Picofarad](Capacitances.Picofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Picofarad') | picofarad defined such that: nanofarad = pF × 1.0/1000.0. |
+| [Quectofarad](Capacitances.Quectofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Quectofarad') | quectofarad defined such that: rontofarad = qF × 1.0/1000.0. |
+| [Quettafarad](Capacitances.Quettafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Quettafarad') | quettafarad defined such that: ronnafarad = QF × 1000.0. |
+| [Ronnafarad](Capacitances.Ronnafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Ronnafarad') | ronnafarad defined such that: yottafarad = RF × 1000.0. |
+| [Rontofarad](Capacitances.Rontofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Rontofarad') | rontofarad defined such that: yoctofarad = rF × 1.0/1000.0. |
+| [Terafarad](Capacitances.Terafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Terafarad') | terafarad defined such that: gigafarad = TF × 1000.0. |
+| [Yoctofarad](Capacitances.Yoctofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Yoctofarad') | yoctofarad defined such that: zeptofarad = yF × 1.0/1000.0. |
+| [Yottafarad](Capacitances.Yottafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Yottafarad') | yottafarad defined such that: zettafarad = YF × 1000.0. |
+| [Zeptofarad](Capacitances.Zeptofarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Zeptofarad') | zeptofarad defined such that: attofarad = zF × 1.0/1000.0. |
+| [Zettafarad](Capacitances.Zettafarad.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances.Zettafarad') | zettafarad defined such that: exafarad = ZF × 1000.0. |

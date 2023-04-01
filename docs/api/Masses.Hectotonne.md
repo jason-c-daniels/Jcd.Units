@@ -3,7 +3,7 @@
 
 ## Masses.Hectotonne Field
 
-hectotonne, defined as: dekatonne × 10.0
+hectotonne defined such that: dekatonne = ht × 10.0.
 
 ```csharp
 public static readonly Mass Hectotonne;

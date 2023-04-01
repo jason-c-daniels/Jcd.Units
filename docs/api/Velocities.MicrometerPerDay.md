@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerDay Field
 
-micrometer per day, defined as: millimeter per hour × (1.0/1000.0)/(24.0)
+micrometer per day defined such that: millimeter per hour = μm/dy × (1.0/1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity MicrometerPerDay;

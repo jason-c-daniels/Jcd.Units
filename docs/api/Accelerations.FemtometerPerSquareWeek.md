@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareWeek Field
 
-femtometer per square week, defined as: picometer per square day × (1.0/1000.0)/((7.0)*(7.0))
+femtometer per square week defined such that: picometer per square day = fm/wk² × (1.0/1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquareWeek;

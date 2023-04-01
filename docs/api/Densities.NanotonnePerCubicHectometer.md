@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicHectometer Field
 
-nanotonne per cubic hectometer, defined as: microtonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+nanotonne per cubic hectometer defined such that: microtonne per cubic dekameter = nt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density NanotonnePerCubicHectometer;

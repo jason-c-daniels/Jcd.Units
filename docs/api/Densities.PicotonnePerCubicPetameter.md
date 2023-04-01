@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicPetameter Field
 
-picotonne per cubic petameter, defined as: nanotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+picotonne per cubic petameter defined such that: nanotonne per cubic terameter = pt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density PicotonnePerCubicPetameter;

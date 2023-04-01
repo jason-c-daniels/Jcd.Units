@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerSeptillionYears Field
 
-fathom per septillion years, defined as: foot per sextillion years × (6.0)/(1000.0)
+fathom per septillion years defined such that: foot per sextillion years = ftm/Yyr × (6.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FathomPerSeptillionYears;

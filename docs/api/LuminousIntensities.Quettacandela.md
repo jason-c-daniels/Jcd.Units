@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Quettacandela Field
 
-quettacandela, defined as: ronnacandela × 1000.0
+quettacandela defined such that: ronnacandela = Qcd × 1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Quettacandela;

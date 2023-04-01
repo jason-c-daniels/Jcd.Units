@@ -3,7 +3,7 @@
 
 ## Lengths.Millimeter Field
 
-millimeter, defined as: centimeter × 1.0/10.0
+millimeter defined such that: centimeter = mm × 1.0/10.0.
 
 ```csharp
 public static readonly Length Millimeter;

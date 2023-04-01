@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerQuectosecond Field
 
-furlong per quectosecond, defined as: chain per rontosecond × (10.0)/(1.0/1000.0)
+furlong per quectosecond defined such that: chain per rontosecond = fur/qs × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity FurlongPerQuectosecond;

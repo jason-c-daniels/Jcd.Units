@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareYoctosecond Field
 
-foot per square yoctosecond, defined as: inch per square zeptosecond × (12)/((1.0/1000.0)*(1.0/1000.0))
+foot per square yoctosecond defined such that: inch per square zeptosecond = ft/ys² × (12)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration FootPerSquareYoctosecond;

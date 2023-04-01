@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicQuettameter Field
 
-dekagram per cubic quettameter, defined as: hectogram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+dekagram per cubic quettameter defined such that: hectogram per cubic ronnameter = dag/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density DekagramPerCubicQuettameter;

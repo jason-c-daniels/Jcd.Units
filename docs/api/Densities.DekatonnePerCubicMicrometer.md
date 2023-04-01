@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicMicrometer Field
 
-dekatonne per cubic micrometer, defined as: tonne per cubic millimeter × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+dekatonne per cubic micrometer defined such that: tonne per cubic millimeter = dat/μm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density DekatonnePerCubicMicrometer;

@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerPicosecond Field
 
-terameter per picosecond, defined as: gigameter per nanosecond × (1000.0)/(1.0/1000.0)
+terameter per picosecond defined such that: gigameter per nanosecond = Tm/ps × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity TerameterPerPicosecond;

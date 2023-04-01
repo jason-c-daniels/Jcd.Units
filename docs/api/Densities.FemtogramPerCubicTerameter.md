@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicTerameter Field
 
-femtogram per cubic terameter, defined as: picogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+femtogram per cubic terameter defined such that: picogram per cubic gigameter = fg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density FemtogramPerCubicTerameter;

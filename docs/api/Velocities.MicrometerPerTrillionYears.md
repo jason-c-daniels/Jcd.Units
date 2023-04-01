@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerTrillionYears Field
 
-micrometer per trillion years, defined as: millimeter per billion years × (1.0/1000.0)/(1000.0)
+micrometer per trillion years defined such that: millimeter per billion years = μm/Tyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MicrometerPerTrillionYears;

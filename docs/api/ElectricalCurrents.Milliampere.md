@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Milliampere Field
 
-milliampere, defined as: centiampere × 1.0/10.0
+milliampere defined such that: centiampere = mA × 1.0/10.0.
 
 ```csharp
 public static readonly ElectricalCurrent Milliampere;

@@ -3,7 +3,7 @@
 
 ## Energies.Ronnajoule Field
 
-ronnajoule, defined as: yottajoule × 1000.0
+ronnajoule defined such that: yottajoule = RJ × 1000.0.
 
 ```csharp
 public static readonly Energy Ronnajoule;

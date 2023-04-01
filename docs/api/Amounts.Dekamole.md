@@ -3,7 +3,7 @@
 
 ## Amounts.Dekamole Field
 
-dekamole, defined as: mole × 10.0
+dekamole defined such that: mole = damol × 10.0.
 
 ```csharp
 public static readonly Amount Dekamole;

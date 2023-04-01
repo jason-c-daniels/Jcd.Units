@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareTick Field
 
-point per square tick, defined as: inch per square nanosecond × (1.0/72.0)/((100.0)*(100.0))
+point per square tick defined such that: inch per square nanosecond = p/tick² × (1.0/72.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration PointPerSquareTick;

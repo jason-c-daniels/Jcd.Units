@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicKilometer Field
 
-dekatonne per cubic kilometer, defined as: tonne per cubic hectometer × (10.0)/((10.0)*(10.0)*(10.0))
+dekatonne per cubic kilometer defined such that: tonne per cubic hectometer = dat/km³ × (10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density DekatonnePerCubicKilometer;

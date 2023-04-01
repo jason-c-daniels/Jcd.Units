@@ -3,7 +3,7 @@
 
 ## Lengths.LightMinute Field
 
-light-minute, defined as: light-second × 60.0
+light-minute defined such that: light-second = lm × 60.0.
 
 ```csharp
 public static readonly Length LightMinute;

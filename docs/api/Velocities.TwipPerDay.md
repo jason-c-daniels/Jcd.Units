@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerDay Field
 
-twip per day, defined as: foot per hour × (1.0/17280.0)/(24.0)
+twip per day defined such that: foot per hour = twip/dy × (1.0/17280.0)/(24.0).
 
 ```csharp
 public static readonly Velocity TwipPerDay;

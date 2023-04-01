@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicYoctometer Field
 
-hectotonne per cubic yoctometer, defined as: dekatonne per cubic zeptometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+hectotonne per cubic yoctometer defined such that: dekatonne per cubic zeptometer = ht/ym³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density HectotonnePerCubicYoctometer;

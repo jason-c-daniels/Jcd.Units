@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicQuectometer Field
 
-exatonne per cubic quectometer, defined as: petatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+exatonne per cubic quectometer defined such that: petatonne per cubic rontometer = Et/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density ExatonnePerCubicQuectometer;

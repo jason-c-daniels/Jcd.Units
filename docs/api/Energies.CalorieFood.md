@@ -3,7 +3,7 @@
 
 ## Energies.CalorieFood Field
 
-Calorie (Food), defined as: calorie × 1000.0
+Calorie (Food) defined such that: calorie = C × 1000.0.
 
 ```csharp
 public static readonly Energy CalorieFood;

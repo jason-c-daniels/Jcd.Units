@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Zettacoulomb Field
 
-zettacoulomb, defined as: exacoulomb × 1000.0
+zettacoulomb defined such that: exacoulomb = ZC × 1000.0.
 
 ```csharp
 public static readonly ElectricalCharge Zettacoulomb;

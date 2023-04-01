@@ -3,7 +3,7 @@
 
 ## Durations.SextillionYears Field
 
-sextillion years, defined as: quintillion years × 1000.0
+sextillion years defined such that: quintillion years = Zyr × 1000.0.
 
 ```csharp
 public static readonly Duration SextillionYears;

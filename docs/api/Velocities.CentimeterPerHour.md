@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerHour Field
 
-centimeter per hour, defined as: decimeter per minute × (1.0/10.0)/(60.0)
+centimeter per hour defined such that: decimeter per minute = cm/hr × (1.0/10.0)/(60.0).
 
 ```csharp
 public static readonly Velocity CentimeterPerHour;

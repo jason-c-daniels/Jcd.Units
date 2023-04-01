@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerTick Field
 
-planck-length per tick, defined as: SI meter per nanosecond × (1.616255E-35)/(100.0)
+planck-length per tick defined such that: SI meter per nanosecond = ℓₚ/tick × (1.616255E-35)/(100.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerTick;

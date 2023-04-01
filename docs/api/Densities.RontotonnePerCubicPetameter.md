@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicPetameter Field
 
-rontotonne per cubic petameter, defined as: yoctotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+rontotonne per cubic petameter defined such that: yoctotonne per cubic terameter = rt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density RontotonnePerCubicPetameter;

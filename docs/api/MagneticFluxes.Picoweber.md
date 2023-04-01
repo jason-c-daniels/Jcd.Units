@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Picoweber Field
 
-picoweber, defined as: nanoweber × 1.0/1000.0
+picoweber defined such that: nanoweber = pWb × 1.0/1000.0.
 
 ```csharp
 public static readonly MagneticFlux Picoweber;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareZeptosecond Field
 
-micrometer per square zeptosecond, defined as: millimeter per square attosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+micrometer per square zeptosecond defined such that: millimeter per square attosecond = μm/zs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareZeptosecond;

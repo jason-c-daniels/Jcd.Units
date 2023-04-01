@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerTick Field
 
-terameter per tick, defined as: gigameter per nanosecond × (1000.0)/(100.0)
+terameter per tick defined such that: gigameter per nanosecond = Tm/tick × (1000.0)/(100.0).
 
 ```csharp
 public static readonly Velocity TerameterPerTick;

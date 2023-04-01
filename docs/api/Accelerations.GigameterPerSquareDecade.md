@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareDecade Field
 
-gigameter per square decade, defined as: megameter per square year × (1000.0)/((10.0)*(10.0))
+gigameter per square decade defined such that: megameter per square year = Gm/decade² × (1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareDecade;

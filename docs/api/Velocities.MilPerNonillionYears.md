@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerNonillionYears Field
 
-mil per nonillion years, defined as: inch per octillion years × (1.0/1000.0)/(1000.0)
+mil per nonillion years defined such that: inch per octillion years = mil/Qyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MilPerNonillionYears;

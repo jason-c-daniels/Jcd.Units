@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerOctillionYears Field
 
-megameter per octillion years, defined as: kilometer per septillion years × (1000.0)/(1000.0)
+megameter per octillion years defined such that: kilometer per septillion years = Mm/Ryr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MegameterPerOctillionYears;

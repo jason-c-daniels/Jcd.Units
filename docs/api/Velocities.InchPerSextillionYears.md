@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerSextillionYears Field
 
-inch per sextillion years, defined as: SI centimeter per quintillion years × (2.54)/(1000.0)
+inch per sextillion years defined such that: SI centimeter per quintillion years = in/Zyr × (2.54)/(1000.0).
 
 ```csharp
 public static readonly Velocity InchPerSextillionYears;

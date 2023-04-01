@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerDecillionYears Field
 
-league per decillion years, defined as: mile per nonillion years × (3.0)/(1000.0)
+league per decillion years defined such that: mile per nonillion years = lea/decillion yr × (3.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity LeaguePerDecillionYears;

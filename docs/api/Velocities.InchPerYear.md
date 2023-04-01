@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerYear Field
 
-inch per year, defined as: SI centimeter per day × (2.54)/(365.2525)
+inch per year defined such that: SI centimeter per day = in/yr × (2.54)/(365.2525).
 
 ```csharp
 public static readonly Velocity InchPerYear;

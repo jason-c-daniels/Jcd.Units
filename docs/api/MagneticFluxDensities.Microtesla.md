@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Microtesla Field
 
-microtesla, defined as: millitesla × 1.0/1000.0
+microtesla defined such that: millitesla = μT × 1.0/1000.0.
 
 ```csharp
 public static readonly MagneticFluxDensity Microtesla;

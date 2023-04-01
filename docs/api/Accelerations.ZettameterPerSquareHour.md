@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareHour Field
 
-zettameter per square hour, defined as: exameter per square minute × (1000.0)/((60.0)*(60.0))
+zettameter per square hour defined such that: exameter per square minute = Zm/hr² × (1000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquareHour;

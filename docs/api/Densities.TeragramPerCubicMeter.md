@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicMeter Field
 
-teragram per cubic meter, defined as: gigagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+teragram per cubic meter defined such that: gigagram per cubic meter = Tg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density TeragramPerCubicMeter;

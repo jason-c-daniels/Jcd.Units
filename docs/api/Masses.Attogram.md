@@ -3,7 +3,7 @@
 
 ## Masses.Attogram Field
 
-attogram, defined as: femtogram × 1.0/1000.0
+attogram defined such that: femtogram = ag × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Attogram;

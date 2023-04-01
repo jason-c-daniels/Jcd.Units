@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerZeptosecond Field
 
-picometer per zeptosecond, defined as: nanometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+picometer per zeptosecond defined such that: nanometer per attosecond = pm/zs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PicometerPerZeptosecond;

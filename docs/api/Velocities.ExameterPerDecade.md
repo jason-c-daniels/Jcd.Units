@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerDecade Field
 
-exameter per decade, defined as: petameter per year × (1000.0)/(10.0)
+exameter per decade defined such that: petameter per year = Em/decade × (1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity ExameterPerDecade;

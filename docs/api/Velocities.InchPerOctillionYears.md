@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerOctillionYears Field
 
-inch per octillion years, defined as: SI centimeter per septillion years × (2.54)/(1000.0)
+inch per octillion years defined such that: SI centimeter per septillion years = in/Ryr × (2.54)/(1000.0).
 
 ```csharp
 public static readonly Velocity InchPerOctillionYears;

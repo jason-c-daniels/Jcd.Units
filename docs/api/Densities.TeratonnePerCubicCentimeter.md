@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicCentimeter Field
 
-teratonne per cubic centimeter, defined as: gigatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+teratonne per cubic centimeter defined such that: gigatonne per cubic decimeter = Tt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density TeratonnePerCubicCentimeter;

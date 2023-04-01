@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerYear Field
 
-furlong per year, defined as: chain per day × (10.0)/(365.2525)
+furlong per year defined such that: chain per day = fur/yr × (10.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity FurlongPerYear;

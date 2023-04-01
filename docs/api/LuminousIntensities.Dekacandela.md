@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Dekacandela Field
 
-dekacandela, defined as: candela × 10.0
+dekacandela defined such that: candela = dacd × 10.0.
 
 ```csharp
 public static readonly LuminousIntensity Dekacandela;

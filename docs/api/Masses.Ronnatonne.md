@@ -3,7 +3,7 @@
 
 ## Masses.Ronnatonne Field
 
-ronnatonne, defined as: yottatonne × 1000.0
+ronnatonne defined such that: yottatonne = Rt × 1000.0.
 
 ```csharp
 public static readonly Mass Ronnatonne;

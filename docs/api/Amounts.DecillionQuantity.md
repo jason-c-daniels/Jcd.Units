@@ -3,7 +3,7 @@
 
 ## Amounts.DecillionQuantity Field
 
-decillion quantity, defined as: nonillion quantity × 1_000_000.0
+decillion quantity defined such that: nonillion quantity = decillion qty. × 1_000_000.0.
 
 ```csharp
 public static readonly Amount DecillionQuantity;

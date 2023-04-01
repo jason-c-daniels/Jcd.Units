@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicDekameter Field
 
-exatonne per cubic dekameter, defined as: petatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+exatonne per cubic dekameter defined such that: petatonne per cubic meter = Et/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density ExatonnePerCubicDekameter;

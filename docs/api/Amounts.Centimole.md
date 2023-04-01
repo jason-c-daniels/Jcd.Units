@@ -3,7 +3,7 @@
 
 ## Amounts.Centimole Field
 
-centimole, defined as: decimole × 1.0/10.0
+centimole defined such that: decimole = cmol × 1.0/10.0.
 
 ```csharp
 public static readonly Amount Centimole;

@@ -3,7 +3,7 @@
 
 ## Illuminances.Millilux Field
 
-millilux, defined as: centilux × 1.0/10.0
+millilux defined such that: centilux = mlx × 1.0/10.0.
 
 ```csharp
 public static readonly Illuminance Millilux;

@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareTick Field
 
-dekameter per square tick, defined as: meter per square nanosecond × (10.0)/((100.0)*(100.0))
+dekameter per square tick defined such that: meter per square nanosecond = dam/tick² × (10.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareTick;

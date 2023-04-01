@@ -3,7 +3,7 @@
 
 ## Masses.Drachm Field
 
-drachm, defined as: grain × 2711.0/32.0
+drachm defined such that: grain = dr × 2711.0/32.0.
 
 ```csharp
 public static readonly Mass Drachm;

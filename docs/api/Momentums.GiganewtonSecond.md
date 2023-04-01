@@ -3,7 +3,7 @@
 
 ## Momentums.GiganewtonSecond Field
 
-giganewton-second, defined as: meganewton-second × 1000.0
+giganewton-second defined such that: meganewton-second = GN⋅s × 1000.0.
 
 ```csharp
 public static readonly Momentum GiganewtonSecond;

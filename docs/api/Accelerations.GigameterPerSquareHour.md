@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareHour Field
 
-gigameter per square hour, defined as: megameter per square minute × (1000.0)/((60.0)*(60.0))
+gigameter per square hour defined such that: megameter per square minute = Gm/hr² × (1000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareHour;

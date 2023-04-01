@@ -3,7 +3,7 @@
 
 ## Frequencies.Microhertz Field
 
-microhertz, defined as: millihertz × 1.0/1000.0
+microhertz defined such that: millihertz = μHz × 1.0/1000.0.
 
 ```csharp
 public static readonly Frequency Microhertz;

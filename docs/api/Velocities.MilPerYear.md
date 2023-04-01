@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerYear Field
 
-mil per year, defined as: inch per day × (1.0/1000.0)/(365.2525)
+mil per year defined such that: inch per day = mil/yr × (1.0/1000.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity MilPerYear;

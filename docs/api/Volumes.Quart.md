@@ -3,7 +3,7 @@
 
 ## Volumes.Quart Field
 
-quart, defined as: pint × 2.0
+quart defined such that: pint = qt × 2.0.
 
 ```csharp
 public static readonly Volume Quart;

@@ -3,7 +3,7 @@
 
 ## TransferRates.ExabytesPerSecond Field
 
-exabytes per second, defined as: petabytes per second × 1000.0
+exabytes per second defined such that: petabytes per second = EB/s × 1000.0.
 
 ```csharp
 public static readonly TransferRate ExabytesPerSecond;

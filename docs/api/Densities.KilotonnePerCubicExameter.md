@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicExameter Field
 
-kilotonne per cubic exameter, defined as: hectotonne per cubic petameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+kilotonne per cubic exameter defined such that: hectotonne per cubic petameter = kt/Em³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density KilotonnePerCubicExameter;

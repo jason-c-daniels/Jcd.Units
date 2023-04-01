@@ -3,7 +3,7 @@
 
 ## Volumes.CubicEarthDiameter Field
 
-cubic earth diameter, defined as: cubic earth radius × (2.0)*(2.0)*(2.0)
+cubic earth diameter defined such that: cubic earth radius = D(⊕)³ × (2.0)*(2.0)*(2.0).
 
 ```csharp
 public static readonly Volume CubicEarthDiameter;

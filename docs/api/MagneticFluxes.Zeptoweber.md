@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Zeptoweber Field
 
-zeptoweber, defined as: attoweber × 1.0/1000.0
+zeptoweber defined such that: attoweber = zWb × 1.0/1000.0.
 
 ```csharp
 public static readonly MagneticFlux Zeptoweber;

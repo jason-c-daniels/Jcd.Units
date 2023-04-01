@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerQuectosecond Field
 
-nanometer per quectosecond, defined as: micrometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+nanometer per quectosecond defined such that: micrometer per rontosecond = nm/qs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity NanometerPerQuectosecond;

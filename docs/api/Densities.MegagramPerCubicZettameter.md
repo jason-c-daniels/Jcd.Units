@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicZettameter Field
 
-megagram per cubic zettameter, defined as: kilogram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+megagram per cubic zettameter defined such that: kilogram per cubic exameter = Mg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MegagramPerCubicZettameter;

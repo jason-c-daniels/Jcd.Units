@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerMillionYears Field
 
-petameter per million years, defined as: terameter per millennium × (1000.0)/(1000.0)
+petameter per million years defined such that: terameter per millennium = Pm/Myr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PetameterPerMillionYears;

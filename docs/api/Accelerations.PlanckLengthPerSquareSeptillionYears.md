@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareSeptillionYears Field
 
-planck-length per square septillion years, defined as: SI meter per square sextillion years × (1.616255E-35)/((1000.0)*(1000.0))
+planck-length per square septillion years defined such that: SI meter per square sextillion years = ℓₚ/Yyr² × (1.616255E-35)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareSeptillionYears;

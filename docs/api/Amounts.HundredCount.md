@@ -3,7 +3,7 @@
 
 ## Amounts.HundredCount Field
 
-hundred count, defined as: ten count × 10.0
+hundred count defined such that: ten count = hundred ct. × 10.0.
 
 ```csharp
 public static readonly Amount HundredCount;

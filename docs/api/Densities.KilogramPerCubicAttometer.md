@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicAttometer Field
 
-kilogram per cubic attometer, defined as: kilogram per cubic femtometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+kilogram per cubic attometer defined such that: kilogram per cubic femtometer = kg/am³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density KilogramPerCubicAttometer;

@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareCentury Field
 
-quettameter per square century, defined as: ronnameter per square decade × (1000.0)/((10.0)*(10.0))
+quettameter per square century defined such that: ronnameter per square decade = Qm/century² × (1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareCentury;

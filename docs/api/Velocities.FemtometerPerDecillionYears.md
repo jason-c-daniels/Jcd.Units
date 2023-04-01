@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerDecillionYears Field
 
-femtometer per decillion years, defined as: picometer per nonillion years × (1.0/1000.0)/(1000.0)
+femtometer per decillion years defined such that: picometer per nonillion years = fm/decillion yr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerDecillionYears;

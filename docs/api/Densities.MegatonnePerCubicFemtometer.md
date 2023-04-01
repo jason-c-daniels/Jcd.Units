@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicFemtometer Field
 
-megatonne per cubic femtometer, defined as: kilotonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+megatonne per cubic femtometer defined such that: kilotonne per cubic picometer = Mt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MegatonnePerCubicFemtometer;

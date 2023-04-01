@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
 public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
-   /// square planck-length, defined as: SI square meter × (1.616255E-35)*(1.616255E-35)
+   /// square planck-length defined such that: SI square meter = ℓₚ² × (1.616255E-35)*(1.616255E-35).
    /// </summary>
    public static readonly Area SquarePlanckLength = new (
                                                          "square planck-length"

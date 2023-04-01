@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicDecimeter Field
 
-gigatonne per cubic decimeter, defined as: megatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+gigatonne per cubic decimeter defined such that: megatonne per cubic meter = Gt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density GigatonnePerCubicDecimeter;

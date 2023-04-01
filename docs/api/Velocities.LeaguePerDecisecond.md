@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerDecisecond Field
 
-league per decisecond, defined as: mile per second × (3.0)/(1.0/10.0)
+league per decisecond defined such that: mile per second = lea/ds × (3.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity LeaguePerDecisecond;

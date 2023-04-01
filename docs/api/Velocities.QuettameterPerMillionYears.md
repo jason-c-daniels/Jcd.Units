@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerMillionYears Field
 
-quettameter per million years, defined as: ronnameter per millennium × (1000.0)/(1000.0)
+quettameter per million years defined such that: ronnameter per millennium = Qm/Myr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity QuettameterPerMillionYears;

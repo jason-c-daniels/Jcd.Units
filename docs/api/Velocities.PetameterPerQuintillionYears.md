@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerQuintillionYears Field
 
-petameter per quintillion years, defined as: terameter per quadrillion years × (1000.0)/(1000.0)
+petameter per quintillion years defined such that: terameter per quadrillion years = Pm/Eyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PetameterPerQuintillionYears;

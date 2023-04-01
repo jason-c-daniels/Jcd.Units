@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerOctillionYears Field
 
-rod per octillion years, defined as: SI meter per septillion years × (5.0292)/(1000.0)
+rod per octillion years defined such that: SI meter per septillion years = rd/Ryr × (5.0292)/(1000.0).
 
 ```csharp
 public static readonly Velocity RodPerOctillionYears;

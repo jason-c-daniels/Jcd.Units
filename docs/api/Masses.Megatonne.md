@@ -3,7 +3,7 @@
 
 ## Masses.Megatonne Field
 
-megatonne, defined as: kilotonne × 1000.0
+megatonne defined such that: kilotonne = Mt × 1000.0.
 
 ```csharp
 public static readonly Mass Megatonne;

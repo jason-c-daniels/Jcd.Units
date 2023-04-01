@@ -3,7 +3,7 @@
 
 ## Energies.Nanocalorie Field
 
-nanocalorie, defined as: microcalorie × 1.0/1000.0
+nanocalorie defined such that: microcalorie = nc × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Nanocalorie;

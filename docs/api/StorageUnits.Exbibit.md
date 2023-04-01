@@ -3,7 +3,7 @@
 
 ## StorageUnits.Exbibit Field
 
-exbibit, defined as: pebibit × 1024.0
+exbibit defined such that: pebibit = Eib × 1024.0.
 
 ```csharp
 public static readonly Storage Exbibit;

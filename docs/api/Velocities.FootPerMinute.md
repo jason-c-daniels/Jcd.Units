@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerMinute Field
 
-foot per minute, defined as: inch per second × (12)/(60.0)
+foot per minute defined such that: inch per second = ft/min × (12)/(60.0).
 
 ```csharp
 public static readonly Velocity FootPerMinute;

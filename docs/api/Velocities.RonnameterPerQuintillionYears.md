@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerQuintillionYears Field
 
-ronnameter per quintillion years, defined as: yottameter per quadrillion years × (1000.0)/(1000.0)
+ronnameter per quintillion years defined such that: yottameter per quadrillion years = Rm/Eyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity RonnameterPerQuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareTick Field
 
-nanometer per square tick, defined as: micrometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+nanometer per square tick defined such that: micrometer per square nanosecond = nm/tick² × (1.0/1000.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareTick;

@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerPlanckTime Field
 
-megameter per planck-time, defined as: kilometer per microsecond × (1000.0)/(5.391247E-38)
+megameter per planck-time defined such that: kilometer per microsecond = Mm/tₚ × (1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity MegameterPerPlanckTime;

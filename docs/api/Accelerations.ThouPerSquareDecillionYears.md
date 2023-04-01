@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareDecillionYears Field
 
-thou per square decillion years, defined as: foot per square nonillion years × (1.0/12000.0)/((1000.0)*(1000.0))
+thou per square decillion years defined such that: foot per square nonillion years = th/decillion yr² × (1.0/12000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration ThouPerSquareDecillionYears;

@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicDecimeter Field
 
-rontogram per cubic decimeter, defined as: yoctogram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+rontogram per cubic decimeter defined such that: yoctogram per cubic meter = rg/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density RontogramPerCubicDecimeter;

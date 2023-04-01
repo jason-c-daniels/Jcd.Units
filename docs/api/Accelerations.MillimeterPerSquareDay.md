@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareDay Field
 
-millimeter per square day, defined as: centimeter per square hour × (1.0/10.0)/((24.0)*(24.0))
+millimeter per square day defined such that: centimeter per square hour = mm/dy² × (1.0/10.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareDay;

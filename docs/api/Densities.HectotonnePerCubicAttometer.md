@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicAttometer Field
 
-hectotonne per cubic attometer, defined as: dekatonne per cubic femtometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+hectotonne per cubic attometer defined such that: dekatonne per cubic femtometer = ht/am³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density HectotonnePerCubicAttometer;

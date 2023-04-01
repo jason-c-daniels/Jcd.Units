@@ -3,7 +3,7 @@
 
 ## Amounts.Zeptomole Field
 
-zeptomole, defined as: attomole × 1.0/1000.0
+zeptomole defined such that: attomole = zmol × 1.0/1000.0.
 
 ```csharp
 public static readonly Amount Zeptomole;

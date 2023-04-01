@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicMegameter Field
 
-picotonne per cubic megameter, defined as: nanotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+picotonne per cubic megameter defined such that: nanotonne per cubic kilometer = pt/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density PicotonnePerCubicMegameter;

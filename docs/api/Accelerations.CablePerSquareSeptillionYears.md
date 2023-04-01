@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareSeptillionYears Field
 
-cable per square septillion years, defined as: fathom per square sextillion years × (100.0)/((1000.0)*(1000.0))
+cable per square septillion years defined such that: fathom per square sextillion years = cable/Yyr² × (100.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration CablePerSquareSeptillionYears;

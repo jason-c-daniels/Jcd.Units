@@ -3,7 +3,7 @@
 
 ## Masses.Decigram Field
 
-decigram, defined as: gram × 1.0/10.0
+decigram defined such that: gram = dg × 1.0/10.0.
 
 ```csharp
 public static readonly Mass Decigram;

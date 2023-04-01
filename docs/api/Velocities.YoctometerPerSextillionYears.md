@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerSextillionYears Field
 
-yoctometer per sextillion years, defined as: zeptometer per quintillion years × (1.0/1000.0)/(1000.0)
+yoctometer per sextillion years defined such that: zeptometer per quintillion years = ym/Zyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity YoctometerPerSextillionYears;

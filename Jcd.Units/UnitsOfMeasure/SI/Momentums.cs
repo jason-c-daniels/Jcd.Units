@@ -23,7 +23,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
    public static readonly Momentum NewtonSecond = new ("newton-second", "N⋅s", system: "SI");
 
    /// <summary>
-   /// decinewton-second, defined as: newton-second × 1.0/10.0
+   /// decinewton-second defined such that: newton-second = dN⋅s × 1.0/10.0.
    /// </summary>
    public static readonly Momentum DecinewtonSecond = new (
                                                            "decinewton-second"
@@ -34,7 +34,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// centinewton-second, defined as: decinewton-second × 1.0/10.0
+   /// centinewton-second defined such that: decinewton-second = cN⋅s × 1.0/10.0.
    /// </summary>
    public static readonly Momentum CentinewtonSecond = new (
                                                             "centinewton-second"
@@ -45,7 +45,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// millinewton-second, defined as: centinewton-second × 1.0/10.0
+   /// millinewton-second defined such that: centinewton-second = mN⋅s × 1.0/10.0.
    /// </summary>
    public static readonly Momentum MillinewtonSecond = new (
                                                             "millinewton-second"
@@ -56,7 +56,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// micronewton-second, defined as: millinewton-second × 1.0/1000.0
+   /// micronewton-second defined such that: millinewton-second = μN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum MicronewtonSecond = new (
                                                             "micronewton-second"
@@ -67,7 +67,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// nanonewton-second, defined as: micronewton-second × 1.0/1000.0
+   /// nanonewton-second defined such that: micronewton-second = nN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum NanonewtonSecond = new (
                                                            "nanonewton-second"
@@ -78,7 +78,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// piconewton-second, defined as: nanonewton-second × 1.0/1000.0
+   /// piconewton-second defined such that: nanonewton-second = pN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum PiconewtonSecond = new (
                                                            "piconewton-second"
@@ -89,7 +89,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// femtonewton-second, defined as: piconewton-second × 1.0/1000.0
+   /// femtonewton-second defined such that: piconewton-second = fN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum FemtonewtonSecond = new (
                                                             "femtonewton-second"
@@ -100,7 +100,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// attonewton-second, defined as: femtonewton-second × 1.0/1000.0
+   /// attonewton-second defined such that: femtonewton-second = aN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum AttonewtonSecond = new (
                                                            "attonewton-second"
@@ -111,7 +111,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// zeptonewton-second, defined as: attonewton-second × 1.0/1000.0
+   /// zeptonewton-second defined such that: attonewton-second = zN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum ZeptonewtonSecond = new (
                                                             "zeptonewton-second"
@@ -122,7 +122,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// yoctonewton-second, defined as: zeptonewton-second × 1.0/1000.0
+   /// yoctonewton-second defined such that: zeptonewton-second = yN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum YoctonewtonSecond = new (
                                                             "yoctonewton-second"
@@ -133,7 +133,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// rontonewton-second, defined as: yoctonewton-second × 1.0/1000.0
+   /// rontonewton-second defined such that: yoctonewton-second = rN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum RontonewtonSecond = new (
                                                             "rontonewton-second"
@@ -144,7 +144,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// quectonewton-second, defined as: rontonewton-second × 1.0/1000.0
+   /// quectonewton-second defined such that: rontonewton-second = qN⋅s × 1.0/1000.0.
    /// </summary>
    public static readonly Momentum QuectonewtonSecond = new (
                                                              "quectonewton-second"
@@ -155,7 +155,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                             );
 
    /// <summary>
-   /// dekanewton-second, defined as: newton-second × 10.0
+   /// dekanewton-second defined such that: newton-second = daN⋅s × 10.0.
    /// </summary>
    public static readonly Momentum DekanewtonSecond = new (
                                                            "dekanewton-second"
@@ -166,7 +166,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// hectonewton-second, defined as: dekanewton-second × 10.0
+   /// hectonewton-second defined such that: dekanewton-second = hN⋅s × 10.0.
    /// </summary>
    public static readonly Momentum HectonewtonSecond = new (
                                                             "hectonewton-second"
@@ -177,7 +177,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// kilonewton-second, defined as: hectonewton-second × 10.0
+   /// kilonewton-second defined such that: hectonewton-second = kN⋅s × 10.0.
    /// </summary>
    public static readonly Momentum KilonewtonSecond = new (
                                                            "kilonewton-second"
@@ -188,7 +188,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// meganewton-second, defined as: kilonewton-second × 1000.0
+   /// meganewton-second defined such that: kilonewton-second = MN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum MeganewtonSecond = new (
                                                            "meganewton-second"
@@ -199,7 +199,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// giganewton-second, defined as: meganewton-second × 1000.0
+   /// giganewton-second defined such that: meganewton-second = GN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum GiganewtonSecond = new (
                                                            "giganewton-second"
@@ -210,7 +210,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// teranewton-second, defined as: giganewton-second × 1000.0
+   /// teranewton-second defined such that: giganewton-second = TN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum TeranewtonSecond = new (
                                                            "teranewton-second"
@@ -221,7 +221,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// petanewton-second, defined as: teranewton-second × 1000.0
+   /// petanewton-second defined such that: teranewton-second = PN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum PetanewtonSecond = new (
                                                            "petanewton-second"
@@ -232,7 +232,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                           );
 
    /// <summary>
-   /// exanewton-second, defined as: petanewton-second × 1000.0
+   /// exanewton-second defined such that: petanewton-second = EN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum ExanewtonSecond = new (
                                                           "exanewton-second"
@@ -243,7 +243,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                          );
 
    /// <summary>
-   /// zettanewton-second, defined as: exanewton-second × 1000.0
+   /// zettanewton-second defined such that: exanewton-second = ZN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum ZettanewtonSecond = new (
                                                             "zettanewton-second"
@@ -254,7 +254,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// yottanewton-second, defined as: zettanewton-second × 1000.0
+   /// yottanewton-second defined such that: zettanewton-second = YN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum YottanewtonSecond = new (
                                                             "yottanewton-second"
@@ -265,7 +265,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// ronnanewton-second, defined as: yottanewton-second × 1000.0
+   /// ronnanewton-second defined such that: yottanewton-second = RN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum RonnanewtonSecond = new (
                                                             "ronnanewton-second"
@@ -276,7 +276,7 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
                                                            );
 
    /// <summary>
-   /// quettanewton-second, defined as: ronnanewton-second × 1000.0
+   /// quettanewton-second defined such that: ronnanewton-second = QN⋅s × 1000.0.
    /// </summary>
    public static readonly Momentum QuettanewtonSecond = new (
                                                              "quettanewton-second"

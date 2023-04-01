@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerRontosecond Field
 
-pica per rontosecond, defined as: point per yoctosecond × (12.0)/(1.0/1000.0)
+pica per rontosecond defined such that: point per yoctosecond = P/rs × (12.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PicaPerRontosecond;

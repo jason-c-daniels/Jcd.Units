@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLightDay Field
 
-cubic light-day, defined as: cubic light-hour × (24.0)*(24.0)*(24.0)
+cubic light-day defined such that: cubic light-hour = ld³ × (24.0)*(24.0)*(24.0).
 
 ```csharp
 public static readonly Volume CubicLightDay;

@@ -3,7 +3,7 @@
 
 ## Volumes.Megaliter Field
 
-megaliter, defined as: kiloliter × 1000.0
+megaliter defined such that: kiloliter = ML × 1000.0.
 
 ```csharp
 public static readonly Volume Megaliter;

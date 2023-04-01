@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicAttometer Field
 
-femtogram per cubic attometer, defined as: picogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+femtogram per cubic attometer defined such that: picogram per cubic femtometer = fg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density FemtogramPerCubicAttometer;

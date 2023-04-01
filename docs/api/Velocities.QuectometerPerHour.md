@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerHour Field
 
-quectometer per hour, defined as: rontometer per minute × (1.0/1000.0)/(60.0)
+quectometer per hour defined such that: rontometer per minute = qm/hr × (1.0/1000.0)/(60.0).
 
 ```csharp
 public static readonly Velocity QuectometerPerHour;

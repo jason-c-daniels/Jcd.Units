@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerTrillionYears Field
 
-attometer per trillion years, defined as: femtometer per billion years × (1.0/1000.0)/(1000.0)
+attometer per trillion years defined such that: femtometer per billion years = am/Tyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity AttometerPerTrillionYears;

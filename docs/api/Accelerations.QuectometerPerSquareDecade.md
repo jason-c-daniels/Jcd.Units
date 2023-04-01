@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareDecade Field
 
-quectometer per square decade, defined as: rontometer per square year × (1.0/1000.0)/((10.0)*(10.0))
+quectometer per square decade defined such that: rontometer per square year = qm/decade² × (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareDecade;

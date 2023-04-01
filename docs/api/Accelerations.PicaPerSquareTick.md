@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareTick Field
 
-pica per square tick, defined as: point per square nanosecond × (12.0)/((100.0)*(100.0))
+pica per square tick defined such that: point per square nanosecond = P/tick² × (12.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration PicaPerSquareTick;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Exasiemens Field
 
-exasiemens, defined as: petasiemens × 1000.0
+exasiemens defined such that: petasiemens = ES × 1000.0.
 
 ```csharp
 public static readonly ElectricalConductance Exasiemens;

@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
 public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
-   /// cubic planck-length, defined as: SI cubic meter × (1.616255E-35)*(1.616255E-35)*(1.616255E-35)
+   /// cubic planck-length defined such that: SI cubic meter = ℓₚ³ × (1.616255E-35)*(1.616255E-35)*(1.616255E-35).
    /// </summary>
    public static readonly Volume CubicPlanckLength = new (
                                                           "cubic planck-length"

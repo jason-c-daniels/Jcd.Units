@@ -3,7 +3,7 @@
 
 ## Energies.Petacalorie Field
 
-petacalorie, defined as: teracalorie × 1000.0
+petacalorie defined such that: teracalorie = Pc × 1000.0.
 
 ```csharp
 public static readonly Energy Petacalorie;

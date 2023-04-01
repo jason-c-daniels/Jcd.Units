@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Megakatal Field
 
-megakatal, defined as: kilokatal × 1000.0
+megakatal defined such that: kilokatal = Mkat × 1000.0.
 
 ```csharp
 public static readonly CatalyticActivity Megakatal;

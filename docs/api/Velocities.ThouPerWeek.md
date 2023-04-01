@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerWeek Field
 
-thou per week, defined as: foot per day × (1.0/12000.0)/(7.0)
+thou per week defined such that: foot per day = th/wk × (1.0/12000.0)/(7.0).
 
 ```csharp
 public static readonly Velocity ThouPerWeek;

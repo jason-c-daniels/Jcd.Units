@@ -3,7 +3,7 @@
 
 ## Densities.RonnatonnePerCubicAttometer Field
 
-ronnatonne per cubic attometer, defined as: yottatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+ronnatonne per cubic attometer defined such that: yottatonne per cubic femtometer = Rt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density RonnatonnePerCubicAttometer;

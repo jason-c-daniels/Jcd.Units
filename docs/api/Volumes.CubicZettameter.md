@@ -3,7 +3,7 @@
 
 ## Volumes.CubicZettameter Field
 
-cubic zettameter, defined as: cubic exameter × (1000.0)*(1000.0)*(1000.0)
+cubic zettameter defined such that: cubic exameter = Zm³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicZettameter;

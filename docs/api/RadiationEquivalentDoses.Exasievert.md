@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Exasievert Field
 
-exasievert, defined as: petasievert × 1000.0
+exasievert defined such that: petasievert = Esv × 1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Exasievert;

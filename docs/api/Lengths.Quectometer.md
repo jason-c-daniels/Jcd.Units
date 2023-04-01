@@ -3,7 +3,7 @@
 
 ## Lengths.Quectometer Field
 
-quectometer, defined as: rontometer × 1.0/1000.0
+quectometer defined such that: rontometer = qm × 1.0/1000.0.
 
 ```csharp
 public static readonly Length Quectometer;

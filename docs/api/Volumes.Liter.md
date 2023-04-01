@@ -3,7 +3,7 @@
 
 ## Volumes.Liter Field
 
-liter, a synonym for cubic decimeter
+liter is a synonym for cubic decimeter
 
 ```csharp
 public static readonly Volume Liter;

@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesRéaumur Field
 
-degrees réaumur, defined as: SI degrees celcius × 5.0/4.0
+degrees réaumur defined such that: SI degrees celcius = °Ré × 5.0/4.0.
 
 ```csharp
 public static readonly Temperature DegreesRéaumur;

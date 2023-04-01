@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicMillimeter Field
 
-gigagram per cubic millimeter, defined as: megagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+gigagram per cubic millimeter defined such that: megagram per cubic centimeter = Gg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density GigagramPerCubicMillimeter;

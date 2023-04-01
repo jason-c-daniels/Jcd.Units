@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicKilometer Field
 
-zettatonne per cubic kilometer, defined as: exatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+zettatonne per cubic kilometer defined such that: exatonne per cubic hectometer = Zt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density ZettatonnePerCubicKilometer;

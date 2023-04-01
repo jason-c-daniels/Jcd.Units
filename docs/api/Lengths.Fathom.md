@@ -3,7 +3,7 @@
 
 ## Lengths.Fathom Field
 
-fathom, defined as: foot × 6.0
+fathom defined such that: foot = ftm × 6.0.
 
 ```csharp
 public static readonly Length Fathom;

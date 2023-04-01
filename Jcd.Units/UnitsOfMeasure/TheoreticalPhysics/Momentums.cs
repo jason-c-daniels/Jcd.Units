@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
 public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
 {
    /// <summary>
-   /// planck-momentum, defined as: SI newton-second × 6.5249
+   /// planck-momentum defined such that: SI newton-second = mₚc × 6.5249.
    /// </summary>
    public static readonly Momentum PlanckMomentum = new (
                                                          "planck-momentum"

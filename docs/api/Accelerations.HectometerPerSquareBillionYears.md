@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareBillionYears Field
 
-hectometer per square billion years, defined as: dekameter per square million years × (10.0)/((1000.0)*(1000.0))
+hectometer per square billion years defined such that: dekameter per square million years = hm/Gyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareBillionYears;

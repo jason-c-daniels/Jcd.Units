@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareDay Field
 
-zeptometer per square day, defined as: attometer per square hour × (1.0/1000.0)/((24.0)*(24.0))
+zeptometer per square day defined such that: attometer per square hour = zm/dy² × (1.0/1000.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquareDay;

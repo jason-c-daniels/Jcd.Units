@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesDelisle Field
 
-degrees delisle, defined as: (SI degrees celcius + -150) × -2d/3d.
+degrees delisle defined such that: SI degrees celcius = (°De + -150) × -2.0/3.0.
 
 ```csharp
 public static readonly Temperature DegreesDelisle;

@@ -3,7 +3,7 @@
 
 ## Resistances.Femtoohm Field
 
-femtoohm, defined as: picoohm × 1.0/1000.0
+femtoohm defined such that: picoohm = fΩ × 1.0/1000.0.
 
 ```csharp
 public static readonly Resistance Femtoohm;

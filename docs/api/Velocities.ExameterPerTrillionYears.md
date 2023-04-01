@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerTrillionYears Field
 
-exameter per trillion years, defined as: petameter per billion years × (1000.0)/(1000.0)
+exameter per trillion years defined such that: petameter per billion years = Em/Tyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ExameterPerTrillionYears;

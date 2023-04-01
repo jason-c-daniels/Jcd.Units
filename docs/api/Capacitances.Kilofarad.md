@@ -3,7 +3,7 @@
 
 ## Capacitances.Kilofarad Field
 
-kilofarad, defined as: hectofarad × 10.0
+kilofarad defined such that: hectofarad = kF × 10.0.
 
 ```csharp
 public static readonly Capacitance Kilofarad;

@@ -3,7 +3,7 @@
 
 ## Inductances.Zettahenry Field
 
-zettahenry, defined as: exahenry × 1000.0
+zettahenry defined such that: exahenry = ZH × 1000.0.
 
 ```csharp
 public static readonly Inductance Zettahenry;

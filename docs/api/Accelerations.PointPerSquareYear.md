@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareYear Field
 
-point per square year, defined as: inch per square day × (1.0/72.0)/((365.2525)*(365.2525))
+point per square year defined such that: inch per square day = p/yr² × (1.0/72.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration PointPerSquareYear;

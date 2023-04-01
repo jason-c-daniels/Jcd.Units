@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareDecade Field
 
-millimeter per square decade, defined as: centimeter per square year × (1.0/10.0)/((10.0)*(10.0))
+millimeter per square decade defined such that: centimeter per square year = mm/decade² × (1.0/10.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareDecade;

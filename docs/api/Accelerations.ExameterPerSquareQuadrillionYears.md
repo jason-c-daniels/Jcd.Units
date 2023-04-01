@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareQuadrillionYears Field
 
-exameter per square quadrillion years, defined as: petameter per square trillion years × (1000.0)/((1000.0)*(1000.0))
+exameter per square quadrillion years defined such that: petameter per square trillion years = Em/Pyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareQuadrillionYears;

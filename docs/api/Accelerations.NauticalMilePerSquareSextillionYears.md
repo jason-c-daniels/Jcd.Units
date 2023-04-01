@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareSextillionYears Field
 
-nautical mile per square sextillion years, defined as: cable per square quintillion years × (10.0)/((1000.0)*(1000.0))
+nautical mile per square sextillion years defined such that: cable per square quintillion years = nmi/Zyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareSextillionYears;

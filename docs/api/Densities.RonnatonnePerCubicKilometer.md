@@ -3,7 +3,7 @@
 
 ## Densities.RonnatonnePerCubicKilometer Field
 
-ronnatonne per cubic kilometer, defined as: yottatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+ronnatonne per cubic kilometer defined such that: yottatonne per cubic hectometer = Rt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density RonnatonnePerCubicKilometer;

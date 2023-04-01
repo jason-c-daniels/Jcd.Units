@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicFemtometer Field
 
-metric ton per cubic femtometer, defined as: megagram per cubic picometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+metric ton per cubic femtometer defined such that: megagram per cubic picometer = mt/fm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MetricTonPerCubicFemtometer;

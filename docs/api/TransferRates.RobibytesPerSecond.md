@@ -3,7 +3,7 @@
 
 ## TransferRates.RobibytesPerSecond Field
 
-robibytes per second, defined as: yobibytes per second × 1024.0
+robibytes per second defined such that: yobibytes per second = RiB/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate RobibytesPerSecond;

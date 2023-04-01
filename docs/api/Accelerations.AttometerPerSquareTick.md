@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareTick Field
 
-attometer per square tick, defined as: femtometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+attometer per square tick defined such that: femtometer per square nanosecond = am/tick² × (1.0/1000.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareTick;

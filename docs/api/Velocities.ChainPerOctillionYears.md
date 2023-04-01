@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerOctillionYears Field
 
-chain per octillion years, defined as: yard per septillion years × (22.0)/(1000.0)
+chain per octillion years defined such that: yard per septillion years = ch/Ryr × (22.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ChainPerOctillionYears;

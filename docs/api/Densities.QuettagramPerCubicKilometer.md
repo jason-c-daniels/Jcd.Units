@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicKilometer Field
 
-quettagram per cubic kilometer, defined as: ronnagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+quettagram per cubic kilometer defined such that: ronnagram per cubic hectometer = Qg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density QuettagramPerCubicKilometer;

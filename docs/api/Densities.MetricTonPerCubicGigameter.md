@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicGigameter Field
 
-metric ton per cubic gigameter, defined as: megagram per cubic megameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+metric ton per cubic gigameter defined such that: megagram per cubic megameter = mt/Gm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MetricTonPerCubicGigameter;

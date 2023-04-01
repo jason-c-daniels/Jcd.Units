@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerSextillionYears Field
 
-meter per sextillion years, defined as: meter per quintillion years × (1.0)/(1000.0)
+meter per sextillion years defined such that: meter per quintillion years = m/Zyr × (1.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MeterPerSextillionYears;

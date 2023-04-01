@@ -3,7 +3,7 @@
 
 ## Amounts.Count Field
 
-count, a synonym for  count
+count is a synonym for  count
 
 ```csharp
 public static readonly Amount Count;

@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerZeptosecond Field
 
-planck-length per zeptosecond, defined as: SI meter per attosecond × (1.616255E-35)/(1.0/1000.0)
+planck-length per zeptosecond defined such that: SI meter per attosecond = ℓₚ/zs × (1.616255E-35)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerZeptosecond;

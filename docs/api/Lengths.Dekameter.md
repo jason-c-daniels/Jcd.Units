@@ -3,7 +3,7 @@
 
 ## Lengths.Dekameter Field
 
-dekameter, defined as: meter × 10.0
+dekameter defined such that: meter = dam × 10.0.
 
 ```csharp
 public static readonly Length Dekameter;

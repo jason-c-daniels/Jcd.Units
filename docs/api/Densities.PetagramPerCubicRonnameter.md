@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicRonnameter Field
 
-petagram per cubic ronnameter, defined as: teragram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+petagram per cubic ronnameter defined such that: teragram per cubic yottameter = Pg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density PetagramPerCubicRonnameter;

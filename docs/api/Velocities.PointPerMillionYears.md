@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerMillionYears Field
 
-point per million years, defined as: inch per millennium × (1.0/72.0)/(1000.0)
+point per million years defined such that: inch per millennium = p/Myr × (1.0/72.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PointPerMillionYears;

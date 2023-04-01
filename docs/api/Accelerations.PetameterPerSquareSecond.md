@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareSecond Field
 
-petameter per square second, defined as: terameter per square second × (1000.0)/((1.0)*(1.0))
+petameter per square second defined such that: terameter per square second = Pm/s² × (1000.0)/((1.0)*(1.0)).
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareSecond;

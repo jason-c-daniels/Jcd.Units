@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerDecisecond Field
 
-link per decisecond, defined as: SI meter per second × (0.20116)/(1.0/10.0)
+link per decisecond defined such that: SI meter per second = li/ds × (0.20116)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity LinkPerDecisecond;

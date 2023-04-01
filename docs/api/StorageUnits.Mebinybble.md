@@ -3,7 +3,7 @@
 
 ## StorageUnits.Mebinybble Field
 
-mebinybble, defined as: kebinybble × 1024.0
+mebinybble defined such that: kebinybble = Min × 1024.0.
 
 ```csharp
 public static readonly Storage Mebinybble;

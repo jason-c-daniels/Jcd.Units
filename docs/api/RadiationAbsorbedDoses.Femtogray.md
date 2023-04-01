@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Femtogray Field
 
-femtogray, defined as: picogray × 1.0/1000.0
+femtogray defined such that: picogray = fGy × 1.0/1000.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Femtogray;

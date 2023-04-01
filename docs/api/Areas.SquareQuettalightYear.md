@@ -3,7 +3,7 @@
 
 ## Areas.SquareQuettalightYear Field
 
-square quettalight-year, defined as: square ronnalight-year × (1000.0)*(1000.0)
+square quettalight-year defined such that: square ronnalight-year = Qly² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareQuettalightYear;

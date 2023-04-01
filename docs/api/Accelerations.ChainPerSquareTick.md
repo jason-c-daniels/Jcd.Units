@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareTick Field
 
-chain per square tick, defined as: yard per square nanosecond × (22.0)/((100.0)*(100.0))
+chain per square tick defined such that: yard per square nanosecond = ch/tick² × (22.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration ChainPerSquareTick;

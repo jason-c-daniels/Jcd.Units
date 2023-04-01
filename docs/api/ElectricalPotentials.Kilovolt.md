@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Kilovolt Field
 
-kilovolt, defined as: hectovolt × 10.0
+kilovolt defined such that: hectovolt = kV × 10.0.
 
 ```csharp
 public static readonly ElectricalPotential Kilovolt;

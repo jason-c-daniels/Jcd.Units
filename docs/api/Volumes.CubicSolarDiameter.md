@@ -3,7 +3,7 @@
 
 ## Volumes.CubicSolarDiameter Field
 
-cubic solar diameter, defined as: cubic solar radius × (2.0)*(2.0)*(2.0)
+cubic solar diameter defined such that: cubic solar radius = D(☉)³ × (2.0)*(2.0)*(2.0).
 
 ```csharp
 public static readonly Volume CubicSolarDiameter;

@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerQuadrillionYears Field
 
-cable per quadrillion years, defined as: fathom per trillion years × (100.0)/(1000.0)
+cable per quadrillion years defined such that: fathom per trillion years = cable/Pyr × (100.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity CablePerQuadrillionYears;

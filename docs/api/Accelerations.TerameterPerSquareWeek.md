@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareWeek Field
 
-terameter per square week, defined as: gigameter per square day × (1000.0)/((7.0)*(7.0))
+terameter per square week defined such that: gigameter per square day = Tm/wk² × (1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareWeek;

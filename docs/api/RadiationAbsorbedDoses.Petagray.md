@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Petagray Field
 
-petagray, defined as: teragray × 1000.0
+petagray defined such that: teragray = PGy × 1000.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Petagray;

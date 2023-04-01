@@ -3,7 +3,7 @@
 
 ## Frequencies.Quettahertz Field
 
-quettahertz, defined as: ronnahertz × 1000.0
+quettahertz defined such that: ronnahertz = QHz × 1000.0.
 
 ```csharp
 public static readonly Frequency Quettahertz;

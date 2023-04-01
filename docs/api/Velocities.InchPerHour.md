@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerHour Field
 
-inch per hour, defined as: SI centimeter per minute × (2.54)/(60.0)
+inch per hour defined such that: SI centimeter per minute = in/hr × (2.54)/(60.0).
 
 ```csharp
 public static readonly Velocity InchPerHour;

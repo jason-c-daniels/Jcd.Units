@@ -3,7 +3,7 @@
 
 ## Masses.JovianMass Field
 
-jovian mass, defined as: SI kilogram × 1.89813E+27
+jovian mass defined such that: SI kilogram = M(J) × 1.89813E+27.
 
 ```csharp
 public static readonly Mass JovianMass;

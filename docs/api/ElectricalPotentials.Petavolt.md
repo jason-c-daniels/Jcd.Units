@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Petavolt Field
 
-petavolt, defined as: teravolt × 1000.0
+petavolt defined such that: teravolt = PV × 1000.0.
 
 ```csharp
 public static readonly ElectricalPotential Petavolt;

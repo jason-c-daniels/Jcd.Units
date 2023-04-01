@@ -3,7 +3,7 @@
 
 ## StorageUnits.Megabyte Field
 
-megabyte, defined as: kilobyte × 1000.0
+megabyte defined such that: kilobyte = MB × 1000.0.
 
 ```csharp
 public static readonly Storage Megabyte;

@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerFemtosecond Field
 
-hand per femtosecond, defined as: inch per picosecond × (4.0)/(1.0/1000.0)
+hand per femtosecond defined such that: inch per picosecond = hh/fs × (4.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity HandPerFemtosecond;

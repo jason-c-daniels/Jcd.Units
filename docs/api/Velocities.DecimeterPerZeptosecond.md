@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerZeptosecond Field
 
-decimeter per zeptosecond, defined as: meter per attosecond × (1.0/10.0)/(1.0/1000.0)
+decimeter per zeptosecond defined such that: meter per attosecond = dm/zs × (1.0/10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity DecimeterPerZeptosecond;

@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicQuettameter Field
 
-centigram per cubic quettameter, defined as: decigram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+centigram per cubic quettameter defined such that: decigram per cubic ronnameter = cg/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density CentigramPerCubicQuettameter;

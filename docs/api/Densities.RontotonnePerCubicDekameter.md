@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicDekameter Field
 
-rontotonne per cubic dekameter, defined as: yoctotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+rontotonne per cubic dekameter defined such that: yoctotonne per cubic meter = rt/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density RontotonnePerCubicDekameter;

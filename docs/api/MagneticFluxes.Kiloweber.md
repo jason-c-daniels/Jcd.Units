@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Kiloweber Field
 
-kiloweber, defined as: hectoweber × 10.0
+kiloweber defined such that: hectoweber = kWb × 10.0.
 
 ```csharp
 public static readonly MagneticFlux Kiloweber;

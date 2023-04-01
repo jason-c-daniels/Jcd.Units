@@ -3,7 +3,7 @@
 
 ## TransferRates.MebinybblesPerSecond Field
 
-mebinybbles per second, defined as: kebinybbles per second × 1024.0
+mebinybbles per second defined such that: kebinybbles per second = Min/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate MebinybblesPerSecond;

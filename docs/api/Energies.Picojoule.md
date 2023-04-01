@@ -3,7 +3,7 @@
 
 ## Energies.Picojoule Field
 
-picojoule, defined as: nanojoule × 1.0/1000.0
+picojoule defined such that: nanojoule = pJ × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Picojoule;

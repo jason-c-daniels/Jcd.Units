@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Femtoweber Field
 
-femtoweber, defined as: picoweber × 1.0/1000.0
+femtoweber defined such that: picoweber = fWb × 1.0/1000.0.
 
 ```csharp
 public static readonly MagneticFlux Femtoweber;

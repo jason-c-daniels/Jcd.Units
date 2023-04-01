@@ -3,7 +3,7 @@
 
 ## Volumes.Yottaliter Field
 
-yottaliter, defined as: zettaliter × 1000.0
+yottaliter defined such that: zettaliter = YL × 1000.0.
 
 ```csharp
 public static readonly Volume Yottaliter;

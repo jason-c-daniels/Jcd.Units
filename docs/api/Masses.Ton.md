@@ -3,7 +3,7 @@
 
 ## Masses.Ton Field
 
-ton, defined as: hundredweight × 20.0
+ton defined such that: hundredweight = t × 20.0.
 
 ```csharp
 public static readonly Mass Ton;

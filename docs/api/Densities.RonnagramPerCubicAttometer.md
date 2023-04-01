@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicAttometer Field
 
-ronnagram per cubic attometer, defined as: yottagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+ronnagram per cubic attometer defined such that: yottagram per cubic femtometer = Rg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density RonnagramPerCubicAttometer;

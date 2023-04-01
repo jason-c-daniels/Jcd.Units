@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareYoctosecond Field
 
-furlong per square yoctosecond, defined as: chain per square zeptosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
+furlong per square yoctosecond defined such that: chain per square zeptosecond = fur/ys² × (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareYoctosecond;

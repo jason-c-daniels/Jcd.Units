@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareMinute Field
 
-link per square minute, defined as: SI meter per square second × (0.20116)/((60.0)*(60.0))
+link per square minute defined such that: SI meter per square second = li/min² × (0.20116)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration LinkPerSquareMinute;

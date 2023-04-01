@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicTerameter Field
 
-rontogram per cubic terameter, defined as: yoctogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+rontogram per cubic terameter defined such that: yoctogram per cubic gigameter = rg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density RontogramPerCubicTerameter;

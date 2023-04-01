@@ -3,7 +3,7 @@
 
 ## Energies.Femtojoule Field
 
-femtojoule, defined as: picojoule × 1.0/1000.0
+femtojoule defined such that: picojoule = fJ × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Femtojoule;

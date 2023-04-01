@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicExameter Field
 
-metric ton per cubic exameter, defined as: megagram per cubic petameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+metric ton per cubic exameter defined such that: megagram per cubic petameter = mt/Em³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MetricTonPerCubicExameter;

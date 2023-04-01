@@ -3,7 +3,7 @@
 
 ## Lengths.Teraparsec Field
 
-teraparsec, defined as: gigaparsec × 1000.0
+teraparsec defined such that: gigaparsec = Tpc × 1000.0.
 
 ```csharp
 public static readonly Length Teraparsec;

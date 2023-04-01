@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicHectometer Field
 
-yottatonne per cubic hectometer, defined as: zettatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+yottatonne per cubic hectometer defined such that: zettatonne per cubic dekameter = Yt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density YottatonnePerCubicHectometer;

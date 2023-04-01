@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerRontosecond Field
 
-thou per rontosecond, defined as: foot per yoctosecond × (1.0/12000.0)/(1.0/1000.0)
+thou per rontosecond defined such that: foot per yoctosecond = th/rs × (1.0/12000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ThouPerRontosecond;

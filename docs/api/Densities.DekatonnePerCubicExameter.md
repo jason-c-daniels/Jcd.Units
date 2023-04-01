@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicExameter Field
 
-dekatonne per cubic exameter, defined as: tonne per cubic petameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+dekatonne per cubic exameter defined such that: tonne per cubic petameter = dat/Em³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density DekatonnePerCubicExameter;

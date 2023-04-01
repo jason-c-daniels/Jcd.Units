@@ -3,7 +3,7 @@
 
 ## Energies.Yoctocalorie Field
 
-yoctocalorie, defined as: zeptocalorie × 1.0/1000.0
+yoctocalorie defined such that: zeptocalorie = yc × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Yoctocalorie;

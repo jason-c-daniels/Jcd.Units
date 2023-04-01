@@ -3,7 +3,7 @@
 
 ## Areas.SquareMil Field
 
-square mil, defined as: square inch × (1.0/1000.0)*(1.0/1000.0)
+square mil defined such that: square inch = mil² × (1.0/1000.0)*(1.0/1000.0).
 
 ```csharp
 public static readonly Area SquareMil;

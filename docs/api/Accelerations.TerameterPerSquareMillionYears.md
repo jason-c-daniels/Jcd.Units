@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareMillionYears Field
 
-terameter per square million years, defined as: gigameter per square millennium × (1000.0)/((1000.0)*(1000.0))
+terameter per square million years defined such that: gigameter per square millennium = Tm/Myr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareMillionYears;

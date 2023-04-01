@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerSeptillionYears Field
 
-furlong per septillion years, defined as: chain per sextillion years × (10.0)/(1000.0)
+furlong per septillion years defined such that: chain per sextillion years = fur/Yyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FurlongPerSeptillionYears;

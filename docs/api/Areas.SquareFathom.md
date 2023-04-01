@@ -3,7 +3,7 @@
 
 ## Areas.SquareFathom Field
 
-square fathom, defined as: square foot × (6.0)*(6.0)
+square fathom defined such that: square foot = ftm² × (6.0)*(6.0).
 
 ```csharp
 public static readonly Area SquareFathom;

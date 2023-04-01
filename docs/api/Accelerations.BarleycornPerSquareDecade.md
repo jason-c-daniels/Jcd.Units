@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareDecade Field
 
-barleycorn per square decade, defined as: foot per square year × (1.0/36.0)/((10.0)*(10.0))
+barleycorn per square decade defined such that: foot per square year = barleycorn/decade² × (1.0/36.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareDecade;

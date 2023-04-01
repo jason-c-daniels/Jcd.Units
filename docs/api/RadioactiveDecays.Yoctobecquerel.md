@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Yoctobecquerel Field
 
-yoctobecquerel, defined as: zeptobecquerel × 1.0/1000.0
+yoctobecquerel defined such that: zeptobecquerel = yBq × 1.0/1000.0.
 
 ```csharp
 public static readonly RadioactiveDecay Yoctobecquerel;

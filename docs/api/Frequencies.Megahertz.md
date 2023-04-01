@@ -3,7 +3,7 @@
 
 ## Frequencies.Megahertz Field
 
-megahertz, defined as: kilohertz × 1000.0
+megahertz defined such that: kilohertz = MHz × 1000.0.
 
 ```csharp
 public static readonly Frequency Megahertz;

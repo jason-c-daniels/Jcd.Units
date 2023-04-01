@@ -3,7 +3,7 @@
 
 ## Illuminances.Picolux Field
 
-picolux, defined as: nanolux × 1.0/1000.0
+picolux defined such that: nanolux = plx × 1.0/1000.0.
 
 ```csharp
 public static readonly Illuminance Picolux;

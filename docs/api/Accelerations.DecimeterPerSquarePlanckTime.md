@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquarePlanckTime Field
 
-decimeter per square planck-time, defined as: meter per square microsecond × (1.0/10.0)/((5.391247E-38)*(5.391247E-38))
+decimeter per square planck-time defined such that: meter per square microsecond = dm/tₚ² × (1.0/10.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquarePlanckTime;

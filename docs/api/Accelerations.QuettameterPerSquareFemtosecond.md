@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareFemtosecond Field
 
-quettameter per square femtosecond, defined as: ronnameter per square picosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
+quettameter per square femtosecond defined such that: ronnameter per square picosecond = Qm/fs² × (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareFemtosecond;

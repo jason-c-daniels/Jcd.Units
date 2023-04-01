@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerCentury Field
 
-zettameter per century, defined as: exameter per decade × (1000.0)/(10.0)
+zettameter per century defined such that: exameter per decade = Zm/century × (1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity ZettameterPerCentury;

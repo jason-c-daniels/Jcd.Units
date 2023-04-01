@@ -3,7 +3,7 @@
 
 ## Inductances.Picohenry Field
 
-picohenry, defined as: nanohenry × 1.0/1000.0
+picohenry defined such that: nanohenry = pH × 1.0/1000.0.
 
 ```csharp
 public static readonly Inductance Picohenry;

@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerZeptosecond Field
 
-nanometer per zeptosecond, defined as: micrometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+nanometer per zeptosecond defined such that: micrometer per attosecond = nm/zs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity NanometerPerZeptosecond;

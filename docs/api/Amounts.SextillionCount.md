@@ -3,7 +3,7 @@
 
 ## Amounts.SextillionCount Field
 
-sextillion count, defined as: quintillion count × 1_000_000.0
+sextillion count defined such that: quintillion count = sextillion ct. × 1_000_000.0.
 
 ```csharp
 public static readonly Amount SextillionCount;

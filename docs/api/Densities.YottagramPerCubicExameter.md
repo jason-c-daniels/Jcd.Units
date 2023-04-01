@@ -3,7 +3,7 @@
 
 ## Densities.YottagramPerCubicExameter Field
 
-yottagram per cubic exameter, defined as: zettagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+yottagram per cubic exameter defined such that: zettagram per cubic petameter = Yg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density YottagramPerCubicExameter;

@@ -3,7 +3,7 @@
 
 ## Capacitances.Millifarad Field
 
-millifarad, defined as: centifarad × 1.0/10.0
+millifarad defined such that: centifarad = mF × 1.0/10.0.
 
 ```csharp
 public static readonly Capacitance Millifarad;

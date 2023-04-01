@@ -3,7 +3,7 @@
 
 ## Areas.SquareMicrometer Field
 
-square micrometer, defined as: square millimeter × (1.0/1000.0)*(1.0/1000.0)
+square micrometer defined such that: square millimeter = μm² × (1.0/1000.0)*(1.0/1000.0).
 
 ```csharp
 public static readonly Area SquareMicrometer;

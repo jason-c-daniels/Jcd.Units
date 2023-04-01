@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerFemtosecond Field
 
-zeptometer per femtosecond, defined as: attometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+zeptometer per femtosecond defined such that: attometer per picosecond = zm/fs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ZeptometerPerFemtosecond;

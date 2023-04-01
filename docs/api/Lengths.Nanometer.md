@@ -3,7 +3,7 @@
 
 ## Lengths.Nanometer Field
 
-nanometer, defined as: micrometer × 1.0/1000.0
+nanometer defined such that: micrometer = nm × 1.0/1000.0.
 
 ```csharp
 public static readonly Length Nanometer;

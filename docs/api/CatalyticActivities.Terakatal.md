@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Terakatal Field
 
-terakatal, defined as: gigakatal × 1000.0
+terakatal defined such that: gigakatal = Tkat × 1000.0.
 
 ```csharp
 public static readonly CatalyticActivity Terakatal;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareAttosecond Field
 
-megameter per square attosecond, defined as: kilometer per square femtosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
+megameter per square attosecond defined such that: kilometer per square femtosecond = Mm/as² × (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareAttosecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquarePlanckTime Field
 
-quettameter per square planck-time, defined as: ronnameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+quettameter per square planck-time defined such that: ronnameter per square microsecond = Qm/tₚ² × (1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquarePlanckTime;

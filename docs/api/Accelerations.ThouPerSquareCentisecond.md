@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareCentisecond Field
 
-thou per square centisecond, defined as: foot per square decisecond × (1.0/12000.0)/((1.0/10.0)*(1.0/10.0))
+thou per square centisecond defined such that: foot per square decisecond = th/cs² × (1.0/12000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Acceleration ThouPerSquareCentisecond;

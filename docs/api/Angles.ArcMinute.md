@@ -3,7 +3,7 @@
 
 ## Angles.ArcMinute Field
 
-arc minute, defined as: degree × 1.0/60.0
+arc minute defined such that: degree = ′ × 1.0/60.0.
 
 ```csharp
 public static readonly Angle ArcMinute;

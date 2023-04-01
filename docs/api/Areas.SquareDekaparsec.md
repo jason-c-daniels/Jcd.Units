@@ -3,7 +3,7 @@
 
 ## Areas.SquareDekaparsec Field
 
-square dekaparsec, defined as: square parsec × (10.0)*(10.0)
+square dekaparsec defined such that: square parsec = dapc² × (10.0)*(10.0).
 
 ```csharp
 public static readonly Area SquareDekaparsec;

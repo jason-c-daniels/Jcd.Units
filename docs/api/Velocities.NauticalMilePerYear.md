@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerYear Field
 
-nautical mile per year, defined as: cable per day × (10.0)/(365.2525)
+nautical mile per year defined such that: cable per day = nmi/yr × (10.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity NauticalMilePerYear;

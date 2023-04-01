@@ -3,7 +3,7 @@
 
 ## Volumes.Ronnaliter Field
 
-ronnaliter, defined as: yottaliter × 1000.0
+ronnaliter defined such that: yottaliter = RL × 1000.0.
 
 ```csharp
 public static readonly Volume Ronnaliter;

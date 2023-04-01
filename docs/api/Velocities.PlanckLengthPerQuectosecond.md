@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerQuectosecond Field
 
-planck-length per quectosecond, defined as: SI meter per rontosecond × (1.616255E-35)/(1.0/1000.0)
+planck-length per quectosecond defined such that: SI meter per rontosecond = ℓₚ/qs × (1.616255E-35)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerQuectosecond;

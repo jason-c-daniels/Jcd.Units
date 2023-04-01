@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicFemtometer Field
 
-megagram per cubic femtometer, defined as: kilogram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+megagram per cubic femtometer defined such that: kilogram per cubic picometer = Mg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MegagramPerCubicFemtometer;

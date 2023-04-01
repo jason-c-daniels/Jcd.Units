@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicQuectometer Field
 
-petagram per cubic quectometer, defined as: teragram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+petagram per cubic quectometer defined such that: teragram per cubic rontometer = Pg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PetagramPerCubicQuectometer;

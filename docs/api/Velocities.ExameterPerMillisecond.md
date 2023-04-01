@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerMillisecond Field
 
-exameter per millisecond, defined as: petameter per centisecond × (1000.0)/(1.0/10.0)
+exameter per millisecond defined such that: petameter per centisecond = Em/ms × (1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity ExameterPerMillisecond;

@@ -3,7 +3,7 @@
 
 ## Areas.SquareZettameter Field
 
-square zettameter, defined as: square exameter × (1000.0)*(1000.0)
+square zettameter defined such that: square exameter = Zm² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareZettameter;

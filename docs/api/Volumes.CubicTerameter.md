@@ -3,7 +3,7 @@
 
 ## Volumes.CubicTerameter Field
 
-cubic terameter, defined as: cubic gigameter × (1000.0)*(1000.0)*(1000.0)
+cubic terameter defined such that: cubic gigameter = Tm³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicTerameter;

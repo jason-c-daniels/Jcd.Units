@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerTrillionYears Field
 
-thou per trillion years, defined as: foot per billion years × (1.0/12000.0)/(1000.0)
+thou per trillion years defined such that: foot per billion years = th/Tyr × (1.0/12000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ThouPerTrillionYears;

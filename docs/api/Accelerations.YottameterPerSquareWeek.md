@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareWeek Field
 
-yottameter per square week, defined as: zettameter per square day × (1000.0)/((7.0)*(7.0))
+yottameter per square week defined such that: zettameter per square day = Ym/wk² × (1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration YottameterPerSquareWeek;

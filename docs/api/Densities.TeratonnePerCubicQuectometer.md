@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicQuectometer Field
 
-teratonne per cubic quectometer, defined as: gigatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+teratonne per cubic quectometer defined such that: gigatonne per cubic rontometer = Tt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density TeratonnePerCubicQuectometer;

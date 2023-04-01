@@ -3,7 +3,7 @@
 
 ## Illuminances.Zeptolux Field
 
-zeptolux, defined as: attolux × 1.0/1000.0
+zeptolux defined such that: attolux = zlx × 1.0/1000.0.
 
 ```csharp
 public static readonly Illuminance Zeptolux;

@@ -3,7 +3,7 @@
 
 ## Volumes.Quettaliter Field
 
-quettaliter, defined as: ronnaliter × 1000.0
+quettaliter defined such that: ronnaliter = QL × 1000.0.
 
 ```csharp
 public static readonly Volume Quettaliter;

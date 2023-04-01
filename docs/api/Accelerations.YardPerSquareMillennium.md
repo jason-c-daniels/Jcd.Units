@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareMillennium Field
 
-yard per square millennium, defined as: foot per square century × (3.0)/((10.0)*(10.0))
+yard per square millennium defined such that: foot per square century = yd/kyr² × (3.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration YardPerSquareMillennium;

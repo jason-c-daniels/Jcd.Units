@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerSextillionYears Field
 
-femtometer per sextillion years, defined as: picometer per quintillion years × (1.0/1000.0)/(1000.0)
+femtometer per sextillion years defined such that: picometer per quintillion years = fm/Zyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerSextillionYears;

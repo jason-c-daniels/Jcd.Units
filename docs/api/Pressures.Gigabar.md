@@ -3,7 +3,7 @@
 
 ## Pressures.Gigabar Field
 
-gigabar, defined as: megabar × 1000.0
+gigabar defined such that: megabar = Gbar × 1000.0.
 
 ```csharp
 public static readonly Pressure Gigabar;

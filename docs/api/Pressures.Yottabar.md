@@ -3,7 +3,7 @@
 
 ## Pressures.Yottabar Field
 
-yottabar, defined as: zettabar × 1000.0
+yottabar defined such that: zettabar = Ybar × 1000.0.
 
 ```csharp
 public static readonly Pressure Yottabar;

@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicMegameter Field
 
-rontogram per cubic megameter, defined as: yoctogram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+rontogram per cubic megameter defined such that: yoctogram per cubic kilometer = rg/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density RontogramPerCubicMegameter;

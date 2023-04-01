@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Megatesla Field
 
-megatesla, defined as: kilotesla × 1000.0
+megatesla defined such that: kilotesla = MT × 1000.0.
 
 ```csharp
 public static readonly MagneticFluxDensity Megatesla;

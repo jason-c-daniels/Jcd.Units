@@ -3,7 +3,7 @@
 
 ## Lengths.Furlong Field
 
-furlong, defined as: chain × 10.0
+furlong defined such that: chain = fur × 10.0.
 
 ```csharp
 public static readonly Length Furlong;

@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicAttometer Field
 
-milligram per cubic attometer, defined as: centigram per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+milligram per cubic attometer defined such that: centigram per cubic femtometer = mg/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MilligramPerCubicAttometer;

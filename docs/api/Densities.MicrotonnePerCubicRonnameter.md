@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicRonnameter Field
 
-microtonne per cubic ronnameter, defined as: millitonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+microtonne per cubic ronnameter defined such that: millitonne per cubic yottameter = μt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MicrotonnePerCubicRonnameter;

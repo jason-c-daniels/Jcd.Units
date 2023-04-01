@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Centicoulomb Field
 
-centicoulomb, defined as: decicoulomb × 1.0/10.0
+centicoulomb defined such that: decicoulomb = cC × 1.0/10.0.
 
 ```csharp
 public static readonly ElectricalCharge Centicoulomb;

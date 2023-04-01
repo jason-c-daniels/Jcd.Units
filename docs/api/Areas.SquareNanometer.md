@@ -3,7 +3,7 @@
 
 ## Areas.SquareNanometer Field
 
-square nanometer, defined as: square micrometer × (1.0/1000.0)*(1.0/1000.0)
+square nanometer defined such that: square micrometer = nm² × (1.0/1000.0)*(1.0/1000.0).
 
 ```csharp
 public static readonly Area SquareNanometer;

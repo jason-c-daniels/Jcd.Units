@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareHour Field
 
-decimeter per square hour, defined as: meter per square minute × (1.0/10.0)/((60.0)*(60.0))
+decimeter per square hour defined such that: meter per square minute = dm/hr² × (1.0/10.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquareHour;

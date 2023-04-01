@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerMillionYears Field
 
-planck-length per million years, defined as: SI meter per millennium × (1.616255E-35)/(1000.0)
+planck-length per million years defined such that: SI meter per millennium = ℓₚ/Myr × (1.616255E-35)/(1000.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerMillionYears;

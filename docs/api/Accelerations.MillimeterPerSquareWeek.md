@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareWeek Field
 
-millimeter per square week, defined as: centimeter per square day × (1.0/10.0)/((7.0)*(7.0))
+millimeter per square week defined such that: centimeter per square day = mm/wk² × (1.0/10.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareWeek;

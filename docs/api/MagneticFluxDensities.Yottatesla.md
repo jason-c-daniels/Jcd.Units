@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Yottatesla Field
 
-yottatesla, defined as: zettatesla × 1000.0
+yottatesla defined such that: zettatesla = YT × 1000.0.
 
 ```csharp
 public static readonly MagneticFluxDensity Yottatesla;

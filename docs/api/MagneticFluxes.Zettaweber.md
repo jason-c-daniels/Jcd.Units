@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Zettaweber Field
 
-zettaweber, defined as: exaweber × 1000.0
+zettaweber defined such that: exaweber = ZWb × 1000.0.
 
 ```csharp
 public static readonly MagneticFlux Zettaweber;

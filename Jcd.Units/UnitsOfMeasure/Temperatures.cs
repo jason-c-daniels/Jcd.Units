@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure;
 public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
 {
    /// <summary>
-   /// degrees rankine, defined as: SI degrees kelvin × 5.0/9.0
+   /// degrees rankine defined such that: SI degrees kelvin = °R × 5.0/9.0.
    /// </summary>
    public static readonly Temperature DegreesRankine = new (
                                                             "degrees rankine"
@@ -29,19 +29,19 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                            );
 
    /// <summary>
-   /// degrees delisle, defined as: (SI degrees celcius + -150) × -2d/3d.
+   /// degrees delisle defined such that: SI degrees celcius = (°De + -150) × -2.0/3.0.
    /// </summary>
    public static readonly Temperature DegreesDelisle = new (
                                                             "degrees delisle"
                                                           , "°De"
                                                           , SI.Temperatures.DegreesCelcius
-                                                          , -2d / 3d
+                                                          , -2.0 / 3.0
                                                           , -150
                                                           , system: ""
                                                            );
 
    /// <summary>
-   /// degrees newton, defined as: SI degrees celcius × 100.0/33.0
+   /// degrees newton defined such that: SI degrees celcius = °N × 100.0/33.0.
    /// </summary>
    public static readonly Temperature DegreesNewton = new (
                                                            "degrees newton"
@@ -52,7 +52,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                           );
 
    /// <summary>
-   /// degrees réaumur, defined as: SI degrees celcius × 5.0/4.0
+   /// degrees réaumur defined such that: SI degrees celcius = °Ré × 5.0/4.0.
    /// </summary>
    public static readonly Temperature DegreesRéaumur = new (
                                                             "degrees réaumur"
@@ -63,7 +63,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                            );
 
    /// <summary>
-   /// degrees rømer, defined as: (SI degrees celcius + -7.5) × 40.0/21.0.
+   /// degrees rømer defined such that: SI degrees celcius = (°Rø + -7.5) × 40.0/21.0.
    /// </summary>
    public static readonly Temperature DegreesRømer = new (
                                                           "degrees rømer"

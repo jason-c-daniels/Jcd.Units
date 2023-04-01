@@ -3,7 +3,7 @@
 
 ## Frequencies.Exahertz Field
 
-exahertz, defined as: petahertz × 1000.0
+exahertz defined such that: petahertz = EHz × 1000.0.
 
 ```csharp
 public static readonly Frequency Exahertz;

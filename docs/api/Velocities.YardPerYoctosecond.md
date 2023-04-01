@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerYoctosecond Field
 
-yard per yoctosecond, defined as: foot per zeptosecond × (3.0)/(1.0/1000.0)
+yard per yoctosecond defined such that: foot per zeptosecond = yd/ys × (3.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity YardPerYoctosecond;

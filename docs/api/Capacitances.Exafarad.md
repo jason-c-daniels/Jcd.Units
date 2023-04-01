@@ -3,7 +3,7 @@
 
 ## Capacitances.Exafarad Field
 
-exafarad, defined as: petafarad × 1000.0
+exafarad defined such that: petafarad = EF × 1000.0.
 
 ```csharp
 public static readonly Capacitance Exafarad;

@@ -3,7 +3,7 @@
 
 ## Velocities.YardPerBillionYears Field
 
-yard per billion years, defined as: foot per million years × (3.0)/(1000.0)
+yard per billion years defined such that: foot per million years = yd/Gyr × (3.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity YardPerBillionYears;

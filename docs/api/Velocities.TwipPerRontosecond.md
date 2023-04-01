@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerRontosecond Field
 
-twip per rontosecond, defined as: foot per yoctosecond × (1.0/17280.0)/(1.0/1000.0)
+twip per rontosecond defined such that: foot per yoctosecond = twip/rs × (1.0/17280.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity TwipPerRontosecond;

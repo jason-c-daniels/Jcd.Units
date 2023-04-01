@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerAttosecond Field
 
-fathom per attosecond, defined as: foot per femtosecond × (6.0)/(1.0/1000.0)
+fathom per attosecond defined such that: foot per femtosecond = ftm/as × (6.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity FathomPerAttosecond;

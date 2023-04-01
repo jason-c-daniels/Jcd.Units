@@ -3,7 +3,7 @@
 
 ## Areas.SquareEarthDiameter Field
 
-square earth diameter, defined as: square earth radius × (2.0)*(2.0)
+square earth diameter defined such that: square earth radius = D(⊕)² × (2.0)*(2.0).
 
 ```csharp
 public static readonly Area SquareEarthDiameter;

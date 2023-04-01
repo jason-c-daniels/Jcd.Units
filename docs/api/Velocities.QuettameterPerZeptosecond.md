@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerZeptosecond Field
 
-quettameter per zeptosecond, defined as: ronnameter per attosecond × (1000.0)/(1.0/1000.0)
+quettameter per zeptosecond defined such that: ronnameter per attosecond = Qm/zs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity QuettameterPerZeptosecond;

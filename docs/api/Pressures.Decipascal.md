@@ -3,7 +3,7 @@
 
 ## Pressures.Decipascal Field
 
-decipascal, defined as: pascal × 1.0/10.0
+decipascal defined such that: pascal = dPa × 1.0/10.0.
 
 ```csharp
 public static readonly Pressure Decipascal;

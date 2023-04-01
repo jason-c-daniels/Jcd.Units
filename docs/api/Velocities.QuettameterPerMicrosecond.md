@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerMicrosecond Field
 
-quettameter per microsecond, defined as: ronnameter per millisecond × (1000.0)/(1.0/1000.0)
+quettameter per microsecond defined such that: ronnameter per millisecond = Qm/μs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity QuettameterPerMicrosecond;

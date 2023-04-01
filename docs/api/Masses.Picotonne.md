@@ -3,7 +3,7 @@
 
 ## Masses.Picotonne Field
 
-picotonne, defined as: nanotonne × 1.0/1000.0
+picotonne defined such that: nanotonne = pt × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Picotonne;

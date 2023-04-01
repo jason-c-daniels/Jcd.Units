@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareDecade Field
 
-furlong per square decade, defined as: chain per square year × (10.0)/((10.0)*(10.0))
+furlong per square decade defined such that: chain per square year = fur/decade² × (10.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareDecade;

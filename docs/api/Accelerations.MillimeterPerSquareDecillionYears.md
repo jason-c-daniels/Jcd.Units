@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareDecillionYears Field
 
-millimeter per square decillion years, defined as: centimeter per square nonillion years × (1.0/10.0)/((1000.0)*(1000.0))
+millimeter per square decillion years defined such that: centimeter per square nonillion years = mm/decillion yr² × (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareDecillionYears;

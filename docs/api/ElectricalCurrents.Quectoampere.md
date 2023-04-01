@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Quectoampere Field
 
-quectoampere, defined as: rontoampere × 1.0/1000.0
+quectoampere defined such that: rontoampere = qA × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalCurrent Quectoampere;

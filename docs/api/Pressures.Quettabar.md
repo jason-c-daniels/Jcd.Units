@@ -3,7 +3,7 @@
 
 ## Pressures.Quettabar Field
 
-quettabar, defined as: ronnabar × 1000.0
+quettabar defined such that: ronnabar = Qbar × 1000.0.
 
 ```csharp
 public static readonly Pressure Quettabar;

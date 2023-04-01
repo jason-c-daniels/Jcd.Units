@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Kilobecquerel Field
 
-kilobecquerel, defined as: hectobecquerel × 10.0
+kilobecquerel defined such that: hectobecquerel = kBq × 10.0.
 
 ```csharp
 public static readonly RadioactiveDecay Kilobecquerel;

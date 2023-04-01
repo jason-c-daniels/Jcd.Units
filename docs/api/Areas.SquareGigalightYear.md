@@ -3,7 +3,7 @@
 
 ## Areas.SquareGigalightYear Field
 
-square gigalight-year, defined as: square megalight-year × (1000.0)*(1000.0)
+square gigalight-year defined such that: square megalight-year = Gly² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareGigalightYear;

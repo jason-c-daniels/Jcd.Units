@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerZeptosecond Field
 
-megameter per zeptosecond, defined as: kilometer per attosecond × (1000.0)/(1.0/1000.0)
+megameter per zeptosecond defined such that: kilometer per attosecond = Mm/zs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MegameterPerZeptosecond;

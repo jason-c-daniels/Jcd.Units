@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerQuectosecond Field
 
-point per quectosecond, defined as: inch per rontosecond × (1.0/72.0)/(1.0/1000.0)
+point per quectosecond defined such that: inch per rontosecond = p/qs × (1.0/72.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PointPerQuectosecond;

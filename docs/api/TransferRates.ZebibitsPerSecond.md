@@ -3,7 +3,7 @@
 
 ## TransferRates.ZebibitsPerSecond Field
 
-zebibits per second, defined as: exbibits per second × 1024.0
+zebibits per second defined such that: exbibits per second = Zib/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate ZebibitsPerSecond;

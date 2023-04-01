@@ -3,7 +3,7 @@
 
 ## Pressures.Terabar Field
 
-terabar, defined as: gigabar × 1000.0
+terabar defined such that: gigabar = Tbar × 1000.0.
 
 ```csharp
 public static readonly Pressure Terabar;

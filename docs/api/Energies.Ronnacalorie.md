@@ -3,7 +3,7 @@
 
 ## Energies.Ronnacalorie Field
 
-ronnacalorie, defined as: yottacalorie × 1000.0
+ronnacalorie defined such that: yottacalorie = Rc × 1000.0.
 
 ```csharp
 public static readonly Energy Ronnacalorie;

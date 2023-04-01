@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Quectokatal Field
 
-quectokatal, defined as: rontokatal × 1.0/1000.0
+quectokatal defined such that: rontokatal = qkat × 1.0/1000.0.
 
 ```csharp
 public static readonly CatalyticActivity Quectokatal;

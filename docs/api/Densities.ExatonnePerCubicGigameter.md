@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicGigameter Field
 
-exatonne per cubic gigameter, defined as: petatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+exatonne per cubic gigameter defined such that: petatonne per cubic megameter = Et/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density ExatonnePerCubicGigameter;

@@ -3,7 +3,7 @@
 
 ## Masses.Tonne Field
 
-tonne, a synonym for megagram
+tonne is a synonym for megagram
 
 ```csharp
 public static readonly Mass Tonne;

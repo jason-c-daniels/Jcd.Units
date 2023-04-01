@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicRonnameter Field
 
-zettatonne per cubic ronnameter, defined as: exatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+zettatonne per cubic ronnameter defined such that: exatonne per cubic yottameter = Zt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density ZettatonnePerCubicRonnameter;

@@ -3,7 +3,7 @@
 
 ## Illuminances.Decilux Field
 
-decilux, defined as: lux × 1.0/10.0
+decilux defined such that: lux = dlx × 1.0/10.0.
 
 ```csharp
 public static readonly Illuminance Decilux;

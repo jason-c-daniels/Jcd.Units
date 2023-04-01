@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Quettalumen Field
 
-quettalumen, defined as: ronnalumen × 1000.0
+quettalumen defined such that: ronnalumen = Qlm × 1000.0.
 
 ```csharp
 public static readonly LuminousFlux Quettalumen;

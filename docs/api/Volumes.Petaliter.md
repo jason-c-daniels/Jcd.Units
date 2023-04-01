@@ -3,7 +3,7 @@
 
 ## Volumes.Petaliter Field
 
-petaliter, defined as: teraliter × 1000.0
+petaliter defined such that: teraliter = PL × 1000.0.
 
 ```csharp
 public static readonly Volume Petaliter;

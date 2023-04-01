@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerDay Field
 
-planck-length per day, defined as: SI meter per hour × (1.616255E-35)/(24.0)
+planck-length per day defined such that: SI meter per hour = ℓₚ/dy × (1.616255E-35)/(24.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerDay;

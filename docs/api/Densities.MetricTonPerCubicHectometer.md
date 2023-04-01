@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicHectometer Field
 
-metric ton per cubic hectometer, defined as: megagram per cubic dekameter × (1.0)/((10.0)*(10.0)*(10.0))
+metric ton per cubic hectometer defined such that: megagram per cubic dekameter = mt/hm³ × (1.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density MetricTonPerCubicHectometer;

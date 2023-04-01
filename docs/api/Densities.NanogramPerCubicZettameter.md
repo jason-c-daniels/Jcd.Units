@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicZettameter Field
 
-nanogram per cubic zettameter, defined as: microgram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+nanogram per cubic zettameter defined such that: microgram per cubic exameter = ng/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density NanogramPerCubicZettameter;

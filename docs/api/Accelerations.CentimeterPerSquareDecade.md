@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareDecade Field
 
-centimeter per square decade, defined as: decimeter per square year × (1.0/10.0)/((10.0)*(10.0))
+centimeter per square decade defined such that: decimeter per square year = cm/decade² × (1.0/10.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareDecade;

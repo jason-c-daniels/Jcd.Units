@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareQuintillionYears Field
 
-megameter per square quintillion years, defined as: kilometer per square quadrillion years × (1000.0)/((1000.0)*(1000.0))
+megameter per square quintillion years defined such that: kilometer per square quadrillion years = Mm/Eyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareQuintillionYears;

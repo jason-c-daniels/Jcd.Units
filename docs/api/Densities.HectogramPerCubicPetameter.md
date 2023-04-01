@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicPetameter Field
 
-hectogram per cubic petameter, defined as: kilogram per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+hectogram per cubic petameter defined such that: kilogram per cubic terameter = hg/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density HectogramPerCubicPetameter;

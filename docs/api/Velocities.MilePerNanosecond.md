@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerNanosecond Field
 
-mile per nanosecond, defined as: furlong per microsecond × (8.0)/(1.0/1000.0)
+mile per nanosecond defined such that: furlong per microsecond = mi/ns × (8.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MilePerNanosecond;

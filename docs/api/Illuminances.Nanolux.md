@@ -3,7 +3,7 @@
 
 ## Illuminances.Nanolux Field
 
-nanolux, defined as: microlux × 1.0/1000.0
+nanolux defined such that: microlux = nlx × 1.0/1000.0.
 
 ```csharp
 public static readonly Illuminance Nanolux;

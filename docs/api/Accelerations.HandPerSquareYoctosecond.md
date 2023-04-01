@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareYoctosecond Field
 
-hand per square yoctosecond, defined as: inch per square zeptosecond × (4.0)/((1.0/1000.0)*(1.0/1000.0))
+hand per square yoctosecond defined such that: inch per square zeptosecond = hh/ys² × (4.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration HandPerSquareYoctosecond;

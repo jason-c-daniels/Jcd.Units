@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareMinute Field
 
-cable per square minute, defined as: fathom per square second × (100.0)/((60.0)*(60.0))
+cable per square minute defined such that: fathom per square second = cable/min² × (100.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration CablePerSquareMinute;

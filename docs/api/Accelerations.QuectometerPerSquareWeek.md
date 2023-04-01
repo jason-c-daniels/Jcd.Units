@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareWeek Field
 
-quectometer per square week, defined as: rontometer per square day × (1.0/1000.0)/((7.0)*(7.0))
+quectometer per square week defined such that: rontometer per square day = qm/wk² × (1.0/1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareWeek;

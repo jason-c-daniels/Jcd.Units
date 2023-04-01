@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerTick Field
 
-millimeter per tick, defined as: centimeter per nanosecond × (1.0/10.0)/(100.0)
+millimeter per tick defined such that: centimeter per nanosecond = mm/tick × (1.0/10.0)/(100.0).
 
 ```csharp
 public static readonly Velocity MillimeterPerTick;

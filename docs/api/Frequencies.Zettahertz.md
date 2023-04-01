@@ -3,7 +3,7 @@
 
 ## Frequencies.Zettahertz Field
 
-zettahertz, defined as: exahertz × 1000.0
+zettahertz defined such that: exahertz = ZHz × 1000.0.
 
 ```csharp
 public static readonly Frequency Zettahertz;

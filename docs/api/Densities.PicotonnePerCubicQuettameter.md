@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicQuettameter Field
 
-picotonne per cubic quettameter, defined as: nanotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+picotonne per cubic quettameter defined such that: nanotonne per cubic ronnameter = pt/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density PicotonnePerCubicQuettameter;

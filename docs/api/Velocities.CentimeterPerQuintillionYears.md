@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerQuintillionYears Field
 
-centimeter per quintillion years, defined as: decimeter per quadrillion years × (1.0/10.0)/(1000.0)
+centimeter per quintillion years defined such that: decimeter per quadrillion years = cm/Eyr × (1.0/10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity CentimeterPerQuintillionYears;

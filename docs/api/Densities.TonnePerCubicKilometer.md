@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicKilometer Field
 
-tonne per cubic kilometer, defined as: megagram per cubic hectometer × (1.0)/((10.0)*(10.0)*(10.0))
+tonne per cubic kilometer defined such that: megagram per cubic hectometer = t/km³ × (1.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density TonnePerCubicKilometer;

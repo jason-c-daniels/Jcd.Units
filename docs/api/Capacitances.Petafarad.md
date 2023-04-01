@@ -3,7 +3,7 @@
 
 ## Capacitances.Petafarad Field
 
-petafarad, defined as: terafarad × 1000.0
+petafarad defined such that: terafarad = PF × 1000.0.
 
 ```csharp
 public static readonly Capacitance Petafarad;

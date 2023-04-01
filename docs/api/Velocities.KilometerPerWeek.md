@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerWeek Field
 
-kilometer per week, defined as: hectometer per day × (10.0)/(7.0)
+kilometer per week defined such that: hectometer per day = km/wk × (10.0)/(7.0).
 
 ```csharp
 public static readonly Velocity KilometerPerWeek;

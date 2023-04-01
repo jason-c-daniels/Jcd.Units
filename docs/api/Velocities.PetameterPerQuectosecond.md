@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerQuectosecond Field
 
-petameter per quectosecond, defined as: terameter per rontosecond × (1000.0)/(1.0/1000.0)
+petameter per quectosecond defined such that: terameter per rontosecond = Pm/qs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PetameterPerQuectosecond;

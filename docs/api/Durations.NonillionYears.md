@@ -3,7 +3,7 @@
 
 ## Durations.NonillionYears Field
 
-nonillion years, defined as: octillion years × 1000.0
+nonillion years defined such that: octillion years = Qyr × 1000.0.
 
 ```csharp
 public static readonly Duration NonillionYears;

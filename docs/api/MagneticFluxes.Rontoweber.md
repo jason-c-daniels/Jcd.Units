@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Rontoweber Field
 
-rontoweber, defined as: yoctoweber × 1.0/1000.0
+rontoweber defined such that: yoctoweber = rWb × 1.0/1000.0.
 
 ```csharp
 public static readonly MagneticFlux Rontoweber;

@@ -13,8 +13,8 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [ArcMinute](Angles.ArcMinute.md 'Jcd.Units.UnitsOfMeasure.Angles.ArcMinute') | arc minute, defined as: degree × 1.0/60.0 |
-| [ArcSecond](Angles.ArcSecond.md 'Jcd.Units.UnitsOfMeasure.Angles.ArcSecond') | arc second, defined as: arc minute × 1.0/60.0 |
-| [Degree](Angles.Degree.md 'Jcd.Units.UnitsOfMeasure.Angles.Degree') | degree, defined as: radian × (180.0/Math.PI) |
-| [Gradian](Angles.Gradian.md 'Jcd.Units.UnitsOfMeasure.Angles.Gradian') | gradian, defined as: radian × (Math.PI/200.0) |
+| [ArcMinute](Angles.ArcMinute.md 'Jcd.Units.UnitsOfMeasure.Angles.ArcMinute') | arc minute defined such that: degree = ′ × 1.0/60.0. |
+| [ArcSecond](Angles.ArcSecond.md 'Jcd.Units.UnitsOfMeasure.Angles.ArcSecond') | arc second defined such that: arc minute = ″ × 1.0/60.0. |
+| [Degree](Angles.Degree.md 'Jcd.Units.UnitsOfMeasure.Angles.Degree') | degree defined such that: radian = ° × (180.0/Math.PI). |
+| [Gradian](Angles.Gradian.md 'Jcd.Units.UnitsOfMeasure.Angles.Gradian') | gradian defined such that: radian = ᵍ × (Math.PI/200.0). |
 | [Radian](Angles.Radian.md 'Jcd.Units.UnitsOfMeasure.Angles.Radian') | radian, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |

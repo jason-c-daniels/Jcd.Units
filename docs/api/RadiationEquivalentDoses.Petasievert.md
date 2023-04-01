@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Petasievert Field
 
-petasievert, defined as: terasievert × 1000.0
+petasievert defined such that: terasievert = Psv × 1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Petasievert;

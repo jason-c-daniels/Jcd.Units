@@ -3,7 +3,7 @@
 
 ## Lengths.Thou Field
 
-thou, defined as: foot × 1.0/12000.0
+thou defined such that: foot = th × 1.0/12000.0.
 
 ```csharp
 public static readonly Length Thou;

@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareMillennium Field
 
-cable per square millennium, defined as: fathom per square century × (100.0)/((10.0)*(10.0))
+cable per square millennium defined such that: fathom per square century = cable/kyr² × (100.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration CablePerSquareMillennium;

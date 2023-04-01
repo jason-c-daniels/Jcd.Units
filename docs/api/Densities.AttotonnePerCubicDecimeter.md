@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicDecimeter Field
 
-attotonne per cubic decimeter, defined as: femtotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+attotonne per cubic decimeter defined such that: femtotonne per cubic meter = at/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density AttotonnePerCubicDecimeter;

@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicRonnameter Field
 
-kilogram per cubic ronnameter, defined as: kilogram per cubic yottameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+kilogram per cubic ronnameter defined such that: kilogram per cubic yottameter = kg/Rm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density KilogramPerCubicRonnameter;

@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicMillimeter Field
 
-quettagram per cubic millimeter, defined as: ronnagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+quettagram per cubic millimeter defined such that: ronnagram per cubic centimeter = Qg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density QuettagramPerCubicMillimeter;

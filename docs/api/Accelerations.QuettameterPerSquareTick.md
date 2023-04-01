@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareTick Field
 
-quettameter per square tick, defined as: ronnameter per square nanosecond × (1000.0)/((100.0)*(100.0))
+quettameter per square tick defined such that: ronnameter per square nanosecond = Qm/tick² × (1000.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareTick;

@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareBillionYears Field
 
-twip per square billion years, defined as: foot per square million years × (1.0/17280.0)/((1000.0)*(1000.0))
+twip per square billion years defined such that: foot per square million years = twip/Gyr² × (1.0/17280.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration TwipPerSquareBillionYears;

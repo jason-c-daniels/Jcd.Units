@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attobecquerel](RadioactiveDecays.Attobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Attobecquerel') | attobecquerel, defined as: femtobecquerel × 1.0/1000.0 |
+| [Attobecquerel](RadioactiveDecays.Attobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Attobecquerel') | attobecquerel defined such that: femtobecquerel = aBq × 1.0/1000.0. |
 | [Becquerel](RadioactiveDecays.Becquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Becquerel') | becquerel, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
-| [Centibecquerel](RadioactiveDecays.Centibecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Centibecquerel') | centibecquerel, defined as: decibecquerel × 1.0/10.0 |
-| [Decibecquerel](RadioactiveDecays.Decibecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Decibecquerel') | decibecquerel, defined as: becquerel × 1.0/10.0 |
-| [Dekabecquerel](RadioactiveDecays.Dekabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Dekabecquerel') | dekabecquerel, defined as: becquerel × 10.0 |
-| [Exabecquerel](RadioactiveDecays.Exabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Exabecquerel') | exabecquerel, defined as: petabecquerel × 1000.0 |
-| [Femtobecquerel](RadioactiveDecays.Femtobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Femtobecquerel') | femtobecquerel, defined as: picobecquerel × 1.0/1000.0 |
-| [Gigabecquerel](RadioactiveDecays.Gigabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Gigabecquerel') | gigabecquerel, defined as: megabecquerel × 1000.0 |
-| [Hectobecquerel](RadioactiveDecays.Hectobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Hectobecquerel') | hectobecquerel, defined as: dekabecquerel × 10.0 |
-| [Kilobecquerel](RadioactiveDecays.Kilobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Kilobecquerel') | kilobecquerel, defined as: hectobecquerel × 10.0 |
-| [Megabecquerel](RadioactiveDecays.Megabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Megabecquerel') | megabecquerel, defined as: kilobecquerel × 1000.0 |
-| [Microbecquerel](RadioactiveDecays.Microbecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Microbecquerel') | microbecquerel, defined as: millibecquerel × 1.0/1000.0 |
-| [Millibecquerel](RadioactiveDecays.Millibecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Millibecquerel') | millibecquerel, defined as: centibecquerel × 1.0/10.0 |
-| [Nanobecquerel](RadioactiveDecays.Nanobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Nanobecquerel') | nanobecquerel, defined as: microbecquerel × 1.0/1000.0 |
-| [Petabecquerel](RadioactiveDecays.Petabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Petabecquerel') | petabecquerel, defined as: terabecquerel × 1000.0 |
-| [Picobecquerel](RadioactiveDecays.Picobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Picobecquerel') | picobecquerel, defined as: nanobecquerel × 1.0/1000.0 |
-| [Quectobecquerel](RadioactiveDecays.Quectobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Quectobecquerel') | quectobecquerel, defined as: rontobecquerel × 1.0/1000.0 |
-| [Quettabecquerel](RadioactiveDecays.Quettabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Quettabecquerel') | quettabecquerel, defined as: ronnabecquerel × 1000.0 |
-| [Ronnabecquerel](RadioactiveDecays.Ronnabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Ronnabecquerel') | ronnabecquerel, defined as: yottabecquerel × 1000.0 |
-| [Rontobecquerel](RadioactiveDecays.Rontobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Rontobecquerel') | rontobecquerel, defined as: yoctobecquerel × 1.0/1000.0 |
-| [Terabecquerel](RadioactiveDecays.Terabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Terabecquerel') | terabecquerel, defined as: gigabecquerel × 1000.0 |
-| [Yoctobecquerel](RadioactiveDecays.Yoctobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Yoctobecquerel') | yoctobecquerel, defined as: zeptobecquerel × 1.0/1000.0 |
-| [Yottabecquerel](RadioactiveDecays.Yottabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Yottabecquerel') | yottabecquerel, defined as: zettabecquerel × 1000.0 |
-| [Zeptobecquerel](RadioactiveDecays.Zeptobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Zeptobecquerel') | zeptobecquerel, defined as: attobecquerel × 1.0/1000.0 |
-| [Zettabecquerel](RadioactiveDecays.Zettabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Zettabecquerel') | zettabecquerel, defined as: exabecquerel × 1000.0 |
+| [Centibecquerel](RadioactiveDecays.Centibecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Centibecquerel') | centibecquerel defined such that: decibecquerel = cBq × 1.0/10.0. |
+| [Decibecquerel](RadioactiveDecays.Decibecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Decibecquerel') | decibecquerel defined such that: becquerel = dBq × 1.0/10.0. |
+| [Dekabecquerel](RadioactiveDecays.Dekabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Dekabecquerel') | dekabecquerel defined such that: becquerel = daBq × 10.0. |
+| [Exabecquerel](RadioactiveDecays.Exabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Exabecquerel') | exabecquerel defined such that: petabecquerel = EBq × 1000.0. |
+| [Femtobecquerel](RadioactiveDecays.Femtobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Femtobecquerel') | femtobecquerel defined such that: picobecquerel = fBq × 1.0/1000.0. |
+| [Gigabecquerel](RadioactiveDecays.Gigabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Gigabecquerel') | gigabecquerel defined such that: megabecquerel = GBq × 1000.0. |
+| [Hectobecquerel](RadioactiveDecays.Hectobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Hectobecquerel') | hectobecquerel defined such that: dekabecquerel = hBq × 10.0. |
+| [Kilobecquerel](RadioactiveDecays.Kilobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Kilobecquerel') | kilobecquerel defined such that: hectobecquerel = kBq × 10.0. |
+| [Megabecquerel](RadioactiveDecays.Megabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Megabecquerel') | megabecquerel defined such that: kilobecquerel = MBq × 1000.0. |
+| [Microbecquerel](RadioactiveDecays.Microbecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Microbecquerel') | microbecquerel defined such that: millibecquerel = μBq × 1.0/1000.0. |
+| [Millibecquerel](RadioactiveDecays.Millibecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Millibecquerel') | millibecquerel defined such that: centibecquerel = mBq × 1.0/10.0. |
+| [Nanobecquerel](RadioactiveDecays.Nanobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Nanobecquerel') | nanobecquerel defined such that: microbecquerel = nBq × 1.0/1000.0. |
+| [Petabecquerel](RadioactiveDecays.Petabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Petabecquerel') | petabecquerel defined such that: terabecquerel = PBq × 1000.0. |
+| [Picobecquerel](RadioactiveDecays.Picobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Picobecquerel') | picobecquerel defined such that: nanobecquerel = pBq × 1.0/1000.0. |
+| [Quectobecquerel](RadioactiveDecays.Quectobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Quectobecquerel') | quectobecquerel defined such that: rontobecquerel = qBq × 1.0/1000.0. |
+| [Quettabecquerel](RadioactiveDecays.Quettabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Quettabecquerel') | quettabecquerel defined such that: ronnabecquerel = QBq × 1000.0. |
+| [Ronnabecquerel](RadioactiveDecays.Ronnabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Ronnabecquerel') | ronnabecquerel defined such that: yottabecquerel = RBq × 1000.0. |
+| [Rontobecquerel](RadioactiveDecays.Rontobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Rontobecquerel') | rontobecquerel defined such that: yoctobecquerel = rBq × 1.0/1000.0. |
+| [Terabecquerel](RadioactiveDecays.Terabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Terabecquerel') | terabecquerel defined such that: gigabecquerel = TBq × 1000.0. |
+| [Yoctobecquerel](RadioactiveDecays.Yoctobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Yoctobecquerel') | yoctobecquerel defined such that: zeptobecquerel = yBq × 1.0/1000.0. |
+| [Yottabecquerel](RadioactiveDecays.Yottabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Yottabecquerel') | yottabecquerel defined such that: zettabecquerel = YBq × 1000.0. |
+| [Zeptobecquerel](RadioactiveDecays.Zeptobecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Zeptobecquerel') | zeptobecquerel defined such that: attobecquerel = zBq × 1.0/1000.0. |
+| [Zettabecquerel](RadioactiveDecays.Zettabecquerel.md 'Jcd.Units.UnitsOfMeasure.SI.RadioactiveDecays.Zettabecquerel') | zettabecquerel defined such that: exabecquerel = ZBq × 1000.0. |

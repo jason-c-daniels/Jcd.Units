@@ -3,7 +3,7 @@
 
 ## Lengths.Gigaparsec Field
 
-gigaparsec, defined as: megaparsec × 1000.0
+gigaparsec defined such that: megaparsec = Gpc × 1000.0.
 
 ```csharp
 public static readonly Length Gigaparsec;

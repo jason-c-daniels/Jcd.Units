@@ -3,7 +3,7 @@
 
 ## Areas.SquareLunarCircumference Field
 
-square lunar circumference, defined as: square lunar diameter × (Math.PI)*(Math.PI)
+square lunar circumference defined such that: square lunar diameter = C(L)² × (Math.PI)*(Math.PI).
 
 ```csharp
 public static readonly Area SquareLunarCircumference;

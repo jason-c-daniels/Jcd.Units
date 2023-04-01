@@ -3,7 +3,7 @@
 
 ## Resistances.Hectoohm Field
 
-hectoohm, defined as: dekaohm × 10.0
+hectoohm defined such that: dekaohm = hΩ × 10.0.
 
 ```csharp
 public static readonly Resistance Hectoohm;

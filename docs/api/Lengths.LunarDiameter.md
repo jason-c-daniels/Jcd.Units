@@ -3,7 +3,7 @@
 
 ## Lengths.LunarDiameter Field
 
-lunar diameter, defined as: lunar radius × 2.0
+lunar diameter defined such that: lunar radius = D(L) × 2.0.
 
 ```csharp
 public static readonly Length LunarDiameter;

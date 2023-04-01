@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareMicrosecond Field
 
-zeptometer per square microsecond, defined as: attometer per square millisecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+zeptometer per square microsecond defined such that: attometer per square millisecond = zm/μs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquareMicrosecond;

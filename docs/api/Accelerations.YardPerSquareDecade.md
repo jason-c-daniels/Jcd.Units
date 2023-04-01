@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareDecade Field
 
-yard per square decade, defined as: foot per square year × (3.0)/((10.0)*(10.0))
+yard per square decade defined such that: foot per square year = yd/decade² × (3.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration YardPerSquareDecade;

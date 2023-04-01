@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerPlanckTime Field
 
-furlong per planck-time, defined as: chain per microsecond × (10.0)/(5.391247E-38)
+furlong per planck-time defined such that: chain per microsecond = fur/tₚ × (10.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity FurlongPerPlanckTime;

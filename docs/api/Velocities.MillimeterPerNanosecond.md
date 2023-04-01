@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerNanosecond Field
 
-millimeter per nanosecond, defined as: centimeter per microsecond × (1.0/10.0)/(1.0/1000.0)
+millimeter per nanosecond defined such that: centimeter per microsecond = mm/ns × (1.0/10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MillimeterPerNanosecond;

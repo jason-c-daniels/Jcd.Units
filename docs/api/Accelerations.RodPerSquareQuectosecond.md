@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareQuectosecond Field
 
-rod per square quectosecond, defined as: SI meter per square rontosecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+rod per square quectosecond defined such that: SI meter per square rontosecond = rd/qs² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration RodPerSquareQuectosecond;

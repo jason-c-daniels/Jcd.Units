@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicMeter Field
 
-petagram per cubic meter, defined as: teragram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+petagram per cubic meter defined such that: teragram per cubic meter = Pg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density PetagramPerCubicMeter;

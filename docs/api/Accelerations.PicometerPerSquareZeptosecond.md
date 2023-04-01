@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareZeptosecond Field
 
-picometer per square zeptosecond, defined as: nanometer per square attosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+picometer per square zeptosecond defined such that: nanometer per square attosecond = pm/zs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareZeptosecond;

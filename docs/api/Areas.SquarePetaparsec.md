@@ -3,7 +3,7 @@
 
 ## Areas.SquarePetaparsec Field
 
-square petaparsec, defined as: square teraparsec × (1000.0)*(1000.0)
+square petaparsec defined such that: square teraparsec = Ppc² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquarePetaparsec;

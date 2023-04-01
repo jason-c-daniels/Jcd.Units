@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareSextillionYears Field
 
-centimeter per square sextillion years, defined as: decimeter per square quintillion years × (1.0/10.0)/((1000.0)*(1000.0))
+centimeter per square sextillion years defined such that: decimeter per square quintillion years = cm/Zyr² × (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareSextillionYears;

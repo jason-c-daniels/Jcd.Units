@@ -3,7 +3,7 @@
 
 ## Volumes.CubicFoot Field
 
-cubic foot, defined as: cubic inch × (12)*(12)*(12)
+cubic foot defined such that: cubic inch = ft³ × (12)*(12)*(12).
 
 ```csharp
 public static readonly Volume CubicFoot;

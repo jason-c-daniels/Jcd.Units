@@ -3,7 +3,7 @@
 
 ## Lengths.Attometer Field
 
-attometer, defined as: femtometer × 1.0/1000.0
+attometer defined such that: femtometer = am × 1.0/1000.0.
 
 ```csharp
 public static readonly Length Attometer;

@@ -3,7 +3,7 @@
 
 ## Lengths.Dekaparsec Field
 
-dekaparsec, defined as: parsec × 10.0
+dekaparsec defined such that: parsec = dapc × 10.0.
 
 ```csharp
 public static readonly Length Dekaparsec;

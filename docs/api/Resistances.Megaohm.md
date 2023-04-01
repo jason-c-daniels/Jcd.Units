@@ -3,7 +3,7 @@
 
 ## Resistances.Megaohm Field
 
-megaohm, defined as: kiloohm × 1000.0
+megaohm defined such that: kiloohm = MΩ × 1000.0.
 
 ```csharp
 public static readonly Resistance Megaohm;

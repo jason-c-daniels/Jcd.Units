@@ -3,7 +3,7 @@
 
 ## Areas.SquareSolarRadius Field
 
-square solar radius, defined as: SI square kilometer × (695_700.0)*(695_700.0)
+square solar radius defined such that: SI square kilometer = R(☉)² × (695_700.0)*(695_700.0).
 
 ```csharp
 public static readonly Area SquareSolarRadius;

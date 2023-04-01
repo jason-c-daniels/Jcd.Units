@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicRonnameter Field
 
-gigatonne per cubic ronnameter, defined as: megatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+gigatonne per cubic ronnameter defined such that: megatonne per cubic yottameter = Gt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density GigatonnePerCubicRonnameter;

@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareCentury Field
 
-kilometer per square century, defined as: hectometer per square decade × (10.0)/((10.0)*(10.0))
+kilometer per square century defined such that: hectometer per square decade = km/century² × (10.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareCentury;

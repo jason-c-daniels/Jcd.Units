@@ -3,7 +3,7 @@
 
 ## Resistances.Yoctoohm Field
 
-yoctoohm, defined as: zeptoohm × 1.0/1000.0
+yoctoohm defined such that: zeptoohm = yΩ × 1.0/1000.0.
 
 ```csharp
 public static readonly Resistance Yoctoohm;

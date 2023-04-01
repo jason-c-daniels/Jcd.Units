@@ -3,7 +3,7 @@
 
 ## Resistances.Kiloohm Field
 
-kiloohm, defined as: hectoohm × 10.0
+kiloohm defined such that: hectoohm = kΩ × 10.0.
 
 ```csharp
 public static readonly Resistance Kiloohm;

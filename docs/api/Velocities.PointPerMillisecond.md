@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerMillisecond Field
 
-point per millisecond, defined as: inch per centisecond × (1.0/72.0)/(1.0/10.0)
+point per millisecond defined such that: inch per centisecond = p/ms × (1.0/72.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity PointPerMillisecond;

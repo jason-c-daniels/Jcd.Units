@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Attoweber Field
 
-attoweber, defined as: femtoweber × 1.0/1000.0
+attoweber defined such that: femtoweber = aWb × 1.0/1000.0.
 
 ```csharp
 public static readonly MagneticFlux Attoweber;

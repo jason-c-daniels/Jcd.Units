@@ -3,7 +3,7 @@
 
 ## StorageUnits.Tebibyte Field
 
-tebibyte, defined as: gibibyte × 1024.0
+tebibyte defined such that: gibibyte = TiB × 1024.0.
 
 ```csharp
 public static readonly Storage Tebibyte;

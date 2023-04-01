@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareHour Field
 
-fathom per square hour, defined as: foot per square minute × (6.0)/((60.0)*(60.0))
+fathom per square hour defined such that: foot per square minute = ftm/hr² × (6.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration FathomPerSquareHour;

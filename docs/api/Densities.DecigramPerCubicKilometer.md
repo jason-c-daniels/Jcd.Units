@@ -3,7 +3,7 @@
 
 ## Densities.DecigramPerCubicKilometer Field
 
-decigram per cubic kilometer, defined as: gram per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+decigram per cubic kilometer defined such that: gram per cubic hectometer = dg/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density DecigramPerCubicKilometer;

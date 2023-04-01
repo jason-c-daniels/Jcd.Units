@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareWeek Field
 
-yoctometer per square week, defined as: zeptometer per square day × (1.0/1000.0)/((7.0)*(7.0))
+yoctometer per square week defined such that: zeptometer per square day = ym/wk² × (1.0/1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration YoctometerPerSquareWeek;

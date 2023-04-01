@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerCentury Field
 
-league per century, defined as: mile per decade × (3.0)/(10.0)
+league per century defined such that: mile per decade = lea/century × (3.0)/(10.0).
 
 ```csharp
 public static readonly Velocity LeaguePerCentury;

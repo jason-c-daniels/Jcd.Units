@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerMillennium Field
 
-micrometer per millennium, defined as: millimeter per century × (1.0/1000.0)/(10.0)
+micrometer per millennium defined such that: millimeter per century = μm/kyr × (1.0/1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity MicrometerPerMillennium;

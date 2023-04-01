@@ -3,7 +3,7 @@
 
 ## Masses.Hectogram Field
 
-hectogram, defined as: kilogram × 1.0/10.0
+hectogram defined such that: kilogram = hg × 1.0/10.0.
 
 ```csharp
 public static readonly Mass Hectogram;

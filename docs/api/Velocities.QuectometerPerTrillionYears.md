@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerTrillionYears Field
 
-quectometer per trillion years, defined as: rontometer per billion years × (1.0/1000.0)/(1000.0)
+quectometer per trillion years defined such that: rontometer per billion years = qm/Tyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity QuectometerPerTrillionYears;

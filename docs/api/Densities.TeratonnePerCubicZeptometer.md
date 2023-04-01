@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicZeptometer Field
 
-teratonne per cubic zeptometer, defined as: gigatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+teratonne per cubic zeptometer defined such that: gigatonne per cubic attometer = Tt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density TeratonnePerCubicZeptometer;

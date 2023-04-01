@@ -3,7 +3,7 @@
 
 ## Lengths.Exameter Field
 
-exameter, defined as: petameter × 1000.0
+exameter defined such that: petameter = Em × 1000.0.
 
 ```csharp
 public static readonly Length Exameter;

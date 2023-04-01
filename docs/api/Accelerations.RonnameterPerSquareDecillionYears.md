@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareDecillionYears Field
 
-ronnameter per square decillion years, defined as: yottameter per square nonillion years × (1000.0)/((1000.0)*(1000.0))
+ronnameter per square decillion years defined such that: yottameter per square nonillion years = Rm/decillion yr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareDecillionYears;

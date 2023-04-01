@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicQuectometer Field
 
-nanotonne per cubic quectometer, defined as: microtonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+nanotonne per cubic quectometer defined such that: microtonne per cubic rontometer = nt/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density NanotonnePerCubicQuectometer;

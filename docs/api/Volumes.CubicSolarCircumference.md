@@ -3,7 +3,7 @@
 
 ## Volumes.CubicSolarCircumference Field
 
-cubic solar circumference, defined as: cubic solar diameter × (Math.PI)*(Math.PI)*(Math.PI)
+cubic solar circumference defined such that: cubic solar diameter = C(☉)³ × (Math.PI)*(Math.PI)*(Math.PI).
 
 ```csharp
 public static readonly Volume CubicSolarCircumference;

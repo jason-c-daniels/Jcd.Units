@@ -3,7 +3,7 @@
 
 ## Capacitances.Megafarad Field
 
-megafarad, defined as: kilofarad × 1000.0
+megafarad defined such that: kilofarad = MF × 1000.0.
 
 ```csharp
 public static readonly Capacitance Megafarad;

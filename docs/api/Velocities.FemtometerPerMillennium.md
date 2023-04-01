@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerMillennium Field
 
-femtometer per millennium, defined as: picometer per century × (1.0/1000.0)/(10.0)
+femtometer per millennium defined such that: picometer per century = fm/kyr × (1.0/1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerMillennium;

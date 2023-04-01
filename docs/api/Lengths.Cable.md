@@ -3,7 +3,7 @@
 
 ## Lengths.Cable Field
 
-cable, defined as: fathom × 100.0
+cable defined such that: fathom = cable × 100.0.
 
 ```csharp
 public static readonly Length Cable;

@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicQuectometer Field
 
-megatonne per cubic quectometer, defined as: kilotonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+megatonne per cubic quectometer defined such that: kilotonne per cubic rontometer = Mt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MegatonnePerCubicQuectometer;

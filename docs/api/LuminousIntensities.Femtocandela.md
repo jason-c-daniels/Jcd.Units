@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Femtocandela Field
 
-femtocandela, defined as: picocandela × 1.0/1000.0
+femtocandela defined such that: picocandela = fcd × 1.0/1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Femtocandela;

@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerDay Field
 
-petameter per day, defined as: terameter per hour × (1000.0)/(24.0)
+petameter per day defined such that: terameter per hour = Pm/dy × (1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity PetameterPerDay;

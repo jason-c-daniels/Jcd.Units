@@ -3,7 +3,7 @@
 
 ## Volumes.CubicTeralightYear Field
 
-cubic teralight-year, defined as: cubic gigalight-year × (1000.0)*(1000.0)*(1000.0)
+cubic teralight-year defined such that: cubic gigalight-year = Tly³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicTeralightYear;

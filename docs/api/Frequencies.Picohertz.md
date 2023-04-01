@@ -3,7 +3,7 @@
 
 ## Frequencies.Picohertz Field
 
-picohertz, defined as: nanohertz × 1.0/1000.0
+picohertz defined such that: nanohertz = pHz × 1.0/1000.0.
 
 ```csharp
 public static readonly Frequency Picohertz;

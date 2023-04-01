@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareTrillionYears Field
 
-hand per square trillion years, defined as: inch per square billion years × (4.0)/((1000.0)*(1000.0))
+hand per square trillion years defined such that: inch per square billion years = hh/Tyr² × (4.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration HandPerSquareTrillionYears;

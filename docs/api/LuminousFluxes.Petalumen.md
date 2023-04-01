@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Petalumen Field
 
-petalumen, defined as: teralumen × 1000.0
+petalumen defined such that: teralumen = Plm × 1000.0.
 
 ```csharp
 public static readonly LuminousFlux Petalumen;

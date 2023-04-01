@@ -3,7 +3,7 @@
 
 ## Volumes.Deciliter Field
 
-deciliter, defined as: liter × 1.0/10.0
+deciliter defined such that: liter = dL × 1.0/10.0.
 
 ```csharp
 public static readonly Volume Deciliter;

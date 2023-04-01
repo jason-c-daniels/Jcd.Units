@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerYear Field
 
-meter per year, defined as: meter per day × (1.0)/(365.2525)
+meter per year defined such that: meter per day = m/yr × (1.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity MeterPerYear;

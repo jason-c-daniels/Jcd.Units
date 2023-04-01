@@ -3,7 +3,7 @@
 
 ## Pressures.PoundsPerSquareInch Field
 
-pounds per square inch, defined as: SI kilopascal × 6.894757
+pounds per square inch defined such that: SI kilopascal = psi × 6.894757.
 
 ```csharp
 public static readonly Pressure PoundsPerSquareInch;

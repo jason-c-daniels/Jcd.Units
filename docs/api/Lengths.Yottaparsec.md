@@ -3,7 +3,7 @@
 
 ## Lengths.Yottaparsec Field
 
-yottaparsec, defined as: zettaparsec × 1000.0
+yottaparsec defined such that: zettaparsec = Ypc × 1000.0.
 
 ```csharp
 public static readonly Length Yottaparsec;

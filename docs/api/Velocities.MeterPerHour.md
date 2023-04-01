@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerHour Field
 
-meter per hour, defined as: meter per minute × (1.0)/(60.0)
+meter per hour defined such that: meter per minute = m/hr × (1.0)/(60.0).
 
 ```csharp
 public static readonly Velocity MeterPerHour;

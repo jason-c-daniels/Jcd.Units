@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerQuectosecond Field
 
-hectometer per quectosecond, defined as: dekameter per rontosecond × (10.0)/(1.0/1000.0)
+hectometer per quectosecond defined such that: dekameter per rontosecond = hm/qs × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity HectometerPerQuectosecond;

@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicRonnameter Field
 
-nanotonne per cubic ronnameter, defined as: microtonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+nanotonne per cubic ronnameter defined such that: microtonne per cubic yottameter = nt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density NanotonnePerCubicRonnameter;

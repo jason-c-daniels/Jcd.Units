@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareDay Field
 
-nanometer per square day, defined as: micrometer per square hour × (1.0/1000.0)/((24.0)*(24.0))
+nanometer per square day defined such that: micrometer per square hour = nm/dy² × (1.0/1000.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareDay;

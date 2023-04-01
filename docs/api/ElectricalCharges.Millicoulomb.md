@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Millicoulomb Field
 
-millicoulomb, defined as: centicoulomb × 1.0/10.0
+millicoulomb defined such that: centicoulomb = mC × 1.0/10.0.
 
 ```csharp
 public static readonly ElectricalCharge Millicoulomb;

@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareMillennium Field
 
-foot per square millennium, defined as: inch per square century × (12)/((10.0)*(10.0))
+foot per square millennium defined such that: inch per square century = ft/kyr² × (12)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration FootPerSquareMillennium;

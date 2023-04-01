@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicRonnameter Field
 
-hectogram per cubic ronnameter, defined as: kilogram per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+hectogram per cubic ronnameter defined such that: kilogram per cubic yottameter = hg/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density HectogramPerCubicRonnameter;

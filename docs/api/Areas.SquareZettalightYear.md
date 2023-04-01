@@ -3,7 +3,7 @@
 
 ## Areas.SquareZettalightYear Field
 
-square zettalight-year, defined as: square exalight-year × (1000.0)*(1000.0)
+square zettalight-year defined such that: square exalight-year = Zly² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareZettalightYear;

@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerQuintillionYears Field
 
-decimeter per quintillion years, defined as: meter per quadrillion years × (1.0/10.0)/(1000.0)
+decimeter per quintillion years defined such that: meter per quadrillion years = dm/Eyr × (1.0/10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity DecimeterPerQuintillionYears;

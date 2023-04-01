@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicPicometer Field
 
-dekagram per cubic picometer, defined as: hectogram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+dekagram per cubic picometer defined such that: hectogram per cubic nanometer = dag/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density DekagramPerCubicPicometer;

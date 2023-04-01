@@ -3,7 +3,7 @@
 
 ## Areas.SquarePoint Field
 
-square point, defined as: square inch × (1.0/72.0)*(1.0/72.0)
+square point defined such that: square inch = p² × (1.0/72.0)*(1.0/72.0).
 
 ```csharp
 public static readonly Area SquarePoint;

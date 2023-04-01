@@ -3,7 +3,7 @@
 
 ## Masses.Dekatonne Field
 
-dekatonne, defined as: tonne × 10.0
+dekatonne defined such that: tonne = dat × 10.0.
 
 ```csharp
 public static readonly Mass Dekatonne;

@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareQuintillionYears Field
 
-terameter per square quintillion years, defined as: gigameter per square quadrillion years × (1000.0)/((1000.0)*(1000.0))
+terameter per square quintillion years defined such that: gigameter per square quadrillion years = Tm/Eyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareQuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerSextillionYears Field
 
-quettameter per sextillion years, defined as: ronnameter per quintillion years × (1000.0)/(1000.0)
+quettameter per sextillion years defined such that: ronnameter per quintillion years = Qm/Zyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity QuettameterPerSextillionYears;

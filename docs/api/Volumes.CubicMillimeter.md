@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMillimeter Field
 
-cubic millimeter, defined as: cubic centimeter × (1.0/10.0)*(1.0/10.0)*(1.0/10.0)
+cubic millimeter defined such that: cubic centimeter = mm³ × (1.0/10.0)*(1.0/10.0)*(1.0/10.0).
 
 ```csharp
 public static readonly Volume CubicMillimeter;

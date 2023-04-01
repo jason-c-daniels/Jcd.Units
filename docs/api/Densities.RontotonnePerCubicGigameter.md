@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicGigameter Field
 
-rontotonne per cubic gigameter, defined as: yoctotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+rontotonne per cubic gigameter defined such that: yoctotonne per cubic megameter = rt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density RontotonnePerCubicGigameter;

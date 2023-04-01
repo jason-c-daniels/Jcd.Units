@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Gigacoulomb Field
 
-gigacoulomb, defined as: megacoulomb × 1000.0
+gigacoulomb defined such that: megacoulomb = GC × 1000.0.
 
 ```csharp
 public static readonly ElectricalCharge Gigacoulomb;

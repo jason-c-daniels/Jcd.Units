@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerNanosecond Field
 
-hectometer per nanosecond, defined as: dekameter per microsecond × (10.0)/(1.0/1000.0)
+hectometer per nanosecond defined such that: dekameter per microsecond = hm/ns × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity HectometerPerNanosecond;

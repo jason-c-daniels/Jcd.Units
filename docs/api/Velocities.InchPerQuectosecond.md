@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerQuectosecond Field
 
-inch per quectosecond, defined as: SI centimeter per rontosecond × (2.54)/(1.0/1000.0)
+inch per quectosecond defined such that: SI centimeter per rontosecond = in/qs × (2.54)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity InchPerQuectosecond;

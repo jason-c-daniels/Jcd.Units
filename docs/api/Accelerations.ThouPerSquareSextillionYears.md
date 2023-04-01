@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareSextillionYears Field
 
-thou per square sextillion years, defined as: foot per square quintillion years × (1.0/12000.0)/((1000.0)*(1000.0))
+thou per square sextillion years defined such that: foot per square quintillion years = th/Zyr² × (1.0/12000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration ThouPerSquareSextillionYears;

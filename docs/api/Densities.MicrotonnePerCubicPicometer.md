@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicPicometer Field
 
-microtonne per cubic picometer, defined as: millitonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+microtonne per cubic picometer defined such that: millitonne per cubic nanometer = μt/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MicrotonnePerCubicPicometer;

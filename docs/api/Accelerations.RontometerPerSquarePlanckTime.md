@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquarePlanckTime Field
 
-rontometer per square planck-time, defined as: yoctometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+rontometer per square planck-time defined such that: yoctometer per square microsecond = rm/tₚ² × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp
 public static readonly Acceleration RontometerPerSquarePlanckTime;

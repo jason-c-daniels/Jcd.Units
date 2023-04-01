@@ -23,7 +23,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
    public static readonly Volume CubicMeter = new ("cubic meter", "m³", system: "SI");
 
    /// <summary>
-   /// cubic decimeter, defined as: cubic meter × (1.0/10.0)*(1.0/10.0)*(1.0/10.0)
+   /// cubic decimeter defined such that: cubic meter = dm³ × (1.0/10.0)*(1.0/10.0)*(1.0/10.0).
    /// </summary>
    public static readonly Volume CubicDecimeter = new (
                                                        "cubic decimeter"
@@ -34,7 +34,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic centimeter, defined as: cubic decimeter × (1.0/10.0)*(1.0/10.0)*(1.0/10.0)
+   /// cubic centimeter defined such that: cubic decimeter = cm³ × (1.0/10.0)*(1.0/10.0)*(1.0/10.0).
    /// </summary>
    public static readonly Volume CubicCentimeter = new (
                                                         "cubic centimeter"
@@ -45,7 +45,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic millimeter, defined as: cubic centimeter × (1.0/10.0)*(1.0/10.0)*(1.0/10.0)
+   /// cubic millimeter defined such that: cubic centimeter = mm³ × (1.0/10.0)*(1.0/10.0)*(1.0/10.0).
    /// </summary>
    public static readonly Volume CubicMillimeter = new (
                                                         "cubic millimeter"
@@ -56,7 +56,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic micrometer, defined as: cubic millimeter × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic micrometer defined such that: cubic millimeter = μm³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicMicrometer = new (
                                                         "cubic micrometer"
@@ -67,7 +67,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic nanometer, defined as: cubic micrometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic nanometer defined such that: cubic micrometer = nm³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicNanometer = new (
                                                        "cubic nanometer"
@@ -78,7 +78,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic picometer, defined as: cubic nanometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic picometer defined such that: cubic nanometer = pm³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicPicometer = new (
                                                        "cubic picometer"
@@ -89,7 +89,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic femtometer, defined as: cubic picometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic femtometer defined such that: cubic picometer = fm³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicFemtometer = new (
                                                         "cubic femtometer"
@@ -100,7 +100,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic attometer, defined as: cubic femtometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic attometer defined such that: cubic femtometer = am³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicAttometer = new (
                                                        "cubic attometer"
@@ -111,7 +111,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic zeptometer, defined as: cubic attometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic zeptometer defined such that: cubic attometer = zm³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicZeptometer = new (
                                                         "cubic zeptometer"
@@ -122,7 +122,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic yoctometer, defined as: cubic zeptometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic yoctometer defined such that: cubic zeptometer = ym³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicYoctometer = new (
                                                         "cubic yoctometer"
@@ -133,7 +133,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic rontometer, defined as: cubic yoctometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic rontometer defined such that: cubic yoctometer = rm³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicRontometer = new (
                                                         "cubic rontometer"
@@ -144,7 +144,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic quectometer, defined as: cubic rontometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic quectometer defined such that: cubic rontometer = qm³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicQuectometer = new (
                                                          "cubic quectometer"
@@ -155,7 +155,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// cubic dekameter, defined as: cubic meter × (10.0)*(10.0)*(10.0)
+   /// cubic dekameter defined such that: cubic meter = dam³ × (10.0)*(10.0)*(10.0).
    /// </summary>
    public static readonly Volume CubicDekameter = new (
                                                        "cubic dekameter"
@@ -166,7 +166,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic hectometer, defined as: cubic dekameter × (10.0)*(10.0)*(10.0)
+   /// cubic hectometer defined such that: cubic dekameter = hm³ × (10.0)*(10.0)*(10.0).
    /// </summary>
    public static readonly Volume CubicHectometer = new (
                                                         "cubic hectometer"
@@ -177,7 +177,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic kilometer, defined as: cubic hectometer × (10.0)*(10.0)*(10.0)
+   /// cubic kilometer defined such that: cubic hectometer = km³ × (10.0)*(10.0)*(10.0).
    /// </summary>
    public static readonly Volume CubicKilometer = new (
                                                        "cubic kilometer"
@@ -188,7 +188,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic megameter, defined as: cubic kilometer × (1000.0)*(1000.0)*(1000.0)
+   /// cubic megameter defined such that: cubic kilometer = Mm³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicMegameter = new (
                                                        "cubic megameter"
@@ -199,7 +199,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic gigameter, defined as: cubic megameter × (1000.0)*(1000.0)*(1000.0)
+   /// cubic gigameter defined such that: cubic megameter = Gm³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicGigameter = new (
                                                        "cubic gigameter"
@@ -210,7 +210,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic terameter, defined as: cubic gigameter × (1000.0)*(1000.0)*(1000.0)
+   /// cubic terameter defined such that: cubic gigameter = Tm³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicTerameter = new (
                                                        "cubic terameter"
@@ -221,7 +221,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic petameter, defined as: cubic terameter × (1000.0)*(1000.0)*(1000.0)
+   /// cubic petameter defined such that: cubic terameter = Pm³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicPetameter = new (
                                                        "cubic petameter"
@@ -232,7 +232,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       );
 
    /// <summary>
-   /// cubic exameter, defined as: cubic petameter × (1000.0)*(1000.0)*(1000.0)
+   /// cubic exameter defined such that: cubic petameter = Em³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicExameter = new (
                                                       "cubic exameter"
@@ -243,7 +243,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                      );
 
    /// <summary>
-   /// cubic zettameter, defined as: cubic exameter × (1000.0)*(1000.0)*(1000.0)
+   /// cubic zettameter defined such that: cubic exameter = Zm³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicZettameter = new (
                                                         "cubic zettameter"
@@ -254,7 +254,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic yottameter, defined as: cubic zettameter × (1000.0)*(1000.0)*(1000.0)
+   /// cubic yottameter defined such that: cubic zettameter = Ym³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicYottameter = new (
                                                         "cubic yottameter"
@@ -265,7 +265,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic ronnameter, defined as: cubic yottameter × (1000.0)*(1000.0)*(1000.0)
+   /// cubic ronnameter defined such that: cubic yottameter = Rm³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicRonnameter = new (
                                                         "cubic ronnameter"
@@ -276,7 +276,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// cubic quettameter, defined as: cubic ronnameter × (1000.0)*(1000.0)*(1000.0)
+   /// cubic quettameter defined such that: cubic ronnameter = Qm³ × (1000.0)*(1000.0)*(1000.0).
    /// </summary>
    public static readonly Volume CubicQuettameter = new (
                                                          "cubic quettameter"
@@ -287,127 +287,127 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         );
 
    /// <summary>
-   /// liter, a synonym for cubic decimeter
+   /// liter is a synonym for cubic decimeter
    /// </summary>
    public static readonly Volume Liter = new ("liter", "L", CubicDecimeter, system: "SI");
 
    /// <summary>
-   /// deciliter, defined as: liter × 1.0/10.0
+   /// deciliter defined such that: liter = dL × 1.0/10.0.
    /// </summary>
    public static readonly Volume Deciliter = new ("deciliter", "dL", Liter, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// centiliter, defined as: deciliter × 1.0/10.0
+   /// centiliter defined such that: deciliter = cL × 1.0/10.0.
    /// </summary>
    public static readonly Volume Centiliter = new ("centiliter", "cL", Deciliter, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// milliliter, defined as: centiliter × 1.0/10.0
+   /// milliliter defined such that: centiliter = mL × 1.0/10.0.
    /// </summary>
    public static readonly Volume Milliliter = new ("milliliter", "mL", Centiliter, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// microliter, defined as: milliliter × 1.0/1000.0
+   /// microliter defined such that: milliliter = μL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Microliter = new ("microliter", "μL", Milliliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// nanoliter, defined as: microliter × 1.0/1000.0
+   /// nanoliter defined such that: microliter = nL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Nanoliter = new ("nanoliter", "nL", Microliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// picoliter, defined as: nanoliter × 1.0/1000.0
+   /// picoliter defined such that: nanoliter = pL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Picoliter = new ("picoliter", "pL", Nanoliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// femtoliter, defined as: picoliter × 1.0/1000.0
+   /// femtoliter defined such that: picoliter = fL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Femtoliter = new ("femtoliter", "fL", Picoliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// attoliter, defined as: femtoliter × 1.0/1000.0
+   /// attoliter defined such that: femtoliter = aL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Attoliter = new ("attoliter", "aL", Femtoliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// zeptoliter, defined as: attoliter × 1.0/1000.0
+   /// zeptoliter defined such that: attoliter = zL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Zeptoliter = new ("zeptoliter", "zL", Attoliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// yoctoliter, defined as: zeptoliter × 1.0/1000.0
+   /// yoctoliter defined such that: zeptoliter = yL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Yoctoliter = new ("yoctoliter", "yL", Zeptoliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// rontoliter, defined as: yoctoliter × 1.0/1000.0
+   /// rontoliter defined such that: yoctoliter = rL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Rontoliter = new ("rontoliter", "rL", Yoctoliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// quectoliter, defined as: rontoliter × 1.0/1000.0
+   /// quectoliter defined such that: rontoliter = qL × 1.0/1000.0.
    /// </summary>
    public static readonly Volume Quectoliter = new ("quectoliter", "qL", Rontoliter, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// dekaliter, defined as: liter × 10.0
+   /// dekaliter defined such that: liter = daL × 10.0.
    /// </summary>
    public static readonly Volume Dekaliter = new ("dekaliter", "daL", Liter, 10.0, system: "SI");
 
    /// <summary>
-   /// hectoliter, defined as: dekaliter × 10.0
+   /// hectoliter defined such that: dekaliter = hL × 10.0.
    /// </summary>
    public static readonly Volume Hectoliter = new ("hectoliter", "hL", Dekaliter, 10.0, system: "SI");
 
    /// <summary>
-   /// kiloliter, defined as: hectoliter × 10.0
+   /// kiloliter defined such that: hectoliter = kL × 10.0.
    /// </summary>
    public static readonly Volume Kiloliter = new ("kiloliter", "kL", Hectoliter, 10.0, system: "SI");
 
    /// <summary>
-   /// megaliter, defined as: kiloliter × 1000.0
+   /// megaliter defined such that: kiloliter = ML × 1000.0.
    /// </summary>
    public static readonly Volume Megaliter = new ("megaliter", "ML", Kiloliter, 1000.0, system: "SI");
 
    /// <summary>
-   /// gigaliter, defined as: megaliter × 1000.0
+   /// gigaliter defined such that: megaliter = GL × 1000.0.
    /// </summary>
    public static readonly Volume Gigaliter = new ("gigaliter", "GL", Megaliter, 1000.0, system: "SI");
 
    /// <summary>
-   /// teraliter, defined as: gigaliter × 1000.0
+   /// teraliter defined such that: gigaliter = TL × 1000.0.
    /// </summary>
    public static readonly Volume Teraliter = new ("teraliter", "TL", Gigaliter, 1000.0, system: "SI");
 
    /// <summary>
-   /// petaliter, defined as: teraliter × 1000.0
+   /// petaliter defined such that: teraliter = PL × 1000.0.
    /// </summary>
    public static readonly Volume Petaliter = new ("petaliter", "PL", Teraliter, 1000.0, system: "SI");
 
    /// <summary>
-   /// exaliter, defined as: petaliter × 1000.0
+   /// exaliter defined such that: petaliter = EL × 1000.0.
    /// </summary>
    public static readonly Volume Exaliter = new ("exaliter", "EL", Petaliter, 1000.0, system: "SI");
 
    /// <summary>
-   /// zettaliter, defined as: exaliter × 1000.0
+   /// zettaliter defined such that: exaliter = ZL × 1000.0.
    /// </summary>
    public static readonly Volume Zettaliter = new ("zettaliter", "ZL", Exaliter, 1000.0, system: "SI");
 
    /// <summary>
-   /// yottaliter, defined as: zettaliter × 1000.0
+   /// yottaliter defined such that: zettaliter = YL × 1000.0.
    /// </summary>
    public static readonly Volume Yottaliter = new ("yottaliter", "YL", Zettaliter, 1000.0, system: "SI");
 
    /// <summary>
-   /// ronnaliter, defined as: yottaliter × 1000.0
+   /// ronnaliter defined such that: yottaliter = RL × 1000.0.
    /// </summary>
    public static readonly Volume Ronnaliter = new ("ronnaliter", "RL", Yottaliter, 1000.0, system: "SI");
 
    /// <summary>
-   /// quettaliter, defined as: ronnaliter × 1000.0
+   /// quettaliter defined such that: ronnaliter = QL × 1000.0.
    /// </summary>
    public static readonly Volume Quettaliter = new ("quettaliter", "QL", Ronnaliter, 1000.0, system: "SI");
 }

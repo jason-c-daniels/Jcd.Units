@@ -3,7 +3,7 @@
 
 ## Volumes.CubicYottameter Field
 
-cubic yottameter, defined as: cubic zettameter × (1000.0)*(1000.0)*(1000.0)
+cubic yottameter defined such that: cubic zettameter = Ym³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicYottameter;

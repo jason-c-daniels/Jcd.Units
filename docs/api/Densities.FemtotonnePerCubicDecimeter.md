@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicDecimeter Field
 
-femtotonne per cubic decimeter, defined as: picotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+femtotonne per cubic decimeter defined such that: picotonne per cubic meter = ft/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density FemtotonnePerCubicDecimeter;

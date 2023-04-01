@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerSextillionYears Field
 
-gigameter per sextillion years, defined as: megameter per quintillion years × (1000.0)/(1000.0)
+gigameter per sextillion years defined such that: megameter per quintillion years = Gm/Zyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity GigameterPerSextillionYears;

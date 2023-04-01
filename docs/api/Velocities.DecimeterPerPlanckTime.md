@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerPlanckTime Field
 
-decimeter per planck-time, defined as: meter per microsecond × (1.0/10.0)/(5.391247E-38)
+decimeter per planck-time defined such that: meter per microsecond = dm/tₚ × (1.0/10.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity DecimeterPerPlanckTime;

@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicAttometer Field
 
-petatonne per cubic attometer, defined as: teratonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+petatonne per cubic attometer defined such that: teratonne per cubic femtometer = Pt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PetatonnePerCubicAttometer;

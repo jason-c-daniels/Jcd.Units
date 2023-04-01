@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerDay Field
 
-link per day, defined as: SI meter per hour × (0.20116)/(24.0)
+link per day defined such that: SI meter per hour = li/dy × (0.20116)/(24.0).
 
 ```csharp
 public static readonly Velocity LinkPerDay;

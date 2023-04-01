@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareDecade Field
 
-planck-length per square decade, defined as: SI meter per square year × (1.616255E-35)/((10.0)*(10.0))
+planck-length per square decade defined such that: SI meter per square year = ℓₚ/decade² × (1.616255E-35)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareDecade;

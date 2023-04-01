@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareNonillionYears Field
 
-pica per square nonillion years, defined as: point per square octillion years × (12.0)/((1000.0)*(1000.0))
+pica per square nonillion years defined such that: point per square octillion years = P/Qyr² × (12.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PicaPerSquareNonillionYears;

@@ -3,7 +3,7 @@
 
 ## Forces.Rontonewton Field
 
-rontonewton, defined as: yoctonewton × 1.0/1000.0
+rontonewton defined such that: yoctonewton = rN × 1.0/1000.0.
 
 ```csharp
 public static readonly Force Rontonewton;

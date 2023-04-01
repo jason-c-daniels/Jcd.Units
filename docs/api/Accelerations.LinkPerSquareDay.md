@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareDay Field
 
-link per square day, defined as: SI meter per square hour × (0.20116)/((24.0)*(24.0))
+link per square day defined such that: SI meter per square hour = li/dy² × (0.20116)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration LinkPerSquareDay;

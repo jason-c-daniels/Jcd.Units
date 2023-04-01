@@ -3,7 +3,7 @@
 
 ## Areas.SquareTwip Field
 
-square twip, defined as: square foot × (1.0/17280.0)*(1.0/17280.0)
+square twip defined such that: square foot = twip² × (1.0/17280.0)*(1.0/17280.0).
 
 ```csharp
 public static readonly Area SquareTwip;

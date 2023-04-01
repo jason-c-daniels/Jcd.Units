@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicYottameter Field
 
-yottatonne per cubic yottameter, defined as: zettatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+yottatonne per cubic yottameter defined such that: zettatonne per cubic zettameter = Yt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density YottatonnePerCubicYottameter;

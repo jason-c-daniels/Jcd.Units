@@ -3,7 +3,7 @@
 
 ## Amounts.Gigamole Field
 
-gigamole, defined as: megamole × 1000.0
+gigamole defined such that: megamole = Gmol × 1000.0.
 
 ```csharp
 public static readonly Amount Gigamole;

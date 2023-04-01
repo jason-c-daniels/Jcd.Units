@@ -3,7 +3,7 @@
 
 ## Forces.PoundForce Field
 
-pound-force, defined as: SI newton × 4.448222
+pound-force defined such that: SI newton = lbf × 4.448222.
 
 ```csharp
 public static readonly Force PoundForce;

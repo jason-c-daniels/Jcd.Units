@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareNonillionYears Field
 
-exameter per square nonillion years, defined as: petameter per square octillion years × (1000.0)/((1000.0)*(1000.0))
+exameter per square nonillion years defined such that: petameter per square octillion years = Em/Qyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareNonillionYears;

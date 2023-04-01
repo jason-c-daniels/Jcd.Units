@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerMinute Field
 
-league per minute, defined as: mile per second × (3.0)/(60.0)
+league per minute defined such that: mile per second = lea/min × (3.0)/(60.0).
 
 ```csharp
 public static readonly Velocity LeaguePerMinute;

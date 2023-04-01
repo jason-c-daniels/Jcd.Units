@@ -3,7 +3,7 @@
 
 ## Inductances.Terahenry Field
 
-terahenry, defined as: gigahenry × 1000.0
+terahenry defined such that: gigahenry = TH × 1000.0.
 
 ```csharp
 public static readonly Inductance Terahenry;

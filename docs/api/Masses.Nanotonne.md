@@ -3,7 +3,7 @@
 
 ## Masses.Nanotonne Field
 
-nanotonne, defined as: microtonne × 1.0/1000.0
+nanotonne defined such that: microtonne = nt × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Nanotonne;

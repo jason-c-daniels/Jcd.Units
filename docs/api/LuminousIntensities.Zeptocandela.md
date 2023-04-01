@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Zeptocandela Field
 
-zeptocandela, defined as: attocandela × 1.0/1000.0
+zeptocandela defined such that: attocandela = zcd × 1.0/1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Zeptocandela;

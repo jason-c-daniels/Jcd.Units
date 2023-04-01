@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareDecillionYears Field
 
-league per square decillion years, defined as: mile per square nonillion years × (3.0)/((1000.0)*(1000.0))
+league per square decillion years defined such that: mile per square nonillion years = lea/decillion yr² × (3.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareDecillionYears;

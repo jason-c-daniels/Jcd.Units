@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Megaweber Field
 
-megaweber, defined as: kiloweber × 1000.0
+megaweber defined such that: kiloweber = MWb × 1000.0.
 
 ```csharp
 public static readonly MagneticFlux Megaweber;

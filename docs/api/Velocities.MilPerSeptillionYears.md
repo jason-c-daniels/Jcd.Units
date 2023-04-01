@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerSeptillionYears Field
 
-mil per septillion years, defined as: inch per sextillion years × (1.0/1000.0)/(1000.0)
+mil per septillion years defined such that: inch per sextillion years = mil/Yyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MilPerSeptillionYears;

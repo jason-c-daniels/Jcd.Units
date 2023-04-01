@@ -3,7 +3,7 @@
 
 ## Illuminances.Hectolux Field
 
-hectolux, defined as: dekalux × 10.0
+hectolux defined such that: dekalux = hlx × 10.0.
 
 ```csharp
 public static readonly Illuminance Hectolux;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Teraweber Field
 
-teraweber, defined as: gigaweber × 1000.0
+teraweber defined such that: gigaweber = TWb × 1000.0.
 
 ```csharp
 public static readonly MagneticFlux Teraweber;

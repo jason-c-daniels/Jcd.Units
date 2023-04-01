@@ -3,7 +3,7 @@
 
 ## Volumes.CubicBarleycorn Field
 
-cubic barleycorn, defined as: cubic foot × (1.0/36.0)*(1.0/36.0)*(1.0/36.0)
+cubic barleycorn defined such that: cubic foot = barleycorn³ × (1.0/36.0)*(1.0/36.0)*(1.0/36.0).
 
 ```csharp
 public static readonly Volume CubicBarleycorn;

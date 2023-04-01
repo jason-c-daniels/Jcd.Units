@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerDecillionYears Field
 
-mile per decillion years, defined as: furlong per nonillion years × (8.0)/(1000.0)
+mile per decillion years defined such that: furlong per nonillion years = mi/decillion yr × (8.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MilePerDecillionYears;

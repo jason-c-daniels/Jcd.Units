@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicExameter Field
 
-femtotonne per cubic exameter, defined as: picotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+femtotonne per cubic exameter defined such that: picotonne per cubic petameter = ft/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density FemtotonnePerCubicExameter;

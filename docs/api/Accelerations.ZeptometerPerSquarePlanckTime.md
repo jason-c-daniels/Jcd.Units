@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquarePlanckTime Field
 
-zeptometer per square planck-time, defined as: attometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+zeptometer per square planck-time defined such that: attometer per square microsecond = zm/tₚ² × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquarePlanckTime;

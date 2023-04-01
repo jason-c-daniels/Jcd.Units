@@ -3,7 +3,7 @@
 
 ## Volumes.CubicPetameter Field
 
-cubic petameter, defined as: cubic terameter × (1000.0)*(1000.0)*(1000.0)
+cubic petameter defined such that: cubic terameter = Pm³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicPetameter;

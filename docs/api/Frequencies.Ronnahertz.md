@@ -3,7 +3,7 @@
 
 ## Frequencies.Ronnahertz Field
 
-ronnahertz, defined as: yottahertz × 1000.0
+ronnahertz defined such that: yottahertz = RHz × 1000.0.
 
 ```csharp
 public static readonly Frequency Ronnahertz;

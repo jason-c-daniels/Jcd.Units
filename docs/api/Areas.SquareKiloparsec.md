@@ -3,7 +3,7 @@
 
 ## Areas.SquareKiloparsec Field
 
-square kiloparsec, defined as: square hectoparsec × (10.0)*(10.0)
+square kiloparsec defined such that: square hectoparsec = kpc² × (10.0)*(10.0).
 
 ```csharp
 public static readonly Area SquareKiloparsec;

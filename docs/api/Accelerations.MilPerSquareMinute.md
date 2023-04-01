@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareMinute Field
 
-mil per square minute, defined as: inch per square second × (1.0/1000.0)/((60.0)*(60.0))
+mil per square minute defined such that: inch per square second = mil/min² × (1.0/1000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration MilPerSquareMinute;

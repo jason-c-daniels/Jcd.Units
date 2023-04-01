@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicMegameter Field
 
-kilogram per cubic megameter, defined as: kilogram per cubic kilometer × (1.0)/((1000.0)*(1000.0)*(1000.0))
+kilogram per cubic megameter defined such that: kilogram per cubic kilometer = kg/Mm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density KilogramPerCubicMegameter;

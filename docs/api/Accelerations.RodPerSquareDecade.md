@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareDecade Field
 
-rod per square decade, defined as: SI meter per square year × (5.0292)/((10.0)*(10.0))
+rod per square decade defined such that: SI meter per square year = rd/decade² × (5.0292)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration RodPerSquareDecade;

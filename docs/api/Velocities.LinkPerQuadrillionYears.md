@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerQuadrillionYears Field
 
-link per quadrillion years, defined as: SI meter per trillion years × (0.20116)/(1000.0)
+link per quadrillion years defined such that: SI meter per trillion years = li/Pyr × (0.20116)/(1000.0).
 
 ```csharp
 public static readonly Velocity LinkPerQuadrillionYears;

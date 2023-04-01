@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareDecade Field
 
-hand per square decade, defined as: inch per square year × (4.0)/((10.0)*(10.0))
+hand per square decade defined such that: inch per square year = hh/decade² × (4.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration HandPerSquareDecade;

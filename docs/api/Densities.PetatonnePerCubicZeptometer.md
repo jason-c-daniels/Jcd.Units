@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicZeptometer Field
 
-petatonne per cubic zeptometer, defined as: teratonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+petatonne per cubic zeptometer defined such that: teratonne per cubic attometer = Pt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PetatonnePerCubicZeptometer;

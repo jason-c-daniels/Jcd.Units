@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerWeek Field
 
-picometer per week, defined as: nanometer per day × (1.0/1000.0)/(7.0)
+picometer per week defined such that: nanometer per day = pm/wk × (1.0/1000.0)/(7.0).
 
 ```csharp
 public static readonly Velocity PicometerPerWeek;

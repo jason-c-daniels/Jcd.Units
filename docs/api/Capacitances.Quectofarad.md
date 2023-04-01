@@ -3,7 +3,7 @@
 
 ## Capacitances.Quectofarad Field
 
-quectofarad, defined as: rontofarad × 1.0/1000.0
+quectofarad defined such that: rontofarad = qF × 1.0/1000.0.
 
 ```csharp
 public static readonly Capacitance Quectofarad;

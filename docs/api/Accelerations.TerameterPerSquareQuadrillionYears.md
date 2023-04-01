@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareQuadrillionYears Field
 
-terameter per square quadrillion years, defined as: gigameter per square trillion years × (1000.0)/((1000.0)*(1000.0))
+terameter per square quadrillion years defined such that: gigameter per square trillion years = Tm/Pyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareQuadrillionYears;

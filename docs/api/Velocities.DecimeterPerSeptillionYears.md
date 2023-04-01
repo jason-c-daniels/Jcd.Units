@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerSeptillionYears Field
 
-decimeter per septillion years, defined as: meter per sextillion years × (1.0/10.0)/(1000.0)
+decimeter per septillion years defined such that: meter per sextillion years = dm/Yyr × (1.0/10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity DecimeterPerSeptillionYears;

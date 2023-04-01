@@ -3,7 +3,7 @@
 
 ## StorageUnits.Yottabit Field
 
-yottabit, defined as: zettabit × 1000.0
+yottabit defined such that: zettabit = Yb × 1000.0.
 
 ```csharp
 public static readonly Storage Yottabit;

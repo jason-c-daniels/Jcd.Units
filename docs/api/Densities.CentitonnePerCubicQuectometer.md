@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicQuectometer Field
 
-centitonne per cubic quectometer, defined as: decitonne per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+centitonne per cubic quectometer defined such that: decitonne per cubic rontometer = ct/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density CentitonnePerCubicQuectometer;

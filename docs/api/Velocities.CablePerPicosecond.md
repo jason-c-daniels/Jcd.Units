@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerPicosecond Field
 
-cable per picosecond, defined as: fathom per nanosecond × (100.0)/(1.0/1000.0)
+cable per picosecond defined such that: fathom per nanosecond = cable/ps × (100.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity CablePerPicosecond;

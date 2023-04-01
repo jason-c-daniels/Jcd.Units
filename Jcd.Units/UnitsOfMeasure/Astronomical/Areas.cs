@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
-   /// square light-year, defined as: SI square meter × (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0)
+   /// square light-year defined such that: SI square meter = ly² × (9_460_730_472_580_800.0)*(9_460_730_472_580_800.0).
    /// </summary>
    public static readonly Area SquareLightYear = new (
                                                       "square light-year"
@@ -29,7 +29,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                      );
 
    /// <summary>
-   /// square light-second, defined as: SI square meter × (299_792_458.0)*(299_792_458.0)
+   /// square light-second defined such that: SI square meter = ls² × (299_792_458.0)*(299_792_458.0).
    /// </summary>
    public static readonly Area SquareLightSecond = new (
                                                         "square light-second"
@@ -40,7 +40,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square light-minute, defined as: square light-second × (60.0)*(60.0)
+   /// square light-minute defined such that: square light-second = lm² × (60.0)*(60.0).
    /// </summary>
    public static readonly Area SquareLightMinute = new (
                                                         "square light-minute"
@@ -51,7 +51,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square astronomical unit, defined as: SI square kilometer × (149597870.691)*(149597870.691)
+   /// square astronomical unit defined such that: SI square kilometer = AU² × (149597870.691)*(149597870.691).
    /// </summary>
    public static readonly Area SquareAstronomicalUnit = new (
                                                              "square astronomical unit"
@@ -62,7 +62,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                             );
 
    /// <summary>
-   /// square light-hour, defined as: square light-minute × (60.0)*(60.0)
+   /// square light-hour defined such that: square light-minute = lh² × (60.0)*(60.0).
    /// </summary>
    public static readonly Area SquareLightHour = new (
                                                       "square light-hour"
@@ -73,7 +73,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                      );
 
    /// <summary>
-   /// square light-day, defined as: square light-hour × (24.0)*(24.0)
+   /// square light-day defined such that: square light-hour = ld² × (24.0)*(24.0).
    /// </summary>
    public static readonly Area SquareLightDay = new (
                                                      "square light-day"
@@ -84,7 +84,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                     );
 
    /// <summary>
-   /// square light-week, defined as: square light-day × (7.0)*(7.0)
+   /// square light-week defined such that: square light-day = lw² × (7.0)*(7.0).
    /// </summary>
    public static readonly Area SquareLightWeek = new (
                                                       "square light-week"
@@ -95,7 +95,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                      );
 
    /// <summary>
-   /// square parsec, defined as: square light-year × (3.2615637769757)*(3.2615637769757)
+   /// square parsec defined such that: square light-year = pc² × (3.2615637769757)*(3.2615637769757).
    /// </summary>
    public static readonly Area SquareParsec = new (
                                                    "square parsec"
@@ -106,7 +106,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                   );
 
    /// <summary>
-   /// square earth radius, defined as: SI square kilometer × (6_371.0)*(6_371.0)
+   /// square earth radius defined such that: SI square kilometer = R(⊕)² × (6_371.0)*(6_371.0).
    /// </summary>
    public static readonly Area SquareEarthRadius = new (
                                                         "square earth radius"
@@ -117,7 +117,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square jovian radius, defined as: SI square kilometer × (69_911.0)*(69_911.0)
+   /// square jovian radius defined such that: SI square kilometer = R(J)² × (69_911.0)*(69_911.0).
    /// </summary>
    public static readonly Area SquareJovianRadius = new (
                                                          "square jovian radius"
@@ -128,7 +128,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                         );
 
    /// <summary>
-   /// square lunar radius, defined as: SI square kilometer × (1_737.4)*(1_737.4)
+   /// square lunar radius defined such that: SI square kilometer = R(L)² × (1_737.4)*(1_737.4).
    /// </summary>
    public static readonly Area SquareLunarRadius = new (
                                                         "square lunar radius"
@@ -139,7 +139,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square mars radius, defined as: SI square kilometer × (3_389.5)*(3_389.5)
+   /// square mars radius defined such that: SI square kilometer = R(♂)² × (3_389.5)*(3_389.5).
    /// </summary>
    public static readonly Area SquareMarsRadius = new (
                                                        "square mars radius"
@@ -150,7 +150,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// square solar radius, defined as: SI square kilometer × (695_700.0)*(695_700.0)
+   /// square solar radius defined such that: SI square kilometer = R(☉)² × (695_700.0)*(695_700.0).
    /// </summary>
    public static readonly Area SquareSolarRadius = new (
                                                         "square solar radius"
@@ -161,7 +161,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square earth diameter, defined as: square earth radius × (2.0)*(2.0)
+   /// square earth diameter defined such that: square earth radius = D(⊕)² × (2.0)*(2.0).
    /// </summary>
    public static readonly Area SquareEarthDiameter = new (
                                                           "square earth diameter"
@@ -172,7 +172,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square dekalight-year, defined as: square light-year × (10.0)*(10.0)
+   /// square dekalight-year defined such that: square light-year = daly² × (10.0)*(10.0).
    /// </summary>
    public static readonly Area SquareDekalightYear = new (
                                                           "square dekalight-year"
@@ -183,7 +183,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square jovian diameter, defined as: square jovian radius × (2.0)*(2.0)
+   /// square jovian diameter defined such that: square jovian radius = D(J)² × (2.0)*(2.0).
    /// </summary>
    public static readonly Area SquareJovianDiameter = new (
                                                            "square jovian diameter"
@@ -194,7 +194,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                           );
 
    /// <summary>
-   /// square hectolight-year, defined as: square dekalight-year × (10.0)*(10.0)
+   /// square hectolight-year defined such that: square dekalight-year = hly² × (10.0)*(10.0).
    /// </summary>
    public static readonly Area SquareHectolightYear = new (
                                                            "square hectolight-year"
@@ -205,7 +205,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                           );
 
    /// <summary>
-   /// square lunar diameter, defined as: square lunar radius × (2.0)*(2.0)
+   /// square lunar diameter defined such that: square lunar radius = D(L)² × (2.0)*(2.0).
    /// </summary>
    public static readonly Area SquareLunarDiameter = new (
                                                           "square lunar diameter"
@@ -216,7 +216,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square kilolight-year, defined as: square hectolight-year × (10.0)*(10.0)
+   /// square kilolight-year defined such that: square hectolight-year = kly² × (10.0)*(10.0).
    /// </summary>
    public static readonly Area SquareKilolightYear = new (
                                                           "square kilolight-year"
@@ -227,7 +227,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square mars diameter, defined as: square mars radius × (2.0)*(2.0)
+   /// square mars diameter defined such that: square mars radius = D(♂)² × (2.0)*(2.0).
    /// </summary>
    public static readonly Area SquareMarsDiameter = new (
                                                          "square mars diameter"
@@ -238,7 +238,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                         );
 
    /// <summary>
-   /// square megalight-year, defined as: square kilolight-year × (1000.0)*(1000.0)
+   /// square megalight-year defined such that: square kilolight-year = Mly² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareMegalightYear = new (
                                                           "square megalight-year"
@@ -249,7 +249,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square solar diameter, defined as: square solar radius × (2.0)*(2.0)
+   /// square solar diameter defined such that: square solar radius = D(☉)² × (2.0)*(2.0).
    /// </summary>
    public static readonly Area SquareSolarDiameter = new (
                                                           "square solar diameter"
@@ -260,7 +260,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square gigalight-year, defined as: square megalight-year × (1000.0)*(1000.0)
+   /// square gigalight-year defined such that: square megalight-year = Gly² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareGigalightYear = new (
                                                           "square gigalight-year"
@@ -271,7 +271,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square earth circumference, defined as: square earth diameter × (Math.PI)*(Math.PI)
+   /// square earth circumference defined such that: square earth diameter = C(⊕)² × (Math.PI)*(Math.PI).
    /// </summary>
    public static readonly Area SquareEarthCircumference = new (
                                                                "square earth circumference"
@@ -282,7 +282,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                               );
 
    /// <summary>
-   /// square teralight-year, defined as: square gigalight-year × (1000.0)*(1000.0)
+   /// square teralight-year defined such that: square gigalight-year = Tly² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareTeralightYear = new (
                                                           "square teralight-year"
@@ -293,7 +293,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square jovian circumference, defined as: square jovian diameter × (Math.PI)*(Math.PI)
+   /// square jovian circumference defined such that: square jovian diameter = C(J)² × (Math.PI)*(Math.PI).
    /// </summary>
    public static readonly Area SquareJovianCircumference = new (
                                                                 "square jovian circumference"
@@ -304,7 +304,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                                );
 
    /// <summary>
-   /// square petalight-year, defined as: square teralight-year × (1000.0)*(1000.0)
+   /// square petalight-year defined such that: square teralight-year = Ply² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquarePetalightYear = new (
                                                           "square petalight-year"
@@ -315,7 +315,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                          );
 
    /// <summary>
-   /// square lunar circumference, defined as: square lunar diameter × (Math.PI)*(Math.PI)
+   /// square lunar circumference defined such that: square lunar diameter = C(L)² × (Math.PI)*(Math.PI).
    /// </summary>
    public static readonly Area SquareLunarCircumference = new (
                                                                "square lunar circumference"
@@ -326,7 +326,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                               );
 
    /// <summary>
-   /// square exalight-year, defined as: square petalight-year × (1000.0)*(1000.0)
+   /// square exalight-year defined such that: square petalight-year = Ely² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareExalightYear = new (
                                                          "square exalight-year"
@@ -337,7 +337,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                         );
 
    /// <summary>
-   /// square mars circumference, defined as: square mars diameter × (Math.PI)*(Math.PI)
+   /// square mars circumference defined such that: square mars diameter = C(♂)² × (Math.PI)*(Math.PI).
    /// </summary>
    public static readonly Area SquareMarsCircumference = new (
                                                               "square mars circumference"
@@ -348,7 +348,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                              );
 
    /// <summary>
-   /// square zettalight-year, defined as: square exalight-year × (1000.0)*(1000.0)
+   /// square zettalight-year defined such that: square exalight-year = Zly² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareZettalightYear = new (
                                                            "square zettalight-year"
@@ -359,7 +359,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                           );
 
    /// <summary>
-   /// square solar circumference, defined as: square solar diameter × (Math.PI)*(Math.PI)
+   /// square solar circumference defined such that: square solar diameter = C(☉)² × (Math.PI)*(Math.PI).
    /// </summary>
    public static readonly Area SquareSolarCircumference = new (
                                                                "square solar circumference"
@@ -370,7 +370,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                               );
 
    /// <summary>
-   /// square yottalight-year, defined as: square zettalight-year × (1000.0)*(1000.0)
+   /// square yottalight-year defined such that: square zettalight-year = Yly² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareYottalightYear = new (
                                                            "square yottalight-year"
@@ -381,7 +381,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                           );
 
    /// <summary>
-   /// square ronnalight-year, defined as: square yottalight-year × (1000.0)*(1000.0)
+   /// square ronnalight-year defined such that: square yottalight-year = Rly² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareRonnalightYear = new (
                                                            "square ronnalight-year"
@@ -392,7 +392,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                           );
 
    /// <summary>
-   /// square quettalight-year, defined as: square ronnalight-year × (1000.0)*(1000.0)
+   /// square quettalight-year defined such that: square ronnalight-year = Qly² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareQuettalightYear = new (
                                                             "square quettalight-year"
@@ -403,7 +403,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                            );
 
    /// <summary>
-   /// square dekaparsec, defined as: square parsec × (10.0)*(10.0)
+   /// square dekaparsec defined such that: square parsec = dapc² × (10.0)*(10.0).
    /// </summary>
    public static readonly Area SquareDekaparsec = new (
                                                        "square dekaparsec"
@@ -414,7 +414,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// square hectoparsec, defined as: square dekaparsec × (10.0)*(10.0)
+   /// square hectoparsec defined such that: square dekaparsec = hpc² × (10.0)*(10.0).
    /// </summary>
    public static readonly Area SquareHectoparsec = new (
                                                         "square hectoparsec"
@@ -425,7 +425,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square kiloparsec, defined as: square hectoparsec × (10.0)*(10.0)
+   /// square kiloparsec defined such that: square hectoparsec = kpc² × (10.0)*(10.0).
    /// </summary>
    public static readonly Area SquareKiloparsec = new (
                                                        "square kiloparsec"
@@ -436,7 +436,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// square megaparsec, defined as: square kiloparsec × (1000.0)*(1000.0)
+   /// square megaparsec defined such that: square kiloparsec = Mpc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareMegaparsec = new (
                                                        "square megaparsec"
@@ -447,7 +447,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// square gigaparsec, defined as: square megaparsec × (1000.0)*(1000.0)
+   /// square gigaparsec defined such that: square megaparsec = Gpc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareGigaparsec = new (
                                                        "square gigaparsec"
@@ -458,7 +458,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// square teraparsec, defined as: square gigaparsec × (1000.0)*(1000.0)
+   /// square teraparsec defined such that: square gigaparsec = Tpc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareTeraparsec = new (
                                                        "square teraparsec"
@@ -469,7 +469,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// square petaparsec, defined as: square teraparsec × (1000.0)*(1000.0)
+   /// square petaparsec defined such that: square teraparsec = Ppc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquarePetaparsec = new (
                                                        "square petaparsec"
@@ -480,7 +480,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// square exaparsec, defined as: square petaparsec × (1000.0)*(1000.0)
+   /// square exaparsec defined such that: square petaparsec = Epc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareExaparsec = new (
                                                       "square exaparsec"
@@ -491,7 +491,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                      );
 
    /// <summary>
-   /// square zettaparsec, defined as: square exaparsec × (1000.0)*(1000.0)
+   /// square zettaparsec defined such that: square exaparsec = Zpc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareZettaparsec = new (
                                                         "square zettaparsec"
@@ -502,7 +502,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square yottaparsec, defined as: square zettaparsec × (1000.0)*(1000.0)
+   /// square yottaparsec defined such that: square zettaparsec = Ypc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareYottaparsec = new (
                                                         "square yottaparsec"
@@ -513,7 +513,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square ronnaparsec, defined as: square yottaparsec × (1000.0)*(1000.0)
+   /// square ronnaparsec defined such that: square yottaparsec = Rpc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareRonnaparsec = new (
                                                         "square ronnaparsec"
@@ -524,7 +524,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        );
 
    /// <summary>
-   /// square quettaparsec, defined as: square ronnaparsec × (1000.0)*(1000.0)
+   /// square quettaparsec defined such that: square ronnaparsec = Qpc² × (1000.0)*(1000.0).
    /// </summary>
    public static readonly Area SquareQuettaparsec = new (
                                                          "square quettaparsec"

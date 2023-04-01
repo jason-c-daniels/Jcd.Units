@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareSextillionYears Field
 
-yard per square sextillion years, defined as: foot per square quintillion years × (3.0)/((1000.0)*(1000.0))
+yard per square sextillion years defined such that: foot per square quintillion years = yd/Zyr² × (3.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration YardPerSquareSextillionYears;

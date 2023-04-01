@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Centigray Field
 
-centigray, defined as: decigray × 1.0/10.0
+centigray defined such that: decigray = cGy × 1.0/10.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Centigray;

@@ -3,7 +3,7 @@
 
 ## Pressures.Quettatorr Field
 
-quettatorr, defined as: ronnatorr × 1000.0
+quettatorr defined such that: ronnatorr = QTorr × 1000.0.
 
 ```csharp
 public static readonly Pressure Quettatorr;

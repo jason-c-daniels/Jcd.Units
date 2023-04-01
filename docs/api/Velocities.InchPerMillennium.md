@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerMillennium Field
 
-inch per millennium, defined as: SI centimeter per century × (2.54)/(10.0)
+inch per millennium defined such that: SI centimeter per century = in/kyr × (2.54)/(10.0).
 
 ```csharp
 public static readonly Velocity InchPerMillennium;

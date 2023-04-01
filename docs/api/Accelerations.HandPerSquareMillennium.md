@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareMillennium Field
 
-hand per square millennium, defined as: inch per square century × (4.0)/((10.0)*(10.0))
+hand per square millennium defined such that: inch per square century = hh/kyr² × (4.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration HandPerSquareMillennium;

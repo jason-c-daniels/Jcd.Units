@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicGigameter Field
 
-yottatonne per cubic gigameter, defined as: zettatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+yottatonne per cubic gigameter defined such that: zettatonne per cubic megameter = Yt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density YottatonnePerCubicGigameter;

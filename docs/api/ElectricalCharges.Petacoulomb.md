@@ -3,7 +3,7 @@
 
 ## ElectricalCharges.Petacoulomb Field
 
-petacoulomb, defined as: teracoulomb × 1000.0
+petacoulomb defined such that: teracoulomb = PC × 1000.0.
 
 ```csharp
 public static readonly ElectricalCharge Petacoulomb;

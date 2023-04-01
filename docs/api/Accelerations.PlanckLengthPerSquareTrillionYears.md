@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareTrillionYears Field
 
-planck-length per square trillion years, defined as: SI meter per square billion years × (1.616255E-35)/((1000.0)*(1000.0))
+planck-length per square trillion years defined such that: SI meter per square billion years = ℓₚ/Tyr² × (1.616255E-35)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareTrillionYears;

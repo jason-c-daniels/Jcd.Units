@@ -3,7 +3,7 @@
 
 ## Accelerations.RodPerSquareCentisecond Field
 
-rod per square centisecond, defined as: SI meter per square decisecond × (5.0292)/((1.0/10.0)*(1.0/10.0))
+rod per square centisecond defined such that: SI meter per square decisecond = rd/cs² × (5.0292)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Acceleration RodPerSquareCentisecond;

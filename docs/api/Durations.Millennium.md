@@ -3,7 +3,7 @@
 
 ## Durations.Millennium Field
 
-millennium, defined as: century × 10.0
+millennium defined such that: century = kyr × 10.0.
 
 ```csharp
 public static readonly Duration Millennium;

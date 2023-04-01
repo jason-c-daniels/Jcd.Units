@@ -23,7 +23,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
    public static readonly Amount Count = new ("count", "ct.", system: "");
 
    /// <summary>
-   /// quantity, a synonym for count
+   /// quantity is a synonym for count
    /// </summary>
    public static readonly Amount Quantity = new ("quantity", "qty.", Count, system: "");
 }

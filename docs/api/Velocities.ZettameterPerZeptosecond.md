@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerZeptosecond Field
 
-zettameter per zeptosecond, defined as: exameter per attosecond × (1000.0)/(1.0/1000.0)
+zettameter per zeptosecond defined such that: exameter per attosecond = Zm/zs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ZettameterPerZeptosecond;

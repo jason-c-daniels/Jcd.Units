@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerMillisecond Field
 
-mil per millisecond, defined as: inch per centisecond × (1.0/1000.0)/(1.0/10.0)
+mil per millisecond defined such that: inch per centisecond = mil/ms × (1.0/1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity MilPerMillisecond;

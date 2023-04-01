@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareTrillionYears Field
 
-yard per square trillion years, defined as: foot per square billion years × (3.0)/((1000.0)*(1000.0))
+yard per square trillion years defined such that: foot per square billion years = yd/Tyr² × (3.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration YardPerSquareTrillionYears;

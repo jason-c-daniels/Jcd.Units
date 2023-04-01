@@ -173,7 +173,7 @@
 ,"Duration","decillion years","decillion yr",,,,"nonillion years","1000.0","0","18"
 ,"Duration","tick","tick",,,,"nanosecond","100.0","0","20"
 ,"Temperature","degrees rankine","°R",,,"SI","degrees kelvin","5.0/9.0","0","1"
-,"Temperature","degrees delisle","°De",,,"SI","degrees celcius","-2d/3d","-150","2"
+,"Temperature","degrees delisle","°De",,,"SI","degrees celcius","-2.0/3.0","-150","2"
 ,"Temperature","degrees newton","°N",,,"SI","degrees celcius","100.0/33.0","0","3"
 ,"Temperature","degrees réaumur","°Ré",,,"SI","degrees celcius","5.0/4.0","0","4"
 ,"Temperature","degrees rømer","°Rø",,,"SI","degrees celcius","40.0/21.0","-7.5","5"

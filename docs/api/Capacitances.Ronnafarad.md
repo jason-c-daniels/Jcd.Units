@@ -3,7 +3,7 @@
 
 ## Capacitances.Ronnafarad Field
 
-ronnafarad, defined as: yottafarad × 1000.0
+ronnafarad defined such that: yottafarad = RF × 1000.0.
 
 ```csharp
 public static readonly Capacitance Ronnafarad;

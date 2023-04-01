@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerTick Field
 
-rod per tick, defined as: SI meter per nanosecond × (5.0292)/(100.0)
+rod per tick defined such that: SI meter per nanosecond = rd/tick × (5.0292)/(100.0).
 
 ```csharp
 public static readonly Velocity RodPerTick;

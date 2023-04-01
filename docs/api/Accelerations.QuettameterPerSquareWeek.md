@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareWeek Field
 
-quettameter per square week, defined as: ronnameter per square day × (1000.0)/((7.0)*(7.0))
+quettameter per square week defined such that: ronnameter per square day = Qm/wk² × (1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareWeek;

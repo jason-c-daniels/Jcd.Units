@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareQuectosecond Field
 
-furlong per square quectosecond, defined as: chain per square rontosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
+furlong per square quectosecond defined such that: chain per square rontosecond = fur/qs² × (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareQuectosecond;

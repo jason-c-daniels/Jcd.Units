@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareBillionYears Field
 
-quettameter per square billion years, defined as: ronnameter per square million years × (1000.0)/((1000.0)*(1000.0))
+quettameter per square billion years defined such that: ronnameter per square million years = Qm/Gyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareBillionYears;

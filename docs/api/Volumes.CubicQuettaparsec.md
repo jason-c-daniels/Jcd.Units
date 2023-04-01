@@ -3,7 +3,7 @@
 
 ## Volumes.CubicQuettaparsec Field
 
-cubic quettaparsec, defined as: cubic ronnaparsec × (1000.0)*(1000.0)*(1000.0)
+cubic quettaparsec defined such that: cubic ronnaparsec = Qpc³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicQuettaparsec;

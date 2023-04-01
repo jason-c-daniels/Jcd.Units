@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicZeptometer Field
 
-attotonne per cubic zeptometer, defined as: femtotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+attotonne per cubic zeptometer defined such that: femtotonne per cubic attometer = at/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density AttotonnePerCubicZeptometer;

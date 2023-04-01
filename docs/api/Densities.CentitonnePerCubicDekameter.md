@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicDekameter Field
 
-centitonne per cubic dekameter, defined as: decitonne per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+centitonne per cubic dekameter defined such that: decitonne per cubic meter = ct/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density CentitonnePerCubicDekameter;

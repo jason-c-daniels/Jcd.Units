@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerOctillionYears Field
 
-exameter per octillion years, defined as: petameter per septillion years × (1000.0)/(1000.0)
+exameter per octillion years defined such that: petameter per septillion years = Em/Ryr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ExameterPerOctillionYears;

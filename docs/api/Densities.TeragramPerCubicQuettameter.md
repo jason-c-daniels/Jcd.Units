@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicQuettameter Field
 
-teragram per cubic quettameter, defined as: gigagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+teragram per cubic quettameter defined such that: gigagram per cubic ronnameter = Tg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density TeragramPerCubicQuettameter;

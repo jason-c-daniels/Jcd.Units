@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquarePicosecond Field
 
-quectometer per square picosecond, defined as: rontometer per square nanosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+quectometer per square picosecond defined such that: rontometer per square nanosecond = qm/ps² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquarePicosecond;

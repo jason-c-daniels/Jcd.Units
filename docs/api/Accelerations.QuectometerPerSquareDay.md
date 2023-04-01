@@ -3,7 +3,7 @@
 
 ## Accelerations.QuectometerPerSquareDay Field
 
-quectometer per square day, defined as: rontometer per square hour × (1.0/1000.0)/((24.0)*(24.0))
+quectometer per square day defined such that: rontometer per square hour = qm/dy² × (1.0/1000.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration QuectometerPerSquareDay;

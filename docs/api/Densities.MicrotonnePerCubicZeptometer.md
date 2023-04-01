@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicZeptometer Field
 
-microtonne per cubic zeptometer, defined as: millitonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+microtonne per cubic zeptometer defined such that: millitonne per cubic attometer = μt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MicrotonnePerCubicZeptometer;

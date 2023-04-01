@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareDecade Field
 
-thou per square decade, defined as: foot per square year × (1.0/12000.0)/((10.0)*(10.0))
+thou per square decade defined such that: foot per square year = th/decade² × (1.0/12000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration ThouPerSquareDecade;

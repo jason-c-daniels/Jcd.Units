@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerTick Field
 
-pica per tick, defined as: point per nanosecond × (12.0)/(100.0)
+pica per tick defined such that: point per nanosecond = P/tick × (12.0)/(100.0).
 
 ```csharp
 public static readonly Velocity PicaPerTick;

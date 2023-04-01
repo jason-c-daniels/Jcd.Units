@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerSeptillionYears Field
 
-ronnameter per septillion years, defined as: yottameter per sextillion years × (1000.0)/(1000.0)
+ronnameter per septillion years defined such that: yottameter per sextillion years = Rm/Yyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity RonnameterPerSeptillionYears;

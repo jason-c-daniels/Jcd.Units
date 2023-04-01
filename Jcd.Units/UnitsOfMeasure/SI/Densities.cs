@@ -23,7 +23,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    public static readonly Density KilogramPerCubicMeter = new ("kilogram per cubic meter", "kg/m³", system: "SI");
 
    /// <summary>
-   /// kilogram per cubic decimeter, defined as: kilogram per cubic meter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// kilogram per cubic decimeter defined such that: kilogram per cubic meter = kg/dm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicDecimeter = new (
                                                                    "kilogram per cubic decimeter"
@@ -34,7 +34,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// kilogram per cubic centimeter, defined as: kilogram per cubic decimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// kilogram per cubic centimeter defined such that: kilogram per cubic decimeter = kg/cm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicCentimeter = new (
                                                                     "kilogram per cubic centimeter"
@@ -45,7 +45,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectogram per cubic meter, defined as: kilogram per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// hectogram per cubic meter defined such that: kilogram per cubic meter = hg/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicMeter = new (
                                                                 "hectogram per cubic meter"
@@ -56,7 +56,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// kilogram per cubic millimeter, defined as: kilogram per cubic centimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// kilogram per cubic millimeter defined such that: kilogram per cubic centimeter = kg/mm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicMillimeter = new (
                                                                     "kilogram per cubic millimeter"
@@ -67,7 +67,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilogram per cubic micrometer, defined as: kilogram per cubic millimeter × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic micrometer defined such that: kilogram per cubic millimeter = kg/μm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicMicrometer = new (
                                                                     "kilogram per cubic micrometer"
@@ -79,7 +79,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectogram per cubic decimeter, defined as: kilogram per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// hectogram per cubic decimeter defined such that: kilogram per cubic meter = hg/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicDecimeter = new (
                                                                     "hectogram per cubic decimeter"
@@ -92,7 +92,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic meter, defined as: hectogram per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// dekagram per cubic meter defined such that: hectogram per cubic meter = dag/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicMeter = new (
                                                                "dekagram per cubic meter"
@@ -103,7 +103,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// kilogram per cubic nanometer, defined as: kilogram per cubic micrometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic nanometer defined such that: kilogram per cubic micrometer = kg/nm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicNanometer = new (
                                                                    "kilogram per cubic nanometer"
@@ -115,7 +115,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// kilogram per cubic picometer, defined as: kilogram per cubic nanometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic picometer defined such that: kilogram per cubic nanometer = kg/pm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicPicometer = new (
                                                                    "kilogram per cubic picometer"
@@ -127,7 +127,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// hectogram per cubic centimeter, defined as: kilogram per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// hectogram per cubic centimeter defined such that: kilogram per cubic decimeter = hg/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicCentimeter = new (
                                                                      "hectogram per cubic centimeter"
@@ -140,7 +140,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gram per cubic meter, defined as: dekagram per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// gram per cubic meter defined such that: dekagram per cubic meter = g/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density GramPerCubicMeter = new (
                                                            "gram per cubic meter"
@@ -151,7 +151,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                           );
 
    /// <summary>
-   /// kilogram per cubic femtometer, defined as: kilogram per cubic picometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic femtometer defined such that: kilogram per cubic picometer = kg/fm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicFemtometer = new (
                                                                     "kilogram per cubic femtometer"
@@ -163,7 +163,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic decimeter, defined as: hectogram per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// dekagram per cubic decimeter defined such that: hectogram per cubic meter = dag/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicDecimeter = new (
                                                                    "dekagram per cubic decimeter"
@@ -176,7 +176,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// kilogram per cubic attometer, defined as: kilogram per cubic femtometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic attometer defined such that: kilogram per cubic femtometer = kg/am³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicAttometer = new (
                                                                    "kilogram per cubic attometer"
@@ -188,7 +188,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// hectogram per cubic millimeter, defined as: kilogram per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// hectogram per cubic millimeter defined such that: kilogram per cubic centimeter = hg/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicMillimeter = new (
                                                                      "hectogram per cubic millimeter"
@@ -201,7 +201,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// decigram per cubic meter, defined as: gram per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// decigram per cubic meter defined such that: gram per cubic meter = dg/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicMeter = new (
                                                                "decigram per cubic meter"
@@ -212,7 +212,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// kilogram per cubic zeptometer, defined as: kilogram per cubic attometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic zeptometer defined such that: kilogram per cubic attometer = kg/zm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicZeptometer = new (
                                                                     "kilogram per cubic zeptometer"
@@ -224,7 +224,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilogram per cubic yoctometer, defined as: kilogram per cubic zeptometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic yoctometer defined such that: kilogram per cubic zeptometer = kg/ym³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicYoctometer = new (
                                                                     "kilogram per cubic yoctometer"
@@ -236,7 +236,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectogram per cubic micrometer, defined as: kilogram per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic micrometer defined such that: kilogram per cubic millimeter = hg/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicMicrometer = new (
                                                                      "hectogram per cubic micrometer"
@@ -249,7 +249,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekagram per cubic centimeter, defined as: hectogram per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// dekagram per cubic centimeter defined such that: hectogram per cubic decimeter = dag/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicCentimeter = new (
                                                                     "dekagram per cubic centimeter"
@@ -262,7 +262,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic decimeter, defined as: dekagram per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gram per cubic decimeter defined such that: dekagram per cubic meter = g/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GramPerCubicDecimeter = new (
                                                                "gram per cubic decimeter"
@@ -273,7 +273,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// centigram per cubic meter, defined as: decigram per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// centigram per cubic meter defined such that: decigram per cubic meter = cg/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicMeter = new (
                                                                 "centigram per cubic meter"
@@ -284,7 +284,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// kilogram per cubic rontometer, defined as: kilogram per cubic yoctometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic rontometer defined such that: kilogram per cubic yoctometer = kg/rm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicRontometer = new (
                                                                     "kilogram per cubic rontometer"
@@ -296,7 +296,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilogram per cubic quectometer, defined as: kilogram per cubic rontometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilogram per cubic quectometer defined such that: kilogram per cubic rontometer = kg/qm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicQuectometer = new (
                                                                      "kilogram per cubic quectometer"
@@ -308,7 +308,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// hectogram per cubic nanometer, defined as: kilogram per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic nanometer defined such that: kilogram per cubic micrometer = hg/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicNanometer = new (
                                                                     "hectogram per cubic nanometer"
@@ -321,7 +321,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// milligram per cubic meter, defined as: centigram per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// milligram per cubic meter defined such that: centigram per cubic meter = mg/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicMeter = new (
                                                                 "milligram per cubic meter"
@@ -332,7 +332,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// kilogram per cubic dekameter, defined as: kilogram per cubic meter × (1.0)/((10.0)*(10.0)*(10.0))
+   /// kilogram per cubic dekameter defined such that: kilogram per cubic meter = kg/dam³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicDekameter = new (
                                                                    "kilogram per cubic dekameter"
@@ -343,7 +343,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// dekagram per cubic millimeter, defined as: hectogram per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// dekagram per cubic millimeter defined such that: hectogram per cubic centimeter = dag/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicMillimeter = new (
                                                                     "dekagram per cubic millimeter"
@@ -356,7 +356,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic decimeter, defined as: gram per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// decigram per cubic decimeter defined such that: gram per cubic meter = dg/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicDecimeter = new (
                                                                    "decigram per cubic decimeter"
@@ -369,7 +369,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// kilogram per cubic hectometer, defined as: kilogram per cubic dekameter × (1.0)/((10.0)*(10.0)*(10.0))
+   /// kilogram per cubic hectometer defined such that: kilogram per cubic dekameter = kg/hm³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicHectometer = new (
                                                                     "kilogram per cubic hectometer"
@@ -380,7 +380,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectogram per cubic picometer, defined as: kilogram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic picometer defined such that: kilogram per cubic nanometer = hg/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicPicometer = new (
                                                                     "hectogram per cubic picometer"
@@ -393,7 +393,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic centimeter, defined as: dekagram per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gram per cubic centimeter defined such that: dekagram per cubic decimeter = g/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GramPerCubicCentimeter = new (
                                                                 "gram per cubic centimeter"
@@ -404,7 +404,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// microgram per cubic meter, defined as: milligram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// microgram per cubic meter defined such that: milligram per cubic meter = μg/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicMeter = new (
                                                                 "microgram per cubic meter"
@@ -415,7 +415,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// kilogram per cubic kilometer, defined as: kilogram per cubic hectometer × (1.0)/((10.0)*(10.0)*(10.0))
+   /// kilogram per cubic kilometer defined such that: kilogram per cubic hectometer = kg/km³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicKilometer = new (
                                                                    "kilogram per cubic kilometer"
@@ -426,7 +426,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// kilogram per cubic megameter, defined as: kilogram per cubic kilometer × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic megameter defined such that: kilogram per cubic kilometer = kg/Mm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicMegameter = new (
                                                                    "kilogram per cubic megameter"
@@ -437,7 +437,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// hectogram per cubic femtometer, defined as: kilogram per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic femtometer defined such that: kilogram per cubic picometer = hg/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicFemtometer = new (
                                                                      "hectogram per cubic femtometer"
@@ -450,7 +450,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekagram per cubic micrometer, defined as: hectogram per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic micrometer defined such that: hectogram per cubic millimeter = dag/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicMicrometer = new (
                                                                     "dekagram per cubic micrometer"
@@ -463,7 +463,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centigram per cubic decimeter, defined as: decigram per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// centigram per cubic decimeter defined such that: decigram per cubic meter = cg/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicDecimeter = new (
                                                                     "centigram per cubic decimeter"
@@ -476,7 +476,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic meter, defined as: microgram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// nanogram per cubic meter defined such that: microgram per cubic meter = ng/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicMeter = new (
                                                                "nanogram per cubic meter"
@@ -487,7 +487,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// kilogram per cubic gigameter, defined as: kilogram per cubic megameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic gigameter defined such that: kilogram per cubic megameter = kg/Gm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicGigameter = new (
                                                                    "kilogram per cubic gigameter"
@@ -498,7 +498,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// kilogram per cubic terameter, defined as: kilogram per cubic gigameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic terameter defined such that: kilogram per cubic gigameter = kg/Tm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicTerameter = new (
                                                                    "kilogram per cubic terameter"
@@ -509,7 +509,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// hectogram per cubic attometer, defined as: kilogram per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic attometer defined such that: kilogram per cubic femtometer = hg/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicAttometer = new (
                                                                     "hectogram per cubic attometer"
@@ -522,7 +522,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic millimeter, defined as: dekagram per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gram per cubic millimeter defined such that: dekagram per cubic centimeter = g/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GramPerCubicMillimeter = new (
                                                                 "gram per cubic millimeter"
@@ -533,7 +533,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decigram per cubic centimeter, defined as: gram per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// decigram per cubic centimeter defined such that: gram per cubic decimeter = dg/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicCentimeter = new (
                                                                     "decigram per cubic centimeter"
@@ -546,7 +546,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic meter, defined as: nanogram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// picogram per cubic meter defined such that: nanogram per cubic meter = pg/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicMeter = new (
                                                                "picogram per cubic meter"
@@ -557,7 +557,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// kilogram per cubic petameter, defined as: kilogram per cubic terameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic petameter defined such that: kilogram per cubic terameter = kg/Pm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicPetameter = new (
                                                                    "kilogram per cubic petameter"
@@ -568,7 +568,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// dekagram per cubic nanometer, defined as: hectogram per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic nanometer defined such that: hectogram per cubic micrometer = dag/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicNanometer = new (
                                                                    "dekagram per cubic nanometer"
@@ -581,7 +581,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// milligram per cubic decimeter, defined as: centigram per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// milligram per cubic decimeter defined such that: centigram per cubic meter = mg/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicDecimeter = new (
                                                                     "milligram per cubic decimeter"
@@ -594,7 +594,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilogram per cubic exameter, defined as: kilogram per cubic petameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic exameter defined such that: kilogram per cubic petameter = kg/Em³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicExameter = new (
                                                                   "kilogram per cubic exameter"
@@ -605,7 +605,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// hectogram per cubic zeptometer, defined as: kilogram per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic zeptometer defined such that: kilogram per cubic attometer = hg/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicZeptometer = new (
                                                                      "hectogram per cubic zeptometer"
@@ -618,7 +618,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtogram per cubic meter, defined as: picogram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// femtogram per cubic meter defined such that: picogram per cubic meter = fg/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicMeter = new (
                                                                 "femtogram per cubic meter"
@@ -629,7 +629,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// kilogram per cubic zettameter, defined as: kilogram per cubic exameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic zettameter defined such that: kilogram per cubic exameter = kg/Zm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicZettameter = new (
                                                                     "kilogram per cubic zettameter"
@@ -640,7 +640,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilogram per cubic yottameter, defined as: kilogram per cubic zettameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic yottameter defined such that: kilogram per cubic zettameter = kg/Ym³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicYottameter = new (
                                                                     "kilogram per cubic yottameter"
@@ -651,7 +651,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectogram per cubic yoctometer, defined as: kilogram per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic yoctometer defined such that: kilogram per cubic zeptometer = hg/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicYoctometer = new (
                                                                      "hectogram per cubic yoctometer"
@@ -664,7 +664,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekagram per cubic picometer, defined as: hectogram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic picometer defined such that: hectogram per cubic nanometer = dag/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicPicometer = new (
                                                                    "dekagram per cubic picometer"
@@ -677,7 +677,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gram per cubic micrometer, defined as: dekagram per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic micrometer defined such that: dekagram per cubic millimeter = g/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicMicrometer = new (
                                                                 "gram per cubic micrometer"
@@ -690,7 +690,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// centigram per cubic centimeter, defined as: decigram per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// centigram per cubic centimeter defined such that: decigram per cubic decimeter = cg/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicCentimeter = new (
                                                                      "centigram per cubic centimeter"
@@ -703,7 +703,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microgram per cubic decimeter, defined as: milligram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// microgram per cubic decimeter defined such that: milligram per cubic meter = μg/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicDecimeter = new (
                                                                     "microgram per cubic decimeter"
@@ -716,7 +716,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic meter, defined as: femtogram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// attogram per cubic meter defined such that: femtogram per cubic meter = ag/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicMeter = new (
                                                                "attogram per cubic meter"
@@ -727,7 +727,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// kilogram per cubic ronnameter, defined as: kilogram per cubic yottameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic ronnameter defined such that: kilogram per cubic yottameter = kg/Rm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicRonnameter = new (
                                                                     "kilogram per cubic ronnameter"
@@ -738,7 +738,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic millimeter, defined as: gram per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// decigram per cubic millimeter defined such that: gram per cubic centimeter = dg/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicMillimeter = new (
                                                                     "decigram per cubic millimeter"
@@ -751,7 +751,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilogram per cubic quettameter, defined as: kilogram per cubic ronnameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilogram per cubic quettameter defined such that: kilogram per cubic ronnameter = kg/Qm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilogramPerCubicQuettameter = new (
                                                                      "kilogram per cubic quettameter"
@@ -762,7 +762,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// hectogram per cubic rontometer, defined as: kilogram per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic rontometer defined such that: kilogram per cubic yoctometer = hg/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicRontometer = new (
                                                                      "hectogram per cubic rontometer"
@@ -775,7 +775,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic meter, defined as: attogram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// zeptogram per cubic meter defined such that: attogram per cubic meter = zg/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicMeter = new (
                                                                 "zeptogram per cubic meter"
@@ -786,7 +786,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// dekagram per cubic femtometer, defined as: hectogram per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic femtometer defined such that: hectogram per cubic picometer = dag/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicFemtometer = new (
                                                                     "dekagram per cubic femtometer"
@@ -799,7 +799,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic decimeter, defined as: microgram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// nanogram per cubic decimeter defined such that: microgram per cubic meter = ng/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicDecimeter = new (
                                                                    "nanogram per cubic decimeter"
@@ -812,7 +812,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// hectogram per cubic quectometer, defined as: kilogram per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectogram per cubic quectometer defined such that: kilogram per cubic rontometer = hg/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicQuectometer = new (
                                                                       "hectogram per cubic quectometer"
@@ -825,7 +825,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// gram per cubic nanometer, defined as: dekagram per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic nanometer defined such that: dekagram per cubic micrometer = g/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicNanometer = new (
                                                                "gram per cubic nanometer"
@@ -838,7 +838,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// milligram per cubic centimeter, defined as: centigram per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// milligram per cubic centimeter defined such that: centigram per cubic decimeter = mg/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicCentimeter = new (
                                                                      "milligram per cubic centimeter"
@@ -851,7 +851,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic meter, defined as: zeptogram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// yoctogram per cubic meter defined such that: zeptogram per cubic meter = yg/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicMeter = new (
                                                                 "yoctogram per cubic meter"
@@ -862,7 +862,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// hectogram per cubic dekameter, defined as: kilogram per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// hectogram per cubic dekameter defined such that: kilogram per cubic meter = hg/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicDekameter = new (
                                                                     "hectogram per cubic dekameter"
@@ -873,7 +873,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic attometer, defined as: hectogram per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic attometer defined such that: hectogram per cubic femtometer = dag/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicAttometer = new (
                                                                    "dekagram per cubic attometer"
@@ -886,7 +886,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// decigram per cubic micrometer, defined as: gram per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic micrometer defined such that: gram per cubic millimeter = dg/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicMicrometer = new (
                                                                     "decigram per cubic micrometer"
@@ -899,7 +899,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centigram per cubic millimeter, defined as: decigram per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// centigram per cubic millimeter defined such that: decigram per cubic centimeter = cg/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicMillimeter = new (
                                                                      "centigram per cubic millimeter"
@@ -912,7 +912,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picogram per cubic decimeter, defined as: nanogram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// picogram per cubic decimeter defined such that: nanogram per cubic meter = pg/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicDecimeter = new (
                                                                    "picogram per cubic decimeter"
@@ -925,7 +925,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic meter, defined as: yoctogram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// rontogram per cubic meter defined such that: yoctogram per cubic meter = rg/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicMeter = new (
                                                                 "rontogram per cubic meter"
@@ -936,7 +936,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// hectogram per cubic hectometer, defined as: kilogram per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// hectogram per cubic hectometer defined such that: kilogram per cubic dekameter = hg/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicHectometer = new (
                                                                      "hectogram per cubic hectometer"
@@ -947,7 +947,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gram per cubic picometer, defined as: dekagram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic picometer defined such that: dekagram per cubic nanometer = g/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicPicometer = new (
                                                                "gram per cubic picometer"
@@ -960,7 +960,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// microgram per cubic centimeter, defined as: milligram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// microgram per cubic centimeter defined such that: milligram per cubic decimeter = μg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicCentimeter = new (
                                                                      "microgram per cubic centimeter"
@@ -973,7 +973,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic meter, defined as: rontogram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// quectogram per cubic meter defined such that: rontogram per cubic meter = qg/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicMeter = new (
                                                                  "quectogram per cubic meter"
@@ -984,7 +984,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// dekagram per cubic zeptometer, defined as: hectogram per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic zeptometer defined such that: hectogram per cubic attometer = dag/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicZeptometer = new (
                                                                     "dekagram per cubic zeptometer"
@@ -997,7 +997,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtogram per cubic decimeter, defined as: picogram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// femtogram per cubic decimeter defined such that: picogram per cubic meter = fg/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicDecimeter = new (
                                                                     "femtogram per cubic decimeter"
@@ -1010,7 +1010,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic meter, defined as: kilogram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// megagram per cubic meter defined such that: kilogram per cubic meter = Mg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicMeter = new (
                                                                "megagram per cubic meter"
@@ -1021,7 +1021,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// hectogram per cubic kilometer, defined as: kilogram per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// hectogram per cubic kilometer defined such that: kilogram per cubic hectometer = hg/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicKilometer = new (
                                                                     "hectogram per cubic kilometer"
@@ -1032,7 +1032,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic nanometer, defined as: gram per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic nanometer defined such that: gram per cubic micrometer = dg/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicNanometer = new (
                                                                    "decigram per cubic nanometer"
@@ -1045,7 +1045,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// milligram per cubic millimeter, defined as: centigram per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// milligram per cubic millimeter defined such that: centigram per cubic centimeter = mg/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicMillimeter = new (
                                                                      "milligram per cubic millimeter"
@@ -1058,7 +1058,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic meter, defined as: megagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// gigagram per cubic meter defined such that: megagram per cubic meter = Gg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicMeter = new (
                                                                "gigagram per cubic meter"
@@ -1069,7 +1069,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// hectogram per cubic megameter, defined as: kilogram per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic megameter defined such that: kilogram per cubic kilometer = hg/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicMegameter = new (
                                                                     "hectogram per cubic megameter"
@@ -1080,7 +1080,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic yoctometer, defined as: hectogram per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic yoctometer defined such that: hectogram per cubic zeptometer = dag/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicYoctometer = new (
                                                                     "dekagram per cubic yoctometer"
@@ -1093,7 +1093,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic femtometer, defined as: dekagram per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic femtometer defined such that: dekagram per cubic picometer = g/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicFemtometer = new (
                                                                 "gram per cubic femtometer"
@@ -1106,7 +1106,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// centigram per cubic micrometer, defined as: decigram per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic micrometer defined such that: decigram per cubic millimeter = cg/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicMicrometer = new (
                                                                      "centigram per cubic micrometer"
@@ -1119,7 +1119,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanogram per cubic centimeter, defined as: microgram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// nanogram per cubic centimeter defined such that: microgram per cubic decimeter = ng/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicCentimeter = new (
                                                                     "nanogram per cubic centimeter"
@@ -1132,7 +1132,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic decimeter, defined as: femtogram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// attogram per cubic decimeter defined such that: femtogram per cubic meter = ag/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicDecimeter = new (
                                                                    "attogram per cubic decimeter"
@@ -1145,7 +1145,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// teragram per cubic meter, defined as: gigagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// teragram per cubic meter defined such that: gigagram per cubic meter = Tg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicMeter = new (
                                                                "teragram per cubic meter"
@@ -1156,7 +1156,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// hectogram per cubic gigameter, defined as: kilogram per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic gigameter defined such that: kilogram per cubic megameter = hg/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicGigameter = new (
                                                                     "hectogram per cubic gigameter"
@@ -1167,7 +1167,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic rontometer, defined as: hectogram per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic rontometer defined such that: hectogram per cubic yoctometer = dag/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicRontometer = new (
                                                                     "dekagram per cubic rontometer"
@@ -1180,7 +1180,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptogram per cubic decimeter, defined as: attogram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zeptogram per cubic decimeter defined such that: attogram per cubic meter = zg/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicDecimeter = new (
                                                                     "zeptogram per cubic decimeter"
@@ -1193,7 +1193,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic meter, defined as: teragram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// petagram per cubic meter defined such that: teragram per cubic meter = Pg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicMeter = new (
                                                                "petagram per cubic meter"
@@ -1204,7 +1204,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// hectogram per cubic terameter, defined as: kilogram per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic terameter defined such that: kilogram per cubic gigameter = hg/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicTerameter = new (
                                                                     "hectogram per cubic terameter"
@@ -1215,7 +1215,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic attometer, defined as: dekagram per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic attometer defined such that: dekagram per cubic femtometer = g/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicAttometer = new (
                                                                "gram per cubic attometer"
@@ -1228,7 +1228,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// decigram per cubic picometer, defined as: gram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic picometer defined such that: gram per cubic nanometer = dg/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicPicometer = new (
                                                                    "decigram per cubic picometer"
@@ -1241,7 +1241,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// microgram per cubic millimeter, defined as: milligram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// microgram per cubic millimeter defined such that: milligram per cubic centimeter = μg/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicMillimeter = new (
                                                                      "microgram per cubic millimeter"
@@ -1254,7 +1254,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picogram per cubic centimeter, defined as: nanogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// picogram per cubic centimeter defined such that: nanogram per cubic decimeter = pg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicCentimeter = new (
                                                                     "picogram per cubic centimeter"
@@ -1267,7 +1267,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic meter, defined as: petagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// exagram per cubic meter defined such that: petagram per cubic meter = Eg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicMeter = new (
                                                               "exagram per cubic meter"
@@ -1278,7 +1278,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              );
 
    /// <summary>
-   /// hectogram per cubic petameter, defined as: kilogram per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic petameter defined such that: kilogram per cubic terameter = hg/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicPetameter = new (
                                                                     "hectogram per cubic petameter"
@@ -1289,7 +1289,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic quectometer, defined as: hectogram per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekagram per cubic quectometer defined such that: hectogram per cubic rontometer = dag/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicQuectometer = new (
                                                                      "dekagram per cubic quectometer"
@@ -1302,7 +1302,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centigram per cubic nanometer, defined as: decigram per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic nanometer defined such that: decigram per cubic micrometer = cg/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicNanometer = new (
                                                                     "centigram per cubic nanometer"
@@ -1315,7 +1315,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// milligram per cubic micrometer, defined as: centigram per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic micrometer defined such that: centigram per cubic millimeter = mg/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicMicrometer = new (
                                                                      "milligram per cubic micrometer"
@@ -1328,7 +1328,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic decimeter, defined as: zeptogram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yoctogram per cubic decimeter defined such that: zeptogram per cubic meter = yg/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicDecimeter = new (
                                                                     "yoctogram per cubic decimeter"
@@ -1341,7 +1341,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettagram per cubic meter, defined as: exagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// zettagram per cubic meter defined such that: exagram per cubic meter = Zg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicMeter = new (
                                                                 "zettagram per cubic meter"
@@ -1352,7 +1352,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// hectogram per cubic exameter, defined as: kilogram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic exameter defined such that: kilogram per cubic petameter = hg/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicExameter = new (
                                                                    "hectogram per cubic exameter"
@@ -1363,7 +1363,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gram per cubic zeptometer, defined as: dekagram per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic zeptometer defined such that: dekagram per cubic attometer = g/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicZeptometer = new (
                                                                 "gram per cubic zeptometer"
@@ -1376,7 +1376,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// femtogram per cubic centimeter, defined as: picogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// femtogram per cubic centimeter defined such that: picogram per cubic decimeter = fg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicCentimeter = new (
                                                                      "femtogram per cubic centimeter"
@@ -1389,7 +1389,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekagram per cubic dekameter, defined as: hectogram per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// dekagram per cubic dekameter defined such that: hectogram per cubic meter = dag/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicDekameter = new (
                                                                    "dekagram per cubic dekameter"
@@ -1400,7 +1400,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// decigram per cubic femtometer, defined as: gram per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic femtometer defined such that: gram per cubic picometer = dg/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicFemtometer = new (
                                                                     "decigram per cubic femtometer"
@@ -1413,7 +1413,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic millimeter, defined as: microgram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// nanogram per cubic millimeter defined such that: microgram per cubic centimeter = ng/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicMillimeter = new (
                                                                     "nanogram per cubic millimeter"
@@ -1426,7 +1426,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic decimeter, defined as: yoctogram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// rontogram per cubic decimeter defined such that: yoctogram per cubic meter = rg/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicDecimeter = new (
                                                                     "rontogram per cubic decimeter"
@@ -1439,7 +1439,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic meter, defined as: zettagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// yottagram per cubic meter defined such that: zettagram per cubic meter = Yg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicMeter = new (
                                                                 "yottagram per cubic meter"
@@ -1450,7 +1450,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// hectogram per cubic zettameter, defined as: kilogram per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic zettameter defined such that: kilogram per cubic exameter = hg/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicZettameter = new (
                                                                      "hectogram per cubic zettameter"
@@ -1461,7 +1461,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnagram per cubic meter, defined as: yottagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// ronnagram per cubic meter defined such that: yottagram per cubic meter = Rg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicMeter = new (
                                                                 "ronnagram per cubic meter"
@@ -1472,7 +1472,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// hectogram per cubic yottameter, defined as: kilogram per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic yottameter defined such that: kilogram per cubic zettameter = hg/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicYottameter = new (
                                                                      "hectogram per cubic yottameter"
@@ -1483,7 +1483,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekagram per cubic hectometer, defined as: hectogram per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// dekagram per cubic hectometer defined such that: hectogram per cubic dekameter = dag/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicHectometer = new (
                                                                     "dekagram per cubic hectometer"
@@ -1494,7 +1494,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic yoctometer, defined as: dekagram per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic yoctometer defined such that: dekagram per cubic zeptometer = g/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicYoctometer = new (
                                                                 "gram per cubic yoctometer"
@@ -1507,7 +1507,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// centigram per cubic picometer, defined as: decigram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic picometer defined such that: decigram per cubic nanometer = cg/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicPicometer = new (
                                                                     "centigram per cubic picometer"
@@ -1520,7 +1520,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microgram per cubic micrometer, defined as: milligram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic micrometer defined such that: milligram per cubic millimeter = μg/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicMicrometer = new (
                                                                      "microgram per cubic micrometer"
@@ -1533,7 +1533,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic centimeter, defined as: femtogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// attogram per cubic centimeter defined such that: femtogram per cubic decimeter = ag/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicCentimeter = new (
                                                                     "attogram per cubic centimeter"
@@ -1546,7 +1546,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic decimeter, defined as: rontogram per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quectogram per cubic decimeter defined such that: rontogram per cubic meter = qg/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicDecimeter = new (
                                                                      "quectogram per cubic decimeter"
@@ -1559,7 +1559,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// milligram per cubic nanometer, defined as: centigram per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic nanometer defined such that: centigram per cubic micrometer = mg/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicNanometer = new (
                                                                     "milligram per cubic nanometer"
@@ -1572,7 +1572,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettagram per cubic meter, defined as: ronnagram per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// quettagram per cubic meter defined such that: ronnagram per cubic meter = Qg/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicMeter = new (
                                                                  "quettagram per cubic meter"
@@ -1583,7 +1583,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// hectogram per cubic ronnameter, defined as: kilogram per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic ronnameter defined such that: kilogram per cubic yottameter = hg/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicRonnameter = new (
                                                                      "hectogram per cubic ronnameter"
@@ -1594,7 +1594,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// decigram per cubic attometer, defined as: gram per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic attometer defined such that: gram per cubic femtometer = dg/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicAttometer = new (
                                                                    "decigram per cubic attometer"
@@ -1607,7 +1607,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// picogram per cubic millimeter, defined as: nanogram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// picogram per cubic millimeter defined such that: nanogram per cubic centimeter = pg/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicMillimeter = new (
                                                                     "picogram per cubic millimeter"
@@ -1620,7 +1620,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic decimeter, defined as: kilogram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// megagram per cubic decimeter defined such that: kilogram per cubic meter = Mg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicDecimeter = new (
                                                                    "megagram per cubic decimeter"
@@ -1631,7 +1631,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// dekagram per cubic kilometer, defined as: hectogram per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// dekagram per cubic kilometer defined such that: hectogram per cubic hectometer = dag/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicKilometer = new (
                                                                    "dekagram per cubic kilometer"
@@ -1642,7 +1642,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// hectogram per cubic quettameter, defined as: kilogram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectogram per cubic quettameter defined such that: kilogram per cubic ronnameter = hg/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectogramPerCubicQuettameter = new (
                                                                       "hectogram per cubic quettameter"
@@ -1653,7 +1653,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// gram per cubic rontometer, defined as: dekagram per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic rontometer defined such that: dekagram per cubic yoctometer = g/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicRontometer = new (
                                                                 "gram per cubic rontometer"
@@ -1666,7 +1666,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// zeptogram per cubic centimeter, defined as: attogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zeptogram per cubic centimeter defined such that: attogram per cubic decimeter = zg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicCentimeter = new (
                                                                      "zeptogram per cubic centimeter"
@@ -1679,7 +1679,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic decimeter, defined as: megagram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gigagram per cubic decimeter defined such that: megagram per cubic meter = Gg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicDecimeter = new (
                                                                    "gigagram per cubic decimeter"
@@ -1690,7 +1690,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// dekagram per cubic megameter, defined as: hectogram per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic megameter defined such that: hectogram per cubic kilometer = dag/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicMegameter = new (
                                                                    "dekagram per cubic megameter"
@@ -1701,7 +1701,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// centigram per cubic femtometer, defined as: decigram per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic femtometer defined such that: decigram per cubic picometer = cg/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicFemtometer = new (
                                                                      "centigram per cubic femtometer"
@@ -1714,7 +1714,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanogram per cubic micrometer, defined as: microgram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic micrometer defined such that: microgram per cubic millimeter = ng/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicMicrometer = new (
                                                                     "nanogram per cubic micrometer"
@@ -1727,7 +1727,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic zeptometer, defined as: gram per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic zeptometer defined such that: gram per cubic attometer = dg/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicZeptometer = new (
                                                                     "decigram per cubic zeptometer"
@@ -1740,7 +1740,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtogram per cubic millimeter, defined as: picogram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// femtogram per cubic millimeter defined such that: picogram per cubic centimeter = fg/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicMillimeter = new (
                                                                      "femtogram per cubic millimeter"
@@ -1753,7 +1753,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gram per cubic quectometer, defined as: dekagram per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gram per cubic quectometer defined such that: dekagram per cubic rontometer = g/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicQuectometer = new (
                                                                  "gram per cubic quectometer"
@@ -1766,7 +1766,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// milligram per cubic picometer, defined as: centigram per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic picometer defined such that: centigram per cubic nanometer = mg/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicPicometer = new (
                                                                     "milligram per cubic picometer"
@@ -1779,7 +1779,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microgram per cubic nanometer, defined as: milligram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic nanometer defined such that: milligram per cubic micrometer = μg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicNanometer = new (
                                                                     "microgram per cubic nanometer"
@@ -1792,7 +1792,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yoctogram per cubic centimeter, defined as: zeptogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yoctogram per cubic centimeter defined such that: zeptogram per cubic decimeter = yg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicCentimeter = new (
                                                                      "yoctogram per cubic centimeter"
@@ -1805,7 +1805,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teragram per cubic decimeter, defined as: gigagram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// teragram per cubic decimeter defined such that: gigagram per cubic meter = Tg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicDecimeter = new (
                                                                    "teragram per cubic decimeter"
@@ -1816,7 +1816,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// dekagram per cubic gigameter, defined as: hectogram per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic gigameter defined such that: hectogram per cubic megameter = dag/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicGigameter = new (
                                                                    "dekagram per cubic gigameter"
@@ -1827,7 +1827,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// petagram per cubic decimeter, defined as: teragram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// petagram per cubic decimeter defined such that: teragram per cubic meter = Pg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicDecimeter = new (
                                                                    "petagram per cubic decimeter"
@@ -1838,7 +1838,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// dekagram per cubic terameter, defined as: hectogram per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic terameter defined such that: hectogram per cubic gigameter = dag/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicTerameter = new (
                                                                    "dekagram per cubic terameter"
@@ -1849,7 +1849,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gram per cubic dekameter, defined as: dekagram per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// gram per cubic dekameter defined such that: dekagram per cubic meter = g/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GramPerCubicDekameter = new (
                                                                "gram per cubic dekameter"
@@ -1860,7 +1860,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// decigram per cubic yoctometer, defined as: gram per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic yoctometer defined such that: gram per cubic zeptometer = dg/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicYoctometer = new (
                                                                     "decigram per cubic yoctometer"
@@ -1873,7 +1873,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centigram per cubic attometer, defined as: decigram per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic attometer defined such that: decigram per cubic femtometer = cg/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicAttometer = new (
                                                                     "centigram per cubic attometer"
@@ -1886,7 +1886,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic micrometer, defined as: nanogram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic micrometer defined such that: nanogram per cubic millimeter = pg/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicMicrometer = new (
                                                                     "picogram per cubic micrometer"
@@ -1899,7 +1899,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic millimeter, defined as: femtogram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// attogram per cubic millimeter defined such that: femtogram per cubic centimeter = ag/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicMillimeter = new (
                                                                     "attogram per cubic millimeter"
@@ -1912,7 +1912,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic centimeter, defined as: yoctogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// rontogram per cubic centimeter defined such that: yoctogram per cubic decimeter = rg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicCentimeter = new (
                                                                      "rontogram per cubic centimeter"
@@ -1925,7 +1925,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exagram per cubic decimeter, defined as: petagram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// exagram per cubic decimeter defined such that: petagram per cubic meter = Eg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicDecimeter = new (
                                                                   "exagram per cubic decimeter"
@@ -1936,7 +1936,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// dekagram per cubic petameter, defined as: hectogram per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic petameter defined such that: hectogram per cubic terameter = dag/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicPetameter = new (
                                                                    "dekagram per cubic petameter"
@@ -1947,7 +1947,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// milligram per cubic femtometer, defined as: centigram per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic femtometer defined such that: centigram per cubic picometer = mg/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicFemtometer = new (
                                                                      "milligram per cubic femtometer"
@@ -1960,7 +1960,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanogram per cubic nanometer, defined as: microgram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic nanometer defined such that: microgram per cubic micrometer = ng/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicNanometer = new (
                                                                    "nanogram per cubic nanometer"
@@ -1973,7 +1973,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gram per cubic hectometer, defined as: dekagram per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// gram per cubic hectometer defined such that: dekagram per cubic dekameter = g/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GramPerCubicHectometer = new (
                                                                 "gram per cubic hectometer"
@@ -1984,7 +1984,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// microgram per cubic picometer, defined as: milligram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic picometer defined such that: milligram per cubic nanometer = μg/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicPicometer = new (
                                                                     "microgram per cubic picometer"
@@ -1997,7 +1997,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic centimeter, defined as: rontogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quectogram per cubic centimeter defined such that: rontogram per cubic decimeter = qg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicCentimeter = new (
                                                                       "quectogram per cubic centimeter"
@@ -2010,7 +2010,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// decigram per cubic rontometer, defined as: gram per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic rontometer defined such that: gram per cubic yoctometer = dg/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicRontometer = new (
                                                                     "decigram per cubic rontometer"
@@ -2023,7 +2023,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptogram per cubic millimeter, defined as: attogram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zeptogram per cubic millimeter defined such that: attogram per cubic centimeter = zg/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicMillimeter = new (
                                                                      "zeptogram per cubic millimeter"
@@ -2036,7 +2036,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettagram per cubic decimeter, defined as: exagram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zettagram per cubic decimeter defined such that: exagram per cubic meter = Zg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicDecimeter = new (
                                                                     "zettagram per cubic decimeter"
@@ -2047,7 +2047,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic exameter, defined as: hectogram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic exameter defined such that: hectogram per cubic petameter = dag/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicExameter = new (
                                                                   "dekagram per cubic exameter"
@@ -2058,7 +2058,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// centigram per cubic zeptometer, defined as: decigram per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic zeptometer defined such that: decigram per cubic attometer = cg/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicZeptometer = new (
                                                                      "centigram per cubic zeptometer"
@@ -2071,7 +2071,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtogram per cubic micrometer, defined as: picogram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic micrometer defined such that: picogram per cubic millimeter = fg/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicMicrometer = new (
                                                                      "femtogram per cubic micrometer"
@@ -2084,7 +2084,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic centimeter, defined as: kilogram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// megagram per cubic centimeter defined such that: kilogram per cubic decimeter = Mg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicCentimeter = new (
                                                                     "megagram per cubic centimeter"
@@ -2095,7 +2095,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic kilometer, defined as: dekagram per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// gram per cubic kilometer defined such that: dekagram per cubic hectometer = g/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GramPerCubicKilometer = new (
                                                                "gram per cubic kilometer"
@@ -2106,7 +2106,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// yottagram per cubic decimeter, defined as: zettagram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yottagram per cubic decimeter defined such that: zettagram per cubic meter = Yg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicDecimeter = new (
                                                                     "yottagram per cubic decimeter"
@@ -2117,7 +2117,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic zettameter, defined as: hectogram per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic zettameter defined such that: hectogram per cubic exameter = dag/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicZettameter = new (
                                                                     "dekagram per cubic zettameter"
@@ -2128,7 +2128,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic quectometer, defined as: gram per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decigram per cubic quectometer defined such that: gram per cubic rontometer = dg/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicQuectometer = new (
                                                                      "decigram per cubic quectometer"
@@ -2141,7 +2141,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// milligram per cubic attometer, defined as: centigram per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic attometer defined such that: centigram per cubic femtometer = mg/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicAttometer = new (
                                                                     "milligram per cubic attometer"
@@ -2154,7 +2154,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic nanometer, defined as: nanogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic nanometer defined such that: nanogram per cubic micrometer = pg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicNanometer = new (
                                                                    "picogram per cubic nanometer"
@@ -2167,7 +2167,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctogram per cubic millimeter, defined as: zeptogram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yoctogram per cubic millimeter defined such that: zeptogram per cubic centimeter = yg/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicMillimeter = new (
                                                                      "yoctogram per cubic millimeter"
@@ -2180,7 +2180,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnagram per cubic decimeter, defined as: yottagram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// ronnagram per cubic decimeter defined such that: yottagram per cubic meter = Rg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicDecimeter = new (
                                                                     "ronnagram per cubic decimeter"
@@ -2191,7 +2191,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic centimeter, defined as: megagram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gigagram per cubic centimeter defined such that: megagram per cubic decimeter = Gg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicCentimeter = new (
                                                                     "gigagram per cubic centimeter"
@@ -2202,7 +2202,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic yottameter, defined as: hectogram per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic yottameter defined such that: hectogram per cubic zettameter = dag/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicYottameter = new (
                                                                     "dekagram per cubic yottameter"
@@ -2213,7 +2213,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic megameter, defined as: dekagram per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic megameter defined such that: dekagram per cubic kilometer = g/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicMegameter = new (
                                                                "gram per cubic megameter"
@@ -2224,7 +2224,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// centigram per cubic yoctometer, defined as: decigram per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic yoctometer defined such that: decigram per cubic zeptometer = cg/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicYoctometer = new (
                                                                      "centigram per cubic yoctometer"
@@ -2237,7 +2237,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microgram per cubic femtometer, defined as: milligram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic femtometer defined such that: milligram per cubic picometer = μg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicFemtometer = new (
                                                                      "microgram per cubic femtometer"
@@ -2250,7 +2250,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanogram per cubic picometer, defined as: microgram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic picometer defined such that: microgram per cubic nanometer = ng/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicPicometer = new (
                                                                    "nanogram per cubic picometer"
@@ -2263,7 +2263,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// attogram per cubic micrometer, defined as: femtogram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic micrometer defined such that: femtogram per cubic millimeter = ag/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicMicrometer = new (
                                                                     "attogram per cubic micrometer"
@@ -2276,7 +2276,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettagram per cubic decimeter, defined as: ronnagram per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quettagram per cubic decimeter defined such that: ronnagram per cubic meter = Qg/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicDecimeter = new (
                                                                      "quettagram per cubic decimeter"
@@ -2287,7 +2287,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekagram per cubic ronnameter, defined as: hectogram per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic ronnameter defined such that: hectogram per cubic yottameter = dag/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicRonnameter = new (
                                                                     "dekagram per cubic ronnameter"
@@ -2298,7 +2298,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic dekameter, defined as: gram per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// decigram per cubic dekameter defined such that: gram per cubic meter = dg/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicDekameter = new (
                                                                    "decigram per cubic dekameter"
@@ -2309,7 +2309,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic millimeter, defined as: yoctogram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// rontogram per cubic millimeter defined such that: yoctogram per cubic centimeter = rg/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicMillimeter = new (
                                                                      "rontogram per cubic millimeter"
@@ -2322,7 +2322,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teragram per cubic centimeter, defined as: gigagram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// teragram per cubic centimeter defined such that: gigagram per cubic decimeter = Tg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicCentimeter = new (
                                                                     "teragram per cubic centimeter"
@@ -2333,7 +2333,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic gigameter, defined as: dekagram per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic gigameter defined such that: dekagram per cubic megameter = g/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicGigameter = new (
                                                                "gram per cubic gigameter"
@@ -2344,7 +2344,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// milligram per cubic zeptometer, defined as: centigram per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic zeptometer defined such that: centigram per cubic attometer = mg/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicZeptometer = new (
                                                                      "milligram per cubic zeptometer"
@@ -2357,7 +2357,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtogram per cubic nanometer, defined as: picogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic nanometer defined such that: picogram per cubic micrometer = fg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicNanometer = new (
                                                                     "femtogram per cubic nanometer"
@@ -2370,7 +2370,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekagram per cubic quettameter, defined as: hectogram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekagram per cubic quettameter defined such that: hectogram per cubic ronnameter = dag/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekagramPerCubicQuettameter = new (
                                                                      "dekagram per cubic quettameter"
@@ -2381,7 +2381,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centigram per cubic rontometer, defined as: decigram per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic rontometer defined such that: decigram per cubic yoctometer = cg/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicRontometer = new (
                                                                      "centigram per cubic rontometer"
@@ -2394,7 +2394,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic micrometer, defined as: attogram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic micrometer defined such that: attogram per cubic millimeter = zg/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicMicrometer = new (
                                                                      "zeptogram per cubic micrometer"
@@ -2407,7 +2407,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petagram per cubic centimeter, defined as: teragram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// petagram per cubic centimeter defined such that: teragram per cubic decimeter = Pg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicCentimeter = new (
                                                                     "petagram per cubic centimeter"
@@ -2418,7 +2418,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic terameter, defined as: dekagram per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic terameter defined such that: dekagram per cubic gigameter = g/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicTerameter = new (
                                                                "gram per cubic terameter"
@@ -2429,7 +2429,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// decigram per cubic hectometer, defined as: gram per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// decigram per cubic hectometer defined such that: gram per cubic dekameter = dg/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicHectometer = new (
                                                                     "decigram per cubic hectometer"
@@ -2440,7 +2440,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microgram per cubic attometer, defined as: milligram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic attometer defined such that: milligram per cubic femtometer = μg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicAttometer = new (
                                                                     "microgram per cubic attometer"
@@ -2453,7 +2453,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic picometer, defined as: nanogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic picometer defined such that: nanogram per cubic nanometer = pg/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicPicometer = new (
                                                                    "picogram per cubic picometer"
@@ -2466,7 +2466,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// quectogram per cubic millimeter, defined as: rontogram per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quectogram per cubic millimeter defined such that: rontogram per cubic centimeter = qg/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicMillimeter = new (
                                                                       "quectogram per cubic millimeter"
@@ -2479,7 +2479,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanogram per cubic femtometer, defined as: microgram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic femtometer defined such that: microgram per cubic picometer = ng/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicFemtometer = new (
                                                                     "nanogram per cubic femtometer"
@@ -2492,7 +2492,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic centimeter, defined as: petagram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// exagram per cubic centimeter defined such that: petagram per cubic decimeter = Eg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicCentimeter = new (
                                                                    "exagram per cubic centimeter"
@@ -2503,7 +2503,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gram per cubic petameter, defined as: dekagram per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic petameter defined such that: dekagram per cubic terameter = g/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicPetameter = new (
                                                                "gram per cubic petameter"
@@ -2514,7 +2514,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// centigram per cubic quectometer, defined as: decigram per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centigram per cubic quectometer defined such that: decigram per cubic rontometer = cg/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicQuectometer = new (
                                                                       "centigram per cubic quectometer"
@@ -2527,7 +2527,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// milligram per cubic yoctometer, defined as: centigram per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic yoctometer defined such that: centigram per cubic zeptometer = mg/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicYoctometer = new (
                                                                      "milligram per cubic yoctometer"
@@ -2540,7 +2540,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic nanometer, defined as: femtogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic nanometer defined such that: femtogram per cubic micrometer = ag/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicNanometer = new (
                                                                    "attogram per cubic nanometer"
@@ -2553,7 +2553,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctogram per cubic micrometer, defined as: zeptogram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic micrometer defined such that: zeptogram per cubic millimeter = yg/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicMicrometer = new (
                                                                      "yoctogram per cubic micrometer"
@@ -2566,7 +2566,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic millimeter, defined as: kilogram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// megagram per cubic millimeter defined such that: kilogram per cubic centimeter = Mg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicMillimeter = new (
                                                                     "megagram per cubic millimeter"
@@ -2577,7 +2577,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic kilometer, defined as: gram per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// decigram per cubic kilometer defined such that: gram per cubic hectometer = dg/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicKilometer = new (
                                                                    "decigram per cubic kilometer"
@@ -2588,7 +2588,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// zettagram per cubic centimeter, defined as: exagram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zettagram per cubic centimeter defined such that: exagram per cubic decimeter = Zg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicCentimeter = new (
                                                                      "zettagram per cubic centimeter"
@@ -2599,7 +2599,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gram per cubic exameter, defined as: dekagram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic exameter defined such that: dekagram per cubic petameter = g/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicExameter = new (
                                                               "gram per cubic exameter"
@@ -2610,7 +2610,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              );
 
    /// <summary>
-   /// microgram per cubic zeptometer, defined as: milligram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic zeptometer defined such that: milligram per cubic attometer = μg/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicZeptometer = new (
                                                                      "microgram per cubic zeptometer"
@@ -2623,7 +2623,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtogram per cubic picometer, defined as: picogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic picometer defined such that: picogram per cubic nanometer = fg/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicPicometer = new (
                                                                     "femtogram per cubic picometer"
@@ -2636,7 +2636,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic millimeter, defined as: megagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gigagram per cubic millimeter defined such that: megagram per cubic centimeter = Gg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicMillimeter = new (
                                                                     "gigagram per cubic millimeter"
@@ -2647,7 +2647,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic megameter, defined as: gram per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic megameter defined such that: gram per cubic kilometer = dg/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicMegameter = new (
                                                                    "decigram per cubic megameter"
@@ -2658,7 +2658,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// centigram per cubic dekameter, defined as: decigram per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// centigram per cubic dekameter defined such that: decigram per cubic meter = cg/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicDekameter = new (
                                                                     "centigram per cubic dekameter"
@@ -2669,7 +2669,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic attometer, defined as: microgram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic attometer defined such that: microgram per cubic femtometer = ng/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicAttometer = new (
                                                                    "nanogram per cubic attometer"
@@ -2682,7 +2682,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// picogram per cubic femtometer, defined as: nanogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic femtometer defined such that: nanogram per cubic picometer = pg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicFemtometer = new (
                                                                     "picogram per cubic femtometer"
@@ -2695,7 +2695,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic micrometer, defined as: yoctogram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic micrometer defined such that: yoctogram per cubic millimeter = rg/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicMicrometer = new (
                                                                      "rontogram per cubic micrometer"
@@ -2708,7 +2708,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// milligram per cubic rontometer, defined as: centigram per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic rontometer defined such that: centigram per cubic yoctometer = mg/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicRontometer = new (
                                                                      "milligram per cubic rontometer"
@@ -2721,7 +2721,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic nanometer, defined as: attogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic nanometer defined such that: attogram per cubic micrometer = zg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicNanometer = new (
                                                                     "zeptogram per cubic nanometer"
@@ -2734,7 +2734,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic centimeter, defined as: zettagram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yottagram per cubic centimeter defined such that: zettagram per cubic decimeter = Yg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicCentimeter = new (
                                                                      "yottagram per cubic centimeter"
@@ -2745,7 +2745,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gram per cubic zettameter, defined as: dekagram per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic zettameter defined such that: dekagram per cubic exameter = g/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicZettameter = new (
                                                                 "gram per cubic zettameter"
@@ -2756,7 +2756,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// teragram per cubic millimeter, defined as: gigagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// teragram per cubic millimeter defined such that: gigagram per cubic centimeter = Tg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicMillimeter = new (
                                                                     "teragram per cubic millimeter"
@@ -2767,7 +2767,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic gigameter, defined as: gram per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic gigameter defined such that: gram per cubic megameter = dg/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicGigameter = new (
                                                                    "decigram per cubic gigameter"
@@ -2778,7 +2778,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnagram per cubic centimeter, defined as: yottagram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// ronnagram per cubic centimeter defined such that: yottagram per cubic decimeter = Rg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicCentimeter = new (
                                                                      "ronnagram per cubic centimeter"
@@ -2789,7 +2789,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gram per cubic yottameter, defined as: dekagram per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic yottameter defined such that: dekagram per cubic zettameter = g/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicYottameter = new (
                                                                 "gram per cubic yottameter"
@@ -2800,7 +2800,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// centigram per cubic hectometer, defined as: decigram per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// centigram per cubic hectometer defined such that: decigram per cubic dekameter = cg/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicHectometer = new (
                                                                      "centigram per cubic hectometer"
@@ -2811,7 +2811,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microgram per cubic yoctometer, defined as: milligram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic yoctometer defined such that: milligram per cubic zeptometer = μg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicYoctometer = new (
                                                                      "microgram per cubic yoctometer"
@@ -2824,7 +2824,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic picometer, defined as: femtogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic picometer defined such that: femtogram per cubic nanometer = ag/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicPicometer = new (
                                                                    "attogram per cubic picometer"
@@ -2837,7 +2837,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// quectogram per cubic micrometer, defined as: rontogram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic micrometer defined such that: rontogram per cubic millimeter = qg/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicMicrometer = new (
                                                                       "quectogram per cubic micrometer"
@@ -2850,7 +2850,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// milligram per cubic quectometer, defined as: centigram per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// milligram per cubic quectometer defined such that: centigram per cubic rontometer = mg/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicQuectometer = new (
                                                                       "milligram per cubic quectometer"
@@ -2863,7 +2863,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctogram per cubic nanometer, defined as: zeptogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic nanometer defined such that: zeptogram per cubic micrometer = yg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicNanometer = new (
                                                                     "yoctogram per cubic nanometer"
@@ -2876,7 +2876,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic zeptometer, defined as: microgram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic zeptometer defined such that: microgram per cubic attometer = ng/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicZeptometer = new (
                                                                     "nanogram per cubic zeptometer"
@@ -2889,7 +2889,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtogram per cubic femtometer, defined as: picogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic femtometer defined such that: picogram per cubic picometer = fg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicFemtometer = new (
                                                                      "femtogram per cubic femtometer"
@@ -2902,7 +2902,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettagram per cubic centimeter, defined as: ronnagram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quettagram per cubic centimeter defined such that: ronnagram per cubic decimeter = Qg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicCentimeter = new (
                                                                       "quettagram per cubic centimeter"
@@ -2914,7 +2914,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petagram per cubic millimeter, defined as: teragram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// petagram per cubic millimeter defined such that: teragram per cubic centimeter = Pg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicMillimeter = new (
                                                                     "petagram per cubic millimeter"
@@ -2925,7 +2925,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic ronnameter, defined as: dekagram per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic ronnameter defined such that: dekagram per cubic yottameter = g/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicRonnameter = new (
                                                                 "gram per cubic ronnameter"
@@ -2936,7 +2936,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decigram per cubic terameter, defined as: gram per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic terameter defined such that: gram per cubic gigameter = dg/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicTerameter = new (
                                                                    "decigram per cubic terameter"
@@ -2947,7 +2947,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// picogram per cubic attometer, defined as: nanogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic attometer defined such that: nanogram per cubic femtometer = pg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicAttometer = new (
                                                                    "picogram per cubic attometer"
@@ -2960,7 +2960,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// megagram per cubic micrometer, defined as: kilogram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic micrometer defined such that: kilogram per cubic millimeter = Mg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicMicrometer = new (
                                                                     "megagram per cubic micrometer"
@@ -2972,7 +2972,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centigram per cubic kilometer, defined as: decigram per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// centigram per cubic kilometer defined such that: decigram per cubic hectometer = cg/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicKilometer = new (
                                                                     "centigram per cubic kilometer"
@@ -2983,7 +2983,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gram per cubic quettameter, defined as: dekagram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gram per cubic quettameter defined such that: dekagram per cubic ronnameter = g/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GramPerCubicQuettameter = new (
                                                                  "gram per cubic quettameter"
@@ -2994,7 +2994,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// microgram per cubic rontometer, defined as: milligram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic rontometer defined such that: milligram per cubic yoctometer = μg/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicRontometer = new (
                                                                      "microgram per cubic rontometer"
@@ -3007,7 +3007,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic picometer, defined as: attogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic picometer defined such that: attogram per cubic nanometer = zg/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicPicometer = new (
                                                                     "zeptogram per cubic picometer"
@@ -3020,7 +3020,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic millimeter, defined as: petagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// exagram per cubic millimeter defined such that: petagram per cubic centimeter = Eg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicMillimeter = new (
                                                                    "exagram per cubic millimeter"
@@ -3031,7 +3031,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// decigram per cubic petameter, defined as: gram per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic petameter defined such that: gram per cubic terameter = dg/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicPetameter = new (
                                                                    "decigram per cubic petameter"
@@ -3042,7 +3042,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// milligram per cubic dekameter, defined as: centigram per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// milligram per cubic dekameter defined such that: centigram per cubic meter = mg/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicDekameter = new (
                                                                     "milligram per cubic dekameter"
@@ -3053,7 +3053,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic nanometer, defined as: yoctogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic nanometer defined such that: yoctogram per cubic micrometer = rg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicNanometer = new (
                                                                     "rontogram per cubic nanometer"
@@ -3066,7 +3066,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic micrometer, defined as: megagram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic micrometer defined such that: megagram per cubic millimeter = Gg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicMicrometer = new (
                                                                     "gigagram per cubic micrometer"
@@ -3078,7 +3078,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centigram per cubic megameter, defined as: decigram per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic megameter defined such that: decigram per cubic kilometer = cg/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicMegameter = new (
                                                                     "centigram per cubic megameter"
@@ -3089,7 +3089,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic yoctometer, defined as: microgram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic yoctometer defined such that: microgram per cubic zeptometer = ng/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicYoctometer = new (
                                                                     "nanogram per cubic yoctometer"
@@ -3102,7 +3102,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic femtometer, defined as: femtogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic femtometer defined such that: femtogram per cubic picometer = ag/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicFemtometer = new (
                                                                     "attogram per cubic femtometer"
@@ -3115,7 +3115,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettagram per cubic millimeter, defined as: exagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zettagram per cubic millimeter defined such that: exagram per cubic centimeter = Zg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicMillimeter = new (
                                                                      "zettagram per cubic millimeter"
@@ -3126,7 +3126,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// decigram per cubic exameter, defined as: gram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic exameter defined such that: gram per cubic petameter = dg/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicExameter = new (
                                                                   "decigram per cubic exameter"
@@ -3137,7 +3137,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// picogram per cubic zeptometer, defined as: nanogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic zeptometer defined such that: nanogram per cubic attometer = pg/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicZeptometer = new (
                                                                     "picogram per cubic zeptometer"
@@ -3150,7 +3150,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtogram per cubic attometer, defined as: picogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic attometer defined such that: picogram per cubic femtometer = fg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicAttometer = new (
                                                                     "femtogram per cubic attometer"
@@ -3163,7 +3163,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// milligram per cubic hectometer, defined as: centigram per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// milligram per cubic hectometer defined such that: centigram per cubic dekameter = mg/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicHectometer = new (
                                                                      "milligram per cubic hectometer"
@@ -3174,7 +3174,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microgram per cubic quectometer, defined as: milligram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microgram per cubic quectometer defined such that: milligram per cubic rontometer = μg/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicQuectometer = new (
                                                                       "microgram per cubic quectometer"
@@ -3187,7 +3187,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctogram per cubic picometer, defined as: zeptogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic picometer defined such that: zeptogram per cubic nanometer = yg/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicPicometer = new (
                                                                     "yoctogram per cubic picometer"
@@ -3200,7 +3200,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic nanometer, defined as: rontogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic nanometer defined such that: rontogram per cubic micrometer = qg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicNanometer = new (
                                                                      "quectogram per cubic nanometer"
@@ -3213,7 +3213,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teragram per cubic micrometer, defined as: gigagram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic micrometer defined such that: gigagram per cubic millimeter = Tg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicMicrometer = new (
                                                                     "teragram per cubic micrometer"
@@ -3225,7 +3225,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centigram per cubic gigameter, defined as: decigram per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic gigameter defined such that: decigram per cubic megameter = cg/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicGigameter = new (
                                                                     "centigram per cubic gigameter"
@@ -3236,7 +3236,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic millimeter, defined as: zettagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yottagram per cubic millimeter defined such that: zettagram per cubic centimeter = Yg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicMillimeter = new (
                                                                      "yottagram per cubic millimeter"
@@ -3247,7 +3247,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// decigram per cubic zettameter, defined as: gram per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic zettameter defined such that: gram per cubic exameter = dg/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicZettameter = new (
                                                                     "decigram per cubic zettameter"
@@ -3258,7 +3258,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic rontometer, defined as: microgram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic rontometer defined such that: microgram per cubic yoctometer = ng/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicRontometer = new (
                                                                     "nanogram per cubic rontometer"
@@ -3271,7 +3271,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptogram per cubic femtometer, defined as: attogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic femtometer defined such that: attogram per cubic picometer = zg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicFemtometer = new (
                                                                      "zeptogram per cubic femtometer"
@@ -3284,7 +3284,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic nanometer, defined as: kilogram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic nanometer defined such that: kilogram per cubic micrometer = Mg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicNanometer = new (
                                                                    "megagram per cubic nanometer"
@@ -3296,7 +3296,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// milligram per cubic kilometer, defined as: centigram per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// milligram per cubic kilometer defined such that: centigram per cubic hectometer = mg/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicKilometer = new (
                                                                     "milligram per cubic kilometer"
@@ -3307,7 +3307,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnagram per cubic millimeter, defined as: yottagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// ronnagram per cubic millimeter defined such that: yottagram per cubic centimeter = Rg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicMillimeter = new (
                                                                      "ronnagram per cubic millimeter"
@@ -3318,7 +3318,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petagram per cubic micrometer, defined as: teragram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic micrometer defined such that: teragram per cubic millimeter = Pg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicMicrometer = new (
                                                                     "petagram per cubic micrometer"
@@ -3330,7 +3330,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decigram per cubic yottameter, defined as: gram per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic yottameter defined such that: gram per cubic zettameter = dg/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicYottameter = new (
                                                                     "decigram per cubic yottameter"
@@ -3341,7 +3341,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centigram per cubic terameter, defined as: decigram per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic terameter defined such that: decigram per cubic gigameter = cg/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicTerameter = new (
                                                                     "centigram per cubic terameter"
@@ -3352,7 +3352,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microgram per cubic dekameter, defined as: milligram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// microgram per cubic dekameter defined such that: milligram per cubic meter = μg/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicDekameter = new (
                                                                     "microgram per cubic dekameter"
@@ -3363,7 +3363,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic yoctometer, defined as: nanogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic yoctometer defined such that: nanogram per cubic zeptometer = pg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicYoctometer = new (
                                                                     "picogram per cubic yoctometer"
@@ -3376,7 +3376,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic attometer, defined as: femtogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic attometer defined such that: femtogram per cubic femtometer = ag/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicAttometer = new (
                                                                    "attogram per cubic attometer"
@@ -3389,7 +3389,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic picometer, defined as: yoctogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic picometer defined such that: yoctogram per cubic nanometer = rg/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicPicometer = new (
                                                                     "rontogram per cubic picometer"
@@ -3402,7 +3402,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtogram per cubic zeptometer, defined as: picogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic zeptometer defined such that: picogram per cubic attometer = fg/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicZeptometer = new (
                                                                      "femtogram per cubic zeptometer"
@@ -3415,7 +3415,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettagram per cubic millimeter, defined as: ronnagram per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quettagram per cubic millimeter defined such that: ronnagram per cubic centimeter = Qg/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicMillimeter = new (
                                                                       "quettagram per cubic millimeter"
@@ -3427,7 +3427,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// decigram per cubic ronnameter, defined as: gram per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic ronnameter defined such that: gram per cubic yottameter = dg/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicRonnameter = new (
                                                                     "decigram per cubic ronnameter"
@@ -3438,7 +3438,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic micrometer, defined as: petagram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic micrometer defined such that: petagram per cubic millimeter = Eg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicMicrometer = new (
                                                                    "exagram per cubic micrometer"
@@ -3450,7 +3450,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gigagram per cubic nanometer, defined as: megagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic nanometer defined such that: megagram per cubic micrometer = Gg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicNanometer = new (
                                                                    "gigagram per cubic nanometer"
@@ -3462,7 +3462,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// centigram per cubic petameter, defined as: decigram per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic petameter defined such that: decigram per cubic terameter = cg/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicPetameter = new (
                                                                     "centigram per cubic petameter"
@@ -3473,7 +3473,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// milligram per cubic megameter, defined as: centigram per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic megameter defined such that: centigram per cubic kilometer = mg/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicMegameter = new (
                                                                     "milligram per cubic megameter"
@@ -3484,7 +3484,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic quectometer, defined as: microgram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanogram per cubic quectometer defined such that: microgram per cubic rontometer = ng/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicQuectometer = new (
                                                                      "nanogram per cubic quectometer"
@@ -3497,7 +3497,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic femtometer, defined as: zeptogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic femtometer defined such that: zeptogram per cubic picometer = yg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicFemtometer = new (
                                                                      "yoctogram per cubic femtometer"
@@ -3510,7 +3510,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microgram per cubic hectometer, defined as: milligram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// microgram per cubic hectometer defined such that: milligram per cubic dekameter = μg/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicHectometer = new (
                                                                      "microgram per cubic hectometer"
@@ -3521,7 +3521,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic picometer, defined as: rontogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic picometer defined such that: rontogram per cubic nanometer = qg/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicPicometer = new (
                                                                      "quectogram per cubic picometer"
@@ -3534,7 +3534,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// decigram per cubic quettameter, defined as: gram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decigram per cubic quettameter defined such that: gram per cubic ronnameter = dg/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecigramPerCubicQuettameter = new (
                                                                      "decigram per cubic quettameter"
@@ -3545,7 +3545,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picogram per cubic rontometer, defined as: nanogram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic rontometer defined such that: nanogram per cubic yoctometer = pg/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicRontometer = new (
                                                                     "picogram per cubic rontometer"
@@ -3558,7 +3558,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptogram per cubic attometer, defined as: attogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic attometer defined such that: attogram per cubic femtometer = zg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicAttometer = new (
                                                                     "zeptogram per cubic attometer"
@@ -3571,7 +3571,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettagram per cubic micrometer, defined as: exagram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic micrometer defined such that: exagram per cubic millimeter = Zg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicMicrometer = new (
                                                                      "zettagram per cubic micrometer"
@@ -3583,7 +3583,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centigram per cubic exameter, defined as: decigram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic exameter defined such that: decigram per cubic petameter = cg/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicExameter = new (
                                                                    "centigram per cubic exameter"
@@ -3594,7 +3594,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// femtogram per cubic yoctometer, defined as: picogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic yoctometer defined such that: picogram per cubic zeptometer = fg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicYoctometer = new (
                                                                      "femtogram per cubic yoctometer"
@@ -3607,7 +3607,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic zeptometer, defined as: femtogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic zeptometer defined such that: femtogram per cubic attometer = ag/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicZeptometer = new (
                                                                     "attogram per cubic zeptometer"
@@ -3620,7 +3620,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teragram per cubic nanometer, defined as: gigagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic nanometer defined such that: gigagram per cubic micrometer = Tg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicNanometer = new (
                                                                    "teragram per cubic nanometer"
@@ -3632,7 +3632,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// milligram per cubic gigameter, defined as: centigram per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic gigameter defined such that: centigram per cubic megameter = mg/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicGigameter = new (
                                                                     "milligram per cubic gigameter"
@@ -3643,7 +3643,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic dekameter, defined as: microgram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// nanogram per cubic dekameter defined such that: microgram per cubic meter = ng/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicDekameter = new (
                                                                    "nanogram per cubic dekameter"
@@ -3654,7 +3654,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic femtometer, defined as: yoctogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic femtometer defined such that: yoctogram per cubic picometer = rg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicFemtometer = new (
                                                                      "rontogram per cubic femtometer"
@@ -3667,7 +3667,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic picometer, defined as: kilogram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic picometer defined such that: kilogram per cubic nanometer = Mg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicPicometer = new (
                                                                    "megagram per cubic picometer"
@@ -3679,7 +3679,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// microgram per cubic kilometer, defined as: milligram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// microgram per cubic kilometer defined such that: milligram per cubic hectometer = μg/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicKilometer = new (
                                                                     "microgram per cubic kilometer"
@@ -3690,7 +3690,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic micrometer, defined as: zettagram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic micrometer defined such that: zettagram per cubic millimeter = Yg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicMicrometer = new (
                                                                      "yottagram per cubic micrometer"
@@ -3702,7 +3702,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centigram per cubic zettameter, defined as: decigram per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic zettameter defined such that: decigram per cubic exameter = cg/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicZettameter = new (
                                                                      "centigram per cubic zettameter"
@@ -3713,7 +3713,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petagram per cubic nanometer, defined as: teragram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic nanometer defined such that: teragram per cubic micrometer = Pg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicNanometer = new (
                                                                    "petagram per cubic nanometer"
@@ -3725,7 +3725,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// milligram per cubic terameter, defined as: centigram per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic terameter defined such that: centigram per cubic gigameter = mg/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicTerameter = new (
                                                                     "milligram per cubic terameter"
@@ -3736,7 +3736,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic quectometer, defined as: nanogram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picogram per cubic quectometer defined such that: nanogram per cubic rontometer = pg/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicQuectometer = new (
                                                                      "picogram per cubic quectometer"
@@ -3749,7 +3749,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic attometer, defined as: zeptogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic attometer defined such that: zeptogram per cubic femtometer = yg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicAttometer = new (
                                                                     "yoctogram per cubic attometer"
@@ -3762,7 +3762,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtogram per cubic rontometer, defined as: picogram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic rontometer defined such that: picogram per cubic yoctometer = fg/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicRontometer = new (
                                                                      "femtogram per cubic rontometer"
@@ -3775,7 +3775,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic zeptometer, defined as: attogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic zeptometer defined such that: attogram per cubic attometer = zg/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicZeptometer = new (
                                                                      "zeptogram per cubic zeptometer"
@@ -3788,7 +3788,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnagram per cubic micrometer, defined as: yottagram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic micrometer defined such that: yottagram per cubic millimeter = Rg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicMicrometer = new (
                                                                      "ronnagram per cubic micrometer"
@@ -3800,7 +3800,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic picometer, defined as: megagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic picometer defined such that: megagram per cubic nanometer = Gg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicPicometer = new (
                                                                    "gigagram per cubic picometer"
@@ -3812,7 +3812,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// centigram per cubic yottameter, defined as: decigram per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic yottameter defined such that: decigram per cubic zettameter = cg/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicYottameter = new (
                                                                      "centigram per cubic yottameter"
@@ -3823,7 +3823,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microgram per cubic megameter, defined as: milligram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic megameter defined such that: milligram per cubic kilometer = μg/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicMegameter = new (
                                                                     "microgram per cubic megameter"
@@ -3834,7 +3834,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic hectometer, defined as: microgram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// nanogram per cubic hectometer defined such that: microgram per cubic dekameter = ng/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicHectometer = new (
                                                                     "nanogram per cubic hectometer"
@@ -3845,7 +3845,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic yoctometer, defined as: femtogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic yoctometer defined such that: femtogram per cubic zeptometer = ag/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicYoctometer = new (
                                                                     "attogram per cubic yoctometer"
@@ -3858,7 +3858,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic femtometer, defined as: rontogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic femtometer defined such that: rontogram per cubic picometer = qg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicFemtometer = new (
                                                                       "quectogram per cubic femtometer"
@@ -3871,7 +3871,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exagram per cubic nanometer, defined as: petagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic nanometer defined such that: petagram per cubic micrometer = Eg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicNanometer = new (
                                                                   "exagram per cubic nanometer"
@@ -3883,7 +3883,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// milligram per cubic petameter, defined as: centigram per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic petameter defined such that: centigram per cubic terameter = mg/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicPetameter = new (
                                                                     "milligram per cubic petameter"
@@ -3894,7 +3894,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettagram per cubic micrometer, defined as: ronnagram per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic micrometer defined such that: ronnagram per cubic millimeter = Qg/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicMicrometer = new (
                                                                       "quettagram per cubic micrometer"
@@ -3906,7 +3906,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// centigram per cubic ronnameter, defined as: decigram per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic ronnameter defined such that: decigram per cubic yottameter = cg/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicRonnameter = new (
                                                                      "centigram per cubic ronnameter"
@@ -3917,7 +3917,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picogram per cubic dekameter, defined as: nanogram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// picogram per cubic dekameter defined such that: nanogram per cubic meter = pg/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicDekameter = new (
                                                                    "picogram per cubic dekameter"
@@ -3928,7 +3928,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic attometer, defined as: yoctogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic attometer defined such that: yoctogram per cubic femtometer = rg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicAttometer = new (
                                                                     "rontogram per cubic attometer"
@@ -3941,7 +3941,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teragram per cubic picometer, defined as: gigagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic picometer defined such that: gigagram per cubic nanometer = Tg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicPicometer = new (
                                                                    "teragram per cubic picometer"
@@ -3953,7 +3953,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// microgram per cubic gigameter, defined as: milligram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic gigameter defined such that: milligram per cubic megameter = μg/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicGigameter = new (
                                                                     "microgram per cubic gigameter"
@@ -3964,7 +3964,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic femtometer, defined as: kilogram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic femtometer defined such that: kilogram per cubic picometer = Mg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicFemtometer = new (
                                                                     "megagram per cubic femtometer"
@@ -3976,7 +3976,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic kilometer, defined as: microgram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// nanogram per cubic kilometer defined such that: microgram per cubic hectometer = ng/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicKilometer = new (
                                                                    "nanogram per cubic kilometer"
@@ -3987,7 +3987,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// zettagram per cubic nanometer, defined as: exagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic nanometer defined such that: exagram per cubic micrometer = Zg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicNanometer = new (
                                                                     "zettagram per cubic nanometer"
@@ -3999,7 +3999,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// milligram per cubic exameter, defined as: centigram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic exameter defined such that: centigram per cubic petameter = mg/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicExameter = new (
                                                                    "milligram per cubic exameter"
@@ -4010,7 +4010,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// femtogram per cubic quectometer, defined as: picogram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtogram per cubic quectometer defined such that: picogram per cubic rontometer = fg/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicQuectometer = new (
                                                                       "femtogram per cubic quectometer"
@@ -4023,7 +4023,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctogram per cubic zeptometer, defined as: zeptogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic zeptometer defined such that: zeptogram per cubic attometer = yg/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicZeptometer = new (
                                                                      "yoctogram per cubic zeptometer"
@@ -4036,7 +4036,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centigram per cubic quettameter, defined as: decigram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centigram per cubic quettameter defined such that: decigram per cubic ronnameter = cg/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentigramPerCubicQuettameter = new (
                                                                       "centigram per cubic quettameter"
@@ -4047,7 +4047,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attogram per cubic rontometer, defined as: femtogram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic rontometer defined such that: femtogram per cubic yoctometer = ag/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicRontometer = new (
                                                                     "attogram per cubic rontometer"
@@ -4060,7 +4060,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptogram per cubic yoctometer, defined as: attogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic yoctometer defined such that: attogram per cubic zeptometer = zg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicYoctometer = new (
                                                                      "zeptogram per cubic yoctometer"
@@ -4073,7 +4073,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petagram per cubic picometer, defined as: teragram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic picometer defined such that: teragram per cubic nanometer = Pg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicPicometer = new (
                                                                    "petagram per cubic picometer"
@@ -4085,7 +4085,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// microgram per cubic terameter, defined as: milligram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic terameter defined such that: milligram per cubic gigameter = μg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicTerameter = new (
                                                                     "microgram per cubic terameter"
@@ -4096,7 +4096,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic hectometer, defined as: nanogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// picogram per cubic hectometer defined such that: nanogram per cubic dekameter = pg/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicHectometer = new (
                                                                     "picogram per cubic hectometer"
@@ -4107,7 +4107,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic attometer, defined as: rontogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic attometer defined such that: rontogram per cubic femtometer = qg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicAttometer = new (
                                                                      "quectogram per cubic attometer"
@@ -4120,7 +4120,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottagram per cubic nanometer, defined as: zettagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic nanometer defined such that: zettagram per cubic micrometer = Yg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicNanometer = new (
                                                                     "yottagram per cubic nanometer"
@@ -4132,7 +4132,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// milligram per cubic zettameter, defined as: centigram per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic zettameter defined such that: centigram per cubic exameter = mg/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicZettameter = new (
                                                                      "milligram per cubic zettameter"
@@ -4143,7 +4143,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic femtometer, defined as: megagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic femtometer defined such that: megagram per cubic picometer = Gg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicFemtometer = new (
                                                                     "gigagram per cubic femtometer"
@@ -4155,7 +4155,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic megameter, defined as: microgram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic megameter defined such that: microgram per cubic kilometer = ng/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicMegameter = new (
                                                                    "nanogram per cubic megameter"
@@ -4166,7 +4166,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// femtogram per cubic dekameter, defined as: picogram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// femtogram per cubic dekameter defined such that: picogram per cubic meter = fg/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicDekameter = new (
                                                                     "femtogram per cubic dekameter"
@@ -4177,7 +4177,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic zeptometer, defined as: yoctogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic zeptometer defined such that: yoctogram per cubic attometer = rg/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicZeptometer = new (
                                                                      "rontogram per cubic zeptometer"
@@ -4190,7 +4190,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnagram per cubic nanometer, defined as: yottagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic nanometer defined such that: yottagram per cubic micrometer = Rg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicNanometer = new (
                                                                     "ronnagram per cubic nanometer"
@@ -4202,7 +4202,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic picometer, defined as: petagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic picometer defined such that: petagram per cubic nanometer = Eg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicPicometer = new (
                                                                   "exagram per cubic picometer"
@@ -4214,7 +4214,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// milligram per cubic yottameter, defined as: centigram per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic yottameter defined such that: centigram per cubic zettameter = mg/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicYottameter = new (
                                                                      "milligram per cubic yottameter"
@@ -4225,7 +4225,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microgram per cubic petameter, defined as: milligram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic petameter defined such that: milligram per cubic terameter = μg/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicPetameter = new (
                                                                     "microgram per cubic petameter"
@@ -4236,7 +4236,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic quectometer, defined as: femtogram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attogram per cubic quectometer defined such that: femtogram per cubic rontometer = ag/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicQuectometer = new (
                                                                      "attogram per cubic quectometer"
@@ -4249,7 +4249,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic yoctometer, defined as: zeptogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic yoctometer defined such that: zeptogram per cubic zeptometer = yg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicYoctometer = new (
                                                                      "yoctogram per cubic yoctometer"
@@ -4262,7 +4262,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic rontometer, defined as: attogram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic rontometer defined such that: attogram per cubic yoctometer = zg/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicRontometer = new (
                                                                      "zeptogram per cubic rontometer"
@@ -4275,7 +4275,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic attometer, defined as: kilogram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic attometer defined such that: kilogram per cubic femtometer = Mg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicAttometer = new (
                                                                    "megagram per cubic attometer"
@@ -4287,7 +4287,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// picogram per cubic kilometer, defined as: nanogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// picogram per cubic kilometer defined such that: nanogram per cubic hectometer = pg/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicKilometer = new (
                                                                    "picogram per cubic kilometer"
@@ -4298,7 +4298,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// teragram per cubic femtometer, defined as: gigagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic femtometer defined such that: gigagram per cubic picometer = Tg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicFemtometer = new (
                                                                     "teragram per cubic femtometer"
@@ -4310,7 +4310,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic gigameter, defined as: microgram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic gigameter defined such that: microgram per cubic megameter = ng/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicGigameter = new (
                                                                    "nanogram per cubic gigameter"
@@ -4321,7 +4321,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// quettagram per cubic nanometer, defined as: ronnagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic nanometer defined such that: ronnagram per cubic micrometer = Qg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicNanometer = new (
                                                                      "quettagram per cubic nanometer"
@@ -4333,7 +4333,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// milligram per cubic ronnameter, defined as: centigram per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic ronnameter defined such that: centigram per cubic yottameter = mg/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicRonnameter = new (
                                                                      "milligram per cubic ronnameter"
@@ -4344,7 +4344,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettagram per cubic picometer, defined as: exagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic picometer defined such that: exagram per cubic nanometer = Zg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicPicometer = new (
                                                                     "zettagram per cubic picometer"
@@ -4356,7 +4356,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microgram per cubic exameter, defined as: milligram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic exameter defined such that: milligram per cubic petameter = μg/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicExameter = new (
                                                                    "microgram per cubic exameter"
@@ -4367,7 +4367,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// femtogram per cubic hectometer, defined as: picogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// femtogram per cubic hectometer defined such that: picogram per cubic dekameter = fg/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicHectometer = new (
                                                                      "femtogram per cubic hectometer"
@@ -4378,7 +4378,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic zeptometer, defined as: rontogram per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic zeptometer defined such that: rontogram per cubic attometer = qg/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicZeptometer = new (
                                                                       "quectogram per cubic zeptometer"
@@ -4391,7 +4391,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petagram per cubic femtometer, defined as: teragram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic femtometer defined such that: teragram per cubic picometer = Pg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicFemtometer = new (
                                                                     "petagram per cubic femtometer"
@@ -4403,7 +4403,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic attometer, defined as: megagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic attometer defined such that: megagram per cubic femtometer = Gg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicAttometer = new (
                                                                    "gigagram per cubic attometer"
@@ -4415,7 +4415,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// nanogram per cubic terameter, defined as: microgram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic terameter defined such that: microgram per cubic gigameter = ng/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicTerameter = new (
                                                                    "nanogram per cubic terameter"
@@ -4426,7 +4426,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// picogram per cubic megameter, defined as: nanogram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic megameter defined such that: nanogram per cubic kilometer = pg/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicMegameter = new (
                                                                    "picogram per cubic megameter"
@@ -4437,7 +4437,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// attogram per cubic dekameter, defined as: femtogram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// attogram per cubic dekameter defined such that: femtogram per cubic meter = ag/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicDekameter = new (
                                                                    "attogram per cubic dekameter"
@@ -4448,7 +4448,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic yoctometer, defined as: yoctogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic yoctometer defined such that: yoctogram per cubic zeptometer = rg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicYoctometer = new (
                                                                      "rontogram per cubic yoctometer"
@@ -4461,7 +4461,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// milligram per cubic quettameter, defined as: centigram per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// milligram per cubic quettameter defined such that: centigram per cubic ronnameter = mg/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MilligramPerCubicQuettameter = new (
                                                                       "milligram per cubic quettameter"
@@ -4472,7 +4472,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptogram per cubic quectometer, defined as: attogram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptogram per cubic quectometer defined such that: attogram per cubic rontometer = zg/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicQuectometer = new (
                                                                       "zeptogram per cubic quectometer"
@@ -4485,7 +4485,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctogram per cubic rontometer, defined as: zeptogram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic rontometer defined such that: zeptogram per cubic yoctometer = yg/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicRontometer = new (
                                                                      "yoctogram per cubic rontometer"
@@ -4498,7 +4498,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottagram per cubic picometer, defined as: zettagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic picometer defined such that: zettagram per cubic nanometer = Yg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicPicometer = new (
                                                                     "yottagram per cubic picometer"
@@ -4510,7 +4510,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microgram per cubic zettameter, defined as: milligram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic zettameter defined such that: milligram per cubic exameter = μg/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicZettameter = new (
                                                                      "microgram per cubic zettameter"
@@ -4521,7 +4521,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic zeptometer, defined as: kilogram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic zeptometer defined such that: kilogram per cubic attometer = Mg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicZeptometer = new (
                                                                     "megagram per cubic zeptometer"
@@ -4533,7 +4533,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtogram per cubic kilometer, defined as: picogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// femtogram per cubic kilometer defined such that: picogram per cubic hectometer = fg/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicKilometer = new (
                                                                     "femtogram per cubic kilometer"
@@ -4544,7 +4544,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic femtometer, defined as: petagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic femtometer defined such that: petagram per cubic picometer = Eg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicFemtometer = new (
                                                                    "exagram per cubic femtometer"
@@ -4556,7 +4556,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// nanogram per cubic petameter, defined as: microgram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic petameter defined such that: microgram per cubic terameter = ng/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicPetameter = new (
                                                                    "nanogram per cubic petameter"
@@ -4567,7 +4567,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// teragram per cubic attometer, defined as: gigagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic attometer defined such that: gigagram per cubic femtometer = Tg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicAttometer = new (
                                                                    "teragram per cubic attometer"
@@ -4579,7 +4579,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// picogram per cubic gigameter, defined as: nanogram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic gigameter defined such that: nanogram per cubic megameter = pg/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicGigameter = new (
                                                                    "picogram per cubic gigameter"
@@ -4590,7 +4590,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnagram per cubic picometer, defined as: yottagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic picometer defined such that: yottagram per cubic nanometer = Rg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicPicometer = new (
                                                                     "ronnagram per cubic picometer"
@@ -4602,7 +4602,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microgram per cubic yottameter, defined as: milligram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic yottameter defined such that: milligram per cubic zettameter = μg/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicYottameter = new (
                                                                      "microgram per cubic yottameter"
@@ -4613,7 +4613,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic hectometer, defined as: femtogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// attogram per cubic hectometer defined such that: femtogram per cubic dekameter = ag/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicHectometer = new (
                                                                     "attogram per cubic hectometer"
@@ -4624,7 +4624,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic yoctometer, defined as: rontogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic yoctometer defined such that: rontogram per cubic zeptometer = qg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicYoctometer = new (
                                                                       "quectogram per cubic yoctometer"
@@ -4637,7 +4637,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptogram per cubic dekameter, defined as: attogram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// zeptogram per cubic dekameter defined such that: attogram per cubic meter = zg/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicDekameter = new (
                                                                     "zeptogram per cubic dekameter"
@@ -4648,7 +4648,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic rontometer, defined as: yoctogram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic rontometer defined such that: yoctogram per cubic yoctometer = rg/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicRontometer = new (
                                                                      "rontogram per cubic rontometer"
@@ -4661,7 +4661,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic quectometer, defined as: zeptogram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctogram per cubic quectometer defined such that: zeptogram per cubic rontometer = yg/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicQuectometer = new (
                                                                       "yoctogram per cubic quectometer"
@@ -4674,7 +4674,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zettagram per cubic femtometer, defined as: exagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic femtometer defined such that: exagram per cubic picometer = Zg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicFemtometer = new (
                                                                      "zettagram per cubic femtometer"
@@ -4686,7 +4686,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic zeptometer, defined as: megagram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic zeptometer defined such that: megagram per cubic attometer = Gg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicZeptometer = new (
                                                                     "gigagram per cubic zeptometer"
@@ -4698,7 +4698,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic exameter, defined as: microgram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic exameter defined such that: microgram per cubic petameter = ng/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicExameter = new (
                                                                   "nanogram per cubic exameter"
@@ -4709,7 +4709,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// femtogram per cubic megameter, defined as: picogram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic megameter defined such that: picogram per cubic kilometer = fg/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicMegameter = new (
                                                                     "femtogram per cubic megameter"
@@ -4720,7 +4720,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettagram per cubic picometer, defined as: ronnagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic picometer defined such that: ronnagram per cubic nanometer = Qg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicPicometer = new (
                                                                      "quettagram per cubic picometer"
@@ -4732,7 +4732,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petagram per cubic attometer, defined as: teragram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic attometer defined such that: teragram per cubic femtometer = Pg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicAttometer = new (
                                                                    "petagram per cubic attometer"
@@ -4744,7 +4744,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// microgram per cubic ronnameter, defined as: milligram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic ronnameter defined such that: milligram per cubic yottameter = μg/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicRonnameter = new (
                                                                      "microgram per cubic ronnameter"
@@ -4755,7 +4755,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picogram per cubic terameter, defined as: nanogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic terameter defined such that: nanogram per cubic gigameter = pg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicTerameter = new (
                                                                    "picogram per cubic terameter"
@@ -4766,7 +4766,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// megagram per cubic yoctometer, defined as: kilogram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic yoctometer defined such that: kilogram per cubic zeptometer = Mg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicYoctometer = new (
                                                                     "megagram per cubic yoctometer"
@@ -4778,7 +4778,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic kilometer, defined as: femtogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// attogram per cubic kilometer defined such that: femtogram per cubic hectometer = ag/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicKilometer = new (
                                                                    "attogram per cubic kilometer"
@@ -4789,7 +4789,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yottagram per cubic femtometer, defined as: zettagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic femtometer defined such that: zettagram per cubic picometer = Yg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicFemtometer = new (
                                                                      "yottagram per cubic femtometer"
@@ -4801,7 +4801,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanogram per cubic zettameter, defined as: microgram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic zettameter defined such that: microgram per cubic exameter = ng/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicZettameter = new (
                                                                     "nanogram per cubic zettameter"
@@ -4812,7 +4812,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microgram per cubic quettameter, defined as: milligram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microgram per cubic quettameter defined such that: milligram per cubic ronnameter = μg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrogramPerCubicQuettameter = new (
                                                                       "microgram per cubic quettameter"
@@ -4823,7 +4823,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptogram per cubic hectometer, defined as: attogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// zeptogram per cubic hectometer defined such that: attogram per cubic dekameter = zg/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicHectometer = new (
                                                                      "zeptogram per cubic hectometer"
@@ -4834,7 +4834,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic rontometer, defined as: rontogram per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic rontometer defined such that: rontogram per cubic yoctometer = qg/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicRontometer = new (
                                                                       "quectogram per cubic rontometer"
@@ -4847,7 +4847,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// teragram per cubic zeptometer, defined as: gigagram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic zeptometer defined such that: gigagram per cubic attometer = Tg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicZeptometer = new (
                                                                     "teragram per cubic zeptometer"
@@ -4859,7 +4859,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtogram per cubic gigameter, defined as: picogram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic gigameter defined such that: picogram per cubic megameter = fg/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicGigameter = new (
                                                                     "femtogram per cubic gigameter"
@@ -4870,7 +4870,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic attometer, defined as: petagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic attometer defined such that: petagram per cubic femtometer = Eg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicAttometer = new (
                                                                   "exagram per cubic attometer"
@@ -4882,7 +4882,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// picogram per cubic petameter, defined as: nanogram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic petameter defined such that: nanogram per cubic terameter = pg/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicPetameter = new (
                                                                    "picogram per cubic petameter"
@@ -4893,7 +4893,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctogram per cubic dekameter, defined as: zeptogram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// yoctogram per cubic dekameter defined such that: zeptogram per cubic meter = yg/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicDekameter = new (
                                                                     "yoctogram per cubic dekameter"
@@ -4904,7 +4904,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic quectometer, defined as: yoctogram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontogram per cubic quectometer defined such that: yoctogram per cubic rontometer = rg/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicQuectometer = new (
                                                                       "rontogram per cubic quectometer"
@@ -4917,7 +4917,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// ronnagram per cubic femtometer, defined as: yottagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic femtometer defined such that: yottagram per cubic picometer = Rg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicFemtometer = new (
                                                                      "ronnagram per cubic femtometer"
@@ -4929,7 +4929,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic yoctometer, defined as: megagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic yoctometer defined such that: megagram per cubic zeptometer = Gg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicYoctometer = new (
                                                                     "gigagram per cubic yoctometer"
@@ -4941,7 +4941,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic yottameter, defined as: microgram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic yottameter defined such that: microgram per cubic zettameter = ng/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicYottameter = new (
                                                                     "nanogram per cubic yottameter"
@@ -4952,7 +4952,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic megameter, defined as: femtogram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic megameter defined such that: femtogram per cubic kilometer = ag/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicMegameter = new (
                                                                    "attogram per cubic megameter"
@@ -4963,7 +4963,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// zettagram per cubic attometer, defined as: exagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic attometer defined such that: exagram per cubic femtometer = Zg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicAttometer = new (
                                                                     "zettagram per cubic attometer"
@@ -4975,7 +4975,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic zeptometer, defined as: teragram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic zeptometer defined such that: teragram per cubic attometer = Pg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicZeptometer = new (
                                                                     "petagram per cubic zeptometer"
@@ -4987,7 +4987,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic exameter, defined as: nanogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic exameter defined such that: nanogram per cubic petameter = pg/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicExameter = new (
                                                                   "picogram per cubic exameter"
@@ -4998,7 +4998,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// femtogram per cubic terameter, defined as: picogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic terameter defined such that: picogram per cubic gigameter = fg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicTerameter = new (
                                                                     "femtogram per cubic terameter"
@@ -5009,7 +5009,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic rontometer, defined as: kilogram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic rontometer defined such that: kilogram per cubic yoctometer = Mg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicRontometer = new (
                                                                     "megagram per cubic rontometer"
@@ -5021,7 +5021,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptogram per cubic kilometer, defined as: attogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// zeptogram per cubic kilometer defined such that: attogram per cubic hectometer = zg/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicKilometer = new (
                                                                     "zeptogram per cubic kilometer"
@@ -5032,7 +5032,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yoctogram per cubic hectometer, defined as: zeptogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// yoctogram per cubic hectometer defined such that: zeptogram per cubic dekameter = yg/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicHectometer = new (
                                                                      "yoctogram per cubic hectometer"
@@ -5043,7 +5043,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic quectometer, defined as: rontogram per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectogram per cubic quectometer defined such that: rontogram per cubic rontometer = qg/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicQuectometer = new (
                                                                        "quectogram per cubic quectometer"
@@ -5056,7 +5056,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quettagram per cubic femtometer, defined as: ronnagram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic femtometer defined such that: ronnagram per cubic picometer = Qg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicFemtometer = new (
                                                                       "quettagram per cubic femtometer"
@@ -5068,7 +5068,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanogram per cubic ronnameter, defined as: microgram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic ronnameter defined such that: microgram per cubic yottameter = ng/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicRonnameter = new (
                                                                     "nanogram per cubic ronnameter"
@@ -5079,7 +5079,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic dekameter, defined as: yoctogram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// rontogram per cubic dekameter defined such that: yoctogram per cubic meter = rg/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicDekameter = new (
                                                                     "rontogram per cubic dekameter"
@@ -5090,7 +5090,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teragram per cubic yoctometer, defined as: gigagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic yoctometer defined such that: gigagram per cubic zeptometer = Tg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicYoctometer = new (
                                                                     "teragram per cubic yoctometer"
@@ -5102,7 +5102,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic gigameter, defined as: femtogram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic gigameter defined such that: femtogram per cubic megameter = ag/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicGigameter = new (
                                                                    "attogram per cubic gigameter"
@@ -5113,7 +5113,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yottagram per cubic attometer, defined as: zettagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic attometer defined such that: zettagram per cubic femtometer = Yg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicAttometer = new (
                                                                     "yottagram per cubic attometer"
@@ -5125,7 +5125,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic zettameter, defined as: nanogram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic zettameter defined such that: nanogram per cubic exameter = pg/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicZettameter = new (
                                                                     "picogram per cubic zettameter"
@@ -5136,7 +5136,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic zeptometer, defined as: petagram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic zeptometer defined such that: petagram per cubic attometer = Eg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicZeptometer = new (
                                                                    "exagram per cubic zeptometer"
@@ -5148,7 +5148,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// femtogram per cubic petameter, defined as: picogram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic petameter defined such that: picogram per cubic terameter = fg/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicPetameter = new (
                                                                     "femtogram per cubic petameter"
@@ -5159,7 +5159,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic rontometer, defined as: megagram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic rontometer defined such that: megagram per cubic yoctometer = Gg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicRontometer = new (
                                                                     "gigagram per cubic rontometer"
@@ -5171,7 +5171,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanogram per cubic quettameter, defined as: microgram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanogram per cubic quettameter defined such that: microgram per cubic ronnameter = ng/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanogramPerCubicQuettameter = new (
                                                                      "nanogram per cubic quettameter"
@@ -5182,7 +5182,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic megameter, defined as: attogram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic megameter defined such that: attogram per cubic kilometer = zg/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicMegameter = new (
                                                                     "zeptogram per cubic megameter"
@@ -5193,7 +5193,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic quectometer, defined as: kilogram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megagram per cubic quectometer defined such that: kilogram per cubic rontometer = Mg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicQuectometer = new (
                                                                      "megagram per cubic quectometer"
@@ -5205,7 +5205,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic kilometer, defined as: zeptogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// yoctogram per cubic kilometer defined such that: zeptogram per cubic hectometer = yg/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicKilometer = new (
                                                                     "yoctogram per cubic kilometer"
@@ -5216,7 +5216,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnagram per cubic attometer, defined as: yottagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic attometer defined such that: yottagram per cubic femtometer = Rg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicAttometer = new (
                                                                     "ronnagram per cubic attometer"
@@ -5228,7 +5228,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic yoctometer, defined as: teragram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic yoctometer defined such that: teragram per cubic zeptometer = Pg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicYoctometer = new (
                                                                     "petagram per cubic yoctometer"
@@ -5240,7 +5240,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic yottameter, defined as: nanogram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic yottameter defined such that: nanogram per cubic zettameter = pg/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicYottameter = new (
                                                                     "picogram per cubic yottameter"
@@ -5251,7 +5251,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic terameter, defined as: femtogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic terameter defined such that: femtogram per cubic gigameter = ag/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicTerameter = new (
                                                                    "attogram per cubic terameter"
@@ -5262,7 +5262,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic hectometer, defined as: yoctogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// rontogram per cubic hectometer defined such that: yoctogram per cubic dekameter = rg/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicHectometer = new (
                                                                      "rontogram per cubic hectometer"
@@ -5273,7 +5273,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic dekameter, defined as: rontogram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// quectogram per cubic dekameter defined such that: rontogram per cubic meter = qg/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicDekameter = new (
                                                                      "quectogram per cubic dekameter"
@@ -5284,7 +5284,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettagram per cubic zeptometer, defined as: exagram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic zeptometer defined such that: exagram per cubic attometer = Zg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicZeptometer = new (
                                                                      "zettagram per cubic zeptometer"
@@ -5296,7 +5296,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtogram per cubic exameter, defined as: picogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic exameter defined such that: picogram per cubic petameter = fg/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicExameter = new (
                                                                    "femtogram per cubic exameter"
@@ -5307,7 +5307,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// teragram per cubic rontometer, defined as: gigagram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic rontometer defined such that: gigagram per cubic yoctometer = Tg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicRontometer = new (
                                                                     "teragram per cubic rontometer"
@@ -5319,7 +5319,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptogram per cubic gigameter, defined as: attogram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic gigameter defined such that: attogram per cubic megameter = zg/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicGigameter = new (
                                                                     "zeptogram per cubic gigameter"
@@ -5330,7 +5330,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettagram per cubic attometer, defined as: ronnagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic attometer defined such that: ronnagram per cubic femtometer = Qg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicAttometer = new (
                                                                      "quettagram per cubic attometer"
@@ -5342,7 +5342,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picogram per cubic ronnameter, defined as: nanogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic ronnameter defined such that: nanogram per cubic yottameter = pg/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicRonnameter = new (
                                                                     "picogram per cubic ronnameter"
@@ -5353,7 +5353,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic yoctometer, defined as: petagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic yoctometer defined such that: petagram per cubic zeptometer = Eg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicYoctometer = new (
                                                                    "exagram per cubic yoctometer"
@@ -5365,7 +5365,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gigagram per cubic quectometer, defined as: megagram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigagram per cubic quectometer defined such that: megagram per cubic rontometer = Gg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicQuectometer = new (
                                                                      "gigagram per cubic quectometer"
@@ -5377,7 +5377,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic petameter, defined as: femtogram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic petameter defined such that: femtogram per cubic terameter = ag/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicPetameter = new (
                                                                    "attogram per cubic petameter"
@@ -5388,7 +5388,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctogram per cubic megameter, defined as: zeptogram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic megameter defined such that: zeptogram per cubic kilometer = yg/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicMegameter = new (
                                                                     "yoctogram per cubic megameter"
@@ -5399,7 +5399,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic zeptometer, defined as: zettagram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic zeptometer defined such that: zettagram per cubic attometer = Yg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicZeptometer = new (
                                                                      "yottagram per cubic zeptometer"
@@ -5411,7 +5411,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtogram per cubic zettameter, defined as: picogram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic zettameter defined such that: picogram per cubic exameter = fg/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicZettameter = new (
                                                                      "femtogram per cubic zettameter"
@@ -5422,7 +5422,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic dekameter, defined as: kilogram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// megagram per cubic dekameter defined such that: kilogram per cubic meter = Mg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicDekameter = new (
                                                                    "megagram per cubic dekameter"
@@ -5433,7 +5433,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic kilometer, defined as: yoctogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// rontogram per cubic kilometer defined such that: yoctogram per cubic hectometer = rg/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicKilometer = new (
                                                                     "rontogram per cubic kilometer"
@@ -5444,7 +5444,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic hectometer, defined as: rontogram per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// quectogram per cubic hectometer defined such that: rontogram per cubic dekameter = qg/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicHectometer = new (
                                                                       "quectogram per cubic hectometer"
@@ -5455,7 +5455,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petagram per cubic rontometer, defined as: teragram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic rontometer defined such that: teragram per cubic yoctometer = Pg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicRontometer = new (
                                                                     "petagram per cubic rontometer"
@@ -5467,7 +5467,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picogram per cubic quettameter, defined as: nanogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picogram per cubic quettameter defined such that: nanogram per cubic ronnameter = pg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicogramPerCubicQuettameter = new (
                                                                      "picogram per cubic quettameter"
@@ -5478,7 +5478,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic terameter, defined as: attogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic terameter defined such that: attogram per cubic gigameter = zg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicTerameter = new (
                                                                     "zeptogram per cubic terameter"
@@ -5489,7 +5489,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnagram per cubic zeptometer, defined as: yottagram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic zeptometer defined such that: yottagram per cubic attometer = Rg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicZeptometer = new (
                                                                      "ronnagram per cubic zeptometer"
@@ -5501,7 +5501,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettagram per cubic yoctometer, defined as: exagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic yoctometer defined such that: exagram per cubic zeptometer = Zg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicYoctometer = new (
                                                                      "zettagram per cubic yoctometer"
@@ -5513,7 +5513,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtogram per cubic yottameter, defined as: picogram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic yottameter defined such that: picogram per cubic zettameter = fg/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicYottameter = new (
                                                                      "femtogram per cubic yottameter"
@@ -5524,7 +5524,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic exameter, defined as: femtogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic exameter defined such that: femtogram per cubic petameter = ag/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicExameter = new (
                                                                   "attogram per cubic exameter"
@@ -5535,7 +5535,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// teragram per cubic quectometer, defined as: gigagram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teragram per cubic quectometer defined such that: gigagram per cubic rontometer = Tg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicQuectometer = new (
                                                                      "teragram per cubic quectometer"
@@ -5547,7 +5547,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic gigameter, defined as: zeptogram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic gigameter defined such that: zeptogram per cubic megameter = yg/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicGigameter = new (
                                                                     "yoctogram per cubic gigameter"
@@ -5558,7 +5558,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic dekameter, defined as: megagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// gigagram per cubic dekameter defined such that: megagram per cubic meter = Gg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicDekameter = new (
                                                                    "gigagram per cubic dekameter"
@@ -5569,7 +5569,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic megameter, defined as: yoctogram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic megameter defined such that: yoctogram per cubic kilometer = rg/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicMegameter = new (
                                                                     "rontogram per cubic megameter"
@@ -5580,7 +5580,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic hectometer, defined as: kilogram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// megagram per cubic hectometer defined such that: kilogram per cubic dekameter = Mg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicHectometer = new (
                                                                     "megagram per cubic hectometer"
@@ -5591,7 +5591,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic kilometer, defined as: rontogram per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// quectogram per cubic kilometer defined such that: rontogram per cubic hectometer = qg/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicKilometer = new (
                                                                      "quectogram per cubic kilometer"
@@ -5602,7 +5602,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exagram per cubic rontometer, defined as: petagram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic rontometer defined such that: petagram per cubic yoctometer = Eg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicRontometer = new (
                                                                    "exagram per cubic rontometer"
@@ -5614,7 +5614,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// zeptogram per cubic petameter, defined as: attogram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic petameter defined such that: attogram per cubic terameter = zg/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicPetameter = new (
                                                                     "zeptogram per cubic petameter"
@@ -5625,7 +5625,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettagram per cubic zeptometer, defined as: ronnagram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic zeptometer defined such that: ronnagram per cubic attometer = Qg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicZeptometer = new (
                                                                       "quettagram per cubic zeptometer"
@@ -5637,7 +5637,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// femtogram per cubic ronnameter, defined as: picogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic ronnameter defined such that: picogram per cubic yottameter = fg/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicRonnameter = new (
                                                                      "femtogram per cubic ronnameter"
@@ -5648,7 +5648,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottagram per cubic yoctometer, defined as: zettagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic yoctometer defined such that: zettagram per cubic zeptometer = Yg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicYoctometer = new (
                                                                      "yottagram per cubic yoctometer"
@@ -5660,7 +5660,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic zettameter, defined as: femtogram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic zettameter defined such that: femtogram per cubic exameter = ag/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicZettameter = new (
                                                                     "attogram per cubic zettameter"
@@ -5671,7 +5671,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic quectometer, defined as: teragram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petagram per cubic quectometer defined such that: teragram per cubic rontometer = Pg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicQuectometer = new (
                                                                      "petagram per cubic quectometer"
@@ -5683,7 +5683,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctogram per cubic terameter, defined as: zeptogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic terameter defined such that: zeptogram per cubic gigameter = yg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicTerameter = new (
                                                                     "yoctogram per cubic terameter"
@@ -5694,7 +5694,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teragram per cubic dekameter, defined as: gigagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// teragram per cubic dekameter defined such that: gigagram per cubic meter = Tg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicDekameter = new (
                                                                    "teragram per cubic dekameter"
@@ -5705,7 +5705,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic gigameter, defined as: yoctogram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic gigameter defined such that: yoctogram per cubic megameter = rg/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicGigameter = new (
                                                                     "rontogram per cubic gigameter"
@@ -5716,7 +5716,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettagram per cubic rontometer, defined as: exagram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic rontometer defined such that: exagram per cubic yoctometer = Zg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicRontometer = new (
                                                                      "zettagram per cubic rontometer"
@@ -5728,7 +5728,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtogram per cubic quettameter, defined as: picogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtogram per cubic quettameter defined such that: picogram per cubic ronnameter = fg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtogramPerCubicQuettameter = new (
                                                                       "femtogram per cubic quettameter"
@@ -5739,7 +5739,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptogram per cubic exameter, defined as: attogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic exameter defined such that: attogram per cubic petameter = zg/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicExameter = new (
                                                                    "zeptogram per cubic exameter"
@@ -5750,7 +5750,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnagram per cubic yoctometer, defined as: yottagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic yoctometer defined such that: yottagram per cubic zeptometer = Rg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicYoctometer = new (
                                                                      "ronnagram per cubic yoctometer"
@@ -5762,7 +5762,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic hectometer, defined as: megagram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// gigagram per cubic hectometer defined such that: megagram per cubic dekameter = Gg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicHectometer = new (
                                                                     "gigagram per cubic hectometer"
@@ -5773,7 +5773,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attogram per cubic yottameter, defined as: femtogram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic yottameter defined such that: femtogram per cubic zettameter = ag/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicYottameter = new (
                                                                     "attogram per cubic yottameter"
@@ -5784,7 +5784,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic megameter, defined as: rontogram per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic megameter defined such that: rontogram per cubic kilometer = qg/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicMegameter = new (
                                                                      "quectogram per cubic megameter"
@@ -5795,7 +5795,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic kilometer, defined as: kilogram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// megagram per cubic kilometer defined such that: kilogram per cubic hectometer = Mg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicKilometer = new (
                                                                    "megagram per cubic kilometer"
@@ -5806,7 +5806,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// exagram per cubic quectometer, defined as: petagram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exagram per cubic quectometer defined such that: petagram per cubic rontometer = Eg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicQuectometer = new (
                                                                     "exagram per cubic quectometer"
@@ -5818,7 +5818,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yoctogram per cubic petameter, defined as: zeptogram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic petameter defined such that: zeptogram per cubic terameter = yg/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicPetameter = new (
                                                                     "yoctogram per cubic petameter"
@@ -5829,7 +5829,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic rontometer, defined as: zettagram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic rontometer defined such that: zettagram per cubic yoctometer = Yg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicRontometer = new (
                                                                      "yottagram per cubic rontometer"
@@ -5841,7 +5841,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic zettameter, defined as: attogram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic zettameter defined such that: attogram per cubic exameter = zg/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicZettameter = new (
                                                                      "zeptogram per cubic zettameter"
@@ -5852,7 +5852,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettagram per cubic yoctometer, defined as: ronnagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic yoctometer defined such that: ronnagram per cubic zeptometer = Qg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicYoctometer = new (
                                                                       "quettagram per cubic yoctometer"
@@ -5864,7 +5864,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petagram per cubic dekameter, defined as: teragram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// petagram per cubic dekameter defined such that: teragram per cubic meter = Pg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicDekameter = new (
                                                                    "petagram per cubic dekameter"
@@ -5875,7 +5875,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// attogram per cubic ronnameter, defined as: femtogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic ronnameter defined such that: femtogram per cubic yottameter = ag/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicRonnameter = new (
                                                                     "attogram per cubic ronnameter"
@@ -5886,7 +5886,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic terameter, defined as: yoctogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic terameter defined such that: yoctogram per cubic gigameter = rg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicTerameter = new (
                                                                     "rontogram per cubic terameter"
@@ -5897,7 +5897,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teragram per cubic hectometer, defined as: gigagram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// teragram per cubic hectometer defined such that: gigagram per cubic dekameter = Tg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicHectometer = new (
                                                                     "teragram per cubic hectometer"
@@ -5908,7 +5908,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic gigameter, defined as: rontogram per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic gigameter defined such that: rontogram per cubic megameter = qg/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicGigameter = new (
                                                                      "quectogram per cubic gigameter"
@@ -5919,7 +5919,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic kilometer, defined as: megagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// gigagram per cubic kilometer defined such that: megagram per cubic hectometer = Gg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicKilometer = new (
                                                                    "gigagram per cubic kilometer"
@@ -5930,7 +5930,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// megagram per cubic megameter, defined as: kilogram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic megameter defined such that: kilogram per cubic kilometer = Mg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicMegameter = new (
                                                                    "megagram per cubic megameter"
@@ -5941,7 +5941,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// zettagram per cubic quectometer, defined as: exagram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettagram per cubic quectometer defined such that: exagram per cubic rontometer = Zg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicQuectometer = new (
                                                                       "zettagram per cubic quectometer"
@@ -5953,7 +5953,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctogram per cubic exameter, defined as: zeptogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic exameter defined such that: zeptogram per cubic petameter = yg/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicExameter = new (
                                                                    "yoctogram per cubic exameter"
@@ -5964,7 +5964,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnagram per cubic rontometer, defined as: yottagram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic rontometer defined such that: yottagram per cubic yoctometer = Rg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicRontometer = new (
                                                                      "ronnagram per cubic rontometer"
@@ -5976,7 +5976,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attogram per cubic quettameter, defined as: femtogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attogram per cubic quettameter defined such that: femtogram per cubic ronnameter = ag/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttogramPerCubicQuettameter = new (
                                                                      "attogram per cubic quettameter"
@@ -5987,7 +5987,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic yottameter, defined as: attogram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic yottameter defined such that: attogram per cubic zettameter = zg/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicYottameter = new (
                                                                      "zeptogram per cubic yottameter"
@@ -5998,7 +5998,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exagram per cubic dekameter, defined as: petagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// exagram per cubic dekameter defined such that: petagram per cubic meter = Eg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicDekameter = new (
                                                                   "exagram per cubic dekameter"
@@ -6009,7 +6009,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// rontogram per cubic petameter, defined as: yoctogram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic petameter defined such that: yoctogram per cubic terameter = rg/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicPetameter = new (
                                                                     "rontogram per cubic petameter"
@@ -6020,7 +6020,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic hectometer, defined as: teragram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// petagram per cubic hectometer defined such that: teragram per cubic dekameter = Pg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicHectometer = new (
                                                                     "petagram per cubic hectometer"
@@ -6031,7 +6031,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic terameter, defined as: rontogram per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic terameter defined such that: rontogram per cubic gigameter = qg/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicTerameter = new (
                                                                      "quectogram per cubic terameter"
@@ -6042,7 +6042,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottagram per cubic quectometer, defined as: zettagram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottagram per cubic quectometer defined such that: zettagram per cubic rontometer = Yg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicQuectometer = new (
                                                                       "yottagram per cubic quectometer"
@@ -6054,7 +6054,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctogram per cubic zettameter, defined as: zeptogram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic zettameter defined such that: zeptogram per cubic exameter = yg/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicZettameter = new (
                                                                      "yoctogram per cubic zettameter"
@@ -6065,7 +6065,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teragram per cubic kilometer, defined as: gigagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// teragram per cubic kilometer defined such that: gigagram per cubic hectometer = Tg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicKilometer = new (
                                                                    "teragram per cubic kilometer"
@@ -6076,7 +6076,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// megagram per cubic gigameter, defined as: kilogram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic gigameter defined such that: kilogram per cubic megameter = Mg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicGigameter = new (
                                                                    "megagram per cubic gigameter"
@@ -6087,7 +6087,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gigagram per cubic megameter, defined as: megagram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic megameter defined such that: megagram per cubic kilometer = Gg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicMegameter = new (
                                                                    "gigagram per cubic megameter"
@@ -6098,7 +6098,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// quettagram per cubic rontometer, defined as: ronnagram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic rontometer defined such that: ronnagram per cubic yoctometer = Qg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicRontometer = new (
                                                                       "quettagram per cubic rontometer"
@@ -6110,7 +6110,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptogram per cubic ronnameter, defined as: attogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic ronnameter defined such that: attogram per cubic yottameter = zg/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicRonnameter = new (
                                                                      "zeptogram per cubic ronnameter"
@@ -6121,7 +6121,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettagram per cubic dekameter, defined as: exagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// zettagram per cubic dekameter defined such that: exagram per cubic meter = Zg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicDekameter = new (
                                                                     "zettagram per cubic dekameter"
@@ -6132,7 +6132,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic exameter, defined as: yoctogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic exameter defined such that: yoctogram per cubic petameter = rg/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicExameter = new (
                                                                    "rontogram per cubic exameter"
@@ -6143,7 +6143,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnagram per cubic quectometer, defined as: yottagram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnagram per cubic quectometer defined such that: yottagram per cubic rontometer = Rg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicQuectometer = new (
                                                                       "ronnagram per cubic quectometer"
@@ -6155,7 +6155,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exagram per cubic hectometer, defined as: petagram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// exagram per cubic hectometer defined such that: petagram per cubic dekameter = Eg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicHectometer = new (
                                                                    "exagram per cubic hectometer"
@@ -6166,7 +6166,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctogram per cubic yottameter, defined as: zeptogram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic yottameter defined such that: zeptogram per cubic zettameter = yg/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicYottameter = new (
                                                                      "yoctogram per cubic yottameter"
@@ -6177,7 +6177,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic petameter, defined as: rontogram per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic petameter defined such that: rontogram per cubic terameter = qg/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicPetameter = new (
                                                                      "quectogram per cubic petameter"
@@ -6188,7 +6188,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptogram per cubic quettameter, defined as: attogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptogram per cubic quettameter defined such that: attogram per cubic ronnameter = zg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptogramPerCubicQuettameter = new (
                                                                       "zeptogram per cubic quettameter"
@@ -6199,7 +6199,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petagram per cubic kilometer, defined as: teragram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// petagram per cubic kilometer defined such that: teragram per cubic hectometer = Pg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicKilometer = new (
                                                                    "petagram per cubic kilometer"
@@ -6210,7 +6210,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// megagram per cubic terameter, defined as: kilogram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic terameter defined such that: kilogram per cubic gigameter = Mg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicTerameter = new (
                                                                    "megagram per cubic terameter"
@@ -6221,7 +6221,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// teragram per cubic megameter, defined as: gigagram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic megameter defined such that: gigagram per cubic kilometer = Tg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicMegameter = new (
                                                                    "teragram per cubic megameter"
@@ -6232,7 +6232,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gigagram per cubic gigameter, defined as: megagram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic gigameter defined such that: megagram per cubic megameter = Gg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicGigameter = new (
                                                                    "gigagram per cubic gigameter"
@@ -6243,7 +6243,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yottagram per cubic dekameter, defined as: zettagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// yottagram per cubic dekameter defined such that: zettagram per cubic meter = Yg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicDekameter = new (
                                                                     "yottagram per cubic dekameter"
@@ -6254,7 +6254,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontogram per cubic zettameter, defined as: yoctogram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic zettameter defined such that: yoctogram per cubic exameter = rg/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicZettameter = new (
                                                                      "rontogram per cubic zettameter"
@@ -6265,7 +6265,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettagram per cubic quectometer, defined as: ronnagram per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettagram per cubic quectometer defined such that: ronnagram per cubic rontometer = Qg/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicQuectometer = new (
                                                                        "quettagram per cubic quectometer"
@@ -6277,7 +6277,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// yoctogram per cubic ronnameter, defined as: zeptogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic ronnameter defined such that: zeptogram per cubic yottameter = yg/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicRonnameter = new (
                                                                      "yoctogram per cubic ronnameter"
@@ -6288,7 +6288,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettagram per cubic hectometer, defined as: exagram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// zettagram per cubic hectometer defined such that: exagram per cubic dekameter = Zg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicHectometer = new (
                                                                      "zettagram per cubic hectometer"
@@ -6299,7 +6299,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic exameter, defined as: rontogram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic exameter defined such that: rontogram per cubic petameter = qg/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicExameter = new (
                                                                     "quectogram per cubic exameter"
@@ -6310,7 +6310,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic kilometer, defined as: petagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// exagram per cubic kilometer defined such that: petagram per cubic hectometer = Eg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicKilometer = new (
                                                                   "exagram per cubic kilometer"
@@ -6321,7 +6321,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// megagram per cubic petameter, defined as: kilogram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic petameter defined such that: kilogram per cubic terameter = Mg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicPetameter = new (
                                                                    "megagram per cubic petameter"
@@ -6332,7 +6332,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnagram per cubic dekameter, defined as: yottagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// ronnagram per cubic dekameter defined such that: yottagram per cubic meter = Rg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicDekameter = new (
                                                                     "ronnagram per cubic dekameter"
@@ -6343,7 +6343,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic megameter, defined as: teragram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic megameter defined such that: teragram per cubic kilometer = Pg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicMegameter = new (
                                                                    "petagram per cubic megameter"
@@ -6354,7 +6354,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gigagram per cubic terameter, defined as: megagram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic terameter defined such that: megagram per cubic gigameter = Gg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicTerameter = new (
                                                                    "gigagram per cubic terameter"
@@ -6365,7 +6365,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// rontogram per cubic yottameter, defined as: yoctogram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic yottameter defined such that: yoctogram per cubic zettameter = rg/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicYottameter = new (
                                                                      "rontogram per cubic yottameter"
@@ -6376,7 +6376,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teragram per cubic gigameter, defined as: gigagram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic gigameter defined such that: gigagram per cubic megameter = Tg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicGigameter = new (
                                                                    "teragram per cubic gigameter"
@@ -6387,7 +6387,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctogram per cubic quettameter, defined as: zeptogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctogram per cubic quettameter defined such that: zeptogram per cubic ronnameter = yg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctogramPerCubicQuettameter = new (
                                                                       "yoctogram per cubic quettameter"
@@ -6398,7 +6398,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottagram per cubic hectometer, defined as: zettagram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// yottagram per cubic hectometer defined such that: zettagram per cubic dekameter = Yg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicHectometer = new (
                                                                      "yottagram per cubic hectometer"
@@ -6409,7 +6409,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic zettameter, defined as: rontogram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic zettameter defined such that: rontogram per cubic exameter = qg/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicZettameter = new (
                                                                       "quectogram per cubic zettameter"
@@ -6420,7 +6420,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zettagram per cubic kilometer, defined as: exagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// zettagram per cubic kilometer defined such that: exagram per cubic hectometer = Zg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicKilometer = new (
                                                                     "zettagram per cubic kilometer"
@@ -6431,7 +6431,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic exameter, defined as: kilogram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic exameter defined such that: kilogram per cubic petameter = Mg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicExameter = new (
                                                                   "megagram per cubic exameter"
@@ -6442,7 +6442,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// quettagram per cubic dekameter, defined as: ronnagram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// quettagram per cubic dekameter defined such that: ronnagram per cubic meter = Qg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicDekameter = new (
                                                                      "quettagram per cubic dekameter"
@@ -6453,7 +6453,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontogram per cubic ronnameter, defined as: yoctogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic ronnameter defined such that: yoctogram per cubic yottameter = rg/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicRonnameter = new (
                                                                      "rontogram per cubic ronnameter"
@@ -6464,7 +6464,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exagram per cubic megameter, defined as: petagram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic megameter defined such that: petagram per cubic kilometer = Eg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicMegameter = new (
                                                                   "exagram per cubic megameter"
@@ -6475,7 +6475,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// gigagram per cubic petameter, defined as: megagram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic petameter defined such that: megagram per cubic terameter = Gg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicPetameter = new (
                                                                    "gigagram per cubic petameter"
@@ -6486,7 +6486,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// petagram per cubic gigameter, defined as: teragram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic gigameter defined such that: teragram per cubic megameter = Pg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicGigameter = new (
                                                                    "petagram per cubic gigameter"
@@ -6497,7 +6497,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// teragram per cubic terameter, defined as: gigagram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic terameter defined such that: gigagram per cubic gigameter = Tg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicTerameter = new (
                                                                    "teragram per cubic terameter"
@@ -6508,7 +6508,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnagram per cubic hectometer, defined as: yottagram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// ronnagram per cubic hectometer defined such that: yottagram per cubic dekameter = Rg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicHectometer = new (
                                                                      "ronnagram per cubic hectometer"
@@ -6519,7 +6519,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectogram per cubic yottameter, defined as: rontogram per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic yottameter defined such that: rontogram per cubic zettameter = qg/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicYottameter = new (
                                                                       "quectogram per cubic yottameter"
@@ -6530,7 +6530,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontogram per cubic quettameter, defined as: yoctogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontogram per cubic quettameter defined such that: yoctogram per cubic ronnameter = rg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontogramPerCubicQuettameter = new (
                                                                       "rontogram per cubic quettameter"
@@ -6541,7 +6541,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottagram per cubic kilometer, defined as: zettagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// yottagram per cubic kilometer defined such that: zettagram per cubic hectometer = Yg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicKilometer = new (
                                                                     "yottagram per cubic kilometer"
@@ -6552,7 +6552,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic zettameter, defined as: kilogram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic zettameter defined such that: kilogram per cubic exameter = Mg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicZettameter = new (
                                                                     "megagram per cubic zettameter"
@@ -6563,7 +6563,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettagram per cubic megameter, defined as: exagram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic megameter defined such that: exagram per cubic kilometer = Zg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicMegameter = new (
                                                                     "zettagram per cubic megameter"
@@ -6574,7 +6574,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic exameter, defined as: megagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic exameter defined such that: megagram per cubic petameter = Gg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicExameter = new (
                                                                   "gigagram per cubic exameter"
@@ -6585,7 +6585,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// exagram per cubic gigameter, defined as: petagram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic gigameter defined such that: petagram per cubic megameter = Eg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicGigameter = new (
                                                                   "exagram per cubic gigameter"
@@ -6596,7 +6596,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// teragram per cubic petameter, defined as: gigagram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic petameter defined such that: gigagram per cubic terameter = Tg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicPetameter = new (
                                                                    "teragram per cubic petameter"
@@ -6607,7 +6607,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// quettagram per cubic hectometer, defined as: ronnagram per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// quettagram per cubic hectometer defined such that: ronnagram per cubic dekameter = Qg/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicHectometer = new (
                                                                       "quettagram per cubic hectometer"
@@ -6618,7 +6618,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petagram per cubic terameter, defined as: teragram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic terameter defined such that: teragram per cubic gigameter = Pg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicTerameter = new (
                                                                    "petagram per cubic terameter"
@@ -6629,7 +6629,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// quectogram per cubic ronnameter, defined as: rontogram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic ronnameter defined such that: rontogram per cubic yottameter = qg/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicRonnameter = new (
                                                                       "quectogram per cubic ronnameter"
@@ -6640,7 +6640,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// ronnagram per cubic kilometer, defined as: yottagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// ronnagram per cubic kilometer defined such that: yottagram per cubic hectometer = Rg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicKilometer = new (
                                                                     "ronnagram per cubic kilometer"
@@ -6651,7 +6651,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megagram per cubic yottameter, defined as: kilogram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic yottameter defined such that: kilogram per cubic zettameter = Mg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicYottameter = new (
                                                                     "megagram per cubic yottameter"
@@ -6662,7 +6662,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic megameter, defined as: zettagram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic megameter defined such that: zettagram per cubic kilometer = Yg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicMegameter = new (
                                                                     "yottagram per cubic megameter"
@@ -6673,7 +6673,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic zettameter, defined as: megagram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic zettameter defined such that: megagram per cubic exameter = Gg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicZettameter = new (
                                                                     "gigagram per cubic zettameter"
@@ -6684,7 +6684,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectogram per cubic quettameter, defined as: rontogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectogram per cubic quettameter defined such that: rontogram per cubic ronnameter = qg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectogramPerCubicQuettameter = new (
                                                                        "quectogram per cubic quettameter"
@@ -6695,7 +6695,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// zettagram per cubic gigameter, defined as: exagram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic gigameter defined such that: exagram per cubic megameter = Zg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicGigameter = new (
                                                                     "zettagram per cubic gigameter"
@@ -6706,7 +6706,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teragram per cubic exameter, defined as: gigagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic exameter defined such that: gigagram per cubic petameter = Tg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicExameter = new (
                                                                   "teragram per cubic exameter"
@@ -6717,7 +6717,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// exagram per cubic terameter, defined as: petagram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic terameter defined such that: petagram per cubic gigameter = Eg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicTerameter = new (
                                                                   "exagram per cubic terameter"
@@ -6728,7 +6728,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// petagram per cubic petameter, defined as: teragram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic petameter defined such that: teragram per cubic terameter = Pg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicPetameter = new (
                                                                    "petagram per cubic petameter"
@@ -6739,7 +6739,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// quettagram per cubic kilometer, defined as: ronnagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// quettagram per cubic kilometer defined such that: ronnagram per cubic hectometer = Qg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicKilometer = new (
                                                                      "quettagram per cubic kilometer"
@@ -6750,7 +6750,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megagram per cubic ronnameter, defined as: kilogram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic ronnameter defined such that: kilogram per cubic yottameter = Mg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicRonnameter = new (
                                                                     "megagram per cubic ronnameter"
@@ -6761,7 +6761,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnagram per cubic megameter, defined as: yottagram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic megameter defined such that: yottagram per cubic kilometer = Rg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicMegameter = new (
                                                                     "ronnagram per cubic megameter"
@@ -6772,7 +6772,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigagram per cubic yottameter, defined as: megagram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic yottameter defined such that: megagram per cubic zettameter = Gg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicYottameter = new (
                                                                     "gigagram per cubic yottameter"
@@ -6783,7 +6783,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic gigameter, defined as: zettagram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic gigameter defined such that: zettagram per cubic megameter = Yg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicGigameter = new (
                                                                     "yottagram per cubic gigameter"
@@ -6794,7 +6794,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teragram per cubic zettameter, defined as: gigagram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic zettameter defined such that: gigagram per cubic exameter = Tg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicZettameter = new (
                                                                     "teragram per cubic zettameter"
@@ -6805,7 +6805,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettagram per cubic terameter, defined as: exagram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic terameter defined such that: exagram per cubic gigameter = Zg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicTerameter = new (
                                                                     "zettagram per cubic terameter"
@@ -6816,7 +6816,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic exameter, defined as: teragram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic exameter defined such that: teragram per cubic petameter = Pg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicExameter = new (
                                                                   "petagram per cubic exameter"
@@ -6827,7 +6827,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// exagram per cubic petameter, defined as: petagram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic petameter defined such that: petagram per cubic terameter = Eg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicPetameter = new (
                                                                   "exagram per cubic petameter"
@@ -6838,7 +6838,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// megagram per cubic quettameter, defined as: kilogram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megagram per cubic quettameter defined such that: kilogram per cubic ronnameter = Mg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegagramPerCubicQuettameter = new (
                                                                      "megagram per cubic quettameter"
@@ -6849,7 +6849,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettagram per cubic megameter, defined as: ronnagram per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic megameter defined such that: ronnagram per cubic kilometer = Qg/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicMegameter = new (
                                                                      "quettagram per cubic megameter"
@@ -6860,7 +6860,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigagram per cubic ronnameter, defined as: megagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic ronnameter defined such that: megagram per cubic yottameter = Gg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicRonnameter = new (
                                                                     "gigagram per cubic ronnameter"
@@ -6871,7 +6871,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnagram per cubic gigameter, defined as: yottagram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic gigameter defined such that: yottagram per cubic megameter = Rg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicGigameter = new (
                                                                     "ronnagram per cubic gigameter"
@@ -6882,7 +6882,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teragram per cubic yottameter, defined as: gigagram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic yottameter defined such that: gigagram per cubic zettameter = Tg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicYottameter = new (
                                                                     "teragram per cubic yottameter"
@@ -6893,7 +6893,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic terameter, defined as: zettagram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic terameter defined such that: zettagram per cubic gigameter = Yg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicTerameter = new (
                                                                     "yottagram per cubic terameter"
@@ -6904,7 +6904,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic zettameter, defined as: teragram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic zettameter defined such that: teragram per cubic exameter = Pg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicZettameter = new (
                                                                     "petagram per cubic zettameter"
@@ -6915,7 +6915,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettagram per cubic petameter, defined as: exagram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic petameter defined such that: exagram per cubic terameter = Zg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicPetameter = new (
                                                                     "zettagram per cubic petameter"
@@ -6926,7 +6926,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic exameter, defined as: petagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic exameter defined such that: petagram per cubic petameter = Eg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicExameter = new (
                                                                  "exagram per cubic exameter"
@@ -6937,7 +6937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// gigagram per cubic quettameter, defined as: megagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigagram per cubic quettameter defined such that: megagram per cubic ronnameter = Gg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigagramPerCubicQuettameter = new (
                                                                      "gigagram per cubic quettameter"
@@ -6948,7 +6948,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettagram per cubic gigameter, defined as: ronnagram per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic gigameter defined such that: ronnagram per cubic megameter = Qg/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicGigameter = new (
                                                                      "quettagram per cubic gigameter"
@@ -6959,7 +6959,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teragram per cubic ronnameter, defined as: gigagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic ronnameter defined such that: gigagram per cubic yottameter = Tg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicRonnameter = new (
                                                                     "teragram per cubic ronnameter"
@@ -6970,7 +6970,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnagram per cubic terameter, defined as: yottagram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic terameter defined such that: yottagram per cubic gigameter = Rg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicTerameter = new (
                                                                     "ronnagram per cubic terameter"
@@ -6981,7 +6981,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petagram per cubic yottameter, defined as: teragram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic yottameter defined such that: teragram per cubic zettameter = Pg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicYottameter = new (
                                                                     "petagram per cubic yottameter"
@@ -6992,7 +6992,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottagram per cubic petameter, defined as: zettagram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic petameter defined such that: zettagram per cubic terameter = Yg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicPetameter = new (
                                                                     "yottagram per cubic petameter"
@@ -7003,7 +7003,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic zettameter, defined as: petagram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic zettameter defined such that: petagram per cubic exameter = Eg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicZettameter = new (
                                                                    "exagram per cubic zettameter"
@@ -7014,7 +7014,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// zettagram per cubic exameter, defined as: exagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic exameter defined such that: exagram per cubic petameter = Zg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicExameter = new (
                                                                    "zettagram per cubic exameter"
@@ -7025,7 +7025,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// teragram per cubic quettameter, defined as: gigagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teragram per cubic quettameter defined such that: gigagram per cubic ronnameter = Tg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeragramPerCubicQuettameter = new (
                                                                      "teragram per cubic quettameter"
@@ -7036,7 +7036,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettagram per cubic terameter, defined as: ronnagram per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic terameter defined such that: ronnagram per cubic gigameter = Qg/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicTerameter = new (
                                                                      "quettagram per cubic terameter"
@@ -7047,7 +7047,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petagram per cubic ronnameter, defined as: teragram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic ronnameter defined such that: teragram per cubic yottameter = Pg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicRonnameter = new (
                                                                     "petagram per cubic ronnameter"
@@ -7058,7 +7058,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnagram per cubic petameter, defined as: yottagram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic petameter defined such that: yottagram per cubic terameter = Rg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicPetameter = new (
                                                                     "ronnagram per cubic petameter"
@@ -7069,7 +7069,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exagram per cubic yottameter, defined as: petagram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic yottameter defined such that: petagram per cubic zettameter = Eg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicYottameter = new (
                                                                    "exagram per cubic yottameter"
@@ -7080,7 +7080,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yottagram per cubic exameter, defined as: zettagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic exameter defined such that: zettagram per cubic petameter = Yg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicExameter = new (
                                                                    "yottagram per cubic exameter"
@@ -7091,7 +7091,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// zettagram per cubic zettameter, defined as: exagram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic zettameter defined such that: exagram per cubic exameter = Zg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicZettameter = new (
                                                                      "zettagram per cubic zettameter"
@@ -7102,7 +7102,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petagram per cubic quettameter, defined as: teragram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petagram per cubic quettameter defined such that: teragram per cubic ronnameter = Pg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetagramPerCubicQuettameter = new (
                                                                      "petagram per cubic quettameter"
@@ -7113,7 +7113,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettagram per cubic petameter, defined as: ronnagram per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic petameter defined such that: ronnagram per cubic terameter = Qg/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicPetameter = new (
                                                                      "quettagram per cubic petameter"
@@ -7124,7 +7124,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exagram per cubic ronnameter, defined as: petagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic ronnameter defined such that: petagram per cubic yottameter = Eg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicRonnameter = new (
                                                                    "exagram per cubic ronnameter"
@@ -7135,7 +7135,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnagram per cubic exameter, defined as: yottagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic exameter defined such that: yottagram per cubic petameter = Rg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicExameter = new (
                                                                    "ronnagram per cubic exameter"
@@ -7146,7 +7146,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// zettagram per cubic yottameter, defined as: exagram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic yottameter defined such that: exagram per cubic zettameter = Zg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicYottameter = new (
                                                                      "zettagram per cubic yottameter"
@@ -7157,7 +7157,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottagram per cubic zettameter, defined as: zettagram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic zettameter defined such that: zettagram per cubic exameter = Yg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicZettameter = new (
                                                                      "yottagram per cubic zettameter"
@@ -7168,7 +7168,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exagram per cubic quettameter, defined as: petagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exagram per cubic quettameter defined such that: petagram per cubic ronnameter = Eg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExagramPerCubicQuettameter = new (
                                                                     "exagram per cubic quettameter"
@@ -7179,7 +7179,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettagram per cubic exameter, defined as: ronnagram per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic exameter defined such that: ronnagram per cubic petameter = Qg/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicExameter = new (
                                                                     "quettagram per cubic exameter"
@@ -7190,7 +7190,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettagram per cubic ronnameter, defined as: exagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic ronnameter defined such that: exagram per cubic yottameter = Zg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicRonnameter = new (
                                                                      "zettagram per cubic ronnameter"
@@ -7201,7 +7201,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnagram per cubic zettameter, defined as: yottagram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic zettameter defined such that: yottagram per cubic exameter = Rg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicZettameter = new (
                                                                      "ronnagram per cubic zettameter"
@@ -7212,7 +7212,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottagram per cubic yottameter, defined as: zettagram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic yottameter defined such that: zettagram per cubic zettameter = Yg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicYottameter = new (
                                                                      "yottagram per cubic yottameter"
@@ -7223,7 +7223,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettagram per cubic quettameter, defined as: exagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettagram per cubic quettameter defined such that: exagram per cubic ronnameter = Zg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettagramPerCubicQuettameter = new (
                                                                       "zettagram per cubic quettameter"
@@ -7234,7 +7234,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettagram per cubic zettameter, defined as: ronnagram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic zettameter defined such that: ronnagram per cubic exameter = Qg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicZettameter = new (
                                                                       "quettagram per cubic zettameter"
@@ -7245,7 +7245,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottagram per cubic ronnameter, defined as: zettagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic ronnameter defined such that: zettagram per cubic yottameter = Yg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicRonnameter = new (
                                                                      "yottagram per cubic ronnameter"
@@ -7256,7 +7256,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnagram per cubic yottameter, defined as: yottagram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic yottameter defined such that: yottagram per cubic zettameter = Rg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicYottameter = new (
                                                                      "ronnagram per cubic yottameter"
@@ -7267,7 +7267,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottagram per cubic quettameter, defined as: zettagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottagram per cubic quettameter defined such that: zettagram per cubic ronnameter = Yg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottagramPerCubicQuettameter = new (
                                                                       "yottagram per cubic quettameter"
@@ -7278,7 +7278,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettagram per cubic yottameter, defined as: ronnagram per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic yottameter defined such that: ronnagram per cubic zettameter = Qg/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicYottameter = new (
                                                                       "quettagram per cubic yottameter"
@@ -7289,7 +7289,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// ronnagram per cubic ronnameter, defined as: yottagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic ronnameter defined such that: yottagram per cubic yottameter = Rg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicRonnameter = new (
                                                                      "ronnagram per cubic ronnameter"
@@ -7300,7 +7300,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnagram per cubic quettameter, defined as: yottagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnagram per cubic quettameter defined such that: yottagram per cubic ronnameter = Rg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnagramPerCubicQuettameter = new (
                                                                       "ronnagram per cubic quettameter"
@@ -7311,7 +7311,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettagram per cubic ronnameter, defined as: ronnagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic ronnameter defined such that: ronnagram per cubic yottameter = Qg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicRonnameter = new (
                                                                       "quettagram per cubic ronnameter"
@@ -7322,7 +7322,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettagram per cubic quettameter, defined as: ronnagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettagram per cubic quettameter defined such that: ronnagram per cubic ronnameter = Qg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettagramPerCubicQuettameter = new (
                                                                        "quettagram per cubic quettameter"
@@ -7333,7 +7333,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// metric ton per cubic meter, defined as: megagram per cubic meter × (1.0)/((1.0)*(1.0)*(1.0))
+   /// metric ton per cubic meter defined such that: megagram per cubic meter = mt/m³ × (1.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicMeter = new (
                                                                 "metric ton per cubic meter"
@@ -7344,7 +7344,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// metric ton per cubic decimeter, defined as: megagram per cubic meter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// metric ton per cubic decimeter defined such that: megagram per cubic meter = mt/dm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicDecimeter = new (
                                                                     "metric ton per cubic decimeter"
@@ -7355,7 +7355,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// tonne per cubic meter, defined as: megagram per cubic meter × (1.0)/((1.0)*(1.0)*(1.0))
+   /// tonne per cubic meter defined such that: megagram per cubic meter = t/m³ × (1.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density TonnePerCubicMeter = new (
                                                             "tonne per cubic meter"
@@ -7366,7 +7366,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                            );
 
    /// <summary>
-   /// metric ton per cubic centimeter, defined as: megagram per cubic decimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// metric ton per cubic centimeter defined such that: megagram per cubic decimeter = mt/cm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicCentimeter = new (
                                                                      "metric ton per cubic centimeter"
@@ -7377,7 +7377,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// metric ton per cubic millimeter, defined as: megagram per cubic centimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// metric ton per cubic millimeter defined such that: megagram per cubic centimeter = mt/mm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicMillimeter = new (
                                                                      "metric ton per cubic millimeter"
@@ -7388,7 +7388,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// tonne per cubic decimeter, defined as: megagram per cubic meter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// tonne per cubic decimeter defined such that: megagram per cubic meter = t/dm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TonnePerCubicDecimeter = new (
                                                                 "tonne per cubic decimeter"
@@ -7399,7 +7399,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// metric ton per cubic micrometer, defined as: megagram per cubic millimeter × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic micrometer defined such that: megagram per cubic millimeter = mt/μm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicMicrometer = new (
                                                                      "metric ton per cubic micrometer"
@@ -7411,7 +7411,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// metric ton per cubic nanometer, defined as: megagram per cubic micrometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic nanometer defined such that: megagram per cubic micrometer = mt/nm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicNanometer = new (
                                                                     "metric ton per cubic nanometer"
@@ -7423,7 +7423,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// tonne per cubic centimeter, defined as: megagram per cubic decimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// tonne per cubic centimeter defined such that: megagram per cubic decimeter = t/cm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TonnePerCubicCentimeter = new (
                                                                  "tonne per cubic centimeter"
@@ -7434,7 +7434,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// decitonne per cubic meter, defined as: tonne per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// decitonne per cubic meter defined such that: tonne per cubic meter = dt/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicMeter = new (
                                                                 "decitonne per cubic meter"
@@ -7445,7 +7445,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// metric ton per cubic picometer, defined as: megagram per cubic nanometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic picometer defined such that: megagram per cubic nanometer = mt/pm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicPicometer = new (
                                                                     "metric ton per cubic picometer"
@@ -7457,7 +7457,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// metric ton per cubic femtometer, defined as: megagram per cubic picometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic femtometer defined such that: megagram per cubic picometer = mt/fm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicFemtometer = new (
                                                                      "metric ton per cubic femtometer"
@@ -7469,7 +7469,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// tonne per cubic millimeter, defined as: megagram per cubic centimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// tonne per cubic millimeter defined such that: megagram per cubic centimeter = t/mm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TonnePerCubicMillimeter = new (
                                                                  "tonne per cubic millimeter"
@@ -7480,7 +7480,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// metric ton per cubic attometer, defined as: megagram per cubic femtometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic attometer defined such that: megagram per cubic femtometer = mt/am³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicAttometer = new (
                                                                     "metric ton per cubic attometer"
@@ -7492,7 +7492,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// metric ton per cubic zeptometer, defined as: megagram per cubic attometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic zeptometer defined such that: megagram per cubic attometer = mt/zm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicZeptometer = new (
                                                                      "metric ton per cubic zeptometer"
@@ -7504,7 +7504,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// tonne per cubic micrometer, defined as: megagram per cubic millimeter × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic micrometer defined such that: megagram per cubic millimeter = t/μm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicMicrometer = new (
                                                                  "tonne per cubic micrometer"
@@ -7515,7 +7515,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// decitonne per cubic decimeter, defined as: tonne per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// decitonne per cubic decimeter defined such that: tonne per cubic meter = dt/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicDecimeter = new (
                                                                     "decitonne per cubic decimeter"
@@ -7528,7 +7528,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centitonne per cubic meter, defined as: decitonne per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// centitonne per cubic meter defined such that: decitonne per cubic meter = ct/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicMeter = new (
                                                                  "centitonne per cubic meter"
@@ -7539,7 +7539,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// metric ton per cubic yoctometer, defined as: megagram per cubic zeptometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic yoctometer defined such that: megagram per cubic zeptometer = mt/ym³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicYoctometer = new (
                                                                      "metric ton per cubic yoctometer"
@@ -7551,7 +7551,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// metric ton per cubic rontometer, defined as: megagram per cubic yoctometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic rontometer defined such that: megagram per cubic yoctometer = mt/rm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicRontometer = new (
                                                                      "metric ton per cubic rontometer"
@@ -7563,7 +7563,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// tonne per cubic nanometer, defined as: megagram per cubic micrometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic nanometer defined such that: megagram per cubic micrometer = t/nm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicNanometer = new (
                                                                 "tonne per cubic nanometer"
@@ -7574,7 +7574,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// metric ton per cubic quectometer, defined as: megagram per cubic rontometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// metric ton per cubic quectometer defined such that: megagram per cubic rontometer = mt/qm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicQuectometer = new (
                                                                       "metric ton per cubic quectometer"
@@ -7586,7 +7586,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// metric ton per cubic dekameter, defined as: megagram per cubic meter × (1.0)/((10.0)*(10.0)*(10.0))
+   /// metric ton per cubic dekameter defined such that: megagram per cubic meter = mt/dam³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicDekameter = new (
                                                                     "metric ton per cubic dekameter"
@@ -7597,7 +7597,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// tonne per cubic picometer, defined as: megagram per cubic nanometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic picometer defined such that: megagram per cubic nanometer = t/pm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicPicometer = new (
                                                                 "tonne per cubic picometer"
@@ -7608,7 +7608,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic centimeter, defined as: tonne per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// decitonne per cubic centimeter defined such that: tonne per cubic decimeter = dt/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicCentimeter = new (
                                                                      "decitonne per cubic centimeter"
@@ -7621,7 +7621,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic meter, defined as: centitonne per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// millitonne per cubic meter defined such that: centitonne per cubic meter = mt/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicMeter = new (
                                                                  "millitonne per cubic meter"
@@ -7632,7 +7632,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// metric ton per cubic hectometer, defined as: megagram per cubic dekameter × (1.0)/((10.0)*(10.0)*(10.0))
+   /// metric ton per cubic hectometer defined such that: megagram per cubic dekameter = mt/hm³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicHectometer = new (
                                                                      "metric ton per cubic hectometer"
@@ -7643,7 +7643,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// metric ton per cubic kilometer, defined as: megagram per cubic hectometer × (1.0)/((10.0)*(10.0)*(10.0))
+   /// metric ton per cubic kilometer defined such that: megagram per cubic hectometer = mt/km³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicKilometer = new (
                                                                     "metric ton per cubic kilometer"
@@ -7654,7 +7654,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// tonne per cubic femtometer, defined as: megagram per cubic picometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic femtometer defined such that: megagram per cubic picometer = t/fm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicFemtometer = new (
                                                                  "tonne per cubic femtometer"
@@ -7665,7 +7665,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// centitonne per cubic decimeter, defined as: decitonne per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// centitonne per cubic decimeter defined such that: decitonne per cubic meter = ct/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicDecimeter = new (
                                                                      "centitonne per cubic decimeter"
@@ -7678,7 +7678,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// metric ton per cubic megameter, defined as: megagram per cubic kilometer × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic megameter defined such that: megagram per cubic kilometer = mt/Mm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicMegameter = new (
                                                                     "metric ton per cubic megameter"
@@ -7689,7 +7689,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// metric ton per cubic gigameter, defined as: megagram per cubic megameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic gigameter defined such that: megagram per cubic megameter = mt/Gm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicGigameter = new (
                                                                     "metric ton per cubic gigameter"
@@ -7700,7 +7700,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// tonne per cubic attometer, defined as: megagram per cubic femtometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic attometer defined such that: megagram per cubic femtometer = t/am³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicAttometer = new (
                                                                 "tonne per cubic attometer"
@@ -7711,7 +7711,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic millimeter, defined as: tonne per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// decitonne per cubic millimeter defined such that: tonne per cubic centimeter = dt/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicMillimeter = new (
                                                                      "decitonne per cubic millimeter"
@@ -7724,7 +7724,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic meter, defined as: millitonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// microtonne per cubic meter defined such that: millitonne per cubic meter = μt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicMeter = new (
                                                                  "microtonne per cubic meter"
@@ -7735,7 +7735,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// metric ton per cubic terameter, defined as: megagram per cubic gigameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic terameter defined such that: megagram per cubic gigameter = mt/Tm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicTerameter = new (
                                                                     "metric ton per cubic terameter"
@@ -7746,7 +7746,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// metric ton per cubic petameter, defined as: megagram per cubic terameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic petameter defined such that: megagram per cubic terameter = mt/Pm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicPetameter = new (
                                                                     "metric ton per cubic petameter"
@@ -7757,7 +7757,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// tonne per cubic zeptometer, defined as: megagram per cubic attometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic zeptometer defined such that: megagram per cubic attometer = t/zm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicZeptometer = new (
                                                                  "tonne per cubic zeptometer"
@@ -7768,7 +7768,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// metric ton per cubic exameter, defined as: megagram per cubic petameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic exameter defined such that: megagram per cubic petameter = mt/Em³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicExameter = new (
                                                                    "metric ton per cubic exameter"
@@ -7779,7 +7779,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// metric ton per cubic zettameter, defined as: megagram per cubic exameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic zettameter defined such that: megagram per cubic exameter = mt/Zm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicZettameter = new (
                                                                      "metric ton per cubic zettameter"
@@ -7790,7 +7790,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// tonne per cubic yoctometer, defined as: megagram per cubic zeptometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic yoctometer defined such that: megagram per cubic zeptometer = t/ym³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicYoctometer = new (
                                                                  "tonne per cubic yoctometer"
@@ -7801,7 +7801,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// decitonne per cubic micrometer, defined as: tonne per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic micrometer defined such that: tonne per cubic millimeter = dt/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicMicrometer = new (
                                                                      "decitonne per cubic micrometer"
@@ -7814,7 +7814,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic centimeter, defined as: decitonne per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// centitonne per cubic centimeter defined such that: decitonne per cubic decimeter = ct/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicCentimeter = new (
                                                                       "centitonne per cubic centimeter"
@@ -7827,7 +7827,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// millitonne per cubic decimeter, defined as: centitonne per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// millitonne per cubic decimeter defined such that: centitonne per cubic meter = mt/dm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicDecimeter = new (
                                                                      "millitonne per cubic decimeter"
@@ -7840,7 +7840,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic meter, defined as: microtonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// nanotonne per cubic meter defined such that: microtonne per cubic meter = nt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicMeter = new (
                                                                 "nanotonne per cubic meter"
@@ -7851,7 +7851,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// metric ton per cubic yottameter, defined as: megagram per cubic zettameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic yottameter defined such that: megagram per cubic zettameter = mt/Ym³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicYottameter = new (
                                                                      "metric ton per cubic yottameter"
@@ -7862,7 +7862,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// metric ton per cubic ronnameter, defined as: megagram per cubic yottameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic ronnameter defined such that: megagram per cubic yottameter = mt/Rm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicRonnameter = new (
                                                                      "metric ton per cubic ronnameter"
@@ -7873,7 +7873,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// tonne per cubic rontometer, defined as: megagram per cubic yoctometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic rontometer defined such that: megagram per cubic yoctometer = t/rm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicRontometer = new (
                                                                  "tonne per cubic rontometer"
@@ -7884,7 +7884,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// metric ton per cubic quettameter, defined as: megagram per cubic ronnameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// metric ton per cubic quettameter defined such that: megagram per cubic ronnameter = mt/Qm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MetricTonPerCubicQuettameter = new (
                                                                       "metric ton per cubic quettameter"
@@ -7895,7 +7895,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// tonne per cubic quectometer, defined as: megagram per cubic rontometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// tonne per cubic quectometer defined such that: megagram per cubic rontometer = t/qm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicQuectometer = new (
                                                                   "tonne per cubic quectometer"
@@ -7906,7 +7906,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// decitonne per cubic nanometer, defined as: tonne per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic nanometer defined such that: tonne per cubic micrometer = dt/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicNanometer = new (
                                                                     "decitonne per cubic nanometer"
@@ -7919,7 +7919,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picotonne per cubic meter, defined as: nanotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// picotonne per cubic meter defined such that: nanotonne per cubic meter = pt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicMeter = new (
                                                                 "picotonne per cubic meter"
@@ -7930,7 +7930,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// tonne per cubic dekameter, defined as: megagram per cubic meter × (1.0)/((10.0)*(10.0)*(10.0))
+   /// tonne per cubic dekameter defined such that: megagram per cubic meter = t/dam³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TonnePerCubicDekameter = new (
                                                                 "tonne per cubic dekameter"
@@ -7941,7 +7941,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// centitonne per cubic millimeter, defined as: decitonne per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// centitonne per cubic millimeter defined such that: decitonne per cubic centimeter = ct/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicMillimeter = new (
                                                                       "centitonne per cubic millimeter"
@@ -7954,7 +7954,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// microtonne per cubic decimeter, defined as: millitonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// microtonne per cubic decimeter defined such that: millitonne per cubic meter = μt/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicDecimeter = new (
                                                                      "microtonne per cubic decimeter"
@@ -7967,7 +7967,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// tonne per cubic hectometer, defined as: megagram per cubic dekameter × (1.0)/((10.0)*(10.0)*(10.0))
+   /// tonne per cubic hectometer defined such that: megagram per cubic dekameter = t/hm³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TonnePerCubicHectometer = new (
                                                                  "tonne per cubic hectometer"
@@ -7978,7 +7978,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// decitonne per cubic picometer, defined as: tonne per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic picometer defined such that: tonne per cubic nanometer = dt/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicPicometer = new (
                                                                     "decitonne per cubic picometer"
@@ -7991,7 +7991,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// millitonne per cubic centimeter, defined as: centitonne per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// millitonne per cubic centimeter defined such that: centitonne per cubic decimeter = mt/cm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicCentimeter = new (
                                                                       "millitonne per cubic centimeter"
@@ -8004,7 +8004,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// femtotonne per cubic meter, defined as: picotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// femtotonne per cubic meter defined such that: picotonne per cubic meter = ft/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicMeter = new (
                                                                  "femtotonne per cubic meter"
@@ -8015,7 +8015,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// tonne per cubic kilometer, defined as: megagram per cubic hectometer × (1.0)/((10.0)*(10.0)*(10.0))
+   /// tonne per cubic kilometer defined such that: megagram per cubic hectometer = t/km³ × (1.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TonnePerCubicKilometer = new (
                                                                 "tonne per cubic kilometer"
@@ -8026,7 +8026,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// tonne per cubic megameter, defined as: megagram per cubic kilometer × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic megameter defined such that: megagram per cubic kilometer = t/Mm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicMegameter = new (
                                                                 "tonne per cubic megameter"
@@ -8037,7 +8037,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic femtometer, defined as: tonne per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic femtometer defined such that: tonne per cubic picometer = dt/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicFemtometer = new (
                                                                      "decitonne per cubic femtometer"
@@ -8050,7 +8050,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic micrometer, defined as: decitonne per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic micrometer defined such that: decitonne per cubic millimeter = ct/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicMicrometer = new (
                                                                       "centitonne per cubic micrometer"
@@ -8063,7 +8063,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic decimeter, defined as: microtonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// nanotonne per cubic decimeter defined such that: microtonne per cubic meter = nt/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicDecimeter = new (
                                                                     "nanotonne per cubic decimeter"
@@ -8076,7 +8076,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attotonne per cubic meter, defined as: femtotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// attotonne per cubic meter defined such that: femtotonne per cubic meter = at/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicMeter = new (
                                                                 "attotonne per cubic meter"
@@ -8087,7 +8087,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// tonne per cubic gigameter, defined as: megagram per cubic megameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic gigameter defined such that: megagram per cubic megameter = t/Gm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicGigameter = new (
                                                                 "tonne per cubic gigameter"
@@ -8098,7 +8098,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// tonne per cubic terameter, defined as: megagram per cubic gigameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic terameter defined such that: megagram per cubic gigameter = t/Tm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicTerameter = new (
                                                                 "tonne per cubic terameter"
@@ -8109,7 +8109,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic attometer, defined as: tonne per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic attometer defined such that: tonne per cubic femtometer = dt/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicAttometer = new (
                                                                     "decitonne per cubic attometer"
@@ -8122,7 +8122,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// millitonne per cubic millimeter, defined as: centitonne per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// millitonne per cubic millimeter defined such that: centitonne per cubic centimeter = mt/mm³ × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicMillimeter = new (
                                                                       "millitonne per cubic millimeter"
@@ -8135,7 +8135,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// microtonne per cubic centimeter, defined as: millitonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// microtonne per cubic centimeter defined such that: millitonne per cubic decimeter = μt/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicCentimeter = new (
                                                                       "microtonne per cubic centimeter"
@@ -8148,7 +8148,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptotonne per cubic meter, defined as: attotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// zeptotonne per cubic meter defined such that: attotonne per cubic meter = zt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicMeter = new (
                                                                  "zeptotonne per cubic meter"
@@ -8159,7 +8159,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// tonne per cubic petameter, defined as: megagram per cubic terameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic petameter defined such that: megagram per cubic terameter = t/Pm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicPetameter = new (
                                                                 "tonne per cubic petameter"
@@ -8170,7 +8170,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// centitonne per cubic nanometer, defined as: decitonne per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic nanometer defined such that: decitonne per cubic micrometer = ct/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicNanometer = new (
                                                                      "centitonne per cubic nanometer"
@@ -8183,7 +8183,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic decimeter, defined as: nanotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// picotonne per cubic decimeter defined such that: nanotonne per cubic meter = pt/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicDecimeter = new (
                                                                     "picotonne per cubic decimeter"
@@ -8196,7 +8196,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// tonne per cubic exameter, defined as: megagram per cubic petameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic exameter defined such that: megagram per cubic petameter = t/Em³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicExameter = new (
                                                                "tonne per cubic exameter"
@@ -8207,7 +8207,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// decitonne per cubic zeptometer, defined as: tonne per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic zeptometer defined such that: tonne per cubic attometer = dt/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicZeptometer = new (
                                                                      "decitonne per cubic zeptometer"
@@ -8220,7 +8220,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctotonne per cubic meter, defined as: zeptotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// yoctotonne per cubic meter defined such that: zeptotonne per cubic meter = yt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicMeter = new (
                                                                  "yoctotonne per cubic meter"
@@ -8231,7 +8231,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// tonne per cubic zettameter, defined as: megagram per cubic exameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic zettameter defined such that: megagram per cubic exameter = t/Zm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicZettameter = new (
                                                                  "tonne per cubic zettameter"
@@ -8242,7 +8242,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// tonne per cubic yottameter, defined as: megagram per cubic zettameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic yottameter defined such that: megagram per cubic zettameter = t/Ym³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicYottameter = new (
                                                                  "tonne per cubic yottameter"
@@ -8253,7 +8253,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// decitonne per cubic yoctometer, defined as: tonne per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic yoctometer defined such that: tonne per cubic zeptometer = dt/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicYoctometer = new (
                                                                      "decitonne per cubic yoctometer"
@@ -8266,7 +8266,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic picometer, defined as: decitonne per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic picometer defined such that: decitonne per cubic nanometer = ct/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicPicometer = new (
                                                                      "centitonne per cubic picometer"
@@ -8279,7 +8279,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic micrometer, defined as: centitonne per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic micrometer defined such that: centitonne per cubic millimeter = mt/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicMicrometer = new (
                                                                       "millitonne per cubic micrometer"
@@ -8292,7 +8292,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic centimeter, defined as: microtonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// nanotonne per cubic centimeter defined such that: microtonne per cubic decimeter = nt/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicCentimeter = new (
                                                                      "nanotonne per cubic centimeter"
@@ -8305,7 +8305,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic decimeter, defined as: picotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// femtotonne per cubic decimeter defined such that: picotonne per cubic meter = ft/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicDecimeter = new (
                                                                      "femtotonne per cubic decimeter"
@@ -8318,7 +8318,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic meter, defined as: yoctotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// rontotonne per cubic meter defined such that: yoctotonne per cubic meter = rt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicMeter = new (
                                                                  "rontotonne per cubic meter"
@@ -8329,7 +8329,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// tonne per cubic ronnameter, defined as: megagram per cubic yottameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic ronnameter defined such that: megagram per cubic yottameter = t/Rm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicRonnameter = new (
                                                                  "tonne per cubic ronnameter"
@@ -8340,7 +8340,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// microtonne per cubic millimeter, defined as: millitonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// microtonne per cubic millimeter defined such that: millitonne per cubic centimeter = μt/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicMillimeter = new (
                                                                       "microtonne per cubic millimeter"
@@ -8353,7 +8353,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// tonne per cubic quettameter, defined as: megagram per cubic ronnameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// tonne per cubic quettameter defined such that: megagram per cubic ronnameter = t/Qm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TonnePerCubicQuettameter = new (
                                                                   "tonne per cubic quettameter"
@@ -8364,7 +8364,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// decitonne per cubic rontometer, defined as: tonne per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic rontometer defined such that: tonne per cubic yoctometer = dt/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicRontometer = new (
                                                                      "decitonne per cubic rontometer"
@@ -8377,7 +8377,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectotonne per cubic meter, defined as: rontotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// quectotonne per cubic meter defined such that: rontotonne per cubic meter = qt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicMeter = new (
                                                                   "quectotonne per cubic meter"
@@ -8388,7 +8388,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// centitonne per cubic femtometer, defined as: decitonne per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic femtometer defined such that: decitonne per cubic picometer = ct/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicFemtometer = new (
                                                                       "centitonne per cubic femtometer"
@@ -8401,7 +8401,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attotonne per cubic decimeter, defined as: femtotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// attotonne per cubic decimeter defined such that: femtotonne per cubic meter = at/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicDecimeter = new (
                                                                     "attotonne per cubic decimeter"
@@ -8414,7 +8414,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekatonne per cubic meter, defined as: tonne per cubic meter × (10.0)/((1.0)*(1.0)*(1.0))
+   /// dekatonne per cubic meter defined such that: tonne per cubic meter = dat/m³ × (10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicMeter = new (
                                                                 "dekatonne per cubic meter"
@@ -8425,7 +8425,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic quectometer, defined as: tonne per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// decitonne per cubic quectometer defined such that: tonne per cubic rontometer = dt/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicQuectometer = new (
                                                                       "decitonne per cubic quectometer"
@@ -8438,7 +8438,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// millitonne per cubic nanometer, defined as: centitonne per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic nanometer defined such that: centitonne per cubic micrometer = mt/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicNanometer = new (
                                                                      "millitonne per cubic nanometer"
@@ -8451,7 +8451,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic centimeter, defined as: nanotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// picotonne per cubic centimeter defined such that: nanotonne per cubic decimeter = pt/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicCentimeter = new (
                                                                      "picotonne per cubic centimeter"
@@ -8464,7 +8464,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// hectotonne per cubic meter, defined as: dekatonne per cubic meter × (10.0)/((1.0)*(1.0)*(1.0))
+   /// hectotonne per cubic meter defined such that: dekatonne per cubic meter = ht/m³ × (10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicMeter = new (
                                                                  "hectotonne per cubic meter"
@@ -8475,7 +8475,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// decitonne per cubic dekameter, defined as: tonne per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// decitonne per cubic dekameter defined such that: tonne per cubic meter = dt/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicDekameter = new (
                                                                     "decitonne per cubic dekameter"
@@ -8486,7 +8486,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centitonne per cubic attometer, defined as: decitonne per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic attometer defined such that: decitonne per cubic femtometer = ct/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicAttometer = new (
                                                                      "centitonne per cubic attometer"
@@ -8499,7 +8499,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic micrometer, defined as: millitonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic micrometer defined such that: millitonne per cubic millimeter = μt/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicMicrometer = new (
                                                                       "microtonne per cubic micrometer"
@@ -8512,7 +8512,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic millimeter, defined as: microtonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// nanotonne per cubic millimeter defined such that: microtonne per cubic centimeter = nt/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicMillimeter = new (
                                                                      "nanotonne per cubic millimeter"
@@ -8525,7 +8525,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic decimeter, defined as: attotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zeptotonne per cubic decimeter defined such that: attotonne per cubic meter = zt/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicDecimeter = new (
                                                                      "zeptotonne per cubic decimeter"
@@ -8538,7 +8538,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic meter, defined as: hectotonne per cubic meter × (10.0)/((1.0)*(1.0)*(1.0))
+   /// kilotonne per cubic meter defined such that: hectotonne per cubic meter = kt/m³ × (10.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicMeter = new (
                                                                 "kilotonne per cubic meter"
@@ -8549,7 +8549,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic hectometer, defined as: tonne per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// decitonne per cubic hectometer defined such that: tonne per cubic dekameter = dt/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicHectometer = new (
                                                                      "decitonne per cubic hectometer"
@@ -8560,7 +8560,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic picometer, defined as: centitonne per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic picometer defined such that: centitonne per cubic nanometer = mt/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicPicometer = new (
                                                                      "millitonne per cubic picometer"
@@ -8573,7 +8573,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic centimeter, defined as: picotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// femtotonne per cubic centimeter defined such that: picotonne per cubic decimeter = ft/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicCentimeter = new (
                                                                       "femtotonne per cubic centimeter"
@@ -8586,7 +8586,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// centitonne per cubic zeptometer, defined as: decitonne per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic zeptometer defined such that: decitonne per cubic attometer = ct/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicZeptometer = new (
                                                                       "centitonne per cubic zeptometer"
@@ -8599,7 +8599,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic decimeter, defined as: zeptotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yoctotonne per cubic decimeter defined such that: zeptotonne per cubic meter = yt/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicDecimeter = new (
                                                                      "yoctotonne per cubic decimeter"
@@ -8612,7 +8612,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic meter, defined as: kilotonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// megatonne per cubic meter defined such that: kilotonne per cubic meter = Mt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicMeter = new (
                                                                 "megatonne per cubic meter"
@@ -8623,7 +8623,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic kilometer, defined as: tonne per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// decitonne per cubic kilometer defined such that: tonne per cubic hectometer = dt/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicKilometer = new (
                                                                     "decitonne per cubic kilometer"
@@ -8634,7 +8634,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// microtonne per cubic nanometer, defined as: millitonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic nanometer defined such that: millitonne per cubic micrometer = μt/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicNanometer = new (
                                                                      "microtonne per cubic nanometer"
@@ -8647,7 +8647,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic millimeter, defined as: nanotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// picotonne per cubic millimeter defined such that: nanotonne per cubic centimeter = pt/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicMillimeter = new (
                                                                      "picotonne per cubic millimeter"
@@ -8660,7 +8660,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic meter, defined as: megatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// gigatonne per cubic meter defined such that: megatonne per cubic meter = Gt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicMeter = new (
                                                                 "gigatonne per cubic meter"
@@ -8671,7 +8671,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic megameter, defined as: tonne per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic megameter defined such that: tonne per cubic kilometer = dt/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicMegameter = new (
                                                                     "decitonne per cubic megameter"
@@ -8682,7 +8682,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centitonne per cubic yoctometer, defined as: decitonne per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic yoctometer defined such that: decitonne per cubic zeptometer = ct/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicYoctometer = new (
                                                                       "centitonne per cubic yoctometer"
@@ -8695,7 +8695,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// millitonne per cubic femtometer, defined as: centitonne per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic femtometer defined such that: centitonne per cubic picometer = mt/fm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicFemtometer = new (
                                                                       "millitonne per cubic femtometer"
@@ -8708,7 +8708,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic micrometer, defined as: microtonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic micrometer defined such that: microtonne per cubic millimeter = nt/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicMicrometer = new (
                                                                      "nanotonne per cubic micrometer"
@@ -8721,7 +8721,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic centimeter, defined as: femtotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// attotonne per cubic centimeter defined such that: femtotonne per cubic decimeter = at/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicCentimeter = new (
                                                                      "attotonne per cubic centimeter"
@@ -8734,7 +8734,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic decimeter, defined as: yoctotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// rontotonne per cubic decimeter defined such that: yoctotonne per cubic meter = rt/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicDecimeter = new (
                                                                      "rontotonne per cubic decimeter"
@@ -8747,7 +8747,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic meter, defined as: gigatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// teratonne per cubic meter defined such that: gigatonne per cubic meter = Tt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicMeter = new (
                                                                 "teratonne per cubic meter"
@@ -8758,7 +8758,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic gigameter, defined as: tonne per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic gigameter defined such that: tonne per cubic megameter = dt/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicGigameter = new (
                                                                     "decitonne per cubic gigameter"
@@ -8769,7 +8769,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centitonne per cubic rontometer, defined as: decitonne per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic rontometer defined such that: decitonne per cubic yoctometer = ct/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicRontometer = new (
                                                                       "centitonne per cubic rontometer"
@@ -8782,7 +8782,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic decimeter, defined as: rontotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quectotonne per cubic decimeter defined such that: rontotonne per cubic meter = qt/dm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicDecimeter = new (
                                                                       "quectotonne per cubic decimeter"
@@ -8795,7 +8795,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petatonne per cubic meter, defined as: teratonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// petatonne per cubic meter defined such that: teratonne per cubic meter = Pt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicMeter = new (
                                                                 "petatonne per cubic meter"
@@ -8806,7 +8806,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                );
 
    /// <summary>
-   /// decitonne per cubic terameter, defined as: tonne per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic terameter defined such that: tonne per cubic gigameter = dt/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicTerameter = new (
                                                                     "decitonne per cubic terameter"
@@ -8817,7 +8817,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// millitonne per cubic attometer, defined as: centitonne per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic attometer defined such that: centitonne per cubic femtometer = mt/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicAttometer = new (
                                                                      "millitonne per cubic attometer"
@@ -8830,7 +8830,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic picometer, defined as: millitonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic picometer defined such that: millitonne per cubic nanometer = μt/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicPicometer = new (
                                                                      "microtonne per cubic picometer"
@@ -8843,7 +8843,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic millimeter, defined as: picotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// femtotonne per cubic millimeter defined such that: picotonne per cubic centimeter = ft/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicMillimeter = new (
                                                                       "femtotonne per cubic millimeter"
@@ -8856,7 +8856,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptotonne per cubic centimeter, defined as: attotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zeptotonne per cubic centimeter defined such that: attotonne per cubic decimeter = zt/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicCentimeter = new (
                                                                       "zeptotonne per cubic centimeter"
@@ -8869,7 +8869,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic meter, defined as: petatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// exatonne per cubic meter defined such that: petatonne per cubic meter = Et/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicMeter = new (
                                                                "exatonne per cubic meter"
@@ -8880,7 +8880,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               );
 
    /// <summary>
-   /// dekatonne per cubic decimeter, defined as: tonne per cubic meter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// dekatonne per cubic decimeter defined such that: tonne per cubic meter = dat/dm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicDecimeter = new (
                                                                     "dekatonne per cubic decimeter"
@@ -8891,7 +8891,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decitonne per cubic petameter, defined as: tonne per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic petameter defined such that: tonne per cubic terameter = dt/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicPetameter = new (
                                                                     "decitonne per cubic petameter"
@@ -8902,7 +8902,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centitonne per cubic quectometer, defined as: decitonne per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// centitonne per cubic quectometer defined such that: decitonne per cubic rontometer = ct/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicQuectometer = new (
                                                                        "centitonne per cubic quectometer"
@@ -8915,7 +8915,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// nanotonne per cubic nanometer, defined as: microtonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic nanometer defined such that: microtonne per cubic micrometer = nt/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicNanometer = new (
                                                                     "nanotonne per cubic nanometer"
@@ -8928,7 +8928,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picotonne per cubic micrometer, defined as: nanotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic micrometer defined such that: nanotonne per cubic millimeter = pt/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicMicrometer = new (
                                                                      "picotonne per cubic micrometer"
@@ -8941,7 +8941,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic meter, defined as: exatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// zettatonne per cubic meter defined such that: exatonne per cubic meter = Zt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicMeter = new (
                                                                  "zettatonne per cubic meter"
@@ -8952,7 +8952,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// decitonne per cubic exameter, defined as: tonne per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic exameter defined such that: tonne per cubic petameter = dt/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicExameter = new (
                                                                    "decitonne per cubic exameter"
@@ -8963,7 +8963,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// millitonne per cubic zeptometer, defined as: centitonne per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic zeptometer defined such that: centitonne per cubic attometer = mt/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicZeptometer = new (
                                                                       "millitonne per cubic zeptometer"
@@ -8976,7 +8976,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic centimeter, defined as: zeptotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yoctotonne per cubic centimeter defined such that: zeptotonne per cubic decimeter = yt/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicCentimeter = new (
                                                                       "yoctotonne per cubic centimeter"
@@ -8989,7 +8989,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// hectotonne per cubic decimeter, defined as: dekatonne per cubic meter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// hectotonne per cubic decimeter defined such that: dekatonne per cubic meter = ht/dm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicDecimeter = new (
                                                                      "hectotonne per cubic decimeter"
@@ -9000,7 +9000,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic dekameter, defined as: decitonne per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// centitonne per cubic dekameter defined such that: decitonne per cubic meter = ct/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicDekameter = new (
                                                                      "centitonne per cubic dekameter"
@@ -9011,7 +9011,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic femtometer, defined as: millitonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic femtometer defined such that: millitonne per cubic picometer = μt/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicFemtometer = new (
                                                                       "microtonne per cubic femtometer"
@@ -9024,7 +9024,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attotonne per cubic millimeter, defined as: femtotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// attotonne per cubic millimeter defined such that: femtotonne per cubic centimeter = at/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicMillimeter = new (
                                                                      "attotonne per cubic millimeter"
@@ -9037,7 +9037,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic meter, defined as: zettatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// yottatonne per cubic meter defined such that: zettatonne per cubic meter = Yt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicMeter = new (
                                                                  "yottatonne per cubic meter"
@@ -9048,7 +9048,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// decitonne per cubic zettameter, defined as: tonne per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic zettameter defined such that: tonne per cubic exameter = dt/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicZettameter = new (
                                                                      "decitonne per cubic zettameter"
@@ -9059,7 +9059,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic meter, defined as: yottatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// ronnatonne per cubic meter defined such that: yottatonne per cubic meter = Rt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicMeter = new (
                                                                  "ronnatonne per cubic meter"
@@ -9070,7 +9070,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 );
 
    /// <summary>
-   /// kilotonne per cubic decimeter, defined as: hectotonne per cubic meter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// kilotonne per cubic decimeter defined such that: hectotonne per cubic meter = kt/dm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicDecimeter = new (
                                                                     "kilotonne per cubic decimeter"
@@ -9081,7 +9081,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// decitonne per cubic yottameter, defined as: tonne per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic yottameter defined such that: tonne per cubic zettameter = dt/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicYottameter = new (
                                                                      "decitonne per cubic yottameter"
@@ -9092,7 +9092,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic hectometer, defined as: decitonne per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// centitonne per cubic hectometer defined such that: decitonne per cubic dekameter = ct/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicHectometer = new (
                                                                       "centitonne per cubic hectometer"
@@ -9103,7 +9103,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// millitonne per cubic yoctometer, defined as: centitonne per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic yoctometer defined such that: centitonne per cubic zeptometer = mt/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicYoctometer = new (
                                                                       "millitonne per cubic yoctometer"
@@ -9116,7 +9116,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic picometer, defined as: microtonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic picometer defined such that: microtonne per cubic nanometer = nt/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicPicometer = new (
                                                                     "nanotonne per cubic picometer"
@@ -9129,7 +9129,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic micrometer, defined as: picotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic micrometer defined such that: picotonne per cubic millimeter = ft/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicMicrometer = new (
                                                                       "femtotonne per cubic micrometer"
@@ -9142,7 +9142,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic centimeter, defined as: yoctotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// rontotonne per cubic centimeter defined such that: yoctotonne per cubic decimeter = rt/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicCentimeter = new (
                                                                       "rontotonne per cubic centimeter"
@@ -9155,7 +9155,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// picotonne per cubic nanometer, defined as: nanotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic nanometer defined such that: nanotonne per cubic micrometer = pt/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicNanometer = new (
                                                                     "picotonne per cubic nanometer"
@@ -9168,7 +9168,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettatonne per cubic meter, defined as: ronnatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// quettatonne per cubic meter defined such that: ronnatonne per cubic meter = Qt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicMeter = new (
                                                                   "quettatonne per cubic meter"
@@ -9179,7 +9179,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// decitonne per cubic ronnameter, defined as: tonne per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic ronnameter defined such that: tonne per cubic yottameter = dt/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicRonnameter = new (
                                                                      "decitonne per cubic ronnameter"
@@ -9190,7 +9190,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic attometer, defined as: millitonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic attometer defined such that: millitonne per cubic femtometer = μt/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicAttometer = new (
                                                                      "microtonne per cubic attometer"
@@ -9203,7 +9203,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic millimeter, defined as: attotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zeptotonne per cubic millimeter defined such that: attotonne per cubic centimeter = zt/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicMillimeter = new (
                                                                       "zeptotonne per cubic millimeter"
@@ -9216,7 +9216,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// megatonne per cubic decimeter, defined as: kilotonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// megatonne per cubic decimeter defined such that: kilotonne per cubic meter = Mt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicDecimeter = new (
                                                                     "megatonne per cubic decimeter"
@@ -9227,7 +9227,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centitonne per cubic kilometer, defined as: decitonne per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// centitonne per cubic kilometer defined such that: decitonne per cubic hectometer = ct/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicKilometer = new (
                                                                      "centitonne per cubic kilometer"
@@ -9238,7 +9238,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// decitonne per cubic quettameter, defined as: tonne per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// decitonne per cubic quettameter defined such that: tonne per cubic ronnameter = dt/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DecitonnePerCubicQuettameter = new (
                                                                       "decitonne per cubic quettameter"
@@ -9249,7 +9249,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// millitonne per cubic rontometer, defined as: centitonne per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic rontometer defined such that: centitonne per cubic yoctometer = mt/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicRontometer = new (
                                                                       "millitonne per cubic rontometer"
@@ -9262,7 +9262,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic centimeter, defined as: rontotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quectotonne per cubic centimeter defined such that: rontotonne per cubic decimeter = qt/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicCentimeter = new (
                                                                        "quectotonne per cubic centimeter"
@@ -9275,7 +9275,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// gigatonne per cubic decimeter, defined as: megatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gigatonne per cubic decimeter defined such that: megatonne per cubic meter = Gt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicDecimeter = new (
                                                                     "gigatonne per cubic decimeter"
@@ -9286,7 +9286,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centitonne per cubic megameter, defined as: decitonne per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic megameter defined such that: decitonne per cubic kilometer = ct/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicMegameter = new (
                                                                      "centitonne per cubic megameter"
@@ -9297,7 +9297,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic femtometer, defined as: microtonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic femtometer defined such that: microtonne per cubic picometer = nt/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicFemtometer = new (
                                                                      "nanotonne per cubic femtometer"
@@ -9310,7 +9310,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic micrometer, defined as: femtotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic micrometer defined such that: femtotonne per cubic millimeter = at/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicMicrometer = new (
                                                                      "attotonne per cubic micrometer"
@@ -9323,7 +9323,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic zeptometer, defined as: millitonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic zeptometer defined such that: millitonne per cubic attometer = μt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicZeptometer = new (
                                                                       "microtonne per cubic zeptometer"
@@ -9336,7 +9336,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic millimeter, defined as: zeptotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yoctotonne per cubic millimeter defined such that: zeptotonne per cubic centimeter = yt/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicMillimeter = new (
                                                                       "yoctotonne per cubic millimeter"
@@ -9349,7 +9349,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// dekatonne per cubic centimeter, defined as: tonne per cubic decimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// dekatonne per cubic centimeter defined such that: tonne per cubic decimeter = dat/cm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicCentimeter = new (
                                                                      "dekatonne per cubic centimeter"
@@ -9360,7 +9360,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic quectometer, defined as: centitonne per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// millitonne per cubic quectometer defined such that: centitonne per cubic rontometer = mt/qm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicQuectometer = new (
                                                                        "millitonne per cubic quectometer"
@@ -9373,7 +9373,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// picotonne per cubic picometer, defined as: nanotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic picometer defined such that: nanotonne per cubic nanometer = pt/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicPicometer = new (
                                                                     "picotonne per cubic picometer"
@@ -9386,7 +9386,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic nanometer, defined as: picotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic nanometer defined such that: picotonne per cubic micrometer = ft/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicNanometer = new (
                                                                      "femtotonne per cubic nanometer"
@@ -9399,7 +9399,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic decimeter, defined as: gigatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// teratonne per cubic decimeter defined such that: gigatonne per cubic meter = Tt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicDecimeter = new (
                                                                     "teratonne per cubic decimeter"
@@ -9410,7 +9410,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// centitonne per cubic gigameter, defined as: decitonne per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic gigameter defined such that: decitonne per cubic megameter = ct/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicGigameter = new (
                                                                      "centitonne per cubic gigameter"
@@ -9421,7 +9421,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic decimeter, defined as: teratonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// petatonne per cubic decimeter defined such that: teratonne per cubic meter = Pt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicDecimeter = new (
                                                                     "petatonne per cubic decimeter"
@@ -9432,7 +9432,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic centimeter, defined as: dekatonne per cubic decimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// hectotonne per cubic centimeter defined such that: dekatonne per cubic decimeter = ht/cm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicCentimeter = new (
                                                                       "hectotonne per cubic centimeter"
@@ -9443,7 +9443,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// centitonne per cubic terameter, defined as: decitonne per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic terameter defined such that: decitonne per cubic gigameter = ct/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicTerameter = new (
                                                                      "centitonne per cubic terameter"
@@ -9454,7 +9454,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic dekameter, defined as: centitonne per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// millitonne per cubic dekameter defined such that: centitonne per cubic meter = mt/dam³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicDekameter = new (
                                                                      "millitonne per cubic dekameter"
@@ -9465,7 +9465,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic yoctometer, defined as: millitonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic yoctometer defined such that: millitonne per cubic zeptometer = μt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicYoctometer = new (
                                                                       "microtonne per cubic yoctometer"
@@ -9478,7 +9478,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic attometer, defined as: microtonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic attometer defined such that: microtonne per cubic femtometer = nt/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicAttometer = new (
                                                                     "nanotonne per cubic attometer"
@@ -9491,7 +9491,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic micrometer, defined as: attotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic micrometer defined such that: attotonne per cubic millimeter = zt/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicMicrometer = new (
                                                                       "zeptotonne per cubic micrometer"
@@ -9504,7 +9504,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic millimeter, defined as: yoctotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// rontotonne per cubic millimeter defined such that: yoctotonne per cubic centimeter = rt/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicMillimeter = new (
                                                                       "rontotonne per cubic millimeter"
@@ -9517,7 +9517,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic decimeter, defined as: petatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// exatonne per cubic decimeter defined such that: petatonne per cubic meter = Et/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicDecimeter = new (
                                                                    "exatonne per cubic decimeter"
@@ -9528,7 +9528,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// centitonne per cubic petameter, defined as: decitonne per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic petameter defined such that: decitonne per cubic terameter = ct/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicPetameter = new (
                                                                      "centitonne per cubic petameter"
@@ -9539,7 +9539,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic femtometer, defined as: nanotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic femtometer defined such that: nanotonne per cubic picometer = pt/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicFemtometer = new (
                                                                      "picotonne per cubic femtometer"
@@ -9552,7 +9552,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic nanometer, defined as: femtotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic nanometer defined such that: femtotonne per cubic micrometer = at/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicNanometer = new (
                                                                     "attotonne per cubic nanometer"
@@ -9565,7 +9565,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilotonne per cubic centimeter, defined as: hectotonne per cubic decimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// kilotonne per cubic centimeter defined such that: hectotonne per cubic decimeter = kt/cm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicCentimeter = new (
                                                                      "kilotonne per cubic centimeter"
@@ -9576,7 +9576,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic hectometer, defined as: centitonne per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// millitonne per cubic hectometer defined such that: centitonne per cubic dekameter = mt/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicHectometer = new (
                                                                       "millitonne per cubic hectometer"
@@ -9587,7 +9587,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// femtotonne per cubic picometer, defined as: picotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic picometer defined such that: picotonne per cubic nanometer = ft/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicPicometer = new (
                                                                      "femtotonne per cubic picometer"
@@ -9600,7 +9600,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic rontometer, defined as: millitonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic rontometer defined such that: millitonne per cubic yoctometer = μt/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicRontometer = new (
                                                                       "microtonne per cubic rontometer"
@@ -9613,7 +9613,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic millimeter, defined as: rontotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quectotonne per cubic millimeter defined such that: rontotonne per cubic centimeter = qt/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicMillimeter = new (
                                                                        "quectotonne per cubic millimeter"
@@ -9626,7 +9626,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// zettatonne per cubic decimeter, defined as: exatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zettatonne per cubic decimeter defined such that: exatonne per cubic meter = Zt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicDecimeter = new (
                                                                      "zettatonne per cubic decimeter"
@@ -9637,7 +9637,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic exameter, defined as: decitonne per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic exameter defined such that: decitonne per cubic petameter = ct/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicExameter = new (
                                                                     "centitonne per cubic exameter"
@@ -9648,7 +9648,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// nanotonne per cubic zeptometer, defined as: microtonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic zeptometer defined such that: microtonne per cubic attometer = nt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicZeptometer = new (
                                                                      "nanotonne per cubic zeptometer"
@@ -9661,7 +9661,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctotonne per cubic micrometer, defined as: zeptotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic micrometer defined such that: zeptotonne per cubic millimeter = yt/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicMicrometer = new (
                                                                       "yoctotonne per cubic micrometer"
@@ -9674,7 +9674,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// megatonne per cubic centimeter, defined as: kilotonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// megatonne per cubic centimeter defined such that: kilotonne per cubic decimeter = Mt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicCentimeter = new (
                                                                      "megatonne per cubic centimeter"
@@ -9685,7 +9685,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic kilometer, defined as: centitonne per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// millitonne per cubic kilometer defined such that: centitonne per cubic hectometer = mt/km³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicKilometer = new (
                                                                      "millitonne per cubic kilometer"
@@ -9696,7 +9696,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic decimeter, defined as: zettatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yottatonne per cubic decimeter defined such that: zettatonne per cubic meter = Yt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicDecimeter = new (
                                                                      "yottatonne per cubic decimeter"
@@ -9707,7 +9707,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic zettameter, defined as: decitonne per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic zettameter defined such that: decitonne per cubic exameter = ct/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicZettameter = new (
                                                                       "centitonne per cubic zettameter"
@@ -9718,7 +9718,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// dekatonne per cubic millimeter, defined as: tonne per cubic centimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// dekatonne per cubic millimeter defined such that: tonne per cubic centimeter = dat/mm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicMillimeter = new (
                                                                      "dekatonne per cubic millimeter"
@@ -9729,7 +9729,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic quectometer, defined as: millitonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// microtonne per cubic quectometer defined such that: millitonne per cubic rontometer = μt/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicQuectometer = new (
                                                                        "microtonne per cubic quectometer"
@@ -9742,7 +9742,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// picotonne per cubic attometer, defined as: nanotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic attometer defined such that: nanotonne per cubic femtometer = pt/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicAttometer = new (
                                                                     "picotonne per cubic attometer"
@@ -9755,7 +9755,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic nanometer, defined as: attotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic nanometer defined such that: attotonne per cubic micrometer = zt/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicNanometer = new (
                                                                      "zeptotonne per cubic nanometer"
@@ -9768,7 +9768,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic decimeter, defined as: yottatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// ronnatonne per cubic decimeter defined such that: yottatonne per cubic meter = Rt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicDecimeter = new (
                                                                      "ronnatonne per cubic decimeter"
@@ -9779,7 +9779,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic centimeter, defined as: megatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gigatonne per cubic centimeter defined such that: megatonne per cubic decimeter = Gt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicCentimeter = new (
                                                                      "gigatonne per cubic centimeter"
@@ -9790,7 +9790,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic yottameter, defined as: decitonne per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic yottameter defined such that: decitonne per cubic zettameter = ct/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicYottameter = new (
                                                                       "centitonne per cubic yottameter"
@@ -9801,7 +9801,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// millitonne per cubic megameter, defined as: centitonne per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic megameter defined such that: centitonne per cubic kilometer = mt/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicMegameter = new (
                                                                      "millitonne per cubic megameter"
@@ -9812,7 +9812,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic yoctometer, defined as: microtonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic yoctometer defined such that: microtonne per cubic zeptometer = nt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicYoctometer = new (
                                                                      "nanotonne per cubic yoctometer"
@@ -9825,7 +9825,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic femtometer, defined as: picotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic femtometer defined such that: picotonne per cubic picometer = ft/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicFemtometer = new (
                                                                       "femtotonne per cubic femtometer"
@@ -9838,7 +9838,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attotonne per cubic picometer, defined as: femtotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic picometer defined such that: femtotonne per cubic nanometer = at/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicPicometer = new (
                                                                     "attotonne per cubic picometer"
@@ -9851,7 +9851,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontotonne per cubic micrometer, defined as: yoctotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic micrometer defined such that: yoctotonne per cubic millimeter = rt/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicMicrometer = new (
                                                                       "rontotonne per cubic micrometer"
@@ -9864,7 +9864,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic decimeter, defined as: ronnatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quettatonne per cubic decimeter defined such that: ronnatonne per cubic meter = Qt/dm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicDecimeter = new (
                                                                       "quettatonne per cubic decimeter"
@@ -9876,7 +9876,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// hectotonne per cubic millimeter, defined as: dekatonne per cubic centimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// hectotonne per cubic millimeter defined such that: dekatonne per cubic centimeter = ht/mm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicMillimeter = new (
                                                                       "hectotonne per cubic millimeter"
@@ -9887,7 +9887,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// centitonne per cubic ronnameter, defined as: decitonne per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic ronnameter defined such that: decitonne per cubic yottameter = ct/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicRonnameter = new (
                                                                       "centitonne per cubic ronnameter"
@@ -9898,7 +9898,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// microtonne per cubic dekameter, defined as: millitonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// microtonne per cubic dekameter defined such that: millitonne per cubic meter = μt/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicDekameter = new (
                                                                      "microtonne per cubic dekameter"
@@ -9909,7 +9909,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic centimeter, defined as: gigatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// teratonne per cubic centimeter defined such that: gigatonne per cubic decimeter = Tt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicCentimeter = new (
                                                                      "teratonne per cubic centimeter"
@@ -9920,7 +9920,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic gigameter, defined as: centitonne per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic gigameter defined such that: centitonne per cubic megameter = mt/Gm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicGigameter = new (
                                                                      "millitonne per cubic gigameter"
@@ -9931,7 +9931,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic zeptometer, defined as: nanotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic zeptometer defined such that: nanotonne per cubic attometer = pt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicZeptometer = new (
                                                                      "picotonne per cubic zeptometer"
@@ -9944,7 +9944,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctotonne per cubic nanometer, defined as: zeptotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic nanometer defined such that: zeptotonne per cubic micrometer = yt/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicNanometer = new (
                                                                      "yoctotonne per cubic nanometer"
@@ -9957,7 +9957,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// centitonne per cubic quettameter, defined as: decitonne per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// centitonne per cubic quettameter defined such that: decitonne per cubic ronnameter = ct/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density CentitonnePerCubicQuettameter = new (
                                                                        "centitonne per cubic quettameter"
@@ -9968,7 +9968,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// nanotonne per cubic rontometer, defined as: microtonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic rontometer defined such that: microtonne per cubic yoctometer = nt/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicRontometer = new (
                                                                      "nanotonne per cubic rontometer"
@@ -9981,7 +9981,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectotonne per cubic micrometer, defined as: rontotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic micrometer defined such that: rontotonne per cubic millimeter = qt/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicMicrometer = new (
                                                                        "quectotonne per cubic micrometer"
@@ -9994,7 +9994,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// petatonne per cubic centimeter, defined as: teratonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// petatonne per cubic centimeter defined such that: teratonne per cubic decimeter = Pt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicCentimeter = new (
                                                                      "petatonne per cubic centimeter"
@@ -10005,7 +10005,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic millimeter, defined as: hectotonne per cubic centimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// kilotonne per cubic millimeter defined such that: hectotonne per cubic centimeter = kt/mm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicMillimeter = new (
                                                                      "kilotonne per cubic millimeter"
@@ -10016,7 +10016,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic terameter, defined as: centitonne per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic terameter defined such that: centitonne per cubic gigameter = mt/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicTerameter = new (
                                                                      "millitonne per cubic terameter"
@@ -10027,7 +10027,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic hectometer, defined as: millitonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// microtonne per cubic hectometer defined such that: millitonne per cubic dekameter = μt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicHectometer = new (
                                                                       "microtonne per cubic hectometer"
@@ -10038,7 +10038,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// femtotonne per cubic attometer, defined as: picotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic attometer defined such that: picotonne per cubic femtometer = ft/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicAttometer = new (
                                                                      "femtotonne per cubic attometer"
@@ -10051,7 +10051,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic picometer, defined as: attotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic picometer defined such that: attotonne per cubic nanometer = zt/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicPicometer = new (
                                                                      "zeptotonne per cubic picometer"
@@ -10064,7 +10064,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic femtometer, defined as: femtotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic femtometer defined such that: femtotonne per cubic picometer = at/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicFemtometer = new (
                                                                      "attotonne per cubic femtometer"
@@ -10077,7 +10077,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exatonne per cubic centimeter, defined as: petatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// exatonne per cubic centimeter defined such that: petatonne per cubic decimeter = Et/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicCentimeter = new (
                                                                     "exatonne per cubic centimeter"
@@ -10088,7 +10088,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekatonne per cubic micrometer, defined as: tonne per cubic millimeter × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic micrometer defined such that: tonne per cubic millimeter = dat/μm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicMicrometer = new (
                                                                      "dekatonne per cubic micrometer"
@@ -10100,7 +10100,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic petameter, defined as: centitonne per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic petameter defined such that: centitonne per cubic terameter = mt/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicPetameter = new (
                                                                      "millitonne per cubic petameter"
@@ -10111,7 +10111,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic quectometer, defined as: microtonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// nanotonne per cubic quectometer defined such that: microtonne per cubic rontometer = nt/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicQuectometer = new (
                                                                       "nanotonne per cubic quectometer"
@@ -10124,7 +10124,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// picotonne per cubic yoctometer, defined as: nanotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic yoctometer defined such that: nanotonne per cubic zeptometer = pt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicYoctometer = new (
                                                                      "picotonne per cubic yoctometer"
@@ -10137,7 +10137,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic nanometer, defined as: yoctotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic nanometer defined such that: yoctotonne per cubic micrometer = rt/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicNanometer = new (
                                                                      "rontotonne per cubic nanometer"
@@ -10150,7 +10150,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic millimeter, defined as: kilotonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// megatonne per cubic millimeter defined such that: kilotonne per cubic centimeter = Mt/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicMillimeter = new (
                                                                      "megatonne per cubic millimeter"
@@ -10161,7 +10161,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic kilometer, defined as: millitonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// microtonne per cubic kilometer defined such that: millitonne per cubic hectometer = μt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicKilometer = new (
                                                                      "microtonne per cubic kilometer"
@@ -10172,7 +10172,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic centimeter, defined as: exatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zettatonne per cubic centimeter defined such that: exatonne per cubic decimeter = Zt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicCentimeter = new (
                                                                       "zettatonne per cubic centimeter"
@@ -10184,7 +10184,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// millitonne per cubic exameter, defined as: centitonne per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic exameter defined such that: centitonne per cubic petameter = mt/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicExameter = new (
                                                                     "millitonne per cubic exameter"
@@ -10195,7 +10195,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic zeptometer, defined as: picotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic zeptometer defined such that: picotonne per cubic attometer = ft/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicZeptometer = new (
                                                                       "femtotonne per cubic zeptometer"
@@ -10208,7 +10208,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic picometer, defined as: zeptotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic picometer defined such that: zeptotonne per cubic nanometer = yt/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicPicometer = new (
                                                                      "yoctotonne per cubic picometer"
@@ -10221,7 +10221,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic millimeter, defined as: megatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// gigatonne per cubic millimeter defined such that: megatonne per cubic centimeter = Gt/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicMillimeter = new (
                                                                      "gigatonne per cubic millimeter"
@@ -10232,7 +10232,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// hectotonne per cubic micrometer, defined as: dekatonne per cubic millimeter × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic micrometer defined such that: dekatonne per cubic millimeter = ht/μm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicMicrometer = new (
                                                                       "hectotonne per cubic micrometer"
@@ -10244,7 +10244,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// microtonne per cubic megameter, defined as: millitonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic megameter defined such that: millitonne per cubic kilometer = μt/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicMegameter = new (
                                                                      "microtonne per cubic megameter"
@@ -10255,7 +10255,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic dekameter, defined as: microtonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// nanotonne per cubic dekameter defined such that: microtonne per cubic meter = nt/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicDekameter = new (
                                                                     "nanotonne per cubic dekameter"
@@ -10266,7 +10266,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attotonne per cubic attometer, defined as: femtotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic attometer defined such that: femtotonne per cubic femtometer = at/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicAttometer = new (
                                                                     "attotonne per cubic attometer"
@@ -10279,7 +10279,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic femtometer, defined as: attotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic femtometer defined such that: attotonne per cubic picometer = zt/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicFemtometer = new (
                                                                       "zeptotonne per cubic femtometer"
@@ -10292,7 +10292,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// picotonne per cubic rontometer, defined as: nanotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic rontometer defined such that: nanotonne per cubic yoctometer = pt/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicRontometer = new (
                                                                      "picotonne per cubic rontometer"
@@ -10305,7 +10305,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectotonne per cubic nanometer, defined as: rontotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic nanometer defined such that: rontotonne per cubic micrometer = qt/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicNanometer = new (
                                                                       "quectotonne per cubic nanometer"
@@ -10318,7 +10318,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottatonne per cubic centimeter, defined as: zettatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yottatonne per cubic centimeter defined such that: zettatonne per cubic decimeter = Yt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicCentimeter = new (
                                                                       "yottatonne per cubic centimeter"
@@ -10330,7 +10330,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// millitonne per cubic zettameter, defined as: centitonne per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic zettameter defined such that: centitonne per cubic exameter = mt/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicZettameter = new (
                                                                       "millitonne per cubic zettameter"
@@ -10341,7 +10341,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// teratonne per cubic millimeter, defined as: gigatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// teratonne per cubic millimeter defined such that: gigatonne per cubic centimeter = Tt/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicMillimeter = new (
                                                                      "teratonne per cubic millimeter"
@@ -10352,7 +10352,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic gigameter, defined as: millitonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic gigameter defined such that: millitonne per cubic megameter = μt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicGigameter = new (
                                                                      "microtonne per cubic gigameter"
@@ -10363,7 +10363,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic centimeter, defined as: yottatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// ronnatonne per cubic centimeter defined such that: yottatonne per cubic decimeter = Rt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicCentimeter = new (
                                                                       "ronnatonne per cubic centimeter"
@@ -10375,7 +10375,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// kilotonne per cubic micrometer, defined as: hectotonne per cubic millimeter × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic micrometer defined such that: hectotonne per cubic millimeter = kt/μm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicMicrometer = new (
                                                                      "kilotonne per cubic micrometer"
@@ -10387,7 +10387,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic yottameter, defined as: centitonne per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic yottameter defined such that: centitonne per cubic zettameter = mt/Ym³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicYottameter = new (
                                                                       "millitonne per cubic yottameter"
@@ -10398,7 +10398,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic hectometer, defined as: microtonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// nanotonne per cubic hectometer defined such that: microtonne per cubic dekameter = nt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicHectometer = new (
                                                                      "nanotonne per cubic hectometer"
@@ -10409,7 +10409,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic yoctometer, defined as: picotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic yoctometer defined such that: picotonne per cubic zeptometer = ft/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicYoctometer = new (
                                                                       "femtotonne per cubic yoctometer"
@@ -10422,7 +10422,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic picometer, defined as: yoctotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic picometer defined such that: yoctotonne per cubic nanometer = rt/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicPicometer = new (
                                                                      "rontotonne per cubic picometer"
@@ -10435,7 +10435,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekatonne per cubic nanometer, defined as: tonne per cubic micrometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic nanometer defined such that: tonne per cubic micrometer = dat/nm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicNanometer = new (
                                                                     "dekatonne per cubic nanometer"
@@ -10447,7 +10447,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picotonne per cubic quectometer, defined as: nanotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// picotonne per cubic quectometer defined such that: nanotonne per cubic rontometer = pt/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicQuectometer = new (
                                                                       "picotonne per cubic quectometer"
@@ -10460,7 +10460,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attotonne per cubic zeptometer, defined as: femtotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic zeptometer defined such that: femtotonne per cubic attometer = at/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicZeptometer = new (
                                                                      "attotonne per cubic zeptometer"
@@ -10473,7 +10473,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctotonne per cubic femtometer, defined as: zeptotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic femtometer defined such that: zeptotonne per cubic picometer = yt/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicFemtometer = new (
                                                                       "yoctotonne per cubic femtometer"
@@ -10486,7 +10486,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic centimeter, defined as: ronnatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quettatonne per cubic centimeter defined such that: ronnatonne per cubic decimeter = Qt/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicCentimeter = new (
                                                                        "quettatonne per cubic centimeter"
@@ -10498,7 +10498,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// petatonne per cubic millimeter, defined as: teratonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// petatonne per cubic millimeter defined such that: teratonne per cubic centimeter = Pt/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicMillimeter = new (
                                                                      "petatonne per cubic millimeter"
@@ -10509,7 +10509,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// millitonne per cubic ronnameter, defined as: centitonne per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic ronnameter defined such that: centitonne per cubic yottameter = mt/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicRonnameter = new (
                                                                       "millitonne per cubic ronnameter"
@@ -10520,7 +10520,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// microtonne per cubic terameter, defined as: millitonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic terameter defined such that: millitonne per cubic gigameter = μt/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicTerameter = new (
                                                                      "microtonne per cubic terameter"
@@ -10531,7 +10531,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic attometer, defined as: attotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic attometer defined such that: attotonne per cubic femtometer = zt/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicAttometer = new (
                                                                      "zeptotonne per cubic attometer"
@@ -10544,7 +10544,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic micrometer, defined as: kilotonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic micrometer defined such that: kilotonne per cubic millimeter = Mt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicMicrometer = new (
                                                                      "megatonne per cubic micrometer"
@@ -10556,7 +10556,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic kilometer, defined as: microtonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// nanotonne per cubic kilometer defined such that: microtonne per cubic hectometer = nt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicKilometer = new (
                                                                     "nanotonne per cubic kilometer"
@@ -10567,7 +10567,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// millitonne per cubic quettameter, defined as: centitonne per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// millitonne per cubic quettameter defined such that: centitonne per cubic ronnameter = mt/Qm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MillitonnePerCubicQuettameter = new (
                                                                        "millitonne per cubic quettameter"
@@ -10578,7 +10578,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// femtotonne per cubic rontometer, defined as: picotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic rontometer defined such that: picotonne per cubic yoctometer = ft/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicRontometer = new (
                                                                       "femtotonne per cubic rontometer"
@@ -10591,7 +10591,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic picometer, defined as: rontotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic picometer defined such that: rontotonne per cubic nanometer = qt/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicPicometer = new (
                                                                       "quectotonne per cubic picometer"
@@ -10604,7 +10604,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic millimeter, defined as: petatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// exatonne per cubic millimeter defined such that: petatonne per cubic centimeter = Et/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicMillimeter = new (
                                                                     "exatonne per cubic millimeter"
@@ -10615,7 +10615,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic nanometer, defined as: dekatonne per cubic micrometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic nanometer defined such that: dekatonne per cubic micrometer = ht/nm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicNanometer = new (
                                                                      "hectotonne per cubic nanometer"
@@ -10627,7 +10627,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic petameter, defined as: millitonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic petameter defined such that: millitonne per cubic terameter = μt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicPetameter = new (
                                                                      "microtonne per cubic petameter"
@@ -10638,7 +10638,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic dekameter, defined as: nanotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// picotonne per cubic dekameter defined such that: nanotonne per cubic meter = pt/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicDekameter = new (
                                                                     "picotonne per cubic dekameter"
@@ -10649,7 +10649,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigatonne per cubic micrometer, defined as: megatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic micrometer defined such that: megatonne per cubic millimeter = Gt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicMicrometer = new (
                                                                      "gigatonne per cubic micrometer"
@@ -10661,7 +10661,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic megameter, defined as: microtonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic megameter defined such that: microtonne per cubic kilometer = nt/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicMegameter = new (
                                                                     "nanotonne per cubic megameter"
@@ -10672,7 +10672,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attotonne per cubic yoctometer, defined as: femtotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic yoctometer defined such that: femtotonne per cubic zeptometer = at/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicYoctometer = new (
                                                                      "attotonne per cubic yoctometer"
@@ -10685,7 +10685,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic femtometer, defined as: yoctotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic femtometer defined such that: yoctotonne per cubic picometer = rt/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicFemtometer = new (
                                                                       "rontotonne per cubic femtometer"
@@ -10698,7 +10698,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zettatonne per cubic millimeter, defined as: exatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// zettatonne per cubic millimeter defined such that: exatonne per cubic centimeter = Zt/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicMillimeter = new (
                                                                       "zettatonne per cubic millimeter"
@@ -10710,7 +10710,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// microtonne per cubic exameter, defined as: millitonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic exameter defined such that: millitonne per cubic petameter = μt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicExameter = new (
                                                                     "microtonne per cubic exameter"
@@ -10721,7 +10721,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic zeptometer, defined as: attotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic zeptometer defined such that: attotonne per cubic attometer = zt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicZeptometer = new (
                                                                       "zeptotonne per cubic zeptometer"
@@ -10734,7 +10734,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic attometer, defined as: zeptotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic attometer defined such that: zeptotonne per cubic femtometer = yt/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicAttometer = new (
                                                                      "yoctotonne per cubic attometer"
@@ -10747,7 +10747,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic nanometer, defined as: hectotonne per cubic micrometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic nanometer defined such that: hectotonne per cubic micrometer = kt/nm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicNanometer = new (
                                                                     "kilotonne per cubic nanometer"
@@ -10759,7 +10759,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekatonne per cubic picometer, defined as: tonne per cubic nanometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic picometer defined such that: tonne per cubic nanometer = dat/pm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicPicometer = new (
                                                                     "dekatonne per cubic picometer"
@@ -10771,7 +10771,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picotonne per cubic hectometer, defined as: nanotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// picotonne per cubic hectometer defined such that: nanotonne per cubic dekameter = pt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicHectometer = new (
                                                                      "picotonne per cubic hectometer"
@@ -10782,7 +10782,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic quectometer, defined as: picotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// femtotonne per cubic quectometer defined such that: picotonne per cubic rontometer = ft/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicQuectometer = new (
                                                                        "femtotonne per cubic quectometer"
@@ -10795,7 +10795,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// teratonne per cubic micrometer, defined as: gigatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic micrometer defined such that: gigatonne per cubic millimeter = Tt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicMicrometer = new (
                                                                      "teratonne per cubic micrometer"
@@ -10807,7 +10807,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic gigameter, defined as: microtonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic gigameter defined such that: microtonne per cubic megameter = nt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicGigameter = new (
                                                                     "nanotonne per cubic gigameter"
@@ -10818,7 +10818,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottatonne per cubic millimeter, defined as: zettatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// yottatonne per cubic millimeter defined such that: zettatonne per cubic centimeter = Yt/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicMillimeter = new (
                                                                       "yottatonne per cubic millimeter"
@@ -10830,7 +10830,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// microtonne per cubic zettameter, defined as: millitonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic zettameter defined such that: millitonne per cubic exameter = μt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicZettameter = new (
                                                                       "microtonne per cubic zettameter"
@@ -10841,7 +10841,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attotonne per cubic rontometer, defined as: femtotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic rontometer defined such that: femtotonne per cubic yoctometer = at/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicRontometer = new (
                                                                      "attotonne per cubic rontometer"
@@ -10854,7 +10854,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectotonne per cubic femtometer, defined as: rontotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic femtometer defined such that: rontotonne per cubic picometer = qt/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicFemtometer = new (
                                                                        "quectotonne per cubic femtometer"
@@ -10867,7 +10867,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// megatonne per cubic nanometer, defined as: kilotonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic nanometer defined such that: kilotonne per cubic micrometer = Mt/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicNanometer = new (
                                                                     "megatonne per cubic nanometer"
@@ -10879,7 +10879,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picotonne per cubic kilometer, defined as: nanotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// picotonne per cubic kilometer defined such that: nanotonne per cubic hectometer = pt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicKilometer = new (
                                                                     "picotonne per cubic kilometer"
@@ -10890,7 +10890,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnatonne per cubic millimeter, defined as: yottatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// ronnatonne per cubic millimeter defined such that: yottatonne per cubic centimeter = Rt/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicMillimeter = new (
                                                                       "ronnatonne per cubic millimeter"
@@ -10902,7 +10902,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petatonne per cubic micrometer, defined as: teratonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic micrometer defined such that: teratonne per cubic millimeter = Pt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicMicrometer = new (
                                                                      "petatonne per cubic micrometer"
@@ -10914,7 +10914,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// hectotonne per cubic picometer, defined as: dekatonne per cubic nanometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic picometer defined such that: dekatonne per cubic nanometer = ht/pm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicPicometer = new (
                                                                      "hectotonne per cubic picometer"
@@ -10926,7 +10926,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// microtonne per cubic yottameter, defined as: millitonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic yottameter defined such that: millitonne per cubic zettameter = μt/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicYottameter = new (
                                                                       "microtonne per cubic yottameter"
@@ -10937,7 +10937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic terameter, defined as: microtonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic terameter defined such that: microtonne per cubic gigameter = nt/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicTerameter = new (
                                                                     "nanotonne per cubic terameter"
@@ -10948,7 +10948,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic dekameter, defined as: picotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// femtotonne per cubic dekameter defined such that: picotonne per cubic meter = ft/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicDekameter = new (
                                                                      "femtotonne per cubic dekameter"
@@ -10959,7 +10959,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic yoctometer, defined as: attotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic yoctometer defined such that: attotonne per cubic zeptometer = zt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicYoctometer = new (
                                                                       "zeptotonne per cubic yoctometer"
@@ -10972,7 +10972,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic attometer, defined as: yoctotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic attometer defined such that: yoctotonne per cubic femtometer = rt/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicAttometer = new (
                                                                      "rontotonne per cubic attometer"
@@ -10985,7 +10985,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctotonne per cubic zeptometer, defined as: zeptotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic zeptometer defined such that: zeptotonne per cubic attometer = yt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicZeptometer = new (
                                                                       "yoctotonne per cubic zeptometer"
@@ -10998,7 +10998,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic millimeter, defined as: ronnatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// quettatonne per cubic millimeter defined such that: ronnatonne per cubic centimeter = Qt/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicMillimeter = new (
                                                                        "quettatonne per cubic millimeter"
@@ -11010,7 +11010,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// microtonne per cubic ronnameter, defined as: millitonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic ronnameter defined such that: millitonne per cubic yottameter = μt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicRonnameter = new (
                                                                       "microtonne per cubic ronnameter"
@@ -11021,7 +11021,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic micrometer, defined as: petatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic micrometer defined such that: petatonne per cubic millimeter = Et/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicMicrometer = new (
                                                                     "exatonne per cubic micrometer"
@@ -11033,7 +11033,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigatonne per cubic nanometer, defined as: megatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic nanometer defined such that: megatonne per cubic micrometer = Gt/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicNanometer = new (
                                                                     "gigatonne per cubic nanometer"
@@ -11045,7 +11045,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekatonne per cubic femtometer, defined as: tonne per cubic picometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic femtometer defined such that: tonne per cubic picometer = dat/fm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicFemtometer = new (
                                                                      "dekatonne per cubic femtometer"
@@ -11057,7 +11057,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic petameter, defined as: microtonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic petameter defined such that: microtonne per cubic terameter = nt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicPetameter = new (
                                                                     "nanotonne per cubic petameter"
@@ -11068,7 +11068,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picotonne per cubic megameter, defined as: nanotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic megameter defined such that: nanotonne per cubic kilometer = pt/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicMegameter = new (
                                                                     "picotonne per cubic megameter"
@@ -11079,7 +11079,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attotonne per cubic quectometer, defined as: femtotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// attotonne per cubic quectometer defined such that: femtotonne per cubic rontometer = at/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicQuectometer = new (
                                                                       "attotonne per cubic quectometer"
@@ -11092,7 +11092,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// kilotonne per cubic picometer, defined as: hectotonne per cubic nanometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic picometer defined such that: hectotonne per cubic nanometer = kt/pm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicPicometer = new (
                                                                     "kilotonne per cubic picometer"
@@ -11104,7 +11104,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic hectometer, defined as: picotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// femtotonne per cubic hectometer defined such that: picotonne per cubic dekameter = ft/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicHectometer = new (
                                                                       "femtotonne per cubic hectometer"
@@ -11115,7 +11115,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// microtonne per cubic quettameter, defined as: millitonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// microtonne per cubic quettameter defined such that: millitonne per cubic ronnameter = μt/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MicrotonnePerCubicQuettameter = new (
                                                                        "microtonne per cubic quettameter"
@@ -11126,7 +11126,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// zeptotonne per cubic rontometer, defined as: attotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic rontometer defined such that: attotonne per cubic yoctometer = zt/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicRontometer = new (
                                                                       "zeptotonne per cubic rontometer"
@@ -11139,7 +11139,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic attometer, defined as: rontotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic attometer defined such that: rontotonne per cubic femtometer = qt/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicAttometer = new (
                                                                       "quectotonne per cubic attometer"
@@ -11152,7 +11152,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zettatonne per cubic micrometer, defined as: exatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic micrometer defined such that: exatonne per cubic millimeter = Zt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicMicrometer = new (
                                                                       "zettatonne per cubic micrometer"
@@ -11164,7 +11164,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic exameter, defined as: microtonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic exameter defined such that: microtonne per cubic petameter = nt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicExameter = new (
                                                                    "nanotonne per cubic exameter"
@@ -11175,7 +11175,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctotonne per cubic yoctometer, defined as: zeptotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic yoctometer defined such that: zeptotonne per cubic zeptometer = yt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicYoctometer = new (
                                                                       "yoctotonne per cubic yoctometer"
@@ -11188,7 +11188,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic zeptometer, defined as: yoctotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic zeptometer defined such that: yoctotonne per cubic attometer = rt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicZeptometer = new (
                                                                       "rontotonne per cubic zeptometer"
@@ -11201,7 +11201,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// teratonne per cubic nanometer, defined as: gigatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic nanometer defined such that: gigatonne per cubic micrometer = Tt/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicNanometer = new (
                                                                     "teratonne per cubic nanometer"
@@ -11213,7 +11213,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picotonne per cubic gigameter, defined as: nanotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic gigameter defined such that: nanotonne per cubic megameter = pt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicGigameter = new (
                                                                     "picotonne per cubic gigameter"
@@ -11224,7 +11224,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic femtometer, defined as: dekatonne per cubic picometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic femtometer defined such that: dekatonne per cubic picometer = ht/fm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicFemtometer = new (
                                                                       "hectotonne per cubic femtometer"
@@ -11236,7 +11236,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attotonne per cubic dekameter, defined as: femtotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// attotonne per cubic dekameter defined such that: femtotonne per cubic meter = at/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicDekameter = new (
                                                                     "attotonne per cubic dekameter"
@@ -11247,7 +11247,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megatonne per cubic picometer, defined as: kilotonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic picometer defined such that: kilotonne per cubic nanometer = Mt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicPicometer = new (
                                                                     "megatonne per cubic picometer"
@@ -11259,7 +11259,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic kilometer, defined as: picotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// femtotonne per cubic kilometer defined such that: picotonne per cubic hectometer = ft/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicKilometer = new (
                                                                      "femtotonne per cubic kilometer"
@@ -11270,7 +11270,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic micrometer, defined as: zettatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic micrometer defined such that: zettatonne per cubic millimeter = Yt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicMicrometer = new (
                                                                       "yottatonne per cubic micrometer"
@@ -11282,7 +11282,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// nanotonne per cubic zettameter, defined as: microtonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic zettameter defined such that: microtonne per cubic exameter = nt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicZettameter = new (
                                                                      "nanotonne per cubic zettameter"
@@ -11293,7 +11293,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic nanometer, defined as: teratonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic nanometer defined such that: teratonne per cubic micrometer = Pt/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicNanometer = new (
                                                                     "petatonne per cubic nanometer"
@@ -11305,7 +11305,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekatonne per cubic attometer, defined as: tonne per cubic femtometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic attometer defined such that: tonne per cubic femtometer = dat/am³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicAttometer = new (
                                                                     "dekatonne per cubic attometer"
@@ -11317,7 +11317,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// picotonne per cubic terameter, defined as: nanotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic terameter defined such that: nanotonne per cubic gigameter = pt/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicTerameter = new (
                                                                     "picotonne per cubic terameter"
@@ -11328,7 +11328,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic quectometer, defined as: attotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zeptotonne per cubic quectometer defined such that: attotonne per cubic rontometer = zt/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicQuectometer = new (
                                                                        "zeptotonne per cubic quectometer"
@@ -11341,7 +11341,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// yoctotonne per cubic rontometer, defined as: zeptotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic rontometer defined such that: zeptotonne per cubic yoctometer = yt/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicRontometer = new (
                                                                       "yoctotonne per cubic rontometer"
@@ -11354,7 +11354,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic zeptometer, defined as: rontotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic zeptometer defined such that: rontotonne per cubic attometer = qt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicZeptometer = new (
                                                                        "quectotonne per cubic zeptometer"
@@ -11367,7 +11367,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// ronnatonne per cubic micrometer, defined as: yottatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic micrometer defined such that: yottatonne per cubic millimeter = Rt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicMicrometer = new (
                                                                       "ronnatonne per cubic micrometer"
@@ -11379,7 +11379,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// gigatonne per cubic picometer, defined as: megatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic picometer defined such that: megatonne per cubic nanometer = Gt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicPicometer = new (
                                                                     "gigatonne per cubic picometer"
@@ -11391,7 +11391,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilotonne per cubic femtometer, defined as: hectotonne per cubic picometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic femtometer defined such that: hectotonne per cubic picometer = kt/fm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicFemtometer = new (
                                                                      "kilotonne per cubic femtometer"
@@ -11403,7 +11403,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic yottameter, defined as: microtonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic yottameter defined such that: microtonne per cubic zettameter = nt/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicYottameter = new (
                                                                      "nanotonne per cubic yottameter"
@@ -11414,7 +11414,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic megameter, defined as: picotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic megameter defined such that: picotonne per cubic kilometer = ft/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicMegameter = new (
                                                                      "femtotonne per cubic megameter"
@@ -11425,7 +11425,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic hectometer, defined as: femtotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// attotonne per cubic hectometer defined such that: femtotonne per cubic dekameter = at/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicHectometer = new (
                                                                      "attotonne per cubic hectometer"
@@ -11436,7 +11436,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic yoctometer, defined as: yoctotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic yoctometer defined such that: yoctotonne per cubic zeptometer = rt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicYoctometer = new (
                                                                       "rontotonne per cubic yoctometer"
@@ -11449,7 +11449,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic nanometer, defined as: petatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic nanometer defined such that: petatonne per cubic micrometer = Et/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicNanometer = new (
                                                                    "exatonne per cubic nanometer"
@@ -11461,7 +11461,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// picotonne per cubic petameter, defined as: nanotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic petameter defined such that: nanotonne per cubic terameter = pt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicPetameter = new (
                                                                     "picotonne per cubic petameter"
@@ -11472,7 +11472,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettatonne per cubic micrometer, defined as: ronnatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic micrometer defined such that: ronnatonne per cubic millimeter = Qt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicMicrometer = new (
                                                                        "quettatonne per cubic micrometer"
@@ -11484,7 +11484,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// hectotonne per cubic attometer, defined as: dekatonne per cubic femtometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic attometer defined such that: dekatonne per cubic femtometer = ht/am³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicAttometer = new (
                                                                      "hectotonne per cubic attometer"
@@ -11496,7 +11496,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// nanotonne per cubic ronnameter, defined as: microtonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic ronnameter defined such that: microtonne per cubic yottameter = nt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicRonnameter = new (
                                                                      "nanotonne per cubic ronnameter"
@@ -11507,7 +11507,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic dekameter, defined as: attotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// zeptotonne per cubic dekameter defined such that: attotonne per cubic meter = zt/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicDekameter = new (
                                                                      "zeptotonne per cubic dekameter"
@@ -11518,7 +11518,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic picometer, defined as: gigatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic picometer defined such that: gigatonne per cubic nanometer = Tt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicPicometer = new (
                                                                     "teratonne per cubic picometer"
@@ -11530,7 +11530,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic gigameter, defined as: picotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic gigameter defined such that: picotonne per cubic megameter = ft/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicGigameter = new (
                                                                      "femtotonne per cubic gigameter"
@@ -11541,7 +11541,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic femtometer, defined as: kilotonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic femtometer defined such that: kilotonne per cubic picometer = Mt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicFemtometer = new (
                                                                      "megatonne per cubic femtometer"
@@ -11553,7 +11553,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic kilometer, defined as: femtotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// attotonne per cubic kilometer defined such that: femtotonne per cubic hectometer = at/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicKilometer = new (
                                                                     "attotonne per cubic kilometer"
@@ -11564,7 +11564,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettatonne per cubic nanometer, defined as: exatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic nanometer defined such that: exatonne per cubic micrometer = Zt/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicNanometer = new (
                                                                      "zettatonne per cubic nanometer"
@@ -11576,7 +11576,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekatonne per cubic zeptometer, defined as: tonne per cubic attometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic zeptometer defined such that: tonne per cubic attometer = dat/zm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicZeptometer = new (
                                                                      "dekatonne per cubic zeptometer"
@@ -11588,7 +11588,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic exameter, defined as: nanotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic exameter defined such that: nanotonne per cubic petameter = pt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicExameter = new (
                                                                    "picotonne per cubic exameter"
@@ -11599,7 +11599,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctotonne per cubic quectometer, defined as: zeptotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yoctotonne per cubic quectometer defined such that: zeptotonne per cubic rontometer = yt/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicQuectometer = new (
                                                                        "yoctotonne per cubic quectometer"
@@ -11612,7 +11612,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// nanotonne per cubic quettameter, defined as: microtonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// nanotonne per cubic quettameter defined such that: microtonne per cubic ronnameter = nt/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density NanotonnePerCubicQuettameter = new (
                                                                       "nanotonne per cubic quettameter"
@@ -11623,7 +11623,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic rontometer, defined as: yoctotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic rontometer defined such that: yoctotonne per cubic yoctometer = rt/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicRontometer = new (
                                                                       "rontotonne per cubic rontometer"
@@ -11636,7 +11636,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic yoctometer, defined as: rontotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic yoctometer defined such that: rontotonne per cubic zeptometer = qt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicYoctometer = new (
                                                                        "quectotonne per cubic yoctometer"
@@ -11649,7 +11649,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// petatonne per cubic picometer, defined as: teratonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic picometer defined such that: teratonne per cubic nanometer = Pt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicPicometer = new (
                                                                     "petatonne per cubic picometer"
@@ -11661,7 +11661,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilotonne per cubic attometer, defined as: hectotonne per cubic femtometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic attometer defined such that: hectotonne per cubic femtometer = kt/am³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicAttometer = new (
                                                                     "kilotonne per cubic attometer"
@@ -11673,7 +11673,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic terameter, defined as: picotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic terameter defined such that: picotonne per cubic gigameter = ft/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicTerameter = new (
                                                                      "femtotonne per cubic terameter"
@@ -11684,7 +11684,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic hectometer, defined as: attotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// zeptotonne per cubic hectometer defined such that: attotonne per cubic dekameter = zt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicHectometer = new (
                                                                       "zeptotonne per cubic hectometer"
@@ -11695,7 +11695,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottatonne per cubic nanometer, defined as: zettatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic nanometer defined such that: zettatonne per cubic micrometer = Yt/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicNanometer = new (
                                                                      "yottatonne per cubic nanometer"
@@ -11707,7 +11707,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic zettameter, defined as: nanotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic zettameter defined such that: nanotonne per cubic exameter = pt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicZettameter = new (
                                                                      "picotonne per cubic zettameter"
@@ -11718,7 +11718,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic femtometer, defined as: megatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic femtometer defined such that: megatonne per cubic picometer = Gt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicFemtometer = new (
                                                                      "gigatonne per cubic femtometer"
@@ -11730,7 +11730,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic megameter, defined as: femtotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic megameter defined such that: femtotonne per cubic kilometer = at/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicMegameter = new (
                                                                     "attotonne per cubic megameter"
@@ -11741,7 +11741,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic zeptometer, defined as: dekatonne per cubic attometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic zeptometer defined such that: dekatonne per cubic attometer = ht/zm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicZeptometer = new (
                                                                       "hectotonne per cubic zeptometer"
@@ -11753,7 +11753,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic dekameter, defined as: zeptotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// yoctotonne per cubic dekameter defined such that: zeptotonne per cubic meter = yt/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicDekameter = new (
                                                                      "yoctotonne per cubic dekameter"
@@ -11764,7 +11764,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic nanometer, defined as: yottatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic nanometer defined such that: yottatonne per cubic micrometer = Rt/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicNanometer = new (
                                                                      "ronnatonne per cubic nanometer"
@@ -11776,7 +11776,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exatonne per cubic picometer, defined as: petatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic picometer defined such that: petatonne per cubic nanometer = Et/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicPicometer = new (
                                                                    "exatonne per cubic picometer"
@@ -11788,7 +11788,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// dekatonne per cubic yoctometer, defined as: tonne per cubic zeptometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic yoctometer defined such that: tonne per cubic zeptometer = dat/ym³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicYoctometer = new (
                                                                      "dekatonne per cubic yoctometer"
@@ -11800,7 +11800,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic yottameter, defined as: nanotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic yottameter defined such that: nanotonne per cubic zettameter = pt/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicYottameter = new (
                                                                      "picotonne per cubic yottameter"
@@ -11811,7 +11811,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic petameter, defined as: picotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic petameter defined such that: picotonne per cubic terameter = ft/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicPetameter = new (
                                                                      "femtotonne per cubic petameter"
@@ -11822,7 +11822,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic quectometer, defined as: yoctotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// rontotonne per cubic quectometer defined such that: yoctotonne per cubic rontometer = rt/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicQuectometer = new (
                                                                        "rontotonne per cubic quectometer"
@@ -11835,7 +11835,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quectotonne per cubic rontometer, defined as: rontotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic rontometer defined such that: rontotonne per cubic yoctometer = qt/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicRontometer = new (
                                                                        "quectotonne per cubic rontometer"
@@ -11848,7 +11848,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// megatonne per cubic attometer, defined as: kilotonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic attometer defined such that: kilotonne per cubic femtometer = Mt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicAttometer = new (
                                                                     "megatonne per cubic attometer"
@@ -11860,7 +11860,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic kilometer, defined as: attotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// zeptotonne per cubic kilometer defined such that: attotonne per cubic hectometer = zt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicKilometer = new (
                                                                      "zeptotonne per cubic kilometer"
@@ -11871,7 +11871,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic femtometer, defined as: gigatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic femtometer defined such that: gigatonne per cubic picometer = Tt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicFemtometer = new (
                                                                      "teratonne per cubic femtometer"
@@ -11883,7 +11883,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic gigameter, defined as: femtotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic gigameter defined such that: femtotonne per cubic megameter = at/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicGigameter = new (
                                                                     "attotonne per cubic gigameter"
@@ -11894,7 +11894,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettatonne per cubic nanometer, defined as: ronnatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic nanometer defined such that: ronnatonne per cubic micrometer = Qt/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicNanometer = new (
                                                                       "quettatonne per cubic nanometer"
@@ -11906,7 +11906,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// picotonne per cubic ronnameter, defined as: nanotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic ronnameter defined such that: nanotonne per cubic yottameter = pt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicRonnameter = new (
                                                                      "picotonne per cubic ronnameter"
@@ -11917,7 +11917,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic picometer, defined as: exatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic picometer defined such that: exatonne per cubic nanometer = Zt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicPicometer = new (
                                                                      "zettatonne per cubic picometer"
@@ -11929,7 +11929,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic zeptometer, defined as: hectotonne per cubic attometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic zeptometer defined such that: hectotonne per cubic attometer = kt/zm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicZeptometer = new (
                                                                      "kilotonne per cubic zeptometer"
@@ -11941,7 +11941,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic exameter, defined as: picotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic exameter defined such that: picotonne per cubic petameter = ft/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicExameter = new (
                                                                     "femtotonne per cubic exameter"
@@ -11952,7 +11952,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yoctotonne per cubic hectometer, defined as: zeptotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// yoctotonne per cubic hectometer defined such that: zeptotonne per cubic dekameter = yt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicHectometer = new (
                                                                       "yoctotonne per cubic hectometer"
@@ -11963,7 +11963,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petatonne per cubic femtometer, defined as: teratonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic femtometer defined such that: teratonne per cubic picometer = Pt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicFemtometer = new (
                                                                      "petatonne per cubic femtometer"
@@ -11975,7 +11975,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic attometer, defined as: megatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic attometer defined such that: megatonne per cubic femtometer = Gt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicAttometer = new (
                                                                     "gigatonne per cubic attometer"
@@ -11987,7 +11987,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic yoctometer, defined as: dekatonne per cubic zeptometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic yoctometer defined such that: dekatonne per cubic zeptometer = ht/ym³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicYoctometer = new (
                                                                       "hectotonne per cubic yoctometer"
@@ -11999,7 +11999,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attotonne per cubic terameter, defined as: femtotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic terameter defined such that: femtotonne per cubic gigameter = at/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicTerameter = new (
                                                                     "attotonne per cubic terameter"
@@ -12010,7 +12010,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic megameter, defined as: attotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic megameter defined such that: attotonne per cubic kilometer = zt/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicMegameter = new (
                                                                      "zeptotonne per cubic megameter"
@@ -12021,7 +12021,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic dekameter, defined as: yoctotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// rontotonne per cubic dekameter defined such that: yoctotonne per cubic meter = rt/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicDekameter = new (
                                                                      "rontotonne per cubic dekameter"
@@ -12032,7 +12032,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekatonne per cubic rontometer, defined as: tonne per cubic yoctometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic rontometer defined such that: tonne per cubic yoctometer = dat/rm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicRontometer = new (
                                                                      "dekatonne per cubic rontometer"
@@ -12044,7 +12044,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// picotonne per cubic quettameter, defined as: nanotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// picotonne per cubic quettameter defined such that: nanotonne per cubic ronnameter = pt/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PicotonnePerCubicQuettameter = new (
                                                                       "picotonne per cubic quettameter"
@@ -12055,7 +12055,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic quectometer, defined as: rontotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quectotonne per cubic quectometer defined such that: rontotonne per cubic rontometer = qt/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicQuectometer = new (
                                                                         "quectotonne per cubic quectometer"
@@ -12068,7 +12068,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                        );
 
    /// <summary>
-   /// yottatonne per cubic picometer, defined as: zettatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic picometer defined such that: zettatonne per cubic nanometer = Yt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicPicometer = new (
                                                                      "yottatonne per cubic picometer"
@@ -12080,7 +12080,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic zettameter, defined as: picotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic zettameter defined such that: picotonne per cubic exameter = ft/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicZettameter = new (
                                                                       "femtotonne per cubic zettameter"
@@ -12091,7 +12091,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// megatonne per cubic zeptometer, defined as: kilotonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic zeptometer defined such that: kilotonne per cubic attometer = Mt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicZeptometer = new (
                                                                      "megatonne per cubic zeptometer"
@@ -12103,7 +12103,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctotonne per cubic kilometer, defined as: zeptotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// yoctotonne per cubic kilometer defined such that: zeptotonne per cubic hectometer = yt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicKilometer = new (
                                                                      "yoctotonne per cubic kilometer"
@@ -12114,7 +12114,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exatonne per cubic femtometer, defined as: petatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic femtometer defined such that: petatonne per cubic picometer = Et/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicFemtometer = new (
                                                                     "exatonne per cubic femtometer"
@@ -12126,7 +12126,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// attotonne per cubic petameter, defined as: femtotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic petameter defined such that: femtotonne per cubic terameter = at/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicPetameter = new (
                                                                     "attotonne per cubic petameter"
@@ -12137,7 +12137,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teratonne per cubic attometer, defined as: gigatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic attometer defined such that: gigatonne per cubic femtometer = Tt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicAttometer = new (
                                                                     "teratonne per cubic attometer"
@@ -12149,7 +12149,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic gigameter, defined as: attotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic gigameter defined such that: attotonne per cubic megameter = zt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicGigameter = new (
                                                                      "zeptotonne per cubic gigameter"
@@ -12160,7 +12160,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic picometer, defined as: yottatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic picometer defined such that: yottatonne per cubic nanometer = Rt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicPicometer = new (
                                                                      "ronnatonne per cubic picometer"
@@ -12172,7 +12172,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic yoctometer, defined as: hectotonne per cubic zeptometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic yoctometer defined such that: hectotonne per cubic zeptometer = kt/ym³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicYoctometer = new (
                                                                      "kilotonne per cubic yoctometer"
@@ -12184,7 +12184,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic yottameter, defined as: picotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic yottameter defined such that: picotonne per cubic zettameter = ft/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicYottameter = new (
                                                                       "femtotonne per cubic yottameter"
@@ -12195,7 +12195,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic hectometer, defined as: yoctotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// rontotonne per cubic hectometer defined such that: yoctotonne per cubic dekameter = rt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicHectometer = new (
                                                                       "rontotonne per cubic hectometer"
@@ -12206,7 +12206,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// hectotonne per cubic rontometer, defined as: dekatonne per cubic yoctometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic rontometer defined such that: dekatonne per cubic yoctometer = ht/rm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicRontometer = new (
                                                                       "hectotonne per cubic rontometer"
@@ -12218,7 +12218,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic dekameter, defined as: rontotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// quectotonne per cubic dekameter defined such that: rontotonne per cubic meter = qt/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicDekameter = new (
                                                                       "quectotonne per cubic dekameter"
@@ -12229,7 +12229,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// dekatonne per cubic quectometer, defined as: tonne per cubic rontometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// dekatonne per cubic quectometer defined such that: tonne per cubic rontometer = dat/qm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicQuectometer = new (
                                                                       "dekatonne per cubic quectometer"
@@ -12241,7 +12241,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zettatonne per cubic femtometer, defined as: exatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic femtometer defined such that: exatonne per cubic picometer = Zt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicFemtometer = new (
                                                                       "zettatonne per cubic femtometer"
@@ -12253,7 +12253,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// gigatonne per cubic zeptometer, defined as: megatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic zeptometer defined such that: megatonne per cubic attometer = Gt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicZeptometer = new (
                                                                      "gigatonne per cubic zeptometer"
@@ -12265,7 +12265,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic exameter, defined as: femtotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic exameter defined such that: femtotonne per cubic petameter = at/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicExameter = new (
                                                                    "attotonne per cubic exameter"
@@ -12276,7 +12276,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// yoctotonne per cubic megameter, defined as: zeptotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic megameter defined such that: zeptotonne per cubic kilometer = yt/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicMegameter = new (
                                                                      "yoctotonne per cubic megameter"
@@ -12287,7 +12287,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettatonne per cubic picometer, defined as: ronnatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic picometer defined such that: ronnatonne per cubic nanometer = Qt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicPicometer = new (
                                                                       "quettatonne per cubic picometer"
@@ -12299,7 +12299,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petatonne per cubic attometer, defined as: teratonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic attometer defined such that: teratonne per cubic femtometer = Pt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicAttometer = new (
                                                                     "petatonne per cubic attometer"
@@ -12311,7 +12311,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// femtotonne per cubic ronnameter, defined as: picotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic ronnameter defined such that: picotonne per cubic yottameter = ft/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicRonnameter = new (
                                                                       "femtotonne per cubic ronnameter"
@@ -12322,7 +12322,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptotonne per cubic terameter, defined as: attotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic terameter defined such that: attotonne per cubic gigameter = zt/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicTerameter = new (
                                                                      "zeptotonne per cubic terameter"
@@ -12333,7 +12333,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic yoctometer, defined as: kilotonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic yoctometer defined such that: kilotonne per cubic zeptometer = Mt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicYoctometer = new (
                                                                      "megatonne per cubic yoctometer"
@@ -12345,7 +12345,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic kilometer, defined as: yoctotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// rontotonne per cubic kilometer defined such that: yoctotonne per cubic hectometer = rt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicKilometer = new (
                                                                      "rontotonne per cubic kilometer"
@@ -12356,7 +12356,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic femtometer, defined as: zettatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic femtometer defined such that: zettatonne per cubic picometer = Yt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicFemtometer = new (
                                                                       "yottatonne per cubic femtometer"
@@ -12368,7 +12368,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// attotonne per cubic zettameter, defined as: femtotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic zettameter defined such that: femtotonne per cubic exameter = at/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicZettameter = new (
                                                                      "attotonne per cubic zettameter"
@@ -12379,7 +12379,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic rontometer, defined as: hectotonne per cubic yoctometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic rontometer defined such that: hectotonne per cubic yoctometer = kt/rm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicRontometer = new (
                                                                      "kilotonne per cubic rontometer"
@@ -12391,7 +12391,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// femtotonne per cubic quettameter, defined as: picotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// femtotonne per cubic quettameter defined such that: picotonne per cubic ronnameter = ft/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density FemtotonnePerCubicQuettameter = new (
                                                                        "femtotonne per cubic quettameter"
@@ -12402,7 +12402,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quectotonne per cubic hectometer, defined as: rontotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// quectotonne per cubic hectometer defined such that: rontotonne per cubic dekameter = qt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicHectometer = new (
                                                                        "quectotonne per cubic hectometer"
@@ -12413,7 +12413,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// teratonne per cubic zeptometer, defined as: gigatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic zeptometer defined such that: gigatonne per cubic attometer = Tt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicZeptometer = new (
                                                                      "teratonne per cubic zeptometer"
@@ -12425,7 +12425,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yoctotonne per cubic gigameter, defined as: zeptotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic gigameter defined such that: zeptotonne per cubic megameter = yt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicGigameter = new (
                                                                      "yoctotonne per cubic gigameter"
@@ -12436,7 +12436,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exatonne per cubic attometer, defined as: petatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic attometer defined such that: petatonne per cubic femtometer = Et/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicAttometer = new (
                                                                    "exatonne per cubic attometer"
@@ -12448,7 +12448,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// hectotonne per cubic quectometer, defined as: dekatonne per cubic rontometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// hectotonne per cubic quectometer defined such that: dekatonne per cubic rontometer = ht/qm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicQuectometer = new (
                                                                        "hectotonne per cubic quectometer"
@@ -12460,7 +12460,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// dekatonne per cubic dekameter, defined as: tonne per cubic meter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// dekatonne per cubic dekameter defined such that: tonne per cubic meter = dat/dam³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicDekameter = new (
                                                                     "dekatonne per cubic dekameter"
@@ -12471,7 +12471,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zeptotonne per cubic petameter, defined as: attotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic petameter defined such that: attotonne per cubic terameter = zt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicPetameter = new (
                                                                      "zeptotonne per cubic petameter"
@@ -12482,7 +12482,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic femtometer, defined as: yottatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic femtometer defined such that: yottatonne per cubic picometer = Rt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicFemtometer = new (
                                                                       "ronnatonne per cubic femtometer"
@@ -12494,7 +12494,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// gigatonne per cubic yoctometer, defined as: megatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic yoctometer defined such that: megatonne per cubic zeptometer = Gt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicYoctometer = new (
                                                                      "gigatonne per cubic yoctometer"
@@ -12506,7 +12506,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic yottameter, defined as: femtotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic yottameter defined such that: femtotonne per cubic zettameter = at/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicYottameter = new (
                                                                      "attotonne per cubic yottameter"
@@ -12517,7 +12517,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic megameter, defined as: yoctotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic megameter defined such that: yoctotonne per cubic kilometer = rt/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicMegameter = new (
                                                                      "rontotonne per cubic megameter"
@@ -12528,7 +12528,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic attometer, defined as: exatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic attometer defined such that: exatonne per cubic femtometer = Zt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicAttometer = new (
                                                                      "zettatonne per cubic attometer"
@@ -12540,7 +12540,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic zeptometer, defined as: teratonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic zeptometer defined such that: teratonne per cubic attometer = Pt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicZeptometer = new (
                                                                      "petatonne per cubic zeptometer"
@@ -12552,7 +12552,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic exameter, defined as: attotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic exameter defined such that: attotonne per cubic petameter = zt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicExameter = new (
                                                                     "zeptotonne per cubic exameter"
@@ -12563,7 +12563,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yoctotonne per cubic terameter, defined as: zeptotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic terameter defined such that: zeptotonne per cubic gigameter = yt/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicTerameter = new (
                                                                      "yoctotonne per cubic terameter"
@@ -12574,7 +12574,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic rontometer, defined as: kilotonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic rontometer defined such that: kilotonne per cubic yoctometer = Mt/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicRontometer = new (
                                                                      "megatonne per cubic rontometer"
@@ -12586,7 +12586,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectotonne per cubic kilometer, defined as: rontotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// quectotonne per cubic kilometer defined such that: rontotonne per cubic hectometer = qt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicKilometer = new (
                                                                       "quectotonne per cubic kilometer"
@@ -12597,7 +12597,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// kilotonne per cubic quectometer, defined as: hectotonne per cubic rontometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// kilotonne per cubic quectometer defined such that: hectotonne per cubic rontometer = kt/qm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicQuectometer = new (
                                                                       "kilotonne per cubic quectometer"
@@ -12609,7 +12609,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// dekatonne per cubic hectometer, defined as: tonne per cubic dekameter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// dekatonne per cubic hectometer defined such that: tonne per cubic dekameter = dat/hm³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicHectometer = new (
                                                                      "dekatonne per cubic hectometer"
@@ -12620,7 +12620,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettatonne per cubic femtometer, defined as: ronnatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic femtometer defined such that: ronnatonne per cubic picometer = Qt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicFemtometer = new (
                                                                        "quettatonne per cubic femtometer"
@@ -12632,7 +12632,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// hectotonne per cubic dekameter, defined as: dekatonne per cubic meter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// hectotonne per cubic dekameter defined such that: dekatonne per cubic meter = ht/dam³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicDekameter = new (
                                                                      "hectotonne per cubic dekameter"
@@ -12643,7 +12643,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic ronnameter, defined as: femtotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic ronnameter defined such that: femtotonne per cubic yottameter = at/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicRonnameter = new (
                                                                      "attotonne per cubic ronnameter"
@@ -12654,7 +12654,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic yoctometer, defined as: gigatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic yoctometer defined such that: gigatonne per cubic zeptometer = Tt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicYoctometer = new (
                                                                      "teratonne per cubic yoctometer"
@@ -12666,7 +12666,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic gigameter, defined as: yoctotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic gigameter defined such that: yoctotonne per cubic megameter = rt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicGigameter = new (
                                                                      "rontotonne per cubic gigameter"
@@ -12677,7 +12677,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic attometer, defined as: zettatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic attometer defined such that: zettatonne per cubic femtometer = Yt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicAttometer = new (
                                                                      "yottatonne per cubic attometer"
@@ -12689,7 +12689,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic zettameter, defined as: attotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic zettameter defined such that: attotonne per cubic exameter = zt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicZettameter = new (
                                                                       "zeptotonne per cubic zettameter"
@@ -12700,7 +12700,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic zeptometer, defined as: petatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic zeptometer defined such that: petatonne per cubic attometer = Et/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicZeptometer = new (
                                                                     "exatonne per cubic zeptometer"
@@ -12712,7 +12712,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yoctotonne per cubic petameter, defined as: zeptotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic petameter defined such that: zeptotonne per cubic terameter = yt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicPetameter = new (
                                                                      "yoctotonne per cubic petameter"
@@ -12723,7 +12723,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic rontometer, defined as: megatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic rontometer defined such that: megatonne per cubic yoctometer = Gt/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicRontometer = new (
                                                                      "gigatonne per cubic rontometer"
@@ -12735,7 +12735,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// attotonne per cubic quettameter, defined as: femtotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// attotonne per cubic quettameter defined such that: femtotonne per cubic ronnameter = at/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density AttotonnePerCubicQuettameter = new (
                                                                       "attotonne per cubic quettameter"
@@ -12746,7 +12746,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic megameter, defined as: rontotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic megameter defined such that: rontotonne per cubic kilometer = qt/Mm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicMegameter = new (
                                                                       "quectotonne per cubic megameter"
@@ -12757,7 +12757,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// megatonne per cubic quectometer, defined as: kilotonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// megatonne per cubic quectometer defined such that: kilotonne per cubic rontometer = Mt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicQuectometer = new (
                                                                       "megatonne per cubic quectometer"
@@ -12769,7 +12769,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// dekatonne per cubic kilometer, defined as: tonne per cubic hectometer × (10.0)/((10.0)*(10.0)*(10.0))
+   /// dekatonne per cubic kilometer defined such that: tonne per cubic hectometer = dat/km³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicKilometer = new (
                                                                     "dekatonne per cubic kilometer"
@@ -12780,7 +12780,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnatonne per cubic attometer, defined as: yottatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic attometer defined such that: yottatonne per cubic femtometer = Rt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicAttometer = new (
                                                                      "ronnatonne per cubic attometer"
@@ -12792,7 +12792,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic yoctometer, defined as: teratonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic yoctometer defined such that: teratonne per cubic zeptometer = Pt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicYoctometer = new (
                                                                      "petatonne per cubic yoctometer"
@@ -12804,7 +12804,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic dekameter, defined as: hectotonne per cubic meter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// kilotonne per cubic dekameter defined such that: hectotonne per cubic meter = kt/dam³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicDekameter = new (
                                                                     "kilotonne per cubic dekameter"
@@ -12815,7 +12815,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic hectometer, defined as: dekatonne per cubic dekameter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// hectotonne per cubic hectometer defined such that: dekatonne per cubic dekameter = ht/hm³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicHectometer = new (
                                                                       "hectotonne per cubic hectometer"
@@ -12826,7 +12826,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptotonne per cubic yottameter, defined as: attotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic yottameter defined such that: attotonne per cubic zettameter = zt/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicYottameter = new (
                                                                       "zeptotonne per cubic yottameter"
@@ -12837,7 +12837,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic terameter, defined as: yoctotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic terameter defined such that: yoctotonne per cubic gigameter = rt/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicTerameter = new (
                                                                      "rontotonne per cubic terameter"
@@ -12848,7 +12848,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic zeptometer, defined as: exatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic zeptometer defined such that: exatonne per cubic attometer = Zt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicZeptometer = new (
                                                                       "zettatonne per cubic zeptometer"
@@ -12860,7 +12860,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic exameter, defined as: zeptotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic exameter defined such that: zeptotonne per cubic petameter = yt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicExameter = new (
                                                                     "yoctotonne per cubic exameter"
@@ -12871,7 +12871,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teratonne per cubic rontometer, defined as: gigatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic rontometer defined such that: gigatonne per cubic yoctometer = Tt/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicRontometer = new (
                                                                      "teratonne per cubic rontometer"
@@ -12883,7 +12883,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectotonne per cubic gigameter, defined as: rontotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic gigameter defined such that: rontotonne per cubic megameter = qt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicGigameter = new (
                                                                       "quectotonne per cubic gigameter"
@@ -12894,7 +12894,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic attometer, defined as: ronnatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic attometer defined such that: ronnatonne per cubic femtometer = Qt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicAttometer = new (
                                                                       "quettatonne per cubic attometer"
@@ -12906,7 +12906,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zeptotonne per cubic ronnameter, defined as: attotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic ronnameter defined such that: attotonne per cubic yottameter = zt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicRonnameter = new (
                                                                       "zeptotonne per cubic ronnameter"
@@ -12917,7 +12917,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic yoctometer, defined as: petatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic yoctometer defined such that: petatonne per cubic zeptometer = Et/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicYoctometer = new (
                                                                     "exatonne per cubic yoctometer"
@@ -12929,7 +12929,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigatonne per cubic quectometer, defined as: megatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// gigatonne per cubic quectometer defined such that: megatonne per cubic rontometer = Gt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicQuectometer = new (
                                                                       "gigatonne per cubic quectometer"
@@ -12941,7 +12941,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// dekatonne per cubic megameter, defined as: tonne per cubic kilometer × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic megameter defined such that: tonne per cubic kilometer = dat/Mm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicMegameter = new (
                                                                     "dekatonne per cubic megameter"
@@ -12952,7 +12952,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontotonne per cubic petameter, defined as: yoctotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic petameter defined such that: yoctotonne per cubic terameter = rt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicPetameter = new (
                                                                      "rontotonne per cubic petameter"
@@ -12963,7 +12963,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic zeptometer, defined as: zettatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic zeptometer defined such that: zettatonne per cubic attometer = Yt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicZeptometer = new (
                                                                       "yottatonne per cubic zeptometer"
@@ -12975,7 +12975,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic zettameter, defined as: zeptotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic zettameter defined such that: zeptotonne per cubic exameter = yt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicZettameter = new (
                                                                       "yoctotonne per cubic zettameter"
@@ -12986,7 +12986,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// megatonne per cubic dekameter, defined as: kilotonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// megatonne per cubic dekameter defined such that: kilotonne per cubic meter = Mt/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicDekameter = new (
                                                                     "megatonne per cubic dekameter"
@@ -12997,7 +12997,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic kilometer, defined as: dekatonne per cubic hectometer × (10.0)/((10.0)*(10.0)*(10.0))
+   /// hectotonne per cubic kilometer defined such that: dekatonne per cubic hectometer = ht/km³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicKilometer = new (
                                                                      "hectotonne per cubic kilometer"
@@ -13008,7 +13008,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic hectometer, defined as: hectotonne per cubic dekameter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// kilotonne per cubic hectometer defined such that: hectotonne per cubic dekameter = kt/hm³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicHectometer = new (
                                                                      "kilotonne per cubic hectometer"
@@ -13019,7 +13019,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic rontometer, defined as: teratonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic rontometer defined such that: teratonne per cubic yoctometer = Pt/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicRontometer = new (
                                                                      "petatonne per cubic rontometer"
@@ -13031,7 +13031,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zeptotonne per cubic quettameter, defined as: attotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zeptotonne per cubic quettameter defined such that: attotonne per cubic ronnameter = zt/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZeptotonnePerCubicQuettameter = new (
                                                                        "zeptotonne per cubic quettameter"
@@ -13042,7 +13042,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quectotonne per cubic terameter, defined as: rontotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic terameter defined such that: rontotonne per cubic gigameter = qt/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicTerameter = new (
                                                                       "quectotonne per cubic terameter"
@@ -13053,7 +13053,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// ronnatonne per cubic zeptometer, defined as: yottatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic zeptometer defined such that: yottatonne per cubic attometer = Rt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicZeptometer = new (
                                                                       "ronnatonne per cubic zeptometer"
@@ -13065,7 +13065,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zettatonne per cubic yoctometer, defined as: exatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic yoctometer defined such that: exatonne per cubic zeptometer = Zt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicYoctometer = new (
                                                                       "zettatonne per cubic yoctometer"
@@ -13077,7 +13077,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic yottameter, defined as: zeptotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic yottameter defined such that: zeptotonne per cubic zettameter = yt/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicYottameter = new (
                                                                       "yoctotonne per cubic yottameter"
@@ -13088,7 +13088,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic exameter, defined as: yoctotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic exameter defined such that: yoctotonne per cubic petameter = rt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicExameter = new (
                                                                     "rontotonne per cubic exameter"
@@ -13099,7 +13099,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teratonne per cubic quectometer, defined as: gigatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// teratonne per cubic quectometer defined such that: gigatonne per cubic rontometer = Tt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicQuectometer = new (
                                                                       "teratonne per cubic quectometer"
@@ -13111,7 +13111,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// dekatonne per cubic gigameter, defined as: tonne per cubic megameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic gigameter defined such that: tonne per cubic megameter = dat/Gm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicGigameter = new (
                                                                     "dekatonne per cubic gigameter"
@@ -13122,7 +13122,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigatonne per cubic dekameter, defined as: megatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// gigatonne per cubic dekameter defined such that: megatonne per cubic meter = Gt/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicDekameter = new (
                                                                     "gigatonne per cubic dekameter"
@@ -13133,7 +13133,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic megameter, defined as: dekatonne per cubic kilometer × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic megameter defined such that: dekatonne per cubic kilometer = ht/Mm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicMegameter = new (
                                                                      "hectotonne per cubic megameter"
@@ -13144,7 +13144,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic hectometer, defined as: kilotonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// megatonne per cubic hectometer defined such that: kilotonne per cubic dekameter = Mt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicHectometer = new (
                                                                      "megatonne per cubic hectometer"
@@ -13155,7 +13155,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic kilometer, defined as: hectotonne per cubic hectometer × (10.0)/((10.0)*(10.0)*(10.0))
+   /// kilotonne per cubic kilometer defined such that: hectotonne per cubic hectometer = kt/km³ × (10.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicKilometer = new (
                                                                     "kilotonne per cubic kilometer"
@@ -13166,7 +13166,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exatonne per cubic rontometer, defined as: petatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic rontometer defined such that: petatonne per cubic yoctometer = Et/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicRontometer = new (
                                                                     "exatonne per cubic rontometer"
@@ -13178,7 +13178,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quectotonne per cubic petameter, defined as: rontotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic petameter defined such that: rontotonne per cubic terameter = qt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicPetameter = new (
                                                                       "quectotonne per cubic petameter"
@@ -13189,7 +13189,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic zeptometer, defined as: ronnatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic zeptometer defined such that: ronnatonne per cubic attometer = Qt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicZeptometer = new (
                                                                        "quettatonne per cubic zeptometer"
@@ -13201,7 +13201,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// yoctotonne per cubic ronnameter, defined as: zeptotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic ronnameter defined such that: zeptotonne per cubic yottameter = yt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicRonnameter = new (
                                                                       "yoctotonne per cubic ronnameter"
@@ -13212,7 +13212,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottatonne per cubic yoctometer, defined as: zettatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic yoctometer defined such that: zettatonne per cubic zeptometer = Yt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicYoctometer = new (
                                                                       "yottatonne per cubic yoctometer"
@@ -13224,7 +13224,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic zettameter, defined as: yoctotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic zettameter defined such that: yoctotonne per cubic exameter = rt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicZettameter = new (
                                                                       "rontotonne per cubic zettameter"
@@ -13235,7 +13235,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petatonne per cubic quectometer, defined as: teratonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// petatonne per cubic quectometer defined such that: teratonne per cubic rontometer = Pt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicQuectometer = new (
                                                                       "petatonne per cubic quectometer"
@@ -13247,7 +13247,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// dekatonne per cubic terameter, defined as: tonne per cubic gigameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic terameter defined such that: tonne per cubic gigameter = dat/Tm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicTerameter = new (
                                                                     "dekatonne per cubic terameter"
@@ -13258,7 +13258,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teratonne per cubic dekameter, defined as: gigatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// teratonne per cubic dekameter defined such that: gigatonne per cubic meter = Tt/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicDekameter = new (
                                                                     "teratonne per cubic dekameter"
@@ -13269,7 +13269,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic gigameter, defined as: dekatonne per cubic megameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic gigameter defined such that: dekatonne per cubic megameter = ht/Gm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicGigameter = new (
                                                                      "hectotonne per cubic gigameter"
@@ -13280,7 +13280,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic rontometer, defined as: exatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic rontometer defined such that: exatonne per cubic yoctometer = Zt/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicRontometer = new (
                                                                       "zettatonne per cubic rontometer"
@@ -13292,7 +13292,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yoctotonne per cubic quettameter, defined as: zeptotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yoctotonne per cubic quettameter defined such that: zeptotonne per cubic ronnameter = yt/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YoctotonnePerCubicQuettameter = new (
                                                                        "yoctotonne per cubic quettameter"
@@ -13303,7 +13303,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quectotonne per cubic exameter, defined as: rontotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic exameter defined such that: rontotonne per cubic petameter = qt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicExameter = new (
                                                                      "quectotonne per cubic exameter"
@@ -13314,7 +13314,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic yoctometer, defined as: yottatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic yoctometer defined such that: yottatonne per cubic zeptometer = Rt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicYoctometer = new (
                                                                       "ronnatonne per cubic yoctometer"
@@ -13326,7 +13326,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// gigatonne per cubic hectometer, defined as: megatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// gigatonne per cubic hectometer defined such that: megatonne per cubic dekameter = Gt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicHectometer = new (
                                                                      "gigatonne per cubic hectometer"
@@ -13337,7 +13337,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic megameter, defined as: hectotonne per cubic kilometer × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic megameter defined such that: hectotonne per cubic kilometer = kt/Mm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicMegameter = new (
                                                                     "kilotonne per cubic megameter"
@@ -13348,7 +13348,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// rontotonne per cubic yottameter, defined as: yoctotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic yottameter defined such that: yoctotonne per cubic zettameter = rt/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicYottameter = new (
                                                                       "rontotonne per cubic yottameter"
@@ -13359,7 +13359,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// megatonne per cubic kilometer, defined as: kilotonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// megatonne per cubic kilometer defined such that: kilotonne per cubic hectometer = Mt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicKilometer = new (
                                                                     "megatonne per cubic kilometer"
@@ -13370,7 +13370,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// exatonne per cubic quectometer, defined as: petatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// exatonne per cubic quectometer defined such that: petatonne per cubic rontometer = Et/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicQuectometer = new (
                                                                      "exatonne per cubic quectometer"
@@ -13382,7 +13382,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// dekatonne per cubic petameter, defined as: tonne per cubic terameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic petameter defined such that: tonne per cubic terameter = dat/Pm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicPetameter = new (
                                                                     "dekatonne per cubic petameter"
@@ -13393,7 +13393,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottatonne per cubic rontometer, defined as: zettatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic rontometer defined such that: zettatonne per cubic yoctometer = Yt/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicRontometer = new (
                                                                       "yottatonne per cubic rontometer"
@@ -13405,7 +13405,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quectotonne per cubic zettameter, defined as: rontotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic zettameter defined such that: rontotonne per cubic exameter = qt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicZettameter = new (
                                                                        "quectotonne per cubic zettameter"
@@ -13416,7 +13416,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quettatonne per cubic yoctometer, defined as: ronnatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic yoctometer defined such that: ronnatonne per cubic zeptometer = Qt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicYoctometer = new (
                                                                        "quettatonne per cubic yoctometer"
@@ -13428,7 +13428,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// petatonne per cubic dekameter, defined as: teratonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// petatonne per cubic dekameter defined such that: teratonne per cubic meter = Pt/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicDekameter = new (
                                                                     "petatonne per cubic dekameter"
@@ -13439,7 +13439,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic terameter, defined as: dekatonne per cubic gigameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic terameter defined such that: dekatonne per cubic gigameter = ht/Tm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicTerameter = new (
                                                                      "hectotonne per cubic terameter"
@@ -13450,7 +13450,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// rontotonne per cubic ronnameter, defined as: yoctotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic ronnameter defined such that: yoctotonne per cubic yottameter = rt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicRonnameter = new (
                                                                       "rontotonne per cubic ronnameter"
@@ -13461,7 +13461,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// teratonne per cubic hectometer, defined as: gigatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// teratonne per cubic hectometer defined such that: gigatonne per cubic dekameter = Tt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicHectometer = new (
                                                                      "teratonne per cubic hectometer"
@@ -13472,7 +13472,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic gigameter, defined as: hectotonne per cubic megameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic gigameter defined such that: hectotonne per cubic megameter = kt/Gm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicGigameter = new (
                                                                     "kilotonne per cubic gigameter"
@@ -13483,7 +13483,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigatonne per cubic kilometer, defined as: megatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// gigatonne per cubic kilometer defined such that: megatonne per cubic hectometer = Gt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicKilometer = new (
                                                                     "gigatonne per cubic kilometer"
@@ -13494,7 +13494,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megatonne per cubic megameter, defined as: kilotonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic megameter defined such that: kilotonne per cubic kilometer = Mt/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicMegameter = new (
                                                                     "megatonne per cubic megameter"
@@ -13505,7 +13505,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettatonne per cubic quectometer, defined as: exatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// zettatonne per cubic quectometer defined such that: exatonne per cubic rontometer = Zt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicQuectometer = new (
                                                                        "zettatonne per cubic quectometer"
@@ -13517,7 +13517,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// dekatonne per cubic exameter, defined as: tonne per cubic petameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic exameter defined such that: tonne per cubic petameter = dat/Em³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicExameter = new (
                                                                    "dekatonne per cubic exameter"
@@ -13528,7 +13528,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// ronnatonne per cubic rontometer, defined as: yottatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic rontometer defined such that: yottatonne per cubic yoctometer = Rt/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicRontometer = new (
                                                                       "ronnatonne per cubic rontometer"
@@ -13540,7 +13540,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// rontotonne per cubic quettameter, defined as: yoctotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// rontotonne per cubic quettameter defined such that: yoctotonne per cubic ronnameter = rt/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RontotonnePerCubicQuettameter = new (
                                                                        "rontotonne per cubic quettameter"
@@ -13551,7 +13551,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quectotonne per cubic yottameter, defined as: rontotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic yottameter defined such that: rontotonne per cubic zettameter = qt/Ym³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicYottameter = new (
                                                                        "quectotonne per cubic yottameter"
@@ -13562,7 +13562,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// exatonne per cubic dekameter, defined as: petatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// exatonne per cubic dekameter defined such that: petatonne per cubic meter = Et/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicDekameter = new (
                                                                    "exatonne per cubic dekameter"
@@ -13573,7 +13573,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// hectotonne per cubic petameter, defined as: dekatonne per cubic terameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic petameter defined such that: dekatonne per cubic terameter = ht/Pm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicPetameter = new (
                                                                      "hectotonne per cubic petameter"
@@ -13584,7 +13584,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic hectometer, defined as: teratonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// petatonne per cubic hectometer defined such that: teratonne per cubic dekameter = Pt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicHectometer = new (
                                                                      "petatonne per cubic hectometer"
@@ -13595,7 +13595,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic terameter, defined as: hectotonne per cubic gigameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic terameter defined such that: hectotonne per cubic gigameter = kt/Tm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicTerameter = new (
                                                                     "kilotonne per cubic terameter"
@@ -13606,7 +13606,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottatonne per cubic quectometer, defined as: zettatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// yottatonne per cubic quectometer defined such that: zettatonne per cubic rontometer = Yt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicQuectometer = new (
                                                                        "yottatonne per cubic quectometer"
@@ -13618,7 +13618,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// dekatonne per cubic zettameter, defined as: tonne per cubic exameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic zettameter defined such that: tonne per cubic exameter = dat/Zm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicZettameter = new (
                                                                      "dekatonne per cubic zettameter"
@@ -13629,7 +13629,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic kilometer, defined as: gigatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// teratonne per cubic kilometer defined such that: gigatonne per cubic hectometer = Tt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicKilometer = new (
                                                                     "teratonne per cubic kilometer"
@@ -13640,7 +13640,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megatonne per cubic gigameter, defined as: kilotonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic gigameter defined such that: kilotonne per cubic megameter = Mt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicGigameter = new (
                                                                     "megatonne per cubic gigameter"
@@ -13651,7 +13651,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigatonne per cubic megameter, defined as: megatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic megameter defined such that: megatonne per cubic kilometer = Gt/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicMegameter = new (
                                                                     "gigatonne per cubic megameter"
@@ -13662,7 +13662,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettatonne per cubic rontometer, defined as: ronnatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic rontometer defined such that: ronnatonne per cubic yoctometer = Qt/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicRontometer = new (
                                                                        "quettatonne per cubic rontometer"
@@ -13674,7 +13674,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quectotonne per cubic ronnameter, defined as: rontotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic ronnameter defined such that: rontotonne per cubic yottameter = qt/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicRonnameter = new (
                                                                        "quectotonne per cubic ronnameter"
@@ -13685,7 +13685,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// zettatonne per cubic dekameter, defined as: exatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// zettatonne per cubic dekameter defined such that: exatonne per cubic meter = Zt/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicDekameter = new (
                                                                      "zettatonne per cubic dekameter"
@@ -13696,7 +13696,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// hectotonne per cubic exameter, defined as: dekatonne per cubic petameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic exameter defined such that: dekatonne per cubic petameter = ht/Em³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicExameter = new (
                                                                     "hectotonne per cubic exameter"
@@ -13707,7 +13707,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnatonne per cubic quectometer, defined as: yottatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// ronnatonne per cubic quectometer defined such that: yottatonne per cubic rontometer = Rt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicQuectometer = new (
                                                                        "ronnatonne per cubic quectometer"
@@ -13719,7 +13719,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// exatonne per cubic hectometer, defined as: petatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// exatonne per cubic hectometer defined such that: petatonne per cubic dekameter = Et/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicHectometer = new (
                                                                     "exatonne per cubic hectometer"
@@ -13730,7 +13730,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilotonne per cubic petameter, defined as: hectotonne per cubic terameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic petameter defined such that: hectotonne per cubic terameter = kt/Pm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicPetameter = new (
                                                                     "kilotonne per cubic petameter"
@@ -13741,7 +13741,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekatonne per cubic yottameter, defined as: tonne per cubic zettameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic yottameter defined such that: tonne per cubic zettameter = dat/Ym³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicYottameter = new (
                                                                      "dekatonne per cubic yottameter"
@@ -13752,7 +13752,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quectotonne per cubic quettameter, defined as: rontotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quectotonne per cubic quettameter defined such that: rontotonne per cubic ronnameter = qt/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuectotonnePerCubicQuettameter = new (
                                                                         "quectotonne per cubic quettameter"
@@ -13763,7 +13763,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                        );
 
    /// <summary>
-   /// petatonne per cubic kilometer, defined as: teratonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// petatonne per cubic kilometer defined such that: teratonne per cubic hectometer = Pt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicKilometer = new (
                                                                     "petatonne per cubic kilometer"
@@ -13774,7 +13774,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// megatonne per cubic terameter, defined as: kilotonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic terameter defined such that: kilotonne per cubic gigameter = Mt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicTerameter = new (
                                                                     "megatonne per cubic terameter"
@@ -13785,7 +13785,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teratonne per cubic megameter, defined as: gigatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic megameter defined such that: gigatonne per cubic kilometer = Tt/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicMegameter = new (
                                                                     "teratonne per cubic megameter"
@@ -13796,7 +13796,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigatonne per cubic gigameter, defined as: megatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic gigameter defined such that: megatonne per cubic megameter = Gt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicGigameter = new (
                                                                     "gigatonne per cubic gigameter"
@@ -13807,7 +13807,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottatonne per cubic dekameter, defined as: zettatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// yottatonne per cubic dekameter defined such that: zettatonne per cubic meter = Yt/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicDekameter = new (
                                                                      "yottatonne per cubic dekameter"
@@ -13818,7 +13818,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// hectotonne per cubic zettameter, defined as: dekatonne per cubic exameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic zettameter defined such that: dekatonne per cubic exameter = ht/Zm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicZettameter = new (
                                                                       "hectotonne per cubic zettameter"
@@ -13829,7 +13829,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic quectometer, defined as: ronnatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// quettatonne per cubic quectometer defined such that: ronnatonne per cubic rontometer = Qt/qm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicQuectometer = new (
                                                                         "quettatonne per cubic quectometer"
@@ -13841,7 +13841,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                        );
 
    /// <summary>
-   /// dekatonne per cubic ronnameter, defined as: tonne per cubic yottameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic ronnameter defined such that: tonne per cubic yottameter = dat/Rm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicRonnameter = new (
                                                                      "dekatonne per cubic ronnameter"
@@ -13852,7 +13852,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic hectometer, defined as: exatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// zettatonne per cubic hectometer defined such that: exatonne per cubic dekameter = Zt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicHectometer = new (
                                                                       "zettatonne per cubic hectometer"
@@ -13863,7 +13863,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// kilotonne per cubic exameter, defined as: hectotonne per cubic petameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic exameter defined such that: hectotonne per cubic petameter = kt/Em³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicExameter = new (
                                                                    "kilotonne per cubic exameter"
@@ -13874,7 +13874,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// exatonne per cubic kilometer, defined as: petatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// exatonne per cubic kilometer defined such that: petatonne per cubic hectometer = Et/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicKilometer = new (
                                                                    "exatonne per cubic kilometer"
@@ -13885,7 +13885,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// megatonne per cubic petameter, defined as: kilotonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic petameter defined such that: kilotonne per cubic terameter = Mt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicPetameter = new (
                                                                     "megatonne per cubic petameter"
@@ -13896,7 +13896,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnatonne per cubic dekameter, defined as: yottatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// ronnatonne per cubic dekameter defined such that: yottatonne per cubic meter = Rt/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicDekameter = new (
                                                                      "ronnatonne per cubic dekameter"
@@ -13907,7 +13907,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic megameter, defined as: teratonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic megameter defined such that: teratonne per cubic kilometer = Pt/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicMegameter = new (
                                                                     "petatonne per cubic megameter"
@@ -13918,7 +13918,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// gigatonne per cubic terameter, defined as: megatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic terameter defined such that: megatonne per cubic gigameter = Gt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicTerameter = new (
                                                                     "gigatonne per cubic terameter"
@@ -13929,7 +13929,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// hectotonne per cubic yottameter, defined as: dekatonne per cubic zettameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic yottameter defined such that: dekatonne per cubic zettameter = ht/Ym³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicYottameter = new (
                                                                       "hectotonne per cubic yottameter"
@@ -13940,7 +13940,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// teratonne per cubic gigameter, defined as: gigatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic gigameter defined such that: gigatonne per cubic megameter = Tt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicGigameter = new (
                                                                     "teratonne per cubic gigameter"
@@ -13951,7 +13951,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// dekatonne per cubic quettameter, defined as: tonne per cubic ronnameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// dekatonne per cubic quettameter defined such that: tonne per cubic ronnameter = dat/Qm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density DekatonnePerCubicQuettameter = new (
                                                                       "dekatonne per cubic quettameter"
@@ -13962,7 +13962,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottatonne per cubic hectometer, defined as: zettatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// yottatonne per cubic hectometer defined such that: zettatonne per cubic dekameter = Yt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicHectometer = new (
                                                                       "yottatonne per cubic hectometer"
@@ -13973,7 +13973,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// kilotonne per cubic zettameter, defined as: hectotonne per cubic exameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic zettameter defined such that: hectotonne per cubic exameter = kt/Zm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicZettameter = new (
                                                                      "kilotonne per cubic zettameter"
@@ -13984,7 +13984,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic kilometer, defined as: exatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// zettatonne per cubic kilometer defined such that: exatonne per cubic hectometer = Zt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicKilometer = new (
                                                                      "zettatonne per cubic kilometer"
@@ -13995,7 +13995,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic exameter, defined as: kilotonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic exameter defined such that: kilotonne per cubic petameter = Mt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicExameter = new (
                                                                    "megatonne per cubic exameter"
@@ -14006,7 +14006,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// quettatonne per cubic dekameter, defined as: ronnatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// quettatonne per cubic dekameter defined such that: ronnatonne per cubic meter = Qt/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicDekameter = new (
                                                                       "quettatonne per cubic dekameter"
@@ -14017,7 +14017,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// hectotonne per cubic ronnameter, defined as: dekatonne per cubic yottameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic ronnameter defined such that: dekatonne per cubic yottameter = ht/Rm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicRonnameter = new (
                                                                       "hectotonne per cubic ronnameter"
@@ -14028,7 +14028,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic megameter, defined as: petatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic megameter defined such that: petatonne per cubic kilometer = Et/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicMegameter = new (
                                                                    "exatonne per cubic megameter"
@@ -14039,7 +14039,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// gigatonne per cubic petameter, defined as: megatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic petameter defined such that: megatonne per cubic terameter = Gt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicPetameter = new (
                                                                     "gigatonne per cubic petameter"
@@ -14050,7 +14050,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// petatonne per cubic gigameter, defined as: teratonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic gigameter defined such that: teratonne per cubic megameter = Pt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicGigameter = new (
                                                                     "petatonne per cubic gigameter"
@@ -14061,7 +14061,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teratonne per cubic terameter, defined as: gigatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic terameter defined such that: gigatonne per cubic gigameter = Tt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicTerameter = new (
                                                                     "teratonne per cubic terameter"
@@ -14072,7 +14072,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnatonne per cubic hectometer, defined as: yottatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// ronnatonne per cubic hectometer defined such that: yottatonne per cubic dekameter = Rt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicHectometer = new (
                                                                       "ronnatonne per cubic hectometer"
@@ -14083,7 +14083,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// kilotonne per cubic yottameter, defined as: hectotonne per cubic zettameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic yottameter defined such that: hectotonne per cubic zettameter = kt/Ym³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicYottameter = new (
                                                                      "kilotonne per cubic yottameter"
@@ -14094,7 +14094,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// hectotonne per cubic quettameter, defined as: dekatonne per cubic ronnameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// hectotonne per cubic quettameter defined such that: dekatonne per cubic ronnameter = ht/Qm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density HectotonnePerCubicQuettameter = new (
                                                                        "hectotonne per cubic quettameter"
@@ -14105,7 +14105,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// yottatonne per cubic kilometer, defined as: zettatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// yottatonne per cubic kilometer defined such that: zettatonne per cubic hectometer = Yt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicKilometer = new (
                                                                      "yottatonne per cubic kilometer"
@@ -14116,7 +14116,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic zettameter, defined as: kilotonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic zettameter defined such that: kilotonne per cubic exameter = Mt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicZettameter = new (
                                                                      "megatonne per cubic zettameter"
@@ -14127,7 +14127,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic megameter, defined as: exatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic megameter defined such that: exatonne per cubic kilometer = Zt/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicMegameter = new (
                                                                      "zettatonne per cubic megameter"
@@ -14138,7 +14138,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic exameter, defined as: megatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic exameter defined such that: megatonne per cubic petameter = Gt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicExameter = new (
                                                                    "gigatonne per cubic exameter"
@@ -14149,7 +14149,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// exatonne per cubic gigameter, defined as: petatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic gigameter defined such that: petatonne per cubic megameter = Et/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicGigameter = new (
                                                                    "exatonne per cubic gigameter"
@@ -14160,7 +14160,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// teratonne per cubic petameter, defined as: gigatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic petameter defined such that: gigatonne per cubic terameter = Tt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicPetameter = new (
                                                                     "teratonne per cubic petameter"
@@ -14171,7 +14171,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettatonne per cubic hectometer, defined as: ronnatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// quettatonne per cubic hectometer defined such that: ronnatonne per cubic dekameter = Qt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicHectometer = new (
                                                                        "quettatonne per cubic hectometer"
@@ -14182,7 +14182,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// petatonne per cubic terameter, defined as: teratonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic terameter defined such that: teratonne per cubic gigameter = Pt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicTerameter = new (
                                                                     "petatonne per cubic terameter"
@@ -14193,7 +14193,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// kilotonne per cubic ronnameter, defined as: hectotonne per cubic yottameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic ronnameter defined such that: hectotonne per cubic yottameter = kt/Rm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicRonnameter = new (
                                                                      "kilotonne per cubic ronnameter"
@@ -14204,7 +14204,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic kilometer, defined as: yottatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// ronnatonne per cubic kilometer defined such that: yottatonne per cubic hectometer = Rt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicKilometer = new (
                                                                      "ronnatonne per cubic kilometer"
@@ -14215,7 +14215,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// megatonne per cubic yottameter, defined as: kilotonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic yottameter defined such that: kilotonne per cubic zettameter = Mt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicYottameter = new (
                                                                      "megatonne per cubic yottameter"
@@ -14226,7 +14226,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic megameter, defined as: zettatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic megameter defined such that: zettatonne per cubic kilometer = Yt/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicMegameter = new (
                                                                      "yottatonne per cubic megameter"
@@ -14237,7 +14237,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic zettameter, defined as: megatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic zettameter defined such that: megatonne per cubic exameter = Gt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicZettameter = new (
                                                                      "gigatonne per cubic zettameter"
@@ -14248,7 +14248,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// kilotonne per cubic quettameter, defined as: hectotonne per cubic ronnameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// kilotonne per cubic quettameter defined such that: hectotonne per cubic ronnameter = kt/Qm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density KilotonnePerCubicQuettameter = new (
                                                                       "kilotonne per cubic quettameter"
@@ -14259,7 +14259,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zettatonne per cubic gigameter, defined as: exatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic gigameter defined such that: exatonne per cubic megameter = Zt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicGigameter = new (
                                                                      "zettatonne per cubic gigameter"
@@ -14270,7 +14270,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic exameter, defined as: gigatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic exameter defined such that: gigatonne per cubic petameter = Tt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicExameter = new (
                                                                    "teratonne per cubic exameter"
@@ -14281,7 +14281,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// exatonne per cubic terameter, defined as: petatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic terameter defined such that: petatonne per cubic gigameter = Et/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicTerameter = new (
                                                                    "exatonne per cubic terameter"
@@ -14292,7 +14292,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// petatonne per cubic petameter, defined as: teratonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic petameter defined such that: teratonne per cubic terameter = Pt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicPetameter = new (
                                                                     "petatonne per cubic petameter"
@@ -14303,7 +14303,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// quettatonne per cubic kilometer, defined as: ronnatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// quettatonne per cubic kilometer defined such that: ronnatonne per cubic hectometer = Qt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicKilometer = new (
                                                                       "quettatonne per cubic kilometer"
@@ -14314,7 +14314,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// megatonne per cubic ronnameter, defined as: kilotonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic ronnameter defined such that: kilotonne per cubic yottameter = Mt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicRonnameter = new (
                                                                      "megatonne per cubic ronnameter"
@@ -14325,7 +14325,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic megameter, defined as: yottatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic megameter defined such that: yottatonne per cubic kilometer = Rt/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicMegameter = new (
                                                                      "ronnatonne per cubic megameter"
@@ -14336,7 +14336,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// gigatonne per cubic yottameter, defined as: megatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic yottameter defined such that: megatonne per cubic zettameter = Gt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicYottameter = new (
                                                                      "gigatonne per cubic yottameter"
@@ -14347,7 +14347,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic gigameter, defined as: zettatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic gigameter defined such that: zettatonne per cubic megameter = Yt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicGigameter = new (
                                                                      "yottatonne per cubic gigameter"
@@ -14358,7 +14358,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic zettameter, defined as: gigatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic zettameter defined such that: gigatonne per cubic exameter = Tt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicZettameter = new (
                                                                      "teratonne per cubic zettameter"
@@ -14369,7 +14369,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic terameter, defined as: exatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic terameter defined such that: exatonne per cubic gigameter = Zt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicTerameter = new (
                                                                      "zettatonne per cubic terameter"
@@ -14380,7 +14380,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic exameter, defined as: teratonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic exameter defined such that: teratonne per cubic petameter = Pt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicExameter = new (
                                                                    "petatonne per cubic exameter"
@@ -14391,7 +14391,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// exatonne per cubic petameter, defined as: petatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic petameter defined such that: petatonne per cubic terameter = Et/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicPetameter = new (
                                                                    "exatonne per cubic petameter"
@@ -14402,7 +14402,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   );
 
    /// <summary>
-   /// megatonne per cubic quettameter, defined as: kilotonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// megatonne per cubic quettameter defined such that: kilotonne per cubic ronnameter = Mt/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density MegatonnePerCubicQuettameter = new (
                                                                       "megatonne per cubic quettameter"
@@ -14413,7 +14413,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic megameter, defined as: ronnatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic megameter defined such that: ronnatonne per cubic kilometer = Qt/Mm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicMegameter = new (
                                                                       "quettatonne per cubic megameter"
@@ -14424,7 +14424,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// gigatonne per cubic ronnameter, defined as: megatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic ronnameter defined such that: megatonne per cubic yottameter = Gt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicRonnameter = new (
                                                                      "gigatonne per cubic ronnameter"
@@ -14435,7 +14435,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic gigameter, defined as: yottatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic gigameter defined such that: yottatonne per cubic megameter = Rt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicGigameter = new (
                                                                      "ronnatonne per cubic gigameter"
@@ -14446,7 +14446,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// teratonne per cubic yottameter, defined as: gigatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic yottameter defined such that: gigatonne per cubic zettameter = Tt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicYottameter = new (
                                                                      "teratonne per cubic yottameter"
@@ -14457,7 +14457,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic terameter, defined as: zettatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic terameter defined such that: zettatonne per cubic gigameter = Yt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicTerameter = new (
                                                                      "yottatonne per cubic terameter"
@@ -14468,7 +14468,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic zettameter, defined as: teratonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic zettameter defined such that: teratonne per cubic exameter = Pt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicZettameter = new (
                                                                      "petatonne per cubic zettameter"
@@ -14479,7 +14479,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic petameter, defined as: exatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic petameter defined such that: exatonne per cubic terameter = Zt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicPetameter = new (
                                                                      "zettatonne per cubic petameter"
@@ -14490,7 +14490,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exatonne per cubic exameter, defined as: petatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic exameter defined such that: petatonne per cubic petameter = Et/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicExameter = new (
                                                                   "exatonne per cubic exameter"
@@ -14501,7 +14501,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  );
 
    /// <summary>
-   /// gigatonne per cubic quettameter, defined as: megatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// gigatonne per cubic quettameter defined such that: megatonne per cubic ronnameter = Gt/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density GigatonnePerCubicQuettameter = new (
                                                                       "gigatonne per cubic quettameter"
@@ -14512,7 +14512,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic gigameter, defined as: ronnatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic gigameter defined such that: ronnatonne per cubic megameter = Qt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicGigameter = new (
                                                                       "quettatonne per cubic gigameter"
@@ -14523,7 +14523,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// teratonne per cubic ronnameter, defined as: gigatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic ronnameter defined such that: gigatonne per cubic yottameter = Tt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicRonnameter = new (
                                                                      "teratonne per cubic ronnameter"
@@ -14534,7 +14534,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic terameter, defined as: yottatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic terameter defined such that: yottatonne per cubic gigameter = Rt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicTerameter = new (
                                                                      "ronnatonne per cubic terameter"
@@ -14545,7 +14545,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// petatonne per cubic yottameter, defined as: teratonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic yottameter defined such that: teratonne per cubic zettameter = Pt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicYottameter = new (
                                                                      "petatonne per cubic yottameter"
@@ -14556,7 +14556,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// yottatonne per cubic petameter, defined as: zettatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic petameter defined such that: zettatonne per cubic terameter = Yt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicPetameter = new (
                                                                      "yottatonne per cubic petameter"
@@ -14567,7 +14567,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exatonne per cubic zettameter, defined as: petatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic zettameter defined such that: petatonne per cubic exameter = Et/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicZettameter = new (
                                                                     "exatonne per cubic zettameter"
@@ -14578,7 +14578,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettatonne per cubic exameter, defined as: exatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic exameter defined such that: exatonne per cubic petameter = Zt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicExameter = new (
                                                                     "zettatonne per cubic exameter"
@@ -14589,7 +14589,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// teratonne per cubic quettameter, defined as: gigatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// teratonne per cubic quettameter defined such that: gigatonne per cubic ronnameter = Tt/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density TeratonnePerCubicQuettameter = new (
                                                                       "teratonne per cubic quettameter"
@@ -14600,7 +14600,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic terameter, defined as: ronnatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic terameter defined such that: ronnatonne per cubic gigameter = Qt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicTerameter = new (
                                                                       "quettatonne per cubic terameter"
@@ -14611,7 +14611,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petatonne per cubic ronnameter, defined as: teratonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic ronnameter defined such that: teratonne per cubic yottameter = Pt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicRonnameter = new (
                                                                      "petatonne per cubic ronnameter"
@@ -14622,7 +14622,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// ronnatonne per cubic petameter, defined as: yottatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic petameter defined such that: yottatonne per cubic terameter = Rt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicPetameter = new (
                                                                      "ronnatonne per cubic petameter"
@@ -14633,7 +14633,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// exatonne per cubic yottameter, defined as: petatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic yottameter defined such that: petatonne per cubic zettameter = Et/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicYottameter = new (
                                                                     "exatonne per cubic yottameter"
@@ -14644,7 +14644,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// yottatonne per cubic exameter, defined as: zettatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic exameter defined such that: zettatonne per cubic petameter = Yt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicExameter = new (
                                                                     "yottatonne per cubic exameter"
@@ -14655,7 +14655,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettatonne per cubic zettameter, defined as: exatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic zettameter defined such that: exatonne per cubic exameter = Zt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicZettameter = new (
                                                                       "zettatonne per cubic zettameter"
@@ -14666,7 +14666,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// petatonne per cubic quettameter, defined as: teratonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// petatonne per cubic quettameter defined such that: teratonne per cubic ronnameter = Pt/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density PetatonnePerCubicQuettameter = new (
                                                                       "petatonne per cubic quettameter"
@@ -14677,7 +14677,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// quettatonne per cubic petameter, defined as: ronnatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic petameter defined such that: ronnatonne per cubic terameter = Qt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicPetameter = new (
                                                                       "quettatonne per cubic petameter"
@@ -14688,7 +14688,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic ronnameter, defined as: petatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic ronnameter defined such that: petatonne per cubic yottameter = Et/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicRonnameter = new (
                                                                     "exatonne per cubic ronnameter"
@@ -14699,7 +14699,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// ronnatonne per cubic exameter, defined as: yottatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic exameter defined such that: yottatonne per cubic petameter = Rt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicExameter = new (
                                                                     "ronnatonne per cubic exameter"
@@ -14710,7 +14710,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
-   /// zettatonne per cubic yottameter, defined as: exatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic yottameter defined such that: exatonne per cubic zettameter = Zt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicYottameter = new (
                                                                       "zettatonne per cubic yottameter"
@@ -14721,7 +14721,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottatonne per cubic zettameter, defined as: zettatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic zettameter defined such that: zettatonne per cubic exameter = Yt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicZettameter = new (
                                                                       "yottatonne per cubic zettameter"
@@ -14732,7 +14732,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// exatonne per cubic quettameter, defined as: petatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// exatonne per cubic quettameter defined such that: petatonne per cubic ronnameter = Et/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ExatonnePerCubicQuettameter = new (
                                                                      "exatonne per cubic quettameter"
@@ -14743,7 +14743,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// quettatonne per cubic exameter, defined as: ronnatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic exameter defined such that: ronnatonne per cubic petameter = Qt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicExameter = new (
                                                                      "quettatonne per cubic exameter"
@@ -14754,7 +14754,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
-   /// zettatonne per cubic ronnameter, defined as: exatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic ronnameter defined such that: exatonne per cubic yottameter = Zt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicRonnameter = new (
                                                                       "zettatonne per cubic ronnameter"
@@ -14765,7 +14765,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// ronnatonne per cubic zettameter, defined as: yottatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic zettameter defined such that: yottatonne per cubic exameter = Rt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicZettameter = new (
                                                                       "ronnatonne per cubic zettameter"
@@ -14776,7 +14776,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottatonne per cubic yottameter, defined as: zettatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic yottameter defined such that: zettatonne per cubic zettameter = Yt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicYottameter = new (
                                                                       "yottatonne per cubic yottameter"
@@ -14787,7 +14787,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// zettatonne per cubic quettameter, defined as: exatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// zettatonne per cubic quettameter defined such that: exatonne per cubic ronnameter = Zt/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density ZettatonnePerCubicQuettameter = new (
                                                                        "zettatonne per cubic quettameter"
@@ -14798,7 +14798,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quettatonne per cubic zettameter, defined as: ronnatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic zettameter defined such that: ronnatonne per cubic exameter = Qt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicZettameter = new (
                                                                        "quettatonne per cubic zettameter"
@@ -14809,7 +14809,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// yottatonne per cubic ronnameter, defined as: zettatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic ronnameter defined such that: zettatonne per cubic yottameter = Yt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicRonnameter = new (
                                                                       "yottatonne per cubic ronnameter"
@@ -14820,7 +14820,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// ronnatonne per cubic yottameter, defined as: yottatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic yottameter defined such that: yottatonne per cubic zettameter = Rt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicYottameter = new (
                                                                       "ronnatonne per cubic yottameter"
@@ -14831,7 +14831,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// yottatonne per cubic quettameter, defined as: zettatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// yottatonne per cubic quettameter defined such that: zettatonne per cubic ronnameter = Yt/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density YottatonnePerCubicQuettameter = new (
                                                                        "yottatonne per cubic quettameter"
@@ -14842,7 +14842,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quettatonne per cubic yottameter, defined as: ronnatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic yottameter defined such that: ronnatonne per cubic zettameter = Qt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicYottameter = new (
                                                                        "quettatonne per cubic yottameter"
@@ -14853,7 +14853,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// ronnatonne per cubic ronnameter, defined as: yottatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic ronnameter defined such that: yottatonne per cubic yottameter = Rt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicRonnameter = new (
                                                                       "ronnatonne per cubic ronnameter"
@@ -14864,7 +14864,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      );
 
    /// <summary>
-   /// ronnatonne per cubic quettameter, defined as: yottatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// ronnatonne per cubic quettameter defined such that: yottatonne per cubic ronnameter = Rt/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density RonnatonnePerCubicQuettameter = new (
                                                                        "ronnatonne per cubic quettameter"
@@ -14875,7 +14875,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quettatonne per cubic ronnameter, defined as: ronnatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic ronnameter defined such that: ronnatonne per cubic yottameter = Qt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicRonnameter = new (
                                                                        "quettatonne per cubic ronnameter"
@@ -14886,7 +14886,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       );
 
    /// <summary>
-   /// quettatonne per cubic quettameter, defined as: ronnatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// quettatonne per cubic quettameter defined such that: ronnatonne per cubic ronnameter = Qt/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
    /// </summary>
    public static readonly Density QuettatonnePerCubicQuettameter = new (
                                                                         "quettatonne per cubic quettameter"

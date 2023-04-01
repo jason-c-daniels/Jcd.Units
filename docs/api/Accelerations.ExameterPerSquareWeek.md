@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareWeek Field
 
-exameter per square week, defined as: petameter per square day × (1000.0)/((7.0)*(7.0))
+exameter per square week defined such that: petameter per square day = Em/wk² × (1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareWeek;

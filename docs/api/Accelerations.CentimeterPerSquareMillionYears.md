@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareMillionYears Field
 
-centimeter per square million years, defined as: decimeter per square millennium × (1.0/10.0)/((1000.0)*(1000.0))
+centimeter per square million years defined such that: decimeter per square millennium = cm/Myr² × (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareMillionYears;

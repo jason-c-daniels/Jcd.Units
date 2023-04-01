@@ -3,7 +3,7 @@
 
 ## Masses.Zeptogram Field
 
-zeptogram, defined as: attogram × 1.0/1000.0
+zeptogram defined such that: attogram = zg × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Zeptogram;

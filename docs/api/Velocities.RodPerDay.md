@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerDay Field
 
-rod per day, defined as: SI meter per hour × (5.0292)/(24.0)
+rod per day defined such that: SI meter per hour = rd/dy × (5.0292)/(24.0).
 
 ```csharp
 public static readonly Velocity RodPerDay;

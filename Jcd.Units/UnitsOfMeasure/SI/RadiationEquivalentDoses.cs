@@ -23,7 +23,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
    public static readonly RadiationEquivalentDose Sievert = new ("sievert", "sv", system: "SI");
 
    /// <summary>
-   /// decisievert, defined as: sievert × 1.0/10.0
+   /// decisievert defined such that: sievert = dsv × 1.0/10.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Decisievert = new (
                                                                      "decisievert"
@@ -34,7 +34,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// centisievert, defined as: decisievert × 1.0/10.0
+   /// centisievert defined such that: decisievert = csv × 1.0/10.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Centisievert = new (
                                                                       "centisievert"
@@ -45,7 +45,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// millisievert, defined as: centisievert × 1.0/10.0
+   /// millisievert defined such that: centisievert = msv × 1.0/10.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Millisievert = new (
                                                                       "millisievert"
@@ -56,7 +56,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// microsievert, defined as: millisievert × 1.0/1000.0
+   /// microsievert defined such that: millisievert = μsv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Microsievert = new (
                                                                       "microsievert"
@@ -67,7 +67,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// nanosievert, defined as: microsievert × 1.0/1000.0
+   /// nanosievert defined such that: microsievert = nsv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Nanosievert = new (
                                                                      "nanosievert"
@@ -78,7 +78,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// picosievert, defined as: nanosievert × 1.0/1000.0
+   /// picosievert defined such that: nanosievert = psv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Picosievert = new (
                                                                      "picosievert"
@@ -89,7 +89,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// femtosievert, defined as: picosievert × 1.0/1000.0
+   /// femtosievert defined such that: picosievert = fsv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Femtosievert = new (
                                                                       "femtosievert"
@@ -100,7 +100,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// attosievert, defined as: femtosievert × 1.0/1000.0
+   /// attosievert defined such that: femtosievert = asv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Attosievert = new (
                                                                      "attosievert"
@@ -111,7 +111,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// zeptosievert, defined as: attosievert × 1.0/1000.0
+   /// zeptosievert defined such that: attosievert = zsv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Zeptosievert = new (
                                                                       "zeptosievert"
@@ -122,7 +122,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// yoctosievert, defined as: zeptosievert × 1.0/1000.0
+   /// yoctosievert defined such that: zeptosievert = ysv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Yoctosievert = new (
                                                                       "yoctosievert"
@@ -133,7 +133,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// rontosievert, defined as: yoctosievert × 1.0/1000.0
+   /// rontosievert defined such that: yoctosievert = rsv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Rontosievert = new (
                                                                       "rontosievert"
@@ -144,19 +144,19 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// quectosievert, defined as: rontosievert × 1.0/1000.0
+   /// quectosievert defined such that: rontosievert = qsv × 1.0/1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Quectosievert =
             new ("quectosievert", "qsv", Rontosievert, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// dekasievert, defined as: sievert × 10.0
+   /// dekasievert defined such that: sievert = dasv × 10.0.
    /// </summary>
    public static readonly RadiationEquivalentDose
             Dekasievert = new ("dekasievert", "dasv", Sievert, 10.0, system: "SI");
 
    /// <summary>
-   /// hectosievert, defined as: dekasievert × 10.0
+   /// hectosievert defined such that: dekasievert = hsv × 10.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Hectosievert = new (
                                                                       "hectosievert"
@@ -167,7 +167,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// kilosievert, defined as: hectosievert × 10.0
+   /// kilosievert defined such that: hectosievert = ksv × 10.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Kilosievert = new (
                                                                      "kilosievert"
@@ -178,7 +178,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// megasievert, defined as: kilosievert × 1000.0
+   /// megasievert defined such that: kilosievert = Msv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Megasievert = new (
                                                                      "megasievert"
@@ -189,7 +189,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// gigasievert, defined as: megasievert × 1000.0
+   /// gigasievert defined such that: megasievert = Gsv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Gigasievert = new (
                                                                      "gigasievert"
@@ -200,7 +200,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// terasievert, defined as: gigasievert × 1000.0
+   /// terasievert defined such that: gigasievert = Tsv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Terasievert = new (
                                                                      "terasievert"
@@ -211,7 +211,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// petasievert, defined as: terasievert × 1000.0
+   /// petasievert defined such that: terasievert = Psv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Petasievert = new (
                                                                      "petasievert"
@@ -222,7 +222,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                     );
 
    /// <summary>
-   /// exasievert, defined as: petasievert × 1000.0
+   /// exasievert defined such that: petasievert = Esv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Exasievert = new (
                                                                     "exasievert"
@@ -233,7 +233,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                    );
 
    /// <summary>
-   /// zettasievert, defined as: exasievert × 1000.0
+   /// zettasievert defined such that: exasievert = Zsv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Zettasievert = new (
                                                                       "zettasievert"
@@ -244,7 +244,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// yottasievert, defined as: zettasievert × 1000.0
+   /// yottasievert defined such that: zettasievert = Ysv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Yottasievert = new (
                                                                       "yottasievert"
@@ -255,7 +255,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// ronnasievert, defined as: yottasievert × 1000.0
+   /// ronnasievert defined such that: yottasievert = Rsv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Ronnasievert = new (
                                                                       "ronnasievert"
@@ -266,7 +266,7 @@ public class RadiationEquivalentDoses : UnitOfMeasureEnumeration<RadiationEquiva
                                                                      );
 
    /// <summary>
-   /// quettasievert, defined as: ronnasievert × 1000.0
+   /// quettasievert defined such that: ronnasievert = Qsv × 1000.0.
    /// </summary>
    public static readonly RadiationEquivalentDose Quettasievert =
             new ("quettasievert", "Qsv", Ronnasievert, 1000.0, system: "SI");

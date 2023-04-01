@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Quettatesla Field
 
-quettatesla, defined as: ronnatesla × 1000.0
+quettatesla defined such that: ronnatesla = QT × 1000.0.
 
 ```csharp
 public static readonly MagneticFluxDensity Quettatesla;

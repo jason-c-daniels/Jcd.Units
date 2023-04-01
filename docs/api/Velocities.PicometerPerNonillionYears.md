@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerNonillionYears Field
 
-picometer per nonillion years, defined as: nanometer per octillion years × (1.0/1000.0)/(1000.0)
+picometer per nonillion years defined such that: nanometer per octillion years = pm/Qyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PicometerPerNonillionYears;

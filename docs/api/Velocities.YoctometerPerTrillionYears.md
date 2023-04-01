@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerTrillionYears Field
 
-yoctometer per trillion years, defined as: zeptometer per billion years × (1.0/1000.0)/(1000.0)
+yoctometer per trillion years defined such that: zeptometer per billion years = ym/Tyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity YoctometerPerTrillionYears;

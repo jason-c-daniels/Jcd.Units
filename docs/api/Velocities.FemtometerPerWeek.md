@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerWeek Field
 
-femtometer per week, defined as: picometer per day × (1.0/1000.0)/(7.0)
+femtometer per week defined such that: picometer per day = fm/wk × (1.0/1000.0)/(7.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerWeek;

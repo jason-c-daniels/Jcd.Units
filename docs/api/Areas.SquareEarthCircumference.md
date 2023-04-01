@@ -3,7 +3,7 @@
 
 ## Areas.SquareEarthCircumference Field
 
-square earth circumference, defined as: square earth diameter × (Math.PI)*(Math.PI)
+square earth circumference defined such that: square earth diameter = C(⊕)² × (Math.PI)*(Math.PI).
 
 ```csharp
 public static readonly Area SquareEarthCircumference;

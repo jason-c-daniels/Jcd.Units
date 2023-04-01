@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareQuectosecond Field
 
-dekameter per square quectosecond, defined as: meter per square rontosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
+dekameter per square quectosecond defined such that: meter per square rontosecond = dam/qs² × (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareQuectosecond;

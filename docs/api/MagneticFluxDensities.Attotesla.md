@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Attotesla Field
 
-attotesla, defined as: femtotesla × 1.0/1000.0
+attotesla defined such that: femtotesla = aT × 1.0/1000.0.
 
 ```csharp
 public static readonly MagneticFluxDensity Attotesla;

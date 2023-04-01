@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquarePicosecond Field
 
-hand per square picosecond, defined as: inch per square nanosecond × (4.0)/((1.0/1000.0)*(1.0/1000.0))
+hand per square picosecond defined such that: inch per square nanosecond = hh/ps² × (4.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration HandPerSquarePicosecond;

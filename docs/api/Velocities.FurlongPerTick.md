@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerTick Field
 
-furlong per tick, defined as: chain per nanosecond × (10.0)/(100.0)
+furlong per tick defined such that: chain per nanosecond = fur/tick × (10.0)/(100.0).
 
 ```csharp
 public static readonly Velocity FurlongPerTick;

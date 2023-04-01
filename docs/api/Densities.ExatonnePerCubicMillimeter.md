@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicMillimeter Field
 
-exatonne per cubic millimeter, defined as: petatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+exatonne per cubic millimeter defined such that: petatonne per cubic centimeter = Et/mm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density ExatonnePerCubicMillimeter;

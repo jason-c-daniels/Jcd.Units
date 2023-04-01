@@ -3,7 +3,7 @@
 
 ## Lengths.Decimeter Field
 
-decimeter, defined as: meter × 1.0/10.0
+decimeter defined such that: meter = dm × 1.0/10.0.
 
 ```csharp
 public static readonly Length Decimeter;

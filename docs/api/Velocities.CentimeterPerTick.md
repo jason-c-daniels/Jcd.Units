@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerTick Field
 
-centimeter per tick, defined as: decimeter per nanosecond × (1.0/10.0)/(100.0)
+centimeter per tick defined such that: decimeter per nanosecond = cm/tick × (1.0/10.0)/(100.0).
 
 ```csharp
 public static readonly Velocity CentimeterPerTick;

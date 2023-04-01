@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Centiweber Field
 
-centiweber, defined as: deciweber × 1.0/10.0
+centiweber defined such that: deciweber = cWb × 1.0/10.0.
 
 ```csharp
 public static readonly MagneticFlux Centiweber;

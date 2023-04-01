@@ -3,7 +3,7 @@
 
 ## Densities.CentigramPerCubicMicrometer Field
 
-centigram per cubic micrometer, defined as: decigram per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+centigram per cubic micrometer defined such that: decigram per cubic millimeter = cg/μm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density CentigramPerCubicMicrometer;

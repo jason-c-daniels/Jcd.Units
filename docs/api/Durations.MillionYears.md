@@ -3,7 +3,7 @@
 
 ## Durations.MillionYears Field
 
-million years, defined as: millennium × 1000.0
+million years defined such that: millennium = Myr × 1000.0.
 
 ```csharp
 public static readonly Duration MillionYears;

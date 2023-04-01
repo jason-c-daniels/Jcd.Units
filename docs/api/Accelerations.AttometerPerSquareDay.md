@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareDay Field
 
-attometer per square day, defined as: femtometer per square hour × (1.0/1000.0)/((24.0)*(24.0))
+attometer per square day defined such that: femtometer per square hour = am/dy² × (1.0/1000.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareDay;

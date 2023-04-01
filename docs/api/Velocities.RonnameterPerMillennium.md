@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerMillennium Field
 
-ronnameter per millennium, defined as: yottameter per century × (1000.0)/(10.0)
+ronnameter per millennium defined such that: yottameter per century = Rm/kyr × (1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity RonnameterPerMillennium;

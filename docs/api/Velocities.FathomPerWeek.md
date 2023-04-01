@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerWeek Field
 
-fathom per week, defined as: foot per day × (6.0)/(7.0)
+fathom per week defined such that: foot per day = ftm/wk × (6.0)/(7.0).
 
 ```csharp
 public static readonly Velocity FathomPerWeek;

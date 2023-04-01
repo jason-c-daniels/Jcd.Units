@@ -3,7 +3,7 @@
 
 ## Capacitances.Picofarad Field
 
-picofarad, defined as: nanofarad × 1.0/1000.0
+picofarad defined such that: nanofarad = pF × 1.0/1000.0.
 
 ```csharp
 public static readonly Capacitance Picofarad;

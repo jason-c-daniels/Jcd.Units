@@ -3,7 +3,7 @@
 
 ## Pressures.Kilopascal Field
 
-kilopascal, defined as: hectopascal × 10.0
+kilopascal defined such that: hectopascal = kPa × 10.0.
 
 ```csharp
 public static readonly Pressure Kilopascal;

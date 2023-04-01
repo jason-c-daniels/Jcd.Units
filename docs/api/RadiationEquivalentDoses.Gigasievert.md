@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Gigasievert Field
 
-gigasievert, defined as: megasievert × 1000.0
+gigasievert defined such that: megasievert = Gsv × 1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Gigasievert;

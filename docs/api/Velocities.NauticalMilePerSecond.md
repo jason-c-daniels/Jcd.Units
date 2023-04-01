@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerSecond Field
 
-nautical mile per second, defined as: cable per second × (10.0)/(1.0)
+nautical mile per second defined such that: cable per second = nmi/s × (10.0)/(1.0).
 
 ```csharp
 public static readonly Velocity NauticalMilePerSecond;

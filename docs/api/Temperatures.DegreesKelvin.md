@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesKelvin Field
 
-degrees kelvin, defined as: degrees celcius + -273.15
+degrees kelvin defined such that: degrees celcius = °K + -273.15
 
 ```csharp
 public static readonly Temperature DegreesKelvin;

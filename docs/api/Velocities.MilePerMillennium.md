@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerMillennium Field
 
-mile per millennium, defined as: furlong per century × (8.0)/(10.0)
+mile per millennium defined such that: furlong per century = mi/kyr × (8.0)/(10.0).
 
 ```csharp
 public static readonly Velocity MilePerMillennium;

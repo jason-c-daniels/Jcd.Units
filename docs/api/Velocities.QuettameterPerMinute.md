@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerMinute Field
 
-quettameter per minute, defined as: ronnameter per second × (1000.0)/(60.0)
+quettameter per minute defined such that: ronnameter per second = Qm/min × (1000.0)/(60.0).
 
 ```csharp
 public static readonly Velocity QuettameterPerMinute;

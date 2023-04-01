@@ -3,7 +3,7 @@
 
 ## StorageUnits.Quettabyte Field
 
-quettabyte, defined as: ronnabyte × 1000.0
+quettabyte defined such that: ronnabyte = QB × 1000.0.
 
 ```csharp
 public static readonly Storage Quettabyte;

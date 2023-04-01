@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Dekavolt Field
 
-dekavolt, defined as: volt × 10.0
+dekavolt defined such that: volt = daV × 10.0.
 
 ```csharp
 public static readonly ElectricalPotential Dekavolt;

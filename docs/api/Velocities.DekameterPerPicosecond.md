@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerPicosecond Field
 
-dekameter per picosecond, defined as: meter per nanosecond × (10.0)/(1.0/1000.0)
+dekameter per picosecond defined such that: meter per nanosecond = dam/ps × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity DekameterPerPicosecond;

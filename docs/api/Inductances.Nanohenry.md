@@ -3,7 +3,7 @@
 
 ## Inductances.Nanohenry Field
 
-nanohenry, defined as: microhenry × 1.0/1000.0
+nanohenry defined such that: microhenry = nH × 1.0/1000.0.
 
 ```csharp
 public static readonly Inductance Nanohenry;

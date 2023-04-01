@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicAttometer Field
 
-teragram per cubic attometer, defined as: gigagram per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+teragram per cubic attometer defined such that: gigagram per cubic femtometer = Tg/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density TeragramPerCubicAttometer;

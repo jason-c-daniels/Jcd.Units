@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicMegameter Field
 
-centitonne per cubic megameter, defined as: decitonne per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+centitonne per cubic megameter defined such that: decitonne per cubic kilometer = ct/Mm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density CentitonnePerCubicMegameter;

@@ -3,7 +3,7 @@
 
 ## Areas.SquarePetalightYear Field
 
-square petalight-year, defined as: square teralight-year × (1000.0)*(1000.0)
+square petalight-year defined such that: square teralight-year = Ply² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquarePetalightYear;

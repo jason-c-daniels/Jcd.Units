@@ -3,7 +3,7 @@
 
 ## Pressures.Centipascal Field
 
-centipascal, defined as: decipascal × 1.0/10.0
+centipascal defined such that: decipascal = cPa × 1.0/10.0.
 
 ```csharp
 public static readonly Pressure Centipascal;

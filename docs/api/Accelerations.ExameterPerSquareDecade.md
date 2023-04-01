@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareDecade Field
 
-exameter per square decade, defined as: petameter per square year × (1000.0)/((10.0)*(10.0))
+exameter per square decade defined such that: petameter per square year = Em/decade² × (1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareDecade;

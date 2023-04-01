@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareQuintillionYears Field
 
-fathom per square quintillion years, defined as: foot per square quadrillion years × (6.0)/((1000.0)*(1000.0))
+fathom per square quintillion years defined such that: foot per square quadrillion years = ftm/Eyr² × (6.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration FathomPerSquareQuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerSextillionYears Field
 
-nanometer per sextillion years, defined as: micrometer per quintillion years × (1.0/1000.0)/(1000.0)
+nanometer per sextillion years defined such that: micrometer per quintillion years = nm/Zyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity NanometerPerSextillionYears;

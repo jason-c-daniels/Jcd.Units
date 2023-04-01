@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerSecond Field
 
-chain per second, defined as: yard per second × (22.0)/(1.0)
+chain per second defined such that: yard per second = ch/s × (22.0)/(1.0).
 
 ```csharp
 public static readonly Velocity ChainPerSecond;

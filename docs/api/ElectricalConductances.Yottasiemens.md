@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Yottasiemens Field
 
-yottasiemens, defined as: zettasiemens × 1000.0
+yottasiemens defined such that: zettasiemens = YS × 1000.0.
 
 ```csharp
 public static readonly ElectricalConductance Yottasiemens;

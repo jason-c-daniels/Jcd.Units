@@ -3,7 +3,7 @@
 
 ## Masses.Femtotonne Field
 
-femtotonne, defined as: picotonne × 1.0/1000.0
+femtotonne defined such that: picotonne = ft × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Femtotonne;

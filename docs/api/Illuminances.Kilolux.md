@@ -3,7 +3,7 @@
 
 ## Illuminances.Kilolux Field
 
-kilolux, defined as: hectolux × 10.0
+kilolux defined such that: hectolux = klx × 10.0.
 
 ```csharp
 public static readonly Illuminance Kilolux;

@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareTrillionYears Field
 
-fathom per square trillion years, defined as: foot per square billion years × (6.0)/((1000.0)*(1000.0))
+fathom per square trillion years defined such that: foot per square billion years = ftm/Tyr² × (6.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration FathomPerSquareTrillionYears;

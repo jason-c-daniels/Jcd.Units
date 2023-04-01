@@ -3,7 +3,7 @@
 
 ## Volumes.CubicGigameter Field
 
-cubic gigameter, defined as: cubic megameter × (1000.0)*(1000.0)*(1000.0)
+cubic gigameter defined such that: cubic megameter = Gm³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicGigameter;

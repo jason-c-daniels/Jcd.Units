@@ -3,7 +3,7 @@
 
 ## TransferRates.GibibytesPerSecond Field
 
-gibibytes per second, defined as: mebibytes per second × 1024.0
+gibibytes per second defined such that: mebibytes per second = GiB/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate GibibytesPerSecond;

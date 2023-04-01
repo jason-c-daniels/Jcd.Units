@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerDecisecond Field
 
-quectometer per decisecond, defined as: rontometer per second × (1.0/1000.0)/(1.0/10.0)
+quectometer per decisecond defined such that: rontometer per second = qm/ds × (1.0/1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity QuectometerPerDecisecond;

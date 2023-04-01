@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareHour Field
 
-micrometer per square hour, defined as: millimeter per square minute × (1.0/1000.0)/((60.0)*(60.0))
+micrometer per square hour defined such that: millimeter per square minute = μm/hr² × (1.0/1000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareHour;

@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerWeek Field
 
-decimeter per week, defined as: meter per day × (1.0/10.0)/(7.0)
+decimeter per week defined such that: meter per day = dm/wk × (1.0/10.0)/(7.0).
 
 ```csharp
 public static readonly Velocity DecimeterPerWeek;

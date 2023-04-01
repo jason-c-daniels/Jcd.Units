@@ -3,7 +3,7 @@
 
 ## TransferRates.ZebinybblesPerSecond Field
 
-zebinybbles per second, defined as: exbinybbles per second × 1024.0
+zebinybbles per second defined such that: exbinybbles per second = Zin/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate ZebinybblesPerSecond;

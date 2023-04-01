@@ -3,7 +3,7 @@
 
 ## Momentums.FemtonewtonSecond Field
 
-femtonewton-second, defined as: piconewton-second × 1.0/1000.0
+femtonewton-second defined such that: piconewton-second = fN⋅s × 1.0/1000.0.
 
 ```csharp
 public static readonly Momentum FemtonewtonSecond;

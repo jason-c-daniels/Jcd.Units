@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerMicrosecond Field
 
-gigameter per microsecond, defined as: megameter per millisecond × (1000.0)/(1.0/1000.0)
+gigameter per microsecond defined such that: megameter per millisecond = Gm/μs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity GigameterPerMicrosecond;

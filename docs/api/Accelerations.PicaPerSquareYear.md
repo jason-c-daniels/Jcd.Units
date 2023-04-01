@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareYear Field
 
-pica per square year, defined as: point per square day × (12.0)/((365.2525)*(365.2525))
+pica per square year defined such that: point per square day = P/yr² × (12.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration PicaPerSquareYear;

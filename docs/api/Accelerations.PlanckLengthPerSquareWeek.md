@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareWeek Field
 
-planck-length per square week, defined as: SI meter per square day × (1.616255E-35)/((7.0)*(7.0))
+planck-length per square week defined such that: SI meter per square day = ℓₚ/wk² × (1.616255E-35)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareWeek;

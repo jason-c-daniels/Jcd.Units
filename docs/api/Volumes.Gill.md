@@ -3,7 +3,7 @@
 
 ## Volumes.Gill Field
 
-gill, defined as: fluid ounce × 5.0
+gill defined such that: fluid ounce = gi × 5.0.
 
 ```csharp
 public static readonly Volume Gill;

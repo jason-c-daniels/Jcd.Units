@@ -3,7 +3,7 @@
 
 ## Pressures.Decibar Field
 
-decibar, defined as: bar × 1.0/10.0
+decibar defined such that: bar = dbar × 1.0/10.0.
 
 ```csharp
 public static readonly Pressure Decibar;

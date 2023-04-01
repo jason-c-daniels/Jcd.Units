@@ -3,7 +3,7 @@
 
 ## Durations.Centisecond Field
 
-centisecond, defined as: decisecond × 1.0/10.0
+centisecond defined such that: decisecond = cs × 1.0/10.0.
 
 ```csharp
 public static readonly Duration Centisecond;

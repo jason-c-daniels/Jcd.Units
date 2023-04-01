@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USSurvey;
 public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
 {
    /// <summary>
-   /// league per century, defined as: SI meter per decade × (4828.032)/(10.0)
+   /// league per century defined such that: SI meter per decade = lea/century × (4828.032)/(10.0).
    /// </summary>
    public static readonly Velocity LeaguePerCentury = new (
                                                            "league per century"
@@ -29,7 +29,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// chain per sextillion years, defined as: SI meter per quintillion years × (20.1168)/(1000.0)
+   /// chain per sextillion years defined such that: SI meter per quintillion years = ch/Zyr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerSextillionYears = new (
                                                                   "chain per sextillion years"
@@ -40,7 +40,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// chain per year, defined as: SI meter per day × (20.1168)/(365.2525)
+   /// chain per year defined such that: SI meter per day = ch/yr × (20.1168)/(365.2525).
    /// </summary>
    public static readonly Velocity ChainPerYear = new (
                                                        "chain per year"
@@ -51,7 +51,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// rod per billion years, defined as: SI meter per million years × (5.0292)/(1000.0)
+   /// rod per billion years defined such that: SI meter per million years = rd/Gyr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerBillionYears = new (
                                                              "rod per billion years"
@@ -62,7 +62,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// rod per trillion years, defined as: SI meter per billion years × (5.0292)/(1000.0)
+   /// rod per trillion years defined such that: SI meter per billion years = rd/Tyr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerTrillionYears = new (
                                                               "rod per trillion years"
@@ -73,7 +73,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per quadrillion years, defined as: SI meter per trillion years × (4828.032)/(1000.0)
+   /// league per quadrillion years defined such that: SI meter per trillion years = lea/Pyr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerQuadrillionYears = new (
                                                                     "league per quadrillion years"
@@ -84,7 +84,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// furlong per octillion years, defined as: SI meter per septillion years × (201.168)/(1000.0)
+   /// furlong per octillion years defined such that: SI meter per septillion years = fur/Ryr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerOctillionYears = new (
                                                                    "furlong per octillion years"
@@ -95,7 +95,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// furlong per billion years, defined as: SI meter per million years × (201.168)/(1000.0)
+   /// furlong per billion years defined such that: SI meter per million years = fur/Gyr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerBillionYears = new (
                                                                  "furlong per billion years"
@@ -106,7 +106,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// chain per septillion years, defined as: SI meter per sextillion years × (20.1168)/(1000.0)
+   /// chain per septillion years defined such that: SI meter per sextillion years = ch/Yyr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerSeptillionYears = new (
                                                                   "chain per septillion years"
@@ -117,7 +117,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// furlong per week, defined as: SI meter per day × (201.168)/(7.0)
+   /// furlong per week defined such that: SI meter per day = fur/wk × (201.168)/(7.0).
    /// </summary>
    public static readonly Velocity FurlongPerWeek = new (
                                                          "furlong per week"
@@ -128,7 +128,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// league per day, defined as: SI meter per hour × (4828.032)/(24.0)
+   /// league per day defined such that: SI meter per hour = lea/dy × (4828.032)/(24.0).
    /// </summary>
    public static readonly Velocity LeaguePerDay = new (
                                                        "league per day"
@@ -139,7 +139,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// chain per decade, defined as: SI meter per year × (20.1168)/(10.0)
+   /// chain per decade defined such that: SI meter per year = ch/decade × (20.1168)/(10.0).
    /// </summary>
    public static readonly Velocity ChainPerDecade = new (
                                                          "chain per decade"
@@ -150,7 +150,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// rod per quadrillion years, defined as: SI meter per trillion years × (5.0292)/(1000.0)
+   /// rod per quadrillion years defined such that: SI meter per trillion years = rd/Pyr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerQuadrillionYears = new (
                                                                  "rod per quadrillion years"
@@ -161,7 +161,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// league per nonillion years, defined as: SI meter per octillion years × (4828.032)/(1000.0)
+   /// league per nonillion years defined such that: SI meter per octillion years = lea/Qyr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerNonillionYears = new (
                                                                   "league per nonillion years"
@@ -172,7 +172,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rod per quintillion years, defined as: SI meter per quadrillion years × (5.0292)/(1000.0)
+   /// rod per quintillion years defined such that: SI meter per quadrillion years = rd/Eyr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerQuintillionYears = new (
                                                                  "rod per quintillion years"
@@ -183,7 +183,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// league per millennium, defined as: SI meter per century × (4828.032)/(10.0)
+   /// league per millennium defined such that: SI meter per century = lea/kyr × (4828.032)/(10.0).
    /// </summary>
    public static readonly Velocity LeaguePerMillennium = new (
                                                               "league per millennium"
@@ -194,7 +194,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per octillion years, defined as: SI meter per septillion years × (20.1168)/(1000.0)
+   /// chain per octillion years defined such that: SI meter per septillion years = ch/Ryr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerOctillionYears = new (
                                                                  "chain per octillion years"
@@ -205,7 +205,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// chain per century, defined as: SI meter per decade × (20.1168)/(10.0)
+   /// chain per century defined such that: SI meter per decade = ch/century × (20.1168)/(10.0).
    /// </summary>
    public static readonly Velocity ChainPerCentury = new (
                                                           "chain per century"
@@ -216,7 +216,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// rod per sextillion years, defined as: SI meter per quintillion years × (5.0292)/(1000.0)
+   /// rod per sextillion years defined such that: SI meter per quintillion years = rd/Zyr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerSextillionYears = new (
                                                                 "rod per sextillion years"
@@ -227,7 +227,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per nonillion years, defined as: SI meter per octillion years × (201.168)/(1000.0)
+   /// furlong per nonillion years defined such that: SI meter per octillion years = fur/Qyr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerNonillionYears = new (
                                                                    "furlong per nonillion years"
@@ -238,7 +238,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// furlong per trillion years, defined as: SI meter per billion years × (201.168)/(1000.0)
+   /// furlong per trillion years defined such that: SI meter per billion years = fur/Tyr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerTrillionYears = new (
                                                                   "furlong per trillion years"
@@ -249,7 +249,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// furlong per year, defined as: SI meter per day × (201.168)/(365.2525)
+   /// furlong per year defined such that: SI meter per day = fur/yr × (201.168)/(365.2525).
    /// </summary>
    public static readonly Velocity FurlongPerYear = new (
                                                          "furlong per year"
@@ -260,7 +260,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// rod per septillion years, defined as: SI meter per sextillion years × (5.0292)/(1000.0)
+   /// rod per septillion years defined such that: SI meter per sextillion years = rd/Yyr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerSeptillionYears = new (
                                                                 "rod per septillion years"
@@ -271,7 +271,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// league per quintillion years, defined as: SI meter per quadrillion years × (4828.032)/(1000.0)
+   /// league per quintillion years defined such that: SI meter per quadrillion years = lea/Eyr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerQuintillionYears = new (
                                                                     "league per quintillion years"
@@ -282,7 +282,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// chain per nonillion years, defined as: SI meter per octillion years × (20.1168)/(1000.0)
+   /// chain per nonillion years defined such that: SI meter per octillion years = ch/Qyr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerNonillionYears = new (
                                                                  "chain per nonillion years"
@@ -293,7 +293,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// league per week, defined as: SI meter per day × (4828.032)/(7.0)
+   /// league per week defined such that: SI meter per day = lea/wk × (4828.032)/(7.0).
    /// </summary>
    public static readonly Velocity LeaguePerWeek = new (
                                                         "league per week"
@@ -304,7 +304,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// chain per millennium, defined as: SI meter per century × (20.1168)/(10.0)
+   /// chain per millennium defined such that: SI meter per century = ch/kyr × (20.1168)/(10.0).
    /// </summary>
    public static readonly Velocity ChainPerMillennium = new (
                                                              "chain per millennium"
@@ -315,7 +315,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// rod per octillion years, defined as: SI meter per septillion years × (5.0292)/(1000.0)
+   /// rod per octillion years defined such that: SI meter per septillion years = rd/Ryr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerOctillionYears = new (
                                                                "rod per octillion years"
@@ -326,7 +326,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per decillion years, defined as: SI meter per nonillion years × (4828.032)/(1000.0)
+   /// league per decillion years defined such that: SI meter per nonillion years = lea/decillion yr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerDecillionYears = new (
                                                                   "league per decillion years"
@@ -337,7 +337,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rod per nonillion years, defined as: SI meter per octillion years × (5.0292)/(1000.0)
+   /// rod per nonillion years defined such that: SI meter per octillion years = rd/Qyr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerNonillionYears = new (
                                                                "rod per nonillion years"
@@ -348,7 +348,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per decillion years, defined as: SI meter per nonillion years × (201.168)/(1000.0)
+   /// furlong per decillion years defined such that: SI meter per nonillion years = fur/decillion yr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerDecillionYears = new (
                                                                    "furlong per decillion years"
@@ -359,7 +359,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// league per million years, defined as: SI meter per millennium × (4828.032)/(1000.0)
+   /// league per million years defined such that: SI meter per millennium = lea/Myr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerMillionYears = new (
                                                                 "league per million years"
@@ -370,7 +370,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per quadrillion years, defined as: SI meter per trillion years × (201.168)/(1000.0)
+   /// furlong per quadrillion years defined such that: SI meter per trillion years = fur/Pyr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerQuadrillionYears = new (
                                                                      "furlong per quadrillion years"
@@ -381,7 +381,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// chain per decillion years, defined as: SI meter per nonillion years × (20.1168)/(1000.0)
+   /// chain per decillion years defined such that: SI meter per nonillion years = ch/decillion yr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerDecillionYears = new (
                                                                  "chain per decillion years"
@@ -392,7 +392,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// furlong per decade, defined as: SI meter per year × (201.168)/(10.0)
+   /// furlong per decade defined such that: SI meter per year = fur/decade × (201.168)/(10.0).
    /// </summary>
    public static readonly Velocity FurlongPerDecade = new (
                                                            "furlong per decade"
@@ -403,7 +403,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// chain per million years, defined as: SI meter per millennium × (20.1168)/(1000.0)
+   /// chain per million years defined such that: SI meter per millennium = ch/Myr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerMillionYears = new (
                                                                "chain per million years"
@@ -414,7 +414,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// rod per decillion years, defined as: SI meter per nonillion years × (5.0292)/(1000.0)
+   /// rod per decillion years defined such that: SI meter per nonillion years = rd/decillion yr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerDecillionYears = new (
                                                                "rod per decillion years"
@@ -425,7 +425,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// link per second, defined as: SI meter per second × (0.20116)/(1.0)
+   /// link per second defined such that: SI meter per second = li/s × (0.20116)/(1.0).
    /// </summary>
    public static readonly Velocity LinkPerSecond = new (
                                                         "link per second"
@@ -436,7 +436,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// link per planck-time, defined as: SI meter per microsecond × (0.20116)/(5.391247E-38)
+   /// link per planck-time defined such that: SI meter per microsecond = li/tₚ × (0.20116)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity LinkPerPlanckTime = new (
                                                             "link per planck-time"
@@ -447,7 +447,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// link per decisecond, defined as: SI meter per second × (0.20116)/(1.0/10.0)
+   /// link per decisecond defined such that: SI meter per second = li/ds × (0.20116)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LinkPerDecisecond = new (
                                                             "link per decisecond"
@@ -458,7 +458,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// link per centisecond, defined as: SI meter per decisecond × (0.20116)/(1.0/10.0)
+   /// link per centisecond defined such that: SI meter per decisecond = li/cs × (0.20116)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LinkPerCentisecond = new (
                                                              "link per centisecond"
@@ -469,7 +469,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// link per millisecond, defined as: SI meter per centisecond × (0.20116)/(1.0/10.0)
+   /// link per millisecond defined such that: SI meter per centisecond = li/ms × (0.20116)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LinkPerMillisecond = new (
                                                              "link per millisecond"
@@ -480,7 +480,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// link per microsecond, defined as: SI meter per millisecond × (0.20116)/(1.0/1000.0)
+   /// link per microsecond defined such that: SI meter per millisecond = li/μs × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerMicrosecond = new (
                                                              "link per microsecond"
@@ -491,7 +491,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// link per nanosecond, defined as: SI meter per microsecond × (0.20116)/(1.0/1000.0)
+   /// link per nanosecond defined such that: SI meter per microsecond = li/ns × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerNanosecond = new (
                                                             "link per nanosecond"
@@ -502,7 +502,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// link per picosecond, defined as: SI meter per nanosecond × (0.20116)/(1.0/1000.0)
+   /// link per picosecond defined such that: SI meter per nanosecond = li/ps × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerPicosecond = new (
                                                             "link per picosecond"
@@ -513,7 +513,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// link per femtosecond, defined as: SI meter per picosecond × (0.20116)/(1.0/1000.0)
+   /// link per femtosecond defined such that: SI meter per picosecond = li/fs × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerFemtosecond = new (
                                                              "link per femtosecond"
@@ -524,7 +524,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// link per attosecond, defined as: SI meter per femtosecond × (0.20116)/(1.0/1000.0)
+   /// link per attosecond defined such that: SI meter per femtosecond = li/as × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerAttosecond = new (
                                                             "link per attosecond"
@@ -535,7 +535,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// link per zeptosecond, defined as: SI meter per attosecond × (0.20116)/(1.0/1000.0)
+   /// link per zeptosecond defined such that: SI meter per attosecond = li/zs × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerZeptosecond = new (
                                                              "link per zeptosecond"
@@ -546,7 +546,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// link per yoctosecond, defined as: SI meter per zeptosecond × (0.20116)/(1.0/1000.0)
+   /// link per yoctosecond defined such that: SI meter per zeptosecond = li/ys × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerYoctosecond = new (
                                                              "link per yoctosecond"
@@ -557,7 +557,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// link per rontosecond, defined as: SI meter per yoctosecond × (0.20116)/(1.0/1000.0)
+   /// link per rontosecond defined such that: SI meter per yoctosecond = li/rs × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerRontosecond = new (
                                                              "link per rontosecond"
@@ -568,7 +568,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// link per quectosecond, defined as: SI meter per rontosecond × (0.20116)/(1.0/1000.0)
+   /// link per quectosecond defined such that: SI meter per rontosecond = li/qs × (0.20116)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LinkPerQuectosecond = new (
                                                               "link per quectosecond"
@@ -579,7 +579,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// link per minute, defined as: SI meter per second × (0.20116)/(60.0)
+   /// link per minute defined such that: SI meter per second = li/min × (0.20116)/(60.0).
    /// </summary>
    public static readonly Velocity LinkPerMinute = new (
                                                         "link per minute"
@@ -590,7 +590,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// rod per second, defined as: SI meter per second × (5.0292)/(1.0)
+   /// rod per second defined such that: SI meter per second = rd/s × (5.0292)/(1.0).
    /// </summary>
    public static readonly Velocity RodPerSecond = new (
                                                        "rod per second"
@@ -601,7 +601,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// rod per planck-time, defined as: SI meter per microsecond × (5.0292)/(5.391247E-38)
+   /// rod per planck-time defined such that: SI meter per microsecond = rd/tₚ × (5.0292)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity RodPerPlanckTime = new (
                                                            "rod per planck-time"
@@ -612,7 +612,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// rod per decisecond, defined as: SI meter per second × (5.0292)/(1.0/10.0)
+   /// rod per decisecond defined such that: SI meter per second = rd/ds × (5.0292)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RodPerDecisecond = new (
                                                            "rod per decisecond"
@@ -623,7 +623,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// rod per centisecond, defined as: SI meter per decisecond × (5.0292)/(1.0/10.0)
+   /// rod per centisecond defined such that: SI meter per decisecond = rd/cs × (5.0292)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RodPerCentisecond = new (
                                                             "rod per centisecond"
@@ -634,7 +634,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// rod per millisecond, defined as: SI meter per centisecond × (5.0292)/(1.0/10.0)
+   /// rod per millisecond defined such that: SI meter per centisecond = rd/ms × (5.0292)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RodPerMillisecond = new (
                                                             "rod per millisecond"
@@ -645,7 +645,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// rod per microsecond, defined as: SI meter per millisecond × (5.0292)/(1.0/1000.0)
+   /// rod per microsecond defined such that: SI meter per millisecond = rd/μs × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerMicrosecond = new (
                                                             "rod per microsecond"
@@ -656,7 +656,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// rod per nanosecond, defined as: SI meter per microsecond × (5.0292)/(1.0/1000.0)
+   /// rod per nanosecond defined such that: SI meter per microsecond = rd/ns × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerNanosecond = new (
                                                            "rod per nanosecond"
@@ -667,7 +667,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// rod per picosecond, defined as: SI meter per nanosecond × (5.0292)/(1.0/1000.0)
+   /// rod per picosecond defined such that: SI meter per nanosecond = rd/ps × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerPicosecond = new (
                                                            "rod per picosecond"
@@ -678,7 +678,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// rod per femtosecond, defined as: SI meter per picosecond × (5.0292)/(1.0/1000.0)
+   /// rod per femtosecond defined such that: SI meter per picosecond = rd/fs × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerFemtosecond = new (
                                                             "rod per femtosecond"
@@ -689,7 +689,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// rod per attosecond, defined as: SI meter per femtosecond × (5.0292)/(1.0/1000.0)
+   /// rod per attosecond defined such that: SI meter per femtosecond = rd/as × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerAttosecond = new (
                                                            "rod per attosecond"
@@ -700,7 +700,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// rod per zeptosecond, defined as: SI meter per attosecond × (5.0292)/(1.0/1000.0)
+   /// rod per zeptosecond defined such that: SI meter per attosecond = rd/zs × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerZeptosecond = new (
                                                             "rod per zeptosecond"
@@ -711,7 +711,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// rod per yoctosecond, defined as: SI meter per zeptosecond × (5.0292)/(1.0/1000.0)
+   /// rod per yoctosecond defined such that: SI meter per zeptosecond = rd/ys × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerYoctosecond = new (
                                                             "rod per yoctosecond"
@@ -722,7 +722,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// rod per rontosecond, defined as: SI meter per yoctosecond × (5.0292)/(1.0/1000.0)
+   /// rod per rontosecond defined such that: SI meter per yoctosecond = rd/rs × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerRontosecond = new (
                                                             "rod per rontosecond"
@@ -733,7 +733,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// rod per quectosecond, defined as: SI meter per rontosecond × (5.0292)/(1.0/1000.0)
+   /// rod per quectosecond defined such that: SI meter per rontosecond = rd/qs × (5.0292)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RodPerQuectosecond = new (
                                                              "rod per quectosecond"
@@ -744,7 +744,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// link per hour, defined as: SI meter per minute × (0.20116)/(60.0)
+   /// link per hour defined such that: SI meter per minute = li/hr × (0.20116)/(60.0).
    /// </summary>
    public static readonly Velocity LinkPerHour = new (
                                                       "link per hour"
@@ -755,7 +755,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// chain per second, defined as: SI meter per second × (20.1168)/(1.0)
+   /// chain per second defined such that: SI meter per second = ch/s × (20.1168)/(1.0).
    /// </summary>
    public static readonly Velocity ChainPerSecond = new (
                                                          "chain per second"
@@ -766,7 +766,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// chain per planck-time, defined as: SI meter per microsecond × (20.1168)/(5.391247E-38)
+   /// chain per planck-time defined such that: SI meter per microsecond = ch/tₚ × (20.1168)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity ChainPerPlanckTime = new (
                                                              "chain per planck-time"
@@ -777,7 +777,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per decisecond, defined as: SI meter per second × (20.1168)/(1.0/10.0)
+   /// chain per decisecond defined such that: SI meter per second = ch/ds × (20.1168)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ChainPerDecisecond = new (
                                                              "chain per decisecond"
@@ -788,7 +788,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per centisecond, defined as: SI meter per decisecond × (20.1168)/(1.0/10.0)
+   /// chain per centisecond defined such that: SI meter per decisecond = ch/cs × (20.1168)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ChainPerCentisecond = new (
                                                               "chain per centisecond"
@@ -799,7 +799,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per millisecond, defined as: SI meter per centisecond × (20.1168)/(1.0/10.0)
+   /// chain per millisecond defined such that: SI meter per centisecond = ch/ms × (20.1168)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ChainPerMillisecond = new (
                                                               "chain per millisecond"
@@ -810,7 +810,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per microsecond, defined as: SI meter per millisecond × (20.1168)/(1.0/1000.0)
+   /// chain per microsecond defined such that: SI meter per millisecond = ch/μs × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerMicrosecond = new (
                                                               "chain per microsecond"
@@ -821,7 +821,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per nanosecond, defined as: SI meter per microsecond × (20.1168)/(1.0/1000.0)
+   /// chain per nanosecond defined such that: SI meter per microsecond = ch/ns × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerNanosecond = new (
                                                              "chain per nanosecond"
@@ -832,7 +832,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per picosecond, defined as: SI meter per nanosecond × (20.1168)/(1.0/1000.0)
+   /// chain per picosecond defined such that: SI meter per nanosecond = ch/ps × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerPicosecond = new (
                                                              "chain per picosecond"
@@ -843,7 +843,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per femtosecond, defined as: SI meter per picosecond × (20.1168)/(1.0/1000.0)
+   /// chain per femtosecond defined such that: SI meter per picosecond = ch/fs × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerFemtosecond = new (
                                                               "chain per femtosecond"
@@ -854,7 +854,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per attosecond, defined as: SI meter per femtosecond × (20.1168)/(1.0/1000.0)
+   /// chain per attosecond defined such that: SI meter per femtosecond = ch/as × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerAttosecond = new (
                                                              "chain per attosecond"
@@ -865,7 +865,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per zeptosecond, defined as: SI meter per attosecond × (20.1168)/(1.0/1000.0)
+   /// chain per zeptosecond defined such that: SI meter per attosecond = ch/zs × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerZeptosecond = new (
                                                               "chain per zeptosecond"
@@ -876,7 +876,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per yoctosecond, defined as: SI meter per zeptosecond × (20.1168)/(1.0/1000.0)
+   /// chain per yoctosecond defined such that: SI meter per zeptosecond = ch/ys × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerYoctosecond = new (
                                                               "chain per yoctosecond"
@@ -887,7 +887,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per rontosecond, defined as: SI meter per yoctosecond × (20.1168)/(1.0/1000.0)
+   /// chain per rontosecond defined such that: SI meter per yoctosecond = ch/rs × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerRontosecond = new (
                                                               "chain per rontosecond"
@@ -898,7 +898,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per quectosecond, defined as: SI meter per rontosecond × (20.1168)/(1.0/1000.0)
+   /// chain per quectosecond defined such that: SI meter per rontosecond = ch/qs × (20.1168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerQuectosecond = new (
                                                                "chain per quectosecond"
@@ -909,7 +909,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// link per day, defined as: SI meter per hour × (0.20116)/(24.0)
+   /// link per day defined such that: SI meter per hour = li/dy × (0.20116)/(24.0).
    /// </summary>
    public static readonly Velocity LinkPerDay = new (
                                                      "link per day"
@@ -920,7 +920,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// furlong per second, defined as: SI meter per second × (201.168)/(1.0)
+   /// furlong per second defined such that: SI meter per second = fur/s × (201.168)/(1.0).
    /// </summary>
    public static readonly Velocity FurlongPerSecond = new (
                                                            "furlong per second"
@@ -931,7 +931,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// furlong per planck-time, defined as: SI meter per microsecond × (201.168)/(5.391247E-38)
+   /// furlong per planck-time defined such that: SI meter per microsecond = fur/tₚ × (201.168)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity FurlongPerPlanckTime = new (
                                                                "furlong per planck-time"
@@ -942,7 +942,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per decisecond, defined as: SI meter per second × (201.168)/(1.0/10.0)
+   /// furlong per decisecond defined such that: SI meter per second = fur/ds × (201.168)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FurlongPerDecisecond = new (
                                                                "furlong per decisecond"
@@ -953,7 +953,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per centisecond, defined as: SI meter per decisecond × (201.168)/(1.0/10.0)
+   /// furlong per centisecond defined such that: SI meter per decisecond = fur/cs × (201.168)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FurlongPerCentisecond = new (
                                                                 "furlong per centisecond"
@@ -964,7 +964,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per millisecond, defined as: SI meter per centisecond × (201.168)/(1.0/10.0)
+   /// furlong per millisecond defined such that: SI meter per centisecond = fur/ms × (201.168)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FurlongPerMillisecond = new (
                                                                 "furlong per millisecond"
@@ -975,7 +975,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per microsecond, defined as: SI meter per millisecond × (201.168)/(1.0/1000.0)
+   /// furlong per microsecond defined such that: SI meter per millisecond = fur/μs × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerMicrosecond = new (
                                                                 "furlong per microsecond"
@@ -986,7 +986,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per nanosecond, defined as: SI meter per microsecond × (201.168)/(1.0/1000.0)
+   /// furlong per nanosecond defined such that: SI meter per microsecond = fur/ns × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerNanosecond = new (
                                                                "furlong per nanosecond"
@@ -997,7 +997,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per picosecond, defined as: SI meter per nanosecond × (201.168)/(1.0/1000.0)
+   /// furlong per picosecond defined such that: SI meter per nanosecond = fur/ps × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerPicosecond = new (
                                                                "furlong per picosecond"
@@ -1008,7 +1008,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per femtosecond, defined as: SI meter per picosecond × (201.168)/(1.0/1000.0)
+   /// furlong per femtosecond defined such that: SI meter per picosecond = fur/fs × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerFemtosecond = new (
                                                                 "furlong per femtosecond"
@@ -1019,7 +1019,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per attosecond, defined as: SI meter per femtosecond × (201.168)/(1.0/1000.0)
+   /// furlong per attosecond defined such that: SI meter per femtosecond = fur/as × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerAttosecond = new (
                                                                "furlong per attosecond"
@@ -1030,7 +1030,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per zeptosecond, defined as: SI meter per attosecond × (201.168)/(1.0/1000.0)
+   /// furlong per zeptosecond defined such that: SI meter per attosecond = fur/zs × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerZeptosecond = new (
                                                                 "furlong per zeptosecond"
@@ -1041,7 +1041,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per yoctosecond, defined as: SI meter per zeptosecond × (201.168)/(1.0/1000.0)
+   /// furlong per yoctosecond defined such that: SI meter per zeptosecond = fur/ys × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerYoctosecond = new (
                                                                 "furlong per yoctosecond"
@@ -1052,7 +1052,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per rontosecond, defined as: SI meter per yoctosecond × (201.168)/(1.0/1000.0)
+   /// furlong per rontosecond defined such that: SI meter per yoctosecond = fur/rs × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerRontosecond = new (
                                                                 "furlong per rontosecond"
@@ -1063,7 +1063,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per quectosecond, defined as: SI meter per rontosecond × (201.168)/(1.0/1000.0)
+   /// furlong per quectosecond defined such that: SI meter per rontosecond = fur/qs × (201.168)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerQuectosecond = new (
                                                                  "furlong per quectosecond"
@@ -1074,7 +1074,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// link per week, defined as: SI meter per day × (0.20116)/(7.0)
+   /// link per week defined such that: SI meter per day = li/wk × (0.20116)/(7.0).
    /// </summary>
    public static readonly Velocity LinkPerWeek = new (
                                                       "link per week"
@@ -1085,7 +1085,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// league per second, defined as: SI meter per second × (4828.032)/(1.0)
+   /// league per second defined such that: SI meter per second = lea/s × (4828.032)/(1.0).
    /// </summary>
    public static readonly Velocity LeaguePerSecond = new (
                                                           "league per second"
@@ -1096,7 +1096,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// league per planck-time, defined as: SI meter per microsecond × (4828.032)/(5.391247E-38)
+   /// league per planck-time defined such that: SI meter per microsecond = lea/tₚ × (4828.032)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity LeaguePerPlanckTime = new (
                                                               "league per planck-time"
@@ -1107,7 +1107,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per decisecond, defined as: SI meter per second × (4828.032)/(1.0/10.0)
+   /// league per decisecond defined such that: SI meter per second = lea/ds × (4828.032)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LeaguePerDecisecond = new (
                                                               "league per decisecond"
@@ -1118,7 +1118,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per centisecond, defined as: SI meter per decisecond × (4828.032)/(1.0/10.0)
+   /// league per centisecond defined such that: SI meter per decisecond = lea/cs × (4828.032)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LeaguePerCentisecond = new (
                                                                "league per centisecond"
@@ -1129,7 +1129,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per millisecond, defined as: SI meter per centisecond × (4828.032)/(1.0/10.0)
+   /// league per millisecond defined such that: SI meter per centisecond = lea/ms × (4828.032)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LeaguePerMillisecond = new (
                                                                "league per millisecond"
@@ -1140,7 +1140,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per microsecond, defined as: SI meter per millisecond × (4828.032)/(1.0/1000.0)
+   /// league per microsecond defined such that: SI meter per millisecond = lea/μs × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerMicrosecond = new (
                                                                "league per microsecond"
@@ -1151,7 +1151,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per nanosecond, defined as: SI meter per microsecond × (4828.032)/(1.0/1000.0)
+   /// league per nanosecond defined such that: SI meter per microsecond = lea/ns × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerNanosecond = new (
                                                               "league per nanosecond"
@@ -1162,7 +1162,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per picosecond, defined as: SI meter per nanosecond × (4828.032)/(1.0/1000.0)
+   /// league per picosecond defined such that: SI meter per nanosecond = lea/ps × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerPicosecond = new (
                                                               "league per picosecond"
@@ -1173,7 +1173,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per femtosecond, defined as: SI meter per picosecond × (4828.032)/(1.0/1000.0)
+   /// league per femtosecond defined such that: SI meter per picosecond = lea/fs × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerFemtosecond = new (
                                                                "league per femtosecond"
@@ -1184,7 +1184,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per attosecond, defined as: SI meter per femtosecond × (4828.032)/(1.0/1000.0)
+   /// league per attosecond defined such that: SI meter per femtosecond = lea/as × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerAttosecond = new (
                                                               "league per attosecond"
@@ -1195,7 +1195,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per zeptosecond, defined as: SI meter per attosecond × (4828.032)/(1.0/1000.0)
+   /// league per zeptosecond defined such that: SI meter per attosecond = lea/zs × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerZeptosecond = new (
                                                                "league per zeptosecond"
@@ -1206,7 +1206,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per yoctosecond, defined as: SI meter per zeptosecond × (4828.032)/(1.0/1000.0)
+   /// league per yoctosecond defined such that: SI meter per zeptosecond = lea/ys × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerYoctosecond = new (
                                                                "league per yoctosecond"
@@ -1217,7 +1217,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per rontosecond, defined as: SI meter per yoctosecond × (4828.032)/(1.0/1000.0)
+   /// league per rontosecond defined such that: SI meter per yoctosecond = lea/rs × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerRontosecond = new (
                                                                "league per rontosecond"
@@ -1228,7 +1228,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per quectosecond, defined as: SI meter per rontosecond × (4828.032)/(1.0/1000.0)
+   /// league per quectosecond defined such that: SI meter per rontosecond = lea/qs × (4828.032)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerQuectosecond = new (
                                                                 "league per quectosecond"
@@ -1239,7 +1239,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// link per year, defined as: SI meter per day × (0.20116)/(365.2525)
+   /// link per year defined such that: SI meter per day = li/yr × (0.20116)/(365.2525).
    /// </summary>
    public static readonly Velocity LinkPerYear = new (
                                                       "link per year"
@@ -1250,7 +1250,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// link per decade, defined as: SI meter per year × (0.20116)/(10.0)
+   /// link per decade defined such that: SI meter per year = li/decade × (0.20116)/(10.0).
    /// </summary>
    public static readonly Velocity LinkPerDecade = new (
                                                         "link per decade"
@@ -1261,7 +1261,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// link per century, defined as: SI meter per decade × (0.20116)/(10.0)
+   /// link per century defined such that: SI meter per decade = li/century × (0.20116)/(10.0).
    /// </summary>
    public static readonly Velocity LinkPerCentury = new (
                                                          "link per century"
@@ -1272,7 +1272,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// link per millennium, defined as: SI meter per century × (0.20116)/(10.0)
+   /// link per millennium defined such that: SI meter per century = li/kyr × (0.20116)/(10.0).
    /// </summary>
    public static readonly Velocity LinkPerMillennium = new (
                                                             "link per millennium"
@@ -1283,7 +1283,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// link per million years, defined as: SI meter per millennium × (0.20116)/(1000.0)
+   /// link per million years defined such that: SI meter per millennium = li/Myr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerMillionYears = new (
                                                               "link per million years"
@@ -1294,7 +1294,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// link per billion years, defined as: SI meter per million years × (0.20116)/(1000.0)
+   /// link per billion years defined such that: SI meter per million years = li/Gyr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerBillionYears = new (
                                                               "link per billion years"
@@ -1305,7 +1305,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// link per trillion years, defined as: SI meter per billion years × (0.20116)/(1000.0)
+   /// link per trillion years defined such that: SI meter per billion years = li/Tyr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerTrillionYears = new (
                                                                "link per trillion years"
@@ -1316,7 +1316,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// link per quadrillion years, defined as: SI meter per trillion years × (0.20116)/(1000.0)
+   /// link per quadrillion years defined such that: SI meter per trillion years = li/Pyr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerQuadrillionYears = new (
                                                                   "link per quadrillion years"
@@ -1327,7 +1327,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// link per quintillion years, defined as: SI meter per quadrillion years × (0.20116)/(1000.0)
+   /// link per quintillion years defined such that: SI meter per quadrillion years = li/Eyr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerQuintillionYears = new (
                                                                   "link per quintillion years"
@@ -1338,7 +1338,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// link per sextillion years, defined as: SI meter per quintillion years × (0.20116)/(1000.0)
+   /// link per sextillion years defined such that: SI meter per quintillion years = li/Zyr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerSextillionYears = new (
                                                                  "link per sextillion years"
@@ -1349,7 +1349,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// link per septillion years, defined as: SI meter per sextillion years × (0.20116)/(1000.0)
+   /// link per septillion years defined such that: SI meter per sextillion years = li/Yyr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerSeptillionYears = new (
                                                                  "link per septillion years"
@@ -1360,7 +1360,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// link per octillion years, defined as: SI meter per septillion years × (0.20116)/(1000.0)
+   /// link per octillion years defined such that: SI meter per septillion years = li/Ryr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerOctillionYears = new (
                                                                 "link per octillion years"
@@ -1371,7 +1371,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// link per nonillion years, defined as: SI meter per octillion years × (0.20116)/(1000.0)
+   /// link per nonillion years defined such that: SI meter per octillion years = li/Qyr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerNonillionYears = new (
                                                                 "link per nonillion years"
@@ -1382,7 +1382,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// link per decillion years, defined as: SI meter per nonillion years × (0.20116)/(1000.0)
+   /// link per decillion years defined such that: SI meter per nonillion years = li/decillion yr × (0.20116)/(1000.0).
    /// </summary>
    public static readonly Velocity LinkPerDecillionYears = new (
                                                                 "link per decillion years"
@@ -1393,7 +1393,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// link per tick, defined as: SI meter per nanosecond × (0.20116)/(100.0)
+   /// link per tick defined such that: SI meter per nanosecond = li/tick × (0.20116)/(100.0).
    /// </summary>
    public static readonly Velocity LinkPerTick = new (
                                                       "link per tick"
@@ -1404,7 +1404,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// league per sextillion years, defined as: SI meter per quintillion years × (4828.032)/(1000.0)
+   /// league per sextillion years defined such that: SI meter per quintillion years = lea/Zyr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerSextillionYears = new (
                                                                    "league per sextillion years"
@@ -1415,7 +1415,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rod per minute, defined as: SI meter per second × (5.0292)/(60.0)
+   /// rod per minute defined such that: SI meter per second = rd/min × (5.0292)/(60.0).
    /// </summary>
    public static readonly Velocity RodPerMinute = new (
                                                        "rod per minute"
@@ -1426,7 +1426,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// league per year, defined as: SI meter per day × (4828.032)/(365.2525)
+   /// league per year defined such that: SI meter per day = lea/yr × (4828.032)/(365.2525).
    /// </summary>
    public static readonly Velocity LeaguePerYear = new (
                                                         "league per year"
@@ -1437,7 +1437,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// chain per billion years, defined as: SI meter per million years × (20.1168)/(1000.0)
+   /// chain per billion years defined such that: SI meter per million years = ch/Gyr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerBillionYears = new (
                                                                "chain per billion years"
@@ -1448,7 +1448,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// rod per tick, defined as: SI meter per nanosecond × (5.0292)/(100.0)
+   /// rod per tick defined such that: SI meter per nanosecond = rd/tick × (5.0292)/(100.0).
    /// </summary>
    public static readonly Velocity RodPerTick = new (
                                                      "rod per tick"
@@ -1459,7 +1459,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// rod per hour, defined as: SI meter per minute × (5.0292)/(60.0)
+   /// rod per hour defined such that: SI meter per minute = rd/hr × (5.0292)/(60.0).
    /// </summary>
    public static readonly Velocity RodPerHour = new (
                                                      "rod per hour"
@@ -1470,7 +1470,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// chain per minute, defined as: SI meter per second × (20.1168)/(60.0)
+   /// chain per minute defined such that: SI meter per second = ch/min × (20.1168)/(60.0).
    /// </summary>
    public static readonly Velocity ChainPerMinute = new (
                                                          "chain per minute"
@@ -1481,7 +1481,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// furlong per quintillion years, defined as: SI meter per quadrillion years × (201.168)/(1000.0)
+   /// furlong per quintillion years defined such that: SI meter per quadrillion years = fur/Eyr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerQuintillionYears = new (
                                                                      "furlong per quintillion years"
@@ -1492,7 +1492,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// furlong per century, defined as: SI meter per decade × (201.168)/(10.0)
+   /// furlong per century defined such that: SI meter per decade = fur/century × (201.168)/(10.0).
    /// </summary>
    public static readonly Velocity FurlongPerCentury = new (
                                                             "furlong per century"
@@ -1503,7 +1503,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// rod per day, defined as: SI meter per hour × (5.0292)/(24.0)
+   /// rod per day defined such that: SI meter per hour = rd/dy × (5.0292)/(24.0).
    /// </summary>
    public static readonly Velocity RodPerDay = new (
                                                     "rod per day"
@@ -1514,7 +1514,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                    );
 
    /// <summary>
-   /// furlong per minute, defined as: SI meter per second × (201.168)/(60.0)
+   /// furlong per minute defined such that: SI meter per second = fur/min × (201.168)/(60.0).
    /// </summary>
    public static readonly Velocity FurlongPerMinute = new (
                                                            "furlong per minute"
@@ -1525,7 +1525,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// league per billion years, defined as: SI meter per million years × (4828.032)/(1000.0)
+   /// league per billion years defined such that: SI meter per million years = lea/Gyr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerBillionYears = new (
                                                                 "league per billion years"
@@ -1536,7 +1536,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// chain per tick, defined as: SI meter per nanosecond × (20.1168)/(100.0)
+   /// chain per tick defined such that: SI meter per nanosecond = ch/tick × (20.1168)/(100.0).
    /// </summary>
    public static readonly Velocity ChainPerTick = new (
                                                        "chain per tick"
@@ -1547,7 +1547,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// chain per trillion years, defined as: SI meter per billion years × (20.1168)/(1000.0)
+   /// chain per trillion years defined such that: SI meter per billion years = ch/Tyr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerTrillionYears = new (
                                                                 "chain per trillion years"
@@ -1558,7 +1558,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// chain per hour, defined as: SI meter per minute × (20.1168)/(60.0)
+   /// chain per hour defined such that: SI meter per minute = ch/hr × (20.1168)/(60.0).
    /// </summary>
    public static readonly Velocity ChainPerHour = new (
                                                        "chain per hour"
@@ -1569,7 +1569,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// rod per week, defined as: SI meter per day × (5.0292)/(7.0)
+   /// rod per week defined such that: SI meter per day = rd/wk × (5.0292)/(7.0).
    /// </summary>
    public static readonly Velocity RodPerWeek = new (
                                                      "rod per week"
@@ -1580,7 +1580,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// league per minute, defined as: SI meter per second × (4828.032)/(60.0)
+   /// league per minute defined such that: SI meter per second = lea/min × (4828.032)/(60.0).
    /// </summary>
    public static readonly Velocity LeaguePerMinute = new (
                                                           "league per minute"
@@ -1591,7 +1591,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// league per septillion years, defined as: SI meter per sextillion years × (4828.032)/(1000.0)
+   /// league per septillion years defined such that: SI meter per sextillion years = lea/Yyr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerSeptillionYears = new (
                                                                    "league per septillion years"
@@ -1602,7 +1602,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// furlong per tick, defined as: SI meter per nanosecond × (201.168)/(100.0)
+   /// furlong per tick defined such that: SI meter per nanosecond = fur/tick × (201.168)/(100.0).
    /// </summary>
    public static readonly Velocity FurlongPerTick = new (
                                                          "furlong per tick"
@@ -1613,7 +1613,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// rod per year, defined as: SI meter per day × (5.0292)/(365.2525)
+   /// rod per year defined such that: SI meter per day = rd/yr × (5.0292)/(365.2525).
    /// </summary>
    public static readonly Velocity RodPerYear = new (
                                                      "rod per year"
@@ -1624,7 +1624,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// furlong per sextillion years, defined as: SI meter per quintillion years × (201.168)/(1000.0)
+   /// furlong per sextillion years defined such that: SI meter per quintillion years = fur/Zyr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerSextillionYears = new (
                                                                     "furlong per sextillion years"
@@ -1635,7 +1635,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// league per decade, defined as: SI meter per year × (4828.032)/(10.0)
+   /// league per decade defined such that: SI meter per year = lea/decade × (4828.032)/(10.0).
    /// </summary>
    public static readonly Velocity LeaguePerDecade = new (
                                                           "league per decade"
@@ -1646,7 +1646,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// furlong per millennium, defined as: SI meter per century × (201.168)/(10.0)
+   /// furlong per millennium defined such that: SI meter per century = fur/kyr × (201.168)/(10.0).
    /// </summary>
    public static readonly Velocity FurlongPerMillennium = new (
                                                                "furlong per millennium"
@@ -1657,7 +1657,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// chain per quadrillion years, defined as: SI meter per trillion years × (20.1168)/(1000.0)
+   /// chain per quadrillion years defined such that: SI meter per trillion years = ch/Pyr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerQuadrillionYears = new (
                                                                    "chain per quadrillion years"
@@ -1668,7 +1668,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// chain per day, defined as: SI meter per hour × (20.1168)/(24.0)
+   /// chain per day defined such that: SI meter per hour = ch/dy × (20.1168)/(24.0).
    /// </summary>
    public static readonly Velocity ChainPerDay = new (
                                                       "chain per day"
@@ -1679,7 +1679,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// furlong per hour, defined as: SI meter per minute × (201.168)/(60.0)
+   /// furlong per hour defined such that: SI meter per minute = fur/hr × (201.168)/(60.0).
    /// </summary>
    public static readonly Velocity FurlongPerHour = new (
                                                          "furlong per hour"
@@ -1690,7 +1690,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// rod per decade, defined as: SI meter per year × (5.0292)/(10.0)
+   /// rod per decade defined such that: SI meter per year = rd/decade × (5.0292)/(10.0).
    /// </summary>
    public static readonly Velocity RodPerDecade = new (
                                                        "rod per decade"
@@ -1701,7 +1701,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// league per tick, defined as: SI meter per nanosecond × (4828.032)/(100.0)
+   /// league per tick defined such that: SI meter per nanosecond = lea/tick × (4828.032)/(100.0).
    /// </summary>
    public static readonly Velocity LeaguePerTick = new (
                                                         "league per tick"
@@ -1712,7 +1712,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// rod per century, defined as: SI meter per decade × (5.0292)/(10.0)
+   /// rod per century defined such that: SI meter per decade = rd/century × (5.0292)/(10.0).
    /// </summary>
    public static readonly Velocity RodPerCentury = new (
                                                         "rod per century"
@@ -1723,7 +1723,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// league per trillion years, defined as: SI meter per billion years × (4828.032)/(1000.0)
+   /// league per trillion years defined such that: SI meter per billion years = lea/Tyr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerTrillionYears = new (
                                                                  "league per trillion years"
@@ -1734,7 +1734,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// chain per quintillion years, defined as: SI meter per quadrillion years × (20.1168)/(1000.0)
+   /// chain per quintillion years defined such that: SI meter per quadrillion years = ch/Eyr × (20.1168)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerQuintillionYears = new (
                                                                    "chain per quintillion years"
@@ -1745,7 +1745,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// chain per week, defined as: SI meter per day × (20.1168)/(7.0)
+   /// chain per week defined such that: SI meter per day = ch/wk × (20.1168)/(7.0).
    /// </summary>
    public static readonly Velocity ChainPerWeek = new (
                                                        "chain per week"
@@ -1756,7 +1756,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// league per hour, defined as: SI meter per minute × (4828.032)/(60.0)
+   /// league per hour defined such that: SI meter per minute = lea/hr × (4828.032)/(60.0).
    /// </summary>
    public static readonly Velocity LeaguePerHour = new (
                                                         "league per hour"
@@ -1767,7 +1767,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// rod per millennium, defined as: SI meter per century × (5.0292)/(10.0)
+   /// rod per millennium defined such that: SI meter per century = rd/kyr × (5.0292)/(10.0).
    /// </summary>
    public static readonly Velocity RodPerMillennium = new (
                                                            "rod per millennium"
@@ -1778,7 +1778,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// furlong per septillion years, defined as: SI meter per sextillion years × (201.168)/(1000.0)
+   /// furlong per septillion years defined such that: SI meter per sextillion years = fur/Yyr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerSeptillionYears = new (
                                                                     "furlong per septillion years"
@@ -1789,7 +1789,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// furlong per million years, defined as: SI meter per millennium × (201.168)/(1000.0)
+   /// furlong per million years defined such that: SI meter per millennium = fur/Myr × (201.168)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerMillionYears = new (
                                                                  "furlong per million years"
@@ -1800,7 +1800,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// league per octillion years, defined as: SI meter per septillion years × (4828.032)/(1000.0)
+   /// league per octillion years defined such that: SI meter per septillion years = lea/Ryr × (4828.032)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerOctillionYears = new (
                                                                   "league per octillion years"
@@ -1811,7 +1811,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// furlong per day, defined as: SI meter per hour × (201.168)/(24.0)
+   /// furlong per day defined such that: SI meter per hour = fur/dy × (201.168)/(24.0).
    /// </summary>
    public static readonly Velocity FurlongPerDay = new (
                                                         "furlong per day"
@@ -1822,7 +1822,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// rod per million years, defined as: SI meter per millennium × (5.0292)/(1000.0)
+   /// rod per million years defined such that: SI meter per millennium = rd/Myr × (5.0292)/(1000.0).
    /// </summary>
    public static readonly Velocity RodPerMillionYears = new (
                                                              "rod per million years"

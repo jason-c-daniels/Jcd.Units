@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerMillennium Field
 
-quectometer per millennium, defined as: rontometer per century × (1.0/1000.0)/(10.0)
+quectometer per millennium defined such that: rontometer per century = qm/kyr × (1.0/1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity QuectometerPerMillennium;

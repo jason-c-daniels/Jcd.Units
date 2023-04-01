@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerTrillionYears Field
 
-decimeter per trillion years, defined as: meter per billion years × (1.0/10.0)/(1000.0)
+decimeter per trillion years defined such that: meter per billion years = dm/Tyr × (1.0/10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity DecimeterPerTrillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerQuintillionYears Field
 
-foot per quintillion years, defined as: inch per quadrillion years × (12)/(1000.0)
+foot per quintillion years defined such that: inch per quadrillion years = ft/Eyr × (12)/(1000.0).
 
 ```csharp
 public static readonly Velocity FootPerQuintillionYears;

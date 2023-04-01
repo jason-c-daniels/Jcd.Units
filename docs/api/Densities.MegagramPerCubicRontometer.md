@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicRontometer Field
 
-megagram per cubic rontometer, defined as: kilogram per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+megagram per cubic rontometer defined such that: kilogram per cubic yoctometer = Mg/rm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MegagramPerCubicRontometer;

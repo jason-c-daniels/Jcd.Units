@@ -3,7 +3,7 @@
 
 ## TransferRates.MebibytesPerSecond Field
 
-mebibytes per second, defined as: kebibytes per second × 1024.0
+mebibytes per second defined such that: kebibytes per second = MiB/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate MebibytesPerSecond;

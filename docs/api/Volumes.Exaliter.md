@@ -3,7 +3,7 @@
 
 ## Volumes.Exaliter Field
 
-exaliter, defined as: petaliter × 1000.0
+exaliter defined such that: petaliter = EL × 1000.0.
 
 ```csharp
 public static readonly Volume Exaliter;

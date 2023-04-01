@@ -23,22 +23,22 @@ public class Angles : UnitOfMeasureEnumeration<Angles, Angle>
    public static readonly Angle Radian = new ("radian", "rad", system: "");
 
    /// <summary>
-   /// degree, defined as: radian × (180.0/Math.PI)
+   /// degree defined such that: radian = ° × (180.0/Math.PI).
    /// </summary>
    public static readonly Angle Degree = new ("degree", "°", Radian, 180.0 / Math.PI, system: "");
 
    /// <summary>
-   /// arc minute, defined as: degree × 1.0/60.0
+   /// arc minute defined such that: degree = ′ × 1.0/60.0.
    /// </summary>
    public static readonly Angle ArcMinute = new ("arc minute", "′", Degree, 1.0 / 60.0, system: "");
 
    /// <summary>
-   /// arc second, defined as: arc minute × 1.0/60.0
+   /// arc second defined such that: arc minute = ″ × 1.0/60.0.
    /// </summary>
    public static readonly Angle ArcSecond = new ("arc second", "″", ArcMinute, 1.0 / 60.0, system: "");
 
    /// <summary>
-   /// gradian, defined as: radian × (Math.PI/200.0)
+   /// gradian defined such that: radian = ᵍ × (Math.PI/200.0).
    /// </summary>
    public static readonly Angle Gradian = new ("gradian", "ᵍ", Radian, Math.PI / 200.0, system: "");
 }

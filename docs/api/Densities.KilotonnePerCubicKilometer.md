@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicKilometer Field
 
-kilotonne per cubic kilometer, defined as: hectotonne per cubic hectometer × (10.0)/((10.0)*(10.0)*(10.0))
+kilotonne per cubic kilometer defined such that: hectotonne per cubic hectometer = kt/km³ × (10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density KilotonnePerCubicKilometer;

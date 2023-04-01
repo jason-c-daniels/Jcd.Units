@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerOctillionYears Field
 
-zettameter per octillion years, defined as: exameter per septillion years × (1000.0)/(1000.0)
+zettameter per octillion years defined such that: exameter per septillion years = Zm/Ryr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ZettameterPerOctillionYears;

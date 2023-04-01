@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerDecisecond Field
 
-cable per decisecond, defined as: fathom per second × (100.0)/(1.0/10.0)
+cable per decisecond defined such that: fathom per second = cable/ds × (100.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity CablePerDecisecond;

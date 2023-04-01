@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerTick Field
 
-nautical mile per tick, defined as: cable per nanosecond × (10.0)/(100.0)
+nautical mile per tick defined such that: cable per nanosecond = nmi/tick × (10.0)/(100.0).
 
 ```csharp
 public static readonly Velocity NauticalMilePerTick;

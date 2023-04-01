@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicPicometer Field
 
-zettatonne per cubic picometer, defined as: exatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+zettatonne per cubic picometer defined such that: exatonne per cubic nanometer = Zt/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density ZettatonnePerCubicPicometer;

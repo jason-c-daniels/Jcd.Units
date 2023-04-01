@@ -3,7 +3,7 @@
 
 ## Densities.ZettagramPerCubicPicometer Field
 
-zettagram per cubic picometer, defined as: exagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+zettagram per cubic picometer defined such that: exagram per cubic nanometer = Zg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density ZettagramPerCubicPicometer;

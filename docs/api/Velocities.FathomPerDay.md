@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerDay Field
 
-fathom per day, defined as: foot per hour × (6.0)/(24.0)
+fathom per day defined such that: foot per hour = ftm/dy × (6.0)/(24.0).
 
 ```csharp
 public static readonly Velocity FathomPerDay;

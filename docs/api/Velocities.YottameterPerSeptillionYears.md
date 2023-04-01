@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerSeptillionYears Field
 
-yottameter per septillion years, defined as: zettameter per sextillion years × (1000.0)/(1000.0)
+yottameter per septillion years defined such that: zettameter per sextillion years = Ym/Yyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity YottameterPerSeptillionYears;

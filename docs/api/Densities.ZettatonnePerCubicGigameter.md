@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicGigameter Field
 
-zettatonne per cubic gigameter, defined as: exatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+zettatonne per cubic gigameter defined such that: exatonne per cubic megameter = Zt/Gm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density ZettatonnePerCubicGigameter;

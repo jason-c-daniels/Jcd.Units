@@ -3,7 +3,7 @@
 
 ## Volumes.CubicFathom Field
 
-cubic fathom, defined as: cubic foot × (6.0)*(6.0)*(6.0)
+cubic fathom defined such that: cubic foot = ftm³ × (6.0)*(6.0)*(6.0).
 
 ```csharp
 public static readonly Volume CubicFathom;

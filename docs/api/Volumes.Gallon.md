@@ -3,7 +3,7 @@
 
 ## Volumes.Gallon Field
 
-gallon, defined as: quart × 4.0
+gallon defined such that: quart = gal × 4.0.
 
 ```csharp
 public static readonly Volume Gallon;

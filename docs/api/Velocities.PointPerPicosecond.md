@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerPicosecond Field
 
-point per picosecond, defined as: inch per nanosecond × (1.0/72.0)/(1.0/1000.0)
+point per picosecond defined such that: inch per nanosecond = p/ps × (1.0/72.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PointPerPicosecond;

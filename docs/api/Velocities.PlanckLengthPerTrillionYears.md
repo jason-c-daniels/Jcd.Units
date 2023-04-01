@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerTrillionYears Field
 
-planck-length per trillion years, defined as: SI meter per billion years × (1.616255E-35)/(1000.0)
+planck-length per trillion years defined such that: SI meter per billion years = ℓₚ/Tyr × (1.616255E-35)/(1000.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerTrillionYears;

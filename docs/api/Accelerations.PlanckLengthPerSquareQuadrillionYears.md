@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareQuadrillionYears Field
 
-planck-length per square quadrillion years, defined as: SI meter per square trillion years × (1.616255E-35)/((1000.0)*(1000.0))
+planck-length per square quadrillion years defined such that: SI meter per square trillion years = ℓₚ/Pyr² × (1.616255E-35)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareQuadrillionYears;

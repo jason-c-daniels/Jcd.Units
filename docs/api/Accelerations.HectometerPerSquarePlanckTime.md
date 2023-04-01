@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquarePlanckTime Field
 
-hectometer per square planck-time, defined as: dekameter per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
+hectometer per square planck-time defined such that: dekameter per square microsecond = hm/tₚ² × (10.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp
 public static readonly Acceleration HectometerPerSquarePlanckTime;

@@ -3,7 +3,7 @@
 
 ## Pressures.Ronnapascal Field
 
-ronnapascal, defined as: yottapascal × 1000.0
+ronnapascal defined such that: yottapascal = RPa × 1000.0.
 
 ```csharp
 public static readonly Pressure Ronnapascal;

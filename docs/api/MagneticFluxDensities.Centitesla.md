@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Centitesla Field
 
-centitesla, defined as: decitesla × 1.0/10.0
+centitesla defined such that: decitesla = cT × 1.0/10.0.
 
 ```csharp
 public static readonly MagneticFluxDensity Centitesla;

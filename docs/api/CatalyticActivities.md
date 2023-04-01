@@ -13,28 +13,28 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Attokatal](CatalyticActivities.Attokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Attokatal') | attokatal, defined as: femtokatal × 1.0/1000.0 |
-| [Centikatal](CatalyticActivities.Centikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Centikatal') | centikatal, defined as: decikatal × 1.0/10.0 |
-| [Decikatal](CatalyticActivities.Decikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Decikatal') | decikatal, defined as: katal × 1.0/10.0 |
-| [Dekakatal](CatalyticActivities.Dekakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Dekakatal') | dekakatal, defined as: katal × 10.0 |
-| [Exakatal](CatalyticActivities.Exakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Exakatal') | exakatal, defined as: petakatal × 1000.0 |
-| [Femtokatal](CatalyticActivities.Femtokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Femtokatal') | femtokatal, defined as: picokatal × 1.0/1000.0 |
-| [Gigakatal](CatalyticActivities.Gigakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Gigakatal') | gigakatal, defined as: megakatal × 1000.0 |
-| [Hectokatal](CatalyticActivities.Hectokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Hectokatal') | hectokatal, defined as: dekakatal × 10.0 |
+| [Attokatal](CatalyticActivities.Attokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Attokatal') | attokatal defined such that: femtokatal = akat × 1.0/1000.0. |
+| [Centikatal](CatalyticActivities.Centikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Centikatal') | centikatal defined such that: decikatal = ckat × 1.0/10.0. |
+| [Decikatal](CatalyticActivities.Decikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Decikatal') | decikatal defined such that: katal = dkat × 1.0/10.0. |
+| [Dekakatal](CatalyticActivities.Dekakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Dekakatal') | dekakatal defined such that: katal = dakat × 10.0. |
+| [Exakatal](CatalyticActivities.Exakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Exakatal') | exakatal defined such that: petakatal = Ekat × 1000.0. |
+| [Femtokatal](CatalyticActivities.Femtokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Femtokatal') | femtokatal defined such that: picokatal = fkat × 1.0/1000.0. |
+| [Gigakatal](CatalyticActivities.Gigakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Gigakatal') | gigakatal defined such that: megakatal = Gkat × 1000.0. |
+| [Hectokatal](CatalyticActivities.Hectokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Hectokatal') | hectokatal defined such that: dekakatal = hkat × 10.0. |
 | [Katal](CatalyticActivities.Katal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Katal') | katal, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
-| [Kilokatal](CatalyticActivities.Kilokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Kilokatal') | kilokatal, defined as: hectokatal × 10.0 |
-| [Megakatal](CatalyticActivities.Megakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Megakatal') | megakatal, defined as: kilokatal × 1000.0 |
-| [Microkatal](CatalyticActivities.Microkatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Microkatal') | microkatal, defined as: millikatal × 1.0/1000.0 |
-| [Millikatal](CatalyticActivities.Millikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Millikatal') | millikatal, defined as: centikatal × 1.0/10.0 |
-| [Nanokatal](CatalyticActivities.Nanokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Nanokatal') | nanokatal, defined as: microkatal × 1.0/1000.0 |
-| [Petakatal](CatalyticActivities.Petakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Petakatal') | petakatal, defined as: terakatal × 1000.0 |
-| [Picokatal](CatalyticActivities.Picokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Picokatal') | picokatal, defined as: nanokatal × 1.0/1000.0 |
-| [Quectokatal](CatalyticActivities.Quectokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quectokatal') | quectokatal, defined as: rontokatal × 1.0/1000.0 |
-| [Quettakatal](CatalyticActivities.Quettakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quettakatal') | quettakatal, defined as: ronnakatal × 1000.0 |
-| [Ronnakatal](CatalyticActivities.Ronnakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Ronnakatal') | ronnakatal, defined as: yottakatal × 1000.0 |
-| [Rontokatal](CatalyticActivities.Rontokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Rontokatal') | rontokatal, defined as: yoctokatal × 1.0/1000.0 |
-| [Terakatal](CatalyticActivities.Terakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Terakatal') | terakatal, defined as: gigakatal × 1000.0 |
-| [Yoctokatal](CatalyticActivities.Yoctokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yoctokatal') | yoctokatal, defined as: zeptokatal × 1.0/1000.0 |
-| [Yottakatal](CatalyticActivities.Yottakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yottakatal') | yottakatal, defined as: zettakatal × 1000.0 |
-| [Zeptokatal](CatalyticActivities.Zeptokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zeptokatal') | zeptokatal, defined as: attokatal × 1.0/1000.0 |
-| [Zettakatal](CatalyticActivities.Zettakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zettakatal') | zettakatal, defined as: exakatal × 1000.0 |
+| [Kilokatal](CatalyticActivities.Kilokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Kilokatal') | kilokatal defined such that: hectokatal = kkat × 10.0. |
+| [Megakatal](CatalyticActivities.Megakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Megakatal') | megakatal defined such that: kilokatal = Mkat × 1000.0. |
+| [Microkatal](CatalyticActivities.Microkatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Microkatal') | microkatal defined such that: millikatal = μkat × 1.0/1000.0. |
+| [Millikatal](CatalyticActivities.Millikatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Millikatal') | millikatal defined such that: centikatal = mkat × 1.0/10.0. |
+| [Nanokatal](CatalyticActivities.Nanokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Nanokatal') | nanokatal defined such that: microkatal = nkat × 1.0/1000.0. |
+| [Petakatal](CatalyticActivities.Petakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Petakatal') | petakatal defined such that: terakatal = Pkat × 1000.0. |
+| [Picokatal](CatalyticActivities.Picokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Picokatal') | picokatal defined such that: nanokatal = pkat × 1.0/1000.0. |
+| [Quectokatal](CatalyticActivities.Quectokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quectokatal') | quectokatal defined such that: rontokatal = qkat × 1.0/1000.0. |
+| [Quettakatal](CatalyticActivities.Quettakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Quettakatal') | quettakatal defined such that: ronnakatal = Qkat × 1000.0. |
+| [Ronnakatal](CatalyticActivities.Ronnakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Ronnakatal') | ronnakatal defined such that: yottakatal = Rkat × 1000.0. |
+| [Rontokatal](CatalyticActivities.Rontokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Rontokatal') | rontokatal defined such that: yoctokatal = rkat × 1.0/1000.0. |
+| [Terakatal](CatalyticActivities.Terakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Terakatal') | terakatal defined such that: gigakatal = Tkat × 1000.0. |
+| [Yoctokatal](CatalyticActivities.Yoctokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yoctokatal') | yoctokatal defined such that: zeptokatal = ykat × 1.0/1000.0. |
+| [Yottakatal](CatalyticActivities.Yottakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Yottakatal') | yottakatal defined such that: zettakatal = Ykat × 1000.0. |
+| [Zeptokatal](CatalyticActivities.Zeptokatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zeptokatal') | zeptokatal defined such that: attokatal = zkat × 1.0/1000.0. |
+| [Zettakatal](CatalyticActivities.Zettakatal.md 'Jcd.Units.UnitsOfMeasure.SI.CatalyticActivities.Zettakatal') | zettakatal defined such that: exakatal = Zkat × 1000.0. |

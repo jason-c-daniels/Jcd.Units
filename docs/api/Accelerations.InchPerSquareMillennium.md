@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareMillennium Field
 
-inch per square millennium, defined as: SI centimeter per square century × (2.54)/((10.0)*(10.0))
+inch per square millennium defined such that: SI centimeter per square century = in/kyr² × (2.54)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration InchPerSquareMillennium;

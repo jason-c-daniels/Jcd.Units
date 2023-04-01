@@ -3,7 +3,7 @@
 
 ## Pressures.Megapascal Field
 
-megapascal, defined as: kilopascal × 1000.0
+megapascal defined such that: kilopascal = MPa × 1000.0.
 
 ```csharp
 public static readonly Pressure Megapascal;

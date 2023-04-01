@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Yoctoampere Field
 
-yoctoampere, defined as: zeptoampere × 1.0/1000.0
+yoctoampere defined such that: zeptoampere = yA × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalCurrent Yoctoampere;

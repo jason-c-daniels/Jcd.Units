@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareBillionYears Field
 
-dekameter per square billion years, defined as: meter per square million years × (10.0)/((1000.0)*(1000.0))
+dekameter per square billion years defined such that: meter per square million years = dam/Gyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareBillionYears;

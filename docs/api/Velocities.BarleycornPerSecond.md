@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerSecond Field
 
-barleycorn per second, defined as: foot per second × (1.0/36.0)/(1.0)
+barleycorn per second defined such that: foot per second = barleycorn/s × (1.0/36.0)/(1.0).
 
 ```csharp
 public static readonly Velocity BarleycornPerSecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareTick Field
 
-kilometer per square tick, defined as: hectometer per square nanosecond × (10.0)/((100.0)*(100.0))
+kilometer per square tick defined such that: hectometer per square nanosecond = km/tick² × (10.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareTick;

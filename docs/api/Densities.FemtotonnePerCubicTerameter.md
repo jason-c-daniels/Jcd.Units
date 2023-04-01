@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicTerameter Field
 
-femtotonne per cubic terameter, defined as: picotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+femtotonne per cubic terameter defined such that: picotonne per cubic gigameter = ft/Tm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density FemtotonnePerCubicTerameter;

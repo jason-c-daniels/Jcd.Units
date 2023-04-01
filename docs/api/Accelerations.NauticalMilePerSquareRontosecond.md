@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareRontosecond Field
 
-nautical mile per square rontosecond, defined as: cable per square yoctosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
+nautical mile per square rontosecond defined such that: cable per square yoctosecond = nmi/rs² × (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareRontosecond;

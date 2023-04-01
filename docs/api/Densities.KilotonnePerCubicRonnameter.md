@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicRonnameter Field
 
-kilotonne per cubic ronnameter, defined as: hectotonne per cubic yottameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+kilotonne per cubic ronnameter defined such that: hectotonne per cubic yottameter = kt/Rm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density KilotonnePerCubicRonnameter;

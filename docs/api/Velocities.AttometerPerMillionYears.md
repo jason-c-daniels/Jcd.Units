@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerMillionYears Field
 
-attometer per million years, defined as: femtometer per millennium × (1.0/1000.0)/(1000.0)
+attometer per million years defined such that: femtometer per millennium = am/Myr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity AttometerPerMillionYears;

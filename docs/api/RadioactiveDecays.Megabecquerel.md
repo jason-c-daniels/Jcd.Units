@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Megabecquerel Field
 
-megabecquerel, defined as: kilobecquerel × 1000.0
+megabecquerel defined such that: kilobecquerel = MBq × 1000.0.
 
 ```csharp
 public static readonly RadioactiveDecay Megabecquerel;

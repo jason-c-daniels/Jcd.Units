@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerAttosecond Field
 
-meter per attosecond, defined as: meter per femtosecond × (1.0)/(1.0/1000.0)
+meter per attosecond defined such that: meter per femtosecond = m/as × (1.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MeterPerAttosecond;

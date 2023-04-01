@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerCentury Field
 
-furlong per century, defined as: chain per decade × (10.0)/(10.0)
+furlong per century defined such that: chain per decade = fur/century × (10.0)/(10.0).
 
 ```csharp
 public static readonly Velocity FurlongPerCentury;

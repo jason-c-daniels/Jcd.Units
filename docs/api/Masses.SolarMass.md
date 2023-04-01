@@ -3,7 +3,7 @@
 
 ## Masses.SolarMass Field
 
-solar mass, defined as: SI kilogram × 1.989E+30
+solar mass defined such that: SI kilogram = M(☉) × 1.989E+30.
 
 ```csharp
 public static readonly Mass SolarMass;

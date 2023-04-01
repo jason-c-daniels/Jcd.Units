@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareDay Field
 
-pica per square day, defined as: point per square hour × (12.0)/((24.0)*(24.0))
+pica per square day defined such that: point per square hour = P/dy² × (12.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration PicaPerSquareDay;

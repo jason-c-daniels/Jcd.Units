@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerRontosecond Field
 
-mil per rontosecond, defined as: inch per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+mil per rontosecond defined such that: inch per yoctosecond = mil/rs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MilPerRontosecond;

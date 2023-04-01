@@ -3,7 +3,7 @@
 
 ## Areas.SquareCable Field
 
-square cable, defined as: square fathom × (100.0)*(100.0)
+square cable defined such that: square fathom = cable² × (100.0)*(100.0).
 
 ```csharp
 public static readonly Area SquareCable;

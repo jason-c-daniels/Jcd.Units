@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareQuadrillionYears Field
 
-inch per square quadrillion years, defined as: SI centimeter per square trillion years × (2.54)/((1000.0)*(1000.0))
+inch per square quadrillion years defined such that: SI centimeter per square trillion years = in/Pyr² × (2.54)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration InchPerSquareQuadrillionYears;

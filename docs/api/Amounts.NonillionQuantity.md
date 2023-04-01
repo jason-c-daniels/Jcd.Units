@@ -3,7 +3,7 @@
 
 ## Amounts.NonillionQuantity Field
 
-nonillion quantity, defined as: octillion quantity × 1_000_000.0
+nonillion quantity defined such that: octillion quantity = nonillion qty. × 1_000_000.0.
 
 ```csharp
 public static readonly Amount NonillionQuantity;

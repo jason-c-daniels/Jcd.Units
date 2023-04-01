@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerTrillionYears Field
 
-hand per trillion years, defined as: inch per billion years × (4.0)/(1000.0)
+hand per trillion years defined such that: inch per billion years = hh/Tyr × (4.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity HandPerTrillionYears;

@@ -3,7 +3,7 @@
 
 ## Densities.GigagramPerCubicQuettameter Field
 
-gigagram per cubic quettameter, defined as: megagram per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+gigagram per cubic quettameter defined such that: megagram per cubic ronnameter = Gg/Qm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density GigagramPerCubicQuettameter;

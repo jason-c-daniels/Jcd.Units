@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareCentisecond Field
 
-quettameter per square centisecond, defined as: ronnameter per square decisecond × (1000.0)/((1.0/10.0)*(1.0/10.0))
+quettameter per square centisecond defined such that: ronnameter per square decisecond = Qm/cs² × (1000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareCentisecond;

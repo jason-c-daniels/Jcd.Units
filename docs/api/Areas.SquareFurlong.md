@@ -3,7 +3,7 @@
 
 ## Areas.SquareFurlong Field
 
-square furlong, defined as: square chain × (10.0)*(10.0)
+square furlong defined such that: square chain = fur² × (10.0)*(10.0).
 
 ```csharp
 public static readonly Area SquareFurlong;

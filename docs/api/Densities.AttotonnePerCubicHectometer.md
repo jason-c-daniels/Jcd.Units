@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicHectometer Field
 
-attotonne per cubic hectometer, defined as: femtotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+attotonne per cubic hectometer defined such that: femtotonne per cubic dekameter = at/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density AttotonnePerCubicHectometer;

@@ -3,7 +3,7 @@
 
 ## Densities.RontogramPerCubicQuettameter Field
 
-rontogram per cubic quettameter, defined as: yoctogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+rontogram per cubic quettameter defined such that: yoctogram per cubic ronnameter = rg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density RontogramPerCubicQuettameter;

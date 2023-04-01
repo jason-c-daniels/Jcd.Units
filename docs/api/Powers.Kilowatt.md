@@ -3,7 +3,7 @@
 
 ## Powers.Kilowatt Field
 
-kilowatt, defined as: hectowatt × 10.0
+kilowatt defined such that: hectowatt = kW × 10.0.
 
 ```csharp
 public static readonly Power Kilowatt;

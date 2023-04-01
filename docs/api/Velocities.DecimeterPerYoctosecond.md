@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerYoctosecond Field
 
-decimeter per yoctosecond, defined as: meter per zeptosecond × (1.0/10.0)/(1.0/1000.0)
+decimeter per yoctosecond defined such that: meter per zeptosecond = dm/ys × (1.0/10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity DecimeterPerYoctosecond;

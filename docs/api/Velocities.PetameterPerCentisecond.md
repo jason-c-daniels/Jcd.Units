@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerCentisecond Field
 
-petameter per centisecond, defined as: terameter per decisecond × (1000.0)/(1.0/10.0)
+petameter per centisecond defined such that: terameter per decisecond = Pm/cs × (1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity PetameterPerCentisecond;

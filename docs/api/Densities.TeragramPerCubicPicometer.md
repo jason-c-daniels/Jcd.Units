@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicPicometer Field
 
-teragram per cubic picometer, defined as: gigagram per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+teragram per cubic picometer defined such that: gigagram per cubic nanometer = Tg/pm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density TeragramPerCubicPicometer;

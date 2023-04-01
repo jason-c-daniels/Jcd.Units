@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerTick Field
 
-yoctometer per tick, defined as: zeptometer per nanosecond × (1.0/1000.0)/(100.0)
+yoctometer per tick defined such that: zeptometer per nanosecond = ym/tick × (1.0/1000.0)/(100.0).
 
 ```csharp
 public static readonly Velocity YoctometerPerTick;

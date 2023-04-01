@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerRontosecond Field
 
-attometer per rontosecond, defined as: femtometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+attometer per rontosecond defined such that: femtometer per yoctosecond = am/rs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity AttometerPerRontosecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerFemtosecond Field
 
-micrometer per femtosecond, defined as: millimeter per picosecond × (1.0/1000.0)/(1.0/1000.0)
+micrometer per femtosecond defined such that: millimeter per picosecond = μm/fs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MicrometerPerFemtosecond;

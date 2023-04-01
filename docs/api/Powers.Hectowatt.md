@@ -3,7 +3,7 @@
 
 ## Powers.Hectowatt Field
 
-hectowatt, defined as: dekawatt × 10.0
+hectowatt defined such that: dekawatt = hW × 10.0.
 
 ```csharp
 public static readonly Power Hectowatt;

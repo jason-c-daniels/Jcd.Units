@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicRontometer Field
 
-picotonne per cubic rontometer, defined as: nanotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+picotonne per cubic rontometer defined such that: nanotonne per cubic yoctometer = pt/rm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PicotonnePerCubicRontometer;

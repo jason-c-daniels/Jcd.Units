@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareBillionYears Field
 
-petameter per square billion years, defined as: terameter per square million years × (1000.0)/((1000.0)*(1000.0))
+petameter per square billion years defined such that: terameter per square million years = Pm/Gyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareBillionYears;

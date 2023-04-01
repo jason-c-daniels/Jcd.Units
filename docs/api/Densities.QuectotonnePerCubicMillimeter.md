@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicMillimeter Field
 
-quectotonne per cubic millimeter, defined as: rontotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+quectotonne per cubic millimeter defined such that: rontotonne per cubic centimeter = qt/mm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density QuectotonnePerCubicMillimeter;

@@ -3,7 +3,7 @@
 
 ## Pressures.Zettabar Field
 
-zettabar, defined as: exabar × 1000.0
+zettabar defined such that: exabar = Zbar × 1000.0.
 
 ```csharp
 public static readonly Pressure Zettabar;

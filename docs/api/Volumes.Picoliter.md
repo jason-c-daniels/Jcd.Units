@@ -3,7 +3,7 @@
 
 ## Volumes.Picoliter Field
 
-picoliter, defined as: nanoliter × 1.0/1000.0
+picoliter defined such that: nanoliter = pL × 1.0/1000.0.
 
 ```csharp
 public static readonly Volume Picoliter;

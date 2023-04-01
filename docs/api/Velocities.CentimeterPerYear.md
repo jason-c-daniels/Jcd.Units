@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerYear Field
 
-centimeter per year, defined as: decimeter per day × (1.0/10.0)/(365.2525)
+centimeter per year defined such that: decimeter per day = cm/yr × (1.0/10.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity CentimeterPerYear;

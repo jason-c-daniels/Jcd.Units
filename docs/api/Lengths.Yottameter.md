@@ -3,7 +3,7 @@
 
 ## Lengths.Yottameter Field
 
-yottameter, defined as: zettameter × 1000.0
+yottameter defined such that: zettameter = Ym × 1000.0.
 
 ```csharp
 public static readonly Length Yottameter;

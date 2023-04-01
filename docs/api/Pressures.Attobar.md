@@ -3,7 +3,7 @@
 
 ## Pressures.Attobar Field
 
-attobar, defined as: femtobar × 1.0/1000.0
+attobar defined such that: femtobar = abar × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Attobar;

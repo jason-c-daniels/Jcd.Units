@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerHour Field
 
-micrometer per hour, defined as: millimeter per minute × (1.0/1000.0)/(60.0)
+micrometer per hour defined such that: millimeter per minute = μm/hr × (1.0/1000.0)/(60.0).
 
 ```csharp
 public static readonly Velocity MicrometerPerHour;

@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicPetameter Field
 
-teratonne per cubic petameter, defined as: gigatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+teratonne per cubic petameter defined such that: gigatonne per cubic terameter = Tt/Pm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density TeratonnePerCubicPetameter;

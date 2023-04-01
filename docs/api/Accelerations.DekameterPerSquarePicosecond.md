@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquarePicosecond Field
 
-dekameter per square picosecond, defined as: meter per square nanosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
+dekameter per square picosecond defined such that: meter per square nanosecond = dam/ps² × (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration DekameterPerSquarePicosecond;

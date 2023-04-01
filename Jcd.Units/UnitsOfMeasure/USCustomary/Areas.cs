@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
-   /// square inch, defined as: SI square centimeter × (2.54)*(2.54)
+   /// square inch defined such that: SI square centimeter = in² × (2.54)*(2.54).
    /// </summary>
    public static readonly Area SquareInch = new (
                                                  "square inch"
@@ -29,7 +29,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                 );
 
    /// <summary>
-   /// square mil, defined as: square inch × (1.0/1000.0)*(1.0/1000.0)
+   /// square mil defined such that: square inch = mil² × (1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Area SquareMil = new (
                                                 "square mil"
@@ -40,7 +40,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                );
 
    /// <summary>
-   /// square point, defined as: square inch × (1.0/72.0)*(1.0/72.0)
+   /// square point defined such that: square inch = p² × (1.0/72.0)*(1.0/72.0).
    /// </summary>
    public static readonly Area SquarePoint = new (
                                                   "square point"
@@ -51,7 +51,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                  );
 
    /// <summary>
-   /// square twip, defined as: square point × (1.0/20.0)*(1.0/20.0)
+   /// square twip defined such that: square point = twip² × (1.0/20.0)*(1.0/20.0).
    /// </summary>
    public static readonly Area SquareTwip = new (
                                                  "square twip"
@@ -62,22 +62,22 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                 );
 
    /// <summary>
-   /// square pica, defined as: square point × (12.0)*(12.0)
+   /// square pica defined such that: square point = P² × (12.0)*(12.0).
    /// </summary>
    public static readonly Area SquarePica = new ("square pica", "P²", SquarePoint, 12.0 * 12.0, system: "US Customary");
 
    /// <summary>
-   /// square foot, defined as: square inch × (12.0)*(12.0)
+   /// square foot defined such that: square inch = ft² × (12.0)*(12.0).
    /// </summary>
    public static readonly Area SquareFoot = new ("square foot", "ft²", SquareInch, 12.0 * 12.0, system: "US Customary");
 
    /// <summary>
-   /// square yard, defined as: square foot × (3.0)*(3.0)
+   /// square yard defined such that: square foot = yd² × (3.0)*(3.0).
    /// </summary>
    public static readonly Area SquareYard = new ("square yard", "yd²", SquareFoot, 3.0 * 3.0, system: "US Customary");
 
    /// <summary>
-   /// square mile, defined as: square yard × (1760.0)*(1760.0)
+   /// square mile defined such that: square yard = mi² × (1760.0)*(1760.0).
    /// </summary>
    public static readonly Area SquareMile = new (
                                                  "square mile"
@@ -88,7 +88,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                 );
 
    /// <summary>
-   /// square league, defined as: square mile × (3.0)*(3.0)
+   /// square league defined such that: square mile = le² × (3.0)*(3.0).
    /// </summary>
    public static readonly Area SquareLeague = new (
                                                    "square league"
@@ -99,7 +99,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                   );
 
    /// <summary>
-   /// square fathom, defined as: square yard × (2.0)*(2.0)
+   /// square fathom defined such that: square yard = ftm² × (2.0)*(2.0).
    /// </summary>
    public static readonly Area SquareFathom = new (
                                                    "square fathom"
@@ -110,7 +110,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                   );
 
    /// <summary>
-   /// square cable, defined as: square fathom × (120.0)*(120.0)
+   /// square cable defined such that: square fathom = cb² × (120.0)*(120.0).
    /// </summary>
    public static readonly Area SquareCable = new (
                                                   "square cable"
@@ -121,7 +121,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                  );
 
    /// <summary>
-   /// square nautical mile, defined as: SI square meter × (1852.0)*(1852.0)
+   /// square nautical mile defined such that: SI square meter = nmi² × (1852.0)*(1852.0).
    /// </summary>
    public static readonly Area SquareNauticalMile = new (
                                                          "square nautical mile"

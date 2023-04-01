@@ -3,7 +3,7 @@
 
 ## Masses.Ounce Field
 
-ounce, defined as: drachm × 16.0
+ounce defined such that: drachm = oz × 16.0.
 
 ```csharp
 public static readonly Mass Ounce;

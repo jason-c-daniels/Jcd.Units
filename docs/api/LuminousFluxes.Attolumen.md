@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Attolumen Field
 
-attolumen, defined as: femtolumen × 1.0/1000.0
+attolumen defined such that: femtolumen = alm × 1.0/1000.0.
 
 ```csharp
 public static readonly LuminousFlux Attolumen;

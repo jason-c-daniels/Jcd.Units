@@ -3,7 +3,7 @@
 
 ## Powers.Gigawatt Field
 
-gigawatt, defined as: megawatt × 1000.0
+gigawatt defined such that: megawatt = GW × 1000.0.
 
 ```csharp
 public static readonly Power Gigawatt;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Quectogray Field
 
-quectogray, defined as: rontogray × 1.0/1000.0
+quectogray defined such that: rontogray = qGy × 1.0/1000.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Quectogray;

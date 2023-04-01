@@ -30,6 +30,7 @@ public abstract record UnitOfMeasure<TUnit>
          where TUnit : UnitOfMeasure<TUnit>
 {
    private readonly TUnit? _baseUnit;
+
    private readonly TUnit? _fundamentalUnit;
 
    private readonly double _inverseCoefficient = 1;
@@ -93,6 +94,16 @@ public abstract record UnitOfMeasure<TUnit>
    }
 
    /// <summary>
+   /// The Coefficient used when initializing the unit of measure with a base unit of measure.
+   /// </summary>
+   public double BaseUnitCoefficient { get; protected init; } = 1.0;
+
+   /// <summary>
+   /// The Offset used when initializing the unit of measure with a base unit of measure.
+   /// </summary>
+   public double BaseUnitOffset { get; protected init; }
+
+   /// <summary>
    /// The unit of measure all others are represented in terms of.
    /// </summary>
    public TUnit FundamentalUnit
@@ -110,28 +121,6 @@ public abstract record UnitOfMeasure<TUnit>
       protected init => _baseUnit = value;
    }
 
-   private readonly double _baseUnitCoefficient=1.0;
-
-   /// <summary>
-   /// The Coefficient used when initializing the unit of measure with a base unit of measure.
-   /// </summary>
-   public double BaseUnitCoefficient
-   {
-      get => _baseUnitCoefficient;
-      protected init => _baseUnitCoefficient = value;
-   }
-
-   private readonly double _baseUnitOffset;
-
-   /// <summary>
-   /// The Offset used when initializing the unit of measure with a base unit of measure.
-   /// </summary>
-   public double BaseUnitOffset
-   {
-      get => _baseUnitOffset;
-      protected init => _baseUnitOffset = value;
-   }
- 
    /// <summary>
    /// Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
    /// </summary>
@@ -172,7 +161,7 @@ public abstract record UnitOfMeasure<TUnit>
    {
       var sb = new StringBuilder();
       sb.Append($"{Name} ({Symbol})");
-      
+
       return sb.ToString();
    }
 

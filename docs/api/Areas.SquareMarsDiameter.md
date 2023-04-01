@@ -3,7 +3,7 @@
 
 ## Areas.SquareMarsDiameter Field
 
-square mars diameter, defined as: square mars radius × (2.0)*(2.0)
+square mars diameter defined such that: square mars radius = D(♂)² × (2.0)*(2.0).
 
 ```csharp
 public static readonly Area SquareMarsDiameter;

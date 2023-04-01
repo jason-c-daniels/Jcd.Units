@@ -3,7 +3,7 @@
 
 ## Energies.Millicalorie Field
 
-millicalorie, defined as: centicalorie × 1.0/10.0
+millicalorie defined such that: centicalorie = mc × 1.0/10.0.
 
 ```csharp
 public static readonly Energy Millicalorie;

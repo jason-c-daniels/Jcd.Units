@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerYoctosecond Field
 
-nautical mile per yoctosecond, defined as: cable per zeptosecond × (10.0)/(1.0/1000.0)
+nautical mile per yoctosecond defined such that: cable per zeptosecond = nmi/ys × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity NauticalMilePerYoctosecond;

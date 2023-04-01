@@ -3,7 +3,7 @@
 
 ## StorageUnits.Exbinybble Field
 
-exbinybble, defined as: pebinybble × 1024.0
+exbinybble defined such that: pebinybble = Ein × 1024.0.
 
 ```csharp
 public static readonly Storage Exbinybble;

@@ -3,7 +3,7 @@
 
 ## Durations.Attosecond Field
 
-attosecond, defined as: femtosecond × 1.0/1000.0
+attosecond defined such that: femtosecond = as × 1.0/1000.0.
 
 ```csharp
 public static readonly Duration Attosecond;

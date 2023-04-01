@@ -3,7 +3,7 @@
 
 ## Amounts.Zettamole Field
 
-zettamole, defined as: examole × 1000.0
+zettamole defined such that: examole = Zmol × 1000.0.
 
 ```csharp
 public static readonly Amount Zettamole;

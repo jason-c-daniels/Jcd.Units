@@ -3,7 +3,7 @@
 
 ## Masses.ShortTon Field
 
-short ton, defined as: hundredweight × 20.0
+short ton defined such that: hundredweight = short ton × 20.0.
 
 ```csharp
 public static readonly Mass ShortTon;

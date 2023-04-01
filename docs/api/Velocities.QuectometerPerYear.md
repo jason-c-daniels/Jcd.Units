@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerYear Field
 
-quectometer per year, defined as: rontometer per day × (1.0/1000.0)/(365.2525)
+quectometer per year defined such that: rontometer per day = qm/yr × (1.0/1000.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity QuectometerPerYear;

@@ -3,7 +3,7 @@
 
 ## Illuminances.Femtolux Field
 
-femtolux, defined as: picolux × 1.0/1000.0
+femtolux defined such that: picolux = flx × 1.0/1000.0.
 
 ```csharp
 public static readonly Illuminance Femtolux;

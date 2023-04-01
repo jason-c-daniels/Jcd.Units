@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Ronnagray Field
 
-ronnagray, defined as: yottagray × 1000.0
+ronnagray defined such that: yottagray = RGy × 1000.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Ronnagray;

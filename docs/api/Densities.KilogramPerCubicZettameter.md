@@ -3,7 +3,7 @@
 
 ## Densities.KilogramPerCubicZettameter Field
 
-kilogram per cubic zettameter, defined as: kilogram per cubic exameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+kilogram per cubic zettameter defined such that: kilogram per cubic exameter = kg/Zm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density KilogramPerCubicZettameter;

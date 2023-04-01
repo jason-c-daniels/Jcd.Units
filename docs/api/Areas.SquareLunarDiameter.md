@@ -3,7 +3,7 @@
 
 ## Areas.SquareLunarDiameter Field
 
-square lunar diameter, defined as: square lunar radius × (2.0)*(2.0)
+square lunar diameter defined such that: square lunar radius = D(L)² × (2.0)*(2.0).
 
 ```csharp
 public static readonly Area SquareLunarDiameter;

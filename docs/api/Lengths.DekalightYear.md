@@ -3,7 +3,7 @@
 
 ## Lengths.DekalightYear Field
 
-dekalight-year, defined as: light-year × 10.0
+dekalight-year defined such that: light-year = daly × 10.0.
 
 ```csharp
 public static readonly Length DekalightYear;

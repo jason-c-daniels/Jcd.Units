@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicYoctometer Field
 
-picogram per cubic yoctometer, defined as: nanogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+picogram per cubic yoctometer defined such that: nanogram per cubic zeptometer = pg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PicogramPerCubicYoctometer;

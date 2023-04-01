@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerFemtosecond Field
 
-pica per femtosecond, defined as: point per picosecond × (12.0)/(1.0/1000.0)
+pica per femtosecond defined such that: point per picosecond = P/fs × (12.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PicaPerFemtosecond;

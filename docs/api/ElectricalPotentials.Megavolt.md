@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Megavolt Field
 
-megavolt, defined as: kilovolt × 1000.0
+megavolt defined such that: kilovolt = MV × 1000.0.
 
 ```csharp
 public static readonly ElectricalPotential Megavolt;

@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerZeptosecond Field
 
-kilometer per zeptosecond, defined as: hectometer per attosecond × (10.0)/(1.0/1000.0)
+kilometer per zeptosecond defined such that: hectometer per attosecond = km/zs × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity KilometerPerZeptosecond;

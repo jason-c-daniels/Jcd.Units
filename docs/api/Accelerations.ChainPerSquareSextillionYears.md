@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareSextillionYears Field
 
-chain per square sextillion years, defined as: yard per square quintillion years × (22.0)/((1000.0)*(1000.0))
+chain per square sextillion years defined such that: yard per square quintillion years = ch/Zyr² × (22.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration ChainPerSquareSextillionYears;

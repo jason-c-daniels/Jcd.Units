@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerBillionYears Field
 
-femtometer per billion years, defined as: picometer per million years × (1.0/1000.0)/(1000.0)
+femtometer per billion years defined such that: picometer per million years = fm/Gyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerBillionYears;

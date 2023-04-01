@@ -3,7 +3,7 @@
 
 ## Lengths.PetalightYear Field
 
-petalight-year, defined as: teralight-year × 1000.0
+petalight-year defined such that: teralight-year = Ply × 1000.0.
 
 ```csharp
 public static readonly Length PetalightYear;

@@ -3,7 +3,7 @@
 
 ## Durations.Week Field
 
-week, defined as: day × 7.0
+week defined such that: day = wk × 7.0.
 
 ```csharp
 public static readonly Duration Week;

@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerMillisecond Field
 
-chain per millisecond, defined as: yard per centisecond × (22.0)/(1.0/10.0)
+chain per millisecond defined such that: yard per centisecond = ch/ms × (22.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity ChainPerMillisecond;

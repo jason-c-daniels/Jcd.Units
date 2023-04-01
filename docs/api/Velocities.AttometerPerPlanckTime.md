@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerPlanckTime Field
 
-attometer per planck-time, defined as: femtometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+attometer per planck-time defined such that: femtometer per microsecond = am/tₚ × (1.0/1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity AttometerPerPlanckTime;

@@ -3,7 +3,7 @@
 
 ## Energies.Attocalorie Field
 
-attocalorie, defined as: femtocalorie × 1.0/1000.0
+attocalorie defined such that: femtocalorie = ac × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Attocalorie;

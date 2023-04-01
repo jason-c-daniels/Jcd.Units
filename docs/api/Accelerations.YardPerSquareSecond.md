@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareSecond Field
 
-yard per square second, defined as: foot per square second × (3.0)/((1.0)*(1.0))
+yard per square second defined such that: foot per square second = yd/s² × (3.0)/((1.0)*(1.0)).
 
 ```csharp
 public static readonly Acceleration YardPerSquareSecond;

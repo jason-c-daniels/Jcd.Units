@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerMillennium Field
 
-nautical mile per millennium, defined as: cable per century × (10.0)/(10.0)
+nautical mile per millennium defined such that: cable per century = nmi/kyr × (10.0)/(10.0).
 
 ```csharp
 public static readonly Velocity NauticalMilePerMillennium;

@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerHour Field
 
-planck-length per hour, defined as: SI meter per minute × (1.616255E-35)/(60.0)
+planck-length per hour defined such that: SI meter per minute = ℓₚ/hr × (1.616255E-35)/(60.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerHour;

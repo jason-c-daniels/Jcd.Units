@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerRontosecond Field
 
-inch per rontosecond, defined as: SI centimeter per yoctosecond × (2.54)/(1.0/1000.0)
+inch per rontosecond defined such that: SI centimeter per yoctosecond = in/rs × (2.54)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity InchPerRontosecond;

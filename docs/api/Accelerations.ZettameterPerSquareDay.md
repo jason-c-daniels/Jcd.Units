@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareDay Field
 
-zettameter per square day, defined as: exameter per square hour × (1000.0)/((24.0)*(24.0))
+zettameter per square day defined such that: exameter per square hour = Zm/dy² × (1000.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquareDay;

@@ -3,7 +3,7 @@
 
 ## Masses.Microtonne Field
 
-microtonne, defined as: millitonne × 1.0/1000.0
+microtonne defined such that: millitonne = μt × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Microtonne;

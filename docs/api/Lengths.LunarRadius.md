@@ -3,7 +3,7 @@
 
 ## Lengths.LunarRadius Field
 
-lunar radius, defined as: SI kilometer × 1_737.4
+lunar radius defined such that: SI kilometer = R(L) × 1_737.4.
 
 ```csharp
 public static readonly Length LunarRadius;

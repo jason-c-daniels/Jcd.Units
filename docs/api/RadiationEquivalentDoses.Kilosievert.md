@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Kilosievert Field
 
-kilosievert, defined as: hectosievert × 10.0
+kilosievert defined such that: hectosievert = ksv × 10.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Kilosievert;

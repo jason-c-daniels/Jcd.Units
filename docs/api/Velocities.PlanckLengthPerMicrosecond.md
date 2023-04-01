@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerMicrosecond Field
 
-planck-length per microsecond, defined as: SI meter per millisecond × (1.616255E-35)/(1.0/1000.0)
+planck-length per microsecond defined such that: SI meter per millisecond = ℓₚ/μs × (1.616255E-35)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerMicrosecond;

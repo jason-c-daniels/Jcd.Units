@@ -3,7 +3,7 @@
 
 ## Densities.HectotonnePerCubicDecimeter Field
 
-hectotonne per cubic decimeter, defined as: dekatonne per cubic meter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+hectotonne per cubic decimeter defined such that: dekatonne per cubic meter = ht/dm³ × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density HectotonnePerCubicDecimeter;

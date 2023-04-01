@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerWeek Field
 
-mil per week, defined as: inch per day × (1.0/1000.0)/(7.0)
+mil per week defined such that: inch per day = mil/wk × (1.0/1000.0)/(7.0).
 
 ```csharp
 public static readonly Velocity MilPerWeek;

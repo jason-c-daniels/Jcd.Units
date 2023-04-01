@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareTick Field
 
-picometer per square tick, defined as: nanometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+picometer per square tick defined such that: nanometer per square nanosecond = pm/tick² × (1.0/1000.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareTick;

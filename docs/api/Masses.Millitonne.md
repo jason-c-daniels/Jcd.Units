@@ -3,7 +3,7 @@
 
 ## Masses.Millitonne Field
 
-millitonne, defined as: centitonne × 1.0/10.0
+millitonne defined such that: centitonne = mt × 1.0/10.0.
 
 ```csharp
 public static readonly Mass Millitonne;

@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicRonnameter Field
 
-dekatonne per cubic ronnameter, defined as: tonne per cubic yottameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+dekatonne per cubic ronnameter defined such that: tonne per cubic yottameter = dat/Rm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density DekatonnePerCubicRonnameter;

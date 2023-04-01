@@ -3,7 +3,7 @@
 
 ## Frequencies.Yottahertz Field
 
-yottahertz, defined as: zettahertz × 1000.0
+yottahertz defined such that: zettahertz = YHz × 1000.0.
 
 ```csharp
 public static readonly Frequency Yottahertz;

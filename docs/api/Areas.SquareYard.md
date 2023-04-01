@@ -3,7 +3,7 @@
 
 ## Areas.SquareYard Field
 
-square yard, defined as: square foot × (3.0)*(3.0)
+square yard defined such that: square foot = yd² × (3.0)*(3.0).
 
 ```csharp
 public static readonly Area SquareYard;

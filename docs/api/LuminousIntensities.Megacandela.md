@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Megacandela Field
 
-megacandela, defined as: kilocandela × 1000.0
+megacandela defined such that: kilocandela = Mcd × 1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Megacandela;

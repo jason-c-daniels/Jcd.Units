@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareMinute Field
 
-thou per square minute, defined as: foot per square second × (1.0/12000.0)/((60.0)*(60.0))
+thou per square minute defined such that: foot per square second = th/min² × (1.0/12000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration ThouPerSquareMinute;

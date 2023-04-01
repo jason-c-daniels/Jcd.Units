@@ -3,7 +3,7 @@
 
 ## Durations.Picosecond Field
 
-picosecond, defined as: nanosecond × 1.0/1000.0
+picosecond defined such that: nanosecond = ps × 1.0/1000.0.
 
 ```csharp
 public static readonly Duration Picosecond;

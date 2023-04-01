@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerHour Field
 
-dekameter per hour, defined as: meter per minute × (10.0)/(60.0)
+dekameter per hour defined such that: meter per minute = dam/hr × (10.0)/(60.0).
 
 ```csharp
 public static readonly Velocity DekameterPerHour;

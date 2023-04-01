@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerDecade Field
 
-point per decade, defined as: inch per year × (1.0/72.0)/(10.0)
+point per decade defined such that: inch per year = p/decade × (1.0/72.0)/(10.0).
 
 ```csharp
 public static readonly Velocity PointPerDecade;

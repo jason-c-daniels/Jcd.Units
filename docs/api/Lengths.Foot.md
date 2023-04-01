@@ -3,7 +3,7 @@
 
 ## Lengths.Foot Field
 
-foot, defined as: inch × 12
+foot defined such that: inch = ft × 12.
 
 ```csharp
 public static readonly Length Foot;

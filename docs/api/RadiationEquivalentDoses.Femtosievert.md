@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Femtosievert Field
 
-femtosievert, defined as: picosievert × 1.0/1000.0
+femtosievert defined such that: picosievert = fsv × 1.0/1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Femtosievert;

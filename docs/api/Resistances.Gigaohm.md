@@ -3,7 +3,7 @@
 
 ## Resistances.Gigaohm Field
 
-gigaohm, defined as: megaohm × 1000.0
+gigaohm defined such that: megaohm = GΩ × 1000.0.
 
 ```csharp
 public static readonly Resistance Gigaohm;

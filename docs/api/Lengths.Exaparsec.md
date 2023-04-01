@@ -3,7 +3,7 @@
 
 ## Lengths.Exaparsec Field
 
-exaparsec, defined as: petaparsec × 1000.0
+exaparsec defined such that: petaparsec = Epc × 1000.0.
 
 ```csharp
 public static readonly Length Exaparsec;

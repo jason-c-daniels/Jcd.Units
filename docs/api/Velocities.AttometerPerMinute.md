@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerMinute Field
 
-attometer per minute, defined as: femtometer per second × (1.0/1000.0)/(60.0)
+attometer per minute defined such that: femtometer per second = am/min × (1.0/1000.0)/(60.0).
 
 ```csharp
 public static readonly Velocity AttometerPerMinute;

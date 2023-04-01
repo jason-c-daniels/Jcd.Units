@@ -3,7 +3,7 @@
 
 ## Lengths.Mil Field
 
-mil, defined as: inch × 1.0/1000.0
+mil defined such that: inch = mil × 1.0/1000.0.
 
 ```csharp
 public static readonly Length Mil;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Gigatesla Field
 
-gigatesla, defined as: megatesla × 1000.0
+gigatesla defined such that: megatesla = GT × 1000.0.
 
 ```csharp
 public static readonly MagneticFluxDensity Gigatesla;

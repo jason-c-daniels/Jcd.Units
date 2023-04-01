@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerNonillionYears Field
 
-rod per nonillion years, defined as: SI meter per octillion years × (5.0292)/(1000.0)
+rod per nonillion years defined such that: SI meter per octillion years = rd/Qyr × (5.0292)/(1000.0).
 
 ```csharp
 public static readonly Velocity RodPerNonillionYears;

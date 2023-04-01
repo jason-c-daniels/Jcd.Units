@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareYear Field
 
-quettameter per square year, defined as: ronnameter per square day × (1000.0)/((365.2525)*(365.2525))
+quettameter per square year defined such that: ronnameter per square day = Qm/yr² × (1000.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareYear;

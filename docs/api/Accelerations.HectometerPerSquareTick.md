@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareTick Field
 
-hectometer per square tick, defined as: dekameter per square nanosecond × (10.0)/((100.0)*(100.0))
+hectometer per square tick defined such that: dekameter per square nanosecond = hm/tick² × (10.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareTick;

@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Ronnaweber Field
 
-ronnaweber, defined as: yottaweber × 1000.0
+ronnaweber defined such that: yottaweber = RWb × 1000.0.
 
 ```csharp
 public static readonly MagneticFlux Ronnaweber;

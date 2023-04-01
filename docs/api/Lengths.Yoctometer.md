@@ -3,7 +3,7 @@
 
 ## Lengths.Yoctometer Field
 
-yoctometer, defined as: zeptometer × 1.0/1000.0
+yoctometer defined such that: zeptometer = ym × 1.0/1000.0.
 
 ```csharp
 public static readonly Length Yoctometer;

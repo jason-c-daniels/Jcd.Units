@@ -3,7 +3,7 @@
 
 ## Lengths.Zettameter Field
 
-zettameter, defined as: exameter × 1000.0
+zettameter defined such that: exameter = Zm × 1000.0.
 
 ```csharp
 public static readonly Length Zettameter;

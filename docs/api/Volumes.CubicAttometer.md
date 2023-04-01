@@ -3,7 +3,7 @@
 
 ## Volumes.CubicAttometer Field
 
-cubic attometer, defined as: cubic femtometer × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+cubic attometer defined such that: cubic femtometer = am³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
 
 ```csharp
 public static readonly Volume CubicAttometer;

@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerRontosecond Field
 
-millimeter per rontosecond, defined as: centimeter per yoctosecond × (1.0/10.0)/(1.0/1000.0)
+millimeter per rontosecond defined such that: centimeter per yoctosecond = mm/rs × (1.0/10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MillimeterPerRontosecond;

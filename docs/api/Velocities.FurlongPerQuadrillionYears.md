@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerQuadrillionYears Field
 
-furlong per quadrillion years, defined as: chain per trillion years × (10.0)/(1000.0)
+furlong per quadrillion years defined such that: chain per trillion years = fur/Pyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FurlongPerQuadrillionYears;

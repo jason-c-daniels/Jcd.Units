@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerYear Field
 
-ronnameter per year, defined as: yottameter per day × (1000.0)/(365.2525)
+ronnameter per year defined such that: yottameter per day = Rm/yr × (1000.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity RonnameterPerYear;

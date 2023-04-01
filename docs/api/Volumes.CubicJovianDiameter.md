@@ -3,7 +3,7 @@
 
 ## Volumes.CubicJovianDiameter Field
 
-cubic jovian diameter, defined as: cubic jovian radius × (2.0)*(2.0)*(2.0)
+cubic jovian diameter defined such that: cubic jovian radius = D(J)³ × (2.0)*(2.0)*(2.0).
 
 ```csharp
 public static readonly Volume CubicJovianDiameter;

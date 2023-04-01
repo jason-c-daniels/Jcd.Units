@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Millikatal Field
 
-millikatal, defined as: centikatal × 1.0/10.0
+millikatal defined such that: centikatal = mkat × 1.0/10.0.
 
 ```csharp
 public static readonly CatalyticActivity Millikatal;

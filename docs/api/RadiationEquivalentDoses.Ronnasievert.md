@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Ronnasievert Field
 
-ronnasievert, defined as: yottasievert × 1000.0
+ronnasievert defined such that: yottasievert = Rsv × 1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Ronnasievert;

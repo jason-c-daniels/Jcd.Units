@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicZettameter Field
 
-exagram per cubic zettameter, defined as: petagram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+exagram per cubic zettameter defined such that: petagram per cubic exameter = Eg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density ExagramPerCubicZettameter;

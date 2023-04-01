@@ -3,7 +3,7 @@
 
 ## Frequencies.Nanohertz Field
 
-nanohertz, defined as: microhertz × 1.0/1000.0
+nanohertz defined such that: microhertz = nHz × 1.0/1000.0.
 
 ```csharp
 public static readonly Frequency Nanohertz;

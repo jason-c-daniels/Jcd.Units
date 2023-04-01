@@ -3,7 +3,7 @@
 
 ## Pressures.Gigatorr Field
 
-gigatorr, defined as: megatorr × 1000.0
+gigatorr defined such that: megatorr = GTorr × 1000.0.
 
 ```csharp
 public static readonly Pressure Gigatorr;

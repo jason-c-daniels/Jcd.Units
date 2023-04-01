@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerPlanckTime Field
 
-nautical mile per planck-time, defined as: cable per microsecond × (10.0)/(5.391247E-38)
+nautical mile per planck-time defined such that: cable per microsecond = nmi/tₚ × (10.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity NauticalMilePerPlanckTime;

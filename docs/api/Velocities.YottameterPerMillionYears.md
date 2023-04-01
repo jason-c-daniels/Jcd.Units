@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerMillionYears Field
 
-yottameter per million years, defined as: zettameter per millennium × (1000.0)/(1000.0)
+yottameter per million years defined such that: zettameter per millennium = Ym/Myr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity YottameterPerMillionYears;

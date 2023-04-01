@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Nanovolt Field
 
-nanovolt, defined as: microvolt × 1.0/1000.0
+nanovolt defined such that: microvolt = nV × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalPotential Nanovolt;

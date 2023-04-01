@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareZeptosecond Field
 
-millimeter per square zeptosecond, defined as: centimeter per square attosecond × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))
+millimeter per square zeptosecond defined such that: centimeter per square attosecond = mm/zs² × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareZeptosecond;
