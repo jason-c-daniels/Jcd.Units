@@ -1,12 +1,12 @@
-﻿// ReSharper disable UnusedType.Global
-// ReSharper disable UnusedMember.Global
-
-#region
+﻿#region
 
 using System.Runtime.CompilerServices;
 
 using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitTypes;
+
+// ReSharper disable UnusedType.Global
+// ReSharper disable UnusedMember.Global
 
 #endregion
 
