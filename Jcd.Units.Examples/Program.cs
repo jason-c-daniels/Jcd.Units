@@ -43,7 +43,7 @@ var tK  = new Temperature("K", "K", tC, 1, -273.15);
 var tkK = new Temperature("kK", "kK", tK, 1000d);
 var tde = new Temperature("de", "de", tC, -2d / 3d, -150);
 
-UnitRegistry<Temperature>.Default.AutoregisterUnits();
+UnitRegistry<Temperature>.Default.AutoregisterFromAllAssemblies();
 var tempsY = UnitRegistry<Temperature>.Default.All;
 var nl2    = UnitRegistry<Temperature>.Default.NameLookup;
 var sl2    = UnitRegistry<Temperature>.Default.SymbolLookup;
@@ -59,7 +59,7 @@ var tempsZ = UnitRegistry<Temperature>.Default.All;
 var nl3    = UnitRegistry<Temperature>.Default.NameLookup;
 var sl3    = UnitRegistry<Temperature>.Default.SymbolLookup;
 
-UnitRegistry<Length>.Default.AutoregisterUnits();
+UnitRegistry<Length>.Default.AutoregisterFromAllAssemblies();
 
 var lengths        = UnitRegistry<Length>.Default.All;
 var lengthByName   = UnitRegistry<Length>.Default.NameLookup;

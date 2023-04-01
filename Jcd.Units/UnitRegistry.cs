@@ -31,7 +31,7 @@ public class UnitRegistry<TUnit>
    private readonly SemaphoreSlim _bagLock = new (1, 1);
 
    // ReSharper disable once StaticMemberInGenericType
-   private bool _inDiscovery;
+   private bool _inAutoregister;
 
    private ILookup<string, TUnit>? _nameLookup;
    private bool _needsRebuild = true;
@@ -83,35 +83,44 @@ public class UnitRegistry<TUnit>
    }
 
    /// <summary>
-   /// Searches all loaded assemblies and registers matching unit types from fields and/or properties.
+   /// Searches the specified assembly and registers matching unit types from fields and/or properties.
    /// </summary>
-   public void AutoregisterUnits()
+   public void AutoregisterFrom(Assembly assembly)
    {
-      var assemblies = AppDomain.CurrentDomain.GetAssemblies();
-
       var fieldUnits =
-               from assembly in assemblies
                from type in assembly.GetTypes()
                from field in type.GetFields(BindingFlags.Static | BindingFlags.DeclaredOnly | BindingFlags.Public)
                where field.FieldType == typeof(TUnit)
                select field.GetValue(field.Name) as TUnit;
 
       var propertyUnits =
-               from assembly in assemblies
                from type in assembly.GetTypes()
                from field in type.GetProperties(BindingFlags.Static | BindingFlags.DeclaredOnly | BindingFlags.Public)
                where field.PropertyType == typeof(TUnit)
                select field.GetValue(field.Name) as TUnit;
 
       _bagLock.Wait();
-      _inDiscovery = true;
+      _inAutoregister = true;
 
       foreach (var unit in fieldUnits) Register(unit);
 
       foreach (var unit in propertyUnits) Register(unit);
 
-      _inDiscovery = false;
+      _inAutoregister = false;
       _bagLock.Release();
+   }
+   
+   /// <summary>
+   /// Searches all loaded assemblies and registers matching unit types from fields and/or properties.
+   /// </summary>
+   public void AutoregisterFromAllAssemblies()
+   {
+      var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+
+      foreach (var assembly in assemblies)
+      {
+         AutoregisterFrom(assembly);
+      }
    }
 
    /// <summary>
@@ -122,7 +131,7 @@ public class UnitRegistry<TUnit>
    {
       var locked = false;
 
-      if (!_inDiscovery)
+      if (!_inAutoregister)
       {
          _bagLock.Wait();
          locked = true;
@@ -162,12 +171,22 @@ public class UnitRegistry
    /// Searches all loaded assemblies and registers matching unit types from fields and/or properties.
    /// </summary>
    /// <typeparam name="TUnit">The type of unit of measure to discover and register.</typeparam>
-   public void AutoregisterUnits<TUnit>()
+   public void Autoregister<TUnit>()
             where TUnit : UnitOfMeasure<TUnit>, IEquatable<TUnit>
    {
-      UnitRegistry<TUnit>.Default.AutoregisterUnits();
+      UnitRegistry<TUnit>.Default.AutoregisterFromAllAssemblies();
    }
 
+   /// <summary>
+   /// Searches all loaded assemblies and registers matching unit types from fields and/or properties.
+   /// </summary>
+   /// <typeparam name="TUnit">The type of unit of measure to discover and register.</typeparam>
+   public void AutoregisterFrom<TUnit>(Assembly assembly)
+            where TUnit : UnitOfMeasure<TUnit>, IEquatable<TUnit>
+   {
+      UnitRegistry<TUnit>.Default.AutoregisterFrom(assembly);
+   }
+   
    /// <summary>
    /// Gets a name based <see cref="ILookup{TKey,TElement}"/> for the requested unit type.
    /// </summary>
@@ -191,13 +210,26 @@ public class UnitRegistry
    /// </summary>
    public void AutoregisterAllUnits()
    {
-      var types = AppDomain.CurrentDomain.GetAssemblies()
+      var assemblies = AppDomain.CurrentDomain.GetAssemblies();
+
+      foreach (var assembly in assemblies)
+      {
+         AutoregisterAllUnitsFrom(assembly);
+      }
+   }
+   
+   /// <summary>
+   /// Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
+   /// </summary>
+   public void AutoregisterAllUnitsFrom(Assembly assembly)
+   {
+      var types = assembly
                            .FindImplementationsOf(typeof(UnitOfMeasure<>));
 
       foreach (var type in types)
       {
          typeof(UnitRegistry)
-                 .GetMethod(nameof(AutoregisterUnits))!
+                 .GetMethod(nameof(Autoregister))!
                  .MakeGenericMethod(type)
                  .Invoke(this, null);
       }
