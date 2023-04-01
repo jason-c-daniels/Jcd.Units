@@ -17,6 +17,7 @@
       <Nullable>enable</Nullable>
       <AssemblyName>unit-gen</AssemblyName>
       <LangVersion>10</LangVersion>
+      <IsPackable>false</IsPackable>
    </PropertyGroup>
 
    <ItemGroup>
