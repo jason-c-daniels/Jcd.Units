@@ -335,16 +335,6 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                            );
 
    /// <summary>
-   /// cubic Planck-length, defined as: SI cubic meter × (1.616255E-35)*(1.616255E-35)*(1.616255E-35)
-   /// </summary>
-   public static readonly Volume CubicPlanckLength = new (
-                                                          "cubic Planck-length"
-                                                        , "ℓₚ³"
-                                                        , SI.Volumes.CubicMeter
-                                                        , 1.616255E-35 * 1.616255E-35 * 1.616255E-35
-                                                         );
-
-   /// <summary>
    /// cubic ronnalight-year, defined as: cubic yottalight-year × (1000.0)*(1000.0)*(1000.0)
    /// </summary>
    public static readonly Volume CubicRonnalightYear = new (

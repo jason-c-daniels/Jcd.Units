@@ -220,7 +220,7 @@ public class MathQTests
       var degree        = angleInDegrees.As(Angles.Degree);
       var arcsecond     = degree.To(Angles.ArcSecond);
       var arcminute     = degree.To(Angles.Degree);
-      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var radian        = degree.To(Angles.Radian);
       var angleInRadian = (double)radian;
       Assert.Equal(Math.Cos(angleInRadian), MathQ.Cos(radian));
       Assert.Equal(Math.Cos(angleInRadian), MathQ.Cos(degree));
@@ -240,7 +240,7 @@ public class MathQTests
       var degree        = angleInDegrees.As(Angles.Degree);
       var arcsecond     = degree.To(Angles.ArcSecond);
       var arcminute     = degree.To(Angles.Degree);
-      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var radian        = degree.To(Angles.Radian);
       var angleInRadian = (double)radian;
       Assert.Equal(Math.Sin(angleInRadian), MathQ.Sin(radian));
       Assert.Equal(Math.Sin(angleInRadian), MathQ.Sin(degree));
@@ -260,7 +260,7 @@ public class MathQTests
       var degree        = angleInDegrees.As(Angles.Degree);
       var arcsecond     = degree.To(Angles.ArcSecond);
       var arcminute     = degree.To(Angles.Degree);
-      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var radian        = degree.To(Angles.Radian);
       var angleInRadian = (double)radian;
       Assert.Equal(Math.Tan(angleInRadian), MathQ.Tan(radian));
       Assert.Equal(Math.Tan(angleInRadian), MathQ.Tan(degree));
@@ -280,7 +280,7 @@ public class MathQTests
       var degree        = angleInDegrees.As(Angles.Degree);
       var arcsecond     = degree.To(Angles.ArcSecond);
       var arcminute     = degree.To(Angles.Degree);
-      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var radian        = degree.To(Angles.Radian);
       var angleInRadian = (double)radian;
       Assert.Equal(Math.Cosh(angleInRadian), MathQ.Cosh(radian));
       Assert.Equal(Math.Cosh(angleInRadian), MathQ.Cosh(degree));
@@ -300,7 +300,7 @@ public class MathQTests
       var degree        = angleInDegrees.As(Angles.Degree);
       var arcsecond     = degree.To(Angles.ArcSecond);
       var arcminute     = degree.To(Angles.Degree);
-      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var radian        = degree.To(Angles.Radian);
       var angleInRadian = (double)radian;
       Assert.Equal(Math.Sinh(angleInRadian), MathQ.Sinh(radian));
       Assert.Equal(Math.Sinh(angleInRadian), MathQ.Sinh(degree));
@@ -320,7 +320,7 @@ public class MathQTests
       var degree        = angleInDegrees.As(Angles.Degree);
       var arcsecond     = degree.To(Angles.ArcSecond);
       var arcminute     = degree.To(Angles.Degree);
-      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var radian        = degree.To(Angles.Radian);
       var angleInRadian = (double)radian;
       Assert.Equal(Math.Tanh(angleInRadian), MathQ.Tanh(radian));
       Assert.Equal(Math.Tanh(angleInRadian), MathQ.Tanh(degree));
@@ -340,7 +340,7 @@ public class MathQTests
       var degree        = angleInDegrees.As(Angles.Degree);
       var arcsecond     = degree.To(Angles.ArcSecond);
       var arcminute     = degree.To(Angles.Degree);
-      var radian        = degree.To(UnitsOfMeasure.SI.Angles.Radian);
+      var radian        = degree.To(Angles.Radian);
       var angleInRadian = (double)radian;
       Assert.Equal(Math.SinCos(angleInRadian), MathQ.SinCos(radian));
       Assert.Equal(Math.SinCos(angleInRadian), MathQ.SinCos(degree));
@@ -359,33 +359,33 @@ public class MathQTests
    {
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Acos(cos), (double)MathQ.Acos(cos), comparer);
-      Assert.Equal(Math.Acos(cos), (double)MathQ.Acos(cos, UnitsOfMeasure.SI.Angles.Radian), comparer);
+      Assert.Equal(Math.Acos(cos), (double)MathQ.Acos(cos, Angles.Radian), comparer);
 
       Assert.Equal(
                    Math.Acos(cos)
                  , (double)MathQ.Acos(cos, Angles.Degree)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Acos(cos)
                  , (double)MathQ.Acos(cos, Angles.ArcSecond)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Acos(cos)
                  , (double)MathQ.Acos(cos, Angles.ArcMinute)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Acos(cos)
                  , (double)MathQ.Acos(cos, Angles.Gradian)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
    }
@@ -401,33 +401,33 @@ public class MathQTests
    {
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Asin(sin), (double)MathQ.Asin(sin), comparer);
-      Assert.Equal(Math.Asin(sin), (double)MathQ.Asin(sin, UnitsOfMeasure.SI.Angles.Radian), comparer);
+      Assert.Equal(Math.Asin(sin), (double)MathQ.Asin(sin, Angles.Radian), comparer);
 
       Assert.Equal(
                    Math.Asin(sin)
                  , (double)MathQ.Asin(sin, Angles.Degree)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Asin(sin)
                  , (double)MathQ.Asin(sin, Angles.ArcSecond)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Asin(sin)
                  , (double)MathQ.Asin(sin, Angles.ArcMinute)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Asin(sin)
                  , (double)MathQ.Asin(sin, Angles.Gradian)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
    }
@@ -443,33 +443,33 @@ public class MathQTests
    {
       var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
       Assert.Equal(Math.Atan(tan), (double)MathQ.Atan(tan), comparer);
-      Assert.Equal(Math.Atan(tan), (double)MathQ.Atan(tan, UnitsOfMeasure.SI.Angles.Radian), comparer);
+      Assert.Equal(Math.Atan(tan), (double)MathQ.Atan(tan, Angles.Radian), comparer);
 
       Assert.Equal(
                    Math.Atan(tan)
                  , (double)MathQ.Atan(tan, Angles.Degree)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atan(tan)
                  , (double)MathQ.Atan(tan, Angles.ArcSecond)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atan(tan)
                  , (double)MathQ.Atan(tan, Angles.ArcMinute)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atan(tan)
                  , (double)MathQ.Atan(tan, Angles.Gradian)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
    }
@@ -485,33 +485,33 @@ public class MathQTests
    {
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Atan2(x, y), (double)MathQ.Atan2(x, y), comparer);
-      Assert.Equal(Math.Atan2(x, y), (double)MathQ.Atan2(x, y, UnitsOfMeasure.SI.Angles.Radian), comparer);
+      Assert.Equal(Math.Atan2(x, y), (double)MathQ.Atan2(x, y, Angles.Radian), comparer);
 
       Assert.Equal(
                    Math.Atan2(x, y)
                  , (double)MathQ.Atan2(x, y, Angles.Degree)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atan2(x, y)
                  , (double)MathQ.Atan2(x, y, Angles.ArcSecond)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atan2(x, y)
                  , (double)MathQ.Atan2(x, y, Angles.ArcMinute)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atan2(x, y)
                  , (double)MathQ.Atan2(x, y, Angles.Gradian)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
    }
@@ -527,33 +527,33 @@ public class MathQTests
    {
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Acosh(tan), (double)MathQ.Acosh(tan), comparer);
-      Assert.Equal(Math.Acosh(tan), (double)MathQ.Acosh(tan, UnitsOfMeasure.SI.Angles.Radian), comparer);
+      Assert.Equal(Math.Acosh(tan), (double)MathQ.Acosh(tan, Angles.Radian), comparer);
 
       Assert.Equal(
                    Math.Acosh(tan)
                  , (double)MathQ.Acosh(tan, Angles.Degree)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Acosh(tan)
                  , (double)MathQ.Acosh(tan, Angles.ArcSecond)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Acosh(tan)
                  , (double)MathQ.Acosh(tan, Angles.ArcMinute)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Acosh(tan)
                  , (double)MathQ.Acosh(tan, Angles.Gradian)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
    }
@@ -569,33 +569,33 @@ public class MathQTests
    {
       var comparer = BuiltInRoundingComparer.TenDecimalPlaces;
       Assert.Equal(Math.Asinh(tan), (double)MathQ.Asinh(tan), comparer);
-      Assert.Equal(Math.Asinh(tan), (double)MathQ.Asinh(tan, UnitsOfMeasure.SI.Angles.Radian), comparer);
+      Assert.Equal(Math.Asinh(tan), (double)MathQ.Asinh(tan, Angles.Radian), comparer);
 
       Assert.Equal(
                    Math.Asinh(tan)
                  , (double)MathQ.Asinh(tan, Angles.Degree)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Asinh(tan)
                  , (double)MathQ.Asinh(tan, Angles.ArcSecond)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Asinh(tan)
                  , (double)MathQ.Asinh(tan, Angles.ArcMinute)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Asinh(tan)
                  , (double)MathQ.Asinh(tan, Angles.Gradian)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
    }
@@ -611,33 +611,33 @@ public class MathQTests
    {
       var comparer = BuiltInRoundingComparer.FifteenDecimalPlaces;
       Assert.Equal(Math.Atanh(tan), (double)MathQ.Atanh(tan), comparer);
-      Assert.Equal(Math.Atanh(tan), (double)MathQ.Atanh(tan, UnitsOfMeasure.SI.Angles.Radian), comparer);
+      Assert.Equal(Math.Atanh(tan), (double)MathQ.Atanh(tan, Angles.Radian), comparer);
 
       Assert.Equal(
                    Math.Atanh(tan)
                  , (double)MathQ.Atanh(tan, Angles.Degree)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atanh(tan)
                  , (double)MathQ.Atanh(tan, Angles.ArcSecond)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atanh(tan)
                  , (double)MathQ.Atanh(tan, Angles.ArcMinute)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
 
       Assert.Equal(
                    Math.Atanh(tan)
                  , (double)MathQ.Atanh(tan, Angles.Gradian)
-                                .To(UnitsOfMeasure.SI.Angles.Radian)
+                                .To(Angles.Radian)
                  , comparer
                   );
    }

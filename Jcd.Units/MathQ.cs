@@ -5,7 +5,7 @@
 
 using System.Runtime.CompilerServices;
 
-using Jcd.Units.UnitsOfMeasure.SI;
+using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitTypes;
 
 #endregion

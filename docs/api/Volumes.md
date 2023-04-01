@@ -47,7 +47,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [CubicParsec](Volumes.CubicParsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicParsec') | cubic parsec, defined as: cubic light-year × (3.2615637769757)*(3.2615637769757)*(3.2615637769757) |
 | [CubicPetalightYear](Volumes.CubicPetalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicPetalightYear') | cubic petalight-year, defined as: cubic teralight-year × (1000.0)*(1000.0)*(1000.0) |
 | [CubicPetaparsec](Volumes.CubicPetaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicPetaparsec') | cubic petaparsec, defined as: cubic teraparsec × (1000.0)*(1000.0)*(1000.0) |
-| [CubicPlanckLength](Volumes.CubicPlanckLength.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicPlanckLength') | cubic Planck-length, defined as: SI cubic meter × (1.616255E-35)*(1.616255E-35)*(1.616255E-35) |
 | [CubicQuettalightYear](Volumes.CubicQuettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicQuettalightYear') | cubic quettalight-year, defined as: cubic ronnalight-year × (1000.0)*(1000.0)*(1000.0) |
 | [CubicQuettaparsec](Volumes.CubicQuettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicQuettaparsec') | cubic quettaparsec, defined as: cubic ronnaparsec × (1000.0)*(1000.0)*(1000.0) |
 | [CubicRonnalightYear](Volumes.CubicRonnalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Volumes.CubicRonnalightYear') | cubic ronnalight-year, defined as: cubic yottalight-year × (1000.0)*(1000.0)*(1000.0) |

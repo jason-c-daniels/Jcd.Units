@@ -41,9 +41,4 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
    /// solar mass, defined as: SI kilogram × 1.989E+30
    /// </summary>
    public static readonly Mass SolarMass = new ("solar mass", "M(☉)", SI.Masses.Kilogram, 1.989E+30);
-
-   /// <summary>
-   /// planck-mass, defined as: SI kilogram × 2.176434E-8
-   /// </summary>
-   public static readonly Mass PlanckMass = new ("planck-mass", "mₚ", SI.Masses.Kilogram, 2.176434E-8);
 }

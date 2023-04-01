@@ -865,6 +865,12 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
+   /// dekameter per planck-time, defined as: meter per microsecond × (10.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity DekameterPerPlanckTime =
+            new ("dekameter per planck-time", "dam/tₚ", MeterPerMicrosecond, 10.0 / 5.391247E-38);
+
+   /// <summary>
    /// decimeter per quectosecond, defined as: meter per rontosecond × (1.0/10.0)/(1.0/1000.0)
    /// </summary>
    public static readonly Velocity DecimeterPerQuectosecond = new (
@@ -3556,16 +3562,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per planck-time, defined as: meter per microsecond × (1.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity MeterPerPlanckTime = new (
-                                                             "meter per planck-time"
-                                                           , "m/tₚ"
-                                                           , MeterPerMicrosecond
-                                                           , 1.0 / 5.391247E-38
-                                                            );
-
-   /// <summary>
    /// terameter per minute, defined as: gigameter per second × (1000.0)/(60.0)
    /// </summary>
    public static readonly Velocity TerameterPerMinute = new (
@@ -3574,6 +3570,11 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , GigameterPerSecond
                                                            , 1000.0 / 60.0
                                                             );
+
+   /// <summary>
+   /// meter per tick, defined as: meter per nanosecond × (1.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity MeterPerTick = new ("meter per tick", "m/tick", MeterPerNanosecond, 1.0 / 100.0);
 
    /// <summary>
    /// decimeter per billion years, defined as: meter per million years × (1.0/10.0)/(1000.0)
@@ -3740,11 +3741,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity RonnameterPerMinute =
             new ("ronnameter per minute", "Rm/min", YottameterPerSecond, 1000.0 / 60.0);
-
-   /// <summary>
-   /// meter per tick, defined as: meter per nanosecond × (1.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity MeterPerTick = new ("meter per tick", "m/tick", MeterPerNanosecond, 1.0 / 100.0);
 
    /// <summary>
    /// micrometer per year, defined as: millimeter per day × (1.0/1000.0)/(365.2525)
@@ -4056,16 +4052,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// decimeter per planck-time, defined as: meter per microsecond × (1.0/10.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity DecimeterPerPlanckTime = new (
-                                                                 "decimeter per planck-time"
-                                                               , "dm/tₚ"
-                                                               , MeterPerMicrosecond
-                                                               , 1.0 / 10.0 / 5.391247E-38
-                                                                );
-
-   /// <summary>
    /// terameter per hour, defined as: gigameter per minute × (1000.0)/(60.0)
    /// </summary>
    public static readonly Velocity TerameterPerHour = new (
@@ -4094,6 +4080,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , RontometerPerHour
                                                           , 1.0 / 1000.0 / 24.0
                                                            );
+
+   /// <summary>
+   /// decimeter per tick, defined as: meter per nanosecond × (1.0/10.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity DecimeterPerTick = new (
+                                                           "decimeter per tick"
+                                                         , "dm/tick"
+                                                         , MeterPerNanosecond
+                                                         , 1.0 / 10.0 / 100.0
+                                                          );
 
    /// <summary>
    /// millimeter per billion years, defined as: centimeter per million years × (1.0/10.0)/(1000.0)
@@ -4334,16 +4330,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per tick, defined as: meter per nanosecond × (1.0/10.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity DecimeterPerTick = new (
-                                                           "decimeter per tick"
-                                                         , "dm/tick"
-                                                         , MeterPerNanosecond
-                                                         , 1.0 / 10.0 / 100.0
-                                                          );
-
-   /// <summary>
    /// micrometer per billion years, defined as: millimeter per million years × (1.0/1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity MicrometerPerBillionYears = new (
@@ -4505,16 +4491,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity DekameterPerWeek = new ("dekameter per week", "dam/wk", MeterPerDay, 10.0 / 7.0);
 
    /// <summary>
-   /// centimeter per planck-time, defined as: decimeter per microsecond × (1.0/10.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity CentimeterPerPlanckTime = new (
-                                                                  "centimeter per planck-time"
-                                                                , "cm/tₚ"
-                                                                , DecimeterPerMicrosecond
-                                                                , 1.0 / 10.0 / 5.391247E-38
-                                                                 );
-
-   /// <summary>
    /// terameter per day, defined as: gigameter per hour × (1000.0)/(24.0)
    /// </summary>
    public static readonly Velocity TerameterPerDay = new (
@@ -4523,6 +4499,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         , GigameterPerHour
                                                         , 1000.0 / 24.0
                                                          );
+
+   /// <summary>
+   /// centimeter per tick, defined as: decimeter per nanosecond × (1.0/10.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity CentimeterPerTick = new (
+                                                            "centimeter per tick"
+                                                          , "cm/tick"
+                                                          , DecimeterPerNanosecond
+                                                          , 1.0 / 10.0 / 100.0
+                                                           );
 
    /// <summary>
    /// millimeter per septillion years, defined as: centimeter per sextillion years × (1.0/10.0)/(1000.0)
@@ -4815,16 +4801,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// centimeter per tick, defined as: decimeter per nanosecond × (1.0/10.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity CentimeterPerTick = new (
-                                                            "centimeter per tick"
-                                                          , "cm/tick"
-                                                          , DecimeterPerNanosecond
-                                                          , 1.0 / 10.0 / 100.0
-                                                           );
-
-   /// <summary>
    /// micrometer per septillion years, defined as: millimeter per sextillion years × (1.0/1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity MicrometerPerSeptillionYears = new (
@@ -4853,16 +4829,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , RonnameterPerHour
                                                           , 1000.0 / 24.0
                                                            );
-
-   /// <summary>
-   /// millimeter per planck-time, defined as: centimeter per microsecond × (1.0/10.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity MillimeterPerPlanckTime = new (
-                                                                  "millimeter per planck-time"
-                                                                , "mm/tₚ"
-                                                                , CentimeterPerMicrosecond
-                                                                , 1.0 / 10.0 / 5.391247E-38
-                                                                 );
 
    /// <summary>
    /// terameter per week, defined as: gigameter per day × (1000.0)/(7.0)
@@ -4909,6 +4875,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity QuectometerPerDecade =
             new ("quectometer per decade", "qm/decade", RontometerPerYear, 1.0 / 1000.0 / 10.0);
+
+   /// <summary>
+   /// millimeter per tick, defined as: centimeter per nanosecond × (1.0/10.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity MillimeterPerTick = new (
+                                                            "millimeter per tick"
+                                                          , "mm/tick"
+                                                          , CentimeterPerNanosecond
+                                                          , 1.0 / 10.0 / 100.0
+                                                           );
 
    /// <summary>
    /// micrometer per octillion years, defined as: millimeter per septillion years × (1.0/1000.0)/(1000.0)
@@ -5144,16 +5120,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// micrometer per planck-time, defined as: millimeter per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity MicrometerPerPlanckTime = new (
-                                                                  "micrometer per planck-time"
-                                                                , "μm/tₚ"
-                                                                , MillimeterPerMicrosecond
-                                                                , 1.0 / 1000.0 / 5.391247E-38
-                                                                 );
-
-   /// <summary>
    /// terameter per year, defined as: gigameter per day × (1000.0)/(365.2525)
    /// </summary>
    public static readonly Velocity TerameterPerYear = new (
@@ -5246,13 +5212,13 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// millimeter per tick, defined as: centimeter per nanosecond × (1.0/10.0)/(100.0)
+   /// micrometer per tick, defined as: millimeter per nanosecond × (1.0/1000.0)/(100.0)
    /// </summary>
-   public static readonly Velocity MillimeterPerTick = new (
-                                                            "millimeter per tick"
-                                                          , "mm/tick"
-                                                          , CentimeterPerNanosecond
-                                                          , 1.0 / 10.0 / 100.0
+   public static readonly Velocity MicrometerPerTick = new (
+                                                            "micrometer per tick"
+                                                          , "μm/tick"
+                                                          , MillimeterPerNanosecond
+                                                          , 1.0 / 1000.0 / 100.0
                                                            );
 
    /// <summary>
@@ -5450,16 +5416,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("kilometer per century", "km/century", HectometerPerDecade, 10.0 / 10.0);
 
    /// <summary>
-   /// nanometer per planck-time, defined as: micrometer per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity NanometerPerPlanckTime = new (
-                                                                 "nanometer per planck-time"
-                                                               , "nm/tₚ"
-                                                               , MicrometerPerMicrosecond
-                                                               , 1.0 / 1000.0 / 5.391247E-38
-                                                                );
-
-   /// <summary>
    /// terameter per decade, defined as: gigameter per year × (1000.0)/(10.0)
    /// </summary>
    public static readonly Velocity TerameterPerDecade = new (
@@ -5514,6 +5470,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity MegameterPerCentury =
             new ("megameter per century", "Mm/century", KilometerPerDecade, 1000.0 / 10.0);
+
+   /// <summary>
+   /// nanometer per tick, defined as: micrometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity NanometerPerTick = new (
+                                                           "nanometer per tick"
+                                                         , "nm/tick"
+                                                         , MicrometerPerNanosecond
+                                                         , 1.0 / 1000.0 / 100.0
+                                                          );
 
    /// <summary>
    /// femtometer per septillion years, defined as: picometer per sextillion years × (1.0/1000.0)/(1000.0)
@@ -5580,16 +5546,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , ZeptometerPerBillionYears
                                                                    , 1.0 / 1000.0 / 1000.0
                                                                     );
-
-   /// <summary>
-   /// micrometer per tick, defined as: millimeter per nanosecond × (1.0/1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity MicrometerPerTick = new (
-                                                            "micrometer per tick"
-                                                          , "μm/tick"
-                                                          , MillimeterPerNanosecond
-                                                          , 1.0 / 1000.0 / 100.0
-                                                           );
 
    /// <summary>
    /// quettameter per year, defined as: ronnameter per day × (1000.0)/(365.2525)
@@ -5706,16 +5662,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("zettameter per decade", "Zm/decade", ExameterPerYear, 1000.0 / 10.0);
 
    /// <summary>
-   /// picometer per planck-time, defined as: nanometer per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity PicometerPerPlanckTime = new (
-                                                                 "picometer per planck-time"
-                                                               , "pm/tₚ"
-                                                               , NanometerPerMicrosecond
-                                                               , 1.0 / 1000.0 / 5.391247E-38
-                                                                );
-
-   /// <summary>
    /// terameter per century, defined as: gigameter per decade × (1000.0)/(10.0)
    /// </summary>
    public static readonly Velocity TerameterPerCentury =
@@ -5758,6 +5704,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity YottameterPerDecade =
             new ("yottameter per decade", "Ym/decade", ZettameterPerYear, 1000.0 / 10.0);
+
+   /// <summary>
+   /// picometer per tick, defined as: nanometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity PicometerPerTick = new (
+                                                           "picometer per tick"
+                                                         , "pm/tick"
+                                                         , NanometerPerNanosecond
+                                                         , 1.0 / 1000.0 / 100.0
+                                                          );
 
    /// <summary>
    /// zeptometer per sextillion years, defined as: attometer per quintillion years × (1.0/1000.0)/(1000.0)
@@ -5860,16 +5816,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// nanometer per tick, defined as: micrometer per nanosecond × (1.0/1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity NanometerPerTick = new (
-                                                           "nanometer per tick"
-                                                         , "nm/tick"
-                                                         , MicrometerPerNanosecond
-                                                         , 1.0 / 1000.0 / 100.0
-                                                          );
-
-   /// <summary>
    /// zeptometer per septillion years, defined as: attometer per sextillion years × (1.0/1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity ZeptometerPerSeptillionYears = new (
@@ -5890,16 +5836,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity QuettameterPerDecade =
             new ("quettameter per decade", "Qm/decade", RonnameterPerYear, 1000.0 / 10.0);
-
-   /// <summary>
-   /// femtometer per planck-time, defined as: picometer per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity FemtometerPerPlanckTime = new (
-                                                                  "femtometer per planck-time"
-                                                                , "fm/tₚ"
-                                                                , PicometerPerMicrosecond
-                                                                , 1.0 / 1000.0 / 5.391247E-38
-                                                                 );
 
    /// <summary>
    /// terameter per millennium, defined as: gigameter per century × (1000.0)/(10.0)
@@ -5964,6 +5900,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        , RontometerPerTrillionYears
                                                                        , 1.0 / 1000.0 / 1000.0
                                                                         );
+
+   /// <summary>
+   /// femtometer per tick, defined as: picometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity FemtometerPerTick = new (
+                                                            "femtometer per tick"
+                                                          , "fm/tick"
+                                                          , PicometerPerNanosecond
+                                                          , 1.0 / 1000.0 / 100.0
+                                                           );
 
    /// <summary>
    /// zeptometer per octillion years, defined as: attometer per septillion years × (1.0/1000.0)/(1000.0)
@@ -6084,30 +6030,10 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per planck-time, defined as: femtometer per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity AttometerPerPlanckTime = new (
-                                                                 "attometer per planck-time"
-                                                               , "am/tₚ"
-                                                               , FemtometerPerMicrosecond
-                                                               , 1.0 / 1000.0 / 5.391247E-38
-                                                                );
-
-   /// <summary>
    /// terameter per million years, defined as: gigameter per millennium × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity TerameterPerMillionYears =
             new ("terameter per million years", "Tm/Myr", GigameterPerMillennium, 1000.0 / 1000.0);
-
-   /// <summary>
-   /// picometer per tick, defined as: nanometer per nanosecond × (1.0/1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity PicometerPerTick = new (
-                                                           "picometer per tick"
-                                                         , "pm/tick"
-                                                         , NanometerPerNanosecond
-                                                         , 1.0 / 1000.0 / 100.0
-                                                          );
 
    /// <summary>
    /// quettameter per century, defined as: ronnameter per decade × (1000.0)/(10.0)
@@ -6140,6 +6066,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity ZettameterPerMillennium =
             new ("zettameter per millennium", "Zm/kyr", ExameterPerCentury, 1000.0 / 10.0);
+
+   /// <summary>
+   /// attometer per tick, defined as: femtometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity AttometerPerTick = new (
+                                                           "attometer per tick"
+                                                         , "am/tick"
+                                                         , FemtometerPerNanosecond
+                                                         , 1.0 / 1000.0 / 100.0
+                                                          );
 
    /// <summary>
    /// zeptometer per decillion years, defined as: attometer per nonillion years × (1.0/1000.0)/(1000.0)
@@ -6240,16 +6176,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("exameter per million years", "Em/Myr", PetameterPerMillennium, 1000.0 / 1000.0);
 
    /// <summary>
-   /// zeptometer per planck-time, defined as: attometer per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity ZeptometerPerPlanckTime = new (
-                                                                  "zeptometer per planck-time"
-                                                                , "zm/tₚ"
-                                                                , AttometerPerMicrosecond
-                                                                , 1.0 / 1000.0 / 5.391247E-38
-                                                                 );
-
-   /// <summary>
    /// terameter per billion years, defined as: gigameter per million years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity TerameterPerBillionYears = new (
@@ -6342,12 +6268,12 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("zettameter per million years", "Zm/Myr", ExameterPerMillennium, 1000.0 / 1000.0);
 
    /// <summary>
-   /// femtometer per tick, defined as: picometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// zeptometer per tick, defined as: attometer per nanosecond × (1.0/1000.0)/(100.0)
    /// </summary>
-   public static readonly Velocity FemtometerPerTick = new (
-                                                            "femtometer per tick"
-                                                          , "fm/tick"
-                                                          , PicometerPerNanosecond
+   public static readonly Velocity ZeptometerPerTick = new (
+                                                            "zeptometer per tick"
+                                                          , "zm/tick"
+                                                          , AttometerPerNanosecond
                                                           , 1.0 / 1000.0 / 100.0
                                                            );
 
@@ -6416,16 +6342,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      , HectometerPerQuadrillionYears
                                                                      , 10.0 / 1000.0
                                                                       );
-
-   /// <summary>
-   /// yoctometer per planck-time, defined as: zeptometer per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity YoctometerPerPlanckTime = new (
-                                                                  "yoctometer per planck-time"
-                                                                , "ym/tₚ"
-                                                                , ZeptometerPerMicrosecond
-                                                                , 1.0 / 1000.0 / 5.391247E-38
-                                                                 );
 
    /// <summary>
    /// terameter per trillion years, defined as: gigameter per billion years × (1000.0)/(1000.0)
@@ -6498,6 +6414,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
+   /// yoctometer per tick, defined as: zeptometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity YoctometerPerTick = new (
+                                                            "yoctometer per tick"
+                                                          , "ym/tick"
+                                                          , ZeptometerPerNanosecond
+                                                          , 1.0 / 1000.0 / 100.0
+                                                           );
+
+   /// <summary>
    /// petameter per trillion years, defined as: terameter per billion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity PetameterPerTrillionYears = new (
@@ -6554,16 +6480,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// attometer per tick, defined as: femtometer per nanosecond × (1.0/1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity AttometerPerTick = new (
-                                                           "attometer per tick"
-                                                         , "am/tick"
-                                                         , FemtometerPerNanosecond
-                                                         , 1.0 / 1000.0 / 100.0
-                                                          );
-
-   /// <summary>
    /// hectometer per septillion years, defined as: dekameter per sextillion years × (10.0)/(1000.0)
    /// </summary>
    public static readonly Velocity HectometerPerSeptillionYears = new (
@@ -6582,16 +6498,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , RonnameterPerMillennium
                                                                    , 1000.0 / 1000.0
                                                                     );
-
-   /// <summary>
-   /// rontometer per planck-time, defined as: yoctometer per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity RontometerPerPlanckTime = new (
-                                                                  "rontometer per planck-time"
-                                                                , "rm/tₚ"
-                                                                , YoctometerPerMicrosecond
-                                                                , 1.0 / 1000.0 / 5.391247E-38
-                                                                 );
 
    /// <summary>
    /// terameter per quadrillion years, defined as: gigameter per trillion years × (1000.0)/(1000.0)
@@ -6660,6 +6566,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
+   /// rontometer per tick, defined as: yoctometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity RontometerPerTick = new (
+                                                            "rontometer per tick"
+                                                          , "rm/tick"
+                                                          , YoctometerPerNanosecond
+                                                          , 1.0 / 1000.0 / 100.0
+                                                           );
+
+   /// <summary>
    /// hectometer per octillion years, defined as: dekameter per septillion years × (10.0)/(1000.0)
    /// </summary>
    public static readonly Velocity HectometerPerOctillionYears = new (
@@ -6710,16 +6626,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// quectometer per planck-time, defined as: rontometer per microsecond × (1.0/1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity QuectometerPerPlanckTime = new (
-                                                                   "quectometer per planck-time"
-                                                                 , "qm/tₚ"
-                                                                 , RontometerPerMicrosecond
-                                                                 , 1.0 / 1000.0 / 5.391247E-38
-                                                                  );
-
-   /// <summary>
    /// terameter per quintillion years, defined as: gigameter per quadrillion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity TerameterPerQuintillionYears = new (
@@ -6728,16 +6634,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      , GigameterPerQuadrillionYears
                                                                      , 1000.0 / 1000.0
                                                                       );
-
-   /// <summary>
-   /// zeptometer per tick, defined as: attometer per nanosecond × (1.0/1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity ZeptometerPerTick = new (
-                                                            "zeptometer per tick"
-                                                          , "zm/tick"
-                                                          , AttometerPerNanosecond
-                                                          , 1.0 / 1000.0 / 100.0
-                                                           );
 
    /// <summary>
    /// quettameter per billion years, defined as: ronnameter per million years × (1000.0)/(1000.0)
@@ -6820,6 +6716,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
+   /// quectometer per tick, defined as: rontometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity QuectometerPerTick = new (
+                                                             "quectometer per tick"
+                                                           , "qm/tick"
+                                                           , RontometerPerNanosecond
+                                                           , 1.0 / 1000.0 / 100.0
+                                                            );
+
+   /// <summary>
    /// petameter per quintillion years, defined as: terameter per quadrillion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity PetameterPerQuintillionYears = new (
@@ -6848,12 +6754,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , YottameterPerBillionYears
                                                                    , 1000.0 / 1000.0
                                                                     );
-
-   /// <summary>
-   /// dekameter per planck-time, defined as: meter per microsecond × (10.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity DekameterPerPlanckTime =
-            new ("dekameter per planck-time", "dam/tₚ", MeterPerMicrosecond, 10.0 / 5.391247E-38);
 
    /// <summary>
    /// terameter per sextillion years, defined as: gigameter per quintillion years × (1000.0)/(1000.0)
@@ -6916,16 +6816,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// yoctometer per tick, defined as: zeptometer per nanosecond × (1.0/1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity YoctometerPerTick = new (
-                                                            "yoctometer per tick"
-                                                          , "ym/tick"
-                                                          , ZeptometerPerNanosecond
-                                                          , 1.0 / 1000.0 / 100.0
-                                                           );
-
-   /// <summary>
    /// quettameter per trillion years, defined as: ronnameter per billion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity QuettameterPerTrillionYears = new (
@@ -6946,6 +6836,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
+   /// dekameter per tick, defined as: meter per nanosecond × (10.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity DekameterPerTick = new (
+                                                           "dekameter per tick"
+                                                         , "dam/tick"
+                                                         , MeterPerNanosecond
+                                                         , 10.0 / 100.0
+                                                          );
+
+   /// <summary>
    /// petameter per sextillion years, defined as: terameter per quintillion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity PetameterPerSextillionYears = new (
@@ -6954,16 +6854,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     , TerameterPerQuintillionYears
                                                                     , 1000.0 / 1000.0
                                                                      );
-
-   /// <summary>
-   /// hectometer per planck-time, defined as: dekameter per microsecond × (10.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity HectometerPerPlanckTime = new (
-                                                                  "hectometer per planck-time"
-                                                                , "hm/tₚ"
-                                                                , DekameterPerMicrosecond
-                                                                , 10.0 / 5.391247E-38
-                                                                 );
 
    /// <summary>
    /// terameter per septillion years, defined as: gigameter per sextillion years × (1000.0)/(1000.0)
@@ -7046,13 +6936,13 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// rontometer per tick, defined as: yoctometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// hectometer per tick, defined as: dekameter per nanosecond × (10.0)/(100.0)
    /// </summary>
-   public static readonly Velocity RontometerPerTick = new (
-                                                            "rontometer per tick"
-                                                          , "rm/tick"
-                                                          , YoctometerPerNanosecond
-                                                          , 1.0 / 1000.0 / 100.0
+   public static readonly Velocity HectometerPerTick = new (
+                                                            "hectometer per tick"
+                                                          , "hm/tick"
+                                                          , DekameterPerNanosecond
+                                                          , 10.0 / 100.0
                                                            );
 
    /// <summary>
@@ -7074,16 +6964,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        , RonnameterPerTrillionYears
                                                                        , 1000.0 / 1000.0
                                                                         );
-
-   /// <summary>
-   /// kilometer per planck-time, defined as: hectometer per microsecond × (10.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity KilometerPerPlanckTime = new (
-                                                                 "kilometer per planck-time"
-                                                               , "km/tₚ"
-                                                               , HectometerPerMicrosecond
-                                                               , 10.0 / 5.391247E-38
-                                                                );
 
    /// <summary>
    /// terameter per octillion years, defined as: gigameter per septillion years × (1000.0)/(1000.0)
@@ -7146,6 +7026,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
+   /// kilometer per tick, defined as: hectometer per nanosecond × (10.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity KilometerPerTick = new (
+                                                           "kilometer per tick"
+                                                         , "km/tick"
+                                                         , HectometerPerNanosecond
+                                                         , 10.0 / 100.0
+                                                          );
+
+   /// <summary>
    /// petameter per octillion years, defined as: terameter per septillion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity PetameterPerOctillionYears = new (
@@ -7166,16 +7056,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// megameter per planck-time, defined as: kilometer per microsecond × (1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity MegameterPerPlanckTime = new (
-                                                                 "megameter per planck-time"
-                                                               , "Mm/tₚ"
-                                                               , KilometerPerMicrosecond
-                                                               , 1000.0 / 5.391247E-38
-                                                                );
-
-   /// <summary>
    /// terameter per nonillion years, defined as: gigameter per octillion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity TerameterPerNonillionYears = new (
@@ -7194,16 +7074,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , MegameterPerNonillionYears
                                                                    , 1000.0 / 1000.0
                                                                     );
-
-   /// <summary>
-   /// quectometer per tick, defined as: rontometer per nanosecond × (1.0/1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity QuectometerPerTick = new (
-                                                             "quectometer per tick"
-                                                           , "qm/tick"
-                                                           , RontometerPerNanosecond
-                                                           , 1.0 / 1000.0 / 100.0
-                                                            );
 
    /// <summary>
    /// quettameter per quintillion years, defined as: ronnameter per quadrillion years × (1000.0)/(1000.0)
@@ -7246,6 +7116,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
+   /// megameter per tick, defined as: kilometer per nanosecond × (1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity MegameterPerTick = new (
+                                                           "megameter per tick"
+                                                         , "Mm/tick"
+                                                         , KilometerPerNanosecond
+                                                         , 1000.0 / 100.0
+                                                          );
+
+   /// <summary>
    /// petameter per nonillion years, defined as: terameter per octillion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity PetameterPerNonillionYears = new (
@@ -7254,16 +7134,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , TerameterPerOctillionYears
                                                                    , 1000.0 / 1000.0
                                                                     );
-
-   /// <summary>
-   /// gigameter per planck-time, defined as: megameter per microsecond × (1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity GigameterPerPlanckTime = new (
-                                                                 "gigameter per planck-time"
-                                                               , "Gm/tₚ"
-                                                               , MegameterPerMicrosecond
-                                                               , 1000.0 / 5.391247E-38
-                                                                );
 
    /// <summary>
    /// terameter per decillion years, defined as: gigameter per nonillion years × (1000.0)/(1000.0)
@@ -7284,16 +7154,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      , ZettameterPerSextillionYears
                                                                      , 1000.0 / 1000.0
                                                                       );
-
-   /// <summary>
-   /// dekameter per tick, defined as: meter per nanosecond × (10.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity DekameterPerTick = new (
-                                                           "dekameter per tick"
-                                                         , "dam/tick"
-                                                         , MeterPerNanosecond
-                                                         , 10.0 / 100.0
-                                                          );
 
    /// <summary>
    /// quettameter per sextillion years, defined as: ronnameter per quintillion years × (1000.0)/(1000.0)
@@ -7326,6 +7186,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
+   /// gigameter per tick, defined as: megameter per nanosecond × (1000.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity GigameterPerTick = new (
+                                                           "gigameter per tick"
+                                                         , "Gm/tick"
+                                                         , MegameterPerNanosecond
+                                                         , 1000.0 / 100.0
+                                                          );
+
+   /// <summary>
    /// petameter per decillion years, defined as: terameter per nonillion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity PetameterPerDecillionYears = new (
@@ -7344,16 +7214,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      , YottameterPerSextillionYears
                                                                      , 1000.0 / 1000.0
                                                                       );
-
-   /// <summary>
-   /// terameter per planck-time, defined as: gigameter per microsecond × (1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity TerameterPerPlanckTime = new (
-                                                                 "terameter per planck-time"
-                                                               , "Tm/tₚ"
-                                                               , GigameterPerMicrosecond
-                                                               , 1000.0 / 5.391247E-38
-                                                                );
 
    /// <summary>
    /// yottameter per octillion years, defined as: zettameter per septillion years × (1000.0)/(1000.0)
@@ -7376,16 +7236,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// hectometer per tick, defined as: dekameter per nanosecond × (10.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity HectometerPerTick = new (
-                                                            "hectometer per tick"
-                                                          , "hm/tick"
-                                                          , DekameterPerNanosecond
-                                                          , 10.0 / 100.0
-                                                           );
-
-   /// <summary>
    /// quettameter per septillion years, defined as: ronnameter per sextillion years × (1000.0)/(1000.0)
    /// </summary>
    public static readonly Velocity QuettameterPerSeptillionYears = new (
@@ -7406,14 +7256,14 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// petameter per planck-time, defined as: terameter per microsecond × (1000.0)/(5.391247E-38)
+   /// terameter per tick, defined as: gigameter per nanosecond × (1000.0)/(100.0)
    /// </summary>
-   public static readonly Velocity PetameterPerPlanckTime = new (
-                                                                 "petameter per planck-time"
-                                                               , "Pm/tₚ"
-                                                               , TerameterPerMicrosecond
-                                                               , 1000.0 / 5.391247E-38
-                                                                );
+   public static readonly Velocity TerameterPerTick = new (
+                                                           "terameter per tick"
+                                                         , "Tm/tick"
+                                                         , GigameterPerNanosecond
+                                                         , 1000.0 / 100.0
+                                                          );
 
    /// <summary>
    /// ronnameter per octillion years, defined as: yottameter per septillion years × (1000.0)/(1000.0)
@@ -7446,23 +7296,13 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// exameter per planck-time, defined as: petameter per microsecond × (1000.0)/(5.391247E-38)
+   /// petameter per tick, defined as: terameter per nanosecond × (1000.0)/(100.0)
    /// </summary>
-   public static readonly Velocity ExameterPerPlanckTime = new (
-                                                                "exameter per planck-time"
-                                                              , "Em/tₚ"
-                                                              , PetameterPerMicrosecond
-                                                              , 1000.0 / 5.391247E-38
-                                                               );
-
-   /// <summary>
-   /// kilometer per tick, defined as: hectometer per nanosecond × (10.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity KilometerPerTick = new (
-                                                           "kilometer per tick"
-                                                         , "km/tick"
-                                                         , HectometerPerNanosecond
-                                                         , 10.0 / 100.0
+   public static readonly Velocity PetameterPerTick = new (
+                                                           "petameter per tick"
+                                                         , "Pm/tick"
+                                                         , TerameterPerNanosecond
+                                                         , 1000.0 / 100.0
                                                           );
 
    /// <summary>
@@ -7496,24 +7336,14 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// zettameter per planck-time, defined as: exameter per microsecond × (1000.0)/(5.391247E-38)
+   /// exameter per tick, defined as: petameter per nanosecond × (1000.0)/(100.0)
    /// </summary>
-   public static readonly Velocity ZettameterPerPlanckTime = new (
-                                                                  "zettameter per planck-time"
-                                                                , "Zm/tₚ"
-                                                                , ExameterPerMicrosecond
-                                                                , 1000.0 / 5.391247E-38
-                                                                 );
-
-   /// <summary>
-   /// megameter per tick, defined as: kilometer per nanosecond × (1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity MegameterPerTick = new (
-                                                           "megameter per tick"
-                                                         , "Mm/tick"
-                                                         , KilometerPerNanosecond
-                                                         , 1000.0 / 100.0
-                                                          );
+   public static readonly Velocity ExameterPerTick = new (
+                                                          "exameter per tick"
+                                                        , "Em/tick"
+                                                        , PetameterPerNanosecond
+                                                        , 1000.0 / 100.0
+                                                         );
 
    /// <summary>
    /// quettameter per nonillion years, defined as: ronnameter per octillion years × (1000.0)/(1000.0)
@@ -7536,24 +7366,14 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// yottameter per planck-time, defined as: zettameter per microsecond × (1000.0)/(5.391247E-38)
+   /// zettameter per tick, defined as: exameter per nanosecond × (1000.0)/(100.0)
    /// </summary>
-   public static readonly Velocity YottameterPerPlanckTime = new (
-                                                                  "yottameter per planck-time"
-                                                                , "Ym/tₚ"
-                                                                , ZettameterPerMicrosecond
-                                                                , 1000.0 / 5.391247E-38
-                                                                 );
-
-   /// <summary>
-   /// gigameter per tick, defined as: megameter per nanosecond × (1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity GigameterPerTick = new (
-                                                           "gigameter per tick"
-                                                         , "Gm/tick"
-                                                         , MegameterPerNanosecond
-                                                         , 1000.0 / 100.0
-                                                          );
+   public static readonly Velocity ZettameterPerTick = new (
+                                                            "zettameter per tick"
+                                                          , "Zm/tick"
+                                                          , ExameterPerNanosecond
+                                                          , 1000.0 / 100.0
+                                                           );
 
    /// <summary>
    /// quettameter per decillion years, defined as: ronnameter per nonillion years × (1000.0)/(1000.0)
@@ -7564,66 +7384,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      , RonnameterPerNonillionYears
                                                                      , 1000.0 / 1000.0
                                                                       );
-
-   /// <summary>
-   /// ronnameter per planck-time, defined as: yottameter per microsecond × (1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity RonnameterPerPlanckTime = new (
-                                                                  "ronnameter per planck-time"
-                                                                , "Rm/tₚ"
-                                                                , YottameterPerMicrosecond
-                                                                , 1000.0 / 5.391247E-38
-                                                                 );
-
-   /// <summary>
-   /// terameter per tick, defined as: gigameter per nanosecond × (1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity TerameterPerTick = new (
-                                                           "terameter per tick"
-                                                         , "Tm/tick"
-                                                         , GigameterPerNanosecond
-                                                         , 1000.0 / 100.0
-                                                          );
-
-   /// <summary>
-   /// quettameter per planck-time, defined as: ronnameter per microsecond × (1000.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity QuettameterPerPlanckTime = new (
-                                                                   "quettameter per planck-time"
-                                                                 , "Qm/tₚ"
-                                                                 , RonnameterPerMicrosecond
-                                                                 , 1000.0 / 5.391247E-38
-                                                                  );
-
-   /// <summary>
-   /// petameter per tick, defined as: terameter per nanosecond × (1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity PetameterPerTick = new (
-                                                           "petameter per tick"
-                                                         , "Pm/tick"
-                                                         , TerameterPerNanosecond
-                                                         , 1000.0 / 100.0
-                                                          );
-
-   /// <summary>
-   /// exameter per tick, defined as: petameter per nanosecond × (1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity ExameterPerTick = new (
-                                                          "exameter per tick"
-                                                        , "Em/tick"
-                                                        , PetameterPerNanosecond
-                                                        , 1000.0 / 100.0
-                                                         );
-
-   /// <summary>
-   /// zettameter per tick, defined as: exameter per nanosecond × (1000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity ZettameterPerTick = new (
-                                                            "zettameter per tick"
-                                                          , "Zm/tick"
-                                                          , ExameterPerNanosecond
-                                                          , 1000.0 / 100.0
-                                                           );
 
    /// <summary>
    /// yottameter per tick, defined as: zettameter per nanosecond × (1000.0)/(100.0)
@@ -7654,4 +7414,244 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , RonnameterPerNanosecond
                                                            , 1000.0 / 100.0
                                                             );
+
+   /// <summary>
+   /// meter per planck-time, defined as: meter per microsecond × (1.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity MeterPerPlanckTime = new (
+                                                             "meter per planck-time"
+                                                           , "m/tₚ"
+                                                           , MeterPerMicrosecond
+                                                           , 1.0 / 5.391247E-38
+                                                            );
+
+   /// <summary>
+   /// decimeter per planck-time, defined as: meter per microsecond × (1.0/10.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity DecimeterPerPlanckTime = new (
+                                                                 "decimeter per planck-time"
+                                                               , "dm/tₚ"
+                                                               , MeterPerMicrosecond
+                                                               , 1.0 / 10.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// centimeter per planck-time, defined as: decimeter per microsecond × (1.0/10.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity CentimeterPerPlanckTime = new (
+                                                                  "centimeter per planck-time"
+                                                                , "cm/tₚ"
+                                                                , DecimeterPerMicrosecond
+                                                                , 1.0 / 10.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// millimeter per planck-time, defined as: centimeter per microsecond × (1.0/10.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity MillimeterPerPlanckTime = new (
+                                                                  "millimeter per planck-time"
+                                                                , "mm/tₚ"
+                                                                , CentimeterPerMicrosecond
+                                                                , 1.0 / 10.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// micrometer per planck-time, defined as: millimeter per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity MicrometerPerPlanckTime = new (
+                                                                  "micrometer per planck-time"
+                                                                , "μm/tₚ"
+                                                                , MillimeterPerMicrosecond
+                                                                , 1.0 / 1000.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// nanometer per planck-time, defined as: micrometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity NanometerPerPlanckTime = new (
+                                                                 "nanometer per planck-time"
+                                                               , "nm/tₚ"
+                                                               , MicrometerPerMicrosecond
+                                                               , 1.0 / 1000.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// picometer per planck-time, defined as: nanometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity PicometerPerPlanckTime = new (
+                                                                 "picometer per planck-time"
+                                                               , "pm/tₚ"
+                                                               , NanometerPerMicrosecond
+                                                               , 1.0 / 1000.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// femtometer per planck-time, defined as: picometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity FemtometerPerPlanckTime = new (
+                                                                  "femtometer per planck-time"
+                                                                , "fm/tₚ"
+                                                                , PicometerPerMicrosecond
+                                                                , 1.0 / 1000.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// attometer per planck-time, defined as: femtometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity AttometerPerPlanckTime = new (
+                                                                 "attometer per planck-time"
+                                                               , "am/tₚ"
+                                                               , FemtometerPerMicrosecond
+                                                               , 1.0 / 1000.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// zeptometer per planck-time, defined as: attometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity ZeptometerPerPlanckTime = new (
+                                                                  "zeptometer per planck-time"
+                                                                , "zm/tₚ"
+                                                                , AttometerPerMicrosecond
+                                                                , 1.0 / 1000.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// yoctometer per planck-time, defined as: zeptometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity YoctometerPerPlanckTime = new (
+                                                                  "yoctometer per planck-time"
+                                                                , "ym/tₚ"
+                                                                , ZeptometerPerMicrosecond
+                                                                , 1.0 / 1000.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// rontometer per planck-time, defined as: yoctometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity RontometerPerPlanckTime = new (
+                                                                  "rontometer per planck-time"
+                                                                , "rm/tₚ"
+                                                                , YoctometerPerMicrosecond
+                                                                , 1.0 / 1000.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// quectometer per planck-time, defined as: rontometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity QuectometerPerPlanckTime = new (
+                                                                   "quectometer per planck-time"
+                                                                 , "qm/tₚ"
+                                                                 , RontometerPerMicrosecond
+                                                                 , 1.0 / 1000.0 / 5.391247E-38
+                                                                  );
+
+   /// <summary>
+   /// hectometer per planck-time, defined as: dekameter per microsecond × (10.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity HectometerPerPlanckTime = new (
+                                                                  "hectometer per planck-time"
+                                                                , "hm/tₚ"
+                                                                , DekameterPerMicrosecond
+                                                                , 10.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// kilometer per planck-time, defined as: hectometer per microsecond × (10.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity KilometerPerPlanckTime = new (
+                                                                 "kilometer per planck-time"
+                                                               , "km/tₚ"
+                                                               , HectometerPerMicrosecond
+                                                               , 10.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// megameter per planck-time, defined as: kilometer per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity MegameterPerPlanckTime = new (
+                                                                 "megameter per planck-time"
+                                                               , "Mm/tₚ"
+                                                               , KilometerPerMicrosecond
+                                                               , 1000.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// gigameter per planck-time, defined as: megameter per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity GigameterPerPlanckTime = new (
+                                                                 "gigameter per planck-time"
+                                                               , "Gm/tₚ"
+                                                               , MegameterPerMicrosecond
+                                                               , 1000.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// terameter per planck-time, defined as: gigameter per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity TerameterPerPlanckTime = new (
+                                                                 "terameter per planck-time"
+                                                               , "Tm/tₚ"
+                                                               , GigameterPerMicrosecond
+                                                               , 1000.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// petameter per planck-time, defined as: terameter per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity PetameterPerPlanckTime = new (
+                                                                 "petameter per planck-time"
+                                                               , "Pm/tₚ"
+                                                               , TerameterPerMicrosecond
+                                                               , 1000.0 / 5.391247E-38
+                                                                );
+
+   /// <summary>
+   /// exameter per planck-time, defined as: petameter per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity ExameterPerPlanckTime = new (
+                                                                "exameter per planck-time"
+                                                              , "Em/tₚ"
+                                                              , PetameterPerMicrosecond
+                                                              , 1000.0 / 5.391247E-38
+                                                               );
+
+   /// <summary>
+   /// zettameter per planck-time, defined as: exameter per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity ZettameterPerPlanckTime = new (
+                                                                  "zettameter per planck-time"
+                                                                , "Zm/tₚ"
+                                                                , ExameterPerMicrosecond
+                                                                , 1000.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// yottameter per planck-time, defined as: zettameter per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity YottameterPerPlanckTime = new (
+                                                                  "yottameter per planck-time"
+                                                                , "Ym/tₚ"
+                                                                , ZettameterPerMicrosecond
+                                                                , 1000.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// ronnameter per planck-time, defined as: yottameter per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity RonnameterPerPlanckTime = new (
+                                                                  "ronnameter per planck-time"
+                                                                , "Rm/tₚ"
+                                                                , YottameterPerMicrosecond
+                                                                , 1000.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
+   /// quettameter per planck-time, defined as: ronnameter per microsecond × (1000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity QuettameterPerPlanckTime = new (
+                                                                   "quettameter per planck-time"
+                                                                 , "Qm/tₚ"
+                                                                 , RonnameterPerMicrosecond
+                                                                 , 1000.0 / 5.391247E-38
+                                                                  );
 }

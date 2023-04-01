@@ -23,9 +23,9 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
    public static readonly Mass Grain = new ("grain", "gr", SI.Masses.Milligram, 64.79891);
 
    /// <summary>
-   /// drachm, defined as: SI gram × 1.7718451953125
+   /// drachm, defined as: grain × 2711.0/32.0
    /// </summary>
-   public static readonly Mass Drachm = new ("drachm", "dr", SI.Masses.Gram, 1.7718451953125);
+   public static readonly Mass Drachm = new ("drachm", "dr", Grain, 2711.0 / 32.0);
 
    /// <summary>
    /// ounce, defined as: drachm × 16.0

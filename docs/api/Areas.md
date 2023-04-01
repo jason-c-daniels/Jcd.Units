@@ -47,7 +47,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [SquareParsec](Areas.SquareParsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareParsec') | square parsec, defined as: square light-year × (3.2615637769757)*(3.2615637769757) |
 | [SquarePetalightYear](Areas.SquarePetalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePetalightYear') | square petalight-year, defined as: square teralight-year × (1000.0)*(1000.0) |
 | [SquarePetaparsec](Areas.SquarePetaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePetaparsec') | square petaparsec, defined as: square teraparsec × (1000.0)*(1000.0) |
-| [SquarePlanckLength](Areas.SquarePlanckLength.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquarePlanckLength') | square Planck-length, defined as: SI square meter × (1.616255E-35)*(1.616255E-35) |
 | [SquareQuettalightYear](Areas.SquareQuettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareQuettalightYear') | square quettalight-year, defined as: square ronnalight-year × (1000.0)*(1000.0) |
 | [SquareQuettaparsec](Areas.SquareQuettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareQuettaparsec') | square quettaparsec, defined as: square ronnaparsec × (1000.0)*(1000.0) |
 | [SquareRonnalightYear](Areas.SquareRonnalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas.SquareRonnalightYear') | square ronnalight-year, defined as: square yottalight-year × (1000.0)*(1000.0) |

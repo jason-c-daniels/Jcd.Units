@@ -174,16 +174,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// chain per square tick, defined as: SI meter per square nanosecond × (20.1168)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration ChainPerSquareTick = new (
-                                                                 "chain per square tick"
-                                                               , "ch/tick²"
-                                                               , SI.Accelerations.MeterPerSquareNanosecond
-                                                               , 20.1168 / (100.0 * 100.0)
-                                                                );
-
-   /// <summary>
    /// league per square millennium, defined as: SI meter per square century × (4828.032)/((10.0)*(10.0))
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMillennium = new (
@@ -421,6 +411,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
+   /// link per square planck-time, defined as: SI meter per square microsecond × (0.20116)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration LinkPerSquarePlanckTime = new (
+                                                                      "link per square planck-time"
+                                                                    , "li/tₚ²"
+                                                                    , SI.Accelerations.MeterPerSquareMicrosecond
+                                                                    , 0.20116 / (5.391247E-38 * 5.391247E-38)
+                                                                     );
+
+   /// <summary>
    /// link per square decisecond, defined as: SI meter per square second × (0.20116)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration LinkPerSquareDecisecond = new (
@@ -559,6 +559,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , SI.Accelerations.MeterPerSquareSecond
                                                                , 5.0292 / (1.0 * 1.0)
                                                                 );
+
+   /// <summary>
+   /// rod per square planck-time, defined as: SI meter per square microsecond × (5.0292)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration RodPerSquarePlanckTime = new (
+                                                                     "rod per square planck-time"
+                                                                   , "rd/tₚ²"
+                                                                   , SI.Accelerations.MeterPerSquareMicrosecond
+                                                                   , 5.0292 / (5.391247E-38 * 5.391247E-38)
+                                                                    );
 
    /// <summary>
    /// rod per square decisecond, defined as: SI meter per square second × (5.0292)/((1.0/10.0)*(1.0/10.0))
@@ -701,6 +711,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
+   /// chain per square planck-time, defined as: SI meter per square microsecond × (20.1168)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration ChainPerSquarePlanckTime = new (
+                                                                       "chain per square planck-time"
+                                                                     , "ch/tₚ²"
+                                                                     , SI.Accelerations.MeterPerSquareMicrosecond
+                                                                     , 20.1168 / (5.391247E-38 * 5.391247E-38)
+                                                                      );
+
+   /// <summary>
    /// chain per square decisecond, defined as: SI meter per square second × (20.1168)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration ChainPerSquareDecisecond = new (
@@ -841,6 +861,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
+   /// furlong per square planck-time, defined as: SI meter per square microsecond × (201.168)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration FurlongPerSquarePlanckTime = new (
+                                                                         "furlong per square planck-time"
+                                                                       , "fur/tₚ²"
+                                                                       , SI.Accelerations.MeterPerSquareMicrosecond
+                                                                       , 201.168 / (5.391247E-38 * 5.391247E-38)
+                                                                        );
+
+   /// <summary>
    /// furlong per square decisecond, defined as: SI meter per square second × (201.168)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration FurlongPerSquareDecisecond = new (
@@ -979,6 +1009,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , SI.Accelerations.MeterPerSquareSecond
                                                                   , 4828.032 / (1.0 * 1.0)
                                                                    );
+
+   /// <summary>
+   /// league per square planck-time, defined as: SI meter per square microsecond × (4828.032)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquarePlanckTime = new (
+                                                                        "league per square planck-time"
+                                                                      , "lea/tₚ²"
+                                                                      , SI.Accelerations.MeterPerSquareMicrosecond
+                                                                      , 4828.032 / (5.391247E-38 * 5.391247E-38)
+                                                                       );
 
    /// <summary>
    /// league per square decisecond, defined as: SI meter per square second × (4828.032)/((1.0/10.0)*(1.0/10.0))
@@ -1244,16 +1284,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// link per square planck-time, defined as: SI meter per square microsecond × (0.20116)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration LinkPerSquarePlanckTime = new (
-                                                                      "link per square planck-time"
-                                                                    , "li/tₚ²"
-                                                                    , SI.Accelerations.MeterPerSquareMicrosecond
-                                                                    , 0.20116 / (5.391247E-38 * 5.391247E-38)
-                                                                     );
-
-   /// <summary>
    /// link per square tick, defined as: SI meter per square nanosecond × (0.20116)/((100.0)*(100.0))
    /// </summary>
    public static readonly Acceleration LinkPerSquareTick = new (
@@ -1262,16 +1292,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , SI.Accelerations.MeterPerSquareNanosecond
                                                               , 0.20116 / (100.0 * 100.0)
                                                                );
-
-   /// <summary>
-   /// rod per square planck-time, defined as: SI meter per square microsecond × (5.0292)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration RodPerSquarePlanckTime = new (
-                                                                     "rod per square planck-time"
-                                                                   , "rd/tₚ²"
-                                                                   , SI.Accelerations.MeterPerSquareMicrosecond
-                                                                   , 5.0292 / (5.391247E-38 * 5.391247E-38)
-                                                                    );
 
    /// <summary>
    /// league per square sextillion years, defined as: SI meter per square quintillion years × (4828.032)/((1000.0)*(1000.0))
@@ -1295,26 +1315,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// chain per square planck-time, defined as: SI meter per square microsecond × (20.1168)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration ChainPerSquarePlanckTime = new (
-                                                                       "chain per square planck-time"
-                                                                     , "ch/tₚ²"
-                                                                     , SI.Accelerations.MeterPerSquareMicrosecond
-                                                                     , 20.1168 / (5.391247E-38 * 5.391247E-38)
-                                                                      );
-
-   /// <summary>
-   /// furlong per square tick, defined as: SI meter per square nanosecond × (201.168)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration FurlongPerSquareTick = new (
-                                                                   "furlong per square tick"
-                                                                 , "fur/tick²"
-                                                                 , SI.Accelerations.MeterPerSquareNanosecond
-                                                                 , 201.168 / (100.0 * 100.0)
-                                                                  );
-
-   /// <summary>
    /// league per square year, defined as: SI meter per square day × (4828.032)/((365.2525)*(365.2525))
    /// </summary>
    public static readonly Acceleration LeaguePerSquareYear = new (
@@ -1335,14 +1335,14 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// furlong per square planck-time, defined as: SI meter per square microsecond × (201.168)/((5.391247E-38)*(5.391247E-38))
+   /// rod per square tick, defined as: SI meter per square nanosecond × (5.0292)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration FurlongPerSquarePlanckTime = new (
-                                                                         "furlong per square planck-time"
-                                                                       , "fur/tₚ²"
-                                                                       , SI.Accelerations.MeterPerSquareMicrosecond
-                                                                       , 201.168 / (5.391247E-38 * 5.391247E-38)
-                                                                        );
+   public static readonly Acceleration RodPerSquareTick = new (
+                                                               "rod per square tick"
+                                                             , "rd/tick²"
+                                                             , SI.Accelerations.MeterPerSquareNanosecond
+                                                             , 5.0292 / (100.0 * 100.0)
+                                                              );
 
    /// <summary>
    /// rod per square hour, defined as: SI meter per square minute × (5.0292)/((60.0)*(60.0))
@@ -1374,16 +1374,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                        .MeterPerSquareQuadrillionYears
                                                                              , 201.168 / (1000.0 * 1000.0)
                                                                               );
-
-   /// <summary>
-   /// league per square planck-time, defined as: SI meter per square microsecond × (4828.032)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquarePlanckTime = new (
-                                                                        "league per square planck-time"
-                                                                      , "lea/tₚ²"
-                                                                      , SI.Accelerations.MeterPerSquareMicrosecond
-                                                                      , 4828.032 / (5.391247E-38 * 5.391247E-38)
-                                                                       );
 
    /// <summary>
    /// furlong per square century, defined as: SI meter per square decade × (201.168)/((10.0)*(10.0))
@@ -1424,6 +1414,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , SI.Accelerations.MeterPerSquareMillionYears
                                                                         , 4828.032 / (1000.0 * 1000.0)
                                                                          );
+
+   /// <summary>
+   /// chain per square tick, defined as: SI meter per square nanosecond × (20.1168)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration ChainPerSquareTick = new (
+                                                                 "chain per square tick"
+                                                               , "ch/tick²"
+                                                               , SI.Accelerations.MeterPerSquareNanosecond
+                                                               , 20.1168 / (100.0 * 100.0)
+                                                                );
 
    /// <summary>
    /// chain per square trillion years, defined as: SI meter per square billion years × (20.1168)/((1000.0)*(1000.0))
@@ -1475,6 +1475,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                      .MeterPerSquareSextillionYears
                                                                            , 4828.032 / (1000.0 * 1000.0)
                                                                             );
+
+   /// <summary>
+   /// furlong per square tick, defined as: SI meter per square nanosecond × (201.168)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration FurlongPerSquareTick = new (
+                                                                   "furlong per square tick"
+                                                                 , "fur/tick²"
+                                                                 , SI.Accelerations.MeterPerSquareNanosecond
+                                                                 , 201.168 / (100.0 * 100.0)
+                                                                  );
 
    /// <summary>
    /// rod per square year, defined as: SI meter per square day × (5.0292)/((365.2525)*(365.2525))
@@ -1559,14 +1569,14 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// rod per square tick, defined as: SI meter per square nanosecond × (5.0292)/((100.0)*(100.0))
+   /// league per square tick, defined as: SI meter per square nanosecond × (4828.032)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration RodPerSquareTick = new (
-                                                               "rod per square tick"
-                                                             , "rd/tick²"
-                                                             , SI.Accelerations.MeterPerSquareNanosecond
-                                                             , 5.0292 / (100.0 * 100.0)
-                                                              );
+   public static readonly Acceleration LeaguePerSquareTick = new (
+                                                                  "league per square tick"
+                                                                , "lea/tick²"
+                                                                , SI.Accelerations.MeterPerSquareNanosecond
+                                                                , 4828.032 / (100.0 * 100.0)
+                                                                 );
 
    /// <summary>
    /// rod per square century, defined as: SI meter per square decade × (5.0292)/((10.0)*(10.0))
@@ -1598,16 +1608,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                      .MeterPerSquareQuadrillionYears
                                                                            , 20.1168 / (1000.0 * 1000.0)
                                                                             );
-
-   /// <summary>
-   /// league per square tick, defined as: SI meter per square nanosecond × (4828.032)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareTick = new (
-                                                                  "league per square tick"
-                                                                , "lea/tick²"
-                                                                , SI.Accelerations.MeterPerSquareNanosecond
-                                                                , 4828.032 / (100.0 * 100.0)
-                                                                 );
 
    /// <summary>
    /// chain per square week, defined as: SI meter per square day × (20.1168)/((7.0)*(7.0))

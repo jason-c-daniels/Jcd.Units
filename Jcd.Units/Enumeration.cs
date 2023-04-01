@@ -20,7 +20,7 @@ public abstract class Enumeration<TEnumeration, T>
    /// <summary>
    /// All enumerated elements. Populated in static constructor.
    /// </summary>
-   protected static readonly ImmutableArray<T> All;
+   public static readonly ImmutableArray<T> All;
 
    static Enumeration()
    {

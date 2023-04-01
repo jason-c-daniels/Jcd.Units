@@ -6,7 +6,7 @@
 All enumerated elements. Populated in static constructor.
 
 ```csharp
-protected static readonly ImmutableArray<T> All;
+public static readonly ImmutableArray<T> All;
 ```
 
 #### Field Value

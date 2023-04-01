@@ -6729,6 +6729,16 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
+   /// tonne per cubic meter, defined as: megagram per cubic meter × (1.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicMeter = new (
+                                                            "tonne per cubic meter"
+                                                          , "t/m³"
+                                                          , MegagramPerCubicMeter
+                                                          , 1.0 / (1.0 * 1.0 * 1.0)
+                                                           );
+
+   /// <summary>
    /// metric ton per cubic centimeter, defined as: megagram per cubic decimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Density MetricTonPerCubicCentimeter = new (
@@ -6747,6 +6757,16 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegagramPerCubicCentimeter
                                                                    , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
                                                                     );
+
+   /// <summary>
+   /// tonne per cubic decimeter, defined as: megagram per cubic meter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicDecimeter = new (
+                                                                "tonne per cubic decimeter"
+                                                              , "t/dm³"
+                                                              , MegagramPerCubicMeter
+                                                              , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                               );
 
    /// <summary>
    /// metric ton per cubic micrometer, defined as: megagram per cubic millimeter × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
@@ -6771,6 +6791,26 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
+   /// tonne per cubic centimeter, defined as: megagram per cubic decimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicCentimeter = new (
+                                                                 "tonne per cubic centimeter"
+                                                               , "t/cm³"
+                                                               , MegagramPerCubicDecimeter
+                                                               , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                );
+
+   /// <summary>
+   /// decitonne per cubic meter, defined as: tonne per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicMeter = new (
+                                                                "decitonne per cubic meter"
+                                                              , "dt/m³"
+                                                              , TonnePerCubicMeter
+                                                              , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
    /// metric ton per cubic picometer, defined as: megagram per cubic nanometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
    /// </summary>
    public static readonly Density MetricTonPerCubicPicometer = new (
@@ -6791,6 +6831,16 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
                                                                     );
+
+   /// <summary>
+   /// tonne per cubic millimeter, defined as: megagram per cubic centimeter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicMillimeter = new (
+                                                                 "tonne per cubic millimeter"
+                                                               , "t/mm³"
+                                                               , MegagramPerCubicCentimeter
+                                                               , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                );
 
    /// <summary>
    /// metric ton per cubic attometer, defined as: megagram per cubic femtometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
@@ -6815,6 +6865,38 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
+   /// tonne per cubic micrometer, defined as: megagram per cubic millimeter × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicMicrometer = new (
+                                                                 "tonne per cubic micrometer"
+                                                               , "t/μm³"
+                                                               , MegagramPerCubicMillimeter
+                                                               , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                );
+
+   /// <summary>
+   /// decitonne per cubic decimeter, defined as: tonne per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicDecimeter = new (
+                                                                    "decitonne per cubic decimeter"
+                                                                  , "dt/dm³"
+                                                                  , TonnePerCubicMeter
+                                                                  , 1.0
+                                                                  / 10.0
+                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// centitonne per cubic meter, defined as: decitonne per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicMeter = new (
+                                                                 "centitonne per cubic meter"
+                                                               , "ct/m³"
+                                                               , DecitonnePerCubicMeter
+                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
    /// metric ton per cubic yoctometer, defined as: megagram per cubic zeptometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
    /// </summary>
    public static readonly Density MetricTonPerCubicYoctometer = new (
@@ -6835,6 +6917,16 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
                                                                     );
+
+   /// <summary>
+   /// tonne per cubic nanometer, defined as: megagram per cubic micrometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicNanometer = new (
+                                                                "tonne per cubic nanometer"
+                                                              , "t/nm³"
+                                                              , MegagramPerCubicMicrometer
+                                                              , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               );
 
    /// <summary>
    /// metric ton per cubic quectometer, defined as: megagram per cubic rontometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
@@ -6858,6 +6950,38 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
+   /// tonne per cubic picometer, defined as: megagram per cubic nanometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicPicometer = new (
+                                                                "tonne per cubic picometer"
+                                                              , "t/pm³"
+                                                              , MegagramPerCubicNanometer
+                                                              , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic centimeter, defined as: tonne per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicCentimeter = new (
+                                                                     "decitonne per cubic centimeter"
+                                                                   , "dt/cm³"
+                                                                   , TonnePerCubicDecimeter
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic meter, defined as: centitonne per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicMeter = new (
+                                                                 "millitonne per cubic meter"
+                                                               , "mt/m³"
+                                                               , CentitonnePerCubicMeter
+                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
    /// metric ton per cubic hectometer, defined as: megagram per cubic dekameter × (1.0)/((10.0)*(10.0)*(10.0))
    /// </summary>
    public static readonly Density MetricTonPerCubicHectometer = new (
@@ -6876,6 +7000,28 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicHectometer
                                                                   , 1.0 / (10.0 * 10.0 * 10.0)
                                                                    );
+
+   /// <summary>
+   /// tonne per cubic femtometer, defined as: megagram per cubic picometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicFemtometer = new (
+                                                                 "tonne per cubic femtometer"
+                                                               , "t/fm³"
+                                                               , MegagramPerCubicPicometer
+                                                               , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                );
+
+   /// <summary>
+   /// centitonne per cubic decimeter, defined as: decitonne per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicDecimeter = new (
+                                                                     "centitonne per cubic decimeter"
+                                                                   , "ct/dm³"
+                                                                   , DecitonnePerCubicMeter
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
 
    /// <summary>
    /// metric ton per cubic megameter, defined as: megagram per cubic kilometer × (1.0)/((1000.0)*(1000.0)*(1000.0))
@@ -6898,6 +7044,38 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    );
 
    /// <summary>
+   /// tonne per cubic attometer, defined as: megagram per cubic femtometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicAttometer = new (
+                                                                "tonne per cubic attometer"
+                                                              , "t/am³"
+                                                              , MegagramPerCubicFemtometer
+                                                              , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic millimeter, defined as: tonne per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicMillimeter = new (
+                                                                     "decitonne per cubic millimeter"
+                                                                   , "dt/mm³"
+                                                                   , TonnePerCubicCentimeter
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic meter, defined as: millitonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicMeter = new (
+                                                                 "microtonne per cubic meter"
+                                                               , "μt/m³"
+                                                               , MillitonnePerCubicMeter
+                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
    /// metric ton per cubic terameter, defined as: megagram per cubic gigameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
    /// </summary>
    public static readonly Density MetricTonPerCubicTerameter = new (
@@ -6916,6 +7094,16 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicTerameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                    );
+
+   /// <summary>
+   /// tonne per cubic zeptometer, defined as: megagram per cubic attometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicZeptometer = new (
+                                                                 "tonne per cubic zeptometer"
+                                                               , "t/zm³"
+                                                               , MegagramPerCubicAttometer
+                                                               , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                );
 
    /// <summary>
    /// metric ton per cubic exameter, defined as: megagram per cubic petameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
@@ -6938,6 +7126,62 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
+   /// tonne per cubic yoctometer, defined as: megagram per cubic zeptometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicYoctometer = new (
+                                                                 "tonne per cubic yoctometer"
+                                                               , "t/ym³"
+                                                               , MegagramPerCubicZeptometer
+                                                               , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                );
+
+   /// <summary>
+   /// decitonne per cubic micrometer, defined as: tonne per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicMicrometer = new (
+                                                                     "decitonne per cubic micrometer"
+                                                                   , "dt/μm³"
+                                                                   , TonnePerCubicMillimeter
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic centimeter, defined as: decitonne per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicCentimeter = new (
+                                                                      "centitonne per cubic centimeter"
+                                                                    , "ct/cm³"
+                                                                    , DecitonnePerCubicDecimeter
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// millitonne per cubic decimeter, defined as: centitonne per cubic meter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicDecimeter = new (
+                                                                     "millitonne per cubic decimeter"
+                                                                   , "mt/dm³"
+                                                                   , CentitonnePerCubicMeter
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic meter, defined as: microtonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicMeter = new (
+                                                                "nanotonne per cubic meter"
+                                                              , "nt/m³"
+                                                              , MicrotonnePerCubicMeter
+                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
    /// metric ton per cubic yottameter, defined as: megagram per cubic zettameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
    /// </summary>
    public static readonly Density MetricTonPerCubicYottameter = new (
@@ -6958,6 +7202,16 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     );
 
    /// <summary>
+   /// tonne per cubic rontometer, defined as: megagram per cubic yoctometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicRontometer = new (
+                                                                 "tonne per cubic rontometer"
+                                                               , "t/rm³"
+                                                               , MegagramPerCubicYoctometer
+                                                               , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                );
+
+   /// <summary>
    /// metric ton per cubic quettameter, defined as: megagram per cubic ronnameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
    /// </summary>
    public static readonly Density MetricTonPerCubicQuettameter = new (
@@ -6966,4 +7220,6405 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , MegagramPerCubicRonnameter
                                                                     , 1.0 / (1000.0 * 1000.0 * 1000.0)
                                                                      );
+
+   /// <summary>
+   /// tonne per cubic quectometer, defined as: megagram per cubic rontometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicQuectometer = new (
+                                                                  "tonne per cubic quectometer"
+                                                                , "t/qm³"
+                                                                , MegagramPerCubicRontometer
+                                                                , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 );
+
+   /// <summary>
+   /// decitonne per cubic nanometer, defined as: tonne per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicNanometer = new (
+                                                                    "decitonne per cubic nanometer"
+                                                                  , "dt/nm³"
+                                                                  , TonnePerCubicMicrometer
+                                                                  , 1.0
+                                                                  / 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// picotonne per cubic meter, defined as: nanotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicMeter = new (
+                                                                "picotonne per cubic meter"
+                                                              , "pt/m³"
+                                                              , NanotonnePerCubicMeter
+                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
+   /// tonne per cubic dekameter, defined as: megagram per cubic meter × (1.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicDekameter = new (
+                                                                "tonne per cubic dekameter"
+                                                              , "t/dam³"
+                                                              , MegagramPerCubicMeter
+                                                              , 1.0 / (10.0 * 10.0 * 10.0)
+                                                               );
+
+   /// <summary>
+   /// centitonne per cubic millimeter, defined as: decitonne per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicMillimeter = new (
+                                                                      "centitonne per cubic millimeter"
+                                                                    , "ct/mm³"
+                                                                    , DecitonnePerCubicCentimeter
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// microtonne per cubic decimeter, defined as: millitonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicDecimeter = new (
+                                                                     "microtonne per cubic decimeter"
+                                                                   , "μt/dm³"
+                                                                   , MillitonnePerCubicMeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// tonne per cubic hectometer, defined as: megagram per cubic dekameter × (1.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicHectometer = new (
+                                                                 "tonne per cubic hectometer"
+                                                               , "t/hm³"
+                                                               , MegagramPerCubicDekameter
+                                                               , 1.0 / (10.0 * 10.0 * 10.0)
+                                                                );
+
+   /// <summary>
+   /// decitonne per cubic picometer, defined as: tonne per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicPicometer = new (
+                                                                    "decitonne per cubic picometer"
+                                                                  , "dt/pm³"
+                                                                  , TonnePerCubicNanometer
+                                                                  , 1.0
+                                                                  / 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// millitonne per cubic centimeter, defined as: centitonne per cubic decimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicCentimeter = new (
+                                                                      "millitonne per cubic centimeter"
+                                                                    , "mt/cm³"
+                                                                    , CentitonnePerCubicDecimeter
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// femtotonne per cubic meter, defined as: picotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicMeter = new (
+                                                                 "femtotonne per cubic meter"
+                                                               , "ft/m³"
+                                                               , PicotonnePerCubicMeter
+                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
+   /// tonne per cubic kilometer, defined as: megagram per cubic hectometer × (1.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicKilometer = new (
+                                                                "tonne per cubic kilometer"
+                                                              , "t/km³"
+                                                              , MegagramPerCubicHectometer
+                                                              , 1.0 / (10.0 * 10.0 * 10.0)
+                                                               );
+
+   /// <summary>
+   /// tonne per cubic megameter, defined as: megagram per cubic kilometer × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicMegameter = new (
+                                                                "tonne per cubic megameter"
+                                                              , "t/Mm³"
+                                                              , MegagramPerCubicKilometer
+                                                              , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic femtometer, defined as: tonne per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicFemtometer = new (
+                                                                     "decitonne per cubic femtometer"
+                                                                   , "dt/fm³"
+                                                                   , TonnePerCubicPicometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic micrometer, defined as: decitonne per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicMicrometer = new (
+                                                                      "centitonne per cubic micrometer"
+                                                                    , "ct/μm³"
+                                                                    , DecitonnePerCubicMillimeter
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic decimeter, defined as: microtonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicDecimeter = new (
+                                                                    "nanotonne per cubic decimeter"
+                                                                  , "nt/dm³"
+                                                                  , MicrotonnePerCubicMeter
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// attotonne per cubic meter, defined as: femtotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicMeter = new (
+                                                                "attotonne per cubic meter"
+                                                              , "at/m³"
+                                                              , FemtotonnePerCubicMeter
+                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
+   /// tonne per cubic gigameter, defined as: megagram per cubic megameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicGigameter = new (
+                                                                "tonne per cubic gigameter"
+                                                              , "t/Gm³"
+                                                              , MegagramPerCubicMegameter
+                                                              , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               );
+
+   /// <summary>
+   /// tonne per cubic terameter, defined as: megagram per cubic gigameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicTerameter = new (
+                                                                "tonne per cubic terameter"
+                                                              , "t/Tm³"
+                                                              , MegagramPerCubicGigameter
+                                                              , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic attometer, defined as: tonne per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicAttometer = new (
+                                                                    "decitonne per cubic attometer"
+                                                                  , "dt/am³"
+                                                                  , TonnePerCubicFemtometer
+                                                                  , 1.0
+                                                                  / 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// millitonne per cubic millimeter, defined as: centitonne per cubic centimeter × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicMillimeter = new (
+                                                                      "millitonne per cubic millimeter"
+                                                                    , "mt/mm³"
+                                                                    , CentitonnePerCubicCentimeter
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// microtonne per cubic centimeter, defined as: millitonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicCentimeter = new (
+                                                                      "microtonne per cubic centimeter"
+                                                                    , "μt/cm³"
+                                                                    , MillitonnePerCubicDecimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// zeptotonne per cubic meter, defined as: attotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicMeter = new (
+                                                                 "zeptotonne per cubic meter"
+                                                               , "zt/m³"
+                                                               , AttotonnePerCubicMeter
+                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
+   /// tonne per cubic petameter, defined as: megagram per cubic terameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicPetameter = new (
+                                                                "tonne per cubic petameter"
+                                                              , "t/Pm³"
+                                                              , MegagramPerCubicTerameter
+                                                              , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               );
+
+   /// <summary>
+   /// centitonne per cubic nanometer, defined as: decitonne per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicNanometer = new (
+                                                                     "centitonne per cubic nanometer"
+                                                                   , "ct/nm³"
+                                                                   , DecitonnePerCubicMicrometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic decimeter, defined as: nanotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicDecimeter = new (
+                                                                    "picotonne per cubic decimeter"
+                                                                  , "pt/dm³"
+                                                                  , NanotonnePerCubicMeter
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// tonne per cubic exameter, defined as: megagram per cubic petameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicExameter = new (
+                                                               "tonne per cubic exameter"
+                                                             , "t/Em³"
+                                                             , MegagramPerCubicPetameter
+                                                             , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                              );
+
+   /// <summary>
+   /// decitonne per cubic zeptometer, defined as: tonne per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicZeptometer = new (
+                                                                     "decitonne per cubic zeptometer"
+                                                                   , "dt/zm³"
+                                                                   , TonnePerCubicAttometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// yoctotonne per cubic meter, defined as: zeptotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicMeter = new (
+                                                                 "yoctotonne per cubic meter"
+                                                               , "yt/m³"
+                                                               , ZeptotonnePerCubicMeter
+                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
+   /// tonne per cubic zettameter, defined as: megagram per cubic exameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicZettameter = new (
+                                                                 "tonne per cubic zettameter"
+                                                               , "t/Zm³"
+                                                               , MegagramPerCubicExameter
+                                                               , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                );
+
+   /// <summary>
+   /// tonne per cubic yottameter, defined as: megagram per cubic zettameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicYottameter = new (
+                                                                 "tonne per cubic yottameter"
+                                                               , "t/Ym³"
+                                                               , MegagramPerCubicZettameter
+                                                               , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                );
+
+   /// <summary>
+   /// decitonne per cubic yoctometer, defined as: tonne per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicYoctometer = new (
+                                                                     "decitonne per cubic yoctometer"
+                                                                   , "dt/ym³"
+                                                                   , TonnePerCubicZeptometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic picometer, defined as: decitonne per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicPicometer = new (
+                                                                     "centitonne per cubic picometer"
+                                                                   , "ct/pm³"
+                                                                   , DecitonnePerCubicNanometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic micrometer, defined as: centitonne per cubic millimeter × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicMicrometer = new (
+                                                                      "millitonne per cubic micrometer"
+                                                                    , "mt/μm³"
+                                                                    , CentitonnePerCubicMillimeter
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic centimeter, defined as: microtonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicCentimeter = new (
+                                                                     "nanotonne per cubic centimeter"
+                                                                   , "nt/cm³"
+                                                                   , MicrotonnePerCubicDecimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic decimeter, defined as: picotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicDecimeter = new (
+                                                                     "femtotonne per cubic decimeter"
+                                                                   , "ft/dm³"
+                                                                   , PicotonnePerCubicMeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic meter, defined as: yoctotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicMeter = new (
+                                                                 "rontotonne per cubic meter"
+                                                               , "rt/m³"
+                                                               , YoctotonnePerCubicMeter
+                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
+   /// tonne per cubic ronnameter, defined as: megagram per cubic yottameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicRonnameter = new (
+                                                                 "tonne per cubic ronnameter"
+                                                               , "t/Rm³"
+                                                               , MegagramPerCubicYottameter
+                                                               , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                );
+
+   /// <summary>
+   /// microtonne per cubic millimeter, defined as: millitonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicMillimeter = new (
+                                                                      "microtonne per cubic millimeter"
+                                                                    , "μt/mm³"
+                                                                    , MillitonnePerCubicCentimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// tonne per cubic quettameter, defined as: megagram per cubic ronnameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TonnePerCubicQuettameter = new (
+                                                                  "tonne per cubic quettameter"
+                                                                , "t/Qm³"
+                                                                , MegagramPerCubicRonnameter
+                                                                , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 );
+
+   /// <summary>
+   /// decitonne per cubic rontometer, defined as: tonne per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicRontometer = new (
+                                                                     "decitonne per cubic rontometer"
+                                                                   , "dt/rm³"
+                                                                   , TonnePerCubicYoctometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// quectotonne per cubic meter, defined as: rontotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicMeter = new (
+                                                                  "quectotonne per cubic meter"
+                                                                , "qt/m³"
+                                                                , RontotonnePerCubicMeter
+                                                                , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                 );
+
+   /// <summary>
+   /// centitonne per cubic femtometer, defined as: decitonne per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicFemtometer = new (
+                                                                      "centitonne per cubic femtometer"
+                                                                    , "ct/fm³"
+                                                                    , DecitonnePerCubicPicometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// attotonne per cubic decimeter, defined as: femtotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicDecimeter = new (
+                                                                    "attotonne per cubic decimeter"
+                                                                  , "at/dm³"
+                                                                  , FemtotonnePerCubicMeter
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// dekatonne per cubic meter, defined as: tonne per cubic meter × (10.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicMeter = new (
+                                                                "dekatonne per cubic meter"
+                                                              , "dat/m³"
+                                                              , TonnePerCubicMeter
+                                                              , 10.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic quectometer, defined as: tonne per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicQuectometer = new (
+                                                                      "decitonne per cubic quectometer"
+                                                                    , "dt/qm³"
+                                                                    , TonnePerCubicRontometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// millitonne per cubic nanometer, defined as: centitonne per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicNanometer = new (
+                                                                     "millitonne per cubic nanometer"
+                                                                   , "mt/nm³"
+                                                                   , CentitonnePerCubicMicrometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic centimeter, defined as: nanotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicCentimeter = new (
+                                                                     "picotonne per cubic centimeter"
+                                                                   , "pt/cm³"
+                                                                   , NanotonnePerCubicDecimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// hectotonne per cubic meter, defined as: dekatonne per cubic meter × (10.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicMeter = new (
+                                                                 "hectotonne per cubic meter"
+                                                               , "ht/m³"
+                                                               , DekatonnePerCubicMeter
+                                                               , 10.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
+   /// decitonne per cubic dekameter, defined as: tonne per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicDekameter = new (
+                                                                    "decitonne per cubic dekameter"
+                                                                  , "dt/dam³"
+                                                                  , TonnePerCubicMeter
+                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// centitonne per cubic attometer, defined as: decitonne per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicAttometer = new (
+                                                                     "centitonne per cubic attometer"
+                                                                   , "ct/am³"
+                                                                   , DecitonnePerCubicFemtometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic micrometer, defined as: millitonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicMicrometer = new (
+                                                                      "microtonne per cubic micrometer"
+                                                                    , "μt/μm³"
+                                                                    , MillitonnePerCubicMillimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic millimeter, defined as: microtonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicMillimeter = new (
+                                                                     "nanotonne per cubic millimeter"
+                                                                   , "nt/mm³"
+                                                                   , MicrotonnePerCubicCentimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic decimeter, defined as: attotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicDecimeter = new (
+                                                                     "zeptotonne per cubic decimeter"
+                                                                   , "zt/dm³"
+                                                                   , AttotonnePerCubicMeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic meter, defined as: hectotonne per cubic meter × (10.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicMeter = new (
+                                                                "kilotonne per cubic meter"
+                                                              , "kt/m³"
+                                                              , HectotonnePerCubicMeter
+                                                              , 10.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic hectometer, defined as: tonne per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicHectometer = new (
+                                                                     "decitonne per cubic hectometer"
+                                                                   , "dt/hm³"
+                                                                   , TonnePerCubicDekameter
+                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic picometer, defined as: centitonne per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicPicometer = new (
+                                                                     "millitonne per cubic picometer"
+                                                                   , "mt/pm³"
+                                                                   , CentitonnePerCubicNanometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic centimeter, defined as: picotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicCentimeter = new (
+                                                                      "femtotonne per cubic centimeter"
+                                                                    , "ft/cm³"
+                                                                    , PicotonnePerCubicDecimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// centitonne per cubic zeptometer, defined as: decitonne per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicZeptometer = new (
+                                                                      "centitonne per cubic zeptometer"
+                                                                    , "ct/zm³"
+                                                                    , DecitonnePerCubicAttometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic decimeter, defined as: zeptotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicDecimeter = new (
+                                                                     "yoctotonne per cubic decimeter"
+                                                                   , "yt/dm³"
+                                                                   , ZeptotonnePerCubicMeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic meter, defined as: kilotonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicMeter = new (
+                                                                "megatonne per cubic meter"
+                                                              , "Mt/m³"
+                                                              , KilotonnePerCubicMeter
+                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic kilometer, defined as: tonne per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicKilometer = new (
+                                                                    "decitonne per cubic kilometer"
+                                                                  , "dt/km³"
+                                                                  , TonnePerCubicHectometer
+                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// microtonne per cubic nanometer, defined as: millitonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicNanometer = new (
+                                                                     "microtonne per cubic nanometer"
+                                                                   , "μt/nm³"
+                                                                   , MillitonnePerCubicMicrometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic millimeter, defined as: nanotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicMillimeter = new (
+                                                                     "picotonne per cubic millimeter"
+                                                                   , "pt/mm³"
+                                                                   , NanotonnePerCubicCentimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic meter, defined as: megatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicMeter = new (
+                                                                "gigatonne per cubic meter"
+                                                              , "Gt/m³"
+                                                              , MegatonnePerCubicMeter
+                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic megameter, defined as: tonne per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicMegameter = new (
+                                                                    "decitonne per cubic megameter"
+                                                                  , "dt/Mm³"
+                                                                  , TonnePerCubicKilometer
+                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// centitonne per cubic yoctometer, defined as: decitonne per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicYoctometer = new (
+                                                                      "centitonne per cubic yoctometer"
+                                                                    , "ct/ym³"
+                                                                    , DecitonnePerCubicZeptometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// millitonne per cubic femtometer, defined as: centitonne per cubic picometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicFemtometer = new (
+                                                                      "millitonne per cubic femtometer"
+                                                                    , "mt/fm³"
+                                                                    , CentitonnePerCubicPicometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic micrometer, defined as: microtonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicMicrometer = new (
+                                                                     "nanotonne per cubic micrometer"
+                                                                   , "nt/μm³"
+                                                                   , MicrotonnePerCubicMillimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic centimeter, defined as: femtotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicCentimeter = new (
+                                                                     "attotonne per cubic centimeter"
+                                                                   , "at/cm³"
+                                                                   , FemtotonnePerCubicDecimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic decimeter, defined as: yoctotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicDecimeter = new (
+                                                                     "rontotonne per cubic decimeter"
+                                                                   , "rt/dm³"
+                                                                   , YoctotonnePerCubicMeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic meter, defined as: gigatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicMeter = new (
+                                                                "teratonne per cubic meter"
+                                                              , "Tt/m³"
+                                                              , GigatonnePerCubicMeter
+                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic gigameter, defined as: tonne per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicGigameter = new (
+                                                                    "decitonne per cubic gigameter"
+                                                                  , "dt/Gm³"
+                                                                  , TonnePerCubicMegameter
+                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// centitonne per cubic rontometer, defined as: decitonne per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicRontometer = new (
+                                                                      "centitonne per cubic rontometer"
+                                                                    , "ct/rm³"
+                                                                    , DecitonnePerCubicYoctometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic decimeter, defined as: rontotonne per cubic meter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicDecimeter = new (
+                                                                      "quectotonne per cubic decimeter"
+                                                                    , "qt/dm³"
+                                                                    , RontotonnePerCubicMeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// petatonne per cubic meter, defined as: teratonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicMeter = new (
+                                                                "petatonne per cubic meter"
+                                                              , "Pt/m³"
+                                                              , TeratonnePerCubicMeter
+                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               );
+
+   /// <summary>
+   /// decitonne per cubic terameter, defined as: tonne per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicTerameter = new (
+                                                                    "decitonne per cubic terameter"
+                                                                  , "dt/Tm³"
+                                                                  , TonnePerCubicGigameter
+                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// millitonne per cubic attometer, defined as: centitonne per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicAttometer = new (
+                                                                     "millitonne per cubic attometer"
+                                                                   , "mt/am³"
+                                                                   , CentitonnePerCubicFemtometer
+                                                                   , 1.0
+                                                                   / 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic picometer, defined as: millitonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicPicometer = new (
+                                                                     "microtonne per cubic picometer"
+                                                                   , "μt/pm³"
+                                                                   , MillitonnePerCubicNanometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic millimeter, defined as: picotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicMillimeter = new (
+                                                                      "femtotonne per cubic millimeter"
+                                                                    , "ft/mm³"
+                                                                    , PicotonnePerCubicCentimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// zeptotonne per cubic centimeter, defined as: attotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicCentimeter = new (
+                                                                      "zeptotonne per cubic centimeter"
+                                                                    , "zt/cm³"
+                                                                    , AttotonnePerCubicDecimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic meter, defined as: petatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicMeter = new (
+                                                               "exatonne per cubic meter"
+                                                             , "Et/m³"
+                                                             , PetatonnePerCubicMeter
+                                                             , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              );
+
+   /// <summary>
+   /// dekatonne per cubic decimeter, defined as: tonne per cubic meter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicDecimeter = new (
+                                                                    "dekatonne per cubic decimeter"
+                                                                  , "dat/dm³"
+                                                                  , TonnePerCubicMeter
+                                                                  , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// decitonne per cubic petameter, defined as: tonne per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicPetameter = new (
+                                                                    "decitonne per cubic petameter"
+                                                                  , "dt/Pm³"
+                                                                  , TonnePerCubicTerameter
+                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// centitonne per cubic quectometer, defined as: decitonne per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicQuectometer = new (
+                                                                       "centitonne per cubic quectometer"
+                                                                     , "ct/qm³"
+                                                                     , DecitonnePerCubicRontometer
+                                                                     , 1.0
+                                                                     / 10.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// nanotonne per cubic nanometer, defined as: microtonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicNanometer = new (
+                                                                    "nanotonne per cubic nanometer"
+                                                                  , "nt/nm³"
+                                                                  , MicrotonnePerCubicMicrometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// picotonne per cubic micrometer, defined as: nanotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicMicrometer = new (
+                                                                     "picotonne per cubic micrometer"
+                                                                   , "pt/μm³"
+                                                                   , NanotonnePerCubicMillimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic meter, defined as: exatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicMeter = new (
+                                                                 "zettatonne per cubic meter"
+                                                               , "Zt/m³"
+                                                               , ExatonnePerCubicMeter
+                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
+   /// decitonne per cubic exameter, defined as: tonne per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicExameter = new (
+                                                                   "decitonne per cubic exameter"
+                                                                 , "dt/Em³"
+                                                                 , TonnePerCubicPetameter
+                                                                 , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// millitonne per cubic zeptometer, defined as: centitonne per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicZeptometer = new (
+                                                                      "millitonne per cubic zeptometer"
+                                                                    , "mt/zm³"
+                                                                    , CentitonnePerCubicAttometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic centimeter, defined as: zeptotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicCentimeter = new (
+                                                                      "yoctotonne per cubic centimeter"
+                                                                    , "yt/cm³"
+                                                                    , ZeptotonnePerCubicDecimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// hectotonne per cubic decimeter, defined as: dekatonne per cubic meter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicDecimeter = new (
+                                                                     "hectotonne per cubic decimeter"
+                                                                   , "ht/dm³"
+                                                                   , DekatonnePerCubicMeter
+                                                                   , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic dekameter, defined as: decitonne per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicDekameter = new (
+                                                                     "centitonne per cubic dekameter"
+                                                                   , "ct/dam³"
+                                                                   , DecitonnePerCubicMeter
+                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic femtometer, defined as: millitonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicFemtometer = new (
+                                                                      "microtonne per cubic femtometer"
+                                                                    , "μt/fm³"
+                                                                    , MillitonnePerCubicPicometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// attotonne per cubic millimeter, defined as: femtotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicMillimeter = new (
+                                                                     "attotonne per cubic millimeter"
+                                                                   , "at/mm³"
+                                                                   , FemtotonnePerCubicCentimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic meter, defined as: zettatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicMeter = new (
+                                                                 "yottatonne per cubic meter"
+                                                               , "Yt/m³"
+                                                               , ZettatonnePerCubicMeter
+                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
+   /// decitonne per cubic zettameter, defined as: tonne per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicZettameter = new (
+                                                                     "decitonne per cubic zettameter"
+                                                                   , "dt/Zm³"
+                                                                   , TonnePerCubicExameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic meter, defined as: yottatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicMeter = new (
+                                                                 "ronnatonne per cubic meter"
+                                                               , "Rt/m³"
+                                                               , YottatonnePerCubicMeter
+                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                );
+
+   /// <summary>
+   /// kilotonne per cubic decimeter, defined as: hectotonne per cubic meter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicDecimeter = new (
+                                                                    "kilotonne per cubic decimeter"
+                                                                  , "kt/dm³"
+                                                                  , HectotonnePerCubicMeter
+                                                                  , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// decitonne per cubic yottameter, defined as: tonne per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicYottameter = new (
+                                                                     "decitonne per cubic yottameter"
+                                                                   , "dt/Ym³"
+                                                                   , TonnePerCubicZettameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic hectometer, defined as: decitonne per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicHectometer = new (
+                                                                      "centitonne per cubic hectometer"
+                                                                    , "ct/hm³"
+                                                                    , DecitonnePerCubicDekameter
+                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// millitonne per cubic yoctometer, defined as: centitonne per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicYoctometer = new (
+                                                                      "millitonne per cubic yoctometer"
+                                                                    , "mt/ym³"
+                                                                    , CentitonnePerCubicZeptometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic picometer, defined as: microtonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicPicometer = new (
+                                                                    "nanotonne per cubic picometer"
+                                                                  , "nt/pm³"
+                                                                  , MicrotonnePerCubicNanometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic micrometer, defined as: picotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicMicrometer = new (
+                                                                      "femtotonne per cubic micrometer"
+                                                                    , "ft/μm³"
+                                                                    , PicotonnePerCubicMillimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic centimeter, defined as: yoctotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicCentimeter = new (
+                                                                      "rontotonne per cubic centimeter"
+                                                                    , "rt/cm³"
+                                                                    , YoctotonnePerCubicDecimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// picotonne per cubic nanometer, defined as: nanotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicNanometer = new (
+                                                                    "picotonne per cubic nanometer"
+                                                                  , "pt/nm³"
+                                                                  , NanotonnePerCubicMicrometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// quettatonne per cubic meter, defined as: ronnatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicMeter = new (
+                                                                  "quettatonne per cubic meter"
+                                                                , "Qt/m³"
+                                                                , RonnatonnePerCubicMeter
+                                                                , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                 );
+
+   /// <summary>
+   /// decitonne per cubic ronnameter, defined as: tonne per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicRonnameter = new (
+                                                                     "decitonne per cubic ronnameter"
+                                                                   , "dt/Rm³"
+                                                                   , TonnePerCubicYottameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic attometer, defined as: millitonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicAttometer = new (
+                                                                     "microtonne per cubic attometer"
+                                                                   , "μt/am³"
+                                                                   , MillitonnePerCubicFemtometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic millimeter, defined as: attotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicMillimeter = new (
+                                                                      "zeptotonne per cubic millimeter"
+                                                                    , "zt/mm³"
+                                                                    , AttotonnePerCubicCentimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// megatonne per cubic decimeter, defined as: kilotonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicDecimeter = new (
+                                                                    "megatonne per cubic decimeter"
+                                                                  , "Mt/dm³"
+                                                                  , KilotonnePerCubicMeter
+                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// centitonne per cubic kilometer, defined as: decitonne per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicKilometer = new (
+                                                                     "centitonne per cubic kilometer"
+                                                                   , "ct/km³"
+                                                                   , DecitonnePerCubicHectometer
+                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// decitonne per cubic quettameter, defined as: tonne per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DecitonnePerCubicQuettameter = new (
+                                                                      "decitonne per cubic quettameter"
+                                                                    , "dt/Qm³"
+                                                                    , TonnePerCubicRonnameter
+                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// millitonne per cubic rontometer, defined as: centitonne per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicRontometer = new (
+                                                                      "millitonne per cubic rontometer"
+                                                                    , "mt/rm³"
+                                                                    , CentitonnePerCubicYoctometer
+                                                                    , 1.0
+                                                                    / 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic centimeter, defined as: rontotonne per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicCentimeter = new (
+                                                                       "quectotonne per cubic centimeter"
+                                                                     , "qt/cm³"
+                                                                     , RontotonnePerCubicDecimeter
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                      );
+
+   /// <summary>
+   /// gigatonne per cubic decimeter, defined as: megatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicDecimeter = new (
+                                                                    "gigatonne per cubic decimeter"
+                                                                  , "Gt/dm³"
+                                                                  , MegatonnePerCubicMeter
+                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// centitonne per cubic megameter, defined as: decitonne per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicMegameter = new (
+                                                                     "centitonne per cubic megameter"
+                                                                   , "ct/Mm³"
+                                                                   , DecitonnePerCubicKilometer
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic femtometer, defined as: microtonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicFemtometer = new (
+                                                                     "nanotonne per cubic femtometer"
+                                                                   , "nt/fm³"
+                                                                   , MicrotonnePerCubicPicometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic micrometer, defined as: femtotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicMicrometer = new (
+                                                                     "attotonne per cubic micrometer"
+                                                                   , "at/μm³"
+                                                                   , FemtotonnePerCubicMillimeter
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic zeptometer, defined as: millitonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicZeptometer = new (
+                                                                      "microtonne per cubic zeptometer"
+                                                                    , "μt/zm³"
+                                                                    , MillitonnePerCubicAttometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic millimeter, defined as: zeptotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicMillimeter = new (
+                                                                      "yoctotonne per cubic millimeter"
+                                                                    , "yt/mm³"
+                                                                    , ZeptotonnePerCubicCentimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// dekatonne per cubic centimeter, defined as: tonne per cubic decimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicCentimeter = new (
+                                                                     "dekatonne per cubic centimeter"
+                                                                   , "dat/cm³"
+                                                                   , TonnePerCubicDecimeter
+                                                                   , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic quectometer, defined as: centitonne per cubic rontometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicQuectometer = new (
+                                                                       "millitonne per cubic quectometer"
+                                                                     , "mt/qm³"
+                                                                     , CentitonnePerCubicRontometer
+                                                                     , 1.0
+                                                                     / 10.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// picotonne per cubic picometer, defined as: nanotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicPicometer = new (
+                                                                    "picotonne per cubic picometer"
+                                                                  , "pt/pm³"
+                                                                  , NanotonnePerCubicNanometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic nanometer, defined as: picotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicNanometer = new (
+                                                                     "femtotonne per cubic nanometer"
+                                                                   , "ft/nm³"
+                                                                   , PicotonnePerCubicMicrometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic decimeter, defined as: gigatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicDecimeter = new (
+                                                                    "teratonne per cubic decimeter"
+                                                                  , "Tt/dm³"
+                                                                  , GigatonnePerCubicMeter
+                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// centitonne per cubic gigameter, defined as: decitonne per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicGigameter = new (
+                                                                     "centitonne per cubic gigameter"
+                                                                   , "ct/Gm³"
+                                                                   , DecitonnePerCubicMegameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic decimeter, defined as: teratonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicDecimeter = new (
+                                                                    "petatonne per cubic decimeter"
+                                                                  , "Pt/dm³"
+                                                                  , TeratonnePerCubicMeter
+                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic centimeter, defined as: dekatonne per cubic decimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicCentimeter = new (
+                                                                      "hectotonne per cubic centimeter"
+                                                                    , "ht/cm³"
+                                                                    , DekatonnePerCubicDecimeter
+                                                                    , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// centitonne per cubic terameter, defined as: decitonne per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicTerameter = new (
+                                                                     "centitonne per cubic terameter"
+                                                                   , "ct/Tm³"
+                                                                   , DecitonnePerCubicGigameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic dekameter, defined as: centitonne per cubic meter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicDekameter = new (
+                                                                     "millitonne per cubic dekameter"
+                                                                   , "mt/dam³"
+                                                                   , CentitonnePerCubicMeter
+                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic yoctometer, defined as: millitonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicYoctometer = new (
+                                                                      "microtonne per cubic yoctometer"
+                                                                    , "μt/ym³"
+                                                                    , MillitonnePerCubicZeptometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic attometer, defined as: microtonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicAttometer = new (
+                                                                    "nanotonne per cubic attometer"
+                                                                  , "nt/am³"
+                                                                  , MicrotonnePerCubicFemtometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic micrometer, defined as: attotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicMicrometer = new (
+                                                                      "zeptotonne per cubic micrometer"
+                                                                    , "zt/μm³"
+                                                                    , AttotonnePerCubicMillimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic millimeter, defined as: yoctotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicMillimeter = new (
+                                                                      "rontotonne per cubic millimeter"
+                                                                    , "rt/mm³"
+                                                                    , YoctotonnePerCubicCentimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic decimeter, defined as: petatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicDecimeter = new (
+                                                                   "exatonne per cubic decimeter"
+                                                                 , "Et/dm³"
+                                                                 , PetatonnePerCubicMeter
+                                                                 , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  );
+
+   /// <summary>
+   /// centitonne per cubic petameter, defined as: decitonne per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicPetameter = new (
+                                                                     "centitonne per cubic petameter"
+                                                                   , "ct/Pm³"
+                                                                   , DecitonnePerCubicTerameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic femtometer, defined as: nanotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicFemtometer = new (
+                                                                     "picotonne per cubic femtometer"
+                                                                   , "pt/fm³"
+                                                                   , NanotonnePerCubicPicometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic nanometer, defined as: femtotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicNanometer = new (
+                                                                    "attotonne per cubic nanometer"
+                                                                  , "at/nm³"
+                                                                  , FemtotonnePerCubicMicrometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// kilotonne per cubic centimeter, defined as: hectotonne per cubic decimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicCentimeter = new (
+                                                                     "kilotonne per cubic centimeter"
+                                                                   , "kt/cm³"
+                                                                   , HectotonnePerCubicDecimeter
+                                                                   , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic hectometer, defined as: centitonne per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicHectometer = new (
+                                                                      "millitonne per cubic hectometer"
+                                                                    , "mt/hm³"
+                                                                    , CentitonnePerCubicDekameter
+                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// femtotonne per cubic picometer, defined as: picotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicPicometer = new (
+                                                                     "femtotonne per cubic picometer"
+                                                                   , "ft/pm³"
+                                                                   , PicotonnePerCubicNanometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic rontometer, defined as: millitonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicRontometer = new (
+                                                                      "microtonne per cubic rontometer"
+                                                                    , "μt/rm³"
+                                                                    , MillitonnePerCubicYoctometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic millimeter, defined as: rontotonne per cubic centimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicMillimeter = new (
+                                                                       "quectotonne per cubic millimeter"
+                                                                     , "qt/mm³"
+                                                                     , RontotonnePerCubicCentimeter
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                      );
+
+   /// <summary>
+   /// zettatonne per cubic decimeter, defined as: exatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicDecimeter = new (
+                                                                     "zettatonne per cubic decimeter"
+                                                                   , "Zt/dm³"
+                                                                   , ExatonnePerCubicMeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic exameter, defined as: decitonne per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicExameter = new (
+                                                                    "centitonne per cubic exameter"
+                                                                  , "ct/Em³"
+                                                                  , DecitonnePerCubicPetameter
+                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// nanotonne per cubic zeptometer, defined as: microtonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicZeptometer = new (
+                                                                     "nanotonne per cubic zeptometer"
+                                                                   , "nt/zm³"
+                                                                   , MicrotonnePerCubicAttometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// yoctotonne per cubic micrometer, defined as: zeptotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicMicrometer = new (
+                                                                      "yoctotonne per cubic micrometer"
+                                                                    , "yt/μm³"
+                                                                    , ZeptotonnePerCubicMillimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// megatonne per cubic centimeter, defined as: kilotonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicCentimeter = new (
+                                                                     "megatonne per cubic centimeter"
+                                                                   , "Mt/cm³"
+                                                                   , KilotonnePerCubicDecimeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic kilometer, defined as: centitonne per cubic hectometer × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicKilometer = new (
+                                                                     "millitonne per cubic kilometer"
+                                                                   , "mt/km³"
+                                                                   , CentitonnePerCubicHectometer
+                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic decimeter, defined as: zettatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicDecimeter = new (
+                                                                     "yottatonne per cubic decimeter"
+                                                                   , "Yt/dm³"
+                                                                   , ZettatonnePerCubicMeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic zettameter, defined as: decitonne per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicZettameter = new (
+                                                                      "centitonne per cubic zettameter"
+                                                                    , "ct/Zm³"
+                                                                    , DecitonnePerCubicExameter
+                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// dekatonne per cubic millimeter, defined as: tonne per cubic centimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicMillimeter = new (
+                                                                     "dekatonne per cubic millimeter"
+                                                                   , "dat/mm³"
+                                                                   , TonnePerCubicCentimeter
+                                                                   , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic quectometer, defined as: millitonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicQuectometer = new (
+                                                                       "microtonne per cubic quectometer"
+                                                                     , "μt/qm³"
+                                                                     , MillitonnePerCubicRontometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// picotonne per cubic attometer, defined as: nanotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicAttometer = new (
+                                                                    "picotonne per cubic attometer"
+                                                                  , "pt/am³"
+                                                                  , NanotonnePerCubicFemtometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic nanometer, defined as: attotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicNanometer = new (
+                                                                     "zeptotonne per cubic nanometer"
+                                                                   , "zt/nm³"
+                                                                   , AttotonnePerCubicMicrometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic decimeter, defined as: yottatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicDecimeter = new (
+                                                                     "ronnatonne per cubic decimeter"
+                                                                   , "Rt/dm³"
+                                                                   , YottatonnePerCubicMeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic centimeter, defined as: megatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicCentimeter = new (
+                                                                     "gigatonne per cubic centimeter"
+                                                                   , "Gt/cm³"
+                                                                   , MegatonnePerCubicDecimeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic yottameter, defined as: decitonne per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicYottameter = new (
+                                                                      "centitonne per cubic yottameter"
+                                                                    , "ct/Ym³"
+                                                                    , DecitonnePerCubicZettameter
+                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// millitonne per cubic megameter, defined as: centitonne per cubic kilometer × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicMegameter = new (
+                                                                     "millitonne per cubic megameter"
+                                                                   , "mt/Mm³"
+                                                                   , CentitonnePerCubicKilometer
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic yoctometer, defined as: microtonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicYoctometer = new (
+                                                                     "nanotonne per cubic yoctometer"
+                                                                   , "nt/ym³"
+                                                                   , MicrotonnePerCubicZeptometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic femtometer, defined as: picotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicFemtometer = new (
+                                                                      "femtotonne per cubic femtometer"
+                                                                    , "ft/fm³"
+                                                                    , PicotonnePerCubicPicometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// attotonne per cubic picometer, defined as: femtotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicPicometer = new (
+                                                                    "attotonne per cubic picometer"
+                                                                  , "at/pm³"
+                                                                  , FemtotonnePerCubicNanometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// rontotonne per cubic micrometer, defined as: yoctotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicMicrometer = new (
+                                                                      "rontotonne per cubic micrometer"
+                                                                    , "rt/μm³"
+                                                                    , YoctotonnePerCubicMillimeter
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic decimeter, defined as: ronnatonne per cubic meter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicDecimeter = new (
+                                                                      "quettatonne per cubic decimeter"
+                                                                    , "Qt/dm³"
+                                                                    , RonnatonnePerCubicMeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// hectotonne per cubic millimeter, defined as: dekatonne per cubic centimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicMillimeter = new (
+                                                                      "hectotonne per cubic millimeter"
+                                                                    , "ht/mm³"
+                                                                    , DekatonnePerCubicCentimeter
+                                                                    , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// centitonne per cubic ronnameter, defined as: decitonne per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicRonnameter = new (
+                                                                      "centitonne per cubic ronnameter"
+                                                                    , "ct/Rm³"
+                                                                    , DecitonnePerCubicYottameter
+                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// microtonne per cubic dekameter, defined as: millitonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicDekameter = new (
+                                                                     "microtonne per cubic dekameter"
+                                                                   , "μt/dam³"
+                                                                   , MillitonnePerCubicMeter
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic centimeter, defined as: gigatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicCentimeter = new (
+                                                                     "teratonne per cubic centimeter"
+                                                                   , "Tt/cm³"
+                                                                   , GigatonnePerCubicDecimeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic gigameter, defined as: centitonne per cubic megameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicGigameter = new (
+                                                                     "millitonne per cubic gigameter"
+                                                                   , "mt/Gm³"
+                                                                   , CentitonnePerCubicMegameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic zeptometer, defined as: nanotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicZeptometer = new (
+                                                                     "picotonne per cubic zeptometer"
+                                                                   , "pt/zm³"
+                                                                   , NanotonnePerCubicAttometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// yoctotonne per cubic nanometer, defined as: zeptotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicNanometer = new (
+                                                                     "yoctotonne per cubic nanometer"
+                                                                   , "yt/nm³"
+                                                                   , ZeptotonnePerCubicMicrometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// centitonne per cubic quettameter, defined as: decitonne per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density CentitonnePerCubicQuettameter = new (
+                                                                       "centitonne per cubic quettameter"
+                                                                     , "ct/Qm³"
+                                                                     , DecitonnePerCubicRonnameter
+                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// nanotonne per cubic rontometer, defined as: microtonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicRontometer = new (
+                                                                     "nanotonne per cubic rontometer"
+                                                                   , "nt/rm³"
+                                                                   , MicrotonnePerCubicYoctometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// quectotonne per cubic micrometer, defined as: rontotonne per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicMicrometer = new (
+                                                                       "quectotonne per cubic micrometer"
+                                                                     , "qt/μm³"
+                                                                     , RontotonnePerCubicMillimeter
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// petatonne per cubic centimeter, defined as: teratonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicCentimeter = new (
+                                                                     "petatonne per cubic centimeter"
+                                                                   , "Pt/cm³"
+                                                                   , TeratonnePerCubicDecimeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic millimeter, defined as: hectotonne per cubic centimeter × (10.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicMillimeter = new (
+                                                                     "kilotonne per cubic millimeter"
+                                                                   , "kt/mm³"
+                                                                   , HectotonnePerCubicCentimeter
+                                                                   , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic terameter, defined as: centitonne per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicTerameter = new (
+                                                                     "millitonne per cubic terameter"
+                                                                   , "mt/Tm³"
+                                                                   , CentitonnePerCubicGigameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic hectometer, defined as: millitonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicHectometer = new (
+                                                                      "microtonne per cubic hectometer"
+                                                                    , "μt/hm³"
+                                                                    , MillitonnePerCubicDekameter
+                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// femtotonne per cubic attometer, defined as: picotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicAttometer = new (
+                                                                     "femtotonne per cubic attometer"
+                                                                   , "ft/am³"
+                                                                   , PicotonnePerCubicFemtometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic picometer, defined as: attotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicPicometer = new (
+                                                                     "zeptotonne per cubic picometer"
+                                                                   , "zt/pm³"
+                                                                   , AttotonnePerCubicNanometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic femtometer, defined as: femtotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicFemtometer = new (
+                                                                     "attotonne per cubic femtometer"
+                                                                   , "at/fm³"
+                                                                   , FemtotonnePerCubicPicometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// exatonne per cubic centimeter, defined as: petatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicCentimeter = new (
+                                                                    "exatonne per cubic centimeter"
+                                                                  , "Et/cm³"
+                                                                  , PetatonnePerCubicDecimeter
+                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// dekatonne per cubic micrometer, defined as: tonne per cubic millimeter × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicMicrometer = new (
+                                                                     "dekatonne per cubic micrometer"
+                                                                   , "dat/μm³"
+                                                                   , TonnePerCubicMillimeter
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic petameter, defined as: centitonne per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicPetameter = new (
+                                                                     "millitonne per cubic petameter"
+                                                                   , "mt/Pm³"
+                                                                   , CentitonnePerCubicTerameter
+                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic quectometer, defined as: microtonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicQuectometer = new (
+                                                                      "nanotonne per cubic quectometer"
+                                                                    , "nt/qm³"
+                                                                    , MicrotonnePerCubicRontometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// picotonne per cubic yoctometer, defined as: nanotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicYoctometer = new (
+                                                                     "picotonne per cubic yoctometer"
+                                                                   , "pt/ym³"
+                                                                   , NanotonnePerCubicZeptometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic nanometer, defined as: yoctotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicNanometer = new (
+                                                                     "rontotonne per cubic nanometer"
+                                                                   , "rt/nm³"
+                                                                   , YoctotonnePerCubicMicrometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic millimeter, defined as: kilotonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicMillimeter = new (
+                                                                     "megatonne per cubic millimeter"
+                                                                   , "Mt/mm³"
+                                                                   , KilotonnePerCubicCentimeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic kilometer, defined as: millitonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicKilometer = new (
+                                                                     "microtonne per cubic kilometer"
+                                                                   , "μt/km³"
+                                                                   , MillitonnePerCubicHectometer
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic centimeter, defined as: exatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicCentimeter = new (
+                                                                      "zettatonne per cubic centimeter"
+                                                                    , "Zt/cm³"
+                                                                    , ExatonnePerCubicDecimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// millitonne per cubic exameter, defined as: centitonne per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicExameter = new (
+                                                                    "millitonne per cubic exameter"
+                                                                  , "mt/Em³"
+                                                                  , CentitonnePerCubicPetameter
+                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic zeptometer, defined as: picotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicZeptometer = new (
+                                                                      "femtotonne per cubic zeptometer"
+                                                                    , "ft/zm³"
+                                                                    , PicotonnePerCubicAttometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic picometer, defined as: zeptotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicPicometer = new (
+                                                                     "yoctotonne per cubic picometer"
+                                                                   , "yt/pm³"
+                                                                   , ZeptotonnePerCubicNanometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic millimeter, defined as: megatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicMillimeter = new (
+                                                                     "gigatonne per cubic millimeter"
+                                                                   , "Gt/mm³"
+                                                                   , MegatonnePerCubicCentimeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// hectotonne per cubic micrometer, defined as: dekatonne per cubic millimeter × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicMicrometer = new (
+                                                                      "hectotonne per cubic micrometer"
+                                                                    , "ht/μm³"
+                                                                    , DekatonnePerCubicMillimeter
+                                                                    , 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// microtonne per cubic megameter, defined as: millitonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicMegameter = new (
+                                                                     "microtonne per cubic megameter"
+                                                                   , "μt/Mm³"
+                                                                   , MillitonnePerCubicKilometer
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic dekameter, defined as: microtonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicDekameter = new (
+                                                                    "nanotonne per cubic dekameter"
+                                                                  , "nt/dam³"
+                                                                  , MicrotonnePerCubicMeter
+                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// attotonne per cubic attometer, defined as: femtotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicAttometer = new (
+                                                                    "attotonne per cubic attometer"
+                                                                  , "at/am³"
+                                                                  , FemtotonnePerCubicFemtometer
+                                                                  , 1.0
+                                                                  / 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic femtometer, defined as: attotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicFemtometer = new (
+                                                                      "zeptotonne per cubic femtometer"
+                                                                    , "zt/fm³"
+                                                                    , AttotonnePerCubicPicometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// picotonne per cubic rontometer, defined as: nanotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicRontometer = new (
+                                                                     "picotonne per cubic rontometer"
+                                                                   , "pt/rm³"
+                                                                   , NanotonnePerCubicYoctometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// quectotonne per cubic nanometer, defined as: rontotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicNanometer = new (
+                                                                      "quectotonne per cubic nanometer"
+                                                                    , "qt/nm³"
+                                                                    , RontotonnePerCubicMicrometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yottatonne per cubic centimeter, defined as: zettatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicCentimeter = new (
+                                                                      "yottatonne per cubic centimeter"
+                                                                    , "Yt/cm³"
+                                                                    , ZettatonnePerCubicDecimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// millitonne per cubic zettameter, defined as: centitonne per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicZettameter = new (
+                                                                      "millitonne per cubic zettameter"
+                                                                    , "mt/Zm³"
+                                                                    , CentitonnePerCubicExameter
+                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// teratonne per cubic millimeter, defined as: gigatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicMillimeter = new (
+                                                                     "teratonne per cubic millimeter"
+                                                                   , "Tt/mm³"
+                                                                   , GigatonnePerCubicCentimeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic gigameter, defined as: millitonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicGigameter = new (
+                                                                     "microtonne per cubic gigameter"
+                                                                   , "μt/Gm³"
+                                                                   , MillitonnePerCubicMegameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic centimeter, defined as: yottatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicCentimeter = new (
+                                                                      "ronnatonne per cubic centimeter"
+                                                                    , "Rt/cm³"
+                                                                    , YottatonnePerCubicDecimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// kilotonne per cubic micrometer, defined as: hectotonne per cubic millimeter × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicMicrometer = new (
+                                                                     "kilotonne per cubic micrometer"
+                                                                   , "kt/μm³"
+                                                                   , HectotonnePerCubicMillimeter
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic yottameter, defined as: centitonne per cubic zettameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicYottameter = new (
+                                                                      "millitonne per cubic yottameter"
+                                                                    , "mt/Ym³"
+                                                                    , CentitonnePerCubicZettameter
+                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic hectometer, defined as: microtonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicHectometer = new (
+                                                                     "nanotonne per cubic hectometer"
+                                                                   , "nt/hm³"
+                                                                   , MicrotonnePerCubicDekameter
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic yoctometer, defined as: picotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicYoctometer = new (
+                                                                      "femtotonne per cubic yoctometer"
+                                                                    , "ft/ym³"
+                                                                    , PicotonnePerCubicZeptometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic picometer, defined as: yoctotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicPicometer = new (
+                                                                     "rontotonne per cubic picometer"
+                                                                   , "rt/pm³"
+                                                                   , YoctotonnePerCubicNanometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// dekatonne per cubic nanometer, defined as: tonne per cubic micrometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicNanometer = new (
+                                                                    "dekatonne per cubic nanometer"
+                                                                  , "dat/nm³"
+                                                                  , TonnePerCubicMicrometer
+                                                                  , 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// picotonne per cubic quectometer, defined as: nanotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicQuectometer = new (
+                                                                      "picotonne per cubic quectometer"
+                                                                    , "pt/qm³"
+                                                                    , NanotonnePerCubicRontometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// attotonne per cubic zeptometer, defined as: femtotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicZeptometer = new (
+                                                                     "attotonne per cubic zeptometer"
+                                                                   , "at/zm³"
+                                                                   , FemtotonnePerCubicAttometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// yoctotonne per cubic femtometer, defined as: zeptotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicFemtometer = new (
+                                                                      "yoctotonne per cubic femtometer"
+                                                                    , "yt/fm³"
+                                                                    , ZeptotonnePerCubicPicometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic centimeter, defined as: ronnatonne per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicCentimeter = new (
+                                                                       "quettatonne per cubic centimeter"
+                                                                     , "Qt/cm³"
+                                                                     , RonnatonnePerCubicDecimeter
+                                                                     , 1000.0
+                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                      );
+
+   /// <summary>
+   /// petatonne per cubic millimeter, defined as: teratonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicMillimeter = new (
+                                                                     "petatonne per cubic millimeter"
+                                                                   , "Pt/mm³"
+                                                                   , TeratonnePerCubicCentimeter
+                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    );
+
+   /// <summary>
+   /// millitonne per cubic ronnameter, defined as: centitonne per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicRonnameter = new (
+                                                                      "millitonne per cubic ronnameter"
+                                                                    , "mt/Rm³"
+                                                                    , CentitonnePerCubicYottameter
+                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// microtonne per cubic terameter, defined as: millitonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicTerameter = new (
+                                                                     "microtonne per cubic terameter"
+                                                                   , "μt/Tm³"
+                                                                   , MillitonnePerCubicGigameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic attometer, defined as: attotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicAttometer = new (
+                                                                     "zeptotonne per cubic attometer"
+                                                                   , "zt/am³"
+                                                                   , AttotonnePerCubicFemtometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic micrometer, defined as: kilotonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicMicrometer = new (
+                                                                     "megatonne per cubic micrometer"
+                                                                   , "Mt/μm³"
+                                                                   , KilotonnePerCubicMillimeter
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic kilometer, defined as: microtonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicKilometer = new (
+                                                                    "nanotonne per cubic kilometer"
+                                                                  , "nt/km³"
+                                                                  , MicrotonnePerCubicHectometer
+                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// millitonne per cubic quettameter, defined as: centitonne per cubic ronnameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MillitonnePerCubicQuettameter = new (
+                                                                       "millitonne per cubic quettameter"
+                                                                     , "mt/Qm³"
+                                                                     , CentitonnePerCubicRonnameter
+                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// femtotonne per cubic rontometer, defined as: picotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicRontometer = new (
+                                                                      "femtotonne per cubic rontometer"
+                                                                    , "ft/rm³"
+                                                                    , PicotonnePerCubicYoctometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic picometer, defined as: rontotonne per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicPicometer = new (
+                                                                      "quectotonne per cubic picometer"
+                                                                    , "qt/pm³"
+                                                                    , RontotonnePerCubicNanometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic millimeter, defined as: petatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicMillimeter = new (
+                                                                    "exatonne per cubic millimeter"
+                                                                  , "Et/mm³"
+                                                                  , PetatonnePerCubicCentimeter
+                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic nanometer, defined as: dekatonne per cubic micrometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicNanometer = new (
+                                                                     "hectotonne per cubic nanometer"
+                                                                   , "ht/nm³"
+                                                                   , DekatonnePerCubicMicrometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic petameter, defined as: millitonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicPetameter = new (
+                                                                     "microtonne per cubic petameter"
+                                                                   , "μt/Pm³"
+                                                                   , MillitonnePerCubicTerameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic dekameter, defined as: nanotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicDekameter = new (
+                                                                    "picotonne per cubic dekameter"
+                                                                  , "pt/dam³"
+                                                                  , NanotonnePerCubicMeter
+                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// gigatonne per cubic micrometer, defined as: megatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicMicrometer = new (
+                                                                     "gigatonne per cubic micrometer"
+                                                                   , "Gt/μm³"
+                                                                   , MegatonnePerCubicMillimeter
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic megameter, defined as: microtonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicMegameter = new (
+                                                                    "nanotonne per cubic megameter"
+                                                                  , "nt/Mm³"
+                                                                  , MicrotonnePerCubicKilometer
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// attotonne per cubic yoctometer, defined as: femtotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicYoctometer = new (
+                                                                     "attotonne per cubic yoctometer"
+                                                                   , "at/ym³"
+                                                                   , FemtotonnePerCubicZeptometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic femtometer, defined as: yoctotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicFemtometer = new (
+                                                                      "rontotonne per cubic femtometer"
+                                                                    , "rt/fm³"
+                                                                    , YoctotonnePerCubicPicometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// zettatonne per cubic millimeter, defined as: exatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicMillimeter = new (
+                                                                      "zettatonne per cubic millimeter"
+                                                                    , "Zt/mm³"
+                                                                    , ExatonnePerCubicCentimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// microtonne per cubic exameter, defined as: millitonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicExameter = new (
+                                                                    "microtonne per cubic exameter"
+                                                                  , "μt/Em³"
+                                                                  , MillitonnePerCubicPetameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic zeptometer, defined as: attotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicZeptometer = new (
+                                                                      "zeptotonne per cubic zeptometer"
+                                                                    , "zt/zm³"
+                                                                    , AttotonnePerCubicAttometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic attometer, defined as: zeptotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicAttometer = new (
+                                                                     "yoctotonne per cubic attometer"
+                                                                   , "yt/am³"
+                                                                   , ZeptotonnePerCubicFemtometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic nanometer, defined as: hectotonne per cubic micrometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicNanometer = new (
+                                                                    "kilotonne per cubic nanometer"
+                                                                  , "kt/nm³"
+                                                                  , HectotonnePerCubicMicrometer
+                                                                  , 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// dekatonne per cubic picometer, defined as: tonne per cubic nanometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicPicometer = new (
+                                                                    "dekatonne per cubic picometer"
+                                                                  , "dat/pm³"
+                                                                  , TonnePerCubicNanometer
+                                                                  , 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// picotonne per cubic hectometer, defined as: nanotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicHectometer = new (
+                                                                     "picotonne per cubic hectometer"
+                                                                   , "pt/hm³"
+                                                                   , NanotonnePerCubicDekameter
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic quectometer, defined as: picotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicQuectometer = new (
+                                                                       "femtotonne per cubic quectometer"
+                                                                     , "ft/qm³"
+                                                                     , PicotonnePerCubicRontometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// teratonne per cubic micrometer, defined as: gigatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicMicrometer = new (
+                                                                     "teratonne per cubic micrometer"
+                                                                   , "Tt/μm³"
+                                                                   , GigatonnePerCubicMillimeter
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic gigameter, defined as: microtonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicGigameter = new (
+                                                                    "nanotonne per cubic gigameter"
+                                                                  , "nt/Gm³"
+                                                                  , MicrotonnePerCubicMegameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// yottatonne per cubic millimeter, defined as: zettatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicMillimeter = new (
+                                                                      "yottatonne per cubic millimeter"
+                                                                    , "Yt/mm³"
+                                                                    , ZettatonnePerCubicCentimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// microtonne per cubic zettameter, defined as: millitonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicZettameter = new (
+                                                                      "microtonne per cubic zettameter"
+                                                                    , "μt/Zm³"
+                                                                    , MillitonnePerCubicExameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// attotonne per cubic rontometer, defined as: femtotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicRontometer = new (
+                                                                     "attotonne per cubic rontometer"
+                                                                   , "at/rm³"
+                                                                   , FemtotonnePerCubicYoctometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// quectotonne per cubic femtometer, defined as: rontotonne per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicFemtometer = new (
+                                                                       "quectotonne per cubic femtometer"
+                                                                     , "qt/fm³"
+                                                                     , RontotonnePerCubicPicometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// megatonne per cubic nanometer, defined as: kilotonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicNanometer = new (
+                                                                    "megatonne per cubic nanometer"
+                                                                  , "Mt/nm³"
+                                                                  , KilotonnePerCubicMicrometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// picotonne per cubic kilometer, defined as: nanotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicKilometer = new (
+                                                                    "picotonne per cubic kilometer"
+                                                                  , "pt/km³"
+                                                                  , NanotonnePerCubicHectometer
+                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// ronnatonne per cubic millimeter, defined as: yottatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicMillimeter = new (
+                                                                      "ronnatonne per cubic millimeter"
+                                                                    , "Rt/mm³"
+                                                                    , YottatonnePerCubicCentimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     );
+
+   /// <summary>
+   /// petatonne per cubic micrometer, defined as: teratonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicMicrometer = new (
+                                                                     "petatonne per cubic micrometer"
+                                                                   , "Pt/μm³"
+                                                                   , TeratonnePerCubicMillimeter
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// hectotonne per cubic picometer, defined as: dekatonne per cubic nanometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicPicometer = new (
+                                                                     "hectotonne per cubic picometer"
+                                                                   , "ht/pm³"
+                                                                   , DekatonnePerCubicNanometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// microtonne per cubic yottameter, defined as: millitonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicYottameter = new (
+                                                                      "microtonne per cubic yottameter"
+                                                                    , "μt/Ym³"
+                                                                    , MillitonnePerCubicZettameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic terameter, defined as: microtonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicTerameter = new (
+                                                                    "nanotonne per cubic terameter"
+                                                                  , "nt/Tm³"
+                                                                  , MicrotonnePerCubicGigameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic dekameter, defined as: picotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicDekameter = new (
+                                                                     "femtotonne per cubic dekameter"
+                                                                   , "ft/dam³"
+                                                                   , PicotonnePerCubicMeter
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic yoctometer, defined as: attotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicYoctometer = new (
+                                                                      "zeptotonne per cubic yoctometer"
+                                                                    , "zt/ym³"
+                                                                    , AttotonnePerCubicZeptometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic attometer, defined as: yoctotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicAttometer = new (
+                                                                     "rontotonne per cubic attometer"
+                                                                   , "rt/am³"
+                                                                   , YoctotonnePerCubicFemtometer
+                                                                   , 1.0
+                                                                   / 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// yoctotonne per cubic zeptometer, defined as: zeptotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicZeptometer = new (
+                                                                      "yoctotonne per cubic zeptometer"
+                                                                    , "yt/zm³"
+                                                                    , ZeptotonnePerCubicAttometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic millimeter, defined as: ronnatonne per cubic centimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicMillimeter = new (
+                                                                       "quettatonne per cubic millimeter"
+                                                                     , "Qt/mm³"
+                                                                     , RonnatonnePerCubicCentimeter
+                                                                     , 1000.0
+                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                      );
+
+   /// <summary>
+   /// microtonne per cubic ronnameter, defined as: millitonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicRonnameter = new (
+                                                                      "microtonne per cubic ronnameter"
+                                                                    , "μt/Rm³"
+                                                                    , MillitonnePerCubicYottameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic micrometer, defined as: petatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicMicrometer = new (
+                                                                    "exatonne per cubic micrometer"
+                                                                  , "Et/μm³"
+                                                                  , PetatonnePerCubicMillimeter
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// gigatonne per cubic nanometer, defined as: megatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicNanometer = new (
+                                                                    "gigatonne per cubic nanometer"
+                                                                  , "Gt/nm³"
+                                                                  , MegatonnePerCubicMicrometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// dekatonne per cubic femtometer, defined as: tonne per cubic picometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicFemtometer = new (
+                                                                     "dekatonne per cubic femtometer"
+                                                                   , "dat/fm³"
+                                                                   , TonnePerCubicPicometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic petameter, defined as: microtonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicPetameter = new (
+                                                                    "nanotonne per cubic petameter"
+                                                                  , "nt/Pm³"
+                                                                  , MicrotonnePerCubicTerameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// picotonne per cubic megameter, defined as: nanotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicMegameter = new (
+                                                                    "picotonne per cubic megameter"
+                                                                  , "pt/Mm³"
+                                                                  , NanotonnePerCubicKilometer
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// attotonne per cubic quectometer, defined as: femtotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicQuectometer = new (
+                                                                      "attotonne per cubic quectometer"
+                                                                    , "at/qm³"
+                                                                    , FemtotonnePerCubicRontometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// kilotonne per cubic picometer, defined as: hectotonne per cubic nanometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicPicometer = new (
+                                                                    "kilotonne per cubic picometer"
+                                                                  , "kt/pm³"
+                                                                  , HectotonnePerCubicNanometer
+                                                                  , 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic hectometer, defined as: picotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicHectometer = new (
+                                                                      "femtotonne per cubic hectometer"
+                                                                    , "ft/hm³"
+                                                                    , PicotonnePerCubicDekameter
+                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// microtonne per cubic quettameter, defined as: millitonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MicrotonnePerCubicQuettameter = new (
+                                                                       "microtonne per cubic quettameter"
+                                                                     , "μt/Qm³"
+                                                                     , MillitonnePerCubicRonnameter
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// zeptotonne per cubic rontometer, defined as: attotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicRontometer = new (
+                                                                      "zeptotonne per cubic rontometer"
+                                                                    , "zt/rm³"
+                                                                    , AttotonnePerCubicYoctometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic attometer, defined as: rontotonne per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicAttometer = new (
+                                                                      "quectotonne per cubic attometer"
+                                                                    , "qt/am³"
+                                                                    , RontotonnePerCubicFemtometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// zettatonne per cubic micrometer, defined as: exatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicMicrometer = new (
+                                                                      "zettatonne per cubic micrometer"
+                                                                    , "Zt/μm³"
+                                                                    , ExatonnePerCubicMillimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic exameter, defined as: microtonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicExameter = new (
+                                                                   "nanotonne per cubic exameter"
+                                                                 , "nt/Em³"
+                                                                 , MicrotonnePerCubicPetameter
+                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// yoctotonne per cubic yoctometer, defined as: zeptotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicYoctometer = new (
+                                                                      "yoctotonne per cubic yoctometer"
+                                                                    , "yt/ym³"
+                                                                    , ZeptotonnePerCubicZeptometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic zeptometer, defined as: yoctotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicZeptometer = new (
+                                                                      "rontotonne per cubic zeptometer"
+                                                                    , "rt/zm³"
+                                                                    , YoctotonnePerCubicAttometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// teratonne per cubic nanometer, defined as: gigatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicNanometer = new (
+                                                                    "teratonne per cubic nanometer"
+                                                                  , "Tt/nm³"
+                                                                  , GigatonnePerCubicMicrometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// picotonne per cubic gigameter, defined as: nanotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicGigameter = new (
+                                                                    "picotonne per cubic gigameter"
+                                                                  , "pt/Gm³"
+                                                                  , NanotonnePerCubicMegameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic femtometer, defined as: dekatonne per cubic picometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicFemtometer = new (
+                                                                      "hectotonne per cubic femtometer"
+                                                                    , "ht/fm³"
+                                                                    , DekatonnePerCubicPicometer
+                                                                    , 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// attotonne per cubic dekameter, defined as: femtotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicDekameter = new (
+                                                                    "attotonne per cubic dekameter"
+                                                                  , "at/dam³"
+                                                                  , FemtotonnePerCubicMeter
+                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// megatonne per cubic picometer, defined as: kilotonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicPicometer = new (
+                                                                    "megatonne per cubic picometer"
+                                                                  , "Mt/pm³"
+                                                                  , KilotonnePerCubicNanometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic kilometer, defined as: picotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicKilometer = new (
+                                                                     "femtotonne per cubic kilometer"
+                                                                   , "ft/km³"
+                                                                   , PicotonnePerCubicHectometer
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic micrometer, defined as: zettatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicMicrometer = new (
+                                                                      "yottatonne per cubic micrometer"
+                                                                    , "Yt/μm³"
+                                                                    , ZettatonnePerCubicMillimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// nanotonne per cubic zettameter, defined as: microtonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicZettameter = new (
+                                                                     "nanotonne per cubic zettameter"
+                                                                   , "nt/Zm³"
+                                                                   , MicrotonnePerCubicExameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic nanometer, defined as: teratonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicNanometer = new (
+                                                                    "petatonne per cubic nanometer"
+                                                                  , "Pt/nm³"
+                                                                  , TeratonnePerCubicMicrometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// dekatonne per cubic attometer, defined as: tonne per cubic femtometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicAttometer = new (
+                                                                    "dekatonne per cubic attometer"
+                                                                  , "dat/am³"
+                                                                  , TonnePerCubicFemtometer
+                                                                  , 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// picotonne per cubic terameter, defined as: nanotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicTerameter = new (
+                                                                    "picotonne per cubic terameter"
+                                                                  , "pt/Tm³"
+                                                                  , NanotonnePerCubicGigameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic quectometer, defined as: attotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicQuectometer = new (
+                                                                       "zeptotonne per cubic quectometer"
+                                                                     , "zt/qm³"
+                                                                     , AttotonnePerCubicRontometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// yoctotonne per cubic rontometer, defined as: zeptotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicRontometer = new (
+                                                                      "yoctotonne per cubic rontometer"
+                                                                    , "yt/rm³"
+                                                                    , ZeptotonnePerCubicYoctometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic zeptometer, defined as: rontotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicZeptometer = new (
+                                                                       "quectotonne per cubic zeptometer"
+                                                                     , "qt/zm³"
+                                                                     , RontotonnePerCubicAttometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// ronnatonne per cubic micrometer, defined as: yottatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicMicrometer = new (
+                                                                      "ronnatonne per cubic micrometer"
+                                                                    , "Rt/μm³"
+                                                                    , YottatonnePerCubicMillimeter
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// gigatonne per cubic picometer, defined as: megatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicPicometer = new (
+                                                                    "gigatonne per cubic picometer"
+                                                                  , "Gt/pm³"
+                                                                  , MegatonnePerCubicNanometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// kilotonne per cubic femtometer, defined as: hectotonne per cubic picometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicFemtometer = new (
+                                                                     "kilotonne per cubic femtometer"
+                                                                   , "kt/fm³"
+                                                                   , HectotonnePerCubicPicometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic yottameter, defined as: microtonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicYottameter = new (
+                                                                     "nanotonne per cubic yottameter"
+                                                                   , "nt/Ym³"
+                                                                   , MicrotonnePerCubicZettameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic megameter, defined as: picotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicMegameter = new (
+                                                                     "femtotonne per cubic megameter"
+                                                                   , "ft/Mm³"
+                                                                   , PicotonnePerCubicKilometer
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic hectometer, defined as: femtotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicHectometer = new (
+                                                                     "attotonne per cubic hectometer"
+                                                                   , "at/hm³"
+                                                                   , FemtotonnePerCubicDekameter
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic yoctometer, defined as: yoctotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicYoctometer = new (
+                                                                      "rontotonne per cubic yoctometer"
+                                                                    , "rt/ym³"
+                                                                    , YoctotonnePerCubicZeptometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic nanometer, defined as: petatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicNanometer = new (
+                                                                   "exatonne per cubic nanometer"
+                                                                 , "Et/nm³"
+                                                                 , PetatonnePerCubicMicrometer
+                                                                 , 1000.0
+                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  );
+
+   /// <summary>
+   /// picotonne per cubic petameter, defined as: nanotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicPetameter = new (
+                                                                    "picotonne per cubic petameter"
+                                                                  , "pt/Pm³"
+                                                                  , NanotonnePerCubicTerameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// quettatonne per cubic micrometer, defined as: ronnatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicMicrometer = new (
+                                                                       "quettatonne per cubic micrometer"
+                                                                     , "Qt/μm³"
+                                                                     , RonnatonnePerCubicMillimeter
+                                                                     , 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// hectotonne per cubic attometer, defined as: dekatonne per cubic femtometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicAttometer = new (
+                                                                     "hectotonne per cubic attometer"
+                                                                   , "ht/am³"
+                                                                   , DekatonnePerCubicFemtometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// nanotonne per cubic ronnameter, defined as: microtonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicRonnameter = new (
+                                                                     "nanotonne per cubic ronnameter"
+                                                                   , "nt/Rm³"
+                                                                   , MicrotonnePerCubicYottameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic dekameter, defined as: attotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicDekameter = new (
+                                                                     "zeptotonne per cubic dekameter"
+                                                                   , "zt/dam³"
+                                                                   , AttotonnePerCubicMeter
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic picometer, defined as: gigatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicPicometer = new (
+                                                                    "teratonne per cubic picometer"
+                                                                  , "Tt/pm³"
+                                                                  , GigatonnePerCubicNanometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic gigameter, defined as: picotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicGigameter = new (
+                                                                     "femtotonne per cubic gigameter"
+                                                                   , "ft/Gm³"
+                                                                   , PicotonnePerCubicMegameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic femtometer, defined as: kilotonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicFemtometer = new (
+                                                                     "megatonne per cubic femtometer"
+                                                                   , "Mt/fm³"
+                                                                   , KilotonnePerCubicPicometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic kilometer, defined as: femtotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicKilometer = new (
+                                                                    "attotonne per cubic kilometer"
+                                                                  , "at/km³"
+                                                                  , FemtotonnePerCubicHectometer
+                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// zettatonne per cubic nanometer, defined as: exatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicNanometer = new (
+                                                                     "zettatonne per cubic nanometer"
+                                                                   , "Zt/nm³"
+                                                                   , ExatonnePerCubicMicrometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// dekatonne per cubic zeptometer, defined as: tonne per cubic attometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicZeptometer = new (
+                                                                     "dekatonne per cubic zeptometer"
+                                                                   , "dat/zm³"
+                                                                   , TonnePerCubicAttometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic exameter, defined as: nanotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicExameter = new (
+                                                                   "picotonne per cubic exameter"
+                                                                 , "pt/Em³"
+                                                                 , NanotonnePerCubicPetameter
+                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// yoctotonne per cubic quectometer, defined as: zeptotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicQuectometer = new (
+                                                                       "yoctotonne per cubic quectometer"
+                                                                     , "yt/qm³"
+                                                                     , ZeptotonnePerCubicRontometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// nanotonne per cubic quettameter, defined as: microtonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density NanotonnePerCubicQuettameter = new (
+                                                                      "nanotonne per cubic quettameter"
+                                                                    , "nt/Qm³"
+                                                                    , MicrotonnePerCubicRonnameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic rontometer, defined as: yoctotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicRontometer = new (
+                                                                      "rontotonne per cubic rontometer"
+                                                                    , "rt/rm³"
+                                                                    , YoctotonnePerCubicYoctometer
+                                                                    , 1.0
+                                                                    / 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic yoctometer, defined as: rontotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicYoctometer = new (
+                                                                       "quectotonne per cubic yoctometer"
+                                                                     , "qt/ym³"
+                                                                     , RontotonnePerCubicZeptometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// petatonne per cubic picometer, defined as: teratonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicPicometer = new (
+                                                                    "petatonne per cubic picometer"
+                                                                  , "Pt/pm³"
+                                                                  , TeratonnePerCubicNanometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// kilotonne per cubic attometer, defined as: hectotonne per cubic femtometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicAttometer = new (
+                                                                    "kilotonne per cubic attometer"
+                                                                  , "kt/am³"
+                                                                  , HectotonnePerCubicFemtometer
+                                                                  , 10.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic terameter, defined as: picotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicTerameter = new (
+                                                                     "femtotonne per cubic terameter"
+                                                                   , "ft/Tm³"
+                                                                   , PicotonnePerCubicGigameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic hectometer, defined as: attotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicHectometer = new (
+                                                                      "zeptotonne per cubic hectometer"
+                                                                    , "zt/hm³"
+                                                                    , AttotonnePerCubicDekameter
+                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// yottatonne per cubic nanometer, defined as: zettatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicNanometer = new (
+                                                                     "yottatonne per cubic nanometer"
+                                                                   , "Yt/nm³"
+                                                                   , ZettatonnePerCubicMicrometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic zettameter, defined as: nanotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicZettameter = new (
+                                                                     "picotonne per cubic zettameter"
+                                                                   , "pt/Zm³"
+                                                                   , NanotonnePerCubicExameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic femtometer, defined as: megatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicFemtometer = new (
+                                                                     "gigatonne per cubic femtometer"
+                                                                   , "Gt/fm³"
+                                                                   , MegatonnePerCubicPicometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic megameter, defined as: femtotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicMegameter = new (
+                                                                    "attotonne per cubic megameter"
+                                                                  , "at/Mm³"
+                                                                  , FemtotonnePerCubicKilometer
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic zeptometer, defined as: dekatonne per cubic attometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicZeptometer = new (
+                                                                      "hectotonne per cubic zeptometer"
+                                                                    , "ht/zm³"
+                                                                    , DekatonnePerCubicAttometer
+                                                                    , 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic dekameter, defined as: zeptotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicDekameter = new (
+                                                                     "yoctotonne per cubic dekameter"
+                                                                   , "yt/dam³"
+                                                                   , ZeptotonnePerCubicMeter
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic nanometer, defined as: yottatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicNanometer = new (
+                                                                     "ronnatonne per cubic nanometer"
+                                                                   , "Rt/nm³"
+                                                                   , YottatonnePerCubicMicrometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// exatonne per cubic picometer, defined as: petatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicPicometer = new (
+                                                                   "exatonne per cubic picometer"
+                                                                 , "Et/pm³"
+                                                                 , PetatonnePerCubicNanometer
+                                                                 , 1000.0
+                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  );
+
+   /// <summary>
+   /// dekatonne per cubic yoctometer, defined as: tonne per cubic zeptometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicYoctometer = new (
+                                                                     "dekatonne per cubic yoctometer"
+                                                                   , "dat/ym³"
+                                                                   , TonnePerCubicZeptometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic yottameter, defined as: nanotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicYottameter = new (
+                                                                     "picotonne per cubic yottameter"
+                                                                   , "pt/Ym³"
+                                                                   , NanotonnePerCubicZettameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic petameter, defined as: picotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicPetameter = new (
+                                                                     "femtotonne per cubic petameter"
+                                                                   , "ft/Pm³"
+                                                                   , PicotonnePerCubicTerameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic quectometer, defined as: yoctotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicQuectometer = new (
+                                                                       "rontotonne per cubic quectometer"
+                                                                     , "rt/qm³"
+                                                                     , YoctotonnePerCubicRontometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// quectotonne per cubic rontometer, defined as: rontotonne per cubic yoctometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicRontometer = new (
+                                                                       "quectotonne per cubic rontometer"
+                                                                     , "qt/rm³"
+                                                                     , RontotonnePerCubicYoctometer
+                                                                     , 1.0
+                                                                     / 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// megatonne per cubic attometer, defined as: kilotonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicAttometer = new (
+                                                                    "megatonne per cubic attometer"
+                                                                  , "Mt/am³"
+                                                                  , KilotonnePerCubicFemtometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic kilometer, defined as: attotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicKilometer = new (
+                                                                     "zeptotonne per cubic kilometer"
+                                                                   , "zt/km³"
+                                                                   , AttotonnePerCubicHectometer
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic femtometer, defined as: gigatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicFemtometer = new (
+                                                                     "teratonne per cubic femtometer"
+                                                                   , "Tt/fm³"
+                                                                   , GigatonnePerCubicPicometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic gigameter, defined as: femtotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicGigameter = new (
+                                                                    "attotonne per cubic gigameter"
+                                                                  , "at/Gm³"
+                                                                  , FemtotonnePerCubicMegameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// quettatonne per cubic nanometer, defined as: ronnatonne per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicNanometer = new (
+                                                                      "quettatonne per cubic nanometer"
+                                                                    , "Qt/nm³"
+                                                                    , RonnatonnePerCubicMicrometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// picotonne per cubic ronnameter, defined as: nanotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicRonnameter = new (
+                                                                     "picotonne per cubic ronnameter"
+                                                                   , "pt/Rm³"
+                                                                   , NanotonnePerCubicYottameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic picometer, defined as: exatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicPicometer = new (
+                                                                     "zettatonne per cubic picometer"
+                                                                   , "Zt/pm³"
+                                                                   , ExatonnePerCubicNanometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic zeptometer, defined as: hectotonne per cubic attometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicZeptometer = new (
+                                                                     "kilotonne per cubic zeptometer"
+                                                                   , "kt/zm³"
+                                                                   , HectotonnePerCubicAttometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic exameter, defined as: picotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicExameter = new (
+                                                                    "femtotonne per cubic exameter"
+                                                                  , "ft/Em³"
+                                                                  , PicotonnePerCubicPetameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// yoctotonne per cubic hectometer, defined as: zeptotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicHectometer = new (
+                                                                      "yoctotonne per cubic hectometer"
+                                                                    , "yt/hm³"
+                                                                    , ZeptotonnePerCubicDekameter
+                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// petatonne per cubic femtometer, defined as: teratonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicFemtometer = new (
+                                                                     "petatonne per cubic femtometer"
+                                                                   , "Pt/fm³"
+                                                                   , TeratonnePerCubicPicometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic attometer, defined as: megatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicAttometer = new (
+                                                                    "gigatonne per cubic attometer"
+                                                                  , "Gt/am³"
+                                                                  , MegatonnePerCubicFemtometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic yoctometer, defined as: dekatonne per cubic zeptometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicYoctometer = new (
+                                                                      "hectotonne per cubic yoctometer"
+                                                                    , "ht/ym³"
+                                                                    , DekatonnePerCubicZeptometer
+                                                                    , 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// attotonne per cubic terameter, defined as: femtotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicTerameter = new (
+                                                                    "attotonne per cubic terameter"
+                                                                  , "at/Tm³"
+                                                                  , FemtotonnePerCubicGigameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic megameter, defined as: attotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicMegameter = new (
+                                                                     "zeptotonne per cubic megameter"
+                                                                   , "zt/Mm³"
+                                                                   , AttotonnePerCubicKilometer
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic dekameter, defined as: yoctotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicDekameter = new (
+                                                                     "rontotonne per cubic dekameter"
+                                                                   , "rt/dam³"
+                                                                   , YoctotonnePerCubicMeter
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// dekatonne per cubic rontometer, defined as: tonne per cubic yoctometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicRontometer = new (
+                                                                     "dekatonne per cubic rontometer"
+                                                                   , "dat/rm³"
+                                                                   , TonnePerCubicYoctometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// picotonne per cubic quettameter, defined as: nanotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PicotonnePerCubicQuettameter = new (
+                                                                      "picotonne per cubic quettameter"
+                                                                    , "pt/Qm³"
+                                                                    , NanotonnePerCubicRonnameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic quectometer, defined as: rontotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicQuectometer = new (
+                                                                        "quectotonne per cubic quectometer"
+                                                                      , "qt/qm³"
+                                                                      , RontotonnePerCubicRontometer
+                                                                      , 1.0
+                                                                      / 1000.0
+                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                       );
+
+   /// <summary>
+   /// yottatonne per cubic picometer, defined as: zettatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicPicometer = new (
+                                                                     "yottatonne per cubic picometer"
+                                                                   , "Yt/pm³"
+                                                                   , ZettatonnePerCubicNanometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic zettameter, defined as: picotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicZettameter = new (
+                                                                      "femtotonne per cubic zettameter"
+                                                                    , "ft/Zm³"
+                                                                    , PicotonnePerCubicExameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// megatonne per cubic zeptometer, defined as: kilotonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicZeptometer = new (
+                                                                     "megatonne per cubic zeptometer"
+                                                                   , "Mt/zm³"
+                                                                   , KilotonnePerCubicAttometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// yoctotonne per cubic kilometer, defined as: zeptotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicKilometer = new (
+                                                                     "yoctotonne per cubic kilometer"
+                                                                   , "yt/km³"
+                                                                   , ZeptotonnePerCubicHectometer
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// exatonne per cubic femtometer, defined as: petatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicFemtometer = new (
+                                                                    "exatonne per cubic femtometer"
+                                                                  , "Et/fm³"
+                                                                  , PetatonnePerCubicPicometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// attotonne per cubic petameter, defined as: femtotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicPetameter = new (
+                                                                    "attotonne per cubic petameter"
+                                                                  , "at/Pm³"
+                                                                  , FemtotonnePerCubicTerameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// teratonne per cubic attometer, defined as: gigatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicAttometer = new (
+                                                                    "teratonne per cubic attometer"
+                                                                  , "Tt/am³"
+                                                                  , GigatonnePerCubicFemtometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic gigameter, defined as: attotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicGigameter = new (
+                                                                     "zeptotonne per cubic gigameter"
+                                                                   , "zt/Gm³"
+                                                                   , AttotonnePerCubicMegameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic picometer, defined as: yottatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicPicometer = new (
+                                                                     "ronnatonne per cubic picometer"
+                                                                   , "Rt/pm³"
+                                                                   , YottatonnePerCubicNanometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic yoctometer, defined as: hectotonne per cubic zeptometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicYoctometer = new (
+                                                                     "kilotonne per cubic yoctometer"
+                                                                   , "kt/ym³"
+                                                                   , HectotonnePerCubicZeptometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic yottameter, defined as: picotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicYottameter = new (
+                                                                      "femtotonne per cubic yottameter"
+                                                                    , "ft/Ym³"
+                                                                    , PicotonnePerCubicZettameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic hectometer, defined as: yoctotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicHectometer = new (
+                                                                      "rontotonne per cubic hectometer"
+                                                                    , "rt/hm³"
+                                                                    , YoctotonnePerCubicDekameter
+                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// hectotonne per cubic rontometer, defined as: dekatonne per cubic yoctometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicRontometer = new (
+                                                                      "hectotonne per cubic rontometer"
+                                                                    , "ht/rm³"
+                                                                    , DekatonnePerCubicYoctometer
+                                                                    , 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic dekameter, defined as: rontotonne per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicDekameter = new (
+                                                                      "quectotonne per cubic dekameter"
+                                                                    , "qt/dam³"
+                                                                    , RontotonnePerCubicMeter
+                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// dekatonne per cubic quectometer, defined as: tonne per cubic rontometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicQuectometer = new (
+                                                                      "dekatonne per cubic quectometer"
+                                                                    , "dat/qm³"
+                                                                    , TonnePerCubicRontometer
+                                                                    , 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// zettatonne per cubic femtometer, defined as: exatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicFemtometer = new (
+                                                                      "zettatonne per cubic femtometer"
+                                                                    , "Zt/fm³"
+                                                                    , ExatonnePerCubicPicometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// gigatonne per cubic zeptometer, defined as: megatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicZeptometer = new (
+                                                                     "gigatonne per cubic zeptometer"
+                                                                   , "Gt/zm³"
+                                                                   , MegatonnePerCubicAttometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic exameter, defined as: femtotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicExameter = new (
+                                                                   "attotonne per cubic exameter"
+                                                                 , "at/Em³"
+                                                                 , FemtotonnePerCubicPetameter
+                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// yoctotonne per cubic megameter, defined as: zeptotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicMegameter = new (
+                                                                     "yoctotonne per cubic megameter"
+                                                                   , "yt/Mm³"
+                                                                   , ZeptotonnePerCubicKilometer
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// quettatonne per cubic picometer, defined as: ronnatonne per cubic nanometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicPicometer = new (
+                                                                      "quettatonne per cubic picometer"
+                                                                    , "Qt/pm³"
+                                                                    , RonnatonnePerCubicNanometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// petatonne per cubic attometer, defined as: teratonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicAttometer = new (
+                                                                    "petatonne per cubic attometer"
+                                                                  , "Pt/am³"
+                                                                  , TeratonnePerCubicFemtometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// femtotonne per cubic ronnameter, defined as: picotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicRonnameter = new (
+                                                                      "femtotonne per cubic ronnameter"
+                                                                    , "ft/Rm³"
+                                                                    , PicotonnePerCubicYottameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// zeptotonne per cubic terameter, defined as: attotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicTerameter = new (
+                                                                     "zeptotonne per cubic terameter"
+                                                                   , "zt/Tm³"
+                                                                   , AttotonnePerCubicGigameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic yoctometer, defined as: kilotonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicYoctometer = new (
+                                                                     "megatonne per cubic yoctometer"
+                                                                   , "Mt/ym³"
+                                                                   , KilotonnePerCubicZeptometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic kilometer, defined as: yoctotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicKilometer = new (
+                                                                     "rontotonne per cubic kilometer"
+                                                                   , "rt/km³"
+                                                                   , YoctotonnePerCubicHectometer
+                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic femtometer, defined as: zettatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicFemtometer = new (
+                                                                      "yottatonne per cubic femtometer"
+                                                                    , "Yt/fm³"
+                                                                    , ZettatonnePerCubicPicometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// attotonne per cubic zettameter, defined as: femtotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicZettameter = new (
+                                                                     "attotonne per cubic zettameter"
+                                                                   , "at/Zm³"
+                                                                   , FemtotonnePerCubicExameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic rontometer, defined as: hectotonne per cubic yoctometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicRontometer = new (
+                                                                     "kilotonne per cubic rontometer"
+                                                                   , "kt/rm³"
+                                                                   , HectotonnePerCubicYoctometer
+                                                                   , 10.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// femtotonne per cubic quettameter, defined as: picotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density FemtotonnePerCubicQuettameter = new (
+                                                                       "femtotonne per cubic quettameter"
+                                                                     , "ft/Qm³"
+                                                                     , PicotonnePerCubicRonnameter
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quectotonne per cubic hectometer, defined as: rontotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicHectometer = new (
+                                                                       "quectotonne per cubic hectometer"
+                                                                     , "qt/hm³"
+                                                                     , RontotonnePerCubicDekameter
+                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                      );
+
+   /// <summary>
+   /// teratonne per cubic zeptometer, defined as: gigatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicZeptometer = new (
+                                                                     "teratonne per cubic zeptometer"
+                                                                   , "Tt/zm³"
+                                                                   , GigatonnePerCubicAttometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// yoctotonne per cubic gigameter, defined as: zeptotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicGigameter = new (
+                                                                     "yoctotonne per cubic gigameter"
+                                                                   , "yt/Gm³"
+                                                                   , ZeptotonnePerCubicMegameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// exatonne per cubic attometer, defined as: petatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicAttometer = new (
+                                                                   "exatonne per cubic attometer"
+                                                                 , "Et/am³"
+                                                                 , PetatonnePerCubicFemtometer
+                                                                 , 1000.0
+                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  );
+
+   /// <summary>
+   /// hectotonne per cubic quectometer, defined as: dekatonne per cubic rontometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicQuectometer = new (
+                                                                       "hectotonne per cubic quectometer"
+                                                                     , "ht/qm³"
+                                                                     , DekatonnePerCubicRontometer
+                                                                     , 10.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// dekatonne per cubic dekameter, defined as: tonne per cubic meter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicDekameter = new (
+                                                                    "dekatonne per cubic dekameter"
+                                                                  , "dat/dam³"
+                                                                  , TonnePerCubicMeter
+                                                                  , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// zeptotonne per cubic petameter, defined as: attotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicPetameter = new (
+                                                                     "zeptotonne per cubic petameter"
+                                                                   , "zt/Pm³"
+                                                                   , AttotonnePerCubicTerameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic femtometer, defined as: yottatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicFemtometer = new (
+                                                                      "ronnatonne per cubic femtometer"
+                                                                    , "Rt/fm³"
+                                                                    , YottatonnePerCubicPicometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// gigatonne per cubic yoctometer, defined as: megatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicYoctometer = new (
+                                                                     "gigatonne per cubic yoctometer"
+                                                                   , "Gt/ym³"
+                                                                   , MegatonnePerCubicZeptometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic yottameter, defined as: femtotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicYottameter = new (
+                                                                     "attotonne per cubic yottameter"
+                                                                   , "at/Ym³"
+                                                                   , FemtotonnePerCubicZettameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic megameter, defined as: yoctotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicMegameter = new (
+                                                                     "rontotonne per cubic megameter"
+                                                                   , "rt/Mm³"
+                                                                   , YoctotonnePerCubicKilometer
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic attometer, defined as: exatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicAttometer = new (
+                                                                     "zettatonne per cubic attometer"
+                                                                   , "Zt/am³"
+                                                                   , ExatonnePerCubicFemtometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic zeptometer, defined as: teratonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicZeptometer = new (
+                                                                     "petatonne per cubic zeptometer"
+                                                                   , "Pt/zm³"
+                                                                   , TeratonnePerCubicAttometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic exameter, defined as: attotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicExameter = new (
+                                                                    "zeptotonne per cubic exameter"
+                                                                  , "zt/Em³"
+                                                                  , AttotonnePerCubicPetameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// yoctotonne per cubic terameter, defined as: zeptotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicTerameter = new (
+                                                                     "yoctotonne per cubic terameter"
+                                                                   , "yt/Tm³"
+                                                                   , ZeptotonnePerCubicGigameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic rontometer, defined as: kilotonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicRontometer = new (
+                                                                     "megatonne per cubic rontometer"
+                                                                   , "Mt/rm³"
+                                                                   , KilotonnePerCubicYoctometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// quectotonne per cubic kilometer, defined as: rontotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicKilometer = new (
+                                                                      "quectotonne per cubic kilometer"
+                                                                    , "qt/km³"
+                                                                    , RontotonnePerCubicHectometer
+                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// kilotonne per cubic quectometer, defined as: hectotonne per cubic rontometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicQuectometer = new (
+                                                                      "kilotonne per cubic quectometer"
+                                                                    , "kt/qm³"
+                                                                    , HectotonnePerCubicRontometer
+                                                                    , 10.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// dekatonne per cubic hectometer, defined as: tonne per cubic dekameter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicHectometer = new (
+                                                                     "dekatonne per cubic hectometer"
+                                                                   , "dat/hm³"
+                                                                   , TonnePerCubicDekameter
+                                                                   , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// quettatonne per cubic femtometer, defined as: ronnatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicFemtometer = new (
+                                                                       "quettatonne per cubic femtometer"
+                                                                     , "Qt/fm³"
+                                                                     , RonnatonnePerCubicPicometer
+                                                                     , 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// hectotonne per cubic dekameter, defined as: dekatonne per cubic meter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicDekameter = new (
+                                                                     "hectotonne per cubic dekameter"
+                                                                   , "ht/dam³"
+                                                                   , DekatonnePerCubicMeter
+                                                                   , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic ronnameter, defined as: femtotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicRonnameter = new (
+                                                                     "attotonne per cubic ronnameter"
+                                                                   , "at/Rm³"
+                                                                   , FemtotonnePerCubicYottameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic yoctometer, defined as: gigatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicYoctometer = new (
+                                                                     "teratonne per cubic yoctometer"
+                                                                   , "Tt/ym³"
+                                                                   , GigatonnePerCubicZeptometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic gigameter, defined as: yoctotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicGigameter = new (
+                                                                     "rontotonne per cubic gigameter"
+                                                                   , "rt/Gm³"
+                                                                   , YoctotonnePerCubicMegameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic attometer, defined as: zettatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicAttometer = new (
+                                                                     "yottatonne per cubic attometer"
+                                                                   , "Yt/am³"
+                                                                   , ZettatonnePerCubicFemtometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic zettameter, defined as: attotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicZettameter = new (
+                                                                      "zeptotonne per cubic zettameter"
+                                                                    , "zt/Zm³"
+                                                                    , AttotonnePerCubicExameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic zeptometer, defined as: petatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicZeptometer = new (
+                                                                    "exatonne per cubic zeptometer"
+                                                                  , "Et/zm³"
+                                                                  , PetatonnePerCubicAttometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// yoctotonne per cubic petameter, defined as: zeptotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicPetameter = new (
+                                                                     "yoctotonne per cubic petameter"
+                                                                   , "yt/Pm³"
+                                                                   , ZeptotonnePerCubicTerameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic rontometer, defined as: megatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicRontometer = new (
+                                                                     "gigatonne per cubic rontometer"
+                                                                   , "Gt/rm³"
+                                                                   , MegatonnePerCubicYoctometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// attotonne per cubic quettameter, defined as: femtotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density AttotonnePerCubicQuettameter = new (
+                                                                      "attotonne per cubic quettameter"
+                                                                    , "at/Qm³"
+                                                                    , FemtotonnePerCubicRonnameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic megameter, defined as: rontotonne per cubic kilometer × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicMegameter = new (
+                                                                      "quectotonne per cubic megameter"
+                                                                    , "qt/Mm³"
+                                                                    , RontotonnePerCubicKilometer
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// megatonne per cubic quectometer, defined as: kilotonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicQuectometer = new (
+                                                                      "megatonne per cubic quectometer"
+                                                                    , "Mt/qm³"
+                                                                    , KilotonnePerCubicRontometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// dekatonne per cubic kilometer, defined as: tonne per cubic hectometer × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicKilometer = new (
+                                                                    "dekatonne per cubic kilometer"
+                                                                  , "dat/km³"
+                                                                  , TonnePerCubicHectometer
+                                                                  , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// ronnatonne per cubic attometer, defined as: yottatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicAttometer = new (
+                                                                     "ronnatonne per cubic attometer"
+                                                                   , "Rt/am³"
+                                                                   , YottatonnePerCubicFemtometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic yoctometer, defined as: teratonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicYoctometer = new (
+                                                                     "petatonne per cubic yoctometer"
+                                                                   , "Pt/ym³"
+                                                                   , TeratonnePerCubicZeptometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic dekameter, defined as: hectotonne per cubic meter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicDekameter = new (
+                                                                    "kilotonne per cubic dekameter"
+                                                                  , "kt/dam³"
+                                                                  , HectotonnePerCubicMeter
+                                                                  , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic hectometer, defined as: dekatonne per cubic dekameter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicHectometer = new (
+                                                                      "hectotonne per cubic hectometer"
+                                                                    , "ht/hm³"
+                                                                    , DekatonnePerCubicDekameter
+                                                                    , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// zeptotonne per cubic yottameter, defined as: attotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicYottameter = new (
+                                                                      "zeptotonne per cubic yottameter"
+                                                                    , "zt/Ym³"
+                                                                    , AttotonnePerCubicZettameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic terameter, defined as: yoctotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicTerameter = new (
+                                                                     "rontotonne per cubic terameter"
+                                                                   , "rt/Tm³"
+                                                                   , YoctotonnePerCubicGigameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic zeptometer, defined as: exatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicZeptometer = new (
+                                                                      "zettatonne per cubic zeptometer"
+                                                                    , "Zt/zm³"
+                                                                    , ExatonnePerCubicAttometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic exameter, defined as: zeptotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicExameter = new (
+                                                                    "yoctotonne per cubic exameter"
+                                                                  , "yt/Em³"
+                                                                  , ZeptotonnePerCubicPetameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// teratonne per cubic rontometer, defined as: gigatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicRontometer = new (
+                                                                     "teratonne per cubic rontometer"
+                                                                   , "Tt/rm³"
+                                                                   , GigatonnePerCubicYoctometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// quectotonne per cubic gigameter, defined as: rontotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicGigameter = new (
+                                                                      "quectotonne per cubic gigameter"
+                                                                    , "qt/Gm³"
+                                                                    , RontotonnePerCubicMegameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic attometer, defined as: ronnatonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicAttometer = new (
+                                                                      "quettatonne per cubic attometer"
+                                                                    , "Qt/am³"
+                                                                    , RonnatonnePerCubicFemtometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// zeptotonne per cubic ronnameter, defined as: attotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicRonnameter = new (
+                                                                      "zeptotonne per cubic ronnameter"
+                                                                    , "zt/Rm³"
+                                                                    , AttotonnePerCubicYottameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic yoctometer, defined as: petatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicYoctometer = new (
+                                                                    "exatonne per cubic yoctometer"
+                                                                  , "Et/ym³"
+                                                                  , PetatonnePerCubicZeptometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// gigatonne per cubic quectometer, defined as: megatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicQuectometer = new (
+                                                                      "gigatonne per cubic quectometer"
+                                                                    , "Gt/qm³"
+                                                                    , MegatonnePerCubicRontometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// dekatonne per cubic megameter, defined as: tonne per cubic kilometer × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicMegameter = new (
+                                                                    "dekatonne per cubic megameter"
+                                                                  , "dat/Mm³"
+                                                                  , TonnePerCubicKilometer
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// rontotonne per cubic petameter, defined as: yoctotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicPetameter = new (
+                                                                     "rontotonne per cubic petameter"
+                                                                   , "rt/Pm³"
+                                                                   , YoctotonnePerCubicTerameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic zeptometer, defined as: zettatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicZeptometer = new (
+                                                                      "yottatonne per cubic zeptometer"
+                                                                    , "Yt/zm³"
+                                                                    , ZettatonnePerCubicAttometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic zettameter, defined as: zeptotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicZettameter = new (
+                                                                      "yoctotonne per cubic zettameter"
+                                                                    , "yt/Zm³"
+                                                                    , ZeptotonnePerCubicExameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// megatonne per cubic dekameter, defined as: kilotonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicDekameter = new (
+                                                                    "megatonne per cubic dekameter"
+                                                                  , "Mt/dam³"
+                                                                  , KilotonnePerCubicMeter
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic kilometer, defined as: dekatonne per cubic hectometer × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicKilometer = new (
+                                                                     "hectotonne per cubic kilometer"
+                                                                   , "ht/km³"
+                                                                   , DekatonnePerCubicHectometer
+                                                                   , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic hectometer, defined as: hectotonne per cubic dekameter × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicHectometer = new (
+                                                                     "kilotonne per cubic hectometer"
+                                                                   , "kt/hm³"
+                                                                   , HectotonnePerCubicDekameter
+                                                                   , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic rontometer, defined as: teratonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicRontometer = new (
+                                                                     "petatonne per cubic rontometer"
+                                                                   , "Pt/rm³"
+                                                                   , TeratonnePerCubicYoctometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// zeptotonne per cubic quettameter, defined as: attotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZeptotonnePerCubicQuettameter = new (
+                                                                       "zeptotonne per cubic quettameter"
+                                                                     , "zt/Qm³"
+                                                                     , AttotonnePerCubicRonnameter
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quectotonne per cubic terameter, defined as: rontotonne per cubic gigameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicTerameter = new (
+                                                                      "quectotonne per cubic terameter"
+                                                                    , "qt/Tm³"
+                                                                    , RontotonnePerCubicGigameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// ronnatonne per cubic zeptometer, defined as: yottatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicZeptometer = new (
+                                                                      "ronnatonne per cubic zeptometer"
+                                                                    , "Rt/zm³"
+                                                                    , YottatonnePerCubicAttometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// zettatonne per cubic yoctometer, defined as: exatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicYoctometer = new (
+                                                                      "zettatonne per cubic yoctometer"
+                                                                    , "Zt/ym³"
+                                                                    , ExatonnePerCubicZeptometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic yottameter, defined as: zeptotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicYottameter = new (
+                                                                      "yoctotonne per cubic yottameter"
+                                                                    , "yt/Ym³"
+                                                                    , ZeptotonnePerCubicZettameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic exameter, defined as: yoctotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicExameter = new (
+                                                                    "rontotonne per cubic exameter"
+                                                                  , "rt/Em³"
+                                                                  , YoctotonnePerCubicPetameter
+                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// teratonne per cubic quectometer, defined as: gigatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicQuectometer = new (
+                                                                      "teratonne per cubic quectometer"
+                                                                    , "Tt/qm³"
+                                                                    , GigatonnePerCubicRontometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// dekatonne per cubic gigameter, defined as: tonne per cubic megameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicGigameter = new (
+                                                                    "dekatonne per cubic gigameter"
+                                                                  , "dat/Gm³"
+                                                                  , TonnePerCubicMegameter
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// gigatonne per cubic dekameter, defined as: megatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicDekameter = new (
+                                                                    "gigatonne per cubic dekameter"
+                                                                  , "Gt/dam³"
+                                                                  , MegatonnePerCubicMeter
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic megameter, defined as: dekatonne per cubic kilometer × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicMegameter = new (
+                                                                     "hectotonne per cubic megameter"
+                                                                   , "ht/Mm³"
+                                                                   , DekatonnePerCubicKilometer
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic hectometer, defined as: kilotonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicHectometer = new (
+                                                                     "megatonne per cubic hectometer"
+                                                                   , "Mt/hm³"
+                                                                   , KilotonnePerCubicDekameter
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic kilometer, defined as: hectotonne per cubic hectometer × (10.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicKilometer = new (
+                                                                    "kilotonne per cubic kilometer"
+                                                                  , "kt/km³"
+                                                                  , HectotonnePerCubicHectometer
+                                                                  , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// exatonne per cubic rontometer, defined as: petatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicRontometer = new (
+                                                                    "exatonne per cubic rontometer"
+                                                                  , "Et/rm³"
+                                                                  , PetatonnePerCubicYoctometer
+                                                                  , 1000.0
+                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   );
+
+   /// <summary>
+   /// quectotonne per cubic petameter, defined as: rontotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicPetameter = new (
+                                                                      "quectotonne per cubic petameter"
+                                                                    , "qt/Pm³"
+                                                                    , RontotonnePerCubicTerameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic zeptometer, defined as: ronnatonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicZeptometer = new (
+                                                                       "quettatonne per cubic zeptometer"
+                                                                     , "Qt/zm³"
+                                                                     , RonnatonnePerCubicAttometer
+                                                                     , 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// yoctotonne per cubic ronnameter, defined as: zeptotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicRonnameter = new (
+                                                                      "yoctotonne per cubic ronnameter"
+                                                                    , "yt/Rm³"
+                                                                    , ZeptotonnePerCubicYottameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// yottatonne per cubic yoctometer, defined as: zettatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicYoctometer = new (
+                                                                      "yottatonne per cubic yoctometer"
+                                                                    , "Yt/ym³"
+                                                                    , ZettatonnePerCubicZeptometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic zettameter, defined as: yoctotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicZettameter = new (
+                                                                      "rontotonne per cubic zettameter"
+                                                                    , "rt/Zm³"
+                                                                    , YoctotonnePerCubicExameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// petatonne per cubic quectometer, defined as: teratonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicQuectometer = new (
+                                                                      "petatonne per cubic quectometer"
+                                                                    , "Pt/qm³"
+                                                                    , TeratonnePerCubicRontometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// dekatonne per cubic terameter, defined as: tonne per cubic gigameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicTerameter = new (
+                                                                    "dekatonne per cubic terameter"
+                                                                  , "dat/Tm³"
+                                                                  , TonnePerCubicGigameter
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// teratonne per cubic dekameter, defined as: gigatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicDekameter = new (
+                                                                    "teratonne per cubic dekameter"
+                                                                  , "Tt/dam³"
+                                                                  , GigatonnePerCubicMeter
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic gigameter, defined as: dekatonne per cubic megameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicGigameter = new (
+                                                                     "hectotonne per cubic gigameter"
+                                                                   , "ht/Gm³"
+                                                                   , DekatonnePerCubicMegameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic rontometer, defined as: exatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicRontometer = new (
+                                                                      "zettatonne per cubic rontometer"
+                                                                    , "Zt/rm³"
+                                                                    , ExatonnePerCubicYoctometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// yoctotonne per cubic quettameter, defined as: zeptotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YoctotonnePerCubicQuettameter = new (
+                                                                       "yoctotonne per cubic quettameter"
+                                                                     , "yt/Qm³"
+                                                                     , ZeptotonnePerCubicRonnameter
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quectotonne per cubic exameter, defined as: rontotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicExameter = new (
+                                                                     "quectotonne per cubic exameter"
+                                                                   , "qt/Em³"
+                                                                   , RontotonnePerCubicPetameter
+                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic yoctometer, defined as: yottatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicYoctometer = new (
+                                                                      "ronnatonne per cubic yoctometer"
+                                                                    , "Rt/ym³"
+                                                                    , YottatonnePerCubicZeptometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// gigatonne per cubic hectometer, defined as: megatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicHectometer = new (
+                                                                     "gigatonne per cubic hectometer"
+                                                                   , "Gt/hm³"
+                                                                   , MegatonnePerCubicDekameter
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic megameter, defined as: hectotonne per cubic kilometer × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicMegameter = new (
+                                                                    "kilotonne per cubic megameter"
+                                                                  , "kt/Mm³"
+                                                                  , HectotonnePerCubicKilometer
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// rontotonne per cubic yottameter, defined as: yoctotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicYottameter = new (
+                                                                      "rontotonne per cubic yottameter"
+                                                                    , "rt/Ym³"
+                                                                    , YoctotonnePerCubicZettameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// megatonne per cubic kilometer, defined as: kilotonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicKilometer = new (
+                                                                    "megatonne per cubic kilometer"
+                                                                  , "Mt/km³"
+                                                                  , KilotonnePerCubicHectometer
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// exatonne per cubic quectometer, defined as: petatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicQuectometer = new (
+                                                                     "exatonne per cubic quectometer"
+                                                                   , "Et/qm³"
+                                                                   , PetatonnePerCubicRontometer
+                                                                   , 1000.0
+                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    );
+
+   /// <summary>
+   /// dekatonne per cubic petameter, defined as: tonne per cubic terameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicPetameter = new (
+                                                                    "dekatonne per cubic petameter"
+                                                                  , "dat/Pm³"
+                                                                  , TonnePerCubicTerameter
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// yottatonne per cubic rontometer, defined as: zettatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicRontometer = new (
+                                                                      "yottatonne per cubic rontometer"
+                                                                    , "Yt/rm³"
+                                                                    , ZettatonnePerCubicYoctometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// quectotonne per cubic zettameter, defined as: rontotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicZettameter = new (
+                                                                       "quectotonne per cubic zettameter"
+                                                                     , "qt/Zm³"
+                                                                     , RontotonnePerCubicExameter
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quettatonne per cubic yoctometer, defined as: ronnatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicYoctometer = new (
+                                                                       "quettatonne per cubic yoctometer"
+                                                                     , "Qt/ym³"
+                                                                     , RonnatonnePerCubicZeptometer
+                                                                     , 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// petatonne per cubic dekameter, defined as: teratonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicDekameter = new (
+                                                                    "petatonne per cubic dekameter"
+                                                                  , "Pt/dam³"
+                                                                  , TeratonnePerCubicMeter
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic terameter, defined as: dekatonne per cubic gigameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicTerameter = new (
+                                                                     "hectotonne per cubic terameter"
+                                                                   , "ht/Tm³"
+                                                                   , DekatonnePerCubicGigameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// rontotonne per cubic ronnameter, defined as: yoctotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicRonnameter = new (
+                                                                      "rontotonne per cubic ronnameter"
+                                                                    , "rt/Rm³"
+                                                                    , YoctotonnePerCubicYottameter
+                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// teratonne per cubic hectometer, defined as: gigatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicHectometer = new (
+                                                                     "teratonne per cubic hectometer"
+                                                                   , "Tt/hm³"
+                                                                   , GigatonnePerCubicDekameter
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic gigameter, defined as: hectotonne per cubic megameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicGigameter = new (
+                                                                    "kilotonne per cubic gigameter"
+                                                                  , "kt/Gm³"
+                                                                  , HectotonnePerCubicMegameter
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// gigatonne per cubic kilometer, defined as: megatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicKilometer = new (
+                                                                    "gigatonne per cubic kilometer"
+                                                                  , "Gt/km³"
+                                                                  , MegatonnePerCubicHectometer
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// megatonne per cubic megameter, defined as: kilotonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicMegameter = new (
+                                                                    "megatonne per cubic megameter"
+                                                                  , "Mt/Mm³"
+                                                                  , KilotonnePerCubicKilometer
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// zettatonne per cubic quectometer, defined as: exatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicQuectometer = new (
+                                                                       "zettatonne per cubic quectometer"
+                                                                     , "Zt/qm³"
+                                                                     , ExatonnePerCubicRontometer
+                                                                     , 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// dekatonne per cubic exameter, defined as: tonne per cubic petameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicExameter = new (
+                                                                   "dekatonne per cubic exameter"
+                                                                 , "dat/Em³"
+                                                                 , TonnePerCubicPetameter
+                                                                 , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// ronnatonne per cubic rontometer, defined as: yottatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicRontometer = new (
+                                                                      "ronnatonne per cubic rontometer"
+                                                                    , "Rt/rm³"
+                                                                    , YottatonnePerCubicYoctometer
+                                                                    , 1000.0
+                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     );
+
+   /// <summary>
+   /// rontotonne per cubic quettameter, defined as: yoctotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RontotonnePerCubicQuettameter = new (
+                                                                       "rontotonne per cubic quettameter"
+                                                                     , "rt/Qm³"
+                                                                     , YoctotonnePerCubicRonnameter
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quectotonne per cubic yottameter, defined as: rontotonne per cubic zettameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicYottameter = new (
+                                                                       "quectotonne per cubic yottameter"
+                                                                     , "qt/Ym³"
+                                                                     , RontotonnePerCubicZettameter
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// exatonne per cubic dekameter, defined as: petatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicDekameter = new (
+                                                                   "exatonne per cubic dekameter"
+                                                                 , "Et/dam³"
+                                                                 , PetatonnePerCubicMeter
+                                                                 , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  );
+
+   /// <summary>
+   /// hectotonne per cubic petameter, defined as: dekatonne per cubic terameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicPetameter = new (
+                                                                     "hectotonne per cubic petameter"
+                                                                   , "ht/Pm³"
+                                                                   , DekatonnePerCubicTerameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic hectometer, defined as: teratonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicHectometer = new (
+                                                                     "petatonne per cubic hectometer"
+                                                                   , "Pt/hm³"
+                                                                   , TeratonnePerCubicDekameter
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic terameter, defined as: hectotonne per cubic gigameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicTerameter = new (
+                                                                    "kilotonne per cubic terameter"
+                                                                  , "kt/Tm³"
+                                                                  , HectotonnePerCubicGigameter
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// yottatonne per cubic quectometer, defined as: zettatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicQuectometer = new (
+                                                                       "yottatonne per cubic quectometer"
+                                                                     , "Yt/qm³"
+                                                                     , ZettatonnePerCubicRontometer
+                                                                     , 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// dekatonne per cubic zettameter, defined as: tonne per cubic exameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicZettameter = new (
+                                                                     "dekatonne per cubic zettameter"
+                                                                   , "dat/Zm³"
+                                                                   , TonnePerCubicExameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic kilometer, defined as: gigatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicKilometer = new (
+                                                                    "teratonne per cubic kilometer"
+                                                                  , "Tt/km³"
+                                                                  , GigatonnePerCubicHectometer
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// megatonne per cubic gigameter, defined as: kilotonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicGigameter = new (
+                                                                    "megatonne per cubic gigameter"
+                                                                  , "Mt/Gm³"
+                                                                  , KilotonnePerCubicMegameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// gigatonne per cubic megameter, defined as: megatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicMegameter = new (
+                                                                    "gigatonne per cubic megameter"
+                                                                  , "Gt/Mm³"
+                                                                  , MegatonnePerCubicKilometer
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// quettatonne per cubic rontometer, defined as: ronnatonne per cubic yoctometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicRontometer = new (
+                                                                       "quettatonne per cubic rontometer"
+                                                                     , "Qt/rm³"
+                                                                     , RonnatonnePerCubicYoctometer
+                                                                     , 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// quectotonne per cubic ronnameter, defined as: rontotonne per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicRonnameter = new (
+                                                                       "quectotonne per cubic ronnameter"
+                                                                     , "qt/Rm³"
+                                                                     , RontotonnePerCubicYottameter
+                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// zettatonne per cubic dekameter, defined as: exatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicDekameter = new (
+                                                                     "zettatonne per cubic dekameter"
+                                                                   , "Zt/dam³"
+                                                                   , ExatonnePerCubicMeter
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// hectotonne per cubic exameter, defined as: dekatonne per cubic petameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicExameter = new (
+                                                                    "hectotonne per cubic exameter"
+                                                                  , "ht/Em³"
+                                                                  , DekatonnePerCubicPetameter
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// ronnatonne per cubic quectometer, defined as: yottatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicQuectometer = new (
+                                                                       "ronnatonne per cubic quectometer"
+                                                                     , "Rt/qm³"
+                                                                     , YottatonnePerCubicRontometer
+                                                                     , 1000.0
+                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      );
+
+   /// <summary>
+   /// exatonne per cubic hectometer, defined as: petatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicHectometer = new (
+                                                                    "exatonne per cubic hectometer"
+                                                                  , "Et/hm³"
+                                                                  , PetatonnePerCubicDekameter
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// kilotonne per cubic petameter, defined as: hectotonne per cubic terameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicPetameter = new (
+                                                                    "kilotonne per cubic petameter"
+                                                                  , "kt/Pm³"
+                                                                  , HectotonnePerCubicTerameter
+                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// dekatonne per cubic yottameter, defined as: tonne per cubic zettameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicYottameter = new (
+                                                                     "dekatonne per cubic yottameter"
+                                                                   , "dat/Ym³"
+                                                                   , TonnePerCubicZettameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// quectotonne per cubic quettameter, defined as: rontotonne per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuectotonnePerCubicQuettameter = new (
+                                                                        "quectotonne per cubic quettameter"
+                                                                      , "qt/Qm³"
+                                                                      , RontotonnePerCubicRonnameter
+                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                       );
+
+   /// <summary>
+   /// petatonne per cubic kilometer, defined as: teratonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicKilometer = new (
+                                                                    "petatonne per cubic kilometer"
+                                                                  , "Pt/km³"
+                                                                  , TeratonnePerCubicHectometer
+                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   );
+
+   /// <summary>
+   /// megatonne per cubic terameter, defined as: kilotonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicTerameter = new (
+                                                                    "megatonne per cubic terameter"
+                                                                  , "Mt/Tm³"
+                                                                  , KilotonnePerCubicGigameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// teratonne per cubic megameter, defined as: gigatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicMegameter = new (
+                                                                    "teratonne per cubic megameter"
+                                                                  , "Tt/Mm³"
+                                                                  , GigatonnePerCubicKilometer
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// gigatonne per cubic gigameter, defined as: megatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicGigameter = new (
+                                                                    "gigatonne per cubic gigameter"
+                                                                  , "Gt/Gm³"
+                                                                  , MegatonnePerCubicMegameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// yottatonne per cubic dekameter, defined as: zettatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicDekameter = new (
+                                                                     "yottatonne per cubic dekameter"
+                                                                   , "Yt/dam³"
+                                                                   , ZettatonnePerCubicMeter
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// hectotonne per cubic zettameter, defined as: dekatonne per cubic exameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicZettameter = new (
+                                                                      "hectotonne per cubic zettameter"
+                                                                    , "ht/Zm³"
+                                                                    , DekatonnePerCubicExameter
+                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic quectometer, defined as: ronnatonne per cubic rontometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicQuectometer = new (
+                                                                        "quettatonne per cubic quectometer"
+                                                                      , "Qt/qm³"
+                                                                      , RonnatonnePerCubicRontometer
+                                                                      , 1000.0
+                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                       );
+
+   /// <summary>
+   /// dekatonne per cubic ronnameter, defined as: tonne per cubic yottameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicRonnameter = new (
+                                                                     "dekatonne per cubic ronnameter"
+                                                                   , "dat/Rm³"
+                                                                   , TonnePerCubicYottameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic hectometer, defined as: exatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicHectometer = new (
+                                                                      "zettatonne per cubic hectometer"
+                                                                    , "Zt/hm³"
+                                                                    , ExatonnePerCubicDekameter
+                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// kilotonne per cubic exameter, defined as: hectotonne per cubic petameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicExameter = new (
+                                                                   "kilotonne per cubic exameter"
+                                                                 , "kt/Em³"
+                                                                 , HectotonnePerCubicPetameter
+                                                                 , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// exatonne per cubic kilometer, defined as: petatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicKilometer = new (
+                                                                   "exatonne per cubic kilometer"
+                                                                 , "Et/km³"
+                                                                 , PetatonnePerCubicHectometer
+                                                                 , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  );
+
+   /// <summary>
+   /// megatonne per cubic petameter, defined as: kilotonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicPetameter = new (
+                                                                    "megatonne per cubic petameter"
+                                                                  , "Mt/Pm³"
+                                                                  , KilotonnePerCubicTerameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// ronnatonne per cubic dekameter, defined as: yottatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicDekameter = new (
+                                                                     "ronnatonne per cubic dekameter"
+                                                                   , "Rt/dam³"
+                                                                   , YottatonnePerCubicMeter
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic megameter, defined as: teratonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicMegameter = new (
+                                                                    "petatonne per cubic megameter"
+                                                                  , "Pt/Mm³"
+                                                                  , TeratonnePerCubicKilometer
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// gigatonne per cubic terameter, defined as: megatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicTerameter = new (
+                                                                    "gigatonne per cubic terameter"
+                                                                  , "Gt/Tm³"
+                                                                  , MegatonnePerCubicGigameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// hectotonne per cubic yottameter, defined as: dekatonne per cubic zettameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicYottameter = new (
+                                                                      "hectotonne per cubic yottameter"
+                                                                    , "ht/Ym³"
+                                                                    , DekatonnePerCubicZettameter
+                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// teratonne per cubic gigameter, defined as: gigatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicGigameter = new (
+                                                                    "teratonne per cubic gigameter"
+                                                                  , "Tt/Gm³"
+                                                                  , GigatonnePerCubicMegameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// dekatonne per cubic quettameter, defined as: tonne per cubic ronnameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density DekatonnePerCubicQuettameter = new (
+                                                                      "dekatonne per cubic quettameter"
+                                                                    , "dat/Qm³"
+                                                                    , TonnePerCubicRonnameter
+                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// yottatonne per cubic hectometer, defined as: zettatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicHectometer = new (
+                                                                      "yottatonne per cubic hectometer"
+                                                                    , "Yt/hm³"
+                                                                    , ZettatonnePerCubicDekameter
+                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// kilotonne per cubic zettameter, defined as: hectotonne per cubic exameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicZettameter = new (
+                                                                     "kilotonne per cubic zettameter"
+                                                                   , "kt/Zm³"
+                                                                   , HectotonnePerCubicExameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic kilometer, defined as: exatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicKilometer = new (
+                                                                     "zettatonne per cubic kilometer"
+                                                                   , "Zt/km³"
+                                                                   , ExatonnePerCubicHectometer
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic exameter, defined as: kilotonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicExameter = new (
+                                                                   "megatonne per cubic exameter"
+                                                                 , "Mt/Em³"
+                                                                 , KilotonnePerCubicPetameter
+                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// quettatonne per cubic dekameter, defined as: ronnatonne per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicDekameter = new (
+                                                                      "quettatonne per cubic dekameter"
+                                                                    , "Qt/dam³"
+                                                                    , RonnatonnePerCubicMeter
+                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// hectotonne per cubic ronnameter, defined as: dekatonne per cubic yottameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicRonnameter = new (
+                                                                      "hectotonne per cubic ronnameter"
+                                                                    , "ht/Rm³"
+                                                                    , DekatonnePerCubicYottameter
+                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic megameter, defined as: petatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicMegameter = new (
+                                                                   "exatonne per cubic megameter"
+                                                                 , "Et/Mm³"
+                                                                 , PetatonnePerCubicKilometer
+                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// gigatonne per cubic petameter, defined as: megatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicPetameter = new (
+                                                                    "gigatonne per cubic petameter"
+                                                                  , "Gt/Pm³"
+                                                                  , MegatonnePerCubicTerameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// petatonne per cubic gigameter, defined as: teratonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicGigameter = new (
+                                                                    "petatonne per cubic gigameter"
+                                                                  , "Pt/Gm³"
+                                                                  , TeratonnePerCubicMegameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// teratonne per cubic terameter, defined as: gigatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicTerameter = new (
+                                                                    "teratonne per cubic terameter"
+                                                                  , "Tt/Tm³"
+                                                                  , GigatonnePerCubicGigameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// ronnatonne per cubic hectometer, defined as: yottatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicHectometer = new (
+                                                                      "ronnatonne per cubic hectometer"
+                                                                    , "Rt/hm³"
+                                                                    , YottatonnePerCubicDekameter
+                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// kilotonne per cubic yottameter, defined as: hectotonne per cubic zettameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicYottameter = new (
+                                                                     "kilotonne per cubic yottameter"
+                                                                   , "kt/Ym³"
+                                                                   , HectotonnePerCubicZettameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// hectotonne per cubic quettameter, defined as: dekatonne per cubic ronnameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density HectotonnePerCubicQuettameter = new (
+                                                                       "hectotonne per cubic quettameter"
+                                                                     , "ht/Qm³"
+                                                                     , DekatonnePerCubicRonnameter
+                                                                     , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// yottatonne per cubic kilometer, defined as: zettatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicKilometer = new (
+                                                                     "yottatonne per cubic kilometer"
+                                                                   , "Yt/km³"
+                                                                   , ZettatonnePerCubicHectometer
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic zettameter, defined as: kilotonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicZettameter = new (
+                                                                     "megatonne per cubic zettameter"
+                                                                   , "Mt/Zm³"
+                                                                   , KilotonnePerCubicExameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic megameter, defined as: exatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicMegameter = new (
+                                                                     "zettatonne per cubic megameter"
+                                                                   , "Zt/Mm³"
+                                                                   , ExatonnePerCubicKilometer
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic exameter, defined as: megatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicExameter = new (
+                                                                   "gigatonne per cubic exameter"
+                                                                 , "Gt/Em³"
+                                                                 , MegatonnePerCubicPetameter
+                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// exatonne per cubic gigameter, defined as: petatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicGigameter = new (
+                                                                   "exatonne per cubic gigameter"
+                                                                 , "Et/Gm³"
+                                                                 , PetatonnePerCubicMegameter
+                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// teratonne per cubic petameter, defined as: gigatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicPetameter = new (
+                                                                    "teratonne per cubic petameter"
+                                                                  , "Tt/Pm³"
+                                                                  , GigatonnePerCubicTerameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// quettatonne per cubic hectometer, defined as: ronnatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicHectometer = new (
+                                                                       "quettatonne per cubic hectometer"
+                                                                     , "Qt/hm³"
+                                                                     , RonnatonnePerCubicDekameter
+                                                                     , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                      );
+
+   /// <summary>
+   /// petatonne per cubic terameter, defined as: teratonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicTerameter = new (
+                                                                    "petatonne per cubic terameter"
+                                                                  , "Pt/Tm³"
+                                                                  , TeratonnePerCubicGigameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// kilotonne per cubic ronnameter, defined as: hectotonne per cubic yottameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicRonnameter = new (
+                                                                     "kilotonne per cubic ronnameter"
+                                                                   , "kt/Rm³"
+                                                                   , HectotonnePerCubicYottameter
+                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic kilometer, defined as: yottatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicKilometer = new (
+                                                                     "ronnatonne per cubic kilometer"
+                                                                   , "Rt/km³"
+                                                                   , YottatonnePerCubicHectometer
+                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    );
+
+   /// <summary>
+   /// megatonne per cubic yottameter, defined as: kilotonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicYottameter = new (
+                                                                     "megatonne per cubic yottameter"
+                                                                   , "Mt/Ym³"
+                                                                   , KilotonnePerCubicZettameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic megameter, defined as: zettatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicMegameter = new (
+                                                                     "yottatonne per cubic megameter"
+                                                                   , "Yt/Mm³"
+                                                                   , ZettatonnePerCubicKilometer
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic zettameter, defined as: megatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicZettameter = new (
+                                                                     "gigatonne per cubic zettameter"
+                                                                   , "Gt/Zm³"
+                                                                   , MegatonnePerCubicExameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// kilotonne per cubic quettameter, defined as: hectotonne per cubic ronnameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density KilotonnePerCubicQuettameter = new (
+                                                                      "kilotonne per cubic quettameter"
+                                                                    , "kt/Qm³"
+                                                                    , HectotonnePerCubicRonnameter
+                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// zettatonne per cubic gigameter, defined as: exatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicGigameter = new (
+                                                                     "zettatonne per cubic gigameter"
+                                                                   , "Zt/Gm³"
+                                                                   , ExatonnePerCubicMegameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic exameter, defined as: gigatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicExameter = new (
+                                                                   "teratonne per cubic exameter"
+                                                                 , "Tt/Em³"
+                                                                 , GigatonnePerCubicPetameter
+                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// exatonne per cubic terameter, defined as: petatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicTerameter = new (
+                                                                   "exatonne per cubic terameter"
+                                                                 , "Et/Tm³"
+                                                                 , PetatonnePerCubicGigameter
+                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// petatonne per cubic petameter, defined as: teratonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicPetameter = new (
+                                                                    "petatonne per cubic petameter"
+                                                                  , "Pt/Pm³"
+                                                                  , TeratonnePerCubicTerameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// quettatonne per cubic kilometer, defined as: ronnatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicKilometer = new (
+                                                                      "quettatonne per cubic kilometer"
+                                                                    , "Qt/km³"
+                                                                    , RonnatonnePerCubicHectometer
+                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     );
+
+   /// <summary>
+   /// megatonne per cubic ronnameter, defined as: kilotonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicRonnameter = new (
+                                                                     "megatonne per cubic ronnameter"
+                                                                   , "Mt/Rm³"
+                                                                   , KilotonnePerCubicYottameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic megameter, defined as: yottatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicMegameter = new (
+                                                                     "ronnatonne per cubic megameter"
+                                                                   , "Rt/Mm³"
+                                                                   , YottatonnePerCubicKilometer
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// gigatonne per cubic yottameter, defined as: megatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicYottameter = new (
+                                                                     "gigatonne per cubic yottameter"
+                                                                   , "Gt/Ym³"
+                                                                   , MegatonnePerCubicZettameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic gigameter, defined as: zettatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicGigameter = new (
+                                                                     "yottatonne per cubic gigameter"
+                                                                   , "Yt/Gm³"
+                                                                   , ZettatonnePerCubicMegameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic zettameter, defined as: gigatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicZettameter = new (
+                                                                     "teratonne per cubic zettameter"
+                                                                   , "Tt/Zm³"
+                                                                   , GigatonnePerCubicExameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic terameter, defined as: exatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicTerameter = new (
+                                                                     "zettatonne per cubic terameter"
+                                                                   , "Zt/Tm³"
+                                                                   , ExatonnePerCubicGigameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic exameter, defined as: teratonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicExameter = new (
+                                                                   "petatonne per cubic exameter"
+                                                                 , "Pt/Em³"
+                                                                 , TeratonnePerCubicPetameter
+                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// exatonne per cubic petameter, defined as: petatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicPetameter = new (
+                                                                   "exatonne per cubic petameter"
+                                                                 , "Et/Pm³"
+                                                                 , PetatonnePerCubicTerameter
+                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  );
+
+   /// <summary>
+   /// megatonne per cubic quettameter, defined as: kilotonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density MegatonnePerCubicQuettameter = new (
+                                                                      "megatonne per cubic quettameter"
+                                                                    , "Mt/Qm³"
+                                                                    , KilotonnePerCubicRonnameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic megameter, defined as: ronnatonne per cubic kilometer × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicMegameter = new (
+                                                                      "quettatonne per cubic megameter"
+                                                                    , "Qt/Mm³"
+                                                                    , RonnatonnePerCubicKilometer
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// gigatonne per cubic ronnameter, defined as: megatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicRonnameter = new (
+                                                                     "gigatonne per cubic ronnameter"
+                                                                   , "Gt/Rm³"
+                                                                   , MegatonnePerCubicYottameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic gigameter, defined as: yottatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicGigameter = new (
+                                                                     "ronnatonne per cubic gigameter"
+                                                                   , "Rt/Gm³"
+                                                                   , YottatonnePerCubicMegameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// teratonne per cubic yottameter, defined as: gigatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicYottameter = new (
+                                                                     "teratonne per cubic yottameter"
+                                                                   , "Tt/Ym³"
+                                                                   , GigatonnePerCubicZettameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic terameter, defined as: zettatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicTerameter = new (
+                                                                     "yottatonne per cubic terameter"
+                                                                   , "Yt/Tm³"
+                                                                   , ZettatonnePerCubicGigameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic zettameter, defined as: teratonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicZettameter = new (
+                                                                     "petatonne per cubic zettameter"
+                                                                   , "Pt/Zm³"
+                                                                   , TeratonnePerCubicExameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic petameter, defined as: exatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicPetameter = new (
+                                                                     "zettatonne per cubic petameter"
+                                                                   , "Zt/Pm³"
+                                                                   , ExatonnePerCubicTerameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// exatonne per cubic exameter, defined as: petatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicExameter = new (
+                                                                  "exatonne per cubic exameter"
+                                                                , "Et/Em³"
+                                                                , PetatonnePerCubicPetameter
+                                                                , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 );
+
+   /// <summary>
+   /// gigatonne per cubic quettameter, defined as: megatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density GigatonnePerCubicQuettameter = new (
+                                                                      "gigatonne per cubic quettameter"
+                                                                    , "Gt/Qm³"
+                                                                    , MegatonnePerCubicRonnameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic gigameter, defined as: ronnatonne per cubic megameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicGigameter = new (
+                                                                      "quettatonne per cubic gigameter"
+                                                                    , "Qt/Gm³"
+                                                                    , RonnatonnePerCubicMegameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// teratonne per cubic ronnameter, defined as: gigatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicRonnameter = new (
+                                                                     "teratonne per cubic ronnameter"
+                                                                   , "Tt/Rm³"
+                                                                   , GigatonnePerCubicYottameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic terameter, defined as: yottatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicTerameter = new (
+                                                                     "ronnatonne per cubic terameter"
+                                                                   , "Rt/Tm³"
+                                                                   , YottatonnePerCubicGigameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// petatonne per cubic yottameter, defined as: teratonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicYottameter = new (
+                                                                     "petatonne per cubic yottameter"
+                                                                   , "Pt/Ym³"
+                                                                   , TeratonnePerCubicZettameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// yottatonne per cubic petameter, defined as: zettatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicPetameter = new (
+                                                                     "yottatonne per cubic petameter"
+                                                                   , "Yt/Pm³"
+                                                                   , ZettatonnePerCubicTerameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// exatonne per cubic zettameter, defined as: petatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicZettameter = new (
+                                                                    "exatonne per cubic zettameter"
+                                                                  , "Et/Zm³"
+                                                                  , PetatonnePerCubicExameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// zettatonne per cubic exameter, defined as: exatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicExameter = new (
+                                                                    "zettatonne per cubic exameter"
+                                                                  , "Zt/Em³"
+                                                                  , ExatonnePerCubicPetameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// teratonne per cubic quettameter, defined as: gigatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density TeratonnePerCubicQuettameter = new (
+                                                                      "teratonne per cubic quettameter"
+                                                                    , "Tt/Qm³"
+                                                                    , GigatonnePerCubicRonnameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic terameter, defined as: ronnatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicTerameter = new (
+                                                                      "quettatonne per cubic terameter"
+                                                                    , "Qt/Tm³"
+                                                                    , RonnatonnePerCubicGigameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// petatonne per cubic ronnameter, defined as: teratonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicRonnameter = new (
+                                                                     "petatonne per cubic ronnameter"
+                                                                   , "Pt/Rm³"
+                                                                   , TeratonnePerCubicYottameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// ronnatonne per cubic petameter, defined as: yottatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicPetameter = new (
+                                                                     "ronnatonne per cubic petameter"
+                                                                   , "Rt/Pm³"
+                                                                   , YottatonnePerCubicTerameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// exatonne per cubic yottameter, defined as: petatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicYottameter = new (
+                                                                    "exatonne per cubic yottameter"
+                                                                  , "Et/Ym³"
+                                                                  , PetatonnePerCubicZettameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// yottatonne per cubic exameter, defined as: zettatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicExameter = new (
+                                                                    "yottatonne per cubic exameter"
+                                                                  , "Yt/Em³"
+                                                                  , ZettatonnePerCubicPetameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// zettatonne per cubic zettameter, defined as: exatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicZettameter = new (
+                                                                      "zettatonne per cubic zettameter"
+                                                                    , "Zt/Zm³"
+                                                                    , ExatonnePerCubicExameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// petatonne per cubic quettameter, defined as: teratonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density PetatonnePerCubicQuettameter = new (
+                                                                      "petatonne per cubic quettameter"
+                                                                    , "Pt/Qm³"
+                                                                    , TeratonnePerCubicRonnameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// quettatonne per cubic petameter, defined as: ronnatonne per cubic terameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicPetameter = new (
+                                                                      "quettatonne per cubic petameter"
+                                                                    , "Qt/Pm³"
+                                                                    , RonnatonnePerCubicTerameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic ronnameter, defined as: petatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicRonnameter = new (
+                                                                    "exatonne per cubic ronnameter"
+                                                                  , "Et/Rm³"
+                                                                  , PetatonnePerCubicYottameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// ronnatonne per cubic exameter, defined as: yottatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicExameter = new (
+                                                                    "ronnatonne per cubic exameter"
+                                                                  , "Rt/Em³"
+                                                                  , YottatonnePerCubicPetameter
+                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   );
+
+   /// <summary>
+   /// zettatonne per cubic yottameter, defined as: exatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicYottameter = new (
+                                                                      "zettatonne per cubic yottameter"
+                                                                    , "Zt/Ym³"
+                                                                    , ExatonnePerCubicZettameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// yottatonne per cubic zettameter, defined as: zettatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicZettameter = new (
+                                                                      "yottatonne per cubic zettameter"
+                                                                    , "Yt/Zm³"
+                                                                    , ZettatonnePerCubicExameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// exatonne per cubic quettameter, defined as: petatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ExatonnePerCubicQuettameter = new (
+                                                                     "exatonne per cubic quettameter"
+                                                                   , "Et/Qm³"
+                                                                   , PetatonnePerCubicRonnameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// quettatonne per cubic exameter, defined as: ronnatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicExameter = new (
+                                                                     "quettatonne per cubic exameter"
+                                                                   , "Qt/Em³"
+                                                                   , RonnatonnePerCubicPetameter
+                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    );
+
+   /// <summary>
+   /// zettatonne per cubic ronnameter, defined as: exatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicRonnameter = new (
+                                                                      "zettatonne per cubic ronnameter"
+                                                                    , "Zt/Rm³"
+                                                                    , ExatonnePerCubicYottameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// ronnatonne per cubic zettameter, defined as: yottatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicZettameter = new (
+                                                                      "ronnatonne per cubic zettameter"
+                                                                    , "Rt/Zm³"
+                                                                    , YottatonnePerCubicExameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// yottatonne per cubic yottameter, defined as: zettatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicYottameter = new (
+                                                                      "yottatonne per cubic yottameter"
+                                                                    , "Yt/Ym³"
+                                                                    , ZettatonnePerCubicZettameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// zettatonne per cubic quettameter, defined as: exatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density ZettatonnePerCubicQuettameter = new (
+                                                                       "zettatonne per cubic quettameter"
+                                                                     , "Zt/Qm³"
+                                                                     , ExatonnePerCubicRonnameter
+                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quettatonne per cubic zettameter, defined as: ronnatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicZettameter = new (
+                                                                       "quettatonne per cubic zettameter"
+                                                                     , "Qt/Zm³"
+                                                                     , RonnatonnePerCubicExameter
+                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// yottatonne per cubic ronnameter, defined as: zettatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicRonnameter = new (
+                                                                      "yottatonne per cubic ronnameter"
+                                                                    , "Yt/Rm³"
+                                                                    , ZettatonnePerCubicYottameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// ronnatonne per cubic yottameter, defined as: yottatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicYottameter = new (
+                                                                      "ronnatonne per cubic yottameter"
+                                                                    , "Rt/Ym³"
+                                                                    , YottatonnePerCubicZettameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// yottatonne per cubic quettameter, defined as: zettatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density YottatonnePerCubicQuettameter = new (
+                                                                       "yottatonne per cubic quettameter"
+                                                                     , "Yt/Qm³"
+                                                                     , ZettatonnePerCubicRonnameter
+                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quettatonne per cubic yottameter, defined as: ronnatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicYottameter = new (
+                                                                       "quettatonne per cubic yottameter"
+                                                                     , "Qt/Ym³"
+                                                                     , RonnatonnePerCubicZettameter
+                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// ronnatonne per cubic ronnameter, defined as: yottatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicRonnameter = new (
+                                                                      "ronnatonne per cubic ronnameter"
+                                                                    , "Rt/Rm³"
+                                                                    , YottatonnePerCubicYottameter
+                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     );
+
+   /// <summary>
+   /// ronnatonne per cubic quettameter, defined as: yottatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density RonnatonnePerCubicQuettameter = new (
+                                                                       "ronnatonne per cubic quettameter"
+                                                                     , "Rt/Qm³"
+                                                                     , YottatonnePerCubicRonnameter
+                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quettatonne per cubic ronnameter, defined as: ronnatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicRonnameter = new (
+                                                                       "quettatonne per cubic ronnameter"
+                                                                     , "Qt/Rm³"
+                                                                     , RonnatonnePerCubicYottameter
+                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      );
+
+   /// <summary>
+   /// quettatonne per cubic quettameter, defined as: ronnatonne per cubic ronnameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+   /// </summary>
+   public static readonly Density QuettatonnePerCubicQuettameter = new (
+                                                                        "quettatonne per cubic quettameter"
+                                                                      , "Qt/Qm³"
+                                                                      , RonnatonnePerCubicRonnameter
+                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                       );
 }

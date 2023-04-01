@@ -28,6 +28,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
+   /// inch per square planck-time, defined as: SI centimeter per square microsecond × (2.54)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration InchPerSquarePlanckTime = new (
+                                                                      "inch per square planck-time"
+                                                                    , "in/tₚ²"
+                                                                    , SI.Accelerations.CentimeterPerSquareMicrosecond
+                                                                    , 2.54 / (5.391247E-38 * 5.391247E-38)
+                                                                     );
+
+   /// <summary>
    /// inch per square decisecond, defined as: SI centimeter per square second × (2.54)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration InchPerSquareDecisecond = new (
@@ -162,6 +172,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// </summary>
    public static readonly Acceleration FootPerSquareSecond =
             new ("foot per square second", "ft/s²", InchPerSquareSecond, 12 / (1.0 * 1.0));
+
+   /// <summary>
+   /// foot per square planck-time, defined as: inch per square microsecond × (12)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration FootPerSquarePlanckTime = new (
+                                                                      "foot per square planck-time"
+                                                                    , "ft/tₚ²"
+                                                                    , InchPerSquareMicrosecond
+                                                                    , 12 / (5.391247E-38 * 5.391247E-38)
+                                                                     );
 
    /// <summary>
    /// foot per square decisecond, defined as: inch per square second × (12)/((1.0/10.0)*(1.0/10.0))
@@ -304,6 +324,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
+   /// twip per square planck-time, defined as: foot per square microsecond × (1.0/17280.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration TwipPerSquarePlanckTime = new (
+                                                                      "twip per square planck-time"
+                                                                    , "twip/tₚ²"
+                                                                    , FootPerSquareMicrosecond
+                                                                    , 1.0 / 17280.0 / (5.391247E-38 * 5.391247E-38)
+                                                                     );
+
+   /// <summary>
    /// twip per square decisecond, defined as: foot per square second × (1.0/17280.0)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration TwipPerSquareDecisecond = new (
@@ -444,6 +474,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
+   /// thou per square planck-time, defined as: foot per square microsecond × (1.0/12000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration ThouPerSquarePlanckTime = new (
+                                                                      "thou per square planck-time"
+                                                                    , "th/tₚ²"
+                                                                    , FootPerSquareMicrosecond
+                                                                    , 1.0 / 12000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                     );
+
+   /// <summary>
    /// thou per square decisecond, defined as: foot per square second × (1.0/12000.0)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration ThouPerSquareDecisecond = new (
@@ -582,6 +622,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , FootPerSquareSecond
                                                                       , 1.0 / 36.0 / (1.0 * 1.0)
                                                                        );
+
+   /// <summary>
+   /// barleycorn per square planck-time, defined as: foot per square microsecond × (1.0/36.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration BarleycornPerSquarePlanckTime = new (
+                                                                            "barleycorn per square planck-time"
+                                                                          , "barleycorn/tₚ²"
+                                                                          , FootPerSquareMicrosecond
+                                                                          , 1.0 / 36.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
 
    /// <summary>
    /// barleycorn per square decisecond, defined as: foot per square second × (1.0/36.0)/((1.0/10.0)*(1.0/10.0))
@@ -732,6 +782,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("hand per square second", "hh/s²", InchPerSquareSecond, 4.0 / (1.0 * 1.0));
 
    /// <summary>
+   /// hand per square planck-time, defined as: inch per square microsecond × (4.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration HandPerSquarePlanckTime = new (
+                                                                      "hand per square planck-time"
+                                                                    , "hh/tₚ²"
+                                                                    , InchPerSquareMicrosecond
+                                                                    , 4.0 / (5.391247E-38 * 5.391247E-38)
+                                                                     );
+
+   /// <summary>
    /// hand per square decisecond, defined as: inch per square second × (4.0)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration HandPerSquareDecisecond = new (
@@ -866,6 +926,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// </summary>
    public static readonly Acceleration YardPerSquareSecond =
             new ("yard per square second", "yd/s²", FootPerSquareSecond, 3.0 / (1.0 * 1.0));
+
+   /// <summary>
+   /// yard per square planck-time, defined as: foot per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration YardPerSquarePlanckTime = new (
+                                                                      "yard per square planck-time"
+                                                                    , "yd/tₚ²"
+                                                                    , FootPerSquareMicrosecond
+                                                                    , 3.0 / (5.391247E-38 * 5.391247E-38)
+                                                                     );
 
    /// <summary>
    /// yard per square decisecond, defined as: foot per square second × (3.0)/((1.0/10.0)*(1.0/10.0))
@@ -1004,6 +1074,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("chain per square second", "ch/s²", YardPerSquareSecond, 22.0 / (1.0 * 1.0));
 
    /// <summary>
+   /// chain per square planck-time, defined as: yard per square microsecond × (22.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration ChainPerSquarePlanckTime = new (
+                                                                       "chain per square planck-time"
+                                                                     , "ch/tₚ²"
+                                                                     , YardPerSquareMicrosecond
+                                                                     , 22.0 / (5.391247E-38 * 5.391247E-38)
+                                                                      );
+
+   /// <summary>
    /// chain per square decisecond, defined as: yard per square second × (22.0)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration ChainPerSquareDecisecond = new (
@@ -1138,6 +1218,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// </summary>
    public static readonly Acceleration FurlongPerSquareSecond =
             new ("furlong per square second", "fur/s²", ChainPerSquareSecond, 10.0 / (1.0 * 1.0));
+
+   /// <summary>
+   /// furlong per square planck-time, defined as: chain per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration FurlongPerSquarePlanckTime = new (
+                                                                         "furlong per square planck-time"
+                                                                       , "fur/tₚ²"
+                                                                       , ChainPerSquareMicrosecond
+                                                                       , 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                        );
 
    /// <summary>
    /// furlong per square decisecond, defined as: chain per square second × (10.0)/((1.0/10.0)*(1.0/10.0))
@@ -1276,6 +1366,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("mile per square second", "mi/s²", FurlongPerSquareSecond, 8.0 / (1.0 * 1.0));
 
    /// <summary>
+   /// mile per square planck-time, defined as: furlong per square microsecond × (8.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration MilePerSquarePlanckTime = new (
+                                                                      "mile per square planck-time"
+                                                                    , "mi/tₚ²"
+                                                                    , FurlongPerSquareMicrosecond
+                                                                    , 8.0 / (5.391247E-38 * 5.391247E-38)
+                                                                     );
+
+   /// <summary>
    /// mile per square decisecond, defined as: furlong per square second × (8.0)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration MilePerSquareDecisecond = new (
@@ -1410,6 +1510,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// </summary>
    public static readonly Acceleration LeaguePerSquareSecond =
             new ("league per square second", "lea/s²", MilePerSquareSecond, 3.0 / (1.0 * 1.0));
+
+   /// <summary>
+   /// league per square planck-time, defined as: mile per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration LeaguePerSquarePlanckTime = new (
+                                                                        "league per square planck-time"
+                                                                      , "lea/tₚ²"
+                                                                      , MilePerSquareMicrosecond
+                                                                      , 3.0 / (5.391247E-38 * 5.391247E-38)
+                                                                       );
 
    /// <summary>
    /// league per square decisecond, defined as: mile per square second × (3.0)/((1.0/10.0)*(1.0/10.0))
@@ -1549,6 +1659,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("fathom per square second", "ftm/s²", FootPerSquareSecond, 6.0 / (1.0 * 1.0));
 
    /// <summary>
+   /// fathom per square planck-time, defined as: foot per square microsecond × (6.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration FathomPerSquarePlanckTime = new (
+                                                                        "fathom per square planck-time"
+                                                                      , "ftm/tₚ²"
+                                                                      , FootPerSquareMicrosecond
+                                                                      , 6.0 / (5.391247E-38 * 5.391247E-38)
+                                                                       );
+
+   /// <summary>
    /// fathom per square decisecond, defined as: foot per square second × (6.0)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration FathomPerSquareDecisecond = new (
@@ -1686,6 +1806,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("cable per square second", "cable/s²", FathomPerSquareSecond, 100.0 / (1.0 * 1.0));
 
    /// <summary>
+   /// cable per square planck-time, defined as: fathom per square microsecond × (100.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration CablePerSquarePlanckTime = new (
+                                                                       "cable per square planck-time"
+                                                                     , "cable/tₚ²"
+                                                                     , FathomPerSquareMicrosecond
+                                                                     , 100.0 / (5.391247E-38 * 5.391247E-38)
+                                                                      );
+
+   /// <summary>
    /// cable per square decisecond, defined as: fathom per square second × (100.0)/((1.0/10.0)*(1.0/10.0))
    /// </summary>
    public static readonly Acceleration CablePerSquareDecisecond = new (
@@ -1821,6 +1951,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareSecond =
             new ("nautical mile per square second", "nmi/s²", CablePerSquareSecond, 10.0 / (1.0 * 1.0));
+
+   /// <summary>
+   /// nautical mile per square planck-time, defined as: cable per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration NauticalMilePerSquarePlanckTime = new (
+                                                                              "nautical mile per square planck-time"
+                                                                            , "nmi/tₚ²"
+                                                                            , CablePerSquareMicrosecond
+                                                                            , 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                             );
 
    /// <summary>
    /// nautical mile per square decisecond, defined as: cable per square second × (10.0)/((1.0/10.0)*(1.0/10.0))
@@ -1998,16 +2138,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// inch per square planck-time, defined as: SI centimeter per square microsecond × (2.54)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration InchPerSquarePlanckTime = new (
-                                                                      "inch per square planck-time"
-                                                                    , "in/tₚ²"
-                                                                    , SI.Accelerations.CentimeterPerSquareMicrosecond
-                                                                    , 2.54 / (5.391247E-38 * 5.391247E-38)
-                                                                     );
-
-   /// <summary>
    /// inch per square tick, defined as: SI centimeter per square nanosecond × (2.54)/((100.0)*(100.0))
    /// </summary>
    public static readonly Acceleration InchPerSquareTick = new (
@@ -2018,30 +2148,20 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// foot per square planck-time, defined as: inch per square microsecond × (12)/((5.391247E-38)*(5.391247E-38))
+   /// cable per square tick, defined as: fathom per square nanosecond × (100.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration FootPerSquarePlanckTime = new (
-                                                                      "foot per square planck-time"
-                                                                    , "ft/tₚ²"
-                                                                    , InchPerSquareMicrosecond
-                                                                    , 12 / (5.391247E-38 * 5.391247E-38)
-                                                                     );
+   public static readonly Acceleration CablePerSquareTick = new (
+                                                                 "cable per square tick"
+                                                               , "cable/tick²"
+                                                               , FathomPerSquareNanosecond
+                                                               , 100.0 / (100.0 * 100.0)
+                                                                );
 
    /// <summary>
    /// foot per square minute, defined as: inch per square second × (12)/((60.0)*(60.0))
    /// </summary>
    public static readonly Acceleration FootPerSquareMinute =
             new ("foot per square minute", "ft/min²", InchPerSquareSecond, 12 / (60.0 * 60.0));
-
-   /// <summary>
-   /// twip per square planck-time, defined as: foot per square microsecond × (1.0/17280.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration TwipPerSquarePlanckTime = new (
-                                                                      "twip per square planck-time"
-                                                                    , "twip/tₚ²"
-                                                                    , FootPerSquareMicrosecond
-                                                                    , 1.0 / 17280.0 / (5.391247E-38 * 5.391247E-38)
-                                                                     );
 
    /// <summary>
    /// hand per square septillion years, defined as: inch per square sextillion years × (4.0)/((1000.0)*(1000.0))
@@ -2054,16 +2174,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// thou per square tick, defined as: foot per square nanosecond × (1.0/12000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration ThouPerSquareTick = new (
-                                                                "thou per square tick"
-                                                              , "th/tick²"
-                                                              , FootPerSquareNanosecond
-                                                              , 1.0 / 12000.0 / (100.0 * 100.0)
-                                                               );
-
-   /// <summary>
    /// hand per square week, defined as: inch per square day × (4.0)/((7.0)*(7.0))
    /// </summary>
    public static readonly Acceleration HandPerSquareWeek = new (
@@ -2074,14 +2184,24 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// thou per square planck-time, defined as: foot per square microsecond × (1.0/12000.0)/((5.391247E-38)*(5.391247E-38))
+   /// foot per square tick, defined as: inch per square nanosecond × (12)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration ThouPerSquarePlanckTime = new (
-                                                                      "thou per square planck-time"
-                                                                    , "th/tₚ²"
-                                                                    , FootPerSquareMicrosecond
-                                                                    , 1.0 / 12000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                     );
+   public static readonly Acceleration FootPerSquareTick = new (
+                                                                "foot per square tick"
+                                                              , "ft/tick²"
+                                                              , InchPerSquareNanosecond
+                                                              , 12 / (100.0 * 100.0)
+                                                               );
+
+   /// <summary>
+   /// nautical mile per square tick, defined as: cable per square nanosecond × (10.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration NauticalMilePerSquareTick = new (
+                                                                        "nautical mile per square tick"
+                                                                      , "nmi/tick²"
+                                                                      , CablePerSquareNanosecond
+                                                                      , 10.0 / (100.0 * 100.0)
+                                                                       );
 
    /// <summary>
    /// foot per square hour, defined as: inch per square minute × (12)/((60.0)*(60.0))
@@ -2102,36 +2222,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , FootPerSquareSecond
                                                                 , 1.0 / 17280.0 / (60.0 * 60.0)
                                                                  );
-
-   /// <summary>
-   /// barleycorn per square planck-time, defined as: foot per square microsecond × (1.0/36.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration BarleycornPerSquarePlanckTime = new (
-                                                                            "barleycorn per square planck-time"
-                                                                          , "barleycorn/tₚ²"
-                                                                          , FootPerSquareMicrosecond
-                                                                          , 1.0 / 36.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
-
-   /// <summary>
-   /// yard per square tick, defined as: foot per square nanosecond × (3.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration YardPerSquareTick = new (
-                                                                "yard per square tick"
-                                                              , "yd/tick²"
-                                                              , FootPerSquareNanosecond
-                                                              , 3.0 / (100.0 * 100.0)
-                                                               );
-
-   /// <summary>
-   /// hand per square planck-time, defined as: inch per square microsecond × (4.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration HandPerSquarePlanckTime = new (
-                                                                      "hand per square planck-time"
-                                                                    , "hh/tₚ²"
-                                                                    , InchPerSquareMicrosecond
-                                                                    , 4.0 / (5.391247E-38 * 5.391247E-38)
-                                                                     );
 
    /// <summary>
    /// foot per square day, defined as: inch per square hour × (12)/((24.0)*(24.0))
@@ -2160,40 +2250,20 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("hand per square millennium", "hh/kyr²", InchPerSquareCentury, 4.0 / (10.0 * 10.0));
 
    /// <summary>
-   /// yard per square planck-time, defined as: foot per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
+   /// twip per square tick, defined as: foot per square nanosecond × (1.0/17280.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration YardPerSquarePlanckTime = new (
-                                                                      "yard per square planck-time"
-                                                                    , "yd/tₚ²"
-                                                                    , FootPerSquareMicrosecond
-                                                                    , 3.0 / (5.391247E-38 * 5.391247E-38)
-                                                                     );
+   public static readonly Acceleration TwipPerSquareTick = new (
+                                                                "twip per square tick"
+                                                              , "twip/tick²"
+                                                              , FootPerSquareNanosecond
+                                                              , 1.0 / 17280.0 / (100.0 * 100.0)
+                                                               );
 
    /// <summary>
    /// fathom per square hour, defined as: foot per square minute × (6.0)/((60.0)*(60.0))
    /// </summary>
    public static readonly Acceleration FathomPerSquareHour =
             new ("fathom per square hour", "ftm/hr²", FootPerSquareMinute, 6.0 / (60.0 * 60.0));
-
-   /// <summary>
-   /// mile per square tick, defined as: furlong per square nanosecond × (8.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration MilePerSquareTick = new (
-                                                                "mile per square tick"
-                                                              , "mi/tick²"
-                                                              , FurlongPerSquareNanosecond
-                                                              , 8.0 / (100.0 * 100.0)
-                                                               );
-
-   /// <summary>
-   /// chain per square planck-time, defined as: yard per square microsecond × (22.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration ChainPerSquarePlanckTime = new (
-                                                                       "chain per square planck-time"
-                                                                     , "ch/tₚ²"
-                                                                     , YardPerSquareMicrosecond
-                                                                     , 22.0 / (5.391247E-38 * 5.391247E-38)
-                                                                      );
 
    /// <summary>
    /// twip per square hour, defined as: foot per square minute × (1.0/17280.0)/((60.0)*(60.0))
@@ -2226,16 +2296,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// furlong per square planck-time, defined as: chain per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration FurlongPerSquarePlanckTime = new (
-                                                                         "furlong per square planck-time"
-                                                                       , "fur/tₚ²"
-                                                                       , ChainPerSquareMicrosecond
-                                                                       , 10.0 / (5.391247E-38 * 5.391247E-38)
-                                                                        );
-
-   /// <summary>
    /// hand per square quadrillion years, defined as: inch per square trillion years × (4.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration HandPerSquareQuadrillionYears = new (
@@ -2246,24 +2306,14 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// cable per square tick, defined as: fathom per square nanosecond × (100.0)/((100.0)*(100.0))
+   /// thou per square tick, defined as: foot per square nanosecond × (1.0/12000.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration CablePerSquareTick = new (
-                                                                 "cable per square tick"
-                                                               , "cable/tick²"
-                                                               , FathomPerSquareNanosecond
-                                                               , 100.0 / (100.0 * 100.0)
-                                                                );
-
-   /// <summary>
-   /// mile per square planck-time, defined as: furlong per square microsecond × (8.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration MilePerSquarePlanckTime = new (
-                                                                      "mile per square planck-time"
-                                                                    , "mi/tₚ²"
-                                                                    , FurlongPerSquareMicrosecond
-                                                                    , 8.0 / (5.391247E-38 * 5.391247E-38)
-                                                                     );
+   public static readonly Acceleration ThouPerSquareTick = new (
+                                                                "thou per square tick"
+                                                              , "th/tick²"
+                                                              , FootPerSquareNanosecond
+                                                              , 1.0 / 12000.0 / (100.0 * 100.0)
+                                                               );
 
    /// <summary>
    /// foot per square year, defined as: inch per square day × (12)/((365.2525)*(365.2525))
@@ -2280,16 +2330,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// </summary>
    public static readonly Acceleration HandPerSquareMinute =
             new ("hand per square minute", "hh/min²", InchPerSquareSecond, 4.0 / (60.0 * 60.0));
-
-   /// <summary>
-   /// league per square planck-time, defined as: mile per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquarePlanckTime = new (
-                                                                        "league per square planck-time"
-                                                                      , "lea/tₚ²"
-                                                                      , MilePerSquareMicrosecond
-                                                                      , 3.0 / (5.391247E-38 * 5.391247E-38)
-                                                                       );
 
    /// <summary>
    /// barleycorn per square decade, defined as: foot per square year × (1.0/36.0)/((10.0)*(10.0))
@@ -2344,16 +2384,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("yard per square minute", "yd/min²", FootPerSquareSecond, 3.0 / (60.0 * 60.0));
 
    /// <summary>
-   /// fathom per square planck-time, defined as: foot per square microsecond × (6.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration FathomPerSquarePlanckTime = new (
-                                                                        "fathom per square planck-time"
-                                                                      , "ftm/tₚ²"
-                                                                      , FootPerSquareMicrosecond
-                                                                      , 6.0 / (5.391247E-38 * 5.391247E-38)
-                                                                       );
-
-   /// <summary>
    /// hand per square octillion years, defined as: inch per square septillion years × (4.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration HandPerSquareOctillionYears = new (
@@ -2364,6 +2394,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
+   /// barleycorn per square tick, defined as: foot per square nanosecond × (1.0/36.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration BarleycornPerSquareTick = new (
+                                                                      "barleycorn per square tick"
+                                                                    , "barleycorn/tick²"
+                                                                    , FootPerSquareNanosecond
+                                                                    , 1.0 / 36.0 / (100.0 * 100.0)
+                                                                     );
+
+   /// <summary>
    /// hand per square year, defined as: inch per square day × (4.0)/((365.2525)*(365.2525))
    /// </summary>
    public static readonly Acceleration HandPerSquareYear = new (
@@ -2372,26 +2412,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , InchPerSquareDay
                                                               , 4.0 / (365.2525 * 365.2525)
                                                                );
-
-   /// <summary>
-   /// foot per square tick, defined as: inch per square nanosecond × (12)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration FootPerSquareTick = new (
-                                                                "foot per square tick"
-                                                              , "ft/tick²"
-                                                              , InchPerSquareNanosecond
-                                                              , 12 / (100.0 * 100.0)
-                                                               );
-
-   /// <summary>
-   /// cable per square planck-time, defined as: fathom per square microsecond × (100.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration CablePerSquarePlanckTime = new (
-                                                                       "cable per square planck-time"
-                                                                     , "cable/tₚ²"
-                                                                     , FathomPerSquareMicrosecond
-                                                                     , 100.0 / (5.391247E-38 * 5.391247E-38)
-                                                                      );
 
    /// <summary>
    /// foot per square century, defined as: inch per square decade × (12)/((10.0)*(10.0))
@@ -2412,24 +2432,14 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("fathom per square week", "ftm/wk²", FootPerSquareDay, 6.0 / (7.0 * 7.0));
 
    /// <summary>
-   /// nautical mile per square planck-time, defined as: cable per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
+   /// hand per square tick, defined as: inch per square nanosecond × (4.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration NauticalMilePerSquarePlanckTime = new (
-                                                                              "nautical mile per square planck-time"
-                                                                            , "nmi/tₚ²"
-                                                                            , CablePerSquareMicrosecond
-                                                                            , 10.0 / (5.391247E-38 * 5.391247E-38)
-                                                                             );
-
-   /// <summary>
-   /// barleycorn per square tick, defined as: foot per square nanosecond × (1.0/36.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration BarleycornPerSquareTick = new (
-                                                                      "barleycorn per square tick"
-                                                                    , "barleycorn/tick²"
-                                                                    , FootPerSquareNanosecond
-                                                                    , 1.0 / 36.0 / (100.0 * 100.0)
-                                                                     );
+   public static readonly Acceleration HandPerSquareTick = new (
+                                                                "hand per square tick"
+                                                              , "hh/tick²"
+                                                              , InchPerSquareNanosecond
+                                                              , 4.0 / (100.0 * 100.0)
+                                                               );
 
    /// <summary>
    /// twip per square week, defined as: foot per square day × (1.0/17280.0)/((7.0)*(7.0))
@@ -2484,16 +2494,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square tick, defined as: yard per square nanosecond × (22.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration ChainPerSquareTick = new (
-                                                                 "chain per square tick"
-                                                               , "ch/tick²"
-                                                               , YardPerSquareNanosecond
-                                                               , 22.0 / (100.0 * 100.0)
-                                                                );
-
-   /// <summary>
    /// thou per square day, defined as: foot per square hour × (1.0/12000.0)/((24.0)*(24.0))
    /// </summary>
    public static readonly Acceleration ThouPerSquareDay = new (
@@ -2518,6 +2518,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// </summary>
    public static readonly Acceleration MilePerSquareMinute =
             new ("mile per square minute", "mi/min²", FurlongPerSquareSecond, 8.0 / (60.0 * 60.0));
+
+   /// <summary>
+   /// yard per square tick, defined as: foot per square nanosecond × (3.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration YardPerSquareTick = new (
+                                                                "yard per square tick"
+                                                              , "yd/tick²"
+                                                              , FootPerSquareNanosecond
+                                                              , 3.0 / (100.0 * 100.0)
+                                                               );
 
    /// <summary>
    /// barleycorn per square century, defined as: foot per square decade × (1.0/36.0)/((10.0)*(10.0))
@@ -2576,16 +2586,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("league per square minute", "lea/min²", MilePerSquareSecond, 3.0 / (60.0 * 60.0));
 
    /// <summary>
-   /// league per square tick, defined as: mile per square nanosecond × (3.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration LeaguePerSquareTick = new (
-                                                                  "league per square tick"
-                                                                , "lea/tick²"
-                                                                , MilePerSquareNanosecond
-                                                                , 3.0 / (100.0 * 100.0)
-                                                                 );
-
-   /// <summary>
    /// fathom per square trillion years, defined as: foot per square billion years × (6.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration FathomPerSquareTrillionYears = new (
@@ -2610,6 +2610,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// </summary>
    public static readonly Acceleration FathomPerSquareDecade =
             new ("fathom per square decade", "ftm/decade²", FootPerSquareYear, 6.0 / (10.0 * 10.0));
+
+   /// <summary>
+   /// chain per square tick, defined as: yard per square nanosecond × (22.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration ChainPerSquareTick = new (
+                                                                 "chain per square tick"
+                                                               , "ch/tick²"
+                                                               , YardPerSquareNanosecond
+                                                               , 22.0 / (100.0 * 100.0)
+                                                                );
 
    /// <summary>
    /// foot per square trillion years, defined as: inch per square billion years × (12)/((1000.0)*(1000.0))
@@ -2652,16 +2662,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , InchPerSquareOctillionYears
                                                                         , 4.0 / (1000.0 * 1000.0)
                                                                          );
-
-   /// <summary>
-   /// nautical mile per square tick, defined as: cable per square nanosecond × (10.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration NauticalMilePerSquareTick = new (
-                                                                        "nautical mile per square tick"
-                                                                      , "nmi/tick²"
-                                                                      , CablePerSquareNanosecond
-                                                                      , 10.0 / (100.0 * 100.0)
-                                                                       );
 
    /// <summary>
    /// hand per square decade, defined as: inch per square year × (4.0)/((10.0)*(10.0))
@@ -2750,6 +2750,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
+   /// furlong per square tick, defined as: chain per square nanosecond × (10.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration FurlongPerSquareTick = new (
+                                                                   "furlong per square tick"
+                                                                 , "fur/tick²"
+                                                                 , ChainPerSquareNanosecond
+                                                                 , 10.0 / (100.0 * 100.0)
+                                                                  );
+
+   /// <summary>
    /// foot per square quintillion years, defined as: inch per square quadrillion years × (12)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration FootPerSquareQuintillionYears = new (
@@ -2780,16 +2790,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// twip per square tick, defined as: foot per square nanosecond × (1.0/17280.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration TwipPerSquareTick = new (
-                                                                "twip per square tick"
-                                                              , "twip/tick²"
-                                                              , FootPerSquareNanosecond
-                                                              , 1.0 / 17280.0 / (100.0 * 100.0)
-                                                               );
-
-   /// <summary>
    /// barleycorn per square millennium, defined as: foot per square century × (1.0/36.0)/((10.0)*(10.0))
    /// </summary>
    public static readonly Acceleration BarleycornPerSquareMillennium = new (
@@ -2808,6 +2808,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , FootPerSquareQuadrillionYears
                                                                             , 6.0 / (1000.0 * 1000.0)
                                                                              );
+
+   /// <summary>
+   /// mile per square tick, defined as: furlong per square nanosecond × (8.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration MilePerSquareTick = new (
+                                                                "mile per square tick"
+                                                              , "mi/tick²"
+                                                              , FurlongPerSquareNanosecond
+                                                              , 8.0 / (100.0 * 100.0)
+                                                               );
 
    /// <summary>
    /// twip per square century, defined as: foot per square decade × (1.0/17280.0)/((10.0)*(10.0))
@@ -2844,16 +2854,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , FootPerSquareCentury
                                                                       , 6.0 / (10.0 * 10.0)
                                                                        );
-
-   /// <summary>
-   /// hand per square tick, defined as: inch per square nanosecond × (4.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration HandPerSquareTick = new (
-                                                                "hand per square tick"
-                                                              , "hh/tick²"
-                                                              , InchPerSquareNanosecond
-                                                              , 4.0 / (100.0 * 100.0)
-                                                               );
 
    /// <summary>
    /// thou per square trillion years, defined as: foot per square billion years × (1.0/12000.0)/((1000.0)*(1000.0))
@@ -2932,14 +2932,14 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// furlong per square tick, defined as: chain per square nanosecond × (10.0)/((100.0)*(100.0))
+   /// league per square tick, defined as: mile per square nanosecond × (3.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration FurlongPerSquareTick = new (
-                                                                   "furlong per square tick"
-                                                                 , "fur/tick²"
-                                                                 , ChainPerSquareNanosecond
-                                                                 , 10.0 / (100.0 * 100.0)
-                                                                  );
+   public static readonly Acceleration LeaguePerSquareTick = new (
+                                                                  "league per square tick"
+                                                                , "lea/tick²"
+                                                                , MilePerSquareNanosecond
+                                                                , 3.0 / (100.0 * 100.0)
+                                                                 );
 
    /// <summary>
    /// cable per square million years, defined as: fathom per square millennium × (100.0)/((1000.0)*(1000.0))
@@ -3028,16 +3028,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// fathom per square tick, defined as: foot per square nanosecond × (6.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration FathomPerSquareTick = new (
-                                                                  "fathom per square tick"
-                                                                , "ftm/tick²"
-                                                                , FootPerSquareNanosecond
-                                                                , 6.0 / (100.0 * 100.0)
-                                                                 );
-
-   /// <summary>
    /// foot per square nonillion years, defined as: inch per square octillion years × (12)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration FootPerSquareNonillionYears = new (
@@ -3046,6 +3036,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , InchPerSquareOctillionYears
                                                                         , 12 / (1000.0 * 1000.0)
                                                                          );
+
+   /// <summary>
+   /// fathom per square tick, defined as: foot per square nanosecond × (6.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration FathomPerSquareTick = new (
+                                                                  "fathom per square tick"
+                                                                , "ftm/tick²"
+                                                                , FootPerSquareNanosecond
+                                                                , 6.0 / (100.0 * 100.0)
+                                                                 );
 
    /// <summary>
    /// yard per square million years, defined as: foot per square millennium × (3.0)/((1000.0)*(1000.0))

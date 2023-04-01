@@ -14,7 +14,7 @@ public static double Tan(Jcd.Units.Quantity<Jcd.Units.UnitTypes.Angle> angle);
 
 `angle` [Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
 
-The angle, in any unit of measure for [Angles](Angles.md 'Jcd.Units.UnitsOfMeasure.SI.Angles').
+The angle, in any unit of measure for [Angles](Angles.md 'Jcd.Units.UnitsOfMeasure.Angles').
 
 #### Returns
 [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')  

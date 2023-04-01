@@ -1,16 +1,17 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical.md 'Jcd.Units.UnitsOfMeasure.Astronomical')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI')
 
 ## Temperatures Class
 
-Astronomical Units for measuring Temperature.
+International System of Units for measuring Temperature.
 
 ```csharp
-public class Temperatures : Jcd.Units.UnitOfMeasureEnumeration<Jcd.Units.UnitsOfMeasure.Astronomical.Temperatures, Jcd.Units.UnitTypes.Temperature>
+public class Temperatures : Jcd.Units.UnitOfMeasureEnumeration<Jcd.Units.UnitsOfMeasure.SI.Temperatures, Jcd.Units.UnitTypes.Temperature>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Temperatures](Temperatures.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Temperatures')[,](Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')[&gt;](Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; [Jcd.Units.UnitOfMeasureEnumeration&lt;](UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Temperatures](Temperatures.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Temperatures')[,](UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')[&gt;](UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>') &#129106; Temperatures
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [Jcd.Units.Enumeration&lt;](Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Temperatures](Temperatures.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures')[,](Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')[Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')[&gt;](Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>') &#129106; [Jcd.Units.UnitOfMeasureEnumeration&lt;](UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Temperatures](Temperatures.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures')[,](UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')[Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')[&gt;](UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>') &#129106; Temperatures
 
 | Fields | |
 | :--- | :--- |
-| [PlanckTemperature](Temperatures.PlanckTemperature.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Temperatures.PlanckTemperature') | planck-temperature, defined as: SI degrees kelvin × 1.416784E+32 |
+| [DegreesCelcius](Temperatures.DegreesCelcius.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesCelcius') | degrees celcius, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
+| [DegreesKelvin](Temperatures.DegreesKelvin.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesKelvin') | degrees kelvin, defined as: degrees celcius + -273.15 |

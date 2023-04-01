@@ -17,5 +17,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [JovianMass](Masses.JovianMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JovianMass') | jovian mass, defined as: SI kilogram × 1.89813E+27 |
 | [LunarMass](Masses.LunarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass') | lunar mass, defined as: SI kilogram × 7.35E+22 |
 | [MarsMass](Masses.MarsMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.MarsMass') | mars mass, defined as: SI kilogram × 6.39E+23 |
-| [PlanckMass](Masses.PlanckMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.PlanckMass') | planck-mass, defined as: SI kilogram × 2.176434E-8 |
 | [SolarMass](Masses.SolarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.SolarMass') | solar mass, defined as: SI kilogram × 1.989E+30 |

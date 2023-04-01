@@ -973,6 +973,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("dekameter per square second", "dam/s²", MeterPerSquareSecond, 10.0 / (1.0 * 1.0));
 
    /// <summary>
+   /// dekameter per square planck-time, defined as: meter per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration DekameterPerSquarePlanckTime = new (
+                                                                           "dekameter per square planck-time"
+                                                                         , "dam/tₚ²"
+                                                                         , MeterPerSquareMicrosecond
+                                                                         , 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
    /// decimeter per square quectosecond, defined as: meter per square rontosecond × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))
    /// </summary>
    public static readonly Acceleration DecimeterPerSquareQuectosecond = new (
@@ -4003,16 +4013,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// meter per square planck-time, defined as: meter per square microsecond × (1.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration MeterPerSquarePlanckTime = new (
-                                                                       "meter per square planck-time"
-                                                                     , "m/tₚ²"
-                                                                     , MeterPerSquareMicrosecond
-                                                                     , 1.0 / (5.391247E-38 * 5.391247E-38)
-                                                                      );
-
-   /// <summary>
    /// terameter per square minute, defined as: gigameter per square second × (1000.0)/((60.0)*(60.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareMinute = new (
@@ -4021,6 +4021,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , GigameterPerSquareSecond
                                                                      , 1000.0 / (60.0 * 60.0)
                                                                       );
+
+   /// <summary>
+   /// meter per square tick, defined as: meter per square nanosecond × (1.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration MeterPerSquareTick = new (
+                                                                 "meter per square tick"
+                                                               , "m/tick²"
+                                                               , MeterPerSquareNanosecond
+                                                               , 1.0 / (100.0 * 100.0)
+                                                                );
 
    /// <summary>
    /// decimeter per square billion years, defined as: meter per square million years × (1.0/10.0)/((1000.0)*(1000.0))
@@ -4211,16 +4221,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , YottameterPerSquareSecond
                                                                       , 1000.0 / (60.0 * 60.0)
                                                                        );
-
-   /// <summary>
-   /// meter per square tick, defined as: meter per square nanosecond × (1.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration MeterPerSquareTick = new (
-                                                                 "meter per square tick"
-                                                               , "m/tick²"
-                                                               , MeterPerSquareNanosecond
-                                                               , 1.0 / (100.0 * 100.0)
-                                                                );
 
    /// <summary>
    /// micrometer per square year, defined as: millimeter per square day × (1.0/1000.0)/((365.2525)*(365.2525))
@@ -4549,16 +4549,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// decimeter per square planck-time, defined as: meter per square microsecond × (1.0/10.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration DecimeterPerSquarePlanckTime = new (
-                                                                           "decimeter per square planck-time"
-                                                                         , "dm/tₚ²"
-                                                                         , MeterPerSquareMicrosecond
-                                                                         , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
-
-   /// <summary>
    /// terameter per square hour, defined as: gigameter per square minute × (1000.0)/((60.0)*(60.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareHour = new (
@@ -4587,6 +4577,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , RontometerPerSquareHour
                                                                     , 1.0 / 1000.0 / (24.0 * 24.0)
                                                                      );
+
+   /// <summary>
+   /// decimeter per square tick, defined as: meter per square nanosecond × (1.0/10.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration DecimeterPerSquareTick = new (
+                                                                     "decimeter per square tick"
+                                                                   , "dm/tick²"
+                                                                   , MeterPerSquareNanosecond
+                                                                   , 1.0 / 10.0 / (100.0 * 100.0)
+                                                                    );
 
    /// <summary>
    /// millimeter per square billion years, defined as: centimeter per square million years × (1.0/10.0)/((1000.0)*(1000.0))
@@ -4841,16 +4841,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// decimeter per square tick, defined as: meter per square nanosecond × (1.0/10.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration DecimeterPerSquareTick = new (
-                                                                     "decimeter per square tick"
-                                                                   , "dm/tick²"
-                                                                   , MeterPerSquareNanosecond
-                                                                   , 1.0 / 10.0 / (100.0 * 100.0)
-                                                                    );
-
-   /// <summary>
    /// micrometer per square billion years, defined as: millimeter per square million years × (1.0/1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration MicrometerPerSquareBillionYears = new (
@@ -5017,16 +5007,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
             new ("dekameter per square week", "dam/wk²", MeterPerSquareDay, 10.0 / (7.0 * 7.0));
 
    /// <summary>
-   /// centimeter per square planck-time, defined as: decimeter per square microsecond × (1.0/10.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration CentimeterPerSquarePlanckTime = new (
-                                                                            "centimeter per square planck-time"
-                                                                          , "cm/tₚ²"
-                                                                          , DecimeterPerSquareMicrosecond
-                                                                          , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
-
-   /// <summary>
    /// terameter per square day, defined as: gigameter per square hour × (1000.0)/((24.0)*(24.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareDay = new (
@@ -5035,6 +5015,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , GigameterPerSquareHour
                                                                   , 1000.0 / (24.0 * 24.0)
                                                                    );
+
+   /// <summary>
+   /// centimeter per square tick, defined as: decimeter per square nanosecond × (1.0/10.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration CentimeterPerSquareTick = new (
+                                                                      "centimeter per square tick"
+                                                                    , "cm/tick²"
+                                                                    , DecimeterPerSquareNanosecond
+                                                                    , 1.0 / 10.0 / (100.0 * 100.0)
+                                                                     );
 
    /// <summary>
    /// millimeter per square septillion years, defined as: centimeter per square sextillion years × (1.0/10.0)/((1000.0)*(1000.0))
@@ -5341,16 +5331,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// centimeter per square tick, defined as: decimeter per square nanosecond × (1.0/10.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration CentimeterPerSquareTick = new (
-                                                                      "centimeter per square tick"
-                                                                    , "cm/tick²"
-                                                                    , DecimeterPerSquareNanosecond
-                                                                    , 1.0 / 10.0 / (100.0 * 100.0)
-                                                                     );
-
-   /// <summary>
    /// micrometer per square septillion years, defined as: millimeter per square sextillion years × (1.0/1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration MicrometerPerSquareSeptillionYears = new (
@@ -5379,16 +5359,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , RonnameterPerSquareHour
                                                                     , 1000.0 / (24.0 * 24.0)
                                                                      );
-
-   /// <summary>
-   /// millimeter per square planck-time, defined as: centimeter per square microsecond × (1.0/10.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration MillimeterPerSquarePlanckTime = new (
-                                                                            "millimeter per square planck-time"
-                                                                          , "mm/tₚ²"
-                                                                          , CentimeterPerSquareMicrosecond
-                                                                          , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
 
    /// <summary>
    /// terameter per square week, defined as: gigameter per square day × (1000.0)/((7.0)*(7.0))
@@ -5435,6 +5405,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , RontometerPerSquareYear
                                                                        , 1.0 / 1000.0 / (10.0 * 10.0)
                                                                         );
+
+   /// <summary>
+   /// millimeter per square tick, defined as: centimeter per square nanosecond × (1.0/10.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration MillimeterPerSquareTick = new (
+                                                                      "millimeter per square tick"
+                                                                    , "mm/tick²"
+                                                                    , CentimeterPerSquareNanosecond
+                                                                    , 1.0 / 10.0 / (100.0 * 100.0)
+                                                                     );
 
    /// <summary>
    /// micrometer per square octillion years, defined as: millimeter per square septillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -5675,16 +5655,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// micrometer per square planck-time, defined as: millimeter per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration MicrometerPerSquarePlanckTime = new (
-                                                                            "micrometer per square planck-time"
-                                                                          , "μm/tₚ²"
-                                                                          , MillimeterPerSquareMicrosecond
-                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
-
-   /// <summary>
    /// terameter per square year, defined as: gigameter per square day × (1000.0)/((365.2525)*(365.2525))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareYear = new (
@@ -5785,13 +5755,13 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// millimeter per square tick, defined as: centimeter per square nanosecond × (1.0/10.0)/((100.0)*(100.0))
+   /// micrometer per square tick, defined as: millimeter per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration MillimeterPerSquareTick = new (
-                                                                      "millimeter per square tick"
-                                                                    , "mm/tick²"
-                                                                    , CentimeterPerSquareNanosecond
-                                                                    , 1.0 / 10.0 / (100.0 * 100.0)
+   public static readonly Acceleration MicrometerPerSquareTick = new (
+                                                                      "micrometer per square tick"
+                                                                    , "μm/tick²"
+                                                                    , MillimeterPerSquareNanosecond
+                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
                                                                      );
 
    /// <summary>
@@ -6005,16 +5975,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// nanometer per square planck-time, defined as: micrometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration NanometerPerSquarePlanckTime = new (
-                                                                           "nanometer per square planck-time"
-                                                                         , "nm/tₚ²"
-                                                                         , MicrometerPerSquareMicrosecond
-                                                                         , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
-
-   /// <summary>
    /// terameter per square decade, defined as: gigameter per square year × (1000.0)/((10.0)*(10.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareDecade = new (
@@ -6073,6 +6033,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , KilometerPerSquareDecade
                                                                       , 1000.0 / (10.0 * 10.0)
                                                                        );
+
+   /// <summary>
+   /// nanometer per square tick, defined as: micrometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration NanometerPerSquareTick = new (
+                                                                     "nanometer per square tick"
+                                                                   , "nm/tick²"
+                                                                   , MicrometerPerSquareNanosecond
+                                                                   , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                    );
 
    /// <summary>
    /// femtometer per square septillion years, defined as: picometer per square sextillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -6143,16 +6113,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , ZeptometerPerSquareBillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
                                                                               );
-
-   /// <summary>
-   /// micrometer per square tick, defined as: millimeter per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration MicrometerPerSquareTick = new (
-                                                                      "micrometer per square tick"
-                                                                    , "μm/tick²"
-                                                                    , MillimeterPerSquareNanosecond
-                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
-                                                                     );
 
    /// <summary>
    /// quettameter per square year, defined as: ronnameter per square day × (1000.0)/((365.2525)*(365.2525))
@@ -6285,16 +6245,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// picometer per square planck-time, defined as: nanometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration PicometerPerSquarePlanckTime = new (
-                                                                           "picometer per square planck-time"
-                                                                         , "pm/tₚ²"
-                                                                         , NanometerPerSquareMicrosecond
-                                                                         , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
-
-   /// <summary>
    /// terameter per square century, defined as: gigameter per square decade × (1000.0)/((10.0)*(10.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareCentury = new (
@@ -6353,6 +6303,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , ZettameterPerSquareYear
                                                                       , 1000.0 / (10.0 * 10.0)
                                                                        );
+
+   /// <summary>
+   /// picometer per square tick, defined as: nanometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration PicometerPerSquareTick = new (
+                                                                     "picometer per square tick"
+                                                                   , "pm/tick²"
+                                                                   , NanometerPerSquareNanosecond
+                                                                   , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                    );
 
    /// <summary>
    /// zeptometer per square sextillion years, defined as: attometer per square quintillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -6475,16 +6435,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// nanometer per square tick, defined as: micrometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration NanometerPerSquareTick = new (
-                                                                     "nanometer per square tick"
-                                                                   , "nm/tick²"
-                                                                   , MicrometerPerSquareNanosecond
-                                                                   , 1.0 / 1000.0 / (100.0 * 100.0)
-                                                                    );
-
-   /// <summary>
    /// zeptometer per square septillion years, defined as: attometer per square sextillion years × (1.0/1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration ZeptometerPerSquareSeptillionYears = new (
@@ -6513,16 +6463,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , RonnameterPerSquareYear
                                                                        , 1000.0 / (10.0 * 10.0)
                                                                         );
-
-   /// <summary>
-   /// femtometer per square planck-time, defined as: picometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration FemtometerPerSquarePlanckTime = new (
-                                                                            "femtometer per square planck-time"
-                                                                          , "fm/tₚ²"
-                                                                          , PicometerPerSquareMicrosecond
-                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
 
    /// <summary>
    /// terameter per square millennium, defined as: gigameter per square century × (1000.0)/((10.0)*(10.0))
@@ -6603,6 +6543,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , RontometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
       );
+
+   /// <summary>
+   /// femtometer per square tick, defined as: picometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration FemtometerPerSquareTick = new (
+                                                                      "femtometer per square tick"
+                                                                    , "fm/tick²"
+                                                                    , PicometerPerSquareNanosecond
+                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                     );
 
    /// <summary>
    /// zeptometer per square octillion years, defined as: attometer per square septillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -6755,16 +6705,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// attometer per square planck-time, defined as: femtometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration AttometerPerSquarePlanckTime = new (
-                                                                           "attometer per square planck-time"
-                                                                         , "am/tₚ²"
-                                                                         , FemtometerPerSquareMicrosecond
-                                                                         , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
-
-   /// <summary>
    /// terameter per square million years, defined as: gigameter per square millennium × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareMillionYears = new (
@@ -6773,16 +6713,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , GigameterPerSquareMillennium
                                                                            , 1000.0 / (1000.0 * 1000.0)
                                                                             );
-
-   /// <summary>
-   /// picometer per square tick, defined as: nanometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration PicometerPerSquareTick = new (
-                                                                     "picometer per square tick"
-                                                                   , "pm/tick²"
-                                                                   , NanometerPerSquareNanosecond
-                                                                   , 1.0 / 1000.0 / (100.0 * 100.0)
-                                                                    );
 
    /// <summary>
    /// quettameter per square century, defined as: ronnameter per square decade × (1000.0)/((10.0)*(10.0))
@@ -6823,6 +6753,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , ExameterPerSquareCentury
                                                                           , 1000.0 / (10.0 * 10.0)
                                                                            );
+
+   /// <summary>
+   /// attometer per square tick, defined as: femtometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration AttometerPerSquareTick = new (
+                                                                     "attometer per square tick"
+                                                                   , "am/tick²"
+                                                                   , FemtometerPerSquareNanosecond
+                                                                   , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                    );
 
    /// <summary>
    /// zeptometer per square decillion years, defined as: attometer per square nonillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -6935,16 +6875,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// zeptometer per square planck-time, defined as: attometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration ZeptometerPerSquarePlanckTime = new (
-                                                                            "zeptometer per square planck-time"
-                                                                          , "zm/tₚ²"
-                                                                          , AttometerPerSquareMicrosecond
-                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
-
-   /// <summary>
    /// terameter per square billion years, defined as: gigameter per square million years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareBillionYears = new (
@@ -7045,12 +6975,12 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// femtometer per square tick, defined as: picometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// zeptometer per square tick, defined as: attometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration FemtometerPerSquareTick = new (
-                                                                      "femtometer per square tick"
-                                                                    , "fm/tick²"
-                                                                    , PicometerPerSquareNanosecond
+   public static readonly Acceleration ZeptometerPerSquareTick = new (
+                                                                      "zeptometer per square tick"
+                                                                    , "zm/tick²"
+                                                                    , AttometerPerSquareNanosecond
                                                                     , 1.0 / 1000.0 / (100.0 * 100.0)
                                                                      );
 
@@ -7125,16 +7055,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// yoctometer per square planck-time, defined as: zeptometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration YoctometerPerSquarePlanckTime = new (
-                                                                            "yoctometer per square planck-time"
-                                                                          , "ym/tₚ²"
-                                                                          , ZeptometerPerSquareMicrosecond
-                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
-
-   /// <summary>
    /// terameter per square trillion years, defined as: gigameter per square billion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareTrillionYears = new (
@@ -7205,6 +7125,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
+   /// yoctometer per square tick, defined as: zeptometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration YoctometerPerSquareTick = new (
+                                                                      "yoctometer per square tick"
+                                                                    , "ym/tick²"
+                                                                    , ZeptometerPerSquareNanosecond
+                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                     );
+
+   /// <summary>
    /// petameter per square trillion years, defined as: terameter per square billion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration PetameterPerSquareTrillionYears = new (
@@ -7265,16 +7195,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// attometer per square tick, defined as: femtometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration AttometerPerSquareTick = new (
-                                                                     "attometer per square tick"
-                                                                   , "am/tick²"
-                                                                   , FemtometerPerSquareNanosecond
-                                                                   , 1.0 / 1000.0 / (100.0 * 100.0)
-                                                                    );
-
-   /// <summary>
    /// hectometer per square septillion years, defined as: dekameter per square sextillion years × (10.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration HectometerPerSquareSeptillionYears = new (
@@ -7293,16 +7213,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , RonnameterPerSquareMillennium
                                                                              , 1000.0 / (1000.0 * 1000.0)
                                                                               );
-
-   /// <summary>
-   /// rontometer per square planck-time, defined as: yoctometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration RontometerPerSquarePlanckTime = new (
-                                                                            "rontometer per square planck-time"
-                                                                          , "rm/tₚ²"
-                                                                          , YoctometerPerSquareMicrosecond
-                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
 
    /// <summary>
    /// terameter per square quadrillion years, defined as: gigameter per square trillion years × (1000.0)/((1000.0)*(1000.0))
@@ -7375,6 +7285,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
+   /// rontometer per square tick, defined as: yoctometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration RontometerPerSquareTick = new (
+                                                                      "rontometer per square tick"
+                                                                    , "rm/tick²"
+                                                                    , YoctometerPerSquareNanosecond
+                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                     );
+
+   /// <summary>
    /// hectometer per square octillion years, defined as: dekameter per square septillion years × (10.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration HectometerPerSquareOctillionYears = new (
@@ -7425,18 +7345,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// quectometer per square planck-time, defined as: rontometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration QuectometerPerSquarePlanckTime = new (
-                                                                             "quectometer per square planck-time"
-                                                                           , "qm/tₚ²"
-                                                                           , RontometerPerSquareMicrosecond
-                                                                           , 1.0
-                                                                           / 1000.0
-                                                                           / (5.391247E-38 * 5.391247E-38)
-                                                                            );
-
-   /// <summary>
    /// terameter per square quintillion years, defined as: gigameter per square quadrillion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareQuintillionYears = new (
@@ -7445,16 +7353,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , GigameterPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
       );
-
-   /// <summary>
-   /// zeptometer per square tick, defined as: attometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration ZeptometerPerSquareTick = new (
-                                                                      "zeptometer per square tick"
-                                                                    , "zm/tick²"
-                                                                    , AttometerPerSquareNanosecond
-                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
-                                                                     );
 
    /// <summary>
    /// quettameter per square billion years, defined as: ronnameter per square million years × (1000.0)/((1000.0)*(1000.0))
@@ -7537,6 +7435,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
+   /// quectometer per square tick, defined as: rontometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration QuectometerPerSquareTick = new (
+                                                                       "quectometer per square tick"
+                                                                     , "qm/tick²"
+                                                                     , RontometerPerSquareNanosecond
+                                                                     , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                      );
+
+   /// <summary>
    /// petameter per square quintillion years, defined as: terameter per square quadrillion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration PetameterPerSquareQuintillionYears = new (
@@ -7565,16 +7473,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , YottameterPerSquareBillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
                                                                               );
-
-   /// <summary>
-   /// dekameter per square planck-time, defined as: meter per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration DekameterPerSquarePlanckTime = new (
-                                                                           "dekameter per square planck-time"
-                                                                         , "dam/tₚ²"
-                                                                         , MeterPerSquareMicrosecond
-                                                                         , 10.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
 
    /// <summary>
    /// terameter per square sextillion years, defined as: gigameter per square quintillion years × (1000.0)/((1000.0)*(1000.0))
@@ -7637,16 +7535,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// yoctometer per square tick, defined as: zeptometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration YoctometerPerSquareTick = new (
-                                                                      "yoctometer per square tick"
-                                                                    , "ym/tick²"
-                                                                    , ZeptometerPerSquareNanosecond
-                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
-                                                                     );
-
-   /// <summary>
    /// quettameter per square trillion years, defined as: ronnameter per square billion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration QuettameterPerSquareTrillionYears = new (
@@ -7667,6 +7555,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
+   /// dekameter per square tick, defined as: meter per square nanosecond × (10.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration DekameterPerSquareTick = new (
+                                                                     "dekameter per square tick"
+                                                                   , "dam/tick²"
+                                                                   , MeterPerSquareNanosecond
+                                                                   , 10.0 / (100.0 * 100.0)
+                                                                    );
+
+   /// <summary>
    /// petameter per square sextillion years, defined as: terameter per square quintillion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration PetameterPerSquareSextillionYears = new (
@@ -7675,16 +7573,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , TerameterPerSquareQuintillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
                                                                                );
-
-   /// <summary>
-   /// hectometer per square planck-time, defined as: dekameter per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration HectometerPerSquarePlanckTime = new (
-                                                                            "hectometer per square planck-time"
-                                                                          , "hm/tₚ²"
-                                                                          , DekameterPerSquareMicrosecond
-                                                                          , 10.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
 
    /// <summary>
    /// terameter per square septillion years, defined as: gigameter per square sextillion years × (1000.0)/((1000.0)*(1000.0))
@@ -7767,13 +7655,13 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// rontometer per square tick, defined as: yoctometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// hectometer per square tick, defined as: dekameter per square nanosecond × (10.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration RontometerPerSquareTick = new (
-                                                                      "rontometer per square tick"
-                                                                    , "rm/tick²"
-                                                                    , YoctometerPerSquareNanosecond
-                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
+   public static readonly Acceleration HectometerPerSquareTick = new (
+                                                                      "hectometer per square tick"
+                                                                    , "hm/tick²"
+                                                                    , DekameterPerSquareNanosecond
+                                                                    , 10.0 / (100.0 * 100.0)
                                                                      );
 
    /// <summary>
@@ -7795,16 +7683,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , RonnameterPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
       );
-
-   /// <summary>
-   /// kilometer per square planck-time, defined as: hectometer per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration KilometerPerSquarePlanckTime = new (
-                                                                           "kilometer per square planck-time"
-                                                                         , "km/tₚ²"
-                                                                         , HectometerPerSquareMicrosecond
-                                                                         , 10.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
 
    /// <summary>
    /// terameter per square octillion years, defined as: gigameter per square septillion years × (1000.0)/((1000.0)*(1000.0))
@@ -7867,6 +7745,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
+   /// kilometer per square tick, defined as: hectometer per square nanosecond × (10.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration KilometerPerSquareTick = new (
+                                                                     "kilometer per square tick"
+                                                                   , "km/tick²"
+                                                                   , HectometerPerSquareNanosecond
+                                                                   , 10.0 / (100.0 * 100.0)
+                                                                    );
+
+   /// <summary>
    /// petameter per square octillion years, defined as: terameter per square septillion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration PetameterPerSquareOctillionYears = new (
@@ -7887,16 +7775,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// megameter per square planck-time, defined as: kilometer per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration MegameterPerSquarePlanckTime = new (
-                                                                           "megameter per square planck-time"
-                                                                         , "Mm/tₚ²"
-                                                                         , KilometerPerSquareMicrosecond
-                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
-
-   /// <summary>
    /// terameter per square nonillion years, defined as: gigameter per square octillion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration TerameterPerSquareNonillionYears = new (
@@ -7915,16 +7793,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , MegameterPerSquareNonillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
                                                                               );
-
-   /// <summary>
-   /// quectometer per square tick, defined as: rontometer per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration QuectometerPerSquareTick = new (
-                                                                       "quectometer per square tick"
-                                                                     , "qm/tick²"
-                                                                     , RontometerPerSquareNanosecond
-                                                                     , 1.0 / 1000.0 / (100.0 * 100.0)
-                                                                      );
 
    /// <summary>
    /// quettameter per square quintillion years, defined as: ronnameter per square quadrillion years × (1000.0)/((1000.0)*(1000.0))
@@ -7967,6 +7835,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
+   /// megameter per square tick, defined as: kilometer per square nanosecond × (1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration MegameterPerSquareTick = new (
+                                                                     "megameter per square tick"
+                                                                   , "Mm/tick²"
+                                                                   , KilometerPerSquareNanosecond
+                                                                   , 1000.0 / (100.0 * 100.0)
+                                                                    );
+
+   /// <summary>
    /// petameter per square nonillion years, defined as: terameter per square octillion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration PetameterPerSquareNonillionYears = new (
@@ -7975,16 +7853,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , TerameterPerSquareOctillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
                                                                               );
-
-   /// <summary>
-   /// gigameter per square planck-time, defined as: megameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration GigameterPerSquarePlanckTime = new (
-                                                                           "gigameter per square planck-time"
-                                                                         , "Gm/tₚ²"
-                                                                         , MegameterPerSquareMicrosecond
-                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
 
    /// <summary>
    /// terameter per square decillion years, defined as: gigameter per square nonillion years × (1000.0)/((1000.0)*(1000.0))
@@ -8005,16 +7873,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , ZettameterPerSquareSextillionYears
      , 1000.0 / (1000.0 * 1000.0)
       );
-
-   /// <summary>
-   /// dekameter per square tick, defined as: meter per square nanosecond × (10.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration DekameterPerSquareTick = new (
-                                                                     "dekameter per square tick"
-                                                                   , "dam/tick²"
-                                                                   , MeterPerSquareNanosecond
-                                                                   , 10.0 / (100.0 * 100.0)
-                                                                    );
 
    /// <summary>
    /// quettameter per square sextillion years, defined as: ronnameter per square quintillion years × (1000.0)/((1000.0)*(1000.0))
@@ -8047,6 +7905,16 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
+   /// gigameter per square tick, defined as: megameter per square nanosecond × (1000.0)/((100.0)*(100.0))
+   /// </summary>
+   public static readonly Acceleration GigameterPerSquareTick = new (
+                                                                     "gigameter per square tick"
+                                                                   , "Gm/tick²"
+                                                                   , MegameterPerSquareNanosecond
+                                                                   , 1000.0 / (100.0 * 100.0)
+                                                                    );
+
+   /// <summary>
    /// petameter per square decillion years, defined as: terameter per square nonillion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration PetameterPerSquareDecillionYears = new (
@@ -8065,16 +7933,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , YottameterPerSquareSextillionYears
      , 1000.0 / (1000.0 * 1000.0)
       );
-
-   /// <summary>
-   /// terameter per square planck-time, defined as: gigameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration TerameterPerSquarePlanckTime = new (
-                                                                           "terameter per square planck-time"
-                                                                         , "Tm/tₚ²"
-                                                                         , GigameterPerSquareMicrosecond
-                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
 
    /// <summary>
    /// yottameter per square octillion years, defined as: zettameter per square septillion years × (1000.0)/((1000.0)*(1000.0))
@@ -8097,16 +7955,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// hectometer per square tick, defined as: dekameter per square nanosecond × (10.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration HectometerPerSquareTick = new (
-                                                                      "hectometer per square tick"
-                                                                    , "hm/tick²"
-                                                                    , DekameterPerSquareNanosecond
-                                                                    , 10.0 / (100.0 * 100.0)
-                                                                     );
-
-   /// <summary>
    /// quettameter per square septillion years, defined as: ronnameter per square sextillion years × (1000.0)/((1000.0)*(1000.0))
    /// </summary>
    public static readonly Acceleration QuettameterPerSquareSeptillionYears = new (
@@ -8127,14 +7975,14 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// petameter per square planck-time, defined as: terameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// terameter per square tick, defined as: gigameter per square nanosecond × (1000.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration PetameterPerSquarePlanckTime = new (
-                                                                           "petameter per square planck-time"
-                                                                         , "Pm/tₚ²"
-                                                                         , TerameterPerSquareMicrosecond
-                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                          );
+   public static readonly Acceleration TerameterPerSquareTick = new (
+                                                                     "terameter per square tick"
+                                                                   , "Tm/tick²"
+                                                                   , GigameterPerSquareNanosecond
+                                                                   , 1000.0 / (100.0 * 100.0)
+                                                                    );
 
    /// <summary>
    /// ronnameter per square octillion years, defined as: yottameter per square septillion years × (1000.0)/((1000.0)*(1000.0))
@@ -8167,23 +8015,13 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// exameter per square planck-time, defined as: petameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// petameter per square tick, defined as: terameter per square nanosecond × (1000.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration ExameterPerSquarePlanckTime = new (
-                                                                          "exameter per square planck-time"
-                                                                        , "Em/tₚ²"
-                                                                        , PetameterPerSquareMicrosecond
-                                                                        , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                         );
-
-   /// <summary>
-   /// kilometer per square tick, defined as: hectometer per square nanosecond × (10.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration KilometerPerSquareTick = new (
-                                                                     "kilometer per square tick"
-                                                                   , "km/tick²"
-                                                                   , HectometerPerSquareNanosecond
-                                                                   , 10.0 / (100.0 * 100.0)
+   public static readonly Acceleration PetameterPerSquareTick = new (
+                                                                     "petameter per square tick"
+                                                                   , "Pm/tick²"
+                                                                   , TerameterPerSquareNanosecond
+                                                                   , 1000.0 / (100.0 * 100.0)
                                                                     );
 
    /// <summary>
@@ -8217,24 +8055,14 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// zettameter per square planck-time, defined as: exameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// exameter per square tick, defined as: petameter per square nanosecond × (1000.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration ZettameterPerSquarePlanckTime = new (
-                                                                            "zettameter per square planck-time"
-                                                                          , "Zm/tₚ²"
-                                                                          , ExameterPerSquareMicrosecond
-                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
-
-   /// <summary>
-   /// megameter per square tick, defined as: kilometer per square nanosecond × (1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration MegameterPerSquareTick = new (
-                                                                     "megameter per square tick"
-                                                                   , "Mm/tick²"
-                                                                   , KilometerPerSquareNanosecond
-                                                                   , 1000.0 / (100.0 * 100.0)
-                                                                    );
+   public static readonly Acceleration ExameterPerSquareTick = new (
+                                                                    "exameter per square tick"
+                                                                  , "Em/tick²"
+                                                                  , PetameterPerSquareNanosecond
+                                                                  , 1000.0 / (100.0 * 100.0)
+                                                                   );
 
    /// <summary>
    /// quettameter per square nonillion years, defined as: ronnameter per square octillion years × (1000.0)/((1000.0)*(1000.0))
@@ -8257,24 +8085,14 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// yottameter per square planck-time, defined as: zettameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// zettameter per square tick, defined as: exameter per square nanosecond × (1000.0)/((100.0)*(100.0))
    /// </summary>
-   public static readonly Acceleration YottameterPerSquarePlanckTime = new (
-                                                                            "yottameter per square planck-time"
-                                                                          , "Ym/tₚ²"
-                                                                          , ZettameterPerSquareMicrosecond
-                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
-
-   /// <summary>
-   /// gigameter per square tick, defined as: megameter per square nanosecond × (1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration GigameterPerSquareTick = new (
-                                                                     "gigameter per square tick"
-                                                                   , "Gm/tick²"
-                                                                   , MegameterPerSquareNanosecond
-                                                                   , 1000.0 / (100.0 * 100.0)
-                                                                    );
+   public static readonly Acceleration ZettameterPerSquareTick = new (
+                                                                      "zettameter per square tick"
+                                                                    , "Zm/tick²"
+                                                                    , ExameterPerSquareNanosecond
+                                                                    , 1000.0 / (100.0 * 100.0)
+                                                                     );
 
    /// <summary>
    /// quettameter per square decillion years, defined as: ronnameter per square nonillion years × (1000.0)/((1000.0)*(1000.0))
@@ -8285,66 +8103,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , RonnameterPerSquareNonillionYears
      , 1000.0 / (1000.0 * 1000.0)
       );
-
-   /// <summary>
-   /// ronnameter per square planck-time, defined as: yottameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration RonnameterPerSquarePlanckTime = new (
-                                                                            "ronnameter per square planck-time"
-                                                                          , "Rm/tₚ²"
-                                                                          , YottameterPerSquareMicrosecond
-                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                           );
-
-   /// <summary>
-   /// terameter per square tick, defined as: gigameter per square nanosecond × (1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration TerameterPerSquareTick = new (
-                                                                     "terameter per square tick"
-                                                                   , "Tm/tick²"
-                                                                   , GigameterPerSquareNanosecond
-                                                                   , 1000.0 / (100.0 * 100.0)
-                                                                    );
-
-   /// <summary>
-   /// quettameter per square planck-time, defined as: ronnameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
-   /// </summary>
-   public static readonly Acceleration QuettameterPerSquarePlanckTime = new (
-                                                                             "quettameter per square planck-time"
-                                                                           , "Qm/tₚ²"
-                                                                           , RonnameterPerSquareMicrosecond
-                                                                           , 1000.0 / (5.391247E-38 * 5.391247E-38)
-                                                                            );
-
-   /// <summary>
-   /// petameter per square tick, defined as: terameter per square nanosecond × (1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration PetameterPerSquareTick = new (
-                                                                     "petameter per square tick"
-                                                                   , "Pm/tick²"
-                                                                   , TerameterPerSquareNanosecond
-                                                                   , 1000.0 / (100.0 * 100.0)
-                                                                    );
-
-   /// <summary>
-   /// exameter per square tick, defined as: petameter per square nanosecond × (1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration ExameterPerSquareTick = new (
-                                                                    "exameter per square tick"
-                                                                  , "Em/tick²"
-                                                                  , PetameterPerSquareNanosecond
-                                                                  , 1000.0 / (100.0 * 100.0)
-                                                                   );
-
-   /// <summary>
-   /// zettameter per square tick, defined as: exameter per square nanosecond × (1000.0)/((100.0)*(100.0))
-   /// </summary>
-   public static readonly Acceleration ZettameterPerSquareTick = new (
-                                                                      "zettameter per square tick"
-                                                                    , "Zm/tick²"
-                                                                    , ExameterPerSquareNanosecond
-                                                                    , 1000.0 / (100.0 * 100.0)
-                                                                     );
 
    /// <summary>
    /// yottameter per square tick, defined as: zettameter per square nanosecond × (1000.0)/((100.0)*(100.0))
@@ -8375,4 +8133,246 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , RonnameterPerSquareNanosecond
                                                                      , 1000.0 / (100.0 * 100.0)
                                                                       );
+
+   /// <summary>
+   /// meter per square planck-time, defined as: meter per square microsecond × (1.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration MeterPerSquarePlanckTime = new (
+                                                                       "meter per square planck-time"
+                                                                     , "m/tₚ²"
+                                                                     , MeterPerSquareMicrosecond
+                                                                     , 1.0 / (5.391247E-38 * 5.391247E-38)
+                                                                      );
+
+   /// <summary>
+   /// decimeter per square planck-time, defined as: meter per square microsecond × (1.0/10.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration DecimeterPerSquarePlanckTime = new (
+                                                                           "decimeter per square planck-time"
+                                                                         , "dm/tₚ²"
+                                                                         , MeterPerSquareMicrosecond
+                                                                         , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// centimeter per square planck-time, defined as: decimeter per square microsecond × (1.0/10.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration CentimeterPerSquarePlanckTime = new (
+                                                                            "centimeter per square planck-time"
+                                                                          , "cm/tₚ²"
+                                                                          , DecimeterPerSquareMicrosecond
+                                                                          , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// millimeter per square planck-time, defined as: centimeter per square microsecond × (1.0/10.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration MillimeterPerSquarePlanckTime = new (
+                                                                            "millimeter per square planck-time"
+                                                                          , "mm/tₚ²"
+                                                                          , CentimeterPerSquareMicrosecond
+                                                                          , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// micrometer per square planck-time, defined as: millimeter per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration MicrometerPerSquarePlanckTime = new (
+                                                                            "micrometer per square planck-time"
+                                                                          , "μm/tₚ²"
+                                                                          , MillimeterPerSquareMicrosecond
+                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// nanometer per square planck-time, defined as: micrometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration NanometerPerSquarePlanckTime = new (
+                                                                           "nanometer per square planck-time"
+                                                                         , "nm/tₚ²"
+                                                                         , MicrometerPerSquareMicrosecond
+                                                                         , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// picometer per square planck-time, defined as: nanometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration PicometerPerSquarePlanckTime = new (
+                                                                           "picometer per square planck-time"
+                                                                         , "pm/tₚ²"
+                                                                         , NanometerPerSquareMicrosecond
+                                                                         , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// femtometer per square planck-time, defined as: picometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration FemtometerPerSquarePlanckTime = new (
+                                                                            "femtometer per square planck-time"
+                                                                          , "fm/tₚ²"
+                                                                          , PicometerPerSquareMicrosecond
+                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// attometer per square planck-time, defined as: femtometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration AttometerPerSquarePlanckTime = new (
+                                                                           "attometer per square planck-time"
+                                                                         , "am/tₚ²"
+                                                                         , FemtometerPerSquareMicrosecond
+                                                                         , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// zeptometer per square planck-time, defined as: attometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration ZeptometerPerSquarePlanckTime = new (
+                                                                            "zeptometer per square planck-time"
+                                                                          , "zm/tₚ²"
+                                                                          , AttometerPerSquareMicrosecond
+                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// yoctometer per square planck-time, defined as: zeptometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration YoctometerPerSquarePlanckTime = new (
+                                                                            "yoctometer per square planck-time"
+                                                                          , "ym/tₚ²"
+                                                                          , ZeptometerPerSquareMicrosecond
+                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// rontometer per square planck-time, defined as: yoctometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration RontometerPerSquarePlanckTime = new (
+                                                                            "rontometer per square planck-time"
+                                                                          , "rm/tₚ²"
+                                                                          , YoctometerPerSquareMicrosecond
+                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// quectometer per square planck-time, defined as: rontometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration QuectometerPerSquarePlanckTime = new (
+                                                                             "quectometer per square planck-time"
+                                                                           , "qm/tₚ²"
+                                                                           , RontometerPerSquareMicrosecond
+                                                                           , 1.0
+                                                                           / 1000.0
+                                                                           / (5.391247E-38 * 5.391247E-38)
+                                                                            );
+
+   /// <summary>
+   /// hectometer per square planck-time, defined as: dekameter per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration HectometerPerSquarePlanckTime = new (
+                                                                            "hectometer per square planck-time"
+                                                                          , "hm/tₚ²"
+                                                                          , DekameterPerSquareMicrosecond
+                                                                          , 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// kilometer per square planck-time, defined as: hectometer per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration KilometerPerSquarePlanckTime = new (
+                                                                           "kilometer per square planck-time"
+                                                                         , "km/tₚ²"
+                                                                         , HectometerPerSquareMicrosecond
+                                                                         , 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// megameter per square planck-time, defined as: kilometer per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration MegameterPerSquarePlanckTime = new (
+                                                                           "megameter per square planck-time"
+                                                                         , "Mm/tₚ²"
+                                                                         , KilometerPerSquareMicrosecond
+                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// gigameter per square planck-time, defined as: megameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration GigameterPerSquarePlanckTime = new (
+                                                                           "gigameter per square planck-time"
+                                                                         , "Gm/tₚ²"
+                                                                         , MegameterPerSquareMicrosecond
+                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// terameter per square planck-time, defined as: gigameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration TerameterPerSquarePlanckTime = new (
+                                                                           "terameter per square planck-time"
+                                                                         , "Tm/tₚ²"
+                                                                         , GigameterPerSquareMicrosecond
+                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// petameter per square planck-time, defined as: terameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration PetameterPerSquarePlanckTime = new (
+                                                                           "petameter per square planck-time"
+                                                                         , "Pm/tₚ²"
+                                                                         , TerameterPerSquareMicrosecond
+                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          );
+
+   /// <summary>
+   /// exameter per square planck-time, defined as: petameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration ExameterPerSquarePlanckTime = new (
+                                                                          "exameter per square planck-time"
+                                                                        , "Em/tₚ²"
+                                                                        , PetameterPerSquareMicrosecond
+                                                                        , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         );
+
+   /// <summary>
+   /// zettameter per square planck-time, defined as: exameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration ZettameterPerSquarePlanckTime = new (
+                                                                            "zettameter per square planck-time"
+                                                                          , "Zm/tₚ²"
+                                                                          , ExameterPerSquareMicrosecond
+                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// yottameter per square planck-time, defined as: zettameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration YottameterPerSquarePlanckTime = new (
+                                                                            "yottameter per square planck-time"
+                                                                          , "Ym/tₚ²"
+                                                                          , ZettameterPerSquareMicrosecond
+                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// ronnameter per square planck-time, defined as: yottameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration RonnameterPerSquarePlanckTime = new (
+                                                                            "ronnameter per square planck-time"
+                                                                          , "Rm/tₚ²"
+                                                                          , YottameterPerSquareMicrosecond
+                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           );
+
+   /// <summary>
+   /// quettameter per square planck-time, defined as: ronnameter per square microsecond × (1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// </summary>
+   public static readonly Acceleration QuettameterPerSquarePlanckTime = new (
+                                                                             "quettameter per square planck-time"
+                                                                           , "Qm/tₚ²"
+                                                                           , RonnameterPerSquareMicrosecond
+                                                                           , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                            );
 }

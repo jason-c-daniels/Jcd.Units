@@ -168,16 +168,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// chain per tick, defined as: SI meter per nanosecond × (20.1168)/(100.0)
-   /// </summary>
-   public static readonly Velocity ChainPerTick = new (
-                                                       "chain per tick"
-                                                     , "ch/tick"
-                                                     , SI.Velocities.MeterPerNanosecond
-                                                     , 20.1168 / 100.0
-                                                      );
-
-   /// <summary>
    /// league per millennium, defined as: SI meter per century × (4828.032)/(10.0)
    /// </summary>
    public static readonly Velocity LeaguePerMillennium = new (
@@ -408,6 +398,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
+   /// link per planck-time, defined as: SI meter per microsecond × (0.20116)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity LinkPerPlanckTime = new (
+                                                            "link per planck-time"
+                                                          , "li/tₚ"
+                                                          , SI.Velocities.MeterPerMicrosecond
+                                                          , 0.20116 / 5.391247E-38
+                                                           );
+
+   /// <summary>
    /// link per decisecond, defined as: SI meter per second × (0.20116)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity LinkPerDecisecond = new (
@@ -546,6 +546,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , SI.Velocities.MeterPerSecond
                                                      , 5.0292 / 1.0
                                                       );
+
+   /// <summary>
+   /// rod per planck-time, defined as: SI meter per microsecond × (5.0292)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity RodPerPlanckTime = new (
+                                                           "rod per planck-time"
+                                                         , "rd/tₚ"
+                                                         , SI.Velocities.MeterPerMicrosecond
+                                                         , 5.0292 / 5.391247E-38
+                                                          );
 
    /// <summary>
    /// rod per decisecond, defined as: SI meter per second × (5.0292)/(1.0/10.0)
@@ -688,6 +698,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
+   /// chain per planck-time, defined as: SI meter per microsecond × (20.1168)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity ChainPerPlanckTime = new (
+                                                             "chain per planck-time"
+                                                           , "ch/tₚ"
+                                                           , SI.Velocities.MeterPerMicrosecond
+                                                           , 20.1168 / 5.391247E-38
+                                                            );
+
+   /// <summary>
    /// chain per decisecond, defined as: SI meter per second × (20.1168)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity ChainPerDecisecond = new (
@@ -828,6 +848,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
+   /// furlong per planck-time, defined as: SI meter per microsecond × (201.168)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity FurlongPerPlanckTime = new (
+                                                               "furlong per planck-time"
+                                                             , "fur/tₚ"
+                                                             , SI.Velocities.MeterPerMicrosecond
+                                                             , 201.168 / 5.391247E-38
+                                                              );
+
+   /// <summary>
    /// furlong per decisecond, defined as: SI meter per second × (201.168)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity FurlongPerDecisecond = new (
@@ -966,6 +996,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         , SI.Velocities.MeterPerSecond
                                                         , 4828.032 / 1.0
                                                          );
+
+   /// <summary>
+   /// league per planck-time, defined as: SI meter per microsecond × (4828.032)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity LeaguePerPlanckTime = new (
+                                                              "league per planck-time"
+                                                            , "lea/tₚ"
+                                                            , SI.Velocities.MeterPerMicrosecond
+                                                            , 4828.032 / 5.391247E-38
+                                                             );
 
    /// <summary>
    /// league per decisecond, defined as: SI meter per second × (4828.032)/(1.0/10.0)
@@ -1228,16 +1268,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// link per planck-time, defined as: SI meter per microsecond × (0.20116)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity LinkPerPlanckTime = new (
-                                                            "link per planck-time"
-                                                          , "li/tₚ"
-                                                          , SI.Velocities.MeterPerMicrosecond
-                                                          , 0.20116 / 5.391247E-38
-                                                           );
-
-   /// <summary>
    /// link per tick, defined as: SI meter per nanosecond × (0.20116)/(100.0)
    /// </summary>
    public static readonly Velocity LinkPerTick = new (
@@ -1246,16 +1276,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     , SI.Velocities.MeterPerNanosecond
                                                     , 0.20116 / 100.0
                                                      );
-
-   /// <summary>
-   /// rod per planck-time, defined as: SI meter per microsecond × (5.0292)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity RodPerPlanckTime = new (
-                                                           "rod per planck-time"
-                                                         , "rd/tₚ"
-                                                         , SI.Velocities.MeterPerMicrosecond
-                                                         , 5.0292 / 5.391247E-38
-                                                          );
 
    /// <summary>
    /// league per sextillion years, defined as: SI meter per quintillion years × (4828.032)/(1000.0)
@@ -1278,26 +1298,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// chain per planck-time, defined as: SI meter per microsecond × (20.1168)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity ChainPerPlanckTime = new (
-                                                             "chain per planck-time"
-                                                           , "ch/tₚ"
-                                                           , SI.Velocities.MeterPerMicrosecond
-                                                           , 20.1168 / 5.391247E-38
-                                                            );
-
-   /// <summary>
-   /// furlong per tick, defined as: SI meter per nanosecond × (201.168)/(100.0)
-   /// </summary>
-   public static readonly Velocity FurlongPerTick = new (
-                                                         "furlong per tick"
-                                                       , "fur/tick"
-                                                       , SI.Velocities.MeterPerNanosecond
-                                                       , 201.168 / 100.0
-                                                        );
-
-   /// <summary>
    /// league per year, defined as: SI meter per day × (4828.032)/(365.2525)
    /// </summary>
    public static readonly Velocity LeaguePerYear = new (
@@ -1318,14 +1318,14 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per planck-time, defined as: SI meter per microsecond × (201.168)/(5.391247E-38)
+   /// rod per tick, defined as: SI meter per nanosecond × (5.0292)/(100.0)
    /// </summary>
-   public static readonly Velocity FurlongPerPlanckTime = new (
-                                                               "furlong per planck-time"
-                                                             , "fur/tₚ"
-                                                             , SI.Velocities.MeterPerMicrosecond
-                                                             , 201.168 / 5.391247E-38
-                                                              );
+   public static readonly Velocity RodPerTick = new (
+                                                     "rod per tick"
+                                                   , "rd/tick"
+                                                   , SI.Velocities.MeterPerNanosecond
+                                                   , 5.0292 / 100.0
+                                                    );
 
    /// <summary>
    /// rod per hour, defined as: SI meter per minute × (5.0292)/(60.0)
@@ -1356,16 +1356,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , SI.Velocities.MeterPerQuadrillionYears
                                                                    , 201.168 / 1000.0
                                                                     );
-
-   /// <summary>
-   /// league per planck-time, defined as: SI meter per microsecond × (4828.032)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity LeaguePerPlanckTime = new (
-                                                              "league per planck-time"
-                                                            , "lea/tₚ"
-                                                            , SI.Velocities.MeterPerMicrosecond
-                                                            , 4828.032 / 5.391247E-38
-                                                             );
 
    /// <summary>
    /// furlong per century, defined as: SI meter per decade × (201.168)/(10.0)
@@ -1401,6 +1391,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , SI.Velocities.MeterPerMillionYears
                                                               , 4828.032 / 1000.0
                                                                );
+
+   /// <summary>
+   /// chain per tick, defined as: SI meter per nanosecond × (20.1168)/(100.0)
+   /// </summary>
+   public static readonly Velocity ChainPerTick = new (
+                                                       "chain per tick"
+                                                     , "ch/tick"
+                                                     , SI.Velocities.MeterPerNanosecond
+                                                     , 20.1168 / 100.0
+                                                      );
 
    /// <summary>
    /// chain per trillion years, defined as: SI meter per billion years × (20.1168)/(1000.0)
@@ -1446,6 +1446,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , SI.Velocities.MeterPerSextillionYears
                                                                  , 4828.032 / 1000.0
                                                                   );
+
+   /// <summary>
+   /// furlong per tick, defined as: SI meter per nanosecond × (201.168)/(100.0)
+   /// </summary>
+   public static readonly Velocity FurlongPerTick = new (
+                                                         "furlong per tick"
+                                                       , "fur/tick"
+                                                       , SI.Velocities.MeterPerNanosecond
+                                                       , 201.168 / 100.0
+                                                        );
 
    /// <summary>
    /// rod per year, defined as: SI meter per day × (5.0292)/(365.2525)
@@ -1528,14 +1538,14 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// rod per tick, defined as: SI meter per nanosecond × (5.0292)/(100.0)
+   /// league per tick, defined as: SI meter per nanosecond × (4828.032)/(100.0)
    /// </summary>
-   public static readonly Velocity RodPerTick = new (
-                                                     "rod per tick"
-                                                   , "rd/tick"
-                                                   , SI.Velocities.MeterPerNanosecond
-                                                   , 5.0292 / 100.0
-                                                    );
+   public static readonly Velocity LeaguePerTick = new (
+                                                        "league per tick"
+                                                      , "lea/tick"
+                                                      , SI.Velocities.MeterPerNanosecond
+                                                      , 4828.032 / 100.0
+                                                       );
 
    /// <summary>
    /// rod per century, defined as: SI meter per decade × (5.0292)/(10.0)
@@ -1566,16 +1576,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , SI.Velocities.MeterPerQuadrillionYears
                                                                  , 20.1168 / 1000.0
                                                                   );
-
-   /// <summary>
-   /// league per tick, defined as: SI meter per nanosecond × (4828.032)/(100.0)
-   /// </summary>
-   public static readonly Velocity LeaguePerTick = new (
-                                                        "league per tick"
-                                                      , "lea/tick"
-                                                      , SI.Velocities.MeterPerNanosecond
-                                                      , 4828.032 / 100.0
-                                                       );
 
    /// <summary>
    /// chain per week, defined as: SI meter per day × (20.1168)/(7.0)

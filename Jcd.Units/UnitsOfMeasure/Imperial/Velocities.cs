@@ -28,6 +28,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
+   /// inch per planck-time, defined as: SI centimeter per microsecond × (2.54)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity InchPerPlanckTime = new (
+                                                            "inch per planck-time"
+                                                          , "in/tₚ"
+                                                          , SI.Velocities.CentimeterPerMicrosecond
+                                                          , 2.54 / 5.391247E-38
+                                                           );
+
+   /// <summary>
    /// inch per decisecond, defined as: SI centimeter per second × (2.54)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity InchPerDecisecond = new (
@@ -161,6 +171,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// foot per second, defined as: inch per second × (12)/(1.0)
    /// </summary>
    public static readonly Velocity FootPerSecond = new ("foot per second", "ft/s", InchPerSecond, 12 / 1.0);
+
+   /// <summary>
+   /// foot per planck-time, defined as: inch per microsecond × (12)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity FootPerPlanckTime = new (
+                                                            "foot per planck-time"
+                                                          , "ft/tₚ"
+                                                          , InchPerMicrosecond
+                                                          , 12 / 5.391247E-38
+                                                           );
 
    /// <summary>
    /// foot per decisecond, defined as: inch per second × (12)/(1.0/10.0)
@@ -299,6 +319,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
+   /// twip per planck-time, defined as: foot per microsecond × (1.0/17280.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity TwipPerPlanckTime = new (
+                                                            "twip per planck-time"
+                                                          , "twip/tₚ"
+                                                          , FootPerMicrosecond
+                                                          , 1.0 / 17280.0 / 5.391247E-38
+                                                           );
+
+   /// <summary>
    /// twip per decisecond, defined as: foot per second × (1.0/17280.0)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity TwipPerDecisecond = new (
@@ -432,6 +462,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// thou per second, defined as: foot per second × (1.0/12000.0)/(1.0)
    /// </summary>
    public static readonly Velocity ThouPerSecond = new ("thou per second", "th/s", FootPerSecond, 1.0 / 12000.0 / 1.0);
+
+   /// <summary>
+   /// thou per planck-time, defined as: foot per microsecond × (1.0/12000.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity ThouPerPlanckTime = new (
+                                                            "thou per planck-time"
+                                                          , "th/tₚ"
+                                                          , FootPerMicrosecond
+                                                          , 1.0 / 12000.0 / 5.391247E-38
+                                                           );
 
    /// <summary>
    /// thou per decisecond, defined as: foot per second × (1.0/12000.0)/(1.0/10.0)
@@ -570,6 +610,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("barleycorn per second", "barleycorn/s", FootPerSecond, 1.0 / 36.0 / 1.0);
 
    /// <summary>
+   /// barleycorn per planck-time, defined as: foot per microsecond × (1.0/36.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity BarleycornPerPlanckTime = new (
+                                                                  "barleycorn per planck-time"
+                                                                , "barleycorn/tₚ"
+                                                                , FootPerMicrosecond
+                                                                , 1.0 / 36.0 / 5.391247E-38
+                                                                 );
+
+   /// <summary>
    /// barleycorn per decisecond, defined as: foot per second × (1.0/36.0)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity BarleycornPerDecisecond = new (
@@ -705,6 +755,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity HandPerSecond = new ("hand per second", "hh/s", InchPerSecond, 4.0 / 1.0);
 
    /// <summary>
+   /// hand per planck-time, defined as: inch per microsecond × (4.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity HandPerPlanckTime = new (
+                                                            "hand per planck-time"
+                                                          , "hh/tₚ"
+                                                          , InchPerMicrosecond
+                                                          , 4.0 / 5.391247E-38
+                                                           );
+
+   /// <summary>
    /// hand per decisecond, defined as: inch per second × (4.0)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity HandPerDecisecond = new (
@@ -834,6 +894,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// yard per second, defined as: foot per second × (3.0)/(1.0)
    /// </summary>
    public static readonly Velocity YardPerSecond = new ("yard per second", "yd/s", FootPerSecond, 3.0 / 1.0);
+
+   /// <summary>
+   /// yard per planck-time, defined as: foot per microsecond × (3.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity YardPerPlanckTime = new (
+                                                            "yard per planck-time"
+                                                          , "yd/tₚ"
+                                                          , FootPerMicrosecond
+                                                          , 3.0 / 5.391247E-38
+                                                           );
 
    /// <summary>
    /// yard per decisecond, defined as: foot per second × (3.0)/(1.0/10.0)
@@ -967,6 +1037,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity ChainPerSecond = new ("chain per second", "ch/s", YardPerSecond, 22.0 / 1.0);
 
    /// <summary>
+   /// chain per planck-time, defined as: yard per microsecond × (22.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity ChainPerPlanckTime = new (
+                                                             "chain per planck-time"
+                                                           , "ch/tₚ"
+                                                           , YardPerMicrosecond
+                                                           , 22.0 / 5.391247E-38
+                                                            );
+
+   /// <summary>
    /// chain per decisecond, defined as: yard per second × (22.0)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity ChainPerDecisecond = new (
@@ -1070,6 +1150,12 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity FurlongPerSecond = new ("furlong per second", "fur/s", ChainPerSecond, 10.0 / 1.0);
 
    /// <summary>
+   /// furlong per planck-time, defined as: chain per microsecond × (10.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity FurlongPerPlanckTime =
+            new ("furlong per planck-time", "fur/tₚ", ChainPerMicrosecond, 10.0 / 5.391247E-38);
+
+   /// <summary>
    /// furlong per decisecond, defined as: chain per second × (10.0)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity FurlongPerDecisecond =
@@ -1155,6 +1241,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// mile per second, defined as: furlong per second × (8.0)/(1.0)
    /// </summary>
    public static readonly Velocity MilePerSecond = new ("mile per second", "mi/s", FurlongPerSecond, 8.0 / 1.0);
+
+   /// <summary>
+   /// mile per planck-time, defined as: furlong per microsecond × (8.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity MilePerPlanckTime = new (
+                                                            "mile per planck-time"
+                                                          , "mi/tₚ"
+                                                          , FurlongPerMicrosecond
+                                                          , 8.0 / 5.391247E-38
+                                                           );
 
    /// <summary>
    /// mile per decisecond, defined as: furlong per second × (8.0)/(1.0/10.0)
@@ -1288,6 +1384,12 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity LeaguePerSecond = new ("league per second", "lea/s", MilePerSecond, 3.0 / 1.0);
 
    /// <summary>
+   /// league per planck-time, defined as: mile per microsecond × (3.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity LeaguePerPlanckTime =
+            new ("league per planck-time", "lea/tₚ", MilePerMicrosecond, 3.0 / 5.391247E-38);
+
+   /// <summary>
    /// league per decisecond, defined as: mile per second × (3.0)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity LeaguePerDecisecond =
@@ -1375,6 +1477,12 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity FathomPerSecond = new ("fathom per second", "ftm/s", FootPerSecond, 6.0 / 1.0);
 
    /// <summary>
+   /// fathom per planck-time, defined as: foot per microsecond × (6.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity FathomPerPlanckTime =
+            new ("fathom per planck-time", "ftm/tₚ", FootPerMicrosecond, 6.0 / 5.391247E-38);
+
+   /// <summary>
    /// fathom per decisecond, defined as: foot per second × (6.0)/(1.0/10.0)
    /// </summary>
    public static readonly Velocity FathomPerDecisecond =
@@ -1460,6 +1568,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// cable per second, defined as: fathom per second × (100.0)/(1.0)
    /// </summary>
    public static readonly Velocity CablePerSecond = new ("cable per second", "cable/s", FathomPerSecond, 100.0 / 1.0);
+
+   /// <summary>
+   /// cable per planck-time, defined as: fathom per microsecond × (100.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity CablePerPlanckTime = new (
+                                                             "cable per planck-time"
+                                                           , "cable/tₚ"
+                                                           , FathomPerMicrosecond
+                                                           , 100.0 / 5.391247E-38
+                                                            );
 
    /// <summary>
    /// cable per decisecond, defined as: fathom per second × (100.0)/(1.0/10.0)
@@ -1596,6 +1714,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity NauticalMilePerSecond =
             new ("nautical mile per second", "nmi/s", CablePerSecond, 10.0 / 1.0);
+
+   /// <summary>
+   /// nautical mile per planck-time, defined as: cable per microsecond × (10.0)/(5.391247E-38)
+   /// </summary>
+   public static readonly Velocity NauticalMilePerPlanckTime = new (
+                                                                    "nautical mile per planck-time"
+                                                                  , "nmi/tₚ"
+                                                                  , CablePerMicrosecond
+                                                                  , 10.0 / 5.391247E-38
+                                                                   );
 
    /// <summary>
    /// nautical mile per decisecond, defined as: cable per second × (10.0)/(1.0/10.0)
@@ -1760,16 +1888,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// inch per planck-time, defined as: SI centimeter per microsecond × (2.54)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity InchPerPlanckTime = new (
-                                                            "inch per planck-time"
-                                                          , "in/tₚ"
-                                                          , SI.Velocities.CentimeterPerMicrosecond
-                                                          , 2.54 / 5.391247E-38
-                                                           );
-
-   /// <summary>
    /// inch per tick, defined as: SI centimeter per nanosecond × (2.54)/(100.0)
    /// </summary>
    public static readonly Velocity InchPerTick = new (
@@ -1780,29 +1898,19 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per planck-time, defined as: inch per microsecond × (12)/(5.391247E-38)
+   /// cable per tick, defined as: fathom per nanosecond × (100.0)/(100.0)
    /// </summary>
-   public static readonly Velocity FootPerPlanckTime = new (
-                                                            "foot per planck-time"
-                                                          , "ft/tₚ"
-                                                          , InchPerMicrosecond
-                                                          , 12 / 5.391247E-38
-                                                           );
+   public static readonly Velocity CablePerTick = new (
+                                                       "cable per tick"
+                                                     , "cable/tick"
+                                                     , FathomPerNanosecond
+                                                     , 100.0 / 100.0
+                                                      );
 
    /// <summary>
    /// foot per minute, defined as: inch per second × (12)/(60.0)
    /// </summary>
    public static readonly Velocity FootPerMinute = new ("foot per minute", "ft/min", InchPerSecond, 12 / 60.0);
-
-   /// <summary>
-   /// twip per planck-time, defined as: foot per microsecond × (1.0/17280.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity TwipPerPlanckTime = new (
-                                                            "twip per planck-time"
-                                                          , "twip/tₚ"
-                                                          , FootPerMicrosecond
-                                                          , 1.0 / 17280.0 / 5.391247E-38
-                                                           );
 
    /// <summary>
    /// hand per septillion years, defined as: inch per sextillion years × (4.0)/(1000.0)
@@ -1811,29 +1919,20 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("hand per septillion years", "hh/Yyr", InchPerSextillionYears, 4.0 / 1000.0);
 
    /// <summary>
-   /// thou per tick, defined as: foot per nanosecond × (1.0/12000.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity ThouPerTick = new (
-                                                      "thou per tick"
-                                                    , "th/tick"
-                                                    , FootPerNanosecond
-                                                    , 1.0 / 12000.0 / 100.0
-                                                     );
-
-   /// <summary>
    /// hand per week, defined as: inch per day × (4.0)/(7.0)
    /// </summary>
    public static readonly Velocity HandPerWeek = new ("hand per week", "hh/wk", InchPerDay, 4.0 / 7.0);
 
    /// <summary>
-   /// thou per planck-time, defined as: foot per microsecond × (1.0/12000.0)/(5.391247E-38)
+   /// foot per tick, defined as: inch per nanosecond × (12)/(100.0)
    /// </summary>
-   public static readonly Velocity ThouPerPlanckTime = new (
-                                                            "thou per planck-time"
-                                                          , "th/tₚ"
-                                                          , FootPerMicrosecond
-                                                          , 1.0 / 12000.0 / 5.391247E-38
-                                                           );
+   public static readonly Velocity FootPerTick = new ("foot per tick", "ft/tick", InchPerNanosecond, 12 / 100.0);
+
+   /// <summary>
+   /// nautical mile per tick, defined as: cable per nanosecond × (10.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity NauticalMilePerTick =
+            new ("nautical mile per tick", "nmi/tick", CablePerNanosecond, 10.0 / 100.0);
 
    /// <summary>
    /// foot per hour, defined as: inch per minute × (12)/(60.0)
@@ -1849,31 +1948,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , FootPerSecond
                                                       , 1.0 / 17280.0 / 60.0
                                                        );
-
-   /// <summary>
-   /// barleycorn per planck-time, defined as: foot per microsecond × (1.0/36.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity BarleycornPerPlanckTime = new (
-                                                                  "barleycorn per planck-time"
-                                                                , "barleycorn/tₚ"
-                                                                , FootPerMicrosecond
-                                                                , 1.0 / 36.0 / 5.391247E-38
-                                                                 );
-
-   /// <summary>
-   /// yard per tick, defined as: foot per nanosecond × (3.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity YardPerTick = new ("yard per tick", "yd/tick", FootPerNanosecond, 3.0 / 100.0);
-
-   /// <summary>
-   /// hand per planck-time, defined as: inch per microsecond × (4.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity HandPerPlanckTime = new (
-                                                            "hand per planck-time"
-                                                          , "hh/tₚ"
-                                                          , InchPerMicrosecond
-                                                          , 4.0 / 5.391247E-38
-                                                           );
 
    /// <summary>
    /// foot per day, defined as: inch per hour × (12)/(24.0)
@@ -1901,34 +1975,19 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// yard per planck-time, defined as: foot per microsecond × (3.0)/(5.391247E-38)
+   /// twip per tick, defined as: foot per nanosecond × (1.0/17280.0)/(100.0)
    /// </summary>
-   public static readonly Velocity YardPerPlanckTime = new (
-                                                            "yard per planck-time"
-                                                          , "yd/tₚ"
-                                                          , FootPerMicrosecond
-                                                          , 3.0 / 5.391247E-38
-                                                           );
+   public static readonly Velocity TwipPerTick = new (
+                                                      "twip per tick"
+                                                    , "twip/tick"
+                                                    , FootPerNanosecond
+                                                    , 1.0 / 17280.0 / 100.0
+                                                     );
 
    /// <summary>
    /// fathom per hour, defined as: foot per minute × (6.0)/(60.0)
    /// </summary>
    public static readonly Velocity FathomPerHour = new ("fathom per hour", "ftm/hr", FootPerMinute, 6.0 / 60.0);
-
-   /// <summary>
-   /// mile per tick, defined as: furlong per nanosecond × (8.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity MilePerTick = new ("mile per tick", "mi/tick", FurlongPerNanosecond, 8.0 / 100.0);
-
-   /// <summary>
-   /// chain per planck-time, defined as: yard per microsecond × (22.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity ChainPerPlanckTime = new (
-                                                             "chain per planck-time"
-                                                           , "ch/tₚ"
-                                                           , YardPerMicrosecond
-                                                           , 22.0 / 5.391247E-38
-                                                            );
 
    /// <summary>
    /// twip per hour, defined as: foot per minute × (1.0/17280.0)/(60.0)
@@ -1947,36 +2006,20 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("barleycorn per minute", "barleycorn/min", FootPerSecond, 1.0 / 36.0 / 60.0);
 
    /// <summary>
-   /// furlong per planck-time, defined as: chain per microsecond × (10.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity FurlongPerPlanckTime =
-            new ("furlong per planck-time", "fur/tₚ", ChainPerMicrosecond, 10.0 / 5.391247E-38);
-
-   /// <summary>
    /// hand per quadrillion years, defined as: inch per trillion years × (4.0)/(1000.0)
    /// </summary>
    public static readonly Velocity HandPerQuadrillionYears =
             new ("hand per quadrillion years", "hh/Pyr", InchPerTrillionYears, 4.0 / 1000.0);
 
    /// <summary>
-   /// cable per tick, defined as: fathom per nanosecond × (100.0)/(100.0)
+   /// thou per tick, defined as: foot per nanosecond × (1.0/12000.0)/(100.0)
    /// </summary>
-   public static readonly Velocity CablePerTick = new (
-                                                       "cable per tick"
-                                                     , "cable/tick"
-                                                     , FathomPerNanosecond
-                                                     , 100.0 / 100.0
-                                                      );
-
-   /// <summary>
-   /// mile per planck-time, defined as: furlong per microsecond × (8.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity MilePerPlanckTime = new (
-                                                            "mile per planck-time"
-                                                          , "mi/tₚ"
-                                                          , FurlongPerMicrosecond
-                                                          , 8.0 / 5.391247E-38
-                                                           );
+   public static readonly Velocity ThouPerTick = new (
+                                                      "thou per tick"
+                                                    , "th/tick"
+                                                    , FootPerNanosecond
+                                                    , 1.0 / 12000.0 / 100.0
+                                                     );
 
    /// <summary>
    /// foot per year, defined as: inch per day × (12)/(365.2525)
@@ -1987,12 +2030,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// hand per minute, defined as: inch per second × (4.0)/(60.0)
    /// </summary>
    public static readonly Velocity HandPerMinute = new ("hand per minute", "hh/min", InchPerSecond, 4.0 / 60.0);
-
-   /// <summary>
-   /// league per planck-time, defined as: mile per microsecond × (3.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity LeaguePerPlanckTime =
-            new ("league per planck-time", "lea/tₚ", MilePerMicrosecond, 3.0 / 5.391247E-38);
 
    /// <summary>
    /// barleycorn per decade, defined as: foot per year × (1.0/36.0)/(10.0)
@@ -2026,36 +2063,25 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity YardPerMinute = new ("yard per minute", "yd/min", FootPerSecond, 3.0 / 60.0);
 
    /// <summary>
-   /// fathom per planck-time, defined as: foot per microsecond × (6.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity FathomPerPlanckTime =
-            new ("fathom per planck-time", "ftm/tₚ", FootPerMicrosecond, 6.0 / 5.391247E-38);
-
-   /// <summary>
    /// hand per octillion years, defined as: inch per septillion years × (4.0)/(1000.0)
    /// </summary>
    public static readonly Velocity HandPerOctillionYears =
             new ("hand per octillion years", "hh/Ryr", InchPerSeptillionYears, 4.0 / 1000.0);
 
    /// <summary>
+   /// barleycorn per tick, defined as: foot per nanosecond × (1.0/36.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity BarleycornPerTick = new (
+                                                            "barleycorn per tick"
+                                                          , "barleycorn/tick"
+                                                          , FootPerNanosecond
+                                                          , 1.0 / 36.0 / 100.0
+                                                           );
+
+   /// <summary>
    /// hand per year, defined as: inch per day × (4.0)/(365.2525)
    /// </summary>
    public static readonly Velocity HandPerYear = new ("hand per year", "hh/yr", InchPerDay, 4.0 / 365.2525);
-
-   /// <summary>
-   /// foot per tick, defined as: inch per nanosecond × (12)/(100.0)
-   /// </summary>
-   public static readonly Velocity FootPerTick = new ("foot per tick", "ft/tick", InchPerNanosecond, 12 / 100.0);
-
-   /// <summary>
-   /// cable per planck-time, defined as: fathom per microsecond × (100.0)/(5.391247E-38)
-   /// </summary>
-   public static readonly Velocity CablePerPlanckTime = new (
-                                                             "cable per planck-time"
-                                                           , "cable/tₚ"
-                                                           , FathomPerMicrosecond
-                                                           , 100.0 / 5.391247E-38
-                                                            );
 
    /// <summary>
    /// foot per century, defined as: inch per decade × (12)/(10.0)
@@ -2073,24 +2099,9 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity FathomPerWeek = new ("fathom per week", "ftm/wk", FootPerDay, 6.0 / 7.0);
 
    /// <summary>
-   /// nautical mile per planck-time, defined as: cable per microsecond × (10.0)/(5.391247E-38)
+   /// hand per tick, defined as: inch per nanosecond × (4.0)/(100.0)
    /// </summary>
-   public static readonly Velocity NauticalMilePerPlanckTime = new (
-                                                                    "nautical mile per planck-time"
-                                                                  , "nmi/tₚ"
-                                                                  , CablePerMicrosecond
-                                                                  , 10.0 / 5.391247E-38
-                                                                   );
-
-   /// <summary>
-   /// barleycorn per tick, defined as: foot per nanosecond × (1.0/36.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity BarleycornPerTick = new (
-                                                            "barleycorn per tick"
-                                                          , "barleycorn/tick"
-                                                          , FootPerNanosecond
-                                                          , 1.0 / 36.0 / 100.0
-                                                           );
+   public static readonly Velocity HandPerTick = new ("hand per tick", "hh/tick", InchPerNanosecond, 4.0 / 100.0);
 
    /// <summary>
    /// twip per week, defined as: foot per day × (1.0/17280.0)/(7.0)
@@ -2135,11 +2146,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("thou per million years", "th/Myr", FootPerMillennium, 1.0 / 12000.0 / 1000.0);
 
    /// <summary>
-   /// chain per tick, defined as: yard per nanosecond × (22.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity ChainPerTick = new ("chain per tick", "ch/tick", YardPerNanosecond, 22.0 / 100.0);
-
-   /// <summary>
    /// thou per day, defined as: foot per hour × (1.0/12000.0)/(24.0)
    /// </summary>
    public static readonly Velocity ThouPerDay = new ("thou per day", "th/dy", FootPerHour, 1.0 / 12000.0 / 24.0);
@@ -2154,6 +2160,11 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// mile per minute, defined as: furlong per second × (8.0)/(60.0)
    /// </summary>
    public static readonly Velocity MilePerMinute = new ("mile per minute", "mi/min", FurlongPerSecond, 8.0 / 60.0);
+
+   /// <summary>
+   /// yard per tick, defined as: foot per nanosecond × (3.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity YardPerTick = new ("yard per tick", "yd/tick", FootPerNanosecond, 3.0 / 100.0);
 
    /// <summary>
    /// barleycorn per century, defined as: foot per decade × (1.0/36.0)/(10.0)
@@ -2193,11 +2204,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity LeaguePerMinute = new ("league per minute", "lea/min", MilePerSecond, 3.0 / 60.0);
 
    /// <summary>
-   /// league per tick, defined as: mile per nanosecond × (3.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity LeaguePerTick = new ("league per tick", "lea/tick", MilePerNanosecond, 3.0 / 100.0);
-
-   /// <summary>
    /// fathom per trillion years, defined as: foot per billion years × (6.0)/(1000.0)
    /// </summary>
    public static readonly Velocity FathomPerTrillionYears =
@@ -2213,6 +2219,11 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// fathom per decade, defined as: foot per year × (6.0)/(10.0)
    /// </summary>
    public static readonly Velocity FathomPerDecade = new ("fathom per decade", "ftm/decade", FootPerYear, 6.0 / 10.0);
+
+   /// <summary>
+   /// chain per tick, defined as: yard per nanosecond × (22.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity ChainPerTick = new ("chain per tick", "ch/tick", YardPerNanosecond, 22.0 / 100.0);
 
    /// <summary>
    /// foot per trillion years, defined as: inch per billion years × (12)/(1000.0)
@@ -2250,12 +2261,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity HandPerNonillionYears =
             new ("hand per nonillion years", "hh/Qyr", InchPerOctillionYears, 4.0 / 1000.0);
-
-   /// <summary>
-   /// nautical mile per tick, defined as: cable per nanosecond × (10.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity NauticalMilePerTick =
-            new ("nautical mile per tick", "nmi/tick", CablePerNanosecond, 10.0 / 100.0);
 
    /// <summary>
    /// hand per decade, defined as: inch per year × (4.0)/(10.0)
@@ -2324,6 +2329,16 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
+   /// furlong per tick, defined as: chain per nanosecond × (10.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity FurlongPerTick = new (
+                                                         "furlong per tick"
+                                                       , "fur/tick"
+                                                       , ChainPerNanosecond
+                                                       , 10.0 / 100.0
+                                                        );
+
+   /// <summary>
    /// foot per quintillion years, defined as: inch per quadrillion years × (12)/(1000.0)
    /// </summary>
    public static readonly Velocity FootPerQuintillionYears =
@@ -2342,16 +2357,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("hand per billion years", "hh/Gyr", InchPerMillionYears, 4.0 / 1000.0);
 
    /// <summary>
-   /// twip per tick, defined as: foot per nanosecond × (1.0/17280.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity TwipPerTick = new (
-                                                      "twip per tick"
-                                                    , "twip/tick"
-                                                    , FootPerNanosecond
-                                                    , 1.0 / 17280.0 / 100.0
-                                                     );
-
-   /// <summary>
    /// barleycorn per millennium, defined as: foot per century × (1.0/36.0)/(10.0)
    /// </summary>
    public static readonly Velocity BarleycornPerMillennium =
@@ -2362,6 +2367,11 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity FathomPerQuintillionYears =
             new ("fathom per quintillion years", "ftm/Eyr", FootPerQuadrillionYears, 6.0 / 1000.0);
+
+   /// <summary>
+   /// mile per tick, defined as: furlong per nanosecond × (8.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity MilePerTick = new ("mile per tick", "mi/tick", FurlongPerNanosecond, 8.0 / 100.0);
 
    /// <summary>
    /// twip per century, defined as: foot per decade × (1.0/17280.0)/(10.0)
@@ -2389,11 +2399,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    /// </summary>
    public static readonly Velocity FathomPerMillennium =
             new ("fathom per millennium", "ftm/kyr", FootPerCentury, 6.0 / 10.0);
-
-   /// <summary>
-   /// hand per tick, defined as: inch per nanosecond × (4.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity HandPerTick = new ("hand per tick", "hh/tick", InchPerNanosecond, 4.0 / 100.0);
 
    /// <summary>
    /// thou per trillion years, defined as: foot per billion years × (1.0/12000.0)/(1000.0)
@@ -2453,14 +2458,9 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// furlong per tick, defined as: chain per nanosecond × (10.0)/(100.0)
+   /// league per tick, defined as: mile per nanosecond × (3.0)/(100.0)
    /// </summary>
-   public static readonly Velocity FurlongPerTick = new (
-                                                         "furlong per tick"
-                                                       , "fur/tick"
-                                                       , ChainPerNanosecond
-                                                       , 10.0 / 100.0
-                                                        );
+   public static readonly Velocity LeaguePerTick = new ("league per tick", "lea/tick", MilePerNanosecond, 3.0 / 100.0);
 
    /// <summary>
    /// cable per million years, defined as: fathom per millennium × (100.0)/(1000.0)
@@ -2527,15 +2527,15 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
             new ("yard per quadrillion years", "yd/Pyr", FootPerTrillionYears, 3.0 / 1000.0);
 
    /// <summary>
-   /// fathom per tick, defined as: foot per nanosecond × (6.0)/(100.0)
-   /// </summary>
-   public static readonly Velocity FathomPerTick = new ("fathom per tick", "ftm/tick", FootPerNanosecond, 6.0 / 100.0);
-
-   /// <summary>
    /// foot per nonillion years, defined as: inch per octillion years × (12)/(1000.0)
    /// </summary>
    public static readonly Velocity FootPerNonillionYears =
             new ("foot per nonillion years", "ft/Qyr", InchPerOctillionYears, 12 / 1000.0);
+
+   /// <summary>
+   /// fathom per tick, defined as: foot per nanosecond × (6.0)/(100.0)
+   /// </summary>
+   public static readonly Velocity FathomPerTick = new ("fathom per tick", "ftm/tick", FootPerNanosecond, 6.0 / 100.0);
 
    /// <summary>
    /// yard per million years, defined as: foot per millennium × (3.0)/(1000.0)

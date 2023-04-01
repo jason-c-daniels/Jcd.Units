@@ -47,7 +47,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [Parsec](Lengths.Parsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Parsec') | parsec, defined as: light-year × 3.2615637769757 |
 | [PetalightYear](Lengths.PetalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.PetalightYear') | petalight-year, defined as: teralight-year × 1000.0 |
 | [Petaparsec](Lengths.Petaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Petaparsec') | petaparsec, defined as: teraparsec × 1000.0 |
-| [PlanckLength](Lengths.PlanckLength.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.PlanckLength') | Planck-length, defined as: SI meter × 1.616255E-35 |
 | [QuettalightYear](Lengths.QuettalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.QuettalightYear') | quettalight-year, defined as: ronnalight-year × 1000.0 |
 | [Quettaparsec](Lengths.Quettaparsec.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.Quettaparsec') | quettaparsec, defined as: ronnaparsec × 1000.0 |
 | [RonnalightYear](Lengths.RonnalightYear.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Lengths.RonnalightYear') | ronnalight-year, defined as: yottalight-year × 1000.0 |

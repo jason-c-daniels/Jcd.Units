@@ -307,16 +307,6 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                           );
 
    /// <summary>
-   /// square Planck-length, defined as: SI square meter × (1.616255E-35)*(1.616255E-35)
-   /// </summary>
-   public static readonly Area SquarePlanckLength = new (
-                                                         "square Planck-length"
-                                                       , "ℓₚ²"
-                                                       , SI.Areas.SquareMeter
-                                                       , 1.616255E-35 * 1.616255E-35
-                                                        );
-
-   /// <summary>
    /// square ronnalight-year, defined as: square yottalight-year × (1000.0)*(1000.0)
    /// </summary>
    public static readonly Area SquareRonnalightYear = new (

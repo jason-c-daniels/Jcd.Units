@@ -256,9 +256,4 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
    /// solar circumference, defined as: solar diameter × Math.PI
    /// </summary>
    public static readonly Length SolarCircumference = new ("solar circumference", "C(☉)", SolarDiameter, Math.PI);
-
-   /// <summary>
-   /// Planck-length, defined as: SI meter × 1.616255E-35
-   /// </summary>
-   public static readonly Length PlanckLength = new ("Planck-length", "ℓₚ", SI.Lengths.Meter, 1.616255E-35);
 }

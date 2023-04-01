@@ -7,8 +7,9 @@ using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitsOfMeasure.SI;
 using Jcd.Units.UnitTypes;
 
-using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 using US = Jcd.Units.UnitsOfMeasure.USCustomary;
+using Physics = Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
+using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 
 // ReSharper disable HeapView.ObjectAllocation
 // ReSharper disable HeapView.BoxingAllocation
@@ -112,14 +113,14 @@ var onems    = 1.As(ms);
 var oneTick     = 1.As(Durations.Tick);
 var oneTickInNs = oneTick.To(Durations.Nanosecond);
 
-var timeOfDay = DateTime.UtcNow.TimeOfDay.As(Durations.PlanckTime);
+var timeOfDay = DateTime.UtcNow.TimeOfDay.As(Physics.Durations.PlanckTime);
 var s         = timeOfDay.ToString("E5");
 var durr      = 1.As(Durations.SeptillionYears);
 
-var sdurr = durr.To(Durations.PlanckTime)
+var sdurr = durr.To(Physics.Durations.PlanckTime)
                 .ToString("e3");
 
-var tP  = Durations.PlanckTime;
+var tP  = Physics.Durations.PlanckTime;
 var sec = Durations.Second;
 
 // create a duration of 1 second and express in planck-time units.

@@ -12,6 +12,7 @@
 | [Jcd.Units.UnitsOfMeasure.Data](Jcd.Units.UnitsOfMeasure.Data.md 'Jcd.Units.UnitsOfMeasure.Data') | Provides units of measure for various Data unit types. |
 | [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial') | Provides units of measure for various Imperial unit types. |
 | [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI') | Provides units of measure for various SI unit types. |
+| [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics') | Provides units of measure for various Theoretical Physics unit types. |
 | [Jcd.Units.UnitsOfMeasure.USCustomary](Jcd.Units.UnitsOfMeasure.USCustomary.md 'Jcd.Units.UnitsOfMeasure.USCustomary') | Provides units of measure for various US Customary unit types. |
 | [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey.md 'Jcd.Units.UnitsOfMeasure.USSurvey') | Provides units of measure for various US Survey unit types. |
 | [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes') | Provides classes to aid in creating various types of units of measure<br/>for use with [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') |

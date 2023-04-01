@@ -46,10 +46,10 @@
    </PropertyGroup>
 
    <ItemGroup>
-      <None Include="..\README.md" Pack="true" PackagePath="\"/>
-      <None Include="..\LICENSE" Pack="true" PackagePath="\"/>
-      <None Include="icon\Jason.C.Daniels.jpg" Pack="true" PackagePath="\"/>
-      <None Include="..\nuget.config" Pack="false" PackagePath="\"/>
+      <None Include="..\README.md" Pack="true" PackagePath="\" />
+      <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+      <None Include="icon\Jason.C.Daniels.jpg" Pack="true" PackagePath="\" />
+      <None Include="..\nuget.config" Pack="false" PackagePath="\" />
    </ItemGroup>
 
    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

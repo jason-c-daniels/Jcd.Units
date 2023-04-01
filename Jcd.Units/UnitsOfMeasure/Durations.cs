@@ -173,11 +173,6 @@ public class Durations : UnitOfMeasureEnumeration<Durations, Duration>
    public static readonly Duration DecillionYears = new ("decillion years", "decillion yr", NonillionYears, 1000.0);
 
    /// <summary>
-   /// planck-time, defined as: microsecond × 5.391247E-38
-   /// </summary>
-   public static readonly Duration PlanckTime = new ("planck-time", "tₚ", Microsecond, 5.391247E-38);
-
-   /// <summary>
    /// tick, defined as: nanosecond × 100.0
    /// </summary>
    public static readonly Duration Tick = new ("tick", "tick", Nanosecond, 100.0);

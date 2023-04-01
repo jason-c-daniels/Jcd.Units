@@ -1,9 +1,9 @@
 #### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure.md 'Jcd.Units.UnitsOfMeasure').[Durations](Durations.md 'Jcd.Units.UnitsOfMeasure.Durations')
+### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Durations](Durations.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Durations')
 
 ## Durations.PlanckTime Field
 
-planck-time, defined as: microsecond × 5.391247E-38
+planck-time, defined as:  microsecond × 5.391247E-38
 
 ```csharp
 public static readonly Duration PlanckTime;

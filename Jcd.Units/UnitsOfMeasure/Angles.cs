@@ -18,9 +18,14 @@ namespace Jcd.Units.UnitsOfMeasure;
 public class Angles : UnitOfMeasureEnumeration<Angles, Angle>
 {
    /// <summary>
-   /// degree, defined as: SI radian × (180.0/Math.PI)
+   /// radian, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Angle Degree = new ("degree", "°", SI.Angles.Radian, 180.0 / Math.PI);
+   public static readonly Angle Radian = new ("radian", "rad");
+
+   /// <summary>
+   /// degree, defined as: radian × (180.0/Math.PI)
+   /// </summary>
+   public static readonly Angle Degree = new ("degree", "°", Radian, 180.0 / Math.PI);
 
    /// <summary>
    /// arc minute, defined as: degree × 1.0/60.0
@@ -33,7 +38,7 @@ public class Angles : UnitOfMeasureEnumeration<Angles, Angle>
    public static readonly Angle ArcSecond = new ("arc second", "″", ArcMinute, 1.0 / 60.0);
 
    /// <summary>
-   /// gradian, defined as: SI radian × (Math.PI/200.0)
+   /// gradian, defined as: radian × (Math.PI/200.0)
    /// </summary>
-   public static readonly Angle Gradian = new ("gradian", "ᵍ", SI.Angles.Radian, Math.PI / 200.0);
+   public static readonly Angle Gradian = new ("gradian", "ᵍ", Radian, Math.PI / 200.0);
 }

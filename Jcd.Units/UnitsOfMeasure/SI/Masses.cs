@@ -146,4 +146,129 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
    /// metric ton, a synonym for megagram
    /// </summary>
    public static readonly Mass MetricTon = new ("metric ton", "mt", Megagram);
+
+   /// <summary>
+   /// tonne, a synonym for megagram
+   /// </summary>
+   public static readonly Mass Tonne = new ("tonne", "t", Megagram);
+
+   /// <summary>
+   /// decitonne, defined as: tonne × 1.0/10.0
+   /// </summary>
+   public static readonly Mass Decitonne = new ("decitonne", "dt", Tonne, 1.0 / 10.0);
+
+   /// <summary>
+   /// centitonne, defined as: decitonne × 1.0/10.0
+   /// </summary>
+   public static readonly Mass Centitonne = new ("centitonne", "ct", Decitonne, 1.0 / 10.0);
+
+   /// <summary>
+   /// millitonne, defined as: centitonne × 1.0/10.0
+   /// </summary>
+   public static readonly Mass Millitonne = new ("millitonne", "mt", Centitonne, 1.0 / 10.0);
+
+   /// <summary>
+   /// microtonne, defined as: millitonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Microtonne = new ("microtonne", "μt", Millitonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// nanotonne, defined as: microtonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Nanotonne = new ("nanotonne", "nt", Microtonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// picotonne, defined as: nanotonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Picotonne = new ("picotonne", "pt", Nanotonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// femtotonne, defined as: picotonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Femtotonne = new ("femtotonne", "ft", Picotonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// attotonne, defined as: femtotonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Attotonne = new ("attotonne", "at", Femtotonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// zeptotonne, defined as: attotonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Zeptotonne = new ("zeptotonne", "zt", Attotonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// yoctotonne, defined as: zeptotonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Yoctotonne = new ("yoctotonne", "yt", Zeptotonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// rontotonne, defined as: yoctotonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Rontotonne = new ("rontotonne", "rt", Yoctotonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// quectotonne, defined as: rontotonne × 1.0/1000.0
+   /// </summary>
+   public static readonly Mass Quectotonne = new ("quectotonne", "qt", Rontotonne, 1.0 / 1000.0);
+
+   /// <summary>
+   /// dekatonne, defined as: tonne × 10.0
+   /// </summary>
+   public static readonly Mass Dekatonne = new ("dekatonne", "dat", Tonne, 10.0);
+
+   /// <summary>
+   /// hectotonne, defined as: dekatonne × 10.0
+   /// </summary>
+   public static readonly Mass Hectotonne = new ("hectotonne", "ht", Dekatonne, 10.0);
+
+   /// <summary>
+   /// kilotonne, defined as: hectotonne × 10.0
+   /// </summary>
+   public static readonly Mass Kilotonne = new ("kilotonne", "kt", Hectotonne, 10.0);
+
+   /// <summary>
+   /// megatonne, defined as: kilotonne × 1000.0
+   /// </summary>
+   public static readonly Mass Megatonne = new ("megatonne", "Mt", Kilotonne, 1000.0);
+
+   /// <summary>
+   /// gigatonne, defined as: megatonne × 1000.0
+   /// </summary>
+   public static readonly Mass Gigatonne = new ("gigatonne", "Gt", Megatonne, 1000.0);
+
+   /// <summary>
+   /// teratonne, defined as: gigatonne × 1000.0
+   /// </summary>
+   public static readonly Mass Teratonne = new ("teratonne", "Tt", Gigatonne, 1000.0);
+
+   /// <summary>
+   /// petatonne, defined as: teratonne × 1000.0
+   /// </summary>
+   public static readonly Mass Petatonne = new ("petatonne", "Pt", Teratonne, 1000.0);
+
+   /// <summary>
+   /// exatonne, defined as: petatonne × 1000.0
+   /// </summary>
+   public static readonly Mass Exatonne = new ("exatonne", "Et", Petatonne, 1000.0);
+
+   /// <summary>
+   /// zettatonne, defined as: exatonne × 1000.0
+   /// </summary>
+   public static readonly Mass Zettatonne = new ("zettatonne", "Zt", Exatonne, 1000.0);
+
+   /// <summary>
+   /// yottatonne, defined as: zettatonne × 1000.0
+   /// </summary>
+   public static readonly Mass Yottatonne = new ("yottatonne", "Yt", Zettatonne, 1000.0);
+
+   /// <summary>
+   /// ronnatonne, defined as: yottatonne × 1000.0
+   /// </summary>
+   public static readonly Mass Ronnatonne = new ("ronnatonne", "Rt", Yottatonne, 1000.0);
+
+   /// <summary>
+   /// quettatonne, defined as: ronnatonne × 1000.0
+   /// </summary>
+   public static readonly Mass Quettatonne = new ("quettatonne", "Qt", Ronnatonne, 1000.0);
 }
