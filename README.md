@@ -212,7 +212,7 @@ var area2 = (l1 * l2.To(cm)).ReplaceUnit(Areas.SquareCentimeter);
 ## Badges
 
 [![GitHub](https://img.shields.io/github/license/jason-c-daniels/Jcd.Units)](https://github.com/jason-c-daniels/Jcd.Units/blob/main/LICENSE)
-[![Build status](https://ci.appveyor.com/api/projects/status/sbmfvmr1jmcf1pic?svg=true)](https://ci.appveyor.com/project/jason-c-daniels/TODO_YOUR_PROJECT_SLUG_HERE)
+[![Build status](https://ci.appveyor.com/api/projects/status/sbmfvmr1jmcf1pic?svg=true)](https://ci.appveyor.com/project/jason-c-daniels/jcd-units)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/jason-c-daniels/Jcd.Units)](https://www.codefactor.io/repository/github/jason-c-daniels/Jcd.Units)
 
 [![MyGet](https://img.shields.io/myget/jason-c-daniels/v/Jcd.Units?logo=nuget)](https://www.myget.org/feed/jason-c-daniels/package/nuget/Jcd.Units)
