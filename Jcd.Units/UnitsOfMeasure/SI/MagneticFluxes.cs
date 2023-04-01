@@ -15,130 +15,130 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Magnetic Flux.
 /// </summary>
-public class MagneticFluxes : Enumeration<MagneticFluxes, MagneticFlux>
+public class MagneticFluxes : UnitOfMeasureEnumeration<MagneticFluxes, MagneticFlux>
 {
    /// <summary>
-   /// A(n) weber.
+   /// weber, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly MagneticFlux Weber = new ("weber", "Wb");
+   public static readonly MagneticFlux Weber = new ("weber", "Wb", system: "SI");
 
    /// <summary>
-   /// A(n) deciweber. Defined in terms of a(n) weber.
+   /// deciweber, defined as: weber × 1.0/10.0
    /// </summary>
-   public static readonly MagneticFlux Deciweber = new ("deciweber", "dWb", Weber, 1.0 / 10.0, 0);
+   public static readonly MagneticFlux Deciweber = new ("deciweber", "dWb", Weber, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centiweber. Defined in terms of a(n) deciweber.
+   /// centiweber, defined as: deciweber × 1.0/10.0
    /// </summary>
-   public static readonly MagneticFlux Centiweber = new ("centiweber", "cWb", Deciweber, 1.0 / 10.0, 0);
+   public static readonly MagneticFlux Centiweber = new ("centiweber", "cWb", Deciweber, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) milliweber. Defined in terms of a(n) centiweber.
+   /// milliweber, defined as: centiweber × 1.0/10.0
    /// </summary>
-   public static readonly MagneticFlux Milliweber = new ("milliweber", "mWb", Centiweber, 1.0 / 10.0, 0);
+   public static readonly MagneticFlux Milliweber = new ("milliweber", "mWb", Centiweber, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) microweber. Defined in terms of a(n) milliweber.
+   /// microweber, defined as: milliweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Microweber = new ("microweber", "μWb", Milliweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Microweber = new ("microweber", "μWb", Milliweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) nanoweber. Defined in terms of a(n) microweber.
+   /// nanoweber, defined as: microweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Nanoweber = new ("nanoweber", "nWb", Microweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Nanoweber = new ("nanoweber", "nWb", Microweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) picoweber. Defined in terms of a(n) nanoweber.
+   /// picoweber, defined as: nanoweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Picoweber = new ("picoweber", "pWb", Nanoweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Picoweber = new ("picoweber", "pWb", Nanoweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) femtoweber. Defined in terms of a(n) picoweber.
+   /// femtoweber, defined as: picoweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Femtoweber = new ("femtoweber", "fWb", Picoweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Femtoweber = new ("femtoweber", "fWb", Picoweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) attoweber. Defined in terms of a(n) femtoweber.
+   /// attoweber, defined as: femtoweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Attoweber = new ("attoweber", "aWb", Femtoweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Attoweber = new ("attoweber", "aWb", Femtoweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zeptoweber. Defined in terms of a(n) attoweber.
+   /// zeptoweber, defined as: attoweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Zeptoweber = new ("zeptoweber", "zWb", Attoweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Zeptoweber = new ("zeptoweber", "zWb", Attoweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yoctoweber. Defined in terms of a(n) zeptoweber.
+   /// yoctoweber, defined as: zeptoweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Yoctoweber = new ("yoctoweber", "yWb", Zeptoweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Yoctoweber = new ("yoctoweber", "yWb", Zeptoweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) rontoweber. Defined in terms of a(n) yoctoweber.
+   /// rontoweber, defined as: yoctoweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Rontoweber = new ("rontoweber", "rWb", Yoctoweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Rontoweber = new ("rontoweber", "rWb", Yoctoweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quectoweber. Defined in terms of a(n) rontoweber.
+   /// quectoweber, defined as: rontoweber × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFlux Quectoweber = new ("quectoweber", "qWb", Rontoweber, 1.0 / 1000.0, 0);
+   public static readonly MagneticFlux Quectoweber = new ("quectoweber", "qWb", Rontoweber, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) dekaweber. Defined in terms of a(n) weber.
+   /// dekaweber, defined as: weber × 10.0
    /// </summary>
-   public static readonly MagneticFlux Dekaweber = new ("dekaweber", "daWb", Weber, 10, 0);
+   public static readonly MagneticFlux Dekaweber = new ("dekaweber", "daWb", Weber, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectoweber. Defined in terms of a(n) dekaweber.
+   /// hectoweber, defined as: dekaweber × 10.0
    /// </summary>
-   public static readonly MagneticFlux Hectoweber = new ("hectoweber", "hWb", Dekaweber, 10, 0);
+   public static readonly MagneticFlux Hectoweber = new ("hectoweber", "hWb", Dekaweber, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kiloweber. Defined in terms of a(n) hectoweber.
+   /// kiloweber, defined as: hectoweber × 10.0
    /// </summary>
-   public static readonly MagneticFlux Kiloweber = new ("kiloweber", "kWb", Hectoweber, 10, 0);
+   public static readonly MagneticFlux Kiloweber = new ("kiloweber", "kWb", Hectoweber, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megaweber. Defined in terms of a(n) kiloweber.
+   /// megaweber, defined as: kiloweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Megaweber = new ("megaweber", "MWb", Kiloweber, 1000, 0);
+   public static readonly MagneticFlux Megaweber = new ("megaweber", "MWb", Kiloweber, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigaweber. Defined in terms of a(n) megaweber.
+   /// gigaweber, defined as: megaweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Gigaweber = new ("gigaweber", "GWb", Megaweber, 1000, 0);
+   public static readonly MagneticFlux Gigaweber = new ("gigaweber", "GWb", Megaweber, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) teraweber. Defined in terms of a(n) gigaweber.
+   /// teraweber, defined as: gigaweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Teraweber = new ("teraweber", "TWb", Gigaweber, 1000, 0);
+   public static readonly MagneticFlux Teraweber = new ("teraweber", "TWb", Gigaweber, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petaweber. Defined in terms of a(n) teraweber.
+   /// petaweber, defined as: teraweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Petaweber = new ("petaweber", "PWb", Teraweber, 1000, 0);
+   public static readonly MagneticFlux Petaweber = new ("petaweber", "PWb", Teraweber, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exaweber. Defined in terms of a(n) petaweber.
+   /// exaweber, defined as: petaweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Exaweber = new ("exaweber", "EWb", Petaweber, 1000, 0);
+   public static readonly MagneticFlux Exaweber = new ("exaweber", "EWb", Petaweber, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettaweber. Defined in terms of a(n) exaweber.
+   /// zettaweber, defined as: exaweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Zettaweber = new ("zettaweber", "ZWb", Exaweber, 1000, 0);
+   public static readonly MagneticFlux Zettaweber = new ("zettaweber", "ZWb", Exaweber, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottaweber. Defined in terms of a(n) zettaweber.
+   /// yottaweber, defined as: zettaweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Yottaweber = new ("yottaweber", "YWb", Zettaweber, 1000, 0);
+   public static readonly MagneticFlux Yottaweber = new ("yottaweber", "YWb", Zettaweber, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnaweber. Defined in terms of a(n) yottaweber.
+   /// ronnaweber, defined as: yottaweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Ronnaweber = new ("ronnaweber", "RWb", Yottaweber, 1000, 0);
+   public static readonly MagneticFlux Ronnaweber = new ("ronnaweber", "RWb", Yottaweber, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettaweber. Defined in terms of a(n) ronnaweber.
+   /// quettaweber, defined as: ronnaweber × 1000.0
    /// </summary>
-   public static readonly MagneticFlux Quettaweber = new ("quettaweber", "QWb", Ronnaweber, 1000, 0);
+   public static readonly MagneticFlux Quettaweber = new ("quettaweber", "QWb", Ronnaweber, 1000.0, system: "SI");
 }

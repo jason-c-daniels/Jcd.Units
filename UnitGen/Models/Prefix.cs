@@ -19,7 +19,7 @@ public record Prefix
        , int SortIndex
          )
 {
-   public bool IsBasePrefix => string.IsNullOrWhiteSpace(Name);
+   public bool IsBasePrefix => SortIndex              == 0; //string.IsNullOrWhiteSpace(Name);
    public bool IsPositiveExponent => RelativeExponent >= 0;
    public bool IsNegativeExponent => RelativeExponent < 0;
 

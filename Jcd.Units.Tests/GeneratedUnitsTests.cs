@@ -3,7 +3,7 @@
 using System.Collections;
 using System.Reflection;
 
-using Jcd.Units.Tests._Extensions;
+using Jcd.Reflection;
 
 #endregion
 
@@ -12,27 +12,19 @@ namespace Jcd.Units.Tests;
 public class GeneratedUnitsTests : TestBase
 {
    /// <summary>
-   /// Use reflection to call GetAll on all <see cref="Enumeration{TEnumeration,T}" /> derived types.
+   /// Use reflection to call GetAll on all <see cref="UnitOfMeasureEnumeration{TEnumeration,T}" /> derived types.
    /// </summary>
    public static IEnumerable<object[]> EnumerationsTypesAndUnitOfMeasureInstances
    {
       get
       {
-         var enumerationTypes = Assembly.GetAssembly(typeof(Enumeration<,>))
-                                        .GetImplementationTypes(typeof(Enumeration<,>));
+         var enumerationTypes =
+                  Assembly.GetAssembly(typeof(UnitOfMeasureEnumeration<,>))
+                          .FindImplementationsOf(typeof(UnitOfMeasureEnumeration<,>));
 
          return
                   from enumeration in enumerationTypes
-                  select new[]
-                         {
-                                  enumeration
-                                , enumeration.CallMethod(
-                                                         "GetAll"
-                                                       , BindingFlags.Public
-                                                       | BindingFlags.Static
-                                                       | BindingFlags.FlattenHierarchy
-                                                        )
-                         };
+                  select new[] { enumeration, enumeration.Invoke("GetAll") };
       }
    }
 

@@ -15,241 +15,289 @@ namespace Jcd.Units.UnitsOfMeasure.Imperial;
 /// <summary>
 /// British Imperial Units for measuring Amount.
 /// </summary>
-public class Amounts : Enumeration<Amounts, Amount>
+public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
 {
    /// <summary>
-   /// A(n) count.
+   /// count, a synonym for  count
    /// </summary>
-   public static readonly Amount Count = new ("count", "ct.");
+   public static readonly Amount Count = new ("count", "ct.", UnitsOfMeasure.Amounts.Count, system: "Imperial");
 
    /// <summary>
-   /// A(n) ten count. Defined in terms of a(n)  count.
+   /// ten count, defined as:  count × 10.0
    /// </summary>
-   public static readonly Amount TenCount = new ("ten count", "ten ct.", Count, 10, 0);
+   public static readonly Amount TenCount = new ("ten count", "ten ct.", Count, 10.0, system: "Imperial");
 
    /// <summary>
-   /// A(n) hundred count. Defined in terms of a(n) ten count.
+   /// hundred count, defined as: ten count × 10.0
    /// </summary>
-   public static readonly Amount HundredCount = new ("hundred count", "hundred ct.", TenCount, 10, 0);
+   public static readonly Amount HundredCount = new (
+                                                     "hundred count"
+                                                   , "hundred ct."
+                                                   , TenCount
+                                                   , 10.0
+                                                   , system: "Imperial"
+                                                    );
 
    /// <summary>
-   /// A(n) thousand count. Defined in terms of a(n) hundred count.
+   /// thousand count, defined as: hundred count × 10.0
    /// </summary>
-   public static readonly Amount ThousandCount = new ("thousand count", "thousand ct.", HundredCount, 10, 0);
+   public static readonly Amount ThousandCount = new (
+                                                      "thousand count"
+                                                    , "thousand ct."
+                                                    , HundredCount
+                                                    , 10.0
+                                                    , system: "Imperial"
+                                                     );
 
    /// <summary>
-   /// A(n) million count. Defined in terms of a(n) thousand count.
+   /// million count, defined as: thousand count × 1000.0
    /// </summary>
-   public static readonly Amount MillionCount = new ("million count", "million ct.", ThousandCount, 1000, 0);
+   public static readonly Amount MillionCount = new (
+                                                     "million count"
+                                                   , "million ct."
+                                                   , ThousandCount
+                                                   , 1000.0
+                                                   , system: "Imperial"
+                                                    );
 
    /// <summary>
-   /// A(n) billion count. Defined in terms of a(n) million count.
+   /// billion count, defined as: million count × 1_000_000.0
    /// </summary>
-   public static readonly Amount BillionCount = new ("billion count", "billion ct.", MillionCount, 1_000_000, 0);
+   public static readonly Amount BillionCount = new (
+                                                     "billion count"
+                                                   , "billion ct."
+                                                   , MillionCount
+                                                   , 1_000_000.0
+                                                   , system: "Imperial"
+                                                    );
 
    /// <summary>
-   /// A(n) trillion count. Defined in terms of a(n) billion count.
+   /// trillion count, defined as: billion count × 1_000_000.0
    /// </summary>
-   public static readonly Amount TrillionCount = new ("trillion count", "trillion ct.", BillionCount, 1_000_000, 0);
+   public static readonly Amount TrillionCount = new (
+                                                      "trillion count"
+                                                    , "trillion ct."
+                                                    , BillionCount
+                                                    , 1_000_000.0
+                                                    , system: "Imperial"
+                                                     );
 
    /// <summary>
-   /// A(n) quadrillion count. Defined in terms of a(n) trillion count.
+   /// quadrillion count, defined as: trillion count × 1_000_000.0
    /// </summary>
    public static readonly Amount QuadrillionCount = new (
                                                          "quadrillion count"
                                                        , "quadrillion ct."
                                                        , TrillionCount
-                                                       , 1_000_000
-                                                       , 0
+                                                       , 1_000_000.0
+                                                       , system: "Imperial"
                                                         );
 
    /// <summary>
-   /// A(n) quintillion count. Defined in terms of a(n) quadrillion count.
+   /// quintillion count, defined as: quadrillion count × 1_000_000.0
    /// </summary>
    public static readonly Amount QuintillionCount = new (
                                                          "quintillion count"
                                                        , "quintillion ct."
                                                        , QuadrillionCount
-                                                       , 1_000_000
-                                                       , 0
+                                                       , 1_000_000.0
+                                                       , system: "Imperial"
                                                         );
 
    /// <summary>
-   /// A(n) sextillion count. Defined in terms of a(n) quintillion count.
+   /// sextillion count, defined as: quintillion count × 1_000_000.0
    /// </summary>
    public static readonly Amount SextillionCount = new (
                                                         "sextillion count"
                                                       , "sextillion ct."
                                                       , QuintillionCount
-                                                      , 1_000_000
-                                                      , 0
+                                                      , 1_000_000.0
+                                                      , system: "Imperial"
                                                        );
 
    /// <summary>
-   /// A(n) septillion count. Defined in terms of a(n) sextillion count.
+   /// septillion count, defined as: sextillion count × 1_000_000.0
    /// </summary>
    public static readonly Amount SeptillionCount = new (
                                                         "septillion count"
                                                       , "septillion ct."
                                                       , SextillionCount
-                                                      , 1_000_000
-                                                      , 0
+                                                      , 1_000_000.0
+                                                      , system: "Imperial"
                                                        );
 
    /// <summary>
-   /// A(n) octillion count. Defined in terms of a(n) septillion count.
+   /// octillion count, defined as: septillion count × 1_000_000.0
    /// </summary>
    public static readonly Amount OctillionCount = new (
                                                        "octillion count"
                                                      , "octillion ct."
                                                      , SeptillionCount
-                                                     , 1_000_000
-                                                     , 0
+                                                     , 1_000_000.0
+                                                     , system: "Imperial"
                                                       );
 
    /// <summary>
-   /// A(n) nonillion count. Defined in terms of a(n) octillion count.
+   /// nonillion count, defined as: octillion count × 1_000_000.0
    /// </summary>
    public static readonly Amount NonillionCount = new (
                                                        "nonillion count"
                                                      , "nonillion ct."
                                                      , OctillionCount
-                                                     , 1_000_000
-                                                     , 0
+                                                     , 1_000_000.0
+                                                     , system: "Imperial"
                                                       );
 
    /// <summary>
-   /// A(n) decillion count. Defined in terms of a(n) nonillion count.
+   /// decillion count, defined as: nonillion count × 1_000_000.0
    /// </summary>
    public static readonly Amount DecillionCount = new (
                                                        "decillion count"
                                                      , "decillion ct."
                                                      , NonillionCount
-                                                     , 1_000_000
-                                                     , 0
+                                                     , 1_000_000.0
+                                                     , system: "Imperial"
                                                       );
 
    /// <summary>
-   /// A(n) quantity. Defined in terms of a(n)  count.
+   /// quantity, a synonym for  count
    /// </summary>
-   public static readonly Amount Quantity = new ("quantity", "qty.", UnitsOfMeasure.Amounts.Count, 1, 0);
+   public static readonly Amount Quantity = new ("quantity", "qty.", UnitsOfMeasure.Amounts.Count, system: "Imperial");
 
    /// <summary>
-   /// A(n) ten quantity. Defined in terms of a(n)  quantity.
+   /// ten quantity, defined as:  quantity × 10.0
    /// </summary>
-   public static readonly Amount TenQuantity = new ("ten quantity", "ten qty.", Quantity, 10, 0);
+   public static readonly Amount TenQuantity = new ("ten quantity", "ten qty.", Quantity, 10.0, system: "Imperial");
 
    /// <summary>
-   /// A(n) hundred quantity. Defined in terms of a(n) ten quantity.
+   /// hundred quantity, defined as: ten quantity × 10.0
    /// </summary>
-   public static readonly Amount HundredQuantity = new ("hundred quantity", "hundred qty.", TenQuantity, 10, 0);
+   public static readonly Amount HundredQuantity = new (
+                                                        "hundred quantity"
+                                                      , "hundred qty."
+                                                      , TenQuantity
+                                                      , 10.0
+                                                      , system: "Imperial"
+                                                       );
 
    /// <summary>
-   /// A(n) thousand quantity. Defined in terms of a(n) hundred quantity.
+   /// thousand quantity, defined as: hundred quantity × 10.0
    /// </summary>
-   public static readonly Amount ThousandQuantity = new ("thousand quantity", "thousand qty.", HundredQuantity, 10, 0);
+   public static readonly Amount ThousandQuantity = new (
+                                                         "thousand quantity"
+                                                       , "thousand qty."
+                                                       , HundredQuantity
+                                                       , 10.0
+                                                       , system: "Imperial"
+                                                        );
 
    /// <summary>
-   /// A(n) million quantity. Defined in terms of a(n) thousand quantity.
+   /// million quantity, defined as: thousand quantity × 1000.0
    /// </summary>
-   public static readonly Amount MillionQuantity = new ("million quantity", "million qty.", ThousandQuantity, 1000, 0);
+   public static readonly Amount MillionQuantity = new (
+                                                        "million quantity"
+                                                      , "million qty."
+                                                      , ThousandQuantity
+                                                      , 1000.0
+                                                      , system: "Imperial"
+                                                       );
 
    /// <summary>
-   /// A(n) billion quantity. Defined in terms of a(n) million quantity.
+   /// billion quantity, defined as: million quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount BillionQuantity = new (
                                                         "billion quantity"
                                                       , "billion qty."
                                                       , MillionQuantity
-                                                      , 1_000_000
-                                                      , 0
+                                                      , 1_000_000.0
+                                                      , system: "Imperial"
                                                        );
 
    /// <summary>
-   /// A(n) trillion quantity. Defined in terms of a(n) billion quantity.
+   /// trillion quantity, defined as: billion quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount TrillionQuantity = new (
                                                          "trillion quantity"
                                                        , "trillion qty."
                                                        , BillionQuantity
-                                                       , 1_000_000
-                                                       , 0
+                                                       , 1_000_000.0
+                                                       , system: "Imperial"
                                                         );
 
    /// <summary>
-   /// A(n) quadrillion quantity. Defined in terms of a(n) trillion quantity.
+   /// quadrillion quantity, defined as: trillion quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount QuadrillionQuantity = new (
                                                             "quadrillion quantity"
                                                           , "quadrillion qty."
                                                           , TrillionQuantity
-                                                          , 1_000_000
-                                                          , 0
+                                                          , 1_000_000.0
+                                                          , system: "Imperial"
                                                            );
 
    /// <summary>
-   /// A(n) quintillion quantity. Defined in terms of a(n) quadrillion quantity.
+   /// quintillion quantity, defined as: quadrillion quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount QuintillionQuantity = new (
                                                             "quintillion quantity"
                                                           , "quintillion qty."
                                                           , QuadrillionQuantity
-                                                          , 1_000_000
-                                                          , 0
+                                                          , 1_000_000.0
+                                                          , system: "Imperial"
                                                            );
 
    /// <summary>
-   /// A(n) sextillion quantity. Defined in terms of a(n) quintillion quantity.
+   /// sextillion quantity, defined as: quintillion quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount SextillionQuantity = new (
                                                            "sextillion quantity"
                                                          , "sextillion qty."
                                                          , QuintillionQuantity
-                                                         , 1_000_000
-                                                         , 0
+                                                         , 1_000_000.0
+                                                         , system: "Imperial"
                                                           );
 
    /// <summary>
-   /// A(n) septillion quantity. Defined in terms of a(n) sextillion quantity.
+   /// septillion quantity, defined as: sextillion quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount SeptillionQuantity = new (
                                                            "septillion quantity"
                                                          , "septillion qty."
                                                          , SextillionQuantity
-                                                         , 1_000_000
-                                                         , 0
+                                                         , 1_000_000.0
+                                                         , system: "Imperial"
                                                           );
 
    /// <summary>
-   /// A(n) octillion quantity. Defined in terms of a(n) septillion quantity.
+   /// octillion quantity, defined as: septillion quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount OctillionQuantity = new (
                                                           "octillion quantity"
                                                         , "octillion qty."
                                                         , SeptillionQuantity
-                                                        , 1_000_000
-                                                        , 0
+                                                        , 1_000_000.0
+                                                        , system: "Imperial"
                                                          );
 
    /// <summary>
-   /// A(n) nonillion quantity. Defined in terms of a(n) octillion quantity.
+   /// nonillion quantity, defined as: octillion quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount NonillionQuantity = new (
                                                           "nonillion quantity"
                                                         , "nonillion qty."
                                                         , OctillionQuantity
-                                                        , 1_000_000
-                                                        , 0
+                                                        , 1_000_000.0
+                                                        , system: "Imperial"
                                                          );
 
    /// <summary>
-   /// A(n) decillion quantity. Defined in terms of a(n) nonillion quantity.
+   /// decillion quantity, defined as: nonillion quantity × 1_000_000.0
    /// </summary>
    public static readonly Amount DecillionQuantity = new (
                                                           "decillion quantity"
                                                         , "decillion qty."
                                                         , NonillionQuantity
-                                                        , 1_000_000
-                                                        , 0
+                                                        , 1_000_000.0
+                                                        , system: "Imperial"
                                                          );
 }

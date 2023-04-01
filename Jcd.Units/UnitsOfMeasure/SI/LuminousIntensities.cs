@@ -15,130 +15,215 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Luminous Intensity.
 /// </summary>
-public class LuminousIntensities : Enumeration<LuminousIntensities, LuminousIntensity>
+public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities, LuminousIntensity>
 {
    /// <summary>
-   /// A(n) candela.
+   /// candela, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly LuminousIntensity Candela = new ("candela", "cd");
+   public static readonly LuminousIntensity Candela = new ("candela", "cd", system: "SI");
 
    /// <summary>
-   /// A(n) decicandela. Defined in terms of a(n) candela.
+   /// decicandela, defined as: candela × 1.0/10.0
    /// </summary>
-   public static readonly LuminousIntensity Decicandela = new ("decicandela", "dcd", Candela, 1.0 / 10.0, 0);
+   public static readonly LuminousIntensity Decicandela = new ("decicandela", "dcd", Candela, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centicandela. Defined in terms of a(n) decicandela.
+   /// centicandela, defined as: decicandela × 1.0/10.0
    /// </summary>
-   public static readonly LuminousIntensity Centicandela = new ("centicandela", "ccd", Decicandela, 1.0 / 10.0, 0);
+   public static readonly LuminousIntensity Centicandela = new (
+                                                                "centicandela"
+                                                              , "ccd"
+                                                              , Decicandela
+                                                              , 1.0 / 10.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) millicandela. Defined in terms of a(n) centicandela.
+   /// millicandela, defined as: centicandela × 1.0/10.0
    /// </summary>
-   public static readonly LuminousIntensity Millicandela = new ("millicandela", "mcd", Centicandela, 1.0 / 10.0, 0);
+   public static readonly LuminousIntensity Millicandela = new (
+                                                                "millicandela"
+                                                              , "mcd"
+                                                              , Centicandela
+                                                              , 1.0 / 10.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) microcandela. Defined in terms of a(n) millicandela.
+   /// microcandela, defined as: millicandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Microcandela = new ("microcandela", "μcd", Millicandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Microcandela = new (
+                                                                "microcandela"
+                                                              , "μcd"
+                                                              , Millicandela
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) nanocandela. Defined in terms of a(n) microcandela.
+   /// nanocandela, defined as: microcandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Nanocandela = new ("nanocandela", "ncd", Microcandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Nanocandela = new (
+                                                               "nanocandela"
+                                                             , "ncd"
+                                                             , Microcandela
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) picocandela. Defined in terms of a(n) nanocandela.
+   /// picocandela, defined as: nanocandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Picocandela = new ("picocandela", "pcd", Nanocandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Picocandela = new (
+                                                               "picocandela"
+                                                             , "pcd"
+                                                             , Nanocandela
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) femtocandela. Defined in terms of a(n) picocandela.
+   /// femtocandela, defined as: picocandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Femtocandela = new ("femtocandela", "fcd", Picocandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Femtocandela = new (
+                                                                "femtocandela"
+                                                              , "fcd"
+                                                              , Picocandela
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) attocandela. Defined in terms of a(n) femtocandela.
+   /// attocandela, defined as: femtocandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Attocandela = new ("attocandela", "acd", Femtocandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Attocandela = new (
+                                                               "attocandela"
+                                                             , "acd"
+                                                             , Femtocandela
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) zeptocandela. Defined in terms of a(n) attocandela.
+   /// zeptocandela, defined as: attocandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Zeptocandela = new ("zeptocandela", "zcd", Attocandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Zeptocandela = new (
+                                                                "zeptocandela"
+                                                              , "zcd"
+                                                              , Attocandela
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) yoctocandela. Defined in terms of a(n) zeptocandela.
+   /// yoctocandela, defined as: zeptocandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Yoctocandela = new ("yoctocandela", "ycd", Zeptocandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Yoctocandela = new (
+                                                                "yoctocandela"
+                                                              , "ycd"
+                                                              , Zeptocandela
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) rontocandela. Defined in terms of a(n) yoctocandela.
+   /// rontocandela, defined as: yoctocandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Rontocandela = new ("rontocandela", "rcd", Yoctocandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Rontocandela = new (
+                                                                "rontocandela"
+                                                              , "rcd"
+                                                              , Yoctocandela
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) quectocandela. Defined in terms of a(n) rontocandela.
+   /// quectocandela, defined as: rontocandela × 1.0/1000.0
    /// </summary>
-   public static readonly LuminousIntensity Quectocandela = new ("quectocandela", "qcd", Rontocandela, 1.0 / 1000.0, 0);
+   public static readonly LuminousIntensity Quectocandela = new (
+                                                                 "quectocandela"
+                                                               , "qcd"
+                                                               , Rontocandela
+                                                               , 1.0 / 1000.0
+                                                               , system: "SI"
+                                                                );
 
    /// <summary>
-   /// A(n) dekacandela. Defined in terms of a(n) candela.
+   /// dekacandela, defined as: candela × 10.0
    /// </summary>
-   public static readonly LuminousIntensity Dekacandela = new ("dekacandela", "dacd", Candela, 10, 0);
+   public static readonly LuminousIntensity Dekacandela = new ("dekacandela", "dacd", Candela, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectocandela. Defined in terms of a(n) dekacandela.
+   /// hectocandela, defined as: dekacandela × 10.0
    /// </summary>
-   public static readonly LuminousIntensity Hectocandela = new ("hectocandela", "hcd", Dekacandela, 10, 0);
+   public static readonly LuminousIntensity Hectocandela = new ("hectocandela", "hcd", Dekacandela, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kilocandela. Defined in terms of a(n) hectocandela.
+   /// kilocandela, defined as: hectocandela × 10.0
    /// </summary>
-   public static readonly LuminousIntensity Kilocandela = new ("kilocandela", "kcd", Hectocandela, 10, 0);
+   public static readonly LuminousIntensity Kilocandela = new ("kilocandela", "kcd", Hectocandela, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megacandela. Defined in terms of a(n) kilocandela.
+   /// megacandela, defined as: kilocandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Megacandela = new ("megacandela", "Mcd", Kilocandela, 1000, 0);
+   public static readonly LuminousIntensity Megacandela = new ("megacandela", "Mcd", Kilocandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigacandela. Defined in terms of a(n) megacandela.
+   /// gigacandela, defined as: megacandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Gigacandela = new ("gigacandela", "Gcd", Megacandela, 1000, 0);
+   public static readonly LuminousIntensity Gigacandela = new ("gigacandela", "Gcd", Megacandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) teracandela. Defined in terms of a(n) gigacandela.
+   /// teracandela, defined as: gigacandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Teracandela = new ("teracandela", "Tcd", Gigacandela, 1000, 0);
+   public static readonly LuminousIntensity Teracandela = new ("teracandela", "Tcd", Gigacandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petacandela. Defined in terms of a(n) teracandela.
+   /// petacandela, defined as: teracandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Petacandela = new ("petacandela", "Pcd", Teracandela, 1000, 0);
+   public static readonly LuminousIntensity Petacandela = new ("petacandela", "Pcd", Teracandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exacandela. Defined in terms of a(n) petacandela.
+   /// exacandela, defined as: petacandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Exacandela = new ("exacandela", "Ecd", Petacandela, 1000, 0);
+   public static readonly LuminousIntensity Exacandela = new ("exacandela", "Ecd", Petacandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettacandela. Defined in terms of a(n) exacandela.
+   /// zettacandela, defined as: exacandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Zettacandela = new ("zettacandela", "Zcd", Exacandela, 1000, 0);
+   public static readonly LuminousIntensity
+            Zettacandela = new ("zettacandela", "Zcd", Exacandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottacandela. Defined in terms of a(n) zettacandela.
+   /// yottacandela, defined as: zettacandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Yottacandela = new ("yottacandela", "Ycd", Zettacandela, 1000, 0);
+   public static readonly LuminousIntensity Yottacandela = new (
+                                                                "yottacandela"
+                                                              , "Ycd"
+                                                              , Zettacandela
+                                                              , 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) ronnacandela. Defined in terms of a(n) yottacandela.
+   /// ronnacandela, defined as: yottacandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Ronnacandela = new ("ronnacandela", "Rcd", Yottacandela, 1000, 0);
+   public static readonly LuminousIntensity Ronnacandela = new (
+                                                                "ronnacandela"
+                                                              , "Rcd"
+                                                              , Yottacandela
+                                                              , 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) quettacandela. Defined in terms of a(n) ronnacandela.
+   /// quettacandela, defined as: ronnacandela × 1000.0
    /// </summary>
-   public static readonly LuminousIntensity Quettacandela = new ("quettacandela", "Qcd", Ronnacandela, 1000, 0);
+   public static readonly LuminousIntensity Quettacandela = new (
+                                                                 "quettacandela"
+                                                               , "Qcd"
+                                                               , Ronnacandela
+                                                               , 1000.0
+                                                               , system: "SI"
+                                                                );
 }

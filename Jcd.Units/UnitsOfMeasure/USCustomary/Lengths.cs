@@ -15,65 +15,71 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 /// <summary>
 /// United States Customary Units for measuring Length.
 /// </summary>
-public class Lengths : Enumeration<Lengths, Length>
+public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
 {
    /// <summary>
-   /// A(n) inch. Defined in terms of a(n) SI centimeter.
+   /// inch, defined as: SI centimeter × 2.54
    /// </summary>
-   public static readonly Length Inch = new ("inch", "in", SI.Lengths.Centimeter, 2.54, 0);
+   public static readonly Length Inch = new ("inch", "in", SI.Lengths.Centimeter, 2.54, system: "US Customary");
 
    /// <summary>
-   /// A(n) mil. Defined in terms of a(n) inch.
+   /// mil, defined as: inch × 1.0/1000.0
    /// </summary>
-   public static readonly Length Mil = new ("mil", "mil", Inch, 1.0 / 1000.0, 0);
+   public static readonly Length Mil = new ("mil", "mil", Inch, 1.0 / 1000.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) point. Defined in terms of a(n) inch.
+   /// point, defined as: inch × 1.0/72.0
    /// </summary>
-   public static readonly Length Point = new ("point", "p", Inch, 1.0 / 72.0, 0);
+   public static readonly Length Point = new ("point", "p", Inch, 1.0 / 72.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) twip. Defined in terms of a(n) point.
+   /// twip, defined as: point × 1.0/20.0
    /// </summary>
-   public static readonly Length Twip = new ("twip", "twip", Point, 1.0 / 20.0, 0);
+   public static readonly Length Twip = new ("twip", "twip", Point, 1.0 / 20.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) pica. Defined in terms of a(n) point.
+   /// pica, defined as: point × 12.0
    /// </summary>
-   public static readonly Length Pica = new ("pica", "P", Point, 12, 0);
+   public static readonly Length Pica = new ("pica", "P", Point, 12.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) foot. Defined in terms of a(n) inch.
+   /// foot, defined as: inch × 12.0
    /// </summary>
-   public static readonly Length Foot = new ("foot", "ft", Inch, 12, 0);
+   public static readonly Length Foot = new ("foot", "ft", Inch, 12.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) yard. Defined in terms of a(n) foot.
+   /// yard, defined as: foot × 3.0
    /// </summary>
-   public static readonly Length Yard = new ("yard", "yd", Foot, 3, 0);
+   public static readonly Length Yard = new ("yard", "yd", Foot, 3.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) mile. Defined in terms of a(n) yard.
+   /// mile, defined as: yard × 1760.0
    /// </summary>
-   public static readonly Length Mile = new ("mile", "mi", Yard, 1760, 0);
+   public static readonly Length Mile = new ("mile", "mi", Yard, 1760.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) league. Defined in terms of a(n) mile.
+   /// league, defined as: mile × 3.0
    /// </summary>
-   public static readonly Length League = new ("league", "le", Mile, 3, 0);
+   public static readonly Length League = new ("league", "le", Mile, 3.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) fathom. Defined in terms of a(n) yard.
+   /// fathom, defined as: yard × 2.0
    /// </summary>
-   public static readonly Length Fathom = new ("fathom", "ftm", Yard, 2, 0);
+   public static readonly Length Fathom = new ("fathom", "ftm", Yard, 2.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) cable. Defined in terms of a(n) fathom.
+   /// cable, defined as: fathom × 120.0
    /// </summary>
-   public static readonly Length Cable = new ("cable", "cb", Fathom, 120, 0);
+   public static readonly Length Cable = new ("cable", "cb", Fathom, 120.0, system: "US Customary");
 
    /// <summary>
-   /// A(n) nautical mile. Defined in terms of a(n) SI meter.
+   /// nautical mile, defined as: SI meter × 1852.0
    /// </summary>
-   public static readonly Length NauticalMile = new ("nautical mile", "nmi", SI.Lengths.Meter, 1852, 0);
+   public static readonly Length NauticalMile = new (
+                                                     "nautical mile"
+                                                   , "nmi"
+                                                   , SI.Lengths.Meter
+                                                   , 1852.0
+                                                   , system: "US Customary"
+                                                    );
 }

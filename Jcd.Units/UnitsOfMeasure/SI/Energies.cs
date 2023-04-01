@@ -15,260 +15,260 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Energy.
 /// </summary>
-public class Energies : Enumeration<Energies, Energy>
+public class Energies : UnitOfMeasureEnumeration<Energies, Energy>
 {
    /// <summary>
-   /// A(n) joule.
+   /// joule, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Energy Joule = new ("joule", "J");
+   public static readonly Energy Joule = new ("joule", "J", system: "SI");
 
    /// <summary>
-   /// A(n) decijoule. Defined in terms of a(n) joule.
+   /// decijoule, defined as: joule × 1.0/10.0
    /// </summary>
-   public static readonly Energy Decijoule = new ("decijoule", "dJ", Joule, 1.0 / 10.0, 0);
+   public static readonly Energy Decijoule = new ("decijoule", "dJ", Joule, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centijoule. Defined in terms of a(n) decijoule.
+   /// centijoule, defined as: decijoule × 1.0/10.0
    /// </summary>
-   public static readonly Energy Centijoule = new ("centijoule", "cJ", Decijoule, 1.0 / 10.0, 0);
+   public static readonly Energy Centijoule = new ("centijoule", "cJ", Decijoule, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) millijoule. Defined in terms of a(n) centijoule.
+   /// millijoule, defined as: centijoule × 1.0/10.0
    /// </summary>
-   public static readonly Energy Millijoule = new ("millijoule", "mJ", Centijoule, 1.0 / 10.0, 0);
+   public static readonly Energy Millijoule = new ("millijoule", "mJ", Centijoule, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) microjoule. Defined in terms of a(n) millijoule.
+   /// microjoule, defined as: millijoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Microjoule = new ("microjoule", "μJ", Millijoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Microjoule = new ("microjoule", "μJ", Millijoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) nanojoule. Defined in terms of a(n) microjoule.
+   /// nanojoule, defined as: microjoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Nanojoule = new ("nanojoule", "nJ", Microjoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Nanojoule = new ("nanojoule", "nJ", Microjoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) picojoule. Defined in terms of a(n) nanojoule.
+   /// picojoule, defined as: nanojoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Picojoule = new ("picojoule", "pJ", Nanojoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Picojoule = new ("picojoule", "pJ", Nanojoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) femtojoule. Defined in terms of a(n) picojoule.
+   /// femtojoule, defined as: picojoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Femtojoule = new ("femtojoule", "fJ", Picojoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Femtojoule = new ("femtojoule", "fJ", Picojoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) attojoule. Defined in terms of a(n) femtojoule.
+   /// attojoule, defined as: femtojoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Attojoule = new ("attojoule", "aJ", Femtojoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Attojoule = new ("attojoule", "aJ", Femtojoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zeptojoule. Defined in terms of a(n) attojoule.
+   /// zeptojoule, defined as: attojoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Zeptojoule = new ("zeptojoule", "zJ", Attojoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Zeptojoule = new ("zeptojoule", "zJ", Attojoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yoctojoule. Defined in terms of a(n) zeptojoule.
+   /// yoctojoule, defined as: zeptojoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Yoctojoule = new ("yoctojoule", "yJ", Zeptojoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Yoctojoule = new ("yoctojoule", "yJ", Zeptojoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) rontojoule. Defined in terms of a(n) yoctojoule.
+   /// rontojoule, defined as: yoctojoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Rontojoule = new ("rontojoule", "rJ", Yoctojoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Rontojoule = new ("rontojoule", "rJ", Yoctojoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quectojoule. Defined in terms of a(n) rontojoule.
+   /// quectojoule, defined as: rontojoule × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Quectojoule = new ("quectojoule", "qJ", Rontojoule, 1.0 / 1000.0, 0);
+   public static readonly Energy Quectojoule = new ("quectojoule", "qJ", Rontojoule, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) dekajoule. Defined in terms of a(n) joule.
+   /// dekajoule, defined as: joule × 10.0
    /// </summary>
-   public static readonly Energy Dekajoule = new ("dekajoule", "daJ", Joule, 10, 0);
+   public static readonly Energy Dekajoule = new ("dekajoule", "daJ", Joule, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectojoule. Defined in terms of a(n) dekajoule.
+   /// hectojoule, defined as: dekajoule × 10.0
    /// </summary>
-   public static readonly Energy Hectojoule = new ("hectojoule", "hJ", Dekajoule, 10, 0);
+   public static readonly Energy Hectojoule = new ("hectojoule", "hJ", Dekajoule, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kilojoule. Defined in terms of a(n) hectojoule.
+   /// kilojoule, defined as: hectojoule × 10.0
    /// </summary>
-   public static readonly Energy Kilojoule = new ("kilojoule", "kJ", Hectojoule, 10, 0);
+   public static readonly Energy Kilojoule = new ("kilojoule", "kJ", Hectojoule, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megajoule. Defined in terms of a(n) kilojoule.
+   /// megajoule, defined as: kilojoule × 1000.0
    /// </summary>
-   public static readonly Energy Megajoule = new ("megajoule", "MJ", Kilojoule, 1000, 0);
+   public static readonly Energy Megajoule = new ("megajoule", "MJ", Kilojoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigajoule. Defined in terms of a(n) megajoule.
+   /// gigajoule, defined as: megajoule × 1000.0
    /// </summary>
-   public static readonly Energy Gigajoule = new ("gigajoule", "GJ", Megajoule, 1000, 0);
+   public static readonly Energy Gigajoule = new ("gigajoule", "GJ", Megajoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) terajoule. Defined in terms of a(n) gigajoule.
+   /// terajoule, defined as: gigajoule × 1000.0
    /// </summary>
-   public static readonly Energy Terajoule = new ("terajoule", "TJ", Gigajoule, 1000, 0);
+   public static readonly Energy Terajoule = new ("terajoule", "TJ", Gigajoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petajoule. Defined in terms of a(n) terajoule.
+   /// petajoule, defined as: terajoule × 1000.0
    /// </summary>
-   public static readonly Energy Petajoule = new ("petajoule", "PJ", Terajoule, 1000, 0);
+   public static readonly Energy Petajoule = new ("petajoule", "PJ", Terajoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exajoule. Defined in terms of a(n) petajoule.
+   /// exajoule, defined as: petajoule × 1000.0
    /// </summary>
-   public static readonly Energy Exajoule = new ("exajoule", "EJ", Petajoule, 1000, 0);
+   public static readonly Energy Exajoule = new ("exajoule", "EJ", Petajoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettajoule. Defined in terms of a(n) exajoule.
+   /// zettajoule, defined as: exajoule × 1000.0
    /// </summary>
-   public static readonly Energy Zettajoule = new ("zettajoule", "ZJ", Exajoule, 1000, 0);
+   public static readonly Energy Zettajoule = new ("zettajoule", "ZJ", Exajoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottajoule. Defined in terms of a(n) zettajoule.
+   /// yottajoule, defined as: zettajoule × 1000.0
    /// </summary>
-   public static readonly Energy Yottajoule = new ("yottajoule", "YJ", Zettajoule, 1000, 0);
+   public static readonly Energy Yottajoule = new ("yottajoule", "YJ", Zettajoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnajoule. Defined in terms of a(n) yottajoule.
+   /// ronnajoule, defined as: yottajoule × 1000.0
    /// </summary>
-   public static readonly Energy Ronnajoule = new ("ronnajoule", "RJ", Yottajoule, 1000, 0);
+   public static readonly Energy Ronnajoule = new ("ronnajoule", "RJ", Yottajoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettajoule. Defined in terms of a(n) ronnajoule.
+   /// quettajoule, defined as: ronnajoule × 1000.0
    /// </summary>
-   public static readonly Energy Quettajoule = new ("quettajoule", "QJ", Ronnajoule, 1000, 0);
+   public static readonly Energy Quettajoule = new ("quettajoule", "QJ", Ronnajoule, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) calorie. Defined in terms of a(n) joule.
+   /// calorie, defined as: joule × 4.184
    /// </summary>
-   public static readonly Energy Calorie = new ("calorie", "c", Joule, 4.184, 0);
+   public static readonly Energy Calorie = new ("calorie", "c", Joule, 4.184, system: "SI");
 
    /// <summary>
-   /// A(n) decicalorie. Defined in terms of a(n) calorie.
+   /// decicalorie, defined as: calorie × 1.0/10.0
    /// </summary>
-   public static readonly Energy Decicalorie = new ("decicalorie", "dc", Calorie, 1.0 / 10.0, 0);
+   public static readonly Energy Decicalorie = new ("decicalorie", "dc", Calorie, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centicalorie. Defined in terms of a(n) decicalorie.
+   /// centicalorie, defined as: decicalorie × 1.0/10.0
    /// </summary>
-   public static readonly Energy Centicalorie = new ("centicalorie", "cc", Decicalorie, 1.0 / 10.0, 0);
+   public static readonly Energy Centicalorie = new ("centicalorie", "cc", Decicalorie, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) millicalorie. Defined in terms of a(n) centicalorie.
+   /// millicalorie, defined as: centicalorie × 1.0/10.0
    /// </summary>
-   public static readonly Energy Millicalorie = new ("millicalorie", "mc", Centicalorie, 1.0 / 10.0, 0);
+   public static readonly Energy Millicalorie = new ("millicalorie", "mc", Centicalorie, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) microcalorie. Defined in terms of a(n) millicalorie.
+   /// microcalorie, defined as: millicalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Microcalorie = new ("microcalorie", "μc", Millicalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Microcalorie = new ("microcalorie", "μc", Millicalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) nanocalorie. Defined in terms of a(n) microcalorie.
+   /// nanocalorie, defined as: microcalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Nanocalorie = new ("nanocalorie", "nc", Microcalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Nanocalorie = new ("nanocalorie", "nc", Microcalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) picocalorie. Defined in terms of a(n) nanocalorie.
+   /// picocalorie, defined as: nanocalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Picocalorie = new ("picocalorie", "pc", Nanocalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Picocalorie = new ("picocalorie", "pc", Nanocalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) femtocalorie. Defined in terms of a(n) picocalorie.
+   /// femtocalorie, defined as: picocalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Femtocalorie = new ("femtocalorie", "fc", Picocalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Femtocalorie = new ("femtocalorie", "fc", Picocalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) attocalorie. Defined in terms of a(n) femtocalorie.
+   /// attocalorie, defined as: femtocalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Attocalorie = new ("attocalorie", "ac", Femtocalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Attocalorie = new ("attocalorie", "ac", Femtocalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zeptocalorie. Defined in terms of a(n) attocalorie.
+   /// zeptocalorie, defined as: attocalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Zeptocalorie = new ("zeptocalorie", "zc", Attocalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Zeptocalorie = new ("zeptocalorie", "zc", Attocalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yoctocalorie. Defined in terms of a(n) zeptocalorie.
+   /// yoctocalorie, defined as: zeptocalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Yoctocalorie = new ("yoctocalorie", "yc", Zeptocalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Yoctocalorie = new ("yoctocalorie", "yc", Zeptocalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) rontocalorie. Defined in terms of a(n) yoctocalorie.
+   /// rontocalorie, defined as: yoctocalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Rontocalorie = new ("rontocalorie", "rc", Yoctocalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Rontocalorie = new ("rontocalorie", "rc", Yoctocalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quectocalorie. Defined in terms of a(n) rontocalorie.
+   /// quectocalorie, defined as: rontocalorie × 1.0/1000.0
    /// </summary>
-   public static readonly Energy Quectocalorie = new ("quectocalorie", "qc", Rontocalorie, 1.0 / 1000.0, 0);
+   public static readonly Energy Quectocalorie = new ("quectocalorie", "qc", Rontocalorie, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) dekacalorie. Defined in terms of a(n) calorie.
+   /// dekacalorie, defined as: calorie × 10.0
    /// </summary>
-   public static readonly Energy Dekacalorie = new ("dekacalorie", "dac", Calorie, 10, 0);
+   public static readonly Energy Dekacalorie = new ("dekacalorie", "dac", Calorie, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectocalorie. Defined in terms of a(n) dekacalorie.
+   /// hectocalorie, defined as: dekacalorie × 10.0
    /// </summary>
-   public static readonly Energy Hectocalorie = new ("hectocalorie", "hc", Dekacalorie, 10, 0);
+   public static readonly Energy Hectocalorie = new ("hectocalorie", "hc", Dekacalorie, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kilocalorie. Defined in terms of a(n) hectocalorie.
+   /// kilocalorie, defined as: hectocalorie × 10.0
    /// </summary>
-   public static readonly Energy Kilocalorie = new ("kilocalorie", "kc", Hectocalorie, 10, 0);
+   public static readonly Energy Kilocalorie = new ("kilocalorie", "kc", Hectocalorie, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megacalorie. Defined in terms of a(n) kilocalorie.
+   /// megacalorie, defined as: kilocalorie × 1000.0
    /// </summary>
-   public static readonly Energy Megacalorie = new ("megacalorie", "Mc", Kilocalorie, 1000, 0);
+   public static readonly Energy Megacalorie = new ("megacalorie", "Mc", Kilocalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigacalorie. Defined in terms of a(n) megacalorie.
+   /// gigacalorie, defined as: megacalorie × 1000.0
    /// </summary>
-   public static readonly Energy Gigacalorie = new ("gigacalorie", "Gc", Megacalorie, 1000, 0);
+   public static readonly Energy Gigacalorie = new ("gigacalorie", "Gc", Megacalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) teracalorie. Defined in terms of a(n) gigacalorie.
+   /// teracalorie, defined as: gigacalorie × 1000.0
    /// </summary>
-   public static readonly Energy Teracalorie = new ("teracalorie", "Tc", Gigacalorie, 1000, 0);
+   public static readonly Energy Teracalorie = new ("teracalorie", "Tc", Gigacalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petacalorie. Defined in terms of a(n) teracalorie.
+   /// petacalorie, defined as: teracalorie × 1000.0
    /// </summary>
-   public static readonly Energy Petacalorie = new ("petacalorie", "Pc", Teracalorie, 1000, 0);
+   public static readonly Energy Petacalorie = new ("petacalorie", "Pc", Teracalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exacalorie. Defined in terms of a(n) petacalorie.
+   /// exacalorie, defined as: petacalorie × 1000.0
    /// </summary>
-   public static readonly Energy Exacalorie = new ("exacalorie", "Ec", Petacalorie, 1000, 0);
+   public static readonly Energy Exacalorie = new ("exacalorie", "Ec", Petacalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettacalorie. Defined in terms of a(n) exacalorie.
+   /// zettacalorie, defined as: exacalorie × 1000.0
    /// </summary>
-   public static readonly Energy Zettacalorie = new ("zettacalorie", "Zc", Exacalorie, 1000, 0);
+   public static readonly Energy Zettacalorie = new ("zettacalorie", "Zc", Exacalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottacalorie. Defined in terms of a(n) zettacalorie.
+   /// yottacalorie, defined as: zettacalorie × 1000.0
    /// </summary>
-   public static readonly Energy Yottacalorie = new ("yottacalorie", "Yc", Zettacalorie, 1000, 0);
+   public static readonly Energy Yottacalorie = new ("yottacalorie", "Yc", Zettacalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnacalorie. Defined in terms of a(n) yottacalorie.
+   /// ronnacalorie, defined as: yottacalorie × 1000.0
    /// </summary>
-   public static readonly Energy Ronnacalorie = new ("ronnacalorie", "Rc", Yottacalorie, 1000, 0);
+   public static readonly Energy Ronnacalorie = new ("ronnacalorie", "Rc", Yottacalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettacalorie. Defined in terms of a(n) ronnacalorie.
+   /// quettacalorie, defined as: ronnacalorie × 1000.0
    /// </summary>
-   public static readonly Energy Quettacalorie = new ("quettacalorie", "Qc", Ronnacalorie, 1000, 0);
+   public static readonly Energy Quettacalorie = new ("quettacalorie", "Qc", Ronnacalorie, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) Calorie (Food). Defined in terms of a(n) calorie.
+   /// Calorie (Food), defined as: calorie × 1000.0
    /// </summary>
-   public static readonly Energy CalorieFood = new ("Calorie (Food)", "C", Calorie, 1000, 0);
+   public static readonly Energy CalorieFood = new ("Calorie (Food)", "C", Calorie, 1000.0, system: "SI");
 }

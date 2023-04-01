@@ -15,130 +15,130 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Pressure.
 /// </summary>
-public class Pressures : Enumeration<Pressures, Pressure>
+public class Pressures : UnitOfMeasureEnumeration<Pressures, Pressure>
 {
    /// <summary>
-   /// A(n) pascal.
+   /// pascal, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Pressure Pascal = new ("pascal", "Pa");
+   public static readonly Pressure Pascal = new ("pascal", "Pa", system: "SI");
 
    /// <summary>
-   /// A(n) decipascal. Defined in terms of a(n) pascal.
+   /// decipascal, defined as: pascal × 1.0/10.0
    /// </summary>
-   public static readonly Pressure Decipascal = new ("decipascal", "dPa", Pascal, 1.0 / 10.0, 0);
+   public static readonly Pressure Decipascal = new ("decipascal", "dPa", Pascal, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centipascal. Defined in terms of a(n) decipascal.
+   /// centipascal, defined as: decipascal × 1.0/10.0
    /// </summary>
-   public static readonly Pressure Centipascal = new ("centipascal", "cPa", Decipascal, 1.0 / 10.0, 0);
+   public static readonly Pressure Centipascal = new ("centipascal", "cPa", Decipascal, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) millipascal. Defined in terms of a(n) centipascal.
+   /// millipascal, defined as: centipascal × 1.0/10.0
    /// </summary>
-   public static readonly Pressure Millipascal = new ("millipascal", "mPa", Centipascal, 1.0 / 10.0, 0);
+   public static readonly Pressure Millipascal = new ("millipascal", "mPa", Centipascal, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) micropascal. Defined in terms of a(n) millipascal.
+   /// micropascal, defined as: millipascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Micropascal = new ("micropascal", "μPa", Millipascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Micropascal = new ("micropascal", "μPa", Millipascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) nanopascal. Defined in terms of a(n) micropascal.
+   /// nanopascal, defined as: micropascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Nanopascal = new ("nanopascal", "nPa", Micropascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Nanopascal = new ("nanopascal", "nPa", Micropascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) picopascal. Defined in terms of a(n) nanopascal.
+   /// picopascal, defined as: nanopascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Picopascal = new ("picopascal", "pPa", Nanopascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Picopascal = new ("picopascal", "pPa", Nanopascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) femtopascal. Defined in terms of a(n) picopascal.
+   /// femtopascal, defined as: picopascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Femtopascal = new ("femtopascal", "fPa", Picopascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Femtopascal = new ("femtopascal", "fPa", Picopascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) attopascal. Defined in terms of a(n) femtopascal.
+   /// attopascal, defined as: femtopascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Attopascal = new ("attopascal", "aPa", Femtopascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Attopascal = new ("attopascal", "aPa", Femtopascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zeptopascal. Defined in terms of a(n) attopascal.
+   /// zeptopascal, defined as: attopascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Zeptopascal = new ("zeptopascal", "zPa", Attopascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Zeptopascal = new ("zeptopascal", "zPa", Attopascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yoctopascal. Defined in terms of a(n) zeptopascal.
+   /// yoctopascal, defined as: zeptopascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Yoctopascal = new ("yoctopascal", "yPa", Zeptopascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Yoctopascal = new ("yoctopascal", "yPa", Zeptopascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) rontopascal. Defined in terms of a(n) yoctopascal.
+   /// rontopascal, defined as: yoctopascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Rontopascal = new ("rontopascal", "rPa", Yoctopascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Rontopascal = new ("rontopascal", "rPa", Yoctopascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quectopascal. Defined in terms of a(n) rontopascal.
+   /// quectopascal, defined as: rontopascal × 1.0/1000.0
    /// </summary>
-   public static readonly Pressure Quectopascal = new ("quectopascal", "qPa", Rontopascal, 1.0 / 1000.0, 0);
+   public static readonly Pressure Quectopascal = new ("quectopascal", "qPa", Rontopascal, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) dekapascal. Defined in terms of a(n) pascal.
+   /// dekapascal, defined as: pascal × 10.0
    /// </summary>
-   public static readonly Pressure Dekapascal = new ("dekapascal", "daPa", Pascal, 10, 0);
+   public static readonly Pressure Dekapascal = new ("dekapascal", "daPa", Pascal, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectopascal. Defined in terms of a(n) dekapascal.
+   /// hectopascal, defined as: dekapascal × 10.0
    /// </summary>
-   public static readonly Pressure Hectopascal = new ("hectopascal", "hPa", Dekapascal, 10, 0);
+   public static readonly Pressure Hectopascal = new ("hectopascal", "hPa", Dekapascal, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kilopascal. Defined in terms of a(n) hectopascal.
+   /// kilopascal, defined as: hectopascal × 10.0
    /// </summary>
-   public static readonly Pressure Kilopascal = new ("kilopascal", "kPa", Hectopascal, 10, 0);
+   public static readonly Pressure Kilopascal = new ("kilopascal", "kPa", Hectopascal, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megapascal. Defined in terms of a(n) kilopascal.
+   /// megapascal, defined as: kilopascal × 1000.0
    /// </summary>
-   public static readonly Pressure Megapascal = new ("megapascal", "MPa", Kilopascal, 1000, 0);
+   public static readonly Pressure Megapascal = new ("megapascal", "MPa", Kilopascal, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigapascal. Defined in terms of a(n) megapascal.
+   /// gigapascal, defined as: megapascal × 1000.0
    /// </summary>
-   public static readonly Pressure Gigapascal = new ("gigapascal", "GPa", Megapascal, 1000, 0);
+   public static readonly Pressure Gigapascal = new ("gigapascal", "GPa", Megapascal, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) terapascal. Defined in terms of a(n) gigapascal.
+   /// terapascal, defined as: gigapascal × 1000.0
    /// </summary>
-   public static readonly Pressure Terapascal = new ("terapascal", "TPa", Gigapascal, 1000, 0);
+   public static readonly Pressure Terapascal = new ("terapascal", "TPa", Gigapascal, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petapascal. Defined in terms of a(n) terapascal.
+   /// petapascal, defined as: terapascal × 1000.0
    /// </summary>
-   public static readonly Pressure Petapascal = new ("petapascal", "PPa", Terapascal, 1000, 0);
+   public static readonly Pressure Petapascal = new ("petapascal", "PPa", Terapascal, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exapascal. Defined in terms of a(n) petapascal.
+   /// exapascal, defined as: petapascal × 1000.0
    /// </summary>
-   public static readonly Pressure Exapascal = new ("exapascal", "EPa", Petapascal, 1000, 0);
+   public static readonly Pressure Exapascal = new ("exapascal", "EPa", Petapascal, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettapascal. Defined in terms of a(n) exapascal.
+   /// zettapascal, defined as: exapascal × 1000.0
    /// </summary>
-   public static readonly Pressure Zettapascal = new ("zettapascal", "ZPa", Exapascal, 1000, 0);
+   public static readonly Pressure Zettapascal = new ("zettapascal", "ZPa", Exapascal, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottapascal. Defined in terms of a(n) zettapascal.
+   /// yottapascal, defined as: zettapascal × 1000.0
    /// </summary>
-   public static readonly Pressure Yottapascal = new ("yottapascal", "YPa", Zettapascal, 1000, 0);
+   public static readonly Pressure Yottapascal = new ("yottapascal", "YPa", Zettapascal, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnapascal. Defined in terms of a(n) yottapascal.
+   /// ronnapascal, defined as: yottapascal × 1000.0
    /// </summary>
-   public static readonly Pressure Ronnapascal = new ("ronnapascal", "RPa", Yottapascal, 1000, 0);
+   public static readonly Pressure Ronnapascal = new ("ronnapascal", "RPa", Yottapascal, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettapascal. Defined in terms of a(n) ronnapascal.
+   /// quettapascal, defined as: ronnapascal × 1000.0
    /// </summary>
-   public static readonly Pressure Quettapascal = new ("quettapascal", "QPa", Ronnapascal, 1000, 0);
+   public static readonly Pressure Quettapascal = new ("quettapascal", "QPa", Ronnapascal, 1000.0, system: "SI");
 }

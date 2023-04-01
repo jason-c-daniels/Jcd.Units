@@ -1,4 +1,6 @@
-﻿namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
+﻿// ReSharper disable NotAccessedField.Local
+
+namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
 
 internal record ComparisonOfDifferentUnitsPerfTest() : TemperaturePerfTest("Quantity<T> Comparison Of Different Units")
 {
@@ -7,19 +9,19 @@ internal record ComparisonOfDifferentUnitsPerfTest() : TemperaturePerfTest("Quan
 
    public override void Setup()
    {
-      q1  = 100.As(C);
-      q2  = q1.To(F);
-      q3  = q2.To(Ra) + 1;
-      _r1 = false;
-      _r2 = false;
+      Quantity1 = 100.As(C);
+      Quantity2 = Quantity1.To(F);
+      Quantity3 = Quantity2.To(Ra) + 1;
+      _r1       = false;
+      _r2       = false;
    }
 
    public override int Execute(int iterations = 1)
    {
       for (var i = 0; i < iterations; i++)
       {
-         _r1 = q1 == q2;
-         _r2 = q2 == q3;
+         _r1 = Quantity1 == Quantity2;
+         _r2 = Quantity2 == Quantity3;
       }
 
       return 2 * iterations;

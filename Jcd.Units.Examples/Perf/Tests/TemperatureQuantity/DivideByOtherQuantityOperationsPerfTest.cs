@@ -6,16 +6,16 @@ internal record DivideByOtherOperationsPerfTest() : TemperaturePerfTest(
 {
    public override void Setup()
    {
-      q4 = 37.As(Rø);
+      Quantity4 = 37.As(Rø);
    }
 
    public override int Execute(int iterations = 1)
    {
       for (var i = 1; i <= iterations; i++)
       {
-         q1 = i.As(Rø);
-         q2 = q4 / q1;
-         q3 = q2 / q4;
+         Quantity1 = i.As(Rø);
+         Quantity2 = Quantity4 / Quantity1;
+         Quantity3 = Quantity2 / Quantity4;
       }
 
       return 2 * iterations;

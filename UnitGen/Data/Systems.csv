@@ -1,10 +1,13 @@
-﻿Name,Description,Has Subnamespace,Subnamespace
-SI,International System of Units,True,SI
-US Customary,United States Customary Units,True,USCustomary
-Imperial,British Imperial Units,True,Imperial
-,Uncategorized Units,False,
-Imperial Maritime,British Imperial Maritime Units,True,ImperialMaritime
-US Survey,United States Survey Units,True,USSurvey
-Astronomical,Astronomical Units,True,Astronomical
-US Esoteric,"Strange units of measure the US Media uses when trying, and failing, to make things more relatable.",True,USEsoteric
-UK Esoteric,"Strange units of measure the UK Media uses when trying, and failing, to make things more relatable.",True,UKEsoteric
+"Name","Description","Has Subnamespace","Subnamespace"
+"SI","International System of Units","True","SI"
+"US Customary","United States Customary Units","True","USCustomary"
+"Imperial","British Imperial Units","True","Imperial"
+,"Uncategorized Units","False",
+"Imperial Maritime","British Imperial Maritime Units","True","ImperialMaritime"
+"US Survey","United States Survey Units","True","USSurvey"
+"Astronomical","Astronomical Units","True","Astronomical"
+"US Esoteric","Strange units of measure the US Media uses when trying, and failing, to make things more relatable.","True","USEsoteric"
+"UK Esoteric","Strange units of measure the UK Media uses when trying, and failing, to make things more relatable.","True","UKEsoteric"
+"Theoretical Physics","Units used in theoretical physics","True","TheoreticalPhysics"
+"Data","Units used to measure Data","True","Data"
+"CGS Units","A variant of the metric system using centimeter, gram and second as base units.","True","CGSUnits"

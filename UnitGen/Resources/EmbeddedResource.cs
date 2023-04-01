@@ -2,10 +2,12 @@
 
 using System.Reflection;
 
-#endregion
-
+// ReSharper disable HeapView.ClosureAllocation
+// ReSharper disable HeapView.DelegateAllocation
 // ReSharper disable MemberCanBePrivate.Global
 // ReSharper disable UnusedMember.Global
+
+#endregion
 
 namespace UnitGen.Resources;
 

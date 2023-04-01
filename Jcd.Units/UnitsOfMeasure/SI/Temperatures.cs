@@ -15,15 +15,21 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Temperature.
 /// </summary>
-public class Temperatures : Enumeration<Temperatures, Temperature>
+public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
 {
    /// <summary>
-   /// A(n) degrees celcius.
+   /// degrees celcius, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Temperature DegreesCelcius = new ("degrees celcius", "°C");
+   public static readonly Temperature DegreesCelcius = new ("degrees celcius", "°C", system: "SI");
 
    /// <summary>
-   /// A(n) degrees kelvin. Defined in terms of a(n) degrees celcius.
+   /// degrees kelvin, defined as: degrees celcius + -273.15
    /// </summary>
-   public static readonly Temperature DegreesKelvin = new ("degrees kelvin", "°K", DegreesCelcius, 1, -273.15);
+   public static readonly Temperature DegreesKelvin = new (
+                                                           "degrees kelvin"
+                                                         , "°K"
+                                                         , DegreesCelcius
+                                                         , offset: -273.15
+                                                         , system: "SI"
+                                                          );
 }

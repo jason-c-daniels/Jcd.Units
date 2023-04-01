@@ -15,130 +15,197 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Electrical Current.
 /// </summary>
-public class ElectricalCurrents : Enumeration<ElectricalCurrents, ElectricalCurrent>
+public class ElectricalCurrents : UnitOfMeasureEnumeration<ElectricalCurrents, ElectricalCurrent>
 {
    /// <summary>
-   /// A(n) ampere.
+   /// ampere, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly ElectricalCurrent Ampere = new ("ampere", "A");
+   public static readonly ElectricalCurrent Ampere = new ("ampere", "A", system: "SI");
 
    /// <summary>
-   /// A(n) deciampere. Defined in terms of a(n) ampere.
+   /// deciampere, defined as: ampere × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalCurrent Deciampere = new ("deciampere", "dA", Ampere, 1.0 / 10.0, 0);
+   public static readonly ElectricalCurrent Deciampere = new ("deciampere", "dA", Ampere, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centiampere. Defined in terms of a(n) deciampere.
+   /// centiampere, defined as: deciampere × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalCurrent Centiampere = new ("centiampere", "cA", Deciampere, 1.0 / 10.0, 0);
+   public static readonly ElectricalCurrent Centiampere = new (
+                                                               "centiampere"
+                                                             , "cA"
+                                                             , Deciampere
+                                                             , 1.0 / 10.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) milliampere. Defined in terms of a(n) centiampere.
+   /// milliampere, defined as: centiampere × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalCurrent Milliampere = new ("milliampere", "mA", Centiampere, 1.0 / 10.0, 0);
+   public static readonly ElectricalCurrent Milliampere = new (
+                                                               "milliampere"
+                                                             , "mA"
+                                                             , Centiampere
+                                                             , 1.0 / 10.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) microampere. Defined in terms of a(n) milliampere.
+   /// microampere, defined as: milliampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Microampere = new ("microampere", "μA", Milliampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Microampere = new (
+                                                               "microampere"
+                                                             , "μA"
+                                                             , Milliampere
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) nanoampere. Defined in terms of a(n) microampere.
+   /// nanoampere, defined as: microampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Nanoampere = new ("nanoampere", "nA", Microampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Nanoampere = new (
+                                                              "nanoampere"
+                                                            , "nA"
+                                                            , Microampere
+                                                            , 1.0 / 1000.0
+                                                            , system: "SI"
+                                                             );
 
    /// <summary>
-   /// A(n) picoampere. Defined in terms of a(n) nanoampere.
+   /// picoampere, defined as: nanoampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Picoampere = new ("picoampere", "pA", Nanoampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Picoampere = new (
+                                                              "picoampere"
+                                                            , "pA"
+                                                            , Nanoampere
+                                                            , 1.0 / 1000.0
+                                                            , system: "SI"
+                                                             );
 
    /// <summary>
-   /// A(n) femtoampere. Defined in terms of a(n) picoampere.
+   /// femtoampere, defined as: picoampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Femtoampere = new ("femtoampere", "fA", Picoampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Femtoampere = new (
+                                                               "femtoampere"
+                                                             , "fA"
+                                                             , Picoampere
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) attoampere. Defined in terms of a(n) femtoampere.
+   /// attoampere, defined as: femtoampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Attoampere = new ("attoampere", "aA", Femtoampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Attoampere = new (
+                                                              "attoampere"
+                                                            , "aA"
+                                                            , Femtoampere
+                                                            , 1.0 / 1000.0
+                                                            , system: "SI"
+                                                             );
 
    /// <summary>
-   /// A(n) zeptoampere. Defined in terms of a(n) attoampere.
+   /// zeptoampere, defined as: attoampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Zeptoampere = new ("zeptoampere", "zA", Attoampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Zeptoampere = new (
+                                                               "zeptoampere"
+                                                             , "zA"
+                                                             , Attoampere
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) yoctoampere. Defined in terms of a(n) zeptoampere.
+   /// yoctoampere, defined as: zeptoampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Yoctoampere = new ("yoctoampere", "yA", Zeptoampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Yoctoampere = new (
+                                                               "yoctoampere"
+                                                             , "yA"
+                                                             , Zeptoampere
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) rontoampere. Defined in terms of a(n) yoctoampere.
+   /// rontoampere, defined as: yoctoampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Rontoampere = new ("rontoampere", "rA", Yoctoampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Rontoampere = new (
+                                                               "rontoampere"
+                                                             , "rA"
+                                                             , Yoctoampere
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) quectoampere. Defined in terms of a(n) rontoampere.
+   /// quectoampere, defined as: rontoampere × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Quectoampere = new ("quectoampere", "qA", Rontoampere, 1.0 / 1000.0, 0);
+   public static readonly ElectricalCurrent Quectoampere = new (
+                                                                "quectoampere"
+                                                              , "qA"
+                                                              , Rontoampere
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) dekaampere. Defined in terms of a(n) ampere.
+   /// dekaampere, defined as: ampere × 10.0
    /// </summary>
-   public static readonly ElectricalCurrent Dekaampere = new ("dekaampere", "daA", Ampere, 10, 0);
+   public static readonly ElectricalCurrent Dekaampere = new ("dekaampere", "daA", Ampere, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectoampere. Defined in terms of a(n) dekaampere.
+   /// hectoampere, defined as: dekaampere × 10.0
    /// </summary>
-   public static readonly ElectricalCurrent Hectoampere = new ("hectoampere", "hA", Dekaampere, 10, 0);
+   public static readonly ElectricalCurrent Hectoampere = new ("hectoampere", "hA", Dekaampere, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kiloampere. Defined in terms of a(n) hectoampere.
+   /// kiloampere, defined as: hectoampere × 10.0
    /// </summary>
-   public static readonly ElectricalCurrent Kiloampere = new ("kiloampere", "kA", Hectoampere, 10, 0);
+   public static readonly ElectricalCurrent Kiloampere = new ("kiloampere", "kA", Hectoampere, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megaampere. Defined in terms of a(n) kiloampere.
+   /// megaampere, defined as: kiloampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Megaampere = new ("megaampere", "MA", Kiloampere, 1000, 0);
+   public static readonly ElectricalCurrent Megaampere = new ("megaampere", "MA", Kiloampere, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigaampere. Defined in terms of a(n) megaampere.
+   /// gigaampere, defined as: megaampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Gigaampere = new ("gigaampere", "GA", Megaampere, 1000, 0);
+   public static readonly ElectricalCurrent Gigaampere = new ("gigaampere", "GA", Megaampere, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) teraampere. Defined in terms of a(n) gigaampere.
+   /// teraampere, defined as: gigaampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Teraampere = new ("teraampere", "TA", Gigaampere, 1000, 0);
+   public static readonly ElectricalCurrent Teraampere = new ("teraampere", "TA", Gigaampere, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petaampere. Defined in terms of a(n) teraampere.
+   /// petaampere, defined as: teraampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Petaampere = new ("petaampere", "PA", Teraampere, 1000, 0);
+   public static readonly ElectricalCurrent Petaampere = new ("petaampere", "PA", Teraampere, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exaampere. Defined in terms of a(n) petaampere.
+   /// exaampere, defined as: petaampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Exaampere = new ("exaampere", "EA", Petaampere, 1000, 0);
+   public static readonly ElectricalCurrent Exaampere = new ("exaampere", "EA", Petaampere, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettaampere. Defined in terms of a(n) exaampere.
+   /// zettaampere, defined as: exaampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Zettaampere = new ("zettaampere", "ZA", Exaampere, 1000, 0);
+   public static readonly ElectricalCurrent Zettaampere = new ("zettaampere", "ZA", Exaampere, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottaampere. Defined in terms of a(n) zettaampere.
+   /// yottaampere, defined as: zettaampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Yottaampere = new ("yottaampere", "YA", Zettaampere, 1000, 0);
+   public static readonly ElectricalCurrent Yottaampere = new ("yottaampere", "YA", Zettaampere, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnaampere. Defined in terms of a(n) yottaampere.
+   /// ronnaampere, defined as: yottaampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Ronnaampere = new ("ronnaampere", "RA", Yottaampere, 1000, 0);
+   public static readonly ElectricalCurrent Ronnaampere = new ("ronnaampere", "RA", Yottaampere, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettaampere. Defined in terms of a(n) ronnaampere.
+   /// quettaampere, defined as: ronnaampere × 1000.0
    /// </summary>
-   public static readonly ElectricalCurrent Quettaampere = new ("quettaampere", "QA", Ronnaampere, 1000, 0);
+   public static readonly ElectricalCurrent
+            Quettaampere = new ("quettaampere", "QA", Ronnaampere, 1000.0, system: "SI");
 }

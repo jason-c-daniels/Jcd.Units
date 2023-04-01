@@ -1,0 +1,5 @@
+﻿
+   /// <summary>
+   /// $Unit.Name$, defined as: $BaseUnit.System$$BaseUnit.Name$ + $Offset$
+   /// </summary>
+   public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$", $BaseUnitNamespacePrefix$$BaseUnit$, offset: $Offset$, system: "$System.Name$");

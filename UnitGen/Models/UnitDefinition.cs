@@ -4,6 +4,8 @@ using JetBrains.Annotations;
 
 using UnitGen.Services;
 
+// ReSharper disable MemberCanBePrivate.Global
+
 #endregion
 
 namespace UnitGen.Models;
@@ -17,11 +19,16 @@ public record UnitDefinition
        , Unit Unit
          )
 {
-   public bool IsBaseUnit => Unit.IsBaseUnit && Prefix.IsBasePrefix;
+   public bool IsBaseUnit => Prefix.IsBasePrefix && IsSameSystem && IsSameName;
+
+   public bool IsSameSystem => Unit.System == Unit.BaseUnitSystem;
+
+   public bool IsSameName => Unit.UnitName == Unit.BaseUnit;
+
    public string UnitVarName => $"{UnitName}".MakeSymbolName();
 
    public string BaseUnitNamespacePrefix =>
-            Unit.HasBaseUnitSubnamespace && Prefix.IsBasePrefix
+            Unit.HasBaseUnitSubnamespace && Prefix.IsBasePrefix && !IsSameSystem
                      ? string.IsNullOrWhiteSpace(Unit.BaseUnitSubnamespace)
                               ? $"UnitsOfMeasure.{UnitType.EnumerationName}."
                               : $"{Unit.BaseUnitSubnamespace}.{UnitType.EnumerationName}."
@@ -30,14 +37,16 @@ public record UnitDefinition
    public string Coefficient => Prefix.IsBasePrefix ? Unit.Coefficient : Prefix.Coefficient;
    public string Offset => Unit.Offset;
 
-   public string PrefixSeparator => Prefix.SpaceAfterPrefix && !Prefix.IsBasePrefix ? " " : "";
-   public string UnitName => IsBaseUnit ? Unit.UnitName : $"{Prefix.Name}{PrefixSeparator}{Unit.UnitName}";
+   public string PrefixSeparator => Prefix is { SpaceAfterPrefix: true, IsBasePrefix: false } ? " " : "";
+   public string UnitName => $"{Prefix.Name}{PrefixSeparator}{Unit.UnitName}";
 
-   public string BaseUnitName => Prefix.IsBasePrefix
-            ? Unit.BaseUnit
-            : $"{Prefix.BasePrefix}{PrefixSeparator}{Unit.UnitName}";
+   public string BaseUnitName => IsBaseUnit
+            ? UnitName
+            : (!IsBaseUnit && !Unit.UsesPrefixes) || Prefix.IsBasePrefix
+                     ? Unit.BaseUnit
+                     : $"{Prefix.BasePrefix}{PrefixSeparator}{Unit.UnitName}";
 
-   public string Symbol => IsBaseUnit ? Unit.UnitSymbol : $"{Prefix.EffectiveSymbol}{Unit.UnitSymbol}";
+   public string Symbol => $"{Prefix.EffectiveSymbol}{Unit.UnitSymbol}";
 
    public string Subnamespace => System.HasSubnamespace
             ? $".{System.Subnamespace}"

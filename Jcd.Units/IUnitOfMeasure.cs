@@ -61,7 +61,7 @@ public interface IUnitOfMeasure<TUnit>
    /// </summary>
    /// <param name="normalizedValue">the normalized value.</param>
    /// <returns>The denormalized value</returns>
-   double FromBaseUnitValue(double normalizedValue);
+   double FromFundamentalUnitValue(double normalizedValue);
 
    /// <summary>
    /// Given a raw value, convert TO the fundamental base unit representation
@@ -69,7 +69,7 @@ public interface IUnitOfMeasure<TUnit>
    /// 0.1 as meters are the base unit)
    /// </summary>
    /// <param name="denormalizedValue">the denormalized value.</param>
-   double ToBaseUnitValue(double denormalizedValue);
+   double ToFundamentalUnitValue(double denormalizedValue);
 
    /// <summary>
    /// Given a coefficient, calculate the equivalent coefficient for the

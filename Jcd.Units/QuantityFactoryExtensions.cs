@@ -2,6 +2,8 @@
 
 #region
 
+using System.Runtime.CompilerServices;
+
 using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitTypes;
 
@@ -22,6 +24,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this double rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -33,6 +36,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this float rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -44,6 +48,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this long rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -55,6 +60,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this ulong rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -66,6 +72,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this int rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -77,6 +84,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this uint rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -88,6 +96,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this short rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -99,6 +108,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this ushort rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -110,6 +120,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this sbyte rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -121,6 +132,7 @@ public static class QuantityFactoryExtensions
    /// <param name="unitOfMeasure">The unit of measure to use.</param>
    /// <typeparam name="TUnit">The type of the unit of measure.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TUnit> As<TUnit>(this byte rawValue, TUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
       => new (rawValue, unitOfMeasure);
@@ -134,6 +146,7 @@ public static class QuantityFactoryExtensions
    /// <typeparam name="TUnit">The type of unit of measure for the source quantity.</typeparam>
    /// <typeparam name="TNewUnit">The type of the new unit of measure for the new quantity.</typeparam>
    /// <returns>A new <see cref="Quantity{TUnit}" /> instance.</returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<TNewUnit> ReplaceUnit<TUnit, TNewUnit>(this Quantity<TUnit> quantity, TNewUnit unitOfMeasure)
             where TUnit : UnitOfMeasure<TUnit>
             where TNewUnit : UnitOfMeasure<TNewUnit>
@@ -145,6 +158,7 @@ public static class QuantityFactoryExtensions
    /// <param name="timeSpan">The <see cref="TimeSpan" /> to convert.</param>
    /// <param name="timeUnit">The <see cref="Duration" /> unit of measure to convert to.</param>
    /// <returns></returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static Quantity<Duration> As(this TimeSpan timeSpan, Duration timeUnit)
       => timeSpan.TotalMilliseconds.As(Durations.Millisecond)
                  .To(timeUnit);
@@ -154,6 +168,7 @@ public static class QuantityFactoryExtensions
    /// </summary>
    /// <param name="duration">The <see cref="Duration" /> to convert.</param>
    /// <returns>The <see cref="TimeSpan" /> representation of the <see cref="Duration" /> </returns>
+   [MethodImpl(MethodImplOptions.AggressiveInlining)]
    public static TimeSpan ToTimeSpan(this Quantity<Duration> duration)
    {
       var ticksDur = duration.To(Durations.Tick);

@@ -15,130 +15,186 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Magnetic Flux Density.
 /// </summary>
-public class MagneticFluxDensities : Enumeration<MagneticFluxDensities, MagneticFluxDensity>
+public class MagneticFluxDensities : UnitOfMeasureEnumeration<MagneticFluxDensities, MagneticFluxDensity>
 {
    /// <summary>
-   /// A(n) tesla.
+   /// tesla, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly MagneticFluxDensity Tesla = new ("tesla", "T");
+   public static readonly MagneticFluxDensity Tesla = new ("tesla", "T", system: "SI");
 
    /// <summary>
-   /// A(n) decitesla. Defined in terms of a(n) tesla.
+   /// decitesla, defined as: tesla × 1.0/10.0
    /// </summary>
-   public static readonly MagneticFluxDensity Decitesla = new ("decitesla", "dT", Tesla, 1.0 / 10.0, 0);
+   public static readonly MagneticFluxDensity Decitesla = new ("decitesla", "dT", Tesla, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centitesla. Defined in terms of a(n) decitesla.
+   /// centitesla, defined as: decitesla × 1.0/10.0
    /// </summary>
-   public static readonly MagneticFluxDensity Centitesla = new ("centitesla", "cT", Decitesla, 1.0 / 10.0, 0);
+   public static readonly MagneticFluxDensity
+            Centitesla = new ("centitesla", "cT", Decitesla, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) millitesla. Defined in terms of a(n) centitesla.
+   /// millitesla, defined as: centitesla × 1.0/10.0
    /// </summary>
-   public static readonly MagneticFluxDensity Millitesla = new ("millitesla", "mT", Centitesla, 1.0 / 10.0, 0);
+   public static readonly MagneticFluxDensity Millitesla = new (
+                                                                "millitesla"
+                                                              , "mT"
+                                                              , Centitesla
+                                                              , 1.0 / 10.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) microtesla. Defined in terms of a(n) millitesla.
+   /// microtesla, defined as: millitesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Microtesla = new ("microtesla", "μT", Millitesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity Microtesla = new (
+                                                                "microtesla"
+                                                              , "μT"
+                                                              , Millitesla
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) nanotesla. Defined in terms of a(n) microtesla.
+   /// nanotesla, defined as: microtesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Nanotesla = new ("nanotesla", "nT", Microtesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity Nanotesla = new (
+                                                               "nanotesla"
+                                                             , "nT"
+                                                             , Microtesla
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) picotesla. Defined in terms of a(n) nanotesla.
+   /// picotesla, defined as: nanotesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Picotesla = new ("picotesla", "pT", Nanotesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity
+            Picotesla = new ("picotesla", "pT", Nanotesla, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) femtotesla. Defined in terms of a(n) picotesla.
+   /// femtotesla, defined as: picotesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Femtotesla = new ("femtotesla", "fT", Picotesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity Femtotesla = new (
+                                                                "femtotesla"
+                                                              , "fT"
+                                                              , Picotesla
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) attotesla. Defined in terms of a(n) femtotesla.
+   /// attotesla, defined as: femtotesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Attotesla = new ("attotesla", "aT", Femtotesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity Attotesla = new (
+                                                               "attotesla"
+                                                             , "aT"
+                                                             , Femtotesla
+                                                             , 1.0 / 1000.0
+                                                             , system: "SI"
+                                                              );
 
    /// <summary>
-   /// A(n) zeptotesla. Defined in terms of a(n) attotesla.
+   /// zeptotesla, defined as: attotesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Zeptotesla = new ("zeptotesla", "zT", Attotesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity Zeptotesla = new (
+                                                                "zeptotesla"
+                                                              , "zT"
+                                                              , Attotesla
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) yoctotesla. Defined in terms of a(n) zeptotesla.
+   /// yoctotesla, defined as: zeptotesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Yoctotesla = new ("yoctotesla", "yT", Zeptotesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity Yoctotesla = new (
+                                                                "yoctotesla"
+                                                              , "yT"
+                                                              , Zeptotesla
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) rontotesla. Defined in terms of a(n) yoctotesla.
+   /// rontotesla, defined as: yoctotesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Rontotesla = new ("rontotesla", "rT", Yoctotesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity Rontotesla = new (
+                                                                "rontotesla"
+                                                              , "rT"
+                                                              , Yoctotesla
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) quectotesla. Defined in terms of a(n) rontotesla.
+   /// quectotesla, defined as: rontotesla × 1.0/1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Quectotesla = new ("quectotesla", "qT", Rontotesla, 1.0 / 1000.0, 0);
+   public static readonly MagneticFluxDensity Quectotesla = new (
+                                                                 "quectotesla"
+                                                               , "qT"
+                                                               , Rontotesla
+                                                               , 1.0 / 1000.0
+                                                               , system: "SI"
+                                                                );
 
    /// <summary>
-   /// A(n) dekatesla. Defined in terms of a(n) tesla.
+   /// dekatesla, defined as: tesla × 10.0
    /// </summary>
-   public static readonly MagneticFluxDensity Dekatesla = new ("dekatesla", "daT", Tesla, 10, 0);
+   public static readonly MagneticFluxDensity Dekatesla = new ("dekatesla", "daT", Tesla, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectotesla. Defined in terms of a(n) dekatesla.
+   /// hectotesla, defined as: dekatesla × 10.0
    /// </summary>
-   public static readonly MagneticFluxDensity Hectotesla = new ("hectotesla", "hT", Dekatesla, 10, 0);
+   public static readonly MagneticFluxDensity Hectotesla = new ("hectotesla", "hT", Dekatesla, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kilotesla. Defined in terms of a(n) hectotesla.
+   /// kilotesla, defined as: hectotesla × 10.0
    /// </summary>
-   public static readonly MagneticFluxDensity Kilotesla = new ("kilotesla", "kT", Hectotesla, 10, 0);
+   public static readonly MagneticFluxDensity Kilotesla = new ("kilotesla", "kT", Hectotesla, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megatesla. Defined in terms of a(n) kilotesla.
+   /// megatesla, defined as: kilotesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Megatesla = new ("megatesla", "MT", Kilotesla, 1000, 0);
+   public static readonly MagneticFluxDensity Megatesla = new ("megatesla", "MT", Kilotesla, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigatesla. Defined in terms of a(n) megatesla.
+   /// gigatesla, defined as: megatesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Gigatesla = new ("gigatesla", "GT", Megatesla, 1000, 0);
+   public static readonly MagneticFluxDensity Gigatesla = new ("gigatesla", "GT", Megatesla, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) teratesla. Defined in terms of a(n) gigatesla.
+   /// teratesla, defined as: gigatesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Teratesla = new ("teratesla", "TT", Gigatesla, 1000, 0);
+   public static readonly MagneticFluxDensity Teratesla = new ("teratesla", "TT", Gigatesla, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petatesla. Defined in terms of a(n) teratesla.
+   /// petatesla, defined as: teratesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Petatesla = new ("petatesla", "PT", Teratesla, 1000, 0);
+   public static readonly MagneticFluxDensity Petatesla = new ("petatesla", "PT", Teratesla, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exatesla. Defined in terms of a(n) petatesla.
+   /// exatesla, defined as: petatesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Exatesla = new ("exatesla", "ET", Petatesla, 1000, 0);
+   public static readonly MagneticFluxDensity Exatesla = new ("exatesla", "ET", Petatesla, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettatesla. Defined in terms of a(n) exatesla.
+   /// zettatesla, defined as: exatesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Zettatesla = new ("zettatesla", "ZT", Exatesla, 1000, 0);
+   public static readonly MagneticFluxDensity Zettatesla = new ("zettatesla", "ZT", Exatesla, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottatesla. Defined in terms of a(n) zettatesla.
+   /// yottatesla, defined as: zettatesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Yottatesla = new ("yottatesla", "YT", Zettatesla, 1000, 0);
+   public static readonly MagneticFluxDensity Yottatesla = new ("yottatesla", "YT", Zettatesla, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnatesla. Defined in terms of a(n) yottatesla.
+   /// ronnatesla, defined as: yottatesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Ronnatesla = new ("ronnatesla", "RT", Yottatesla, 1000, 0);
+   public static readonly MagneticFluxDensity Ronnatesla = new ("ronnatesla", "RT", Yottatesla, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettatesla. Defined in terms of a(n) ronnatesla.
+   /// quettatesla, defined as: ronnatesla × 1000.0
    /// </summary>
-   public static readonly MagneticFluxDensity Quettatesla = new ("quettatesla", "QT", Ronnatesla, 1000, 0);
+   public static readonly MagneticFluxDensity Quettatesla = new ("quettatesla", "QT", Ronnatesla, 1000.0, system: "SI");
 }

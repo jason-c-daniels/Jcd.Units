@@ -15,130 +15,130 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Force.
 /// </summary>
-public class Forces : Enumeration<Forces, Force>
+public class Forces : UnitOfMeasureEnumeration<Forces, Force>
 {
    /// <summary>
-   /// A(n) newton.
+   /// newton, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Force Newton = new ("newton", "N");
+   public static readonly Force Newton = new ("newton", "N", system: "SI");
 
    /// <summary>
-   /// A(n) decinewton. Defined in terms of a(n) newton.
+   /// decinewton, defined as: newton × 1.0/10.0
    /// </summary>
-   public static readonly Force Decinewton = new ("decinewton", "dN", Newton, 1.0 / 10.0, 0);
+   public static readonly Force Decinewton = new ("decinewton", "dN", Newton, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centinewton. Defined in terms of a(n) decinewton.
+   /// centinewton, defined as: decinewton × 1.0/10.0
    /// </summary>
-   public static readonly Force Centinewton = new ("centinewton", "cN", Decinewton, 1.0 / 10.0, 0);
+   public static readonly Force Centinewton = new ("centinewton", "cN", Decinewton, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) millinewton. Defined in terms of a(n) centinewton.
+   /// millinewton, defined as: centinewton × 1.0/10.0
    /// </summary>
-   public static readonly Force Millinewton = new ("millinewton", "mN", Centinewton, 1.0 / 10.0, 0);
+   public static readonly Force Millinewton = new ("millinewton", "mN", Centinewton, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) micronewton. Defined in terms of a(n) millinewton.
+   /// micronewton, defined as: millinewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Micronewton = new ("micronewton", "μN", Millinewton, 1.0 / 1000.0, 0);
+   public static readonly Force Micronewton = new ("micronewton", "μN", Millinewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) nanonewton. Defined in terms of a(n) micronewton.
+   /// nanonewton, defined as: micronewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Nanonewton = new ("nanonewton", "nN", Micronewton, 1.0 / 1000.0, 0);
+   public static readonly Force Nanonewton = new ("nanonewton", "nN", Micronewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) piconewton. Defined in terms of a(n) nanonewton.
+   /// piconewton, defined as: nanonewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Piconewton = new ("piconewton", "pN", Nanonewton, 1.0 / 1000.0, 0);
+   public static readonly Force Piconewton = new ("piconewton", "pN", Nanonewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) femtonewton. Defined in terms of a(n) piconewton.
+   /// femtonewton, defined as: piconewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Femtonewton = new ("femtonewton", "fN", Piconewton, 1.0 / 1000.0, 0);
+   public static readonly Force Femtonewton = new ("femtonewton", "fN", Piconewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) attonewton. Defined in terms of a(n) femtonewton.
+   /// attonewton, defined as: femtonewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Attonewton = new ("attonewton", "aN", Femtonewton, 1.0 / 1000.0, 0);
+   public static readonly Force Attonewton = new ("attonewton", "aN", Femtonewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zeptonewton. Defined in terms of a(n) attonewton.
+   /// zeptonewton, defined as: attonewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Zeptonewton = new ("zeptonewton", "zN", Attonewton, 1.0 / 1000.0, 0);
+   public static readonly Force Zeptonewton = new ("zeptonewton", "zN", Attonewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yoctonewton. Defined in terms of a(n) zeptonewton.
+   /// yoctonewton, defined as: zeptonewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Yoctonewton = new ("yoctonewton", "yN", Zeptonewton, 1.0 / 1000.0, 0);
+   public static readonly Force Yoctonewton = new ("yoctonewton", "yN", Zeptonewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) rontonewton. Defined in terms of a(n) yoctonewton.
+   /// rontonewton, defined as: yoctonewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Rontonewton = new ("rontonewton", "rN", Yoctonewton, 1.0 / 1000.0, 0);
+   public static readonly Force Rontonewton = new ("rontonewton", "rN", Yoctonewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quectonewton. Defined in terms of a(n) rontonewton.
+   /// quectonewton, defined as: rontonewton × 1.0/1000.0
    /// </summary>
-   public static readonly Force Quectonewton = new ("quectonewton", "qN", Rontonewton, 1.0 / 1000.0, 0);
+   public static readonly Force Quectonewton = new ("quectonewton", "qN", Rontonewton, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) dekanewton. Defined in terms of a(n) newton.
+   /// dekanewton, defined as: newton × 10.0
    /// </summary>
-   public static readonly Force Dekanewton = new ("dekanewton", "daN", Newton, 10, 0);
+   public static readonly Force Dekanewton = new ("dekanewton", "daN", Newton, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectonewton. Defined in terms of a(n) dekanewton.
+   /// hectonewton, defined as: dekanewton × 10.0
    /// </summary>
-   public static readonly Force Hectonewton = new ("hectonewton", "hN", Dekanewton, 10, 0);
+   public static readonly Force Hectonewton = new ("hectonewton", "hN", Dekanewton, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kilonewton. Defined in terms of a(n) hectonewton.
+   /// kilonewton, defined as: hectonewton × 10.0
    /// </summary>
-   public static readonly Force Kilonewton = new ("kilonewton", "kN", Hectonewton, 10, 0);
+   public static readonly Force Kilonewton = new ("kilonewton", "kN", Hectonewton, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) meganewton. Defined in terms of a(n) kilonewton.
+   /// meganewton, defined as: kilonewton × 1000.0
    /// </summary>
-   public static readonly Force Meganewton = new ("meganewton", "MN", Kilonewton, 1000, 0);
+   public static readonly Force Meganewton = new ("meganewton", "MN", Kilonewton, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) giganewton. Defined in terms of a(n) meganewton.
+   /// giganewton, defined as: meganewton × 1000.0
    /// </summary>
-   public static readonly Force Giganewton = new ("giganewton", "GN", Meganewton, 1000, 0);
+   public static readonly Force Giganewton = new ("giganewton", "GN", Meganewton, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) teranewton. Defined in terms of a(n) giganewton.
+   /// teranewton, defined as: giganewton × 1000.0
    /// </summary>
-   public static readonly Force Teranewton = new ("teranewton", "TN", Giganewton, 1000, 0);
+   public static readonly Force Teranewton = new ("teranewton", "TN", Giganewton, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petanewton. Defined in terms of a(n) teranewton.
+   /// petanewton, defined as: teranewton × 1000.0
    /// </summary>
-   public static readonly Force Petanewton = new ("petanewton", "PN", Teranewton, 1000, 0);
+   public static readonly Force Petanewton = new ("petanewton", "PN", Teranewton, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exanewton. Defined in terms of a(n) petanewton.
+   /// exanewton, defined as: petanewton × 1000.0
    /// </summary>
-   public static readonly Force Exanewton = new ("exanewton", "EN", Petanewton, 1000, 0);
+   public static readonly Force Exanewton = new ("exanewton", "EN", Petanewton, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettanewton. Defined in terms of a(n) exanewton.
+   /// zettanewton, defined as: exanewton × 1000.0
    /// </summary>
-   public static readonly Force Zettanewton = new ("zettanewton", "ZN", Exanewton, 1000, 0);
+   public static readonly Force Zettanewton = new ("zettanewton", "ZN", Exanewton, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottanewton. Defined in terms of a(n) zettanewton.
+   /// yottanewton, defined as: zettanewton × 1000.0
    /// </summary>
-   public static readonly Force Yottanewton = new ("yottanewton", "YN", Zettanewton, 1000, 0);
+   public static readonly Force Yottanewton = new ("yottanewton", "YN", Zettanewton, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnanewton. Defined in terms of a(n) yottanewton.
+   /// ronnanewton, defined as: yottanewton × 1000.0
    /// </summary>
-   public static readonly Force Ronnanewton = new ("ronnanewton", "RN", Yottanewton, 1000, 0);
+   public static readonly Force Ronnanewton = new ("ronnanewton", "RN", Yottanewton, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettanewton. Defined in terms of a(n) ronnanewton.
+   /// quettanewton, defined as: ronnanewton × 1000.0
    /// </summary>
-   public static readonly Force Quettanewton = new ("quettanewton", "QN", Ronnanewton, 1000, 0);
+   public static readonly Force Quettanewton = new ("quettanewton", "QN", Ronnanewton, 1000.0, system: "SI");
 }

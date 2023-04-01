@@ -4,6 +4,8 @@ using JetBrains.Annotations;
 
 using UnitGen.Services;
 
+// ReSharper disable MemberCanBePrivate.Global
+
 #endregion
 
 namespace UnitGen.Models;
@@ -21,10 +23,11 @@ public record Unit
        , string BaseUnit
        , string Coefficient
        , string Offset
-       , int SortIndex
+       , long SortIndex
          )
 {
-   public bool IsBaseUnit => string.Compare(UnitName, BaseUnit, StringComparison.InvariantCultureIgnoreCase) == 0;
+   public bool IsBaseUnit => string.Compare(System, BaseUnitSystem, StringComparison.InvariantCultureIgnoreCase) == 0
+                          && string.Compare(UnitName, BaseUnit, StringComparison.InvariantCultureIgnoreCase)     == 0;
 
    public bool UsesPrefixes => !string.IsNullOrWhiteSpace(PrefixScale);
 

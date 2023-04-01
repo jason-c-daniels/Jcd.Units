@@ -1,5 +1,6 @@
 ﻿#region
 
+using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
 using UnitGen.Models;
@@ -8,16 +9,22 @@ using UnitGen.Resources;
 
 using FSS = UnitGen.Services.FileSystemService;
 
+// ReSharper disable HeapView.ObjectAllocation
+
 #endregion
 
 namespace UnitGen.Services;
 
+[SuppressMessage("Usage", "CA2208:Instantiate argument exceptions correctly")]
 public class SourceCodeGenerator
 {
    private const string DefaultBaseNamespace = "Jcd.Units.UnitTypes";
    private const string DefaultUnitOfMeasureNamespace = "Jcd.Units.UnitsOfMeasure";
    private readonly string? _baseUnitTemplate;
+   private readonly string? _derivedUnitNoCoefficientTemplate;
+   private readonly string? _derivedUnitSynonymTemplate;
    private readonly string? _derivedUnitTemplate;
+   private readonly string? _derivedUnitWithOffsetTemplate;
    private readonly string? _enumerationTemplate;
    private readonly string? _namespaceDocTemplate;
    private readonly Dictionary<string, Models.System> _systemLookup;
@@ -43,6 +50,15 @@ public class SourceCodeGenerator
       _derivedUnitTemplate = EmbeddedResource.ReadString("DerivedUnit.template")
                           ?? throw new ArgumentNullException("DerivedUnit.template");
 
+      _derivedUnitWithOffsetTemplate = EmbeddedResource.ReadString("DerivedUnitWithOffset.template")
+                                    ?? throw new ArgumentNullException("DerivedUnitWithOffset.template");
+
+      _derivedUnitNoCoefficientTemplate = EmbeddedResource.ReadString("DerivedUnitNoCoefficient.template")
+                                       ?? throw new ArgumentNullException("DerivedUnitNoCoefficient.template");
+
+      _derivedUnitSynonymTemplate = EmbeddedResource.ReadString("DerivedUnitSynonym.template")
+                                 ?? throw new ArgumentNullException("DerivedUnitSynonym.template");
+
       _enumerationTemplate = EmbeddedResource.ReadString("Enumeration.template")
                           ?? throw new ArgumentNullException("Enumeration.template");
 
@@ -63,7 +79,19 @@ public class SourceCodeGenerator
 
    private string GenerateUnit(UnitDefinition unitDef, string baseNamespace = DefaultBaseNamespace)
    {
-      var template = unitDef.IsBaseUnit ? _baseUnitTemplate : _derivedUnitTemplate;
+      var hasOffset = !double.TryParse(unitDef.Offset, out var offset) || offset != 0.0;
+
+      // ReSharper disable once CompareOfFloatsByEqualityOperator
+      var hasCoefficient = !double.TryParse(unitDef.Coefficient, out var coefficient) || coefficient != 1.0;
+      var template       = _baseUnitTemplate;
+
+      if (!unitDef.IsBaseUnit)
+      {
+         if (!hasCoefficient      && !hasOffset) template = _derivedUnitSynonymTemplate;
+         else if (!hasCoefficient && hasOffset) template  = _derivedUnitNoCoefficientTemplate;
+         else if (hasCoefficient  && hasOffset) template  = _derivedUnitWithOffsetTemplate;
+         else if (hasCoefficient  && !hasOffset) template = _derivedUnitTemplate;
+      }
 
       var baseSystem = _systemLookup[unitDef.Unit.BaseUnitSystem];
 
@@ -72,6 +100,7 @@ public class SourceCodeGenerator
                : $"{baseSystem.Name} ";
 
       return template!
+            .Replace("$System.Name$", unitDef.System.Name)
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$UnitType.TypeName$", unitDef.UnitType.UnitTypeName)
             .Replace("$Unit.Unit$", unitDef.UnitVarName)
@@ -159,37 +188,53 @@ public class SourceCodeGenerator
          var unitTypeGroupings = systemGrouping.ToList();
 
          foreach (var unitTypeGrouping in unitTypeGroupings)
-         {
-            var ut = unitTypeGrouping.First()
-                                     .UnitType;
-
-            var enumerationName      = ut.EnumerationName;
-            var enumerationFileName  = $"{enumerationName}.cs";
-            var enumerationsFilePath = Path.Combine(uomWithNamespaceDir, enumerationFileName);
-
-            Console.WriteLine();
-            Console.WriteLine("--------------------------------------------------------");
-
-            var sortedGrouping = unitTypeGrouping
-                                .OrderBy(u => u.System.Name)
-                                .ThenBy(u => u.UnitType.Name)
-                                .ThenByDescending(u => u.IsBaseUnit)
-                                .ThenBy(u => u.Unit.SortIndex)
-                                .ThenBy(u => u.Prefix.SortIndex)
-                                .ToList()
-                     ;
-
-            var sbUnits = new StringBuilder();
-
-            foreach (var unitDefinition in sortedGrouping)
-            {
-               Console.WriteLine($"Generating: {unitDefinition.Prefix.Name}{unitDefinition.Unit.UnitName}");
-               sbUnits.AppendLine(GenerateUnit(unitDefinition));
-            }
-
-            var enumerationFileContent = GenerateEnumeration(sortedGrouping[0], sbUnits.ToString());
-            FSS.WriteFileContent(enumerationsFilePath, enumerationFileContent);
-         }
+            GenerateUnitTypeGrouping(unitTypeGrouping, uomWithNamespaceDir);
       }
+   }
+
+   private void GenerateUnitTypeGrouping(IGrouping<string, UnitDefinition> unitTypeGrouping, string uomWithNamespaceDir)
+   {
+      var ut = unitTypeGrouping.First()
+                               .UnitType;
+
+      var enumerationName      = ut.EnumerationName;
+      var enumerationFileName  = $"{enumerationName}.cs";
+      var enumerationsFilePath = Path.Combine(uomWithNamespaceDir, enumerationFileName);
+
+      Console.WriteLine();
+      Console.WriteLine("--------------------------------------------------------");
+
+      var sortedGrouping = unitTypeGrouping
+                          .OrderBy(u => u.System.Name)
+                          .ThenBy(u => u.UnitType.Name)
+                          .ThenByDescending(u => u.IsBaseUnit)
+                          .ThenBy(u => u.Unit.SortIndex)
+                          .ThenBy(u => u.Prefix.SortIndex)
+                          .ToList()
+               ;
+
+      var sbUnits = new StringBuilder();
+
+      var units     = new Queue<UnitDefinition>(sortedGrouping);
+      var generated = new HashSet<string>();
+
+      while (units.Count > 0)
+      {
+         var unitDefinition = units.Dequeue();
+
+         if (unitDefinition.IsBaseUnit
+          || !unitDefinition.IsSameSystem
+          || generated.Contains(unitDefinition.BaseUnitName))
+         {
+            Console.WriteLine($"Generating: {unitDefinition.Prefix.Name}{unitDefinition.Unit.UnitName}");
+            sbUnits.AppendLine(GenerateUnit(unitDefinition));
+            generated.Add(unitDefinition.UnitName);
+         }
+         else
+            units.Enqueue(unitDefinition);
+      }
+
+      var enumerationFileContent = GenerateEnumeration(sortedGrouping[0], sbUnits.ToString());
+      FSS.WriteFileContent(enumerationsFilePath, enumerationFileContent);
    }
 }

@@ -15,15 +15,15 @@ namespace Jcd.Units.UnitsOfMeasure;
 /// <summary>
 /// Uncategorized Units for measuring Amount.
 /// </summary>
-public class Amounts : Enumeration<Amounts, Amount>
+public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
 {
    /// <summary>
-   /// A(n) count.
+   /// count, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Amount Count = new ("count", "ct.");
+   public static readonly Amount Count = new ("count", "ct.", system: "");
 
    /// <summary>
-   /// A(n) quantity. Defined in terms of a(n) count.
+   /// quantity, a synonym for count
    /// </summary>
-   public static readonly Amount Quantity = new ("quantity", "qty.", Count, 1, 0);
+   public static readonly Amount Quantity = new ("quantity", "qty.", Count, system: "");
 }

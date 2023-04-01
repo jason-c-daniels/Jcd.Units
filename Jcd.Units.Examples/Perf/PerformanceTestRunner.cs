@@ -1,24 +1,32 @@
 ﻿#region
 
 using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
 
 using Jcd.Units.Examples.Perf.Tests;
 using Jcd.Units.Examples.Perf.Tests.Baseline;
 using Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
 using Jcd.Units.UnitsOfMeasure;
+using Jcd.Units.UnitsOfMeasure.Data;
 using Jcd.Units.UnitsOfMeasure.SI;
+
+// ReSharper disable HeapView.ObjectAllocation.Possible
+// ReSharper disable HeapView.DelegateAllocation
+// ReSharper disable MemberCanBeMadeStatic.Global
+// ReSharper disable MemberCanBePrivate.Global
 
 #endregion
 
 namespace Jcd.Units.Examples.Perf;
 
+[SuppressMessage("Performance", "CA1822:Mark members as static")]
 public class PerformanceTestRunner
 {
    private const int Iterations =
 #if DEBUG
                      250_000
 #else
-                     250_000
+                     1_250_000
 #endif
             ;
 
@@ -42,8 +50,15 @@ public class PerformanceTestRunner
          Console.WriteLine($"  Socket: {cpu.SocketDesignation}");
          Console.WriteLine($"  Number of Cores: {cpu.NumberOfCores}");
          Console.WriteLine($"  Number of Logical Processors : {cpu.NumberOfLogicalProcessors}");
-         Console.WriteLine($"  L2 Cache Size: {cpu.L2CacheSize}");
-         Console.WriteLine($"  L3 Cache Size: {cpu.L3CacheSize}");
+
+         Console.WriteLine(
+                           $"  L2 Cache Size: {cpu.L2CacheSize.As(StorageUnits.Kilobyte).To(StorageUnits.Mebibyte):n2}"
+                          );
+
+         Console.WriteLine(
+                           $"  L3 Cache Size: {cpu.L3CacheSize.As(StorageUnits.Kilobyte).To(StorageUnits.Mebibyte):n2}"
+                          );
+
          Console.WriteLine($"  Virtualization Firmware Enabled: {cpu.VirtualizationFirmwareEnabled}");
          Console.WriteLine();
          Console.WriteLine("Scenarios:");

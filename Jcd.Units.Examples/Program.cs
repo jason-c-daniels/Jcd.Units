@@ -7,37 +7,82 @@ using Jcd.Units.UnitsOfMeasure;
 using Jcd.Units.UnitsOfMeasure.SI;
 using Jcd.Units.UnitTypes;
 
-using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 using US = Jcd.Units.UnitsOfMeasure.USCustomary;
+using Physics = Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
+using Temperatures = Jcd.Units.UnitsOfMeasure.SI.Temperatures;
 
+// ReSharper disable HeapView.ObjectAllocation
 // ReSharper disable HeapView.BoxingAllocation
 // ReSharper disable RedundantAssignment
 // ReSharper disable SuggestBaseTypeForParameter
-
 // ReSharper disable CommentTypo
-
 // ReSharper disable UnusedVariable
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 // ReSharper disable HeuristicUnreachableCode  
+
 #pragma warning disable CS0162
 #pragma warning disable CS0219
 
 #endregion
 
-const int ITERATIONS =
 #if DEBUG
-                  100_000
+const int ITERATIONS = 100_000;
 #else
-                  1_000_000
+const int ITERATIONS = 1_000_000;
 #endif
-         ;
+
+var tempsX = UnitRegistry<Temperature>.Default.All;
+var nl1    = UnitRegistry<Temperature>.Default.NameLookup;
+var sl1    = UnitRegistry<Temperature>.Default.SymbolLookup;
+
+var tC  = new Temperature("C", "C");
+var tt2 = new Temperature("T2", "T2", tC, 10, 5);
+var tt3 = new Temperature("F", "F", tC, 5d / 9d, -32);
+var tK  = new Temperature("K", "K", tC, 1, -273.15);
+var tkK = new Temperature("kK", "kK", tK, 1000d);
+var tde = new Temperature("de", "de", tC, -2d / 3d, -150);
+
+UnitRegistry<Temperature>.Default.AutoregisterFromAllAssemblies();
+var tempsY = UnitRegistry<Temperature>.Default.All;
+var nl2    = UnitRegistry<Temperature>.Default.NameLookup;
+var sl2    = UnitRegistry<Temperature>.Default.SymbolLookup;
+
+UnitRegistry<Temperature>.Default.Register(tC);
+UnitRegistry<Temperature>.Default.Register(tt2);
+UnitRegistry<Temperature>.Default.Register(tt3);
+UnitRegistry<Temperature>.Default.Register(tK);
+UnitRegistry<Temperature>.Default.Register(tkK);
+UnitRegistry<Temperature>.Default.Register(tde);
+
+var tempsZ = UnitRegistry<Temperature>.Default.All;
+var nl3    = UnitRegistry<Temperature>.Default.NameLookup;
+var sl3    = UnitRegistry<Temperature>.Default.SymbolLookup;
+
+UnitRegistry<Length>.Default.AutoregisterFromAllAssemblies();
+
+var lengths        = UnitRegistry<Length>.Default.All;
+var lengthByName   = UnitRegistry<Length>.Default.NameLookup;
+var lengthBySymbol = UnitRegistry<Length>.Default.SymbolLookup;
+
+UnitRegistry.Default.AutoregisterAllUnits();
+
+var qtt1         = 200.As(tC);
+var qtt1As2      = qtt1.To(tt2);
+var qtt1As3      = qtt1.To(tt3);
+var qtt1As4      = qtt1.To(tK);
+var qkK          = 1.As(tkK);
+var qkKInK       = qkK.To(tK);
+var oneThousandC = 1000.As(tC);
+var oneKCinK     = oneThousandC.To(tK);
 
 var sysInfo = SystemInfo.Instance;
 
-var cpuFreq = sysInfo.CurrentCPUFrequency;
-var siTemps = Temperatures.BySymbol;
-var temps   = Jcd.Units.UnitsOfMeasure.Temperatures.BySymbol;
+var cpuFreq   = sysInfo.CurrentCPUFrequency;
+var siTemps   = Temperatures.BySymbol;
+var temps     = Jcd.Units.UnitsOfMeasure.Temperatures.BySymbol;
+var siMasses  = Masses.BySymbol;
+var uscMasses = US.Masses.BySymbol;
 
 var K     = siTemps["°K"];
 var C     = Temperatures.DegreesCelcius;
@@ -49,8 +94,24 @@ var rø    = temps["°Rø"];
 var de    = temps["°De"];
 var t1    = 10.As(C);
 
+var tenDe    = 10.As(de);
+var tenDeInR = tenDe.To(degRa);
+
+var kg = siMasses["kg"];
+var g  = siMasses["g"];
+var dr = uscMasses["dr"];
+var gr = uscMasses["gr"];
+var oz = uscMasses["oz"];
+var lb = uscMasses["lb"];
+
+var oneKg         = 1.As(kg);
+var oneKgInGrams  = oneKg.To(g);
+var oneKgInPounds = oneKg.To(lb);
+var skinInLb      = $"{oneKgInPounds:n10}";
+
 var perfRunner = PerformanceTestRunner.Instance;
 
+// var ε₀ = 1;
 // execute all of the tests without reporting results to get the code JITed.
 // this yield best case performance. Will need to add an option to ensure its fully JITed
 for (var zx = 0; zx < 2; zx++)
@@ -80,14 +141,14 @@ var onems    = 1.As(ms);
 var oneTick     = 1.As(Durations.Tick);
 var oneTickInNs = oneTick.To(Durations.Nanosecond);
 
-var timeOfDay = DateTime.UtcNow.TimeOfDay.As(Durations.PlanckTime);
+var timeOfDay = DateTime.UtcNow.TimeOfDay.As(Physics.Durations.PlanckTime);
 var s         = timeOfDay.ToString("E5");
 var durr      = 1.As(Durations.SeptillionYears);
 
-var sdurr = durr.To(Durations.PlanckTime)
+var sdurr = durr.To(Physics.Durations.PlanckTime)
                 .ToString("e3");
 
-var tP  = Durations.PlanckTime;
+var tP  = Physics.Durations.PlanckTime;
 var sec = Durations.Second;
 
 // create a duration of 1 second and express in planck-time units.
@@ -119,7 +180,7 @@ var R2                                  = new Temperature("R2", "°Rø", C, 0.52
 var zeroC                               = 0d.As(C);
 var zcinR2                              = zeroC.To(R2);
 
-var dnc = R2.FromBaseUnitValue(K.Offset);
+var dnc = R2.FromFundamentalUnitValue(K.Offset);
 
 var allDurations = Durations.GetAll()
                             .ToList();

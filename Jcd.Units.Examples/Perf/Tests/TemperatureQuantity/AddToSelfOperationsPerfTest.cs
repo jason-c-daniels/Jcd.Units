@@ -6,9 +6,9 @@ internal record AddToSelfOperationsPerfTest() : TemperaturePerfTest("Quantity<T>
    {
       for (var i = 0; i < iterations; i++)
       {
-         q1 = i.As(Ra);
-         q2 = q1 + q1;
-         q3 = q2 + q2;
+         Quantity1 = i.As(Ra);
+         Quantity2 = Quantity1 + Quantity1;
+         Quantity3 = Quantity2 + Quantity2;
       }
 
       return 2 * iterations;

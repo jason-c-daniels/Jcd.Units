@@ -5,6 +5,8 @@ using UnitGen.Services;
 
 using FSS = UnitGen.Services.FileSystemService;
 
+// ReSharper disable HeapView.ObjectAllocation
+
 #endregion
 
 if (EssentialDirectoriesAreMissing(out var jcdUnitsDir))

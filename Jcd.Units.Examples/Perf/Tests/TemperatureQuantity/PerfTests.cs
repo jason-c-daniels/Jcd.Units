@@ -1,6 +1,9 @@
-﻿namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
+﻿// ReSharper disable UnusedMember.Global
+// ReSharper disable ClassNeverInstantiated.Global
 
-internal class PerfTests : EnumerationBase<PerfTests, IPerfTest>
+namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
+
+internal class PerfTests : Enumeration<PerfTests, IPerfTest>
 {
    public static readonly IPerfTest As = new AsPerfTest();
    public static readonly IPerfTest Conversion = new ConversionPerfTest();

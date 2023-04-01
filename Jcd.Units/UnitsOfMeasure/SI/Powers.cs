@@ -15,130 +15,130 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Power.
 /// </summary>
-public class Powers : Enumeration<Powers, Power>
+public class Powers : UnitOfMeasureEnumeration<Powers, Power>
 {
    /// <summary>
-   /// A(n) watt.
+   /// watt, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Power Watt = new ("watt", "W");
+   public static readonly Power Watt = new ("watt", "W", system: "SI");
 
    /// <summary>
-   /// A(n) deciwatt. Defined in terms of a(n) watt.
+   /// deciwatt, defined as: watt × 1.0/10.0
    /// </summary>
-   public static readonly Power Deciwatt = new ("deciwatt", "dW", Watt, 1.0 / 10.0, 0);
+   public static readonly Power Deciwatt = new ("deciwatt", "dW", Watt, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centiwatt. Defined in terms of a(n) deciwatt.
+   /// centiwatt, defined as: deciwatt × 1.0/10.0
    /// </summary>
-   public static readonly Power Centiwatt = new ("centiwatt", "cW", Deciwatt, 1.0 / 10.0, 0);
+   public static readonly Power Centiwatt = new ("centiwatt", "cW", Deciwatt, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) milliwatt. Defined in terms of a(n) centiwatt.
+   /// milliwatt, defined as: centiwatt × 1.0/10.0
    /// </summary>
-   public static readonly Power Milliwatt = new ("milliwatt", "mW", Centiwatt, 1.0 / 10.0, 0);
+   public static readonly Power Milliwatt = new ("milliwatt", "mW", Centiwatt, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) microwatt. Defined in terms of a(n) milliwatt.
+   /// microwatt, defined as: milliwatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Microwatt = new ("microwatt", "μW", Milliwatt, 1.0 / 1000.0, 0);
+   public static readonly Power Microwatt = new ("microwatt", "μW", Milliwatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) nanowatt. Defined in terms of a(n) microwatt.
+   /// nanowatt, defined as: microwatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Nanowatt = new ("nanowatt", "nW", Microwatt, 1.0 / 1000.0, 0);
+   public static readonly Power Nanowatt = new ("nanowatt", "nW", Microwatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) picowatt. Defined in terms of a(n) nanowatt.
+   /// picowatt, defined as: nanowatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Picowatt = new ("picowatt", "pW", Nanowatt, 1.0 / 1000.0, 0);
+   public static readonly Power Picowatt = new ("picowatt", "pW", Nanowatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) femtowatt. Defined in terms of a(n) picowatt.
+   /// femtowatt, defined as: picowatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Femtowatt = new ("femtowatt", "fW", Picowatt, 1.0 / 1000.0, 0);
+   public static readonly Power Femtowatt = new ("femtowatt", "fW", Picowatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) attowatt. Defined in terms of a(n) femtowatt.
+   /// attowatt, defined as: femtowatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Attowatt = new ("attowatt", "aW", Femtowatt, 1.0 / 1000.0, 0);
+   public static readonly Power Attowatt = new ("attowatt", "aW", Femtowatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zeptowatt. Defined in terms of a(n) attowatt.
+   /// zeptowatt, defined as: attowatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Zeptowatt = new ("zeptowatt", "zW", Attowatt, 1.0 / 1000.0, 0);
+   public static readonly Power Zeptowatt = new ("zeptowatt", "zW", Attowatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yoctowatt. Defined in terms of a(n) zeptowatt.
+   /// yoctowatt, defined as: zeptowatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Yoctowatt = new ("yoctowatt", "yW", Zeptowatt, 1.0 / 1000.0, 0);
+   public static readonly Power Yoctowatt = new ("yoctowatt", "yW", Zeptowatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) rontowatt. Defined in terms of a(n) yoctowatt.
+   /// rontowatt, defined as: yoctowatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Rontowatt = new ("rontowatt", "rW", Yoctowatt, 1.0 / 1000.0, 0);
+   public static readonly Power Rontowatt = new ("rontowatt", "rW", Yoctowatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quectowatt. Defined in terms of a(n) rontowatt.
+   /// quectowatt, defined as: rontowatt × 1.0/1000.0
    /// </summary>
-   public static readonly Power Quectowatt = new ("quectowatt", "qW", Rontowatt, 1.0 / 1000.0, 0);
+   public static readonly Power Quectowatt = new ("quectowatt", "qW", Rontowatt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) dekawatt. Defined in terms of a(n) watt.
+   /// dekawatt, defined as: watt × 10.0
    /// </summary>
-   public static readonly Power Dekawatt = new ("dekawatt", "daW", Watt, 10, 0);
+   public static readonly Power Dekawatt = new ("dekawatt", "daW", Watt, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectowatt. Defined in terms of a(n) dekawatt.
+   /// hectowatt, defined as: dekawatt × 10.0
    /// </summary>
-   public static readonly Power Hectowatt = new ("hectowatt", "hW", Dekawatt, 10, 0);
+   public static readonly Power Hectowatt = new ("hectowatt", "hW", Dekawatt, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kilowatt. Defined in terms of a(n) hectowatt.
+   /// kilowatt, defined as: hectowatt × 10.0
    /// </summary>
-   public static readonly Power Kilowatt = new ("kilowatt", "kW", Hectowatt, 10, 0);
+   public static readonly Power Kilowatt = new ("kilowatt", "kW", Hectowatt, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megawatt. Defined in terms of a(n) kilowatt.
+   /// megawatt, defined as: kilowatt × 1000.0
    /// </summary>
-   public static readonly Power Megawatt = new ("megawatt", "MW", Kilowatt, 1000, 0);
+   public static readonly Power Megawatt = new ("megawatt", "MW", Kilowatt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigawatt. Defined in terms of a(n) megawatt.
+   /// gigawatt, defined as: megawatt × 1000.0
    /// </summary>
-   public static readonly Power Gigawatt = new ("gigawatt", "GW", Megawatt, 1000, 0);
+   public static readonly Power Gigawatt = new ("gigawatt", "GW", Megawatt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) terawatt. Defined in terms of a(n) gigawatt.
+   /// terawatt, defined as: gigawatt × 1000.0
    /// </summary>
-   public static readonly Power Terawatt = new ("terawatt", "TW", Gigawatt, 1000, 0);
+   public static readonly Power Terawatt = new ("terawatt", "TW", Gigawatt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petawatt. Defined in terms of a(n) terawatt.
+   /// petawatt, defined as: terawatt × 1000.0
    /// </summary>
-   public static readonly Power Petawatt = new ("petawatt", "PW", Terawatt, 1000, 0);
+   public static readonly Power Petawatt = new ("petawatt", "PW", Terawatt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exawatt. Defined in terms of a(n) petawatt.
+   /// exawatt, defined as: petawatt × 1000.0
    /// </summary>
-   public static readonly Power Exawatt = new ("exawatt", "EW", Petawatt, 1000, 0);
+   public static readonly Power Exawatt = new ("exawatt", "EW", Petawatt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettawatt. Defined in terms of a(n) exawatt.
+   /// zettawatt, defined as: exawatt × 1000.0
    /// </summary>
-   public static readonly Power Zettawatt = new ("zettawatt", "ZW", Exawatt, 1000, 0);
+   public static readonly Power Zettawatt = new ("zettawatt", "ZW", Exawatt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottawatt. Defined in terms of a(n) zettawatt.
+   /// yottawatt, defined as: zettawatt × 1000.0
    /// </summary>
-   public static readonly Power Yottawatt = new ("yottawatt", "YW", Zettawatt, 1000, 0);
+   public static readonly Power Yottawatt = new ("yottawatt", "YW", Zettawatt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnawatt. Defined in terms of a(n) yottawatt.
+   /// ronnawatt, defined as: yottawatt × 1000.0
    /// </summary>
-   public static readonly Power Ronnawatt = new ("ronnawatt", "RW", Yottawatt, 1000, 0);
+   public static readonly Power Ronnawatt = new ("ronnawatt", "RW", Yottawatt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettawatt. Defined in terms of a(n) ronnawatt.
+   /// quettawatt, defined as: ronnawatt × 1000.0
    /// </summary>
-   public static readonly Power Quettawatt = new ("quettawatt", "QW", Ronnawatt, 1000, 0);
+   public static readonly Power Quettawatt = new ("quettawatt", "QW", Ronnawatt, 1000.0, system: "SI");
 }

@@ -15,130 +15,139 @@ namespace Jcd.Units.UnitsOfMeasure.SI;
 /// <summary>
 /// International System of Units for measuring Electrical Potential.
 /// </summary>
-public class ElectricalPotentials : Enumeration<ElectricalPotentials, ElectricalPotential>
+public class ElectricalPotentials : UnitOfMeasureEnumeration<ElectricalPotentials, ElectricalPotential>
 {
    /// <summary>
-   /// A(n) volt.
+   /// volt, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly ElectricalPotential Volt = new ("volt", "V");
+   public static readonly ElectricalPotential Volt = new ("volt", "V", system: "SI");
 
    /// <summary>
-   /// A(n) decivolt. Defined in terms of a(n) volt.
+   /// decivolt, defined as: volt × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalPotential Decivolt = new ("decivolt", "dV", Volt, 1.0 / 10.0, 0);
+   public static readonly ElectricalPotential Decivolt = new ("decivolt", "dV", Volt, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) centivolt. Defined in terms of a(n) decivolt.
+   /// centivolt, defined as: decivolt × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalPotential Centivolt = new ("centivolt", "cV", Decivolt, 1.0 / 10.0, 0);
+   public static readonly ElectricalPotential Centivolt = new ("centivolt", "cV", Decivolt, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) millivolt. Defined in terms of a(n) centivolt.
+   /// millivolt, defined as: centivolt × 1.0/10.0
    /// </summary>
-   public static readonly ElectricalPotential Millivolt = new ("millivolt", "mV", Centivolt, 1.0 / 10.0, 0);
+   public static readonly ElectricalPotential Millivolt = new ("millivolt", "mV", Centivolt, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) microvolt. Defined in terms of a(n) millivolt.
+   /// microvolt, defined as: millivolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Microvolt = new ("microvolt", "μV", Millivolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential
+            Microvolt = new ("microvolt", "μV", Millivolt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) nanovolt. Defined in terms of a(n) microvolt.
+   /// nanovolt, defined as: microvolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Nanovolt = new ("nanovolt", "nV", Microvolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential Nanovolt = new ("nanovolt", "nV", Microvolt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) picovolt. Defined in terms of a(n) nanovolt.
+   /// picovolt, defined as: nanovolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Picovolt = new ("picovolt", "pV", Nanovolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential Picovolt = new ("picovolt", "pV", Nanovolt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) femtovolt. Defined in terms of a(n) picovolt.
+   /// femtovolt, defined as: picovolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Femtovolt = new ("femtovolt", "fV", Picovolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential Femtovolt = new ("femtovolt", "fV", Picovolt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) attovolt. Defined in terms of a(n) femtovolt.
+   /// attovolt, defined as: femtovolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Attovolt = new ("attovolt", "aV", Femtovolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential Attovolt = new ("attovolt", "aV", Femtovolt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zeptovolt. Defined in terms of a(n) attovolt.
+   /// zeptovolt, defined as: attovolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Zeptovolt = new ("zeptovolt", "zV", Attovolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential Zeptovolt = new ("zeptovolt", "zV", Attovolt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yoctovolt. Defined in terms of a(n) zeptovolt.
+   /// yoctovolt, defined as: zeptovolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Yoctovolt = new ("yoctovolt", "yV", Zeptovolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential
+            Yoctovolt = new ("yoctovolt", "yV", Zeptovolt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) rontovolt. Defined in terms of a(n) yoctovolt.
+   /// rontovolt, defined as: yoctovolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Rontovolt = new ("rontovolt", "rV", Yoctovolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential
+            Rontovolt = new ("rontovolt", "rV", Yoctovolt, 1.0 / 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quectovolt. Defined in terms of a(n) rontovolt.
+   /// quectovolt, defined as: rontovolt × 1.0/1000.0
    /// </summary>
-   public static readonly ElectricalPotential Quectovolt = new ("quectovolt", "qV", Rontovolt, 1.0 / 1000.0, 0);
+   public static readonly ElectricalPotential Quectovolt = new (
+                                                                "quectovolt"
+                                                              , "qV"
+                                                              , Rontovolt
+                                                              , 1.0 / 1000.0
+                                                              , system: "SI"
+                                                               );
 
    /// <summary>
-   /// A(n) dekavolt. Defined in terms of a(n) volt.
+   /// dekavolt, defined as: volt × 10.0
    /// </summary>
-   public static readonly ElectricalPotential Dekavolt = new ("dekavolt", "daV", Volt, 10, 0);
+   public static readonly ElectricalPotential Dekavolt = new ("dekavolt", "daV", Volt, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) hectovolt. Defined in terms of a(n) dekavolt.
+   /// hectovolt, defined as: dekavolt × 10.0
    /// </summary>
-   public static readonly ElectricalPotential Hectovolt = new ("hectovolt", "hV", Dekavolt, 10, 0);
+   public static readonly ElectricalPotential Hectovolt = new ("hectovolt", "hV", Dekavolt, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) kilovolt. Defined in terms of a(n) hectovolt.
+   /// kilovolt, defined as: hectovolt × 10.0
    /// </summary>
-   public static readonly ElectricalPotential Kilovolt = new ("kilovolt", "kV", Hectovolt, 10, 0);
+   public static readonly ElectricalPotential Kilovolt = new ("kilovolt", "kV", Hectovolt, 10.0, system: "SI");
 
    /// <summary>
-   /// A(n) megavolt. Defined in terms of a(n) kilovolt.
+   /// megavolt, defined as: kilovolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Megavolt = new ("megavolt", "MV", Kilovolt, 1000, 0);
+   public static readonly ElectricalPotential Megavolt = new ("megavolt", "MV", Kilovolt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) gigavolt. Defined in terms of a(n) megavolt.
+   /// gigavolt, defined as: megavolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Gigavolt = new ("gigavolt", "GV", Megavolt, 1000, 0);
+   public static readonly ElectricalPotential Gigavolt = new ("gigavolt", "GV", Megavolt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) teravolt. Defined in terms of a(n) gigavolt.
+   /// teravolt, defined as: gigavolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Teravolt = new ("teravolt", "TV", Gigavolt, 1000, 0);
+   public static readonly ElectricalPotential Teravolt = new ("teravolt", "TV", Gigavolt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) petavolt. Defined in terms of a(n) teravolt.
+   /// petavolt, defined as: teravolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Petavolt = new ("petavolt", "PV", Teravolt, 1000, 0);
+   public static readonly ElectricalPotential Petavolt = new ("petavolt", "PV", Teravolt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) exavolt. Defined in terms of a(n) petavolt.
+   /// exavolt, defined as: petavolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Exavolt = new ("exavolt", "EV", Petavolt, 1000, 0);
+   public static readonly ElectricalPotential Exavolt = new ("exavolt", "EV", Petavolt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) zettavolt. Defined in terms of a(n) exavolt.
+   /// zettavolt, defined as: exavolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Zettavolt = new ("zettavolt", "ZV", Exavolt, 1000, 0);
+   public static readonly ElectricalPotential Zettavolt = new ("zettavolt", "ZV", Exavolt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) yottavolt. Defined in terms of a(n) zettavolt.
+   /// yottavolt, defined as: zettavolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Yottavolt = new ("yottavolt", "YV", Zettavolt, 1000, 0);
+   public static readonly ElectricalPotential Yottavolt = new ("yottavolt", "YV", Zettavolt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) ronnavolt. Defined in terms of a(n) yottavolt.
+   /// ronnavolt, defined as: yottavolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Ronnavolt = new ("ronnavolt", "RV", Yottavolt, 1000, 0);
+   public static readonly ElectricalPotential Ronnavolt = new ("ronnavolt", "RV", Yottavolt, 1000.0, system: "SI");
 
    /// <summary>
-   /// A(n) quettavolt. Defined in terms of a(n) ronnavolt.
+   /// quettavolt, defined as: ronnavolt × 1000.0
    /// </summary>
-   public static readonly ElectricalPotential Quettavolt = new ("quettavolt", "QV", Ronnavolt, 1000, 0);
+   public static readonly ElectricalPotential Quettavolt = new ("quettavolt", "QV", Ronnavolt, 1000.0, system: "SI");
 }

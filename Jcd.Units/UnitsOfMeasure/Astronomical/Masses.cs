@@ -15,30 +15,60 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 /// <summary>
 /// Astronomical Units for measuring Mass.
 /// </summary>
-public class Masses : Enumeration<Masses, Mass>
+public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
 {
    /// <summary>
-   /// A(n) earth mass. Defined in terms of a(n) SI kilogram.
+   /// earth mass, defined as: SI kilogram × 5.9722E+24
    /// </summary>
-   public static readonly Mass EarthMass = new ("earth mass", "M(⊕)", SI.Masses.Kilogram, 5.9722E+24, 0);
+   public static readonly Mass EarthMass = new (
+                                                "earth mass"
+                                              , "M(⊕)"
+                                              , SI.Masses.Kilogram
+                                              , 5.9722E+24
+                                              , system: "Astronomical"
+                                               );
 
    /// <summary>
-   /// A(n) jovian mass. Defined in terms of a(n) SI kilogram.
+   /// jovian mass, defined as: SI kilogram × 1.89813E+27
    /// </summary>
-   public static readonly Mass JovianMass = new ("jovian mass", "M(J)", SI.Masses.Kilogram, 1.89813E+27, 0);
+   public static readonly Mass JovianMass = new (
+                                                 "jovian mass"
+                                               , "M(J)"
+                                               , SI.Masses.Kilogram
+                                               , 1.89813E+27
+                                               , system: "Astronomical"
+                                                );
 
    /// <summary>
-   /// A(n) lunar mass. Defined in terms of a(n) SI kilogram.
+   /// lunar mass, defined as: SI kilogram × 7.35E+22
    /// </summary>
-   public static readonly Mass LunarMass = new ("lunar mass", "M(L)", SI.Masses.Kilogram, 7.35E+22, 0);
+   public static readonly Mass LunarMass = new (
+                                                "lunar mass"
+                                              , "M(L)"
+                                              , SI.Masses.Kilogram
+                                              , 7.35E+22
+                                              , system: "Astronomical"
+                                               );
 
    /// <summary>
-   /// A(n) mars mass. Defined in terms of a(n) SI kilogram.
+   /// mars mass, defined as: SI kilogram × 6.39E+23
    /// </summary>
-   public static readonly Mass MarsMass = new ("mars mass", "M(♂)", SI.Masses.Kilogram, 6.39E+23, 0);
+   public static readonly Mass MarsMass = new (
+                                               "mars mass"
+                                             , "M(♂)"
+                                             , SI.Masses.Kilogram
+                                             , 6.39E+23
+                                             , system: "Astronomical"
+                                              );
 
    /// <summary>
-   /// A(n) solar mass. Defined in terms of a(n) SI kilogram.
+   /// solar mass, defined as: SI kilogram × 1.989E+30
    /// </summary>
-   public static readonly Mass SolarMass = new ("solar mass", "M(☉)", SI.Masses.Kilogram, 1.989E+30, 0);
+   public static readonly Mass SolarMass = new (
+                                                "solar mass"
+                                              , "M(☉)"
+                                              , SI.Masses.Kilogram
+                                              , 1.989E+30
+                                              , system: "Astronomical"
+                                               );
 }

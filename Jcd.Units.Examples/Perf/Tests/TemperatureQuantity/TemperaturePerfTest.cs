@@ -3,6 +3,8 @@
 using Jcd.Units.UnitsOfMeasure.USCustomary;
 using Jcd.Units.UnitTypes;
 
+// ReSharper disable UnusedMember.Global
+
 #endregion
 
 namespace Jcd.Units.Examples.Perf.Tests.TemperatureQuantity;
@@ -24,8 +26,8 @@ internal abstract record TemperaturePerfTest(string Description) : PerfTestBase(
    protected static readonly Temperature Rø = UnitsOfMeasure.Temperatures
                                                             .DegreesRømer;
 
-   protected Quantity<Temperature> q1 { get; set; }
-   protected Quantity<Temperature> q2 { get; set; }
-   protected Quantity<Temperature> q3 { get; set; }
-   protected Quantity<Temperature> q4 { get; set; }
+   protected Quantity<Temperature> Quantity1 { get; set; }
+   protected Quantity<Temperature> Quantity2 { get; set; }
+   protected Quantity<Temperature> Quantity3 { get; set; }
+   protected Quantity<Temperature> Quantity4 { get; set; }
 }
