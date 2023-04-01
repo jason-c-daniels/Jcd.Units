@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerFemtosecond Field
 
-mile per femtosecond, defined as: furlong per picosecond × (8.0)/(1.0/1000.0)
+mile per femtosecond defined such that: furlong per picosecond = mi/fs × (8.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MilePerFemtosecond;

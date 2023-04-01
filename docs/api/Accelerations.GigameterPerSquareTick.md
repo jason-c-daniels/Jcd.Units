@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareTick Field
 
-gigameter per square tick, defined as: megameter per square nanosecond × (1000.0)/((100.0)*(100.0))
+gigameter per square tick defined such that: megameter per square nanosecond = Gm/tick² × (1000.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareTick;

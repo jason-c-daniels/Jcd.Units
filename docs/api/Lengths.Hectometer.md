@@ -3,7 +3,7 @@
 
 ## Lengths.Hectometer Field
 
-hectometer, defined as: dekameter × 10.0
+hectometer defined such that: dekameter = hm × 10.0.
 
 ```csharp
 public static readonly Length Hectometer;

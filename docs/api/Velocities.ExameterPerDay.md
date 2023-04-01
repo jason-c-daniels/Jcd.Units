@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerDay Field
 
-exameter per day, defined as: petameter per hour × (1000.0)/(24.0)
+exameter per day defined such that: petameter per hour = Em/dy × (1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity ExameterPerDay;

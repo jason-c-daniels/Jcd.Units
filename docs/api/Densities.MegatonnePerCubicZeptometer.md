@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicZeptometer Field
 
-megatonne per cubic zeptometer, defined as: kilotonne per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+megatonne per cubic zeptometer defined such that: kilotonne per cubic attometer = Mt/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MegatonnePerCubicZeptometer;

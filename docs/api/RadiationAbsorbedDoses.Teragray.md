@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Teragray Field
 
-teragray, defined as: gigagray × 1000.0
+teragray defined such that: gigagray = TGy × 1000.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Teragray;

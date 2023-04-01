@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareYoctosecond Field
 
-league per square yoctosecond, defined as: mile per square zeptosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+league per square yoctosecond defined such that: mile per square zeptosecond = lea/ys² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareYoctosecond;

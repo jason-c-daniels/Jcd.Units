@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicExameter Field
 
-gram per cubic exameter, defined as: dekagram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+gram per cubic exameter defined such that: dekagram per cubic petameter = g/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density GramPerCubicExameter;

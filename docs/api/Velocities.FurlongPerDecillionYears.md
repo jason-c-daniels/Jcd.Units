@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerDecillionYears Field
 
-furlong per decillion years, defined as: chain per nonillion years × (10.0)/(1000.0)
+furlong per decillion years defined such that: chain per nonillion years = fur/decillion yr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FurlongPerDecillionYears;

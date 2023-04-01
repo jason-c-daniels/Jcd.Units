@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerQuadrillionYears Field
 
-quettameter per quadrillion years, defined as: ronnameter per trillion years × (1000.0)/(1000.0)
+quettameter per quadrillion years defined such that: ronnameter per trillion years = Qm/Pyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity QuettameterPerQuadrillionYears;

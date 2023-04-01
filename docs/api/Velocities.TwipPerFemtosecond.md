@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerFemtosecond Field
 
-twip per femtosecond, defined as: foot per picosecond × (1.0/17280.0)/(1.0/1000.0)
+twip per femtosecond defined such that: foot per picosecond = twip/fs × (1.0/17280.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity TwipPerFemtosecond;

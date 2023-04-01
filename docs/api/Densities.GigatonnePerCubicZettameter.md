@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicZettameter Field
 
-gigatonne per cubic zettameter, defined as: megatonne per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+gigatonne per cubic zettameter defined such that: megatonne per cubic exameter = Gt/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density GigatonnePerCubicZettameter;

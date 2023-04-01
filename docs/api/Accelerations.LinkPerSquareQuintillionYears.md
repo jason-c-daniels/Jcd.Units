@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareQuintillionYears Field
 
-link per square quintillion years, defined as: SI meter per square quadrillion years × (0.20116)/((1000.0)*(1000.0))
+link per square quintillion years defined such that: SI meter per square quadrillion years = li/Eyr² × (0.20116)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration LinkPerSquareQuintillionYears;

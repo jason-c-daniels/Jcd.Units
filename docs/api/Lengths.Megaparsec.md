@@ -3,7 +3,7 @@
 
 ## Lengths.Megaparsec Field
 
-megaparsec, defined as: kiloparsec × 1000.0
+megaparsec defined such that: kiloparsec = Mpc × 1000.0.
 
 ```csharp
 public static readonly Length Megaparsec;

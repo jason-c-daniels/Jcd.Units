@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Quectosievert Field
 
-quectosievert, defined as: rontosievert × 1.0/1000.0
+quectosievert defined such that: rontosievert = qsv × 1.0/1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Quectosievert;

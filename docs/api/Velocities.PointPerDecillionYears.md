@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerDecillionYears Field
 
-point per decillion years, defined as: inch per nonillion years × (1.0/72.0)/(1000.0)
+point per decillion years defined such that: inch per nonillion years = p/decillion yr × (1.0/72.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PointPerDecillionYears;

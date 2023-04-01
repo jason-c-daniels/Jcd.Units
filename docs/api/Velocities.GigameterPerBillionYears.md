@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerBillionYears Field
 
-gigameter per billion years, defined as: megameter per million years × (1000.0)/(1000.0)
+gigameter per billion years defined such that: megameter per million years = Gm/Gyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity GigameterPerBillionYears;

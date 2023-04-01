@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareTrillionYears Field
 
-millimeter per square trillion years, defined as: centimeter per square billion years × (1.0/10.0)/((1000.0)*(1000.0))
+millimeter per square trillion years defined such that: centimeter per square billion years = mm/Tyr² × (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareTrillionYears;

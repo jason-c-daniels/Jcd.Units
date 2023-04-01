@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Yottaweber Field
 
-yottaweber, defined as: zettaweber × 1000.0
+yottaweber defined such that: zettaweber = YWb × 1000.0.
 
 ```csharp
 public static readonly MagneticFlux Yottaweber;

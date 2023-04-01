@@ -3,7 +3,7 @@
 
 ## Lengths.Barleycorn Field
 
-barleycorn, defined as: foot × 1.0/36.0
+barleycorn defined such that: foot = barleycorn × 1.0/36.0.
 
 ```csharp
 public static readonly Length Barleycorn;

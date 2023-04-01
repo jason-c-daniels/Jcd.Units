@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerRontosecond Field
 
-foot per rontosecond, defined as: inch per yoctosecond × (12)/(1.0/1000.0)
+foot per rontosecond defined such that: inch per yoctosecond = ft/rs × (12)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity FootPerRontosecond;

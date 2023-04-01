@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareHour Field
 
-hectometer per square hour, defined as: dekameter per square minute × (10.0)/((60.0)*(60.0))
+hectometer per square hour defined such that: dekameter per square minute = hm/hr² × (10.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareHour;

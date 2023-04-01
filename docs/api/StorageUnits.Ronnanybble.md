@@ -3,7 +3,7 @@
 
 ## StorageUnits.Ronnanybble Field
 
-ronnanybble, defined as: yottanybble × 1000.0
+ronnanybble defined such that: yottanybble = Rn × 1000.0.
 
 ```csharp
 public static readonly Storage Ronnanybble;

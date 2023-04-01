@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerTick Field
 
-gigameter per tick, defined as: megameter per nanosecond × (1000.0)/(100.0)
+gigameter per tick defined such that: megameter per nanosecond = Gm/tick × (1000.0)/(100.0).
 
 ```csharp
 public static readonly Velocity GigameterPerTick;

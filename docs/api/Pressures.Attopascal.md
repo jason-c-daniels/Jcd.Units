@@ -3,7 +3,7 @@
 
 ## Pressures.Attopascal Field
 
-attopascal, defined as: femtopascal × 1.0/1000.0
+attopascal defined such that: femtopascal = aPa × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Attopascal;

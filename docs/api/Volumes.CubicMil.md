@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMil Field
 
-cubic mil, defined as: cubic inch × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+cubic mil defined such that: cubic inch = mil³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
 
 ```csharp
 public static readonly Volume CubicMil;

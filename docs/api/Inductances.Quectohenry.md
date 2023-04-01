@@ -3,7 +3,7 @@
 
 ## Inductances.Quectohenry Field
 
-quectohenry, defined as: rontohenry × 1.0/1000.0
+quectohenry defined such that: rontohenry = qH × 1.0/1000.0.
 
 ```csharp
 public static readonly Inductance Quectohenry;

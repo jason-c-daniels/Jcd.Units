@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicKilometer Field
 
-zeptotonne per cubic kilometer, defined as: attotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+zeptotonne per cubic kilometer defined such that: attotonne per cubic hectometer = zt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density ZeptotonnePerCubicKilometer;

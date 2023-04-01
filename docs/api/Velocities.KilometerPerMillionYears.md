@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerMillionYears Field
 
-kilometer per million years, defined as: hectometer per millennium × (10.0)/(1000.0)
+kilometer per million years defined such that: hectometer per millennium = km/Myr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity KilometerPerMillionYears;

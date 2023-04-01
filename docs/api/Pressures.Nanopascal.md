@@ -3,7 +3,7 @@
 
 ## Pressures.Nanopascal Field
 
-nanopascal, defined as: micropascal × 1.0/1000.0
+nanopascal defined such that: micropascal = nPa × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Nanopascal;

@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicNanometer Field
 
-femtogram per cubic nanometer, defined as: picogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+femtogram per cubic nanometer defined such that: picogram per cubic micrometer = fg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density FemtogramPerCubicNanometer;

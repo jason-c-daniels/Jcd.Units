@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareCentury Field
 
-petameter per square century, defined as: terameter per square decade × (1000.0)/((10.0)*(10.0))
+petameter per square century defined such that: terameter per square decade = Pm/century² × (1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareCentury;

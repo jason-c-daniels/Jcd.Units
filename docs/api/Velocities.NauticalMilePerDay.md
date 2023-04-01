@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerDay Field
 
-nautical mile per day, defined as: cable per hour × (10.0)/(24.0)
+nautical mile per day defined such that: cable per hour = nmi/dy × (10.0)/(24.0).
 
 ```csharp
 public static readonly Velocity NauticalMilePerDay;

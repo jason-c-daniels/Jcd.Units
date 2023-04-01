@@ -3,7 +3,7 @@
 
 ## Durations.QuintillionYears Field
 
-quintillion years, defined as: quadrillion years × 1000.0
+quintillion years defined such that: quadrillion years = Eyr × 1000.0.
 
 ```csharp
 public static readonly Duration QuintillionYears;

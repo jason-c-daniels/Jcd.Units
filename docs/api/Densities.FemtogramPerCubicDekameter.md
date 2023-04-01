@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicDekameter Field
 
-femtogram per cubic dekameter, defined as: picogram per cubic meter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+femtogram per cubic dekameter defined such that: picogram per cubic meter = fg/dam³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density FemtogramPerCubicDekameter;

@@ -3,7 +3,7 @@
 
 ## Lengths.Megameter Field
 
-megameter, defined as: kilometer × 1000.0
+megameter defined such that: kilometer = Mm × 1000.0.
 
 ```csharp
 public static readonly Length Megameter;

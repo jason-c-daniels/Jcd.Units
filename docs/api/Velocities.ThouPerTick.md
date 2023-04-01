@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerTick Field
 
-thou per tick, defined as: foot per nanosecond × (1.0/12000.0)/(100.0)
+thou per tick defined such that: foot per nanosecond = th/tick × (1.0/12000.0)/(100.0).
 
 ```csharp
 public static readonly Velocity ThouPerTick;

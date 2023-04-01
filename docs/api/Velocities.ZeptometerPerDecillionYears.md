@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerDecillionYears Field
 
-zeptometer per decillion years, defined as: attometer per nonillion years × (1.0/1000.0)/(1000.0)
+zeptometer per decillion years defined such that: attometer per nonillion years = zm/decillion yr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ZeptometerPerDecillionYears;

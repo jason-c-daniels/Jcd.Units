@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerCentury Field
 
-rod per century, defined as: SI meter per decade × (5.0292)/(10.0)
+rod per century defined such that: SI meter per decade = rd/century × (5.0292)/(10.0).
 
 ```csharp
 public static readonly Velocity RodPerCentury;

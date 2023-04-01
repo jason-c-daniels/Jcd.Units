@@ -3,7 +3,7 @@
 
 ## Lengths.Petaparsec Field
 
-petaparsec, defined as: teraparsec × 1000.0
+petaparsec defined such that: teraparsec = Ppc × 1000.0.
 
 ```csharp
 public static readonly Length Petaparsec;

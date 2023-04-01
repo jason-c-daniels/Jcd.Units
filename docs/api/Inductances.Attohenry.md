@@ -3,7 +3,7 @@
 
 ## Inductances.Attohenry Field
 
-attohenry, defined as: femtohenry × 1.0/1000.0
+attohenry defined such that: femtohenry = aH × 1.0/1000.0.
 
 ```csharp
 public static readonly Inductance Attohenry;

@@ -3,7 +3,7 @@
 
 ## Resistances.Exaohm Field
 
-exaohm, defined as: petaohm × 1000.0
+exaohm defined such that: petaohm = EΩ × 1000.0.
 
 ```csharp
 public static readonly Resistance Exaohm;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Microgray Field
 
-microgray, defined as: milligray × 1.0/1000.0
+microgray defined such that: milligray = μGy × 1.0/1000.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Microgray;

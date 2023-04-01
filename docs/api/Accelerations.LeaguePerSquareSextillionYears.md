@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareSextillionYears Field
 
-league per square sextillion years, defined as: mile per square quintillion years × (3.0)/((1000.0)*(1000.0))
+league per square sextillion years defined such that: mile per square quintillion years = lea/Zyr² × (3.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareSextillionYears;

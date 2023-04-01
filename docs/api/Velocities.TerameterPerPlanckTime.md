@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerPlanckTime Field
 
-terameter per planck-time, defined as: gigameter per microsecond × (1000.0)/(5.391247E-38)
+terameter per planck-time defined such that: gigameter per microsecond = Tm/tₚ × (1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity TerameterPerPlanckTime;

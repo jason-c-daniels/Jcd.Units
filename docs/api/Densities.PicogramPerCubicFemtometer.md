@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicFemtometer Field
 
-picogram per cubic femtometer, defined as: nanogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+picogram per cubic femtometer defined such that: nanogram per cubic picometer = pg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PicogramPerCubicFemtometer;

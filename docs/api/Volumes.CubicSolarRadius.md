@@ -3,7 +3,7 @@
 
 ## Volumes.CubicSolarRadius Field
 
-cubic solar radius, defined as: SI cubic kilometer × (695_700.0)*(695_700.0)*(695_700.0)
+cubic solar radius defined such that: SI cubic kilometer = R(☉)³ × (695_700.0)*(695_700.0)*(695_700.0).
 
 ```csharp
 public static readonly Volume CubicSolarRadius;

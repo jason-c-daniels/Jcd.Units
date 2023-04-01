@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerZeptosecond Field
 
-femtometer per zeptosecond, defined as: picometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+femtometer per zeptosecond defined such that: picometer per attosecond = fm/zs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerZeptosecond;

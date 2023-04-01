@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareCentury Field
 
-mil per square century, defined as: inch per square decade × (1.0/1000.0)/((10.0)*(10.0))
+mil per square century defined such that: inch per square decade = mil/century² × (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration MilPerSquareCentury;

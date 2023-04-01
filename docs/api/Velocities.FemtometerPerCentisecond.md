@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerCentisecond Field
 
-femtometer per centisecond, defined as: picometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+femtometer per centisecond defined such that: picometer per decisecond = fm/cs × (1.0/1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerCentisecond;

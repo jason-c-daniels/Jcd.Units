@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareTick Field
 
-league per square tick, defined as: mile per square nanosecond × (3.0)/((100.0)*(100.0))
+league per square tick defined such that: mile per square nanosecond = lea/tick² × (3.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareTick;

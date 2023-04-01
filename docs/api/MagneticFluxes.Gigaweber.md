@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Gigaweber Field
 
-gigaweber, defined as: megaweber × 1000.0
+gigaweber defined such that: megaweber = GWb × 1000.0.
 
 ```csharp
 public static readonly MagneticFlux Gigaweber;

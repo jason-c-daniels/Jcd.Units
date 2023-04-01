@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerTrillionYears Field
 
-nautical mile per trillion years, defined as: cable per billion years × (10.0)/(1000.0)
+nautical mile per trillion years defined such that: cable per billion years = nmi/Tyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity NauticalMilePerTrillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerQuintillionYears Field
 
-fathom per quintillion years, defined as: foot per quadrillion years × (6.0)/(1000.0)
+fathom per quintillion years defined such that: foot per quadrillion years = ftm/Eyr × (6.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FathomPerQuintillionYears;

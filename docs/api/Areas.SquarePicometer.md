@@ -3,7 +3,7 @@
 
 ## Areas.SquarePicometer Field
 
-square picometer, defined as: square nanometer × (1.0/1000.0)*(1.0/1000.0)
+square picometer defined such that: square nanometer = pm² × (1.0/1000.0)*(1.0/1000.0).
 
 ```csharp
 public static readonly Area SquarePicometer;

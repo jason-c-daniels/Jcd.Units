@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicZettameter Field
 
-tonne per cubic zettameter, defined as: megagram per cubic exameter × (1.0)/((1000.0)*(1000.0)*(1000.0))
+tonne per cubic zettameter defined such that: megagram per cubic exameter = t/Zm³ × (1.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density TonnePerCubicZettameter;

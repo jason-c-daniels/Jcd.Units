@@ -3,7 +3,7 @@
 
 ## Amounts.Decimole Field
 
-decimole, defined as: mole × 1.0/10.0
+decimole defined such that: mole = dmol × 1.0/10.0.
 
 ```csharp
 public static readonly Amount Decimole;

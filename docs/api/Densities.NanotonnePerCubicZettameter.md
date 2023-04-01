@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicZettameter Field
 
-nanotonne per cubic zettameter, defined as: microtonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+nanotonne per cubic zettameter defined such that: microtonne per cubic exameter = nt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density NanotonnePerCubicZettameter;

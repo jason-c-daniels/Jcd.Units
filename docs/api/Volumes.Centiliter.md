@@ -3,7 +3,7 @@
 
 ## Volumes.Centiliter Field
 
-centiliter, defined as: deciliter × 1.0/10.0
+centiliter defined such that: deciliter = cL × 1.0/10.0.
 
 ```csharp
 public static readonly Volume Centiliter;

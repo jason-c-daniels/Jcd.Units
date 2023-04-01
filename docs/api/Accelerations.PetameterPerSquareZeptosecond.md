@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareZeptosecond Field
 
-petameter per square zeptosecond, defined as: terameter per square attosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
+petameter per square zeptosecond defined such that: terameter per square attosecond = Pm/zs² × (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareZeptosecond;

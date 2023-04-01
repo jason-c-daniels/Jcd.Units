@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareTick Field
 
-nautical mile per square tick, defined as: cable per square nanosecond × (10.0)/((100.0)*(100.0))
+nautical mile per square tick defined such that: cable per square nanosecond = nmi/tick² × (10.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareTick;

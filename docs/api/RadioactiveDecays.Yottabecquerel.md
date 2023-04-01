@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Yottabecquerel Field
 
-yottabecquerel, defined as: zettabecquerel × 1000.0
+yottabecquerel defined such that: zettabecquerel = YBq × 1000.0.
 
 ```csharp
 public static readonly RadioactiveDecay Yottabecquerel;

@@ -3,7 +3,7 @@
 
 ## Pressures.Hectotorr Field
 
-hectotorr, defined as: dekatorr × 10.0
+hectotorr defined such that: dekatorr = hTorr × 10.0.
 
 ```csharp
 public static readonly Pressure Hectotorr;

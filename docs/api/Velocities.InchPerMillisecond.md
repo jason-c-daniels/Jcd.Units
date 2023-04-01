@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerMillisecond Field
 
-inch per millisecond, defined as: SI centimeter per centisecond × (2.54)/(1.0/10.0)
+inch per millisecond defined such that: SI centimeter per centisecond = in/ms × (2.54)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity InchPerMillisecond;

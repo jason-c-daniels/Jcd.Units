@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicZeptometer Field
 
-quectotonne per cubic zeptometer, defined as: rontotonne per cubic attometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+quectotonne per cubic zeptometer defined such that: rontotonne per cubic attometer = qt/zm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density QuectotonnePerCubicZeptometer;

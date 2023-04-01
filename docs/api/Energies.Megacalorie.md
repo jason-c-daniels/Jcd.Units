@@ -3,7 +3,7 @@
 
 ## Energies.Megacalorie Field
 
-megacalorie, defined as: kilocalorie × 1000.0
+megacalorie defined such that: kilocalorie = Mc × 1000.0.
 
 ```csharp
 public static readonly Energy Megacalorie;

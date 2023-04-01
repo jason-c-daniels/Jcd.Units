@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerTick Field
 
-rontometer per tick, defined as: yoctometer per nanosecond × (1.0/1000.0)/(100.0)
+rontometer per tick defined such that: yoctometer per nanosecond = rm/tick × (1.0/1000.0)/(100.0).
 
 ```csharp
 public static readonly Velocity RontometerPerTick;

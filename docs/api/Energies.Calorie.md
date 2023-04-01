@@ -3,7 +3,7 @@
 
 ## Energies.Calorie Field
 
-calorie, defined as: joule × 4.184
+calorie defined such that: joule = c × 4.184.
 
 ```csharp
 public static readonly Energy Calorie;

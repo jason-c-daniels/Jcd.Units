@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Decisiemens Field
 
-decisiemens, defined as: siemens × 1.0/10.0
+decisiemens defined such that: siemens = dS × 1.0/10.0.
 
 ```csharp
 public static readonly ElectricalConductance Decisiemens;

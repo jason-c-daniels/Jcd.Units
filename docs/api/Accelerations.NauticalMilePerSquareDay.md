@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareDay Field
 
-nautical mile per square day, defined as: cable per square hour × (10.0)/((24.0)*(24.0))
+nautical mile per square day defined such that: cable per square hour = nmi/dy² × (10.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareDay;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareDecillionYears Field
 
-petameter per square decillion years, defined as: terameter per square nonillion years × (1000.0)/((1000.0)*(1000.0))
+petameter per square decillion years defined such that: terameter per square nonillion years = Pm/decillion yr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareDecillionYears;

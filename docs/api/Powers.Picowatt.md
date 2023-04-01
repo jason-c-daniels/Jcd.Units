@@ -3,7 +3,7 @@
 
 ## Powers.Picowatt Field
 
-picowatt, defined as: nanowatt × 1.0/1000.0
+picowatt defined such that: nanowatt = pW × 1.0/1000.0.
 
 ```csharp
 public static readonly Power Picowatt;

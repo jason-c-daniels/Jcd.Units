@@ -3,7 +3,7 @@
 
 ## Volumes.CubicDekameter Field
 
-cubic dekameter, defined as: cubic meter × (10.0)*(10.0)*(10.0)
+cubic dekameter defined such that: cubic meter = dam³ × (10.0)*(10.0)*(10.0).
 
 ```csharp
 public static readonly Volume CubicDekameter;

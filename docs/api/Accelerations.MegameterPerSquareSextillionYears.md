@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareSextillionYears Field
 
-megameter per square sextillion years, defined as: kilometer per square quintillion years × (1000.0)/((1000.0)*(1000.0))
+megameter per square sextillion years defined such that: kilometer per square quintillion years = Mm/Zyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareSextillionYears;

@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Forces : UnitOfMeasureEnumeration<Forces, Force>
 {
    /// <summary>
-   /// pound-force, defined as: SI newton × 4.448222
+   /// pound-force defined such that: SI newton = lbf × 4.448222.
    /// </summary>
    public static readonly Force PoundForce = new (
                                                   "pound-force"

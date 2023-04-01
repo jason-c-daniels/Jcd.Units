@@ -3,7 +3,7 @@
 
 ## TransferRates.TeranybblesPerSecond Field
 
-teranybbles per second, defined as: giganybbles per second × 1000.0
+teranybbles per second defined such that: giganybbles per second = Tn/s × 1000.0.
 
 ```csharp
 public static readonly TransferRate TeranybblesPerSecond;

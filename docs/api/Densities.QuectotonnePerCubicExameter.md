@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicExameter Field
 
-quectotonne per cubic exameter, defined as: rontotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+quectotonne per cubic exameter defined such that: rontotonne per cubic petameter = qt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density QuectotonnePerCubicExameter;

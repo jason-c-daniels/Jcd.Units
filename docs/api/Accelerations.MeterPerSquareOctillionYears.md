@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareOctillionYears Field
 
-meter per square octillion years, defined as: meter per square septillion years × (1.0)/((1000.0)*(1000.0))
+meter per square octillion years defined such that: meter per square septillion years = m/Ryr² × (1.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration MeterPerSquareOctillionYears;

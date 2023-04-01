@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerTrillionYears Field
 
-megameter per trillion years, defined as: kilometer per billion years × (1000.0)/(1000.0)
+megameter per trillion years defined such that: kilometer per billion years = Mm/Tyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MegameterPerTrillionYears;

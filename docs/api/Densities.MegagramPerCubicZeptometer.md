@@ -3,7 +3,7 @@
 
 ## Densities.MegagramPerCubicZeptometer Field
 
-megagram per cubic zeptometer, defined as: kilogram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+megagram per cubic zeptometer defined such that: kilogram per cubic attometer = Mg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MegagramPerCubicZeptometer;

@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicMicrometer Field
 
-quectogram per cubic micrometer, defined as: rontogram per cubic millimeter × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+quectogram per cubic micrometer defined such that: rontogram per cubic millimeter = qg/μm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density QuectogramPerCubicMicrometer;

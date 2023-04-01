@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Yoctolumen Field
 
-yoctolumen, defined as: zeptolumen × 1.0/1000.0
+yoctolumen defined such that: zeptolumen = ylm × 1.0/1000.0.
 
 ```csharp
 public static readonly LuminousFlux Yoctolumen;

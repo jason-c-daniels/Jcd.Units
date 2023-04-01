@@ -3,7 +3,7 @@
 
 ## Densities.ZeptogramPerCubicNanometer Field
 
-zeptogram per cubic nanometer, defined as: attogram per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+zeptogram per cubic nanometer defined such that: attogram per cubic micrometer = zg/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density ZeptogramPerCubicNanometer;

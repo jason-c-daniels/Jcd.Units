@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareSextillionYears Field
 
-pica per square sextillion years, defined as: point per square quintillion years × (12.0)/((1000.0)*(1000.0))
+pica per square sextillion years defined such that: point per square quintillion years = P/Zyr² × (12.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PicaPerSquareSextillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareQuintillionYears Field
 
-dekameter per square quintillion years, defined as: meter per square quadrillion years × (10.0)/((1000.0)*(1000.0))
+dekameter per square quintillion years defined such that: meter per square quadrillion years = dam/Eyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareQuintillionYears;

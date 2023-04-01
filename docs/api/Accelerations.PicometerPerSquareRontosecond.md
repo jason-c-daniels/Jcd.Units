@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareRontosecond Field
 
-picometer per square rontosecond, defined as: nanometer per square yoctosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+picometer per square rontosecond defined such that: nanometer per square yoctosecond = pm/rs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareRontosecond;

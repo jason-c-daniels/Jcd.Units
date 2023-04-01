@@ -3,7 +3,7 @@
 
 ## Densities.RonnatonnePerCubicMeter Field
 
-ronnatonne per cubic meter, defined as: yottatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+ronnatonne per cubic meter defined such that: yottatonne per cubic meter = Rt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density RonnatonnePerCubicMeter;

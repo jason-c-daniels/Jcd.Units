@@ -3,7 +3,7 @@
 
 ## MagneticFluxDensities.Hectotesla Field
 
-hectotesla, defined as: dekatesla × 10.0
+hectotesla defined such that: dekatesla = hT × 10.0.
 
 ```csharp
 public static readonly MagneticFluxDensity Hectotesla;

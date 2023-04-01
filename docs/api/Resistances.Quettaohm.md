@@ -3,7 +3,7 @@
 
 ## Resistances.Quettaohm Field
 
-quettaohm, defined as: ronnaohm × 1000.0
+quettaohm defined such that: ronnaohm = QΩ × 1000.0.
 
 ```csharp
 public static readonly Resistance Quettaohm;

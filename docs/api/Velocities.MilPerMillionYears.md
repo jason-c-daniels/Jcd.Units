@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerMillionYears Field
 
-mil per million years, defined as: inch per millennium × (1.0/1000.0)/(1000.0)
+mil per million years defined such that: inch per millennium = mil/Myr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MilPerMillionYears;

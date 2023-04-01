@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Dekagray Field
 
-dekagray, defined as: gray × 10.0
+dekagray defined such that: gray = daGy × 10.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Dekagray;

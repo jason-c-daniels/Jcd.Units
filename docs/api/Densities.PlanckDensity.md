@@ -3,7 +3,7 @@
 
 ## Densities.PlanckDensity Field
 
-planck-density, defined as: SI kilogram per cubic meter × 5.1550E+96
+planck-density defined such that: SI kilogram per cubic meter = ρₚ × 5.1550E+96.
 
 ```csharp
 public static readonly Density PlanckDensity;

@@ -3,7 +3,7 @@
 
 ## Powers.Exawatt Field
 
-exawatt, defined as: petawatt × 1000.0
+exawatt defined such that: petawatt = EW × 1000.0.
 
 ```csharp
 public static readonly Power Exawatt;

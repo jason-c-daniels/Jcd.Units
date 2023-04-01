@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicYoctometer Field
 
-petatonne per cubic yoctometer, defined as: teratonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+petatonne per cubic yoctometer defined such that: teratonne per cubic zeptometer = Pt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PetatonnePerCubicYoctometer;

@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerRontosecond Field
 
-point per rontosecond, defined as: inch per yoctosecond × (1.0/72.0)/(1.0/1000.0)
+point per rontosecond defined such that: inch per yoctosecond = p/rs × (1.0/72.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PointPerRontosecond;

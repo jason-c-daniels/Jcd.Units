@@ -3,7 +3,7 @@
 
 ## Amounts.Attomole Field
 
-attomole, defined as: femtomole × 1.0/1000.0
+attomole defined such that: femtomole = amol × 1.0/1000.0.
 
 ```csharp
 public static readonly Amount Attomole;

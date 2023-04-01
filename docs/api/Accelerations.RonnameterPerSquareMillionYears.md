@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareMillionYears Field
 
-ronnameter per square million years, defined as: yottameter per square millennium × (1000.0)/((1000.0)*(1000.0))
+ronnameter per square million years defined such that: yottameter per square millennium = Rm/Myr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareMillionYears;

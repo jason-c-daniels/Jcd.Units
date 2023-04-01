@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareYear Field
 
-kilometer per square year, defined as: hectometer per square day × (10.0)/((365.2525)*(365.2525))
+kilometer per square year defined such that: hectometer per square day = km/yr² × (10.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareYear;

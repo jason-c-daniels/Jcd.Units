@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareMillennium Field
 
-megameter per square millennium, defined as: kilometer per square century × (1000.0)/((10.0)*(10.0))
+megameter per square millennium defined such that: kilometer per square century = Mm/kyr² × (1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareMillennium;

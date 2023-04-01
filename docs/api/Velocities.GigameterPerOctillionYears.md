@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerOctillionYears Field
 
-gigameter per octillion years, defined as: megameter per septillion years × (1000.0)/(1000.0)
+gigameter per octillion years defined such that: megameter per septillion years = Gm/Ryr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity GigameterPerOctillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareDay Field
 
-planck-length per square day, defined as: SI meter per square hour × (1.616255E-35)/((24.0)*(24.0))
+planck-length per square day defined such that: SI meter per square hour = ℓₚ/dy² × (1.616255E-35)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareDay;

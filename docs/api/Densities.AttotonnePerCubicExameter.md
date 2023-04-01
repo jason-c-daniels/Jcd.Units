@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicExameter Field
 
-attotonne per cubic exameter, defined as: femtotonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+attotonne per cubic exameter defined such that: femtotonne per cubic petameter = at/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density AttotonnePerCubicExameter;

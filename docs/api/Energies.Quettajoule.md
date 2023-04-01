@@ -3,7 +3,7 @@
 
 ## Energies.Quettajoule Field
 
-quettajoule, defined as: ronnajoule × 1000.0
+quettajoule defined such that: ronnajoule = QJ × 1000.0.
 
 ```csharp
 public static readonly Energy Quettajoule;

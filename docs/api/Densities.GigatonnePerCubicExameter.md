@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicExameter Field
 
-gigatonne per cubic exameter, defined as: megatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+gigatonne per cubic exameter defined such that: megatonne per cubic petameter = Gt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density GigatonnePerCubicExameter;

@@ -3,7 +3,7 @@
 
 ## Durations.SeptillionYears Field
 
-septillion years, defined as: sextillion years × 1000.0
+septillion years defined such that: sextillion years = Yyr × 1000.0.
 
 ```csharp
 public static readonly Duration SeptillionYears;

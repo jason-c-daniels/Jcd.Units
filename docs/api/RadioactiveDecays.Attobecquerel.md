@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Attobecquerel Field
 
-attobecquerel, defined as: femtobecquerel × 1.0/1000.0
+attobecquerel defined such that: femtobecquerel = aBq × 1.0/1000.0.
 
 ```csharp
 public static readonly RadioactiveDecay Attobecquerel;

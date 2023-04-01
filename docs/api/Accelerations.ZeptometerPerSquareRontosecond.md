@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareRontosecond Field
 
-zeptometer per square rontosecond, defined as: attometer per square yoctosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+zeptometer per square rontosecond defined such that: attometer per square yoctosecond = zm/rs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquareRontosecond;

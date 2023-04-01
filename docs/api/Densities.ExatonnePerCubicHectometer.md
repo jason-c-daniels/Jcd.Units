@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicHectometer Field
 
-exatonne per cubic hectometer, defined as: petatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+exatonne per cubic hectometer defined such that: petatonne per cubic dekameter = Et/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density ExatonnePerCubicHectometer;

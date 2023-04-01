@@ -3,7 +3,7 @@
 
 ## Forces.Yoctonewton Field
 
-yoctonewton, defined as: zeptonewton × 1.0/1000.0
+yoctonewton defined such that: zeptonewton = yN × 1.0/1000.0.
 
 ```csharp
 public static readonly Force Yoctonewton;

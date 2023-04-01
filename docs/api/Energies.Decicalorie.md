@@ -3,7 +3,7 @@
 
 ## Energies.Decicalorie Field
 
-decicalorie, defined as: calorie × 1.0/10.0
+decicalorie defined such that: calorie = dc × 1.0/10.0.
 
 ```csharp
 public static readonly Energy Decicalorie;

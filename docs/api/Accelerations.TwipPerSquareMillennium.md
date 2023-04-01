@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareMillennium Field
 
-twip per square millennium, defined as: foot per square century × (1.0/17280.0)/((10.0)*(10.0))
+twip per square millennium defined such that: foot per square century = twip/kyr² × (1.0/17280.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration TwipPerSquareMillennium;

@@ -3,7 +3,7 @@
 
 ## Pressures.Torr Field
 
-torr, defined as: standard atmosphere × 1.0/760.0
+torr defined such that: standard atmosphere = Torr × 1.0/760.0.
 
 ```csharp
 public static readonly Pressure Torr;

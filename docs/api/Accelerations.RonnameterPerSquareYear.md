@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareYear Field
 
-ronnameter per square year, defined as: yottameter per square day × (1000.0)/((365.2525)*(365.2525))
+ronnameter per square year defined such that: yottameter per square day = Rm/yr² × (1000.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareYear;

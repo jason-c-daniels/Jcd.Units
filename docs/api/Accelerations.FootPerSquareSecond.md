@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareSecond Field
 
-foot per square second, defined as: inch per square second × (12)/((1.0)*(1.0))
+foot per square second defined such that: inch per square second = ft/s² × (12)/((1.0)*(1.0)).
 
 ```csharp
 public static readonly Acceleration FootPerSquareSecond;

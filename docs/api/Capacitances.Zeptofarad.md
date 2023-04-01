@@ -3,7 +3,7 @@
 
 ## Capacitances.Zeptofarad Field
 
-zeptofarad, defined as: attofarad × 1.0/1000.0
+zeptofarad defined such that: attofarad = zF × 1.0/1000.0.
 
 ```csharp
 public static readonly Capacitance Zeptofarad;

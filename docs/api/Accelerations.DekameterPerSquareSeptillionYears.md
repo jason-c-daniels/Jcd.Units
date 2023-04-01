@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareSeptillionYears Field
 
-dekameter per square septillion years, defined as: meter per square sextillion years × (10.0)/((1000.0)*(1000.0))
+dekameter per square septillion years defined such that: meter per square sextillion years = dam/Yyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareSeptillionYears;

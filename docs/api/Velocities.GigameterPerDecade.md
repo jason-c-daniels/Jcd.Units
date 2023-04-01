@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerDecade Field
 
-gigameter per decade, defined as: megameter per year × (1000.0)/(10.0)
+gigameter per decade defined such that: megameter per year = Gm/decade × (1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity GigameterPerDecade;

@@ -3,7 +3,7 @@
 
 ## Energies.Dekajoule Field
 
-dekajoule, defined as: joule × 10.0
+dekajoule defined such that: joule = daJ × 10.0.
 
 ```csharp
 public static readonly Energy Dekajoule;

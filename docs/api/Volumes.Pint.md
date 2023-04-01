@@ -3,7 +3,7 @@
 
 ## Volumes.Pint Field
 
-pint, defined as: fluid ounce × 20.0
+pint defined such that: fluid ounce = pt × 20.0.
 
 ```csharp
 public static readonly Volume Pint;

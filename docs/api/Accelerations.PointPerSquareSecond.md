@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareSecond Field
 
-point per square second, defined as: inch per square second × (1.0/72.0)/((1.0)*(1.0))
+point per square second defined such that: inch per square second = p/s² × (1.0/72.0)/((1.0)*(1.0)).
 
 ```csharp
 public static readonly Acceleration PointPerSquareSecond;

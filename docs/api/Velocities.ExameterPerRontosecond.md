@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerRontosecond Field
 
-exameter per rontosecond, defined as: petameter per yoctosecond × (1000.0)/(1.0/1000.0)
+exameter per rontosecond defined such that: petameter per yoctosecond = Em/rs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ExameterPerRontosecond;

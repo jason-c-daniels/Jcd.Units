@@ -3,7 +3,7 @@
 
 ## Velocities.FathomPerCentisecond Field
 
-fathom per centisecond, defined as: foot per decisecond × (6.0)/(1.0/10.0)
+fathom per centisecond defined such that: foot per decisecond = ftm/cs × (6.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity FathomPerCentisecond;

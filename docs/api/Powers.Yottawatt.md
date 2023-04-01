@@ -3,7 +3,7 @@
 
 ## Powers.Yottawatt Field
 
-yottawatt, defined as: zettawatt × 1000.0
+yottawatt defined such that: zettawatt = YW × 1000.0.
 
 ```csharp
 public static readonly Power Yottawatt;

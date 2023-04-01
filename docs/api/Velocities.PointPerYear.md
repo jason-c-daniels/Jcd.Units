@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerYear Field
 
-point per year, defined as: inch per day × (1.0/72.0)/(365.2525)
+point per year defined such that: inch per day = p/yr × (1.0/72.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity PointPerYear;

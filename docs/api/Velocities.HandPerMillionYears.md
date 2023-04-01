@@ -3,7 +3,7 @@
 
 ## Velocities.HandPerMillionYears Field
 
-hand per million years, defined as: inch per millennium × (4.0)/(1000.0)
+hand per million years defined such that: inch per millennium = hh/Myr × (4.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity HandPerMillionYears;

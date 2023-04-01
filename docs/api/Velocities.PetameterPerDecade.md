@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerDecade Field
 
-petameter per decade, defined as: terameter per year × (1000.0)/(10.0)
+petameter per decade defined such that: terameter per year = Pm/decade × (1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity PetameterPerDecade;

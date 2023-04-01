@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareSecond Field
 
-gigameter per square second, defined as: megameter per square second × (1000.0)/((1.0)*(1.0))
+gigameter per square second defined such that: megameter per square second = Gm/s² × (1000.0)/((1.0)*(1.0)).
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareSecond;

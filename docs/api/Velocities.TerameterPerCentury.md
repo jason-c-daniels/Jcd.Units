@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerCentury Field
 
-terameter per century, defined as: gigameter per decade × (1000.0)/(10.0)
+terameter per century defined such that: gigameter per decade = Tm/century × (1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity TerameterPerCentury;

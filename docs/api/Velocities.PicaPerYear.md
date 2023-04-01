@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerYear Field
 
-pica per year, defined as: point per day × (12.0)/(365.2525)
+pica per year defined such that: point per day = P/yr × (12.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity PicaPerYear;

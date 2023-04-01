@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerQuadrillionYears Field
 
-pica per quadrillion years, defined as: point per trillion years × (12.0)/(1000.0)
+pica per quadrillion years defined such that: point per trillion years = P/Pyr × (12.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PicaPerQuadrillionYears;

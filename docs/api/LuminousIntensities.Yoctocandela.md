@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Yoctocandela Field
 
-yoctocandela, defined as: zeptocandela × 1.0/1000.0
+yoctocandela defined such that: zeptocandela = ycd × 1.0/1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Yoctocandela;

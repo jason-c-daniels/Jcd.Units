@@ -3,7 +3,7 @@
 
 ## Areas.SquareAttometer Field
 
-square attometer, defined as: square femtometer × (1.0/1000.0)*(1.0/1000.0)
+square attometer defined such that: square femtometer = am² × (1.0/1000.0)*(1.0/1000.0).
 
 ```csharp
 public static readonly Area SquareAttometer;

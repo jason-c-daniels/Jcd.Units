@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicGigameter Field
 
-attotonne per cubic gigameter, defined as: femtotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+attotonne per cubic gigameter defined such that: femtotonne per cubic megameter = at/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density AttotonnePerCubicGigameter;

@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicFemtometer Field
 
-gigatonne per cubic femtometer, defined as: megatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+gigatonne per cubic femtometer defined such that: megatonne per cubic picometer = Gt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density GigatonnePerCubicFemtometer;

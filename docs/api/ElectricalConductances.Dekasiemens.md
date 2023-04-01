@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Dekasiemens Field
 
-dekasiemens, defined as: siemens × 10.0
+dekasiemens defined such that: siemens = daS × 10.0.
 
 ```csharp
 public static readonly ElectricalConductance Dekasiemens;

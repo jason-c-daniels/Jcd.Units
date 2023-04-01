@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicAttometer Field
 
-megatonne per cubic attometer, defined as: kilotonne per cubic femtometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+megatonne per cubic attometer defined such that: kilotonne per cubic femtometer = Mt/am³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MegatonnePerCubicAttometer;

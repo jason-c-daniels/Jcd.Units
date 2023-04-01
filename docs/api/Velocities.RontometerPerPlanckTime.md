@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerPlanckTime Field
 
-rontometer per planck-time, defined as: yoctometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+rontometer per planck-time defined such that: yoctometer per microsecond = rm/tₚ × (1.0/1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity RontometerPerPlanckTime;

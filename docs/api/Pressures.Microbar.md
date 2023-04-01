@@ -3,7 +3,7 @@
 
 ## Pressures.Microbar Field
 
-microbar, defined as: millibar × 1.0/1000.0
+microbar defined such that: millibar = μbar × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Microbar;

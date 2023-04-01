@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerTick Field
 
-inch per tick, defined as: SI centimeter per nanosecond × (2.54)/(100.0)
+inch per tick defined such that: SI centimeter per nanosecond = in/tick × (2.54)/(100.0).
 
 ```csharp
 public static readonly Velocity InchPerTick;

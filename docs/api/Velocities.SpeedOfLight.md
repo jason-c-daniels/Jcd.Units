@@ -3,7 +3,7 @@
 
 ## Velocities.SpeedOfLight Field
 
-speed of light, defined as: SI meter per second × 299_792_458
+speed of light defined such that: SI meter per second = c × 299_792_458.
 
 ```csharp
 public static readonly Velocity SpeedOfLight;

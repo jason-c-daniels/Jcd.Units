@@ -3,7 +3,7 @@
 
 ## Accelerations.MillimeterPerSquareCentisecond Field
 
-millimeter per square centisecond, defined as: centimeter per square decisecond × (1.0/10.0)/((1.0/10.0)*(1.0/10.0))
+millimeter per square centisecond defined such that: centimeter per square decisecond = mm/cs² × (1.0/10.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Acceleration MillimeterPerSquareCentisecond;

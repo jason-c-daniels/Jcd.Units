@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareMinute Field
 
-nautical mile per square minute, defined as: cable per square second × (10.0)/((60.0)*(60.0))
+nautical mile per square minute defined such that: cable per square second = nmi/min² × (10.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareMinute;

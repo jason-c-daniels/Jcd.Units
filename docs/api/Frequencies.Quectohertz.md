@@ -3,7 +3,7 @@
 
 ## Frequencies.Quectohertz Field
 
-quectohertz, defined as: rontohertz × 1.0/1000.0
+quectohertz defined such that: rontohertz = qHz × 1.0/1000.0.
 
 ```csharp
 public static readonly Frequency Quectohertz;

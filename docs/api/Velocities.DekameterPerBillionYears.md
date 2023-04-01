@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerBillionYears Field
 
-dekameter per billion years, defined as: meter per million years × (10.0)/(1000.0)
+dekameter per billion years defined such that: meter per million years = dam/Gyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity DekameterPerBillionYears;

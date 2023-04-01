@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Microbecquerel Field
 
-microbecquerel, defined as: millibecquerel × 1.0/1000.0
+microbecquerel defined such that: millibecquerel = μBq × 1.0/1000.0.
 
 ```csharp
 public static readonly RadioactiveDecay Microbecquerel;

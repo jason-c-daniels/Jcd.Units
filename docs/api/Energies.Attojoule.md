@@ -3,7 +3,7 @@
 
 ## Energies.Attojoule Field
 
-attojoule, defined as: femtojoule × 1.0/1000.0
+attojoule defined such that: femtojoule = aJ × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Attojoule;

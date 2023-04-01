@@ -3,7 +3,7 @@
 
 ## Inductances.Zeptohenry Field
 
-zeptohenry, defined as: attohenry × 1.0/1000.0
+zeptohenry defined such that: attohenry = zH × 1.0/1000.0.
 
 ```csharp
 public static readonly Inductance Zeptohenry;

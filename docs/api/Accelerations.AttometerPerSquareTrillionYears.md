@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareTrillionYears Field
 
-attometer per square trillion years, defined as: femtometer per square billion years × (1.0/1000.0)/((1000.0)*(1000.0))
+attometer per square trillion years defined such that: femtometer per square billion years = am/Tyr² × (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareTrillionYears;

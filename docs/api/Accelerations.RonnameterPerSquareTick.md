@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareTick Field
 
-ronnameter per square tick, defined as: yottameter per square nanosecond × (1000.0)/((100.0)*(100.0))
+ronnameter per square tick defined such that: yottameter per square nanosecond = Rm/tick² × (1000.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareTick;

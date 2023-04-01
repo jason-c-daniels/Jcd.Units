@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Petakatal Field
 
-petakatal, defined as: terakatal × 1000.0
+petakatal defined such that: terakatal = Pkat × 1000.0.
 
 ```csharp
 public static readonly CatalyticActivity Petakatal;

@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerRontosecond Field
 
-chain per rontosecond, defined as: yard per yoctosecond × (22.0)/(1.0/1000.0)
+chain per rontosecond defined such that: yard per yoctosecond = ch/rs × (22.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ChainPerRontosecond;

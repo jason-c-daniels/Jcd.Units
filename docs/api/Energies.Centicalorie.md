@@ -3,7 +3,7 @@
 
 ## Energies.Centicalorie Field
 
-centicalorie, defined as: decicalorie × 1.0/10.0
+centicalorie defined such that: decicalorie = cc × 1.0/10.0.
 
 ```csharp
 public static readonly Energy Centicalorie;

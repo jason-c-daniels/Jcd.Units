@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerSextillionYears Field
 
-centimeter per sextillion years, defined as: decimeter per quintillion years × (1.0/10.0)/(1000.0)
+centimeter per sextillion years defined such that: decimeter per quintillion years = cm/Zyr × (1.0/10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity CentimeterPerSextillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerDay Field
 
-mil per day, defined as: inch per hour × (1.0/1000.0)/(24.0)
+mil per day defined such that: inch per hour = mil/dy × (1.0/1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity MilPerDay;

@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicKilometer Field
 
-femtotonne per cubic kilometer, defined as: picotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+femtotonne per cubic kilometer defined such that: picotonne per cubic hectometer = ft/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density FemtotonnePerCubicKilometer;

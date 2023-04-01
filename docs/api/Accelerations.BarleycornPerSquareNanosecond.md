@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareNanosecond Field
 
-barleycorn per square nanosecond, defined as: foot per square microsecond × (1.0/36.0)/((1.0/1000.0)*(1.0/1000.0))
+barleycorn per square nanosecond defined such that: foot per square microsecond = barleycorn/ns² × (1.0/36.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareNanosecond;

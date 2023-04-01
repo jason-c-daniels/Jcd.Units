@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicNanometer Field
 
-kilotonne per cubic nanometer, defined as: hectotonne per cubic micrometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+kilotonne per cubic nanometer defined such that: hectotonne per cubic micrometer = kt/nm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density KilotonnePerCubicNanometer;

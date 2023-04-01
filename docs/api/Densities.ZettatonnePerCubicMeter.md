@@ -3,7 +3,7 @@
 
 ## Densities.ZettatonnePerCubicMeter Field
 
-zettatonne per cubic meter, defined as: exatonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+zettatonne per cubic meter defined such that: exatonne per cubic meter = Zt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density ZettatonnePerCubicMeter;

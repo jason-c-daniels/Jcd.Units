@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareCentury Field
 
-fathom per square century, defined as: foot per square decade × (6.0)/((10.0)*(10.0))
+fathom per square century defined such that: foot per square decade = ftm/century² × (6.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration FathomPerSquareCentury;

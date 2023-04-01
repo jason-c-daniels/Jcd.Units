@@ -3,7 +3,7 @@
 
 ## Densities.PicogramPerCubicCentimeter Field
 
-picogram per cubic centimeter, defined as: nanogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+picogram per cubic centimeter defined such that: nanogram per cubic decimeter = pg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density PicogramPerCubicCentimeter;

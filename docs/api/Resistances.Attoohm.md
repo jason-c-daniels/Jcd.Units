@@ -3,7 +3,7 @@
 
 ## Resistances.Attoohm Field
 
-attoohm, defined as: femtoohm × 1.0/1000.0
+attoohm defined such that: femtoohm = aΩ × 1.0/1000.0.
 
 ```csharp
 public static readonly Resistance Attoohm;

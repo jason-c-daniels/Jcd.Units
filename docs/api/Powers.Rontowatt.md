@@ -3,7 +3,7 @@
 
 ## Powers.Rontowatt Field
 
-rontowatt, defined as: yoctowatt × 1.0/1000.0
+rontowatt defined such that: yoctowatt = rW × 1.0/1000.0.
 
 ```csharp
 public static readonly Power Rontowatt;

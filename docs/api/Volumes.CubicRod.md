@@ -3,7 +3,7 @@
 
 ## Volumes.CubicRod Field
 
-cubic rod, defined as: SI cubic meter × (5.0292)*(5.0292)*(5.0292)
+cubic rod defined such that: SI cubic meter = rd³ × (5.0292)*(5.0292)*(5.0292).
 
 ```csharp
 public static readonly Volume CubicRod;

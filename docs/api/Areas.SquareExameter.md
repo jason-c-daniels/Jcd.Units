@@ -3,7 +3,7 @@
 
 ## Areas.SquareExameter Field
 
-square exameter, defined as: square petameter × (1000.0)*(1000.0)
+square exameter defined such that: square petameter = Em² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareExameter;

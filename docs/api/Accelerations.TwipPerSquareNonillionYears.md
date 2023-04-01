@@ -3,7 +3,7 @@
 
 ## Accelerations.TwipPerSquareNonillionYears Field
 
-twip per square nonillion years, defined as: foot per square octillion years × (1.0/17280.0)/((1000.0)*(1000.0))
+twip per square nonillion years defined such that: foot per square octillion years = twip/Qyr² × (1.0/17280.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration TwipPerSquareNonillionYears;

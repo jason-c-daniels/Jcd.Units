@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerOctillionYears Field
 
-petameter per octillion years, defined as: terameter per septillion years × (1000.0)/(1000.0)
+petameter per octillion years defined such that: terameter per septillion years = Pm/Ryr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PetameterPerOctillionYears;

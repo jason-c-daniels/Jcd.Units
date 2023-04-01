@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareHour Field
 
-furlong per square hour, defined as: chain per square minute × (10.0)/((60.0)*(60.0))
+furlong per square hour defined such that: chain per square minute = fur/hr² × (10.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareHour;

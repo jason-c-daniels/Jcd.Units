@@ -3,7 +3,7 @@
 
 ## Powers.Terawatt Field
 
-terawatt, defined as: gigawatt × 1000.0
+terawatt defined such that: gigawatt = TW × 1000.0.
 
 ```csharp
 public static readonly Power Terawatt;

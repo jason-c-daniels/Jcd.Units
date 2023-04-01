@@ -3,7 +3,7 @@
 
 ## Pressures.Petabar Field
 
-petabar, defined as: terabar × 1000.0
+petabar defined such that: terabar = Pbar × 1000.0.
 
 ```csharp
 public static readonly Pressure Petabar;

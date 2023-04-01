@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareDecisecond Field
 
-league per square decisecond, defined as: mile per square second × (3.0)/((1.0/10.0)*(1.0/10.0))
+league per square decisecond defined such that: mile per square second = lea/ds² × (3.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareDecisecond;

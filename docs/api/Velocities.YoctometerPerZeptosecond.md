@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerZeptosecond Field
 
-yoctometer per zeptosecond, defined as: zeptometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+yoctometer per zeptosecond defined such that: zeptometer per attosecond = ym/zs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity YoctometerPerZeptosecond;

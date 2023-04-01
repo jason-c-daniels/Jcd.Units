@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicZettameter Field
 
-dekagram per cubic zettameter, defined as: hectogram per cubic exameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+dekagram per cubic zettameter defined such that: hectogram per cubic exameter = dag/Zm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density DekagramPerCubicZettameter;

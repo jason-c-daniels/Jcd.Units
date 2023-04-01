@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicQuectometer Field
 
-attotonne per cubic quectometer, defined as: femtotonne per cubic rontometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+attotonne per cubic quectometer defined such that: femtotonne per cubic rontometer = at/qm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density AttotonnePerCubicQuectometer;

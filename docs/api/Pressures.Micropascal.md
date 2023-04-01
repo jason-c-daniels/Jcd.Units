@@ -3,7 +3,7 @@
 
 ## Pressures.Micropascal Field
 
-micropascal, defined as: millipascal × 1.0/1000.0
+micropascal defined such that: millipascal = μPa × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Micropascal;

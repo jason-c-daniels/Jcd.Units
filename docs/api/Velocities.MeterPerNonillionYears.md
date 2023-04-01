@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerNonillionYears Field
 
-meter per nonillion years, defined as: meter per octillion years × (1.0)/(1000.0)
+meter per nonillion years defined such that: meter per octillion years = m/Qyr × (1.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MeterPerNonillionYears;

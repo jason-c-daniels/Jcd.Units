@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerQuintillionYears Field
 
-terameter per quintillion years, defined as: gigameter per quadrillion years × (1000.0)/(1000.0)
+terameter per quintillion years defined such that: gigameter per quadrillion years = Tm/Eyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity TerameterPerQuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareMillionYears Field
 
-meter per square million years, defined as: meter per square millennium × (1.0)/((1000.0)*(1000.0))
+meter per square million years defined such that: meter per square millennium = m/Myr² × (1.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration MeterPerSquareMillionYears;

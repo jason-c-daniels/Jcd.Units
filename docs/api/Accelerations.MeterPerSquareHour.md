@@ -3,7 +3,7 @@
 
 ## Accelerations.MeterPerSquareHour Field
 
-meter per square hour, defined as: meter per square minute × (1.0)/((60.0)*(60.0))
+meter per square hour defined such that: meter per square minute = m/hr² × (1.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration MeterPerSquareHour;

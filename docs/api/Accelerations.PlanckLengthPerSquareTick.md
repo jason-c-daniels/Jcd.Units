@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareTick Field
 
-planck-length per square tick, defined as: SI meter per square nanosecond × (1.616255E-35)/((100.0)*(100.0))
+planck-length per square tick defined such that: SI meter per square nanosecond = ℓₚ/tick² × (1.616255E-35)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareTick;

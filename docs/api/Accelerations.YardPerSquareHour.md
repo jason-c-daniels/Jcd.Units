@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareHour Field
 
-yard per square hour, defined as: foot per square minute × (3.0)/((60.0)*(60.0))
+yard per square hour defined such that: foot per square minute = yd/hr² × (3.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration YardPerSquareHour;

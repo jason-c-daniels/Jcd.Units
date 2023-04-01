@@ -3,7 +3,7 @@
 
 ## Areas.SquareCentimeter Field
 
-square centimeter, defined as: square decimeter × (1.0/10.0)*(1.0/10.0)
+square centimeter defined such that: square decimeter = cm² × (1.0/10.0)*(1.0/10.0).
 
 ```csharp
 public static readonly Area SquareCentimeter;

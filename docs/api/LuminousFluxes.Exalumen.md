@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Exalumen Field
 
-exalumen, defined as: petalumen × 1000.0
+exalumen defined such that: petalumen = Elm × 1000.0.
 
 ```csharp
 public static readonly LuminousFlux Exalumen;

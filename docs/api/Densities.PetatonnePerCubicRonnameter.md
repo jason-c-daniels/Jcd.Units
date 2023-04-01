@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicRonnameter Field
 
-petatonne per cubic ronnameter, defined as: teratonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+petatonne per cubic ronnameter defined such that: teratonne per cubic yottameter = Pt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density PetatonnePerCubicRonnameter;

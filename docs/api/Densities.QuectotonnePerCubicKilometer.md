@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicKilometer Field
 
-quectotonne per cubic kilometer, defined as: rontotonne per cubic hectometer × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+quectotonne per cubic kilometer defined such that: rontotonne per cubic hectometer = qt/km³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density QuectotonnePerCubicKilometer;

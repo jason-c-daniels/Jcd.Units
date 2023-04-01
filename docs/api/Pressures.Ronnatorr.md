@@ -3,7 +3,7 @@
 
 ## Pressures.Ronnatorr Field
 
-ronnatorr, defined as: yottatorr × 1000.0
+ronnatorr defined such that: yottatorr = RTorr × 1000.0.
 
 ```csharp
 public static readonly Pressure Ronnatorr;

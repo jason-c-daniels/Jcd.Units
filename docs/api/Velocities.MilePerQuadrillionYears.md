@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerQuadrillionYears Field
 
-mile per quadrillion years, defined as: furlong per trillion years × (8.0)/(1000.0)
+mile per quadrillion years defined such that: furlong per trillion years = mi/Pyr × (8.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MilePerQuadrillionYears;

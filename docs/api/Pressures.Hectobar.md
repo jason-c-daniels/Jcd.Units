@@ -3,7 +3,7 @@
 
 ## Pressures.Hectobar Field
 
-hectobar, defined as: dekabar × 10.0
+hectobar defined such that: dekabar = hbar × 10.0.
 
 ```csharp
 public static readonly Pressure Hectobar;

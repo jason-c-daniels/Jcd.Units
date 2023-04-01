@@ -3,7 +3,7 @@
 
 ## Masses.Zettatonne Field
 
-zettatonne, defined as: exatonne × 1000.0
+zettatonne defined such that: exatonne = Zt × 1000.0.
 
 ```csharp
 public static readonly Mass Zettatonne;

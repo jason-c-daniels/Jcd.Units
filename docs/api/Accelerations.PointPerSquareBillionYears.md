@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareBillionYears Field
 
-point per square billion years, defined as: inch per square million years × (1.0/72.0)/((1000.0)*(1000.0))
+point per square billion years defined such that: inch per square million years = p/Gyr² × (1.0/72.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PointPerSquareBillionYears;

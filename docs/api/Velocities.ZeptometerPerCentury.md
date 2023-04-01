@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerCentury Field
 
-zeptometer per century, defined as: attometer per decade × (1.0/1000.0)/(10.0)
+zeptometer per century defined such that: attometer per decade = zm/century × (1.0/1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity ZeptometerPerCentury;

@@ -3,7 +3,7 @@
 
 ## Accelerations.NanometerPerSquareMicrosecond Field
 
-nanometer per square microsecond, defined as: micrometer per square millisecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+nanometer per square microsecond defined such that: micrometer per square millisecond = nm/μs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration NanometerPerSquareMicrosecond;

@@ -3,7 +3,7 @@
 
 ## Forces.Attonewton Field
 
-attonewton, defined as: femtonewton × 1.0/1000.0
+attonewton defined such that: femtonewton = aN × 1.0/1000.0.
 
 ```csharp
 public static readonly Force Attonewton;

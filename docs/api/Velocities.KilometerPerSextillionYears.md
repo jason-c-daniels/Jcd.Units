@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerSextillionYears Field
 
-kilometer per sextillion years, defined as: hectometer per quintillion years × (10.0)/(1000.0)
+kilometer per sextillion years defined such that: hectometer per quintillion years = km/Zyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity KilometerPerSextillionYears;

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Hectobecquerel Field
 
-hectobecquerel, defined as: dekabecquerel × 10.0
+hectobecquerel defined such that: dekabecquerel = hBq × 10.0.
 
 ```csharp
 public static readonly RadioactiveDecay Hectobecquerel;

@@ -3,7 +3,7 @@
 
 ## Densities.MetricTonPerCubicZeptometer Field
 
-metric ton per cubic zeptometer, defined as: megagram per cubic attometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+metric ton per cubic zeptometer defined such that: megagram per cubic attometer = mt/zm³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MetricTonPerCubicZeptometer;

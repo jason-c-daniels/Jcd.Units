@@ -3,7 +3,7 @@
 
 ## Areas.SquareYottameter Field
 
-square yottameter, defined as: square zettameter × (1000.0)*(1000.0)
+square yottameter defined such that: square zettameter = Ym² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareYottameter;

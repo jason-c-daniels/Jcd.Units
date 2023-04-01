@@ -3,7 +3,7 @@
 
 ## Masses.Femtogram Field
 
-femtogram, defined as: picogram × 1.0/1000.0
+femtogram defined such that: picogram = fg × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Femtogram;

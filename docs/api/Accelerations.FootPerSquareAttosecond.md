@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareAttosecond Field
 
-foot per square attosecond, defined as: inch per square femtosecond × (12)/((1.0/1000.0)*(1.0/1000.0))
+foot per square attosecond defined such that: inch per square femtosecond = ft/as² × (12)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration FootPerSquareAttosecond;

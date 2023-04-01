@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerDecade Field
 
-hectometer per decade, defined as: dekameter per year × (10.0)/(10.0)
+hectometer per decade defined such that: dekameter per year = hm/decade × (10.0)/(10.0).
 
 ```csharp
 public static readonly Velocity HectometerPerDecade;

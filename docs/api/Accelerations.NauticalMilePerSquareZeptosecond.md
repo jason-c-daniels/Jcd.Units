@@ -3,7 +3,7 @@
 
 ## Accelerations.NauticalMilePerSquareZeptosecond Field
 
-nautical mile per square zeptosecond, defined as: cable per square attosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
+nautical mile per square zeptosecond defined such that: cable per square attosecond = nmi/zs² × (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration NauticalMilePerSquareZeptosecond;

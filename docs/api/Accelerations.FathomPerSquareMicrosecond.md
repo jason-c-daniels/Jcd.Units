@@ -3,7 +3,7 @@
 
 ## Accelerations.FathomPerSquareMicrosecond Field
 
-fathom per square microsecond, defined as: foot per square millisecond × (6.0)/((1.0/1000.0)*(1.0/1000.0))
+fathom per square microsecond defined such that: foot per square millisecond = ftm/μs² × (6.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration FathomPerSquareMicrosecond;

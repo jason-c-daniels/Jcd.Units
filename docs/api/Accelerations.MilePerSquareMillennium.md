@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareMillennium Field
 
-mile per square millennium, defined as: furlong per square century × (8.0)/((10.0)*(10.0))
+mile per square millennium defined such that: furlong per square century = mi/kyr² × (8.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration MilePerSquareMillennium;

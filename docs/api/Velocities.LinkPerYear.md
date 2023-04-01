@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerYear Field
 
-link per year, defined as: SI meter per day × (0.20116)/(365.2525)
+link per year defined such that: SI meter per day = li/yr × (0.20116)/(365.2525).
 
 ```csharp
 public static readonly Velocity LinkPerYear;

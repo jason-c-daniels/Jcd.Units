@@ -3,7 +3,7 @@
 
 ## Lengths.Ronnaparsec Field
 
-ronnaparsec, defined as: yottaparsec × 1000.0
+ronnaparsec defined such that: yottaparsec = Rpc × 1000.0.
 
 ```csharp
 public static readonly Length Ronnaparsec;

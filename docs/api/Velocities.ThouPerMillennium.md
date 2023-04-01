@@ -3,7 +3,7 @@
 
 ## Velocities.ThouPerMillennium Field
 
-thou per millennium, defined as: foot per century × (1.0/12000.0)/(10.0)
+thou per millennium defined such that: foot per century = th/kyr × (1.0/12000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity ThouPerMillennium;

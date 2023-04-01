@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerTrillionYears Field
 
-mil per trillion years, defined as: inch per billion years × (1.0/1000.0)/(1000.0)
+mil per trillion years defined such that: inch per billion years = mil/Tyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MilPerTrillionYears;

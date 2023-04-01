@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareCentury Field
 
-chain per square century, defined as: yard per square decade × (22.0)/((10.0)*(10.0))
+chain per square century defined such that: yard per square decade = ch/century² × (22.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration ChainPerSquareCentury;

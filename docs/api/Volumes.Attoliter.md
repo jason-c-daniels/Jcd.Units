@@ -3,7 +3,7 @@
 
 ## Volumes.Attoliter Field
 
-attoliter, defined as: femtoliter × 1.0/1000.0
+attoliter defined such that: femtoliter = aL × 1.0/1000.0.
 
 ```csharp
 public static readonly Volume Attoliter;

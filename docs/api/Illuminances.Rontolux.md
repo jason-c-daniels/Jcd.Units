@@ -3,7 +3,7 @@
 
 ## Illuminances.Rontolux Field
 
-rontolux, defined as: yoctolux × 1.0/1000.0
+rontolux defined such that: yoctolux = rlx × 1.0/1000.0.
 
 ```csharp
 public static readonly Illuminance Rontolux;

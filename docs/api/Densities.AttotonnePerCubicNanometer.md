@@ -3,7 +3,7 @@
 
 ## Densities.AttotonnePerCubicNanometer Field
 
-attotonne per cubic nanometer, defined as: femtotonne per cubic micrometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+attotonne per cubic nanometer defined such that: femtotonne per cubic micrometer = at/nm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density AttotonnePerCubicNanometer;

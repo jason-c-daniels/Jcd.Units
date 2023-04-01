@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USSurvey;
 public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
-   /// cubic link, defined as: SI cubic meter × (0.20116)*(0.20116)*(0.20116)
+   /// cubic link defined such that: SI cubic meter = li³ × (0.20116)*(0.20116)*(0.20116).
    /// </summary>
    public static readonly Volume CubicLink = new (
                                                   "cubic link"
@@ -29,7 +29,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// cubic rod, defined as: SI cubic meter × (5.0292)*(5.0292)*(5.0292)
+   /// cubic rod defined such that: SI cubic meter = rd³ × (5.0292)*(5.0292)*(5.0292).
    /// </summary>
    public static readonly Volume CubicRod = new (
                                                  "cubic rod"
@@ -40,7 +40,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                 );
 
    /// <summary>
-   /// cubic chain, defined as: SI cubic meter × (20.1168)*(20.1168)*(20.1168)
+   /// cubic chain defined such that: SI cubic meter = ch³ × (20.1168)*(20.1168)*(20.1168).
    /// </summary>
    public static readonly Volume CubicChain = new (
                                                    "cubic chain"
@@ -51,7 +51,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   );
 
    /// <summary>
-   /// cubic furlong, defined as: SI cubic meter × (201.168)*(201.168)*(201.168)
+   /// cubic furlong defined such that: SI cubic meter = fur³ × (201.168)*(201.168)*(201.168).
    /// </summary>
    public static readonly Volume CubicFurlong = new (
                                                      "cubic furlong"
@@ -62,7 +62,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                     );
 
    /// <summary>
-   /// cubic league, defined as: SI cubic meter × (4828.032)*(4828.032)*(4828.032)
+   /// cubic league defined such that: SI cubic meter = lea³ × (4828.032)*(4828.032)*(4828.032).
    /// </summary>
    public static readonly Volume CubicLeague = new (
                                                     "cubic league"

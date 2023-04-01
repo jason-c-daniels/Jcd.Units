@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerDay Field
 
-pica per day, defined as: point per hour × (12.0)/(24.0)
+pica per day defined such that: point per hour = P/dy × (12.0)/(24.0).
 
 ```csharp
 public static readonly Velocity PicaPerDay;

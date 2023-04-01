@@ -3,7 +3,7 @@
 
 ## Velocities.DekameterPerNonillionYears Field
 
-dekameter per nonillion years, defined as: meter per octillion years × (10.0)/(1000.0)
+dekameter per nonillion years defined such that: meter per octillion years = dam/Qyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity DekameterPerNonillionYears;

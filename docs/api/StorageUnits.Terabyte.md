@@ -3,7 +3,7 @@
 
 ## StorageUnits.Terabyte Field
 
-terabyte, defined as: gigabyte × 1000.0
+terabyte defined such that: gigabyte = TB × 1000.0.
 
 ```csharp
 public static readonly Storage Terabyte;

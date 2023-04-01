@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareSecond Field
 
-attometer per square second, defined as: femtometer per square second × (1.0/1000.0)/((1.0)*(1.0))
+attometer per square second defined such that: femtometer per square second = am/s² × (1.0/1000.0)/((1.0)*(1.0)).
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareSecond;

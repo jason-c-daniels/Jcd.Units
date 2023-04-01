@@ -3,7 +3,7 @@
 
 ## Accelerations.PetameterPerSquareRontosecond Field
 
-petameter per square rontosecond, defined as: terameter per square yoctosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
+petameter per square rontosecond defined such that: terameter per square yoctosecond = Pm/rs² × (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration PetameterPerSquareRontosecond;

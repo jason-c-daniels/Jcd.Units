@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMarsDiameter Field
 
-cubic mars diameter, defined as: cubic mars radius × (2.0)*(2.0)*(2.0)
+cubic mars diameter defined such that: cubic mars radius = D(♂)³ × (2.0)*(2.0)*(2.0).
 
 ```csharp
 public static readonly Volume CubicMarsDiameter;

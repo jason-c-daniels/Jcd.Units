@@ -3,7 +3,7 @@
 
 ## Densities.FemtogramPerCubicQuettameter Field
 
-femtogram per cubic quettameter, defined as: picogram per cubic ronnameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+femtogram per cubic quettameter defined such that: picogram per cubic ronnameter = fg/Qm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density FemtogramPerCubicQuettameter;

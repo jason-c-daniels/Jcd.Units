@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Yoctosiemens Field
 
-yoctosiemens, defined as: zeptosiemens × 1.0/1000.0
+yoctosiemens defined such that: zeptosiemens = yS × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalConductance Yoctosiemens;

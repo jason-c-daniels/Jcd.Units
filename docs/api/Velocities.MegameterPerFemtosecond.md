@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerFemtosecond Field
 
-megameter per femtosecond, defined as: kilometer per picosecond × (1000.0)/(1.0/1000.0)
+megameter per femtosecond defined such that: kilometer per picosecond = Mm/fs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MegameterPerFemtosecond;

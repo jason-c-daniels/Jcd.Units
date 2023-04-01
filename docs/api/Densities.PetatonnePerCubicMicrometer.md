@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicMicrometer Field
 
-petatonne per cubic micrometer, defined as: teratonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+petatonne per cubic micrometer defined such that: teratonne per cubic millimeter = Pt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PetatonnePerCubicMicrometer;

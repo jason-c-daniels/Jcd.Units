@@ -3,7 +3,7 @@
 
 ## Amounts.Mole Field
 
-mole, defined as:  count × 6.02214076E+23
+mole defined such that:  count = mol × 6.02214076E+23.
 
 ```csharp
 public static readonly Amount Mole;

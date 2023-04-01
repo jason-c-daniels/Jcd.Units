@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareMinute Field
 
-point per square minute, defined as: inch per square second × (1.0/72.0)/((60.0)*(60.0))
+point per square minute defined such that: inch per square second = p/min² × (1.0/72.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration PointPerSquareMinute;

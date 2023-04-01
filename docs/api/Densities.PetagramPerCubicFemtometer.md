@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicFemtometer Field
 
-petagram per cubic femtometer, defined as: teragram per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+petagram per cubic femtometer defined such that: teragram per cubic picometer = Pg/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density PetagramPerCubicFemtometer;

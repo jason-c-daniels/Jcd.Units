@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicRonnameter Field
 
-centitonne per cubic ronnameter, defined as: decitonne per cubic yottameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+centitonne per cubic ronnameter defined such that: decitonne per cubic yottameter = ct/Rm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density CentitonnePerCubicRonnameter;

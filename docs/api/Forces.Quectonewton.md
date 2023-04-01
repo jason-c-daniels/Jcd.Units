@@ -3,7 +3,7 @@
 
 ## Forces.Quectonewton Field
 
-quectonewton, defined as: rontonewton × 1.0/1000.0
+quectonewton defined such that: rontonewton = qN × 1.0/1000.0.
 
 ```csharp
 public static readonly Force Quectonewton;

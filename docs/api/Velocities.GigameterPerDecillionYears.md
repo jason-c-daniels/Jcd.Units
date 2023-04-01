@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerDecillionYears Field
 
-gigameter per decillion years, defined as: megameter per nonillion years × (1000.0)/(1000.0)
+gigameter per decillion years defined such that: megameter per nonillion years = Gm/decillion yr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity GigameterPerDecillionYears;

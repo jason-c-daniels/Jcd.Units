@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
 public class Durations : UnitOfMeasureEnumeration<Durations, Duration>
 {
    /// <summary>
-   /// planck-time, defined as:  microsecond × 5.391247E-38
+   /// planck-time defined such that:  microsecond = tₚ × 5.391247E-38.
    /// </summary>
    public static readonly Duration PlanckTime = new (
                                                      "planck-time"

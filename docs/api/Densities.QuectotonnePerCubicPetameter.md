@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicPetameter Field
 
-quectotonne per cubic petameter, defined as: rontotonne per cubic terameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+quectotonne per cubic petameter defined such that: rontotonne per cubic terameter = qt/Pm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density QuectotonnePerCubicPetameter;

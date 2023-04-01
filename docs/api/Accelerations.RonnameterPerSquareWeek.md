@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareWeek Field
 
-ronnameter per square week, defined as: yottameter per square day × (1000.0)/((7.0)*(7.0))
+ronnameter per square week defined such that: yottameter per square day = Rm/wk² × (1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareWeek;

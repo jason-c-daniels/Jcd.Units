@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareQuectosecond Field
 
-hand per square quectosecond, defined as: inch per square rontosecond × (4.0)/((1.0/1000.0)*(1.0/1000.0))
+hand per square quectosecond defined such that: inch per square rontosecond = hh/qs² × (4.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration HandPerSquareQuectosecond;

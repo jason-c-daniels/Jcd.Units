@@ -3,7 +3,7 @@
 
 ## Pressures.Teratorr Field
 
-teratorr, defined as: gigatorr × 1000.0
+teratorr defined such that: gigatorr = TTorr × 1000.0.
 
 ```csharp
 public static readonly Pressure Teratorr;

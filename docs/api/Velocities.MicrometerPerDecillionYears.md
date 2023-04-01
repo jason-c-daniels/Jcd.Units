@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerDecillionYears Field
 
-micrometer per decillion years, defined as: millimeter per nonillion years × (1.0/1000.0)/(1000.0)
+micrometer per decillion years defined such that: millimeter per nonillion years = μm/decillion yr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MicrometerPerDecillionYears;

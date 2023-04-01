@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareQuintillionYears Field
 
-ronnameter per square quintillion years, defined as: yottameter per square quadrillion years × (1000.0)/((1000.0)*(1000.0))
+ronnameter per square quintillion years defined such that: yottameter per square quadrillion years = Rm/Eyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareQuintillionYears;

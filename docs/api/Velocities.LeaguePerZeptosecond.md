@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerZeptosecond Field
 
-league per zeptosecond, defined as: mile per attosecond × (3.0)/(1.0/1000.0)
+league per zeptosecond defined such that: mile per attosecond = lea/zs × (3.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity LeaguePerZeptosecond;

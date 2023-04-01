@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareDay Field
 
-furlong per square day, defined as: chain per square hour × (10.0)/((24.0)*(24.0))
+furlong per square day defined such that: chain per square hour = fur/dy² × (10.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareDay;

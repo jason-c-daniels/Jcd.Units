@@ -3,7 +3,7 @@
 
 ## TransferRates.PebibitsPerSecond Field
 
-pebibits per second, defined as: tebibits per second × 1024.0
+pebibits per second defined such that: tebibits per second = Pib/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate PebibitsPerSecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ZeptometerPerSquareHour Field
 
-zeptometer per square hour, defined as: attometer per square minute × (1.0/1000.0)/((60.0)*(60.0))
+zeptometer per square hour defined such that: attometer per square minute = zm/hr² × (1.0/1000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration ZeptometerPerSquareHour;

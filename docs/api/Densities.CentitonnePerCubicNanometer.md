@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicNanometer Field
 
-centitonne per cubic nanometer, defined as: decitonne per cubic micrometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+centitonne per cubic nanometer defined such that: decitonne per cubic micrometer = ct/nm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density CentitonnePerCubicNanometer;

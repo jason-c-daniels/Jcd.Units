@@ -3,7 +3,7 @@
 
 ## Masses.Teratonne Field
 
-teratonne, defined as: gigatonne × 1000.0
+teratonne defined such that: gigatonne = Tt × 1000.0.
 
 ```csharp
 public static readonly Mass Teratonne;

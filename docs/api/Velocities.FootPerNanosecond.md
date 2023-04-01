@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerNanosecond Field
 
-foot per nanosecond, defined as: inch per microsecond × (12)/(1.0/1000.0)
+foot per nanosecond defined such that: inch per microsecond = ft/ns × (12)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity FootPerNanosecond;

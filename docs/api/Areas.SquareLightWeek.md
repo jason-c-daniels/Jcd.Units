@@ -3,7 +3,7 @@
 
 ## Areas.SquareLightWeek Field
 
-square light-week, defined as: square light-day × (7.0)*(7.0)
+square light-week defined such that: square light-day = lw² × (7.0)*(7.0).
 
 ```csharp
 public static readonly Area SquareLightWeek;

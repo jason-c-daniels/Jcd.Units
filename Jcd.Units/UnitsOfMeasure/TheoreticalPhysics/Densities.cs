@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
 public class Densities : UnitOfMeasureEnumeration<Densities, Density>
 {
    /// <summary>
-   /// planck-density, defined as: SI kilogram per cubic meter × 5.1550E+96
+   /// planck-density defined such that: SI kilogram per cubic meter = ρₚ × 5.1550E+96.
    /// </summary>
    public static readonly Density PlanckDensity = new (
                                                        "planck-density"

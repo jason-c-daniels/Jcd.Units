@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareMillennium Field
 
-furlong per square millennium, defined as: chain per square century × (10.0)/((10.0)*(10.0))
+furlong per square millennium defined such that: chain per square century = fur/kyr² × (10.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareMillennium;

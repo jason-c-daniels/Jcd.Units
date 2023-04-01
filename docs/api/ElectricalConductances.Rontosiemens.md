@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Rontosiemens Field
 
-rontosiemens, defined as: yoctosiemens × 1.0/1000.0
+rontosiemens defined such that: yoctosiemens = rS × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalConductance Rontosiemens;

@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicGigameter Field
 
-dekatonne per cubic gigameter, defined as: tonne per cubic megameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+dekatonne per cubic gigameter defined such that: tonne per cubic megameter = dat/Gm³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density DekatonnePerCubicGigameter;

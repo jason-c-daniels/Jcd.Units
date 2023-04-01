@@ -3,7 +3,7 @@
 
 ## Accelerations.YoctometerPerSquareHour Field
 
-yoctometer per square hour, defined as: zeptometer per square minute × (1.0/1000.0)/((60.0)*(60.0))
+yoctometer per square hour defined such that: zeptometer per square minute = ym/hr² × (1.0/1000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration YoctometerPerSquareHour;

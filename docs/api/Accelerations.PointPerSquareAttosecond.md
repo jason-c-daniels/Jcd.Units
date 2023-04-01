@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareAttosecond Field
 
-point per square attosecond, defined as: inch per square femtosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+point per square attosecond defined such that: inch per square femtosecond = p/as² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration PointPerSquareAttosecond;

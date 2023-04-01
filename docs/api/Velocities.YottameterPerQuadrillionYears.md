@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerQuadrillionYears Field
 
-yottameter per quadrillion years, defined as: zettameter per trillion years × (1000.0)/(1000.0)
+yottameter per quadrillion years defined such that: zettameter per trillion years = Ym/Pyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity YottameterPerQuadrillionYears;

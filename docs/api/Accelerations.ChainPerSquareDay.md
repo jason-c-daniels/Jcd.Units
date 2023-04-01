@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareDay Field
 
-chain per square day, defined as: yard per square hour × (22.0)/((24.0)*(24.0))
+chain per square day defined such that: yard per square hour = ch/dy² × (22.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration ChainPerSquareDay;

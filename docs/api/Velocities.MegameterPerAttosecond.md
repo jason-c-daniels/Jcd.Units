@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerAttosecond Field
 
-megameter per attosecond, defined as: kilometer per femtosecond × (1000.0)/(1.0/1000.0)
+megameter per attosecond defined such that: kilometer per femtosecond = Mm/as × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MegameterPerAttosecond;

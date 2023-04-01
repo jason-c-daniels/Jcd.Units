@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicKilometer Field
 
-petatonne per cubic kilometer, defined as: teratonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+petatonne per cubic kilometer defined such that: teratonne per cubic hectometer = Pt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density PetatonnePerCubicKilometer;

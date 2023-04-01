@@ -3,7 +3,7 @@
 
 ## Densities.DecitonnePerCubicPicometer Field
 
-decitonne per cubic picometer, defined as: tonne per cubic nanometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+decitonne per cubic picometer defined such that: tonne per cubic nanometer = dt/pm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density DecitonnePerCubicPicometer;

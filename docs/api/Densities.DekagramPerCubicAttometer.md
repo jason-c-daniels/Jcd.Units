@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicAttometer Field
 
-dekagram per cubic attometer, defined as: hectogram per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+dekagram per cubic attometer defined such that: hectogram per cubic femtometer = dag/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density DekagramPerCubicAttometer;

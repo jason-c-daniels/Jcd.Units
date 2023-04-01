@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicAttometer Field
 
-millitonne per cubic attometer, defined as: centitonne per cubic femtometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+millitonne per cubic attometer defined such that: centitonne per cubic femtometer = mt/am³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density MillitonnePerCubicAttometer;

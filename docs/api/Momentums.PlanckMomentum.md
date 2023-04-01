@@ -3,7 +3,7 @@
 
 ## Momentums.PlanckMomentum Field
 
-planck-momentum, defined as: SI newton-second × 6.5249
+planck-momentum defined such that: SI newton-second = mₚc × 6.5249.
 
 ```csharp
 public static readonly Momentum PlanckMomentum;

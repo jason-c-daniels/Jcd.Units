@@ -3,7 +3,7 @@
 
 ## Densities.MillitonnePerCubicPetameter Field
 
-millitonne per cubic petameter, defined as: centitonne per cubic terameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+millitonne per cubic petameter defined such that: centitonne per cubic terameter = mt/Pm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MillitonnePerCubicPetameter;

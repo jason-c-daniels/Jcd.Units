@@ -3,7 +3,7 @@
 
 ## Volumes.CubicHectometer Field
 
-cubic hectometer, defined as: cubic dekameter × (10.0)*(10.0)*(10.0)
+cubic hectometer defined such that: cubic dekameter = hm³ × (10.0)*(10.0)*(10.0).
 
 ```csharp
 public static readonly Volume CubicHectometer;

@@ -3,7 +3,7 @@
 
 ## Pressures.Bar Field
 
-bar, defined as: standard atmosphere × 0.986923
+bar defined such that: standard atmosphere = bar × 0.986923.
 
 ```csharp
 public static readonly Pressure Bar;

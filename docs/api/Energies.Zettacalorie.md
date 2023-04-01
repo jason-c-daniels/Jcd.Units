@@ -3,7 +3,7 @@
 
 ## Energies.Zettacalorie Field
 
-zettacalorie, defined as: exacalorie × 1000.0
+zettacalorie defined such that: exacalorie = Zc × 1000.0.
 
 ```csharp
 public static readonly Energy Zettacalorie;

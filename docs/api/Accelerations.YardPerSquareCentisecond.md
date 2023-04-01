@@ -3,7 +3,7 @@
 
 ## Accelerations.YardPerSquareCentisecond Field
 
-yard per square centisecond, defined as: foot per square decisecond × (3.0)/((1.0/10.0)*(1.0/10.0))
+yard per square centisecond defined such that: foot per square decisecond = yd/cs² × (3.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Acceleration YardPerSquareCentisecond;

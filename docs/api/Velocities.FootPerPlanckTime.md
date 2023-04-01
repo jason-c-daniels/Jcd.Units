@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerPlanckTime Field
 
-foot per planck-time, defined as: inch per microsecond × (12)/(5.391247E-38)
+foot per planck-time defined such that: inch per microsecond = ft/tₚ × (12)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity FootPerPlanckTime;

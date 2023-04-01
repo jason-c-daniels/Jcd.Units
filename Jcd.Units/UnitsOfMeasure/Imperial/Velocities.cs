@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Imperial;
 public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
 {
    /// <summary>
-   /// inch per second, defined as: SI centimeter per second × (2.54)/(1.0)
+   /// inch per second defined such that: SI centimeter per second = in/s × (2.54)/(1.0).
    /// </summary>
    public static readonly Velocity InchPerSecond = new (
                                                         "inch per second"
@@ -29,7 +29,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// inch per planck-time, defined as: SI centimeter per microsecond × (2.54)/(5.391247E-38)
+   /// inch per planck-time defined such that: SI centimeter per microsecond = in/tₚ × (2.54)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity InchPerPlanckTime = new (
                                                             "inch per planck-time"
@@ -40,7 +40,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// inch per decisecond, defined as: SI centimeter per second × (2.54)/(1.0/10.0)
+   /// inch per decisecond defined such that: SI centimeter per second = in/ds × (2.54)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity InchPerDecisecond = new (
                                                             "inch per decisecond"
@@ -51,7 +51,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// inch per centisecond, defined as: SI centimeter per decisecond × (2.54)/(1.0/10.0)
+   /// inch per centisecond defined such that: SI centimeter per decisecond = in/cs × (2.54)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity InchPerCentisecond = new (
                                                              "inch per centisecond"
@@ -62,7 +62,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// inch per millisecond, defined as: SI centimeter per centisecond × (2.54)/(1.0/10.0)
+   /// inch per millisecond defined such that: SI centimeter per centisecond = in/ms × (2.54)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity InchPerMillisecond = new (
                                                              "inch per millisecond"
@@ -73,7 +73,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// inch per microsecond, defined as: SI centimeter per millisecond × (2.54)/(1.0/1000.0)
+   /// inch per microsecond defined such that: SI centimeter per millisecond = in/μs × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerMicrosecond = new (
                                                              "inch per microsecond"
@@ -84,7 +84,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// inch per nanosecond, defined as: SI centimeter per microsecond × (2.54)/(1.0/1000.0)
+   /// inch per nanosecond defined such that: SI centimeter per microsecond = in/ns × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerNanosecond = new (
                                                             "inch per nanosecond"
@@ -95,7 +95,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// inch per picosecond, defined as: SI centimeter per nanosecond × (2.54)/(1.0/1000.0)
+   /// inch per picosecond defined such that: SI centimeter per nanosecond = in/ps × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerPicosecond = new (
                                                             "inch per picosecond"
@@ -106,7 +106,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// inch per femtosecond, defined as: SI centimeter per picosecond × (2.54)/(1.0/1000.0)
+   /// inch per femtosecond defined such that: SI centimeter per picosecond = in/fs × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerFemtosecond = new (
                                                              "inch per femtosecond"
@@ -117,7 +117,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// inch per attosecond, defined as: SI centimeter per femtosecond × (2.54)/(1.0/1000.0)
+   /// inch per attosecond defined such that: SI centimeter per femtosecond = in/as × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerAttosecond = new (
                                                             "inch per attosecond"
@@ -128,7 +128,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// inch per zeptosecond, defined as: SI centimeter per attosecond × (2.54)/(1.0/1000.0)
+   /// inch per zeptosecond defined such that: SI centimeter per attosecond = in/zs × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerZeptosecond = new (
                                                              "inch per zeptosecond"
@@ -139,7 +139,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// inch per yoctosecond, defined as: SI centimeter per zeptosecond × (2.54)/(1.0/1000.0)
+   /// inch per yoctosecond defined such that: SI centimeter per zeptosecond = in/ys × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerYoctosecond = new (
                                                              "inch per yoctosecond"
@@ -150,7 +150,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// inch per rontosecond, defined as: SI centimeter per yoctosecond × (2.54)/(1.0/1000.0)
+   /// inch per rontosecond defined such that: SI centimeter per yoctosecond = in/rs × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerRontosecond = new (
                                                              "inch per rontosecond"
@@ -161,7 +161,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// inch per quectosecond, defined as: SI centimeter per rontosecond × (2.54)/(1.0/1000.0)
+   /// inch per quectosecond defined such that: SI centimeter per rontosecond = in/qs × (2.54)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity InchPerQuectosecond = new (
                                                               "inch per quectosecond"
@@ -172,7 +172,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// inch per minute, defined as: SI centimeter per second × (2.54)/(60.0)
+   /// inch per minute defined such that: SI centimeter per second = in/min × (2.54)/(60.0).
    /// </summary>
    public static readonly Velocity InchPerMinute = new (
                                                         "inch per minute"
@@ -183,7 +183,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// foot per second, defined as: inch per second × (12)/(1.0)
+   /// foot per second defined such that: inch per second = ft/s × (12)/(1.0).
    /// </summary>
    public static readonly Velocity FootPerSecond = new (
                                                         "foot per second"
@@ -194,7 +194,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// foot per planck-time, defined as: inch per microsecond × (12)/(5.391247E-38)
+   /// foot per planck-time defined such that: inch per microsecond = ft/tₚ × (12)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity FootPerPlanckTime = new (
                                                             "foot per planck-time"
@@ -205,7 +205,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// foot per decisecond, defined as: inch per second × (12)/(1.0/10.0)
+   /// foot per decisecond defined such that: inch per second = ft/ds × (12)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FootPerDecisecond = new (
                                                             "foot per decisecond"
@@ -216,7 +216,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// foot per centisecond, defined as: inch per decisecond × (12)/(1.0/10.0)
+   /// foot per centisecond defined such that: inch per decisecond = ft/cs × (12)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FootPerCentisecond = new (
                                                              "foot per centisecond"
@@ -227,7 +227,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// foot per millisecond, defined as: inch per centisecond × (12)/(1.0/10.0)
+   /// foot per millisecond defined such that: inch per centisecond = ft/ms × (12)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FootPerMillisecond = new (
                                                              "foot per millisecond"
@@ -238,7 +238,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// foot per microsecond, defined as: inch per millisecond × (12)/(1.0/1000.0)
+   /// foot per microsecond defined such that: inch per millisecond = ft/μs × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerMicrosecond = new (
                                                              "foot per microsecond"
@@ -249,7 +249,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// foot per nanosecond, defined as: inch per microsecond × (12)/(1.0/1000.0)
+   /// foot per nanosecond defined such that: inch per microsecond = ft/ns × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerNanosecond = new (
                                                             "foot per nanosecond"
@@ -260,7 +260,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// foot per picosecond, defined as: inch per nanosecond × (12)/(1.0/1000.0)
+   /// foot per picosecond defined such that: inch per nanosecond = ft/ps × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerPicosecond = new (
                                                             "foot per picosecond"
@@ -271,7 +271,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// foot per femtosecond, defined as: inch per picosecond × (12)/(1.0/1000.0)
+   /// foot per femtosecond defined such that: inch per picosecond = ft/fs × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerFemtosecond = new (
                                                              "foot per femtosecond"
@@ -282,7 +282,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// foot per attosecond, defined as: inch per femtosecond × (12)/(1.0/1000.0)
+   /// foot per attosecond defined such that: inch per femtosecond = ft/as × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerAttosecond = new (
                                                             "foot per attosecond"
@@ -293,7 +293,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// foot per zeptosecond, defined as: inch per attosecond × (12)/(1.0/1000.0)
+   /// foot per zeptosecond defined such that: inch per attosecond = ft/zs × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerZeptosecond = new (
                                                              "foot per zeptosecond"
@@ -304,7 +304,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// foot per yoctosecond, defined as: inch per zeptosecond × (12)/(1.0/1000.0)
+   /// foot per yoctosecond defined such that: inch per zeptosecond = ft/ys × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerYoctosecond = new (
                                                              "foot per yoctosecond"
@@ -315,7 +315,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// foot per rontosecond, defined as: inch per yoctosecond × (12)/(1.0/1000.0)
+   /// foot per rontosecond defined such that: inch per yoctosecond = ft/rs × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerRontosecond = new (
                                                              "foot per rontosecond"
@@ -326,7 +326,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// foot per quectosecond, defined as: inch per rontosecond × (12)/(1.0/1000.0)
+   /// foot per quectosecond defined such that: inch per rontosecond = ft/qs × (12)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FootPerQuectosecond = new (
                                                               "foot per quectosecond"
@@ -337,7 +337,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// inch per hour, defined as: SI centimeter per minute × (2.54)/(60.0)
+   /// inch per hour defined such that: SI centimeter per minute = in/hr × (2.54)/(60.0).
    /// </summary>
    public static readonly Velocity InchPerHour = new (
                                                       "inch per hour"
@@ -348,7 +348,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// twip per second, defined as: foot per second × (1.0/17280.0)/(1.0)
+   /// twip per second defined such that: foot per second = twip/s × (1.0/17280.0)/(1.0).
    /// </summary>
    public static readonly Velocity TwipPerSecond = new (
                                                         "twip per second"
@@ -359,7 +359,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// twip per planck-time, defined as: foot per microsecond × (1.0/17280.0)/(5.391247E-38)
+   /// twip per planck-time defined such that: foot per microsecond = twip/tₚ × (1.0/17280.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity TwipPerPlanckTime = new (
                                                             "twip per planck-time"
@@ -370,7 +370,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// twip per decisecond, defined as: foot per second × (1.0/17280.0)/(1.0/10.0)
+   /// twip per decisecond defined such that: foot per second = twip/ds × (1.0/17280.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity TwipPerDecisecond = new (
                                                             "twip per decisecond"
@@ -381,7 +381,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// twip per centisecond, defined as: foot per decisecond × (1.0/17280.0)/(1.0/10.0)
+   /// twip per centisecond defined such that: foot per decisecond = twip/cs × (1.0/17280.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity TwipPerCentisecond = new (
                                                              "twip per centisecond"
@@ -392,7 +392,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// twip per millisecond, defined as: foot per centisecond × (1.0/17280.0)/(1.0/10.0)
+   /// twip per millisecond defined such that: foot per centisecond = twip/ms × (1.0/17280.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity TwipPerMillisecond = new (
                                                              "twip per millisecond"
@@ -403,7 +403,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// twip per microsecond, defined as: foot per millisecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per microsecond defined such that: foot per millisecond = twip/μs × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerMicrosecond = new (
                                                              "twip per microsecond"
@@ -414,7 +414,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// twip per nanosecond, defined as: foot per microsecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per nanosecond defined such that: foot per microsecond = twip/ns × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerNanosecond = new (
                                                             "twip per nanosecond"
@@ -425,7 +425,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// twip per picosecond, defined as: foot per nanosecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per picosecond defined such that: foot per nanosecond = twip/ps × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerPicosecond = new (
                                                             "twip per picosecond"
@@ -436,7 +436,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// twip per femtosecond, defined as: foot per picosecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per femtosecond defined such that: foot per picosecond = twip/fs × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerFemtosecond = new (
                                                              "twip per femtosecond"
@@ -447,7 +447,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// twip per attosecond, defined as: foot per femtosecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per attosecond defined such that: foot per femtosecond = twip/as × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerAttosecond = new (
                                                             "twip per attosecond"
@@ -458,7 +458,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// twip per zeptosecond, defined as: foot per attosecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per zeptosecond defined such that: foot per attosecond = twip/zs × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerZeptosecond = new (
                                                              "twip per zeptosecond"
@@ -469,7 +469,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// twip per yoctosecond, defined as: foot per zeptosecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per yoctosecond defined such that: foot per zeptosecond = twip/ys × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerYoctosecond = new (
                                                              "twip per yoctosecond"
@@ -480,7 +480,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// twip per rontosecond, defined as: foot per yoctosecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per rontosecond defined such that: foot per yoctosecond = twip/rs × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerRontosecond = new (
                                                              "twip per rontosecond"
@@ -491,7 +491,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// twip per quectosecond, defined as: foot per rontosecond × (1.0/17280.0)/(1.0/1000.0)
+   /// twip per quectosecond defined such that: foot per rontosecond = twip/qs × (1.0/17280.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TwipPerQuectosecond = new (
                                                               "twip per quectosecond"
@@ -502,7 +502,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// inch per day, defined as: SI centimeter per hour × (2.54)/(24.0)
+   /// inch per day defined such that: SI centimeter per hour = in/dy × (2.54)/(24.0).
    /// </summary>
    public static readonly Velocity InchPerDay = new (
                                                      "inch per day"
@@ -513,7 +513,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// thou per second, defined as: foot per second × (1.0/12000.0)/(1.0)
+   /// thou per second defined such that: foot per second = th/s × (1.0/12000.0)/(1.0).
    /// </summary>
    public static readonly Velocity ThouPerSecond = new (
                                                         "thou per second"
@@ -524,7 +524,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// thou per planck-time, defined as: foot per microsecond × (1.0/12000.0)/(5.391247E-38)
+   /// thou per planck-time defined such that: foot per microsecond = th/tₚ × (1.0/12000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity ThouPerPlanckTime = new (
                                                             "thou per planck-time"
@@ -535,7 +535,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// thou per decisecond, defined as: foot per second × (1.0/12000.0)/(1.0/10.0)
+   /// thou per decisecond defined such that: foot per second = th/ds × (1.0/12000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ThouPerDecisecond = new (
                                                             "thou per decisecond"
@@ -546,7 +546,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// thou per centisecond, defined as: foot per decisecond × (1.0/12000.0)/(1.0/10.0)
+   /// thou per centisecond defined such that: foot per decisecond = th/cs × (1.0/12000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ThouPerCentisecond = new (
                                                              "thou per centisecond"
@@ -557,7 +557,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// thou per millisecond, defined as: foot per centisecond × (1.0/12000.0)/(1.0/10.0)
+   /// thou per millisecond defined such that: foot per centisecond = th/ms × (1.0/12000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ThouPerMillisecond = new (
                                                              "thou per millisecond"
@@ -568,7 +568,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// thou per microsecond, defined as: foot per millisecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per microsecond defined such that: foot per millisecond = th/μs × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerMicrosecond = new (
                                                              "thou per microsecond"
@@ -579,7 +579,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// thou per nanosecond, defined as: foot per microsecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per nanosecond defined such that: foot per microsecond = th/ns × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerNanosecond = new (
                                                             "thou per nanosecond"
@@ -590,7 +590,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// thou per picosecond, defined as: foot per nanosecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per picosecond defined such that: foot per nanosecond = th/ps × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerPicosecond = new (
                                                             "thou per picosecond"
@@ -601,7 +601,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// thou per femtosecond, defined as: foot per picosecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per femtosecond defined such that: foot per picosecond = th/fs × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerFemtosecond = new (
                                                              "thou per femtosecond"
@@ -612,7 +612,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// thou per attosecond, defined as: foot per femtosecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per attosecond defined such that: foot per femtosecond = th/as × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerAttosecond = new (
                                                             "thou per attosecond"
@@ -623,7 +623,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// thou per zeptosecond, defined as: foot per attosecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per zeptosecond defined such that: foot per attosecond = th/zs × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerZeptosecond = new (
                                                              "thou per zeptosecond"
@@ -634,7 +634,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// thou per yoctosecond, defined as: foot per zeptosecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per yoctosecond defined such that: foot per zeptosecond = th/ys × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerYoctosecond = new (
                                                              "thou per yoctosecond"
@@ -645,7 +645,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// thou per rontosecond, defined as: foot per yoctosecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per rontosecond defined such that: foot per yoctosecond = th/rs × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerRontosecond = new (
                                                              "thou per rontosecond"
@@ -656,7 +656,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// thou per quectosecond, defined as: foot per rontosecond × (1.0/12000.0)/(1.0/1000.0)
+   /// thou per quectosecond defined such that: foot per rontosecond = th/qs × (1.0/12000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ThouPerQuectosecond = new (
                                                               "thou per quectosecond"
@@ -667,7 +667,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// inch per week, defined as: SI centimeter per day × (2.54)/(7.0)
+   /// inch per week defined such that: SI centimeter per day = in/wk × (2.54)/(7.0).
    /// </summary>
    public static readonly Velocity InchPerWeek = new (
                                                       "inch per week"
@@ -678,7 +678,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// barleycorn per second, defined as: foot per second × (1.0/36.0)/(1.0)
+   /// barleycorn per second defined such that: foot per second = barleycorn/s × (1.0/36.0)/(1.0).
    /// </summary>
    public static readonly Velocity BarleycornPerSecond = new (
                                                               "barleycorn per second"
@@ -689,7 +689,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// barleycorn per planck-time, defined as: foot per microsecond × (1.0/36.0)/(5.391247E-38)
+   /// barleycorn per planck-time defined such that: foot per microsecond = barleycorn/tₚ × (1.0/36.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity BarleycornPerPlanckTime = new (
                                                                   "barleycorn per planck-time"
@@ -700,7 +700,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// barleycorn per decisecond, defined as: foot per second × (1.0/36.0)/(1.0/10.0)
+   /// barleycorn per decisecond defined such that: foot per second = barleycorn/ds × (1.0/36.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity BarleycornPerDecisecond = new (
                                                                   "barleycorn per decisecond"
@@ -711,7 +711,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// barleycorn per centisecond, defined as: foot per decisecond × (1.0/36.0)/(1.0/10.0)
+   /// barleycorn per centisecond defined such that: foot per decisecond = barleycorn/cs × (1.0/36.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity BarleycornPerCentisecond = new (
                                                                    "barleycorn per centisecond"
@@ -722,7 +722,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// barleycorn per millisecond, defined as: foot per centisecond × (1.0/36.0)/(1.0/10.0)
+   /// barleycorn per millisecond defined such that: foot per centisecond = barleycorn/ms × (1.0/36.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity BarleycornPerMillisecond = new (
                                                                    "barleycorn per millisecond"
@@ -733,7 +733,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// barleycorn per microsecond, defined as: foot per millisecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per microsecond defined such that: foot per millisecond = barleycorn/μs × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerMicrosecond = new (
                                                                    "barleycorn per microsecond"
@@ -744,7 +744,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// barleycorn per nanosecond, defined as: foot per microsecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per nanosecond defined such that: foot per microsecond = barleycorn/ns × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerNanosecond = new (
                                                                   "barleycorn per nanosecond"
@@ -755,7 +755,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// barleycorn per picosecond, defined as: foot per nanosecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per picosecond defined such that: foot per nanosecond = barleycorn/ps × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerPicosecond = new (
                                                                   "barleycorn per picosecond"
@@ -766,7 +766,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// barleycorn per femtosecond, defined as: foot per picosecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per femtosecond defined such that: foot per picosecond = barleycorn/fs × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerFemtosecond = new (
                                                                    "barleycorn per femtosecond"
@@ -777,7 +777,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// barleycorn per attosecond, defined as: foot per femtosecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per attosecond defined such that: foot per femtosecond = barleycorn/as × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerAttosecond = new (
                                                                   "barleycorn per attosecond"
@@ -788,7 +788,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// barleycorn per zeptosecond, defined as: foot per attosecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per zeptosecond defined such that: foot per attosecond = barleycorn/zs × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerZeptosecond = new (
                                                                    "barleycorn per zeptosecond"
@@ -799,7 +799,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// barleycorn per yoctosecond, defined as: foot per zeptosecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per yoctosecond defined such that: foot per zeptosecond = barleycorn/ys × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerYoctosecond = new (
                                                                    "barleycorn per yoctosecond"
@@ -810,7 +810,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// barleycorn per rontosecond, defined as: foot per yoctosecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per rontosecond defined such that: foot per yoctosecond = barleycorn/rs × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerRontosecond = new (
                                                                    "barleycorn per rontosecond"
@@ -821,7 +821,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// barleycorn per quectosecond, defined as: foot per rontosecond × (1.0/36.0)/(1.0/1000.0)
+   /// barleycorn per quectosecond defined such that: foot per rontosecond = barleycorn/qs × (1.0/36.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerQuectosecond = new (
                                                                     "barleycorn per quectosecond"
@@ -832,7 +832,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// inch per year, defined as: SI centimeter per day × (2.54)/(365.2525)
+   /// inch per year defined such that: SI centimeter per day = in/yr × (2.54)/(365.2525).
    /// </summary>
    public static readonly Velocity InchPerYear = new (
                                                       "inch per year"
@@ -843,7 +843,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// hand per second, defined as: inch per second × (4.0)/(1.0)
+   /// hand per second defined such that: inch per second = hh/s × (4.0)/(1.0).
    /// </summary>
    public static readonly Velocity HandPerSecond = new (
                                                         "hand per second"
@@ -854,7 +854,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// hand per planck-time, defined as: inch per microsecond × (4.0)/(5.391247E-38)
+   /// hand per planck-time defined such that: inch per microsecond = hh/tₚ × (4.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity HandPerPlanckTime = new (
                                                             "hand per planck-time"
@@ -865,7 +865,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// hand per decisecond, defined as: inch per second × (4.0)/(1.0/10.0)
+   /// hand per decisecond defined such that: inch per second = hh/ds × (4.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity HandPerDecisecond = new (
                                                             "hand per decisecond"
@@ -876,7 +876,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// hand per centisecond, defined as: inch per decisecond × (4.0)/(1.0/10.0)
+   /// hand per centisecond defined such that: inch per decisecond = hh/cs × (4.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity HandPerCentisecond = new (
                                                              "hand per centisecond"
@@ -887,7 +887,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// hand per millisecond, defined as: inch per centisecond × (4.0)/(1.0/10.0)
+   /// hand per millisecond defined such that: inch per centisecond = hh/ms × (4.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity HandPerMillisecond = new (
                                                              "hand per millisecond"
@@ -898,7 +898,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// hand per microsecond, defined as: inch per millisecond × (4.0)/(1.0/1000.0)
+   /// hand per microsecond defined such that: inch per millisecond = hh/μs × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerMicrosecond = new (
                                                              "hand per microsecond"
@@ -909,7 +909,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// hand per nanosecond, defined as: inch per microsecond × (4.0)/(1.0/1000.0)
+   /// hand per nanosecond defined such that: inch per microsecond = hh/ns × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerNanosecond = new (
                                                             "hand per nanosecond"
@@ -920,7 +920,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// hand per picosecond, defined as: inch per nanosecond × (4.0)/(1.0/1000.0)
+   /// hand per picosecond defined such that: inch per nanosecond = hh/ps × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerPicosecond = new (
                                                             "hand per picosecond"
@@ -931,7 +931,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// hand per femtosecond, defined as: inch per picosecond × (4.0)/(1.0/1000.0)
+   /// hand per femtosecond defined such that: inch per picosecond = hh/fs × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerFemtosecond = new (
                                                              "hand per femtosecond"
@@ -942,7 +942,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// hand per attosecond, defined as: inch per femtosecond × (4.0)/(1.0/1000.0)
+   /// hand per attosecond defined such that: inch per femtosecond = hh/as × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerAttosecond = new (
                                                             "hand per attosecond"
@@ -953,7 +953,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// hand per zeptosecond, defined as: inch per attosecond × (4.0)/(1.0/1000.0)
+   /// hand per zeptosecond defined such that: inch per attosecond = hh/zs × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerZeptosecond = new (
                                                              "hand per zeptosecond"
@@ -964,7 +964,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// hand per yoctosecond, defined as: inch per zeptosecond × (4.0)/(1.0/1000.0)
+   /// hand per yoctosecond defined such that: inch per zeptosecond = hh/ys × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerYoctosecond = new (
                                                              "hand per yoctosecond"
@@ -975,7 +975,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// hand per rontosecond, defined as: inch per yoctosecond × (4.0)/(1.0/1000.0)
+   /// hand per rontosecond defined such that: inch per yoctosecond = hh/rs × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerRontosecond = new (
                                                              "hand per rontosecond"
@@ -986,7 +986,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// hand per quectosecond, defined as: inch per rontosecond × (4.0)/(1.0/1000.0)
+   /// hand per quectosecond defined such that: inch per rontosecond = hh/qs × (4.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HandPerQuectosecond = new (
                                                               "hand per quectosecond"
@@ -997,7 +997,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// inch per decade, defined as: SI centimeter per year × (2.54)/(10.0)
+   /// inch per decade defined such that: SI centimeter per year = in/decade × (2.54)/(10.0).
    /// </summary>
    public static readonly Velocity InchPerDecade = new (
                                                         "inch per decade"
@@ -1008,7 +1008,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// yard per second, defined as: foot per second × (3.0)/(1.0)
+   /// yard per second defined such that: foot per second = yd/s × (3.0)/(1.0).
    /// </summary>
    public static readonly Velocity YardPerSecond = new (
                                                         "yard per second"
@@ -1019,7 +1019,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// yard per planck-time, defined as: foot per microsecond × (3.0)/(5.391247E-38)
+   /// yard per planck-time defined such that: foot per microsecond = yd/tₚ × (3.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity YardPerPlanckTime = new (
                                                             "yard per planck-time"
@@ -1030,7 +1030,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// yard per decisecond, defined as: foot per second × (3.0)/(1.0/10.0)
+   /// yard per decisecond defined such that: foot per second = yd/ds × (3.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YardPerDecisecond = new (
                                                             "yard per decisecond"
@@ -1041,7 +1041,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// yard per centisecond, defined as: foot per decisecond × (3.0)/(1.0/10.0)
+   /// yard per centisecond defined such that: foot per decisecond = yd/cs × (3.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YardPerCentisecond = new (
                                                              "yard per centisecond"
@@ -1052,7 +1052,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yard per millisecond, defined as: foot per centisecond × (3.0)/(1.0/10.0)
+   /// yard per millisecond defined such that: foot per centisecond = yd/ms × (3.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YardPerMillisecond = new (
                                                              "yard per millisecond"
@@ -1063,7 +1063,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yard per microsecond, defined as: foot per millisecond × (3.0)/(1.0/1000.0)
+   /// yard per microsecond defined such that: foot per millisecond = yd/μs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerMicrosecond = new (
                                                              "yard per microsecond"
@@ -1074,7 +1074,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yard per nanosecond, defined as: foot per microsecond × (3.0)/(1.0/1000.0)
+   /// yard per nanosecond defined such that: foot per microsecond = yd/ns × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerNanosecond = new (
                                                             "yard per nanosecond"
@@ -1085,7 +1085,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// yard per picosecond, defined as: foot per nanosecond × (3.0)/(1.0/1000.0)
+   /// yard per picosecond defined such that: foot per nanosecond = yd/ps × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerPicosecond = new (
                                                             "yard per picosecond"
@@ -1096,7 +1096,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// yard per femtosecond, defined as: foot per picosecond × (3.0)/(1.0/1000.0)
+   /// yard per femtosecond defined such that: foot per picosecond = yd/fs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerFemtosecond = new (
                                                              "yard per femtosecond"
@@ -1107,7 +1107,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yard per attosecond, defined as: foot per femtosecond × (3.0)/(1.0/1000.0)
+   /// yard per attosecond defined such that: foot per femtosecond = yd/as × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerAttosecond = new (
                                                             "yard per attosecond"
@@ -1118,7 +1118,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// yard per zeptosecond, defined as: foot per attosecond × (3.0)/(1.0/1000.0)
+   /// yard per zeptosecond defined such that: foot per attosecond = yd/zs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerZeptosecond = new (
                                                              "yard per zeptosecond"
@@ -1129,7 +1129,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yard per yoctosecond, defined as: foot per zeptosecond × (3.0)/(1.0/1000.0)
+   /// yard per yoctosecond defined such that: foot per zeptosecond = yd/ys × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerYoctosecond = new (
                                                              "yard per yoctosecond"
@@ -1140,7 +1140,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yard per rontosecond, defined as: foot per yoctosecond × (3.0)/(1.0/1000.0)
+   /// yard per rontosecond defined such that: foot per yoctosecond = yd/rs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerRontosecond = new (
                                                              "yard per rontosecond"
@@ -1151,7 +1151,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yard per quectosecond, defined as: foot per rontosecond × (3.0)/(1.0/1000.0)
+   /// yard per quectosecond defined such that: foot per rontosecond = yd/qs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YardPerQuectosecond = new (
                                                               "yard per quectosecond"
@@ -1162,7 +1162,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// inch per century, defined as: SI centimeter per decade × (2.54)/(10.0)
+   /// inch per century defined such that: SI centimeter per decade = in/century × (2.54)/(10.0).
    /// </summary>
    public static readonly Velocity InchPerCentury = new (
                                                          "inch per century"
@@ -1173,7 +1173,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// chain per second, defined as: yard per second × (22.0)/(1.0)
+   /// chain per second defined such that: yard per second = ch/s × (22.0)/(1.0).
    /// </summary>
    public static readonly Velocity ChainPerSecond = new (
                                                          "chain per second"
@@ -1184,7 +1184,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// chain per planck-time, defined as: yard per microsecond × (22.0)/(5.391247E-38)
+   /// chain per planck-time defined such that: yard per microsecond = ch/tₚ × (22.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity ChainPerPlanckTime = new (
                                                              "chain per planck-time"
@@ -1195,7 +1195,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per decisecond, defined as: yard per second × (22.0)/(1.0/10.0)
+   /// chain per decisecond defined such that: yard per second = ch/ds × (22.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ChainPerDecisecond = new (
                                                              "chain per decisecond"
@@ -1206,7 +1206,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per centisecond, defined as: yard per decisecond × (22.0)/(1.0/10.0)
+   /// chain per centisecond defined such that: yard per decisecond = ch/cs × (22.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ChainPerCentisecond = new (
                                                               "chain per centisecond"
@@ -1217,7 +1217,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per millisecond, defined as: yard per centisecond × (22.0)/(1.0/10.0)
+   /// chain per millisecond defined such that: yard per centisecond = ch/ms × (22.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ChainPerMillisecond = new (
                                                               "chain per millisecond"
@@ -1228,7 +1228,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per microsecond, defined as: yard per millisecond × (22.0)/(1.0/1000.0)
+   /// chain per microsecond defined such that: yard per millisecond = ch/μs × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerMicrosecond = new (
                                                               "chain per microsecond"
@@ -1239,7 +1239,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per nanosecond, defined as: yard per microsecond × (22.0)/(1.0/1000.0)
+   /// chain per nanosecond defined such that: yard per microsecond = ch/ns × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerNanosecond = new (
                                                              "chain per nanosecond"
@@ -1250,7 +1250,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per picosecond, defined as: yard per nanosecond × (22.0)/(1.0/1000.0)
+   /// chain per picosecond defined such that: yard per nanosecond = ch/ps × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerPicosecond = new (
                                                              "chain per picosecond"
@@ -1261,7 +1261,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per femtosecond, defined as: yard per picosecond × (22.0)/(1.0/1000.0)
+   /// chain per femtosecond defined such that: yard per picosecond = ch/fs × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerFemtosecond = new (
                                                               "chain per femtosecond"
@@ -1272,7 +1272,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per attosecond, defined as: yard per femtosecond × (22.0)/(1.0/1000.0)
+   /// chain per attosecond defined such that: yard per femtosecond = ch/as × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerAttosecond = new (
                                                              "chain per attosecond"
@@ -1283,7 +1283,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// chain per zeptosecond, defined as: yard per attosecond × (22.0)/(1.0/1000.0)
+   /// chain per zeptosecond defined such that: yard per attosecond = ch/zs × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerZeptosecond = new (
                                                               "chain per zeptosecond"
@@ -1294,7 +1294,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per yoctosecond, defined as: yard per zeptosecond × (22.0)/(1.0/1000.0)
+   /// chain per yoctosecond defined such that: yard per zeptosecond = ch/ys × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerYoctosecond = new (
                                                               "chain per yoctosecond"
@@ -1305,7 +1305,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per rontosecond, defined as: yard per yoctosecond × (22.0)/(1.0/1000.0)
+   /// chain per rontosecond defined such that: yard per yoctosecond = ch/rs × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerRontosecond = new (
                                                               "chain per rontosecond"
@@ -1316,7 +1316,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per quectosecond, defined as: yard per rontosecond × (22.0)/(1.0/1000.0)
+   /// chain per quectosecond defined such that: yard per rontosecond = ch/qs × (22.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ChainPerQuectosecond = new (
                                                                "chain per quectosecond"
@@ -1327,7 +1327,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// inch per millennium, defined as: SI centimeter per century × (2.54)/(10.0)
+   /// inch per millennium defined such that: SI centimeter per century = in/kyr × (2.54)/(10.0).
    /// </summary>
    public static readonly Velocity InchPerMillennium = new (
                                                             "inch per millennium"
@@ -1338,7 +1338,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// furlong per second, defined as: chain per second × (10.0)/(1.0)
+   /// furlong per second defined such that: chain per second = fur/s × (10.0)/(1.0).
    /// </summary>
    public static readonly Velocity FurlongPerSecond = new (
                                                            "furlong per second"
@@ -1349,7 +1349,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// furlong per planck-time, defined as: chain per microsecond × (10.0)/(5.391247E-38)
+   /// furlong per planck-time defined such that: chain per microsecond = fur/tₚ × (10.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity FurlongPerPlanckTime = new (
                                                                "furlong per planck-time"
@@ -1360,7 +1360,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per decisecond, defined as: chain per second × (10.0)/(1.0/10.0)
+   /// furlong per decisecond defined such that: chain per second = fur/ds × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FurlongPerDecisecond = new (
                                                                "furlong per decisecond"
@@ -1371,7 +1371,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per centisecond, defined as: chain per decisecond × (10.0)/(1.0/10.0)
+   /// furlong per centisecond defined such that: chain per decisecond = fur/cs × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FurlongPerCentisecond = new (
                                                                 "furlong per centisecond"
@@ -1382,7 +1382,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per millisecond, defined as: chain per centisecond × (10.0)/(1.0/10.0)
+   /// furlong per millisecond defined such that: chain per centisecond = fur/ms × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FurlongPerMillisecond = new (
                                                                 "furlong per millisecond"
@@ -1393,7 +1393,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per microsecond, defined as: chain per millisecond × (10.0)/(1.0/1000.0)
+   /// furlong per microsecond defined such that: chain per millisecond = fur/μs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerMicrosecond = new (
                                                                 "furlong per microsecond"
@@ -1404,7 +1404,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per nanosecond, defined as: chain per microsecond × (10.0)/(1.0/1000.0)
+   /// furlong per nanosecond defined such that: chain per microsecond = fur/ns × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerNanosecond = new (
                                                                "furlong per nanosecond"
@@ -1415,7 +1415,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per picosecond, defined as: chain per nanosecond × (10.0)/(1.0/1000.0)
+   /// furlong per picosecond defined such that: chain per nanosecond = fur/ps × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerPicosecond = new (
                                                                "furlong per picosecond"
@@ -1426,7 +1426,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per femtosecond, defined as: chain per picosecond × (10.0)/(1.0/1000.0)
+   /// furlong per femtosecond defined such that: chain per picosecond = fur/fs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerFemtosecond = new (
                                                                 "furlong per femtosecond"
@@ -1437,7 +1437,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per attosecond, defined as: chain per femtosecond × (10.0)/(1.0/1000.0)
+   /// furlong per attosecond defined such that: chain per femtosecond = fur/as × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerAttosecond = new (
                                                                "furlong per attosecond"
@@ -1448,7 +1448,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per zeptosecond, defined as: chain per attosecond × (10.0)/(1.0/1000.0)
+   /// furlong per zeptosecond defined such that: chain per attosecond = fur/zs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerZeptosecond = new (
                                                                 "furlong per zeptosecond"
@@ -1459,7 +1459,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per yoctosecond, defined as: chain per zeptosecond × (10.0)/(1.0/1000.0)
+   /// furlong per yoctosecond defined such that: chain per zeptosecond = fur/ys × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerYoctosecond = new (
                                                                 "furlong per yoctosecond"
@@ -1470,7 +1470,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per rontosecond, defined as: chain per yoctosecond × (10.0)/(1.0/1000.0)
+   /// furlong per rontosecond defined such that: chain per yoctosecond = fur/rs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerRontosecond = new (
                                                                 "furlong per rontosecond"
@@ -1481,7 +1481,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per quectosecond, defined as: chain per rontosecond × (10.0)/(1.0/1000.0)
+   /// furlong per quectosecond defined such that: chain per rontosecond = fur/qs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerQuectosecond = new (
                                                                  "furlong per quectosecond"
@@ -1492,7 +1492,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// inch per million years, defined as: SI centimeter per millennium × (2.54)/(1000.0)
+   /// inch per million years defined such that: SI centimeter per millennium = in/Myr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerMillionYears = new (
                                                               "inch per million years"
@@ -1503,7 +1503,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// mile per second, defined as: furlong per second × (8.0)/(1.0)
+   /// mile per second defined such that: furlong per second = mi/s × (8.0)/(1.0).
    /// </summary>
    public static readonly Velocity MilePerSecond = new (
                                                         "mile per second"
@@ -1514,7 +1514,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// mile per planck-time, defined as: furlong per microsecond × (8.0)/(5.391247E-38)
+   /// mile per planck-time defined such that: furlong per microsecond = mi/tₚ × (8.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity MilePerPlanckTime = new (
                                                             "mile per planck-time"
@@ -1525,7 +1525,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// mile per decisecond, defined as: furlong per second × (8.0)/(1.0/10.0)
+   /// mile per decisecond defined such that: furlong per second = mi/ds × (8.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MilePerDecisecond = new (
                                                             "mile per decisecond"
@@ -1536,7 +1536,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// mile per centisecond, defined as: furlong per decisecond × (8.0)/(1.0/10.0)
+   /// mile per centisecond defined such that: furlong per decisecond = mi/cs × (8.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MilePerCentisecond = new (
                                                              "mile per centisecond"
@@ -1547,7 +1547,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// mile per millisecond, defined as: furlong per centisecond × (8.0)/(1.0/10.0)
+   /// mile per millisecond defined such that: furlong per centisecond = mi/ms × (8.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MilePerMillisecond = new (
                                                              "mile per millisecond"
@@ -1558,7 +1558,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// mile per microsecond, defined as: furlong per millisecond × (8.0)/(1.0/1000.0)
+   /// mile per microsecond defined such that: furlong per millisecond = mi/μs × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerMicrosecond = new (
                                                              "mile per microsecond"
@@ -1569,7 +1569,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// mile per nanosecond, defined as: furlong per microsecond × (8.0)/(1.0/1000.0)
+   /// mile per nanosecond defined such that: furlong per microsecond = mi/ns × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerNanosecond = new (
                                                             "mile per nanosecond"
@@ -1580,7 +1580,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// mile per picosecond, defined as: furlong per nanosecond × (8.0)/(1.0/1000.0)
+   /// mile per picosecond defined such that: furlong per nanosecond = mi/ps × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerPicosecond = new (
                                                             "mile per picosecond"
@@ -1591,7 +1591,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// mile per femtosecond, defined as: furlong per picosecond × (8.0)/(1.0/1000.0)
+   /// mile per femtosecond defined such that: furlong per picosecond = mi/fs × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerFemtosecond = new (
                                                              "mile per femtosecond"
@@ -1602,7 +1602,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// mile per attosecond, defined as: furlong per femtosecond × (8.0)/(1.0/1000.0)
+   /// mile per attosecond defined such that: furlong per femtosecond = mi/as × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerAttosecond = new (
                                                             "mile per attosecond"
@@ -1613,7 +1613,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// mile per zeptosecond, defined as: furlong per attosecond × (8.0)/(1.0/1000.0)
+   /// mile per zeptosecond defined such that: furlong per attosecond = mi/zs × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerZeptosecond = new (
                                                              "mile per zeptosecond"
@@ -1624,7 +1624,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// mile per yoctosecond, defined as: furlong per zeptosecond × (8.0)/(1.0/1000.0)
+   /// mile per yoctosecond defined such that: furlong per zeptosecond = mi/ys × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerYoctosecond = new (
                                                              "mile per yoctosecond"
@@ -1635,7 +1635,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// mile per rontosecond, defined as: furlong per yoctosecond × (8.0)/(1.0/1000.0)
+   /// mile per rontosecond defined such that: furlong per yoctosecond = mi/rs × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerRontosecond = new (
                                                              "mile per rontosecond"
@@ -1646,7 +1646,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// mile per quectosecond, defined as: furlong per rontosecond × (8.0)/(1.0/1000.0)
+   /// mile per quectosecond defined such that: furlong per rontosecond = mi/qs × (8.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MilePerQuectosecond = new (
                                                               "mile per quectosecond"
@@ -1657,7 +1657,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// inch per billion years, defined as: SI centimeter per million years × (2.54)/(1000.0)
+   /// inch per billion years defined such that: SI centimeter per million years = in/Gyr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerBillionYears = new (
                                                               "inch per billion years"
@@ -1668,7 +1668,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per second, defined as: mile per second × (3.0)/(1.0)
+   /// league per second defined such that: mile per second = lea/s × (3.0)/(1.0).
    /// </summary>
    public static readonly Velocity LeaguePerSecond = new (
                                                           "league per second"
@@ -1679,7 +1679,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// league per planck-time, defined as: mile per microsecond × (3.0)/(5.391247E-38)
+   /// league per planck-time defined such that: mile per microsecond = lea/tₚ × (3.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity LeaguePerPlanckTime = new (
                                                               "league per planck-time"
@@ -1690,7 +1690,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per decisecond, defined as: mile per second × (3.0)/(1.0/10.0)
+   /// league per decisecond defined such that: mile per second = lea/ds × (3.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LeaguePerDecisecond = new (
                                                               "league per decisecond"
@@ -1701,7 +1701,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per centisecond, defined as: mile per decisecond × (3.0)/(1.0/10.0)
+   /// league per centisecond defined such that: mile per decisecond = lea/cs × (3.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LeaguePerCentisecond = new (
                                                                "league per centisecond"
@@ -1712,7 +1712,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per millisecond, defined as: mile per centisecond × (3.0)/(1.0/10.0)
+   /// league per millisecond defined such that: mile per centisecond = lea/ms × (3.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity LeaguePerMillisecond = new (
                                                                "league per millisecond"
@@ -1723,7 +1723,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per microsecond, defined as: mile per millisecond × (3.0)/(1.0/1000.0)
+   /// league per microsecond defined such that: mile per millisecond = lea/μs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerMicrosecond = new (
                                                                "league per microsecond"
@@ -1734,7 +1734,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per nanosecond, defined as: mile per microsecond × (3.0)/(1.0/1000.0)
+   /// league per nanosecond defined such that: mile per microsecond = lea/ns × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerNanosecond = new (
                                                               "league per nanosecond"
@@ -1745,7 +1745,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per picosecond, defined as: mile per nanosecond × (3.0)/(1.0/1000.0)
+   /// league per picosecond defined such that: mile per nanosecond = lea/ps × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerPicosecond = new (
                                                               "league per picosecond"
@@ -1756,7 +1756,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per femtosecond, defined as: mile per picosecond × (3.0)/(1.0/1000.0)
+   /// league per femtosecond defined such that: mile per picosecond = lea/fs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerFemtosecond = new (
                                                                "league per femtosecond"
@@ -1767,7 +1767,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per attosecond, defined as: mile per femtosecond × (3.0)/(1.0/1000.0)
+   /// league per attosecond defined such that: mile per femtosecond = lea/as × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerAttosecond = new (
                                                               "league per attosecond"
@@ -1778,7 +1778,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per zeptosecond, defined as: mile per attosecond × (3.0)/(1.0/1000.0)
+   /// league per zeptosecond defined such that: mile per attosecond = lea/zs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerZeptosecond = new (
                                                                "league per zeptosecond"
@@ -1789,7 +1789,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per yoctosecond, defined as: mile per zeptosecond × (3.0)/(1.0/1000.0)
+   /// league per yoctosecond defined such that: mile per zeptosecond = lea/ys × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerYoctosecond = new (
                                                                "league per yoctosecond"
@@ -1800,7 +1800,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per rontosecond, defined as: mile per yoctosecond × (3.0)/(1.0/1000.0)
+   /// league per rontosecond defined such that: mile per yoctosecond = lea/rs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerRontosecond = new (
                                                                "league per rontosecond"
@@ -1811,7 +1811,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per quectosecond, defined as: mile per rontosecond × (3.0)/(1.0/1000.0)
+   /// league per quectosecond defined such that: mile per rontosecond = lea/qs × (3.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerQuectosecond = new (
                                                                 "league per quectosecond"
@@ -1822,7 +1822,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// inch per trillion years, defined as: SI centimeter per billion years × (2.54)/(1000.0)
+   /// inch per trillion years defined such that: SI centimeter per billion years = in/Tyr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerTrillionYears = new (
                                                                "inch per trillion years"
@@ -1833,7 +1833,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per second, defined as: foot per second × (6.0)/(1.0)
+   /// fathom per second defined such that: foot per second = ftm/s × (6.0)/(1.0).
    /// </summary>
    public static readonly Velocity FathomPerSecond = new (
                                                           "fathom per second"
@@ -1844,7 +1844,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// fathom per planck-time, defined as: foot per microsecond × (6.0)/(5.391247E-38)
+   /// fathom per planck-time defined such that: foot per microsecond = ftm/tₚ × (6.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity FathomPerPlanckTime = new (
                                                               "fathom per planck-time"
@@ -1855,7 +1855,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// fathom per decisecond, defined as: foot per second × (6.0)/(1.0/10.0)
+   /// fathom per decisecond defined such that: foot per second = ftm/ds × (6.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FathomPerDecisecond = new (
                                                               "fathom per decisecond"
@@ -1866,7 +1866,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// fathom per centisecond, defined as: foot per decisecond × (6.0)/(1.0/10.0)
+   /// fathom per centisecond defined such that: foot per decisecond = ftm/cs × (6.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FathomPerCentisecond = new (
                                                                "fathom per centisecond"
@@ -1877,7 +1877,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per millisecond, defined as: foot per centisecond × (6.0)/(1.0/10.0)
+   /// fathom per millisecond defined such that: foot per centisecond = ftm/ms × (6.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FathomPerMillisecond = new (
                                                                "fathom per millisecond"
@@ -1888,7 +1888,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per microsecond, defined as: foot per millisecond × (6.0)/(1.0/1000.0)
+   /// fathom per microsecond defined such that: foot per millisecond = ftm/μs × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerMicrosecond = new (
                                                                "fathom per microsecond"
@@ -1899,7 +1899,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per nanosecond, defined as: foot per microsecond × (6.0)/(1.0/1000.0)
+   /// fathom per nanosecond defined such that: foot per microsecond = ftm/ns × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerNanosecond = new (
                                                               "fathom per nanosecond"
@@ -1910,7 +1910,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// fathom per picosecond, defined as: foot per nanosecond × (6.0)/(1.0/1000.0)
+   /// fathom per picosecond defined such that: foot per nanosecond = ftm/ps × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerPicosecond = new (
                                                               "fathom per picosecond"
@@ -1921,7 +1921,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// fathom per femtosecond, defined as: foot per picosecond × (6.0)/(1.0/1000.0)
+   /// fathom per femtosecond defined such that: foot per picosecond = ftm/fs × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerFemtosecond = new (
                                                                "fathom per femtosecond"
@@ -1932,7 +1932,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per attosecond, defined as: foot per femtosecond × (6.0)/(1.0/1000.0)
+   /// fathom per attosecond defined such that: foot per femtosecond = ftm/as × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerAttosecond = new (
                                                               "fathom per attosecond"
@@ -1943,7 +1943,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// fathom per zeptosecond, defined as: foot per attosecond × (6.0)/(1.0/1000.0)
+   /// fathom per zeptosecond defined such that: foot per attosecond = ftm/zs × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerZeptosecond = new (
                                                                "fathom per zeptosecond"
@@ -1954,7 +1954,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per yoctosecond, defined as: foot per zeptosecond × (6.0)/(1.0/1000.0)
+   /// fathom per yoctosecond defined such that: foot per zeptosecond = ftm/ys × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerYoctosecond = new (
                                                                "fathom per yoctosecond"
@@ -1965,7 +1965,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per rontosecond, defined as: foot per yoctosecond × (6.0)/(1.0/1000.0)
+   /// fathom per rontosecond defined such that: foot per yoctosecond = ftm/rs × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerRontosecond = new (
                                                                "fathom per rontosecond"
@@ -1976,7 +1976,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per quectosecond, defined as: foot per rontosecond × (6.0)/(1.0/1000.0)
+   /// fathom per quectosecond defined such that: foot per rontosecond = ftm/qs × (6.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FathomPerQuectosecond = new (
                                                                 "fathom per quectosecond"
@@ -1987,7 +1987,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// inch per quadrillion years, defined as: SI centimeter per trillion years × (2.54)/(1000.0)
+   /// inch per quadrillion years defined such that: SI centimeter per trillion years = in/Pyr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerQuadrillionYears = new (
                                                                   "inch per quadrillion years"
@@ -1998,7 +1998,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// cable per second, defined as: fathom per second × (100.0)/(1.0)
+   /// cable per second defined such that: fathom per second = cable/s × (100.0)/(1.0).
    /// </summary>
    public static readonly Velocity CablePerSecond = new (
                                                          "cable per second"
@@ -2009,7 +2009,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// cable per planck-time, defined as: fathom per microsecond × (100.0)/(5.391247E-38)
+   /// cable per planck-time defined such that: fathom per microsecond = cable/tₚ × (100.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity CablePerPlanckTime = new (
                                                              "cable per planck-time"
@@ -2020,7 +2020,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// cable per decisecond, defined as: fathom per second × (100.0)/(1.0/10.0)
+   /// cable per decisecond defined such that: fathom per second = cable/ds × (100.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity CablePerDecisecond = new (
                                                              "cable per decisecond"
@@ -2031,7 +2031,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// cable per centisecond, defined as: fathom per decisecond × (100.0)/(1.0/10.0)
+   /// cable per centisecond defined such that: fathom per decisecond = cable/cs × (100.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity CablePerCentisecond = new (
                                                               "cable per centisecond"
@@ -2042,7 +2042,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// cable per millisecond, defined as: fathom per centisecond × (100.0)/(1.0/10.0)
+   /// cable per millisecond defined such that: fathom per centisecond = cable/ms × (100.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity CablePerMillisecond = new (
                                                               "cable per millisecond"
@@ -2053,7 +2053,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// cable per microsecond, defined as: fathom per millisecond × (100.0)/(1.0/1000.0)
+   /// cable per microsecond defined such that: fathom per millisecond = cable/μs × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerMicrosecond = new (
                                                               "cable per microsecond"
@@ -2064,7 +2064,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// cable per nanosecond, defined as: fathom per microsecond × (100.0)/(1.0/1000.0)
+   /// cable per nanosecond defined such that: fathom per microsecond = cable/ns × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerNanosecond = new (
                                                              "cable per nanosecond"
@@ -2075,7 +2075,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// cable per picosecond, defined as: fathom per nanosecond × (100.0)/(1.0/1000.0)
+   /// cable per picosecond defined such that: fathom per nanosecond = cable/ps × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerPicosecond = new (
                                                              "cable per picosecond"
@@ -2086,7 +2086,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// cable per femtosecond, defined as: fathom per picosecond × (100.0)/(1.0/1000.0)
+   /// cable per femtosecond defined such that: fathom per picosecond = cable/fs × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerFemtosecond = new (
                                                               "cable per femtosecond"
@@ -2097,7 +2097,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// cable per attosecond, defined as: fathom per femtosecond × (100.0)/(1.0/1000.0)
+   /// cable per attosecond defined such that: fathom per femtosecond = cable/as × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerAttosecond = new (
                                                              "cable per attosecond"
@@ -2108,7 +2108,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// cable per zeptosecond, defined as: fathom per attosecond × (100.0)/(1.0/1000.0)
+   /// cable per zeptosecond defined such that: fathom per attosecond = cable/zs × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerZeptosecond = new (
                                                               "cable per zeptosecond"
@@ -2119,7 +2119,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// cable per yoctosecond, defined as: fathom per zeptosecond × (100.0)/(1.0/1000.0)
+   /// cable per yoctosecond defined such that: fathom per zeptosecond = cable/ys × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerYoctosecond = new (
                                                               "cable per yoctosecond"
@@ -2130,7 +2130,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// cable per rontosecond, defined as: fathom per yoctosecond × (100.0)/(1.0/1000.0)
+   /// cable per rontosecond defined such that: fathom per yoctosecond = cable/rs × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerRontosecond = new (
                                                               "cable per rontosecond"
@@ -2141,7 +2141,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// cable per quectosecond, defined as: fathom per rontosecond × (100.0)/(1.0/1000.0)
+   /// cable per quectosecond defined such that: fathom per rontosecond = cable/qs × (100.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CablePerQuectosecond = new (
                                                                "cable per quectosecond"
@@ -2152,7 +2152,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// inch per quintillion years, defined as: SI centimeter per quadrillion years × (2.54)/(1000.0)
+   /// inch per quintillion years defined such that: SI centimeter per quadrillion years = in/Eyr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerQuintillionYears = new (
                                                                   "inch per quintillion years"
@@ -2163,7 +2163,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nautical mile per second, defined as: cable per second × (10.0)/(1.0)
+   /// nautical mile per second defined such that: cable per second = nmi/s × (10.0)/(1.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerSecond = new (
                                                                 "nautical mile per second"
@@ -2174,7 +2174,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// nautical mile per planck-time, defined as: cable per microsecond × (10.0)/(5.391247E-38)
+   /// nautical mile per planck-time defined such that: cable per microsecond = nmi/tₚ × (10.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity NauticalMilePerPlanckTime = new (
                                                                     "nautical mile per planck-time"
@@ -2185,7 +2185,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// nautical mile per decisecond, defined as: cable per second × (10.0)/(1.0/10.0)
+   /// nautical mile per decisecond defined such that: cable per second = nmi/ds × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerDecisecond = new (
                                                                     "nautical mile per decisecond"
@@ -2196,7 +2196,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// nautical mile per centisecond, defined as: cable per decisecond × (10.0)/(1.0/10.0)
+   /// nautical mile per centisecond defined such that: cable per decisecond = nmi/cs × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerCentisecond = new (
                                                                      "nautical mile per centisecond"
@@ -2207,7 +2207,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// nautical mile per millisecond, defined as: cable per centisecond × (10.0)/(1.0/10.0)
+   /// nautical mile per millisecond defined such that: cable per centisecond = nmi/ms × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerMillisecond = new (
                                                                      "nautical mile per millisecond"
@@ -2218,7 +2218,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// nautical mile per microsecond, defined as: cable per millisecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per microsecond defined such that: cable per millisecond = nmi/μs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerMicrosecond = new (
                                                                      "nautical mile per microsecond"
@@ -2229,7 +2229,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// nautical mile per nanosecond, defined as: cable per microsecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per nanosecond defined such that: cable per microsecond = nmi/ns × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerNanosecond = new (
                                                                     "nautical mile per nanosecond"
@@ -2240,7 +2240,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// nautical mile per picosecond, defined as: cable per nanosecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per picosecond defined such that: cable per nanosecond = nmi/ps × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerPicosecond = new (
                                                                     "nautical mile per picosecond"
@@ -2251,7 +2251,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// nautical mile per femtosecond, defined as: cable per picosecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per femtosecond defined such that: cable per picosecond = nmi/fs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerFemtosecond = new (
                                                                      "nautical mile per femtosecond"
@@ -2262,7 +2262,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// nautical mile per attosecond, defined as: cable per femtosecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per attosecond defined such that: cable per femtosecond = nmi/as × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerAttosecond = new (
                                                                     "nautical mile per attosecond"
@@ -2273,7 +2273,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// nautical mile per zeptosecond, defined as: cable per attosecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per zeptosecond defined such that: cable per attosecond = nmi/zs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerZeptosecond = new (
                                                                      "nautical mile per zeptosecond"
@@ -2284,7 +2284,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// nautical mile per yoctosecond, defined as: cable per zeptosecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per yoctosecond defined such that: cable per zeptosecond = nmi/ys × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerYoctosecond = new (
                                                                      "nautical mile per yoctosecond"
@@ -2295,7 +2295,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// nautical mile per rontosecond, defined as: cable per yoctosecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per rontosecond defined such that: cable per yoctosecond = nmi/rs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerRontosecond = new (
                                                                      "nautical mile per rontosecond"
@@ -2306,7 +2306,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// nautical mile per quectosecond, defined as: cable per rontosecond × (10.0)/(1.0/1000.0)
+   /// nautical mile per quectosecond defined such that: cable per rontosecond = nmi/qs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerQuectosecond = new (
                                                                       "nautical mile per quectosecond"
@@ -2317,7 +2317,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// inch per sextillion years, defined as: SI centimeter per quintillion years × (2.54)/(1000.0)
+   /// inch per sextillion years defined such that: SI centimeter per quintillion years = in/Zyr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerSextillionYears = new (
                                                                  "inch per sextillion years"
@@ -2328,7 +2328,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// inch per septillion years, defined as: SI centimeter per sextillion years × (2.54)/(1000.0)
+   /// inch per septillion years defined such that: SI centimeter per sextillion years = in/Yyr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerSeptillionYears = new (
                                                                  "inch per septillion years"
@@ -2339,7 +2339,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// inch per octillion years, defined as: SI centimeter per septillion years × (2.54)/(1000.0)
+   /// inch per octillion years defined such that: SI centimeter per septillion years = in/Ryr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerOctillionYears = new (
                                                                 "inch per octillion years"
@@ -2350,7 +2350,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// inch per nonillion years, defined as: SI centimeter per octillion years × (2.54)/(1000.0)
+   /// inch per nonillion years defined such that: SI centimeter per octillion years = in/Qyr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerNonillionYears = new (
                                                                 "inch per nonillion years"
@@ -2361,7 +2361,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// inch per decillion years, defined as: SI centimeter per nonillion years × (2.54)/(1000.0)
+   /// inch per decillion years defined such that: SI centimeter per nonillion years = in/decillion yr × (2.54)/(1000.0).
    /// </summary>
    public static readonly Velocity InchPerDecillionYears = new (
                                                                 "inch per decillion years"
@@ -2372,7 +2372,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// inch per tick, defined as: SI centimeter per nanosecond × (2.54)/(100.0)
+   /// inch per tick defined such that: SI centimeter per nanosecond = in/tick × (2.54)/(100.0).
    /// </summary>
    public static readonly Velocity InchPerTick = new (
                                                       "inch per tick"
@@ -2383,7 +2383,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// cable per tick, defined as: fathom per nanosecond × (100.0)/(100.0)
+   /// cable per tick defined such that: fathom per nanosecond = cable/tick × (100.0)/(100.0).
    /// </summary>
    public static readonly Velocity CablePerTick = new (
                                                        "cable per tick"
@@ -2394,7 +2394,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// foot per minute, defined as: inch per second × (12)/(60.0)
+   /// foot per minute defined such that: inch per second = ft/min × (12)/(60.0).
    /// </summary>
    public static readonly Velocity FootPerMinute = new (
                                                         "foot per minute"
@@ -2405,7 +2405,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// hand per septillion years, defined as: inch per sextillion years × (4.0)/(1000.0)
+   /// hand per septillion years defined such that: inch per sextillion years = hh/Yyr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerSeptillionYears = new (
                                                                  "hand per septillion years"
@@ -2416,7 +2416,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// hand per week, defined as: inch per day × (4.0)/(7.0)
+   /// hand per week defined such that: inch per day = hh/wk × (4.0)/(7.0).
    /// </summary>
    public static readonly Velocity HandPerWeek = new (
                                                       "hand per week"
@@ -2427,7 +2427,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per tick, defined as: inch per nanosecond × (12)/(100.0)
+   /// foot per tick defined such that: inch per nanosecond = ft/tick × (12)/(100.0).
    /// </summary>
    public static readonly Velocity FootPerTick = new (
                                                       "foot per tick"
@@ -2438,7 +2438,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// nautical mile per tick, defined as: cable per nanosecond × (10.0)/(100.0)
+   /// nautical mile per tick defined such that: cable per nanosecond = nmi/tick × (10.0)/(100.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerTick = new (
                                                               "nautical mile per tick"
@@ -2449,7 +2449,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// foot per hour, defined as: inch per minute × (12)/(60.0)
+   /// foot per hour defined such that: inch per minute = ft/hr × (12)/(60.0).
    /// </summary>
    public static readonly Velocity FootPerHour = new (
                                                       "foot per hour"
@@ -2460,7 +2460,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// twip per minute, defined as: foot per second × (1.0/17280.0)/(60.0)
+   /// twip per minute defined such that: foot per second = twip/min × (1.0/17280.0)/(60.0).
    /// </summary>
    public static readonly Velocity TwipPerMinute = new (
                                                         "twip per minute"
@@ -2471,7 +2471,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// foot per day, defined as: inch per hour × (12)/(24.0)
+   /// foot per day defined such that: inch per hour = ft/dy × (12)/(24.0).
    /// </summary>
    public static readonly Velocity FootPerDay = new (
                                                      "foot per day"
@@ -2482,7 +2482,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// thou per minute, defined as: foot per second × (1.0/12000.0)/(60.0)
+   /// thou per minute defined such that: foot per second = th/min × (1.0/12000.0)/(60.0).
    /// </summary>
    public static readonly Velocity ThouPerMinute = new (
                                                         "thou per minute"
@@ -2493,7 +2493,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// hand per millennium, defined as: inch per century × (4.0)/(10.0)
+   /// hand per millennium defined such that: inch per century = hh/kyr × (4.0)/(10.0).
    /// </summary>
    public static readonly Velocity HandPerMillennium = new (
                                                             "hand per millennium"
@@ -2504,7 +2504,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// twip per tick, defined as: foot per nanosecond × (1.0/17280.0)/(100.0)
+   /// twip per tick defined such that: foot per nanosecond = twip/tick × (1.0/17280.0)/(100.0).
    /// </summary>
    public static readonly Velocity TwipPerTick = new (
                                                       "twip per tick"
@@ -2515,7 +2515,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// fathom per hour, defined as: foot per minute × (6.0)/(60.0)
+   /// fathom per hour defined such that: foot per minute = ftm/hr × (6.0)/(60.0).
    /// </summary>
    public static readonly Velocity FathomPerHour = new (
                                                         "fathom per hour"
@@ -2526,7 +2526,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// twip per hour, defined as: foot per minute × (1.0/17280.0)/(60.0)
+   /// twip per hour defined such that: foot per minute = twip/hr × (1.0/17280.0)/(60.0).
    /// </summary>
    public static readonly Velocity TwipPerHour = new (
                                                       "twip per hour"
@@ -2537,7 +2537,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per week, defined as: inch per day × (12)/(7.0)
+   /// foot per week defined such that: inch per day = ft/wk × (12)/(7.0).
    /// </summary>
    public static readonly Velocity FootPerWeek = new (
                                                       "foot per week"
@@ -2548,7 +2548,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// barleycorn per minute, defined as: foot per second × (1.0/36.0)/(60.0)
+   /// barleycorn per minute defined such that: foot per second = barleycorn/min × (1.0/36.0)/(60.0).
    /// </summary>
    public static readonly Velocity BarleycornPerMinute = new (
                                                               "barleycorn per minute"
@@ -2559,7 +2559,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// hand per quadrillion years, defined as: inch per trillion years × (4.0)/(1000.0)
+   /// hand per quadrillion years defined such that: inch per trillion years = hh/Pyr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerQuadrillionYears = new (
                                                                   "hand per quadrillion years"
@@ -2570,7 +2570,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// thou per tick, defined as: foot per nanosecond × (1.0/12000.0)/(100.0)
+   /// thou per tick defined such that: foot per nanosecond = th/tick × (1.0/12000.0)/(100.0).
    /// </summary>
    public static readonly Velocity ThouPerTick = new (
                                                       "thou per tick"
@@ -2581,7 +2581,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per year, defined as: inch per day × (12)/(365.2525)
+   /// foot per year defined such that: inch per day = ft/yr × (12)/(365.2525).
    /// </summary>
    public static readonly Velocity FootPerYear = new (
                                                       "foot per year"
@@ -2592,7 +2592,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// hand per minute, defined as: inch per second × (4.0)/(60.0)
+   /// hand per minute defined such that: inch per second = hh/min × (4.0)/(60.0).
    /// </summary>
    public static readonly Velocity HandPerMinute = new (
                                                         "hand per minute"
@@ -2603,7 +2603,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// barleycorn per decade, defined as: foot per year × (1.0/36.0)/(10.0)
+   /// barleycorn per decade defined such that: foot per year = barleycorn/decade × (1.0/36.0)/(10.0).
    /// </summary>
    public static readonly Velocity BarleycornPerDecade = new (
                                                               "barleycorn per decade"
@@ -2614,7 +2614,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// yard per week, defined as: foot per day × (3.0)/(7.0)
+   /// yard per week defined such that: foot per day = yd/wk × (3.0)/(7.0).
    /// </summary>
    public static readonly Velocity YardPerWeek = new (
                                                       "yard per week"
@@ -2625,7 +2625,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// twip per day, defined as: foot per hour × (1.0/17280.0)/(24.0)
+   /// twip per day defined such that: foot per hour = twip/dy × (1.0/17280.0)/(24.0).
    /// </summary>
    public static readonly Velocity TwipPerDay = new (
                                                      "twip per day"
@@ -2636,7 +2636,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// thou per hour, defined as: foot per minute × (1.0/12000.0)/(60.0)
+   /// thou per hour defined such that: foot per minute = th/hr × (1.0/12000.0)/(60.0).
    /// </summary>
    public static readonly Velocity ThouPerHour = new (
                                                       "thou per hour"
@@ -2647,7 +2647,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per decade, defined as: inch per year × (12)/(10.0)
+   /// foot per decade defined such that: inch per year = ft/decade × (12)/(10.0).
    /// </summary>
    public static readonly Velocity FootPerDecade = new (
                                                         "foot per decade"
@@ -2658,7 +2658,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// yard per minute, defined as: foot per second × (3.0)/(60.0)
+   /// yard per minute defined such that: foot per second = yd/min × (3.0)/(60.0).
    /// </summary>
    public static readonly Velocity YardPerMinute = new (
                                                         "yard per minute"
@@ -2669,7 +2669,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// hand per octillion years, defined as: inch per septillion years × (4.0)/(1000.0)
+   /// hand per octillion years defined such that: inch per septillion years = hh/Ryr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerOctillionYears = new (
                                                                 "hand per octillion years"
@@ -2680,7 +2680,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// barleycorn per tick, defined as: foot per nanosecond × (1.0/36.0)/(100.0)
+   /// barleycorn per tick defined such that: foot per nanosecond = barleycorn/tick × (1.0/36.0)/(100.0).
    /// </summary>
    public static readonly Velocity BarleycornPerTick = new (
                                                             "barleycorn per tick"
@@ -2691,7 +2691,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// hand per year, defined as: inch per day × (4.0)/(365.2525)
+   /// hand per year defined such that: inch per day = hh/yr × (4.0)/(365.2525).
    /// </summary>
    public static readonly Velocity HandPerYear = new (
                                                       "hand per year"
@@ -2702,7 +2702,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per century, defined as: inch per decade × (12)/(10.0)
+   /// foot per century defined such that: inch per decade = ft/century × (12)/(10.0).
    /// </summary>
    public static readonly Velocity FootPerCentury = new (
                                                          "foot per century"
@@ -2713,7 +2713,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// chain per minute, defined as: yard per second × (22.0)/(60.0)
+   /// chain per minute defined such that: yard per second = ch/min × (22.0)/(60.0).
    /// </summary>
    public static readonly Velocity ChainPerMinute = new (
                                                          "chain per minute"
@@ -2724,7 +2724,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// fathom per week, defined as: foot per day × (6.0)/(7.0)
+   /// fathom per week defined such that: foot per day = ftm/wk × (6.0)/(7.0).
    /// </summary>
    public static readonly Velocity FathomPerWeek = new (
                                                         "fathom per week"
@@ -2735,7 +2735,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// hand per tick, defined as: inch per nanosecond × (4.0)/(100.0)
+   /// hand per tick defined such that: inch per nanosecond = hh/tick × (4.0)/(100.0).
    /// </summary>
    public static readonly Velocity HandPerTick = new (
                                                       "hand per tick"
@@ -2746,7 +2746,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// twip per week, defined as: foot per day × (1.0/17280.0)/(7.0)
+   /// twip per week defined such that: foot per day = twip/wk × (1.0/17280.0)/(7.0).
    /// </summary>
    public static readonly Velocity TwipPerWeek = new (
                                                       "twip per week"
@@ -2757,7 +2757,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// barleycorn per hour, defined as: foot per minute × (1.0/36.0)/(60.0)
+   /// barleycorn per hour defined such that: foot per minute = barleycorn/hr × (1.0/36.0)/(60.0).
    /// </summary>
    public static readonly Velocity BarleycornPerHour = new (
                                                             "barleycorn per hour"
@@ -2768,7 +2768,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// foot per millennium, defined as: inch per century × (12)/(10.0)
+   /// foot per millennium defined such that: inch per century = ft/kyr × (12)/(10.0).
    /// </summary>
    public static readonly Velocity FootPerMillennium = new (
                                                             "foot per millennium"
@@ -2779,7 +2779,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// furlong per minute, defined as: chain per second × (10.0)/(60.0)
+   /// furlong per minute defined such that: chain per second = fur/min × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity FurlongPerMinute = new (
                                                            "furlong per minute"
@@ -2790,7 +2790,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// hand per million years, defined as: inch per millennium × (4.0)/(1000.0)
+   /// hand per million years defined such that: inch per millennium = hh/Myr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerMillionYears = new (
                                                               "hand per million years"
@@ -2801,7 +2801,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// thou per million years, defined as: foot per millennium × (1.0/12000.0)/(1000.0)
+   /// thou per million years defined such that: foot per millennium = th/Myr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerMillionYears = new (
                                                               "thou per million years"
@@ -2812,7 +2812,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// thou per day, defined as: foot per hour × (1.0/12000.0)/(24.0)
+   /// thou per day defined such that: foot per hour = th/dy × (1.0/12000.0)/(24.0).
    /// </summary>
    public static readonly Velocity ThouPerDay = new (
                                                      "thou per day"
@@ -2823,7 +2823,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// foot per million years, defined as: inch per millennium × (12)/(1000.0)
+   /// foot per million years defined such that: inch per millennium = ft/Myr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerMillionYears = new (
                                                               "foot per million years"
@@ -2834,7 +2834,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// mile per minute, defined as: furlong per second × (8.0)/(60.0)
+   /// mile per minute defined such that: furlong per second = mi/min × (8.0)/(60.0).
    /// </summary>
    public static readonly Velocity MilePerMinute = new (
                                                         "mile per minute"
@@ -2845,7 +2845,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// yard per tick, defined as: foot per nanosecond × (3.0)/(100.0)
+   /// yard per tick defined such that: foot per nanosecond = yd/tick × (3.0)/(100.0).
    /// </summary>
    public static readonly Velocity YardPerTick = new (
                                                       "yard per tick"
@@ -2856,7 +2856,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// barleycorn per century, defined as: foot per decade × (1.0/36.0)/(10.0)
+   /// barleycorn per century defined such that: foot per decade = barleycorn/century × (1.0/36.0)/(10.0).
    /// </summary>
    public static readonly Velocity BarleycornPerCentury = new (
                                                                "barleycorn per century"
@@ -2867,7 +2867,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// hand per quintillion years, defined as: inch per quadrillion years × (4.0)/(1000.0)
+   /// hand per quintillion years defined such that: inch per quadrillion years = hh/Eyr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerQuintillionYears = new (
                                                                   "hand per quintillion years"
@@ -2878,7 +2878,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// twip per year, defined as: foot per day × (1.0/17280.0)/(365.2525)
+   /// twip per year defined such that: foot per day = twip/yr × (1.0/17280.0)/(365.2525).
    /// </summary>
    public static readonly Velocity TwipPerYear = new (
                                                       "twip per year"
@@ -2889,7 +2889,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// hand per hour, defined as: inch per minute × (4.0)/(60.0)
+   /// hand per hour defined such that: inch per minute = hh/hr × (4.0)/(60.0).
    /// </summary>
    public static readonly Velocity HandPerHour = new (
                                                       "hand per hour"
@@ -2900,7 +2900,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per billion years, defined as: inch per million years × (12)/(1000.0)
+   /// foot per billion years defined such that: inch per million years = ft/Gyr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerBillionYears = new (
                                                               "foot per billion years"
@@ -2911,7 +2911,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per minute, defined as: mile per second × (3.0)/(60.0)
+   /// league per minute defined such that: mile per second = lea/min × (3.0)/(60.0).
    /// </summary>
    public static readonly Velocity LeaguePerMinute = new (
                                                           "league per minute"
@@ -2922,7 +2922,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// fathom per trillion years, defined as: foot per billion years × (6.0)/(1000.0)
+   /// fathom per trillion years defined such that: foot per billion years = ftm/Tyr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerTrillionYears = new (
                                                                  "fathom per trillion years"
@@ -2933,7 +2933,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// yard per trillion years, defined as: foot per billion years × (3.0)/(1000.0)
+   /// yard per trillion years defined such that: foot per billion years = yd/Tyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerTrillionYears = new (
                                                                "yard per trillion years"
@@ -2944,7 +2944,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per decade, defined as: foot per year × (6.0)/(10.0)
+   /// fathom per decade defined such that: foot per year = ftm/decade × (6.0)/(10.0).
    /// </summary>
    public static readonly Velocity FathomPerDecade = new (
                                                           "fathom per decade"
@@ -2955,7 +2955,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// chain per tick, defined as: yard per nanosecond × (22.0)/(100.0)
+   /// chain per tick defined such that: yard per nanosecond = ch/tick × (22.0)/(100.0).
    /// </summary>
    public static readonly Velocity ChainPerTick = new (
                                                        "chain per tick"
@@ -2966,7 +2966,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// foot per trillion years, defined as: inch per billion years × (12)/(1000.0)
+   /// foot per trillion years defined such that: inch per billion years = ft/Tyr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerTrillionYears = new (
                                                                "foot per trillion years"
@@ -2977,7 +2977,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per minute, defined as: foot per second × (6.0)/(60.0)
+   /// fathom per minute defined such that: foot per second = ftm/min × (6.0)/(60.0).
    /// </summary>
    public static readonly Velocity FathomPerMinute = new (
                                                           "fathom per minute"
@@ -2988,7 +2988,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// yard per millennium, defined as: foot per century × (3.0)/(10.0)
+   /// yard per millennium defined such that: foot per century = yd/kyr × (3.0)/(10.0).
    /// </summary>
    public static readonly Velocity YardPerMillennium = new (
                                                             "yard per millennium"
@@ -2999,7 +2999,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// barleycorn per quadrillion years, defined as: foot per trillion years × (1.0/36.0)/(1000.0)
+   /// barleycorn per quadrillion years defined such that: foot per trillion years = barleycorn/Pyr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerQuadrillionYears = new (
                                                                         "barleycorn per quadrillion years"
@@ -3010,7 +3010,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// hand per nonillion years, defined as: inch per octillion years × (4.0)/(1000.0)
+   /// hand per nonillion years defined such that: inch per octillion years = hh/Qyr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerNonillionYears = new (
                                                                 "hand per nonillion years"
@@ -3021,7 +3021,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// hand per decade, defined as: inch per year × (4.0)/(10.0)
+   /// hand per decade defined such that: inch per year = hh/decade × (4.0)/(10.0).
    /// </summary>
    public static readonly Velocity HandPerDecade = new (
                                                         "hand per decade"
@@ -3032,7 +3032,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// yard per year, defined as: foot per day × (3.0)/(365.2525)
+   /// yard per year defined such that: foot per day = yd/yr × (3.0)/(365.2525).
    /// </summary>
    public static readonly Velocity YardPerYear = new (
                                                       "yard per year"
@@ -3043,7 +3043,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// thou per billion years, defined as: foot per million years × (1.0/12000.0)/(1000.0)
+   /// thou per billion years defined such that: foot per million years = th/Gyr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerBillionYears = new (
                                                               "thou per billion years"
@@ -3054,7 +3054,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// thou per week, defined as: foot per day × (1.0/12000.0)/(7.0)
+   /// thou per week defined such that: foot per day = th/wk × (1.0/12000.0)/(7.0).
    /// </summary>
    public static readonly Velocity ThouPerWeek = new (
                                                       "thou per week"
@@ -3065,7 +3065,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// barleycorn per day, defined as: foot per hour × (1.0/36.0)/(24.0)
+   /// barleycorn per day defined such that: foot per hour = barleycorn/dy × (1.0/36.0)/(24.0).
    /// </summary>
    public static readonly Velocity BarleycornPerDay = new (
                                                            "barleycorn per day"
@@ -3076,7 +3076,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// twip per decade, defined as: foot per year × (1.0/17280.0)/(10.0)
+   /// twip per decade defined such that: foot per year = twip/decade × (1.0/17280.0)/(10.0).
    /// </summary>
    public static readonly Velocity TwipPerDecade = new (
                                                         "twip per decade"
@@ -3087,7 +3087,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// yard per hour, defined as: foot per minute × (3.0)/(60.0)
+   /// yard per hour defined such that: foot per minute = yd/hr × (3.0)/(60.0).
    /// </summary>
    public static readonly Velocity YardPerHour = new (
                                                       "yard per hour"
@@ -3098,7 +3098,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per quadrillion years, defined as: inch per trillion years × (12)/(1000.0)
+   /// foot per quadrillion years defined such that: inch per trillion years = ft/Pyr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerQuadrillionYears = new (
                                                                   "foot per quadrillion years"
@@ -3109,7 +3109,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// cable per minute, defined as: fathom per second × (100.0)/(60.0)
+   /// cable per minute defined such that: fathom per second = cable/min × (100.0)/(60.0).
    /// </summary>
    public static readonly Velocity CablePerMinute = new (
                                                          "cable per minute"
@@ -3120,7 +3120,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// furlong per tick, defined as: chain per nanosecond × (10.0)/(100.0)
+   /// furlong per tick defined such that: chain per nanosecond = fur/tick × (10.0)/(100.0).
    /// </summary>
    public static readonly Velocity FurlongPerTick = new (
                                                          "furlong per tick"
@@ -3131,7 +3131,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// foot per quintillion years, defined as: inch per quadrillion years × (12)/(1000.0)
+   /// foot per quintillion years defined such that: inch per quadrillion years = ft/Eyr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerQuintillionYears = new (
                                                                   "foot per quintillion years"
@@ -3142,7 +3142,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nautical mile per minute, defined as: cable per second × (10.0)/(60.0)
+   /// nautical mile per minute defined such that: cable per second = nmi/min × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerMinute = new (
                                                                 "nautical mile per minute"
@@ -3153,7 +3153,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// hand per billion years, defined as: inch per million years × (4.0)/(1000.0)
+   /// hand per billion years defined such that: inch per million years = hh/Gyr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerBillionYears = new (
                                                               "hand per billion years"
@@ -3164,7 +3164,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// barleycorn per millennium, defined as: foot per century × (1.0/36.0)/(10.0)
+   /// barleycorn per millennium defined such that: foot per century = barleycorn/kyr × (1.0/36.0)/(10.0).
    /// </summary>
    public static readonly Velocity BarleycornPerMillennium = new (
                                                                   "barleycorn per millennium"
@@ -3175,7 +3175,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// fathom per quintillion years, defined as: foot per quadrillion years × (6.0)/(1000.0)
+   /// fathom per quintillion years defined such that: foot per quadrillion years = ftm/Eyr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerQuintillionYears = new (
                                                                     "fathom per quintillion years"
@@ -3186,7 +3186,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// mile per tick, defined as: furlong per nanosecond × (8.0)/(100.0)
+   /// mile per tick defined such that: furlong per nanosecond = mi/tick × (8.0)/(100.0).
    /// </summary>
    public static readonly Velocity MilePerTick = new (
                                                       "mile per tick"
@@ -3197,7 +3197,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// twip per century, defined as: foot per decade × (1.0/17280.0)/(10.0)
+   /// twip per century defined such that: foot per decade = twip/century × (1.0/17280.0)/(10.0).
    /// </summary>
    public static readonly Velocity TwipPerCentury = new (
                                                          "twip per century"
@@ -3208,7 +3208,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// chain per hour, defined as: yard per minute × (22.0)/(60.0)
+   /// chain per hour defined such that: yard per minute = ch/hr × (22.0)/(60.0).
    /// </summary>
    public static readonly Velocity ChainPerHour = new (
                                                        "chain per hour"
@@ -3219,7 +3219,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// foot per sextillion years, defined as: inch per quintillion years × (12)/(1000.0)
+   /// foot per sextillion years defined such that: inch per quintillion years = ft/Zyr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerSextillionYears = new (
                                                                  "foot per sextillion years"
@@ -3230,7 +3230,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// fathom per millennium, defined as: foot per century × (6.0)/(10.0)
+   /// fathom per millennium defined such that: foot per century = ftm/kyr × (6.0)/(10.0).
    /// </summary>
    public static readonly Velocity FathomPerMillennium = new (
                                                               "fathom per millennium"
@@ -3241,7 +3241,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// thou per trillion years, defined as: foot per billion years × (1.0/12000.0)/(1000.0)
+   /// thou per trillion years defined such that: foot per billion years = th/Tyr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerTrillionYears = new (
                                                                "thou per trillion years"
@@ -3252,7 +3252,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per day, defined as: foot per hour × (6.0)/(24.0)
+   /// fathom per day defined such that: foot per hour = ftm/dy × (6.0)/(24.0).
    /// </summary>
    public static readonly Velocity FathomPerDay = new (
                                                        "fathom per day"
@@ -3263,7 +3263,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// hand per sextillion years, defined as: inch per quintillion years × (4.0)/(1000.0)
+   /// hand per sextillion years defined such that: inch per quintillion years = hh/Zyr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerSextillionYears = new (
                                                                  "hand per sextillion years"
@@ -3274,7 +3274,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// cable per quadrillion years, defined as: fathom per trillion years × (100.0)/(1000.0)
+   /// cable per quadrillion years defined such that: fathom per trillion years = cable/Pyr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerQuadrillionYears = new (
                                                                    "cable per quadrillion years"
@@ -3285,7 +3285,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// thou per year, defined as: foot per day × (1.0/12000.0)/(365.2525)
+   /// thou per year defined such that: foot per day = th/yr × (1.0/12000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity ThouPerYear = new (
                                                       "thou per year"
@@ -3296,7 +3296,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// hand per day, defined as: inch per hour × (4.0)/(24.0)
+   /// hand per day defined such that: inch per hour = hh/dy × (4.0)/(24.0).
    /// </summary>
    public static readonly Velocity HandPerDay = new (
                                                      "hand per day"
@@ -3307,7 +3307,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// foot per septillion years, defined as: inch per sextillion years × (12)/(1000.0)
+   /// foot per septillion years defined such that: inch per sextillion years = ft/Yyr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerSeptillionYears = new (
                                                                  "foot per septillion years"
@@ -3318,7 +3318,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// barleycorn per quintillion years, defined as: foot per quadrillion years × (1.0/36.0)/(1000.0)
+   /// barleycorn per quintillion years defined such that: foot per quadrillion years = barleycorn/Eyr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerQuintillionYears = new (
                                                                         "barleycorn per quintillion years"
@@ -3329,7 +3329,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// league per tick, defined as: mile per nanosecond × (3.0)/(100.0)
+   /// league per tick defined such that: mile per nanosecond = lea/tick × (3.0)/(100.0).
    /// </summary>
    public static readonly Velocity LeaguePerTick = new (
                                                         "league per tick"
@@ -3340,7 +3340,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// cable per million years, defined as: fathom per millennium × (100.0)/(1000.0)
+   /// cable per million years defined such that: fathom per millennium = cable/Myr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerMillionYears = new (
                                                                "cable per million years"
@@ -3351,7 +3351,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// barleycorn per week, defined as: foot per day × (1.0/36.0)/(7.0)
+   /// barleycorn per week defined such that: foot per day = barleycorn/wk × (1.0/36.0)/(7.0).
    /// </summary>
    public static readonly Velocity BarleycornPerWeek = new (
                                                             "barleycorn per week"
@@ -3362,7 +3362,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// twip per millennium, defined as: foot per century × (1.0/17280.0)/(10.0)
+   /// twip per millennium defined such that: foot per century = twip/kyr × (1.0/17280.0)/(10.0).
    /// </summary>
    public static readonly Velocity TwipPerMillennium = new (
                                                             "twip per millennium"
@@ -3373,7 +3373,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// furlong per hour, defined as: chain per minute × (10.0)/(60.0)
+   /// furlong per hour defined such that: chain per minute = fur/hr × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity FurlongPerHour = new (
                                                          "furlong per hour"
@@ -3384,7 +3384,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// foot per octillion years, defined as: inch per septillion years × (12)/(1000.0)
+   /// foot per octillion years defined such that: inch per septillion years = ft/Ryr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerOctillionYears = new (
                                                                 "foot per octillion years"
@@ -3395,7 +3395,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// yard per septillion years, defined as: foot per sextillion years × (3.0)/(1000.0)
+   /// yard per septillion years defined such that: foot per sextillion years = yd/Yyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerSeptillionYears = new (
                                                                  "yard per septillion years"
@@ -3406,7 +3406,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// hand per decillion years, defined as: inch per nonillion years × (4.0)/(1000.0)
+   /// hand per decillion years defined such that: inch per nonillion years = hh/decillion yr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerDecillionYears = new (
                                                                 "hand per decillion years"
@@ -3417,7 +3417,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// hand per century, defined as: inch per decade × (4.0)/(10.0)
+   /// hand per century defined such that: inch per decade = hh/century × (4.0)/(10.0).
    /// </summary>
    public static readonly Velocity HandPerCentury = new (
                                                          "hand per century"
@@ -3428,7 +3428,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// yard per quadrillion years, defined as: foot per trillion years × (3.0)/(1000.0)
+   /// yard per quadrillion years defined such that: foot per trillion years = yd/Pyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerQuadrillionYears = new (
                                                                   "yard per quadrillion years"
@@ -3439,7 +3439,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// foot per nonillion years, defined as: inch per octillion years × (12)/(1000.0)
+   /// foot per nonillion years defined such that: inch per octillion years = ft/Qyr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerNonillionYears = new (
                                                                 "foot per nonillion years"
@@ -3450,7 +3450,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// fathom per tick, defined as: foot per nanosecond × (6.0)/(100.0)
+   /// fathom per tick defined such that: foot per nanosecond = ftm/tick × (6.0)/(100.0).
    /// </summary>
    public static readonly Velocity FathomPerTick = new (
                                                         "fathom per tick"
@@ -3461,7 +3461,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// yard per million years, defined as: foot per millennium × (3.0)/(1000.0)
+   /// yard per million years defined such that: foot per millennium = yd/Myr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerMillionYears = new (
                                                               "yard per million years"
@@ -3472,7 +3472,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// thou per decillion years, defined as: foot per nonillion years × (1.0/12000.0)/(1000.0)
+   /// thou per decillion years defined such that: foot per nonillion years = th/decillion yr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerDecillionYears = new (
                                                                 "thou per decillion years"
@@ -3483,7 +3483,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// chain per quintillion years, defined as: yard per quadrillion years × (22.0)/(1000.0)
+   /// chain per quintillion years defined such that: yard per quadrillion years = ch/Eyr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerQuintillionYears = new (
                                                                    "chain per quintillion years"
@@ -3494,7 +3494,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// fathom per septillion years, defined as: foot per sextillion years × (6.0)/(1000.0)
+   /// fathom per septillion years defined such that: foot per sextillion years = ftm/Yyr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerSeptillionYears = new (
                                                                    "fathom per septillion years"
@@ -3505,7 +3505,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yard per decade, defined as: foot per year × (3.0)/(10.0)
+   /// yard per decade defined such that: foot per year = yd/decade × (3.0)/(10.0).
    /// </summary>
    public static readonly Velocity YardPerDecade = new (
                                                         "yard per decade"
@@ -3516,7 +3516,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// barleycorn per million years, defined as: foot per millennium × (1.0/36.0)/(1000.0)
+   /// barleycorn per million years defined such that: foot per millennium = barleycorn/Myr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerMillionYears = new (
                                                                     "barleycorn per million years"
@@ -3527,7 +3527,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// thou per quadrillion years, defined as: foot per trillion years × (1.0/12000.0)/(1000.0)
+   /// thou per quadrillion years defined such that: foot per trillion years = th/Pyr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerQuadrillionYears = new (
                                                                   "thou per quadrillion years"
@@ -3538,7 +3538,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// cable per day, defined as: fathom per hour × (100.0)/(24.0)
+   /// cable per day defined such that: fathom per hour = cable/dy × (100.0)/(24.0).
    /// </summary>
    public static readonly Velocity CablePerDay = new (
                                                       "cable per day"
@@ -3549,7 +3549,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// twip per decillion years, defined as: foot per nonillion years × (1.0/17280.0)/(1000.0)
+   /// twip per decillion years defined such that: foot per nonillion years = twip/decillion yr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerDecillionYears = new (
                                                                 "twip per decillion years"
@@ -3560,7 +3560,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// fathom per billion years, defined as: foot per million years × (6.0)/(1000.0)
+   /// fathom per billion years defined such that: foot per million years = ftm/Gyr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerBillionYears = new (
                                                                 "fathom per billion years"
@@ -3571,7 +3571,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// thou per decade, defined as: foot per year × (1.0/12000.0)/(10.0)
+   /// thou per decade defined such that: foot per year = th/decade × (1.0/12000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ThouPerDecade = new (
                                                         "thou per decade"
@@ -3582,7 +3582,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// yard per day, defined as: foot per hour × (3.0)/(24.0)
+   /// yard per day defined such that: foot per hour = yd/dy × (3.0)/(24.0).
    /// </summary>
    public static readonly Velocity YardPerDay = new (
                                                      "yard per day"
@@ -3593,7 +3593,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// twip per million years, defined as: foot per millennium × (1.0/17280.0)/(1000.0)
+   /// twip per million years defined such that: foot per millennium = twip/Myr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerMillionYears = new (
                                                               "twip per million years"
@@ -3604,7 +3604,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// mile per hour, defined as: furlong per minute × (8.0)/(60.0)
+   /// mile per hour defined such that: furlong per minute = mi/hr × (8.0)/(60.0).
    /// </summary>
    public static readonly Velocity MilePerHour = new (
                                                       "mile per hour"
@@ -3615,7 +3615,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// foot per decillion years, defined as: inch per nonillion years × (12)/(1000.0)
+   /// foot per decillion years defined such that: inch per nonillion years = ft/decillion yr × (12)/(1000.0).
    /// </summary>
    public static readonly Velocity FootPerDecillionYears = new (
                                                                 "foot per decillion years"
@@ -3626,7 +3626,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// hand per trillion years, defined as: inch per billion years × (4.0)/(1000.0)
+   /// hand per trillion years defined such that: inch per billion years = hh/Tyr × (4.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HandPerTrillionYears = new (
                                                                "hand per trillion years"
@@ -3637,7 +3637,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// fathom per year, defined as: foot per day × (6.0)/(365.2525)
+   /// fathom per year defined such that: foot per day = ftm/yr × (6.0)/(365.2525).
    /// </summary>
    public static readonly Velocity FathomPerYear = new (
                                                         "fathom per year"
@@ -3648,7 +3648,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// barleycorn per sextillion years, defined as: foot per quintillion years × (1.0/36.0)/(1000.0)
+   /// barleycorn per sextillion years defined such that: foot per quintillion years = barleycorn/Zyr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerSextillionYears = new (
                                                                        "barleycorn per sextillion years"
@@ -3659,7 +3659,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// nautical mile per billion years, defined as: cable per million years × (10.0)/(1000.0)
+   /// nautical mile per billion years defined such that: cable per million years = nmi/Gyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerBillionYears = new (
                                                                       "nautical mile per billion years"
@@ -3670,7 +3670,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// furlong per sextillion years, defined as: chain per quintillion years × (10.0)/(1000.0)
+   /// furlong per sextillion years defined such that: chain per quintillion years = fur/Zyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerSextillionYears = new (
                                                                     "furlong per sextillion years"
@@ -3681,7 +3681,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// chain per octillion years, defined as: yard per septillion years × (22.0)/(1000.0)
+   /// chain per octillion years defined such that: yard per septillion years = ch/Ryr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerOctillionYears = new (
                                                                  "chain per octillion years"
@@ -3692,7 +3692,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// barleycorn per year, defined as: foot per day × (1.0/36.0)/(365.2525)
+   /// barleycorn per year defined such that: foot per day = barleycorn/yr × (1.0/36.0)/(365.2525).
    /// </summary>
    public static readonly Velocity BarleycornPerYear = new (
                                                             "barleycorn per year"
@@ -3703,7 +3703,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// twip per billion years, defined as: foot per million years × (1.0/17280.0)/(1000.0)
+   /// twip per billion years defined such that: foot per million years = twip/Gyr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerBillionYears = new (
                                                               "twip per billion years"
@@ -3714,7 +3714,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per hour, defined as: mile per minute × (3.0)/(60.0)
+   /// league per hour defined such that: mile per minute = lea/hr × (3.0)/(60.0).
    /// </summary>
    public static readonly Velocity LeaguePerHour = new (
                                                         "league per hour"
@@ -3725,7 +3725,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// cable per sextillion years, defined as: fathom per quintillion years × (100.0)/(1000.0)
+   /// cable per sextillion years defined such that: fathom per quintillion years = cable/Zyr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerSextillionYears = new (
                                                                   "cable per sextillion years"
@@ -3736,7 +3736,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// thou per quintillion years, defined as: foot per quadrillion years × (1.0/12000.0)/(1000.0)
+   /// thou per quintillion years defined such that: foot per quadrillion years = th/Eyr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerQuintillionYears = new (
                                                                   "thou per quintillion years"
@@ -3747,7 +3747,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// fathom per nonillion years, defined as: foot per octillion years × (6.0)/(1000.0)
+   /// fathom per nonillion years defined such that: foot per octillion years = ftm/Qyr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerNonillionYears = new (
                                                                   "fathom per nonillion years"
@@ -3758,7 +3758,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// thou per century, defined as: foot per decade × (1.0/12000.0)/(10.0)
+   /// thou per century defined such that: foot per decade = th/century × (1.0/12000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ThouPerCentury = new (
                                                          "thou per century"
@@ -3769,7 +3769,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// chain per day, defined as: yard per hour × (22.0)/(24.0)
+   /// chain per day defined such that: yard per hour = ch/dy × (22.0)/(24.0).
    /// </summary>
    public static readonly Velocity ChainPerDay = new (
                                                       "chain per day"
@@ -3780,7 +3780,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// fathom per quadrillion years, defined as: foot per trillion years × (6.0)/(1000.0)
+   /// fathom per quadrillion years defined such that: foot per trillion years = ftm/Pyr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerQuadrillionYears = new (
                                                                     "fathom per quadrillion years"
@@ -3791,7 +3791,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// cable per trillion years, defined as: fathom per billion years × (100.0)/(1000.0)
+   /// cable per trillion years defined such that: fathom per billion years = cable/Tyr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerTrillionYears = new (
                                                                 "cable per trillion years"
@@ -3802,7 +3802,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// nautical mile per quintillion years, defined as: cable per quadrillion years × (10.0)/(1000.0)
+   /// nautical mile per quintillion years defined such that: cable per quadrillion years = nmi/Eyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerQuintillionYears = new (
                                                                           "nautical mile per quintillion years"
@@ -3813,7 +3813,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                          );
 
    /// <summary>
-   /// furlong per year, defined as: chain per day × (10.0)/(365.2525)
+   /// furlong per year defined such that: chain per day = fur/yr × (10.0)/(365.2525).
    /// </summary>
    public static readonly Velocity FurlongPerYear = new (
                                                          "furlong per year"
@@ -3824,7 +3824,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// barleycorn per billion years, defined as: foot per million years × (1.0/36.0)/(1000.0)
+   /// barleycorn per billion years defined such that: foot per million years = barleycorn/Gyr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerBillionYears = new (
                                                                     "barleycorn per billion years"
@@ -3835,7 +3835,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// fathom per century, defined as: foot per decade × (6.0)/(10.0)
+   /// fathom per century defined such that: foot per decade = ftm/century × (6.0)/(10.0).
    /// </summary>
    public static readonly Velocity FathomPerCentury = new (
                                                            "fathom per century"
@@ -3846,7 +3846,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// twip per trillion years, defined as: foot per billion years × (1.0/17280.0)/(1000.0)
+   /// twip per trillion years defined such that: foot per billion years = twip/Tyr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerTrillionYears = new (
                                                                "twip per trillion years"
@@ -3857,7 +3857,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// cable per millennium, defined as: fathom per century × (100.0)/(10.0)
+   /// cable per millennium defined such that: fathom per century = cable/kyr × (100.0)/(10.0).
    /// </summary>
    public static readonly Velocity CablePerMillennium = new (
                                                              "cable per millennium"
@@ -3868,7 +3868,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yard per octillion years, defined as: foot per septillion years × (3.0)/(1000.0)
+   /// yard per octillion years defined such that: foot per septillion years = yd/Ryr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerOctillionYears = new (
                                                                 "yard per octillion years"
@@ -3879,7 +3879,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// yard per quintillion years, defined as: foot per quadrillion years × (3.0)/(1000.0)
+   /// yard per quintillion years defined such that: foot per quadrillion years = yd/Eyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerQuintillionYears = new (
                                                                   "yard per quintillion years"
@@ -3890,7 +3890,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yard per billion years, defined as: foot per million years × (3.0)/(1000.0)
+   /// yard per billion years defined such that: foot per million years = yd/Gyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerBillionYears = new (
                                                               "yard per billion years"
@@ -3901,7 +3901,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// cable per year, defined as: fathom per day × (100.0)/(365.2525)
+   /// cable per year defined such that: fathom per day = cable/yr × (100.0)/(365.2525).
    /// </summary>
    public static readonly Velocity CablePerYear = new (
                                                        "cable per year"
@@ -3912,7 +3912,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// barleycorn per septillion years, defined as: foot per sextillion years × (1.0/36.0)/(1000.0)
+   /// barleycorn per septillion years defined such that: foot per sextillion years = barleycorn/Yyr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerSeptillionYears = new (
                                                                        "barleycorn per septillion years"
@@ -3923,7 +3923,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// yard per century, defined as: foot per decade × (3.0)/(10.0)
+   /// yard per century defined such that: foot per decade = yd/century × (3.0)/(10.0).
    /// </summary>
    public static readonly Velocity YardPerCentury = new (
                                                          "yard per century"
@@ -3934,7 +3934,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// chain per decade, defined as: yard per year × (22.0)/(10.0)
+   /// chain per decade defined such that: yard per year = ch/decade × (22.0)/(10.0).
    /// </summary>
    public static readonly Velocity ChainPerDecade = new (
                                                          "chain per decade"
@@ -3945,7 +3945,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// thou per sextillion years, defined as: foot per quintillion years × (1.0/12000.0)/(1000.0)
+   /// thou per sextillion years defined such that: foot per quintillion years = th/Zyr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerSextillionYears = new (
                                                                  "thou per sextillion years"
@@ -3956,7 +3956,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// thou per millennium, defined as: foot per century × (1.0/12000.0)/(10.0)
+   /// thou per millennium defined such that: foot per century = th/kyr × (1.0/12000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ThouPerMillennium = new (
                                                             "thou per millennium"
@@ -3967,7 +3967,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// furlong per day, defined as: chain per hour × (10.0)/(24.0)
+   /// furlong per day defined such that: chain per hour = fur/dy × (10.0)/(24.0).
    /// </summary>
    public static readonly Velocity FurlongPerDay = new (
                                                         "furlong per day"
@@ -3978,7 +3978,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// twip per quadrillion years, defined as: foot per trillion years × (1.0/17280.0)/(1000.0)
+   /// twip per quadrillion years defined such that: foot per trillion years = twip/Pyr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerQuadrillionYears = new (
                                                                   "twip per quadrillion years"
@@ -3989,7 +3989,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// cable per hour, defined as: fathom per minute × (100.0)/(60.0)
+   /// cable per hour defined such that: fathom per minute = cable/hr × (100.0)/(60.0).
    /// </summary>
    public static readonly Velocity CablePerHour = new (
                                                        "cable per hour"
@@ -4000,7 +4000,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// chain per sextillion years, defined as: yard per quintillion years × (22.0)/(1000.0)
+   /// chain per sextillion years defined such that: yard per quintillion years = ch/Zyr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerSextillionYears = new (
                                                                   "chain per sextillion years"
@@ -4011,7 +4011,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// mile per septillion years, defined as: furlong per sextillion years × (8.0)/(1000.0)
+   /// mile per septillion years defined such that: furlong per sextillion years = mi/Yyr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerSeptillionYears = new (
                                                                  "mile per septillion years"
@@ -4022,7 +4022,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// nautical mile per million years, defined as: cable per millennium × (10.0)/(1000.0)
+   /// nautical mile per million years defined such that: cable per millennium = nmi/Myr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerMillionYears = new (
                                                                       "nautical mile per million years"
@@ -4033,7 +4033,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// fathom per sextillion years, defined as: foot per quintillion years × (6.0)/(1000.0)
+   /// fathom per sextillion years defined such that: foot per quintillion years = ftm/Zyr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerSextillionYears = new (
                                                                    "fathom per sextillion years"
@@ -4044,7 +4044,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// fathom per million years, defined as: foot per millennium × (6.0)/(1000.0)
+   /// fathom per million years defined such that: foot per millennium = ftm/Myr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerMillionYears = new (
                                                                 "fathom per million years"
@@ -4055,7 +4055,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per nonillion years, defined as: chain per octillion years × (10.0)/(1000.0)
+   /// furlong per nonillion years defined such that: chain per octillion years = fur/Qyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerNonillionYears = new (
                                                                    "furlong per nonillion years"
@@ -4066,7 +4066,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// barleycorn per trillion years, defined as: foot per billion years × (1.0/36.0)/(1000.0)
+   /// barleycorn per trillion years defined such that: foot per billion years = barleycorn/Tyr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerTrillionYears = new (
                                                                      "barleycorn per trillion years"
@@ -4077,7 +4077,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// cable per octillion years, defined as: fathom per septillion years × (100.0)/(1000.0)
+   /// cable per octillion years defined such that: fathom per septillion years = cable/Ryr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerOctillionYears = new (
                                                                  "cable per octillion years"
@@ -4088,7 +4088,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// twip per quintillion years, defined as: foot per quadrillion years × (1.0/17280.0)/(1000.0)
+   /// twip per quintillion years defined such that: foot per quadrillion years = twip/Eyr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerQuintillionYears = new (
                                                                   "twip per quintillion years"
@@ -4099,7 +4099,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nautical mile per hour, defined as: cable per minute × (10.0)/(60.0)
+   /// nautical mile per hour defined such that: cable per minute = nmi/hr × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerHour = new (
                                                               "nautical mile per hour"
@@ -4110,7 +4110,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// chain per million years, defined as: yard per millennium × (22.0)/(1000.0)
+   /// chain per million years defined such that: yard per millennium = ch/Myr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerMillionYears = new (
                                                                "chain per million years"
@@ -4121,7 +4121,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// mile per year, defined as: furlong per day × (8.0)/(365.2525)
+   /// mile per year defined such that: furlong per day = mi/yr × (8.0)/(365.2525).
    /// </summary>
    public static readonly Velocity MilePerYear = new (
                                                       "mile per year"
@@ -4132,7 +4132,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// thou per septillion years, defined as: foot per sextillion years × (1.0/12000.0)/(1000.0)
+   /// thou per septillion years defined such that: foot per sextillion years = th/Yyr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerSeptillionYears = new (
                                                                  "thou per septillion years"
@@ -4143,7 +4143,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// chain per nonillion years, defined as: yard per octillion years × (22.0)/(1000.0)
+   /// chain per nonillion years defined such that: yard per octillion years = ch/Qyr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerNonillionYears = new (
                                                                  "chain per nonillion years"
@@ -4154,7 +4154,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// cable per quintillion years, defined as: fathom per quadrillion years × (100.0)/(1000.0)
+   /// cable per quintillion years defined such that: fathom per quadrillion years = cable/Eyr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerQuintillionYears = new (
                                                                    "cable per quintillion years"
@@ -4165,7 +4165,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nautical mile per quadrillion years, defined as: cable per trillion years × (10.0)/(1000.0)
+   /// nautical mile per quadrillion years defined such that: cable per trillion years = nmi/Pyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerQuadrillionYears = new (
                                                                           "nautical mile per quadrillion years"
@@ -4176,7 +4176,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                          );
 
    /// <summary>
-   /// mile per day, defined as: furlong per hour × (8.0)/(24.0)
+   /// mile per day defined such that: furlong per hour = mi/dy × (8.0)/(24.0).
    /// </summary>
    public static readonly Velocity MilePerDay = new (
                                                      "mile per day"
@@ -4187,7 +4187,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     );
 
    /// <summary>
-   /// barleycorn per octillion years, defined as: foot per septillion years × (1.0/36.0)/(1000.0)
+   /// barleycorn per octillion years defined such that: foot per septillion years = barleycorn/Ryr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerOctillionYears = new (
                                                                       "barleycorn per octillion years"
@@ -4198,7 +4198,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// cable per billion years, defined as: fathom per million years × (100.0)/(1000.0)
+   /// cable per billion years defined such that: fathom per million years = cable/Gyr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerBillionYears = new (
                                                                "cable per billion years"
@@ -4209,7 +4209,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per septillion years, defined as: chain per sextillion years × (10.0)/(1000.0)
+   /// furlong per septillion years defined such that: chain per sextillion years = fur/Yyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerSeptillionYears = new (
                                                                     "furlong per septillion years"
@@ -4220,7 +4220,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// chain per week, defined as: yard per day × (22.0)/(7.0)
+   /// chain per week defined such that: yard per day = ch/wk × (22.0)/(7.0).
    /// </summary>
    public static readonly Velocity ChainPerWeek = new (
                                                        "chain per week"
@@ -4231,7 +4231,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// twip per sextillion years, defined as: foot per quintillion years × (1.0/17280.0)/(1000.0)
+   /// twip per sextillion years defined such that: foot per quintillion years = twip/Zyr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerSextillionYears = new (
                                                                  "twip per sextillion years"
@@ -4242,7 +4242,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// nautical mile per year, defined as: cable per day × (10.0)/(365.2525)
+   /// nautical mile per year defined such that: cable per day = nmi/yr × (10.0)/(365.2525).
    /// </summary>
    public static readonly Velocity NauticalMilePerYear = new (
                                                               "nautical mile per year"
@@ -4253,7 +4253,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// yard per nonillion years, defined as: foot per octillion years × (3.0)/(1000.0)
+   /// yard per nonillion years defined such that: foot per octillion years = yd/Qyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerNonillionYears = new (
                                                                 "yard per nonillion years"
@@ -4264,7 +4264,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// fathom per octillion years, defined as: foot per septillion years × (6.0)/(1000.0)
+   /// fathom per octillion years defined such that: foot per septillion years = ftm/Ryr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerOctillionYears = new (
                                                                   "fathom per octillion years"
@@ -4275,7 +4275,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// chain per quadrillion years, defined as: yard per trillion years × (22.0)/(1000.0)
+   /// chain per quadrillion years defined such that: yard per trillion years = ch/Pyr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerQuadrillionYears = new (
                                                                    "chain per quadrillion years"
@@ -4286,7 +4286,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// cable per century, defined as: fathom per decade × (100.0)/(10.0)
+   /// cable per century defined such that: fathom per decade = cable/century × (100.0)/(10.0).
    /// </summary>
    public static readonly Velocity CablePerCentury = new (
                                                           "cable per century"
@@ -4297,7 +4297,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// yard per sextillion years, defined as: foot per quintillion years × (3.0)/(1000.0)
+   /// yard per sextillion years defined such that: foot per quintillion years = yd/Zyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerSextillionYears = new (
                                                                  "yard per sextillion years"
@@ -4308,7 +4308,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// nautical mile per septillion years, defined as: cable per sextillion years × (10.0)/(1000.0)
+   /// nautical mile per septillion years defined such that: cable per sextillion years = nmi/Yyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerSeptillionYears = new (
                                                                          "nautical mile per septillion years"
@@ -4319,7 +4319,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// cable per week, defined as: fathom per day × (100.0)/(7.0)
+   /// cable per week defined such that: fathom per day = cable/wk × (100.0)/(7.0).
    /// </summary>
    public static readonly Velocity CablePerWeek = new (
                                                        "cable per week"
@@ -4330,7 +4330,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// thou per octillion years, defined as: foot per septillion years × (1.0/12000.0)/(1000.0)
+   /// thou per octillion years defined such that: foot per septillion years = th/Ryr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerOctillionYears = new (
                                                                 "thou per octillion years"
@@ -4341,7 +4341,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// league per day, defined as: mile per hour × (3.0)/(24.0)
+   /// league per day defined such that: mile per hour = lea/dy × (3.0)/(24.0).
    /// </summary>
    public static readonly Velocity LeaguePerDay = new (
                                                        "league per day"
@@ -4352,7 +4352,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// twip per septillion years, defined as: foot per sextillion years × (1.0/17280.0)/(1000.0)
+   /// twip per septillion years defined such that: foot per sextillion years = twip/Yyr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerSeptillionYears = new (
                                                                  "twip per septillion years"
@@ -4363,7 +4363,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// furlong per quintillion years, defined as: chain per quadrillion years × (10.0)/(1000.0)
+   /// furlong per quintillion years defined such that: chain per quadrillion years = fur/Eyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerQuintillionYears = new (
                                                                      "furlong per quintillion years"
@@ -4374,7 +4374,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// nautical mile per millennium, defined as: cable per century × (10.0)/(10.0)
+   /// nautical mile per millennium defined such that: cable per century = nmi/kyr × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerMillennium = new (
                                                                     "nautical mile per millennium"
@@ -4385,7 +4385,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// chain per century, defined as: yard per decade × (22.0)/(10.0)
+   /// chain per century defined such that: yard per decade = ch/century × (22.0)/(10.0).
    /// </summary>
    public static readonly Velocity ChainPerCentury = new (
                                                           "chain per century"
@@ -4396,7 +4396,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// league per octillion years, defined as: mile per septillion years × (3.0)/(1000.0)
+   /// league per octillion years defined such that: mile per septillion years = lea/Ryr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerOctillionYears = new (
                                                                   "league per octillion years"
@@ -4407,7 +4407,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// barleycorn per nonillion years, defined as: foot per octillion years × (1.0/36.0)/(1000.0)
+   /// barleycorn per nonillion years defined such that: foot per octillion years = barleycorn/Qyr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerNonillionYears = new (
                                                                       "barleycorn per nonillion years"
@@ -4418,7 +4418,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// chain per septillion years, defined as: yard per sextillion years × (22.0)/(1000.0)
+   /// chain per septillion years defined such that: yard per sextillion years = ch/Yyr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerSeptillionYears = new (
                                                                   "chain per septillion years"
@@ -4429,7 +4429,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// cable per decillion years, defined as: fathom per nonillion years × (100.0)/(1000.0)
+   /// cable per decillion years defined such that: fathom per nonillion years = cable/decillion yr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerDecillionYears = new (
                                                                  "cable per decillion years"
@@ -4440,7 +4440,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// league per year, defined as: mile per day × (3.0)/(365.2525)
+   /// league per year defined such that: mile per day = lea/yr × (3.0)/(365.2525).
    /// </summary>
    public static readonly Velocity LeaguePerYear = new (
                                                         "league per year"
@@ -4451,7 +4451,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// fathom per decillion years, defined as: foot per nonillion years × (6.0)/(1000.0)
+   /// fathom per decillion years defined such that: foot per nonillion years = ftm/decillion yr × (6.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FathomPerDecillionYears = new (
                                                                   "fathom per decillion years"
@@ -4462,7 +4462,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// furlong per week, defined as: chain per day × (10.0)/(7.0)
+   /// furlong per week defined such that: chain per day = fur/wk × (10.0)/(7.0).
    /// </summary>
    public static readonly Velocity FurlongPerWeek = new (
                                                          "furlong per week"
@@ -4473,7 +4473,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// twip per octillion years, defined as: foot per septillion years × (1.0/17280.0)/(1000.0)
+   /// twip per octillion years defined such that: foot per septillion years = twip/Ryr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerOctillionYears = new (
                                                                 "twip per octillion years"
@@ -4484,7 +4484,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// nautical mile per trillion years, defined as: cable per billion years × (10.0)/(1000.0)
+   /// nautical mile per trillion years defined such that: cable per billion years = nmi/Tyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerTrillionYears = new (
                                                                        "nautical mile per trillion years"
@@ -4495,7 +4495,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// cable per septillion years, defined as: fathom per sextillion years × (100.0)/(1000.0)
+   /// cable per septillion years defined such that: fathom per sextillion years = cable/Yyr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerSeptillionYears = new (
                                                                   "cable per septillion years"
@@ -4506,7 +4506,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// thou per nonillion years, defined as: foot per octillion years × (1.0/12000.0)/(1000.0)
+   /// thou per nonillion years defined such that: foot per octillion years = th/Qyr × (1.0/12000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ThouPerNonillionYears = new (
                                                                 "thou per nonillion years"
@@ -4517,7 +4517,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// mile per decillion years, defined as: furlong per nonillion years × (8.0)/(1000.0)
+   /// mile per decillion years defined such that: furlong per nonillion years = mi/decillion yr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerDecillionYears = new (
                                                                 "mile per decillion years"
@@ -4528,7 +4528,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// chain per billion years, defined as: yard per million years × (22.0)/(1000.0)
+   /// chain per billion years defined such that: yard per million years = ch/Gyr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerBillionYears = new (
                                                                "chain per billion years"
@@ -4539,7 +4539,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// mile per octillion years, defined as: furlong per septillion years × (8.0)/(1000.0)
+   /// mile per octillion years defined such that: furlong per septillion years = mi/Ryr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerOctillionYears = new (
                                                                 "mile per octillion years"
@@ -4550,7 +4550,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per decillion years, defined as: chain per nonillion years × (10.0)/(1000.0)
+   /// furlong per decillion years defined such that: chain per nonillion years = fur/decillion yr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerDecillionYears = new (
                                                                    "furlong per decillion years"
@@ -4561,7 +4561,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nautical mile per week, defined as: cable per day × (10.0)/(7.0)
+   /// nautical mile per week defined such that: cable per day = nmi/wk × (10.0)/(7.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerWeek = new (
                                                               "nautical mile per week"
@@ -4572,7 +4572,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// mile per sextillion years, defined as: furlong per quintillion years × (8.0)/(1000.0)
+   /// mile per sextillion years defined such that: furlong per quintillion years = mi/Zyr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerSextillionYears = new (
                                                                  "mile per sextillion years"
@@ -4583,7 +4583,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// chain per decillion years, defined as: yard per nonillion years × (22.0)/(1000.0)
+   /// chain per decillion years defined such that: yard per nonillion years = ch/decillion yr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerDecillionYears = new (
                                                                  "chain per decillion years"
@@ -4594,7 +4594,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// twip per nonillion years, defined as: foot per octillion years × (1.0/17280.0)/(1000.0)
+   /// twip per nonillion years defined such that: foot per octillion years = twip/Qyr × (1.0/17280.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TwipPerNonillionYears = new (
                                                                 "twip per nonillion years"
@@ -4605,7 +4605,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// yard per decillion years, defined as: foot per nonillion years × (3.0)/(1000.0)
+   /// yard per decillion years defined such that: foot per nonillion years = yd/decillion yr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YardPerDecillionYears = new (
                                                                 "yard per decillion years"
@@ -4616,7 +4616,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// nautical mile per sextillion years, defined as: cable per quintillion years × (10.0)/(1000.0)
+   /// nautical mile per sextillion years defined such that: cable per quintillion years = nmi/Zyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerSextillionYears = new (
                                                                          "nautical mile per sextillion years"
@@ -4627,7 +4627,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// chain per year, defined as: yard per day × (22.0)/(365.2525)
+   /// chain per year defined such that: yard per day = ch/yr × (22.0)/(365.2525).
    /// </summary>
    public static readonly Velocity ChainPerYear = new (
                                                        "chain per year"
@@ -4638,7 +4638,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// cable per decade, defined as: fathom per year × (100.0)/(10.0)
+   /// cable per decade defined such that: fathom per year = cable/decade × (100.0)/(10.0).
    /// </summary>
    public static readonly Velocity CablePerDecade = new (
                                                          "cable per decade"
@@ -4649,7 +4649,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// barleycorn per decillion years, defined as: foot per nonillion years × (1.0/36.0)/(1000.0)
+   /// barleycorn per decillion years defined such that: foot per nonillion years = barleycorn/decillion yr × (1.0/36.0)/(1000.0).
    /// </summary>
    public static readonly Velocity BarleycornPerDecillionYears = new (
                                                                       "barleycorn per decillion years"
@@ -4660,7 +4660,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// mile per decade, defined as: furlong per year × (8.0)/(10.0)
+   /// mile per decade defined such that: furlong per year = mi/decade × (8.0)/(10.0).
    /// </summary>
    public static readonly Velocity MilePerDecade = new (
                                                         "mile per decade"
@@ -4671,7 +4671,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// nautical mile per century, defined as: cable per decade × (10.0)/(10.0)
+   /// nautical mile per century defined such that: cable per decade = nmi/century × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerCentury = new (
                                                                  "nautical mile per century"
@@ -4682,7 +4682,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// furlong per octillion years, defined as: chain per septillion years × (10.0)/(1000.0)
+   /// furlong per octillion years defined such that: chain per septillion years = fur/Ryr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerOctillionYears = new (
                                                                    "furlong per octillion years"
@@ -4693,7 +4693,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// mile per week, defined as: furlong per day × (8.0)/(7.0)
+   /// mile per week defined such that: furlong per day = mi/wk × (8.0)/(7.0).
    /// </summary>
    public static readonly Velocity MilePerWeek = new (
                                                       "mile per week"
@@ -4704,7 +4704,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      );
 
    /// <summary>
-   /// nautical mile per nonillion years, defined as: cable per octillion years × (10.0)/(1000.0)
+   /// nautical mile per nonillion years defined such that: cable per octillion years = nmi/Qyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerNonillionYears = new (
                                                                         "nautical mile per nonillion years"
@@ -4715,7 +4715,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// chain per millennium, defined as: yard per century × (22.0)/(10.0)
+   /// chain per millennium defined such that: yard per century = ch/kyr × (22.0)/(10.0).
    /// </summary>
    public static readonly Velocity ChainPerMillennium = new (
                                                              "chain per millennium"
@@ -4726,7 +4726,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// furlong per century, defined as: chain per decade × (10.0)/(10.0)
+   /// furlong per century defined such that: chain per decade = fur/century × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity FurlongPerCentury = new (
                                                             "furlong per century"
@@ -4737,7 +4737,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// cable per nonillion years, defined as: fathom per octillion years × (100.0)/(1000.0)
+   /// cable per nonillion years defined such that: fathom per octillion years = cable/Qyr × (100.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CablePerNonillionYears = new (
                                                                  "cable per nonillion years"
@@ -4748,7 +4748,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// nautical mile per day, defined as: cable per hour × (10.0)/(24.0)
+   /// nautical mile per day defined such that: cable per hour = nmi/dy × (10.0)/(24.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerDay = new (
                                                              "nautical mile per day"
@@ -4759,7 +4759,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// league per septillion years, defined as: mile per sextillion years × (3.0)/(1000.0)
+   /// league per septillion years defined such that: mile per sextillion years = lea/Yyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerSeptillionYears = new (
                                                                    "league per septillion years"
@@ -4770,7 +4770,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// league per week, defined as: mile per day × (3.0)/(7.0)
+   /// league per week defined such that: mile per day = lea/wk × (3.0)/(7.0).
    /// </summary>
    public static readonly Velocity LeaguePerWeek = new (
                                                         "league per week"
@@ -4781,7 +4781,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        );
 
    /// <summary>
-   /// chain per trillion years, defined as: yard per billion years × (22.0)/(1000.0)
+   /// chain per trillion years defined such that: yard per billion years = ch/Tyr × (22.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ChainPerTrillionYears = new (
                                                                 "chain per trillion years"
@@ -4792,7 +4792,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per quadrillion years, defined as: chain per trillion years × (10.0)/(1000.0)
+   /// furlong per quadrillion years defined such that: chain per trillion years = fur/Pyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerQuadrillionYears = new (
                                                                      "furlong per quadrillion years"
@@ -4803,7 +4803,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// league per nonillion years, defined as: mile per octillion years × (3.0)/(1000.0)
+   /// league per nonillion years defined such that: mile per octillion years = lea/Qyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerNonillionYears = new (
                                                                   "league per nonillion years"
@@ -4814,7 +4814,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nautical mile per decade, defined as: cable per year × (10.0)/(10.0)
+   /// nautical mile per decade defined such that: cable per year = nmi/decade × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerDecade = new (
                                                                 "nautical mile per decade"
@@ -4825,7 +4825,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// league per decade, defined as: mile per year × (3.0)/(10.0)
+   /// league per decade defined such that: mile per year = lea/decade × (3.0)/(10.0).
    /// </summary>
    public static readonly Velocity LeaguePerDecade = new (
                                                           "league per decade"
@@ -4836,7 +4836,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// nautical mile per octillion years, defined as: cable per septillion years × (10.0)/(1000.0)
+   /// nautical mile per octillion years defined such that: cable per septillion years = nmi/Ryr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerOctillionYears = new (
                                                                         "nautical mile per octillion years"
@@ -4847,7 +4847,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// mile per nonillion years, defined as: furlong per octillion years × (8.0)/(1000.0)
+   /// mile per nonillion years defined such that: furlong per octillion years = mi/Qyr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerNonillionYears = new (
                                                                 "mile per nonillion years"
@@ -4858,7 +4858,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// furlong per billion years, defined as: chain per million years × (10.0)/(1000.0)
+   /// furlong per billion years defined such that: chain per million years = fur/Gyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerBillionYears = new (
                                                                  "furlong per billion years"
@@ -4869,7 +4869,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// mile per quintillion years, defined as: furlong per quadrillion years × (8.0)/(1000.0)
+   /// mile per quintillion years defined such that: furlong per quadrillion years = mi/Eyr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerQuintillionYears = new (
                                                                   "mile per quintillion years"
@@ -4880,7 +4880,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// mile per trillion years, defined as: furlong per billion years × (8.0)/(1000.0)
+   /// mile per trillion years defined such that: furlong per billion years = mi/Tyr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerTrillionYears = new (
                                                                "mile per trillion years"
@@ -4891,7 +4891,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// furlong per millennium, defined as: chain per century × (10.0)/(10.0)
+   /// furlong per millennium defined such that: chain per century = fur/kyr × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity FurlongPerMillennium = new (
                                                                "furlong per millennium"
@@ -4902,7 +4902,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// league per quadrillion years, defined as: mile per trillion years × (3.0)/(1000.0)
+   /// league per quadrillion years defined such that: mile per trillion years = lea/Pyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerQuadrillionYears = new (
                                                                     "league per quadrillion years"
@@ -4913,7 +4913,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// league per sextillion years, defined as: mile per quintillion years × (3.0)/(1000.0)
+   /// league per sextillion years defined such that: mile per quintillion years = lea/Zyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerSextillionYears = new (
                                                                    "league per sextillion years"
@@ -4924,7 +4924,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// furlong per decade, defined as: chain per year × (10.0)/(10.0)
+   /// furlong per decade defined such that: chain per year = fur/decade × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity FurlongPerDecade = new (
                                                            "furlong per decade"
@@ -4935,7 +4935,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// nautical mile per decillion years, defined as: cable per nonillion years × (10.0)/(1000.0)
+   /// nautical mile per decillion years defined such that: cable per nonillion years = nmi/decillion yr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NauticalMilePerDecillionYears = new (
                                                                         "nautical mile per decillion years"
@@ -4946,7 +4946,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// league per decillion years, defined as: mile per nonillion years × (3.0)/(1000.0)
+   /// league per decillion years defined such that: mile per nonillion years = lea/decillion yr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerDecillionYears = new (
                                                                   "league per decillion years"
@@ -4957,7 +4957,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// furlong per trillion years, defined as: chain per billion years × (10.0)/(1000.0)
+   /// furlong per trillion years defined such that: chain per billion years = fur/Tyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerTrillionYears = new (
                                                                   "furlong per trillion years"
@@ -4968,7 +4968,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// league per century, defined as: mile per decade × (3.0)/(10.0)
+   /// league per century defined such that: mile per decade = lea/century × (3.0)/(10.0).
    /// </summary>
    public static readonly Velocity LeaguePerCentury = new (
                                                            "league per century"
@@ -4979,7 +4979,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// mile per quadrillion years, defined as: furlong per trillion years × (8.0)/(1000.0)
+   /// mile per quadrillion years defined such that: furlong per trillion years = mi/Pyr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerQuadrillionYears = new (
                                                                   "mile per quadrillion years"
@@ -4990,7 +4990,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// furlong per million years, defined as: chain per millennium × (10.0)/(1000.0)
+   /// furlong per million years defined such that: chain per millennium = fur/Myr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FurlongPerMillionYears = new (
                                                                  "furlong per million years"
@@ -5001,7 +5001,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// mile per millennium, defined as: furlong per century × (8.0)/(10.0)
+   /// mile per millennium defined such that: furlong per century = mi/kyr × (8.0)/(10.0).
    /// </summary>
    public static readonly Velocity MilePerMillennium = new (
                                                             "mile per millennium"
@@ -5012,7 +5012,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// league per quintillion years, defined as: mile per quadrillion years × (3.0)/(1000.0)
+   /// league per quintillion years defined such that: mile per quadrillion years = lea/Eyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerQuintillionYears = new (
                                                                     "league per quintillion years"
@@ -5023,7 +5023,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// mile per million years, defined as: furlong per millennium × (8.0)/(1000.0)
+   /// mile per million years defined such that: furlong per millennium = mi/Myr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerMillionYears = new (
                                                               "mile per million years"
@@ -5034,7 +5034,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// mile per century, defined as: furlong per decade × (8.0)/(10.0)
+   /// mile per century defined such that: furlong per decade = mi/century × (8.0)/(10.0).
    /// </summary>
    public static readonly Velocity MilePerCentury = new (
                                                          "mile per century"
@@ -5045,7 +5045,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// league per billion years, defined as: mile per million years × (3.0)/(1000.0)
+   /// league per billion years defined such that: mile per million years = lea/Gyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerBillionYears = new (
                                                                 "league per billion years"
@@ -5056,7 +5056,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// mile per billion years, defined as: furlong per million years × (8.0)/(1000.0)
+   /// mile per billion years defined such that: furlong per million years = mi/Gyr × (8.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MilePerBillionYears = new (
                                                               "mile per billion years"
@@ -5067,7 +5067,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// league per million years, defined as: mile per millennium × (3.0)/(1000.0)
+   /// league per million years defined such that: mile per millennium = lea/Myr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerMillionYears = new (
                                                                 "league per million years"
@@ -5078,7 +5078,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// league per trillion years, defined as: mile per billion years × (3.0)/(1000.0)
+   /// league per trillion years defined such that: mile per billion years = lea/Tyr × (3.0)/(1000.0).
    /// </summary>
    public static readonly Velocity LeaguePerTrillionYears = new (
                                                                  "league per trillion years"
@@ -5089,7 +5089,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// league per millennium, defined as: mile per century × (3.0)/(10.0)
+   /// league per millennium defined such that: mile per century = lea/kyr × (3.0)/(10.0).
    /// </summary>
    public static readonly Velocity LeaguePerMillennium = new (
                                                               "league per millennium"

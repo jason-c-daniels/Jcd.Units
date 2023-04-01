@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareMillionYears Field
 
-barleycorn per square million years, defined as: foot per square millennium × (1.0/36.0)/((1000.0)*(1000.0))
+barleycorn per square million years defined such that: foot per square millennium = barleycorn/Myr² × (1.0/36.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareMillionYears;

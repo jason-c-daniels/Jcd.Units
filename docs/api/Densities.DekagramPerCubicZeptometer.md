@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicZeptometer Field
 
-dekagram per cubic zeptometer, defined as: hectogram per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+dekagram per cubic zeptometer defined such that: hectogram per cubic attometer = dag/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density DekagramPerCubicZeptometer;

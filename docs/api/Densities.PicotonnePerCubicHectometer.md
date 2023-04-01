@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicHectometer Field
 
-picotonne per cubic hectometer, defined as: nanotonne per cubic dekameter × (1.0/1000.0)/((10.0)*(10.0)*(10.0))
+picotonne per cubic hectometer defined such that: nanotonne per cubic dekameter = pt/hm³ × (1.0/1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density PicotonnePerCubicHectometer;

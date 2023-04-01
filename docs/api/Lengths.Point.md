@@ -3,7 +3,7 @@
 
 ## Lengths.Point Field
 
-point, defined as: inch × 1.0/72.0
+point defined such that: inch = p × 1.0/72.0.
 
 ```csharp
 public static readonly Length Point;

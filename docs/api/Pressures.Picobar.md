@@ -3,7 +3,7 @@
 
 ## Pressures.Picobar Field
 
-picobar, defined as: nanobar × 1.0/1000.0
+picobar defined such that: nanobar = pbar × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Picobar;

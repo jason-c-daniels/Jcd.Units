@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerDay Field
 
-hectometer per day, defined as: dekameter per hour × (10.0)/(24.0)
+hectometer per day defined such that: dekameter per hour = hm/dy × (10.0)/(24.0).
 
 ```csharp
 public static readonly Velocity HectometerPerDay;

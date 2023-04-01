@@ -3,7 +3,7 @@
 
 ## StorageUnits.Mebibyte Field
 
-mebibyte, defined as: kebibyte × 1024.0
+mebibyte defined such that: kebibyte = MiB × 1024.0.
 
 ```csharp
 public static readonly Storage Mebibyte;

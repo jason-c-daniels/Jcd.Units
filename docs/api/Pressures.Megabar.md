@@ -3,7 +3,7 @@
 
 ## Pressures.Megabar Field
 
-megabar, defined as: kilobar × 1000.0
+megabar defined such that: kilobar = Mbar × 1000.0.
 
 ```csharp
 public static readonly Pressure Megabar;

@@ -3,7 +3,7 @@
 
 ## Velocities.LinkPerCentury Field
 
-link per century, defined as: SI meter per decade × (0.20116)/(10.0)
+link per century defined such that: SI meter per decade = li/century × (0.20116)/(10.0).
 
 ```csharp
 public static readonly Velocity LinkPerCentury;

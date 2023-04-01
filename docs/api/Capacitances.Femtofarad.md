@@ -3,7 +3,7 @@
 
 ## Capacitances.Femtofarad Field
 
-femtofarad, defined as: picofarad × 1.0/1000.0
+femtofarad defined such that: picofarad = fF × 1.0/1000.0.
 
 ```csharp
 public static readonly Capacitance Femtofarad;

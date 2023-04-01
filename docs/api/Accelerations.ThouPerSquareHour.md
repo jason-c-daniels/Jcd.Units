@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareHour Field
 
-thou per square hour, defined as: foot per square minute × (1.0/12000.0)/((60.0)*(60.0))
+thou per square hour defined such that: foot per square minute = th/hr² × (1.0/12000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration ThouPerSquareHour;

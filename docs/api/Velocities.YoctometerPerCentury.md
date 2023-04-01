@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerCentury Field
 
-yoctometer per century, defined as: zeptometer per decade × (1.0/1000.0)/(10.0)
+yoctometer per century defined such that: zeptometer per decade = ym/century × (1.0/1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity YoctometerPerCentury;

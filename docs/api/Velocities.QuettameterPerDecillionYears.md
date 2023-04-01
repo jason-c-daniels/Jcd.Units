@@ -3,7 +3,7 @@
 
 ## Velocities.QuettameterPerDecillionYears Field
 
-quettameter per decillion years, defined as: ronnameter per nonillion years × (1000.0)/(1000.0)
+quettameter per decillion years defined such that: ronnameter per nonillion years = Qm/decillion yr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity QuettameterPerDecillionYears;

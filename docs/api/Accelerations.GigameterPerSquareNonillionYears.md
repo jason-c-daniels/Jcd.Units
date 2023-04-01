@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareNonillionYears Field
 
-gigameter per square nonillion years, defined as: megameter per square octillion years × (1000.0)/((1000.0)*(1000.0))
+gigameter per square nonillion years defined such that: megameter per square octillion years = Gm/Qyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareNonillionYears;

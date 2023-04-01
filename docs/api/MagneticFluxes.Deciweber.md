@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Deciweber Field
 
-deciweber, defined as: weber × 1.0/10.0
+deciweber defined such that: weber = dWb × 1.0/10.0.
 
 ```csharp
 public static readonly MagneticFlux Deciweber;

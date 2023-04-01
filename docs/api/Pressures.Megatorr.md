@@ -3,7 +3,7 @@
 
 ## Pressures.Megatorr Field
 
-megatorr, defined as: kilotorr × 1000.0
+megatorr defined such that: kilotorr = MTorr × 1000.0.
 
 ```csharp
 public static readonly Pressure Megatorr;

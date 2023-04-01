@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
 public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
 {
    /// <summary>
-   /// planck-length, defined as: SI meter × 1.616255E-35
+   /// planck-length defined such that: SI meter = ℓₚ × 1.616255E-35.
    /// </summary>
    public static readonly Length PlanckLength = new (
                                                      "planck-length"

@@ -3,7 +3,7 @@
 
 ## Energies.Decijoule Field
 
-decijoule, defined as: joule × 1.0/10.0
+decijoule defined such that: joule = dJ × 1.0/10.0.
 
 ```csharp
 public static readonly Energy Decijoule;

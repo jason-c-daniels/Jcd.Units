@@ -3,7 +3,7 @@
 
 ## Masses.MetricTon Field
 
-metric ton, a synonym for megagram
+metric ton is a synonym for megagram
 
 ```csharp
 public static readonly Mass MetricTon;

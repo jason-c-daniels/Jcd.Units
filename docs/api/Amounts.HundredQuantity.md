@@ -3,7 +3,7 @@
 
 ## Amounts.HundredQuantity Field
 
-hundred quantity, defined as: ten quantity × 10.0
+hundred quantity defined such that: ten quantity = hundred qty. × 10.0.
 
 ```csharp
 public static readonly Amount HundredQuantity;

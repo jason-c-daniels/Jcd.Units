@@ -3,7 +3,7 @@
 
 ## Pressures.Gigapascal Field
 
-gigapascal, defined as: megapascal × 1000.0
+gigapascal defined such that: megapascal = GPa × 1000.0.
 
 ```csharp
 public static readonly Pressure Gigapascal;

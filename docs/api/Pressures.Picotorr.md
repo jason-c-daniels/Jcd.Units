@@ -3,7 +3,7 @@
 
 ## Pressures.Picotorr Field
 
-picotorr, defined as: nanotorr × 1.0/1000.0
+picotorr defined such that: nanotorr = pTorr × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Picotorr;

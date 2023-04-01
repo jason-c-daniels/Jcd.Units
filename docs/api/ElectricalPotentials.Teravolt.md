@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Teravolt Field
 
-teravolt, defined as: gigavolt × 1000.0
+teravolt defined such that: gigavolt = TV × 1000.0.
 
 ```csharp
 public static readonly ElectricalPotential Teravolt;

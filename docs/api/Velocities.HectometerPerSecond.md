@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerSecond Field
 
-hectometer per second, defined as: dekameter per second × (10.0)/(1.0)
+hectometer per second defined such that: dekameter per second = hm/s × (10.0)/(1.0).
 
 ```csharp
 public static readonly Velocity HectometerPerSecond;

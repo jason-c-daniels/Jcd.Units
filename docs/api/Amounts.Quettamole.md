@@ -3,7 +3,7 @@
 
 ## Amounts.Quettamole Field
 
-quettamole, defined as: ronnamole × 1000.0
+quettamole defined such that: ronnamole = Qmol × 1000.0.
 
 ```csharp
 public static readonly Amount Quettamole;

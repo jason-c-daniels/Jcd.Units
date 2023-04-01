@@ -3,7 +3,7 @@
 
 ## Accelerations.CablePerSquareWeek Field
 
-cable per square week, defined as: fathom per square day × (100.0)/((7.0)*(7.0))
+cable per square week defined such that: fathom per square day = cable/wk² × (100.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration CablePerSquareWeek;

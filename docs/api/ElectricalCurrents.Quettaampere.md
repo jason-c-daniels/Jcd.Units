@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Quettaampere Field
 
-quettaampere, defined as: ronnaampere × 1000.0
+quettaampere defined such that: ronnaampere = QA × 1000.0.
 
 ```csharp
 public static readonly ElectricalCurrent Quettaampere;

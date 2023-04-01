@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicMeter Field
 
-hectogram per cubic meter, defined as: kilogram per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+hectogram per cubic meter defined such that: kilogram per cubic meter = hg/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density HectogramPerCubicMeter;

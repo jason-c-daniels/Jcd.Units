@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerBillionYears Field
 
-zettameter per billion years, defined as: exameter per million years × (1000.0)/(1000.0)
+zettameter per billion years defined such that: exameter per million years = Zm/Gyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ZettameterPerBillionYears;

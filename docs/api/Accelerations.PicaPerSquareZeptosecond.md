@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquareZeptosecond Field
 
-pica per square zeptosecond, defined as: point per square attosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+pica per square zeptosecond defined such that: point per square attosecond = P/zs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration PicaPerSquareZeptosecond;

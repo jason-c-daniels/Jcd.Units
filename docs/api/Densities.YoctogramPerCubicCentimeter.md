@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicCentimeter Field
 
-yoctogram per cubic centimeter, defined as: zeptogram per cubic decimeter × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+yoctogram per cubic centimeter defined such that: zeptogram per cubic decimeter = yg/cm³ × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density YoctogramPerCubicCentimeter;

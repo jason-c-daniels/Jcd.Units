@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerPlanckTime Field
 
-yottameter per planck-time, defined as: zettameter per microsecond × (1000.0)/(5.391247E-38)
+yottameter per planck-time defined such that: zettameter per microsecond = Ym/tₚ × (1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity YottameterPerPlanckTime;

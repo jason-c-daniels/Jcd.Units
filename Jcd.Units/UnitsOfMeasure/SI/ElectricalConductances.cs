@@ -23,7 +23,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
    public static readonly ElectricalConductance Siemens = new ("siemens", "S", system: "SI");
 
    /// <summary>
-   /// decisiemens, defined as: siemens × 1.0/10.0
+   /// decisiemens defined such that: siemens = dS × 1.0/10.0.
    /// </summary>
    public static readonly ElectricalConductance Decisiemens = new (
                                                                    "decisiemens"
@@ -34,7 +34,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// centisiemens, defined as: decisiemens × 1.0/10.0
+   /// centisiemens defined such that: decisiemens = cS × 1.0/10.0.
    /// </summary>
    public static readonly ElectricalConductance Centisiemens = new (
                                                                     "centisiemens"
@@ -45,7 +45,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// millisiemens, defined as: centisiemens × 1.0/10.0
+   /// millisiemens defined such that: centisiemens = mS × 1.0/10.0.
    /// </summary>
    public static readonly ElectricalConductance Millisiemens = new (
                                                                     "millisiemens"
@@ -56,7 +56,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// microsiemens, defined as: millisiemens × 1.0/1000.0
+   /// microsiemens defined such that: millisiemens = μS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Microsiemens = new (
                                                                     "microsiemens"
@@ -67,7 +67,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// nanosiemens, defined as: microsiemens × 1.0/1000.0
+   /// nanosiemens defined such that: microsiemens = nS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Nanosiemens = new (
                                                                    "nanosiemens"
@@ -78,7 +78,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// picosiemens, defined as: nanosiemens × 1.0/1000.0
+   /// picosiemens defined such that: nanosiemens = pS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Picosiemens = new (
                                                                    "picosiemens"
@@ -89,7 +89,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// femtosiemens, defined as: picosiemens × 1.0/1000.0
+   /// femtosiemens defined such that: picosiemens = fS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Femtosiemens = new (
                                                                     "femtosiemens"
@@ -100,7 +100,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// attosiemens, defined as: femtosiemens × 1.0/1000.0
+   /// attosiemens defined such that: femtosiemens = aS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Attosiemens = new (
                                                                    "attosiemens"
@@ -111,7 +111,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// zeptosiemens, defined as: attosiemens × 1.0/1000.0
+   /// zeptosiemens defined such that: attosiemens = zS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Zeptosiemens = new (
                                                                     "zeptosiemens"
@@ -122,7 +122,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// yoctosiemens, defined as: zeptosiemens × 1.0/1000.0
+   /// yoctosiemens defined such that: zeptosiemens = yS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Yoctosiemens = new (
                                                                     "yoctosiemens"
@@ -133,7 +133,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// rontosiemens, defined as: yoctosiemens × 1.0/1000.0
+   /// rontosiemens defined such that: yoctosiemens = rS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Rontosiemens = new (
                                                                     "rontosiemens"
@@ -144,7 +144,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// quectosiemens, defined as: rontosiemens × 1.0/1000.0
+   /// quectosiemens defined such that: rontosiemens = qS × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalConductance Quectosiemens = new (
                                                                      "quectosiemens"
@@ -155,12 +155,12 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                     );
 
    /// <summary>
-   /// dekasiemens, defined as: siemens × 10.0
+   /// dekasiemens defined such that: siemens = daS × 10.0.
    /// </summary>
    public static readonly ElectricalConductance Dekasiemens = new ("dekasiemens", "daS", Siemens, 10.0, system: "SI");
 
    /// <summary>
-   /// hectosiemens, defined as: dekasiemens × 10.0
+   /// hectosiemens defined such that: dekasiemens = hS × 10.0.
    /// </summary>
    public static readonly ElectricalConductance Hectosiemens = new (
                                                                     "hectosiemens"
@@ -171,7 +171,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// kilosiemens, defined as: hectosiemens × 10.0
+   /// kilosiemens defined such that: hectosiemens = kS × 10.0.
    /// </summary>
    public static readonly ElectricalConductance Kilosiemens = new (
                                                                    "kilosiemens"
@@ -182,7 +182,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// megasiemens, defined as: kilosiemens × 1000.0
+   /// megasiemens defined such that: kilosiemens = MS × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance Megasiemens = new (
                                                                    "megasiemens"
@@ -193,7 +193,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// gigasiemens, defined as: megasiemens × 1000.0
+   /// gigasiemens defined such that: megasiemens = GS × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance Gigasiemens = new (
                                                                    "gigasiemens"
@@ -204,7 +204,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// terasiemens, defined as: gigasiemens × 1000.0
+   /// terasiemens defined such that: gigasiemens = TS × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance Terasiemens = new (
                                                                    "terasiemens"
@@ -215,7 +215,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// petasiemens, defined as: terasiemens × 1000.0
+   /// petasiemens defined such that: terasiemens = PS × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance Petasiemens = new (
                                                                    "petasiemens"
@@ -226,13 +226,13 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                   );
 
    /// <summary>
-   /// exasiemens, defined as: petasiemens × 1000.0
+   /// exasiemens defined such that: petasiemens = ES × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance
             Exasiemens = new ("exasiemens", "ES", Petasiemens, 1000.0, system: "SI");
 
    /// <summary>
-   /// zettasiemens, defined as: exasiemens × 1000.0
+   /// zettasiemens defined such that: exasiemens = ZS × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance Zettasiemens = new (
                                                                     "zettasiemens"
@@ -243,7 +243,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// yottasiemens, defined as: zettasiemens × 1000.0
+   /// yottasiemens defined such that: zettasiemens = YS × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance Yottasiemens = new (
                                                                     "yottasiemens"
@@ -254,7 +254,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// ronnasiemens, defined as: yottasiemens × 1000.0
+   /// ronnasiemens defined such that: yottasiemens = RS × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance Ronnasiemens = new (
                                                                     "ronnasiemens"
@@ -265,7 +265,7 @@ public class ElectricalConductances : UnitOfMeasureEnumeration<ElectricalConduct
                                                                    );
 
    /// <summary>
-   /// quettasiemens, defined as: ronnasiemens × 1000.0
+   /// quettasiemens defined such that: ronnasiemens = QS × 1000.0.
    /// </summary>
    public static readonly ElectricalConductance Quettasiemens = new (
                                                                      "quettasiemens"

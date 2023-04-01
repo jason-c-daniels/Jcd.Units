@@ -3,7 +3,7 @@
 
 ## StorageUnits.Quebinybble Field
 
-quebinybble, defined as: robinybble × 1024.0
+quebinybble defined such that: robinybble = Qin × 1024.0.
 
 ```csharp
 public static readonly Storage Quebinybble;

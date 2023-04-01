@@ -3,7 +3,7 @@
 
 ## Pressures.Centibar Field
 
-centibar, defined as: decibar × 1.0/10.0
+centibar defined such that: decibar = cbar × 1.0/10.0.
 
 ```csharp
 public static readonly Pressure Centibar;

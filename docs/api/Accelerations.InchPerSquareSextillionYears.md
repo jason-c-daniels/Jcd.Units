@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareSextillionYears Field
 
-inch per square sextillion years, defined as: SI centimeter per square quintillion years × (2.54)/((1000.0)*(1000.0))
+inch per square sextillion years defined such that: SI centimeter per square quintillion years = in/Zyr² × (2.54)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration InchPerSquareSextillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareYoctosecond Field
 
-point per square yoctosecond, defined as: inch per square zeptosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+point per square yoctosecond defined such that: inch per square zeptosecond = p/ys² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration PointPerSquareYoctosecond;

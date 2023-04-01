@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareWeek Field
 
-mile per square week, defined as: furlong per square day × (8.0)/((7.0)*(7.0))
+mile per square week defined such that: furlong per square day = mi/wk² × (8.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration MilePerSquareWeek;

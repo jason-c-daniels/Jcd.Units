@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerZeptosecond Field
 
-pica per zeptosecond, defined as: point per attosecond × (12.0)/(1.0/1000.0)
+pica per zeptosecond defined such that: point per attosecond = P/zs × (12.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PicaPerZeptosecond;

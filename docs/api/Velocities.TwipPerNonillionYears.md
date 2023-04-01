@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerNonillionYears Field
 
-twip per nonillion years, defined as: foot per octillion years × (1.0/17280.0)/(1000.0)
+twip per nonillion years defined such that: foot per octillion years = twip/Qyr × (1.0/17280.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity TwipPerNonillionYears;

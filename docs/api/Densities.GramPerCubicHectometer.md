@@ -3,7 +3,7 @@
 
 ## Densities.GramPerCubicHectometer Field
 
-gram per cubic hectometer, defined as: dekagram per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+gram per cubic hectometer defined such that: dekagram per cubic dekameter = g/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density GramPerCubicHectometer;

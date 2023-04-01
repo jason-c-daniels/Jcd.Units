@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerRontosecond Field
 
-femtometer per rontosecond, defined as: picometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+femtometer per rontosecond defined such that: picometer per yoctosecond = fm/rs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerRontosecond;

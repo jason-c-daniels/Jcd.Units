@@ -3,7 +3,7 @@
 
 ## Inductances.Rontohenry Field
 
-rontohenry, defined as: yoctohenry × 1.0/1000.0
+rontohenry defined such that: yoctohenry = rH × 1.0/1000.0.
 
 ```csharp
 public static readonly Inductance Rontohenry;

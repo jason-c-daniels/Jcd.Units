@@ -3,7 +3,7 @@
 
 ## Amounts.Yoctomole Field
 
-yoctomole, defined as: zeptomole × 1.0/1000.0
+yoctomole defined such that: zeptomole = ymol × 1.0/1000.0.
 
 ```csharp
 public static readonly Amount Yoctomole;

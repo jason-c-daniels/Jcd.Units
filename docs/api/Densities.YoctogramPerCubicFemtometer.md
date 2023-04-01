@@ -3,7 +3,7 @@
 
 ## Densities.YoctogramPerCubicFemtometer Field
 
-yoctogram per cubic femtometer, defined as: zeptogram per cubic picometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+yoctogram per cubic femtometer defined such that: zeptogram per cubic picometer = yg/fm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density YoctogramPerCubicFemtometer;

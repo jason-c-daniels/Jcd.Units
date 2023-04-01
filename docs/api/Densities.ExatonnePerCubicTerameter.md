@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicTerameter Field
 
-exatonne per cubic terameter, defined as: petatonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+exatonne per cubic terameter defined such that: petatonne per cubic gigameter = Et/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density ExatonnePerCubicTerameter;

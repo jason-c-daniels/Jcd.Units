@@ -3,7 +3,7 @@
 
 ## Durations.Microsecond Field
 
-microsecond, defined as: millisecond × 1.0/1000.0
+microsecond defined such that: millisecond = μs × 1.0/1000.0.
 
 ```csharp
 public static readonly Duration Microsecond;

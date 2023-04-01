@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicYoctometer Field
 
-nanotonne per cubic yoctometer, defined as: microtonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+nanotonne per cubic yoctometer defined such that: microtonne per cubic zeptometer = nt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density NanotonnePerCubicYoctometer;

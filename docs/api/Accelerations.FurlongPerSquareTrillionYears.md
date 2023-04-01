@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareTrillionYears Field
 
-furlong per square trillion years, defined as: chain per square billion years × (10.0)/((1000.0)*(1000.0))
+furlong per square trillion years defined such that: chain per square billion years = fur/Tyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareTrillionYears;

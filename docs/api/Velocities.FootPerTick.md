@@ -3,7 +3,7 @@
 
 ## Velocities.FootPerTick Field
 
-foot per tick, defined as: inch per nanosecond × (12)/(100.0)
+foot per tick defined such that: inch per nanosecond = ft/tick × (12)/(100.0).
 
 ```csharp
 public static readonly Velocity FootPerTick;

@@ -3,7 +3,7 @@
 
 ## RadioactiveDecays.Decibecquerel Field
 
-decibecquerel, defined as: becquerel × 1.0/10.0
+decibecquerel defined such that: becquerel = dBq × 1.0/10.0.
 
 ```csharp
 public static readonly RadioactiveDecay Decibecquerel;

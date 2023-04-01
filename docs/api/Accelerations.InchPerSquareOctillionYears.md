@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareOctillionYears Field
 
-inch per square octillion years, defined as: SI centimeter per square septillion years × (2.54)/((1000.0)*(1000.0))
+inch per square octillion years defined such that: SI centimeter per square septillion years = in/Ryr² × (2.54)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration InchPerSquareOctillionYears;

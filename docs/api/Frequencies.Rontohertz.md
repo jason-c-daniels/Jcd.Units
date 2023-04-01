@@ -3,7 +3,7 @@
 
 ## Frequencies.Rontohertz Field
 
-rontohertz, defined as: yoctohertz × 1.0/1000.0
+rontohertz defined such that: yoctohertz = rHz × 1.0/1000.0.
 
 ```csharp
 public static readonly Frequency Rontohertz;

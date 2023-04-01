@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerHour Field
 
-kilometer per hour, defined as: hectometer per minute × (10.0)/(60.0)
+kilometer per hour defined such that: hectometer per minute = km/hr × (10.0)/(60.0).
 
 ```csharp
 public static readonly Velocity KilometerPerHour;

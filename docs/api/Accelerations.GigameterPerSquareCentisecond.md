@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareCentisecond Field
 
-gigameter per square centisecond, defined as: megameter per square decisecond × (1000.0)/((1.0/10.0)*(1.0/10.0))
+gigameter per square centisecond defined such that: megameter per square decisecond = Gm/cs² × (1000.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareCentisecond;

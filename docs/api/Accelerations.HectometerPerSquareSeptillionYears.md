@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareSeptillionYears Field
 
-hectometer per square septillion years, defined as: dekameter per square sextillion years × (10.0)/((1000.0)*(1000.0))
+hectometer per square septillion years defined such that: dekameter per square sextillion years = hm/Yyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareSeptillionYears;

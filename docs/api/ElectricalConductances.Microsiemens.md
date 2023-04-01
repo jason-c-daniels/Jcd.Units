@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Microsiemens Field
 
-microsiemens, defined as: millisiemens × 1.0/1000.0
+microsiemens defined such that: millisiemens = μS × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalConductance Microsiemens;

@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerQuintillionYears Field
 
-exameter per quintillion years, defined as: petameter per quadrillion years × (1000.0)/(1000.0)
+exameter per quintillion years defined such that: petameter per quadrillion years = Em/Eyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ExameterPerQuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Masses.Kilotonne Field
 
-kilotonne, defined as: hectotonne × 10.0
+kilotonne defined such that: hectotonne = kt × 10.0.
 
 ```csharp
 public static readonly Mass Kilotonne;

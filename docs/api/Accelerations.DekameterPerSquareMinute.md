@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareMinute Field
 
-dekameter per square minute, defined as: meter per square second × (10.0)/((60.0)*(60.0))
+dekameter per square minute defined such that: meter per square second = dam/min² × (10.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareMinute;

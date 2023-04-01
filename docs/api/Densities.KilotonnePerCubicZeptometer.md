@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicZeptometer Field
 
-kilotonne per cubic zeptometer, defined as: hectotonne per cubic attometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+kilotonne per cubic zeptometer defined such that: hectotonne per cubic attometer = kt/zm³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density KilotonnePerCubicZeptometer;

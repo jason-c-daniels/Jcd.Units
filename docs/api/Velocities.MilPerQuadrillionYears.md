@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerQuadrillionYears Field
 
-mil per quadrillion years, defined as: inch per trillion years × (1.0/1000.0)/(1000.0)
+mil per quadrillion years defined such that: inch per trillion years = mil/Pyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MilPerQuadrillionYears;

@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicExameter Field
 
-megatonne per cubic exameter, defined as: kilotonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+megatonne per cubic exameter defined such that: kilotonne per cubic petameter = Mt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MegatonnePerCubicExameter;

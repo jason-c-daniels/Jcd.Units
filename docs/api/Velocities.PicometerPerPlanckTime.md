@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerPlanckTime Field
 
-picometer per planck-time, defined as: nanometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+picometer per planck-time defined such that: nanometer per microsecond = pm/tₚ × (1.0/1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity PicometerPerPlanckTime;

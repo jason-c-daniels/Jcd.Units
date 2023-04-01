@@ -3,7 +3,7 @@
 
 ## Pressures.Dekabar Field
 
-dekabar, defined as: bar × 10.0
+dekabar defined such that: bar = dabar × 10.0.
 
 ```csharp
 public static readonly Pressure Dekabar;

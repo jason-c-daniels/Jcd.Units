@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicNanometer Field
 
-ronnagram per cubic nanometer, defined as: yottagram per cubic micrometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+ronnagram per cubic nanometer defined such that: yottagram per cubic micrometer = Rg/nm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density RonnagramPerCubicNanometer;

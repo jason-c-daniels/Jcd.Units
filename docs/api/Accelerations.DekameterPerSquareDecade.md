@@ -3,7 +3,7 @@
 
 ## Accelerations.DekameterPerSquareDecade Field
 
-dekameter per square decade, defined as: meter per square year × (10.0)/((10.0)*(10.0))
+dekameter per square decade defined such that: meter per square year = dam/decade² × (10.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration DekameterPerSquareDecade;

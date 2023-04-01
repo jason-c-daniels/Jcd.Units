@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerSecond Field
 
-rod per second, defined as: SI meter per second × (5.0292)/(1.0)
+rod per second defined such that: SI meter per second = rd/s × (5.0292)/(1.0).
 
 ```csharp
 public static readonly Velocity RodPerSecond;

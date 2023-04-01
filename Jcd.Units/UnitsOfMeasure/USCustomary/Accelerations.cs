@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleration>
 {
    /// <summary>
-   /// nautical mile per square octillion years, defined as: SI meter per square septillion years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square octillion years defined such that: SI meter per square septillion years = nmi/Ryr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareOctillionYears = new (
        "nautical mile per square octillion years"
@@ -29,7 +29,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// nautical mile per square trillion years, defined as: SI meter per square billion years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square trillion years defined such that: SI meter per square billion years = nmi/Tyr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareTrillionYears = new (
        "nautical mile per square trillion years"
@@ -40,7 +40,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// nautical mile per square decade, defined as: SI meter per square year × (1852.0)/((10.0)*(10.0))
+   /// nautical mile per square decade defined such that: SI meter per square year = nmi/decade² × (1852.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareDecade = new (
                                                                           "nautical mile per square decade"
@@ -51,7 +51,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// nautical mile per square minute, defined as: SI meter per square second × (1852.0)/((60.0)*(60.0))
+   /// nautical mile per square minute defined such that: SI meter per square second = nmi/min² × (1852.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareMinute = new (
                                                                           "nautical mile per square minute"
@@ -62,7 +62,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// nautical mile per square decillion years, defined as: SI meter per square nonillion years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square decillion years defined such that: SI meter per square nonillion years = nmi/decillion yr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareDecillionYears = new (
        "nautical mile per square decillion years"
@@ -73,7 +73,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// nautical mile per square quintillion years, defined as: SI meter per square quadrillion years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square quintillion years defined such that: SI meter per square quadrillion years = nmi/Eyr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareQuintillionYears = new (
        "nautical mile per square quintillion years"
@@ -84,7 +84,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// nautical mile per square millennium, defined as: SI meter per square century × (1852.0)/((10.0)*(10.0))
+   /// nautical mile per square millennium defined such that: SI meter per square century = nmi/kyr² × (1852.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareMillennium = new (
                                                                               "nautical mile per square millennium"
@@ -95,7 +95,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// nautical mile per square day, defined as: SI meter per square hour × (1852.0)/((24.0)*(24.0))
+   /// nautical mile per square day defined such that: SI meter per square hour = nmi/dy² × (1852.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareDay = new (
                                                                        "nautical mile per square day"
@@ -106,7 +106,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// nautical mile per square tick, defined as: SI meter per square nanosecond × (1852.0)/((100.0)*(100.0))
+   /// nautical mile per square tick defined such that: SI meter per square nanosecond = nmi/tick² × (1852.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareTick = new (
                                                                         "nautical mile per square tick"
@@ -117,7 +117,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// nautical mile per square septillion years, defined as: SI meter per square sextillion years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square septillion years defined such that: SI meter per square sextillion years = nmi/Yyr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareSeptillionYears = new (
        "nautical mile per square septillion years"
@@ -128,7 +128,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// nautical mile per square billion years, defined as: SI meter per square million years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square billion years defined such that: SI meter per square million years = nmi/Gyr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareBillionYears = new (
                                                                                 "nautical mile per square billion years"
@@ -140,7 +140,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// nautical mile per square year, defined as: SI meter per square day × (1852.0)/((365.2525)*(365.2525))
+   /// nautical mile per square year defined such that: SI meter per square day = nmi/yr² × (1852.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareYear = new (
                                                                         "nautical mile per square year"
@@ -151,7 +151,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// inch per square second, defined as: SI centimeter per square second × (2.54)/((1.0)*(1.0))
+   /// inch per square second defined such that: SI centimeter per square second = in/s² × (2.54)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareSecond = new (
                                                                   "inch per square second"
@@ -162,7 +162,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// inch per square planck-time, defined as: SI centimeter per square microsecond × (2.54)/((5.391247E-38)*(5.391247E-38))
+   /// inch per square planck-time defined such that: SI centimeter per square microsecond = in/tₚ² × (2.54)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration InchPerSquarePlanckTime = new (
                                                                       "inch per square planck-time"
@@ -173,7 +173,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// inch per square decisecond, defined as: SI centimeter per square second × (2.54)/((1.0/10.0)*(1.0/10.0))
+   /// inch per square decisecond defined such that: SI centimeter per square second = in/ds² × (2.54)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareDecisecond = new (
                                                                       "inch per square decisecond"
@@ -184,7 +184,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// inch per square centisecond, defined as: SI centimeter per square decisecond × (2.54)/((1.0/10.0)*(1.0/10.0))
+   /// inch per square centisecond defined such that: SI centimeter per square decisecond = in/cs² × (2.54)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareCentisecond = new (
                                                                        "inch per square centisecond"
@@ -195,7 +195,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// inch per square millisecond, defined as: SI centimeter per square centisecond × (2.54)/((1.0/10.0)*(1.0/10.0))
+   /// inch per square millisecond defined such that: SI centimeter per square centisecond = in/ms² × (2.54)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareMillisecond = new (
                                                                        "inch per square millisecond"
@@ -206,7 +206,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// inch per square microsecond, defined as: SI centimeter per square millisecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square microsecond defined such that: SI centimeter per square millisecond = in/μs² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareMicrosecond = new (
                                                                        "inch per square microsecond"
@@ -217,7 +217,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// inch per square nanosecond, defined as: SI centimeter per square microsecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square nanosecond defined such that: SI centimeter per square microsecond = in/ns² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareNanosecond = new (
                                                                       "inch per square nanosecond"
@@ -228,7 +228,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// inch per square picosecond, defined as: SI centimeter per square nanosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square picosecond defined such that: SI centimeter per square nanosecond = in/ps² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquarePicosecond = new (
                                                                       "inch per square picosecond"
@@ -239,7 +239,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// inch per square femtosecond, defined as: SI centimeter per square picosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square femtosecond defined such that: SI centimeter per square picosecond = in/fs² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareFemtosecond = new (
                                                                        "inch per square femtosecond"
@@ -250,7 +250,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// inch per square attosecond, defined as: SI centimeter per square femtosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square attosecond defined such that: SI centimeter per square femtosecond = in/as² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareAttosecond = new (
                                                                       "inch per square attosecond"
@@ -261,7 +261,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// inch per square zeptosecond, defined as: SI centimeter per square attosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square zeptosecond defined such that: SI centimeter per square attosecond = in/zs² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareZeptosecond = new (
                                                                        "inch per square zeptosecond"
@@ -272,7 +272,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// inch per square yoctosecond, defined as: SI centimeter per square zeptosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square yoctosecond defined such that: SI centimeter per square zeptosecond = in/ys² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareYoctosecond = new (
                                                                        "inch per square yoctosecond"
@@ -283,7 +283,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// inch per square rontosecond, defined as: SI centimeter per square yoctosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square rontosecond defined such that: SI centimeter per square yoctosecond = in/rs² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareRontosecond = new (
                                                                        "inch per square rontosecond"
@@ -294,7 +294,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// inch per square quectosecond, defined as: SI centimeter per square rontosecond × (2.54)/((1.0/1000.0)*(1.0/1000.0))
+   /// inch per square quectosecond defined such that: SI centimeter per square rontosecond = in/qs² × (2.54)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareQuectosecond = new (
                                                                         "inch per square quectosecond"
@@ -305,7 +305,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// inch per square minute, defined as: SI centimeter per square second × (2.54)/((60.0)*(60.0))
+   /// inch per square minute defined such that: SI centimeter per square second = in/min² × (2.54)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareMinute = new (
                                                                   "inch per square minute"
@@ -316,7 +316,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// mil per square second, defined as: inch per square second × (1.0/1000.0)/((1.0)*(1.0))
+   /// mil per square second defined such that: inch per square second = mil/s² × (1.0/1000.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareSecond = new (
                                                                  "mil per square second"
@@ -327,7 +327,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// mil per square planck-time, defined as: inch per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+   /// mil per square planck-time defined such that: inch per square microsecond = mil/tₚ² × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration MilPerSquarePlanckTime = new (
                                                                      "mil per square planck-time"
@@ -338,7 +338,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// mil per square decisecond, defined as: inch per square second × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0))
+   /// mil per square decisecond defined such that: inch per square second = mil/ds² × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareDecisecond = new (
                                                                      "mil per square decisecond"
@@ -349,7 +349,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// mil per square centisecond, defined as: inch per square decisecond × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0))
+   /// mil per square centisecond defined such that: inch per square decisecond = mil/cs² × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareCentisecond = new (
                                                                       "mil per square centisecond"
@@ -360,7 +360,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mil per square millisecond, defined as: inch per square centisecond × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0))
+   /// mil per square millisecond defined such that: inch per square centisecond = mil/ms² × (1.0/1000.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareMillisecond = new (
                                                                       "mil per square millisecond"
@@ -371,7 +371,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mil per square microsecond, defined as: inch per square millisecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square microsecond defined such that: inch per square millisecond = mil/μs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareMicrosecond = new (
                                                                       "mil per square microsecond"
@@ -382,7 +382,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mil per square nanosecond, defined as: inch per square microsecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square nanosecond defined such that: inch per square microsecond = mil/ns² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareNanosecond = new (
                                                                      "mil per square nanosecond"
@@ -393,7 +393,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// mil per square picosecond, defined as: inch per square nanosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square picosecond defined such that: inch per square nanosecond = mil/ps² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquarePicosecond = new (
                                                                      "mil per square picosecond"
@@ -404,7 +404,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// mil per square femtosecond, defined as: inch per square picosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square femtosecond defined such that: inch per square picosecond = mil/fs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareFemtosecond = new (
                                                                       "mil per square femtosecond"
@@ -415,7 +415,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mil per square attosecond, defined as: inch per square femtosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square attosecond defined such that: inch per square femtosecond = mil/as² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareAttosecond = new (
                                                                      "mil per square attosecond"
@@ -426,7 +426,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// mil per square zeptosecond, defined as: inch per square attosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square zeptosecond defined such that: inch per square attosecond = mil/zs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareZeptosecond = new (
                                                                       "mil per square zeptosecond"
@@ -437,7 +437,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mil per square yoctosecond, defined as: inch per square zeptosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square yoctosecond defined such that: inch per square zeptosecond = mil/ys² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareYoctosecond = new (
                                                                       "mil per square yoctosecond"
@@ -448,7 +448,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mil per square rontosecond, defined as: inch per square yoctosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square rontosecond defined such that: inch per square yoctosecond = mil/rs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareRontosecond = new (
                                                                       "mil per square rontosecond"
@@ -459,7 +459,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mil per square quectosecond, defined as: inch per square rontosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mil per square quectosecond defined such that: inch per square rontosecond = mil/qs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareQuectosecond = new (
                                                                        "mil per square quectosecond"
@@ -470,7 +470,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// inch per square hour, defined as: SI centimeter per square minute × (2.54)/((60.0)*(60.0))
+   /// inch per square hour defined such that: SI centimeter per square minute = in/hr² × (2.54)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareHour = new (
                                                                 "inch per square hour"
@@ -481,7 +481,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// point per square second, defined as: inch per square second × (1.0/72.0)/((1.0)*(1.0))
+   /// point per square second defined such that: inch per square second = p/s² × (1.0/72.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareSecond = new (
                                                                    "point per square second"
@@ -492,7 +492,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// point per square planck-time, defined as: inch per square microsecond × (1.0/72.0)/((5.391247E-38)*(5.391247E-38))
+   /// point per square planck-time defined such that: inch per square microsecond = p/tₚ² × (1.0/72.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration PointPerSquarePlanckTime = new (
                                                                        "point per square planck-time"
@@ -503,7 +503,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// point per square decisecond, defined as: inch per square second × (1.0/72.0)/((1.0/10.0)*(1.0/10.0))
+   /// point per square decisecond defined such that: inch per square second = p/ds² × (1.0/72.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareDecisecond = new (
                                                                        "point per square decisecond"
@@ -514,7 +514,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// point per square centisecond, defined as: inch per square decisecond × (1.0/72.0)/((1.0/10.0)*(1.0/10.0))
+   /// point per square centisecond defined such that: inch per square decisecond = p/cs² × (1.0/72.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareCentisecond = new (
                                                                         "point per square centisecond"
@@ -525,7 +525,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square millisecond, defined as: inch per square centisecond × (1.0/72.0)/((1.0/10.0)*(1.0/10.0))
+   /// point per square millisecond defined such that: inch per square centisecond = p/ms² × (1.0/72.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareMillisecond = new (
                                                                         "point per square millisecond"
@@ -536,7 +536,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square microsecond, defined as: inch per square millisecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square microsecond defined such that: inch per square millisecond = p/μs² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareMicrosecond = new (
                                                                         "point per square microsecond"
@@ -547,7 +547,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square nanosecond, defined as: inch per square microsecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square nanosecond defined such that: inch per square microsecond = p/ns² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareNanosecond = new (
                                                                        "point per square nanosecond"
@@ -558,7 +558,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// point per square picosecond, defined as: inch per square nanosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square picosecond defined such that: inch per square nanosecond = p/ps² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquarePicosecond = new (
                                                                        "point per square picosecond"
@@ -569,7 +569,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// point per square femtosecond, defined as: inch per square picosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square femtosecond defined such that: inch per square picosecond = p/fs² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareFemtosecond = new (
                                                                         "point per square femtosecond"
@@ -580,7 +580,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square attosecond, defined as: inch per square femtosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square attosecond defined such that: inch per square femtosecond = p/as² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareAttosecond = new (
                                                                        "point per square attosecond"
@@ -591,7 +591,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// point per square zeptosecond, defined as: inch per square attosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square zeptosecond defined such that: inch per square attosecond = p/zs² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareZeptosecond = new (
                                                                         "point per square zeptosecond"
@@ -602,7 +602,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square yoctosecond, defined as: inch per square zeptosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square yoctosecond defined such that: inch per square zeptosecond = p/ys² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareYoctosecond = new (
                                                                         "point per square yoctosecond"
@@ -613,7 +613,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square rontosecond, defined as: inch per square yoctosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square rontosecond defined such that: inch per square yoctosecond = p/rs² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareRontosecond = new (
                                                                         "point per square rontosecond"
@@ -624,7 +624,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square quectosecond, defined as: inch per square rontosecond × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// point per square quectosecond defined such that: inch per square rontosecond = p/qs² × (1.0/72.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareQuectosecond = new (
                                                                          "point per square quectosecond"
@@ -635,7 +635,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// inch per square day, defined as: SI centimeter per square hour × (2.54)/((24.0)*(24.0))
+   /// inch per square day defined such that: SI centimeter per square hour = in/dy² × (2.54)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareDay = new (
                                                                "inch per square day"
@@ -646,7 +646,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// twip per square second, defined as: point per square second × (1.0/20.0)/((1.0)*(1.0))
+   /// twip per square second defined such that: point per square second = twip/s² × (1.0/20.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareSecond = new (
                                                                   "twip per square second"
@@ -657,7 +657,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// twip per square planck-time, defined as: point per square microsecond × (1.0/20.0)/((5.391247E-38)*(5.391247E-38))
+   /// twip per square planck-time defined such that: point per square microsecond = twip/tₚ² × (1.0/20.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration TwipPerSquarePlanckTime = new (
                                                                       "twip per square planck-time"
@@ -668,7 +668,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// twip per square decisecond, defined as: point per square second × (1.0/20.0)/((1.0/10.0)*(1.0/10.0))
+   /// twip per square decisecond defined such that: point per square second = twip/ds² × (1.0/20.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareDecisecond = new (
                                                                       "twip per square decisecond"
@@ -679,7 +679,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// twip per square centisecond, defined as: point per square decisecond × (1.0/20.0)/((1.0/10.0)*(1.0/10.0))
+   /// twip per square centisecond defined such that: point per square decisecond = twip/cs² × (1.0/20.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareCentisecond = new (
                                                                        "twip per square centisecond"
@@ -690,7 +690,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// twip per square millisecond, defined as: point per square centisecond × (1.0/20.0)/((1.0/10.0)*(1.0/10.0))
+   /// twip per square millisecond defined such that: point per square centisecond = twip/ms² × (1.0/20.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareMillisecond = new (
                                                                        "twip per square millisecond"
@@ -701,7 +701,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// twip per square microsecond, defined as: point per square millisecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square microsecond defined such that: point per square millisecond = twip/μs² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareMicrosecond = new (
                                                                        "twip per square microsecond"
@@ -712,7 +712,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// twip per square nanosecond, defined as: point per square microsecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square nanosecond defined such that: point per square microsecond = twip/ns² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareNanosecond = new (
                                                                       "twip per square nanosecond"
@@ -723,7 +723,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// twip per square picosecond, defined as: point per square nanosecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square picosecond defined such that: point per square nanosecond = twip/ps² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquarePicosecond = new (
                                                                       "twip per square picosecond"
@@ -734,7 +734,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// twip per square femtosecond, defined as: point per square picosecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square femtosecond defined such that: point per square picosecond = twip/fs² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareFemtosecond = new (
                                                                        "twip per square femtosecond"
@@ -745,7 +745,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// twip per square attosecond, defined as: point per square femtosecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square attosecond defined such that: point per square femtosecond = twip/as² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareAttosecond = new (
                                                                       "twip per square attosecond"
@@ -756,7 +756,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// twip per square zeptosecond, defined as: point per square attosecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square zeptosecond defined such that: point per square attosecond = twip/zs² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareZeptosecond = new (
                                                                        "twip per square zeptosecond"
@@ -767,7 +767,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// twip per square yoctosecond, defined as: point per square zeptosecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square yoctosecond defined such that: point per square zeptosecond = twip/ys² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareYoctosecond = new (
                                                                        "twip per square yoctosecond"
@@ -778,7 +778,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// twip per square rontosecond, defined as: point per square yoctosecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square rontosecond defined such that: point per square yoctosecond = twip/rs² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareRontosecond = new (
                                                                        "twip per square rontosecond"
@@ -789,7 +789,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// twip per square quectosecond, defined as: point per square rontosecond × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// twip per square quectosecond defined such that: point per square rontosecond = twip/qs² × (1.0/20.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareQuectosecond = new (
                                                                         "twip per square quectosecond"
@@ -800,7 +800,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// inch per square week, defined as: SI centimeter per square day × (2.54)/((7.0)*(7.0))
+   /// inch per square week defined such that: SI centimeter per square day = in/wk² × (2.54)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareWeek = new (
                                                                 "inch per square week"
@@ -811,7 +811,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// pica per square second, defined as: point per square second × (12.0)/((1.0)*(1.0))
+   /// pica per square second defined such that: point per square second = P/s² × (12.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareSecond = new (
                                                                   "pica per square second"
@@ -822,7 +822,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// pica per square planck-time, defined as: point per square microsecond × (12.0)/((5.391247E-38)*(5.391247E-38))
+   /// pica per square planck-time defined such that: point per square microsecond = P/tₚ² × (12.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration PicaPerSquarePlanckTime = new (
                                                                       "pica per square planck-time"
@@ -833,7 +833,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// pica per square decisecond, defined as: point per square second × (12.0)/((1.0/10.0)*(1.0/10.0))
+   /// pica per square decisecond defined such that: point per square second = P/ds² × (12.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareDecisecond = new (
                                                                       "pica per square decisecond"
@@ -844,7 +844,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// pica per square centisecond, defined as: point per square decisecond × (12.0)/((1.0/10.0)*(1.0/10.0))
+   /// pica per square centisecond defined such that: point per square decisecond = P/cs² × (12.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareCentisecond = new (
                                                                        "pica per square centisecond"
@@ -855,7 +855,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// pica per square millisecond, defined as: point per square centisecond × (12.0)/((1.0/10.0)*(1.0/10.0))
+   /// pica per square millisecond defined such that: point per square centisecond = P/ms² × (12.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareMillisecond = new (
                                                                        "pica per square millisecond"
@@ -866,7 +866,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// pica per square microsecond, defined as: point per square millisecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square microsecond defined such that: point per square millisecond = P/μs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareMicrosecond = new (
                                                                        "pica per square microsecond"
@@ -877,7 +877,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// pica per square nanosecond, defined as: point per square microsecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square nanosecond defined such that: point per square microsecond = P/ns² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareNanosecond = new (
                                                                       "pica per square nanosecond"
@@ -888,7 +888,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// pica per square picosecond, defined as: point per square nanosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square picosecond defined such that: point per square nanosecond = P/ps² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquarePicosecond = new (
                                                                       "pica per square picosecond"
@@ -899,7 +899,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// pica per square femtosecond, defined as: point per square picosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square femtosecond defined such that: point per square picosecond = P/fs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareFemtosecond = new (
                                                                        "pica per square femtosecond"
@@ -910,7 +910,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// pica per square attosecond, defined as: point per square femtosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square attosecond defined such that: point per square femtosecond = P/as² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareAttosecond = new (
                                                                       "pica per square attosecond"
@@ -921,7 +921,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// pica per square zeptosecond, defined as: point per square attosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square zeptosecond defined such that: point per square attosecond = P/zs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareZeptosecond = new (
                                                                        "pica per square zeptosecond"
@@ -932,7 +932,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// pica per square yoctosecond, defined as: point per square zeptosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square yoctosecond defined such that: point per square zeptosecond = P/ys² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareYoctosecond = new (
                                                                        "pica per square yoctosecond"
@@ -943,7 +943,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// pica per square rontosecond, defined as: point per square yoctosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square rontosecond defined such that: point per square yoctosecond = P/rs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareRontosecond = new (
                                                                        "pica per square rontosecond"
@@ -954,7 +954,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// pica per square quectosecond, defined as: point per square rontosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// pica per square quectosecond defined such that: point per square rontosecond = P/qs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareQuectosecond = new (
                                                                         "pica per square quectosecond"
@@ -965,7 +965,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// inch per square year, defined as: SI centimeter per square day × (2.54)/((365.2525)*(365.2525))
+   /// inch per square year defined such that: SI centimeter per square day = in/yr² × (2.54)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration InchPerSquareYear = new (
                                                                 "inch per square year"
@@ -976,7 +976,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// foot per square second, defined as: inch per square second × (12.0)/((1.0)*(1.0))
+   /// foot per square second defined such that: inch per square second = ft/s² × (12.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareSecond = new (
                                                                   "foot per square second"
@@ -987,7 +987,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// foot per square planck-time, defined as: inch per square microsecond × (12.0)/((5.391247E-38)*(5.391247E-38))
+   /// foot per square planck-time defined such that: inch per square microsecond = ft/tₚ² × (12.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration FootPerSquarePlanckTime = new (
                                                                       "foot per square planck-time"
@@ -998,7 +998,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// foot per square decisecond, defined as: inch per square second × (12.0)/((1.0/10.0)*(1.0/10.0))
+   /// foot per square decisecond defined such that: inch per square second = ft/ds² × (12.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareDecisecond = new (
                                                                       "foot per square decisecond"
@@ -1009,7 +1009,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// foot per square centisecond, defined as: inch per square decisecond × (12.0)/((1.0/10.0)*(1.0/10.0))
+   /// foot per square centisecond defined such that: inch per square decisecond = ft/cs² × (12.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareCentisecond = new (
                                                                        "foot per square centisecond"
@@ -1020,7 +1020,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// foot per square millisecond, defined as: inch per square centisecond × (12.0)/((1.0/10.0)*(1.0/10.0))
+   /// foot per square millisecond defined such that: inch per square centisecond = ft/ms² × (12.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareMillisecond = new (
                                                                        "foot per square millisecond"
@@ -1031,7 +1031,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// foot per square microsecond, defined as: inch per square millisecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square microsecond defined such that: inch per square millisecond = ft/μs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareMicrosecond = new (
                                                                        "foot per square microsecond"
@@ -1042,7 +1042,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// foot per square nanosecond, defined as: inch per square microsecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square nanosecond defined such that: inch per square microsecond = ft/ns² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareNanosecond = new (
                                                                       "foot per square nanosecond"
@@ -1053,7 +1053,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// foot per square picosecond, defined as: inch per square nanosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square picosecond defined such that: inch per square nanosecond = ft/ps² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquarePicosecond = new (
                                                                       "foot per square picosecond"
@@ -1064,7 +1064,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// foot per square femtosecond, defined as: inch per square picosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square femtosecond defined such that: inch per square picosecond = ft/fs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareFemtosecond = new (
                                                                        "foot per square femtosecond"
@@ -1075,7 +1075,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// foot per square attosecond, defined as: inch per square femtosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square attosecond defined such that: inch per square femtosecond = ft/as² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareAttosecond = new (
                                                                       "foot per square attosecond"
@@ -1086,7 +1086,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// foot per square zeptosecond, defined as: inch per square attosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square zeptosecond defined such that: inch per square attosecond = ft/zs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareZeptosecond = new (
                                                                        "foot per square zeptosecond"
@@ -1097,7 +1097,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// foot per square yoctosecond, defined as: inch per square zeptosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square yoctosecond defined such that: inch per square zeptosecond = ft/ys² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareYoctosecond = new (
                                                                        "foot per square yoctosecond"
@@ -1108,7 +1108,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// foot per square rontosecond, defined as: inch per square yoctosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square rontosecond defined such that: inch per square yoctosecond = ft/rs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareRontosecond = new (
                                                                        "foot per square rontosecond"
@@ -1119,7 +1119,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// foot per square quectosecond, defined as: inch per square rontosecond × (12.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// foot per square quectosecond defined such that: inch per square rontosecond = ft/qs² × (12.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareQuectosecond = new (
                                                                         "foot per square quectosecond"
@@ -1130,7 +1130,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// inch per square decade, defined as: SI centimeter per square year × (2.54)/((10.0)*(10.0))
+   /// inch per square decade defined such that: SI centimeter per square year = in/decade² × (2.54)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareDecade = new (
                                                                   "inch per square decade"
@@ -1141,7 +1141,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// yard per square second, defined as: foot per square second × (3.0)/((1.0)*(1.0))
+   /// yard per square second defined such that: foot per square second = yd/s² × (3.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareSecond = new (
                                                                   "yard per square second"
@@ -1152,7 +1152,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// yard per square planck-time, defined as: foot per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
+   /// yard per square planck-time defined such that: foot per square microsecond = yd/tₚ² × (3.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration YardPerSquarePlanckTime = new (
                                                                       "yard per square planck-time"
@@ -1163,7 +1163,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// yard per square decisecond, defined as: foot per square second × (3.0)/((1.0/10.0)*(1.0/10.0))
+   /// yard per square decisecond defined such that: foot per square second = yd/ds² × (3.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareDecisecond = new (
                                                                       "yard per square decisecond"
@@ -1174,7 +1174,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// yard per square centisecond, defined as: foot per square decisecond × (3.0)/((1.0/10.0)*(1.0/10.0))
+   /// yard per square centisecond defined such that: foot per square decisecond = yd/cs² × (3.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareCentisecond = new (
                                                                        "yard per square centisecond"
@@ -1185,7 +1185,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// yard per square millisecond, defined as: foot per square centisecond × (3.0)/((1.0/10.0)*(1.0/10.0))
+   /// yard per square millisecond defined such that: foot per square centisecond = yd/ms² × (3.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareMillisecond = new (
                                                                        "yard per square millisecond"
@@ -1196,7 +1196,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// yard per square microsecond, defined as: foot per square millisecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square microsecond defined such that: foot per square millisecond = yd/μs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareMicrosecond = new (
                                                                        "yard per square microsecond"
@@ -1207,7 +1207,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// yard per square nanosecond, defined as: foot per square microsecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square nanosecond defined such that: foot per square microsecond = yd/ns² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareNanosecond = new (
                                                                       "yard per square nanosecond"
@@ -1218,7 +1218,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// yard per square picosecond, defined as: foot per square nanosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square picosecond defined such that: foot per square nanosecond = yd/ps² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquarePicosecond = new (
                                                                       "yard per square picosecond"
@@ -1229,7 +1229,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// yard per square femtosecond, defined as: foot per square picosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square femtosecond defined such that: foot per square picosecond = yd/fs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareFemtosecond = new (
                                                                        "yard per square femtosecond"
@@ -1240,7 +1240,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// yard per square attosecond, defined as: foot per square femtosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square attosecond defined such that: foot per square femtosecond = yd/as² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareAttosecond = new (
                                                                       "yard per square attosecond"
@@ -1251,7 +1251,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// yard per square zeptosecond, defined as: foot per square attosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square zeptosecond defined such that: foot per square attosecond = yd/zs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareZeptosecond = new (
                                                                        "yard per square zeptosecond"
@@ -1262,7 +1262,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// yard per square yoctosecond, defined as: foot per square zeptosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square yoctosecond defined such that: foot per square zeptosecond = yd/ys² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareYoctosecond = new (
                                                                        "yard per square yoctosecond"
@@ -1273,7 +1273,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// yard per square rontosecond, defined as: foot per square yoctosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square rontosecond defined such that: foot per square yoctosecond = yd/rs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareRontosecond = new (
                                                                        "yard per square rontosecond"
@@ -1284,7 +1284,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// yard per square quectosecond, defined as: foot per square rontosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// yard per square quectosecond defined such that: foot per square rontosecond = yd/qs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareQuectosecond = new (
                                                                         "yard per square quectosecond"
@@ -1295,7 +1295,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// inch per square century, defined as: SI centimeter per square decade × (2.54)/((10.0)*(10.0))
+   /// inch per square century defined such that: SI centimeter per square decade = in/century² × (2.54)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareCentury = new (
                                                                    "inch per square century"
@@ -1306,7 +1306,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// mile per square second, defined as: yard per square second × (1760.0)/((1.0)*(1.0))
+   /// mile per square second defined such that: yard per square second = mi/s² × (1760.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareSecond = new (
                                                                   "mile per square second"
@@ -1317,7 +1317,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// mile per square planck-time, defined as: yard per square microsecond × (1760.0)/((5.391247E-38)*(5.391247E-38))
+   /// mile per square planck-time defined such that: yard per square microsecond = mi/tₚ² × (1760.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration MilePerSquarePlanckTime = new (
                                                                       "mile per square planck-time"
@@ -1328,7 +1328,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mile per square decisecond, defined as: yard per square second × (1760.0)/((1.0/10.0)*(1.0/10.0))
+   /// mile per square decisecond defined such that: yard per square second = mi/ds² × (1760.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareDecisecond = new (
                                                                       "mile per square decisecond"
@@ -1339,7 +1339,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mile per square centisecond, defined as: yard per square decisecond × (1760.0)/((1.0/10.0)*(1.0/10.0))
+   /// mile per square centisecond defined such that: yard per square decisecond = mi/cs² × (1760.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareCentisecond = new (
                                                                        "mile per square centisecond"
@@ -1350,7 +1350,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// mile per square millisecond, defined as: yard per square centisecond × (1760.0)/((1.0/10.0)*(1.0/10.0))
+   /// mile per square millisecond defined such that: yard per square centisecond = mi/ms² × (1760.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareMillisecond = new (
                                                                        "mile per square millisecond"
@@ -1361,7 +1361,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// mile per square microsecond, defined as: yard per square millisecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square microsecond defined such that: yard per square millisecond = mi/μs² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareMicrosecond = new (
                                                                        "mile per square microsecond"
@@ -1372,7 +1372,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// mile per square nanosecond, defined as: yard per square microsecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square nanosecond defined such that: yard per square microsecond = mi/ns² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareNanosecond = new (
                                                                       "mile per square nanosecond"
@@ -1383,7 +1383,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mile per square picosecond, defined as: yard per square nanosecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square picosecond defined such that: yard per square nanosecond = mi/ps² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquarePicosecond = new (
                                                                       "mile per square picosecond"
@@ -1394,7 +1394,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mile per square femtosecond, defined as: yard per square picosecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square femtosecond defined such that: yard per square picosecond = mi/fs² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareFemtosecond = new (
                                                                        "mile per square femtosecond"
@@ -1405,7 +1405,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// mile per square attosecond, defined as: yard per square femtosecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square attosecond defined such that: yard per square femtosecond = mi/as² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareAttosecond = new (
                                                                       "mile per square attosecond"
@@ -1416,7 +1416,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// mile per square zeptosecond, defined as: yard per square attosecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square zeptosecond defined such that: yard per square attosecond = mi/zs² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareZeptosecond = new (
                                                                        "mile per square zeptosecond"
@@ -1427,7 +1427,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// mile per square yoctosecond, defined as: yard per square zeptosecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square yoctosecond defined such that: yard per square zeptosecond = mi/ys² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareYoctosecond = new (
                                                                        "mile per square yoctosecond"
@@ -1438,7 +1438,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// mile per square rontosecond, defined as: yard per square yoctosecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square rontosecond defined such that: yard per square yoctosecond = mi/rs² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareRontosecond = new (
                                                                        "mile per square rontosecond"
@@ -1449,7 +1449,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// mile per square quectosecond, defined as: yard per square rontosecond × (1760.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// mile per square quectosecond defined such that: yard per square rontosecond = mi/qs² × (1760.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareQuectosecond = new (
                                                                         "mile per square quectosecond"
@@ -1460,7 +1460,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// inch per square millennium, defined as: SI centimeter per square century × (2.54)/((10.0)*(10.0))
+   /// inch per square millennium defined such that: SI centimeter per square century = in/kyr² × (2.54)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareMillennium = new (
                                                                       "inch per square millennium"
@@ -1471,7 +1471,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// league per square second, defined as: mile per square second × (3.0)/((1.0)*(1.0))
+   /// league per square second defined such that: mile per square second = le/s² × (3.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareSecond = new (
                                                                     "league per square second"
@@ -1482,7 +1482,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// league per square planck-time, defined as: mile per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
+   /// league per square planck-time defined such that: mile per square microsecond = le/tₚ² × (3.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquarePlanckTime = new (
                                                                         "league per square planck-time"
@@ -1493,7 +1493,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square decisecond, defined as: mile per square second × (3.0)/((1.0/10.0)*(1.0/10.0))
+   /// league per square decisecond defined such that: mile per square second = le/ds² × (3.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareDecisecond = new (
                                                                         "league per square decisecond"
@@ -1504,7 +1504,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square centisecond, defined as: mile per square decisecond × (3.0)/((1.0/10.0)*(1.0/10.0))
+   /// league per square centisecond defined such that: mile per square decisecond = le/cs² × (3.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareCentisecond = new (
                                                                          "league per square centisecond"
@@ -1515,7 +1515,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square millisecond, defined as: mile per square centisecond × (3.0)/((1.0/10.0)*(1.0/10.0))
+   /// league per square millisecond defined such that: mile per square centisecond = le/ms² × (3.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMillisecond = new (
                                                                          "league per square millisecond"
@@ -1526,7 +1526,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square microsecond, defined as: mile per square millisecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square microsecond defined such that: mile per square millisecond = le/μs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMicrosecond = new (
                                                                          "league per square microsecond"
@@ -1537,7 +1537,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square nanosecond, defined as: mile per square microsecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square nanosecond defined such that: mile per square microsecond = le/ns² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareNanosecond = new (
                                                                         "league per square nanosecond"
@@ -1548,7 +1548,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square picosecond, defined as: mile per square nanosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square picosecond defined such that: mile per square nanosecond = le/ps² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquarePicosecond = new (
                                                                         "league per square picosecond"
@@ -1559,7 +1559,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square femtosecond, defined as: mile per square picosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square femtosecond defined such that: mile per square picosecond = le/fs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareFemtosecond = new (
                                                                          "league per square femtosecond"
@@ -1570,7 +1570,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square attosecond, defined as: mile per square femtosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square attosecond defined such that: mile per square femtosecond = le/as² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareAttosecond = new (
                                                                         "league per square attosecond"
@@ -1581,7 +1581,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square zeptosecond, defined as: mile per square attosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square zeptosecond defined such that: mile per square attosecond = le/zs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareZeptosecond = new (
                                                                          "league per square zeptosecond"
@@ -1592,7 +1592,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square yoctosecond, defined as: mile per square zeptosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square yoctosecond defined such that: mile per square zeptosecond = le/ys² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareYoctosecond = new (
                                                                          "league per square yoctosecond"
@@ -1603,7 +1603,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square rontosecond, defined as: mile per square yoctosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square rontosecond defined such that: mile per square yoctosecond = le/rs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareRontosecond = new (
                                                                          "league per square rontosecond"
@@ -1614,7 +1614,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square quectosecond, defined as: mile per square rontosecond × (3.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square quectosecond defined such that: mile per square rontosecond = le/qs² × (3.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareQuectosecond = new (
                                                                           "league per square quectosecond"
@@ -1625,7 +1625,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// inch per square million years, defined as: SI centimeter per square millennium × (2.54)/((1000.0)*(1000.0))
+   /// inch per square million years defined such that: SI centimeter per square millennium = in/Myr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareMillionYears = new (
                                                                         "inch per square million years"
@@ -1636,7 +1636,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// fathom per square second, defined as: yard per square second × (2.0)/((1.0)*(1.0))
+   /// fathom per square second defined such that: yard per square second = ftm/s² × (2.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareSecond = new (
                                                                     "fathom per square second"
@@ -1647,7 +1647,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// fathom per square planck-time, defined as: yard per square microsecond × (2.0)/((5.391247E-38)*(5.391247E-38))
+   /// fathom per square planck-time defined such that: yard per square microsecond = ftm/tₚ² × (2.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration FathomPerSquarePlanckTime = new (
                                                                         "fathom per square planck-time"
@@ -1658,7 +1658,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// fathom per square decisecond, defined as: yard per square second × (2.0)/((1.0/10.0)*(1.0/10.0))
+   /// fathom per square decisecond defined such that: yard per square second = ftm/ds² × (2.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareDecisecond = new (
                                                                         "fathom per square decisecond"
@@ -1669,7 +1669,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// fathom per square centisecond, defined as: yard per square decisecond × (2.0)/((1.0/10.0)*(1.0/10.0))
+   /// fathom per square centisecond defined such that: yard per square decisecond = ftm/cs² × (2.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareCentisecond = new (
                                                                          "fathom per square centisecond"
@@ -1680,7 +1680,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// fathom per square millisecond, defined as: yard per square centisecond × (2.0)/((1.0/10.0)*(1.0/10.0))
+   /// fathom per square millisecond defined such that: yard per square centisecond = ftm/ms² × (2.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareMillisecond = new (
                                                                          "fathom per square millisecond"
@@ -1691,7 +1691,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// fathom per square microsecond, defined as: yard per square millisecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square microsecond defined such that: yard per square millisecond = ftm/μs² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareMicrosecond = new (
                                                                          "fathom per square microsecond"
@@ -1702,7 +1702,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// fathom per square nanosecond, defined as: yard per square microsecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square nanosecond defined such that: yard per square microsecond = ftm/ns² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareNanosecond = new (
                                                                         "fathom per square nanosecond"
@@ -1713,7 +1713,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// fathom per square picosecond, defined as: yard per square nanosecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square picosecond defined such that: yard per square nanosecond = ftm/ps² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquarePicosecond = new (
                                                                         "fathom per square picosecond"
@@ -1724,7 +1724,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// fathom per square femtosecond, defined as: yard per square picosecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square femtosecond defined such that: yard per square picosecond = ftm/fs² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareFemtosecond = new (
                                                                          "fathom per square femtosecond"
@@ -1735,7 +1735,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// fathom per square attosecond, defined as: yard per square femtosecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square attosecond defined such that: yard per square femtosecond = ftm/as² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareAttosecond = new (
                                                                         "fathom per square attosecond"
@@ -1746,7 +1746,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// fathom per square zeptosecond, defined as: yard per square attosecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square zeptosecond defined such that: yard per square attosecond = ftm/zs² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareZeptosecond = new (
                                                                          "fathom per square zeptosecond"
@@ -1757,7 +1757,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// fathom per square yoctosecond, defined as: yard per square zeptosecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square yoctosecond defined such that: yard per square zeptosecond = ftm/ys² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareYoctosecond = new (
                                                                          "fathom per square yoctosecond"
@@ -1768,7 +1768,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// fathom per square rontosecond, defined as: yard per square yoctosecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square rontosecond defined such that: yard per square yoctosecond = ftm/rs² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareRontosecond = new (
                                                                          "fathom per square rontosecond"
@@ -1779,7 +1779,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// fathom per square quectosecond, defined as: yard per square rontosecond × (2.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// fathom per square quectosecond defined such that: yard per square rontosecond = ftm/qs² × (2.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareQuectosecond = new (
                                                                           "fathom per square quectosecond"
@@ -1790,7 +1790,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// inch per square billion years, defined as: SI centimeter per square million years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square billion years defined such that: SI centimeter per square million years = in/Gyr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareBillionYears = new (
                                                                         "inch per square billion years"
@@ -1801,7 +1801,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square second, defined as: fathom per square second × (120.0)/((1.0)*(1.0))
+   /// cable per square second defined such that: fathom per square second = cb/s² × (120.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareSecond = new (
                                                                    "cable per square second"
@@ -1812,7 +1812,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// cable per square planck-time, defined as: fathom per square microsecond × (120.0)/((5.391247E-38)*(5.391247E-38))
+   /// cable per square planck-time defined such that: fathom per square microsecond = cb/tₚ² × (120.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration CablePerSquarePlanckTime = new (
                                                                        "cable per square planck-time"
@@ -1823,7 +1823,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// cable per square decisecond, defined as: fathom per square second × (120.0)/((1.0/10.0)*(1.0/10.0))
+   /// cable per square decisecond defined such that: fathom per square second = cb/ds² × (120.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareDecisecond = new (
                                                                        "cable per square decisecond"
@@ -1834,7 +1834,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// cable per square centisecond, defined as: fathom per square decisecond × (120.0)/((1.0/10.0)*(1.0/10.0))
+   /// cable per square centisecond defined such that: fathom per square decisecond = cb/cs² × (120.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareCentisecond = new (
                                                                         "cable per square centisecond"
@@ -1845,7 +1845,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square millisecond, defined as: fathom per square centisecond × (120.0)/((1.0/10.0)*(1.0/10.0))
+   /// cable per square millisecond defined such that: fathom per square centisecond = cb/ms² × (120.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareMillisecond = new (
                                                                         "cable per square millisecond"
@@ -1856,7 +1856,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square microsecond, defined as: fathom per square millisecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square microsecond defined such that: fathom per square millisecond = cb/μs² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareMicrosecond = new (
                                                                         "cable per square microsecond"
@@ -1867,7 +1867,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square nanosecond, defined as: fathom per square microsecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square nanosecond defined such that: fathom per square microsecond = cb/ns² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareNanosecond = new (
                                                                        "cable per square nanosecond"
@@ -1878,7 +1878,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// cable per square picosecond, defined as: fathom per square nanosecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square picosecond defined such that: fathom per square nanosecond = cb/ps² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquarePicosecond = new (
                                                                        "cable per square picosecond"
@@ -1889,7 +1889,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// cable per square femtosecond, defined as: fathom per square picosecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square femtosecond defined such that: fathom per square picosecond = cb/fs² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareFemtosecond = new (
                                                                         "cable per square femtosecond"
@@ -1900,7 +1900,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square attosecond, defined as: fathom per square femtosecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square attosecond defined such that: fathom per square femtosecond = cb/as² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareAttosecond = new (
                                                                        "cable per square attosecond"
@@ -1911,7 +1911,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// cable per square zeptosecond, defined as: fathom per square attosecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square zeptosecond defined such that: fathom per square attosecond = cb/zs² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareZeptosecond = new (
                                                                         "cable per square zeptosecond"
@@ -1922,7 +1922,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square yoctosecond, defined as: fathom per square zeptosecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square yoctosecond defined such that: fathom per square zeptosecond = cb/ys² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareYoctosecond = new (
                                                                         "cable per square yoctosecond"
@@ -1933,7 +1933,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square rontosecond, defined as: fathom per square yoctosecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square rontosecond defined such that: fathom per square yoctosecond = cb/rs² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareRontosecond = new (
                                                                         "cable per square rontosecond"
@@ -1944,7 +1944,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square quectosecond, defined as: fathom per square rontosecond × (120.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// cable per square quectosecond defined such that: fathom per square rontosecond = cb/qs² × (120.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareQuectosecond = new (
                                                                          "cable per square quectosecond"
@@ -1955,7 +1955,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// inch per square trillion years, defined as: SI centimeter per square billion years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square trillion years defined such that: SI centimeter per square billion years = in/Tyr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareTrillionYears = new (
                                                                          "inch per square trillion years"
@@ -1967,7 +1967,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// nautical mile per square second, defined as: SI meter per square second × (1852.0)/((1.0)*(1.0))
+   /// nautical mile per square second defined such that: SI meter per square second = nmi/s² × (1852.0)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareSecond = new (
                                                                           "nautical mile per square second"
@@ -1978,7 +1978,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// nautical mile per square planck-time, defined as: SI meter per square microsecond × (1852.0)/((5.391247E-38)*(5.391247E-38))
+   /// nautical mile per square planck-time defined such that: SI meter per square microsecond = nmi/tₚ² × (1852.0)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquarePlanckTime = new (
                                                                               "nautical mile per square planck-time"
@@ -1989,7 +1989,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// nautical mile per square decisecond, defined as: SI meter per square second × (1852.0)/((1.0/10.0)*(1.0/10.0))
+   /// nautical mile per square decisecond defined such that: SI meter per square second = nmi/ds² × (1852.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareDecisecond = new (
                                                                               "nautical mile per square decisecond"
@@ -2000,7 +2000,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// nautical mile per square centisecond, defined as: SI meter per square decisecond × (1852.0)/((1.0/10.0)*(1.0/10.0))
+   /// nautical mile per square centisecond defined such that: SI meter per square decisecond = nmi/cs² × (1852.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareCentisecond = new (
                                                                                "nautical mile per square centisecond"
@@ -2011,7 +2011,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// nautical mile per square millisecond, defined as: SI meter per square centisecond × (1852.0)/((1.0/10.0)*(1.0/10.0))
+   /// nautical mile per square millisecond defined such that: SI meter per square centisecond = nmi/ms² × (1852.0)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareMillisecond = new (
                                                                                "nautical mile per square millisecond"
@@ -2023,7 +2023,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// nautical mile per square microsecond, defined as: SI meter per square millisecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square microsecond defined such that: SI meter per square millisecond = nmi/μs² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareMicrosecond = new (
                                                                                "nautical mile per square microsecond"
@@ -2035,7 +2035,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// nautical mile per square nanosecond, defined as: SI meter per square microsecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square nanosecond defined such that: SI meter per square microsecond = nmi/ns² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareNanosecond = new (
                                                                               "nautical mile per square nanosecond"
@@ -2046,7 +2046,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// nautical mile per square picosecond, defined as: SI meter per square nanosecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square picosecond defined such that: SI meter per square nanosecond = nmi/ps² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquarePicosecond = new (
                                                                               "nautical mile per square picosecond"
@@ -2057,7 +2057,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// nautical mile per square femtosecond, defined as: SI meter per square picosecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square femtosecond defined such that: SI meter per square picosecond = nmi/fs² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareFemtosecond = new (
                                                                                "nautical mile per square femtosecond"
@@ -2068,7 +2068,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// nautical mile per square attosecond, defined as: SI meter per square femtosecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square attosecond defined such that: SI meter per square femtosecond = nmi/as² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareAttosecond = new (
                                                                               "nautical mile per square attosecond"
@@ -2079,7 +2079,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// nautical mile per square zeptosecond, defined as: SI meter per square attosecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square zeptosecond defined such that: SI meter per square attosecond = nmi/zs² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareZeptosecond = new (
                                                                                "nautical mile per square zeptosecond"
@@ -2090,7 +2090,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// nautical mile per square yoctosecond, defined as: SI meter per square zeptosecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square yoctosecond defined such that: SI meter per square zeptosecond = nmi/ys² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareYoctosecond = new (
                                                                                "nautical mile per square yoctosecond"
@@ -2102,7 +2102,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// nautical mile per square rontosecond, defined as: SI meter per square yoctosecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square rontosecond defined such that: SI meter per square yoctosecond = nmi/rs² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareRontosecond = new (
                                                                                "nautical mile per square rontosecond"
@@ -2114,7 +2114,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// nautical mile per square quectosecond, defined as: SI meter per square rontosecond × (1852.0)/((1.0/1000.0)*(1.0/1000.0))
+   /// nautical mile per square quectosecond defined such that: SI meter per square rontosecond = nmi/qs² × (1852.0)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareQuectosecond = new (
                                                                                 "nautical mile per square quectosecond"
@@ -2126,7 +2126,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// inch per square quadrillion years, defined as: SI centimeter per square trillion years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square quadrillion years defined such that: SI centimeter per square trillion years = in/Pyr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareQuadrillionYears = new (
                                                                             "inch per square quadrillion years"
@@ -2138,7 +2138,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// inch per square quintillion years, defined as: SI centimeter per square quadrillion years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square quintillion years defined such that: SI centimeter per square quadrillion years = in/Eyr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareQuintillionYears = new (
                                                                             "inch per square quintillion years"
@@ -2150,7 +2150,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// inch per square sextillion years, defined as: SI centimeter per square quintillion years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square sextillion years defined such that: SI centimeter per square quintillion years = in/Zyr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareSextillionYears = new (
                                                                            "inch per square sextillion years"
@@ -2162,7 +2162,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// inch per square septillion years, defined as: SI centimeter per square sextillion years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square septillion years defined such that: SI centimeter per square sextillion years = in/Yyr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareSeptillionYears = new (
                                                                            "inch per square septillion years"
@@ -2174,7 +2174,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// inch per square octillion years, defined as: SI centimeter per square septillion years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square octillion years defined such that: SI centimeter per square septillion years = in/Ryr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareOctillionYears = new (
                                                                           "inch per square octillion years"
@@ -2186,7 +2186,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// inch per square nonillion years, defined as: SI centimeter per square octillion years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square nonillion years defined such that: SI centimeter per square octillion years = in/Qyr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareNonillionYears = new (
                                                                           "inch per square nonillion years"
@@ -2198,7 +2198,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// inch per square decillion years, defined as: SI centimeter per square nonillion years × (2.54)/((1000.0)*(1000.0))
+   /// inch per square decillion years defined such that: SI centimeter per square nonillion years = in/decillion yr² × (2.54)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareDecillionYears = new (
                                                                           "inch per square decillion years"
@@ -2210,7 +2210,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// inch per square tick, defined as: SI centimeter per square nanosecond × (2.54)/((100.0)*(100.0))
+   /// inch per square tick defined such that: SI centimeter per square nanosecond = in/tick² × (2.54)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration InchPerSquareTick = new (
                                                                 "inch per square tick"
@@ -2221,7 +2221,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mil per square minute, defined as: inch per square second × (1.0/1000.0)/((60.0)*(60.0))
+   /// mil per square minute defined such that: inch per square second = mil/min² × (1.0/1000.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareMinute = new (
                                                                  "mil per square minute"
@@ -2232,7 +2232,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// foot per square septillion years, defined as: inch per square sextillion years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square septillion years defined such that: inch per square sextillion years = ft/Yyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareSeptillionYears = new (
                                                                            "foot per square septillion years"
@@ -2243,7 +2243,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// foot per square week, defined as: inch per square day × (12.0)/((7.0)*(7.0))
+   /// foot per square week defined such that: inch per square day = ft/wk² × (12.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareWeek = new (
                                                                 "foot per square week"
@@ -2254,7 +2254,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// point per square billion years, defined as: inch per square million years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square billion years defined such that: inch per square million years = p/Gyr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareBillionYears = new (
                                                                          "point per square billion years"
@@ -2265,7 +2265,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// mil per square tick, defined as: inch per square nanosecond × (1.0/1000.0)/((100.0)*(100.0))
+   /// mil per square tick defined such that: inch per square nanosecond = mil/tick² × (1.0/1000.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareTick = new (
                                                                "mil per square tick"
@@ -2276,7 +2276,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// mil per square hour, defined as: inch per square minute × (1.0/1000.0)/((60.0)*(60.0))
+   /// mil per square hour defined such that: inch per square minute = mil/hr² × (1.0/1000.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareHour = new (
                                                                "mil per square hour"
@@ -2287,7 +2287,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// point per square minute, defined as: inch per square second × (1.0/72.0)/((60.0)*(60.0))
+   /// point per square minute defined such that: inch per square second = p/min² × (1.0/72.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareMinute = new (
                                                                    "point per square minute"
@@ -2298,7 +2298,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// nautical mile per square nonillion years, defined as: SI meter per square octillion years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square nonillion years defined such that: SI meter per square octillion years = nmi/Qyr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareNonillionYears = new (
        "nautical mile per square nonillion years"
@@ -2309,7 +2309,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// nautical mile per square quadrillion years, defined as: SI meter per square trillion years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square quadrillion years defined such that: SI meter per square trillion years = nmi/Pyr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareQuadrillionYears = new (
        "nautical mile per square quadrillion years"
@@ -2320,7 +2320,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// mil per square day, defined as: inch per square hour × (1.0/1000.0)/((24.0)*(24.0))
+   /// mil per square day defined such that: inch per square hour = mil/dy² × (1.0/1000.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareDay = new (
                                                               "mil per square day"
@@ -2331,7 +2331,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              );
 
    /// <summary>
-   /// twip per square minute, defined as: point per square second × (1.0/20.0)/((60.0)*(60.0))
+   /// twip per square minute defined such that: point per square second = twip/min² × (1.0/20.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareMinute = new (
                                                                   "twip per square minute"
@@ -2342,7 +2342,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// foot per square millennium, defined as: inch per square century × (12.0)/((10.0)*(10.0))
+   /// foot per square millennium defined such that: inch per square century = ft/kyr² × (12.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareMillennium = new (
                                                                       "foot per square millennium"
@@ -2353,7 +2353,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// point per square tick, defined as: inch per square nanosecond × (1.0/72.0)/((100.0)*(100.0))
+   /// point per square tick defined such that: inch per square nanosecond = p/tick² × (1.0/72.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareTick = new (
                                                                  "point per square tick"
@@ -2364,7 +2364,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// nautical mile per square century, defined as: SI meter per square decade × (1852.0)/((10.0)*(10.0))
+   /// nautical mile per square century defined such that: SI meter per square decade = nmi/century² × (1852.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareCentury = new (
                                                                            "nautical mile per square century"
@@ -2375,7 +2375,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// point per square trillion years, defined as: inch per square billion years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square trillion years defined such that: inch per square billion years = p/Tyr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareTrillionYears = new (
                                                                           "point per square trillion years"
@@ -2386,7 +2386,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// nautical mile per square hour, defined as: SI meter per square minute × (1852.0)/((60.0)*(60.0))
+   /// nautical mile per square hour defined such that: SI meter per square minute = nmi/hr² × (1852.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareHour = new (
                                                                         "nautical mile per square hour"
@@ -2397,7 +2397,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// yard per square octillion years, defined as: foot per square septillion years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square octillion years defined such that: foot per square septillion years = yd/Ryr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareOctillionYears = new (
                                                                           "yard per square octillion years"
@@ -2408,7 +2408,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// point per square hour, defined as: inch per square minute × (1.0/72.0)/((60.0)*(60.0))
+   /// point per square hour defined such that: inch per square minute = p/hr² × (1.0/72.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareHour = new (
                                                                  "point per square hour"
@@ -2419,7 +2419,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// mil per square week, defined as: inch per square day × (1.0/1000.0)/((7.0)*(7.0))
+   /// mil per square week defined such that: inch per square day = mil/wk² × (1.0/1000.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareWeek = new (
                                                                "mil per square week"
@@ -2430,7 +2430,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// pica per square minute, defined as: point per square second × (12.0)/((60.0)*(60.0))
+   /// pica per square minute defined such that: point per square second = P/min² × (12.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareMinute = new (
                                                                   "pica per square minute"
@@ -2441,7 +2441,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// foot per square quadrillion years, defined as: inch per square trillion years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square quadrillion years defined such that: inch per square trillion years = ft/Pyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareQuadrillionYears = new (
                                                                             "foot per square quadrillion years"
@@ -2452,7 +2452,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// twip per square tick, defined as: point per square nanosecond × (1.0/20.0)/((100.0)*(100.0))
+   /// twip per square tick defined such that: point per square nanosecond = twip/tick² × (1.0/20.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareTick = new (
                                                                 "twip per square tick"
@@ -2463,7 +2463,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mil per square year, defined as: inch per square day × (1.0/1000.0)/((365.2525)*(365.2525))
+   /// mil per square year defined such that: inch per square day = mil/yr² × (1.0/1000.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration MilPerSquareYear = new (
                                                                "mil per square year"
@@ -2474,7 +2474,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// foot per square minute, defined as: inch per square second × (12.0)/((60.0)*(60.0))
+   /// foot per square minute defined such that: inch per square second = ft/min² × (12.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareMinute = new (
                                                                   "foot per square minute"
@@ -2485,7 +2485,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// fathom per square nonillion years, defined as: yard per square octillion years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square nonillion years defined such that: yard per square octillion years = ftm/Qyr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareNonillionYears = new (
                                                                             "fathom per square nonillion years"
@@ -2496,7 +2496,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// point per square quadrillion years, defined as: inch per square trillion years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square quadrillion years defined such that: inch per square trillion years = p/Pyr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareQuadrillionYears = new (
                                                                              "point per square quadrillion years"
@@ -2507,7 +2507,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// point per square day, defined as: inch per square hour × (1.0/72.0)/((24.0)*(24.0))
+   /// point per square day defined such that: inch per square hour = p/dy² × (1.0/72.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareDay = new (
                                                                 "point per square day"
@@ -2518,7 +2518,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// twip per square hour, defined as: point per square minute × (1.0/20.0)/((60.0)*(60.0))
+   /// twip per square hour defined such that: point per square minute = twip/hr² × (1.0/20.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareHour = new (
                                                                 "twip per square hour"
@@ -2529,7 +2529,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mil per square decade, defined as: inch per square year × (1.0/1000.0)/((10.0)*(10.0))
+   /// mil per square decade defined such that: inch per square year = mil/decade² × (1.0/1000.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareDecade = new (
                                                                  "mil per square decade"
@@ -2540,7 +2540,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// yard per square minute, defined as: foot per square second × (3.0)/((60.0)*(60.0))
+   /// yard per square minute defined such that: foot per square second = yd/min² × (3.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareMinute = new (
                                                                   "yard per square minute"
@@ -2551,7 +2551,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// foot per square octillion years, defined as: inch per square septillion years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square octillion years defined such that: inch per square septillion years = ft/Ryr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareOctillionYears = new (
                                                                           "foot per square octillion years"
@@ -2562,7 +2562,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// pica per square tick, defined as: point per square nanosecond × (12.0)/((100.0)*(100.0))
+   /// pica per square tick defined such that: point per square nanosecond = P/tick² × (12.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareTick = new (
                                                                 "pica per square tick"
@@ -2573,7 +2573,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// nautical mile per square sextillion years, defined as: SI meter per square quintillion years × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square sextillion years defined such that: SI meter per square quintillion years = nmi/Zyr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareSextillionYears = new (
        "nautical mile per square sextillion years"
@@ -2584,7 +2584,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
       );
 
    /// <summary>
-   /// foot per square year, defined as: inch per square day × (12.0)/((365.2525)*(365.2525))
+   /// foot per square year defined such that: inch per square day = ft/yr² × (12.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration FootPerSquareYear = new (
                                                                 "foot per square year"
@@ -2595,7 +2595,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// nautical mile per square million years, defined as: SI meter per square millennium × (1852.0)/((1000.0)*(1000.0))
+   /// nautical mile per square million years defined such that: SI meter per square millennium = nmi/Myr² × (1852.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareMillionYears = new (
                                                                                 "nautical mile per square million years"
@@ -2607,7 +2607,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                );
 
    /// <summary>
-   /// mil per square century, defined as: inch per square decade × (1.0/1000.0)/((10.0)*(10.0))
+   /// mil per square century defined such that: inch per square decade = mil/century² × (1.0/1000.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareCentury = new (
                                                                   "mil per square century"
@@ -2618,7 +2618,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// mile per square minute, defined as: yard per square second × (1760.0)/((60.0)*(60.0))
+   /// mile per square minute defined such that: yard per square second = mi/min² × (1760.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareMinute = new (
                                                                   "mile per square minute"
@@ -2629,7 +2629,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// pica per square trillion years, defined as: point per square billion years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square trillion years defined such that: point per square billion years = P/Tyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareTrillionYears = new (
                                                                          "pica per square trillion years"
@@ -2640,7 +2640,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// nautical mile per square week, defined as: SI meter per square day × (1852.0)/((7.0)*(7.0))
+   /// nautical mile per square week defined such that: SI meter per square day = nmi/wk² × (1852.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration NauticalMilePerSquareWeek = new (
                                                                         "nautical mile per square week"
@@ -2651,7 +2651,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square quintillion years, defined as: inch per square quadrillion years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square quintillion years defined such that: inch per square quadrillion years = p/Eyr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareQuintillionYears = new (
                                                                              "point per square quintillion years"
@@ -2662,7 +2662,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// foot per square tick, defined as: inch per square nanosecond × (12.0)/((100.0)*(100.0))
+   /// foot per square tick defined such that: inch per square nanosecond = ft/tick² × (12.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareTick = new (
                                                                 "foot per square tick"
@@ -2673,7 +2673,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// point per square week, defined as: inch per square day × (1.0/72.0)/((7.0)*(7.0))
+   /// point per square week defined such that: inch per square day = p/wk² × (1.0/72.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareWeek = new (
                                                                  "point per square week"
@@ -2684,7 +2684,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// pica per square hour, defined as: point per square minute × (12.0)/((60.0)*(60.0))
+   /// pica per square hour defined such that: point per square minute = P/hr² × (12.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareHour = new (
                                                                 "pica per square hour"
@@ -2695,7 +2695,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mil per square millennium, defined as: inch per square century × (1.0/1000.0)/((10.0)*(10.0))
+   /// mil per square millennium defined such that: inch per square century = mil/kyr² × (1.0/1000.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareMillennium = new (
                                                                      "mil per square millennium"
@@ -2706,7 +2706,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// league per square minute, defined as: mile per square second × (3.0)/((60.0)*(60.0))
+   /// league per square minute defined such that: mile per square second = le/min² × (3.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMinute = new (
                                                                     "league per square minute"
@@ -2717,7 +2717,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// foot per square million years, defined as: inch per square millennium × (12.0)/((1000.0)*(1000.0))
+   /// foot per square million years defined such that: inch per square millennium = ft/Myr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareMillionYears = new (
                                                                         "foot per square million years"
@@ -2728,7 +2728,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// mile per square nonillion years, defined as: yard per square octillion years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square nonillion years defined such that: yard per square octillion years = mi/Qyr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareNonillionYears = new (
                                                                           "mile per square nonillion years"
@@ -2739,7 +2739,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// twip per square day, defined as: point per square hour × (1.0/20.0)/((24.0)*(24.0))
+   /// twip per square day defined such that: point per square hour = twip/dy² × (1.0/20.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareDay = new (
                                                                "twip per square day"
@@ -2750,7 +2750,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// mil per square million years, defined as: inch per square millennium × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square million years defined such that: inch per square millennium = mil/Myr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareMillionYears = new (
                                                                        "mil per square million years"
@@ -2761,7 +2761,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// fathom per square minute, defined as: yard per square second × (2.0)/((60.0)*(60.0))
+   /// fathom per square minute defined such that: yard per square second = ftm/min² × (2.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareMinute = new (
                                                                     "fathom per square minute"
@@ -2772,7 +2772,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// yard per square tick, defined as: foot per square nanosecond × (3.0)/((100.0)*(100.0))
+   /// yard per square tick defined such that: foot per square nanosecond = yd/tick² × (3.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareTick = new (
                                                                 "yard per square tick"
@@ -2783,7 +2783,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// point per square sextillion years, defined as: inch per square quintillion years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square sextillion years defined such that: inch per square quintillion years = p/Zyr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareSextillionYears = new (
                                                                             "point per square sextillion years"
@@ -2794,7 +2794,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// foot per square quintillion years, defined as: inch per square quadrillion years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square quintillion years defined such that: inch per square quadrillion years = ft/Eyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareQuintillionYears = new (
                                                                             "foot per square quintillion years"
@@ -2805,7 +2805,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// yard per square nonillion years, defined as: foot per square octillion years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square nonillion years defined such that: foot per square octillion years = yd/Qyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareNonillionYears = new (
                                                                           "yard per square nonillion years"
@@ -2816,7 +2816,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// point per square year, defined as: inch per square day × (1.0/72.0)/((365.2525)*(365.2525))
+   /// point per square year defined such that: inch per square day = p/yr² × (1.0/72.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration PointPerSquareYear = new (
                                                                  "point per square year"
@@ -2827,7 +2827,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// foot per square hour, defined as: inch per square minute × (12.0)/((60.0)*(60.0))
+   /// foot per square hour defined such that: inch per square minute = ft/hr² × (12.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareHour = new (
                                                                 "foot per square hour"
@@ -2838,7 +2838,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mil per square billion years, defined as: inch per square million years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square billion years defined such that: inch per square million years = mil/Gyr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareBillionYears = new (
                                                                        "mil per square billion years"
@@ -2849,7 +2849,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// cable per square minute, defined as: fathom per square second × (120.0)/((60.0)*(60.0))
+   /// cable per square minute defined such that: fathom per square second = cb/min² × (120.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareMinute = new (
                                                                    "cable per square minute"
@@ -2860,7 +2860,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// yard per square sextillion years, defined as: foot per square quintillion years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square sextillion years defined such that: foot per square quintillion years = yd/Zyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareSextillionYears = new (
                                                                            "yard per square sextillion years"
@@ -2871,7 +2871,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// mile per square tick, defined as: yard per square nanosecond × (1760.0)/((100.0)*(100.0))
+   /// mile per square tick defined such that: yard per square nanosecond = mi/tick² × (1760.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareTick = new (
                                                                 "mile per square tick"
@@ -2882,7 +2882,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mil per square trillion years, defined as: inch per square billion years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square trillion years defined such that: inch per square billion years = mil/Tyr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareTrillionYears = new (
                                                                         "mil per square trillion years"
@@ -2893,7 +2893,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// pica per square quadrillion years, defined as: point per square trillion years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square quadrillion years defined such that: point per square trillion years = P/Pyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareQuadrillionYears = new (
                                                                             "pica per square quadrillion years"
@@ -2904,7 +2904,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// foot per square nonillion years, defined as: inch per square octillion years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square nonillion years defined such that: inch per square octillion years = ft/Qyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareNonillionYears = new (
                                                                           "foot per square nonillion years"
@@ -2915,7 +2915,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// foot per square decade, defined as: inch per square year × (12.0)/((10.0)*(10.0))
+   /// foot per square decade defined such that: inch per square year = ft/decade² × (12.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareDecade = new (
                                                                   "foot per square decade"
@@ -2926,7 +2926,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// point per square septillion years, defined as: inch per square sextillion years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square septillion years defined such that: inch per square sextillion years = p/Yyr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareSeptillionYears = new (
                                                                             "point per square septillion years"
@@ -2937,7 +2937,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// twip per square week, defined as: point per square day × (1.0/20.0)/((7.0)*(7.0))
+   /// twip per square week defined such that: point per square day = twip/wk² × (1.0/20.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareWeek = new (
                                                                 "twip per square week"
@@ -2948,7 +2948,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// pica per square day, defined as: point per square hour × (12.0)/((24.0)*(24.0))
+   /// pica per square day defined such that: point per square hour = P/dy² × (12.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareDay = new (
                                                                "pica per square day"
@@ -2959,7 +2959,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// point per square decade, defined as: inch per square year × (1.0/72.0)/((10.0)*(10.0))
+   /// point per square decade defined such that: inch per square year = p/decade² × (1.0/72.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareDecade = new (
                                                                    "point per square decade"
@@ -2970,7 +2970,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// yard per square hour, defined as: foot per square minute × (3.0)/((60.0)*(60.0))
+   /// yard per square hour defined such that: foot per square minute = yd/hr² × (3.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareHour = new (
                                                                 "yard per square hour"
@@ -2981,7 +2981,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mil per square quadrillion years, defined as: inch per square trillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square quadrillion years defined such that: inch per square trillion years = mil/Pyr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareQuadrillionYears = new (
                                                                            "mil per square quadrillion years"
@@ -2992,7 +2992,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// league per square tick, defined as: mile per square nanosecond × (3.0)/((100.0)*(100.0))
+   /// league per square tick defined such that: mile per square nanosecond = le/tick² × (3.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareTick = new (
                                                                   "league per square tick"
@@ -3003,7 +3003,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// mile per square septillion years, defined as: yard per square sextillion years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square septillion years defined such that: yard per square sextillion years = mi/Yyr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareSeptillionYears = new (
                                                                            "mile per square septillion years"
@@ -3014,7 +3014,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// mil per square quintillion years, defined as: inch per square quadrillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square quintillion years defined such that: inch per square quadrillion years = mil/Eyr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareQuintillionYears = new (
                                                                            "mil per square quintillion years"
@@ -3025,7 +3025,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// foot per square billion years, defined as: inch per square million years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square billion years defined such that: inch per square million years = ft/Gyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareBillionYears = new (
                                                                         "foot per square billion years"
@@ -3036,7 +3036,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// point per square octillion years, defined as: inch per square septillion years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square octillion years defined such that: inch per square septillion years = p/Ryr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareOctillionYears = new (
                                                                            "point per square octillion years"
@@ -3047,7 +3047,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// cable per square decillion years, defined as: fathom per square nonillion years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square decillion years defined such that: fathom per square nonillion years = cb/decillion yr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareDecillionYears = new (
                                                                            "cable per square decillion years"
@@ -3058,7 +3058,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// fathom per square tick, defined as: yard per square nanosecond × (2.0)/((100.0)*(100.0))
+   /// fathom per square tick defined such that: yard per square nanosecond = ftm/tick² × (2.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareTick = new (
                                                                   "fathom per square tick"
@@ -3069,7 +3069,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// point per square century, defined as: inch per square decade × (1.0/72.0)/((10.0)*(10.0))
+   /// point per square century defined such that: inch per square decade = p/century² × (1.0/72.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareCentury = new (
                                                                     "point per square century"
@@ -3080,7 +3080,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// mile per square hour, defined as: yard per square minute × (1760.0)/((60.0)*(60.0))
+   /// mile per square hour defined such that: yard per square minute = mi/hr² × (1760.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareHour = new (
                                                                 "mile per square hour"
@@ -3091,7 +3091,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mil per square sextillion years, defined as: inch per square quintillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square sextillion years defined such that: inch per square quintillion years = mil/Zyr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareSextillionYears = new (
                                                                           "mil per square sextillion years"
@@ -3102,7 +3102,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// twip per square nonillion years, defined as: point per square octillion years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square nonillion years defined such that: point per square octillion years = twip/Qyr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareNonillionYears = new (
                                                                           "twip per square nonillion years"
@@ -3113,7 +3113,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// fathom per square decillion years, defined as: yard per square nonillion years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square decillion years defined such that: yard per square nonillion years = ftm/decillion yr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareDecillionYears = new (
                                                                             "fathom per square decillion years"
@@ -3124,7 +3124,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// twip per square trillion years, defined as: point per square billion years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square trillion years defined such that: point per square billion years = twip/Tyr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareTrillionYears = new (
                                                                          "twip per square trillion years"
@@ -3135,7 +3135,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// foot per square sextillion years, defined as: inch per square quintillion years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square sextillion years defined such that: inch per square quintillion years = ft/Zyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareSextillionYears = new (
                                                                            "foot per square sextillion years"
@@ -3146,7 +3146,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// league per square decillion years, defined as: mile per square nonillion years × (3.0)/((1000.0)*(1000.0))
+   /// league per square decillion years defined such that: mile per square nonillion years = le/decillion yr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareDecillionYears = new (
                                                                             "league per square decillion years"
@@ -3157,7 +3157,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// twip per square year, defined as: point per square day × (1.0/20.0)/((365.2525)*(365.2525))
+   /// twip per square year defined such that: point per square day = twip/yr² × (1.0/20.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareYear = new (
                                                                 "twip per square year"
@@ -3168,7 +3168,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// foot per square day, defined as: inch per square hour × (12.0)/((24.0)*(24.0))
+   /// foot per square day defined such that: inch per square hour = ft/dy² × (12.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareDay = new (
                                                                "foot per square day"
@@ -3179,7 +3179,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// mil per square septillion years, defined as: inch per square sextillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square septillion years defined such that: inch per square sextillion years = mil/Yyr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareSeptillionYears = new (
                                                                           "mil per square septillion years"
@@ -3190,7 +3190,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// pica per square quintillion years, defined as: point per square quadrillion years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square quintillion years defined such that: point per square quadrillion years = P/Eyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareQuintillionYears = new (
                                                                             "pica per square quintillion years"
@@ -3201,7 +3201,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// mile per square decillion years, defined as: yard per square nonillion years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square decillion years defined such that: yard per square nonillion years = mi/decillion yr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareDecillionYears = new (
                                                                           "mile per square decillion years"
@@ -3212,7 +3212,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// cable per square tick, defined as: fathom per square nanosecond × (120.0)/((100.0)*(100.0))
+   /// cable per square tick defined such that: fathom per square nanosecond = cb/tick² × (120.0)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareTick = new (
                                                                  "cable per square tick"
@@ -3223,7 +3223,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// point per square nonillion years, defined as: inch per square octillion years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square nonillion years defined such that: inch per square octillion years = p/Qyr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareNonillionYears = new (
                                                                            "point per square nonillion years"
@@ -3234,7 +3234,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// yard per square decillion years, defined as: foot per square nonillion years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square decillion years defined such that: foot per square nonillion years = yd/decillion yr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareDecillionYears = new (
                                                                           "yard per square decillion years"
@@ -3245,7 +3245,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// pica per square week, defined as: point per square day × (12.0)/((7.0)*(7.0))
+   /// pica per square week defined such that: point per square day = P/wk² × (12.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareWeek = new (
                                                                 "pica per square week"
@@ -3256,7 +3256,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// point per square millennium, defined as: inch per square century × (1.0/72.0)/((10.0)*(10.0))
+   /// point per square millennium defined such that: inch per square century = p/kyr² × (1.0/72.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareMillennium = new (
                                                                        "point per square millennium"
@@ -3267,7 +3267,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// league per square hour, defined as: mile per square minute × (3.0)/((60.0)*(60.0))
+   /// league per square hour defined such that: mile per square minute = le/hr² × (3.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareHour = new (
                                                                   "league per square hour"
@@ -3278,7 +3278,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// mil per square octillion years, defined as: inch per square septillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square octillion years defined such that: inch per square septillion years = mil/Ryr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareOctillionYears = new (
                                                                          "mil per square octillion years"
@@ -3289,7 +3289,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// yard per square septillion years, defined as: foot per square sextillion years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square septillion years defined such that: foot per square sextillion years = yd/Yyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareSeptillionYears = new (
                                                                            "yard per square septillion years"
@@ -3300,7 +3300,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// foot per square decillion years, defined as: inch per square nonillion years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square decillion years defined such that: inch per square nonillion years = ft/decillion yr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareDecillionYears = new (
                                                                           "foot per square decillion years"
@@ -3311,7 +3311,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// foot per square century, defined as: inch per square decade × (12.0)/((10.0)*(10.0))
+   /// foot per square century defined such that: inch per square decade = ft/century² × (12.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareCentury = new (
                                                                    "foot per square century"
@@ -3322,7 +3322,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// pica per square decillion years, defined as: point per square nonillion years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square decillion years defined such that: point per square nonillion years = P/decillion yr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareDecillionYears = new (
                                                                           "pica per square decillion years"
@@ -3333,7 +3333,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// mil per square nonillion years, defined as: inch per square octillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square nonillion years defined such that: inch per square octillion years = mil/Qyr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareNonillionYears = new (
                                                                          "mil per square nonillion years"
@@ -3344,7 +3344,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// yard per square million years, defined as: foot per square millennium × (3.0)/((1000.0)*(1000.0))
+   /// yard per square million years defined such that: foot per square millennium = yd/Myr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareMillionYears = new (
                                                                         "yard per square million years"
@@ -3355,7 +3355,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// twip per square decillion years, defined as: point per square nonillion years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square decillion years defined such that: point per square nonillion years = twip/decillion yr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareDecillionYears = new (
                                                                           "twip per square decillion years"
@@ -3366,7 +3366,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// league per square octillion years, defined as: mile per square septillion years × (3.0)/((1000.0)*(1000.0))
+   /// league per square octillion years defined such that: mile per square septillion years = le/Ryr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareOctillionYears = new (
                                                                             "league per square octillion years"
@@ -3377,7 +3377,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// yard per square decade, defined as: foot per square year × (3.0)/((10.0)*(10.0))
+   /// yard per square decade defined such that: foot per square year = yd/decade² × (3.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareDecade = new (
                                                                   "yard per square decade"
@@ -3388,7 +3388,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// pica per square million years, defined as: point per square millennium × (12.0)/((1000.0)*(1000.0))
+   /// pica per square million years defined such that: point per square millennium = P/Myr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareMillionYears = new (
                                                                         "pica per square million years"
@@ -3399,7 +3399,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// twip per square quadrillion years, defined as: point per square trillion years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square quadrillion years defined such that: point per square trillion years = twip/Pyr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareQuadrillionYears = new (
                                                                             "twip per square quadrillion years"
@@ -3410,7 +3410,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// point per square decillion years, defined as: inch per square nonillion years × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square decillion years defined such that: inch per square nonillion years = p/decillion yr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareDecillionYears = new (
                                                                            "point per square decillion years"
@@ -3421,7 +3421,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// twip per square decade, defined as: point per square year × (1.0/20.0)/((10.0)*(10.0))
+   /// twip per square decade defined such that: point per square year = twip/decade² × (1.0/20.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareDecade = new (
                                                                   "twip per square decade"
@@ -3432,7 +3432,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// yard per square day, defined as: foot per square hour × (3.0)/((24.0)*(24.0))
+   /// yard per square day defined such that: foot per square hour = yd/dy² × (3.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareDay = new (
                                                                "yard per square day"
@@ -3443,7 +3443,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// point per square million years, defined as: inch per square millennium × (1.0/72.0)/((1000.0)*(1000.0))
+   /// point per square million years defined such that: inch per square millennium = p/Myr² × (1.0/72.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PointPerSquareMillionYears = new (
                                                                          "point per square million years"
@@ -3454,7 +3454,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// fathom per square hour, defined as: yard per square minute × (2.0)/((60.0)*(60.0))
+   /// fathom per square hour defined such that: yard per square minute = ftm/hr² × (2.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareHour = new (
                                                                   "fathom per square hour"
@@ -3465,7 +3465,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// mil per square decillion years, defined as: inch per square nonillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+   /// mil per square decillion years defined such that: inch per square nonillion years = mil/decillion yr² × (1.0/1000.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilPerSquareDecillionYears = new (
                                                                          "mil per square decillion years"
@@ -3476,7 +3476,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// foot per square trillion years, defined as: inch per square billion years × (12.0)/((1000.0)*(1000.0))
+   /// foot per square trillion years defined such that: inch per square billion years = ft/Tyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FootPerSquareTrillionYears = new (
                                                                          "foot per square trillion years"
@@ -3487,7 +3487,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// pica per square sextillion years, defined as: point per square quintillion years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square sextillion years defined such that: point per square quintillion years = P/Zyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareSextillionYears = new (
                                                                            "pica per square sextillion years"
@@ -3498,7 +3498,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// mile per square octillion years, defined as: yard per square septillion years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square octillion years defined such that: yard per square septillion years = mi/Ryr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareOctillionYears = new (
                                                                           "mile per square octillion years"
@@ -3509,7 +3509,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// pica per square year, defined as: point per square day × (12.0)/((365.2525)*(365.2525))
+   /// pica per square year defined such that: point per square day = P/yr² × (12.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareYear = new (
                                                                 "pica per square year"
@@ -3520,7 +3520,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// cable per square hour, defined as: fathom per square minute × (120.0)/((60.0)*(60.0))
+   /// cable per square hour defined such that: fathom per square minute = cb/hr² × (120.0)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareHour = new (
                                                                  "cable per square hour"
@@ -3531,7 +3531,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// twip per square quintillion years, defined as: point per square quadrillion years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square quintillion years defined such that: point per square quadrillion years = twip/Eyr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareQuintillionYears = new (
                                                                             "twip per square quintillion years"
@@ -3542,7 +3542,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// twip per square century, defined as: point per square decade × (1.0/20.0)/((10.0)*(10.0))
+   /// twip per square century defined such that: point per square decade = twip/century² × (1.0/20.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareCentury = new (
                                                                    "twip per square century"
@@ -3553,7 +3553,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// mile per square day, defined as: yard per square hour × (1760.0)/((24.0)*(24.0))
+   /// mile per square day defined such that: yard per square hour = mi/dy² × (1760.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareDay = new (
                                                                "mile per square day"
@@ -3564,7 +3564,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// league per square year, defined as: mile per square day × (3.0)/((365.2525)*(365.2525))
+   /// league per square year defined such that: mile per square day = le/yr² × (3.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareYear = new (
                                                                   "league per square year"
@@ -3575,7 +3575,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// pica per square billion years, defined as: point per square million years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square billion years defined such that: point per square million years = P/Gyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareBillionYears = new (
                                                                         "pica per square billion years"
@@ -3586,7 +3586,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// yard per square quintillion years, defined as: foot per square quadrillion years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square quintillion years defined such that: foot per square quadrillion years = yd/Eyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareQuintillionYears = new (
                                                                             "yard per square quintillion years"
@@ -3597,7 +3597,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// yard per square billion years, defined as: foot per square million years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square billion years defined such that: foot per square million years = yd/Gyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareBillionYears = new (
                                                                         "yard per square billion years"
@@ -3608,7 +3608,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// pica per square septillion years, defined as: point per square sextillion years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square septillion years defined such that: point per square sextillion years = P/Yyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareSeptillionYears = new (
                                                                            "pica per square septillion years"
@@ -3619,7 +3619,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// yard per square century, defined as: foot per square decade × (3.0)/((10.0)*(10.0))
+   /// yard per square century defined such that: foot per square decade = yd/century² × (3.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareCentury = new (
                                                                    "yard per square century"
@@ -3630,7 +3630,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// twip per square sextillion years, defined as: point per square quintillion years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square sextillion years defined such that: point per square quintillion years = twip/Zyr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareSextillionYears = new (
                                                                            "twip per square sextillion years"
@@ -3641,7 +3641,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// pica per square decade, defined as: point per square year × (12.0)/((10.0)*(10.0))
+   /// pica per square decade defined such that: point per square year = P/decade² × (12.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareDecade = new (
                                                                   "pica per square decade"
@@ -3652,7 +3652,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// yard per square week, defined as: foot per square day × (3.0)/((7.0)*(7.0))
+   /// yard per square week defined such that: foot per square day = yd/wk² × (3.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareWeek = new (
                                                                 "yard per square week"
@@ -3663,7 +3663,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// twip per square millennium, defined as: point per square century × (1.0/20.0)/((10.0)*(10.0))
+   /// twip per square millennium defined such that: point per square century = twip/kyr² × (1.0/20.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareMillennium = new (
                                                                       "twip per square millennium"
@@ -3674,7 +3674,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// league per square day, defined as: mile per square hour × (3.0)/((24.0)*(24.0))
+   /// league per square day defined such that: mile per square hour = le/dy² × (3.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareDay = new (
                                                                  "league per square day"
@@ -3685,7 +3685,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// mile per square sextillion years, defined as: yard per square quintillion years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square sextillion years defined such that: yard per square quintillion years = mi/Zyr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareSextillionYears = new (
                                                                            "mile per square sextillion years"
@@ -3696,7 +3696,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// fathom per square septillion years, defined as: yard per square sextillion years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square septillion years defined such that: yard per square sextillion years = ftm/Yyr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareSeptillionYears = new (
                                                                              "fathom per square septillion years"
@@ -3707,7 +3707,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// fathom per square trillion years, defined as: yard per square billion years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square trillion years defined such that: yard per square billion years = ftm/Tyr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareTrillionYears = new (
                                                                            "fathom per square trillion years"
@@ -3718,7 +3718,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// league per square nonillion years, defined as: mile per square octillion years × (3.0)/((1000.0)*(1000.0))
+   /// league per square nonillion years defined such that: mile per square octillion years = le/Qyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareNonillionYears = new (
                                                                             "league per square nonillion years"
@@ -3729,7 +3729,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// fathom per square century, defined as: yard per square decade × (2.0)/((10.0)*(10.0))
+   /// fathom per square century defined such that: yard per square decade = ftm/century² × (2.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareCentury = new (
                                                                      "fathom per square century"
@@ -3740,7 +3740,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// fathom per square year, defined as: yard per square day × (2.0)/((365.2525)*(365.2525))
+   /// fathom per square year defined such that: yard per square day = ftm/yr² × (2.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareYear = new (
                                                                   "fathom per square year"
@@ -3751,7 +3751,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// twip per square septillion years, defined as: point per square sextillion years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square septillion years defined such that: point per square sextillion years = twip/Yyr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareSeptillionYears = new (
                                                                            "twip per square septillion years"
@@ -3762,7 +3762,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// twip per square million years, defined as: point per square millennium × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square million years defined such that: point per square millennium = twip/Myr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareMillionYears = new (
                                                                         "twip per square million years"
@@ -3773,7 +3773,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// fathom per square day, defined as: yard per square hour × (2.0)/((24.0)*(24.0))
+   /// fathom per square day defined such that: yard per square hour = ftm/dy² × (2.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareDay = new (
                                                                  "fathom per square day"
@@ -3784,7 +3784,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// pica per square octillion years, defined as: point per square septillion years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square octillion years defined such that: point per square septillion years = P/Ryr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareOctillionYears = new (
                                                                           "pica per square octillion years"
@@ -3795,7 +3795,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// cable per square quadrillion years, defined as: fathom per square trillion years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square quadrillion years defined such that: fathom per square trillion years = cb/Pyr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareQuadrillionYears = new (
                                                                              "cable per square quadrillion years"
@@ -3806,7 +3806,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// league per square septillion years, defined as: mile per square sextillion years × (3.0)/((1000.0)*(1000.0))
+   /// league per square septillion years defined such that: mile per square sextillion years = le/Yyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareSeptillionYears = new (
                                                                              "league per square septillion years"
@@ -3817,7 +3817,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// pica per square century, defined as: point per square decade × (12.0)/((10.0)*(10.0))
+   /// pica per square century defined such that: point per square decade = P/century² × (12.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareCentury = new (
                                                                    "pica per square century"
@@ -3828,7 +3828,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// mile per square week, defined as: yard per square day × (1760.0)/((7.0)*(7.0))
+   /// mile per square week defined such that: yard per square day = mi/wk² × (1760.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareWeek = new (
                                                                 "mile per square week"
@@ -3839,7 +3839,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// yard per square trillion years, defined as: foot per square billion years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square trillion years defined such that: foot per square billion years = yd/Tyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareTrillionYears = new (
                                                                          "yard per square trillion years"
@@ -3850,7 +3850,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// yard per square millennium, defined as: foot per square century × (3.0)/((10.0)*(10.0))
+   /// yard per square millennium defined such that: foot per square century = yd/kyr² × (3.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareMillennium = new (
                                                                       "yard per square millennium"
@@ -3861,7 +3861,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// twip per square octillion years, defined as: point per square septillion years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square octillion years defined such that: point per square septillion years = twip/Ryr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareOctillionYears = new (
                                                                           "twip per square octillion years"
@@ -3872,7 +3872,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// yard per square year, defined as: foot per square day × (3.0)/((365.2525)*(365.2525))
+   /// yard per square year defined such that: foot per square day = yd/yr² × (3.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration YardPerSquareYear = new (
                                                                 "yard per square year"
@@ -3883,7 +3883,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// twip per square billion years, defined as: point per square million years × (1.0/20.0)/((1000.0)*(1000.0))
+   /// twip per square billion years defined such that: point per square million years = twip/Gyr² × (1.0/20.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration TwipPerSquareBillionYears = new (
                                                                         "twip per square billion years"
@@ -3894,7 +3894,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square day, defined as: fathom per square hour × (120.0)/((24.0)*(24.0))
+   /// cable per square day defined such that: fathom per square hour = cb/dy² × (120.0)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareDay = new (
                                                                 "cable per square day"
@@ -3905,7 +3905,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// mile per square century, defined as: yard per square decade × (1760.0)/((10.0)*(10.0))
+   /// mile per square century defined such that: yard per square decade = mi/century² × (1760.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareCentury = new (
                                                                    "mile per square century"
@@ -3916,7 +3916,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// cable per square octillion years, defined as: fathom per square septillion years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square octillion years defined such that: fathom per square septillion years = cb/Ryr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareOctillionYears = new (
                                                                            "cable per square octillion years"
@@ -3927,7 +3927,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// pica per square nonillion years, defined as: point per square octillion years × (12.0)/((1000.0)*(1000.0))
+   /// pica per square nonillion years defined such that: point per square octillion years = P/Qyr² × (12.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareNonillionYears = new (
                                                                           "pica per square nonillion years"
@@ -3938,7 +3938,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// cable per square year, defined as: fathom per square day × (120.0)/((365.2525)*(365.2525))
+   /// cable per square year defined such that: fathom per square day = cb/yr² × (120.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration CablePerSquareYear = new (
                                                                  "cable per square year"
@@ -3949,7 +3949,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// pica per square millennium, defined as: point per square century × (12.0)/((10.0)*(10.0))
+   /// pica per square millennium defined such that: point per square century = P/kyr² × (12.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration PicaPerSquareMillennium = new (
                                                                       "pica per square millennium"
@@ -3960,7 +3960,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// league per square week, defined as: mile per square day × (3.0)/((7.0)*(7.0))
+   /// league per square week defined such that: mile per square day = le/wk² × (3.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareWeek = new (
                                                                   "league per square week"
@@ -3971,7 +3971,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// mile per square billion years, defined as: yard per square million years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square billion years defined such that: yard per square million years = mi/Gyr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareBillionYears = new (
                                                                         "mile per square billion years"
@@ -3982,7 +3982,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// fathom per square octillion years, defined as: yard per square septillion years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square octillion years defined such that: yard per square septillion years = ftm/Ryr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareOctillionYears = new (
                                                                             "fathom per square octillion years"
@@ -3993,7 +3993,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// fathom per square sextillion years, defined as: yard per square quintillion years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square sextillion years defined such that: yard per square quintillion years = ftm/Zyr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareSextillionYears = new (
                                                                              "fathom per square sextillion years"
@@ -4004,7 +4004,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// fathom per square quadrillion years, defined as: yard per square trillion years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square quadrillion years defined such that: yard per square trillion years = ftm/Pyr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareQuadrillionYears = new (
                                                                               "fathom per square quadrillion years"
@@ -4015,7 +4015,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// fathom per square billion years, defined as: yard per square million years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square billion years defined such that: yard per square million years = ftm/Gyr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareBillionYears = new (
                                                                           "fathom per square billion years"
@@ -4026,7 +4026,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// mile per square year, defined as: yard per square day × (1760.0)/((365.2525)*(365.2525))
+   /// mile per square year defined such that: yard per square day = mi/yr² × (1760.0)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration MilePerSquareYear = new (
                                                                 "mile per square year"
@@ -4037,7 +4037,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// fathom per square millennium, defined as: yard per square century × (2.0)/((10.0)*(10.0))
+   /// fathom per square millennium defined such that: yard per square century = ftm/kyr² × (2.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareMillennium = new (
                                                                         "fathom per square millennium"
@@ -4048,7 +4048,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// yard per square quadrillion years, defined as: foot per square trillion years × (3.0)/((1000.0)*(1000.0))
+   /// yard per square quadrillion years defined such that: foot per square trillion years = yd/Pyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration YardPerSquareQuadrillionYears = new (
                                                                             "yard per square quadrillion years"
@@ -4059,7 +4059,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// fathom per square decade, defined as: yard per square year × (2.0)/((10.0)*(10.0))
+   /// fathom per square decade defined such that: yard per square year = ftm/decade² × (2.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareDecade = new (
                                                                     "fathom per square decade"
@@ -4070,7 +4070,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// mile per square quintillion years, defined as: yard per square quadrillion years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square quintillion years defined such that: yard per square quadrillion years = mi/Eyr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareQuintillionYears = new (
                                                                             "mile per square quintillion years"
@@ -4081,7 +4081,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// fathom per square week, defined as: yard per square day × (2.0)/((7.0)*(7.0))
+   /// fathom per square week defined such that: yard per square day = ftm/wk² × (2.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareWeek = new (
                                                                   "fathom per square week"
@@ -4092,7 +4092,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// cable per square trillion years, defined as: fathom per square billion years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square trillion years defined such that: fathom per square billion years = cb/Tyr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareTrillionYears = new (
                                                                           "cable per square trillion years"
@@ -4103,7 +4103,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// mile per square millennium, defined as: yard per square century × (1760.0)/((10.0)*(10.0))
+   /// mile per square millennium defined such that: yard per square century = mi/kyr² × (1760.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareMillennium = new (
                                                                       "mile per square millennium"
@@ -4114,7 +4114,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// cable per square quintillion years, defined as: fathom per square quadrillion years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square quintillion years defined such that: fathom per square quadrillion years = cb/Eyr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareQuintillionYears = new (
                                                                              "cable per square quintillion years"
@@ -4125,7 +4125,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// league per square sextillion years, defined as: mile per square quintillion years × (3.0)/((1000.0)*(1000.0))
+   /// league per square sextillion years defined such that: mile per square quintillion years = le/Zyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareSextillionYears = new (
                                                                              "league per square sextillion years"
@@ -4136,7 +4136,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// cable per square septillion years, defined as: fathom per square sextillion years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square septillion years defined such that: fathom per square sextillion years = cb/Yyr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareSeptillionYears = new (
                                                                             "cable per square septillion years"
@@ -4147,7 +4147,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// cable per square week, defined as: fathom per square day × (120.0)/((7.0)*(7.0))
+   /// cable per square week defined such that: fathom per square day = cb/wk² × (120.0)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareWeek = new (
                                                                  "cable per square week"
@@ -4158,7 +4158,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// mile per square trillion years, defined as: yard per square billion years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square trillion years defined such that: yard per square billion years = mi/Tyr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareTrillionYears = new (
                                                                          "mile per square trillion years"
@@ -4169,7 +4169,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square quadrillion years, defined as: mile per square trillion years × (3.0)/((1000.0)*(1000.0))
+   /// league per square quadrillion years defined such that: mile per square trillion years = le/Pyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareQuadrillionYears = new (
                                                                               "league per square quadrillion years"
@@ -4180,7 +4180,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// cable per square nonillion years, defined as: fathom per square octillion years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square nonillion years defined such that: fathom per square octillion years = cb/Qyr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareNonillionYears = new (
                                                                            "cable per square nonillion years"
@@ -4191,7 +4191,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// cable per square decade, defined as: fathom per square year × (120.0)/((10.0)*(10.0))
+   /// cable per square decade defined such that: fathom per square year = cb/decade² × (120.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareDecade = new (
                                                                    "cable per square decade"
@@ -4202,7 +4202,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// mile per square decade, defined as: yard per square year × (1760.0)/((10.0)*(10.0))
+   /// mile per square decade defined such that: yard per square year = mi/decade² × (1760.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareDecade = new (
                                                                   "mile per square decade"
@@ -4213,7 +4213,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// cable per square millennium, defined as: fathom per square century × (120.0)/((10.0)*(10.0))
+   /// cable per square millennium defined such that: fathom per square century = cb/kyr² × (120.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareMillennium = new (
                                                                        "cable per square millennium"
@@ -4224,7 +4224,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// fathom per square quintillion years, defined as: yard per square quadrillion years × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square quintillion years defined such that: yard per square quadrillion years = ftm/Eyr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareQuintillionYears = new (
                                                                               "fathom per square quintillion years"
@@ -4235,7 +4235,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// fathom per square million years, defined as: yard per square millennium × (2.0)/((1000.0)*(1000.0))
+   /// fathom per square million years defined such that: yard per square millennium = ftm/Myr² × (2.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FathomPerSquareMillionYears = new (
                                                                           "fathom per square million years"
@@ -4246,7 +4246,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// mile per square million years, defined as: yard per square millennium × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square million years defined such that: yard per square millennium = mi/Myr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareMillionYears = new (
                                                                         "mile per square million years"
@@ -4257,7 +4257,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// cable per square billion years, defined as: fathom per square million years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square billion years defined such that: fathom per square million years = cb/Gyr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareBillionYears = new (
                                                                          "cable per square billion years"
@@ -4268,7 +4268,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square millennium, defined as: mile per square century × (3.0)/((10.0)*(10.0))
+   /// league per square millennium defined such that: mile per square century = le/kyr² × (3.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMillennium = new (
                                                                         "league per square millennium"
@@ -4279,7 +4279,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// mile per square quadrillion years, defined as: yard per square trillion years × (1760.0)/((1000.0)*(1000.0))
+   /// mile per square quadrillion years defined such that: yard per square trillion years = mi/Pyr² × (1760.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration MilePerSquareQuadrillionYears = new (
                                                                             "mile per square quadrillion years"
@@ -4290,7 +4290,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// cable per square sextillion years, defined as: fathom per square quintillion years × (120.0)/((1000.0)*(1000.0))
+   /// cable per square sextillion years defined such that: fathom per square quintillion years = cb/Zyr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareSextillionYears = new (
                                                                             "cable per square sextillion years"
@@ -4301,7 +4301,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// league per square decade, defined as: mile per square year × (3.0)/((10.0)*(10.0))
+   /// league per square decade defined such that: mile per square year = le/decade² × (3.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareDecade = new (
                                                                     "league per square decade"
@@ -4312,7 +4312,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// league per square quintillion years, defined as: mile per square quadrillion years × (3.0)/((1000.0)*(1000.0))
+   /// league per square quintillion years defined such that: mile per square quadrillion years = le/Eyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareQuintillionYears = new (
                                                                               "league per square quintillion years"
@@ -4323,7 +4323,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// league per square trillion years, defined as: mile per square billion years × (3.0)/((1000.0)*(1000.0))
+   /// league per square trillion years defined such that: mile per square billion years = le/Tyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareTrillionYears = new (
                                                                            "league per square trillion years"
@@ -4334,7 +4334,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// cable per square century, defined as: fathom per square decade × (120.0)/((10.0)*(10.0))
+   /// cable per square century defined such that: fathom per square decade = cb/century² × (120.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareCentury = new (
                                                                     "cable per square century"
@@ -4345,7 +4345,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// cable per square million years, defined as: fathom per square millennium × (120.0)/((1000.0)*(1000.0))
+   /// cable per square million years defined such that: fathom per square millennium = cb/Myr² × (120.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration CablePerSquareMillionYears = new (
                                                                          "cable per square million years"
@@ -4356,7 +4356,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square million years, defined as: mile per square millennium × (3.0)/((1000.0)*(1000.0))
+   /// league per square million years defined such that: mile per square millennium = le/Myr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMillionYears = new (
                                                                           "league per square million years"
@@ -4367,7 +4367,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// league per square century, defined as: mile per square decade × (3.0)/((10.0)*(10.0))
+   /// league per square century defined such that: mile per square decade = le/century² × (3.0)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareCentury = new (
                                                                      "league per square century"
@@ -4378,7 +4378,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// league per square billion years, defined as: mile per square million years × (3.0)/((1000.0)*(1000.0))
+   /// league per square billion years defined such that: mile per square million years = le/Gyr² × (3.0)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareBillionYears = new (
                                                                           "league per square billion years"

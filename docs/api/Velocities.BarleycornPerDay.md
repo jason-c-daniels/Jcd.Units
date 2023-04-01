@@ -3,7 +3,7 @@
 
 ## Velocities.BarleycornPerDay Field
 
-barleycorn per day, defined as: foot per hour × (1.0/36.0)/(24.0)
+barleycorn per day defined such that: foot per hour = barleycorn/dy × (1.0/36.0)/(24.0).
 
 ```csharp
 public static readonly Velocity BarleycornPerDay;

@@ -3,7 +3,7 @@
 
 ## Densities.ZeptotonnePerCubicZettameter Field
 
-zeptotonne per cubic zettameter, defined as: attotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+zeptotonne per cubic zettameter defined such that: attotonne per cubic exameter = zt/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density ZeptotonnePerCubicZettameter;

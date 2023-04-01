@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareOctillionYears Field
 
-mile per square octillion years, defined as: furlong per square septillion years × (8.0)/((1000.0)*(1000.0))
+mile per square octillion years defined such that: furlong per square septillion years = mi/Ryr² × (8.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration MilePerSquareOctillionYears;

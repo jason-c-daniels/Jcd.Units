@@ -3,7 +3,7 @@
 
 ## Accelerations.LeaguePerSquareHour Field
 
-league per square hour, defined as: mile per square minute × (3.0)/((60.0)*(60.0))
+league per square hour defined such that: mile per square minute = lea/hr² × (3.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration LeaguePerSquareHour;

@@ -3,7 +3,7 @@
 
 ## RadiationAbsorbedDoses.Exagray Field
 
-exagray, defined as: petagray × 1000.0
+exagray defined such that: petagray = EGy × 1000.0.
 
 ```csharp
 public static readonly RadiationAbsorbedDose Exagray;

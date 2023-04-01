@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USSurvey;
 public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
-   /// square link, defined as: SI square meter × (0.20116)*(0.20116)
+   /// square link defined such that: SI square meter = li² × (0.20116)*(0.20116).
    /// </summary>
    public static readonly Area SquareLink = new (
                                                  "square link"
@@ -29,7 +29,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                 );
 
    /// <summary>
-   /// square rod, defined as: SI square meter × (5.0292)*(5.0292)
+   /// square rod defined such that: SI square meter = rd² × (5.0292)*(5.0292).
    /// </summary>
    public static readonly Area SquareRod = new (
                                                 "square rod"
@@ -40,7 +40,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                );
 
    /// <summary>
-   /// square chain, defined as: SI square meter × (20.1168)*(20.1168)
+   /// square chain defined such that: SI square meter = ch² × (20.1168)*(20.1168).
    /// </summary>
    public static readonly Area SquareChain = new (
                                                   "square chain"
@@ -51,7 +51,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                  );
 
    /// <summary>
-   /// square furlong, defined as: SI square meter × (201.168)*(201.168)
+   /// square furlong defined such that: SI square meter = fur² × (201.168)*(201.168).
    /// </summary>
    public static readonly Area SquareFurlong = new (
                                                     "square furlong"
@@ -62,7 +62,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                    );
 
    /// <summary>
-   /// square league, defined as: SI square meter × (4828.032)*(4828.032)
+   /// square league defined such that: SI square meter = lea² × (4828.032)*(4828.032).
    /// </summary>
    public static readonly Area SquareLeague = new (
                                                    "square league"

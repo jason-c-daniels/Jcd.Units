@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerFemtosecond Field
 
-chain per femtosecond, defined as: yard per picosecond × (22.0)/(1.0/1000.0)
+chain per femtosecond defined such that: yard per picosecond = ch/fs × (22.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ChainPerFemtosecond;

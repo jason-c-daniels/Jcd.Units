@@ -3,7 +3,7 @@
 
 ## Lengths.Hand Field
 
-hand, defined as: inch × 4.0
+hand defined such that: inch = hh × 4.0.
 
 ```csharp
 public static readonly Length Hand;

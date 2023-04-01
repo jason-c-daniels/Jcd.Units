@@ -3,7 +3,7 @@
 
 ## Velocities.FemtometerPerQuadrillionYears Field
 
-femtometer per quadrillion years, defined as: picometer per trillion years × (1.0/1000.0)/(1000.0)
+femtometer per quadrillion years defined such that: picometer per trillion years = fm/Pyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity FemtometerPerQuadrillionYears;

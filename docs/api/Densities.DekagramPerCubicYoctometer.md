@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicYoctometer Field
 
-dekagram per cubic yoctometer, defined as: hectogram per cubic zeptometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+dekagram per cubic yoctometer defined such that: hectogram per cubic zeptometer = dag/ym³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density DekagramPerCubicYoctometer;

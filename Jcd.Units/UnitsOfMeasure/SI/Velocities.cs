@@ -23,7 +23,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
    public static readonly Velocity MeterPerSecond = new ("meter per second", "m/s", system: "SI");
 
    /// <summary>
-   /// meter per decisecond, defined as: meter per second × (1.0)/(1.0/10.0)
+   /// meter per decisecond defined such that: meter per second = m/ds × (1.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MeterPerDecisecond = new (
                                                              "meter per decisecond"
@@ -34,7 +34,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// decimeter per second, defined as: meter per second × (1.0/10.0)/(1.0)
+   /// decimeter per second defined such that: meter per second = dm/s × (1.0/10.0)/(1.0).
    /// </summary>
    public static readonly Velocity DecimeterPerSecond = new (
                                                              "decimeter per second"
@@ -45,7 +45,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per centisecond, defined as: meter per decisecond × (1.0)/(1.0/10.0)
+   /// meter per centisecond defined such that: meter per decisecond = m/cs × (1.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MeterPerCentisecond = new (
                                                               "meter per centisecond"
@@ -56,7 +56,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per decisecond, defined as: meter per second × (1.0/10.0)/(1.0/10.0)
+   /// decimeter per decisecond defined such that: meter per second = dm/ds × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity DecimeterPerDecisecond = new (
                                                                  "decimeter per decisecond"
@@ -67,7 +67,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// centimeter per second, defined as: decimeter per second × (1.0/10.0)/(1.0)
+   /// centimeter per second defined such that: decimeter per second = cm/s × (1.0/10.0)/(1.0).
    /// </summary>
    public static readonly Velocity CentimeterPerSecond = new (
                                                               "centimeter per second"
@@ -78,7 +78,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per millisecond, defined as: meter per centisecond × (1.0)/(1.0/10.0)
+   /// meter per millisecond defined such that: meter per centisecond = m/ms × (1.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MeterPerMillisecond = new (
                                                               "meter per millisecond"
@@ -89,7 +89,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per centisecond, defined as: meter per decisecond × (1.0/10.0)/(1.0/10.0)
+   /// decimeter per centisecond defined such that: meter per decisecond = dm/cs × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity DecimeterPerCentisecond = new (
                                                                   "decimeter per centisecond"
@@ -100,7 +100,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// centimeter per decisecond, defined as: decimeter per second × (1.0/10.0)/(1.0/10.0)
+   /// centimeter per decisecond defined such that: decimeter per second = cm/ds × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity CentimeterPerDecisecond = new (
                                                                   "centimeter per decisecond"
@@ -111,7 +111,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// millimeter per second, defined as: centimeter per second × (1.0/10.0)/(1.0)
+   /// millimeter per second defined such that: centimeter per second = mm/s × (1.0/10.0)/(1.0).
    /// </summary>
    public static readonly Velocity MillimeterPerSecond = new (
                                                               "millimeter per second"
@@ -122,7 +122,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per microsecond, defined as: meter per millisecond × (1.0)/(1.0/1000.0)
+   /// meter per microsecond defined such that: meter per millisecond = m/μs × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerMicrosecond = new (
                                                               "meter per microsecond"
@@ -133,7 +133,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per millisecond, defined as: meter per centisecond × (1.0/10.0)/(1.0/10.0)
+   /// decimeter per millisecond defined such that: meter per centisecond = dm/ms × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity DecimeterPerMillisecond = new (
                                                                   "decimeter per millisecond"
@@ -144,7 +144,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// centimeter per centisecond, defined as: decimeter per decisecond × (1.0/10.0)/(1.0/10.0)
+   /// centimeter per centisecond defined such that: decimeter per decisecond = cm/cs × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity CentimeterPerCentisecond = new (
                                                                    "centimeter per centisecond"
@@ -155,7 +155,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// millimeter per decisecond, defined as: centimeter per second × (1.0/10.0)/(1.0/10.0)
+   /// millimeter per decisecond defined such that: centimeter per second = mm/ds × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MillimeterPerDecisecond = new (
                                                                   "millimeter per decisecond"
@@ -166,7 +166,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// micrometer per second, defined as: millimeter per second × (1.0/1000.0)/(1.0)
+   /// micrometer per second defined such that: millimeter per second = μm/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity MicrometerPerSecond = new (
                                                               "micrometer per second"
@@ -177,7 +177,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per nanosecond, defined as: meter per microsecond × (1.0)/(1.0/1000.0)
+   /// meter per nanosecond defined such that: meter per microsecond = m/ns × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerNanosecond = new (
                                                              "meter per nanosecond"
@@ -188,7 +188,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// decimeter per microsecond, defined as: meter per millisecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per microsecond defined such that: meter per millisecond = dm/μs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerMicrosecond = new (
                                                                   "decimeter per microsecond"
@@ -199,7 +199,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// centimeter per millisecond, defined as: decimeter per centisecond × (1.0/10.0)/(1.0/10.0)
+   /// centimeter per millisecond defined such that: decimeter per centisecond = cm/ms × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity CentimeterPerMillisecond = new (
                                                                    "centimeter per millisecond"
@@ -210,7 +210,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// millimeter per centisecond, defined as: centimeter per decisecond × (1.0/10.0)/(1.0/10.0)
+   /// millimeter per centisecond defined such that: centimeter per decisecond = mm/cs × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MillimeterPerCentisecond = new (
                                                                    "millimeter per centisecond"
@@ -221,7 +221,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// micrometer per decisecond, defined as: millimeter per second × (1.0/1000.0)/(1.0/10.0)
+   /// micrometer per decisecond defined such that: millimeter per second = μm/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MicrometerPerDecisecond = new (
                                                                   "micrometer per decisecond"
@@ -232,7 +232,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nanometer per second, defined as: micrometer per second × (1.0/1000.0)/(1.0)
+   /// nanometer per second defined such that: micrometer per second = nm/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity NanometerPerSecond = new (
                                                              "nanometer per second"
@@ -243,7 +243,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per picosecond, defined as: meter per nanosecond × (1.0)/(1.0/1000.0)
+   /// meter per picosecond defined such that: meter per nanosecond = m/ps × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerPicosecond = new (
                                                              "meter per picosecond"
@@ -254,7 +254,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// decimeter per nanosecond, defined as: meter per microsecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per nanosecond defined such that: meter per microsecond = dm/ns × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerNanosecond = new (
                                                                  "decimeter per nanosecond"
@@ -265,7 +265,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// centimeter per microsecond, defined as: decimeter per millisecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per microsecond defined such that: decimeter per millisecond = cm/μs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerMicrosecond = new (
                                                                    "centimeter per microsecond"
@@ -276,7 +276,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// millimeter per millisecond, defined as: centimeter per centisecond × (1.0/10.0)/(1.0/10.0)
+   /// millimeter per millisecond defined such that: centimeter per centisecond = mm/ms × (1.0/10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MillimeterPerMillisecond = new (
                                                                    "millimeter per millisecond"
@@ -287,7 +287,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// micrometer per centisecond, defined as: millimeter per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// micrometer per centisecond defined such that: millimeter per decisecond = μm/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MicrometerPerCentisecond = new (
                                                                    "micrometer per centisecond"
@@ -298,7 +298,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nanometer per decisecond, defined as: micrometer per second × (1.0/1000.0)/(1.0/10.0)
+   /// nanometer per decisecond defined such that: micrometer per second = nm/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity NanometerPerDecisecond = new (
                                                                  "nanometer per decisecond"
@@ -309,7 +309,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// picometer per second, defined as: nanometer per second × (1.0/1000.0)/(1.0)
+   /// picometer per second defined such that: nanometer per second = pm/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity PicometerPerSecond = new (
                                                              "picometer per second"
@@ -320,7 +320,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per femtosecond, defined as: meter per picosecond × (1.0)/(1.0/1000.0)
+   /// meter per femtosecond defined such that: meter per picosecond = m/fs × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerFemtosecond = new (
                                                               "meter per femtosecond"
@@ -331,7 +331,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per picosecond, defined as: meter per nanosecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per picosecond defined such that: meter per nanosecond = dm/ps × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerPicosecond = new (
                                                                  "decimeter per picosecond"
@@ -342,7 +342,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// centimeter per nanosecond, defined as: decimeter per microsecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per nanosecond defined such that: decimeter per microsecond = cm/ns × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerNanosecond = new (
                                                                   "centimeter per nanosecond"
@@ -353,7 +353,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// millimeter per microsecond, defined as: centimeter per millisecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per microsecond defined such that: centimeter per millisecond = mm/μs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerMicrosecond = new (
                                                                    "millimeter per microsecond"
@@ -364,7 +364,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// micrometer per millisecond, defined as: millimeter per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// micrometer per millisecond defined such that: millimeter per centisecond = μm/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MicrometerPerMillisecond = new (
                                                                    "micrometer per millisecond"
@@ -375,7 +375,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nanometer per centisecond, defined as: micrometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// nanometer per centisecond defined such that: micrometer per decisecond = nm/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity NanometerPerCentisecond = new (
                                                                   "nanometer per centisecond"
@@ -386,7 +386,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// picometer per decisecond, defined as: nanometer per second × (1.0/1000.0)/(1.0/10.0)
+   /// picometer per decisecond defined such that: nanometer per second = pm/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PicometerPerDecisecond = new (
                                                                  "picometer per decisecond"
@@ -397,7 +397,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// femtometer per second, defined as: picometer per second × (1.0/1000.0)/(1.0)
+   /// femtometer per second defined such that: picometer per second = fm/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity FemtometerPerSecond = new (
                                                               "femtometer per second"
@@ -408,7 +408,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per attosecond, defined as: meter per femtosecond × (1.0)/(1.0/1000.0)
+   /// meter per attosecond defined such that: meter per femtosecond = m/as × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerAttosecond = new (
                                                              "meter per attosecond"
@@ -419,7 +419,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// decimeter per femtosecond, defined as: meter per picosecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per femtosecond defined such that: meter per picosecond = dm/fs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerFemtosecond = new (
                                                                   "decimeter per femtosecond"
@@ -430,7 +430,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// centimeter per picosecond, defined as: decimeter per nanosecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per picosecond defined such that: decimeter per nanosecond = cm/ps × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerPicosecond = new (
                                                                   "centimeter per picosecond"
@@ -441,7 +441,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// millimeter per nanosecond, defined as: centimeter per microsecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per nanosecond defined such that: centimeter per microsecond = mm/ns × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerNanosecond = new (
                                                                   "millimeter per nanosecond"
@@ -452,7 +452,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// micrometer per microsecond, defined as: millimeter per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per microsecond defined such that: millimeter per millisecond = μm/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerMicrosecond = new (
                                                                    "micrometer per microsecond"
@@ -463,7 +463,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nanometer per millisecond, defined as: micrometer per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// nanometer per millisecond defined such that: micrometer per centisecond = nm/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity NanometerPerMillisecond = new (
                                                                   "nanometer per millisecond"
@@ -474,7 +474,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// picometer per centisecond, defined as: nanometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// picometer per centisecond defined such that: nanometer per decisecond = pm/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PicometerPerCentisecond = new (
                                                                   "picometer per centisecond"
@@ -485,7 +485,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per decisecond, defined as: picometer per second × (1.0/1000.0)/(1.0/10.0)
+   /// femtometer per decisecond defined such that: picometer per second = fm/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FemtometerPerDecisecond = new (
                                                                   "femtometer per decisecond"
@@ -496,7 +496,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// attometer per second, defined as: femtometer per second × (1.0/1000.0)/(1.0)
+   /// attometer per second defined such that: femtometer per second = am/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity AttometerPerSecond = new (
                                                              "attometer per second"
@@ -507,7 +507,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per zeptosecond, defined as: meter per attosecond × (1.0)/(1.0/1000.0)
+   /// meter per zeptosecond defined such that: meter per attosecond = m/zs × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerZeptosecond = new (
                                                               "meter per zeptosecond"
@@ -518,7 +518,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per attosecond, defined as: meter per femtosecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per attosecond defined such that: meter per femtosecond = dm/as × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerAttosecond = new (
                                                                  "decimeter per attosecond"
@@ -529,7 +529,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// centimeter per femtosecond, defined as: decimeter per picosecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per femtosecond defined such that: decimeter per picosecond = cm/fs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerFemtosecond = new (
                                                                    "centimeter per femtosecond"
@@ -540,7 +540,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// millimeter per picosecond, defined as: centimeter per nanosecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per picosecond defined such that: centimeter per nanosecond = mm/ps × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerPicosecond = new (
                                                                   "millimeter per picosecond"
@@ -551,7 +551,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// micrometer per nanosecond, defined as: millimeter per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per nanosecond defined such that: millimeter per microsecond = μm/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerNanosecond = new (
                                                                   "micrometer per nanosecond"
@@ -562,7 +562,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nanometer per microsecond, defined as: micrometer per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per microsecond defined such that: micrometer per millisecond = nm/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerMicrosecond = new (
                                                                   "nanometer per microsecond"
@@ -573,7 +573,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// picometer per millisecond, defined as: nanometer per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// picometer per millisecond defined such that: nanometer per centisecond = pm/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PicometerPerMillisecond = new (
                                                                   "picometer per millisecond"
@@ -584,7 +584,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per centisecond, defined as: picometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// femtometer per centisecond defined such that: picometer per decisecond = fm/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FemtometerPerCentisecond = new (
                                                                    "femtometer per centisecond"
@@ -595,7 +595,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per decisecond, defined as: femtometer per second × (1.0/1000.0)/(1.0/10.0)
+   /// attometer per decisecond defined such that: femtometer per second = am/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity AttometerPerDecisecond = new (
                                                                  "attometer per decisecond"
@@ -606,7 +606,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// zeptometer per second, defined as: attometer per second × (1.0/1000.0)/(1.0)
+   /// zeptometer per second defined such that: attometer per second = zm/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerSecond = new (
                                                               "zeptometer per second"
@@ -617,7 +617,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per yoctosecond, defined as: meter per zeptosecond × (1.0)/(1.0/1000.0)
+   /// meter per yoctosecond defined such that: meter per zeptosecond = m/ys × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerYoctosecond = new (
                                                               "meter per yoctosecond"
@@ -628,7 +628,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per zeptosecond, defined as: meter per attosecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per zeptosecond defined such that: meter per attosecond = dm/zs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerZeptosecond = new (
                                                                   "decimeter per zeptosecond"
@@ -639,7 +639,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// centimeter per attosecond, defined as: decimeter per femtosecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per attosecond defined such that: decimeter per femtosecond = cm/as × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerAttosecond = new (
                                                                   "centimeter per attosecond"
@@ -650,7 +650,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// millimeter per femtosecond, defined as: centimeter per picosecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per femtosecond defined such that: centimeter per picosecond = mm/fs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerFemtosecond = new (
                                                                    "millimeter per femtosecond"
@@ -661,7 +661,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// micrometer per picosecond, defined as: millimeter per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per picosecond defined such that: millimeter per nanosecond = μm/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerPicosecond = new (
                                                                   "micrometer per picosecond"
@@ -672,7 +672,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nanometer per nanosecond, defined as: micrometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per nanosecond defined such that: micrometer per microsecond = nm/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerNanosecond = new (
                                                                  "nanometer per nanosecond"
@@ -683,7 +683,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// picometer per microsecond, defined as: nanometer per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per microsecond defined such that: nanometer per millisecond = pm/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerMicrosecond = new (
                                                                   "picometer per microsecond"
@@ -694,7 +694,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per millisecond, defined as: picometer per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// femtometer per millisecond defined such that: picometer per centisecond = fm/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity FemtometerPerMillisecond = new (
                                                                    "femtometer per millisecond"
@@ -705,7 +705,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per centisecond, defined as: femtometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// attometer per centisecond defined such that: femtometer per decisecond = am/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity AttometerPerCentisecond = new (
                                                                   "attometer per centisecond"
@@ -716,7 +716,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zeptometer per decisecond, defined as: attometer per second × (1.0/1000.0)/(1.0/10.0)
+   /// zeptometer per decisecond defined such that: attometer per second = zm/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerDecisecond = new (
                                                                   "zeptometer per decisecond"
@@ -727,7 +727,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yoctometer per second, defined as: zeptometer per second × (1.0/1000.0)/(1.0)
+   /// yoctometer per second defined such that: zeptometer per second = ym/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity YoctometerPerSecond = new (
                                                               "yoctometer per second"
@@ -738,7 +738,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per rontosecond, defined as: meter per yoctosecond × (1.0)/(1.0/1000.0)
+   /// meter per rontosecond defined such that: meter per yoctosecond = m/rs × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerRontosecond = new (
                                                               "meter per rontosecond"
@@ -749,7 +749,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per yoctosecond, defined as: meter per zeptosecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per yoctosecond defined such that: meter per zeptosecond = dm/ys × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerYoctosecond = new (
                                                                   "decimeter per yoctosecond"
@@ -760,7 +760,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// centimeter per zeptosecond, defined as: decimeter per attosecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per zeptosecond defined such that: decimeter per attosecond = cm/zs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerZeptosecond = new (
                                                                    "centimeter per zeptosecond"
@@ -771,7 +771,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// millimeter per attosecond, defined as: centimeter per femtosecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per attosecond defined such that: centimeter per femtosecond = mm/as × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerAttosecond = new (
                                                                   "millimeter per attosecond"
@@ -782,7 +782,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// micrometer per femtosecond, defined as: millimeter per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per femtosecond defined such that: millimeter per picosecond = μm/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerFemtosecond = new (
                                                                    "micrometer per femtosecond"
@@ -793,7 +793,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nanometer per picosecond, defined as: micrometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per picosecond defined such that: micrometer per nanosecond = nm/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerPicosecond = new (
                                                                  "nanometer per picosecond"
@@ -804,7 +804,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// picometer per nanosecond, defined as: nanometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per nanosecond defined such that: nanometer per microsecond = pm/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerNanosecond = new (
                                                                  "picometer per nanosecond"
@@ -815,7 +815,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// femtometer per microsecond, defined as: picometer per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per microsecond defined such that: picometer per millisecond = fm/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerMicrosecond = new (
                                                                    "femtometer per microsecond"
@@ -826,7 +826,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per millisecond, defined as: femtometer per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// attometer per millisecond defined such that: femtometer per centisecond = am/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity AttometerPerMillisecond = new (
                                                                   "attometer per millisecond"
@@ -837,7 +837,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zeptometer per centisecond, defined as: attometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// zeptometer per centisecond defined such that: attometer per decisecond = zm/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerCentisecond = new (
                                                                    "zeptometer per centisecond"
@@ -848,7 +848,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per decisecond, defined as: zeptometer per second × (1.0/1000.0)/(1.0/10.0)
+   /// yoctometer per decisecond defined such that: zeptometer per second = ym/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YoctometerPerDecisecond = new (
                                                                   "yoctometer per decisecond"
@@ -859,7 +859,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rontometer per second, defined as: yoctometer per second × (1.0/1000.0)/(1.0)
+   /// rontometer per second defined such that: yoctometer per second = rm/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity RontometerPerSecond = new (
                                                               "rontometer per second"
@@ -870,7 +870,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per quectosecond, defined as: meter per rontosecond × (1.0)/(1.0/1000.0)
+   /// meter per quectosecond defined such that: meter per rontosecond = m/qs × (1.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MeterPerQuectosecond = new (
                                                                "meter per quectosecond"
@@ -881,7 +881,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// decimeter per rontosecond, defined as: meter per yoctosecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per rontosecond defined such that: meter per yoctosecond = dm/rs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerRontosecond = new (
                                                                   "decimeter per rontosecond"
@@ -892,7 +892,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// centimeter per yoctosecond, defined as: decimeter per zeptosecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per yoctosecond defined such that: decimeter per zeptosecond = cm/ys × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerYoctosecond = new (
                                                                    "centimeter per yoctosecond"
@@ -903,7 +903,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// millimeter per zeptosecond, defined as: centimeter per attosecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per zeptosecond defined such that: centimeter per attosecond = mm/zs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerZeptosecond = new (
                                                                    "millimeter per zeptosecond"
@@ -914,7 +914,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// micrometer per attosecond, defined as: millimeter per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per attosecond defined such that: millimeter per femtosecond = μm/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerAttosecond = new (
                                                                   "micrometer per attosecond"
@@ -925,7 +925,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nanometer per femtosecond, defined as: micrometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per femtosecond defined such that: micrometer per picosecond = nm/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerFemtosecond = new (
                                                                   "nanometer per femtosecond"
@@ -936,7 +936,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// picometer per picosecond, defined as: nanometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per picosecond defined such that: nanometer per nanosecond = pm/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerPicosecond = new (
                                                                  "picometer per picosecond"
@@ -947,7 +947,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// femtometer per nanosecond, defined as: picometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per nanosecond defined such that: picometer per microsecond = fm/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerNanosecond = new (
                                                                   "femtometer per nanosecond"
@@ -958,7 +958,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// attometer per microsecond, defined as: femtometer per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per microsecond defined such that: femtometer per millisecond = am/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerMicrosecond = new (
                                                                   "attometer per microsecond"
@@ -969,7 +969,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zeptometer per millisecond, defined as: attometer per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// zeptometer per millisecond defined such that: attometer per centisecond = zm/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerMillisecond = new (
                                                                    "zeptometer per millisecond"
@@ -980,7 +980,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per centisecond, defined as: zeptometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// yoctometer per centisecond defined such that: zeptometer per decisecond = ym/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YoctometerPerCentisecond = new (
                                                                    "yoctometer per centisecond"
@@ -991,7 +991,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per decisecond, defined as: yoctometer per second × (1.0/1000.0)/(1.0/10.0)
+   /// rontometer per decisecond defined such that: yoctometer per second = rm/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RontometerPerDecisecond = new (
                                                                   "rontometer per decisecond"
@@ -1002,7 +1002,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quectometer per second, defined as: rontometer per second × (1.0/1000.0)/(1.0)
+   /// quectometer per second defined such that: rontometer per second = qm/s × (1.0/1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity QuectometerPerSecond = new (
                                                                "quectometer per second"
@@ -1013,7 +1013,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// dekameter per second, defined as: meter per second × (10.0)/(1.0)
+   /// dekameter per second defined such that: meter per second = dam/s × (10.0)/(1.0).
    /// </summary>
    public static readonly Velocity DekameterPerSecond = new (
                                                              "dekameter per second"
@@ -1024,7 +1024,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// dekameter per planck-time, defined as: meter per microsecond × (10.0)/(5.391247E-38)
+   /// dekameter per planck-time defined such that: meter per microsecond = dam/tₚ × (10.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity DekameterPerPlanckTime = new (
                                                                  "dekameter per planck-time"
@@ -1035,7 +1035,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// decimeter per quectosecond, defined as: meter per rontosecond × (1.0/10.0)/(1.0/1000.0)
+   /// decimeter per quectosecond defined such that: meter per rontosecond = dm/qs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerQuectosecond = new (
                                                                    "decimeter per quectosecond"
@@ -1046,7 +1046,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// centimeter per rontosecond, defined as: decimeter per yoctosecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per rontosecond defined such that: decimeter per yoctosecond = cm/rs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerRontosecond = new (
                                                                    "centimeter per rontosecond"
@@ -1057,7 +1057,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// millimeter per yoctosecond, defined as: centimeter per zeptosecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per yoctosecond defined such that: centimeter per zeptosecond = mm/ys × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerYoctosecond = new (
                                                                    "millimeter per yoctosecond"
@@ -1068,7 +1068,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// micrometer per zeptosecond, defined as: millimeter per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per zeptosecond defined such that: millimeter per attosecond = μm/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerZeptosecond = new (
                                                                    "micrometer per zeptosecond"
@@ -1079,7 +1079,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nanometer per attosecond, defined as: micrometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per attosecond defined such that: micrometer per femtosecond = nm/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerAttosecond = new (
                                                                  "nanometer per attosecond"
@@ -1090,7 +1090,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// picometer per femtosecond, defined as: nanometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per femtosecond defined such that: nanometer per picosecond = pm/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerFemtosecond = new (
                                                                   "picometer per femtosecond"
@@ -1101,7 +1101,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per picosecond, defined as: picometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per picosecond defined such that: picometer per nanosecond = fm/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerPicosecond = new (
                                                                   "femtometer per picosecond"
@@ -1112,7 +1112,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// attometer per nanosecond, defined as: femtometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per nanosecond defined such that: femtometer per microsecond = am/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerNanosecond = new (
                                                                  "attometer per nanosecond"
@@ -1123,7 +1123,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// zeptometer per microsecond, defined as: attometer per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per microsecond defined such that: attometer per millisecond = zm/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerMicrosecond = new (
                                                                    "zeptometer per microsecond"
@@ -1134,7 +1134,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per millisecond, defined as: zeptometer per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// yoctometer per millisecond defined such that: zeptometer per centisecond = ym/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YoctometerPerMillisecond = new (
                                                                    "yoctometer per millisecond"
@@ -1145,7 +1145,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per centisecond, defined as: yoctometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// rontometer per centisecond defined such that: yoctometer per decisecond = rm/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RontometerPerCentisecond = new (
                                                                    "rontometer per centisecond"
@@ -1156,7 +1156,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per decisecond, defined as: rontometer per second × (1.0/1000.0)/(1.0/10.0)
+   /// quectometer per decisecond defined such that: rontometer per second = qm/ds × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity QuectometerPerDecisecond = new (
                                                                    "quectometer per decisecond"
@@ -1167,13 +1167,13 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// hectometer per second, defined as: dekameter per second × (10.0)/(1.0)
+   /// hectometer per second defined such that: dekameter per second = hm/s × (10.0)/(1.0).
    /// </summary>
    public static readonly Velocity HectometerPerSecond =
             new ("hectometer per second", "hm/s", DekameterPerSecond, 10.0 / 1.0, system: "SI");
 
    /// <summary>
-   /// dekameter per decisecond, defined as: meter per second × (10.0)/(1.0/10.0)
+   /// dekameter per decisecond defined such that: meter per second = dam/ds × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity DekameterPerDecisecond = new (
                                                                  "dekameter per decisecond"
@@ -1184,7 +1184,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// centimeter per quectosecond, defined as: decimeter per rontosecond × (1.0/10.0)/(1.0/1000.0)
+   /// centimeter per quectosecond defined such that: decimeter per rontosecond = cm/qs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerQuectosecond = new (
                                                                     "centimeter per quectosecond"
@@ -1195,7 +1195,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// millimeter per rontosecond, defined as: centimeter per yoctosecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per rontosecond defined such that: centimeter per yoctosecond = mm/rs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerRontosecond = new (
                                                                    "millimeter per rontosecond"
@@ -1206,7 +1206,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// micrometer per yoctosecond, defined as: millimeter per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per yoctosecond defined such that: millimeter per zeptosecond = μm/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerYoctosecond = new (
                                                                    "micrometer per yoctosecond"
@@ -1217,7 +1217,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nanometer per zeptosecond, defined as: micrometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per zeptosecond defined such that: micrometer per attosecond = nm/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerZeptosecond = new (
                                                                   "nanometer per zeptosecond"
@@ -1228,7 +1228,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// picometer per attosecond, defined as: nanometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per attosecond defined such that: nanometer per femtosecond = pm/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerAttosecond = new (
                                                                  "picometer per attosecond"
@@ -1239,7 +1239,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// femtometer per femtosecond, defined as: picometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per femtosecond defined such that: picometer per picosecond = fm/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerFemtosecond = new (
                                                                    "femtometer per femtosecond"
@@ -1250,7 +1250,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per picosecond, defined as: femtometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per picosecond defined such that: femtometer per nanosecond = am/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerPicosecond = new (
                                                                  "attometer per picosecond"
@@ -1261,7 +1261,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// zeptometer per nanosecond, defined as: attometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per nanosecond defined such that: attometer per microsecond = zm/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerNanosecond = new (
                                                                   "zeptometer per nanosecond"
@@ -1272,7 +1272,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yoctometer per microsecond, defined as: zeptometer per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per microsecond defined such that: zeptometer per millisecond = ym/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerMicrosecond = new (
                                                                    "yoctometer per microsecond"
@@ -1283,7 +1283,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per millisecond, defined as: yoctometer per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// rontometer per millisecond defined such that: yoctometer per centisecond = rm/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RontometerPerMillisecond = new (
                                                                    "rontometer per millisecond"
@@ -1294,7 +1294,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per centisecond, defined as: rontometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+   /// quectometer per centisecond defined such that: rontometer per decisecond = qm/cs × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity QuectometerPerCentisecond = new (
                                                                     "quectometer per centisecond"
@@ -1305,7 +1305,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// kilometer per second, defined as: hectometer per second × (10.0)/(1.0)
+   /// kilometer per second defined such that: hectometer per second = km/s × (10.0)/(1.0).
    /// </summary>
    public static readonly Velocity KilometerPerSecond = new (
                                                              "kilometer per second"
@@ -1316,7 +1316,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// hectometer per decisecond, defined as: dekameter per second × (10.0)/(1.0/10.0)
+   /// hectometer per decisecond defined such that: dekameter per second = hm/ds × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity HectometerPerDecisecond = new (
                                                                   "hectometer per decisecond"
@@ -1327,7 +1327,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// dekameter per centisecond, defined as: meter per decisecond × (10.0)/(1.0/10.0)
+   /// dekameter per centisecond defined such that: meter per decisecond = dam/cs × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity DekameterPerCentisecond = new (
                                                                   "dekameter per centisecond"
@@ -1338,7 +1338,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// millimeter per quectosecond, defined as: centimeter per rontosecond × (1.0/10.0)/(1.0/1000.0)
+   /// millimeter per quectosecond defined such that: centimeter per rontosecond = mm/qs × (1.0/10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerQuectosecond = new (
                                                                     "millimeter per quectosecond"
@@ -1349,7 +1349,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// micrometer per rontosecond, defined as: millimeter per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per rontosecond defined such that: millimeter per yoctosecond = μm/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerRontosecond = new (
                                                                    "micrometer per rontosecond"
@@ -1360,7 +1360,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nanometer per yoctosecond, defined as: micrometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per yoctosecond defined such that: micrometer per zeptosecond = nm/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerYoctosecond = new (
                                                                   "nanometer per yoctosecond"
@@ -1371,7 +1371,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// picometer per zeptosecond, defined as: nanometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per zeptosecond defined such that: nanometer per attosecond = pm/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerZeptosecond = new (
                                                                   "picometer per zeptosecond"
@@ -1382,7 +1382,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per attosecond, defined as: picometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per attosecond defined such that: picometer per femtosecond = fm/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerAttosecond = new (
                                                                   "femtometer per attosecond"
@@ -1393,7 +1393,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// attometer per femtosecond, defined as: femtometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per femtosecond defined such that: femtometer per picosecond = am/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerFemtosecond = new (
                                                                   "attometer per femtosecond"
@@ -1404,7 +1404,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zeptometer per picosecond, defined as: attometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per picosecond defined such that: attometer per nanosecond = zm/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerPicosecond = new (
                                                                   "zeptometer per picosecond"
@@ -1415,7 +1415,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yoctometer per nanosecond, defined as: zeptometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per nanosecond defined such that: zeptometer per microsecond = ym/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerNanosecond = new (
                                                                   "yoctometer per nanosecond"
@@ -1426,7 +1426,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rontometer per microsecond, defined as: yoctometer per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per microsecond defined such that: yoctometer per millisecond = rm/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerMicrosecond = new (
                                                                    "rontometer per microsecond"
@@ -1437,7 +1437,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per millisecond, defined as: rontometer per centisecond × (1.0/1000.0)/(1.0/10.0)
+   /// quectometer per millisecond defined such that: rontometer per centisecond = qm/ms × (1.0/1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity QuectometerPerMillisecond = new (
                                                                     "quectometer per millisecond"
@@ -1448,7 +1448,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// megameter per second, defined as: kilometer per second × (1000.0)/(1.0)
+   /// megameter per second defined such that: kilometer per second = Mm/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity MegameterPerSecond = new (
                                                              "megameter per second"
@@ -1459,7 +1459,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// kilometer per decisecond, defined as: hectometer per second × (10.0)/(1.0/10.0)
+   /// kilometer per decisecond defined such that: hectometer per second = km/ds × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity KilometerPerDecisecond = new (
                                                                  "kilometer per decisecond"
@@ -1470,7 +1470,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// hectometer per centisecond, defined as: dekameter per decisecond × (10.0)/(1.0/10.0)
+   /// hectometer per centisecond defined such that: dekameter per decisecond = hm/cs × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity HectometerPerCentisecond = new (
                                                                    "hectometer per centisecond"
@@ -1481,7 +1481,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// dekameter per millisecond, defined as: meter per centisecond × (10.0)/(1.0/10.0)
+   /// dekameter per millisecond defined such that: meter per centisecond = dam/ms × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity DekameterPerMillisecond = new (
                                                                   "dekameter per millisecond"
@@ -1492,7 +1492,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// micrometer per quectosecond, defined as: millimeter per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// micrometer per quectosecond defined such that: millimeter per rontosecond = μm/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerQuectosecond = new (
                                                                     "micrometer per quectosecond"
@@ -1503,7 +1503,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// nanometer per rontosecond, defined as: micrometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per rontosecond defined such that: micrometer per yoctosecond = nm/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerRontosecond = new (
                                                                   "nanometer per rontosecond"
@@ -1514,7 +1514,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// picometer per yoctosecond, defined as: nanometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per yoctosecond defined such that: nanometer per zeptosecond = pm/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerYoctosecond = new (
                                                                   "picometer per yoctosecond"
@@ -1525,7 +1525,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per zeptosecond, defined as: picometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per zeptosecond defined such that: picometer per attosecond = fm/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerZeptosecond = new (
                                                                    "femtometer per zeptosecond"
@@ -1536,7 +1536,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per attosecond, defined as: femtometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per attosecond defined such that: femtometer per femtosecond = am/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerAttosecond = new (
                                                                  "attometer per attosecond"
@@ -1547,7 +1547,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// zeptometer per femtosecond, defined as: attometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per femtosecond defined such that: attometer per picosecond = zm/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerFemtosecond = new (
                                                                    "zeptometer per femtosecond"
@@ -1558,7 +1558,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per picosecond, defined as: zeptometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per picosecond defined such that: zeptometer per nanosecond = ym/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerPicosecond = new (
                                                                   "yoctometer per picosecond"
@@ -1569,7 +1569,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rontometer per nanosecond, defined as: yoctometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per nanosecond defined such that: yoctometer per microsecond = rm/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerNanosecond = new (
                                                                   "rontometer per nanosecond"
@@ -1580,7 +1580,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quectometer per microsecond, defined as: rontometer per millisecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per microsecond defined such that: rontometer per millisecond = qm/μs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerMicrosecond = new (
                                                                     "quectometer per microsecond"
@@ -1591,7 +1591,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// gigameter per second, defined as: megameter per second × (1000.0)/(1.0)
+   /// gigameter per second defined such that: megameter per second = Gm/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity GigameterPerSecond = new (
                                                              "gigameter per second"
@@ -1602,7 +1602,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// megameter per decisecond, defined as: kilometer per second × (1000.0)/(1.0/10.0)
+   /// megameter per decisecond defined such that: kilometer per second = Mm/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MegameterPerDecisecond = new (
                                                                  "megameter per decisecond"
@@ -1613,7 +1613,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// kilometer per centisecond, defined as: hectometer per decisecond × (10.0)/(1.0/10.0)
+   /// kilometer per centisecond defined such that: hectometer per decisecond = km/cs × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity KilometerPerCentisecond = new (
                                                                   "kilometer per centisecond"
@@ -1624,7 +1624,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// hectometer per millisecond, defined as: dekameter per centisecond × (10.0)/(1.0/10.0)
+   /// hectometer per millisecond defined such that: dekameter per centisecond = hm/ms × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity HectometerPerMillisecond = new (
                                                                    "hectometer per millisecond"
@@ -1635,7 +1635,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// dekameter per microsecond, defined as: meter per millisecond × (10.0)/(1.0/1000.0)
+   /// dekameter per microsecond defined such that: meter per millisecond = dam/μs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerMicrosecond = new (
                                                                   "dekameter per microsecond"
@@ -1646,7 +1646,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nanometer per quectosecond, defined as: micrometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// nanometer per quectosecond defined such that: micrometer per rontosecond = nm/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerQuectosecond = new (
                                                                    "nanometer per quectosecond"
@@ -1657,7 +1657,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// picometer per rontosecond, defined as: nanometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per rontosecond defined such that: nanometer per yoctosecond = pm/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerRontosecond = new (
                                                                   "picometer per rontosecond"
@@ -1668,7 +1668,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per yoctosecond, defined as: picometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per yoctosecond defined such that: picometer per zeptosecond = fm/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerYoctosecond = new (
                                                                    "femtometer per yoctosecond"
@@ -1679,7 +1679,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per zeptosecond, defined as: femtometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per zeptosecond defined such that: femtometer per attosecond = am/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerZeptosecond = new (
                                                                   "attometer per zeptosecond"
@@ -1690,7 +1690,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zeptometer per attosecond, defined as: attometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per attosecond defined such that: attometer per femtosecond = zm/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerAttosecond = new (
                                                                   "zeptometer per attosecond"
@@ -1701,7 +1701,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yoctometer per femtosecond, defined as: zeptometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per femtosecond defined such that: zeptometer per picosecond = ym/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerFemtosecond = new (
                                                                    "yoctometer per femtosecond"
@@ -1712,7 +1712,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per picosecond, defined as: yoctometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per picosecond defined such that: yoctometer per nanosecond = rm/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerPicosecond = new (
                                                                   "rontometer per picosecond"
@@ -1723,7 +1723,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quectometer per nanosecond, defined as: rontometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per nanosecond defined such that: rontometer per microsecond = qm/ns × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerNanosecond = new (
                                                                    "quectometer per nanosecond"
@@ -1734,7 +1734,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// terameter per second, defined as: gigameter per second × (1000.0)/(1.0)
+   /// terameter per second defined such that: gigameter per second = Tm/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity TerameterPerSecond = new (
                                                              "terameter per second"
@@ -1745,7 +1745,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// gigameter per decisecond, defined as: megameter per second × (1000.0)/(1.0/10.0)
+   /// gigameter per decisecond defined such that: megameter per second = Gm/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity GigameterPerDecisecond = new (
                                                                  "gigameter per decisecond"
@@ -1756,7 +1756,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// megameter per centisecond, defined as: kilometer per decisecond × (1000.0)/(1.0/10.0)
+   /// megameter per centisecond defined such that: kilometer per decisecond = Mm/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MegameterPerCentisecond = new (
                                                                   "megameter per centisecond"
@@ -1767,7 +1767,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per millisecond, defined as: hectometer per centisecond × (10.0)/(1.0/10.0)
+   /// kilometer per millisecond defined such that: hectometer per centisecond = km/ms × (10.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity KilometerPerMillisecond = new (
                                                                   "kilometer per millisecond"
@@ -1778,7 +1778,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// hectometer per microsecond, defined as: dekameter per millisecond × (10.0)/(1.0/1000.0)
+   /// hectometer per microsecond defined such that: dekameter per millisecond = hm/μs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerMicrosecond = new (
                                                                    "hectometer per microsecond"
@@ -1789,7 +1789,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// dekameter per nanosecond, defined as: meter per microsecond × (10.0)/(1.0/1000.0)
+   /// dekameter per nanosecond defined such that: meter per microsecond = dam/ns × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerNanosecond = new (
                                                                  "dekameter per nanosecond"
@@ -1800,7 +1800,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// picometer per quectosecond, defined as: nanometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// picometer per quectosecond defined such that: nanometer per rontosecond = pm/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerQuectosecond = new (
                                                                    "picometer per quectosecond"
@@ -1811,7 +1811,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// femtometer per rontosecond, defined as: picometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per rontosecond defined such that: picometer per yoctosecond = fm/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerRontosecond = new (
                                                                    "femtometer per rontosecond"
@@ -1822,7 +1822,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per yoctosecond, defined as: femtometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per yoctosecond defined such that: femtometer per zeptosecond = am/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerYoctosecond = new (
                                                                   "attometer per yoctosecond"
@@ -1833,7 +1833,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zeptometer per zeptosecond, defined as: attometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per zeptosecond defined such that: attometer per attosecond = zm/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerZeptosecond = new (
                                                                    "zeptometer per zeptosecond"
@@ -1844,7 +1844,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per attosecond, defined as: zeptometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per attosecond defined such that: zeptometer per femtosecond = ym/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerAttosecond = new (
                                                                   "yoctometer per attosecond"
@@ -1855,7 +1855,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rontometer per femtosecond, defined as: yoctometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per femtosecond defined such that: yoctometer per picosecond = rm/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerFemtosecond = new (
                                                                    "rontometer per femtosecond"
@@ -1866,7 +1866,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per picosecond, defined as: rontometer per nanosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per picosecond defined such that: rontometer per nanosecond = qm/ps × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerPicosecond = new (
                                                                    "quectometer per picosecond"
@@ -1877,7 +1877,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// petameter per second, defined as: terameter per second × (1000.0)/(1.0)
+   /// petameter per second defined such that: terameter per second = Pm/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity PetameterPerSecond = new (
                                                              "petameter per second"
@@ -1888,7 +1888,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// terameter per decisecond, defined as: gigameter per second × (1000.0)/(1.0/10.0)
+   /// terameter per decisecond defined such that: gigameter per second = Tm/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity TerameterPerDecisecond = new (
                                                                  "terameter per decisecond"
@@ -1899,7 +1899,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// gigameter per centisecond, defined as: megameter per decisecond × (1000.0)/(1.0/10.0)
+   /// gigameter per centisecond defined such that: megameter per decisecond = Gm/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity GigameterPerCentisecond = new (
                                                                   "gigameter per centisecond"
@@ -1910,7 +1910,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// megameter per millisecond, defined as: kilometer per centisecond × (1000.0)/(1.0/10.0)
+   /// megameter per millisecond defined such that: kilometer per centisecond = Mm/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity MegameterPerMillisecond = new (
                                                                   "megameter per millisecond"
@@ -1921,7 +1921,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per microsecond, defined as: hectometer per millisecond × (10.0)/(1.0/1000.0)
+   /// kilometer per microsecond defined such that: hectometer per millisecond = km/μs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerMicrosecond = new (
                                                                   "kilometer per microsecond"
@@ -1932,7 +1932,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// hectometer per nanosecond, defined as: dekameter per microsecond × (10.0)/(1.0/1000.0)
+   /// hectometer per nanosecond defined such that: dekameter per microsecond = hm/ns × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerNanosecond = new (
                                                                   "hectometer per nanosecond"
@@ -1943,7 +1943,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// dekameter per picosecond, defined as: meter per nanosecond × (10.0)/(1.0/1000.0)
+   /// dekameter per picosecond defined such that: meter per nanosecond = dam/ps × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerPicosecond = new (
                                                                  "dekameter per picosecond"
@@ -1954,7 +1954,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// femtometer per quectosecond, defined as: picometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// femtometer per quectosecond defined such that: picometer per rontosecond = fm/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerQuectosecond = new (
                                                                     "femtometer per quectosecond"
@@ -1965,7 +1965,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// attometer per rontosecond, defined as: femtometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per rontosecond defined such that: femtometer per yoctosecond = am/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerRontosecond = new (
                                                                   "attometer per rontosecond"
@@ -1976,7 +1976,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zeptometer per yoctosecond, defined as: attometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per yoctosecond defined such that: attometer per zeptosecond = zm/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerYoctosecond = new (
                                                                    "zeptometer per yoctosecond"
@@ -1987,7 +1987,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per zeptosecond, defined as: zeptometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per zeptosecond defined such that: zeptometer per attosecond = ym/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerZeptosecond = new (
                                                                    "yoctometer per zeptosecond"
@@ -1998,7 +1998,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per attosecond, defined as: yoctometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per attosecond defined such that: yoctometer per femtosecond = rm/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerAttosecond = new (
                                                                   "rontometer per attosecond"
@@ -2009,7 +2009,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quectometer per femtosecond, defined as: rontometer per picosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per femtosecond defined such that: rontometer per picosecond = qm/fs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerFemtosecond = new (
                                                                     "quectometer per femtosecond"
@@ -2020,7 +2020,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// exameter per second, defined as: petameter per second × (1000.0)/(1.0)
+   /// exameter per second defined such that: petameter per second = Em/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity ExameterPerSecond = new (
                                                             "exameter per second"
@@ -2031,7 +2031,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// petameter per decisecond, defined as: terameter per second × (1000.0)/(1.0/10.0)
+   /// petameter per decisecond defined such that: terameter per second = Pm/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PetameterPerDecisecond = new (
                                                                  "petameter per decisecond"
@@ -2042,7 +2042,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// terameter per centisecond, defined as: gigameter per decisecond × (1000.0)/(1.0/10.0)
+   /// terameter per centisecond defined such that: gigameter per decisecond = Tm/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity TerameterPerCentisecond = new (
                                                                   "terameter per centisecond"
@@ -2053,7 +2053,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// gigameter per millisecond, defined as: megameter per centisecond × (1000.0)/(1.0/10.0)
+   /// gigameter per millisecond defined such that: megameter per centisecond = Gm/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity GigameterPerMillisecond = new (
                                                                   "gigameter per millisecond"
@@ -2064,7 +2064,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// megameter per microsecond, defined as: kilometer per millisecond × (1000.0)/(1.0/1000.0)
+   /// megameter per microsecond defined such that: kilometer per millisecond = Mm/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerMicrosecond = new (
                                                                   "megameter per microsecond"
@@ -2075,7 +2075,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per nanosecond, defined as: hectometer per microsecond × (10.0)/(1.0/1000.0)
+   /// kilometer per nanosecond defined such that: hectometer per microsecond = km/ns × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerNanosecond = new (
                                                                  "kilometer per nanosecond"
@@ -2086,7 +2086,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// hectometer per picosecond, defined as: dekameter per nanosecond × (10.0)/(1.0/1000.0)
+   /// hectometer per picosecond defined such that: dekameter per nanosecond = hm/ps × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerPicosecond = new (
                                                                   "hectometer per picosecond"
@@ -2097,7 +2097,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// dekameter per femtosecond, defined as: meter per picosecond × (10.0)/(1.0/1000.0)
+   /// dekameter per femtosecond defined such that: meter per picosecond = dam/fs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerFemtosecond = new (
                                                                   "dekameter per femtosecond"
@@ -2108,7 +2108,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// attometer per quectosecond, defined as: femtometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// attometer per quectosecond defined such that: femtometer per rontosecond = am/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerQuectosecond = new (
                                                                    "attometer per quectosecond"
@@ -2119,7 +2119,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zeptometer per rontosecond, defined as: attometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per rontosecond defined such that: attometer per yoctosecond = zm/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerRontosecond = new (
                                                                    "zeptometer per rontosecond"
@@ -2130,7 +2130,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per yoctosecond, defined as: zeptometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per yoctosecond defined such that: zeptometer per zeptosecond = ym/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerYoctosecond = new (
                                                                    "yoctometer per yoctosecond"
@@ -2141,7 +2141,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per zeptosecond, defined as: yoctometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per zeptosecond defined such that: yoctometer per attosecond = rm/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerZeptosecond = new (
                                                                    "rontometer per zeptosecond"
@@ -2152,7 +2152,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per attosecond, defined as: rontometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per attosecond defined such that: rontometer per femtosecond = qm/as × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerAttosecond = new (
                                                                    "quectometer per attosecond"
@@ -2163,7 +2163,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zettameter per second, defined as: exameter per second × (1000.0)/(1.0)
+   /// zettameter per second defined such that: exameter per second = Zm/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity ZettameterPerSecond = new (
                                                               "zettameter per second"
@@ -2174,7 +2174,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// exameter per decisecond, defined as: petameter per second × (1000.0)/(1.0/10.0)
+   /// exameter per decisecond defined such that: petameter per second = Em/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ExameterPerDecisecond = new (
                                                                 "exameter per decisecond"
@@ -2185,7 +2185,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// petameter per centisecond, defined as: terameter per decisecond × (1000.0)/(1.0/10.0)
+   /// petameter per centisecond defined such that: terameter per decisecond = Pm/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PetameterPerCentisecond = new (
                                                                   "petameter per centisecond"
@@ -2196,7 +2196,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// terameter per millisecond, defined as: gigameter per centisecond × (1000.0)/(1.0/10.0)
+   /// terameter per millisecond defined such that: gigameter per centisecond = Tm/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity TerameterPerMillisecond = new (
                                                                   "terameter per millisecond"
@@ -2207,7 +2207,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// gigameter per microsecond, defined as: megameter per millisecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per microsecond defined such that: megameter per millisecond = Gm/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerMicrosecond = new (
                                                                   "gigameter per microsecond"
@@ -2218,7 +2218,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// megameter per nanosecond, defined as: kilometer per microsecond × (1000.0)/(1.0/1000.0)
+   /// megameter per nanosecond defined such that: kilometer per microsecond = Mm/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerNanosecond = new (
                                                                  "megameter per nanosecond"
@@ -2229,7 +2229,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// kilometer per picosecond, defined as: hectometer per nanosecond × (10.0)/(1.0/1000.0)
+   /// kilometer per picosecond defined such that: hectometer per nanosecond = km/ps × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerPicosecond = new (
                                                                  "kilometer per picosecond"
@@ -2240,7 +2240,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// hectometer per femtosecond, defined as: dekameter per picosecond × (10.0)/(1.0/1000.0)
+   /// hectometer per femtosecond defined such that: dekameter per picosecond = hm/fs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerFemtosecond = new (
                                                                    "hectometer per femtosecond"
@@ -2251,7 +2251,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// dekameter per attosecond, defined as: meter per femtosecond × (10.0)/(1.0/1000.0)
+   /// dekameter per attosecond defined such that: meter per femtosecond = dam/as × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerAttosecond = new (
                                                                  "dekameter per attosecond"
@@ -2262,7 +2262,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// zeptometer per quectosecond, defined as: attometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// zeptometer per quectosecond defined such that: attometer per rontosecond = zm/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerQuectosecond = new (
                                                                     "zeptometer per quectosecond"
@@ -2273,7 +2273,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// yoctometer per rontosecond, defined as: zeptometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per rontosecond defined such that: zeptometer per yoctosecond = ym/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerRontosecond = new (
                                                                    "yoctometer per rontosecond"
@@ -2284,7 +2284,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per yoctosecond, defined as: yoctometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per yoctosecond defined such that: yoctometer per zeptosecond = rm/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerYoctosecond = new (
                                                                    "rontometer per yoctosecond"
@@ -2295,7 +2295,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per zeptosecond, defined as: rontometer per attosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per zeptosecond defined such that: rontometer per attosecond = qm/zs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerZeptosecond = new (
                                                                     "quectometer per zeptosecond"
@@ -2306,7 +2306,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// yottameter per second, defined as: zettameter per second × (1000.0)/(1.0)
+   /// yottameter per second defined such that: zettameter per second = Ym/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity YottameterPerSecond = new (
                                                               "yottameter per second"
@@ -2317,7 +2317,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// zettameter per decisecond, defined as: exameter per second × (1000.0)/(1.0/10.0)
+   /// zettameter per decisecond defined such that: exameter per second = Zm/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ZettameterPerDecisecond = new (
                                                                   "zettameter per decisecond"
@@ -2328,7 +2328,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// exameter per centisecond, defined as: petameter per decisecond × (1000.0)/(1.0/10.0)
+   /// exameter per centisecond defined such that: petameter per decisecond = Em/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ExameterPerCentisecond = new (
                                                                  "exameter per centisecond"
@@ -2339,7 +2339,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// petameter per millisecond, defined as: terameter per centisecond × (1000.0)/(1.0/10.0)
+   /// petameter per millisecond defined such that: terameter per centisecond = Pm/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PetameterPerMillisecond = new (
                                                                   "petameter per millisecond"
@@ -2350,7 +2350,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// terameter per microsecond, defined as: gigameter per millisecond × (1000.0)/(1.0/1000.0)
+   /// terameter per microsecond defined such that: gigameter per millisecond = Tm/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerMicrosecond = new (
                                                                   "terameter per microsecond"
@@ -2361,7 +2361,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// gigameter per nanosecond, defined as: megameter per microsecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per nanosecond defined such that: megameter per microsecond = Gm/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerNanosecond = new (
                                                                  "gigameter per nanosecond"
@@ -2372,7 +2372,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// megameter per picosecond, defined as: kilometer per nanosecond × (1000.0)/(1.0/1000.0)
+   /// megameter per picosecond defined such that: kilometer per nanosecond = Mm/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerPicosecond = new (
                                                                  "megameter per picosecond"
@@ -2383,7 +2383,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// kilometer per femtosecond, defined as: hectometer per picosecond × (10.0)/(1.0/1000.0)
+   /// kilometer per femtosecond defined such that: hectometer per picosecond = km/fs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerFemtosecond = new (
                                                                   "kilometer per femtosecond"
@@ -2394,7 +2394,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// hectometer per attosecond, defined as: dekameter per femtosecond × (10.0)/(1.0/1000.0)
+   /// hectometer per attosecond defined such that: dekameter per femtosecond = hm/as × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerAttosecond = new (
                                                                   "hectometer per attosecond"
@@ -2405,7 +2405,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// dekameter per zeptosecond, defined as: meter per attosecond × (10.0)/(1.0/1000.0)
+   /// dekameter per zeptosecond defined such that: meter per attosecond = dam/zs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerZeptosecond = new (
                                                                   "dekameter per zeptosecond"
@@ -2416,7 +2416,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yoctometer per quectosecond, defined as: zeptometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// yoctometer per quectosecond defined such that: zeptometer per rontosecond = ym/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerQuectosecond = new (
                                                                     "yoctometer per quectosecond"
@@ -2427,7 +2427,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// rontometer per rontosecond, defined as: yoctometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per rontosecond defined such that: yoctometer per yoctosecond = rm/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerRontosecond = new (
                                                                    "rontometer per rontosecond"
@@ -2438,7 +2438,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per yoctosecond, defined as: rontometer per zeptosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per yoctosecond defined such that: rontometer per zeptosecond = qm/ys × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerYoctosecond = new (
                                                                     "quectometer per yoctosecond"
@@ -2449,7 +2449,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per second, defined as: yottameter per second × (1000.0)/(1.0)
+   /// ronnameter per second defined such that: yottameter per second = Rm/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity RonnameterPerSecond = new (
                                                               "ronnameter per second"
@@ -2460,7 +2460,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// yottameter per decisecond, defined as: zettameter per second × (1000.0)/(1.0/10.0)
+   /// yottameter per decisecond defined such that: zettameter per second = Ym/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YottameterPerDecisecond = new (
                                                                   "yottameter per decisecond"
@@ -2471,7 +2471,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zettameter per centisecond, defined as: exameter per decisecond × (1000.0)/(1.0/10.0)
+   /// zettameter per centisecond defined such that: exameter per decisecond = Zm/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ZettameterPerCentisecond = new (
                                                                    "zettameter per centisecond"
@@ -2482,7 +2482,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// exameter per millisecond, defined as: petameter per centisecond × (1000.0)/(1.0/10.0)
+   /// exameter per millisecond defined such that: petameter per centisecond = Em/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ExameterPerMillisecond = new (
                                                                  "exameter per millisecond"
@@ -2493,7 +2493,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// petameter per microsecond, defined as: terameter per millisecond × (1000.0)/(1.0/1000.0)
+   /// petameter per microsecond defined such that: terameter per millisecond = Pm/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerMicrosecond = new (
                                                                   "petameter per microsecond"
@@ -2504,7 +2504,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// terameter per nanosecond, defined as: gigameter per microsecond × (1000.0)/(1.0/1000.0)
+   /// terameter per nanosecond defined such that: gigameter per microsecond = Tm/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerNanosecond = new (
                                                                  "terameter per nanosecond"
@@ -2515,7 +2515,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// gigameter per picosecond, defined as: megameter per nanosecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per picosecond defined such that: megameter per nanosecond = Gm/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerPicosecond = new (
                                                                  "gigameter per picosecond"
@@ -2526,7 +2526,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// megameter per femtosecond, defined as: kilometer per picosecond × (1000.0)/(1.0/1000.0)
+   /// megameter per femtosecond defined such that: kilometer per picosecond = Mm/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerFemtosecond = new (
                                                                   "megameter per femtosecond"
@@ -2537,7 +2537,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per attosecond, defined as: hectometer per femtosecond × (10.0)/(1.0/1000.0)
+   /// kilometer per attosecond defined such that: hectometer per femtosecond = km/as × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerAttosecond = new (
                                                                  "kilometer per attosecond"
@@ -2548,7 +2548,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// hectometer per zeptosecond, defined as: dekameter per attosecond × (10.0)/(1.0/1000.0)
+   /// hectometer per zeptosecond defined such that: dekameter per attosecond = hm/zs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerZeptosecond = new (
                                                                    "hectometer per zeptosecond"
@@ -2559,7 +2559,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// dekameter per yoctosecond, defined as: meter per zeptosecond × (10.0)/(1.0/1000.0)
+   /// dekameter per yoctosecond defined such that: meter per zeptosecond = dam/ys × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerYoctosecond = new (
                                                                   "dekameter per yoctosecond"
@@ -2570,7 +2570,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rontometer per quectosecond, defined as: yoctometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// rontometer per quectosecond defined such that: yoctometer per rontosecond = rm/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerQuectosecond = new (
                                                                     "rontometer per quectosecond"
@@ -2581,7 +2581,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quectometer per rontosecond, defined as: rontometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per rontosecond defined such that: rontometer per yoctosecond = qm/rs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerRontosecond = new (
                                                                     "quectometer per rontosecond"
@@ -2592,7 +2592,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quettameter per second, defined as: ronnameter per second × (1000.0)/(1.0)
+   /// quettameter per second defined such that: ronnameter per second = Qm/s × (1000.0)/(1.0).
    /// </summary>
    public static readonly Velocity QuettameterPerSecond = new (
                                                                "quettameter per second"
@@ -2603,7 +2603,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// ronnameter per decisecond, defined as: yottameter per second × (1000.0)/(1.0/10.0)
+   /// ronnameter per decisecond defined such that: yottameter per second = Rm/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RonnameterPerDecisecond = new (
                                                                   "ronnameter per decisecond"
@@ -2614,7 +2614,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yottameter per centisecond, defined as: zettameter per decisecond × (1000.0)/(1.0/10.0)
+   /// yottameter per centisecond defined such that: zettameter per decisecond = Ym/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YottameterPerCentisecond = new (
                                                                    "yottameter per centisecond"
@@ -2625,7 +2625,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zettameter per millisecond, defined as: exameter per centisecond × (1000.0)/(1.0/10.0)
+   /// zettameter per millisecond defined such that: exameter per centisecond = Zm/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity ZettameterPerMillisecond = new (
                                                                    "zettameter per millisecond"
@@ -2636,7 +2636,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// exameter per microsecond, defined as: petameter per millisecond × (1000.0)/(1.0/1000.0)
+   /// exameter per microsecond defined such that: petameter per millisecond = Em/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerMicrosecond = new (
                                                                  "exameter per microsecond"
@@ -2647,7 +2647,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// petameter per nanosecond, defined as: terameter per microsecond × (1000.0)/(1.0/1000.0)
+   /// petameter per nanosecond defined such that: terameter per microsecond = Pm/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerNanosecond = new (
                                                                  "petameter per nanosecond"
@@ -2658,7 +2658,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// terameter per picosecond, defined as: gigameter per nanosecond × (1000.0)/(1.0/1000.0)
+   /// terameter per picosecond defined such that: gigameter per nanosecond = Tm/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerPicosecond = new (
                                                                  "terameter per picosecond"
@@ -2669,7 +2669,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// gigameter per femtosecond, defined as: megameter per picosecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per femtosecond defined such that: megameter per picosecond = Gm/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerFemtosecond = new (
                                                                   "gigameter per femtosecond"
@@ -2680,7 +2680,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// megameter per attosecond, defined as: kilometer per femtosecond × (1000.0)/(1.0/1000.0)
+   /// megameter per attosecond defined such that: kilometer per femtosecond = Mm/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerAttosecond = new (
                                                                  "megameter per attosecond"
@@ -2691,7 +2691,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// kilometer per zeptosecond, defined as: hectometer per attosecond × (10.0)/(1.0/1000.0)
+   /// kilometer per zeptosecond defined such that: hectometer per attosecond = km/zs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerZeptosecond = new (
                                                                   "kilometer per zeptosecond"
@@ -2702,7 +2702,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// hectometer per yoctosecond, defined as: dekameter per zeptosecond × (10.0)/(1.0/1000.0)
+   /// hectometer per yoctosecond defined such that: dekameter per zeptosecond = hm/ys × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerYoctosecond = new (
                                                                    "hectometer per yoctosecond"
@@ -2713,7 +2713,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// dekameter per rontosecond, defined as: meter per yoctosecond × (10.0)/(1.0/1000.0)
+   /// dekameter per rontosecond defined such that: meter per yoctosecond = dam/rs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerRontosecond = new (
                                                                   "dekameter per rontosecond"
@@ -2724,7 +2724,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quectometer per quectosecond, defined as: rontometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+   /// quectometer per quectosecond defined such that: rontometer per rontosecond = qm/qs × (1.0/1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerQuectosecond = new (
                                                                      "quectometer per quectosecond"
@@ -2735,7 +2735,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// quettameter per decisecond, defined as: ronnameter per second × (1000.0)/(1.0/10.0)
+   /// quettameter per decisecond defined such that: ronnameter per second = Qm/ds × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity QuettameterPerDecisecond = new (
                                                                    "quettameter per decisecond"
@@ -2746,7 +2746,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// ronnameter per centisecond, defined as: yottameter per decisecond × (1000.0)/(1.0/10.0)
+   /// ronnameter per centisecond defined such that: yottameter per decisecond = Rm/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RonnameterPerCentisecond = new (
                                                                    "ronnameter per centisecond"
@@ -2757,7 +2757,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yottameter per millisecond, defined as: zettameter per centisecond × (1000.0)/(1.0/10.0)
+   /// yottameter per millisecond defined such that: zettameter per centisecond = Ym/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity YottameterPerMillisecond = new (
                                                                    "yottameter per millisecond"
@@ -2768,7 +2768,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zettameter per microsecond, defined as: exameter per millisecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per microsecond defined such that: exameter per millisecond = Zm/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerMicrosecond = new (
                                                                    "zettameter per microsecond"
@@ -2779,7 +2779,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// exameter per nanosecond, defined as: petameter per microsecond × (1000.0)/(1.0/1000.0)
+   /// exameter per nanosecond defined such that: petameter per microsecond = Em/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerNanosecond = new (
                                                                 "exameter per nanosecond"
@@ -2790,7 +2790,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// petameter per picosecond, defined as: terameter per nanosecond × (1000.0)/(1.0/1000.0)
+   /// petameter per picosecond defined such that: terameter per nanosecond = Pm/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerPicosecond = new (
                                                                  "petameter per picosecond"
@@ -2801,7 +2801,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// terameter per femtosecond, defined as: gigameter per picosecond × (1000.0)/(1.0/1000.0)
+   /// terameter per femtosecond defined such that: gigameter per picosecond = Tm/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerFemtosecond = new (
                                                                   "terameter per femtosecond"
@@ -2812,7 +2812,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// gigameter per attosecond, defined as: megameter per femtosecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per attosecond defined such that: megameter per femtosecond = Gm/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerAttosecond = new (
                                                                  "gigameter per attosecond"
@@ -2823,7 +2823,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// megameter per zeptosecond, defined as: kilometer per attosecond × (1000.0)/(1.0/1000.0)
+   /// megameter per zeptosecond defined such that: kilometer per attosecond = Mm/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerZeptosecond = new (
                                                                   "megameter per zeptosecond"
@@ -2834,7 +2834,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per yoctosecond, defined as: hectometer per zeptosecond × (10.0)/(1.0/1000.0)
+   /// kilometer per yoctosecond defined such that: hectometer per zeptosecond = km/ys × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerYoctosecond = new (
                                                                   "kilometer per yoctosecond"
@@ -2845,7 +2845,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// hectometer per rontosecond, defined as: dekameter per yoctosecond × (10.0)/(1.0/1000.0)
+   /// hectometer per rontosecond defined such that: dekameter per yoctosecond = hm/rs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerRontosecond = new (
                                                                    "hectometer per rontosecond"
@@ -2856,7 +2856,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// dekameter per quectosecond, defined as: meter per rontosecond × (10.0)/(1.0/1000.0)
+   /// dekameter per quectosecond defined such that: meter per rontosecond = dam/qs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerQuectosecond = new (
                                                                    "dekameter per quectosecond"
@@ -2867,7 +2867,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quettameter per centisecond, defined as: ronnameter per decisecond × (1000.0)/(1.0/10.0)
+   /// quettameter per centisecond defined such that: ronnameter per decisecond = Qm/cs × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity QuettameterPerCentisecond = new (
                                                                     "quettameter per centisecond"
@@ -2878,7 +2878,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per millisecond, defined as: yottameter per centisecond × (1000.0)/(1.0/10.0)
+   /// ronnameter per millisecond defined such that: yottameter per centisecond = Rm/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity RonnameterPerMillisecond = new (
                                                                    "ronnameter per millisecond"
@@ -2889,7 +2889,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yottameter per microsecond, defined as: zettameter per millisecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per microsecond defined such that: zettameter per millisecond = Ym/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerMicrosecond = new (
                                                                    "yottameter per microsecond"
@@ -2900,7 +2900,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zettameter per nanosecond, defined as: exameter per microsecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per nanosecond defined such that: exameter per microsecond = Zm/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerNanosecond = new (
                                                                   "zettameter per nanosecond"
@@ -2911,7 +2911,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// exameter per picosecond, defined as: petameter per nanosecond × (1000.0)/(1.0/1000.0)
+   /// exameter per picosecond defined such that: petameter per nanosecond = Em/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerPicosecond = new (
                                                                 "exameter per picosecond"
@@ -2922,7 +2922,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// petameter per femtosecond, defined as: terameter per picosecond × (1000.0)/(1.0/1000.0)
+   /// petameter per femtosecond defined such that: terameter per picosecond = Pm/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerFemtosecond = new (
                                                                   "petameter per femtosecond"
@@ -2933,7 +2933,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// terameter per attosecond, defined as: gigameter per femtosecond × (1000.0)/(1.0/1000.0)
+   /// terameter per attosecond defined such that: gigameter per femtosecond = Tm/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerAttosecond = new (
                                                                  "terameter per attosecond"
@@ -2944,7 +2944,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// gigameter per zeptosecond, defined as: megameter per attosecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per zeptosecond defined such that: megameter per attosecond = Gm/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerZeptosecond = new (
                                                                   "gigameter per zeptosecond"
@@ -2955,7 +2955,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// megameter per yoctosecond, defined as: kilometer per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// megameter per yoctosecond defined such that: kilometer per zeptosecond = Mm/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerYoctosecond = new (
                                                                   "megameter per yoctosecond"
@@ -2966,7 +2966,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per rontosecond, defined as: hectometer per yoctosecond × (10.0)/(1.0/1000.0)
+   /// kilometer per rontosecond defined such that: hectometer per yoctosecond = km/rs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerRontosecond = new (
                                                                   "kilometer per rontosecond"
@@ -2977,7 +2977,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// hectometer per quectosecond, defined as: dekameter per rontosecond × (10.0)/(1.0/1000.0)
+   /// hectometer per quectosecond defined such that: dekameter per rontosecond = hm/qs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerQuectosecond = new (
                                                                     "hectometer per quectosecond"
@@ -2988,7 +2988,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quettameter per millisecond, defined as: ronnameter per centisecond × (1000.0)/(1.0/10.0)
+   /// quettameter per millisecond defined such that: ronnameter per centisecond = Qm/ms × (1000.0)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity QuettameterPerMillisecond = new (
                                                                     "quettameter per millisecond"
@@ -2999,7 +2999,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per microsecond, defined as: yottameter per millisecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per microsecond defined such that: yottameter per millisecond = Rm/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerMicrosecond = new (
                                                                    "ronnameter per microsecond"
@@ -3010,7 +3010,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yottameter per nanosecond, defined as: zettameter per microsecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per nanosecond defined such that: zettameter per microsecond = Ym/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerNanosecond = new (
                                                                   "yottameter per nanosecond"
@@ -3021,7 +3021,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zettameter per picosecond, defined as: exameter per nanosecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per picosecond defined such that: exameter per nanosecond = Zm/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerPicosecond = new (
                                                                   "zettameter per picosecond"
@@ -3032,7 +3032,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// exameter per femtosecond, defined as: petameter per picosecond × (1000.0)/(1.0/1000.0)
+   /// exameter per femtosecond defined such that: petameter per picosecond = Em/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerFemtosecond = new (
                                                                  "exameter per femtosecond"
@@ -3043,7 +3043,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// petameter per attosecond, defined as: terameter per femtosecond × (1000.0)/(1.0/1000.0)
+   /// petameter per attosecond defined such that: terameter per femtosecond = Pm/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerAttosecond = new (
                                                                  "petameter per attosecond"
@@ -3054,7 +3054,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// terameter per zeptosecond, defined as: gigameter per attosecond × (1000.0)/(1.0/1000.0)
+   /// terameter per zeptosecond defined such that: gigameter per attosecond = Tm/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerZeptosecond = new (
                                                                   "terameter per zeptosecond"
@@ -3065,7 +3065,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// gigameter per yoctosecond, defined as: megameter per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per yoctosecond defined such that: megameter per zeptosecond = Gm/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerYoctosecond = new (
                                                                   "gigameter per yoctosecond"
@@ -3076,7 +3076,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// megameter per rontosecond, defined as: kilometer per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// megameter per rontosecond defined such that: kilometer per yoctosecond = Mm/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerRontosecond = new (
                                                                   "megameter per rontosecond"
@@ -3087,7 +3087,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per quectosecond, defined as: hectometer per rontosecond × (10.0)/(1.0/1000.0)
+   /// kilometer per quectosecond defined such that: hectometer per rontosecond = km/qs × (10.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerQuectosecond = new (
                                                                    "kilometer per quectosecond"
@@ -3098,7 +3098,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quettameter per microsecond, defined as: ronnameter per millisecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per microsecond defined such that: ronnameter per millisecond = Qm/μs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerMicrosecond = new (
                                                                     "quettameter per microsecond"
@@ -3109,7 +3109,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per nanosecond, defined as: yottameter per microsecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per nanosecond defined such that: yottameter per microsecond = Rm/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerNanosecond = new (
                                                                   "ronnameter per nanosecond"
@@ -3120,7 +3120,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yottameter per picosecond, defined as: zettameter per nanosecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per picosecond defined such that: zettameter per nanosecond = Ym/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerPicosecond = new (
                                                                   "yottameter per picosecond"
@@ -3131,7 +3131,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zettameter per femtosecond, defined as: exameter per picosecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per femtosecond defined such that: exameter per picosecond = Zm/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerFemtosecond = new (
                                                                    "zettameter per femtosecond"
@@ -3142,7 +3142,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// exameter per attosecond, defined as: petameter per femtosecond × (1000.0)/(1.0/1000.0)
+   /// exameter per attosecond defined such that: petameter per femtosecond = Em/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerAttosecond = new (
                                                                 "exameter per attosecond"
@@ -3153,7 +3153,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// petameter per zeptosecond, defined as: terameter per attosecond × (1000.0)/(1.0/1000.0)
+   /// petameter per zeptosecond defined such that: terameter per attosecond = Pm/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerZeptosecond = new (
                                                                   "petameter per zeptosecond"
@@ -3164,7 +3164,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// terameter per yoctosecond, defined as: gigameter per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// terameter per yoctosecond defined such that: gigameter per zeptosecond = Tm/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerYoctosecond = new (
                                                                   "terameter per yoctosecond"
@@ -3175,7 +3175,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// gigameter per rontosecond, defined as: megameter per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per rontosecond defined such that: megameter per yoctosecond = Gm/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerRontosecond = new (
                                                                   "gigameter per rontosecond"
@@ -3186,7 +3186,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// megameter per quectosecond, defined as: kilometer per rontosecond × (1000.0)/(1.0/1000.0)
+   /// megameter per quectosecond defined such that: kilometer per rontosecond = Mm/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerQuectosecond = new (
                                                                    "megameter per quectosecond"
@@ -3197,7 +3197,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quettameter per nanosecond, defined as: ronnameter per microsecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per nanosecond defined such that: ronnameter per microsecond = Qm/ns × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerNanosecond = new (
                                                                    "quettameter per nanosecond"
@@ -3208,7 +3208,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// ronnameter per picosecond, defined as: yottameter per nanosecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per picosecond defined such that: yottameter per nanosecond = Rm/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerPicosecond = new (
                                                                   "ronnameter per picosecond"
@@ -3219,7 +3219,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yottameter per femtosecond, defined as: zettameter per picosecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per femtosecond defined such that: zettameter per picosecond = Ym/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerFemtosecond = new (
                                                                    "yottameter per femtosecond"
@@ -3230,7 +3230,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zettameter per attosecond, defined as: exameter per femtosecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per attosecond defined such that: exameter per femtosecond = Zm/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerAttosecond = new (
                                                                   "zettameter per attosecond"
@@ -3241,7 +3241,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// exameter per zeptosecond, defined as: petameter per attosecond × (1000.0)/(1.0/1000.0)
+   /// exameter per zeptosecond defined such that: petameter per attosecond = Em/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerZeptosecond = new (
                                                                  "exameter per zeptosecond"
@@ -3252,7 +3252,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// petameter per yoctosecond, defined as: terameter per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// petameter per yoctosecond defined such that: terameter per zeptosecond = Pm/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerYoctosecond = new (
                                                                   "petameter per yoctosecond"
@@ -3263,7 +3263,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// terameter per rontosecond, defined as: gigameter per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// terameter per rontosecond defined such that: gigameter per yoctosecond = Tm/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerRontosecond = new (
                                                                   "terameter per rontosecond"
@@ -3274,7 +3274,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// gigameter per quectosecond, defined as: megameter per rontosecond × (1000.0)/(1.0/1000.0)
+   /// gigameter per quectosecond defined such that: megameter per rontosecond = Gm/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerQuectosecond = new (
                                                                    "gigameter per quectosecond"
@@ -3285,7 +3285,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quettameter per picosecond, defined as: ronnameter per nanosecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per picosecond defined such that: ronnameter per nanosecond = Qm/ps × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerPicosecond = new (
                                                                    "quettameter per picosecond"
@@ -3296,7 +3296,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// ronnameter per femtosecond, defined as: yottameter per picosecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per femtosecond defined such that: yottameter per picosecond = Rm/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerFemtosecond = new (
                                                                    "ronnameter per femtosecond"
@@ -3307,7 +3307,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yottameter per attosecond, defined as: zettameter per femtosecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per attosecond defined such that: zettameter per femtosecond = Ym/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerAttosecond = new (
                                                                   "yottameter per attosecond"
@@ -3318,7 +3318,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zettameter per zeptosecond, defined as: exameter per attosecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per zeptosecond defined such that: exameter per attosecond = Zm/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerZeptosecond = new (
                                                                    "zettameter per zeptosecond"
@@ -3329,7 +3329,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// exameter per yoctosecond, defined as: petameter per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// exameter per yoctosecond defined such that: petameter per zeptosecond = Em/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerYoctosecond = new (
                                                                  "exameter per yoctosecond"
@@ -3340,7 +3340,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// petameter per rontosecond, defined as: terameter per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// petameter per rontosecond defined such that: terameter per yoctosecond = Pm/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerRontosecond = new (
                                                                   "petameter per rontosecond"
@@ -3351,7 +3351,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// terameter per quectosecond, defined as: gigameter per rontosecond × (1000.0)/(1.0/1000.0)
+   /// terameter per quectosecond defined such that: gigameter per rontosecond = Tm/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerQuectosecond = new (
                                                                    "terameter per quectosecond"
@@ -3362,7 +3362,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quettameter per femtosecond, defined as: ronnameter per picosecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per femtosecond defined such that: ronnameter per picosecond = Qm/fs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerFemtosecond = new (
                                                                     "quettameter per femtosecond"
@@ -3373,7 +3373,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per attosecond, defined as: yottameter per femtosecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per attosecond defined such that: yottameter per femtosecond = Rm/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerAttosecond = new (
                                                                   "ronnameter per attosecond"
@@ -3384,7 +3384,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yottameter per zeptosecond, defined as: zettameter per attosecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per zeptosecond defined such that: zettameter per attosecond = Ym/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerZeptosecond = new (
                                                                    "yottameter per zeptosecond"
@@ -3395,7 +3395,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zettameter per yoctosecond, defined as: exameter per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per yoctosecond defined such that: exameter per zeptosecond = Zm/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerYoctosecond = new (
                                                                    "zettameter per yoctosecond"
@@ -3406,7 +3406,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// exameter per rontosecond, defined as: petameter per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// exameter per rontosecond defined such that: petameter per yoctosecond = Em/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerRontosecond = new (
                                                                  "exameter per rontosecond"
@@ -3417,7 +3417,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// petameter per quectosecond, defined as: terameter per rontosecond × (1000.0)/(1.0/1000.0)
+   /// petameter per quectosecond defined such that: terameter per rontosecond = Pm/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerQuectosecond = new (
                                                                    "petameter per quectosecond"
@@ -3428,7 +3428,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quettameter per attosecond, defined as: ronnameter per femtosecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per attosecond defined such that: ronnameter per femtosecond = Qm/as × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerAttosecond = new (
                                                                    "quettameter per attosecond"
@@ -3439,7 +3439,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// ronnameter per zeptosecond, defined as: yottameter per attosecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per zeptosecond defined such that: yottameter per attosecond = Rm/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerZeptosecond = new (
                                                                    "ronnameter per zeptosecond"
@@ -3450,7 +3450,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yottameter per yoctosecond, defined as: zettameter per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per yoctosecond defined such that: zettameter per zeptosecond = Ym/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerYoctosecond = new (
                                                                    "yottameter per yoctosecond"
@@ -3461,7 +3461,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zettameter per rontosecond, defined as: exameter per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per rontosecond defined such that: exameter per yoctosecond = Zm/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerRontosecond = new (
                                                                    "zettameter per rontosecond"
@@ -3472,7 +3472,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// exameter per quectosecond, defined as: petameter per rontosecond × (1000.0)/(1.0/1000.0)
+   /// exameter per quectosecond defined such that: petameter per rontosecond = Em/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerQuectosecond = new (
                                                                   "exameter per quectosecond"
@@ -3483,7 +3483,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quettameter per zeptosecond, defined as: ronnameter per attosecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per zeptosecond defined such that: ronnameter per attosecond = Qm/zs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerZeptosecond = new (
                                                                     "quettameter per zeptosecond"
@@ -3494,7 +3494,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per yoctosecond, defined as: yottameter per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per yoctosecond defined such that: yottameter per zeptosecond = Rm/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerYoctosecond = new (
                                                                    "ronnameter per yoctosecond"
@@ -3505,7 +3505,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yottameter per rontosecond, defined as: zettameter per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per rontosecond defined such that: zettameter per yoctosecond = Ym/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerRontosecond = new (
                                                                    "yottameter per rontosecond"
@@ -3516,7 +3516,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zettameter per quectosecond, defined as: exameter per rontosecond × (1000.0)/(1.0/1000.0)
+   /// zettameter per quectosecond defined such that: exameter per rontosecond = Zm/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerQuectosecond = new (
                                                                     "zettameter per quectosecond"
@@ -3527,7 +3527,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quettameter per yoctosecond, defined as: ronnameter per zeptosecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per yoctosecond defined such that: ronnameter per zeptosecond = Qm/ys × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerYoctosecond = new (
                                                                     "quettameter per yoctosecond"
@@ -3538,7 +3538,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per rontosecond, defined as: yottameter per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per rontosecond defined such that: yottameter per yoctosecond = Rm/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerRontosecond = new (
                                                                    "ronnameter per rontosecond"
@@ -3549,7 +3549,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yottameter per quectosecond, defined as: zettameter per rontosecond × (1000.0)/(1.0/1000.0)
+   /// yottameter per quectosecond defined such that: zettameter per rontosecond = Ym/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerQuectosecond = new (
                                                                     "yottameter per quectosecond"
@@ -3560,7 +3560,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quettameter per rontosecond, defined as: ronnameter per yoctosecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per rontosecond defined such that: ronnameter per yoctosecond = Qm/rs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerRontosecond = new (
                                                                     "quettameter per rontosecond"
@@ -3571,7 +3571,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per quectosecond, defined as: yottameter per rontosecond × (1000.0)/(1.0/1000.0)
+   /// ronnameter per quectosecond defined such that: yottameter per rontosecond = Rm/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerQuectosecond = new (
                                                                     "ronnameter per quectosecond"
@@ -3582,7 +3582,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quettameter per quectosecond, defined as: ronnameter per rontosecond × (1000.0)/(1.0/1000.0)
+   /// quettameter per quectosecond defined such that: ronnameter per rontosecond = Qm/qs × (1000.0)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerQuectosecond = new (
                                                                      "quettameter per quectosecond"
@@ -3593,7 +3593,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// meter per minute, defined as: meter per second × (1.0)/(60.0)
+   /// meter per minute defined such that: meter per second = m/min × (1.0)/(60.0).
    /// </summary>
    public static readonly Velocity MeterPerMinute = new (
                                                          "meter per minute"
@@ -3604,7 +3604,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// meter per hour, defined as: meter per minute × (1.0)/(60.0)
+   /// meter per hour defined such that: meter per minute = m/hr × (1.0)/(60.0).
    /// </summary>
    public static readonly Velocity MeterPerHour = new (
                                                        "meter per hour"
@@ -3615,7 +3615,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// decimeter per minute, defined as: meter per second × (1.0/10.0)/(60.0)
+   /// decimeter per minute defined such that: meter per second = dm/min × (1.0/10.0)/(60.0).
    /// </summary>
    public static readonly Velocity DecimeterPerMinute = new (
                                                              "decimeter per minute"
@@ -3626,12 +3626,12 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per day, defined as: meter per hour × (1.0)/(24.0)
+   /// meter per day defined such that: meter per hour = m/dy × (1.0)/(24.0).
    /// </summary>
    public static readonly Velocity MeterPerDay = new ("meter per day", "m/dy", MeterPerHour, 1.0 / 24.0, system: "SI");
 
    /// <summary>
-   /// centimeter per minute, defined as: decimeter per second × (1.0/10.0)/(60.0)
+   /// centimeter per minute defined such that: decimeter per second = cm/min × (1.0/10.0)/(60.0).
    /// </summary>
    public static readonly Velocity CentimeterPerMinute = new (
                                                               "centimeter per minute"
@@ -3642,12 +3642,12 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per week, defined as: meter per day × (1.0)/(7.0)
+   /// meter per week defined such that: meter per day = m/wk × (1.0)/(7.0).
    /// </summary>
    public static readonly Velocity MeterPerWeek = new ("meter per week", "m/wk", MeterPerDay, 1.0 / 7.0, system: "SI");
 
    /// <summary>
-   /// decimeter per hour, defined as: meter per minute × (1.0/10.0)/(60.0)
+   /// decimeter per hour defined such that: meter per minute = dm/hr × (1.0/10.0)/(60.0).
    /// </summary>
    public static readonly Velocity DecimeterPerHour = new (
                                                            "decimeter per hour"
@@ -3658,7 +3658,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// millimeter per minute, defined as: centimeter per second × (1.0/10.0)/(60.0)
+   /// millimeter per minute defined such that: centimeter per second = mm/min × (1.0/10.0)/(60.0).
    /// </summary>
    public static readonly Velocity MillimeterPerMinute = new (
                                                               "millimeter per minute"
@@ -3669,7 +3669,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per year, defined as: meter per day × (1.0)/(365.2525)
+   /// meter per year defined such that: meter per day = m/yr × (1.0)/(365.2525).
    /// </summary>
    public static readonly Velocity MeterPerYear = new (
                                                        "meter per year"
@@ -3680,7 +3680,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// micrometer per minute, defined as: millimeter per second × (1.0/1000.0)/(60.0)
+   /// micrometer per minute defined such that: millimeter per second = μm/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity MicrometerPerMinute = new (
                                                               "micrometer per minute"
@@ -3691,7 +3691,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per decade, defined as: meter per year × (1.0)/(10.0)
+   /// meter per decade defined such that: meter per year = m/decade × (1.0)/(10.0).
    /// </summary>
    public static readonly Velocity MeterPerDecade = new (
                                                          "meter per decade"
@@ -3702,7 +3702,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// decimeter per day, defined as: meter per hour × (1.0/10.0)/(24.0)
+   /// decimeter per day defined such that: meter per hour = dm/dy × (1.0/10.0)/(24.0).
    /// </summary>
    public static readonly Velocity DecimeterPerDay = new (
                                                           "decimeter per day"
@@ -3713,7 +3713,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// centimeter per hour, defined as: decimeter per minute × (1.0/10.0)/(60.0)
+   /// centimeter per hour defined such that: decimeter per minute = cm/hr × (1.0/10.0)/(60.0).
    /// </summary>
    public static readonly Velocity CentimeterPerHour = new (
                                                             "centimeter per hour"
@@ -3724,7 +3724,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// nanometer per minute, defined as: micrometer per second × (1.0/1000.0)/(60.0)
+   /// nanometer per minute defined such that: micrometer per second = nm/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity NanometerPerMinute = new (
                                                              "nanometer per minute"
@@ -3735,7 +3735,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per century, defined as: meter per decade × (1.0)/(10.0)
+   /// meter per century defined such that: meter per decade = m/century × (1.0)/(10.0).
    /// </summary>
    public static readonly Velocity MeterPerCentury = new (
                                                           "meter per century"
@@ -3746,7 +3746,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// picometer per minute, defined as: nanometer per second × (1.0/1000.0)/(60.0)
+   /// picometer per minute defined such that: nanometer per second = pm/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity PicometerPerMinute = new (
                                                              "picometer per minute"
@@ -3757,7 +3757,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per millennium, defined as: meter per century × (1.0)/(10.0)
+   /// meter per millennium defined such that: meter per century = m/kyr × (1.0)/(10.0).
    /// </summary>
    public static readonly Velocity MeterPerMillennium = new (
                                                              "meter per millennium"
@@ -3768,7 +3768,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// decimeter per week, defined as: meter per day × (1.0/10.0)/(7.0)
+   /// decimeter per week defined such that: meter per day = dm/wk × (1.0/10.0)/(7.0).
    /// </summary>
    public static readonly Velocity DecimeterPerWeek = new (
                                                            "decimeter per week"
@@ -3779,7 +3779,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// millimeter per hour, defined as: centimeter per minute × (1.0/10.0)/(60.0)
+   /// millimeter per hour defined such that: centimeter per minute = mm/hr × (1.0/10.0)/(60.0).
    /// </summary>
    public static readonly Velocity MillimeterPerHour = new (
                                                             "millimeter per hour"
@@ -3790,7 +3790,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// femtometer per minute, defined as: picometer per second × (1.0/1000.0)/(60.0)
+   /// femtometer per minute defined such that: picometer per second = fm/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity FemtometerPerMinute = new (
                                                               "femtometer per minute"
@@ -3801,7 +3801,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per million years, defined as: meter per millennium × (1.0)/(1000.0)
+   /// meter per million years defined such that: meter per millennium = m/Myr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerMillionYears = new (
                                                                "meter per million years"
@@ -3812,7 +3812,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// centimeter per day, defined as: decimeter per hour × (1.0/10.0)/(24.0)
+   /// centimeter per day defined such that: decimeter per hour = cm/dy × (1.0/10.0)/(24.0).
    /// </summary>
    public static readonly Velocity CentimeterPerDay = new (
                                                            "centimeter per day"
@@ -3823,7 +3823,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// attometer per minute, defined as: femtometer per second × (1.0/1000.0)/(60.0)
+   /// attometer per minute defined such that: femtometer per second = am/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity AttometerPerMinute = new (
                                                              "attometer per minute"
@@ -3834,7 +3834,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per billion years, defined as: meter per million years × (1.0)/(1000.0)
+   /// meter per billion years defined such that: meter per million years = m/Gyr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerBillionYears = new (
                                                                "meter per billion years"
@@ -3845,7 +3845,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// decimeter per year, defined as: meter per day × (1.0/10.0)/(365.2525)
+   /// decimeter per year defined such that: meter per day = dm/yr × (1.0/10.0)/(365.2525).
    /// </summary>
    public static readonly Velocity DecimeterPerYear = new (
                                                            "decimeter per year"
@@ -3856,7 +3856,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// micrometer per hour, defined as: millimeter per minute × (1.0/1000.0)/(60.0)
+   /// micrometer per hour defined such that: millimeter per minute = μm/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity MicrometerPerHour = new (
                                                             "micrometer per hour"
@@ -3867,7 +3867,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// zeptometer per minute, defined as: attometer per second × (1.0/1000.0)/(60.0)
+   /// zeptometer per minute defined such that: attometer per second = zm/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerMinute = new (
                                                               "zeptometer per minute"
@@ -3878,7 +3878,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per trillion years, defined as: meter per billion years × (1.0)/(1000.0)
+   /// meter per trillion years defined such that: meter per billion years = m/Tyr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerTrillionYears = new (
                                                                 "meter per trillion years"
@@ -3889,7 +3889,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// yoctometer per minute, defined as: zeptometer per second × (1.0/1000.0)/(60.0)
+   /// yoctometer per minute defined such that: zeptometer per second = ym/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity YoctometerPerMinute = new (
                                                               "yoctometer per minute"
@@ -3900,7 +3900,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per quadrillion years, defined as: meter per trillion years × (1.0)/(1000.0)
+   /// meter per quadrillion years defined such that: meter per trillion years = m/Pyr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerQuadrillionYears = new (
                                                                    "meter per quadrillion years"
@@ -3911,7 +3911,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// decimeter per decade, defined as: meter per year × (1.0/10.0)/(10.0)
+   /// decimeter per decade defined such that: meter per year = dm/decade × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity DecimeterPerDecade = new (
                                                              "decimeter per decade"
@@ -3922,7 +3922,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// centimeter per week, defined as: decimeter per day × (1.0/10.0)/(7.0)
+   /// centimeter per week defined such that: decimeter per day = cm/wk × (1.0/10.0)/(7.0).
    /// </summary>
    public static readonly Velocity CentimeterPerWeek = new (
                                                             "centimeter per week"
@@ -3933,7 +3933,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// millimeter per day, defined as: centimeter per hour × (1.0/10.0)/(24.0)
+   /// millimeter per day defined such that: centimeter per hour = mm/dy × (1.0/10.0)/(24.0).
    /// </summary>
    public static readonly Velocity MillimeterPerDay = new (
                                                            "millimeter per day"
@@ -3944,7 +3944,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// nanometer per hour, defined as: micrometer per minute × (1.0/1000.0)/(60.0)
+   /// nanometer per hour defined such that: micrometer per minute = nm/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity NanometerPerHour = new (
                                                            "nanometer per hour"
@@ -3955,7 +3955,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// rontometer per minute, defined as: yoctometer per second × (1.0/1000.0)/(60.0)
+   /// rontometer per minute defined such that: yoctometer per second = rm/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity RontometerPerMinute = new (
                                                               "rontometer per minute"
@@ -3966,7 +3966,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per quintillion years, defined as: meter per quadrillion years × (1.0)/(1000.0)
+   /// meter per quintillion years defined such that: meter per quadrillion years = m/Eyr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerQuintillionYears = new (
                                                                    "meter per quintillion years"
@@ -3977,7 +3977,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per minute, defined as: rontometer per second × (1.0/1000.0)/(60.0)
+   /// quectometer per minute defined such that: rontometer per second = qm/min × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity QuectometerPerMinute = new (
                                                                "quectometer per minute"
@@ -3988,7 +3988,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// meter per sextillion years, defined as: meter per quintillion years × (1.0)/(1000.0)
+   /// meter per sextillion years defined such that: meter per quintillion years = m/Zyr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerSextillionYears = new (
                                                                   "meter per sextillion years"
@@ -3999,7 +3999,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// decimeter per century, defined as: meter per decade × (1.0/10.0)/(10.0)
+   /// decimeter per century defined such that: meter per decade = dm/century × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity DecimeterPerCentury = new (
                                                               "decimeter per century"
@@ -4010,7 +4010,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// picometer per hour, defined as: nanometer per minute × (1.0/1000.0)/(60.0)
+   /// picometer per hour defined such that: nanometer per minute = pm/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity PicometerPerHour = new (
                                                            "picometer per hour"
@@ -4021,7 +4021,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// dekameter per minute, defined as: meter per second × (10.0)/(60.0)
+   /// dekameter per minute defined such that: meter per second = dam/min × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity DekameterPerMinute = new (
                                                              "dekameter per minute"
@@ -4032,7 +4032,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per septillion years, defined as: meter per sextillion years × (1.0)/(1000.0)
+   /// meter per septillion years defined such that: meter per sextillion years = m/Yyr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerSeptillionYears = new (
                                                                   "meter per septillion years"
@@ -4043,7 +4043,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// centimeter per year, defined as: decimeter per day × (1.0/10.0)/(365.2525)
+   /// centimeter per year defined such that: decimeter per day = cm/yr × (1.0/10.0)/(365.2525).
    /// </summary>
    public static readonly Velocity CentimeterPerYear = new (
                                                             "centimeter per year"
@@ -4054,7 +4054,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// micrometer per day, defined as: millimeter per hour × (1.0/1000.0)/(24.0)
+   /// micrometer per day defined such that: millimeter per hour = μm/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity MicrometerPerDay = new (
                                                            "micrometer per day"
@@ -4065,7 +4065,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// hectometer per minute, defined as: dekameter per second × (10.0)/(60.0)
+   /// hectometer per minute defined such that: dekameter per second = hm/min × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity HectometerPerMinute = new (
                                                               "hectometer per minute"
@@ -4076,7 +4076,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// meter per octillion years, defined as: meter per septillion years × (1.0)/(1000.0)
+   /// meter per octillion years defined such that: meter per septillion years = m/Ryr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerOctillionYears = new (
                                                                  "meter per octillion years"
@@ -4087,7 +4087,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// decimeter per millennium, defined as: meter per century × (1.0/10.0)/(10.0)
+   /// decimeter per millennium defined such that: meter per century = dm/kyr × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity DecimeterPerMillennium = new (
                                                                  "decimeter per millennium"
@@ -4098,7 +4098,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// millimeter per week, defined as: centimeter per day × (1.0/10.0)/(7.0)
+   /// millimeter per week defined such that: centimeter per day = mm/wk × (1.0/10.0)/(7.0).
    /// </summary>
    public static readonly Velocity MillimeterPerWeek = new (
                                                             "millimeter per week"
@@ -4109,7 +4109,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// femtometer per hour, defined as: picometer per minute × (1.0/1000.0)/(60.0)
+   /// femtometer per hour defined such that: picometer per minute = fm/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity FemtometerPerHour = new (
                                                             "femtometer per hour"
@@ -4120,7 +4120,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// kilometer per minute, defined as: hectometer per second × (10.0)/(60.0)
+   /// kilometer per minute defined such that: hectometer per second = km/min × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity KilometerPerMinute = new (
                                                              "kilometer per minute"
@@ -4131,7 +4131,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per nonillion years, defined as: meter per octillion years × (1.0)/(1000.0)
+   /// meter per nonillion years defined such that: meter per octillion years = m/Qyr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerNonillionYears = new (
                                                                  "meter per nonillion years"
@@ -4142,7 +4142,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// megameter per minute, defined as: kilometer per second × (1000.0)/(60.0)
+   /// megameter per minute defined such that: kilometer per second = Mm/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity MegameterPerMinute = new (
                                                              "megameter per minute"
@@ -4153,7 +4153,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per decillion years, defined as: meter per nonillion years × (1.0)/(1000.0)
+   /// meter per decillion years defined such that: meter per nonillion years = m/decillion yr × (1.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MeterPerDecillionYears = new (
                                                                  "meter per decillion years"
@@ -4164,7 +4164,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// decimeter per million years, defined as: meter per millennium × (1.0/10.0)/(1000.0)
+   /// decimeter per million years defined such that: meter per millennium = dm/Myr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerMillionYears = new (
                                                                    "decimeter per million years"
@@ -4175,7 +4175,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// centimeter per decade, defined as: decimeter per year × (1.0/10.0)/(10.0)
+   /// centimeter per decade defined such that: decimeter per year = cm/decade × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity CentimeterPerDecade = new (
                                                               "centimeter per decade"
@@ -4186,7 +4186,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// nanometer per day, defined as: micrometer per hour × (1.0/1000.0)/(24.0)
+   /// nanometer per day defined such that: micrometer per hour = nm/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity NanometerPerDay = new (
                                                           "nanometer per day"
@@ -4197,7 +4197,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// attometer per hour, defined as: femtometer per minute × (1.0/1000.0)/(60.0)
+   /// attometer per hour defined such that: femtometer per minute = am/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity AttometerPerHour = new (
                                                            "attometer per hour"
@@ -4208,7 +4208,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// gigameter per minute, defined as: megameter per second × (1000.0)/(60.0)
+   /// gigameter per minute defined such that: megameter per second = Gm/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity GigameterPerMinute = new (
                                                              "gigameter per minute"
@@ -4219,7 +4219,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// terameter per minute, defined as: gigameter per second × (1000.0)/(60.0)
+   /// terameter per minute defined such that: gigameter per second = Tm/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity TerameterPerMinute = new (
                                                              "terameter per minute"
@@ -4230,7 +4230,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per tick, defined as: meter per nanosecond × (1.0)/(100.0)
+   /// meter per tick defined such that: meter per nanosecond = m/tick × (1.0)/(100.0).
    /// </summary>
    public static readonly Velocity MeterPerTick = new (
                                                        "meter per tick"
@@ -4241,7 +4241,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// decimeter per billion years, defined as: meter per million years × (1.0/10.0)/(1000.0)
+   /// decimeter per billion years defined such that: meter per million years = dm/Gyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerBillionYears = new (
                                                                    "decimeter per billion years"
@@ -4252,7 +4252,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// millimeter per year, defined as: centimeter per day × (1.0/10.0)/(365.2525)
+   /// millimeter per year defined such that: centimeter per day = mm/yr × (1.0/10.0)/(365.2525).
    /// </summary>
    public static readonly Velocity MillimeterPerYear = new (
                                                             "millimeter per year"
@@ -4263,7 +4263,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// micrometer per week, defined as: millimeter per day × (1.0/1000.0)/(7.0)
+   /// micrometer per week defined such that: millimeter per day = μm/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity MicrometerPerWeek = new (
                                                             "micrometer per week"
@@ -4274,7 +4274,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// zeptometer per hour, defined as: attometer per minute × (1.0/1000.0)/(60.0)
+   /// zeptometer per hour defined such that: attometer per minute = zm/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerHour = new (
                                                             "zeptometer per hour"
@@ -4285,7 +4285,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// petameter per minute, defined as: terameter per second × (1000.0)/(60.0)
+   /// petameter per minute defined such that: terameter per second = Pm/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity PetameterPerMinute = new (
                                                              "petameter per minute"
@@ -4296,7 +4296,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// centimeter per century, defined as: decimeter per decade × (1.0/10.0)/(10.0)
+   /// centimeter per century defined such that: decimeter per decade = cm/century × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity CentimeterPerCentury = new (
                                                                "centimeter per century"
@@ -4307,7 +4307,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// picometer per day, defined as: nanometer per hour × (1.0/1000.0)/(24.0)
+   /// picometer per day defined such that: nanometer per hour = pm/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity PicometerPerDay = new (
                                                           "picometer per day"
@@ -4318,7 +4318,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// exameter per minute, defined as: petameter per second × (1000.0)/(60.0)
+   /// exameter per minute defined such that: petameter per second = Em/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity ExameterPerMinute = new (
                                                             "exameter per minute"
@@ -4329,7 +4329,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// decimeter per trillion years, defined as: meter per billion years × (1.0/10.0)/(1000.0)
+   /// decimeter per trillion years defined such that: meter per billion years = dm/Tyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerTrillionYears = new (
                                                                     "decimeter per trillion years"
@@ -4340,7 +4340,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// yoctometer per hour, defined as: zeptometer per minute × (1.0/1000.0)/(60.0)
+   /// yoctometer per hour defined such that: zeptometer per minute = ym/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity YoctometerPerHour = new (
                                                             "yoctometer per hour"
@@ -4351,7 +4351,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// zettameter per minute, defined as: exameter per second × (1000.0)/(60.0)
+   /// zettameter per minute defined such that: exameter per second = Zm/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity ZettameterPerMinute = new (
                                                               "zettameter per minute"
@@ -4362,7 +4362,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// yottameter per minute, defined as: zettameter per second × (1000.0)/(60.0)
+   /// yottameter per minute defined such that: zettameter per second = Ym/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity YottameterPerMinute = new (
                                                               "yottameter per minute"
@@ -4373,7 +4373,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// decimeter per quadrillion years, defined as: meter per trillion years × (1.0/10.0)/(1000.0)
+   /// decimeter per quadrillion years defined such that: meter per trillion years = dm/Pyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerQuadrillionYears = new (
                                                                        "decimeter per quadrillion years"
@@ -4384,7 +4384,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// centimeter per millennium, defined as: decimeter per century × (1.0/10.0)/(10.0)
+   /// centimeter per millennium defined such that: decimeter per century = cm/kyr × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity CentimeterPerMillennium = new (
                                                                   "centimeter per millennium"
@@ -4395,7 +4395,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// millimeter per decade, defined as: centimeter per year × (1.0/10.0)/(10.0)
+   /// millimeter per decade defined such that: centimeter per year = mm/decade × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity MillimeterPerDecade = new (
                                                               "millimeter per decade"
@@ -4406,7 +4406,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// nanometer per week, defined as: micrometer per day × (1.0/1000.0)/(7.0)
+   /// nanometer per week defined such that: micrometer per day = nm/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity NanometerPerWeek = new (
                                                            "nanometer per week"
@@ -4417,7 +4417,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// femtometer per day, defined as: picometer per hour × (1.0/1000.0)/(24.0)
+   /// femtometer per day defined such that: picometer per hour = fm/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity FemtometerPerDay = new (
                                                            "femtometer per day"
@@ -4428,7 +4428,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// rontometer per hour, defined as: yoctometer per minute × (1.0/1000.0)/(60.0)
+   /// rontometer per hour defined such that: yoctometer per minute = rm/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity RontometerPerHour = new (
                                                             "rontometer per hour"
@@ -4439,7 +4439,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// ronnameter per minute, defined as: yottameter per second × (1000.0)/(60.0)
+   /// ronnameter per minute defined such that: yottameter per second = Rm/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity RonnameterPerMinute = new (
                                                               "ronnameter per minute"
@@ -4450,7 +4450,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// micrometer per year, defined as: millimeter per day × (1.0/1000.0)/(365.2525)
+   /// micrometer per year defined such that: millimeter per day = μm/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity MicrometerPerYear = new (
                                                             "micrometer per year"
@@ -4461,7 +4461,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// quettameter per minute, defined as: ronnameter per second × (1000.0)/(60.0)
+   /// quettameter per minute defined such that: ronnameter per second = Qm/min × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity QuettameterPerMinute = new (
                                                                "quettameter per minute"
@@ -4472,7 +4472,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// decimeter per quintillion years, defined as: meter per quadrillion years × (1.0/10.0)/(1000.0)
+   /// decimeter per quintillion years defined such that: meter per quadrillion years = dm/Eyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerQuintillionYears = new (
                                                                        "decimeter per quintillion years"
@@ -4483,7 +4483,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// quectometer per hour, defined as: rontometer per minute × (1.0/1000.0)/(60.0)
+   /// quectometer per hour defined such that: rontometer per minute = qm/hr × (1.0/1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity QuectometerPerHour = new (
                                                              "quectometer per hour"
@@ -4494,7 +4494,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// centimeter per million years, defined as: decimeter per millennium × (1.0/10.0)/(1000.0)
+   /// centimeter per million years defined such that: decimeter per millennium = cm/Myr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerMillionYears = new (
                                                                     "centimeter per million years"
@@ -4505,7 +4505,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// attometer per day, defined as: femtometer per hour × (1.0/1000.0)/(24.0)
+   /// attometer per day defined such that: femtometer per hour = am/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity AttometerPerDay = new (
                                                           "attometer per day"
@@ -4516,7 +4516,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// decimeter per sextillion years, defined as: meter per quintillion years × (1.0/10.0)/(1000.0)
+   /// decimeter per sextillion years defined such that: meter per quintillion years = dm/Zyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerSextillionYears = new (
                                                                       "decimeter per sextillion years"
@@ -4527,7 +4527,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// millimeter per century, defined as: centimeter per decade × (1.0/10.0)/(10.0)
+   /// millimeter per century defined such that: centimeter per decade = mm/century × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity MillimeterPerCentury = new (
                                                                "millimeter per century"
@@ -4538,7 +4538,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// picometer per week, defined as: nanometer per day × (1.0/1000.0)/(7.0)
+   /// picometer per week defined such that: nanometer per day = pm/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity PicometerPerWeek = new (
                                                            "picometer per week"
@@ -4549,7 +4549,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// dekameter per hour, defined as: meter per minute × (10.0)/(60.0)
+   /// dekameter per hour defined such that: meter per minute = dam/hr × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity DekameterPerHour = new (
                                                            "dekameter per hour"
@@ -4560,7 +4560,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// decimeter per septillion years, defined as: meter per sextillion years × (1.0/10.0)/(1000.0)
+   /// decimeter per septillion years defined such that: meter per sextillion years = dm/Yyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerSeptillionYears = new (
                                                                       "decimeter per septillion years"
@@ -4571,7 +4571,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// centimeter per billion years, defined as: decimeter per million years × (1.0/10.0)/(1000.0)
+   /// centimeter per billion years defined such that: decimeter per million years = cm/Gyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerBillionYears = new (
                                                                     "centimeter per billion years"
@@ -4582,7 +4582,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// micrometer per decade, defined as: millimeter per year × (1.0/1000.0)/(10.0)
+   /// micrometer per decade defined such that: millimeter per year = μm/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity MicrometerPerDecade = new (
                                                               "micrometer per decade"
@@ -4593,7 +4593,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// nanometer per year, defined as: micrometer per day × (1.0/1000.0)/(365.2525)
+   /// nanometer per year defined such that: micrometer per day = nm/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity NanometerPerYear = new (
                                                            "nanometer per year"
@@ -4604,7 +4604,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// zeptometer per day, defined as: attometer per hour × (1.0/1000.0)/(24.0)
+   /// zeptometer per day defined such that: attometer per hour = zm/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerDay = new (
                                                            "zeptometer per day"
@@ -4615,7 +4615,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// hectometer per hour, defined as: dekameter per minute × (10.0)/(60.0)
+   /// hectometer per hour defined such that: dekameter per minute = hm/hr × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity HectometerPerHour = new (
                                                             "hectometer per hour"
@@ -4626,7 +4626,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// decimeter per octillion years, defined as: meter per septillion years × (1.0/10.0)/(1000.0)
+   /// decimeter per octillion years defined such that: meter per septillion years = dm/Ryr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerOctillionYears = new (
                                                                      "decimeter per octillion years"
@@ -4637,7 +4637,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// millimeter per millennium, defined as: centimeter per century × (1.0/10.0)/(10.0)
+   /// millimeter per millennium defined such that: centimeter per century = mm/kyr × (1.0/10.0)/(10.0).
    /// </summary>
    public static readonly Velocity MillimeterPerMillennium = new (
                                                                   "millimeter per millennium"
@@ -4648,7 +4648,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per week, defined as: picometer per day × (1.0/1000.0)/(7.0)
+   /// femtometer per week defined such that: picometer per day = fm/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity FemtometerPerWeek = new (
                                                             "femtometer per week"
@@ -4659,7 +4659,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// kilometer per hour, defined as: hectometer per minute × (10.0)/(60.0)
+   /// kilometer per hour defined such that: hectometer per minute = km/hr × (10.0)/(60.0).
    /// </summary>
    public static readonly Velocity KilometerPerHour = new (
                                                            "kilometer per hour"
@@ -4670,7 +4670,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// centimeter per trillion years, defined as: decimeter per billion years × (1.0/10.0)/(1000.0)
+   /// centimeter per trillion years defined such that: decimeter per billion years = cm/Tyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerTrillionYears = new (
                                                                      "centimeter per trillion years"
@@ -4681,7 +4681,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yoctometer per day, defined as: zeptometer per hour × (1.0/1000.0)/(24.0)
+   /// yoctometer per day defined such that: zeptometer per hour = ym/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity YoctometerPerDay = new (
                                                            "yoctometer per day"
@@ -4692,7 +4692,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// decimeter per nonillion years, defined as: meter per octillion years × (1.0/10.0)/(1000.0)
+   /// decimeter per nonillion years defined such that: meter per octillion years = dm/Qyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerNonillionYears = new (
                                                                      "decimeter per nonillion years"
@@ -4703,7 +4703,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// megameter per hour, defined as: kilometer per minute × (1000.0)/(60.0)
+   /// megameter per hour defined such that: kilometer per minute = Mm/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity MegameterPerHour = new (
                                                            "megameter per hour"
@@ -4714,7 +4714,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// micrometer per century, defined as: millimeter per decade × (1.0/1000.0)/(10.0)
+   /// micrometer per century defined such that: millimeter per decade = μm/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity MicrometerPerCentury = new (
                                                                "micrometer per century"
@@ -4725,7 +4725,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// picometer per year, defined as: nanometer per day × (1.0/1000.0)/(365.2525)
+   /// picometer per year defined such that: nanometer per day = pm/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity PicometerPerYear = new (
                                                            "picometer per year"
@@ -4736,7 +4736,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// decimeter per decillion years, defined as: meter per nonillion years × (1.0/10.0)/(1000.0)
+   /// decimeter per decillion years defined such that: meter per nonillion years = dm/decillion yr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DecimeterPerDecillionYears = new (
                                                                      "decimeter per decillion years"
@@ -4747,7 +4747,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// centimeter per quadrillion years, defined as: decimeter per trillion years × (1.0/10.0)/(1000.0)
+   /// centimeter per quadrillion years defined such that: decimeter per trillion years = cm/Pyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerQuadrillionYears = new (
                                                                         "centimeter per quadrillion years"
@@ -4758,7 +4758,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// millimeter per million years, defined as: centimeter per millennium × (1.0/10.0)/(1000.0)
+   /// millimeter per million years defined such that: centimeter per millennium = mm/Myr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerMillionYears = new (
                                                                     "millimeter per million years"
@@ -4769,7 +4769,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// nanometer per decade, defined as: micrometer per year × (1.0/1000.0)/(10.0)
+   /// nanometer per decade defined such that: micrometer per year = nm/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity NanometerPerDecade = new (
                                                              "nanometer per decade"
@@ -4780,7 +4780,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// attometer per week, defined as: femtometer per day × (1.0/1000.0)/(7.0)
+   /// attometer per week defined such that: femtometer per day = am/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity AttometerPerWeek = new (
                                                            "attometer per week"
@@ -4791,7 +4791,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// rontometer per day, defined as: yoctometer per hour × (1.0/1000.0)/(24.0)
+   /// rontometer per day defined such that: yoctometer per hour = rm/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity RontometerPerDay = new (
                                                            "rontometer per day"
@@ -4802,7 +4802,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// gigameter per hour, defined as: megameter per minute × (1000.0)/(60.0)
+   /// gigameter per hour defined such that: megameter per minute = Gm/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity GigameterPerHour = new (
                                                            "gigameter per hour"
@@ -4813,7 +4813,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// terameter per hour, defined as: gigameter per minute × (1000.0)/(60.0)
+   /// terameter per hour defined such that: gigameter per minute = Tm/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity TerameterPerHour = new (
                                                            "terameter per hour"
@@ -4824,7 +4824,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// centimeter per quintillion years, defined as: decimeter per quadrillion years × (1.0/10.0)/(1000.0)
+   /// centimeter per quintillion years defined such that: decimeter per quadrillion years = cm/Eyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerQuintillionYears = new (
                                                                         "centimeter per quintillion years"
@@ -4835,7 +4835,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// quectometer per day, defined as: rontometer per hour × (1.0/1000.0)/(24.0)
+   /// quectometer per day defined such that: rontometer per hour = qm/dy × (1.0/1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity QuectometerPerDay = new (
                                                             "quectometer per day"
@@ -4846,7 +4846,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// decimeter per tick, defined as: meter per nanosecond × (1.0/10.0)/(100.0)
+   /// decimeter per tick defined such that: meter per nanosecond = dm/tick × (1.0/10.0)/(100.0).
    /// </summary>
    public static readonly Velocity DecimeterPerTick = new (
                                                            "decimeter per tick"
@@ -4857,7 +4857,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// millimeter per billion years, defined as: centimeter per million years × (1.0/10.0)/(1000.0)
+   /// millimeter per billion years defined such that: centimeter per million years = mm/Gyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerBillionYears = new (
                                                                     "millimeter per billion years"
@@ -4868,7 +4868,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// micrometer per millennium, defined as: millimeter per century × (1.0/1000.0)/(10.0)
+   /// micrometer per millennium defined such that: millimeter per century = μm/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity MicrometerPerMillennium = new (
                                                                   "micrometer per millennium"
@@ -4879,7 +4879,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// femtometer per year, defined as: picometer per day × (1.0/1000.0)/(365.2525)
+   /// femtometer per year defined such that: picometer per day = fm/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity FemtometerPerYear = new (
                                                             "femtometer per year"
@@ -4890,7 +4890,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// zeptometer per week, defined as: attometer per day × (1.0/1000.0)/(7.0)
+   /// zeptometer per week defined such that: attometer per day = zm/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerWeek = new (
                                                             "zeptometer per week"
@@ -4901,7 +4901,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// petameter per hour, defined as: terameter per minute × (1000.0)/(60.0)
+   /// petameter per hour defined such that: terameter per minute = Pm/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity PetameterPerHour = new (
                                                            "petameter per hour"
@@ -4912,7 +4912,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// centimeter per sextillion years, defined as: decimeter per quintillion years × (1.0/10.0)/(1000.0)
+   /// centimeter per sextillion years defined such that: decimeter per quintillion years = cm/Zyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerSextillionYears = new (
                                                                        "centimeter per sextillion years"
@@ -4923,7 +4923,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// nanometer per century, defined as: micrometer per decade × (1.0/1000.0)/(10.0)
+   /// nanometer per century defined such that: micrometer per decade = nm/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity NanometerPerCentury = new (
                                                               "nanometer per century"
@@ -4934,7 +4934,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// picometer per decade, defined as: nanometer per year × (1.0/1000.0)/(10.0)
+   /// picometer per decade defined such that: nanometer per year = pm/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity PicometerPerDecade = new (
                                                              "picometer per decade"
@@ -4945,7 +4945,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// dekameter per day, defined as: meter per hour × (10.0)/(24.0)
+   /// dekameter per day defined such that: meter per hour = dam/dy × (10.0)/(24.0).
    /// </summary>
    public static readonly Velocity DekameterPerDay = new (
                                                           "dekameter per day"
@@ -4956,7 +4956,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// exameter per hour, defined as: petameter per minute × (1000.0)/(60.0)
+   /// exameter per hour defined such that: petameter per minute = Em/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity ExameterPerHour = new (
                                                           "exameter per hour"
@@ -4967,7 +4967,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// millimeter per trillion years, defined as: centimeter per billion years × (1.0/10.0)/(1000.0)
+   /// millimeter per trillion years defined such that: centimeter per billion years = mm/Tyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerTrillionYears = new (
                                                                      "millimeter per trillion years"
@@ -4978,7 +4978,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yoctometer per week, defined as: zeptometer per day × (1.0/1000.0)/(7.0)
+   /// yoctometer per week defined such that: zeptometer per day = ym/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity YoctometerPerWeek = new (
                                                             "yoctometer per week"
@@ -4989,7 +4989,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// zettameter per hour, defined as: exameter per minute × (1000.0)/(60.0)
+   /// zettameter per hour defined such that: exameter per minute = Zm/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity ZettameterPerHour = new (
                                                             "zettameter per hour"
@@ -5000,7 +5000,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// centimeter per septillion years, defined as: decimeter per sextillion years × (1.0/10.0)/(1000.0)
+   /// centimeter per septillion years defined such that: decimeter per sextillion years = cm/Yyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerSeptillionYears = new (
                                                                        "centimeter per septillion years"
@@ -5011,7 +5011,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// micrometer per million years, defined as: millimeter per millennium × (1.0/1000.0)/(1000.0)
+   /// micrometer per million years defined such that: millimeter per millennium = μm/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerMillionYears = new (
                                                                     "micrometer per million years"
@@ -5022,7 +5022,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// attometer per year, defined as: femtometer per day × (1.0/1000.0)/(365.2525)
+   /// attometer per year defined such that: femtometer per day = am/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity AttometerPerYear = new (
                                                            "attometer per year"
@@ -5033,7 +5033,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// hectometer per day, defined as: dekameter per hour × (10.0)/(24.0)
+   /// hectometer per day defined such that: dekameter per hour = hm/dy × (10.0)/(24.0).
    /// </summary>
    public static readonly Velocity HectometerPerDay = new (
                                                            "hectometer per day"
@@ -5044,7 +5044,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// yottameter per hour, defined as: zettameter per minute × (1000.0)/(60.0)
+   /// yottameter per hour defined such that: zettameter per minute = Ym/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity YottameterPerHour = new (
                                                             "yottameter per hour"
@@ -5055,7 +5055,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// centimeter per octillion years, defined as: decimeter per septillion years × (1.0/10.0)/(1000.0)
+   /// centimeter per octillion years defined such that: decimeter per septillion years = cm/Ryr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerOctillionYears = new (
                                                                       "centimeter per octillion years"
@@ -5066,7 +5066,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// millimeter per quadrillion years, defined as: centimeter per trillion years × (1.0/10.0)/(1000.0)
+   /// millimeter per quadrillion years defined such that: centimeter per trillion years = mm/Pyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerQuadrillionYears = new (
                                                                         "millimeter per quadrillion years"
@@ -5077,7 +5077,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// nanometer per millennium, defined as: micrometer per century × (1.0/1000.0)/(10.0)
+   /// nanometer per millennium defined such that: micrometer per century = nm/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity NanometerPerMillennium = new (
                                                                  "nanometer per millennium"
@@ -5088,7 +5088,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// femtometer per decade, defined as: picometer per year × (1.0/1000.0)/(10.0)
+   /// femtometer per decade defined such that: picometer per year = fm/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity FemtometerPerDecade = new (
                                                               "femtometer per decade"
@@ -5099,7 +5099,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// rontometer per week, defined as: yoctometer per day × (1.0/1000.0)/(7.0)
+   /// rontometer per week defined such that: yoctometer per day = rm/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity RontometerPerWeek = new (
                                                             "rontometer per week"
@@ -5110,7 +5110,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// kilometer per day, defined as: hectometer per hour × (10.0)/(24.0)
+   /// kilometer per day defined such that: hectometer per hour = km/dy × (10.0)/(24.0).
    /// </summary>
    public static readonly Velocity KilometerPerDay = new (
                                                           "kilometer per day"
@@ -5121,7 +5121,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// ronnameter per hour, defined as: yottameter per minute × (1000.0)/(60.0)
+   /// ronnameter per hour defined such that: yottameter per minute = Rm/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity RonnameterPerHour = new (
                                                             "ronnameter per hour"
@@ -5132,7 +5132,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// picometer per century, defined as: nanometer per decade × (1.0/1000.0)/(10.0)
+   /// picometer per century defined such that: nanometer per decade = pm/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity PicometerPerCentury = new (
                                                               "picometer per century"
@@ -5143,7 +5143,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// micrometer per billion years, defined as: millimeter per million years × (1.0/1000.0)/(1000.0)
+   /// micrometer per billion years defined such that: millimeter per million years = μm/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerBillionYears = new (
                                                                     "micrometer per billion years"
@@ -5154,7 +5154,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zeptometer per year, defined as: attometer per day × (1.0/1000.0)/(365.2525)
+   /// zeptometer per year defined such that: attometer per day = zm/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity ZeptometerPerYear = new (
                                                             "zeptometer per year"
@@ -5165,7 +5165,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// quettameter per hour, defined as: ronnameter per minute × (1000.0)/(60.0)
+   /// quettameter per hour defined such that: ronnameter per minute = Qm/hr × (1000.0)/(60.0).
    /// </summary>
    public static readonly Velocity QuettameterPerHour = new (
                                                              "quettameter per hour"
@@ -5176,7 +5176,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// centimeter per nonillion years, defined as: decimeter per octillion years × (1.0/10.0)/(1000.0)
+   /// centimeter per nonillion years defined such that: decimeter per octillion years = cm/Qyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerNonillionYears = new (
                                                                       "centimeter per nonillion years"
@@ -5187,7 +5187,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// megameter per day, defined as: kilometer per hour × (1000.0)/(24.0)
+   /// megameter per day defined such that: kilometer per hour = Mm/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity MegameterPerDay = new (
                                                           "megameter per day"
@@ -5198,7 +5198,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// millimeter per quintillion years, defined as: centimeter per quadrillion years × (1.0/10.0)/(1000.0)
+   /// millimeter per quintillion years defined such that: centimeter per quadrillion years = mm/Eyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerQuintillionYears = new (
                                                                         "millimeter per quintillion years"
@@ -5209,7 +5209,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// quectometer per week, defined as: rontometer per day × (1.0/1000.0)/(7.0)
+   /// quectometer per week defined such that: rontometer per day = qm/wk × (1.0/1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity QuectometerPerWeek = new (
                                                              "quectometer per week"
@@ -5220,7 +5220,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// centimeter per decillion years, defined as: decimeter per nonillion years × (1.0/10.0)/(1000.0)
+   /// centimeter per decillion years defined such that: decimeter per nonillion years = cm/decillion yr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity CentimeterPerDecillionYears = new (
                                                                       "centimeter per decillion years"
@@ -5231,7 +5231,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// nanometer per million years, defined as: micrometer per millennium × (1.0/1000.0)/(1000.0)
+   /// nanometer per million years defined such that: micrometer per millennium = nm/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerMillionYears = new (
                                                                    "nanometer per million years"
@@ -5242,7 +5242,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per decade, defined as: femtometer per year × (1.0/1000.0)/(10.0)
+   /// attometer per decade defined such that: femtometer per year = am/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity AttometerPerDecade = new (
                                                              "attometer per decade"
@@ -5253,7 +5253,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// gigameter per day, defined as: megameter per hour × (1000.0)/(24.0)
+   /// gigameter per day defined such that: megameter per hour = Gm/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity GigameterPerDay = new (
                                                           "gigameter per day"
@@ -5264,7 +5264,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// micrometer per trillion years, defined as: millimeter per billion years × (1.0/1000.0)/(1000.0)
+   /// micrometer per trillion years defined such that: millimeter per billion years = μm/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerTrillionYears = new (
                                                                      "micrometer per trillion years"
@@ -5275,7 +5275,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yoctometer per year, defined as: zeptometer per day × (1.0/1000.0)/(365.2525)
+   /// yoctometer per year defined such that: zeptometer per day = ym/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity YoctometerPerYear = new (
                                                             "yoctometer per year"
@@ -5286,7 +5286,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// millimeter per sextillion years, defined as: centimeter per quintillion years × (1.0/10.0)/(1000.0)
+   /// millimeter per sextillion years defined such that: centimeter per quintillion years = mm/Zyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerSextillionYears = new (
                                                                        "millimeter per sextillion years"
@@ -5297,7 +5297,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// picometer per millennium, defined as: nanometer per century × (1.0/1000.0)/(10.0)
+   /// picometer per millennium defined such that: nanometer per century = pm/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity PicometerPerMillennium = new (
                                                                  "picometer per millennium"
@@ -5308,7 +5308,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// femtometer per century, defined as: picometer per decade × (1.0/1000.0)/(10.0)
+   /// femtometer per century defined such that: picometer per decade = fm/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity FemtometerPerCentury = new (
                                                                "femtometer per century"
@@ -5319,7 +5319,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// dekameter per week, defined as: meter per day × (10.0)/(7.0)
+   /// dekameter per week defined such that: meter per day = dam/wk × (10.0)/(7.0).
    /// </summary>
    public static readonly Velocity DekameterPerWeek = new (
                                                            "dekameter per week"
@@ -5330,7 +5330,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// terameter per day, defined as: gigameter per hour × (1000.0)/(24.0)
+   /// terameter per day defined such that: gigameter per hour = Tm/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity TerameterPerDay = new (
                                                           "terameter per day"
@@ -5341,7 +5341,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// centimeter per tick, defined as: decimeter per nanosecond × (1.0/10.0)/(100.0)
+   /// centimeter per tick defined such that: decimeter per nanosecond = cm/tick × (1.0/10.0)/(100.0).
    /// </summary>
    public static readonly Velocity CentimeterPerTick = new (
                                                             "centimeter per tick"
@@ -5352,7 +5352,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// millimeter per septillion years, defined as: centimeter per sextillion years × (1.0/10.0)/(1000.0)
+   /// millimeter per septillion years defined such that: centimeter per sextillion years = mm/Yyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerSeptillionYears = new (
                                                                        "millimeter per septillion years"
@@ -5363,7 +5363,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// micrometer per quadrillion years, defined as: millimeter per trillion years × (1.0/1000.0)/(1000.0)
+   /// micrometer per quadrillion years defined such that: millimeter per trillion years = μm/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerQuadrillionYears = new (
                                                                         "micrometer per quadrillion years"
@@ -5374,7 +5374,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// nanometer per billion years, defined as: micrometer per million years × (1.0/1000.0)/(1000.0)
+   /// nanometer per billion years defined such that: micrometer per million years = nm/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerBillionYears = new (
                                                                    "nanometer per billion years"
@@ -5385,7 +5385,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zeptometer per decade, defined as: attometer per year × (1.0/1000.0)/(10.0)
+   /// zeptometer per decade defined such that: attometer per year = zm/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerDecade = new (
                                                               "zeptometer per decade"
@@ -5396,7 +5396,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// rontometer per year, defined as: yoctometer per day × (1.0/1000.0)/(365.2525)
+   /// rontometer per year defined such that: yoctometer per day = rm/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity RontometerPerYear = new (
                                                             "rontometer per year"
@@ -5407,7 +5407,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// hectometer per week, defined as: dekameter per day × (10.0)/(7.0)
+   /// hectometer per week defined such that: dekameter per day = hm/wk × (10.0)/(7.0).
    /// </summary>
    public static readonly Velocity HectometerPerWeek = new (
                                                             "hectometer per week"
@@ -5418,7 +5418,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// petameter per day, defined as: terameter per hour × (1000.0)/(24.0)
+   /// petameter per day defined such that: terameter per hour = Pm/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity PetameterPerDay = new (
                                                           "petameter per day"
@@ -5429,7 +5429,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// picometer per million years, defined as: nanometer per millennium × (1.0/1000.0)/(1000.0)
+   /// picometer per million years defined such that: nanometer per millennium = pm/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerMillionYears = new (
                                                                    "picometer per million years"
@@ -5440,7 +5440,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// attometer per century, defined as: femtometer per decade × (1.0/1000.0)/(10.0)
+   /// attometer per century defined such that: femtometer per decade = am/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity AttometerPerCentury = new (
                                                               "attometer per century"
@@ -5451,7 +5451,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// exameter per day, defined as: petameter per hour × (1000.0)/(24.0)
+   /// exameter per day defined such that: petameter per hour = Em/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity ExameterPerDay = new (
                                                          "exameter per day"
@@ -5462,7 +5462,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         );
 
    /// <summary>
-   /// millimeter per octillion years, defined as: centimeter per septillion years × (1.0/10.0)/(1000.0)
+   /// millimeter per octillion years defined such that: centimeter per septillion years = mm/Ryr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerOctillionYears = new (
                                                                       "millimeter per octillion years"
@@ -5473,7 +5473,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// femtometer per millennium, defined as: picometer per century × (1.0/1000.0)/(10.0)
+   /// femtometer per millennium defined such that: picometer per century = fm/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity FemtometerPerMillennium = new (
                                                                   "femtometer per millennium"
@@ -5484,7 +5484,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per week, defined as: hectometer per day × (10.0)/(7.0)
+   /// kilometer per week defined such that: hectometer per day = km/wk × (10.0)/(7.0).
    /// </summary>
    public static readonly Velocity KilometerPerWeek = new (
                                                            "kilometer per week"
@@ -5495,7 +5495,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// micrometer per quintillion years, defined as: millimeter per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// micrometer per quintillion years defined such that: millimeter per quadrillion years = μm/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerQuintillionYears = new (
                                                                         "micrometer per quintillion years"
@@ -5506,7 +5506,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// quectometer per year, defined as: rontometer per day × (1.0/1000.0)/(365.2525)
+   /// quectometer per year defined such that: rontometer per day = qm/yr × (1.0/1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity QuectometerPerYear = new (
                                                              "quectometer per year"
@@ -5517,7 +5517,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// nanometer per trillion years, defined as: micrometer per billion years × (1.0/1000.0)/(1000.0)
+   /// nanometer per trillion years defined such that: micrometer per billion years = nm/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerTrillionYears = new (
                                                                     "nanometer per trillion years"
@@ -5528,7 +5528,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// yoctometer per decade, defined as: zeptometer per year × (1.0/1000.0)/(10.0)
+   /// yoctometer per decade defined such that: zeptometer per year = ym/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity YoctometerPerDecade = new (
                                                               "yoctometer per decade"
@@ -5539,7 +5539,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// zettameter per day, defined as: exameter per hour × (1000.0)/(24.0)
+   /// zettameter per day defined such that: exameter per hour = Zm/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity ZettameterPerDay = new (
                                                            "zettameter per day"
@@ -5550,7 +5550,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// millimeter per nonillion years, defined as: centimeter per octillion years × (1.0/10.0)/(1000.0)
+   /// millimeter per nonillion years defined such that: centimeter per octillion years = mm/Qyr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerNonillionYears = new (
                                                                       "millimeter per nonillion years"
@@ -5561,7 +5561,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// megameter per week, defined as: kilometer per day × (1000.0)/(7.0)
+   /// megameter per week defined such that: kilometer per day = Mm/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity MegameterPerWeek = new (
                                                            "megameter per week"
@@ -5572,7 +5572,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// yottameter per day, defined as: zettameter per hour × (1000.0)/(24.0)
+   /// yottameter per day defined such that: zettameter per hour = Ym/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity YottameterPerDay = new (
                                                            "yottameter per day"
@@ -5583,7 +5583,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// micrometer per sextillion years, defined as: millimeter per quintillion years × (1.0/1000.0)/(1000.0)
+   /// micrometer per sextillion years defined such that: millimeter per quintillion years = μm/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerSextillionYears = new (
                                                                        "micrometer per sextillion years"
@@ -5594,7 +5594,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// picometer per billion years, defined as: nanometer per million years × (1.0/1000.0)/(1000.0)
+   /// picometer per billion years defined such that: nanometer per million years = pm/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerBillionYears = new (
                                                                    "picometer per billion years"
@@ -5605,7 +5605,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zeptometer per century, defined as: attometer per decade × (1.0/1000.0)/(10.0)
+   /// zeptometer per century defined such that: attometer per decade = zm/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerCentury = new (
                                                                "zeptometer per century"
@@ -5616,7 +5616,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// dekameter per year, defined as: meter per day × (10.0)/(365.2525)
+   /// dekameter per year defined such that: meter per day = dam/yr × (10.0)/(365.2525).
    /// </summary>
    public static readonly Velocity DekameterPerYear = new (
                                                            "dekameter per year"
@@ -5627,7 +5627,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// millimeter per decillion years, defined as: centimeter per nonillion years × (1.0/10.0)/(1000.0)
+   /// millimeter per decillion years defined such that: centimeter per nonillion years = mm/decillion yr × (1.0/10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MillimeterPerDecillionYears = new (
                                                                       "millimeter per decillion years"
@@ -5638,7 +5638,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// nanometer per quadrillion years, defined as: micrometer per trillion years × (1.0/1000.0)/(1000.0)
+   /// nanometer per quadrillion years defined such that: micrometer per trillion years = nm/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerQuadrillionYears = new (
                                                                        "nanometer per quadrillion years"
@@ -5649,7 +5649,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// femtometer per million years, defined as: picometer per millennium × (1.0/1000.0)/(1000.0)
+   /// femtometer per million years defined such that: picometer per millennium = fm/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerMillionYears = new (
                                                                     "femtometer per million years"
@@ -5660,7 +5660,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// attometer per millennium, defined as: femtometer per century × (1.0/1000.0)/(10.0)
+   /// attometer per millennium defined such that: femtometer per century = am/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity AttometerPerMillennium = new (
                                                                  "attometer per millennium"
@@ -5671,7 +5671,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// rontometer per decade, defined as: yoctometer per year × (1.0/1000.0)/(10.0)
+   /// rontometer per decade defined such that: yoctometer per year = rm/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity RontometerPerDecade = new (
                                                               "rontometer per decade"
@@ -5682,7 +5682,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// gigameter per week, defined as: megameter per day × (1000.0)/(7.0)
+   /// gigameter per week defined such that: megameter per day = Gm/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity GigameterPerWeek = new (
                                                            "gigameter per week"
@@ -5693,7 +5693,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// ronnameter per day, defined as: yottameter per hour × (1000.0)/(24.0)
+   /// ronnameter per day defined such that: yottameter per hour = Rm/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity RonnameterPerDay = new (
                                                            "ronnameter per day"
@@ -5704,7 +5704,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// micrometer per septillion years, defined as: millimeter per sextillion years × (1.0/1000.0)/(1000.0)
+   /// micrometer per septillion years defined such that: millimeter per sextillion years = μm/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerSeptillionYears = new (
                                                                        "micrometer per septillion years"
@@ -5715,7 +5715,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// hectometer per year, defined as: dekameter per day × (10.0)/(365.2525)
+   /// hectometer per year defined such that: dekameter per day = hm/yr × (10.0)/(365.2525).
    /// </summary>
    public static readonly Velocity HectometerPerYear = new (
                                                             "hectometer per year"
@@ -5726,7 +5726,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// quettameter per day, defined as: ronnameter per hour × (1000.0)/(24.0)
+   /// quettameter per day defined such that: ronnameter per hour = Qm/dy × (1000.0)/(24.0).
    /// </summary>
    public static readonly Velocity QuettameterPerDay = new (
                                                             "quettameter per day"
@@ -5737,7 +5737,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// terameter per week, defined as: gigameter per day × (1000.0)/(7.0)
+   /// terameter per week defined such that: gigameter per day = Tm/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity TerameterPerWeek = new (
                                                            "terameter per week"
@@ -5748,7 +5748,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// picometer per trillion years, defined as: nanometer per billion years × (1.0/1000.0)/(1000.0)
+   /// picometer per trillion years defined such that: nanometer per billion years = pm/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerTrillionYears = new (
                                                                     "picometer per trillion years"
@@ -5759,7 +5759,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// yoctometer per century, defined as: zeptometer per decade × (1.0/1000.0)/(10.0)
+   /// yoctometer per century defined such that: zeptometer per decade = ym/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity YoctometerPerCentury = new (
                                                                "yoctometer per century"
@@ -5770,7 +5770,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// nanometer per quintillion years, defined as: micrometer per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// nanometer per quintillion years defined such that: micrometer per quadrillion years = nm/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerQuintillionYears = new (
                                                                        "nanometer per quintillion years"
@@ -5781,7 +5781,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// quectometer per decade, defined as: rontometer per year × (1.0/1000.0)/(10.0)
+   /// quectometer per decade defined such that: rontometer per year = qm/decade × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity QuectometerPerDecade = new (
                                                                "quectometer per decade"
@@ -5792,7 +5792,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// millimeter per tick, defined as: centimeter per nanosecond × (1.0/10.0)/(100.0)
+   /// millimeter per tick defined such that: centimeter per nanosecond = mm/tick × (1.0/10.0)/(100.0).
    /// </summary>
    public static readonly Velocity MillimeterPerTick = new (
                                                             "millimeter per tick"
@@ -5803,7 +5803,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// micrometer per octillion years, defined as: millimeter per septillion years × (1.0/1000.0)/(1000.0)
+   /// micrometer per octillion years defined such that: millimeter per septillion years = μm/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerOctillionYears = new (
                                                                       "micrometer per octillion years"
@@ -5814,7 +5814,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// femtometer per billion years, defined as: picometer per million years × (1.0/1000.0)/(1000.0)
+   /// femtometer per billion years defined such that: picometer per million years = fm/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerBillionYears = new (
                                                                     "femtometer per billion years"
@@ -5825,7 +5825,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zeptometer per millennium, defined as: attometer per century × (1.0/1000.0)/(10.0)
+   /// zeptometer per millennium defined such that: attometer per century = zm/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerMillennium = new (
                                                                   "zeptometer per millennium"
@@ -5836,7 +5836,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per year, defined as: hectometer per day × (10.0)/(365.2525)
+   /// kilometer per year defined such that: hectometer per day = km/yr × (10.0)/(365.2525).
    /// </summary>
    public static readonly Velocity KilometerPerYear = new (
                                                            "kilometer per year"
@@ -5847,7 +5847,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// petameter per week, defined as: terameter per day × (1000.0)/(7.0)
+   /// petameter per week defined such that: terameter per day = Pm/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity PetameterPerWeek = new (
                                                            "petameter per week"
@@ -5858,7 +5858,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// attometer per million years, defined as: femtometer per millennium × (1.0/1000.0)/(1000.0)
+   /// attometer per million years defined such that: femtometer per millennium = am/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerMillionYears = new (
                                                                    "attometer per million years"
@@ -5869,7 +5869,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// nanometer per sextillion years, defined as: micrometer per quintillion years × (1.0/1000.0)/(1000.0)
+   /// nanometer per sextillion years defined such that: micrometer per quintillion years = nm/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerSextillionYears = new (
                                                                       "nanometer per sextillion years"
@@ -5880,7 +5880,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// picometer per quadrillion years, defined as: nanometer per trillion years × (1.0/1000.0)/(1000.0)
+   /// picometer per quadrillion years defined such that: nanometer per trillion years = pm/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerQuadrillionYears = new (
                                                                        "picometer per quadrillion years"
@@ -5891,7 +5891,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// rontometer per century, defined as: yoctometer per decade × (1.0/1000.0)/(10.0)
+   /// rontometer per century defined such that: yoctometer per decade = rm/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity RontometerPerCentury = new (
                                                                "rontometer per century"
@@ -5902,7 +5902,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// dekameter per decade, defined as: meter per year × (10.0)/(10.0)
+   /// dekameter per decade defined such that: meter per year = dam/decade × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity DekameterPerDecade = new (
                                                              "dekameter per decade"
@@ -5913,7 +5913,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// exameter per week, defined as: petameter per day × (1000.0)/(7.0)
+   /// exameter per week defined such that: petameter per day = Em/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity ExameterPerWeek = new (
                                                           "exameter per week"
@@ -5924,7 +5924,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// micrometer per nonillion years, defined as: millimeter per octillion years × (1.0/1000.0)/(1000.0)
+   /// micrometer per nonillion years defined such that: millimeter per octillion years = μm/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerNonillionYears = new (
                                                                       "micrometer per nonillion years"
@@ -5935,7 +5935,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// megameter per year, defined as: kilometer per day × (1000.0)/(365.2525)
+   /// megameter per year defined such that: kilometer per day = Mm/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity MegameterPerYear = new (
                                                            "megameter per year"
@@ -5946,7 +5946,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// femtometer per trillion years, defined as: picometer per billion years × (1.0/1000.0)/(1000.0)
+   /// femtometer per trillion years defined such that: picometer per billion years = fm/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerTrillionYears = new (
                                                                      "femtometer per trillion years"
@@ -5957,7 +5957,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yoctometer per millennium, defined as: zeptometer per century × (1.0/1000.0)/(10.0)
+   /// yoctometer per millennium defined such that: zeptometer per century = ym/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity YoctometerPerMillennium = new (
                                                                   "yoctometer per millennium"
@@ -5968,7 +5968,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// zettameter per week, defined as: exameter per day × (1000.0)/(7.0)
+   /// zettameter per week defined such that: exameter per day = Zm/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity ZettameterPerWeek = new (
                                                             "zettameter per week"
@@ -5979,7 +5979,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// micrometer per decillion years, defined as: millimeter per nonillion years × (1.0/1000.0)/(1000.0)
+   /// micrometer per decillion years defined such that: millimeter per nonillion years = μm/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MicrometerPerDecillionYears = new (
                                                                       "micrometer per decillion years"
@@ -5990,7 +5990,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// nanometer per septillion years, defined as: micrometer per sextillion years × (1.0/1000.0)/(1000.0)
+   /// nanometer per septillion years defined such that: micrometer per sextillion years = nm/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerSeptillionYears = new (
                                                                       "nanometer per septillion years"
@@ -6001,7 +6001,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// attometer per billion years, defined as: femtometer per million years × (1.0/1000.0)/(1000.0)
+   /// attometer per billion years defined such that: femtometer per million years = am/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerBillionYears = new (
                                                                    "attometer per billion years"
@@ -6012,7 +6012,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// zeptometer per million years, defined as: attometer per millennium × (1.0/1000.0)/(1000.0)
+   /// zeptometer per million years defined such that: attometer per millennium = zm/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerMillionYears = new (
                                                                     "zeptometer per million years"
@@ -6023,7 +6023,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// hectometer per decade, defined as: dekameter per year × (10.0)/(10.0)
+   /// hectometer per decade defined such that: dekameter per year = hm/decade × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity HectometerPerDecade = new (
                                                               "hectometer per decade"
@@ -6034,7 +6034,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// gigameter per year, defined as: megameter per day × (1000.0)/(365.2525)
+   /// gigameter per year defined such that: megameter per day = Gm/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity GigameterPerYear = new (
                                                            "gigameter per year"
@@ -6045,7 +6045,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// picometer per quintillion years, defined as: nanometer per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// picometer per quintillion years defined such that: nanometer per quadrillion years = pm/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerQuintillionYears = new (
                                                                        "picometer per quintillion years"
@@ -6056,7 +6056,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// quectometer per century, defined as: rontometer per decade × (1.0/1000.0)/(10.0)
+   /// quectometer per century defined such that: rontometer per decade = qm/century × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity QuectometerPerCentury = new (
                                                                 "quectometer per century"
@@ -6067,7 +6067,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// yottameter per week, defined as: zettameter per day × (1000.0)/(7.0)
+   /// yottameter per week defined such that: zettameter per day = Ym/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity YottameterPerWeek = new (
                                                             "yottameter per week"
@@ -6078,7 +6078,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// terameter per year, defined as: gigameter per day × (1000.0)/(365.2525)
+   /// terameter per year defined such that: gigameter per day = Tm/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity TerameterPerYear = new (
                                                            "terameter per year"
@@ -6089,7 +6089,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// nanometer per octillion years, defined as: micrometer per septillion years × (1.0/1000.0)/(1000.0)
+   /// nanometer per octillion years defined such that: micrometer per septillion years = nm/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerOctillionYears = new (
                                                                      "nanometer per octillion years"
@@ -6100,7 +6100,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// femtometer per quadrillion years, defined as: picometer per trillion years × (1.0/1000.0)/(1000.0)
+   /// femtometer per quadrillion years defined such that: picometer per trillion years = fm/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerQuadrillionYears = new (
                                                                         "femtometer per quadrillion years"
@@ -6111,7 +6111,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// rontometer per millennium, defined as: yoctometer per century × (1.0/1000.0)/(10.0)
+   /// rontometer per millennium defined such that: yoctometer per century = rm/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity RontometerPerMillennium = new (
                                                                   "rontometer per millennium"
@@ -6122,7 +6122,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per decade, defined as: hectometer per year × (10.0)/(10.0)
+   /// kilometer per decade defined such that: hectometer per year = km/decade × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity KilometerPerDecade = new (
                                                              "kilometer per decade"
@@ -6133,7 +6133,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// ronnameter per week, defined as: yottameter per day × (1000.0)/(7.0)
+   /// ronnameter per week defined such that: yottameter per day = Rm/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity RonnameterPerWeek = new (
                                                             "ronnameter per week"
@@ -6144,7 +6144,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// picometer per sextillion years, defined as: nanometer per quintillion years × (1.0/1000.0)/(1000.0)
+   /// picometer per sextillion years defined such that: nanometer per quintillion years = pm/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerSextillionYears = new (
                                                                       "picometer per sextillion years"
@@ -6155,7 +6155,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// dekameter per century, defined as: meter per decade × (10.0)/(10.0)
+   /// dekameter per century defined such that: meter per decade = dam/century × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity DekameterPerCentury = new (
                                                               "dekameter per century"
@@ -6166,7 +6166,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// attometer per trillion years, defined as: femtometer per billion years × (1.0/1000.0)/(1000.0)
+   /// attometer per trillion years defined such that: femtometer per billion years = am/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerTrillionYears = new (
                                                                     "attometer per trillion years"
@@ -6177,7 +6177,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// yoctometer per million years, defined as: zeptometer per millennium × (1.0/1000.0)/(1000.0)
+   /// yoctometer per million years defined such that: zeptometer per millennium = ym/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerMillionYears = new (
                                                                     "yoctometer per million years"
@@ -6188,7 +6188,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// micrometer per tick, defined as: millimeter per nanosecond × (1.0/1000.0)/(100.0)
+   /// micrometer per tick defined such that: millimeter per nanosecond = μm/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity MicrometerPerTick = new (
                                                             "micrometer per tick"
@@ -6199,7 +6199,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// zeptometer per billion years, defined as: attometer per million years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per billion years defined such that: attometer per million years = zm/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerBillionYears = new (
                                                                     "zeptometer per billion years"
@@ -6210,7 +6210,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// petameter per year, defined as: terameter per day × (1000.0)/(365.2525)
+   /// petameter per year defined such that: terameter per day = Pm/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity PetameterPerYear = new (
                                                            "petameter per year"
@@ -6221,7 +6221,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// quettameter per week, defined as: ronnameter per day × (1000.0)/(7.0)
+   /// quettameter per week defined such that: ronnameter per day = Qm/wk × (1000.0)/(7.0).
    /// </summary>
    public static readonly Velocity QuettameterPerWeek = new (
                                                              "quettameter per week"
@@ -6232,7 +6232,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// nanometer per nonillion years, defined as: micrometer per octillion years × (1.0/1000.0)/(1000.0)
+   /// nanometer per nonillion years defined such that: micrometer per octillion years = nm/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerNonillionYears = new (
                                                                      "nanometer per nonillion years"
@@ -6243,7 +6243,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// megameter per decade, defined as: kilometer per year × (1000.0)/(10.0)
+   /// megameter per decade defined such that: kilometer per year = Mm/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity MegameterPerDecade = new (
                                                              "megameter per decade"
@@ -6254,7 +6254,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// femtometer per quintillion years, defined as: picometer per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// femtometer per quintillion years defined such that: picometer per quadrillion years = fm/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerQuintillionYears = new (
                                                                         "femtometer per quintillion years"
@@ -6265,7 +6265,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// quectometer per millennium, defined as: rontometer per century × (1.0/1000.0)/(10.0)
+   /// quectometer per millennium defined such that: rontometer per century = qm/kyr × (1.0/1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity QuectometerPerMillennium = new (
                                                                    "quectometer per millennium"
@@ -6276,7 +6276,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// picometer per septillion years, defined as: nanometer per sextillion years × (1.0/1000.0)/(1000.0)
+   /// picometer per septillion years defined such that: nanometer per sextillion years = pm/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerSeptillionYears = new (
                                                                       "picometer per septillion years"
@@ -6287,7 +6287,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// hectometer per century, defined as: dekameter per decade × (10.0)/(10.0)
+   /// hectometer per century defined such that: dekameter per decade = hm/century × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity HectometerPerCentury = new (
                                                                "hectometer per century"
@@ -6298,7 +6298,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// exameter per year, defined as: petameter per day × (1000.0)/(365.2525)
+   /// exameter per year defined such that: petameter per day = Em/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity ExameterPerYear = new (
                                                           "exameter per year"
@@ -6309,7 +6309,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// nanometer per decillion years, defined as: micrometer per nonillion years × (1.0/1000.0)/(1000.0)
+   /// nanometer per decillion years defined such that: micrometer per nonillion years = nm/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity NanometerPerDecillionYears = new (
                                                                      "nanometer per decillion years"
@@ -6320,7 +6320,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// attometer per quadrillion years, defined as: femtometer per trillion years × (1.0/1000.0)/(1000.0)
+   /// attometer per quadrillion years defined such that: femtometer per trillion years = am/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerQuadrillionYears = new (
                                                                        "attometer per quadrillion years"
@@ -6331,7 +6331,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// rontometer per million years, defined as: yoctometer per millennium × (1.0/1000.0)/(1000.0)
+   /// rontometer per million years defined such that: yoctometer per millennium = rm/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerMillionYears = new (
                                                                     "rontometer per million years"
@@ -6342,7 +6342,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// gigameter per decade, defined as: megameter per year × (1000.0)/(10.0)
+   /// gigameter per decade defined such that: megameter per year = Gm/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity GigameterPerDecade = new (
                                                              "gigameter per decade"
@@ -6353,7 +6353,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// zeptometer per trillion years, defined as: attometer per billion years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per trillion years defined such that: attometer per billion years = zm/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerTrillionYears = new (
                                                                      "zeptometer per trillion years"
@@ -6364,7 +6364,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yoctometer per billion years, defined as: zeptometer per million years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per billion years defined such that: zeptometer per million years = ym/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerBillionYears = new (
                                                                     "yoctometer per billion years"
@@ -6375,7 +6375,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zettameter per year, defined as: exameter per day × (1000.0)/(365.2525)
+   /// zettameter per year defined such that: exameter per day = Zm/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity ZettameterPerYear = new (
                                                             "zettameter per year"
@@ -6386,7 +6386,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// picometer per octillion years, defined as: nanometer per septillion years × (1.0/1000.0)/(1000.0)
+   /// picometer per octillion years defined such that: nanometer per septillion years = pm/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerOctillionYears = new (
                                                                      "picometer per octillion years"
@@ -6397,7 +6397,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// femtometer per sextillion years, defined as: picometer per quintillion years × (1.0/1000.0)/(1000.0)
+   /// femtometer per sextillion years defined such that: picometer per quintillion years = fm/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerSextillionYears = new (
                                                                        "femtometer per sextillion years"
@@ -6408,7 +6408,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// dekameter per millennium, defined as: meter per century × (10.0)/(10.0)
+   /// dekameter per millennium defined such that: meter per century = dam/kyr × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity DekameterPerMillennium = new (
                                                                  "dekameter per millennium"
@@ -6419,7 +6419,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// kilometer per century, defined as: hectometer per decade × (10.0)/(10.0)
+   /// kilometer per century defined such that: hectometer per decade = km/century × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity KilometerPerCentury = new (
                                                               "kilometer per century"
@@ -6430,7 +6430,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// terameter per decade, defined as: gigameter per year × (1000.0)/(10.0)
+   /// terameter per decade defined such that: gigameter per year = Tm/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity TerameterPerDecade = new (
                                                              "terameter per decade"
@@ -6441,7 +6441,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// yottameter per year, defined as: zettameter per day × (1000.0)/(365.2525)
+   /// yottameter per year defined such that: zettameter per day = Ym/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity YottameterPerYear = new (
                                                             "yottameter per year"
@@ -6452,7 +6452,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// attometer per quintillion years, defined as: femtometer per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// attometer per quintillion years defined such that: femtometer per quadrillion years = am/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerQuintillionYears = new (
                                                                        "attometer per quintillion years"
@@ -6463,7 +6463,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// quectometer per million years, defined as: rontometer per millennium × (1.0/1000.0)/(1000.0)
+   /// quectometer per million years defined such that: rontometer per millennium = qm/Myr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerMillionYears = new (
                                                                      "quectometer per million years"
@@ -6474,7 +6474,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// picometer per nonillion years, defined as: nanometer per octillion years × (1.0/1000.0)/(1000.0)
+   /// picometer per nonillion years defined such that: nanometer per octillion years = pm/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerNonillionYears = new (
                                                                      "picometer per nonillion years"
@@ -6485,7 +6485,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// megameter per century, defined as: kilometer per decade × (1000.0)/(10.0)
+   /// megameter per century defined such that: kilometer per decade = Mm/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity MegameterPerCentury = new (
                                                               "megameter per century"
@@ -6496,7 +6496,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// nanometer per tick, defined as: micrometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// nanometer per tick defined such that: micrometer per nanosecond = nm/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity NanometerPerTick = new (
                                                            "nanometer per tick"
@@ -6507,7 +6507,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// femtometer per septillion years, defined as: picometer per sextillion years × (1.0/1000.0)/(1000.0)
+   /// femtometer per septillion years defined such that: picometer per sextillion years = fm/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerSeptillionYears = new (
                                                                        "femtometer per septillion years"
@@ -6518,7 +6518,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// zeptometer per quadrillion years, defined as: attometer per trillion years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per quadrillion years defined such that: attometer per trillion years = zm/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerQuadrillionYears = new (
                                                                         "zeptometer per quadrillion years"
@@ -6529,7 +6529,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// rontometer per billion years, defined as: yoctometer per million years × (1.0/1000.0)/(1000.0)
+   /// rontometer per billion years defined such that: yoctometer per million years = rm/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerBillionYears = new (
                                                                     "rontometer per billion years"
@@ -6540,7 +6540,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// hectometer per millennium, defined as: dekameter per century × (10.0)/(10.0)
+   /// hectometer per millennium defined such that: dekameter per century = hm/kyr × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity HectometerPerMillennium = new (
                                                                   "hectometer per millennium"
@@ -6551,7 +6551,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// petameter per decade, defined as: terameter per year × (1000.0)/(10.0)
+   /// petameter per decade defined such that: terameter per year = Pm/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity PetameterPerDecade = new (
                                                              "petameter per decade"
@@ -6562,7 +6562,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// ronnameter per year, defined as: yottameter per day × (1000.0)/(365.2525)
+   /// ronnameter per year defined such that: yottameter per day = Rm/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity RonnameterPerYear = new (
                                                             "ronnameter per year"
@@ -6573,7 +6573,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// yoctometer per trillion years, defined as: zeptometer per billion years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per trillion years defined such that: zeptometer per billion years = ym/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerTrillionYears = new (
                                                                      "yoctometer per trillion years"
@@ -6584,7 +6584,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// quettameter per year, defined as: ronnameter per day × (1000.0)/(365.2525)
+   /// quettameter per year defined such that: ronnameter per day = Qm/yr × (1000.0)/(365.2525).
    /// </summary>
    public static readonly Velocity QuettameterPerYear = new (
                                                              "quettameter per year"
@@ -6595,7 +6595,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// picometer per decillion years, defined as: nanometer per nonillion years × (1.0/1000.0)/(1000.0)
+   /// picometer per decillion years defined such that: nanometer per nonillion years = pm/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PicometerPerDecillionYears = new (
                                                                      "picometer per decillion years"
@@ -6606,7 +6606,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// attometer per sextillion years, defined as: femtometer per quintillion years × (1.0/1000.0)/(1000.0)
+   /// attometer per sextillion years defined such that: femtometer per quintillion years = am/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerSextillionYears = new (
                                                                       "attometer per sextillion years"
@@ -6617,7 +6617,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// dekameter per million years, defined as: meter per millennium × (10.0)/(1000.0)
+   /// dekameter per million years defined such that: meter per millennium = dam/Myr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerMillionYears = new (
                                                                    "dekameter per million years"
@@ -6628,7 +6628,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// gigameter per century, defined as: megameter per decade × (1000.0)/(10.0)
+   /// gigameter per century defined such that: megameter per decade = Gm/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity GigameterPerCentury = new (
                                                               "gigameter per century"
@@ -6639,7 +6639,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// exameter per decade, defined as: petameter per year × (1000.0)/(10.0)
+   /// exameter per decade defined such that: petameter per year = Em/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ExameterPerDecade = new (
                                                             "exameter per decade"
@@ -6650,7 +6650,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// femtometer per octillion years, defined as: picometer per septillion years × (1.0/1000.0)/(1000.0)
+   /// femtometer per octillion years defined such that: picometer per septillion years = fm/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerOctillionYears = new (
                                                                       "femtometer per octillion years"
@@ -6661,7 +6661,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// kilometer per millennium, defined as: hectometer per century × (10.0)/(10.0)
+   /// kilometer per millennium defined such that: hectometer per century = km/kyr × (10.0)/(10.0).
    /// </summary>
    public static readonly Velocity KilometerPerMillennium = new (
                                                                  "kilometer per millennium"
@@ -6672,7 +6672,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// zeptometer per quintillion years, defined as: attometer per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per quintillion years defined such that: attometer per quadrillion years = zm/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerQuintillionYears = new (
                                                                         "zeptometer per quintillion years"
@@ -6683,7 +6683,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// quectometer per billion years, defined as: rontometer per million years × (1.0/1000.0)/(1000.0)
+   /// quectometer per billion years defined such that: rontometer per million years = qm/Gyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerBillionYears = new (
                                                                      "quectometer per billion years"
@@ -6694,7 +6694,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yoctometer per quadrillion years, defined as: zeptometer per trillion years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per quadrillion years defined such that: zeptometer per trillion years = ym/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerQuadrillionYears = new (
                                                                         "yoctometer per quadrillion years"
@@ -6705,7 +6705,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// rontometer per trillion years, defined as: yoctometer per billion years × (1.0/1000.0)/(1000.0)
+   /// rontometer per trillion years defined such that: yoctometer per billion years = rm/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerTrillionYears = new (
                                                                      "rontometer per trillion years"
@@ -6716,7 +6716,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// zettameter per decade, defined as: exameter per year × (1000.0)/(10.0)
+   /// zettameter per decade defined such that: exameter per year = Zm/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ZettameterPerDecade = new (
                                                               "zettameter per decade"
@@ -6727,7 +6727,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// terameter per century, defined as: gigameter per decade × (1000.0)/(10.0)
+   /// terameter per century defined such that: gigameter per decade = Tm/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity TerameterPerCentury = new (
                                                               "terameter per century"
@@ -6738,7 +6738,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// attometer per septillion years, defined as: femtometer per sextillion years × (1.0/1000.0)/(1000.0)
+   /// attometer per septillion years defined such that: femtometer per sextillion years = am/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerSeptillionYears = new (
                                                                       "attometer per septillion years"
@@ -6749,7 +6749,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// hectometer per million years, defined as: dekameter per millennium × (10.0)/(1000.0)
+   /// hectometer per million years defined such that: dekameter per millennium = hm/Myr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerMillionYears = new (
                                                                     "hectometer per million years"
@@ -6760,7 +6760,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// femtometer per nonillion years, defined as: picometer per octillion years × (1.0/1000.0)/(1000.0)
+   /// femtometer per nonillion years defined such that: picometer per octillion years = fm/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerNonillionYears = new (
                                                                       "femtometer per nonillion years"
@@ -6771,7 +6771,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// megameter per millennium, defined as: kilometer per century × (1000.0)/(10.0)
+   /// megameter per millennium defined such that: kilometer per century = Mm/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity MegameterPerMillennium = new (
                                                                  "megameter per millennium"
@@ -6782,7 +6782,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// yottameter per decade, defined as: zettameter per year × (1000.0)/(10.0)
+   /// yottameter per decade defined such that: zettameter per year = Ym/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity YottameterPerDecade = new (
                                                               "yottameter per decade"
@@ -6793,7 +6793,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// picometer per tick, defined as: nanometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// picometer per tick defined such that: nanometer per nanosecond = pm/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity PicometerPerTick = new (
                                                            "picometer per tick"
@@ -6804,7 +6804,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// zeptometer per sextillion years, defined as: attometer per quintillion years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per sextillion years defined such that: attometer per quintillion years = zm/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerSextillionYears = new (
                                                                        "zeptometer per sextillion years"
@@ -6815,7 +6815,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// dekameter per billion years, defined as: meter per million years × (10.0)/(1000.0)
+   /// dekameter per billion years defined such that: meter per million years = dam/Gyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerBillionYears = new (
                                                                    "dekameter per billion years"
@@ -6826,7 +6826,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// petameter per century, defined as: terameter per decade × (1000.0)/(10.0)
+   /// petameter per century defined such that: terameter per decade = Pm/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity PetameterPerCentury = new (
                                                               "petameter per century"
@@ -6837,7 +6837,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// yoctometer per quintillion years, defined as: zeptometer per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per quintillion years defined such that: zeptometer per quadrillion years = ym/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerQuintillionYears = new (
                                                                         "yoctometer per quintillion years"
@@ -6848,7 +6848,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// quectometer per trillion years, defined as: rontometer per billion years × (1.0/1000.0)/(1000.0)
+   /// quectometer per trillion years defined such that: rontometer per billion years = qm/Tyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerTrillionYears = new (
                                                                       "quectometer per trillion years"
@@ -6859,7 +6859,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// femtometer per decillion years, defined as: picometer per nonillion years × (1.0/1000.0)/(1000.0)
+   /// femtometer per decillion years defined such that: picometer per nonillion years = fm/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity FemtometerPerDecillionYears = new (
                                                                       "femtometer per decillion years"
@@ -6870,7 +6870,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// attometer per octillion years, defined as: femtometer per septillion years × (1.0/1000.0)/(1000.0)
+   /// attometer per octillion years defined such that: femtometer per septillion years = am/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerOctillionYears = new (
                                                                      "attometer per octillion years"
@@ -6881,7 +6881,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// rontometer per quadrillion years, defined as: yoctometer per trillion years × (1.0/1000.0)/(1000.0)
+   /// rontometer per quadrillion years defined such that: yoctometer per trillion years = rm/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerQuadrillionYears = new (
                                                                         "rontometer per quadrillion years"
@@ -6892,7 +6892,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// kilometer per million years, defined as: hectometer per millennium × (10.0)/(1000.0)
+   /// kilometer per million years defined such that: hectometer per millennium = km/Myr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerMillionYears = new (
                                                                    "kilometer per million years"
@@ -6903,7 +6903,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// gigameter per millennium, defined as: megameter per century × (1000.0)/(10.0)
+   /// gigameter per millennium defined such that: megameter per century = Gm/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity GigameterPerMillennium = new (
                                                                  "gigameter per millennium"
@@ -6914,7 +6914,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// ronnameter per decade, defined as: yottameter per year × (1000.0)/(10.0)
+   /// ronnameter per decade defined such that: yottameter per year = Rm/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity RonnameterPerDecade = new (
                                                               "ronnameter per decade"
@@ -6925,7 +6925,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// exameter per century, defined as: petameter per decade × (1000.0)/(10.0)
+   /// exameter per century defined such that: petameter per decade = Em/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ExameterPerCentury = new (
                                                              "exameter per century"
@@ -6936,7 +6936,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// zeptometer per septillion years, defined as: attometer per sextillion years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per septillion years defined such that: attometer per sextillion years = zm/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerSeptillionYears = new (
                                                                        "zeptometer per septillion years"
@@ -6947,7 +6947,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// hectometer per billion years, defined as: dekameter per million years × (10.0)/(1000.0)
+   /// hectometer per billion years defined such that: dekameter per million years = hm/Gyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerBillionYears = new (
                                                                     "hectometer per billion years"
@@ -6958,7 +6958,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quettameter per decade, defined as: ronnameter per year × (1000.0)/(10.0)
+   /// quettameter per decade defined such that: ronnameter per year = Qm/decade × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity QuettameterPerDecade = new (
                                                                "quettameter per decade"
@@ -6969,7 +6969,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// terameter per millennium, defined as: gigameter per century × (1000.0)/(10.0)
+   /// terameter per millennium defined such that: gigameter per century = Tm/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity TerameterPerMillennium = new (
                                                                  "terameter per millennium"
@@ -6980,7 +6980,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// attometer per nonillion years, defined as: femtometer per octillion years × (1.0/1000.0)/(1000.0)
+   /// attometer per nonillion years defined such that: femtometer per octillion years = am/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerNonillionYears = new (
                                                                      "attometer per nonillion years"
@@ -6991,7 +6991,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// megameter per million years, defined as: kilometer per millennium × (1000.0)/(1000.0)
+   /// megameter per million years defined such that: kilometer per millennium = Mm/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerMillionYears = new (
                                                                    "megameter per million years"
@@ -7002,7 +7002,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per sextillion years, defined as: zeptometer per quintillion years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per sextillion years defined such that: zeptometer per quintillion years = ym/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerSextillionYears = new (
                                                                        "yoctometer per sextillion years"
@@ -7013,7 +7013,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// dekameter per trillion years, defined as: meter per billion years × (10.0)/(1000.0)
+   /// dekameter per trillion years defined such that: meter per billion years = dam/Tyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerTrillionYears = new (
                                                                     "dekameter per trillion years"
@@ -7024,7 +7024,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zettameter per century, defined as: exameter per decade × (1000.0)/(10.0)
+   /// zettameter per century defined such that: exameter per decade = Zm/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ZettameterPerCentury = new (
                                                                "zettameter per century"
@@ -7035,7 +7035,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// rontometer per quintillion years, defined as: yoctometer per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// rontometer per quintillion years defined such that: yoctometer per quadrillion years = rm/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerQuintillionYears = new (
                                                                         "rontometer per quintillion years"
@@ -7046,7 +7046,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// quectometer per quadrillion years, defined as: rontometer per trillion years × (1.0/1000.0)/(1000.0)
+   /// quectometer per quadrillion years defined such that: rontometer per trillion years = qm/Pyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerQuadrillionYears = new (
                                                                          "quectometer per quadrillion years"
@@ -7057,7 +7057,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// femtometer per tick, defined as: picometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// femtometer per tick defined such that: picometer per nanosecond = fm/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity FemtometerPerTick = new (
                                                             "femtometer per tick"
@@ -7068,7 +7068,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// zeptometer per octillion years, defined as: attometer per septillion years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per octillion years defined such that: attometer per septillion years = zm/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerOctillionYears = new (
                                                                       "zeptometer per octillion years"
@@ -7079,7 +7079,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// kilometer per billion years, defined as: hectometer per million years × (10.0)/(1000.0)
+   /// kilometer per billion years defined such that: hectometer per million years = km/Gyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerBillionYears = new (
                                                                    "kilometer per billion years"
@@ -7090,7 +7090,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// petameter per millennium, defined as: terameter per century × (1000.0)/(10.0)
+   /// petameter per millennium defined such that: terameter per century = Pm/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity PetameterPerMillennium = new (
                                                                  "petameter per millennium"
@@ -7101,7 +7101,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// yottameter per century, defined as: zettameter per decade × (1000.0)/(10.0)
+   /// yottameter per century defined such that: zettameter per decade = Ym/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity YottameterPerCentury = new (
                                                                "yottameter per century"
@@ -7112,7 +7112,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// attometer per decillion years, defined as: femtometer per nonillion years × (1.0/1000.0)/(1000.0)
+   /// attometer per decillion years defined such that: femtometer per nonillion years = am/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity AttometerPerDecillionYears = new (
                                                                      "attometer per decillion years"
@@ -7123,7 +7123,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// gigameter per million years, defined as: megameter per millennium × (1000.0)/(1000.0)
+   /// gigameter per million years defined such that: megameter per millennium = Gm/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerMillionYears = new (
                                                                    "gigameter per million years"
@@ -7134,7 +7134,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// yoctometer per septillion years, defined as: zeptometer per sextillion years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per septillion years defined such that: zeptometer per sextillion years = ym/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerSeptillionYears = new (
                                                                        "yoctometer per septillion years"
@@ -7145,7 +7145,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// hectometer per trillion years, defined as: dekameter per billion years × (10.0)/(1000.0)
+   /// hectometer per trillion years defined such that: dekameter per billion years = hm/Tyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerTrillionYears = new (
                                                                      "hectometer per trillion years"
@@ -7156,7 +7156,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// rontometer per sextillion years, defined as: yoctometer per quintillion years × (1.0/1000.0)/(1000.0)
+   /// rontometer per sextillion years defined such that: yoctometer per quintillion years = rm/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerSextillionYears = new (
                                                                        "rontometer per sextillion years"
@@ -7167,7 +7167,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// dekameter per quadrillion years, defined as: meter per trillion years × (10.0)/(1000.0)
+   /// dekameter per quadrillion years defined such that: meter per trillion years = dam/Pyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerQuadrillionYears = new (
                                                                        "dekameter per quadrillion years"
@@ -7178,7 +7178,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// exameter per millennium, defined as: petameter per century × (1000.0)/(10.0)
+   /// exameter per millennium defined such that: petameter per century = Em/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ExameterPerMillennium = new (
                                                                 "exameter per millennium"
@@ -7189,7 +7189,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// ronnameter per century, defined as: yottameter per decade × (1000.0)/(10.0)
+   /// ronnameter per century defined such that: yottameter per decade = Rm/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity RonnameterPerCentury = new (
                                                                "ronnameter per century"
@@ -7200,7 +7200,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               );
 
    /// <summary>
-   /// quectometer per quintillion years, defined as: rontometer per quadrillion years × (1.0/1000.0)/(1000.0)
+   /// quectometer per quintillion years defined such that: rontometer per quadrillion years = qm/Eyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerQuintillionYears = new (
                                                                          "quectometer per quintillion years"
@@ -7211,7 +7211,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// zeptometer per nonillion years, defined as: attometer per octillion years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per nonillion years defined such that: attometer per octillion years = zm/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerNonillionYears = new (
                                                                       "zeptometer per nonillion years"
@@ -7222,7 +7222,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// megameter per billion years, defined as: kilometer per million years × (1000.0)/(1000.0)
+   /// megameter per billion years defined such that: kilometer per million years = Mm/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerBillionYears = new (
                                                                    "megameter per billion years"
@@ -7233,7 +7233,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// terameter per million years, defined as: gigameter per millennium × (1000.0)/(1000.0)
+   /// terameter per million years defined such that: gigameter per millennium = Tm/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerMillionYears = new (
                                                                    "terameter per million years"
@@ -7244,7 +7244,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quettameter per century, defined as: ronnameter per decade × (1000.0)/(10.0)
+   /// quettameter per century defined such that: ronnameter per decade = Qm/century × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity QuettameterPerCentury = new (
                                                                 "quettameter per century"
@@ -7255,7 +7255,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// yoctometer per octillion years, defined as: zeptometer per septillion years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per octillion years defined such that: zeptometer per septillion years = ym/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerOctillionYears = new (
                                                                       "yoctometer per octillion years"
@@ -7266,7 +7266,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// kilometer per trillion years, defined as: hectometer per billion years × (10.0)/(1000.0)
+   /// kilometer per trillion years defined such that: hectometer per billion years = km/Tyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerTrillionYears = new (
                                                                     "kilometer per trillion years"
@@ -7277,7 +7277,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zettameter per millennium, defined as: exameter per century × (1000.0)/(10.0)
+   /// zettameter per millennium defined such that: exameter per century = Zm/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity ZettameterPerMillennium = new (
                                                                   "zettameter per millennium"
@@ -7288,7 +7288,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// attometer per tick, defined as: femtometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// attometer per tick defined such that: femtometer per nanosecond = am/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity AttometerPerTick = new (
                                                            "attometer per tick"
@@ -7299,7 +7299,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// zeptometer per decillion years, defined as: attometer per nonillion years × (1.0/1000.0)/(1000.0)
+   /// zeptometer per decillion years defined such that: attometer per nonillion years = zm/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerDecillionYears = new (
                                                                       "zeptometer per decillion years"
@@ -7310,7 +7310,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// rontometer per septillion years, defined as: yoctometer per sextillion years × (1.0/1000.0)/(1000.0)
+   /// rontometer per septillion years defined such that: yoctometer per sextillion years = rm/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerSeptillionYears = new (
                                                                        "rontometer per septillion years"
@@ -7321,7 +7321,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// hectometer per quadrillion years, defined as: dekameter per trillion years × (10.0)/(1000.0)
+   /// hectometer per quadrillion years defined such that: dekameter per trillion years = hm/Pyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerQuadrillionYears = new (
                                                                         "hectometer per quadrillion years"
@@ -7332,7 +7332,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// gigameter per billion years, defined as: megameter per million years × (1000.0)/(1000.0)
+   /// gigameter per billion years defined such that: megameter per million years = Gm/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerBillionYears = new (
                                                                    "gigameter per billion years"
@@ -7343,7 +7343,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// petameter per million years, defined as: terameter per millennium × (1000.0)/(1000.0)
+   /// petameter per million years defined such that: terameter per millennium = Pm/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerMillionYears = new (
                                                                    "petameter per million years"
@@ -7354,7 +7354,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per sextillion years, defined as: rontometer per quintillion years × (1.0/1000.0)/(1000.0)
+   /// quectometer per sextillion years defined such that: rontometer per quintillion years = qm/Zyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerSextillionYears = new (
                                                                         "quectometer per sextillion years"
@@ -7365,7 +7365,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// dekameter per quintillion years, defined as: meter per quadrillion years × (10.0)/(1000.0)
+   /// dekameter per quintillion years defined such that: meter per quadrillion years = dam/Eyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerQuintillionYears = new (
                                                                        "dekameter per quintillion years"
@@ -7376,7 +7376,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// yottameter per millennium, defined as: zettameter per century × (1000.0)/(10.0)
+   /// yottameter per millennium defined such that: zettameter per century = Ym/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity YottameterPerMillennium = new (
                                                                   "yottameter per millennium"
@@ -7387,7 +7387,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yoctometer per nonillion years, defined as: zeptometer per octillion years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per nonillion years defined such that: zeptometer per octillion years = ym/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerNonillionYears = new (
                                                                       "yoctometer per nonillion years"
@@ -7398,7 +7398,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// megameter per trillion years, defined as: kilometer per billion years × (1000.0)/(1000.0)
+   /// megameter per trillion years defined such that: kilometer per billion years = Mm/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerTrillionYears = new (
                                                                     "megameter per trillion years"
@@ -7409,7 +7409,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// exameter per million years, defined as: petameter per millennium × (1000.0)/(1000.0)
+   /// exameter per million years defined such that: petameter per millennium = Em/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerMillionYears = new (
                                                                   "exameter per million years"
@@ -7420,7 +7420,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// terameter per billion years, defined as: gigameter per million years × (1000.0)/(1000.0)
+   /// terameter per billion years defined such that: gigameter per million years = Tm/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerBillionYears = new (
                                                                    "terameter per billion years"
@@ -7431,7 +7431,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per octillion years, defined as: yoctometer per septillion years × (1.0/1000.0)/(1000.0)
+   /// rontometer per octillion years defined such that: yoctometer per septillion years = rm/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerOctillionYears = new (
                                                                       "rontometer per octillion years"
@@ -7442,7 +7442,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// kilometer per quadrillion years, defined as: hectometer per trillion years × (10.0)/(1000.0)
+   /// kilometer per quadrillion years defined such that: hectometer per trillion years = km/Pyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerQuadrillionYears = new (
                                                                        "kilometer per quadrillion years"
@@ -7453,7 +7453,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// ronnameter per millennium, defined as: yottameter per century × (1000.0)/(10.0)
+   /// ronnameter per millennium defined such that: yottameter per century = Rm/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity RonnameterPerMillennium = new (
                                                                   "ronnameter per millennium"
@@ -7464,7 +7464,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quectometer per septillion years, defined as: rontometer per sextillion years × (1.0/1000.0)/(1000.0)
+   /// quectometer per septillion years defined such that: rontometer per sextillion years = qm/Yyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerSeptillionYears = new (
                                                                         "quectometer per septillion years"
@@ -7475,7 +7475,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// hectometer per quintillion years, defined as: dekameter per quadrillion years × (10.0)/(1000.0)
+   /// hectometer per quintillion years defined such that: dekameter per quadrillion years = hm/Eyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerQuintillionYears = new (
                                                                         "hectometer per quintillion years"
@@ -7486,7 +7486,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// dekameter per sextillion years, defined as: meter per quintillion years × (10.0)/(1000.0)
+   /// dekameter per sextillion years defined such that: meter per quintillion years = dam/Zyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerSextillionYears = new (
                                                                       "dekameter per sextillion years"
@@ -7497,7 +7497,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// yoctometer per decillion years, defined as: zeptometer per nonillion years × (1.0/1000.0)/(1000.0)
+   /// yoctometer per decillion years defined such that: zeptometer per nonillion years = ym/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YoctometerPerDecillionYears = new (
                                                                       "yoctometer per decillion years"
@@ -7508,7 +7508,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// gigameter per trillion years, defined as: megameter per billion years × (1000.0)/(1000.0)
+   /// gigameter per trillion years defined such that: megameter per billion years = Gm/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerTrillionYears = new (
                                                                     "gigameter per trillion years"
@@ -7519,7 +7519,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zettameter per million years, defined as: exameter per millennium × (1000.0)/(1000.0)
+   /// zettameter per million years defined such that: exameter per millennium = Zm/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerMillionYears = new (
                                                                     "zettameter per million years"
@@ -7530,7 +7530,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zeptometer per tick, defined as: attometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// zeptometer per tick defined such that: attometer per nanosecond = zm/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity ZeptometerPerTick = new (
                                                             "zeptometer per tick"
@@ -7541,7 +7541,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// petameter per billion years, defined as: terameter per million years × (1000.0)/(1000.0)
+   /// petameter per billion years defined such that: terameter per million years = Pm/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerBillionYears = new (
                                                                    "petameter per billion years"
@@ -7552,7 +7552,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quettameter per millennium, defined as: ronnameter per century × (1000.0)/(10.0)
+   /// quettameter per millennium defined such that: ronnameter per century = Qm/kyr × (1000.0)/(10.0).
    /// </summary>
    public static readonly Velocity QuettameterPerMillennium = new (
                                                                    "quettameter per millennium"
@@ -7563,7 +7563,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// rontometer per nonillion years, defined as: yoctometer per octillion years × (1.0/1000.0)/(1000.0)
+   /// rontometer per nonillion years defined such that: yoctometer per octillion years = rm/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerNonillionYears = new (
                                                                       "rontometer per nonillion years"
@@ -7574,7 +7574,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// megameter per quadrillion years, defined as: kilometer per trillion years × (1000.0)/(1000.0)
+   /// megameter per quadrillion years defined such that: kilometer per trillion years = Mm/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerQuadrillionYears = new (
                                                                        "megameter per quadrillion years"
@@ -7585,7 +7585,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// yottameter per million years, defined as: zettameter per millennium × (1000.0)/(1000.0)
+   /// yottameter per million years defined such that: zettameter per millennium = Ym/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerMillionYears = new (
                                                                     "yottameter per million years"
@@ -7596,7 +7596,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quectometer per octillion years, defined as: rontometer per septillion years × (1.0/1000.0)/(1000.0)
+   /// quectometer per octillion years defined such that: rontometer per septillion years = qm/Ryr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerOctillionYears = new (
                                                                        "quectometer per octillion years"
@@ -7607,7 +7607,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// kilometer per quintillion years, defined as: hectometer per quadrillion years × (10.0)/(1000.0)
+   /// kilometer per quintillion years defined such that: hectometer per quadrillion years = km/Eyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerQuintillionYears = new (
                                                                        "kilometer per quintillion years"
@@ -7618,7 +7618,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// terameter per trillion years, defined as: gigameter per billion years × (1000.0)/(1000.0)
+   /// terameter per trillion years defined such that: gigameter per billion years = Tm/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerTrillionYears = new (
                                                                     "terameter per trillion years"
@@ -7629,7 +7629,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// dekameter per septillion years, defined as: meter per sextillion years × (10.0)/(1000.0)
+   /// dekameter per septillion years defined such that: meter per sextillion years = dam/Yyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerSeptillionYears = new (
                                                                       "dekameter per septillion years"
@@ -7640,7 +7640,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// hectometer per sextillion years, defined as: dekameter per quintillion years × (10.0)/(1000.0)
+   /// hectometer per sextillion years defined such that: dekameter per quintillion years = hm/Zyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerSextillionYears = new (
                                                                        "hectometer per sextillion years"
@@ -7651,7 +7651,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// exameter per billion years, defined as: petameter per million years × (1000.0)/(1000.0)
+   /// exameter per billion years defined such that: petameter per million years = Em/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerBillionYears = new (
                                                                   "exameter per billion years"
@@ -7662,7 +7662,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rontometer per decillion years, defined as: yoctometer per nonillion years × (1.0/1000.0)/(1000.0)
+   /// rontometer per decillion years defined such that: yoctometer per nonillion years = rm/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RontometerPerDecillionYears = new (
                                                                       "rontometer per decillion years"
@@ -7673,7 +7673,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// gigameter per quadrillion years, defined as: megameter per trillion years × (1000.0)/(1000.0)
+   /// gigameter per quadrillion years defined such that: megameter per trillion years = Gm/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerQuadrillionYears = new (
                                                                        "gigameter per quadrillion years"
@@ -7684,7 +7684,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// ronnameter per million years, defined as: yottameter per millennium × (1000.0)/(1000.0)
+   /// ronnameter per million years defined such that: yottameter per millennium = Rm/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerMillionYears = new (
                                                                     "ronnameter per million years"
@@ -7695,7 +7695,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// yoctometer per tick, defined as: zeptometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// yoctometer per tick defined such that: zeptometer per nanosecond = ym/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity YoctometerPerTick = new (
                                                             "yoctometer per tick"
@@ -7706,7 +7706,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// petameter per trillion years, defined as: terameter per billion years × (1000.0)/(1000.0)
+   /// petameter per trillion years defined such that: terameter per billion years = Pm/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerTrillionYears = new (
                                                                     "petameter per trillion years"
@@ -7717,7 +7717,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zettameter per billion years, defined as: exameter per million years × (1000.0)/(1000.0)
+   /// zettameter per billion years defined such that: exameter per million years = Zm/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerBillionYears = new (
                                                                     "zettameter per billion years"
@@ -7728,7 +7728,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// quectometer per nonillion years, defined as: rontometer per octillion years × (1.0/1000.0)/(1000.0)
+   /// quectometer per nonillion years defined such that: rontometer per octillion years = qm/Qyr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerNonillionYears = new (
                                                                        "quectometer per nonillion years"
@@ -7739,7 +7739,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// megameter per quintillion years, defined as: kilometer per quadrillion years × (1000.0)/(1000.0)
+   /// megameter per quintillion years defined such that: kilometer per quadrillion years = Mm/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerQuintillionYears = new (
                                                                        "megameter per quintillion years"
@@ -7750,7 +7750,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// dekameter per octillion years, defined as: meter per septillion years × (10.0)/(1000.0)
+   /// dekameter per octillion years defined such that: meter per septillion years = dam/Ryr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerOctillionYears = new (
                                                                      "dekameter per octillion years"
@@ -7761,7 +7761,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// kilometer per sextillion years, defined as: hectometer per quintillion years × (10.0)/(1000.0)
+   /// kilometer per sextillion years defined such that: hectometer per quintillion years = km/Zyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerSextillionYears = new (
                                                                       "kilometer per sextillion years"
@@ -7772,7 +7772,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// hectometer per septillion years, defined as: dekameter per sextillion years × (10.0)/(1000.0)
+   /// hectometer per septillion years defined such that: dekameter per sextillion years = hm/Yyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerSeptillionYears = new (
                                                                        "hectometer per septillion years"
@@ -7783,7 +7783,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// quettameter per million years, defined as: ronnameter per millennium × (1000.0)/(1000.0)
+   /// quettameter per million years defined such that: ronnameter per millennium = Qm/Myr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerMillionYears = new (
                                                                      "quettameter per million years"
@@ -7794,7 +7794,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// terameter per quadrillion years, defined as: gigameter per trillion years × (1000.0)/(1000.0)
+   /// terameter per quadrillion years defined such that: gigameter per trillion years = Tm/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerQuadrillionYears = new (
                                                                        "terameter per quadrillion years"
@@ -7805,7 +7805,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// yottameter per billion years, defined as: zettameter per million years × (1000.0)/(1000.0)
+   /// yottameter per billion years defined such that: zettameter per million years = Ym/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerBillionYears = new (
                                                                     "yottameter per billion years"
@@ -7816,7 +7816,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// exameter per trillion years, defined as: petameter per billion years × (1000.0)/(1000.0)
+   /// exameter per trillion years defined such that: petameter per billion years = Em/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerTrillionYears = new (
                                                                    "exameter per trillion years"
@@ -7827,7 +7827,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// quectometer per decillion years, defined as: rontometer per nonillion years × (1.0/1000.0)/(1000.0)
+   /// quectometer per decillion years defined such that: rontometer per nonillion years = qm/decillion yr × (1.0/1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuectometerPerDecillionYears = new (
                                                                        "quectometer per decillion years"
@@ -7838,7 +7838,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// gigameter per quintillion years, defined as: megameter per quadrillion years × (1000.0)/(1000.0)
+   /// gigameter per quintillion years defined such that: megameter per quadrillion years = Gm/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerQuintillionYears = new (
                                                                        "gigameter per quintillion years"
@@ -7849,7 +7849,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// dekameter per nonillion years, defined as: meter per octillion years × (10.0)/(1000.0)
+   /// dekameter per nonillion years defined such that: meter per octillion years = dam/Qyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerNonillionYears = new (
                                                                      "dekameter per nonillion years"
@@ -7860,7 +7860,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// megameter per sextillion years, defined as: kilometer per quintillion years × (1000.0)/(1000.0)
+   /// megameter per sextillion years defined such that: kilometer per quintillion years = Mm/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerSextillionYears = new (
                                                                       "megameter per sextillion years"
@@ -7871,7 +7871,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// rontometer per tick, defined as: yoctometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// rontometer per tick defined such that: yoctometer per nanosecond = rm/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity RontometerPerTick = new (
                                                             "rontometer per tick"
@@ -7882,7 +7882,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// hectometer per octillion years, defined as: dekameter per septillion years × (10.0)/(1000.0)
+   /// hectometer per octillion years defined such that: dekameter per septillion years = hm/Ryr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerOctillionYears = new (
                                                                       "hectometer per octillion years"
@@ -7893,7 +7893,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// kilometer per septillion years, defined as: hectometer per sextillion years × (10.0)/(1000.0)
+   /// kilometer per septillion years defined such that: hectometer per sextillion years = km/Yyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerSeptillionYears = new (
                                                                       "kilometer per septillion years"
@@ -7904,7 +7904,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// petameter per quadrillion years, defined as: terameter per trillion years × (1000.0)/(1000.0)
+   /// petameter per quadrillion years defined such that: terameter per trillion years = Pm/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerQuadrillionYears = new (
                                                                        "petameter per quadrillion years"
@@ -7915,7 +7915,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// ronnameter per billion years, defined as: yottameter per million years × (1000.0)/(1000.0)
+   /// ronnameter per billion years defined such that: yottameter per million years = Rm/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerBillionYears = new (
                                                                     "ronnameter per billion years"
@@ -7926,7 +7926,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// zettameter per trillion years, defined as: exameter per billion years × (1000.0)/(1000.0)
+   /// zettameter per trillion years defined such that: exameter per billion years = Zm/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerTrillionYears = new (
                                                                      "zettameter per trillion years"
@@ -7937,7 +7937,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// terameter per quintillion years, defined as: gigameter per quadrillion years × (1000.0)/(1000.0)
+   /// terameter per quintillion years defined such that: gigameter per quadrillion years = Tm/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerQuintillionYears = new (
                                                                        "terameter per quintillion years"
@@ -7948,7 +7948,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// quettameter per billion years, defined as: ronnameter per million years × (1000.0)/(1000.0)
+   /// quettameter per billion years defined such that: ronnameter per million years = Qm/Gyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerBillionYears = new (
                                                                      "quettameter per billion years"
@@ -7959,7 +7959,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// dekameter per decillion years, defined as: meter per nonillion years × (10.0)/(1000.0)
+   /// dekameter per decillion years defined such that: meter per nonillion years = dam/decillion yr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity DekameterPerDecillionYears = new (
                                                                      "dekameter per decillion years"
@@ -7970,7 +7970,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// gigameter per sextillion years, defined as: megameter per quintillion years × (1000.0)/(1000.0)
+   /// gigameter per sextillion years defined such that: megameter per quintillion years = Gm/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerSextillionYears = new (
                                                                       "gigameter per sextillion years"
@@ -7981,7 +7981,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// exameter per quadrillion years, defined as: petameter per trillion years × (1000.0)/(1000.0)
+   /// exameter per quadrillion years defined such that: petameter per trillion years = Em/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerQuadrillionYears = new (
                                                                       "exameter per quadrillion years"
@@ -7992,7 +7992,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// yottameter per trillion years, defined as: zettameter per billion years × (1000.0)/(1000.0)
+   /// yottameter per trillion years defined such that: zettameter per billion years = Ym/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerTrillionYears = new (
                                                                      "yottameter per trillion years"
@@ -8003,7 +8003,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// hectometer per nonillion years, defined as: dekameter per octillion years × (10.0)/(1000.0)
+   /// hectometer per nonillion years defined such that: dekameter per octillion years = hm/Qyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerNonillionYears = new (
                                                                       "hectometer per nonillion years"
@@ -8014,7 +8014,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// megameter per septillion years, defined as: kilometer per sextillion years × (1000.0)/(1000.0)
+   /// megameter per septillion years defined such that: kilometer per sextillion years = Mm/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerSeptillionYears = new (
                                                                       "megameter per septillion years"
@@ -8025,7 +8025,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// kilometer per octillion years, defined as: hectometer per septillion years × (10.0)/(1000.0)
+   /// kilometer per octillion years defined such that: hectometer per septillion years = km/Ryr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerOctillionYears = new (
                                                                      "kilometer per octillion years"
@@ -8036,7 +8036,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// quectometer per tick, defined as: rontometer per nanosecond × (1.0/1000.0)/(100.0)
+   /// quectometer per tick defined such that: rontometer per nanosecond = qm/tick × (1.0/1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity QuectometerPerTick = new (
                                                              "quectometer per tick"
@@ -8047,7 +8047,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// petameter per quintillion years, defined as: terameter per quadrillion years × (1000.0)/(1000.0)
+   /// petameter per quintillion years defined such that: terameter per quadrillion years = Pm/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerQuintillionYears = new (
                                                                        "petameter per quintillion years"
@@ -8058,7 +8058,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// zettameter per quadrillion years, defined as: exameter per trillion years × (1000.0)/(1000.0)
+   /// zettameter per quadrillion years defined such that: exameter per trillion years = Zm/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerQuadrillionYears = new (
                                                                         "zettameter per quadrillion years"
@@ -8069,7 +8069,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// ronnameter per trillion years, defined as: yottameter per billion years × (1000.0)/(1000.0)
+   /// ronnameter per trillion years defined such that: yottameter per billion years = Rm/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerTrillionYears = new (
                                                                      "ronnameter per trillion years"
@@ -8080,7 +8080,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// terameter per sextillion years, defined as: gigameter per quintillion years × (1000.0)/(1000.0)
+   /// terameter per sextillion years defined such that: gigameter per quintillion years = Tm/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerSextillionYears = new (
                                                                       "terameter per sextillion years"
@@ -8091,7 +8091,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// hectometer per decillion years, defined as: dekameter per nonillion years × (10.0)/(1000.0)
+   /// hectometer per decillion years defined such that: dekameter per nonillion years = hm/decillion yr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity HectometerPerDecillionYears = new (
                                                                       "hectometer per decillion years"
@@ -8102,7 +8102,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// gigameter per septillion years, defined as: megameter per sextillion years × (1000.0)/(1000.0)
+   /// gigameter per septillion years defined such that: megameter per sextillion years = Gm/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerSeptillionYears = new (
                                                                       "gigameter per septillion years"
@@ -8113,7 +8113,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// kilometer per nonillion years, defined as: hectometer per octillion years × (10.0)/(1000.0)
+   /// kilometer per nonillion years defined such that: hectometer per octillion years = km/Qyr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerNonillionYears = new (
                                                                      "kilometer per nonillion years"
@@ -8124,7 +8124,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// megameter per octillion years, defined as: kilometer per septillion years × (1000.0)/(1000.0)
+   /// megameter per octillion years defined such that: kilometer per septillion years = Mm/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerOctillionYears = new (
                                                                      "megameter per octillion years"
@@ -8135,7 +8135,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// exameter per quintillion years, defined as: petameter per quadrillion years × (1000.0)/(1000.0)
+   /// exameter per quintillion years defined such that: petameter per quadrillion years = Em/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerQuintillionYears = new (
                                                                       "exameter per quintillion years"
@@ -8146,7 +8146,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// quettameter per trillion years, defined as: ronnameter per billion years × (1000.0)/(1000.0)
+   /// quettameter per trillion years defined such that: ronnameter per billion years = Qm/Tyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerTrillionYears = new (
                                                                       "quettameter per trillion years"
@@ -8157,7 +8157,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// yottameter per quadrillion years, defined as: zettameter per trillion years × (1000.0)/(1000.0)
+   /// yottameter per quadrillion years defined such that: zettameter per trillion years = Ym/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerQuadrillionYears = new (
                                                                         "yottameter per quadrillion years"
@@ -8168,7 +8168,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// dekameter per tick, defined as: meter per nanosecond × (10.0)/(100.0)
+   /// dekameter per tick defined such that: meter per nanosecond = dam/tick × (10.0)/(100.0).
    /// </summary>
    public static readonly Velocity DekameterPerTick = new (
                                                            "dekameter per tick"
@@ -8179,7 +8179,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// petameter per sextillion years, defined as: terameter per quintillion years × (1000.0)/(1000.0)
+   /// petameter per sextillion years defined such that: terameter per quintillion years = Pm/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerSextillionYears = new (
                                                                       "petameter per sextillion years"
@@ -8190,7 +8190,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// terameter per septillion years, defined as: gigameter per sextillion years × (1000.0)/(1000.0)
+   /// terameter per septillion years defined such that: gigameter per sextillion years = Tm/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerSeptillionYears = new (
                                                                       "terameter per septillion years"
@@ -8201,7 +8201,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// zettameter per quintillion years, defined as: exameter per quadrillion years × (1000.0)/(1000.0)
+   /// zettameter per quintillion years defined such that: exameter per quadrillion years = Zm/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerQuintillionYears = new (
                                                                         "zettameter per quintillion years"
@@ -8212,7 +8212,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// kilometer per decillion years, defined as: hectometer per nonillion years × (10.0)/(1000.0)
+   /// kilometer per decillion years defined such that: hectometer per nonillion years = km/decillion yr × (10.0)/(1000.0).
    /// </summary>
    public static readonly Velocity KilometerPerDecillionYears = new (
                                                                      "kilometer per decillion years"
@@ -8223,7 +8223,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// gigameter per octillion years, defined as: megameter per septillion years × (1000.0)/(1000.0)
+   /// gigameter per octillion years defined such that: megameter per septillion years = Gm/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerOctillionYears = new (
                                                                      "gigameter per octillion years"
@@ -8234,7 +8234,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// ronnameter per quadrillion years, defined as: yottameter per trillion years × (1000.0)/(1000.0)
+   /// ronnameter per quadrillion years defined such that: yottameter per trillion years = Rm/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerQuadrillionYears = new (
                                                                         "ronnameter per quadrillion years"
@@ -8245,7 +8245,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// megameter per nonillion years, defined as: kilometer per octillion years × (1000.0)/(1000.0)
+   /// megameter per nonillion years defined such that: kilometer per octillion years = Mm/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerNonillionYears = new (
                                                                      "megameter per nonillion years"
@@ -8256,7 +8256,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// exameter per sextillion years, defined as: petameter per quintillion years × (1000.0)/(1000.0)
+   /// exameter per sextillion years defined such that: petameter per quintillion years = Em/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerSextillionYears = new (
                                                                      "exameter per sextillion years"
@@ -8267,7 +8267,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yottameter per quintillion years, defined as: zettameter per quadrillion years × (1000.0)/(1000.0)
+   /// yottameter per quintillion years defined such that: zettameter per quadrillion years = Ym/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerQuintillionYears = new (
                                                                         "yottameter per quintillion years"
@@ -8278,7 +8278,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// hectometer per tick, defined as: dekameter per nanosecond × (10.0)/(100.0)
+   /// hectometer per tick defined such that: dekameter per nanosecond = hm/tick × (10.0)/(100.0).
    /// </summary>
    public static readonly Velocity HectometerPerTick = new (
                                                             "hectometer per tick"
@@ -8289,7 +8289,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// petameter per septillion years, defined as: terameter per sextillion years × (1000.0)/(1000.0)
+   /// petameter per septillion years defined such that: terameter per sextillion years = Pm/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerSeptillionYears = new (
                                                                       "petameter per septillion years"
@@ -8300,7 +8300,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// quettameter per quadrillion years, defined as: ronnameter per trillion years × (1000.0)/(1000.0)
+   /// quettameter per quadrillion years defined such that: ronnameter per trillion years = Qm/Pyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerQuadrillionYears = new (
                                                                          "quettameter per quadrillion years"
@@ -8311,7 +8311,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// terameter per octillion years, defined as: gigameter per septillion years × (1000.0)/(1000.0)
+   /// terameter per octillion years defined such that: gigameter per septillion years = Tm/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerOctillionYears = new (
                                                                      "terameter per octillion years"
@@ -8322,7 +8322,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// megameter per decillion years, defined as: kilometer per nonillion years × (1000.0)/(1000.0)
+   /// megameter per decillion years defined such that: kilometer per nonillion years = Mm/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity MegameterPerDecillionYears = new (
                                                                      "megameter per decillion years"
@@ -8333,7 +8333,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// gigameter per nonillion years, defined as: megameter per octillion years × (1000.0)/(1000.0)
+   /// gigameter per nonillion years defined such that: megameter per octillion years = Gm/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerNonillionYears = new (
                                                                      "gigameter per nonillion years"
@@ -8344,7 +8344,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// zettameter per sextillion years, defined as: exameter per quintillion years × (1000.0)/(1000.0)
+   /// zettameter per sextillion years defined such that: exameter per quintillion years = Zm/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerSextillionYears = new (
                                                                        "zettameter per sextillion years"
@@ -8355,7 +8355,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// ronnameter per quintillion years, defined as: yottameter per quadrillion years × (1000.0)/(1000.0)
+   /// ronnameter per quintillion years defined such that: yottameter per quadrillion years = Rm/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerQuintillionYears = new (
                                                                         "ronnameter per quintillion years"
@@ -8366,7 +8366,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// exameter per septillion years, defined as: petameter per sextillion years × (1000.0)/(1000.0)
+   /// exameter per septillion years defined such that: petameter per sextillion years = Em/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerSeptillionYears = new (
                                                                      "exameter per septillion years"
@@ -8377,7 +8377,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// kilometer per tick, defined as: hectometer per nanosecond × (10.0)/(100.0)
+   /// kilometer per tick defined such that: hectometer per nanosecond = km/tick × (10.0)/(100.0).
    /// </summary>
    public static readonly Velocity KilometerPerTick = new (
                                                            "kilometer per tick"
@@ -8388,7 +8388,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// petameter per octillion years, defined as: terameter per septillion years × (1000.0)/(1000.0)
+   /// petameter per octillion years defined such that: terameter per septillion years = Pm/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerOctillionYears = new (
                                                                      "petameter per octillion years"
@@ -8399,7 +8399,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yottameter per sextillion years, defined as: zettameter per quintillion years × (1000.0)/(1000.0)
+   /// yottameter per sextillion years defined such that: zettameter per quintillion years = Ym/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerSextillionYears = new (
                                                                        "yottameter per sextillion years"
@@ -8410,7 +8410,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// terameter per nonillion years, defined as: gigameter per octillion years × (1000.0)/(1000.0)
+   /// terameter per nonillion years defined such that: gigameter per octillion years = Tm/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerNonillionYears = new (
                                                                      "terameter per nonillion years"
@@ -8421,7 +8421,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// gigameter per decillion years, defined as: megameter per nonillion years × (1000.0)/(1000.0)
+   /// gigameter per decillion years defined such that: megameter per nonillion years = Gm/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity GigameterPerDecillionYears = new (
                                                                      "gigameter per decillion years"
@@ -8432,7 +8432,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// quettameter per quintillion years, defined as: ronnameter per quadrillion years × (1000.0)/(1000.0)
+   /// quettameter per quintillion years defined such that: ronnameter per quadrillion years = Qm/Eyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerQuintillionYears = new (
                                                                          "quettameter per quintillion years"
@@ -8443,7 +8443,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// zettameter per septillion years, defined as: exameter per sextillion years × (1000.0)/(1000.0)
+   /// zettameter per septillion years defined such that: exameter per sextillion years = Zm/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerSeptillionYears = new (
                                                                        "zettameter per septillion years"
@@ -8454,7 +8454,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// exameter per octillion years, defined as: petameter per septillion years × (1000.0)/(1000.0)
+   /// exameter per octillion years defined such that: petameter per septillion years = Em/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerOctillionYears = new (
                                                                     "exameter per octillion years"
@@ -8465,7 +8465,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// ronnameter per sextillion years, defined as: yottameter per quintillion years × (1000.0)/(1000.0)
+   /// ronnameter per sextillion years defined such that: yottameter per quintillion years = Rm/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerSextillionYears = new (
                                                                        "ronnameter per sextillion years"
@@ -8476,7 +8476,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// megameter per tick, defined as: kilometer per nanosecond × (1000.0)/(100.0)
+   /// megameter per tick defined such that: kilometer per nanosecond = Mm/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity MegameterPerTick = new (
                                                            "megameter per tick"
@@ -8487,7 +8487,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// petameter per nonillion years, defined as: terameter per octillion years × (1000.0)/(1000.0)
+   /// petameter per nonillion years defined such that: terameter per octillion years = Pm/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerNonillionYears = new (
                                                                      "petameter per nonillion years"
@@ -8498,7 +8498,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// terameter per decillion years, defined as: gigameter per nonillion years × (1000.0)/(1000.0)
+   /// terameter per decillion years defined such that: gigameter per nonillion years = Tm/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity TerameterPerDecillionYears = new (
                                                                      "terameter per decillion years"
@@ -8509,7 +8509,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// yottameter per septillion years, defined as: zettameter per sextillion years × (1000.0)/(1000.0)
+   /// yottameter per septillion years defined such that: zettameter per sextillion years = Ym/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerSeptillionYears = new (
                                                                        "yottameter per septillion years"
@@ -8520,7 +8520,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// quettameter per sextillion years, defined as: ronnameter per quintillion years × (1000.0)/(1000.0)
+   /// quettameter per sextillion years defined such that: ronnameter per quintillion years = Qm/Zyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerSextillionYears = new (
                                                                         "quettameter per sextillion years"
@@ -8531,7 +8531,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// zettameter per octillion years, defined as: exameter per septillion years × (1000.0)/(1000.0)
+   /// zettameter per octillion years defined such that: exameter per septillion years = Zm/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerOctillionYears = new (
                                                                       "zettameter per octillion years"
@@ -8542,7 +8542,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// exameter per nonillion years, defined as: petameter per octillion years × (1000.0)/(1000.0)
+   /// exameter per nonillion years defined such that: petameter per octillion years = Em/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerNonillionYears = new (
                                                                     "exameter per nonillion years"
@@ -8553,7 +8553,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// gigameter per tick, defined as: megameter per nanosecond × (1000.0)/(100.0)
+   /// gigameter per tick defined such that: megameter per nanosecond = Gm/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity GigameterPerTick = new (
                                                            "gigameter per tick"
@@ -8564,7 +8564,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// petameter per decillion years, defined as: terameter per nonillion years × (1000.0)/(1000.0)
+   /// petameter per decillion years defined such that: terameter per nonillion years = Pm/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity PetameterPerDecillionYears = new (
                                                                      "petameter per decillion years"
@@ -8575,7 +8575,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// ronnameter per septillion years, defined as: yottameter per sextillion years × (1000.0)/(1000.0)
+   /// ronnameter per septillion years defined such that: yottameter per sextillion years = Rm/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerSeptillionYears = new (
                                                                        "ronnameter per septillion years"
@@ -8586,7 +8586,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// yottameter per octillion years, defined as: zettameter per septillion years × (1000.0)/(1000.0)
+   /// yottameter per octillion years defined such that: zettameter per septillion years = Ym/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerOctillionYears = new (
                                                                       "yottameter per octillion years"
@@ -8597,7 +8597,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// zettameter per nonillion years, defined as: exameter per octillion years × (1000.0)/(1000.0)
+   /// zettameter per nonillion years defined such that: exameter per octillion years = Zm/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerNonillionYears = new (
                                                                       "zettameter per nonillion years"
@@ -8608,7 +8608,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// quettameter per septillion years, defined as: ronnameter per sextillion years × (1000.0)/(1000.0)
+   /// quettameter per septillion years defined such that: ronnameter per sextillion years = Qm/Yyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerSeptillionYears = new (
                                                                         "quettameter per septillion years"
@@ -8619,7 +8619,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// exameter per decillion years, defined as: petameter per nonillion years × (1000.0)/(1000.0)
+   /// exameter per decillion years defined such that: petameter per nonillion years = Em/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ExameterPerDecillionYears = new (
                                                                     "exameter per decillion years"
@@ -8630,7 +8630,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// terameter per tick, defined as: gigameter per nanosecond × (1000.0)/(100.0)
+   /// terameter per tick defined such that: gigameter per nanosecond = Tm/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity TerameterPerTick = new (
                                                            "terameter per tick"
@@ -8641,7 +8641,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// ronnameter per octillion years, defined as: yottameter per septillion years × (1000.0)/(1000.0)
+   /// ronnameter per octillion years defined such that: yottameter per septillion years = Rm/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerOctillionYears = new (
                                                                       "ronnameter per octillion years"
@@ -8652,7 +8652,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// yottameter per nonillion years, defined as: zettameter per octillion years × (1000.0)/(1000.0)
+   /// yottameter per nonillion years defined such that: zettameter per octillion years = Ym/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerNonillionYears = new (
                                                                       "yottameter per nonillion years"
@@ -8663,7 +8663,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// zettameter per decillion years, defined as: exameter per nonillion years × (1000.0)/(1000.0)
+   /// zettameter per decillion years defined such that: exameter per nonillion years = Zm/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity ZettameterPerDecillionYears = new (
                                                                       "zettameter per decillion years"
@@ -8674,7 +8674,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// petameter per tick, defined as: terameter per nanosecond × (1000.0)/(100.0)
+   /// petameter per tick defined such that: terameter per nanosecond = Pm/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity PetameterPerTick = new (
                                                            "petameter per tick"
@@ -8685,7 +8685,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           );
 
    /// <summary>
-   /// quettameter per octillion years, defined as: ronnameter per septillion years × (1000.0)/(1000.0)
+   /// quettameter per octillion years defined such that: ronnameter per septillion years = Qm/Ryr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerOctillionYears = new (
                                                                        "quettameter per octillion years"
@@ -8696,7 +8696,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// ronnameter per nonillion years, defined as: yottameter per octillion years × (1000.0)/(1000.0)
+   /// ronnameter per nonillion years defined such that: yottameter per octillion years = Rm/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerNonillionYears = new (
                                                                       "ronnameter per nonillion years"
@@ -8707,7 +8707,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// yottameter per decillion years, defined as: zettameter per nonillion years × (1000.0)/(1000.0)
+   /// yottameter per decillion years defined such that: zettameter per nonillion years = Ym/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity YottameterPerDecillionYears = new (
                                                                       "yottameter per decillion years"
@@ -8718,7 +8718,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// exameter per tick, defined as: petameter per nanosecond × (1000.0)/(100.0)
+   /// exameter per tick defined such that: petameter per nanosecond = Em/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity ExameterPerTick = new (
                                                           "exameter per tick"
@@ -8729,7 +8729,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          );
 
    /// <summary>
-   /// quettameter per nonillion years, defined as: ronnameter per octillion years × (1000.0)/(1000.0)
+   /// quettameter per nonillion years defined such that: ronnameter per octillion years = Qm/Qyr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerNonillionYears = new (
                                                                        "quettameter per nonillion years"
@@ -8740,7 +8740,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// ronnameter per decillion years, defined as: yottameter per nonillion years × (1000.0)/(1000.0)
+   /// ronnameter per decillion years defined such that: yottameter per nonillion years = Rm/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity RonnameterPerDecillionYears = new (
                                                                       "ronnameter per decillion years"
@@ -8751,7 +8751,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// zettameter per tick, defined as: exameter per nanosecond × (1000.0)/(100.0)
+   /// zettameter per tick defined such that: exameter per nanosecond = Zm/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity ZettameterPerTick = new (
                                                             "zettameter per tick"
@@ -8762,7 +8762,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// quettameter per decillion years, defined as: ronnameter per nonillion years × (1000.0)/(1000.0)
+   /// quettameter per decillion years defined such that: ronnameter per nonillion years = Qm/decillion yr × (1000.0)/(1000.0).
    /// </summary>
    public static readonly Velocity QuettameterPerDecillionYears = new (
                                                                        "quettameter per decillion years"
@@ -8773,7 +8773,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// yottameter per tick, defined as: zettameter per nanosecond × (1000.0)/(100.0)
+   /// yottameter per tick defined such that: zettameter per nanosecond = Ym/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity YottameterPerTick = new (
                                                             "yottameter per tick"
@@ -8784,7 +8784,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// ronnameter per tick, defined as: yottameter per nanosecond × (1000.0)/(100.0)
+   /// ronnameter per tick defined such that: yottameter per nanosecond = Rm/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity RonnameterPerTick = new (
                                                             "ronnameter per tick"
@@ -8795,7 +8795,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            );
 
    /// <summary>
-   /// quettameter per tick, defined as: ronnameter per nanosecond × (1000.0)/(100.0)
+   /// quettameter per tick defined such that: ronnameter per nanosecond = Qm/tick × (1000.0)/(100.0).
    /// </summary>
    public static readonly Velocity QuettameterPerTick = new (
                                                              "quettameter per tick"
@@ -8806,7 +8806,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// meter per planck-time, defined as: meter per microsecond × (1.0)/(5.391247E-38)
+   /// meter per planck-time defined such that: meter per microsecond = m/tₚ × (1.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity MeterPerPlanckTime = new (
                                                              "meter per planck-time"
@@ -8817,7 +8817,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// decimeter per planck-time, defined as: meter per microsecond × (1.0/10.0)/(5.391247E-38)
+   /// decimeter per planck-time defined such that: meter per microsecond = dm/tₚ × (1.0/10.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity DecimeterPerPlanckTime = new (
                                                                  "decimeter per planck-time"
@@ -8828,7 +8828,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// centimeter per planck-time, defined as: decimeter per microsecond × (1.0/10.0)/(5.391247E-38)
+   /// centimeter per planck-time defined such that: decimeter per microsecond = cm/tₚ × (1.0/10.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity CentimeterPerPlanckTime = new (
                                                                   "centimeter per planck-time"
@@ -8839,7 +8839,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// millimeter per planck-time, defined as: centimeter per microsecond × (1.0/10.0)/(5.391247E-38)
+   /// millimeter per planck-time defined such that: centimeter per microsecond = mm/tₚ × (1.0/10.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity MillimeterPerPlanckTime = new (
                                                                   "millimeter per planck-time"
@@ -8850,7 +8850,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// micrometer per planck-time, defined as: millimeter per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// micrometer per planck-time defined such that: millimeter per microsecond = μm/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity MicrometerPerPlanckTime = new (
                                                                   "micrometer per planck-time"
@@ -8861,7 +8861,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// nanometer per planck-time, defined as: micrometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// nanometer per planck-time defined such that: micrometer per microsecond = nm/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity NanometerPerPlanckTime = new (
                                                                  "nanometer per planck-time"
@@ -8872,7 +8872,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// picometer per planck-time, defined as: nanometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// picometer per planck-time defined such that: nanometer per microsecond = pm/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity PicometerPerPlanckTime = new (
                                                                  "picometer per planck-time"
@@ -8883,7 +8883,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// femtometer per planck-time, defined as: picometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// femtometer per planck-time defined such that: picometer per microsecond = fm/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity FemtometerPerPlanckTime = new (
                                                                   "femtometer per planck-time"
@@ -8894,7 +8894,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// attometer per planck-time, defined as: femtometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// attometer per planck-time defined such that: femtometer per microsecond = am/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity AttometerPerPlanckTime = new (
                                                                  "attometer per planck-time"
@@ -8905,7 +8905,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// zeptometer per planck-time, defined as: attometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// zeptometer per planck-time defined such that: attometer per microsecond = zm/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity ZeptometerPerPlanckTime = new (
                                                                   "zeptometer per planck-time"
@@ -8916,7 +8916,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yoctometer per planck-time, defined as: zeptometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// yoctometer per planck-time defined such that: zeptometer per microsecond = ym/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity YoctometerPerPlanckTime = new (
                                                                   "yoctometer per planck-time"
@@ -8927,7 +8927,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// rontometer per planck-time, defined as: yoctometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// rontometer per planck-time defined such that: yoctometer per microsecond = rm/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity RontometerPerPlanckTime = new (
                                                                   "rontometer per planck-time"
@@ -8938,7 +8938,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quectometer per planck-time, defined as: rontometer per microsecond × (1.0/1000.0)/(5.391247E-38)
+   /// quectometer per planck-time defined such that: rontometer per microsecond = qm/tₚ × (1.0/1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity QuectometerPerPlanckTime = new (
                                                                    "quectometer per planck-time"
@@ -8949,7 +8949,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   );
 
    /// <summary>
-   /// hectometer per planck-time, defined as: dekameter per microsecond × (10.0)/(5.391247E-38)
+   /// hectometer per planck-time defined such that: dekameter per microsecond = hm/tₚ × (10.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity HectometerPerPlanckTime = new (
                                                                   "hectometer per planck-time"
@@ -8960,7 +8960,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// kilometer per planck-time, defined as: hectometer per microsecond × (10.0)/(5.391247E-38)
+   /// kilometer per planck-time defined such that: hectometer per microsecond = km/tₚ × (10.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity KilometerPerPlanckTime = new (
                                                                  "kilometer per planck-time"
@@ -8971,7 +8971,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// megameter per planck-time, defined as: kilometer per microsecond × (1000.0)/(5.391247E-38)
+   /// megameter per planck-time defined such that: kilometer per microsecond = Mm/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity MegameterPerPlanckTime = new (
                                                                  "megameter per planck-time"
@@ -8982,7 +8982,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// gigameter per planck-time, defined as: megameter per microsecond × (1000.0)/(5.391247E-38)
+   /// gigameter per planck-time defined such that: megameter per microsecond = Gm/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity GigameterPerPlanckTime = new (
                                                                  "gigameter per planck-time"
@@ -8993,7 +8993,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// terameter per planck-time, defined as: gigameter per microsecond × (1000.0)/(5.391247E-38)
+   /// terameter per planck-time defined such that: gigameter per microsecond = Tm/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity TerameterPerPlanckTime = new (
                                                                  "terameter per planck-time"
@@ -9004,7 +9004,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// petameter per planck-time, defined as: terameter per microsecond × (1000.0)/(5.391247E-38)
+   /// petameter per planck-time defined such that: terameter per microsecond = Pm/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity PetameterPerPlanckTime = new (
                                                                  "petameter per planck-time"
@@ -9015,7 +9015,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// exameter per planck-time, defined as: petameter per microsecond × (1000.0)/(5.391247E-38)
+   /// exameter per planck-time defined such that: petameter per microsecond = Em/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity ExameterPerPlanckTime = new (
                                                                 "exameter per planck-time"
@@ -9026,7 +9026,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// zettameter per planck-time, defined as: exameter per microsecond × (1000.0)/(5.391247E-38)
+   /// zettameter per planck-time defined such that: exameter per microsecond = Zm/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity ZettameterPerPlanckTime = new (
                                                                   "zettameter per planck-time"
@@ -9037,7 +9037,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// yottameter per planck-time, defined as: zettameter per microsecond × (1000.0)/(5.391247E-38)
+   /// yottameter per planck-time defined such that: zettameter per microsecond = Ym/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity YottameterPerPlanckTime = new (
                                                                   "yottameter per planck-time"
@@ -9048,7 +9048,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// ronnameter per planck-time, defined as: yottameter per microsecond × (1000.0)/(5.391247E-38)
+   /// ronnameter per planck-time defined such that: yottameter per microsecond = Rm/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity RonnameterPerPlanckTime = new (
                                                                   "ronnameter per planck-time"
@@ -9059,7 +9059,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  );
 
    /// <summary>
-   /// quettameter per planck-time, defined as: ronnameter per microsecond × (1000.0)/(5.391247E-38)
+   /// quettameter per planck-time defined such that: ronnameter per microsecond = Qm/tₚ × (1000.0)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity QuettameterPerPlanckTime = new (
                                                                    "quettameter per planck-time"

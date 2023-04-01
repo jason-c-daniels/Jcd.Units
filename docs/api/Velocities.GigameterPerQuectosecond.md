@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerQuectosecond Field
 
-gigameter per quectosecond, defined as: megameter per rontosecond × (1000.0)/(1.0/1000.0)
+gigameter per quectosecond defined such that: megameter per rontosecond = Gm/qs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity GigameterPerQuectosecond;

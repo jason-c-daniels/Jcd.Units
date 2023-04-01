@@ -3,7 +3,7 @@
 
 ## Densities.YoctotonnePerCubicMeter Field
 
-yoctotonne per cubic meter, defined as: zeptotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+yoctotonne per cubic meter defined such that: zeptotonne per cubic meter = yt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density YoctotonnePerCubicMeter;

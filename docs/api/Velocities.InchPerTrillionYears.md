@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerTrillionYears Field
 
-inch per trillion years, defined as: SI centimeter per billion years × (2.54)/(1000.0)
+inch per trillion years defined such that: SI centimeter per billion years = in/Tyr × (2.54)/(1000.0).
 
 ```csharp
 public static readonly Velocity InchPerTrillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerYear Field
 
-twip per year, defined as: foot per day × (1.0/17280.0)/(365.2525)
+twip per year defined such that: foot per day = twip/yr × (1.0/17280.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity TwipPerYear;

@@ -3,7 +3,7 @@
 
 ## Energies.Quectojoule Field
 
-quectojoule, defined as: rontojoule × 1.0/1000.0
+quectojoule defined such that: rontojoule = qJ × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Quectojoule;

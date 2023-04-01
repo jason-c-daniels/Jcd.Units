@@ -3,7 +3,7 @@
 
 ## Volumes.Femtoliter Field
 
-femtoliter, defined as: picoliter × 1.0/1000.0
+femtoliter defined such that: picoliter = fL × 1.0/1000.0.
 
 ```csharp
 public static readonly Volume Femtoliter;

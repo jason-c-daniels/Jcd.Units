@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Centisievert Field
 
-centisievert, defined as: decisievert × 1.0/10.0
+centisievert defined such that: decisievert = csv × 1.0/10.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Centisievert;

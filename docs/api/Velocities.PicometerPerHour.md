@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerHour Field
 
-picometer per hour, defined as: nanometer per minute × (1.0/1000.0)/(60.0)
+picometer per hour defined such that: nanometer per minute = pm/hr × (1.0/1000.0)/(60.0).
 
 ```csharp
 public static readonly Velocity PicometerPerHour;

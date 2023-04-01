@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Nanoweber Field
 
-nanoweber, defined as: microweber × 1.0/1000.0
+nanoweber defined such that: microweber = nWb × 1.0/1000.0.
 
 ```csharp
 public static readonly MagneticFlux Nanoweber;

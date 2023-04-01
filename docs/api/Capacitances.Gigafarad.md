@@ -3,7 +3,7 @@
 
 ## Capacitances.Gigafarad Field
 
-gigafarad, defined as: megafarad × 1000.0
+gigafarad defined such that: megafarad = GF × 1000.0.
 
 ```csharp
 public static readonly Capacitance Gigafarad;

@@ -3,7 +3,7 @@
 
 ## Accelerations.DecimeterPerSquareMicrosecond Field
 
-decimeter per square microsecond, defined as: meter per square millisecond × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0))
+decimeter per square microsecond defined such that: meter per square millisecond = dm/μs² × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration DecimeterPerSquareMicrosecond;

@@ -3,7 +3,7 @@
 
 ## Pressures.Attotorr Field
 
-attotorr, defined as: femtotorr × 1.0/1000.0
+attotorr defined such that: femtotorr = aTorr × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Attotorr;

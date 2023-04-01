@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerZeptosecond Field
 
-petameter per zeptosecond, defined as: terameter per attosecond × (1000.0)/(1.0/1000.0)
+petameter per zeptosecond defined such that: terameter per attosecond = Pm/zs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PetameterPerZeptosecond;

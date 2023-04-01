@@ -3,7 +3,7 @@
 
 ## Accelerations.PlanckLengthPerSquareMillennium Field
 
-planck-length per square millennium, defined as: SI meter per square century × (1.616255E-35)/((10.0)*(10.0))
+planck-length per square millennium defined such that: SI meter per square century = ℓₚ/kyr² × (1.616255E-35)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration PlanckLengthPerSquareMillennium;

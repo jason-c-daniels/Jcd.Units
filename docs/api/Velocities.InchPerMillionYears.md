@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerMillionYears Field
 
-inch per million years, defined as: SI centimeter per millennium × (2.54)/(1000.0)
+inch per million years defined such that: SI centimeter per millennium = in/Myr × (2.54)/(1000.0).
 
 ```csharp
 public static readonly Velocity InchPerMillionYears;

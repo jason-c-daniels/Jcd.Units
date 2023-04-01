@@ -3,7 +3,7 @@
 
 ## StorageUnits.Zebibyte Field
 
-zebibyte, defined as: exbibyte × 1024.0
+zebibyte defined such that: exbibyte = ZiB × 1024.0.
 
 ```csharp
 public static readonly Storage Zebibyte;

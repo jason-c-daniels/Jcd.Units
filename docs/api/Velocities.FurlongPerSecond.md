@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerSecond Field
 
-furlong per second, defined as: chain per second × (10.0)/(1.0)
+furlong per second defined such that: chain per second = fur/s × (10.0)/(1.0).
 
 ```csharp
 public static readonly Velocity FurlongPerSecond;

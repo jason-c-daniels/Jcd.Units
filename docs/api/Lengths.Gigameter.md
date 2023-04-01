@@ -3,7 +3,7 @@
 
 ## Lengths.Gigameter Field
 
-gigameter, defined as: megameter × 1000.0
+gigameter defined such that: megameter = Gm × 1000.0.
 
 ```csharp
 public static readonly Length Gigameter;

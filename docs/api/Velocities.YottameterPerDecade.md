@@ -3,7 +3,7 @@
 
 ## Velocities.YottameterPerDecade Field
 
-yottameter per decade, defined as: zettameter per year × (1000.0)/(10.0)
+yottameter per decade defined such that: zettameter per year = Ym/decade × (1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity YottameterPerDecade;

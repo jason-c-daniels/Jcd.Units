@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerRontosecond Field
 
-yoctometer per rontosecond, defined as: zeptometer per yoctosecond × (1.0/1000.0)/(1.0/1000.0)
+yoctometer per rontosecond defined such that: zeptometer per yoctosecond = ym/rs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity YoctometerPerRontosecond;

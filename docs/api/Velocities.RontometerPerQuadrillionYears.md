@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerQuadrillionYears Field
 
-rontometer per quadrillion years, defined as: yoctometer per trillion years × (1.0/1000.0)/(1000.0)
+rontometer per quadrillion years defined such that: yoctometer per trillion years = rm/Pyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity RontometerPerQuadrillionYears;

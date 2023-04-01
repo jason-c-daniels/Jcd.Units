@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareWeek Field
 
-attometer per square week, defined as: femtometer per square day × (1.0/1000.0)/((7.0)*(7.0))
+attometer per square week defined such that: femtometer per square day = am/wk² × (1.0/1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareWeek;

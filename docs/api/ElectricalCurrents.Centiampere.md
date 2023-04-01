@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Centiampere Field
 
-centiampere, defined as: deciampere × 1.0/10.0
+centiampere defined such that: deciampere = cA × 1.0/10.0.
 
 ```csharp
 public static readonly ElectricalCurrent Centiampere;

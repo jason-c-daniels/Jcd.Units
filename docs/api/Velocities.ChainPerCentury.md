@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerCentury Field
 
-chain per century, defined as: yard per decade × (22.0)/(10.0)
+chain per century defined such that: yard per decade = ch/century × (22.0)/(10.0).
 
 ```csharp
 public static readonly Velocity ChainPerCentury;

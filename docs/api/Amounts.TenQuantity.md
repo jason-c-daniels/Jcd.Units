@@ -3,7 +3,7 @@
 
 ## Amounts.TenQuantity Field
 
-ten quantity, defined as:  quantity × 10.0
+ten quantity defined such that:  quantity = ten qty. × 10.0.
 
 ```csharp
 public static readonly Amount TenQuantity;

@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Imperial;
 public class Areas : UnitOfMeasureEnumeration<Areas, Area>
 {
    /// <summary>
-   /// square inch, defined as: SI square centimeter × (2.54)*(2.54)
+   /// square inch defined such that: SI square centimeter = in² × (2.54)*(2.54).
    /// </summary>
    public static readonly Area SquareInch = new (
                                                  "square inch"
@@ -29,12 +29,12 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                 );
 
    /// <summary>
-   /// square foot, defined as: square inch × (12)*(12)
+   /// square foot defined such that: square inch = ft² × (12)*(12).
    /// </summary>
    public static readonly Area SquareFoot = new ("square foot", "ft²", SquareInch, 12 * 12, system: "Imperial");
 
    /// <summary>
-   /// square twip, defined as: square foot × (1.0/17280.0)*(1.0/17280.0)
+   /// square twip defined such that: square foot = twip² × (1.0/17280.0)*(1.0/17280.0).
    /// </summary>
    public static readonly Area SquareTwip = new (
                                                  "square twip"
@@ -45,7 +45,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                 );
 
    /// <summary>
-   /// square thou, defined as: square foot × (1.0/12000.0)*(1.0/12000.0)
+   /// square thou defined such that: square foot = th² × (1.0/12000.0)*(1.0/12000.0).
    /// </summary>
    public static readonly Area SquareThou = new (
                                                  "square thou"
@@ -56,7 +56,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                 );
 
    /// <summary>
-   /// square barleycorn, defined as: square foot × (1.0/36.0)*(1.0/36.0)
+   /// square barleycorn defined such that: square foot = barleycorn² × (1.0/36.0)*(1.0/36.0).
    /// </summary>
    public static readonly Area SquareBarleycorn = new (
                                                        "square barleycorn"
@@ -67,22 +67,22 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                       );
 
    /// <summary>
-   /// square hand, defined as: square inch × (4.0)*(4.0)
+   /// square hand defined such that: square inch = hh² × (4.0)*(4.0).
    /// </summary>
    public static readonly Area SquareHand = new ("square hand", "hh²", SquareInch, 4.0 * 4.0, system: "Imperial");
 
    /// <summary>
-   /// square yard, defined as: square foot × (3.0)*(3.0)
+   /// square yard defined such that: square foot = yd² × (3.0)*(3.0).
    /// </summary>
    public static readonly Area SquareYard = new ("square yard", "yd²", SquareFoot, 3.0 * 3.0, system: "Imperial");
 
    /// <summary>
-   /// square chain, defined as: square yard × (22.0)*(22.0)
+   /// square chain defined such that: square yard = ch² × (22.0)*(22.0).
    /// </summary>
    public static readonly Area SquareChain = new ("square chain", "ch²", SquareYard, 22.0 * 22.0, system: "Imperial");
 
    /// <summary>
-   /// square furlong, defined as: square chain × (10.0)*(10.0)
+   /// square furlong defined such that: square chain = fur² × (10.0)*(10.0).
    /// </summary>
    public static readonly Area SquareFurlong = new (
                                                     "square furlong"
@@ -93,22 +93,22 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                    );
 
    /// <summary>
-   /// square mile, defined as: square furlong × (8.0)*(8.0)
+   /// square mile defined such that: square furlong = mi² × (8.0)*(8.0).
    /// </summary>
    public static readonly Area SquareMile = new ("square mile", "mi²", SquareFurlong, 8.0 * 8.0, system: "Imperial");
 
    /// <summary>
-   /// square league, defined as: square mile × (3.0)*(3.0)
+   /// square league defined such that: square mile = lea² × (3.0)*(3.0).
    /// </summary>
    public static readonly Area SquareLeague = new ("square league", "lea²", SquareMile, 3.0 * 3.0, system: "Imperial");
 
    /// <summary>
-   /// square fathom, defined as: square foot × (6.0)*(6.0)
+   /// square fathom defined such that: square foot = ftm² × (6.0)*(6.0).
    /// </summary>
    public static readonly Area SquareFathom = new ("square fathom", "ftm²", SquareFoot, 6.0 * 6.0, system: "Imperial");
 
    /// <summary>
-   /// square cable, defined as: square fathom × (100.0)*(100.0)
+   /// square cable defined such that: square fathom = cable² × (100.0)*(100.0).
    /// </summary>
    public static readonly Area SquareCable = new (
                                                   "square cable"
@@ -119,7 +119,7 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                  );
 
    /// <summary>
-   /// square nautical mile, defined as: square cable × (10.0)*(10.0)
+   /// square nautical mile defined such that: square cable = nmi² × (10.0)*(10.0).
    /// </summary>
    public static readonly Area SquareNauticalMile = new (
                                                          "square nautical mile"
@@ -130,17 +130,17 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                         );
 
    /// <summary>
-   /// perch, defined as: square foot × 272.25
+   /// perch defined such that: square foot = perch × 272.25.
    /// </summary>
    public static readonly Area Perch = new ("perch", "perch", SquareFoot, 272.25, system: "Imperial");
 
    /// <summary>
-   /// rood, defined as: perch × 40.0
+   /// rood defined such that: perch = rood × 40.0.
    /// </summary>
    public static readonly Area Rood = new ("rood", "rood", Perch, 40.0, system: "Imperial");
 
    /// <summary>
-   /// acre, defined as: rood × 4.0
+   /// acre defined such that: rood = acre × 4.0.
    /// </summary>
    public static readonly Area Acre = new ("acre", "acre", Rood, 4.0, system: "Imperial");
 }

@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Exakatal Field
 
-exakatal, defined as: petakatal × 1000.0
+exakatal defined such that: petakatal = Ekat × 1000.0.
 
 ```csharp
 public static readonly CatalyticActivity Exakatal;

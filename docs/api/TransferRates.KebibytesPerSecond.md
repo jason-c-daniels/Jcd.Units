@@ -3,7 +3,7 @@
 
 ## TransferRates.KebibytesPerSecond Field
 
-kebibytes per second, defined as: bytes per second × 1024.0
+kebibytes per second defined such that: bytes per second = KiB/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate KebibytesPerSecond;

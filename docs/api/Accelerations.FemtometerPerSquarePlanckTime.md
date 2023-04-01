@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquarePlanckTime Field
 
-femtometer per square planck-time, defined as: picometer per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+femtometer per square planck-time defined such that: picometer per square microsecond = fm/tₚ² × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquarePlanckTime;

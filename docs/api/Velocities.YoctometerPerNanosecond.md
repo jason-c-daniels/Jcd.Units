@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerNanosecond Field
 
-yoctometer per nanosecond, defined as: zeptometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+yoctometer per nanosecond defined such that: zeptometer per microsecond = ym/ns × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity YoctometerPerNanosecond;

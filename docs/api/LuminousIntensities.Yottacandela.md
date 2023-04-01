@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Yottacandela Field
 
-yottacandela, defined as: zettacandela × 1000.0
+yottacandela defined such that: zettacandela = Ycd × 1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Yottacandela;

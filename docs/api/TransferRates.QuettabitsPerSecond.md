@@ -3,7 +3,7 @@
 
 ## TransferRates.QuettabitsPerSecond Field
 
-quettabits per second, defined as: ronnabits per second × 1000.0
+quettabits per second defined such that: ronnabits per second = Qb/s × 1000.0.
 
 ```csharp
 public static readonly TransferRate QuettabitsPerSecond;

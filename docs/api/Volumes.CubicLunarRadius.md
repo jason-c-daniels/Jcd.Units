@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLunarRadius Field
 
-cubic lunar radius, defined as: SI cubic kilometer × (1_737.4)*(1_737.4)*(1_737.4)
+cubic lunar radius defined such that: SI cubic kilometer = R(L)³ × (1_737.4)*(1_737.4)*(1_737.4).
 
 ```csharp
 public static readonly Volume CubicLunarRadius;

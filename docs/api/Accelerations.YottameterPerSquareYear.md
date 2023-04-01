@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareYear Field
 
-yottameter per square year, defined as: zettameter per square day × (1000.0)/((365.2525)*(365.2525))
+yottameter per square year defined such that: zettameter per square day = Ym/yr² × (1000.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration YottameterPerSquareYear;

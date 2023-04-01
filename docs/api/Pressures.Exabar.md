@@ -3,7 +3,7 @@
 
 ## Pressures.Exabar Field
 
-exabar, defined as: petabar × 1000.0
+exabar defined such that: petabar = Ebar × 1000.0.
 
 ```csharp
 public static readonly Pressure Exabar;

@@ -23,12 +23,12 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
    public static readonly LuminousIntensity Candela = new ("candela", "cd", system: "SI");
 
    /// <summary>
-   /// decicandela, defined as: candela × 1.0/10.0
+   /// decicandela defined such that: candela = dcd × 1.0/10.0.
    /// </summary>
    public static readonly LuminousIntensity Decicandela = new ("decicandela", "dcd", Candela, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// centicandela, defined as: decicandela × 1.0/10.0
+   /// centicandela defined such that: decicandela = ccd × 1.0/10.0.
    /// </summary>
    public static readonly LuminousIntensity Centicandela = new (
                                                                 "centicandela"
@@ -39,7 +39,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// millicandela, defined as: centicandela × 1.0/10.0
+   /// millicandela defined such that: centicandela = mcd × 1.0/10.0.
    /// </summary>
    public static readonly LuminousIntensity Millicandela = new (
                                                                 "millicandela"
@@ -50,7 +50,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// microcandela, defined as: millicandela × 1.0/1000.0
+   /// microcandela defined such that: millicandela = μcd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Microcandela = new (
                                                                 "microcandela"
@@ -61,7 +61,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// nanocandela, defined as: microcandela × 1.0/1000.0
+   /// nanocandela defined such that: microcandela = ncd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Nanocandela = new (
                                                                "nanocandela"
@@ -72,7 +72,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                               );
 
    /// <summary>
-   /// picocandela, defined as: nanocandela × 1.0/1000.0
+   /// picocandela defined such that: nanocandela = pcd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Picocandela = new (
                                                                "picocandela"
@@ -83,7 +83,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                               );
 
    /// <summary>
-   /// femtocandela, defined as: picocandela × 1.0/1000.0
+   /// femtocandela defined such that: picocandela = fcd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Femtocandela = new (
                                                                 "femtocandela"
@@ -94,7 +94,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// attocandela, defined as: femtocandela × 1.0/1000.0
+   /// attocandela defined such that: femtocandela = acd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Attocandela = new (
                                                                "attocandela"
@@ -105,7 +105,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                               );
 
    /// <summary>
-   /// zeptocandela, defined as: attocandela × 1.0/1000.0
+   /// zeptocandela defined such that: attocandela = zcd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Zeptocandela = new (
                                                                 "zeptocandela"
@@ -116,7 +116,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// yoctocandela, defined as: zeptocandela × 1.0/1000.0
+   /// yoctocandela defined such that: zeptocandela = ycd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Yoctocandela = new (
                                                                 "yoctocandela"
@@ -127,7 +127,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// rontocandela, defined as: yoctocandela × 1.0/1000.0
+   /// rontocandela defined such that: yoctocandela = rcd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Rontocandela = new (
                                                                 "rontocandela"
@@ -138,7 +138,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// quectocandela, defined as: rontocandela × 1.0/1000.0
+   /// quectocandela defined such that: rontocandela = qcd × 1.0/1000.0.
    /// </summary>
    public static readonly LuminousIntensity Quectocandela = new (
                                                                  "quectocandela"
@@ -149,53 +149,53 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                 );
 
    /// <summary>
-   /// dekacandela, defined as: candela × 10.0
+   /// dekacandela defined such that: candela = dacd × 10.0.
    /// </summary>
    public static readonly LuminousIntensity Dekacandela = new ("dekacandela", "dacd", Candela, 10.0, system: "SI");
 
    /// <summary>
-   /// hectocandela, defined as: dekacandela × 10.0
+   /// hectocandela defined such that: dekacandela = hcd × 10.0.
    /// </summary>
    public static readonly LuminousIntensity Hectocandela = new ("hectocandela", "hcd", Dekacandela, 10.0, system: "SI");
 
    /// <summary>
-   /// kilocandela, defined as: hectocandela × 10.0
+   /// kilocandela defined such that: hectocandela = kcd × 10.0.
    /// </summary>
    public static readonly LuminousIntensity Kilocandela = new ("kilocandela", "kcd", Hectocandela, 10.0, system: "SI");
 
    /// <summary>
-   /// megacandela, defined as: kilocandela × 1000.0
+   /// megacandela defined such that: kilocandela = Mcd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity Megacandela = new ("megacandela", "Mcd", Kilocandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// gigacandela, defined as: megacandela × 1000.0
+   /// gigacandela defined such that: megacandela = Gcd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity Gigacandela = new ("gigacandela", "Gcd", Megacandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// teracandela, defined as: gigacandela × 1000.0
+   /// teracandela defined such that: gigacandela = Tcd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity Teracandela = new ("teracandela", "Tcd", Gigacandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// petacandela, defined as: teracandela × 1000.0
+   /// petacandela defined such that: teracandela = Pcd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity Petacandela = new ("petacandela", "Pcd", Teracandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// exacandela, defined as: petacandela × 1000.0
+   /// exacandela defined such that: petacandela = Ecd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity Exacandela = new ("exacandela", "Ecd", Petacandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// zettacandela, defined as: exacandela × 1000.0
+   /// zettacandela defined such that: exacandela = Zcd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity
             Zettacandela = new ("zettacandela", "Zcd", Exacandela, 1000.0, system: "SI");
 
    /// <summary>
-   /// yottacandela, defined as: zettacandela × 1000.0
+   /// yottacandela defined such that: zettacandela = Ycd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity Yottacandela = new (
                                                                 "yottacandela"
@@ -206,7 +206,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// ronnacandela, defined as: yottacandela × 1000.0
+   /// ronnacandela defined such that: yottacandela = Rcd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity Ronnacandela = new (
                                                                 "ronnacandela"
@@ -217,7 +217,7 @@ public class LuminousIntensities : UnitOfMeasureEnumeration<LuminousIntensities,
                                                                );
 
    /// <summary>
-   /// quettacandela, defined as: ronnacandela × 1000.0
+   /// quettacandela defined such that: ronnacandela = Qcd × 1000.0.
    /// </summary>
    public static readonly LuminousIntensity Quettacandela = new (
                                                                  "quettacandela"

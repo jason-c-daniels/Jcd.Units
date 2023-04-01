@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerWeek Field
 
-terameter per week, defined as: gigameter per day × (1000.0)/(7.0)
+terameter per week defined such that: gigameter per day = Tm/wk × (1000.0)/(7.0).
 
 ```csharp
 public static readonly Velocity TerameterPerWeek;

@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerQuadrillionYears Field
 
-gigameter per quadrillion years, defined as: megameter per trillion years × (1000.0)/(1000.0)
+gigameter per quadrillion years defined such that: megameter per trillion years = Gm/Pyr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity GigameterPerQuadrillionYears;

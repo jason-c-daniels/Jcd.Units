@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerQuectosecond Field
 
-mil per quectosecond, defined as: inch per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+mil per quectosecond defined such that: inch per rontosecond = mil/qs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MilPerQuectosecond;

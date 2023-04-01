@@ -3,7 +3,7 @@
 
 ## Accelerations.LinkPerSquareTick Field
 
-link per square tick, defined as: SI meter per square nanosecond × (0.20116)/((100.0)*(100.0))
+link per square tick defined such that: SI meter per square nanosecond = li/tick² × (0.20116)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration LinkPerSquareTick;

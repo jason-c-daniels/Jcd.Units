@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerAttosecond Field
 
-nanometer per attosecond, defined as: micrometer per femtosecond × (1.0/1000.0)/(1.0/1000.0)
+nanometer per attosecond defined such that: micrometer per femtosecond = nm/as × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity NanometerPerAttosecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerDay Field
 
-zeptometer per day, defined as: attometer per hour × (1.0/1000.0)/(24.0)
+zeptometer per day defined such that: attometer per hour = zm/dy × (1.0/1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity ZeptometerPerDay;

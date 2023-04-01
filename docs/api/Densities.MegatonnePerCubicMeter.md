@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicMeter Field
 
-megatonne per cubic meter, defined as: kilotonne per cubic meter × (1000.0)/((1.0)*(1.0)*(1.0))
+megatonne per cubic meter defined such that: kilotonne per cubic meter = Mt/m³ × (1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density MegatonnePerCubicMeter;

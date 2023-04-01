@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerTick Field
 
-petameter per tick, defined as: terameter per nanosecond × (1000.0)/(100.0)
+petameter per tick defined such that: terameter per nanosecond = Pm/tick × (1000.0)/(100.0).
 
 ```csharp
 public static readonly Velocity PetameterPerTick;

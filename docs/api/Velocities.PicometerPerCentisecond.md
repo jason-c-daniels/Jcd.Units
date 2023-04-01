@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerCentisecond Field
 
-picometer per centisecond, defined as: nanometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+picometer per centisecond defined such that: nanometer per decisecond = pm/cs × (1.0/1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity PicometerPerCentisecond;

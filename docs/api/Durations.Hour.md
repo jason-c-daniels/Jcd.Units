@@ -3,7 +3,7 @@
 
 ## Durations.Hour Field
 
-hour, defined as: minute × 60.0
+hour defined such that: minute = hr × 60.0.
 
 ```csharp
 public static readonly Duration Hour;

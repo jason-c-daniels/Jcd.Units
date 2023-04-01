@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicMeter Field
 
-kilotonne per cubic meter, defined as: hectotonne per cubic meter × (10.0)/((1.0)*(1.0)*(1.0))
+kilotonne per cubic meter defined such that: hectotonne per cubic meter = kt/m³ × (10.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density KilotonnePerCubicMeter;

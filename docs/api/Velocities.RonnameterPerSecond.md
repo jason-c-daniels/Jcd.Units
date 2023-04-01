@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerSecond Field
 
-ronnameter per second, defined as: yottameter per second × (1000.0)/(1.0)
+ronnameter per second defined such that: yottameter per second = Rm/s × (1000.0)/(1.0).
 
 ```csharp
 public static readonly Velocity RonnameterPerSecond;

@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicKilometer Field
 
-yottatonne per cubic kilometer, defined as: zettatonne per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+yottatonne per cubic kilometer defined such that: zettatonne per cubic hectometer = Yt/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density YottatonnePerCubicKilometer;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareDecade Field
 
-megameter per square decade, defined as: kilometer per square year × (1000.0)/((10.0)*(10.0))
+megameter per square decade defined such that: kilometer per square year = Mm/decade² × (1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareDecade;

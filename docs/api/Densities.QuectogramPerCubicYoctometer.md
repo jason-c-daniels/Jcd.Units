@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicYoctometer Field
 
-quectogram per cubic yoctometer, defined as: rontogram per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+quectogram per cubic yoctometer defined such that: rontogram per cubic zeptometer = qg/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density QuectogramPerCubicYoctometer;

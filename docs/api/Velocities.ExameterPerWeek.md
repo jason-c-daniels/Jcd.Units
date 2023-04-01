@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerWeek Field
 
-exameter per week, defined as: petameter per day × (1000.0)/(7.0)
+exameter per week defined such that: petameter per day = Em/wk × (1000.0)/(7.0).
 
 ```csharp
 public static readonly Velocity ExameterPerWeek;

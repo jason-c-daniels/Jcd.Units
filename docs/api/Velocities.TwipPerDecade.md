@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerDecade Field
 
-twip per decade, defined as: foot per year × (1.0/17280.0)/(10.0)
+twip per decade defined such that: foot per year = twip/decade × (1.0/17280.0)/(10.0).
 
 ```csharp
 public static readonly Velocity TwipPerDecade;

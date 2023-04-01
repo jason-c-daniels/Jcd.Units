@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerYoctosecond Field
 
-kilometer per yoctosecond, defined as: hectometer per zeptosecond × (10.0)/(1.0/1000.0)
+kilometer per yoctosecond defined such that: hectometer per zeptosecond = km/ys × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity KilometerPerYoctosecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.MicrometerPerDecisecond Field
 
-micrometer per decisecond, defined as: millimeter per second × (1.0/1000.0)/(1.0/10.0)
+micrometer per decisecond defined such that: millimeter per second = μm/ds × (1.0/1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity MicrometerPerDecisecond;

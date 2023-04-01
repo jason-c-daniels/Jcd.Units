@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquarePlanckTime Field
 
-mil per square planck-time, defined as: inch per square microsecond × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38))
+mil per square planck-time defined such that: inch per square microsecond = mil/tₚ² × (1.0/1000.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp
 public static readonly Acceleration MilPerSquarePlanckTime;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Microsievert Field
 
-microsievert, defined as: millisievert × 1.0/1000.0
+microsievert defined such that: millisievert = μsv × 1.0/1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Microsievert;

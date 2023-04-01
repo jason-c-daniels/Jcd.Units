@@ -3,7 +3,7 @@
 
 ## Forces.Zeptonewton Field
 
-zeptonewton, defined as: attonewton × 1.0/1000.0
+zeptonewton defined such that: attonewton = zN × 1.0/1000.0.
 
 ```csharp
 public static readonly Force Zeptonewton;

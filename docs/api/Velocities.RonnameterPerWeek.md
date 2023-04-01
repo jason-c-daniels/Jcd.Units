@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerWeek Field
 
-ronnameter per week, defined as: yottameter per day × (1000.0)/(7.0)
+ronnameter per week defined such that: yottameter per day = Rm/wk × (1000.0)/(7.0).
 
 ```csharp
 public static readonly Velocity RonnameterPerWeek;

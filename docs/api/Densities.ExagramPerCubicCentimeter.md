@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicCentimeter Field
 
-exagram per cubic centimeter, defined as: petagram per cubic decimeter × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+exagram per cubic centimeter defined such that: petagram per cubic decimeter = Eg/cm³ × (1000.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density ExagramPerCubicCentimeter;

@@ -3,7 +3,7 @@
 
 ## Accelerations.RonnameterPerSquareFemtosecond Field
 
-ronnameter per square femtosecond, defined as: yottameter per square picosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
+ronnameter per square femtosecond defined such that: yottameter per square picosecond = Rm/fs² × (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration RonnameterPerSquareFemtosecond;

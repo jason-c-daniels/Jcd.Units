@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareYear Field
 
-hectometer per square year, defined as: dekameter per square day × (10.0)/((365.2525)*(365.2525))
+hectometer per square year defined such that: dekameter per square day = hm/yr² × (10.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareYear;

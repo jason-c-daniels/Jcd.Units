@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerQuadrillionYears Field
 
-nanometer per quadrillion years, defined as: micrometer per trillion years × (1.0/1000.0)/(1000.0)
+nanometer per quadrillion years defined such that: micrometer per trillion years = nm/Pyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity NanometerPerQuadrillionYears;

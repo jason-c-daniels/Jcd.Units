@@ -3,7 +3,7 @@
 
 ## Areas.SquareRonnaparsec Field
 
-square ronnaparsec, defined as: square yottaparsec × (1000.0)*(1000.0)
+square ronnaparsec defined such that: square yottaparsec = Rpc² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareRonnaparsec;

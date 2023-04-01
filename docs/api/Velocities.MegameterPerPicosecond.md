@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerPicosecond Field
 
-megameter per picosecond, defined as: kilometer per nanosecond × (1000.0)/(1.0/1000.0)
+megameter per picosecond defined such that: kilometer per nanosecond = Mm/ps × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MegameterPerPicosecond;

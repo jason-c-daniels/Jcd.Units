@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicExameter Field
 
-nanogram per cubic exameter, defined as: microgram per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+nanogram per cubic exameter defined such that: microgram per cubic petameter = ng/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density NanogramPerCubicExameter;

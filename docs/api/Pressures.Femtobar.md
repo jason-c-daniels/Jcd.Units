@@ -3,7 +3,7 @@
 
 ## Pressures.Femtobar Field
 
-femtobar, defined as: picobar × 1.0/1000.0
+femtobar defined such that: picobar = fbar × 1.0/1000.0.
 
 ```csharp
 public static readonly Pressure Femtobar;

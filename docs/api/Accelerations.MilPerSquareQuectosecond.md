@@ -3,7 +3,7 @@
 
 ## Accelerations.MilPerSquareQuectosecond Field
 
-mil per square quectosecond, defined as: inch per square rontosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+mil per square quectosecond defined such that: inch per square rontosecond = mil/qs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration MilPerSquareQuectosecond;

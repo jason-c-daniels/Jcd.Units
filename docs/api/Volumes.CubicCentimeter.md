@@ -3,7 +3,7 @@
 
 ## Volumes.CubicCentimeter Field
 
-cubic centimeter, defined as: cubic decimeter × (1.0/10.0)*(1.0/10.0)*(1.0/10.0)
+cubic centimeter defined such that: cubic decimeter = cm³ × (1.0/10.0)*(1.0/10.0)*(1.0/10.0).
 
 ```csharp
 public static readonly Volume CubicCentimeter;

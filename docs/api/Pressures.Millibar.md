@@ -3,7 +3,7 @@
 
 ## Pressures.Millibar Field
 
-millibar, defined as: centibar × 1.0/10.0
+millibar defined such that: centibar = mbar × 1.0/10.0.
 
 ```csharp
 public static readonly Pressure Millibar;

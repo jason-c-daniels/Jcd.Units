@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerSecond Field
 
-decimeter per second, defined as: meter per second × (1.0/10.0)/(1.0)
+decimeter per second defined such that: meter per second = dm/s × (1.0/10.0)/(1.0).
 
 ```csharp
 public static readonly Velocity DecimeterPerSecond;

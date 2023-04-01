@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareTick Field
 
-mile per square tick, defined as: furlong per square nanosecond × (8.0)/((100.0)*(100.0))
+mile per square tick defined such that: furlong per square nanosecond = mi/tick² × (8.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration MilePerSquareTick;

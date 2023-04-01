@@ -3,7 +3,7 @@
 
 ## Forces.Kilonewton Field
 
-kilonewton, defined as: hectonewton × 10.0
+kilonewton defined such that: hectonewton = kN × 10.0.
 
 ```csharp
 public static readonly Force Kilonewton;

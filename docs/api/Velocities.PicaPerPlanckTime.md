@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerPlanckTime Field
 
-pica per planck-time, defined as: point per microsecond × (12.0)/(5.391247E-38)
+pica per planck-time defined such that: point per microsecond = P/tₚ × (12.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity PicaPerPlanckTime;

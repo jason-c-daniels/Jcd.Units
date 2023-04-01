@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Dekalumen Field
 
-dekalumen, defined as: lumen × 10.0
+dekalumen defined such that: lumen = dalm × 10.0.
 
 ```csharp
 public static readonly LuminousFlux Dekalumen;

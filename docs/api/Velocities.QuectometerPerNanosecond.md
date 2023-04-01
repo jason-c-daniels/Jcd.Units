@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerNanosecond Field
 
-quectometer per nanosecond, defined as: rontometer per microsecond × (1.0/1000.0)/(1.0/1000.0)
+quectometer per nanosecond defined such that: rontometer per microsecond = qm/ns × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity QuectometerPerNanosecond;

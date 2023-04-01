@@ -3,7 +3,7 @@
 
 ## Capacitances.Hectofarad Field
 
-hectofarad, defined as: dekafarad × 10.0
+hectofarad defined such that: dekafarad = hF × 10.0.
 
 ```csharp
 public static readonly Capacitance Hectofarad;

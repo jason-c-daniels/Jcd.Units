@@ -3,7 +3,7 @@
 
 ## Forces.Teranewton Field
 
-teranewton, defined as: giganewton × 1000.0
+teranewton defined such that: giganewton = TN × 1000.0.
 
 ```csharp
 public static readonly Force Teranewton;

@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerQuectosecond Field
 
-rod per quectosecond, defined as: SI meter per rontosecond × (5.0292)/(1.0/1000.0)
+rod per quectosecond defined such that: SI meter per rontosecond = rd/qs × (5.0292)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity RodPerQuectosecond;

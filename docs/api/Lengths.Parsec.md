@@ -3,7 +3,7 @@
 
 ## Lengths.Parsec Field
 
-parsec, defined as: light-year × 3.2615637769757
+parsec defined such that: light-year = pc × 3.2615637769757.
 
 ```csharp
 public static readonly Length Parsec;

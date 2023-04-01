@@ -3,7 +3,7 @@
 
 ## Volumes.CubicMegameter Field
 
-cubic megameter, defined as: cubic kilometer × (1000.0)*(1000.0)*(1000.0)
+cubic megameter defined such that: cubic kilometer = Mm³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicMegameter;

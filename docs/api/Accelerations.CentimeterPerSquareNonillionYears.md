@@ -3,7 +3,7 @@
 
 ## Accelerations.CentimeterPerSquareNonillionYears Field
 
-centimeter per square nonillion years, defined as: decimeter per square octillion years × (1.0/10.0)/((1000.0)*(1000.0))
+centimeter per square nonillion years defined such that: decimeter per square octillion years = cm/Qyr² × (1.0/10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration CentimeterPerSquareNonillionYears;

@@ -3,7 +3,7 @@
 
 ## Accelerations.MicrometerPerSquareRontosecond Field
 
-micrometer per square rontosecond, defined as: millimeter per square yoctosecond × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0))
+micrometer per square rontosecond defined such that: millimeter per square yoctosecond = μm/rs² × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration MicrometerPerSquareRontosecond;

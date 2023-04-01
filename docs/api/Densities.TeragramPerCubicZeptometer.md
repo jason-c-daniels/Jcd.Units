@@ -3,7 +3,7 @@
 
 ## Densities.TeragramPerCubicZeptometer Field
 
-teragram per cubic zeptometer, defined as: gigagram per cubic attometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+teragram per cubic zeptometer defined such that: gigagram per cubic attometer = Tg/zm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density TeragramPerCubicZeptometer;

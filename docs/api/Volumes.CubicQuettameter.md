@@ -3,7 +3,7 @@
 
 ## Volumes.CubicQuettameter Field
 
-cubic quettameter, defined as: cubic ronnameter × (1000.0)*(1000.0)*(1000.0)
+cubic quettameter defined such that: cubic ronnameter = Qm³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicQuettameter;

@@ -3,7 +3,7 @@
 
 ## Volumes.CubicThou Field
 
-cubic thou, defined as: cubic foot × (1.0/12000.0)*(1.0/12000.0)*(1.0/12000.0)
+cubic thou defined such that: cubic foot = th³ × (1.0/12000.0)*(1.0/12000.0)*(1.0/12000.0).
 
 ```csharp
 public static readonly Volume CubicThou;

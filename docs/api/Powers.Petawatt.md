@@ -3,7 +3,7 @@
 
 ## Powers.Petawatt Field
 
-petawatt, defined as: terawatt × 1000.0
+petawatt defined such that: terawatt = PW × 1000.0.
 
 ```csharp
 public static readonly Power Petawatt;

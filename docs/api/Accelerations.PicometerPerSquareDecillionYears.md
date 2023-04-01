@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareDecillionYears Field
 
-picometer per square decillion years, defined as: nanometer per square nonillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+picometer per square decillion years defined such that: nanometer per square nonillion years = pm/decillion yr² × (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareDecillionYears;

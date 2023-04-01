@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerNonillionYears Field
 
-quectometer per nonillion years, defined as: rontometer per octillion years × (1.0/1000.0)/(1000.0)
+quectometer per nonillion years defined such that: rontometer per octillion years = qm/Qyr × (1.0/1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity QuectometerPerNonillionYears;

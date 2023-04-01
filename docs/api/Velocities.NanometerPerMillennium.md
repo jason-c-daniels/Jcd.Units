@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerMillennium Field
 
-nanometer per millennium, defined as: micrometer per century × (1.0/1000.0)/(10.0)
+nanometer per millennium defined such that: micrometer per century = nm/kyr × (1.0/1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity NanometerPerMillennium;

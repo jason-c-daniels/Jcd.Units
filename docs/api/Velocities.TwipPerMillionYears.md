@@ -3,7 +3,7 @@
 
 ## Velocities.TwipPerMillionYears Field
 
-twip per million years, defined as: foot per millennium × (1.0/17280.0)/(1000.0)
+twip per million years defined such that: foot per millennium = twip/Myr × (1.0/17280.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity TwipPerMillionYears;

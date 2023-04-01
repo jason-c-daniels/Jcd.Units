@@ -3,7 +3,7 @@
 
 ## Volumes.Minim Field
 
-minim, defined as: pint × 1.0/9600.0
+minim defined such that: pint = ♏︎  × 1.0/9600.0.
 
 ```csharp
 public static readonly Volume Minim;

@@ -3,7 +3,7 @@
 
 ## Densities.PetatonnePerCubicHectometer Field
 
-petatonne per cubic hectometer, defined as: teratonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+petatonne per cubic hectometer defined such that: teratonne per cubic dekameter = Pt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density PetatonnePerCubicHectometer;

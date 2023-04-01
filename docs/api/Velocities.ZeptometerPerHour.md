@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerHour Field
 
-zeptometer per hour, defined as: attometer per minute × (1.0/1000.0)/(60.0)
+zeptometer per hour defined such that: attometer per minute = zm/hr × (1.0/1000.0)/(60.0).
 
 ```csharp
 public static readonly Velocity ZeptometerPerHour;

@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Yoctosievert Field
 
-yoctosievert, defined as: zeptosievert × 1.0/1000.0
+yoctosievert defined such that: zeptosievert = ysv × 1.0/1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Yoctosievert;

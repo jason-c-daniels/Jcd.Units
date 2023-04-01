@@ -3,7 +3,7 @@
 
 ## Densities.FemtotonnePerCubicZettameter Field
 
-femtotonne per cubic zettameter, defined as: picotonne per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+femtotonne per cubic zettameter defined such that: picotonne per cubic exameter = ft/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density FemtotonnePerCubicZettameter;

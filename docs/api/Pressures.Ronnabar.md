@@ -3,7 +3,7 @@
 
 ## Pressures.Ronnabar Field
 
-ronnabar, defined as: yottabar × 1000.0
+ronnabar defined such that: yottabar = Rbar × 1000.0.
 
 ```csharp
 public static readonly Pressure Ronnabar;

@@ -3,7 +3,7 @@
 
 ## Lengths.Rod Field
 
-rod, defined as: SI meter × 5.0292
+rod defined such that: SI meter = rd × 5.0292.
 
 ```csharp
 public static readonly Length Rod;

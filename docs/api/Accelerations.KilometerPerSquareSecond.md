@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareSecond Field
 
-kilometer per square second, defined as: hectometer per square second × (10.0)/((1.0)*(1.0))
+kilometer per square second defined such that: hectometer per square second = km/s² × (10.0)/((1.0)*(1.0)).
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareSecond;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareMillennium Field
 
-thou per square millennium, defined as: foot per square century × (1.0/12000.0)/((10.0)*(10.0))
+thou per square millennium defined such that: foot per square century = th/kyr² × (1.0/12000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration ThouPerSquareMillennium;

@@ -3,7 +3,7 @@
 
 ## Densities.QuettatonnePerCubicHectometer Field
 
-quettatonne per cubic hectometer, defined as: ronnatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+quettatonne per cubic hectometer defined such that: ronnatonne per cubic dekameter = Qt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density QuettatonnePerCubicHectometer;

@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Petacandela Field
 
-petacandela, defined as: teracandela × 1000.0
+petacandela defined such that: teracandela = Pcd × 1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Petacandela;

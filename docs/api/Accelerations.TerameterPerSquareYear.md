@@ -3,7 +3,7 @@
 
 ## Accelerations.TerameterPerSquareYear Field
 
-terameter per square year, defined as: gigameter per square day × (1000.0)/((365.2525)*(365.2525))
+terameter per square year defined such that: gigameter per square day = Tm/yr² × (1000.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration TerameterPerSquareYear;

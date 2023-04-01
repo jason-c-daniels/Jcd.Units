@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareFemtosecond Field
 
-chain per square femtosecond, defined as: yard per square picosecond × (22.0)/((1.0/1000.0)*(1.0/1000.0))
+chain per square femtosecond defined such that: yard per square picosecond = ch/fs² × (22.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration ChainPerSquareFemtosecond;

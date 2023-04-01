@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerTrillionYears Field
 
-hectometer per trillion years, defined as: dekameter per billion years × (10.0)/(1000.0)
+hectometer per trillion years defined such that: dekameter per billion years = hm/Tyr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity HectometerPerTrillionYears;

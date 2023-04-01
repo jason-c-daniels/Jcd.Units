@@ -3,7 +3,7 @@
 
 ## MagneticFluxes.Milliweber Field
 
-milliweber, defined as: centiweber × 1.0/10.0
+milliweber defined such that: centiweber = mWb × 1.0/10.0.
 
 ```csharp
 public static readonly MagneticFlux Milliweber;

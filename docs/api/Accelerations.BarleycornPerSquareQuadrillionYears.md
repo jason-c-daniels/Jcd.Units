@@ -3,7 +3,7 @@
 
 ## Accelerations.BarleycornPerSquareQuadrillionYears Field
 
-barleycorn per square quadrillion years, defined as: foot per square trillion years × (1.0/36.0)/((1000.0)*(1000.0))
+barleycorn per square quadrillion years defined such that: foot per square trillion years = barleycorn/Pyr² × (1.0/36.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration BarleycornPerSquareQuadrillionYears;

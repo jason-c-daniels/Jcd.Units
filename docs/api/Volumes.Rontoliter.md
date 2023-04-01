@@ -3,7 +3,7 @@
 
 ## Volumes.Rontoliter Field
 
-rontoliter, defined as: yoctoliter × 1.0/1000.0
+rontoliter defined such that: yoctoliter = rL × 1.0/1000.0.
 
 ```csharp
 public static readonly Volume Rontoliter;

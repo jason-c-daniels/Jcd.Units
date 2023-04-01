@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerOctillionYears Field
 
-nautical mile per octillion years, defined as: cable per septillion years × (10.0)/(1000.0)
+nautical mile per octillion years defined such that: cable per septillion years = nmi/Ryr × (10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity NauticalMilePerOctillionYears;

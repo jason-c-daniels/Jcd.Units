@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerQuectosecond Field
 
-league per quectosecond, defined as: mile per rontosecond × (3.0)/(1.0/1000.0)
+league per quectosecond defined such that: mile per rontosecond = lea/qs × (3.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity LeaguePerQuectosecond;

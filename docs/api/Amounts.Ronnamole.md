@@ -3,7 +3,7 @@
 
 ## Amounts.Ronnamole Field
 
-ronnamole, defined as: yottamole × 1000.0
+ronnamole defined such that: yottamole = Rmol × 1000.0.
 
 ```csharp
 public static readonly Amount Ronnamole;

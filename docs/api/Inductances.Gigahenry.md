@@ -3,7 +3,7 @@
 
 ## Inductances.Gigahenry Field
 
-gigahenry, defined as: megahenry × 1000.0
+gigahenry defined such that: megahenry = GH × 1000.0.
 
 ```csharp
 public static readonly Inductance Gigahenry;

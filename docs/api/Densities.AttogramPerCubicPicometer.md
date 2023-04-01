@@ -3,7 +3,7 @@
 
 ## Densities.AttogramPerCubicPicometer Field
 
-attogram per cubic picometer, defined as: femtogram per cubic nanometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+attogram per cubic picometer defined such that: femtogram per cubic nanometer = ag/pm³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density AttogramPerCubicPicometer;

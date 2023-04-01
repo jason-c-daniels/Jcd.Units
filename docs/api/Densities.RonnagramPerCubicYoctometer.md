@@ -3,7 +3,7 @@
 
 ## Densities.RonnagramPerCubicYoctometer Field
 
-ronnagram per cubic yoctometer, defined as: yottagram per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+ronnagram per cubic yoctometer defined such that: yottagram per cubic zeptometer = Rg/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density RonnagramPerCubicYoctometer;

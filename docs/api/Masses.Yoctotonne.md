@@ -3,7 +3,7 @@
 
 ## Masses.Yoctotonne Field
 
-yoctotonne, defined as: zeptotonne × 1.0/1000.0
+yoctotonne defined such that: zeptotonne = yt × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Yoctotonne;

@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerMillionYears Field
 
-mile per million years, defined as: furlong per millennium × (8.0)/(1000.0)
+mile per million years defined such that: furlong per millennium = mi/Myr × (8.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MilePerMillionYears;

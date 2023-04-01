@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicMeter Field
 
-nanotonne per cubic meter, defined as: microtonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+nanotonne per cubic meter defined such that: microtonne per cubic meter = nt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density NanotonnePerCubicMeter;

@@ -18,17 +18,17 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
 {
    /// <summary>
-   /// count, a synonym for  count
+   /// count is a synonym for  count
    /// </summary>
    public static readonly Amount Count = new ("count", "ct.", UnitsOfMeasure.Amounts.Count, system: "US Customary");
 
    /// <summary>
-   /// ten count, defined as:  count × 10.0
+   /// ten count defined such that:  count = ten ct. × 10.0.
    /// </summary>
    public static readonly Amount TenCount = new ("ten count", "ten ct.", Count, 10.0, system: "US Customary");
 
    /// <summary>
-   /// hundred count, defined as: ten count × 10.0
+   /// hundred count defined such that: ten count = hundred ct. × 10.0.
    /// </summary>
    public static readonly Amount HundredCount = new (
                                                      "hundred count"
@@ -39,7 +39,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                     );
 
    /// <summary>
-   /// thousand count, defined as: hundred count × 10.0
+   /// thousand count defined such that: hundred count = thousand ct. × 10.0.
    /// </summary>
    public static readonly Amount ThousandCount = new (
                                                       "thousand count"
@@ -50,7 +50,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                      );
 
    /// <summary>
-   /// million count, defined as: thousand count × 1000.0
+   /// million count defined such that: thousand count = million ct. × 1000.0.
    /// </summary>
    public static readonly Amount MillionCount = new (
                                                      "million count"
@@ -61,7 +61,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                     );
 
    /// <summary>
-   /// billion count, defined as: million count × 1000.0
+   /// billion count defined such that: million count = billion ct. × 1000.0.
    /// </summary>
    public static readonly Amount BillionCount = new (
                                                      "billion count"
@@ -72,7 +72,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                     );
 
    /// <summary>
-   /// trillion count, defined as: billion count × 1000.0
+   /// trillion count defined such that: billion count = trillion ct. × 1000.0.
    /// </summary>
    public static readonly Amount TrillionCount = new (
                                                       "trillion count"
@@ -83,7 +83,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                      );
 
    /// <summary>
-   /// quadrillion count, defined as: trillion count × 1000.0
+   /// quadrillion count defined such that: trillion count = quadrillion ct. × 1000.0.
    /// </summary>
    public static readonly Amount QuadrillionCount = new (
                                                          "quadrillion count"
@@ -94,7 +94,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                         );
 
    /// <summary>
-   /// quintillion count, defined as: quadrillion count × 1000.0
+   /// quintillion count defined such that: quadrillion count = quintillion ct. × 1000.0.
    /// </summary>
    public static readonly Amount QuintillionCount = new (
                                                          "quintillion count"
@@ -105,7 +105,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                         );
 
    /// <summary>
-   /// sextillion count, defined as: quintillion count × 1000.0
+   /// sextillion count defined such that: quintillion count = sextillion ct. × 1000.0.
    /// </summary>
    public static readonly Amount SextillionCount = new (
                                                         "sextillion count"
@@ -116,7 +116,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                        );
 
    /// <summary>
-   /// septillion count, defined as: sextillion count × 1000.0
+   /// septillion count defined such that: sextillion count = septillion ct. × 1000.0.
    /// </summary>
    public static readonly Amount SeptillionCount = new (
                                                         "septillion count"
@@ -127,7 +127,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                        );
 
    /// <summary>
-   /// octillion count, defined as: septillion count × 1000.0
+   /// octillion count defined such that: septillion count = octillion ct. × 1000.0.
    /// </summary>
    public static readonly Amount OctillionCount = new (
                                                        "octillion count"
@@ -138,7 +138,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                       );
 
    /// <summary>
-   /// nonillion count, defined as: octillion count × 1000.0
+   /// nonillion count defined such that: octillion count = nonillion ct. × 1000.0.
    /// </summary>
    public static readonly Amount NonillionCount = new (
                                                        "nonillion count"
@@ -149,7 +149,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                       );
 
    /// <summary>
-   /// decillion count, defined as: nonillion count × 1000.0
+   /// decillion count defined such that: nonillion count = decillion ct. × 1000.0.
    /// </summary>
    public static readonly Amount DecillionCount = new (
                                                        "decillion count"
@@ -160,7 +160,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                       );
 
    /// <summary>
-   /// quantity, a synonym for  count
+   /// quantity is a synonym for  count
    /// </summary>
    public static readonly Amount Quantity = new (
                                                  "quantity"
@@ -170,12 +170,12 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                 );
 
    /// <summary>
-   /// ten quantity, defined as:  quantity × 10.0
+   /// ten quantity defined such that:  quantity = ten qty. × 10.0.
    /// </summary>
    public static readonly Amount TenQuantity = new ("ten quantity", "ten qty.", Quantity, 10.0, system: "US Customary");
 
    /// <summary>
-   /// hundred quantity, defined as: ten quantity × 10.0
+   /// hundred quantity defined such that: ten quantity = hundred qty. × 10.0.
    /// </summary>
    public static readonly Amount HundredQuantity = new (
                                                         "hundred quantity"
@@ -186,7 +186,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                        );
 
    /// <summary>
-   /// thousand quantity, defined as: hundred quantity × 10.0
+   /// thousand quantity defined such that: hundred quantity = thousand qty. × 10.0.
    /// </summary>
    public static readonly Amount ThousandQuantity = new (
                                                          "thousand quantity"
@@ -197,7 +197,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                         );
 
    /// <summary>
-   /// million quantity, defined as: thousand quantity × 1000.0
+   /// million quantity defined such that: thousand quantity = million qty. × 1000.0.
    /// </summary>
    public static readonly Amount MillionQuantity = new (
                                                         "million quantity"
@@ -208,7 +208,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                        );
 
    /// <summary>
-   /// billion quantity, defined as: million quantity × 1000.0
+   /// billion quantity defined such that: million quantity = billion qty. × 1000.0.
    /// </summary>
    public static readonly Amount BillionQuantity = new (
                                                         "billion quantity"
@@ -219,7 +219,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                        );
 
    /// <summary>
-   /// trillion quantity, defined as: billion quantity × 1000.0
+   /// trillion quantity defined such that: billion quantity = trillion qty. × 1000.0.
    /// </summary>
    public static readonly Amount TrillionQuantity = new (
                                                          "trillion quantity"
@@ -230,7 +230,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                         );
 
    /// <summary>
-   /// quadrillion quantity, defined as: trillion quantity × 1000.0
+   /// quadrillion quantity defined such that: trillion quantity = quadrillion qty. × 1000.0.
    /// </summary>
    public static readonly Amount QuadrillionQuantity = new (
                                                             "quadrillion quantity"
@@ -241,7 +241,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                            );
 
    /// <summary>
-   /// quintillion quantity, defined as: quadrillion quantity × 1000.0
+   /// quintillion quantity defined such that: quadrillion quantity = quintillion qty. × 1000.0.
    /// </summary>
    public static readonly Amount QuintillionQuantity = new (
                                                             "quintillion quantity"
@@ -252,7 +252,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                            );
 
    /// <summary>
-   /// sextillion quantity, defined as: quintillion quantity × 1000.0
+   /// sextillion quantity defined such that: quintillion quantity = sextillion qty. × 1000.0.
    /// </summary>
    public static readonly Amount SextillionQuantity = new (
                                                            "sextillion quantity"
@@ -263,7 +263,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                           );
 
    /// <summary>
-   /// septillion quantity, defined as: sextillion quantity × 1000.0
+   /// septillion quantity defined such that: sextillion quantity = septillion qty. × 1000.0.
    /// </summary>
    public static readonly Amount SeptillionQuantity = new (
                                                            "septillion quantity"
@@ -274,7 +274,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                           );
 
    /// <summary>
-   /// octillion quantity, defined as: septillion quantity × 1000.0
+   /// octillion quantity defined such that: septillion quantity = octillion qty. × 1000.0.
    /// </summary>
    public static readonly Amount OctillionQuantity = new (
                                                           "octillion quantity"
@@ -285,7 +285,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                          );
 
    /// <summary>
-   /// nonillion quantity, defined as: octillion quantity × 1000.0
+   /// nonillion quantity defined such that: octillion quantity = nonillion qty. × 1000.0.
    /// </summary>
    public static readonly Amount NonillionQuantity = new (
                                                           "nonillion quantity"
@@ -296,7 +296,7 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
                                                          );
 
    /// <summary>
-   /// decillion quantity, defined as: nonillion quantity × 1000.0
+   /// decillion quantity defined such that: nonillion quantity = decillion qty. × 1000.0.
    /// </summary>
    public static readonly Amount DecillionQuantity = new (
                                                           "decillion quantity"

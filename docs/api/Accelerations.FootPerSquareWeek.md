@@ -3,7 +3,7 @@
 
 ## Accelerations.FootPerSquareWeek Field
 
-foot per square week, defined as: inch per square day × (12)/((7.0)*(7.0))
+foot per square week defined such that: inch per square day = ft/wk² × (12)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration FootPerSquareWeek;

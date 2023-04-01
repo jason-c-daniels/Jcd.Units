@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerTick Field
 
-point per tick, defined as: inch per nanosecond × (1.0/72.0)/(100.0)
+point per tick defined such that: inch per nanosecond = p/tick × (1.0/72.0)/(100.0).
 
 ```csharp
 public static readonly Velocity PointPerTick;

@@ -3,7 +3,7 @@
 
 ## Velocities.MilPerPlanckTime Field
 
-mil per planck-time, defined as: inch per microsecond × (1.0/1000.0)/(5.391247E-38)
+mil per planck-time defined such that: inch per microsecond = mil/tₚ × (1.0/1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity MilPerPlanckTime;

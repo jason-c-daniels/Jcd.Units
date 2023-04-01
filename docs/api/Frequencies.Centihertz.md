@@ -3,7 +3,7 @@
 
 ## Frequencies.Centihertz Field
 
-centihertz, defined as: decihertz × 1.0/10.0
+centihertz defined such that: decihertz = cHz × 1.0/10.0.
 
 ```csharp
 public static readonly Frequency Centihertz;

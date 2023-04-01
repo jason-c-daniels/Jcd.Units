@@ -3,7 +3,7 @@
 
 ## Areas.SquareLightMinute Field
 
-square light-minute, defined as: square light-second × (60.0)*(60.0)
+square light-minute defined such that: square light-second = lm² × (60.0)*(60.0).
 
 ```csharp
 public static readonly Area SquareLightMinute;

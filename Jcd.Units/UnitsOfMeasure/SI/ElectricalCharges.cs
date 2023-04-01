@@ -23,12 +23,12 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
    public static readonly ElectricalCharge Coulomb = new ("coulomb", "C", system: "SI");
 
    /// <summary>
-   /// decicoulomb, defined as: coulomb × 1.0/10.0
+   /// decicoulomb defined such that: coulomb = dC × 1.0/10.0.
    /// </summary>
    public static readonly ElectricalCharge Decicoulomb = new ("decicoulomb", "dC", Coulomb, 1.0 / 10.0, system: "SI");
 
    /// <summary>
-   /// centicoulomb, defined as: decicoulomb × 1.0/10.0
+   /// centicoulomb defined such that: decicoulomb = cC × 1.0/10.0.
    /// </summary>
    public static readonly ElectricalCharge Centicoulomb = new (
                                                                "centicoulomb"
@@ -39,7 +39,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                               );
 
    /// <summary>
-   /// millicoulomb, defined as: centicoulomb × 1.0/10.0
+   /// millicoulomb defined such that: centicoulomb = mC × 1.0/10.0.
    /// </summary>
    public static readonly ElectricalCharge Millicoulomb = new (
                                                                "millicoulomb"
@@ -50,7 +50,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                               );
 
    /// <summary>
-   /// microcoulomb, defined as: millicoulomb × 1.0/1000.0
+   /// microcoulomb defined such that: millicoulomb = μC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Microcoulomb = new (
                                                                "microcoulomb"
@@ -61,7 +61,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                               );
 
    /// <summary>
-   /// nanocoulomb, defined as: microcoulomb × 1.0/1000.0
+   /// nanocoulomb defined such that: microcoulomb = nC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Nanocoulomb = new (
                                                               "nanocoulomb"
@@ -72,7 +72,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                              );
 
    /// <summary>
-   /// picocoulomb, defined as: nanocoulomb × 1.0/1000.0
+   /// picocoulomb defined such that: nanocoulomb = pC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Picocoulomb = new (
                                                               "picocoulomb"
@@ -83,7 +83,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                              );
 
    /// <summary>
-   /// femtocoulomb, defined as: picocoulomb × 1.0/1000.0
+   /// femtocoulomb defined such that: picocoulomb = fC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Femtocoulomb = new (
                                                                "femtocoulomb"
@@ -94,7 +94,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                               );
 
    /// <summary>
-   /// attocoulomb, defined as: femtocoulomb × 1.0/1000.0
+   /// attocoulomb defined such that: femtocoulomb = aC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Attocoulomb = new (
                                                               "attocoulomb"
@@ -105,7 +105,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                              );
 
    /// <summary>
-   /// zeptocoulomb, defined as: attocoulomb × 1.0/1000.0
+   /// zeptocoulomb defined such that: attocoulomb = zC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Zeptocoulomb = new (
                                                                "zeptocoulomb"
@@ -116,7 +116,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                               );
 
    /// <summary>
-   /// yoctocoulomb, defined as: zeptocoulomb × 1.0/1000.0
+   /// yoctocoulomb defined such that: zeptocoulomb = yC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Yoctocoulomb = new (
                                                                "yoctocoulomb"
@@ -127,7 +127,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                               );
 
    /// <summary>
-   /// rontocoulomb, defined as: yoctocoulomb × 1.0/1000.0
+   /// rontocoulomb defined such that: yoctocoulomb = rC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Rontocoulomb = new (
                                                                "rontocoulomb"
@@ -138,7 +138,7 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                               );
 
    /// <summary>
-   /// quectocoulomb, defined as: rontocoulomb × 1.0/1000.0
+   /// quectocoulomb defined such that: rontocoulomb = qC × 1.0/1000.0.
    /// </summary>
    public static readonly ElectricalCharge Quectocoulomb = new (
                                                                 "quectocoulomb"
@@ -149,64 +149,64 @@ public class ElectricalCharges : UnitOfMeasureEnumeration<ElectricalCharges, Ele
                                                                );
 
    /// <summary>
-   /// dekacoulomb, defined as: coulomb × 10.0
+   /// dekacoulomb defined such that: coulomb = daC × 10.0.
    /// </summary>
    public static readonly ElectricalCharge Dekacoulomb = new ("dekacoulomb", "daC", Coulomb, 10.0, system: "SI");
 
    /// <summary>
-   /// hectocoulomb, defined as: dekacoulomb × 10.0
+   /// hectocoulomb defined such that: dekacoulomb = hC × 10.0.
    /// </summary>
    public static readonly ElectricalCharge Hectocoulomb = new ("hectocoulomb", "hC", Dekacoulomb, 10.0, system: "SI");
 
    /// <summary>
-   /// kilocoulomb, defined as: hectocoulomb × 10.0
+   /// kilocoulomb defined such that: hectocoulomb = kC × 10.0.
    /// </summary>
    public static readonly ElectricalCharge Kilocoulomb = new ("kilocoulomb", "kC", Hectocoulomb, 10.0, system: "SI");
 
    /// <summary>
-   /// megacoulomb, defined as: kilocoulomb × 1000.0
+   /// megacoulomb defined such that: kilocoulomb = MC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge Megacoulomb = new ("megacoulomb", "MC", Kilocoulomb, 1000.0, system: "SI");
 
    /// <summary>
-   /// gigacoulomb, defined as: megacoulomb × 1000.0
+   /// gigacoulomb defined such that: megacoulomb = GC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge Gigacoulomb = new ("gigacoulomb", "GC", Megacoulomb, 1000.0, system: "SI");
 
    /// <summary>
-   /// teracoulomb, defined as: gigacoulomb × 1000.0
+   /// teracoulomb defined such that: gigacoulomb = TC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge Teracoulomb = new ("teracoulomb", "TC", Gigacoulomb, 1000.0, system: "SI");
 
    /// <summary>
-   /// petacoulomb, defined as: teracoulomb × 1000.0
+   /// petacoulomb defined such that: teracoulomb = PC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge Petacoulomb = new ("petacoulomb", "PC", Teracoulomb, 1000.0, system: "SI");
 
    /// <summary>
-   /// exacoulomb, defined as: petacoulomb × 1000.0
+   /// exacoulomb defined such that: petacoulomb = EC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge Exacoulomb = new ("exacoulomb", "EC", Petacoulomb, 1000.0, system: "SI");
 
    /// <summary>
-   /// zettacoulomb, defined as: exacoulomb × 1000.0
+   /// zettacoulomb defined such that: exacoulomb = ZC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge Zettacoulomb = new ("zettacoulomb", "ZC", Exacoulomb, 1000.0, system: "SI");
 
    /// <summary>
-   /// yottacoulomb, defined as: zettacoulomb × 1000.0
+   /// yottacoulomb defined such that: zettacoulomb = YC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge
             Yottacoulomb = new ("yottacoulomb", "YC", Zettacoulomb, 1000.0, system: "SI");
 
    /// <summary>
-   /// ronnacoulomb, defined as: yottacoulomb × 1000.0
+   /// ronnacoulomb defined such that: yottacoulomb = RC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge
             Ronnacoulomb = new ("ronnacoulomb", "RC", Yottacoulomb, 1000.0, system: "SI");
 
    /// <summary>
-   /// quettacoulomb, defined as: ronnacoulomb × 1000.0
+   /// quettacoulomb defined such that: ronnacoulomb = QC × 1000.0.
    /// </summary>
    public static readonly ElectricalCharge Quettacoulomb = new (
                                                                 "quettacoulomb"

@@ -3,7 +3,7 @@
 
 ## Amounts.Quectomole Field
 
-quectomole, defined as: rontomole × 1.0/1000.0
+quectomole defined such that: rontomole = qmol × 1.0/1000.0.
 
 ```csharp
 public static readonly Amount Quectomole;

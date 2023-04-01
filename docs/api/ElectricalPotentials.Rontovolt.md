@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Rontovolt Field
 
-rontovolt, defined as: yoctovolt × 1.0/1000.0
+rontovolt defined such that: yoctovolt = rV × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalPotential Rontovolt;

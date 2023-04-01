@@ -3,7 +3,7 @@
 
 ## Energies.Petajoule Field
 
-petajoule, defined as: terajoule × 1000.0
+petajoule defined such that: terajoule = PJ × 1000.0.
 
 ```csharp
 public static readonly Energy Petajoule;

@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerMillisecond Field
 
-kilometer per millisecond, defined as: hectometer per centisecond × (10.0)/(1.0/10.0)
+kilometer per millisecond defined such that: hectometer per centisecond = km/ms × (10.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity KilometerPerMillisecond;

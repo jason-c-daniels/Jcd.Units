@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerNanosecond Field
 
-zettameter per nanosecond, defined as: exameter per microsecond × (1000.0)/(1.0/1000.0)
+zettameter per nanosecond defined such that: exameter per microsecond = Zm/ns × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ZettameterPerNanosecond;

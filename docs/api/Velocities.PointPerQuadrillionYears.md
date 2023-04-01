@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerQuadrillionYears Field
 
-point per quadrillion years, defined as: inch per trillion years × (1.0/72.0)/(1000.0)
+point per quadrillion years defined such that: inch per trillion years = p/Pyr × (1.0/72.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PointPerQuadrillionYears;

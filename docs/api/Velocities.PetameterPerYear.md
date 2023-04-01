@@ -3,7 +3,7 @@
 
 ## Velocities.PetameterPerYear Field
 
-petameter per year, defined as: terameter per day × (1000.0)/(365.2525)
+petameter per year defined such that: terameter per day = Pm/yr × (1000.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity PetameterPerYear;

@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerZeptosecond Field
 
-mile per zeptosecond, defined as: furlong per attosecond × (8.0)/(1.0/1000.0)
+mile per zeptosecond defined such that: furlong per attosecond = mi/zs × (8.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MilePerZeptosecond;

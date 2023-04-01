@@ -3,7 +3,7 @@
 
 ## Powers.Femtowatt Field
 
-femtowatt, defined as: picowatt × 1.0/1000.0
+femtowatt defined such that: picowatt = fW × 1.0/1000.0.
 
 ```csharp
 public static readonly Power Femtowatt;

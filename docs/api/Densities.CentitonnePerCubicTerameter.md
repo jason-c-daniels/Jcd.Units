@@ -3,7 +3,7 @@
 
 ## Densities.CentitonnePerCubicTerameter Field
 
-centitonne per cubic terameter, defined as: decitonne per cubic gigameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+centitonne per cubic terameter defined such that: decitonne per cubic gigameter = ct/Tm³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density CentitonnePerCubicTerameter;

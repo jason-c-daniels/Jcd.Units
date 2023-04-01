@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Centisiemens Field
 
-centisiemens, defined as: decisiemens × 1.0/10.0
+centisiemens defined such that: decisiemens = cS × 1.0/10.0.
 
 ```csharp
 public static readonly ElectricalConductance Centisiemens;

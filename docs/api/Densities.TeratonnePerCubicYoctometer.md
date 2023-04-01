@@ -3,7 +3,7 @@
 
 ## Densities.TeratonnePerCubicYoctometer Field
 
-teratonne per cubic yoctometer, defined as: gigatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+teratonne per cubic yoctometer defined such that: gigatonne per cubic zeptometer = Tt/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density TeratonnePerCubicYoctometer;

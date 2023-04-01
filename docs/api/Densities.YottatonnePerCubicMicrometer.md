@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicMicrometer Field
 
-yottatonne per cubic micrometer, defined as: zettatonne per cubic millimeter × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+yottatonne per cubic micrometer defined such that: zettatonne per cubic millimeter = Yt/μm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density YottatonnePerCubicMicrometer;

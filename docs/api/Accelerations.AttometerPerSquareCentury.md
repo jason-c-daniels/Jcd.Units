@@ -3,7 +3,7 @@
 
 ## Accelerations.AttometerPerSquareCentury Field
 
-attometer per square century, defined as: femtometer per square decade × (1.0/1000.0)/((10.0)*(10.0))
+attometer per square century defined such that: femtometer per square decade = am/century² × (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration AttometerPerSquareCentury;

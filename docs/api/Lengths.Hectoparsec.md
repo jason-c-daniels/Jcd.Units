@@ -3,7 +3,7 @@
 
 ## Lengths.Hectoparsec Field
 
-hectoparsec, defined as: dekaparsec × 10.0
+hectoparsec defined such that: dekaparsec = hpc × 10.0.
 
 ```csharp
 public static readonly Length Hectoparsec;

@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerQuectosecond Field
 
-zeptometer per quectosecond, defined as: attometer per rontosecond × (1.0/1000.0)/(1.0/1000.0)
+zeptometer per quectosecond defined such that: attometer per rontosecond = zm/qs × (1.0/1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity ZeptometerPerQuectosecond;

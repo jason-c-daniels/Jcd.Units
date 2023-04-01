@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerDecade Field
 
-millimeter per decade, defined as: centimeter per year × (1.0/10.0)/(10.0)
+millimeter per decade defined such that: centimeter per year = mm/decade × (1.0/10.0)/(10.0).
 
 ```csharp
 public static readonly Velocity MillimeterPerDecade;

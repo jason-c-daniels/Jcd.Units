@@ -3,7 +3,7 @@
 
 ## Velocities.NauticalMilePerQuectosecond Field
 
-nautical mile per quectosecond, defined as: cable per rontosecond × (10.0)/(1.0/1000.0)
+nautical mile per quectosecond defined such that: cable per rontosecond = nmi/qs × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity NauticalMilePerQuectosecond;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Zeptosiemens Field
 
-zeptosiemens, defined as: attosiemens × 1.0/1000.0
+zeptosiemens defined such that: attosiemens = zS × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalConductance Zeptosiemens;

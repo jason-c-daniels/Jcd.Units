@@ -3,7 +3,7 @@
 
 ## Pressures.Exatorr Field
 
-exatorr, defined as: petatorr × 1000.0
+exatorr defined such that: petatorr = ETorr × 1000.0.
 
 ```csharp
 public static readonly Pressure Exatorr;

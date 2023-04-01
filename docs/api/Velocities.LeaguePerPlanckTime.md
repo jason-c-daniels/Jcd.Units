@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerPlanckTime Field
 
-league per planck-time, defined as: mile per microsecond × (3.0)/(5.391247E-38)
+league per planck-time defined such that: mile per microsecond = lea/tₚ × (3.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity LeaguePerPlanckTime;

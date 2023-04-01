@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USSurvey;
 public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleration>
 {
    /// <summary>
-   /// league per square century, defined as: SI meter per square decade × (4828.032)/((10.0)*(10.0))
+   /// league per square century defined such that: SI meter per square decade = lea/century² × (4828.032)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareCentury = new (
                                                                      "league per square century"
@@ -29,7 +29,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// chain per square sextillion years, defined as: SI meter per square quintillion years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square sextillion years defined such that: SI meter per square quintillion years = ch/Zyr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareSextillionYears = new (
                                                                             "chain per square sextillion years"
@@ -41,7 +41,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// chain per square year, defined as: SI meter per square day × (20.1168)/((365.2525)*(365.2525))
+   /// chain per square year defined such that: SI meter per square day = ch/yr² × (20.1168)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareYear = new (
                                                                  "chain per square year"
@@ -52,7 +52,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// rod per square billion years, defined as: SI meter per square million years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square billion years defined such that: SI meter per square million years = rd/Gyr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareBillionYears = new (
                                                                        "rod per square billion years"
@@ -63,7 +63,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// rod per square trillion years, defined as: SI meter per square billion years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square trillion years defined such that: SI meter per square billion years = rd/Tyr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareTrillionYears = new (
                                                                         "rod per square trillion years"
@@ -74,7 +74,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square quadrillion years, defined as: SI meter per square trillion years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square quadrillion years defined such that: SI meter per square trillion years = lea/Pyr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareQuadrillionYears = new (
                                                                               "league per square quadrillion years"
@@ -86,7 +86,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// furlong per square octillion years, defined as: SI meter per square septillion years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square octillion years defined such that: SI meter per square septillion years = fur/Ryr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareOctillionYears = new (
                                                                              "furlong per square octillion years"
@@ -98,7 +98,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// furlong per square billion years, defined as: SI meter per square million years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square billion years defined such that: SI meter per square million years = fur/Gyr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareBillionYears = new (
                                                                            "furlong per square billion years"
@@ -109,7 +109,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// chain per square septillion years, defined as: SI meter per square sextillion years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square septillion years defined such that: SI meter per square sextillion years = ch/Yyr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareSeptillionYears = new (
                                                                             "chain per square septillion years"
@@ -121,7 +121,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// furlong per square week, defined as: SI meter per square day × (201.168)/((7.0)*(7.0))
+   /// furlong per square week defined such that: SI meter per square day = fur/wk² × (201.168)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareWeek = new (
                                                                    "furlong per square week"
@@ -132,7 +132,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// league per square day, defined as: SI meter per square hour × (4828.032)/((24.0)*(24.0))
+   /// league per square day defined such that: SI meter per square hour = lea/dy² × (4828.032)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareDay = new (
                                                                  "league per square day"
@@ -143,7 +143,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// chain per square decade, defined as: SI meter per square year × (20.1168)/((10.0)*(10.0))
+   /// chain per square decade defined such that: SI meter per square year = ch/decade² × (20.1168)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareDecade = new (
                                                                    "chain per square decade"
@@ -154,7 +154,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// rod per square quadrillion years, defined as: SI meter per square trillion years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square quadrillion years defined such that: SI meter per square trillion years = rd/Pyr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareQuadrillionYears = new (
                                                                            "rod per square quadrillion years"
@@ -165,7 +165,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// league per square nonillion years, defined as: SI meter per square octillion years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square nonillion years defined such that: SI meter per square octillion years = lea/Qyr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareNonillionYears = new (
                                                                             "league per square nonillion years"
@@ -177,7 +177,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// rod per square quintillion years, defined as: SI meter per square quadrillion years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square quintillion years defined such that: SI meter per square quadrillion years = rd/Eyr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareQuintillionYears = new (
                                                                            "rod per square quintillion years"
@@ -189,7 +189,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// league per square millennium, defined as: SI meter per square century × (4828.032)/((10.0)*(10.0))
+   /// league per square millennium defined such that: SI meter per square century = lea/kyr² × (4828.032)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMillennium = new (
                                                                         "league per square millennium"
@@ -200,7 +200,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square octillion years, defined as: SI meter per square septillion years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square octillion years defined such that: SI meter per square septillion years = ch/Ryr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareOctillionYears = new (
                                                                            "chain per square octillion years"
@@ -212,7 +212,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// chain per square century, defined as: SI meter per square decade × (20.1168)/((10.0)*(10.0))
+   /// chain per square century defined such that: SI meter per square decade = ch/century² × (20.1168)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareCentury = new (
                                                                     "chain per square century"
@@ -223,7 +223,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// rod per square sextillion years, defined as: SI meter per square quintillion years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square sextillion years defined such that: SI meter per square quintillion years = rd/Zyr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareSextillionYears = new (
                                                                           "rod per square sextillion years"
@@ -235,7 +235,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square nonillion years, defined as: SI meter per square octillion years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square nonillion years defined such that: SI meter per square octillion years = fur/Qyr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareNonillionYears = new (
                                                                              "furlong per square nonillion years"
@@ -247,7 +247,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// furlong per square trillion years, defined as: SI meter per square billion years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square trillion years defined such that: SI meter per square billion years = fur/Tyr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareTrillionYears = new (
                                                                             "furlong per square trillion years"
@@ -258,7 +258,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// furlong per square year, defined as: SI meter per square day × (201.168)/((365.2525)*(365.2525))
+   /// furlong per square year defined such that: SI meter per square day = fur/yr² × (201.168)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareYear = new (
                                                                    "furlong per square year"
@@ -269,7 +269,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// rod per square septillion years, defined as: SI meter per square sextillion years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square septillion years defined such that: SI meter per square sextillion years = rd/Yyr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareSeptillionYears = new (
                                                                           "rod per square septillion years"
@@ -280,7 +280,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// league per square quintillion years, defined as: SI meter per square quadrillion years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square quintillion years defined such that: SI meter per square quadrillion years = lea/Eyr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareQuintillionYears = new (
                                                                               "league per square quintillion years"
@@ -292,7 +292,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// chain per square nonillion years, defined as: SI meter per square octillion years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square nonillion years defined such that: SI meter per square octillion years = ch/Qyr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareNonillionYears = new (
                                                                            "chain per square nonillion years"
@@ -303,7 +303,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// league per square week, defined as: SI meter per square day × (4828.032)/((7.0)*(7.0))
+   /// league per square week defined such that: SI meter per square day = lea/wk² × (4828.032)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareWeek = new (
                                                                   "league per square week"
@@ -314,7 +314,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// chain per square millennium, defined as: SI meter per square century × (20.1168)/((10.0)*(10.0))
+   /// chain per square millennium defined such that: SI meter per square century = ch/kyr² × (20.1168)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareMillennium = new (
                                                                        "chain per square millennium"
@@ -325,7 +325,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// rod per square octillion years, defined as: SI meter per square septillion years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square octillion years defined such that: SI meter per square septillion years = rd/Ryr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareOctillionYears = new (
                                                                          "rod per square octillion years"
@@ -336,7 +336,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square decillion years, defined as: SI meter per square nonillion years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square decillion years defined such that: SI meter per square nonillion years = lea/decillion yr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareDecillionYears = new (
                                                                             "league per square decillion years"
@@ -348,7 +348,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// rod per square nonillion years, defined as: SI meter per square octillion years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square nonillion years defined such that: SI meter per square octillion years = rd/Qyr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareNonillionYears = new (
                                                                          "rod per square nonillion years"
@@ -359,7 +359,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// furlong per square decillion years, defined as: SI meter per square nonillion years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square decillion years defined such that: SI meter per square nonillion years = fur/decillion yr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareDecillionYears = new (
                                                                              "furlong per square decillion years"
@@ -371,7 +371,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// league per square million years, defined as: SI meter per square millennium × (4828.032)/((1000.0)*(1000.0))
+   /// league per square million years defined such that: SI meter per square millennium = lea/Myr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMillionYears = new (
                                                                           "league per square million years"
@@ -382,7 +382,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square quadrillion years, defined as: SI meter per square trillion years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square quadrillion years defined such that: SI meter per square trillion years = fur/Pyr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareQuadrillionYears = new (
                                                                                "furlong per square quadrillion years"
@@ -394,7 +394,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// chain per square decillion years, defined as: SI meter per square nonillion years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square decillion years defined such that: SI meter per square nonillion years = ch/decillion yr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareDecillionYears = new (
                                                                            "chain per square decillion years"
@@ -405,7 +405,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// furlong per square decade, defined as: SI meter per square year × (201.168)/((10.0)*(10.0))
+   /// furlong per square decade defined such that: SI meter per square year = fur/decade² × (201.168)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareDecade = new (
                                                                      "furlong per square decade"
@@ -416,7 +416,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// chain per square million years, defined as: SI meter per square millennium × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square million years defined such that: SI meter per square millennium = ch/Myr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareMillionYears = new (
                                                                          "chain per square million years"
@@ -427,7 +427,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// rod per square decillion years, defined as: SI meter per square nonillion years × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square decillion years defined such that: SI meter per square nonillion years = rd/decillion yr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareDecillionYears = new (
                                                                          "rod per square decillion years"
@@ -438,7 +438,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// link per square second, defined as: SI meter per square second × (0.20116)/((1.0)*(1.0))
+   /// link per square second defined such that: SI meter per square second = li/s² × (0.20116)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareSecond = new (
                                                                   "link per square second"
@@ -449,7 +449,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// link per square planck-time, defined as: SI meter per square microsecond × (0.20116)/((5.391247E-38)*(5.391247E-38))
+   /// link per square planck-time defined such that: SI meter per square microsecond = li/tₚ² × (0.20116)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration LinkPerSquarePlanckTime = new (
                                                                       "link per square planck-time"
@@ -460,7 +460,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// link per square decisecond, defined as: SI meter per square second × (0.20116)/((1.0/10.0)*(1.0/10.0))
+   /// link per square decisecond defined such that: SI meter per square second = li/ds² × (0.20116)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareDecisecond = new (
                                                                       "link per square decisecond"
@@ -471,7 +471,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// link per square centisecond, defined as: SI meter per square decisecond × (0.20116)/((1.0/10.0)*(1.0/10.0))
+   /// link per square centisecond defined such that: SI meter per square decisecond = li/cs² × (0.20116)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareCentisecond = new (
                                                                        "link per square centisecond"
@@ -482,7 +482,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// link per square millisecond, defined as: SI meter per square centisecond × (0.20116)/((1.0/10.0)*(1.0/10.0))
+   /// link per square millisecond defined such that: SI meter per square centisecond = li/ms² × (0.20116)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareMillisecond = new (
                                                                        "link per square millisecond"
@@ -493,7 +493,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// link per square microsecond, defined as: SI meter per square millisecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square microsecond defined such that: SI meter per square millisecond = li/μs² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareMicrosecond = new (
                                                                        "link per square microsecond"
@@ -504,7 +504,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// link per square nanosecond, defined as: SI meter per square microsecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square nanosecond defined such that: SI meter per square microsecond = li/ns² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareNanosecond = new (
                                                                       "link per square nanosecond"
@@ -515,7 +515,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// link per square picosecond, defined as: SI meter per square nanosecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square picosecond defined such that: SI meter per square nanosecond = li/ps² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquarePicosecond = new (
                                                                       "link per square picosecond"
@@ -526,7 +526,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// link per square femtosecond, defined as: SI meter per square picosecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square femtosecond defined such that: SI meter per square picosecond = li/fs² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareFemtosecond = new (
                                                                        "link per square femtosecond"
@@ -537,7 +537,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// link per square attosecond, defined as: SI meter per square femtosecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square attosecond defined such that: SI meter per square femtosecond = li/as² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareAttosecond = new (
                                                                       "link per square attosecond"
@@ -548,7 +548,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// link per square zeptosecond, defined as: SI meter per square attosecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square zeptosecond defined such that: SI meter per square attosecond = li/zs² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareZeptosecond = new (
                                                                        "link per square zeptosecond"
@@ -559,7 +559,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// link per square yoctosecond, defined as: SI meter per square zeptosecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square yoctosecond defined such that: SI meter per square zeptosecond = li/ys² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareYoctosecond = new (
                                                                        "link per square yoctosecond"
@@ -570,7 +570,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// link per square rontosecond, defined as: SI meter per square yoctosecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square rontosecond defined such that: SI meter per square yoctosecond = li/rs² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareRontosecond = new (
                                                                        "link per square rontosecond"
@@ -581,7 +581,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// link per square quectosecond, defined as: SI meter per square rontosecond × (0.20116)/((1.0/1000.0)*(1.0/1000.0))
+   /// link per square quectosecond defined such that: SI meter per square rontosecond = li/qs² × (0.20116)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareQuectosecond = new (
                                                                         "link per square quectosecond"
@@ -592,7 +592,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// link per square minute, defined as: SI meter per square second × (0.20116)/((60.0)*(60.0))
+   /// link per square minute defined such that: SI meter per square second = li/min² × (0.20116)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareMinute = new (
                                                                   "link per square minute"
@@ -603,7 +603,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// rod per square second, defined as: SI meter per square second × (5.0292)/((1.0)*(1.0))
+   /// rod per square second defined such that: SI meter per square second = rd/s² × (5.0292)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareSecond = new (
                                                                  "rod per square second"
@@ -614,7 +614,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// rod per square planck-time, defined as: SI meter per square microsecond × (5.0292)/((5.391247E-38)*(5.391247E-38))
+   /// rod per square planck-time defined such that: SI meter per square microsecond = rd/tₚ² × (5.0292)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration RodPerSquarePlanckTime = new (
                                                                      "rod per square planck-time"
@@ -625,7 +625,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// rod per square decisecond, defined as: SI meter per square second × (5.0292)/((1.0/10.0)*(1.0/10.0))
+   /// rod per square decisecond defined such that: SI meter per square second = rd/ds² × (5.0292)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareDecisecond = new (
                                                                      "rod per square decisecond"
@@ -636,7 +636,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// rod per square centisecond, defined as: SI meter per square decisecond × (5.0292)/((1.0/10.0)*(1.0/10.0))
+   /// rod per square centisecond defined such that: SI meter per square decisecond = rd/cs² × (5.0292)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareCentisecond = new (
                                                                       "rod per square centisecond"
@@ -647,7 +647,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// rod per square millisecond, defined as: SI meter per square centisecond × (5.0292)/((1.0/10.0)*(1.0/10.0))
+   /// rod per square millisecond defined such that: SI meter per square centisecond = rd/ms² × (5.0292)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareMillisecond = new (
                                                                       "rod per square millisecond"
@@ -658,7 +658,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// rod per square microsecond, defined as: SI meter per square millisecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square microsecond defined such that: SI meter per square millisecond = rd/μs² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareMicrosecond = new (
                                                                       "rod per square microsecond"
@@ -669,7 +669,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// rod per square nanosecond, defined as: SI meter per square microsecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square nanosecond defined such that: SI meter per square microsecond = rd/ns² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareNanosecond = new (
                                                                      "rod per square nanosecond"
@@ -680,7 +680,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// rod per square picosecond, defined as: SI meter per square nanosecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square picosecond defined such that: SI meter per square nanosecond = rd/ps² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquarePicosecond = new (
                                                                      "rod per square picosecond"
@@ -691,7 +691,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// rod per square femtosecond, defined as: SI meter per square picosecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square femtosecond defined such that: SI meter per square picosecond = rd/fs² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareFemtosecond = new (
                                                                       "rod per square femtosecond"
@@ -702,7 +702,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// rod per square attosecond, defined as: SI meter per square femtosecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square attosecond defined such that: SI meter per square femtosecond = rd/as² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareAttosecond = new (
                                                                      "rod per square attosecond"
@@ -713,7 +713,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// rod per square zeptosecond, defined as: SI meter per square attosecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square zeptosecond defined such that: SI meter per square attosecond = rd/zs² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareZeptosecond = new (
                                                                       "rod per square zeptosecond"
@@ -724,7 +724,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// rod per square yoctosecond, defined as: SI meter per square zeptosecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square yoctosecond defined such that: SI meter per square zeptosecond = rd/ys² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareYoctosecond = new (
                                                                       "rod per square yoctosecond"
@@ -735,7 +735,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// rod per square rontosecond, defined as: SI meter per square yoctosecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square rontosecond defined such that: SI meter per square yoctosecond = rd/rs² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareRontosecond = new (
                                                                       "rod per square rontosecond"
@@ -746,7 +746,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// rod per square quectosecond, defined as: SI meter per square rontosecond × (5.0292)/((1.0/1000.0)*(1.0/1000.0))
+   /// rod per square quectosecond defined such that: SI meter per square rontosecond = rd/qs² × (5.0292)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareQuectosecond = new (
                                                                        "rod per square quectosecond"
@@ -757,7 +757,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// link per square hour, defined as: SI meter per square minute × (0.20116)/((60.0)*(60.0))
+   /// link per square hour defined such that: SI meter per square minute = li/hr² × (0.20116)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareHour = new (
                                                                 "link per square hour"
@@ -768,7 +768,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// chain per square second, defined as: SI meter per square second × (20.1168)/((1.0)*(1.0))
+   /// chain per square second defined such that: SI meter per square second = ch/s² × (20.1168)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareSecond = new (
                                                                    "chain per square second"
@@ -779,7 +779,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// chain per square planck-time, defined as: SI meter per square microsecond × (20.1168)/((5.391247E-38)*(5.391247E-38))
+   /// chain per square planck-time defined such that: SI meter per square microsecond = ch/tₚ² × (20.1168)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration ChainPerSquarePlanckTime = new (
                                                                        "chain per square planck-time"
@@ -790,7 +790,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// chain per square decisecond, defined as: SI meter per square second × (20.1168)/((1.0/10.0)*(1.0/10.0))
+   /// chain per square decisecond defined such that: SI meter per square second = ch/ds² × (20.1168)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareDecisecond = new (
                                                                        "chain per square decisecond"
@@ -801,7 +801,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// chain per square centisecond, defined as: SI meter per square decisecond × (20.1168)/((1.0/10.0)*(1.0/10.0))
+   /// chain per square centisecond defined such that: SI meter per square decisecond = ch/cs² × (20.1168)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareCentisecond = new (
                                                                         "chain per square centisecond"
@@ -812,7 +812,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square millisecond, defined as: SI meter per square centisecond × (20.1168)/((1.0/10.0)*(1.0/10.0))
+   /// chain per square millisecond defined such that: SI meter per square centisecond = ch/ms² × (20.1168)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareMillisecond = new (
                                                                         "chain per square millisecond"
@@ -823,7 +823,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square microsecond, defined as: SI meter per square millisecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square microsecond defined such that: SI meter per square millisecond = ch/μs² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareMicrosecond = new (
                                                                         "chain per square microsecond"
@@ -834,7 +834,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square nanosecond, defined as: SI meter per square microsecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square nanosecond defined such that: SI meter per square microsecond = ch/ns² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareNanosecond = new (
                                                                        "chain per square nanosecond"
@@ -845,7 +845,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// chain per square picosecond, defined as: SI meter per square nanosecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square picosecond defined such that: SI meter per square nanosecond = ch/ps² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquarePicosecond = new (
                                                                        "chain per square picosecond"
@@ -856,7 +856,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// chain per square femtosecond, defined as: SI meter per square picosecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square femtosecond defined such that: SI meter per square picosecond = ch/fs² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareFemtosecond = new (
                                                                         "chain per square femtosecond"
@@ -867,7 +867,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square attosecond, defined as: SI meter per square femtosecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square attosecond defined such that: SI meter per square femtosecond = ch/as² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareAttosecond = new (
                                                                        "chain per square attosecond"
@@ -878,7 +878,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       );
 
    /// <summary>
-   /// chain per square zeptosecond, defined as: SI meter per square attosecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square zeptosecond defined such that: SI meter per square attosecond = ch/zs² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareZeptosecond = new (
                                                                         "chain per square zeptosecond"
@@ -889,7 +889,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square yoctosecond, defined as: SI meter per square zeptosecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square yoctosecond defined such that: SI meter per square zeptosecond = ch/ys² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareYoctosecond = new (
                                                                         "chain per square yoctosecond"
@@ -900,7 +900,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square rontosecond, defined as: SI meter per square yoctosecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square rontosecond defined such that: SI meter per square yoctosecond = ch/rs² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareRontosecond = new (
                                                                         "chain per square rontosecond"
@@ -911,7 +911,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// chain per square quectosecond, defined as: SI meter per square rontosecond × (20.1168)/((1.0/1000.0)*(1.0/1000.0))
+   /// chain per square quectosecond defined such that: SI meter per square rontosecond = ch/qs² × (20.1168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareQuectosecond = new (
                                                                          "chain per square quectosecond"
@@ -922,7 +922,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// link per square day, defined as: SI meter per square hour × (0.20116)/((24.0)*(24.0))
+   /// link per square day defined such that: SI meter per square hour = li/dy² × (0.20116)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareDay = new (
                                                                "link per square day"
@@ -933,7 +933,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// furlong per square second, defined as: SI meter per square second × (201.168)/((1.0)*(1.0))
+   /// furlong per square second defined such that: SI meter per square second = fur/s² × (201.168)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareSecond = new (
                                                                      "furlong per square second"
@@ -944,7 +944,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// furlong per square planck-time, defined as: SI meter per square microsecond × (201.168)/((5.391247E-38)*(5.391247E-38))
+   /// furlong per square planck-time defined such that: SI meter per square microsecond = fur/tₚ² × (201.168)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquarePlanckTime = new (
                                                                          "furlong per square planck-time"
@@ -955,7 +955,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// furlong per square decisecond, defined as: SI meter per square second × (201.168)/((1.0/10.0)*(1.0/10.0))
+   /// furlong per square decisecond defined such that: SI meter per square second = fur/ds² × (201.168)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareDecisecond = new (
                                                                          "furlong per square decisecond"
@@ -966,7 +966,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// furlong per square centisecond, defined as: SI meter per square decisecond × (201.168)/((1.0/10.0)*(1.0/10.0))
+   /// furlong per square centisecond defined such that: SI meter per square decisecond = fur/cs² × (201.168)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareCentisecond = new (
                                                                           "furlong per square centisecond"
@@ -977,7 +977,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square millisecond, defined as: SI meter per square centisecond × (201.168)/((1.0/10.0)*(1.0/10.0))
+   /// furlong per square millisecond defined such that: SI meter per square centisecond = fur/ms² × (201.168)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareMillisecond = new (
                                                                           "furlong per square millisecond"
@@ -988,7 +988,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square microsecond, defined as: SI meter per square millisecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square microsecond defined such that: SI meter per square millisecond = fur/μs² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareMicrosecond = new (
                                                                           "furlong per square microsecond"
@@ -999,7 +999,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square nanosecond, defined as: SI meter per square microsecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square nanosecond defined such that: SI meter per square microsecond = fur/ns² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareNanosecond = new (
                                                                          "furlong per square nanosecond"
@@ -1010,7 +1010,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// furlong per square picosecond, defined as: SI meter per square nanosecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square picosecond defined such that: SI meter per square nanosecond = fur/ps² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquarePicosecond = new (
                                                                          "furlong per square picosecond"
@@ -1021,7 +1021,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// furlong per square femtosecond, defined as: SI meter per square picosecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square femtosecond defined such that: SI meter per square picosecond = fur/fs² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareFemtosecond = new (
                                                                           "furlong per square femtosecond"
@@ -1032,7 +1032,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square attosecond, defined as: SI meter per square femtosecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square attosecond defined such that: SI meter per square femtosecond = fur/as² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareAttosecond = new (
                                                                          "furlong per square attosecond"
@@ -1043,7 +1043,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// furlong per square zeptosecond, defined as: SI meter per square attosecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square zeptosecond defined such that: SI meter per square attosecond = fur/zs² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareZeptosecond = new (
                                                                           "furlong per square zeptosecond"
@@ -1054,7 +1054,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square yoctosecond, defined as: SI meter per square zeptosecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square yoctosecond defined such that: SI meter per square zeptosecond = fur/ys² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareYoctosecond = new (
                                                                           "furlong per square yoctosecond"
@@ -1065,7 +1065,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square rontosecond, defined as: SI meter per square yoctosecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square rontosecond defined such that: SI meter per square yoctosecond = fur/rs² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareRontosecond = new (
                                                                           "furlong per square rontosecond"
@@ -1076,7 +1076,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// furlong per square quectosecond, defined as: SI meter per square rontosecond × (201.168)/((1.0/1000.0)*(1.0/1000.0))
+   /// furlong per square quectosecond defined such that: SI meter per square rontosecond = fur/qs² × (201.168)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareQuectosecond = new (
                                                                            "furlong per square quectosecond"
@@ -1087,7 +1087,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// link per square week, defined as: SI meter per square day × (0.20116)/((7.0)*(7.0))
+   /// link per square week defined such that: SI meter per square day = li/wk² × (0.20116)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareWeek = new (
                                                                 "link per square week"
@@ -1098,7 +1098,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// league per square second, defined as: SI meter per square second × (4828.032)/((1.0)*(1.0))
+   /// league per square second defined such that: SI meter per square second = lea/s² × (4828.032)/((1.0)*(1.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareSecond = new (
                                                                     "league per square second"
@@ -1109,7 +1109,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// league per square planck-time, defined as: SI meter per square microsecond × (4828.032)/((5.391247E-38)*(5.391247E-38))
+   /// league per square planck-time defined such that: SI meter per square microsecond = lea/tₚ² × (4828.032)/((5.391247E-38)*(5.391247E-38)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquarePlanckTime = new (
                                                                         "league per square planck-time"
@@ -1120,7 +1120,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square decisecond, defined as: SI meter per square second × (4828.032)/((1.0/10.0)*(1.0/10.0))
+   /// league per square decisecond defined such that: SI meter per square second = lea/ds² × (4828.032)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareDecisecond = new (
                                                                         "league per square decisecond"
@@ -1131,7 +1131,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square centisecond, defined as: SI meter per square decisecond × (4828.032)/((1.0/10.0)*(1.0/10.0))
+   /// league per square centisecond defined such that: SI meter per square decisecond = lea/cs² × (4828.032)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareCentisecond = new (
                                                                          "league per square centisecond"
@@ -1142,7 +1142,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square millisecond, defined as: SI meter per square centisecond × (4828.032)/((1.0/10.0)*(1.0/10.0))
+   /// league per square millisecond defined such that: SI meter per square centisecond = lea/ms² × (4828.032)/((1.0/10.0)*(1.0/10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMillisecond = new (
                                                                          "league per square millisecond"
@@ -1153,7 +1153,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square microsecond, defined as: SI meter per square millisecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square microsecond defined such that: SI meter per square millisecond = lea/μs² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMicrosecond = new (
                                                                          "league per square microsecond"
@@ -1164,7 +1164,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square nanosecond, defined as: SI meter per square microsecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square nanosecond defined such that: SI meter per square microsecond = lea/ns² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareNanosecond = new (
                                                                         "league per square nanosecond"
@@ -1175,7 +1175,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square picosecond, defined as: SI meter per square nanosecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square picosecond defined such that: SI meter per square nanosecond = lea/ps² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquarePicosecond = new (
                                                                         "league per square picosecond"
@@ -1186,7 +1186,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square femtosecond, defined as: SI meter per square picosecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square femtosecond defined such that: SI meter per square picosecond = lea/fs² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareFemtosecond = new (
                                                                          "league per square femtosecond"
@@ -1197,7 +1197,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square attosecond, defined as: SI meter per square femtosecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square attosecond defined such that: SI meter per square femtosecond = lea/as² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareAttosecond = new (
                                                                         "league per square attosecond"
@@ -1208,7 +1208,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// league per square zeptosecond, defined as: SI meter per square attosecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square zeptosecond defined such that: SI meter per square attosecond = lea/zs² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareZeptosecond = new (
                                                                          "league per square zeptosecond"
@@ -1219,7 +1219,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square yoctosecond, defined as: SI meter per square zeptosecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square yoctosecond defined such that: SI meter per square zeptosecond = lea/ys² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareYoctosecond = new (
                                                                          "league per square yoctosecond"
@@ -1230,7 +1230,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square rontosecond, defined as: SI meter per square yoctosecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square rontosecond defined such that: SI meter per square yoctosecond = lea/rs² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareRontosecond = new (
                                                                          "league per square rontosecond"
@@ -1241,7 +1241,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// league per square quectosecond, defined as: SI meter per square rontosecond × (4828.032)/((1.0/1000.0)*(1.0/1000.0))
+   /// league per square quectosecond defined such that: SI meter per square rontosecond = lea/qs² × (4828.032)/((1.0/1000.0)*(1.0/1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareQuectosecond = new (
                                                                           "league per square quectosecond"
@@ -1252,7 +1252,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// link per square year, defined as: SI meter per square day × (0.20116)/((365.2525)*(365.2525))
+   /// link per square year defined such that: SI meter per square day = li/yr² × (0.20116)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareYear = new (
                                                                 "link per square year"
@@ -1263,7 +1263,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// link per square decade, defined as: SI meter per square year × (0.20116)/((10.0)*(10.0))
+   /// link per square decade defined such that: SI meter per square year = li/decade² × (0.20116)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareDecade = new (
                                                                   "link per square decade"
@@ -1274,7 +1274,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// link per square century, defined as: SI meter per square decade × (0.20116)/((10.0)*(10.0))
+   /// link per square century defined such that: SI meter per square decade = li/century² × (0.20116)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareCentury = new (
                                                                    "link per square century"
@@ -1285,7 +1285,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// link per square millennium, defined as: SI meter per square century × (0.20116)/((10.0)*(10.0))
+   /// link per square millennium defined such that: SI meter per square century = li/kyr² × (0.20116)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareMillennium = new (
                                                                       "link per square millennium"
@@ -1296,7 +1296,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// link per square million years, defined as: SI meter per square millennium × (0.20116)/((1000.0)*(1000.0))
+   /// link per square million years defined such that: SI meter per square millennium = li/Myr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareMillionYears = new (
                                                                         "link per square million years"
@@ -1307,7 +1307,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// link per square billion years, defined as: SI meter per square million years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square billion years defined such that: SI meter per square million years = li/Gyr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareBillionYears = new (
                                                                         "link per square billion years"
@@ -1318,7 +1318,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        );
 
    /// <summary>
-   /// link per square trillion years, defined as: SI meter per square billion years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square trillion years defined such that: SI meter per square billion years = li/Tyr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareTrillionYears = new (
                                                                          "link per square trillion years"
@@ -1329,7 +1329,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// link per square quadrillion years, defined as: SI meter per square trillion years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square quadrillion years defined such that: SI meter per square trillion years = li/Pyr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareQuadrillionYears = new (
                                                                             "link per square quadrillion years"
@@ -1340,7 +1340,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// link per square quintillion years, defined as: SI meter per square quadrillion years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square quintillion years defined such that: SI meter per square quadrillion years = li/Eyr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareQuintillionYears = new (
                                                                             "link per square quintillion years"
@@ -1352,7 +1352,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// link per square sextillion years, defined as: SI meter per square quintillion years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square sextillion years defined such that: SI meter per square quintillion years = li/Zyr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareSextillionYears = new (
                                                                            "link per square sextillion years"
@@ -1364,7 +1364,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// link per square septillion years, defined as: SI meter per square sextillion years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square septillion years defined such that: SI meter per square sextillion years = li/Yyr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareSeptillionYears = new (
                                                                            "link per square septillion years"
@@ -1376,7 +1376,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// link per square octillion years, defined as: SI meter per square septillion years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square octillion years defined such that: SI meter per square septillion years = li/Ryr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareOctillionYears = new (
                                                                           "link per square octillion years"
@@ -1387,7 +1387,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// link per square nonillion years, defined as: SI meter per square octillion years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square nonillion years defined such that: SI meter per square octillion years = li/Qyr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareNonillionYears = new (
                                                                           "link per square nonillion years"
@@ -1398,7 +1398,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// link per square decillion years, defined as: SI meter per square nonillion years × (0.20116)/((1000.0)*(1000.0))
+   /// link per square decillion years defined such that: SI meter per square nonillion years = li/decillion yr² × (0.20116)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareDecillionYears = new (
                                                                           "link per square decillion years"
@@ -1409,7 +1409,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// link per square tick, defined as: SI meter per square nanosecond × (0.20116)/((100.0)*(100.0))
+   /// link per square tick defined such that: SI meter per square nanosecond = li/tick² × (0.20116)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration LinkPerSquareTick = new (
                                                                 "link per square tick"
@@ -1420,7 +1420,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// league per square sextillion years, defined as: SI meter per square quintillion years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square sextillion years defined such that: SI meter per square quintillion years = lea/Zyr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareSextillionYears = new (
                                                                              "league per square sextillion years"
@@ -1432,7 +1432,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// rod per square minute, defined as: SI meter per square second × (5.0292)/((60.0)*(60.0))
+   /// rod per square minute defined such that: SI meter per square second = rd/min² × (5.0292)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareMinute = new (
                                                                  "rod per square minute"
@@ -1443,7 +1443,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// league per square year, defined as: SI meter per square day × (4828.032)/((365.2525)*(365.2525))
+   /// league per square year defined such that: SI meter per square day = lea/yr² × (4828.032)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareYear = new (
                                                                   "league per square year"
@@ -1454,7 +1454,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// chain per square billion years, defined as: SI meter per square million years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square billion years defined such that: SI meter per square million years = ch/Gyr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareBillionYears = new (
                                                                          "chain per square billion years"
@@ -1465,7 +1465,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// rod per square tick, defined as: SI meter per square nanosecond × (5.0292)/((100.0)*(100.0))
+   /// rod per square tick defined such that: SI meter per square nanosecond = rd/tick² × (5.0292)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareTick = new (
                                                                "rod per square tick"
@@ -1476,7 +1476,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// rod per square hour, defined as: SI meter per square minute × (5.0292)/((60.0)*(60.0))
+   /// rod per square hour defined such that: SI meter per square minute = rd/hr² × (5.0292)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareHour = new (
                                                                "rod per square hour"
@@ -1487,7 +1487,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// chain per square minute, defined as: SI meter per square second × (20.1168)/((60.0)*(60.0))
+   /// chain per square minute defined such that: SI meter per square second = ch/min² × (20.1168)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareMinute = new (
                                                                    "chain per square minute"
@@ -1498,7 +1498,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// furlong per square quintillion years, defined as: SI meter per square quadrillion years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square quintillion years defined such that: SI meter per square quadrillion years = fur/Eyr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareQuintillionYears = new (
                                                                                "furlong per square quintillion years"
@@ -1510,7 +1510,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               );
 
    /// <summary>
-   /// furlong per square century, defined as: SI meter per square decade × (201.168)/((10.0)*(10.0))
+   /// furlong per square century defined such that: SI meter per square decade = fur/century² × (201.168)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareCentury = new (
                                                                       "furlong per square century"
@@ -1521,7 +1521,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      );
 
    /// <summary>
-   /// rod per square day, defined as: SI meter per square hour × (5.0292)/((24.0)*(24.0))
+   /// rod per square day defined such that: SI meter per square hour = rd/dy² × (5.0292)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareDay = new (
                                                               "rod per square day"
@@ -1532,7 +1532,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              );
 
    /// <summary>
-   /// furlong per square minute, defined as: SI meter per square second × (201.168)/((60.0)*(60.0))
+   /// furlong per square minute defined such that: SI meter per square second = fur/min² × (201.168)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareMinute = new (
                                                                      "furlong per square minute"
@@ -1543,7 +1543,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// league per square billion years, defined as: SI meter per square million years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square billion years defined such that: SI meter per square million years = lea/Gyr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareBillionYears = new (
                                                                           "league per square billion years"
@@ -1554,7 +1554,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// chain per square tick, defined as: SI meter per square nanosecond × (20.1168)/((100.0)*(100.0))
+   /// chain per square tick defined such that: SI meter per square nanosecond = ch/tick² × (20.1168)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareTick = new (
                                                                  "chain per square tick"
@@ -1565,7 +1565,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// chain per square trillion years, defined as: SI meter per square billion years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square trillion years defined such that: SI meter per square billion years = ch/Tyr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareTrillionYears = new (
                                                                           "chain per square trillion years"
@@ -1576,7 +1576,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          );
 
    /// <summary>
-   /// chain per square hour, defined as: SI meter per square minute × (20.1168)/((60.0)*(60.0))
+   /// chain per square hour defined such that: SI meter per square minute = ch/hr² × (20.1168)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareHour = new (
                                                                  "chain per square hour"
@@ -1587,7 +1587,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// rod per square week, defined as: SI meter per square day × (5.0292)/((7.0)*(7.0))
+   /// rod per square week defined such that: SI meter per square day = rd/wk² × (5.0292)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareWeek = new (
                                                                "rod per square week"
@@ -1598,7 +1598,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// league per square minute, defined as: SI meter per square second × (4828.032)/((60.0)*(60.0))
+   /// league per square minute defined such that: SI meter per square second = lea/min² × (4828.032)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareMinute = new (
                                                                     "league per square minute"
@@ -1609,7 +1609,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// league per square septillion years, defined as: SI meter per square sextillion years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square septillion years defined such that: SI meter per square sextillion years = lea/Yyr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareSeptillionYears = new (
                                                                              "league per square septillion years"
@@ -1621,7 +1621,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// furlong per square tick, defined as: SI meter per square nanosecond × (201.168)/((100.0)*(100.0))
+   /// furlong per square tick defined such that: SI meter per square nanosecond = fur/tick² × (201.168)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareTick = new (
                                                                    "furlong per square tick"
@@ -1632,7 +1632,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// rod per square year, defined as: SI meter per square day × (5.0292)/((365.2525)*(365.2525))
+   /// rod per square year defined such that: SI meter per square day = rd/yr² × (5.0292)/((365.2525)*(365.2525)).
    /// </summary>
    public static readonly Acceleration RodPerSquareYear = new (
                                                                "rod per square year"
@@ -1643,7 +1643,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               );
 
    /// <summary>
-   /// furlong per square sextillion years, defined as: SI meter per square quintillion years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square sextillion years defined such that: SI meter per square quintillion years = fur/Zyr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareSextillionYears = new (
                                                                               "furlong per square sextillion years"
@@ -1655,7 +1655,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// league per square decade, defined as: SI meter per square year × (4828.032)/((10.0)*(10.0))
+   /// league per square decade defined such that: SI meter per square year = lea/decade² × (4828.032)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareDecade = new (
                                                                     "league per square decade"
@@ -1666,7 +1666,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    );
 
    /// <summary>
-   /// furlong per square millennium, defined as: SI meter per square century × (201.168)/((10.0)*(10.0))
+   /// furlong per square millennium defined such that: SI meter per square century = fur/kyr² × (201.168)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareMillennium = new (
                                                                          "furlong per square millennium"
@@ -1677,7 +1677,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         );
 
    /// <summary>
-   /// chain per square quadrillion years, defined as: SI meter per square trillion years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square quadrillion years defined such that: SI meter per square trillion years = ch/Pyr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareQuadrillionYears = new (
                                                                              "chain per square quadrillion years"
@@ -1689,7 +1689,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// chain per square day, defined as: SI meter per square hour × (20.1168)/((24.0)*(24.0))
+   /// chain per square day defined such that: SI meter per square hour = ch/dy² × (20.1168)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareDay = new (
                                                                 "chain per square day"
@@ -1700,7 +1700,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                );
 
    /// <summary>
-   /// furlong per square hour, defined as: SI meter per square minute × (201.168)/((60.0)*(60.0))
+   /// furlong per square hour defined such that: SI meter per square minute = fur/hr² × (201.168)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareHour = new (
                                                                    "furlong per square hour"
@@ -1711,7 +1711,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   );
 
    /// <summary>
-   /// rod per square decade, defined as: SI meter per square year × (5.0292)/((10.0)*(10.0))
+   /// rod per square decade defined such that: SI meter per square year = rd/decade² × (5.0292)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareDecade = new (
                                                                  "rod per square decade"
@@ -1722,7 +1722,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// league per square tick, defined as: SI meter per square nanosecond × (4828.032)/((100.0)*(100.0))
+   /// league per square tick defined such that: SI meter per square nanosecond = lea/tick² × (4828.032)/((100.0)*(100.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareTick = new (
                                                                   "league per square tick"
@@ -1733,7 +1733,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// rod per square century, defined as: SI meter per square decade × (5.0292)/((10.0)*(10.0))
+   /// rod per square century defined such that: SI meter per square decade = rd/century² × (5.0292)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareCentury = new (
                                                                   "rod per square century"
@@ -1744,7 +1744,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// league per square trillion years, defined as: SI meter per square billion years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square trillion years defined such that: SI meter per square billion years = lea/Tyr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareTrillionYears = new (
                                                                            "league per square trillion years"
@@ -1755,7 +1755,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// chain per square quintillion years, defined as: SI meter per square quadrillion years × (20.1168)/((1000.0)*(1000.0))
+   /// chain per square quintillion years defined such that: SI meter per square quadrillion years = ch/Eyr² × (20.1168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareQuintillionYears = new (
                                                                              "chain per square quintillion years"
@@ -1767,7 +1767,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             );
 
    /// <summary>
-   /// chain per square week, defined as: SI meter per square day × (20.1168)/((7.0)*(7.0))
+   /// chain per square week defined such that: SI meter per square day = ch/wk² × (20.1168)/((7.0)*(7.0)).
    /// </summary>
    public static readonly Acceleration ChainPerSquareWeek = new (
                                                                  "chain per square week"
@@ -1778,7 +1778,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 );
 
    /// <summary>
-   /// league per square hour, defined as: SI meter per square minute × (4828.032)/((60.0)*(60.0))
+   /// league per square hour defined such that: SI meter per square minute = lea/hr² × (4828.032)/((60.0)*(60.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareHour = new (
                                                                   "league per square hour"
@@ -1789,7 +1789,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// rod per square millennium, defined as: SI meter per square century × (5.0292)/((10.0)*(10.0))
+   /// rod per square millennium defined such that: SI meter per square century = rd/kyr² × (5.0292)/((10.0)*(10.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareMillennium = new (
                                                                      "rod per square millennium"
@@ -1800,7 +1800,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     );
 
    /// <summary>
-   /// furlong per square septillion years, defined as: SI meter per square sextillion years × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square septillion years defined such that: SI meter per square sextillion years = fur/Yyr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareSeptillionYears = new (
                                                                               "furlong per square septillion years"
@@ -1812,7 +1812,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              );
 
    /// <summary>
-   /// furlong per square million years, defined as: SI meter per square millennium × (201.168)/((1000.0)*(1000.0))
+   /// furlong per square million years defined such that: SI meter per square millennium = fur/Myr² × (201.168)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareMillionYears = new (
                                                                            "furlong per square million years"
@@ -1823,7 +1823,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           );
 
    /// <summary>
-   /// league per square octillion years, defined as: SI meter per square septillion years × (4828.032)/((1000.0)*(1000.0))
+   /// league per square octillion years defined such that: SI meter per square septillion years = lea/Ryr² × (4828.032)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration LeaguePerSquareOctillionYears = new (
                                                                             "league per square octillion years"
@@ -1835,7 +1835,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            );
 
    /// <summary>
-   /// furlong per square day, defined as: SI meter per square hour × (201.168)/((24.0)*(24.0))
+   /// furlong per square day defined such that: SI meter per square hour = fur/dy² × (201.168)/((24.0)*(24.0)).
    /// </summary>
    public static readonly Acceleration FurlongPerSquareDay = new (
                                                                   "furlong per square day"
@@ -1846,7 +1846,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  );
 
    /// <summary>
-   /// rod per square million years, defined as: SI meter per square millennium × (5.0292)/((1000.0)*(1000.0))
+   /// rod per square million years defined such that: SI meter per square millennium = rd/Myr² × (5.0292)/((1000.0)*(1000.0)).
    /// </summary>
    public static readonly Acceleration RodPerSquareMillionYears = new (
                                                                        "rod per square million years"

@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerPlanckTime Field
 
-exameter per planck-time, defined as: petameter per microsecond × (1000.0)/(5.391247E-38)
+exameter per planck-time defined such that: petameter per microsecond = Em/tₚ × (1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity ExameterPerPlanckTime;

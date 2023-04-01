@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareOctillionYears Field
 
-femtometer per square octillion years, defined as: picometer per square septillion years × (1.0/1000.0)/((1000.0)*(1000.0))
+femtometer per square octillion years defined such that: picometer per square septillion years = fm/Ryr² × (1.0/1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquareOctillionYears;

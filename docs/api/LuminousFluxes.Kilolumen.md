@@ -3,7 +3,7 @@
 
 ## LuminousFluxes.Kilolumen Field
 
-kilolumen, defined as: hectolumen × 10.0
+kilolumen defined such that: hectolumen = klm × 10.0.
 
 ```csharp
 public static readonly LuminousFlux Kilolumen;

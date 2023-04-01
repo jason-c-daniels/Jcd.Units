@@ -3,7 +3,7 @@
 
 ## Densities.MegatonnePerCubicTerameter Field
 
-megatonne per cubic terameter, defined as: kilotonne per cubic gigameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+megatonne per cubic terameter defined such that: kilotonne per cubic gigameter = Mt/Tm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MegatonnePerCubicTerameter;

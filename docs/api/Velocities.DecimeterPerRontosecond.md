@@ -3,7 +3,7 @@
 
 ## Velocities.DecimeterPerRontosecond Field
 
-decimeter per rontosecond, defined as: meter per yoctosecond × (1.0/10.0)/(1.0/1000.0)
+decimeter per rontosecond defined such that: meter per yoctosecond = dm/rs × (1.0/10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity DecimeterPerRontosecond;

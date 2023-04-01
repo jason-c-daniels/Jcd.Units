@@ -3,7 +3,7 @@
 
 ## Pressures.Petapascal Field
 
-petapascal, defined as: terapascal × 1000.0
+petapascal defined such that: terapascal = PPa × 1000.0.
 
 ```csharp
 public static readonly Pressure Petapascal;

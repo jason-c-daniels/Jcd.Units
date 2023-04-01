@@ -3,7 +3,7 @@
 
 ## Densities.ExagramPerCubicKilometer Field
 
-exagram per cubic kilometer, defined as: petagram per cubic hectometer × (1000.0)/((10.0)*(10.0)*(10.0))
+exagram per cubic kilometer defined such that: petagram per cubic hectometer = Eg/km³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density ExagramPerCubicKilometer;

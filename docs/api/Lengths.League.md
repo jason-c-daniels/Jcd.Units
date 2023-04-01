@@ -3,7 +3,7 @@
 
 ## Lengths.League Field
 
-league, defined as: mile × 3.0
+league defined such that: mile = lea × 3.0.
 
 ```csharp
 public static readonly Length League;

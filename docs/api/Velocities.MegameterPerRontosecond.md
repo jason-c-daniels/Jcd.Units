@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerRontosecond Field
 
-megameter per rontosecond, defined as: kilometer per yoctosecond × (1000.0)/(1.0/1000.0)
+megameter per rontosecond defined such that: kilometer per yoctosecond = Mm/rs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MegameterPerRontosecond;

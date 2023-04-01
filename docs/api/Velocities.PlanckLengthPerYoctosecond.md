@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerYoctosecond Field
 
-planck-length per yoctosecond, defined as: SI meter per zeptosecond × (1.616255E-35)/(1.0/1000.0)
+planck-length per yoctosecond defined such that: SI meter per zeptosecond = ℓₚ/ys × (1.616255E-35)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerYoctosecond;

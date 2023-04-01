@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerDay Field
 
-attometer per day, defined as: femtometer per hour × (1.0/1000.0)/(24.0)
+attometer per day defined such that: femtometer per hour = am/dy × (1.0/1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity AttometerPerDay;

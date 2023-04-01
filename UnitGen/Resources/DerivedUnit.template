@@ -1,5 +1,5 @@
 ﻿
    /// <summary>
-   /// $Unit.Name$, defined as: $BaseUnit.System$$BaseUnit.Name$ × $Coefficient$
+   /// $Unit.Name$ defined such that: $BaseUnit.System$$BaseUnit.Name$ = $Symbol$ × $Coefficient$.
    /// </summary>
    public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$", $BaseUnitNamespacePrefix$$BaseUnit$, $Coefficient$, system: "$System.Name$");

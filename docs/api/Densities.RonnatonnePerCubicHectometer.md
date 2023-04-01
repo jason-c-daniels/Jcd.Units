@@ -3,7 +3,7 @@
 
 ## Densities.RonnatonnePerCubicHectometer Field
 
-ronnatonne per cubic hectometer, defined as: yottatonne per cubic dekameter × (1000.0)/((10.0)*(10.0)*(10.0))
+ronnatonne per cubic hectometer defined such that: yottatonne per cubic dekameter = Rt/hm³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density RonnatonnePerCubicHectometer;

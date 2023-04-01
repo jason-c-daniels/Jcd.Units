@@ -3,7 +3,7 @@
 
 ## Areas.SquareMegameter Field
 
-square megameter, defined as: square kilometer × (1000.0)*(1000.0)
+square megameter defined such that: square kilometer = Mm² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareMegameter;

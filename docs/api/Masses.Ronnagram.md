@@ -3,7 +3,7 @@
 
 ## Masses.Ronnagram Field
 
-ronnagram, defined as: yottagram × 1000.0
+ronnagram defined such that: yottagram = Rg × 1000.0.
 
 ```csharp
 public static readonly Mass Ronnagram;

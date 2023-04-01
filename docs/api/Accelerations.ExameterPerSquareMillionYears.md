@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareMillionYears Field
 
-exameter per square million years, defined as: petameter per square millennium × (1000.0)/((1000.0)*(1000.0))
+exameter per square million years defined such that: petameter per square millennium = Em/Myr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareMillionYears;

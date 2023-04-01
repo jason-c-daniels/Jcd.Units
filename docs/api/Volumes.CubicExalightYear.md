@@ -3,7 +3,7 @@
 
 ## Volumes.CubicExalightYear Field
 
-cubic exalight-year, defined as: cubic petalight-year × (1000.0)*(1000.0)*(1000.0)
+cubic exalight-year defined such that: cubic petalight-year = Ely³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicExalightYear;

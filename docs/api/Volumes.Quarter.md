@@ -3,7 +3,7 @@
 
 ## Volumes.Quarter Field
 
-quarter, defined as: bushel × 8.0
+quarter defined such that: bushel = quarter × 8.0.
 
 ```csharp
 public static readonly Volume Quarter;

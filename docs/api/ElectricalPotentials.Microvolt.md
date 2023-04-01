@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Microvolt Field
 
-microvolt, defined as: millivolt × 1.0/1000.0
+microvolt defined such that: millivolt = μV × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalPotential Microvolt;

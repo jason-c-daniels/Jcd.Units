@@ -3,7 +3,7 @@
 
 ## Lengths.Rontometer Field
 
-rontometer, defined as: yoctometer × 1.0/1000.0
+rontometer defined such that: yoctometer = rm × 1.0/1000.0.
 
 ```csharp
 public static readonly Length Rontometer;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Centivolt Field
 
-centivolt, defined as: decivolt × 1.0/10.0
+centivolt defined such that: decivolt = cV × 1.0/10.0.
 
 ```csharp
 public static readonly ElectricalPotential Centivolt;

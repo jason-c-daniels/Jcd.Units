@@ -3,7 +3,7 @@
 
 ## Densities.NanogramPerCubicMeter Field
 
-nanogram per cubic meter, defined as: microgram per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+nanogram per cubic meter defined such that: microgram per cubic meter = ng/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density NanogramPerCubicMeter;

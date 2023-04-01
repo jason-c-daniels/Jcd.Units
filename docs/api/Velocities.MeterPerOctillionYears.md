@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerOctillionYears Field
 
-meter per octillion years, defined as: meter per septillion years × (1.0)/(1000.0)
+meter per octillion years defined such that: meter per septillion years = m/Ryr × (1.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MeterPerOctillionYears;

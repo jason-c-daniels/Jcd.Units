@@ -3,7 +3,7 @@
 
 ## Resistances.Zeptoohm Field
 
-zeptoohm, defined as: attoohm × 1.0/1000.0
+zeptoohm defined such that: attoohm = zΩ × 1.0/1000.0.
 
 ```csharp
 public static readonly Resistance Zeptoohm;

@@ -3,7 +3,7 @@
 
 ## Velocities.NanometerPerMinute Field
 
-nanometer per minute, defined as: micrometer per second × (1.0/1000.0)/(60.0)
+nanometer per minute defined such that: micrometer per second = nm/min × (1.0/1000.0)/(60.0).
 
 ```csharp
 public static readonly Velocity NanometerPerMinute;

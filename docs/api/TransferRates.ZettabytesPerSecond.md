@@ -3,7 +3,7 @@
 
 ## TransferRates.ZettabytesPerSecond Field
 
-zettabytes per second, defined as: exabytes per second × 1000.0
+zettabytes per second defined such that: exabytes per second = ZB/s × 1000.0.
 
 ```csharp
 public static readonly TransferRate ZettabytesPerSecond;

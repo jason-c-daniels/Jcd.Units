@@ -3,7 +3,7 @@
 
 ## Amounts.Picomole Field
 
-picomole, defined as: nanomole × 1.0/1000.0
+picomole defined such that: nanomole = pmol × 1.0/1000.0.
 
 ```csharp
 public static readonly Amount Picomole;

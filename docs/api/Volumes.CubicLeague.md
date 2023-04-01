@@ -3,7 +3,7 @@
 
 ## Volumes.CubicLeague Field
 
-cubic league, defined as: cubic mile × (3.0)*(3.0)*(3.0)
+cubic league defined such that: cubic mile = lea³ × (3.0)*(3.0)*(3.0).
 
 ```csharp
 public static readonly Volume CubicLeague;

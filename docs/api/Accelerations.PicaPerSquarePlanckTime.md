@@ -3,7 +3,7 @@
 
 ## Accelerations.PicaPerSquarePlanckTime Field
 
-pica per square planck-time, defined as: point per square microsecond × (12.0)/((5.391247E-38)*(5.391247E-38))
+pica per square planck-time defined such that: point per square microsecond = P/tₚ² × (12.0)/((5.391247E-38)*(5.391247E-38)).
 
 ```csharp
 public static readonly Acceleration PicaPerSquarePlanckTime;

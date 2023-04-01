@@ -3,7 +3,7 @@
 
 ## StorageUnits.Kilonybble Field
 
-kilonybble, defined as: nybble × 1000.0
+kilonybble defined such that: nybble = Kn × 1000.0.
 
 ```csharp
 public static readonly Storage Kilonybble;

@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicExameter Field
 
-nanotonne per cubic exameter, defined as: microtonne per cubic petameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+nanotonne per cubic exameter defined such that: microtonne per cubic petameter = nt/Em³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density NanotonnePerCubicExameter;

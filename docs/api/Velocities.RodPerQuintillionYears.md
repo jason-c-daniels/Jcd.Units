@@ -3,7 +3,7 @@
 
 ## Velocities.RodPerQuintillionYears Field
 
-rod per quintillion years, defined as: SI meter per quadrillion years × (5.0292)/(1000.0)
+rod per quintillion years defined such that: SI meter per quadrillion years = rd/Eyr × (5.0292)/(1000.0).
 
 ```csharp
 public static readonly Velocity RodPerQuintillionYears;

@@ -3,7 +3,7 @@
 
 ## Masses.Microgram Field
 
-microgram, defined as: milligram × 1.0/1000.0
+microgram defined such that: milligram = μg × 1.0/1000.0.
 
 ```csharp
 public static readonly Mass Microgram;

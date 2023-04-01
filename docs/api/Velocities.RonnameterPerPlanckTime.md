@@ -3,7 +3,7 @@
 
 ## Velocities.RonnameterPerPlanckTime Field
 
-ronnameter per planck-time, defined as: yottameter per microsecond × (1000.0)/(5.391247E-38)
+ronnameter per planck-time defined such that: yottameter per microsecond = Rm/tₚ × (1000.0)/(5.391247E-38).
 
 ```csharp
 public static readonly Velocity RonnameterPerPlanckTime;

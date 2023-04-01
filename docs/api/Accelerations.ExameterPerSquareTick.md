@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareTick Field
 
-exameter per square tick, defined as: petameter per square nanosecond × (1000.0)/((100.0)*(100.0))
+exameter per square tick defined such that: petameter per square nanosecond = Em/tick² × (1000.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareTick;

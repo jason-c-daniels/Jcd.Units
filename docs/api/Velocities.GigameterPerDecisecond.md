@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerDecisecond Field
 
-gigameter per decisecond, defined as: megameter per second × (1000.0)/(1.0/10.0)
+gigameter per decisecond defined such that: megameter per second = Gm/ds × (1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity GigameterPerDecisecond;

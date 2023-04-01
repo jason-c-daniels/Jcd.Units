@@ -3,7 +3,7 @@
 
 ## Velocities.ZeptometerPerMillennium Field
 
-zeptometer per millennium, defined as: attometer per century × (1.0/1000.0)/(10.0)
+zeptometer per millennium defined such that: attometer per century = zm/kyr × (1.0/1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity ZeptometerPerMillennium;

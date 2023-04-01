@@ -23,7 +23,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
    public static readonly RadioactiveDecay Becquerel = new ("becquerel", "Bq", system: "SI");
 
    /// <summary>
-   /// decibecquerel, defined as: becquerel × 1.0/10.0
+   /// decibecquerel defined such that: becquerel = dBq × 1.0/10.0.
    /// </summary>
    public static readonly RadioactiveDecay Decibecquerel = new (
                                                                 "decibecquerel"
@@ -34,7 +34,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// centibecquerel, defined as: decibecquerel × 1.0/10.0
+   /// centibecquerel defined such that: decibecquerel = cBq × 1.0/10.0.
    /// </summary>
    public static readonly RadioactiveDecay Centibecquerel = new (
                                                                  "centibecquerel"
@@ -45,7 +45,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// millibecquerel, defined as: centibecquerel × 1.0/10.0
+   /// millibecquerel defined such that: centibecquerel = mBq × 1.0/10.0.
    /// </summary>
    public static readonly RadioactiveDecay Millibecquerel = new (
                                                                  "millibecquerel"
@@ -56,7 +56,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// microbecquerel, defined as: millibecquerel × 1.0/1000.0
+   /// microbecquerel defined such that: millibecquerel = μBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Microbecquerel = new (
                                                                  "microbecquerel"
@@ -67,7 +67,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// nanobecquerel, defined as: microbecquerel × 1.0/1000.0
+   /// nanobecquerel defined such that: microbecquerel = nBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Nanobecquerel = new (
                                                                 "nanobecquerel"
@@ -78,7 +78,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// picobecquerel, defined as: nanobecquerel × 1.0/1000.0
+   /// picobecquerel defined such that: nanobecquerel = pBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Picobecquerel = new (
                                                                 "picobecquerel"
@@ -89,7 +89,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// femtobecquerel, defined as: picobecquerel × 1.0/1000.0
+   /// femtobecquerel defined such that: picobecquerel = fBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Femtobecquerel = new (
                                                                  "femtobecquerel"
@@ -100,7 +100,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// attobecquerel, defined as: femtobecquerel × 1.0/1000.0
+   /// attobecquerel defined such that: femtobecquerel = aBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Attobecquerel = new (
                                                                 "attobecquerel"
@@ -111,7 +111,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// zeptobecquerel, defined as: attobecquerel × 1.0/1000.0
+   /// zeptobecquerel defined such that: attobecquerel = zBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Zeptobecquerel = new (
                                                                  "zeptobecquerel"
@@ -122,7 +122,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// yoctobecquerel, defined as: zeptobecquerel × 1.0/1000.0
+   /// yoctobecquerel defined such that: zeptobecquerel = yBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Yoctobecquerel = new (
                                                                  "yoctobecquerel"
@@ -133,7 +133,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// rontobecquerel, defined as: yoctobecquerel × 1.0/1000.0
+   /// rontobecquerel defined such that: yoctobecquerel = rBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Rontobecquerel = new (
                                                                  "rontobecquerel"
@@ -144,7 +144,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// quectobecquerel, defined as: rontobecquerel × 1.0/1000.0
+   /// quectobecquerel defined such that: rontobecquerel = qBq × 1.0/1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Quectobecquerel = new (
                                                                   "quectobecquerel"
@@ -155,12 +155,12 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                  );
 
    /// <summary>
-   /// dekabecquerel, defined as: becquerel × 10.0
+   /// dekabecquerel defined such that: becquerel = daBq × 10.0.
    /// </summary>
    public static readonly RadioactiveDecay Dekabecquerel = new ("dekabecquerel", "daBq", Becquerel, 10.0, system: "SI");
 
    /// <summary>
-   /// hectobecquerel, defined as: dekabecquerel × 10.0
+   /// hectobecquerel defined such that: dekabecquerel = hBq × 10.0.
    /// </summary>
    public static readonly RadioactiveDecay Hectobecquerel = new (
                                                                  "hectobecquerel"
@@ -171,7 +171,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// kilobecquerel, defined as: hectobecquerel × 10.0
+   /// kilobecquerel defined such that: hectobecquerel = kBq × 10.0.
    /// </summary>
    public static readonly RadioactiveDecay Kilobecquerel = new (
                                                                 "kilobecquerel"
@@ -182,7 +182,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// megabecquerel, defined as: kilobecquerel × 1000.0
+   /// megabecquerel defined such that: kilobecquerel = MBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Megabecquerel = new (
                                                                 "megabecquerel"
@@ -193,7 +193,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// gigabecquerel, defined as: megabecquerel × 1000.0
+   /// gigabecquerel defined such that: megabecquerel = GBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Gigabecquerel = new (
                                                                 "gigabecquerel"
@@ -204,7 +204,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// terabecquerel, defined as: gigabecquerel × 1000.0
+   /// terabecquerel defined such that: gigabecquerel = TBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Terabecquerel = new (
                                                                 "terabecquerel"
@@ -215,7 +215,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// petabecquerel, defined as: terabecquerel × 1000.0
+   /// petabecquerel defined such that: terabecquerel = PBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Petabecquerel = new (
                                                                 "petabecquerel"
@@ -226,7 +226,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                );
 
    /// <summary>
-   /// exabecquerel, defined as: petabecquerel × 1000.0
+   /// exabecquerel defined such that: petabecquerel = EBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Exabecquerel = new (
                                                                "exabecquerel"
@@ -237,7 +237,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                               );
 
    /// <summary>
-   /// zettabecquerel, defined as: exabecquerel × 1000.0
+   /// zettabecquerel defined such that: exabecquerel = ZBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Zettabecquerel = new (
                                                                  "zettabecquerel"
@@ -248,7 +248,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// yottabecquerel, defined as: zettabecquerel × 1000.0
+   /// yottabecquerel defined such that: zettabecquerel = YBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Yottabecquerel = new (
                                                                  "yottabecquerel"
@@ -259,7 +259,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// ronnabecquerel, defined as: yottabecquerel × 1000.0
+   /// ronnabecquerel defined such that: yottabecquerel = RBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Ronnabecquerel = new (
                                                                  "ronnabecquerel"
@@ -270,7 +270,7 @@ public class RadioactiveDecays : UnitOfMeasureEnumeration<RadioactiveDecays, Rad
                                                                 );
 
    /// <summary>
-   /// quettabecquerel, defined as: ronnabecquerel × 1000.0
+   /// quettabecquerel defined such that: ronnabecquerel = QBq × 1000.0.
    /// </summary>
    public static readonly RadioactiveDecay Quettabecquerel = new (
                                                                   "quettabecquerel"

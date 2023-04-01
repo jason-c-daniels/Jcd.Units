@@ -3,7 +3,7 @@
 
 ## Densities.DekatonnePerCubicAttometer Field
 
-dekatonne per cubic attometer, defined as: tonne per cubic femtometer × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+dekatonne per cubic attometer defined such that: tonne per cubic femtometer = dat/am³ × (10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density DekatonnePerCubicAttometer;

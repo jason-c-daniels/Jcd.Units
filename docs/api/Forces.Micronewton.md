@@ -3,7 +3,7 @@
 
 ## Forces.Micronewton Field
 
-micronewton, defined as: millinewton × 1.0/1000.0
+micronewton defined such that: millinewton = μN × 1.0/1000.0.
 
 ```csharp
 public static readonly Force Micronewton;

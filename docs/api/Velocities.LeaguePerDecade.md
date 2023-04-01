@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerDecade Field
 
-league per decade, defined as: mile per year × (3.0)/(10.0)
+league per decade defined such that: mile per year = lea/decade × (3.0)/(10.0).
 
 ```csharp
 public static readonly Velocity LeaguePerDecade;

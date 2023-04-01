@@ -3,7 +3,7 @@
 
 ## Velocities.MilePerYear Field
 
-mile per year, defined as: furlong per day × (8.0)/(365.2525)
+mile per year defined such that: furlong per day = mi/yr × (8.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity MilePerYear;

@@ -3,7 +3,7 @@
 
 ## Velocities.QuectometerPerDay Field
 
-quectometer per day, defined as: rontometer per hour × (1.0/1000.0)/(24.0)
+quectometer per day defined such that: rontometer per hour = qm/dy × (1.0/1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity QuectometerPerDay;

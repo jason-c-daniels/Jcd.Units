@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerWeek Field
 
-point per week, defined as: inch per day × (1.0/72.0)/(7.0)
+point per week defined such that: inch per day = p/wk × (1.0/72.0)/(7.0).
 
 ```csharp
 public static readonly Velocity PointPerWeek;

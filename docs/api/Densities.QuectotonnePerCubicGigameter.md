@@ -3,7 +3,7 @@
 
 ## Densities.QuectotonnePerCubicGigameter Field
 
-quectotonne per cubic gigameter, defined as: rontotonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+quectotonne per cubic gigameter defined such that: rontotonne per cubic megameter = qt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density QuectotonnePerCubicGigameter;

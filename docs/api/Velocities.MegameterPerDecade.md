@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerDecade Field
 
-megameter per decade, defined as: kilometer per year × (1000.0)/(10.0)
+megameter per decade defined such that: kilometer per year = Mm/decade × (1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity MegameterPerDecade;

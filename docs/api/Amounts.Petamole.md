@@ -3,7 +3,7 @@
 
 ## Amounts.Petamole Field
 
-petamole, defined as: teramole × 1000.0
+petamole defined such that: teramole = Pmol × 1000.0.
 
 ```csharp
 public static readonly Amount Petamole;

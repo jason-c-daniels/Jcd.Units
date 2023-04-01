@@ -164,10 +164,7 @@ public class UnitOfMeasureTests : TestBase
    {
       var s = DerivedUnit1.ToString();
 
-      Assert.Equal(
-                   $"{DerivedUnit1.Name} ({DerivedUnit1.Symbol}) [= bu × {1.0 / DerivedUnit1.Coefficient:n3} - {Math.Abs(DerivedUnit1.Offset):n3}]"
-                 , s
-                  );
+      Assert.Equal($"{DerivedUnit1.Name} ({DerivedUnit1.Symbol})", s);
    }
 
    [Fact]

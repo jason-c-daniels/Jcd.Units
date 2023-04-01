@@ -3,7 +3,7 @@
 
 ## Volumes.Gigaliter Field
 
-gigaliter, defined as: megaliter × 1000.0
+gigaliter defined such that: megaliter = GL × 1000.0.
 
 ```csharp
 public static readonly Volume Gigaliter;

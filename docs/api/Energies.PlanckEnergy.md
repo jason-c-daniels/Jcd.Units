@@ -3,7 +3,7 @@
 
 ## Energies.PlanckEnergy Field
 
-planck-energy, defined as: SI joule × 1.9561E+9
+planck-energy defined such that: SI joule = Eₚ × 1.9561E+9.
 
 ```csharp
 public static readonly Energy PlanckEnergy;

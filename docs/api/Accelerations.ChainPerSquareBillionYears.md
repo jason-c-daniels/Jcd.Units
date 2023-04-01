@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareBillionYears Field
 
-chain per square billion years, defined as: yard per square million years × (22.0)/((1000.0)*(1000.0))
+chain per square billion years defined such that: yard per square million years = ch/Gyr² × (22.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration ChainPerSquareBillionYears;

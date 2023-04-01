@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicZettameter Field
 
-microgram per cubic zettameter, defined as: milligram per cubic exameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+microgram per cubic zettameter defined such that: milligram per cubic exameter = μg/Zm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MicrogramPerCubicZettameter;

@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Picosiemens Field
 
-picosiemens, defined as: nanosiemens × 1.0/1000.0
+picosiemens defined such that: nanosiemens = pS × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalConductance Picosiemens;

@@ -3,7 +3,7 @@
 
 ## Velocities.MeterPerBillionYears Field
 
-meter per billion years, defined as: meter per million years × (1.0)/(1000.0)
+meter per billion years defined such that: meter per million years = m/Gyr × (1.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MeterPerBillionYears;

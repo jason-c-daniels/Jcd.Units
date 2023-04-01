@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
 {
    /// <summary>
-   /// light-year, defined as: SI meter × 9_460_730_472_580_800.0
+   /// light-year defined such that: SI meter = ly × 9_460_730_472_580_800.0.
    /// </summary>
    public static readonly Length LightYear = new (
                                                   "light-year"
@@ -29,7 +29,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                  );
 
    /// <summary>
-   /// dekalight-year, defined as: light-year × 10.0
+   /// dekalight-year defined such that: light-year = daly × 10.0.
    /// </summary>
    public static readonly Length DekalightYear = new (
                                                       "dekalight-year"
@@ -40,7 +40,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// hectolight-year, defined as: dekalight-year × 10.0
+   /// hectolight-year defined such that: dekalight-year = hly × 10.0.
    /// </summary>
    public static readonly Length HectolightYear = new (
                                                        "hectolight-year"
@@ -51,7 +51,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                       );
 
    /// <summary>
-   /// kilolight-year, defined as: hectolight-year × 10.0
+   /// kilolight-year defined such that: hectolight-year = kly × 10.0.
    /// </summary>
    public static readonly Length KilolightYear = new (
                                                       "kilolight-year"
@@ -62,7 +62,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// megalight-year, defined as: kilolight-year × 1000.0
+   /// megalight-year defined such that: kilolight-year = Mly × 1000.0.
    /// </summary>
    public static readonly Length MegalightYear = new (
                                                       "megalight-year"
@@ -73,7 +73,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// gigalight-year, defined as: megalight-year × 1000.0
+   /// gigalight-year defined such that: megalight-year = Gly × 1000.0.
    /// </summary>
    public static readonly Length GigalightYear = new (
                                                       "gigalight-year"
@@ -84,7 +84,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// teralight-year, defined as: gigalight-year × 1000.0
+   /// teralight-year defined such that: gigalight-year = Tly × 1000.0.
    /// </summary>
    public static readonly Length TeralightYear = new (
                                                       "teralight-year"
@@ -95,7 +95,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// petalight-year, defined as: teralight-year × 1000.0
+   /// petalight-year defined such that: teralight-year = Ply × 1000.0.
    /// </summary>
    public static readonly Length PetalightYear = new (
                                                       "petalight-year"
@@ -106,7 +106,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// exalight-year, defined as: petalight-year × 1000.0
+   /// exalight-year defined such that: petalight-year = Ely × 1000.0.
    /// </summary>
    public static readonly Length ExalightYear = new (
                                                      "exalight-year"
@@ -117,7 +117,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                     );
 
    /// <summary>
-   /// zettalight-year, defined as: exalight-year × 1000.0
+   /// zettalight-year defined such that: exalight-year = Zly × 1000.0.
    /// </summary>
    public static readonly Length ZettalightYear = new (
                                                        "zettalight-year"
@@ -128,7 +128,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                       );
 
    /// <summary>
-   /// yottalight-year, defined as: zettalight-year × 1000.0
+   /// yottalight-year defined such that: zettalight-year = Yly × 1000.0.
    /// </summary>
    public static readonly Length YottalightYear = new (
                                                        "yottalight-year"
@@ -139,7 +139,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                       );
 
    /// <summary>
-   /// ronnalight-year, defined as: yottalight-year × 1000.0
+   /// ronnalight-year defined such that: yottalight-year = Rly × 1000.0.
    /// </summary>
    public static readonly Length RonnalightYear = new (
                                                        "ronnalight-year"
@@ -150,7 +150,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                       );
 
    /// <summary>
-   /// quettalight-year, defined as: ronnalight-year × 1000.0
+   /// quettalight-year defined such that: ronnalight-year = Qly × 1000.0.
    /// </summary>
    public static readonly Length QuettalightYear = new (
                                                         "quettalight-year"
@@ -161,7 +161,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                        );
 
    /// <summary>
-   /// light-second, defined as: SI meter × 299_792_458.0
+   /// light-second defined such that: SI meter = ls × 299_792_458.0.
    /// </summary>
    public static readonly Length LightSecond = new (
                                                     "light-second"
@@ -172,12 +172,12 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                    );
 
    /// <summary>
-   /// light-minute, defined as: light-second × 60.0
+   /// light-minute defined such that: light-second = lm × 60.0.
    /// </summary>
    public static readonly Length LightMinute = new ("light-minute", "lm", LightSecond, 60.0, system: "Astronomical");
 
    /// <summary>
-   /// astronomical unit, defined as: SI kilometer × 149597870.691
+   /// astronomical unit defined such that: SI kilometer = AU × 149597870.691.
    /// </summary>
    public static readonly Length AstronomicalUnit = new (
                                                          "astronomical unit"
@@ -188,82 +188,82 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                         );
 
    /// <summary>
-   /// light-hour, defined as: light-minute × 60.0
+   /// light-hour defined such that: light-minute = lh × 60.0.
    /// </summary>
    public static readonly Length LightHour = new ("light-hour", "lh", LightMinute, 60.0, system: "Astronomical");
 
    /// <summary>
-   /// light-day, defined as: light-hour × 24.0
+   /// light-day defined such that: light-hour = ld × 24.0.
    /// </summary>
    public static readonly Length LightDay = new ("light-day", "ld", LightHour, 24.0, system: "Astronomical");
 
    /// <summary>
-   /// light-week, defined as: light-day × 7.0
+   /// light-week defined such that: light-day = lw × 7.0.
    /// </summary>
    public static readonly Length LightWeek = new ("light-week", "lw", LightDay, 7.0, system: "Astronomical");
 
    /// <summary>
-   /// parsec, defined as: light-year × 3.2615637769757
+   /// parsec defined such that: light-year = pc × 3.2615637769757.
    /// </summary>
    public static readonly Length Parsec = new ("parsec", "pc", LightYear, 3.2615637769757, system: "Astronomical");
 
    /// <summary>
-   /// dekaparsec, defined as: parsec × 10.0
+   /// dekaparsec defined such that: parsec = dapc × 10.0.
    /// </summary>
    public static readonly Length Dekaparsec = new ("dekaparsec", "dapc", Parsec, 10.0, system: "Astronomical");
 
    /// <summary>
-   /// hectoparsec, defined as: dekaparsec × 10.0
+   /// hectoparsec defined such that: dekaparsec = hpc × 10.0.
    /// </summary>
    public static readonly Length Hectoparsec = new ("hectoparsec", "hpc", Dekaparsec, 10.0, system: "Astronomical");
 
    /// <summary>
-   /// kiloparsec, defined as: hectoparsec × 10.0
+   /// kiloparsec defined such that: hectoparsec = kpc × 10.0.
    /// </summary>
    public static readonly Length Kiloparsec = new ("kiloparsec", "kpc", Hectoparsec, 10.0, system: "Astronomical");
 
    /// <summary>
-   /// megaparsec, defined as: kiloparsec × 1000.0
+   /// megaparsec defined such that: kiloparsec = Mpc × 1000.0.
    /// </summary>
    public static readonly Length Megaparsec = new ("megaparsec", "Mpc", Kiloparsec, 1000.0, system: "Astronomical");
 
    /// <summary>
-   /// gigaparsec, defined as: megaparsec × 1000.0
+   /// gigaparsec defined such that: megaparsec = Gpc × 1000.0.
    /// </summary>
    public static readonly Length Gigaparsec = new ("gigaparsec", "Gpc", Megaparsec, 1000.0, system: "Astronomical");
 
    /// <summary>
-   /// teraparsec, defined as: gigaparsec × 1000.0
+   /// teraparsec defined such that: gigaparsec = Tpc × 1000.0.
    /// </summary>
    public static readonly Length Teraparsec = new ("teraparsec", "Tpc", Gigaparsec, 1000.0, system: "Astronomical");
 
    /// <summary>
-   /// petaparsec, defined as: teraparsec × 1000.0
+   /// petaparsec defined such that: teraparsec = Ppc × 1000.0.
    /// </summary>
    public static readonly Length Petaparsec = new ("petaparsec", "Ppc", Teraparsec, 1000.0, system: "Astronomical");
 
    /// <summary>
-   /// exaparsec, defined as: petaparsec × 1000.0
+   /// exaparsec defined such that: petaparsec = Epc × 1000.0.
    /// </summary>
    public static readonly Length Exaparsec = new ("exaparsec", "Epc", Petaparsec, 1000.0, system: "Astronomical");
 
    /// <summary>
-   /// zettaparsec, defined as: exaparsec × 1000.0
+   /// zettaparsec defined such that: exaparsec = Zpc × 1000.0.
    /// </summary>
    public static readonly Length Zettaparsec = new ("zettaparsec", "Zpc", Exaparsec, 1000.0, system: "Astronomical");
 
    /// <summary>
-   /// yottaparsec, defined as: zettaparsec × 1000.0
+   /// yottaparsec defined such that: zettaparsec = Ypc × 1000.0.
    /// </summary>
    public static readonly Length Yottaparsec = new ("yottaparsec", "Ypc", Zettaparsec, 1000.0, system: "Astronomical");
 
    /// <summary>
-   /// ronnaparsec, defined as: yottaparsec × 1000.0
+   /// ronnaparsec defined such that: yottaparsec = Rpc × 1000.0.
    /// </summary>
    public static readonly Length Ronnaparsec = new ("ronnaparsec", "Rpc", Yottaparsec, 1000.0, system: "Astronomical");
 
    /// <summary>
-   /// quettaparsec, defined as: ronnaparsec × 1000.0
+   /// quettaparsec defined such that: ronnaparsec = Qpc × 1000.0.
    /// </summary>
    public static readonly Length Quettaparsec = new (
                                                      "quettaparsec"
@@ -274,7 +274,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                     );
 
    /// <summary>
-   /// earth radius, defined as: SI kilometer × 6_371.0
+   /// earth radius defined such that: SI kilometer = R(⊕) × 6_371.0.
    /// </summary>
    public static readonly Length EarthRadius = new (
                                                     "earth radius"
@@ -285,7 +285,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                    );
 
    /// <summary>
-   /// jovian radius, defined as: SI kilometer × 69_911.0
+   /// jovian radius defined such that: SI kilometer = R(J) × 69_911.0.
    /// </summary>
    public static readonly Length JovianRadius = new (
                                                      "jovian radius"
@@ -296,7 +296,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                     );
 
    /// <summary>
-   /// lunar radius, defined as: SI kilometer × 1_737.4
+   /// lunar radius defined such that: SI kilometer = R(L) × 1_737.4.
    /// </summary>
    public static readonly Length LunarRadius = new (
                                                     "lunar radius"
@@ -307,7 +307,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                    );
 
    /// <summary>
-   /// mars radius, defined as: SI kilometer × 3_389.5
+   /// mars radius defined such that: SI kilometer = R(♂) × 3_389.5.
    /// </summary>
    public static readonly Length MarsRadius = new (
                                                    "mars radius"
@@ -318,7 +318,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                   );
 
    /// <summary>
-   /// solar radius, defined as: SI kilometer × 695_700.0
+   /// solar radius defined such that: SI kilometer = R(☉) × 695_700.0.
    /// </summary>
    public static readonly Length SolarRadius = new (
                                                     "solar radius"
@@ -329,7 +329,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                    );
 
    /// <summary>
-   /// earth diameter, defined as: earth radius × 2.0
+   /// earth diameter defined such that: earth radius = D(⊕) × 2.0.
    /// </summary>
    public static readonly Length EarthDiameter = new (
                                                       "earth diameter"
@@ -340,7 +340,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// jovian diameter, defined as: jovian radius × 2.0
+   /// jovian diameter defined such that: jovian radius = D(J) × 2.0.
    /// </summary>
    public static readonly Length JovianDiameter = new (
                                                        "jovian diameter"
@@ -351,7 +351,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                       );
 
    /// <summary>
-   /// lunar diameter, defined as: lunar radius × 2.0
+   /// lunar diameter defined such that: lunar radius = D(L) × 2.0.
    /// </summary>
    public static readonly Length LunarDiameter = new (
                                                       "lunar diameter"
@@ -362,12 +362,12 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// mars diameter, defined as: mars radius × 2.0
+   /// mars diameter defined such that: mars radius = D(♂) × 2.0.
    /// </summary>
    public static readonly Length MarsDiameter = new ("mars diameter", "D(♂)", MarsRadius, 2.0, system: "Astronomical");
 
    /// <summary>
-   /// solar diameter, defined as: solar radius × 2.0
+   /// solar diameter defined such that: solar radius = D(☉) × 2.0.
    /// </summary>
    public static readonly Length SolarDiameter = new (
                                                       "solar diameter"
@@ -378,7 +378,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                      );
 
    /// <summary>
-   /// earth circumference, defined as: earth diameter × Math.PI
+   /// earth circumference defined such that: earth diameter = C(⊕) × Math.PI.
    /// </summary>
    public static readonly Length EarthCircumference = new (
                                                            "earth circumference"
@@ -389,7 +389,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                           );
 
    /// <summary>
-   /// jovian circumference, defined as: jovian diameter × Math.PI
+   /// jovian circumference defined such that: jovian diameter = C(J) × Math.PI.
    /// </summary>
    public static readonly Length JovianCircumference = new (
                                                             "jovian circumference"
@@ -400,7 +400,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                            );
 
    /// <summary>
-   /// lunar circumference, defined as: lunar diameter × Math.PI
+   /// lunar circumference defined such that: lunar diameter = C(L) × Math.PI.
    /// </summary>
    public static readonly Length LunarCircumference = new (
                                                            "lunar circumference"
@@ -411,7 +411,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                           );
 
    /// <summary>
-   /// mars circumference, defined as: mars diameter × Math.PI
+   /// mars circumference defined such that: mars diameter = C(♂) × Math.PI.
    /// </summary>
    public static readonly Length MarsCircumference = new (
                                                           "mars circumference"
@@ -422,7 +422,7 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
                                                          );
 
    /// <summary>
-   /// solar circumference, defined as: solar diameter × Math.PI
+   /// solar circumference defined such that: solar diameter = C(☉) × Math.PI.
    /// </summary>
    public static readonly Length SolarCircumference = new (
                                                            "solar circumference"

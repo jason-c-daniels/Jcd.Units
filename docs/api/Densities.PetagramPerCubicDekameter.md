@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicDekameter Field
 
-petagram per cubic dekameter, defined as: teragram per cubic meter × (1000.0)/((10.0)*(10.0)*(10.0))
+petagram per cubic dekameter defined such that: teragram per cubic meter = Pg/dam³ × (1000.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density PetagramPerCubicDekameter;

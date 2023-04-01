@@ -3,7 +3,7 @@
 
 ## Durations.BillionYears Field
 
-billion years, defined as: million years × 1000.0
+billion years defined such that: million years = Gyr × 1000.0.
 
 ```csharp
 public static readonly Duration BillionYears;

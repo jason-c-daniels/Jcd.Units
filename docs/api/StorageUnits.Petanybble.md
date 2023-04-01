@@ -3,7 +3,7 @@
 
 ## StorageUnits.Petanybble Field
 
-petanybble, defined as: teranybble × 1000.0
+petanybble defined such that: teranybble = Pn × 1000.0.
 
 ```csharp
 public static readonly Storage Petanybble;

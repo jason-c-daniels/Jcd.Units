@@ -3,7 +3,7 @@
 
 ## Temperatures.PlanckTemperature Field
 
-planck-temperature, defined as: SI degrees kelvin × 1.416784E+32
+planck-temperature defined such that: SI degrees kelvin = Tₚ × 1.416784E+32.
 
 ```csharp
 public static readonly Temperature PlanckTemperature;

@@ -3,7 +3,7 @@
 
 ## Densities.RontotonnePerCubicYoctometer Field
 
-rontotonne per cubic yoctometer, defined as: yoctotonne per cubic zeptometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+rontotonne per cubic yoctometer defined such that: yoctotonne per cubic zeptometer = rt/ym³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density RontotonnePerCubicYoctometer;

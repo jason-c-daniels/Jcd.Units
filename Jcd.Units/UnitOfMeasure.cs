@@ -30,6 +30,7 @@ public abstract record UnitOfMeasure<TUnit>
          where TUnit : UnitOfMeasure<TUnit>
 {
    private readonly TUnit? _baseUnit;
+
    private readonly TUnit? _fundamentalUnit;
 
    private readonly double _inverseCoefficient = 1;
@@ -60,6 +61,8 @@ public abstract record UnitOfMeasure<TUnit>
       Name                = name;
       Symbol              = symbol;
       BaseUnit            = baseUnit!;
+      BaseUnitCoefficient = coefficient;
+      BaseUnitOffset      = offset;
       FundamentalUnit     = baseUnit?.FundamentalUnit!;
       Coefficient         = baseUnit?.ComputeFundamentalCoefficient(coefficient) ?? 1.0;
       _inverseCoefficient = 1d / Coefficient;
@@ -67,14 +70,14 @@ public abstract record UnitOfMeasure<TUnit>
       Comparer            = comparer;
    }
 
+   // ReSharper disable once StaticMemberInGenericType
    /// <summary>
    /// Sets the <see cref="IValueComparer{Double}" /> used by units of measure for this particular unit of
    /// measure type. (e.g. lengths.)
    /// </summary>
-
-   // ReSharper disable once StaticMemberInGenericType
    public static IValueComparer<double>? DefaultDoubleComparer { get; set; }
 
+   // ReSharper disable once MemberCanBeProtected.Global
    /// <summary>
    /// The <see cref="IValueComparer{T}" /> used for comparisons: where <c>T</c> is a <see cref="double" />.
    /// </summary>
@@ -82,8 +85,6 @@ public abstract record UnitOfMeasure<TUnit>
    /// If not assigned during initialization, this returns <see cref="UnitOfMeasure{TUnit}" />
    /// type specific comparison (e.g. Temperatures) or and the globally configured comparer.
    /// </remarks>
-
-   // ReSharper disable once MemberCanBeProtected.Global
    public IValueComparer<double>? Comparer
    {
       get => _comparer ?? DefaultDoubleComparer ?? GlobalDoubleComparisonStrategy.UnitOfMeasure;
@@ -91,6 +92,16 @@ public abstract record UnitOfMeasure<TUnit>
       // ReSharper disable once PropertyCanBeMadeInitOnly.Global, MemberCanBeProtected.Global 
       set => _comparer = value;
    }
+
+   /// <summary>
+   /// The Coefficient used when initializing the unit of measure with a base unit of measure.
+   /// </summary>
+   public double BaseUnitCoefficient { get; protected init; } = 1.0;
+
+   /// <summary>
+   /// The Offset used when initializing the unit of measure with a base unit of measure.
+   /// </summary>
+   public double BaseUnitOffset { get; protected init; }
 
    /// <summary>
    /// The unit of measure all others are represented in terms of.
@@ -150,21 +161,6 @@ public abstract record UnitOfMeasure<TUnit>
    {
       var sb = new StringBuilder();
       sb.Append($"{Name} ({Symbol})");
-
-      if (ReferenceEquals(this, FundamentalUnit)) return sb.ToString();
-
-      sb.Append($" [= {FundamentalUnit.Symbol}");
-
-      // ReSharper disable once CompareOfFloatsByEqualityOperator
-      if (Coefficient != 1.0 || Offset == 0.0) sb.Append($" × {1.0 / Coefficient:n3}");
-
-      if (Offset != 0.0)
-      {
-         var sign = Offset <= 0 ? '+' : '-';
-         sb.Append($" {sign} {Math.Abs(Offset):n3}");
-      }
-
-      sb.Append(']');
 
       return sb.ToString();
    }

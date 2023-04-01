@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
 public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
 {
    /// <summary>
-   /// speed of light, defined as: SI meter per second × 299_792_458
+   /// speed of light defined such that: SI meter per second = c × 299_792_458.
    /// </summary>
    public static readonly Velocity SpeedOfLight = new (
                                                        "speed of light"
@@ -29,7 +29,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       );
 
    /// <summary>
-   /// planck-length per second, defined as: SI meter per second × (1.616255E-35)/(1.0)
+   /// planck-length per second defined such that: SI meter per second = ℓₚ/s × (1.616255E-35)/(1.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerSecond = new (
                                                                 "planck-length per second"
@@ -40,7 +40,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// planck-length per planck-time, defined as: SI meter per microsecond × (1.616255E-35)/(5.391247E-38)
+   /// planck-length per planck-time defined such that: SI meter per microsecond = ℓₚ/tₚ × (1.616255E-35)/(5.391247E-38).
    /// </summary>
    public static readonly Velocity PlanckLengthPerPlanckTime = new (
                                                                     "planck-length per planck-time"
@@ -51,7 +51,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// planck-length per decisecond, defined as: SI meter per second × (1.616255E-35)/(1.0/10.0)
+   /// planck-length per decisecond defined such that: SI meter per second = ℓₚ/ds × (1.616255E-35)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerDecisecond = new (
                                                                     "planck-length per decisecond"
@@ -62,7 +62,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// planck-length per centisecond, defined as: SI meter per decisecond × (1.616255E-35)/(1.0/10.0)
+   /// planck-length per centisecond defined such that: SI meter per decisecond = ℓₚ/cs × (1.616255E-35)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerCentisecond = new (
                                                                      "planck-length per centisecond"
@@ -73,7 +73,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// planck-length per millisecond, defined as: SI meter per centisecond × (1.616255E-35)/(1.0/10.0)
+   /// planck-length per millisecond defined such that: SI meter per centisecond = ℓₚ/ms × (1.616255E-35)/(1.0/10.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerMillisecond = new (
                                                                      "planck-length per millisecond"
@@ -84,7 +84,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// planck-length per microsecond, defined as: SI meter per millisecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per microsecond defined such that: SI meter per millisecond = ℓₚ/μs × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerMicrosecond = new (
                                                                      "planck-length per microsecond"
@@ -95,7 +95,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// planck-length per nanosecond, defined as: SI meter per microsecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per nanosecond defined such that: SI meter per microsecond = ℓₚ/ns × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerNanosecond = new (
                                                                     "planck-length per nanosecond"
@@ -106,7 +106,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// planck-length per picosecond, defined as: SI meter per nanosecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per picosecond defined such that: SI meter per nanosecond = ℓₚ/ps × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerPicosecond = new (
                                                                     "planck-length per picosecond"
@@ -117,7 +117,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// planck-length per femtosecond, defined as: SI meter per picosecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per femtosecond defined such that: SI meter per picosecond = ℓₚ/fs × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerFemtosecond = new (
                                                                      "planck-length per femtosecond"
@@ -128,7 +128,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// planck-length per attosecond, defined as: SI meter per femtosecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per attosecond defined such that: SI meter per femtosecond = ℓₚ/as × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerAttosecond = new (
                                                                     "planck-length per attosecond"
@@ -139,7 +139,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// planck-length per zeptosecond, defined as: SI meter per attosecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per zeptosecond defined such that: SI meter per attosecond = ℓₚ/zs × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerZeptosecond = new (
                                                                      "planck-length per zeptosecond"
@@ -150,7 +150,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// planck-length per yoctosecond, defined as: SI meter per zeptosecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per yoctosecond defined such that: SI meter per zeptosecond = ℓₚ/ys × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerYoctosecond = new (
                                                                      "planck-length per yoctosecond"
@@ -161,7 +161,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// planck-length per rontosecond, defined as: SI meter per yoctosecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per rontosecond defined such that: SI meter per yoctosecond = ℓₚ/rs × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerRontosecond = new (
                                                                      "planck-length per rontosecond"
@@ -172,7 +172,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     );
 
    /// <summary>
-   /// planck-length per quectosecond, defined as: SI meter per rontosecond × (1.616255E-35)/(1.0/1000.0)
+   /// planck-length per quectosecond defined such that: SI meter per rontosecond = ℓₚ/qs × (1.616255E-35)/(1.0/1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerQuectosecond = new (
                                                                       "planck-length per quectosecond"
@@ -183,7 +183,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// planck-length per minute, defined as: SI meter per second × (1.616255E-35)/(60.0)
+   /// planck-length per minute defined such that: SI meter per second = ℓₚ/min × (1.616255E-35)/(60.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerMinute = new (
                                                                 "planck-length per minute"
@@ -194,7 +194,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// planck-length per hour, defined as: SI meter per minute × (1.616255E-35)/(60.0)
+   /// planck-length per hour defined such that: SI meter per minute = ℓₚ/hr × (1.616255E-35)/(60.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerHour = new (
                                                               "planck-length per hour"
@@ -205,7 +205,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// planck-length per day, defined as: SI meter per hour × (1.616255E-35)/(24.0)
+   /// planck-length per day defined such that: SI meter per hour = ℓₚ/dy × (1.616255E-35)/(24.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerDay = new (
                                                              "planck-length per day"
@@ -216,7 +216,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             );
 
    /// <summary>
-   /// planck-length per week, defined as: SI meter per day × (1.616255E-35)/(7.0)
+   /// planck-length per week defined such that: SI meter per day = ℓₚ/wk × (1.616255E-35)/(7.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerWeek = new (
                                                               "planck-length per week"
@@ -227,7 +227,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// planck-length per year, defined as: SI meter per day × (1.616255E-35)/(365.2525)
+   /// planck-length per year defined such that: SI meter per day = ℓₚ/yr × (1.616255E-35)/(365.2525).
    /// </summary>
    public static readonly Velocity PlanckLengthPerYear = new (
                                                               "planck-length per year"
@@ -238,7 +238,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              );
 
    /// <summary>
-   /// planck-length per decade, defined as: SI meter per year × (1.616255E-35)/(10.0)
+   /// planck-length per decade defined such that: SI meter per year = ℓₚ/decade × (1.616255E-35)/(10.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerDecade = new (
                                                                 "planck-length per decade"
@@ -249,7 +249,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                );
 
    /// <summary>
-   /// planck-length per century, defined as: SI meter per decade × (1.616255E-35)/(10.0)
+   /// planck-length per century defined such that: SI meter per decade = ℓₚ/century × (1.616255E-35)/(10.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerCentury = new (
                                                                  "planck-length per century"
@@ -260,7 +260,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 );
 
    /// <summary>
-   /// planck-length per millennium, defined as: SI meter per century × (1.616255E-35)/(10.0)
+   /// planck-length per millennium defined such that: SI meter per century = ℓₚ/kyr × (1.616255E-35)/(10.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerMillennium = new (
                                                                     "planck-length per millennium"
@@ -271,7 +271,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    );
 
    /// <summary>
-   /// planck-length per million years, defined as: SI meter per millennium × (1.616255E-35)/(1000.0)
+   /// planck-length per million years defined such that: SI meter per millennium = ℓₚ/Myr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerMillionYears = new (
                                                                       "planck-length per million years"
@@ -282,7 +282,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// planck-length per billion years, defined as: SI meter per million years × (1.616255E-35)/(1000.0)
+   /// planck-length per billion years defined such that: SI meter per million years = ℓₚ/Gyr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerBillionYears = new (
                                                                       "planck-length per billion years"
@@ -293,7 +293,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      );
 
    /// <summary>
-   /// planck-length per trillion years, defined as: SI meter per billion years × (1.616255E-35)/(1000.0)
+   /// planck-length per trillion years defined such that: SI meter per billion years = ℓₚ/Tyr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerTrillionYears = new (
                                                                        "planck-length per trillion years"
@@ -304,7 +304,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       );
 
    /// <summary>
-   /// planck-length per quadrillion years, defined as: SI meter per trillion years × (1.616255E-35)/(1000.0)
+   /// planck-length per quadrillion years defined such that: SI meter per trillion years = ℓₚ/Pyr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerQuadrillionYears = new (
                                                                           "planck-length per quadrillion years"
@@ -315,7 +315,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                          );
 
    /// <summary>
-   /// planck-length per quintillion years, defined as: SI meter per quadrillion years × (1.616255E-35)/(1000.0)
+   /// planck-length per quintillion years defined such that: SI meter per quadrillion years = ℓₚ/Eyr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerQuintillionYears = new (
                                                                           "planck-length per quintillion years"
@@ -326,7 +326,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                          );
 
    /// <summary>
-   /// planck-length per sextillion years, defined as: SI meter per quintillion years × (1.616255E-35)/(1000.0)
+   /// planck-length per sextillion years defined such that: SI meter per quintillion years = ℓₚ/Zyr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerSextillionYears = new (
                                                                          "planck-length per sextillion years"
@@ -337,7 +337,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// planck-length per septillion years, defined as: SI meter per sextillion years × (1.616255E-35)/(1000.0)
+   /// planck-length per septillion years defined such that: SI meter per sextillion years = ℓₚ/Yyr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerSeptillionYears = new (
                                                                          "planck-length per septillion years"
@@ -348,7 +348,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         );
 
    /// <summary>
-   /// planck-length per octillion years, defined as: SI meter per septillion years × (1.616255E-35)/(1000.0)
+   /// planck-length per octillion years defined such that: SI meter per septillion years = ℓₚ/Ryr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerOctillionYears = new (
                                                                         "planck-length per octillion years"
@@ -359,7 +359,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// planck-length per nonillion years, defined as: SI meter per octillion years × (1.616255E-35)/(1000.0)
+   /// planck-length per nonillion years defined such that: SI meter per octillion years = ℓₚ/Qyr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerNonillionYears = new (
                                                                         "planck-length per nonillion years"
@@ -370,7 +370,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// planck-length per decillion years, defined as: SI meter per nonillion years × (1.616255E-35)/(1000.0)
+   /// planck-length per decillion years defined such that: SI meter per nonillion years = ℓₚ/decillion yr × (1.616255E-35)/(1000.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerDecillionYears = new (
                                                                         "planck-length per decillion years"
@@ -381,7 +381,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        );
 
    /// <summary>
-   /// planck-length per tick, defined as: SI meter per nanosecond × (1.616255E-35)/(100.0)
+   /// planck-length per tick defined such that: SI meter per nanosecond = ℓₚ/tick × (1.616255E-35)/(100.0).
    /// </summary>
    public static readonly Velocity PlanckLengthPerTick = new (
                                                               "planck-length per tick"

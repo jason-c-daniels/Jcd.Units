@@ -3,7 +3,7 @@
 
 ## Lengths.Petameter Field
 
-petameter, defined as: terameter × 1000.0
+petameter defined such that: terameter = Pm × 1000.0.
 
 ```csharp
 public static readonly Length Petameter;

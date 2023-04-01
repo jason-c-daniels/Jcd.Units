@@ -3,7 +3,7 @@
 
 ## Durations.Minute Field
 
-minute, defined as: second × 60.0
+minute defined such that: second = min × 60.0.
 
 ```csharp
 public static readonly Duration Minute;

@@ -3,7 +3,7 @@
 
 ## Velocities.InchPerPicosecond Field
 
-inch per picosecond, defined as: SI centimeter per nanosecond × (2.54)/(1.0/1000.0)
+inch per picosecond defined such that: SI centimeter per nanosecond = in/ps × (2.54)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity InchPerPicosecond;

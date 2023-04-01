@@ -3,7 +3,7 @@
 
 ## Volumes.CubicTeraparsec Field
 
-cubic teraparsec, defined as: cubic gigaparsec × (1000.0)*(1000.0)*(1000.0)
+cubic teraparsec defined such that: cubic gigaparsec = Tpc³ × (1000.0)*(1000.0)*(1000.0).
 
 ```csharp
 public static readonly Volume CubicTeraparsec;

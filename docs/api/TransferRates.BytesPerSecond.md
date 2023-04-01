@@ -3,7 +3,7 @@
 
 ## TransferRates.BytesPerSecond Field
 
-bytes per second, defined as: nybbles per second × 2d
+bytes per second defined such that: nybbles per second = B/s × 2d.
 
 ```csharp
 public static readonly TransferRate BytesPerSecond;

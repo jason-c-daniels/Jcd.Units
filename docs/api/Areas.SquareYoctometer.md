@@ -3,7 +3,7 @@
 
 ## Areas.SquareYoctometer Field
 
-square yoctometer, defined as: square zeptometer × (1.0/1000.0)*(1.0/1000.0)
+square yoctometer defined such that: square zeptometer = ym² × (1.0/1000.0)*(1.0/1000.0).
 
 ```csharp
 public static readonly Area SquareYoctometer;

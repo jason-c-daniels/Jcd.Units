@@ -3,7 +3,7 @@
 
 ## Densities.MicrotonnePerCubicMeter Field
 
-microtonne per cubic meter, defined as: millitonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+microtonne per cubic meter defined such that: millitonne per cubic meter = μt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density MicrotonnePerCubicMeter;

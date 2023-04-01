@@ -3,7 +3,7 @@
 
 ## Accelerations.FurlongPerSquareQuintillionYears Field
 
-furlong per square quintillion years, defined as: chain per square quadrillion years × (10.0)/((1000.0)*(1000.0))
+furlong per square quintillion years defined such that: chain per square quadrillion years = fur/Eyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration FurlongPerSquareQuintillionYears;

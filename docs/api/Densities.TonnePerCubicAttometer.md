@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicAttometer Field
 
-tonne per cubic attometer, defined as: megagram per cubic femtometer × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+tonne per cubic attometer defined such that: megagram per cubic femtometer = t/am³ × (1.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density TonnePerCubicAttometer;

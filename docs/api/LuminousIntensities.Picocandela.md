@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Picocandela Field
 
-picocandela, defined as: nanocandela × 1.0/1000.0
+picocandela defined such that: nanocandela = pcd × 1.0/1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Picocandela;

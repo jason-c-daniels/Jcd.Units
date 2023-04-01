@@ -3,7 +3,7 @@
 
 ## Densities.DekagramPerCubicRontometer Field
 
-dekagram per cubic rontometer, defined as: hectogram per cubic yoctometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+dekagram per cubic rontometer defined such that: hectogram per cubic yoctometer = dag/rm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density DekagramPerCubicRontometer;

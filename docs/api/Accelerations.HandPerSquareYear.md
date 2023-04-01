@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareYear Field
 
-hand per square year, defined as: inch per square day × (4.0)/((365.2525)*(365.2525))
+hand per square year defined such that: inch per square day = hh/yr² × (4.0)/((365.2525)*(365.2525)).
 
 ```csharp
 public static readonly Acceleration HandPerSquareYear;

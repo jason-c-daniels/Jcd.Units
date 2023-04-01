@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerQuadrillionYears Field
 
-millimeter per quadrillion years, defined as: centimeter per trillion years × (1.0/10.0)/(1000.0)
+millimeter per quadrillion years defined such that: centimeter per trillion years = mm/Pyr × (1.0/10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity MillimeterPerQuadrillionYears;

@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerTick Field
 
-kilometer per tick, defined as: hectometer per nanosecond × (10.0)/(100.0)
+kilometer per tick defined such that: hectometer per nanosecond = km/tick × (10.0)/(100.0).
 
 ```csharp
 public static readonly Velocity KilometerPerTick;

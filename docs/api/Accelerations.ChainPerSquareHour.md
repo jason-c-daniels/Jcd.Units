@@ -3,7 +3,7 @@
 
 ## Accelerations.ChainPerSquareHour Field
 
-chain per square hour, defined as: yard per square minute × (22.0)/((60.0)*(60.0))
+chain per square hour defined such that: yard per square minute = ch/hr² × (22.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration ChainPerSquareHour;

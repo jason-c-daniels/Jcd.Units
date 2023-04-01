@@ -3,7 +3,7 @@
 
 ## Resistances.Petaohm Field
 
-petaohm, defined as: teraohm × 1000.0
+petaohm defined such that: teraohm = PΩ × 1000.0.
 
 ```csharp
 public static readonly Resistance Petaohm;

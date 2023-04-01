@@ -3,7 +3,7 @@
 
 ## Pressures.Dekatorr Field
 
-dekatorr, defined as: torr × 10.0
+dekatorr defined such that: torr = daTorr × 10.0.
 
 ```csharp
 public static readonly Pressure Dekatorr;

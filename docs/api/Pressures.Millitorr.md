@@ -3,7 +3,7 @@
 
 ## Pressures.Millitorr Field
 
-millitorr, defined as: centitorr × 1.0/10.0
+millitorr defined such that: centitorr = mTorr × 1.0/10.0.
 
 ```csharp
 public static readonly Pressure Millitorr;

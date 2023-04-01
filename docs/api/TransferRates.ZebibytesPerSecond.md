@@ -3,7 +3,7 @@
 
 ## TransferRates.ZebibytesPerSecond Field
 
-zebibytes per second, defined as: exbibytes per second × 1024.0
+zebibytes per second defined such that: exbibytes per second = ZiB/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate ZebibytesPerSecond;

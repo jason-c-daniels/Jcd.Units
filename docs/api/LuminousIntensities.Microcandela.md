@@ -3,7 +3,7 @@
 
 ## LuminousIntensities.Microcandela Field
 
-microcandela, defined as: millicandela × 1.0/1000.0
+microcandela defined such that: millicandela = μcd × 1.0/1000.0.
 
 ```csharp
 public static readonly LuminousIntensity Microcandela;

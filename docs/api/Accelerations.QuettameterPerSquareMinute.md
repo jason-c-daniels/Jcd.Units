@@ -3,7 +3,7 @@
 
 ## Accelerations.QuettameterPerSquareMinute Field
 
-quettameter per square minute, defined as: ronnameter per square second × (1000.0)/((60.0)*(60.0))
+quettameter per square minute defined such that: ronnameter per square second = Qm/min² × (1000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration QuettameterPerSquareMinute;

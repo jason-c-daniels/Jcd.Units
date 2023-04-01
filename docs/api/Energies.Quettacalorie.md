@@ -3,7 +3,7 @@
 
 ## Energies.Quettacalorie Field
 
-quettacalorie, defined as: ronnacalorie × 1000.0
+quettacalorie defined such that: ronnacalorie = Qc × 1000.0.
 
 ```csharp
 public static readonly Energy Quettacalorie;

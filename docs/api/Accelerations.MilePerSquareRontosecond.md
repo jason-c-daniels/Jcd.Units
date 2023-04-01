@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareRontosecond Field
 
-mile per square rontosecond, defined as: furlong per square yoctosecond × (8.0)/((1.0/1000.0)*(1.0/1000.0))
+mile per square rontosecond defined such that: furlong per square yoctosecond = mi/rs² × (8.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration MilePerSquareRontosecond;

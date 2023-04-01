@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerYear Field
 
-planck-length per year, defined as: SI meter per day × (1.616255E-35)/(365.2525)
+planck-length per year defined such that: SI meter per day = ℓₚ/yr × (1.616255E-35)/(365.2525).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerYear;

@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Picoampere Field
 
-picoampere, defined as: nanoampere × 1.0/1000.0
+picoampere defined such that: nanoampere = pA × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalCurrent Picoampere;

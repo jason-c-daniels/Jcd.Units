@@ -3,7 +3,7 @@
 
 ## Accelerations.MilePerSquareMillisecond Field
 
-mile per square millisecond, defined as: furlong per square centisecond × (8.0)/((1.0/10.0)*(1.0/10.0))
+mile per square millisecond defined such that: furlong per square centisecond = mi/ms² × (8.0)/((1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Acceleration MilePerSquareMillisecond;

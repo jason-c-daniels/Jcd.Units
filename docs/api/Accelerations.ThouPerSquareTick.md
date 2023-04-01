@@ -3,7 +3,7 @@
 
 ## Accelerations.ThouPerSquareTick Field
 
-thou per square tick, defined as: foot per square nanosecond × (1.0/12000.0)/((100.0)*(100.0))
+thou per square tick defined such that: foot per square nanosecond = th/tick² × (1.0/12000.0)/((100.0)*(100.0)).
 
 ```csharp
 public static readonly Acceleration ThouPerSquareTick;

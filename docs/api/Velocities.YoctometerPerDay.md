@@ -3,7 +3,7 @@
 
 ## Velocities.YoctometerPerDay Field
 
-yoctometer per day, defined as: zeptometer per hour × (1.0/1000.0)/(24.0)
+yoctometer per day defined such that: zeptometer per hour = ym/dy × (1.0/1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity YoctometerPerDay;

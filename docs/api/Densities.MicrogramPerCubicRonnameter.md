@@ -3,7 +3,7 @@
 
 ## Densities.MicrogramPerCubicRonnameter Field
 
-microgram per cubic ronnameter, defined as: milligram per cubic yottameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+microgram per cubic ronnameter defined such that: milligram per cubic yottameter = μg/Rm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MicrogramPerCubicRonnameter;

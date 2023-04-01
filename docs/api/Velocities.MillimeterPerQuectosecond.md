@@ -3,7 +3,7 @@
 
 ## Velocities.MillimeterPerQuectosecond Field
 
-millimeter per quectosecond, defined as: centimeter per rontosecond × (1.0/10.0)/(1.0/1000.0)
+millimeter per quectosecond defined such that: centimeter per rontosecond = mm/qs × (1.0/10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MillimeterPerQuectosecond;

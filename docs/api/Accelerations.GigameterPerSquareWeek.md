@@ -3,7 +3,7 @@
 
 ## Accelerations.GigameterPerSquareWeek Field
 
-gigameter per square week, defined as: megameter per square day × (1000.0)/((7.0)*(7.0))
+gigameter per square week defined such that: megameter per square day = Gm/wk² × (1000.0)/((7.0)*(7.0)).
 
 ```csharp
 public static readonly Acceleration GigameterPerSquareWeek;

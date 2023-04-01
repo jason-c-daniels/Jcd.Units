@@ -3,7 +3,7 @@
 
 ## Densities.QuectogramPerCubicAttometer Field
 
-quectogram per cubic attometer, defined as: rontogram per cubic femtometer × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+quectogram per cubic attometer defined such that: rontogram per cubic femtometer = qg/am³ × (1.0/1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density QuectogramPerCubicAttometer;

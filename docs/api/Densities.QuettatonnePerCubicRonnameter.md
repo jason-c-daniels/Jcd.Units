@@ -3,7 +3,7 @@
 
 ## Densities.QuettatonnePerCubicRonnameter Field
 
-quettatonne per cubic ronnameter, defined as: ronnatonne per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+quettatonne per cubic ronnameter defined such that: ronnatonne per cubic yottameter = Qt/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density QuettatonnePerCubicRonnameter;

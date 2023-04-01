@@ -3,7 +3,7 @@
 
 ## Velocities.FurlongPerAttosecond Field
 
-furlong per attosecond, defined as: chain per femtosecond × (10.0)/(1.0/1000.0)
+furlong per attosecond defined such that: chain per femtosecond = fur/as × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity FurlongPerAttosecond;

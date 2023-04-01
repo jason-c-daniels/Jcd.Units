@@ -3,7 +3,7 @@
 
 ## Densities.ExatonnePerCubicYoctometer Field
 
-exatonne per cubic yoctometer, defined as: petatonne per cubic zeptometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+exatonne per cubic yoctometer defined such that: petatonne per cubic zeptometer = Et/ym³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density ExatonnePerCubicYoctometer;

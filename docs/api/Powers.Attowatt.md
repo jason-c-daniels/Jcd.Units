@@ -3,7 +3,7 @@
 
 ## Powers.Attowatt Field
 
-attowatt, defined as: femtowatt × 1.0/1000.0
+attowatt defined such that: femtowatt = aW × 1.0/1000.0.
 
 ```csharp
 public static readonly Power Attowatt;

@@ -3,7 +3,7 @@
 
 ## Accelerations.ZettameterPerSquareSeptillionYears Field
 
-zettameter per square septillion years, defined as: exameter per square sextillion years × (1000.0)/((1000.0)*(1000.0))
+zettameter per square septillion years defined such that: exameter per square sextillion years = Zm/Yyr² × (1000.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration ZettameterPerSquareSeptillionYears;

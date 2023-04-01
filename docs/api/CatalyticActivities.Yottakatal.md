@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Yottakatal Field
 
-yottakatal, defined as: zettakatal × 1000.0
+yottakatal defined such that: zettakatal = Ykat × 1000.0.
 
 ```csharp
 public static readonly CatalyticActivity Yottakatal;

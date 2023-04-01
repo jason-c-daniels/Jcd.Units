@@ -3,7 +3,7 @@
 
 ## Pressures.Zettatorr Field
 
-zettatorr, defined as: exatorr × 1000.0
+zettatorr defined such that: exatorr = ZTorr × 1000.0.
 
 ```csharp
 public static readonly Pressure Zettatorr;

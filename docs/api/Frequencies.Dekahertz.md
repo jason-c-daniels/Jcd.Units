@@ -3,7 +3,7 @@
 
 ## Frequencies.Dekahertz Field
 
-dekahertz, defined as: hertz × 10.0
+dekahertz defined such that: hertz = daHz × 10.0.
 
 ```csharp
 public static readonly Frequency Dekahertz;

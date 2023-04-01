@@ -3,7 +3,7 @@
 
 ## Accelerations.MegameterPerSquareQuectosecond Field
 
-megameter per square quectosecond, defined as: kilometer per square rontosecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
+megameter per square quectosecond defined such that: kilometer per square rontosecond = Mm/qs² × (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration MegameterPerSquareQuectosecond;

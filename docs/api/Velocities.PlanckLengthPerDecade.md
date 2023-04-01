@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerDecade Field
 
-planck-length per decade, defined as: SI meter per year × (1.616255E-35)/(10.0)
+planck-length per decade defined such that: SI meter per year = ℓₚ/decade × (1.616255E-35)/(10.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerDecade;

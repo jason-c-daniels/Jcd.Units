@@ -3,7 +3,7 @@
 
 ## Accelerations.HandPerSquareAttosecond Field
 
-hand per square attosecond, defined as: inch per square femtosecond × (4.0)/((1.0/1000.0)*(1.0/1000.0))
+hand per square attosecond defined such that: inch per square femtosecond = hh/as² × (4.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration HandPerSquareAttosecond;

@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerNonillionYears Field
 
-pica per nonillion years, defined as: point per octillion years × (12.0)/(1000.0)
+pica per nonillion years defined such that: point per octillion years = P/Qyr × (12.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity PicaPerNonillionYears;

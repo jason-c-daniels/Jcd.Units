@@ -3,7 +3,7 @@
 
 ## Areas.SquareExaparsec Field
 
-square exaparsec, defined as: square petaparsec × (1000.0)*(1000.0)
+square exaparsec defined such that: square petaparsec = Epc² × (1000.0)*(1000.0).
 
 ```csharp
 public static readonly Area SquareExaparsec;

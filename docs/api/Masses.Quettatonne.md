@@ -3,7 +3,7 @@
 
 ## Masses.Quettatonne Field
 
-quettatonne, defined as: ronnatonne × 1000.0
+quettatonne defined such that: ronnatonne = Qt × 1000.0.
 
 ```csharp
 public static readonly Mass Quettatonne;

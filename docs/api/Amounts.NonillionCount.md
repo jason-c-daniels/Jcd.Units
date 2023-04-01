@@ -3,7 +3,7 @@
 
 ## Amounts.NonillionCount Field
 
-nonillion count, defined as: octillion count × 1_000_000.0
+nonillion count defined such that: octillion count = nonillion ct. × 1_000_000.0.
 
 ```csharp
 public static readonly Amount NonillionCount;

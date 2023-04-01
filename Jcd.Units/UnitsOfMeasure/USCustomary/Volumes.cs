@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
-   /// cubic inch, defined as: SI cubic centimeter × (2.54)*(2.54)*(2.54)
+   /// cubic inch defined such that: SI cubic centimeter = in³ × (2.54)*(2.54)*(2.54).
    /// </summary>
    public static readonly Volume CubicInch = new (
                                                   "cubic inch"
@@ -29,7 +29,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// cubic mil, defined as: cubic inch × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)
+   /// cubic mil defined such that: cubic inch = mil³ × (1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0).
    /// </summary>
    public static readonly Volume CubicMil = new (
                                                  "cubic mil"
@@ -40,7 +40,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                 );
 
    /// <summary>
-   /// cubic point, defined as: cubic inch × (1.0/72.0)*(1.0/72.0)*(1.0/72.0)
+   /// cubic point defined such that: cubic inch = p³ × (1.0/72.0)*(1.0/72.0)*(1.0/72.0).
    /// </summary>
    public static readonly Volume CubicPoint = new (
                                                    "cubic point"
@@ -51,7 +51,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   );
 
    /// <summary>
-   /// cubic twip, defined as: cubic point × (1.0/20.0)*(1.0/20.0)*(1.0/20.0)
+   /// cubic twip defined such that: cubic point = twip³ × (1.0/20.0)*(1.0/20.0)*(1.0/20.0).
    /// </summary>
    public static readonly Volume CubicTwip = new (
                                                   "cubic twip"
@@ -62,7 +62,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// cubic pica, defined as: cubic point × (12.0)*(12.0)*(12.0)
+   /// cubic pica defined such that: cubic point = P³ × (12.0)*(12.0)*(12.0).
    /// </summary>
    public static readonly Volume CubicPica = new (
                                                   "cubic pica"
@@ -73,7 +73,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// cubic foot, defined as: cubic inch × (12.0)*(12.0)*(12.0)
+   /// cubic foot defined such that: cubic inch = ft³ × (12.0)*(12.0)*(12.0).
    /// </summary>
    public static readonly Volume CubicFoot = new (
                                                   "cubic foot"
@@ -84,7 +84,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// cubic yard, defined as: cubic foot × (3.0)*(3.0)*(3.0)
+   /// cubic yard defined such that: cubic foot = yd³ × (3.0)*(3.0)*(3.0).
    /// </summary>
    public static readonly Volume CubicYard = new (
                                                   "cubic yard"
@@ -95,7 +95,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// cubic mile, defined as: cubic yard × (1760.0)*(1760.0)*(1760.0)
+   /// cubic mile defined such that: cubic yard = mi³ × (1760.0)*(1760.0)*(1760.0).
    /// </summary>
    public static readonly Volume CubicMile = new (
                                                   "cubic mile"
@@ -106,7 +106,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// cubic league, defined as: cubic mile × (3.0)*(3.0)*(3.0)
+   /// cubic league defined such that: cubic mile = le³ × (3.0)*(3.0)*(3.0).
    /// </summary>
    public static readonly Volume CubicLeague = new (
                                                     "cubic league"
@@ -117,7 +117,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                    );
 
    /// <summary>
-   /// cubic fathom, defined as: cubic yard × (2.0)*(2.0)*(2.0)
+   /// cubic fathom defined such that: cubic yard = ftm³ × (2.0)*(2.0)*(2.0).
    /// </summary>
    public static readonly Volume CubicFathom = new (
                                                     "cubic fathom"
@@ -128,7 +128,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                    );
 
    /// <summary>
-   /// cubic cable, defined as: cubic fathom × (120.0)*(120.0)*(120.0)
+   /// cubic cable defined such that: cubic fathom = cb³ × (120.0)*(120.0)*(120.0).
    /// </summary>
    public static readonly Volume CubicCable = new (
                                                    "cubic cable"
@@ -139,7 +139,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   );
 
    /// <summary>
-   /// cubic nautical mile, defined as: SI cubic meter × (1852.0)*(1852.0)*(1852.0)
+   /// cubic nautical mile defined such that: SI cubic meter = nmi³ × (1852.0)*(1852.0)*(1852.0).
    /// </summary>
    public static readonly Volume CubicNauticalMile = new (
                                                           "cubic nautical mile"

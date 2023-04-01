@@ -3,7 +3,7 @@
 
 ## Lengths.Micrometer Field
 
-micrometer, defined as: millimeter × 1.0/1000.0
+micrometer defined such that: millimeter = μm × 1.0/1000.0.
 
 ```csharp
 public static readonly Length Micrometer;

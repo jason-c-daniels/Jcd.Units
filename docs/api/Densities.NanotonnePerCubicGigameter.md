@@ -3,7 +3,7 @@
 
 ## Densities.NanotonnePerCubicGigameter Field
 
-nanotonne per cubic gigameter, defined as: microtonne per cubic megameter × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0))
+nanotonne per cubic gigameter defined such that: microtonne per cubic megameter = nt/Gm³ × (1.0/1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density NanotonnePerCubicGigameter;

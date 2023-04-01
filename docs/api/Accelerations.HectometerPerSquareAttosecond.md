@@ -3,7 +3,7 @@
 
 ## Accelerations.HectometerPerSquareAttosecond Field
 
-hectometer per square attosecond, defined as: dekameter per square femtosecond × (10.0)/((1.0/1000.0)*(1.0/1000.0))
+hectometer per square attosecond defined such that: dekameter per square femtosecond = hm/as² × (10.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration HectometerPerSquareAttosecond;

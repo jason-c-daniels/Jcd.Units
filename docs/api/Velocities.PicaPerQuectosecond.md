@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerQuectosecond Field
 
-pica per quectosecond, defined as: point per rontosecond × (12.0)/(1.0/1000.0)
+pica per quectosecond defined such that: point per rontosecond = P/qs × (12.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PicaPerQuectosecond;

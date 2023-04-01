@@ -3,7 +3,7 @@
 
 ## Resistances.Nanoohm Field
 
-nanoohm, defined as: microohm × 1.0/1000.0
+nanoohm defined such that: microohm = nΩ × 1.0/1000.0.
 
 ```csharp
 public static readonly Resistance Nanoohm;

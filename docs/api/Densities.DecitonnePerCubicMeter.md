@@ -3,7 +3,7 @@
 
 ## Densities.DecitonnePerCubicMeter Field
 
-decitonne per cubic meter, defined as: tonne per cubic meter × (1.0/10.0)/((1.0)*(1.0)*(1.0))
+decitonne per cubic meter defined such that: tonne per cubic meter = dt/m³ × (1.0/10.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density DecitonnePerCubicMeter;

@@ -3,7 +3,7 @@
 
 ## Velocities.PlanckLengthPerCentisecond Field
 
-planck-length per centisecond, defined as: SI meter per decisecond × (1.616255E-35)/(1.0/10.0)
+planck-length per centisecond defined such that: SI meter per decisecond = ℓₚ/cs × (1.616255E-35)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity PlanckLengthPerCentisecond;

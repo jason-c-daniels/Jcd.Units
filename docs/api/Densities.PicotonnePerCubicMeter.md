@@ -3,7 +3,7 @@
 
 ## Densities.PicotonnePerCubicMeter Field
 
-picotonne per cubic meter, defined as: nanotonne per cubic meter × (1.0/1000.0)/((1.0)*(1.0)*(1.0))
+picotonne per cubic meter defined such that: nanotonne per cubic meter = pt/m³ × (1.0/1000.0)/((1.0)*(1.0)*(1.0)).
 
 ```csharp
 public static readonly Density PicotonnePerCubicMeter;

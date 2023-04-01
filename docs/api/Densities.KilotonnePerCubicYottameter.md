@@ -3,7 +3,7 @@
 
 ## Densities.KilotonnePerCubicYottameter Field
 
-kilotonne per cubic yottameter, defined as: hectotonne per cubic zettameter × (10.0)/((1000.0)*(1000.0)*(1000.0))
+kilotonne per cubic yottameter defined such that: hectotonne per cubic zettameter = kt/Ym³ × (10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density KilotonnePerCubicYottameter;

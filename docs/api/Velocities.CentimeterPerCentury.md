@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerCentury Field
 
-centimeter per century, defined as: decimeter per decade × (1.0/10.0)/(10.0)
+centimeter per century defined such that: decimeter per decade = cm/century × (1.0/10.0)/(10.0).
 
 ```csharp
 public static readonly Velocity CentimeterPerCentury;

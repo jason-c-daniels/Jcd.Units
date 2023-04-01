@@ -3,7 +3,7 @@
 
 ## Capacitances.Centifarad Field
 
-centifarad, defined as: decifarad × 1.0/10.0
+centifarad defined such that: decifarad = cF × 1.0/10.0.
 
 ```csharp
 public static readonly Capacitance Centifarad;

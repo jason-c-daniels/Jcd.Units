@@ -3,7 +3,7 @@
 
 ## TransferRates.KebinybblesPerSecond Field
 
-kebinybbles per second, defined as: nybbles per second × 1024.0
+kebinybbles per second defined such that: nybbles per second = Kin/s × 1024.0.
 
 ```csharp
 public static readonly TransferRate KebinybblesPerSecond;

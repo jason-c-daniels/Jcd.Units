@@ -3,7 +3,7 @@
 
 ## Densities.RonnatonnePerCubicYottameter Field
 
-ronnatonne per cubic yottameter, defined as: yottatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+ronnatonne per cubic yottameter defined such that: yottatonne per cubic zettameter = Rt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density RonnatonnePerCubicYottameter;

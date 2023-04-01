@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerYear Field
 
-rontometer per year, defined as: yoctometer per day × (1.0/1000.0)/(365.2525)
+rontometer per year defined such that: yoctometer per day = rm/yr × (1.0/1000.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity RontometerPerYear;

@@ -3,7 +3,7 @@
 
 ## Velocities.CentimeterPerBillionYears Field
 
-centimeter per billion years, defined as: decimeter per million years × (1.0/10.0)/(1000.0)
+centimeter per billion years defined such that: decimeter per million years = cm/Gyr × (1.0/10.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity CentimeterPerBillionYears;

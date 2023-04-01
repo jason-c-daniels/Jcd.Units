@@ -3,7 +3,7 @@
 
 ## Densities.QuettagramPerCubicRonnameter Field
 
-quettagram per cubic ronnameter, defined as: ronnagram per cubic yottameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+quettagram per cubic ronnameter defined such that: ronnagram per cubic yottameter = Qg/Rm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density QuettagramPerCubicRonnameter;

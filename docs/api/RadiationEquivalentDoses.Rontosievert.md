@@ -3,7 +3,7 @@
 
 ## RadiationEquivalentDoses.Rontosievert Field
 
-rontosievert, defined as: yoctosievert × 1.0/1000.0
+rontosievert defined such that: yoctosievert = rsv × 1.0/1000.0.
 
 ```csharp
 public static readonly RadiationEquivalentDose Rontosievert;

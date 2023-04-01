@@ -3,7 +3,7 @@
 
 ## Velocities.HectometerPerTick Field
 
-hectometer per tick, defined as: dekameter per nanosecond × (10.0)/(100.0)
+hectometer per tick defined such that: dekameter per nanosecond = hm/tick × (10.0)/(100.0).
 
 ```csharp
 public static readonly Velocity HectometerPerTick;

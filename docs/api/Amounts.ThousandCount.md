@@ -3,7 +3,7 @@
 
 ## Amounts.ThousandCount Field
 
-thousand count, defined as: hundred count × 10.0
+thousand count defined such that: hundred count = thousand ct. × 10.0.
 
 ```csharp
 public static readonly Amount ThousandCount;

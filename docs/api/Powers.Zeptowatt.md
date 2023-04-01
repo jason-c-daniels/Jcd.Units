@@ -3,7 +3,7 @@
 
 ## Powers.Zeptowatt Field
 
-zeptowatt, defined as: attowatt × 1.0/1000.0
+zeptowatt defined such that: attowatt = zW × 1.0/1000.0.
 
 ```csharp
 public static readonly Power Zeptowatt;

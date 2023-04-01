@@ -3,7 +3,7 @@
 
 ## Velocities.KilometerPerAttosecond Field
 
-kilometer per attosecond, defined as: hectometer per femtosecond × (10.0)/(1.0/1000.0)
+kilometer per attosecond defined such that: hectometer per femtosecond = km/as × (10.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity KilometerPerAttosecond;

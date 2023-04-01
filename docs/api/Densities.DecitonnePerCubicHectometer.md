@@ -3,7 +3,7 @@
 
 ## Densities.DecitonnePerCubicHectometer Field
 
-decitonne per cubic hectometer, defined as: tonne per cubic dekameter × (1.0/10.0)/((10.0)*(10.0)*(10.0))
+decitonne per cubic hectometer defined such that: tonne per cubic dekameter = dt/hm³ × (1.0/10.0)/((10.0)*(10.0)*(10.0)).
 
 ```csharp
 public static readonly Density DecitonnePerCubicHectometer;

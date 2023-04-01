@@ -3,7 +3,7 @@
 
 ## Accelerations.KilometerPerSquareQuadrillionYears Field
 
-kilometer per square quadrillion years, defined as: hectometer per square trillion years × (10.0)/((1000.0)*(1000.0))
+kilometer per square quadrillion years defined such that: hectometer per square trillion years = km/Pyr² × (10.0)/((1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Acceleration KilometerPerSquareQuadrillionYears;

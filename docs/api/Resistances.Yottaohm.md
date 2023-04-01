@@ -3,7 +3,7 @@
 
 ## Resistances.Yottaohm Field
 
-yottaohm, defined as: zettaohm × 1000.0
+yottaohm defined such that: zettaohm = YΩ × 1000.0.
 
 ```csharp
 public static readonly Resistance Yottaohm;

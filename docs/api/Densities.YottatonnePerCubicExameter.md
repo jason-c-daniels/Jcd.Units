@@ -3,7 +3,7 @@
 
 ## Densities.YottatonnePerCubicExameter Field
 
-yottatonne per cubic exameter, defined as: zettatonne per cubic petameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+yottatonne per cubic exameter defined such that: zettatonne per cubic petameter = Yt/Em³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density YottatonnePerCubicExameter;

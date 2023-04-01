@@ -3,7 +3,7 @@
 
 ## Velocities.ZettameterPerMillionYears Field
 
-zettameter per million years, defined as: exameter per millennium × (1000.0)/(1000.0)
+zettameter per million years defined such that: exameter per millennium = Zm/Myr × (1000.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ZettameterPerMillionYears;

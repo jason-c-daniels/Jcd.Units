@@ -3,7 +3,7 @@
 
 ## Velocities.CablePerOctillionYears Field
 
-cable per octillion years, defined as: fathom per septillion years × (100.0)/(1000.0)
+cable per octillion years defined such that: fathom per septillion years = cable/Ryr × (100.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity CablePerOctillionYears;

@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Exavolt Field
 
-exavolt, defined as: petavolt × 1000.0
+exavolt defined such that: petavolt = EV × 1000.0.
 
 ```csharp
 public static readonly ElectricalPotential Exavolt;

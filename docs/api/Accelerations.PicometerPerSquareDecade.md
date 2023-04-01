@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareDecade Field
 
-picometer per square decade, defined as: nanometer per square year × (1.0/1000.0)/((10.0)*(10.0))
+picometer per square decade defined such that: nanometer per square year = pm/decade² × (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareDecade;

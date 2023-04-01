@@ -3,7 +3,7 @@
 
 ## Amounts.QuadrillionQuantity Field
 
-quadrillion quantity, defined as: trillion quantity × 1_000_000.0
+quadrillion quantity defined such that: trillion quantity = quadrillion qty. × 1_000_000.0.
 
 ```csharp
 public static readonly Amount QuadrillionQuantity;

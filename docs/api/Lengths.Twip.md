@@ -3,7 +3,7 @@
 
 ## Lengths.Twip Field
 
-twip, defined as: foot × 1.0/17280.0
+twip defined such that: foot = twip × 1.0/17280.0.
 
 ```csharp
 public static readonly Length Twip;

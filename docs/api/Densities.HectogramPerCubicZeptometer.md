@@ -3,7 +3,7 @@
 
 ## Densities.HectogramPerCubicZeptometer Field
 
-hectogram per cubic zeptometer, defined as: kilogram per cubic attometer × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+hectogram per cubic zeptometer defined such that: kilogram per cubic attometer = hg/zm³ × (1.0/10.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density HectogramPerCubicZeptometer;

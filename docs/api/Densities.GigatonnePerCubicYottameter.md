@@ -3,7 +3,7 @@
 
 ## Densities.GigatonnePerCubicYottameter Field
 
-gigatonne per cubic yottameter, defined as: megatonne per cubic zettameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+gigatonne per cubic yottameter defined such that: megatonne per cubic zettameter = Gt/Ym³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density GigatonnePerCubicYottameter;

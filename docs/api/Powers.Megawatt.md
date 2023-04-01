@@ -3,7 +3,7 @@
 
 ## Powers.Megawatt Field
 
-megawatt, defined as: kilowatt × 1000.0
+megawatt defined such that: kilowatt = MW × 1000.0.
 
 ```csharp
 public static readonly Power Megawatt;

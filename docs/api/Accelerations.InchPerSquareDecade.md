@@ -3,7 +3,7 @@
 
 ## Accelerations.InchPerSquareDecade Field
 
-inch per square decade, defined as: SI centimeter per square year × (2.54)/((10.0)*(10.0))
+inch per square decade defined such that: SI centimeter per square year = in/decade² × (2.54)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration InchPerSquareDecade;

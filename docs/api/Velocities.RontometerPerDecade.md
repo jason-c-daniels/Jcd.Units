@@ -3,7 +3,7 @@
 
 ## Velocities.RontometerPerDecade Field
 
-rontometer per decade, defined as: yoctometer per year × (1.0/1000.0)/(10.0)
+rontometer per decade defined such that: yoctometer per year = rm/decade × (1.0/1000.0)/(10.0).
 
 ```csharp
 public static readonly Velocity RontometerPerDecade;

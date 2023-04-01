@@ -3,7 +3,7 @@
 
 ## Accelerations.PicometerPerSquareMinute Field
 
-picometer per square minute, defined as: nanometer per square second × (1.0/1000.0)/((60.0)*(60.0))
+picometer per square minute defined such that: nanometer per square second = pm/min² × (1.0/1000.0)/((60.0)*(60.0)).
 
 ```csharp
 public static readonly Acceleration PicometerPerSquareMinute;

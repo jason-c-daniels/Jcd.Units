@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerDecillionYears Field
 
-chain per decillion years, defined as: yard per nonillion years × (22.0)/(1000.0)
+chain per decillion years defined such that: yard per nonillion years = ch/decillion yr × (22.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity ChainPerDecillionYears;

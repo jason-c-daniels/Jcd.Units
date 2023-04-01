@@ -3,7 +3,7 @@
 
 ## ElectricalCurrents.Attoampere Field
 
-attoampere, defined as: femtoampere × 1.0/1000.0
+attoampere defined such that: femtoampere = aA × 1.0/1000.0.
 
 ```csharp
 public static readonly ElectricalCurrent Attoampere;

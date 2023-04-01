@@ -3,7 +3,7 @@
 
 ## Masses.Petatonne Field
 
-petatonne, defined as: teratonne × 1000.0
+petatonne defined such that: teratonne = Pt × 1000.0.
 
 ```csharp
 public static readonly Mass Petatonne;

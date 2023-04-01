@@ -3,7 +3,7 @@
 
 ## Pressures.Kilotorr Field
 
-kilotorr, defined as: hectotorr × 10.0
+kilotorr defined such that: hectotorr = kTorr × 10.0.
 
 ```csharp
 public static readonly Pressure Kilotorr;

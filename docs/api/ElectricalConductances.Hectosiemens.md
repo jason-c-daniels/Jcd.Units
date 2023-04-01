@@ -3,7 +3,7 @@
 
 ## ElectricalConductances.Hectosiemens Field
 
-hectosiemens, defined as: dekasiemens × 10.0
+hectosiemens defined such that: dekasiemens = hS × 10.0.
 
 ```csharp
 public static readonly ElectricalConductance Hectosiemens;

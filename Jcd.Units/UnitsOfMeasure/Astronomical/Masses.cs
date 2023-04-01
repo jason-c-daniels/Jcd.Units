@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Astronomical;
 public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
 {
    /// <summary>
-   /// earth mass, defined as: SI kilogram × 5.9722E+24
+   /// earth mass defined such that: SI kilogram = M(⊕) × 5.9722E+24.
    /// </summary>
    public static readonly Mass EarthMass = new (
                                                 "earth mass"
@@ -29,7 +29,7 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
                                                );
 
    /// <summary>
-   /// jovian mass, defined as: SI kilogram × 1.89813E+27
+   /// jovian mass defined such that: SI kilogram = M(J) × 1.89813E+27.
    /// </summary>
    public static readonly Mass JovianMass = new (
                                                  "jovian mass"
@@ -40,7 +40,7 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
                                                 );
 
    /// <summary>
-   /// lunar mass, defined as: SI kilogram × 7.35E+22
+   /// lunar mass defined such that: SI kilogram = M(L) × 7.35E+22.
    /// </summary>
    public static readonly Mass LunarMass = new (
                                                 "lunar mass"
@@ -51,7 +51,7 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
                                                );
 
    /// <summary>
-   /// mars mass, defined as: SI kilogram × 6.39E+23
+   /// mars mass defined such that: SI kilogram = M(♂) × 6.39E+23.
    /// </summary>
    public static readonly Mass MarsMass = new (
                                                "mars mass"
@@ -62,7 +62,7 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
                                               );
 
    /// <summary>
-   /// solar mass, defined as: SI kilogram × 1.989E+30
+   /// solar mass defined such that: SI kilogram = M(☉) × 1.989E+30.
    /// </summary>
    public static readonly Mass SolarMass = new (
                                                 "solar mass"

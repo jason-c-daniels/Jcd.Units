@@ -3,7 +3,7 @@
 
 ## StorageUnits.Kilobyte Field
 
-kilobyte, defined as: byte × 1000.0
+kilobyte defined such that: byte = KB × 1000.0.
 
 ```csharp
 public static readonly Storage Kilobyte;

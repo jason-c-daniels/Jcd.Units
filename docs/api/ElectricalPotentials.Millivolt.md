@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Millivolt Field
 
-millivolt, defined as: centivolt × 1.0/10.0
+millivolt defined such that: centivolt = mV × 1.0/10.0.
 
 ```csharp
 public static readonly ElectricalPotential Millivolt;

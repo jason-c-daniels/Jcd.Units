@@ -3,7 +3,7 @@
 
 ## Volumes.FluidOunce Field
 
-fluid ounce, defined as: SI milliliter × 28.4130625
+fluid ounce defined such that: SI milliliter = fl oz × 28.4130625.
 
 ```csharp
 public static readonly Volume FluidOunce;

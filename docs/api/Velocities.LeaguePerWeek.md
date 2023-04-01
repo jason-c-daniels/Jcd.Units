@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerWeek Field
 
-league per week, defined as: mile per day × (3.0)/(7.0)
+league per week defined such that: mile per day = lea/wk × (3.0)/(7.0).
 
 ```csharp
 public static readonly Velocity LeaguePerWeek;

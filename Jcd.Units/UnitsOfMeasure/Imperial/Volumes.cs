@@ -18,7 +18,7 @@ namespace Jcd.Units.UnitsOfMeasure.Imperial;
 public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
 {
    /// <summary>
-   /// cubic inch, defined as: SI cubic centimeter × (2.54)*(2.54)*(2.54)
+   /// cubic inch defined such that: SI cubic centimeter = in³ × (2.54)*(2.54)*(2.54).
    /// </summary>
    public static readonly Volume CubicInch = new (
                                                   "cubic inch"
@@ -29,7 +29,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// fluid ounce, defined as: SI milliliter × 28.4130625
+   /// fluid ounce defined such that: SI milliliter = fl oz × 28.4130625.
    /// </summary>
    public static readonly Volume FluidOunce = new (
                                                    "fluid ounce"
@@ -40,17 +40,17 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   );
 
    /// <summary>
-   /// cubic foot, defined as: cubic inch × (12)*(12)*(12)
+   /// cubic foot defined such that: cubic inch = ft³ × (12)*(12)*(12).
    /// </summary>
    public static readonly Volume CubicFoot = new ("cubic foot", "ft³", CubicInch, 12 * 12 * 12, system: "Imperial");
 
    /// <summary>
-   /// gill, defined as: fluid ounce × 5.0
+   /// gill defined such that: fluid ounce = gi × 5.0.
    /// </summary>
    public static readonly Volume Gill = new ("gill", "gi", FluidOunce, 5.0, system: "Imperial");
 
    /// <summary>
-   /// cubic twip, defined as: cubic foot × (1.0/17280.0)*(1.0/17280.0)*(1.0/17280.0)
+   /// cubic twip defined such that: cubic foot = twip³ × (1.0/17280.0)*(1.0/17280.0)*(1.0/17280.0).
    /// </summary>
    public static readonly Volume CubicTwip = new (
                                                   "cubic twip"
@@ -61,12 +61,12 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// pint, defined as: fluid ounce × 20.0
+   /// pint defined such that: fluid ounce = pt × 20.0.
    /// </summary>
    public static readonly Volume Pint = new ("pint", "pt", FluidOunce, 20.0, system: "Imperial");
 
    /// <summary>
-   /// cubic thou, defined as: cubic foot × (1.0/12000.0)*(1.0/12000.0)*(1.0/12000.0)
+   /// cubic thou defined such that: cubic foot = th³ × (1.0/12000.0)*(1.0/12000.0)*(1.0/12000.0).
    /// </summary>
    public static readonly Volume CubicThou = new (
                                                   "cubic thou"
@@ -77,12 +77,12 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// quart, defined as: pint × 2.0
+   /// quart defined such that: pint = qt × 2.0.
    /// </summary>
    public static readonly Volume Quart = new ("quart", "qt", Pint, 2.0, system: "Imperial");
 
    /// <summary>
-   /// cubic barleycorn, defined as: cubic foot × (1.0/36.0)*(1.0/36.0)*(1.0/36.0)
+   /// cubic barleycorn defined such that: cubic foot = barleycorn³ × (1.0/36.0)*(1.0/36.0)*(1.0/36.0).
    /// </summary>
    public static readonly Volume CubicBarleycorn = new (
                                                         "cubic barleycorn"
@@ -93,32 +93,32 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        );
 
    /// <summary>
-   /// gallon, defined as: quart × 4.0
+   /// gallon defined such that: quart = gal × 4.0.
    /// </summary>
    public static readonly Volume Gallon = new ("gallon", "gal", Quart, 4.0, system: "Imperial");
 
    /// <summary>
-   /// cubic hand, defined as: cubic inch × (4.0)*(4.0)*(4.0)
+   /// cubic hand defined such that: cubic inch = hh³ × (4.0)*(4.0)*(4.0).
    /// </summary>
    public static readonly Volume CubicHand = new ("cubic hand", "hh³", CubicInch, 4.0 * 4.0 * 4.0, system: "Imperial");
 
    /// <summary>
-   /// bushel, defined as: gallon × 8.0
+   /// bushel defined such that: gallon = bushel × 8.0.
    /// </summary>
    public static readonly Volume Bushel = new ("bushel", "bushel", Gallon, 8.0, system: "Imperial");
 
    /// <summary>
-   /// cubic yard, defined as: cubic foot × (3.0)*(3.0)*(3.0)
+   /// cubic yard defined such that: cubic foot = yd³ × (3.0)*(3.0)*(3.0).
    /// </summary>
    public static readonly Volume CubicYard = new ("cubic yard", "yd³", CubicFoot, 3.0 * 3.0 * 3.0, system: "Imperial");
 
    /// <summary>
-   /// quarter, defined as: bushel × 8.0
+   /// quarter defined such that: bushel = quarter × 8.0.
    /// </summary>
    public static readonly Volume Quarter = new ("quarter", "quarter", Bushel, 8.0, system: "Imperial");
 
    /// <summary>
-   /// cubic chain, defined as: cubic yard × (22.0)*(22.0)*(22.0)
+   /// cubic chain defined such that: cubic yard = ch³ × (22.0)*(22.0)*(22.0).
    /// </summary>
    public static readonly Volume CubicChain = new (
                                                    "cubic chain"
@@ -129,12 +129,12 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   );
 
    /// <summary>
-   /// minim, defined as: pint × 1.0/9600.0
+   /// minim defined such that: pint = ♏︎  × 1.0/9600.0.
    /// </summary>
    public static readonly Volume Minim = new ("minim", "♏︎ ", Pint, 1.0 / 9600.0, system: "Imperial");
 
    /// <summary>
-   /// cubic furlong, defined as: cubic chain × (10.0)*(10.0)*(10.0)
+   /// cubic furlong defined such that: cubic chain = fur³ × (10.0)*(10.0)*(10.0).
    /// </summary>
    public static readonly Volume CubicFurlong = new (
                                                      "cubic furlong"
@@ -145,12 +145,12 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                     );
 
    /// <summary>
-   /// fluid scruple, defined as: minim × 20.0
+   /// fluid scruple defined such that: minim = fl ℈ × 20.0.
    /// </summary>
    public static readonly Volume FluidScruple = new ("fluid scruple", "fl ℈", Minim, 20.0, system: "Imperial");
 
    /// <summary>
-   /// cubic mile, defined as: cubic furlong × (8.0)*(8.0)*(8.0)
+   /// cubic mile defined such that: cubic furlong = mi³ × (8.0)*(8.0)*(8.0).
    /// </summary>
    public static readonly Volume CubicMile = new (
                                                   "cubic mile"
@@ -161,12 +161,12 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  );
 
    /// <summary>
-   /// fluid drachm, defined as: fluid scruple × 3.0
+   /// fluid drachm defined such that: fluid scruple = fl ʒ × 3.0.
    /// </summary>
    public static readonly Volume FluidDrachm = new ("fluid drachm", "fl ʒ", FluidScruple, 3.0, system: "Imperial");
 
    /// <summary>
-   /// cubic league, defined as: cubic mile × (3.0)*(3.0)*(3.0)
+   /// cubic league defined such that: cubic mile = lea³ × (3.0)*(3.0)*(3.0).
    /// </summary>
    public static readonly Volume CubicLeague = new (
                                                     "cubic league"
@@ -177,7 +177,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                    );
 
    /// <summary>
-   /// cubic fathom, defined as: cubic foot × (6.0)*(6.0)*(6.0)
+   /// cubic fathom defined such that: cubic foot = ftm³ × (6.0)*(6.0)*(6.0).
    /// </summary>
    public static readonly Volume CubicFathom = new (
                                                     "cubic fathom"
@@ -188,7 +188,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                    );
 
    /// <summary>
-   /// cubic cable, defined as: cubic fathom × (100.0)*(100.0)*(100.0)
+   /// cubic cable defined such that: cubic fathom = cable³ × (100.0)*(100.0)*(100.0).
    /// </summary>
    public static readonly Volume CubicCable = new (
                                                    "cubic cable"
@@ -199,7 +199,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   );
 
    /// <summary>
-   /// cubic nautical mile, defined as: cubic cable × (10.0)*(10.0)*(10.0)
+   /// cubic nautical mile defined such that: cubic cable = nmi³ × (10.0)*(10.0)*(10.0).
    /// </summary>
    public static readonly Volume CubicNauticalMile = new (
                                                           "cubic nautical mile"

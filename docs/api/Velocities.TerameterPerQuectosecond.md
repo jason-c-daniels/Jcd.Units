@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerQuectosecond Field
 
-terameter per quectosecond, defined as: gigameter per rontosecond × (1000.0)/(1.0/1000.0)
+terameter per quectosecond defined such that: gigameter per rontosecond = Tm/qs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity TerameterPerQuectosecond;

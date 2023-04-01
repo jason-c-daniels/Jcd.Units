@@ -3,7 +3,7 @@
 
 ## Velocities.MegameterPerQuectosecond Field
 
-megameter per quectosecond, defined as: kilometer per rontosecond × (1000.0)/(1.0/1000.0)
+megameter per quectosecond defined such that: kilometer per rontosecond = Mm/qs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity MegameterPerQuectosecond;

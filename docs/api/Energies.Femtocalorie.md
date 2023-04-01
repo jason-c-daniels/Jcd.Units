@@ -3,7 +3,7 @@
 
 ## Energies.Femtocalorie Field
 
-femtocalorie, defined as: picocalorie × 1.0/1000.0
+femtocalorie defined such that: picocalorie = fc × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Femtocalorie;

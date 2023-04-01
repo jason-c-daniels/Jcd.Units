@@ -3,7 +3,7 @@
 
 ## Densities.TonnePerCubicDecimeter Field
 
-tonne per cubic decimeter, defined as: megagram per cubic meter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
+tonne per cubic decimeter defined such that: megagram per cubic meter = t/dm³ × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0)).
 
 ```csharp
 public static readonly Density TonnePerCubicDecimeter;

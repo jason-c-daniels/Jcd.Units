@@ -3,7 +3,7 @@
 
 ## Pressures.StandardAtmosphere Field
 
-standard atmosphere, defined as: SI pascal × 101325
+standard atmosphere defined such that: SI pascal = atm × 101325.
 
 ```csharp
 public static readonly Pressure StandardAtmosphere;

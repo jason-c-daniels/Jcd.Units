@@ -3,7 +3,7 @@
 
 ## Accelerations.PointPerSquareCentury Field
 
-point per square century, defined as: inch per square decade × (1.0/72.0)/((10.0)*(10.0))
+point per square century defined such that: inch per square decade = p/century² × (1.0/72.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration PointPerSquareCentury;

@@ -3,7 +3,7 @@
 
 ## Velocities.AttometerPerCentisecond Field
 
-attometer per centisecond, defined as: femtometer per decisecond × (1.0/1000.0)/(1.0/10.0)
+attometer per centisecond defined such that: femtometer per decisecond = am/cs × (1.0/1000.0)/(1.0/10.0).
 
 ```csharp
 public static readonly Velocity AttometerPerCentisecond;

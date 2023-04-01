@@ -3,7 +3,7 @@
 
 ## Lengths.Picometer Field
 
-picometer, defined as: nanometer × 1.0/1000.0
+picometer defined such that: nanometer = pm × 1.0/1000.0.
 
 ```csharp
 public static readonly Length Picometer;

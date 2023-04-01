@@ -3,7 +3,7 @@
 
 ## Velocities.TerameterPerZeptosecond Field
 
-terameter per zeptosecond, defined as: gigameter per attosecond × (1000.0)/(1.0/1000.0)
+terameter per zeptosecond defined such that: gigameter per attosecond = Tm/zs × (1000.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity TerameterPerZeptosecond;

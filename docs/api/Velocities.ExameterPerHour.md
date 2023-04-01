@@ -3,7 +3,7 @@
 
 ## Velocities.ExameterPerHour Field
 
-exameter per hour, defined as: petameter per minute × (1000.0)/(60.0)
+exameter per hour defined such that: petameter per minute = Em/hr × (1000.0)/(60.0).
 
 ```csharp
 public static readonly Velocity ExameterPerHour;

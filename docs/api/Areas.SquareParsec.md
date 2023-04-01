@@ -3,7 +3,7 @@
 
 ## Areas.SquareParsec Field
 
-square parsec, defined as: square light-year × (3.2615637769757)*(3.2615637769757)
+square parsec defined such that: square light-year = pc² × (3.2615637769757)*(3.2615637769757).
 
 ```csharp
 public static readonly Area SquareParsec;

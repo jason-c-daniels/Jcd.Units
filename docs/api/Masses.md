@@ -13,8 +13,8 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [EarthMass](Masses.EarthMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.EarthMass') | earth mass, defined as: SI kilogram × 5.9722E+24 |
-| [JovianMass](Masses.JovianMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JovianMass') | jovian mass, defined as: SI kilogram × 1.89813E+27 |
-| [LunarMass](Masses.LunarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass') | lunar mass, defined as: SI kilogram × 7.35E+22 |
-| [MarsMass](Masses.MarsMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.MarsMass') | mars mass, defined as: SI kilogram × 6.39E+23 |
-| [SolarMass](Masses.SolarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.SolarMass') | solar mass, defined as: SI kilogram × 1.989E+30 |
+| [EarthMass](Masses.EarthMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.EarthMass') | earth mass defined such that: SI kilogram = M(⊕) × 5.9722E+24. |
+| [JovianMass](Masses.JovianMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.JovianMass') | jovian mass defined such that: SI kilogram = M(J) × 1.89813E+27. |
+| [LunarMass](Masses.LunarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.LunarMass') | lunar mass defined such that: SI kilogram = M(L) × 7.35E+22. |
+| [MarsMass](Masses.MarsMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.MarsMass') | mars mass defined such that: SI kilogram = M(♂) × 6.39E+23. |
+| [SolarMass](Masses.SolarMass.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses.SolarMass') | solar mass defined such that: SI kilogram = M(☉) × 1.989E+30. |

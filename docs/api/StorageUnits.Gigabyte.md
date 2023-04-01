@@ -3,7 +3,7 @@
 
 ## StorageUnits.Gigabyte Field
 
-gigabyte, defined as: megabyte × 1000.0
+gigabyte defined such that: megabyte = GB × 1000.0.
 
 ```csharp
 public static readonly Storage Gigabyte;

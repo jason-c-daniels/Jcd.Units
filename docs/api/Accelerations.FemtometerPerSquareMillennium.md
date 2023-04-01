@@ -3,7 +3,7 @@
 
 ## Accelerations.FemtometerPerSquareMillennium Field
 
-femtometer per square millennium, defined as: picometer per square century × (1.0/1000.0)/((10.0)*(10.0))
+femtometer per square millennium defined such that: picometer per square century = fm/kyr² × (1.0/1000.0)/((10.0)*(10.0)).
 
 ```csharp
 public static readonly Acceleration FemtometerPerSquareMillennium;

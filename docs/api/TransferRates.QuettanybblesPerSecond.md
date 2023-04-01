@@ -3,7 +3,7 @@
 
 ## TransferRates.QuettanybblesPerSecond Field
 
-quettanybbles per second, defined as: ronnanybbles per second × 1000.0
+quettanybbles per second defined such that: ronnanybbles per second = Qn/s × 1000.0.
 
 ```csharp
 public static readonly TransferRate QuettanybblesPerSecond;

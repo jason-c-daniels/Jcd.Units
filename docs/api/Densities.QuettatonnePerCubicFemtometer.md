@@ -3,7 +3,7 @@
 
 ## Densities.QuettatonnePerCubicFemtometer Field
 
-quettatonne per cubic femtometer, defined as: ronnatonne per cubic picometer × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0))
+quettatonne per cubic femtometer defined such that: ronnatonne per cubic picometer = Qt/fm³ × (1000.0)/((1.0/1000.0)*(1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Density QuettatonnePerCubicFemtometer;

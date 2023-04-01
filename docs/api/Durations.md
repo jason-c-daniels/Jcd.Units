@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [PlanckTime](Durations.PlanckTime.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Durations.PlanckTime') | planck-time, defined as:  microsecond × 5.391247E-38 |
+| [PlanckTime](Durations.PlanckTime.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Durations.PlanckTime') | planck-time defined such that:  microsecond = tₚ × 5.391247E-38. |

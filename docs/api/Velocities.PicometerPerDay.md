@@ -3,7 +3,7 @@
 
 ## Velocities.PicometerPerDay Field
 
-picometer per day, defined as: nanometer per hour × (1.0/1000.0)/(24.0)
+picometer per day defined such that: nanometer per hour = pm/dy × (1.0/1000.0)/(24.0).
 
 ```csharp
 public static readonly Velocity PicometerPerDay;

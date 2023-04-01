@@ -3,7 +3,7 @@
 
 ## Densities.MilligramPerCubicExameter Field
 
-milligram per cubic exameter, defined as: centigram per cubic petameter × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0))
+milligram per cubic exameter defined such that: centigram per cubic petameter = mg/Em³ × (1.0/10.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density MilligramPerCubicExameter;

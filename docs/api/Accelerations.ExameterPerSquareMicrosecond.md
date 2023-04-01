@@ -3,7 +3,7 @@
 
 ## Accelerations.ExameterPerSquareMicrosecond Field
 
-exameter per square microsecond, defined as: petameter per square millisecond × (1000.0)/((1.0/1000.0)*(1.0/1000.0))
+exameter per square microsecond defined such that: petameter per square millisecond = Em/μs² × (1000.0)/((1.0/1000.0)*(1.0/1000.0)).
 
 ```csharp
 public static readonly Acceleration ExameterPerSquareMicrosecond;

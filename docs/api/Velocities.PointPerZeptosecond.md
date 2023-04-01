@@ -3,7 +3,7 @@
 
 ## Velocities.PointPerZeptosecond Field
 
-point per zeptosecond, defined as: inch per attosecond × (1.0/72.0)/(1.0/1000.0)
+point per zeptosecond defined such that: inch per attosecond = p/zs × (1.0/72.0)/(1.0/1000.0).
 
 ```csharp
 public static readonly Velocity PointPerZeptosecond;

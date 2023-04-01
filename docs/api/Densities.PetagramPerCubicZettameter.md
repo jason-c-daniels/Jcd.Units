@@ -3,7 +3,7 @@
 
 ## Densities.PetagramPerCubicZettameter Field
 
-petagram per cubic zettameter, defined as: teragram per cubic exameter × (1000.0)/((1000.0)*(1000.0)*(1000.0))
+petagram per cubic zettameter defined such that: teragram per cubic exameter = Pg/Zm³ × (1000.0)/((1000.0)*(1000.0)*(1000.0)).
 
 ```csharp
 public static readonly Density PetagramPerCubicZettameter;

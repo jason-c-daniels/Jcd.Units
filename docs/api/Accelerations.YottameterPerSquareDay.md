@@ -3,7 +3,7 @@
 
 ## Accelerations.YottameterPerSquareDay Field
 
-yottameter per square day, defined as: zettameter per square hour × (1000.0)/((24.0)*(24.0))
+yottameter per square day defined such that: zettameter per square hour = Ym/dy² × (1000.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration YottameterPerSquareDay;

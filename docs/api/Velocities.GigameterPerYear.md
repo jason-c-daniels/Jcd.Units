@@ -3,7 +3,7 @@
 
 ## Velocities.GigameterPerYear Field
 
-gigameter per year, defined as: megameter per day × (1000.0)/(365.2525)
+gigameter per year defined such that: megameter per day = Gm/yr × (1000.0)/(365.2525).
 
 ```csharp
 public static readonly Velocity GigameterPerYear;

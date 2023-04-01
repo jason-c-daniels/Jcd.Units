@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Nanokatal Field
 
-nanokatal, defined as: microkatal × 1.0/1000.0
+nanokatal defined such that: microkatal = nkat × 1.0/1000.0.
 
 ```csharp
 public static readonly CatalyticActivity Nanokatal;

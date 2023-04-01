@@ -3,7 +3,7 @@
 
 ## Durations.QuadrillionYears Field
 
-quadrillion years, defined as: trillion years × 1000.0
+quadrillion years defined such that: trillion years = Pyr × 1000.0.
 
 ```csharp
 public static readonly Duration QuadrillionYears;

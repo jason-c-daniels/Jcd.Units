@@ -3,7 +3,7 @@
 
 ## Velocities.LeaguePerQuadrillionYears Field
 
-league per quadrillion years, defined as: mile per trillion years × (3.0)/(1000.0)
+league per quadrillion years defined such that: mile per trillion years = lea/Pyr × (3.0)/(1000.0).
 
 ```csharp
 public static readonly Velocity LeaguePerQuadrillionYears;

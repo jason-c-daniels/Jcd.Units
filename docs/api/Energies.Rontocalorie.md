@@ -3,7 +3,7 @@
 
 ## Energies.Rontocalorie Field
 
-rontocalorie, defined as: yoctocalorie × 1.0/1000.0
+rontocalorie defined such that: yoctocalorie = rc × 1.0/1000.0.
 
 ```csharp
 public static readonly Energy Rontocalorie;

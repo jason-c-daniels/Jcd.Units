@@ -3,7 +3,7 @@
 
 ## StorageUnits.Zettabit Field
 
-zettabit, defined as: exabit × 1000.0
+zettabit defined such that: exabit = Zb × 1000.0.
 
 ```csharp
 public static readonly Storage Zettabit;

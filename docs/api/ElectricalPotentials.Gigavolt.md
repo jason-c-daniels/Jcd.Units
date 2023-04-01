@@ -3,7 +3,7 @@
 
 ## ElectricalPotentials.Gigavolt Field
 
-gigavolt, defined as: megavolt × 1000.0
+gigavolt defined such that: megavolt = GV × 1000.0.
 
 ```csharp
 public static readonly ElectricalPotential Gigavolt;

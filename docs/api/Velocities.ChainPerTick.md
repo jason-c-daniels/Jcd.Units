@@ -3,7 +3,7 @@
 
 ## Velocities.ChainPerTick Field
 
-chain per tick, defined as: yard per nanosecond × (22.0)/(100.0)
+chain per tick defined such that: yard per nanosecond = ch/tick × (22.0)/(100.0).
 
 ```csharp
 public static readonly Velocity ChainPerTick;

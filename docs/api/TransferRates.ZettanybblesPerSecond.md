@@ -3,7 +3,7 @@
 
 ## TransferRates.ZettanybblesPerSecond Field
 
-zettanybbles per second, defined as: exanybbles per second × 1000.0
+zettanybbles per second defined such that: exanybbles per second = Zn/s × 1000.0.
 
 ```csharp
 public static readonly TransferRate ZettanybblesPerSecond;

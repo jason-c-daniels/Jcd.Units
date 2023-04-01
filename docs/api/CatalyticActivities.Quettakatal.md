@@ -3,7 +3,7 @@
 
 ## CatalyticActivities.Quettakatal Field
 
-quettakatal, defined as: ronnakatal × 1000.0
+quettakatal defined such that: ronnakatal = Qkat × 1000.0.
 
 ```csharp
 public static readonly CatalyticActivity Quettakatal;

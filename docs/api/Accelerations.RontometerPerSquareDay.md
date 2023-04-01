@@ -3,7 +3,7 @@
 
 ## Accelerations.RontometerPerSquareDay Field
 
-rontometer per square day, defined as: yoctometer per square hour × (1.0/1000.0)/((24.0)*(24.0))
+rontometer per square day defined such that: yoctometer per square hour = rm/dy² × (1.0/1000.0)/((24.0)*(24.0)).
 
 ```csharp
 public static readonly Acceleration RontometerPerSquareDay;

@@ -3,7 +3,7 @@
 
 ## Frequencies.Terahertz Field
 
-terahertz, defined as: gigahertz × 1000.0
+terahertz defined such that: gigahertz = THz × 1000.0.
 
 ```csharp
 public static readonly Frequency Terahertz;

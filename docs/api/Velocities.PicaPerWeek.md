@@ -3,7 +3,7 @@
 
 ## Velocities.PicaPerWeek Field
 
-pica per week, defined as: point per day × (12.0)/(7.0)
+pica per week defined such that: point per day = P/wk × (12.0)/(7.0).
 
 ```csharp
 public static readonly Velocity PicaPerWeek;
