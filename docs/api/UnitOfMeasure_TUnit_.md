@@ -65,6 +65,8 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IU
 | Properties | |
 | :--- | :--- |
 | [BaseUnit](UnitOfMeasure_TUnit_.BaseUnit.md 'Jcd.Units.UnitOfMeasure<TUnit>.BaseUnit') | The unit of measure this one was defined in terms of. |
+| [BaseUnitCoefficient](UnitOfMeasure_TUnit_.BaseUnitCoefficient.md 'Jcd.Units.UnitOfMeasure<TUnit>.BaseUnitCoefficient') | The Coefficient used when initializing the unit of measure with a base unit of measure. |
+| [BaseUnitOffset](UnitOfMeasure_TUnit_.BaseUnitOffset.md 'Jcd.Units.UnitOfMeasure<TUnit>.BaseUnitOffset') | The Offset used when initializing the unit of measure with a base unit of measure. |
 | [Coefficient](UnitOfMeasure_TUnit_.Coefficient.md 'Jcd.Units.UnitOfMeasure<TUnit>.Coefficient') | The unit's coefficient relative to the ultimate base unit's representation. |
 | [Comparer](UnitOfMeasure_TUnit_.Comparer.md 'Jcd.Units.UnitOfMeasure<TUnit>.Comparer') | The [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons: where `T` is a [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double'). |
 | [DefaultDoubleComparer](UnitOfMeasure_TUnit_.DefaultDoubleComparer.md 'Jcd.Units.UnitOfMeasure<TUnit>.DefaultDoubleComparer') | Sets the [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used by units of measure for this particular unit of<br/>measure type. (e.g. lengths.) |

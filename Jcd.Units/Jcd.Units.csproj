@@ -28,7 +28,7 @@
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <Title>Jcd.Units</Title>
       <Authors>Jason C. Daniels</Authors>
-      <Description>Provides unit of measure and quantity classes.</Description>
+      <Description>Provides types and extensions methods for unit of measure based, quantity comparisons, conversions, and arithmetic, as well as an extensive unit of measure catalog.</Description>
       <Copyright>2023</Copyright>
       <PackageProjectUrl>https://github.com/jason-c-daniels/Jcd.Units</PackageProjectUrl>
       <PackageLicense>MIT</PackageLicense>

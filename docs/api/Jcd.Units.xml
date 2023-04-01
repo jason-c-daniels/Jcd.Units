@@ -1038,6 +1038,16 @@
             The unit of measure this one was defined in terms of.
             </summary>
         </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.BaseUnitCoefficient">
+            <summary>
+            The Coefficient used when initializing the unit of measure with a base unit of measure.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.UnitOfMeasure`1.BaseUnitOffset">
+            <summary>
+            The Offset used when initializing the unit of measure with a base unit of measure.
+            </summary>
+        </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.IsFundamentalUnit">
             <summary>
             Indicates if this unit of measure is the fundamental unit. (i.e. Coefficient 1, Offset 0)
