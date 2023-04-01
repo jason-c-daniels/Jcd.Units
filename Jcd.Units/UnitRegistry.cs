@@ -109,7 +109,7 @@ public class UnitRegistry<TUnit>
       _inAutoregister = false;
       _bagLock.Release();
    }
-   
+
    /// <summary>
    /// Searches all loaded assemblies and registers matching unit types from fields and/or properties.
    /// </summary>
@@ -117,10 +117,7 @@ public class UnitRegistry<TUnit>
    {
       var assemblies = AppDomain.CurrentDomain.GetAssemblies();
 
-      foreach (var assembly in assemblies)
-      {
-         AutoregisterFrom(assembly);
-      }
+      foreach (var assembly in assemblies) AutoregisterFrom(assembly);
    }
 
    /// <summary>
@@ -186,7 +183,7 @@ public class UnitRegistry
    {
       UnitRegistry<TUnit>.Default.AutoregisterFrom(assembly);
    }
-   
+
    /// <summary>
    /// Gets a name based <see cref="ILookup{TKey,TElement}"/> for the requested unit type.
    /// </summary>
@@ -212,19 +209,16 @@ public class UnitRegistry
    {
       var assemblies = AppDomain.CurrentDomain.GetAssemblies();
 
-      foreach (var assembly in assemblies)
-      {
-         AutoregisterAllUnitsFrom(assembly);
-      }
+      foreach (var assembly in assemblies) AutoregisterAllUnitsFrom(assembly);
    }
-   
+
    /// <summary>
    /// Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
    /// </summary>
    public void AutoregisterAllUnitsFrom(Assembly assembly)
    {
       var types = assembly
-                           .FindImplementationsOf(typeof(UnitOfMeasure<>));
+              .FindImplementationsOf(typeof(UnitOfMeasure<>));
 
       foreach (var type in types)
       {

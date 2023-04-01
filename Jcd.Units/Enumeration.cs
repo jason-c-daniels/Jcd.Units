@@ -50,12 +50,11 @@ public abstract class Enumeration<TEnumeration, T>
                ;
    }
 
+   // ReSharper disable once HeapView.BoxingAllocation
    /// <summary>
    /// Retrieves all public static properties of type <typeparamref name="T" />
    /// on the derived enumeration <typeparamref name="TEnumeration" />
    /// </summary>
    /// <returns>An <see cref="IEnumerable{T}" /> for all detected members.</returns>
-
-   // ReSharper disable once HeapView.BoxingAllocation
    public static IEnumerable<T> GetAll() => All;
 }
