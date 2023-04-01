@@ -20,25 +20,55 @@ public class Masses : UnitOfMeasureEnumeration<Masses, Mass>
    /// <summary>
    /// earth mass, defined as: SI kilogram × 5.9722E+24
    /// </summary>
-   public static readonly Mass EarthMass = new ("earth mass", "M(⊕)", SI.Masses.Kilogram, 5.9722E+24);
+   public static readonly Mass EarthMass = new (
+                                                "earth mass"
+                                              , "M(⊕)"
+                                              , SI.Masses.Kilogram
+                                              , 5.9722E+24
+                                              , system: "Astronomical"
+                                               );
 
    /// <summary>
    /// jovian mass, defined as: SI kilogram × 1.89813E+27
    /// </summary>
-   public static readonly Mass JovianMass = new ("jovian mass", "M(J)", SI.Masses.Kilogram, 1.89813E+27);
+   public static readonly Mass JovianMass = new (
+                                                 "jovian mass"
+                                               , "M(J)"
+                                               , SI.Masses.Kilogram
+                                               , 1.89813E+27
+                                               , system: "Astronomical"
+                                                );
 
    /// <summary>
    /// lunar mass, defined as: SI kilogram × 7.35E+22
    /// </summary>
-   public static readonly Mass LunarMass = new ("lunar mass", "M(L)", SI.Masses.Kilogram, 7.35E+22);
+   public static readonly Mass LunarMass = new (
+                                                "lunar mass"
+                                              , "M(L)"
+                                              , SI.Masses.Kilogram
+                                              , 7.35E+22
+                                              , system: "Astronomical"
+                                               );
 
    /// <summary>
    /// mars mass, defined as: SI kilogram × 6.39E+23
    /// </summary>
-   public static readonly Mass MarsMass = new ("mars mass", "M(♂)", SI.Masses.Kilogram, 6.39E+23);
+   public static readonly Mass MarsMass = new (
+                                               "mars mass"
+                                             , "M(♂)"
+                                             , SI.Masses.Kilogram
+                                             , 6.39E+23
+                                             , system: "Astronomical"
+                                              );
 
    /// <summary>
    /// solar mass, defined as: SI kilogram × 1.989E+30
    /// </summary>
-   public static readonly Mass SolarMass = new ("solar mass", "M(☉)", SI.Masses.Kilogram, 1.989E+30);
+   public static readonly Mass SolarMass = new (
+                                                "solar mass"
+                                              , "M(☉)"
+                                              , SI.Masses.Kilogram
+                                              , 1.989E+30
+                                              , system: "Astronomical"
+                                               );
 }

@@ -25,6 +25,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "lea/century"
                                                          , SI.Velocities.MeterPerDecade
                                                          , 4828.032 / 10.0
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -35,6 +36,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 , "ch/Zyr"
                                                                 , SI.Velocities.MeterPerQuintillionYears
                                                                 , 20.1168 / 1000.0
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -45,6 +47,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "ch/yr"
                                                      , SI.Velocities.MeterPerDay
                                                      , 20.1168 / 365.2525
+                                                     , system: "US Survey"
                                                       );
 
    /// <summary>
@@ -55,6 +58,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "rd/Gyr"
                                                            , SI.Velocities.MeterPerMillionYears
                                                            , 5.0292 / 1000.0
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -65,6 +69,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "rd/Tyr"
                                                             , SI.Velocities.MeterPerBillionYears
                                                             , 5.0292 / 1000.0
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -75,6 +80,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "lea/Pyr"
                                                                   , SI.Velocities.MeterPerTrillionYears
                                                                   , 4828.032 / 1000.0
+                                                                  , system: "US Survey"
                                                                    );
 
    /// <summary>
@@ -85,6 +91,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , "fur/Ryr"
                                                                  , SI.Velocities.MeterPerSeptillionYears
                                                                  , 201.168 / 1000.0
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -95,6 +102,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "fur/Gyr"
                                                                , SI.Velocities.MeterPerMillionYears
                                                                , 201.168 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -105,6 +113,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 , "ch/Yyr"
                                                                 , SI.Velocities.MeterPerSextillionYears
                                                                 , 20.1168 / 1000.0
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -115,6 +124,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        , "fur/wk"
                                                        , SI.Velocities.MeterPerDay
                                                        , 201.168 / 7.0
+                                                       , system: "US Survey"
                                                         );
 
    /// <summary>
@@ -125,6 +135,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "lea/dy"
                                                      , SI.Velocities.MeterPerHour
                                                      , 4828.032 / 24.0
+                                                     , system: "US Survey"
                                                       );
 
    /// <summary>
@@ -135,6 +146,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        , "ch/decade"
                                                        , SI.Velocities.MeterPerYear
                                                        , 20.1168 / 10.0
+                                                       , system: "US Survey"
                                                         );
 
    /// <summary>
@@ -145,6 +157,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "rd/Pyr"
                                                                , SI.Velocities.MeterPerTrillionYears
                                                                , 5.0292 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -155,6 +168,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 , "lea/Qyr"
                                                                 , SI.Velocities.MeterPerOctillionYears
                                                                 , 4828.032 / 1000.0
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -165,6 +179,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "rd/Eyr"
                                                                , SI.Velocities.MeterPerQuadrillionYears
                                                                , 5.0292 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -175,6 +190,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "lea/kyr"
                                                             , SI.Velocities.MeterPerCentury
                                                             , 4828.032 / 10.0
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -185,6 +201,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "ch/Ryr"
                                                                , SI.Velocities.MeterPerSeptillionYears
                                                                , 20.1168 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -195,6 +212,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         , "ch/century"
                                                         , SI.Velocities.MeterPerDecade
                                                         , 20.1168 / 10.0
+                                                        , system: "US Survey"
                                                          );
 
    /// <summary>
@@ -205,6 +223,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "rd/Zyr"
                                                               , SI.Velocities.MeterPerQuintillionYears
                                                               , 5.0292 / 1000.0
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -215,6 +234,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , "fur/Qyr"
                                                                  , SI.Velocities.MeterPerOctillionYears
                                                                  , 201.168 / 1000.0
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -225,6 +245,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 , "fur/Tyr"
                                                                 , SI.Velocities.MeterPerBillionYears
                                                                 , 201.168 / 1000.0
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -235,6 +256,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        , "fur/yr"
                                                        , SI.Velocities.MeterPerDay
                                                        , 201.168 / 365.2525
+                                                       , system: "US Survey"
                                                         );
 
    /// <summary>
@@ -245,6 +267,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "rd/Yyr"
                                                               , SI.Velocities.MeterPerSextillionYears
                                                               , 5.0292 / 1000.0
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -255,6 +278,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "lea/Eyr"
                                                                   , SI.Velocities.MeterPerQuadrillionYears
                                                                   , 4828.032 / 1000.0
+                                                                  , system: "US Survey"
                                                                    );
 
    /// <summary>
@@ -265,6 +289,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "ch/Qyr"
                                                                , SI.Velocities.MeterPerOctillionYears
                                                                , 20.1168 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -275,6 +300,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "lea/wk"
                                                       , SI.Velocities.MeterPerDay
                                                       , 4828.032 / 7.0
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -285,6 +311,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "ch/kyr"
                                                            , SI.Velocities.MeterPerCentury
                                                            , 20.1168 / 10.0
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -295,6 +322,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "rd/Ryr"
                                                              , SI.Velocities.MeterPerSeptillionYears
                                                              , 5.0292 / 1000.0
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -305,6 +333,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 , "lea/decillion yr"
                                                                 , SI.Velocities.MeterPerNonillionYears
                                                                 , 4828.032 / 1000.0
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -315,6 +344,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "rd/Qyr"
                                                              , SI.Velocities.MeterPerOctillionYears
                                                              , 5.0292 / 1000.0
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -325,6 +355,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , "fur/decillion yr"
                                                                  , SI.Velocities.MeterPerNonillionYears
                                                                  , 201.168 / 1000.0
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -335,6 +366,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "lea/Myr"
                                                               , SI.Velocities.MeterPerMillennium
                                                               , 4828.032 / 1000.0
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -345,6 +377,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "fur/Pyr"
                                                                    , SI.Velocities.MeterPerTrillionYears
                                                                    , 201.168 / 1000.0
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -355,6 +388,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "ch/decillion yr"
                                                                , SI.Velocities.MeterPerNonillionYears
                                                                , 20.1168 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -365,6 +399,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "fur/decade"
                                                          , SI.Velocities.MeterPerYear
                                                          , 201.168 / 10.0
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -375,6 +410,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "ch/Myr"
                                                              , SI.Velocities.MeterPerMillennium
                                                              , 20.1168 / 1000.0
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -385,6 +421,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "rd/decillion yr"
                                                              , SI.Velocities.MeterPerNonillionYears
                                                              , 5.0292 / 1000.0
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -395,6 +432,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "li/s"
                                                       , SI.Velocities.MeterPerSecond
                                                       , 0.20116 / 1.0
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -405,6 +443,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "li/tₚ"
                                                           , SI.Velocities.MeterPerMicrosecond
                                                           , 0.20116 / 5.391247E-38
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -415,6 +454,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "li/ds"
                                                           , SI.Velocities.MeterPerSecond
                                                           , 0.20116 / (1.0 / 10.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -425,6 +465,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "li/cs"
                                                            , SI.Velocities.MeterPerDecisecond
                                                            , 0.20116 / (1.0 / 10.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -435,6 +476,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "li/ms"
                                                            , SI.Velocities.MeterPerCentisecond
                                                            , 0.20116 / (1.0 / 10.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -445,6 +487,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "li/μs"
                                                            , SI.Velocities.MeterPerMillisecond
                                                            , 0.20116 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -455,6 +498,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "li/ns"
                                                           , SI.Velocities.MeterPerMicrosecond
                                                           , 0.20116 / (1.0 / 1000.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -465,6 +509,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "li/ps"
                                                           , SI.Velocities.MeterPerNanosecond
                                                           , 0.20116 / (1.0 / 1000.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -475,6 +520,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "li/fs"
                                                            , SI.Velocities.MeterPerPicosecond
                                                            , 0.20116 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -485,6 +531,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "li/as"
                                                           , SI.Velocities.MeterPerFemtosecond
                                                           , 0.20116 / (1.0 / 1000.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -495,6 +542,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "li/zs"
                                                            , SI.Velocities.MeterPerAttosecond
                                                            , 0.20116 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -505,6 +553,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "li/ys"
                                                            , SI.Velocities.MeterPerZeptosecond
                                                            , 0.20116 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -515,6 +564,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "li/rs"
                                                            , SI.Velocities.MeterPerYoctosecond
                                                            , 0.20116 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -525,6 +575,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "li/qs"
                                                             , SI.Velocities.MeterPerRontosecond
                                                             , 0.20116 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -535,6 +586,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "li/min"
                                                       , SI.Velocities.MeterPerSecond
                                                       , 0.20116 / 60.0
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -545,6 +597,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "rd/s"
                                                      , SI.Velocities.MeterPerSecond
                                                      , 5.0292 / 1.0
+                                                     , system: "US Survey"
                                                       );
 
    /// <summary>
@@ -555,6 +608,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "rd/tₚ"
                                                          , SI.Velocities.MeterPerMicrosecond
                                                          , 5.0292 / 5.391247E-38
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -565,6 +619,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "rd/ds"
                                                          , SI.Velocities.MeterPerSecond
                                                          , 5.0292 / (1.0 / 10.0)
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -575,6 +630,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "rd/cs"
                                                           , SI.Velocities.MeterPerDecisecond
                                                           , 5.0292 / (1.0 / 10.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -585,6 +641,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "rd/ms"
                                                           , SI.Velocities.MeterPerCentisecond
                                                           , 5.0292 / (1.0 / 10.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -595,6 +652,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "rd/μs"
                                                           , SI.Velocities.MeterPerMillisecond
                                                           , 5.0292 / (1.0 / 1000.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -605,6 +663,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "rd/ns"
                                                          , SI.Velocities.MeterPerMicrosecond
                                                          , 5.0292 / (1.0 / 1000.0)
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -615,6 +674,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "rd/ps"
                                                          , SI.Velocities.MeterPerNanosecond
                                                          , 5.0292 / (1.0 / 1000.0)
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -625,6 +685,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "rd/fs"
                                                           , SI.Velocities.MeterPerPicosecond
                                                           , 5.0292 / (1.0 / 1000.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -635,6 +696,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "rd/as"
                                                          , SI.Velocities.MeterPerFemtosecond
                                                          , 5.0292 / (1.0 / 1000.0)
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -645,6 +707,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "rd/zs"
                                                           , SI.Velocities.MeterPerAttosecond
                                                           , 5.0292 / (1.0 / 1000.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -655,6 +718,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "rd/ys"
                                                           , SI.Velocities.MeterPerZeptosecond
                                                           , 5.0292 / (1.0 / 1000.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -665,6 +729,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "rd/rs"
                                                           , SI.Velocities.MeterPerYoctosecond
                                                           , 5.0292 / (1.0 / 1000.0)
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -675,6 +740,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "rd/qs"
                                                            , SI.Velocities.MeterPerRontosecond
                                                            , 5.0292 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -685,6 +751,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     , "li/hr"
                                                     , SI.Velocities.MeterPerMinute
                                                     , 0.20116 / 60.0
+                                                    , system: "US Survey"
                                                      );
 
    /// <summary>
@@ -695,6 +762,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        , "ch/s"
                                                        , SI.Velocities.MeterPerSecond
                                                        , 20.1168 / 1.0
+                                                       , system: "US Survey"
                                                         );
 
    /// <summary>
@@ -705,6 +773,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "ch/tₚ"
                                                            , SI.Velocities.MeterPerMicrosecond
                                                            , 20.1168 / 5.391247E-38
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -715,6 +784,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "ch/ds"
                                                            , SI.Velocities.MeterPerSecond
                                                            , 20.1168 / (1.0 / 10.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -725,6 +795,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ch/cs"
                                                             , SI.Velocities.MeterPerDecisecond
                                                             , 20.1168 / (1.0 / 10.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -735,6 +806,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ch/ms"
                                                             , SI.Velocities.MeterPerCentisecond
                                                             , 20.1168 / (1.0 / 10.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -745,6 +817,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ch/μs"
                                                             , SI.Velocities.MeterPerMillisecond
                                                             , 20.1168 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -755,6 +828,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "ch/ns"
                                                            , SI.Velocities.MeterPerMicrosecond
                                                            , 20.1168 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -765,6 +839,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "ch/ps"
                                                            , SI.Velocities.MeterPerNanosecond
                                                            , 20.1168 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -775,6 +850,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ch/fs"
                                                             , SI.Velocities.MeterPerPicosecond
                                                             , 20.1168 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -785,6 +861,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "ch/as"
                                                            , SI.Velocities.MeterPerFemtosecond
                                                            , 20.1168 / (1.0 / 1000.0)
+                                                           , system: "US Survey"
                                                             );
 
    /// <summary>
@@ -795,6 +872,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ch/zs"
                                                             , SI.Velocities.MeterPerAttosecond
                                                             , 20.1168 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -805,6 +883,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ch/ys"
                                                             , SI.Velocities.MeterPerZeptosecond
                                                             , 20.1168 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -815,6 +894,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ch/rs"
                                                             , SI.Velocities.MeterPerYoctosecond
                                                             , 20.1168 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -825,6 +905,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "ch/qs"
                                                              , SI.Velocities.MeterPerRontosecond
                                                              , 20.1168 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -835,6 +916,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                    , "li/dy"
                                                    , SI.Velocities.MeterPerHour
                                                    , 0.20116 / 24.0
+                                                   , system: "US Survey"
                                                     );
 
    /// <summary>
@@ -845,6 +927,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "fur/s"
                                                          , SI.Velocities.MeterPerSecond
                                                          , 201.168 / 1.0
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -855,6 +938,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "fur/tₚ"
                                                              , SI.Velocities.MeterPerMicrosecond
                                                              , 201.168 / 5.391247E-38
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -865,6 +949,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "fur/ds"
                                                              , SI.Velocities.MeterPerSecond
                                                              , 201.168 / (1.0 / 10.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -875,6 +960,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "fur/cs"
                                                               , SI.Velocities.MeterPerDecisecond
                                                               , 201.168 / (1.0 / 10.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -885,6 +971,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "fur/ms"
                                                               , SI.Velocities.MeterPerCentisecond
                                                               , 201.168 / (1.0 / 10.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -895,6 +982,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "fur/μs"
                                                               , SI.Velocities.MeterPerMillisecond
                                                               , 201.168 / (1.0 / 1000.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -905,6 +993,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "fur/ns"
                                                              , SI.Velocities.MeterPerMicrosecond
                                                              , 201.168 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -915,6 +1004,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "fur/ps"
                                                              , SI.Velocities.MeterPerNanosecond
                                                              , 201.168 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -925,6 +1015,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "fur/fs"
                                                               , SI.Velocities.MeterPerPicosecond
                                                               , 201.168 / (1.0 / 1000.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -935,6 +1026,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "fur/as"
                                                              , SI.Velocities.MeterPerFemtosecond
                                                              , 201.168 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -945,6 +1037,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "fur/zs"
                                                               , SI.Velocities.MeterPerAttosecond
                                                               , 201.168 / (1.0 / 1000.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -955,6 +1048,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "fur/ys"
                                                               , SI.Velocities.MeterPerZeptosecond
                                                               , 201.168 / (1.0 / 1000.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -965,6 +1059,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "fur/rs"
                                                               , SI.Velocities.MeterPerYoctosecond
                                                               , 201.168 / (1.0 / 1000.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -975,6 +1070,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "fur/qs"
                                                                , SI.Velocities.MeterPerRontosecond
                                                                , 201.168 / (1.0 / 1000.0)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -985,6 +1081,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     , "li/wk"
                                                     , SI.Velocities.MeterPerDay
                                                     , 0.20116 / 7.0
+                                                    , system: "US Survey"
                                                      );
 
    /// <summary>
@@ -995,6 +1092,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         , "lea/s"
                                                         , SI.Velocities.MeterPerSecond
                                                         , 4828.032 / 1.0
+                                                        , system: "US Survey"
                                                          );
 
    /// <summary>
@@ -1005,6 +1103,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "lea/tₚ"
                                                             , SI.Velocities.MeterPerMicrosecond
                                                             , 4828.032 / 5.391247E-38
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -1015,6 +1114,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "lea/ds"
                                                             , SI.Velocities.MeterPerSecond
                                                             , 4828.032 / (1.0 / 10.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -1025,6 +1125,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "lea/cs"
                                                              , SI.Velocities.MeterPerDecisecond
                                                              , 4828.032 / (1.0 / 10.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1035,6 +1136,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "lea/ms"
                                                              , SI.Velocities.MeterPerCentisecond
                                                              , 4828.032 / (1.0 / 10.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1045,6 +1147,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "lea/μs"
                                                              , SI.Velocities.MeterPerMillisecond
                                                              , 4828.032 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1055,6 +1158,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "lea/ns"
                                                             , SI.Velocities.MeterPerMicrosecond
                                                             , 4828.032 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -1065,6 +1169,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "lea/ps"
                                                             , SI.Velocities.MeterPerNanosecond
                                                             , 4828.032 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -1075,6 +1180,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "lea/fs"
                                                              , SI.Velocities.MeterPerPicosecond
                                                              , 4828.032 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1085,6 +1191,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "lea/as"
                                                             , SI.Velocities.MeterPerFemtosecond
                                                             , 4828.032 / (1.0 / 1000.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -1095,6 +1202,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "lea/zs"
                                                              , SI.Velocities.MeterPerAttosecond
                                                              , 4828.032 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1105,6 +1213,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "lea/ys"
                                                              , SI.Velocities.MeterPerZeptosecond
                                                              , 4828.032 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1115,6 +1224,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "lea/rs"
                                                              , SI.Velocities.MeterPerYoctosecond
                                                              , 4828.032 / (1.0 / 1000.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1125,6 +1235,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "lea/qs"
                                                               , SI.Velocities.MeterPerRontosecond
                                                               , 4828.032 / (1.0 / 1000.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1135,6 +1246,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     , "li/yr"
                                                     , SI.Velocities.MeterPerDay
                                                     , 0.20116 / 365.2525
+                                                    , system: "US Survey"
                                                      );
 
    /// <summary>
@@ -1145,6 +1257,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "li/decade"
                                                       , SI.Velocities.MeterPerYear
                                                       , 0.20116 / 10.0
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -1155,6 +1268,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        , "li/century"
                                                        , SI.Velocities.MeterPerDecade
                                                        , 0.20116 / 10.0
+                                                       , system: "US Survey"
                                                         );
 
    /// <summary>
@@ -1165,6 +1279,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "li/kyr"
                                                           , SI.Velocities.MeterPerCentury
                                                           , 0.20116 / 10.0
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
@@ -1175,6 +1290,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "li/Myr"
                                                             , SI.Velocities.MeterPerMillennium
                                                             , 0.20116 / 1000.0
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -1185,6 +1301,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "li/Gyr"
                                                             , SI.Velocities.MeterPerMillionYears
                                                             , 0.20116 / 1000.0
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -1195,6 +1312,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "li/Tyr"
                                                              , SI.Velocities.MeterPerBillionYears
                                                              , 0.20116 / 1000.0
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1205,6 +1323,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 , "li/Pyr"
                                                                 , SI.Velocities.MeterPerTrillionYears
                                                                 , 0.20116 / 1000.0
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1215,6 +1334,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 , "li/Eyr"
                                                                 , SI.Velocities.MeterPerQuadrillionYears
                                                                 , 0.20116 / 1000.0
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1225,6 +1345,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "li/Zyr"
                                                                , SI.Velocities.MeterPerQuintillionYears
                                                                , 0.20116 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1235,6 +1356,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "li/Yyr"
                                                                , SI.Velocities.MeterPerSextillionYears
                                                                , 0.20116 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1245,6 +1367,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "li/Ryr"
                                                               , SI.Velocities.MeterPerSeptillionYears
                                                               , 0.20116 / 1000.0
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1255,6 +1378,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "li/Qyr"
                                                               , SI.Velocities.MeterPerOctillionYears
                                                               , 0.20116 / 1000.0
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1265,6 +1389,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "li/decillion yr"
                                                               , SI.Velocities.MeterPerNonillionYears
                                                               , 0.20116 / 1000.0
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1275,6 +1400,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     , "li/tick"
                                                     , SI.Velocities.MeterPerNanosecond
                                                     , 0.20116 / 100.0
+                                                    , system: "US Survey"
                                                      );
 
    /// <summary>
@@ -1285,6 +1411,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , "lea/Zyr"
                                                                  , SI.Velocities.MeterPerQuintillionYears
                                                                  , 4828.032 / 1000.0
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -1295,6 +1422,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "rd/min"
                                                      , SI.Velocities.MeterPerSecond
                                                      , 5.0292 / 60.0
+                                                     , system: "US Survey"
                                                       );
 
    /// <summary>
@@ -1305,6 +1433,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "lea/yr"
                                                       , SI.Velocities.MeterPerDay
                                                       , 4828.032 / 365.2525
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -1315,6 +1444,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "ch/Gyr"
                                                              , SI.Velocities.MeterPerMillionYears
                                                              , 20.1168 / 1000.0
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1325,6 +1455,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                    , "rd/tick"
                                                    , SI.Velocities.MeterPerNanosecond
                                                    , 5.0292 / 100.0
+                                                   , system: "US Survey"
                                                     );
 
    /// <summary>
@@ -1335,6 +1466,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                    , "rd/hr"
                                                    , SI.Velocities.MeterPerMinute
                                                    , 5.0292 / 60.0
+                                                   , system: "US Survey"
                                                     );
 
    /// <summary>
@@ -1345,6 +1477,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        , "ch/min"
                                                        , SI.Velocities.MeterPerSecond
                                                        , 20.1168 / 60.0
+                                                       , system: "US Survey"
                                                         );
 
    /// <summary>
@@ -1355,6 +1488,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "fur/Eyr"
                                                                    , SI.Velocities.MeterPerQuadrillionYears
                                                                    , 201.168 / 1000.0
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -1365,12 +1499,19 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                           , "fur/century"
                                                           , SI.Velocities.MeterPerDecade
                                                           , 201.168 / 10.0
+                                                          , system: "US Survey"
                                                            );
 
    /// <summary>
    /// rod per day, defined as: SI meter per hour × (5.0292)/(24.0)
    /// </summary>
-   public static readonly Velocity RodPerDay = new ("rod per day", "rd/dy", SI.Velocities.MeterPerHour, 5.0292 / 24.0);
+   public static readonly Velocity RodPerDay = new (
+                                                    "rod per day"
+                                                  , "rd/dy"
+                                                  , SI.Velocities.MeterPerHour
+                                                  , 5.0292 / 24.0
+                                                  , system: "US Survey"
+                                                   );
 
    /// <summary>
    /// furlong per minute, defined as: SI meter per second × (201.168)/(60.0)
@@ -1380,6 +1521,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "fur/min"
                                                          , SI.Velocities.MeterPerSecond
                                                          , 201.168 / 60.0
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -1390,6 +1532,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "lea/Gyr"
                                                               , SI.Velocities.MeterPerMillionYears
                                                               , 4828.032 / 1000.0
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1400,6 +1543,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "ch/tick"
                                                      , SI.Velocities.MeterPerNanosecond
                                                      , 20.1168 / 100.0
+                                                     , system: "US Survey"
                                                       );
 
    /// <summary>
@@ -1410,6 +1554,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "ch/Tyr"
                                                               , SI.Velocities.MeterPerBillionYears
                                                               , 20.1168 / 1000.0
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1420,12 +1565,19 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "ch/hr"
                                                      , SI.Velocities.MeterPerMinute
                                                      , 20.1168 / 60.0
+                                                     , system: "US Survey"
                                                       );
 
    /// <summary>
    /// rod per week, defined as: SI meter per day × (5.0292)/(7.0)
    /// </summary>
-   public static readonly Velocity RodPerWeek = new ("rod per week", "rd/wk", SI.Velocities.MeterPerDay, 5.0292 / 7.0);
+   public static readonly Velocity RodPerWeek = new (
+                                                     "rod per week"
+                                                   , "rd/wk"
+                                                   , SI.Velocities.MeterPerDay
+                                                   , 5.0292 / 7.0
+                                                   , system: "US Survey"
+                                                    );
 
    /// <summary>
    /// league per minute, defined as: SI meter per second × (4828.032)/(60.0)
@@ -1435,6 +1587,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         , "lea/min"
                                                         , SI.Velocities.MeterPerSecond
                                                         , 4828.032 / 60.0
+                                                        , system: "US Survey"
                                                          );
 
    /// <summary>
@@ -1445,6 +1598,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , "lea/Yyr"
                                                                  , SI.Velocities.MeterPerSextillionYears
                                                                  , 4828.032 / 1000.0
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -1455,6 +1609,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        , "fur/tick"
                                                        , SI.Velocities.MeterPerNanosecond
                                                        , 201.168 / 100.0
+                                                       , system: "US Survey"
                                                         );
 
    /// <summary>
@@ -1465,6 +1620,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                    , "rd/yr"
                                                    , SI.Velocities.MeterPerDay
                                                    , 5.0292 / 365.2525
+                                                   , system: "US Survey"
                                                     );
 
    /// <summary>
@@ -1475,6 +1631,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "fur/Zyr"
                                                                   , SI.Velocities.MeterPerQuintillionYears
                                                                   , 201.168 / 1000.0
+                                                                  , system: "US Survey"
                                                                    );
 
    /// <summary>
@@ -1485,6 +1642,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                         , "lea/decade"
                                                         , SI.Velocities.MeterPerYear
                                                         , 4828.032 / 10.0
+                                                        , system: "US Survey"
                                                          );
 
    /// <summary>
@@ -1495,6 +1653,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                              , "fur/kyr"
                                                              , SI.Velocities.MeterPerCentury
                                                              , 201.168 / 10.0
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1505,6 +1664,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , "ch/Pyr"
                                                                  , SI.Velocities.MeterPerTrillionYears
                                                                  , 20.1168 / 1000.0
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -1515,6 +1675,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                     , "ch/dy"
                                                     , SI.Velocities.MeterPerHour
                                                     , 20.1168 / 24.0
+                                                    , system: "US Survey"
                                                      );
 
    /// <summary>
@@ -1525,6 +1686,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                        , "fur/hr"
                                                        , SI.Velocities.MeterPerMinute
                                                        , 201.168 / 60.0
+                                                       , system: "US Survey"
                                                         );
 
    /// <summary>
@@ -1535,6 +1697,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "rd/decade"
                                                      , SI.Velocities.MeterPerYear
                                                      , 5.0292 / 10.0
+                                                     , system: "US Survey"
                                                       );
 
    /// <summary>
@@ -1545,6 +1708,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "lea/tick"
                                                       , SI.Velocities.MeterPerNanosecond
                                                       , 4828.032 / 100.0
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -1555,6 +1719,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "rd/century"
                                                       , SI.Velocities.MeterPerDecade
                                                       , 5.0292 / 10.0
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -1565,6 +1730,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "lea/Tyr"
                                                                , SI.Velocities.MeterPerBillionYears
                                                                , 4828.032 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1575,6 +1741,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                  , "ch/Eyr"
                                                                  , SI.Velocities.MeterPerQuadrillionYears
                                                                  , 20.1168 / 1000.0
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -1585,6 +1752,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "ch/wk"
                                                      , SI.Velocities.MeterPerDay
                                                      , 20.1168 / 7.0
+                                                     , system: "US Survey"
                                                       );
 
    /// <summary>
@@ -1595,6 +1763,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "lea/hr"
                                                       , SI.Velocities.MeterPerMinute
                                                       , 4828.032 / 60.0
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -1605,6 +1774,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                          , "rd/kyr"
                                                          , SI.Velocities.MeterPerCentury
                                                          , 5.0292 / 10.0
+                                                         , system: "US Survey"
                                                           );
 
    /// <summary>
@@ -1615,6 +1785,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "fur/Yyr"
                                                                   , SI.Velocities.MeterPerSextillionYears
                                                                   , 201.168 / 1000.0
+                                                                  , system: "US Survey"
                                                                    );
 
    /// <summary>
@@ -1625,6 +1796,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "fur/Myr"
                                                                , SI.Velocities.MeterPerMillennium
                                                                , 201.168 / 1000.0
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1635,6 +1807,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                 , "lea/Ryr"
                                                                 , SI.Velocities.MeterPerSeptillionYears
                                                                 , 4828.032 / 1000.0
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1645,6 +1818,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                       , "fur/dy"
                                                       , SI.Velocities.MeterPerHour
                                                       , 201.168 / 24.0
+                                                      , system: "US Survey"
                                                        );
 
    /// <summary>
@@ -1655,5 +1829,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "rd/Myr"
                                                            , SI.Velocities.MeterPerMillennium
                                                            , 5.0292 / 1000.0
+                                                           , system: "US Survey"
                                                             );
 }

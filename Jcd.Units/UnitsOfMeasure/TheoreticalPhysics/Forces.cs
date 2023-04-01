@@ -20,5 +20,11 @@ public class Forces : UnitOfMeasureEnumeration<Forces, Force>
    /// <summary>
    /// planck-force, defined as: SI newton × 1.2103E+44
    /// </summary>
-   public static readonly Force PlanckForce = new ("planck-force", "Fₚ", SI.Forces.Newton, 1.2103E+44);
+   public static readonly Force PlanckForce = new (
+                                                   "planck-force"
+                                                 , "Fₚ"
+                                                 , SI.Forces.Newton
+                                                 , 1.2103E+44
+                                                 , system: "Theoretical Physics"
+                                                  );
 }

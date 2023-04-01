@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Area(string, string, Area, double, double, IValueComparer&lt;double&gt;)](Area..ctor.iUSHmdJvFemz/PD/rv6oyw.md 'Jcd.Units.UnitTypes.Area.Area(string, string, Jcd.Units.UnitTypes.Area, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Area](Area.md 'Jcd.Units.UnitTypes.Area') using another [Area](Area.md 'Jcd.Units.UnitTypes.Area') as a reference. |
+| [Area(string, string, Area, double, double, IValueComparer&lt;double&gt;, string)](Area..ctor.+VGDqRWRT1l0scw4zBLHpA.md 'Jcd.Units.UnitTypes.Area.Area(string, string, Jcd.Units.UnitTypes.Area, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Area](Area.md 'Jcd.Units.UnitTypes.Area') using another [Area](Area.md 'Jcd.Units.UnitTypes.Area') as a reference. |

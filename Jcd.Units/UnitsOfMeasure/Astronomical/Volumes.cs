@@ -27,6 +27,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                      , 9_460_730_472_580_800.0
                                                      * 9_460_730_472_580_800.0
                                                      * 9_460_730_472_580_800.0
+                                                     , system: "Astronomical"
                                                       );
 
    /// <summary>
@@ -37,6 +38,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "ls³"
                                                        , SI.Volumes.CubicMeter
                                                        , 299_792_458.0 * 299_792_458.0 * 299_792_458.0
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -47,6 +49,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "lm³"
                                                        , CubicLightSecond
                                                        , 60.0 * 60.0 * 60.0
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -57,22 +60,41 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                             , "AU³"
                                                             , SI.Volumes.CubicKilometer
                                                             , 149597870.691 * 149597870.691 * 149597870.691
+                                                            , system: "Astronomical"
                                                              );
 
    /// <summary>
    /// cubic light-hour, defined as: cubic light-minute × (60.0)*(60.0)*(60.0)
    /// </summary>
-   public static readonly Volume CubicLightHour = new ("cubic light-hour", "lh³", CubicLightMinute, 60.0 * 60.0 * 60.0);
+   public static readonly Volume CubicLightHour = new (
+                                                       "cubic light-hour"
+                                                     , "lh³"
+                                                     , CubicLightMinute
+                                                     , 60.0 * 60.0 * 60.0
+                                                     , system: "Astronomical"
+                                                      );
 
    /// <summary>
    /// cubic light-day, defined as: cubic light-hour × (24.0)*(24.0)*(24.0)
    /// </summary>
-   public static readonly Volume CubicLightDay = new ("cubic light-day", "ld³", CubicLightHour, 24.0 * 24.0 * 24.0);
+   public static readonly Volume CubicLightDay = new (
+                                                      "cubic light-day"
+                                                    , "ld³"
+                                                    , CubicLightHour
+                                                    , 24.0 * 24.0 * 24.0
+                                                    , system: "Astronomical"
+                                                     );
 
    /// <summary>
    /// cubic light-week, defined as: cubic light-day × (7.0)*(7.0)*(7.0)
    /// </summary>
-   public static readonly Volume CubicLightWeek = new ("cubic light-week", "lw³", CubicLightDay, 7.0 * 7.0 * 7.0);
+   public static readonly Volume CubicLightWeek = new (
+                                                       "cubic light-week"
+                                                     , "lw³"
+                                                     , CubicLightDay
+                                                     , 7.0 * 7.0 * 7.0
+                                                     , system: "Astronomical"
+                                                      );
 
    /// <summary>
    /// cubic parsec, defined as: cubic light-year × (3.2615637769757)*(3.2615637769757)*(3.2615637769757)
@@ -82,6 +104,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   , "pc³"
                                                   , CubicLightYear
                                                   , 3.2615637769757 * 3.2615637769757 * 3.2615637769757
+                                                  , system: "Astronomical"
                                                    );
 
    /// <summary>
@@ -92,6 +115,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "R(⊕)³"
                                                        , SI.Volumes.CubicKilometer
                                                        , 6_371.0 * 6_371.0 * 6_371.0
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -102,6 +126,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         , "R(J)³"
                                                         , SI.Volumes.CubicKilometer
                                                         , 69_911.0 * 69_911.0 * 69_911.0
+                                                        , system: "Astronomical"
                                                          );
 
    /// <summary>
@@ -112,6 +137,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "R(L)³"
                                                        , SI.Volumes.CubicKilometer
                                                        , 1_737.4 * 1_737.4 * 1_737.4
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -122,6 +148,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       , "R(♂)³"
                                                       , SI.Volumes.CubicKilometer
                                                       , 3_389.5 * 3_389.5 * 3_389.5
+                                                      , system: "Astronomical"
                                                        );
 
    /// <summary>
@@ -132,6 +159,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "R(☉)³"
                                                        , SI.Volumes.CubicKilometer
                                                        , 695_700.0 * 695_700.0 * 695_700.0
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -142,6 +170,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "D(⊕)³"
                                                          , CubicEarthRadius
                                                          , 2.0 * 2.0 * 2.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -152,6 +181,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "daly³"
                                                          , CubicLightYear
                                                          , 10.0 * 10.0 * 10.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -162,6 +192,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           , "D(J)³"
                                                           , CubicJovianRadius
                                                           , 2.0 * 2.0 * 2.0
+                                                          , system: "Astronomical"
                                                            );
 
    /// <summary>
@@ -172,6 +203,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           , "hly³"
                                                           , CubicDekalightYear
                                                           , 10.0 * 10.0 * 10.0
+                                                          , system: "Astronomical"
                                                            );
 
    /// <summary>
@@ -182,6 +214,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "D(L)³"
                                                          , CubicLunarRadius
                                                          , 2.0 * 2.0 * 2.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -192,6 +225,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "kly³"
                                                          , CubicHectolightYear
                                                          , 10.0 * 10.0 * 10.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -202,6 +236,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         , "D(♂)³"
                                                         , CubicMarsRadius
                                                         , 2.0 * 2.0 * 2.0
+                                                        , system: "Astronomical"
                                                          );
 
    /// <summary>
@@ -212,6 +247,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "Mly³"
                                                          , CubicKilolightYear
                                                          , 1000.0 * 1000.0 * 1000.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -222,6 +258,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "D(☉)³"
                                                          , CubicSolarRadius
                                                          , 2.0 * 2.0 * 2.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -232,6 +269,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "Gly³"
                                                          , CubicMegalightYear
                                                          , 1000.0 * 1000.0 * 1000.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -242,6 +280,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                               , "C(⊕)³"
                                                               , CubicEarthDiameter
                                                               , Math.PI * Math.PI * Math.PI
+                                                              , system: "Astronomical"
                                                                );
 
    /// <summary>
@@ -252,6 +291,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "Tly³"
                                                          , CubicGigalightYear
                                                          , 1000.0 * 1000.0 * 1000.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -262,6 +302,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                                , "C(J)³"
                                                                , CubicJovianDiameter
                                                                , Math.PI * Math.PI * Math.PI
+                                                               , system: "Astronomical"
                                                                 );
 
    /// <summary>
@@ -272,6 +313,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                          , "Ply³"
                                                          , CubicTeralightYear
                                                          , 1000.0 * 1000.0 * 1000.0
+                                                         , system: "Astronomical"
                                                           );
 
    /// <summary>
@@ -282,6 +324,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                               , "C(L)³"
                                                               , CubicLunarDiameter
                                                               , Math.PI * Math.PI * Math.PI
+                                                              , system: "Astronomical"
                                                                );
 
    /// <summary>
@@ -292,6 +335,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         , "Ely³"
                                                         , CubicPetalightYear
                                                         , 1000.0 * 1000.0 * 1000.0
+                                                        , system: "Astronomical"
                                                          );
 
    /// <summary>
@@ -302,6 +346,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                              , "C(♂)³"
                                                              , CubicMarsDiameter
                                                              , Math.PI * Math.PI * Math.PI
+                                                             , system: "Astronomical"
                                                               );
 
    /// <summary>
@@ -312,6 +357,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           , "Zly³"
                                                           , CubicExalightYear
                                                           , 1000.0 * 1000.0 * 1000.0
+                                                          , system: "Astronomical"
                                                            );
 
    /// <summary>
@@ -322,6 +368,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                               , "C(☉)³"
                                                               , CubicSolarDiameter
                                                               , Math.PI * Math.PI * Math.PI
+                                                              , system: "Astronomical"
                                                                );
 
    /// <summary>
@@ -332,6 +379,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           , "Yly³"
                                                           , CubicZettalightYear
                                                           , 1000.0 * 1000.0 * 1000.0
+                                                          , system: "Astronomical"
                                                            );
 
    /// <summary>
@@ -342,6 +390,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                           , "Rly³"
                                                           , CubicYottalightYear
                                                           , 1000.0 * 1000.0 * 1000.0
+                                                          , system: "Astronomical"
                                                            );
 
    /// <summary>
@@ -352,12 +401,19 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                            , "Qly³"
                                                            , CubicRonnalightYear
                                                            , 1000.0 * 1000.0 * 1000.0
+                                                           , system: "Astronomical"
                                                             );
 
    /// <summary>
    /// cubic dekaparsec, defined as: cubic parsec × (10.0)*(10.0)*(10.0)
    /// </summary>
-   public static readonly Volume CubicDekaparsec = new ("cubic dekaparsec", "dapc³", CubicParsec, 10.0 * 10.0 * 10.0);
+   public static readonly Volume CubicDekaparsec = new (
+                                                        "cubic dekaparsec"
+                                                      , "dapc³"
+                                                      , CubicParsec
+                                                      , 10.0 * 10.0 * 10.0
+                                                      , system: "Astronomical"
+                                                       );
 
    /// <summary>
    /// cubic hectoparsec, defined as: cubic dekaparsec × (10.0)*(10.0)*(10.0)
@@ -367,6 +423,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "hpc³"
                                                        , CubicDekaparsec
                                                        , 10.0 * 10.0 * 10.0
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -377,6 +434,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       , "kpc³"
                                                       , CubicHectoparsec
                                                       , 10.0 * 10.0 * 10.0
+                                                      , system: "Astronomical"
                                                        );
 
    /// <summary>
@@ -387,6 +445,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       , "Mpc³"
                                                       , CubicKiloparsec
                                                       , 1000.0 * 1000.0 * 1000.0
+                                                      , system: "Astronomical"
                                                        );
 
    /// <summary>
@@ -397,6 +456,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       , "Gpc³"
                                                       , CubicMegaparsec
                                                       , 1000.0 * 1000.0 * 1000.0
+                                                      , system: "Astronomical"
                                                        );
 
    /// <summary>
@@ -407,6 +467,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       , "Tpc³"
                                                       , CubicGigaparsec
                                                       , 1000.0 * 1000.0 * 1000.0
+                                                      , system: "Astronomical"
                                                        );
 
    /// <summary>
@@ -417,6 +478,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                       , "Ppc³"
                                                       , CubicTeraparsec
                                                       , 1000.0 * 1000.0 * 1000.0
+                                                      , system: "Astronomical"
                                                        );
 
    /// <summary>
@@ -427,6 +489,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                      , "Epc³"
                                                      , CubicPetaparsec
                                                      , 1000.0 * 1000.0 * 1000.0
+                                                     , system: "Astronomical"
                                                       );
 
    /// <summary>
@@ -437,6 +500,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "Zpc³"
                                                        , CubicExaparsec
                                                        , 1000.0 * 1000.0 * 1000.0
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -447,6 +511,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "Ypc³"
                                                        , CubicZettaparsec
                                                        , 1000.0 * 1000.0 * 1000.0
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -457,6 +522,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                        , "Rpc³"
                                                        , CubicYottaparsec
                                                        , 1000.0 * 1000.0 * 1000.0
+                                                       , system: "Astronomical"
                                                         );
 
    /// <summary>
@@ -467,5 +533,6 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                         , "Qpc³"
                                                         , CubicRonnaparsec
                                                         , 1000.0 * 1000.0 * 1000.0
+                                                        , system: "Astronomical"
                                                          );
 }

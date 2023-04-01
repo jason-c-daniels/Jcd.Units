@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Mass(string, string, Mass, double, double, IValueComparer&lt;double&gt;)](Mass..ctor.idTVGTvalhWaJQPWsH/VdQ.md 'Jcd.Units.UnitTypes.Mass.Mass(string, string, Jcd.Units.UnitTypes.Mass, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass') using another [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass') as a reference. |
+| [Mass(string, string, Mass, double, double, IValueComparer&lt;double&gt;, string)](Mass..ctor.9OvK5HwZBOfQYbLOahEGdg.md 'Jcd.Units.UnitTypes.Mass.Mass(string, string, Jcd.Units.UnitTypes.Mass, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass') using another [Mass](Mass.md 'Jcd.Units.UnitTypes.Mass') as a reference. |

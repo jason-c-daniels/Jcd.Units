@@ -26,5 +26,6 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                              , SI.Temperatures.DegreesCelcius
                                                              , 5.0 / 9.0
                                                              , -32.0
+                                                             , system: "US Customary"
                                                               );
 }

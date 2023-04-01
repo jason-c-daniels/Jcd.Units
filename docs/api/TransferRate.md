@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [TransferRate(string, string, TransferRate, double, double, IValueComparer&lt;double&gt;)](TransferRate..ctor.SuG2h4YqnYfZ5KMpkWv/UQ.md 'Jcd.Units.UnitTypes.TransferRate.TransferRate(string, string, Jcd.Units.UnitTypes.TransferRate, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') using another [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') as a reference. |
+| [TransferRate(string, string, TransferRate, double, double, IValueComparer&lt;double&gt;, string)](TransferRate..ctor.PDd8nDpeIRlKzQofXd18hw.md 'Jcd.Units.UnitTypes.TransferRate.TransferRate(string, string, Jcd.Units.UnitTypes.TransferRate, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') using another [TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate') as a reference. |

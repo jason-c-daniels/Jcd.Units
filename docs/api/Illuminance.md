@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Illuminance(string, string, Illuminance, double, double, IValueComparer&lt;double&gt;)](Illuminance..ctor.afa5i1IsfyOVQJp3y2ugHg.md 'Jcd.Units.UnitTypes.Illuminance.Illuminance(string, string, Jcd.Units.UnitTypes.Illuminance, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') using another [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') as a reference. |
+| [Illuminance(string, string, Illuminance, double, double, IValueComparer&lt;double&gt;, string)](Illuminance..ctor.j2Qx+tIJLS7VV3OUYk42PQ.md 'Jcd.Units.UnitTypes.Illuminance.Illuminance(string, string, Jcd.Units.UnitTypes.Illuminance, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') using another [Illuminance](Illuminance.md 'Jcd.Units.UnitTypes.Illuminance') as a reference. |

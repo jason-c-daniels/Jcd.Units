@@ -25,6 +25,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "lea/century²"
                                                                    , SI.Accelerations.MeterPerSquareDecade
                                                                    , 4828.032 / (10.0 * 10.0)
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -36,6 +37,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , SI.Accelerations
                                                                               .MeterPerSquareQuintillionYears
                                                                           , 20.1168 / (1000.0 * 1000.0)
+                                                                          , system: "US Survey"
                                                                            );
 
    /// <summary>
@@ -46,6 +48,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "ch/yr²"
                                                                , SI.Accelerations.MeterPerSquareDay
                                                                , 20.1168 / (365.2525 * 365.2525)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -56,6 +59,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "rd/Gyr²"
                                                                      , SI.Accelerations.MeterPerSquareMillionYears
                                                                      , 5.0292 / (1000.0 * 1000.0)
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -66,6 +70,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "rd/Tyr²"
                                                                       , SI.Accelerations.MeterPerSquareBillionYears
                                                                       , 5.0292 / (1000.0 * 1000.0)
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -77,6 +82,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , SI.Accelerations
                                                                                       .MeterPerSquareTrillionYears
                                                                             , 4828.032 / (1000.0 * 1000.0)
+                                                                            , system: "US Survey"
                                                                              );
 
    /// <summary>
@@ -88,6 +94,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , SI.Accelerations
                                                                                      .MeterPerSquareSeptillionYears
                                                                            , 201.168 / (1000.0 * 1000.0)
+                                                                           , system: "US Survey"
                                                                             );
 
    /// <summary>
@@ -98,6 +105,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "fur/Gyr²"
                                                                          , SI.Accelerations.MeterPerSquareMillionYears
                                                                          , 201.168 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -109,6 +117,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , SI.Accelerations
                                                                               .MeterPerSquareSextillionYears
                                                                           , 20.1168 / (1000.0 * 1000.0)
+                                                                          , system: "US Survey"
                                                                            );
 
    /// <summary>
@@ -119,6 +128,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "fur/wk²"
                                                                  , SI.Accelerations.MeterPerSquareDay
                                                                  , 201.168 / (7.0 * 7.0)
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -129,6 +139,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "lea/dy²"
                                                                , SI.Accelerations.MeterPerSquareHour
                                                                , 4828.032 / (24.0 * 24.0)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -139,6 +150,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "ch/decade²"
                                                                  , SI.Accelerations.MeterPerSquareYear
                                                                  , 20.1168 / (10.0 * 10.0)
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -149,6 +161,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "rd/Pyr²"
                                                                          , SI.Accelerations.MeterPerSquareTrillionYears
                                                                          , 5.0292 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -160,6 +173,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , SI.Accelerations
                                                                               .MeterPerSquareOctillionYears
                                                                           , 4828.032 / (1000.0 * 1000.0)
+                                                                          , system: "US Survey"
                                                                            );
 
    /// <summary>
@@ -171,6 +185,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , SI.Accelerations
                                                                              .MeterPerSquareQuadrillionYears
                                                                          , 5.0292 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -181,6 +196,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "lea/kyr²"
                                                                       , SI.Accelerations.MeterPerSquareCentury
                                                                       , 4828.032 / (10.0 * 10.0)
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -192,6 +208,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , SI.Accelerations
                                                                              .MeterPerSquareSeptillionYears
                                                                          , 20.1168 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -202,6 +219,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "ch/century²"
                                                                   , SI.Accelerations.MeterPerSquareDecade
                                                                   , 20.1168 / (10.0 * 10.0)
+                                                                  , system: "US Survey"
                                                                    );
 
    /// <summary>
@@ -213,6 +231,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , SI.Accelerations
                                                                             .MeterPerSquareQuintillionYears
                                                                         , 5.0292 / (1000.0 * 1000.0)
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -224,6 +243,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , SI.Accelerations
                                                                                      .MeterPerSquareOctillionYears
                                                                            , 201.168 / (1000.0 * 1000.0)
+                                                                           , system: "US Survey"
                                                                             );
 
    /// <summary>
@@ -234,6 +254,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "fur/Tyr²"
                                                                           , SI.Accelerations.MeterPerSquareBillionYears
                                                                           , 201.168 / (1000.0 * 1000.0)
+                                                                          , system: "US Survey"
                                                                            );
 
    /// <summary>
@@ -244,6 +265,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "fur/yr²"
                                                                  , SI.Accelerations.MeterPerSquareDay
                                                                  , 201.168 / (365.2525 * 365.2525)
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -254,6 +276,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "rd/Yyr²"
                                                                         , SI.Accelerations.MeterPerSquareSextillionYears
                                                                         , 5.0292 / (1000.0 * 1000.0)
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -265,6 +288,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , SI.Accelerations
                                                                                       .MeterPerSquareQuadrillionYears
                                                                             , 4828.032 / (1000.0 * 1000.0)
+                                                                            , system: "US Survey"
                                                                              );
 
    /// <summary>
@@ -275,6 +299,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "ch/Qyr²"
                                                                          , SI.Accelerations.MeterPerSquareOctillionYears
                                                                          , 20.1168 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -285,6 +310,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "lea/wk²"
                                                                 , SI.Accelerations.MeterPerSquareDay
                                                                 , 4828.032 / (7.0 * 7.0)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -295,6 +321,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ch/kyr²"
                                                                      , SI.Accelerations.MeterPerSquareCentury
                                                                      , 20.1168 / (10.0 * 10.0)
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -305,6 +332,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "rd/Ryr²"
                                                                        , SI.Accelerations.MeterPerSquareSeptillionYears
                                                                        , 5.0292 / (1000.0 * 1000.0)
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -316,6 +344,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , SI.Accelerations
                                                                               .MeterPerSquareNonillionYears
                                                                           , 4828.032 / (1000.0 * 1000.0)
+                                                                          , system: "US Survey"
                                                                            );
 
    /// <summary>
@@ -326,6 +355,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "rd/Qyr²"
                                                                        , SI.Accelerations.MeterPerSquareOctillionYears
                                                                        , 5.0292 / (1000.0 * 1000.0)
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -337,6 +367,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , SI.Accelerations
                                                                                      .MeterPerSquareNonillionYears
                                                                            , 201.168 / (1000.0 * 1000.0)
+                                                                           , system: "US Survey"
                                                                             );
 
    /// <summary>
@@ -347,6 +378,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "lea/Myr²"
                                                                         , SI.Accelerations.MeterPerSquareMillennium
                                                                         , 4828.032 / (1000.0 * 1000.0)
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -358,6 +390,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations
                                                                                        .MeterPerSquareTrillionYears
                                                                              , 201.168 / (1000.0 * 1000.0)
+                                                                             , system: "US Survey"
                                                                               );
 
    /// <summary>
@@ -368,6 +401,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "ch/decillion yr²"
                                                                          , SI.Accelerations.MeterPerSquareNonillionYears
                                                                          , 20.1168 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -378,6 +412,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "fur/decade²"
                                                                    , SI.Accelerations.MeterPerSquareYear
                                                                    , 201.168 / (10.0 * 10.0)
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -388,6 +423,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ch/Myr²"
                                                                        , SI.Accelerations.MeterPerSquareMillennium
                                                                        , 20.1168 / (1000.0 * 1000.0)
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -398,6 +434,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "rd/decillion yr²"
                                                                        , SI.Accelerations.MeterPerSquareNonillionYears
                                                                        , 5.0292 / (1000.0 * 1000.0)
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -408,6 +445,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "li/s²"
                                                                 , SI.Accelerations.MeterPerSquareSecond
                                                                 , 0.20116 / (1.0 * 1.0)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -418,6 +456,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "li/tₚ²"
                                                                     , SI.Accelerations.MeterPerSquareMicrosecond
                                                                     , 0.20116 / (5.391247E-38 * 5.391247E-38)
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -428,6 +467,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "li/ds²"
                                                                     , SI.Accelerations.MeterPerSquareSecond
                                                                     , 0.20116 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -438,6 +478,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "li/cs²"
                                                                      , SI.Accelerations.MeterPerSquareDecisecond
                                                                      , 0.20116 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -448,6 +489,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "li/ms²"
                                                                      , SI.Accelerations.MeterPerSquareCentisecond
                                                                      , 0.20116 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -458,6 +500,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "li/μs²"
                                                                      , SI.Accelerations.MeterPerSquareMillisecond
                                                                      , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -468,6 +511,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "li/ns²"
                                                                     , SI.Accelerations.MeterPerSquareMicrosecond
                                                                     , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -478,6 +522,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "li/ps²"
                                                                     , SI.Accelerations.MeterPerSquareNanosecond
                                                                     , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -488,6 +533,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "li/fs²"
                                                                      , SI.Accelerations.MeterPerSquarePicosecond
                                                                      , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -498,6 +544,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "li/as²"
                                                                     , SI.Accelerations.MeterPerSquareFemtosecond
                                                                     , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -508,6 +555,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "li/zs²"
                                                                      , SI.Accelerations.MeterPerSquareAttosecond
                                                                      , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -518,6 +566,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "li/ys²"
                                                                      , SI.Accelerations.MeterPerSquareZeptosecond
                                                                      , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -528,6 +577,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "li/rs²"
                                                                      , SI.Accelerations.MeterPerSquareYoctosecond
                                                                      , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -538,6 +588,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "li/qs²"
                                                                       , SI.Accelerations.MeterPerSquareRontosecond
                                                                       , 0.20116 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -548,6 +599,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "li/min²"
                                                                 , SI.Accelerations.MeterPerSquareSecond
                                                                 , 0.20116 / (60.0 * 60.0)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -558,6 +610,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "rd/s²"
                                                                , SI.Accelerations.MeterPerSquareSecond
                                                                , 5.0292 / (1.0 * 1.0)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -568,6 +621,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "rd/tₚ²"
                                                                    , SI.Accelerations.MeterPerSquareMicrosecond
                                                                    , 5.0292 / (5.391247E-38 * 5.391247E-38)
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -578,6 +632,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "rd/ds²"
                                                                    , SI.Accelerations.MeterPerSquareSecond
                                                                    , 5.0292 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -588,6 +643,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rd/cs²"
                                                                     , SI.Accelerations.MeterPerSquareDecisecond
                                                                     , 5.0292 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -598,6 +654,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rd/ms²"
                                                                     , SI.Accelerations.MeterPerSquareCentisecond
                                                                     , 5.0292 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -608,6 +665,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rd/μs²"
                                                                     , SI.Accelerations.MeterPerSquareMillisecond
                                                                     , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -618,6 +676,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "rd/ns²"
                                                                    , SI.Accelerations.MeterPerSquareMicrosecond
                                                                    , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -628,6 +687,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "rd/ps²"
                                                                    , SI.Accelerations.MeterPerSquareNanosecond
                                                                    , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -638,6 +698,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rd/fs²"
                                                                     , SI.Accelerations.MeterPerSquarePicosecond
                                                                     , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -648,6 +709,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "rd/as²"
                                                                    , SI.Accelerations.MeterPerSquareFemtosecond
                                                                    , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -658,6 +720,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rd/zs²"
                                                                     , SI.Accelerations.MeterPerSquareAttosecond
                                                                     , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -668,6 +731,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rd/ys²"
                                                                     , SI.Accelerations.MeterPerSquareZeptosecond
                                                                     , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -678,6 +742,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rd/rs²"
                                                                     , SI.Accelerations.MeterPerSquareYoctosecond
                                                                     , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -688,6 +753,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "rd/qs²"
                                                                      , SI.Accelerations.MeterPerSquareRontosecond
                                                                      , 5.0292 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -698,6 +764,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "li/hr²"
                                                               , SI.Accelerations.MeterPerSquareMinute
                                                               , 0.20116 / (60.0 * 60.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -708,6 +775,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "ch/s²"
                                                                  , SI.Accelerations.MeterPerSquareSecond
                                                                  , 20.1168 / (1.0 * 1.0)
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -718,6 +786,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ch/tₚ²"
                                                                      , SI.Accelerations.MeterPerSquareMicrosecond
                                                                      , 20.1168 / (5.391247E-38 * 5.391247E-38)
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -728,6 +797,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ch/ds²"
                                                                      , SI.Accelerations.MeterPerSquareSecond
                                                                      , 20.1168 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -738,6 +808,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ch/cs²"
                                                                       , SI.Accelerations.MeterPerSquareDecisecond
                                                                       , 20.1168 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -748,6 +819,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ch/ms²"
                                                                       , SI.Accelerations.MeterPerSquareCentisecond
                                                                       , 20.1168 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -758,6 +830,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ch/μs²"
                                                                       , SI.Accelerations.MeterPerSquareMillisecond
                                                                       , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -768,6 +841,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ch/ns²"
                                                                      , SI.Accelerations.MeterPerSquareMicrosecond
                                                                      , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -778,6 +852,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ch/ps²"
                                                                      , SI.Accelerations.MeterPerSquareNanosecond
                                                                      , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -788,6 +863,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ch/fs²"
                                                                       , SI.Accelerations.MeterPerSquarePicosecond
                                                                       , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -798,6 +874,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ch/as²"
                                                                      , SI.Accelerations.MeterPerSquareFemtosecond
                                                                      , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Survey"
                                                                       );
 
    /// <summary>
@@ -808,6 +885,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ch/zs²"
                                                                       , SI.Accelerations.MeterPerSquareAttosecond
                                                                       , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -818,6 +896,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ch/ys²"
                                                                       , SI.Accelerations.MeterPerSquareZeptosecond
                                                                       , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -828,6 +907,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ch/rs²"
                                                                       , SI.Accelerations.MeterPerSquareYoctosecond
                                                                       , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -838,6 +918,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ch/qs²"
                                                                        , SI.Accelerations.MeterPerSquareRontosecond
                                                                        , 20.1168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -848,6 +929,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "li/dy²"
                                                              , SI.Accelerations.MeterPerSquareHour
                                                              , 0.20116 / (24.0 * 24.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -858,6 +940,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "fur/s²"
                                                                    , SI.Accelerations.MeterPerSquareSecond
                                                                    , 201.168 / (1.0 * 1.0)
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -868,6 +951,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "fur/tₚ²"
                                                                        , SI.Accelerations.MeterPerSquareMicrosecond
                                                                        , 201.168 / (5.391247E-38 * 5.391247E-38)
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -878,6 +962,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "fur/ds²"
                                                                        , SI.Accelerations.MeterPerSquareSecond
                                                                        , 201.168 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -888,6 +973,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "fur/cs²"
                                                                         , SI.Accelerations.MeterPerSquareDecisecond
                                                                         , 201.168 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -898,6 +984,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "fur/ms²"
                                                                         , SI.Accelerations.MeterPerSquareCentisecond
                                                                         , 201.168 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -908,6 +995,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "fur/μs²"
                                                                         , SI.Accelerations.MeterPerSquareMillisecond
                                                                         , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -918,6 +1006,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "fur/ns²"
                                                                        , SI.Accelerations.MeterPerSquareMicrosecond
                                                                        , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -928,6 +1017,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "fur/ps²"
                                                                        , SI.Accelerations.MeterPerSquareNanosecond
                                                                        , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -938,6 +1028,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "fur/fs²"
                                                                         , SI.Accelerations.MeterPerSquarePicosecond
                                                                         , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -948,6 +1039,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "fur/as²"
                                                                        , SI.Accelerations.MeterPerSquareFemtosecond
                                                                        , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -958,6 +1050,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "fur/zs²"
                                                                         , SI.Accelerations.MeterPerSquareAttosecond
                                                                         , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -968,6 +1061,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "fur/ys²"
                                                                         , SI.Accelerations.MeterPerSquareZeptosecond
                                                                         , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -978,6 +1072,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "fur/rs²"
                                                                         , SI.Accelerations.MeterPerSquareYoctosecond
                                                                         , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -988,6 +1083,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "fur/qs²"
                                                                          , SI.Accelerations.MeterPerSquareRontosecond
                                                                          , 201.168 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -998,6 +1094,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "li/wk²"
                                                               , SI.Accelerations.MeterPerSquareDay
                                                               , 0.20116 / (7.0 * 7.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1008,6 +1105,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "lea/s²"
                                                                   , SI.Accelerations.MeterPerSquareSecond
                                                                   , 4828.032 / (1.0 * 1.0)
+                                                                  , system: "US Survey"
                                                                    );
 
    /// <summary>
@@ -1018,6 +1116,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "lea/tₚ²"
                                                                       , SI.Accelerations.MeterPerSquareMicrosecond
                                                                       , 4828.032 / (5.391247E-38 * 5.391247E-38)
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -1028,6 +1127,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "lea/ds²"
                                                                       , SI.Accelerations.MeterPerSquareSecond
                                                                       , 4828.032 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -1038,6 +1138,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "lea/cs²"
                                                                        , SI.Accelerations.MeterPerSquareDecisecond
                                                                        , 4828.032 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1048,6 +1149,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "lea/ms²"
                                                                        , SI.Accelerations.MeterPerSquareCentisecond
                                                                        , 4828.032 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1058,6 +1160,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "lea/μs²"
                                                                        , SI.Accelerations.MeterPerSquareMillisecond
                                                                        , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1068,6 +1171,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "lea/ns²"
                                                                       , SI.Accelerations.MeterPerSquareMicrosecond
                                                                       , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -1078,6 +1182,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "lea/ps²"
                                                                       , SI.Accelerations.MeterPerSquareNanosecond
                                                                       , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -1088,6 +1193,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "lea/fs²"
                                                                        , SI.Accelerations.MeterPerSquarePicosecond
                                                                        , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1098,6 +1204,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "lea/as²"
                                                                       , SI.Accelerations.MeterPerSquareFemtosecond
                                                                       , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -1108,6 +1215,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "lea/zs²"
                                                                        , SI.Accelerations.MeterPerSquareAttosecond
                                                                        , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1118,6 +1226,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "lea/ys²"
                                                                        , SI.Accelerations.MeterPerSquareZeptosecond
                                                                        , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1128,6 +1237,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "lea/rs²"
                                                                        , SI.Accelerations.MeterPerSquareYoctosecond
                                                                        , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1138,6 +1248,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "lea/qs²"
                                                                         , SI.Accelerations.MeterPerSquareRontosecond
                                                                         , 4828.032 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -1148,6 +1259,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "li/yr²"
                                                               , SI.Accelerations.MeterPerSquareDay
                                                               , 0.20116 / (365.2525 * 365.2525)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1158,6 +1270,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "li/decade²"
                                                                 , SI.Accelerations.MeterPerSquareYear
                                                                 , 0.20116 / (10.0 * 10.0)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1168,6 +1281,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "li/century²"
                                                                  , SI.Accelerations.MeterPerSquareDecade
                                                                  , 0.20116 / (10.0 * 10.0)
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -1178,6 +1292,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "li/kyr²"
                                                                     , SI.Accelerations.MeterPerSquareCentury
                                                                     , 0.20116 / (10.0 * 10.0)
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -1188,6 +1303,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "li/Myr²"
                                                                       , SI.Accelerations.MeterPerSquareMillennium
                                                                       , 0.20116 / (1000.0 * 1000.0)
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -1198,6 +1314,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "li/Gyr²"
                                                                       , SI.Accelerations.MeterPerSquareMillionYears
                                                                       , 0.20116 / (1000.0 * 1000.0)
+                                                                      , system: "US Survey"
                                                                        );
 
    /// <summary>
@@ -1208,6 +1325,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "li/Tyr²"
                                                                        , SI.Accelerations.MeterPerSquareBillionYears
                                                                        , 0.20116 / (1000.0 * 1000.0)
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1218,6 +1336,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "li/Pyr²"
                                                                           , SI.Accelerations.MeterPerSquareTrillionYears
                                                                           , 0.20116 / (1000.0 * 1000.0)
+                                                                          , system: "US Survey"
                                                                            );
 
    /// <summary>
@@ -1229,6 +1348,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , SI.Accelerations
                                                                               .MeterPerSquareQuadrillionYears
                                                                           , 0.20116 / (1000.0 * 1000.0)
+                                                                          , system: "US Survey"
                                                                            );
 
    /// <summary>
@@ -1240,6 +1360,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , SI.Accelerations
                                                                              .MeterPerSquareQuintillionYears
                                                                          , 0.20116 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -1251,6 +1372,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , SI.Accelerations
                                                                              .MeterPerSquareSextillionYears
                                                                          , 0.20116 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -1261,6 +1383,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "li/Ryr²"
                                                                         , SI.Accelerations.MeterPerSquareSeptillionYears
                                                                         , 0.20116 / (1000.0 * 1000.0)
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -1271,6 +1394,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "li/Qyr²"
                                                                         , SI.Accelerations.MeterPerSquareOctillionYears
                                                                         , 0.20116 / (1000.0 * 1000.0)
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -1281,6 +1405,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "li/decillion yr²"
                                                                         , SI.Accelerations.MeterPerSquareNonillionYears
                                                                         , 0.20116 / (1000.0 * 1000.0)
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -1291,6 +1416,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "li/tick²"
                                                               , SI.Accelerations.MeterPerSquareNanosecond
                                                               , 0.20116 / (100.0 * 100.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1302,6 +1428,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , SI.Accelerations
                                                                                      .MeterPerSquareQuintillionYears
                                                                            , 4828.032 / (1000.0 * 1000.0)
+                                                                           , system: "US Survey"
                                                                             );
 
    /// <summary>
@@ -1312,6 +1439,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "rd/min²"
                                                                , SI.Accelerations.MeterPerSquareSecond
                                                                , 5.0292 / (60.0 * 60.0)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1322,6 +1450,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "lea/yr²"
                                                                 , SI.Accelerations.MeterPerSquareDay
                                                                 , 4828.032 / (365.2525 * 365.2525)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1332,6 +1461,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ch/Gyr²"
                                                                        , SI.Accelerations.MeterPerSquareMillionYears
                                                                        , 20.1168 / (1000.0 * 1000.0)
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1342,6 +1472,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "rd/tick²"
                                                              , SI.Accelerations.MeterPerSquareNanosecond
                                                              , 5.0292 / (100.0 * 100.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1352,6 +1483,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "rd/hr²"
                                                              , SI.Accelerations.MeterPerSquareMinute
                                                              , 5.0292 / (60.0 * 60.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1362,6 +1494,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "ch/min²"
                                                                  , SI.Accelerations.MeterPerSquareSecond
                                                                  , 20.1168 / (60.0 * 60.0)
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -1373,6 +1506,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations
                                                                                        .MeterPerSquareQuadrillionYears
                                                                              , 201.168 / (1000.0 * 1000.0)
+                                                                             , system: "US Survey"
                                                                               );
 
    /// <summary>
@@ -1383,6 +1517,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "fur/century²"
                                                                     , SI.Accelerations.MeterPerSquareDecade
                                                                     , 201.168 / (10.0 * 10.0)
+                                                                    , system: "US Survey"
                                                                      );
 
    /// <summary>
@@ -1393,6 +1528,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                             , "rd/dy²"
                                                             , SI.Accelerations.MeterPerSquareHour
                                                             , 5.0292 / (24.0 * 24.0)
+                                                            , system: "US Survey"
                                                              );
 
    /// <summary>
@@ -1403,6 +1539,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "fur/min²"
                                                                    , SI.Accelerations.MeterPerSquareSecond
                                                                    , 201.168 / (60.0 * 60.0)
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -1413,6 +1550,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "lea/Gyr²"
                                                                         , SI.Accelerations.MeterPerSquareMillionYears
                                                                         , 4828.032 / (1000.0 * 1000.0)
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -1423,6 +1561,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "ch/tick²"
                                                                , SI.Accelerations.MeterPerSquareNanosecond
                                                                , 20.1168 / (100.0 * 100.0)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1433,6 +1572,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ch/Tyr²"
                                                                         , SI.Accelerations.MeterPerSquareBillionYears
                                                                         , 20.1168 / (1000.0 * 1000.0)
+                                                                        , system: "US Survey"
                                                                          );
 
    /// <summary>
@@ -1443,6 +1583,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "ch/hr²"
                                                                , SI.Accelerations.MeterPerSquareMinute
                                                                , 20.1168 / (60.0 * 60.0)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1453,6 +1594,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "rd/wk²"
                                                              , SI.Accelerations.MeterPerSquareDay
                                                              , 5.0292 / (7.0 * 7.0)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1463,6 +1605,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "lea/min²"
                                                                   , SI.Accelerations.MeterPerSquareSecond
                                                                   , 4828.032 / (60.0 * 60.0)
+                                                                  , system: "US Survey"
                                                                    );
 
    /// <summary>
@@ -1474,6 +1617,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , SI.Accelerations
                                                                                      .MeterPerSquareSextillionYears
                                                                            , 4828.032 / (1000.0 * 1000.0)
+                                                                           , system: "US Survey"
                                                                             );
 
    /// <summary>
@@ -1484,6 +1628,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "fur/tick²"
                                                                  , SI.Accelerations.MeterPerSquareNanosecond
                                                                  , 201.168 / (100.0 * 100.0)
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -1494,6 +1639,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "rd/yr²"
                                                              , SI.Accelerations.MeterPerSquareDay
                                                              , 5.0292 / (365.2525 * 365.2525)
+                                                             , system: "US Survey"
                                                               );
 
    /// <summary>
@@ -1505,6 +1651,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , SI.Accelerations
                                                                                       .MeterPerSquareQuintillionYears
                                                                             , 201.168 / (1000.0 * 1000.0)
+                                                                            , system: "US Survey"
                                                                              );
 
    /// <summary>
@@ -1515,6 +1662,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "lea/decade²"
                                                                   , SI.Accelerations.MeterPerSquareYear
                                                                   , 4828.032 / (10.0 * 10.0)
+                                                                  , system: "US Survey"
                                                                    );
 
    /// <summary>
@@ -1525,6 +1673,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "fur/kyr²"
                                                                        , SI.Accelerations.MeterPerSquareCentury
                                                                        , 201.168 / (10.0 * 10.0)
+                                                                       , system: "US Survey"
                                                                         );
 
    /// <summary>
@@ -1536,6 +1685,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , SI.Accelerations
                                                                                      .MeterPerSquareTrillionYears
                                                                            , 20.1168 / (1000.0 * 1000.0)
+                                                                           , system: "US Survey"
                                                                             );
 
    /// <summary>
@@ -1546,6 +1696,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "ch/dy²"
                                                               , SI.Accelerations.MeterPerSquareHour
                                                               , 20.1168 / (24.0 * 24.0)
+                                                              , system: "US Survey"
                                                                );
 
    /// <summary>
@@ -1556,6 +1707,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "fur/hr²"
                                                                  , SI.Accelerations.MeterPerSquareMinute
                                                                  , 201.168 / (60.0 * 60.0)
+                                                                 , system: "US Survey"
                                                                   );
 
    /// <summary>
@@ -1566,6 +1718,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "rd/decade²"
                                                                , SI.Accelerations.MeterPerSquareYear
                                                                , 5.0292 / (10.0 * 10.0)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1576,6 +1729,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "lea/tick²"
                                                                 , SI.Accelerations.MeterPerSquareNanosecond
                                                                 , 4828.032 / (100.0 * 100.0)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1586,6 +1740,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "rd/century²"
                                                                 , SI.Accelerations.MeterPerSquareDecade
                                                                 , 5.0292 / (10.0 * 10.0)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1596,6 +1751,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "lea/Tyr²"
                                                                          , SI.Accelerations.MeterPerSquareBillionYears
                                                                          , 4828.032 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -1607,6 +1763,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , SI.Accelerations
                                                                                      .MeterPerSquareQuadrillionYears
                                                                            , 20.1168 / (1000.0 * 1000.0)
+                                                                           , system: "US Survey"
                                                                             );
 
    /// <summary>
@@ -1617,6 +1774,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "ch/wk²"
                                                                , SI.Accelerations.MeterPerSquareDay
                                                                , 20.1168 / (7.0 * 7.0)
+                                                               , system: "US Survey"
                                                                 );
 
    /// <summary>
@@ -1627,6 +1785,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "lea/hr²"
                                                                 , SI.Accelerations.MeterPerSquareMinute
                                                                 , 4828.032 / (60.0 * 60.0)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1637,6 +1796,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "rd/kyr²"
                                                                    , SI.Accelerations.MeterPerSquareCentury
                                                                    , 5.0292 / (10.0 * 10.0)
+                                                                   , system: "US Survey"
                                                                     );
 
    /// <summary>
@@ -1648,6 +1808,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , SI.Accelerations
                                                                                       .MeterPerSquareSextillionYears
                                                                             , 201.168 / (1000.0 * 1000.0)
+                                                                            , system: "US Survey"
                                                                              );
 
    /// <summary>
@@ -1658,6 +1819,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "fur/Myr²"
                                                                          , SI.Accelerations.MeterPerSquareMillennium
                                                                          , 201.168 / (1000.0 * 1000.0)
+                                                                         , system: "US Survey"
                                                                           );
 
    /// <summary>
@@ -1669,6 +1831,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , SI.Accelerations
                                                                               .MeterPerSquareSeptillionYears
                                                                           , 4828.032 / (1000.0 * 1000.0)
+                                                                          , system: "US Survey"
                                                                            );
 
    /// <summary>
@@ -1679,6 +1842,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "fur/dy²"
                                                                 , SI.Accelerations.MeterPerSquareHour
                                                                 , 201.168 / (24.0 * 24.0)
+                                                                , system: "US Survey"
                                                                  );
 
    /// <summary>
@@ -1689,5 +1853,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "rd/Myr²"
                                                                      , SI.Accelerations.MeterPerSquareMillennium
                                                                      , 5.0292 / (1000.0 * 1000.0)
+                                                                     , system: "US Survey"
                                                                       );
 }

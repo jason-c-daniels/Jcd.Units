@@ -25,5 +25,6 @@ public class Areas : UnitOfMeasureEnumeration<Areas, Area>
                                                        , "ℓₚ²"
                                                        , SI.Areas.SquareMeter
                                                        , 1.616255E-35 * 1.616255E-35
+                                                       , system: "Theoretical Physics"
                                                         );
 }

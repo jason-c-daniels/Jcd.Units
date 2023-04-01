@@ -2,4 +2,4 @@
    /// <summary>
    /// $Unit.Name$, a synonym for $BaseUnit.System$$BaseUnit.Name$
    /// </summary>
-   public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$", $BaseUnitNamespacePrefix$$BaseUnit$);
+   public static readonly $UnitType.TypeName$ $Unit.Unit$ = new ("$Unit.Name$", "$Symbol$", $BaseUnitNamespacePrefix$$BaseUnit$, system: "$System.Name$");

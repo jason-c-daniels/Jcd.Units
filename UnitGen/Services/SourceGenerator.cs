@@ -79,7 +79,9 @@ public class SourceCodeGenerator
 
    private string GenerateUnit(UnitDefinition unitDef, string baseNamespace = DefaultBaseNamespace)
    {
-      var hasOffset      = !double.TryParse(unitDef.Offset, out var offset)           || offset      != 0.0;
+      var hasOffset = !double.TryParse(unitDef.Offset, out var offset) || offset != 0.0;
+
+      // ReSharper disable once CompareOfFloatsByEqualityOperator
       var hasCoefficient = !double.TryParse(unitDef.Coefficient, out var coefficient) || coefficient != 1.0;
       var template       = _baseUnitTemplate;
 
@@ -98,6 +100,7 @@ public class SourceCodeGenerator
                : $"{baseSystem.Name} ";
 
       return template!
+            .Replace("$System.Name$", unitDef.System.Name)
             .Replace("$BaseNamespace$", baseNamespace)
             .Replace("$UnitType.TypeName$", unitDef.UnitType.UnitTypeName)
             .Replace("$Unit.Unit$", unitDef.UnitVarName)

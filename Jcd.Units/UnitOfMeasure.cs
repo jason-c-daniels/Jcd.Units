@@ -17,12 +17,14 @@ namespace Jcd.Units;
 /// <param name="Symbol">The symbol or abbreviation to represent the <see cref="UnitOfMeasure{TUnit}" /></param>
 /// <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
 /// <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+/// <param name="System">The optional system name the unit of measure belongs to.</param>
 public abstract record UnitOfMeasure<TUnit>
          (
          string Name
        , string Symbol
        , double Coefficient = 1
        , double Offset = 0
+       , string System = ""
          )
          : IUnitOfMeasure<TUnit>
          where TUnit : UnitOfMeasure<TUnit>
@@ -42,6 +44,7 @@ public abstract record UnitOfMeasure<TUnit>
    /// <param name="coefficient">The coefficient relative to the <paramref name="baseUnit" /></param>
    /// <param name="offset">The offset from the <paramref name="baseUnit" />.</param>
    /// <param name="comparer">The instance specific <see cref="IValueComparer{T}" /> used for comparisons.</param>
+   /// <param name="system">The optional system of measure the unit belongs to.</param>
    protected UnitOfMeasure
             (
             string name
@@ -50,8 +53,9 @@ public abstract record UnitOfMeasure<TUnit>
           , double coefficient = 1.0
           , double offset = 0
           , IValueComparer<double>? comparer = null
+          , string system = ""
             )
-            : this(name, symbol, coefficient, offset)
+            : this(name, symbol, coefficient, offset, system)
    {
       Name                = name;
       Symbol              = symbol;
@@ -179,9 +183,9 @@ public abstract record UnitOfMeasure<TUnit>
    {
       if (other is null) return 1; // sort nulls first.
 
-      var comparer         = Comparer!;
-      var factorComparison = comparer.Compare(Coefficient, other.Coefficient);
-      var result           = factorComparison != 0 ? factorComparison : comparer.Compare(Offset, other.Offset);
+      var comparer = Comparer!;
+      var coefficientComparison = comparer.Compare(Coefficient, other.Coefficient);
+      var result = coefficientComparison != 0 ? coefficientComparison : comparer.Compare(Offset, other.Offset);
 
       return result;
    }
@@ -272,6 +276,16 @@ public abstract record UnitOfMeasure<TUnit>
 
       return left.CompareTo(right) >= 0;
    }
+
+   /// <summary>
+   /// Determines if the units of measure are identical in all but system name, name, or symbol.
+   /// </summary>
+   /// <param name="other">The unit to compare against.</param>
+   /// <returns>true if the coefficient and offset are the same, but symbol, name or system are different.</returns>
+   public bool IsSynonym(TUnit other)
+      => CompareTo(other) == 0
+      && (System != other.System || Name != other.Name || Symbol != other.Symbol
+         );
 
    #endregion
 

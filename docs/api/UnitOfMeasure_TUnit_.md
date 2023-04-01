@@ -59,8 +59,8 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IU
 
 | Constructors | |
 | :--- | :--- |
-| [UnitOfMeasure(string, string, double, double)](UnitOfMeasure_TUnit_..ctor.aU4nMhZJNb9NUazBdx3PKw.md 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, double, double)') | Base type to simplify creating a unit of measure. This type provides relational and equivalence operations. |
-| [UnitOfMeasure(string, string, TUnit, double, double, IValueComparer&lt;double&gt;)](UnitOfMeasure_TUnit_..ctor.01UOiqFui+c2Pc5xHWgOLg.md 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, TUnit, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit of measure using another [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') as a base. |
+| [UnitOfMeasure(string, string, double, double, string)](UnitOfMeasure_TUnit_..ctor.GXF1xY6aTZUIdsKaSOcULw.md 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, double, double, string)') | Base type to simplify creating a unit of measure. This type provides relational and equivalence operations. |
+| [UnitOfMeasure(string, string, TUnit, double, double, IValueComparer&lt;double&gt;, string)](UnitOfMeasure_TUnit_..ctor.ppaE236Nm6TcDuxxxVbfFA.md 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, TUnit, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit of measure using another [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') as a base. |
 
 | Properties | |
 | :--- | :--- |
@@ -73,6 +73,7 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IU
 | [Name](UnitOfMeasure_TUnit_.Name.md 'Jcd.Units.UnitOfMeasure<TUnit>.Name') | The name of this unit |
 | [Offset](UnitOfMeasure_TUnit_.Offset.md 'Jcd.Units.UnitOfMeasure<TUnit>.Offset') | The offset used when computing values going to and from the base unit's representation. |
 | [Symbol](UnitOfMeasure_TUnit_.Symbol.md 'Jcd.Units.UnitOfMeasure<TUnit>.Symbol') | The symbol or abbreviation to represent the [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') |
+| [System](UnitOfMeasure_TUnit_.System.md 'Jcd.Units.UnitOfMeasure<TUnit>.System') | The optional system name the unit of measure belongs to. |
 
 | Methods | |
 | :--- | :--- |
@@ -83,6 +84,7 @@ Implements [Jcd.Units.IUnitOfMeasure&lt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IU
 | [Equals(UnitOfMeasure&lt;TUnit&gt;)](UnitOfMeasure_TUnit_.Equals.monYQT5ijeXp2ozD2hvWHQ.md 'Jcd.Units.UnitOfMeasure<TUnit>.Equals(Jcd.Units.UnitOfMeasure<TUnit>)') | Compares this [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') to another one for equality. |
 | [FromFundamentalUnitValue(double)](UnitOfMeasure_TUnit_.FromFundamentalUnitValue.ela1GaQ7m9Ds+0Gsp3NEqw.md 'Jcd.Units.UnitOfMeasure<TUnit>.FromFundamentalUnitValue(double)') | The interface defining what every unit of measure must support. |
 | [GetHashCode()](UnitOfMeasure_TUnit_.GetHashCode().md 'Jcd.Units.UnitOfMeasure<TUnit>.GetHashCode()') | Computes the hash code for this [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') |
+| [IsSynonym(TUnit)](UnitOfMeasure_TUnit_.IsSynonym.ByjS0y+kjZyPPYPiB7usqg.md 'Jcd.Units.UnitOfMeasure<TUnit>.IsSynonym(TUnit)') | Determines if the units of measure are identical in all but system name, name, or symbol. |
 | [ToFundamentalUnitValue(double)](UnitOfMeasure_TUnit_.ToFundamentalUnitValue.c+pdNRz/zLxbsbCTxAGJcQ.md 'Jcd.Units.UnitOfMeasure<TUnit>.ToFundamentalUnitValue(double)') | The interface defining what every unit of measure must support. |
 
 | Operators | |

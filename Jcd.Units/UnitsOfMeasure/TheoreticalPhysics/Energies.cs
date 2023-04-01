@@ -20,5 +20,11 @@ public class Energies : UnitOfMeasureEnumeration<Energies, Energy>
    /// <summary>
    /// planck-energy, defined as: SI joule × 1.9561E+9
    /// </summary>
-   public static readonly Energy PlanckEnergy = new ("planck-energy", "Eₚ", SI.Energies.Joule, 1.9561E+9);
+   public static readonly Energy PlanckEnergy = new (
+                                                     "planck-energy"
+                                                   , "Eₚ"
+                                                   , SI.Energies.Joule
+                                                   , 1.9561E+9
+                                                   , system: "Theoretical Physics"
+                                                    );
 }

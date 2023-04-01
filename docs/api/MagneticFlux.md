@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [MagneticFlux(string, string, MagneticFlux, double, double, IValueComparer&lt;double&gt;)](MagneticFlux..ctor.2Xyw6Q9PUcYHuvc0Yiwe2g.md 'Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string, string, Jcd.Units.UnitTypes.MagneticFlux, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') using another [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') as a reference. |
+| [MagneticFlux(string, string, MagneticFlux, double, double, IValueComparer&lt;double&gt;, string)](MagneticFlux..ctor.zkzADUxytAcYR8FNggxsgQ.md 'Jcd.Units.UnitTypes.MagneticFlux.MagneticFlux(string, string, Jcd.Units.UnitTypes.MagneticFlux, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') using another [MagneticFlux](MagneticFlux.md 'Jcd.Units.UnitTypes.MagneticFlux') as a reference. |

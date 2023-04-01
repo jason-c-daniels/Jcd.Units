@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Length(string, string, Length, double, double, IValueComparer&lt;double&gt;)](Length..ctor.uyX8MvA0IiImDUynvRhefQ.md 'Jcd.Units.UnitTypes.Length.Length(string, string, Jcd.Units.UnitTypes.Length, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Length](Length.md 'Jcd.Units.UnitTypes.Length') using another [Length](Length.md 'Jcd.Units.UnitTypes.Length') as a reference. |
+| [Length(string, string, Length, double, double, IValueComparer&lt;double&gt;, string)](Length..ctor.RFCBIlocR0PeRUFlo/XyFw.md 'Jcd.Units.UnitTypes.Length.Length(string, string, Jcd.Units.UnitTypes.Length, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Length](Length.md 'Jcd.Units.UnitTypes.Length') using another [Length](Length.md 'Jcd.Units.UnitTypes.Length') as a reference. |

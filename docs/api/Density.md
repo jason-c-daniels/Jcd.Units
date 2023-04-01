@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Density(string, string, Density, double, double, IValueComparer&lt;double&gt;)](Density..ctor.Gz8j6OG5JF2bClDZ+LeR8Q.md 'Jcd.Units.UnitTypes.Density.Density(string, string, Jcd.Units.UnitTypes.Density, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Density](Density.md 'Jcd.Units.UnitTypes.Density') using another [Density](Density.md 'Jcd.Units.UnitTypes.Density') as a reference. |
+| [Density(string, string, Density, double, double, IValueComparer&lt;double&gt;, string)](Density..ctor.cYf6Ntdp/AzRCp4PZEQnGA.md 'Jcd.Units.UnitTypes.Density.Density(string, string, Jcd.Units.UnitTypes.Density, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Density](Density.md 'Jcd.Units.UnitTypes.Density') using another [Density](Density.md 'Jcd.Units.UnitTypes.Density') as a reference. |

@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Storage(string, string, Storage, double, double, IValueComparer&lt;double&gt;)](Storage..ctor.QcL3J1LuZG6V1fpsxvivZA.md 'Jcd.Units.UnitTypes.Storage.Storage(string, string, Jcd.Units.UnitTypes.Storage, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage') using another [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage') as a reference. |
+| [Storage(string, string, Storage, double, double, IValueComparer&lt;double&gt;, string)](Storage..ctor.Sbj6yXsyVbv1ivBpO9jrIA.md 'Jcd.Units.UnitTypes.Storage.Storage(string, string, Jcd.Units.UnitTypes.Storage, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage') using another [Storage](Storage.md 'Jcd.Units.UnitTypes.Storage') as a reference. |

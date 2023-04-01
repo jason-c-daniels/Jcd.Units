@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Capacitance(string, string, Capacitance, double, double, IValueComparer&lt;double&gt;)](Capacitance..ctor.BkW+EXiKfJDggxPmX6f/HA.md 'Jcd.Units.UnitTypes.Capacitance.Capacitance(string, string, Jcd.Units.UnitTypes.Capacitance, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') using another [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') as a reference. |
+| [Capacitance(string, string, Capacitance, double, double, IValueComparer&lt;double&gt;, string)](Capacitance..ctor.ojoaYYXW+ypAPcxCKFinRw.md 'Jcd.Units.UnitTypes.Capacitance.Capacitance(string, string, Jcd.Units.UnitTypes.Capacitance, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') using another [Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance') as a reference. |

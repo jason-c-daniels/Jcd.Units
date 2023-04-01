@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Temperature(string, string, Temperature, double, double, IValueComparer&lt;double&gt;)](Temperature..ctor.T5IuIqAkThCaRJd8JRVhjg.md 'Jcd.Units.UnitTypes.Temperature.Temperature(string, string, Jcd.Units.UnitTypes.Temperature, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') using another [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') as a reference. |
+| [Temperature(string, string, Temperature, double, double, IValueComparer&lt;double&gt;, string)](Temperature..ctor.rh/enHD24QEWQ0ZYpD4smA.md 'Jcd.Units.UnitTypes.Temperature.Temperature(string, string, Jcd.Units.UnitTypes.Temperature, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') using another [Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature') as a reference. |

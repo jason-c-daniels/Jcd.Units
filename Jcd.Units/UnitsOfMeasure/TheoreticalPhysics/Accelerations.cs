@@ -25,6 +25,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ℓₚ/s²"
                                                                         , SI.Accelerations.MeterPerSquareSecond
                                                                         , 1.616255E-35 / (1.0 * 1.0)
+                                                                        , system: "Theoretical Physics"
                                                                          );
 
    /// <summary>
@@ -36,6 +37,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , SI.Accelerations.MeterPerSquareMicrosecond
                                                                             , 1.616255E-35
                                                                             / (5.391247E-38 * 5.391247E-38)
+                                                                            , system: "Theoretical Physics"
                                                                              );
 
    /// <summary>
@@ -46,6 +48,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "ℓₚ/ds²"
                                                                             , SI.Accelerations.MeterPerSquareSecond
                                                                             , 1.616255E-35 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                            , system: "Theoretical Physics"
                                                                              );
 
    /// <summary>
@@ -57,6 +60,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations.MeterPerSquareDecisecond
                                                                              , 1.616255E-35
                                                                              / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                             , system: "Theoretical Physics"
                                                                               );
 
    /// <summary>
@@ -69,6 +73,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                        .MeterPerSquareCentisecond
                                                                              , 1.616255E-35
                                                                              / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                             , system: "Theoretical Physics"
                                                                               );
 
    /// <summary>
@@ -81,6 +86,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                        .MeterPerSquareMillisecond
                                                                              , 1.616255E-35
                                                                              / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "Theoretical Physics"
                                                                               );
 
    /// <summary>
@@ -92,6 +98,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , SI.Accelerations.MeterPerSquareMicrosecond
                                                                             , 1.616255E-35
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "Theoretical Physics"
                                                                              );
 
    /// <summary>
@@ -103,6 +110,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , SI.Accelerations.MeterPerSquareNanosecond
                                                                             , 1.616255E-35
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "Theoretical Physics"
                                                                              );
 
    /// <summary>
@@ -114,6 +122,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations.MeterPerSquarePicosecond
                                                                              , 1.616255E-35
                                                                              / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "Theoretical Physics"
                                                                               );
 
    /// <summary>
@@ -125,6 +134,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , SI.Accelerations.MeterPerSquareFemtosecond
                                                                             , 1.616255E-35
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "Theoretical Physics"
                                                                              );
 
    /// <summary>
@@ -136,6 +146,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations.MeterPerSquareAttosecond
                                                                              , 1.616255E-35
                                                                              / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "Theoretical Physics"
                                                                               );
 
    /// <summary>
@@ -148,6 +159,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                        .MeterPerSquareZeptosecond
                                                                              , 1.616255E-35
                                                                              / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "Theoretical Physics"
                                                                               );
 
    /// <summary>
@@ -160,6 +172,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                        .MeterPerSquareYoctosecond
                                                                              , 1.616255E-35
                                                                              / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "Theoretical Physics"
                                                                               );
 
    /// <summary>
@@ -172,6 +185,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                                         .MeterPerSquareRontosecond
                                                                               , 1.616255E-35
                                                                               / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                              , system: "Theoretical Physics"
                                                                                );
 
    /// <summary>
@@ -182,6 +196,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ℓₚ/min²"
                                                                         , SI.Accelerations.MeterPerSquareSecond
                                                                         , 1.616255E-35 / (60.0 * 60.0)
+                                                                        , system: "Theoretical Physics"
                                                                          );
 
    /// <summary>
@@ -192,6 +207,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ℓₚ/hr²"
                                                                       , SI.Accelerations.MeterPerSquareMinute
                                                                       , 1.616255E-35 / (60.0 * 60.0)
+                                                                      , system: "Theoretical Physics"
                                                                        );
 
    /// <summary>
@@ -202,6 +218,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ℓₚ/dy²"
                                                                      , SI.Accelerations.MeterPerSquareHour
                                                                      , 1.616255E-35 / (24.0 * 24.0)
+                                                                     , system: "Theoretical Physics"
                                                                       );
 
    /// <summary>
@@ -212,6 +229,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ℓₚ/wk²"
                                                                       , SI.Accelerations.MeterPerSquareDay
                                                                       , 1.616255E-35 / (7.0 * 7.0)
+                                                                      , system: "Theoretical Physics"
                                                                        );
 
    /// <summary>
@@ -222,6 +240,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ℓₚ/yr²"
                                                                       , SI.Accelerations.MeterPerSquareDay
                                                                       , 1.616255E-35 / (365.2525 * 365.2525)
+                                                                      , system: "Theoretical Physics"
                                                                        );
 
    /// <summary>
@@ -232,6 +251,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ℓₚ/decade²"
                                                                         , SI.Accelerations.MeterPerSquareYear
                                                                         , 1.616255E-35 / (10.0 * 10.0)
+                                                                        , system: "Theoretical Physics"
                                                                          );
 
    /// <summary>
@@ -242,6 +262,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "ℓₚ/century²"
                                                                          , SI.Accelerations.MeterPerSquareDecade
                                                                          , 1.616255E-35 / (10.0 * 10.0)
+                                                                         , system: "Theoretical Physics"
                                                                           );
 
    /// <summary>
@@ -252,6 +273,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "ℓₚ/kyr²"
                                                                             , SI.Accelerations.MeterPerSquareCentury
                                                                             , 1.616255E-35 / (10.0 * 10.0)
+                                                                            , system: "Theoretical Physics"
                                                                              );
 
    /// <summary>
@@ -263,6 +285,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , SI.Accelerations
                                                                                         .MeterPerSquareMillennium
                                                                               , 1.616255E-35 / (1000.0 * 1000.0)
+                                                                              , system: "Theoretical Physics"
                                                                                );
 
    /// <summary>
@@ -274,6 +297,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , SI.Accelerations
                                                                                         .MeterPerSquareMillionYears
                                                                               , 1.616255E-35 / (1000.0 * 1000.0)
+                                                                              , system: "Theoretical Physics"
                                                                                );
 
    /// <summary>
@@ -284,6 +308,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ℓₚ/Tyr²"
      , SI.Accelerations.MeterPerSquareBillionYears
      , 1.616255E-35 / (1000.0 * 1000.0)
+     , system: "Theoretical Physics"
       );
 
    /// <summary>
@@ -294,6 +319,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ℓₚ/Pyr²"
      , SI.Accelerations.MeterPerSquareTrillionYears
      , 1.616255E-35 / (1000.0 * 1000.0)
+     , system: "Theoretical Physics"
       );
 
    /// <summary>
@@ -304,6 +330,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ℓₚ/Eyr²"
      , SI.Accelerations.MeterPerSquareQuadrillionYears
      , 1.616255E-35 / (1000.0 * 1000.0)
+     , system: "Theoretical Physics"
       );
 
    /// <summary>
@@ -314,6 +341,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ℓₚ/Zyr²"
      , SI.Accelerations.MeterPerSquareQuintillionYears
      , 1.616255E-35 / (1000.0 * 1000.0)
+     , system: "Theoretical Physics"
       );
 
    /// <summary>
@@ -324,6 +352,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ℓₚ/Yyr²"
      , SI.Accelerations.MeterPerSquareSextillionYears
      , 1.616255E-35 / (1000.0 * 1000.0)
+     , system: "Theoretical Physics"
       );
 
    /// <summary>
@@ -334,6 +363,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ℓₚ/Ryr²"
      , SI.Accelerations.MeterPerSquareSeptillionYears
      , 1.616255E-35 / (1000.0 * 1000.0)
+     , system: "Theoretical Physics"
       );
 
    /// <summary>
@@ -344,6 +374,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ℓₚ/Qyr²"
      , SI.Accelerations.MeterPerSquareOctillionYears
      , 1.616255E-35 / (1000.0 * 1000.0)
+     , system: "Theoretical Physics"
       );
 
    /// <summary>
@@ -354,6 +385,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ℓₚ/decillion yr²"
      , SI.Accelerations.MeterPerSquareNonillionYears
      , 1.616255E-35 / (1000.0 * 1000.0)
+     , system: "Theoretical Physics"
       );
 
    /// <summary>
@@ -364,5 +396,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ℓₚ/tick²"
                                                                       , SI.Accelerations.MeterPerSquareNanosecond
                                                                       , 1.616255E-35 / (100.0 * 100.0)
+                                                                      , system: "Theoretical Physics"
                                                                        );
 }

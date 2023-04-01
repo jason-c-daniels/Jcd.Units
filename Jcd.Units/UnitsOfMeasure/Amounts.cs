@@ -20,10 +20,10 @@ public class Amounts : UnitOfMeasureEnumeration<Amounts, Amount>
    /// <summary>
    /// count, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Amount Count = new ("count", "ct.");
+   public static readonly Amount Count = new ("count", "ct.", system: "");
 
    /// <summary>
    /// quantity, a synonym for count
    /// </summary>
-   public static readonly Amount Quantity = new ("quantity", "qty.", Count);
+   public static readonly Amount Quantity = new ("quantity", "qty.", Count, system: "");
 }

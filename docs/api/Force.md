@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Force(string, string, Force, double, double, IValueComparer&lt;double&gt;)](Force..ctor.unUF5LBAxk1lbh458eaXpg.md 'Jcd.Units.UnitTypes.Force.Force(string, string, Jcd.Units.UnitTypes.Force, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Force](Force.md 'Jcd.Units.UnitTypes.Force') using another [Force](Force.md 'Jcd.Units.UnitTypes.Force') as a reference. |
+| [Force(string, string, Force, double, double, IValueComparer&lt;double&gt;, string)](Force..ctor.CKhm1HvvMJNrJLur90LQPw.md 'Jcd.Units.UnitTypes.Force.Force(string, string, Jcd.Units.UnitTypes.Force, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Force](Force.md 'Jcd.Units.UnitTypes.Force') using another [Force](Force.md 'Jcd.Units.UnitTypes.Force') as a reference. |

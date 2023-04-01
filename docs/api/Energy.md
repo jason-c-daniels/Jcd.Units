@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Energy(string, string, Energy, double, double, IValueComparer&lt;double&gt;)](Energy..ctor.oLIOH5uwQTrHDsJuGH3zpg.md 'Jcd.Units.UnitTypes.Energy.Energy(string, string, Jcd.Units.UnitTypes.Energy, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Energy](Energy.md 'Jcd.Units.UnitTypes.Energy') using another [Energy](Energy.md 'Jcd.Units.UnitTypes.Energy') as a reference. |
+| [Energy(string, string, Energy, double, double, IValueComparer&lt;double&gt;, string)](Energy..ctor.sgA5wVSgYQLQrG8P2835PA.md 'Jcd.Units.UnitTypes.Energy.Energy(string, string, Jcd.Units.UnitTypes.Energy, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Energy](Energy.md 'Jcd.Units.UnitTypes.Energy') using another [Energy](Energy.md 'Jcd.Units.UnitTypes.Energy') as a reference. |

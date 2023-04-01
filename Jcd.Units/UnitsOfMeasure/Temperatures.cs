@@ -25,6 +25,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                           , "°R"
                                                           , SI.Temperatures.DegreesKelvin
                                                           , 5.0 / 9.0
+                                                          , system: ""
                                                            );
 
    /// <summary>
@@ -36,6 +37,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                           , SI.Temperatures.DegreesCelcius
                                                           , -2d / 3d
                                                           , -150
+                                                          , system: ""
                                                            );
 
    /// <summary>
@@ -46,6 +48,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                          , "°N"
                                                          , SI.Temperatures.DegreesCelcius
                                                          , 100.0 / 33.0
+                                                         , system: ""
                                                           );
 
    /// <summary>
@@ -56,6 +59,7 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                           , "°Ré"
                                                           , SI.Temperatures.DegreesCelcius
                                                           , 5.0 / 4.0
+                                                          , system: ""
                                                            );
 
    /// <summary>
@@ -67,5 +71,6 @@ public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
                                                         , SI.Temperatures.DegreesCelcius
                                                         , 40.0 / 21.0
                                                         , -7.5
+                                                        , system: ""
                                                          );
 }

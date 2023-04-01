@@ -25,5 +25,6 @@ public class Durations : UnitOfMeasureEnumeration<Durations, Duration>
                                                    , "tₚ"
                                                    , UnitsOfMeasure.Durations.Microsecond
                                                    , 5.391247E-38
+                                                   , system: "Theoretical Physics"
                                                     );
 }

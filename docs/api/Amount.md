@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Amount(string, string, Amount, double, double, IValueComparer&lt;double&gt;)](Amount..ctor.ssZfeYsRXCyFhan+IQ6wCg.md 'Jcd.Units.UnitTypes.Amount.Amount(string, string, Jcd.Units.UnitTypes.Amount, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount') using another [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount') as a reference. |
+| [Amount(string, string, Amount, double, double, IValueComparer&lt;double&gt;, string)](Amount..ctor.gdEkTEGwP/USousscwZRgg.md 'Jcd.Units.UnitTypes.Amount.Amount(string, string, Jcd.Units.UnitTypes.Amount, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount') using another [Amount](Amount.md 'Jcd.Units.UnitTypes.Amount') as a reference. |

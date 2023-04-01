@@ -20,70 +20,70 @@ public class Lengths : UnitOfMeasureEnumeration<Lengths, Length>
    /// <summary>
    /// inch, defined as: SI centimeter × 2.54
    /// </summary>
-   public static readonly Length Inch = new ("inch", "in", SI.Lengths.Centimeter, 2.54);
+   public static readonly Length Inch = new ("inch", "in", SI.Lengths.Centimeter, 2.54, system: "Imperial");
 
    /// <summary>
    /// foot, defined as: inch × 12
    /// </summary>
-   public static readonly Length Foot = new ("foot", "ft", Inch, 12);
+   public static readonly Length Foot = new ("foot", "ft", Inch, 12, system: "Imperial");
 
    /// <summary>
    /// twip, defined as: foot × 1.0/17280.0
    /// </summary>
-   public static readonly Length Twip = new ("twip", "twip", Foot, 1.0 / 17280.0);
+   public static readonly Length Twip = new ("twip", "twip", Foot, 1.0 / 17280.0, system: "Imperial");
 
    /// <summary>
    /// thou, defined as: foot × 1.0/12000.0
    /// </summary>
-   public static readonly Length Thou = new ("thou", "th", Foot, 1.0 / 12000.0);
+   public static readonly Length Thou = new ("thou", "th", Foot, 1.0 / 12000.0, system: "Imperial");
 
    /// <summary>
    /// barleycorn, defined as: foot × 1.0/36.0
    /// </summary>
-   public static readonly Length Barleycorn = new ("barleycorn", "barleycorn", Foot, 1.0 / 36.0);
+   public static readonly Length Barleycorn = new ("barleycorn", "barleycorn", Foot, 1.0 / 36.0, system: "Imperial");
 
    /// <summary>
    /// hand, defined as: inch × 4.0
    /// </summary>
-   public static readonly Length Hand = new ("hand", "hh", Inch, 4.0);
+   public static readonly Length Hand = new ("hand", "hh", Inch, 4.0, system: "Imperial");
 
    /// <summary>
    /// yard, defined as: foot × 3.0
    /// </summary>
-   public static readonly Length Yard = new ("yard", "yd", Foot, 3.0);
+   public static readonly Length Yard = new ("yard", "yd", Foot, 3.0, system: "Imperial");
 
    /// <summary>
    /// chain, defined as: yard × 22.0
    /// </summary>
-   public static readonly Length Chain = new ("chain", "ch", Yard, 22.0);
+   public static readonly Length Chain = new ("chain", "ch", Yard, 22.0, system: "Imperial");
 
    /// <summary>
    /// furlong, defined as: chain × 10.0
    /// </summary>
-   public static readonly Length Furlong = new ("furlong", "fur", Chain, 10.0);
+   public static readonly Length Furlong = new ("furlong", "fur", Chain, 10.0, system: "Imperial");
 
    /// <summary>
    /// mile, defined as: furlong × 8.0
    /// </summary>
-   public static readonly Length Mile = new ("mile", "mi", Furlong, 8.0);
+   public static readonly Length Mile = new ("mile", "mi", Furlong, 8.0, system: "Imperial");
 
    /// <summary>
    /// league, defined as: mile × 3.0
    /// </summary>
-   public static readonly Length League = new ("league", "lea", Mile, 3.0);
+   public static readonly Length League = new ("league", "lea", Mile, 3.0, system: "Imperial");
 
    /// <summary>
    /// fathom, defined as: foot × 6.0
    /// </summary>
-   public static readonly Length Fathom = new ("fathom", "ftm", Foot, 6.0);
+   public static readonly Length Fathom = new ("fathom", "ftm", Foot, 6.0, system: "Imperial");
 
    /// <summary>
    /// cable, defined as: fathom × 100.0
    /// </summary>
-   public static readonly Length Cable = new ("cable", "cable", Fathom, 100.0);
+   public static readonly Length Cable = new ("cable", "cable", Fathom, 100.0, system: "Imperial");
 
    /// <summary>
    /// nautical mile, defined as: cable × 10.0
    /// </summary>
-   public static readonly Length NauticalMile = new ("nautical mile", "nmi", Cable, 10.0);
+   public static readonly Length NauticalMile = new ("nautical mile", "nmi", Cable, 10.0, system: "Imperial");
 }

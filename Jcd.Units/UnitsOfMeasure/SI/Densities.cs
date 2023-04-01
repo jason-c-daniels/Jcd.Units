@@ -20,7 +20,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
    /// <summary>
    /// kilogram per cubic meter, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Density KilogramPerCubicMeter = new ("kilogram per cubic meter", "kg/m³");
+   public static readonly Density KilogramPerCubicMeter = new ("kilogram per cubic meter", "kg/m³", system: "SI");
 
    /// <summary>
    /// kilogram per cubic decimeter, defined as: kilogram per cubic meter × (1.0)/((1.0/10.0)*(1.0/10.0)*(1.0/10.0))
@@ -30,6 +30,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "kg/dm³"
                                                                  , KilogramPerCubicMeter
                                                                  , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -40,6 +41,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kg/cm³"
                                                                   , KilogramPerCubicDecimeter
                                                                   , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -50,6 +52,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "hg/m³"
                                                               , KilogramPerCubicMeter
                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -60,6 +63,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kg/mm³"
                                                                   , KilogramPerCubicCentimeter
                                                                   , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -71,6 +75,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicMillimeter
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -83,6 +88,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -93,6 +99,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "dag/m³"
                                                              , HectogramPerCubicMeter
                                                              , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -104,6 +111,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , KilogramPerCubicMicrometer
                                                                  , 1.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -115,6 +123,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , KilogramPerCubicNanometer
                                                                  , 1.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -127,6 +136,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -137,6 +147,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                          , "g/m³"
                                                          , DekagramPerCubicMeter
                                                          , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                         , system: "SI"
                                                           );
 
    /// <summary>
@@ -148,6 +159,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicPicometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -160,6 +172,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 10.0
                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -171,6 +184,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , KilogramPerCubicFemtometer
                                                                  , 1.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -183,6 +197,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -193,6 +208,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "dg/m³"
                                                              , GramPerCubicMeter
                                                              , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -204,6 +220,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicAttometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -215,6 +232,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicZeptometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -227,6 +245,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -239,6 +258,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -249,6 +269,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "g/dm³"
                                                              , DekagramPerCubicMeter
                                                              , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -259,6 +280,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "cg/m³"
                                                               , DecigramPerCubicMeter
                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -270,6 +292,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicYoctometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -281,6 +304,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , KilogramPerCubicRontometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -293,6 +317,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -303,6 +328,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "mg/m³"
                                                               , CentigramPerCubicMeter
                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -313,6 +339,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "kg/dam³"
                                                                  , KilogramPerCubicMeter
                                                                  , 1.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -325,6 +352,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -337,6 +365,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 10.0
                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -347,6 +376,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kg/hm³"
                                                                   , KilogramPerCubicDekameter
                                                                   , 1.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -359,6 +389,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -369,6 +400,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "g/cm³"
                                                               , DekagramPerCubicDecimeter
                                                               , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -379,6 +411,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "μg/m³"
                                                               , MilligramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -389,6 +422,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "kg/km³"
                                                                  , KilogramPerCubicHectometer
                                                                  , 1.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -399,6 +433,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "kg/Mm³"
                                                                  , KilogramPerCubicKilometer
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -411,6 +446,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -423,6 +459,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -435,6 +472,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -445,6 +483,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "ng/m³"
                                                              , MicrogramPerCubicMeter
                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -455,6 +494,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "kg/Gm³"
                                                                  , KilogramPerCubicMegameter
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -465,6 +505,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "kg/Tm³"
                                                                  , KilogramPerCubicGigameter
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -477,6 +518,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -487,6 +529,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "g/mm³"
                                                               , DekagramPerCubicCentimeter
                                                               , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -499,6 +542,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -509,6 +553,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "pg/m³"
                                                              , NanogramPerCubicMeter
                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -519,6 +564,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "kg/Pm³"
                                                                  , KilogramPerCubicTerameter
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -531,6 +577,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 10.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -543,6 +590,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -553,6 +601,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "kg/Em³"
                                                                 , KilogramPerCubicPetameter
                                                                 , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -565,6 +614,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -575,6 +625,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "fg/m³"
                                                               , PicogramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -585,6 +636,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kg/Zm³"
                                                                   , KilogramPerCubicExameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -595,6 +647,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kg/Ym³"
                                                                   , KilogramPerCubicZettameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -607,6 +660,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -619,6 +673,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 10.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -631,6 +686,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , 1.0
                                                               / 10.0
                                                               / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -643,6 +699,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -655,6 +712,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -665,6 +723,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "ag/m³"
                                                              , FemtogramPerCubicMeter
                                                              , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -675,6 +734,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kg/Rm³"
                                                                   , KilogramPerCubicYottameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -687,6 +747,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -697,6 +758,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "kg/Qm³"
                                                                    , KilogramPerCubicRonnameter
                                                                    , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -709,6 +771,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -719,6 +782,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "zg/m³"
                                                               , AttogramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -731,6 +795,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -743,6 +808,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -755,6 +821,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -767,6 +834,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , 1.0
                                                              / 10.0
                                                              / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -779,6 +847,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -789,6 +858,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "yg/m³"
                                                               , ZeptogramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -799,6 +869,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "hg/dam³"
                                                                   , KilogramPerCubicMeter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -811,6 +882,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 10.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -823,6 +895,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -835,6 +908,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -847,6 +921,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -857,6 +932,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "rg/m³"
                                                               , YoctogramPerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -867,6 +943,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "hg/hm³"
                                                                    , KilogramPerCubicDekameter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -879,6 +956,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , 1.0
                                                              / 10.0
                                                              / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -891,6 +969,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -901,6 +980,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "qg/m³"
                                                                , RontogramPerCubicMeter
                                                                , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -913,6 +993,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -925,6 +1006,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -935,6 +1017,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "Mg/m³"
                                                              , KilogramPerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -945,6 +1028,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "hg/km³"
                                                                   , KilogramPerCubicHectometer
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -957,6 +1041,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 10.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -969,6 +1054,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -979,6 +1065,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "Gg/m³"
                                                              , MegagramPerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -989,6 +1076,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "hg/Mm³"
                                                                   , KilogramPerCubicKilometer
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1001,6 +1089,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1013,6 +1102,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , 1.0
                                                               / 10.0
                                                               / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -1025,6 +1115,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1037,6 +1128,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1049,6 +1141,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1059,6 +1152,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "Tg/m³"
                                                              , GigagramPerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -1069,6 +1163,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "hg/Gm³"
                                                                   , KilogramPerCubicMegameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1081,6 +1176,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1093,6 +1189,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1103,6 +1200,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "Pg/m³"
                                                              , TeragramPerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -1113,6 +1211,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "hg/Tm³"
                                                                   , KilogramPerCubicGigameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1125,6 +1224,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , 1.0
                                                              / 10.0
                                                              / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -1137,6 +1237,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 10.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1149,6 +1250,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1161,6 +1263,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1171,6 +1274,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                             , "Eg/m³"
                                                             , PetagramPerCubicMeter
                                                             , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                            , system: "SI"
                                                              );
 
    /// <summary>
@@ -1181,6 +1285,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "hg/Pm³"
                                                                   , KilogramPerCubicTerameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1193,6 +1298,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1205,6 +1311,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1217,6 +1324,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1229,6 +1337,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1239,6 +1348,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "Zg/m³"
                                                               , ExagramPerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -1249,6 +1359,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "hg/Em³"
                                                                  , KilogramPerCubicPetameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1261,6 +1372,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , 1.0
                                                               / 10.0
                                                               / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -1273,6 +1385,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1283,6 +1396,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dag/dam³"
                                                                  , HectogramPerCubicMeter
                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1295,6 +1409,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1307,6 +1422,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1319,6 +1435,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1329,6 +1446,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "Yg/m³"
                                                               , ZettagramPerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -1339,6 +1457,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "hg/Zm³"
                                                                    , KilogramPerCubicExameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1349,6 +1468,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "Rg/m³"
                                                               , YottagramPerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -1359,6 +1479,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "hg/Ym³"
                                                                    , KilogramPerCubicZettameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1369,6 +1490,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dag/hm³"
                                                                   , HectogramPerCubicDekameter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1381,6 +1503,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , 1.0
                                                               / 10.0
                                                               / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -1393,6 +1516,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1405,6 +1529,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1417,6 +1542,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1429,6 +1555,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1441,6 +1568,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1451,6 +1579,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "Qg/m³"
                                                                , RonnagramPerCubicMeter
                                                                , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -1461,6 +1590,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "hg/Rm³"
                                                                    , KilogramPerCubicYottameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1473,6 +1603,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 10.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1485,6 +1616,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1495,6 +1627,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Mg/dm³"
                                                                  , KilogramPerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1505,6 +1638,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dag/km³"
                                                                  , HectogramPerCubicHectometer
                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1515,6 +1649,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "hg/Qm³"
                                                                     , KilogramPerCubicRonnameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -1527,6 +1662,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , 1.0
                                                               / 10.0
                                                               / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -1539,6 +1675,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1549,6 +1686,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Gg/dm³"
                                                                  , MegagramPerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1559,6 +1697,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dag/Mm³"
                                                                  , HectogramPerCubicKilometer
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1571,6 +1710,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1583,6 +1723,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1595,6 +1736,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1607,6 +1749,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1619,6 +1762,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , 1.0
                                                                / 10.0
                                                                / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -1631,6 +1775,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1643,6 +1788,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1655,6 +1801,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1665,6 +1812,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Tg/dm³"
                                                                  , GigagramPerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1675,6 +1823,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dag/Gm³"
                                                                  , HectogramPerCubicMegameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1685,6 +1834,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Pg/dm³"
                                                                  , TeragramPerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1695,6 +1845,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dag/Tm³"
                                                                  , HectogramPerCubicGigameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1705,6 +1856,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "g/dam³"
                                                              , DekagramPerCubicMeter
                                                              , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -1717,6 +1869,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1729,6 +1882,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1741,6 +1895,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1753,6 +1908,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1765,6 +1921,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1775,6 +1932,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Eg/dm³"
                                                                 , PetagramPerCubicMeter
                                                                 , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -1785,6 +1943,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dag/Pm³"
                                                                  , HectogramPerCubicTerameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1797,6 +1956,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1809,6 +1969,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1819,6 +1980,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "g/hm³"
                                                               , DekagramPerCubicDekameter
                                                               , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -1831,6 +1993,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1843,6 +2006,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -1855,6 +2019,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1867,6 +2032,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1877,6 +2043,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Zg/dm³"
                                                                   , ExagramPerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1887,6 +2054,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "dag/Em³"
                                                                 , HectogramPerCubicPetameter
                                                                 , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -1899,6 +2067,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1911,6 +2080,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1921,6 +2091,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mg/cm³"
                                                                   , KilogramPerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1931,6 +2102,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "g/km³"
                                                              , DekagramPerCubicHectometer
                                                              , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -1941,6 +2113,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Yg/dm³"
                                                                   , ZettagramPerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1951,6 +2124,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dag/Zm³"
                                                                   , HectogramPerCubicExameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1963,6 +2137,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -1975,6 +2150,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -1987,6 +2163,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -1999,6 +2176,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2009,6 +2187,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Rg/dm³"
                                                                   , YottagramPerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2019,6 +2198,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gg/cm³"
                                                                   , MegagramPerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2029,6 +2209,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dag/Ym³"
                                                                   , HectogramPerCubicZettameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2039,6 +2220,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "g/Mm³"
                                                              , DekagramPerCubicKilometer
                                                              , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -2051,6 +2233,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2063,6 +2246,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2075,6 +2259,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2087,6 +2272,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2097,6 +2283,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Qg/dm³"
                                                                    , RonnagramPerCubicMeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2107,6 +2294,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dag/Rm³"
                                                                   , HectogramPerCubicYottameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2117,6 +2305,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dg/dam³"
                                                                  , GramPerCubicMeter
                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2129,6 +2318,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2139,6 +2329,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tg/cm³"
                                                                   , GigagramPerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2149,6 +2340,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "g/Gm³"
                                                              , DekagramPerCubicMegameter
                                                              , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -2161,6 +2353,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2173,6 +2366,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2183,6 +2377,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dag/Qm³"
                                                                    , HectogramPerCubicRonnameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2195,6 +2390,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2207,6 +2403,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2217,6 +2414,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pg/cm³"
                                                                   , TeragramPerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2227,6 +2425,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "g/Tm³"
                                                              , DekagramPerCubicGigameter
                                                              , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -2237,6 +2436,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dg/hm³"
                                                                   , GramPerCubicDekameter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2249,6 +2449,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2261,6 +2462,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2273,6 +2475,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -2285,6 +2488,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2295,6 +2499,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Eg/cm³"
                                                                  , PetagramPerCubicDecimeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2305,6 +2510,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "g/Pm³"
                                                              , DekagramPerCubicTerameter
                                                              , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -2317,6 +2523,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -2329,6 +2536,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2341,6 +2549,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2353,6 +2562,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2363,6 +2573,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mg/mm³"
                                                                   , KilogramPerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2373,6 +2584,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dg/km³"
                                                                  , GramPerCubicHectometer
                                                                  , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2383,6 +2595,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zg/cm³"
                                                                    , ExagramPerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2393,6 +2606,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                             , "g/Em³"
                                                             , DekagramPerCubicPetameter
                                                             , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                            , system: "SI"
                                                              );
 
    /// <summary>
@@ -2405,6 +2619,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2417,6 +2632,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2427,6 +2643,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gg/mm³"
                                                                   , MegagramPerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2437,6 +2654,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dg/Mm³"
                                                                  , GramPerCubicKilometer
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2447,6 +2665,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "cg/dam³"
                                                                   , DecigramPerCubicMeter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2459,6 +2678,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2471,6 +2691,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2483,6 +2704,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2495,6 +2717,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2507,6 +2730,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2517,6 +2741,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yg/cm³"
                                                                    , ZettagramPerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2527,6 +2752,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "g/Zm³"
                                                               , DekagramPerCubicExameter
                                                               , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -2537,6 +2763,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tg/mm³"
                                                                   , GigagramPerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2547,6 +2774,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dg/Gm³"
                                                                  , GramPerCubicMegameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2557,6 +2785,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rg/cm³"
                                                                    , YottagramPerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2567,6 +2796,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "g/Ym³"
                                                               , DekagramPerCubicZettameter
                                                               , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -2577,6 +2807,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "cg/hm³"
                                                                    , DecigramPerCubicDekameter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2589,6 +2820,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2601,6 +2833,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2613,6 +2846,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -2625,6 +2859,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -2637,6 +2872,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2649,6 +2885,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2661,6 +2898,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2672,6 +2910,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnagramPerCubicDecimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -2682,6 +2921,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pg/mm³"
                                                                   , TeragramPerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2692,6 +2932,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "g/Rm³"
                                                               , DekagramPerCubicYottameter
                                                               , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -2702,6 +2943,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dg/Tm³"
                                                                  , GramPerCubicGigameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2714,6 +2956,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2725,6 +2968,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2735,6 +2979,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "cg/km³"
                                                                   , DecigramPerCubicHectometer
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2745,6 +2990,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "g/Qm³"
                                                                , DekagramPerCubicRonnameter
                                                                , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -2757,6 +3003,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2769,6 +3016,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2779,6 +3027,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Eg/mm³"
                                                                  , PetagramPerCubicCentimeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2789,6 +3038,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dg/Pm³"
                                                                  , GramPerCubicTerameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -2799,6 +3049,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mg/dam³"
                                                                   , CentigramPerCubicMeter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2811,6 +3062,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2822,6 +3074,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2832,6 +3085,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "cg/Mm³"
                                                                   , DecigramPerCubicKilometer
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2844,6 +3098,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2856,6 +3111,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2866,6 +3122,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zg/mm³"
                                                                    , ExagramPerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2876,6 +3133,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "dg/Em³"
                                                                 , GramPerCubicPetameter
                                                                 , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -2888,6 +3146,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2900,6 +3159,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2910,6 +3170,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mg/hm³"
                                                                    , CentigramPerCubicDekameter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2922,6 +3183,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -2934,6 +3196,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2946,6 +3209,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2957,6 +3221,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , GigagramPerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2967,6 +3232,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "cg/Gm³"
                                                                   , DecigramPerCubicMegameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2977,6 +3243,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yg/mm³"
                                                                    , ZettagramPerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -2987,6 +3254,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dg/Zm³"
                                                                   , GramPerCubicExameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -2999,6 +3267,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3011,6 +3280,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3022,6 +3292,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , KilogramPerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3032,6 +3303,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mg/km³"
                                                                   , CentigramPerCubicHectometer
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3042,6 +3314,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rg/mm³"
                                                                    , YottagramPerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3053,6 +3326,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TeragramPerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3063,6 +3337,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dg/Ym³"
                                                                   , GramPerCubicZettameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3073,6 +3348,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "cg/Tm³"
                                                                   , DecigramPerCubicGigameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3083,6 +3359,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "μg/dam³"
                                                                   , MilligramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3095,6 +3372,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3107,6 +3385,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , 1.0
                                                                  / 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3119,6 +3398,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3131,6 +3411,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3142,6 +3423,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnagramPerCubicCentimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3152,6 +3434,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dg/Rm³"
                                                                   , GramPerCubicYottameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3163,6 +3446,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , PetagramPerCubicMillimeter
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3174,6 +3458,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , MegagramPerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3184,6 +3469,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "cg/Pm³"
                                                                   , DecigramPerCubicTerameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3194,6 +3480,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mg/Mm³"
                                                                   , CentigramPerCubicKilometer
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3206,6 +3493,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3218,6 +3506,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3228,6 +3517,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μg/hm³"
                                                                    , MilligramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3240,6 +3530,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3250,6 +3541,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dg/Qm³"
                                                                    , GramPerCubicRonnameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3262,6 +3554,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3274,6 +3567,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3285,6 +3579,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ExagramPerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3295,6 +3590,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "cg/Em³"
                                                                  , DecigramPerCubicPetameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3307,6 +3603,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3319,6 +3616,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3330,6 +3628,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , GigagramPerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3340,6 +3639,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mg/Gm³"
                                                                   , CentigramPerCubicMegameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3350,6 +3650,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ng/dam³"
                                                                  , MicrogramPerCubicMeter
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3362,6 +3663,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3373,6 +3675,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , KilogramPerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3383,6 +3686,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "μg/km³"
                                                                   , MilligramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3394,6 +3698,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ZettagramPerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3404,6 +3709,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "cg/Zm³"
                                                                    , DecigramPerCubicExameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3415,6 +3721,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , TeragramPerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3425,6 +3732,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mg/Tm³"
                                                                   , CentigramPerCubicGigameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3437,6 +3745,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3449,6 +3758,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3461,6 +3771,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3473,6 +3784,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3484,6 +3796,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , YottagramPerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3495,6 +3808,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , MegagramPerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3505,6 +3819,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "cg/Ym³"
                                                                    , DecigramPerCubicZettameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3515,6 +3830,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "μg/Mm³"
                                                                   , MilligramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3525,6 +3841,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ng/hm³"
                                                                   , MicrogramPerCubicDekameter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3537,6 +3854,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3549,6 +3867,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3560,6 +3879,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , PetagramPerCubicMicrometer
                                                                 , 1000.0
                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -3570,6 +3890,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mg/Pm³"
                                                                   , CentigramPerCubicTerameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3581,6 +3902,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnagramPerCubicMillimeter
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3591,6 +3913,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "cg/Rm³"
                                                                    , DecigramPerCubicYottameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3601,6 +3924,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "pg/dam³"
                                                                  , NanogramPerCubicMeter
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3613,6 +3937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3624,6 +3949,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , GigagramPerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3634,6 +3960,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "μg/Gm³"
                                                                   , MilligramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3645,6 +3972,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3655,6 +3983,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ng/km³"
                                                                  , MicrogramPerCubicHectometer
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3666,6 +3995,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , ExagramPerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3676,6 +4006,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "mg/Em³"
                                                                  , CentigramPerCubicPetameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3688,6 +4019,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3700,6 +4032,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3710,6 +4043,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "cg/Qm³"
                                                                     , DecigramPerCubicRonnameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3722,6 +4056,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3734,6 +4069,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3745,6 +4081,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , TeragramPerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3755,6 +4092,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "μg/Tm³"
                                                                   , MilligramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3765,6 +4103,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pg/hm³"
                                                                   , NanogramPerCubicDekameter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3777,6 +4116,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3788,6 +4128,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , ZettagramPerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3798,6 +4139,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mg/Zm³"
                                                                    , CentigramPerCubicExameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3809,6 +4151,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3819,6 +4162,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ng/Mm³"
                                                                  , MicrogramPerCubicKilometer
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3829,6 +4173,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "fg/dam³"
                                                                   , PicogramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3841,6 +4186,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3852,6 +4198,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , YottagramPerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3863,6 +4210,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , PetagramPerCubicNanometer
                                                                 , 1000.0
                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -3873,6 +4221,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mg/Ym³"
                                                                    , CentigramPerCubicZettameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3883,6 +4232,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "μg/Pm³"
                                                                   , MilligramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3895,6 +4245,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3907,6 +4258,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3919,6 +4271,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3930,6 +4283,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , KilogramPerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3940,6 +4294,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "pg/km³"
                                                                  , NanogramPerCubicHectometer
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3951,6 +4306,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , GigagramPerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3961,6 +4317,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ng/Gm³"
                                                                  , MicrogramPerCubicMegameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -3972,6 +4329,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , RonnagramPerCubicMicrometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3982,6 +4340,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mg/Rm³"
                                                                    , CentigramPerCubicYottameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3993,6 +4352,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , ExagramPerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4003,6 +4363,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "μg/Em³"
                                                                  , MilligramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4013,6 +4374,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "fg/hm³"
                                                                    , PicogramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4025,6 +4387,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4036,6 +4399,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TeragramPerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4047,6 +4411,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , MegagramPerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4057,6 +4422,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ng/Tm³"
                                                                  , MicrogramPerCubicGigameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4067,6 +4433,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "pg/Mm³"
                                                                  , NanogramPerCubicKilometer
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4077,6 +4444,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ag/dam³"
                                                                  , FemtogramPerCubicMeter
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4089,6 +4457,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4099,6 +4468,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "mg/Qm³"
                                                                     , CentigramPerCubicRonnameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4111,6 +4481,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4123,6 +4494,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4134,6 +4506,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , ZettagramPerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4144,6 +4517,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μg/Zm³"
                                                                    , MilligramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4155,6 +4529,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4165,6 +4540,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "fg/km³"
                                                                   , PicogramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4176,6 +4552,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , PetagramPerCubicPicometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4186,6 +4563,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ng/Pm³"
                                                                  , MicrogramPerCubicTerameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4197,6 +4575,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , GigagramPerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4207,6 +4586,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "pg/Gm³"
                                                                  , NanogramPerCubicMegameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4218,6 +4598,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , YottagramPerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4228,6 +4609,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μg/Ym³"
                                                                    , MilligramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4238,6 +4620,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ag/hm³"
                                                                   , FemtogramPerCubicDekameter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4250,6 +4633,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4260,6 +4644,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "zg/dam³"
                                                                   , AttogramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4272,6 +4657,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4284,6 +4670,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4295,6 +4682,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ExagramPerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4306,6 +4694,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4316,6 +4705,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "ng/Em³"
                                                                 , MicrogramPerCubicPetameter
                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -4326,6 +4716,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "fg/Mm³"
                                                                   , PicogramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4337,6 +4728,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , RonnagramPerCubicNanometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4348,6 +4740,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , TeragramPerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4358,6 +4751,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μg/Rm³"
                                                                    , MilligramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4368,6 +4762,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "pg/Tm³"
                                                                  , NanogramPerCubicGigameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4379,6 +4774,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4389,6 +4785,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ag/km³"
                                                                  , FemtogramPerCubicHectometer
                                                                  , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4400,6 +4797,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ZettagramPerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4410,6 +4808,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ng/Zm³"
                                                                   , MicrogramPerCubicExameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4420,6 +4819,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "μg/Qm³"
                                                                     , MilligramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4430,6 +4830,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zg/hm³"
                                                                    , AttogramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4442,6 +4843,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4453,6 +4855,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , GigagramPerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4463,6 +4866,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "fg/Gm³"
                                                                   , PicogramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4474,6 +4878,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , PetagramPerCubicFemtometer
                                                                 , 1000.0
                                                                 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -4484,6 +4889,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "pg/Pm³"
                                                                  , NanogramPerCubicTerameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4494,6 +4900,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "yg/dam³"
                                                                   , ZeptogramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4506,6 +4913,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4517,6 +4925,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , YottagramPerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4528,6 +4937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4538,6 +4948,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ng/Ym³"
                                                                   , MicrogramPerCubicZettameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4548,6 +4959,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ag/Mm³"
                                                                  , FemtogramPerCubicKilometer
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4559,6 +4971,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , ExagramPerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4570,6 +4983,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TeragramPerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4580,6 +4994,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "pg/Em³"
                                                                 , NanogramPerCubicPetameter
                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -4590,6 +5005,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "fg/Tm³"
                                                                   , PicogramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4601,6 +5017,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilogramPerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4611,6 +5028,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "zg/km³"
                                                                   , AttogramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4621,6 +5039,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yg/hm³"
                                                                    , ZeptogramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4633,6 +5052,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4644,6 +5064,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnagramPerCubicPicometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4654,6 +5075,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ng/Rm³"
                                                                   , MicrogramPerCubicYottameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4664,6 +5086,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "rg/dam³"
                                                                   , YoctogramPerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4675,6 +5098,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , GigagramPerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4685,6 +5109,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ag/Gm³"
                                                                  , FemtogramPerCubicMegameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4696,6 +5121,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , ZettagramPerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4706,6 +5132,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pg/Zm³"
                                                                   , NanogramPerCubicExameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4717,6 +5144,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , PetagramPerCubicAttometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4727,6 +5155,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "fg/Pm³"
                                                                   , PicogramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4738,6 +5167,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4748,6 +5178,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ng/Qm³"
                                                                    , MicrogramPerCubicRonnameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4758,6 +5189,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "zg/Mm³"
                                                                   , AttogramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4769,6 +5201,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , KilogramPerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4779,6 +5212,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "yg/km³"
                                                                   , ZeptogramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4790,6 +5224,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , YottagramPerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4801,6 +5236,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TeragramPerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4811,6 +5247,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pg/Ym³"
                                                                   , NanogramPerCubicZettameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4821,6 +5258,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ag/Tm³"
                                                                  , FemtogramPerCubicGigameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4831,6 +5269,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rg/hm³"
                                                                    , YoctogramPerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4841,6 +5280,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "qg/dam³"
                                                                    , RontogramPerCubicMeter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4852,6 +5292,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ExagramPerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4862,6 +5303,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "fg/Em³"
                                                                  , PicogramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4873,6 +5315,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , GigagramPerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4883,6 +5326,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "zg/Gm³"
                                                                   , AttogramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4894,6 +5338,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , RonnagramPerCubicFemtometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4904,6 +5349,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pg/Rm³"
                                                                   , NanogramPerCubicYottameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4915,6 +5361,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , PetagramPerCubicZeptometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4926,6 +5373,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegagramPerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4936,6 +5384,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "ag/Pm³"
                                                                  , FemtogramPerCubicTerameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4946,6 +5395,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "yg/Mm³"
                                                                   , ZeptogramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4957,6 +5407,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ZettagramPerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4967,6 +5418,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "fg/Zm³"
                                                                    , PicogramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4977,6 +5429,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Mg/dam³"
                                                                  , KilogramPerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -4987,6 +5440,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "rg/km³"
                                                                   , YoctogramPerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4997,6 +5451,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qg/hm³"
                                                                     , RontogramPerCubicDekameter
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5008,6 +5463,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TeragramPerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5018,6 +5474,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "pg/Qm³"
                                                                    , NanogramPerCubicRonnameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5028,6 +5485,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "zg/Tm³"
                                                                   , AttogramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5039,6 +5497,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , YottagramPerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5050,6 +5509,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ExagramPerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5060,6 +5520,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "fg/Ym³"
                                                                    , PicogramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5070,6 +5531,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "ag/Em³"
                                                                 , FemtogramPerCubicPetameter
                                                                 , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -5081,6 +5543,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , GigagramPerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5091,6 +5554,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "yg/Gm³"
                                                                   , ZeptogramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5101,6 +5565,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Gg/dam³"
                                                                  , MegagramPerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5111,6 +5576,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "rg/Mm³"
                                                                   , YoctogramPerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5121,6 +5587,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mg/hm³"
                                                                   , KilogramPerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5131,6 +5598,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "qg/km³"
                                                                    , RontogramPerCubicHectometer
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5142,6 +5610,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , PetagramPerCubicYoctometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5152,6 +5621,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "zg/Pm³"
                                                                   , AttogramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5163,6 +5633,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnagramPerCubicAttometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5173,6 +5644,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "fg/Rm³"
                                                                    , PicogramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5184,6 +5656,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ZettagramPerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5194,6 +5667,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ag/Zm³"
                                                                   , FemtogramPerCubicExameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5205,6 +5679,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TeragramPerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5215,6 +5690,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "yg/Tm³"
                                                                   , ZeptogramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5225,6 +5701,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Tg/dam³"
                                                                  , GigagramPerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5235,6 +5712,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "rg/Gm³"
                                                                   , YoctogramPerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5246,6 +5724,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ExagramPerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5256,6 +5735,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "fg/Qm³"
                                                                     , PicogramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5266,6 +5746,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "zg/Em³"
                                                                  , AttogramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5277,6 +5758,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , YottagramPerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5287,6 +5769,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gg/hm³"
                                                                   , MegagramPerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5297,6 +5780,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ag/Ym³"
                                                                   , FemtogramPerCubicZettameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5307,6 +5791,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "qg/Mm³"
                                                                    , RontogramPerCubicKilometer
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5317,6 +5802,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Mg/km³"
                                                                  , KilogramPerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5328,6 +5814,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , PetagramPerCubicRontometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5338,6 +5825,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "yg/Pm³"
                                                                   , ZeptogramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5349,6 +5837,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ZettagramPerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5359,6 +5848,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zg/Zm³"
                                                                    , AttogramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5370,6 +5860,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnagramPerCubicZeptometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5380,6 +5871,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Pg/dam³"
                                                                  , TeragramPerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5390,6 +5882,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ag/Rm³"
                                                                   , FemtogramPerCubicYottameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5400,6 +5893,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "rg/Tm³"
                                                                   , YoctogramPerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5410,6 +5904,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tg/hm³"
                                                                   , GigagramPerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5420,6 +5915,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "qg/Gm³"
                                                                    , RontogramPerCubicMegameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5430,6 +5926,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Gg/km³"
                                                                  , MegagramPerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5440,6 +5937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Mg/Mm³"
                                                                  , KilogramPerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5451,6 +5949,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ExagramPerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5461,6 +5960,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "yg/Em³"
                                                                  , ZeptogramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5472,6 +5972,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , YottagramPerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5482,6 +5983,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ag/Qm³"
                                                                    , FemtogramPerCubicRonnameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5492,6 +5994,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zg/Ym³"
                                                                    , AttogramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5502,6 +6005,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Eg/dam³"
                                                                 , PetagramPerCubicMeter
                                                                 , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -5512,6 +6016,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "rg/Pm³"
                                                                   , YoctogramPerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5522,6 +6027,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pg/hm³"
                                                                   , TeragramPerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5532,6 +6038,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "qg/Tm³"
                                                                    , RontogramPerCubicGigameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5543,6 +6050,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ZettagramPerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5553,6 +6061,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yg/Zm³"
                                                                    , ZeptogramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5563,6 +6072,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Tg/km³"
                                                                  , GigagramPerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5573,6 +6083,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Mg/Gm³"
                                                                  , KilogramPerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5583,6 +6094,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Gg/Mm³"
                                                                  , MegagramPerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5594,6 +6106,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnagramPerCubicYoctometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5604,6 +6117,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zg/Rm³"
                                                                    , AttogramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5614,6 +6128,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Zg/dam³"
                                                                   , ExagramPerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5624,6 +6139,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "rg/Em³"
                                                                  , YoctogramPerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5635,6 +6151,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , YottagramPerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5645,6 +6162,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Eg/hm³"
                                                                  , PetagramPerCubicDekameter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5655,6 +6173,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yg/Ym³"
                                                                    , ZeptogramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5665,6 +6184,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "qg/Pm³"
                                                                    , RontogramPerCubicTerameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5675,6 +6195,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "zg/Qm³"
                                                                     , AttogramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5685,6 +6206,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Pg/km³"
                                                                  , TeragramPerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5695,6 +6217,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Mg/Tm³"
                                                                  , KilogramPerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5705,6 +6228,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Tg/Mm³"
                                                                  , GigagramPerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5715,6 +6239,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Gg/Gm³"
                                                                  , MegagramPerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5725,6 +6250,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Yg/dam³"
                                                                   , ZettagramPerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5735,6 +6261,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rg/Zm³"
                                                                    , YoctogramPerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5746,6 +6273,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , RonnagramPerCubicRontometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -5756,6 +6284,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yg/Rm³"
                                                                    , ZeptogramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5766,6 +6295,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zg/hm³"
                                                                    , ExagramPerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5776,6 +6306,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "qg/Em³"
                                                                   , RontogramPerCubicPetameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5786,6 +6317,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Eg/km³"
                                                                 , PetagramPerCubicHectometer
                                                                 , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -5796,6 +6328,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Mg/Pm³"
                                                                  , KilogramPerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5806,6 +6339,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Rg/dam³"
                                                                   , YottagramPerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5816,6 +6350,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Pg/Mm³"
                                                                  , TeragramPerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5826,6 +6361,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Gg/Tm³"
                                                                  , MegagramPerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5836,6 +6372,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rg/Ym³"
                                                                    , YoctogramPerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5846,6 +6383,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Tg/Gm³"
                                                                  , GigagramPerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5856,6 +6394,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "yg/Qm³"
                                                                     , ZeptogramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5866,6 +6405,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yg/hm³"
                                                                    , ZettagramPerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5876,6 +6416,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qg/Zm³"
                                                                     , RontogramPerCubicExameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5886,6 +6427,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Zg/km³"
                                                                   , ExagramPerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5896,6 +6438,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Mg/Em³"
                                                                 , KilogramPerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -5906,6 +6449,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Qg/dam³"
                                                                    , RonnagramPerCubicMeter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5916,6 +6460,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rg/Rm³"
                                                                    , YoctogramPerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5926,6 +6471,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Eg/Mm³"
                                                                 , PetagramPerCubicKilometer
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -5936,6 +6482,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Gg/Pm³"
                                                                  , MegagramPerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5946,6 +6493,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Pg/Gm³"
                                                                  , TeragramPerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5956,6 +6504,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Tg/Tm³"
                                                                  , GigagramPerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5966,6 +6515,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rg/hm³"
                                                                    , YottagramPerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5976,6 +6526,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qg/Ym³"
                                                                     , RontogramPerCubicZettameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5986,6 +6537,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "rg/Qm³"
                                                                     , YoctogramPerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5996,6 +6548,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Yg/km³"
                                                                   , ZettagramPerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6006,6 +6559,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mg/Zm³"
                                                                   , KilogramPerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6016,6 +6570,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Zg/Mm³"
                                                                   , ExagramPerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6026,6 +6581,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Gg/Em³"
                                                                 , MegagramPerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -6036,6 +6592,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Eg/Gm³"
                                                                 , PetagramPerCubicMegameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -6046,6 +6603,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Tg/Pm³"
                                                                  , GigagramPerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6056,6 +6614,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qg/hm³"
                                                                     , RonnagramPerCubicDekameter
                                                                     , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6066,6 +6625,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Pg/Tm³"
                                                                  , TeragramPerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6076,6 +6636,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qg/Rm³"
                                                                     , RontogramPerCubicYottameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6086,6 +6647,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Rg/km³"
                                                                   , YottagramPerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6096,6 +6658,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mg/Ym³"
                                                                   , KilogramPerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6106,6 +6669,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Yg/Mm³"
                                                                   , ZettagramPerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6116,6 +6680,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gg/Zm³"
                                                                   , MegagramPerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6126,6 +6691,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "qg/Qm³"
                                                                      , RontogramPerCubicRonnameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -6136,6 +6702,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Zg/Gm³"
                                                                   , ExagramPerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6146,6 +6713,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Tg/Em³"
                                                                 , GigagramPerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -6156,6 +6724,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Eg/Tm³"
                                                                 , PetagramPerCubicGigameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -6166,6 +6735,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Pg/Pm³"
                                                                  , TeragramPerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6176,6 +6746,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Qg/km³"
                                                                    , RonnagramPerCubicHectometer
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6186,6 +6757,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mg/Rm³"
                                                                   , KilogramPerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6196,6 +6768,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Rg/Mm³"
                                                                   , YottagramPerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6206,6 +6779,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gg/Ym³"
                                                                   , MegagramPerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6216,6 +6790,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Yg/Gm³"
                                                                   , ZettagramPerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6226,6 +6801,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tg/Zm³"
                                                                   , GigagramPerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6236,6 +6812,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Zg/Tm³"
                                                                   , ExagramPerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6246,6 +6823,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Pg/Em³"
                                                                 , TeragramPerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -6256,6 +6834,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Eg/Pm³"
                                                                 , PetagramPerCubicTerameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -6266,6 +6845,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Mg/Qm³"
                                                                    , KilogramPerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6276,6 +6856,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Qg/Mm³"
                                                                    , RonnagramPerCubicKilometer
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6286,6 +6867,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gg/Rm³"
                                                                   , MegagramPerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6296,6 +6878,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Rg/Gm³"
                                                                   , YottagramPerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6306,6 +6889,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tg/Ym³"
                                                                   , GigagramPerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6316,6 +6900,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Yg/Tm³"
                                                                   , ZettagramPerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6326,6 +6911,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pg/Zm³"
                                                                   , TeragramPerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6336,6 +6922,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Zg/Pm³"
                                                                   , ExagramPerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6346,6 +6933,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "Eg/Em³"
                                                                , PetagramPerCubicPetameter
                                                                , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -6356,6 +6944,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Gg/Qm³"
                                                                    , MegagramPerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6366,6 +6955,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Qg/Gm³"
                                                                    , RonnagramPerCubicMegameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6376,6 +6966,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tg/Rm³"
                                                                   , GigagramPerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6386,6 +6977,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Rg/Tm³"
                                                                   , YottagramPerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6396,6 +6988,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pg/Ym³"
                                                                   , TeragramPerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6406,6 +6999,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Yg/Pm³"
                                                                   , ZettagramPerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6416,6 +7010,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Eg/Zm³"
                                                                  , PetagramPerCubicExameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6426,6 +7021,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Zg/Em³"
                                                                  , ExagramPerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6436,6 +7032,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Tg/Qm³"
                                                                    , GigagramPerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6446,6 +7043,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Qg/Tm³"
                                                                    , RonnagramPerCubicGigameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6456,6 +7054,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pg/Rm³"
                                                                   , TeragramPerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6466,6 +7065,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Rg/Pm³"
                                                                   , YottagramPerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6476,6 +7076,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Eg/Ym³"
                                                                  , PetagramPerCubicZettameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6486,6 +7087,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Yg/Em³"
                                                                  , ZettagramPerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6496,6 +7098,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zg/Zm³"
                                                                    , ExagramPerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6506,6 +7109,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Pg/Qm³"
                                                                    , TeragramPerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6516,6 +7120,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Qg/Pm³"
                                                                    , RonnagramPerCubicTerameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6526,6 +7131,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Eg/Rm³"
                                                                  , PetagramPerCubicYottameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6536,6 +7142,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Rg/Em³"
                                                                  , YottagramPerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -6546,6 +7153,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zg/Ym³"
                                                                    , ExagramPerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6556,6 +7164,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yg/Zm³"
                                                                    , ZettagramPerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6566,6 +7175,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Eg/Qm³"
                                                                   , PetagramPerCubicRonnameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6576,6 +7186,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Qg/Em³"
                                                                   , RonnagramPerCubicPetameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6586,6 +7197,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zg/Rm³"
                                                                    , ExagramPerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6596,6 +7208,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rg/Zm³"
                                                                    , YottagramPerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6606,6 +7219,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yg/Ym³"
                                                                    , ZettagramPerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6616,6 +7230,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Zg/Qm³"
                                                                     , ExagramPerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6626,6 +7241,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qg/Zm³"
                                                                     , RonnagramPerCubicExameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6636,6 +7252,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yg/Rm³"
                                                                    , ZettagramPerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6646,6 +7263,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rg/Ym³"
                                                                    , YottagramPerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6656,6 +7274,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Yg/Qm³"
                                                                     , ZettagramPerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6666,6 +7285,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qg/Ym³"
                                                                     , RonnagramPerCubicZettameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6676,6 +7296,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rg/Rm³"
                                                                    , YottagramPerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6686,6 +7307,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Rg/Qm³"
                                                                     , YottagramPerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6696,6 +7318,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qg/Rm³"
                                                                     , RonnagramPerCubicYottameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6706,6 +7329,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "Qg/Qm³"
                                                                      , RonnagramPerCubicRonnameter
                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -6716,6 +7340,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "mt/m³"
                                                               , MegagramPerCubicMeter
                                                               , 1.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -6726,6 +7351,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mt/dm³"
                                                                   , MegagramPerCubicMeter
                                                                   , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6736,6 +7362,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                           , "t/m³"
                                                           , MegagramPerCubicMeter
                                                           , 1.0 / (1.0 * 1.0 * 1.0)
+                                                          , system: "SI"
                                                            );
 
    /// <summary>
@@ -6746,6 +7373,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/cm³"
                                                                    , MegagramPerCubicDecimeter
                                                                    , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6756,6 +7384,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/mm³"
                                                                    , MegagramPerCubicCentimeter
                                                                    , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6766,6 +7395,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/dm³"
                                                               , MegagramPerCubicMeter
                                                               , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -6777,6 +7407,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegagramPerCubicMillimeter
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6788,6 +7419,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicMicrometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6798,6 +7430,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/cm³"
                                                                , MegagramPerCubicDecimeter
                                                                , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -6808,6 +7441,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "dt/m³"
                                                               , TonnePerCubicMeter
                                                               , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -6819,6 +7453,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicNanometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6830,6 +7465,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegagramPerCubicPicometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6840,6 +7476,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/mm³"
                                                                , MegagramPerCubicCentimeter
                                                                , 1.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -6851,6 +7488,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegagramPerCubicFemtometer
                                                                   , 1.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6862,6 +7500,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegagramPerCubicAttometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6872,6 +7511,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/μm³"
                                                                , MegagramPerCubicMillimeter
                                                                , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -6884,6 +7524,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6894,6 +7535,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "ct/m³"
                                                                , DecitonnePerCubicMeter
                                                                , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -6905,6 +7547,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegagramPerCubicZeptometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6916,6 +7559,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegagramPerCubicYoctometer
                                                                    , 1.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6926,6 +7570,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/nm³"
                                                               , MegagramPerCubicMicrometer
                                                               , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -6937,6 +7582,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , MegagramPerCubicRontometer
                                                                     , 1.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6947,6 +7593,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mt/dam³"
                                                                   , MegagramPerCubicMeter
                                                                   , 1.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -6957,6 +7604,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/pm³"
                                                               , MegagramPerCubicNanometer
                                                               , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -6969,6 +7617,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6979,6 +7628,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "mt/m³"
                                                                , CentitonnePerCubicMeter
                                                                , 1.0 / 10.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -6989,6 +7639,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/hm³"
                                                                    , MegagramPerCubicDekameter
                                                                    , 1.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6999,6 +7650,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mt/km³"
                                                                   , MegagramPerCubicHectometer
                                                                   , 1.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7009,6 +7661,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/fm³"
                                                                , MegagramPerCubicPicometer
                                                                , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7021,6 +7674,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7031,6 +7685,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mt/Mm³"
                                                                   , MegagramPerCubicKilometer
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7041,6 +7696,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mt/Gm³"
                                                                   , MegagramPerCubicMegameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7051,6 +7707,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/am³"
                                                               , MegagramPerCubicFemtometer
                                                               , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7063,6 +7720,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7073,6 +7731,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "μt/m³"
                                                                , MillitonnePerCubicMeter
                                                                , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7083,6 +7742,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mt/Tm³"
                                                                   , MegagramPerCubicGigameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7093,6 +7753,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mt/Pm³"
                                                                   , MegagramPerCubicTerameter
                                                                   , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7103,6 +7764,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/zm³"
                                                                , MegagramPerCubicAttometer
                                                                , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7113,6 +7775,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "mt/Em³"
                                                                  , MegagramPerCubicPetameter
                                                                  , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -7123,6 +7786,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/Zm³"
                                                                    , MegagramPerCubicExameter
                                                                    , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7133,6 +7797,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/ym³"
                                                                , MegagramPerCubicZeptometer
                                                                , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7145,6 +7810,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7157,6 +7823,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7169,6 +7836,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7179,6 +7847,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "nt/m³"
                                                               , MicrotonnePerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7189,6 +7858,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/Ym³"
                                                                    , MegagramPerCubicZettameter
                                                                    , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7199,6 +7869,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/Rm³"
                                                                    , MegagramPerCubicYottameter
                                                                    , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7209,6 +7880,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/rm³"
                                                                , MegagramPerCubicYoctometer
                                                                , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7219,6 +7891,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "mt/Qm³"
                                                                     , MegagramPerCubicRonnameter
                                                                     , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7229,6 +7902,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "t/qm³"
                                                                 , MegagramPerCubicRontometer
                                                                 , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -7241,6 +7915,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7251,6 +7926,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "pt/m³"
                                                               , NanotonnePerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7261,6 +7937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/dam³"
                                                               , MegagramPerCubicMeter
                                                               , 1.0 / (10.0 * 10.0 * 10.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7273,6 +7950,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7285,6 +7963,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7295,6 +7974,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/hm³"
                                                                , MegagramPerCubicDekameter
                                                                , 1.0 / (10.0 * 10.0 * 10.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7307,6 +7987,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7319,6 +8000,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7329,6 +8011,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "ft/m³"
                                                                , PicotonnePerCubicMeter
                                                                , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7339,6 +8022,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/km³"
                                                               , MegagramPerCubicHectometer
                                                               , 1.0 / (10.0 * 10.0 * 10.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7349,6 +8033,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/Mm³"
                                                               , MegagramPerCubicKilometer
                                                               , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7361,6 +8046,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7373,6 +8059,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7385,6 +8072,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7395,6 +8083,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "at/m³"
                                                               , FemtotonnePerCubicMeter
                                                               , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7405,6 +8094,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/Gm³"
                                                               , MegagramPerCubicMegameter
                                                               , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7415,6 +8105,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/Tm³"
                                                               , MegagramPerCubicGigameter
                                                               , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7427,6 +8118,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7439,6 +8131,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7451,6 +8144,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7461,6 +8155,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "zt/m³"
                                                                , AttotonnePerCubicMeter
                                                                , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7471,6 +8166,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "t/Pm³"
                                                               , MegagramPerCubicTerameter
                                                               , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7483,6 +8179,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7495,6 +8192,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7505,6 +8203,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "t/Em³"
                                                              , MegagramPerCubicPetameter
                                                              , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -7517,6 +8216,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7527,6 +8227,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "yt/m³"
                                                                , ZeptotonnePerCubicMeter
                                                                , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7537,6 +8238,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/Zm³"
                                                                , MegagramPerCubicExameter
                                                                , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7547,6 +8249,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/Ym³"
                                                                , MegagramPerCubicZettameter
                                                                , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7559,6 +8262,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7571,6 +8275,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7583,6 +8288,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7595,6 +8301,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7607,6 +8314,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7617,6 +8325,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "rt/m³"
                                                                , YoctotonnePerCubicMeter
                                                                , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7627,6 +8336,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "t/Rm³"
                                                                , MegagramPerCubicYottameter
                                                                , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7639,6 +8349,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7649,6 +8360,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "t/Qm³"
                                                                 , MegagramPerCubicRonnameter
                                                                 , 1.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -7661,6 +8373,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7671,6 +8384,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "qt/m³"
                                                                 , RontotonnePerCubicMeter
                                                                 , 1.0 / 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -7683,6 +8397,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7695,6 +8410,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7705,6 +8421,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "dat/m³"
                                                               , TonnePerCubicMeter
                                                               , 10.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7717,6 +8434,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7729,6 +8447,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7741,6 +8460,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7751,6 +8471,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "ht/m³"
                                                                , DekatonnePerCubicMeter
                                                                , 10.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -7761,6 +8482,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dt/dam³"
                                                                   , TonnePerCubicMeter
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7773,6 +8495,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7785,6 +8508,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7797,6 +8521,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7809,6 +8534,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7819,6 +8545,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "kt/m³"
                                                               , HectotonnePerCubicMeter
                                                               , 10.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7829,6 +8556,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dt/hm³"
                                                                    , TonnePerCubicDekameter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7841,6 +8569,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7853,6 +8582,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7865,6 +8595,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7877,6 +8608,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7887,6 +8619,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "Mt/m³"
                                                               , KilotonnePerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7897,6 +8630,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dt/km³"
                                                                   , TonnePerCubicHectometer
                                                                   , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7909,6 +8643,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7921,6 +8656,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7931,6 +8667,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "Gt/m³"
                                                               , MegatonnePerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -7941,6 +8678,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dt/Mm³"
                                                                   , TonnePerCubicKilometer
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -7953,6 +8691,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7965,6 +8704,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7977,6 +8717,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7989,6 +8730,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8001,6 +8743,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8011,6 +8754,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "Tt/m³"
                                                               , GigatonnePerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -8021,6 +8765,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dt/Gm³"
                                                                   , TonnePerCubicMegameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8033,6 +8778,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8045,6 +8791,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8055,6 +8802,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                               , "Pt/m³"
                                                               , TeratonnePerCubicMeter
                                                               , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -8065,6 +8813,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dt/Tm³"
                                                                   , TonnePerCubicGigameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8077,6 +8826,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8089,6 +8839,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8101,6 +8852,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8113,6 +8865,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8123,6 +8876,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                              , "Et/m³"
                                                              , PetatonnePerCubicMeter
                                                              , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                             , system: "SI"
                                                               );
 
    /// <summary>
@@ -8133,6 +8887,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dat/dm³"
                                                                   , TonnePerCubicMeter
                                                                   , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8143,6 +8898,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dt/Pm³"
                                                                   , TonnePerCubicTerameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8155,6 +8911,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 10.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -8167,6 +8924,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8179,6 +8937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8189,6 +8948,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "Zt/m³"
                                                                , ExatonnePerCubicMeter
                                                                , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -8199,6 +8959,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dt/Em³"
                                                                  , TonnePerCubicPetameter
                                                                  , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -8211,6 +8972,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8223,6 +8985,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8233,6 +8996,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ht/dm³"
                                                                    , DekatonnePerCubicMeter
                                                                    , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8243,6 +9007,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ct/dam³"
                                                                    , DecitonnePerCubicMeter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8255,6 +9020,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8267,6 +9033,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8277,6 +9044,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "Yt/m³"
                                                                , ZettatonnePerCubicMeter
                                                                , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -8287,6 +9055,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dt/Zm³"
                                                                    , TonnePerCubicExameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8297,6 +9066,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                , "Rt/m³"
                                                                , YottatonnePerCubicMeter
                                                                , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -8307,6 +9077,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kt/dm³"
                                                                   , HectotonnePerCubicMeter
                                                                   , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8317,6 +9088,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dt/Ym³"
                                                                    , TonnePerCubicZettameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8327,6 +9099,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ct/hm³"
                                                                     , DecitonnePerCubicDekameter
                                                                     , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8339,6 +9112,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8351,6 +9125,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8363,6 +9138,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8375,6 +9151,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8387,6 +9164,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8397,6 +9175,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Qt/m³"
                                                                 , RonnatonnePerCubicMeter
                                                                 , 1000.0 / (1.0 * 1.0 * 1.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -8407,6 +9186,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dt/Rm³"
                                                                    , TonnePerCubicYottameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8419,6 +9199,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8431,6 +9212,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8441,6 +9223,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mt/dm³"
                                                                   , KilotonnePerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8451,6 +9234,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ct/km³"
                                                                    , DecitonnePerCubicHectometer
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8461,6 +9245,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "dt/Qm³"
                                                                     , TonnePerCubicRonnameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8473,6 +9258,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8485,6 +9271,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -8495,6 +9282,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gt/dm³"
                                                                   , MegatonnePerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8505,6 +9293,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ct/Mm³"
                                                                    , DecitonnePerCubicKilometer
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8517,6 +9306,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8529,6 +9319,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8541,6 +9332,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8553,6 +9345,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8563,6 +9356,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dat/cm³"
                                                                    , TonnePerCubicDecimeter
                                                                    , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8575,6 +9369,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 10.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -8587,6 +9382,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8599,6 +9395,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8609,6 +9406,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tt/dm³"
                                                                   , GigatonnePerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8619,6 +9417,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ct/Gm³"
                                                                    , DecitonnePerCubicMegameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8629,6 +9428,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pt/dm³"
                                                                   , TeratonnePerCubicMeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8639,6 +9439,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ht/cm³"
                                                                     , DekatonnePerCubicDecimeter
                                                                     , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8649,6 +9450,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ct/Tm³"
                                                                    , DecitonnePerCubicGigameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8659,6 +9461,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/dam³"
                                                                    , CentitonnePerCubicMeter
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8671,6 +9474,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8683,6 +9487,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8695,6 +9500,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8707,6 +9513,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8717,6 +9524,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Et/dm³"
                                                                  , PetatonnePerCubicMeter
                                                                  , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -8727,6 +9535,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ct/Pm³"
                                                                    , DecitonnePerCubicTerameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8739,6 +9548,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8751,6 +9561,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8761,6 +9572,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "kt/cm³"
                                                                    , HectotonnePerCubicDecimeter
                                                                    , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8771,6 +9583,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "mt/hm³"
                                                                     , CentitonnePerCubicDekameter
                                                                     , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8783,6 +9596,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8795,6 +9609,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8807,6 +9622,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -8817,6 +9633,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zt/dm³"
                                                                    , ExatonnePerCubicMeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8827,6 +9644,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ct/Em³"
                                                                   , DecitonnePerCubicPetameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8839,6 +9657,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8851,6 +9670,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8861,6 +9681,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Mt/cm³"
                                                                    , KilotonnePerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8871,6 +9692,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/km³"
                                                                    , CentitonnePerCubicHectometer
                                                                    , 1.0 / 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8881,6 +9703,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yt/dm³"
                                                                    , ZettatonnePerCubicMeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8891,6 +9714,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ct/Zm³"
                                                                     , DecitonnePerCubicExameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8901,6 +9725,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dat/mm³"
                                                                    , TonnePerCubicCentimeter
                                                                    , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8913,6 +9738,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -8925,6 +9751,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8937,6 +9764,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8947,6 +9775,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rt/dm³"
                                                                    , YottatonnePerCubicMeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8957,6 +9786,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Gt/cm³"
                                                                    , MegatonnePerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8967,6 +9797,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ct/Ym³"
                                                                     , DecitonnePerCubicZettameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8977,6 +9808,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/Mm³"
                                                                    , CentitonnePerCubicKilometer
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8989,6 +9821,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9001,6 +9834,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9013,6 +9847,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9025,6 +9860,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9036,6 +9872,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnatonnePerCubicMeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9046,6 +9883,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ht/mm³"
                                                                     , DekatonnePerCubicCentimeter
                                                                     , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9056,6 +9894,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ct/Rm³"
                                                                     , DecitonnePerCubicYottameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9066,6 +9905,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μt/dam³"
                                                                    , MillitonnePerCubicMeter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9076,6 +9916,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Tt/cm³"
                                                                    , GigatonnePerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9086,6 +9927,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/Gm³"
                                                                    , CentitonnePerCubicMegameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9098,6 +9940,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9110,6 +9953,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9120,6 +9964,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "ct/Qm³"
                                                                      , DecitonnePerCubicRonnameter
                                                                      , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -9132,6 +9977,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9144,6 +9990,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -9154,6 +10001,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Pt/cm³"
                                                                    , TeratonnePerCubicDecimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9164,6 +10012,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "kt/mm³"
                                                                    , HectotonnePerCubicCentimeter
                                                                    , 10.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9174,6 +10023,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/Tm³"
                                                                    , CentitonnePerCubicGigameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9184,6 +10034,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "μt/hm³"
                                                                     , MillitonnePerCubicDekameter
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9196,6 +10047,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9208,6 +10060,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9220,6 +10073,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9230,6 +10084,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Et/cm³"
                                                                   , PetatonnePerCubicDecimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9241,6 +10096,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TonnePerCubicMillimeter
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9251,6 +10107,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "mt/Pm³"
                                                                    , CentitonnePerCubicTerameter
                                                                    , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9263,6 +10120,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9275,6 +10133,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9287,6 +10146,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9297,6 +10157,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Mt/mm³"
                                                                    , KilotonnePerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9307,6 +10168,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μt/km³"
                                                                    , MillitonnePerCubicHectometer
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9318,6 +10180,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ExatonnePerCubicDecimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9328,6 +10191,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "mt/Em³"
                                                                   , CentitonnePerCubicPetameter
                                                                   , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9340,6 +10204,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9352,6 +10217,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9362,6 +10228,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Gt/mm³"
                                                                    , MegatonnePerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9373,6 +10240,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , DekatonnePerCubicMillimeter
                                                                     , 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9383,6 +10251,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μt/Mm³"
                                                                    , MillitonnePerCubicKilometer
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9393,6 +10262,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "nt/dam³"
                                                                   , MicrotonnePerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9405,6 +10275,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , 1.0
                                                                   / 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9417,6 +10288,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9429,6 +10301,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9441,6 +10314,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9452,6 +10326,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ZettatonnePerCubicDecimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9462,6 +10337,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "mt/Zm³"
                                                                     , CentitonnePerCubicExameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9472,6 +10348,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Tt/mm³"
                                                                    , GigatonnePerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9482,6 +10359,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μt/Gm³"
                                                                    , MillitonnePerCubicMegameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9493,6 +10371,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , YottatonnePerCubicDecimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9504,6 +10383,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , HectotonnePerCubicMillimeter
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9514,6 +10394,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "mt/Ym³"
                                                                     , CentitonnePerCubicZettameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9524,6 +10405,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "nt/hm³"
                                                                    , MicrotonnePerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9536,6 +10418,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9548,6 +10431,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9559,6 +10443,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TonnePerCubicMicrometer
                                                                   , 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9571,6 +10456,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9583,6 +10469,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9595,6 +10482,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9606,6 +10494,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , RonnatonnePerCubicDecimeter
                                                                      , 1000.0
                                                                      / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -9616,6 +10505,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Pt/mm³"
                                                                    , TeratonnePerCubicCentimeter
                                                                    , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9626,6 +10516,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "mt/Rm³"
                                                                     , CentitonnePerCubicYottameter
                                                                     , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9636,6 +10527,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μt/Tm³"
                                                                    , MillitonnePerCubicGigameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9648,6 +10540,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9659,6 +10552,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , KilotonnePerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9669,6 +10563,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "nt/km³"
                                                                   , MicrotonnePerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9679,6 +10574,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "mt/Qm³"
                                                                      , CentitonnePerCubicRonnameter
                                                                      , 1.0 / 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -9691,6 +10587,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9703,6 +10600,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9713,6 +10611,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Et/mm³"
                                                                   , PetatonnePerCubicCentimeter
                                                                   , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9724,6 +10623,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , DekatonnePerCubicMicrometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9734,6 +10634,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "μt/Pm³"
                                                                    , MillitonnePerCubicTerameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9744,6 +10645,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pt/dam³"
                                                                   , NanotonnePerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9755,6 +10657,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegatonnePerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9765,6 +10668,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "nt/Mm³"
                                                                   , MicrotonnePerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9777,6 +10681,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9789,6 +10694,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9800,6 +10706,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ExatonnePerCubicCentimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9810,6 +10717,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "μt/Em³"
                                                                   , MillitonnePerCubicPetameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9822,6 +10730,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9834,6 +10743,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9845,6 +10755,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , HectotonnePerCubicMicrometer
                                                                   , 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9856,6 +10767,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TonnePerCubicNanometer
                                                                   , 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9866,6 +10778,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "pt/hm³"
                                                                    , NanotonnePerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9878,6 +10791,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -9889,6 +10803,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , GigatonnePerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9899,6 +10814,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "nt/Gm³"
                                                                   , MicrotonnePerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9910,6 +10826,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ZettatonnePerCubicCentimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9920,6 +10837,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "μt/Zm³"
                                                                     , MillitonnePerCubicExameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9932,6 +10850,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9944,6 +10863,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -9955,6 +10875,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilotonnePerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9965,6 +10886,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pt/km³"
                                                                   , NanotonnePerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -9976,6 +10898,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , YottatonnePerCubicCentimeter
                                                                     , 1000.0
                                                                     / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -9987,6 +10910,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TeratonnePerCubicMillimeter
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -9998,6 +10922,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , DekatonnePerCubicNanometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10008,6 +10933,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "μt/Ym³"
                                                                     , MillitonnePerCubicZettameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10018,6 +10944,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "nt/Tm³"
                                                                   , MicrotonnePerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10028,6 +10955,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ft/dam³"
                                                                    , PicotonnePerCubicMeter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10040,6 +10968,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10052,6 +10981,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , 1.0
                                                                    / 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10064,6 +10994,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10075,6 +11006,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , RonnatonnePerCubicCentimeter
                                                                      , 1000.0
                                                                      / (1.0 / 10.0 * (1.0 / 10.0) * (1.0 / 10.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10085,6 +11017,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "μt/Rm³"
                                                                     , MillitonnePerCubicYottameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10096,6 +11029,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , PetatonnePerCubicMillimeter
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10107,6 +11041,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegatonnePerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10118,6 +11053,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TonnePerCubicPicometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10128,6 +11064,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "nt/Pm³"
                                                                   , MicrotonnePerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10138,6 +11075,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pt/Mm³"
                                                                   , NanotonnePerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10150,6 +11088,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10161,6 +11100,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , HectotonnePerCubicNanometer
                                                                   , 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10171,6 +11111,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ft/hm³"
                                                                     , PicotonnePerCubicDekameter
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10181,6 +11122,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "μt/Qm³"
                                                                      , MillitonnePerCubicRonnameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10193,6 +11135,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10205,6 +11148,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10216,6 +11160,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ExatonnePerCubicMillimeter
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10226,6 +11171,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "nt/Em³"
                                                                  , MicrotonnePerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -10238,6 +11184,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10250,6 +11197,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10261,6 +11209,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , GigatonnePerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10271,6 +11220,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pt/Gm³"
                                                                   , NanotonnePerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10282,6 +11232,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , DekatonnePerCubicPicometer
                                                                     , 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10292,6 +11243,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "at/dam³"
                                                                   , FemtotonnePerCubicMeter
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10303,6 +11255,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilotonnePerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10313,6 +11266,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ft/km³"
                                                                    , PicotonnePerCubicHectometer
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10324,6 +11278,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ZettatonnePerCubicMillimeter
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10334,6 +11289,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "nt/Zm³"
                                                                    , MicrotonnePerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10345,6 +11301,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TeratonnePerCubicMicrometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10356,6 +11313,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TonnePerCubicFemtometer
                                                                   , 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10366,6 +11324,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pt/Tm³"
                                                                   , NanotonnePerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10378,6 +11337,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10390,6 +11350,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10402,6 +11363,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10413,6 +11375,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , YottatonnePerCubicMillimeter
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10424,6 +11387,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegatonnePerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10435,6 +11399,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , HectotonnePerCubicPicometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10445,6 +11410,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "nt/Ym³"
                                                                    , MicrotonnePerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10455,6 +11421,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ft/Mm³"
                                                                    , PicotonnePerCubicKilometer
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10465,6 +11432,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "at/hm³"
                                                                    , FemtotonnePerCubicDekameter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10477,6 +11445,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10488,6 +11457,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , PetatonnePerCubicMicrometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -10498,6 +11468,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "pt/Pm³"
                                                                   , NanotonnePerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10509,6 +11480,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , RonnatonnePerCubicMillimeter
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10520,6 +11492,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , DekatonnePerCubicFemtometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10530,6 +11503,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "nt/Rm³"
                                                                    , MicrotonnePerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10540,6 +11514,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zt/dam³"
                                                                    , AttotonnePerCubicMeter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10551,6 +11526,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , GigatonnePerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10561,6 +11537,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ft/Gm³"
                                                                    , PicotonnePerCubicMegameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10572,6 +11549,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , KilotonnePerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10582,6 +11560,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "at/km³"
                                                                   , FemtotonnePerCubicHectometer
                                                                   , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10593,6 +11572,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ExatonnePerCubicMicrometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10604,6 +11584,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TonnePerCubicAttometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10614,6 +11595,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "pt/Em³"
                                                                  , NanotonnePerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -10626,6 +11608,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10636,6 +11619,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "nt/Qm³"
                                                                     , MicrotonnePerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10648,6 +11632,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , 1.0
                                                                     / 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10660,6 +11645,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10671,6 +11657,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TeratonnePerCubicNanometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10682,6 +11669,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , HectotonnePerCubicFemtometer
                                                                   , 10.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10692,6 +11680,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ft/Tm³"
                                                                    , PicotonnePerCubicGigameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10702,6 +11691,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "zt/hm³"
                                                                     , AttotonnePerCubicDekameter
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10713,6 +11703,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ZettatonnePerCubicMicrometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10723,6 +11714,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "pt/Zm³"
                                                                    , NanotonnePerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10734,6 +11726,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegatonnePerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10744,6 +11737,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "at/Mm³"
                                                                   , FemtotonnePerCubicKilometer
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10755,6 +11749,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , DekatonnePerCubicAttometer
                                                                     , 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10765,6 +11760,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yt/dam³"
                                                                    , ZeptotonnePerCubicMeter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10776,6 +11772,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , YottatonnePerCubicMicrometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10787,6 +11784,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , PetatonnePerCubicNanometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -10798,6 +11796,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TonnePerCubicZeptometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10808,6 +11807,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "pt/Ym³"
                                                                    , NanotonnePerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10818,6 +11818,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ft/Pm³"
                                                                    , PicotonnePerCubicTerameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10830,6 +11831,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10842,6 +11844,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , 1.0
                                                                      / 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -10853,6 +11856,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , KilotonnePerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10863,6 +11867,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zt/km³"
                                                                    , AttotonnePerCubicHectometer
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10874,6 +11879,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , GigatonnePerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10884,6 +11890,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "at/Gm³"
                                                                   , FemtotonnePerCubicMegameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10895,6 +11902,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnatonnePerCubicMicrometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10905,6 +11913,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "pt/Rm³"
                                                                    , NanotonnePerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10916,6 +11925,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ExatonnePerCubicNanometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10927,6 +11937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , HectotonnePerCubicAttometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10937,6 +11948,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ft/Em³"
                                                                   , PicotonnePerCubicPetameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10947,6 +11959,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "yt/hm³"
                                                                     , ZeptotonnePerCubicDekameter
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10958,6 +11971,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TeratonnePerCubicPicometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -10969,6 +11983,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , MegatonnePerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -10980,6 +11995,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , DekatonnePerCubicZeptometer
                                                                     , 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -10990,6 +12006,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "at/Tm³"
                                                                   , FemtotonnePerCubicGigameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11000,6 +12017,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zt/Mm³"
                                                                    , AttotonnePerCubicKilometer
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11010,6 +12028,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rt/dam³"
                                                                    , YoctotonnePerCubicMeter
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11021,6 +12040,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TonnePerCubicYoctometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11031,6 +12051,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "pt/Qm³"
                                                                     , NanotonnePerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11043,6 +12064,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       , 1.0
                                                                       / 1000.0
                                                                       / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -11054,6 +12076,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ZettatonnePerCubicNanometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11064,6 +12087,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ft/Zm³"
                                                                     , PicotonnePerCubicExameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11075,6 +12099,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , KilotonnePerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11085,6 +12110,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yt/km³"
                                                                    , ZeptotonnePerCubicHectometer
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11096,6 +12122,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , PetatonnePerCubicPicometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11106,6 +12133,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "at/Pm³"
                                                                   , FemtotonnePerCubicTerameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11117,6 +12145,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , GigatonnePerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11127,6 +12156,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zt/Gm³"
                                                                    , AttotonnePerCubicMegameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11138,6 +12168,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , YottatonnePerCubicNanometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11149,6 +12180,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , HectotonnePerCubicZeptometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11159,6 +12191,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ft/Ym³"
                                                                     , PicotonnePerCubicZettameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11169,6 +12202,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "rt/hm³"
                                                                     , YoctotonnePerCubicDekameter
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11180,6 +12214,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , DekatonnePerCubicYoctometer
                                                                     , 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11190,6 +12225,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qt/dam³"
                                                                     , RontotonnePerCubicMeter
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11201,6 +12237,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , TonnePerCubicRontometer
                                                                     , 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11212,6 +12249,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ExatonnePerCubicPicometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11223,6 +12261,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegatonnePerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11233,6 +12272,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "at/Em³"
                                                                  , FemtotonnePerCubicPetameter
                                                                  , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -11243,6 +12283,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yt/Mm³"
                                                                    , ZeptotonnePerCubicKilometer
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11254,6 +12295,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnatonnePerCubicNanometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11265,6 +12307,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , TeratonnePerCubicFemtometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11275,6 +12318,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ft/Rm³"
                                                                     , PicotonnePerCubicYottameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11285,6 +12329,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zt/Tm³"
                                                                    , AttotonnePerCubicGigameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11296,6 +12341,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , KilotonnePerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11306,6 +12352,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rt/km³"
                                                                    , YoctotonnePerCubicHectometer
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11317,6 +12364,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ZettatonnePerCubicPicometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11327,6 +12375,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "at/Zm³"
                                                                    , FemtotonnePerCubicExameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11338,6 +12387,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , HectotonnePerCubicYoctometer
                                                                    , 10.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11348,6 +12398,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "ft/Qm³"
                                                                      , PicotonnePerCubicRonnameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -11358,6 +12409,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "qt/hm³"
                                                                      , RontotonnePerCubicDekameter
                                                                      , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -11369,6 +12421,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , GigatonnePerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11379,6 +12432,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yt/Gm³"
                                                                    , ZeptotonnePerCubicMegameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11390,6 +12444,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , PetatonnePerCubicFemtometer
                                                                  , 1000.0
                                                                  / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -11401,6 +12456,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , DekatonnePerCubicRontometer
                                                                      , 10.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -11411,6 +12467,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dat/dam³"
                                                                   , TonnePerCubicMeter
                                                                   , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11421,6 +12478,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "zt/Pm³"
                                                                    , AttotonnePerCubicTerameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11432,6 +12490,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , YottatonnePerCubicPicometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11443,6 +12502,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegatonnePerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11453,6 +12513,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "at/Ym³"
                                                                    , FemtotonnePerCubicZettameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11463,6 +12524,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rt/Mm³"
                                                                    , YoctotonnePerCubicKilometer
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11474,6 +12536,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ExatonnePerCubicFemtometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11485,6 +12548,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TeratonnePerCubicAttometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11495,6 +12559,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "zt/Em³"
                                                                   , AttotonnePerCubicPetameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11505,6 +12570,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yt/Tm³"
                                                                    , ZeptotonnePerCubicGigameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11516,6 +12582,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , KilotonnePerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11526,6 +12593,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qt/km³"
                                                                     , RontotonnePerCubicHectometer
                                                                     , 1.0 / 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11537,6 +12605,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , HectotonnePerCubicRontometer
                                                                     , 10.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11547,6 +12616,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dat/hm³"
                                                                    , TonnePerCubicDekameter
                                                                    , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11558,6 +12628,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , RonnatonnePerCubicPicometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -11568,6 +12639,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ht/dam³"
                                                                    , DekatonnePerCubicMeter
                                                                    , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11578,6 +12650,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "at/Rm³"
                                                                    , FemtotonnePerCubicYottameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11589,6 +12662,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , GigatonnePerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11599,6 +12673,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rt/Gm³"
                                                                    , YoctotonnePerCubicMegameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11610,6 +12685,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , ZettatonnePerCubicFemtometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11620,6 +12696,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "zt/Zm³"
                                                                     , AttotonnePerCubicExameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11631,6 +12708,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , PetatonnePerCubicAttometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11641,6 +12719,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "yt/Pm³"
                                                                    , ZeptotonnePerCubicTerameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11652,6 +12731,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , MegatonnePerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11662,6 +12742,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "at/Qm³"
                                                                     , FemtotonnePerCubicRonnameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11672,6 +12753,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qt/Mm³"
                                                                     , RontotonnePerCubicKilometer
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11683,6 +12765,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , KilotonnePerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11693,6 +12776,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dat/km³"
                                                                   , TonnePerCubicHectometer
                                                                   , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11704,6 +12788,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , YottatonnePerCubicFemtometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11715,6 +12800,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TeratonnePerCubicZeptometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11725,6 +12811,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kt/dam³"
                                                                   , HectotonnePerCubicMeter
                                                                   , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11735,6 +12822,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ht/hm³"
                                                                     , DekatonnePerCubicDekameter
                                                                     , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11745,6 +12833,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "zt/Ym³"
                                                                     , AttotonnePerCubicZettameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11755,6 +12844,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rt/Tm³"
                                                                    , YoctotonnePerCubicGigameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11766,6 +12856,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ExatonnePerCubicAttometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11776,6 +12867,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "yt/Em³"
                                                                   , ZeptotonnePerCubicPetameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11787,6 +12879,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , GigatonnePerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11797,6 +12890,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qt/Gm³"
                                                                     , RontotonnePerCubicMegameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11808,6 +12902,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , RonnatonnePerCubicFemtometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11818,6 +12913,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "zt/Rm³"
                                                                     , AttotonnePerCubicYottameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11829,6 +12925,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , PetatonnePerCubicZeptometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11840,6 +12937,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , MegatonnePerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11850,6 +12948,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dat/Mm³"
                                                                   , TonnePerCubicKilometer
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11860,6 +12959,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "rt/Pm³"
                                                                    , YoctotonnePerCubicTerameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11871,6 +12971,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ZettatonnePerCubicAttometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11881,6 +12982,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "yt/Zm³"
                                                                     , ZeptotonnePerCubicExameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11891,6 +12993,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mt/dam³"
                                                                   , KilotonnePerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11901,6 +13004,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ht/km³"
                                                                    , DekatonnePerCubicHectometer
                                                                    , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11911,6 +13015,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "kt/hm³"
                                                                    , HectotonnePerCubicDekameter
                                                                    , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11922,6 +13027,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , TeratonnePerCubicYoctometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -11932,6 +13038,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "zt/Qm³"
                                                                      , AttotonnePerCubicRonnameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -11942,6 +13049,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qt/Tm³"
                                                                     , RontotonnePerCubicGigameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11953,6 +13061,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , YottatonnePerCubicAttometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11964,6 +13073,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ExatonnePerCubicZeptometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11974,6 +13084,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "yt/Ym³"
                                                                     , ZeptotonnePerCubicZettameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -11984,6 +13095,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "rt/Em³"
                                                                   , YoctotonnePerCubicPetameter
                                                                   , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -11995,6 +13107,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , GigatonnePerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12005,6 +13118,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dat/Gm³"
                                                                   , TonnePerCubicMegameter
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12015,6 +13129,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gt/dam³"
                                                                   , MegatonnePerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12025,6 +13140,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ht/Mm³"
                                                                    , DekatonnePerCubicKilometer
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12035,6 +13151,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Mt/hm³"
                                                                    , KilotonnePerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12045,6 +13162,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kt/km³"
                                                                   , HectotonnePerCubicHectometer
                                                                   , 10.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12056,6 +13174,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , PetatonnePerCubicYoctometer
                                                                   , 1000.0
                                                                   / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12066,6 +13185,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "qt/Pm³"
                                                                     , RontotonnePerCubicTerameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12077,6 +13197,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , RonnatonnePerCubicAttometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12087,6 +13208,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "yt/Rm³"
                                                                     , ZeptotonnePerCubicYottameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12098,6 +13220,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ZettatonnePerCubicZeptometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12108,6 +13231,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "rt/Zm³"
                                                                     , YoctotonnePerCubicExameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12119,6 +13243,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , TeratonnePerCubicRontometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12129,6 +13254,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dat/Tm³"
                                                                   , TonnePerCubicGigameter
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12139,6 +13265,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tt/dam³"
                                                                   , GigatonnePerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12149,6 +13276,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ht/Gm³"
                                                                    , DekatonnePerCubicMegameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12160,6 +13288,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ExatonnePerCubicYoctometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12170,6 +13299,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "yt/Qm³"
                                                                      , ZeptotonnePerCubicRonnameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12180,6 +13310,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "qt/Em³"
                                                                    , RontotonnePerCubicPetameter
                                                                    , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12191,6 +13322,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , YottatonnePerCubicZeptometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12201,6 +13333,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Gt/hm³"
                                                                    , MegatonnePerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12211,6 +13344,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kt/Mm³"
                                                                   , HectotonnePerCubicKilometer
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12221,6 +13355,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "rt/Ym³"
                                                                     , YoctotonnePerCubicZettameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12231,6 +13366,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mt/km³"
                                                                   , KilotonnePerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12242,6 +13378,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , PetatonnePerCubicRontometer
                                                                    , 1000.0
                                                                    / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12252,6 +13389,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "dat/Pm³"
                                                                   , TonnePerCubicTerameter
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12263,6 +13401,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , ZettatonnePerCubicYoctometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12273,6 +13412,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "qt/Zm³"
                                                                      , RontotonnePerCubicExameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12284,6 +13424,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , RonnatonnePerCubicZeptometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12294,6 +13435,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pt/dam³"
                                                                   , TeratonnePerCubicMeter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12304,6 +13446,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ht/Tm³"
                                                                    , DekatonnePerCubicGigameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12314,6 +13457,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "rt/Rm³"
                                                                     , YoctotonnePerCubicYottameter
                                                                     , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12324,6 +13468,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Tt/hm³"
                                                                    , GigatonnePerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12334,6 +13479,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kt/Gm³"
                                                                   , HectotonnePerCubicMegameter
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12344,6 +13490,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gt/km³"
                                                                   , MegatonnePerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12354,6 +13501,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mt/Mm³"
                                                                   , KilotonnePerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12365,6 +13513,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , ExatonnePerCubicRontometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12375,6 +13524,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "dat/Em³"
                                                                  , TonnePerCubicPetameter
                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -12386,6 +13536,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , YottatonnePerCubicYoctometer
                                                                     , 1000.0
                                                                     / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12396,6 +13547,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "rt/Qm³"
                                                                      , YoctotonnePerCubicRonnameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12406,6 +13558,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "qt/Ym³"
                                                                      , RontotonnePerCubicZettameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12416,6 +13569,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Et/dam³"
                                                                  , PetatonnePerCubicMeter
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -12426,6 +13580,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "ht/Pm³"
                                                                    , DekatonnePerCubicTerameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12436,6 +13591,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Pt/hm³"
                                                                    , TeratonnePerCubicDekameter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12446,6 +13602,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kt/Tm³"
                                                                   , HectotonnePerCubicGigameter
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12457,6 +13614,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , ZettatonnePerCubicRontometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12467,6 +13625,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dat/Zm³"
                                                                    , TonnePerCubicExameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12477,6 +13636,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tt/km³"
                                                                   , GigatonnePerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12487,6 +13647,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mt/Gm³"
                                                                   , KilotonnePerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12497,6 +13658,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gt/Mm³"
                                                                   , MegatonnePerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12508,6 +13670,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , RonnatonnePerCubicYoctometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12518,6 +13681,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "qt/Rm³"
                                                                      , RontotonnePerCubicYottameter
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12528,6 +13692,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zt/dam³"
                                                                    , ExatonnePerCubicMeter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12538,6 +13703,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "ht/Em³"
                                                                   , DekatonnePerCubicPetameter
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12549,6 +13715,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , YottatonnePerCubicRontometer
                                                                      , 1000.0
                                                                      / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12559,6 +13726,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Et/hm³"
                                                                   , PetatonnePerCubicDekameter
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12569,6 +13737,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "kt/Pm³"
                                                                   , HectotonnePerCubicTerameter
                                                                   , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12579,6 +13748,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dat/Ym³"
                                                                    , TonnePerCubicZettameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12589,6 +13759,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       , "qt/Qm³"
                                                                       , RontotonnePerCubicRonnameter
                                                                       , 1.0 / 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -12599,6 +13770,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pt/km³"
                                                                   , TeratonnePerCubicHectometer
                                                                   , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12609,6 +13781,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mt/Tm³"
                                                                   , KilotonnePerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12619,6 +13792,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tt/Mm³"
                                                                   , GigatonnePerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12629,6 +13803,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gt/Gm³"
                                                                   , MegatonnePerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12639,6 +13814,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yt/dam³"
                                                                    , ZettatonnePerCubicMeter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12649,6 +13825,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ht/Zm³"
                                                                     , DekatonnePerCubicExameter
                                                                     , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12660,6 +13837,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       , RonnatonnePerCubicRontometer
                                                                       , 1000.0
                                                                       / (1.0 / 1000.0 * (1.0 / 1000.0) * (1.0 / 1000.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -12670,6 +13848,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "dat/Rm³"
                                                                    , TonnePerCubicYottameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12680,6 +13859,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Zt/hm³"
                                                                     , ExatonnePerCubicDekameter
                                                                     , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12690,6 +13870,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "kt/Em³"
                                                                  , HectotonnePerCubicPetameter
                                                                  , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -12700,6 +13881,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Et/km³"
                                                                  , PetatonnePerCubicHectometer
                                                                  , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -12710,6 +13892,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Mt/Pm³"
                                                                   , KilotonnePerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12720,6 +13903,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rt/dam³"
                                                                    , YottatonnePerCubicMeter
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12730,6 +13914,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pt/Mm³"
                                                                   , TeratonnePerCubicKilometer
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12740,6 +13925,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gt/Tm³"
                                                                   , MegatonnePerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12750,6 +13936,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ht/Ym³"
                                                                     , DekatonnePerCubicZettameter
                                                                     , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12760,6 +13947,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tt/Gm³"
                                                                   , GigatonnePerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12770,6 +13958,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "dat/Qm³"
                                                                     , TonnePerCubicRonnameter
                                                                     , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12780,6 +13969,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Yt/hm³"
                                                                     , ZettatonnePerCubicDekameter
                                                                     , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12790,6 +13980,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "kt/Zm³"
                                                                    , HectotonnePerCubicExameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12800,6 +13991,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zt/km³"
                                                                    , ExatonnePerCubicHectometer
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12810,6 +14002,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Mt/Em³"
                                                                  , KilotonnePerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -12820,6 +14013,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qt/dam³"
                                                                     , RonnatonnePerCubicMeter
                                                                     , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12830,6 +14024,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "ht/Rm³"
                                                                     , DekatonnePerCubicYottameter
                                                                     , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12840,6 +14035,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Et/Mm³"
                                                                  , PetatonnePerCubicKilometer
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -12850,6 +14046,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Gt/Pm³"
                                                                   , MegatonnePerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12860,6 +14057,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pt/Gm³"
                                                                   , TeratonnePerCubicMegameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12870,6 +14068,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tt/Tm³"
                                                                   , GigatonnePerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12880,6 +14079,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Rt/hm³"
                                                                     , YottatonnePerCubicDekameter
                                                                     , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -12890,6 +14090,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "kt/Ym³"
                                                                    , HectotonnePerCubicZettameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12900,6 +14101,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "ht/Qm³"
                                                                      , DekatonnePerCubicRonnameter
                                                                      , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12910,6 +14112,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yt/km³"
                                                                    , ZettatonnePerCubicHectometer
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12920,6 +14123,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Mt/Zm³"
                                                                    , KilotonnePerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12930,6 +14134,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zt/Mm³"
                                                                    , ExatonnePerCubicKilometer
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -12940,6 +14145,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Gt/Em³"
                                                                  , MegatonnePerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -12950,6 +14156,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Et/Gm³"
                                                                  , PetatonnePerCubicMegameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -12960,6 +14167,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Tt/Pm³"
                                                                   , GigatonnePerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12970,6 +14178,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "Qt/hm³"
                                                                      , RonnatonnePerCubicDekameter
                                                                      , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -12980,6 +14189,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pt/Tm³"
                                                                   , TeratonnePerCubicGigameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -12990,6 +14200,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "kt/Rm³"
                                                                    , HectotonnePerCubicYottameter
                                                                    , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13000,6 +14211,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rt/km³"
                                                                    , YottatonnePerCubicHectometer
                                                                    , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13010,6 +14222,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Mt/Ym³"
                                                                    , KilotonnePerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13020,6 +14233,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yt/Mm³"
                                                                    , ZettatonnePerCubicKilometer
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13030,6 +14244,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Gt/Zm³"
                                                                    , MegatonnePerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13040,6 +14255,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "kt/Qm³"
                                                                     , HectotonnePerCubicRonnameter
                                                                     , 10.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13050,6 +14266,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zt/Gm³"
                                                                    , ExatonnePerCubicMegameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13060,6 +14277,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Tt/Em³"
                                                                  , GigatonnePerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -13070,6 +14288,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Et/Tm³"
                                                                  , PetatonnePerCubicGigameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -13080,6 +14299,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Pt/Pm³"
                                                                   , TeratonnePerCubicTerameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -13090,6 +14310,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qt/km³"
                                                                     , RonnatonnePerCubicHectometer
                                                                     , 1000.0 / (10.0 * 10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13100,6 +14321,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Mt/Rm³"
                                                                    , KilotonnePerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13110,6 +14332,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rt/Mm³"
                                                                    , YottatonnePerCubicKilometer
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13120,6 +14343,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Gt/Ym³"
                                                                    , MegatonnePerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13130,6 +14354,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yt/Gm³"
                                                                    , ZettatonnePerCubicMegameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13140,6 +14365,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Tt/Zm³"
                                                                    , GigatonnePerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13150,6 +14376,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zt/Tm³"
                                                                    , ExatonnePerCubicGigameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13160,6 +14387,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Pt/Em³"
                                                                  , TeratonnePerCubicPetameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -13170,6 +14398,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                  , "Et/Pm³"
                                                                  , PetatonnePerCubicTerameter
                                                                  , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -13180,6 +14409,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Mt/Qm³"
                                                                     , KilotonnePerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13190,6 +14420,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qt/Mm³"
                                                                     , RonnatonnePerCubicKilometer
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13200,6 +14431,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Gt/Rm³"
                                                                    , MegatonnePerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13210,6 +14442,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rt/Gm³"
                                                                    , YottatonnePerCubicMegameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13220,6 +14453,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Tt/Ym³"
                                                                    , GigatonnePerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13230,6 +14464,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yt/Tm³"
                                                                    , ZettatonnePerCubicGigameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13240,6 +14475,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Pt/Zm³"
                                                                    , TeratonnePerCubicExameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13250,6 +14486,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Zt/Pm³"
                                                                    , ExatonnePerCubicTerameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13260,6 +14497,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                 , "Et/Em³"
                                                                 , PetatonnePerCubicPetameter
                                                                 , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                , system: "SI"
                                                                  );
 
    /// <summary>
@@ -13270,6 +14508,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Gt/Qm³"
                                                                     , MegatonnePerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13280,6 +14519,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qt/Gm³"
                                                                     , RonnatonnePerCubicMegameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13290,6 +14530,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Tt/Rm³"
                                                                    , GigatonnePerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13300,6 +14541,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rt/Tm³"
                                                                    , YottatonnePerCubicGigameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13310,6 +14552,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Pt/Ym³"
                                                                    , TeratonnePerCubicZettameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13320,6 +14563,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Yt/Pm³"
                                                                    , ZettatonnePerCubicTerameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13330,6 +14574,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Et/Zm³"
                                                                   , PetatonnePerCubicExameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -13340,6 +14585,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Zt/Em³"
                                                                   , ExatonnePerCubicPetameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -13350,6 +14596,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Tt/Qm³"
                                                                     , GigatonnePerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13360,6 +14607,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qt/Tm³"
                                                                     , RonnatonnePerCubicGigameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13370,6 +14618,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Pt/Rm³"
                                                                    , TeratonnePerCubicYottameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13380,6 +14629,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Rt/Pm³"
                                                                    , YottatonnePerCubicTerameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13390,6 +14640,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Et/Ym³"
                                                                   , PetatonnePerCubicZettameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -13400,6 +14651,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Yt/Em³"
                                                                   , ZettatonnePerCubicPetameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -13410,6 +14662,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Zt/Zm³"
                                                                     , ExatonnePerCubicExameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13420,6 +14673,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Pt/Qm³"
                                                                     , TeratonnePerCubicRonnameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13430,6 +14684,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Qt/Pm³"
                                                                     , RonnatonnePerCubicTerameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13440,6 +14695,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Et/Rm³"
                                                                   , PetatonnePerCubicYottameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -13450,6 +14706,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                   , "Rt/Em³"
                                                                   , YottatonnePerCubicPetameter
                                                                   , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -13460,6 +14717,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Zt/Ym³"
                                                                     , ExatonnePerCubicZettameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13470,6 +14728,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Yt/Zm³"
                                                                     , ZettatonnePerCubicExameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13480,6 +14739,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Et/Qm³"
                                                                    , PetatonnePerCubicRonnameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13490,6 +14750,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                    , "Qt/Em³"
                                                                    , RonnatonnePerCubicPetameter
                                                                    , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -13500,6 +14761,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Zt/Rm³"
                                                                     , ExatonnePerCubicYottameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13510,6 +14772,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Rt/Zm³"
                                                                     , YottatonnePerCubicExameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13520,6 +14783,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Yt/Ym³"
                                                                     , ZettatonnePerCubicZettameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13530,6 +14794,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "Zt/Qm³"
                                                                      , ExatonnePerCubicRonnameter
                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -13540,6 +14805,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "Qt/Zm³"
                                                                      , RonnatonnePerCubicExameter
                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -13550,6 +14816,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Yt/Rm³"
                                                                     , ZettatonnePerCubicYottameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13560,6 +14827,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Rt/Ym³"
                                                                     , YottatonnePerCubicZettameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13570,6 +14838,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "Yt/Qm³"
                                                                      , ZettatonnePerCubicRonnameter
                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -13580,6 +14849,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "Qt/Ym³"
                                                                      , RonnatonnePerCubicZettameter
                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -13590,6 +14860,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                     , "Rt/Rm³"
                                                                     , YottatonnePerCubicYottameter
                                                                     , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -13600,6 +14871,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "Rt/Qm³"
                                                                      , YottatonnePerCubicRonnameter
                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -13610,6 +14882,7 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                      , "Qt/Rm³"
                                                                      , RonnatonnePerCubicYottameter
                                                                      , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -13620,5 +14893,6 @@ public class Densities : UnitOfMeasureEnumeration<Densities, Density>
                                                                       , "Qt/Qm³"
                                                                       , RonnatonnePerCubicRonnameter
                                                                       , 1000.0 / (1000.0 * 1000.0 * 1000.0)
+                                                                      , system: "SI"
                                                                        );
 }

@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Angle(string, string, Angle, double, double, IValueComparer&lt;double&gt;)](Angle..ctor.TQxdIsDwspUDppqDAiCZ5Q.md 'Jcd.Units.UnitTypes.Angle.Angle(string, string, Jcd.Units.UnitTypes.Angle, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle') using another [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle') as a reference. |
+| [Angle(string, string, Angle, double, double, IValueComparer&lt;double&gt;, string)](Angle..ctor.4DYd5ecQ+mWxXymdHp3HZQ.md 'Jcd.Units.UnitTypes.Angle.Angle(string, string, Jcd.Units.UnitTypes.Angle, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle') using another [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle') as a reference. |

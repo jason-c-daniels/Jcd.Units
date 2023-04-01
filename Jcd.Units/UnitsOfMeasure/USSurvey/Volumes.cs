@@ -25,12 +25,19 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                 , "li³"
                                                 , SI.Volumes.CubicMeter
                                                 , 0.20116 * 0.20116 * 0.20116
+                                                , system: "US Survey"
                                                  );
 
    /// <summary>
    /// cubic rod, defined as: SI cubic meter × (5.0292)*(5.0292)*(5.0292)
    /// </summary>
-   public static readonly Volume CubicRod = new ("cubic rod", "rd³", SI.Volumes.CubicMeter, 5.0292 * 5.0292 * 5.0292);
+   public static readonly Volume CubicRod = new (
+                                                 "cubic rod"
+                                               , "rd³"
+                                               , SI.Volumes.CubicMeter
+                                               , 5.0292 * 5.0292 * 5.0292
+                                               , system: "US Survey"
+                                                );
 
    /// <summary>
    /// cubic chain, defined as: SI cubic meter × (20.1168)*(20.1168)*(20.1168)
@@ -40,6 +47,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                  , "ch³"
                                                  , SI.Volumes.CubicMeter
                                                  , 20.1168 * 20.1168 * 20.1168
+                                                 , system: "US Survey"
                                                   );
 
    /// <summary>
@@ -50,6 +58,7 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                    , "fur³"
                                                    , SI.Volumes.CubicMeter
                                                    , 201.168 * 201.168 * 201.168
+                                                   , system: "US Survey"
                                                     );
 
    /// <summary>
@@ -60,5 +69,6 @@ public class Volumes : UnitOfMeasureEnumeration<Volumes, Volume>
                                                   , "lea³"
                                                   , SI.Volumes.CubicMeter
                                                   , 4828.032 * 4828.032 * 4828.032
+                                                  , system: "US Survey"
                                                    );
 }

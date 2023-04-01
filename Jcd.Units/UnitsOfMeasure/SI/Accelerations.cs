@@ -20,7 +20,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
    /// <summary>
    /// meter per square second, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
    /// </summary>
-   public static readonly Acceleration MeterPerSquareSecond = new ("meter per square second", "m/s²");
+   public static readonly Acceleration MeterPerSquareSecond = new ("meter per square second", "m/s²", system: "SI");
 
    /// <summary>
    /// meter per square decisecond, defined as: meter per square second × (1.0)/((1.0/10.0)*(1.0/10.0))
@@ -30,6 +30,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "m/ds²"
                                                                      , MeterPerSquareSecond
                                                                      , 1.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -40,6 +41,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "dm/s²"
                                                                      , MeterPerSquareSecond
                                                                      , 1.0 / 10.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -50,6 +52,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "m/cs²"
                                                                       , MeterPerSquareDecisecond
                                                                       , 1.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -60,6 +63,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dm/ds²"
                                                                          , MeterPerSquareSecond
                                                                          , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -70,6 +74,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cm/s²"
                                                                       , DecimeterPerSquareSecond
                                                                       , 1.0 / 10.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -80,6 +85,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "m/ms²"
                                                                       , MeterPerSquareCentisecond
                                                                       , 1.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -90,6 +96,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dm/cs²"
                                                                           , MeterPerSquareDecisecond
                                                                           , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -100,6 +107,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "cm/ds²"
                                                                           , DecimeterPerSquareSecond
                                                                           , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -110,6 +118,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "mm/s²"
                                                                       , CentimeterPerSquareSecond
                                                                       , 1.0 / 10.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -120,6 +129,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "m/μs²"
                                                                       , MeterPerSquareMillisecond
                                                                       , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -130,6 +140,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dm/ms²"
                                                                           , MeterPerSquareCentisecond
                                                                           , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -140,6 +151,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "cm/cs²"
                                                                            , DecimeterPerSquareDecisecond
                                                                            , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -150,6 +162,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "mm/ds²"
                                                                           , CentimeterPerSquareSecond
                                                                           , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -160,6 +173,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "μm/s²"
                                                                       , MillimeterPerSquareSecond
                                                                       , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -170,6 +184,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "m/ns²"
                                                                      , MeterPerSquareMicrosecond
                                                                      , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -180,6 +195,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dm/μs²"
                                                                           , MeterPerSquareMillisecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -190,6 +206,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "cm/ms²"
                                                                            , DecimeterPerSquareCentisecond
                                                                            , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -200,6 +217,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "mm/cs²"
                                                                            , CentimeterPerSquareDecisecond
                                                                            , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -210,6 +228,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "μm/ds²"
                                                                           , MillimeterPerSquareSecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -220,6 +239,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "nm/s²"
                                                                      , MicrometerPerSquareSecond
                                                                      , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -230,6 +250,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "m/ps²"
                                                                      , MeterPerSquareNanosecond
                                                                      , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -240,6 +261,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dm/ns²"
                                                                          , MeterPerSquareMicrosecond
                                                                          , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -252,6 +274,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -262,6 +285,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "mm/ms²"
                                                                            , CentimeterPerSquareCentisecond
                                                                            , 1.0 / 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -272,6 +296,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "μm/cs²"
                                                                            , MillimeterPerSquareDecisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -282,6 +307,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "nm/ds²"
                                                                          , MicrometerPerSquareSecond
                                                                          , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -292,6 +318,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "pm/s²"
                                                                      , NanometerPerSquareSecond
                                                                      , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -302,6 +329,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "m/fs²"
                                                                       , MeterPerSquarePicosecond
                                                                       , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -312,6 +340,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dm/ps²"
                                                                          , MeterPerSquareNanosecond
                                                                          , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -322,6 +351,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "cm/ns²"
                                                                           , DecimeterPerSquareMicrosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -334,6 +364,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -344,6 +375,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "μm/ms²"
                                                                            , MillimeterPerSquareCentisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -354,6 +386,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "nm/cs²"
                                                                           , MicrometerPerSquareDecisecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -364,6 +397,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "pm/ds²"
                                                                          , NanometerPerSquareSecond
                                                                          , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -374,6 +408,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "fm/s²"
                                                                       , PicometerPerSquareSecond
                                                                       , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -384,6 +419,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "m/as²"
                                                                      , MeterPerSquareFemtosecond
                                                                      , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -394,6 +430,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dm/fs²"
                                                                           , MeterPerSquarePicosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -404,6 +441,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "cm/ps²"
                                                                           , DecimeterPerSquareNanosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -414,6 +452,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "mm/ns²"
                                                                           , CentimeterPerSquareMicrosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -426,6 +465,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -436,6 +476,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "nm/ms²"
                                                                           , MicrometerPerSquareCentisecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -446,6 +487,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "pm/cs²"
                                                                           , NanometerPerSquareDecisecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -456,6 +498,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "fm/ds²"
                                                                           , PicometerPerSquareSecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -466,6 +509,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "am/s²"
                                                                      , FemtometerPerSquareSecond
                                                                      , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -476,6 +520,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "m/zs²"
                                                                       , MeterPerSquareAttosecond
                                                                       , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -486,6 +531,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dm/as²"
                                                                          , MeterPerSquareFemtosecond
                                                                          , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -498,6 +544,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -508,6 +555,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "mm/ps²"
                                                                           , CentimeterPerSquareNanosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -520,6 +568,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -532,6 +581,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -542,6 +592,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "pm/ms²"
                                                                           , NanometerPerSquareCentisecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -552,6 +603,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "fm/cs²"
                                                                            , PicometerPerSquareDecisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -562,6 +614,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "am/ds²"
                                                                          , FemtometerPerSquareSecond
                                                                          , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -572,6 +625,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "zm/s²"
                                                                       , AttometerPerSquareSecond
                                                                       , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -582,6 +636,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "m/ys²"
                                                                       , MeterPerSquareZeptosecond
                                                                       , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -592,6 +647,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dm/zs²"
                                                                           , MeterPerSquareAttosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -602,6 +658,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "cm/as²"
                                                                           , DecimeterPerSquareFemtosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -614,6 +671,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -626,6 +684,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -638,6 +697,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -650,6 +710,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -660,6 +721,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "fm/ms²"
                                                                            , PicometerPerSquareCentisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -670,6 +732,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "am/cs²"
                                                                           , FemtometerPerSquareDecisecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -680,6 +743,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "zm/ds²"
                                                                           , AttometerPerSquareSecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -690,6 +754,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ym/s²"
                                                                       , ZeptometerPerSquareSecond
                                                                       , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -700,6 +765,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "m/rs²"
                                                                       , MeterPerSquareYoctosecond
                                                                       , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -710,6 +776,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dm/ys²"
                                                                           , MeterPerSquareZeptosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -722,6 +789,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -732,6 +800,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "mm/as²"
                                                                           , CentimeterPerSquareFemtosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -744,6 +813,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -756,6 +826,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -768,6 +839,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -780,6 +852,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -790,6 +863,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "am/ms²"
                                                                           , FemtometerPerSquareCentisecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -800,6 +874,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "zm/cs²"
                                                                            , AttometerPerSquareDecisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -810,6 +885,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "ym/ds²"
                                                                           , ZeptometerPerSquareSecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -820,6 +896,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "rm/s²"
                                                                       , YoctometerPerSquareSecond
                                                                       , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -830,6 +907,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "m/qs²"
                                                                        , MeterPerSquareRontosecond
                                                                        , 1.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -840,6 +918,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dm/rs²"
                                                                           , MeterPerSquareYoctosecond
                                                                           , 1.0 / 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -852,6 +931,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -864,6 +944,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -876,6 +957,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -888,6 +970,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -900,6 +983,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -912,6 +996,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -924,6 +1009,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -934,6 +1020,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "zm/ms²"
                                                                            , AttometerPerSquareCentisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -944,6 +1031,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "ym/cs²"
                                                                            , ZeptometerPerSquareDecisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -954,6 +1042,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "rm/ds²"
                                                                           , YoctometerPerSquareSecond
                                                                           , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -964,13 +1053,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "qm/s²"
                                                                        , RontometerPerSquareSecond
                                                                        , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
    /// dekameter per square second, defined as: meter per square second × (10.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration DekameterPerSquareSecond =
-            new ("dekameter per square second", "dam/s²", MeterPerSquareSecond, 10.0 / (1.0 * 1.0));
+   public static readonly Acceleration DekameterPerSquareSecond = new (
+                                                                       "dekameter per square second"
+                                                                     , "dam/s²"
+                                                                     , MeterPerSquareSecond
+                                                                     , 10.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
+                                                                      );
 
    /// <summary>
    /// dekameter per square planck-time, defined as: meter per square microsecond × (10.0)/((5.391247E-38)*(5.391247E-38))
@@ -980,6 +1075,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dam/tₚ²"
                                                                          , MeterPerSquareMicrosecond
                                                                          , 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -992,6 +1088,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1004,6 +1101,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1016,6 +1114,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1028,6 +1127,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1040,6 +1140,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1052,6 +1153,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1064,6 +1166,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1076,6 +1179,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1088,6 +1192,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1098,6 +1203,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "ym/ms²"
                                                                            , ZeptometerPerSquareCentisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1108,6 +1214,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "rm/cs²"
                                                                            , YoctometerPerSquareDecisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1118,6 +1225,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "qm/ds²"
                                                                            , RontometerPerSquareSecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1128,6 +1236,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "hm/s²"
                                                                       , DekameterPerSquareSecond
                                                                       , 10.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -1138,6 +1247,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dam/ds²"
                                                                          , MeterPerSquareSecond
                                                                          , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1150,6 +1260,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 10.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -1162,6 +1273,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 10.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1174,6 +1286,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1186,6 +1299,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1198,6 +1312,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1210,6 +1325,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1222,6 +1338,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1234,6 +1351,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1246,6 +1364,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1256,6 +1375,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "rm/ms²"
                                                                            , YoctometerPerSquareCentisecond
                                                                            , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1266,6 +1386,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "qm/cs²"
                                                                             , RontometerPerSquareDecisecond
                                                                             , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -1276,6 +1397,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "km/s²"
                                                                      , HectometerPerSquareSecond
                                                                      , 10.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -1286,6 +1408,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "hm/ds²"
                                                                           , DekameterPerSquareSecond
                                                                           , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1296,6 +1419,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dam/cs²"
                                                                           , MeterPerSquareDecisecond
                                                                           , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1308,6 +1432,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 10.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -1320,6 +1445,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1332,6 +1458,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1344,6 +1471,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1356,6 +1484,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1368,6 +1497,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1380,6 +1510,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1392,6 +1523,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1404,6 +1536,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1414,6 +1547,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "qm/ms²"
                                                                             , RontometerPerSquareCentisecond
                                                                             , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -1424,6 +1558,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Mm/s²"
                                                                      , KilometerPerSquareSecond
                                                                      , 1000.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -1434,6 +1569,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "km/ds²"
                                                                          , HectometerPerSquareSecond
                                                                          , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1444,6 +1580,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "hm/cs²"
                                                                            , DekameterPerSquareDecisecond
                                                                            , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1454,6 +1591,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dam/ms²"
                                                                           , MeterPerSquareCentisecond
                                                                           , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1466,6 +1604,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -1478,6 +1617,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1490,6 +1630,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1502,6 +1643,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1514,6 +1656,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , 1.0
                                                                          / 1000.0
                                                                          / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1526,6 +1669,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1538,6 +1682,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1550,6 +1695,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1562,6 +1708,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -1572,6 +1719,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Gm/s²"
                                                                      , MegameterPerSquareSecond
                                                                      , 1000.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -1582,6 +1730,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Mm/ds²"
                                                                          , KilometerPerSquareSecond
                                                                          , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1592,6 +1741,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "km/cs²"
                                                                           , HectometerPerSquareDecisecond
                                                                           , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1602,6 +1752,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "hm/ms²"
                                                                            , DekameterPerSquareCentisecond
                                                                            , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1612,6 +1763,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dam/μs²"
                                                                           , MeterPerSquareMillisecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1624,6 +1776,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1636,6 +1789,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1648,6 +1802,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1660,6 +1815,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1672,6 +1828,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1684,6 +1841,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1696,6 +1854,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1708,6 +1867,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1718,6 +1878,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Tm/s²"
                                                                      , GigameterPerSquareSecond
                                                                      , 1000.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -1728,6 +1889,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Gm/ds²"
                                                                          , MegameterPerSquareSecond
                                                                          , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1738,6 +1900,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Mm/cs²"
                                                                           , KilometerPerSquareDecisecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1748,6 +1911,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "km/ms²"
                                                                           , HectometerPerSquareCentisecond
                                                                           , 10.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1758,6 +1922,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "hm/μs²"
                                                                            , DekameterPerSquareMillisecond
                                                                            , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1768,6 +1933,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dam/ns²"
                                                                          , MeterPerSquareMicrosecond
                                                                          , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1780,6 +1946,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1792,6 +1959,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1804,6 +1972,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1816,6 +1985,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1828,6 +1998,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1840,6 +2011,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1852,6 +2024,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1862,6 +2035,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Pm/s²"
                                                                      , TerameterPerSquareSecond
                                                                      , 1000.0 / (1.0 * 1.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -1872,6 +2046,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Tm/ds²"
                                                                          , GigameterPerSquareSecond
                                                                          , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1882,6 +2057,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Gm/cs²"
                                                                           , MegameterPerSquareDecisecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1892,6 +2068,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Mm/ms²"
                                                                           , KilometerPerSquareCentisecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1902,6 +2079,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "km/μs²"
                                                                           , HectometerPerSquareMillisecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1912,6 +2090,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "hm/ns²"
                                                                           , DekameterPerSquareMicrosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1922,6 +2101,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dam/ps²"
                                                                          , MeterPerSquareNanosecond
                                                                          , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -1934,6 +2114,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -1946,6 +2127,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1958,6 +2140,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1970,6 +2153,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -1982,6 +2166,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , 1.0
                                                                           / 1000.0
                                                                           / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -1994,6 +2179,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2004,6 +2190,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Em/s²"
                                                                     , PetameterPerSquareSecond
                                                                     , 1000.0 / (1.0 * 1.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -2014,6 +2201,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Pm/ds²"
                                                                          , TerameterPerSquareSecond
                                                                          , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2024,6 +2212,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Tm/cs²"
                                                                           , GigameterPerSquareDecisecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2034,6 +2223,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Gm/ms²"
                                                                           , MegameterPerSquareCentisecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2044,6 +2234,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Mm/μs²"
                                                                           , KilometerPerSquareMillisecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2054,6 +2245,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "km/ns²"
                                                                          , HectometerPerSquareMicrosecond
                                                                          , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2064,6 +2256,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "hm/ps²"
                                                                           , DekameterPerSquareNanosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2074,6 +2267,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dam/fs²"
                                                                           , MeterPerSquarePicosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2086,6 +2280,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2098,6 +2293,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2110,6 +2306,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2122,6 +2319,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2134,6 +2332,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2144,6 +2343,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Zm/s²"
                                                                       , ExameterPerSquareSecond
                                                                       , 1000.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -2154,6 +2354,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "Em/ds²"
                                                                         , PetameterPerSquareSecond
                                                                         , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -2164,6 +2365,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Pm/cs²"
                                                                           , TerameterPerSquareDecisecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2174,6 +2376,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Tm/ms²"
                                                                           , GigameterPerSquareCentisecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2184,6 +2387,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Gm/μs²"
                                                                           , MegameterPerSquareMillisecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2194,6 +2398,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Mm/ns²"
                                                                          , KilometerPerSquareMicrosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2204,6 +2409,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "km/ps²"
                                                                          , HectometerPerSquareNanosecond
                                                                          , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2214,6 +2420,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "hm/fs²"
                                                                            , DekameterPerSquarePicosecond
                                                                            , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2224,6 +2431,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dam/as²"
                                                                          , MeterPerSquareFemtosecond
                                                                          , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2236,6 +2444,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2248,6 +2457,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2260,6 +2470,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2272,6 +2483,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2282,6 +2494,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Ym/s²"
                                                                       , ZettameterPerSquareSecond
                                                                       , 1000.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -2292,6 +2505,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Zm/ds²"
                                                                           , ExameterPerSquareSecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2302,6 +2516,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Em/cs²"
                                                                          , PetameterPerSquareDecisecond
                                                                          , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2312,6 +2527,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Pm/ms²"
                                                                           , TerameterPerSquareCentisecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2322,6 +2538,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Tm/μs²"
                                                                           , GigameterPerSquareMillisecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2332,6 +2549,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Gm/ns²"
                                                                          , MegameterPerSquareMicrosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2342,6 +2560,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Mm/ps²"
                                                                          , KilometerPerSquareNanosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2352,6 +2571,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "km/fs²"
                                                                           , HectometerPerSquarePicosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2362,6 +2582,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "hm/as²"
                                                                           , DekameterPerSquareFemtosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2372,6 +2593,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dam/zs²"
                                                                           , MeterPerSquareAttosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2384,6 +2606,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2396,6 +2619,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2408,6 +2632,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2418,6 +2643,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Rm/s²"
                                                                       , YottameterPerSquareSecond
                                                                       , 1000.0 / (1.0 * 1.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -2428,6 +2654,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Ym/ds²"
                                                                           , ZettameterPerSquareSecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2438,6 +2665,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Zm/cs²"
                                                                            , ExameterPerSquareDecisecond
                                                                            , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2448,6 +2676,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Em/ms²"
                                                                          , PetameterPerSquareCentisecond
                                                                          , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2458,6 +2687,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Pm/μs²"
                                                                           , TerameterPerSquareMillisecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2468,6 +2698,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Tm/ns²"
                                                                          , GigameterPerSquareMicrosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2478,6 +2709,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Gm/ps²"
                                                                          , MegameterPerSquareNanosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2488,6 +2720,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Mm/fs²"
                                                                           , KilometerPerSquarePicosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2498,6 +2731,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "km/as²"
                                                                          , HectometerPerSquareFemtosecond
                                                                          , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2508,6 +2742,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "hm/zs²"
                                                                            , DekameterPerSquareAttosecond
                                                                            , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2518,6 +2753,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dam/ys²"
                                                                           , MeterPerSquareZeptosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2530,6 +2766,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2542,6 +2779,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , 1.0
                                                                             / 1000.0
                                                                             / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2552,6 +2790,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "Qm/s²"
                                                                        , RonnameterPerSquareSecond
                                                                        , 1000.0 / (1.0 * 1.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -2562,6 +2801,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Rm/ds²"
                                                                           , YottameterPerSquareSecond
                                                                           , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2572,6 +2812,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Ym/cs²"
                                                                            , ZettameterPerSquareDecisecond
                                                                            , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2582,6 +2823,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Zm/ms²"
                                                                            , ExameterPerSquareCentisecond
                                                                            , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2592,6 +2834,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Em/μs²"
                                                                          , PetameterPerSquareMillisecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2602,6 +2845,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Pm/ns²"
                                                                          , TerameterPerSquareMicrosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2612,6 +2856,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Tm/ps²"
                                                                          , GigameterPerSquareNanosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2622,6 +2867,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Gm/fs²"
                                                                           , MegameterPerSquarePicosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2632,6 +2878,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Mm/as²"
                                                                          , KilometerPerSquareFemtosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2642,6 +2889,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "km/zs²"
                                                                           , HectometerPerSquareAttosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2652,6 +2900,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "hm/ys²"
                                                                            , DekameterPerSquareZeptosecond
                                                                            , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2662,6 +2911,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "dam/rs²"
                                                                           , MeterPerSquareYoctosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2674,6 +2924,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , 1.0
                                                                              / 1000.0
                                                                              / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -2684,6 +2935,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Qm/ds²"
                                                                            , RonnameterPerSquareSecond
                                                                            , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2694,6 +2946,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Rm/cs²"
                                                                            , YottameterPerSquareDecisecond
                                                                            , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2704,6 +2957,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Ym/ms²"
                                                                            , ZettameterPerSquareCentisecond
                                                                            , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2714,6 +2968,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Zm/μs²"
                                                                            , ExameterPerSquareMillisecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2724,6 +2979,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "Em/ns²"
                                                                         , PetameterPerSquareMicrosecond
                                                                         , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -2734,6 +2990,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Pm/ps²"
                                                                          , TerameterPerSquareNanosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2744,6 +3001,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Tm/fs²"
                                                                           , GigameterPerSquarePicosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2754,6 +3012,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Gm/as²"
                                                                          , MegameterPerSquareFemtosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2764,6 +3023,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Mm/zs²"
                                                                           , KilometerPerSquareAttosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2774,6 +3034,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "km/ys²"
                                                                           , HectometerPerSquareZeptosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2784,6 +3045,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "hm/rs²"
                                                                            , DekameterPerSquareYoctosecond
                                                                            , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2794,6 +3056,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "dam/qs²"
                                                                            , MeterPerSquareRontosecond
                                                                            , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2804,6 +3067,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Qm/cs²"
                                                                             , RonnameterPerSquareDecisecond
                                                                             , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2814,6 +3078,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Rm/ms²"
                                                                            , YottameterPerSquareCentisecond
                                                                            , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2824,6 +3089,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Ym/μs²"
                                                                            , ZettameterPerSquareMillisecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2834,6 +3100,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Zm/ns²"
                                                                           , ExameterPerSquareMicrosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2844,6 +3111,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "Em/ps²"
                                                                         , PetameterPerSquareNanosecond
                                                                         , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -2854,6 +3122,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Pm/fs²"
                                                                           , TerameterPerSquarePicosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2864,6 +3133,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Tm/as²"
                                                                          , GigameterPerSquareFemtosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2874,6 +3144,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Gm/zs²"
                                                                           , MegameterPerSquareAttosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2884,6 +3155,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Mm/ys²"
                                                                           , KilometerPerSquareZeptosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2894,6 +3166,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "km/rs²"
                                                                           , HectometerPerSquareYoctosecond
                                                                           , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2904,6 +3177,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "hm/qs²"
                                                                             , DekameterPerSquareRontosecond
                                                                             , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2914,6 +3188,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Qm/ms²"
                                                                             , RonnameterPerSquareCentisecond
                                                                             , 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -2924,6 +3199,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Rm/μs²"
                                                                            , YottameterPerSquareMillisecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -2934,6 +3210,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Ym/ns²"
                                                                           , ZettameterPerSquareMicrosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2944,6 +3221,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Zm/ps²"
                                                                           , ExameterPerSquareNanosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2954,6 +3232,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Em/fs²"
                                                                          , PetameterPerSquarePicosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2964,6 +3243,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Pm/as²"
                                                                          , TerameterPerSquareFemtosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -2974,6 +3254,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Tm/zs²"
                                                                           , GigameterPerSquareAttosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2984,6 +3265,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Gm/ys²"
                                                                           , MegameterPerSquareZeptosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -2994,6 +3276,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Mm/rs²"
                                                                           , KilometerPerSquareYoctosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3004,6 +3287,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "km/qs²"
                                                                            , HectometerPerSquareRontosecond
                                                                            , 10.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3014,6 +3298,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Qm/μs²"
                                                                             , RonnameterPerSquareMillisecond
                                                                             , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -3024,6 +3309,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Rm/ns²"
                                                                           , YottameterPerSquareMicrosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3034,6 +3320,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Ym/ps²"
                                                                           , ZettameterPerSquareNanosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3044,6 +3331,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Zm/fs²"
                                                                            , ExameterPerSquarePicosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3054,6 +3342,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "Em/as²"
                                                                         , PetameterPerSquareFemtosecond
                                                                         , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -3064,6 +3353,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Pm/zs²"
                                                                           , TerameterPerSquareAttosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3074,6 +3364,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Tm/ys²"
                                                                           , GigameterPerSquareZeptosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3084,6 +3375,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Gm/rs²"
                                                                           , MegameterPerSquareYoctosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3094,6 +3386,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Mm/qs²"
                                                                            , KilometerPerSquareRontosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3104,6 +3397,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Qm/ns²"
                                                                            , RonnameterPerSquareMicrosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3114,6 +3408,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Rm/ps²"
                                                                           , YottameterPerSquareNanosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3124,6 +3419,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Ym/fs²"
                                                                            , ZettameterPerSquarePicosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3134,6 +3430,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Zm/as²"
                                                                           , ExameterPerSquareFemtosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3144,6 +3441,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Em/zs²"
                                                                          , PetameterPerSquareAttosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -3154,6 +3452,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Pm/ys²"
                                                                           , TerameterPerSquareZeptosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3164,6 +3463,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Tm/rs²"
                                                                           , GigameterPerSquareYoctosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3174,6 +3474,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Gm/qs²"
                                                                            , MegameterPerSquareRontosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3184,6 +3485,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Qm/ps²"
                                                                            , RonnameterPerSquareNanosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3194,6 +3496,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Rm/fs²"
                                                                            , YottameterPerSquarePicosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3204,6 +3507,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Ym/as²"
                                                                           , ZettameterPerSquareFemtosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3214,6 +3518,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Zm/zs²"
                                                                            , ExameterPerSquareAttosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3224,6 +3529,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Em/ys²"
                                                                          , PetameterPerSquareZeptosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -3234,6 +3540,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Pm/rs²"
                                                                           , TerameterPerSquareYoctosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3244,6 +3551,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Tm/qs²"
                                                                            , GigameterPerSquareRontosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3254,6 +3562,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Qm/fs²"
                                                                             , RonnameterPerSquarePicosecond
                                                                             , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -3264,6 +3573,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Rm/as²"
                                                                           , YottameterPerSquareFemtosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3274,6 +3584,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Ym/zs²"
                                                                            , ZettameterPerSquareAttosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3284,6 +3595,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Zm/ys²"
                                                                            , ExameterPerSquareZeptosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3294,6 +3606,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Em/rs²"
                                                                          , PetameterPerSquareYoctosecond
                                                                          , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -3304,6 +3617,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Pm/qs²"
                                                                            , TerameterPerSquareRontosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3314,6 +3628,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Qm/as²"
                                                                            , RonnameterPerSquareFemtosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3324,6 +3639,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Rm/zs²"
                                                                            , YottameterPerSquareAttosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3334,6 +3650,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Ym/ys²"
                                                                            , ZettameterPerSquareZeptosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3344,6 +3661,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Zm/rs²"
                                                                            , ExameterPerSquareYoctosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3354,6 +3672,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Em/qs²"
                                                                           , PetameterPerSquareRontosecond
                                                                           , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3364,6 +3683,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Qm/zs²"
                                                                             , RonnameterPerSquareAttosecond
                                                                             , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -3374,6 +3694,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Rm/ys²"
                                                                            , YottameterPerSquareZeptosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3384,6 +3705,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Ym/rs²"
                                                                            , ZettameterPerSquareYoctosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3394,6 +3716,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Zm/qs²"
                                                                             , ExameterPerSquareRontosecond
                                                                             , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -3404,6 +3727,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Qm/ys²"
                                                                             , RonnameterPerSquareZeptosecond
                                                                             , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -3414,6 +3738,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Rm/rs²"
                                                                            , YottameterPerSquareYoctosecond
                                                                            , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3424,6 +3749,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Ym/qs²"
                                                                             , ZettameterPerSquareRontosecond
                                                                             , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -3434,6 +3760,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Qm/rs²"
                                                                             , RonnameterPerSquareYoctosecond
                                                                             , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -3444,6 +3771,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Rm/qs²"
                                                                             , YottameterPerSquareRontosecond
                                                                             , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -3454,19 +3782,30 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Qm/qs²"
                                                                              , RonnameterPerSquareRontosecond
                                                                              , 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
    /// meter per square minute, defined as: meter per square second × (1.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration MeterPerSquareMinute =
-            new ("meter per square minute", "m/min²", MeterPerSquareSecond, 1.0 / (60.0 * 60.0));
+   public static readonly Acceleration MeterPerSquareMinute = new (
+                                                                   "meter per square minute"
+                                                                 , "m/min²"
+                                                                 , MeterPerSquareSecond
+                                                                 , 1.0 / (60.0 * 60.0)
+                                                                 , system: "SI"
+                                                                  );
 
    /// <summary>
    /// meter per square hour, defined as: meter per square minute × (1.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration MeterPerSquareHour =
-            new ("meter per square hour", "m/hr²", MeterPerSquareMinute, 1.0 / (60.0 * 60.0));
+   public static readonly Acceleration MeterPerSquareHour = new (
+                                                                 "meter per square hour"
+                                                               , "m/hr²"
+                                                               , MeterPerSquareMinute
+                                                               , 1.0 / (60.0 * 60.0)
+                                                               , system: "SI"
+                                                                );
 
    /// <summary>
    /// decimeter per square minute, defined as: meter per square second × (1.0/10.0)/((60.0)*(60.0))
@@ -3476,6 +3815,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "dm/min²"
                                                                      , MeterPerSquareSecond
                                                                      , 1.0 / 10.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -3486,6 +3826,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "m/dy²"
                                                               , MeterPerSquareHour
                                                               , 1.0 / (24.0 * 24.0)
+                                                              , system: "SI"
                                                                );
 
    /// <summary>
@@ -3496,13 +3837,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cm/min²"
                                                                       , DecimeterPerSquareSecond
                                                                       , 1.0 / 10.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
    /// meter per square week, defined as: meter per square day × (1.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration MeterPerSquareWeek =
-            new ("meter per square week", "m/wk²", MeterPerSquareDay, 1.0 / (7.0 * 7.0));
+   public static readonly Acceleration MeterPerSquareWeek = new (
+                                                                 "meter per square week"
+                                                               , "m/wk²"
+                                                               , MeterPerSquareDay
+                                                               , 1.0 / (7.0 * 7.0)
+                                                               , system: "SI"
+                                                                );
 
    /// <summary>
    /// decimeter per square hour, defined as: meter per square minute × (1.0/10.0)/((60.0)*(60.0))
@@ -3512,6 +3859,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "dm/hr²"
                                                                    , MeterPerSquareMinute
                                                                    , 1.0 / 10.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3522,6 +3870,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "mm/min²"
                                                                       , CentimeterPerSquareSecond
                                                                       , 1.0 / 10.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -3532,6 +3881,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "m/yr²"
                                                                , MeterPerSquareDay
                                                                , 1.0 / (365.2525 * 365.2525)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -3542,13 +3892,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "μm/min²"
                                                                       , MillimeterPerSquareSecond
                                                                       , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
    /// meter per square decade, defined as: meter per square year × (1.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration MeterPerSquareDecade =
-            new ("meter per square decade", "m/decade²", MeterPerSquareYear, 1.0 / (10.0 * 10.0));
+   public static readonly Acceleration MeterPerSquareDecade = new (
+                                                                   "meter per square decade"
+                                                                 , "m/decade²"
+                                                                 , MeterPerSquareYear
+                                                                 , 1.0 / (10.0 * 10.0)
+                                                                 , system: "SI"
+                                                                  );
 
    /// <summary>
    /// decimeter per square day, defined as: meter per square hour × (1.0/10.0)/((24.0)*(24.0))
@@ -3558,6 +3914,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "dm/dy²"
                                                                   , MeterPerSquareHour
                                                                   , 1.0 / 10.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3568,6 +3925,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "cm/hr²"
                                                                     , DecimeterPerSquareMinute
                                                                     , 1.0 / 10.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3578,6 +3936,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "nm/min²"
                                                                      , MicrometerPerSquareSecond
                                                                      , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -3588,6 +3947,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "m/century²"
                                                                   , MeterPerSquareDecade
                                                                   , 1.0 / (10.0 * 10.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -3598,19 +3958,30 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "pm/min²"
                                                                      , NanometerPerSquareSecond
                                                                      , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
    /// meter per square millennium, defined as: meter per square century × (1.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration MeterPerSquareMillennium =
-            new ("meter per square millennium", "m/kyr²", MeterPerSquareCentury, 1.0 / (10.0 * 10.0));
+   public static readonly Acceleration MeterPerSquareMillennium = new (
+                                                                       "meter per square millennium"
+                                                                     , "m/kyr²"
+                                                                     , MeterPerSquareCentury
+                                                                     , 1.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
+                                                                      );
 
    /// <summary>
    /// decimeter per square week, defined as: meter per square day × (1.0/10.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration DecimeterPerSquareWeek =
-            new ("decimeter per square week", "dm/wk²", MeterPerSquareDay, 1.0 / 10.0 / (7.0 * 7.0));
+   public static readonly Acceleration DecimeterPerSquareWeek = new (
+                                                                     "decimeter per square week"
+                                                                   , "dm/wk²"
+                                                                   , MeterPerSquareDay
+                                                                   , 1.0 / 10.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// millimeter per square hour, defined as: centimeter per square minute × (1.0/10.0)/((60.0)*(60.0))
@@ -3620,6 +3991,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mm/hr²"
                                                                     , CentimeterPerSquareMinute
                                                                     , 1.0 / 10.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3630,6 +4002,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "fm/min²"
                                                                       , PicometerPerSquareSecond
                                                                       , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -3640,6 +4013,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "m/Myr²"
                                                                        , MeterPerSquareMillennium
                                                                        , 1.0 / (1000.0 * 1000.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -3650,6 +4024,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "cm/dy²"
                                                                    , DecimeterPerSquareHour
                                                                    , 1.0 / 10.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3660,6 +4035,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "am/min²"
                                                                      , FemtometerPerSquareSecond
                                                                      , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -3670,6 +4046,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "m/Gyr²"
                                                                        , MeterPerSquareMillionYears
                                                                        , 1.0 / (1000.0 * 1000.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -3680,6 +4057,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "dm/yr²"
                                                                    , MeterPerSquareDay
                                                                    , 1.0 / 10.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3690,6 +4068,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "μm/hr²"
                                                                     , MillimeterPerSquareMinute
                                                                     , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3700,6 +4079,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "zm/min²"
                                                                       , AttometerPerSquareSecond
                                                                       , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -3710,6 +4090,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "m/Tyr²"
                                                                         , MeterPerSquareBillionYears
                                                                         , 1.0 / (1000.0 * 1000.0)
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -3720,6 +4101,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ym/min²"
                                                                       , ZeptometerPerSquareSecond
                                                                       , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -3730,6 +4112,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "m/Pyr²"
                                                                            , MeterPerSquareTrillionYears
                                                                            , 1.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3740,6 +4123,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "dm/decade²"
                                                                      , MeterPerSquareYear
                                                                      , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -3750,6 +4134,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "cm/wk²"
                                                                     , DecimeterPerSquareDay
                                                                     , 1.0 / 10.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3760,6 +4145,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "mm/dy²"
                                                                    , CentimeterPerSquareHour
                                                                    , 1.0 / 10.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3770,6 +4156,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "nm/hr²"
                                                                    , MicrometerPerSquareMinute
                                                                    , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3780,6 +4167,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "rm/min²"
                                                                       , YoctometerPerSquareSecond
                                                                       , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -3790,6 +4178,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "m/Eyr²"
                                                                            , MeterPerSquareQuadrillionYears
                                                                            , 1.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3800,6 +4189,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "qm/min²"
                                                                        , RontometerPerSquareSecond
                                                                        , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -3810,6 +4200,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "m/Zyr²"
                                                                           , MeterPerSquareQuintillionYears
                                                                           , 1.0 / (1000.0 * 1000.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3820,6 +4211,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "dm/century²"
                                                                       , MeterPerSquareDecade
                                                                       , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -3830,6 +4222,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "pm/hr²"
                                                                    , NanometerPerSquareMinute
                                                                    , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3840,6 +4233,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "dam/min²"
                                                                      , MeterPerSquareSecond
                                                                      , 10.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -3850,6 +4244,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "m/Yyr²"
                                                                           , MeterPerSquareSextillionYears
                                                                           , 1.0 / (1000.0 * 1000.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -3860,6 +4255,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "cm/yr²"
                                                                     , DecimeterPerSquareDay
                                                                     , 1.0 / 10.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3870,6 +4266,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "μm/dy²"
                                                                    , MillimeterPerSquareHour
                                                                    , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -3880,6 +4277,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "hm/min²"
                                                                       , DekameterPerSquareSecond
                                                                       , 10.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -3890,6 +4288,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "m/Ryr²"
                                                                          , MeterPerSquareSeptillionYears
                                                                          , 1.0 / (1000.0 * 1000.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -3900,6 +4299,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dm/kyr²"
                                                                          , MeterPerSquareCentury
                                                                          , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -3910,6 +4310,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mm/wk²"
                                                                     , CentimeterPerSquareDay
                                                                     , 1.0 / 10.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3920,6 +4321,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "fm/hr²"
                                                                     , PicometerPerSquareMinute
                                                                     , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -3930,6 +4332,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "km/min²"
                                                                      , HectometerPerSquareSecond
                                                                      , 10.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -3940,6 +4343,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "m/Qyr²"
                                                                          , MeterPerSquareOctillionYears
                                                                          , 1.0 / (1000.0 * 1000.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -3950,6 +4354,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Mm/min²"
                                                                      , KilometerPerSquareSecond
                                                                      , 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -3960,6 +4365,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "m/decillion yr²"
                                                                          , MeterPerSquareNonillionYears
                                                                          , 1.0 / (1000.0 * 1000.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -3970,6 +4376,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "dm/Myr²"
                                                                            , MeterPerSquareMillennium
                                                                            , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -3980,6 +4387,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cm/decade²"
                                                                       , DecimeterPerSquareYear
                                                                       , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -3990,6 +4398,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "nm/dy²"
                                                                   , MicrometerPerSquareHour
                                                                   , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4000,6 +4409,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "am/hr²"
                                                                    , FemtometerPerSquareMinute
                                                                    , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4010,6 +4420,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Gm/min²"
                                                                      , MegameterPerSquareSecond
                                                                      , 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4020,6 +4431,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Tm/min²"
                                                                      , GigameterPerSquareSecond
                                                                      , 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4030,6 +4442,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "m/tick²"
                                                                , MeterPerSquareNanosecond
                                                                , 1.0 / (100.0 * 100.0)
+                                                               , system: "SI"
                                                                 );
 
    /// <summary>
@@ -4040,6 +4453,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "dm/Gyr²"
                                                                            , MeterPerSquareMillionYears
                                                                            , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -4050,6 +4464,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mm/yr²"
                                                                     , CentimeterPerSquareDay
                                                                     , 1.0 / 10.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4060,6 +4475,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "μm/wk²"
                                                                     , MillimeterPerSquareDay
                                                                     , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4070,6 +4486,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "zm/hr²"
                                                                     , AttometerPerSquareMinute
                                                                     , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4080,6 +4497,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Pm/min²"
                                                                      , TerameterPerSquareSecond
                                                                      , 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4090,6 +4508,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "cm/century²"
                                                                        , DecimeterPerSquareDecade
                                                                        , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -4100,6 +4519,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "pm/dy²"
                                                                   , NanometerPerSquareHour
                                                                   , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4110,6 +4530,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Em/min²"
                                                                     , PetameterPerSquareSecond
                                                                     , 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4120,6 +4541,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "dm/Tyr²"
                                                                             , MeterPerSquareBillionYears
                                                                             , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -4130,6 +4552,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ym/hr²"
                                                                     , ZeptometerPerSquareMinute
                                                                     , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4140,6 +4563,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Zm/min²"
                                                                       , ExameterPerSquareSecond
                                                                       , 1000.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -4150,6 +4574,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Ym/min²"
                                                                       , ZettameterPerSquareSecond
                                                                       , 1000.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -4160,6 +4585,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "dm/Pyr²"
      , MeterPerSquareTrillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4170,6 +4596,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "cm/kyr²"
                                                                           , DecimeterPerSquareCentury
                                                                           , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -4180,6 +4607,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "mm/decade²"
                                                                       , CentimeterPerSquareYear
                                                                       , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -4190,6 +4618,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "nm/wk²"
                                                                    , MicrometerPerSquareDay
                                                                    , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4200,6 +4629,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "fm/dy²"
                                                                    , PicometerPerSquareHour
                                                                    , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4210,6 +4640,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rm/hr²"
                                                                     , YoctometerPerSquareMinute
                                                                     , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4220,6 +4651,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Rm/min²"
                                                                       , YottameterPerSquareSecond
                                                                       , 1000.0 / (60.0 * 60.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -4230,6 +4662,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "μm/yr²"
                                                                     , MillimeterPerSquareDay
                                                                     , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4240,6 +4673,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "Qm/min²"
                                                                        , RonnameterPerSquareSecond
                                                                        , 1000.0 / (60.0 * 60.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -4250,6 +4684,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "dm/Eyr²"
      , MeterPerSquareQuadrillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4260,6 +4695,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "qm/hr²"
                                                                      , RontometerPerSquareMinute
                                                                      , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4270,6 +4706,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "cm/Myr²"
                                                                             , DecimeterPerSquareMillennium
                                                                             , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -4280,6 +4717,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "am/dy²"
                                                                   , FemtometerPerSquareHour
                                                                   , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4290,6 +4728,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "dm/Zyr²"
                                                                               , MeterPerSquareQuintillionYears
                                                                               , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -4300,6 +4739,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "mm/century²"
                                                                        , CentimeterPerSquareDecade
                                                                        , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -4310,13 +4750,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "pm/wk²"
                                                                    , NanometerPerSquareDay
                                                                    , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
    /// dekameter per square hour, defined as: meter per square minute × (10.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration DekameterPerSquareHour =
-            new ("dekameter per square hour", "dam/hr²", MeterPerSquareMinute, 10.0 / (60.0 * 60.0));
+   public static readonly Acceleration DekameterPerSquareHour = new (
+                                                                     "dekameter per square hour"
+                                                                   , "dam/hr²"
+                                                                   , MeterPerSquareMinute
+                                                                   , 10.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// decimeter per square septillion years, defined as: meter per square sextillion years × (1.0/10.0)/((1000.0)*(1000.0))
@@ -4326,6 +4772,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "dm/Yyr²"
                                                                               , MeterPerSquareSextillionYears
                                                                               , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -4336,6 +4783,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "cm/Gyr²"
                                                                             , DecimeterPerSquareMillionYears
                                                                             , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -4346,6 +4794,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "μm/decade²"
                                                                       , MillimeterPerSquareYear
                                                                       , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -4356,6 +4805,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "nm/yr²"
                                                                    , MicrometerPerSquareDay
                                                                    , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4366,6 +4816,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "zm/dy²"
                                                                    , AttometerPerSquareHour
                                                                    , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4376,6 +4827,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "hm/hr²"
                                                                     , DekameterPerSquareMinute
                                                                     , 10.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4386,6 +4838,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "dm/Ryr²"
                                                                              , MeterPerSquareSeptillionYears
                                                                              , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -4396,6 +4849,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "mm/kyr²"
                                                                           , CentimeterPerSquareCentury
                                                                           , 1.0 / 10.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -4406,6 +4860,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "fm/wk²"
                                                                     , PicometerPerSquareDay
                                                                     , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4416,6 +4871,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "km/hr²"
                                                                    , HectometerPerSquareMinute
                                                                    , 10.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4426,6 +4882,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "cm/Tyr²"
                                                                              , DecimeterPerSquareBillionYears
                                                                              , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -4436,6 +4893,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "ym/dy²"
                                                                    , ZeptometerPerSquareHour
                                                                    , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4446,6 +4904,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "dm/Qyr²"
                                                                              , MeterPerSquareOctillionYears
                                                                              , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -4456,6 +4915,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Mm/hr²"
                                                                    , KilometerPerSquareMinute
                                                                    , 1000.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4466,6 +4926,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "μm/century²"
                                                                        , MillimeterPerSquareDecade
                                                                        , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -4476,6 +4937,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "pm/yr²"
                                                                    , NanometerPerSquareDay
                                                                    , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4486,6 +4948,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "dm/decillion yr²"
                                                                              , MeterPerSquareNonillionYears
                                                                              , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -4496,6 +4959,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "cm/Pyr²"
      , DecimeterPerSquareTrillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4506,6 +4970,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "mm/Myr²"
                                                                             , CentimeterPerSquareMillennium
                                                                             , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -4516,6 +4981,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "nm/decade²"
                                                                      , MicrometerPerSquareYear
                                                                      , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4526,6 +4992,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "am/wk²"
                                                                    , FemtometerPerSquareDay
                                                                    , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4536,6 +5003,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "rm/dy²"
                                                                    , YoctometerPerSquareHour
                                                                    , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4546,6 +5014,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Gm/hr²"
                                                                    , MegameterPerSquareMinute
                                                                    , 1000.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4556,6 +5025,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Tm/hr²"
                                                                    , GigameterPerSquareMinute
                                                                    , 1000.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4566,6 +5036,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "cm/Eyr²"
      , DecimeterPerSquareQuadrillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4576,6 +5047,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "qm/dy²"
                                                                     , RontometerPerSquareHour
                                                                     , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4586,6 +5058,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "dm/tick²"
                                                                    , MeterPerSquareNanosecond
                                                                    , 1.0 / 10.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4596,6 +5069,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "mm/Gyr²"
                                                                             , CentimeterPerSquareMillionYears
                                                                             , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -4606,6 +5080,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "μm/kyr²"
                                                                           , MillimeterPerSquareCentury
                                                                           , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -4616,6 +5091,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "fm/yr²"
                                                                     , PicometerPerSquareDay
                                                                     , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4626,6 +5102,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "zm/wk²"
                                                                     , AttometerPerSquareDay
                                                                     , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4636,6 +5113,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Pm/hr²"
                                                                    , TerameterPerSquareMinute
                                                                    , 1000.0 / (60.0 * 60.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -4646,6 +5124,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "cm/Zyr²"
      , DecimeterPerSquareQuintillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4656,6 +5135,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "nm/century²"
                                                                       , MicrometerPerSquareDecade
                                                                       , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -4666,13 +5146,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "pm/decade²"
                                                                      , NanometerPerSquareYear
                                                                      , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
    /// dekameter per square day, defined as: meter per square hour × (10.0)/((24.0)*(24.0))
    /// </summary>
-   public static readonly Acceleration DekameterPerSquareDay =
-            new ("dekameter per square day", "dam/dy²", MeterPerSquareHour, 10.0 / (24.0 * 24.0));
+   public static readonly Acceleration DekameterPerSquareDay = new (
+                                                                    "dekameter per square day"
+                                                                  , "dam/dy²"
+                                                                  , MeterPerSquareHour
+                                                                  , 10.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
+                                                                   );
 
    /// <summary>
    /// exameter per square hour, defined as: petameter per square minute × (1000.0)/((60.0)*(60.0))
@@ -4682,6 +5168,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "Em/hr²"
                                                                   , PetameterPerSquareMinute
                                                                   , 1000.0 / (60.0 * 60.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4692,6 +5179,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "mm/Tyr²"
                                                                              , CentimeterPerSquareBillionYears
                                                                              , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -4702,6 +5190,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ym/wk²"
                                                                     , ZeptometerPerSquareDay
                                                                     , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4712,6 +5201,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Zm/hr²"
                                                                     , ExameterPerSquareMinute
                                                                     , 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4722,6 +5212,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "cm/Yyr²"
      , DecimeterPerSquareSextillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4732,6 +5223,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "μm/Myr²"
                                                                             , MillimeterPerSquareMillennium
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -4742,13 +5234,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "am/yr²"
                                                                    , FemtometerPerSquareDay
                                                                    , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
    /// hectometer per square day, defined as: dekameter per square hour × (10.0)/((24.0)*(24.0))
    /// </summary>
-   public static readonly Acceleration HectometerPerSquareDay =
-            new ("hectometer per square day", "hm/dy²", DekameterPerSquareHour, 10.0 / (24.0 * 24.0));
+   public static readonly Acceleration HectometerPerSquareDay = new (
+                                                                     "hectometer per square day"
+                                                                   , "hm/dy²"
+                                                                   , DekameterPerSquareHour
+                                                                   , 10.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// yottameter per square hour, defined as: zettameter per square minute × (1000.0)/((60.0)*(60.0))
@@ -4758,6 +5256,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Ym/hr²"
                                                                     , ZettameterPerSquareMinute
                                                                     , 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4768,6 +5267,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "cm/Ryr²"
                                                                               , DecimeterPerSquareSeptillionYears
                                                                               , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -4778,6 +5278,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "mm/Pyr²"
      , CentimeterPerSquareTrillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4788,6 +5289,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "nm/kyr²"
                                                                          , MicrometerPerSquareCentury
                                                                          , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -4798,6 +5300,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "fm/decade²"
                                                                       , PicometerPerSquareYear
                                                                       , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -4808,6 +5311,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rm/wk²"
                                                                     , YoctometerPerSquareDay
                                                                     , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4818,6 +5322,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "km/dy²"
                                                                   , HectometerPerSquareHour
                                                                   , 10.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4828,6 +5333,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Rm/hr²"
                                                                     , YottameterPerSquareMinute
                                                                     , 1000.0 / (60.0 * 60.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4838,6 +5344,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "pm/century²"
                                                                       , NanometerPerSquareDecade
                                                                       , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -4848,6 +5355,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "μm/Gyr²"
                                                                             , MillimeterPerSquareMillionYears
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -4858,6 +5366,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "zm/yr²"
                                                                     , AttometerPerSquareDay
                                                                     , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4868,6 +5377,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Qm/hr²"
                                                                      , RonnameterPerSquareMinute
                                                                      , 1000.0 / (60.0 * 60.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4878,6 +5388,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "cm/Qyr²"
                                                                               , DecimeterPerSquareOctillionYears
                                                                               , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -4888,6 +5399,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "Mm/dy²"
                                                                   , KilometerPerSquareHour
                                                                   , 1000.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4898,6 +5410,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "mm/Eyr²"
      , CentimeterPerSquareQuadrillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4908,6 +5421,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "qm/wk²"
                                                                      , RontometerPerSquareDay
                                                                      , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4918,6 +5432,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "cm/decillion yr²"
                                                                               , DecimeterPerSquareNonillionYears
                                                                               , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -4928,6 +5443,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "nm/Myr²"
                                                                            , MicrometerPerSquareMillennium
                                                                            , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -4938,6 +5454,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "am/decade²"
                                                                      , FemtometerPerSquareYear
                                                                      , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -4948,6 +5465,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "Gm/dy²"
                                                                   , MegameterPerSquareHour
                                                                   , 1000.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -4958,6 +5476,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "μm/Tyr²"
                                                                              , MillimeterPerSquareBillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -4968,6 +5487,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ym/yr²"
                                                                     , ZeptometerPerSquareDay
                                                                     , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -4978,6 +5498,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "mm/Zyr²"
      , CentimeterPerSquareQuintillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -4988,6 +5509,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "pm/kyr²"
                                                                          , NanometerPerSquareCentury
                                                                          , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -4998,13 +5520,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "fm/century²"
                                                                        , PicometerPerSquareDecade
                                                                        , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
    /// dekameter per square week, defined as: meter per square day × (10.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration DekameterPerSquareWeek =
-            new ("dekameter per square week", "dam/wk²", MeterPerSquareDay, 10.0 / (7.0 * 7.0));
+   public static readonly Acceleration DekameterPerSquareWeek = new (
+                                                                     "dekameter per square week"
+                                                                   , "dam/wk²"
+                                                                   , MeterPerSquareDay
+                                                                   , 10.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// terameter per square day, defined as: gigameter per square hour × (1000.0)/((24.0)*(24.0))
@@ -5014,6 +5542,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "Tm/dy²"
                                                                   , GigameterPerSquareHour
                                                                   , 1000.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5024,6 +5553,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "cm/tick²"
                                                                     , DecimeterPerSquareNanosecond
                                                                     , 1.0 / 10.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5034,6 +5564,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "mm/Yyr²"
      , CentimeterPerSquareSextillionYears
      , 1.0 / 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5044,6 +5575,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "μm/Pyr²"
      , MillimeterPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5054,6 +5586,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "nm/Gyr²"
                                                                            , MicrometerPerSquareMillionYears
                                                                            , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -5064,6 +5597,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "zm/decade²"
                                                                       , AttometerPerSquareYear
                                                                       , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -5074,13 +5608,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rm/yr²"
                                                                     , YoctometerPerSquareDay
                                                                     , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
    /// hectometer per square week, defined as: dekameter per square day × (10.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration HectometerPerSquareWeek =
-            new ("hectometer per square week", "hm/wk²", DekameterPerSquareDay, 10.0 / (7.0 * 7.0));
+   public static readonly Acceleration HectometerPerSquareWeek = new (
+                                                                      "hectometer per square week"
+                                                                    , "hm/wk²"
+                                                                    , DekameterPerSquareDay
+                                                                    , 10.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
+                                                                     );
 
    /// <summary>
    /// petameter per square day, defined as: terameter per square hour × (1000.0)/((24.0)*(24.0))
@@ -5090,6 +5630,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "Pm/dy²"
                                                                   , TerameterPerSquareHour
                                                                   , 1000.0 / (24.0 * 24.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5100,6 +5641,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "pm/Myr²"
                                                                            , NanometerPerSquareMillennium
                                                                            , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -5110,6 +5652,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "am/century²"
                                                                       , FemtometerPerSquareDecade
                                                                       , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -5120,6 +5663,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "Em/dy²"
                                                                  , PetameterPerSquareHour
                                                                  , 1000.0 / (24.0 * 24.0)
+                                                                 , system: "SI"
                                                                   );
 
    /// <summary>
@@ -5130,6 +5674,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "mm/Ryr²"
                                                                               , CentimeterPerSquareSeptillionYears
                                                                               , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5140,13 +5685,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "fm/kyr²"
                                                                           , PicometerPerSquareCentury
                                                                           , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
    /// kilometer per square week, defined as: hectometer per square day × (10.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration KilometerPerSquareWeek =
-            new ("kilometer per square week", "km/wk²", HectometerPerSquareDay, 10.0 / (7.0 * 7.0));
+   public static readonly Acceleration KilometerPerSquareWeek = new (
+                                                                     "kilometer per square week"
+                                                                   , "km/wk²"
+                                                                   , HectometerPerSquareDay
+                                                                   , 10.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// micrometer per square quintillion years, defined as: millimeter per square quadrillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -5156,6 +5707,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "μm/Eyr²"
      , MillimeterPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5166,6 +5718,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "qm/yr²"
                                                                      , RontometerPerSquareDay
                                                                      , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -5176,6 +5729,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "nm/Tyr²"
                                                                             , MicrometerPerSquareBillionYears
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5186,6 +5740,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ym/decade²"
                                                                       , ZeptometerPerSquareYear
                                                                       , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -5196,6 +5751,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Zm/dy²"
                                                                    , ExameterPerSquareHour
                                                                    , 1000.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5206,13 +5762,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "mm/Qyr²"
                                                                               , CentimeterPerSquareOctillionYears
                                                                               , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
    /// megameter per square week, defined as: kilometer per square day × (1000.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration MegameterPerSquareWeek =
-            new ("megameter per square week", "Mm/wk²", KilometerPerSquareDay, 1000.0 / (7.0 * 7.0));
+   public static readonly Acceleration MegameterPerSquareWeek = new (
+                                                                     "megameter per square week"
+                                                                   , "Mm/wk²"
+                                                                   , KilometerPerSquareDay
+                                                                   , 1000.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// yottameter per square day, defined as: zettameter per square hour × (1000.0)/((24.0)*(24.0))
@@ -5222,6 +5784,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Ym/dy²"
                                                                    , ZettameterPerSquareHour
                                                                    , 1000.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5232,6 +5795,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "μm/Zyr²"
      , MillimeterPerSquareQuintillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5242,6 +5806,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "pm/Gyr²"
                                                                            , NanometerPerSquareMillionYears
                                                                            , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -5252,6 +5817,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "zm/century²"
                                                                        , AttometerPerSquareDecade
                                                                        , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -5262,6 +5828,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "dam/yr²"
                                                                    , MeterPerSquareDay
                                                                    , 10.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5272,6 +5839,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "mm/decillion yr²"
                                                                               , CentimeterPerSquareNonillionYears
                                                                               , 1.0 / 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5282,6 +5850,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nm/Pyr²"
      , MicrometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5292,6 +5861,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "fm/Myr²"
                                                                             , PicometerPerSquareMillennium
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5302,6 +5872,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "am/kyr²"
                                                                          , FemtometerPerSquareCentury
                                                                          , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -5312,13 +5883,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "rm/decade²"
                                                                       , YoctometerPerSquareYear
                                                                       , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
    /// gigameter per square week, defined as: megameter per square day × (1000.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration GigameterPerSquareWeek =
-            new ("gigameter per square week", "Gm/wk²", MegameterPerSquareDay, 1000.0 / (7.0 * 7.0));
+   public static readonly Acceleration GigameterPerSquareWeek = new (
+                                                                     "gigameter per square week"
+                                                                   , "Gm/wk²"
+                                                                   , MegameterPerSquareDay
+                                                                   , 1000.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// ronnameter per square day, defined as: yottameter per square hour × (1000.0)/((24.0)*(24.0))
@@ -5328,6 +5905,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Rm/dy²"
                                                                    , YottameterPerSquareHour
                                                                    , 1000.0 / (24.0 * 24.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5338,6 +5916,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "μm/Yyr²"
      , MillimeterPerSquareSextillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5348,6 +5927,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "hm/yr²"
                                                                     , DekameterPerSquareDay
                                                                     , 10.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5358,13 +5938,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Qm/dy²"
                                                                     , RonnameterPerSquareHour
                                                                     , 1000.0 / (24.0 * 24.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
    /// terameter per square week, defined as: gigameter per square day × (1000.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration TerameterPerSquareWeek =
-            new ("terameter per square week", "Tm/wk²", GigameterPerSquareDay, 1000.0 / (7.0 * 7.0));
+   public static readonly Acceleration TerameterPerSquareWeek = new (
+                                                                     "terameter per square week"
+                                                                   , "Tm/wk²"
+                                                                   , GigameterPerSquareDay
+                                                                   , 1000.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// picometer per square trillion years, defined as: nanometer per square billion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -5374,6 +5960,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "pm/Tyr²"
                                                                             , NanometerPerSquareBillionYears
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5384,6 +5971,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ym/century²"
                                                                        , ZeptometerPerSquareDecade
                                                                        , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -5394,6 +5982,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nm/Eyr²"
      , MicrometerPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5404,6 +5993,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "qm/decade²"
                                                                        , RontometerPerSquareYear
                                                                        , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -5414,6 +6004,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mm/tick²"
                                                                     , CentimeterPerSquareNanosecond
                                                                     , 1.0 / 10.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5424,6 +6015,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "μm/Ryr²"
                                                                               , MillimeterPerSquareSeptillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5434,6 +6026,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "fm/Gyr²"
                                                                             , PicometerPerSquareMillionYears
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5444,6 +6037,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "zm/kyr²"
                                                                           , AttometerPerSquareCentury
                                                                           , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -5454,13 +6048,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "km/yr²"
                                                                    , HectometerPerSquareDay
                                                                    , 10.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
    /// petameter per square week, defined as: terameter per square day × (1000.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration PetameterPerSquareWeek =
-            new ("petameter per square week", "Pm/wk²", TerameterPerSquareDay, 1000.0 / (7.0 * 7.0));
+   public static readonly Acceleration PetameterPerSquareWeek = new (
+                                                                     "petameter per square week"
+                                                                   , "Pm/wk²"
+                                                                   , TerameterPerSquareDay
+                                                                   , 1000.0 / (7.0 * 7.0)
+                                                                   , system: "SI"
+                                                                    );
 
    /// <summary>
    /// attometer per square million years, defined as: femtometer per square millennium × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -5470,6 +6070,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "am/Myr²"
                                                                            , FemtometerPerSquareMillennium
                                                                            , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -5480,6 +6081,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "nm/Zyr²"
                                                                               , MicrometerPerSquareQuintillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5490,6 +6092,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "pm/Pyr²"
      , NanometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5500,6 +6103,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "rm/century²"
                                                                        , YoctometerPerSquareDecade
                                                                        , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -5510,13 +6114,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "dam/decade²"
                                                                      , MeterPerSquareYear
                                                                      , 10.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
    /// exameter per square week, defined as: petameter per square day × (1000.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration ExameterPerSquareWeek =
-            new ("exameter per square week", "Em/wk²", PetameterPerSquareDay, 1000.0 / (7.0 * 7.0));
+   public static readonly Acceleration ExameterPerSquareWeek = new (
+                                                                    "exameter per square week"
+                                                                  , "Em/wk²"
+                                                                  , PetameterPerSquareDay
+                                                                  , 1000.0 / (7.0 * 7.0)
+                                                                  , system: "SI"
+                                                                   );
 
    /// <summary>
    /// micrometer per square nonillion years, defined as: millimeter per square octillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -5526,6 +6136,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "μm/Qyr²"
                                                                               , MillimeterPerSquareOctillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5536,6 +6147,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Mm/yr²"
                                                                    , KilometerPerSquareDay
                                                                    , 1000.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5546,6 +6158,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "fm/Tyr²"
                                                                              , PicometerPerSquareBillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -5556,13 +6169,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "ym/kyr²"
                                                                           , ZeptometerPerSquareCentury
                                                                           , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
    /// zettameter per square week, defined as: exameter per square day × (1000.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration ZettameterPerSquareWeek =
-            new ("zettameter per square week", "Zm/wk²", ExameterPerSquareDay, 1000.0 / (7.0 * 7.0));
+   public static readonly Acceleration ZettameterPerSquareWeek = new (
+                                                                      "zettameter per square week"
+                                                                    , "Zm/wk²"
+                                                                    , ExameterPerSquareDay
+                                                                    , 1000.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
+                                                                     );
 
    /// <summary>
    /// micrometer per square decillion years, defined as: millimeter per square nonillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -5572,6 +6191,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "μm/decillion yr²"
                                                                               , MillimeterPerSquareNonillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5582,6 +6202,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "nm/Yyr²"
                                                                               , MicrometerPerSquareSextillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5592,6 +6213,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "am/Gyr²"
                                                                            , FemtometerPerSquareMillionYears
                                                                            , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -5602,6 +6224,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "zm/Myr²"
                                                                             , AttometerPerSquareMillennium
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5612,6 +6235,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "hm/decade²"
                                                                       , DekameterPerSquareYear
                                                                       , 10.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -5622,6 +6246,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Gm/yr²"
                                                                    , MegameterPerSquareDay
                                                                    , 1000.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5632,6 +6257,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "pm/Eyr²"
      , NanometerPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5642,6 +6268,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "qm/century²"
                                                                         , RontometerPerSquareDecade
                                                                         , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -5652,6 +6279,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Ym/wk²"
                                                                     , ZettameterPerSquareDay
                                                                     , 1000.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5662,6 +6290,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Tm/yr²"
                                                                    , GigameterPerSquareDay
                                                                    , 1000.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5672,6 +6301,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "nm/Ryr²"
                                                                              , MicrometerPerSquareSeptillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -5682,6 +6312,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "fm/Pyr²"
      , PicometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5692,6 +6323,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "rm/kyr²"
                                                                           , YoctometerPerSquareCentury
                                                                           , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -5702,6 +6334,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "km/decade²"
                                                                      , HectometerPerSquareYear
                                                                      , 10.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -5712,6 +6345,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Rm/wk²"
                                                                     , YottameterPerSquareDay
                                                                     , 1000.0 / (7.0 * 7.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5722,6 +6356,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "pm/Zyr²"
                                                                               , NanometerPerSquareQuintillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5732,6 +6367,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "dam/century²"
                                                                       , MeterPerSquareDecade
                                                                       , 10.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -5742,6 +6378,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "am/Tyr²"
                                                                             , FemtometerPerSquareBillionYears
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5752,6 +6389,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "ym/Myr²"
                                                                             , ZeptometerPerSquareMillennium
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5762,6 +6400,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "μm/tick²"
                                                                     , MillimeterPerSquareNanosecond
                                                                     , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5772,6 +6411,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "zm/Gyr²"
                                                                             , AttometerPerSquareMillionYears
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5782,6 +6422,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Pm/yr²"
                                                                    , TerameterPerSquareDay
                                                                    , 1000.0 / (365.2525 * 365.2525)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -5792,6 +6433,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Qm/wk²"
                                                                      , RonnameterPerSquareDay
                                                                      , 1000.0 / (7.0 * 7.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -5802,6 +6444,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "nm/Qyr²"
                                                                              , MicrometerPerSquareOctillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -5812,6 +6455,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Mm/decade²"
                                                                      , KilometerPerSquareYear
                                                                      , 1000.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -5822,6 +6466,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "fm/Eyr²"
      , PicometerPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5832,6 +6477,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "qm/kyr²"
                                                                            , RontometerPerSquareCentury
                                                                            , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -5842,6 +6488,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "pm/Yyr²"
                                                                               , NanometerPerSquareSextillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -5852,6 +6499,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "hm/century²"
                                                                        , DekameterPerSquareDecade
                                                                        , 10.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -5862,6 +6510,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "Em/yr²"
                                                                   , PetameterPerSquareDay
                                                                   , 1000.0 / (365.2525 * 365.2525)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -5872,6 +6521,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "nm/decillion yr²"
                                                                              , MicrometerPerSquareNonillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -5882,6 +6532,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "am/Pyr²"
      , FemtometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5892,6 +6543,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "rm/Myr²"
                                                                             , YoctometerPerSquareMillennium
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5902,6 +6554,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Gm/decade²"
                                                                      , MegameterPerSquareYear
                                                                      , 1000.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -5912,6 +6565,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "zm/Tyr²"
                                                                              , AttometerPerSquareBillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -5922,6 +6576,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "ym/Gyr²"
                                                                             , ZeptometerPerSquareMillionYears
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -5932,6 +6587,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Zm/yr²"
                                                                     , ExameterPerSquareDay
                                                                     , 1000.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -5942,6 +6598,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "pm/Ryr²"
                                                                              , NanometerPerSquareSeptillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -5952,6 +6609,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "fm/Zyr²"
      , PicometerPerSquareQuintillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -5962,6 +6620,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dam/kyr²"
                                                                          , MeterPerSquareCentury
                                                                          , 10.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -5972,6 +6631,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "km/century²"
                                                                       , HectometerPerSquareDecade
                                                                       , 10.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -5982,6 +6642,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Tm/decade²"
                                                                      , GigameterPerSquareYear
                                                                      , 1000.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -5992,6 +6653,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Ym/yr²"
                                                                     , ZettameterPerSquareDay
                                                                     , 1000.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6002,6 +6664,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "am/Eyr²"
      , FemtometerPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6012,6 +6675,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "qm/Myr²"
                                                                              , RontometerPerSquareMillennium
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6022,6 +6686,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "pm/Qyr²"
                                                                              , NanometerPerSquareOctillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6032,6 +6697,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Mm/century²"
                                                                       , KilometerPerSquareDecade
                                                                       , 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -6042,6 +6708,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "nm/tick²"
                                                                    , MicrometerPerSquareNanosecond
                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6052,6 +6719,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "fm/Yyr²"
      , PicometerPerSquareSextillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6062,6 +6730,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "zm/Pyr²"
      , AttometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6072,6 +6741,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "rm/Gyr²"
                                                                             , YoctometerPerSquareMillionYears
                                                                             , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -6082,6 +6752,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "hm/kyr²"
                                                                           , DekameterPerSquareCentury
                                                                           , 10.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -6092,6 +6763,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Pm/decade²"
                                                                      , TerameterPerSquareYear
                                                                      , 1000.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -6102,6 +6774,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Rm/yr²"
                                                                     , YottameterPerSquareDay
                                                                     , 1000.0 / (365.2525 * 365.2525)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6112,6 +6785,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "ym/Tyr²"
                                                                              , ZeptometerPerSquareBillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6122,6 +6796,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Qm/yr²"
                                                                      , RonnameterPerSquareDay
                                                                      , 1000.0 / (365.2525 * 365.2525)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -6132,6 +6807,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "pm/decillion yr²"
                                                                              , NanometerPerSquareNonillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6142,6 +6818,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "am/Zyr²"
                                                                               , FemtometerPerSquareQuintillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6152,6 +6829,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "dam/Myr²"
                                                                            , MeterPerSquareMillennium
                                                                            , 10.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6162,6 +6840,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Gm/century²"
                                                                       , MegameterPerSquareDecade
                                                                       , 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -6172,6 +6851,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Em/decade²"
                                                                     , PetameterPerSquareYear
                                                                     , 1000.0 / (10.0 * 10.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6182,6 +6862,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "fm/Ryr²"
                                                                               , PicometerPerSquareSeptillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6192,6 +6873,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "km/kyr²"
                                                                          , HectometerPerSquareCentury
                                                                          , 10.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -6202,6 +6884,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "zm/Eyr²"
      , AttometerPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6212,6 +6895,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "qm/Gyr²"
                                                                              , RontometerPerSquareMillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6222,6 +6906,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ym/Pyr²"
      , ZeptometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6232,6 +6917,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "rm/Tyr²"
                                                                              , YoctometerPerSquareBillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6242,6 +6928,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Zm/decade²"
                                                                       , ExameterPerSquareYear
                                                                       , 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -6252,6 +6939,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Tm/century²"
                                                                       , GigameterPerSquareDecade
                                                                       , 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -6262,6 +6950,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "am/Yyr²"
                                                                               , FemtometerPerSquareSextillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6272,6 +6961,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "hm/Myr²"
                                                                             , DekameterPerSquareMillennium
                                                                             , 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -6282,6 +6972,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "fm/Qyr²"
                                                                               , PicometerPerSquareOctillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6292,6 +6983,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Mm/kyr²"
                                                                          , KilometerPerSquareCentury
                                                                          , 1000.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -6302,6 +6994,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Ym/decade²"
                                                                       , ZettameterPerSquareYear
                                                                       , 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -6312,6 +7005,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "pm/tick²"
                                                                    , NanometerPerSquareNanosecond
                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6322,6 +7016,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "zm/Zyr²"
      , AttometerPerSquareQuintillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6332,6 +7027,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "dam/Gyr²"
                                                                            , MeterPerSquareMillionYears
                                                                            , 10.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6342,6 +7038,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Pm/century²"
                                                                       , TerameterPerSquareDecade
                                                                       , 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -6352,6 +7049,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ym/Eyr²"
      , ZeptometerPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6362,6 +7060,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "qm/Tyr²"
                                                                               , RontometerPerSquareBillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6372,6 +7071,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "fm/decillion yr²"
                                                                               , PicometerPerSquareNonillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6382,6 +7082,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "am/Ryr²"
                                                                              , FemtometerPerSquareSeptillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6392,6 +7093,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "rm/Pyr²"
      , YoctometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6402,6 +7104,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "km/Myr²"
                                                                            , HectometerPerSquareMillennium
                                                                            , 10.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6412,6 +7115,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Gm/kyr²"
                                                                          , MegameterPerSquareCentury
                                                                          , 1000.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -6422,6 +7126,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "Rm/decade²"
                                                                       , YottameterPerSquareYear
                                                                       , 1000.0 / (10.0 * 10.0)
+                                                                      , system: "SI"
                                                                        );
 
    /// <summary>
@@ -6432,6 +7137,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Em/century²"
                                                                      , PetameterPerSquareDecade
                                                                      , 1000.0 / (10.0 * 10.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -6442,6 +7148,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "zm/Yyr²"
      , AttometerPerSquareSextillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6452,6 +7159,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "hm/Gyr²"
                                                                             , DekameterPerSquareMillionYears
                                                                             , 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -6462,6 +7170,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "Qm/decade²"
                                                                        , RonnameterPerSquareYear
                                                                        , 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -6472,6 +7181,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Tm/kyr²"
                                                                          , GigameterPerSquareCentury
                                                                          , 1000.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -6482,6 +7192,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "am/Qyr²"
                                                                              , FemtometerPerSquareOctillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6492,6 +7203,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Mm/Myr²"
                                                                            , KilometerPerSquareMillennium
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6502,6 +7214,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ym/Zyr²"
      , ZeptometerPerSquareQuintillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6512,6 +7225,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "dam/Tyr²"
                                                                             , MeterPerSquareBillionYears
                                                                             , 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -6522,6 +7236,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "Zm/century²"
                                                                        , ExameterPerSquareDecade
                                                                        , 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -6532,6 +7247,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "rm/Eyr²"
      , YoctometerPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6542,6 +7258,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "qm/Pyr²"
      , RontometerPerSquareTrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6552,6 +7269,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "fm/tick²"
                                                                     , PicometerPerSquareNanosecond
                                                                     , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6562,6 +7280,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "zm/Ryr²"
                                                                               , AttometerPerSquareSeptillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6572,6 +7291,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "km/Gyr²"
                                                                            , HectometerPerSquareMillionYears
                                                                            , 10.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6582,6 +7302,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Pm/kyr²"
                                                                          , TerameterPerSquareCentury
                                                                          , 1000.0 / (10.0 * 10.0)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -6592,6 +7313,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "Ym/century²"
                                                                        , ZettameterPerSquareDecade
                                                                        , 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -6602,6 +7324,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "am/decillion yr²"
                                                                              , FemtometerPerSquareNonillionYears
                                                                              , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6612,6 +7335,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Gm/Myr²"
                                                                            , MegameterPerSquareMillennium
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6622,6 +7346,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "ym/Yyr²"
      , ZeptometerPerSquareSextillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6632,6 +7357,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "hm/Tyr²"
                                                                              , DekameterPerSquareBillionYears
                                                                              , 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -6642,6 +7368,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "rm/Zyr²"
      , YoctometerPerSquareQuintillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6652,6 +7379,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "dam/Pyr²"
      , MeterPerSquareTrillionYears
      , 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6662,6 +7390,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "Em/kyr²"
                                                                         , PetameterPerSquareCentury
                                                                         , 1000.0 / (10.0 * 10.0)
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -6672,6 +7401,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "Rm/century²"
                                                                        , YottameterPerSquareDecade
                                                                        , 1000.0 / (10.0 * 10.0)
+                                                                       , system: "SI"
                                                                         );
 
    /// <summary>
@@ -6682,6 +7412,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "qm/Eyr²"
      , RontometerPerSquareQuadrillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6692,6 +7423,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "zm/Qyr²"
                                                                               , AttometerPerSquareOctillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6702,6 +7434,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Mm/Gyr²"
                                                                            , KilometerPerSquareMillionYears
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6712,6 +7445,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Tm/Myr²"
                                                                            , GigameterPerSquareMillennium
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6722,6 +7456,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "Qm/century²"
                                                                         , RonnameterPerSquareDecade
                                                                         , 1000.0 / (10.0 * 10.0)
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -6732,6 +7467,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "ym/Ryr²"
                                                                               , ZeptometerPerSquareSeptillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6742,6 +7478,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "km/Tyr²"
                                                                             , HectometerPerSquareBillionYears
                                                                             , 10.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -6752,6 +7489,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Zm/kyr²"
                                                                           , ExameterPerSquareCentury
                                                                           , 1000.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -6762,6 +7500,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "am/tick²"
                                                                    , FemtometerPerSquareNanosecond
                                                                    , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -6772,6 +7511,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "zm/decillion yr²"
                                                                               , AttometerPerSquareNonillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6782,6 +7522,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "rm/Yyr²"
      , YoctometerPerSquareSextillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6792,6 +7533,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "hm/Pyr²"
      , DekameterPerSquareTrillionYears
      , 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6802,6 +7544,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Gm/Gyr²"
                                                                            , MegameterPerSquareMillionYears
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6812,6 +7555,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Pm/Myr²"
                                                                            , TerameterPerSquareMillennium
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6822,6 +7566,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "qm/Zyr²"
      , RontometerPerSquareQuintillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6832,6 +7577,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "dam/Eyr²"
      , MeterPerSquareQuadrillionYears
      , 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6842,6 +7588,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Ym/kyr²"
                                                                           , ZettameterPerSquareCentury
                                                                           , 1000.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -6852,6 +7599,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "ym/Qyr²"
                                                                               , ZeptometerPerSquareOctillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6862,6 +7610,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Mm/Tyr²"
                                                                             , KilometerPerSquareBillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -6872,6 +7621,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Em/Myr²"
                                                                           , PetameterPerSquareMillennium
                                                                           , 1000.0 / (1000.0 * 1000.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -6882,6 +7632,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Tm/Gyr²"
                                                                            , GigameterPerSquareMillionYears
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -6892,6 +7643,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "rm/Ryr²"
                                                                               , YoctometerPerSquareSeptillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6902,6 +7654,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "km/Pyr²"
      , HectometerPerSquareTrillionYears
      , 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6912,6 +7665,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Rm/kyr²"
                                                                           , YottameterPerSquareCentury
                                                                           , 1000.0 / (10.0 * 10.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -6922,6 +7676,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "qm/Yyr²"
      , RontometerPerSquareSextillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6932,6 +7687,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "hm/Eyr²"
      , DekameterPerSquareQuadrillionYears
      , 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -6942,6 +7698,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "dam/Zyr²"
                                                                               , MeterPerSquareQuintillionYears
                                                                               , 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6952,6 +7709,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "ym/decillion yr²"
                                                                               , ZeptometerPerSquareNonillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -6962,6 +7720,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Gm/Tyr²"
                                                                             , MegameterPerSquareBillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -6972,6 +7731,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Zm/Myr²"
                                                                             , ExameterPerSquareMillennium
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -6982,6 +7742,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "zm/tick²"
                                                                     , AttometerPerSquareNanosecond
                                                                     , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -6992,6 +7753,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Pm/Gyr²"
                                                                            , TerameterPerSquareMillionYears
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -7002,6 +7764,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Qm/kyr²"
                                                                            , RonnameterPerSquareCentury
                                                                            , 1000.0 / (10.0 * 10.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -7012,6 +7775,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "rm/Qyr²"
                                                                               , YoctometerPerSquareOctillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7022,6 +7786,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Mm/Pyr²"
      , KilometerPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7032,6 +7797,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Ym/Myr²"
                                                                             , ZettameterPerSquareMillennium
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7042,6 +7808,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "qm/Ryr²"
      , RontometerPerSquareSeptillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7052,6 +7819,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "km/Eyr²"
      , HectometerPerSquareQuadrillionYears
      , 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7062,6 +7830,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Tm/Tyr²"
                                                                             , GigameterPerSquareBillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7072,6 +7841,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "dam/Yyr²"
                                                                               , MeterPerSquareSextillionYears
                                                                               , 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7082,6 +7852,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "hm/Zyr²"
      , DekameterPerSquareQuintillionYears
      , 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7092,6 +7863,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Em/Gyr²"
                                                                           , PetameterPerSquareMillionYears
                                                                           , 1000.0 / (1000.0 * 1000.0)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -7102,6 +7874,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "rm/decillion yr²"
                                                                               , YoctometerPerSquareNonillionYears
                                                                               , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7112,6 +7885,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Gm/Pyr²"
      , MegameterPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7122,6 +7896,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Rm/Myr²"
                                                                             , YottameterPerSquareMillennium
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7132,6 +7907,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ym/tick²"
                                                                     , ZeptometerPerSquareNanosecond
                                                                     , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7142,6 +7918,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Pm/Tyr²"
                                                                             , TerameterPerSquareBillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7152,6 +7929,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Zm/Gyr²"
                                                                             , ExameterPerSquareMillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7162,6 +7940,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "qm/Qyr²"
      , RontometerPerSquareOctillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7172,6 +7951,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Mm/Eyr²"
      , KilometerPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7182,6 +7962,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "dam/Ryr²"
                                                                              , MeterPerSquareSeptillionYears
                                                                              , 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7192,6 +7973,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "km/Zyr²"
                                                                               , HectometerPerSquareQuintillionYears
                                                                               , 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7202,6 +7984,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "hm/Yyr²"
      , DekameterPerSquareSextillionYears
      , 10.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7212,6 +7995,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Qm/Myr²"
                                                                              , RonnameterPerSquareMillennium
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7222,6 +8006,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Tm/Pyr²"
      , GigameterPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7232,6 +8017,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Ym/Gyr²"
                                                                             , ZettameterPerSquareMillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7242,6 +8028,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Em/Tyr²"
                                                                            , PetameterPerSquareBillionYears
                                                                            , 1000.0 / (1000.0 * 1000.0)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -7252,6 +8039,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "qm/decillion yr²"
      , RontometerPerSquareNonillionYears
      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7262,6 +8050,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Gm/Eyr²"
      , MegameterPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7272,6 +8061,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "dam/Qyr²"
                                                                              , MeterPerSquareOctillionYears
                                                                              , 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7282,6 +8072,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Mm/Zyr²"
                                                                               , KilometerPerSquareQuintillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7292,6 +8083,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "rm/tick²"
                                                                     , YoctometerPerSquareNanosecond
                                                                     , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7302,6 +8094,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "hm/Ryr²"
                                                                               , DekameterPerSquareSeptillionYears
                                                                               , 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7312,6 +8105,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "km/Yyr²"
                                                                               , HectometerPerSquareSextillionYears
                                                                               , 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7322,6 +8116,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Pm/Pyr²"
      , TerameterPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7332,6 +8127,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Rm/Gyr²"
                                                                             , YottameterPerSquareMillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7342,6 +8138,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Zm/Tyr²"
                                                                              , ExameterPerSquareBillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7352,6 +8149,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Tm/Eyr²"
      , GigameterPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7362,6 +8160,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Qm/Gyr²"
                                                                              , RonnameterPerSquareMillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7372,6 +8171,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "dam/decillion yr²"
                                                                              , MeterPerSquareNonillionYears
                                                                              , 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7382,6 +8182,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Gm/Zyr²"
                                                                               , MegameterPerSquareQuintillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7392,6 +8193,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Em/Pyr²"
                                                                               , PetameterPerSquareTrillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7402,6 +8204,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Ym/Tyr²"
                                                                              , ZettameterPerSquareBillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7412,6 +8215,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "hm/Qyr²"
                                                                               , DekameterPerSquareOctillionYears
                                                                               , 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7422,6 +8226,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Mm/Yyr²"
                                                                               , KilometerPerSquareSextillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7432,6 +8237,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "km/Ryr²"
                                                                              , HectometerPerSquareSeptillionYears
                                                                              , 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7442,6 +8248,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "qm/tick²"
                                                                      , RontometerPerSquareNanosecond
                                                                      , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -7452,6 +8259,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Pm/Eyr²"
      , TerameterPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7462,6 +8270,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Zm/Pyr²"
      , ExameterPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7472,6 +8281,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Rm/Tyr²"
                                                                              , YottameterPerSquareBillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7482,6 +8292,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Tm/Zyr²"
                                                                               , GigameterPerSquareQuintillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7492,6 +8303,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "hm/decillion yr²"
                                                                               , DekameterPerSquareNonillionYears
                                                                               , 10.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7502,6 +8314,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Gm/Yyr²"
                                                                               , MegameterPerSquareSextillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7512,6 +8325,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "km/Qyr²"
                                                                              , HectometerPerSquareOctillionYears
                                                                              , 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7522,6 +8336,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Mm/Ryr²"
                                                                              , KilometerPerSquareSeptillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7532,6 +8347,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Em/Eyr²"
                                                                               , PetameterPerSquareQuadrillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7542,6 +8358,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Qm/Tyr²"
                                                                               , RonnameterPerSquareBillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7552,6 +8369,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Ym/Pyr²"
      , ZettameterPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7562,6 +8380,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "dam/tick²"
                                                                    , MeterPerSquareNanosecond
                                                                    , 10.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7572,6 +8391,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Pm/Zyr²"
                                                                               , TerameterPerSquareQuintillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7582,6 +8402,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Tm/Yyr²"
                                                                               , GigameterPerSquareSextillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7592,6 +8413,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Zm/Eyr²"
      , ExameterPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7602,6 +8424,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "km/decillion yr²"
                                                                              , HectometerPerSquareNonillionYears
                                                                              , 10.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7612,6 +8435,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Gm/Ryr²"
                                                                              , MegameterPerSquareSeptillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7622,6 +8446,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Rm/Pyr²"
      , YottameterPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7632,6 +8457,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Mm/Qyr²"
                                                                              , KilometerPerSquareOctillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7642,6 +8468,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Em/Zyr²"
                                                                              , PetameterPerSquareQuintillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7652,6 +8479,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Ym/Eyr²"
      , ZettameterPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7662,6 +8490,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "hm/tick²"
                                                                     , DekameterPerSquareNanosecond
                                                                     , 10.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -7672,6 +8501,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Pm/Yyr²"
                                                                               , TerameterPerSquareSextillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7682,6 +8512,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Qm/Pyr²"
      , RonnameterPerSquareTrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7692,6 +8523,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Tm/Ryr²"
                                                                              , GigameterPerSquareSeptillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7702,6 +8534,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Mm/decillion yr²"
                                                                              , KilometerPerSquareNonillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7712,6 +8545,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Gm/Qyr²"
                                                                              , MegameterPerSquareOctillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7722,6 +8556,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Zm/Zyr²"
      , ExameterPerSquareQuintillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7732,6 +8567,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Rm/Eyr²"
      , YottameterPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7742,6 +8578,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Em/Yyr²"
                                                                              , PetameterPerSquareSextillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7752,6 +8589,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "km/tick²"
                                                                    , HectometerPerSquareNanosecond
                                                                    , 10.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7762,6 +8600,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Pm/Ryr²"
                                                                              , TerameterPerSquareSeptillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7772,6 +8611,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Ym/Zyr²"
      , ZettameterPerSquareQuintillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7782,6 +8622,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Tm/Qyr²"
                                                                              , GigameterPerSquareOctillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7792,6 +8633,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Gm/decillion yr²"
                                                                              , MegameterPerSquareNonillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7802,6 +8644,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Qm/Eyr²"
      , RonnameterPerSquareQuadrillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7812,6 +8655,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Zm/Yyr²"
      , ExameterPerSquareSextillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7822,6 +8666,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Em/Ryr²"
                                                                             , PetameterPerSquareSeptillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7832,6 +8677,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Rm/Zyr²"
      , YottameterPerSquareQuintillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7842,6 +8688,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Mm/tick²"
                                                                    , KilometerPerSquareNanosecond
                                                                    , 1000.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7852,6 +8699,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Pm/Qyr²"
                                                                              , TerameterPerSquareOctillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7862,6 +8710,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Tm/decillion yr²"
                                                                              , GigameterPerSquareNonillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7872,6 +8721,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Ym/Yyr²"
      , ZettameterPerSquareSextillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7882,6 +8732,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Qm/Zyr²"
      , RonnameterPerSquareQuintillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7892,6 +8743,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Zm/Ryr²"
                                                                               , ExameterPerSquareSeptillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7902,6 +8754,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Em/Qyr²"
                                                                             , PetameterPerSquareOctillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7912,6 +8765,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Gm/tick²"
                                                                    , MegameterPerSquareNanosecond
                                                                    , 1000.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7922,6 +8776,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "Pm/decillion yr²"
                                                                              , TerameterPerSquareNonillionYears
                                                                              , 1000.0 / (1000.0 * 1000.0)
+                                                                             , system: "SI"
                                                                               );
 
    /// <summary>
@@ -7932,6 +8787,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Rm/Yyr²"
      , YottameterPerSquareSextillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7942,6 +8798,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Ym/Ryr²"
                                                                               , ZettameterPerSquareSeptillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7952,6 +8809,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Zm/Qyr²"
                                                                               , ExameterPerSquareOctillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -7962,6 +8820,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Qm/Yyr²"
      , RonnameterPerSquareSextillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -7972,6 +8831,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "Em/decillion yr²"
                                                                             , PetameterPerSquareNonillionYears
                                                                             , 1000.0 / (1000.0 * 1000.0)
+                                                                            , system: "SI"
                                                                              );
 
    /// <summary>
@@ -7982,6 +8842,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Tm/tick²"
                                                                    , GigameterPerSquareNanosecond
                                                                    , 1000.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -7992,6 +8853,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Rm/Ryr²"
                                                                               , YottameterPerSquareSeptillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -8002,6 +8864,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Ym/Qyr²"
                                                                               , ZettameterPerSquareOctillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -8012,6 +8875,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Zm/decillion yr²"
                                                                               , ExameterPerSquareNonillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -8022,6 +8886,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "Pm/tick²"
                                                                    , TerameterPerSquareNanosecond
                                                                    , 1000.0 / (100.0 * 100.0)
+                                                                   , system: "SI"
                                                                     );
 
    /// <summary>
@@ -8032,6 +8897,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Qm/Ryr²"
      , RonnameterPerSquareSeptillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -8042,6 +8908,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Rm/Qyr²"
                                                                               , YottameterPerSquareOctillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -8052,6 +8919,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Ym/decillion yr²"
                                                                               , ZettameterPerSquareNonillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -8062,6 +8930,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "Em/tick²"
                                                                   , PetameterPerSquareNanosecond
                                                                   , 1000.0 / (100.0 * 100.0)
+                                                                  , system: "SI"
                                                                    );
 
    /// <summary>
@@ -8072,6 +8941,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Qm/Qyr²"
      , RonnameterPerSquareOctillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -8082,6 +8952,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , "Rm/decillion yr²"
                                                                               , YottameterPerSquareNonillionYears
                                                                               , 1000.0 / (1000.0 * 1000.0)
+                                                                              , system: "SI"
                                                                                );
 
    /// <summary>
@@ -8092,6 +8963,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Zm/tick²"
                                                                     , ExameterPerSquareNanosecond
                                                                     , 1000.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8102,6 +8974,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "Qm/decillion yr²"
      , RonnameterPerSquareNonillionYears
      , 1000.0 / (1000.0 * 1000.0)
+     , system: "SI"
       );
 
    /// <summary>
@@ -8112,6 +8985,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Ym/tick²"
                                                                     , ZettameterPerSquareNanosecond
                                                                     , 1000.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8122,6 +8996,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "Rm/tick²"
                                                                     , YottameterPerSquareNanosecond
                                                                     , 1000.0 / (100.0 * 100.0)
+                                                                    , system: "SI"
                                                                      );
 
    /// <summary>
@@ -8132,6 +9007,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "Qm/tick²"
                                                                      , RonnameterPerSquareNanosecond
                                                                      , 1000.0 / (100.0 * 100.0)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -8142,6 +9018,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "m/tₚ²"
                                                                      , MeterPerSquareMicrosecond
                                                                      , 1.0 / (5.391247E-38 * 5.391247E-38)
+                                                                     , system: "SI"
                                                                       );
 
    /// <summary>
@@ -8152,6 +9029,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "dm/tₚ²"
                                                                          , MeterPerSquareMicrosecond
                                                                          , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8162,6 +9040,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "cm/tₚ²"
                                                                           , DecimeterPerSquareMicrosecond
                                                                           , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8172,6 +9051,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "mm/tₚ²"
                                                                           , CentimeterPerSquareMicrosecond
                                                                           , 1.0 / 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8182,6 +9062,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "μm/tₚ²"
                                                                           , MillimeterPerSquareMicrosecond
                                                                           , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8192,6 +9073,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "nm/tₚ²"
                                                                          , MicrometerPerSquareMicrosecond
                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8202,6 +9084,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "pm/tₚ²"
                                                                          , NanometerPerSquareMicrosecond
                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8212,6 +9095,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "fm/tₚ²"
                                                                           , PicometerPerSquareMicrosecond
                                                                           , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8222,6 +9106,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "am/tₚ²"
                                                                          , FemtometerPerSquareMicrosecond
                                                                          , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8232,6 +9117,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "zm/tₚ²"
                                                                           , AttometerPerSquareMicrosecond
                                                                           , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8242,6 +9128,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "ym/tₚ²"
                                                                           , ZeptometerPerSquareMicrosecond
                                                                           , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8252,6 +9139,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "rm/tₚ²"
                                                                           , YoctometerPerSquareMicrosecond
                                                                           , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8264,6 +9152,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , 1.0
                                                                            / 1000.0
                                                                            / (5.391247E-38 * 5.391247E-38)
+                                                                           , system: "SI"
                                                                             );
 
    /// <summary>
@@ -8274,6 +9163,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "hm/tₚ²"
                                                                           , DekameterPerSquareMicrosecond
                                                                           , 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8284,6 +9174,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "km/tₚ²"
                                                                          , HectometerPerSquareMicrosecond
                                                                          , 10.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8294,6 +9185,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Mm/tₚ²"
                                                                          , KilometerPerSquareMicrosecond
                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8304,6 +9196,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Gm/tₚ²"
                                                                          , MegameterPerSquareMicrosecond
                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8314,6 +9207,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Tm/tₚ²"
                                                                          , GigameterPerSquareMicrosecond
                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8324,6 +9218,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "Pm/tₚ²"
                                                                          , TerameterPerSquareMicrosecond
                                                                          , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                         , system: "SI"
                                                                           );
 
    /// <summary>
@@ -8334,6 +9229,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "Em/tₚ²"
                                                                         , PetameterPerSquareMicrosecond
                                                                         , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                        , system: "SI"
                                                                          );
 
    /// <summary>
@@ -8344,6 +9240,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Zm/tₚ²"
                                                                           , ExameterPerSquareMicrosecond
                                                                           , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8354,6 +9251,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Ym/tₚ²"
                                                                           , ZettameterPerSquareMicrosecond
                                                                           , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8364,6 +9262,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "Rm/tₚ²"
                                                                           , YottameterPerSquareMicrosecond
                                                                           , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                          , system: "SI"
                                                                            );
 
    /// <summary>
@@ -8374,5 +9273,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "Qm/tₚ²"
                                                                            , RonnameterPerSquareMicrosecond
                                                                            , 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                           , system: "SI"
                                                                             );
 }

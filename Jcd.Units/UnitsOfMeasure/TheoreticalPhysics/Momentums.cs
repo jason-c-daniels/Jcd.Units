@@ -20,5 +20,11 @@ public class Momentums : UnitOfMeasureEnumeration<Momentums, Momentum>
    /// <summary>
    /// planck-momentum, defined as: SI newton-second × 6.5249
    /// </summary>
-   public static readonly Momentum PlanckMomentum = new ("planck-momentum", "mₚc", SI.Momentums.NewtonSecond, 6.5249);
+   public static readonly Momentum PlanckMomentum = new (
+                                                         "planck-momentum"
+                                                       , "mₚc"
+                                                       , SI.Momentums.NewtonSecond
+                                                       , 6.5249
+                                                       , system: "Theoretical Physics"
+                                                        );
 }

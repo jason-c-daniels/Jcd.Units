@@ -32,12 +32,40 @@ const int ITERATIONS = 100_000;
 const int ITERATIONS = 1_000_000;
 #endif
 
+var tempsX = UnitRegistry<Temperature>.Default.All;
+var nl1    = UnitRegistry<Temperature>.Default.NameLookup;
+var sl1    = UnitRegistry<Temperature>.Default.SymbolLookup;
+
 var tC  = new Temperature("C", "C");
 var tt2 = new Temperature("T2", "T2", tC, 10, 5);
 var tt3 = new Temperature("F", "F", tC, 5d / 9d, -32);
 var tK  = new Temperature("K", "K", tC, 1, -273.15);
 var tkK = new Temperature("kK", "kK", tK, 1000d);
 var tde = new Temperature("de", "de", tC, -2d / 3d, -150);
+
+UnitRegistry<Temperature>.Default.AutoregisterUnits();
+var tempsY = UnitRegistry<Temperature>.Default.All;
+var nl2    = UnitRegistry<Temperature>.Default.NameLookup;
+var sl2    = UnitRegistry<Temperature>.Default.SymbolLookup;
+
+UnitRegistry<Temperature>.Default.Register(tC);
+UnitRegistry<Temperature>.Default.Register(tt2);
+UnitRegistry<Temperature>.Default.Register(tt3);
+UnitRegistry<Temperature>.Default.Register(tK);
+UnitRegistry<Temperature>.Default.Register(tkK);
+UnitRegistry<Temperature>.Default.Register(tde);
+
+var tempsZ = UnitRegistry<Temperature>.Default.All;
+var nl3    = UnitRegistry<Temperature>.Default.NameLookup;
+var sl3    = UnitRegistry<Temperature>.Default.SymbolLookup;
+
+UnitRegistry<Length>.Default.AutoregisterUnits();
+
+var lengths        = UnitRegistry<Length>.Default.All;
+var lengthByName   = UnitRegistry<Length>.Default.NameLookup;
+var lengthBySymbol = UnitRegistry<Length>.Default.SymbolLookup;
+
+UnitRegistry.Default.AutoregisterAllUnits();
 
 var qtt1         = 200.As(tC);
 var qtt1As2      = qtt1.To(tt2);

@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [Power(string, string, Power, double, double, IValueComparer&lt;double&gt;)](Power..ctor.EGFcgdFZIZedtSKWD/ys9A.md 'Jcd.Units.UnitTypes.Power.Power(string, string, Jcd.Units.UnitTypes.Power, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [Power](Power.md 'Jcd.Units.UnitTypes.Power') using another [Power](Power.md 'Jcd.Units.UnitTypes.Power') as a reference. |
+| [Power(string, string, Power, double, double, IValueComparer&lt;double&gt;, string)](Power..ctor.fd4KqMKt+DFBUvjfl6KdzQ.md 'Jcd.Units.UnitTypes.Power.Power(string, string, Jcd.Units.UnitTypes.Power, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Power](Power.md 'Jcd.Units.UnitTypes.Power') using another [Power](Power.md 'Jcd.Units.UnitTypes.Power') as a reference. |

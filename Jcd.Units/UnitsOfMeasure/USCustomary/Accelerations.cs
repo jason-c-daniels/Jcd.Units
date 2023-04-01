@@ -25,6 +25,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nmi/Ryr²"
      , SI.Accelerations.MeterPerSquareSeptillionYears
      , 1852.0 / (1000.0 * 1000.0)
+     , system: "US Customary"
       );
 
    /// <summary>
@@ -35,6 +36,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nmi/Tyr²"
      , SI.Accelerations.MeterPerSquareBillionYears
      , 1852.0 / (1000.0 * 1000.0)
+     , system: "US Customary"
       );
 
    /// <summary>
@@ -45,6 +47,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "nmi/decade²"
                                                                         , SI.Accelerations.MeterPerSquareYear
                                                                         , 1852.0 / (10.0 * 10.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -55,6 +58,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "nmi/min²"
                                                                         , SI.Accelerations.MeterPerSquareSecond
                                                                         , 1852.0 / (60.0 * 60.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -65,6 +69,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nmi/decillion yr²"
      , SI.Accelerations.MeterPerSquareNonillionYears
      , 1852.0 / (1000.0 * 1000.0)
+     , system: "US Customary"
       );
 
    /// <summary>
@@ -75,6 +80,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nmi/Eyr²"
      , SI.Accelerations.MeterPerSquareQuadrillionYears
      , 1852.0 / (1000.0 * 1000.0)
+     , system: "US Customary"
       );
 
    /// <summary>
@@ -85,6 +91,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "nmi/kyr²"
                                                                             , SI.Accelerations.MeterPerSquareCentury
                                                                             , 1852.0 / (10.0 * 10.0)
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -95,6 +102,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "nmi/dy²"
                                                                      , SI.Accelerations.MeterPerSquareHour
                                                                      , 1852.0 / (24.0 * 24.0)
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -105,6 +113,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "nmi/tick²"
                                                                       , SI.Accelerations.MeterPerSquareNanosecond
                                                                       , 1852.0 / (100.0 * 100.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -115,6 +124,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nmi/Yyr²"
      , SI.Accelerations.MeterPerSquareSextillionYears
      , 1852.0 / (1000.0 * 1000.0)
+     , system: "US Customary"
       );
 
    /// <summary>
@@ -126,6 +136,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , SI.Accelerations
                                                                                         .MeterPerSquareMillionYears
                                                                               , 1852.0 / (1000.0 * 1000.0)
+                                                                              , system: "US Customary"
                                                                                );
 
    /// <summary>
@@ -136,6 +147,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "nmi/yr²"
                                                                       , SI.Accelerations.MeterPerSquareDay
                                                                       , 1852.0 / (365.2525 * 365.2525)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -146,6 +158,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "in/s²"
                                                                 , SI.Accelerations.CentimeterPerSquareSecond
                                                                 , 2.54 / (1.0 * 1.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -156,6 +169,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "in/tₚ²"
                                                                     , SI.Accelerations.CentimeterPerSquareMicrosecond
                                                                     , 2.54 / (5.391247E-38 * 5.391247E-38)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -166,6 +180,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "in/ds²"
                                                                     , SI.Accelerations.CentimeterPerSquareSecond
                                                                     , 2.54 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -176,6 +191,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "in/cs²"
                                                                      , SI.Accelerations.CentimeterPerSquareDecisecond
                                                                      , 2.54 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -186,6 +202,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "in/ms²"
                                                                      , SI.Accelerations.CentimeterPerSquareCentisecond
                                                                      , 2.54 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -196,6 +213,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "in/μs²"
                                                                      , SI.Accelerations.CentimeterPerSquareMillisecond
                                                                      , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -206,6 +224,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "in/ns²"
                                                                     , SI.Accelerations.CentimeterPerSquareMicrosecond
                                                                     , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -216,6 +235,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "in/ps²"
                                                                     , SI.Accelerations.CentimeterPerSquareNanosecond
                                                                     , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -226,6 +246,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "in/fs²"
                                                                      , SI.Accelerations.CentimeterPerSquarePicosecond
                                                                      , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -236,6 +257,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "in/as²"
                                                                     , SI.Accelerations.CentimeterPerSquareFemtosecond
                                                                     , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -246,6 +268,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "in/zs²"
                                                                      , SI.Accelerations.CentimeterPerSquareAttosecond
                                                                      , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -256,6 +279,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "in/ys²"
                                                                      , SI.Accelerations.CentimeterPerSquareZeptosecond
                                                                      , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -266,6 +290,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "in/rs²"
                                                                      , SI.Accelerations.CentimeterPerSquareYoctosecond
                                                                      , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -276,6 +301,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "in/qs²"
                                                                       , SI.Accelerations.CentimeterPerSquareRontosecond
                                                                       , 2.54 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -286,6 +312,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "in/min²"
                                                                 , SI.Accelerations.CentimeterPerSquareSecond
                                                                 , 2.54 / (60.0 * 60.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -296,6 +323,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "mil/s²"
                                                                , InchPerSquareSecond
                                                                , 1.0 / 1000.0 / (1.0 * 1.0)
+                                                               , system: "US Customary"
                                                                 );
 
    /// <summary>
@@ -306,6 +334,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "mil/tₚ²"
                                                                    , InchPerSquareMicrosecond
                                                                    , 1.0 / 1000.0 / (5.391247E-38 * 5.391247E-38)
+                                                                   , system: "US Customary"
                                                                     );
 
    /// <summary>
@@ -316,6 +345,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "mil/ds²"
                                                                    , InchPerSquareSecond
                                                                    , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                   , system: "US Customary"
                                                                     );
 
    /// <summary>
@@ -326,6 +356,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mil/cs²"
                                                                     , InchPerSquareDecisecond
                                                                     , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -336,6 +367,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mil/ms²"
                                                                     , InchPerSquareCentisecond
                                                                     , 1.0 / 1000.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -346,6 +378,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mil/μs²"
                                                                     , InchPerSquareMillisecond
                                                                     , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -356,6 +389,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "mil/ns²"
                                                                    , InchPerSquareMicrosecond
                                                                    , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                   , system: "US Customary"
                                                                     );
 
    /// <summary>
@@ -366,6 +400,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "mil/ps²"
                                                                    , InchPerSquareNanosecond
                                                                    , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                   , system: "US Customary"
                                                                     );
 
    /// <summary>
@@ -376,6 +411,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mil/fs²"
                                                                     , InchPerSquarePicosecond
                                                                     , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -386,6 +422,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "mil/as²"
                                                                    , InchPerSquareFemtosecond
                                                                    , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                   , system: "US Customary"
                                                                     );
 
    /// <summary>
@@ -396,6 +433,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mil/zs²"
                                                                     , InchPerSquareAttosecond
                                                                     , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -406,6 +444,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mil/ys²"
                                                                     , InchPerSquareZeptosecond
                                                                     , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -416,6 +455,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mil/rs²"
                                                                     , InchPerSquareYoctosecond
                                                                     , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -426,6 +466,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mil/qs²"
                                                                      , InchPerSquareRontosecond
                                                                      , 1.0 / 1000.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -436,13 +477,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "in/hr²"
                                                               , SI.Accelerations.CentimeterPerSquareMinute
                                                               , 2.54 / (60.0 * 60.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
    /// point per square second, defined as: inch per square second × (1.0/72.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration PointPerSquareSecond =
-            new ("point per square second", "p/s²", InchPerSquareSecond, 1.0 / 72.0 / (1.0 * 1.0));
+   public static readonly Acceleration PointPerSquareSecond = new (
+                                                                   "point per square second"
+                                                                 , "p/s²"
+                                                                 , InchPerSquareSecond
+                                                                 , 1.0 / 72.0 / (1.0 * 1.0)
+                                                                 , system: "US Customary"
+                                                                  );
 
    /// <summary>
    /// point per square planck-time, defined as: inch per square microsecond × (1.0/72.0)/((5.391247E-38)*(5.391247E-38))
@@ -452,6 +499,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "p/tₚ²"
                                                                      , InchPerSquareMicrosecond
                                                                      , 1.0 / 72.0 / (5.391247E-38 * 5.391247E-38)
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -462,6 +510,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "p/ds²"
                                                                      , InchPerSquareSecond
                                                                      , 1.0 / 72.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -472,6 +521,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "p/cs²"
                                                                       , InchPerSquareDecisecond
                                                                       , 1.0 / 72.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -482,6 +532,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "p/ms²"
                                                                       , InchPerSquareCentisecond
                                                                       , 1.0 / 72.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -492,6 +543,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "p/μs²"
                                                                       , InchPerSquareMillisecond
                                                                       , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -502,6 +554,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "p/ns²"
                                                                      , InchPerSquareMicrosecond
                                                                      , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -512,6 +565,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "p/ps²"
                                                                      , InchPerSquareNanosecond
                                                                      , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -522,6 +576,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "p/fs²"
                                                                       , InchPerSquarePicosecond
                                                                       , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -532,6 +587,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "p/as²"
                                                                      , InchPerSquareFemtosecond
                                                                      , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -542,6 +598,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "p/zs²"
                                                                       , InchPerSquareAttosecond
                                                                       , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -552,6 +609,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "p/ys²"
                                                                       , InchPerSquareZeptosecond
                                                                       , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -562,6 +620,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "p/rs²"
                                                                       , InchPerSquareYoctosecond
                                                                       , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -572,6 +631,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "p/qs²"
                                                                        , InchPerSquareRontosecond
                                                                        , 1.0 / 72.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -582,6 +642,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "in/dy²"
                                                              , SI.Accelerations.CentimeterPerSquareHour
                                                              , 2.54 / (24.0 * 24.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
@@ -592,6 +653,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "twip/s²"
                                                                 , PointPerSquareSecond
                                                                 , 1.0 / 20.0 / (1.0 * 1.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -602,6 +664,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "twip/tₚ²"
                                                                     , PointPerSquareMicrosecond
                                                                     , 1.0 / 20.0 / (5.391247E-38 * 5.391247E-38)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -612,6 +675,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "twip/ds²"
                                                                     , PointPerSquareSecond
                                                                     , 1.0 / 20.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -622,6 +686,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "twip/cs²"
                                                                      , PointPerSquareDecisecond
                                                                      , 1.0 / 20.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -632,6 +697,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "twip/ms²"
                                                                      , PointPerSquareCentisecond
                                                                      , 1.0 / 20.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -642,6 +708,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "twip/μs²"
                                                                      , PointPerSquareMillisecond
                                                                      , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -652,6 +719,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "twip/ns²"
                                                                     , PointPerSquareMicrosecond
                                                                     , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -662,6 +730,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "twip/ps²"
                                                                     , PointPerSquareNanosecond
                                                                     , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -672,6 +741,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "twip/fs²"
                                                                      , PointPerSquarePicosecond
                                                                      , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -682,6 +752,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "twip/as²"
                                                                     , PointPerSquareFemtosecond
                                                                     , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -692,6 +763,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "twip/zs²"
                                                                      , PointPerSquareAttosecond
                                                                      , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -702,6 +774,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "twip/ys²"
                                                                      , PointPerSquareZeptosecond
                                                                      , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -712,6 +785,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "twip/rs²"
                                                                      , PointPerSquareYoctosecond
                                                                      , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -722,6 +796,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "twip/qs²"
                                                                       , PointPerSquareRontosecond
                                                                       , 1.0 / 20.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -732,13 +807,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "in/wk²"
                                                               , SI.Accelerations.CentimeterPerSquareDay
                                                               , 2.54 / (7.0 * 7.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
    /// pica per square second, defined as: point per square second × (12.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration PicaPerSquareSecond =
-            new ("pica per square second", "P/s²", PointPerSquareSecond, 12.0 / (1.0 * 1.0));
+   public static readonly Acceleration PicaPerSquareSecond = new (
+                                                                  "pica per square second"
+                                                                , "P/s²"
+                                                                , PointPerSquareSecond
+                                                                , 12.0 / (1.0 * 1.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// pica per square planck-time, defined as: point per square microsecond × (12.0)/((5.391247E-38)*(5.391247E-38))
@@ -748,6 +829,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "P/tₚ²"
                                                                     , PointPerSquareMicrosecond
                                                                     , 12.0 / (5.391247E-38 * 5.391247E-38)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -758,6 +840,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "P/ds²"
                                                                     , PointPerSquareSecond
                                                                     , 12.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -768,6 +851,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "P/cs²"
                                                                      , PointPerSquareDecisecond
                                                                      , 12.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -778,6 +862,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "P/ms²"
                                                                      , PointPerSquareCentisecond
                                                                      , 12.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -788,6 +873,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "P/μs²"
                                                                      , PointPerSquareMillisecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -798,6 +884,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "P/ns²"
                                                                     , PointPerSquareMicrosecond
                                                                     , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -808,6 +895,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "P/ps²"
                                                                     , PointPerSquareNanosecond
                                                                     , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -818,6 +906,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "P/fs²"
                                                                      , PointPerSquarePicosecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -828,6 +917,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "P/as²"
                                                                     , PointPerSquareFemtosecond
                                                                     , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -838,6 +928,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "P/zs²"
                                                                      , PointPerSquareAttosecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -848,6 +939,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "P/ys²"
                                                                      , PointPerSquareZeptosecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -858,6 +950,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "P/rs²"
                                                                      , PointPerSquareYoctosecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -868,6 +961,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "P/qs²"
                                                                       , PointPerSquareRontosecond
                                                                       , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -878,13 +972,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "in/yr²"
                                                               , SI.Accelerations.CentimeterPerSquareDay
                                                               , 2.54 / (365.2525 * 365.2525)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
    /// foot per square second, defined as: inch per square second × (12.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration FootPerSquareSecond =
-            new ("foot per square second", "ft/s²", InchPerSquareSecond, 12.0 / (1.0 * 1.0));
+   public static readonly Acceleration FootPerSquareSecond = new (
+                                                                  "foot per square second"
+                                                                , "ft/s²"
+                                                                , InchPerSquareSecond
+                                                                , 12.0 / (1.0 * 1.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// foot per square planck-time, defined as: inch per square microsecond × (12.0)/((5.391247E-38)*(5.391247E-38))
@@ -894,6 +994,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ft/tₚ²"
                                                                     , InchPerSquareMicrosecond
                                                                     , 12.0 / (5.391247E-38 * 5.391247E-38)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -904,6 +1005,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ft/ds²"
                                                                     , InchPerSquareSecond
                                                                     , 12.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -914,6 +1016,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ft/cs²"
                                                                      , InchPerSquareDecisecond
                                                                      , 12.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -924,6 +1027,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ft/ms²"
                                                                      , InchPerSquareCentisecond
                                                                      , 12.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -934,6 +1038,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ft/μs²"
                                                                      , InchPerSquareMillisecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -944,6 +1049,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ft/ns²"
                                                                     , InchPerSquareMicrosecond
                                                                     , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -954,6 +1060,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ft/ps²"
                                                                     , InchPerSquareNanosecond
                                                                     , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -964,6 +1071,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ft/fs²"
                                                                      , InchPerSquarePicosecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -974,6 +1082,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "ft/as²"
                                                                     , InchPerSquareFemtosecond
                                                                     , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -984,6 +1093,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ft/zs²"
                                                                      , InchPerSquareAttosecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -994,6 +1104,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ft/ys²"
                                                                      , InchPerSquareZeptosecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1004,6 +1115,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "ft/rs²"
                                                                      , InchPerSquareYoctosecond
                                                                      , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1014,6 +1126,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ft/qs²"
                                                                       , InchPerSquareRontosecond
                                                                       , 12.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1024,13 +1137,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "in/decade²"
                                                                 , SI.Accelerations.CentimeterPerSquareYear
                                                                 , 2.54 / (10.0 * 10.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
    /// yard per square second, defined as: foot per square second × (3.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration YardPerSquareSecond =
-            new ("yard per square second", "yd/s²", FootPerSquareSecond, 3.0 / (1.0 * 1.0));
+   public static readonly Acceleration YardPerSquareSecond = new (
+                                                                  "yard per square second"
+                                                                , "yd/s²"
+                                                                , FootPerSquareSecond
+                                                                , 3.0 / (1.0 * 1.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// yard per square planck-time, defined as: foot per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
@@ -1040,6 +1159,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "yd/tₚ²"
                                                                     , FootPerSquareMicrosecond
                                                                     , 3.0 / (5.391247E-38 * 5.391247E-38)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1050,6 +1170,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "yd/ds²"
                                                                     , FootPerSquareSecond
                                                                     , 3.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1060,6 +1181,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "yd/cs²"
                                                                      , FootPerSquareDecisecond
                                                                      , 3.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1070,6 +1192,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "yd/ms²"
                                                                      , FootPerSquareCentisecond
                                                                      , 3.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1080,6 +1203,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "yd/μs²"
                                                                      , FootPerSquareMillisecond
                                                                      , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1090,6 +1214,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "yd/ns²"
                                                                     , FootPerSquareMicrosecond
                                                                     , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1100,6 +1225,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "yd/ps²"
                                                                     , FootPerSquareNanosecond
                                                                     , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1110,6 +1236,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "yd/fs²"
                                                                      , FootPerSquarePicosecond
                                                                      , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1120,6 +1247,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "yd/as²"
                                                                     , FootPerSquareFemtosecond
                                                                     , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1130,6 +1258,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "yd/zs²"
                                                                      , FootPerSquareAttosecond
                                                                      , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1140,6 +1269,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "yd/ys²"
                                                                      , FootPerSquareZeptosecond
                                                                      , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1150,6 +1280,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "yd/rs²"
                                                                      , FootPerSquareYoctosecond
                                                                      , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1160,6 +1291,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "yd/qs²"
                                                                       , FootPerSquareRontosecond
                                                                       , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1170,13 +1302,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "in/century²"
                                                                  , SI.Accelerations.CentimeterPerSquareDecade
                                                                  , 2.54 / (10.0 * 10.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
    /// mile per square second, defined as: yard per square second × (1760.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration MilePerSquareSecond =
-            new ("mile per square second", "mi/s²", YardPerSquareSecond, 1760.0 / (1.0 * 1.0));
+   public static readonly Acceleration MilePerSquareSecond = new (
+                                                                  "mile per square second"
+                                                                , "mi/s²"
+                                                                , YardPerSquareSecond
+                                                                , 1760.0 / (1.0 * 1.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// mile per square planck-time, defined as: yard per square microsecond × (1760.0)/((5.391247E-38)*(5.391247E-38))
@@ -1186,6 +1324,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mi/tₚ²"
                                                                     , YardPerSquareMicrosecond
                                                                     , 1760.0 / (5.391247E-38 * 5.391247E-38)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1196,6 +1335,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mi/ds²"
                                                                     , YardPerSquareSecond
                                                                     , 1760.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1206,6 +1346,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mi/cs²"
                                                                      , YardPerSquareDecisecond
                                                                      , 1760.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1216,6 +1357,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mi/ms²"
                                                                      , YardPerSquareCentisecond
                                                                      , 1760.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1226,6 +1368,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mi/μs²"
                                                                      , YardPerSquareMillisecond
                                                                      , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1236,6 +1379,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mi/ns²"
                                                                     , YardPerSquareMicrosecond
                                                                     , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1246,6 +1390,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mi/ps²"
                                                                     , YardPerSquareNanosecond
                                                                     , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1256,6 +1401,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mi/fs²"
                                                                      , YardPerSquarePicosecond
                                                                      , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1266,6 +1412,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mi/as²"
                                                                     , YardPerSquareFemtosecond
                                                                     , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -1276,6 +1423,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mi/zs²"
                                                                      , YardPerSquareAttosecond
                                                                      , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1286,6 +1434,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mi/ys²"
                                                                      , YardPerSquareZeptosecond
                                                                      , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1296,6 +1445,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mi/rs²"
                                                                      , YardPerSquareYoctosecond
                                                                      , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1306,6 +1456,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "mi/qs²"
                                                                       , YardPerSquareRontosecond
                                                                       , 1760.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1316,13 +1467,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "in/kyr²"
                                                                     , SI.Accelerations.CentimeterPerSquareCentury
                                                                     , 2.54 / (10.0 * 10.0)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
    /// league per square second, defined as: mile per square second × (3.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration LeaguePerSquareSecond =
-            new ("league per square second", "le/s²", MilePerSquareSecond, 3.0 / (1.0 * 1.0));
+   public static readonly Acceleration LeaguePerSquareSecond = new (
+                                                                    "league per square second"
+                                                                  , "le/s²"
+                                                                  , MilePerSquareSecond
+                                                                  , 3.0 / (1.0 * 1.0)
+                                                                  , system: "US Customary"
+                                                                   );
 
    /// <summary>
    /// league per square planck-time, defined as: mile per square microsecond × (3.0)/((5.391247E-38)*(5.391247E-38))
@@ -1332,6 +1489,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "le/tₚ²"
                                                                       , MilePerSquareMicrosecond
                                                                       , 3.0 / (5.391247E-38 * 5.391247E-38)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1342,6 +1500,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "le/ds²"
                                                                       , MilePerSquareSecond
                                                                       , 3.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1352,6 +1511,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "le/cs²"
                                                                        , MilePerSquareDecisecond
                                                                        , 3.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1362,6 +1522,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "le/ms²"
                                                                        , MilePerSquareCentisecond
                                                                        , 3.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1372,6 +1533,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "le/μs²"
                                                                        , MilePerSquareMillisecond
                                                                        , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1382,6 +1544,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "le/ns²"
                                                                       , MilePerSquareMicrosecond
                                                                       , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1392,6 +1555,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "le/ps²"
                                                                       , MilePerSquareNanosecond
                                                                       , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1402,6 +1566,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "le/fs²"
                                                                        , MilePerSquarePicosecond
                                                                        , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1412,6 +1577,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "le/as²"
                                                                       , MilePerSquareFemtosecond
                                                                       , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1422,6 +1588,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "le/zs²"
                                                                        , MilePerSquareAttosecond
                                                                        , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1432,6 +1599,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "le/ys²"
                                                                        , MilePerSquareZeptosecond
                                                                        , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1442,6 +1610,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "le/rs²"
                                                                        , MilePerSquareYoctosecond
                                                                        , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1452,6 +1621,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "le/qs²"
                                                                         , MilePerSquareRontosecond
                                                                         , 3.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -1462,13 +1632,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "in/Myr²"
                                                                       , SI.Accelerations.CentimeterPerSquareMillennium
                                                                       , 2.54 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
    /// fathom per square second, defined as: yard per square second × (2.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration FathomPerSquareSecond =
-            new ("fathom per square second", "ftm/s²", YardPerSquareSecond, 2.0 / (1.0 * 1.0));
+   public static readonly Acceleration FathomPerSquareSecond = new (
+                                                                    "fathom per square second"
+                                                                  , "ftm/s²"
+                                                                  , YardPerSquareSecond
+                                                                  , 2.0 / (1.0 * 1.0)
+                                                                  , system: "US Customary"
+                                                                   );
 
    /// <summary>
    /// fathom per square planck-time, defined as: yard per square microsecond × (2.0)/((5.391247E-38)*(5.391247E-38))
@@ -1478,6 +1654,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ftm/tₚ²"
                                                                       , YardPerSquareMicrosecond
                                                                       , 2.0 / (5.391247E-38 * 5.391247E-38)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1488,6 +1665,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ftm/ds²"
                                                                       , YardPerSquareSecond
                                                                       , 2.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1498,6 +1676,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ftm/cs²"
                                                                        , YardPerSquareDecisecond
                                                                        , 2.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1508,6 +1687,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ftm/ms²"
                                                                        , YardPerSquareCentisecond
                                                                        , 2.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1518,6 +1698,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ftm/μs²"
                                                                        , YardPerSquareMillisecond
                                                                        , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1528,6 +1709,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ftm/ns²"
                                                                       , YardPerSquareMicrosecond
                                                                       , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1538,6 +1720,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ftm/ps²"
                                                                       , YardPerSquareNanosecond
                                                                       , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1548,6 +1731,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ftm/fs²"
                                                                        , YardPerSquarePicosecond
                                                                        , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1558,6 +1742,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ftm/as²"
                                                                       , YardPerSquareFemtosecond
                                                                       , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1568,6 +1753,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ftm/zs²"
                                                                        , YardPerSquareAttosecond
                                                                        , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1578,6 +1764,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ftm/ys²"
                                                                        , YardPerSquareZeptosecond
                                                                        , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1588,6 +1775,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ftm/rs²"
                                                                        , YardPerSquareYoctosecond
                                                                        , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1598,6 +1786,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ftm/qs²"
                                                                         , YardPerSquareRontosecond
                                                                         , 2.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -1608,13 +1797,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "in/Gyr²"
                                                                       , SI.Accelerations.CentimeterPerSquareMillionYears
                                                                       , 2.54 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
    /// cable per square second, defined as: fathom per square second × (120.0)/((1.0)*(1.0))
    /// </summary>
-   public static readonly Acceleration CablePerSquareSecond =
-            new ("cable per square second", "cb/s²", FathomPerSquareSecond, 120.0 / (1.0 * 1.0));
+   public static readonly Acceleration CablePerSquareSecond = new (
+                                                                   "cable per square second"
+                                                                 , "cb/s²"
+                                                                 , FathomPerSquareSecond
+                                                                 , 120.0 / (1.0 * 1.0)
+                                                                 , system: "US Customary"
+                                                                  );
 
    /// <summary>
    /// cable per square planck-time, defined as: fathom per square microsecond × (120.0)/((5.391247E-38)*(5.391247E-38))
@@ -1624,6 +1819,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "cb/tₚ²"
                                                                      , FathomPerSquareMicrosecond
                                                                      , 120.0 / (5.391247E-38 * 5.391247E-38)
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1634,6 +1830,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "cb/ds²"
                                                                      , FathomPerSquareSecond
                                                                      , 120.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1644,6 +1841,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cb/cs²"
                                                                       , FathomPerSquareDecisecond
                                                                       , 120.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1654,6 +1852,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cb/ms²"
                                                                       , FathomPerSquareCentisecond
                                                                       , 120.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1664,6 +1863,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cb/μs²"
                                                                       , FathomPerSquareMillisecond
                                                                       , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1674,6 +1874,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "cb/ns²"
                                                                      , FathomPerSquareMicrosecond
                                                                      , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1684,6 +1885,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "cb/ps²"
                                                                      , FathomPerSquareNanosecond
                                                                      , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1694,6 +1896,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cb/fs²"
                                                                       , FathomPerSquarePicosecond
                                                                       , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1704,6 +1907,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "cb/as²"
                                                                      , FathomPerSquareFemtosecond
                                                                      , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -1714,6 +1918,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cb/zs²"
                                                                       , FathomPerSquareAttosecond
                                                                       , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1724,6 +1929,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cb/ys²"
                                                                       , FathomPerSquareZeptosecond
                                                                       , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1734,6 +1940,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "cb/rs²"
                                                                       , FathomPerSquareYoctosecond
                                                                       , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -1744,6 +1951,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "cb/qs²"
                                                                        , FathomPerSquareRontosecond
                                                                        , 120.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1755,6 +1963,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , SI.Accelerations
                                                                            .CentimeterPerSquareBillionYears
                                                                        , 2.54 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -1765,6 +1974,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "nmi/s²"
                                                                         , SI.Accelerations.MeterPerSquareSecond
                                                                         , 1852.0 / (1.0 * 1.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -1775,6 +1985,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "nmi/tₚ²"
                                                                             , SI.Accelerations.MeterPerSquareMicrosecond
                                                                             , 1852.0 / (5.391247E-38 * 5.391247E-38)
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -1785,6 +1996,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "nmi/ds²"
                                                                             , SI.Accelerations.MeterPerSquareSecond
                                                                             , 1852.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -1795,6 +2007,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "nmi/cs²"
                                                                              , SI.Accelerations.MeterPerSquareDecisecond
                                                                              , 1852.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                             , system: "US Customary"
                                                                               );
 
    /// <summary>
@@ -1806,6 +2019,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations
                                                                                        .MeterPerSquareCentisecond
                                                                              , 1852.0 / (1.0 / 10.0 * (1.0 / 10.0))
+                                                                             , system: "US Customary"
                                                                               );
 
    /// <summary>
@@ -1817,6 +2031,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations
                                                                                        .MeterPerSquareMillisecond
                                                                              , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "US Customary"
                                                                               );
 
    /// <summary>
@@ -1827,6 +2042,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "nmi/ns²"
                                                                             , SI.Accelerations.MeterPerSquareMicrosecond
                                                                             , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -1837,6 +2053,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "nmi/ps²"
                                                                             , SI.Accelerations.MeterPerSquareNanosecond
                                                                             , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -1847,6 +2064,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "nmi/fs²"
                                                                              , SI.Accelerations.MeterPerSquarePicosecond
                                                                              , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "US Customary"
                                                                               );
 
    /// <summary>
@@ -1857,6 +2075,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "nmi/as²"
                                                                             , SI.Accelerations.MeterPerSquareFemtosecond
                                                                             , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -1867,6 +2086,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , "nmi/zs²"
                                                                              , SI.Accelerations.MeterPerSquareAttosecond
                                                                              , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "US Customary"
                                                                               );
 
    /// <summary>
@@ -1878,6 +2098,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations
                                                                                        .MeterPerSquareZeptosecond
                                                                              , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "US Customary"
                                                                               );
 
    /// <summary>
@@ -1889,6 +2110,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                              , SI.Accelerations
                                                                                        .MeterPerSquareYoctosecond
                                                                              , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                             , system: "US Customary"
                                                                               );
 
    /// <summary>
@@ -1900,6 +2122,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , SI.Accelerations
                                                                                         .MeterPerSquareRontosecond
                                                                               , 1852.0 / (1.0 / 1000.0 * (1.0 / 1000.0))
+                                                                              , system: "US Customary"
                                                                                );
 
    /// <summary>
@@ -1911,6 +2134,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , SI.Accelerations
                                                                               .CentimeterPerSquareTrillionYears
                                                                           , 2.54 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -1922,6 +2146,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , SI.Accelerations
                                                                               .CentimeterPerSquareQuadrillionYears
                                                                           , 2.54 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -1933,6 +2158,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , SI.Accelerations
                                                                              .CentimeterPerSquareQuintillionYears
                                                                          , 2.54 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -1944,6 +2170,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , SI.Accelerations
                                                                              .CentimeterPerSquareSextillionYears
                                                                          , 2.54 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -1955,6 +2182,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , SI.Accelerations
                                                                             .CentimeterPerSquareSeptillionYears
                                                                         , 2.54 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -1966,6 +2194,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , SI.Accelerations
                                                                             .CentimeterPerSquareOctillionYears
                                                                         , 2.54 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -1977,6 +2206,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , SI.Accelerations
                                                                             .CentimeterPerSquareNonillionYears
                                                                         , 2.54 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -1987,6 +2217,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "in/tick²"
                                                               , SI.Accelerations.CentimeterPerSquareNanosecond
                                                               , 2.54 / (100.0 * 100.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -1997,6 +2228,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "mil/min²"
                                                                , InchPerSquareSecond
                                                                , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                               , system: "US Customary"
                                                                 );
 
    /// <summary>
@@ -2007,6 +2239,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "ft/Yyr²"
                                                                          , InchPerSquareSextillionYears
                                                                          , 12.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2017,6 +2250,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "ft/wk²"
                                                               , InchPerSquareDay
                                                               , 12.0 / (7.0 * 7.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2027,6 +2261,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "p/Gyr²"
                                                                        , InchPerSquareMillionYears
                                                                        , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -2037,6 +2272,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "mil/tick²"
                                                              , InchPerSquareNanosecond
                                                              , 1.0 / 1000.0 / (100.0 * 100.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
@@ -2047,6 +2283,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "mil/hr²"
                                                              , InchPerSquareMinute
                                                              , 1.0 / 1000.0 / (60.0 * 60.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
@@ -2057,6 +2294,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "p/min²"
                                                                  , InchPerSquareSecond
                                                                  , 1.0 / 72.0 / (60.0 * 60.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -2067,6 +2305,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nmi/Qyr²"
      , SI.Accelerations.MeterPerSquareOctillionYears
      , 1852.0 / (1000.0 * 1000.0)
+     , system: "US Customary"
       );
 
    /// <summary>
@@ -2077,6 +2316,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nmi/Pyr²"
      , SI.Accelerations.MeterPerSquareTrillionYears
      , 1852.0 / (1000.0 * 1000.0)
+     , system: "US Customary"
       );
 
    /// <summary>
@@ -2087,6 +2327,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                             , "mil/dy²"
                                                             , InchPerSquareHour
                                                             , 1.0 / 1000.0 / (24.0 * 24.0)
+                                                            , system: "US Customary"
                                                              );
 
    /// <summary>
@@ -2097,13 +2338,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "twip/min²"
                                                                 , PointPerSquareSecond
                                                                 , 1.0 / 20.0 / (60.0 * 60.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
    /// foot per square millennium, defined as: inch per square century × (12.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration FootPerSquareMillennium =
-            new ("foot per square millennium", "ft/kyr²", InchPerSquareCentury, 12.0 / (10.0 * 10.0));
+   public static readonly Acceleration FootPerSquareMillennium = new (
+                                                                      "foot per square millennium"
+                                                                    , "ft/kyr²"
+                                                                    , InchPerSquareCentury
+                                                                    , 12.0 / (10.0 * 10.0)
+                                                                    , system: "US Customary"
+                                                                     );
 
    /// <summary>
    /// point per square tick, defined as: inch per square nanosecond × (1.0/72.0)/((100.0)*(100.0))
@@ -2113,6 +2360,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "p/tick²"
                                                                , InchPerSquareNanosecond
                                                                , 1.0 / 72.0 / (100.0 * 100.0)
+                                                               , system: "US Customary"
                                                                 );
 
    /// <summary>
@@ -2123,6 +2371,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "nmi/century²"
                                                                          , SI.Accelerations.MeterPerSquareDecade
                                                                          , 1852.0 / (10.0 * 10.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2133,6 +2382,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "p/Tyr²"
                                                                         , InchPerSquareBillionYears
                                                                         , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2143,6 +2393,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "nmi/hr²"
                                                                       , SI.Accelerations.MeterPerSquareMinute
                                                                       , 1852.0 / (60.0 * 60.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -2153,6 +2404,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "yd/Ryr²"
                                                                         , FootPerSquareSeptillionYears
                                                                         , 3.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2163,6 +2415,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "p/hr²"
                                                                , InchPerSquareMinute
                                                                , 1.0 / 72.0 / (60.0 * 60.0)
+                                                               , system: "US Customary"
                                                                 );
 
    /// <summary>
@@ -2173,13 +2426,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "mil/wk²"
                                                              , InchPerSquareDay
                                                              , 1.0 / 1000.0 / (7.0 * 7.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
    /// pica per square minute, defined as: point per square second × (12.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration PicaPerSquareMinute =
-            new ("pica per square minute", "P/min²", PointPerSquareSecond, 12.0 / (60.0 * 60.0));
+   public static readonly Acceleration PicaPerSquareMinute = new (
+                                                                  "pica per square minute"
+                                                                , "P/min²"
+                                                                , PointPerSquareSecond
+                                                                , 12.0 / (60.0 * 60.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// foot per square quadrillion years, defined as: inch per square trillion years × (12.0)/((1000.0)*(1000.0))
@@ -2189,6 +2448,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "ft/Pyr²"
                                                                           , InchPerSquareTrillionYears
                                                                           , 12.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2199,6 +2459,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "twip/tick²"
                                                               , PointPerSquareNanosecond
                                                               , 1.0 / 20.0 / (100.0 * 100.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2209,13 +2470,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "mil/yr²"
                                                              , InchPerSquareDay
                                                              , 1.0 / 1000.0 / (365.2525 * 365.2525)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
    /// foot per square minute, defined as: inch per square second × (12.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration FootPerSquareMinute =
-            new ("foot per square minute", "ft/min²", InchPerSquareSecond, 12.0 / (60.0 * 60.0));
+   public static readonly Acceleration FootPerSquareMinute = new (
+                                                                  "foot per square minute"
+                                                                , "ft/min²"
+                                                                , InchPerSquareSecond
+                                                                , 12.0 / (60.0 * 60.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// fathom per square nonillion years, defined as: yard per square octillion years × (2.0)/((1000.0)*(1000.0))
@@ -2225,6 +2492,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "ftm/Qyr²"
                                                                           , YardPerSquareOctillionYears
                                                                           , 2.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2235,6 +2503,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "p/Pyr²"
                                                                            , InchPerSquareTrillionYears
                                                                            , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                           , system: "US Customary"
                                                                             );
 
    /// <summary>
@@ -2245,6 +2514,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "p/dy²"
                                                               , InchPerSquareHour
                                                               , 1.0 / 72.0 / (24.0 * 24.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2255,6 +2525,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "twip/hr²"
                                                               , PointPerSquareMinute
                                                               , 1.0 / 20.0 / (60.0 * 60.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2265,13 +2536,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "mil/decade²"
                                                                , InchPerSquareYear
                                                                , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                               , system: "US Customary"
                                                                 );
 
    /// <summary>
    /// yard per square minute, defined as: foot per square second × (3.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration YardPerSquareMinute =
-            new ("yard per square minute", "yd/min²", FootPerSquareSecond, 3.0 / (60.0 * 60.0));
+   public static readonly Acceleration YardPerSquareMinute = new (
+                                                                  "yard per square minute"
+                                                                , "yd/min²"
+                                                                , FootPerSquareSecond
+                                                                , 3.0 / (60.0 * 60.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// foot per square octillion years, defined as: inch per square septillion years × (12.0)/((1000.0)*(1000.0))
@@ -2281,6 +2558,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ft/Ryr²"
                                                                         , InchPerSquareSeptillionYears
                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2291,6 +2569,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "P/tick²"
                                                               , PointPerSquareNanosecond
                                                               , 12.0 / (100.0 * 100.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2301,6 +2580,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
      , "nmi/Zyr²"
      , SI.Accelerations.MeterPerSquareQuintillionYears
      , 1852.0 / (1000.0 * 1000.0)
+     , system: "US Customary"
       );
 
    /// <summary>
@@ -2311,6 +2591,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "ft/yr²"
                                                               , InchPerSquareDay
                                                               , 12.0 / (365.2525 * 365.2525)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2322,6 +2603,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                               , SI.Accelerations
                                                                                         .MeterPerSquareMillennium
                                                                               , 1852.0 / (1000.0 * 1000.0)
+                                                                              , system: "US Customary"
                                                                                );
 
    /// <summary>
@@ -2332,13 +2614,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "mil/century²"
                                                                 , InchPerSquareDecade
                                                                 , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
    /// mile per square minute, defined as: yard per square second × (1760.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration MilePerSquareMinute =
-            new ("mile per square minute", "mi/min²", YardPerSquareSecond, 1760.0 / (60.0 * 60.0));
+   public static readonly Acceleration MilePerSquareMinute = new (
+                                                                  "mile per square minute"
+                                                                , "mi/min²"
+                                                                , YardPerSquareSecond
+                                                                , 1760.0 / (60.0 * 60.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// pica per square trillion years, defined as: point per square billion years × (12.0)/((1000.0)*(1000.0))
@@ -2348,6 +2636,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "P/Tyr²"
                                                                        , PointPerSquareBillionYears
                                                                        , 12.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -2358,6 +2647,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "nmi/wk²"
                                                                       , SI.Accelerations.MeterPerSquareDay
                                                                       , 1852.0 / (7.0 * 7.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -2368,6 +2658,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "p/Eyr²"
                                                                            , InchPerSquareQuadrillionYears
                                                                            , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                           , system: "US Customary"
                                                                             );
 
    /// <summary>
@@ -2378,13 +2669,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "ft/tick²"
                                                               , InchPerSquareNanosecond
                                                               , 12.0 / (100.0 * 100.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
    /// point per square week, defined as: inch per square day × (1.0/72.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration PointPerSquareWeek =
-            new ("point per square week", "p/wk²", InchPerSquareDay, 1.0 / 72.0 / (7.0 * 7.0));
+   public static readonly Acceleration PointPerSquareWeek = new (
+                                                                 "point per square week"
+                                                               , "p/wk²"
+                                                               , InchPerSquareDay
+                                                               , 1.0 / 72.0 / (7.0 * 7.0)
+                                                               , system: "US Customary"
+                                                                );
 
    /// <summary>
    /// pica per square hour, defined as: point per square minute × (12.0)/((60.0)*(60.0))
@@ -2394,6 +2691,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "P/hr²"
                                                               , PointPerSquareMinute
                                                               , 12.0 / (60.0 * 60.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2404,13 +2702,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "mil/kyr²"
                                                                    , InchPerSquareCentury
                                                                    , 1.0 / 1000.0 / (10.0 * 10.0)
+                                                                   , system: "US Customary"
                                                                     );
 
    /// <summary>
    /// league per square minute, defined as: mile per square second × (3.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration LeaguePerSquareMinute =
-            new ("league per square minute", "le/min²", MilePerSquareSecond, 3.0 / (60.0 * 60.0));
+   public static readonly Acceleration LeaguePerSquareMinute = new (
+                                                                    "league per square minute"
+                                                                  , "le/min²"
+                                                                  , MilePerSquareSecond
+                                                                  , 3.0 / (60.0 * 60.0)
+                                                                  , system: "US Customary"
+                                                                   );
 
    /// <summary>
    /// foot per square million years, defined as: inch per square millennium × (12.0)/((1000.0)*(1000.0))
@@ -2420,6 +2724,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ft/Myr²"
                                                                       , InchPerSquareMillennium
                                                                       , 12.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -2430,6 +2735,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "mi/Qyr²"
                                                                         , YardPerSquareOctillionYears
                                                                         , 1760.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2440,6 +2746,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "twip/dy²"
                                                              , PointPerSquareHour
                                                              , 1.0 / 20.0 / (24.0 * 24.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
@@ -2450,13 +2757,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mil/Myr²"
                                                                      , InchPerSquareMillennium
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
    /// fathom per square minute, defined as: yard per square second × (2.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration FathomPerSquareMinute =
-            new ("fathom per square minute", "ftm/min²", YardPerSquareSecond, 2.0 / (60.0 * 60.0));
+   public static readonly Acceleration FathomPerSquareMinute = new (
+                                                                    "fathom per square minute"
+                                                                  , "ftm/min²"
+                                                                  , YardPerSquareSecond
+                                                                  , 2.0 / (60.0 * 60.0)
+                                                                  , system: "US Customary"
+                                                                   );
 
    /// <summary>
    /// yard per square tick, defined as: foot per square nanosecond × (3.0)/((100.0)*(100.0))
@@ -2466,6 +2779,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "yd/tick²"
                                                               , FootPerSquareNanosecond
                                                               , 3.0 / (100.0 * 100.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2476,6 +2790,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "p/Zyr²"
                                                                           , InchPerSquareQuintillionYears
                                                                           , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2486,6 +2801,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "ft/Eyr²"
                                                                           , InchPerSquareQuadrillionYears
                                                                           , 12.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2496,6 +2812,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "yd/Qyr²"
                                                                         , FootPerSquareOctillionYears
                                                                         , 3.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2506,6 +2823,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "p/yr²"
                                                                , InchPerSquareDay
                                                                , 1.0 / 72.0 / (365.2525 * 365.2525)
+                                                               , system: "US Customary"
                                                                 );
 
    /// <summary>
@@ -2516,6 +2834,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "ft/hr²"
                                                               , InchPerSquareMinute
                                                               , 12.0 / (60.0 * 60.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2526,6 +2845,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "mil/Gyr²"
                                                                      , InchPerSquareMillionYears
                                                                      , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -2536,6 +2856,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "cb/min²"
                                                                  , FathomPerSquareSecond
                                                                  , 120.0 / (60.0 * 60.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -2546,6 +2867,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "yd/Zyr²"
                                                                          , FootPerSquareQuintillionYears
                                                                          , 3.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2556,6 +2878,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "mi/tick²"
                                                               , YardPerSquareNanosecond
                                                               , 1760.0 / (100.0 * 100.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2566,6 +2889,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "mil/Tyr²"
                                                                       , InchPerSquareBillionYears
                                                                       , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -2576,6 +2900,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "P/Pyr²"
                                                                           , PointPerSquareTrillionYears
                                                                           , 12.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2586,13 +2911,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ft/Qyr²"
                                                                         , InchPerSquareOctillionYears
                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
    /// foot per square decade, defined as: inch per square year × (12.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration FootPerSquareDecade =
-            new ("foot per square decade", "ft/decade²", InchPerSquareYear, 12.0 / (10.0 * 10.0));
+   public static readonly Acceleration FootPerSquareDecade = new (
+                                                                  "foot per square decade"
+                                                                , "ft/decade²"
+                                                                , InchPerSquareYear
+                                                                , 12.0 / (10.0 * 10.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// point per square septillion years, defined as: inch per square sextillion years × (1.0/72.0)/((1000.0)*(1000.0))
@@ -2602,6 +2933,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "p/Yyr²"
                                                                           , InchPerSquareSextillionYears
                                                                           , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2612,6 +2944,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "twip/wk²"
                                                               , PointPerSquareDay
                                                               , 1.0 / 20.0 / (7.0 * 7.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2622,6 +2955,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "P/dy²"
                                                              , PointPerSquareHour
                                                              , 12.0 / (24.0 * 24.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
@@ -2632,6 +2966,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "p/decade²"
                                                                  , InchPerSquareYear
                                                                  , 1.0 / 72.0 / (10.0 * 10.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -2642,6 +2977,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "yd/hr²"
                                                               , FootPerSquareMinute
                                                               , 3.0 / (60.0 * 60.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2652,6 +2988,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "mil/Pyr²"
                                                                          , InchPerSquareTrillionYears
                                                                          , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2662,6 +2999,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "le/tick²"
                                                                 , MilePerSquareNanosecond
                                                                 , 3.0 / (100.0 * 100.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -2672,6 +3010,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "mi/Yyr²"
                                                                          , YardPerSquareSextillionYears
                                                                          , 1760.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2682,6 +3021,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "mil/Eyr²"
                                                                          , InchPerSquareQuadrillionYears
                                                                          , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2692,6 +3032,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ft/Gyr²"
                                                                       , InchPerSquareMillionYears
                                                                       , 12.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -2702,6 +3043,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "p/Ryr²"
                                                                          , InchPerSquareSeptillionYears
                                                                          , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2712,6 +3054,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "cb/decillion yr²"
                                                                          , FathomPerSquareNonillionYears
                                                                          , 120.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2722,6 +3065,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "ftm/tick²"
                                                                 , YardPerSquareNanosecond
                                                                 , 2.0 / (100.0 * 100.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -2732,6 +3076,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "p/century²"
                                                                   , InchPerSquareDecade
                                                                   , 1.0 / 72.0 / (10.0 * 10.0)
+                                                                  , system: "US Customary"
                                                                    );
 
    /// <summary>
@@ -2742,6 +3087,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "mi/hr²"
                                                               , YardPerSquareMinute
                                                               , 1760.0 / (60.0 * 60.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2752,6 +3098,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "mil/Zyr²"
                                                                         , InchPerSquareQuintillionYears
                                                                         , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2762,6 +3109,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "twip/Qyr²"
                                                                         , PointPerSquareOctillionYears
                                                                         , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2772,6 +3120,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "ftm/decillion yr²"
                                                                           , YardPerSquareNonillionYears
                                                                           , 2.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2782,6 +3131,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "twip/Tyr²"
                                                                        , PointPerSquareBillionYears
                                                                        , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -2792,6 +3142,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "ft/Zyr²"
                                                                          , InchPerSquareQuintillionYears
                                                                          , 12.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2802,6 +3153,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "le/decillion yr²"
                                                                           , MilePerSquareNonillionYears
                                                                           , 3.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2812,6 +3164,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "twip/yr²"
                                                               , PointPerSquareDay
                                                               , 1.0 / 20.0 / (365.2525 * 365.2525)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2822,6 +3175,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "ft/dy²"
                                                              , InchPerSquareHour
                                                              , 12.0 / (24.0 * 24.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
@@ -2832,6 +3186,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "mil/Yyr²"
                                                                         , InchPerSquareSextillionYears
                                                                         , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2842,6 +3197,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "P/Eyr²"
                                                                           , PointPerSquareQuadrillionYears
                                                                           , 12.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -2852,6 +3208,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "mi/decillion yr²"
                                                                         , YardPerSquareNonillionYears
                                                                         , 1760.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2862,6 +3219,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "cb/tick²"
                                                                , FathomPerSquareNanosecond
                                                                , 120.0 / (100.0 * 100.0)
+                                                               , system: "US Customary"
                                                                 );
 
    /// <summary>
@@ -2872,6 +3230,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "p/Qyr²"
                                                                          , InchPerSquareOctillionYears
                                                                          , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2882,6 +3241,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "yd/decillion yr²"
                                                                         , FootPerSquareNonillionYears
                                                                         , 3.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2892,6 +3252,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "P/wk²"
                                                               , PointPerSquareDay
                                                               , 12.0 / (7.0 * 7.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -2902,13 +3263,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "p/kyr²"
                                                                      , InchPerSquareCentury
                                                                      , 1.0 / 72.0 / (10.0 * 10.0)
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
    /// league per square hour, defined as: mile per square minute × (3.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration LeaguePerSquareHour =
-            new ("league per square hour", "le/hr²", MilePerSquareMinute, 3.0 / (60.0 * 60.0));
+   public static readonly Acceleration LeaguePerSquareHour = new (
+                                                                  "league per square hour"
+                                                                , "le/hr²"
+                                                                , MilePerSquareMinute
+                                                                , 3.0 / (60.0 * 60.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// mil per square octillion years, defined as: inch per square septillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -2918,6 +3285,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "mil/Ryr²"
                                                                        , InchPerSquareSeptillionYears
                                                                        , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -2928,6 +3296,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "yd/Yyr²"
                                                                          , FootPerSquareSextillionYears
                                                                          , 3.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -2938,6 +3307,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ft/decillion yr²"
                                                                         , InchPerSquareNonillionYears
                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2948,6 +3318,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "ft/century²"
                                                                  , InchPerSquareDecade
                                                                  , 12.0 / (10.0 * 10.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -2958,6 +3329,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "P/decillion yr²"
                                                                         , PointPerSquareNonillionYears
                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2968,6 +3340,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "mil/Qyr²"
                                                                        , InchPerSquareOctillionYears
                                                                        , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -2978,6 +3351,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "yd/Myr²"
                                                                       , FootPerSquareMillennium
                                                                       , 3.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -2988,6 +3362,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "twip/decillion yr²"
                                                                         , PointPerSquareNonillionYears
                                                                         , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -2998,13 +3373,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "le/Ryr²"
                                                                           , MilePerSquareSeptillionYears
                                                                           , 3.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
    /// yard per square decade, defined as: foot per square year × (3.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration YardPerSquareDecade =
-            new ("yard per square decade", "yd/decade²", FootPerSquareYear, 3.0 / (10.0 * 10.0));
+   public static readonly Acceleration YardPerSquareDecade = new (
+                                                                  "yard per square decade"
+                                                                , "yd/decade²"
+                                                                , FootPerSquareYear
+                                                                , 3.0 / (10.0 * 10.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// pica per square million years, defined as: point per square millennium × (12.0)/((1000.0)*(1000.0))
@@ -3014,6 +3395,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "P/Myr²"
                                                                       , PointPerSquareMillennium
                                                                       , 12.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -3024,6 +3406,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "twip/Pyr²"
                                                                           , PointPerSquareTrillionYears
                                                                           , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -3034,6 +3417,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "p/decillion yr²"
                                                                          , InchPerSquareNonillionYears
                                                                          , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3044,6 +3428,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "twip/decade²"
                                                                 , PointPerSquareYear
                                                                 , 1.0 / 20.0 / (10.0 * 10.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -3054,6 +3439,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "yd/dy²"
                                                              , FootPerSquareHour
                                                              , 3.0 / (24.0 * 24.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
@@ -3064,13 +3450,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "p/Myr²"
                                                                        , InchPerSquareMillennium
                                                                        , 1.0 / 72.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
    /// fathom per square hour, defined as: yard per square minute × (2.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration FathomPerSquareHour =
-            new ("fathom per square hour", "ftm/hr²", YardPerSquareMinute, 2.0 / (60.0 * 60.0));
+   public static readonly Acceleration FathomPerSquareHour = new (
+                                                                  "fathom per square hour"
+                                                                , "ftm/hr²"
+                                                                , YardPerSquareMinute
+                                                                , 2.0 / (60.0 * 60.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// mil per square decillion years, defined as: inch per square nonillion years × (1.0/1000.0)/((1000.0)*(1000.0))
@@ -3080,6 +3472,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "mil/decillion yr²"
                                                                        , InchPerSquareNonillionYears
                                                                        , 1.0 / 1000.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -3090,6 +3483,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "ft/Tyr²"
                                                                        , InchPerSquareBillionYears
                                                                        , 12.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -3100,6 +3494,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "P/Zyr²"
                                                                          , PointPerSquareQuintillionYears
                                                                          , 12.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3110,6 +3505,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "mi/Ryr²"
                                                                         , YardPerSquareSeptillionYears
                                                                         , 1760.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -3120,13 +3516,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "P/yr²"
                                                               , PointPerSquareDay
                                                               , 12.0 / (365.2525 * 365.2525)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
    /// cable per square hour, defined as: fathom per square minute × (120.0)/((60.0)*(60.0))
    /// </summary>
-   public static readonly Acceleration CablePerSquareHour =
-            new ("cable per square hour", "cb/hr²", FathomPerSquareMinute, 120.0 / (60.0 * 60.0));
+   public static readonly Acceleration CablePerSquareHour = new (
+                                                                 "cable per square hour"
+                                                               , "cb/hr²"
+                                                               , FathomPerSquareMinute
+                                                               , 120.0 / (60.0 * 60.0)
+                                                               , system: "US Customary"
+                                                                );
 
    /// <summary>
    /// twip per square quintillion years, defined as: point per square quadrillion years × (1.0/20.0)/((1000.0)*(1000.0))
@@ -3136,6 +3538,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "twip/Eyr²"
                                                                           , PointPerSquareQuadrillionYears
                                                                           , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -3146,6 +3549,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "twip/century²"
                                                                  , PointPerSquareDecade
                                                                  , 1.0 / 20.0 / (10.0 * 10.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -3156,6 +3560,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                              , "mi/dy²"
                                                              , YardPerSquareHour
                                                              , 1760.0 / (24.0 * 24.0)
+                                                             , system: "US Customary"
                                                               );
 
    /// <summary>
@@ -3166,6 +3571,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "le/yr²"
                                                                 , MilePerSquareDay
                                                                 , 3.0 / (365.2525 * 365.2525)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -3176,6 +3582,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "P/Gyr²"
                                                                       , PointPerSquareMillionYears
                                                                       , 12.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -3186,6 +3593,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "yd/Eyr²"
                                                                           , FootPerSquareQuadrillionYears
                                                                           , 3.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -3196,6 +3604,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "yd/Gyr²"
                                                                       , FootPerSquareMillionYears
                                                                       , 3.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -3206,6 +3615,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "P/Yyr²"
                                                                          , PointPerSquareSextillionYears
                                                                          , 12.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3216,6 +3626,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "yd/century²"
                                                                  , FootPerSquareDecade
                                                                  , 3.0 / (10.0 * 10.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -3226,13 +3637,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "twip/Zyr²"
                                                                          , PointPerSquareQuintillionYears
                                                                          , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
    /// pica per square decade, defined as: point per square year × (12.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration PicaPerSquareDecade =
-            new ("pica per square decade", "P/decade²", PointPerSquareYear, 12.0 / (10.0 * 10.0));
+   public static readonly Acceleration PicaPerSquareDecade = new (
+                                                                  "pica per square decade"
+                                                                , "P/decade²"
+                                                                , PointPerSquareYear
+                                                                , 12.0 / (10.0 * 10.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// yard per square week, defined as: foot per square day × (3.0)/((7.0)*(7.0))
@@ -3242,6 +3659,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "yd/wk²"
                                                               , FootPerSquareDay
                                                               , 3.0 / (7.0 * 7.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -3252,13 +3670,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "twip/kyr²"
                                                                     , PointPerSquareCentury
                                                                     , 1.0 / 20.0 / (10.0 * 10.0)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
    /// league per square day, defined as: mile per square hour × (3.0)/((24.0)*(24.0))
    /// </summary>
-   public static readonly Acceleration LeaguePerSquareDay =
-            new ("league per square day", "le/dy²", MilePerSquareHour, 3.0 / (24.0 * 24.0));
+   public static readonly Acceleration LeaguePerSquareDay = new (
+                                                                 "league per square day"
+                                                               , "le/dy²"
+                                                               , MilePerSquareHour
+                                                               , 3.0 / (24.0 * 24.0)
+                                                               , system: "US Customary"
+                                                                );
 
    /// <summary>
    /// mile per square sextillion years, defined as: yard per square quintillion years × (1760.0)/((1000.0)*(1000.0))
@@ -3268,6 +3692,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "mi/Zyr²"
                                                                          , YardPerSquareQuintillionYears
                                                                          , 1760.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3278,6 +3703,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "ftm/Yyr²"
                                                                            , YardPerSquareSextillionYears
                                                                            , 2.0 / (1000.0 * 1000.0)
+                                                                           , system: "US Customary"
                                                                             );
 
    /// <summary>
@@ -3288,6 +3714,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "ftm/Tyr²"
                                                                          , YardPerSquareBillionYears
                                                                          , 2.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3298,6 +3725,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "le/Qyr²"
                                                                           , MilePerSquareOctillionYears
                                                                           , 3.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -3308,6 +3736,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "ftm/century²"
                                                                    , YardPerSquareDecade
                                                                    , 2.0 / (10.0 * 10.0)
+                                                                   , system: "US Customary"
                                                                     );
 
    /// <summary>
@@ -3318,6 +3747,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "ftm/yr²"
                                                                 , YardPerSquareDay
                                                                 , 2.0 / (365.2525 * 365.2525)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -3328,6 +3758,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "twip/Yyr²"
                                                                          , PointPerSquareSextillionYears
                                                                          , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3338,13 +3769,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "twip/Myr²"
                                                                       , PointPerSquareMillennium
                                                                       , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
    /// fathom per square day, defined as: yard per square hour × (2.0)/((24.0)*(24.0))
    /// </summary>
-   public static readonly Acceleration FathomPerSquareDay =
-            new ("fathom per square day", "ftm/dy²", YardPerSquareHour, 2.0 / (24.0 * 24.0));
+   public static readonly Acceleration FathomPerSquareDay = new (
+                                                                 "fathom per square day"
+                                                               , "ftm/dy²"
+                                                               , YardPerSquareHour
+                                                               , 2.0 / (24.0 * 24.0)
+                                                               , system: "US Customary"
+                                                                );
 
    /// <summary>
    /// pica per square octillion years, defined as: point per square septillion years × (12.0)/((1000.0)*(1000.0))
@@ -3354,6 +3791,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "P/Ryr²"
                                                                         , PointPerSquareSeptillionYears
                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -3364,6 +3802,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "cb/Pyr²"
                                                                            , FathomPerSquareTrillionYears
                                                                            , 120.0 / (1000.0 * 1000.0)
+                                                                           , system: "US Customary"
                                                                             );
 
    /// <summary>
@@ -3374,6 +3813,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "le/Yyr²"
                                                                            , MilePerSquareSextillionYears
                                                                            , 3.0 / (1000.0 * 1000.0)
+                                                                           , system: "US Customary"
                                                                             );
 
    /// <summary>
@@ -3384,6 +3824,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "P/century²"
                                                                  , PointPerSquareDecade
                                                                  , 12.0 / (10.0 * 10.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -3394,6 +3835,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "mi/wk²"
                                                               , YardPerSquareDay
                                                               , 1760.0 / (7.0 * 7.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -3404,13 +3846,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "yd/Tyr²"
                                                                        , FootPerSquareBillionYears
                                                                        , 3.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
    /// yard per square millennium, defined as: foot per square century × (3.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration YardPerSquareMillennium =
-            new ("yard per square millennium", "yd/kyr²", FootPerSquareCentury, 3.0 / (10.0 * 10.0));
+   public static readonly Acceleration YardPerSquareMillennium = new (
+                                                                      "yard per square millennium"
+                                                                    , "yd/kyr²"
+                                                                    , FootPerSquareCentury
+                                                                    , 3.0 / (10.0 * 10.0)
+                                                                    , system: "US Customary"
+                                                                     );
 
    /// <summary>
    /// twip per square octillion years, defined as: point per square septillion years × (1.0/20.0)/((1000.0)*(1000.0))
@@ -3420,6 +3868,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "twip/Ryr²"
                                                                         , PointPerSquareSeptillionYears
                                                                         , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -3430,6 +3879,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "yd/yr²"
                                                               , FootPerSquareDay
                                                               , 3.0 / (365.2525 * 365.2525)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -3440,6 +3890,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "twip/Gyr²"
                                                                       , PointPerSquareMillionYears
                                                                       , 1.0 / 20.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -3450,6 +3901,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "cb/dy²"
                                                               , FathomPerSquareHour
                                                               , 120.0 / (24.0 * 24.0)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -3460,6 +3912,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "mi/century²"
                                                                  , YardPerSquareDecade
                                                                  , 1760.0 / (10.0 * 10.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -3470,6 +3923,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "cb/Ryr²"
                                                                          , FathomPerSquareSeptillionYears
                                                                          , 120.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3480,6 +3934,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "P/Qyr²"
                                                                         , PointPerSquareOctillionYears
                                                                         , 12.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -3490,19 +3945,30 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                , "cb/yr²"
                                                                , FathomPerSquareDay
                                                                , 120.0 / (365.2525 * 365.2525)
+                                                               , system: "US Customary"
                                                                 );
 
    /// <summary>
    /// pica per square millennium, defined as: point per square century × (12.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration PicaPerSquareMillennium =
-            new ("pica per square millennium", "P/kyr²", PointPerSquareCentury, 12.0 / (10.0 * 10.0));
+   public static readonly Acceleration PicaPerSquareMillennium = new (
+                                                                      "pica per square millennium"
+                                                                    , "P/kyr²"
+                                                                    , PointPerSquareCentury
+                                                                    , 12.0 / (10.0 * 10.0)
+                                                                    , system: "US Customary"
+                                                                     );
 
    /// <summary>
    /// league per square week, defined as: mile per square day × (3.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration LeaguePerSquareWeek =
-            new ("league per square week", "le/wk²", MilePerSquareDay, 3.0 / (7.0 * 7.0));
+   public static readonly Acceleration LeaguePerSquareWeek = new (
+                                                                  "league per square week"
+                                                                , "le/wk²"
+                                                                , MilePerSquareDay
+                                                                , 3.0 / (7.0 * 7.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// mile per square billion years, defined as: yard per square million years × (1760.0)/((1000.0)*(1000.0))
@@ -3512,6 +3978,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "mi/Gyr²"
                                                                       , YardPerSquareMillionYears
                                                                       , 1760.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -3522,6 +3989,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "ftm/Ryr²"
                                                                           , YardPerSquareSeptillionYears
                                                                           , 2.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -3532,6 +4000,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "ftm/Zyr²"
                                                                            , YardPerSquareQuintillionYears
                                                                            , 2.0 / (1000.0 * 1000.0)
+                                                                           , system: "US Customary"
                                                                             );
 
    /// <summary>
@@ -3542,6 +4011,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "ftm/Pyr²"
                                                                             , YardPerSquareTrillionYears
                                                                             , 2.0 / (1000.0 * 1000.0)
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -3552,6 +4022,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ftm/Gyr²"
                                                                         , YardPerSquareMillionYears
                                                                         , 2.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -3562,6 +4033,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                               , "mi/yr²"
                                                               , YardPerSquareDay
                                                               , 1760.0 / (365.2525 * 365.2525)
+                                                              , system: "US Customary"
                                                                );
 
    /// <summary>
@@ -3572,6 +4044,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "ftm/kyr²"
                                                                       , YardPerSquareCentury
                                                                       , 2.0 / (10.0 * 10.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -3582,13 +4055,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "yd/Pyr²"
                                                                           , FootPerSquareTrillionYears
                                                                           , 3.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
    /// fathom per square decade, defined as: yard per square year × (2.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration FathomPerSquareDecade =
-            new ("fathom per square decade", "ftm/decade²", YardPerSquareYear, 2.0 / (10.0 * 10.0));
+   public static readonly Acceleration FathomPerSquareDecade = new (
+                                                                    "fathom per square decade"
+                                                                  , "ftm/decade²"
+                                                                  , YardPerSquareYear
+                                                                  , 2.0 / (10.0 * 10.0)
+                                                                  , system: "US Customary"
+                                                                   );
 
    /// <summary>
    /// mile per square quintillion years, defined as: yard per square quadrillion years × (1760.0)/((1000.0)*(1000.0))
@@ -3598,13 +4077,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "mi/Eyr²"
                                                                           , YardPerSquareQuadrillionYears
                                                                           , 1760.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
    /// fathom per square week, defined as: yard per square day × (2.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration FathomPerSquareWeek =
-            new ("fathom per square week", "ftm/wk²", YardPerSquareDay, 2.0 / (7.0 * 7.0));
+   public static readonly Acceleration FathomPerSquareWeek = new (
+                                                                  "fathom per square week"
+                                                                , "ftm/wk²"
+                                                                , YardPerSquareDay
+                                                                , 2.0 / (7.0 * 7.0)
+                                                                , system: "US Customary"
+                                                                 );
 
    /// <summary>
    /// cable per square trillion years, defined as: fathom per square billion years × (120.0)/((1000.0)*(1000.0))
@@ -3614,6 +4099,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "cb/Tyr²"
                                                                         , FathomPerSquareBillionYears
                                                                         , 120.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -3624,6 +4110,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                     , "mi/kyr²"
                                                                     , YardPerSquareCentury
                                                                     , 1760.0 / (10.0 * 10.0)
+                                                                    , system: "US Customary"
                                                                      );
 
    /// <summary>
@@ -3634,6 +4121,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "cb/Eyr²"
                                                                            , FathomPerSquareQuadrillionYears
                                                                            , 120.0 / (1000.0 * 1000.0)
+                                                                           , system: "US Customary"
                                                                             );
 
    /// <summary>
@@ -3644,6 +4132,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                            , "le/Zyr²"
                                                                            , MilePerSquareQuintillionYears
                                                                            , 3.0 / (1000.0 * 1000.0)
+                                                                           , system: "US Customary"
                                                                             );
 
    /// <summary>
@@ -3654,13 +4143,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "cb/Yyr²"
                                                                           , FathomPerSquareSextillionYears
                                                                           , 120.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
    /// cable per square week, defined as: fathom per square day × (120.0)/((7.0)*(7.0))
    /// </summary>
-   public static readonly Acceleration CablePerSquareWeek =
-            new ("cable per square week", "cb/wk²", FathomPerSquareDay, 120.0 / (7.0 * 7.0));
+   public static readonly Acceleration CablePerSquareWeek = new (
+                                                                 "cable per square week"
+                                                               , "cb/wk²"
+                                                               , FathomPerSquareDay
+                                                               , 120.0 / (7.0 * 7.0)
+                                                               , system: "US Customary"
+                                                                );
 
    /// <summary>
    /// mile per square trillion years, defined as: yard per square billion years × (1760.0)/((1000.0)*(1000.0))
@@ -3670,6 +4165,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "mi/Tyr²"
                                                                        , YardPerSquareBillionYears
                                                                        , 1760.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -3680,6 +4176,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "le/Pyr²"
                                                                             , MilePerSquareTrillionYears
                                                                             , 3.0 / (1000.0 * 1000.0)
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -3690,6 +4187,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "cb/Qyr²"
                                                                          , FathomPerSquareOctillionYears
                                                                          , 120.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3700,6 +4198,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                  , "cb/decade²"
                                                                  , FathomPerSquareYear
                                                                  , 120.0 / (10.0 * 10.0)
+                                                                 , system: "US Customary"
                                                                   );
 
    /// <summary>
@@ -3710,6 +4209,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                 , "mi/decade²"
                                                                 , YardPerSquareYear
                                                                 , 1760.0 / (10.0 * 10.0)
+                                                                , system: "US Customary"
                                                                  );
 
    /// <summary>
@@ -3720,6 +4220,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                      , "cb/kyr²"
                                                                      , FathomPerSquareCentury
                                                                      , 120.0 / (10.0 * 10.0)
+                                                                     , system: "US Customary"
                                                                       );
 
    /// <summary>
@@ -3730,6 +4231,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "ftm/Eyr²"
                                                                             , YardPerSquareQuadrillionYears
                                                                             , 2.0 / (1000.0 * 1000.0)
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -3740,6 +4242,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "ftm/Myr²"
                                                                         , YardPerSquareMillennium
                                                                         , 2.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -3750,6 +4253,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                       , "mi/Myr²"
                                                                       , YardPerSquareMillennium
                                                                       , 1760.0 / (1000.0 * 1000.0)
+                                                                      , system: "US Customary"
                                                                        );
 
    /// <summary>
@@ -3760,13 +4264,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "cb/Gyr²"
                                                                        , FathomPerSquareMillionYears
                                                                        , 120.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
    /// league per square millennium, defined as: mile per square century × (3.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration LeaguePerSquareMillennium =
-            new ("league per square millennium", "le/kyr²", MilePerSquareCentury, 3.0 / (10.0 * 10.0));
+   public static readonly Acceleration LeaguePerSquareMillennium = new (
+                                                                        "league per square millennium"
+                                                                      , "le/kyr²"
+                                                                      , MilePerSquareCentury
+                                                                      , 3.0 / (10.0 * 10.0)
+                                                                      , system: "US Customary"
+                                                                       );
 
    /// <summary>
    /// mile per square quadrillion years, defined as: yard per square trillion years × (1760.0)/((1000.0)*(1000.0))
@@ -3776,6 +4286,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "mi/Pyr²"
                                                                           , YardPerSquareTrillionYears
                                                                           , 1760.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
@@ -3786,13 +4297,19 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                           , "cb/Zyr²"
                                                                           , FathomPerSquareQuintillionYears
                                                                           , 120.0 / (1000.0 * 1000.0)
+                                                                          , system: "US Customary"
                                                                            );
 
    /// <summary>
    /// league per square decade, defined as: mile per square year × (3.0)/((10.0)*(10.0))
    /// </summary>
-   public static readonly Acceleration LeaguePerSquareDecade =
-            new ("league per square decade", "le/decade²", MilePerSquareYear, 3.0 / (10.0 * 10.0));
+   public static readonly Acceleration LeaguePerSquareDecade = new (
+                                                                    "league per square decade"
+                                                                  , "le/decade²"
+                                                                  , MilePerSquareYear
+                                                                  , 3.0 / (10.0 * 10.0)
+                                                                  , system: "US Customary"
+                                                                   );
 
    /// <summary>
    /// league per square quintillion years, defined as: mile per square quadrillion years × (3.0)/((1000.0)*(1000.0))
@@ -3802,6 +4319,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                             , "le/Eyr²"
                                                                             , MilePerSquareQuadrillionYears
                                                                             , 3.0 / (1000.0 * 1000.0)
+                                                                            , system: "US Customary"
                                                                              );
 
    /// <summary>
@@ -3812,6 +4330,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                          , "le/Tyr²"
                                                                          , MilePerSquareBillionYears
                                                                          , 3.0 / (1000.0 * 1000.0)
+                                                                         , system: "US Customary"
                                                                           );
 
    /// <summary>
@@ -3822,6 +4341,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                   , "cb/century²"
                                                                   , FathomPerSquareDecade
                                                                   , 120.0 / (10.0 * 10.0)
+                                                                  , system: "US Customary"
                                                                    );
 
    /// <summary>
@@ -3832,6 +4352,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                        , "cb/Myr²"
                                                                        , FathomPerSquareMillennium
                                                                        , 120.0 / (1000.0 * 1000.0)
+                                                                       , system: "US Customary"
                                                                         );
 
    /// <summary>
@@ -3842,6 +4363,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "le/Myr²"
                                                                         , MilePerSquareMillennium
                                                                         , 3.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 
    /// <summary>
@@ -3852,6 +4374,7 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                    , "le/century²"
                                                                    , MilePerSquareDecade
                                                                    , 3.0 / (10.0 * 10.0)
+                                                                   , system: "US Customary"
                                                                     );
 
    /// <summary>
@@ -3862,5 +4385,6 @@ public class Accelerations : UnitOfMeasureEnumeration<Accelerations, Acceleratio
                                                                         , "le/Gyr²"
                                                                         , MilePerSquareMillionYears
                                                                         , 3.0 / (1000.0 * 1000.0)
+                                                                        , system: "US Customary"
                                                                          );
 }

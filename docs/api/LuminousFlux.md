@@ -13,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [LuminousFlux(string, string, LuminousFlux, double, double, IValueComparer&lt;double&gt;)](LuminousFlux..ctor.F1G1W/85UpP/qZkPjLzwCg.md 'Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string, string, Jcd.Units.UnitTypes.LuminousFlux, double, double, Jcd.Units.IValueComparer<double>)') | Constructs a unit measuring a specified [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') using another [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') as a reference. |
+| [LuminousFlux(string, string, LuminousFlux, double, double, IValueComparer&lt;double&gt;, string)](LuminousFlux..ctor.K2unVw8Z3VMRwAIo6Qmrfw.md 'Jcd.Units.UnitTypes.LuminousFlux.LuminousFlux(string, string, Jcd.Units.UnitTypes.LuminousFlux, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') using another [LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux') as a reference. |

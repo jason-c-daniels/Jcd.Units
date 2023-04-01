@@ -974,8 +974,9 @@
             <param name="Symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
             <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
             <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+            <param name="System">The optional system name the unit of measure belongs to.</param>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,System.Double,System.Double)">
+        <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,System.Double,System.Double,System.String)">
             <summary>
             Base type to simplify creating a unit of measure. This type provides relational and equivalence operations.
             </summary>
@@ -983,6 +984,7 @@
             <param name="Symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
             <param name="Coefficient">The unit's coefficient relative to the ultimate base unit's representation.</param>
             <param name="Offset">The offset used when computing values going to and from the base unit's representation.</param>
+            <param name="System">The optional system name the unit of measure belongs to.</param>
         </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.Name">
             <summary>The name of this unit</summary>
@@ -996,7 +998,10 @@
         <member name="P:Jcd.Units.UnitOfMeasure`1.Offset">
             <summary>The offset used when computing values going to and from the base unit's representation.</summary>
         </member>
-        <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,`0,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="P:Jcd.Units.UnitOfMeasure`1.System">
+            <summary>The optional system name the unit of measure belongs to.</summary>
+        </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.#ctor(System.String,System.String,`0,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit of measure using another <see cref="T:Jcd.Units.UnitOfMeasure`1" /> as a base.
             </summary>
@@ -1006,6 +1011,7 @@
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit" /></param>
             <param name="offset">The offset from the <paramref name="baseUnit" />.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1" /> used for comparisons.</param>
+            <param name="system">The optional system of measure the unit belongs to.</param>
         </member>
         <member name="P:Jcd.Units.UnitOfMeasure`1.DefaultDoubleComparer">
             <summary>
@@ -1103,6 +1109,13 @@
             <param name="right">The right <see cref="T:Jcd.Units.UnitOfMeasure`1" /></param>
             <returns>true if left is &gt;= right; false otherwise.</returns>
         </member>
+        <member name="M:Jcd.Units.UnitOfMeasure`1.IsSynonym(`0)">
+            <summary>
+            Determines if the units of measure are identical in all but system name, name, or symbol.
+            </summary>
+            <param name="other">The unit to compare against.</param>
+            <returns>true if the coefficient and offset are the same, but symbol, name or system are different.</returns>
+        </member>
         <member name="M:Jcd.Units.UnitOfMeasure`1.FromFundamentalUnitValue(System.Double)">
             <inheritdoc cref="T:Jcd.Units.IUnitOfMeasure`1" />
         </member>
@@ -1130,6 +1143,85 @@
         <member name="P:Jcd.Units.UnitOfMeasureEnumeration`2.BySymbol">
             <summary>
             Looks up an enumerated unit of measure by symbol.
+            </summary>
+        </member>
+        <member name="T:Jcd.Units.UnitRegistry`1">
+            <summary>
+            Provides unit registration, discovery, and lookup facilities.
+            </summary>
+            <typeparam name="TUnit">The type of unit</typeparam>
+        </member>
+        <member name="F:Jcd.Units.UnitRegistry`1.Default">
+            <summary>
+            The default unit registry instance.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.UnitRegistry`1.NameLookup">
+            <summary>
+            Returns a lookup of the named unit to the unit(s) with matching names.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.UnitRegistry`1.SymbolLookup">
+            <summary>
+            Returns a lookup of the unit(s) with matching symbols.
+            </summary>
+        </member>
+        <member name="P:Jcd.Units.UnitRegistry`1.All">
+            <summary>
+            All registered or discovered instances of the type of unit.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry`1.AutoregisterUnits">
+            <summary>
+            Searches all loaded assemblies and registers matching unit types from fields and/or properties.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry`1.Register(`0)">
+            <summary>
+            Registers a single unit of measure.
+            </summary>
+            <param name="unit">The unit of measure to register.</param>
+        </member>
+        <member name="T:Jcd.Units.UnitRegistry">
+            <summary>
+            Provides global unit of measure registration and discovery.
+            </summary>
+        </member>
+        <member name="F:Jcd.Units.UnitRegistry.Default">
+            <summary>
+            The global registration service.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry.Register``1(``0)">
+            <summary>
+            Registers a unit of measure with the global registry.
+            </summary>
+            <param name="unit">The unit of measure.</param>
+            <typeparam name="TUnit">The type of unit of measure.</typeparam>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry.AutoregisterUnits``1">
+            <summary>
+            Searches all loaded assemblies and registers matching unit types from fields and/or properties.
+            </summary>
+            <typeparam name="TUnit">The type of unit of measure to discover and register.</typeparam>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry.GetNameLookup``1">
+            <summary>
+            Gets a name based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.
+            </summary>
+            <typeparam name="TUnit">The unit of measure type.</typeparam>
+            <returns>A name based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry.GetSymbolLookup``1">
+            <summary>
+            Gets a symbol based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.
+            </summary>
+            <typeparam name="TUnit">The unit of measure type.</typeparam>
+            <returns>A name based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.</returns>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry.AutoregisterAllUnits">
+            <summary>
+            Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitSelection.GlobalUnitSelectionStrategy">
@@ -33483,13 +33575,14 @@
             A measurement of rate at which velocity changes with time, in terms of both speed and direction.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Acceleration.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Acceleration,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Acceleration.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Acceleration,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Acceleration" /> using another <see cref="T:Jcd.Units.UnitTypes.Acceleration" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Acceleration" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33499,13 +33592,14 @@
             A measurement of an arbitrary quantity, number or value of something.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Amount.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Amount,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Amount.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Amount,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Amount" /> using another <see cref="T:Jcd.Units.UnitTypes.Amount" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Amount" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33515,13 +33609,14 @@
             A measurement of the space between two intersecting lines or surfaces at or close to the point where they meet.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Angle.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Angle,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Angle.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Angle,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Angle" /> using another <see cref="T:Jcd.Units.UnitTypes.Angle" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Angle" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33531,13 +33626,14 @@
             A measurement of the total space taken up by a surface. This may be a planar two-dimensional measurement, the surface of a three-dimensional object...etc.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Area.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Area,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Area.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Area,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Area" /> using another <see cref="T:Jcd.Units.UnitTypes.Area" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Area" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33547,13 +33643,14 @@
             A measurement of the ability of a system to store an electric charge.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Capacitance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Capacitance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Capacitance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Capacitance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Capacitance" /> using another <see cref="T:Jcd.Units.UnitTypes.Capacitance" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Capacitance" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33563,13 +33660,14 @@
             A measurement of the increase in the rate of a chemical reaction caused by the presence of a catalyst.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.CatalyticActivity,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.CatalyticActivity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.CatalyticActivity,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.CatalyticActivity" /> using another <see cref="T:Jcd.Units.UnitTypes.CatalyticActivity" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.CatalyticActivity" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33579,13 +33677,14 @@
             A measurement of mass per unit of volume.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Density.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Density,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Density.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Density,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Density" /> using another <see cref="T:Jcd.Units.UnitTypes.Density" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Density" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33595,13 +33694,14 @@
             A measurement of a length of time.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Duration.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Duration,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Duration.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Duration,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Duration" /> using another <see cref="T:Jcd.Units.UnitTypes.Duration" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Duration" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33611,13 +33711,14 @@
             A measurement of the amount of electricity that a current carries for a given unit of time.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalCharge,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCharge.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalCharge,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.ElectricalCharge" /> using another <see cref="T:Jcd.Units.UnitTypes.ElectricalCharge" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.ElectricalCharge" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33627,13 +33728,14 @@
             A measurement of the ease with which an electric current passes through matter. It's the reciprocal of electrical resistance.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalConductance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.ElectricalConductance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalConductance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.ElectricalConductance" /> using another <see cref="T:Jcd.Units.UnitTypes.ElectricalConductance" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.ElectricalConductance" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33643,13 +33745,14 @@
             A measurement of the flow of electricity in a circuit.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalCurrent,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.ElectricalCurrent.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalCurrent,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.ElectricalCurrent" /> using another <see cref="T:Jcd.Units.UnitTypes.ElectricalCurrent" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.ElectricalCurrent" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33659,13 +33762,14 @@
             A measurement of the amount of work energy needed to move a unit of an electric charge from a reference point to a specific point.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalPotential,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.ElectricalPotential.#ctor(System.String,System.String,Jcd.Units.UnitTypes.ElectricalPotential,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.ElectricalPotential" /> using another <see cref="T:Jcd.Units.UnitTypes.ElectricalPotential" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.ElectricalPotential" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33675,13 +33779,14 @@
             A measurement of the ability to exert a force causing displacement of an object.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Energy.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Energy,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Energy.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Energy,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Energy" /> using another <see cref="T:Jcd.Units.UnitTypes.Energy" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Energy" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33691,13 +33796,14 @@
             A measurement of the rate of change of momentum.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Force.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Force,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Force.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Force,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Force" /> using another <see cref="T:Jcd.Units.UnitTypes.Force" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Force" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33707,13 +33813,14 @@
             A measurement of the number of waves that pass a fixed point in unit time.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Frequency.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Frequency,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Frequency.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Frequency,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Frequency" /> using another <see cref="T:Jcd.Units.UnitTypes.Frequency" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Frequency" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33723,13 +33830,14 @@
             A measurement of the amount of luminous flux per unit area.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Illuminance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Illuminance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Illuminance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Illuminance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Illuminance" /> using another <see cref="T:Jcd.Units.UnitTypes.Illuminance" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Illuminance" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33739,13 +33847,14 @@
             A measurement of the property of an electric conductor or circuit that causes an electromotive force to be generated by a change in the current flow.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Inductance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Inductance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Inductance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Inductance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Inductance" /> using another <see cref="T:Jcd.Units.UnitTypes.Inductance" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Inductance" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33755,13 +33864,14 @@
             A measure of a unit of distance.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Length.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Length,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Length.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Length,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Length" /> using another <see cref="T:Jcd.Units.UnitTypes.Length" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Length" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33771,13 +33881,14 @@
             A measure of the perceived power of light.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.#ctor(System.String,System.String,Jcd.Units.UnitTypes.LuminousFlux,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.LuminousFlux.#ctor(System.String,System.String,Jcd.Units.UnitTypes.LuminousFlux,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.LuminousFlux" /> using another <see cref="T:Jcd.Units.UnitTypes.LuminousFlux" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.LuminousFlux" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33787,13 +33898,14 @@
             A measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.LuminousIntensity,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.LuminousIntensity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.LuminousIntensity,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.LuminousIntensity" /> using another <see cref="T:Jcd.Units.UnitTypes.LuminousIntensity" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.LuminousIntensity" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33803,13 +33915,14 @@
             A measurement of the total magnetic field which passes through a given area.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.#ctor(System.String,System.String,Jcd.Units.UnitTypes.MagneticFlux,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.MagneticFlux.#ctor(System.String,System.String,Jcd.Units.UnitTypes.MagneticFlux,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.MagneticFlux" /> using another <see cref="T:Jcd.Units.UnitTypes.MagneticFlux" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.MagneticFlux" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33819,13 +33932,14 @@
             A measurement of the amount of magnetic flux through a unit area taken perpendicular to the direction of the magnetic flux.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.MagneticFluxDensity,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.MagneticFluxDensity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.MagneticFluxDensity,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.MagneticFluxDensity" /> using another <see cref="T:Jcd.Units.UnitTypes.MagneticFluxDensity" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.MagneticFluxDensity" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33835,13 +33949,14 @@
             A measurement of how much a particle or object resists change in its direction or speed when a force is applied.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Mass.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Mass,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Mass.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Mass,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Mass" /> using another <see cref="T:Jcd.Units.UnitTypes.Mass" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Mass" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33851,13 +33966,14 @@
             A measurement of the product of the mass and velocity of an object.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Momentum.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Momentum,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Momentum.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Momentum,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Momentum" /> using another <see cref="T:Jcd.Units.UnitTypes.Momentum" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Momentum" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33873,13 +33989,14 @@
             A measurement of the rate at which energy is transferred or converted.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Power.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Power,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Power.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Power,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Power" /> using another <see cref="T:Jcd.Units.UnitTypes.Power" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Power" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33889,13 +34006,14 @@
             A measurement of a force per unit area.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Pressure.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Pressure,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Pressure.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Pressure,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Pressure" /> using another <see cref="T:Jcd.Units.UnitTypes.Pressure" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Pressure" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33905,13 +34023,14 @@
             A measurement of the amount of radiation absorbed by an object or person.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadiationAbsorbedDose,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.RadiationAbsorbedDose.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadiationAbsorbedDose,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.RadiationAbsorbedDose" /> using another <see cref="T:Jcd.Units.UnitTypes.RadiationAbsorbedDose" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.RadiationAbsorbedDose" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33921,13 +34040,14 @@
             A measurement of radiation dose to tissue adjusted for relative biological effects from different types of ionizing radiation.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadiationEquivalentDose,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.RadiationEquivalentDose.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadiationEquivalentDose,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.RadiationEquivalentDose" /> using another <see cref="T:Jcd.Units.UnitTypes.RadiationEquivalentDose" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.RadiationEquivalentDose" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33937,13 +34057,14 @@
             A measurement of the number of atomic nuclei that decay per unit time.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadioactiveDecay,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.RadioactiveDecay.#ctor(System.String,System.String,Jcd.Units.UnitTypes.RadioactiveDecay,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.RadioactiveDecay" /> using another <see cref="T:Jcd.Units.UnitTypes.RadioactiveDecay" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.RadioactiveDecay" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33953,13 +34074,14 @@
             A measurement of the opposition to current flow in an electrical circuit.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Resistance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Resistance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Resistance.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Resistance,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Resistance" /> using another <see cref="T:Jcd.Units.UnitTypes.Resistance" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Resistance" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33969,13 +34091,14 @@
             A measurement of data storage.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Storage.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Storage,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Storage.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Storage,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Storage" /> using another <see cref="T:Jcd.Units.UnitTypes.Storage" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Storage" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -33985,13 +34108,14 @@
             A measurement of the energy contained in the motion and vibration of an object's molecules.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Temperature.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Temperature,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Temperature.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Temperature,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Temperature" /> using another <see cref="T:Jcd.Units.UnitTypes.Temperature" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Temperature" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -34001,13 +34125,14 @@
             A measurement of the rate at which data is transferred.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.TransferRate.#ctor(System.String,System.String,Jcd.Units.UnitTypes.TransferRate,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.TransferRate.#ctor(System.String,System.String,Jcd.Units.UnitTypes.TransferRate,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.TransferRate" /> using another <see cref="T:Jcd.Units.UnitTypes.TransferRate" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.TransferRate" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -34017,13 +34142,14 @@
             A measurement of the rate and direction of motion of an object.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Velocity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Velocity,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Velocity.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Velocity,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Velocity" /> using another <see cref="T:Jcd.Units.UnitTypes.Velocity" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Velocity" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>
@@ -34033,13 +34159,14 @@
             A measurement of the amount of three dimensional space occupied by an object.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitTypes.Volume.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Volume,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double})">
+        <member name="M:Jcd.Units.UnitTypes.Volume.#ctor(System.String,System.String,Jcd.Units.UnitTypes.Volume,System.Double,System.Double,Jcd.Units.IValueComparer{System.Double},System.String)">
             <summary>
             Constructs a unit measuring a specified <see cref="T:Jcd.Units.UnitTypes.Volume" /> using another <see cref="T:Jcd.Units.UnitTypes.Volume" /> as a reference.
             </summary>
             <param name="name">The name of this unit</param>
             <param name="symbol">The symbol or abbreviation to represent the <see cref="T:Jcd.Units.UnitTypes.Volume" /></param>
             <param name="baseUnit">The unit to use as a base</param>
+            <param name="system">The optional system the unit of measure belongs to.</param>
             <param name="coefficient">The coefficient relative to the <paramref name="baseUnit"/></param>
             <param name="offset">The offset from the <paramref name="baseUnit"/>.</param>
             <param name="comparer">The instance specific <see cref="T:Jcd.Units.IValueComparer`1"/> used for comparisons.</param>

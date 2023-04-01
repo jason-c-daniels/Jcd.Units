@@ -25,6 +25,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                      , "c"
                                                      , SI.Velocities.MeterPerSecond
                                                      , 299_792_458
+                                                     , system: "Theoretical Physics"
                                                       );
 
    /// <summary>
@@ -35,6 +36,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "ℓₚ/s"
                                                               , SI.Velocities.MeterPerSecond
                                                               , 1.616255E-35 / 1.0
+                                                              , system: "Theoretical Physics"
                                                                );
 
    /// <summary>
@@ -45,6 +47,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "ℓₚ/tₚ"
                                                                   , SI.Velocities.MeterPerMicrosecond
                                                                   , 1.616255E-35 / 5.391247E-38
+                                                                  , system: "Theoretical Physics"
                                                                    );
 
    /// <summary>
@@ -55,6 +58,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "ℓₚ/ds"
                                                                   , SI.Velocities.MeterPerSecond
                                                                   , 1.616255E-35 / (1.0 / 10.0)
+                                                                  , system: "Theoretical Physics"
                                                                    );
 
    /// <summary>
@@ -65,6 +69,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "ℓₚ/cs"
                                                                    , SI.Velocities.MeterPerDecisecond
                                                                    , 1.616255E-35 / (1.0 / 10.0)
+                                                                   , system: "Theoretical Physics"
                                                                     );
 
    /// <summary>
@@ -75,6 +80,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "ℓₚ/ms"
                                                                    , SI.Velocities.MeterPerCentisecond
                                                                    , 1.616255E-35 / (1.0 / 10.0)
+                                                                   , system: "Theoretical Physics"
                                                                     );
 
    /// <summary>
@@ -85,6 +91,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "ℓₚ/μs"
                                                                    , SI.Velocities.MeterPerMillisecond
                                                                    , 1.616255E-35 / (1.0 / 1000.0)
+                                                                   , system: "Theoretical Physics"
                                                                     );
 
    /// <summary>
@@ -95,6 +102,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "ℓₚ/ns"
                                                                   , SI.Velocities.MeterPerMicrosecond
                                                                   , 1.616255E-35 / (1.0 / 1000.0)
+                                                                  , system: "Theoretical Physics"
                                                                    );
 
    /// <summary>
@@ -105,6 +113,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "ℓₚ/ps"
                                                                   , SI.Velocities.MeterPerNanosecond
                                                                   , 1.616255E-35 / (1.0 / 1000.0)
+                                                                  , system: "Theoretical Physics"
                                                                    );
 
    /// <summary>
@@ -115,6 +124,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "ℓₚ/fs"
                                                                    , SI.Velocities.MeterPerPicosecond
                                                                    , 1.616255E-35 / (1.0 / 1000.0)
+                                                                   , system: "Theoretical Physics"
                                                                     );
 
    /// <summary>
@@ -125,6 +135,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "ℓₚ/as"
                                                                   , SI.Velocities.MeterPerFemtosecond
                                                                   , 1.616255E-35 / (1.0 / 1000.0)
+                                                                  , system: "Theoretical Physics"
                                                                    );
 
    /// <summary>
@@ -135,6 +146,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "ℓₚ/zs"
                                                                    , SI.Velocities.MeterPerAttosecond
                                                                    , 1.616255E-35 / (1.0 / 1000.0)
+                                                                   , system: "Theoretical Physics"
                                                                     );
 
    /// <summary>
@@ -145,6 +157,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "ℓₚ/ys"
                                                                    , SI.Velocities.MeterPerZeptosecond
                                                                    , 1.616255E-35 / (1.0 / 1000.0)
+                                                                   , system: "Theoretical Physics"
                                                                     );
 
    /// <summary>
@@ -155,6 +168,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                    , "ℓₚ/rs"
                                                                    , SI.Velocities.MeterPerYoctosecond
                                                                    , 1.616255E-35 / (1.0 / 1000.0)
+                                                                   , system: "Theoretical Physics"
                                                                     );
 
    /// <summary>
@@ -165,6 +179,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     , "ℓₚ/qs"
                                                                     , SI.Velocities.MeterPerRontosecond
                                                                     , 1.616255E-35 / (1.0 / 1000.0)
+                                                                    , system: "Theoretical Physics"
                                                                      );
 
    /// <summary>
@@ -175,6 +190,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "ℓₚ/min"
                                                               , SI.Velocities.MeterPerSecond
                                                               , 1.616255E-35 / 60.0
+                                                              , system: "Theoretical Physics"
                                                                );
 
    /// <summary>
@@ -185,6 +201,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ℓₚ/hr"
                                                             , SI.Velocities.MeterPerMinute
                                                             , 1.616255E-35 / 60.0
+                                                            , system: "Theoretical Physics"
                                                              );
 
    /// <summary>
@@ -195,6 +212,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                            , "ℓₚ/dy"
                                                            , SI.Velocities.MeterPerHour
                                                            , 1.616255E-35 / 24.0
+                                                           , system: "Theoretical Physics"
                                                             );
 
    /// <summary>
@@ -205,6 +223,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ℓₚ/wk"
                                                             , SI.Velocities.MeterPerDay
                                                             , 1.616255E-35 / 7.0
+                                                            , system: "Theoretical Physics"
                                                              );
 
    /// <summary>
@@ -215,6 +234,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ℓₚ/yr"
                                                             , SI.Velocities.MeterPerDay
                                                             , 1.616255E-35 / 365.2525
+                                                            , system: "Theoretical Physics"
                                                              );
 
    /// <summary>
@@ -225,6 +245,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                               , "ℓₚ/decade"
                                                               , SI.Velocities.MeterPerYear
                                                               , 1.616255E-35 / 10.0
+                                                              , system: "Theoretical Physics"
                                                                );
 
    /// <summary>
@@ -235,6 +256,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                , "ℓₚ/century"
                                                                , SI.Velocities.MeterPerDecade
                                                                , 1.616255E-35 / 10.0
+                                                               , system: "Theoretical Physics"
                                                                 );
 
    /// <summary>
@@ -245,6 +267,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                   , "ℓₚ/kyr"
                                                                   , SI.Velocities.MeterPerCentury
                                                                   , 1.616255E-35 / 10.0
+                                                                  , system: "Theoretical Physics"
                                                                    );
 
    /// <summary>
@@ -255,6 +278,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     , "ℓₚ/Myr"
                                                                     , SI.Velocities.MeterPerMillennium
                                                                     , 1.616255E-35 / 1000.0
+                                                                    , system: "Theoretical Physics"
                                                                      );
 
    /// <summary>
@@ -265,6 +289,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                     , "ℓₚ/Gyr"
                                                                     , SI.Velocities.MeterPerMillionYears
                                                                     , 1.616255E-35 / 1000.0
+                                                                    , system: "Theoretical Physics"
                                                                      );
 
    /// <summary>
@@ -275,6 +300,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                      , "ℓₚ/Tyr"
                                                                      , SI.Velocities.MeterPerBillionYears
                                                                      , 1.616255E-35 / 1000.0
+                                                                     , system: "Theoretical Physics"
                                                                       );
 
    /// <summary>
@@ -285,6 +311,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         , "ℓₚ/Pyr"
                                                                         , SI.Velocities.MeterPerTrillionYears
                                                                         , 1.616255E-35 / 1000.0
+                                                                        , system: "Theoretical Physics"
                                                                          );
 
    /// <summary>
@@ -295,6 +322,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                         , "ℓₚ/Eyr"
                                                                         , SI.Velocities.MeterPerQuadrillionYears
                                                                         , 1.616255E-35 / 1000.0
+                                                                        , system: "Theoretical Physics"
                                                                          );
 
    /// <summary>
@@ -305,6 +333,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        , "ℓₚ/Zyr"
                                                                        , SI.Velocities.MeterPerQuintillionYears
                                                                        , 1.616255E-35 / 1000.0
+                                                                       , system: "Theoretical Physics"
                                                                         );
 
    /// <summary>
@@ -315,6 +344,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                        , "ℓₚ/Yyr"
                                                                        , SI.Velocities.MeterPerSextillionYears
                                                                        , 1.616255E-35 / 1000.0
+                                                                       , system: "Theoretical Physics"
                                                                         );
 
    /// <summary>
@@ -325,6 +355,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       , "ℓₚ/Ryr"
                                                                       , SI.Velocities.MeterPerSeptillionYears
                                                                       , 1.616255E-35 / 1000.0
+                                                                      , system: "Theoretical Physics"
                                                                        );
 
    /// <summary>
@@ -335,6 +366,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       , "ℓₚ/Qyr"
                                                                       , SI.Velocities.MeterPerOctillionYears
                                                                       , 1.616255E-35 / 1000.0
+                                                                      , system: "Theoretical Physics"
                                                                        );
 
    /// <summary>
@@ -345,6 +377,7 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                                       , "ℓₚ/decillion yr"
                                                                       , SI.Velocities.MeterPerNonillionYears
                                                                       , 1.616255E-35 / 1000.0
+                                                                      , system: "Theoretical Physics"
                                                                        );
 
    /// <summary>
@@ -355,5 +388,6 @@ public class Velocities : UnitOfMeasureEnumeration<Velocities, Velocity>
                                                             , "ℓₚ/tick"
                                                             , SI.Velocities.MeterPerNanosecond
                                                             , 1.616255E-35 / 100.0
+                                                            , system: "Theoretical Physics"
                                                              );
 }
