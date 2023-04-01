@@ -31,5 +31,6 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Methods | |
 | :--- | :--- |
-| [AutoregisterUnits()](UnitRegistry_TUnit_.AutoregisterUnits().md 'Jcd.Units.UnitRegistry<TUnit>.AutoregisterUnits()') | Searches all loaded assemblies and registers matching unit types from fields and/or properties. |
+| [AutoregisterFrom(Assembly)](UnitRegistry_TUnit_.AutoregisterFrom.uYZTwNDM08i5OKgLrRE0zA.md 'Jcd.Units.UnitRegistry<TUnit>.AutoregisterFrom(Assembly)') | Searches the specified assembly and registers matching unit types from fields and/or properties. |
+| [AutoregisterFromAllAssemblies()](UnitRegistry_TUnit_.AutoregisterFromAllAssemblies().md 'Jcd.Units.UnitRegistry<TUnit>.AutoregisterFromAllAssemblies()') | Searches all loaded assemblies and registers matching unit types from fields and/or properties. |
 | [Register(TUnit)](UnitRegistry_TUnit_.Register.0P89l8yEDFFWnoeFBgUPmQ.md 'Jcd.Units.UnitRegistry<TUnit>.Register(TUnit)') | Registers a single unit of measure. |

@@ -1171,7 +1171,12 @@
             All registered or discovered instances of the type of unit.
             </summary>
         </member>
-        <member name="M:Jcd.Units.UnitRegistry`1.AutoregisterUnits">
+        <member name="M:Jcd.Units.UnitRegistry`1.AutoregisterFrom(System.Reflection.Assembly)">
+            <summary>
+            Searches the specified assembly and registers matching unit types from fields and/or properties.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry`1.AutoregisterFromAllAssemblies">
             <summary>
             Searches all loaded assemblies and registers matching unit types from fields and/or properties.
             </summary>
@@ -1199,7 +1204,13 @@
             <param name="unit">The unit of measure.</param>
             <typeparam name="TUnit">The type of unit of measure.</typeparam>
         </member>
-        <member name="M:Jcd.Units.UnitRegistry.AutoregisterUnits``1">
+        <member name="M:Jcd.Units.UnitRegistry.Autoregister``1">
+            <summary>
+            Searches all loaded assemblies and registers matching unit types from fields and/or properties.
+            </summary>
+            <typeparam name="TUnit">The type of unit of measure to discover and register.</typeparam>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry.AutoregisterFrom``1(System.Reflection.Assembly)">
             <summary>
             Searches all loaded assemblies and registers matching unit types from fields and/or properties.
             </summary>
@@ -1220,6 +1231,11 @@
             <returns>A name based <see cref="T:System.Linq.ILookup`2"/> for the requested unit type.</returns>
         </member>
         <member name="M:Jcd.Units.UnitRegistry.AutoregisterAllUnits">
+            <summary>
+            Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
+            </summary>
+        </member>
+        <member name="M:Jcd.Units.UnitRegistry.AutoregisterAllUnitsFrom(System.Reflection.Assembly)">
             <summary>
             Searches all loaded assemblies and registers all unit of measure types from fields and/or properties.
             </summary>
