@@ -7,11 +7,11 @@ The intended audience for this document is a software engineer needing to accomo
 ## The Unit Conversion Formula
 
 This library's formula for converting to the base unit from the source unit is defined as:
-`BaseUnit = (DerivedUnit + Offset) × Coefficient`
+`BaseUnit = (DerivedUnit + Offset) ⋅ Coefficient` <sup>1</sup>
 
 As a math function this is expressed as follows:
 
-`f(x) = (x + c) ⋅ a` <sup>1</sup>
+`f(x) = (x + c) ⋅ a`
 
 Where:
 - `f(x)` is the function that converts **to** the base unit from the derived unit.
@@ -72,7 +72,7 @@ This makes `-c₀` the offset(`c`), and `1` the coefficient (`a`).
 
 The formula for converting from Fahrenheit to Celsius is:
 
-`°C = (°F - 32) × 5/9`
+`°C = (°F - 32) ⋅ 5/9`
 
 In generic terms this is:
 
@@ -165,5 +165,5 @@ Substituting values this gives us:
 
 ## End Notes
 
-1. The dot operator is used instead of cross operator to denote multiplication in order to prevent confusing `×` with the variable `x`.
+1. The dot operator is used instead of cross operator to denote multiplication in order to prevent confusing the operator `×` with the variable `x`.
 2. The subscript of zero is intended to preserve the conceptual relationship between the destination constants (no subscript) and the source constants (with subscript).
