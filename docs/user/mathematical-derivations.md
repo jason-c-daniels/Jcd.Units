@@ -70,7 +70,7 @@ Which is the same as writing:
 
 `f(x) = (x + 0) ⋅ (1 ÷ a₀)`
 
-Which gives us:
+This gives us:
 - `a = 1 ÷ a₀`
 - `c = 0`
 
