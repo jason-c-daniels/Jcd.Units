@@ -34,9 +34,12 @@ When reading below keep the following substitutions in mind:
 
 ### Notation For Original Formulas
 
-- When the coefficient in the original formula will be unaltered, it's denoted as just `a`, in the original formula. When it will be altered to use with the standard formula it's denoted as `a₀`.
-- When the coefficient in the original formula will be unaltered, it's denoted as just `c`, in the original formula. When it will be altered to use with the standard formula it's denoted as `c₀`.
+To walk the reader through the derivations the original formula for a potential conversion is provided. The following notation will be used in the formula:
 
+- When the coefficient in the original formula will be unaltered, it's denoted as just `a`, in the original formula. 
+- When the coefficient in the original formula will be altered to use with the standard formula it's denoted as `a₀`, in the original formula.
+- When the offset in the original formula will be unaltered, it's denoted as just `c`, in the original formula.
+- When the offset in the original formula will be altered to use with the standard formula it's denoted as `c₀`, in the original formula.
 
 ## Simple Coefficient Formulas
 
@@ -88,7 +91,7 @@ This is identical to:
 
 This makes `-c₀` the offset(`c`), and `1` the coefficient (`a`).
 
-## Fahrenheit Style Conversion Formulas
+## Fahrenheit-Style Conversion Formulas
 
 The formula for converting from Fahrenheit to Celsius is:
 
@@ -138,7 +141,7 @@ The generic form for this formula is:
 
 `f(x) = c₀ - x ⋅ a₀`
 
-To get the values needed we first rearrange the terms a little and we'll see a familiar formula, not quite the target one, but it gets us where we need to go.
+To get the values needed we first rearrange the terms a little in order to see a familiar structure. It's not quite the target formula, but it is one we've covered above.
 
 1. Turn subtraction into addition.
    
@@ -156,14 +159,14 @@ To get the values needed we first rearrange the terms a little and we'll see a f
 
    `f(x) = a ⋅ x + c₀`
 
-The rest of the steps, and therefore the result are same as using the method laid out in _Coefficient With Offset Applied After Multiplication_.
+The rest of the steps, and therefore the result, are same as using the method laid out in _Coefficient With Offset Applied After Multiplication_.
 
 From this we know that:
 
 - `a = -a₀`
 - `c = c₀ ÷ a`
 
-## The Input Unit is Subtracted From a Constant
+## The Input Unit Is Subtracted From A Constant
 
 These conversions look like the following:
 
