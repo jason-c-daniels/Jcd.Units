@@ -22316,14 +22316,14 @@
             International System of Units for measuring Temperature.
             </summary>
         </member>
-        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesCelcius">
+        <member name="F:Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesCelsius">
             <summary>
-            degrees celcius, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
+            degrees celsius, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.)
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesKelvin">
             <summary>
-            degrees kelvin defined such that: degrees celcius = °K + -273.15
+            degrees kelvin defined such that: degrees celsius = °K + -273.15
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.SI.Velocities">
@@ -26723,22 +26723,22 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesDelisle">
             <summary>
-            degrees delisle defined such that: SI degrees celcius = (°De + -150) × -2.0/3.0.
+            degrees delisle defined such that: SI degrees celsius = (°De + -150) × -2.0/3.0.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesNewton">
             <summary>
-            degrees newton defined such that: SI degrees celcius = °N × 100.0/33.0.
+            degrees newton defined such that: SI degrees celsius = °N × 100.0/33.0.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRéaumur">
             <summary>
-            degrees réaumur defined such that: SI degrees celcius = °Ré × 5.0/4.0.
+            degrees réaumur defined such that: SI degrees celsius = °Ré × 5.0/4.0.
             </summary>
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.Temperatures.DegreesRømer">
             <summary>
-            degrees rømer defined such that: SI degrees celcius = (°Rø + -7.5) × 40.0/21.0.
+            degrees rømer defined such that: SI degrees celsius = (°Rø + -7.5) × 40.0/21.0.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Accelerations">
@@ -29788,7 +29788,7 @@
         </member>
         <member name="F:Jcd.Units.UnitsOfMeasure.USCustomary.Temperatures.DegreesFahrenheit">
             <summary>
-            degrees fahrenheit defined such that: SI degrees celcius = (°F + -32.0) × 5.0/9.0.
+            degrees fahrenheit defined such that: SI degrees celsius = (°F + -32.0) × 5.0/9.0.
             </summary>
         </member>
         <member name="T:Jcd.Units.UnitsOfMeasure.USCustomary.Velocities">

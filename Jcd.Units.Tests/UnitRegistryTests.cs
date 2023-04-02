@@ -16,9 +16,9 @@ public class UnitRegistryTests
       UnitRegistry.Default.AutoregisterAllUnits();
       Assert.True(tempsRegistry.All.Count   > 0);
       Assert.True(lengthsRegistry.All.Count > 0);
-      Assert.Single(tempsRegistry.NameLookup["degrees celcius"]);
+      Assert.Single(tempsRegistry.NameLookup["degrees celsius"]);
       Assert.Single(tempsRegistry.SymbolLookup["°C"]);
-      Assert.Single(UnitRegistry.Default.GetNameLookup<Temperature>()["degrees celcius"]);
+      Assert.Single(UnitRegistry.Default.GetNameLookup<Temperature>()["degrees celsius"]);
       Assert.Single(UnitRegistry.Default.GetSymbolLookup<Temperature>()["°C"]);
    }
 }

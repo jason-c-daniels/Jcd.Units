@@ -87,7 +87,7 @@ using US=Jcd.Units.UnitsOfMeasure.USCustomary;
 // for brevity sake we capture the unit of measures in variables
 // and use those instead of referring to the entire namespace and
 // containing enumeration-like class.
-var C = SI.Temperatures.DegreesCelcius;
+var C = SI.Temperatures.DegreesCelsius;
 var F = US.Temperatures.DegreesFahrenheit;
 
 var tF = 32.As(F);

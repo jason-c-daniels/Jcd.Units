@@ -18,12 +18,12 @@ namespace Jcd.Units.UnitsOfMeasure.USCustomary;
 public class Temperatures : UnitOfMeasureEnumeration<Temperatures, Temperature>
 {
    /// <summary>
-   /// degrees fahrenheit defined such that: SI degrees celcius = (°F + -32.0) × 5.0/9.0.
+   /// degrees fahrenheit defined such that: SI degrees celsius = (°F + -32.0) × 5.0/9.0.
    /// </summary>
    public static readonly Temperature DegreesFahrenheit = new (
                                                                "degrees fahrenheit"
                                                              , "°F"
-                                                             , SI.Temperatures.DegreesCelcius
+                                                             , SI.Temperatures.DegreesCelsius
                                                              , 5.0 / 9.0
                                                              , -32.0
                                                              , system: "US Customary"

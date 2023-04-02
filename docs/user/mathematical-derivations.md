@@ -4,7 +4,7 @@ Within this file you'll find the mathematical derivations used to transform vari
 
 ## The Unit Conversion Formula
 
-The library's formula for unit conversions is essentially:
+This library's formula for converting to the base unit from the source unit is defined as:
 `BaseUnitValue = (DerivedUnit + Offset) × Coefficient`
 
 In strictly mathematical terms this is:
@@ -68,7 +68,7 @@ This makes `-c₀` the offset(`c`), and `1` the coefficient (`a`).
 
 ## Fahrenheit Style Formulas
 
-The formula for converting from Fahrenheit to Celcius is:
+The formula for converting from Fahrenheit to Celsius is:
 
 `°C = (°F - 32) × 5/9`
 
@@ -76,7 +76,7 @@ In generic terms this is:
 
 `f(x) = (x - c₀) ⋅ a`
 
-This is already remarkably close to the desired formula:
+This is remarkably close to the desired formula:
 
 `f(x) = (x + c) ⋅ a`
 
@@ -84,7 +84,7 @@ All we need to do is define `c = -c₀` and we have the necessary constants.
 
 ## Delisle Type Formulas
 
-The typical formula for converting from Delisle to Celcius is:
+The typical formula for converting from Delisle to Celsius is:
 
 `°C =  100 - °De ⋅ 2/3`
 
@@ -92,13 +92,13 @@ The generic form for this formula is:
 
 `f(x) = c₀ - x ⋅ a₀`
 
-The constants in this formula clearly cannot be directly used, and due to that fact, they've been given a subscript of zero. <sup>2</sup>
+The constants in this formula clearly cannot be directly used, and due to that fact, they've been given a subscript of zero to differentiate them from the target constants. <sup>2</sup>
 
 As a reminder the library's conversions formula looks like:
 
 `f(x) = (x - c) ⋅ a`
 
-To derive the new constants we have to rearrange the formula such that it more closely resembles the target formula.
+To calculate the new constants we have to rearrange the formula such that it more closely resembles the target formula.
 
 1. First move the negative sign to `a₀`:
   
@@ -128,7 +128,7 @@ To derive the new constants we have to rearrange the formula such that it more c
    - `a = -a₀`
    - `c = c₀ ÷ -a₀`
    
-## A Delisle Type Variant
+### A Delisle-Like Formula Variant
 
 A variation of the Delisle style conversions may also appear as:
 
@@ -136,7 +136,29 @@ A variation of the Delisle style conversions may also appear as:
 
 In this case we have a negative coefficient of: `-a₀`. We extract `a₀` and `c₀` directly from the formula and use the calculations at the end of the prior section to compute `a` and `c`.
 
-## End Note
+## Coefficient With Offset Applied After Multiplication
+
+As the header suggest this function is as follows:
+
+`f(x) = a ⋅ x + c₀`
+
+1. Create an equivalent function that divides all terms by `a`.
+
+   `f(x) = ((a ⋅ x + c₀) ÷ a) ⋅ a`
+
+2. Distribute the division.
+
+   `f(x) = (a ⋅ x ÷ a + c₀ ÷ a) ⋅ a`
+
+3. Remove the canceled term.
+
+   `f(x) = (x + c₀ ÷ a) ⋅ a`
+
+4. From the above we see that `a` remains unchange and `c = c₀ ÷ a`
+
+Note: This is nearly the same as the Delisle variant formula and the end result is functionally the same if we replaced `-a₀` in that formula, with just `a`.
+
+## End Notes
 
 1. The dot operator used instead of cross operator to denote multiplication. This is to prevent readers confusing the `×` operator with the variable `x`. 
 2. The subscript of zero is intended to preserve the conceptual relationship between the destination constants and the source constants.

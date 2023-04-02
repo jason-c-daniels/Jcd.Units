@@ -13,5 +13,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [DegreesCelcius](Temperatures.DegreesCelcius.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesCelcius') | degrees celcius, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
-| [DegreesKelvin](Temperatures.DegreesKelvin.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesKelvin') | degrees kelvin defined such that: degrees celcius = °K + -273.15 |
+| [DegreesCelsius](Temperatures.DegreesCelsius.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesCelsius') | degrees celsius, the basis for all units of measure of this type. (i.e. the fundamental unit of measure for this type.) |
+| [DegreesKelvin](Temperatures.DegreesKelvin.md 'Jcd.Units.UnitsOfMeasure.SI.Temperatures.DegreesKelvin') | degrees kelvin defined such that: degrees celsius = °K + -273.15 |

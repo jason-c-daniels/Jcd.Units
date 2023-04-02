@@ -18,7 +18,7 @@ public class TemperatureTests
    private static readonly IReadOnlyList<Temperature> AllTemps = new[]
                                                                  {
                                                                           US.Temperatures.DegreesFahrenheit
-                                                                        , Temperatures.DegreesCelcius
+                                                                        , Temperatures.DegreesCelsius
                                                                         , Temperatures.DegreesKelvin
                                                                         , UnitsOfMeasure.Temperatures.DegreesDelisle
                                                                         , UnitsOfMeasure.Temperatures.DegreesNewton

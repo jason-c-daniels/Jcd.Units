@@ -15,7 +15,7 @@ internal abstract record TemperaturePerfTest(string Description) : PerfTestBase(
            .DegreesFahrenheit;
 
    protected static readonly Temperature C = UnitsOfMeasure.SI.Temperatures
-                                                           .DegreesCelcius;
+                                                           .DegreesCelsius;
 
    protected static readonly Temperature Ra = UnitsOfMeasure.Temperatures
                                                             .DegreesRankine;

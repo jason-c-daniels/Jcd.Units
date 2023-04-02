@@ -85,7 +85,7 @@ var siMasses  = Masses.BySymbol;
 var uscMasses = US.Masses.BySymbol;
 
 var K     = siTemps["°K"];
-var C     = Temperatures.DegreesCelcius;
+var C     = Temperatures.DegreesCelsius;
 var F     = US.Temperatures.DegreesFahrenheit;
 var degRa = temps["°R"];
 var degN  = temps["°N"];
@@ -251,10 +251,10 @@ var tempDe5 = tempF5.To(de);
 var j = 0;
 /*
 var tempDe = 0d.As(Temperatures.DegreesRømer);
-var tempC2 = tempDe.To(Temperatures.DegreesCelcius);
-var tempC3 = (1+tempDe).To(Temperatures.DegreesCelcius);
-var tempC4 = (2+tempDe).To(Temperatures.DegreesCelcius);
-var tempC5 = (3+tempDe).To(Temperatures.DegreesCelcius);
+var tempC2 = tempDe.To(Temperatures.DegreesCelsius);
+var tempC3 = (1+tempDe).To(Temperatures.DegreesCelsius);
+var tempC4 = (2+tempDe).To(Temperatures.DegreesCelsius);
+var tempC5 = (3+tempDe).To(Temperatures.DegreesCelsius);
 */
 // The following won't compile. You can't add differing unit of measure types.
 // var fpFMeter = meterQuantity + tempF;
@@ -275,7 +275,7 @@ var tempC5 = (3+tempDe).To(Temperatures.DegreesCelcius);
 // if, in the example case of the length, you wanted square feet you'd first convert to feet, then multiply, then convert to square feet
 var i = 0;
 
-var T1 = new Temperature("degrees Celcius*", "deg. C*");
+var T1 = new Temperature("degrees Celsius*", "deg. C*");
 var T2 = new Temperature("degrees Fahrenheit*", "deg. F*", T1, 5.0 / 9.0, -32);
 var x  = -T2.Offset;
 
@@ -287,7 +287,7 @@ var T3 = new Temperature(
                        , -((x - x * T2.Coefficient) / T2.Coefficient)
                         );
 
-var T4    = new Temperature("degrees Celcius (also)", "C*", T3, 1.0, 32);
+var T4    = new Temperature("degrees Celsius (also)", "C*", T3, 1.0, 32);
 var qt1   = 1d.As(T1);
 var qt2   = qt1.To(T2);
 var qt3_1 = qt2.To(T3);
@@ -317,8 +317,8 @@ Console.WriteLine($"{T1} < {T3} : {T1  < T3}");
 Console.WriteLine($"{T1} > {T3} : {T1  > T3}");
 Console.WriteLine($"{T1} == {T4} : {T1 == T4}");
 /*
-var Kilokelvin = new Temperature("Kilokelvin", "°kK", SI.Temperatures.DegreesKelvin, 1000.0);//SI.Temperatures.DegreesCelcius,1000,SI.Temperatures.DegreesKelvin.Offset);
-var Millikelvin = new Temperature("millikelvin", "°mK", SI.Temperatures.DegreesCelcius, 1.0 / 1000.0);//,SI.Temperatures.DegreesKelvin.Offset);
+var Kilokelvin = new Temperature("Kilokelvin", "°kK", SI.Temperatures.DegreesKelvin, 1000.0);//SI.Temperatures.DegreesCelsius,1000,SI.Temperatures.DegreesKelvin.Offset);
+var Millikelvin = new Temperature("millikelvin", "°mK", SI.Temperatures.DegreesCelsius, 1.0 / 1000.0);//,SI.Temperatures.DegreesKelvin.Offset);
 var OneMillikelvinT = 1.As(Millikelvin);
 var OneKilokelvinT = 1.As(Kilokelvin);
 var OneThousandKelvinT = OneKilokelvinT.To(SI.Temperatures.DegreesKelvin);

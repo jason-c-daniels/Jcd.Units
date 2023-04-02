@@ -3,7 +3,7 @@
 
 ## Temperatures.DegreesNewton Field
 
-degrees newton defined such that: SI degrees celcius = °N × 100.0/33.0.
+degrees newton defined such that: SI degrees celsius = °N × 100.0/33.0.
 
 ```csharp
 public static readonly Temperature DegreesNewton;
