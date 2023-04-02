@@ -7,6 +7,7 @@ The intended audience for this document are software engineers needing to accomo
 ## The Unit Conversion Formula
 
 Using terms from the library's source code the formula used for converting to the base unit from the source unit is effectively defined as:
+
 `BaseUnit = (DerivedUnit + Offset) ⋅ Coefficient` <sup>1, 3</sup>
 
 As a math function this is expressed as follows:
@@ -144,7 +145,7 @@ The generic form for this formula is:
 To get the values needed we first rearrange the terms a little in order to see a familiar structure. It's not quite the target formula, but it is one we've covered above.
 
 1. Turn subtraction into addition.
-   
+
    `f(x) = c₀ + -x ⋅ a₀` 
 
 2. Attach the minus sign to the coefficient `a₀` giving `-a₀`
