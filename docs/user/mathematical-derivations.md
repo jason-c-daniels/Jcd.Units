@@ -4,8 +4,6 @@ Within this file you'll find the mathematical derivations used to transform vari
 
 The intended audience for this document is a software engineer needing to accomodate a new unit conversion. The reader must be familiar with basic arithmetic and algebraic concepts.
 
-The following sections largely build on each other and are intended to be read in order.
-
 ## The Unit Conversion Formula
 
 This library's formula for converting to the base unit from the source unit is defined as:
@@ -16,12 +14,14 @@ As a math function this is expressed as follows:
 `f(x) = (x + c) ⋅ a` <sup>1</sup>
 
 Where:
-- `f(x)` is the base unit. (This is the function that converts **to** the base unit from the derived unit.)
-- `x` is the derived unit value.
+- `f(x)` is the function that converts **to** the base unit from the derived unit.
+- `x` is the value represented in the derived unit of measure.
 - `a` is the coefficient, a constant.
 - `c` is the offset, a constant.
 
-Functions which don't already match this representation must be reworked so that an appropriate `a` and `c` can be selected to yield an equivalent function. The following sections provide guidance for how to select an appropriate `a` and `c` for some well known conversion methods.
+Functions which don't already match this representation must be reworked so that an appropriate `a` and `c` can be selected to yield an equivalent function. The following sections provide guidance for how to select an appropriate `a` and `c` for some well known conversion formulas.
+
+The following sections largely build on each other and are intended to be read in order.
 
 ### Reminder
 
@@ -68,7 +68,7 @@ This is identical to:
 
 This makes `-c₀` the offset(`c`), and `1` the coefficient (`a`).
 
-## Fahrenheit Style Formulas
+## Fahrenheit Style Conversion Formulas
 
 The formula for converting from Fahrenheit to Celsius is:
 
@@ -89,6 +89,8 @@ All we need to do is define `c = -c₀` and we have the necessary constants.
 As the header suggest this function is as follows:
 
 `f(x) = a ⋅ x + c₀`
+
+We use the following steps to determine the correct value for `c`. The value of `a` in the original formula is already compatible.
 
 1. Create an equivalent function that divides all terms by `a`.
 
