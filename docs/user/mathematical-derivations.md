@@ -118,7 +118,7 @@ The generic form for this formula is:
 
 `f(x) = c₀ - x ⋅ a₀`
 
-To get the values needed to we first rearrange the terms a little and we'll see a familiar formula, not quite the target one, but it gets us where we need to go.
+To get the values needed we first rearrange the terms a little and we'll see a familiar formula, not quite the target one, but it gets us where we need to go.
 
 1. Turn subtraction into addition.
    
@@ -149,7 +149,7 @@ These conversions look like the following:
 
 `f(x) = c₀ - x`
 
-This makes these a minor variation of the Delisle conversions where `a₀ = 1`:
+These are a minor variation of the Delisle conversions where `a₀ = 1`:
 
 `f(x) = c₀ - x ⋅ 1`
 
