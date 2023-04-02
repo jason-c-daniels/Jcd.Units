@@ -180,7 +180,7 @@ applied to a number, four are three things to be aware of.
 4. When calculating something like Area, ensure the quantities are in the requisite units of measure
    as needed by the destination unit of measure. So for calculating a rate as m/s, first convert the
    Length quantity to meters, and the Duration quantity to seconds, then perform the division, then
-   apply the new unit of measure.
+   apply the new unit of measure with a call to `.ReplaceUnit(unit)` or cast to `double` then a call to `.As()`.
 
 #### Example: Computing Area, Volume, and Rate
 
