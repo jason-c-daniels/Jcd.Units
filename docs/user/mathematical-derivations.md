@@ -34,7 +34,7 @@ When reading below keep the following substitutions in mind:
 
 ## Simple Coefficient Formulas
 
-Formulas only using coefficient are already in a compatible form. They're typically written as follows:
+Formulas only using a coefficient are already in a compatible form. They're typically written as follows:
 
 `f(x) = a ⋅ x`
 
@@ -86,7 +86,7 @@ All we need to do is define `c = -c₀` and we have the necessary constants.
 
 ## Coefficient With Offset Applied After Multiplication
 
-As the header suggest this function is as follows:
+As the header suggest this formula is as follows:
 
 `f(x) = a ⋅ x + c₀`
 
