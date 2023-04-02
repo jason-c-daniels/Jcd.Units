@@ -52,7 +52,9 @@ This is the same as:
 
 `f(x) = a ⋅ (x + 0)`
 
-This makes `0` the offset (`c`) and the formula's original coefficient is used for `a`.
+This gives us:
+- `a` is unaltered.
+- `c = 0`
 
 ### With Division Instead of Multiplication
 
@@ -64,9 +66,13 @@ This is the same as writing:
 
 `f(x) = x ⋅ (1 ÷ a₀)`
 
-This allows us to selelct `a` as follows:
+Which is the same as writing:
 
-`a = 1 ÷ a₀`
+`f(x) = (x + 0) ⋅ (1 ÷ a₀)`
+
+Which gives us:
+- `a = 1 ÷ a₀`
+- `c = 0`
 
 ## Simple Offset Formulas
 
@@ -76,9 +82,11 @@ Formulas only using an offset are already in a compatible form. They're typicall
 
 This is the same as:
 
-`f(x) = 1 ⋅ (x + c)`
+`f(x) = 1 ⋅ (x + c)` or `f(x) = (x + c) ⋅ 1`
 
-This makes `1` the coefficient (`a`) and the original formula's offset is `c`.
+This gives us:
+- `a = 1`
+- `c` is unaltered.
 
 ### With Subtraction Instead of Addition
 
@@ -88,9 +96,15 @@ Alternately these formulas may be written as:
 
 This is identical to:
 
-`f(x) x + -c₀`
+`f(x) = x + -c₀`
 
-This makes `-c₀` the offset(`c`), and `1` the coefficient (`a`).
+Which is identical to:
+
+`f(x) = (x + -c₀) ⋅ 1`
+
+This gives us:
+- `a = 1`
+- `c = -c₀`
 
 ## Fahrenheit-Style Conversion Formulas
 
@@ -106,7 +120,13 @@ This is remarkably close to the desired formula:
 
 `f(x) = (x + c) ⋅ a`
 
-All we need to do is define `c = -c₀` and we have the necessary constants as we already know `a`.
+Once we change subtraction to adding a negative we effectively get to target formula:
+
+`f(x) = (x + -c₀) ⋅ a`
+
+This gives us:
+- `a` is unaltered.
+- `c = -c₀`
 
 ## Coefficient With Offset Applied After Multiplication
 
@@ -131,6 +151,10 @@ We use the following steps to determine the correct value for `c`. The value of 
 4. From the above we see that `a` remains unchange and that:
 
    `c = c₀ ÷ a`
+
+This gives us:
+- `a` is unaltered.
+- `c = c₀ ÷ a`
 
 ## Delisle to Celsius Type Formula
 
@@ -162,8 +186,7 @@ To get the values needed we first rearrange the terms a little in order to see a
 
 The rest of the steps, and therefore the result, are same as using the method laid out in _Coefficient With Offset Applied After Multiplication_.
 
-From this we know that:
-
+This gives us:
 - `a = -a₀`
 - `c = c₀ ÷ a`
 
@@ -182,7 +205,7 @@ From the Delisle type conversion we know:
 - `a = -a₀`
 - `c = c₀ ÷ a`
 
-Substituting values this gives us:
+Substituting values, this gives us:
 
 - `a = -1`
 - `c = c₀ ÷ -1` which is also `c = -c₀`
