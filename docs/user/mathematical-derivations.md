@@ -1,20 +1,20 @@
 # Mathematical Derivations
 
-Within this file you'll find the mathematical derivations used to transform various unit of measure transformations into the library's standard form.
+Within this file you'll find the mathematical derivations<sup>4</sup> used to transform various unit of measure formulas into the library's standard formula. This is a matter of calculating an `Offset` and `Coefficient`.
 
-The intended audience for this document is a software engineer needing to accomodate a new unit conversion. The reader must be familiar with basic arithmetic and algebraic concepts.
+The intended audience for this document are software engineers needing to accomodate a new unit conversion. _The reader must be familiar with basic arithmetic and algebraic concepts._
 
 ## The Unit Conversion Formula
 
-This library's formula for converting to the base unit from the source unit is defined as:
-`BaseUnit = (DerivedUnit + Offset) ⋅ Coefficient` <sup>1</sup>
+Using terms from the library's source code the formula used for converting to the base unit from the source unit is effectively defined as:
+`BaseUnit = (DerivedUnit + Offset) ⋅ Coefficient` <sup>1, 3</sup>
 
 As a math function this is expressed as follows:
 
 `f(x) = (x + c) ⋅ a`
 
 Where:
-- `f(x)` is the function that converts **to** the base unit from the derived unit.
+- `f(x)` is the function that converts **to** the base unit from the derived unit.<sup>3</sup>
 - `x` is the value represented in the derived unit of measure.
 - `a` is the coefficient, a constant.
 - `c` is the offset, a constant.
@@ -32,6 +32,12 @@ When reading below keep the following substitutions in mind:
 - `c` is the same as `Offset` above.
 - `a` is the same as `Coefficient` above.
 
+### Notation For Original Formulas
+
+- When the coefficient in the original formula will be unaltered, it's denoted as just `a`, in the original formula. When it will be altered to use with the standard formula it's denoted as `a₀`.
+- When the coefficient in the original formula will be unaltered, it's denoted as just `c`, in the original formula. When it will be altered to use with the standard formula it's denoted as `c₀`.
+
+
 ## Simple Coefficient Formulas
 
 Formulas only using a coefficient are already in a compatible form. They're typically written as follows:
@@ -43,6 +49,20 @@ This is the same as:
 `f(x) = a ⋅ (x + 0)`
 
 This makes `0` the offset (`c`) and the formula's original coefficient is used for `a`.
+
+### With Division Instead of Multiplication
+
+Alternately these functions may be written as:
+
+`f(x) = x ÷ a₀`
+
+This is the same as writing:
+
+`f(x) = x ⋅ (1 ÷ a₀)`
+
+This allows us to selelct `a` as follows:
+
+`a = 1 ÷ a₀`
 
 ## Simple Offset Formulas
 
@@ -60,7 +80,7 @@ This makes `1` the coefficient (`a`) and the original formula's offset is `c`.
 
 Alternately these formulas may be written as: 
 
-`f(x) = x - c₀` 
+`f(x) = x - c₀`
 
 This is identical to:
 
@@ -167,3 +187,7 @@ Substituting values this gives us:
 
 1. The dot operator is used instead of cross operator to denote multiplication in order to prevent confusing the operator `×` with the variable `x`.
 2. The subscript of zero is intended to preserve the conceptual relationship between the destination constants (no subscript) and the source constants (with subscript).
+3. The way the code and data files are structured relies on expressing conversions in terms of converting to the base unit from the derived unit. This is an essential characteristic, and the motivation for structuring the mathematical derivations in the selected manner.
+4. The definition in use is the first definition given by the Wolfram website:<sup>5</sup> _"A derivation is a sequence of steps, logical or computational, from one result to another."_ Also the general English defintion applies<sup>6</sup>: _"The act of deriving something or obtaining something from a source or origin."_, in this case `a` and `c`. 
+5. https://mathworld.wolfram.com/Derivation.html
+6. https://www.vocabulary.com/dictionary/derivation [definition #2]
