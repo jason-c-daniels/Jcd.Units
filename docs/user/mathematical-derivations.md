@@ -2,26 +2,28 @@
 
 Within this file you'll find the mathematical derivations used to transform various unit of measure transformations into the library's standard form.
 
+The intended audience for this document is a software engineer needing to accomodate a new unit conversion. The reader must be familiar with basic arithmetic and algebraic concepts.
+
+The following sections largely build on each other and are intended to be read in order.
+
 ## The Unit Conversion Formula
 
 This library's formula for converting to the base unit from the source unit is defined as:
-`BaseUnitValue = (DerivedUnit + Offset) × Coefficient`
+`BaseUnit = (DerivedUnit + Offset) × Coefficient`
 
-In strictly mathematical terms this is:
+As a math function this is expressed as follows:
 
 `f(x) = (x + c) ⋅ a` <sup>1</sup>
 
 Where:
 - `f(x)` is the base unit. (This is the function that converts **to** the base unit from the derived unit.)
 - `x` is the derived unit value.
-- `a` is the coefficient.
-- `c` is the offset.
+- `a` is the coefficient, a constant.
+- `c` is the offset, a constant.
 
-Both `a` and `c` are constants.
+Functions which don't already match this representation must be reworked so that an appropriate `a` and `c` can be selected to yield an equivalent function. The following sections provide guidance for how to select an appropriate `a` and `c` for some well known conversion methods.
 
-Functions which don't already match this representation must be reworked so that an appropriate `a` and `c` can be selected to yield an equivalent function.
-
-### Remember!
+### Reminder
 
 When reading below keep the following substitutions in mind:
 
@@ -46,7 +48,7 @@ This makes `0` the offset (`c`) and the formula's original coefficient is used f
 
 Formulas only using an offset are already in a compatible form. They're typically written as follows:
 
-`f(x) = x + c` 
+`f(x) = x + c`
 
 This is the same as: 
 
@@ -82,60 +84,6 @@ This is remarkably close to the desired formula:
 
 All we need to do is define `c = -c₀` and we have the necessary constants.
 
-## Delisle Type Formulas
-
-The typical formula for converting from Delisle to Celsius is:
-
-`°C =  100 - °De ⋅ 2/3`
-
-The generic form for this formula is: 
-
-`f(x) = c₀ - x ⋅ a₀`
-
-The constants in this formula clearly cannot be directly used, and due to that fact, they've been given a subscript of zero to differentiate them from the target constants. <sup>2</sup>
-
-As a reminder the library's conversions formula looks like:
-
-`f(x) = (x - c) ⋅ a`
-
-To calculate the new constants we have to rearrange the formula such that it more closely resembles the target formula.
-
-1. First move the negative sign to `a₀`:
-  
-   `f(x) = c₀ + x ⋅ -a₀`
-
-2. Reorder the terms slighly:
-
-   `f(x) = x ⋅ -a₀ + c₀`
-
-3. Create an equivalent function that divides by the negated coefficient:
-
-   `f(x) = ((x ⋅ -a₀ + c₀) ÷ -a₀) ⋅ -a₀`
-
-4. Distribute the negated coefficient division:
-
-   `f(x) = (x ⋅ -a₀ ÷ -a₀ + c₀ ÷ -a₀) ⋅ -a₀`
-
-5. Remove the canceled term:
-
-   `f(x) = (x + c₀ ÷ -a₀) ⋅ -a₀`
-
-6. The above looks similar to the target formula:
-
-   `f(x) = (x + c) ⋅ a`
-
-7. To get the correct values for `a` and `c` we define them as follows:
-   - `a = -a₀`
-   - `c = c₀ ÷ -a₀`
-   
-### A Delisle-Like Formula Variant
-
-A variation of the Delisle style conversions may also appear as:
-
-`f(x) = -a₀ ⋅ x + c₀`
-
-In this case we have a negative coefficient of: `-a₀`. We extract `a₀` and `c₀` directly from the formula and use the calculations at the end of the prior section to compute `a` and `c`.
-
 ## Coefficient With Offset Applied After Multiplication
 
 As the header suggest this function is as follows:
@@ -154,11 +102,66 @@ As the header suggest this function is as follows:
 
    `f(x) = (x + c₀ ÷ a) ⋅ a`
 
-4. From the above we see that `a` remains unchange and `c = c₀ ÷ a`
+4. From the above we see that `a` remains unchange and 
 
-Note: This is nearly the same as the Delisle variant formula and the end result is functionally the same if we replaced `-a₀` in that formula, with just `a`.
+   `c = c₀ ÷ a`
+
+## Delisle to Celsius Type Formula
+
+The typical formula for converting from Delisle to Celsius is:
+
+`°C =  100 - °De ⋅ 2/3`
+
+The generic form for this formula is: 
+
+`f(x) = c₀ - x ⋅ a₀`
+
+To get the values needed to we first rearrange the terms a little and we'll see a familiar formula, not quite the target one, but it gets us where we need to go.
+
+1. Turn subtraction into addition.
+   
+   `f(x) = c₀ + -x ⋅ a₀` 
+
+2. Attach the minus sign to the coefficient `a₀` giving `-a₀`
+
+   `f(x) = c₀ + x ⋅ -a₀`
+
+3. Reorder the multiplication so that it resembles the starting formula from the prior section _Coefficient With Offset Applied After Multiplication_.
+
+   `f(x) = -a₀ ⋅ x + c₀`
+
+4. Define `a` to be `-a₀` and we have the exact same formula as in _Coefficient With Offset Applied After Multiplication_. 
+
+   `f(x) = a ⋅ x + c₀`
+
+The rest of the steps, and therefore the result are same as using the method laid out in _Coefficient With Offset Applied After Multiplication_.
+
+From this we know that:
+
+- `a = -a₀`
+- `c = c₀ ÷ a`
+
+## The Input Unit is Subtracted From a Constant
+
+These conversions look like the following:
+
+`f(x) = c₀ - x`
+
+This makes these a minor variation of the Delisle conversions where `a₀ = 1`:
+
+`f(x) = c₀ - x ⋅ 1`
+
+From the Delisle type conversion we know:
+
+- `a = -a₀`
+- `c = c₀ ÷ a`
+
+Substituting values this gives us:
+
+- `a = -1`
+- `c = c₀ ÷ -1` which is also `c = -c₀`
 
 ## End Notes
 
-1. The dot operator used instead of cross operator to denote multiplication. This is to prevent readers confusing the `×` operator with the variable `x`. 
-2. The subscript of zero is intended to preserve the conceptual relationship between the destination constants and the source constants.
+1. The dot operator is used instead of cross operator to denote multiplication in order to prevent confusing `×` with the variable `x`.
+2. The subscript of zero is intended to preserve the conceptual relationship between the destination constants (no subscript) and the source constants (with subscript).
