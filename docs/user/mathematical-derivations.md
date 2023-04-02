@@ -74,7 +74,7 @@ Formulas only using an offset are already in a compatible form. They're typicall
 
 `f(x) = x + c`
 
-This is the same as: 
+This is the same as:
 
 `f(x) = 1 ⋅ (x + c)`
 
@@ -82,7 +82,7 @@ This makes `1` the coefficient (`a`) and the original formula's offset is `c`.
 
 ### With Subtraction Instead of Addition
 
-Alternately these formulas may be written as: 
+Alternately these formulas may be written as:
 
 `f(x) = x - c₀`
 
@@ -128,7 +128,7 @@ We use the following steps to determine the correct value for `c`. The value of 
 
    `f(x) = (x + c₀ ÷ a) ⋅ a`
 
-4. From the above we see that `a` remains unchange and 
+4. From the above we see that `a` remains unchange and that:
 
    `c = c₀ ÷ a`
 
@@ -192,6 +192,6 @@ Substituting values this gives us:
 1. The dot operator is used instead of cross operator to denote multiplication in order to prevent confusing the operator `×` with the variable `x`.
 2. The subscript of zero is intended to preserve the conceptual relationship between the destination constants (no subscript) and the source constants (with subscript).
 3. The way the code and data files are structured relies on expressing conversions in terms of converting to the base unit from the derived unit. This is an essential characteristic, and the motivation for structuring the mathematical derivations in the selected manner.
-4. The definition in use is the first definition given by the Wolfram website:<sup>5</sup> _"A derivation is a sequence of steps, logical or computational, from one result to another."_ Also the general English defintion applies<sup>6</sup>: _"The act of deriving something or obtaining something from a source or origin."_, in this case `a` and `c`. 
+4. The definition of _derivation_ in use is the first definition given by the Wolfram website:<sup>5</sup> _"A derivation is a sequence of steps, logical or computational, from one result to another."_ Also the general English defintion applies<sup>6</sup>: _"The act of deriving something or obtaining something from a source or origin."_, in this case `a` and `c` from `a₀` and `c₀` respectively.
 5. https://mathworld.wolfram.com/Derivation.html
 6. https://www.vocabulary.com/dictionary/derivation [definition #2]
