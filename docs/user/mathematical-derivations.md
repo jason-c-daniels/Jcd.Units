@@ -106,7 +106,7 @@ This is remarkably close to the desired formula:
 
 `f(x) = (x + c) ⋅ a`
 
-All we need to do is define `c = -c₀` and we have the necessary constants.
+All we need to do is define `c = -c₀` and we have the necessary constants as we already know `a`.
 
 ## Coefficient With Offset Applied After Multiplication
 
