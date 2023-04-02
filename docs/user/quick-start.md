@@ -13,6 +13,35 @@
   ```xml
   <PackageReference Include="Jcd.Units" Version="<version number goes here>" />
   ```
+## Using The Correct Namespaces
+- Use one of the `Jcd.Units.UnitsOfMeasure` namespaces to use predefined units of measure.
+  ```csharp
+  // Use just SI units.
+  using Jcd.Units;
+  using Jcd.Units.UnitsOfMeasure.SI;
+
+  ```
+- Alias namespaces to use more than one system of measure.
+  
+  As it turns out, the nested namespaces don't resolve just by using `Jcd.Units.UnitsOfMeasure`. So you can't reference a centimeter with: `SI.Lengths.Centimeter` without first aliasing the namespace.
+
+  To aid you, here's a full list of usings and aliases I like to use in order to mitigate this limitation of C#:
+
+  ```csharp
+  using Jcd.Units;
+  using Jcd.Units.UnitsOfMeasure;
+  using Astronomical = Jcd.Units.UnitsOfMeasure.Astronomical;
+  using Data = Jcd.Units.UnitsOfMeasure.Data;
+  using Imperial = Jcd.Units.UnitsOfMeasure.Imperial;
+  using SI = Jcd.Units.UnitsOfMeasure.SI;
+  using TheoreticalPhysics = Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
+  using USCustomary = Jcd.Units.UnitsOfMeasure.USCustomary;
+  using USSurvey = Jcd.Units.UnitsOfMeasure.USSurvey;
+
+  // use them in code
+  var meter=1.As(SI.Lengths.Meter);
+  var foot=1.As(USCustomary.Lengths.Foot);
+  ```
 
 ## Specific Usages
 - Create a quantity from a specific pre-defined unit of measure: 
@@ -66,7 +95,7 @@
   GlobalUnitSelectionStrategy.ForComparison = SelectLeftUnit.Instance; 
   ```
 
-- Globally register a unit of measure selection strategy for arthmetic.
+- Globally register a unit of measure selection strategy for arthimetic operations.
   ```csharp
   // use a predefined singleton that always returns the left unit. The right side is converted to these units before an arithmetic operation is performed. This affects all units types.
   GlobalUnitSelectionStrategy.ForComparison = SelectLeftUnit.Instance; 
@@ -102,20 +131,3 @@
     public static MyUnitOfMeasure OneTenthOfUnit2 = new ("OneTenthOfUnit2", "u2/10",Unit2,0.1);
   }
   ```
-
-## Namespace Aliasing
-
-As it turns out, the nested namespaces don't resolve just by using `Jcd.Units.UnitsOfMeasure`. So you can't reference a centimeter with: `SI.Lengths.Centimeter` without first aliasing the namespace.
-
-To aid you, here's a full list of usings and aliases I like to use in order to mitigate this limitation of C#:
-
-```csharp
-using Jcd.Units.UnitsOfMeasure;
-using Astronomical = Jcd.Units.UnitsOfMeasure.Astronomical;
-using Data = Jcd.Units.UnitsOfMeasure.Data;
-using Imperial = Jcd.Units.UnitsOfMeasure.Imperial;
-using SI = Jcd.Units.UnitsOfMeasure.SI;
-using TheoreticalPhysics = Jcd.Units.UnitsOfMeasure.TheoreticalPhysics;
-using USCustomary = Jcd.Units.UnitsOfMeasure.USCustomary;
-using USSurvey = Jcd.Units.UnitsOfMeasure.USSurvey;
-```

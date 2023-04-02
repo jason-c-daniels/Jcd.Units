@@ -10,5 +10,6 @@ simplify some of the concerns surrounding unit of measure conversions, especiall
 non SI or Metric units. For example converting from degrees Rankine (`°K = °R × 5/9`) to degrees Fahrenheit (`°C = (°F - 32) × 5/9`) or US Customary quarts (`946.352946 mL`) to British Imperial quarts (`1136.5225 mL`).
 
 ## Table of Contents
-- [Quick Facts](quick-facts.md)
-- [Quick Start](quick-start.md)
+- [Quick Facts](quick-facts.md) - Covers some basic facts about the library.
+- [Quick Start](quick-start.md) - Is essentially a cheat sheet for select use cases.
+- [Mathematical Derivations For Selecting A Coefficient and Offset](mathematical-derivations.md) - Walks the reader through selecting a proper Coefficient and Offset when faced with a conversion formula belonging to one of several well known forms.
