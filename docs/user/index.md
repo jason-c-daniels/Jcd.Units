@@ -5,6 +5,7 @@ This library provide type-safe unit of measure aware quantity arithmetic, compar
 The intended audience for this library, and this manual, are software engineers who need or want to simplify some of the concerns surrounding unit of measure conversions, especially when dealing with non-SI/Metric units. For example converting from degrees Rankine (`°K = °R × 5/9`) to degrees Fahrenheit (`°C = (°F - 32) × 5/9`) or US Customary quarts (`946.352946 mL`) to Imperial quarts (`1136.5225 mL`).
 
 ## Table of Contents
+
 - [Quick Start](quick-start.md)
 - [Quick Facts](quick-facts.md)
 - [Ch 1. Getting Started](ch1/index.md)
