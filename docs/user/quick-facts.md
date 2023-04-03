@@ -8,9 +8,9 @@
   - **Notation Usage:** While not the typical representation for some unit conversions, this documentation will use this notation as a matter of consistency, when giving specific examples. 
     - As well, when certain terms have no impact (e.g. Offset = 0 or Coefficient = 1.0) they are removed from documentation. 
     - So a formula for converting among SI lengths could look like the following: `Meter = 1000 × Kilometer`.
-    - While degrees Delisle would resemble `°C = (°De + -150) × -2/3`, which is typically written `100 - °De × 2/3`.
+    - While degrees Delisle would resemble `°C = (°De + -150) × -2/3`, which is typically written `100 - °De × 2/3`. (See [Mathematical Derivations](mathematical-derivations.md) as to why these are equivalent functions.)
 - This library only supports **simple** unit of measure handling. It doesn't synthesize new units, nor does it perform certain well known unit type transformations (e.g. Area = Length1 * Length2). A detailed explanation is given later in the user manual.
-- The data is stored in memory as an IEEE754 double precision floating point number. These come with some concerns relative to comparisons and arithmetic. These are discussed in detail, later in the manual.
+- The data is stored in memory as an IEEE754 double precision floating point number. These come with some concerns relative to comparisons and arithmetic. These are discussed in [Chapter 4](ch4/index.md).
 - **Do not** use the quantity type instances within algorithms requiring extremely high performance. This library is an ease of use enhancement, and is not as fast as pure double comparisons and arithmetic.
 - **Do not** use the quantity type instances within algorithms requiring extremely high precision. In addition to using the IEEE754 double, which has precision issues of its own, these are compounded by having to, in the worst case, perform one each of addition, subtraction, multiplication and division, BEFORE being able to operate on two numbers. This creates cumulative error. This is unavoidable.
 - This library takes no opinion on quantity parsing or string localization. Both of these are up to the consuming application to implement. 

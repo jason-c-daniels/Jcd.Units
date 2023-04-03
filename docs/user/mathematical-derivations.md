@@ -1,4 +1,4 @@
-# Mathematical Derivations
+# Mathematical Derivations For Selecting A Coefficient and Offset
 
 Within this file you'll find the mathematical derivations<sup>4</sup> used to transform various unit of measure formulas into the library's standard formula. This is a matter of calculating an `Offset` and `Coefficient`.
 
