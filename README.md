@@ -3,8 +3,8 @@
 A *dotnet 6* library that provides a set of utility classes and compile time safety
 for managing unit of measure bound quantities.
 
-For example, you cannot meaningfully compare a Duration and an Length. The library
-prevents this.
+For example, you cannot meaningfully compare a `Duration` and an `Length`. The types
+in this library prevents direct comparisons on this sort.
 
 ## Feature Overview
 
