@@ -2,9 +2,13 @@
 
 ## Installing the Library
 
-Before you can use the library you need to install the _NuGet_ package as a dependency of the project where it will be used. If you're using an IDE like `JetBrains Rider` or `Visual Studio`, you can install it directly through your IDE. Alternately you can use one of the three following methods.
+Before you can use the library you need to install the _NuGet_ package as a dependency of the project where it will be
+used. If you're using an IDE like `JetBrains Rider` or `Visual Studio`, you can install it directly through your IDE.
+Alternately you can use one of the three following methods.
 
-**Reminder:** Since this library's version numbering adheres to [Semantic Versioning 2.0](https://semver.org/), Pre-1.0 releases, and versions with a pre-release suffix (-alpha...etc.) have an unstable public API. Expect changes from build to build and be prepared to have to rework your code when upgrading major versions.
+**Reminder:** Since this library's version numbering adheres to [Semantic Versioning 2.0](https://semver.org/), Pre-1.0
+releases, and versions with a pre-release suffix (-alpha...etc.) have an unstable public API. Expect changes from build
+to build and be prepared to have to rework your code when upgrading major versions.
 
 ### Using the `dotnet` CLI
 
@@ -32,7 +36,8 @@ NuGet\Install-Package Jcd.Units -Version <version number goes here>
 2. In the appropriate `<ItemGroup>` element within your `csproj` file add the following line.
 
 ```xml
-<PackageReference Include="Jcd.Units" Version="<version number goes here>" />
+
+<PackageReference Include="Jcd.Units" Version="<version number goes here>"/>
 ```
 
 3. Save your changes to the file.
@@ -40,13 +45,18 @@ NuGet\Install-Package Jcd.Units -Version <version number goes here>
 
 ## Using the Correct Namespaces
 
-Before you can begin using the various units of measure you need to reference the correct namespaces. Each source code file that will use `Quantity<TUnit>`, or the global usings file must, at a minimum, contain `Jcd.Units` in the usings statements block.
+Before you can begin using the various units of measure you need to reference the correct namespaces. Each source code
+file that will use `Quantity<TUnit>`, or the global usings file must, at a minimum, contain `Jcd.Units` in the usings
+statements block.
 
-For most basic usage scenarios you will probably also need to add one of the subnamespaces in `Jcd.Units.UnitsOfMeasure` to the usings block as well.
+For most basic usage scenarios you will probably also need to add one of the subnamespaces in `Jcd.Units.UnitsOfMeasure`
+to the usings block as well.
 
-If you plan on creating your own units of measure based on the built-in unit of measure types provided with this library you will need to use the `Jcd.Units.UnitTypes` namespace.
+If you plan on creating your own units of measure based on the built-in unit of measure types provided with this library
+you will need to use the `Jcd.Units.UnitTypes` namespace.
 
-There are other subnamespaces within `Jcd.Units` and their use will be discussed in [Chapter 3 - Advanced Usage](../ch3/index.md).
+There are other subnamespaces within `Jcd.Units` and their use will be discussed
+in [Chapter 3 - Advanced Usage](../ch3/index.md).
 
 ### Example 1: Using Only Predefined SI Units of Measure
 
@@ -63,13 +73,18 @@ using Jcd.Units.UnitTypes;
 using Jcd.Units.UnitsOfMeasure.SI;
 ```
 
-Refer to the [API Documentation](../../api/Jcd.Units.md), which also gives namespace, or [Index 1 - Built-In Units of Measure](../index1/index.md) for a list of the built in units.
+Refer to the [API Documentation](../../api/Jcd.Units.md), which also gives namespace,
+or [Index 1 - Built-In Units of Measure](../index1/index.md) for a list of the built in units.
 
 ## Using More Than One System of Measure
 
-Nested namespaces don't resolve just by using `Jcd.Units.UnitsOfMeasure`. So, for example, you cannot reference a centimeter with: `SI.Lengths.Centimeter` by only using the `Jcd.Units.UnitsOfMeasure`. You need to either alias the SI subnamespace or use it directly and only reference the `Lengths` class.
+Nested namespaces don't resolve just by using `Jcd.Units.UnitsOfMeasure`. So, for example, you cannot reference a
+centimeter with: `SI.Lengths.Centimeter` by only using the `Jcd.Units.UnitsOfMeasure`. You need to either alias the SI
+subnamespace or use it directly and only reference the `Lengths` class.
 
-In some cases using more than one of the subnamespaces will be necessary. For example, converting between SI lengths and US Customary lengths. However, the naming convention followed for the generated code causes class name clashes. To work around this you will need to alias the referenced namespace.
+In some cases using more than one of the subnamespaces will be necessary. For example, converting between SI lengths and
+US Customary lengths. However, the naming convention followed for the generated code causes class name clashes. To work
+around this you will need to alias the referenced namespace.
 
 To aid in this task, here's a full list of usings with example aliases you can use.
 

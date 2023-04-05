@@ -3,7 +3,7 @@ indent_style = space
 indent_size = 3
 
 # Microsoft .NET properties
-csharp_preferred_modifier_order = protected, private, public, internal, file, new, sealed, override, virtual, abstract, static, readonly, extern, unsafe, volatile, async, required:suggestion
+csharp_preferred_modifier_order = protected, private, public, internal, new, sealed, override, virtual, abstract, static, readonly, extern, unsafe, volatile, async
 csharp_preserve_single_line_blocks = true
 csharp_style_var_elsewhere = true:suggestion
 csharp_style_var_for_built_in_types = true:suggestion

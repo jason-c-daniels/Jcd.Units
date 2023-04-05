@@ -1,6 +1,7 @@
 ﻿# User Manual
 
 ## Table of Contents
+
 - [Introduction](introduction.md)
 - [Ch 1. Getting Started](ch1/index.md)
 - [Ch 2. Basic Usage](ch2/index.md)
