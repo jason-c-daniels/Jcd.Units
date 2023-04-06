@@ -18,9 +18,8 @@ arithmetic operations on itself and against `doubles`. A `Quantity<TUnit>` is al
 
 ### Ease of Use Methods and Extensions
 
-A number of extension methods have been provided to easily convert integral data
-and common types into instances of `Quantity<TUnit>`. With the exception of `ToTimeStamp`
-(Which only operates on a `Duration`) they are all called `As`.
+A number of extension methods have been provided to convert integral data types
+into instances of `Quantity<TUnit>`. These extension methods are all named `As`.
 
 As well, `Quantity<TUnit>` provides a unit of measure conversion called `To`
 which converts units within the same domain (e.g. Durations).
