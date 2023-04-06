@@ -218,5 +218,5 @@ var area2 = (l1 * l2.To(cm)).ReplaceUnit(Areas.SquareCentimeter);
 [![MyGet](https://img.shields.io/myget/jason-c-daniels/v/Jcd.Units?logo=nuget)](https://www.myget.org/feed/jason-c-daniels/package/nuget/Jcd.Units)
 [![Nuget](https://img.shields.io/nuget/v/Jcd.Units?logo=nuget)](https://www.nuget.org/packages/Jcd.Units)
 
-[![API Docs](https://img.shields.io/badge/Read-The%20API%20Documentation-blue?style=for-the-badge)](https://github.com/jason-c-daniels/Jcd.Units/blob/main/docs/api/Jcd.Units.md)
+[![API Docs](https://img.shields.io/badge/Read-The%20API%20Documentation-blue?style=for-the-badge)](docs/api/Jcd.Units.md)
 [![API Docs](https://img.shields.io/badge/Read-The%20User%20Manual-green?style=for-the-badge)](docs/user/index.md)
