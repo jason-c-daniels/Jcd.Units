@@ -257,4 +257,4 @@ Substituting values, this gives us:
    this case $a$ and $c$ from $a_0$ and $c_0$ respectively.
 5. https://mathworld.wolfram.com/Derivation.html
 6. https://www.vocabulary.com/dictionary/derivation [definition #2]
-7. https://mathvault.ca/hub/higher-math/math-symbols/algebra-symbols/ Gives a list of many standard algrbraic symbols.
+7. https://mathvault.ca/hub/higher-math/math-symbols/algebra-symbols/ Gives a list of many standard algebraic symbols.
