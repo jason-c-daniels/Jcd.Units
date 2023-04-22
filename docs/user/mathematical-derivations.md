@@ -18,7 +18,7 @@ relationships. $c$ here is quite explicitly **NOT** the speed of light in a vacu
 Using terms from the library's source code the formula used for converting to the base unit from the source unit is
 effectively defined as:
 
-`BaseUnit = (DerivedUnit + Offset) ⋅ Coefficient` <sup>1, 3</sup>
+`BaseUnit = Coefficient ⋅ (DerivedUnit + Offset)` <sup>1, 3</sup>
 
 As a math function this is expressed as follows:
 
