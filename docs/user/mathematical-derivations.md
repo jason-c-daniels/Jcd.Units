@@ -7,10 +7,11 @@ from the newly defined (derived) unit of measure, to the unit of measure it's be
 For example: a megaton (mass) is 1000 kilotons. This would give a coefficient of 1000, an offset of 0 for a base 
 unit of measure of kiloton.
 
-The intended audience for this document are software engineers needing to accomodate a new unit conversion. _The reader
-must be familiar with basic arithmetic, algebraic concepts and standard algebraic notation<sup>7</sup>.
-(e.g. Using $a$ as a coefficient, and $c$ as an offset, as well as subscripts to denote relationships. $c$ here is 
-quite explicitly NOT the speed of light in a vacuum. Don't mistake it for that.) 
+The intended audience for this document are software engineers needing to accomodate a new unit conversion. 
+
+_NOTE: The reader must be familiar with basic arithmetic, algebraic concepts and standard algebraic 
+notation<sup>7</sup>. (e.g. Using $a$ as a coefficient, and $c$ as an offset, as well as subscripts to denote 
+relationships. $c$ here is quite explicitly **NOT** the speed of light in a vacuum. Don't mistake it for that.)_
 
 ## The Unit Conversion Formula
 
