@@ -1,34 +1,30 @@
 # Mathematical Derivations For Selecting A Coefficient and Offset
 
 Within this file you'll find the mathematical derivations<sup>4</sup> used to transform various unit of measure formulas
-into the library's standard formula. This is a matter of calculating a suitable `Offset` and `Coefficient` to convert
-from the newly defined (derived) unit of measure, to the unit of measure it's being based on (base).
+into the library's standard formula. This is a matter of calculating a suitable `Offset` and `Coefficient` to convert 
+from the derived unit of measure, to the base unit of measure.
 
-For example: a megaton (mass) is 1000 kilotons. This would give a coefficient of 1000, an offset of 0 for a base 
-unit of measure of kiloton.
+The intended audience for this document are software engineers needing to accomodate a new unit conversion. _The reader
+*must be familiar with* algebraic concepts, creating [equivalent functions](https://www.thoughtco.com/understanding-equivalent-equations-4157661), 
+and standard algebraic notation<sup>7</sup>._ 
 
-The intended audience for this document are software engineers needing to accomodate a new unit conversion. 
-
-_NOTE: The reader must be familiar with basic arithmetic, algebraic concepts and standard algebraic 
-notation<sup>7</sup>._ (e.g. Using $a$ as a coefficient, and $c$ as an offset, as well as subscripts to denote 
-relationships. $c$ here is quite explicitly **NOT** the speed of light in a vacuum. Don't mistake it for that.)
+NOTE: The symbols used in this document are all standard algebraic symbols and may have a different meaning in a 
+different context. (e.g. $c$ in physics means the speed of light in a vaccuum. This is not a physics document, so 
+leave that meaning behind.) 
 
 ## The Unit Conversion Formula
 
 Using terms from the library's source code the formula used for converting to the base unit from the source unit is
 effectively defined as:
 
-`BaseUnit = Coefficient ⋅ (DerivedUnit + Offset)` <sup>1, 3</sup>
+`BaseUnit = Coefficient ⋅ (DerivedUnit + Offset)` <sup>1, 3, 8</sup>
 
-As a math function this is expressed as follows:
+As a math function this is expressed as follows<sup>9</sup>:
 
 $f(x) = a⋅(x + c)$
 
-*NOTE: This representation was selected because it simplified a couple of internal processes that allow for defining
-units of measure, nearly arbitrarilty, in terms of each other.*
-
-Where:
-
+FORMULA NOTES:
+- This is the _standard formula_ for this library.
 - $f(x)$ is the function that converts **to** the base unit from the derived unit.<sup>3</sup>
 - $x$ is the value represented in the derived unit of measure.
 - $a$ is the coefficient, a constant.
@@ -36,10 +32,23 @@ Where:
 
 Functions which don't already match this representation must be reworked so that an appropriate $a$ and $c$ can be
 selected to yield an [equivalent function](https://www.thoughtco.com/understanding-equivalent-equations-4157661). 
-The following sections provide guidance for how to select an appropriate $a$ and $c$ for some well known conversions 
-formulas.
 
-The following sections largely build on each other and are intended to be read in order.
+To that end, the following sections:
+1. Provide guidance for how to select an appropriate $a$ and $c$ for some well known 
+   conversions formulas.
+2. Walk the reader through, step by step, how to rearrange these formulas, to arrive at the
+   calculations for $a$ and $c$ given a source formula.
+3. Build on each other and are intended to be read in order.
+
+### Notation For Starting Formulas
+
+When walking the reader through the derivations the _starting formula_ for a type of conversion is provided. The 
+following notation is used in the _starting formula_:
+
+- When the coefficient in the starting formula will be unaltered, it's denoted as just $a$.
+- When the coefficient in the starting formula will be altered to use with the standard formula it's denoted as  $a_0$.
+- When the offset in the starting formula will be unaltered, it's denoted as just $c$.
+- When the offset in the starting formula will be altered to use with the standard formula it's denoted as $c_0$.
 
 ### Reminder
 
@@ -49,18 +58,8 @@ When reading below keep the following substitutions in mind:
 - $x$ is the same as `DerivedUnit` above.
 - $c$ is the same as `Offset` above.
 - $a$ is the same as `Coefficient` above.
-
-### Notation For Original Formulas
-
-To walk the reader through the derivations the original formula for a potential conversion is provided. The following
-notation will be used in the formula:
-
-- When the coefficient in the original formula will be unaltered, it's denoted as just $a$, in the original formula.
-- When the coefficient in the original formula will be altered to use with the standard formula it's denoted as 
-  $a_0$, in the original formula.
-- When the offset in the original formula will be unaltered, it's denoted as just $c$, in the original formula.
-- When the offset in the original formula will be altered to use with the standard formula it's denoted as $c_0$, in the
-  original formula.
+- $a_0$ is a coefficient in the starting formula, and will be used to compute $a$ and possibly $c$.
+- $c_0$ is an offset in the starting formula, and will be used to compute $c$.
 
 ## Simple Coefficient Formulas
 
@@ -258,3 +257,5 @@ Substituting values, this gives us:
 5. https://mathworld.wolfram.com/Derivation.html
 6. https://www.vocabulary.com/dictionary/derivation [definition #2]
 7. https://mathvault.ca/hub/higher-math/math-symbols/algebra-symbols/ Gives a list of many standard algebraic symbols.
+8. This representation was selected because it simplified a couple of internal processes that allow for defining
+   units of measure, nearly arbitrarilty, in terms of each other.
