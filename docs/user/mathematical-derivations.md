@@ -8,10 +8,6 @@ The intended audience for this document are software engineers needing to accomo
 *must be familiar with* algebraic concepts, creating [equivalent functions](https://www.thoughtco.com/understanding-equivalent-equations-4157661), 
 and standard algebraic notation<sup>7</sup>._ 
 
-NOTE: The symbols used in this document are all standard algebraic symbols and may have a different meaning in a 
-different context. (e.g. $c$ in physics means the speed of light in a vaccuum. This is not a physics document, so 
-leave that meaning behind.) 
-
 ## The Unit Conversion Formula
 
 Using terms from the library's source code the formula used for converting to the base unit from the source unit is
@@ -24,7 +20,7 @@ As a math function this is expressed as follows<sup>9</sup>:
 $f(x) = a⋅(x + c)$
 
 FORMULA NOTES:
-- This is the _standard formula_ for this library.
+- This is the _standard formula_ for this library. In otherwords, this is the function used by this library.
 - $f(x)$ is the function that converts **to** the base unit from the derived unit.<sup>3</sup>
 - $x$ is the value represented in the derived unit of measure.
 - $a$ is the coefficient, a constant.
@@ -143,7 +139,7 @@ This is remarkably close to the desired formula:
 
 $f(x) =  a⋅(x + c)$
 
-Once we change subtraction to adding a negative we effectively get to target formula:
+When we change subtraction to addition of a negative we effectively get to the _standard formula_:
 
 $f(x) = a⋅(x + -c_0)$
 
@@ -193,7 +189,7 @@ The generic form for this formula is:
 $f(x) = c_0 - x⋅a_0$
 
 To get the values needed we first rearrange the terms a little in order to see a familiar structure. It's not quite the
-target formula, but it is one we've covered above.
+_standard formula_, but it is one we've covered above.
 
 1. Turn subtraction into addition.
 
@@ -257,5 +253,12 @@ Substituting values, this gives us:
 5. https://mathworld.wolfram.com/Derivation.html
 6. https://www.vocabulary.com/dictionary/derivation [definition #2]
 7. https://mathvault.ca/hub/higher-math/math-symbols/algebra-symbols/ Gives a list of many standard algebraic symbols.
+   - The symbols used in this document are all standard algebraic symbols and may have a different meaning in a 
+     different context.
+   - For example: 
+     - $c$ in physics means the speed of light in a vaccuum. This is not a physics paper, so leave
+       that meaning behind. 
+     - In this document, $c$ is an arbitrary constant one extracts or computes from a unit of measure conversion 
+       formula. This is consistent with standard algebraic notation as linked above.
 8. This representation was selected because it simplified a couple of internal processes that allow for defining
    units of measure, nearly arbitrarilty, in terms of each other.
