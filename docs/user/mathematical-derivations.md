@@ -15,7 +15,7 @@ effectively defined as:
 
 `BaseUnit = Coefficient ⋅ (DerivedUnit + Offset)` <sup>1, 3, 8</sup>
 
-As a math function this is expressed as follows<sup>9</sup>:
+As a math function this is expressed as follows<sup>8</sup>:
 
 $f(x) = a⋅(x + c)$
 
@@ -223,7 +223,7 @@ These are a minor variation of the _Subtract the Result of Multiplication from t
 
 $f(x) = c_0 - x⋅1$
 
-From the Delisle type conversion we know:
+From the those conversions we know:
 
 - $a = -a_0$
 - $c = \frac{c_0}{-a_0}$
@@ -235,21 +235,29 @@ Substituting values, this gives us:
 
 ## Using the Results
 
-To verify just the math, take the standard formula and substitue the actual
-values you got for $a$ and $c$ at the end of the steps you executed.
-
-This is your equivalent function.
+To verify the math, take the standard formula and substitue the actual
+values you got for $a$ and $c$ and compare the function results.
 
 Delisle Example:
 
-The Delise to Celcius conversion is: $°C = 100 - °De⋅\frac{2}{3}$
+The Delise to Celcius conversion is: 
 
-Which expressed as a proper function is: $f^{ °De } ^{ to } ^{ °C }(x) = 100 - x⋅\frac{2}{3}$
+$°C = 100 - °De⋅\frac{2}{3}$
+
+Expressed as a function:
+
+Where $x$ is in °De
+
+$f(x) = 100 - x⋅\frac{2}{3}$
+
+From that representation we can extract our terms:
 
 - $a_0 = \frac{2}{3}$
 - $c_0 = 100$
+
+Using the section _Subtract the Result of Multiplication from the Constant_ we see that:
 - $a = -a_0 = -\frac{2}{3}$
-- $c = \frac{c_0}{-a_0} = \frac{100}{-\frac{2}{3}} = 100 ⋅-\frac{3}{2} = -150$.
+- $c = \frac{c_0}{-a_0} = \frac{100}{-\frac{2}{3}} = -\frac{100⋅3}{2} = -150$.
 
 Substituting values in the standard formula gives:
 
