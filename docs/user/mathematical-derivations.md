@@ -1,4 +1,4 @@
-# Mathematical Derivations For Selecting A Coefficient and Offset
+# Mathematical Derivations For Selecting a Coefficient and Offset
 
 Within this file you'll find the mathematical derivations<sup>4</sup> used to transform various unit of measure formulas
 into the library's standard formula. This is a matter of calculating a suitable `Offset` and `Coefficient` to convert 
@@ -125,15 +125,16 @@ This gives us:
 - $a = 1$
 - $c = -c_0$
 
-## Fahrenheit-Style Conversion Formulas
+## Standard Forumla With Constant Subtracted
 
-The formula for converting from Fahrenheit to Celsius is:
+These formulas look like the following:
+
+$f(x) = a⋅(x - c_0)$
+
+NOTE: The formula for converting from Fahrenheit to Celsius is this type of formula:
 
 $°C = \frac{5}{9}⋅(°F - 32)$
 
-In generic terms this is:
-
-$f(x) = a⋅(x - c_0)$
 
 This is remarkably close to the desired formula:
 
@@ -178,15 +179,15 @@ This gives us:
 - $a$ is unaltered.
 - $c = \frac{c_0}{a}$
 
-## Delisle to Celsius Type Formula
-
-The typical formula for converting from Delisle to Celsius is:
-
-$°C = 100 - °De⋅\frac{2}{3}$
+## Subtract the Result of Multiplication from the Constant 
 
 The generic form for this formula is:
 
 $f(x) = c_0 - x⋅a_0$
+
+Converting from Delisle to Celsius is this type of formula:
+
+$°C = 100 - °De⋅\frac{2}{3}$
 
 To get the values needed we first rearrange the terms a little in order to see a familiar structure. It's not quite the
 _standard formula_, but it is one we've covered above.
@@ -195,22 +196,17 @@ _standard formula_, but it is one we've covered above.
 
    $f(x) = c_0 + -x⋅a_0$
 
-2. Attach the minus sign to the coefficient $a_0$ giving $-a_0$
+2. Attach the minus sign to the coefficient $a_0$, and place it to the left of $x$
 
-   $f(x) = c_0 + x⋅-a_0$
+   $f(x) = c_0 + -a_0⋅x$
 
-3. Reorder the multiplication so that it resembles the starting formula from the prior section _Coefficient With Offset
+3. Reorder the addition so the multiplication is on the left. We now essentially have _Coefficient With Offset
    Applied After Multiplication_.
 
    $f(x) = -a_0⋅x + c_0$
 
-4. Taking $-a_0$ as $a$ and $c_0$ as $c$ we se the exact same formula as _Coefficient With Offset Applied After
-   Multiplication_.
-
-   $f(x) = -a_0⋅x + c_0$
-
-The rest of the steps, and therefore the result, are same as using the method laid out in _Coefficient With Offset
-Applied After Multiplication_.
+Now do the steps for _Coefficient With Offset Applied After Multiplication_, substituting $-a_0$ for $a$ 
+and use $c_0$ as-is.
 
 This gives us:
 
@@ -223,19 +219,51 @@ These conversions look like the following:
 
 $f(x) = c_0 - x$
 
-These are a minor variation of the Delisle conversions where $a_0 = 1$:
+These are a minor variation of the _Subtract the Result of Multiplication from the Constant_ conversions where $a_0 = 1$:
 
 $f(x) = c_0 - x⋅1$
 
 From the Delisle type conversion we know:
 
 - $a = -a_0$
-- $c = \frac{c_0}{a}$
+- $c = \frac{c_0}{-a_0}$
 
 Substituting values, this gives us:
 
 - $a = -1$
 - $c = \frac{c_0}{-1}$ which is also $c = -c_0$
+
+## Using the Results
+
+To verify just the math, take the standard formula and substitue the actual
+values you got for $a$ and $c$ at the end of the steps you executed.
+
+This is your equivalent function.
+
+Delisle Example:
+$°C = 100 - °De⋅\frac{2}{3}$
+- $a_0 = \frac{2}{3}$
+- $c_0 = 100$
+- $a = -a_0 = \frac{-2}{3}$
+- $c = \frac{c_0}{-a_0} = \frac{100}{\frac{-2}{3}} = 100 ⋅\frac{-3}{2} = -150$.
+
+Substituting values in the standard formula gives:
+$f(x) = \frac{-2}{3}⋅(x + -150)$
+
+This function gives the exact same results as the original. This makes it an equivalent function.
+
+In code you'll create a new `UnitOfMeasure<T>` derived instance passing $a$ in for the `coefficient`
+and $c$ for the `offset` parameters.
+
+Delisle Example:
+```csharp
+/// <summary>
+/// degrees delisle defined such that: SI degrees celsius = (°De + -150) × -2.0/3.0.
+/// </summary>
+public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelsius, -2.0 / 3.0, -150, system: "");
+
+```
+
 
 ## End Notes
 
