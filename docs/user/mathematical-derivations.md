@@ -248,7 +248,7 @@ $°C = 100 - °De⋅\frac{2}{3}$
 - $c = \frac{c_0}{-a_0} = \frac{100}{-\frac{2}{3}} = 100 ⋅-\frac{3}{2} = -150$.
 
 Substituting values in the standard formula gives:
-$f(x) = -\frac{2}{3}⋅(x + -150)$
+$f(x) = -\frac{2}{3}⋅(x + -150)$ or $f(x) = -\frac{2}{3}⋅(x - 150)$ for a more naturally reading function. 
 
 This function gives the exact same results as the original. This makes it an equivalent function.
 
