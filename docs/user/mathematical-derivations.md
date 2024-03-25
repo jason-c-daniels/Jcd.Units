@@ -8,6 +8,9 @@ The intended audience for this document are software engineers needing to accomo
 *must be familiar with* algebraic concepts, creating [equivalent functions](https://www.thoughtco.com/understanding-equivalent-equations-4157661), 
 and standard algebraic notation<sup>7</sup>._ 
 
+NOTE: This library only handles units of measure conversions where the conversion function can be expressed as:
+$f(x) = a⋅x + c$.
+
 ## The Unit Conversion Formula
 
 Using terms from the library's source code the formula used for converting to the base unit from the source unit is
@@ -20,7 +23,8 @@ As a math function this is expressed as follows<sup>8</sup>:
 $f(x) = a⋅(x + c)$
 
 FORMULA NOTES:
-- This is the _standard formula_ for this library. In otherwords, this is the function used by this library.
+- This is the _standard formula_ for this library. In otherwords, this is the function used by this library. 
+  It was chosen to keep temperature conversions between Fahrenheit and Celcius as familiar looking as possible.
 - $f(x)$ is the function that converts **to** the base unit from the derived unit.<sup>3</sup>
 - $x$ is the value represented in the derived unit of measure.
 - $a$ is the coefficient, a constant.
@@ -35,6 +39,7 @@ To that end, the following sections:
 2. Walk the reader through, step by step, how to rearrange these formulas, to arrive at the
    calculations for $a$ and $c$ given a source formula.
 3. Build on each other and are intended to be read in order.
+4. Do not give advice for non-linear conversion functions. Those are not handled by this library.
 
 ### Notation For Starting Formulas
 
@@ -154,6 +159,8 @@ This gives us:
 As the header suggest this formula is as follows:
 
 $f(x) = a⋅x + c_0$
+
+NOTE: This is also the standard algebraic form for any linear function. 
 
 We use the following steps to determine the correct value for $c$. The value of $a$ in the original formula is already
 compatible.
