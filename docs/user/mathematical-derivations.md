@@ -241,7 +241,11 @@ values you got for $a$ and $c$ at the end of the steps you executed.
 This is your equivalent function.
 
 Delisle Example:
-$°C = 100 - °De⋅\frac{2}{3}$
+
+The Delise to Celcius conversion is: $°C = 100 - °De⋅\frac{2}{3}$
+
+Which expressed as a proper function is: $f\sup{°De to °C}(x) = 100 - x⋅\frac{2}{3}$
+
 - $a_0 = \frac{2}{3}$
 - $c_0 = 100$
 - $a = -a_0 = -\frac{2}{3}$
