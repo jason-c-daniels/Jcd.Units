@@ -250,7 +250,7 @@ Expressed as a function:
 
 Where $x$ is in °De
 
-$f(x) = 100 - x⋅\frac{2}{3}$
+$f(x) = 100 - \frac{2}{3}⋅x$
 
 From that representation we can extract our terms:
 
