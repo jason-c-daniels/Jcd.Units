@@ -5,8 +5,8 @@ into the library's standard formula. This is a matter of calculating a suitable 
 from the derived unit of measure, to the base unit of measure.
 
 The intended audience for this document are software engineers needing to accomodate a new unit conversion. _The reader
-*must be familiar with* algebraic concepts, creating [equivalent functions](https://www.thoughtco.com/understanding-equivalent-equations-4157661), 
-and standard algebraic notation<sup>7</sup>._ 
+must be familiar with basic algebraic concepts, standard algebraic notation<sup>7</sup>, and the basics of 
+creating [equivalent functions](https://www.thoughtco.com/understanding-equivalent-equations-4157661)._
 
 NOTE: This library only handles units of measure conversions where the conversion function can be expressed as a 
 linear function, such as: $f(x) = a⋅x + c$.
