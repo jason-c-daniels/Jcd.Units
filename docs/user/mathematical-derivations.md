@@ -253,10 +253,12 @@ $f(x) = -\frac{2}{3}⋅(x + -150)$ or $f(x) = -\frac{2}{3}⋅(x - 150)$ for a mo
 
 This function gives the exact same results as the original. This makes it an equivalent function.
 
+
+Delisle Code Example:
+
 In code you'll create a new `UnitOfMeasure<T>` derived instance passing $a$ in for the `coefficient`
 and $c$ for the `offset` parameters.
 
-Delisle Example:
 ```csharp
 /// <summary>
 /// degrees delisle defined such that: SI degrees celsius = (°De + -150) × -2.0/3.0.
