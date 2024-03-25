@@ -117,11 +117,11 @@ Alternately these formulas may be written as:
 
 $f(x) = x - c_0$
 
-This is identical to:
+This is equivalent to:
 
 $f(x) = x + -c_0$
 
-Which is identical to:
+Which is equivalent to:
 
 $f(x) = 1⋅(x + -c_0)$
 
