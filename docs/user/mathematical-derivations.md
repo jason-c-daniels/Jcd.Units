@@ -244,11 +244,11 @@ Delisle Example:
 $°C = 100 - °De⋅\frac{2}{3}$
 - $a_0 = \frac{2}{3}$
 - $c_0 = 100$
-- $a = -a_0 = \frac{-2}{3}$
-- $c = \frac{c_0}{-a_0} = \frac{100}{\frac{-2}{3}} = 100 ⋅\frac{-3}{2} = -150$.
+- $a = -a_0 = -\frac{2}{3}$
+- $c = \frac{c_0}{-a_0} = \frac{100}{-\frac{2}{3}} = 100 ⋅-\frac{3}{2} = -150$.
 
 Substituting values in the standard formula gives:
-$f(x) = \frac{-2}{3}⋅(x + -150)$
+$f(x) = -\frac{2}{3}⋅(x + -150)$
 
 This function gives the exact same results as the original. This makes it an equivalent function.
 
