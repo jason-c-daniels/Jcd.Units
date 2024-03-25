@@ -204,10 +204,10 @@ _standard formula_, but it is one we've covered above.
 
    $f(x) = -a_0⋅x + c_0$
 
-4. Define $a$ to be $-a_0$ and we have the exact same formula as in _Coefficient With Offset Applied After
+4. Taking $-a_0$ as $a$ and $c_0$ as $c$ we se the exact same formula as _Coefficient With Offset Applied After
    Multiplication_.
 
-   $f(x) = a⋅x + c_0$
+   $f(x) = -a_0⋅x + c_0$
 
 The rest of the steps, and therefore the result, are same as using the method laid out in _Coefficient With Offset
 Applied After Multiplication_.
@@ -215,7 +215,7 @@ Applied After Multiplication_.
 This gives us:
 
 - $a = -a_0$
-- $c = \frac{c_0}{a}$
+- $c = \frac{c_0}{-a_0}$
 
 ## The Input Unit Is Subtracted From A Constant
 

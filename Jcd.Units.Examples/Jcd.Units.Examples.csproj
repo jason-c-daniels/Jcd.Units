@@ -15,7 +15,7 @@
    </ItemGroup>
 
    <ItemGroup>
-      <PackageReference Include="Hardware.Info" Version="11.0.0" />
+      <PackageReference Include="Hardware.Info" Version="11.0.1"/>
       <PackageReference Include="Jcd.Reflection" Version="1.0.56" />
       <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
    </ItemGroup>
