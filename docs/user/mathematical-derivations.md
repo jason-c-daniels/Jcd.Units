@@ -8,8 +8,8 @@ The intended audience for this document are software engineers needing to accomo
 *must be familiar with* algebraic concepts, creating [equivalent functions](https://www.thoughtco.com/understanding-equivalent-equations-4157661), 
 and standard algebraic notation<sup>7</sup>._ 
 
-NOTE: This library only handles units of measure conversions where the conversion function can be expressed as:
-$f(x) = a⋅x + c$.
+NOTE: This library only handles units of measure conversions where the conversion function can be expressed as a 
+linear function, such as: $f(x) = a⋅x + c$.
 
 ## The Unit Conversion Formula
 
@@ -159,8 +159,6 @@ As the header suggest this formula is as follows:
 
 $f(x) = a⋅x + c_0$
 
-NOTE: This is also the standard algebraic form for any linear function. 
-
 We use the following steps to determine the correct value for $c$. The value of $a$ in the original formula is already
 compatible.
 
@@ -185,6 +183,8 @@ This gives us:
 - $a$ is unaltered.
 - $c = \frac{c_0}{a}$
 
+NOTE: This is also the standard algebraic notation for any linear function.
+
 ## Subtract the Result of Multiplication from the Constant 
 
 The generic form for this formula is:
@@ -207,8 +207,8 @@ _standard formula_, but it is one we've covered above.
 
    $f(x) = -a_0⋅x + c_0$
 
-Now do the steps for _Coefficient With Offset Applied After Multiplication_, substituting $-a_0$ for $a$ 
-and use $c_0$ as-is.
+Now perform the steps for _Coefficient With Offset Applied After Multiplication_, substituting $-a_0$ for $a$ 
+and use $c_0$ _as-is_.
 
 This gives us:
 
@@ -306,7 +306,7 @@ public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°D
      different context.
    - For example: 
      - $c$ in physics means the speed of light in a vaccuum. This is not a physics paper, so that meaning does not 
-       in this document. 
+       apply in this document. 
      - In this document, $c$ is an arbitrary constant one extracts or computes from a unit of measure conversion 
        formula. This is consistent with standard algebraic notation as linked above.
 8. This representation was selected because it simplified a couple of internal processes that allow for defining
