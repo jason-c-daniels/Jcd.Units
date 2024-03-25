@@ -219,7 +219,7 @@ NOTE: Converting from Delisle to Celsius is this type of formula:
 
 $°C = 100 - °De⋅\frac{2}{3}$
 
-## The Input Unit Is Subtracted From A Constant
+## The Input Unit Is Subtracted From a Constant
 
 These conversions look like the following:
 
