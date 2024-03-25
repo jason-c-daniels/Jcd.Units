@@ -244,7 +244,7 @@ Delisle Example:
 
 The Delise to Celcius conversion is: $°C = 100 - °De⋅\frac{2}{3}$
 
-Which expressed as a proper function is: $f^{°De to °C}(x) = 100 - x⋅\frac{2}{3}$
+Which expressed as a proper function is: $f^{°De} ^{to} ^{°C}(x) = 100 - x⋅\frac{2}{3}$
 
 - $a_0 = \frac{2}{3}$
 - $c_0 = 100$
