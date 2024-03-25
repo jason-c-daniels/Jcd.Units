@@ -185,7 +185,7 @@ This gives us:
 
 NOTE: This is also the standard algebraic notation for any linear function.
 
-## Subtract the Result of Multiplication from the Constant 
+## Subtract the Result of Multiplication from a Constant 
 
 The generic form for this formula is:
 
@@ -225,7 +225,7 @@ These conversions look like the following:
 
 $f(x) = c_0 - x$
 
-These are a minor variation of the _Subtract the Result of Multiplication from the Constant_ conversions where $a_0 = 1$:
+These are a minor variation of the _Subtract the Result of Multiplication from a Constant_ conversions where $a_0 = 1$:
 
 $f(x) = c_0 - x⋅1$
 
