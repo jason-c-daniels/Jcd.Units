@@ -308,5 +308,5 @@ public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°D
 8. This representation was selected because it simplified a couple of internal processes that allow for defining
    units of measure, nearly arbitrarilty, in terms of each other.
 9. This representation was chosen to keep temperature conversions between Fahrenheit and Celcius as familiar 
-   looking as possible. As a standard linear function the conversion to celcius is: $f(x) = \frac{5}{9}⋅x - 17.\overline{77}$,
+   looking as possible. As a standard linear function the conversion to Celcius is: $f(x) = \frac{5}{9}⋅x - 17.\overline{77}$,
    or $f(x) = \frac{5}{9}⋅x - \frac{160}{9}$. Both representations are unfamiliar to most people.
