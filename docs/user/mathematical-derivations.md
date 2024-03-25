@@ -189,20 +189,16 @@ NOTE: This is also the standard algebraic notation for any linear function.
 
 The generic form for this formula is:
 
-$f(x) = c_0 - x⋅a_0$
+$f(x) = c_0 - a_0⋅x$
 
 To get the values needed we first rearrange the terms a little in order to see a familiar structure. It's not quite the
 _standard formula_, but it is one we've covered above.
 
 1. Turn subtraction into addition.
 
-   $f(x) = c_0 + -x⋅a_0$
-
-2. Attach the minus sign to the coefficient $a_0$, and place it to the left of $x$
-
    $f(x) = c_0 + -a_0⋅x$
 
-3. Reorder the addition so the multiplication is on the left. We now essentially have _Coefficient With Offset
+2. Reorder the addition so the multiplication is on the left. We now essentially have _Coefficient With Offset
    Applied After Multiplication_.
 
    $f(x) = -a_0⋅x + c_0$
