@@ -261,7 +261,7 @@ Delisle Example:
 /// <summary>
 /// degrees delisle defined such that: SI degrees celsius = (°De + -150) × -2.0/3.0.
 /// </summary>
-public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelsius, -2.0 / 3.0, -150, system: "");
+public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelsius, coefficient: -2.0 / 3.0, offset: -150, system: "");
 
 ```
 
