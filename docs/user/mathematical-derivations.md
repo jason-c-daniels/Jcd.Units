@@ -136,11 +136,6 @@ These formulas look like the following:
 
 $f(x) = a⋅(x - c_0)$
 
-NOTE: The formula for converting from Fahrenheit to Celsius is this type of formula:
-
-$°C = \frac{5}{9}⋅(°F - 32)$
-
-
 This is remarkably close to the desired formula:
 
 $f(x) =  a⋅(x + c)$
@@ -153,6 +148,10 @@ This gives us:
 
 - $a$ is unaltered.
 - $c = -c_0$
+
+NOTE: The formula for converting from Fahrenheit to Celsius is this type of formula:
+
+$°C = \frac{5}{9}⋅(°F - 32)$
 
 ## Coefficient With Offset Applied After Multiplication
 
@@ -192,10 +191,6 @@ The generic form for this formula is:
 
 $f(x) = c_0 - x⋅a_0$
 
-Converting from Delisle to Celsius is this type of formula:
-
-$°C = 100 - °De⋅\frac{2}{3}$
-
 To get the values needed we first rearrange the terms a little in order to see a familiar structure. It's not quite the
 _standard formula_, but it is one we've covered above.
 
@@ -219,6 +214,10 @@ This gives us:
 
 - $a = -a_0$
 - $c = \frac{c_0}{-a_0}$
+
+NOTE: Converting from Delisle to Celsius is this type of formula:
+
+$°C = 100 - °De⋅\frac{2}{3}$
 
 ## The Input Unit Is Subtracted From A Constant
 
