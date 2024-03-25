@@ -23,9 +23,9 @@ As a math function this is expressed as follows<sup>8</sup>:
 $f(x) = a⋅(x + c)$
 
 FORMULA NOTES:
-- This is the _standard formula_ for this library. In otherwords, this is the function used by this library. 
-  It was chosen to keep temperature conversions between Fahrenheit and Celcius as familiar looking as possible.
-- $f(x)$ is the function that converts **to** the base unit from the derived unit.<sup>3</sup>
+- This is the _standard formula_ for this library: the linear function representation used by this library.<sup>9</sup> 
+  All unit of measure conversions must be expressed as function of this structure. 
+- $f(x)$ is the function that converts **to** the _base unit_ **from** the _derived unit_.<sup>3</sup>
 - $x$ is the value represented in the derived unit of measure.
 - $a$ is the coefficient, a constant.
 - $c$ is the offset, a constant.
@@ -307,3 +307,6 @@ public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°D
        formula. This is consistent with standard algebraic notation as linked above.
 8. This representation was selected because it simplified a couple of internal processes that allow for defining
    units of measure, nearly arbitrarilty, in terms of each other.
+9. This representation was chosen to keep temperature conversions between Fahrenheit and Celcius as familiar 
+   looking as possible. As a standard linear function the conversion to celcius is: $f(x) = \frac{5}{9}⋅x - 17.\overline{77}$,
+   or $f(x) = \frac{5}{9}⋅x - \frac{160}{9}$. Both representations are unfamiliar to most people.
