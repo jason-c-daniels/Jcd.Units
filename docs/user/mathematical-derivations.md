@@ -305,8 +305,8 @@ public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°D
    - The symbols used in this document are all standard algebraic symbols and may have a different meaning in a 
      different context.
    - For example: 
-     - $c$ in physics means the speed of light in a vaccuum. This is not a physics paper, so leave
-       that meaning behind. 
+     - $c$ in physics means the speed of light in a vaccuum. This is not a physics paper, so that meaning does not 
+       in this document. 
      - In this document, $c$ is an arbitrary constant one extracts or computes from a unit of measure conversion 
        formula. This is consistent with standard algebraic notation as linked above.
 8. This representation was selected because it simplified a couple of internal processes that allow for defining
