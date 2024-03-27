@@ -1,15 +1,27 @@
 # Mathematical Derivations For Selecting a Coefficient and Offset
 
-Within this file you'll find the mathematical derivations<sup>4</sup> used to transform various unit of measure formulas
-into the library's standard formula. This is a matter of calculating a suitable `Offset` and `Coefficient` to convert 
-from the derived unit of measure, to the base unit of measure.
+## Document Purpose
 
+This document explains the mathematics for the methods used to select an appropriate `Coefficient` and `Offset` when 
+creating new unit(s) of measure. That process involves extracting components of a conversion formula the reader is
+starting with. These components are used to compute the appropriate `Coefficient` and `Offset`.
+
+To that end, below you'll find the mathematical derivations<sup>4</sup> used to transform various unit of measure 
+formulas into the library's standard formula. These derivations, and the conclusions of them, give the reader the 
+specific coefficient and offset transformations necessary to calculate the new coefficient and offset that can be 
+used with this library.
+
+For just the transformations and code example see: 
+[Function Transformation Cheatsheet](function-transformation-cheatsheet.md) 
+
+## Intended Audience
 The intended audience for this document are software engineers needing to accomodate a new unit conversion. _The reader
 must be familiar with basic algebraic concepts, standard algebraic notation<sup>7</sup>, and the basics of 
 creating [equivalent functions](https://www.thoughtco.com/understanding-equivalent-equations-4157661)._
 
 NOTE: This library only handles units of measure conversions where the conversion function can be expressed as a 
-linear function, such as: $f(x) = a⋅x + c$.
+linear function, such as: $f(x) = a⋅x + c$. This is a single variable linear function. The following sections detail
+the math behind extracting $a$ and $c$ from that and other single variable linear functions.
 
 ## The Unit Conversion Formula
 
@@ -18,63 +30,54 @@ effectively defined as:
 
 `BaseUnit = Coefficient ⋅ (DerivedUnit + Offset)` <sup>1, 3, 8</sup>
 
-As a math function this is expressed as follows<sup>8</sup>:
+As a mathematical formula this is expressed as follows<sup>8</sup>:
 
 $f(x) = a⋅(x + c)$
 
 FORMULA NOTES:
-- This is the _standard formula_ for this library: the linear function representation used by this library.<sup>9</sup> 
-  All unit of measure conversions must be expressed as function of this structure. 
 - $f(x)$ is the function that converts **to** the _base unit_ **from** the _derived unit_.<sup>3</sup>
 - $x$ is the value represented in the derived unit of measure.
 - $a$ is the coefficient, a constant.
 - $c$ is the offset, a constant.
 
-Functions which don't already match this representation must be reworked so that an appropriate $a$ and $c$ can be
-selected to yield an [equivalent function](https://www.thoughtco.com/understanding-equivalent-equations-4157661). 
+This is the _standard formula_ for this library: the linear function representation used by this library.<sup>9</sup>
+Formulas which don't already match this representation must be reworked so that an appropriate $a$ and $c$ can be
+calculated to yield an [equivalent function](https://www.thoughtco.com/understanding-equivalent-equations-4157661). This allows you to use this library to convert to and from the 
+unit of measure you'd like to add.
+
+A formula not already expressed as $f(x) = a⋅(x + c)$ is termed the _starting formula_ as it will be used to select an
+$a$ and $c$, creating an equivalent function using the _standard formula_.
 
 To that end, the following sections:
-1. Provide guidance for how to select an appropriate $a$ and $c$ for some well known 
-   conversions formulas.
-2. Walk the reader through, step by step, how to rearrange these formulas, to arrive at the
-   calculations for $a$ and $c$ given a source formula.
+1. Provide guidance for how to select an appropriate $a$ and $c$ for some well known conversions formulas.
+2. Walk the reader through, step by step, how to rearrange these formulas, to arrive at the calculations for 
+   $a$ and $c$ given a starting formula.
 3. Build on each other and are intended to be read in order.
 4. Do not give advice for non-linear conversion functions. Those are not handled by this library.
 
-### Notation For Starting Formulas
+### Notation:
 
 When walking the reader through the derivations the _starting formula_ for a type of conversion is provided. The 
 following notation is used in the _starting formula_:
 
-- When the coefficient in the starting formula will be unaltered, it's denoted as just $a$.
-- When the coefficient in the starting formula will be altered to use with the standard formula it's denoted as  $a_0$.
-- When the offset in the starting formula will be unaltered, it's denoted as just $c$.
-- When the offset in the starting formula will be altered to use with the standard formula it's denoted as $c_0$.
-
-### Reminder
-
-When reading below keep the following substitutions in mind:
-
-- $f(x)$ is the same as `BaseUnit` above.
-- $x$ is the same as `DerivedUnit` above.
-- $c$ is the same as `Offset` above.
-- $a$ is the same as `Coefficient` above.
-- $a_0$ is a coefficient in the starting formula, and will be used to compute $a$ and possibly $c$.
-- $c_0$ is an offset in the starting formula, and will be used to compute $c$.
+- $a$ is a coefficient used with this library.
+- $c$ is an offset used with this library.
+- $a_0$ is a coefficient found in the _starting formula_.
+- $c_0$ is an offset found in the _starting formula_.
 
 ## Simple Coefficient Formulas
 
 Formulas only using a coefficient are already in a compatible form. They're typically written as follows:
 
-$f(x) = a⋅x$
+$f(x) = a_0⋅x$
 
 This is the same as:
 
-$f(x) = a⋅(x + 0)$
+$f(x) = a_0⋅(x + 0)$
 
 This gives us:
 
-- $a$ is unaltered.
+- $a = a_0$
 - $c = 0$
 
 ### With Division Instead of Multiplication
@@ -104,12 +107,12 @@ $f(x) = x + c$
 
 This is the same as:
 
-$f(x) = 1⋅(x + c)$
+$f(x) = 1⋅(x + c_0)$
 
 This gives us:
 
 - $a = 1$
-- $c$ is unaltered.
+- $c = c_0$
 
 ### With Subtraction Instead of Addition
 
@@ -134,19 +137,19 @@ This gives us:
 
 These formulas look like the following:
 
-$f(x) = a⋅(x - c_0)$
+$f(x) = a_0⋅(x - c_0)$
 
 This is remarkably close to the desired formula:
 
 $f(x) =  a⋅(x + c)$
 
-When we change subtraction to addition of a negative we effectively get to the _standard formula_:
+When we change subtraction to addition of a negative we get a _standard formula_ representation:
 
-$f(x) = a⋅(x + -c_0)$
+$f(x) = a_0⋅(x + -c_0)$
 
 This gives us:
 
-- $a$ is unaltered.
+- $a = a_0$
 - $c = -c_0$
 
 NOTE: The formula for converting from Fahrenheit to Celsius is this type of formula:
@@ -157,31 +160,31 @@ $°C = \frac{5}{9}⋅(°F - 32)$
 
 As the header suggest this formula is as follows:
 
-$f(x) = a⋅x + c_0$
+$f(x) = a_0⋅x + c_0$
 
 We use the following steps to determine the correct value for $c$. The value of $a$ in the original formula is already
 compatible.
 
-1. Create an equivalent function which we can use to divide all terms by $a$; this is done by multiplying by $\frac{a}{a}$.
+1. Create an equivalent function which we can use to divide all terms by $a_0$; this is done by multiplying by $\frac{a_0}{a_0}$.
 
-   $f(x) = \frac{a}{a}⋅(a⋅x + c_0)$
+   $f(x) = \frac{a_0}{a_0}⋅(a_0⋅x + c_0)$
 
 2. Distribute the division.
 
-   $f(x) = a⋅(\frac{a⋅x}{a} + \frac{c_0}{a})$
+   $f(x) = a_0⋅(\frac{a_0⋅x}{a_0} + \frac{c_0}{a_0})$
 
 3. Remove the canceled term.
 
-   $f(x) = a⋅(x + \frac{c_0}{a})$
+   $f(x) = a_0⋅(x + \frac{c_0}{a_0})$
 
-4. From the above we see that $a$ remains unchange and that:
+4. From the above we see that:
 
-   $c = \frac{c_0}{a}$
+   $a = a_0$ and $c = \frac{c_0}{a_0}$
 
 This gives us:
 
-- $a$ is unaltered.
-- $c = \frac{c_0}{a}$
+- $a = a_0$
+- $c = \frac{c_0}{a_0}$
 
 NOTE: This is also the standard algebraic notation for any linear function.
 
@@ -246,9 +249,7 @@ The Delise to Celcius conversion is:
 
 $°C = 100 - \frac{2}{3}⋅°De$
 
-Expressed as a function:
-
-Where $x$ is in °De
+Expressed as the function, where $x$ is in °De:
 
 $f(x) = 100 - \frac{2}{3}⋅x$
 
@@ -265,7 +266,7 @@ Substituting values in the standard formula gives:
 
 $f(x) = -\frac{2}{3}⋅(x + -150)$ or $f(x) = -\frac{2}{3}⋅(x - 150)$ for a more naturally reading function. 
 
-This function gives the exact same results as the original. This makes it an equivalent function.
+This function gives the exact same results as the original.
 
 
 Delisle Code Example:
@@ -280,7 +281,6 @@ and $c$ for the `offset` parameters.
 public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°De", SI.Temperatures.DegreesCelsius, coefficient: -2.0 / 3.0, offset: -150, system: "");
 
 ```
-
 
 ## End Notes
 
@@ -308,5 +308,6 @@ public static readonly Temperature DegreesDelisle = new ("degrees delisle", "°D
 8. This representation was selected because it simplified a couple of internal processes that allow for defining
    units of measure, nearly arbitrarilty, in terms of each other.
 9. This representation was chosen to keep temperature conversions between Fahrenheit and Celcius as familiar 
-   looking as possible. As a standard linear function the conversion to Celcius is: $f(x) = \frac{5}{9}⋅x - 17.\overline{77}$,
-   or $f(x) = \frac{5}{9}⋅x - \frac{160}{9}$. Both representations are unfamiliar to most people.
+   looking as possible. As a standard linear function the conversion from Fahrenheit to Celcius is: 
+   $f(x) = \frac{5}{9}⋅x - 17.\overline{77}$, or $f(x) = \frac{5}{9}⋅x - \frac{160}{9}$. Both representations 
+   are unfamiliar to most people.

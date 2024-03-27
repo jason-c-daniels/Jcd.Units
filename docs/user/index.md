@@ -11,5 +11,5 @@
 - [Index 1 - Built-In Units of Measure](index1/index.md)
 - [Quick Start](quick-start.md)
 - [Quick Facts](quick-facts.md)
+- [Function Transformation Cheatsheet](function-transformation-cheatsheet.md)
 - [Mathematical Derivations For Selecting A Coefficient and Offset](mathematical-derivations.md)
-
