@@ -4,19 +4,15 @@
 
 - To create a new unit of measure using this library, you need to select an appropriate 
   `Coefficient` and `Offset`. These will come from an existing conversion formula.<sup>1,2</sup>
-- This library the formula: $f(x) = a⋅(x + c)$; where $a$ and $c$ are the `Coefficient` and `Offset`, 
+- This library uses the formula: $f(x) = a⋅(x + c)$; where $a$ and $c$ are the `Coefficient` and `Offset`, 
   provided to this library.
 - Unless the conversion formula is already expressed in that form, the correct $a$ and $c$ will need to be caluclated
   from an existing conversion formula.
-- The conversion formula to calculate $a$ and $c$ from is the _starting formula_.
-- Coefficients and constants from the _starting formula_ are written as $a_0$ and $c_0$, 
+- The conversion formula to calculate $a$ and $c$ from is called the _starting conversion formula_.
+- Coefficients and constants from the _starting conversion formula_ are written as $a_0$ and $c_0$, 
   respectively.
 
 ## Coefficient and Constant Calculations
-
-These are given below in the following format:
-
-$f(x) = ... \implies a = ... ; c= ...$
 
 The formulas listed are given in generic form. You'll need to match an existing form, or rework
 the formulas you have into one of those listed below:
@@ -25,8 +21,7 @@ the formulas you have into one of those listed below:
 |--------------|------------|---------------------------|
 | $f(x) = ...$ | $\implies$ | $a = ...$ <br/> $c = ...$ |
 
-Recall that the standard formula for this library is: $f(x) = a⋅(x + c)$; and that the values for $a$ and $c$ 
-are used in code to define a new unit of measure. 
+Recall that the standard formula for this library is: $f(x) = a⋅(x + c)$; and that the values for $a$ and $c$ are used in code to define a new unit of measure.
 
 To see mathematics supporting these calculations, please see [Mathematical Derivations](mathematical-derivations.md) 
 document. 
