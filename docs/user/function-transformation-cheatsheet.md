@@ -17,7 +17,7 @@
 The formulas listed are given in generic form. You'll need to match an existing form, or rework
 the formulas you have into one of those listed below:
 
-|              |            |                           |
+|Starting Conversion Formula |            |   $a$ and $c$        |
 |--------------|------------|---------------------------|
 | $f(x) = ...$ | $\implies$ | $a = ...$ <br/> $c = ...$ |
 
@@ -26,7 +26,7 @@ Recall that the standard formula for this library is: $f(x) = a⋅(x + c)$; and 
 To see mathematics supporting these calculations, please see [Mathematical Derivations](mathematical-derivations.md) 
 document. 
 
-| Starting Conversion Formula | $\implies$ | $a$ and $c$                             |
+| Starting Conversion Formula |  | $a$ and $c$                             |
 |-----------------------------|------------|-----------------------------------------|
 | $f(x) = a_0⋅x$              | $\implies$ | $a = a_0$ <br/> $c=0$                   |
 | $f(x) = \frac{x}{a_0}$      | $\implies$ | $a = \frac{1}{a_0}$ <br/> $c = 0$       |
