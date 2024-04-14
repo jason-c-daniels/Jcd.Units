@@ -1,9 +1,9 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison 'Jcd.Units.DoubleComparison').[BuiltInRoundingComparer](BuiltInRoundingComparer 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
 
 ## BuiltInRoundingComparer(int, MidpointRounding) Constructor
 
-Constructs an instance of [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding
+Constructs an instance of [BuiltInRoundingComparer](BuiltInRoundingComparer 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer') from number of decimal places and a rounding
 method.
 
 ```csharp

@@ -1,9 +1,9 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure(string, string, TUnit, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit of measure using another [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') as a base.
+Constructs a unit of measure using another [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>') as a base.
 
 ```csharp
 protected UnitOfMeasure(string name, string symbol, TUnit? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
@@ -20,11 +20,11 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+The symbol or abbreviation to represent the [UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit'></a>
 
-`baseUnit` [TUnit](UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')
+`baseUnit` [TUnit](UnitOfMeasure_TUnit_#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')
 
 The unit to use as a base
 
@@ -32,19 +32,19 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the [baseUnit](UnitOfMeasure_TUnit_..ctor.ppaE236Nm6TcDuxxxVbfFA.md#Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, TUnit, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
+The coefficient relative to the [baseUnit](UnitOfMeasure_TUnit_..ctor.ppaE236Nm6TcDuxxxVbfFA#Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, TUnit, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).offset'></a>
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the [baseUnit](UnitOfMeasure_TUnit_..ctor.ppaE236Nm6TcDuxxxVbfFA.md#Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, TUnit, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
+The offset from the [baseUnit](UnitOfMeasure_TUnit_..ctor.ppaE236Nm6TcDuxxxVbfFA#Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitOfMeasure<TUnit>.UnitOfMeasure(string, string, TUnit, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).comparer'></a>
 
-`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
+`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')
 
-The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons.
+The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>') used for comparisons.
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.UnitOfMeasure(string,string,TUnit,double,double,Jcd.Units.IValueComparer_double_,string).system'></a>
 

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey.md 'Jcd.Units.UnitsOfMeasure.USSurvey').[Volumes](Volumes.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Volumes')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey 'Jcd.Units.UnitsOfMeasure.USSurvey').[Volumes](Volumes 'Jcd.Units.UnitsOfMeasure.USSurvey.Volumes')
 
 ## Volumes.CubicRod Field
 
@@ -10,4 +10,4 @@ public static readonly Volume CubicRod;
 ```
 
 #### Field Value
-[Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
+[Volume](Volume 'Jcd.Units.UnitTypes.Volume')

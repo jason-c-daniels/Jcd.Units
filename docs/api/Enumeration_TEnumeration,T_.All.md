@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Enumeration&lt;TEnumeration,T&gt;](Enumeration_TEnumeration,T_.md 'Jcd.Units.Enumeration<TEnumeration,T>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[Enumeration&lt;TEnumeration,T&gt;](Enumeration_TEnumeration,T_ 'Jcd.Units.Enumeration<TEnumeration,T>')
 
 ## Enumeration<TEnumeration,T>.All Field
 

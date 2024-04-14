@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure.md 'Jcd.Units.UnitsOfMeasure').[Temperatures](Temperatures.md 'Jcd.Units.UnitsOfMeasure.Temperatures')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure 'Jcd.Units.UnitsOfMeasure').[Temperatures](Temperatures 'Jcd.Units.UnitsOfMeasure.Temperatures')
 
 ## Temperatures.DegreesRømer Field
 
@@ -10,4 +10,4 @@ public static readonly Temperature DegreesRømer;
 ```
 
 #### Field Value
-[Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')
+[Temperature](Temperature 'Jcd.Units.UnitTypes.Temperature')

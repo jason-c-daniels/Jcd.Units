@@ -12,7 +12,7 @@ specific coefficient and offset transformations necessary to calculate the new c
 used with this library.
 
 For just the transformations and code example see:
-[Function Transformation Cheatsheet](function-transformation-cheatsheet.md)
+[Function Transformation Cheatsheet](function-transformation-cheatsheet)
 
 ## Intended Audience
 

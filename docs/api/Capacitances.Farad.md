@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Capacitances](Capacitances.md 'Jcd.Units.UnitsOfMeasure.SI.Capacitances')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Capacitances](Capacitances 'Jcd.Units.UnitsOfMeasure.SI.Capacitances')
 
 ## Capacitances.Farad Field
 
@@ -10,4 +10,4 @@ public static readonly Capacitance Farad;
 ```
 
 #### Field Value
-[Capacitance](Capacitance.md 'Jcd.Units.UnitTypes.Capacitance')
+[Capacitance](Capacitance 'Jcd.Units.UnitTypes.Capacitance')

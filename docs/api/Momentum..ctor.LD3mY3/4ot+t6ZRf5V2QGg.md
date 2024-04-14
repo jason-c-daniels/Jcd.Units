@@ -1,9 +1,9 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes 'Jcd.Units.UnitTypes').[Momentum](Momentum 'Jcd.Units.UnitTypes.Momentum')
 
 ## Momentum(string, string, Momentum, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') using another [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum') as a
+Constructs a unit measuring a specified [Momentum](Momentum 'Jcd.Units.UnitTypes.Momentum') using another [Momentum](Momentum 'Jcd.Units.UnitTypes.Momentum') as a
 reference.
 
 ```csharp
@@ -21,11 +21,11 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum')
+The symbol or abbreviation to represent the [Momentum](Momentum 'Jcd.Units.UnitTypes.Momentum')
 
 <a name='Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit'></a>
 
-`baseUnit` [Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum')
+`baseUnit` [Momentum](Momentum 'Jcd.Units.UnitTypes.Momentum')
 
 The unit to use as a base
 
@@ -33,19 +33,19 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the [baseUnit](Momentum..ctor.LD3mY3/4ot+t6ZRf5V2QGg.md#Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Momentum.Momentum(string, string, Jcd.Units.UnitTypes.Momentum, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
+The coefficient relative to the [baseUnit](Momentum..ctor.LD3mY3/4ot+t6ZRf5V2QGg#Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Momentum.Momentum(string, string, Jcd.Units.UnitTypes.Momentum, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).offset'></a>
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the [baseUnit](Momentum..ctor.LD3mY3/4ot+t6ZRf5V2QGg.md#Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Momentum.Momentum(string, string, Jcd.Units.UnitTypes.Momentum, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
+The offset from the [baseUnit](Momentum..ctor.LD3mY3/4ot+t6ZRf5V2QGg#Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Momentum.Momentum(string, string, Jcd.Units.UnitTypes.Momentum, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
 
 <a name='Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).comparer'></a>
 
-`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
+`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')
 
-The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons.
+The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>') used for comparisons.
 
 <a name='Jcd.Units.UnitTypes.Momentum.Momentum(string,string,Jcd.Units.UnitTypes.Momentum,double,double,Jcd.Units.IValueComparer_double_,string).system'></a>
 

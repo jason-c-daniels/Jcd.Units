@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.IsSynonym(TUnit) Method
 
@@ -12,7 +12,7 @@ public bool IsSynonym(TUnit other);
 
 <a name='Jcd.Units.UnitOfMeasure_TUnit_.IsSynonym(TUnit).other'></a>
 
-`other` [TUnit](UnitOfMeasure_TUnit_.md#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')
+`other` [TUnit](UnitOfMeasure_TUnit_#Jcd.Units.UnitOfMeasure_TUnit_.TUnit 'Jcd.Units.UnitOfMeasure<TUnit>.TUnit')
 
 The unit to compare against.
 

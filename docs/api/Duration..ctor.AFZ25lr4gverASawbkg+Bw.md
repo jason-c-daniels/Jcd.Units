@@ -1,9 +1,9 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes 'Jcd.Units.UnitTypes').[Duration](Duration 'Jcd.Units.UnitTypes.Duration')
 
 ## Duration(string, string, Duration, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') using another [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration') as a
+Constructs a unit measuring a specified [Duration](Duration 'Jcd.Units.UnitTypes.Duration') using another [Duration](Duration 'Jcd.Units.UnitTypes.Duration') as a
 reference.
 
 ```csharp
@@ -21,11 +21,11 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')
+The symbol or abbreviation to represent the [Duration](Duration 'Jcd.Units.UnitTypes.Duration')
 
 <a name='Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit'></a>
 
-`baseUnit` [Duration](Duration.md 'Jcd.Units.UnitTypes.Duration')
+`baseUnit` [Duration](Duration 'Jcd.Units.UnitTypes.Duration')
 
 The unit to use as a base
 
@@ -33,19 +33,19 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the [baseUnit](Duration..ctor.AFZ25lr4gverASawbkg+Bw.md#Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Duration.Duration(string, string, Jcd.Units.UnitTypes.Duration, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
+The coefficient relative to the [baseUnit](Duration..ctor.AFZ25lr4gverASawbkg+Bw#Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Duration.Duration(string, string, Jcd.Units.UnitTypes.Duration, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).offset'></a>
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the [baseUnit](Duration..ctor.AFZ25lr4gverASawbkg+Bw.md#Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Duration.Duration(string, string, Jcd.Units.UnitTypes.Duration, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
+The offset from the [baseUnit](Duration..ctor.AFZ25lr4gverASawbkg+Bw#Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Duration.Duration(string, string, Jcd.Units.UnitTypes.Duration, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
 
 <a name='Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).comparer'></a>
 
-`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
+`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')
 
-The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons.
+The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>') used for comparisons.
 
 <a name='Jcd.Units.UnitTypes.Duration.Duration(string,string,Jcd.Units.UnitTypes.Duration,double,double,Jcd.Units.IValueComparer_double_,string).system'></a>
 

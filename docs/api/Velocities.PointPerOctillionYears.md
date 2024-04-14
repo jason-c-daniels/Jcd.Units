@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.USCustomary](Jcd.Units.UnitsOfMeasure.USCustomary.md 'Jcd.Units.UnitsOfMeasure.USCustomary').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Velocities')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.USCustomary](Jcd.Units.UnitsOfMeasure.USCustomary 'Jcd.Units.UnitsOfMeasure.USCustomary').[Velocities](Velocities 'Jcd.Units.UnitsOfMeasure.USCustomary.Velocities')
 
 ## Velocities.PointPerOctillionYears Field
 
@@ -10,4 +10,4 @@ public static readonly Velocity PointPerOctillionYears;
 ```
 
 #### Field Value
-[Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
+[Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity')

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[MathQ](MathQ.md 'Jcd.Units.MathQ')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[MathQ](MathQ 'Jcd.Units.MathQ')
 
 ## MathQ.Asinh(double, Angle) Method
 
@@ -18,10 +18,10 @@ the number to perform the inverse hyperbolic sine function on.
 
 <a name='Jcd.Units.MathQ.Asinh(double,Jcd.Units.UnitTypes.Angle).outputUnitOfMeasure'></a>
 
-`outputUnitOfMeasure` [Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')
+`outputUnitOfMeasure` [Angle](Angle 'Jcd.Units.UnitTypes.Angle')
 
 The optional, requested output unit of measure.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')[Angle](Angle 'Jcd.Units.UnitTypes.Angle')[&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')
 The angle whose hyperbolic sine is the specified number.

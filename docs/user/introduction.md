@@ -2,7 +2,7 @@
 
 ## About This Library
 
-As already indicated in [README.md](../../../README.md): `Jcd.Units` "is a _dotnet 6_ library that provides a set of
+As already indicated in [README](../../../README): `Jcd.Units` "is a _dotnet 6_ library that provides a set of
 utility classes and compile time safety for managing unit of measure bound quantities."
 
 In practical terms, this means that this library requires _dotnet 6.0_ or later and provides a set of tightly coupled
@@ -34,7 +34,7 @@ attention.
 This project is not currently financially backed, materially supported or nor influenced by any particular company. That
 said, if you're a company or individual who likes what I'm doing here, and wish to fund work, the project repository on
 GitHub has funding links available. [Jcd.Units on GitHub](https://github.com/jason-c-daniels/Jcd.Units) Sponsors get my
-appreciation and a mention here and in the README.md of the repository.
+appreciation and a mention here and in the README of the repository.
 
 If you are looking to support this work in some other capacity, use the Discussions feature on the GitHub project to
 initiate that conversation. (e.g. Code contributor, data validator, technical writer, provide hardware to test on
@@ -55,10 +55,10 @@ Metric lengths, or the slightly more involved matter of converting between Fahre
 
 Additionally it assumes you are familiar with the basic `dotnet` command-line usage, C#, and basic algebra. All code
 examples are given in C#. And as appropriate the underlying math pertinent to the conversion will be provided. One
-exception is the [Mathematical Derivations For Selecting A Coefficient and Offset](../mathematical-derivations.md)
+exception is the [Mathematical Derivations For Selecting A Coefficient and Offset](../mathematical-derivations)
 document. It only discusses the mathematics involved in how certain constant conversions were arrived at. As such,
 you'll need familiarity the process of creating equivalent functions.
 
-Finally, [Chapter 4](../ch4/index.md) assumes you understand the fundamentals of multi-threading, software performance,
+Finally, [Chapter 4](../ch4/index) assumes you understand the fundamentals of multi-threading, software performance,
 and IEEE754 double precision floating point numbers. It details various considerations and limitations of this library
 with respect to those concepts.

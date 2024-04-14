@@ -1,9 +1,9 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')
 
 ## Quantity<TUnit>.Equals(Quantity<TUnit>) Method
 
-Compares this instance to another [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instance for equality.
+Compares this instance to another [Quantity&lt;TUnit&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>') instance for equality.
 
 ```csharp
 public bool Equals(Jcd.Units.Quantity<TUnit> other);
@@ -12,7 +12,7 @@ public bool Equals(Jcd.Units.Quantity<TUnit> other);
 
 <a name='Jcd.Units.Quantity_TUnit_.Equals(Jcd.Units.Quantity_TUnit_).other'></a>
 
-`other` [Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+`other` [Jcd.Units.Quantity&lt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')
 
 The other instance to compare against.
 

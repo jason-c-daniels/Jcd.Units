@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Velocities')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Velocities](Velocities 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Velocities')
 
 ## Velocities.PlanckLengthPerQuadrillionYears Field
 
@@ -11,4 +11,4 @@ public static readonly Velocity PlanckLengthPerQuadrillionYears;
 ```
 
 #### Field Value
-[Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
+[Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity')

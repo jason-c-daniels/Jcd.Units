@@ -59,7 +59,7 @@ If you plan on creating your own units of measure based on the built-in unit of 
 you will need to use the `Jcd.Units.UnitTypes` namespace.
 
 There are other subnamespaces within `Jcd.Units` and their use will be discussed
-in [Chapter 3 - Advanced Usage](../ch3/index.md).
+in [Chapter 3 - Advanced Usage](../ch3/index).
 
 ### Example 1: Using Only Predefined SI Units of Measure
 
@@ -76,8 +76,8 @@ using Jcd.Units.UnitTypes;
 using Jcd.Units.UnitsOfMeasure.SI;
 ```
 
-Refer to the [API Documentation](../../api/Jcd.Units.md), which also gives namespace,
-or [Index 1 - Built-In Units of Measure](../index1/index.md) for a list of the built in units.
+Refer to the [API Documentation](../../api/Jcd.Units), which also gives namespace,
+or [Index 1 - Built-In Units of Measure](../index1/index) for a list of the built in units.
 
 ## Part 3: Using More Than One System of Measure
 
@@ -139,7 +139,7 @@ usage of each.
 This is the tightly bound form of `UnitRegistry` alluded to above. When using either form you must first ensure that the
 units of measure you're interested in have been registered with the registry. This can be done manually with a call
 to `Register` or automatically through one of the `AutoRegister` methods. For these examples we'll assume this has
-already been done. [Chapter 2](../ch2/index.md) covers using these methods.
+already been done. [Chapter 2](../ch2/index) covers using these methods.
 
 As well it's good to note that both versions of `UnitRegistry` will have access to the unit of measure no matter how
 it's registered.
@@ -190,7 +190,7 @@ var m = lookup["m"].First();
 This is the loosely bound form of `UnitRegistry` alluded to above. As above when using either form you must first ensure
 that the units of measure you're interested in have been registered with the registry. This can be done manually with a
 call to `Register` or automatically through one of the `AutoRegister` methods. For these examples we'll assume this has
-already been done. [Chapter 2](../ch2/index.md) covers using these methods.
+already been done. [Chapter 2](../ch2/index) covers using these methods.
 
 As well it's good to note that both versions of `UnitRegistry` will have access to the unit of measure no matter how
 it's registered.

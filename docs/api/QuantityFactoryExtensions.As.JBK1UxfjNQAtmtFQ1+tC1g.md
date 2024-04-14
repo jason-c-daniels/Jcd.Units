@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[QuantityFactoryExtensions](QuantityFactoryExtensions.md 'Jcd.Units.QuantityFactoryExtensions')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[QuantityFactoryExtensions](QuantityFactoryExtensions 'Jcd.Units.QuantityFactoryExtensions')
 
 ## QuantityFactoryExtensions.As<TUnit>(this float, TUnit) Method
 
@@ -26,10 +26,10 @@ The [System.Single](https://docs.microsoft.com/en-us/dotnet/api/System.Single 'S
 
 <a name='Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisfloat,TUnit).unitOfMeasure'></a>
 
-`unitOfMeasure` [TUnit](QuantityFactoryExtensions.As.JBK1UxfjNQAtmtFQ1+tC1g.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisfloat,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this float, TUnit).TUnit')
+`unitOfMeasure` [TUnit](QuantityFactoryExtensions.As.JBK1UxfjNQAtmtFQ1+tC1g#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisfloat,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this float, TUnit).TUnit')
 
 The unit of measure to use.
 
 #### Returns
-[Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.JBK1UxfjNQAtmtFQ1+tC1g.md#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisfloat,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this float, TUnit).TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
-A new [Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>') instance.
+[Jcd.Units.Quantity&lt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')[TUnit](QuantityFactoryExtensions.As.JBK1UxfjNQAtmtFQ1+tC1g#Jcd.Units.QuantityFactoryExtensions.As_TUnit_(thisfloat,TUnit).TUnit 'Jcd.Units.QuantityFactoryExtensions.As<TUnit>(this float, TUnit).TUnit')[&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')
+A new [Quantity&lt;TUnit&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>') instance.

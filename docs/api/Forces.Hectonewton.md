@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Forces](Forces.md 'Jcd.Units.UnitsOfMeasure.SI.Forces')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Forces](Forces 'Jcd.Units.UnitsOfMeasure.SI.Forces')
 
 ## Forces.Hectonewton Field
 
@@ -10,4 +10,4 @@ public static readonly Force Hectonewton;
 ```
 
 #### Field Value
-[Force](Force.md 'Jcd.Units.UnitTypes.Force')
+[Force](Force 'Jcd.Units.UnitTypes.Force')

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Volumes](Volumes.md 'Jcd.Units.UnitsOfMeasure.SI.Volumes')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Volumes](Volumes 'Jcd.Units.UnitsOfMeasure.SI.Volumes')
 
 ## Volumes.CubicQuectometer Field
 
@@ -10,4 +10,4 @@ public static readonly Volume CubicQuectometer;
 ```
 
 #### Field Value
-[Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
+[Volume](Volume 'Jcd.Units.UnitTypes.Volume')

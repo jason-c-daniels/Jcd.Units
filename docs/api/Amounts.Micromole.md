@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Amounts](Amounts.md 'Jcd.Units.UnitsOfMeasure.SI.Amounts')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Amounts](Amounts 'Jcd.Units.UnitsOfMeasure.SI.Amounts')
 
 ## Amounts.Micromole Field
 
@@ -10,4 +10,4 @@ public static readonly Amount Micromole;
 ```
 
 #### Field Value
-[Amount](Amount.md 'Jcd.Units.UnitTypes.Amount')
+[Amount](Amount 'Jcd.Units.UnitTypes.Amount')

@@ -13,7 +13,7 @@
         documentation.
       - So a formula for converting among SI lengths could look like the following: `Meter = 1000 × Kilometer`.
       - While degrees Delisle would resemble `°C = (°De + -150) × -2/3`, which is typically written `100 - °De × 2/3`. (
-        See [Mathematical Derivations](mathematical-derivations.md) as to why these are equivalent functions.)
+        See [Mathematical Derivations](mathematical-derivations) as to why these are equivalent functions.)
 - This library only supports **simple** unit of measure handling. It doesn't synthesize new units, nor does it perform
   certain well known unit type transformations (e.g. Area = Length1 \* Length2).
    - Basically the context of the operation cannot be known.
@@ -23,9 +23,9 @@
         in mind?
       - The library cannot know any of that. Only the person writing the code knows their own intent.
       - Also, for even more complex unit of measure relationships the problem gets even more difficult.
-   - A more detailed explanation is given in [Chapter 4](index.md).
+   - A more detailed explanation is given in [Chapter 4](index).
 - The data is stored in memory as an IEEE754 double precision floating point number. These come with some concerns
-  relative to comparisons and arithmetic. These are discussed in [Chapter 4](ch4/index.md).
+  relative to comparisons and arithmetic. These are discussed in [Chapter 4](ch4/index).
 - **Do not** use the quantity type instances within algorithms requiring extremely high performance. This library is an
   ease of use enhancement, and is not as fast as pure double comparisons and arithmetic.
 - **Do not** use the quantity type instances within algorithms requiring extremely high precision. In addition to using

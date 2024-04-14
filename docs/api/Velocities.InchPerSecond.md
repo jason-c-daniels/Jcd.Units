@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.Imperial.Velocities')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial 'Jcd.Units.UnitsOfMeasure.Imperial').[Velocities](Velocities 'Jcd.Units.UnitsOfMeasure.Imperial.Velocities')
 
 ## Velocities.InchPerSecond Field
 
@@ -10,4 +10,4 @@ public static readonly Velocity InchPerSecond;
 ```
 
 #### Field Value
-[Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
+[Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity')

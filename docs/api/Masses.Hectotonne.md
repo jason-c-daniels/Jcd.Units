@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Masses](Masses.md 'Jcd.Units.UnitsOfMeasure.SI.Masses')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Masses](Masses 'Jcd.Units.UnitsOfMeasure.SI.Masses')
 
 ## Masses.Hectotonne Field
 
@@ -10,4 +10,4 @@ public static readonly Mass Hectotonne;
 ```
 
 #### Field Value
-[Mass](Mass.md 'Jcd.Units.UnitTypes.Mass')
+[Mass](Mass 'Jcd.Units.UnitTypes.Mass')

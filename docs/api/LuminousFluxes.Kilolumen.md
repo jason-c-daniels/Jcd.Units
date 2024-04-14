@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[LuminousFluxes](LuminousFluxes.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousFluxes')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[LuminousFluxes](LuminousFluxes 'Jcd.Units.UnitsOfMeasure.SI.LuminousFluxes')
 
 ## LuminousFluxes.Kilolumen Field
 
@@ -10,4 +10,4 @@ public static readonly LuminousFlux Kilolumen;
 ```
 
 #### Field Value
-[LuminousFlux](LuminousFlux.md 'Jcd.Units.UnitTypes.LuminousFlux')
+[LuminousFlux](LuminousFlux 'Jcd.Units.UnitTypes.LuminousFlux')

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units')
 
 ## UnitRegistry<TUnit> Class
 
@@ -21,16 +21,16 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Fields | |
 | :--- | :--- |
-| [Default](UnitRegistry_TUnit_.Default.md 'Jcd.Units.UnitRegistry<TUnit>.Default') | The default unit registry instance. |
+| [Default](UnitRegistry_TUnit_.Default 'Jcd.Units.UnitRegistry<TUnit>.Default') | The default unit registry instance. |
 
 | Properties | |
 | :--- | :--- |
-| [All](UnitRegistry_TUnit_.All.md 'Jcd.Units.UnitRegistry<TUnit>.All') | All registered or discovered instances of the type of unit. |
-| [NameLookup](UnitRegistry_TUnit_.NameLookup.md 'Jcd.Units.UnitRegistry<TUnit>.NameLookup') | Returns a lookup of the named unit to the unit(s) with matching names. |
-| [SymbolLookup](UnitRegistry_TUnit_.SymbolLookup.md 'Jcd.Units.UnitRegistry<TUnit>.SymbolLookup') | Returns a lookup of the unit(s) with matching symbols. |
+| [All](UnitRegistry_TUnit_.All 'Jcd.Units.UnitRegistry<TUnit>.All') | All registered or discovered instances of the type of unit. |
+| [NameLookup](UnitRegistry_TUnit_.NameLookup 'Jcd.Units.UnitRegistry<TUnit>.NameLookup') | Returns a lookup of the named unit to the unit(s) with matching names. |
+| [SymbolLookup](UnitRegistry_TUnit_.SymbolLookup 'Jcd.Units.UnitRegistry<TUnit>.SymbolLookup') | Returns a lookup of the unit(s) with matching symbols. |
 
 | Methods | |
 | :--- | :--- |
-| [AutoregisterFrom(Assembly)](UnitRegistry_TUnit_.AutoregisterFrom.uYZTwNDM08i5OKgLrRE0zA.md 'Jcd.Units.UnitRegistry<TUnit>.AutoregisterFrom(Assembly)') | Searches the specified assembly and registers matching unit types from fields and/or properties. |
-| [AutoregisterFromAllAssemblies()](UnitRegistry_TUnit_.AutoregisterFromAllAssemblies().md 'Jcd.Units.UnitRegistry<TUnit>.AutoregisterFromAllAssemblies()') | Searches all loaded assemblies and registers matching unit types from fields and/or properties. |
-| [Register(TUnit)](UnitRegistry_TUnit_.Register.0P89l8yEDFFWnoeFBgUPmQ.md 'Jcd.Units.UnitRegistry<TUnit>.Register(TUnit)') | Registers a single unit of measure. |
+| [AutoregisterFrom(Assembly)](UnitRegistry_TUnit_.AutoregisterFrom.uYZTwNDM08i5OKgLrRE0zA 'Jcd.Units.UnitRegistry<TUnit>.AutoregisterFrom(Assembly)') | Searches the specified assembly and registers matching unit types from fields and/or properties. |
+| [AutoregisterFromAllAssemblies()](UnitRegistry_TUnit_.AutoregisterFromAllAssemblies() 'Jcd.Units.UnitRegistry<TUnit>.AutoregisterFromAllAssemblies()') | Searches all loaded assemblies and registers matching unit types from fields and/or properties. |
+| [Register(TUnit)](UnitRegistry_TUnit_.Register.0P89l8yEDFFWnoeFBgUPmQ 'Jcd.Units.UnitRegistry<TUnit>.Register(TUnit)') | Registers a single unit of measure. |

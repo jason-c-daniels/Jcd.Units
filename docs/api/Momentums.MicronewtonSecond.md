@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Momentums](Momentums.md 'Jcd.Units.UnitsOfMeasure.SI.Momentums')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Momentums](Momentums 'Jcd.Units.UnitsOfMeasure.SI.Momentums')
 
 ## Momentums.MicronewtonSecond Field
 
@@ -10,4 +10,4 @@ public static readonly Momentum MicronewtonSecond;
 ```
 
 #### Field Value
-[Momentum](Momentum.md 'Jcd.Units.UnitTypes.Momentum')
+[Momentum](Momentum 'Jcd.Units.UnitTypes.Momentum')

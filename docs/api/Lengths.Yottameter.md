@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Lengths](Lengths.md 'Jcd.Units.UnitsOfMeasure.SI.Lengths')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Lengths](Lengths 'Jcd.Units.UnitsOfMeasure.SI.Lengths')
 
 ## Lengths.Yottameter Field
 
@@ -10,4 +10,4 @@ public static readonly Length Yottameter;
 ```
 
 #### Field Value
-[Length](Length.md 'Jcd.Units.UnitTypes.Length')
+[Length](Length 'Jcd.Units.UnitTypes.Length')

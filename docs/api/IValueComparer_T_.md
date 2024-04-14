@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units')
 
 ## IValueComparer<T> Interface
 
@@ -18,8 +18,8 @@ public interface IValueComparer<in T>
 The datatype being compared
 
 Derived
-&#8627; [BitwiseDoubleComparer](BitwiseDoubleComparer.md 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer')
-&#8627; [BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
+&#8627; [BitwiseDoubleComparer](BitwiseDoubleComparer 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer')
+&#8627; [BuiltInRoundingComparer](BuiltInRoundingComparer 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
 
 ### Remarks
 This type is used to provide stable hash codes (i.e. hash codes that are identical for values

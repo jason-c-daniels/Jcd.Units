@@ -1,9 +1,9 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes 'Jcd.Units.UnitTypes').[Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity')
 
 ## Velocity(string, string, Velocity, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') using another [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity') as a
+Constructs a unit measuring a specified [Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity') using another [Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity') as a
 reference.
 
 ```csharp
@@ -21,11 +21,11 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
+The symbol or abbreviation to represent the [Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity')
 
 <a name='Jcd.Units.UnitTypes.Velocity.Velocity(string,string,Jcd.Units.UnitTypes.Velocity,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit'></a>
 
-`baseUnit` [Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
+`baseUnit` [Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity')
 
 The unit to use as a base
 
@@ -33,19 +33,19 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the [baseUnit](Velocity..ctor.RvhSoaKJHMcvb5d7/jaFUA.md#Jcd.Units.UnitTypes.Velocity.Velocity(string,string,Jcd.Units.UnitTypes.Velocity,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Velocity.Velocity(string, string, Jcd.Units.UnitTypes.Velocity, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
+The coefficient relative to the [baseUnit](Velocity..ctor.RvhSoaKJHMcvb5d7/jaFUA#Jcd.Units.UnitTypes.Velocity.Velocity(string,string,Jcd.Units.UnitTypes.Velocity,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Velocity.Velocity(string, string, Jcd.Units.UnitTypes.Velocity, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.Velocity.Velocity(string,string,Jcd.Units.UnitTypes.Velocity,double,double,Jcd.Units.IValueComparer_double_,string).offset'></a>
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the [baseUnit](Velocity..ctor.RvhSoaKJHMcvb5d7/jaFUA.md#Jcd.Units.UnitTypes.Velocity.Velocity(string,string,Jcd.Units.UnitTypes.Velocity,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Velocity.Velocity(string, string, Jcd.Units.UnitTypes.Velocity, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
+The offset from the [baseUnit](Velocity..ctor.RvhSoaKJHMcvb5d7/jaFUA#Jcd.Units.UnitTypes.Velocity.Velocity(string,string,Jcd.Units.UnitTypes.Velocity,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Velocity.Velocity(string, string, Jcd.Units.UnitTypes.Velocity, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
 
 <a name='Jcd.Units.UnitTypes.Velocity.Velocity(string,string,Jcd.Units.UnitTypes.Velocity,double,double,Jcd.Units.IValueComparer_double_,string).comparer'></a>
 
-`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
+`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')
 
-The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons.
+The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>') used for comparisons.
 
 <a name='Jcd.Units.UnitTypes.Velocity.Velocity(string,string,Jcd.Units.UnitTypes.Velocity,double,double,Jcd.Units.IValueComparer_double_,string).system'></a>
 

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.USCustomary](Jcd.Units.UnitsOfMeasure.USCustomary.md 'Jcd.Units.UnitsOfMeasure.USCustomary').[Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.USCustomary.Accelerations')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.USCustomary](Jcd.Units.UnitsOfMeasure.USCustomary 'Jcd.Units.UnitsOfMeasure.USCustomary').[Accelerations](Accelerations 'Jcd.Units.UnitsOfMeasure.USCustomary.Accelerations')
 
 ## Accelerations.PointPerSquarePlanckTime Field
 
@@ -11,4 +11,4 @@ public static readonly Acceleration PointPerSquarePlanckTime;
 ```
 
 #### Field Value
-[Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')
+[Acceleration](Acceleration 'Jcd.Units.UnitTypes.Acceleration')

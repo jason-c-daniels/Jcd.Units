@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[IUnitOfMeasure&lt;TUnit&gt;](IUnitOfMeasure_TUnit_.md 'Jcd.Units.IUnitOfMeasure<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[IUnitOfMeasure&lt;TUnit&gt;](IUnitOfMeasure_TUnit_ 'Jcd.Units.IUnitOfMeasure<TUnit>')
 
 ## IUnitOfMeasure<TUnit>.Symbol Property
 

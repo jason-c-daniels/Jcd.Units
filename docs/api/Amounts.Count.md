@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial').[Amounts](Amounts.md 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial 'Jcd.Units.UnitsOfMeasure.Imperial').[Amounts](Amounts 'Jcd.Units.UnitsOfMeasure.Imperial.Amounts')
 
 ## Amounts.Count Field
 
@@ -10,4 +10,4 @@ public static readonly Amount Count;
 ```
 
 #### Field Value
-[Amount](Amount.md 'Jcd.Units.UnitTypes.Amount')
+[Amount](Amount 'Jcd.Units.UnitTypes.Amount')

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasureEnumeration&lt;TEnumeration,T&gt;](UnitOfMeasureEnumeration_TEnumeration,T_.md 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitOfMeasureEnumeration&lt;TEnumeration,T&gt;](UnitOfMeasureEnumeration_TEnumeration,T_ 'Jcd.Units.UnitOfMeasureEnumeration<TEnumeration,T>')
 
 ## UnitOfMeasureEnumeration<TEnumeration,T>.ByName Property
 

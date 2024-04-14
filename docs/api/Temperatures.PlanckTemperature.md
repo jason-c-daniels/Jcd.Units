@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Temperatures](Temperatures.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Temperatures')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Temperatures](Temperatures 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Temperatures')
 
 ## Temperatures.PlanckTemperature Field
 
@@ -10,4 +10,4 @@ public static readonly Temperature PlanckTemperature;
 ```
 
 #### Field Value
-[Temperature](Temperature.md 'Jcd.Units.UnitTypes.Temperature')
+[Temperature](Temperature 'Jcd.Units.UnitTypes.Temperature')

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[RadiationEquivalentDoses](RadiationEquivalentDoses.md 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[RadiationEquivalentDoses](RadiationEquivalentDoses 'Jcd.Units.UnitsOfMeasure.SI.RadiationEquivalentDoses')
 
 ## RadiationEquivalentDoses.Attosievert Field
 
@@ -10,4 +10,4 @@ public static readonly RadiationEquivalentDose Attosievert;
 ```
 
 #### Field Value
-[RadiationEquivalentDose](RadiationEquivalentDose.md 'Jcd.Units.UnitTypes.RadiationEquivalentDose')
+[RadiationEquivalentDose](RadiationEquivalentDose 'Jcd.Units.UnitTypes.RadiationEquivalentDose')

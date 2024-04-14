@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical.md 'Jcd.Units.UnitsOfMeasure.Astronomical').[Areas](Areas.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical 'Jcd.Units.UnitsOfMeasure.Astronomical').[Areas](Areas 'Jcd.Units.UnitsOfMeasure.Astronomical.Areas')
 
 ## Areas.SquareMarsRadius Field
 
@@ -10,4 +10,4 @@ public static readonly Area SquareMarsRadius;
 ```
 
 #### Field Value
-[Area](Area.md 'Jcd.Units.UnitTypes.Area')
+[Area](Area 'Jcd.Units.UnitTypes.Area')

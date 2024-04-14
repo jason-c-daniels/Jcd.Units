@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitRegistry](UnitRegistry.md 'Jcd.Units.UnitRegistry')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitRegistry](UnitRegistry 'Jcd.Units.UnitRegistry')
 
 ## UnitRegistry.Default Field
 
@@ -10,4 +10,4 @@ public static UnitRegistry Default;
 ```
 
 #### Field Value
-[UnitRegistry](UnitRegistry.md 'Jcd.Units.UnitRegistry')
+[UnitRegistry](UnitRegistry 'Jcd.Units.UnitRegistry')

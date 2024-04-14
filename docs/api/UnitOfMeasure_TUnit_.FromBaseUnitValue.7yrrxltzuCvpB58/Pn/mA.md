@@ -1,6 +1,6 @@
-#### [Jcd.Units](index.md 'index')
+#### [Jcd.Units](index 'index')
 
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.FromBaseUnitValue(double) Method
 
@@ -16,7 +16,7 @@ public double FromBaseUnitValue(double normalizedValue);
 
 `normalizedValue` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-Implements [FromBaseUnitValue(double)](IUnitOfMeasure_TUnit_.FromBaseUnitValue.QquOkpzUZ2pTpGuVCnJHTQ.md 'Jcd.Units.IUnitOfMeasure<TUnit>.FromBaseUnitValue(double)')
+Implements [FromBaseUnitValue(double)](IUnitOfMeasure_TUnit_.FromBaseUnitValue.QquOkpzUZ2pTpGuVCnJHTQ 'Jcd.Units.IUnitOfMeasure<TUnit>.FromBaseUnitValue(double)')
 
 #### Returns
 

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[ElectricalCharges](ElectricalCharges.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[ElectricalCharges](ElectricalCharges 'Jcd.Units.UnitsOfMeasure.SI.ElectricalCharges')
 
 ## ElectricalCharges.Centicoulomb Field
 
@@ -10,4 +10,4 @@ public static readonly ElectricalCharge Centicoulomb;
 ```
 
 #### Field Value
-[ElectricalCharge](ElectricalCharge.md 'Jcd.Units.UnitTypes.ElectricalCharge')
+[ElectricalCharge](ElectricalCharge 'Jcd.Units.UnitTypes.ElectricalCharge')

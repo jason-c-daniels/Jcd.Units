@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey.md 'Jcd.Units.UnitsOfMeasure.USSurvey').[Areas](Areas.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Areas')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey 'Jcd.Units.UnitsOfMeasure.USSurvey').[Areas](Areas 'Jcd.Units.UnitsOfMeasure.USSurvey.Areas')
 
 ## Areas.SquareRod Field
 
@@ -10,4 +10,4 @@ public static readonly Area SquareRod;
 ```
 
 #### Field Value
-[Area](Area.md 'Jcd.Units.UnitTypes.Area')
+[Area](Area 'Jcd.Units.UnitTypes.Area')

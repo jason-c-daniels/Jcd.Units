@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison 'Jcd.Units.DoubleComparison').[BuiltInRoundingComparer](BuiltInRoundingComparer 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
 
 ## BuiltInRoundingComparer.SixDecimalPlaces Field
 
@@ -10,4 +10,4 @@ public static readonly BuiltInRoundingComparer SixDecimalPlaces;
 ```
 
 #### Field Value
-[BuiltInRoundingComparer](BuiltInRoundingComparer.md 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')
+[BuiltInRoundingComparer](BuiltInRoundingComparer 'Jcd.Units.DoubleComparison.BuiltInRoundingComparer')

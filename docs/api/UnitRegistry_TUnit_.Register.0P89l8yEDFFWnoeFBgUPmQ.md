@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitRegistry&lt;TUnit&gt;](UnitRegistry_TUnit_.md 'Jcd.Units.UnitRegistry<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitRegistry&lt;TUnit&gt;](UnitRegistry_TUnit_ 'Jcd.Units.UnitRegistry<TUnit>')
 
 ## UnitRegistry<TUnit>.Register(TUnit) Method
 
@@ -12,6 +12,6 @@ public void Register(TUnit unit);
 
 <a name='Jcd.Units.UnitRegistry_TUnit_.Register(TUnit).unit'></a>
 
-`unit` [TUnit](UnitRegistry_TUnit_.md#Jcd.Units.UnitRegistry_TUnit_.TUnit 'Jcd.Units.UnitRegistry<TUnit>.TUnit')
+`unit` [TUnit](UnitRegistry_TUnit_#Jcd.Units.UnitRegistry_TUnit_.TUnit 'Jcd.Units.UnitRegistry<TUnit>.TUnit')
 
 The unit of measure to register.

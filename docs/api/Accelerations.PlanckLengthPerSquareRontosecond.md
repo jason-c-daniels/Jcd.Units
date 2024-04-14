@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Accelerations')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.TheoreticalPhysics](Jcd.Units.UnitsOfMeasure.TheoreticalPhysics 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics').[Accelerations](Accelerations 'Jcd.Units.UnitsOfMeasure.TheoreticalPhysics.Accelerations')
 
 ## Accelerations.PlanckLengthPerSquareRontosecond Field
 
@@ -11,4 +11,4 @@ public static readonly Acceleration PlanckLengthPerSquareRontosecond;
 ```
 
 #### Field Value
-[Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')
+[Acceleration](Acceleration 'Jcd.Units.UnitTypes.Acceleration')

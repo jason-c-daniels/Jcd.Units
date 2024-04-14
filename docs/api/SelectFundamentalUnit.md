@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitSelection](Jcd.Units.UnitSelection.md 'Jcd.Units.UnitSelection')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitSelection](Jcd.Units.UnitSelection 'Jcd.Units.UnitSelection')
 
 ## SelectFundamentalUnit Class
 
@@ -12,16 +12,16 @@ Jcd.Units.UnitSelection.IUnitSelectionStrategy
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; SelectFundamentalUnit
 
-Implements [IUnitSelectionStrategy](IUnitSelectionStrategy.md 'Jcd.Units.UnitSelection.IUnitSelectionStrategy')
+Implements [IUnitSelectionStrategy](IUnitSelectionStrategy 'Jcd.Units.UnitSelection.IUnitSelectionStrategy')
 
 | Constructors | |
 | :--- | :--- |
-| [SelectFundamentalUnit()](SelectFundamentalUnit.SelectFundamentalUnit().md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.SelectFundamentalUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectFundamentalUnit.Instance.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance') enforcing GC friendliness.) |
+| [SelectFundamentalUnit()](SelectFundamentalUnit.SelectFundamentalUnit() 'Jcd.Units.UnitSelection.SelectFundamentalUnit.SelectFundamentalUnit()') | Prevent others from instantiating it because I'm mean. (Forces the use of [Instance](SelectFundamentalUnit.Instance 'Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance') enforcing GC friendliness.) |
 
 | Fields | |
 | :--- | :--- |
-| [Instance](SelectFundamentalUnit.Instance.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance') | The default (and only) instance of this [IUnitSelectionStrategy](IUnitSelectionStrategy.md 'Jcd.Units.UnitSelection.IUnitSelectionStrategy'). |
+| [Instance](SelectFundamentalUnit.Instance 'Jcd.Units.UnitSelection.SelectFundamentalUnit.Instance') | The default (and only) instance of this [IUnitSelectionStrategy](IUnitSelectionStrategy 'Jcd.Units.UnitSelection.IUnitSelectionStrategy'). |
 
 | Methods | |
 | :--- | :--- |
-| [SelectUnit&lt;TUnit&gt;(TUnit, TUnit)](SelectFundamentalUnit.SelectUnit.aa1PBKeINnkmcEjEGstJGg.md 'Jcd.Units.UnitSelection.SelectFundamentalUnit.SelectUnit<TUnit>(TUnit, TUnit)') | Selects the fundamental unit of measure. This should be the same for both so unit1 is used. |
+| [SelectUnit&lt;TUnit&gt;(TUnit, TUnit)](SelectFundamentalUnit.SelectUnit.aa1PBKeINnkmcEjEGstJGg 'Jcd.Units.UnitSelection.SelectFundamentalUnit.SelectUnit<TUnit>(TUnit, TUnit)') | Selects the fundamental unit of measure. This should be the same for both so unit1 is used. |

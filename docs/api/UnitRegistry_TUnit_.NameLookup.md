@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitRegistry&lt;TUnit&gt;](UnitRegistry_TUnit_.md 'Jcd.Units.UnitRegistry<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitRegistry&lt;TUnit&gt;](UnitRegistry_TUnit_ 'Jcd.Units.UnitRegistry<TUnit>')
 
 ## UnitRegistry<TUnit>.NameLookup Property
 

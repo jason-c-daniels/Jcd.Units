@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial').[Masses](Masses.md 'Jcd.Units.UnitsOfMeasure.Imperial.Masses')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial 'Jcd.Units.UnitsOfMeasure.Imperial').[Masses](Masses 'Jcd.Units.UnitsOfMeasure.Imperial.Masses')
 
 ## Masses.Drachm Field
 
@@ -10,4 +10,4 @@ public static readonly Mass Drachm;
 ```
 
 #### Field Value
-[Mass](Mass.md 'Jcd.Units.UnitTypes.Mass')
+[Mass](Mass 'Jcd.Units.UnitTypes.Mass')

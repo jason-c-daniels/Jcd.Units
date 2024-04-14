@@ -28,7 +28,7 @@ the formulas you have into one of those listed below:
 Recall that the standard formula for this library is: $f(x) = a⋅(x + c)$; and that the values for $a$ and $c$
 are used in code to define a new unit of measure.
 
-To see mathematics supporting these calculations, please see [Mathematical Derivations](mathematical-derivations.md)
+To see mathematics supporting these calculations, please see [Mathematical Derivations](mathematical-derivations)
 document.
 
 | Starting Conversion Formula | $\implies$ | $a$ and $c$                         |

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.Data](Jcd.Units.UnitsOfMeasure.Data.md 'Jcd.Units.UnitsOfMeasure.Data').[TransferRates](TransferRates.md 'Jcd.Units.UnitsOfMeasure.Data.TransferRates')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.Data](Jcd.Units.UnitsOfMeasure.Data 'Jcd.Units.UnitsOfMeasure.Data').[TransferRates](TransferRates 'Jcd.Units.UnitsOfMeasure.Data.TransferRates')
 
 ## TransferRates.BytesPerSecond Field
 
@@ -10,4 +10,4 @@ public static readonly TransferRate BytesPerSecond;
 ```
 
 #### Field Value
-[TransferRate](TransferRate.md 'Jcd.Units.UnitTypes.TransferRate')
+[TransferRate](TransferRate 'Jcd.Units.UnitTypes.TransferRate')

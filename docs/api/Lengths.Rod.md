@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey.md 'Jcd.Units.UnitsOfMeasure.USSurvey').[Lengths](Lengths.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Lengths')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey 'Jcd.Units.UnitsOfMeasure.USSurvey').[Lengths](Lengths 'Jcd.Units.UnitsOfMeasure.USSurvey.Lengths')
 
 ## Lengths.Rod Field
 
@@ -10,4 +10,4 @@ public static readonly Length Rod;
 ```
 
 #### Field Value
-[Length](Length.md 'Jcd.Units.UnitTypes.Length')
+[Length](Length 'Jcd.Units.UnitTypes.Length')

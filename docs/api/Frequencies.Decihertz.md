@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Frequencies](Frequencies.md 'Jcd.Units.UnitsOfMeasure.SI.Frequencies')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Frequencies](Frequencies 'Jcd.Units.UnitsOfMeasure.SI.Frequencies')
 
 ## Frequencies.Decihertz Field
 
@@ -10,4 +10,4 @@ public static readonly Frequency Decihertz;
 ```
 
 #### Field Value
-[Frequency](Frequency.md 'Jcd.Units.UnitTypes.Frequency')
+[Frequency](Frequency 'Jcd.Units.UnitTypes.Frequency')

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')
 
 ## Quantity(double, TUnit) Constructor
 
@@ -18,6 +18,6 @@ The numeric portion, without associated unit of measure
 
 <a name='Jcd.Units.Quantity_TUnit_.Quantity(double,TUnit).Unit'></a>
 
-`Unit` [TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')
+`Unit` [TUnit](Quantity_TUnit_#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')
 
 The unit of measure.

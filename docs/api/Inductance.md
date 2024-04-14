@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes 'Jcd.Units.UnitTypes')
 
 ## Inductance Class
 
@@ -10,8 +10,8 @@ by a change in the current flow.
 public class Inductance : Jcd.Units.UnitOfMeasure<Jcd.Units.UnitTypes.Inductance>
 ```
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')[Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance')[&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; Inductance
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IComparable](https://docs.microsoft.com/en-us/dotnet/api/System.IComparable 'System.IComparable') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; [Jcd.Units.UnitOfMeasure&lt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>')[Inductance](Inductance 'Jcd.Units.UnitTypes.Inductance')[&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>') &#129106; [System.IEquatable](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable 'System.IEquatable') &#129106; Inductance
 
 | Constructors | |
 | :--- | :--- |
-| [Inductance(string, string, Inductance, double, double, IValueComparer&lt;double&gt;, string)](Inductance..ctor.BcyropCKKzpGKJIIXN22oQ.md 'Jcd.Units.UnitTypes.Inductance.Inductance(string, string, Jcd.Units.UnitTypes.Inductance, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Inductance.md 'Jcd.Units.UnitTypes.Inductance') as a reference. |
+| [Inductance(string, string, Inductance, double, double, IValueComparer&lt;double&gt;, string)](Inductance..ctor.BcyropCKKzpGKJIIXN22oQ 'Jcd.Units.UnitTypes.Inductance.Inductance(string, string, Jcd.Units.UnitTypes.Inductance, double, double, Jcd.Units.IValueComparer<double>, string)') | Constructs a unit measuring a specified [Inductance](Inductance 'Jcd.Units.UnitTypes.Inductance') using another [Inductance](Inductance 'Jcd.Units.UnitTypes.Inductance') as a reference. |

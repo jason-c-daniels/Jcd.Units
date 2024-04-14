@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical.md 'Jcd.Units.UnitsOfMeasure.Astronomical').[Masses](Masses.md 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.Astronomical](Jcd.Units.UnitsOfMeasure.Astronomical 'Jcd.Units.UnitsOfMeasure.Astronomical').[Masses](Masses 'Jcd.Units.UnitsOfMeasure.Astronomical.Masses')
 
 ## Masses.JovianMass Field
 
@@ -10,4 +10,4 @@ public static readonly Mass JovianMass;
 ```
 
 #### Field Value
-[Mass](Mass.md 'Jcd.Units.UnitTypes.Mass')
+[Mass](Mass 'Jcd.Units.UnitTypes.Mass')

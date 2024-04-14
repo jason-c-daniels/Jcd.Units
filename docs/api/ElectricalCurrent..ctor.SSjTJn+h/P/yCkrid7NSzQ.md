@@ -1,10 +1,10 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes 'Jcd.Units.UnitTypes').[ElectricalCurrent](ElectricalCurrent 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
 ## ElectricalCurrent(string, string, ElectricalCurrent, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') using another
-[ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent') as a reference.
+Constructs a unit measuring a specified [ElectricalCurrent](ElectricalCurrent 'Jcd.Units.UnitTypes.ElectricalCurrent') using another
+[ElectricalCurrent](ElectricalCurrent 'Jcd.Units.UnitTypes.ElectricalCurrent') as a reference.
 
 ```csharp
 public ElectricalCurrent(string name, string symbol, Jcd.Units.UnitTypes.ElectricalCurrent? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null, string system="");
@@ -21,11 +21,11 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the [ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
+The symbol or abbreviation to represent the [ElectricalCurrent](ElectricalCurrent 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
 <a name='Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit'></a>
 
-`baseUnit` [ElectricalCurrent](ElectricalCurrent.md 'Jcd.Units.UnitTypes.ElectricalCurrent')
+`baseUnit` [ElectricalCurrent](ElectricalCurrent 'Jcd.Units.UnitTypes.ElectricalCurrent')
 
 The unit to use as a base
 
@@ -33,19 +33,19 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the [baseUnit](ElectricalCurrent..ctor.SSjTJn+h/P/yCkrid7NSzQ.md#Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string, string, Jcd.Units.UnitTypes.ElectricalCurrent, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
+The coefficient relative to the [baseUnit](ElectricalCurrent..ctor.SSjTJn+h/P/yCkrid7NSzQ#Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string, string, Jcd.Units.UnitTypes.ElectricalCurrent, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double,Jcd.Units.IValueComparer_double_,string).offset'></a>
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the [baseUnit](ElectricalCurrent..ctor.SSjTJn+h/P/yCkrid7NSzQ.md#Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string, string, Jcd.Units.UnitTypes.ElectricalCurrent, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
+The offset from the [baseUnit](ElectricalCurrent..ctor.SSjTJn+h/P/yCkrid7NSzQ#Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string, string, Jcd.Units.UnitTypes.ElectricalCurrent, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
 
 <a name='Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double,Jcd.Units.IValueComparer_double_,string).comparer'></a>
 
-`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
+`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')
 
-The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons.
+The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>') used for comparisons.
 
 <a name='Jcd.Units.UnitTypes.ElectricalCurrent.ElectricalCurrent(string,string,Jcd.Units.UnitTypes.ElectricalCurrent,double,double,Jcd.Units.IValueComparer_double_,string).system'></a>
 

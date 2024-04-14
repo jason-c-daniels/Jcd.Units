@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.ComputeFundamentalCoefficient(double) Method
 
@@ -14,7 +14,7 @@ public double ComputeFundamentalCoefficient(double coefficient);
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-Implements [ComputeFundamentalCoefficient(double)](IUnitOfMeasure_TUnit_.ComputeFundamentalCoefficient.tl0ngZGU2W+hcEjMFC0Ucw.md 'Jcd.Units.IUnitOfMeasure<TUnit>.ComputeFundamentalCoefficient(double)')
+Implements [ComputeFundamentalCoefficient(double)](IUnitOfMeasure_TUnit_.ComputeFundamentalCoefficient.tl0ngZGU2W+hcEjMFC0Ucw 'Jcd.Units.IUnitOfMeasure<TUnit>.ComputeFundamentalCoefficient(double)')
 
 #### Returns
 [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')

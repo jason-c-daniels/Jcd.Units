@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey.md 'Jcd.Units.UnitsOfMeasure.USSurvey').[Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Accelerations')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey 'Jcd.Units.UnitsOfMeasure.USSurvey').[Accelerations](Accelerations 'Jcd.Units.UnitsOfMeasure.USSurvey.Accelerations')
 
 ## Accelerations.LinkPerSquareDay Field
 
@@ -10,4 +10,4 @@ public static readonly Acceleration LinkPerSquareDay;
 ```
 
 #### Field Value
-[Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')
+[Acceleration](Acceleration 'Jcd.Units.UnitTypes.Acceleration')

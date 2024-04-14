@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[Quantity&lt;TUnit&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')
 
 ## Quantity<TUnit>.explicit operator double(Quantity<TUnit>) Operator
 
@@ -12,7 +12,7 @@ public static double explicit operator double(Jcd.Units.Quantity<TUnit> q);
 
 <a name='Jcd.Units.Quantity_TUnit_.op_Explicitdouble(Jcd.Units.Quantity_TUnit_).q'></a>
 
-`q` [Jcd.Units.Quantity&lt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_.md#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_.md 'Jcd.Units.Quantity<TUnit>')
+`q` [Jcd.Units.Quantity&lt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')[TUnit](Quantity_TUnit_#Jcd.Units.Quantity_TUnit_.TUnit 'Jcd.Units.Quantity<TUnit>.TUnit')[&gt;](Quantity_TUnit_ 'Jcd.Units.Quantity<TUnit>')
 
 The quantity to convert.
 

@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[LuminousIntensities](LuminousIntensities.md 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[LuminousIntensities](LuminousIntensities 'Jcd.Units.UnitsOfMeasure.SI.LuminousIntensities')
 
 ## LuminousIntensities.Microcandela Field
 
@@ -10,4 +10,4 @@ public static readonly LuminousIntensity Microcandela;
 ```
 
 #### Field Value
-[LuminousIntensity](LuminousIntensity.md 'Jcd.Units.UnitTypes.LuminousIntensity')
+[LuminousIntensity](LuminousIntensity 'Jcd.Units.UnitTypes.LuminousIntensity')

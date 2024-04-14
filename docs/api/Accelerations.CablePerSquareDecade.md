@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial.md 'Jcd.Units.UnitsOfMeasure.Imperial').[Accelerations](Accelerations.md 'Jcd.Units.UnitsOfMeasure.Imperial.Accelerations')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.Imperial](Jcd.Units.UnitsOfMeasure.Imperial 'Jcd.Units.UnitsOfMeasure.Imperial').[Accelerations](Accelerations 'Jcd.Units.UnitsOfMeasure.Imperial.Accelerations')
 
 ## Accelerations.CablePerSquareDecade Field
 
@@ -10,4 +10,4 @@ public static readonly Acceleration CablePerSquareDecade;
 ```
 
 #### Field Value
-[Acceleration](Acceleration.md 'Jcd.Units.UnitTypes.Acceleration')
+[Acceleration](Acceleration 'Jcd.Units.UnitTypes.Acceleration')

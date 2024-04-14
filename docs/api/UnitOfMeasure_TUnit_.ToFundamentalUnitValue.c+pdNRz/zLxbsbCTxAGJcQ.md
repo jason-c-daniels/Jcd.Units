@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.ToFundamentalUnitValue(double) Method
 
@@ -14,7 +14,7 @@ public double ToFundamentalUnitValue(double denormalizedValue);
 
 `denormalizedValue` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-Implements [ToFundamentalUnitValue(double)](IUnitOfMeasure_TUnit_.ToFundamentalUnitValue.9rxgmUYTNn0R4fvkmnqVIA.md 'Jcd.Units.IUnitOfMeasure<TUnit>.ToFundamentalUnitValue(double)')
+Implements [ToFundamentalUnitValue(double)](IUnitOfMeasure_TUnit_.ToFundamentalUnitValue.9rxgmUYTNn0R4fvkmnqVIA 'Jcd.Units.IUnitOfMeasure<TUnit>.ToFundamentalUnitValue(double)')
 
 #### Returns
 [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')

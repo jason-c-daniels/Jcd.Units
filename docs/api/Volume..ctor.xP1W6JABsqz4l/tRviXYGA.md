@@ -1,10 +1,10 @@
-#### [Jcd.Units](index.md 'index')
+#### [Jcd.Units](index 'index')
 
-### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
+### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes 'Jcd.Units.UnitTypes').[Volume](Volume 'Jcd.Units.UnitTypes.Volume')
 
 ## Volume(string, string, Volume, double, double, IValueComparer<double>) Constructor
 
-Constructs a unit measuring a specified [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume') using another [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume') as a reference.
+Constructs a unit measuring a specified [Volume](Volume 'Jcd.Units.UnitTypes.Volume') using another [Volume](Volume 'Jcd.Units.UnitTypes.Volume') as a reference.
 
 ```csharp
 public Volume(string name, string symbol, Jcd.Units.UnitTypes.Volume? baseUnit=null, double coefficient=1.0, double offset=0.0, Jcd.Units.IValueComparer<double>? comparer=null);
@@ -22,11 +22,11 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
+The symbol or abbreviation to represent the [Volume](Volume 'Jcd.Units.UnitTypes.Volume')
 
 <a name='Jcd.Units.UnitTypes.Volume.Volume(string,string,Jcd.Units.UnitTypes.Volume,double,double,Jcd.Units.IValueComparer_double_).baseUnit'></a>
 
-`baseUnit` [Volume](Volume.md 'Jcd.Units.UnitTypes.Volume')
+`baseUnit` [Volume](Volume 'Jcd.Units.UnitTypes.Volume')
 
 The unit to use as a base
 
@@ -34,16 +34,16 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the [baseUnit](Volume..ctor.xP1W6JABsqz4l/tRviXYGA.md#Jcd.Units.UnitTypes.Volume.Volume(string,string,Jcd.Units.UnitTypes.Volume,double,double,Jcd.Units.IValueComparer_double_).baseUnit 'Jcd.Units.UnitTypes.Volume.Volume(string, string, Jcd.Units.UnitTypes.Volume, double, double, Jcd.Units.IValueComparer<double>).baseUnit')
+The coefficient relative to the [baseUnit](Volume..ctor.xP1W6JABsqz4l/tRviXYGA#Jcd.Units.UnitTypes.Volume.Volume(string,string,Jcd.Units.UnitTypes.Volume,double,double,Jcd.Units.IValueComparer_double_).baseUnit 'Jcd.Units.UnitTypes.Volume.Volume(string, string, Jcd.Units.UnitTypes.Volume, double, double, Jcd.Units.IValueComparer<double>).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.Volume.Volume(string,string,Jcd.Units.UnitTypes.Volume,double,double,Jcd.Units.IValueComparer_double_).offset'></a>
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the [baseUnit](Volume..ctor.xP1W6JABsqz4l/tRviXYGA.md#Jcd.Units.UnitTypes.Volume.Volume(string,string,Jcd.Units.UnitTypes.Volume,double,double,Jcd.Units.IValueComparer_double_).baseUnit 'Jcd.Units.UnitTypes.Volume.Volume(string, string, Jcd.Units.UnitTypes.Volume, double, double, Jcd.Units.IValueComparer<double>).baseUnit').
+The offset from the [baseUnit](Volume..ctor.xP1W6JABsqz4l/tRviXYGA#Jcd.Units.UnitTypes.Volume.Volume(string,string,Jcd.Units.UnitTypes.Volume,double,double,Jcd.Units.IValueComparer_double_).baseUnit 'Jcd.Units.UnitTypes.Volume.Volume(string, string, Jcd.Units.UnitTypes.Volume, double, double, Jcd.Units.IValueComparer<double>).baseUnit').
 
 <a name='Jcd.Units.UnitTypes.Volume.Volume(string,string,Jcd.Units.UnitTypes.Volume,double,double,Jcd.Units.IValueComparer_double_).comparer'></a>
 
-`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
+`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')
 
-The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons.
+The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>') used for comparisons.

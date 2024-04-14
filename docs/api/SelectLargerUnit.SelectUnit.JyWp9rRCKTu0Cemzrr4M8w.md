@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitSelection](Jcd.Units.UnitSelection.md 'Jcd.Units.UnitSelection').[SelectLargerUnit](SelectLargerUnit.md 'Jcd.Units.UnitSelection.SelectLargerUnit')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitSelection](Jcd.Units.UnitSelection 'Jcd.Units.UnitSelection').[SelectLargerUnit](SelectLargerUnit 'Jcd.Units.UnitSelection.SelectLargerUnit')
 
 ## SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit) Method
 
@@ -20,18 +20,18 @@ The unit of measure type.
 
 <a name='Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).left'></a>
 
-`left` [TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w.md#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
+`left` [TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
 
 The first unit to consider
 
 <a name='Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).right'></a>
 
-`right` [TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w.md#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
+`right` [TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
 
 The second unit to consider.
 
-Implements [SelectUnit&lt;TUnit&gt;(TUnit, TUnit)](IUnitSelectionStrategy.SelectUnit.Klb+x/umqLvPEeeX9EMM+w.md 'Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit<TUnit>(TUnit, TUnit)')
+Implements [SelectUnit&lt;TUnit&gt;(TUnit, TUnit)](IUnitSelectionStrategy.SelectUnit.Klb+x/umqLvPEeeX9EMM+w 'Jcd.Units.UnitSelection.IUnitSelectionStrategy.SelectUnit<TUnit>(TUnit, TUnit)')
 
 #### Returns
-[TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w.md#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
+[TUnit](SelectLargerUnit.SelectUnit.JyWp9rRCKTu0Cemzrr4M8w#Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit_TUnit_(TUnit,TUnit).TUnit 'Jcd.Units.UnitSelection.SelectLargerUnit.SelectUnit<TUnit>(TUnit, TUnit).TUnit')
 The larger unit of measure.

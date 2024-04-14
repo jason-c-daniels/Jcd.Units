@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Energies](Energies.md 'Jcd.Units.UnitsOfMeasure.SI.Energies')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Energies](Energies 'Jcd.Units.UnitsOfMeasure.SI.Energies')
 
 ## Energies.Megajoule Field
 
@@ -10,4 +10,4 @@ public static readonly Energy Megajoule;
 ```
 
 #### Field Value
-[Energy](Energy.md 'Jcd.Units.UnitTypes.Energy')
+[Energy](Energy 'Jcd.Units.UnitTypes.Energy')

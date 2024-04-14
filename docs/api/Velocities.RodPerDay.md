@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey.md 'Jcd.Units.UnitsOfMeasure.USSurvey').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.USSurvey.Velocities')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.USSurvey](Jcd.Units.UnitsOfMeasure.USSurvey 'Jcd.Units.UnitsOfMeasure.USSurvey').[Velocities](Velocities 'Jcd.Units.UnitsOfMeasure.USSurvey.Velocities')
 
 ## Velocities.RodPerDay Field
 
@@ -10,4 +10,4 @@ public static readonly Velocity RodPerDay;
 ```
 
 #### Field Value
-[Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
+[Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity')

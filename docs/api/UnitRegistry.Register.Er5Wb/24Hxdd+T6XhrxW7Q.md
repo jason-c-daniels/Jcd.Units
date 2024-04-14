@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitRegistry](UnitRegistry.md 'Jcd.Units.UnitRegistry')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitRegistry](UnitRegistry 'Jcd.Units.UnitRegistry')
 
 ## UnitRegistry.Register<TUnit>(TUnit) Method
 
@@ -20,6 +20,6 @@ The type of unit of measure.
 
 <a name='Jcd.Units.UnitRegistry.Register_TUnit_(TUnit).unit'></a>
 
-`unit` [TUnit](UnitRegistry.Register.Er5Wb/24Hxdd+T6XhrxW7Q.md#Jcd.Units.UnitRegistry.Register_TUnit_(TUnit).TUnit 'Jcd.Units.UnitRegistry.Register<TUnit>(TUnit).TUnit')
+`unit` [TUnit](UnitRegistry.Register.Er5Wb/24Hxdd+T6XhrxW7Q#Jcd.Units.UnitRegistry.Register_TUnit_(TUnit).TUnit 'Jcd.Units.UnitRegistry.Register<TUnit>(TUnit).TUnit')
 
 The unit of measure.

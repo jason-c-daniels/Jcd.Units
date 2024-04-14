@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[ElectricalConductances](ElectricalConductances.md 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[ElectricalConductances](ElectricalConductances 'Jcd.Units.UnitsOfMeasure.SI.ElectricalConductances')
 
 ## ElectricalConductances.Rontosiemens Field
 
@@ -10,4 +10,4 @@ public static readonly ElectricalConductance Rontosiemens;
 ```
 
 #### Field Value
-[ElectricalConductance](ElectricalConductance.md 'Jcd.Units.UnitTypes.ElectricalConductance')
+[ElectricalConductance](ElectricalConductance 'Jcd.Units.UnitTypes.ElectricalConductance')

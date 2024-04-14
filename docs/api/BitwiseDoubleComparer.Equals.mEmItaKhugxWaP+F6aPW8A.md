@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison.md 'Jcd.Units.DoubleComparison').[BitwiseDoubleComparer](BitwiseDoubleComparer.md 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.DoubleComparison](Jcd.Units.DoubleComparison 'Jcd.Units.DoubleComparison').[BitwiseDoubleComparer](BitwiseDoubleComparer 'Jcd.Units.DoubleComparison.BitwiseDoubleComparer')
 
 ## BitwiseDoubleComparer.Equals(double, double) Method
 

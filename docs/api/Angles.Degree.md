@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure.md 'Jcd.Units.UnitsOfMeasure').[Angles](Angles.md 'Jcd.Units.UnitsOfMeasure.Angles')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure](Jcd.Units.UnitsOfMeasure 'Jcd.Units.UnitsOfMeasure').[Angles](Angles 'Jcd.Units.UnitsOfMeasure.Angles')
 
 ## Angles.Degree Field
 
@@ -10,4 +10,4 @@ public static readonly Angle Degree;
 ```
 
 #### Field Value
-[Angle](Angle.md 'Jcd.Units.UnitTypes.Angle')
+[Angle](Angle 'Jcd.Units.UnitTypes.Angle')

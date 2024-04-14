@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI.md 'Jcd.Units.UnitsOfMeasure.SI').[Velocities](Velocities.md 'Jcd.Units.UnitsOfMeasure.SI.Velocities')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitsOfMeasure.SI](Jcd.Units.UnitsOfMeasure.SI 'Jcd.Units.UnitsOfMeasure.SI').[Velocities](Velocities 'Jcd.Units.UnitsOfMeasure.SI.Velocities')
 
 ## Velocities.MicrometerPerSextillionYears Field
 
@@ -11,4 +11,4 @@ public static readonly Velocity MicrometerPerSextillionYears;
 ```
 
 #### Field Value
-[Velocity](Velocity.md 'Jcd.Units.UnitTypes.Velocity')
+[Velocity](Velocity 'Jcd.Units.UnitTypes.Velocity')

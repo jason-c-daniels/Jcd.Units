@@ -1,9 +1,9 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes.md 'Jcd.Units.UnitTypes').[Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units.UnitTypes](Jcd.Units.UnitTypes 'Jcd.Units.UnitTypes').[Pressure](Pressure 'Jcd.Units.UnitTypes.Pressure')
 
 ## Pressure(string, string, Pressure, double, double, IValueComparer<double>, string) Constructor
 
-Constructs a unit measuring a specified [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure') as a
+Constructs a unit measuring a specified [Pressure](Pressure 'Jcd.Units.UnitTypes.Pressure') using another [Pressure](Pressure 'Jcd.Units.UnitTypes.Pressure') as a
 reference.
 
 ```csharp
@@ -21,11 +21,11 @@ The name of this unit
 
 `symbol` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
 
-The symbol or abbreviation to represent the [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure')
+The symbol or abbreviation to represent the [Pressure](Pressure 'Jcd.Units.UnitTypes.Pressure')
 
 <a name='Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit'></a>
 
-`baseUnit` [Pressure](Pressure.md 'Jcd.Units.UnitTypes.Pressure')
+`baseUnit` [Pressure](Pressure 'Jcd.Units.UnitTypes.Pressure')
 
 The unit to use as a base
 
@@ -33,19 +33,19 @@ The unit to use as a base
 
 `coefficient` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The coefficient relative to the [baseUnit](Pressure..ctor.wPzhzo8CISpd5p6mBdtZcw.md#Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Pressure.Pressure(string, string, Jcd.Units.UnitTypes.Pressure, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
+The coefficient relative to the [baseUnit](Pressure..ctor.wPzhzo8CISpd5p6mBdtZcw#Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Pressure.Pressure(string, string, Jcd.Units.UnitTypes.Pressure, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit')
 
 <a name='Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).offset'></a>
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-The offset from the [baseUnit](Pressure..ctor.wPzhzo8CISpd5p6mBdtZcw.md#Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Pressure.Pressure(string, string, Jcd.Units.UnitTypes.Pressure, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
+The offset from the [baseUnit](Pressure..ctor.wPzhzo8CISpd5p6mBdtZcw#Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).baseUnit 'Jcd.Units.UnitTypes.Pressure.Pressure(string, string, Jcd.Units.UnitTypes.Pressure, double, double, Jcd.Units.IValueComparer<double>, string).baseUnit').
 
 <a name='Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).comparer'></a>
 
-`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>')
+`comparer` [Jcd.Units.IValueComparer&lt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')[System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')[&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>')
 
-The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_.md 'Jcd.Units.IValueComparer<T>') used for comparisons.
+The instance specific [IValueComparer&lt;T&gt;](IValueComparer_T_ 'Jcd.Units.IValueComparer<T>') used for comparisons.
 
 <a name='Jcd.Units.UnitTypes.Pressure.Pressure(string,string,Jcd.Units.UnitTypes.Pressure,double,double,Jcd.Units.IValueComparer_double_,string).system'></a>
 

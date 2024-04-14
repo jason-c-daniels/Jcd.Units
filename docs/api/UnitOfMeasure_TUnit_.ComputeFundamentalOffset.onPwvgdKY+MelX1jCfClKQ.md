@@ -1,5 +1,5 @@
-#### [Jcd.Units](index.md 'index')
-### [Jcd.Units](Jcd.Units.md 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_.md 'Jcd.Units.UnitOfMeasure<TUnit>')
+#### [Jcd.Units](index 'index')
+### [Jcd.Units](Jcd.Units 'Jcd.Units').[UnitOfMeasure&lt;TUnit&gt;](UnitOfMeasure_TUnit_ 'Jcd.Units.UnitOfMeasure<TUnit>')
 
 ## UnitOfMeasure<TUnit>.ComputeFundamentalOffset(double, double) Method
 
@@ -18,7 +18,7 @@ public double ComputeFundamentalOffset(double fundamentalCoefficient, double off
 
 `offset` [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
 
-Implements [ComputeFundamentalOffset(double, double)](IUnitOfMeasure_TUnit_.ComputeFundamentalOffset.dHShegAVwvw43wIz21vDUw.md 'Jcd.Units.IUnitOfMeasure<TUnit>.ComputeFundamentalOffset(double, double)')
+Implements [ComputeFundamentalOffset(double, double)](IUnitOfMeasure_TUnit_.ComputeFundamentalOffset.dHShegAVwvw43wIz21vDUw 'Jcd.Units.IUnitOfMeasure<TUnit>.ComputeFundamentalOffset(double, double)')
 
 #### Returns
 [System.Double](https://docs.microsoft.com/en-us/dotnet/api/System.Double 'System.Double')
